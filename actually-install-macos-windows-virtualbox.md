@@ -4,17 +4,17 @@ First, I will assume that you do not have a mac, and cannot use a mac for any of
 
 1. Install VirtualBox and VirtualBox extensions on the Windows host (make sure to install the extensions and not the host twice; the headings are very similar.) Make sure that the extension version matches the VirtualBox version that you’ve installed. You may have to disable Hyper-V; if you do, restart twice after uninstalling. It has to be twice.
 
-2. Install Cygwin (save the installation file; we will need it later), and then install apt-cyg via (https://stackoverflow.com/a/52546787/220935 in Cygwin; use this answer only, the other answers do not work.)
+2. Install Cygwin (save the installation file; we will need it later), and then install `apt-cyg` via (https://stackoverflow.com/a/52546787/220935 in Cygwin; use this answer only, the other answers do not work.)
 
-3. Re-run the Cygwin installer; when a blank list appears type “wget” in the search box, press enter (there is no search button), and select wget for installation then select the version to install. It doesn’t matter what version it is. Press next as many times as needed to install the software; it will take a few minutes.
+3. Re-run the Cygwin installer; when a blank list appears type `wget` in the search box, press enter (there is no search button), and select wget for installation then select the version to install. It doesn’t matter what version it is. Press next as many times as needed to install the software; it will take a few minutes.
 
-4. Run apt-cyg install xxd coreutils gzip unzip inside of Cygwin. If you get a “command not found” error, make sure that the apt-cyg utility that was saved does not have the .txt extension when you saved it. Windows will sometimes automatically add it even if you delete the extension when saving the file.
+4. Run `apt-cyg install xxd coreutils gzip unzip` inside of Cygwin. If you get a “command not found” error, make sure that the apt-cyg utility that was saved does not have the .txt extension when you saved it. Windows will sometimes automatically add it even if you delete the extension when saving the file.
 
-5. Run curl -O https://raw.githubusercontent.com/myspaghetti/macos-guest-virtualbox/master/macos-guest-virtualbox.sh inside of Cygwin
+5. Run `curl -O https://raw.githubusercontent.com/myspaghetti/macos-guest-virtualbox/master/macos-guest-virtualbox.sh` inside of Cygwin
 
-6. Run chmod a+x ./macos-guest-virtualbox.sh inside of Cygwin
-7. Run ./macos-guest-virtualbox.sh
-8. Wait for everything to install. It will take many hours.
+6. Run `chmod a+x ./macos-guest-virtualbox.sh` inside of Cygwin
+7. Run `./macos-guest-virtualbox.sh`
+8. Wait for everything to install. It will take many hours; the script will ask you to press enter at certain times.
 
 The virtual machine will appear in VirtualBox’s sidebar when you open it. I have tested these steps in a fresh new Windows VM and I have gotten to the step where it begins downloading the macOS images through the script, indicating that the preflight checks have passed.
 
