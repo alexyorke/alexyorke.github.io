@@ -18,4 +18,16 @@ First, I will assume that you do not have a mac, and cannot use a mac for any of
 
 The virtual machine will appear in VirtualBox’s sidebar when you open it. I have tested these steps in a fresh new Windows VM and I have gotten to the step where it begins downloading the macOS images through the script, indicating that the preflight checks have passed.
 
-**Note:** if you plan to take a snapshot, be careful. If you create a snapshot, use the VM, then delete the temporary files and try to revert back to the snapshot, it will fail because the snapshot relies on temporary files which no longer exist, and VirtualBox will not allow you to close the VM even if it's powered off and the icons are in strange places (it seems like a bug.) Before creating the snapshot, unlink these disks: `Mojave_Installation_Files.vdi` and `Install Mojave.vdi`. Save the VM and then you can delete the temporary files and take a snapshot.
+**Note:** if you plan to take a snapshot or want to **export to OVF**, be careful. If you create a snapshot, use the VM, then delete the temporary files and try to revert back to the snapshot, it will fail because the snapshot relies on temporary files which no longer exist, and VirtualBox will not allow you to close the VM even if it's powered off and the icons are in strange places (it seems like a bug.) Before creating the snapshot, unlink these disks: `Mojave_Installation_Files.vdi` and `Install Mojave.vdi`. Save the VM and then you can delete the temporary files and take a snapshot.
+
+## Ut oh, I deleted temporary files after creating a snapshot
+
+Here's how to fix it:
+
+- `create C:/cygwin64/home/username/Install Mojave.vdi` file using a blank VDI file. You can make one by "adding" a disk to the VM, but then just don't attach it when you get to the end. Rename the file to `Install Mojave.vdi` and then move to that path.
+
+- restore snapshot and copy the second UUID to your clipboard from Details error message (click on details to see UUID). If you don't want to restore the snapshot, the UUID is in the `C:\Users\username\.VirtualBox\virtualbox.xml` file; find the disk that starts with "Install".
+
+- set UUID to VBoxManage internalcommands sethduuid "C:\cygwin64\home\username\Install Mojave.vdi" <paste in UUID>
+
+- try to restore snapshot again. It should work; you will get a non-fatal error message. Click OK and the VM will continue booting. To stop seeing this message, remove the disk with the (!) next to it (Mojave_Installation_Files) in the VMs settings (it won't complain when you try to remove it.)
