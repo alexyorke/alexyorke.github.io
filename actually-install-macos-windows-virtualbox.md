@@ -22,12 +22,18 @@ The virtual machine will appear in VirtualBox’s sidebar when you open it. I ha
 
 ## Ut oh, I deleted temporary files after creating a snapshot
 
+Summary: create a fake VDI where VirtualBox wants it, and then set the UUID to the old one so that VirtualBox "thinks" it is still there.
+
 Here's how to fix it:
 
-- `create C:/cygwin64/home/username/Install Mojave.vdi` file using a blank VDI file. You can make one by "adding" a disk to the VM, but then just don't attach it when you get to the end. Rename the file to `Install Mojave.vdi` and then move to that path. Or, you can download the one I made here: https://github.com/alexyorke/alexyorke.github.io/blob/master/blank_vdi.zip (unzip first.)
+- create a file at `C:/cygwin64/home/username/Install Mojave.vdi` using a blank VDI file. You can make one by "adding" a disk to the VM, but then just don't attach it when you get to the end. Rename the file to `Install Mojave.vdi` and then move to that path. Or, you can download the one I made here: https://github.com/alexyorke/alexyorke.github.io/blob/master/blank_vdi.zip (unzip first.)
 
 - restore snapshot and copy the second UUID to your clipboard from Details error message (click on details to see UUID). If you don't want to restore the snapshot, the UUID is in the `C:\Users\username\.VirtualBox\virtualbox.xml` file; find the disk that starts with "Install".
 
-- set UUID to VBoxManage internalcommands sethduuid "C:\cygwin64\home\username\Install Mojave.vdi" <paste in UUID>
+- set UUID via `VBoxManage internalcommands sethduuid "C:\cygwin64\home\username\Install Mojave.vdi" <paste in UUID>` in `cmd`
 
-- try to restore snapshot again. It should work; you will get a non-fatal error message. Click OK and the VM will continue booting. To stop seeing this message, remove the disk with the (!) next to it (Mojave_Installation_Files) in the VMs settings (it won't complain when you try to remove it.)
+- try to restore snapshot again. It should work; you will get a non-fatal error message. Click OK and the VM will continue booting. To stop seeing this message, remove the disk with the (!) next to it (`Mojave_Installation_Files`) in the VMs settings (it won't complain when you try to remove it.)
+
+- the file at `C:/cygwin64/home/username/Install Mojave.vdi` can now be deleted.
+
+If it doesn't boot, make sure that the UUID was correct, and that the character `}` or `{` was not copied.
