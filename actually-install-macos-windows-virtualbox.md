@@ -26,6 +26,8 @@ Summary: create a fake VDI where VirtualBox wants it, and then set the UUID to t
 
 Here's how to fix it:
 
+- close all VirtualBox processes (go into Task Manager and close them; anything with the VirtualBox icon suffices.) There is usually a "VirtualBox Manager" that has to be closed too. It's possible that VirtualBox is stuck or hung, in which case you will have to force quit it.
+
 - create a file at `C:/cygwin64/home/username/Install Mojave.vdi` using a blank VDI file. You can make one by "adding" a disk to the VM, but then just don't attach it when you get to the end. Rename the file to `Install Mojave.vdi` and then move to that path. Or, you can download the one I made here: https://github.com/alexyorke/alexyorke.github.io/blob/master/blank_vdi.zip (unzip first.)
 
 - restore snapshot and copy the second UUID to your clipboard from Details error message (click on details to see UUID). If you don't want to restore the snapshot, the UUID is in the `C:\Users\username\.VirtualBox\virtualbox.xml` file; find the disk that starts with "Install".
