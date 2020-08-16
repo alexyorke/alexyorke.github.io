@@ -61,6 +61,7 @@ Also, install the jq package to parse json files. The following script
 will go to gharchive.com, and extract the commit URLs from the
 PushEvents:
 
+```
 \#!/bin/bash
 
 for Y in {2015..2020}; do
@@ -84,7 +85,7 @@ done;
 done;
 
 done;
-
+```
 Replace "gradle" with your search term. I recommend using a very generic
 term so that you can cast the net as large as possible. If you want to
 search for multiple terms (i.e. OR), write "term1\\|term2\\|term3"
@@ -112,8 +113,10 @@ correct.** Go to
 [*https://console.cloud.google.com/bigquery?project=githubarchive&page=project*](https://console.cloud.google.com/bigquery?project=githubarchive&page=project)
 and run the following query:
 
+```
 SELECT type, payload FROM \`githubarchive.year.2015\` where payload like
 ‘%gradle%’
+```
 
 Repeat for each year up to 2020, exporting the results each time both to
 Google Drive and "manual" 10000 row download (downloading will take the
@@ -130,9 +133,11 @@ out.
 
 Run this command in the CSV directory to extract the URLs:
 
+```
 grep -Ero
 "https:\\/\\/api\\.github\\.com\\/repos\\/\[A-Za-z0-9\\-\]+\\/\[A-Za-z0-9\\-\]+\\/commits\\/\[a-f0-9\]+"
 | cut -d ":" -f 2- | sort -u &gt; \~/gradle\_urls.txt
+```
 
 Now you have a list of URLs in the fraction of the time. Continue onto
 the next step.
@@ -153,9 +158,11 @@ discussed in this post.
 
 To extract the file URLs in each commit, run:
 
+```
 while read -r line; do curl "\$line" | jq .files\[\].raw\_url | cut -d
 '"' -f 2 | sort -u &gt; \~/gradle\_sample\_file\_urls.txt; done &lt;
 \~/gradle\_urls.txt
+```
 
 This will output a list of URLs that point directly to the files in each
 commit, aggregated by commit. At this point you could filter the URLs
@@ -171,7 +178,9 @@ individually but the signal to noise ratio is very low.
 To download all of the URLs (but you probably want to filter them
 first), run:
 
+```
 wget -i \~/gradle\_sample\_file\_urls.txt
+```
 
 This will download all of the sample files. You could say you’re done,
 but there is a bit of cleanup that you might want to do afterwards.
@@ -198,8 +207,10 @@ detecting the programming language for repositories. They have a command
 line tool available here:
 [*https://github.com/github/linguist*](https://github.com/github/linguist).
 
+```
 for i in \*; do if (github-linguist "\$i" | grep -F "language:" | grep
 -q "Gradle"); then echo "\$i"; fi; done;
+```
 
 This will print out all filenames that github-linguist has identified as
 a Gradle file. Unfortunately, with the sample data that I downloaded it
@@ -219,27 +230,24 @@ Each file must be in a different directory, but with the pre-approved
 filename. This script will move each file into a randomly-generated
 directory with the pre-approved filename:
 
+```
 for i in \*; do
-
 UUID=\$(cat /proc/sys/kernel/random/uuid);
-
 mkdir "\$UUID";
-
 mv "\$i" "\$UUID/build.gradle";
-
 done;
+```
 
 Where "build.gradle" is a github-linguist pre-approved filename. Then,
 in the directory with the gradle files, run:
 
+```
 find . -type f -print0 |
-
 while IFS= read -r -d '' line; do
-
 if (github-linguist "\$line" | grep -F "language:" | grep -q "Gradle");
 then echo "\$line"; fi;
-
 done
+```
 
 This will print out a list of file paths that github-linguist thinks are
 Gradle files. I got a *lot* more results after doing it like this. It
@@ -265,7 +273,9 @@ this:
 
 Replace the word "raw.githubusercontent.com" with "github.com":
 
+```
 sed 's/raw\\.githubusercontent\\.com/github\\.com/g'
+```
 
 Add "commits" after the repo name:
 
@@ -281,14 +291,18 @@ This is a quick and dirty way to do it. HTML should not be parsed by
 regex, but this was sufficient enough for my purposes. The next step is
 to download the HTML page, extract the URLs, and print them:
 
+```
 curl
 "https://github.com/github/linguist/commits/a5df9a00ab7c9828bd7038bb9f9bd5e56d325dc9/samples/Gradle/build.gradle"
 | sed -n 's/.\*href="\\(.\*\\)".\*/\\1/p' | grep -oE
 "\\/commit\\/\[0-9a-e\]+"
+```
 
 One of the outputs from this command looks like:
 
+```
 /commit/4ed58c743d
+```
 
 Append the text
 "[*https://api.github.com/repos/github/linguist*](https://api.github.com/repos/github/linguist)":
@@ -296,9 +310,11 @@ Append the text
 
 Download that URL:
 
+```
 curl
 "[*https://api.github.com/repos/github/linguist/commits/4ed58c743d*](https://api.github.com/repos/github/linguist/commits/4ed58c743d)"
 | jq .files\[\].raw\_url | cut -d ‘"‘ -f 2
+```
 
 Each of those URLs will point directly to a raw file, including the
 filename. Grep for the filenames that you want, and download each of
