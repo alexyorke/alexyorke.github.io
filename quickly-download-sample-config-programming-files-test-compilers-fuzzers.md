@@ -62,28 +62,17 @@ will go to gharchive.com, and extract the commit URLs from the
 PushEvents:
 
 ```
-\#!/bin/bash
-
+#!/bin/bash
 for Y in {2015..2020}; do
-
 for M in {01..12}; do
-
 for D in {01..31}; do
-
 for H in {0..23}; do
 
-while read -r line; do echo "\$line" | LC\_ALL=C grep -F
-"\\"type\\":\\"PushEvent\\"" | grep -i "gradle" | jq
-.payload.commits\[\].url | cut -d "\\"" -f 2 &gt;&gt;
-\~/gradle\_urls.txt; done &lt; &lt;(curl
-"https://data.gharchive.org/\$Y-\$M-\$D-\$H.json.gz" | gunzip | sponge);
+while read -r line; do echo "$line" | LC_ALL=C grep -F "\"type\":\"PushEvent\"" | grep -i "gradle" | jq .payload.commits[].url | cut -d "\"" -f 2 >> ~/gradle_urls.txt; done < <(curl "https://data.gharchive.org/$Y-$M-$D-$H.json.gz" | gunzip | sponge);
 
 done;
-
 done;
-
 done;
-
 done;
 ```
 Replace "gradle" with your search term. I recommend using a very generic
