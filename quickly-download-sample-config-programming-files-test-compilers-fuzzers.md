@@ -93,16 +93,15 @@ it could make the code a bit more complicated.
 This will output a list of URLs which correspond to a single commit
 (which can contain many files) whose commit messages contain the word
 "gradle". GitHub’s API is rate-limited, which is why they are saved to a
-file called "gradle\_urls.txt" for further processing at a slower speed.
+file called "gradle_urls.txt" for further processing at a slower speed.
 There are ways around the rate-limit in this API, but they will not be
 discussed in this post.
 
 To extract the file URLs in each commit, run:
 
 ```
-while read -r line; do curl "\$line" | jq .files\[\].raw\_url | cut -d
-'"' -f 2 | sort -u &gt; \~/gradle\_sample\_file\_urls.txt; done &lt;
-\~/gradle\_urls.txt
+while read -r line; do curl "$line" | jq .files[].raw_url | cut -d
+'"' -f 2 | sort -u < ~/gradle_sample_file_urls.txt; done > ~/gradle_urls.txt
 ```
 
 This will output a list of URLs that point directly to the files in each
@@ -120,7 +119,7 @@ To download all of the URLs (but you probably want to filter them
 first), run:
 
 ```
-wget -i \~/gradle\_sample\_file\_urls.txt
+wget -i ~/gradle_sample_file_urls.txt
 ```
 
 This will download all of the sample files. You could say you’re done,
@@ -149,8 +148,8 @@ line tool available here:
 [*https://github.com/github/linguist*](https://github.com/github/linguist).
 
 ```
-for i in \*; do if (github-linguist "\$i" | grep -F "language:" | grep
--q "Gradle"); then echo "\$i"; fi; done;
+for i in *; do if (github-linguist "$i" | grep -F "language:" | grep
+-q "Gradle"); then echo "$i"; fi; done;
 ```
 
 This will print out all filenames that github-linguist has identified as
@@ -172,10 +171,10 @@ filename. This script will move each file into a randomly-generated
 directory with the pre-approved filename:
 
 ```
-for i in \*; do
-UUID=\$(cat /proc/sys/kernel/random/uuid);
-mkdir "\$UUID";
-mv "\$i" "\$UUID/build.gradle";
+for i in *; do
+UUID=$(cat /proc/sys/kernel/random/uuid);
+mkdir "$UUID";
+mv "$i" "$UUID/build.gradle";
 done;
 ```
 
@@ -185,8 +184,8 @@ in the directory with the gradle files, run:
 ```
 find . -type f -print0 |
 while IFS= read -r -d '' line; do
-if (github-linguist "\$line" | grep -F "language:" | grep -q "Gradle");
-then echo "\$line"; fi;
+if (github-linguist "$line" | grep -F "language:" | grep -q "Gradle");
+then echo "$line"; fi;
 done
 ```
 
@@ -207,7 +206,7 @@ mean that they are part of a series and can be linked together. The
 entire file’s history can be tracked and so we can find more examples of
 this file by downloading it at each point in history.
 
-In the \~/gradle\_url\_sample\_files.txt file, a URL might look like
+In the ~/gradle_url_sample_files.txt file, a URL might look like
 this:
 
 [*https://raw.githubusercontent.com/github/linguist/a5df9a00ab7c9828bd7038bb9f9bd5e56d325dc9/samples/Gradle/build.gradle*](https://raw.githubusercontent.com/github/linguist/a5df9a00ab7c9828bd7038bb9f9bd5e56d325dc9/samples/Gradle/build.gradle)
@@ -215,7 +214,7 @@ this:
 Replace the word "raw.githubusercontent.com" with "github.com":
 
 ```
-sed 's/raw\\.githubusercontent\\.com/github\\.com/g'
+sed 's/raw\.githubusercontent\.com/github\.com/g'
 ```
 
 Add "commits" after the repo name:
@@ -235,8 +234,7 @@ to download the HTML page, extract the URLs, and print them:
 ```
 curl
 "https://github.com/github/linguist/commits/a5df9a00ab7c9828bd7038bb9f9bd5e56d325dc9/samples/Gradle/build.gradle"
-| sed -n 's/.\*href="\\(.\*\\)".\*/\\1/p' | grep -oE
-"\\/commit\\/\[0-9a-e\]+"
+| sed -n 's/.\*href="\\(.\*\\)".\*/\\1/p' | grep -oE "\\/commit\\/\[0-9a-e\]+"
 ```
 
 One of the outputs from this command looks like:
@@ -254,7 +252,7 @@ Download that URL:
 ```
 curl
 "[*https://api.github.com/repos/github/linguist/commits/4ed58c743d*](https://api.github.com/repos/github/linguist/commits/4ed58c743d)"
-| jq .files\[\].raw\_url | cut -d ‘"‘ -f 2
+| jq .files[].raw\_url | cut -d ‘"‘ -f 2
 ```
 
 Each of those URLs will point directly to a raw file, including the
