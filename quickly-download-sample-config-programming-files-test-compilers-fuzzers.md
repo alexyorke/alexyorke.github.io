@@ -62,17 +62,14 @@ will go to gharchive.com, and extract the commit URLs from the
 PushEvents:
 
 ```
-#!/bin/bash
-for Y in {2015..2020}; do
-for M in {01..12}; do
-for D in {01..31}; do
-for H in {0..23}; do
-
-while read -r line; do echo "$line" | LC_ALL=C grep -F "\"type\":\"PushEvent\"" | grep -i "gradle" | jq .payload.commits[].url | cut -d "\"" -f 2 >> ~/gradle_urls.txt; done < <(curl "https://data.gharchive.org/$Y-$M-$D-$H.json.gz" | gunzip | sponge);
-
-done;
-done;
-done;
+for Y in {2011..2020}; do
+	for M in {01..12}; do
+		for D in {01..31}; do
+			for H in {0..23}; do
+				curl "https://data.gharchive.org/$Y-$M-$D-$H.json.gz" | LC_ALL=C zgrep -F "\"type\":\"PushEvent\"" | grep -i "gradle" | jq .payload.commits[].url | cut -d "\"" -f 2 >> ~/gradle_urls.txt;
+			done;
+		done;
+	done;
 done;
 ```
 Replace "gradle" with your search term. I recommend using a very generic
@@ -80,12 +77,14 @@ term so that you can cast the net as large as possible. If you want to
 search for multiple terms (i.e. OR), write "term1\\|term2\\|term3"
 (where term1, term2, and term3 are your keywords) as the grep query.
 
+Edit: I have updated the script to increase performance by 243 times.
+
 For the inexpensive \$5/month VPS that I used, I predicted this would
-take about two months to download and parse all of the data from 2015 to
-2020. The limiting factor was CPU because the file expands to \~6x
-larger and each line has to be parsed individually. To speed this up, it
-could be run on multiple nodes (i.e. each one downloads a single year or
-a month) and then the URLs are aggregated at the end.
+take about ~~two months~~ a few hours to download and parse all of the data from 2011 to
+2020. The limiting factor was ~~CPU~~ the sequential nature of downloading individual files. 
+CPU usage was hovering at around 30%.
+
+To speed this up, the files could be downloaded beforehand (or multiple in parallel.)
 
 If you get errors every 30th or 31st file, don’t worry because these
 days in that month doesn’t exist. It’s possible to skip over those but
