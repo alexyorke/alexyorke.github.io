@@ -90,53 +90,6 @@ If you get errors every 30th or 31st file, don’t worry because these
 days in that month doesn’t exist. It’s possible to skip over those but
 it could make the code a bit more complicated.
 
-## Aside: using Google’s BigQuery to avoid having to spend two months downloading data
-
-If you have \~\$30 CAD to spend, you can get the first half of the data
-a lot faster. You get 1TB of data free to process every month, but if
-you have a **billing account setup it will charge you without warning if
-you go over. The dataset is a few TB’s, so you will get auto-charged.
-Run the query on a single day first to make sure that the query is
-correct.** Go to
-[*https://console.cloud.google.com/bigquery?project=githubarchive&page=project*](https://console.cloud.google.com/bigquery?project=githubarchive&page=project)
-and run the following query:
-
-```
-SELECT type, payload FROM \`githubarchive.year.2015\` where payload like
-‘%gradle%’
-```
-
-Repeat for each year up to 2020, exporting the results each time both to
-Google Drive and "manual" 10000 row download (downloading will take the
-first 10000 rows, Google Drive will take the first GB. Doing both will
-get you more data, since downloading 10000 rows might be more than a GB,
-and vice-versa.) There is probably a smarter way to export the entire
-query to a downloadable file but I don’t know how to do it.
-
-Download all of the CSV files from Drive, decompress all of them and put
-them into a folder. Move all of the manually downloaded files into the
-same folder and decompress them. Folder hierarchy doesn’t matter; they
-can be nested. Duplicates don’t matter either as those will be filtered
-out.
-
-Run this command in the CSV directory to extract the URLs:
-
-```
-grep -Ero
-"https:\\/\\/api\\.github\\.com\\/repos\\/\[A-Za-z0-9\\-\]+\\/\[A-Za-z0-9\\-\]+\\/commits\\/\[a-f0-9\]+"
-| cut -d ":" -f 2- | sort -u &gt; \~/gradle\_urls.txt
-```
-
-Now you have a list of URLs in the fraction of the time. Continue onto
-the next step.
-
-(Aside, done.)
-
-Why am I not parsing the data from 2011? I tried to parse it, but it
-seems like it was in a different schema and I didn’t get any URLs after
-about a day, whereas starting from 2015 I got results in about 30
-minutes. Your experience may vary.
-
 This will output a list of URLs which correspond to a single commit
 (which can contain many files) whose commit messages contain the word
 "gradle". GitHub’s API is rate-limited, which is why they are saved to a
