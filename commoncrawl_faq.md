@@ -6,10 +6,20 @@ This script is not finished because it will combine canocalized domains with non
 
 ```bash
 # compute domain vertices for years which this data has not yet been computed
-while read line; do sed 's/^/https:\/\/commoncrawl.s3.amazonaws.com\/crawl-data\//' | sed 's/$/\/cc-index\.paths\.gz/' | xargs -I{} sh -c 'curl {}' | gzip -d | sed 's/^/https:\/\/commoncrawl.s3.amazonaws.com\//' | xargs -I{} sh -c 'curl {} | gzip -d | cut -d '"'"' '"'"' -f 1 | cut -d '"'"')'"'"' -f 1 | sort -u --compress-program=gzip | tr '","' '"."' >> commoncrawl_domains/domain_names_'"$line"'.txt'; sort -u -o "commoncrawl_domains/domain_names_$line.txt" "commoncrawl_domains/domain_names_$line.txt"; gzip "commoncrawl_domains/domain_names_$line.txt"; done < <(curl https://index.commoncrawl.org/collinfo.json | jq -r .[].id | tail -n 44)
+while read -r cdx; do
+    curl "$cdx" | gzip -d | cut -d " " -f 1 | cut -d ")" -f 1 | sort -u --compress-program=gzip | tr "," "." | gzip >> commoncrawl_domains_$(echo "$cdx" | cut -d "/" -f 6).txt.gz;
+	done < <(\
+		while read -r ccindexpath; do
+			curl "$ccindexpath" | gzip -d | sed 's/^/https:\/\/commoncrawl.s3.amazonaws.com\//' | grep "\.gz$" | sponge;
+			done < <(\
+				while read -r collinfo; do \
+					sed 's/^/https:\/\/commoncrawl.s3.amazonaws.com\/crawl-data\//;s/$/\/cc-index\.paths\.gz/' | grep "\.gz$"; \
+				done < <(curl https://index.commoncrawl.org/collinfo.json | jq -r .[].id | tail -n 44 | sponge)\
+		)\
+)
 
 # download domain vertex data as-is from years which it has been pre-computed
-aws s3 --no-sign-request ls --recursive s3://commoncrawl/projects/hyperlinkgraph/ | grep -F "domain-vertices.txt.gz" | cut -d " " -f 5- | sed 's/^/https:\/\/commoncrawl.s3.amazonaws.com\//' | xargs -I{} sh -c 'curl -sL {} | gzip -d | cut -f 2 | sort -u --compress-program=gzip | gzip >> test/c_domain_names_$(basename {})';
+aws s3 --no-sign-request ls --recursive s3://commoncrawl/projects/hyperlinkgraph/ | grep -F "domain-vertices.txt.gz" | cut -d " " -f 5- | sed 's/^/https:\/\/commoncrawl.s3.amazonaws.com\//' | xargs -I{} sh -c 'curl -sL {} | gzip -d | cut -f 2 | sort -u --compress-program=gzip | gzip >> c_domain_names_$(basename {})';
 
 # merge everything together and remove duplicates (warning: will combine canocalized and non-canocalized versions together)
 zcat commoncrawl_domains/*.gz | sort -u --compress-program=gzip > all_domains.txt;
