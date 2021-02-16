@@ -1,9 +1,6 @@
 ## Methods to reduce flaky tests
 Published: February 15, 2021 at 20:30
 
-Methods to reduce flaky tests
------------------------------
-
 ### What are flaky tests?
 
 In programming, flaky tests are tests that don’t pass some times. There are many reasons a test might not pass sometimes:
