@@ -2,13 +2,13 @@
 
 In this post, I set out to do some data analysis with tight real-world and financial constraints. No BigQuery, no Amazon EC2, and no easy solutions allowed. My budget is \$2.50 CAD. Can I do it? Well, let's find out.
 
-I wanted to do some fuzzing for a parser that I was making, but I couldn't find enough sample files as ‌the files are hard to find. I tried googling (and got about 70 or so), and did a few GitHub searches which got me a 1000 more, but a lot were duplicates.
+I wanted to do some fuzzing for a parser that I was making, but I couldn't find enough sample files as the files are hard to find. I tried googling (and got about 70 or so), and did a few GitHub searches which got me a 1000 more, but a lot were duplicates.
 
 The parser can't be fuzzed traditionally using an automatic generator\--I didn't know what to generate. I needed real-world examples of the files so that I knew what features of the language that had to be prioritized to support, and some potentially non-standard things that some people might do that aren\'t immediately clear in the docs.
 
 GitHub has a lot of repositories, and a lot of potential sample files even though the search doesn't give all the results. GHArchive, a website that stores links to all the files on GitHub, is about 1.1TB compressed, about 7TB uncompressed. It doesn't store the content or the filenames, but stores metadata that can provide clues about what file(s) are contained in that link (and so can download those directly.)
 
-This is a classic ML problem: we have an input X which maps to Y, but we want to find a function that approximates f(X) = Y. To make this more concrete, say I want a bunch of gradle files. I have a list of metadata {X1, X2, X3, ..., Xn} which maps to {Y1, Y2, Y3, ..., Yn} but not all of Y are gradle files. We need to find given an X how likely it is to map to a valid Y. This is important for a few reasons: if we make f(X) too restrictive, then we won't get enough sample files and similarly if we make it too permissive we will run out of our 5000 hourly request API key limit to resolve the files (and find out that they aren't the ones that we are looking for) and it will take forever to find our files.
+This is a classic ML problem: we have an input X which maps to Y, but we want to find a function that approximates f(X) = Y. To make this more concrete, say I want a bunch of gradle files. I have a list of metadata `{X1, X2, X3, ..., Xn}` which maps to `{Y1, Y2, Y3, ..., Yn}` but not all of Y are gradle files. We need to find given an X how likely it is to map to a valid Y. This is important for a few reasons: if we make f(X) too restrictive, then we won't get enough sample files and similarly if we make it too permissive we will run out of our 5000 hourly request API key limit to resolve the files (and find out that they aren't the ones that we are looking for) and it will take forever to find our files.
 
 The goal is to be able to type in a search query and get back the files (a lot more than the regular search can produce) that match it. It would be self-reinforcing, as it would download the search results (1000 results) to train itself on what files match the criteria that the user enters. As a bit of a spoiler, using a super naïve method (searching the commit messages for a keyword), I got a terrible 0.2% match rate (5000 queries/hour \* 0.2% = 10 successful files per hour), so this is our lower bound; anything above this is considered "more" successful.
 
@@ -22,31 +22,23 @@ Is this viable?
 
 Let's download a file from GHArchive and see.
 
-zcat 2018-01-01-0.json.gz \| jq -c \'\[.payload.commits\[0\].message, .payload.commits\[0\].sha\]\' \| grep -vF \"null,null\" \| grep gradle
+`zcat 2018-01-01-0.json.gz \| jq -c \'\[.payload.commits\[0\].message, .payload.commits\[0\].sha\]\' \| grep -vF \"null,null\" \| grep gradle`
 
 To estimate the amount of content that we have to download:
 ```
 for Y in {2011..2020}; do
-
 for M in {01..12}; do
-
 for D in {01..31}; do
-
 for H in {0..23}; do
-
 echo -n \"\$Y-\$M-\$D \$H \"; curl \"https://data.gharchive.org/\$Y-\$M-\$D-\$H.json.gz\" \--location \--silent \--write-out \'%{size_download} %{http_code}\\n\' \--output /dev/null;
-
 done;
-
 done;
-
 done;
-
 done;
 ```
 To run, save it in a file called estimate_download.sh. Then, run bash estimate_download.sh. Unfortunately, this takes a while:
 
-time bash estimate_download.sh
+`time bash estimate_download.sh`
 
 (output)\...
 
@@ -63,40 +55,25 @@ Using a margin of error calculator with a confidence interval of 95%, we get a 1
 The number of times that we sample to get a smaller confidence interval depends on how close we get to our bandwidth cap of 1TB.
 ```
 touch archive_sizes.tsv;
-
 (for Y in {2011..2020}; do
+    for M in {01..12}; do
+        for D in {01..31}; do
+            for H in {0..23}; do
+                echo "https://data.gharchive.org/$Y-$M-$D-$H.json.gz";
+            done;
+        done;
+    done;
+done) \
+| grep -Fvxf <(awk '{print $1}' archive_sizes.tsv) \
+| shuf \
+| (while read -r line; do \
+   curl "$line" --location --silent --write-out '%{url_effective}    %{size_download}    %{http_code}\n' --output /dev/null \
+   | awk '{ if ($3 == 200) { print } }' \
+   | cat || exit; done) \
+| head -n $1 >> archive_sizes.tsv;
+ 
+awk '{ sum += $2 } END { if (NR > 0) print "Average MB/file: "((sum / NR) / 1024) / 1024 }' archive_sizes.tsv;
 
-for M in {01..12}; do
-
-for D in {01..31}; do
-
-for H in {0..23}; do
-
-echo \"https://data.gharchive.org/\$Y-\$M-\$D-\$H.json.gz\";
-
-done;
-
-done;
-
-done;
-
-done) \\
-
-\| grep -Fvxf \<(awk \'{print \$1}\' archive_sizes.tsv) \\
-
-\| shuf \\
-
-\| (while read -r line; do \\
-
-curl \"\$line\" \--location \--silent \--write-out \'%{url_effective} %{size_download} %{http_code}\\n\' \--output /dev/null \\
-
-\| awk \'{ if (\$3 == 200) { print } }\' \\
-
-\| cat \|\| exit; done) \\
-
-\| head -n \$1 \>\> archive_sizes.tsv;
-
-awk \'{ sum += \$2 } END { if (NR \> 0) print \"Average MB/file: \"((sum / NR) / 1024) / 1024 }\' archive_sizes.tsv;
 ```
 This gives us the following results in archive_sizes.tsv:
 
@@ -106,7 +83,7 @@ This script that I quickly whipped up grabs a random selection of files and gets
 
 A bit of a side-note. Some of the files are empty (not sure why), even after redownloading. So, a size of an empty gzip file can be found via:
 
-`echo \| gzip -1 \| wc -c`
+`echo | gzip -1 | wc -c`
 
 Which gives the byte count of 21. So, any files less than or equal to this value are empty. We could generously round this up to 1024 (i.e. a KB) because the gzip file might contain other metadata which inflates the file size even if it is empty. Plus, any files smaller than 1KB probably don't have many events anyway.
 
@@ -118,7 +95,7 @@ Let's download 100 random sample files, which will take up about 14.1637 \* 100 
 
 We can use the output from the estimator script to grab a selection of files:
 
-mkdir sample_files; head -n 100 archive_sizes.tsv \| awk '{print \$1}' \| wget -P sample_files -i -
+`mkdir sample_files; head -n 100 archive_sizes.tsv | awk '{print $1}' | wget -P sample_files -i -`
 
 Which will download the first 100 files from archive_sizes.tsv into a folder called "sample_files". Note: change 100 to your desired sample size.
 
@@ -128,7 +105,7 @@ We need to find the compression ratio. Run du -s . in the sample_files directory
 
 Fortunately, we only care about PushEvents, so this means that we can discard some of the data. To see how much of the files are PushEvents, run:
 
-`zcat \* \| grep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \| wc -c`
+`zcat * | grep -F "\"type\":\"PushEvent\"" | wc -c`
 
 (While it is better to parse JSON properly, this approximation is very fast as it is unlikely that this exact text is in a PR commit message.) This gives 2.4356GB, which means that we only need \~21% of each file. Since each file is \~14.1637MB, then 14.1637MB \* 8 \* 0.21 = \~23.8MB/file needed to store in RAM. There is some overhead for storing strings in memory, but this is a good start.
 
@@ -136,7 +113,7 @@ In order to prepare the database, we will have to write *something* to disk at s
 
 What do we need to make the database? Well, we need to see what is inside of a PushEvent.
 
-`{\"id\":\"3588679312\",\"type\":\"PushEvent\",\"actor\":{\"id\":9129006,\"login\":\"goldenbull\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/goldenbull\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/9129006?\"},\"repo\":{\"id\":50581553,\"name\":\"goldenbull/ManagedXZ\",\"url\":\"https://api.github.com/repos/goldenbull/ManagedXZ\"},\"payload\":{\"push_id\":957216132,\"size\":1,\"distinct_size\":1,\"ref\":\"refs/heads/master\",\"head\":\"04861c96a3fa1402a7f36ae298dfdc804c0a9650\",\"before\":\"b73f992f626c429ab921c26ce38202489d871dd0\",\"commits\":\[{\"sha\":\"04861c96a3fa1402a7f36ae298dfdc804c0a9650\",\"author\":{\"email\":\"566643c3c2e54f8db1c3c28a443e0cafab329ef8\@gmail.com\",\"name\":\"goldenbull\"},\"message\":\"change icon setting for nuget\",\"distinct\":true,\"url\":\"https://api.github.com/repos/goldenbull/ManagedXZ/commits/04861c96a3fa1402a7f36ae298dfdc804c0a9650\"}\]},\"public\":true,\"created_at\":\"2016-01-31T06:00:00Z\"}`
+`{"id":"3588679312","type":"PushEvent","actor":{"id":9129006,"login":"goldenbull","gravatar_id":"","url":"https://api.github.com/users/goldenbull","avatar_url":"https://avatars.githubusercontent.com/u/9129006?"},"repo":{"id":50581553,"name":"goldenbull/ManagedXZ","url":"https://api.github.com/repos/goldenbull/ManagedXZ"},"payload":{"push_id":957216132,"size":1,"distinct_size":1,"ref":"refs/heads/master","head":"04861c96a3fa1402a7f36ae298dfdc804c0a9650","before":"b73f992f626c429ab921c26ce38202489d871dd0","commits":[{"sha":"04861c96a3fa1402a7f36ae298dfdc804c0a9650","author":{"email":"566643c3c2e54f8db1c3c28a443e0cafab329ef8@gmail.com","name":"goldenbull"},"message":"change icon setting for nuget","distinct":true,"url":"https://api.github.com/repos/goldenbull/ManagedXZ/commits/04861c96a3fa1402a7f36ae298dfdc804c0a9650"}]},"public":true,"created_at":"2016-01-31T06:00:00Z"}`
 
 A PushEvent is a package of one or more commits. A PushEvent contains several fields, but the fields that interest us are the commit URLs, the commit messages (for each URL), the number of files in the push and the size in bytes of the push.
 
@@ -148,7 +125,7 @@ First, we can estimate the average length of the repo + username, the commit mes
 
 (provide estimates for all fields)
 
-zcat 2015\* 2016\* 2017\* 2018\* \| grep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \| jq \'.payload.commits\[\].sha\' \| wc -l
+`zcat 2015* 2016* 2017* 2018* | grep -F "\"type\":\"PushEvent\"" | jq '.payload.commits[].sha' | wc -l`
 
 This gives us 1247955 for 37 files, so \~33728 hashes/file. If each hash is 160 bits, then it will take up \~675KB/file, or 83220 files \* 675KB = 53.57GB just to store the hashes uncompressed.
 
@@ -164,28 +141,24 @@ Plugging in N = 2\^160 and k = (\~33728 hashes/file \* 83220 files) = 2806844160
 
 Some repos have a lot of commits, others not so much. We can approximate this by finding how many repos there are, and then split the hashes for each one and re-calculate the probabilities. It's not a great approximation but it gets us closer.
 
-zcat 2011\* 2012\* 2013\* 2014\* \| jq -r \'.repo.name\' \>\> hashes.txt;
+`zcat 2011\* 2012\* 2013\* 2014\* \| jq -r \'.repo.name\' \>\> hashes.txt;`
 
-zcat 2015\* 2016\* 2017\* 2018\* \| grep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \| jq -r \'.payload.commits\[0\].url\' \| cut -d \"/\" -f 5-6 \>\> hashes.txt;
+`zcat 2015\* 2016\* 2017\* 2018\* \| grep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \| jq -r \'.payload.commits\[0\].url\' \| cut -d \"/\" -f 5-6 \>\> hashes.txt;`
 
-sort -u hashes.txt \| wc -l;
+`sort -u hashes.txt \| wc -l;`
 
 This command gives us 361453 for 37 files, so 9769 repos/file or 83220 \* 9769\... hold on a sec\... equals 812976180 repos in total. No no no. This calculation may have to be checked.
 
 Since we are sampling from a stream that contains duplicates (412812 to be exact), then the increase in repos is not linear or exponential; it mimics a logarithmic distribution a bit more. Let's see how.
 
 Find the number of unique items in a sliding window. We want 100 windows, and the file is 1142058 lines long so we need to sample with a sample size of 1142058/100 = 11420 items. We can do so in a loop:
-
+```
 size=0;
-
-while \[\[ \$size \< \[1142058\] \]\]; do
-
-head -n \$size hashes.txt \| sort -u \| wc -l;
-
+while [[ $size < [1142058] ]]; do
+head -n $size hashes.txt | sort -u | wc -l;
 ((size+=11420));
-
-done \> hash_calc.txt;
-
+done > hash_calc.txt;
+```
 This is pretty inefficient (something like O(n\^2)) but it works okish. Let's plot the result of hash_calc.txt:
 
 (results)
@@ -198,7 +171,7 @@ This isn't a great approximation because the number of repos are likely to repea
 
 It's impossible to store all of the data in its current form, even with the highest compression options available. We will need to do lossy compression. Let's remove all of the other events that we don't need, compress it, and see how much space it takes up:
 
-for i in \*.gz; do LC_ALL=C zgrep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \"\$i\" \| jq -c \'\[\[.payload.commits\[\].message, .payload.size, .payload.distinct_size\], .payload.commits\[\].url\]\' \>\> out.txt; done;
+`for i in \*.gz; do LC_ALL=C zgrep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \"\$i\" \| jq -c \'\[\[.payload.commits\[\].message, .payload.size, .payload.distinct_size\], .payload.commits\[\].url\]\' \>\> out.txt; done;`
 
 This gives us lines that look like:
 
@@ -206,7 +179,7 @@ This gives us lines that look like:
 
 (pretend that we downloaded all of the files to a pseudo-directory), then this gives us an uncompressed 20GB file which represents 73GB of downloaded compressed data. The compression ratio for out.txt can be approximated by taking the first 100mb and compressing it:
 
-head -c 100000000 out.txt \| gzip - \| wc -c
+`head -c 100000000 out.txt \| gzip - \| wc -c`
 
 Which gives us 34589853 bytes, or \~35MB, which is a 2.86x compression rate, which would give us a \~7GB file for the year 2015. This won't fit in our 13.5GB as we still have to deal with 2011, 2012, ..., and 2020. Can we do better?
 
@@ -218,21 +191,21 @@ What about 60 bits? This gives a collision probability of 3.416116×10^-4^, so E
 
 Switching to a 60bit hash gives us 2.66x savings in data, so we only need about 20GB to store the hashes. That's getting closer to our 13.5GB that we have, plus don't forget we have to store the commit messages, usernames and repos, and a couple integers. How much commit text do we have?
 
-zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq \'.payload.commits\[\].message\' 2\> /dev/null \| wc -c
+`zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq \'.payload.commits\[\].message\' 2\> /dev/null \| wc -c`
 
-zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq \'.payload.commits\[\].message\' 2\> /dev/null \| gzip -9 \| wc -c
+`zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq \'.payload.commits\[\].message\' 2\> /dev/null \| gzip -9 \| wc -c`
 
 This gives us 182014216 uncompressed bytes, and 61707559 compressed using gzip -9, a ratio of about 1:3 compression. So, (61707559/37) \* 83220 = 138GB compressed + 20GB = 158GB.
 
 Would lowercasing the text and removing quotes help?
 
-zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq -r \'.payload.commits\[\].message\' 2\> /dev/null \| tr \'\[:upper:\]\' \'\[:lower:\]\' \| gzip -9 \| wc -c
+`zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq -r \'.payload.commits\[\].message\' 2\> /dev/null \| tr \'\[:upper:\]\' \'\[:lower:\]\' \| gzip -9 \| wc -c`
 
 This gives us 57691173 bytes, which is 3.15x compression which is just 0.15x more than our previous run. Not terribly efficient.
 
 Hmm, that doesn't help a lot. Let's graph the size and frequency of each commit message to see if there are a few long ones that are taking up most of the space:
 
-while read line; do echo \"\$line\" \| wc -c; done \< \<(zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq -r \'.payload.commits\[\].message\' 2\> /dev/null) \> histo.txt
+`while read line; do echo \"\$line\" \| wc -c; done \< \<(zcat 2015\* 2016\* 2017\* 2018\* 2019\* 2020\* \| jq -r \'.payload.commits\[\].message\' 2\> /dev/null) \> histo.txt`
 
 Feel free to stop it when you get around a few thousand points. It'll take forever otherwise as it is starting a new jq process for every line.
 
@@ -269,43 +242,51 @@ What to do? The "git archive" command is able to list remote repositories withou
 svn ls -R [[https://github.com/gtque/GoaTE.git]{.ul}](https://github.com/gtque/GoaTE.git)
 
 This gives us the file listing for a repo, doesn't use up a lot of bandwidth, but it is very slow:
-
+```
 real 2m36.286s
 
 user 0m0.344s
 
 sys 0m0.375s
-
+```
 Ouch. We're stuck in the fast, cheap, and quality triangle. We've gotten the files cheaper, the same quality, but not as fast. Can we have all three? We can. There is a project called "fast svn crawler" which does just that: crawls svn faster. ./svn-crawler [[https://github.com/mithro/fastsvncrawler]{.ul}](https://github.com/mithro/fastsvncrawler).git. These are the stats after using fastsvncrawler:
 
+```
 real 0m13.718s
 
 user 0m1.078s
 
 sys 0m0.297s
+```
 
 That's about a \~10x speedup! Can we go even faster? Yes. We only need the trunk (and not the other branches.) Therefore, we can run time ./svn-crawler [[https://github.com/gtque/GoaTE.git/trunk]{.ul}](https://github.com/gtque/GoaTE.git/trunk) and get the following output:
 
+```
 real 0m3.372s
 
 user 0m0.313s
 
 sys 0m0.141s
+```
 
 That's about a \~4x speedup from our 10x speedup! Can we go EVEN FASTER? Well, if we run the command through strace we get a bunch of gettimeofday calls. We don't care about file modification dates, so if we avoided this call it could reduce our CPU usage. Trying to avoid the HTTP overhead through ssh fails, as it fails to connect to the server after authentication (I presume that GitHub does not support this.)
 
 Since we don't need *all* of the file paths that match (we just need to know if one of them matches), we can terminate early. Let's say we needed to grab a sample .java file:
 
+```
 time ./svn-crawler https://github.com/gtque/GoaTE.git/trunk \| grep -m 1 -F \".java\" \| head -n 1
+```
 
+```
 real 0m1.120s
 
 user 0m0.016s
 
 sys 0m0.109s
+```
 
 Wow! That's about a \~3.2x speedup from our 4x speedup, or \~128x faster overall! Can we squeeze it out just a bit more? Yes, sort of. We don't care what grep outputs; we just need to know that it matches. Therefore, we can use the quiet option:
-
+```
 time ./svn-crawler https://github.com/gtque/GoaTE.git/trunk \| grep -q -m 1 -F \".java\"
 
 real 0m1.035s
@@ -313,7 +294,7 @@ real 0m1.035s
 user 0m0.000s
 
 sys 0m0.078s
-
+```
 This gives us a speedup of \~0.82x, but since network conditions change a bit it is hard to get a good estimate. It can only help as grep doesn't need to print anything.
 
 Let's go back to our original problem. We want to download all files of a certain type from GitHub. We have several indicators to do this, such as filename, extension, size, etc. but GitHub's search and API does not show us all of those files. We have to create a model which allows us to predict which repos contain these files, so that when we go to those repos to check if the files do indeed exist then we don't need to check 28 million, we just need to check a handful.
