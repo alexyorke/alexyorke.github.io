@@ -25,7 +25,7 @@ Let's download a file from GHArchive and see.
 zcat 2018-01-01-0.json.gz \| jq -c \'\[.payload.commits\[0\].message, .payload.commits\[0\].sha\]\' \| grep -vF \"null,null\" \| grep gradle
 
 To estimate the amount of content that we have to download:
-
+```
 for Y in {2011..2020}; do
 
 for M in {01..12}; do
@@ -43,7 +43,7 @@ done;
 done;
 
 done;
-
+```
 To run, save it in a file called estimate_download.sh. Then, run bash estimate_download.sh. Unfortunately, this takes a while:
 
 time bash estimate_download.sh
@@ -61,7 +61,7 @@ How many files do we need to download to get a good estimate? What is a good est
 Using a margin of error calculator with a confidence interval of 95%, we get a 10% sampling error for a sample size of 100 and population size of 83220. Whatever mean we calculate, there is a 95% chance it will be off by +-10%, and a 5% chance it will be off by more than that amount in either direction. The 95% figure is an industry standard. Since we will be sampling 100 times, then it will take 0.26120 \* 100 = 26.12s to calculate an approximate mean.
 
 The number of times that we sample to get a smaller confidence interval depends on how close we get to our bandwidth cap of 1TB.
-
+```
 touch archive_sizes.tsv;
 
 (for Y in {2011..2020}; do
@@ -97,7 +97,7 @@ curl \"\$line\" \--location \--silent \--write-out \'%{url_effective} %{size_dow
 \| head -n \$1 \>\> archive_sizes.tsv;
 
 awk \'{ sum += \$2 } END { if (NR \> 0) print \"Average MB/file: \"((sum / NR) / 1024) / 1024 }\' archive_sizes.tsv;
-
+```
 This gives us the following results in archive_sizes.tsv:
 
 (add stuff here)
@@ -106,7 +106,7 @@ This script that I quickly whipped up grabs a random selection of files and gets
 
 A bit of a side-note. Some of the files are empty (not sure why), even after redownloading. So, a size of an empty gzip file can be found via:
 
-echo \| gzip -1 \| wc -c
+`echo \| gzip -1 \| wc -c`
 
 Which gives the byte count of 21. So, any files less than or equal to this value are empty. We could generously round this up to 1024 (i.e. a KB) because the gzip file might contain other metadata which inflates the file size even if it is empty. Plus, any files smaller than 1KB probably don't have many events anyway.
 
@@ -128,7 +128,7 @@ We need to find the compression ratio. Run du -s . in the sample_files directory
 
 Fortunately, we only care about PushEvents, so this means that we can discard some of the data. To see how much of the files are PushEvents, run:
 
-zcat \* \| grep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \| wc -c
+`zcat \* \| grep -F \"\\\"type\\\":\\\"PushEvent\\\"\" \| wc -c`
 
 (While it is better to parse JSON properly, this approximation is very fast as it is unlikely that this exact text is in a PR commit message.) This gives 2.4356GB, which means that we only need \~21% of each file. Since each file is \~14.1637MB, then 14.1637MB \* 8 \* 0.21 = \~23.8MB/file needed to store in RAM. There is some overhead for storing strings in memory, but this is a good start.
 
@@ -136,7 +136,7 @@ In order to prepare the database, we will have to write *something* to disk at s
 
 What do we need to make the database? Well, we need to see what is inside of a PushEvent.
 
-{\"id\":\"3588679312\",\"type\":\"PushEvent\",\"actor\":{\"id\":9129006,\"login\":\"goldenbull\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/goldenbull\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/9129006?\"},\"repo\":{\"id\":50581553,\"name\":\"goldenbull/ManagedXZ\",\"url\":\"https://api.github.com/repos/goldenbull/ManagedXZ\"},\"payload\":{\"push_id\":957216132,\"size\":1,\"distinct_size\":1,\"ref\":\"refs/heads/master\",\"head\":\"04861c96a3fa1402a7f36ae298dfdc804c0a9650\",\"before\":\"b73f992f626c429ab921c26ce38202489d871dd0\",\"commits\":\[{\"sha\":\"04861c96a3fa1402a7f36ae298dfdc804c0a9650\",\"author\":{\"email\":\"566643c3c2e54f8db1c3c28a443e0cafab329ef8\@gmail.com\",\"name\":\"goldenbull\"},\"message\":\"change icon setting for nuget\",\"distinct\":true,\"url\":\"https://api.github.com/repos/goldenbull/ManagedXZ/commits/04861c96a3fa1402a7f36ae298dfdc804c0a9650\"}\]},\"public\":true,\"created_at\":\"2016-01-31T06:00:00Z\"}
+`{\"id\":\"3588679312\",\"type\":\"PushEvent\",\"actor\":{\"id\":9129006,\"login\":\"goldenbull\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/goldenbull\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/9129006?\"},\"repo\":{\"id\":50581553,\"name\":\"goldenbull/ManagedXZ\",\"url\":\"https://api.github.com/repos/goldenbull/ManagedXZ\"},\"payload\":{\"push_id\":957216132,\"size\":1,\"distinct_size\":1,\"ref\":\"refs/heads/master\",\"head\":\"04861c96a3fa1402a7f36ae298dfdc804c0a9650\",\"before\":\"b73f992f626c429ab921c26ce38202489d871dd0\",\"commits\":\[{\"sha\":\"04861c96a3fa1402a7f36ae298dfdc804c0a9650\",\"author\":{\"email\":\"566643c3c2e54f8db1c3c28a443e0cafab329ef8\@gmail.com\",\"name\":\"goldenbull\"},\"message\":\"change icon setting for nuget\",\"distinct\":true,\"url\":\"https://api.github.com/repos/goldenbull/ManagedXZ/commits/04861c96a3fa1402a7f36ae298dfdc804c0a9650\"}\]},\"public\":true,\"created_at\":\"2016-01-31T06:00:00Z\"}`
 
 A PushEvent is a package of one or more commits. A PushEvent contains several fields, but the fields that interest us are the commit URLs, the commit messages (for each URL), the number of files in the push and the size in bytes of the push.
 
