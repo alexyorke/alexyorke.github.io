@@ -6,15 +6,19 @@ Knowing about the pitfalls and workarounds allow you to use jq more robustly and
 
 Say you have a value in a JSON string that has quotes but you want to remove the quotes. You could do:
 
+```
 echo \"{\\\"x\\\":\\\"3\\\"}\" \| jq .x \| tr -d \'\"\' which returns 3.
+```
 
 The issue is that you're assuming that the JSON will have no quoted values. For example, this returns the wrong value:
 
-echo \"{\\\"x\\\": \\\"\\\\\\\"Three\\\\\\\"\\\" }\" \| jq .x \| tr -d \'\"\' returns \\Three\\ instead of just the word "Three" (with quotes.) This was probably not intended.
+`echo \"{\\\"x\\\": \\\"\\\\\\\"Three\\\\\\\"\\\" }\" \| jq .x \| tr -d \'\"\'` returns \\Three\\ instead of just the word "Three" (with quotes.) This was probably not intended.
 
 If you use -r:
 
+```
 echo \"{\\\"x\\\": \\\"\\\\\\\"Three\\\\\\\"\\\" }\" \| jq -r .x
+```
 
 The output is "Three" (with quotes) which probably was intended.
 
@@ -26,6 +30,7 @@ For example, I have a JSON document with one syntactically invalid entry but sev
 
 I run jq .\[\].friends test and get:
 
+```
 \...
 
 \[
@@ -57,7 +62,7 @@ I run jq .\[\].friends test and get:
 \]
 
 parse error: Expected separator between values at line 448, column 7
-
+```
 I get output, but that output is incomplete. Ensure you check the status code from jq (in this case it was 4.) If I stored it in a variable, I would get a string but that string would be invalid because the parsing error didn't parse the entire file. If I just checked if the variable's length wasn't zero, then I wouldn't be getting the right output.
 
 #### Just use set -e\...right? Right?
@@ -84,6 +89,7 @@ Use jq's empty filter to validate the file before parsing, or check the error co
 
 Let's go back to an example file. You run cat test \| jq -c .\[\].friends and get the following output:
 
+```
 \[{\"id\":0,\"name\":\"Cherie\\nFrederick\"},{\"id\":1,\"name\":\"Mcclure Howell\"},{\"id\":2,\"name\":\"Skinner Leon\"}\]
 
 \[{\"id\":0,\"name\":\"Dana Stout\"},{\"id\":1,\"name\":\"Stacy Irwin\"},{\"id\":2,\"name\":\"Everett Paul\"}\]
@@ -93,6 +99,7 @@ Let's go back to an example file. You run cat test \| jq -c .\[\].friends and ge
 \[{\"id\":0,\"name\":\"Mcclain Roberts\"},{\"id\":1,\"name\":\"Frankie Wynn\"},{\"id\":2,\"name\":\"Mckay Sanders\"}\]
 
 \[{\"id\":0,\"name\":\"Rosario Melendez\"},{\"id\":1,\"name\":\"Melendez Brennan\"},{\"id\":2,\"name\":\"Vincent Spence\"}\]
+```
 
 Each friend is on a line by themselves. This means I can loop over the lines and parse each JSON line individually, right? Well, in this example yes. If the names contain newlines, though, then you'll have broken JSON:
 
@@ -142,15 +149,15 @@ Use -a when you need unicode safety.
 
 Running this command produces the right output,
 
-echo \"{\\\"page\\\": 3}\" \| echo \"https://example.com/search?id=\$(jq .page)\" (outputs [[https://example.com/search?id=3]{.ul}](https://example.com/search?id=3)).
+`echo \"{\\\"page\\\": 3}\" \| echo \"https://example.com/search?id=\$(jq .page)\" (outputs [[https://example.com/search?id=3]{.ul}](https://example.com/search?id=3)).`
 
 But it gets dangerous if the number turns into text that contains non-URI safe characters:
 
-echo \"{\\\"page\\\": \\\"\[3-2\]\\\"}\" \| echo \"https://example.com/search?id=\$(jq .page)\" which returns [[https://example.com/search?id=\"\[3]{.ul}](https://example.com/search?id=%22%5B3)-2\]\" . If you were to pipe this URL into curl, curl interprets the square brackets as a URL range. Curl fails to download that URL with the error, "curl: (3) \[globbing\] bad range in column 26".
+`echo \"{\\\"page\\\": \\\"\[3-2\]\\\"}\" \| echo \"https://example.com/search?id=\$(jq .page)\" which returns [[https://example.com/search?id=\"\[3]{.ul}](https://example.com/search?id=%22%5B3)-2\]\"` . If you were to pipe this URL into curl, curl interprets the square brackets as a URL range. Curl fails to download that URL with the error, "curl: (3) \[globbing\] bad range in column 26".
 
 However, running:
 
-echo \"{\\\"page\\\": \\\"\[3-2\]\\\"}\" \| jq \'\@uri \"[[https://www.google.com/search?q=\\(.page)]{.ul}](https://www.google.com/search?q=%5C(.page))\"\' which returns \"[[https://www.google.com/search?q=%5B3-2%5D]{.ul}](https://www.google.com/search?q=%5B3-2%5D)\". This is URL safe.
+`echo \"{\\\"page\\\": \\\"\[3-2\]\\\"}\" \| jq \'\@uri \"[[https://www.google.com/search?q=\\(.page)]{.ul}](https://www.google.com/search?q=%5C(.page))\"\' which returns \"[[https://www.google.com/search?q=%5B3-2%5D]{.ul}](https://www.google.com/search?q=%5B3-2%5D)\"`. This is URL safe.
 
 #### Considerations
 
