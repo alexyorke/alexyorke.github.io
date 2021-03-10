@@ -9,7 +9,7 @@ Just a simple E2E test that checks a page title is incredibly useful. Sadly, it 
 ### Starting from scratch
 
 Let's make a brand new Angular project. From scratch. From ng new my-app. Let's run npm install for good measure, then run npm run e2e.
-
+```
 ng new my-app
 
 npm install
@@ -21,9 +21,11 @@ git add .
 git commit -m "Initial commit"
 
 npm run e2e
+```
 
 You may think that Protractor is part of Angular. It's not\--it's a separate project. This means that the command npm run e2e doesn't work out of the box (yes, I have the Google Chrome browser installed):
 
+```
 \[19:33:27\] I/launcher - Running 1 instances of WebDriver
 
 \[19:33:27\] I/direct - Using ChromeDriver directly\...
@@ -87,11 +89,13 @@ npm ERR! command C:\\WINDOWS\\system32\\cmd.exe /d /s /c ng e2e
 npm ERR! A complete log of this run can be found in:
 
 npm ERR! C:\\Users\\yorke\\AppData\\Local\\npm-cache\\\_logs\\2021-03-10T00_34_37_674Z-debug.log
+```
 
 Side-note: ok, so in this case I was "lucky" that it failed. Turns out if you have Docker running and a few other things running, your computer might get a bit slow (surprise surprise.) This causes the test to timeout. This is still an error though. Sometimes it works, sometimes it doesn't. On the CI though it was consistently failing, so we'll go with that.
 
 Hmm, ok, maybe our setup is weird. Let's run it via GitHub actions instead (and add it manually to the build + test stage, since the first few in Google's search results don't contain E2E tests by default.) What happens now?
 
+```
 \[00:40:26\] I/launcher - Running 1 instances of WebDriver
 
 \[00:40:26\] I/direct - Using ChromeDriver directly\...
@@ -129,6 +133,7 @@ npm ERR!
 npm ERR! Failed at the angular-tour-of-heroes\@0.0.0 e2e script.
 
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+```
 
 At this point you're likely to want to fix the error, so you'll do one or some of the following (potentially, unless you know where I'm going with this):
 
@@ -204,14 +209,15 @@ Search Google for "Error: WebDriverError: unknown error: Chrome failed to start:
 
 -   **Somehow you add this to your protractor.conf.js:**
 
--   chromeOptions: {
-
--   args: \[\'\--headless\'\]
-
--   }
+```
+chromeOptions: {
+args: ['--headless']
+}
+```
 
 All of a sudden it works!
 
+```
 \[20:31:04\] W/element - more than one element found for locator By(css selector, app-root .content span) - the first result will be used
 
 workspace-project App
@@ -223,6 +229,7 @@ Executed 1 of 1 spec SUCCESS in 2 secs.
 \[20:31:05\] I/launcher - 0 instance(s) of WebDriver still running
 
 \[20:31:05\] I/launcher - chrome \#01 passed
+```
 
 ### Recap and final script
 
@@ -256,17 +263,14 @@ The script goes on to install webdriver-manager and a chrome package. Turns out 
 
 Just this isn't enough. We have to tell Protractor and Chrome that we're running in headless mode, which means that we can't run a UI. We also need to update Protractor. Let's add,
 
+```
 capabilities: {
-
-browserName: \'chrome\',
-
+browserName: 'chrome',
 chromeOptions: {
-
-args: \[\'\--headless\'\]
-
+args: ['--headless']
 }
-
 },
+```
 
 [[To protractor.conf.js]{.ul}](https://www.protractortest.org/#/browser-setup). Pay attention to the "args" that we've added. We're adding these arguments because Chrome doesn't know we're running in a container. This means it tries to set up a UI and such and it can't do it because there isn't a UI.
 
