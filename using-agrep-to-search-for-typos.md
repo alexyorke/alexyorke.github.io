@@ -16,6 +16,7 @@ That command will recursively search all files in the angular repo, find all lin
 
 We get a few results:
 
+```
 input.nativeElement.value = \'angul\';
 
 // (\`angul\`) has a length \> 3, the validation is successful
@@ -33,6 +34,7 @@ it(\'should place initial, multi, singular and application followed by attribute
 \*\*Do\*\* create a new service once the service begins to exceed that singular purpose.
 
 \* \*\*bazel:\*\* Hide Bazel files in Bazel builder (\[\#29110\]([[https://github.com/angul]{.ul}](https://github.com/angul)
+```
 
 We get the word "singular" too; we could have filtered that out but since we didn't get too many results it's easy to look through them.
 
