@@ -10,7 +10,7 @@ One might be concerned with how many files can be undeleted, when sending a disk
 
 ### Terminology
 
-In this post, a &quot;zeroed block&quot; is a block which just contains zeros on the file system that we&#39;re using. In this case, we&#39;re mounting an XFS filesystem file, so a &quot;zero block&quot; is one which is pure zeros on that virtual file system; we&#39;re not concerned about the physical file system which contains that file.
+In this post, a "zeroed block" is a block which just contains zeros on the file system that we&#39;re using. In this case, we&#39;re mounting an XFS filesystem file, so a "zero block" is one which is pure zeros on that virtual file system; we&#39;re not concerned about the physical file system which contains that file.
 
 A free block (defined by XFS) is a block that the file system can use to write data to. It might contain zeros, or it might have deleted file data.
 
@@ -19,8 +19,8 @@ A free block (defined by XFS) is a block that the file system can use to write d
 Here&#39;s an XFS filesystem, approximately 256GB in size, and contains about 80 million files. Let&#39;s find out how much data is deleted.
 
 First, let&#39;s get the block size.
-
-$ xfs\_info xfspart.img
+```
+$ xfs_info xfspart.img
 
 meta-data=xfspart.img isize=512 agcount=4, agsize=16777088 blks
 
@@ -41,10 +41,12 @@ log =internal log bsize=4096 blocks=32767, version=2
 = sectsz=4096 sunit=1 blks, lazy-count=1
 
 realtime =none extsz=4096 blocks=0, rtextents=0
+```
 
-The data&#39;s block size is 4096.How many free blocks are there?
+The data's block size is 4096.How many free blocks are there?
 
-$ xfs\_db -r -f -c &#39;freesp -s&#39; xfspart.img
+```
+$ xfs_db -r -f -c 'freesp -s' xfspart.img
 
 from to extents blocks pct
 
@@ -95,20 +97,24 @@ total free extents 3705840
 total free blocks 33992664
 
 average free extent size 9.17273
+```
 
-About 50% of the disk is free, which means 50% of the space is reserved. According to the du command, this is correct. This means that &quot;total free blocks&quot; refer to blocks that are available for reallocation, not necessarily zeroed ones.
+About 50% of the disk is free, which means 50% of the space is reserved. According to the du command, this is correct. This means that "total free blocks" refer to blocks that are available for reallocation, not necessarily zeroed ones.
 
 We could look at the free space extents:
 
-$ xfs\_db -r -f -c &#39;freesp -d&#39; xfspart.img | wc -l
+```
+$ xfs_db -r -f -c 'freesp -d' xfspart.img | wc -l
 
 3703532
+```
 
 We would need to convert the agbno&#39;s into blocks, and then write a script to sample the intervals uniformly. Is there an alternative way that isn&#39;t XFS specific?
 
 Let&#39;s start at the block level. We&#39;ll print out a few blocks from our file:
 
-$ xfs\_logprint -D -f xfspart.img
+```
+$ xfs_logprint -D -f xfspart.img
 
 [...]
 
@@ -147,9 +153,11 @@ BLKNO: 1505
 78 fc760869 6ebafb95 a496146 9724741d b00f359a c8ade661 417ef62f 10765443
 
 [...]
+```
 
 Let&#39;s make sure that this maps to a physical block[0]:
 
+```
 $ dd if=xfspart.img bs=512 count=1 skip=1505 | od -t x4 -w32
 
 0000000 a5355de4 e325a5f5 54cd9df6 6506fc89 ca52b9ff 6ace79d7 ef9eb46f 4c7de7b6
@@ -183,20 +191,25 @@ $ dd if=xfspart.img bs=512 count=1 skip=1505 | od -t x4 -w32
 0000700 03693035 b3097096 e14e5950 56c6a840 20ca7ab3 db70f6e9 236334c4 ad2a6100
 
 0000740 fc760869 6ebafb95 0a496146 9724741d b00f359a c8ade661 417ef62f 10765443
+```
 
 Looks like we&#39;re on the right track.
 
 We can print out if a block is empty via checking if the hex representation of it is just zeros. We&#39;re temporarily using the 512 byte block size (for inodes) so that we can cross-check our work with xfs\_db:
 
-$ dd if=xfspart.img bs=512 count=1 skip=1505 status=none | hexdump -v -e &#39;/4 &quot;%02x&quot;&#39; | grep -c &#39;^[0]\*$&#39;
+```
+$ dd if=xfspart.img bs=512 count=1 skip=1505 status=none | hexdump -v -e '/4 "%02x"' | grep -c '^[0]\*$'
 
 0
+```
 
 Let&#39;s manually go to a block we know is free (block 15) and see if grep returns 1.
 
-$ dd if=xfspart.img bs=512 count=1 skip=15 status=none | hexdump -v -e &#39;/4 &quot;%02x&quot;&#39; | grep -c &#39;^[0]\*$&#39;
+```
+$ dd if=xfspart.img bs=512 count=1 skip=15 status=none | hexdump -v -e '/4 "%02x"' | grep -c '^[0]\*$'
 
 1
+```
 
 As we want to total all of the blocks that are zeros, we return one if there is a match, and zero otherwise.
 
@@ -208,9 +221,11 @@ As a best case scenario, this will take about a minute and 37 seconds. Since we&
 
 Let&#39;s use 4096 as our data block size, and sample 16637 random blocks:
 
-$ for i in $(shuf -i0-67108351 -n16637 | sort -n); do dd if=xfspart.img bs=4096 count=1 skip=$i status=none | hexdump -v -e &#39;/4 &quot;%02x&quot;&#39; | grep -c &#39;^[0]\*$&#39;; done | pv -l -s 16637 | awk &#39;{s+=$1} END {printf &quot;%.0f&quot;, s}&#39;
+```
+$ for i in $(shuf -i0-67108351 -n16637 | sort -n); do dd if=xfspart.img bs=4096 count=1 skip=$i status=none | hexdump -v -e '/4 "%02x"' | grep -c '^[0]\*$'; done | pv -l -s 16637 | awk '{s+=$1} END {printf "%.0f", s}'
 
 4759
+```
 
 _We don&#39;t need PV, but it gives us a progress bar and ETA. To make reading more sequential, I&#39;m sorting the sectors in increasing order._
 
@@ -242,7 +257,7 @@ We&#39;re expecting the zeroed out volume to not have any recoverable deleted fi
 
 ##### What does PhotoRec recover?
 
-After running PhotoRec on the partition, it recovered 45GB of data (&quot;du&quot; apparent size.) This is the same order of magnitude of what we estimated, however, it is less because we are working at a file system block level rather than a file level. This means that even if a file occupied only one byte of data, we would have counted it as 512 bytes.
+After running PhotoRec on the partition, it recovered 45GB of data ("du" apparent size.) This is the same order of magnitude of what we estimated, however, it is less because we are working at a file system block level rather than a file level. This means that even if a file occupied only one byte of data, we would have counted it as 512 bytes.
 
 #### Compressing both disks
 
@@ -280,7 +295,7 @@ Using block-level analysis, we determined how many unused blocks there are compa
 
 We found out that our first filesystem had about 60.62GB ± 1% of deleted data, and the identical filesystem which was zeroed out and defragged had about 0.26MB ± 1% of deleted data. While I don&#39;t know for certain whether these are actually deleted files, the two measurements are different enough to warrant a conclusion.
 
-While the apparent size of the recovered files by &quot;du&quot; was about 45GB, it gives us the same order of magnitude as to how many files were deleted. Additionally, it is unclear if photorec does not recover files that don&#39;t have a valid file header (as it uses file types to determine what files to recover.)
+While the apparent size of the recovered files by "du" was about 45GB, it gives us the same order of magnitude as to how many files were deleted. Additionally, it is unclear if photorec does not recover files that don&#39;t have a valid file header (as it uses file types to determine what files to recover.)
 
 This measurement is important because of:
 
@@ -290,6 +305,6 @@ This measurement is important because of:
 
 ### Footnotes
 
-0: This data is from /dev/urandom.
+0: This data is from `/dev/urandom`.
 
 1: In the context of this post, zero blocks are free space.
