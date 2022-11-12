@@ -7,7 +7,7 @@
 # @Copyright: Copyright (C) 2022 Alex Yorke
 
 
-
+theme: minima
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
