@@ -1,3 +1,8 @@
+---
+title: "GZIP exceptions, but only on hot or rainy days"
+date: 2022-11-11
+---
+
 It was a hot summer day inside my apartment. At least not for long. I just got an air conditioner from my landlord and it was time to fire it up.
 
 *A few weeks later*
