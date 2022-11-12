@@ -1,3 +1,8 @@
+---
+title: "Approaches towards securing secret information and validing inputs, a last mile approach"
+date: 2021-02-21
+---
+
 When developing applications, chances are you'll have to deal with passwords, API keys, or other sensitive information. Or, it could be untrusted information like user input.
 
 ### Last mile approach to user input validation and protection

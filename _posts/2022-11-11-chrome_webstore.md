@@ -1,4 +1,7 @@
-# Download entire Chrome Extension Webstore
+---
+title: "Download entire Chrome Extension Webstore"
+date: 2022-11-11
+---
 
 Downloads all `.crx` extensions to current directory, with the filename as the extension's id. It takes about 15 minutes for the script to generate the URLs because it is very inefficient and creates ~200000 `sed` processes (one for each line.) After the URL generation is finished it goes pretty fast though.
 

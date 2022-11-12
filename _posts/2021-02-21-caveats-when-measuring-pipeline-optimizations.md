@@ -1,3 +1,8 @@
+---
+title: "Caveats when measuring pipeline optimizations"
+date: 2021-02-21
+---
+
 Pipelines are the core of many CI/CD workflows. Having pipelines optimized means that the core of the CI/CD workflow can be completed faster or use fewer resources, and this can also yield cost savings.
 
 ### Why optimizations are hard to measure

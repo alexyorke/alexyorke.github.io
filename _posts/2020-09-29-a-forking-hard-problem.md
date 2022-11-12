@@ -1,3 +1,8 @@
+---
+title: "Caveats when measuring pipeline optimizations"
+date: 2020-09-29
+---
+
 One day I couldn’t log into my linux VPS. When I tried to log in I got an error message saying that the shell could not be created. Hmm, strange. I was able to log into Digital Ocean’s management page and didn’t see any issues; the CPU was at 1%, the memory at 70%, and the disk and network activity were about 2%. Disk space was pretty high with a few GBs available.
 
 I logged into the recovery console and immediately started seeing messages like:

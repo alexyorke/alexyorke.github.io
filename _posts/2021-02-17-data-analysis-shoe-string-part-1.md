@@ -1,3 +1,8 @@
+---
+title: "Data analysis on a shoe string budget part 1"
+date: 2021-02-17
+---
+
 **This post is a draft. There might be significant edits.**
 
 In this post, I set out to do some data analysis with tight real-world and financial constraints. No BigQuery, no Amazon EC2, and no easy solutions allowed. My budget is \$2.50 CAD. Can I do it? Well, let's find out.

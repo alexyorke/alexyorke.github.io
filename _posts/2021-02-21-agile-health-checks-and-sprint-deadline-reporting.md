@@ -1,3 +1,8 @@
+---
+title: "Agile health checks and sprint deadline reporting"
+date: 2021-02-21
+---
+
 Sometimes when completing a sprint, the sprint may have exceeded its velocity and your team has got much more done. Other times, it may have failed short of its velocity, and sometimes it may have hit the goal right on.
 
 If sprints do not hit their velocity goal (within a certain margin of error), especially serially, it's common to perform an investigation to find out why the goals aren't being met. Deadline slipping can cause project delays and loss of revenue, so delays are not welcome.

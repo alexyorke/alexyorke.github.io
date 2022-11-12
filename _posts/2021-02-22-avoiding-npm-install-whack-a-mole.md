@@ -1,3 +1,8 @@
+---
+title: "Avoiding npm install whack-a-mole"
+date: 2021-02-22
+---
+
 When pulling new commits, sometimes package.json and/or package-lock.json (depending on your development workflow) changes. It can be difficult to know when it changes if there are a lot of files changed (although git diff will easily show you), or you might forget.
 
 It may not appear to be that bad, missing either an npm install or an npm ci when package.json changes that is. When I try to build the project it&#39;ll say this weird error about some dependency, right? Then I&#39;ll just run npm install.
