@@ -1,3 +1,8 @@
+---
+title: "Energy efficient CI/CD"
+date: 2021-02-21
+---
+
 CI/CD pipelines are the core of many development workflows today. However, they require energy to run. Since energy may come from non-renewable resources, there might be concerns regarding the environment.
 
 There are a few ways you can optimize your pipeline to increase energy efficiency while minimizing developer impact.

@@ -1,3 +1,8 @@
+---
+title: "Using systems thinking for benign pipeline failures"
+date: 2021-02-22
+---
+
 Pipeline failures, at a high level, are misaligned assumptions. The developer assumes that the code is ready to go but the CI tool disagrees.
 
 This could be for a variety of reasons:

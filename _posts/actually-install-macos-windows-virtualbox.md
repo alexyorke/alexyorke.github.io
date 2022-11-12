@@ -1,3 +1,8 @@
+---
+title: "Actually install macOS in Virtual Box on Windows"
+date: 2020-02-02
+---
+
 Installing macOS on a VM in Windows is surprisingly complicated. Tutorials after tutorial after tutorial, guides that say that they’ve went through all of the tutorials and say that this one is a combination of all of them and it works, those that are outdated, those which were published last year, iBoot, Hackintosh, using a mac to download parts of the installer, none of which worked for me. Error after error after error, googling each error and then come up to more and more errors. I’ve finally found a solution.
 
 First, I will assume that you do not have a mac, and cannot use a mac for any of the installation process. I will also assume that you want genuine Apple media downloaded from a legal source directly from Apple. This is how you do it:

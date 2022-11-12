@@ -1,3 +1,8 @@
+---
+title: "Theoretical application of human like properties to decrease flaky tests"
+date: 2021-02-21
+---
+
 *This article is about tests that can't be run asynchronously, don't have callbacks or other ways to notify when it is safe to return from a result. These tests are "polling" or "waiting" tests.*
 
 People are very adaptable. They can change their environment to make things more livable and know how to solve complex problems. People are good for a lot of things. They're also good for manually running flaky test suites. Too good, in fact. They might not know they are flaky because we're so adaptable.

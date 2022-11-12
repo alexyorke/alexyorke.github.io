@@ -1,5 +1,7 @@
-Using curl reliably in tests and shell scripts
-----------------------------------------------
+---
+title: "Using curl reliably"
+date: 2021-02-16
+---
 
 Curl is a useful command which downloads or uploads data to a remote resource. While it is very useful, it\'s important to consider the slight-but-very-important differences between very similar flags. Certain combinations of flags and redirects, when used together, can cause security issues or unintended consequences like tests that report as passing when in fact they failed.
 

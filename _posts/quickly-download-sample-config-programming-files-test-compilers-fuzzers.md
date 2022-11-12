@@ -1,4 +1,7 @@
-# How to quickly download thousands of config or program files to test parsers, compilers, and fuzzers
+---
+title: "How to quickly download thousands of config or program files to test parsers, compilers, and fuzzers"
+date: 2020-08-16
+---
 
 When developing certain applications, it can be helpful to have a set of
 example files to use. For example, when designing a compiler, there

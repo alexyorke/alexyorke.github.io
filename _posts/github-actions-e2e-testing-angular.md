@@ -1,4 +1,7 @@
-End to end tests
+---
+title: "End to end tests"
+date: 2021-03-10
+---
 
 E2E (end-to-end) tests. Angular. Yes, they're flaky. Yes, they're slow. But they are very useful and potentially under used. They're sometimes pushed off to run on end-developers devices because getting it to work on the CI is too finicky.
 

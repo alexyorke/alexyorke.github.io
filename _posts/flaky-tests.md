@@ -1,5 +1,7 @@
-## Methods to reduce flaky tests
-Published: February 15, 2021 at 20:30
+---
+title: "Methods to reduce flaky tests"
+date: 2021-02-15
+---
 
 ### What are flaky tests?
 

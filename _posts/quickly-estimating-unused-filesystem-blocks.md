@@ -1,4 +1,7 @@
-# Quickly estimating allocated-but-unused filesystem blocks
+---
+title: "Quickly estimating unused filesystem blocks"
+date: 2021-09-18
+---
 
 If you delete a file from a filesystem, it is removed from the index but usually stays on disk until a newer file overwrites it.
 

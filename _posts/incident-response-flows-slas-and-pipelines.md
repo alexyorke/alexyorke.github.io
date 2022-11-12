@@ -1,3 +1,8 @@
+---
+title: "Incident response flows, SLAs, and pipelines"
+date: 2021-02-22
+---
+
 Many organizations are adopting Agile and Agile-based processes. Agile's motto is "move fast and break things." While I agree that at some point you have to "Ship It", chances are there will be issues in production that have to be fixed, well, immediately.
 
 It can be ok to move fast and break things, but at some point you have to fix them. You could have thousands or millions of users who you have an SLA with. Every second that your services are down could be costing your company lots of money, or using up your SLA downtime "credits" very quickly, making future disasters more costly.

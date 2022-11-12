@@ -1,4 +1,7 @@
-# Shell scripts, syntax checking, linting, line breaks, CI/CD, and more
+---
+title: "Shell scripts, syntax checking, linting, line breaks, CI/CD, and more"
+date: 2021-03-02
+---
 
 Shell scripts are the glue that holds many systems together. They&#39;re also great for system utilities among many other things. However, they have a few thorns that can cause hours of debugging, especially in remote teams with different environments and software. Fortunately, there are a few ways to prevent them.
 

@@ -1,4 +1,7 @@
-### UTF-8 Default Ignorables you shouldn&#39;t ignore
+---
+title: "UTF-8 default ignorables you should not ignore"
+date: 2021-03-01
+---
 
 This finds pesky invisible UTF-8 characters. They normally don&#39;t cause problems but they can cause strings to not equal even though they look exactly the same. They can prevent some files from being parsed, or weird errors when importing CSV files.
 

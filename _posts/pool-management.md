@@ -1,4 +1,7 @@
-## A simple pool management algorithm
+---
+title: "Simple pool management algorithm"
+date: 2020-09-08
+---
 
 In programming, there are some situations where an application needs a resource or a handle, and it doesn’t matter what type it is, as long as it is valid and not in use. Examples of where pools are used are in threads (thread pools), database connection pools, connection pools, and more. Connection pools remove the dependency of the application from the connections; it doesn’t care what connection it gets, as long as it works.
 

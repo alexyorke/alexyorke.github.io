@@ -1,3 +1,8 @@
+---
+title: "How to use 'jq' robustly in the shell"
+date: 2021-02-17
+---
+
 Jq is a command-line JSON parser. It is very powerful and can even parse messy JSON. However, it has a few useful features to ensure output correctness and safety. As with all commands, it has some behaviors on failure which may or may not be desirable.
 
 Knowing about the pitfalls and workarounds allow you to use jq more robustly and avoid changing it with other commands which can cause parsing issues later on that are difficult to debug.

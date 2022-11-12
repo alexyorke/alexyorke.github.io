@@ -1,3 +1,8 @@
+---
+title: "Using 'agrep' to search for typos"
+date: 2021-03-10
+---
+
 If you have a typo in your codebase, it might be tempting to reach for spell check. While spell check is useful, it doesn't know how words should be spelled outside of its own internal dictionary. If this is US English, then the word "javascript" isn't a word and so would be marked as invalid by spell check.
 
 While it is possible to generate a team-driven spellcheck with a custom dictionary of words, sometimes this might not be practical. What if I just need to search the codebase for a single, potentially misspelled word?

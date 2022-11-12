@@ -1,4 +1,7 @@
-# Sorting files larger than your available disk space
+---
+title: "Sorting files larger than your available disk space"
+date: 2020-09-15
+---
 
 Normally, the `sort` command will create temporary file(s) if the data to sort exceeds the amount it can fit into memory. However, this is an issue if your data is very large and two copies cannot exist simultaneously.
 

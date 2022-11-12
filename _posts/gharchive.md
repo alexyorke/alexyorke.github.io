@@ -1,4 +1,7 @@
-# Download entire archive from 2011 until 2020
+---
+title: "How to download entire GHArchive"
+date: 2020-09-03
+---
 
 Note: the script will have a lot of 404 errors initially because the first few months of 2011 have not been archived. Requires `aria2` to be installed. As of 2020, the archive is about 1.1TB compressed.
 

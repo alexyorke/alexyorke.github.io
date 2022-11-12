@@ -1,3 +1,8 @@
+---
+title: "Why your team thinks pipelines are scary (and how to fix it)"
+date: 2021-02-22 
+---
+
 Pipelines can be scary. Why is that? Well, they are central to many CI/CD development workflows. They are the window to pushing code into production.
 
 Once they break or start having issues, the entire development team has to stop and fix it.

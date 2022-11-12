@@ -1,3 +1,8 @@
+---
+title: "How to mitigate long-term CI/CD pipeline issues"
+date: 2021-02-21
+---
+
 We can use pipelines for multiple things in CI/CD, including acting as a buffer between developers and the master branch.
 
 Sometimes, pipelines are treated as a set-it-and-forget-it; if it's green, then everything is ok. A successful pipeline doesn't mean it will always be successful. Since pipelines are the core of many CI/CD workflows, we should treat them‌ like that. If they break, then development ceases until we fix them.
