@@ -7,10 +7,13 @@
 # @Copyright: Copyright (C) 2022 Alex Yorke
 
 
-theme: minima
+remote_theme: jekyll/minima
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+
+plugins:
+- jekyll-remote-theme
 
 # Permalinks
 permalink:        pretty
@@ -27,3 +30,4 @@ author:
   url:
 
 paginate:         5
+google_analytics: G-2GV04PM05P
