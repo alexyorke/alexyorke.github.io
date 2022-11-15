@@ -1,9 +1,7 @@
 ---
-title: "Commoncrawl FAQ"
+title: "Generate list of all domain names and IP addresses without duplicates"
 date: 2020-09-03
 ---
-
-# Generate list of all domain names and IP addresses without duplicates
 
 This script is not finished because it will combine canocalized domains with non-canocalized ones (e.g. com.google and google.com.) It requires the `awscli` to be installed, but you do not need to have an AWS account. Domains and IP addresses might contain ports (such as google.com:1234)
 
