@@ -247,8 +247,81 @@ Note: you may have to make a commit first (i.e., see previous command.) This is 
 CI/CD tools may differ in their tagging setups. While Git allows for release tagging, some teams use third-party tools like Azure DevOps. If you need deep project management software integration, consider using built-in CI/CD offerings. Should you tag in Git? Weigh the benefits against potential confusion from mismatched tags and releases.
 
 
-**Containerization**:
+## Ok, so I have tagged a container. How do I tag the associated source code?
 
+Git Tags don’t do anything on their own; they are not capable of creating a release. The CI or CD runner has to look at the tags and do useful work. This normally occurs when a new tag is pushed.
+
+Git Tags are one way of tracking releases and offer a provider-agnostic way to check out the code at a specific version. There are many ways to track releases, and sometimes tracking must occur at multiple steps. In this case, there must be tracking at the source code level to make sure that one understands which source code is being released. There may be tracking at the user story or task level to understand which task(s) were part of the release, or QA test plans.
+
+When creating a new release, and the task(s) are not yet done, put them under the next version that has not yet been released.
+
+Tags do not change the source code on their own. For example, if your application displays its version in its “About” dialog, this won’t change if you tag the release. Therefore, you may want to change the version number in the application before or when you tag the release. This can usually be done via automation and the version number for the application might exist in one of the application’s configuration files.
+
+## How do I know when a tag has been pushed or created? I would like to run a script in this case (or kick off another pipeline.)
+
+This depends on if the tag is annotated, as the commands will differ. I recommend adding in a manual override, as there will be situations where you may need to delete existing tags or rewrite them because of mistakes or exceptions to the procedure.
+
+If you are using a monotonically increasing or random version for each application (e.g., evergreen), then I recommend that this process is automated. If you are using semver, then you may want to consider doing releases manually. It should be very easy to do.
+
+It can be complex to manage and create tags when releasing software because it may require knowledge of bash scripting, which people might not be familiar with. It also has different programming paradigms.
+
+Normally, you’d want to kick off a release when there is a new tag pushed, and the tag is merged. There are a long tail of exceptional situations, such as two tags being pushed at the same time, tags being deleted, merges, etc. that makes things more complex.
+
+First, you’d want to figure out your release strategy before your tagging strategy. Tagging strategy is just a technical implementation of your release strategy.
+
+Some software allows creating a release manually.
+
+The issue is, if I am using SemVer for example, how do I automate the tagging process? In this case, there are many tools to show if the tag will be backwards not compatible or not, but SemVer usually requires human intervention because “major” changes are subjective. In this case, releases would still be manually initiated but the process itself would be automated. There are some tools to automatically notify of API breakage, but this would depend on the type of library that you are building and whether there exists a tool for this. It cannot detect all changes, normally, only changes to the public API.
+
+## What does it mean when a container is generated every time I merge code?
+Depending on the CI setup, CI might be linked to CD, which means that a deployment is automatically made on every push. Therefore, the CI system might generate the docker container using the Dockerfile included in the repository. The container is usually pushed to a registry after it has been created. How to use Docker to make releases? - Stack Overflow
+git - When to create a branch from tag? - Stack Overflow useful to know that each application has a version, although it may not be released to the public. For example, intermediate versions. This would be tedious to do manually.
+
+
+## Integrating Artifact Repositories with CI/CD pipelines
+
+Package Manager Dependency: Your choice depends on the package manager you're using. For example, C# uses the NuGet package manager, so it would have to be a “restore” step in the pipeline to get the packages from the repository.
+
+Authorization: Connect to your package repository, often using API keys, credentials, a service connection, or an identity. If you are using your CI/CD providers package manager, it will usually have steps on how to connect to it.
+
+Local Testing: Before using CI, test the setup locally, potentially using your IDE for assistance.
+
+Note! Theoretically, artifacts can also be re-generated which would mean that there isn’t a need for artifact repositories (i.e., just build the code again.) However, this process is time-consuming and error-prone because the build-tools are usually not version controlled, which means that a small difference in the build tools will cause the outputs to be different. If the output changes by one bit, it does not necessarily mean that program behavior is impacted. However, this means that the artifact is no longer the same, thus opening up the door for potential exploits/vulnerabilities/security issues.
+
+## Artifact tracking and naming
+Another issue is: when you have an artifact, how do you trace it throughout its entire lifecycle? For example, say it is in QA. How do you know it is in QA?
+Artifacts are generated at several points during the build process, are generated during non-customer pipeline runs, and during testing. How do I track which one(s) are being used by the customer?
+
+## How do I name artifacts?
+
+Organization-module name-revision Repository Layouts JFrog Artifactory Documentation Reader JFrog Help Center.
+
+## When is a version assigned to an artifact?
+Sometimes, the CI or CD runner will assign build numbers to the artifacts.
+
+An artifact might have a lot of metadata associated with it, such as build numbers, versions, revisions, dates, etc.
+Usually, versions are assigned when doing a release, or they are assigned automatically through the build process, and then whichever version is released, then its version is recorded in the release log.
+A version might exist as a floating version. For example, the marketing material might say “Version 5”, when, in fact, there are many updates to that version, such as 5.0.1, 5.2, etc.
+It is also possible to give other developers evergreen versions of the artifact if they are injected at runtime. For example, if they are not bundled with the application (and thus fetched from a remote server), for example a JavaScript payload, then this can ease distribution for multiple clients. You would want to make sure to capture sufficient telemetry, record which version(s) are currently in use so that you can associate error telemetry.
+
+## Artifact maintenance
+When you try to maintain artifacts, there are several issues that arise. It might be unclear which versions of the application you are trying to keep and you might keep too many versions. This can cause confusion, especially if you use manual dependency management (although dependency managers can usually automatically choose which version is necessary.) It can be a financial cost as well, and a potential liability if there are too many copies of your application stored everywhere. It increases storage costs as the applications are not necessary to be stored and will never be used. Recall that artifacts are only the essential information that your application needs to run.
+By default, typically, artifacts are stored for 30 days on most providers.
+
+The other issue is: given that we have artifacts that have been deployed to customers, when do we delete them? After seven years? We might need them again depending on the level of support. If unsure, I would recommend keeping them, because it could be very complex to recreate the artifact from scratch.
+There are usually ways to specify retention policies with your artifact manager.
+
+When the artifacts are no longer useful, then they can be decommissioned. This is where the artifact managers come into play. They are able to track downloads over time, and might be able to track it down to specific pipelines. This helps you understand where the artifacts are being used. You can also selectively deprecate different versions, which will make it so that application developers cannot use that specific version (unless, of course, it is cached on their machine.)
+
+When an artifact is deprecated, it might be possible to mark it as deprecated in the dependency manager, and in some cases not make it available for download. You should send sufficient communication to relevant stakeholders regarding its deprecation, including its replacement, when it will be removed, ramifications of what will happen after it is removed, its impact, and who to contact if there are questions. Sometimes, if the artifact is not being used much, you might be able to deprecate it without notifying others.
+
+This can be made more complex if operations have to be performed on those tags. For example, incrementing a tag or determining if one tag is before another tag, for example, is “v1.0-beta” before “v1.0-dev”? For example, incrementing a tag requires knowing what the last tag was, and then adding something to it (or incrementing it.)
+
+If you want to tag your releases with branch names, or to associate it with branch names, then consider slugifying the branch name. This is because Docker image names have a restricted character set as to how they can be named.
+
+In order to have a reproducible build environment, you have to have enough information about the environment to make it reproducible, such as versions, inputs, their checksums, hardware, etc. Any small change in any part of the software chain can cause the artifacts to be non-reproducible because the tooling is very complex, and has dependencies on other parts of the build process. One way to do this is through Dockerfiles, which are a set of instructions that contain the specific versions of tools that you use to build your application. Because it runs in an isolated environment, this means that you can run multiple conflicting copies of other dependencies on your machine and it will not interfere with the Docker container.
+
+## Containerization
 
 Docker packages software applications into deployable units called images. When running, these images are referred to as containers. With Docker, tags reference specific image versions.
 
@@ -464,75 +537,3 @@ az acr logout --name myregistry
 ```
 
 That's it! Your `myapp:v1` image is now published to your Azure Container Registry. Whenever you want to deploy or run this image from the registry, you'll pull from `myregistry.azurecr.io/myapp:v1`.
-
-
-
-## Ok, so I have tagged a container. How do I tag the associated source code?
-
-Git Tags don’t do anything on their own; they are not capable of creating a release. The CI or CD runner has to look at the tags and do useful work. This normally occurs when a new tag is pushed.
-
-Git Tags are one way of tracking releases and offer a provider-agnostic way to check out the code at a specific version. There are many ways to track releases, and sometimes tracking must occur at multiple steps. In this case, there must be tracking at the source code level to make sure that one understands which source code is being released. There may be tracking at the user story or task level to understand which task(s) were part of the release, or QA test plans.
-
-When creating a new release, and the task(s) are not yet done, put them under the next version that has not yet been released.
-
-Tags do not change the source code on their own. For example, if your application displays its version in its “About” dialog, this won’t change if you tag the release. Therefore, you may want to change the version number in the application before or when you tag the release. This can usually be done via automation and the version number for the application might exist in one of the application’s configuration files.
-
-## How do I know when a tag has been pushed or created? I would like to run a script in this case (or kick off another pipeline.)
-
-This depends on if the tag is annotated, as the commands will differ. I recommend adding in a manual override, as there will be situations where you may need to delete existing tags or rewrite them because of mistakes or exceptions to the procedure.
-
-If you are using a monotonically increasing or random version for each application (e.g., evergreen), then I recommend that this process is automated. If you are using semver, then you may want to consider doing releases manually. It should be very easy to do.
-
-It can be complex to manage and create tags when releasing software because it may require knowledge of bash scripting, which people might not be familiar with. It also has different programming paradigms.
-
-Normally, you’d want to kick off a release when there is a new tag pushed, and the tag is merged. There are a long tail of exceptional situations, such as two tags being pushed at the same time, tags being deleted, merges, etc. that makes things more complex.
-
-First, you’d want to figure out your release strategy before your tagging strategy. Tagging strategy is just a technical implementation of your release strategy.
-
-Some software allows creating a release manually.
-
-The issue is, if I am using SemVer for example, how do I automate the tagging process? In this case, there are many tools to show if the tag will be backwards not compatible or not, but SemVer usually requires human intervention because “major” changes are subjective. In this case, releases would still be manually initiated but the process itself would be automated. There are some tools to automatically notify of API breakage, but this would depend on the type of library that you are building and whether there exists a tool for this. It cannot detect all changes, normally, only changes to the public API.
-
-## What does it mean when a container is generated every time I merge code?
-Depending on the CI setup, CI might be linked to CD, which means that a deployment is automatically made on every push. Therefore, the CI system might generate the docker container using the Dockerfile included in the repository. The container is usually pushed to a registry after it has been created. How to use Docker to make releases? - Stack Overflow
-git - When to create a branch from tag? - Stack Overflow useful to know that each application has a version, although it may not be released to the public. For example, intermediate versions. This would be tedious to do manually.
-
-
-## Integrating Artifact Repositories with CI/CD pipelines
-
-Package Manager Dependency: Your choice depends on the package manager you're using. For example, C# uses the NuGet package manager, so it would have to be a “restore” step in the pipeline to get the packages from the repository.
-
-Authorization: Connect to your package repository, often using API keys, credentials, a service connection, or an identity. If you are using your CI/CD providers package manager, it will usually have steps on how to connect to it.
-
-Local Testing: Before using CI, test the setup locally, potentially using your IDE for assistance.
-
-Note! Theoretically, artifacts can also be re-generated which would mean that there isn’t a need for artifact repositories (i.e., just build the code again.) However, this process is time-consuming and error-prone because the build-tools are usually not version controlled, which means that a small difference in the build tools will cause the outputs to be different. If the output changes by one bit, it does not necessarily mean that program behavior is impacted. However, this means that the artifact is no longer the same, thus opening up the door for potential exploits/vulnerabilities/security issues.
-
-## Artifact tracking and naming
-Another issue is: when you have an artifact, how do you trace it throughout its entire lifecycle? For example, say it is in QA. How do you know it is in QA?
-Artifacts are generated at several points during the build process, are generated during non-customer pipeline runs, and during testing. How do I track which one(s) are being used by the customer?
-
-## How do I name artifacts?
-
-Organization-module name-revision Repository Layouts JFrog Artifactory Documentation Reader JFrog Help Center.
-
-## When is a version assigned to an artifact?
-Sometimes, the CI or CD runner will assign build numbers to the artifacts.
-
-An artifact might have a lot of metadata associated with it, such as build numbers, versions, revisions, dates, etc.
-Usually, versions are assigned when doing a release, or they are assigned automatically through the build process, and then whichever version is released, then its version is recorded in the release log.
-A version might exist as a floating version. For example, the marketing material might say “Version 5”, when, in fact, there are many updates to that version, such as 5.0.1, 5.2, etc.
-It is also possible to give other developers evergreen versions of the artifact if they are injected at runtime. For example, if they are not bundled with the application (and thus fetched from a remote server), for example a JavaScript payload, then this can ease distribution for multiple clients. You would want to make sure to capture sufficient telemetry, record which version(s) are currently in use so that you can associate error telemetry.
-
-## Artifact maintenance
-When you try to maintain artifacts, there are several issues that arise. It might be unclear which versions of the application you are trying to keep and you might keep too many versions. This can cause confusion, especially if you use manual dependency management (although dependency managers can usually automatically choose which version is necessary.) It can be a financial cost as well, and a potential liability if there are too many copies of your application stored everywhere. It increases storage costs as the applications are not necessary to be stored and will never be used. Recall that artifacts are only the essential information that your application needs to run.
-By default, typically, artifacts are stored for 30 days on most providers.
-
-The other issue is: given that we have artifacts that have been deployed to customers, when do we delete them? After seven years? We might need them again depending on the level of support. If unsure, I would recommend keeping them, because it could be very complex to recreate the artifact from scratch.
-There are usually ways to specify retention policies with your artifact manager.
-
-When the artifacts are no longer useful, then they can be decommissioned. This is where the artifact managers come into play. They are able to track downloads over time, and might be able to track it down to specific pipelines. This helps you understand where the artifacts are being used. You can also selectively deprecate different versions, which will make it so that application developers cannot use that specific version (unless, of course, it is cached on their machine.)
-When an artifact is deprecated, it might be possible to mark it as deprecated in the dependency manager, and in some cases not make it available for download. You should send sufficient communication to relevant stakeholders regarding its deprecation, including its replacement, when it will be removed, ramifications of what will happen after it is removed, its impact, and who to contact if there are questions. Sometimes, if the artifact is not being used much, you might be able to deprecate it without notifying others.
-This can be made more complex if operations have to be performed on those tags. For example, incrementing a tag or determining if one tag is before another tag, for example, is “v1.0-beta” before “v1.0-dev”? For example, incrementing a tag requires knowing what the last tag was, and then adding something to it (or incrementing it.)
-If you want to tag your releases with branch names, or to associate it with branch names, then consider slugifying the branch name. This is because Docker image names have a restricted character set as to how they can be named.
-In order to have a reproducible build environment, you have to have enough information about the environment to make it reproducible, such as versions, inputs, their checksums, hardware, etc. Any small change in any part of the software chain can cause the artifacts to be non-reproducible because the tooling is very complex, and has dependencies on other parts of the build process. One way to do this is through Dockerfiles, which are a set of instructions that contain the specific versions of tools that you use to build your application. Because it runs in an isolated environment, this means that you can run multiple conflicting copies of other dependencies on your machine and it will not interfere with the Docker container.
