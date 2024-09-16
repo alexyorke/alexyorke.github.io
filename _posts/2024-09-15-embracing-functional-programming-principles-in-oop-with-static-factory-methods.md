@@ -1,4 +1,7 @@
-# Embracing Functional Programming Principles in OOP with Static Factory Methods
+---
+title: "Embracing Functional Programming Principles in OOP with Static Factory Methods"
+date: 2024-09-15
+---
 
 In functional programming, type safety ensures that values (often called "objects" in other programming paradigms) conform to the constraints defined by their type. This means that functions, data structures, and types can only hold and operate on values that are valid according to the rules of their type. By using constructs like algebraic data types, functional programming prevents the creation of invalid states. A number can only be a number, it can't be a string for example. So, if I have a function that accepts the Number type, then I know that it will be a number.
 
