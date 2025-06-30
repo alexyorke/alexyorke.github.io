@@ -13,8 +13,8 @@ Monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosop
 
 While all monads provide a computational context, they generally fall into two flavors:
 
-* Monads as "Results": These represent a value that has already been computed, but with extra context. List<int> is a result with the context. Maybe<int> is the result of a computation with the context of "possible optionalness." For these, the "container" metaphor is a useful, if limited, starting point.  
-* Monads as "Recipes": These represent a computation that has not happened yet. They are a blueprint for producing a value. C#'s Task<T> is a perfect example: it doesn't hold a value, it holds the promise of a value to be computed asynchronously. For these, the "recipe" metaphor is a much better fit. Unwrapping a task doesn’t give you the computed result, it just gives you the instructions **to** compute it.
+- Monads as "Results": These represent a value that has already been computed, but with extra context. List<int> is a result with the context. Maybe<int> is the result of a computation with the context of "possible optionalness." For these, the "container" metaphor is a useful, if limited, starting point.
+- Monads as "Recipes": These represent a computation that has not happened yet. They are a blueprint for producing a value. C#'s Task<T> is a perfect example: it doesn't hold a value, it holds the promise of a value to be computed asynchronously. For these, the "recipe" metaphor is a much better fit. Unwrapping a task doesn’t give you the computed result, it just gives you the instructions **to** compute it.
 
 Sometimes, you can mix the flavors. In this post, we will focus on the first category to build our core intuition. We'll start with List and Maybe to understand the mechanics of map and flatMap on concrete results. In Part 2, we'll see how these same patterns unlock immense power when applied to "recipe" monads like Task.
 
