@@ -172,7 +172,7 @@ Up to this point, monads only look like fancy containers that have to implement 
 ## Maybe<T>
 Let’s move to a slightly more complex example where it may not always make sense to unwrap or “get at” the underlying value. Let’s create a monad called `Maybe`, which holds an already-computed result (or the absence of one.)
 
-For simplicity, our MaybeMonad will hold an `int`, but in a real-world library, this would be a generic `Maybe<T>`.
+For simplicity, our MaybeMonad will hold an `int`, but in a real-world library, this would be a generic `Maybe<T>`. It's not exactly a monad yet, because it doesn't implement `flatMap` (we'll get to this in part 2.)
 
 ```csharp
 public class MaybeMonad {  
