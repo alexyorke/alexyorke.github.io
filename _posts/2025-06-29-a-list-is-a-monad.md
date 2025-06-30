@@ -201,7 +201,9 @@ public class MaybeMonad {
 }
 ```
 
-Example (assume `f(x) = x + 1`):
+The Unit operation is just calling the constructor, that is, there has to be a way to move a value to be inside of a `MaybeMonad`. The `Map` operation might feel a bit awkward, because it's just a single value. You might be used to mapping over a `List`.
+
+Here's an example to add `1` to a `MaybeMonad`.
 
 ```csharp
 var age = new MaybeMonad(30);  
@@ -216,6 +218,8 @@ var newAge = age.Map(x => x + 1);
 // newAge is still nothing, Map decided it should not run f(x) because there is no value
 ```
 
+It may look very verbose. Why do I have to type all of this stuff to add `1` to a number? The issue is that age is a `MaybeMonad`, which defines it as a value that may or may not exist. In the case where there is no value, `MaybeMonad` doesn't execute `f(x)`. You would have to do the same thing if you wrote it procedurally.
+
 Procedurally, we would have written an if statement to check if there was a value, then update it conditionally. So, we would have to be responsible for **how** to run this function:
 
 ```csharp
@@ -229,9 +233,9 @@ int? age = 30;
 if (age != null) age++;
 ```
 
-We can start to see why a monad is not simply a container, or something to be unwrapped. How does one unwrap a `MaybeMonad`? If it has a value, it’s straightforward, just return the value. If there isn’t a value, then, well, there’s nothing in the container. “Nothing” is an abstraction the `MaybeMonad` defines, it isn’t representable via null because null is something, it is null. MaybeMonad defines that no computations can run in the case that a value does not exist. This is where unwrapping the container, or a box doesn’t always make sense.
+We can start to see why a monad is not simply a container, or something to be unwrapped. How does one unwrap a `MaybeMonad`? If it has a value, it’s straightforward, just return the value. If there isn’t a value, then, well, there’s nothing in the container. `Nothing` is an abstraction the `MaybeMonad` defines, it isn’t representable via null because null is something, it is null. `MaybeMonad` defines that no computations can run in the case that a value does not exist. This is where unwrapping the container, or a box doesn’t always make sense.
 
-This means that you can chain computations that themselves return Maybes, then compose them. The issue with only having Map is that we may end up with extraneous nested containers. For example, let’s say a function returns a `Maybe<int>`. If we chain it with Map, then the input to that function is also a `Maybe<int>`, which itself gets wrapped into a Maybe, giving a `Maybe<Maybe<int>`. We need another way to chain the computations, but to avoid having the unnecessary nested containers as we compose monads.
+This means that you can chain computations that themselves return `Maybe`s, then compose them. The issue with only having `Map` is that we may end up with extraneous nested containers. For example, let’s say a function returns a `Maybe<int>`. If we chain it with `Map`, then the input to that function is also a `Maybe<int>`, which itself gets wrapped into a Maybe, giving a `Maybe<Maybe<int>`. We need another way to chain the computations, but to avoid having the unnecessary nested containers as we compose monads.
 
 ### **flatMap**
 
