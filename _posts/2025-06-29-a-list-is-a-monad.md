@@ -19,14 +19,14 @@ While all monads provide a computational context, they generally fall into two f
 Sometimes, you can mix the flavors. In this post, we will focus on the first category to build our core intuition. We'll start with List and Maybe to understand the mechanics of map and flatMap on concrete results. In Part 2, we'll see how these same patterns unlock immense power when applied to "recipe" monads like Task.
 
 ## List<T>: Map & FlatMap in Practice
-To an OOP developer, monadic types (List<T>) might look just like generics. It’s a typical pitfall to think “we have generics, so we have monads,” which isn’t true by itself. Monads do usually involve generic types, but they **require specific operations (Unit and flatMap) and the three monad laws on those types to ensure uniform behavior.** **This is key** and is fundamental to working with monads.
+To an OOP developer, monadic types (`List<T>`) might look just like generics. It’s a typical pitfall to think “we have generics, so we have monads,” which isn’t true by itself. Monads do usually involve generic types, but they **require specific operations (Unit and flatMap) and the three monad laws on those types to ensure uniform behavior.** **This is key** and is fundamental to working with monads.
 
 A good example of a monad is a list. You’re likely very familiar with lists and working with lists.
 
 The monad Map operation is responsible for:
 
-* **Applying your function. List:** Map runs `f` on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then, well, Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it's a list, all f is, is just f(x) = x + 1. Map is responsible for running it.  
-* **Managing sequencing and combination.** The list context concatenates results into one list. We don’t need to manually modify or re-add elements to the list via .Add.
+- **Applying your function. List:** Map runs `f` on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then, well, Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it's a list, all f is, is just f(x) = x + 1. Map is responsible for running it.  
+- **Managing sequencing and combination.** The list context concatenates results into one list. We don’t need to manually modify or re-add elements to the list via .Add.
 
 Notice that the monad is responsible for running f(x). This shift means your business logic stays **declarative** and **composable**, you describe *what* happens to a single value, and the monad describes *how* and *when* it happens.
 
@@ -34,20 +34,20 @@ This is different from OO and procedural programming because in procedural progr
 
 Here’s examples in C#:
 
-```
+```csharp
 const string suffix = " - appended";
 
 // 1. List<string>: you must foreach and build a new list
 
-var fruits = new List < string > {
+var fruits = new List <string> {
   "apple",
   "banana",
   "cherry"
 };
 
-var newFruits = new List < string > ();
+var newFruits = new List <string> ();
 
-foreach(var f in fruits)
+foreach (var f in fruits)
 
 {
 
@@ -69,8 +69,7 @@ if (maybeText != null)
 
 // 3. Dictionary<string,string>: you must know it’s key/value pairs
 
-var dict = new Dictionary < string,
-  string >
+var dict = new Dictionary <string, string>
 
   {
 
@@ -84,7 +83,7 @@ var dict = new Dictionary < string,
 
 // can’t modify while iterating, so capture keys first
 
-foreach(var key in dict.Keys.ToList())
+foreach (var key in dict.Keys.ToList())
 
 {
 
