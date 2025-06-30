@@ -242,9 +242,13 @@ This means that you can chain computations that themselves return `Maybe`s, then
 `flatMap` is like our `Map`, but it also flattens the result. **flatMap provides the ability to chain computations that themselves produce monadic values, which is the defining feature of monads.** For example, if you have a function that looks up a user and returns a `Maybe<User>`, but you want to pass it to another function that returns the user’s profile. Using Map would give you a `Maybe<Maybe<UserProfile>>`, an awkward nested container because the input would be a `Maybe<UserProfile>`. With `flatMap`, you both apply your lookup and collapse the layers in one go, so you can seamlessly sequence optional, error-handling, or asynchronous operations (e.g. promises/tasks) without ever wrestling with nested monadic types.
 
 ```csharp
-// lookupUser: string → Maybe<User>  
-Func<string, Maybe<User>> lookupUser = id => GetUserFromDatabase(id)  
-    /* returns a Maybe<User>, empty if not found */;
+Maybe<User> lookupUser(string id)
+{
+    // Call your data‐access method which already returns Maybe<User>
+    return GetUserFromDatabase(id);
+}
+
+Maybe<string> userIdMaybe = GetUserId();
 
 // Map gives Maybe<Maybe<User>> (nested container) because LookupUser returns a Maybe<User>  
 // This quickly becomes unwieldy, and these nested containers do not help us and make it difficult to process values later on  
@@ -275,6 +279,27 @@ if (user == null) {
 ```
 
 In the procedural example, notice that we have to specify the control flow ourselves, however, in the monadic example, control flow is implied through the monads. If `userIdMaybe` doesn’t contain a value, then `flatMap` just doesn’t execute `lookupUser`.
+
+In the mondaic example, you could write:
+
+```csharp
+Maybe<string> userIdMaybe = GetUserId();
+Maybe<User> = userIdMaybe.FlatMap(lookupUser);
+```
+
+The control flow is handled by the monads. `GetUserId` returns a `Maybe` because we've defined `Maybe` as something that may or may not have a value. Its semantics and how it runs subsequent functions are inside of `Maybe`. This means that if `userIdMaybe` doesn't have a user id, then `lookupUser` doesn't run. This is not mysterious, we've defined `Maybe` to not run subsequent functions when there is no value.
+
+This is why it makes sense to have everything as monads, so that you can chain the `Maybe` monad with other monads, like a pipeline and keep it in the mondaic context.
+
+If you try to take the value out right away (let's assume we had a `GetValue()` command that returned the value, or `null` otherwise):
+
+```csharp
+Maybe<string> userIdMaybe = GetUserId();
+var actualUserId = userIdMaybe.GetValue();
+if (actualUserId != null) {...}
+```
+
+Eww. If it's treated as simply a container, then it looks like a waste of time, why am I putting a value into this and just taking it out again immediately? What's the point? I think this is where a lot of people stop when studying monads (myself previously.) You might think it's just a burrito, a container, some box, or a package, and there are some fancy academic math stuff with this container thing. In part 2, we'll go over more advanced monads, which are not simply containers.
 
 ## Monad Laws
 
