@@ -14,7 +14,7 @@ In Part 1, we built a simple `MaybeMonad` class to represent an “optional int�
 * **Add FlatMap:** Implement a `FlatMap` (or `Bind`) method that takes a function producing another `MaybeMonad` and chains it. This handles nested monadic results without ending up with `MaybeMonad<MaybeMonad<…>>`.
 
 Below is the refined `MaybeMonad` class. First, we show it without generics (just for `int` values) and then we’ll generalize it to any type `T`:
-```
+```csharp
 public class MaybeMonad
 
 {
@@ -118,7 +118,7 @@ We can test the **monad laws** in this class. For example, the monad laws are:
 and (3) *Associativity* – `m.FlatMap(f).FlatMap(g)` should equal `m.FlatMap(x => f(x).FlatMap(g))` for any `m`, `f`, and `g`.
 
 A quick test confirms our `MaybeMonad` abides by these laws:
-```
+```csharp
 Func<int, MaybeMonad> f = x => MaybeMonad.Unit(x + 1);
 
 Func<int, MaybeMonad> g = x => MaybeMonad.Unit(x * 2);
@@ -152,7 +152,7 @@ Console.WriteLine($"Associativity:   {assoc1} == {assoc2} → {assoc1.ToString()
 This yields output indicating all three laws hold true (each comparison prints `True`). Now our `MaybeMonad` is an honest-to-goodness monad!
 
 That said, our `MaybeMonad` is still a bit limited, it currently only works for `int` values. In reality, a Maybe/Optional monad should be able to hold any type. We can introduce **generics** to make `MaybeMonad<T>` polymorphic in the value type:
-```
+```csharp
 public class MaybeMonad<T>
 
 {
@@ -250,34 +250,34 @@ public class MaybeMonad<T>
 The `Map` function is defined here to take a `Func<T, U>`, meaning it takes a function that takes in some type T, and could return a type U. Type U could be the same type, or it might be a different type–this adds flexibility. For example, you want to convert an integer to a string, T is int, and U is string.
 
 Using our generic `MaybeMonad<T>` looks like this:
-```
-       // Example usage of MaybeMonad<T>
+```csharp
+// Example usage of MaybeMonad<T>
 
-        MaybeMonad<int> someNumber = MaybeMonad<int>.Unit(5);
+MaybeMonad<int> someNumber = MaybeMonad<int>.Unit(5);
 
-        MaybeMonad<int> doubled = someNumber.Map(x => x * 2);
+MaybeMonad<int> doubled = someNumber.Map(x => x * 2);
 
-        Console.WriteLine(doubled);    // 10
+Console.WriteLine(doubled);    // 10
 
-        MaybeMonad<int> noNumber = MaybeMonad<int>.Unit();
+MaybeMonad<int> noNumber = MaybeMonad<int>.Unit();
 
-        MaybeMonad<string> stillNone = noNumber.Map(x => x * 2).Map(x => x + " World!");
+MaybeMonad<string> stillNone = noNumber.Map(x => x * 2).Map(x => x + " World!");
 
-        Console.WriteLine(stillNone);  // Nothing
+Console.WriteLine(stillNone);  // Nothing
 
-        // Using with strings
+// Using with strings
 
-        MaybeMonad<string> greeting = MaybeMonad<string>.Unit("Hello");
+MaybeMonad<string> greeting = MaybeMonad<string>.Unit("Hello");
 
-        MaybeMonad<string> excited = greeting.Map(s => s + " World!");
+MaybeMonad<string> excited = greeting.Map(s => s + " World!");
 
-        Console.WriteLine(excited);      // Hello World!
+Console.WriteLine(excited);      // Hello World!
 
-        MaybeMonad<string> noGreeting = MaybeMonad<string>.Unit();
+MaybeMonad<string> noGreeting = MaybeMonad<string>.Unit();
 
-        MaybeMonad<string> stillNoGreet = noGreeting.Map(s => s + " World!");
+MaybeMonad<string> stillNoGreet = noGreeting.Map(s => s + " World!");
 
-        Console.WriteLine(stillNoGreet); // Nothing
+Console.WriteLine(stillNoGreet); // Nothing
 ```
 The `MaybeMonad` encapsulates the logic of “check for null/missing before doing anything.” We no longer have to pepper our code with `if (value != null)` checks – using `Map` and `FlatMap`, the computation just silently skips ahead if there’s “Nothing” inside. This is a great pattern for optional values. But what about *errors*? Maybe an operation didn’t produce a value *because something went wrong*. The Maybe monad doesn’t tell us **why** it’s empty, it just is. Often, for error handling, we want a monad that can carry *either* a result or an error information. Enter the **Either monad**.
 
@@ -290,7 +290,7 @@ To illustrate these points, let’s look at a few examples:
 ### **Example 1: User Input Validation Loop**
 
 Suppose we want to repeatedly prompt a user for a number until they enter a valid numeric value. Using `double.TryParse` makes this straightforward:
-```
+```csharp
 double value;
 
 while (true)
@@ -318,7 +318,7 @@ Console.WriteLine($"You entered {value}.");
 Here, the loop continues until `TryParse` returns `true`. No exceptions are involved for the normal “invalid input” case – we treat it as an expected part of the loop logic. The code is clear: *try to parse, if fail, prompt again*. The error handling (prompting again) is right next to the parse attempt, making the flow easy to follow.
 
 Now, consider doing the same with exceptions:
-```
+```csharp
 double value;
 
 while (true)
@@ -360,7 +360,7 @@ Another benefit of the TryParse loop is that it keeps the error handling localiz
 ### **Example 2: Parsing Multiple Values in Bulk**
 
 Consider reading a list of strings and converting them to integers, where some inputs may be malformed. Using `int.TryParse` allows you to handle each conversion gracefully:
-```
+```csharp
 string[] inputs = { "42", "19", "abc", "7.5", "100" };
 
 foreach (string text in inputs)
@@ -404,7 +404,7 @@ The TryParse pattern scales much better in scenarios like this. If you have 1000
 ### **Example 3: Using Default Values on Parse Failure**
 
 Another common scenario: you have an optional configuration or input, and if it’s missing or invalid, you want to use a default value instead of blowing up. With TryParse, this is easy:
-```
+```csharp
 int port;
 
 if (!int.TryParse(portString, out port))
@@ -420,7 +420,7 @@ Console.WriteLine($"Server will run on port {port}.");
 In one `if` block, we attempt to parse a string into an integer port. If it fails (perhaps the string was empty or not a number), we fall back to a predefined `DEFAULT_PORT`. No exception needed. The intent is crystal clear: *try to get a number, otherwise use default*.
 
 The equivalent with exceptions would be:
-```
+```csharp
 int port;
 
 try
@@ -452,7 +452,7 @@ In summary: Do the next step if everything’s okay; if an error occurred, short
 In practical terms, an Either monad is a way of **returning errors from functions without throwing exceptions**. This aligns with the TryParse idea (no exceptions on expected failures), but in a more general and composable way. Instead of a method like `ParseInt(string)` throwing or returning a magic value on failure, we could have it return an `Either<string, int>`, meaning “either an int (on success) or a string error message (on failure)”. In the TryParse example, we had to specify **how** to handle the case where the value was incorrect.
 
 Here is how one might model the Either monad. There is a lot of code, but it’s conceptually very similar to Maybe<T>. Exercise for reader: read the code, then try to rewrite it in your IDE. Remember that we need Unit and flatMap operations.
-```
+```csharp
 public class Either<TFailure, TSuccess>
 
 {
@@ -578,7 +578,7 @@ public class Either<TFailure, TSuccess>
 It’s pretty similar to the Maybe monad, but now there are two branches. Failure could be nothing, or Success could be nothing, but the monad enforces that either one must have a value. Although it’s idiomatic to put the error on the left hand side, it doesn’t really matter that much, Either doesn’t care.
 
 We can use it like this:
-```
+```csharp
 Either<string, int> ParseInt(string s)
 
 {
@@ -634,7 +634,7 @@ resultDo = do
 This is quite similar to using `TryParse`, but now the *error itself* is a first-class piece of data, not just an implicit false or an exception to catch. The caller is forced to handle both cases (since the `Either` type would make you check or pattern-match on its state). This explicitness can make the code more robust: you won’t accidentally ignore an error, because it’s in the return type, not off to the side.
 
 The real power of the Either monad comes when **chaining multiple computations that each may fail**. With exceptions, if one function deep in a chain throws, you jump out to the nearest catch, which might be far away.
-```
+```csharp
 static void ExceptionChainWithLocalCatch(string sA, string sB)
 
 {
@@ -734,7 +734,7 @@ static void ExceptionChainWithLocalCatch(string sA, string sB)
 With `Either` monads, you can chain operations in a controlled way such that if any step fails, the chain short-circuits, but you *stay* in the same flow structurally.
 
 For example, say we want to take an input string, parse it to int, then divide 100 by that number. Using our `Either` monad:
-```
+```csharp
 Either<int, string> outcome = ParseInt(userInput)
 
     .FlatMap(num => Divide(100, num));  // Suppose Divide returns Either<int,string> as well
@@ -742,7 +742,7 @@ Either<int, string> outcome = ParseInt(userInput)
 Here, `ParseInt(userInput)` gives a `Either<int,string>`. We then `FlatMap` (bind) into `Divide(100, num)`, which might, for instance, return a failure if `num` was 0 (division by zero error). The beauty is that **`FlatMap` will only call `Divide` if the first result was a success. We do not need to tell it how to run ParseInt, Divide, etc.** If `ParseInt` failed, the FlatMap will just pass along the failure, skipping the `Divide` step entirely. The final `outcome` is again a `Either<int,string>`, which will be a success only if both steps succeeded, or a failure containing either the parse error or the division error (whichever happened first).
 
 We would create a Match method in our Either monad:
-```
+```csharp
     public void Match(Action<TSuccess> onSuccess, Action<TFailure> onError)
 
     {
@@ -766,7 +766,7 @@ We would create a Match method in our Either monad:
     }
 ```
 We can then handle the `outcome` in one place:
-```
+```csharp
 outcome.Match(
 
     success => Console.WriteLine($"Result: {success}"),
@@ -784,7 +784,7 @@ To connect back to our earlier examples: using an Either monad is conceptually s
 The **Reader monad** (sometimes called the *Environment monad*) addresses a different scenario: computations that depend on some shared *environment* or configuration. In C# terms, this is very much like *dependency injection*. Instead of spreading a configuration or dependency (like a connection string, logger, or database interface) throughout your code or using global variables, the Reader monad lets you *defer providing the dependency* until a later stage. A function can be written *assuming* an environment will be available, and only when you actually run the computation do you pass in the real environment. In other words, we return a *function of the environment* as our result, to be executed once the environment is known.
 
 In summary: Prepare a computation that will run *when* a configuration or context is provided.
-```
+```csharp
 // 1) A pure configuration interface
 
 public interface IPriceConfig
@@ -846,7 +846,7 @@ public class PriceService
 }
 ```
 There’s some wiring up, such as:
-```
+```csharp
 services.AddSingleton<IPriceConfig>(new PriceConfig {
 
     TaxRate = 0.0825m,        // 8.25% tax
@@ -864,7 +864,7 @@ This pattern is extremely common in functional programming, hence the formal nam
 ### **Implementing a Reader Monad in C#**
 
 We can implement a generic `Reader<Env, T>` monad in C# to encapsulate this idea. It will hold an internal `Func<Env, T>` representing the computation. The monad’s `Unit` (or **Return**) operation will wrap a raw value into a `Reader` that ignores the environment and always returns that value. The `Map` and `FlatMap` (Bind) operations will thread the environment through. `Map` applies a transformation to the result *without* changing the environment, while `FlatMap` chains a new `Reader`-producing function, ensuring that each step of the chain sees the same environment value.
-```
+```csharp
 public class Reader<Env, T>  
 {  
     private readonly Func<Env, T> func;
@@ -924,7 +924,7 @@ We’ll inject a **pure** settings object (`IPriceConfig`) and compose price‑c
 ---
 
 #### **1. Pure dependency (the “environment”)**
-```
+```csharp
 public interface IPriceConfig
 
 {
@@ -948,7 +948,7 @@ public class PriceConfig : IPriceConfig
 ---
 
 #### **2. Reader‑returning functions (each step is “deferred”)**
-```
+```csharp
 // Given a base price, compute the subtotal after discount. The function is f(cfg) = basePrice - cfg.DiscountAmount, all it knows is that the Reader will pass it the cfg (configuration), it doesn’t care where it gets it from.
 
 static Reader<IPriceConfig, decimal> SubtotalReader(decimal basePrice) =>
@@ -966,7 +966,7 @@ static Reader<IPriceConfig, decimal> ApplyTaxReader(decimal subtotal) =>
 ---
 
 #### **3. Compose the steps with `FlatMap`**
-```
+```csharp
 decimal basePrice = 100m;
 
 Reader<IPriceConfig, decimal> finalPriceReader =
@@ -980,7 +980,7 @@ Reader<IPriceConfig, decimal> finalPriceReader =
 ---
 
 #### **4. Inject the real configuration at the composition root**
-```
+```csharp
 var cfg = new PriceConfig {
 
     TaxRate        = 0.0825m,   // 8.25 % sales tax
