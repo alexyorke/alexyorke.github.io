@@ -1,5 +1,5 @@
 ---
-title: "A list is a monad"
+title: "A list is a monad (part 1)"
 date: 2025-06-29
 ---
 
@@ -313,4 +313,4 @@ We've seen how monads provide a context for computation. By defining two core op
 
 The real power comes from applying this pattern to different contexts. In Part 2, we'll explore other useful monads like Either for more descriptive error handling and see how to compose them together to manage multiple concerns at once.
 
-Part 2 coming soon.
+[Part 2](https://alexyorke.github.io/2025/06/30/a-list-is-a-monad-part-2/)
