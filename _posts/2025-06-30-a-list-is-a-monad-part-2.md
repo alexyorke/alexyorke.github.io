@@ -940,85 +940,46 @@ This `Reader<Env, T>` class is essentially a container for `Func<Env, T>`. Notic
 
 The Reader monad shines when business logic depends on *read‑only configuration* that you don’t want to thread manually through every call.
 
-We’ll inject a **pure** settings object (`IPriceConfig`) and compose price‑calculation steps.
+Here’s that same explanation, but grounded in a concrete “price + tax” example:
 
----
+Suppose you have a product whose base price is `100m`, and your “environment” just holds a tax rate:
 
-#### **1. Pure dependency (the “environment”)**
-```csharp
-public interface IPriceConfig
+ ```csharp
+ public class TaxEnv { public decimal TaxRate { get; set; } }
+ ```
 
-{
+ You can build a `Reader<TaxEnv, decimal>` that, when given an `env`, computes the price plus tax:
 
-    decimal TaxRate        { get; }   // e.g., 0.0825  → 8.25 %
+ ```csharp
+ decimal basePrice = 100m;
+ Func<TaxEnv, decimal> computeWithTax = env => basePrice * (1 + env.TaxRate);
+ var taxReader = new Reader<TaxEnv, decimal>(computeWithTax);
+ ```
 
-    decimal DiscountAmount { get; }   // flat discount applied before tax
+ At this point, **nothing has run**—you’ve only wrapped up “given a tax rate, compute a taxed price,” just like DI holds your dependencies without executing any logic.
 
-}
+ Now imagine you want to turn that raw `decimal` into a formatted message. You call:
 
-public class PriceConfig : IPriceConfig
+ ```csharp
+ // transformer: decimal → string
+ Func<decimal, string> formatter = total => $"Total with tax: {total:C}";
+ var messageReader = taxReader.Map(formatter);
+ ```
 
-{
+ Because you still haven’t provided an `env`, there’s **no** decimal to hand to `formatter`, so **`Map` doesn’t run**. Instead it builds and returns a **new** `Reader<TaxEnv, string>` whose `Run(env)` will do exactly two things in order:
 
-    public decimal TaxRate        { get; set; }
+ 1. **Run** the original `computeWithTax` with your `env` to get a `decimal` taxed price.
+ 2. **Apply** `formatter` to that decimal to produce your final `string`.
 
-    public decimal DiscountAmount { get; set; }
+ Only when you finally call:
 
-}
-```
----
+ ```csharp
+ string result = messageReader.Run(new TaxEnv { TaxRate = 0.15m });
+ // result == "Total with tax: $115.00"
+ ```
 
-#### **2. Reader‑returning functions (each step is “deferred”)**
-```csharp
-// Given a base price, compute the subtotal after discount. The function is f(cfg) = basePrice - cfg.DiscountAmount, all it knows is that the Reader will pass it the cfg (configuration), it doesn’t care where it gets it from.
+ will anything actually happen. This defers both the environment lookup **and** the formatting step until execution time—letting you compose multiple context-dependent transformations without manually threading `TaxEnv` through each one.
 
-static Reader<IPriceConfig, decimal> SubtotalReader(decimal basePrice) =>
-
-    new Reader<IPriceConfig, decimal>(cfg => basePrice - cfg.DiscountAmount);
-
-// Given a subtotal, apply tax.
-
-static Reader<IPriceConfig, decimal> ApplyTaxReader(decimal subtotal) =>
-
-    new Reader<IPriceConfig, decimal>(cfg => subtotal * (1 + cfg.TaxRate));
-```
-*Nothing is calculated yet; each function just builds a `Reader<IPriceConfig, decimal>`.*
-
----
-
-#### **3. Compose the steps with `FlatMap`**
-```csharp
-decimal basePrice = 100m;
-
-Reader<IPriceConfig, decimal> finalPriceReader =
-
-    SubtotalReader(basePrice)
-
-        .FlatMap(subtotal => ApplyTaxReader(subtotal));
-```
-`FlatMap` ensures the **same** `IPriceConfig` flows through the whole chain—no manual parameter‑passing.
-
----
-
-#### **4. Inject the real configuration at the composition root**
-```csharp
-var cfg = new PriceConfig {
-
-    TaxRate        = 0.0825m,   // 8.25 % sales tax
-
-    DiscountAmount = 5.00m      // flat $5 discount
-
-};
-
-decimal finalPrice = finalPriceReader.Run(cfg);   // 102.9375
-
-Console.WriteLine($"Final price: {finalPrice:F2}");
-```
-Output:
-```
-Final price: 102.94
-```
-When you call `finalPriceReader.Run(cfg)`, you’re simply supplying the last piece of data—your `IPriceConfig`—to a pure `Env → T` pipeline. **The Reader monad itself doesn’t add any extra laziness or scheduling**: it just threads the same configuration through each step. Because every Reader step is a pure, deterministic function, invoking `Run(cfg)` repeatedly with the same input always yields the same result and never mutates the external state.
 
 **Conclusion**
 
