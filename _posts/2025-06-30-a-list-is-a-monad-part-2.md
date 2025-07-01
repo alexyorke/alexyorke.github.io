@@ -1,5 +1,5 @@
 ---
-title: "A list is a monad"
+title: "A list is a monad (part 2)"
 date: 2025-06-30
 ---
 
