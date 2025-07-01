@@ -781,9 +781,10 @@ To connect back to our earlier examples: using an Either monad is conceptually s
 
 ## **Reader Monad for Dependency Injection (Deferred Context)**
 
-The **Reader monad** (sometimes called the *Environment monad*) addresses a different scenario: computations that depend on some shared *environment* or configuration. In C# terms, this is very much like *dependency injection*. Instead of spreading a configuration or dependency (like a connection string, logger, or database interface) throughout your code or using global variables, the Reader monad lets you *defer providing the dependency* until a later stage. A function can be written *assuming* an environment will be available, and only when you actually run the computation do you pass in the real environment. In other words, we return a *function of the environment* as our result, to be executed once the environment is known.
+The **Reader monad** (sometimes called the *Environment monad*) addresses a different scenario: computations that depend on some shared *environment* or configuration. In C# terms, this is very much like *dependency injection*. The Reader monad is similar, it lets you provide a function that takes in some environment/config `Env` and then return some output. It allows you to *defer providing the dependency* until a later stage. A function can be written *assuming* an environment will be available, and only when you actually run the computation do you pass in the real environment. In other words, we return a *function of the environment* as our result, to be executed once the environment is known.
 
-In summary: Prepare a computation that will run *when* a configuration or context is provided.
+Here's an example DI'ing a ficticious `PriceConfig` class via `IPriceConfig`:
+
 ```csharp
 // 1) A pure configuration interface
 
@@ -857,13 +858,30 @@ services.AddSingleton<IPriceConfig>(new PriceConfig {
 
 services.AddTransient<PriceService>();
 ```
-You don’t care which PriceService you get, it’s an IPriceConfig. The class doesn’t care, as it follows the same interface.
-
-This pattern is extremely common in functional programming, hence the formal name **Reader monad**. But the concept is straightforward: a Reader is essentially just a wrapper around a function `Env -> T`. If you recall our earlier example of a simple function `f(x) = x + 1`, that function doesn’t care *how* you get the number or where `x` comes from – it just defines a transformation once `x` is given. Similarly, with the Reader monad, you define *what to do with an environment* without worrying about *how* you’ll obtain that environment. The function *itself* is pure and self-contained; it simply says “give me an environment and I’ll give you a result,” leaving the task of providing the actual environment to the caller (or a framework, in the case of dependency injection).
+You don’t care which `PriceConfig` you get, it’s an `IPriceConfig`. The class doesn’t care, as it follows the same interface.
 
 ### **Implementing a Reader Monad in C#**
 
-We can implement a generic `Reader<Env, T>` monad in C# to encapsulate this idea. It will hold an internal `Func<Env, T>` representing the computation. The monad’s `Unit` (or **Return**) operation will wrap a raw value into a `Reader` that ignores the environment and always returns that value. The `Map` and `FlatMap` (Bind) operations will thread the environment through. `Map` applies a transformation to the result *without* changing the environment, while `FlatMap` chains a new `Reader`-producing function, ensuring that each step of the chain sees the same environment value.
+The `Reader` monad is very similar. We create a function that takes in some readonly environment `Env`, and outputs some result. Here is a function that takes in some readonly `Env` and outputs some result:
+
+```csharp
+public class Env
+{
+    public decimal TaxRate = 0.15;
+    public decimal DiscountAmount = 1;
+}
+
+public decimal ComputeFinalPrice(Env env) {
+    var basePrice = 10;
+    decimal afterDiscount = basePrice - env.DiscountAmount;
+    return afterDiscount * (1 + env.TaxRate);
+}
+```
+
+**Hold on**, how do I pass in `basePrice`? We will have to refactor our `ComputeFinalPrice` method later on to use currying, because it is idiomatic to only take in a single argument at a time. If we add `decimal basePrice` along with our env, then it's no longer a Reader monad and we lose composability.
+
+Let's continue. We can implement a generic `Reader<Env, T>` monad in C# to encapsulate this idea. It will hold an internal `Func<Env, T>` representing the computation. The monad’s `Unit` (or **Return**) operation will wrap a raw value into a `Reader` that takes in the environment, ignores it, and always returns that value. The `Map` and `FlatMap` (Bind) operations will thread the environment through. `Map` applies a transformation to the result *without* changing the environment, while `FlatMap` chains a new `Reader`-producing function, ensuring that each step of the chain sees the same environment value.
+
 ```csharp
 public class Reader<Env, T>  
 {  
@@ -913,6 +931,9 @@ public class Reader<Env, T>
     }  
 }
 ```
+
+In summary: Any class you wire up once with its configuration via its constructor, then freely call its methods without re-passing that config, is literally using the Reader pattern. It's just a function that takes in some environment `Env`, and returns an output. In DI, it's typically a class that takes in some dependency/IRepository/IService, and outputs/does some output. The function doesn't care where `Env` is coming from, the same as the class doesn't care where the dependency/IRepository/IService is coming from, it just has it.
+
 This `Reader<Env, T>` class is essentially a container for `Func<Env, T>`. Notice how `FlatMap` uses the same `env` to run the subsequent computation. This is what ensures the *same* context is threaded through all chained operations. With `Map` and `FlatMap` defined, `Reader` forms a proper monad (you could verify it satisfies identity and associativity laws, similar to our tests for `MaybeMonad`). In fact, many functional libraries simply define `Reader<Env, T>` as an alias for a function `Env -> T`, with monadic operations to compose those functions.
 
 ### **Using the Reader Monad for Configuration and DI**
