@@ -3,6 +3,8 @@ title: "A list is a monad (part 1)"
 date: 2025-06-29
 ---
 
+**This post got a lot more interest than expected! Currently working on revising this post to incorporate the excellent suggestions from Hacker News. Having said that, please still provide feedback.**
+
 The term “monad” is often invoked when describing patterns in functional programming. Yet explanations typically swing between high-level metaphors and deep mathematical abstractions. Each approach offers part of the picture, intuition without precision, or rigor without intuition but seldom both.
 
 Monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosophy_of_science%29) as a **container** (albeit is [a flawed metaphor](https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html)) or context holding a value (or multiple values, or no value), **but in some cases we will get into later on** it’s better to think of it as a **recipe** or **deferred computation** for producing a value. At the heart of monadic programming is the idea that you write **one** function, say, `f(x) = x + 1`, and then **reuse** it across different contexts without rewriting control-flow logic.
