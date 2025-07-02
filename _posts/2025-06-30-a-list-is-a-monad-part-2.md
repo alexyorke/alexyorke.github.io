@@ -3,6 +3,8 @@ title: "A list is a monad (part 2)"
 date: 2025-06-30
 ---
 
+Wow! Part 1 got a bit more traction than expected. I didn't really expect that, part 2 is still a WIP. However, feel free to provide feedback.
+
 In **Part 1**, we introduced the concept of monads using simple examples like a `MaybeMonad` (to represent optional values) and noted that even a list in C# can be viewed through a monadic lens. We implemented a basic `Unit` (to wrap a raw value into a monadic context) and saw how `Map` can apply a function inside the context. However, our `MaybeMonad` wasn’t *quite* a full-fledged monad yet, and we only dealt with one kind of context (missing values). In this second part, we’ll refine our `MaybeMonad` to be a proper monad, then explore **monads for error handling** (the Either/Result pattern) and **monads for deferred computations** like the Reader monad. By the end, we’ll see how these patterns help write clearer, more robust C# code by separating *what* we want to do from *how* things like errors or asynchrony are handled.
 
 ## **Recap: Making Maybe a Proper Monad**
