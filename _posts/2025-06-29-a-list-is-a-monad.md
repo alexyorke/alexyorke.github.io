@@ -1,9 +1,11 @@
 ---
-title: "A list is a monad (part 1)"
+title: "List is a monad (part 1)"
 date: 2025-06-29
 ---
 
 **This post got a lot more interest than expected! Currently working on revising this post to incorporate the excellent suggestions from Hacker News. Having said that, please still provide feedback.**
+
+Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
 
 The term “monad” is often invoked when describing patterns in functional programming. Yet explanations typically swing between high-level metaphors and deep mathematical abstractions. Each approach offers part of the picture, intuition without precision, or rigor without intuition but seldom both.
 
