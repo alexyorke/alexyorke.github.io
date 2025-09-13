@@ -220,7 +220,23 @@ Another benefit of monads is that you can chain computations that themselves pro
 
 `flatMap` is like our `Map`, but it also flattens the result. **`flatMap` provides the ability to chain computations that themselves produce monadic values, which is the defining feature of monads.** For example, if you have a function that looks up a user and returns a `Maybe<User>`, but you want to pass it to another function that returns the user’s profile. Using `Map` would give you a `Maybe<Maybe<UserProfile>>`, an awkward nested container because the input would be a `Maybe<UserProfile>`. With `flatMap`, you both apply your lookup and collapse the layers in one go, so you can seamlessly sequence optional, error-handling, or asynchronous operations (e.g. promises/tasks) without ever wrestling with nested monadic types.
 
-We haven't implemented `MaybeMonad<T>` yet, but, here’s how it would look like in code, and also note that monads typically don't have "Monad" in their name, so we'll just use "Maybe" for "MaybeMonad":
+Here's what `flatMap` looks like:
+
+```csharp
+// Add this method inside MaybeMonad
+public MaybeMonad FlatMap(Func<int, MaybeMonad> func)
+{
+    if (hasValue)
+    {
+        // Do not wrap again; let the callee decide whether to return a value or "nothing"
+        return func(value);
+    }
+    // Propagate "no value"
+    return this;
+}
+```
+
+`Map` is for `int -> int`. `flatMap` is for `int -> MaybeMonad`. Use `flatMap` when your next step might also produce “no value,” and you want to keep chaining without ending up with `Maybe<Maybe<int>>`.
 
 ```csharp
 Maybe<User> lookupUser(string id)  
@@ -283,24 +299,6 @@ if (actualUserId != null) {
 ```
 
 Eww. If we treat the monad as just a fancy wrapper to put a value in and then take it out immediately, it does feel like pointless ceremony. This is where many people give up on learning monads, it seems like you’re just putting a value in a box and taking it out again with extra steps. But the power of monads comes when you stay *inside* the monadic context and keep chaining operations. In Part 2, we’ll look at more advanced monads that aren’t just simple containers, and you’ll see how staying in the monadic pipeline pays off.
-
-Here's how to implement flatMap:
-
-```csharp
-// Add this method inside MaybeMonad
-public MaybeMonad FlatMap(Func<int, MaybeMonad> func)
-{
-    if (hasValue)
-    {
-        // Do not wrap again; let the callee decide whether to return a value or "nothing"
-        return func(value);
-    }
-    // Propagate "no value"
-    return this;
-}
-```
-
-`Map` is for `int -> int`. `flatMap` is for `int -> MaybeMonad`. Use `flatMap` when your next step might also produce “no value,” and you want to keep chaining without ending up with `Maybe<Maybe<int>>`.
 
 ## Monad Laws
 
