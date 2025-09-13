@@ -408,10 +408,10 @@ This is a little bit different than using the Maybe monad, where the lack of a v
 ```csharp
 // Don't do this!
 
-if (result.IsOk) {
-   Console.WriteLine(result.GetValue());
+if (result.Value != null) {
+  Console.WriteLine(result.Value);
 } else {
-   Console.WriteLine(result.Error);
+  Console.WriteLine(result.Error);
 }
 ```
 
