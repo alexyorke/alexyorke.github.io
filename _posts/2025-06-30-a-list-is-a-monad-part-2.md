@@ -1,11 +1,12 @@
 ---
+
 title: "List is a monad (part 2)"
 date: 2025-06-30
 ---
 
 # **Monads in C# (Part 2): Result (aka Either) with practical, everyday examples**
 
-In Part 1 you built `Maybe` to transform a value if present; `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll finish the `Maybe` monad from Part 1, introduce a `Result<T, TErr>`, and walk through real‑world examples (files/JSON, sequential API calls, and validation).
+In Part 1 you built `Maybe` to transform a value if present; `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll finish the `Maybe` monad from Part 1, introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
 
 *If you think in LINQ:* `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
@@ -15,11 +16,12 @@ In Part 1 you built `Maybe` to transform a value if present; `Bind` (aka `Flat
 2. Introduce `Result<T, TErr>` (aka Either).
 3. Apply it to **config parsing**, **file+JSON**, and **sequential API calls**.
    **Mental model:** `Map` ≈ LINQ `Select`; `Bind` ≈ `SelectMany`; use `Match` at the boundary.
+
 ---
 
 ## **Closing the loop on `Maybe`**
 
-We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>` (not “`MaybeMonad`”), which matches how monads are typically named in functional programming (e.g., `Maybe`, `Result`). Together, these tweaks clean things up and make the monad easier to use across more scenarios.
+We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>`. Together, these tweaks clean things up and make the monad easier to use across more scenarios.
 
 ```diff
 - public class MaybeMonad {
@@ -66,31 +68,31 @@ We’re making a few changes to the `Maybe` monad to give it a more official, er
 + }
 ```
 
-To wrap up the **`Maybe`** monad: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing. Was the ID not found? Was the input malformed or out of range? Did a file read fail? Was a business rule violated? **`Maybe`** can’t carry that reason.
+To wrap up **`Maybe`**: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing (not found, invalid input, business‑rule violation). **`Maybe`** can’t carry that reason.
 
 ---
 
 ## **Result (aka Either): when “missing” needs a reason**
 
-`Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist (invalid input, “not found,” rule failed). We keep the same straight‑line composition:
+`Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist. We keep the same straight‑line composition:
 
 * **`Map`** — transform the **success** value
-* **`flatMap`** — chain a function returning another `Result<…>`
+* **`Bind`** — chain a function returning another `Result<…>`
 
 …and add a failure branch that carries an **error**.
 
 Think of it like:
 
-* `Ok(value)` -> like `Some(value)`
-* `Err(message)` -> like `None()`, **but with a reason**
+* `Ok(value)` → like `Some(value)`
+* `Err(message)` → like `None()`, **but with a reason**
 
 ---
 
 ## **Scenario: Parse & validate configuration (pure, in‑memory)**
 
-We’ll assume the configuration key/values are already in memory (e.g., a `Dictionary<string,string>`). The following code examples aren’t incorrect; rather, they illustrate where `Result<T, TErr>` fits.
+We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
 
-### **Example 1 — Minimal & idiomatic exceptions (sync, pure)**
+### **Example 1 — Baseline exceptions (sync, pure)**
 
 **Function:**
 
@@ -129,23 +131,19 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
 {
     try
     {
-        // Any missing/invalid field will throw **here**
-        var app = BuildConfigBasic(cfg);
-
-        SaveConfigToCache(app);  // impure vignette is fine
+        var app = BuildConfigBasic(cfg); // any missing/invalid field throws here
+        SaveConfigToCache(app);
         UpdateUI(app);
     }
     catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
     {
         ShowError($"Could not build config: {ex.Message}");
-        return; // non-local jump; everything below is skipped
     }
-
     Log("Dashboard updated.");
 }
 ```
 
-With multiple fields, exceptions can arise mid‑construction, so the caller must wrap the entire operation. That’s a non‑local jump in control flow: error handling is necessarily out‑of‑line.
+With multiple fields, exceptions can arise mid‑construction, so the caller wraps the entire operation—a non‑local jump.
 
 ---
 
@@ -187,140 +185,13 @@ SaveConfigToCache(app);
 UpdateUI(app);
 ```
 
-This avoids throwing for expected input errors and reads linearly. But you’ve invented an ad‑hoc `Result`: `(bool, T, string?)`. As soon as you chain multiple steps/sections, you’ll write repetitive `if (!ok) return;` plumbing—manual composition work the `Result` pattern eliminates.
-
----
-
-### **Example 3 — Composition pressure (multiple configs)**
-
-```csharp
-try
-{
-    // e.g., three independent config sources we need to validate
-    var a = BuildConfigBasic(cfgA);
-    var b = BuildConfigBasic(cfgB);
-    var c = BuildConfigBasic(cfgC);
-
-    // Some combined metric (purely illustrative)
-    var globalMinTimeout = Math.Min(a.TimeoutSeconds, Math.Min(b.TimeoutSeconds, c.TimeoutSeconds));
-    UpdateUIWithCombined(a, b, c, globalMinTimeout);
-}
-catch (Exception ex)
-{
-    // Which config? Which field? You need more structure to know.
-    ShowError(ex.Message);
-}
-```
-
-**Try‑tuple variant:**
-
-```csharp
-var r1 = TryBuildConfig(cfgA);
-if (!r1.Success) { ShowError(r1.Error!); return; }
-
-var r2 = TryBuildConfig(cfgB);
-if (!r2.Success) { ShowError(r2.Error!); return; }
-
-var r3 = TryBuildConfig(cfgC);
-if (!r3.Success) { ShowError(r3.Error!); return; }
-
-var globalMinTimeout =
-    Math.Min(r1.Config.TimeoutSeconds, Math.Min(r2.Config.TimeoutSeconds, r3.Config.TimeoutSeconds));
-
-UpdateUIWithCombined(r1.Config, r2.Config, r3.Config, globalMinTimeout);
-```
-
-You can “optimize” with an array of tuples and find the first failure—but that’s just a hand‑rolled list of `Result`s followed by a manual fold.
-
-> **Aside — Why not raw error codes?**
-> C‑style APIs return error codes/sentinels, making checks easy to forget and composition awkward:
->
-> ```c
-> FILE* f = fopen("data.txt", "r");
-> if (!f) return ERR_OPEN;
-> size_t n = fread(buf, 1, sz, f);
-> if (n < sz && ferror(f)) return ERR_READ;
-> ```
->
-> `Result` encodes the branch in the type and composes.
-
----
-
-### **Example 4 — Result (assume helpers exist)**
-
-**Assume:**
-
-* `FromDict(cfg) : Result<IReadOnlyDictionary<string,string>, ConfigError>`
-* `GetIntInRange(cfg, key, min, max) : Result<int, ConfigError>`
-* `GetEnum<TEnum>(cfg, key) : Result<TEnum, ConfigError>`
-* `Ok(value)` constructs a success; `.Bind(...)` chains; `.Map(...)` transforms success.
-
-**Error type:**
-
-```csharp
-public abstract record ConfigError
-{
-    public sealed record Missing(string Key) : ConfigError;
-    public sealed record Invalid(string Key, string Message) : ConfigError;
-}
-```
-
-**Single config (pure, composable):**
-
-```csharp
-public static Result<AppConfig, ConfigError> BuildConfigResult(
-    IReadOnlyDictionary<string, string> cfg) =>
-    FromDict(cfg)
-        .Bind(d => GetIntInRange(d, "MaxRetries", 0, 10)
-            .Bind(max => GetIntInRange(d, "TimeoutSeconds", 1, 300)
-                .Bind(timeout => GetEnum<Mode>(d, "Mode")
-                    .Map(mode => new AppConfig(max, timeout, mode)))));
-```
-
-**Multiple configs (simple & explicit):**
-
-```csharp
-var a = BuildConfigResult(cfgA);
-var b = BuildConfigResult(cfgB);
-var c = BuildConfigResult(cfgC);
-
-static Result<int, ConfigError> CombineMinTimeout(
-    Result<AppConfig, ConfigError> x,
-    Result<AppConfig, ConfigError> y) =>
-    x.Bind(xv => y.Map(yv => Math.Min(xv.TimeoutSeconds, yv.TimeoutSeconds)));
-
-var minAB  = CombineMinTimeout(a, b);
-var minABC = minAB.Bind(min => c.Map(z => Math.Min(min, z.TimeoutSeconds)));
-
-// Call site:
-Console.WriteLine(minABC.IsSuccess
-    ? $"GlobalMinTimeout={minABC.Value}"
-    : $"Error: {minABC.Error}");
-```
-
-**Or via LINQ:**
-
-```csharp
-// To enable LINQ query syntax, you'd add:
-/// public Result<U, E> Select<U>(Func<T, U> f) => Map(f);
-/// public Result<V, E> SelectMany<U, V>(Func<T, Result<U, E>> bind, Func<T, U, V> project) => ...
-
-var globalMinTimeout =
-    from A in BuildConfigResult(cfgA)
-    from B in BuildConfigResult(cfgB)
-    from C in BuildConfigResult(cfgC)
-    select Math.Min(A.TimeoutSeconds, Math.Min(B.TimeoutSeconds, C.TimeoutSeconds));
-```
-
-**What changed:**
-
-* Success path stays flat; failure path is explicit and typed.
-* Composition is declarative (combine `Result`s), not repetitive `if (!ok)` scaffolding.
-* No non‑local jumps; no hidden second exit.
+This reads linearly and avoids throwing for expected input errors, but as soon as you chain multiple steps, you create repetitive `if (!ok)` plumbing—an ad‑hoc `Result`.
 
 ---
 
 ## **Scenario: File + JSON (sync)**
+
+Keep the same **error type** across the pipeline to keep composition simple.
 
 ```csharp
 public static Result<string, string> ReadAllText(string path) =>
@@ -334,10 +205,20 @@ public static Result<T, string> ParseJson<T>(string json)
     catch (Exception ex) { return Result<T, string>.Err($"JSON parse error: {ex.Message}"); }
 }
 
+// Optional validation after deserialization
+public static Result<AppConfig, string> Validate(AppConfig cfg)
+{
+    if (cfg.MaxRetries is < 0 or > 10)
+        return Result<AppConfig, string>.Err("MaxRetries must be between 0 and 10.");
+    if (cfg.TimeoutSeconds is < 1 or > 300)
+        return Result<AppConfig, string>.Err("TimeoutSeconds must be between 1 and 300.");
+    return Result<AppConfig, string>.Ok(cfg);
+}
+
 public static Result<AppConfig, string> LoadConfigFromJsonFile(string path) =>
     ReadAllText(path)
-        .Bind(ParseJson<Dictionary<string,string>>)
-        .Bind(d => BuildConfigResult(d)); // reuse the Result-based config builder above
+        .Bind(ParseJson<AppConfig>)
+        .Bind(Validate);
 
 // Boundary:
 LoadConfigFromJsonFile("appsettings.json").Match(
@@ -373,6 +254,8 @@ Console.WriteLine(
         ok: total => $"Total: {total:C}",
         err: e     => $"Error: {e}"));
 ```
+
+---
 
 ## Introducing `Result<T, TErr>`
 
