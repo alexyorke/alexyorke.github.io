@@ -68,13 +68,11 @@ We’re making a few changes to the `Maybe` monad to give it a more official, er
 
 To wrap up the **`Maybe`** monad: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing. Was the ID not found? Was the input malformed or out of range? Did a file read fail? Was a business rule violated? **`Maybe`** can’t carry that reason.
 
-That’s where the **`Result`** (a.k.a. **Either**) **monad** fits. It’s like `Maybe`, except it allows setting an error `TErr` instead of just `None`. `Result<T, TErr>` is a practical generalization of `Maybe<T>` (aka Option): use `Maybe<T>` when “missing is fine,” and use `Result<T, TErr>` when you need a **reason** for failure.
-
 ---
 
 ## **Result (aka Either): when “missing” needs a reason**
 
-`Maybe<T>` tells us **whether** a value exists. Sometimes, we need need **why** it doesn’t exist (invalid input, “not found,” rule failed). We keep the same straight‑line composition:
+`Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist (invalid input, “not found,” rule failed). We keep the same straight‑line composition:
 
 * **`Map`** — transform the **success** value
 * **`flatMap`** — chain a function returning another `Result<…>`
@@ -85,85 +83,6 @@ Think of it like:
 
 * `Ok(value)` -> like `Some(value)`
 * `Err(message)` -> like `None()`, **but with a reason**
-
-## Introducing `Result<T, TErr>`
-
-Below is a complete `Result<T, TErr>` implementation.
-
-```csharp
-public sealed class Result<T, TErr>
-    {
-        // Track which branch we're on (mirrors Maybe's internal _has flag).
-        private readonly bool _isOk;
-
-        // Success value (when _isOk is true).
-        private readonly T _value;
-
-        // Error value (when _isOk is false).
-        private readonly TErr _error;
-
-        // Success constructor (parallel to Maybe.Some).
-        private Result(T value)
-        {
-            _isOk = true;
-            _value = value;
-            _error = default!;
-        }
-
-        // Error constructor (parallel to Maybe.None but with a reason).
-        private Result(TErr error)
-        {
-            _isOk = false;
-            _value = default!;
-            _error = error;
-        }
-
-        // Factory methods (shape: static constructors like Maybe.Some/None).
-        public static Result<T, TErr> Ok(T value)
-        {
-            return new Result<T, TErr>(value);
-        }
-
-        public static Result<T, TErr> Err(TErr error)
-        {
-            return new Result<T, TErr>(error);
-        }
-
-        // Map: transform the success value, pass errors through unchanged.
-        // Mirrors Maybe<T>.Map<U>(Func<T, U>).
-        public Result<U, TErr> Map<U>(Func<T, U> f)
-        {
-            if (_isOk)
-            {
-                return Result<U, TErr>.Ok(f(_value));
-            }
-
-            return Result<U, TErr>.Err(_error);
-        }
-
-        // Bind (aka FlatMap): chain a function returning Result.
-        // Mirrors Maybe<T>.Bind<U>(Func<T, Maybe<U>>) with the same control-flow shape.
-        public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next)
-        {
-            if (_isOk)
-            {
-                return next(_value);
-            }
-
-            return Result<U, TErr>.Err(_error);
-        }
-    }
-```
-
-### **Quick mental model for `Match` (and how it differs from `Map`)**
-
-* Use **`Map`/`Bind`** while you’re still **composing** the success path. They run only on success and keep you inside `Result<…>`.
-* Use **`Match`** once at the **boundary** to produce a final value or effect from either branch (render a message, choose an HTTP status, pick a fallback). `Match` is where you say “if success → do this, if error → do that.”
-
-**Decision checklist**
-
-* Use **`Result<T, TErr>`** when failure is **expected and meaningful to the caller** (invalid input, not found, rule failed) **and** you want to compose more steps.
-* Use **`Maybe<T>`** when all you need to know is **presence/absence**, not the reason.
 
 ---
 
@@ -453,6 +372,75 @@ Console.WriteLine(
     GetTotal().Match(
         ok: total => $"Total: {total:C}",
         err: e     => $"Error: {e}"));
+```
+
+## Introducing `Result<T, TErr>`
+
+Below is a complete `Result<T, TErr>` implementation.
+
+```csharp
+    public sealed class Result<T, TErr>
+    {
+        // Track which branch we're on (mirrors Maybe's internal _has flag).
+        private readonly bool _isOk;
+
+        // Success value (when _isOk is true).
+        private readonly T _value;
+
+        // Error value (when _isOk is false).
+        private readonly TErr _error;
+
+        // Success constructor (parallel to Maybe.Some).
+        private Result(T value)
+        {
+            _isOk = true;
+            _value = value;
+            _error = default!;
+        }
+
+        // Error constructor (parallel to Maybe.None but with a reason).
+        private Result(TErr error)
+        {
+            _isOk = false;
+            _value = default!;
+            _error = error;
+        }
+
+        // Factory methods (shape: static constructors like Maybe.Some/None).
+        public static Result<T, TErr> Ok(T value)
+        {
+            return new Result<T, TErr>(value);
+        }
+
+        public static Result<T, TErr> Err(TErr error)
+        {
+            return new Result<T, TErr>(error);
+        }
+
+        // Map: transform the success value, pass errors through unchanged.
+        // Mirrors Maybe<T>.Map<U>(Func<T, U>).
+        public Result<U, TErr> Map<U>(Func<T, U> f)
+        {
+            if (_isOk)
+            {
+                return Result<U, TErr>.Ok(f(_value));
+            }
+
+            return Result<U, TErr>.Err(_error);
+        }
+
+        // Bind (aka FlatMap): chain a function returning Result.
+        // Mirrors Maybe<T>.Bind<U>(Func<T, Maybe<U>>) with the same control-flow shape.
+        public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next)
+        {
+            if (_isOk)
+            {
+                return next(_value);
+            }
+
+            return Result<U, TErr>.Err(_error);
+        }
+    }
 ```
 
 ---
