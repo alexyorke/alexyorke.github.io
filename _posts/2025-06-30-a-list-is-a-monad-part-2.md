@@ -3,12 +3,6 @@ title: "A list is a monad (part 2)"
 date: 2025-06-30
 ---
 
-```markdown
----
-title: "A list is a monad (part 2)"
-date: 2025-06-30
----
-
 # **Monads in C\# (Part 2): Result (aka Either) with practical, everyday examples**
 
 In Part 1 you built `Maybe` to transform a value if present; `FlatMap` (bind) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll finish the `Maybe` monad from Part 1, introduce a `Result<T,TErr>`, walk through real‑world examples (files/JSON, sequential API calls, and validation).
