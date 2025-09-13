@@ -12,66 +12,9 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 
 **What you’ll build:**
 
-1. Finish `Maybe<T>` with `Map`/`Bind`.
-2. Introduce `Result<T, TErr>` (aka Either).
-3. Apply it to **config parsing**, **file+JSON**, and **sequential API calls**.
+1. Introduce `Result<T, TErr>` (aka Either).
+2. Apply it to **config parsing**, **file+JSON**, and **sequential API calls**.
    **Mental model:** `Map` ≈ LINQ `Select`; `Bind` ≈ `SelectMany`; use `Match` at the boundary.
-
----
-
-## **Closing the loop on `Maybe`**
-
-We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>`. Together, these tweaks clean things up and make the monad easier to use across more scenarios.
-
-```csharp
-public sealed class Maybe<T>
-{
-    private readonly bool _has;
-    private readonly T _value;
-
-    private Maybe(T value)
-    {
-        _has = true;
-        _value = value;
-    }
-
-    private Maybe()
-    {
-        _has = false;
-        _value = default(T);
-    }
-
-    public static Maybe<T> Some(T value)
-    {
-        return new Maybe<T>(value);
-    }
-
-    public static Maybe<T> None()
-    {
-        return new Maybe<T>();
-    }
-
-    public Maybe<U> Map<U>(Func<T, U> f)
-    {
-        if (_has)
-        {
-            return Maybe<U>.Some(f(_value));
-        }
-        return Maybe<U>.None();
-    }
-
-    public Maybe<U> Bind<U>(Func<T, Maybe<U>> f) // aka FlatMap
-    {
-        if (_has)
-        {
-            return f(_value);
-        }
-        return Maybe<U>.None();
-    }
-}
-````
-
-To wrap up **`Maybe`**: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing (not found, invalid input, business‑rule violation). **`Maybe`** can’t carry that reason.
 
 ---
 
@@ -458,7 +401,7 @@ public sealed class Result<T, TErr>
 }
 ```
 
-Now there's also a match method,
+Now there's also a match method...!
 
 ```
     // Match at the boundary: collapse Ok/Err into a single value.
@@ -473,6 +416,37 @@ Now there's also a match method,
             return err(_error);
         }
     }
+```
+
+## **`Match` at the boundary**
+
+With `Maybe<T>`, “no value” often isn’t an error—you might supply a default and move on. With `Result<T, TErr>`, the **error matters** and you’ll usually want to surface it at the edge (UI, logs, HTTP response). That’s what `Match` is for: it’s the one place you *unwrap* and handle **both** branches explicitly.
+
+*What `Match` guarantees:*
+
+* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`.
+* **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch.
+
+**Example — turn a result into a message and perform side effects:**
+
+```csharp
+var message =
+    AppConfigComposition.LoadAppConfig(cfg).Match(
+        ok  => { SaveConfigToCache(ok); UpdateUI(ok); return "Dashboard updated."; },
+        err => { ShowError($"Could not build config: {err}"); return "Dashboard not updated."; }
+    );
+
+Log(message);
+```
+
+**Pure variant — format without side effects:**
+
+```csharp
+string ToMessage(Result<AppConfig, string> r) =>
+    r.Match(
+        ok  => $"Config OK (Mode={ok.Mode}, Retries={ok.MaxRetries})",
+        err => $"Config error: {err}"
+    );
 ```
 
 ---
