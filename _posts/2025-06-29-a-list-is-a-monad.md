@@ -314,4 +314,6 @@ As we’ve seen, monads provide a context for computation. By defining two core 
 
 The real power comes when we apply this pattern to different contexts. In Part 2, we’ll explore other useful monads, like `Either` for more descriptive error handling, and see how to combine monads to manage multiple concerns at once.
 
+Exercise for reader: I'd encourage opening up your IDE, without any AI assistance, and implementing the `Maybe` monad from scratch (no cheating.)
+
 [Part 2](https://alexyorke.github.io/2025/06/30/a-list-is-a-monad-part-2/)
