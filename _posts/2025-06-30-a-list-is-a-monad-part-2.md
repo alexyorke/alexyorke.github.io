@@ -197,8 +197,6 @@ We’ll use an existing `Result` abstraction (as found in many languages and lib
 
 Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure (using `Ok/Err` to avoid left/right terminology). This keeps control flow predictable: successful values flow through `Map`/`FlatMap`, while failures short-circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it compose naturally regardless of their internals. At the boundary—typically once—the caller handles the final outcome and can inspect any error produced by the pipeline. The example below illustrates this pattern.
 
-You could write another function that takes in an AppConfig, returns a Result<AppConfig, string> and put it in this flatMap pipeline below, and it'll work, error handling and all. You don't need to check if it's null, or has a boolean success value, or throws an exception and manually return. This shows the power of mondaic composition: since this control-flow logic has been "hoisted", it allows multiple functions to seamlessly work together.
-
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -266,6 +264,8 @@ public static class AppConfigComposition
     }
 }
 ```
+
+You could write another function that takes in an AppConfig, returns a Result<AppConfig, string> and put it in this flatMap pipeline below, and it'll work, error handling and all. You don't need to check if it's null, or has a boolean success value, or throws an exception and manually return. This shows the power of mondaic composition: since this control-flow logic has been "hoisted", it allows multiple functions to seamlessly work together.
 
 ---
 
