@@ -189,70 +189,156 @@ This reads linearly and avoids throwing for expected input errors, but as soon a
 
 ---
 
-## **Scenario: File + JSON (sync)**
+Absolutely—thanks for the concrete direction. I trimmed and reshaped both scenarios to:
 
-Keep the same **error type** across the pipeline to keep composition simple.
+* keep everything **pure** (no side effects),
+* **assume** the lower‑level functions already return `Result<…>` (no wrapper classes),
+* avoid `Match` and **avoid** `IsOk`/flags,
+* use full **code blocks** (no expression‑bodied members),
+* make the **entry point** obvious in each scenario.
+
+---
+
+## Scenario: File + JSON (pure, deterministic “source”)
+
+**Intent:** Compose a config from a deterministic source (no I/O talk here), returning only `Result<AppConfig, string>`.
 
 ```csharp
-public static Result<string, string> ReadAllText(string path) =>
-    File.Exists(path)
-        ? Result<string, string>.Ok(File.ReadAllText(path))
-        : Result<string, string>.Err($"Missing file: {path}");
+using System;
+using System.Collections.Generic;
 
-public static Result<T, string> ParseJson<T>(string json)
+// Domain
+public sealed class AppConfig
 {
-    try { return Result<T, string>.Ok(System.Text.Json.JsonSerializer.Deserialize<T>(json)!); }
-    catch (Exception ex) { return Result<T, string>.Err($"JSON parse error: {ex.Message}"); }
+    public int MaxRetries { get; }
+    public int TimeoutSeconds { get; }
+    public Mode Mode { get; }
+
+    public AppConfig(int maxRetries, int timeoutSeconds, Mode mode)
+    {
+        MaxRetries = maxRetries;
+        TimeoutSeconds = timeoutSeconds;
+        Mode = mode;
+    }
 }
 
-// Optional validation after deserialization
-public static Result<AppConfig, string> Validate(AppConfig cfg)
+public enum Mode
 {
-    if (cfg.MaxRetries is < 0 or > 10)
-        return Result<AppConfig, string>.Err("MaxRetries must be between 0 and 10.");
-    if (cfg.TimeoutSeconds is < 1 or > 300)
-        return Result<AppConfig, string>.Err("TimeoutSeconds must be between 1 and 300.");
-    return Result<AppConfig, string>.Ok(cfg);
+    Development,
+    Staging,
+    Production
 }
 
-public static Result<AppConfig, string> LoadConfigFromJsonFile(string path) =>
-    ReadAllText(path)
-        .Bind(ParseJson<AppConfig>)
-        .Bind(Validate);
+// --- Assumed existing Result-returning functions (provided elsewhere) ---
+// Result<string, string> GetJson();
+// Result<Dictionary<string, string>, string> ParseJsonToDict(string json);
+// Result<int, string> GetIntInRange(Dictionary<string, string> d, string key, int min, int max);
+// Result<TEnum, string> GetEnum<TEnum>(Dictionary<string, string> d, string key) where TEnum : struct, Enum;
 
-// Boundary:
-LoadConfigFromJsonFile("appsettings.json").Match(
-    ok: cfg => { UpdateUI(cfg); return 0; },
-    err: msg => { ShowError(msg); return 1; });
+// Optional validation (pure)
+public static class AppConfigValidation
+{
+    public static Result<AppConfig, string> Validate(AppConfig cfg)
+    {
+        if (cfg.MaxRetries < 0 || cfg.MaxRetries > 10)
+        {
+            return Result<AppConfig, string>.Err("MaxRetries must be between 0 and 10.");
+        }
+
+        if (cfg.TimeoutSeconds < 1 || cfg.TimeoutSeconds > 300)
+        {
+            return Result<AppConfig, string>.Err("TimeoutSeconds must be between 1 and 300.");
+        }
+
+        return Result<AppConfig, string>.Ok(cfg);
+    }
+}
+
+// Entry point for this scenario: compose a config from a deterministic source.
+// No branching here; just Map/Bind and return Result<AppConfig, string>.
+public static class AppConfigComposition
+{
+    public static Result<AppConfig, string> LoadAppConfig()
+    {
+        return GetJson()
+            .Bind(json => ParseJsonToDict(json))
+            .Bind(dict => GetIntInRange(dict, "MaxRetries", 0, 10)
+                .Bind(max => GetIntInRange(dict, "TimeoutSeconds", 1, 300)
+                    .Bind(timeout => GetEnum<Mode>(dict, "Mode")
+                        .Map(mode => new AppConfig(max, timeout, mode)))))
+            .Bind(cfg => AppConfigValidation.Validate(cfg));
+    }
+}
 ```
 
 ---
 
-## **Scenario: Sequential API calls (auth → user → orders)**
+## Scenario: Sequential API calls (auth → user → orders)
+
+**Intent:** Compose three dependent calls and return either a **numeric total** or an **error**—still no side effects.
 
 ```csharp
-public record Token(string Value);
-public record User(string Id);
-public record Order(string Id, decimal Amount);
+using System;
+using System.Collections.Generic;
 
-public static Result<Token, string> GetToken() =>
-    Result<Token, string>.Ok(new Token("abc"));
+// Domain
+public sealed class Token
+{
+    public string Value { get; }
+    public Token(string value) { Value = value; }
+}
 
-public static Result<User, string> GetUser(Token t) =>
-    t.Value == "abc" ? Result<User, string>.Ok(new User("u-1"))
-                     : Result<User, string>.Err("Unauthorized");
+public sealed class User
+{
+    public string Id { get; }
+    public User(string id) { Id = id; }
+}
 
-public static Result<IReadOnlyList<Order>, string> GetOrders(User u) =>
-    Result<IReadOnlyList<Order>, string>.Ok(new[] { new Order("o-1", 42m) });
+public sealed class Order
+{
+    public string Id { get; }
+    public decimal Amount { get; }
+    public Order(string id, decimal amount) { Id = id; Amount = amount; }
+}
 
-public static Result<decimal, string> GetTotal() =>
-    GetToken().Bind(GetUser).Bind(GetOrders).Map(os => os.Sum(o => o.Amount));
+// --- Assumed existing Result-returning functions (provided elsewhere) ---
+// Result<Token, string> GetToken();
+// Result<User, string> GetUser(Token token);
+// Result<IReadOnlyList<Order>, string> GetOrders(User user);
 
-// Boundary:
-Console.WriteLine(
-    GetTotal().Match(
-        ok: total => $"Total: {total:C}",
-        err: e     => $"Error: {e}"));
+public static class OrderFlows
+{
+    // Keep the numeric shape as long as possible so downstream code can still compose arithmetically.
+    public static Result<decimal, string> GetTotalAmount()
+    {
+        return GetToken()
+            .Bind(token => GetUser(token))
+            .Bind(user => GetOrders(user))
+            .Map(orders =>
+            {
+                decimal sum = 0m;
+                foreach (Order o in orders)
+                {
+                    sum += o.Amount;
+                }
+                return sum;
+            });
+    }
+
+    // Collapsed presentation: formats success into a string.
+    // NOTE: On error, Bind short-circuits and the error bubbles out unchanged.
+    // That means the returned value is Result<string, string>:
+    //   - Ok: contains the formatted message (e.g., "Total: $42.00")
+    //   - Err: contains the error from whichever step failed
+    // This looks convenient, but you've now lost the numeric total for further composition.
+    public static Result<string, string> GetTotalMessage()
+    {
+        return GetTotalAmount()
+            .Map(total => $"Total: {total:C}");
+        // There is no error formatting here because we haven't introduced MapError/Recover.
+        // If any step fails, the Err branch is returned as-is.
+    }
+}
 ```
 
 ---
