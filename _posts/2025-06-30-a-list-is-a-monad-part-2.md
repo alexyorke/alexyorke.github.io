@@ -430,5 +430,3 @@ public sealed class Result<T, TErr>
 * **Exceptions**: great at *UI/imperative edges* to abort an operation early and show an error, wrap the whole interaction in one `try/catch`. But inside your core logic, they make error flow implicit and non‑local.
 * **Try‑pattern/tuples**: better locality than exceptions, but you’re rebuilding `Result<T, TErr>` without its ergonomics or guarantees.
 * **`Result`**: makes failure **part of the type**, nudges you to handle it consciously, and gives you **`Bind`/`Map`** to compose steps and **flows** without boilerplate.
-
-```
