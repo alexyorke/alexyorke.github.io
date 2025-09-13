@@ -401,7 +401,23 @@ public sealed class Result<T, TErr>
 }
 ```
 
-At some point, you do need to be able to "get" the error out of `Result`, otherwise there would be no point setting the error if nobody will read it. This is where `Match` comes in.
+At some point, you do need to be able to "get" the error out of `Result`, otherwise there would be no point setting the error if nobody will read it.
+
+This is a little bit different than using the Maybe monad, where the lack of a value just has nothing, but in this case we want two different values. We want the success value, and if that doesn't exist, then have the error value. Since we're setting the error value, we want to get it because we're setting it, otherwise there'd be no point in setting this value. And kind of similar in spirit to the Maybe monad, we don't want to interrogate or start to poke at the Result monad and try to grab out the error value if it exists:
+
+```csharp
+// Don't do this!
+
+if (result.IsOk) {
+   Console.WriteLine(result.GetValue());
+} else {
+   Console.WriteLine(result.Error);
+}
+```
+
+It's kind of a mess, because now we're just back to square one, where we're just treating the `Result` monad as simply a container to hold the success value and the failure value. And monads are not just containers. They're much more than that. You have to use them in a way where they compose together. The monad itself is responsible for delegating that control flow.
+
+This is where `Match` comes in.
 
 ```csharp
     // Match at the boundary: collapse Ok/Err into a single value.
@@ -420,12 +436,15 @@ At some point, you do need to be able to "get" the error out of `Result`, otherw
 
 ## **`Match` at the boundary**
 
-With `Maybe<T>`, “no value” often isn’t an error, you might supply a default and move on. With `Result<T, TErr>`, the **error matters** and you’ll usually want to surface it at the edge (UI, logs, HTTP response). That’s what `Match` is for: it’s the one place you *unwrap* and handle **both** branches explicitly.
+With `Result<T, TErr>`, since an error is explicitly specified the **error matters** and you’ll usually want to surface it at the edge (UI, logs, HTTP response). That’s what `Match` is for: it’s the one place you *unwrap* and handle **both** branches explicitly.
 
 *What `Match` guarantees:*
 
 * **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`. There aren't any surprises when a function returns an error, assuming all APIs are written that way. The function signature `Result` indicates you have to handle it and forces you to do so, otherwise it's a compile-time error.
 * **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch. There is nothing to peek at, the other value simply doesn't exist.
+
+> **Aside: What’s a “boundary”?**
+> A **boundary** is where your pure computations hand off a decision to the hosting layer (entry point, controller, event handler). Inside, keep values flowing with `Result` via `Map`/`Bind`. At the boundary, call `Match` **once** to choose the next step and stop composing. Rule of thumb: if the same inputs always yield the same value, you’re inside; if something depends on time, randomness, or global state, you’ve reached the boundary.
 
 **Example, turn a result into a message and perform side effects:**
 
