@@ -457,7 +457,25 @@ string ToMessage(Result<AppConfig, string> r) =>
 
 ## Composition, composition, composition
 
-Recall that you can compose monads. In this case, say for example the user might provide a config, this could be modelled via Maybe<AppConfig>. Then, we could combine this with Result, which could run computations to do different things if a config is provided, e.g., enable certain features, which themselves could produce errors. The Maybe monad would be responsible for running the rest of the branch; if there is a config, then continue, otherwise, well, there is no config, so skip the subsequent steps.
+Let's see how we could compose GetUserConfig, a function that gets the config if one is provided by the user (the config is optional), with a function that all it does is computes the jwt expiration if it's not expired, otherwise it throws an error. These are two completely different functions, they don't know about each other, yet still can be composed easily.
+
+```csharp
+// Assume:
+//   Maybe<AppConfig> GetUserConfig();
+//   Result<TimeSpan,string> ComputeJwtExpiry(AppConfig cfg);
+
+var message =
+    GetUserConfig()            // Maybe<AppConfig>
+        .Map(ComputeJwtExpiry) // Maybe<Result<TimeSpan,string>>
+        .Match(
+            some: r => r.Match(ok => $"JWT expiry: {ok}", err => $"Error: {err}"),
+            none: () => "Skipped: no config provided."
+        );
+
+Console.WriteLine(message);
+```
+
+The user configuration is optional, so model it as `Maybe<AppConfig>`. If it’s `Some(cfg)`, use `Map` to run a pure check that determines whether the JWT token in that config is expired; that check returns a `Result<…>` (e.g., valid vs. expired with a reason). This composes cleanly: **`Maybe`** controls whether the check runs at all, and **`Result`** captures success vs. failure for the check. At the **boundary**, call `Match` once, `None` -> skip, `Some(result)` -> handle `Ok` (token valid) or `Err` (expired: e.g., fetch a new token). The key point: you only execute the JWT-expiry computation when a config exists, and you keep control flow explicit and linear until the boundary.
 
 ## Why does this feel so complicated, why are there so many things I need to handle now?
 
