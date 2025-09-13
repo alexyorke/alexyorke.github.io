@@ -6,7 +6,7 @@ date: 2025-06-30
 
 # **Monads in C# (Part 2): Result (aka Either) with practical, everyday examples**
 
-In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll finish the `Maybe` monad from Part 1, introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
+In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
 
 *If you think in LINQ:* `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
@@ -40,7 +40,7 @@ We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<s
 
 > **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and **Try\*** patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
 
-### **Example 1 ,  Baseline exceptions (sync, pure)**
+### **Example 1,  Baseline exceptions (sync, pure)**
 
 **Function:**
 
@@ -99,7 +99,7 @@ A common step is to convert a raw configuration dictionary (e.g., from a file) i
 
 ---
 
-### **Example 2 ,  Try‑pattern as a tuple (fast‑fail without throwing on content)**
+### **Example 2,  Try‑pattern as a tuple (fast‑fail without throwing on content)**
 
 ```csharp
 public static (bool Success, AppConfig Config, string? Error)
@@ -239,7 +239,7 @@ You could write another function that takes an `AppConfig` and returns a `Result
 
 ---
 
-## **Scenario: Sequential API calls (auth → user → orders)**
+## **Scenario: Sequential API calls (auth -> user -> orders)**
 
 **Intent:** Compose three dependent calls and return either a **numeric total** or an **error**, still no side effects.
 
@@ -401,9 +401,9 @@ public sealed class Result<T, TErr>
 }
 ```
 
-Now there's also a match method...!
+At some point, you do need to be able to "get" the error out of `Result`, otherwise there would be no point setting the error if nobody will read it. This is where `Match` comes in.
 
-```
+```csharp
     // Match at the boundary: collapse Ok/Err into a single value.
     public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
     {
@@ -420,14 +420,14 @@ Now there's also a match method...!
 
 ## **`Match` at the boundary**
 
-With `Maybe<T>`, “no value” often isn’t an error—you might supply a default and move on. With `Result<T, TErr>`, the **error matters** and you’ll usually want to surface it at the edge (UI, logs, HTTP response). That’s what `Match` is for: it’s the one place you *unwrap* and handle **both** branches explicitly.
+With `Maybe<T>`, “no value” often isn’t an error, you might supply a default and move on. With `Result<T, TErr>`, the **error matters** and you’ll usually want to surface it at the edge (UI, logs, HTTP response). That’s what `Match` is for: it’s the one place you *unwrap* and handle **both** branches explicitly.
 
 *What `Match` guarantees:*
 
-* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`.
+* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`. **This is important** because you can only handle _one_ or the other.
 * **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch.
 
-**Example — turn a result into a message and perform side effects:**
+**Example, turn a result into a message and perform side effects:**
 
 ```csharp
 var message =
@@ -439,7 +439,7 @@ var message =
 Log(message);
 ```
 
-**Pure variant — format without side effects:**
+**Pure variant, format without side effects:**
 
 ```csharp
 string ToMessage(Result<AppConfig, string> r) =>
