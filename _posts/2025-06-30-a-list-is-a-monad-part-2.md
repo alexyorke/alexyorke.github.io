@@ -457,25 +457,22 @@ string ToMessage(Result<AppConfig, string> r) =>
 
 ## Composition, composition, composition
 
-Let's see how we could compose GetUserConfig, a function that gets the config if one is provided by the user (the config is optional), with a function that all it does is computes the jwt expiration if it's not expired, otherwise it throws an error. These are two completely different functions, they don't know about each other, yet still can be composed easily.
+Let’s compose two independent functions: `GetUserConfig` (returns an optional `AppConfig` as `Maybe<AppConfig>`) and `ComputeJwtExpiry` (given a config, returns a `Result<TimeSpan,string>` representing remaining JWT lifetime or an error). Then we add a second step, `EnsureMinimumLifetime`, which **transforms** that `TimeSpan` into a different success type (`RefreshPlan`) or an error, showing that later steps don’t have to keep the exact same `T`.
 
 ```csharp
 // Assume:
 //   Maybe<AppConfig> GetUserConfig();
 //   Result<TimeSpan,string> ComputeJwtExpiry(AppConfig cfg);
+//   Result<RefreshPlan,string> EnsureMinimumLifetime(TimeSpan remaining);
+//   sealed record RefreshPlan(TimeSpan RefreshIn, string Strategy);
 
-var message =
-    GetUserConfig()            // Maybe<AppConfig>
-        .Map(ComputeJwtExpiry) // Maybe<Result<TimeSpan,string>>
-        .Match(
-            some: r => r.Match(ok => $"JWT expiry: {ok}", err => $"Error: {err}"),
-            none: () => "Skipped: no config provided."
-        );
-
-Console.WriteLine(message);
+var pipeline =
+    GetUserConfig()
+        .Map(ComputeJwtExpiry)                    // Maybe<Result<TimeSpan,string>>
+        .Map(r => r.Bind(EnsureMinimumLifetime)); // Maybe<Result<RefreshPlan,string>> (type changes here)
 ```
 
-The user configuration is optional, so model it as `Maybe<AppConfig>`. If it’s `Some(cfg)`, use `Map` to run a pure check that determines whether the JWT token in that config is expired; that check returns a `Result<…>` (e.g., valid vs. expired with a reason). This composes cleanly: **`Maybe`** controls whether the check runs at all, and **`Result`** captures success vs. failure for the check. At the **boundary**, call `Match` once, `None` -> skip, `Some(result)` -> handle `Ok` (token valid) or `Err` (expired: e.g., fetch a new token). The key point: you only execute the JWT-expiry computation when a config exists, and you keep control flow explicit and linear until the boundary.
+The configuration is optional, so `Maybe` controls whether any checks run at all. If there **is** a config, `Map` applies the pure `ComputeJwtExpiry` and yields a `Result` (no exceptions thrown—errors are returned as `Err`). The second `Map` lifts a `Bind` that converts the success value (`TimeSpan`) into a different success type (`RefreshPlan`). We’re **not** calling `Match` here; the pipeline stays composable as `Maybe<Result<RefreshPlan,string>>`, and you can handle it once at the boundary later.
 
 ## Why does this feel so complicated, why are there so many things I need to handle now?
 
