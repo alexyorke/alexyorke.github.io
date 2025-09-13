@@ -185,14 +185,20 @@ public static (bool Success, AppConfig Config, string? Error)
 {
     if (!cfg.TryGetValue("MaxRetries", out var maxRetriesText))
         return (false, default!, "Missing key: MaxRetries");
-    if (!int.TryParse(maxRetriesText, out var maxRetries))
+    if (!int.TryParse(maxRetriesText,
+            System.Globalization.NumberStyles.Integer,
+            System.Globalization.CultureInfo.InvariantCulture,
+            out var maxRetries))
         return (false, default!, $"Invalid integer for MaxRetries: \"{maxRetriesText}\"");
     if (maxRetries is < 0 or > 10)
         return (false, default!, "MaxRetries must be between 0 and 10.");
 
     if (!cfg.TryGetValue("TimeoutSeconds", out var timeoutText))
         return (false, default!, "Missing key: TimeoutSeconds");
-    if (!int.TryParse(timeoutText, out var timeoutSeconds))
+    if (!int.TryParse(timeoutText,
+            System.Globalization.NumberStyles.Integer,
+            System.Globalization.CultureInfo.InvariantCulture,
+            out var timeoutSeconds))
         return (false, default!, $"Invalid integer for TimeoutSeconds: \"{timeoutText}\"");
     if (timeoutSeconds is < 1 or > 300)
         return (false, default!, "TimeoutSeconds must be between 1 and 300.");
@@ -230,34 +236,50 @@ Instead of throwing or returning null (or other behavior), functions return `Res
 ```csharp
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 
-// Domain
-public sealed class AppConfig
+// Domain (kept identical to earlier examples)
+public enum Mode { Development, Staging, Production }
+public sealed record AppConfig(int MaxRetries, int TimeoutSeconds, Mode Mode);
+
+// --- Small, pure decoders from an in-memory, deterministic source (e.g., JSON already parsed to a dictionary) ---
+public static class ConfigDecoders
 {
-    public int MaxRetries { get; }
-    public int TimeoutSeconds { get; }
-    public Mode Mode { get; }
-
-    public AppConfig(int maxRetries, int timeoutSeconds, Mode mode)
+    public static Result<int, string> GetIntInRange(
+        IReadOnlyDictionary<string, string> cfg,
+        string key,
+        int min,
+        int max)
     {
-        MaxRetries = maxRetries;
-        TimeoutSeconds = timeoutSeconds;
-        Mode = mode;
+        if (!cfg.TryGetValue(key, out var text))
+            return Result<int, string>.Err($"Missing key: {key}");
+
+        if (!int.TryParse(text, NumberStyles.Integer, CultureInfo.InvariantCulture, out var value))
+            return Result<int, string>.Err($"Invalid integer for {key}: \"{text}\"");
+
+        if (value < min || value > max)
+            return Result<int, string>.Err($"{key} must be between {min} and {max}.");
+
+        return Result<int, string>.Ok(value);
+    }
+
+    public static Result<TEnum, string> GetEnum<TEnum>(
+        IReadOnlyDictionary<string, string> cfg,
+        string key)
+        where TEnum : struct, Enum
+    {
+        if (!cfg.TryGetValue(key, out var text))
+            return Result<TEnum, string>.Err($"Missing key: {key}");
+
+        if (!Enum.TryParse<TEnum>(text, ignoreCase: true, out var value))
+        {
+            var allowed = string.Join("|", Enum.GetNames(typeof(TEnum)));
+            return Result<TEnum, string>.Err($"Invalid {key}: \"{text}\" ({allowed})");
+        }
+
+        return Result<TEnum, string>.Ok(value);
     }
 }
-
-public enum Mode
-{
-    Development,
-    Staging,
-    Production
-}
-
-// --- Assumed existing Result-returning functions (provided elsewhere) ---
-// Result<string, string> GetJson();
-// Result<Dictionary<string, string>, string> ParseJsonToDict(string json);
-// Result<int, string> GetIntInRange(Dictionary<string, string> d, string key, int min, int max);
-// Result<TEnum, string> GetEnum<TEnum>(Dictionary<string, string> d, string key) where TEnum : struct, Enum;
 
 // Optional validation (pure)
 public static class AppConfigValidation
@@ -265,32 +287,26 @@ public static class AppConfigValidation
     public static Result<AppConfig, string> Validate(AppConfig cfg)
     {
         if (cfg.MaxRetries < 0 || cfg.MaxRetries > 10)
-        {
             return Result<AppConfig, string>.Err("MaxRetries must be between 0 and 10.");
-        }
-
         if (cfg.TimeoutSeconds < 1 || cfg.TimeoutSeconds > 300)
-        {
             return Result<AppConfig, string>.Err("TimeoutSeconds must be between 1 and 300.");
-        }
-
         return Result<AppConfig, string>.Ok(cfg);
     }
 }
 
-// Entry point for this scenario: compose a config from a deterministic source.
-// No branching here; just Map/Bind and return Result<AppConfig, string>.
+// Entry point for this scenario: compose from a deterministic, in-memory source.
+// Note the consistent shape: takes IReadOnlyDictionary<string,string>, returns Result<AppConfig,string>.
 public static class AppConfigComposition
 {
-    public static Result<AppConfig, string> LoadAppConfig()
+    public static Result<AppConfig, string> LoadAppConfig(IReadOnlyDictionary<string, string> cfg)
     {
-        return GetJson()
-            .Bind(json => ParseJsonToDict(json))
-            .Bind(dict => GetIntInRange(dict, "MaxRetries", 0, 10)
-                .Bind(max => GetIntInRange(dict, "TimeoutSeconds", 1, 300)
-                    .Bind(timeout => GetEnum<Mode>(dict, "Mode")
-                        .Map(mode => new AppConfig(max, timeout, mode)))))
-            .Bind(cfg => AppConfigValidation.Validate(cfg));
+        return ConfigDecoders.GetIntInRange(cfg, "MaxRetries", 0, 10)
+            .Bind(max =>
+                ConfigDecoders.GetIntInRange(cfg, "TimeoutSeconds", 1, 300)
+                    .Bind(timeout =>
+                        ConfigDecoders.GetEnum<Mode>(cfg, "Mode")
+                            .Map(mode => new AppConfig(max, timeout, mode)))))
+            .Bind(AppConfigValidation.Validate);
     }
 }
 ```
