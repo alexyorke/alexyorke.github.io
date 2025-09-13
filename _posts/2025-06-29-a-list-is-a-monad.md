@@ -19,11 +19,11 @@ From a teaching perspective, to get the concept for what a monad is, we will sta
 
 To an OOP developer, monadic types (List<T>) might look just like generics. It’s a typical pitfall to think “we have generics, so we have monads,” which isn’t true by itself. Monads do usually involve generic types, but they **require specific operations (Unit and flatMap) and the three monad laws on those types to ensure uniform behavior.** **This is key** and is fundamental to working with monads.
 
-A good example of a monad is a list. You’re likely very familiar with lists and working with lists.
+A good example of a monad is List. You’re likely very familiar with lists and working with lists.
 
 The monad Map operation is responsible for:
 
-* **Applying your function.** For a List, Map runs f (a function) on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s a list, all f is, is just f(x) = x + 1. Map is responsible for running it.
+* **Applying your function.** For List, Map runs f (a function) on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s a list, all f is, is just f(x) = x + 1. Map is responsible for running it.
 
 * **Managing sequencing and combination.** The list context concatenates all results into one list (flattening any nested lists if necessary). We don’t need to manually re-add elements via Add or otherwise manage the collection ourselves.
 
@@ -88,7 +88,7 @@ With monads, you delegate the control flow to the monad itself, the monad knows 
 
 **Unit** moves a raw value into the monadic context (this operation is sometimes called “lifting”, “identity”, “return”, “wrap”, or “promotion”, and in some libraries has names like liftM or liftA).
 
-* In the list monad (let’s just call it a list), **Unit** takes a single element and returns a list containing that element.
+* In the list monad, **Unit** takes a single element and returns a list containing that element.
 
 * For example, given the integer 1, Unit produces a list as follows:
 
@@ -106,7 +106,7 @@ Nothing about the value 1 changes, it’s simply wrapped in a List. If you acces
 
 **Map** applies a function to each value inside the monad.
 
-In a List, Map runs a function on every element and outputs a new list with that function applied to each element. Don’t overcomplicate it. For example, suppose we have a function that adds one to its input (f(x) = x + 1). Passing this function to Map would simply add one to each element in the list. The list [0,1,2,3] would become [1,2,3,4].
+In List, Map runs a function on every element and outputs a new list with that function applied to each element. Don’t overcomplicate it. For example, suppose we have a function that adds one to its input (f(x) = x + 1). Passing this function to Map would simply add one to each element in the list. The list [0,1,2,3] would become [1,2,3,4].
 
 #### *Example (C#-ish):*
 
