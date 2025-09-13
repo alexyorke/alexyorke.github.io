@@ -401,9 +401,9 @@ public sealed class Result<T, TErr>
 }
 ```
 
-At some point, you do need to be able to "get" the error out of `Result`, otherwise there would be no point setting the error if nobody will read it.
+At some point, you do need to be able to read the error from `Result`, otherwise there would be no point setting the error.
 
-This is a little bit different than using the Maybe monad, where the lack of a value just has nothing, but in this case we want two different values. We want the success value, and if that doesn't exist, then have the error value. Since we're setting the error value, we want to get it because we're setting it, otherwise there'd be no point in setting this value. And kind of similar in spirit to the Maybe monad, we don't want to interrogate or start to poke at the Result monad and try to grab out the error value if it exists:
+This is a little bit different than using the `Maybe` monad, where the lack of a value is just Nothing where it's more of a control flow change only. For `Result`, we want the success value, and if that doesn't exist, then have the error value. And kind of similar in spirit to the `Maybe` monad, we don't want to interrogate or start to poke at the `Result` monad and try to grab out the error value if it exists:
 
 ```csharp
 // Don't do this!
@@ -415,23 +415,23 @@ if (result.Value != null) {
 }
 ```
 
-It's kind of a mess, because now we're just back to square one, where we're just treating the `Result` monad as simply a container to hold the success value and the failure value. And monads are not just containers. They're much more than that. You have to use them in a way where they compose together. The monad itself is responsible for delegating that control flow.
+This is kind of a mess, because now we're just back to square one, where we're just treating the `Result` monad as simply a container to hold the success value and the failure value. Monads are not just containers, they're much more than that. You have to use them in a way where they compose together. The monad itself is responsible for delegating that control flow.
 
 This is where `Match` comes in.
 
 ```csharp
-    // Match at the boundary: collapse Ok/Err into a single value.
-    public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
+// Match at the boundary: collapse Ok/Err into a single value.
+public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
+{
+    if (_isOk)
     {
-        if (_isOk)
-        {
-            return ok(_value);
-        }
-        else
-        {
-            return err(_error);
-        }
+        return ok(_value);
     }
+    else
+    {
+        return err(_error);
+    }
+}
 ```
 
 ## **`Match` at the boundary**
@@ -440,7 +440,7 @@ With `Result<T, TErr>`, since an error is explicitly specified the **error matte
 
 *What `Match` guarantees:*
 
-* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`. There aren't any surprises when a function returns an error, assuming all APIs are written that way. The function signature `Result` indicates you have to handle it and forces you to do so, otherwise it's a compile-time error.
+* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`. There aren't any surprises when a function returns an error, assuming all APIs are written that way. The function signature `Result` indicates you have to handle it (somehow) and forces you to do so, otherwise it's a compile-time error.
 * **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch. There is nothing to peek at, the other value simply doesn't exist.
 
 > **Aside: What’s a “boundary”?**
