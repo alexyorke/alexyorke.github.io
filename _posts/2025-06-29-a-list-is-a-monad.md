@@ -23,7 +23,7 @@ A good example of a monad is List. You’re likely very familiar with lists and 
 
 The monad Map operation is responsible for:
 
-* **Applying your function.** For List, Map runs f (a function) on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s a list, all f is, is just f(x) = x + 1. Map is responsible for running it.
+* **Applying your function.** For List, Map runs f (a function) on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s List<T>; all f is, is just f(x) = x + 1. Map is responsible for running it.
 
 * **Managing sequencing and combination.** The list context concatenates all results into one list (flattening any nested lists if necessary). We don’t need to manually re-add elements via Add or otherwise manage the collection ourselves.
 
@@ -131,10 +131,10 @@ foreach (int x in originalList)
 
 Ideally, you don’t want to pull the values out of a monad unless you absolutely have to. It’s possible to implement a GetValue() method that returns the underlying value, but once the value leaves the monadic context, we lose the benefits of that context and can no longer compose operations easily.
 
-Think about a List as if you had never seen one before. You might say, “I don’t want my values trapped in this list, how am I supposed to use them?” and then manually extract each element into separate variables:
+hink about List<T> as if you had never seen it before. You might say, “I don’t want my values trapped in this list, how am I supposed to use them?” and then manually extract each element into separate variables:
 
 ```
-// Pretend it’s your first time with a List
+// Pretend it’s your first time with List<T>
 var numbers = new List<int> { 1, 2, 3 };
 
 // --- Manual extraction (values “trapped” in the list) ---
