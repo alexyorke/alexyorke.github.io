@@ -25,7 +25,7 @@ The monad Map operation is responsible for:
 
 * **Applying your function.** For List, Map runs f (a function) on *every* element. For example, let's define f as f(x) = x + 1. The list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s List<T>; all f is, is just f(x) = x + 1. Map is responsible for running it.
 
-* **Managing sequencing and combination.** The list context concatenates all results into one list (flattening any nested lists if necessary). We don’t need to manually re-add elements via Add or otherwise manage the collection ourselves.
+* **Managing sequencing and combination.** The list context concatenates all results into one list (Map does not flatten any nested lists, flatMap is responsible for this). We don’t need to manually re-add elements via Add or otherwise manage the collection ourselves.
 
 Notice that the monad in this case List<T> is responsible for running f. This shift means your business logic stays **declarative** and **composable**, you describe *what* happens to a single value, and the monad describes *how* and *when* it happens.
 
