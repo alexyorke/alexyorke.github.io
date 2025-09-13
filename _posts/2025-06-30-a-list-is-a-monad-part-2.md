@@ -193,6 +193,10 @@ This reads linearly and avoids throwing for expected input errors, but as soon a
 
 **Intent:** Compose a config from a deterministic source (no I/O talk here), returning only `Result<AppConfig, string>`.
 
+We’ll use an existing `Result` abstraction (as found in many languages and libraries) to focus on composition rather than re-implementing plumbing. The goal is to build an `AppConfig` from a deterministic source (e.g., a read-only dictionary). For concreteness, we’ll briefly show how the internal validate/parse step might work, though callers don’t need those details.
+
+Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure (using `Ok/Err` to avoid left/right terminology). This keeps control flow predictable: successful values flow through `Map`/`FlatMap`, while failures short-circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it compose naturally regardless of their internals. At the boundary—typically once—the caller handles the final outcome and can inspect any error produced by the pipeline. The example below illustrates this pattern.
+
 ```csharp
 using System;
 using System.Collections.Generic;
