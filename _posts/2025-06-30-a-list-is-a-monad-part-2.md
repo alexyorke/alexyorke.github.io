@@ -167,7 +167,11 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
 }
 ```
 
-In a way, each line of code only runs if the previous lines succeeded in defensive programming practices. You have to be cautious though, because if you forget to return, then AppConfig is null. There are IDE warnings for such things, but this may not be clear in larger applications and there's nothing at compile time that forces you to not use it if it's not defined, or to handle the error. The series of returns can clutter the code and are very repetitive, and become more complex when you need to compose more functions together. Consider having to read multiple configs, with multiple steps.
+In a way, each line of code only runs if the previous lines succeeded in defensive programming practices. If the errors throw or return, then you can "assume" that if you've gotten to a point, then everything is "ok" so far and there are no errors.
+
+You have to be cautious though, because if you forget to return, then AppConfig is null. There are IDE warnings for such things, but this may not be clear in larger applications and there's nothing at compile time that forces you to not use it if it's not defined, or to handle the error.
+
+There also isn't a singular way to handle errors, functions do not have to specify whether they throw an exception (except for some languages like Java), or they could return errors in different ways. There isn't a unified interface, which makes composing such functions difficult. If you want to use the config, then you have to know if the function will throw or return null, or have some success status code, etc. and you have to manually handle these errors, rethrowing exceptions, etc.
 
 ---
 
