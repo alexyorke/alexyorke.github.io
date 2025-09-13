@@ -23,52 +23,52 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 
 We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>`. Together, these tweaks clean things up and make the monad easier to use across more scenarios.
 
-```diff
-- public class MaybeMonad {
--     private int value;
--     private bool hasValue;
-+ public sealed class Maybe<T>
-+ {
-+     private readonly bool _has;
-+     private readonly T _value;
+```csharp
+public sealed class Maybe<T>
+{
+    private readonly bool _has;
+    private readonly T _value;
 
--     public MaybeMonad(int value) {
--         this.value = value;
--         this.hasValue = true;
--     }
-+     private Maybe(T value)
-+     {
-+         _has = true;
-+         _value = value;
-+     }
+    private Maybe(T value)
+    {
+        _has = true;
+        _value = value;
+    }
 
--     public MaybeMonad() {
--
--     }
-+     private Maybe()
-+     {
-+         _has = false;
-+         _value = default!;
-+     }
-+     public static Maybe<T> Some(T value) => new Maybe<T>(value);
-+     public static Maybe<T> None() => new Maybe<T>();
+    private Maybe()
+    {
+        _has = false;
+        _value = default(T);
+    }
 
--     public MaybeMonad Map(Func<int, int> func) {
--         if (hasValue) {
--             return new MaybeMonad(func(value));
--         }
--         return this;
--     }
-- }
-+     public Maybe<U> Map<U>(Func<T, U> f) =>
-+         _has ? Maybe<U>.Some(f(_value)) : Maybe<U>.None();
-+
-+     public Maybe<U> Bind<U>(Func<T, Maybe<U>> f) => // aka FlatMap
-+         _has ? f(_value) : Maybe<U>.None();
-+
-+     public TResult Match<TResult>(Func<T, TResult> some, Func<TResult> none) =>
-+         _has ? some(_value) : none();
-+ }
+    public static Maybe<T> Some(T value)
+    {
+        return new Maybe<T>(value);
+    }
+
+    public static Maybe<T> None()
+    {
+        return new Maybe<T>();
+    }
+
+    public Maybe<U> Map<U>(Func<T, U> f)
+    {
+        if (_has)
+        {
+            return Maybe<U>.Some(f(_value));
+        }
+        return Maybe<U>.None();
+    }
+
+    public Maybe<U> Bind<U>(Func<T, Maybe<U>> f) // aka FlatMap
+    {
+        if (_has)
+        {
+            return f(_value);
+        }
+        return Maybe<U>.None();
+    }
+}
 ````
 
 To wrap up **`Maybe`**: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing (not found, invalid input, business‑rule violation). **`Maybe`** can’t carry that reason.
@@ -79,15 +79,15 @@ To wrap up **`Maybe`**: it’s perfect when you only need to model “value or n
 
 `Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist. We keep the same straight‑line composition:
 
-* **`Map`** — transform the **success** value
-* **`Bind`** — chain a function returning another `Result<…>`
+* **`Map`** - transform the **success** value
+* **`Bind`** - chain a function returning another `Result<...>`
 
-…and add a failure branch that carries an **error**.
+...and add a failure branch that carries an **error**.
 
 Think of it like:
 
-* `Ok(value)` → like `Some(value)`
-* `Err(message)` → like `None()`, **but with a reason**
+* `Ok(value)` -> like `Some(value)`
+* `Err(message)` -> like `None()`, **but with a reason**
 
 ---
 
@@ -95,9 +95,9 @@ Think of it like:
 
 We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
 
-> **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and **Try\*** patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow—independent of what the underlying APIs do.
+> **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and **Try\*** patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
 
-### **Example 1 — Baseline exceptions (sync, pure)**
+### **Example 1 ,  Baseline exceptions (sync, pure)**
 
 **Function:**
 
@@ -156,7 +156,7 @@ A common step is to convert a raw configuration dictionary (e.g., from a file) i
 
 ---
 
-### **Example 2 — Try‑pattern as a tuple (fast‑fail without throwing on content)**
+### **Example 2 ,  Try‑pattern as a tuple (fast‑fail without throwing on content)**
 
 ```csharp
 public static (bool Success, AppConfig Config, string? Error)
@@ -200,7 +200,7 @@ SaveConfigToCache(app);
 UpdateUI(app);
 ```
 
-This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing—an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
+This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
 ---
 
@@ -210,7 +210,7 @@ This reads linearly and avoids throwing for expected input errors. But as soon a
 
 We’ll use a `Result` abstraction (as found in many languages and libraries) so we can focus on composition rather than re‑implementing plumbing. The goal is to build an `AppConfig` from a deterministic source (e.g., a read‑only dictionary). For concreteness, we’ll show how the internal validate/parse step might work, though callers don’t need those details.
 
-Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure (using `Ok/Err` to avoid left/right terminology). This keeps control flow predictable: successful values flow through `Map`/`Bind`, while failures short‑circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it **compose naturally** regardless of their internals. At the boundary—typically once—the caller handles the final outcome and can inspect any error produced by the pipeline.
+Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure (using `Ok/Err` to avoid left/right terminology). This keeps control flow predictable: successful values flow through `Map`/`Bind`, while failures short‑circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it **compose naturally** regardless of their internals. At the boundary, typically once, the caller handles the final outcome and can inspect any error produced by the pipeline.
 
 ```csharp
 using System;
@@ -292,13 +292,13 @@ public static class AppConfigComposition
 }
 ```
 
-You could write another function that takes an `AppConfig` and returns a `Result<AppConfig, string>` and drop it into this pipeline—no extra `if`/`try`/`return` boilerplate. This is the power of **monadic** composition: control‑flow and error propagation are “hoisted” into a reusable shape.
+You could write another function that takes an `AppConfig` and returns a `Result<AppConfig, string>` and drop it into this pipeline, no extra `if`/`try`/`return` boilerplate. This is the power of **monadic** composition: control‑flow and error propagation are “hoisted” into a reusable shape.
 
 ---
 
 ## **Scenario: Sequential API calls (auth → user → orders)**
 
-**Intent:** Compose three dependent calls and return either a **numeric total** or an **error**—still no side effects.
+**Intent:** Compose three dependent calls and return either a **numeric total** or an **error**, still no side effects.
 
 ```csharp
 using System;
@@ -425,9 +425,9 @@ public sealed class Result<T, TErr>
 
 ---
 
-## **The punchline (and when exceptions are fine)**
+## **In closing**
 
-* **Exceptions**: great at *UI/imperative edges* to abort an operation early and show an error—wrap the whole interaction in one `try/catch`. But inside your core logic, they make error flow implicit and non‑local.
+* **Exceptions**: great at *UI/imperative edges* to abort an operation early and show an error, wrap the whole interaction in one `try/catch`. But inside your core logic, they make error flow implicit and non‑local.
 * **Try‑pattern/tuples**: better locality than exceptions, but you’re rebuilding `Result<T, TErr>` without its ergonomics or guarantees.
 * **`Result`**: makes failure **part of the type**, nudges you to handle it consciously, and gives you **`Bind`/`Map`** to compose steps and **flows** without boilerplate.
 
