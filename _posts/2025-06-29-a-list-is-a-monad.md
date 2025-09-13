@@ -222,7 +222,7 @@ Another benefit of monads is that you can chain computations that themselves pro
 
 flatMap is like our Map, but it also flattens the result. **flatMap provides the ability to chain computations that themselves produce monadic values, which is the defining feature of monads.** For example, if you have a function that looks up a user and returns a Maybe<User>, but you want to pass it to another function that returns the user’s profile. Using Map would give you a Maybe<Maybe<UserProfile>>, an awkward nested container because the input would be a Maybe<UserProfile>. With flatMap, you both apply your lookup and collapse the layers in one go, so you can seamlessly sequence optional, error-handling, or asynchronous operations (e.g. promises/tasks) without ever wrestling with nested monadic types.
 
-Here’s how that looks in code:
+We haven't implemented MaybeMonad<T> yet, but, here’s how it would look like in code:
 
 ```csharp
 Maybe<User> lookupUser(string id)  
