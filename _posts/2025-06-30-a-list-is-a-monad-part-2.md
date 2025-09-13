@@ -424,8 +424,8 @@ With `Maybe<T>`, “no value” often isn’t an error, you might supply a defau
 
 *What `Match` guarantees:*
 
-* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`. **This is important** because you can only handle _one_ or the other.
-* **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch.
+* **Exhaustive by construction.** You must provide handlers for `Ok` and `Err`. There aren't any surprises when a function returns an error, assuming all APIs are written that way. The function signature `Result` indicates you have to handle it and forces you to do so, otherwise it's a compile-time error.
+* **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch. There is nothing to peek at, the other value simply doesn't exist.
 
 **Example, turn a result into a message and perform side effects:**
 
