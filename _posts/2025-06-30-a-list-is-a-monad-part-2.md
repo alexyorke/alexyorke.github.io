@@ -351,22 +351,6 @@ public sealed class Result<T, TErr>
         return new Result<T, TErr>(error);
     }
 
-    public bool IsOk
-    {
-        get
-        {
-            return _isOk;
-        }
-    }
-
-    public bool IsErr
-    {
-        get
-        {
-            return !_isOk;
-        }
-    }
-
     // Map: transform the success value, pass errors through unchanged.
     public Result<U, TErr> Map<U>(Func<T, U> f)
     {
@@ -417,6 +401,8 @@ if (result.Value != null) {
 
 This is kind of a mess, because now we're just back to square one, where we're just treating the `Result` monad as simply a container to hold the success value and the failure value. Monads are not just containers, they're much more than that. You have to use them in a way where they compose together. The monad itself is responsible for delegating that control flow.
 
+> Aside: But wait, my programming language of choice has a `GetUnsafeValue()` on the `Result` monad! They exist as escape hatches, interop, and are typically used in few rare and specific situations. For now, pretend they do not exist.
+
 This is where `Match` comes in.
 
 ```csharp
@@ -444,7 +430,8 @@ With `Result<T, TErr>`, since an error is explicitly specified the **error matte
 * **No invalid states.** In the success handler you only have `T`; in the error handler you only have `TErr`. There’s no way to “peek” at the other branch. There is nothing to peek at, the other value simply doesn't exist.
 
 > **Aside: What’s a “boundary”?**
-> A **boundary** is where your pure computations hand off a decision to the hosting layer (entry point, controller, event handler). Inside, keep values flowing with `Result` via `Map`/`Bind`. At the boundary, call `Match` **once** to choose the next step and stop composing. Rule of thumb: if the same inputs always yield the same value, you’re inside; if something depends on time, randomness, or global state, you’ve reached the boundary.
+> A **boundary** is where your program needs to make a decision and *do something*, like update the UI, return a result to a caller, or show an error. Inside your logic, you use `Map` and `Bind` to build up a pipeline. But at the boundary, you need to stop composing and **choose** what to do next. That’s where `Match` comes in: it forces you to handle both the success and the error path clearly. Boundaries are often the outer edges of your app, places like `Main()`, web handlers, or event callbacks, where decisions become actions. This is also where side-effects are run, but we'll go into this in a later part.
+
 
 **Example, turn a result into a message and perform side effects:**
 
