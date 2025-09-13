@@ -300,6 +300,60 @@ if (actualUserId != null) {
 
 Eww. If we treat the monad as just a fancy wrapper to put a value in and then take it out immediately, it does feel like pointless ceremony. This is where many people give up on learning monads, it seems like you’re just putting a value in a box and taking it out again with extra steps. But the power of monads comes when you stay *inside* the monadic context and keep chaining operations. In Part 2, we’ll look at more advanced monads that aren’t just simple containers, and you’ll see how staying in the monadic pipeline pays off.
 
+## **Closing the loop on `Maybe`**
+
+We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>`. Together, these tweaks clean things up and make the monad easier to use across more scenarios.
+
+```csharp
+public sealed class Maybe<T>
+{
+    private readonly bool _has;
+    private readonly T _value;
+
+    private Maybe(T value)
+    {
+        _has = true;
+        _value = value;
+    }
+
+    private Maybe()
+    {
+        _has = false;
+        _value = default(T);
+    }
+
+    public static Maybe<T> Some(T value)
+    {
+        return new Maybe<T>(value);
+    }
+
+    public static Maybe<T> None()
+    {
+        return new Maybe<T>();
+    }
+
+    public Maybe<U> Map<U>(Func<T, U> f)
+    {
+        if (_has)
+        {
+            return Maybe<U>.Some(f(_value));
+        }
+        return Maybe<U>.None();
+    }
+
+    public Maybe<U> Bind<U>(Func<T, Maybe<U>> f) // aka FlatMap
+    {
+        if (_has)
+        {
+            return f(_value);
+        }
+        return Maybe<U>.None();
+    }
+}
+````
+
+To wrap up **`Maybe`**: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing (not found, invalid input, business‑rule violation). **`Maybe`** can’t carry that reason.
+
 ## Monad Laws
 
 To be a true monad, a type must not only provide `Unit` and `flatMap` operations, but also obey three simple laws that make sure these operations behave consistently:
