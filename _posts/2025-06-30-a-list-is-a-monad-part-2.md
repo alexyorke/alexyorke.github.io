@@ -6,7 +6,7 @@ date: 2025-06-30
 
 # **Monads in C# (Part 2): Result (aka Either) with practical, everyday examples**
 
-In Part 1 you built `Maybe` to transform a value if present; `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll finish the `Maybe` monad from Part 1, introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
+In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll finish the `Maybe` monad from Part 1, introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
 
 *If you think in LINQ:* `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
@@ -48,7 +48,7 @@ We’re making a few changes to the `Maybe` monad to give it a more official, er
 +     private Maybe()
 +     {
 +         _has = false;
-+         _value = default(T);
++         _value = default!;
 +     }
 +     public static Maybe<T> Some(T value) => new Maybe<T>(value);
 +     public static Maybe<T> None() => new Maybe<T>();
@@ -65,8 +65,11 @@ We’re making a few changes to the `Maybe` monad to give it a more official, er
 +
 +     public Maybe<U> Bind<U>(Func<T, Maybe<U>> f) => // aka FlatMap
 +         _has ? f(_value) : Maybe<U>.None();
++
++     public TResult Match<TResult>(Func<T, TResult> some, Func<TResult> none) =>
++         _has ? some(_value) : none();
 + }
-```
+````
 
 To wrap up **`Maybe`**: it’s perfect when you only need to model “value or no value.” Often, we also need to know *why* a value is missing (not found, invalid input, business‑rule violation). **`Maybe`** can’t carry that reason.
 
@@ -91,6 +94,8 @@ Think of it like:
 ## **Scenario: Parse & validate configuration (pure, in‑memory)**
 
 We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
+
+> **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and **Try\*** patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow—independent of what the underlying APIs do.
 
 ### **Example 1 — Baseline exceptions (sync, pure)**
 
@@ -138,42 +143,16 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
     catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
     {
         ShowError($"Could not build config: {ex.Message}");
+        return; // avoid continuing the flow on failure
     }
+
     Log("Dashboard updated.");
 }
 ```
 
-A common step is to convert a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. When the input is invalid, typical options are to throw an exception or return `null`. Each affects control flow differently: exceptions transfer execution to a `catch` block, while `null` results require checks and possible early returns. To use the parsed config outside a `try/catch`, it’s often declared before the `try`, which means subsequent code proceeds as if parsing succeeded. If a `return` is omitted in a `catch`, an exception is swallowed, or a check is missed, execution may continue with an uninitialized or invalid configuration. Repeated across settings, this pattern can lead to duplicated error-handling logic. Also, it is not clear how BuildConfigBasic will fail, i.e., if it'll throw an exception, return null, etc., although it can be documented, there is nothing at compile time that enforces a particular way to use this.
+A common step is to convert a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with `null` or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow.
 
-Let's say I wanted to use the config after I get it. You could use it defensively,
-
-```
-public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
-{
-    AppConfig app;
-    try
-    {
-        app = BuildConfigBasic(cfg); // any missing/invalid field throws here
-        SaveConfigToCache(app);
-        UpdateUI(app);
-    }
-    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
-    {
-        ShowError($"Could not build config: {ex.Message}");
-        return; // defensive return
-    }
-    Log("Dashboard updated.");
-    // since we got to this point, AppConfig is valid
-}
-```
-
-In a way, each line of code only runs if the previous lines succeeded in defensive programming practices. If the errors throw or return, then you can "assume" that if you've gotten to a point, then everything is "ok" so far and there are no errors.
-
-You have to be cautious though, because if you forget to return, then AppConfig is null. There are IDE warnings for such things, but this may not be clear in larger applications and there's nothing at compile time that forces you to not use it if it's not defined, or to handle the error.
-
-There also isn't a singular way to handle errors, functions do not have to specify whether they throw an exception (except for some languages like Java), or they could return errors in different ways. There isn't a unified interface, which makes composing such functions difficult. If you want to use the config, then you have to know if the function will throw or return null, or have some success status code, etc. and you have to manually handle these errors, rethrowing exceptions, etc.
-
-The main thing here is: we have to know the internals of the function (or read the docs) to _manually_ handle errors and _manually_ navigate the control flow ourselves. We do this via try/catch, checking if it's null/defined, etc. This boilerplate is hard to factor out, and also error prone if you forget to rethrow an exception (albeit there are IDE warnings), or forget to do an early return.
+> *Note on compile-time checks:* C#’s definite‑assignment analysis prevents some misuse (e.g., using an unassigned local). The issue here isn’t uninitialized variables; it’s that *error flow is implicit and scattered*, so each call site must manually orchestrate try/catch and early returns.
 
 ---
 
@@ -221,17 +200,17 @@ SaveConfigToCache(app);
 UpdateUI(app);
 ```
 
-This reads linearly and avoids throwing for expected input errors, but as soon as you chain multiple steps, you create repetitive `if (!ok)` plumbing—an ad‑hoc `Result`. There's also nothing enforcing success to be true and the error to always be null, which could be confusing to handle from the caller's perspective. I can also still use the AppConfig, even though it may not be initialized or could be null.
+This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing—an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
 ---
 
-## Scenario: File + JSON (pure, deterministic “source”)
+## **Scenario: File + JSON (pure, deterministic “source”)**
 
 **Intent:** Compose a config from a deterministic source (no I/O talk here), returning only `Result<AppConfig, string>`.
 
-We’ll use an existing `Result` abstraction (as found in many languages and libraries) to focus on composition rather than re-implementing plumbing. The goal is to build an `AppConfig` from a deterministic source (e.g., a read-only dictionary). For concreteness, we’ll briefly show how the internal validate/parse step might work, though callers don’t need those details.
+We’ll use a `Result` abstraction (as found in many languages and libraries) so we can focus on composition rather than re‑implementing plumbing. The goal is to build an `AppConfig` from a deterministic source (e.g., a read‑only dictionary). For concreteness, we’ll show how the internal validate/parse step might work, though callers don’t need those details.
 
-Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure (using `Ok/Err` to avoid left/right terminology). This keeps control flow predictable: successful values flow through `Map`/`FlatMap`, while failures short-circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it compose naturally regardless of their internals. At the boundary—typically once—the caller handles the final outcome and can inspect any error produced by the pipeline. The example below illustrates this pattern.
+Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure (using `Ok/Err` to avoid left/right terminology). This keeps control flow predictable: successful values flow through `Map`/`Bind`, while failures short‑circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it **compose naturally** regardless of their internals. At the boundary—typically once—the caller handles the final outcome and can inspect any error produced by the pipeline.
 
 ```csharp
 using System;
@@ -300,22 +279,24 @@ public static class AppConfigComposition
 {
     public static Result<AppConfig, string> LoadAppConfig(IReadOnlyDictionary<string, string> cfg)
     {
-        return ConfigDecoders.GetIntInRange(cfg, "MaxRetries", 0, 10)
-            .Bind(max =>
-                ConfigDecoders.GetIntInRange(cfg, "TimeoutSeconds", 1, 300)
-                    .Bind(timeout =>
-                        ConfigDecoders.GetEnum<Mode>(cfg, "Mode")
-                            .Map(mode => new AppConfig(max, timeout, mode)))))
-            .Bind(AppConfigValidation.Validate);
+        var parsed =
+            ConfigDecoders.GetIntInRange(cfg, "MaxRetries", 0, 10)
+                .Bind(max =>
+                    ConfigDecoders.GetIntInRange(cfg, "TimeoutSeconds", 1, 300)
+                        .Bind(timeout =>
+                            ConfigDecoders.GetEnum<Mode>(cfg, "Mode")
+                                .Map(mode => new AppConfig(max, timeout, mode)))));
+
+        return parsed.Bind(AppConfigValidation.Validate);
     }
 }
 ```
 
-You could write another function that takes in an AppConfig, returns a Result<AppConfig, string> and put it in this flatMap pipeline below, and it'll work, error handling and all. You don't need to check if it's null, or has a boolean success value, or throws an exception and manually return. This shows the power of mondaic composition: since this control-flow logic has been "hoisted", it allows multiple functions to seamlessly work together.
+You could write another function that takes an `AppConfig` and returns a `Result<AppConfig, string>` and drop it into this pipeline—no extra `if`/`try`/`return` boilerplate. This is the power of **monadic** composition: control‑flow and error propagation are “hoisted” into a reusable shape.
 
 ---
 
-## Scenario: Sequential API calls (auth → user → orders)
+## **Scenario: Sequential API calls (auth → user → orders)**
 
 **Intent:** Compose three dependent calls and return either a **numeric total** or an **error**—still no side effects.
 
@@ -377,81 +358,69 @@ public static class OrderFlows
     {
         return GetTotalAmount()
             .Map(total => $"Total: {total:C}");
-        // There is no error formatting here because we haven't introduced MapError/Recover.
-        // If any step fails, the Err branch is returned as-is.
+        // We could add MapError/Recover helpers later to transform errors.
     }
 }
 ```
 
 ---
 
-## Introducing `Result<T, TErr>`
+## **Introducing `Result<T, TErr>`**
 
-Below is a complete `Result<T, TErr>` implementation.
+Below is a minimal, complete `Result<T, TErr>` with `Map`, `Bind`, and `Match`. `FlatMap` is provided as an alias for those who prefer that name.
 
 ```csharp
-    public sealed class Result<T, TErr>
+public sealed class Result<T, TErr>
+{
+    // Track which branch we're on (mirrors Maybe's internal _has flag).
+    private readonly bool _isOk;
+
+    // Success value (when _isOk is true).
+    private readonly T _value;
+
+    // Error value (when _isOk is false).
+    private readonly TErr _error;
+
+    // Success constructor (parallel to Maybe.Some).
+    private Result(T value)
     {
-        // Track which branch we're on (mirrors Maybe's internal _has flag).
-        private readonly bool _isOk;
-
-        // Success value (when _isOk is true).
-        private readonly T _value;
-
-        // Error value (when _isOk is false).
-        private readonly TErr _error;
-
-        // Success constructor (parallel to Maybe.Some).
-        private Result(T value)
-        {
-            _isOk = true;
-            _value = value;
-            _error = default!;
-        }
-
-        // Error constructor (parallel to Maybe.None but with a reason).
-        private Result(TErr error)
-        {
-            _isOk = false;
-            _value = default!;
-            _error = error;
-        }
-
-        // Factory methods (shape: static constructors like Maybe.Some/None).
-        public static Result<T, TErr> Ok(T value)
-        {
-            return new Result<T, TErr>(value);
-        }
-
-        public static Result<T, TErr> Err(TErr error)
-        {
-            return new Result<T, TErr>(error);
-        }
-
-        // Map: transform the success value, pass errors through unchanged.
-        // Mirrors Maybe<T>.Map<U>(Func<T, U>).
-        public Result<U, TErr> Map<U>(Func<T, U> f)
-        {
-            if (_isOk)
-            {
-                return Result<U, TErr>.Ok(f(_value));
-            }
-
-            return Result<U, TErr>.Err(_error);
-        }
-
-        // Bind (aka FlatMap): chain a function returning Result.
-        // Mirrors Maybe<T>.Bind<U>(Func<T, Maybe<U>>) with the same control-flow shape.
-        public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next)
-        {
-            if (_isOk)
-            {
-                return next(_value);
-            }
-
-            return Result<U, TErr>.Err(_error);
-        }
+        _isOk = true;
+        _value = value;
+        _error = default!;
     }
+
+    // Error constructor (parallel to Maybe.None but with a reason).
+    private Result(TErr error)
+    {
+        _isOk = false;
+        _value = default!;
+        _error = error;
+    }
+
+    // Factory methods (shape: static constructors like Maybe.Some/None).
+    public static Result<T, TErr> Ok(T value) => new(value);
+    public static Result<T, TErr> Err(TErr error) => new(error);
+
+    public bool IsOk => _isOk;
+    public bool IsErr => !_isOk;
+
+    // Map: transform the success value, pass errors through unchanged.
+    public Result<U, TErr> Map<U>(Func<T, U> f) =>
+        _isOk ? Result<U, TErr>.Ok(f(_value))
+              : Result<U, TErr>.Err(_error);
+
+    // Bind (aka FlatMap): chain a function returning Result.
+    public Result<U, TErr> Bind<U>(Func<T, Result<U, TErr>> next) =>
+        _isOk ? next(_value)
+              : Result<U, TErr>.Err(_error);
+
+    // Optional alias for those who prefer the name FlatMap.
+    public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next) => Bind(next);
+
+    // Match at the boundary: collapse Ok/Err into a single value.
+    public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err) =>
+        _isOk ? ok(_value) : err(_error);
+}
 ```
 
 ---
@@ -459,5 +428,7 @@ Below is a complete `Result<T, TErr>` implementation.
 ## **The punchline (and when exceptions are fine)**
 
 * **Exceptions**: great at *UI/imperative edges* to abort an operation early and show an error—wrap the whole interaction in one `try/catch`. But inside your core logic, they make error flow implicit and non‑local.
-* **Try‑pattern/tuples**: better locality than exceptions, but you’re rebuilding `Result<T, TErr>` without its ergonomics.
-* **`Result`**: makes failure **part of the type**, forces conscious handling, and gives you **`Bind`/`Map`** to compose steps and files without boilerplate.
+* **Try‑pattern/tuples**: better locality than exceptions, but you’re rebuilding `Result<T, TErr>` without its ergonomics or guarantees.
+* **`Result`**: makes failure **part of the type**, nudges you to handle it consciously, and gives you **`Bind`/`Map`** to compose steps and **flows** without boilerplate.
+
+```
