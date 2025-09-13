@@ -17,34 +17,7 @@ In Part 1 you built `Maybe` to transform a value if present; `Bind` (aka `Flat
    **Mental model:** `Map` ≈ LINQ `Select`; `Bind` ≈ `SelectMany`; use `Match` at the boundary.
 ---
 
-## Why `Result`?
-
-What we want is a **straight success path** and a **typed, local failure path**:
-
-```csharp
-public static Result<AppConfig, string> BuildConfigResult(IReadOnlyDictionary<string, string> cfg) =>
-    Get(cfg, "MaxRetries").Bind(ParseInt).Bind(Between(0, 10)).Bind(max =>
-    Get(cfg, "TimeoutSeconds").Bind(ParseInt).Bind(Between(1, 300)).Bind(timeout =>
-    Get(cfg, "Mode").Bind(ParseEnum<Mode>).Map(mode =>
-    new AppConfig(max, timeout, mode))));
-
-// We'll implement Result<T,TErr> below; helpers like Get/ParseInt/Between/ParseEnum
-// are simple functions that return Result<… , string>.
-```
-
-At the **boundary**:
-
-```csharp
-BuildConfigResult(cfg).Match(
-    ok: app => { SaveConfigToCache(app); UpdateUI(app); return 0; },
-    err: e   => { ShowError(e); return 1; });
-```
-
-That’s the shape we’ll build toward.
-
----
-
-## **Closing the loop on `Maybe` — proper monad, minimal diff**
+## **Closing the loop on `Maybe`**
 
 We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>` (not “`MaybeMonad`”), which matches how monads are typically named in functional programming (e.g., `Maybe`, `Result`). Together, these tweaks clean things up and make the monad easier to use across more scenarios.
 
@@ -101,36 +74,17 @@ That’s where the **`Result`** (a.k.a. **Either**) **monad** fits. It’s like 
 
 ## **Result (aka Either): when “missing” needs a reason**
 
-`Maybe<T>` tells us **whether** a value exists. Real code often needs **why** it doesn’t (invalid input, “not found,” rule failed). We keep the same straight‑line composition:
+`Maybe<T>` tells us **whether** a value exists. Sometimes, we need need **why** it doesn’t exist (invalid input, “not found,” rule failed). We keep the same straight‑line composition:
 
 * **`Map`** — transform the **success** value
-* **`Bind`** — chain a function returning another `Result<…>`
+* **`flatMap`** — chain a function returning another `Result<…>`
 
 …and add a failure branch that carries an **error**.
 
 Think of it like:
 
-* `Ok(value)` ⇢ like `Some(value)`
-* `Err(message)` ⇢ like `None()`, **but with a reason**
-
-### Minimal API cheat‑sheet
-
-```csharp
-// Minimal surface area used in this article
-public sealed class Result<T, TErr> {
-    public static Result<T, TErr> Ok(T v) => /* ... */;
-    public static Result<T, TErr> Err(TErr e) => /* ... */;
-
-    public bool IsSuccess => /* ... */;
-    public bool IsError   => /* ... */;
-    public T Value        => /* ... */;     // throws if IsError
-    public TErr Error     => /* ... */;     // throws if IsSuccess
-
-    public Result<U, TErr> Map<U>(Func<T, U> f) => /* ... */;
-    public Result<U, TErr> Bind<U>(Func<T, Result<U, TErr>> next) => /* ... */;
-    public R Match<R>(Func<T, R> ok, Func<TErr, R> err) => /* ... */;
-}
-```
+* `Ok(value)` -> like `Some(value)`
+* `Err(message)` -> like `None()`, **but with a reason**
 
 ## Introducing `Result<T, TErr>`
 
