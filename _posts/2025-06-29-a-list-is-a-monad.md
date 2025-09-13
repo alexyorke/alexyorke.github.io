@@ -7,11 +7,11 @@ date: 2025-06-29
 
 Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
 
-Monads are a concept in functional programming, with countless blog posts written about them (including this one.) Monads provide a different way to write your program: compose small functions while the monad threads the "context" for you instead of hand‑rolled control flow.
+Monads are a concept in functional programming, with countless blog posts written about them (including this one.) Monads provide a different way to write your program: compose small functions while the monad threads the "context" for you instead of hand‑rolled control flow. They are a simple, mundane concept but are complicated to understand because it is a departure in procedural thinking.
 
-The **simplest** of monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosophy_of_science%29) as a **container** (albeit is [a flawed metaphor](https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html)). Not all monads are containers, and instead it's better to think about them as a **programming pattern, receipe, or deferred computation**. At the heart of monadic programming is the idea that you write **one** function, say, `f(x) = x + 1`, and then **reuse** it across different contexts without rewriting control-flow logic.
+You may think monads are containers, or burritos, or boxes. Not all monads are containers, and instead it's better to think about them as a **programming pattern, receipe, factoring out control flow, or a deferred computation**. At the heart of monadic programming is the idea that you write **one** function, say, `f(x) = x + 1`, and then **reuse** it across different contexts without rewriting control-flow logic.
 
-From a teaching perspective to get the concept for what a monad is, we will start with the simplest of monads. These will feel a lot like containers but provides the mental infrastructure to understand more complex monads.
+From a teaching perspective to get the concept for what a monad is, we will start with the simplest of monads. The **simplest** of monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosophy_of_science%29) as a **container** (albeit is [a flawed metaphor](https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html)). The content in part 1 will feel a lot like containers but provides the mental infrastructure to understand more complex monads.
 
 ## List<T>: Map & FlatMap in Practice
 To an OOP developer, monadic types (`List<T>`) might look just like generics. It’s a typical pitfall to think “we have generics, so we have monads,” which isn’t true by itself. Monads do usually involve generic types, but they **require specific operations (Unit and flatMap) and the three monad laws on those types to ensure uniform behavior.** **This is key** and is fundamental to working with monads.
