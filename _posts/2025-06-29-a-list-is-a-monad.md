@@ -108,14 +108,14 @@ In List, Map runs a function on every element and outputs a new list with that f
 
 #### *Example (C#-ish):*
 
-```
+```csharp
 var originalList = new List<int> { 0, 1, 2, 3, 4 };    
 var mapped = originalList.Map(x => x + 1); // Map doesn’t exist in C# (use LINQ's Select), but assume this pseudocode
 ```
 
 **Example (C#, without monads):**
 
-```
+```csharp
 var originalList = new List<int> { 0, 1, 2, 3, 4 };    
 var mappedList = new List<int>();
 
@@ -131,7 +131,7 @@ Ideally, you don’t want to pull the values out of a monad unless you absolutel
 
 Think about List<T> as if you had never seen it before. You might say, “I don’t want my values trapped in this list, how am I supposed to use them?” and then manually extract each element into separate variables:
 
-```
+```csharp
 // Pretend it’s your first time with List<T>
 var numbers = new List<int> { 1, 2, 3 };
 
@@ -276,7 +276,7 @@ This is why it makes sense to wrap values in monads and keep chaining within the
 
 If you prematurely yank a value out of a monad, you end up doing manual work that defeats this benefit. For instance, consider if we had a GetValue() method to extract the inner value (with null representing “no value”):
 
-``csharp
+```csharp
 Maybe<string> userIdMaybe = GetUserId();  
 var actualUserId = userIdMaybe.GetValue();  
 if (actualUserId != null) {  
@@ -303,4 +303,3 @@ As we’ve seen, monads provide a context for computation. By defining two core 
 The real power comes when we apply this pattern to different contexts. In Part 2, we’ll explore other useful monads, like Either for more descriptive error handling, and see how to combine monads to manage multiple concerns at once.
 
 [Part 2](https://alexyorke.github.io/2025/06/30/a-list-is-a-monad-part-2/)
----
