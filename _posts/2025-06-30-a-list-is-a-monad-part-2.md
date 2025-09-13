@@ -173,6 +173,8 @@ You have to be cautious though, because if you forget to return, then AppConfig 
 
 There also isn't a singular way to handle errors, functions do not have to specify whether they throw an exception (except for some languages like Java), or they could return errors in different ways. There isn't a unified interface, which makes composing such functions difficult. If you want to use the config, then you have to know if the function will throw or return null, or have some success status code, etc. and you have to manually handle these errors, rethrowing exceptions, etc.
 
+The main thing here is: we have to know the internals of the function (or read the docs) to _manually_ handle errors and _manually_ navigate the control flow ourselves. We do this via try/catch, checking if it's null/defined, etc. This boilerplate is hard to factor out, and also error prone if you forget to rethrow an exception (albeit there are IDE warnings), or forget to do an early return.
+
 ---
 
 ### **Example 2 — Try‑pattern as a tuple (fast‑fail without throwing on content)**
