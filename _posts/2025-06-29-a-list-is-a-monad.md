@@ -7,18 +7,9 @@ date: 2025-06-29
 
 Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
 
-The term “monad” is often invoked when describing patterns in functional programming. Yet explanations typically swing between high-level metaphors and deep mathematical abstractions. Each approach offers part of the picture, intuition without precision, or rigor without intuition but seldom both.
+Monads are a concept in functional programming, with countless blog posts written about them (including this one.) The **simplest** of monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosophy_of_science%29) as a **container** (albeit is [a flawed metaphor](https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html)). Not all monads are containers, and instead it's better to think about them as a **programming pattern, receipe, or deferred computation**. At the heart of monadic programming is the idea that you write **one** function, say, `f(x) = x + 1`, and then **reuse** it across different contexts without rewriting control-flow logic.
 
-Monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosophy_of_science%29) as a **container** (albeit is [a flawed metaphor](https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html)) or context holding a value (or multiple values, or no value), **but in some cases we will get into later on** it’s better to think of it as a **recipe** or **deferred computation** for producing a value. At the heart of monadic programming is the idea that you write **one** function, say, `f(x) = x + 1`, and then **reuse** it across different contexts without rewriting control-flow logic.
-
-## Two Flavours: Result vs Recipe
-
-While all monads provide a computational context, they generally fall into two flavors:
-
-- Monads as "Results": These represent a value that has already been computed, but with extra context. `List<int>` is a result with the context. `Maybe<int>` is the result of a computation with the context of "possible optionalness." For these, the "container" metaphor is a useful, if limited, starting point.
-- Monads as "Recipes": These represent a computation that has not happened yet. They are a blueprint for producing a value. C#'s `Task<T>` is a perfect example: it doesn't hold a value, it holds the promise of a value to be computed asynchronously. For these, the "recipe" metaphor is a much better fit. Unwrapping a task doesn’t give you the computed result, it just gives you the instructions **to** compute it.
-
-Sometimes, you can mix the flavors. In this post, we will focus on the first category to build our core intuition. We'll start with `List` and `Maybe` to understand the mechanics of `map` and `flatMap` on concrete results. In Part 2, we'll see how these same patterns unlock immense power when applied to "recipe" monads like `Task`.
+From a teaching perspective to get the concept for what a monad is, we will start with the simplest of monads. These will feel a lot like containers but provides the mental infrastructure to understand more complex monads.
 
 ## List<T>: Map & FlatMap in Practice
 To an OOP developer, monadic types (`List<T>`) might look just like generics. It’s a typical pitfall to think “we have generics, so we have monads,” which isn’t true by itself. Monads do usually involve generic types, but they **require specific operations (Unit and flatMap) and the three monad laws on those types to ensure uniform behavior.** **This is key** and is fundamental to working with monads.
