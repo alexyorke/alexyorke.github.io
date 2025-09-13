@@ -7,7 +7,7 @@ date: 2025-06-29
 
 Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
 
-Monads are a concept in functional programming, with countless blog posts written about them (including this one). Monads provide a different way to write your program: compose small functions while the monad threads the “context” for you instead of hand‑rolled control flow.
+The term “monad” is often invoked when describing patterns in functional programming.
 
 At the heart of monadic programming is the idea that you write **one** function, say, `f(x) = x + 1`, and then **reuse** it across different contexts without rewriting control‑flow logic. They are a simple, mundane concept but for programmers used to imperative control flow, monads could feel unfamiliar because they move sequencing and effect‑handling into a reusable abstraction that threads context. Staying within the monodaic context is one of the reasons that makes monads powerful.
 
