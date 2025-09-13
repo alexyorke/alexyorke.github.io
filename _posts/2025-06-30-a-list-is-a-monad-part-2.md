@@ -455,7 +455,17 @@ string ToMessage(Result<AppConfig, string> r) =>
     );
 ```
 
----
+## Composition, composition, composition
+
+Recall that you can compose monads. In this case, say for example the user might provide a config, this could be modelled via Maybe<AppConfig>. Then, we could combine this with Result, which could run computations to do different things if a config is provided, e.g., enable certain features, which themselves could produce errors. The Maybe monad would be responsible for running the rest of the branch; if there is a config, then continue, otherwise, well, there is no config, so skip the subsequent steps.
+
+## Why does this feel so complicated, why are there so many things I need to handle now?
+
+When you start using Result pervasively, it can feel like there are suddenly a lot of errors to handle. It’s not creating more errors, it’s making existing failure cases explicit and putting them where you can see them.
+
+In codebases that rely on exceptions (or nulls), failures are often latent: the happy path reads cleanly, but hidden branches can throw at runtime. If an exception isn’t caught in just the right place, it bubbles up, crashes the program, or triggers framework‑level behavior you didn’t intend. Or, you handle them yourself defensively.
+
+With Result<E, T>, those same possibilities are part of the type. That forces you either to handle them or to propagate them explicitly. Yes, this adds some cognitive overhead. But the trade‑off is fewer surprises and clearer control flow. Instead of hoping everything works, you design for the cases where it might not.
 
 ## **In closing**
 
