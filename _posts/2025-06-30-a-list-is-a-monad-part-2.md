@@ -386,7 +386,7 @@ public sealed class Result<T, TErr>
     {
         _isOk = true;
         _value = value;
-        _error = default!;
+        _error = default;
     }
 
     // Error constructor (parallel to Maybe.None but with a reason).
@@ -398,29 +398,81 @@ public sealed class Result<T, TErr>
     }
 
     // Factory methods (shape: static constructors like Maybe.Some/None).
-    public static Result<T, TErr> Ok(T value) => new(value);
-    public static Result<T, TErr> Err(TErr error) => new(error);
+    public static Result<T, TErr> Ok(T value)
+    {
+        return new Result<T, TErr>(value);
+    }
 
-    public bool IsOk => _isOk;
-    public bool IsErr => !_isOk;
+    public static Result<T, TErr> Err(TErr error)
+    {
+        return new Result<T, TErr>(error);
+    }
+
+    public bool IsOk
+    {
+        get
+        {
+            return _isOk;
+        }
+    }
+
+    public bool IsErr
+    {
+        get
+        {
+            return !_isOk;
+        }
+    }
 
     // Map: transform the success value, pass errors through unchanged.
-    public Result<U, TErr> Map<U>(Func<T, U> f) =>
-        _isOk ? Result<U, TErr>.Ok(f(_value))
-              : Result<U, TErr>.Err(_error);
+    public Result<U, TErr> Map<U>(Func<T, U> f)
+    {
+        if (_isOk)
+        {
+            return Result<U, TErr>.Ok(f(_value));
+        }
+        else
+        {
+            return Result<U, TErr>.Err(_error);
+        }
+    }
 
     // Bind (aka FlatMap): chain a function returning Result.
-    public Result<U, TErr> Bind<U>(Func<T, Result<U, TErr>> next) =>
-        _isOk ? next(_value)
-              : Result<U, TErr>.Err(_error);
+    public Result<U, TErr> Bind<U>(Func<T, Result<U, TErr>> next)
+    {
+        if (_isOk)
+        {
+            return next(_value);
+        }
+        else
+        {
+            return Result<U, TErr>.Err(_error);
+        }
+    }
 
     // Optional alias for those who prefer the name FlatMap.
-    public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next) => Bind(next);
-
-    // Match at the boundary: collapse Ok/Err into a single value.
-    public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err) =>
-        _isOk ? ok(_value) : err(_error);
+    public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next)
+    {
+        return Bind(next);
+    }
 }
+```
+
+Now there's also a match method,
+
+```
+    // Match at the boundary: collapse Ok/Err into a single value.
+    public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
+    {
+        if (_isOk)
+        {
+            return ok(_value);
+        }
+        else
+        {
+            return err(_error);
+        }
+    }
 ```
 
 ---
