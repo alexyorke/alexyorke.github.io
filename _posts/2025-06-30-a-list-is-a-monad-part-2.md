@@ -143,7 +143,7 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
 }
 ```
 
-With multiple fields, exceptions can arise mid‑construction, so the caller wraps the entire operation—a non‑local jump.
+A common step is to convert a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. When the input is invalid, typical options are to throw an exception or return `null`. Each affects control flow differently: exceptions transfer execution to a `catch` block, while `null` results require checks and possible early returns. To use the parsed config outside a `try/catch`, it’s often declared before the `try`, which means subsequent code proceeds as if parsing succeeded. If a `return` is omitted in a `catch`, an exception is swallowed, or a check is missed, execution may continue with an uninitialized or invalid configuration. Repeated across settings, this pattern can lead to duplicated error-handling logic. Also, it is not clear how BuildConfigBasic will fail, i.e., if it'll throw an exception, return null, etc., although it can be documented, there is nothing at compile time that enforces a particular way to use this.
 
 ---
 
@@ -185,17 +185,7 @@ SaveConfigToCache(app);
 UpdateUI(app);
 ```
 
-This reads linearly and avoids throwing for expected input errors, but as soon as you chain multiple steps, you create repetitive `if (!ok)` plumbing—an ad‑hoc `Result`.
-
----
-
-Absolutely—thanks for the concrete direction. I trimmed and reshaped both scenarios to:
-
-* keep everything **pure** (no side effects),
-* **assume** the lower‑level functions already return `Result<…>` (no wrapper classes),
-* avoid `Match` and **avoid** `IsOk`/flags,
-* use full **code blocks** (no expression‑bodied members),
-* make the **entry point** obvious in each scenario.
+This reads linearly and avoids throwing for expected input errors, but as soon as you chain multiple steps, you create repetitive `if (!ok)` plumbing—an ad‑hoc `Result`. There's also nothing enforcing success to be true and the error to always be null, which could be confusing to handle from the caller's perspective. I can also still use the AppConfig, even though it may not be initialized or could be null.
 
 ---
 
