@@ -23,15 +23,13 @@ A good example of a monad is List. You’re likely very familiar with lists and 
 
 The monad Map operation is responsible for:
 
-* **Applying your function.** For List, Map runs f (a function) on *every* element, so the list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s List<T>; all f is, is just f(x) = x + 1. Map is responsible for running it.
+* **Applying your function.** For List, Map runs f (a function) on *every* element. For example, let's define f as f(x) = x + 1. The list [0,1,2,3] becomes [1,2,3,4]. If the list doesn’t have any elements, then Map doesn’t call f. f doesn’t need to worry about that. Also, f doesn’t care if it’s List<T>; all f is, is just f(x) = x + 1. Map is responsible for running it.
 
 * **Managing sequencing and combination.** The list context concatenates all results into one list (flattening any nested lists if necessary). We don’t need to manually re-add elements via Add or otherwise manage the collection ourselves.
 
-Notice that the monad is responsible for running f(x). This shift means your business logic stays **declarative** and **composable**, you describe *what* happens to a single value, and the monad describes *how* and *when* it happens.
+Notice that the monad in this case List<T> is responsible for running f. This shift means your business logic stays **declarative** and **composable**, you describe *what* happens to a single value, and the monad describes *how* and *when* it happens.
 
-This is different from object-oriented and procedural programming because in those paradigms, if you want to process data, it is your responsibility to understand how to apply the function to your data. We have to use different control constructs to handle different types of data, and we’re also responsible for the “how.”
-
-Here are some examples in C# to illustrate the difference:
+This is different from object-oriented and procedural programming because in those paradigms, if you want to process data, it is your responsibility to understand how to apply the function to your data. We have to use different control constructs to handle different types of data, and we’re also responsible for the “how":
 
 ```csharp
 public string f(string input) {  
@@ -82,7 +80,7 @@ foreach (var key in dict.Keys.ToList())
 
 In these examples, we are forced to know **how** to update each structure procedurally. For a List, we have to call Add; for the String we can update it in place; for the Dictionary, we have to iterate over keys and update each entry. We have to know it’s a List beforehand to know to use foreach. We have to know it’s just a string to append another string to it. We have to know it’s a Dictionary to know how to iterate and update its keys.
 
-With monads, you delegate the control flow to the monad itself, the monad knows how to update its underlying value(s). Recall that even the simplest monads (essentially containers) **must implement two methods to be monads (Unit and flatMap) and must follow three monad laws.**
+With monads, you delegate the control flow to the monad itself, the monad knows how to update its underlying value(s). Recall that even the simplest monads **must implement two methods to be monads (Unit and flatMap) and must follow three monad laws.**
 
 ### Unit
 
@@ -98,7 +96,7 @@ With monads, you delegate the control flow to the monad itself, the monad knows 
 var list = new List<int> { 1 };
 ```
 
-Nothing about the value 1 changes, it’s simply wrapped in a List. If you access element 0 of that list, you get back 1. That’s it.
+List<T> implements Unit because it allows moving a value into the mondaic context. Nothing about the value 1 changes, it’s simply wrapped in a List. If you access element 0 of that list, you get back 1. That’s it.
 
 ---
 
@@ -106,7 +104,7 @@ Nothing about the value 1 changes, it’s simply wrapped in a List. If you acces
 
 **Map** applies a function to each value inside the monad.
 
-In List, Map runs a function on every element and outputs a new list with that function applied to each element. Don’t overcomplicate it. For example, suppose we have a function that adds one to its input (f(x) = x + 1). Passing this function to Map would simply add one to each element in the list. The list [0,1,2,3] would become [1,2,3,4].
+In List, Map runs a function on every element and outputs a new list with that function applied to each element. Don’t overcomplicate it. For example, suppose we have a function that adds one, f(x) = x + 1. Passing this function to Map would simply add one to each element in the list. The list [0,1,2,3] would become [1,2,3,4].
 
 #### *Example (C#-ish):*
 
@@ -131,7 +129,7 @@ foreach (int x in originalList)
 
 Ideally, you don’t want to pull the values out of a monad unless you absolutely have to. It’s possible to implement a GetValue() method that returns the underlying value, but once the value leaves the monadic context, we lose the benefits of that context and can no longer compose operations easily.
 
-hink about List<T> as if you had never seen it before. You might say, “I don’t want my values trapped in this list, how am I supposed to use them?” and then manually extract each element into separate variables:
+Think about List<T> as if you had never seen it before. You might say, “I don’t want my values trapped in this list, how am I supposed to use them?” and then manually extract each element into separate variables:
 
 ```
 // Pretend it’s your first time with List<T>
@@ -165,22 +163,22 @@ public class MaybeMonad {
 
     // Unit    
     public MaybeMonad(int value) {    
-        this.value = value;    
-        this.hasValue = true;    
+        this.value = value;
+        this.hasValue = true;
     }  
 
-    // Unit (no value)    
-    public MaybeMonad() {    
-        // hasValue remains false by default  
+    // Unit (no value)
+    public MaybeMonad() {
+        // hasValue remains false by default
     }  
 
     // Map    
-    public MaybeMonad Map(Func<int, int> func) {    
-        if (hasValue) {    
-            return new MaybeMonad(func(value));    
-        }    
-        return this;    
-    }    
+    public MaybeMonad Map(Func<int, int> func) {
+        if (hasValue) {
+            return new MaybeMonad(func(value));
+        }
+        return this;
+    }
 }
 ```
 
