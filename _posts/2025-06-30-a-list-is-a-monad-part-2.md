@@ -92,58 +92,67 @@ Below is a complete `Result<T, TErr>` implementation.
 
 ```csharp
 public sealed class Result<T, TErr>
-{
-    // Track which branch we're on.
-    private readonly bool _isOk;
-
-    // Success value (when _isOk is true).
-    private readonly T _value;
-
-    // Error value (when _isOk is false).
-    private readonly TErr _error;
-
-    // Expose a small, consistent surface area.
-    public bool IsSuccess => _isOk;
-    public bool IsError => !_isOk;
-
-    public T Value =>
-        _isOk ? _value : throw new InvalidOperationException("No value: Result is Err");
-
-    public TErr Error =>
-        !_isOk ? _error : throw new InvalidOperationException("No error: Result is Ok");
-
-    // Success constructor (like Maybe's Some).
-    private Result(T value)
     {
-        _isOk = true;
-        _value = value;
-        _error = default!;
+        // Track which branch we're on (mirrors Maybe's internal _has flag).
+        private readonly bool _isOk;
+
+        // Success value (when _isOk is true).
+        private readonly T _value;
+
+        // Error value (when _isOk is false).
+        private readonly TErr _error;
+
+        // Success constructor (parallel to Maybe.Some).
+        private Result(T value)
+        {
+            _isOk = true;
+            _value = value;
+            _error = default!;
+        }
+
+        // Error constructor (parallel to Maybe.None but with a reason).
+        private Result(TErr error)
+        {
+            _isOk = false;
+            _value = default!;
+            _error = error;
+        }
+
+        // Factory methods (shape: static constructors like Maybe.Some/None).
+        public static Result<T, TErr> Ok(T value)
+        {
+            return new Result<T, TErr>(value);
+        }
+
+        public static Result<T, TErr> Err(TErr error)
+        {
+            return new Result<T, TErr>(error);
+        }
+
+        // Map: transform the success value, pass errors through unchanged.
+        // Mirrors Maybe<T>.Map<U>(Func<T, U>).
+        public Result<U, TErr> Map<U>(Func<T, U> f)
+        {
+            if (_isOk)
+            {
+                return Result<U, TErr>.Ok(f(_value));
+            }
+
+            return Result<U, TErr>.Err(_error);
+        }
+
+        // Bind (aka FlatMap): chain a function returning Result.
+        // Mirrors Maybe<T>.Bind<U>(Func<T, Maybe<U>>) with the same control-flow shape.
+        public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next)
+        {
+            if (_isOk)
+            {
+                return next(_value);
+            }
+
+            return Result<U, TErr>.Err(_error);
+        }
     }
-
-    // Error constructor (like Maybe's None, but with a reason).
-    private Result(TErr error)
-    {
-        _isOk = false;
-        _value = default!;
-        _error = error;
-    }
-
-    // Factory methods.
-    public static Result<T, TErr> Ok(T value) => new Result<T, TErr>(value);
-    public static Result<T, TErr> Err(TErr error) => new Result<T, TErr>(error);
-
-    // Map: transform the success value, pass errors through unchanged.
-    public Result<U, TErr> Map<U>(Func<T, U> f) =>
-        _isOk ? Result<U, TErr>.Ok(f(_value)) : Result<U, TErr>.Err(_error);
-
-    // Bind (aka FlatMap): chain another Result-producing function.
-    public Result<U, TErr> Bind<U>(Func<T, Result<U, TErr>> next) =>
-        _isOk ? next(_value) : Result<U, TErr>.Err(_error);
-
-    // Match: handle both branches once, at the boundary.
-    public R Match<R>(Func<T, R> ok, Func<TErr, R> err) =>
-        _isOk ? ok(_value) : err(_error);
-}
 ```
 
 ### **Quick mental model for `Match` (and how it differs from `Map`)**
