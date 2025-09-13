@@ -145,6 +145,30 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
 
 A common step is to convert a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. When the input is invalid, typical options are to throw an exception or return `null`. Each affects control flow differently: exceptions transfer execution to a `catch` block, while `null` results require checks and possible early returns. To use the parsed config outside a `try/catch`, it’s often declared before the `try`, which means subsequent code proceeds as if parsing succeeded. If a `return` is omitted in a `catch`, an exception is swallowed, or a check is missed, execution may continue with an uninitialized or invalid configuration. Repeated across settings, this pattern can lead to duplicated error-handling logic. Also, it is not clear how BuildConfigBasic will fail, i.e., if it'll throw an exception, return null, etc., although it can be documented, there is nothing at compile time that enforces a particular way to use this.
 
+Let's say I wanted to use the config after I get it. You could use it defensively,
+
+```
+public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
+{
+    AppConfig app;
+    try
+    {
+        app = BuildConfigBasic(cfg); // any missing/invalid field throws here
+        SaveConfigToCache(app);
+        UpdateUI(app);
+    }
+    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
+    {
+        ShowError($"Could not build config: {ex.Message}");
+        return; // defensive return
+    }
+    Log("Dashboard updated.");
+    // since we got to this point, AppConfig is valid
+}
+```
+
+In a way, each line of code only runs if the previous lines succeeded in defensive programming practices. You have to be cautious though, because if you forget to return, then AppConfig is null. There are IDE warnings for such things, but this may not be clear in larger applications and there's nothing at compile time that forces you to not use it if it's not defined, or to handle the error. The series of returns can clutter the code and are very repetitive, and become more complex when you need to compose more functions together. Consider having to read multiple configs, with multiple steps.
+
 ---
 
 ### **Example 2 — Try‑pattern as a tuple (fast‑fail without throwing on content)**
