@@ -11,7 +11,7 @@ The term “monad” is often invoked when describing patterns in functional pro
 
 You may erroneously think all monads are containers, or burritos, or boxes. The **simplest** of monads can be [idealized](https://en.wikipedia.org/wiki/Idealization_%28philosophy_of_science%29) as a **container** (albeit a [flawed metaphor](https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html)). Monads are much more than just containers, and there isn't the-one-and-only monad; instead it's better to think about them as a **programming pattern, recipe, factoring out control flow, or, in some cases, a deferred computation**. It depends on which monad you're talking about.
 
-From a teaching perspective, to get the concept for what a monad is, we will start with the simplest of monads which will feel a lot like just a container. This provides the infrastructure to understand more complex monads later on.
+From a teaching perspective, to get the concept for what a monad is, we will start with the simplest of monads which will feel a lot like just a container but with some composable aspects. This provides the infrastructure to understand more complex monads later on.
 
 ## List: `Map` & `flatMap` in Practice
 
