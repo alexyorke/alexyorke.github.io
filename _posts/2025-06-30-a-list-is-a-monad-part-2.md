@@ -1,10 +1,10 @@
 ---
 
-title: "List is a monad (part 2)"
+title: "Monads in C# (Part 2): Result (Either)"
 date: 2025-06-30
 ---
 
-# **List is a monad (Part 2): the Result monad**
+# **Monads in C# (Part 2): Result (Either)**
 
 In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
 
@@ -101,7 +101,7 @@ This converts a raw configuration dictionary (e.g., from a file) into a strongly
 
 ---
 
-### **Example 2: Try‑pattern as a tuple (fast‑fail without throwing on content)**
+### **Example 2: Try‑pattern as a tuple**
 
 ```csharp
 public static (bool Success, AppConfig Config, string? Error)
@@ -115,10 +115,10 @@ public static (bool Success, AppConfig Config, string? Error)
 
     if (!int.TryParse(text, out var retries) || retries is < 0 or > 10)
     {
-        return (false, default, $"MaxRetries must be an integer 0–10 (got '{text}').");
+        return (false, default, $"MaxRetries must be an integer 0-10 (got '{text}').");
     }
 
-    return (true, new AppConfig(retries), null);
+    return (true, new AppConfig(retries, [...]), null);
 }
 ```
 
@@ -392,6 +392,8 @@ var pipeline =
         .Map(ComputeJwtExpiry)                    // Maybe<Result<TimeSpan,string>>
         .Map(r => r.Bind(EnsureMinimumLifetime)); // Maybe<Result<RefreshPlan,string>> (type changes here)
 ```
+
+Notice the final type is a `Result` nested inside a `Maybe`. This is a common and powerful pattern! It correctly models a situation where the entire operation might not apply (`Maybe`), and if it does, it can either succeed or fail (`Result`).
 
 The configuration is optional, so `Maybe` controls whether any checks run at all. If there **is** a config, `Map` applies the pure `ComputeJwtExpiry` and yields a `Result` (no exceptions thrown—errors are returned as `Err`). The second `Map` then lifts a `Bind` that converts a successful `TimeSpan` into a different success type (`RefreshPlan`). We’re **not** calling `Match` here; the pipeline stays composable as a `Maybe<Result<RefreshPlan,string>>`, and you can handle it once at the boundary later.
 
