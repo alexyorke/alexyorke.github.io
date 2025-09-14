@@ -145,6 +145,31 @@ UpdateUI(app);
 
 This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
+Another approach is to use the `Try` pattern, the function returns a boolean representing success, and the output value is the result if the return value is true, otherwise null.
+
+```csharp
+public static bool TryBuildPlan_AllTry(
+    [NotNullWhen(true)] out RefreshPlan? plan)  // tells the compiler: non-null when return == true
+{
+    if (TryGetUserConfig(out var cfg)
+        && TryComputeJwtExpiry(cfg, out var remaining)
+        && TryEnsureMinimumLifetime(remaining, out var p))
+    {
+        plan = p;
+        return true;
+    }
+
+    plan = null; // explicit default on the false path
+    return false;
+}
+```
+
+This allows for some composability, and the IDE will get mad if you try to use the `out` value if the function returns false if you specify a `NotNullWhen` annotation. It's also relatively compact since you can thread the `out` variables on the same line.
+
+However, although it's more concise, certainly flatter, and easier to reason about, it's still tedious. You have to ensure you are setting the output to null before exiting, make sure `true` is always returned on success, make sure that the `out` is set correctly, and manually manage the control flow. Additionally, there is no error reason, you either need to add a secondary `out` param or throw exceptions instead, making sure to always check the return value before using the `out` variables.
+
+It is certainly possible to write code defensively so that it's very clear that you're following these rules, but, you still have to do this manually. The IDE also has limitations on its control-flow analysis, if it's unclear when a function would return true/false then it can't show the warning if you were to forget to check the return value.
+
 ---
 
 ## **Introducing `Result<T, TErr>`**
