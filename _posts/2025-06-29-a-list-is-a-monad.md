@@ -236,7 +236,7 @@ public MaybeMonad FlatMap(Func<int, MaybeMonad> func)
 }
 ```
 
-`Map` is for `int -> int`. `flatMap` is for `int -> MaybeMonad`. Use `flatMap` when your next step might also produce “no value,” and you want to keep chaining without ending up with `Maybe<Maybe<int>>`.
+Use `flatMap` when your next step might also produce “no value,” and you want to keep chaining without ending up with `Maybe<Maybe<int>>`.
 
 ```csharp
 Maybe<User> lookupUser(string id)  
