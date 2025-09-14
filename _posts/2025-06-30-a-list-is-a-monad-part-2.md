@@ -22,8 +22,8 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 
 `Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist. We keep the same straight‑line composition:
 
-*   **`Map`** – transform the **success** value
-*   **`Bind`** – chain a function returning another `Result<...>`
+*   **`Map`**, transform the **success** value
+*   **`Bind`**, chain a function returning another `Result<...>`
 
 ...and add a failure branch that carries an **error**.
 
@@ -143,170 +143,7 @@ SaveConfigToCache(app);
 UpdateUI(app);
 ```
 
-This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing – an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
-
----
-
-## **Scenario: File + JSON (pure, deterministic “source”)**
-
-**Intent:** Compose a config from a deterministic source (no I/O talk here), returning only `Result<AppConfig, string>`.
-
-We’ll use a `Result` abstraction (as found in many languages and libraries) so we can focus on composition rather than re‑implementing plumbing. The goal is to build an `AppConfig` from a deterministic source (e.g., a read‑only dictionary). For concreteness, we’ll show how the internal validate/parse step might work, though callers don’t need those details.
-
-Instead of throwing or returning null (or other behavior), functions return `Result`: `Ok(value)` on success or `Err(error)` on failure. This keeps control flow predictable: successful values flow through `Map`/`Bind`, while failures short‑circuit and carry the error without exceptions or null checks. Because `Result` has a common shape, APIs that return it **compose naturally** regardless of their internals. At the boundary (typically once), the caller handles the final outcome and can inspect any error produced by the pipeline.
-
-```csharp
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-
-// Domain (same as earlier examples)
-public enum Mode { Development, Staging, Production }
-public sealed record AppConfig(int MaxRetries, int TimeoutSeconds, Mode Mode);
-
-// --- Small, pure decoders from an in-memory, deterministic source (e.g., JSON already parsed into a dictionary) ---
-public static class ConfigDecoders
-{
-    public static Result<int, string> GetIntInRange(
-        IReadOnlyDictionary<string, string> cfg,
-        string key,
-        int min,
-        int max)
-    {
-        if (!cfg.TryGetValue(key, out var text))
-            return Result<int, string>.Err($"Missing key: {key}");
-
-        if (!int.TryParse(text, NumberStyles.Integer, CultureInfo.InvariantCulture, out var value))
-            return Result<int, string>.Err($"Invalid integer for {key}: \"{text}\"");
-
-        if (value < min || value > max)
-            return Result<int, string>.Err($"{key} must be between {min} and {max}.");
-
-        return Result<int, string>.Ok(value);
-    }
-
-    public static Result<TEnum, string> GetEnum<TEnum>(
-        IReadOnlyDictionary<string, string> cfg,
-        string key)
-        where TEnum : struct, Enum
-    {
-        if (!cfg.TryGetValue(key, out var text))
-            return Result<TEnum, string>.Err($"Missing key: {key}");
-
-        if (!Enum.TryParse<TEnum>(text, ignoreCase: true, out var value))
-        {
-            var allowed = string.Join("|", Enum.GetNames(typeof(TEnum)));
-            return Result<TEnum, string>.Err($"Invalid {key}: \"{text}\" ({allowed})");
-        }
-
-        return Result<TEnum, string>.Ok(value);
-    }
-}
-
-// Optional validation (pure)
-public static class AppConfigValidation
-{
-    public static Result<AppConfig, string> Validate(AppConfig cfg)
-    {
-        if (cfg.MaxRetries < 0 || cfg.MaxRetries > 10)
-            return Result<AppConfig, string>.Err("MaxRetries must be between 0 and 10.");
-        if (cfg.TimeoutSeconds < 1 || cfg.TimeoutSeconds > 300)
-            return Result<AppConfig, string>.Err("TimeoutSeconds must be between 1 and 300.");
-        return Result<AppConfig, string>.Ok(cfg);
-    }
-}
-
-// Entry point for this scenario: compose from a deterministic, in-memory source.
-// Note the consistent shape: takes IReadOnlyDictionary<string,string>, returns Result<AppConfig,string>.
-public static class AppConfigComposition
-{
-    public static Result<AppConfig, string> LoadAppConfig(IReadOnlyDictionary<string, string> cfg)
-    {
-        var parsed =
-            ConfigDecoders.GetIntInRange(cfg, "MaxRetries", 0, 10)
-                .Bind(max =>
-                    ConfigDecoders.GetIntInRange(cfg, "TimeoutSeconds", 1, 300)
-                        .Bind(timeout =>
-                            ConfigDecoders.GetEnum<Mode>(cfg, "Mode")
-                                .Map(mode => new AppConfig(max, timeout, mode))
-                        )
-                );
-
-        return parsed.Bind(AppConfigValidation.Validate);
-    }
-}
-```
-
-You could write another function that takes an `AppConfig` and returns a `Result<AppConfig, string>` and drop it into this pipeline—no extra `if`/`try`/`return` boilerplate. This is the power of **`monadic`** composition: control‑flow and error propagation are “hoisted” into a reusable shape.
-
----
-
-## **Scenario: Sequential API calls (auth -> user -> orders)**
-
-**Intent:** Compose three dependent calls and return either a **numeric total** or an **error**, still with no side effects.
-
-```csharp
-using System;
-using System.Collections.Generic;
-
-// Domain
-public sealed class Token
-{
-    public string Value { get; }
-    public Token(string value) { Value = value; }
-}
-
-public sealed class User
-{
-    public string Id { get; }
-    public User(string id) { Id = id; }
-}
-
-public sealed class Order
-{
-    public string Id { get; }
-    public decimal Amount { get; }
-    public Order(string id, decimal amount) { Id = id; Amount = amount; }
-}
-
-// --- Assumed existing Result-returning functions (provided elsewhere) ---
-// Result<Token, string> GetToken();
-// Result<User, string> GetUser(Token token);
-// Result<IReadOnlyList<Order>, string> GetOrders(User user);
-
-public static class OrderFlows
-{
-    // Keep the numeric shape as long as possible so downstream code can still compose arithmetically.
-    public static Result<decimal, string> GetTotalAmount()
-    {
-        return GetToken()
-            .Bind(token => GetUser(token))
-            .Bind(user => GetOrders(user))
-            .Map(orders =>
-            {
-                decimal sum = 0m;
-                foreach (Order o in orders)
-                {
-                    sum += o.Amount;
-                }
-                return sum;
-            });
-    }
-
-    // Collapsed presentation: format success into a string.
-    // NOTE: On error, Bind short-circuits and the error bubbles out unchanged.
-    // That means the returned value is Result<string, string>:
-    //   - Ok: contains the formatted message (e.g., "Total: $42.00")
-    //   - Err: contains the error from whichever step failed
-    // This looks convenient, but you've now lost the numeric total for further composition.
-    public static Result<string, string> GetTotalMessage()
-    {
-        return GetTotalAmount()
-            .Map(total => $"Total: {total:C}");
-        // We could add MapError/Recover helpers later to transform errors.
-    }
-}
-```
+This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
 ---
 
@@ -387,6 +224,70 @@ public sealed class Result<T, TErr>
 }
 ```
 
+## **Example: Sequential API calls (auth -> user -> orders)**
+
+**Intent:** Compose three dependent calls and return either a **numeric total** or an **error**, still with no side effects.
+
+```csharp
+// Domain
+public sealed class Token
+{
+    public string Value { get; }
+    public Token(string value) { Value = value; }
+}
+
+public sealed class User
+{
+    public string Id { get; }
+    public User(string id) { Id = id; }
+}
+
+public sealed class Order
+{
+    public string Id { get; }
+    public decimal Amount { get; }
+    public Order(string id, decimal amount) { Id = id; Amount = amount; }
+}
+
+// --- Assumed existing Result-returning functions (provided elsewhere) ---
+// Result<Token, string> GetToken();
+// Result<User, string> GetUser(Token token);
+// Result<IReadOnlyList<Order>, string> GetOrders(User user);
+
+public static class OrderFlows
+{
+    // Keep the numeric shape as long as possible so downstream code can still compose arithmetically.
+    public static Result<decimal, string> GetTotalAmount()
+    {
+        return GetToken()
+            .Bind(token => GetUser(token))
+            .Bind(user => GetOrders(user))
+            .Map(orders =>
+            {
+                decimal sum = 0m;
+                foreach (Order o in orders)
+                {
+                    sum += o.Amount;
+                }
+                return sum;
+            });
+    }
+
+    // Collapsed presentation: format success into a string.
+    // NOTE: On error, Bind short-circuits and the error bubbles out unchanged.
+    // That means the returned value is Result<string, string>:
+    //   - Ok: contains the formatted message (e.g., "Total: $42.00")
+    //   - Err: contains the error from whichever step failed
+    // This looks convenient, but you've now lost the numeric total for further composition.
+    public static Result<string, string> GetTotalMessage()
+    {
+        return GetTotalAmount()
+            .Map(total => $"Total: {total:C}");
+        // We could add MapError/Recover helpers later to transform errors.
+    }
+}
+```
+
 At some point, you do need to be able to read the error from `Result`, otherwise there’d be no point in having an error.
 
 This is a bit different from the `Maybe` monad. With `Maybe`, the absence of a value is represented by `Nothing`, which serves purely as a control‑flow indicator (no error information). For `Result`, we have an error value to accompany the missing case. Similarly, you should not manually inspect a `Result` to pull out the error (or value) directly, just as you wouldn't with a `Maybe`:
@@ -424,29 +325,17 @@ public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
 
 ## **Match at the boundary**
 
-With `Result<T, TErr>`, since an error type is explicitly specified, the **error matters** – you’ll usually want to surface it at the edge (UI, logs, HTTP response, etc.). That’s what `Match` is for: it’s where you *unwrap* the result and handle **both** branches explicitly.
+With `Result<T, TErr>`, since an error type is explicitly specified, the **error matters**, you’ll usually want to surface it at the edge (UI, logs, HTTP response, etc.). That’s what `Match` is for: it’s where you *unwrap* the result and handle **both** branches explicitly.
 
 *What `Match` guarantees:*
 
 *   **Exhaustive by construction.** You must provide handlers for both `Ok` and `Err`. There are no surprises when a function returns an error; the signature `Result<..., TErr>` itself signals that possibility. You’re forced (at compile time) to handle it or propagate it.
-*   **No invalid states.** In the success handler you only have a `T`; in the error handler you only have a `TErr`. There’s no way to “peek” at the other branch – the other value simply doesn’t exist in that context.
+*   **No invalid states.** In the success handler you only have a `T`; in the error handler you only have a `TErr`. There’s no way to “peek” at the other branch, the other value simply doesn’t exist in that context.
 
 > **Aside: What’s a “boundary”?**
-> A **boundary** is where your program needs to make a decision and *do something* – e.g., update the UI, return a result to an external caller, or log an error. Inside your core logic, you use `Map` and `Bind` to build up a pipeline of transformations. But at the boundary, you need to stop composing and **decide** what to do next. That’s where `Match` comes in: it forces you to handle both the success and error paths clearly. Boundaries are often the outer edges of your app (like `Main()`, web request handlers, or event callbacks), where decisions become actions. (These are also the places for side effects – a topic for a later part.)
+> A **boundary** is where your program needs to make a decision and *do something*, e.g., update the UI, return a result to an external caller, or log an error. Inside your core logic, you use `Map` and `Bind` to build up a pipeline of transformations. But at the boundary, you need to stop composing and **decide** what to do next. That’s where `Match` comes in: it forces you to handle both the success and error paths clearly. Boundaries are often the outer edges of your app (like `Main()`, web request handlers, or event callbacks), where decisions become actions. (These are also the places for side effects, a topic for a later part.)
 
-**Example – turn a result into a message and perform side effects:**
-
-```csharp
-var message =
-    AppConfigComposition.LoadAppConfig(cfg).Match(
-        ok  => { SaveConfigToCache(ok); UpdateUI(ok); return "Dashboard updated."; },
-        err => { ShowError($"Could not build config: {err}"); return "Dashboard not updated."; }
-    );
-
-Log(message);
-```
-
-**Pure variant – format without side effects:**
+**Example: turn a result into a message:**
 
 ```csharp
 string ToMessage(Result<AppConfig, string> r) =>
@@ -458,7 +347,10 @@ string ToMessage(Result<AppConfig, string> r) =>
 
 ## **Composition, composition, composition**
 
-Let’s compose two independent functions: `GetUserConfig` returns an optional `AppConfig` as `Maybe<AppConfig>`, and `ComputeJwtExpiry` takes a config and returns a `Result<TimeSpan,string>` (the remaining `JWT` lifetime or an error). Then we add a second step, `EnsureMinimumLifetime`, which **transforms** that `TimeSpan` into a different success type (`RefreshPlan`) or an error – showing that later steps don’t have to keep the exact same `T`.
+Let’s compose two independent functions:
+- `GetUserConfig` returns an optional `AppConfig` as `Maybe<AppConfig>`
+- `ComputeJwtExpiry` takes a config and returns a `Result<TimeSpan,string>` (the remaining `JWT` lifetime or an error).
+- Then we add a second step, `EnsureMinimumLifetime`, which **transforms** that `TimeSpan` into a different success type (`RefreshPlan`) or an error, showing that later steps don’t have to keep the exact same `T`.
 
 ```csharp
 // Assume:
@@ -477,14 +369,14 @@ The configuration is optional, so `Maybe` controls whether any checks run at all
 
 ## **Why does this feel so complicated?**
 
-When you start using `Result` pervasively, it might feel like there are suddenly *many* errors to handle. It’s not that you created more failure cases – you’ve simply made existing ones explicit and put them where you can see them.
+When you start using `Result` pervasively, it might feel like there are suddenly *many* errors to handle. It’s not that you created more failure cases, you’ve simply made existing ones explicit and put them where you can see them.
 
 In codebases that rely on exceptions (or nulls), failures are often latent: the happy path reads cleanly, but hidden branches can throw at runtime. If an exception isn’t caught in just the right place, it bubbles up, crashes the program, or triggers framework‑level behavior you didn’t intend. (Or you end up writing defensive `try/catch` blocks around everything.)
 
-With `Result<E,T>`, those same possibilities are part of the type. That forces you either to handle them or to propagate them explicitly. Yes, this adds some cognitive overhead – but the trade‑off is fewer surprises and clearer control flow. Instead of hoping everything works, you design for the cases where it might not.
+With `Result<E,T>`, those same possibilities are part of the type. That forces you either to handle them or to propagate them explicitly. Yes, this adds some cognitive overhead, but the trade‑off is fewer surprises and clearer control flow. Instead of hoping everything works, you design for the cases where it might not.
 
 ## **In closing**
 
-*   **`Exceptions`** – great at *UI/imperative edges* to abort an operation early and show an error (you can wrap the whole interaction in one `try/catch`). But deep inside your core logic, exceptions make error flow implicit and non‑local.
-*   **`Try-pattern/tuples`** – better locality than exceptions, but you’re essentially rebuilding `Result<T, TErr>` each time, without its ergonomics or guarantees.
-*   **`Result`** – makes failure **part of the type**, nudges you to handle it consciously, and provides **`Bind`/`Map`** to compose steps and **flows** without boilerplate.
+*   **`Exceptions`**, great at *UI/imperative edges* to abort an operation early and show an error (you can wrap the whole interaction in one `try/catch`). But deep inside your core logic, exceptions make error flow implicit and non‑local.
+*   **`Try-pattern/tuples`**, better locality than exceptions, but you’re essentially rebuilding `Result<T, TErr>` each time, without its ergonomics or guarantees.
+*   **`Result`**, makes failure **part of the type**, nudges you to handle it consciously, and provides **`Bind`/`Map`** to compose steps and **flows** without boilerplate.
