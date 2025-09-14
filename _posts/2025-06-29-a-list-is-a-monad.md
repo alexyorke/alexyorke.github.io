@@ -76,7 +76,7 @@ foreach (var key in dict.Keys.ToList())
 }
 ```
 
-In these examples, we are forced to know **how** to update each structure procedurally. For a `List`, we have to call `Add`; for the `string` we can update it in place; for the `Dictionary`, we have to iterate over keys and update each entry. We have to know it’s a `List` beforehand to know to use `foreach`. We have to know it’s just a `string` to append another string to it. We have to know it’s a `Dictionary` to know how to iterate and update its keys.
+In these examples, we are forced to know **how** to update each structure procedurally. For a `List`, we have to call `Add`; for the `string` we can update it in place; for the `Dictionary`, we have to iterate over keys and update each entry. We have to know it’s a `List` beforehand to know to use `foreach`. We have to know it’s just a `string` to append another string to it.
 
 With monads, you delegate the control flow to the monad itself, the monad knows how to update its underlying value(s). Recall that even the simplest monads **must implement two methods to be monads (`Unit` and `flatMap`) and must follow three monad laws.**
 
