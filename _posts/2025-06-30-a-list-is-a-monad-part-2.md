@@ -38,7 +38,7 @@ Think of it like:
 
 We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
 
-**Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and 'Try' patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
+> **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and 'Try' patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
 
 ### **Example 1: Baseline exceptions (sync, pure)**
 
@@ -93,7 +93,7 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
 }
 ```
 
-A common step is to convert a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow.
+This converts a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow. **We are responsible for managing the control flow via try/catch/return.**
 
 *Note on compile-time checks:* C#’s `definite-assignment analysis` prevents some misuse (e.g., using an unassigned local). The issue here isn’t uninitialized variables; it’s that *error flow is implicit and scattered*, so each call site must manually orchestrate `try/catch` and early returns.
 
