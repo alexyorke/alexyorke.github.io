@@ -13,7 +13,7 @@ You may erroneously think all monads are containers, or burritos, or boxes. The 
 
 From a teaching perspective, to get the concept for what a monad is, we will start with the simplest of monads which will feel a lot like just a container but with some composable aspects. This provides the infrastructure to understand more complex monads later on.
 
-## List: `Map` & `flatMap` in Practice
+## List: Map & flatMap in Practice
 
 To an OOP developer, monadic types (`List<T>`) might look just like generics. It’s a typical pitfall to think “we have generics, so we have monads,” which isn’t true by itself. Monads do usually involve generic types, but they **require specific operations (`Unit` and `flatMap`) and the three monad laws on those types to ensure uniform behavior.** **This is key** and is fundamental to working with monads.
 
@@ -98,7 +98,7 @@ var list = new List<int> { 1 };
 
 ---
 
-### `Map`
+### Map
 
 **`Map`** applies a function to each value inside the monad.
 
@@ -216,7 +216,7 @@ Now we start to see why a monad is not simply a container to be unwrapped at wil
 
 Another benefit of monads is that you can chain computations that themselves produce monadic results. The limitation of only having `Map` is that you might end up with nested monads. For example, imagine a function that returns a `Maybe<int>`. If you call `Map` on a `Maybe<int>` with that function, the result would be a `Maybe<Maybe<int>>`, a nested container, because the `Map` wraps the function’s `Maybe<int>` result into yet another `Maybe`. We need a way to apply a function that returns a monad and avoid this unnecessary nesting when chaining operations.
 
-### `flatMap`
+### flatMap
 
 `flatMap` is like our `Map`, but it also flattens the result. **`flatMap` provides the ability to chain computations that themselves produce monadic values, which is the defining feature of monads.** For example, if you have a function that looks up a user and returns a `Maybe<User>`, but you want to pass it to another function that returns the user’s profile. Using `Map` would give you a `Maybe<Maybe<UserProfile>>`, an awkward nested container because the input would be a `Maybe<UserProfile>`. With `flatMap`, you both apply your lookup and collapse the layers in one go, so you can seamlessly sequence optional, error-handling, or asynchronous operations (e.g. promises/tasks) without ever wrestling with nested monadic types.
 
@@ -300,7 +300,7 @@ if (actualUserId != null) {
 
 Eww. If we treat the monad as just a fancy wrapper to put a value in and then take it out immediately, it does feel like pointless ceremony. This is where many people give up on learning monads, it seems like you’re just putting a value in a box and taking it out again with extra steps. But the power of monads comes when you stay *inside* the monadic context and keep chaining operations. In Part 2, we’ll look at more advanced monads that aren’t just simple containers, and you’ll see how staying in the monadic pipeline pays off.
 
-## **Closing the loop on `Maybe`**
+## **Closing the loop on Maybe**
 
 We’re making a few changes to the `Maybe` monad to give it a more official, ergonomic API. First, instead of letting callers construct the underlying representation directly, we’ll expose two *factory methods*: `Some` and `None`. Second, we’ll generalize map: instead of only mapping over integers, the monad will be generic so it can map any type. Finally, we’ll standardize the name to `Maybe<T>`. Together, these tweaks clean things up and make the monad easier to use across more scenarios.
 
