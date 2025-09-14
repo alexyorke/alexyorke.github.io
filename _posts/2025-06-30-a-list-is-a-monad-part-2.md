@@ -12,9 +12,11 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 
 **What you’ll build:**
 
-1.  Introduce `Result<T, TErr>` (aka `Either`).
-2.  Apply it to **config parsing**, **file+JSON**, and **sequential API calls**.
-    **Mental model:** `Map` ≈ LINQ `Select`; `Bind` ≈ `SelectMany`; use `Match` at the boundary.
+1. Introduce `Result<T, TErr>` (aka `Either`).
+2. Apply it to **config parsing**, **file+JSON**, and **sequential API calls**.
+   **Mental model:** `Map` ≈ LINQ `Select`; `Bind` ≈ `SelectMany`; use `Match` at the boundary.
+
+> **Language note:** In FP libraries you’ll often see this called **Either** (usually `Either<Err, T>`). Here we name it `Result<T, TErr>` for readability in C#. The principles are the same; the C# version is just more explicit/verbose than languages with built‑in typeclasses and `do`‑notation.
 
 ---
 
@@ -22,15 +24,17 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 
 `Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist. We keep the same straight‑line composition:
 
-*   **`Map`**, transform the **success** value
-*   **`Bind`**, chain a function returning another `Result<...>`
+* **`Map`**, transform the **success** value
+* **`Bind`**, chain a function returning another `Result<...>`
 
 ...and add a failure branch that carries an **error**.
 
 Think of it like:
 
-*   `Ok(value)` → like `Some(value)`
-*   `Err(message)` → like `None()`, **but with a reason**
+* `Ok(value)` → like `Some(value)`
+* `Err(message)` → like `None()`, **but with a reason**
+
+> **Why this matters:** In multi‑step flows (config → parse → validate → use), a single composable shape for expected failures keeps control‑flow linear and avoids repetitive `if (!ok) return;` or broad `try/catch` scaffolding.
 
 ---
 
@@ -103,32 +107,18 @@ This converts a raw configuration dictionary (e.g., from a file) into a strongly
 public static (bool Success, AppConfig Config, string? Error)
     TryBuildConfig(IReadOnlyDictionary<string, string> cfg)
 {
-    if (!cfg.TryGetValue("MaxRetries", out var maxRetriesText))
-        return (false, default!, "Missing key: MaxRetries");
-    if (!int.TryParse(maxRetriesText,
-            System.Globalization.NumberStyles.Integer,
-            System.Globalization.CultureInfo.InvariantCulture,
-            out var maxRetries))
-        return (false, default!, $"Invalid integer for MaxRetries: '{maxRetriesText}'");
-    if (maxRetries is < 0 or > 10)
-        return (false, default!, "MaxRetries must be between 0 and 10.");
+    // Single setting to illustrate the pattern concisely.
+    if (!cfg.TryGetValue("MaxRetries", out var text))
+    {
+        return (false, default, "Missing key: MaxRetries");
+    }
 
-    if (!cfg.TryGetValue("TimeoutSeconds", out var timeoutText))
-        return (false, default!, "Missing key: TimeoutSeconds");
-    if (!int.TryParse(timeoutText,
-            System.Globalization.NumberStyles.Integer,
-            System.Globalization.CultureInfo.InvariantCulture,
-            out var timeoutSeconds))
-        return (false, default!, $"Invalid integer for TimeoutSeconds: '{timeoutText}'");
-    if (timeoutSeconds is < 1 or > 300)
-        return (false, default!, "TimeoutSeconds must be between 1 and 300.");
+    if (!int.TryParse(text, out var retries) || retries is < 0 or > 10)
+    {
+        return (false, default, $"MaxRetries must be an integer 0–10 (got '{text}').");
+    }
 
-    if (!cfg.TryGetValue("Mode", out var modeText))
-        return (false, default!, "Missing key: Mode");
-    if (!Enum.TryParse<Mode>(modeText, ignoreCase: true, out var mode))
-        return (false, default!, $"Invalid Mode: '{modeText}' (Development|Staging|Production)");
-
-    return (true, new AppConfig(maxRetries, timeoutSeconds, mode), null);
+    return (true, new AppConfig(retries), null);
 }
 ```
 
@@ -143,7 +133,9 @@ UpdateUI(app);
 
 This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
-## Example 3: The Try/out Pattern
+---
+
+## **Example 3: The Try/out Pattern**
 
 Another approach is to use the **Try** pattern: the function returns a `bool` indicating success, and writes the result to an `out` parameter. On success (`true`), the `out` value contains the result; on failure (`false`), the common convention is to assign a default value (for reference types, typically `null`).
 
@@ -175,12 +167,11 @@ Finally, the `Try` pattern doesn’t convey a failure reason. If you need diagno
 
 [1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/attributes/nullable-analysis "Attributes interpreted by the compiler: Nullable static analysis"
 
-
 ---
 
 ## **Introducing `Result<T, TErr>`**
 
-Below is a minimal `Result<T, TErr>` implementation with `Map`, `Bind`, and `Match`. (`FlatMap` is provided as an alias for those who prefer that name.)
+Below is a minimal `Result<T, TErr>` implementation with `Map` and `Bind`.
 
 ```csharp
 public sealed class Result<T, TErr>
@@ -246,14 +237,12 @@ public sealed class Result<T, TErr>
             return Result<U, TErr>.Err(_error);
         }
     }
-
-    // Optional alias for those who prefer the name FlatMap.
-    public Result<U, TErr> FlatMap<U>(Func<T, Result<U, TErr>> next)
-    {
-        return Bind(next);
-    }
 }
 ```
+
+> **Key idea:** `Bind` short‑circuits: once you hit `Err`, the error flows through unchanged and downstream steps don’t run. This is the same control‑flow you used with `Maybe`, now with an error attached.
+
+---
 
 ## **Example: Sequential API calls (auth -> user -> orders)**
 
@@ -354,14 +343,16 @@ public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
 }
 ```
 
+---
+
 ## **Match at the boundary**
 
 With `Result<T, TErr>`, since an error type is explicitly specified, the **error matters**, you’ll usually want to surface it at the edge (UI, logs, HTTP response, etc.). That’s what `Match` is for: it’s where you *unwrap* the result and handle **both** branches explicitly.
 
 *What `Match` guarantees:*
 
-*   **Exhaustive by construction.** You must provide handlers for both `Ok` and `Err`. There are no surprises when a function returns an error; the signature `Result<..., TErr>` itself signals that possibility. You’re forced (at compile time) to handle it or propagate it.
-*   **No invalid states.** In the success handler you only have a `T`; in the error handler you only have a `TErr`. There’s no way to “peek” at the other branch, the other value simply doesn’t exist in that context.
+* **Exhaustive by construction.** You must provide handlers for both `Ok` and `Err`. There are no surprises when a function returns an error; the signature `Result<..., TErr>` itself signals that possibility. You’re forced (at compile time) to handle it or propagate it.
+* **No invalid states.** In the success handler you only have a `T`; in the error handler you only have a `TErr`. There’s no way to “peek” at the other branch, the other value simply doesn’t exist in that context.
 
 > **Aside: What’s a “boundary”?**
 > A **boundary** is where your program needs to make a decision and *do something*, e.g., update the UI, return a result to an external caller, or log an error. Inside your core logic, you use `Map` and `Bind` to build up a pipeline of transformations. But at the boundary, you need to stop composing and **decide** what to do next. That’s where `Match` comes in: it forces you to handle both the success and error paths clearly. Boundaries are often the outer edges of your app (like `Main()`, web request handlers, or event callbacks), where decisions become actions. (These are also the places for side effects, a topic for a later part.)
@@ -376,12 +367,18 @@ string ToMessage(Result<AppConfig, string> r) =>
     );
 ```
 
+> **Boundary sketch (HTTP):**
+> `return result.Match(Ok, Problem);` – same idea: one place, both branches.
+
+---
+
 ## **Composition, composition, composition**
 
 Let’s compose two independent functions:
-- `GetUserConfig` returns an optional `AppConfig` as `Maybe<AppConfig>`
-- `ComputeJwtExpiry` takes a config and returns a `Result<TimeSpan,string>` (the remaining `JWT` lifetime or an error).
-- Then we add a second step, `EnsureMinimumLifetime`, which **transforms** that `TimeSpan` into a different success type (`RefreshPlan`) or an error, showing that later steps don’t have to keep the exact same `T`.
+
+* `GetUserConfig` returns an optional `AppConfig` as `Maybe<AppConfig>`
+* `ComputeJwtExpiry` takes a config and returns a `Result<TimeSpan,string>` (the remaining `JWT` lifetime or an error).
+* Then we add a second step, `EnsureMinimumLifetime`, which **transforms** that `TimeSpan` into a different success type (`RefreshPlan`) or an error, showing that later steps don’t have to keep the exact same `T`.
 
 ```csharp
 // Assume:
@@ -398,6 +395,8 @@ var pipeline =
 
 The configuration is optional, so `Maybe` controls whether any checks run at all. If there **is** a config, `Map` applies the pure `ComputeJwtExpiry` and yields a `Result` (no exceptions thrown—errors are returned as `Err`). The second `Map` then lifts a `Bind` that converts a successful `TimeSpan` into a different success type (`RefreshPlan`). We’re **not** calling `Match` here; the pipeline stays composable as a `Maybe<Result<RefreshPlan,string>>`, and you can handle it once at the boundary later.
 
+---
+
 ## **Why does this feel so complicated?**
 
 When you start using `Result<E,TErr>` pervasively, it might feel like there are suddenly *many* errors to handle. It’s not that you created more failure cases, you’ve simply made existing ones explicit and put them where you can see them.
@@ -405,5 +404,14 @@ When you start using `Result<E,TErr>` pervasively, it might feel like there are 
 In codebases that rely on exceptions (or nulls), failures are often latent: the happy path reads cleanly, but hidden branches can throw at runtime. If an exception isn’t caught in just the right place, it bubbles up, crashes the program, or triggers framework‑level behavior you didn’t intend. (Or you end up writing defensive `try/catch` blocks around everything.)
 
 With `Result<E,TErr>`, those same possibilities are part of the type. That forces you either to handle them or to propagate them explicitly. Yes, this adds some cognitive overhead, but the trade‑off is fewer surprises and clearer control flow. Instead of hoping everything works, you design for the cases where it might not.
+
+---
+
+## **Takeaways**
+
+* Keep composition **linear** with `Map`/`Bind`; let `Err` short‑circuit.
+* Use `Match` **at the boundary** to turn a `Result` into effects or UI/HTTP responses.
+* Prefer `Result` when you need **a reason** for expected failures; keep exceptions for exceptional conditions.
+* In C#, this is a small amount of **intentional boilerplate** to get the same clarity benefits you’d see in FP‑first languages.
 
 Part 3 coming soon.
