@@ -3,9 +3,8 @@ title: "List is a monad (part 1)"
 date: 2025-06-29
 ---
 
-**This post got a lot more interest than expected! Currently working on revising this post to incorporate the excellent suggestions from Hacker News. Having said that, please still provide feedback.**
-
 Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
+Note Sept 13 2025: this post has been revised based on the feedback from Hacker News.
 
 The term “monad” is often invoked when describing patterns in functional programming. At the heart of monadic programming is sequencing computations, so each step can depend on the previous one while the monad threads context.
 
@@ -370,4 +369,4 @@ The real power comes when we apply this pattern to different contexts. In Part 2
 
 Exercise for reader: I'd encourage opening up your IDE, without any AI assistance, and implementing the `Maybe` monad from scratch (no cheating.)
 
-[Part 2](https://alexyorke.github.io/2025/06/30/a-list-is-a-monad-part-2/)
+[Part 2](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either)
