@@ -95,8 +95,6 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
 
 This converts a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow. **We are responsible for managing the control flow via try/catch/return.**
 
-*Note on compile-time checks:* C#’s `definite-assignment analysis` prevents some misuse (e.g., using an unassigned local). The issue here isn’t uninitialized variables; it’s that *error flow is implicit and scattered*, so each call site must manually orchestrate `try/catch` and early returns.
-
 ---
 
 ### **Example 2: Try‑pattern as a tuple (fast‑fail without throwing on content)**
@@ -145,11 +143,11 @@ UpdateUI(app);
 
 This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
+## Example 3: The Try/out Pattern
+
 Another approach is to use the **Try** pattern: the function returns a `bool` indicating success, and writes the result to an `out` parameter. On success (`true`), the `out` value contains the result; on failure (`false`), the common convention is to assign a default value (for reference types, typically `null`).
 
 ```csharp
-using System.Diagnostics.CodeAnalysis;
-
 public static bool TryBuildPlan_AllTry(
     [NotNullWhen(true)] out RefreshPlan? plan) // non-null when the method returns true
 {
@@ -167,11 +165,11 @@ public static bool TryBuildPlan_AllTry(
 }
 ```
 
-This style composes nicely: the chained `&&` calls short‑circuit, and `[NotNullWhen(true)]` tells the compiler’s nullable flow analysis that `plan` is non‑null only when the method returns `true`. That enables warnings if you dereference `plan` on paths where the result wasn’t checked or was `false`.
+This style composes nicely: the chained `&&` calls short‑circuit, you can thread the `out` variables, and `[NotNullWhen(true)]` tells the compiler’s nullable flow analysis that `plan` is non‑null only when the method returns `true`. That enables warnings if you dereference `plan` on paths where the result wasn’t checked or was `false`.
 
-Although it’s concise and easy to follow, there’s still some ceremony: you must **assign the `out` parameter on every return path** (the language rule), ensure success paths return `true`, and thread the `out` value correctly through your control flow. The typical convention is to set a sensible default (e.g., `null` for reference types) on failure.
+Although it’s concise and easy to follow, there’s still some ceremony: you must **assign the `out` parameter on every return path** (the language rule), ensure success paths return `true`, and thread the `out` value correctly through your control flow. The typical convention is to set a sensible default (e.g., `null` for reference types) on failure. Although there are IDE warnings if you use the `NotNullWhen` annotation, there's nothing forcing you to check the return value and to use the `out` variable accordingly.
 
-Finally, the Try pattern doesn’t convey a failure reason. If you need diagnostics, you can add a secondary `out` (e.g., an error code or message) or provide an exception‑throwing counterpart (like `Parse`) for the detailed case. ([Microsoft Learn][1])
+Finally, the `Try` pattern doesn’t convey a failure reason. If you need diagnostics, you can add a secondary `out` (e.g., an error code or message) or provide an exception‑throwing counterpart (like `Parse`) for the detailed case. ([Microsoft Learn][1])
 
 > **Note on analysis limits:** Nullable flow analysis is conservative and attribute‑driven. When it can’t prove a value is non‑null, it **emits a warning** rather than silently missing one; attributes like `NotNullWhen` (and related ones) help the compiler reason more precisely about your APIs. ([Microsoft Learn][1])
 
