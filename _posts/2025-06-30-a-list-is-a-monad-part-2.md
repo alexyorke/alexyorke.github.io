@@ -145,11 +145,13 @@ UpdateUI(app);
 
 This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
 
-Another approach is to use the `Try` pattern, the function returns a boolean representing success, and the output value is the result if the return value is true, otherwise null.
+Another approach is to use the **Try** pattern: the function returns a `bool` indicating success, and writes the result to an `out` parameter. On success (`true`), the `out` value contains the result; on failure (`false`), the common convention is to assign a default value (for reference types, typically `null`).
 
 ```csharp
+using System.Diagnostics.CodeAnalysis;
+
 public static bool TryBuildPlan_AllTry(
-    [NotNullWhen(true)] out RefreshPlan? plan)  // tells the compiler: non-null when return == true
+    [NotNullWhen(true)] out RefreshPlan? plan) // non-null when the method returns true
 {
     if (TryGetUserConfig(out var cfg)
         && TryComputeJwtExpiry(cfg, out var remaining)
@@ -159,16 +161,22 @@ public static bool TryBuildPlan_AllTry(
         return true;
     }
 
-    plan = null; // explicit default on the false path
+    // Assign the out parameter on the failure path (conventionally a default/null for reference types)
+    plan = null;
     return false;
 }
 ```
 
-This allows for some composability, and the IDE will get mad if you try to use the `out` value if the function returns false if you specify a `NotNullWhen` annotation. It's also relatively compact since you can thread the `out` variables on the same line.
+This style composes nicely: the chained `&&` calls short‑circuit, and `[NotNullWhen(true)]` tells the compiler’s nullable flow analysis that `plan` is non‑null only when the method returns `true`. That enables warnings if you dereference `plan` on paths where the result wasn’t checked or was `false`.
 
-However, although it's more concise, certainly flatter, and easier to reason about, it's still tedious. You have to ensure you are setting the output to null before exiting, make sure `true` is always returned on success, make sure that the `out` is set correctly, and manually manage the control flow. Additionally, there is no error reason, you either need to add a secondary `out` param or throw exceptions instead, making sure to always check the return value before using the `out` variables.
+Although it’s concise and easy to follow, there’s still some ceremony: you must **assign the `out` parameter on every return path** (the language rule), ensure success paths return `true`, and thread the `out` value correctly through your control flow. The typical convention is to set a sensible default (e.g., `null` for reference types) on failure.
 
-It is certainly possible to write code defensively so that it's very clear that you're following these rules, but, you still have to do this manually. The IDE also has limitations on its control-flow analysis, if it's unclear when a function would return true/false then it can't show the warning if you were to forget to check the return value.
+Finally, the Try pattern doesn’t convey a failure reason. If you need diagnostics, you can add a secondary `out` (e.g., an error code or message) or provide an exception‑throwing counterpart (like `Parse`) for the detailed case. ([Microsoft Learn][1])
+
+> **Note on analysis limits:** Nullable flow analysis is conservative and attribute‑driven. When it can’t prove a value is non‑null, it **emits a warning** rather than silently missing one; attributes like `NotNullWhen` (and related ones) help the compiler reason more precisely about your APIs. ([Microsoft Learn][1])
+
+[1]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/attributes/nullable-analysis "Attributes interpreted by the compiler: Nullable static analysis"
+
 
 ---
 
