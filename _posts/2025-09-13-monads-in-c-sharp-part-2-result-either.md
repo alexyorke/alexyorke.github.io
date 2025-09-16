@@ -6,7 +6,7 @@ date: 2025-09-13
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/a-list-is-a-monad/)
 
-In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll introduce a `Result<T, TErr>`, and walk through real‑world examples (config, files/JSON, and sequential API calls).
+In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll introduce a `Result<T, TErr>`, and walk through real‑world examples (config and sequential API calls).
 
 *If you think in LINQ:* `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
@@ -401,11 +401,11 @@ The configuration is optional, so `Maybe` controls whether any checks run at all
 
 ## **Why does this feel so complicated?**
 
-When you start using `Result<E,TErr>` pervasively, it might feel like there are suddenly *many* errors to handle. It’s not that you created more failure cases, you’ve simply made existing ones explicit and put them where you can see them.
+When you start using `Result<T, TErr>` pervasively, it might feel like there are suddenly *many* errors to handle. It’s not that you created more failure cases, you’ve simply made existing ones explicit and put them where you can see them.
 
 In codebases that rely on exceptions (or nulls), failures are often latent: the happy path reads cleanly, but hidden branches can throw at runtime. If an exception isn’t caught in just the right place, it bubbles up, crashes the program, or triggers framework‑level behavior you didn’t intend. (Or you end up writing defensive `try/catch` blocks around everything.)
 
-With `Result<E,TErr>`, those same possibilities are part of the type. That forces you either to handle them or to propagate them explicitly. Yes, this adds some cognitive overhead, but the trade‑off is fewer surprises and clearer control flow. Instead of hoping everything works, you design for the cases where it might not.
+With `Result<T, TErr>`, those same possibilities are part of the type. That forces you either to handle them or to propagate them explicitly. Yes, this adds some cognitive overhead, but the trade‑off is fewer surprises and clearer control flow. Instead of hoping everything works, you design for the cases where it might not.
 
 ---
 
