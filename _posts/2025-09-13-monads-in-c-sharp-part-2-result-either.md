@@ -13,7 +13,7 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 **What you’ll build:**
 
 1. Introduce `Result<T, TErr>` (aka `Either`).
-2. Apply it to **config parsing**, **file+JSON**, and **sequential API calls**.
+2. Apply it to **config parsing** and **sequential API calls**.
    **Mental model:** `Map` ≈ LINQ `Select`; `Bind` ≈ `SelectMany`; use `Match` at the boundary.
 
 > **Language note:** In FP libraries you’ll often see this called **Either** (usually `Either<Err, T>`). Here we name it `Result<T, TErr>` for readability in C#. The principles are the same; the C# version is just more explicit/verbose than languages with built‑in typeclasses and `do`‑notation.
