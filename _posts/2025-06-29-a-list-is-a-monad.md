@@ -1,7 +1,7 @@
 ---
 title: "List is a monad (part 1)"
 date: 2025-06-29
-permalink: /2025/06/29/list-is-a-monad/
+permalink: 2025/06/29/list-is-a-monad/
 redirect_from:
   - /2025/06/29/a-list-is-a-monad/
 ---
