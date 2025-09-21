@@ -20,7 +20,7 @@ In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `
 
 ---
 
-## **Result (aka Either): when “missing” needs a reason**
+## Result (aka Either): when “missing” needs a reason
 
 `Maybe<T>` tells us **whether** a value exists. Sometimes, we need **why** it doesn’t exist. We keep the same straight‑line composition:
 
@@ -38,13 +38,13 @@ Think of it like:
 
 ---
 
-## **Scenario: Parse & validate configuration (pure, in‑memory)**
+## Scenario: Parse & validate configuration (pure, in‑memory)
 
 We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
 
 > **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and 'Try' patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
 
-### **Example 1: Baseline exceptions (sync, pure)**
+### Example 1: Baseline exceptions (sync, pure)
 
 **Function:**
 
@@ -101,7 +101,7 @@ This converts a raw configuration dictionary (e.g., from a file) into a strongly
 
 ---
 
-### **Example 2: Try‑pattern as a tuple**
+### Example 2: Try‑pattern as a tuple
 
 ```csharp
 public static (bool Success, AppConfig Config, string? Error)
@@ -135,7 +135,7 @@ This reads linearly and avoids throwing for expected input errors. But as soon a
 
 ---
 
-## **Example 3: The Try/out Pattern**
+## Example 3: The Try/out Pattern
 
 Another approach is to use the **Try** pattern: the function returns a `bool` indicating success, and writes the result to an `out` parameter. On success (`true`), the `out` value contains the result; on failure (`false`), the common convention is to assign a default value (for reference types, typically `null`).
 
@@ -169,7 +169,7 @@ Finally, the `Try` pattern doesn’t convey a failure reason. If you need diagno
 
 ---
 
-## **Introducing `Result<T, TErr>`**
+## Introducing `Result<T, TErr>`
 
 Below is a minimal `Result<T, TErr>` implementation with `Map` and `Bind`.
 
@@ -244,7 +244,7 @@ public sealed class Result<T, TErr>
 
 ---
 
-## **Example: Sequential API calls (auth -> user -> orders)**
+## Example: Sequential API calls (auth -> user -> orders)
 
 **Intent:** Compose three dependent calls and return either a **numeric total** or an **error**, still with no side effects.
 
@@ -345,7 +345,7 @@ public TResult Match<TResult>(Func<T, TResult> ok, Func<TErr, TResult> err)
 
 ---
 
-## **Match at the boundary**
+## Match at the boundary
 
 With `Result<T, TErr>`, since an error type is explicitly specified, the **error matters**, you’ll usually want to surface it at the edge (UI, logs, HTTP response, etc.). That’s what `Match` is for: it’s where you *unwrap* the result and handle **both** branches explicitly.
 
@@ -372,7 +372,7 @@ string ToMessage(Result<AppConfig, string> r) =>
 
 ---
 
-## **Composition, composition, composition**
+## Composition, composition, composition
 
 Let’s compose two independent functions:
 
@@ -399,7 +399,7 @@ The configuration is optional, so `Maybe` controls whether any checks run at all
 
 ---
 
-## **Why does this feel so complicated?**
+## Why does this feel so complicated?
 
 When you start using `Result<T, TErr>` pervasively, it might feel like there are suddenly *many* errors to handle. It’s not that you created more failure cases, you’ve simply made existing ones explicit and put them where you can see them.
 
@@ -409,7 +409,7 @@ With `Result<T, TErr>`, those same possibilities are part of the type. That forc
 
 ---
 
-## **Takeaways**
+## Takeaways
 
 * Keep composition **linear** with `Map`/`Bind`; let `Err` short‑circuit.
 * Use `Match` **at the boundary** to turn a `Result` into effects or UI/HTTP responses.
