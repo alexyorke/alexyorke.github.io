@@ -5,7 +5,7 @@ date: 2025-06-29
 
 Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
 
-Note Sept 13 2025: this post has been revised based on the feedback from Hacker News.
+Note Sept 13 2025: this post has been revised based on the feedback from [the Hacker News discussion](https://news.ycombinator.com/item?id=44414965).
 
 The term “monad” is often invoked when describing patterns in functional programming. At the heart of monadic programming is sequencing computations, so each step can depend on the previous one while the monad threads context.
 
