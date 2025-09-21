@@ -14,6 +14,7 @@ highlighter:      rouge
 
 plugins:
 - jekyll-remote-theme
+- jekyll-redirect-from
 
 # Permalinks
 permalink:        pretty

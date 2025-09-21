@@ -1,6 +1,9 @@
 ---
 title: "List is a monad (part 1)"
 date: 2025-06-29
+permalink: /2025/06/29/list-is-a-monad/
+redirect_from:
+  - /2025/06/29/a-list-is-a-monad/
 ---
 
 Note July 6th 2025: this post's original title was "A list is a monad". It has been changed to "List is a monad".
