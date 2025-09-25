@@ -6,7 +6,7 @@ date: 2025-09-13
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
 
-In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll introduce a `Result<T, TErr>`, and walk through real‑world examples (config and sequential API calls).
+In Part 1 you built `Maybe` to transform a value if present, and `Bind` (aka `FlatMap`) to chain steps that may not produce a value. This part keeps that **same shape** but lets the “no value” branch carry **a reason**. We’ll introduce a `Result<T, TErr>`, and walk through real‑world examples (config and sequential API calls). This article is very long because I want to go through each step in lots of detail. The `Result` monad is not complex.
 
 *If you think in LINQ:* `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
@@ -248,13 +248,55 @@ public sealed class Result<T, TErr>
 
 ---
 
+Lots of methods, types, private variables can feel a bit overwhelming. The public API is very clean, here's how we can use it.
+
+## 1) Create results
+
+```csharp
+Result<int, string> success = Result<int, string>.Ok(42);
+Result<int, string> failure = Result<int, string>.Err("Not found");
+```
+
+## 2) Transform the success value (keep the error)
+
+```csharp
+// Ok(42) -> Ok(84)
+Result<int, string> success = Result<int, string>.Ok(42);
+Result<int, string> doubled = success.Map(x => x * 2); // returns Result.Ok(84)
+
+// Err("Not found") stays Err("Not found")
+Result<int, string> failure = Result<int, string>.Err("Not found");
+Result<int, string> doubled = failure.Map(x => x * 2); // returns Result.Err("Not Found"), the Map(x => x * 2) was not executed because of the Result monad
+```
+
+## 3) Chain steps that can fail (short-circuit on first Err)
+
+```csharp
+Result<string, string> GetUserId(string token) =>
+    string.IsNullOrWhiteSpace(token)
+        ? Result<string, string>.Err("Empty token")
+        : Result<string, string>.Ok("user-123");
+
+Result<int, string> GetOrderCount(string userId) =>
+    userId.StartsWith("user-")
+        ? Result<int, string>.Ok(7)
+        : Result<int, string>.Err("Invalid user id");
+
+Result<int, string> count =
+    Result<string, string>.Ok("tok_abc123")
+        .Bind(GetUserId)       // Result<string, string>
+        .Bind(GetOrderCount);  // Result<int, string>
+
+// If any step returns Err(...), the rest are skipped and the Err bubbles out.
+```
+
 The main advantage here is that it forces you to handle the success and error cases seperately. It's impossible to be both an error or success, it's one or the other, and it's enforced. Let's see how we can use it.
 
 One example is going back to the config parsing. This code is a bit awkward because we're shoe-horning functional programming onto existing APIs. Typically, if you are working in a functional programming languages, the APIs would return a `Result<T, TErr>` and so they compose easily and you don't have to wrap everything in `Result`.
 
 ## Partial example: Config parsing
 
-```
+```csharp
 public static Result<int, string> ParseInt(string text, int min, int max, string fieldName)
 {
     if (!int.TryParse(text, NumberStyles.Integer, CultureInfo.InvariantCulture, out var value))
@@ -458,3 +500,82 @@ With `Result<T, TErr>`, those same possibilities are part of the type. That forc
 * In C#, this is a small amount of **intentional boilerplate** to get the same clarity benefits you’d see in FP‑first languages.
 
 Part 3 coming soon.
+
+---
+
+# Appendix: LINQ support for `Result<T, TErr>`
+
+This appendix adds **LINQ query syntax** support (`from … select …`, `from … from … select …`) for the `Result<T, TErr>` monad by implementing the LINQ pattern methods as **extension methods**:
+
+* `Select` → projection (aka `Map`)
+* `SelectMany` (2 overloads) → monadic bind and projection
+> You don’t have to use query syntax—method style (`.Map`, `.Bind`) is still great. Query syntax is just another view over the same operations.
+
+## Minimal LINQ extensions
+
+Create a new file (e.g., `Result.Linq.cs`) next to your `Result<T,TErr>` type:
+
+```csharp
+using System;
+
+public static class ResultLinqExtensions
+{
+    // SELECT  (projection)  result.Select(x => f(x))
+    public static Result<TResult, TErr> Select<T, TResult, TErr>(
+        this Result<T, TErr> source,
+        Func<T, TResult> selector)
+        => source.Map(selector);
+
+    // SELECT MANY (monadic bind)  result.SelectMany(x => Result<U>)
+    public static Result<TResult, TErr> SelectMany<T, TMiddle, TResult, TErr>(
+        this Result<T, TErr> source,
+        Func<T, Result<TMiddle, TErr>> bind,
+        Func<T, TMiddle, TResult> project)
+        => source.Bind(t => bind(t).Map(m => project(t, m)));
+
+    // Convenience: 2-parameter SelectMany (just "bind")
+    public static Result<TMiddle, TErr> SelectMany<T, TMiddle, TErr>(
+        this Result<T, TErr> source,
+        Func<T, Result<TMiddle, TErr>> bind)
+        => source.Bind(bind);
+}
+```
+
+---
+
+## Using it: query syntax examples
+
+### 1) Simple projection
+
+```csharp
+Result<int, string> r = Result<int, string>.Ok(21);
+
+var doubled =
+    from x in r
+    select x * 2;     // Ok(42)
+
+var msg =
+    from x in r
+    select $"value = {x}";  // Ok("value = 21")
+```
+
+### 2) Two-step composition
+
+```csharp
+Result<string, string> GetUserId(string token) =>
+    string.IsNullOrWhiteSpace(token)
+        ? Result<string, string>.Err("Empty token")
+        : Result<string, string>.Ok("user-123");
+
+Result<int, string> GetOrderCount(string userId) =>
+    userId.StartsWith("user-")
+        ? Result<int, string>.Ok(7)
+        : Result<int, string>.Err("Invalid user id");
+
+var totalOrders =
+    from token in Result<string, string>.Ok("tok_abc123")
+    from uid   in GetUserId(token)
+    from count in GetOrderCount(uid)
+    select count;   // Ok(7) or the first Err(...) encountered
+```
+
