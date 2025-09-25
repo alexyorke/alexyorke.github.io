@@ -250,6 +250,43 @@ public sealed class Result<T, TErr>
 
 The main advantage here is that it forces you to handle the success and error cases seperately. It's impossible to be both an error or success, it's one or the other, and it's enforced. Let's see how we can use it.
 
+One example is going back to the config parsing. This code is a bit awkward because we're shoe-horning functional programming onto existing APIs. Typically, if you are working in a functional programming languages, the APIs would return a `Result<T, TErr>` and so they compose easily and you don't have to wrap everything in `Result`.
+
+## Partial example: Config parsing
+
+```
+public static Result<int, string> ParseInt(string text, int min, int max, string fieldName)
+{
+    if (!int.TryParse(text, NumberStyles.Integer, CultureInfo.InvariantCulture, out var value))
+        return Result<int, string>.Err($"{fieldName} must be an integer (got '{text}').");
+
+    if (value < min || value > max)
+        return Result<int, string>.Err($"{fieldName} must be between {min} and {max} (got {value}).");
+
+    return Result<int, string>.Ok(value);
+}
+
+// Parse Mode (case-insensitive)
+public static Result<Mode, string> ParseMode(string text)
+{
+    return Enum.TryParse<Mode>(text, ignoreCase: true, out var mode)
+        ? Result<Mode, string>.Ok(mode)
+        : Result<Mode, string>.Err($"Mode must be one of: {string.Join(", ", Enum.GetNames(typeof(Mode)))} (got '{text}').");
+}
+
+public static Result<AppConfig, string> BuildConfig(IReadOnlyDictionary<string, string> cfg)
+{
+    return Get("MaxRetries", cfg)
+        .Bind(v => ParseInt(v, min: 0,  max: 10,  fieldName: "MaxRetries"))
+        .Bind(maxRetries =>
+        // and so on
+[...]
+```
+
+I didn't post the entire code here as it just wraps existing APIs and so isn't very pretty, but you can get the gist. It's very similar to how the `Maybe` example worked in part 1. At the end, we would get a `Result<T, TErr>` that would either be an error or an ok.
+
+Now, let's pretend that all of our APIs returned `Result<T, TErr>`, how would that look?
+
 ## Example: Sequential API calls (auth -> user -> orders)
 
 **Intent:** Compose three dependent calls and return either a **numeric total** or an **error**, still with no side effects.
@@ -290,6 +327,7 @@ public static class OrderFlows
             .Bind(user => GetOrders(user))
             .Map(orders =>
             {
+                // map is just a function, so, this shows you can run imperative code (if you wanted to, eww)
                 decimal sum = 0m;
                 foreach (Order o in orders)
                 {
@@ -304,15 +342,15 @@ public static class OrderFlows
     // That means the returned value is Result<string, string>:
     //   - Ok: contains the formatted message (e.g., "Total: $42.00")
     //   - Err: contains the error from whichever step failed
-    // This looks convenient, but you've now lost the numeric total for further composition.
     public static Result<string, string> GetTotalMessage()
     {
         return GetTotalAmount()
             .Map(total => $"Total: {total:C}");
-        // We could add MapError/Recover helpers later to transform errors.
     }
 }
 ```
+
+At the end when we call `GetTotalMessage()`, we would get a `Result<string, string>` that would be either `Result.Ok` or `Result.Err`.
 
 At some point, you do need to be able to read the error from `Result`, otherwise there’d be no point in having an error.
 
@@ -328,7 +366,7 @@ if (result.Value != null) {
 }
 ```
 
-This is a mess, because now we’re back to square one: treating `Result` as a simple container holding both success and failure, and manually branching. `Monads` are not just containers; they’re meant to be used through their composition methods. The monad itself should handle the control flow so you don’t have to explicitly branch at each step.
+This is a mess, because now we’re back to square one: treating `Result` as a simple container holding both success and failure, and manually branching. Also, the `Result` monad could legitimately contain the value `null` but was a success, so, you'd likely have to add extra handling. `Monads` are not just containers; they’re meant to be used through their composition methods. The monad itself should handle the control flow so you don’t have to explicitly branch at each step.
 
 **Aside:** But wait, my programming language of choice has a `GetUnsafeValue()` on its `Result` type! Such methods exist as escape hatches or for interop, used only in rare cases. For now, pretend they do not exist.
 
@@ -372,9 +410,6 @@ string ToMessage(Result<AppConfig, string> r) =>
         err => $"Config error: {err}"
     );
 ```
-
-> **Boundary sketch (HTTP):**
-> `return result.Match(Ok, Problem);` – same idea: one place, both branches.
 
 ---
 
