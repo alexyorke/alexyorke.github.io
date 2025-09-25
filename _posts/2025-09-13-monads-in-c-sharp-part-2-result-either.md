@@ -40,11 +40,13 @@ Think of it like:
 
 ## Scenario: Parse & validate configuration (pure, in‑memory)
 
-We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
+In this scenario, let's say we have a `Dictionary` with some config for an app, keys and values are strings to keep things simple for now, however, we want to convert it into an `AppConfig` which is typed, and some of the values need to be converted to numbers, one is an enum, and we're doing some validation on the config to ensure it's valid. We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
 
 > **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and 'Try' patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
 
 ### Example 1: Baseline exceptions (sync, pure)
+
+This is one approach to parse the config. If the config is invalid, throw an exception immediately (`int.Parse` throws as well.) Otherwise, continue, and at the end, return an `AppConfig`.
 
 **Function:**
 
@@ -103,6 +105,8 @@ This converts a raw configuration dictionary (e.g., from a file) into a strongly
 
 ### Example 2: Try‑pattern as a tuple
 
+Let's try to wrangle the control flow, and instead of throwing exceptions, we return a tuple indicating success, the app config, and the error (if present.)
+
 ```csharp
 public static (bool Success, AppConfig Config, string? Error)
     TryBuildConfig(IReadOnlyDictionary<string, string> cfg)
@@ -157,7 +161,7 @@ public static bool TryBuildPlan_AllTry(
 }
 ```
 
-This style composes nicely: the chained `&&` calls short‑circuit, you can thread the `out` variables, and `[NotNullWhen(true)]` tells the compiler’s nullable flow analysis that `plan` is non‑null only when the method returns `true`. That enables warnings if you dereference `plan` on paths where the result wasn’t checked or was `false`.
+This style composes nicely: the chained `&&` calls short‑circuit, you can thread the `out` variables in the same if statement, and `[NotNullWhen(true)]` tells the compiler’s nullable flow analysis that `plan` is non‑null only when the method returns `true`. That enables warnings if you dereference `plan` on paths where the result wasn’t checked or was `false`.
 
 Although it’s concise and easy to follow, there’s still some ceremony: you must **assign the `out` parameter on every return path** (the language rule), ensure success paths return `true`, and thread the `out` value correctly through your control flow. The typical convention is to set a sensible default (e.g., `null` for reference types) on failure. Although there are IDE warnings if you use the `NotNullWhen` annotation, there's nothing forcing you to check the return value and to use the `out` variable accordingly.
 
@@ -243,6 +247,8 @@ public sealed class Result<T, TErr>
 > **Key idea:** `Bind` short‑circuits: once you hit `Err`, the error flows through unchanged and downstream steps don’t run. This is the same control‑flow you used with `Maybe`, now with an error attached.
 
 ---
+
+The main advantage here is that it forces you to handle the success and error cases seperately. It's impossible to be both an error or success, it's one or the other, and it's enforced. Let's see how we can use it.
 
 ## Example: Sequential API calls (auth -> user -> orders)
 
