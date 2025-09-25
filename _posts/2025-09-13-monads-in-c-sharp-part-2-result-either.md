@@ -518,3 +518,82 @@ With `Result<T, TErr>`, those same possibilities are part of the type. That forc
 * In C#, this is a small amount of **intentional boilerplate** to get the same clarity benefits you’d see in FP‑first languages.
 
 Part 3 coming soon.
+
+---
+
+# Appendix: LINQ support for `Result<T, TErr>`
+
+This appendix adds **LINQ query syntax** support (`from … select …`, `from … from … select …`) for the `Result<T, TErr>` monad by implementing the LINQ pattern methods as **extension methods**:
+
+* `Select` → projection (aka `Map`)
+* `SelectMany` (2 overloads) → monadic bind and projection
+> You don’t have to use query syntax—method style (`.Map`, `.Bind`) is still great. Query syntax is just another view over the same operations.
+
+## Minimal LINQ extensions
+
+Create a new file (e.g., `Result.Linq.cs`) next to your `Result<T,TErr>` type:
+
+```csharp
+using System;
+
+public static class ResultLinqExtensions
+{
+    // SELECT  (projection)  result.Select(x => f(x))
+    public static Result<TResult, TErr> Select<T, TResult, TErr>(
+        this Result<T, TErr> source,
+        Func<T, TResult> selector)
+        => source.Map(selector);
+
+    // SELECT MANY (monadic bind)  result.SelectMany(x => Result<U>)
+    public static Result<TResult, TErr> SelectMany<T, TMiddle, TResult, TErr>(
+        this Result<T, TErr> source,
+        Func<T, Result<TMiddle, TErr>> bind,
+        Func<T, TMiddle, TResult> project)
+        => source.Bind(t => bind(t).Map(m => project(t, m)));
+
+    // Convenience: 2-parameter SelectMany (just "bind")
+    public static Result<TMiddle, TErr> SelectMany<T, TMiddle, TErr>(
+        this Result<T, TErr> source,
+        Func<T, Result<TMiddle, TErr>> bind)
+        => source.Bind(bind);
+}
+```
+
+---
+
+## Using it: query syntax examples
+
+### 1) Simple projection
+
+```csharp
+Result<int, string> r = Result<int, string>.Ok(21);
+
+var doubled =
+    from x in r
+    select x * 2;     // Ok(42)
+
+var msg =
+    from x in r
+    select $"value = {x}";  // Ok("value = 21")
+```
+
+### 2) Two-step composition
+
+```csharp
+Result<string, string> GetUserId(string token) =>
+    string.IsNullOrWhiteSpace(token)
+        ? Result<string, string>.Err("Empty token")
+        : Result<string, string>.Ok("user-123");
+
+Result<int, string> GetOrderCount(string userId) =>
+    userId.StartsWith("user-")
+        ? Result<int, string>.Ok(7)
+        : Result<int, string>.Err("Invalid user id");
+
+var totalOrders =
+    from token in Result<string, string>.Ok("tok_abc123")
+    from uid   in GetUserId(token)
+    from count in GetOrderCount(uid)
+    select count;   // Ok(7) or the first Err(...) encountered
+```
+
