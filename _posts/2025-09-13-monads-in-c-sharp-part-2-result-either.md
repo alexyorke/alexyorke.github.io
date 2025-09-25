@@ -248,13 +248,73 @@ public sealed class Result<T, TErr>
 
 ---
 
+Lots of methods, types, private variables can feel a bit overwhelming. The public API is very clean, here's how we can use it.
+
+## 1) Create results
+
+```csharp
+Result<int, string> success = Result<int, string>.Ok(42);
+Result<int, string> failure = Result<int, string>.Err("Not found");
+```
+
+## 2) Transform the success value (keep the error)
+
+```csharp
+// Ok(42) -> Ok(84)
+Result<int, string> success = Result<int, string>.Ok(42);
+Result<int, string> doubled = success.Map(x => x * 2); // returns Result.Ok(84)
+
+// Err("Not found") stays Err("Not found")
+Result<int, string> failure = Result<int, string>.Err("Not found");
+Result<int, string> doubled = success.Map(x => x * 2); // returns Result.Err("Not Found"), the Map(x => x * 2) was not executed because of the Result monad
+```
+
+## 3) Chain steps that can fail (short-circuit on first Err)
+
+```csharp
+Result<string, string> GetUserId(string token) =>
+    string.IsNullOrWhiteSpace(token)
+        ? Result<string, string>.Err("Empty token")
+        : Result<string, string>.Ok("user-123");
+
+Result<int, string> GetOrderCount(string userId) =>
+    userId.StartsWith("user-")
+        ? Result<int, string>.Ok(7)
+        : Result<int, string>.Err("Invalid user id");
+
+Result<int, string> count =
+    Result<string, string>.Ok("tok_abc123")
+        .Bind(GetUserId)       // Result<string, string>
+        .Bind(GetOrderCount);  // Result<int, string>
+
+// If any step returns Err(...), the rest are skipped and the Err bubbles out.
+```
+
+The fact that the `Result` monad "knows" to skip subsequent computations if it's in an error state isn't magic, let's review `Map`:
+
+```csharp
+    public Result<U, TErr> Map<U>(Func<T, U> f)
+    {
+        if (_isOk)
+        {
+            return Result<U, TErr>.Ok(f(_value));
+        }
+        else
+        {
+            return Result<U, TErr>.Err(_error);
+        }
+    }
+```
+
+If it's ok, i.e., not an error, then apply `f` to the value, otherwise, just return the same error.
+
 The main advantage here is that it forces you to handle the success and error cases seperately. It's impossible to be both an error or success, it's one or the other, and it's enforced. Let's see how we can use it.
 
 One example is going back to the config parsing. This code is a bit awkward because we're shoe-horning functional programming onto existing APIs. Typically, if you are working in a functional programming languages, the APIs would return a `Result<T, TErr>` and so they compose easily and you don't have to wrap everything in `Result`.
 
 ## Partial example: Config parsing
 
-```
+```csharp
 public static Result<int, string> ParseInt(string text, int min, int max, string fieldName)
 {
     if (!int.TryParse(text, NumberStyles.Integer, CultureInfo.InvariantCulture, out var value))
