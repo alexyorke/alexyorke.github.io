@@ -290,24 +290,6 @@ Result<int, string> count =
 // If any step returns Err(...), the rest are skipped and the Err bubbles out.
 ```
 
-The fact that the `Result` monad "knows" to skip subsequent computations if it's in an error state isn't magic, let's review `Map`:
-
-```csharp
-    public Result<U, TErr> Map<U>(Func<T, U> f)
-    {
-        if (_isOk)
-        {
-            return Result<U, TErr>.Ok(f(_value));
-        }
-        else
-        {
-            return Result<U, TErr>.Err(_error);
-        }
-    }
-```
-
-If it's ok, i.e., not an error, then apply `f` to the value, otherwise, just return the same error.
-
 The main advantage here is that it forces you to handle the success and error cases seperately. It's impossible to be both an error or success, it's one or the other, and it's enforced. Let's see how we can use it.
 
 One example is going back to the config parsing. This code is a bit awkward because we're shoe-horning functional programming onto existing APIs. Typically, if you are working in a functional programming languages, the APIs would return a `Result<T, TErr>` and so they compose easily and you don't have to wrap everything in `Result`.
