@@ -266,7 +266,7 @@ Result<int, string> doubled = success.Map(x => x * 2); // returns Result.Ok(84)
 
 // Err("Not found") stays Err("Not found")
 Result<int, string> failure = Result<int, string>.Err("Not found");
-Result<int, string> doubled = success.Map(x => x * 2); // returns Result.Err("Not Found"), the Map(x => x * 2) was not executed because of the Result monad
+Result<int, string> doubled = failure.Map(x => x * 2); // returns Result.Err("Not Found"), the Map(x => x * 2) was not executed because of the Result monad
 ```
 
 ## 3) Chain steps that can fail (short-circuit on first Err)
