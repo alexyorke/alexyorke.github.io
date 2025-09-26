@@ -4,7 +4,7 @@ title: "How I escaped decision hell by using a 1972 cognitive theory"
 date: 2025-09-26
 ---
 
-Making decisions is an inherent part of life. These might include significant purchases, such as a house, or complex programming choices like choosing some library that will be used in production on customer data. In such cases, a more pragmatic approach is needed to navigate multiple suitable, yet distinct, options. The goal is to make these decisions quickly, logically, and effectively.
+Making decisions is an inherent part of engineering. That might mean picking a database, a message queue, or a CSV library that will run in production against customer data. When several options are viable but trade-offs differ, you need a pragmatic way to narrow the field. The goal is to decide quickly, logically, and effectively.
 
 One useful strategy is **Elimination by Aspects (EBA)**. This approach helps you narrow down options systematically until the choice becomes clear. The goal is to show how you can quickly get the “shape” of a problem, the rough contours of the solution space, without exhaustive analysis of every option.
 
