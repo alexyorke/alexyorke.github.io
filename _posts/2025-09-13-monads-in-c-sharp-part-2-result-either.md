@@ -86,16 +86,13 @@ public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
     try
     {
         var app = BuildConfigBasic(cfg); // any missing/invalid field throws here
-        SaveConfigToCache(app);
-        UpdateUI(app);
+        // do something with the app config
     }
     catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
     {
-        ShowError($"Could not build config: {ex.Message}");
+        ShowError($"Could not build config: {ex.Message}"); // or re-throw exception, etc.
         return; // avoid continuing the flow on failure
     }
-
-    Log("Dashboard updated.");
 }
 ```
 
@@ -122,6 +119,7 @@ public static (bool Success, AppConfig Config, string? Error)
         return (false, default, $"MaxRetries must be an integer 0-10 (got '{text}').");
     }
 
+    // "[...]" isn't valid C#, this is truncated because the ctor is long and is just an illustration
     return (true, new AppConfig(retries, [...]), null);
 }
 ```
@@ -130,9 +128,7 @@ public static (bool Success, AppConfig Config, string? Error)
 
 ```csharp
 var (ok, app, err) = TryBuildConfig(cfg);
-if (!ok) { ShowError(err!); return; }
-SaveConfigToCache(app);
-UpdateUI(app);
+if (!ok) { ShowError(err); return; }
 ```
 
 This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
