@@ -79,7 +79,9 @@ public static AppConfig BuildConfigBasic(Dictionary<string, string> cfg)
 }
 ```
 
-**Caller vignette (where control flow actually matters):**
+---
+
+**Caller vignette (where control flow actually matters)**
 
 ```csharp
 public static void RenderDashboard(Dictionary<string, string> cfg)
@@ -89,71 +91,82 @@ public static void RenderDashboard(Dictionary<string, string> cfg)
         var app = BuildConfigBasic(cfg); // any missing/invalid field throws here
         // do something with the app config
     }
-    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, etc. We have to know what exceptions this method throws, or, we could catch all of them for simplicity.
+    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, etc.
     {
-        ShowError($"Could not build config: {ex.Message}"); // or re-throw exception, etc.
+        ShowError($"Could not build config: {ex.Message}"); // or re-throw, log, etc.
         return; // avoid continuing the flow on failure
     }
 }
 ```
 
-This converts a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow.
+This method converts a raw configuration dictionary (for example, loaded from a file) into a strongly-typed `AppConfig`. With exceptions, control jumps out of the `try` block into the `catch`; with nulls or status codes, you handle errors by branching explicitly. In both cases, **the caller is responsible for coordinating the control flow** once you start chaining multiple steps. Neither shape “just composes” on its own.
 
-With exceptions, we have to explicitly manage the control flow, otherwise the program will manage it itself. What I mean by this is, it can, at times, be not clear which statements will be executed in the program, because almost any method could throw an exception and it's up to the method author to document which exceptions the method throws (at least for C#). We can be reasonably sure that, say `var x = 1;` won't throw an exception, but the case isn't always so straightforward.
+With exceptions, that coordination becomes implicit and harder to reason about. Almost any method call might throw, and in C# it’s up to the author (or the docs) to tell you which exceptions it can throw. You *hope* `var x = 1;` won’t throw, but many real-world statements aren’t that obvious.
 
-When a statement throws an exception, it yields control flow to either the nearest catch block, or back to the caller. The statements in the catch block can themselves throw, which makes things a bit more complicated, but we can ignore that for now. Unless we wrap every statement in a try block, it's not clear which statement caused the error. Let's assume we don't specifically care which statement caused the error, and we wrap multiple statements in a single try block.
+When a statement throws, control jumps to the nearest `catch` or back to the caller. The `catch` block itself can throw, which complicates the picture even more, but we can ignore that for now. The key point is: unless you wrap essentially every statement in a `try`, it’s not obvious which statements definitely run and which might be skipped due to an exception.
 
-What I mean by this, is that let's say there was no error. Then, well, you render the app config or whatever to the dashboard. If there was an error, the dashboard is updated to indicate there's an error, however, now you have to read the dashboard after calling that method to determine if there was an error. This might be ok for simple programs, but imagine if multiple things could change the dashboard, this gets complex very quickly as there could be a race condition.
+Now imagine we also want to reflect errors on the dashboard. If there’s no error, we render the dashboard normally. If there *is* an error, we call `ShowError`, which updates the dashboard to show something went wrong. That sounds fine for a tiny program, but as soon as multiple parts of the system can update the dashboard, this implicit coupling becomes fragile: the only way to know whether the operation succeeded is to *inspect the dashboard state*, and concurrent updates can introduce subtle race conditions.
 
-**We are responsible for managing the control flow via try/catch/return.** If we don't have the source code for this method, it's unclear whether this method would throw an exception. When we do the early return, the control flow goes back to the caller, and so it now has to deal with the control flow. Typically, we could rethrow the exception, but someone has to handle the exception, otherwise the program crashes. 
+So with exceptions:
 
-Say if we want to do something with the config if it was successfully read. We could read it in the `try` block, although the control flow gets a bit hard to read, and we also can't handle the dashboard builder exceptions seperately unless we specifically wrap all exceptions in another exception.
+* **We** are responsible for managing control flow via `try`/`catch`/`return`.
+* If we don’t control the source of a method, it’s unclear what it might throw.
+* If we don’t propagate or handle exceptions correctly, the program crashes.
+
+Suppose we now add a second step that builds the dashboard from the config:
 
 ```csharp
 public static void RenderDashboard(Dictionary<string, string> cfg)
 {
     try
     {
-        var app = BuildConfigBasic(cfg); // any missing/invalid field throws here
-        BuildDashboard(app);
+        var app = BuildConfigBasic(cfg);   // may throw
+        BuildDashboard(app);               // may also throw
     }
-    catch (Exception ex) // we don't know where the exception is coming from
+    catch (Exception ex) // we don't know which call failed
     {
-        ShowError($"Could not build config or dashboard: {ex.Message}"); // or re-throw exception, etc.
+        ShowError($"Could not build config or dashboard: {ex.Message}");
         return; // avoid continuing the flow on failure
     }
 }
 ```
 
-We could move it out of the `try` block into its own `try` block:
+This is compact, but now the `catch` can’t distinguish whether the config failed or the dashboard failed. If we want separate handling (e.g., different messages or fallback behavior), we have to split the `try` blocks:
 
 ```csharp
 public static void RenderDashboard(Dictionary<string, string> cfg)
 {
     AppConfig app;
+
     try
     {
-        app = BuildConfigBasic(cfg); // any missing/invalid field throws here
+        app = BuildConfigBasic(cfg); // may throw
     }
-    catch (Exception ex) // we don't know where the exception is coming from
+    catch (Exception ex)
     {
-        ShowError($"Could not build config: {ex.Message}"); // or re-throw exception, etc.
-        return; // avoid continuing the flow on failure
+        ShowError($"Could not build config: {ex.Message}");
+        return; // nothing else to do if we can’t even build the config
     }
 
     try
     {
-        BuildDashboard(app);
+        BuildDashboard(app); // may throw
     }
     catch (Exception ex)
     {
-        ShowError($"Could not build dashboard: {ex.Message}"); // or re-throw exception, etc.
-        return; // avoid continuing the flow on failure
+        ShowError($"Could not build dashboard: {ex.Message}");
+        return;
     }
 }
 ```
 
-I mean, it works, but now we're weaving the control flow in with potentially undefined variables. In this case, we're returning if there was an exception, so `app` is always defined, but this might not be as clear in larger programs. `app` could be `null` if we forget to return, nothing is stopping us, in fact there may be multiple legitimate cases where we may not care if the config is read, just set it to null and have the dashboard just create a default config.
+This works, but now control flow and data flow are interleaved in slightly awkward ways:
+
+* `app` is declared outside the `try`, so it’s *technically* possible for it to be left uninitialized or set to `null` if we forget to return (or if a future refactor removes the `return`).
+* The compiler doesn’t *force* us to handle the “missing config” case. Nothing stops someone later from changing the `catch` to log and continue, and suddenly `BuildDashboard(app)` might be called with a `null` config.
+* As the number of steps grows, the code turns into a ladder of `try`/`catch`/`return` blocks, where the control flow is scattered around instead of expressed as a single, linear “do A, then B, then C” pipeline.
+
+In other words, exception-based code pushes a lot of control-flow responsibility onto the caller, but does so *indirectly*. The program *will* manage the control flow for you if you don’t, but in a way that’s often hard to follow and hard to compose when you chain multiple operations together.
 
 ---
 
@@ -162,33 +175,33 @@ I mean, it works, but now we're weaving the control flow in with potentially und
 Let's try to wrangle the control flow, and instead of throwing exceptions, we return a tuple indicating success, the app config, and the error (if present.)
 
 ```csharp
-public static (bool Success, AppConfig Config, string? Error)
+public static (AppConfig Config, string? Error)
     TryBuildConfig(IReadOnlyDictionary<string, string> cfg)
 {
     // Single setting to illustrate the pattern concisely.
     if (!cfg.TryGetValue("MaxRetries", out var text))
     {
-        return (false, default, "Missing key: MaxRetries");
+        return (default, "Missing key: MaxRetries");
     }
 
     if (!int.TryParse(text, out var retries) || retries is < 0 or > 10)
     {
-        return (false, default, $"MaxRetries must be an integer 0-10 (got '{text}').");
+        return (default, $"MaxRetries must be an integer 0-10 (got '{text}').");
     }
 
     // "[...]" isn't valid C#, this is truncated because the ctor is long and is just an illustration
-    return (true, new AppConfig(retries, [...]), null);
+    return (new AppConfig(retries, [...]), null);
 }
 ```
 
 **Caller:**
 
 ```csharp
-var (ok, app, err) = TryBuildConfig(cfg);
-if (!ok) { ShowError(err); return; }
+var (app, err) = TryBuildConfig(cfg);
+if (err != null) { ShowError(err); return; }
 ```
 
-This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
+This vaguely mimics Golang's error handling. This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (err != null)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Error != null` but `Config` is read anyway”), because the compiler can’t enforce you to check `err` before using `Config`.
 
 ---
 
