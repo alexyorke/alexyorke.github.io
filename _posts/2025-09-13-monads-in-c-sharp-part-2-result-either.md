@@ -46,7 +46,7 @@ In this scenario, let's say we have a `Dictionary` with some config for an app, 
 
 ### Example 1: Baseline exceptions (sync, pure)
 
-This is one approach to parse the config. If the config is invalid, throw an exception immediately (`int.Parse` throws as well.) Otherwise, continue, and at the end, return an `AppConfig`.
+This is one approach to parse the config. If the config is invalid, throw an exception immediately. Otherwise, continue, and at the end, return an `AppConfig`.
 
 **Function:**
 
@@ -54,84 +54,154 @@ This is one approach to parse the config. If the config is invalid, throw an exc
 public enum Mode { Development, Staging, Production }
 public sealed record AppConfig(int MaxRetries, int TimeoutSeconds, Mode Mode);
 
-public static AppConfig BuildConfigBasic(IReadOnlyDictionary<string, string> cfg)
+public static AppConfig BuildConfigBasic(Dictionary<string, string> cfg)
 {
-    // Will throw if missing key or parse fails (KeyNotFoundException, FormatException, ArgumentException)
+    // int.Parse will throw if missing key or string can't be converted into an integer (KeyNotFoundException, FormatException, ArgumentException)
     var maxRetries = int.Parse(
         cfg["MaxRetries"],
         System.Globalization.NumberStyles.Integer,
         System.Globalization.CultureInfo.InvariantCulture);
+
+    if (maxRetries is < 0 or > 10)
+        throw new FormatException("MaxRetries must be between 0 and 10.");
 
     var timeoutSeconds = int.Parse(
         cfg["TimeoutSeconds"],
         System.Globalization.NumberStyles.Integer,
         System.Globalization.CultureInfo.InvariantCulture);
 
-    var mode = Enum.Parse<Mode>(cfg["Mode"], ignoreCase: true);
-
-    if (maxRetries is < 0 or > 10)
-        throw new FormatException("MaxRetries must be between 0 and 10.");
     if (timeoutSeconds is < 1 or > 300)
         throw new FormatException("TimeoutSeconds must be between 1 and 300.");
+
+    var mode = Enum.Parse<Mode>(cfg["Mode"], ignoreCase: true);
 
     return new AppConfig(maxRetries, timeoutSeconds, mode);
 }
 ```
 
-**Caller vignette (where control flow actually matters):**
+---
+
+**Caller vignette (where control flow actually matters)**
 
 ```csharp
-public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
+public static void RenderDashboard(Dictionary<string, string> cfg)
 {
     try
     {
         var app = BuildConfigBasic(cfg); // any missing/invalid field throws here
         // do something with the app config
     }
-    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
+    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, etc.
     {
-        ShowError($"Could not build config: {ex.Message}"); // or re-throw exception, etc.
+        ShowError($"Could not build config: {ex.Message}"); // or re-throw, log, etc.
         return; // avoid continuing the flow on failure
     }
 }
 ```
 
-This converts a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow. **We are responsible for managing the control flow via try/catch/return.**
+This method converts a raw configuration dictionary (for example, loaded from a file) into a strongly-typed `AppConfig`. With exceptions, control jumps out of the `try` block into the `catch`; with nulls or status codes, you handle errors by branching explicitly. In both cases, **the caller is responsible for coordinating the control flow** once you start chaining multiple steps. Neither shape “just composes” on its own.
+
+With exceptions, that coordination becomes implicit and harder to reason about. Almost any method call might throw, and in C# it’s up to the author (or the docs) to tell you which exceptions it can throw. You *hope* `var x = 1;` won’t throw, but many real-world statements aren’t that obvious.
+
+When a statement throws, control jumps to the nearest `catch` or back to the caller. The `catch` block itself can throw, which complicates the picture even more, but we can ignore that for now. The key point is: unless you wrap essentially every statement in a `try`, it’s not obvious which statements definitely run and which might be skipped due to an exception.
+
+Now imagine we also want to reflect errors on the dashboard. If there’s no error, we render the dashboard normally. If there *is* an error, we call `ShowError`, which updates the dashboard to show something went wrong. That sounds fine for a tiny program, but as soon as multiple parts of the system can update the dashboard, this implicit coupling becomes fragile: the only way to know whether the operation succeeded is to *inspect the dashboard state*, and concurrent updates can introduce subtle race conditions.
+
+So with exceptions:
+
+* **We** are responsible for managing control flow via `try`/`catch`/`return`.
+* If we don’t control the source of a method, it’s unclear what it might throw.
+* If we don’t propagate or handle exceptions correctly, the program crashes.
+
+Suppose we now add a second step that builds the dashboard from the config:
+
+```csharp
+public static void RenderDashboard(Dictionary<string, string> cfg)
+{
+    try
+    {
+        var app = BuildConfigBasic(cfg);   // may throw
+        BuildDashboard(app);               // may also throw
+    }
+    catch (Exception ex) // we don't know which call failed
+    {
+        ShowError($"Could not build config or dashboard: {ex.Message}");
+        return; // avoid continuing the flow on failure
+    }
+}
+```
+
+This is compact, but now the `catch` can’t distinguish whether the config failed or the dashboard failed. If we want separate handling (e.g., different messages or fallback behavior), we have to split the `try` blocks:
+
+```csharp
+public static void RenderDashboard(Dictionary<string, string> cfg)
+{
+    AppConfig app;
+
+    try
+    {
+        app = BuildConfigBasic(cfg); // may throw
+    }
+    catch (Exception ex)
+    {
+        ShowError($"Could not build config: {ex.Message}");
+        return; // nothing else to do if we can’t even build the config
+    }
+
+    try
+    {
+        BuildDashboard(app); // may throw
+    }
+    catch (Exception ex)
+    {
+        ShowError($"Could not build dashboard: {ex.Message}");
+        return;
+    }
+}
+```
+
+This works, but now control flow and data flow are interleaved in slightly awkward ways:
+
+* `app` is declared outside the `try`, so it’s *technically* possible for it to be left uninitialized or set to `null` if we forget to return (or if a future refactor removes the `return`).
+* The compiler doesn’t *force* us to handle the “missing config” case. Nothing stops someone later from changing the `catch` to log and continue, and suddenly `BuildDashboard(app)` might be called with a `null` config.
+* As the number of steps grows, the code turns into a ladder of `try`/`catch`/`return` blocks, where the control flow is scattered around instead of expressed as a single, linear “do A, then B, then C” pipeline.
+
+In other words, exception-based code pushes a lot of control-flow responsibility onto the caller, but does so *indirectly*. The program *will* manage the control flow for you if you don’t, but in a way that’s often hard to follow and hard to compose when you chain multiple operations together.
 
 ---
 
 ### Example 2: Try‑pattern as a tuple
 
-Let's try to wrangle the control flow, and instead of throwing exceptions, we return a tuple indicating success, the app config, and the error (if present.)
+Let's try to wrangle the control flow, and instead of throwing exceptions, we return a tuple indicating the app config, and the error (if present.)
 
 ```csharp
-public static (bool Success, AppConfig Config, string? Error)
+public static (AppConfig Config, string? Error)
     TryBuildConfig(IReadOnlyDictionary<string, string> cfg)
 {
     // Single setting to illustrate the pattern concisely.
     if (!cfg.TryGetValue("MaxRetries", out var text))
     {
-        return (false, default, "Missing key: MaxRetries");
+        return (default, "Missing key: MaxRetries");
     }
 
     if (!int.TryParse(text, out var retries) || retries is < 0 or > 10)
     {
-        return (false, default, $"MaxRetries must be an integer 0-10 (got '{text}').");
+        return (default, $"MaxRetries must be an integer 0-10 (got '{text}').");
     }
 
     // "[...]" isn't valid C#, this is truncated because the ctor is long and is just an illustration
-    return (true, new AppConfig(retries, [...]), null);
+    return (new AppConfig(retries, [...]), null);
 }
 ```
 
 **Caller:**
 
 ```csharp
-var (ok, app, err) = TryBuildConfig(cfg);
-if (!ok) { ShowError(err); return; }
+var (app, err) = TryBuildConfig(cfg);
+if (err != null) { ShowError(err); return; }
 ```
 
-This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
+This vaguely mimics Golang's error handling. This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (err != null)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Error != null` but `Config` is read anyway”), because the compiler can’t enforce you to check `err` before using `Config`.
 
 ---
 
@@ -264,6 +334,12 @@ Result<int, string> doubled = success.Map(x => x * 2); // returns Result.Ok(84)
 Result<int, string> failure = Result<int, string>.Err("Not found");
 Result<int, string> doubled = failure.Map(x => x * 2); // returns Result.Err("Not Found"), the Map(x => x * 2) was not executed because of the Result monad
 ```
+
+We get a few nice things:
+
+- Firstly, we aren't explicitly managing the control flow. There is no manually `return`ing early on errors, manually setting variables to `null` when there's an error, returning `false` or `true` depending on success (plus also needing to set the output to null), we just keep `Map`-ping. The monad is responsible for the control flow, we (or the library authors) write it once, and it's reused multiple times. The advantage here is that we are not writing error handling plumbing, which can itself be error prone.
+- Secondly, it's clear from the return value that this method could return an error, and we're forced to handle it. Technically, since this is C# we could still throw an exception, but let's ignore that for now.
+- Thirdly, monads are composable. This includes `Result`. So this means we can chain steps together with other monads, like the `Maybe` monad. This is because they follow the three monad laws.
 
 ## 3) Chain steps that can fail (short-circuit on first Err)
 
@@ -406,7 +482,7 @@ if (result.Value != null) {
 
 This is a mess, because now we’re back to square one: treating `Result` as a simple container holding both success and failure, and manually branching. Also, the `Result` monad could legitimately contain the value `null` but was a success, so, you'd likely have to add extra handling. `Monads` are not just containers; they’re meant to be used through their composition methods. The monad itself should handle the control flow so you don’t have to explicitly branch at each step.
 
-**Aside:** But wait, my programming language of choice has a `GetUnsafeValue()` on its `Result` type! Such methods exist as escape hatches or for interop, used only in rare cases. For now, pretend they do not exist.
+> **Aside:** But wait, my programming language of choice has a `GetUnsafeValue()` on its `Result` type! Such methods exist as escape hatches or for interop, used only in rare cases. For now, pretend they do not exist.
 
 This is where `Match` comes in.
 
