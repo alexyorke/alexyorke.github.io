@@ -46,7 +46,7 @@ In this scenario, let's say we have a `Dictionary` with some config for an app, 
 
 ### Example 1: Baseline exceptions (sync, pure)
 
-This is one approach to parse the config. If the config is invalid, throw an exception immediately (`int.Parse` throws as well.) Otherwise, continue, and at the end, return an `AppConfig`.
+This is one approach to parse the config. If the config is invalid, throw an exception immediately. Otherwise, continue, and at the end, return an `AppConfig`.
 
 **Function:**
 
@@ -54,25 +54,26 @@ This is one approach to parse the config. If the config is invalid, throw an exc
 public enum Mode { Development, Staging, Production }
 public sealed record AppConfig(int MaxRetries, int TimeoutSeconds, Mode Mode);
 
-public static AppConfig BuildConfigBasic(IReadOnlyDictionary<string, string> cfg)
+public static AppConfig BuildConfigBasic(Dictionary<string, string> cfg)
 {
-    // Will throw if missing key or parse fails (KeyNotFoundException, FormatException, ArgumentException)
+    // int.Parse will throw if missing key or string can't be converted into an integer (KeyNotFoundException, FormatException, ArgumentException)
     var maxRetries = int.Parse(
         cfg["MaxRetries"],
         System.Globalization.NumberStyles.Integer,
         System.Globalization.CultureInfo.InvariantCulture);
+
+    if (maxRetries is < 0 or > 10)
+        throw new FormatException("MaxRetries must be between 0 and 10.");
 
     var timeoutSeconds = int.Parse(
         cfg["TimeoutSeconds"],
         System.Globalization.NumberStyles.Integer,
         System.Globalization.CultureInfo.InvariantCulture);
 
-    var mode = Enum.Parse<Mode>(cfg["Mode"], ignoreCase: true);
-
-    if (maxRetries is < 0 or > 10)
-        throw new FormatException("MaxRetries must be between 0 and 10.");
     if (timeoutSeconds is < 1 or > 300)
         throw new FormatException("TimeoutSeconds must be between 1 and 300.");
+
+    var mode = Enum.Parse<Mode>(cfg["Mode"], ignoreCase: true);
 
     return new AppConfig(maxRetries, timeoutSeconds, mode);
 }
@@ -81,25 +82,22 @@ public static AppConfig BuildConfigBasic(IReadOnlyDictionary<string, string> cfg
 **Caller vignette (where control flow actually matters):**
 
 ```csharp
-public static void RenderDashboard(IReadOnlyDictionary<string, string> cfg)
+public static void RenderDashboard(Dictionary<string, string> cfg)
 {
     try
     {
         var app = BuildConfigBasic(cfg); // any missing/invalid field throws here
-        SaveConfigToCache(app);
-        UpdateUI(app);
+        // do something with the app config
     }
-    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, ...
+    catch (Exception ex) // KeyNotFoundException, FormatException, ArgumentException, etc. We have to know what exceptions this method throws, or, we could catch all of them for simplicity.
     {
-        ShowError($"Could not build config: {ex.Message}");
+        ShowError($"Could not build config: {ex.Message}"); // or re-throw exception, etc.
         return; // avoid continuing the flow on failure
     }
-
-    Log("Dashboard updated.");
 }
 ```
 
-This converts a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow. **We are responsible for managing the control flow via try/catch/return.**
+This converts a raw configuration dictionary (e.g., from a file) into a strongly typed `AppConfig`. With exceptions, control jumps to the `catch`; with null or status codes, you must branch explicitly. **Neither shape composes by itself** when you string multiple steps together; the calling code must coordinate the control flow. **We are responsible for managing the control flow via try/catch/return.** If we don't have the source code for this method, it's unclear whether this method would throw an exception. When we do the early return, the control flow goes back to the caller, and so it now has to deal with the control flow. Typically, we could rethrow the exception, but someone has to handle the exception, otherwise the program crashes. 
 
 ---
 
@@ -122,6 +120,7 @@ public static (bool Success, AppConfig Config, string? Error)
         return (false, default, $"MaxRetries must be an integer 0-10 (got '{text}').");
     }
 
+    // "[...]" isn't valid C#, this is truncated because the ctor is long and is just an illustration
     return (true, new AppConfig(retries, [...]), null);
 }
 ```
@@ -130,9 +129,7 @@ public static (bool Success, AppConfig Config, string? Error)
 
 ```csharp
 var (ok, app, err) = TryBuildConfig(cfg);
-if (!ok) { ShowError(err!); return; }
-SaveConfigToCache(app);
-UpdateUI(app);
+if (!ok) { ShowError(err); return; }
 ```
 
 This reads linearly and avoids throwing for expected input errors. But as soon as you chain multiple steps, you recreate repetitive `if (!ok)` plumbing, an ad‑hoc `Result`. The tuple type also **permits invalid states** (“`Success == false` but `Config` is read anyway”), because the compiler can’t enforce you to check `ok` before using `Config`.
