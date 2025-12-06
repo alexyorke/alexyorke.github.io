@@ -172,7 +172,7 @@ In other words, exception-based code pushes a lot of control-flow responsibility
 
 ### Example 2: Try‑pattern as a tuple
 
-Let's try to wrangle the control flow, and instead of throwing exceptions, we return a tuple indicating success, the app config, and the error (if present.)
+Let's try to wrangle the control flow, and instead of throwing exceptions, we return a tuple indicating the app config, and the error (if present.)
 
 ```csharp
 public static (AppConfig Config, string? Error)
@@ -335,6 +335,12 @@ Result<int, string> failure = Result<int, string>.Err("Not found");
 Result<int, string> doubled = failure.Map(x => x * 2); // returns Result.Err("Not Found"), the Map(x => x * 2) was not executed because of the Result monad
 ```
 
+We get a few nice things:
+
+- Firstly, we aren't explicitly managing the control flow. There is no manually `return`ing early on errors, manually setting variables to `null` when there's an error, returning `false` or `true` depending on success (plus also needing to set the output to null), we just keep `Map`-ping. The monad is responsible for the control flow, we (or the library authors) write it once, and it's reused multiple times. The advantage here is that we are not writing error handling plumbing, which can itself be error prone.
+- Secondly, it's clear from the return value that this method could return an error, and we're forced to handle it. Technically, since this is C# we could still throw an exception, but let's ignore that for now.
+- Thirdly, monads are composable. This includes `Result`. So this means we can chain steps together with other monads, like the `Maybe` monad. This is because they follow the three monad laws.
+
 ## 3) Chain steps that can fail (short-circuit on first Err)
 
 ```csharp
@@ -476,7 +482,7 @@ if (result.Value != null) {
 
 This is a mess, because now we’re back to square one: treating `Result` as a simple container holding both success and failure, and manually branching. Also, the `Result` monad could legitimately contain the value `null` but was a success, so, you'd likely have to add extra handling. `Monads` are not just containers; they’re meant to be used through their composition methods. The monad itself should handle the control flow so you don’t have to explicitly branch at each step.
 
-**Aside:** But wait, my programming language of choice has a `GetUnsafeValue()` on its `Result` type! Such methods exist as escape hatches or for interop, used only in rare cases. For now, pretend they do not exist.
+> **Aside:** But wait, my programming language of choice has a `GetUnsafeValue()` on its `Result` type! Such methods exist as escape hatches or for interop, used only in rare cases. For now, pretend they do not exist.
 
 This is where `Match` comes in.
 
