@@ -38,13 +38,13 @@ Think of it like:
 
 ---
 
-## Scenario: Parse & validate configuration (pure, in‑memory)
+## Scenario: Parse & validate configuration
 
 In this scenario, let's say we have a `Dictionary` with some config for an app, keys and values are strings to keep things simple for now, however, we want to convert it into an `AppConfig` which is typed, and some of the values need to be converted to numbers, one is an enum, and we're doing some validation on the config to ensure it's valid. We’ll assume the configuration key/values are in memory (e.g., a `Dictionary<string,string>`). These variants illustrate where `Result<T, TErr>` fits.
 
 > **Framing note (avoid conflation):** The point here isn’t that “.NET is inconsistent.” The BCL deliberately uses *exceptions* for exceptional conditions and 'Try' patterns (`TryParse`, `TryGetValue`) for expected failures. The problem for *composition* is that **mixing shapes** (throwing vs. booleans/nulls/status codes) forces call sites to write glue code. A `Result` gives you a **single, composable shape** for error flow, independent of what the underlying APIs do.
 
-### Example 1: Baseline exceptions (sync, pure)
+### Example 1: Baseline exceptions
 
 This is one approach to parse the config. If the config is invalid, throw an exception immediately. Otherwise, continue, and at the end, return an `AppConfig`.
 
