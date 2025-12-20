@@ -15,6 +15,7 @@ highlighter:      rouge
 plugins:
 - jekyll-remote-theme
 - jekyll-redirect-from
+- jekyll-sitemap
 
 # Permalinks
 permalink:        pretty
@@ -23,8 +24,8 @@ permalink:        pretty
 title:            
 tagline:          ''
 description:      ''
-url:              https://alexyorke.github.io/
-baseurl:          /
+url:              https://alexyorke.github.io
+baseurl:          ""
 
 author:
   name:           'Alex Yorke'
