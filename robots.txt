@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexyorke.github.io/sitemap.xml
+
