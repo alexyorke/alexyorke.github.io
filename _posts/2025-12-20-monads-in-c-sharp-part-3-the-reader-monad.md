@@ -36,8 +36,10 @@ Conceptually, `Reader<Env, T>` is `Func<Env, T>` plus a few combinators:
 - `SelectMany` (`Bind`/flatMap): Sequences steps. It runs the first step, gets the result, and passes it to the next step, while passing the Environment along.
 - `Select` (`Map`): Transforms the final result (e.g., formatting a decimal to a string).
 - `Local`: Temporarily modifies the environment for a specific step.
+
 (Pure/Unit exists too; we'll defer it to the Appendix.)
 You build the computation as a value (a pipeline you can pass around and test), and only run it once you have an env, typically at an application boundary.
+
 Important: While the Reader pattern treats the environment as a fixed input for the pipeline, it does not strictly enforce immutability on the objects stored inside it. If your environment contains a mutable object (like a `List<T>`), Reader won't stop you from modifying it, though doing so breaks the functional "pure dependency" model. [^1]
 
 ## A note on Dependency Injection
