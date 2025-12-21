@@ -3,7 +3,9 @@ title: "Monads in C# (Part 3): The Reader Monad"
 date: 2025-12-20 09:00:00 +0000
 ---
 
-The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
+The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. The computation doesn't run until you call `Run(env)`, so, it's closer to a blueprint, or a recipe.
+
+It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
 
 ## Problem: parameter drilling
 
@@ -490,7 +492,9 @@ If a step returned only a raw value, you couldn't keep composing environment-dep
 
 [^0]: Why "monads are containers" breaks for Reader
 
-    The "container" metaphor works for `Maybe<T>` / `Result<T>` because their successful form literally contains a T; the other form represents "no value" or an error instead. `Reader<Env, T>` is different: it represents a computation `Env -> T` (a function waiting for context). There is literally no T to take out. Seeing Reader as a function also makes `Local` feel natural: it's just running the same computation under a transformed environment.
+    From a pedagogy perspective, going from `Maybe<T>` / `Result<T>` straight to `Reader<Env, T>` is a bit awkward. I'm doing it deliberately, because it helps move away from the "monads are container-like" framing/metaphor.
+
+    The "container-like" metaphor (with composable aspects) works for `Maybe<T>` / `Result<T>` because their successful form literally contains a T; the other form represents "no value" or an error instead. `Reader<Env, T>` is different: it represents a computation `Env -> T` (a function waiting for context). There is literally no T to take out. Seeing Reader as a function also makes `Local` feel natural: it's just running the same computation under a transformed environment.
 
 [^1]: You can use Free Monads to separate IO Dead-Simple Dependency Injection - [YouTube](https://www.youtube.com/watch?v=ZasXwtTRkio) but this is outside the scope of this article.
 
