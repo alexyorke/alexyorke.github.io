@@ -3,8 +3,6 @@ title: "Monads in C# (Part 3): The Reader Monad"
 date: 2025-12-20 09:00:00 +0000
 ---
 
-## Monads in C# (Part 3): The Reader Monad
-
 The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
 
 ## Problem: parameter drilling
