@@ -5,7 +5,7 @@ date: 2025-12-20 09:00:00 +0000
 
 ## Monads in C# (Part 3): The Reader Monad
 
-The Reader monad [0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
+The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
 
 ## Problem: parameter drilling
 
@@ -37,8 +37,8 @@ Conceptually, `Reader<Env, T>` is `Func<Env, T>` plus a few combinators:
 - `Select` (`Map`): Transforms the final result (e.g., formatting a decimal to a string).
 - `Local`: Temporarily modifies the environment for a specific step.
 (Pure/Unit exists too; we'll defer it to the Appendix.)
-You build the computation as a value (a pipeline you can pass around and test), and only run it once you have an env, typically at an application boundary [2].
-Important: While the Reader pattern treats the environment as a fixed input for the pipeline, it does not strictly enforce immutability on the objects stored inside it. If your environment contains a mutable object (like a `List<T>`), Reader won't stop you from modifying it, though doing so breaks the functional "pure dependency" model. [1]
+You build the computation as a value (a pipeline you can pass around and test), and only run it once you have an env, typically at an application boundary.
+Important: While the Reader pattern treats the environment as a fixed input for the pipeline, it does not strictly enforce immutability on the objects stored inside it. If your environment contains a mutable object (like a `List<T>`), Reader won't stop you from modifying it, though doing so breaks the functional "pure dependency" model. [^1]
 
 ## A note on Dependency Injection
 
@@ -168,7 +168,7 @@ If you are curious about the mechanics (or how Bind passes the result to the nex
 
 ## Run at the boundary
 
-Up to this point, we've only built `Reader<PricingEnv, T>` values. Evaluation is deferred until you call `Run(env)` at the boundary.
+Up to this point, we've only built `Reader<PricingEnv, T>` values. Evaluation is deferred until you call `Run(env)` at the boundary. [^2]
 
 ```csharp
 static string HandleCheckout(Cart cart)
@@ -417,11 +417,12 @@ If a step returned only a raw value, you couldn't keep composing environment-dep
 
 ## Footnotes
 
-### [0] Why "monads are containers" breaks for Reader
+[^0]: Why "monads are containers" breaks for Reader
 
-The "container" metaphor works for `Maybe<T>` / `Result<T>` because their successful form literally contains a T; the other form represents "no value" or an error instead. `Reader<Env, T>` is different: it represents a computation `Env -> T` (a function waiting for context). There is literally no T to take out. Seeing Reader as a function also makes `Local` feel natural: it's just running the same computation under a transformed environment.
-[1] You can use Free Monads to separate IO Dead-Simple Dependency Injection - YouTube but this is outside the scope of this article.
+    The "container" metaphor works for `Maybe<T>` / `Result<T>` because their successful form literally contains a T; the other form represents "no value" or an error instead. `Reader<Env, T>` is different: it represents a computation `Env -> T` (a function waiting for context). There is literally no T to take out. Seeing Reader as a function also makes `Local` feel natural: it's just running the same computation under a transformed environment.
 
-### [2] "Boundary" definition
+[^1]: You can use Free Monads to separate IO Dead-Simple Dependency Injection - YouTube but this is outside the scope of this article.
 
-The boundary is also called an "edge". The boundary is where your code touches the outside world (HTTP handlers, message handlers, UI events). It's the place you gather request context, build `env`, and finally call `Run(env)` to produce plain values.
+[^2]: "Boundary" definition
+
+    The boundary is also called an "edge". The boundary is where your code touches the outside world (HTTP handlers, message handlers, UI events). It's the place you gather request context, build `env`, and finally call `Run(env)` to produce plain values.
