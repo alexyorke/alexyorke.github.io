@@ -254,7 +254,7 @@ static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
 ## Testing
 Reader gives you a built-in test seam: the pipeline is just a value that expects an environment.
 No container setup or lifetime scoping required, tests simply supply a `PricingEnv`.
-See the linked repository for more testing examples; code is omitted here for brevity.
+See the linked repository ([`alexyorke/ReaderMonad`](https://github.com/alexyorke/ReaderMonad)) for more testing examples; code is omitted here for brevity.
 ## Optional: Capability Interfaces
 If `PricingEnv` starts to feel too large, one refinement is to split it into smaller capability interfaces (Interface Segregation) so functions only depend on what they actually read.
 In C#, this often isn't worth the complexity: a minimal Reader like the one in this article can't ergonomically combine different environment interfaces in one LINQ query (e.g., `Reader<IHasTax, ...>` with `Reader<IHasUser, ...>`), and type inference quickly gets painful.
@@ -283,7 +283,7 @@ Flow: Fetch (async) → Run Reader (sync) → Persist (async)
 ## LanguageExt
 
 While the implementation in the Appendix is perfect for understanding the mechanics, maintaining your own Monad library in a production codebase is generally discouraged.
-If you plan to adopt this pattern extensively, I highly recommend looking at LanguageExt (by Paul Louth).
+If you plan to adopt this pattern extensively, I highly recommend looking at [LanguageExt (by Paul Louth)](https://github.com/louthy/language-ext).
 
 ## Appendix: a minimal Reader implementation
 
@@ -423,7 +423,7 @@ If a step returned only a raw value, you couldn't keep composing environment-dep
 
     The "container" metaphor works for `Maybe<T>` / `Result<T>` because their successful form literally contains a T; the other form represents "no value" or an error instead. `Reader<Env, T>` is different: it represents a computation `Env -> T` (a function waiting for context). There is literally no T to take out. Seeing Reader as a function also makes `Local` feel natural: it's just running the same computation under a transformed environment.
 
-[^1]: You can use Free Monads to separate IO Dead-Simple Dependency Injection - YouTube but this is outside the scope of this article.
+[^1]: You can use Free Monads to separate IO Dead-Simple Dependency Injection - [YouTube](https://www.youtube.com/watch?v=ZasXwtTRkio) but this is outside the scope of this article.
 
 [^2]: "Boundary" definition
 
