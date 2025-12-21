@@ -56,7 +56,9 @@ Each item's price depends on:
 - the current time (flash sale window)
 - whether the current user is VIP
 - … and also there's a correlation ID for logging
+
 Some values come from the boundary of the system on each request (time, current user, locale, correlation id, logger). In typical C# code, these get passed as arguments, pulled from ambient context, or injected via DI.
+
 Here, we'll model them as a single immutable environment (`PricingEnv`), build a `Reader<PricingEnv, T>` pipeline, then run it once at the boundary by supplying the environment.
 
 ```csharp
