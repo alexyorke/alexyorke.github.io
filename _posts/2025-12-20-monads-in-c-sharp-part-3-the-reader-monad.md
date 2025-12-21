@@ -47,6 +47,7 @@ Important: While the Reader pattern treats the environment as a fixed input for 
 Reader is sometimes called "functional DI," but that analogy is limited.
 - A DI container answers: "How do I construct object graphs and manage lifetimes?"
 - Reader answers: "How do I propagate context through a computation without adding parameters everywhere?"
+
 Reader is not a replacement for a DI framework, like `ASP.NET Core DI`. Treat this article as a way to understand the pattern and its tradeoffs, not a prescription for idiomatic production C#. Also note that Reader can allocate many delegates/closures, so it may be a poor fit for hot paths.
 
 ## The setup
@@ -93,6 +94,7 @@ Goal: compute a checkout summary while keeping deep functions free of a `Pricing
 ### Step 1: price an item
 
 We'll start at the leaves: the business logic for pricing a single item is straightforward (just apply a discount), but it still needs an environment to calculate the discount. With Reader, we model that as an `Env -> decimal` computation, take the item now, and delay supplying env until we run the whole pipeline at the boundary.
+
 Read `Reader<PricingEnv, decimal>` as "a computation that needs `PricingEnv` later to produce a decimal".
 
 ```csharp
@@ -118,6 +120,7 @@ static Reader<PricingEnv, decimal> CalculateItemPrice(CartItem item) =>
 ### Step 2: sum the cart
 
 Next, we need to sum the prices. In a traditional design, `CalculateCartTotal` would require a `PricingEnv` parameter solely to pass it down to the child items. With Reader, we remove that noise. The function requires only a `Cart`; the dependency on the environment is encapsulated in the return type.
+
 Aside: Because `Aggregate` isn't monad-aware, the accumulator has to live inside Reader, which makes this look heavier than the underlying idea.
 
 ```csharp
@@ -243,6 +246,7 @@ We avoid adding an extra isVip parameter or duplicating the pricing logic, it's 
 Here, `Ask()` returns the current environment as a value inside the pipeline, so you can read fields from it at the point where it's most convenient.
 
 Most of the time you don't need `Ask`, because you can just use `Reader.From(env => ...)`. But `Ask()` is a nice way to make the "Reader reads from the environment" idea explicit, especially when you want to pull a single value out of `PricingEnv` and use it later in a query.
+
 For example, we can include the correlation id in the final summary without changing any function signatures:
 
 ```csharp
@@ -255,14 +259,20 @@ static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
 
 ## Testing
 Reader gives you a built-in test seam: the pipeline is just a value that expects an environment.
+
 No container setup or lifetime scoping required, tests simply supply a `PricingEnv`.
 See the linked repository ([`alexyorke/ReaderMonad`](https://github.com/alexyorke/ReaderMonad)) for more testing examples; code is omitted here for brevity.
+
 ## Optional: Capability Interfaces
 If `PricingEnv` starts to feel too large, one refinement is to split it into smaller capability interfaces (Interface Segregation) so functions only depend on what they actually read.
+
 In C#, this often isn't worth the complexity: a minimal Reader like the one in this article can't ergonomically combine different environment interfaces in one LINQ query (e.g., `Reader<IHasTax, ...>` with `Reader<IHasUser, ...>`), and type inference quickly gets painful.
+
 ### Why you don't see `Pure` (Unit) much in this article
 `Pure` (or Unit) lifts a plain value into a `Reader` that ignores the environment. It's essential for the laws and for some combinators, but in day-to-day code you often start from a real environment-dependent step (`From(env => ...)`) and build outward.
+
 You *do* see `Pure` show up when you need an identity/starting value, most commonly when folding/aggregating, where the accumulator has to start "inside" the monad (e.g., `Pure(0m)` in `Aggregate`).
+
 In this article I call it `Pure`; the helper `Reader.Unit(...)` is just an alias for `Pure(...)`.
 
 ## When not to use Reader
@@ -486,6 +496,7 @@ Think of `Bind` / `SelectMany` as a pipe connector:
 - The same `PricingEnv` is supplied once at `Run(env)`.
 - Each step runs under that same `env`.
 - `Bind` passes the *result* of the current step into the next step.
+
 If a step returned only a raw value, you couldn't keep composing environment-dependent steps. Returning a `Reader` keeps the "pipe" composable.
 
 ## Footnotes
