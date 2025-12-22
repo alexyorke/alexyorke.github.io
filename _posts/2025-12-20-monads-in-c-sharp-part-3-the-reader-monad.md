@@ -3,6 +3,10 @@ title: "Monads in C# (Part 3): The Reader Monad"
 date: 2025-12-20 09:00:00 +0000
 ---
 
+**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result (Either)](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
+
+In Part 2 you built `Result<TSuccess, TError>` (aka `Either`) to model failures explicitly: `Map`/`Bind` for composition, and `Match` to unwrap at the boundary (e.g., HTTP/UI) without leaking `Result` into serialization.
+
 The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. The computation doesn't run until you call `Run(env)`, so, it's closer to a blueprint, or a recipe.
 
 It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
