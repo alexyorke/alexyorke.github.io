@@ -1,5 +1,6 @@
 ---
 title: "Caveats when measuring pipeline optimizations"
+description: "Why CI pipeline speedups are hard to measure, how queueing effects make small improvements compound, and how to measure more accurately."
 date: 2021-02-21
 ---
 

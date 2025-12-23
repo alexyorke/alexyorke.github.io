@@ -1,6 +1,7 @@
 ---
 title: "Incident response flows, SLAs, and pipelines"
 date: 2021-02-22
+description: "Connects incident response and SLAs to CI/CD pipelines and proposes an 'absolutely-required' check tier for safer emergency merges during outages."
 ---
 
 Many organizations are adopting Agile and Agile-based processes. Agile's motto is "move fast and break things." While I agree that at some point you have to "Ship It", chances are there will be issues in production that have to be fixed, well, immediately.

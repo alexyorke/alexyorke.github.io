@@ -2,6 +2,7 @@
 
 title: "Monads in C# (Part 2): Result (Either)"
 date: 2025-09-13
+description: "Build a right-biased Result/Either type in C# and use Map/Bind/Match to compose workflows with explicit failures, including async friction and API boundary handling."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
@@ -371,11 +372,17 @@ public sealed class UserService
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
+        // Functionally, we should return a new object (e.g., `user with { IsActive = false }`).
+        // Pragmatically, we mutate the existing EF Core entity to simplify persistence.
         user.IsActive = false;
         return Result<User, Error>.Ok(user);
     }
 }
 ```
+
+> **Functional Purity Note:**
+> In strict Functional Programming, data is immutable. Instead of setting `user.IsActive = false`, we would return a new copy of the user (e.g., using C# records and `with` expressions).
+> However, most C# applications use ORMs (like Entity Framework) that track changes on mutable objects. To keep this tutorial focused on Error Handling rather than State Management, we stick to the idiomatic C# approach of mutating the entity.
 
 In a real app, that “boundary” method usually lives in an application service with a transaction; it’s shown inline here for brevity.
 

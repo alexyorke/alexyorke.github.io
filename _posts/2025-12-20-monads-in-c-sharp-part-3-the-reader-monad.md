@@ -1,6 +1,7 @@
 ---
 title: "Monads in C# (Part 3): The Reader Monad"
 date: 2025-12-20 09:00:00 +0000
+description: "Introduces the Reader monad in C# to avoid parameter drilling by threading an immutable environment through composed computations, with a minimal implementation and examples."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result (Either)](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)

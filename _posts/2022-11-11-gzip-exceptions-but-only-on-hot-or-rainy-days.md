@@ -1,6 +1,7 @@
 ---
 title: "GZIP exceptions, but only on hot or rainy days"
 date: 2022-11-11
+description: "A debugging story about a mysterious C# gzip decompression exception and what actually caused it, with investigation steps and lessons learned."
 ---
 
 Want to get notified when part two (extended version) releases? Sign up to the mailing list here: http://eepurl.com/idzoGv

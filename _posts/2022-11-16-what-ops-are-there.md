@@ -1,6 +1,7 @@
 ---
 title: "What -Ops are there?"
 date: 2022-11-16
+description: "A data-driven survey of '-Ops' terms mined from 360GB of journal article keywords, with a curated table and links."
 ---
 
 There's a few common -Ops terms, such as DevOps, GitOps, and ChatOps. Are there more?

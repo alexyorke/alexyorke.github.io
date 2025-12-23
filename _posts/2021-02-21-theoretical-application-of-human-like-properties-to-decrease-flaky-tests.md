@@ -1,5 +1,6 @@
 ---
 title: "Theoretical application of human like properties to decrease flaky tests"
+description: "A thought experiment on reducing flaky polling tests by making automation more adaptive using historical timing distributions and percentiles."
 date: 2021-02-21
 ---
 

@@ -2,6 +2,7 @@
 
 title: "How I escaped decision hell by using a 1972 cognitive theory"
 date: 2025-09-26
+description: "Explains Elimination by Aspects (Tversky, 1972) as a practical way to make engineering decisions quickly by filtering options with must-have criteria."
 ---
 
 Making decisions is an inherent part of engineering. That might mean picking a database, a message queue, or a CSV library that will run in production against customer data. When several options are viable but trade-offs differ, you need a pragmatic way to narrow the field. The goal is to decide quickly, logically, and effectively.

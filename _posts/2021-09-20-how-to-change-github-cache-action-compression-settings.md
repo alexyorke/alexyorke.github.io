@@ -1,6 +1,7 @@
 ---
 title: "How to change GitHub cache action compression level"
 date: 2021-09-20
+description: "How to change GitHub Actions cache compression by setting ZSTD_CLEVEL, including an experiment showing real size differences."
 ---
 
 The [GitHub cache action](https://github.com/actions/cache) is an action that allows you to cache files in between CI runs. However, there isn&#39;t a publicly documented way to modify the compression settings (i.e. to increase or decrease the compression ratio.)

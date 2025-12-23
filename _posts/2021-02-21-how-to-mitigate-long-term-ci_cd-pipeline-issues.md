@@ -1,5 +1,6 @@
 ---
 title: "How to mitigate long-term CI/CD pipeline issues"
+description: "How to keep pipelines from rotting over time: monitor resource limits, avoid brittle scripts, and treat CI as production-grade infrastructure."
 date: 2021-02-21
 ---
 

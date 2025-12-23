@@ -1,5 +1,6 @@
 ---
 title: "How to use 'jq' robustly in the shell"
+description: "Tips for using jq safely in shell scripts: raw output, error handling, and avoiding brittle post-processing that breaks JSON."
 date: 2021-02-17
 ---
 

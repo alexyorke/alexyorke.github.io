@@ -1,5 +1,6 @@
 ---
 title: "How to download entire GHArchive"
+description: "Commands to bulk-download GHArchive (about 1TB compressed) and notes on reconstructing repo snapshots from create/delete events."
 date: 2020-09-03
 ---
 

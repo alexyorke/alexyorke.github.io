@@ -1,6 +1,7 @@
 ---
 title: "Using 'agrep' to search for typos"
 date: 2021-03-10
+description: "Use agrep (approximate grep) and edit-distance searching to find typos and near-matches in a codebase when spellcheck isn't enough."
 ---
 
 If you have a typo in your codebase, it might be tempting to reach for spell check. While spell check is useful, it doesn't know how words should be spelled outside of its own internal dictionary. If this is US English, then the word "javascript" isn't a word and so would be marked as invalid by spell check.

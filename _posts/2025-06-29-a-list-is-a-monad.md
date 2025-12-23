@@ -1,6 +1,7 @@
 ---
 title: "List is a monad (part 1)"
 date: 2025-06-29
+description: "An approachable introduction to monads via List<T>: Map vs flatMap, sequencing, and the monad laws, aimed at OOP developers."
 permalink: 2025/06/29/list-is-a-monad/
 redirect_from:
   - /2025/06/29/a-list-is-a-monad/

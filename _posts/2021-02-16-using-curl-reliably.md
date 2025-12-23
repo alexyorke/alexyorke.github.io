@@ -1,5 +1,6 @@
 ---
 title: "Using curl reliably"
+description: "Explains subtle curl flag interactions and failure modes (redirects, output redirection) to make downloads safer and tests more trustworthy."
 date: 2021-02-16
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Agile health checks and sprint deadline reporting"
+description: "A framework for analyzing sprint outcomes (early/on-time/late) and using health checks to understand process changes before they become problems."
 date: 2021-02-21
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Why your team thinks pipelines are scary (and how to fix it)"
-date: 2021-02-22 
+date: 2021-02-22
+description: "Why CI/CD pipelines feel scary to teams and how to reduce that fear by improving feedback loops, tooling, and script quality."
 ---
 
 Pipelines can be scary. Why is that? Well, they are central to many CI/CD development workflows. They are the window to pushing code into production.

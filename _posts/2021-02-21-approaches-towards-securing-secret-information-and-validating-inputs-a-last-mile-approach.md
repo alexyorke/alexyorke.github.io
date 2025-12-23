@@ -1,5 +1,6 @@
 ---
 title: "Approaches towards securing secret information and validing inputs, a last mile approach"
+description: "Patterns for handling secrets and untrusted input by making unsafe usage hard: last-mile validation, type wrappers, and boundary hygiene."
 date: 2021-02-21
 ---
 

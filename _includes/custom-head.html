@@ -1,0 +1,14 @@
+<!--
+  This file is picked up by the Minima theme and injected into <head>.
+  Keep it small: extra SEO/link tags that apply site-wide.
+-->
+
+{%- comment -%} RSS / Atom feed for readers and crawlers {%- endcomment -%}
+<link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+
+{%- comment -%}
+  Optional: if you later add a social preview image site-wide, set in _config.yml:
+  logo: /assets/images/...
+  Then jekyll-seo-tag will include it.
+{%- endcomment -%}
+

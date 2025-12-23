@@ -1,6 +1,7 @@
 ---
 title: "Quickly estimating unused filesystem blocks"
 date: 2021-09-18
+description: "How to estimate deleted-but-not-overwritten data by scanning unused filesystem blocks, with an XFS example and recovery-tool walkthrough."
 ---
 
 If you delete a file from a filesystem, it is removed from the index but usually stays on disk until a newer file overwrites it.

@@ -1,5 +1,6 @@
 ---
 title: "Energy efficient CI/CD"
+description: "Ideas for reducing CI/CD energy and resource waste: batching jobs, consolidating stages, and scheduling work to minimize idle spin-up."
 date: 2021-02-21
 ---
 

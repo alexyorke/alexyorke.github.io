@@ -1,6 +1,7 @@
 ---
 title: "Automatically expanding code review scope with suggested non changed files"
 date: 2021-03-10
+description: "A technique for expanding code reviews beyond the diff by suggesting related files that usually change together, using commit-history correlation."
 ---
 
 Code review is important because it reduces coding errors when introducing new code into the codebase. It can also increase code quality. However, conventional diffs suffer from a flaw if they are solely used as code review tools: **they don't show what should have been changed.**

@@ -1,6 +1,7 @@
 ---
 title: "How to quickly download thousands of config or program files to test parsers, compilers, and fuzzers"
 date: 2020-08-16
+description: "How to collect large sets of real-world config or program files (via GitHub search) to test parsers, compilers, and fuzzers."
 ---
 
 When developing certain applications, it can be helpful to have a set of

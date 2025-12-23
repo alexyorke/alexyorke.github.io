@@ -1,5 +1,6 @@
 ---
 title: "Methods to reduce flaky tests"
+description: "Defines flaky tests, common causes, and practical strategies to reduce nondeterminism and improve CI reliability."
 date: 2021-02-15
 ---
 

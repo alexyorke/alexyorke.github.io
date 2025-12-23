@@ -1,6 +1,7 @@
 ---
 title: "Using systems thinking for benign pipeline failures"
 date: 2021-02-22
+description: "A systems-thinking view of benign CI pipeline failures as misaligned assumptions between developer intent and the CI environment, with a taxonomy of common causes."
 ---
 
 Pipeline failures, at a high level, are misaligned assumptions. The developer assumes that the code is ready to go but the CI tool disagrees.

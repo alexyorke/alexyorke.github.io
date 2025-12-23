@@ -1,6 +1,7 @@
 ---
 title: "Avoiding npm install whack-a-mole"
 date: 2021-02-22
+description: "How to avoid 'npm install whack-a-mole' when pulling changes by detecting lockfile changes and running npm install/npm ci only when required."
 ---
 
 When pulling new commits, sometimes package.json and/or package-lock.json (depending on your development workflow) changes. It can be difficult to know when it changes if there are a lot of files changed (although git diff will easily show you), or you might forget.
