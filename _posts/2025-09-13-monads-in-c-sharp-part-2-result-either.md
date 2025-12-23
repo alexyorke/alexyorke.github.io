@@ -20,20 +20,11 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 3.  Discuss the async composition friction (`Task<Result<...>>`) and the library hand-off.
 4.  Handle the API boundary correctly (avoiding serialization pitfalls).
 
-> **Language note:** In Functional Programming, the concept of “one value **or** the other” is often called **Either**.
+> **Terminology & ecosystem note:** In FP, the underlying “one value **or** the other” pattern is often called **Either**. A **Result** is the same *shape*, but specialized for **success/failure** (with names like `Ok`/`Err` and `Map`/`Bind` biased toward success).
 >
-> **Result** is a specialized version of the Either pattern specifically for error handling:
-> - **Either**: generic “A or B” (symmetric; not necessarily success/failure)
-> - **Result**: “Success or Failure” (biased toward success for `Map`/`Bind`)
+> In practice, libraries may expose **Either**, **Result**, or **both**, and APIs vary (type parameter order, method names like `mapLeft` vs `mapError`, and whether Either is biased by default). When in doubt, check the library docs.
 >
-> We use `Result<TSuccess, TError>` here because it is more explicit for success/failure error handling. If your “either” is actually two *valid* outcomes (e.g., `Approved` vs `Declined`, `PendingReview`), model it as a domain union (Either/custom ADT) instead. For more resources online, search for the **Either monad**.
->
-> **Ecosystem note:** In practice, different languages/libraries expose **Either**, **Result**, or **both** — and they don’t always behave the same.
-> - Some libraries only provide `Either` and rely on a convention (often “left = error, right = success”) when using it for error handling.
-> - Some provide a dedicated `Result` type for success/failure, and keep `Either` (or custom unions) for “two valid outcomes”.
-> - Some provide both. APIs vary: type parameter order (`Either<Err, A>` vs `Result<A, Err>`), method names (`mapLeft` vs `mapError`/`mapErr`), and what “bias” means by default. When in doubt, check the library docs.
->
-> **Bias note:** This is the common **right‑biased** Either/Result used for error handling: it’s a monad over `TSuccess` (the error type stays fixed through `Bind`). (Some older libraries exposed an “unbiased” Either that required explicit left/right projections.)
+> In this post we use `Result<TSuccess, TError>` for clarity, but if you want more resources online, search for the **Either monad**. If your “either” is actually two *valid* outcomes (e.g., `Approved` vs `Declined`, `PendingReview`), model it as a domain union (Either/custom ADT) instead.
 
 ### Result (conceptually Either): when “missing” needs a reason
 
