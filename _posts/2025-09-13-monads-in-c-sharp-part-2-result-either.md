@@ -41,9 +41,11 @@ Think of it like:
 
 ### Scenario: The "Deactivate User" Pipeline
 
-We need to implement a workflow to deactivate a user based on a raw string ID (e.g., from an HTTP query parameter). This process has strict dependencies:
+We need to implement a workflow to deactivate a user given a raw `id` **string** from outside the system (e.g., an HTTP query parameter). That string represents the **user’s identifier**, but it isn’t trusted yet — we first parse it into our internal ID representation (an `int` in this post).[^id]
 
-1.  **Parse:** The string must be a valid integer.[^id] (If this fails, we cannot proceed).
+The steps depend on each other:
+
+1.  **Parse:** Parse the raw `string` into an `int`. (If this fails, we cannot proceed).
 2.  **Find:** The user must exist in the database. (If missing, we cannot deactivate).
 3.  **Business rule:** The user must currently be active. (If already inactive, it's a domain error).
 
@@ -57,7 +59,7 @@ We need to implement a workflow to deactivate a user based on a raw string ID (e
 >
 > Example: Looking up a user by ID. If they are missing, is it `NotFound`, `PermissionDenied`, or `DatabaseError`? The error value tells you how to react.
 
-These steps are **sequential**. Step 2 cannot run if Step 1 fails. `Result` models this fail-fast workflow; first, let's look at how we typically solve it.
+These steps are **sequential**. Step 2 cannot run if Step 1 fails. `Result` models this fail-fast workflow. Before we introduce it, here are a few common C# approaches and the trade-offs they make.
 
 ### Why return a `Result` at all?
 Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit in the type system instead of hiding it in `null` values or the call stack.
@@ -600,4 +602,4 @@ For production C#, prefer a mature library (e.g., **FluentResults**, **ErrorOr**
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
-[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `int` to keep the example focused on `Result` composition.
+[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
