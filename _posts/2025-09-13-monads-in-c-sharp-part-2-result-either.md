@@ -20,7 +20,11 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 3.  Discuss the async composition friction (`Task<Result<...>>`) and the library hand-off.
 4.  Handle the API boundary correctly (avoiding serialization pitfalls).
 
-> **Terminology note:** Some FP libraries call this pattern `"Either"` (search that term + “monad”). This post uses `Result<TSuccess, TError>` throughout for clarity. Libraries vary (type parameter order, method names, default bias), so check your library docs. If both branches are valid outcomes (not success/failure), model a domain union/ADT instead of `Result`.
+> Terminology note (Either vs. Result):
+> Result<TSuccess, TError> is a convention: it encodes “success vs. failure.”
+> You’ll also see Either<L, R>, which encodes “one of two possibilities.” In some libraries, Either is right-biased, so Map/Bind compose the Right value and short-circuit on Left.
+> If you use Either<TError, TSuccess>, it’s effectively the same workflow shape as Result<TSuccess, TError>.
+> This post uses Result because the names “Success/Error” make the intended meaning hard to misread.
 
 ### Result: when “missing” needs a reason
 
