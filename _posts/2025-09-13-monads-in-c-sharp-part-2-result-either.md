@@ -20,6 +20,8 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 4.  Handle the API boundary correctly (avoiding serialization pitfalls).
 
 > **Language note:** FP libraries often call this **Either**. Conventions vary (often `Either<L, R>` with Left = error), so I use `Result<TSuccess, TError>` to avoid left/right ambiguity.
+>
+> **Bias note:** This is the common **right‑biased** Either/Result: it’s a monad over `TSuccess` (the error type stays fixed through `Bind`).
 
 ### Result (aka Either): when “missing” needs a reason
 
@@ -138,15 +140,12 @@ We want the best of both worlds: the **linear readability** of exceptions, but w
 
 ```csharp
 // The goal: a linear pipeline that short-circuits on failure.
+// (Helper methods ParseId/FindUser/Deactivate/Save are shown below.)
 public Result<User, Error> DeactivateUser(string inputId) =>
     ParseId(inputId)
         .Bind(FindUser)
         .Bind(Deactivate)
-        .Map(user =>
-        {
-            _repo.Save(user);
-            return user;
-        });
+        .Bind(Save);
 ```
 We'll build this step-by-step.
 
@@ -326,16 +325,60 @@ With `Result<TSuccess, TError>`, the error is part of the type, so you’ll usua
 Now that we have `Result` and `Error`, we can write the full linear workflow:
 
 ```csharp
-public Result<User, Error> DeactivateUser(string inputId)
+public sealed class User
 {
-    return ParseId(inputId)       // Result<int, Error>
-        .Bind(FindUser)           // Result<User, Error>
-        .Bind(Deactivate)         // Result<User, Error>
-        .Map(user =>
-        {
-            _repo.Save(user);
-            return user; // return an explicit success value
-        });
+    public required int Id { get; init; }
+    public bool IsActive { get; set; } = true;
+}
+
+public interface IUserRepo
+{
+    User? Find(int id);
+    bool TryFind(int id, [System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out User? user);
+    void Save(User user);
+}
+
+public sealed class DeactivateUserWorkflow
+{
+    private readonly IUserRepo _repo;
+
+    public DeactivateUserWorkflow(IUserRepo repo) => _repo = repo;
+
+    public Result<User, Error> DeactivateUser(string inputId) =>
+        ParseId(inputId)          // Result<int, Error>
+            .Bind(FindUser)       // Result<User, Error>
+            .Bind(Deactivate)     // Result<User, Error>
+            .Bind(Save);          // Result<User, Error>
+
+    private static Result<int, Error> ParseId(string inputId) =>
+        int.TryParse(inputId, out var id)
+            ? Result<int, Error>.Ok(id)
+            : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
+
+    private Result<User, Error> FindUser(int id)
+    {
+        var user = _repo.Find(id);
+        return user is null
+            ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
+            : Result<User, Error>.Ok(user);
+    }
+
+    private static Result<User, Error> Deactivate(User user)
+    {
+        if (!user.IsActive)
+            return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
+
+        user.IsActive = false;
+        return Result<User, Error>.Ok(user);
+    }
+
+    // Side effect as an explicit step.
+    // Some libraries call this `Tap`; here we just return the original user back into the chain.
+    private Result<User, Error> Save(User user)
+    {
+        _repo.Save(user);
+        return Result<User, Error>.Ok(user);
+    }
 }
 ```
 
@@ -358,18 +401,18 @@ Without specific extensions to handle the asynchronous container, the linear flo
 
 ```csharp
 // The Problem: Without Async support, we are back to nesting
-var tokenResult = await GetTokenAsync(); // Returns Result<string, Error>
+var emailResult =
+    await (await GetTokenAsync()) // Task<Result<string, Error>>
+        .Match(
+            ok: async token =>
+            {
+                var userResult = await GetUserAsync(token); // Task<Result<User, Error>>
 
-if (tokenResult.IsSuccess) {
-    var token = tokenResult.Match(v => v, _ => default!);
-    var userResult = await GetUserAsync(token); // Returns Result<User, Error>
-    
-    if (userResult.IsSuccess) {
-        var user = userResult.Match(v => v, _ => default!);
-        var emailResult = await SendEmailAsync(user);
-        // ... and so on
-    }
-}
+                return await userResult.Match(
+                    ok:  user => SendEmailAsync(user), // Task<Result<bool, Error>>
+                    err: e => Task.FromResult(Result<bool, Error>.Fail(e)));
+            },
+            err: e => Task.FromResult(Result<bool, Error>.Fail(e)));
 ```
 
 To fix this, you need "Async Bridges" - extension methods like `BindAsync` that handle the `await` for you inside the chain.
@@ -389,17 +432,15 @@ These libraries allow you to write the code we want to write:
 
 ```csharp
 // What these libraries allow you to do:
-public async Task<Result<User, Error>> DeactivateUser(string id)
-{
-    return await ParseId(id)
-        .BindAsync(id => FindUserAsync(id)) // Handles the await for you
-        .BindAsync(user => DeactivateAsync(user));
-}
+public Task<Result<User, Error>> DeactivateUser(string inputId) =>
+    ParseIdAsync(inputId)          // Task<Result<int, Error>>
+        .BindAsync(FindUserAsync)  // Task<Result<User, Error>>
+        .BindAsync(DeactivateAsync);
 ```
 
 With `Result<TSuccess, TError>`, since an error type is explicitly specified, you’ll usually want to surface it at the edge (UI, logs, HTTP response, etc.). That’s what `Match` is for.
 
-### 10. Nesting: Maybe inside Result
+### Nesting: Maybe inside Result
 Monads are composable. Sometimes you need to wrap a `Maybe<T>` inside a `Result<TSuccess, TError>`. This creates the type `Result<Maybe<T>, Error>`.
 
 The most common use case is **optional fields** (e.g., a "Phone Number" on a profile):
@@ -442,6 +483,7 @@ public Result<Maybe<Phone>, Error> ValidateOptionalPhone(string? input)
 `Result<TSuccess, TError>` is an internal domain type. At the edges of your system (API `Controllers`, UI Views, etc.) collapse it into a boundary type (e.g., `IActionResult`) using `Match`.
 
 **The "Russian Doll" risk**
+
 If you return a `Result<...>` directly from a controller, you leak your internal abstraction to the frontend and create awkward wrapper JSON (often something like `{ "isSuccess": true, "value": ... }`).
 
 Exposing an internal `isSuccess` wrapper couples clients to server implementation details. Prefer HTTP status codes and return the resource (or a standard error like `ProblemDetails`) directly.
@@ -467,14 +509,19 @@ Treat `Result` as internal plumbing: use `Match` at the boundary to map it into 
 // Treat Result as internal: unwrap it at the boundary into a standard response.
 
 [HttpGet("{id}")]
-public async Task<IActionResult> GetUser(int id)
+public async Task<IActionResult> GetUser(string id)
 {
     Result<User, Error> result = await _userService.Get(id);
 
-    // Use Match to unwrap the Monad back into the "Real World"
+    // Use Match to unwrap the Result back into the "Real World"
     return result.Match<IActionResult>(
         ok: user => Ok(user),
-        err: error => BadRequest(new { message = error.Message })
+        err: error => error.Code switch
+        {
+            "NotFound" => NotFound(new ProblemDetails { Title = error.Code, Detail = error.Message, Status = 404 }),
+            "Parse" or "Validation" => BadRequest(new ProblemDetails { Title = error.Code, Detail = error.Message, Status = 400 }),
+            _ => StatusCode(500, new ProblemDetails { Title = "Unexpected", Detail = error.Message, Status = 500 })
+        }
     );
 }
 ```
@@ -484,7 +531,7 @@ public async Task<IActionResult> GetUser(int id)
 ```
 
 ```json
-{ "message": "User 123 not found" }
+{ "title": "NotFound", "detail": "User 123 not found", "status": 404 }
 ```
 
 ### Why does this feel so complicated?
@@ -514,20 +561,20 @@ Result<Unit, Error> Log(int id)
 }
 ```
 
-### 12. Testing Strategies
+### Testing Strategies
 
 Since we are no longer throwing exceptions, `[ExpectedException]` attributes don't apply. Instead, you assert on the state of the `Result` (often with `async Task` tests).
 
 ```csharp
 [Fact]
-public async Task DeactivateUser_ReturnsFailure_WhenUserNotFound()
+public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 {
     // Arrange
     var repo = new InMemoryUserRepo(); // empty repo => not found
-    var service = new UserService(repo);
+    var workflow = new DeactivateUserWorkflow(repo);
 
     // Act
-    var result = await service.DeactivateUser("123");
+    var result = workflow.DeactivateUser("123");
 
     // Assert
     Assert.True(result.IsFailure);
