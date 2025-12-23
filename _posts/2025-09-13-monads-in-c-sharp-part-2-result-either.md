@@ -26,9 +26,16 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 > - **Either**: generic “A or B” (symmetric; not necessarily success/failure)
 > - **Result**: “Success or Failure” (biased toward success for `Map`/`Bind`)
 >
-> We use `Result<TSuccess, TError>` here because it is more explicit for our use case, but if you want to find more resources online, search for the **Either monad**.
+> We use `Result<TSuccess, TError>` here because it is more explicit for success/failure error handling. If your “either” is actually two *valid* outcomes (e.g., `Approved` vs `Declined`, `PendingReview`), model it as a domain union (Either/custom ADT) instead. For more resources online, search for the **Either monad**.
 >
-> **Bias note:** This is the common **right‑biased** Either/Result: it’s a monad over `TSuccess` (the error type stays fixed through `Bind`).
+> **Ecosystem note:** Languages do treat these differently in practice:
+> - **Haskell / PureScript**: only `Either e a` in the standard library (convention: `Left = error`, `Right = success`).
+> - **Scala**: standard `Either[Err, A]` (right-biased since 2.12); `Try[A]` exists for exception-based failure.
+> - **Rust / Swift / Elm**: standard `Result<A, E>` (and reserve “either” for non-error disjunctions or custom enums).
+> - **OCaml / F#**: often have both (or equivalent), commonly using `Result` for errors and `Either`/`Choice` for general disjunctions.
+> - **Kotlin / TypeScript**: both patterns exist via stdlib/libs; Kotlin’s stdlib `Result` is often exception/Throwable-oriented, while FP libs use `Either` for typed domain errors.
+>
+> **Bias note:** This is the common **right‑biased** Either/Result used for error handling: it’s a monad over `TSuccess` (the error type stays fixed through `Bind`). (Some older libraries exposed an “unbiased” Either that required explicit left/right projections.)
 
 ### Result (conceptually Either): when “missing” needs a reason
 
@@ -71,6 +78,18 @@ Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit
 - **Predictable control flow**: expected failures become ordinary values instead of “GOTO-like” jumps via exceptions.
 - **Composable pipelines**: once you have `Map`/`Bind`, you can reuse small steps (`ParseId`, `FindUser`, domain rules) without rewriting error plumbing at every call site.
 - **Testability**: you assert on a returned value (`Ok`/`Fail`) instead of relying on thrown exceptions as the primary mechanism for domain outcomes.
+
+### When NOT to use `Result`
+`Result` is great for **expected, domain-level failures**. It’s a poor fit in a few common scenarios:
+
+- **Bugs / invariant violations**: null refs, out-of-range, “this can’t happen” states. Those should throw/crash so you fix the bug.
+- **Truly unrecoverable failures**: missing critical startup config, broken invariants, “the database is down”, and similar “we can’t continue” conditions. Failing fast (via a global exception handler/middleware) is usually safer than returning a value the caller can’t do anything with.
+- **Validation that must accumulate errors**: if you want “email invalid **and** password weak” in one response, `Result`’s fail-fast monadic chaining is the wrong tool; prefer a validation/accumulator type.
+- **Shotgun validation in the domain**: if every domain method accepts weak primitives (`string email`) and returns `Result` for basic format checks, you’re not modeling invariants—parse once at the boundary into strong types/value objects, then keep the core domain free of “is this string valid?” checks.
+- **Side-effect-only chains** (`Result<Unit>` / `Result<void>`): chaining logging/metrics/email/cache writes via `Bind` often creates artificial sequencing and hides partial-success realities. Prefer doing effects at the boundary (or explicit orchestration patterns like jobs/sagas) rather than monadifying every void step.
+- **Partial success / batch work**: if “process 100 items” can succeed for 95 and fail for 5, a single `Result<List<T>, E>` forces the wrong all-or-nothing semantics. Prefer a dedicated batch result type (successes + failures) or a list of per-item results.
+- **Hot paths where allocations matter**: in managed runtimes, wrapping everything in `Result` can create allocation/GC pressure on the success path. If failure is extremely rare and throughput is paramount, exceptions (or other low-level patterns) can be a better trade.
+- **Effect stacking / “transformer hell”**: if you end up drowning in `Task<Result<...>>` glue (and you’re not using a library that smooths it), the complexity may outweigh the benefits.
 
 ### Comparison patterns (exceptions vs tuples vs Try/out vs Result)
 
