@@ -156,7 +156,8 @@ We'll build this step-by-step.
 public record Error(string Code, string Message);
 
 // Educational implementation of Result<TSuccess, TError>.
-// Production notes: prefer `readonly struct` for performance; avoid string errors (use a structured `Error`).
+// Production note: in a production library, this would often be a `readonly struct` to reduce memory allocations.
+// We use a `class` here to keep the implementation code simple.
 public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess? _value;
@@ -302,6 +303,8 @@ if (result.IsSuccess) {
 ```
 
 By keeping the state private and forcing you to use `Match`, the compiler ensures you *always* handle the error case. You cannot access the success value without providing a plan for the error.
+
+Also avoid adding helper methods like `ValueOrThrow()`. They encourage you to ignore the error case, which defeats the purpose of the `Result` type.
 
 With `Result<TSuccess, TError>`, the error is part of the type, so you’ll usually surface it at the edge (UI, logs, HTTP response, etc.) via `Match`.
 
@@ -451,6 +454,8 @@ public Result<Maybe<Phone>, Error> ValidateOptionalPhone(string? input)
 ### Exiting the Monad (The API Boundary)
 
 `Result<TSuccess, TError>` is an internal domain type. At the edges of your system (API `Controllers`, UI Views, etc.) collapse it into a boundary type (e.g., `IActionResult`) using `Match`.
+
+Never return a raw `Result` object directly to the frontend. It’s an internal plumbing tool, not a public data contract. Returning it is a **leaky abstraction**: it forces your JavaScript client to learn about your internal C# architecture.
 
 In ASP.NET Core, **`ProblemDetails` is the standard JSON shape for errors**. That’s why mapping `Result` → `ProblemDetails` is usually better than inventing a custom `{ success: false, error: ... }` wrapper: you keep HTTP semantics (status codes), stay idiomatic for .NET clients/middleware, and still surface structured error codes/messages.
 
