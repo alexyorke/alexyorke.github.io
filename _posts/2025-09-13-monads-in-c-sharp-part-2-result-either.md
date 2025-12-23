@@ -103,7 +103,7 @@ public (bool Success, string Error) DeactivateUser(string inputId)
 }
 ```
 
-**Critique:** This is "honest," but it creates the "Pyramid of Doom" (lots of explicit `if` checks). It also allows nonsensical states, e.g., `(true, "some error")`.
+**Critique:** This is "honest," but it creates **Manual Error Propagation**. You have to explicitly check the `Success` boolean after *every single step*. If you forget one check, the execution continues with invalid data (or nulls). Half your code becomes `if (!success) return ...`, obscuring the actual business logic.
 
 #### Example 3: The Try/out Pattern
 Another approach is the Try pattern: return a bool for success and write the result to an `out` parameter. Assume the repository exposes `TryFind` as well.
@@ -130,7 +130,7 @@ public static bool TryDeactivateUser(
 }
 ```
 
-This composes nicely via short-circuiting, but it doesn't provide a structured failure reason (unless you add another `out` for an error).
+This is performant and idiomatic for low-level logic, and it composes nicely via short-circuiting. The trade-off is that it **swallows the reason**: `false` doesn’t tell us whether it failed because input was invalid, the user wasn’t found, or the user was inactive (unless you add another `out` for an error). `Result` adds the “why”.
 
 It also lacks strict compiler enforcement: the signature doesn't guarantee `user` is non-null on the `true` path. `[NotNullWhen(true)]` helps, but it generates warnings rather than errors.
 
@@ -159,65 +159,50 @@ public record Error(string Code, string Message);
 // Production notes: prefer `readonly struct` for performance; avoid string errors (use a structured `Error`).
 public sealed class Result<TSuccess, TError>
 {
-    // Track which branch we're on (mirrors Maybe's internal "has value" flag).
-    private readonly bool _isOk;
+    private readonly TSuccess? _value;
+    private readonly TError? _error;
+    private readonly bool _isSuccess;
 
-    // Success value (when _isOk is true).
-    private readonly TSuccess _value;
-
-    // Error value (when _isOk is false).
-    private readonly TError _error;
-
-    public bool IsSuccess => _isOk;
-    public bool IsFailure => !_isOk;
-
-    // Escape hatches (some libraries expose these). Prefer `Map`/`Bind` for composition,
-    // and `Match` once at the boundary.
-    public TSuccess? Value => _isOk ? _value : default;
-    public TError? Error => _isOk ? default : _error;
-
-    // Success constructor (parallel to Maybe.Some).
     private Result(TSuccess value)
     {
-        _isOk = true;
+        _isSuccess = true;
         _value = value;
-        _error = default!;
+        _error = default;
     }
 
-    // Error constructor (parallel to Maybe.None but with a reason).
     private Result(TError error)
     {
-        _isOk = false;
-        _value = default!;
+        _isSuccess = false;
+        _value = default;
         _error = error;
     }
 
-    // Factory methods (shape: static constructors like Maybe.Some/None).
     public static Result<TSuccess, TError> Ok(TSuccess value) => new(value);
     public static Result<TSuccess, TError> Fail(TError error) => new(error);
 
-    // Note: No implicit conversions. Call `Ok(...)` / `Fail(...)` explicitly.
+    public bool IsSuccess => _isSuccess;
+    public bool IsFailure => !_isSuccess;
 
-    // Map: Transform value (TSuccess -> U), keep error (TError)
+    // Map: Transform value (TSuccess -> U)
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
-        return _isOk
-            ? Result<U, TError>.Ok(f(_value))
-            : Result<U, TError>.Fail(_error);
+        return _isSuccess
+            ? Result<U, TError>.Ok(f(_value!))
+            : Result<U, TError>.Fail(_error!);
     }
 
     // Bind: Chain operation (TSuccess -> Result<U, TError>)
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
-        return _isOk
-            ? f(_value)
-            : Result<U, TError>.Fail(_error);
+        return _isSuccess
+            ? f(_value!)
+            : Result<U, TError>.Fail(_error!);
     }
 
-    // Match: Handle both cases
+    // Match: The only way to extract the value
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
-        return _isOk ? ok(_value) : err(_error);
+        return _isSuccess ? ok(_value!) : err(_error!);
     }
 }
 ```
@@ -236,9 +221,7 @@ public sealed class Result<TSuccess, TError>
 ```csharp
 Result<int, Error> failure = Result<int, Error>.Fail(new Error("404", "Not found"));
 Result<int, Error> doubled = Result<int, Error>.Ok(42).Map(x => x * 2);
-// "Run" it:
-// doubled.Match(ok: v => v, err: _ => -1) => 84
-// doubled.IsSuccess => true
+var doubledValue = doubled.Match(ok: v => v, err: _ => -1);
 
 Result<string, Error> GetUserId(string token) =>
     string.IsNullOrWhiteSpace(token)
@@ -259,15 +242,13 @@ Result<int, Error> count =
         .Bind(GetUserId)
         .Bind(GetOrderCount); 
 // Returns Ok(7). If any step failed, it would return that error.
-// "Run" it:
-// count.Match(ok: v => v, err: _ => -1) => 7
+var countValue = count.Match(ok: v => v, err: _ => -1);
 
 Result<int, Error> count2 =
     Result<string, Error>.Ok("") // empty token
         .Bind(GetUserId)
         .Bind(GetOrderCount);
-// count2.IsFailure => true
-// count2.Match(ok: _ => "ok", err: e => e.Code) => "Auth"
+var count2Code = count2.Match(ok: _ => "ok", err: e => e.Code); // "Auth"
 ```
 
 We get a few nice things:
@@ -308,18 +289,19 @@ What `Match` guarantees:
 
 At some point you need the error value. As with `Maybe`, prefer composing and unwrapping once at the boundary.
 
+**Why no `.Value` property?**
+
+You might notice the `Result` class above doesn't expose a `public Value` property. This is intentional. If we exposed it, it would be tempting to write:
+
 ```csharp
-// Anti-Pattern: Manual Inspection
-// While properties like .Value and .Error exist as escape hatches,
-// using them for control flow bypasses the safety guarantees of the pattern.
-Result<string, Error> result = Result<string, Error>.Ok("hello");
-if (result.Value != null) {
-    Console.WriteLine(result.Value);
-} else {
-    Console.WriteLine(result.Error);
+// ⚠️ ANTI-PATTERN: This is what we want to avoid
+if (result.IsSuccess) {
+    // We are manually unwrapping. If we forget the 'if', we crash.
+    var val = result.Value; 
 }
 ```
-Directly inspecting state reintroduces the imperative branching we tried to eliminate. It also makes the code brittle: if `TSuccess` is a nullable type, checking `Value != null` is no longer a valid success test.
+
+By keeping the state private and forcing you to use `Match`, the compiler ensures you *always* handle the error case. You cannot access the success value without providing a plan for the error.
 
 With `Result<TSuccess, TError>`, the error is part of the type, so you’ll usually surface it at the edge (UI, logs, HTTP response, etc.) via `Match`.
 
@@ -327,65 +309,45 @@ With `Result<TSuccess, TError>`, the error is part of the type, so you’ll usua
 Now that we have `Result` and `Error`, we can write the full linear workflow:
 
 ```csharp
-public sealed class User
+// The Pipeline: Reads like a sentence, handles errors automatically.
+public Result<User, Error> DeactivateUser(string inputId) =>
+    ParseId(inputId)
+        .Bind(FindUser)
+        .Bind(Deactivate)
+        .Bind(Save);
+
+// --- The Steps ---
+
+private Result<int, Error> ParseId(string inputId) =>
+    int.TryParse(inputId, out var id)
+        ? Result<int, Error>.Ok(id)
+        : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
+
+// 2. Find (int -> User)
+private Result<User, Error> FindUser(int id)
 {
-    public required int Id { get; init; }
-    public bool IsActive { get; set; } = true;
+    // Assume _repo is available
+    var user = _repo.Find(id); 
+    return user is null
+        ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
+        : Result<User, Error>.Ok(user); 
 }
 
-public interface IUserRepo
+private Result<User, Error> Deactivate(User user)
 {
-    User? Find(int id);
-    bool TryFind(int id, [System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out User? user);
-    void Save(User user);
+    if (!user.IsActive)
+        return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
+
+    user.IsActive = false;
+    return Result<User, Error>.Ok(user);
 }
 
-public sealed class DeactivateUserWorkflow
+// Note: Save usually returns void. To keep our chain generic, 
+// we wrap the side effect and return the User back to the pipeline.
+private Result<User, Error> Save(User user)
 {
-    private readonly IUserRepo _repo;
-
-    public DeactivateUserWorkflow(IUserRepo repo) => _repo = repo;
-
-    public Result<User, Error> DeactivateUser(string inputId) =>
-        ParseId(inputId)          // Result<int, Error>
-            .Bind(FindUser)       // Result<User, Error>
-            .Bind(Deactivate)     // Result<User, Error>
-            .Bind(Save);          // Result<User, Error>
-
-    private static Result<int, Error> ParseId(string inputId) =>
-        int.TryParse(inputId, out var id)
-            ? Result<int, Error>.Ok(id)
-            : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
-
-    private Result<User, Error> FindUser(int id)
-    {
-        var user = _repo.Find(id);
-        return user is null
-            ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
-            : Result<User, Error>.Ok(user);
-    }
-
-    private static Result<User, Error> Deactivate(User user)
-    {
-        if (!user.IsActive)
-            return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
-
-        user.IsActive = false;
-        return Result<User, Error>.Ok(user);
-    }
-
-    // Side effect as an explicit step.
-    //
-    // Note: Save usually returns void in C#. To keep our chain going, we make it return
-    // Result<User, Error> by passing the user through.
-    //
-    // In a full FP library you’d often use `Tap`/`Do` for side effects: run the action
-    // and automatically return the original value.
-    private Result<User, Error> Save(User user)
-    {
-        _repo.Save(user);
-        return Result<User, Error>.Ok(user);
-    }
+    _repo.Save(user);
+    return Result<User, Error>.Ok(user);
 }
 ```
 
@@ -402,16 +364,8 @@ string message = DeactivateUser("123").Match(
 
 In modern C#, almost all I/O (Database, HTTP) is asynchronous and returns `Task<T>`. This creates a major friction point.
 
-Our `Bind` method expects a `T` (the value), but your database call returns a `Task<Result<TSuccess, TError>>`. Since the `Result` is wrapped inside a `Task`, the standard `Bind` combinators are not directly accessible.
-
-More precisely: `Task<Result<...>>` is a type wrapped in a type. Standard `Bind` can’t “see” the `Result` inside the `Task`, so you end up:
-
-- `await`-ing the task,
-- unwrapping the `Result`,
-- checking success/failure,
-- re-wrapping into a new `Task<Result<...>>`.
-
-That breaks the linear flow and quickly devolves into the "Pyramid of Doom":
+**The Problem:**
+`Task<Result<...>>` is a type wrapped in a type. Standard `Bind` expects a `T`, but your previous step returns a `Task`. You cannot access the `Result` inside without `await`-ing it first. This forces you to break the chain, await the result, unwrap it, and manually start the next step—recreating the nesting we tried to avoid.
 
 ```csharp
 // The Problem: Without Async support, we are back to nesting
@@ -430,6 +384,8 @@ var emailResult =
 ```
 
 To fix this, you need "Async Bridges" - extension methods like `BindAsync` that handle the `await` for you inside the chain.
+
+> Note: We are **not** implementing `BindAsync`/`MapAsync` in this tutorial. Doing it well quickly turns into boilerplate around `Task` awaiting, cancellation, context, and exception behavior. The goal here is to understand the *shape* of composition; in production, use a library that provides these async operators out of the box.
 
 ### A Warning on Implementation
 Maintenance Note:
@@ -554,41 +510,6 @@ public async Task<IActionResult> GetUser(string id)
 
 Does this feel like more work than `try`/`catch`? The trade-off is that complexity is visible in method signatures rather than hidden in the call stack: implicit control flow becomes explicit data flow.
 
-### The "Void" Problem (Unit)
-
-Sometimes a method does work but returns nothing (void), like `Log(string msg)`. In Functional Programming, "void" breaks the chain because there is no value to pass to the next step.
-
-One way to model that is `Unit`, a type that simply means "I did the work, but have no value."
-
-Remember how `Save` was awkward because it normally returns `void`? This is the same idea: a “void-returning” function becomes a `Unit`-returning function. In a more “typed” version of the workflow, that might look like:
-
-```csharp
-Result<Unit, Error> Save(User user)
-{
-    _repo.Save(user);
-    return Result<Unit, Error>.Ok(Unit.Value);
-}
-```
-
-Then your pipeline can either end in `Result<Unit, Error>` (if you truly don’t need the `User`), or you can `Map`/`Bind` to bring the `User` back when you do.
-
-C# native syntax distinguishes between `void` and return values, which breaks generic composition (e.g., you cannot write `Result<void>`). Functional libraries bridge this gap with `Unit`—a concrete type representing "void" that can be passed as a generic argument.
-
-```csharp
-public readonly struct Unit { public static readonly Unit Value = new Unit(); }
-
-// Now we can have a Result that contains "nothing" but can still fail
-Result<Unit, Error> Log(int id) 
-{
-    if (id < 0) return Result<Unit, Error>.Fail(new Error("Log", "Invalid Id"));
-    
-    Console.WriteLine($"Id: {id}");
-    
-    // Return the "Unit" value to signal success-with-no-data
-    return Result<Unit, Error>.Ok(Unit.Value);
-}
-```
-
 ### Testing Strategies
 
 Since we are no longer throwing exceptions, `[ExpectedException]` attributes don't apply. Instead, you assert on the state of the `Result`.
@@ -599,10 +520,9 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 {
     // Arrange
     var repo = new InMemoryUserRepo(); // empty repo => not found
-    var workflow = new DeactivateUserWorkflow(repo);
 
     // Act
-    var result = workflow.DeactivateUser("123");
+    var result = DeactivateUser("123");
 
     // Assert
     Assert.True(result.IsFailure);
