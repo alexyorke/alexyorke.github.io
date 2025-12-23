@@ -15,16 +15,22 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 
 **What you’ll build:**
 
-1.  Introduce `Result<TSuccess, TError>` (aka Either).
+1.  Introduce `Result<TSuccess, TError>` (the functional "Either" pattern).
 2.  Apply it to a linear workflow (Deactivate User).
 3.  Discuss the async composition friction (`Task<Result<...>>`) and the library hand-off.
 4.  Handle the API boundary correctly (avoiding serialization pitfalls).
 
-> **Language note:** FP libraries often call this **Either**. Conventions vary (often `Either<L, R>` with Left = error), so I use `Result<TSuccess, TError>` to avoid left/right ambiguity.
+> **Language note:** In Functional Programming, the concept of “one value **or** the other” is often called **Either**.
+>
+> **Result** is a specialized version of the Either pattern specifically for error handling:
+> - **Either**: generic “A or B” (symmetric; not necessarily success/failure)
+> - **Result**: “Success or Failure” (biased toward success for `Map`/`Bind`)
+>
+> We use `Result<TSuccess, TError>` here because it is more explicit for our use case, but if you want to find more resources online, search for the **Either monad**.
 >
 > **Bias note:** This is the common **right‑biased** Either/Result: it’s a monad over `TSuccess` (the error type stays fixed through `Bind`).
 
-### Result (aka Either): when “missing” needs a reason
+### Result (conceptually Either): when “missing” needs a reason
 
 `Maybe<T>` tells us whether a value exists. Sometimes, we need *why* it doesn’t exist. We keep the same straight‑line composition:
 
