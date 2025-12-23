@@ -223,6 +223,8 @@ public sealed class Result<TSuccess, TError>
 ```
 
 > Production note: implement equality (`Equals`, `GetHashCode`, etc.) and consider default-value behavior; omitted for brevity.
+>
+> **Exception policy:** `Bind` does not catch exceptions thrown inside `f(...)`. That’s intentional. `Result` is for *expected* domain/validation outcomes; unhandled exceptions are still the right mechanism for bugs and true system failures (null refs, invariants violated, OOM, DB driver blowing up, etc.).
 
 ### Using `Result` (core operations)
 
@@ -373,7 +375,12 @@ public sealed class DeactivateUserWorkflow
     }
 
     // Side effect as an explicit step.
-    // Some libraries call this `Tap`; here we just return the original user back into the chain.
+    //
+    // Note: Save usually returns void in C#. To keep our chain going, we make it return
+    // Result<User, Error> by passing the user through.
+    //
+    // In a full FP library you’d often use `Tap`/`Do` for side effects: run the action
+    // and automatically return the original value.
     private Result<User, Error> Save(User user)
     {
         _repo.Save(user);
@@ -397,7 +404,14 @@ In modern C#, almost all I/O (Database, HTTP) is asynchronous and returns `Task<
 
 Our `Bind` method expects a `T` (the value), but your database call returns a `Task<Result<TSuccess, TError>>`. Since the `Result` is wrapped inside a `Task`, the standard `Bind` combinators are not directly accessible.
 
-Without specific extensions to handle the asynchronous container, the linear flow devolves into the "Pyramid of Doom," forcing manual `await` statements at every step:
+More precisely: `Task<Result<...>>` is a type wrapped in a type. Standard `Bind` can’t “see” the `Result` inside the `Task`, so you end up:
+
+- `await`-ing the task,
+- unwrapping the `Result`,
+- checking success/failure,
+- re-wrapping into a new `Task<Result<...>>`.
+
+That breaks the linear flow and quickly devolves into the "Pyramid of Doom":
 
 ```csharp
 // The Problem: Without Async support, we are back to nesting
@@ -482,6 +496,8 @@ public Result<Maybe<Phone>, Error> ValidateOptionalPhone(string? input)
 
 `Result<TSuccess, TError>` is an internal domain type. At the edges of your system (API `Controllers`, UI Views, etc.) collapse it into a boundary type (e.g., `IActionResult`) using `Match`.
 
+In ASP.NET Core, **`ProblemDetails` is the standard JSON shape for errors**. That’s why mapping `Result` → `ProblemDetails` is usually better than inventing a custom `{ success: false, error: ... }` wrapper: you keep HTTP semantics (status codes), stay idiomatic for .NET clients/middleware, and still surface structured error codes/messages.
+
 **The "Russian Doll" risk**
 
 If you return a `Result<...>` directly from a controller, you leak your internal abstraction to the frontend and create awkward wrapper JSON (often something like `{ "isSuccess": true, "value": ... }`).
@@ -544,6 +560,18 @@ Sometimes a method does work but returns nothing (void), like `Log(string msg)`.
 
 One way to model that is `Unit`, a type that simply means "I did the work, but have no value."
 
+Remember how `Save` was awkward because it normally returns `void`? This is the same idea: a “void-returning” function becomes a `Unit`-returning function. In a more “typed” version of the workflow, that might look like:
+
+```csharp
+Result<Unit, Error> Save(User user)
+{
+    _repo.Save(user);
+    return Result<Unit, Error>.Ok(Unit.Value);
+}
+```
+
+Then your pipeline can either end in `Result<Unit, Error>` (if you truly don’t need the `User`), or you can `Map`/`Bind` to bring the `User` back when you do.
+
 C# native syntax distinguishes between `void` and return values, which breaks generic composition (e.g., you cannot write `Result<void>`). Functional libraries bridge this gap with `Unit`—a concrete type representing "void" that can be passed as a generic argument.
 
 ```csharp
@@ -563,7 +591,7 @@ Result<Unit, Error> Log(int id)
 
 ### Testing Strategies
 
-Since we are no longer throwing exceptions, `[ExpectedException]` attributes don't apply. Instead, you assert on the state of the `Result` (often with `async Task` tests).
+Since we are no longer throwing exceptions, `[ExpectedException]` attributes don't apply. Instead, you assert on the state of the `Result`.
 
 ```csharp
 [Fact]
