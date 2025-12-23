@@ -1,8 +1,8 @@
 ---
 
-title: "Monads in C# (Part 2): Result (Either)"
+title: "Monads in C# (Part 2): Result"
 date: 2025-09-13
-description: "Build a right-biased Result/Either type in C# and use Map/Bind/Match to compose workflows with explicit failures, including async friction and API boundary handling."
+description: "Build a right-biased Result type in C# and use Map/Bind/Match to compose workflows with explicit failures, including async friction and API boundary handling."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
@@ -15,18 +15,14 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 
 **What you’ll build:**
 
-1.  Introduce `Result<TSuccess, TError>` (the functional "Either" pattern).
+1.  Introduce `Result<TSuccess, TError>`.
 2.  Apply it to a linear workflow (Deactivate User).
 3.  Discuss the async composition friction (`Task<Result<...>>`) and the library hand-off.
 4.  Handle the API boundary correctly (avoiding serialization pitfalls).
 
-> **Terminology & ecosystem note:** In FP, the underlying “one value **or** the other” pattern is often called **Either**. A **Result** is the same *shape*, but specialized for **success/failure** (with names like `Ok`/`Err` and `Map`/`Bind` biased toward success).
->
-> In practice, libraries may expose **Either**, **Result**, or **both**, and APIs vary (type parameter order, method names like `mapLeft` vs `mapError`, and whether Either is biased by default). When in doubt, check the library docs.
->
-> In this post we use `Result<TSuccess, TError>` for clarity, but if you want more resources online, search for the **Either monad**. If your “either” is actually two *valid* outcomes (e.g., `Approved` vs `Declined`, `PendingReview`), model it as a domain union (Either/custom ADT) instead.
+> **Terminology note:** Some FP libraries call this pattern `"Either"` (search that term + “monad”). This post uses `Result<TSuccess, TError>` throughout for clarity. Libraries vary (type parameter order, method names, default bias), so check your library docs. If both branches are valid outcomes (not success/failure), model a domain union/ADT instead of `Result`.
 
-### Result (conceptually Either): when “missing” needs a reason
+### Result: when “missing” needs a reason
 
 `Maybe<T>` tells us whether a value exists. Sometimes, we need *why* it doesn’t exist. We keep the same straight‑line composition:
 
