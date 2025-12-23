@@ -161,6 +161,8 @@ public record Error(string Code, string Message);
 // Educational implementation of Result<TSuccess, TError>.
 // Production note: in a production library, this would often be a `readonly struct` to reduce memory allocations.
 // We use a `class` here to keep the implementation code simple.
+//
+// Note: this uses `!` (null-forgiveness) to keep the code short; production libraries enforce invariants more strictly.
 public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess? _value;
@@ -315,54 +317,67 @@ Also avoid adding helper methods like `ValueOrThrow()`. They encourage you to ig
 With `Result<TSuccess, TError>`, the error is part of the type, so you’ll usually surface it at the edge (UI, logs, HTTP response, etc.) via `Match`.
 
 ### Putting it together: the Deactivate User pipeline
-Now that we have `Result` and `Error`, we can write the full linear workflow:
+Now that we have `Result` and `Error`, we can write the domain pipeline as a few small steps. Notice that persistence happens at the boundary, after `Match`:
 
 ```csharp
-// The Pipeline: Reads like a sentence, handles errors automatically.
-public Result<User, Error> DeactivateUser(string inputId) =>
-    ParseId(inputId)
-        .Bind(FindUser)
-        .Bind(Deactivate);
-
-// --- The Steps ---
-
-private Result<int, Error> ParseId(string inputId) =>
-    int.TryParse(inputId, out var id)
-        ? Result<int, Error>.Ok(id)
-        : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
-
-// 2. Find (int -> User)
-private Result<User, Error> FindUser(int id)
+public sealed class User
 {
-    // Assume _repo is available
-    var user = _repo.Find(id); 
-    return user is null
-        ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
-        : Result<User, Error>.Ok(user); 
+    public int Id { get; init; }
+    public bool IsActive { get; set; } = true;
 }
 
-private Result<User, Error> Deactivate(User user)
+public interface IUserRepo
 {
-    if (!user.IsActive)
-        return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
-
-    user.IsActive = false;
-    return Result<User, Error>.Ok(user);
+    User? Find(int id);
+    void Save(User user);
 }
-```
 
-At the boundary, you consume that `Result<User, Error>` with `Match`:
+public sealed class UserService
+{
+    private readonly IUserRepo _repo;
+    public UserService(IUserRepo repo) => _repo = repo;
 
-```csharp
-// Example: boundary consumption (e.g., UI / Controller / message)
-string message = DeactivateUser("123").Match(
-    ok: user =>
+    // Domain pipeline: no I/O
+    public Result<User, Error> DeactivateUser(string inputId) =>
+        ParseId(inputId)
+            .Bind(FindUser)
+            .Bind(Deactivate);
+
+    // Boundary: exit Result and perform effects (persistence, logging, etc.)
+    public string DeactivateUserAndSave(string inputId) =>
+        DeactivateUser(inputId).Match(
+            ok: user =>
+            {
+                _repo.Save(user);
+                return "User deactivated";
+            },
+            err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+
+    private static Result<int, Error> ParseId(string inputId) =>
+        int.TryParse(inputId, out var id)
+            ? Result<int, Error>.Ok(id)
+            : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
+
+    private Result<User, Error> FindUser(int id)
     {
-        _repo.Save(user); // side effect at the boundary
-        return "User deactivated";
-    },
-    err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+        var user = _repo.Find(id);
+        return user is null
+            ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
+            : Result<User, Error>.Ok(user);
+    }
+
+    private static Result<User, Error> Deactivate(User user)
+    {
+        if (!user.IsActive)
+            return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
+
+        user.IsActive = false;
+        return Result<User, Error>.Ok(user);
+    }
+}
 ```
+
+In a real app, that “boundary” method usually lives in an application service with a transaction; it’s shown inline here for brevity.
 
 ### The Async Reality (Async composition friction)
 
