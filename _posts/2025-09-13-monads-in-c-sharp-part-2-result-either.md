@@ -63,6 +63,15 @@ We need to implement a workflow to deactivate a user based on a raw string ID (e
 
 These steps are **sequential**. Step 2 cannot run if Step 1 fails. `Result` models this fail-fast workflow; first, let's look at how we typically solve it.
 
+### Why return a `Result` at all?
+Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit in the type system instead of hiding it in `null` values or the call stack.
+
+- **Honest signatures**: `Result<User, Error>` tells callers “this can fail” up front, and gives them the *reason*.
+- **Fewer invalid states**: you avoid “sentinel” failures like `null` where the signature claims a value exists but reality disagrees.
+- **Predictable control flow**: expected failures become ordinary values instead of “GOTO-like” jumps via exceptions.
+- **Composable pipelines**: once you have `Map`/`Bind`, you can reuse small steps (`ParseId`, `FindUser`, domain rules) without rewriting error plumbing at every call site.
+- **Testability**: you assert on a returned value (`Ok`/`Fail`) instead of relying on thrown exceptions as the primary mechanism for domain outcomes.
+
 ### Comparison patterns (exceptions vs tuples vs Try/out vs Result)
 
 #### Example 1: Baseline Exceptions
