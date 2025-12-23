@@ -140,14 +140,17 @@ We want the best of both worlds: the **linear readability** of exceptions, but w
 
 ```csharp
 // The goal: a linear pipeline that short-circuits on failure.
-// (Helper methods ParseId/FindUser/Deactivate/Save are shown below.)
+// (Helper methods ParseId/FindUser/Deactivate are shown below.)
 public Result<User, Error> DeactivateUser(string inputId) =>
     ParseId(inputId)
         .Bind(FindUser)
-        .Bind(Deactivate)
-        .Bind(Save);
+        .Bind(Deactivate);
 ```
 We'll build this step-by-step.
+
+One important caveat: `Result` isn’t “free.” In this toy implementation you pay overhead on the success path (allocations and delegate calls). Exceptions are the inverse: cheap on success, expensive on failure. `Result` shines when failures are **expected domain outcomes** and you want explicit, composable handling.
+
+Also: if you only have one small workflow, guard clauses are perfectly fine. `Result` becomes more valuable when you can **reuse steps** and keep error handling consistent across many call sites.
 
 ### Introducing Result<TSuccess, TError>
 
@@ -254,7 +257,7 @@ var count2Code = count2.Match(ok: _ => "ok", err: e => e.Code); // "Auth"
 
 We get a few nice things:
 
-- **Control flow once**: no `if` ladders, no early returns, no out-parameter defaults; you just keep `Map`/`Bind`-ing.
+- **Control flow once**: no `if` ladders and repeated manual checks/returns; you just keep `Map`/`Bind`-ing.
 - **Clear signatures**: `Result<TSuccess, TError>` encodes failure in the type, so callers can handle it explicitly.
 - **Composable pipelines**: `Bind` chains dependent steps without nesting.
 - **Boundary handling**: at the edge, you typically unwrap via `Match` (shown next).
@@ -295,11 +298,14 @@ At some point you need the error value. As with `Maybe`, prefer composing and un
 You might notice the `Result` class above doesn't expose a `public Value` property. This is intentional. If we exposed it, it would be tempting to write:
 
 ```csharp
-// ⚠️ ANTI-PATTERN: This is what we want to avoid
-if (result.IsSuccess) {
-    // We are manually unwrapping. If we forget the 'if', we crash.
-    var val = result.Value; 
-}
+// ⚠️ ANTI-PATTERN (hypothetical — not implemented in this tutorial)
+// If Result exposed a public Value property, it would be tempting to do this:
+//
+// if (result.IsSuccess)
+// {
+//     // Depending on the implementation, this might throw or be null if you get it wrong.
+//     var val = result.Value;
+// }
 ```
 
 By keeping the state private and forcing you to use `Match`, the compiler ensures you *always* handle the error case. You cannot access the success value without providing a plan for the error.
@@ -316,8 +322,7 @@ Now that we have `Result` and `Error`, we can write the full linear workflow:
 public Result<User, Error> DeactivateUser(string inputId) =>
     ParseId(inputId)
         .Bind(FindUser)
-        .Bind(Deactivate)
-        .Bind(Save);
+        .Bind(Deactivate);
 
 // --- The Steps ---
 
@@ -344,14 +349,6 @@ private Result<User, Error> Deactivate(User user)
     user.IsActive = false;
     return Result<User, Error>.Ok(user);
 }
-
-// Note: Save usually returns void. To keep our chain generic, 
-// we wrap the side effect and return the User back to the pipeline.
-private Result<User, Error> Save(User user)
-{
-    _repo.Save(user);
-    return Result<User, Error>.Ok(user);
-}
 ```
 
 At the boundary, you consume that `Result<User, Error>` with `Match`:
@@ -359,7 +356,11 @@ At the boundary, you consume that `Result<User, Error>` with `Match`:
 ```csharp
 // Example: boundary consumption (e.g., UI / Controller / message)
 string message = DeactivateUser("123").Match(
-    ok:  _ => "User deactivated",
+    ok: user =>
+    {
+        _repo.Save(user); // side effect at the boundary
+        return "User deactivated";
+    },
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
@@ -497,7 +498,8 @@ public async Task<IActionResult> GetUser(string id)
         {
             "NotFound" => NotFound(new ProblemDetails { Title = error.Code, Detail = error.Message, Status = 404 }),
             "Parse" or "Validation" => BadRequest(new ProblemDetails { Title = error.Code, Detail = error.Message, Status = 400 }),
-            _ => StatusCode(500, new ProblemDetails { Title = "Unexpected", Detail = error.Message, Status = 500 })
+            // Avoid leaking internal details. For true "unexpected" failures, prefer centralized exception handling.
+            _ => StatusCode(500, new ProblemDetails { Title = "Unexpected", Detail = "An unexpected error occurred.", Status = 500 })
         }
     );
 }
