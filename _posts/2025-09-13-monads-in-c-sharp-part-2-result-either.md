@@ -28,12 +28,10 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 >
 > We use `Result<TSuccess, TError>` here because it is more explicit for success/failure error handling. If your “either” is actually two *valid* outcomes (e.g., `Approved` vs `Declined`, `PendingReview`), model it as a domain union (Either/custom ADT) instead. For more resources online, search for the **Either monad**.
 >
-> **Ecosystem note:** Languages do treat these differently in practice:
-> - **Haskell / PureScript**: only `Either e a` in the standard library (convention: `Left = error`, `Right = success`).
-> - **Scala**: standard `Either[Err, A]` (right-biased since 2.12); `Try[A]` exists for exception-based failure.
-> - **Rust / Swift / Elm**: standard `Result<A, E>` (and reserve “either” for non-error disjunctions or custom enums).
-> - **OCaml / F#**: often have both (or equivalent), commonly using `Result` for errors and `Either`/`Choice` for general disjunctions.
-> - **Kotlin / TypeScript**: both patterns exist via stdlib/libs; Kotlin’s stdlib `Result` is often exception/Throwable-oriented, while FP libs use `Either` for typed domain errors.
+> **Ecosystem note:** In practice, different languages/libraries expose **Either**, **Result**, or **both** — and they don’t always behave the same.
+> - Some libraries only provide `Either` and rely on a convention (often “left = error, right = success”) when using it for error handling.
+> - Some provide a dedicated `Result` type for success/failure, and keep `Either` (or custom unions) for “two valid outcomes”.
+> - Some provide both. APIs vary: type parameter order (`Either<Err, A>` vs `Result<A, Err>`), method names (`mapLeft` vs `mapError`/`mapErr`), and what “bias” means by default. When in doubt, check the library docs.
 >
 > **Bias note:** This is the common **right‑biased** Either/Result used for error handling: it’s a monad over `TSuccess` (the error type stays fixed through `Bind`). (Some older libraries exposed an “unbiased” Either that required explicit left/right projections.)
 
