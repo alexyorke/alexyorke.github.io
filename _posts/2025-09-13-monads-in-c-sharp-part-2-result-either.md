@@ -125,6 +125,8 @@ public Result<User, Error> DeactivateUser(string inputId) =>
         .Bind(Deactivate);
 ```
 
+Note: We use Bind for every step here because every step has the potential to fail. If we had a step that simply transformed data (e.g., user => user.Email) without possible failure, we would use Map instead.
+
 ### Introducing Result<TSuccess, TError>
 
 > *Note on Naming:* In functional programming, this operation is called `flatMap` (or `SelectMany` in LINQ). We use the name **`Bind`** here to keep it distinct from `Map` and to match the convention established in Part 1.
