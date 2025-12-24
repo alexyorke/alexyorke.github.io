@@ -206,10 +206,13 @@ public record Error(string Code, string Message);
 //
 // Performance Note: In a high-throughput production library, this should be a `readonly struct` 
 // to avoid heap allocations. We use a `class` here for simplicity in demonstration.
+//
+// Correctness Note: This intentionally omits defensive null/default-state checks to keep the example focused.
+// Don’t copy this into production; use a well-tested library implementation.
 public sealed class Result<TSuccess, TError>
 {
-    private readonly TSuccess? _value;
-    private readonly TError? _error;
+    private readonly TSuccess _value;
+    private readonly TError _error;
     private readonly bool _isSuccess;
 
     // Private constructors ensure valid state
@@ -239,25 +242,37 @@ public sealed class Result<TSuccess, TError>
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         return _isSuccess
-            ? Result<U, TError>.Ok(f(_value!))
-            : Result<U, TError>.Fail(_error!);
+            ? Result<U, TError>.Ok(f(_value))
+            : Result<U, TError>.Fail(_error);
     }
 
     // Bind: Chain operation (TSuccess -> Result<U, TError>)
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         return _isSuccess
-            ? f(_value!)
-            : Result<U, TError>.Fail(_error!);
+            ? f(_value)
+            : Result<U, TError>.Fail(_error);
     }
 
     // Match: The only way to extract the value
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
-        return _isSuccess ? ok(_value!) : err(_error!);
+        return _isSuccess ? ok(_value) : err(_error);
     }
 }
 ```
+
+> **Side Note: LINQ Integration**
+> If you rename `Bind` to **`SelectMany`** (and add the appropriate overloads), C# allows you to use LINQ query syntax:
+
+```csharp
+var result = 
+    from id in ParseId(input)
+    from user in FindUser(id)
+    select user;
+```
+
+> We are sticking to explicit method chaining (`Bind`) in this post to make the data flow visible, but production libraries usually support both.
 
 > Production note: implement equality (`Equals`, `GetHashCode`, etc.) and consider default-value behavior; omitted for brevity.
 >
@@ -343,6 +358,9 @@ var message = result.Match(
 ```
 
 At some point you need the error value. As with `Maybe`, prefer composing and unwrapping once at the boundary.
+
+**Why `Match` instead of `if (IsSuccess)`?**
+You might be tempted to inspect `IsSuccess` and access the value directly. We prefer `Match` because it forces **exhaustiveness**: you cannot compile the code without handling the Error case. With an `if` statement, it is too easy to forget the `else` block and leave the application in an undefined state.
 
 **Why no `.Value` property?**
 
@@ -619,6 +637,9 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 2.  **Fail-fast is the point:** `Bind` stops on the first failure. That's ideal for dependent pipelines (and not ideal for "collect all errors" validation).
 3.  **Unwrap at the boundary:** Don't serialize `Result` to JSON or return `isSuccess` flags. Use `Match` at the edge to turn it into HTTP/UI responses.
 4.  **Prefer established libraries:** For production, rely on maintained packages for async composition (`Task<Result<...>>`) and edge-case handling.
+
+> **Further Reading (The "Railway" Metaphor):**
+> This pattern is widely known in the .NET community as **"Railway Oriented Programming,"** a term coined by Scott Wlaschin. If you want to see this concept taken to its logical conclusion (including validation aggregation and parallel tracks), his site [F# for Fun and Profit](https://fsharpforfunandprofit.com/rop/) is the definitive resource.
 
 **A Note on Libraries:**
 For production C#, prefer a mature library (e.g., **FluentResults**, **ErrorOr**, **LanguageExt**) rather than maintaining your own.
