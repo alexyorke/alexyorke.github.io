@@ -59,7 +59,7 @@ The steps depend on each other:
 >
 > Example: Looking up a user by ID. If they are missing, is it `NotFound`, `PermissionDenied`, or `DatabaseError`? The error value tells you how to react.
 
-These steps are **sequential**. Step 2 cannot run if Step 1 fails. `Result` models this fail-fast workflow. Before we introduce it, here are a few common C# approaches and the trade-offs they make.
+These steps are **sequential**. Step 2 cannot run if Step 1 fails. `Result` models this fail-fast workflow. To motivate `Result`, let’s start with a few familiar C# implementations of this workflow.
 
 ### Why return a `Result` at all?
 Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit in the type system instead of hiding it in `null` values or the call stack.
@@ -261,6 +261,14 @@ Result<string, Error> GetUserId(string token) =>
         : Result<string, Error>.Ok("user-123");
 // GetUserId("tok") => Ok("user-123")
 // GetUserId("")    => Fail(Error("Auth", "Empty token"))
+
+// Gotcha: if the function already returns Result<...>, Map will *nest* the Result:
+Result<Result<string, Error>, Error> nestedUserId =
+    Result<string, Error>.Ok("tok_abc123").Map(GetUserId);
+
+// Solution: use Bind/FlatMap to keep it flat:
+Result<string, Error> flatUserId =
+    Result<string, Error>.Ok("tok_abc123").Bind(GetUserId);
 
 Result<int, Error> GetOrderCount(string userId) =>
     userId.StartsWith("user-")
