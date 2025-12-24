@@ -9,7 +9,9 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In Part 1 we used `List<T>` to introduce `Map` vs `flatMap` (and why the monad laws matter), then built `Maybe<T>`/Option to chain optional steps. Here we switch contexts again: instead of “many values” or “maybe a value”, we model **fallible** steps with an explicit error branch: `Result<TSuccess, TError>`.
+In Part 1 we used List<T> to demystify Map vs flatMap, then built Maybe<T> to chain optional steps. Now we shift focus: instead of handling multiple values or optional values, we model fallible outcomes that capture the reason for failure: Result<T, TError>.
+
+The Result monad allows you to represent a computation's outcome as success or failure, and to sequence computations so failures propagate until handled.
 
 `Result` lets you chain fallible steps without an `if` ladder or `try`/`catch` for expected outcomes:
 
@@ -24,27 +26,26 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-You likely use monads already. If you use LINQ, you know this pattern: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to errors instead of lists.
+You likely use this pattern already.
+If you use LINQ, you know this flow: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to single outcomes instead of lists.
 
-> Terminology note (Either vs. Result):
-> `Result<TSuccess, TError>` is the success/failure convention.
-> Some libraries expose `Either<L, R>`; many are right-biased, so `Map`/`Bind` compose `R`.
-> This post uses `Result` naming for readability; check your library for type parameter order and bias.
+> **Terminology Note:** This post uses the name `Result<T, E>`. In other functional languages or libraries, you will often see this called `Either<L, R>` (Left/Right). By convention, "Right" is correct (Success), and "Left" is the error.
 
-### Result: when “missing” needs a reason
+### Result: When “Missing” Needs a Reason
 
-`Maybe<T>` tells us whether a value exists. `Result` adds *why* it doesn’t:
+`Maybe<T>` tells us whether a value exists. `Result` adds why it doesn’t.
 
-*   **Unit (`Ok`)**: lift a raw value into Success.
-*   **Map**: transform the Success value.
-*   **Bind**: chain a function that returns `Result`.
+- **`Ok(value)`**: The operation succeeded (like `Some`).
+- **`Fail(error)`**: The operation failed, carrying the error data (like `None`, but with a payload).
+- **`Bind` / `FlatMap`**: The mechanism that chains the steps.
 
-The key behavior: Bind is fail-fast (Short-Circuiting).
-Just like && stops evaluating if the first part is false, Bind ensures that if Step 1 fails, Step 2 is never executed. This saves resources and prevents "null reference" crashes in downstream logic without you writing explicit if checks.
+### The Key Behavior: Short-Circuiting
 
-Think of it like:
-*   `Ok(value)` -> like `Some(value)`
-*   `Fail(error)` -> like `None()`, but with a reason
+The power of `Result` isn't just storing the error; it's the composition. Just like the `&&` operator stops evaluating if the first part is false, `Bind` ensures that if Step 1 fails, Step 2 is never executed.
+
+- If `ParseId` fails, `FindUser` is skipped.
+- If `FindUser` fails, `Deactivate` is skipped.
+- The error produced by the first failure is passed all the way to `Match`.
 
 ### Scenario: The "Deactivate User" Pipeline
 
