@@ -24,7 +24,7 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-In LINQ terms: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. This post uses method chaining to keep focus on flow rather than query syntax.
+You likely use Monads already. If you use LINQ, you know this pattern: Map is just Select, and Bind is just SelectMany. We are simply applying that same chainable logic to Errors instead of Lists.
 
 > Terminology note (Either vs. Result):
 > `Result<TSuccess, TError>` is the success/failure convention.
@@ -39,7 +39,8 @@ In LINQ terms: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. This post 
 *   **Map**: transform the Success value.
 *   **Bind**: chain a function that returns `Result`.
 
-Key behavior: **Bind is fail-fast**. After the first failure, downstream steps don’t run.
+The key behavior: Bind is fail-fast (Short-Circuiting).
+Just like && stops evaluating if the first part is false, Bind ensures that if Step 1 fails, Step 2 is never executed. This saves resources and prevents "null reference" crashes in downstream logic without you writing explicit if checks.
 
 Think of it like:
 *   `Ok(value)` -> like `Some(value)`
@@ -183,6 +184,7 @@ public sealed class Result<TSuccess, TError>
     // Bind: Chain operation (TSuccess -> Result<U, TError>)
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
+        // No magic: This is just the "if (success)" check abstracted into a method.
         if (IsSuccess)
         {
             return f(_value);
@@ -327,7 +329,9 @@ In a real app, this boundary usually lives in an application service/transaction
 
 ### The Async Reality (Async composition friction)
 
-Most I/O is async (`Task<T>`), which makes `Task<Result<...>>` composition awkward.
+In modern C#, almost all I/O is asynchronous and returns Task<T>.
+Crucial realization: Task<T> is also a Monad. It has Map (via await or ContinueWith) and Bind (via await inside await).
+The friction arises when we try to compose two different monads: Task (latency) and Result (failure).
 
 Without async bridges, you can’t chain `Task<Result<...>>` with the same linear flow — you end up manually `await`-ing and unwrapping each step.
 
