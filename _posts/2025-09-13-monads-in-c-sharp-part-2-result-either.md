@@ -132,6 +132,14 @@ public Result<User, Error> DeactivateUser(string inputId) =>
 
 Every step here can fail, so we use `Bind` throughout. If a step can’t fail (it just transforms data), use `Map` instead.
 
+Example of a non‑failing transform with `Map`:
+
+```csharp
+var emailResult = DeactivateUser(inputId).Map(u => u.Email);
+```
+
+Most libraries also include helpers like `MapError` / `BindError` to transform errors, and `Tap` / `TapError` to run side effects without changing the shape.
+
 ### Introducing `Result<TSuccess, TError>`
 
 Naming: in FP you’ll often see this called `flatMap` (LINQ: `SelectMany`). I’m using `Bind` here to keep it distinct from `Map` and to match Part 1.
