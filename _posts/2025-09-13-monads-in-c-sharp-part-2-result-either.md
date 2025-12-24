@@ -26,12 +26,6 @@ string message = result.Match(
 
 If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
-> Terminology note (Either vs. Result):
-> Result<TSuccess, TError> is a convention: it encodes “success vs. failure.”
-> You’ll also see Either<L, R>, which encodes “one of two possibilities.” In some libraries, Either is right-biased, so Map/Bind compose the Right value and short-circuit on Left.
-> If you use Either<TError, TSuccess>, it’s effectively the same workflow shape as Result<TSuccess, TError>.
-> This post uses Result because the names “Success/Error” make the intended meaning hard to misread.
-
 ### Result: when “missing” needs a reason
 
 `Maybe<T>` tells us whether a value exists. Sometimes, we need *why* it doesn’t exist. We keep the same straight‑line composition:
@@ -70,15 +64,6 @@ The steps are dependent:
 
 These steps are **sequential**. Step 2 cannot run if Step 1 fails. `Result` models this fail-fast workflow. To motivate `Result`, let’s start with a few familiar C# implementations of this workflow.
 
-### Why return a `Result` at all?
-Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit in the type system instead of hiding it in `null` values or the call stack.
-
-- **Honest signatures**: `Result<User, Error>` tells callers “this can fail” up front, and gives them the *reason*.
-- **Fewer invalid states**: you avoid “sentinel” failures like `null` where the signature claims a value exists but reality disagrees.
-- **Predictable control flow**: expected failures become ordinary values instead of “GOTO-like” jumps via exceptions.
-- **Composable pipelines**: once you have `Map`/`Bind`, you can reuse small steps (`ParseId`, `FindUser`, domain rules) without rewriting error plumbing at every call site.
-- **Testability**: you assert on a returned value (`Ok`/`Fail`) instead of relying on thrown exceptions as the primary mechanism for domain outcomes.
-
 ### When NOT to use `Result`
 `Result` is great for **expected, domain-level failures**. It’s a poor fit in a few common scenarios:
 
@@ -92,9 +77,7 @@ Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit
 - **Effect stacking / “transformer hell”**: if you end up drowning in `Task<Result<...>>` glue (and you’re not using a library that smooths it), the complexity may outweigh the benefits.
 
 ### Comparison: The Status Quo
-Exceptions: Implicit control flow. Good for system crashes, bad for expected domain logic ("User not found").
-Tuples (bool Success, string Error): Creates manual error propagation. You must check if (!success) return ... after every step. One missed check leads to bugs.
-The strongest competitor in C# is the Try/Out Pattern:
+The strongest alternative in C# is the `Try/Out` pattern. It is performant, but it flattens all errors into a single `false` boolean, losing the *reason* for failure.
 
 ```csharp
 public static bool TryDeactivateUser(
@@ -117,12 +100,6 @@ public static bool TryDeactivateUser(
     return false;
 }
 ```
-
-This is idiomatic and can be quite efficient for low-level logic, and it composes nicely via short-circuiting.
-The trade-off is that it **swallows the reason**.
-If `TryDeactivate` returns `false`, was the ID format invalid? Was the user missing? Was the user already inactive? The `bool` flattens all failure modes into a single "no." `Result` distinguishes *why* it failed, which determines *how* the caller should react.
-
-It also lacks strict compiler enforcement: the signature doesn't guarantee `user` is non-null on the `true` path. `[NotNullWhen(true)]` helps, but it generates warnings rather than errors.
 
 
 #### The Result Monad
@@ -148,11 +125,8 @@ public record Error(string Code, string Message);
 
 // Educational implementation of Result<TSuccess, TError>.
 //
-// Performance Note: In a high-throughput production library, this should be a `readonly struct` 
-// to avoid heap allocations. We use a `class` here for simplicity in demonstration.
-//
-// Correctness Note: This intentionally omits defensive null/default-state checks to keep the example focused.
-// Don’t copy this into production; use a well-tested library implementation.
+// Note: Use `readonly struct` in production to reduce allocations.
+// Note: Null/default-state checks are intentionally omitted here; use a well-tested library in production.
 public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess _value;
@@ -237,75 +211,6 @@ var result =
 >
 > **Exception policy:** `Bind` does not catch exceptions thrown inside `f(...)`. Treat bugs and true system failures as exceptions; use `Result` for expected domain/validation outcomes.
 
-### Using `Result` (Map/Bind/Match)
-
-
-***
-
-```csharp
-Result<int, Error> failure = Result<int, Error>.Fail(new Error("404", "Not found"));
-Result<int, Error> doubled = Result<int, Error>.Ok(42).Map(x => x * 2);
-var doubledValue = doubled.Match(ok: v => v, err: _ => -1);
-// doubledValue == 84
-
-Result<string, Error> GetUserId(string token) =>
-    string.IsNullOrWhiteSpace(token)
-        ? Result<string, Error>.Fail(new Error("Auth", "Empty token"))
-        : Result<string, Error>.Ok("user-123");
-// GetUserId("tok") => Ok("user-123")
-// GetUserId("")    => Fail(Error("Auth", "Empty token"))
-
-// Gotcha: if the function already returns Result<...>, Map will *nest* the Result:
-Result<Result<string, Error>, Error> nestedUserId =
-    Result<string, Error>.Ok("tok_abc123").Map(GetUserId);
-
-// Solution: use Bind/FlatMap to keep it flat:
-Result<string, Error> flatUserId =
-    Result<string, Error>.Ok("tok_abc123").Bind(GetUserId);
-
-Result<int, Error> GetOrderCount(string userId) =>
-    userId.StartsWith("user-")
-        ? Result<int, Error>.Ok(7)
-        : Result<int, Error>.Fail(new Error("Db", "Invalid user id"));
-// GetOrderCount("user-123") => Ok(7)
-// GetOrderCount("nope")     => Fail(Error("Db", "Invalid user id"))
-
-Result<int, Error> count = 
-    Result<string, Error>.Ok("tok_abc123")
-        .Bind(GetUserId)
-        .Bind(GetOrderCount); 
-// Returns Ok(7). If any step failed, it would return that error.
-var countValue = count.Match(ok: v => v, err: _ => -1);
-// countValue == 7
-
-Result<int, Error> count2 =
-    Result<string, Error>.Ok("") // empty token
-        .Bind(GetUserId)
-        .Bind(GetOrderCount);
-var count2Code = count2.Match(ok: _ => "ok", err: e => e.Code); // "Auth"
-```
-
-We get a few nice things:
-
-- **Control flow once**: no `if` ladders and repeated manual checks/returns; you just keep `Map`/`Bind`-ing.
-- **Clear signatures**: `Result<TSuccess, TError>` encodes failure in the type, so callers can handle it explicitly.
-- **Composable pipelines**: `Bind` chains dependent steps without nesting.
-- **Boundary handling**: at the edge, you typically unwrap via `Match` (shown next).
-
-Aside: What's a "boundary"? It's where you stop composing and turn a `Result<...>` into actions (HTTP responses, UI updates, logs) using `Match`.
-
-In C#, you're often wrapping APIs that weren't designed for this style, so some glue code is unavoidable.
-
-> **Critical Design Note: Validation vs. Flow**
-> 
-> You might notice that our `Bind` function "fails fast", it stops on the *first* error. This is perfect for the pipeline above (you can't query the DB if the ID is invalid).
->
-> However, this short-circuiting behavior is ill-suited for input validation. In scenarios like registration forms, users expect to see *all* errors (Email is invalid AND Password is weak), not just the first one.
->
-> *   **Use Result (Monad)** for sequential logic where step B depends on step A.
-> *   **Use Validation (Accumulator)** for independent checks (like form fields).
->
-
 ### Unwrapping with `Match` (at the boundary)
 Once you have a `Result<TSuccess, TError>`, you eventually need to turn it into a single value or action. `Match` is the "exit" function: you provide two handlers, and it runs exactly one of them.
 
@@ -327,10 +232,6 @@ At some point you need the error value. As with `Maybe`, prefer composing and un
 In other words: sometimes you need to ask a **Boolean question** (“Did it work?”) to interop with the rest of C# (simple `if` checks, LINQ filtering, UI binding). But when you want to *do something with the value*, prefer `Match` so the error path stays explicit and handled.
 
 For example, filtering failures is pleasant with a query property:
-
-```csharp
-var failures = results.Count(r => r.IsFailure);
-```
 
 **Why no `.Value` property?**
 
@@ -437,23 +338,7 @@ In modern C#, almost all I/O (Database, HTTP) is asynchronous and returns `Task<
 In a real application, `FindUser` would likely be a database call returning `Task<User?>`. This would require `BindAsync` (or similar async bridges) to keep the pipeline linear without reintroducing nesting.
 
 **The Problem:**
-`Task<Result<...>>` is a type wrapped in a type. Standard `Bind` expects a `T`, but your previous step returns a `Task`. You cannot access the `Result` inside without `await`-ing it first. This forces you to break the chain, await the result, unwrap it, and manually start the next step—recreating the nesting we tried to avoid.
-
-```csharp
-// The Problem: Without Async support, we are back to nesting
-var emailResult =
-    await (await GetTokenAsync()) // Task<Result<string, Error>>
-        .Match(
-            ok: async token =>
-            {
-                var userResult = await GetUserAsync(token); // Task<Result<User, Error>>
-
-                return await userResult.Match(
-                    ok:  user => SendEmailAsync(user), // Task<Result<bool, Error>>
-                    err: e => Task.FromResult(Result<bool, Error>.Fail(e)));
-            },
-            err: e => Task.FromResult(Result<bool, Error>.Fail(e)));
-```
+Without async bridges, you can’t chain `Task<Result<...>>` with the same linear flow — you end up manually `await`-ing and unwrapping each step.
 
 To fix this, you need "Async Bridges" (e.g., `BindAsync` or `SelectManyAsync`).
 
@@ -495,20 +380,6 @@ In ASP.NET Core, **`ProblemDetails` is the standard JSON shape for errors**. Tha
 If you return a `Result<...>` directly from a controller, you leak your internal abstraction to the frontend and create awkward wrapper JSON (often something like `{ "isSuccess": true, "value": ... }`).
 
 Exposing an internal `isSuccess` wrapper couples clients to server implementation details. Prefer HTTP status codes and return the resource (or a standard error like `ProblemDetails`) directly.
-
-```json
-{
-  "isSuccess": true,
-  "value": { "id": 123, "name": "Ada", "isActive": true }
-}
-```
-
-```json
-{
-  "isSuccess": false,
-  "error": { "code": "NotFound", "message": "User 123 not found" }
-}
-```
 
 **The fix: unwrap at the boundary**
 Treat `Result` as internal plumbing: use `Match` at the boundary to map it into standard HTTP responses.
