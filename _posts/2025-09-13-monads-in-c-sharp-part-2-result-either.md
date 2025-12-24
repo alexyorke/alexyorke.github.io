@@ -45,6 +45,7 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 
 *   **Map**: transform the success value.
 *   **Bind**: chain a function returning another `Result<...>`.
+*   **Unit (Ok)**: The `Unit` operation (from Part 1) is implemented here as **`Ok`**. It lifts a raw value into the success branch.
 
    ...and add a **failure** branch that carries an error.
 
@@ -88,13 +89,13 @@ Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit
 ### When NOT to use `Result`
 `Result` is great for **expected, domain-level failures**. It’s a poor fit in a few common scenarios:
 
-- **Bugs / invariant violations**: e.g., `NullReferenceException`, out-of-range, “this can’t happen” states. Those should throw/crash so you fix the bug.
-- **System health failures**: e.g., database connection failures, “the database is down”, and similar “we can’t continue” conditions. If the request can’t proceed, let the exception bubble to a global handler/middleware. `Result` is for *domain outcomes* (NotFound, InsufficientFunds), not *system health*.
+- **System Failures (The Database is Down):** Do not use `Result` for database connection failures, out-of-memory errors, or null references. These are exceptional system states. Returning `Result.Fail("DB_DOWN")` forces every caller to handle a catastrophe they cannot fix. Let these exceptions bubble up to global middleware.
+- **Bugs (Invariant Violations):** If a method receives an argument that should be impossible (e.g., `UpdateUser(null)`), throw `ArgumentNullException`. That is a bug in the caller, not a domain outcome.
+- **Hot Paths:** If you are processing 100k events/second, the allocation of `Result` objects (if implemented as classes) creates GC pressure. In strict performance contexts, `try/out` patterns or structs are preferable.
 - **Validation that must accumulate errors**: if you want “email invalid **and** password weak” in one response, `Result`’s fail-fast monadic chaining is the wrong tool; prefer a validation/accumulator type.
 - **Shotgun validation in the domain**: if every domain method accepts weak primitives (`string email`) and returns `Result` for basic format checks, you’re not modeling invariants—parse once at the boundary into strong types/value objects, then keep the core domain free of “is this string valid?” checks.
 - **Side-effect-only chains** (`Result<Unit>` / `Result<void>`): chaining logging/metrics/email/cache writes via `Bind` often creates artificial sequencing and hides partial-success realities. Prefer doing effects at the boundary (or explicit orchestration patterns like jobs/sagas) rather than monadifying every void step.
 - **Partial success / batch work**: if “process 100 items” can succeed for 95 and fail for 5, a single `Result<List<T>, E>` forces the wrong all-or-nothing semantics. Prefer a dedicated batch result type (successes + failures) or a list of per-item results.
-- **Hot paths where allocations matter**: in managed runtimes, wrapping everything in `Result` can create allocation/GC pressure on the success path. If failure is extremely rare and throughput is paramount, exceptions (or other low-level patterns) can be a better trade.
 - **Effect stacking / “transformer hell”**: if you end up drowning in `Task<Result<...>>` glue (and you’re not using a library that smooths it), the complexity may outweigh the benefits.
 
 ### Comparison patterns (exceptions vs tuples vs Try/out vs Result)
@@ -173,7 +174,9 @@ public static bool TryDeactivateUser(
 }
 ```
 
-This is idiomatic and can be quite efficient for low-level logic, and it composes nicely via short-circuiting. The trade-off is that it **swallows the reason**: `false` doesn’t tell us whether it failed because input was invalid, the user wasn’t found, or the user was inactive (unless you add another `out` for an error). `Result` adds the “why”.
+This is idiomatic and can be quite efficient for low-level logic, and it composes nicely via short-circuiting.
+The trade-off is that it **swallows the reason**.
+If `TryDeactivate` returns `false`, was the ID format invalid? Was the user missing? Was the user already inactive? The `bool` flattens all failure modes into a single "no." `Result` distinguishes *why* it failed, which determines *how* the caller should react.
 
 It also lacks strict compiler enforcement: the signature doesn't guarantee `user` is non-null on the `true` path. `[NotNullWhen(true)]` helps, but it generates warnings rather than errors.
 
@@ -193,22 +196,23 @@ We'll build this step-by-step.
 
 ### Introducing Result<TSuccess, TError>
 
+> *Note on Naming:* In functional programming, this operation is called `flatMap` (or `SelectMany` in LINQ). We use the name **`Bind`** here to keep it distinct from `Map` and to match the convention established in Part 1.
+
 ```csharp
 // A simple, structured error type (avoiding "primitive obsession" with strings)
 public record Error(string Code, string Message);
 
 // Educational implementation of Result<TSuccess, TError>.
-// Production note: in a production library, this would often be a `readonly struct` to reduce memory allocations.
-// We use a `class` here to keep the implementation code simple.
 //
-// Note: this uses `!` (null-forgiveness) to keep the code short; production code typically enforces invariants more strictly
-// (e.g., with richer representations and/or nullable analysis attributes like `[MemberNotNullWhen]`).
+// Performance Note: In a high-throughput production library, this should be a `readonly struct` 
+// to avoid heap allocations. We use a `class` here for simplicity in demonstration.
 public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess? _value;
     private readonly TError? _error;
     private readonly bool _isSuccess;
 
+    // Private constructors ensure valid state
     private Result(TSuccess value)
     {
         _isSuccess = true;
@@ -223,6 +227,8 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
+    // The "Unit" operation (lifts a value into the Monad).
+    // We name it 'Ok' to follow standard C# conventions (similar to 'Some' in Part 1).
     public static Result<TSuccess, TError> Ok(TSuccess value) => new(value);
     public static Result<TSuccess, TError> Fail(TError error) => new(error);
 
@@ -451,9 +457,9 @@ var emailResult =
             err: e => Task.FromResult(Result<bool, Error>.Fail(e)));
 ```
 
-To fix this, you need "Async Bridges" - extension methods like `BindAsync` that handle the `await` for you inside the chain.
+To fix this, you need "Async Bridges" (e.g., `BindAsync` or `SelectManyAsync`).
 
-> Note: We are **not** implementing `BindAsync`/`MapAsync` in this tutorial. Doing it well quickly turns into boilerplate around `Task` awaiting, cancellation, context, and exception behavior. In modern C#, without these helpers this pattern quickly becomes impractical — you effectively need a library (or your own extensions) to make `Task<Result<...>>` ergonomic.
+**The Friction:** Without these extension methods, this pattern in C# is painful. You end up manually `await`-ing every step, which ruins the declarative flow. While we aren't building those extensions in this tutorial, essentially every production library (LanguageExt, FluentResults, CSharpFunctionalExtensions) provides them out of the box.
 
 ### A Warning on Implementation
 Maintenance Note:
