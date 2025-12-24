@@ -9,9 +9,11 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In Part 1 we used List<T> to demystify Map vs flatMap, then built Maybe<T> to chain optional steps. Now we shift focus: instead of handling multiple values or optional values, we model fallible outcomes that capture the reason for failure: Result<T, TError>.
+In Part 1 we used List<T> to go over Map vs flatMap, then built Maybe<T> to chain optional steps. Now we shift focus: instead of handling multiple values or optional values, we model fallible outcomes that capture the reason for failure: Result<T, TError>.
 
 The Result monad allows you to represent a computation's outcome as success or failure, and to sequence computations so failures propagate until handled.
+
+I use `Result` for failures I *expect* and want to model (validation, not-found, domain rules); I still use exceptions for bugs and “the database is on fire” situations.
 
 `Result` lets you chain fallible steps without an `if` ladder or `try`/`catch` for expected outcomes:
 
@@ -31,6 +33,10 @@ If you use LINQ, you know this flow: `Map` is just `Select`, and `Bind` is just 
 
 Terminology note: I’ll call it `Result<T, E>` in this post. In other languages/libraries you’ll often see `Either<L, R>` (Left/Right). By convention, Right is success and Left is the error.
 
+In FP terms, that’s a two-case “sum type” (a discriminated union). C# doesn’t have that shape built-in, so we either implement it ourselves or lean on a library.
+
+Also, most `Either` implementations in C# are “right-biased”, which just means `Map`/`Bind` operate on the Right (success) branch.
+
 ### Result: when “missing” needs a reason
 
 `Maybe<T>` tells us whether a value exists. `Result` adds why it doesn’t.
@@ -38,6 +44,8 @@ Terminology note: I’ll call it `Result<T, E>` in this post. In other languages
 - `Ok(value)` means the operation succeeded (like `Some`).
 - `Fail(error)` means the operation failed and carries error data (like `None`, but with a payload).
 - `Bind` / `FlatMap` is the mechanism that chains the steps.
+- `Map` / `Select` transforms the successful value without changing the error branch.
+- `Match` is how you handle both cases (success vs failure) and get back to a normal value.
 
 ### Short-circuiting
 
@@ -46,6 +54,8 @@ Terminology note: I’ll call it `Result<T, E>` in this post. In other languages
 - If `ParseId` fails, `FindUser` is skipped.
 - If `FindUser` fails, `Deactivate` is skipped.
 - The error produced by the first failure is passed all the way to `Match`.
+
+This is fail-fast: you get the first error, not a list of everything that could have failed.
 
 ### Example: deactivating a user
 
@@ -140,6 +150,9 @@ public sealed class Result<TSuccess, TError>
     // They're nullable to keep the sample friendly to C# nullable reference types (NRT).
     private readonly TSuccess? _value;
     private readonly TError? _error;
+
+    // This implementation relies on the invariant that `_value` is only read when `IsSuccess` is true.
+    // Nullable analysis can’t prove that here, so you may see warnings in a real project (fine for a toy sample).
 
     // Private constructors ensure valid state
     private Result(TSuccess value)
