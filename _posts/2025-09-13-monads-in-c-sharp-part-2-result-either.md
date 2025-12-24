@@ -48,15 +48,15 @@ If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. W
 
    ...and add a **failure** branch that carries an error.
 
+The key behavior: **Bind is fail-fast**. Once you hit a failure, downstream steps don’t run; the error flows through unchanged.
+
 Think of it like:
 *   `Ok(value)` -> like `Some(value)`
 *   `Fail(error)` -> like `None()`, but with a reason
 
 ### Scenario: The "Deactivate User" Pipeline
 
-We want to deactivate a user given a raw `id` **string** from an HTTP request. “Deactivate” here means marking the user inactive (e.g., setting `IsActive = false`) and persisting that change.[^id]
-
-We first parse the raw string into our internal ID representation (an `int` in this post).
+We want to deactivate a user given a raw `id` **string** from an HTTP request. “Deactivate” here means marking the user inactive (e.g., setting `IsActive = false`) and persisting that change.[^id] We parse the raw string into our internal ID representation (an `int` in this post).
 
 The steps are dependent:
 
@@ -64,7 +64,7 @@ The steps are dependent:
 2.  **Find:** The user must exist in the database. (If missing, we cannot deactivate).
 3.  **Business rule:** The user must currently be active. (If already inactive, it's a domain error).
 
-> **Concept Check: Result vs. `T?` (optional)**
+> **Quick note: Result vs. `T?` (optional)**
 >
 > Use `T?` when a value might be missing and you don't care why.
 >
@@ -173,7 +173,7 @@ public static bool TryDeactivateUser(
 }
 ```
 
-This is performant and idiomatic for low-level logic, and it composes nicely via short-circuiting. The trade-off is that it **swallows the reason**: `false` doesn’t tell us whether it failed because input was invalid, the user wasn’t found, or the user was inactive (unless you add another `out` for an error). `Result` adds the “why”.
+This is idiomatic and can be quite efficient for low-level logic, and it composes nicely via short-circuiting. The trade-off is that it **swallows the reason**: `false` doesn’t tell us whether it failed because input was invalid, the user wasn’t found, or the user was inactive (unless you add another `out` for an error). `Result` adds the “why”.
 
 It also lacks strict compiler enforcement: the signature doesn't guarantee `user` is non-null on the `true` path. `[NotNullWhen(true)]` helps, but it generates warnings rather than errors.
 
@@ -190,10 +190,6 @@ public Result<User, Error> DeactivateUser(string inputId) =>
         .Bind(Deactivate);
 ```
 We'll build this step-by-step.
-
-One important caveat: `Result` isn’t “free.” In this toy implementation you pay overhead on the success path (allocations and delegate calls). Exceptions are the inverse: cheap on success, expensive on failure. `Result` shines when failures are **expected domain outcomes** and you want explicit, composable handling.
-
-Also: if you only have one small workflow, guard clauses are perfectly fine. `Result` becomes more valuable when you can **reuse steps** and keep error handling consistent across many call sites.
 
 ### Introducing Result<TSuccess, TError>
 
@@ -258,11 +254,9 @@ public sealed class Result<TSuccess, TError>
 
 > Production note: implement equality (`Equals`, `GetHashCode`, etc.) and consider default-value behavior; omitted for brevity.
 >
-> **Exception policy:** `Bind` does not catch exceptions thrown inside `f(...)`. That’s intentional. `Result` is for *expected* domain/validation outcomes; unhandled exceptions are still the right mechanism for bugs and true system failures (null refs, invariants violated, OOM, DB driver blowing up, etc.).
+> **Exception policy:** `Bind` does not catch exceptions thrown inside `f(...)`. Treat bugs and true system failures as exceptions; use `Result` for expected domain/validation outcomes.
 
-### Using `Result` (core operations)
-
-**Key idea:** Bind short‑circuits: once you hit a failure, the error flows through unchanged and downstream steps don’t run. The Result monad itself is responsible for running or not running the next steps.
+### Using `Result` (Map/Bind/Match)
 
 
 ***
@@ -271,6 +265,7 @@ public sealed class Result<TSuccess, TError>
 Result<int, Error> failure = Result<int, Error>.Fail(new Error("404", "Not found"));
 Result<int, Error> doubled = Result<int, Error>.Ok(42).Map(x => x * 2);
 var doubledValue = doubled.Match(ok: v => v, err: _ => -1);
+// doubledValue == 84
 
 Result<string, Error> GetUserId(string token) =>
     string.IsNullOrWhiteSpace(token)
@@ -300,6 +295,7 @@ Result<int, Error> count =
         .Bind(GetOrderCount); 
 // Returns Ok(7). If any step failed, it would return that error.
 var countValue = count.Match(ok: v => v, err: _ => -1);
+// countValue == 7
 
 Result<int, Error> count2 =
     Result<string, Error>.Ok("") // empty token
@@ -339,16 +335,11 @@ var message = result.Match(
     err: e => $"Fail({e.Code}: {e.Message})");
 ```
 
-What `Match` guarantees:
-
-- You handle both cases (`Ok` and `Fail`) in one place.
-- The handlers only see the value they're allowed to see (`TSuccess` vs `TError`).
-
 At some point you need the error value. As with `Maybe`, prefer composing and unwrapping once at the boundary.
 
 **Why no `.Value` property?**
 
-You might notice the `Result` class above doesn't expose a `public Value` property. This is intentional. If we exposed it, it would be tempting to write:
+This tutorial `Result` doesn’t expose a `public Value` property. That’s intentional: it nudges you toward `Match` instead of manual inspection.
 
 ```csharp
 // ⚠️ ANTI-PATTERN (hypothetical — not implemented in this tutorial)
