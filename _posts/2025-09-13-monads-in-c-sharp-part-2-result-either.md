@@ -24,7 +24,12 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
+In LINQ terms: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. This post uses method chaining to keep focus on flow rather than query syntax.
+
+> Terminology note (Either vs. Result):
+> `Result<TSuccess, TError>` is the success/failure convention.
+> Some libraries expose `Either<L, R>`; many are right-biased, so `Map`/`Bind` compose `R`.
+> This post uses `Result` naming for readability; check your library for type parameter order and bias.
 
 ### Result: when “missing” needs a reason
 
@@ -58,17 +63,28 @@ The steps are sequential:
 
 These steps are sequential: step 2 depends on step 1. `Result` models this fail-fast flow.
 
+### Why return a `Result` at all?
+Returning `Result<TSuccess, TError>` makes expected failure explicit in the type system instead of hiding it in `null` or the call stack.
+
+- **Honest signatures**: callers see “this can fail” up front, with a reason.
+- **Fewer invalid states**: avoid sentinel values like `null` that push failure to “somewhere later.”
+- **Composable steps**: reuse `ParseId`, `FindUser`, and domain rules without repeating checks.
+- **Testability**: assert on returned values (`Ok`/`Fail`) instead of exceptions.
+
 ### When NOT to use `Result`
 `Result` is great for **expected, domain-level failures**. It’s a poor fit in a few common scenarios:
 
 - **System failures:** DB down, OOM, null refs → let exceptions bubble to global middleware.
 - **Bugs / invariant violations:** throw (e.g., `ArgumentNullException`); that’s a caller bug, not a domain outcome.
 - **Hot paths:** if allocations matter, `Result`-as-class may be too costly; prefer `try`/`out` or structs.
-- **Validation that must accumulate errors:** monadic chaining is fail-fast; use an accumulator.
-- **Shotgun validation:** parse once at the boundary into strong types; don’t return `Result` everywhere for primitive checks.
+- **Shotgun validation:** parse once at the boundary into strong types; avoid returning `Result` everywhere for primitive checks.
 - **Side-effect-only chains:** avoid “monadifying” effects; keep writes at the boundary or use explicit orchestration.
 - **Partial success / batch work:** prefer per-item outcomes over all-or-nothing `Result<List<T>, E>`.
 - **Effect stacking:** if you’re drowning in `Task<Result<...>>` glue without async combinators, the cost may outweigh the benefits.
+
+> **Critical Design Note: Validation vs. Flow**
+> `Bind` is fail-fast: it stops on the first error. That’s perfect for dependent workflows (if parsing fails, you can’t query the DB).
+> For form-style validation where checks are independent, users usually want *all* errors at once, so prefer a validation/accumulator type.
 
 ### Comparison: The Status Quo
 The strongest C# alternative is `Try`/`out`: it’s fast, but `false` loses the reason for failure.
@@ -113,7 +129,7 @@ public Result<User, Error> DeactivateUser(string inputId) =>
 > *Note on Naming:* In functional programming, this operation is called `flatMap` (or `SelectMany` in LINQ). We use the name **`Bind`** here to keep it distinct from `Map` and to match the convention established in Part 1.
 
 ```csharp
-// Structured error type (avoid `string` errors).
+// Structured error type (instead of `string`).
 public record Error(string Code, string Message);
 
 // Educational implementation of Result<TSuccess, TError>.
@@ -156,7 +172,7 @@ public sealed class Result<TSuccess, TError>
     {
         if (IsSuccess)
         {
-            // Explicitly call the factory. Clear to Java/Rust/JS devs.
+            // Explicitly call the factory.
             return Result<U, TError>.Ok(f(_value));
         }
 
@@ -198,7 +214,7 @@ var result =
     select user;
 ```
 
-> We are sticking to explicit method chaining (`Bind`) in this post to make the data flow visible, but production libraries usually support both.
+> This post uses explicit method chaining (`Bind`) to keep the data flow visible; production libraries usually support both.
 
 > Production note: equality/default behavior omitted.
 >
@@ -221,7 +237,7 @@ Flags are handy for quick checks or filtering, but prefer `Match` when you need 
 
 **Why no `.Value` property?**
 
-This tutorial `Result` doesn’t expose a `public Value` property. That nudges you toward `Match` instead of manual inspection.
+This tutorial `Result` doesn’t expose a `public Value` property; `Match` is the unwrapping API.
 
 ```csharp
 // ⚠️ ANTI-PATTERN (hypothetical — not implemented in this tutorial)
@@ -234,12 +250,12 @@ This tutorial `Result` doesn’t expose a `public Value` property. That nudges y
 // }
 ```
 
-Keeping the state private pushes you toward `Match`, so the error case stays handled.
+Keeping state private makes unwrapping explicit: `Match` forces handling both branches.
 
-Avoid adding helper methods like `ValueOrThrow()`: they reintroduce “exceptions as control flow.”
+Methods like `ValueOrThrow()` reintroduce “exceptions as control flow.”
 
 ### Putting it together: the Deactivate User pipeline
-Now the workflow is a few small steps, with persistence at the boundary:
+Here’s the workflow as small steps, with persistence at the boundary:
 
 ```csharp
 public sealed class User
@@ -302,10 +318,10 @@ public sealed class UserService
 ```
 
 > **A Note on I/O and Side Effects**
-> Reads (`FindUser`) inside the pipeline are common in Railway-Oriented Programming. Writes stay outside: commit `_repo.Save` in the `Match` success branch (“functional core, imperative shell”).
+> In Railway-Oriented Programming, reads (`FindUser`) often appear in the pipeline; keep writes outside it (call `_repo.Save` in the `Match` success branch — “functional core, imperative shell”).
 
 > **Functional Purity Note:**
-> FP would return a new user; ORMs like EF typically mutate tracked entities. We mutate here for pragmatism.
+> FP would return a new user; ORMs like EF typically mutate tracked entities. This example mutates for pragmatic persistence.
 
 In a real app, this boundary usually lives in an application service/transaction.
 
@@ -320,12 +336,12 @@ To fix this, you need "Async Bridges" (e.g., `BindAsync` or `SelectManyAsync`).
 We aren’t building those extensions here; production libraries (LanguageExt, FluentResults, CSharpFunctionalExtensions) provide them.
 
 ### A Warning on Implementation
-Async combinators need careful handling (cancellation, exceptions). Writing your own `Result` is fine for learning; for production, use a library:
+Async combinators need careful handling (cancellation, exceptions). Rolling your own `Result` is fine for learning; for production, prefer a library:
 - ErrorOr (Simple, struct-based)
 - FluentResults (Rich features)
 - LanguageExt (Strict functional style)
 
-Then you can write:
+Then the pipeline stays linear:
 
 ```csharp
 // What these libraries allow you to do:
@@ -360,7 +376,7 @@ public async Task<IActionResult> GetUser(string id)
 {
     Result<User, Error> result = await _userService.Get(id);
 
-    // Use Match to unwrap the Result back into the "Real World"
+    // Use Match to map the Result into an HTTP response
     return result.Match<IActionResult>(
         ok: user => Ok(user),
         err: error => error.Code switch
