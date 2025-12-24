@@ -29,33 +29,33 @@ string message = result.Match(
 You likely use this pattern already.
 If you use LINQ, you know this flow: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to single outcomes instead of lists.
 
-> **Terminology Note:** This post uses the name `Result<T, E>`. In other functional languages or libraries, you will often see this called `Either<L, R>` (Left/Right). By convention, "Right" is correct (Success), and "Left" is the error.
+Terminology note: I’ll call it `Result<T, E>` in this post. In other languages/libraries you’ll often see `Either<L, R>` (Left/Right). By convention, Right is success and Left is the error.
 
-### Result: When “Missing” Needs a Reason
+### Result: when “missing” needs a reason
 
 `Maybe<T>` tells us whether a value exists. `Result` adds why it doesn’t.
 
-- **`Ok(value)`**: The operation succeeded (like `Some`).
-- **`Fail(error)`**: The operation failed, carrying the error data (like `None`, but with a payload).
-- **`Bind` / `FlatMap`**: The mechanism that chains the steps.
+- `Ok(value)` means the operation succeeded (like `Some`).
+- `Fail(error)` means the operation failed and carries error data (like `None`, but with a payload).
+- `Bind` / `FlatMap` is the mechanism that chains the steps.
 
-### The Key Behavior: Short-Circuiting
+### Short-circuiting (the whole point)
 
-The power of `Result` isn't just storing the error; it's the composition. Just like the `&&` operator stops evaluating if the first part is false, `Bind` ensures that if Step 1 fails, Step 2 is never executed.
+The power of `Result` isn't just storing the error; it’s the composition. `Bind` only runs the next step if the previous one succeeded. It’s the same idea as `&&` short-circuiting.
 
 - If `ParseId` fails, `FindUser` is skipped.
 - If `FindUser` fails, `Deactivate` is skipped.
 - The error produced by the first failure is passed all the way to `Match`.
 
-### Scenario: The "Deactivate User" Pipeline
+### Example: deactivating a user
 
 We want to deactivate a user given an `id` **string** from an HTTP request. We parse it to `int`, load the user, ensure they’re active, then persist `IsActive = false`.[^id]
 
 The steps are sequential:
 
-1.  **Parse:** `string` → `int`.
-2.  **Find:** user must exist.
-3.  **Rule:** user must be active.
+1.  Parse: `string` → `int`
+2.  Find: user must exist
+3.  Rule: user must be active
 
 > **Quick note: Result vs. `T?` (optional)**
 >
@@ -63,32 +63,28 @@ The steps are sequential:
 >
 > Use `Result<TSuccess, TError>` when absence needs a reason (e.g., user lookup: `NotFound` vs `PermissionDenied` vs `DatabaseError`).
 
-`Result` models this fail-fast flow.
+### Why bother with `Result`?
+Returning `Result<TSuccess, TError>` makes expected failure obvious in the type system instead of hiding it in `null` or the call stack.
 
-### Why return a `Result` at all?
-Returning `Result<TSuccess, TError>` makes expected failure explicit in the type system instead of hiding it in `null` or the call stack.
+It has a few practical upsides:
 
-- **Honest signatures**: callers see “this can fail” up front, with a reason.
-- **Fewer invalid states**: avoid sentinel values like `null` that push failure to “somewhere later.”
-- **Composable steps**: reuse `ParseId`, `FindUser`, and domain rules without repeating checks.
-- **Testability**: assert on returned values (`Ok`/`Fail`) instead of exceptions.
+- Callers see “this can fail” up front (and you can carry a real error value, not just `false`).
+- You don’t have to use sentinel values like `null` to mean “something went wrong.”
+- You can reuse `ParseId`, `FindUser`, and rules without repeating the same checks everywhere.
+- Tests can assert on `Ok` / `Fail` instead of catching exceptions.
 
-### When NOT to use `Result`
-`Result` is great for **expected, domain-level failures**. It’s a poor fit in a few common scenarios:
+### When `Result` is the wrong tool
+`Result` is great for expected, domain-level failures. It’s not a replacement for exceptions, and it’s not something you want everywhere.
 
-- **System failures:** DB down, OOM, null refs → let exceptions bubble to global middleware.
-- **Bugs / invariant violations:** throw (e.g., `ArgumentNullException`); that’s a caller bug, not a domain outcome.
-- **Hot paths:** if allocations matter, `Result`-as-class may be too costly; prefer `try`/`out` or structs.
-- **Shotgun validation:** parse once at the boundary into strong types; avoid returning `Result` everywhere for primitive checks.
-- **Side-effect-only chains:** avoid “monadifying” effects; keep writes at the boundary or use explicit orchestration.
-- **Partial success / batch work:** prefer per-item outcomes over all-or-nothing `Result<List<T>, E>`.
-- **Effect stacking:** if you’re drowning in `Task<Result<...>>` glue without async combinators, the cost may outweigh the benefits.
+A few common gotchas:
 
-> **Critical Design Note: Validation vs. Flow**
-> `Bind` is fail-fast: it stops on the first error. That’s perfect for dependent workflows (if parsing fails, you can’t query the DB).
-> For form-style validation where checks are independent, users usually want *all* errors at once, so prefer a validation/accumulator type.
+- Infrastructure failures (DB down, OOM, null refs): let exceptions bubble to your global middleware.
+- Bugs / invariant violations: throw (e.g., `ArgumentNullException`). That’s a caller bug, not a domain outcome.
+- Form-style validation: `Bind` stops at the first error, but users usually want *all* validation errors at once.
 
-### Comparison: The Status Quo
+Also: if you’re in a hot path, watch allocations (this tutorial uses a class). And if you’re stacking effects (`Task<Result<...>>`), you’ll want async combinators or you’ll end up writing a lot of glue.
+
+### The status quo
 The strongest C# alternative is `Try`/`out`: it’s fast, but `false` loses the reason for failure.
 
 ```csharp
