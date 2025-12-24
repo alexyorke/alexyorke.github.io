@@ -88,8 +88,8 @@ Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit
 ### When NOT to use `Result`
 `Result` is great for **expected, domain-level failures**. It’s a poor fit in a few common scenarios:
 
-- **Bugs / invariant violations**: null refs, out-of-range, “this can’t happen” states. Those should throw/crash so you fix the bug.
-- **Truly unrecoverable failures**: missing critical startup config, broken invariants, “the database is down”, and similar “we can’t continue” conditions. Failing fast (via a global exception handler/middleware) is usually safer than returning a value the caller can’t do anything with.
+- **Bugs / invariant violations**: e.g., `NullReferenceException`, out-of-range, “this can’t happen” states. Those should throw/crash so you fix the bug.
+- **System health failures**: e.g., database connection failures, “the database is down”, and similar “we can’t continue” conditions. If the request can’t proceed, let the exception bubble to a global handler/middleware. `Result` is for *domain outcomes* (NotFound, InsufficientFunds), not *system health*.
 - **Validation that must accumulate errors**: if you want “email invalid **and** password weak” in one response, `Result`’s fail-fast monadic chaining is the wrong tool; prefer a validation/accumulator type.
 - **Shotgun validation in the domain**: if every domain method accepts weak primitives (`string email`) and returns `Result` for basic format checks, you’re not modeling invariants—parse once at the boundary into strong types/value objects, then keep the core domain free of “is this string valid?” checks.
 - **Side-effect-only chains** (`Result<Unit>` / `Result<void>`): chaining logging/metrics/email/cache writes via `Bind` often creates artificial sequencing and hides partial-success realities. Prefer doing effects at the boundary (or explicit orchestration patterns like jobs/sagas) rather than monadifying every void step.
@@ -201,7 +201,8 @@ public record Error(string Code, string Message);
 // Production note: in a production library, this would often be a `readonly struct` to reduce memory allocations.
 // We use a `class` here to keep the implementation code simple.
 //
-// Note: this uses `!` (null-forgiveness) to keep the code short; production libraries enforce invariants more strictly.
+// Note: this uses `!` (null-forgiveness) to keep the code short; production code typically enforces invariants more strictly
+// (e.g., with richer representations and/or nullable analysis attributes like `[MemberNotNullWhen]`).
 public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess? _value;
@@ -452,7 +453,7 @@ var emailResult =
 
 To fix this, you need "Async Bridges" - extension methods like `BindAsync` that handle the `await` for you inside the chain.
 
-> Note: We are **not** implementing `BindAsync`/`MapAsync` in this tutorial. Doing it well quickly turns into boilerplate around `Task` awaiting, cancellation, context, and exception behavior. The goal here is to understand the *shape* of composition; in production, use a library that provides these async operators out of the box.
+> Note: We are **not** implementing `BindAsync`/`MapAsync` in this tutorial. Doing it well quickly turns into boilerplate around `Task` awaiting, cancellation, context, and exception behavior. In modern C#, without these helpers this pattern quickly becomes impractical — you effectively need a library (or your own extensions) to make `Task<Result<...>>` ergonomic.
 
 ### A Warning on Implementation
 Maintenance Note:
@@ -519,7 +520,7 @@ public Result<Maybe<Phone>, Error> ValidateOptionalPhone(string? input)
 
 `Result<TSuccess, TError>` is an internal domain type. At the edges of your system (API `Controllers`, UI Views, etc.) collapse it into a boundary type (e.g., `IActionResult`) using `Match`.
 
-Never return a raw `Result` object directly to the frontend. It’s an internal plumbing tool, not a public data contract. Returning it is a **leaky abstraction**: it forces your JavaScript client to learn about your internal C# architecture.
+**Never return** a raw `Result` object directly to the frontend. It’s an internal plumbing tool, not a public data contract. Returning it is a **leaky abstraction**: it forces your JavaScript client to learn about your internal C# architecture.
 
 In ASP.NET Core, **`ProblemDetails` is the standard JSON shape for errors**. That’s why mapping `Result` → `ProblemDetails` is usually better than inventing a custom `{ success: false, error: ... }` wrapper: you keep HTTP semantics (status codes), stay idiomatic for .NET clients/middleware, and still surface structured error codes/messages.
 
@@ -614,7 +615,7 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 4.  **Prefer established libraries:** For production, rely on maintained packages for async composition (`Task<Result<...>>`) and edge-case handling.
 
 **A Note on Libraries:**
-For production C#, prefer a mature library (e.g., **FluentResults**, **ErrorOr**, **LanguageExt**) rather than maintaining your own. Disclaimer: I have not used these libraries extensively.
+For production C#, prefer a mature library (e.g., **FluentResults**, **ErrorOr**, **LanguageExt**) rather than maintaining your own.
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
