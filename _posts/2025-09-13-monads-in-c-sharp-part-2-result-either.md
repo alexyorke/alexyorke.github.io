@@ -9,7 +9,7 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In Part 1 you built `Maybe` and used `Bind`/`FlatMap` to chain optional steps. Here we add an error branch: `Result<TSuccess, TError>`.
+In Part 1 we used `List<T>` to introduce `Map` vs `flatMap` (and why the monad laws matter), then built `Maybe<T>`/Option to chain optional steps. Here we switch contexts again: instead of “many values” or “maybe a value”, we model **fallible** steps with an explicit error branch: `Result<TSuccess, TError>`.
 
 `Result` lets you chain fallible steps without an `if` ladder or `try`/`catch` for expected outcomes:
 
@@ -24,7 +24,7 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-You likely use Monads already. If you use LINQ, you know this pattern: Map is just Select, and Bind is just SelectMany. We are simply applying that same chainable logic to Errors instead of Lists.
+You likely use monads already. If you use LINQ, you know this pattern: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to errors instead of lists.
 
 > Terminology note (Either vs. Result):
 > `Result<TSuccess, TError>` is the success/failure convention.
@@ -62,7 +62,7 @@ The steps are sequential:
 >
 > Use `Result<TSuccess, TError>` when absence needs a reason (e.g., user lookup: `NotFound` vs `PermissionDenied` vs `DatabaseError`).
 
-These steps are sequential: step 2 depends on step 1. `Result` models this fail-fast flow.
+`Result` models this fail-fast flow.
 
 ### Why return a `Result` at all?
 Returning `Result<TSuccess, TError>` makes expected failure explicit in the type system instead of hiding it in `null` or the call stack.
@@ -141,8 +141,10 @@ public record Error(string Code, string Message);
 // Note: Null/default-state checks are intentionally omitted here; use a well-tested library in production.
 public sealed class Result<TSuccess, TError>
 {
-    private readonly TSuccess _value;
-    private readonly TError _error;
+    // Only one of these is populated at a time.
+    // They're nullable to keep the sample friendly to C# nullable reference types (NRT).
+    private readonly TSuccess? _value;
+    private readonly TError? _error;
 
     // Private constructors ensure valid state
     private Result(TSuccess value)
@@ -195,6 +197,16 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error);
     }
 
+    // ------------------------------------------------------------
+    // LINQ query syntax support (Select/SelectMany)
+    // ------------------------------------------------------------
+    public Result<U, TError> Select<U>(Func<TSuccess, U> f) => Map(f);
+
+    public Result<V, TError> SelectMany<U, V>(
+        Func<TSuccess, Result<U, TError>> bind,
+        Func<TSuccess, U, V> project) =>
+        Bind(t => bind(t).Map(u => project(t, u)));
+
     // Match: The only way to extract the value
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
@@ -208,14 +220,40 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-> **Side note: LINQ**
-> With `SelectMany` overloads, query syntax works too:
+> **Side note: LINQ / query syntax**
+> C# query syntax requires methods named `Select` and `SelectMany` (instance methods or extension methods). In the tutorial `Result` above, they’re thin wrappers around `Map`/`Bind`, so query syntax works too:
 
 ```csharp
-var result = 
-    from id in ParseId(input)
+string inputId = "123";
+
+var result =
+    from id in ParseId(inputId)
     from user in FindUser(id)
     select user;
+```
+
+If you’re using a `Result` type you can’t modify, you can also supply the LINQ method names as extension methods:
+
+```csharp
+public static class ResultLinqExtensions
+{
+    public static Result<U, E> Select<T, U, E>(
+        this Result<T, E> result,
+        Func<T, U> map) =>
+        result.Map(map);
+
+    public static Result<U, E> SelectMany<T, U, E>(
+        this Result<T, E> result,
+        Func<T, Result<U, E>> bind) =>
+        result.Bind(bind);
+
+    // Required for query syntax translation (the "project" / result selector overload).
+    public static Result<V, E> SelectMany<T, U, V, E>(
+        this Result<T, E> result,
+        Func<T, Result<U, E>> bind,
+        Func<T, U, V> project) =>
+        result.Bind(t => bind(t).Map(u => project(t, u)));
+}
 ```
 
 > This post uses explicit method chaining (`Bind`) to keep the data flow visible; production libraries usually support both.
@@ -313,7 +351,7 @@ public sealed class UserService
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
-        // Functionally, we should return a new object (e.g., `user with { IsActive = false }`).
+        // Functionally, we should return a new user instance (or make `User` an immutable record and use `with`).
         // Pragmatically, we mutate the existing EF Core entity to simplify persistence.
         user.IsActive = false;
         return Result<User, Error>.Ok(user);
@@ -331,9 +369,13 @@ In a real app, this boundary usually lives in an application service/transaction
 
 ### The Async Reality (Async composition friction)
 
-In modern C#, almost all I/O is asynchronous and returns Task<T>.
-Crucial realization: Task<T> is also a Monad. It has Map (via await or ContinueWith) and Bind (via await inside await).
-The friction arises when we try to compose two different monads: Task (latency) and Result (failure).
+In modern C#, almost all I/O is asynchronous and returns `Task<T>`.
+That means you often end up composing *two* effects at once: async (`Task`) and failure (`Result`).
+
+Crucial realization: `Task<T>` is **monad-like** in shape: you can map by awaiting and transforming the result, and bind by awaiting and returning another task.[^task-monad]
+The friction shows up when you have `Task<Result<...>>` and want to keep the same linear `Bind` flow.
+
+> Pedantry corner: `Task` is "hot" (often starts immediately), and exceptions/cancellation are part of the model, so the strict monad laws get more subtle than in a pure `Async<T>`.
 
 Without async bridges, you can’t chain `Task<Result<...>>` with the same linear flow — you end up manually `await`-ing and unwrapping each step.
 
@@ -361,7 +403,7 @@ public Task<Result<User, Error>> DeactivateUser(string inputId) =>
 
 Treat `Result<TSuccess, TError>` as internal plumbing. At the boundary (API controller, UI, etc.), unwrap it (e.g., to `IActionResult`) using `Match`.
 
-**Never return** a raw `Result` object directly to the frontend. It’s an internal plumbing tool, not a public data contract. Returning it is a **leaky abstraction**: it forces your JavaScript client to learn about your internal C# architecture.
+**Usually avoid returning** a raw `Result` object directly to the frontend. It’s an internal plumbing tool, not a public data contract. Returning it is a **leaky abstraction**: it forces your JavaScript client to learn about your internal C# architecture.
 
 In ASP.NET Core, **`ProblemDetails` is the standard error shape**, so mapping `Result` → `ProblemDetails` is usually better than a custom `{ success: false, error: ... }` wrapper.
 
@@ -439,3 +481,4 @@ For production C#, prefer a mature library (e.g., **FluentResults**, **ErrorOr**
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
 [^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
+[^task-monad]: Technically, `Task<T>` violates some monad laws due to eager evaluation and result caching (e.g., the right identity law can fail if the task has already completed). However, for practical purposes in C#, treating `Task<T>` as monadic is useful for understanding async composition patterns.
