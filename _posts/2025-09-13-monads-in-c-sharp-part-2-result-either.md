@@ -213,51 +213,66 @@ public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess _value;
     private readonly TError _error;
-    private readonly bool _isSuccess;
 
     // Private constructors ensure valid state
     private Result(TSuccess value)
     {
-        _isSuccess = true;
+        IsSuccess = true;
         _value = value;
         _error = default;
     }
 
     private Result(TError error)
     {
-        _isSuccess = false;
+        IsSuccess = false;
         _value = default;
         _error = error;
     }
 
     // The "Unit" operation (lifts a value into the Monad).
     // We name it 'Ok' to follow standard C# conventions (similar to 'Some' in Part 1).
-    public static Result<TSuccess, TError> Ok(TSuccess value) => new(value);
-    public static Result<TSuccess, TError> Fail(TError error) => new(error);
+    public static Result<TSuccess, TError> Ok(TSuccess value) => new Result<TSuccess, TError>(value);
+    public static Result<TSuccess, TError> Fail(TError error) => new Result<TSuccess, TError>(error);
 
-    public bool IsSuccess => _isSuccess;
-    public bool IsFailure => !_isSuccess;
+    // ------------------------------------------------------------
+    // Queries (For domain logic, prefer Match over checking these)
+    // ------------------------------------------------------------
+    public bool IsSuccess { get; }
+    public bool IsFailure => !IsSuccess;
 
-    // Map: Transform value (TSuccess -> U)
+    // Map: Transform the success value (TSuccess -> U)
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
-        return _isSuccess
-            ? Result<U, TError>.Ok(f(_value))
-            : Result<U, TError>.Fail(_error);
+        if (IsSuccess)
+        {
+            // Explicitly call the factory. Clear to Java/Rust/JS devs.
+            return Result<U, TError>.Ok(f(_value));
+        }
+
+        // Propagate the existing error
+        return Result<U, TError>.Fail(_error);
     }
 
     // Bind: Chain operation (TSuccess -> Result<U, TError>)
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
-        return _isSuccess
-            ? f(_value)
-            : Result<U, TError>.Fail(_error);
+        if (IsSuccess)
+        {
+            return f(_value);
+        }
+
+        return Result<U, TError>.Fail(_error);
     }
 
     // Match: The only way to extract the value
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
-        return _isSuccess ? ok(_value) : err(_error);
+        if (IsSuccess)
+        {
+            return ok(_value);
+        }
+
+        return err(_error);
     }
 }
 ```
@@ -359,8 +374,19 @@ var message = result.Match(
 
 At some point you need the error value. As with `Maybe`, prefer composing and unwrapping once at the boundary.
 
-**Why `Match` instead of `if (IsSuccess)`?**
-You might be tempted to inspect `IsSuccess` and access the value directly. We prefer `Match` because it forces **exhaustiveness**: you cannot compile the code without handling the Error case. With an `if` statement, it is too easy to forget the `else` block and leave the application in an undefined state.
+**A note on `IsSuccess` / `IsFailure`**
+
+> "We expose `IsSuccess` and `IsFailure` for convenient integration with standard C# features like LINQ queries (`results.Where(r => r.IsFailure)`) and UI binding.
+>
+> However, notice we do **not** expose the internal value directly. To act on the data, you must use `Match`. This prevents the common mistake of checking the flag but forgetting to handle the error case."
+
+In other words: sometimes you need to ask a **Boolean question** (“Did it work?”) to interop with the rest of C# (simple `if` checks, LINQ filtering, UI binding). But when you want to *do something with the value*, prefer `Match` so the error path stays explicit and handled.
+
+For example, filtering failures is pleasant with a query property:
+
+```csharp
+var failures = results.Count(r => r.IsFailure);
+```
 
 **Why no `.Value` property?**
 
@@ -404,7 +430,7 @@ public sealed class UserService
     private readonly IUserRepo _repo;
     public UserService(IUserRepo repo) => _repo = repo;
 
-    // Domain pipeline: no I/O
+    // The Pipeline: Orchestrates validation and data retrieval
     public Result<User, Error> DeactivateUser(string inputId) =>
         ParseId(inputId)
             .Bind(FindUser)
@@ -446,6 +472,14 @@ public sealed class UserService
 }
 ```
 
+> **A Note on I/O and Side Effects**
+> You'll notice this pipeline mixes Reads (`FindUser`) with Logic (`Deactivate`).
+> In Pragmatic C# (Railway Oriented Programming), this is common: we use `Result` to orchestrate the "Decision" phase, which often requires fetching data (and `NotFound` is usually the #1 use case).
+> However, notice that the Write (`_repo.Save`) happens outside the pipeline, in the `Match` block.
+> This follows the "Functional Core, Imperative Shell" principle (roughly):
+> Pipeline: Gather data and make a decision (returns `Result`).
+> Boundary: If successful, commit the side effect (`Save`).
+
 > **Functional Purity Note:**
 > In strict Functional Programming, data is immutable. Instead of setting `user.IsActive = false`, we would return a new copy of the user (e.g., using C# records and `with` expressions).
 > However, most C# applications use ORMs (like Entity Framework) that track changes on mutable objects. To keep this tutorial focused on Error Handling rather than State Management, we stick to the idiomatic C# approach of mutating the entity.
@@ -455,6 +489,8 @@ In a real app, that “boundary” method usually lives in an application servic
 ### The Async Reality (Async composition friction)
 
 In modern C#, almost all I/O (Database, HTTP) is asynchronous and returns `Task<T>`. This creates a major friction point.
+
+In a real application, `FindUser` would likely be a database call returning `Task<User?>`. This would require `BindAsync` (or similar async bridges) to keep the pipeline linear without reintroducing nesting.
 
 **The Problem:**
 `Task<Result<...>>` is a type wrapped in a type. Standard `Bind` expects a `T`, but your previous step returns a `Task`. You cannot access the `Result` inside without `await`-ing it first. This forces you to break the chain, await the result, unwrap it, and manually start the next step—recreating the nesting we tried to avoid.
@@ -615,9 +651,10 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 {
     // Arrange
     var repo = new InMemoryUserRepo(); // empty repo => not found
+    var service = new UserService(repo);
 
     // Act
-    var result = DeactivateUser("123");
+    var result = service.DeactivateUser("123");
 
     // Assert
     Assert.True(result.IsFailure);
