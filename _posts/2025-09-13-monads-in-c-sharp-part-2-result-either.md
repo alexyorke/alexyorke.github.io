@@ -26,13 +26,6 @@ string message = result.Match(
 
 If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
-**What you’ll build:**
-
-1.  Introduce `Result<TSuccess, TError>`.
-2.  Apply it to a linear workflow (Deactivate User).
-3.  Discuss the async composition friction (`Task<Result<...>>`) and the library hand-off.
-4.  Handle the API boundary correctly (avoiding serialization pitfalls).
-
 > Terminology note (Either vs. Result):
 > Result<TSuccess, TError> is a convention: it encodes “success vs. failure.”
 > You’ll also see Either<L, R>, which encodes “one of two possibilities.” In some libraries, Either is right-biased, so Map/Bind compose the Right value and short-circuit on Left.
@@ -98,59 +91,10 @@ Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit
 - **Partial success / batch work**: if “process 100 items” can succeed for 95 and fail for 5, a single `Result<List<T>, E>` forces the wrong all-or-nothing semantics. Prefer a dedicated batch result type (successes + failures) or a list of per-item results.
 - **Effect stacking / “transformer hell”**: if you end up drowning in `Task<Result<...>>` glue (and you’re not using a library that smooths it), the complexity may outweigh the benefits.
 
-### Comparison patterns (exceptions vs tuples vs Try/out vs Result)
-
-#### Example 1: Baseline Exceptions
-In a common C# style, failures are often signaled with exceptions. That means control flow is implicit: any line might abort the method by throwing.
-
-Also note: in real code, exceptions aren’t always thrown as explicitly as they are in the example below — they often bubble up from library/framework calls (`int.Parse`, database drivers, HTTP clients, etc.).
-
-```csharp
-public void DeactivateUser(string inputId)
-{
-    // 1. Parse (May throw FormatException)
-    int id = int.Parse(inputId);
-
-    // 2. Find (May throw NullReference or Custom Exception)
-    User user = _repo.Find(id); 
-    if (user == null) throw new KeyNotFoundException($"User {id} not found");
-
-    // 3. Logic (May throw InvalidOperationException)
-    if (!user.IsActive) throw new InvalidOperationException("User is already inactive");
-
-    user.IsActive = false;
-    _repo.Save(user);
-}
-```
-
-**Critique:** This works, and for true system failures (DB down, OutOfMemory), exceptions are the right tool. But "User Not Found" or "User Inactive" are expected domain outcomes. Using exceptions here makes `void DeactivateUser(string)` hide expected outcomes and pushes callers into `try`/`catch` control flow.
-
-#### Example 2: The Tuple Pattern
-To make failures explicit, we might return a tuple `(Success, Error)`.
-
-```csharp
-public (bool Success, string Error) DeactivateUser(string inputId)
-{
-    if (!int.TryParse(inputId, out int id)) 
-        return (false, "Invalid ID format");
-
-    User? user = _repo.Find(id);
-    if (user == null) 
-        return (false, "User not found");
-
-    if (!user.IsActive) 
-        return (false, "User is already inactive");
-
-    user.IsActive = false;
-    _repo.Save(user);
-    return (true, "");
-}
-```
-
-**Critique:** This is "honest," but it creates **Manual Error Propagation**. You have to explicitly check the `Success` boolean after *every single step*. If you forget one check, the execution continues with invalid data (or nulls). Half your code becomes `if (!success) return ...`, obscuring the actual business logic.
-
-#### Example 3: The Try/out Pattern
-Another approach is the Try pattern: return a bool for success and write the result to an `out` parameter. Assume the repository exposes `TryFind` as well.
+### Comparison: The Status Quo
+Exceptions: Implicit control flow. Good for system crashes, bad for expected domain logic ("User not found").
+Tuples (bool Success, string Error): Creates manual error propagation. You must check if (!success) return ... after every step. One missed check leads to bugs.
+The strongest competitor in C# is the Try/Out Pattern:
 
 ```csharp
 public static bool TryDeactivateUser(
@@ -181,7 +125,7 @@ If `TryDeactivate` returns `false`, was the ID format invalid? Was the user miss
 It also lacks strict compiler enforcement: the signature doesn't guarantee `user` is non-null on the `true` path. `[NotNullWhen(true)]` helps, but it generates warnings rather than errors.
 
 
-#### Example 4: The Result Monad
+#### The Result Monad
 We want the best of both worlds: the **linear readability** of exceptions, but with the **explicit safety** of return values.
 
 ```csharp
@@ -538,44 +482,6 @@ public Task<Result<User, Error>> DeactivateUser(string inputId) =>
 
 With `Result<TSuccess, TError>`, since an error type is explicitly specified, you’ll usually want to surface it at the edge (UI, logs, HTTP response, etc.). That’s what `Match` is for.
 
-### Nesting: Maybe inside Result
-Monads are composable. Sometimes you need to wrap a `Maybe<T>` inside a `Result<TSuccess, TError>`. This creates the type `Result<Maybe<T>, Error>`.
-
-The most common use case is **optional fields** (e.g., a "Phone Number" on a profile):
-
-- If the user sends a valid phone number, we update it (**Ok + Some**).
-- If the user sends nothing, that's valid, but we do nothing (**Ok + None**).
-- If the user sends `"123-garbage"`, that is an error (**Fail**).
-
-Here is how you build and consume that structure without complex extension methods:
-
-```csharp
-public record Phone(string Value);
-
-// Scenario: Parsing an optional input field
-public Result<Maybe<Phone>, Error> ValidateOptionalPhone(string? input)
-{
-    // Case 1: Input is missing (null or empty)
-    // This is NOT a failure. It's a valid "Empty" state.
-    if (string.IsNullOrWhiteSpace(input))
-    {
-        return Result<Maybe<Phone>, Error>.Ok(Maybe<Phone>.None());
-    }
-
-    // Case 2: Input exists, but is invalid
-    // This IS a failure.
-    if (!input.Contains("-"))
-    {
-        return Result<Maybe<Phone>, Error>.Fail(new Error("Format", "Phone must contain dashes"));
-    }
-
-    // Case 3: Input exists and is valid
-    // This is Success containing Data.
-    var phone = new Phone(input);
-    return Result<Maybe<Phone>, Error>.Ok(Maybe<Phone>.Some(phone));
-}
-```
-
 ### Exiting the Monad (The API Boundary)
 
 `Result<TSuccess, TError>` is an internal domain type. At the edges of your system (API `Controllers`, UI Views, etc.) collapse it into a boundary type (e.g., `IActionResult`) using `Match`.
@@ -636,10 +542,6 @@ public async Task<IActionResult> GetUser(string id)
 ```json
 { "title": "NotFound", "detail": "User 123 not found", "status": 404 }
 ```
-
-### Why does this feel so complicated?
-
-Does this feel like more work than `try`/`catch`? The trade-off is that complexity is visible in method signatures rather than hidden in the call stack: implicit control flow becomes explicit data flow.
 
 ### Testing Strategies
 
