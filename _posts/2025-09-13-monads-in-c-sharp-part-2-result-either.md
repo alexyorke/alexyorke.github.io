@@ -2,7 +2,7 @@
 
 title: "Monads in C# (Part 2): Result"
 date: 2025-09-13
-description: "Build a right-biased Result type in C# and use Map/Bind/Match to compose workflows with explicit failures, including async friction and API boundary handling."
+description: "Build a small Result type in C# and use Map/Bind/Match to compose fail-fast workflows with explicit errors (plus notes on async and API boundaries)."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
@@ -10,6 +10,19 @@ description: "Build a right-biased Result type in C# and use Map/Bind/Match to c
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
 In Part 1 you built `Maybe` and used `Bind` (aka `FlatMap`) to chain optional steps. This part keeps that shape but lets the "no value" branch carry a reason via `Result<TSuccess, TError>`.
+
+Concretely, `Result` lets you write a multi-step workflow where each step can fail, without turning the code into an `if` ladder or a pile of `try`/`catch` for expected outcomes:
+
+```csharp
+Result<User, Error> result =
+    ParseId(inputId)
+        .Bind(FindUser)
+        .Bind(Deactivate);
+
+string message = result.Match(
+    ok:  _ => "User deactivated",
+    err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+```
 
 If you think in `LINQ`: `Map` ≈ `Select`, `Bind`/`FlatMap` ≈ `SelectMany`. We’ll stick to method style here to keep focus on the flow rather than syntax.
 
@@ -41,9 +54,11 @@ Think of it like:
 
 ### Scenario: The "Deactivate User" Pipeline
 
-We need to implement a workflow to deactivate a user given a raw `id` **string** from outside the system (e.g., an HTTP query parameter). That string represents the **user’s identifier**, but it isn’t trusted yet — we first parse it into our internal ID representation (an `int` in this post).[^id]
+We want to deactivate a user given a raw `id` **string** from an HTTP request. “Deactivate” here means marking the user inactive (e.g., setting `IsActive = false`) and persisting that change.[^id]
 
-The steps depend on each other:
+We first parse the raw string into our internal ID representation (an `int` in this post).
+
+The steps are dependent:
 
 1.  **Parse:** Parse the raw `string` into an `int`. (If this fails, we cannot proceed).
 2.  **Find:** The user must exist in the database. (If missing, we cannot deactivate).
@@ -86,6 +101,8 @@ Returning a `Result<TSuccess, TError>` is a trade-off: you make failure explicit
 
 #### Example 1: Baseline Exceptions
 In a common C# style, failures are often signaled with exceptions. That means control flow is implicit: any line might abort the method by throwing.
+
+Also note: in real code, exceptions aren’t always thrown as explicitly as they are in the example below — they often bubble up from library/framework calls (`int.Parse`, database drivers, HTTP clients, etc.).
 
 ```csharp
 public void DeactivateUser(string inputId)
