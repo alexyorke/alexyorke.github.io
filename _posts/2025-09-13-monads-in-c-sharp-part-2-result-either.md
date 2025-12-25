@@ -90,7 +90,7 @@ A few common gotchas:
 
 - Infrastructure failures (DB down, OOM, null refs): let exceptions bubble to your global middleware.
 - Bugs / invariant violations: throw (e.g., `ArgumentNullException`). That’s a caller bug, not a domain outcome.
-- Form-style validation: `Bind` stops at the first error, but users usually want *all* validation errors at once.
+- Form-style validation: `Bind` stops at the first error, but users usually want *all* validation errors at once; use an accumulating validation type (often called `Validation<TError, TSuccess>`) which composes via applicative rather than monadic chaining.
 
 Also: if you’re in a hot path, watch allocations (this tutorial uses a class). And if you’re stacking effects (`Task<Result<...>>`), you’ll want async combinators or you’ll end up writing a lot of glue.
 
