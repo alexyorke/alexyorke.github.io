@@ -8,13 +8,9 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In Part 1 we used List<T> to go over Map vs flatMap, then built Maybe<T> to chain optional steps. Now we shift focus: instead of handling multiple values or optional values, we model fallible outcomes that capture the reason for failure: Result<TSuccess, TError>.
+In Part 1 we used `List<T>` to contrast `Map` vs `flatMap`, then built `Maybe<T>` to chain optional steps. Now we model *fallible* outcomes with a reason: `Result<TSuccess, TError>`.
 
-The Result monad allows you to represent a computation's outcome as success or failure, and to sequence computations so failures propagate until handled.
-
-(Note: For scenarios where you need to collect multiple errors at once—like validating a form with five fields—Result is less suitable because it stops at the first error. That pattern is typically handled by a 'Validation' structure instead.)
-
-Result is optimized for fail-fast operations like I/O or single-step checks. When accumulating independent failures—for example, validating a form with numerous fields—use validation abstractions such as Validation<E, T>, EitherNel<E, T>, or a schema library to model error accumulation using an applicative combinator, generating a single, structured error object for UI display and reducing manual aggregation within a Result.
+`Result` sequences steps with `Bind`: the first failure short-circuits and its error flows to the end. If you need to **accumulate** many independent errors (like form validation), use an accumulating validation/applicative type instead.
 
 `Result` lets you chain fallible steps without an `if` ladder or `try`/`catch` for expected outcomes:
 
@@ -29,16 +25,11 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-For the next few sections, you can think of `ParseId`, `FindUser`, and `Deactivate` as small functions in scope; later I’ll show them as methods on a `UserService` to make the example more realistic.
+For now, think of `ParseId`, `FindUser`, and `Deactivate` as small functions in scope; later I’ll show them as methods on a `UserService`.
 
-You likely use this pattern already.
-If you use LINQ, you know this flow: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to single outcomes instead of lists.
+If you use LINQ: `Map` is `Select`, and `Bind` is `SelectMany`.
 
-Terminology note: I’ll call it `Result<TSuccess, TError>` in this post. In other languages/libraries you’ll often see `Either<L, R>` (Left/Right). By convention, Right is success and Left is the error.
-
-In FP terms, that’s a two-case “sum type” (a discriminated union). C# doesn’t have that shape built-in, so we either implement it ourselves or lean on a library.
-
-Also, most `Either` implementations in C# are “right-biased,” which means `Map`/`Bind` operate on the Right (success) branch by default.
+Terminology: many libraries call this `Either<L, R>` (Left/Right). By convention, `Right` is success, `Left` is error, and `Map`/`Bind` usually operate on `Right` (aka “right-biased”).
 
 ### Result: when “missing” needs a reason
 
@@ -62,7 +53,7 @@ This is fail-fast: you get the first error, not a list of everything that could 
 
 ### Example: deactivating a user
 
-We want to deactivate a user given an `id` **string** from an HTTP request. We parse it to `int`, load the user, ensure they’re active, then persist `IsActive = false`.[^id]
+We want to deactivate a user given an `id` **string** from an HTTP request. We parse it to `int`, load the user, ensure they’re active, then persist `IsActive = false`.
 
 The steps are sequential:
 
@@ -70,11 +61,7 @@ The steps are sequential:
 2.  Find: user must exist
 3.  Rule: user must be active
 
-> **Quick note: Result vs. `T?` (optional)**
->
-> Use `T?` when a value might be missing and you don’t care why (for example, an optional middle name).
->
-> Use `Result<TSuccess, TError>` when absence needs a reason (for example, a user lookup that can fail with `NotFound`, `PermissionDenied`, or `DatabaseError`).
+Use `T?` when a value might be missing and you don’t care why; use `Result<TSuccess, TError>` when absence needs a reason.
 
 ### Why bother with `Result`?
 Returning `Result<TSuccess, TError>` makes expected failure obvious in the type system instead of hiding it in `null` or the call stack.
@@ -142,13 +129,13 @@ Example of a non‑failing transform with `Map`:
 var userIdResult = DeactivateUser(inputId).Map(u => u.Id);
 ```
 
-Most libraries also include helpers like `MapError` / `BindError` to transform errors, and `Tap` / `TapError` to run side effects without changing the shape. (Those helpers are not implemented in this tutorial’s sample type.)
+Most libraries also include helpers like `MapError`/`BindError` and `Tap`/`TapError`. This tutorial keeps the surface area small.
 
 ### Introducing `Result<TSuccess, TError>`
 
 Naming: in FP you’ll often see this called `flatMap` (LINQ: `SelectMany`). I’m using `Bind` here to keep it distinct from `Map` and to match Part 1.
 
-If you like the FP lens: `Ok` is `return` and `Bind` is `>>=`. Informally, the laws say `Ok(x).Bind(f)` behaves like `f(x)`, `m.Bind(Ok)` behaves like `m`, and chaining is associative—as long as your functions don’t throw and you keep `TError` fixed across the chain.
+If you like the FP lens: `Ok` is `return` and `Bind` is `>>=`.
 
 ```csharp
 using System;
@@ -157,21 +144,12 @@ using System;
 public record Error(string Code, string Message);
 
 // A tiny teaching implementation of Result<TSuccess, TError>.
-// It skips some edge-case checks on purpose; use a well-tested library in production.
-// This version uses a single private constructor to avoid overload collisions
-// when TSuccess == TError on constructed generic types.
+// (Use a library in production.)
 public sealed class Result<TSuccess, TError>
 {
-    // Only one of these is populated at a time.
-    // They're nullable to keep the sample friendly to C# nullable reference types (NRT).
     private readonly TSuccess? _value;
     private readonly TError? _error;
 
-    // This implementation relies on the invariant that `_value` is only read when `IsSuccess` is true.
-    // Nullable analysis can’t prove that here, so you may see warnings in a real project (fine for a toy sample).
-
-    // Single private constructor ensures a valid state without risking signature collisions
-    // on constructed generic types where TSuccess == TError.
     private Result(TSuccess? value, TError? error, bool isSuccess)
     {
         IsSuccess = isSuccess;
@@ -179,34 +157,24 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
-    // The "Unit" operation (lifts a value into the Monad).
-    // We name it 'Ok' to follow standard C# conventions (similar to 'Some' in Part 1).
     public static Result<TSuccess, TError> Ok(TSuccess value) => new Result<TSuccess, TError>(value, default, true);
     public static Result<TSuccess, TError> Fail(TError error) => new Result<TSuccess, TError>(default, error, false);
 
-    // ------------------------------------------------------------
-    // Queries (For domain logic, prefer Match over checking these)
-    // ------------------------------------------------------------
     public bool IsSuccess { get; }
     public bool IsFailure => !IsSuccess;
 
-    // Map: Transform the success value (TSuccess -> U)
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         if (IsSuccess)
         {
-            // Explicitly call the factory.
             return Result<U, TError>.Ok(f(_value));
         }
 
-        // Propagate the existing error
         return Result<U, TError>.Fail(_error);
     }
 
-    // Bind: Chain operation (TSuccess -> Result<U, TError>)
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
-        // No magic: This is just the "if (success)" check abstracted into a method.
         if (IsSuccess)
         {
             return f(_value);
@@ -215,9 +183,7 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error);
     }
 
-    // ------------------------------------------------------------
-    // LINQ query syntax support (Select/SelectMany)
-    // ------------------------------------------------------------
+    // Optional: LINQ query syntax support (Select/SelectMany)
     public Result<U, TError> Select<U>(Func<TSuccess, U> f) => Map(f);
 
     public Result<V, TError> SelectMany<U, V>(
@@ -225,7 +191,6 @@ public sealed class Result<TSuccess, TError>
         Func<TSuccess, U, V> project) =>
         Bind(t => bind(t).Map(u => project(t, u)));
 
-    // Match: The only way to extract the value
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
         if (IsSuccess)
@@ -239,7 +204,7 @@ public sealed class Result<TSuccess, TError>
 ```
 
 > **Side note: LINQ / query syntax**
-> C# query syntax requires methods named `Select` and `SelectMany` (instance methods or extension methods). In the tutorial `Result` above, they’re thin wrappers around `Map`/`Bind`, so query syntax works too:
+> C# query syntax looks for `Select` and `SelectMany`. In the tutorial `Result` above, they’re thin wrappers around `Map`/`Bind`, so this works:
 
 ```csharp
 string inputId = "123";
@@ -250,21 +215,7 @@ var result =
     select user;
 ```
 
-If you’re using a `Result` type you can’t modify, you can also supply the LINQ method names as extension methods:
-
-```csharp
-public static class ResultLinqExtensions
-{
-    public static Result<U, TError> Select<TSuccess, U, TError>(this Result<TSuccess, TError> result, Func<TSuccess, U> map) => result.Map(map);
-
-    public static Result<U, TError> SelectMany<TSuccess, U, TError>(this Result<TSuccess, TError> result, Func<TSuccess, Result<U, TError>> bind) => result.Bind(bind);
-
-    // Required for query syntax translation (the "project" / result selector overload).
-    public static Result<V, TError> SelectMany<TSuccess, U, V, TError>(this Result<TSuccess, TError> result, Func<TSuccess, Result<U, TError>> bind, Func<TSuccess, U, V> project) => result.Bind(t => bind(t).Map(u => project(t, u)));
-}
-```
-
-I’m using explicit method chaining (`Bind`) in most examples because it makes the short-circuiting behavior obvious. This tutorial type is intentionally minimal (equality/default-state handling omitted), and `Bind` does not catch exceptions thrown inside `f(...)`.
+I’m using explicit method chaining (`Bind`) in most examples because it makes the short-circuiting behavior obvious.
 
 ### Unwrapping with `Match` (at the boundary)
 At the boundary, unwrap with `Match`.
@@ -276,19 +227,10 @@ var message = result.Match(
     err: e => $"Fail({e.Code}: {e.Message})");
 ```
 
-Try to compose and unwrap once, at the boundary.
-
-**On `IsSuccess` / `IsFailure`**
-Flags are fine for quick checks, but reach for `Match` when you need the value so the error branch stays handled.
-
-**Why no `.Value` property?**
-
-This tutorial `Result` doesn’t expose a `public Value` property; `Match` is the unwrapping API.
-
-Keeping state private makes unwrapping explicit: `Match` forces handling both branches. Avoid exposing a `.Value` property or “ValueOrThrow()”-style APIs, as they reintroduce exceptions as control flow.
+Compose and unwrap once (with `Match`) at the boundary.
 
 ### Putting it together: the Deactivate User pipeline
-Here’s the workflow as small steps, with persistence at the boundary:
+Here’s the workflow as small steps:
 
 ```csharp
 public sealed class User
@@ -342,19 +284,14 @@ public sealed class UserService
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
-        // Functionally, we should return a new user instance (or make `User` an immutable record and use `with`).
-        // Pragmatically, we mutate the existing EF Core entity to simplify persistence.
+        // Pragmatic note: ORMs often mutate tracked entities.
         user.IsActive = false;
         return Result<User, Error>.Ok(user);
     }
 }
 ```
 
-> **A Note on I/O and Side Effects**
-> In Railway-Oriented Programming, reads (`FindUser`) often appear in the pipeline; keep writes outside it (call `_repo.Save` in the `Match` success branch — “functional core, imperative shell”).
-
-> **Functional Purity Note:**
-> FP would return a new user; ORMs like EF typically mutate tracked entities. This example mutates for pragmatic persistence.
+Do reads/rules in the pipeline; do writes at the boundary (the “functional core, imperative shell” idea).
 
 In a real app, this boundary usually lives in an application service/transaction.
 
@@ -363,11 +300,11 @@ In a real app, this boundary usually lives in an application service/transaction
 In modern C#, almost all I/O is asynchronous and returns `Task<T>`.
 That means you often end up stacking effects: async (`Task`) and failure (`Result`).
 
-A useful mental model: `Task<T>` composes too. `await` + projection is basically `Map`, and `await` + returning another task is basically `Bind`.[^task-monad]
+A useful mental model: `Task<T>` composes too: `await` + projection is basically `Map`, and `await` + returning another task is basically `Bind`.
 
 The annoying case is `Task<Result<...>>`: you want to keep the same straight-line `Bind` flow, but you can’t without a couple helper methods.
 
-Libraries usually call these things `BindAsync`, `MapAsync`, or `SelectManyAsync`. I’m not going to build them here (there are sharp edges around cancellation, unobserved task failures, and “hot” tasks), but most `Result` libraries already have them.
+Libraries usually call these `BindAsync` / `MapAsync` / `SelectManyAsync`. Most `Result` libraries already have them.
 
 ### If you want this in real code
 Async combinators need careful handling. If you need async + `Result` composition, pick a library and use its async helpers:
@@ -386,44 +323,10 @@ public Task<Result<User, Error>> DeactivateUser(string inputId) =>
 ```
 
 ### Exiting the Monad (The API Boundary)
-
-I treat `Result<TSuccess, TError>` as internal plumbing. At the boundary (API controller, UI, etc.), unwrap it (e.g., to `IActionResult`) using `Match`.
-
-Usually avoid returning a raw `Result` object directly to the frontend. It’s a leaky abstraction: it forces your JavaScript client to learn about your internal C# architecture.
-Also be careful not to leak internal error codes/messages directly to clients in sensitive domains; map to stable public error shapes and redact details where needed.
-
-If you serialize `Result` directly, you’ll typically get wrapper JSON (often something like `{ "isSuccess": true, "value": ... }`).
-
-In ASP.NET Core, `ProblemDetails` is the standard error shape, so mapping `Result` → `ProblemDetails` is usually a better fit than a custom `{ success: false, error: ... }` wrapper.
-
-```csharp
-// Treat Result as internal: unwrap it at the boundary into a standard response.
-
-[HttpPost("users/{id}/deactivate")]
-public IActionResult DeactivateUser(string id)
-{
-    Result<User, Error> result = _userService.DeactivateUser(id);
-
-    // Use Match to map the Result into an HTTP response
-    return result.Match<IActionResult>(
-        ok: user =>
-        {
-            _repo.Save(user);
-            return Ok(new { message = "User deactivated" });
-        },
-        err: error => error.Code switch
-        {
-            "NotFound" => NotFound(new ProblemDetails { Title = error.Code, Detail = error.Message, Status = 404 }),
-            "Parse" or "Validation" => BadRequest(new ProblemDetails { Title = error.Code, Detail = error.Message, Status = 400 }),
-            _ => StatusCode(500, new ProblemDetails { Title = "Unexpected", Detail = "An unexpected error occurred.", Status = 500 })
-        }
-    );
-}
-```
+Treat `Result<TSuccess, TError>` as internal plumbing. At the boundary (API/UI), unwrap it with `Match` into your boundary type (`IActionResult`, `ProblemDetails`, view model, etc.) and map internal errors to stable public shapes.
 
 ### Testing Strategies
-
-Assert on the returned `Result` instead of exceptions.
+Assert on the returned `Result` instead of exceptions:
 
 ```csharp
 [Fact]
@@ -448,62 +351,10 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 }
 ```
 
-```csharp
-using Xunit;
-using static YourNamespace.Result; // if you expose helper factory methods
-
-public class ResultTests
-{
-    [Fact]
-    public void Map_propagates_success()
-    {
-        var r = Ok<string, int>("42");
-        var mapped = r.Map(int.Parse);
-        Assert.True(mapped.IsSuccess);
-        Assert.Equal(42, mapped.Match(v => v, _ => -1));
-    }
-
-    [Fact]
-    public void Map_short_circuits_on_failure()
-    {
-        var r = Fail<string, int>(-1);
-        var mapped = r.Map(int.Parse);
-        Assert.True(mapped.IsFailure);
-        Assert.Equal(-1, mapped.Match(_ => -1, e => e));
-    }
-
-    [Fact]
-    public void Bind_chains_and_short_circuits()
-    {
-        Result<int, int> Parse(string s) =>
-            int.TryParse(s, out var i) ? Ok<int, int>(i) : Fail<int, int>(-1);
-
-        var pipeline = from x in Parse("2")
-                       from y in Parse("3")
-                       select x + y;
-
-        Assert.True(pipeline.IsSuccess);
-        Assert.Equal(5, pipeline.Match(v => v, _ => -1));
-
-        var failPipeline = from x in Parse("two")
-                           from y in Parse("3")
-                           select x + y;
-
-        Assert.True(failPipeline.IsFailure);
-    }
-}
-```
-
 ### Wrap-up
 
 `Result` is just a way to keep “expected failure” in-band, as data. Compose with `Map`/`Bind`, and unwrap once at the edge with `Match`.
 
 If you end up in `Task<Result<...>>` land, grab a library with async combinators rather than hand-rolling them.
 
-**A Note on Libraries:**
-For production C#, prefer a mature library (e.g., **FluentResults**, **ErrorOr**, **LanguageExt**) rather than maintaining your own.
-
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
-
-[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
-[^task-monad]: In a strict sense, `Task<T>` isn’t a pure monad in the mathematical sense because it can complete before you bind it and can capture asynchronous execution effects. Still, for practical purposes in C#, treating `Task<T>` as monadic is a useful mental model for understanding async composition patterns.
