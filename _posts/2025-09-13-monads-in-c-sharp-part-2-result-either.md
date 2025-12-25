@@ -49,56 +49,20 @@ string message = result.Match(
 
 > **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
-#### Terminology & Conventions
-For the examples above, assume `ParseId`, `FindUser`, and `Deactivate` are small functions in scope; later we'll move them to a service.
+#### Example: Deactivating a user
+We want to deactivate a user given an `id` **string** from an HTTP request.[^id] The steps are sequential:
+1.  **Parse:** `string` → `int`
+2.  **Find:** user must exist in the database.
+3.  **Logic:** user must currently be active.
+4.  **Action:** persist `IsActive = false`.
 
-If you are coming from other ecosystems:
-*   **LINQ:** `Map` is `Select`, and `Bind` is `SelectMany`.
-*   **Functional Languages:** Many libraries call this `Either<L, R>`. By convention, the **Right** is success (because it's "right"), and **Left** is error. Therefore, `Map` and `Bind` are usually "Right-biased."
-
-### Example: deactivating a user
-
-We want to deactivate a user given an `id` **string** from an HTTP request. We parse it to `int`, load the user, ensure they’re active, then persist `IsActive = false`.[^id]
-
-The steps are sequential:
-
-1.  Parse: `string` → `int`
-2.  Find: user must exist
-3.  Rule: user must be active
-
-Use `T?` when a value might be missing and you don’t care why; use `Result<TSuccess, TError>` when absence needs a reason.
-
-### Why bother with `Result`?
-Returning `Result<TSuccess, TError>` makes expected failure obvious in the type system instead of hiding it in `null` or the call stack.
-
-It has a few practical upsides:
-
-- Callers see “this can fail” up front (and you can carry a real error value, not just `false`).
-- You don’t have to use sentinel values like `null` to mean “something went wrong.”
-- You can reuse `ParseId`, `FindUser`, and rules without repeating the same checks everywhere.
-- Tests can assert on `Ok` / `Fail` instead of catching exceptions.
-
-### When `Result` is the wrong tool
-`Result` is great for expected, domain-level failures. It’s not a replacement for exceptions, and it’s not something you want everywhere.
-
-A few common gotchas:
-
-- Infrastructure failures (DB down, OOM, null refs): let exceptions bubble to your global middleware.
-- Bugs / invariant violations: throw (e.g., `ArgumentNullException`). That’s a caller bug, not a domain outcome.
-- Form-style validation: `Bind` stops at the first error, but users usually want *all* validation errors at once; use an accumulating validation type (often called `Validation<TError, TSuccess>`) which composes via applicative rather than monadic chaining.
-  If that distinction is new, the search term you want is “applicative validation”.
-
-Also: if you’re in a hot path, watch allocations (this tutorial uses a class). And if you’re stacking effects (`Task<Result<...>>`), you’ll want async combinators or you’ll end up writing a lot of glue.
-
-### The status quo
-The strongest C# alternative is `Try`/`out`: it’s fast, but `false` loses the reason for failure.
+#### The Status Quo (`Try` Pattern)
+The strongest standard C# alternative is `Try...out`. It is fast, but it is "stringly typed" regarding failure—returning `false` destroys the "why" (was it a bad ID? Or just already inactive?).
 
 ```csharp
-public static bool TryDeactivateUser(
-    IUserRepo repo,
-    string inputId,
-    [System.Diagnostics.CodeAnalysis.NotNullWhen(true)] out User? user) // non-null when the method returns true
+public static bool TryDeactivateUser(IUserRepo repo, string inputId, out User? user)
 {
+    // It's easy to mix up parsing logic, db lookups, and business rules here.
     if (int.TryParse(inputId, out int id)
         && repo.TryFind(id, out var found)
         && found.IsActive)
@@ -109,32 +73,44 @@ public static bool TryDeactivateUser(
         return true;
     }
 
-    // Assign the out parameter on the failure path (conventionally a default/null for reference types)
     user = null;
-    return false;
+    return false; // Why did it fail? We don't know anymore.
 }
 ```
 
-
-#### The Result Monad
-Here’s the same workflow written as a straight-line pipeline:
+#### The Result Approach
+Here is the same workflow as a pipeline. Because every step can fail, we use `Bind` to chain them together.
 
 ```csharp
 public Result<User, Error> DeactivateUser(string inputId) =>
-    ParseId(inputId)
-        .Bind(FindUser)
-        .Bind(Deactivate);
+    ParseId(inputId)       // Returns Result<int, Error>
+        .Bind(FindUser)    // Returns Result<User, Error>
+        .Bind(Deactivate); // Returns Result<User, Error>
 ```
 
-Every step here can fail, so we use `Bind` throughout. If a step can’t fail (it just transforms data), use `Map` instead.
+Callers can now immediately see that this operation might fail, and the specific error (InvalidInput, NotFound, or AlreadyInactive) is preserved.
 
-Example of a non‑failing transform with `Map`:
+If a step **cannot** fail (it just transforms data), use `Map` instead:
 
 ```csharp
+// Extract just the ID from the result
 var userIdResult = DeactivateUser(inputId).Map(u => u.Id);
 ```
 
-Most libraries also include helpers like `MapError`/`BindError` and `Tap`/`TapError`. This tutorial keeps the surface area small.
+### Why bother?
+Using `Result` over exceptions or `bool` returns has specific benefits:
+*   **Honest Signatures:** You don't have to read the source code to know a method can fail.
+*   **No Sentinels:** No more `return null` or `-1` to represent errors.
+*   **Testability:** Tests assert on `Ok` vs `Fail` states rather than `ExpectedException` attributes.
+
+### When `Result` is the wrong tool
+`Result` is for **domain logic** failures. It is not a silver bullet.
+
+1.  **Infrastructure:** If the DB is down or you run out of memory, let the exception bubble to your middleware. Do not catch generic exceptions just to wrap them in `Result.Fail`.
+2.  **Bugs:** If a method receives a `null` argument that should never be null, throw `ArgumentNullException`. That is a bug, not a business outcome.
+3.  **Accumulation:** As mentioned earlier, `Bind` short-circuits. For form validation (where you want 10 errors, not just the first one), you need "Applicative Validation," not monadic binding.
+
+> **Performance Note:** If you are in a hot path, watch your allocations. This tutorial uses a class for `Result`, but highly optimized libraries often use `readonly struct` to minimize GC pressure.
 
 ### Introducing `Result<TSuccess, TError>`
 
