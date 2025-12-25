@@ -152,6 +152,8 @@ public record Error(string Code, string Message);
 
 // A tiny teaching implementation of Result<TSuccess, TError>.
 // It skips some edge-case checks on purpose; use a well-tested library in production.
+// This version uses a single private constructor to avoid overload collisions
+// when TSuccess == TError on constructed generic types.
 public sealed class Result<TSuccess, TError>
 {
     // Only one of these is populated at a time.
@@ -162,25 +164,19 @@ public sealed class Result<TSuccess, TError>
     // This implementation relies on the invariant that `_value` is only read when `IsSuccess` is true.
     // Nullable analysis can’t prove that here, so you may see warnings in a real project (fine for a toy sample).
 
-    // Private constructors ensure valid state
-    private Result(TSuccess value)
+    // Single private constructor ensures a valid state without risking signature collisions
+    // on constructed generic types where TSuccess == TError.
+    private Result(TSuccess? value, TError? error, bool isSuccess)
     {
-        IsSuccess = true;
+        IsSuccess = isSuccess;
         _value = value;
-        _error = default;
-    }
-
-    private Result(TError error)
-    {
-        IsSuccess = false;
-        _value = default;
         _error = error;
     }
 
     // The "Unit" operation (lifts a value into the Monad).
     // We name it 'Ok' to follow standard C# conventions (similar to 'Some' in Part 1).
-    public static Result<TSuccess, TError> Ok(TSuccess value) => new Result<TSuccess, TError>(value);
-    public static Result<TSuccess, TError> Fail(TError error) => new Result<TSuccess, TError>(error);
+    public static Result<TSuccess, TError> Ok(TSuccess value) => new Result<TSuccess, TError>(value, default, true);
+    public static Result<TSuccess, TError> Fail(TError error) => new Result<TSuccess, TError>(default, error, false);
 
     // ------------------------------------------------------------
     // Queries (For domain logic, prefer Match over checking these)
