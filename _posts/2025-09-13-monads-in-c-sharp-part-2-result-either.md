@@ -58,7 +58,7 @@ If you are coming from other ecosystems:
 
 ### Example: deactivating a user
 
-We want to deactivate a user given an `id` **string** from an HTTP request. We parse it to `int`, load the user, ensure they’re active, then persist `IsActive = false`.
+We want to deactivate a user given an `id` **string** from an HTTP request. We parse it to `int`, load the user, ensure they’re active, then persist `IsActive = false`.[^id]
 
 The steps are sequential:
 
@@ -305,7 +305,7 @@ In a real app, this boundary usually lives in an application service/transaction
 In modern C#, almost all I/O is asynchronous and returns `Task<T>`.
 That means you often end up stacking effects: async (`Task`) and failure (`Result`).
 
-A useful mental model: `Task<T>` composes too: `await` + projection is basically `Map`, and `await` + returning another task is basically `Bind`.
+A useful mental model: `Task<T>` composes too: `await` + projection is basically `Map`, and `await` + returning another task is basically `Bind`.[^task-monad]
 
 The annoying case is `Task<Result<...>>`: you want to keep the same straight-line `Bind` flow, but you can’t without a couple helper methods.
 
@@ -363,3 +363,6 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 If you end up in `Task<Result<...>>` land, grab a library with async combinators rather than hand-rolling them.
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
+
+[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
+[^task-monad]: In a strict sense, `Task<T>` isn’t a pure monad in the mathematical sense because it can complete before you bind it and can capture asynchronous execution effects. Still, for practical purposes in C#, treating `Task<T>` as monadic is a useful mental model for understanding async composition patterns.
