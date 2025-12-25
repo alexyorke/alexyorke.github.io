@@ -91,52 +91,7 @@ string message = result.Match(
 > **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
 #### Example: Deactivating a user
-We want to deactivate a user given an `id` **string** from an HTTP request.[^id] The steps are sequential:
-1.  **Parse:** `string` → `int`
-2.  **Find:** user must exist in the database.
-3.  **Logic:** user must currently be active.
-4.  **Action:** persist `IsActive = false`.
-
-#### The Status Quo (`Try` Pattern)
-The strongest standard C# alternative is `Try...out`. It is fast, but it is "stringly typed" regarding failure—returning `false` destroys the "why" (was it a bad ID? Or just already inactive?).
-
-```csharp
-public static bool TryDeactivateUser(IUserRepo repo, string inputId, out User? user)
-{
-    // It's easy to mix up parsing logic, db lookups, and business rules here.
-    if (int.TryParse(inputId, out int id)
-        && repo.TryFind(id, out var found)
-        && found.IsActive)
-    {
-        found.IsActive = false;
-        repo.Save(found);
-        user = found;
-        return true;
-    }
-
-    user = null;
-    return false; // Why did it fail? We don't know anymore.
-}
-```
-
-#### The Result Approach
-Here is the same workflow as a pipeline. Because every step can fail, we use `Bind` to chain them together.
-
-```csharp
-public Result<User, Error> DeactivateUser(string inputId) =>
-    ParseId(inputId)       // Returns Result<int, Error>
-        .Bind(FindUser)    // Returns Result<User, Error>
-        .Bind(Deactivate); // Returns Result<User, Error>
-```
-
-Callers can now immediately see that this operation might fail, and the specific error (InvalidInput, NotFound, or AlreadyInactive) is preserved.
-
-If a step **cannot** fail (it just transforms data), use `Map` instead:
-
-```csharp
-// Extract just the ID from the result
-var userIdResult = DeactivateUser(inputId).Map(u => u.Id);
-```
+We want to deactivate a user given an `id` **string** from an HTTP request.[^id]
 
 ### Why bother?
 Using `Result` over exceptions or `bool` returns has specific benefits:
@@ -239,36 +194,8 @@ public sealed class Result<TSuccess, TError>
 
         return err(_error);
     }
-
-    // LINQ Support (Select = Map, SelectMany = Bind)
-    public Result<U, TError> Select<U>(Func<TSuccess, U> selector)
-    {
-        return Map(selector);
-    }
-
-    public Result<V, TError> SelectMany<U, V>(
-        Func<TSuccess, Result<U, TError>> bind,
-        Func<TSuccess, U, V> project)
-    {
-        return Bind(
-            t => bind(t).Map(
-                u => project(t, u)
-            )
-        );
-    }
 }
 ```
-
-> **Side note: LINQ Query Syntax**
-> Because we implemented `Select` and `SelectMany`, C# query syntax works automatically:
->
-> ```csharp
-> var result =
->     from id in ParseId(inputId)     // Step 1
->     from user in FindUser(id)       // Step 2
->     select user;                    // Result<User, Error>
-> ```
-> This tutorial uses fluent method chaining (`.Bind()`) because it makes the pipeline structure and order of operations explicit.
 
 ### Unwrapping with `Match`
 You can chain as long as you like, but eventually, the outside world needs a result. Use `Match` at your application boundary (e.g., API Endpoint or UI Logic).
@@ -401,15 +328,6 @@ If you return a `Result` directly from a Controller, you leak implementation det
 ```
 
 Always unwrap at the boundary using `Match` to return standard HTTP responses or clean DTOs.
-
-### Advanced: Maybe inside Result
-Because these are composable containers, you can nest them (e.g., `Result<Maybe<Phone>, Error>`):
-
-- **Success + Some**: User provided a valid phone number.
-- **Success + None**: User provided nothing (valid, because it's optional).
-- **Failure**: User provided something invalid (e.g., wrong format).
-
-This distinction is awkward to model with just `T?` or exceptions without getting messy.
 
 ### Testing Strategies
 Testing `Result` is cleaner than testing Exceptions because you don't need `Assert.Throws`.
