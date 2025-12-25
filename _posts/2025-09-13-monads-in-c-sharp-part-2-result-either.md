@@ -19,15 +19,18 @@ Without `Bind` (or any chainable abstraction), dependent steps create deep nesti
 
 ```csharp
 // Imperative: Hard to read, easy to mess up error propagation
-var idResult = ParseId(inputId);
-if (!idResult.Success) return ShowError(idResult.Error);
+if (!int.TryParse(inputId, out var id))
+    return "Invalid ID";
 
-var userResult = FindUser(idResult.Value);
-if (!userResult.Success) return ShowError(userResult.Error);
+var user = repo.Find(id);
+if (user is null)
+    return "User not found";
 
-var activeResult = Deactivate(userResult.Value);
-if (!activeResult.Success) return ShowError(activeResult.Error);
+if (!user.IsActive)
+    return "User already inactive";
 
+user.IsActive = false;
+repo.Save(user);
 return "User deactivated";
 ```
 
