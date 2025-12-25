@@ -8,22 +8,46 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In Part 1 we used `List<T>` to contrast `Map` vs `flatMap`, then built `Maybe<T>` to chain optional steps. Now we model *fallible* outcomes with a reason: `Result<TSuccess, TError>`.
+In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps. Now, we model **fallible** outcomes with a reason: `Result<TSuccess, TError>`.
 
-`Result` sequences steps with `Bind`: the first failure short-circuits and its error flows to the end. If you need to **accumulate** many independent errors (like form validation), use an accumulating validation/applicative type instead.
+Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-`Result` lets you chain fallible steps without an `if` ladder or `try`/`catch` for expected outcomes:
+`Result` allows you to sequence operations so that failures propagate automatically. This saves you from writing nested `if` statements (or “arrow code”), or relying on `try`/`catch` for control flow.
+
+#### The Problem: The "If" Ladder
+Without `Result`, dependent steps create deep nesting or require early returns that clutter the logic:
 
 ```csharp
+// Imperative: Hard to read, easy to mess up error propagation
+var idResult = ParseId(inputId);
+if (!idResult.Success) return ShowError(idResult.Error);
+
+var userResult = FindUser(idResult.Value);
+if (!userResult.Success) return ShowError(userResult.Error);
+
+var activeResult = Deactivate(userResult.Value);
+if (!activeResult.Success) return ShowError(activeResult.Error);
+
+return "User deactivated";
+```
+
+#### The Solution: Chaining
+`Result` sequences these steps using `Bind`. This keeps the “happy path” readable: the first failure short-circuits the chain, and that error flows to the end automatically.
+
+```csharp
+// Declarative: Focuses on the "Happy Path"
 Result<User, Error> result =
     ParseId(inputId)
         .Bind(FindUser)
         .Bind(Deactivate);
 
+// Handle the final outcome in one place
 string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
+
+> **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *accumulating validation* type instead.
 
 For now, think of `ParseId`, `FindUser`, and `Deactivate` as small functions in scope; later I’ll show them as methods on a `UserService`.
 
