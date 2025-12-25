@@ -5,11 +5,11 @@ date: 2025-09-13
 description: "Build a small Result type in C# and use Map/Bind/Match to compose fail-fast workflows with explicit errors (plus notes on async and API boundaries)."
 ---
 
-**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
+**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/a-list-is-a-monad/)
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In Part 1 we used List<T> to go over Map vs flatMap, then built Maybe<T> to chain optional steps. Now we shift focus: instead of handling multiple values or optional values, we model fallible outcomes that capture the reason for failure: Result<T, TError>.
+In Part 1 we used List<T> to go over Map vs flatMap, then built Maybe<T> to chain optional steps. Now we shift focus: instead of handling multiple values or optional values, we model fallible outcomes that capture the reason for failure: Result<TSuccess, TError>.
 
 The Result monad allows you to represent a computation's outcome as success or failure, and to sequence computations so failures propagate until handled.
 
@@ -31,7 +31,7 @@ string message = result.Match(
 You likely use this pattern already.
 If you use LINQ, you know this flow: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to single outcomes instead of lists.
 
-Terminology note: I’ll call it `Result<T, E>` in this post. In other languages/libraries you’ll often see `Either<L, R>` (Left/Right). By convention, Right is success and Left is the error.
+Terminology note: I’ll call it `Result<TSuccess, TError>` in this post. In other languages/libraries you’ll often see `Either<L, R>` (Left/Right). By convention, Right is success and Left is the error.
 
 In FP terms, that’s a two-case “sum type” (a discriminated union). C# doesn’t have that shape built-in, so we either implement it ourselves or lean on a library.
 
@@ -135,7 +135,7 @@ Every step here can fail, so we use `Bind` throughout. If a step can’t fail (i
 Example of a non‑failing transform with `Map`:
 
 ```csharp
-var emailResult = DeactivateUser(inputId).Map(u => u.Email);
+var userIdResult = DeactivateUser(inputId).Map(u => u.Id);
 ```
 
 Most libraries also include helpers like `MapError` / `BindError` to transform errors, and `Tap` / `TapError` to run side effects without changing the shape.
@@ -419,10 +419,10 @@ In ASP.NET Core, `ProblemDetails` is the standard error shape, so mapping `Resul
 ```csharp
 // Treat Result as internal: unwrap it at the boundary into a standard response.
 
-[HttpGet("{id}")]
-public async Task<IActionResult> GetUser(string id)
+[HttpPost("users/{id}/deactivate")]
+public IActionResult DeactivateUser(string id)
 {
-    Result<User, Error> result = await _userService.Get(id);
+    Result<User, Error> result = _userService.DeactivateUser(id);
 
     // Use Match to map the Result into an HTTP response
     return result.Match<IActionResult>(
