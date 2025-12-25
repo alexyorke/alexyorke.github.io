@@ -112,24 +112,20 @@ Using `Result` over exceptions or `bool` returns has specific benefits:
 
 > **Performance Note:** If you are in a hot path, watch your allocations. This tutorial uses a class for `Result`, but highly optimized libraries often use `readonly struct` to minimize GC pressure.
 
-### Introducing `Result<TSuccess, TError>`
-
-Naming: in FP you’ll often see this called `flatMap` (LINQ: `SelectMany`). I’m using `Bind` here to keep it distinct from `Map` and to match Part 1.
-
-If you like the FP lens: `Ok` is `return` and `Bind` is `>>=`.
+### Implementing Result
+Here is a teaching implementation. (In production, consider a battle-tested library like *LanguageExt*, *CSharpFunctionalExtensions*, or *Fluently*.)
 
 ```csharp
-using System;
-
-// Structured error type (instead of `string`).
+// Structured error type (instead of just a string).
 public record Error(string Code, string Message);
 
-// A tiny teaching implementation of Result<TSuccess, TError>.
-// (Use a library in production.)
 public sealed class Result<TSuccess, TError>
 {
     private readonly TSuccess? _value;
     private readonly TError? _error;
+
+    public bool IsSuccess { get; }
+    public bool IsFailure => !IsSuccess;
 
     private Result(TSuccess? value, TError? error, bool isSuccess)
     {
@@ -138,114 +134,102 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
-    public static Result<TSuccess, TError> Ok(TSuccess value) => new Result<TSuccess, TError>(value, default, true);
-    public static Result<TSuccess, TError> Fail(TError error) => new Result<TSuccess, TError>(default, error, false);
+    public static Result<TSuccess, TError> Ok(TSuccess value) =>
+        new(value, default, true);
 
-    public bool IsSuccess { get; }
-    public bool IsFailure => !IsSuccess;
+    public static Result<TSuccess, TError> Fail(TError error) =>
+        new(default, error, false);
 
+    // Functor: Transform the inner value
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
-        if (IsSuccess)
-        {
-            return Result<U, TError>.Ok(f(_value));
-        }
-
-        return Result<U, TError>.Fail(_error);
+        if (IsSuccess) return Result<U, TError>.Ok(f(_value!));
+        return Result<U, TError>.Fail(_error!);
     }
 
+    // Monad: Chain a dependent operation that might fail
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
-        if (IsSuccess)
-        {
-            return f(_value);
-        }
-
-        return Result<U, TError>.Fail(_error);
+        if (IsSuccess) return f(_value!);
+        return Result<U, TError>.Fail(_error!);
     }
 
-    // Optional: LINQ query syntax support (Select/SelectMany)
-    public Result<U, TError> Select<U>(Func<TSuccess, U> f) => Map(f);
+    // Match: Extract the value to leave the monad (the "End of the Railway")
+    public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
+    {
+        if (IsSuccess) return ok(_value!);
+        return err(_error!);
+    }
+
+    // LINQ Support (Select = Map, SelectMany = Bind)
+    public Result<U, TError> Select<U>(Func<TSuccess, U> selector) => Map(selector);
 
     public Result<V, TError> SelectMany<U, V>(
         Func<TSuccess, Result<U, TError>> bind,
-        Func<TSuccess, U, V> project) =>
-        Bind(t => bind(t).Map(u => project(t, u)));
-
-    public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
+        Func<TSuccess, U, V> project)
     {
-        if (IsSuccess)
-        {
-            return ok(_value);
-        }
-
-        return err(_error);
+        return Bind(t => bind(t).Map(u => project(t, u)));
     }
 }
 ```
 
-> **Side note: LINQ / query syntax**
-> C# query syntax looks for `Select` and `SelectMany`. In the tutorial `Result` above, they’re thin wrappers around `Map`/`Bind`, so this works:
+> **Side note: LINQ Query Syntax**
+> Because we implemented `Select` and `SelectMany`, C# query syntax works automatically:
+>
+> ```csharp
+> var result =
+>     from id in ParseId(inputId)     // Step 1
+>     from user in FindUser(id)       // Step 2
+>     select user;                    // Result<User, Error>
+> ```
+> This tutorial uses fluent method chaining (`.Bind()`) because it makes the pipeline structure and order of operations explicit.
+
+### Unwrapping with `Match`
+You can chain as long as you like, but eventually, the outside world needs a result. Use `Match` at your application boundary (e.g., API Endpoint or UI Logic).
 
 ```csharp
-string inputId = "123";
+Result<int, Error> result = Result<int, Error>.Ok(42);
 
-var result =
-    from id in ParseId(inputId)
-    from user in FindUser(id)
-    select user;
+string output = result.Match(
+    ok:  value => $"Success: {value}",
+    err: error => $"Error: {error.Code}"
+);
 ```
 
-I’m using explicit method chaining (`Bind`) in most examples because it makes the short-circuiting behavior obvious.
+### Putting it together: The User Pipeline
+Here is the deactivation logic refactored into a **Service**.
 
-### Unwrapping with `Match` (at the boundary)
-At the boundary, unwrap with `Match`.
-
-```csharp
-Result<int, Error> result = Result<int, Error>.Ok(1);
-var message = result.Match(
-    ok:  v => $"Ok({v})",
-    err: e => $"Fail({e.Code}: {e.Message})");
-```
-
-Compose and unwrap once (with `Match`) at the boundary.
-
-### Putting it together: the Deactivate User pipeline
-Here’s the workflow as small steps:
+The Service is pure(ish): it calculates the outcome without forcing side effects immediately. The "Caller" (imperative shell) decides what to do with that outcome (Save it, Log it, etc).
 
 ```csharp
-public sealed class User
-{
-    public int Id { get; init; }
-    public bool IsActive { get; set; } = true;
-}
-
-public interface IUserRepo
-{
-    User? Find(int id);
-    void Save(User user);
-}
-
 public sealed class UserService
 {
     private readonly IUserRepo _repo;
     public UserService(IUserRepo repo) => _repo = repo;
 
-    // Pipeline: validate + load + decide
-    public Result<User, Error> DeactivateUser(string inputId) =>
+    // The Public Entry Point (The Imperative Shell)
+    // Runs the pipeline, then decides how to handle the result (e.g. Save or Error)
+    public string HandleDeactivateRequest(string inputId)
+    {
+        var result = DeactivateUserWorkflow(inputId);
+
+        return result.Match(
+            ok: user =>
+            {
+                _repo.Save(user); // Side effect happens ONLY on success
+                return "User deactivated";
+            },
+            err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+    }
+
+    // The Domain Pipeline (The Functional Core)
+    // Pure logic: Parse -> Find -> Deactivate -> Return Result
+    private Result<User, Error> DeactivateUserWorkflow(string inputId) =>
         ParseId(inputId)
             .Bind(FindUser)
             .Bind(Deactivate);
 
-    // Boundary: exit Result and perform effects (persistence, logging, etc.)
-    public string DeactivateUserAndSave(string inputId) =>
-        DeactivateUser(inputId).Match(
-            ok: user =>
-            {
-                _repo.Save(user);
-                return "User deactivated";
-            },
-            err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+    // --- Steps ---
 
     private static Result<int, Error> ParseId(string inputId) =>
         int.TryParse(inputId, out var id)
@@ -265,16 +249,16 @@ public sealed class UserService
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
-        // Pragmatic note: ORMs often mutate tracked entities.
+        // Domain Mutation: valid here because the 'Save' hasn't happened yet.
         user.IsActive = false;
         return Result<User, Error>.Ok(user);
     }
 }
 ```
 
-Do reads/rules in the pipeline; do writes at the boundary (the “functional core, imperative shell” idea).
-
-In a real app, this boundary usually lives in an application service/transaction.
+This enforces the **"Functional Core, Imperative Shell"** architecture:
+1.  **Read/Compute:** Done in the `Result` pipeline (`DeactivateUserWorkflow`).
+2.  **Write/Side-Effect:** Done in the `Match` block (`HandleDeactivateRequest`).
 
 ### The Async Reality (Async composition friction)
 
@@ -311,22 +295,31 @@ Assert on the returned `Result` instead of exceptions:
 
 ```csharp
 [Fact]
-public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
+public void Pipeline_ReturnsFailure_WhenUserNotFound()
 {
-    // Arrange
-    var repo = new InMemoryUserRepo(); // empty repo => not found
-    var service = new UserService(repo);
+    Result<int, Error> ParseId(string inputId) =>
+        int.TryParse(inputId, out var id)
+            ? Result<int, Error>.Ok(id)
+            : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
+
+    Result<User, Error> FindUser(int id) =>
+        Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"));
+
+    Result<User, Error> Deactivate(User user) =>
+        Result<User, Error>.Ok(user);
 
     // Act
-    var result = service.DeactivateUser("123");
+    var result =
+        ParseId("123")
+            .Bind(FindUser)
+            .Bind(Deactivate);
 
     // Assert
     Assert.True(result.IsFailure);
     
-    // We inspect the error using Match to ensure it's the *correct* failure
     var errorCode = result.Match(
-        ok => "UNEXPECTED_SUCCESS", 
-        err => err.Code
+        ok:  _ => "UNEXPECTED_SUCCESS",
+        err: e => e.Code
     );
     Assert.Equal("NotFound", errorCode);
 }
