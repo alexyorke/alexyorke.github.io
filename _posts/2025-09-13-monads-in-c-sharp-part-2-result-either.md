@@ -13,7 +13,9 @@ In Part 1 we used List<T> to go over Map vs flatMap, then built Maybe<T> to chai
 
 The Result monad allows you to represent a computation's outcome as success or failure, and to sequence computations so failures propagate until handled.
 
-I use `Result` for failures I *expect* and want to model (validation, not-found, domain rules); I still use exceptions for bugs and “the database is on fire” situations.
+(Note: For scenarios where you need to collect multiple errors at once—like validating a form with five fields—Result is less suitable because it stops at the first error. That pattern is typically handled by a 'Validation' structure instead.)
+
+Result is optimized for fail-fast operations like I/O or single-step checks. When accumulating independent failures—for example, validating a form with numerous fields—use validation abstractions such as Validation<E, T>, EitherNel<E, T>, or a schema library to model error accumulation using an applicative combinator, generating a single, structured error object for UI display and reducing manual aggregation within a Result.
 
 `Result` lets you chain fallible steps without an `if` ladder or `try`/`catch` for expected outcomes:
 
