@@ -12,7 +12,7 @@ In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Mayb
 
 Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-The Result monad allows you to represent a computation's outcome (for example, a function or a method) as success or failure, and to sequence computations so failures propagate until handled. This saves you from writing nested `if` statements (or “arrow code”), or relying on `try`/`catch` for control flow.
+The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate automatically. This saves you from writing nested `if` statements (or "arrow code") or relying on `try`/`catch` for control flow.
 
 #### The Problem: The "If" Ladder
 Without `Bind` (or any chainable abstraction), dependent steps create deep nesting or require early returns that clutter the logic:
@@ -32,7 +32,7 @@ return "User deactivated";
 ```
 
 #### The Solution: Chaining
-`Result` sequences these steps using `Bind`. This keeps the “happy path” readable: the first failure short-circuits the chain, and that error flows to the end automatically.
+`Result` sequences these steps using `Bind`. This keeps the "happy path" readable: the first failure short-circuits the chain, and that error flows to the end automatically.
 
 ```csharp
 // Declarative: Focuses on the "Happy Path"
@@ -47,33 +47,14 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-> **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *accumulating validation* type instead.
+> **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
-For now, think of `ParseId`, `FindUser`, and `Deactivate` as small functions in scope; later I’ll show them as methods on a `UserService`.
+#### Terminology & Conventions
+For the examples above, assume `ParseId`, `FindUser`, and `Deactivate` are small functions in scope; later we'll move them to a service.
 
-If you use LINQ: `Map` is `Select`, and `Bind` is `SelectMany`.
-
-Terminology: many libraries call this `Either<L, R>` (Left/Right). By convention, `Right` is success, `Left` is error, and `Map`/`Bind` usually operate on `Right` (aka “right-biased”).
-
-### Result: when “missing” needs a reason
-
-`Maybe<T>` tells us whether a value exists. `Result` adds why it doesn’t.
-
-- `Ok(value)` means the operation succeeded (like `Some`).
-- `Fail(error)` means the operation failed and carries error data (like `None`, but with a payload).
-- `Bind` / `FlatMap` is the mechanism that chains the steps.
-- `Map` / `Select` transforms the successful value without changing the error branch.
-- `Match` is how you handle both cases (success vs failure) and get back to a normal value.
-
-### Short-circuiting
-
-`Result` is, well, a monad, so `Bind` only runs the next step if the previous one succeeded. It’s the same idea as `&&` short-circuiting.
-
-- If `ParseId` fails, `FindUser` is skipped.
-- If `FindUser` fails, `Deactivate` is skipped.
-- The error produced by the first failure is passed all the way to `Match`.
-
-This is fail-fast: you get the first error, not a list of everything that could have failed.
+If you are coming from other ecosystems:
+*   **LINQ:** `Map` is `Select`, and `Bind` is `SelectMany`.
+*   **Functional Languages:** Many libraries call this `Either<L, R>`. By convention, the **Right** is success (because it's "right"), and **Left** is error. Therefore, `Map` and `Bind` are usually "Right-biased."
 
 ### Example: deactivating a user
 
