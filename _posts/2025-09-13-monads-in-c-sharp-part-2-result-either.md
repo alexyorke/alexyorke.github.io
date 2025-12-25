@@ -12,10 +12,10 @@ In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Mayb
 
 Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-`Result` allows you to sequence operations so that failures propagate automatically. This saves you from writing nested `if` statements (or “arrow code”), or relying on `try`/`catch` for control flow.
+The Result monad allows you to represent a computation's outcome (for example, a function or a method) as success or failure, and to sequence computations so failures propagate until handled. This saves you from writing nested `if` statements (or “arrow code”), or relying on `try`/`catch` for control flow.
 
 #### The Problem: The "If" Ladder
-Without `Result`, dependent steps create deep nesting or require early returns that clutter the logic:
+Without `Bind` (or any chainable abstraction), dependent steps create deep nesting or require early returns that clutter the logic:
 
 ```csharp
 // Imperative: Hard to read, easy to mess up error propagation
