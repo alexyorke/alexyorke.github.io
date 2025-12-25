@@ -124,8 +124,8 @@ public sealed class Result<TSuccess, TError>
     // Invariant:
     // - If IsSuccess == true, _value is meaningful and _error is unused.
     // - If IsSuccess == false, _error is meaningful and _value is unused.
-    private readonly TSuccess _value;
-    private readonly TError _error;
+    private readonly TSuccess? _value;
+    private readonly TError? _error;
 
     public bool IsSuccess { get; }
     public bool IsFailure
@@ -141,7 +141,7 @@ public sealed class Result<TSuccess, TError>
     // But if TSuccess and TError are the same type (e.g., Result<int, int>),
     // those overloads collide and calls become ambiguous. The explicit isSuccess
     // flag makes the internal representation unambiguous.
-    private Result(TSuccess value, TError error, bool isSuccess)
+    private Result(TSuccess? value, TError? error, bool isSuccess)
     {
         IsSuccess = isSuccess;
         _value = value;
@@ -159,41 +159,46 @@ public sealed class Result<TSuccess, TError>
 
     public static Result<TSuccess, TError> Fail(TError error)
     {
+        // We store default(TSuccess) in the unused slot.
+        return new Result<TSuccess, TError>(
+            value: default(TSuccess),
+            error: error,
+            isSuccess: false);
+    }
 
-    {
-        if (IsSuccess)
-        {
-            throw new InvalidOperationException("Cannot read Error when Result is Success.");
-        }
-
-    public static Result<TSuccess, TError> Fail(TError error) =>
-        new(default, error, false);
-
-    // Functor: Transform the inner value
+    // Functor: Transform the inner value (success branch only).
+    // Common pitfall: Map does not run on failures; it preserves the error untouched.
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         if (IsSuccess)
         {
-            U newValue = f(GetValueOrThrow());
-            return Result<U, TError>.Ok(newValue);
+            return Result<U, TError>.Ok(f(_value));
+        }
+
+        return Result<U, TError>.Fail(_error);
     }
 
-    // Monad: Chain a dependent operation that might fail
+    // Monad: Chain a dependent operation that might fail (short-circuits on the first failure).
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         if (IsSuccess)
         {
+            return f(_value);
+        }
+
+        return Result<U, TError>.Fail(_error);
     }
 
-    // Match: Extract the value to leave the monad (the "End of the Railway")
+    // Match: Leave the monad by turning a Result into a "plain" value.
+    // This is typically used at the boundary (API/UI/CLI) to decide what to do next.
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
         if (IsSuccess)
         {
-            return ok(GetValueOrThrow());
+            return ok(_value);
         }
 
-        return err(GetErrorOrThrow());
+        return err(_error);
     }
 
     // LINQ Support (Select = Map, SelectMany = Bind)
@@ -317,6 +322,8 @@ If you need async + `Result` composition, do not hand-roll helpers. Use a librar
 - **LanguageExt**: Strict functional style ("Haskell for C#").
 - **FluentResults**: Object-oriented features.
 
+> **Either bias note:** Some libraries model `Either`/`Result` as left-biased or right-biased; a few are "unbiased" (neither side is preferred). Check your library docs to know which branch `Map`/`Bind` operates on by default.
+
 With a library, the async pipeline stays linear:
 
 ```csharp
@@ -341,6 +348,8 @@ Testing `Result` is cleaner than testing Exceptions because you don't need `Asse
 In production codebases, tests often benefit from small "peek" helpers or custom assertion methods, but sticking to the public API is fine for this article.
 
 If your `Result` type keeps its internals private, use `Match` to unwrap the error for assertion. In a unit test, entering the success branch when you expected failure is a test failure, so throw immediately.
+
+Also: don't stop at "it failed"—assert the *kind* of failure (code/message/type). Otherwise, the wrong failure can sneak in and your test still passes.
 
 ```csharp
 [Fact]
