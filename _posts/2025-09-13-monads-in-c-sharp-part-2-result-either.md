@@ -12,33 +12,65 @@ In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Mayb
 
 Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. This saves you from writing nested `if` statements (or "arrow code") or relying on `try`/`catch` for control flow.
+The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. This saves you from **"Defensive Coding Noise"**—where your business logic is interrupted every other line by error checks. It also prevents **Hidden Control Flow**, where Exceptions act like invisible `GOTO` statements that force the caller to guess what might go wrong.
 
-#### The Problem: The "If" Ladder
-Without `Bind` (or any chainable abstraction), dependent steps create deep nesting or require early returns that clutter the logic:
+#### The Problem: The "Honesty" vs. "Clarity" Trade-off
+
+In traditional C#, we usually have to choose between code that is **clean but dishonest** (Exceptions) or **honest but noisy** (Guard Clauses).
+
+**Option A: The Exception Trap (Clean, but Dishonest)**
+This code is easy to read, but the signature lies. `DeactivateUser` claims to return `void`, but it might actually throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
 
 ```csharp
-// Imperative: Hard to read, easy to mess up error propagation
-if (!int.TryParse(inputId, out var id))
-    return "Invalid ID";
+// The signature hides the complexity.
+// To use this safely, the caller MUST wrap it in a try/catch.
+public void DeactivateUser(string inputId)
+{
+    // If parsing fails, the app blows up.
+    int id = int.Parse(inputId);
 
-var user = repo.Find(id);
-if (user is null)
-    return "User not found";
+    // If user is null, the app blows up later.
+    var user = repo.Find(id);
 
-if (!user.IsActive)
-    return "User already inactive";
+    // This looks like logic, but it's implicitly controlling flow via exceptions.
+    if (!user.IsActive)
+        throw new Exception("User already inactive");
 
-user.IsActive = false;
-repo.Save(user);
-return "User deactivated";
+    user.IsActive = false;
+    repo.Save(user);
+}
+```
+
+**Option B: The Defensive approach (Honest, but Noisy)**
+To avoid exceptions, we use "Guard Clauses." This is safer, but now 80% of our code is error checking, and the actual business value (deactivating the user) is buried at the bottom.
+
+```csharp
+// Imperative: The "Happy Path" is fragmented by error checks.
+public string DeactivateUser(string inputId)
+{
+    if (!int.TryParse(inputId, out var id))
+        return "Invalid ID";
+
+    var user = repo.Find(id);
+    if (user is null)
+        return "User not found";
+
+    if (!user.IsActive)
+        return "User already inactive";
+
+    // Finally, the actual work happens here.
+    user.IsActive = false;
+    repo.Save(user);
+    return "Success";
+}
 ```
 
 #### The Solution: Chaining
 `Result` sequences these steps using `Bind`. This keeps the "happy path" readable: the first failure short-circuits the chain, and that error flows to the end automatically.
 
 ```csharp
-// Declarative: Focuses on the "Happy Path"
+// Declarative: The logic flows in one uninterrupted pipeline.
+// No 'if' statements to break your reading flow.
 Result<User, Error> result =
     ParseId(inputId)
         .Bind(FindUser)
