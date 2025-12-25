@@ -28,6 +28,8 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
+For the next few sections, you can think of `ParseId`, `FindUser`, and `Deactivate` as small functions in scope; later I’ll show them as methods on a `UserService` to make the example more realistic.
+
 You likely use this pattern already.
 If you use LINQ, you know this flow: `Map` is just `Select`, and `Bind` is just `SelectMany`. We are simply applying that same chainable logic to single outcomes instead of lists.
 
@@ -91,6 +93,7 @@ A few common gotchas:
 - Infrastructure failures (DB down, OOM, null refs): let exceptions bubble to your global middleware.
 - Bugs / invariant violations: throw (e.g., `ArgumentNullException`). That’s a caller bug, not a domain outcome.
 - Form-style validation: `Bind` stops at the first error, but users usually want *all* validation errors at once; use an accumulating validation type (often called `Validation<TError, TSuccess>`) which composes via applicative rather than monadic chaining.
+  If that distinction is new, the search term you want is “applicative validation”.
 
 Also: if you’re in a hot path, watch allocations (this tutorial uses a class). And if you’re stacking effects (`Task<Result<...>>`), you’ll want async combinators or you’ll end up writing a lot of glue.
 
@@ -407,6 +410,7 @@ public Task<Result<User, Error>> DeactivateUser(string inputId) =>
 I treat `Result<TSuccess, TError>` as internal plumbing. At the boundary (API controller, UI, etc.), unwrap it (e.g., to `IActionResult`) using `Match`.
 
 Usually avoid returning a raw `Result` object directly to the frontend. It’s a leaky abstraction: it forces your JavaScript client to learn about your internal C# architecture.
+Also be careful not to leak internal error codes/messages directly to clients in sensitive domains; map to stable public error shapes and redact details where needed.
 
 If you serialize `Result` directly, you’ll typically get wrapper JSON (often something like `{ "isSuccess": true, "value": ... }`).
 
