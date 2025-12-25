@@ -4,7 +4,7 @@ date: 2025-12-20 09:00:00 +0000
 description: "Introduces the Reader monad in C# to avoid parameter drilling by threading an immutable environment through composed computations, with a minimal implementation and examples."
 ---
 
-**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result (Either)](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
+**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result (Either)](https://alexyorke.github.io/2025/12/21/monads-in-c-sharp-part-2-result-either/)
 
 In Part 2 you built `Result<TSuccess, TError>` (aka `Either`) to model failures explicitly: `Map`/`Bind` for composition, and `Match` to unwrap at the boundary (e.g., HTTP/UI) without leaking `Result` into serialization.
 
