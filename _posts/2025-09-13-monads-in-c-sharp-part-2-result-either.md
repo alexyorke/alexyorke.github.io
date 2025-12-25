@@ -14,6 +14,12 @@ Think of `Result` like `Maybe`, but the negative branch carries data. While `May
 
 The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. This saves you from **"Defensive Coding Noise"**—where your business logic is interrupted every other line by error checks. It also prevents **Hidden Control Flow**, where Exceptions act like invisible `GOTO` statements that force the caller to guess what might go wrong.
 
+> **Concept Check: Result vs. Nullable (`T?`)**
+> 
+> Use `T?` when a value implies **Absence** and you don't care why (e.g., a user's optional middle name).
+> 
+> Use `Result` when a value implies **Failure** and the reason matters. If `FindUser(id)` returns `null`, you don't know if the ID was malformed, the user was deleted, or the database timed out. `Result` makes that distinction explicit.
+
 #### The Problem: The "Honesty" vs. "Clarity" Trade-off
 
 In traditional C#, we usually have to choose between code that is **clean but dishonest** (Exceptions) or **honest but noisy** (Guard Clauses).
@@ -145,8 +151,6 @@ Using `Result` over exceptions or `bool` returns has specific benefits:
 2.  **Bugs:** If a method receives a `null` argument that should never be null, throw `ArgumentNullException`. That is a bug, not a business outcome.
 3.  **Accumulation:** As mentioned earlier, `Bind` short-circuits. For form validation (where you want 10 errors, not just the first one), you need "Applicative Validation," not monadic binding.
 
-> **Performance Note:** If you are in a hot path, watch your allocations. This tutorial uses a class for `Result`, but highly optimized libraries often use `readonly struct` to minimize GC pressure.
-
 ### Implementing Result
 Here is a teaching implementation. (In production, consider a battle-tested library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*.)
 
@@ -277,28 +281,35 @@ string output = result.Match(
     err: error => $"Error: {error.Code}"
 );
 ```
-
-### Putting it together: The User Pipeline
-Here is the deactivation logic refactored into a **Service**.
-
-The Service is pure(ish): it calculates the outcome without forcing side effects immediately. The "Caller" (imperative shell) decides what to do with that outcome (Save it, Log it, etc).
+### Putting it together: Functional core, imperative shell
+Keep the workflow pure, then exit once at the boundary.
 
 ```csharp
 public sealed class UserService
 {
     private readonly IUserRepo _repo;
-    public UserService(IUserRepo repo) => _repo = repo;
+    public UserService(IUserRepo repo)
+    {
+        _repo = repo;
+    }
 
-    // The Public Entry Point (The Imperative Shell)
-    // Runs the pipeline, then decides how to handle the result (e.g. Save or Error)
+    // Pure logic: Parse -> Find -> Deactivate -> Return Result
+    public Result<User, Error> DeactivateUser(string inputId)
+    {
+        return ParseId(inputId)
+            .Bind(FindUser)
+            .Bind(Deactivate);
+    }
+
+    // Boundary: unwrap and perform effects (persistence, logging, etc.)
     public string HandleDeactivateRequest(string inputId)
     {
-        var result = DeactivateUser(inputId);
+        Result<User, Error> result = DeactivateUser(inputId);
 
         return result.Match(
             ok: user =>
             {
-                _repo.Save(user); // Side effect happens ONLY on success
+                _repo.Save(user);
                 return "User deactivated";
             },
             err: e => $"Deactivate failed: {e.Code} - {e.Message}");
@@ -376,6 +387,29 @@ At the **Edge** of your application (API Controller, CLI, UI View Model), unwrap
 This keeps your internal domain logic decoupled from your HTTP contract.
 
 Never return `Result<...>` directly to a generic JSON serializer. Unwrap it into a `ProblemDetails` (for failure) or a specific DTO (for success) so your public API remains stable even if your internal error types change.
+
+#### The "Russian Doll" Risk
+If you return a `Result` directly from a Controller, you leak implementation details and create awkward JSON wrappers:
+
+```json
+{
+  "isSuccess": true,
+  "isFailure": false,
+  "error": null,
+  "value": { "id": 123, "isActive": false }
+}
+```
+
+Always unwrap at the boundary using `Match` to return standard HTTP responses or clean DTOs.
+
+### Advanced: Maybe inside Result
+Because these are composable containers, you can nest them (e.g., `Result<Maybe<Phone>, Error>`):
+
+- **Success + Some**: User provided a valid phone number.
+- **Success + None**: User provided nothing (valid, because it's optional).
+- **Failure**: User provided something invalid (e.g., wrong format).
+
+This distinction is awkward to model with just `T?` or exceptions without getting messy.
 
 ### Testing Strategies
 Testing `Result` is cleaner than testing Exceptions because you don't need `Assert.Throws`.
