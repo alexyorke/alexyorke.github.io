@@ -113,7 +113,7 @@ Using `Result` over exceptions or `bool` returns has specific benefits:
 > **Performance Note:** If you are in a hot path, watch your allocations. This tutorial uses a class for `Result`, but highly optimized libraries often use `readonly struct` to minimize GC pressure.
 
 ### Implementing Result
-Here is a teaching implementation. (In production, consider a battle-tested library like *LanguageExt*, *CSharpFunctionalExtensions*, or *Fluently*.)
+Here is a teaching implementation. (In production, consider a battle-tested library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*.)
 
 ```csharp
 // Structured error type (instead of just a string).
@@ -211,7 +211,7 @@ public sealed class UserService
     // Runs the pipeline, then decides how to handle the result (e.g. Save or Error)
     public string HandleDeactivateRequest(string inputId)
     {
-        var result = DeactivateUserWorkflow(inputId);
+        var result = DeactivateUser(inputId);
 
         return result.Match(
             ok: user =>
@@ -224,7 +224,7 @@ public sealed class UserService
 
     // The Domain Pipeline (The Functional Core)
     // Pure logic: Parse -> Find -> Deactivate -> Return Result
-    private Result<User, Error> DeactivateUserWorkflow(string inputId) =>
+    public Result<User, Error> DeactivateUser(string inputId) =>
         ParseId(inputId)
             .Bind(FindUser)
             .Bind(Deactivate);
@@ -257,81 +257,82 @@ public sealed class UserService
 ```
 
 This enforces the **"Functional Core, Imperative Shell"** architecture:
-1.  **Read/Compute:** Done in the `Result` pipeline (`DeactivateUserWorkflow`).
+1.  **Read/Compute:** Done in the `Result` pipeline (`DeactivateUser`).
 2.  **Write/Side-Effect:** Done in the `Match` block (`HandleDeactivateRequest`).
 
 ### The Async Reality (Async composition friction)
 
-In modern C#, almost all I/O is asynchronous and returns `Task<T>`.
-That means you often end up stacking effects: async (`Task`) and failure (`Result`).
+In modern C#, almost all I/O is asynchronous and returns `Task<T>`.[^task-monad] This creates a "wrapping problem" (the Task/Result sandwich): your return types become `Task<Result<User, Error>>`.
 
-A useful mental model: `Task<T>` composes too: `await` + projection is basically `Map`, and `await` + returning another task is basically `Bind`.[^task-monad]
+The native `Bind` we wrote only works on `User`; it doesn't know how to penetrate the `Task` wrapper. You end up having to `await` manually before every step, and you can't just `await` your way out of the structure—`await` unwraps the `Task`, not the `Result`.
 
-The annoying case is `Task<Result<...>>`: you want to keep the same straight-line `Bind` flow, but you can’t without a couple helper methods.
+To fix this, we need **Async Combinators** (often called `BindAsync` or `SelectManyAsync`). These unpack the `Task`, check the `Result` inside, and then continue or short-circuit.
 
-Libraries usually call these `BindAsync` / `MapAsync` / `SelectManyAsync`. Most `Result` libraries already have them.
+### Recommended Libraries
+Async combinators are tricky to write correctly (handling cancellation tokens, configuring awaits, etc.). In production, use a library that solves this:
 
-### If you want this in real code
-Async combinators need careful handling. If you need async + `Result` composition, pick a library and use its async helpers:
-- ErrorOr (Simple, struct-based)
-- FluentResults (Rich features)
-- LanguageExt (Strict functional style)
+*   **CSharpFunctionalExtensions:** The "Standard Logic" library. Very close to the code in this post.
+*   **LanguageExt:** If you want "Haskell in C#." strict, powerful, and forces good habits.
+*   **FluentResults:** A more object-oriented take, feature-rich but slightly heavier.
 
-With those, the pipeline stays linear:
+With a library, the async pipeline stays linear:
 
 ```csharp
-// What these libraries allow you to do:
+// libraries providing "BindAsync" handle the Task wrapper for you:
 public Task<Result<User, Error>> DeactivateUser(string inputId) =>
-    ParseIdAsync(inputId)          // Task<Result<int, Error>>
-        .BindAsync(FindUserAsync)  // Task<Result<User, Error>>
+    ParseIdAsync(inputId)           // Task<Result<int, Error>>
+        .BindAsync(FindUserAsync)   // Await, check result, then run Find
         .BindAsync(DeactivateAsync);
 ```
 
 ### Exiting the Monad (The API Boundary)
-Treat `Result<TSuccess, TError>` as internal plumbing. At the boundary (API/UI), unwrap it with `Match` into your boundary type (`IActionResult`, `ProblemDetails`, view model, etc.) and map internal errors to stable public shapes.
+Treat `Result<TSuccess, TError>` as internal plumbing.
+At the **Edge** of your application (API Controller, CLI, UI View Model), unwrap it with `Match`.
+
+Never return `Result<...>` directly to a generic JSON serializer. Unwrap it into a `ProblemDetails` (for failure) or a specific DTO (for success) so your public API remains stable even if your internal error types change.
 
 ### Testing Strategies
-Assert on the returned `Result` instead of exceptions:
+Testing `Result` is cleaner than testing Exceptions because you don't need `Assert.Throws`.
+
+In production codebases, tests often benefit from small "peek" helpers or custom assertion methods, but sticking to the public API is fine for this article.
+
+If your `Result` type keeps its internals private, use `Match` to produce values for assertion:
 
 ```csharp
 [Fact]
-public void Pipeline_ReturnsFailure_WhenUserNotFound()
+public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 {
-    Result<int, Error> ParseId(string inputId) =>
-        int.TryParse(inputId, out var id)
-            ? Result<int, Error>.Ok(id)
-            : Result<int, Error>.Fail(new Error("Parse", "Invalid ID format"));
-
-    Result<User, Error> FindUser(int id) =>
-        Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"));
-
-    Result<User, Error> Deactivate(User user) =>
-        Result<User, Error>.Ok(user);
+    // Arrange
+    var repo = new InMemoryUserRepo(); // empty
+    var service = new UserService(repo);
 
     // Act
-    var result =
-        ParseId("123")
-            .Bind(FindUser)
-            .Bind(Deactivate);
+    var result = service.DeactivateUser("123");
 
-    // Assert
+    // Assert: Check State
     Assert.True(result.IsFailure);
     
-    var errorCode = result.Match(
-        ok:  _ => "UNEXPECTED_SUCCESS",
-        err: e => e.Code
+    // Assert: Check Reason (using Match to inspect the private error)
+    var errorParams = result.Match(
+        ok: _ => (Code: "Success", Message: "Should not be here"),
+        err: e => (Code: e.Code, Message: e.Message)
     );
-    Assert.Equal("NotFound", errorCode);
+    
+    Assert.Equal("NotFound", errorParams.Code);
 }
 ```
 
 ### Wrap-up
 
-`Result` is just a way to keep “expected failure” in-band, as data. Compose with `Map`/`Bind`, and unwrap once at the edge with `Match`.
+`Result` is a tool to keep “expected failure” in-band, as data.
 
-If you end up in `Task<Result<...>>` land, grab a library with async combinators rather than hand-rolling them.
+1.  **Reasoning:** Use it when a method fails as part of normal business logic (`UserNotFound`).
+2.  **Chaining:** Use `Bind` to short-circuit operations.
+3.  **Exiting:** Use `Match` at the edge to make a final decision.
+
+This concludes the basics of Control Flow Monads.
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
-[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
-[^task-monad]: In a strict sense, `Task<T>` isn’t a pure monad in the mathematical sense because it can complete before you bind it and can capture asynchronous execution effects. Still, for practical purposes in C#, treating `Task<T>` as monadic is a useful mental model for understanding async composition patterns.
+[^id]: In real systems, use strong types like `UserId` rather than `int`/`string` to avoid "primitive obsession," but that is a topic for another post.
+[^task-monad]: `Task<T>` isn’t strictly a pure monad because it triggers execution immediately (it is "Hot") and caches results, but it obeys the laws well enough to model it as one for control flow.
