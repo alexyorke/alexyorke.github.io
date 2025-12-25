@@ -12,7 +12,7 @@ In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Mayb
 
 Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate automatically. This saves you from writing nested `if` statements (or "arrow code") or relying on `try`/`catch` for control flow.
+The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. This saves you from writing nested `if` statements (or "arrow code") or relying on `try`/`catch` for control flow.
 
 #### The Problem: The "If" Ladder
 Without `Bind` (or any chainable abstraction), dependent steps create deep nesting or require early returns that clutter the logic:
@@ -121,21 +121,50 @@ public record Error(string Code, string Message);
 
 public sealed class Result<TSuccess, TError>
 {
-    private readonly TSuccess? _value;
-    private readonly TError? _error;
+    // Invariant:
+    // - If IsSuccess == true, _value is meaningful and _error is unused.
+    // - If IsSuccess == false, _error is meaningful and _value is unused.
+    private readonly TSuccess _value;
+    private readonly TError _error;
 
     public bool IsSuccess { get; }
-    public bool IsFailure => !IsSuccess;
+    public bool IsFailure
+    {
+        get { return !IsSuccess; }
+    }
 
-    private Result(TSuccess? value, TError? error, bool isSuccess)
+    // Why a 3-parameter constructor?
+    //
+    // A tempting design is to have two private constructors:
+    //     Result(TSuccess value) and Result(TError error)
+    //
+    // But if TSuccess and TError are the same type (e.g., Result<int, int>),
+    // those overloads collide and calls become ambiguous. The explicit isSuccess
+    // flag makes the internal representation unambiguous.
+    private Result(TSuccess value, TError error, bool isSuccess)
     {
         IsSuccess = isSuccess;
         _value = value;
         _error = error;
     }
 
-    public static Result<TSuccess, TError> Ok(TSuccess value) =>
-        new(value, default, true);
+    public static Result<TSuccess, TError> Ok(TSuccess value)
+    {
+        // We store default(TError) in the unused slot.
+        return new Result<TSuccess, TError>(
+            value: value,
+            error: default(TError),
+            isSuccess: true);
+    }
+
+    public static Result<TSuccess, TError> Fail(TError error)
+    {
+
+    {
+        if (IsSuccess)
+        {
+            throw new InvalidOperationException("Cannot read Error when Result is Success.");
+        }
 
     public static Result<TSuccess, TError> Fail(TError error) =>
         new(default, error, false);
@@ -143,32 +172,45 @@ public sealed class Result<TSuccess, TError>
     // Functor: Transform the inner value
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
-        if (IsSuccess) return Result<U, TError>.Ok(f(_value!));
-        return Result<U, TError>.Fail(_error!);
+        if (IsSuccess)
+        {
+            U newValue = f(GetValueOrThrow());
+            return Result<U, TError>.Ok(newValue);
     }
 
     // Monad: Chain a dependent operation that might fail
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
-        if (IsSuccess) return f(_value!);
-        return Result<U, TError>.Fail(_error!);
+        if (IsSuccess)
+        {
     }
 
     // Match: Extract the value to leave the monad (the "End of the Railway")
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
-        if (IsSuccess) return ok(_value!);
-        return err(_error!);
+        if (IsSuccess)
+        {
+            return ok(GetValueOrThrow());
+        }
+
+        return err(GetErrorOrThrow());
     }
 
     // LINQ Support (Select = Map, SelectMany = Bind)
-    public Result<U, TError> Select<U>(Func<TSuccess, U> selector) => Map(selector);
+    public Result<U, TError> Select<U>(Func<TSuccess, U> selector)
+    {
+        return Map(selector);
+    }
 
     public Result<V, TError> SelectMany<U, V>(
         Func<TSuccess, Result<U, TError>> bind,
         Func<TSuccess, U, V> project)
     {
-        return Bind(t => bind(t).Map(u => project(t, u)));
+        return Bind(
+            t => bind(t).Map(
+                u => project(t, u)
+            )
+        );
     }
 }
 ```
@@ -262,32 +304,34 @@ This enforces the **"Functional Core, Imperative Shell"** architecture:
 
 ### The Async Reality (Async composition friction)
 
-In modern C#, almost all I/O is asynchronous and returns `Task<T>`.[^task-monad] This creates a "wrapping problem" (the Task/Result sandwich): your return types become `Task<Result<User, Error>>`.
+In modern C#, almost all I/O is asynchronous and returns `Task<T>`. This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
-The native `Bind` we wrote only works on `User`; it doesn't know how to penetrate the `Task` wrapper. You end up having to `await` manually before every step, and you can't just `await` your way out of the structure—`await` unwraps the `Task`, not the `Result`.
+A useful mental model: `Task<T>` composes too! `await` + projection is basically `Map`, and `await` + returning another task is basically `Bind`.[^task-monad]
 
-To fix this, we need **Async Combinators** (often called `BindAsync` or `SelectManyAsync`). These unpack the `Task`, check the `Result` inside, and then continue or short-circuit.
+The friction happens when you stack them. If you try to mix the `Task` monad (awaiting) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
-### Recommended Libraries
-Async combinators are tricky to write correctly (handling cancellation tokens, configuring awaits, etc.). In production, use a library that solves this:
+### How to fix it (Combinators)
+If you need async + `Result` composition, do not hand-roll helpers. Use a library that provides `BindAsync` (sometimes called `SelectManyAsync`):
 
-*   **CSharpFunctionalExtensions:** The "Standard Logic" library. Very close to the code in this post.
-*   **LanguageExt:** If you want "Haskell in C#." strict, powerful, and forces good habits.
-*   **FluentResults:** A more object-oriented take, feature-rich but slightly heavier.
+- **CSharpFunctionalExtensions**: Closest to the code in this post.
+- **LanguageExt**: Strict functional style ("Haskell for C#").
+- **FluentResults**: Object-oriented features.
 
 With a library, the async pipeline stays linear:
 
 ```csharp
-// libraries providing "BindAsync" handle the Task wrapper for you:
+// Libraries providing "BindAsync" handle the Task wrapper for you:
 public Task<Result<User, Error>> DeactivateUser(string inputId) =>
     ParseIdAsync(inputId)           // Task<Result<int, Error>>
-        .BindAsync(FindUserAsync)   // Await, check result, then run Find
+        .BindAsync(FindUserAsync)   // Await task, check Result, then run Find
         .BindAsync(DeactivateAsync);
 ```
 
 ### Exiting the Monad (The API Boundary)
 Treat `Result<TSuccess, TError>` as internal plumbing.
 At the **Edge** of your application (API Controller, CLI, UI View Model), unwrap it with `Match`.
+
+This keeps your internal domain logic decoupled from your HTTP contract.
 
 Never return `Result<...>` directly to a generic JSON serializer. Unwrap it into a `ProblemDetails` (for failure) or a specific DTO (for success) so your public API remains stable even if your internal error types change.
 
@@ -296,7 +340,7 @@ Testing `Result` is cleaner than testing Exceptions because you don't need `Asse
 
 In production codebases, tests often benefit from small "peek" helpers or custom assertion methods, but sticking to the public API is fine for this article.
 
-If your `Result` type keeps its internals private, use `Match` to produce values for assertion:
+If your `Result` type keeps its internals private, use `Match` to unwrap the error for assertion. In a unit test, entering the success branch when you expected failure is a test failure, so throw immediately.
 
 ```csharp
 [Fact]
@@ -313,26 +357,24 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
     Assert.True(result.IsFailure);
     
     // Assert: Check Reason (using Match to inspect the private error)
-    var errorParams = result.Match(
-        ok: _ => (Code: "Success", Message: "Should not be here"),
-        err: e => (Code: e.Code, Message: e.Message)
+    var error = result.Match(
+        ok: _ => throw new Exception("Expected failure but operation succeeded!"),
+        err: e => e
     );
     
-    Assert.Equal("NotFound", errorParams.Code);
+    Assert.Equal("NotFound", error.Code);
 }
 ```
 
 ### Wrap-up
 
-`Result` is a tool to keep “expected failure” in-band, as data.
+`Result` is just a way to keep “expected failure” in-band, as data.
 
-1.  **Reasoning:** Use it when a method fails as part of normal business logic (`UserNotFound`).
-2.  **Chaining:** Use `Bind` to short-circuit operations.
-3.  **Exiting:** Use `Match` at the edge to make a final decision.
-
-This concludes the basics of Control Flow Monads.
+1.  **Chain** with `Map`/`Bind`.
+2.  **Handle** `Task<Result<...>>` using async combinators.
+3.  **Decide** once at the edge with `Match`.
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
-[^id]: In real systems, use strong types like `UserId` rather than `int`/`string` to avoid "primitive obsession," but that is a topic for another post.
+[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
 [^task-monad]: `Task<T>` isn’t strictly a pure monad because it triggers execution immediately (it is "Hot") and caches results, but it obeys the laws well enough to model it as one for control flow.
