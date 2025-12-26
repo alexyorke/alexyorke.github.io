@@ -260,7 +260,7 @@ What do you get for returning `Result` instead of throwing or using sentinels?
 
 ### Putting it together: Functional core, imperative shell
 #### Example: Deactivating a user
-We want to deactivate a user given a user's `id` (a **string**) from an HTTP request.[^id]
+We want to deactivate a user given an `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
 
 We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
 
@@ -268,7 +268,7 @@ We'll use a simple custom error payload in the examples below (this is **not** p
 public record Error(string Code, string Message);
 ```
 
-Keep the workflow pure, then exit once at the boundary.
+Keep decision logic separate from I/O: compute first, then perform effects once at the boundary.
 
 ```csharp
 public sealed class UserService
@@ -279,12 +279,12 @@ public sealed class UserService
         _repo = repo;
     }
 
-    // Pure logic: Parse -> Find -> Deactivate -> Return Result
+    // Orchestration (shell): Parse -> Load -> Decide
     public Result<User, Error> DeactivateUser(string inputId)
     {
         return ParseId(inputId)
             .Bind(FindUser)
-            .Bind(Deactivate);
+            .Bind(DeactivateDecision);
     }
 
     // Boundary: unwrap and perform effects (persistence, logging, etc.)
@@ -316,21 +316,21 @@ public sealed class UserService
             : Result<User, Error>.Ok(user);
     }
 
-    private static Result<User, Error> Deactivate(User user)
+    // Core decision: compute an updated user (no I/O).
+    private static Result<User, Error> DeactivateDecision(User user)
     {
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
-        // Domain Mutation: valid here because the 'Save' hasn't happened yet.
-        user.IsActive = false;
-        return Result<User, Error>.Ok(user);
+        // Prefer immutable data flow (e.g., records). Persistence happens at the boundary.
+        return Result<User, Error>.Ok(user with { IsActive = false });
     }
 }
 ```
 
 This enforces the **"Functional Core, Imperative Shell"** architecture:
-1.  **Read/Compute:** Done in the `Result` pipeline (`DeactivateUser`).
-2.  **Write/Side-Effect:** Done in the `Match` block (`HandleDeactivateRequest`).
+1.  **Orchestrate (parse + load + decide):** Done in the `Result` pipeline (`DeactivateUser`).
+2.  **Act (persist + return output):** Done in the `Match` block (`HandleDeactivateRequest`).
 
 ### The Async Reality (Async composition friction)
 
@@ -357,8 +357,8 @@ With a library, the async pipeline stays linear:
 // Libraries providing "BindAsync" handle the Task wrapper for you:
 public Task<Result<User, Error>> DeactivateUser(string inputId) =>
     ParseIdAsync(inputId)           // Task<Result<int, Error>>
-        .BindAsync(FindUserAsync)   // Await task, check Result, then run Find
-        .BindAsync(DeactivateAsync);
+        .BindAsync(FindUserAsync)   // Orchestration: await task, check Result, then load
+        .BindAsync(DeactivateDecisionAsync);
 ```
 
 ### Testing Strategies
