@@ -1,44 +1,50 @@
 ---
-title: "Monads in C# (Part 2): Result"
+title: "Monads in C# (Part 2): Result (Either)"
 date: 2025-09-13
 description: "Build a small Result type in C# and use Map/Bind/Match to compose fail-fast workflows with explicit errors."
 ---
 
-**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/a-list-is-a-monad/)
+**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps.
+In **Part 1**, we used `List<T>` to contrast `Map` vs `Bind` (aka `FlatMap`), and built `Maybe<T>` to chain optional steps.
 
 The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
 
 This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit throws and verbose defensive checking.
 
-Think of it like `Maybe`, but the negative branch carries data: while `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
+In practice, `Result` is usually **success-biased**: `Map`/`Bind` operate on the success value and propagate the error unchanged.
+
+This turns error handling into an explicit value, so workflows stay linear and composable without hidden stack unwinding.
+
+It’s like `Maybe<T>`, except the failure case carries a typed reason instead of just “no value”.
 
 #### The Problem: Explicitness vs. Readability
 
 In everyday C#, you tend to end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
-This code is concise, but the method signature doesn't tell you what can go wrong. `DeactivateUser` returns `void`, yet it can throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
+This code is concise, but the method signature doesn't tell you what can go wrong. `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
 
 ```csharp
 // The signature implies success, hiding the failure modes.
 // To use this safely, the caller relies on documentation or try/catch blocks.
+private readonly IUserRepo _repo;
+
 public void DeactivateUser(string inputId)
 {
     // If parsing fails, the stack unwinds immediately.
     int id = int.Parse(inputId);
 
-    var user = repo.Find(id);
+    var user = _repo.Find(id);
 
     // Flow control is handled via exceptions rather than return values.
     if (!user.IsActive)
-        throw new Exception("User already inactive");
+        throw new InvalidOperationException("User already inactive");
 
     user.IsActive = false;
-    repo.Save(user);
+    _repo.Save(user);
 }
 ```
 
@@ -51,15 +57,16 @@ If you want to keep exceptions for truly exceptional cases, you end up with guar
 
 ```csharp
 // The "Happy Path" is interleaved with validation checks.
+private readonly IUserRepo _repo;
+
 public string DeactivateUser(string inputId)
 {
     if (!int.TryParse(inputId, out var id))
         return "Invalid ID";
 
-    var user = repo.Find(id);
-    // Note: 'null' implies absence, but lacks context (e.g., DB Timeout vs. Missing Record),
-    // and it has a habit of showing up uninvited.
-    if (user is null) 
+    var user = _repo.Find(id);
+    // Note: 'null' implies absence, but lacks context (e.g., not found vs. permission vs. other failure modes).
+    if (user is null)
         return "User not found";
 
     if (!user.IsActive)
@@ -67,7 +74,7 @@ public string DeactivateUser(string inputId)
 
     // The state change occurs only after all guards pass.
     user.IsActive = false;
-    repo.Save(user);
+    _repo.Save(user);
     return "Success";
 }
 ```
@@ -76,21 +83,22 @@ At this point you either drop the reason (return `bool`) or invent a convention 
 
 #### The Solution: The Control Flow Spectrum
 
-The `Result` type provides a middle ground between ignoring absence (Nullable) and aborting execution (Exception). It allows us to model **Recoverable Failure** as a first-class value.
+`Result` models **operation outcomes** (success/failure) as values, so you can compose fail-fast workflows without exceptions. It allows us to model **Recoverable Failure** as a first-class value.
 
 > **Concept Check: The Control Flow Spectrum**
 > 
-> **1. Result (`Result<T, E>`) → "Expected failure"**
+> **1. Result (`Result<TSuccess, TError>`) → "Expected failure"**
 > *   **Use when:** An operation can fail as part of normal business logic (e.g., "User Not Found" or "Validation Failed").
 > *   **Control Flow:** Linear & Composable. You chain operations without `try/catch` blocks.
 > 
 > **2. Exception → "Panic / Abort"**
-> *   **Use when:** Something unexpected happened and you can't continue locally (e.g., OutOfMemory, bad config).
+> *   **Use when:** Something unexpected happened and you can't continue locally (e.g., unexpected I/O failures, corrupted configuration, invariants being violated).
 > *   **Control Flow:** **Jump.** It rips through the stack until caught.
 
 > **Note on Nullable Types (`T?`)**
 > 
 > C#'s nullable reference types (`string?`, etc.) primarily help the **compiler** detect potential `NullReferenceException`s. They assist in modeling **anticipated absence**, i.e., situations where a value might legitimately be missing (like an optional middle name), or an API might return `null` when a record isn't found. The compiler provides warnings if you don't handle these potential nulls, offering a layer of safety.
+> (They don’t change runtime behavior—`null` can still happen—so you still need checks or guards at runtime.)
 > 
 > Nullable reference types are related, but they solve a different problem:
 > *   Focus on **data absence** (static state), not **operation failure** (action outcome).
@@ -101,13 +109,23 @@ The `Result` type provides a middle ground between ignoring absence (Nullable) a
 
 Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an error.
 
+We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
+
+```csharp
+public record Error(string Code, string Message);
+```
+
 ```csharp
 // Declarative: The logic flows in a single pipeline.
-// No 'if' statements required between steps.
+// No manual if/early-return checks between steps—the branching is handled by Bind.
+// Assume: ParseId : string -> Result<int, Error>
+//         FindUser : int -> Result<User, Error>
+//         DeactivateDecision : User -> Result<User, Error>
+string inputId = /* from request */;
 Result<User, Error> result =
     ParseId(inputId)
         .Bind(FindUser)
-        .Bind(Deactivate);
+        .Bind(DeactivateDecision);
 
 // Handle the final outcome in one place
 string message = result.Match(
@@ -123,7 +141,7 @@ Here’s a small teaching implementation. Don’t use it in production; if you�
 ```csharp
 public sealed class Result<TSuccess, TError>
 {
-    // The state is binary: it contains EITHER a value OR an error, never both.
+    // The branch is binary: IsSuccess determines which payload is meaningful.
     private readonly TSuccess? _value;
     private readonly TError? _error;
 
@@ -168,7 +186,7 @@ public sealed class Result<TSuccess, TError>
     }
 
     // BIND: Chains an operation that *also* returns a Result.
-    // This is the "Railway Switch": if the previous step failed, we stop immediately.
+    // If the previous step failed, we stop immediately and propagate the error.
     // Note: the function 'f' provides the *new* success OR the *new* failure.
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
@@ -182,7 +200,7 @@ public sealed class Result<TSuccess, TError>
 
     // MATCH: Unwraps the final value.
     // This forces you to handle both cases to get the data out.
-    // Typically used at the API boundary to convert to HTTP 200/400.
+    // Typically used at the boundary to convert into a public-facing output (HTTP response, UI state, etc.).
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
         if (IsSuccess)
@@ -196,14 +214,14 @@ public sealed class Result<TSuccess, TError>
 ```
 
 ### Handling the Final Outcome
-At the boundary, use Match to map your internal Result into a public-facing output (an HTTP response, a console message, or a UI state).
+At the boundary, use `Match` to map your internal `Result` into a public-facing output (an HTTP response, a console message, or a UI state).
 
 > **Concept Check: Core, Shell, and the Boundary**
-> In a “Functional Core, Imperative Shell” design, the **core** is pure, deterministic business logic over immutable data. The **shell** is the integration layer that performs I/O (HTTP, files, DB, UI) and coordinates the app’s runtime concerns.
+> In a “Functional Core, Imperative Shell” design, the **core** is pure, deterministic business logic over well-typed data (often immutable). The **shell** is the integration layer that performs I/O (HTTP, files, DB, UI) and coordinates the app’s runtime concerns.
 >
 > The **boundary** is where you:
 >
-> 1. **Parse/refine** messy inputs into well-typed domain data (so the core doesn’t accept `unknown` / raw strings / half-valid shapes), then
+> 1. **Parse/refine** messy inputs into well-typed domain data (so the core doesn’t accept `object`/unvalidated inputs/raw strings/half-valid shapes), then
 > 2. call the core to **produce a decision**, and finally
 > 3. **act** on that decision with side effects (persist, return a response, update UI).
 >
@@ -232,7 +250,7 @@ A major risk of the `Result` pattern is the temptation to return the object dire
 
 > **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 
-In your C# code, the private constructor enforces the invariant (you can’t have both value and error at the same time). A generic serializer doesn’t know (or care) about that—it just sees properties and prints them:
+Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`) as public properties. A generic serializer will happily turn that internal shape into your public API—it just sees public properties and emits them (often with a camelCase naming policy), e.g.:
 
 ```json
 {
@@ -249,7 +267,7 @@ That wrapper is awkward, and it’s also brittle: now your public contract inclu
 What do you get for returning `Result` instead of throwing or using sentinels?
 *   **Explicit Signatures:** `Result<User, Error>` tells you up front that failure is on the table.
 *   **Fewer ad-hoc conventions:** No `-1`, no `null`, no “special string means error.”
-*   **Testability:** Tests can assert on `IsSuccess`/`IsFailure` and inspect the error without `Assert.Throws`.
+*   **Testability:** Tests can assert the outcome *and* the specific error (`Code`, type, message) without exception scaffolding.
 
 ### Scope & Limitations
 `Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.
@@ -262,15 +280,17 @@ What do you get for returning `Result` instead of throwing or using sentinels?
 #### Example: Deactivating a user
 We want to deactivate a user given an `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
 
-We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
+We'll use the same `Error` payload from earlier (this is **not** part of `Result` itself).
+
+Keep **decisions** separate from **effects**: gather what you need (parse/load), decide, then perform side effects (save/return output) once at the boundary.
+
+Earlier snippets mutate `user` for brevity; in the examples below we prefer returning updated values (immutable flow) to keep boundaries clean.
+
+In a real ASP.NET app, the controller is usually the outer shell; this example keeps orchestration in one class for brevity.
 
 ```csharp
-public record Error(string Code, string Message);
-```
+public record User(int Id, bool IsActive);
 
-Keep decision logic separate from I/O: compute first, then perform effects once at the boundary.
-
-```csharp
 public sealed class UserService
 {
     private readonly IUserRepo _repo;
@@ -280,7 +300,7 @@ public sealed class UserService
     }
 
     // Orchestration (shell): Parse -> Load -> Decide
-    public Result<User, Error> DeactivateUser(string inputId)
+    public Result<User, Error> DeactivateUserFromRequest(string inputId)
     {
         return ParseId(inputId)
             .Bind(FindUser)
@@ -290,7 +310,7 @@ public sealed class UserService
     // Boundary: unwrap and perform effects (persistence, logging, etc.)
     public string HandleDeactivateRequest(string inputId)
     {
-        Result<User, Error> result = DeactivateUser(inputId);
+        Result<User, Error> result = DeactivateUserFromRequest(inputId);
 
         return result.Match(
             ok: user =>
@@ -329,7 +349,7 @@ public sealed class UserService
 ```
 
 This enforces the **"Functional Core, Imperative Shell"** architecture:
-1.  **Orchestrate (parse + load + decide):** Done in the `Result` pipeline (`DeactivateUser`).
+1.  **Orchestrate (parse + load + decide):** Done in the `Result` pipeline (`DeactivateUserFromRequest`).
 2.  **Act (persist + return output):** Done in the `Match` block (`HandleDeactivateRequest`).
 
 ### The Async Reality (Async composition friction)
@@ -351,17 +371,22 @@ If you need async + `Result` composition, don’t hand-roll helpers. Use a libra
 
 > **Either bias note:** Most `Either`/`Result` APIs are **right-/success-biased**: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 
-With a library, the async pipeline stays linear:
+With a library, the async pipeline stays linear.
+
+Assume `ParseIdAsync : string -> Task<Result<int, Error>>` and `FindUserAsync : int -> Task<Result<User, Error>>`.
 
 ```csharp
-public Task<Result<User, Error>> DeactivateUser(string inputId) =>
-    ParseIdAsync(inputId)           // Task<Result<int, Error>>
-        .Bind(FindUserAsync)        // Task<Result<User, Error>> (Bind overload handles async)
-        .Bind(DeactivateDecision);  // Result<User, Error> (pure decision)
+private static Task<Result<User, Error>> DeactivateDecisionAsync(User user) =>
+    Task.FromResult(DeactivateDecision(user));
+
+public Task<Result<User, Error>> DeactivateUserFromRequestAsync(string inputId) =>
+    ParseIdAsync(inputId)             // Task<Result<int, Error>>
+        .Bind(FindUserAsync)          // Task<Result<User, Error>>
+        .Bind(DeactivateDecisionAsync);
 ```
 
 ### Testing Strategies
-Testing `Result` is cleaner than testing Exceptions because you don't need `Assert.Throws`.
+Testing expected failures with `Result` is often cleaner than exceptions—you can assert on the returned value without `Assert.Throws` (which you still use for programmer errors and truly exceptional cases).
 
 In a real codebase, you might add a small helper to "peek" inside a `Result` in tests. For this post, sticking to the public API is fine.
 
@@ -378,14 +403,18 @@ public async Task DeactivateUser_ReturnsFailure_WhenUserNotFound()
     var service = new UserService(repo);
 
     // Act
-    var result = await service.DeactivateUser("123");
+    var result = await service.DeactivateUserFromRequestAsync("123");
 
     // Assert: Check State
     Assert.True(result.IsFailure);
     
     // Assert: Check Reason (using Match to inspect the private error)
     var error = result.Match(
-        ok: _ => throw new Exception("Expected failure but operation succeeded!"),
+        ok: _ =>
+        {
+            Assert.True(false, "Expected failure but operation succeeded!");
+            return default!; // unreachable
+        },
         err: e => e
     );
     
@@ -406,4 +435,4 @@ public async Task DeactivateUser_ReturnsFailure_WhenUserNotFound()
 [^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
 [^tap]: See Microsoft Learn: [Task asynchronous programming model](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model).
 [^task-monad]: `Task<T>` behaves *monad-like* (it supports `Map`/`Bind`-shaped composition), but it isn’t pure: work may start eagerly, timing/scheduling matters, and exceptions/cancellation are part of the semantics. For this post, the useful point is just: **it composes**.
-[^illegal-states]: This is an instance of **"making illegal states unrepresentable"**: designing your types so invalid states can’t be constructed in the first place. In this post, the private `Result` constructor is the mechanism. The phrase is commonly attributed to Yaron Minsky (Jane Street), from his “Effective ML” talk/posts: [Effective ML](https://blog.janestreet.com/effective-ml/) (watch: `https://www.youtube.com/watch?v=-J8YyfrSwTk`).
+[^illegal-states]: This is an instance of **"making illegal states unrepresentable"**: designing your types so invalid states can’t be constructed in the first place. In this post, the factory methods (`Ok`/`Fail`) are the mechanism (the constructor is private so creation is centralized). The phrase is commonly attributed to Yaron Minsky (Jane Street), from his “Effective ML” talk/posts: [Effective ML](https://blog.janestreet.com/effective-ml/) (watch: [https://www.youtube.com/watch?v=-J8YyfrSwTk](https://www.youtube.com/watch?v=-J8YyfrSwTk)).
