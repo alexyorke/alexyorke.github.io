@@ -15,13 +15,14 @@ The `Result` monad allows you to represent a computation's outcome as success or
 It operates like `Maybe<T>` (or `Option<T>`), but the failure case carries a specific error reason rather than `None`.
 
 This changes error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s[^checked-exceptions] and verbose defensive checking, and also makes it clear if a method/function will fail.
+This shared pattern means you can use the same mental model—**chaining operations**—to solve completely different problems (collections, missing data, and now, error handling).
 
 #### The Problem: Explicitness vs. Readability
 
 In everyday C#, you tend to end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
-This code is concise, but the method signature doesn't tell you what can go wrong. `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
+This code is concise, but the method signature doesn't tell you what can go wrong.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -85,11 +86,16 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 > **Note:** In the two “Problem” snippets above, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In the “Putting it together” section below, we’ll switch to an **immutable** `record` and use `with` so the domain step (`DeactivateDecision`) stays side-effect free and deterministic. Either approach works—what matters is being consistent in your own codebase.
 
-At this point you either drop the reason (return `bool`) or invent a convention (tuples, `out` params, enums, strings). `Result` gives that convention a name and a shape.
+At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, string Error)`).
+
+Why Tuples aren't enough: Tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs. `Result` encapsulates the state, making invalid combinations unrepresentable.
 
 #### The Solution: The Control Flow Spectrum
 
-`Result` models **operation outcomes** (success/failure) as values, so you can compose short-circuiting workflows without exceptions. It allows us to model **Recoverable Failure** as a first-class value.
+`Result` models operation outcomes as values. Unlike Exceptions (which perform an "Unconstrained Jump" up the stack to an unknown handler), Result creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
+
+Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.
+`int.TryParse` returns `bool` and uses `out int result`. This is efficient but impossible to chain. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
 
 Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
 
@@ -98,6 +104,7 @@ Now you can rewrite Option B as a pipeline: each step either produces the next v
 We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
 
 ```csharp
+// The method signature remains `Result<User, Error>` regardless of new failure modes.
 public record Error(string Code, string Message);
 ```
 
@@ -114,7 +121,7 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead.
+> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn Result into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then Result may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, result is only pass/fail.
 
 ### Implementing Result
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
@@ -168,9 +175,10 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error!);
     }
 
-    // BIND (LINQ SelectMany): Chains an operation that *also* returns a Result.
-    // Why not Map? Map would create a nested Result<Result<...>>, but Bind "flattens" it.
-    // If the previous step failed, we stop immediately and propagate the error.
+    // BIND (LINQ SelectMany): Chains an operation that *might fail*.
+    // Unlike Map (which just transforms data), Bind gives the function a chance to switch
+    // the state from Success to Failure.
+    // Structurally: It flattens nested Result<Result<...>> back into a single Result.
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         if (IsSuccess)
@@ -342,9 +350,11 @@ public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
 
 `Result` keeps “expected failure” in-band, as data.
 
-1.  **Chain** with `Map`/`Bind`.
-2.  **Handle** `Task<Result<...>>` using async combinators.
+1.  **Chain** with `Map`/`Bind` (the universal Monad pattern).
+2.  **Handle** `Task<Result<...>>` using async extensions to fuse the effects.
 3.  **Decide** once at the edge with `Match`.
+
+You now have three Monads in your toolkit: `List` (multiple values), `Maybe` (optional values), and `Result` (possible failure). They all share the same interface (`Bind`/`SelectMany`), allowing you to solve complex flow problems with simple blocks.
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
