@@ -8,9 +8,11 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps. Now, we model **fallible** outcomes where the "Why" matters: `Result<TSuccess, TError>`.
+In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps.
 
-The Result monad transforms error handling from a **Control Flow** problem into a **Data** value. Instead of "jumping" up the stack with Exceptions, or cluttering your code with defensive `if` checks, errors flow linearly through your pipeline.
+The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. Think of it like `Maybe`, but the negative branch carries data: while `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
+
+This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit throws and verbose defensive checking.
 
 #### The Problem: The "Explicitness" vs. "Clarity" Trade-off
 
