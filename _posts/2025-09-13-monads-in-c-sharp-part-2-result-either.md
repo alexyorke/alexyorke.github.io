@@ -47,6 +47,8 @@ In a small snippet, the throw sites are obvious. In a real service, exceptions c
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
 
+> **Aside:** Guard clauses are the bouncer at the door: efficient, reliable… and absolutely uninterested in your “happy path” skipping the line.
+
 ```csharp
 // The "Happy Path" is interleaved with validation checks.
 public string DeactivateUser(string inputId)
@@ -55,7 +57,8 @@ public string DeactivateUser(string inputId)
         return "Invalid ID";
 
     var user = repo.Find(id);
-    // Note: 'null' implies absence, but lacks context (e.g., DB Timeout vs. Missing Record).
+    // Note: 'null' implies absence, but lacks context (e.g., DB Timeout vs. Missing Record),
+    // and it has a habit of showing up uninvited.
     if (user is null) 
         return "User not found";
 
@@ -93,6 +96,8 @@ The `Result` type provides a middle ground between ignoring absence (Nullable) a
 > *   Focus on **data absence** (static state), not **operation failure** (action outcome).
 > *   Primary protection is **compile-time analysis**, not runtime error propagation.
 > *   Handled with explicit checks (`if (value is null)`) or operators (`??`), rather than chaining like `Bind`. `Result` gives you that kind of composition for **expected failures**.
+
+> **Aside:** Nullable reference types are the compiler’s polite cough: “ahem… you sure about that?”
 
 Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an error.
 
@@ -150,8 +155,8 @@ public sealed class Result<TSuccess, TError>
     }
 
     // MAP: Transforms the data if successful. If the Result is a Failure, this is skipped entirely.
-    // The "Magic": If this Result is already a Failure, the function 'f' never runs,
-    // and the existing error is passed along.
+    // The "Magic Trick": If this Result is already a Failure, the function 'f' never runs,
+    // and the existing error is passed along (which is great, because failing is plenty of work already).
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         if (IsSuccess)
@@ -215,6 +220,8 @@ string output = result.Match(
 
 #### Why Serialization Breaks the Pattern
 A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you lose the "Making Illegal States Unrepresentable" guarantee.[^illegal-states]
+
+> **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 
 In your C# code, the private constructor enforces the invariant (you can’t have both value and error at the same time). A generic serializer doesn’t know (or care) about that—it just sees properties and prints them:
 
@@ -326,6 +333,8 @@ The friction happens when you stack them. If you try to mix the `Task` monad (aw
 
 ### How to fix it (Combinators)
 If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides `BindAsync` (sometimes called `SelectManyAsync`):
+
+> **Aside:** The library authors have already stepped on the rakes here so you don’t have to.
 
 - **CSharpFunctionalExtensions**: Closest to the code in this post.
 - **LanguageExt**: Strict functional style ("Haskell for C#").
