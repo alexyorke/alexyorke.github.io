@@ -42,7 +42,7 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In a small snippet, the throwing lines are obvious. In a real service, they’re not. Exceptions can come from almost anywhere (parsing, mapping, I/O, nulls), and once you start composing steps you end up wrapping a lot of code in `try/catch` scaffolding.
+In a small snippet, the throw sites are obvious. In a real service, exceptions can come from almost anywhere (parsing, mapping, I/O, nulls), so once you start composing steps you end up wrapping a lot of code in `try/catch` scaffolding.
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
@@ -113,7 +113,7 @@ string message = result.Match(
 > **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
 ### Implementing Result
-Here’s a small teaching implementation, don't use in production. If you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
+Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
 
 ```csharp
 public sealed class Result<TSuccess, TError>
@@ -216,7 +216,7 @@ string output = result.Match(
 #### Why Serialization Breaks the Pattern
 A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you lose the "Making Illegal States Unrepresentable" guarantee.[^illegal-states]
 
-In your C# code, the private constructor ensures you can't have a "Success" that also contains an "Error." However, once serialized into a generic object, that invariant disappears:
+In your C# code, the private constructor enforces the invariant (you can’t have both value and error at the same time). A generic serializer doesn’t know (or care) about that—it just sees properties and prints them:
 
 ```json
 {
@@ -227,20 +227,20 @@ In your C# code, the private constructor ensures you can't have a "Success" that
 }
 ```
 
-By unwrapping at the boundary with `Match`, you ensure your external interface remains clean, predictable, and decoupled from your internal error-handling logic.
+That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (DTOs, status codes, `ProblemDetails`, etc.).
 
 ### Key Benefits
-Using `Result` provides structural advantages over exceptions or sentinel values:
-*   **Explicit Signatures:** The return type `Result<User, Error>` clearly indicates that failure is a possible outcome, unlike `User` which implies guaranteed success.
-*   **Type Safety:** It removes the ambiguity of "Magic Numbers" (e.g., returning `-1`) or `null` checks.
-*   **Testability:** Unit tests can assert on clear `IsSuccess`/`IsFailure` properties rather than relying on `ExpectedException` attributes.
+What do you get for returning `Result` instead of throwing or using sentinels?
+*   **Explicit Signatures:** `Result<User, Error>` tells you up front that failure is on the table.
+*   **Fewer ad-hoc conventions:** No `-1`, no `null`, no “special string means error.”
+*   **Testability:** Tests can assert on `IsSuccess`/`IsFailure` and inspect the error without `Assert.Throws`.
 
 ### Scope & Limitations
-The `Result` pattern is optimized for **Domain Logic** (expected failures). It complements, rather than replaces, standard Exceptions in specific scenarios:
+`Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.
 
-1.  **Infrastructure:** Unexpected failures (Database offline, OutOfMemory) are best handled by global middleware. These should remain Exceptions rather than being wrapped in `Result`.
-2.  **Bugs:** Precondition violations (e.g., passing `null` to a method that requires a value) indicate a bug in the code, not a business rule failure. Standard exceptions like `ArgumentNullException` are appropriate here.
-3.  **Accumulation:** `Bind` stops at the first error. If you need to collect *all* validation errors (e.g., checking 5 form fields and reporting all mistakes), use a **Validation** structure designed for accumulation rather than the short-circuiting behavior of `Result`.
+1.  **Infrastructure:** If the DB is offline or you run out of memory, exceptions + middleware are still a good fit.
+2.  **Bugs:** Precondition violations (e.g., passing `null` where it’s not allowed) are still exceptions (`ArgumentNullException`, etc.).
+3.  **Accumulation:** `Bind` stops at the first error. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
 
 ### Putting it together: Functional core, imperative shell
 #### Example: Deactivating a user
