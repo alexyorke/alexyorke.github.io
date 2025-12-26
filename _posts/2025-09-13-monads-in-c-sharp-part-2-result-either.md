@@ -1,20 +1,20 @@
 ---
 title: "Monads in C# (Part 2): Result (Either)"
 date: 2025-09-13
-description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose fail-fast workflows with explicit errors."
+description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose short-circuiting workflows with explicit errors."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In **Part 1**, we used `List<T>` to contrast `Map` vs `Bind` (aka `FlatMap`), and built `Maybe<T>` to chain optional steps.
+In **Part 1**, we used `List<T>` to contrast `Map` (LINQ `Select`) vs `Bind` (LINQ `SelectMany` or `FlatMap`), and built `Maybe<T>` to chain optional steps.
 
 The `Result` monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
 
-It’s like `Maybe<T>`, except the failure case carries a reason instead of just “no value”.
+It operates like `Maybe<T>` (or `Option<T>`), but the failure case carries a specific error reason rather than `None`.
 
-This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s and verbose defensive checking.
+This changes error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s[^checked-exceptions] and verbose defensive checking, and also makes it clear if a method/function will fail.
 
 #### The Problem: Explicitness vs. Readability
 
@@ -22,6 +22,15 @@ In everyday C#, you tend to end up in one of two styles: rely on **Implicit Cont
 
 **Option A: Implicit Control Flow (Exceptions)**
 This code is concise, but the method signature doesn't tell you what can go wrong. `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
+
+```csharp
+// The implicit "User" entity used in the examples below
+public class User
+{
+    public int Id { get; set; }
+    public bool IsActive { get; set; }
+}
+```
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -74,11 +83,13 @@ public DeactivateUserResult DeactivateUser(string inputId)
 }
 ```
 
+> **Note:** In the two “Problem” snippets above, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In the “Putting it together” section below, we’ll switch to an **immutable** `record` and use `with` so the domain step (`DeactivateDecision`) stays side-effect free and deterministic. Either approach works—what matters is being consistent in your own codebase.
+
 At this point you either drop the reason (return `bool`) or invent a convention (tuples, `out` params, enums, strings). `Result` gives that convention a name and a shape.
 
 #### The Solution: The Control Flow Spectrum
 
-`Result` models **operation outcomes** (success/failure) as values, so you can compose fail-fast workflows without exceptions. It allows us to model **Recoverable Failure** as a first-class value.
+`Result` models **operation outcomes** (success/failure) as values, so you can compose short-circuiting workflows without exceptions. It allows us to model **Recoverable Failure** as a first-class value.
 
 Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
 
@@ -103,12 +114,13 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
+> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead.
 
 ### Implementing Result
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
 
 This teaching version assumes you don’t call `Ok(null)` / `Fail(null)` for reference types.
+It also uses `default` to fill the unused slot; in real code you may want a design that avoids relying on `default` (especially if you want value-type errors).
 
 ```csharp
 public sealed class Result<TSuccess, TError>
@@ -126,24 +138,25 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
+    // "Return" (or "Pure"): Wraps a raw value into the container.
     public static Result<TSuccess, TError> Ok(TSuccess value)
     {
         return new Result<TSuccess, TError>(
             value,
-            default!,
+            default,
             true);
     }
 
     public static Result<TSuccess, TError> Fail(TError error)
     {
         return new Result<TSuccess, TError>(
-            default!,
+            default,
             error,
             false);
     }
 
     // MAP: Transforms the data if successful. If the Result is a Failure, this is skipped entirely.
-    // The "Magic Trick": If this Result is already a Failure, the function 'f' never runs,
+    // The Short-Circuit: If this Result is already a Failure, the function 'f' never runs,
     // and the existing error is passed along (which is great, because failing is plenty of work already).
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
@@ -155,9 +168,9 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error!);
     }
 
-    // BIND: Chains an operation that *also* returns a Result.
+    // BIND (LINQ SelectMany): Chains an operation that *also* returns a Result.
+    // Why not Map? Map would create a nested Result<Result<...>>, but Bind "flattens" it.
     // If the previous step failed, we stop immediately and propagate the error.
-    // Note: the function 'f' provides the *new* success OR the *new* failure.
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         if (IsSuccess)
@@ -168,8 +181,9 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error!);
     }
 
-    // MATCH: Unwraps the final value.
-    // This forces you to handle both cases to get the data out.
+    // MATCH (Destructor): The "Exit Door".
+    // This is not part of the Monad pattern itself, but it is how you extract the value
+    // to leave the monad and return to the imperative world.
     // Typically used at the boundary to convert into a public-facing output (HTTP response, UI state, etc.).
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
@@ -197,7 +211,7 @@ string output = result.Match(
 ```
 
 #### Why Serialization Breaks the Pattern
-Don’t serialize `Result` directly. It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
+Don’t serialize `Result` directly.[^no-serialize] It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
 
 > **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 
@@ -215,13 +229,13 @@ Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`
 That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
 
 ### Key Benefits
-What do you get for returning `Result` instead of throwing or using sentinels?
+What do you get for returning `Result` instead of throwing or using "magic values"?
 *   **Explicit Signatures:** `Result<User, Error>` tells you up front that failure is on the table.
 *   **Fewer ad-hoc conventions:** No `-1`, no `null`, no “special string means error.”
 *   **Testability:** Tests can assert the outcome *and* the specific error (`Code`, type, message) without exception scaffolding.
 
 ### Scope & Limitations
-`Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.
+`Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.[^always-valid]
 
 1.  **Infrastructure:** For technical failures (DB/network outages, timeouts, unexpected I/O errors), exceptions handled at the boundary (middleware/logging/global handlers) are often a good fit.
 2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
@@ -287,30 +301,30 @@ public sealed class UserService
 }
 ```
 
-The idea: compute a `Result<User, Error>` in your internal workflow, then unwrap it once at the boundary in `HandleDeactivateRequest`.
+The idea: compute a `Result<User, Error>` in your internal workflow. Notice that the explicit `if` checks and guard clauses from the "Problem" examples have disappeared—they are now handled automatically inside `Bind`. We then unwrap the result once at the boundary in `HandleDeactivateRequest`.
 
 ### The Async Reality (Async composition friction)
 
-In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`).[^tap] This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
+In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`). This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
-One way to think about it: `Task<T>` composes too. `await` + projection looks like `Map`, and `await` + returning another task looks like `Bind`.[^task-monad]
+Think of `await` as C#'s built-in "Do Notation" for the Task Monad. Just as `Bind` unwraps the `Result` to get to the value, `await` unwraps the `Task` to get to the value.[^task-monad]
 
 The friction happens when you stack them. If you try to mix the `Task` monad (`await`ing) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
-### How to fix it (Combinators)
-If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async-aware combinators** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
+### How to fix it (Async Extensions)
+If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async extensions** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
 
 > **Aside:** The library authors have already stepped on the rakes here so you don’t have to.
 
-- **CSharpFunctionalExtensions**: Closest to the code in this post.
-- **LanguageExt**: Strict functional style ("Haskell for C#").
-- **FluentResults**: Object-oriented features.
+- **[CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions)**: Closest to the code in this post.
+- **[LanguageExt](https://github.com/louthy/language-ext)**: A comprehensive library enforcing strict functional patterns.
+- **[FluentResults](https://github.com/altmann/FluentResults)**: Object-oriented features.
 
 > **Either bias note:** Most `Either`/`Result` APIs are **right-/success-biased**: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 
 With a library, the async pipeline stays linear.
 
-Assume `ParseIdAsync : string -> Task<Result<int, Error>>` and `FindUserAsync : int -> Task<Result<User, Error>>` (instance method, uses `_repo`).
+Assume we have a method `ParseIdAsync(string input)` that returns `Task<Result<int, Error>>` and `FindUserAsync(int id)` that returns `Task<Result<User, Error>>`.
 
 > **Note:** The snippet below is pseudo-code assuming you are using a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.
 
@@ -320,7 +334,7 @@ private static Task<Result<User, Error>> DeactivateDecisionAsync(User user) =>
 
 public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
     ParseIdAsync(inputId)
-        .Bind(this.FindUserAsync)
+        .Bind(FindUserAsync)
         .Bind(DeactivateDecisionAsync);
 ```
 
@@ -334,6 +348,9 @@ public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
-[^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
-[^tap]: See Microsoft Learn: [Task asynchronous programming model](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model).
-[^task-monad]: `Task<T>` behaves *monad-like* (it supports `Map`/`Bind`-shaped composition), but it isn’t pure: work may start eagerly, timing/scheduling matters, and exceptions/cancellation are part of the semantics. For this post, the useful point is just: **it composes**.
+[^id]: In real systems, use a Strongly Typed ID (e.g., `UserId`) rather than a bare number to avoid "Primitive Obsession." This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
+[^checked-exceptions]: Java has *checked exceptions*: methods can declare them with a `throws` clause and callers must catch/declare them. C# has no checked exceptions, so “what might throw” usually isn’t visible in the method signature unless it’s documented (e.g., XML `<exception>` docs).
+[^rop]: Scott Wlaschin, [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/).
+[^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
+[^no-serialize]: FluentResults Wiki, [Returning Result Objects from ASP.NET Core Controller](https://github.com/altmann/FluentResults/wiki/Returning-Result-Objects-from-ASP.NET-Core-Controller).
+[^task-monad]: `Task<T>` **is** a Monad (specifically the "Promise" or "Future" Monad). It manages the "latency" and "concurrency" effects. While it has side effects (scheduling/timing), it follows the exact same structural laws as `Result` or `List`. See Stephen Toub, [Tasks, Monads, and LINQ](https://devblogs.microsoft.com/pfxteam/tasks-monads-and-linq/).
