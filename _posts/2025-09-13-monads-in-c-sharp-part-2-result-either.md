@@ -87,12 +87,12 @@ The `Result` type provides a middle ground between ignoring absence (Nullable) a
 
 > **Note on Nullable Types (`T?`)**
 > 
-> C#'s nullable types (`string?`, `int?`, etc.) primarily help the **compiler** detect potential `NullReferenceException`s. They assist in modeling **anticipated absence** – situations where a value might legitimately be missing (like an optional middle name), or an API might return `null` when a record isn't found. The compiler provides warnings if you don't handle these potential nulls, offering a layer of safety.
+> C#'s nullable reference types (`string?`, etc.) primarily help the **compiler** detect potential `NullReferenceException`s. They assist in modeling **anticipated absence**, i.e., situations where a value might legitimately be missing (like an optional middle name), or an API might return `null` when a record isn't found. The compiler provides warnings if you don't handle these potential nulls, offering a layer of safety.
 > 
-> While related to `Result` in that both deal with non-ideal states, nullable types are distinct:
-> *   They focus on **absence**, not *process failure*.
+> Nullable reference types should not be confused with Result, because nullable reference types:
+> *   They focus on **data absence** (static state), not **operation failure** (action outcome).
 > *   Their primary protection is **compile-time analysis**, not runtime error propagation.
-> *   You handle `T?` by explicit checks (`if (value is null)`) or operators (`??`), not by monadic chaining like `Bind`. `Result` provides this monadic composition for recoverable errors.
+> *   You handle `T?` by explicit checks (`if (value is null)`) or operators (`??`), not by monadic chaining like `Bind`. `Result` provides this monadic composition for **expected failures**.
 
 `Result` sequences the steps from Option B using `Bind`, combining the conciseness of Option A with the type-safety of Option B.
 
