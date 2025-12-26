@@ -193,6 +193,15 @@ public sealed class Result<TSuccess, TError>
 ### Unwrapping at the Boundary
 Once the pipeline is complete, use `Match` to convert the internal `Result` back into a concrete value (like an HTTP response or a console message).
 
+> **Concept Check: What is the Boundary?**
+> The "Boundary" (or Edge) is where your application code meets the outside world.
+> *   **Web API:** The Controller or Minimal API Endpoint.
+> *   **CLI:** The `Main` method.
+> *   **UI:** The ViewModel or Event Handler.
+>
+> Inside the boundary (Services/Domain), we speak **Rich Types** (`Result`, `User`).
+> Outside the boundary (HTTP/Console), we speak **Dumb Formats** (JSON, Strings, Status Codes). `Match` is the translator between them.
+
 Treat `Result<TSuccess, TError>` as **internal plumbing**. It belongs in your Domain/Services, but not in your public API contract.
 
 ```csharp
