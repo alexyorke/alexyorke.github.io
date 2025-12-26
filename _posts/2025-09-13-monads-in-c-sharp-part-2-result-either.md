@@ -12,11 +12,9 @@ In **Part 1**, we used `List<T>` to contrast `Map` vs `Bind` (aka `FlatMap`), an
 
 The `Result` monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
 
+It’s like `Maybe<T>`, except the failure case carries a reason instead of just “no value”.
+
 This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s and verbose defensive checking.
-
-In practice, `Result` is usually **success-biased**: `Map`/`Bind` operate on the success value and propagate the error unchanged.
-
-It’s like `Maybe<T>`, except the failure case carries a typed reason instead of just “no value”.
 
 #### The Problem: Explicitness vs. Readability
 
@@ -46,8 +44,6 @@ In a small snippet, the throw sites are obvious. In a real service, exceptions c
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
-
-> **Aside:** Guard clauses are the bouncer at the door: efficient, reliable… and absolutely uninterested in your “happy path” skipping the line.
 
 ```csharp
 private readonly IUserRepo _repo;
