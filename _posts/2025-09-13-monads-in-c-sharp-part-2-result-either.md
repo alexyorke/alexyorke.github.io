@@ -113,7 +113,7 @@ string message = result.Match(
 > **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
 ### Implementing Result
-Here’s a small teaching implementation. If you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
+Here’s a small teaching implementation, don't use in production. If you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
 
 ```csharp
 public sealed class Result<TSuccess, TError>
@@ -204,7 +204,7 @@ string output = result.Match(
 );
 ```
 
-#### The "Russian Doll" Risk
+#### The isSuccess/isFailure weirdness in API responses
 Never return `Result<...>` directly to a generic JSON serializer (e.g., from an API Controller). If you do, you leak implementation details and create awkward wrappers:
 
 ```json
