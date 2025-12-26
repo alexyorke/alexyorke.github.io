@@ -190,31 +190,39 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-### Unwrapping at the Boundary
-Once the pipeline is complete, use `Match` to convert the internal `Result` back into a concrete value (like an HTTP response or a console message).
+> **Deep Dive: "Make Illegal States Unrepresentable"**
+> You might notice the `Result` constructor is private. This guarantees that a `Result` never contains *both* a value and an error, or *neither*.
+>
+> This aligns with the philosophy of **"making illegal states unrepresentable,"** a concept popularized by Yaron Minsky. By using the type system to enforce valid states, you remove the need for runtime checks and unit tests for "impossible" scenarios.
+> - [Watch Yaron Minsky's talk "Effective ML" (video)](https://www.youtube.com/watch?v=-J8YyfrSwTk)
+
+### Handling the Final Outcome
+When a computation is finished, use `Match` to convert the internal `Result` into a format appropriate for the user (like an HTTP response, a console message, or a UI state).
 
 > **Concept Check: What is the Boundary?**
-> The "Boundary" (or Edge) is where your application code meets the outside world.
-> *   **Web API:** The Controller or Minimal API Endpoint.
-> *   **CLI:** The `Main` method.
-> *   **UI:** The ViewModel or Event Handler.
+> The "Boundary" is the point where your application logic ends and the presentation layer begins.
+> *   **Web API:** The Controller or Endpoint.
+> *   **CLI:** The `Main` method or Console output.
+> *   **Desktop/Mobile:** An Event Handler or ViewModel.
 >
-> Inside the boundary (Services/Domain), we speak **Rich Types** (`Result`, `User`).
-> Outside the boundary (HTTP/Console), we speak **Dumb Formats** (JSON, Strings, Status Codes). `Match` is the translator between them.
+> You should unwrap your `Result` at this edge. Inside the boundary, your code uses **Application Types** (`Result`, `User`) to ensure logic is followed. Outside the boundary, the world expects **Standardized Outputs** (JSON, Strings, Status Codes). `Match` acts as the translator between these two worlds.
 
-Treat `Result<TSuccess, TError>` as **internal plumbing**. It belongs in your Domain/Services, but not in your public API contract.
+Treat `Result<TSuccess, TError>` as an **internal coordination tool**. It is designed to preserve logic within your code, but it is not intended for serialization or public contracts.
 
 ```csharp
-Result<int, Error> result = Result<int, Error>.Ok(42);
+Result<int, string> result = Result<int, string>.Ok(42);
 
+// Match ensures every branch is handled before the data leaves your logic
 string output = result.Match(
     ok:  value => $"Success: {value}",
-    err: error => $"Error: {error.Code}"
+    err: error => $"Error: {error}"
 );
 ```
 
-#### The isSuccess/isFailure weirdness in API responses
-Never return `Result<...>` directly to a generic JSON serializer (e.g., from an API Controller). If you do, you leak implementation details and create awkward wrappers:
+#### Why Serialization Breaks the Pattern
+A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you lose the "Making Illegal States Unrepresentable" guarantee.
+
+In your C# code, the private constructor ensures you can't have a "Success" that also contains an "Error." However, once serialized into a generic object, that invariant disappears:
 
 ```json
 {
@@ -225,7 +233,7 @@ Never return `Result<...>` directly to a generic JSON serializer (e.g., from an 
 }
 ```
 
-Always unwrap at the **Edge** of your application (Controller, CLI, UI). Convert success values to DTOs and errors to `ProblemDetails` or status codes. This keeps your internal logic decoupled from your external contract.
+By unwrapping at the boundary with `Match`, you ensure your external interface remains clean, predictable, and decoupled from your internal error-handling logic.
 
 ### Key Benefits
 Using `Result` provides structural advantages over exceptions or sentinel values:
