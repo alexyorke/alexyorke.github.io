@@ -109,7 +109,7 @@ public record Error(string Code, string Message);
 ```
 
 ```csharp
-string inputId=inputIdFromRequest;
+string inputId = /* from request */;
 Result<User, Error> result =
     ParseId(inputId)
         .Bind(FindUser)
@@ -124,6 +124,8 @@ string message = result.Match(
 
 ### Implementing Result
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
+
+This teaching version assumes you don’t call `Ok(null)` / `Fail(null)` for reference types.
 
 ```csharp
 public sealed class Result<TSuccess, TError>
@@ -145,14 +147,14 @@ public sealed class Result<TSuccess, TError>
     {
         return new Result<TSuccess, TError>(
             value,
-            default,
+            default!,
             true);
     }
 
     public static Result<TSuccess, TError> Fail(TError error)
     {
         return new Result<TSuccess, TError>(
-            default,
+            default!,
             error,
             false);
     }
@@ -199,26 +201,8 @@ public sealed class Result<TSuccess, TError>
 ```
 
 ### Handling the Final Outcome
-At the boundary, use `Match` to map your internal `Result` into a public-facing output (an HTTP response, a console message, or a UI state).
-
-> **Concept Check: Core, Shell, and the Boundary**
-> In a “Functional Core, Imperative Shell” design, the **core** is pure, deterministic business logic over well-typed data (often immutable). The **shell** is the integration layer that performs I/O (HTTP, files, DB, UI) and coordinates the app’s runtime concerns.
->
-> The **boundary** is where you:
->
-> 1. **Parse/refine** messy inputs into well-typed domain data (so the core doesn’t accept `object`/unvalidated inputs/raw strings/half-valid shapes), then
-> 2. call the core to **produce a decision**, and finally
-> 3. **act** on that decision with side effects (persist, return a response, update UI).
->
-> Examples of the shell in different hosts:
->
-> * **Web API:** a controller parses the request, calls the core, and maps the decision to an HTTP response.
-> * **CLI:** `Main` parses args, calls the core, prints output, and sets an exit code.
-> * **Desktop/Mobile:** a ViewModel parses inputs/events, calls the core, and maps the decision into UI state.
->
-> Keep dependencies flowing inward: the shell depends on the core, not the other way around. Unwrap `Result<TSuccess, TError>` at the boundary (e.g., with `Match`) and return types meant to be public—DTOs, `ProblemDetails`, strings, status codes, or UI state.
-
-Keep Result on the inside. At the boundary, Match it into DTOs/status codes/UI state instead of returning it directly.
+> **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
+> Use `Match` at the boundary to convert an internal `Result` into DTOs/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
@@ -260,17 +244,11 @@ What do you get for returning `Result` instead of throwing or using sentinels?
 2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
 3.  **Accumulation:** `Bind` stops at the first error. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
 
-### Putting it together: Functional core, imperative shell
+### Putting it together: Unwrap at the boundary
 #### Example: Deactivating a user
 We want to deactivate a user given an `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
 
 We'll use the same `Error` payload from earlier (this is **not** part of `Result` itself).
-
-Keep **decisions** separate from **effects**: gather what you need (parse/load), decide, then perform side effects (save/return output) once at the boundary.
-
-Earlier snippets mutate `user` for brevity; in the examples below we prefer returning updated values (immutable flow) to keep boundaries clean.
-
-In a real ASP.NET app, the controller is usually the outer shell; this example keeps orchestration in one class for brevity.
 
 ```csharp
 public record User(int Id, bool IsActive);
@@ -283,7 +261,7 @@ public sealed class UserService
         _repo = repo;
     }
 
-    public Result<User, Error> DeactivateUserFromRequest(string inputId)
+    public Result<User, Error> DeactivateUser(string inputId)
     {
         return ParseId(inputId)
             .Bind(FindUser)
@@ -292,7 +270,7 @@ public sealed class UserService
 
     public string HandleDeactivateRequest(string inputId)
     {
-        Result<User, Error> result = DeactivateUserFromRequest(inputId);
+        Result<User, Error> result = DeactivateUser(inputId);
 
         return result.Match(
             ok: user =>
@@ -326,9 +304,7 @@ public sealed class UserService
 }
 ```
 
-This enforces the **"Functional Core, Imperative Shell"** architecture:
-1.  **Orchestrate (parse + load + decide):** Done in the `Result` pipeline (`DeactivateUserFromRequest`).
-2.  **Act (persist + return output):** Done in the `Match` block (`HandleDeactivateRequest`).
+The idea: compute a `Result<User, Error>` in your internal workflow, then unwrap it once at the boundary in `HandleDeactivateRequest`.
 
 ### The Async Reality (Async composition friction)
 
@@ -357,7 +333,7 @@ Assume `ParseIdAsync : string -> Task<Result<int, Error>>` and `FindUserAsync : 
 private static Task<Result<User, Error>> DeactivateDecisionAsync(User user) =>
     Task.FromResult(DeactivateDecision(user));
 
-public Task<Result<User, Error>> DeactivateUserFromRequestAsync(string inputId) =>
+public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
     ParseIdAsync(inputId)
         .Bind(FindUserAsync)
         .Bind(DeactivateDecisionAsync);
