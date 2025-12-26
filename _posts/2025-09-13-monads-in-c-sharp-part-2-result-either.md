@@ -12,12 +12,12 @@ In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Mayb
 
 The Result monad transforms error handling from a **Control Flow** problem into a **Data** value. Instead of "jumping" up the stack with Exceptions, or cluttering your code with defensive `if` checks, errors flow linearly through your pipeline.
 
-#### The Problem: The "Honesty" vs. "Clarity" Trade-off
+#### The Problem: The "Explicitness" vs. "Clarity" Trade-off
 
-In traditional C#, we usually have to choose between code that is **clean but dishonest** (Exceptions) or **honest but noisy** (Guard Clauses).
+In traditional C#, we usually have to choose between code that is **clean but implicit** (Exceptions) or **explicit but noisy** (Guard Clauses).
 
-**Option A: The Exception Trap (Clean, but Dishonest)**
-This code is easy to read, but the signature lies. `DeactivateUser` claims to return `void`, but it implies hidden "Jump" control flow—it might actually throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
+**Option A: The Exception Trap (Clean, but Implicit)**
+This code is easy to read, but the signature doesn't advertise the failure modes. `DeactivateUser` claims to return `void`, but it implies hidden "Jump" control flow—it might actually throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
 
 ```csharp
 // The signature hides the complexity.
@@ -38,7 +38,7 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-**Option B: The Defensive approach (Honest, but Noisy)**
+**Option B: The Defensive approach (Explicit, but Noisy)**
 To avoid exceptions, we use "Guard Clauses." This keeps control flow linear, but now 80% of our code is error checking, and the actual business value (deactivating the user) is buried at the bottom.
 
 ```csharp
