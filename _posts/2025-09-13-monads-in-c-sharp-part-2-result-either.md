@@ -116,9 +116,6 @@ string message = result.Match(
 Here is a teaching implementation. (In production, consider a battle-tested library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*.)
 
 ```csharp
-// Structured error type (instead of just a string).
-public record Error(string Code, string Message);
-
 public sealed class Result<TSuccess, TError>
 {
     // The state is binary: it contains EITHER a value OR an error, never both.
@@ -221,6 +218,12 @@ Using `Result` over exceptions or `bool` returns has specific benefits:
 ### Putting it together: Functional core, imperative shell
 #### Example: Deactivating a user
 We want to deactivate a user given a user's `id` (a **string**) from an HTTP request.[^id]
+
+We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
+
+```csharp
+public record Error(string Code, string Message);
+```
 
 Keep the workflow pure, then exit once at the boundary.
 
