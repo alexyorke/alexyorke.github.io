@@ -334,14 +334,14 @@ This enforces the **"Functional Core, Imperative Shell"** architecture:
 
 ### The Async Reality (Async composition friction)
 
-In modern C#, almost all I/O is asynchronous and returns `Task<T>`. This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
+In modern .NET apps, most I/O APIs follow the Task-based async pattern (`Task` / `Task<T>`).[^tap] This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
 One way to think about it: `Task<T>` composes too. `await` + projection looks like `Map`, and `await` + returning another task looks like `Bind`.[^task-monad]
 
 The friction happens when you stack them. If you try to mix the `Task` monad (awaiting) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
 ### How to fix it (Combinators)
-If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides `BindAsync` (sometimes called `SelectManyAsync`):
+If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async-aware combinators** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
 
 > **Aside:** The library authors have already stepped on the rakes here so you don’t have to.
 
@@ -349,16 +349,15 @@ If you need async + `Result` composition, don’t hand-roll helpers. Use a libra
 - **LanguageExt**: Strict functional style ("Haskell for C#").
 - **FluentResults**: Object-oriented features.
 
-> **Either bias note:** Some libraries model `Either`/`Result` as left-biased or right-biased; a few are "unbiased" (neither side is preferred). Check your library docs to know which branch `Map`/`Bind` operates on by default.
+> **Either bias note:** Most `Either`/`Result` APIs are **right-/success-biased**: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 
 With a library, the async pipeline stays linear:
 
 ```csharp
-// Libraries providing "BindAsync" handle the Task wrapper for you:
 public Task<Result<User, Error>> DeactivateUser(string inputId) =>
     ParseIdAsync(inputId)           // Task<Result<int, Error>>
-        .BindAsync(FindUserAsync)   // Orchestration: await task, check Result, then load
-        .BindAsync(DeactivateDecisionAsync);
+        .Bind(FindUserAsync)        // Task<Result<User, Error>> (Bind overload handles async)
+        .Bind(DeactivateDecision);  // Result<User, Error> (pure decision)
 ```
 
 ### Testing Strategies
@@ -372,14 +371,14 @@ Also: don't stop at "it failed"—assert the *kind* of failure (code/message/typ
 
 ```csharp
 [Fact]
-public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
+public async Task DeactivateUser_ReturnsFailure_WhenUserNotFound()
 {
     // Arrange
     var repo = new InMemoryUserRepo(); // empty
     var service = new UserService(repo);
 
     // Act
-    var result = service.DeactivateUser("123");
+    var result = await service.DeactivateUser("123");
 
     // Assert: Check State
     Assert.True(result.IsFailure);
@@ -405,5 +404,6 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
 [^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
-[^task-monad]: `Task<T>` isn’t strictly a pure monad because it triggers execution immediately (it is "Hot") and caches results, but it obeys the laws well enough to model it as one for control flow.
-[^illegal-states]: This is an instance of **"making illegal states unrepresentable"**: designing your types so invalid states can’t be constructed in the first place. In this post, the private `Result` constructor is the mechanism. Yaron Minsky popularized the phrase in his talk **"Effective ML"** (OCaml syntax, but broadly applicable): `https://www.youtube.com/watch?v=-J8YyfrSwTk`.
+[^tap]: See Microsoft Learn: [Task asynchronous programming model](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model).
+[^task-monad]: `Task<T>` behaves *monad-like* (it supports `Map`/`Bind`-shaped composition), but it isn’t pure: work may start eagerly, timing/scheduling matters, and exceptions/cancellation are part of the semantics. For this post, the useful point is just: **it composes**.
+[^illegal-states]: This is an instance of **"making illegal states unrepresentable"**: designing your types so invalid states can’t be constructed in the first place. In this post, the private `Result` constructor is the mechanism. The phrase is commonly attributed to Yaron Minsky (Jane Street), from his “Effective ML” talk/posts: [Effective ML](https://blog.janestreet.com/effective-ml/) (watch: `https://www.youtube.com/watch?v=-J8YyfrSwTk`).
