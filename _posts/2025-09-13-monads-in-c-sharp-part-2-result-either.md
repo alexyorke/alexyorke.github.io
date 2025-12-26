@@ -191,7 +191,7 @@ public sealed class Result<TSuccess, TError>
 ```
 
 ### Unwrapping with `Match`
-You can chain as long as you like, but eventually, the outside world needs a result. Use `Match` at your application boundary (e.g., API Endpoint or UI Logic).
+Once the pipeline is complete, use `Match` to convert the internal `Result` back into a concrete value (like an HTTP response or a console message).
 
 ```csharp
 Result<int, Error> result = Result<int, Error>.Ok(42);
@@ -202,18 +202,18 @@ string output = result.Match(
 );
 ```
 
-### Why bother?
-Using `Result` over exceptions or `bool` returns has specific benefits:
-*   **Explicit Signatures:** You don't have to read the source code to know a method can fail.
-*   **No Sentinels:** No more `return null` or `-1` to represent errors.
-*   **Testability:** Tests assert on `Ok` vs `Fail` states rather than `ExpectedException` attributes.
+### Key Benefits
+Using `Result` provides structural advantages over exceptions or sentinel values:
+*   **Explicit Signatures:** The return type `Result<User, Error>` clearly indicates that failure is a possible outcome, unlike `User` which implies guaranteed success.
+*   **Type Safety:** It removes the ambiguity of "Magic Numbers" (e.g., returning `-1`) or `null` checks.
+*   **Testability:** Unit tests can assert on clear `IsSuccess`/`IsFailure` properties rather than relying on `ExpectedException` attributes.
 
-### When `Result` is the wrong tool
-`Result` is for **domain logic** failures. It is not a silver bullet.
+### Scope & Limitations
+The `Result` pattern is optimized for **Domain Logic** (expected failures). It complements, rather than replaces, standard Exceptions in specific scenarios:
 
-1.  **Infrastructure:** If the DB is down or you run out of memory, let the exception bubble to your middleware. Do not catch generic exceptions just to wrap them in `Result.Fail`.
-2.  **Bugs:** If a method receives a `null` argument that should never be null, throw `ArgumentNullException`. That is a bug, not a business outcome.
-3.  **Accumulation:** As mentioned earlier, `Bind` short-circuits. For form validation (where you want 10 errors, not just the first one), you need "Applicative Validation," not monadic binding.
+1.  **Infrastructure:** Unexpected failures (Database offline, OutOfMemory) are best handled by global middleware. These should remain Exceptions rather than being wrapped in `Result`.
+2.  **Bugs:** Precondition violations (e.g., passing `null` to a method that requires a value) indicate a bug in the code, not a business rule failure. Standard exceptions like `ArgumentNullException` are appropriate here.
+3.  **Accumulation:** `Bind` stops at the first error. If you need to collect *all* validation errors (e.g., checking 5 form fields and reporting all mistakes), use a **Validation** structure designed for accumulation rather than the short-circuiting behavior of `Result`.
 
 ### Putting it together: Functional core, imperative shell
 #### Example: Deactivating a user
