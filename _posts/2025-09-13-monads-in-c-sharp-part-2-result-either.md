@@ -16,8 +16,6 @@ This transforms error handling from implicit control flow into an explicit retur
 
 In practice, `Result` is usually **success-biased**: `Map`/`Bind` operate on the success value and propagate the error unchanged.
 
-This turns error handling into an explicit value, so workflows stay linear and composable without hidden stack unwinding.
-
 It’s like `Maybe<T>`, except the failure case carries a typed reason instead of just “no value”.
 
 #### The Problem: Explicitness vs. Readability
@@ -95,6 +93,7 @@ Result<User, Error> result =
         .Bind(FindUser)
         .Bind(DeactivateDecision);
 
+// Note: we'll handle the side-effect (`Save`) at the boundary using `Match` below.
 string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
@@ -307,7 +306,7 @@ If you need async + `Result` composition, don’t hand-roll helpers. Use a libra
 
 With a library, the async pipeline stays linear.
 
-Assume `ParseIdAsync : string -> Task<Result<int, Error>>` and `FindUserAsync : int -> Task<Result<User, Error>>`.
+Assume `ParseIdAsync : string -> Task<Result<int, Error>>` and `FindUserAsync : int -> Task<Result<User, Error>>` (instance method, uses `_repo`).
 
 > **Note:** The snippet below is pseudo-code assuming you are using a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.
 
@@ -317,7 +316,7 @@ private static Task<Result<User, Error>> DeactivateDecisionAsync(User user) =>
 
 public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
     ParseIdAsync(inputId)
-        .Bind(FindUserAsync)
+        .Bind(this.FindUserAsync)
         .Bind(DeactivateDecisionAsync);
 ```
 
