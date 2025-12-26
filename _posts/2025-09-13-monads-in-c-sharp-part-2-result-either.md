@@ -152,18 +152,18 @@ public sealed class Result<TSuccess, TError>
     {
         // We store default(TError) in the unused slot.
         return new Result<TSuccess, TError>(
-            value: value,
-            error: default(TError),
-            isSuccess: true);
+            value,
+            default(TError),
+            true);
     }
 
     public static Result<TSuccess, TError> Fail(TError error)
     {
         // We store default(TSuccess) in the unused slot.
         return new Result<TSuccess, TError>(
-            value: default(TSuccess),
-            error: error,
-            isSuccess: false);
+            default(TSuccess),
+            error,
+            false);
     }
 
     // Functor: Transform the inner value (success branch only).
