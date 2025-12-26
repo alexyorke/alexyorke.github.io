@@ -121,26 +121,14 @@ public record Error(string Code, string Message);
 
 public sealed class Result<TSuccess, TError>
 {
-    // Invariant:
-    // - If IsSuccess == true, _value is meaningful and _error is unused.
-    // - If IsSuccess == false, _error is meaningful and _value is unused.
+    // The state is binary: it contains EITHER a value OR an error, never both.
     private readonly TSuccess? _value;
     private readonly TError? _error;
 
     public bool IsSuccess { get; }
-    public bool IsFailure
-    {
-        get { return !IsSuccess; }
-    }
+    public bool IsFailure => !IsSuccess;
 
-    // Why a 3-parameter constructor?
-    //
-    // A tempting design is to have two private constructors:
-    //     Result(TSuccess value) and Result(TError error)
-    //
-    // But if TSuccess and TError are the same type (e.g., Result<int, int>),
-    // those overloads collide and calls become ambiguous. The explicit isSuccess
-    // flag makes the internal representation unambiguous.
+    // Internal constructor ensures we never create an invalid state.
     private Result(TSuccess? value, TError? error, bool isSuccess)
     {
         IsSuccess = isSuccess;
@@ -150,55 +138,57 @@ public sealed class Result<TSuccess, TError>
 
     public static Result<TSuccess, TError> Ok(TSuccess value)
     {
-        // We store default(TError) in the unused slot.
         return new Result<TSuccess, TError>(
             value,
-            default(TError),
+            default,
             true);
     }
 
     public static Result<TSuccess, TError> Fail(TError error)
     {
-        // We store default(TSuccess) in the unused slot.
         return new Result<TSuccess, TError>(
-            default(TSuccess),
+            default,
             error,
             false);
     }
 
-    // Functor: Transform the inner value (success branch only).
-    // Common pitfall: Map does not run on failures; it preserves the error untouched.
+    // MAP: Transforms the data if successful. If the Result is a Failure, this is skipped entirely.
+    // The "Magic": If this Result is already a Failure, the function 'f' never runs,
+    // and the existing error is passed along.
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         if (IsSuccess)
         {
-            return Result<U, TError>.Ok(f(_value));
+            return Result<U, TError>.Ok(f(_value!));
         }
 
-        return Result<U, TError>.Fail(_error);
+        return Result<U, TError>.Fail(_error!);
     }
 
-    // Monad: Chain a dependent operation that might fail (short-circuits on the first failure).
+    // BIND: Chains an operation that *also* returns a Result.
+    // This is the "Railway Switch": if the previous step failed, we stop immediately.
+    // Note: the function 'f' provides the *new* success OR the *new* failure.
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         if (IsSuccess)
         {
-            return f(_value);
+            return f(_value!);
         }
 
-        return Result<U, TError>.Fail(_error);
+        return Result<U, TError>.Fail(_error!);
     }
 
-    // Match: Leave the monad by turning a Result into a "plain" value.
-    // This is typically used at the boundary (API/UI/CLI) to decide what to do next.
+    // MATCH: Unwraps the final value.
+    // This forces you to handle both cases to get the data out.
+    // Typically used at the API boundary to convert to HTTP 200/400.
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
         if (IsSuccess)
         {
-            return ok(_value);
+            return ok(_value!);
         }
 
-        return err(_error);
+        return err(_error!);
     }
 }
 ```
