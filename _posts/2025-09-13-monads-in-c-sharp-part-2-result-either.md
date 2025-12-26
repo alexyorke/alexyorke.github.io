@@ -10,7 +10,7 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps. Now, we model **fallible** outcomes where the "Why" matters: `Result<TSuccess, TError>`.
 
-The Result monad transforms error handling from a **Control Flow** problem into a **Data** problem. Instead of "jumping" up the stack with Exceptions, or cluttering your code with defensive `if` checks, errors flow linearly through your pipeline.
+The Result monad transforms error handling from a **Control Flow** problem into a **Data** value. Instead of "jumping" up the stack with Exceptions, or cluttering your code with defensive `if` checks, errors flow linearly through your pipeline.
 
 #### The Problem: The "Honesty" vs. "Clarity" Trade-off
 
