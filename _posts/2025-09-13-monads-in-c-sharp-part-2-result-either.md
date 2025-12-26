@@ -385,43 +385,6 @@ public Task<Result<User, Error>> DeactivateUserFromRequestAsync(string inputId) 
         .Bind(DeactivateDecisionAsync);
 ```
 
-### Testing Strategies
-Testing expected failures with `Result` is often cleaner than exceptions—you can assert on the returned value without `Assert.Throws` (which you still use for programmer errors and truly exceptional cases).
-
-In a real codebase, you might add a small helper to "peek" inside a `Result` in tests. For this post, sticking to the public API is fine.
-
-If your `Result` type keeps its internals private, use `Match` to unwrap the error for assertion. In a unit test, entering the success branch when you expected failure is a test failure, so throw immediately.
-
-Also: don't stop at "it failed"—assert the *kind* of failure (code/message/type). Otherwise, the wrong failure can sneak in and your test still passes.
-
-```csharp
-[Fact]
-public async Task DeactivateUser_ReturnsFailure_WhenUserNotFound()
-{
-    // Arrange
-    var repo = new InMemoryUserRepo(); // empty
-    var service = new UserService(repo);
-
-    // Act
-    var result = await service.DeactivateUserFromRequestAsync("123");
-
-    // Assert: Check State
-    Assert.True(result.IsFailure);
-    
-    // Assert: Check Reason (using Match to inspect the private error)
-    var error = result.Match(
-        ok: _ =>
-        {
-            Assert.True(false, "Expected failure but operation succeeded!");
-            return default!; // unreachable
-        },
-        err: e => e
-    );
-    
-    Assert.Equal("NotFound", error.Code);
-}
-```
-
 ### Wrap-up
 
 `Result` keeps “expected failure” in-band, as data.
