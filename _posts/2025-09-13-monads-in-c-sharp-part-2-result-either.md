@@ -78,27 +78,7 @@ At this point you either drop the reason (return `bool`) or invent a convention 
 
 `Result` models **operation outcomes** (success/failure) as values, so you can compose fail-fast workflows without exceptions. It allows us to model **Recoverable Failure** as a first-class value.
 
-> **Concept Check: The Control Flow Spectrum**
-> 
-> **1. Result (`Result<TSuccess, TError>`) → "Expected failure"**
-> *   **Use when:** An operation can fail as part of normal business logic (e.g., "User Not Found" or "Validation Failed").
-> *   **Control Flow:** Linear & Composable. You chain operations without `try/catch` blocks.
-> 
-> **2. Exception → "Panic / Abort"**
-> *   **Use when:** Something unexpected happened and you can't continue locally (e.g., unexpected I/O failures, corrupted configuration, invariants being violated).
-> *   **Control Flow:** **Jump.** It rips through the stack until caught.
-
-> **Note on Nullable Types (`T?`)**
-> 
-> C#'s nullable reference types (`string?`, etc.) primarily help the **compiler** detect potential `NullReferenceException`s. They assist in modeling **anticipated absence**, i.e., situations where a value might legitimately be missing (like an optional middle name), or an API might return `null` when a record isn't found. The compiler provides warnings if you don't handle these potential nulls, offering a layer of safety.
-> (They don’t change runtime behavior—`null` can still happen—so you still need checks or guards at runtime.)
-> 
-> Nullable reference types are related, but they solve a different problem:
-> *   Focus on **data absence** (static state), not **operation failure** (action outcome).
-> *   Primary protection is **compile-time analysis**, not runtime error propagation.
-> *   Handled with explicit checks (`if (value is null)`) or operators (`??`), rather than chaining like `Bind`. `Result` gives you that kind of composition for **expected failures**.
-
-> **Aside:** Nullable reference types are the compiler’s polite cough: “ahem… you sure about that?”
+Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
 
 Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an error.
 
@@ -109,7 +89,7 @@ public record Error(string Code, string Message);
 ```
 
 ```csharp
-string inputId = /* from request */;
+string inputId = inputIdFromRequest;
 Result<User, Error> result =
     ParseId(inputId)
         .Bind(FindUser)
@@ -214,7 +194,7 @@ string output = result.Match(
 ```
 
 #### Why Serialization Breaks the Pattern
-A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you leak your internal representation into a public contract (and clients start depending on it), which makes refactors and error-shape changes painful.
+Don’t serialize `Result` directly. It leaks internal representation into your public contract. `Match` it into DTOs/status codes/`ProblemDetails` instead.
 
 > **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 
@@ -328,6 +308,8 @@ If you need async + `Result` composition, don’t hand-roll helpers. Use a libra
 With a library, the async pipeline stays linear.
 
 Assume `ParseIdAsync : string -> Task<Result<int, Error>>` and `FindUserAsync : int -> Task<Result<User, Error>>`.
+
+> **Note:** The snippet below is pseudo-code assuming you are using a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.
 
 ```csharp
 private static Task<Result<User, Error>> DeactivateDecisionAsync(User user) =>
