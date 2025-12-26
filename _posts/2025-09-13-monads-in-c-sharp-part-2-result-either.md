@@ -42,8 +42,10 @@ public void DeactivateUser(string inputId)
 }
 ```
 
+Although this code example is very small and is clear where exceptions are thrown, it may not be clear in larger programs. This makes it hard to compose error validation logic because exceptions modify control flow at any point, making them difficult to compose, and so you end up writing a lot of boilerplate.
+
 **Option B: Explicit Validation (Guard Clauses)**
-To avoid exceptions, we can use "Guard Clauses." This keeps the control flow linear and explicit, but the validation logic often dominates the method body, separating the error handling from the core business logic.
+To avoid exceptions, i.e., only throwing exceptions in exceptional cases, we can use "Guard Clauses." This keeps the control flow linear and explicit, but the validation logic often dominates the method body, separating the error handling from the core business logic.
 
 ```csharp
 // The "Happy Path" is interleaved with validation checks.
@@ -67,23 +69,27 @@ public string DeactivateUser(string inputId)
 }
 ```
 
+In this example, if we wanted to preserve the error reason, we could instead return a Tuple that indicates whether the operation was successful, or the error if not. If we didn't care about the error reason, we could instead return a boolean.
+
 #### The Solution: The Control Flow Spectrum
 
 The `Result` type provides a middle ground between ignoring absence (Nullable) and aborting execution (Exception). It allows us to model **Recoverable Failure** as a first-class value.
 
 > **Concept Check: The Control Flow Spectrum**
 > 
-> **1. Nullable (`T?`) → "Ignorable Absence"**
-> *   **Use when:** Data is missing as a valid state (e.g., an optional middle name).
-> *   **Control Flow:** Linear. You check it or default it.
-> 
-> **2. Result (`Result<T, E>`) → "Recoverable Failure"**
+> **1. Result (`Result<T, E>`) → "Recoverable Failure"**
 > *   **Use when:** A process fails and the caller *must* handle it (e.g., "User Not Found" or "Validation Failed").
 > *   **Control Flow:** Linear & Composable. You chain operations without `try/catch` blocks.
 > 
-> **3. Exception → "Panic / Abort"**
+> **2. Exception → "Panic / Abort"**
 > *   **Use when:** The environment is broken and you cannot recover (e.g., OutOfMemory, Bad Config).
 > *   **Control Flow:** **Jump.** It rips through the stack until caught.
+
+> **Note on Nullable (`T?`)**
+> 
+> C#’s nullable reference types (`string?`, `User?`, etc.) are primarily about **modeling absence** and getting help from the compiler. When you annotate a value as nullable, the compiler performs **nullability flow analysis** and produces warnings if you might dereference `null`.
+> 
+> This is great when “missing” is a valid state (e.g., a middle name), or when an API can legitimately return `null` and you want guardrails against `NullReferenceException`. It’s related in spirit to `Result` (both make “non-happy-path” states explicit), but it’s **not error handling** in the same sense, and `T?` is not a monad you `Bind` over in C#.
 
 `Result` sequences the steps from Option B using `Bind`, combining the conciseness of Option A with the type-safety of Option B.
 
