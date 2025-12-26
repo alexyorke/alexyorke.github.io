@@ -10,23 +10,7 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps. Now, we model **fallible** outcomes where the "Why" matters: `Result<TSuccess, TError>`.
 
-Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
-
-The Result monad transforms error handling from a **Control Flow** problem into a **Data** problem. Instead of "jumping" up the stack with Exceptions, errors flow linearly through your pipeline.
-
-> **Concept Check: The Control Flow Spectrum**
-> 
-> **1. Nullable (`T?`) → "Ignorable Absence"**
-> *   **Use when:** Data is missing as a valid state (e.g., an optional middle name).
-> *   **Control Flow:** Linear. You check it or default it.
-> 
-> **2. Result (`Result<T, E>`) → "Recoverable Failure"**
-> *   **Use when:** A process fails and the caller *must* handle it (e.g., "User Not Found" or "Validation Failed").
-> *   **Control Flow:** Linear & Composable. You chain operations without `try/catch` blocks.
-> 
-> **3. Exception → "Panic / Abort"**
-> *   **Use when:** The environment is broken and you cannot recover (e.g., OutOfMemory, Bad Config).
-> *   **Control Flow:** **Jump.** It rips through the stack until caught.
+The Result monad transforms error handling from a **Control Flow** problem into a **Data** problem. Instead of "jumping" up the stack with Exceptions, or cluttering your code with defensive `if` checks, errors flow linearly through your pipeline.
 
 #### The Problem: The "Honesty" vs. "Clarity" Trade-off
 
@@ -79,8 +63,25 @@ public string DeactivateUser(string inputId)
 }
 ```
 
-#### The Solution: Chaining
-`Result` sequences these steps using `Bind`. This keeps the "happy path" readable: the first failure short-circuits the chain, and that error flows to the end automatically.
+#### The Solution: The Control Flow Spectrum
+
+To solve this, we need a middle ground between "Ignoring it" (Nullable) and "Panicking" (Exception). We need a type that represents **Recoverable Failure**.
+
+> **Concept Check: The Control Flow Spectrum**
+> 
+> **1. Nullable (`T?`) → "Ignorable Absence"**
+> *   **Use when:** Data is missing as a valid state (e.g., an optional middle name).
+> *   **Control Flow:** Linear. You check it or default it.
+> 
+> **2. Result (`Result<T, E>`) → "Recoverable Failure"**
+> *   **Use when:** A process fails and the caller *must* handle it (e.g., "User Not Found" or "Validation Failed").
+> *   **Control Flow:** Linear & Composable. You chain operations without `try/catch` blocks.
+> 
+> **3. Exception → "Panic / Abort"**
+> *   **Use when:** The environment is broken and you cannot recover (e.g., OutOfMemory, Bad Config).
+> *   **Control Flow:** **Jump.** It rips through the stack until caught.
+
+`Result` sequences the steps from Option B using `Bind`, giving us the cleanliness of Option A with the safety of Option B.
 
 ```csharp
 // Declarative: The logic flows in one uninterrupted pipeline.
