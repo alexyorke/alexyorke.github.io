@@ -190,12 +190,6 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-> **Deep Dive: "Make Illegal States Unrepresentable"**
-> You might notice the `Result` constructor is private. This guarantees that a `Result` never contains *both* a value and an error, or *neither*.
->
-> This aligns with the philosophy of **"making illegal states unrepresentable,"** a concept popularized by Yaron Minsky. By using the type system to enforce valid states, you remove the need for runtime checks and unit tests for "impossible" scenarios.
-> - [Watch Yaron Minsky's talk "Effective ML" (video)](https://www.youtube.com/watch?v=-J8YyfrSwTk)
-
 ### Handling the Final Outcome
 When a computation is finished, use `Match` to convert the internal `Result` into a format appropriate for the user (like an HTTP response, a console message, or a UI state).
 
@@ -220,7 +214,7 @@ string output = result.Match(
 ```
 
 #### Why Serialization Breaks the Pattern
-A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you lose the "Making Illegal States Unrepresentable" guarantee.
+A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you lose the "Making Illegal States Unrepresentable" guarantee.[^illegal-states]
 
 In your C# code, the private constructor ensures you can't have a "Success" that also contains an "Error." However, once serialized into a generic object, that invariant disappears:
 
@@ -394,3 +388,4 @@ public void DeactivateUser_ReturnsFailure_WhenUserNotFound()
 
 [^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
 [^task-monad]: `Task<T>` isn’t strictly a pure monad because it triggers execution immediately (it is "Hot") and caches results, but it obeys the laws well enough to model it as one for control flow.
+[^illegal-states]: This is an instance of **"making illegal states unrepresentable"**: designing your types so invalid states can’t be constructed in the first place. In this post, the private `Result` constructor is the mechanism. Yaron Minsky popularized the phrase in his talk **"Effective ML"** (OCaml syntax, but broadly applicable): `https://www.youtube.com/watch?v=-J8YyfrSwTk`.
