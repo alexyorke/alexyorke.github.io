@@ -1,7 +1,7 @@
 ---
 title: "Monads in C# (Part 2): Result (Either)"
 date: 2025-09-13
-description: "Build a small Result type in C# and use Map/Bind/Match to compose fail-fast workflows with explicit errors."
+description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose fail-fast workflows with explicit errors."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
@@ -10,9 +10,9 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 In **Part 1**, we used `List<T>` to contrast `Map` vs `Bind` (aka `FlatMap`), and built `Maybe<T>` to chain optional steps.
 
-The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
+The `Result` monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
 
-This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit throws and verbose defensive checking.
+This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s and verbose defensive checking.
 
 In practice, `Result` is usually **success-biased**: `Map`/`Bind` operate on the success value and propagate the error unchanged.
 
@@ -42,7 +42,7 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In a small snippet, the throw sites are obvious. In a real service, exceptions can come from almost anywhere (parsing, mapping, I/O, nulls), so once you start composing steps you end up wrapping a lot of code in `try/catch` scaffolding.
+In a small snippet, the throw sites are obvious. In a real service, exceptions can come from almost anywhere (parsing, mapping, `I/O`, `null`s), so once you start composing steps you end up wrapping a lot of code in `try/catch` scaffolding.
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
@@ -70,7 +70,7 @@ public string DeactivateUser(string inputId)
 }
 ```
 
-At this point you either drop the reason (return `bool`) or invent a convention (tuples, out-params, strings). `Result` gives that convention a name and a shape.
+At this point you either drop the reason (return `bool`) or invent a convention (tuples, `out` params, strings). `Result` gives that convention a name and a shape.
 
 #### The Solution: The Control Flow Spectrum
 
@@ -78,7 +78,7 @@ At this point you either drop the reason (return `bool`) or invent a convention 
 
 Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
 
-Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an error.
+Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an `Error`.
 
 We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
 
@@ -99,7 +99,7 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-> **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
+> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
 ### Implementing Result
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
@@ -181,7 +181,7 @@ public sealed class Result<TSuccess, TError>
 
 ### Handling the Final Outcome
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
-> Use `Match` at the boundary to convert an internal `Result` into DTOs/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
+> Use `Match` at the boundary to convert an internal `Result` into `DTO`s/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
@@ -193,7 +193,7 @@ string output = result.Match(
 ```
 
 #### Why Serialization Breaks the Pattern
-Don’t serialize `Result` directly. It leaks internal representation into your public contract. `Match` it into DTOs/status codes/`ProblemDetails` instead.
+Don’t serialize `Result` directly. It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
 
 > **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 
@@ -208,7 +208,7 @@ Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`
 }
 ```
 
-That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (DTOs, status codes, `ProblemDetails`, etc.).
+That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
 
 ### Key Benefits
 What do you get for returning `Result` instead of throwing or using sentinels?
@@ -221,7 +221,7 @@ What do you get for returning `Result` instead of throwing or using sentinels?
 
 1.  **Infrastructure:** For technical failures (DB/network outages, timeouts, unexpected I/O errors), exceptions handled at the boundary (middleware/logging/global handlers) are often a good fit.
 2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
-3.  **Accumulation:** `Bind` stops at the first error. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
+3.  **Accumulation:** `Bind` stops at the first `Error`. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
 
 ### Putting it together: Unwrap at the boundary
 #### Example: Deactivating a user
@@ -287,11 +287,11 @@ The idea: compute a `Result<User, Error>` in your internal workflow, then unwrap
 
 ### The Async Reality (Async composition friction)
 
-In modern .NET apps, most I/O APIs follow the Task-based async pattern (`Task` / `Task<T>`).[^tap] This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
+In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`).[^tap] This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
 One way to think about it: `Task<T>` composes too. `await` + projection looks like `Map`, and `await` + returning another task looks like `Bind`.[^task-monad]
 
-The friction happens when you stack them. If you try to mix the `Task` monad (awaiting) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
+The friction happens when you stack them. If you try to mix the `Task` monad (`await`ing) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
 ### How to fix it (Combinators)
 If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async-aware combinators** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
