@@ -254,8 +254,8 @@ What do you get for returning `Result` instead of throwing or using sentinels?
 ### Scope & Limitations
 `Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.
 
-1.  **Infrastructure:** If the DB is offline or you run out of memory, exceptions + middleware are still a good fit.
-2.  **Bugs:** Precondition violations (e.g., passing `null` where it’s not allowed) are still exceptions (`ArgumentNullException`, etc.).
+1.  **Infrastructure:** For technical failures (DB/network outages, timeouts, unexpected I/O errors), exceptions handled at the boundary (middleware/logging/global handlers) are often a good fit.
+2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
 3.  **Accumulation:** `Bind` stops at the first error. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
 
 ### Putting it together: Functional core, imperative shell
