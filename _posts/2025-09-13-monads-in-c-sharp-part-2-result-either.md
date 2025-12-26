@@ -112,22 +112,6 @@ string message = result.Match(
 
 > **Note:** `Result` is designed to **short-circuit** (stop at the first error). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use an *Accumulating Validation* type instead.
 
-#### Example: Deactivating a user
-We want to deactivate a user given an `id` **string** from an HTTP request.[^id]
-
-### Why bother?
-Using `Result` over exceptions or `bool` returns has specific benefits:
-*   **Explicit Signatures:** You don't have to read the source code to know a method can fail.
-*   **No Sentinels:** No more `return null` or `-1` to represent errors.
-*   **Testability:** Tests assert on `Ok` vs `Fail` states rather than `ExpectedException` attributes.
-
-### When `Result` is the wrong tool
-`Result` is for **domain logic** failures. It is not a silver bullet.
-
-1.  **Infrastructure:** If the DB is down or you run out of memory, let the exception bubble to your middleware. Do not catch generic exceptions just to wrap them in `Result.Fail`.
-2.  **Bugs:** If a method receives a `null` argument that should never be null, throw `ArgumentNullException`. That is a bug, not a business outcome.
-3.  **Accumulation:** As mentioned earlier, `Bind` short-circuits. For form validation (where you want 10 errors, not just the first one), you need "Applicative Validation," not monadic binding.
-
 ### Implementing Result
 Here is a teaching implementation. (In production, consider a battle-tested library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*.)
 
@@ -230,7 +214,24 @@ string output = result.Match(
     err: error => $"Error: {error.Code}"
 );
 ```
+
+### Why bother?
+Using `Result` over exceptions or `bool` returns has specific benefits:
+*   **Explicit Signatures:** You don't have to read the source code to know a method can fail.
+*   **No Sentinels:** No more `return null` or `-1` to represent errors.
+*   **Testability:** Tests assert on `Ok` vs `Fail` states rather than `ExpectedException` attributes.
+
+### When `Result` is the wrong tool
+`Result` is for **domain logic** failures. It is not a silver bullet.
+
+1.  **Infrastructure:** If the DB is down or you run out of memory, let the exception bubble to your middleware. Do not catch generic exceptions just to wrap them in `Result.Fail`.
+2.  **Bugs:** If a method receives a `null` argument that should never be null, throw `ArgumentNullException`. That is a bug, not a business outcome.
+3.  **Accumulation:** As mentioned earlier, `Bind` short-circuits. For form validation (where you want 10 errors, not just the first one), you need "Applicative Validation," not monadic binding.
+
 ### Putting it together: Functional core, imperative shell
+#### Example: Deactivating a user
+We want to deactivate a user given a user's `id` (a **string**) from an HTTP request.[^id]
+
 Keep the workflow pure, then exit once at the boundary.
 
 ```csharp
@@ -264,13 +265,6 @@ public sealed class UserService
             err: e => $"Deactivate failed: {e.Code} - {e.Message}");
     }
 
-    // The Domain Pipeline (The Functional Core)
-    // Pure logic: Parse -> Find -> Deactivate -> Return Result
-    public Result<User, Error> DeactivateUser(string inputId) =>
-        ParseId(inputId)
-            .Bind(FindUser)
-            .Bind(Deactivate);
-
     // --- Steps ---
 
     private static Result<int, Error> ParseId(string inputId) =>
@@ -302,6 +296,28 @@ This enforces the **"Functional Core, Imperative Shell"** architecture:
 1.  **Read/Compute:** Done in the `Result` pipeline (`DeactivateUser`).
 2.  **Write/Side-Effect:** Done in the `Match` block (`HandleDeactivateRequest`).
 
+### Exiting the Monad (The API Boundary)
+Treat `Result<TSuccess, TError>` as internal plumbing.
+At the **Edge** of your application (API Controller, CLI, UI View Model), unwrap it with `Match`.
+
+This keeps your internal domain logic decoupled from your HTTP contract.
+
+Never return `Result<...>` directly to a generic JSON serializer. Unwrap it into a `ProblemDetails` (for failure) or a specific DTO (for success) so your public API remains stable even if your internal error types change.
+
+#### The "Russian Doll" Risk
+If you return a `Result` directly from a Controller, you leak implementation details and create awkward JSON wrappers:
+
+```json
+{
+  "isSuccess": true,
+  "isFailure": false,
+  "error": null,
+  "value": { "id": 123, "isActive": false }
+}
+```
+
+Always unwrap at the boundary using `Match` to return standard HTTP responses or clean DTOs.
+
 ### The Async Reality (Async composition friction)
 
 In modern C#, almost all I/O is asynchronous and returns `Task<T>`. This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
@@ -328,28 +344,6 @@ public Task<Result<User, Error>> DeactivateUser(string inputId) =>
         .BindAsync(FindUserAsync)   // Await task, check Result, then run Find
         .BindAsync(DeactivateAsync);
 ```
-
-### Exiting the Monad (The API Boundary)
-Treat `Result<TSuccess, TError>` as internal plumbing.
-At the **Edge** of your application (API Controller, CLI, UI View Model), unwrap it with `Match`.
-
-This keeps your internal domain logic decoupled from your HTTP contract.
-
-Never return `Result<...>` directly to a generic JSON serializer. Unwrap it into a `ProblemDetails` (for failure) or a specific DTO (for success) so your public API remains stable even if your internal error types change.
-
-#### The "Russian Doll" Risk
-If you return a `Result` directly from a Controller, you leak implementation details and create awkward JSON wrappers:
-
-```json
-{
-  "isSuccess": true,
-  "isFailure": false,
-  "error": null,
-  "value": { "id": 123, "isActive": false }
-}
-```
-
-Always unwrap at the boundary using `Match` to return standard HTTP responses or clean DTOs.
 
 ### Testing Strategies
 Testing `Result` is cleaner than testing Exceptions because you don't need `Assert.Throws`.
