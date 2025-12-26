@@ -190,8 +190,10 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-### Unwrapping with `Match`
+### Unwrapping at the Boundary
 Once the pipeline is complete, use `Match` to convert the internal `Result` back into a concrete value (like an HTTP response or a console message).
+
+Treat `Result<TSuccess, TError>` as **internal plumbing**. It belongs in your Domain/Services, but not in your public API contract.
 
 ```csharp
 Result<int, Error> result = Result<int, Error>.Ok(42);
@@ -201,6 +203,20 @@ string output = result.Match(
     err: error => $"Error: {error.Code}"
 );
 ```
+
+#### The "Russian Doll" Risk
+Never return `Result<...>` directly to a generic JSON serializer (e.g., from an API Controller). If you do, you leak implementation details and create awkward wrappers:
+
+```json
+{
+  "isSuccess": true,
+  "isFailure": false,
+  "error": null,
+  "value": { "id": 123, "isActive": false }
+}
+```
+
+Always unwrap at the **Edge** of your application (Controller, CLI, UI). Convert success values to DTOs and errors to `ProblemDetails` or status codes. This keeps your internal logic decoupled from your external contract.
 
 ### Key Benefits
 Using `Result` provides structural advantages over exceptions or sentinel values:
@@ -288,28 +304,6 @@ public sealed class UserService
 This enforces the **"Functional Core, Imperative Shell"** architecture:
 1.  **Read/Compute:** Done in the `Result` pipeline (`DeactivateUser`).
 2.  **Write/Side-Effect:** Done in the `Match` block (`HandleDeactivateRequest`).
-
-### Exiting the Monad (The API Boundary)
-Treat `Result<TSuccess, TError>` as internal plumbing.
-At the **Edge** of your application (API Controller, CLI, UI View Model), unwrap it with `Match`.
-
-This keeps your internal domain logic decoupled from your HTTP contract.
-
-Never return `Result<...>` directly to a generic JSON serializer. Unwrap it into a `ProblemDetails` (for failure) or a specific DTO (for success) so your public API remains stable even if your internal error types change.
-
-#### The "Russian Doll" Risk
-If you return a `Result` directly from a Controller, you leak implementation details and create awkward JSON wrappers:
-
-```json
-{
-  "isSuccess": true,
-  "isFailure": false,
-  "error": null,
-  "value": { "id": 123, "isActive": false }
-}
-```
-
-Always unwrap at the boundary using `Match` to return standard HTTP responses or clean DTOs.
 
 ### The Async Reality (Async composition friction)
 
