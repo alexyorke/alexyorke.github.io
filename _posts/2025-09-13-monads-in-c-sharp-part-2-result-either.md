@@ -10,28 +10,30 @@ description: "Build a small Result type in C# and use Map/Bind/Match to compose 
 
 In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps.
 
-The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. Think of it like `Maybe`, but the negative branch carries data: while `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
+The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
 
 This transforms error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit throws and verbose defensive checking.
 
-#### The Problem: The "Explicitness" vs. "Clarity" Trade-off
+Think of it like `Maybe`, but the negative branch carries data: while `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-In traditional C#, we usually have to choose between code that is **clean but implicit** (Exceptions) or **explicit but noisy** (Guard Clauses).
+#### The Problem: Explicitness vs. Readability
 
-**Option A: The Exception Trap (Clean, but Implicit)**
-This code is easy to read, but the signature doesn't advertise the failure modes. `DeactivateUser` claims to return `void`, but it implies hidden "Jump" control flow—it might actually throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
+In C#, developers often have to balance code clarity against explicit error handling. We usually choose between **Implicit Control Flow** (Exceptions) or **Verbose Validation** (Guard Clauses).
+
+**Option A: Implicit Control Flow (Exceptions)**
+This code is concise, but the method signature does not disclose potential failure states. While `DeactivateUser` returns `void`, it relies on "Jump" control flow to handle runtime errors like `FormatException` or `NullReferenceException`.
 
 ```csharp
-// The signature hides the complexity.
-// To use this safely, the caller MUST wrap it in a try/catch.
+// The signature implies success, hiding the failure modes.
+// To use this safely, the caller relies on documentation or try/catch blocks.
 public void DeactivateUser(string inputId)
 {
-    // If parsing fails, the app jumps (blows up).
+    // If parsing fails, the stack unwinds immediately.
     int id = int.Parse(inputId);
 
     var user = repo.Find(id);
 
-    // This looks like logic, but it's implicitly controlling flow via exceptions.
+    // Flow control is handled via exceptions rather than return values.
     if (!user.IsActive)
         throw new Exception("User already inactive");
 
@@ -40,25 +42,25 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-**Option B: The Defensive approach (Explicit, but Noisy)**
-To avoid exceptions, we use "Guard Clauses." This keeps control flow linear, but now 80% of our code is error checking, and the actual business value (deactivating the user) is buried at the bottom.
+**Option B: Explicit Validation (Guard Clauses)**
+To avoid exceptions, we can use "Guard Clauses." This keeps the control flow linear and explicit, but the validation logic often dominates the method body, separating the error handling from the core business logic.
 
 ```csharp
-// Imperative: The "Happy Path" is fragmented by error checks.
+// The "Happy Path" is interleaved with validation checks.
 public string DeactivateUser(string inputId)
 {
     if (!int.TryParse(inputId, out var id))
         return "Invalid ID";
 
     var user = repo.Find(id);
-    // Note: 'null' here is ambiguous. Did the DB timeout? Or is the user missing?
+    // Note: 'null' implies absence, but lacks context (e.g., DB Timeout vs. Missing Record).
     if (user is null) 
         return "User not found";
 
     if (!user.IsActive)
         return "User already inactive";
 
-    // Finally, the actual work happens here.
+    // The state change occurs only after all guards pass.
     user.IsActive = false;
     repo.Save(user);
     return "Success";
@@ -67,7 +69,7 @@ public string DeactivateUser(string inputId)
 
 #### The Solution: The Control Flow Spectrum
 
-To solve this, we need a middle ground between "Ignoring it" (Nullable) and "Panicking" (Exception). We need a type that represents **Recoverable Failure**.
+The `Result` type provides a middle ground between ignoring absence (Nullable) and aborting execution (Exception). It allows us to model **Recoverable Failure** as a first-class value.
 
 > **Concept Check: The Control Flow Spectrum**
 > 
@@ -83,11 +85,11 @@ To solve this, we need a middle ground between "Ignoring it" (Nullable) and "Pan
 > *   **Use when:** The environment is broken and you cannot recover (e.g., OutOfMemory, Bad Config).
 > *   **Control Flow:** **Jump.** It rips through the stack until caught.
 
-`Result` sequences the steps from Option B using `Bind`, giving us the cleanliness of Option A with the safety of Option B.
+`Result` sequences the steps from Option B using `Bind`, combining the conciseness of Option A with the type-safety of Option B.
 
 ```csharp
-// Declarative: The logic flows in one uninterrupted pipeline.
-// No 'if' statements to break your reading flow.
+// Declarative: The logic flows in a single pipeline.
+// No 'if' statements required between steps.
 Result<User, Error> result =
     ParseId(inputId)
         .Bind(FindUser)
@@ -106,7 +108,7 @@ We want to deactivate a user given an `id` **string** from an HTTP request.[^id]
 
 ### Why bother?
 Using `Result` over exceptions or `bool` returns has specific benefits:
-*   **Honest Signatures:** You don't have to read the source code to know a method can fail.
+*   **Explicit Signatures:** You don't have to read the source code to know a method can fail.
 *   **No Sentinels:** No more `return null` or `-1` to represent errors.
 *   **Testability:** Tests assert on `Ok` vs `Fail` states rather than `ExpectedException` attributes.
 
