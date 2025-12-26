@@ -48,25 +48,33 @@ If you want to keep exceptions for truly exceptional cases, you end up with guar
 ```csharp
 private readonly IUserRepo _repo;
 
-public string DeactivateUser(string inputId)
+public enum DeactivateUserResult
+{
+    Success,
+    InvalidId,
+    NotFound,
+    AlreadyInactive
+}
+
+public DeactivateUserResult DeactivateUser(string inputId)
 {
     if (!int.TryParse(inputId, out var id))
-        return "Invalid ID";
+        return DeactivateUserResult.InvalidId;
 
     var user = _repo.Find(id);
     if (user is null)
-        return "User not found";
+        return DeactivateUserResult.NotFound;
 
     if (!user.IsActive)
-        return "User already inactive";
+        return DeactivateUserResult.AlreadyInactive;
 
     user.IsActive = false;
     _repo.Save(user);
-    return "Success";
+    return DeactivateUserResult.Success;
 }
 ```
 
-At this point you either drop the reason (return `bool`) or invent a convention (tuples, `out` params, strings). `Result` gives that convention a name and a shape.
+At this point you either drop the reason (return `bool`) or invent a convention (tuples, `out` params, enums, strings). `Result` gives that convention a name and a shape.
 
 #### The Solution: The Control Flow Spectrum
 
