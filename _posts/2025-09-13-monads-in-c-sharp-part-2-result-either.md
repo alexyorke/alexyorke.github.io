@@ -246,7 +246,7 @@ string output = result.Match(
 ```
 
 #### Why Serialization Breaks the Pattern
-A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you lose the "Making Illegal States Unrepresentable" guarantee.[^illegal-states]
+A major risk of the `Result` pattern is the temptation to return the object directly to a generic JSON serializer. When you do this, you leak your internal representation into a public contract (and clients start depending on it), which makes refactors and error-shape changes painful.
 
 > **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 
@@ -435,4 +435,3 @@ public async Task DeactivateUser_ReturnsFailure_WhenUserNotFound()
 [^id]: In real systems, an identifier is often better modeled as a domain type (e.g., `UserId`) rather than a bare number. This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
 [^tap]: See Microsoft Learn: [Task asynchronous programming model](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model).
 [^task-monad]: `Task<T>` behaves *monad-like* (it supports `Map`/`Bind`-shaped composition), but it isn’t pure: work may start eagerly, timing/scheduling matters, and exceptions/cancellation are part of the semantics. For this post, the useful point is just: **it composes**.
-[^illegal-states]: This is an instance of **"making illegal states unrepresentable"**: designing your types so invalid states can’t be constructed in the first place. In this post, the factory methods (`Ok`/`Fail`) are the mechanism (the constructor is private so creation is centralized). The phrase is commonly attributed to Yaron Minsky (Jane Street), from his “Effective ML” talk/posts: [Effective ML](https://blog.janestreet.com/effective-ml/) (watch: [https://www.youtube.com/watch?v=-J8YyfrSwTk](https://www.youtube.com/watch?v=-J8YyfrSwTk)).
