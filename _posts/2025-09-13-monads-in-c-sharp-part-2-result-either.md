@@ -1,41 +1,48 @@
 ---
 title: "Monads in C# (Part 2): Result"
 date: 2025-09-13
-description: "Build a small Result type in C# and use Map/Bind/Match to compose fail-fast workflows with explicit errors (plus notes on async and API boundaries)."
+description: "Build a small Result type in C# and use Map/Bind/Match to compose fail-fast workflows with explicit errors."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/a-list-is-a-monad/)
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps. Now, we model **fallible** outcomes with a reason: `Result<TSuccess, TError>`.
+In **Part 1**, we used `List<T>` to contrast `Map` vs `flatMap`, and built `Maybe<T>` to chain optional steps. Now, we model **fallible** outcomes where the "Why" matters: `Result<TSuccess, TError>`.
 
 Think of `Result` like `Maybe`, but the negative branch carries data. While `Maybe` represents *absence* (`None`), `Result` represents *failure* (`Error`).
 
-The Result monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled. This saves you from **"Defensive Coding Noise"**—where your business logic is interrupted every other line by error checks. It also prevents **Hidden Control Flow**, where Exceptions act like invisible `GOTO` statements that force the caller to guess what might go wrong.
+The Result monad transforms error handling from a **Control Flow** problem into a **Data** problem. Instead of "jumping" up the stack with Exceptions, errors flow linearly through your pipeline.
 
-> **Concept Check: Result vs. Nullable (`T?`)**
+> **Concept Check: The Control Flow Spectrum**
 > 
-> Use `T?` when a value implies **Absence** and you don't care why (e.g., a user's optional middle name).
+> **1. Nullable (`T?`) → "Ignorable Absence"**
+> *   **Use when:** Data is missing as a valid state (e.g., an optional middle name).
+> *   **Control Flow:** Linear. You check it or default it.
 > 
-> Use `Result` when a value implies **Failure** and the reason matters. If `FindUser(id)` returns `null`, you don't know if the ID was malformed, the user was deleted, or the database timed out. `Result` makes that distinction explicit.
+> **2. Result (`Result<T, E>`) → "Recoverable Failure"**
+> *   **Use when:** A process fails and the caller *must* handle it (e.g., "User Not Found" or "Validation Failed").
+> *   **Control Flow:** Linear & Composable. You chain operations without `try/catch` blocks.
+> 
+> **3. Exception → "Panic / Abort"**
+> *   **Use when:** The environment is broken and you cannot recover (e.g., OutOfMemory, Bad Config).
+> *   **Control Flow:** **Jump.** It rips through the stack until caught.
 
 #### The Problem: The "Honesty" vs. "Clarity" Trade-off
 
 In traditional C#, we usually have to choose between code that is **clean but dishonest** (Exceptions) or **honest but noisy** (Guard Clauses).
 
 **Option A: The Exception Trap (Clean, but Dishonest)**
-This code is easy to read, but the signature lies. `DeactivateUser` claims to return `void`, but it might actually throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
+This code is easy to read, but the signature lies. `DeactivateUser` claims to return `void`, but it implies hidden "Jump" control flow—it might actually throw `FormatException`, `NullReferenceException`, or a custom `DomainException`.
 
 ```csharp
 // The signature hides the complexity.
 // To use this safely, the caller MUST wrap it in a try/catch.
 public void DeactivateUser(string inputId)
 {
-    // If parsing fails, the app blows up.
+    // If parsing fails, the app jumps (blows up).
     int id = int.Parse(inputId);
 
-    // If user is null, the app blows up later.
     var user = repo.Find(id);
 
     // This looks like logic, but it's implicitly controlling flow via exceptions.
@@ -48,7 +55,7 @@ public void DeactivateUser(string inputId)
 ```
 
 **Option B: The Defensive approach (Honest, but Noisy)**
-To avoid exceptions, we use "Guard Clauses." This is safer, but now 80% of our code is error checking, and the actual business value (deactivating the user) is buried at the bottom.
+To avoid exceptions, we use "Guard Clauses." This keeps control flow linear, but now 80% of our code is error checking, and the actual business value (deactivating the user) is buried at the bottom.
 
 ```csharp
 // Imperative: The "Happy Path" is fragmented by error checks.
@@ -58,7 +65,8 @@ public string DeactivateUser(string inputId)
         return "Invalid ID";
 
     var user = repo.Find(id);
-    if (user is null)
+    // Note: 'null' here is ambiguous. Did the DB timeout? Or is the user missing?
+    if (user is null) 
         return "User not found";
 
     if (!user.IsActive)
