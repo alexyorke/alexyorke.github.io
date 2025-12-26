@@ -196,17 +196,26 @@ public sealed class Result<TSuccess, TError>
 ```
 
 ### Handling the Final Outcome
-When a computation is finished, use `Match` to convert the internal `Result` into a format appropriate for the user (like an HTTP response, a console message, or a UI state).
+At the boundary, use Match to map your internal Result into a public-facing output (an HTTP response, a console message, or a UI state).
 
-> **Concept Check: What is the Boundary?**
-> The "Boundary" is the point where your application logic ends and the presentation layer begins.
-> *   **Web API:** The Controller or Endpoint.
-> *   **CLI:** The `Main` method or Console output.
-> *   **Desktop/Mobile:** An Event Handler or ViewModel.
+> **Concept Check: Core, Shell, and the Boundary**
+> In a “Functional Core, Imperative Shell” design, the **core** is pure, deterministic business logic over immutable data. The **shell** is the integration layer that performs I/O (HTTP, files, DB, UI) and coordinates the app’s runtime concerns.
 >
-> You should unwrap your `Result` at this edge. Inside the boundary, your code uses **Application Types** (`Result`, `User`) to ensure logic is followed. Outside the boundary, the world expects **Standardized Outputs** (JSON, Strings, Status Codes). `Match` acts as the translator between these two worlds.
+> The **boundary** is where you:
+>
+> 1. **Parse/refine** messy inputs into well-typed domain data (so the core doesn’t accept `unknown` / raw strings / half-valid shapes), then
+> 2. call the core to **produce a decision**, and finally
+> 3. **act** on that decision with side effects (persist, return a response, update UI).
+>
+> Examples of the shell in different hosts:
+>
+> * **Web API:** a controller parses the request, calls the core, and maps the decision to an HTTP response.
+> * **CLI:** `Main` parses args, calls the core, prints output, and sets an exit code.
+> * **Desktop/Mobile:** a ViewModel parses inputs/events, calls the core, and maps the decision into UI state.
+>
+> Keep dependencies flowing inward: the shell depends on the core, not the other way around. Unwrap `Result<TSuccess, TError>` at the boundary (e.g., with `Match`) and return types meant to be public—DTOs, `ProblemDetails`, strings, status codes, or UI state.
 
-Treat `Result<TSuccess, TError>` as an **internal coordination tool**. It is designed to preserve logic within your code, but it is not intended for serialization or public contracts.
+Keep Result on the inside. At the boundary, Match it into DTOs/status codes/UI state instead of returning it directly.
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
