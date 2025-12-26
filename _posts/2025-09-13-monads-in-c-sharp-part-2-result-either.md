@@ -17,7 +17,7 @@ It operates like `Maybe<T>` (or `Option<T>`), but the failure case carries a spe
 This changes error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s[^checked-exceptions] and verbose defensive checking, and also makes it clear if a method/function will fail.
 This shared pattern means you can use the same mental model—**chaining operations**—to solve completely different problems (collections, missing data, and now, error handling).
 
-#### The Problem: Explicitness vs. Readability
+#### The problem: explicit vs. readable
 
 In everyday C#, you tend to end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
@@ -90,7 +90,7 @@ At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, s
 
 Why Tuples aren't enough: Tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs. `Result` encapsulates the state, making invalid combinations unrepresentable.
 
-#### The Solution: The Control Flow Spectrum
+#### The solution: short-circuiting, as data
 
 `Result` models operation outcomes as values. Unlike Exceptions (which perform an "Unconstrained Jump" up the stack to an unknown handler), Result creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
@@ -123,7 +123,7 @@ string message = result.Match(
 
 > **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn Result into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then Result may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, result is only pass/fail.
 
-### Implementing Result
+### A tiny `Result` implementation
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
 
 This teaching version assumes you don’t call `Ok(null)` / `Fail(null)` for reference types.
@@ -205,7 +205,7 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-### Handling the Final Outcome
+### Unwrap at the boundary
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
 > Use `Match` at the boundary to convert an internal `Result` into `DTO`s/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
 
@@ -218,7 +218,7 @@ string output = result.Match(
 );
 ```
 
-#### Why Serialization Breaks the Pattern
+#### Why you shouldn’t serialize `Result`
 Don’t serialize `Result` directly.[^no-serialize] It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
 
 > **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
@@ -236,21 +236,21 @@ Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`
 
 That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
 
-### Key Benefits
+### Why bother?
 What do you get for returning `Result` instead of throwing or using "magic values"?
 *   **Explicit Signatures:** `Result<User, Error>` tells you up front that failure is on the table.
 *   **Fewer ad-hoc conventions:** No `-1`, no `null`, no “special string means error.”
 *   **Testability:** Tests can assert the outcome *and* the specific error (`Code`, type, message) without exception scaffolding.
 
-### Scope & Limitations
+### Where `Result` fits (and where it doesn’t)
 `Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.[^always-valid]
 
 1.  **Infrastructure:** For technical failures (DB/network outages, timeouts, unexpected I/O errors), exceptions handled at the boundary (middleware/logging/global handlers) are often a good fit.
 2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
 3.  **Accumulation:** `Bind` stops at the first `Error`. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
 
-### Putting it together: Unwrap at the boundary
-#### Example: Deactivating a user
+### Putting it together
+#### Example: deactivate a user
 We want to deactivate a user given an `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
 
 We'll use the same `Error` payload from earlier (this is **not** part of `Result` itself).
@@ -311,7 +311,7 @@ public sealed class UserService
 
 The idea: compute a `Result<User, Error>` in your internal workflow. Notice that the explicit `if` checks and guard clauses from the "Problem" examples have disappeared—they are now handled automatically inside `Bind`. We then unwrap the result once at the boundary in `HandleDeactivateRequest`.
 
-### The Async Reality (Async composition friction)
+### Async: the `Task<Result<...>>` wrinkle
 
 In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`). This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
@@ -319,7 +319,7 @@ Think of `await` as C#'s built-in "Do Notation" for the Task Monad. Just as `Bin
 
 The friction happens when you stack them. If you try to mix the `Task` monad (`await`ing) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
-### How to fix it (Async Extensions)
+### Async: keep the pipeline readable
 If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async extensions** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
 
 > **Aside:** The library authors have already stepped on the rakes here so you don’t have to.
@@ -346,7 +346,7 @@ public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
         .Bind(DeactivateDecisionAsync);
 ```
 
-### Wrap-up
+### Recap
 
 `Result` keeps “expected failure” in-band, as data.
 
