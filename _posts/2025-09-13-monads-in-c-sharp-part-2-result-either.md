@@ -17,7 +17,7 @@ This post applies the same pattern to failures with `Result<TSuccess, TError>`: 
 This post is a lot shorter than part 1, since most of the groundwork was laid in part 1.
 
 ### TL;DR
-What it looks like:
+What it looks like (Error record is not part of Result):
 
 ```csharp
 public record Error(string Code, string Message);
@@ -162,6 +162,17 @@ If you find `Bind(FindUser)` hard to read, expand the method group into a lambda
 ### A tiny `Result` implementation
 Teaching implementation (don’t ship it; use a library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
 Assumes you don’t call `Ok(null)` / `Fail(null)` and uses `default` for the unused slot.
+
+#### Where is the “Unit” / “Return” / “Pure” method?
+In monad terms, **Unit** (also called **Return** or **Pure**) is “take a raw value and wrap it in the container.”
+
+For this `Result`, that’s `Ok(...)`:
+
+```csharp
+Result<int, Error> ok = Result<int, Error>.Ok(123);
+```
+
+`Fail(...)` is the other constructor, but it’s not “Unit” — it injects an error value instead of a success value.
 
 ```csharp
 public sealed class Result<TSuccess, TError>
