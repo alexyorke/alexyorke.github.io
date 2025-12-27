@@ -84,6 +84,8 @@ public void DeactivateUser(string inputId)
 
 In small snippets, throw sites are obvious. In larger services, exceptions can come from anywhere (parsing, mapping, I/O, nulls), so composition pushes you toward try/catch scaffolding, either scattered around each step or wrapped around large blocks.
 
+**The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong. It's also just a lot of boilerplate/noise. Miss one throw or null check and the pipeline keeps running on invalid state or could throw a NullReferenceException. And in large libraries it’s often unclear what can throw or be invalid, so you end up defensively catching/checking.
+
 **The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
 
 A single big try/catch reduces noise, but it catches too broadly or loses step-specific failure reasons.
