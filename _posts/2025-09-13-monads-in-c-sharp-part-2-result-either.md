@@ -14,7 +14,7 @@ The `Result` monad sequences computations that could fail. Each step either prod
 
 It’s like `Maybe<T>`/`Option<T>` for composition, except `Maybe` models absence while `Result` models failure with an error value.
 
-That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered throws[^checked-exceptions] and defensive checks.
+That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered `throw`s[^checked-exceptions] and defensive checks.
 
 Same mental model, different problems: collections, missing data (`Maybe`), and now error handling.
 
@@ -124,7 +124,7 @@ However, tuples lack invariants. You can accidentally create a tuple with `Succe
 
 #### The solution: short-circuiting, as data
 
-`Result` models operation outcomes as values. Unlike Exceptions (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
+`Result` models operation outcomes as values. Unlike `exceptions` (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
 Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.
 `int.TryParse` returns `bool` and uses `out int result`. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
@@ -390,7 +390,7 @@ You now have three Monads in your toolkit: `List` (multiple values), `Maybe` (op
 [^rop]: Scott Wlaschin, [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/).
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 [^no-serialize]: FluentResults Wiki, [Returning Result Objects from ASP.NET Core Controller](https://github.com/altmann/FluentResults/wiki/Returning-Result-Objects-from-ASP.NET-Core-Controller).
-[^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. Exceptions “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
+[^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. `Exceptions` “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
 [^serializer-aside]: A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 [^either-bias]: Most `Either`/`Result` APIs are right-/success-biased: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 [^async-pseudocode]: The snippet below assumes a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.[^either-bias]
