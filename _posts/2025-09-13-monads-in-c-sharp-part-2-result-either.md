@@ -209,6 +209,8 @@ public sealed class Result<TSuccess, TError>
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
 > Use `Match` at the boundary to convert an internal `Result` into `DTO`s/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
 
+> **The large loophole:** C# allows you to ignore return values, so a `Result` can be accidentally discarded and failures become silent. In the exception model, the runtime “forces” you to handle errors (by crashing); in the `Result` model, you usually want the *compiler* to force you to handle them. Use Roslyn analyzers to warn/error on unused `Result` values (e.g., `CSharpFunctionalExtensions.Analyzers` or a “must-use return value” analyzer like `MustUseReturnValue`). The thing is, it's not **as bad** as you think, since, technically, one could add language support to make this a compile time error. This is the issue with trying to shoe-horn functional paradigms into other languages that were not built for them.
+
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
 
