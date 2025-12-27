@@ -12,7 +12,7 @@ In **Part 1**, we used `List<T>` to contrast `Map` (LINQ `Select`) vs `Bind` (LI
 
 The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an `Error`, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
 
-It’s structurally like `Maybe<T>`/`Option<T>` for composition (they're both monads), except `Maybe` models absence while `Result` models failure with an error value. 
+It’s structurally like `Maybe<T>`/`Option<T>` for composition (they're both monads), except `Maybe` models absence while `Result` models failure with an error value.
 
 That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered `throw`s[^checked-exceptions] and defensive checks.
 
@@ -114,7 +114,7 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 > **Note:** In the two “Problem” snippets above, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In the “Putting it together” section below, we’ll switch to an **immutable** `record` and use `with` so the domain step (`DeactivateDecision`) stays side-effect free and deterministic. Either approach works—what matters is being consistent in your own codebase.
 
-At this point you might reach for Tuples (e.g., `(bool Success, User? User, string Error)`).
+At this point you might reach for `tuples` (e.g., `(bool Success, User? User, string Error)`).
 
 However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing `NullReferenceException`s.
 
@@ -124,7 +124,7 @@ But hold on, couldn't I just make an abstract class called `OperationStatus`, cr
 
 #### The solution: short-circuiting, as data
 
-`Result` models operation outcomes as values. Unlike `exceptions` (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
+`Result` models operation outcomes as values. Unlike `exceptions` (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a linear flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
 Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.
 `int.TryParse` returns `bool` and uses `out int result`. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
@@ -346,7 +346,7 @@ The idea: compute a `Result<User, Error>` in your internal workflow. Notice that
 
 In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`). This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
-Think of `await` as C#'s built-in "Do Notation" for the Task Monad. Just as `Bind` unwraps the `Result` to get to the value, `await` unwraps the `Task` to get to the value.[^task-monad]
+Think of `await` as C#'s built-in "Do Notation" for the `Task` monad. Just as `Bind` unwraps the `Result` to get to the value, `await` unwraps the `Task` to get to the value.[^task-monad]
 
 The friction happens when you stack them. If you try to mix the `Task` monad (`await`ing) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
@@ -376,11 +376,11 @@ public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
 
 `Result` keeps “expected failure” in-band, as data.
 
-1.  **Chain** with `Map`/`Bind` (the universal Monad pattern).
+1.  **Chain** with `Map`/`Bind` (the universal monad pattern).
 2.  **Handle** `Task<Result<...>>` using async extensions to fuse the effects.
 3.  **Decide** once at the edge with `Match`.
 
-You now have three Monads in your toolkit: `List` (multiple values), `Maybe` (optional values), and `Result` (possible failure). They all share the same interface (`Bind`/`SelectMany`), allowing you to solve complex flow problems with simple blocks.
+You now have three monads in your toolkit: `List` (multiple values), `Maybe` (optional values), and `Result` (possible failure). They all share the same interface (`Bind`/`SelectMany`), allowing you to solve complex flow problems with simple blocks.
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
@@ -390,9 +390,9 @@ You now have three Monads in your toolkit: `List` (multiple values), `Maybe` (op
 [^rop]: Scott Wlaschin, [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/).
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 [^no-serialize]: FluentResults Wiki, [Returning Result Objects from ASP.NET Core Controller](https://github.com/altmann/FluentResults/wiki/Returning-Result-Objects-from-ASP.NET-Core-Controller).
-[^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. `Exceptions` “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
+[^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. `exceptions` “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
 [^serializer-aside]: A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 [^either-bias]: Most `Either`/`Result` APIs are right-/success-biased: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 [^async-pseudocode]: The snippet below assumes a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.[^either-bias]
 [^rakes]: The library authors have already stepped on the rakes here so you don’t have to.
-[^task-monad]: `Task<T>` **is** a Monad (specifically the "Promise" or "Future" Monad). It manages the "latency" and "concurrency" effects. While it has side effects (scheduling/timing), it follows the exact same structural laws as `Result` or `List`. See Stephen Toub, [Tasks, Monads, and LINQ](https://devblogs.microsoft.com/pfxteam/tasks-monads-and-linq/).
+[^task-monad]: `Task<T>` **is** a monad (specifically the "Promise" or "Future" monad). It manages the "latency" and "concurrency" effects. While it has side effects (scheduling/timing), it follows the exact same structural laws as `Result` or `List`. See Stephen Toub, [Tasks, Monads, and LINQ](https://devblogs.microsoft.com/pfxteam/tasks-monads-and-linq/).
