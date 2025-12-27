@@ -16,10 +16,8 @@ This post uses Result<TSuccess, TError> to model failure with an error value. Yo
 
 If you're coming from FP, this is _essentially_ a right-biased `Either<TError, TSuccess>`: `TError` is the failure branch and `TSuccess` is the success branch, by convention.
 
-This post is a lot shorter than part 1, since most of the groundwork was laid in part 1.
-
 ### TL;DR
-What it looks like (`Error` record is not part of `Result`):
+What it looks like (this specific `Error` record is not part of the `Result` monad, you can use something else if you want):
 
 ```csharp
 public record Error(string Code, string Message);
@@ -118,7 +116,7 @@ public void DeactivateUser(string inputId)
 
 In small code snippets like this one, throw sites are obvious. In larger apps, `exceptions` can originate far from where you want context, so you either rely on boundary handlers or add some local `try/catch` for context/recovery.
 
-**In this procedural code, the main point is that you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure. It’s easy to repeat, noisy, boilerplate-y, and easy to get wrong.**
+**In this procedural code, the main point is that you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping all next steps on failure (if applicable). It’s easy to repeat, noisy, boilerplate-y, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 To reserve `exceptions` for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy. Basically defensive coding.
@@ -167,19 +165,19 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 > **Note:** `User` is **mutable** here to keep focus on `Result`. Prefer immutability in real domain code.[^immutability]
 
-This doesn't carry a success payload (only a status), so, at this point you might reach for `tuples` (e.g., `(bool Success, User? User, string Error)`).
+This enum doesn’t carry a *success payload* (only a status), so at this point you might reach for a tuple like `(bool Success, User? User, string Error)`.
 
-However, `tuples` lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and later dereference a `null` `User`, causing `NullReferenceException`s.
+The problem is: tuples don’t enforce invariants. Nothing stops you from creating `Success = true` **and** `Error = "Failed"`. Or from ignoring `Success` and later dereferencing a `null` `User` and then ka-blam-oh. And since you’re building the tuple by hand, you’re responsible for keeping all those fields consistent every time.
 
-`Result` makes invalid combinations unrepresentable, because there is only `Result.Ok(...)` or `Result.Fail(...)`. It succeeded, or it didn't, just a single return value.
+So you think: fine, don’t let people construct arbitrary combinations. Make a small “status” type with a private constructor and two factories: `Success(...)` and `Failure(...)`. Maybe you even model it as `OperationSuccess` / `OperationFailure` inheriting from an abstract `OperationStatus`, so invalid states aren’t representable.
 
-#### The solution: short-circuiting, as data
+That works, sure, your methods return an OperationStatus which can be either an OperationSuccess or an OperationFailure, and there's this factory that makes it so that you can only create one or the other in a valid state. But you still need to handle the status, i.e., check if it's a failure or a success from the return value in your program. You could add a method to the class that accepts an OperationStatus and then, runs different code paths depending on the content of OperationStatus... (!)
 
-Aside: You could model this with `OperationSuccess` / `OperationFailure` classes that inherit from an abstract class `OperationStatus`, but `Result` gives standardized composition (`Map`/`Bind`). To combine with other effects you usually nest (e.g., `Task<Result<...>>`) and use dedicated helpers (or transformers in FP-heavy ecosystems).
+That’s what `Result` buys you: a single return value that’s either `Ok(...)` or `Fail(...)`, plus standardized composition (`Map`/`Bind`). And when you need to combine it with other effects, you usually nest (e.g., `Task<Result<...>>`) and use dedicated helpers.
 
-`Result` returns failure as data, not an `exception` jump. Expected failures stay on the return path (as long as your steps return `Result` rather than throwing); unexpected `exceptions` still escape.
+#### The solution: the Result monad
 
-Think of `Result` as a composable `TryParse`-style result.[^out-var] Instead of `bool` + `out`, return `Result<int, Error>` and chain. This teaching version does not automatically catch `exceptions`.
+`Result` returns failure as data, not an `exception` jump. Expected failures stay on the return path (as long as your steps return `Result` rather than throwing); unexpected `exceptions` still escape. This teaching version does not automatically catch `exceptions`.
 
 Now each step either produces the next value or stops with an `Error`.
 
