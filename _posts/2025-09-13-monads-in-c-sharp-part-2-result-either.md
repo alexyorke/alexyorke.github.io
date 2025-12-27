@@ -10,9 +10,13 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1**, we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) and built `Maybe<T>` for optional pipelines.
 
+The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an `Error`, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
+
 This post applies the same pattern to failures with `Result<TSuccess, TError>`: like `Maybe`, but with an error value; it short-circuits until `Match`, keeping failures explicit and flow linear.[^checked-exceptions]
 
-### Quick preview: the end goal
+This post is a lot shorter than part 1, since most of the groundwork was laid in part 1.
+
+### TL;DR
 What it looks like:
 
 ```csharp
@@ -93,10 +97,10 @@ public void DeactivateUser(string inputId)
 
 In small snippets, throw sites are obvious. In larger apps, exceptions can come from anywhere, pushing you toward `try/catch` scaffolding.
 
-**You’re responsible for `null` checks, catching, and stopping the pipeline on failure—easy to repeat and easy to get wrong.**
+**The main point here is, you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure—easy to repeat, noisy, boilerplate-y, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
-To reserve exceptions for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy.
+To reserve exceptions for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy. Basically defensive coding.
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -134,7 +138,7 @@ However, tuples lack invariants. You can accidentally create a tuple with `Succe
 
 #### The solution: short-circuiting, as data
 
-You could model this with `OperationSuccess` / `OperationFailure` types; `Result` adds standardized composition (`Map`/`Bind`).
+Aside: You could model this with `OperationSuccess` / `OperationFailure` classes that inherit from an abstract class `OperationStatus`, but `Result` adds standardized composition (`Map`/`Bind`) and composes with other monads. It's also about control flow.
 
 `Result` returns failure as data, not an exception jump. Errors stay on the return path and short-circuit deterministically.
 
@@ -175,7 +179,6 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
-    // OK: wrap value
     public static Result<TSuccess, TError> Ok(TSuccess value)
     {
         return new Result<TSuccess, TError>(
@@ -192,7 +195,6 @@ public sealed class Result<TSuccess, TError>
             false);
     }
 
-    // MAP
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         if (IsSuccess)
@@ -203,7 +205,6 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error!);
     }
 
-    // BIND
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         if (IsSuccess)
@@ -214,7 +215,6 @@ public sealed class Result<TSuccess, TError>
         return Result<U, TError>.Fail(_error!);
     }
 
-    // MATCH
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
         if (IsSuccess)
@@ -272,7 +272,7 @@ Why return `Result` instead of throwing or using magic values?
 *   **Testability:** Tests can assert the outcome *and* the specific error (`Code`, type, message) without exception scaffolding.
 
 ### Where `Result` fits (and where it doesn’t)
-Rule of thumb: use `T?` for “missing data”; use `Result<TSuccess, TError>` for “this operation can fail with a reason.”
+Rule of thumb: use `T?` for “missing data” (nullability operator); use `Result<TSuccess, TError>` for “this operation can fail with a reason.”
 
 `Result` fits **domain logic** (expected failures you handle). It doesn’t replace exceptions.[^always-valid]
 
