@@ -49,7 +49,7 @@ This can look “magical” if you’re used to procedural code with `var id = .
 Typically, when you need to handle operations that can fail, you end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
-Typically, the method signature doesn't tell you what can go wrong, e.g., if an exception could be thrown.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
+Typically, the method signature doesn't tell you what can go wrong.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw while parsing/loading, or later via `null`s and business rules.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -104,9 +104,9 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In these small snippets, throw sites are obvious. In larger apps, exceptions can come from anywhere (parsing, mapping, `I/O`, `null`s), so composition pushes you toward `try/catch` scaffolding, either scattered around each step or wrapped around large blocks.
+In small snippets, throw sites are obvious. In larger apps, exceptions can come from anywhere, pushing you toward `try/catch` scaffolding.
 
-**The point is, you are responsible for writing these `null` checks, handling exceptions, declaring `User` outside of the `try/catch` so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
+**You’re responsible for `null` checks, catching, and stopping the pipeline on failure—easy to repeat and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
@@ -150,7 +150,7 @@ However, tuples lack invariants. You can accidentally create a tuple with `Succe
 
 #### The solution: short-circuiting, as data
 
-But hold on, couldn't I just make an abstract class called `OperationStatus`, creating two classes that inherit from it, `OperationSuccess` and `OperationFailure`? You can, and this would make the invalid combination unrepresentable. The point isn't _just_ making the invalid combination unrepresentable, it's about composition, too. It's the whole pipeline, it's the ability to compose multiple monads together that don't need to know about each other.
+Could you model this as an `OperationStatus` base type with `OperationSuccess` / `OperationFailure` subclasses? Sure—that makes invalid combinations unrepresentable. `Result` is still useful because it standardizes composition (`Map`/`Bind`) across the whole pipeline.
 
 `Result` models operation outcomes as values. Unlike `exceptions` (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a linear flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
@@ -159,24 +159,16 @@ Think of `Result` as the "Composable" version of the standard C# `Try...` patter
 
 Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an `Error`.
 
-We'll keep using the same simple custom error payload from the quick preview (this is **not** part of `Result` itself):
+We’ll keep using the same `Error` payload from the quick preview.
+
+If you prefer LINQ query syntax, the same pipeline can be written as:
 
 ```csharp
-// The method signature remains `Result<User, Error>` regardless of new failure modes.
-public record Error(string Code, string Message);
-```
-
-```csharp
-string inputId = inputIdFromRequest;
 Result<User, Error> result =
-    ParseId(inputId)
-        .Bind(FindUser)
-        .Bind(DeactivateDecision);
-
-// Note: we'll handle the side-effect (`Save`) at the boundary using `Match` below.
-string message = result.Match(
-    ok:  _ => "User deactivated",
-    err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+    from id in ParseId(inputId)
+    from user in FindUser(id)
+    from deactivated in DeactivateDecision(user)
+    select deactivated;
 ```
 
 If you find `Bind(FindUser)` hard to read, expand the method group into a lambda so you can “see the variable”:
@@ -268,7 +260,8 @@ If you accidentally `Map` a function that already returns a `Result`, you’ll g
 Rule of thumb: **if the function you’re passing already returns a `Result`, reach for `Bind`**. Otherwise, use `Map`.
 
 ### Unwrap at the boundary
-> **Boundary:** validate inputs, run domain logic, then `Match` into a public output (`DTO`s/status/`ProblemDetails`). Don’t serialize `Result` directly.
+> **Boundary:** validate inputs, run domain logic, then `Match` into a public output (`DTO`s/status/`ProblemDetails`).
+> Don’t ignore returned `Result` values—use analyzers to enforce this.[^unused-result]
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
@@ -280,6 +273,20 @@ string output = result.Match(
 ```
 
 #### Why you shouldn’t serialize `Result`
+Don’t serialize `Result` directly. It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
+
+Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`) as public properties. A generic serializer will happily turn that internal shape into your public API—it just sees public properties and emits them (often with a camelCase naming policy), e.g.:
+
+```json
+{
+  "isSuccess": true,
+  "isFailure": false,
+  "error": null,
+  "value": { "id": 123, "isActive": false }
+}
+```
+
+Yikes. That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
 Don’t serialize `Result`. It’s an internal wrapper; `Match` it into a `DTO`/status/`ProblemDetails` instead.
 
 ### Why bother?
@@ -406,3 +413,4 @@ You now have three monads in your toolkit: `List` (multiple values), `Maybe` (op
 [^immutability]: Mutating domain objects makes pipelines harder to reason about and test. Prefer immutable `record`s (and returning a new value) where you can; this post sticks to mutation to keep the focus on `Result` composition.
 [^out-var]: C# supports inline `out` variable declarations (C# 7): e.g., `if (int.TryParse(input, out var id)) { ... }`. This makes a single `Try...` step fairly composable inside an `if`, but it doesn’t scale to multi-step pipelines the way `Result` + `Bind` does.
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
+[^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. `exceptions` “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
