@@ -10,11 +10,11 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>` and then built `Maybe<T>` for optional pipelines.
 
-The `Result` monad sequences and composes computations that could fail. In practice, you return either `Result.Ok(value)` or `Result.Fail(error)`, and then you compose them with `Bind` by short-circuiting on the first failure until you handle it. Use it when you want failures (and their reasons) to be explicit in the type. If you need to return multiple errors, e.g., validating a form, or there are multiple statuses that don't fit neatly into success/failure, then the `Result` monad might not be a good fit. We'll go into some other monads that might be more appropriate for that later in the series.
+The Result monad lets you sequence and compose computations that can fail. Your methods return either Result.Ok(value) or Result.Fail(error), and you compose them with Bind by short-circuiting on the first failure. Use it when you want the possibility of failure—and the error value—to be explicit in the return type. If you need to accumulate multiple errors (for example, form validation) or you have more than two meaningful outcomes, a Result is not a great fit. You _can_ model “many errors” as Result<T, List<TError>>, but you then have to define the aggregation rules yourself.
 
-This post applies the same pattern to failures with `Result<TSuccess, TError>`: like `Maybe`, but with an error value; by convention, keep results unwrapped until the boundary and handle them with `Match` once, which keeps the happy path linear.[^checked-exceptions]
+This post uses Result<TSuccess, TError> to model failure with an error value. You can think of it as Maybe<T>, except the “no value” case carries why it’s missing. Keep results unwrapped until the boundary, then handle them with Match once to keep the happy path linear.[^checked-exceptions]
 
-If you're coming from FP, this is essentially a right-biased `Either<TError, TSuccess>`: `TError` is the failure branch and `TSuccess` is the success branch, by convention.
+If you're coming from FP, this is _essentially_ a right-biased `Either<TError, TSuccess>`: `TError` is the failure branch and `TSuccess` is the success branch, by convention.
 
 This post is a lot shorter than part 1, since most of the groundwork was laid in part 1.
 
@@ -23,17 +23,6 @@ What it looks like (`Error` record is not part of `Result`):
 
 ```csharp
 public record Error(string Code, string Message);
-
-string inputId = inputIdFromRequest;
-Result<User, Error> result =          // Result<User, Error>
-    ParseId(inputId)                  // Result<int, Error>, first in chain, always runs
-        .Bind(FindUser)               // Result<User, Error>, FindUser only runs if ParseId succeeded
-        .Bind(DeactivateDecision);    // Result<User, Error>, DeactivateDecision only runs if FindUser succeeded
-
-// Unwrap once at the boundary:
-string message = result.Match(
-    ok:  _ => "User deactivated",
-    err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 
 // Creating results:
 Result<User, Error> okUser = Result<User, Error>.Ok(user);
@@ -47,6 +36,16 @@ Result<User, Error> FindUserOrFail(IUserRepo repo, int id)
         ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
         : Result<User, Error>.Ok(user);
 }
+
+Result<User, Error> result =          // Result<User, Error>
+    ParseId(inputIdFromRequest)                  // Result<int, Error>, first in chain, always runs
+        .Bind(FindUser)               // Result<User, Error>, FindUser only runs if ParseId succeeded
+        .Bind(DeactivateDecision);    // Result<User, Error>, DeactivateDecision only runs if FindUser succeeded
+
+// Unwrap once at the boundary:
+string message = result.Match(
+    ok:  _ => "User deactivated",
+    err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
 Missing the intermediate `var`s? Here are the types:
@@ -63,7 +62,7 @@ Missing the intermediate `var`s? Here are the types:
 In C#, fallible work usually becomes either **implicit control flow** (`exceptions`) or **explicit checks** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
-Signatures rarely show failure.[^checked-exceptions] `DeactivateUser` returns `void`, but it can throw while parsing/loading, or later via `null` dereferences and business rules.
+Signatures might not show failure.[^checked-exceptions] `DeactivateUser` returns `void`, but it can throw while parsing/loading, or later via `null` dereferences and business rules.
 
 ```csharp
 // The implicit "User" entity used in the examples below
