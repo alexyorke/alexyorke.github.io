@@ -10,9 +10,9 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1**, we used `List<T>` to contrast `Map` (LINQ `Select`) vs `Bind` (LINQ `SelectMany`/`FlatMap`), and built `Maybe<T>` to chain optional steps.
 
-The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an error, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
+The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an `Error`, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
 
-It’s like Maybe<T>/Option<T> for composition, except Maybe models absence while Result models failure with an error value.
+It’s like `Maybe<T>`/`Option<T>` for composition, except `Maybe` models absence while `Result` models failure with an error value.
 
 That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered throws[^checked-exceptions] and defensive checks.
 
@@ -78,9 +78,9 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In small snippets, throw sites are obvious. In larger services, exceptions can come from anywhere (parsing, mapping, I/O, nulls), so composition pushes you toward try/catch scaffolding, either scattered around each step or wrapped around large blocks.
+In small snippets, throw sites are obvious. In larger services, exceptions can come from anywhere (parsing, mapping, `I/O`, `null`s), so composition pushes you toward `try/catch` scaffolding, either scattered around each step or wrapped around large blocks.
 
-**The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
+**The point is, you are responsible for writing these `null` checks, handling exceptions, declaring `User` outside of the `try/catch` so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
@@ -118,13 +118,13 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, string Error)`).
 
-However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs.
+However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing `NullReferenceException`s.
 
 `Result` encapsulates the state, making invalid combinations unrepresentable.
 
 #### The solution: short-circuiting, as data
 
-`Result` models operation outcomes as values. Unlike Exceptions (which perform an "Unconstrained Jump" up the stack to an unknown handler), Result creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
+`Result` models operation outcomes as values. Unlike Exceptions (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
 Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.
 `int.TryParse` returns `bool` and uses `out int result`. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
@@ -153,7 +153,7 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn Result into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then Result may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, result is only pass/fail, and might be non-idiomatic to use Result in this case.
+> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn `Result` into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then `Result` may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, `Result` is only pass/fail, and might be non-idiomatic to use `Result` in this case.
 
 ### A tiny `Result` implementation
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
