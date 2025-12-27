@@ -240,8 +240,7 @@ public sealed class Result<TSuccess, TError>
 ### Unwrap at the boundary
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
 > Use `Match` at the boundary to convert an internal `Result` into `DTO`s/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
-
-> **Important!** C# lets you ignore return values, so a `Result` can be silently dropped. Exceptions force handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s, ideally turning “oops” into a compile-time error instead of a runtime crash. This is mostly language friction, not a flaw in the pattern.
+> Don’t ignore returned `Result` values—use analyzers to enforce this.[^unused-result]
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
@@ -253,9 +252,7 @@ string output = result.Match(
 ```
 
 #### Why you shouldn’t serialize `Result`
-Don’t serialize `Result` directly.[^no-serialize] It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
-
-> **Aside:** A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
+Don’t serialize `Result` directly.[^no-serialize][^serializer-aside] It leaks internal representation into your public contract. `Match` it into `DTO`s/status codes/`ProblemDetails` instead.
 
 Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`) as public properties. A generic serializer will happily turn that internal shape into your public API—it just sees public properties and emits them (often with a camelCase naming policy), e.g.:
 
@@ -355,8 +352,7 @@ The friction happens when you stack them. If you try to mix the `Task` monad (`a
 
 ### Async: keep the pipeline readable
 If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async extensions** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
-
-> **Aside:** The library authors have already stepped on the rakes here so you don’t have to.
+[^rakes]
 
 - **[CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions)**: Closest to the code in this post.
 - **[LanguageExt](https://github.com/louthy/language-ext)**: A comprehensive library enforcing strict functional patterns.
@@ -394,6 +390,9 @@ You now have three Monads in your toolkit: `List` (multiple values), `Maybe` (op
 [^rop]: Scott Wlaschin, [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/).
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 [^no-serialize]: FluentResults Wiki, [Returning Result Objects from ASP.NET Core Controller](https://github.com/altmann/FluentResults/wiki/Returning-Result-Objects-from-ASP.NET-Core-Controller).
+[^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. Exceptions “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
+[^serializer-aside]: A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 [^either-bias]: Most `Either`/`Result` APIs are right-/success-biased: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 [^async-pseudocode]: The snippet below assumes a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.[^either-bias]
+[^rakes]: The library authors have already stepped on the rakes here so you don’t have to.
 [^task-monad]: `Task<T>` **is** a Monad (specifically the "Promise" or "Future" Monad). It manages the "latency" and "concurrency" effects. While it has side effects (scheduling/timing), it follows the exact same structural laws as `Result` or `List`. See Stephen Toub, [Tasks, Monads, and LINQ](https://devblogs.microsoft.com/pfxteam/tasks-monads-and-linq/).
