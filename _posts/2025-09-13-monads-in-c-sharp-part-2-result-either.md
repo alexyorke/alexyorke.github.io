@@ -16,6 +16,36 @@ It’s structurally like `Maybe<T>`/`Option<T>` for composition (they're both mo
 
 That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered `throw`s[^checked-exceptions] and defensive checks.
 
+### Quick preview: the end goal
+Before we get into the "why", here’s what using `Result` looks like in practice:
+
+```csharp
+// A simple custom error payload used in this post (this is **not** part of `Result` itself):
+public record Error(string Code, string Message);
+
+string inputId = inputIdFromRequest;
+Result<User, Error> result =
+    ParseId(inputId)
+        .Bind(FindUser)
+        .Bind(DeactivateDecision);
+
+// Unwrap once at the boundary:
+string message = result.Match(
+    ok:  _ => "User deactivated",
+    err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+```
+
+This can look “magical” if you’re used to procedural code with `var id = ...; var user = ...;`, so here’s the type story:
+
+- `ParseId : string -> Result<int, Error>`
+- `FindUser : int -> Result<User, Error>`
+- `DeactivateDecision : User -> Result<User, Error>`
+- `Bind : Result<T, Error> -> (T -> Result<U, Error>) -> Result<U, Error>`
+
+`Bind(FindUser)` is just C# method-group shorthand for `Bind(id => FindUser(id))` — the `int` inside the successful `Result` becomes the input to `FindUser`. If `ParseId` failed, `Bind` never calls `FindUser`; it just forwards the `Error`.
+
+We’ll build a tiny `Result` implementation and then come back to this example.
+
 #### The problem: explicit vs. implicit
 
 Typically, when you need to handle operations that can fail, you end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
@@ -131,7 +161,7 @@ Think of `Result` as the "Composable" version of the standard C# `Try...` patter
 
 Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an `Error`.
 
-We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
+We'll keep using the same simple custom error payload from the quick preview (this is **not** part of `Result` itself):
 
 ```csharp
 // The method signature remains `Result<User, Error>` regardless of new failure modes.
@@ -150,6 +180,9 @@ string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
+
+If you find `Bind(FindUser)` hard to read, expand the method group into a lambda so you can “see the variable”:
+`ParseId(inputId).Bind(id => FindUser(id))`.
 
 ### A tiny `Result` implementation
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
@@ -232,6 +265,29 @@ public sealed class Result<TSuccess, TError>
     }
 }
 ```
+
+#### `Map` vs `Bind`: a quick cheat sheet
+Both `Map` and `Bind` run a function **only on success** and propagate failures unchanged.
+The only difference is what your function returns:
+
+- Use `Map` for `TSuccess -> U`
+- Use `Bind` for `TSuccess -> Result<U, TError>`
+
+If you accidentally `Map` a function that already returns a `Result`, you’ll get a nested container (`Result<Result<...>>`). `Bind` is the flattening map that avoids that:
+
+```csharp
+Result<int, Error> okId = Result<int, Error>.Ok(123);
+
+// Plain transformation: int -> string
+Result<string, Error> asString = okId.Map(id => id.ToString());
+
+// Returning another Result: int -> Result<User, Error>
+// Assume: FindUser : int -> Result<User, Error>
+Result<Result<User, Error>, Error> nested = okId.Map(FindUser); // nested Result<Result<...>>
+Result<User, Error> flat = okId.Bind(FindUser);                // flattened
+```
+
+Rule of thumb: **if the function you’re passing already returns a `Result`, reach for `Bind`**. Otherwise, use `Map`.
 
 ### Unwrap at the boundary
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
@@ -347,6 +403,13 @@ public sealed class UserService
 
 The idea: compute a `Result<User, Error>` in your internal workflow. Notice that the explicit `if` checks and guard clauses from the "Problem" examples have disappeared—they are now handled automatically inside `Bind`. We then unwrap the result once at the boundary in `HandleDeactivateRequest`.
 
+A few pragmatic notes:
+
+- **Where did the variables go?** `Bind(FindUser)` is the same as `Bind(id => FindUser(id))`. Method-group syntax hides the variable name, but the value still flows step-by-step.
+- **Does this require immutability?** No. `Result` is about making failure explicit and composable. This example mutates `user.IsActive` to keep focus on the mechanics; in real domain code, prefer returning a new immutable value where you can.[^immutability]
+
+#### Why is `_repo.Save(user)` inside `Match`?
+`Save` is a side effect and often fails via exceptions (DB/network outages, timeouts). In this post we keep those **infrastructure failures** as exceptions handled at the boundary (middleware/global handlers), and we use `Result` for **expected domain failures** (invalid ID, not found, already inactive). See “Where `Result` fits” above.
 ### Async: the `Task<Result<...>>` nesting weirdness
 
 In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`). This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
@@ -356,7 +419,7 @@ Think of `await` as C#'s built-in "do notation" for the `Task` monad. Just as `B
 The friction happens when you stack them. If you try to mix the `Task` monad (`await`ing) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
 ### Async: keep the pipeline readable
-If you need async + `Result` composition, don’t hand-roll helpers. Use a library that provides **async extensions** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
+If you need async + `Result` composition in production, use a library that provides **async extensions** (often `Bind`/`Map` overloads for `Task<Result<...>>`; some libraries also expose `BindAsync`/`MapAsync`):
 [^rakes]
 
 - **[CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions)**: Closest to the code in this post.
@@ -364,6 +427,11 @@ If you need async + `Result` composition, don’t hand-roll helpers. Use a libra
 - **[FluentResults](https://github.com/altmann/FluentResults)**: Object-oriented features.
 
 With a library, the async pipeline stays linear.[^async-pseudocode]
+
+It’s worth making this explicit: that `.Bind` is **not** built into `Task` or `await`. It’s usually an extension method on `Task<Result<...>>` that does “`await` the task, then `Match`/`Bind` the result”.
+
+
+That’s also why the tiny `Result` implementation earlier didn’t magically make async composition work — you need *additional* combinators for `Task<Result<...>>`. Libraries provide a whole set of these (and handle edge cases), but the core idea is just `await` + `Match`.
 
 Assume we have a method `ParseIdAsync(string input)` that returns `Task<Result<int, Error>>` and `FindUserAsync(int id)` that returns `Task<Result<User, Error>>`.
 
