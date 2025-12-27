@@ -126,7 +126,7 @@ But hold on, couldn't I just make an abstract class called `OperationStatus`, cr
 
 `Result` models operation outcomes as values. Unlike `exceptions` (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a linear flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
-Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.
+Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.[^out-var]
 `int.TryParse` returns `bool` and uses `out int result`. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
 
 Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
@@ -386,6 +386,7 @@ You now have three monads in your toolkit: `List` (multiple values), `Maybe` (op
 
 [^id]: In real systems, use a Strongly Typed ID (e.g., `UserId`) rather than a bare number to avoid "Primitive Obsession." This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
 [^checked-exceptions]: Java has *checked exceptions*: methods can declare them with a `throws` clause and callers must catch/declare them. C# has no checked exceptions, so “what might throw” usually isn’t visible in the method signature unless it’s documented (e.g., XML `<exception>` docs).
+[^out-var]: C# supports inline `out` variable declarations (C# 7): e.g., `if (int.TryParse(input, out var id)) { ... }`. This makes a single `Try...` step fairly composable inside an `if`, but it doesn’t scale to multi-step pipelines the way `Result` + `Bind` does.
 [^try-catch]: A single big `try/catch` reduces noise, but it catches too broadly or loses step-specific failure reasons.
 [^rop]: Scott Wlaschin, [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/).
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
