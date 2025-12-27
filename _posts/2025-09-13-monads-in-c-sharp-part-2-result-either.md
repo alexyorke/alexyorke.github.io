@@ -209,7 +209,7 @@ public sealed class Result<TSuccess, TError>
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
 > Use `Match` at the boundary to convert an internal `Result` into `DTO`s/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
 
-> **Loophole:** C# lets you ignore return values, so a `Result` can be silently dropped. Exceptions force handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s, ideally turning “oops” into a compile-time error instead of a runtime crash. This is mostly language friction, not a flaw in the pattern.
+> **Loophole:** C# lets you ignore return values, so a `Result` can be silently dropped. Nothing is _forcing_ you to use Match. Exceptions force handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s, ideally turning “oops” into a compile-time error instead of a runtime crash. This is mostly language friction, not a flaw in the pattern.
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
