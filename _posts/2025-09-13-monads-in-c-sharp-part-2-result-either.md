@@ -159,7 +159,7 @@ Think of `Result` as a composable `Try...`.[^out-var] Instead of `bool` + `out`,
 
 Now each step either produces the next value or stops with an `Error`.
 
-LINQ query syntax, for those so inclined (like me):
+LINQ query syntax, for those so inclined (like me). This requires `Select`/`SelectMany` helpers; see the appendix:
 
 ```csharp
 Result<User, Error> result =
@@ -315,6 +315,8 @@ Rule of thumb: use `T?` for “missing data” (nullability operator); use `Resu
 #### Example: deactivate a user
 We want to deactivate a user given an `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
 
+> **Note:** I’m using an HTTP API purely as a boundary example. `Result` isn’t “for HTTP” — it’s for any place you want explicit, composable success/failure (CLI commands, message handlers, background jobs, UI workflows, etc.).
+
 We'll use the same `Error` payload from earlier (this is **not** part of `Result` itself).
 
 ```csharp
@@ -404,6 +406,27 @@ public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
 3.  **Decide** once at the edge with `Match`.
 
 Toolbox recap: `List` (many), `Maybe` (optional), `Result` (failure). Same core shape: `Bind`/`SelectMany`.
+
+### Appendix: LINQ query syntax (`Select`/`SelectMany`)
+If you want the `from`/`select` query syntax to compile, add these extension methods (or add the same methods directly to `Result`):
+
+```csharp
+public static class ResultLinqExtensions
+{
+    // Required for `select`
+    public static Result<U, TError> Select<TSuccess, U, TError>(
+        this Result<TSuccess, TError> result,
+        Func<TSuccess, U> selector) =>
+        result.Map(selector);
+
+    // Required for multiple `from` clauses
+    public static Result<V, TError> SelectMany<TSuccess, U, V, TError>(
+        this Result<TSuccess, TError> result,
+        Func<TSuccess, Result<U, TError>> bind,
+        Func<TSuccess, U, V> project) =>
+        result.Bind(val => bind(val).Map(next => project(val, next)));
+}
+```
 
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
