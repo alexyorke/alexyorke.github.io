@@ -10,14 +10,15 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>` and then built `Maybe<T>` for optional pipelines.
 
-The Result monad lets you sequence computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to short-circuit on the first failure. If you need to accumulate many errors (form validation) or you have more than two meaningful outcomes, Result is not a great fit.
+The Result monad lets you sequence computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run, the value just flows through).[^shortcircuit]
+If you need to accumulate many errors (form validation) or you have more than two meaningful outcomes, Result is not a great fit. You _can_ model “many errors” as `Result<T, List<TError>>`, but you then have to define the aggregation rules yourself.
 
 This post uses Result<TSuccess, TError> to model failure with an error value. You can think of it as Maybe<T>, except the “no value” case carries why it’s missing. Keep results unwrapped until the boundary, then handle them with Match once.[^checked-exceptions]
 
 If you're coming from FP, this is _essentially_ a right-biased `Either<TError, TSuccess>`: `TError` is the failure branch and `TSuccess` is the success branch, by convention.
 
 ### TL;DR
-What it looks like (this `Error` record is just one option):
+What it looks like (`Error` is just one option):
 
 ```csharp
 public record Error(string Code, string Message);
@@ -54,6 +55,8 @@ Missing the intermediate `var`s? Here are the types:
 - `Bind`: called on a `Result<T, Error>`, takes a function `Func<T, Result<U, Error>>`, returns `Result<U, Error>`
 
 `Bind(FindUser)` == `Bind(id => FindUser(id))`: on success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`.
+
+Both `Map` and `Bind` run a function **only on success** and propagate failures unchanged.
 
 #### The problem: explicit vs. implicit
 
@@ -116,7 +119,7 @@ public void DeactivateUser(string inputId)
 
 In small code snippets like this one, throw sites are obvious. In larger apps, `exceptions` can originate far from where you want context, so you either rely on boundary handlers or add some local `try/catch` for context/recovery.
 
-**Main point: you’re responsible for `null` checks, catching, and stopping the pipeline on failure. It’s easy to repeat, noisy, and easy to get wrong.**
+**Main point: you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure. It’s easy to repeat, noisy, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 To reserve `exceptions` for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy. Basically defensive coding.
@@ -169,7 +172,7 @@ This enum doesn’t carry a *success payload* (only a status), so at this point 
 
 The problem: tuples don’t enforce invariants. Nothing stops you from creating `Success = true` **and** `Error = "Failed"`. Or from ignoring `Success` and later dereferencing a `null` `User`. Ka-blam-oh.
 
-So you think: fine, don’t let people construct arbitrary combinations. Make a small status type with a private constructor and two factories: `Success(...)` and `Failure(...)` (or `OperationSuccess` / `OperationFailure`). That works, but you still need good composition to avoid “check the status after every step.”
+> **Aside:** You can fix the “invalid combinations” problem with an `OperationStatus` hierarchy (e.g., `OperationSuccess` / `OperationFailure`) or a private constructor + `Success(...)`/`Failure(...)` factories. That helps, but you still need good composition to avoid “check the status after every step.”
 
 That’s what `Result` buys you: a single return value that’s either `Ok(...)` or `Fail(...)`, plus standardized composition (`Map`/`Bind`). And when you need to combine it with other effects, you usually nest (e.g., `Task<Result<...>>`) and use dedicated helpers.
 
@@ -461,3 +464,4 @@ public static class ResultLinqExtensions
 [^out-var]: C# supports inline `out` variable declarations (C# 7): e.g., `if (int.TryParse(input, out var id)) { ... }`. This makes a single `Try...` step fairly composable inside an `if`, but it doesn’t scale to multi-step pipelines the way `Result` + `Bind` does.
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 [^unused-result]: C# lets you ignore return values, so a `Result` can be dropped. Use a Roslyn analyzer to flag unused `Result`s.
+[^shortcircuit]: “Short-circuit” here means later steps aren’t called after the first failure. The computation still returns a value; it’s just the failure value being propagated.
