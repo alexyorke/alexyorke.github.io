@@ -20,7 +20,7 @@ Same mental model, different problems: collections, missing data (`Maybe`), and 
 
 #### The problem: explicit vs. readable
 
-In everyday C#, you tend to end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
+Typically, when you need to handle operations that could fail (fallable operations), you tend to end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
 This code is concise, but the method signature doesn't tell you what can go wrong.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
@@ -39,19 +39,54 @@ private readonly IUserRepo _repo;
 
 public void DeactivateUser(string inputId)
 {
-    int id = int.Parse(inputId);
+    int id;
+    try
+    {
+        id = int.Parse(inputId);
+    }
+    catch (Exception ex)
+    {
+        throw new InvalidOperationException("DeactivateUser failed at: parse id", ex);
+    }
 
-    var user = _repo.Find(id);
+    User user;
+    try
+    {
+        user = _repo.Find(id);
+    }
+    catch (Exception ex)
+    {
+        // unsafe to proceed because user is not defined
+        throw new InvalidOperationException("DeactivateUser failed at: load user", ex);
+    }
+
+    // we have to manually check if user is null, since the operation could have failed
+    // it is clear in this example that we threw an exception, however, in larger programs
+    // it is ambigious and so defensive coding is the safe way to approach this
+    if (user is null)
+        throw new InvalidOperationException("User not found");
 
     if (!user.IsActive)
         throw new InvalidOperationException("User already inactive");
 
-    user.IsActive = false;
-    _repo.Save(user);
+        user.IsActive = false;
+
+    try
+    {
+        _repo.Save(user);
+    }
+    catch (Exception ex)
+    {
+        throw new InvalidOperationException("DeactivateUser failed at: save user", ex);
+    }
 }
 ```
 
-In a small snippet, the throw sites are obvious. In a real service, exceptions can come from almost anywhere (parsing, mapping, `I/O`, `null`s), so once you start composing steps you end up wrapping a lot of code in `try/catch` scaffolding.
+In small snippets, throw sites are obvious. In larger services, exceptions can come from anywhere (parsing, mapping, I/O, nulls), so composition pushes you toward try/catch scaffolding, either scattered around each step or wrapped around large blocks.
+
+**The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong. It's also just a lot of boilerplate/noise. Miss one throw or null check and the pipeline keeps running on invalid state or could throw a NullReferenceException. And in large libraries it’s often unclear what can throw or be invalid, so you end up defensively catching/checking.
+
+A single big try/catch reduces noise, but it catches too broadly or loses step-specific failure reasons. Either way, the plumbing lives in control flow rather than in the composition.
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
@@ -87,16 +122,18 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 > **Note:** In the two “Problem” snippets above, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In the “Putting it together” section below, we’ll switch to an **immutable** `record` and use `with` so the domain step (`DeactivateDecision`) stays side-effect free and deterministic. Either approach works—what matters is being consistent in your own codebase.
 
-At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, string Error)`).
+So, you can return typed error codes essentially. This doesn't allow for success data, however, it's just the error. At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, string Error)`).
 
-Why Tuples aren't enough: Tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs. `Result` encapsulates the state, making invalid combinations unrepresentable.
+However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs. This is sort of the same issue with the Try/out pattern, albeit with the Try/out pattern you can sort of compose it within a single if statement, which is sort of nice.
+
+`Result` encapsulates the state, making invalid combinations unrepresentable.
 
 #### The solution: short-circuiting, as data
 
 `Result` models operation outcomes as values. Unlike Exceptions (which perform an "Unconstrained Jump" up the stack to an unknown handler), Result creates a Linear Flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
 Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.
-`int.TryParse` returns `bool` and uses `out int result`. This is efficient but impossible to chain. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
+`int.TryParse` returns `bool` and uses `out int result`. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
 
 Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
 
@@ -122,10 +159,12 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn Result into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then Result may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, result is only pass/fail.
+If your method returns a success, use Result.Ok("Success value"), or if it fails, return Result.Fail("Failure value"). The key point is that you can't get into a state that is ambigious, it is pass or fail, there isn't two variables you have to set in a specific order. Also, it's very concise, just a return value. The Result monad itself is responsible for sequencing the control flow: if a step fails, the other steps don't run _because_ Result isn't running them. The other steps don't care, you don't need to manually "tell" each step not to run, Result handles this.
+
+> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn Result into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then Result may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, result is only pass/fail, and might be non-idiomatic to use Result in this case.
 
 ### A tiny `Result` implementation
-Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
+Here’s a small teaching implementation that is more of a "core" version that teaches the concepts without too much library boilerplate, which may distract from the core thing. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
 
 This teaching version assumes you don’t call `Ok(null)` / `Fail(null)` for reference types.
 It also uses `default` to fill the unused slot; in real code you may want a design that avoids relying on `default` (especially if you want value-type errors).
@@ -210,7 +249,7 @@ public sealed class Result<TSuccess, TError>
 > **Boundary:** the point where your code meets the outside world. Parse/refine inputs, run your logic, then translate the outcome into public outputs.
 > Use `Match` at the boundary to convert an internal `Result` into `DTO`s/status codes/`ProblemDetails`/UI state. Don’t serialize `Result` directly—clients will start depending on its internal shape.
 
-> **Loophole:** C# lets you ignore return values, so a `Result` can be silently dropped. Nothing is _forcing_ you to use Match. Exceptions force handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s, ideally turning “oops” into a compile-time error instead of a runtime crash. This is mostly language friction, not a flaw in the pattern.
+> **Important!** C# lets you ignore return values, so a `Result` can be silently dropped. Nothing is _forcing_ you to use Match. Exceptions force handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s, ideally turning “oops” into a compile-time error instead of a runtime crash. This is mostly language friction, not a flaw in the pattern.
 
 ```csharp
 Result<int, string> result = Result<int, string>.Ok(42);
@@ -237,7 +276,7 @@ Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`
 }
 ```
 
-That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
+That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. What if isSuccess and isFailure are both true? What if the HTTP status code is 200 OK but there's an error but isSuccess is true? It's sort of weird. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
 
 ### Why bother?
 What do you get for returning `Result` instead of throwing or using "magic values"?
