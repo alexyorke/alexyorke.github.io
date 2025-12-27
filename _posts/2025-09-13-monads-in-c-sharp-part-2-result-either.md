@@ -12,18 +12,16 @@ In **Part 1**, we used `List<T>` to contrast `Map` (LINQ `Select`) vs `Bind` (LI
 
 The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an `Error`, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
 
-It’s like `Maybe<T>`/`Option<T>` for composition, except `Maybe` models absence while `Result` models failure with an error value.
+It’s structurally like `Maybe<T>`/`Option<T>` for composition (they're both monads), except `Maybe` models absence while `Result` models failure with an error value. 
 
 That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered `throw`s[^checked-exceptions] and defensive checks.
 
-Same mental model, different problems: collections, missing data (`Maybe`), and now error handling.
-
-#### The problem: explicit vs. readable
+#### The problem: explicit vs. implicit
 
 Typically, when you need to handle operations that can fail, you end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
-This code is concise, but the method signature doesn't tell you what can go wrong.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
+Typically, the method signature doesn't tell you what can go wrong, e.g., if an exception could be thrown.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -78,7 +76,7 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In small snippets, throw sites are obvious. In larger services, exceptions can come from anywhere (parsing, mapping, `I/O`, `null`s), so composition pushes you toward `try/catch` scaffolding, either scattered around each step or wrapped around large blocks.
+In these small snippets, throw sites are obvious. In larger apps, exceptions can come from anywhere (parsing, mapping, `I/O`, `null`s), so composition pushes you toward `try/catch` scaffolding, either scattered around each step or wrapped around large blocks.
 
 **The point is, you are responsible for writing these `null` checks, handling exceptions, declaring `User` outside of the `try/catch` so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
 
@@ -116,11 +114,13 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 > **Note:** In the two “Problem” snippets above, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In the “Putting it together” section below, we’ll switch to an **immutable** `record` and use `with` so the domain step (`DeactivateDecision`) stays side-effect free and deterministic. Either approach works—what matters is being consistent in your own codebase.
 
-At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, string Error)`).
+At this point you might reach for Tuples (e.g., `(bool Success, User? User, string Error)`).
 
 However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing `NullReferenceException`s.
 
 `Result` encapsulates the state, making invalid combinations unrepresentable.
+
+But hold on, couldn't I just make an abstract class called `OperationStatus`, creating two classes that inherit from it, `OperationSuccess` and `OperationFailure`? You can, and this would make the invalid combination unrepresentable. The point isn't _just_ making the invalid combination unrepresentable, it's about composition, too. It's the whole pipeline, it's the ability to compose multiple monads together that don't need to know about each other.
 
 #### The solution: short-circuiting, as data
 
