@@ -86,7 +86,9 @@ In small snippets, throw sites are obvious. In larger services, exceptions can c
 
 **The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong. It's also just a lot of boilerplate/noise. Miss one throw or null check and the pipeline keeps running on invalid state or could throw a NullReferenceException. And in large libraries it’s often unclear what can throw or be invalid, so you end up defensively catching/checking.
 
-A single big try/catch reduces noise, but it catches too broadly or loses step-specific failure reasons. Either way, the plumbing lives in control flow rather than in the composition.
+**The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
+
+A single big try/catch reduces noise, but it catches too broadly or loses step-specific failure reasons.
 
 **Option B: Explicit Validation (Guard Clauses)**
 If you want to keep exceptions for truly exceptional cases, you end up with guard clauses and early returns. The control flow stays linear and explicit, but the validation checks get interleaved with the work.
@@ -124,7 +126,7 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 So, you can return typed error codes essentially. This doesn't allow for success data, however, it's just the error. At this point you might reach for C# Tuples (e.g., `(bool Success, User? User, string Error)`).
 
-However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs. This is sort of the same issue with the Try/out pattern, albeit with the Try/out pattern you can sort of compose it within a single if statement, which is sort of nice.
+However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing null reference bugs.
 
 `Result` encapsulates the state, making invalid combinations unrepresentable.
 
