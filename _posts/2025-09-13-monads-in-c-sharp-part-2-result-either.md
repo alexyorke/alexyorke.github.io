@@ -20,7 +20,7 @@ Same mental model, different problems: collections, missing data (`Maybe`), and 
 
 #### The problem: explicit vs. readable
 
-Typically, when you need to handle operations that could fail (fallable operations), you tend to end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
+Typically, when you need to handle operations that can fail, you end up in one of two styles: rely on **Implicit Control Flow** (exceptions) or write **Verbose Validation** (guard clauses).
 
 **Option A: Implicit Control Flow (Exceptions)**
 This code is concise, but the method signature doesn't tell you what can go wrong.[^checked-exceptions] `DeactivateUser` returns `void`, yet it can throw parsing exceptions (`ArgumentNullException` / `FormatException` / `OverflowException`), and later failures may show up as runtime exceptions (e.g., `NullReferenceException` if `user` is null) or more specific exceptions (e.g., `InvalidOperationException` for a violated business rule).
@@ -198,7 +198,7 @@ public sealed class Result<TSuccess, TError>
 
     // MAP: Transforms the data if successful. If the Result is a Failure, this is skipped entirely.
     // The Short-Circuit: If this Result is already a Failure, the function 'f' never runs,
-    // and the existing error is passed along (which is great, because failing is plenty of work already).
+    // and the existing error is passed along.
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
         if (IsSuccess)
