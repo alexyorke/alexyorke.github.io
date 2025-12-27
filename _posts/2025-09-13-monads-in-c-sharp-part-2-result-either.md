@@ -10,14 +10,14 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>` and then built `Maybe<T>` for optional pipelines.
 
-The Result monad lets you sequence and compose computations that can fail. Your methods return either Result.Ok(value) or Result.Fail(error), and you compose them with Bind by short-circuiting on the first failure. Use it when you want the possibility of failure—and the error value—to be explicit in the return type. If you need to accumulate multiple errors (for example, form validation) or you have more than two meaningful outcomes, a Result is not a great fit. You _can_ model “many errors” as Result<T, List<TError>>, but you then have to define the aggregation rules yourself.
+The Result monad lets you sequence computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to short-circuit on the first failure. If you need to accumulate many errors (form validation) or you have more than two meaningful outcomes, Result is not a great fit.
 
-This post uses Result<TSuccess, TError> to model failure with an error value. You can think of it as Maybe<T>, except the “no value” case carries why it’s missing. Keep results unwrapped until the boundary, then handle them with Match once to keep the happy path linear.[^checked-exceptions]
+This post uses Result<TSuccess, TError> to model failure with an error value. You can think of it as Maybe<T>, except the “no value” case carries why it’s missing. Keep results unwrapped until the boundary, then handle them with Match once.[^checked-exceptions]
 
 If you're coming from FP, this is _essentially_ a right-biased `Either<TError, TSuccess>`: `TError` is the failure branch and `TSuccess` is the success branch, by convention.
 
 ### TL;DR
-What it looks like (this specific `Error` record is not part of the `Result` monad, you can use something else if you want):
+What it looks like (this `Error` record is just one option):
 
 ```csharp
 public record Error(string Code, string Message);
@@ -116,7 +116,7 @@ public void DeactivateUser(string inputId)
 
 In small code snippets like this one, throw sites are obvious. In larger apps, `exceptions` can originate far from where you want context, so you either rely on boundary handlers or add some local `try/catch` for context/recovery.
 
-**In this procedural code, the main point is that you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping all next steps on failure (if applicable). It’s easy to repeat, noisy, boilerplate-y, and easy to get wrong.**
+**Main point: you’re responsible for `null` checks, catching, and stopping the pipeline on failure. It’s easy to repeat, noisy, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 To reserve `exceptions` for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy. Basically defensive coding.
@@ -167,11 +167,9 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 This enum doesn’t carry a *success payload* (only a status), so at this point you might reach for a tuple like `(bool Success, User? User, string Error)`.
 
-The problem is: tuples don’t enforce invariants. Nothing stops you from creating `Success = true` **and** `Error = "Failed"`. Or from ignoring `Success` and later dereferencing a `null` `User` and then ka-blam-oh. And since you’re building the tuple by hand, you’re responsible for keeping all those fields consistent every time.
+The problem: tuples don’t enforce invariants. Nothing stops you from creating `Success = true` **and** `Error = "Failed"`. Or from ignoring `Success` and later dereferencing a `null` `User`. Ka-blam-oh.
 
-So you think: fine, don’t let people construct arbitrary combinations. Make a small “status” type with a private constructor and two factories: `Success(...)` and `Failure(...)`. Maybe you even model it as `OperationSuccess` / `OperationFailure` inheriting from an abstract `OperationStatus`, so invalid states aren’t representable.
-
-That works, sure, your methods return an OperationStatus which can be either an OperationSuccess or an OperationFailure, and there's this factory that makes it so that you can only create one or the other in a valid state. But you still need to handle the status, i.e., check if it's a failure or a success from the return value in your program. You could add a method to the class that accepts an OperationStatus and then, runs different code paths depending on the content of OperationStatus... (!)
+So you think: fine, don’t let people construct arbitrary combinations. Make a small status type with a private constructor and two factories: `Success(...)` and `Failure(...)` (or `OperationSuccess` / `OperationFailure`). That works, but you still need good composition to avoid “check the status after every step.”
 
 That’s what `Result` buys you: a single return value that’s either `Ok(...)` or `Fail(...)`, plus standardized composition (`Map`/`Bind`). And when you need to combine it with other effects, you usually nest (e.g., `Task<Result<...>>`) and use dedicated helpers.
 
@@ -198,15 +196,7 @@ If you find `Bind(FindUser)` hard to read, expand the method group into a lambda
 Teaching implementation (don’t ship it; use a library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*). Assumes you don’t call `Ok(null)` / `Fail(null)` and uses `default` for the unused slot.
 
 #### Where is the “Unit” / “Return” / “Pure” method?
-In monad terms, **Unit** (also called **Return** or **Pure**) lifts a value into the monadic context.
-
-For lists, `pure(x)` is a singleton list containing `x` (e.g., `new[] { x }` / `Enumerable.Repeat(x, 1)`).
-
-For this `Result`, that’s `Ok(...)`:
-
-```csharp
-Result<int, Error> ok = Result<int, Error>.Ok(123);
-```
+In monad terms, **Unit** (also called **Return** or **Pure**) lifts a value into the monadic context. For this `Result`, that’s `Ok(...)`:
 
 `Fail(...)` is the other constructor, but it’s not “Unit”; it injects an error value instead of a success value.
 
@@ -279,15 +269,6 @@ public sealed class Result<TSuccess, TError>
 Aside: in C#, `string?` is a nullable annotation (static analysis), not Rust’s `?` operator.
 
 I'd encourage you to open your IDE and write a `Result` implementation without the use of AI. Think about its public API, then work backwards.
-
-#### `Map` vs `Bind`: a quick cheat sheet
-Both `Map` and `Bind` run a function **only on success** and propagate failures unchanged.
-The only difference is what your function returns:
-
-- Use `Map` when your function returns a plain value (`Func<TSuccess, U>`)
-- Use `Bind` when your function returns a `Result` (`Func<TSuccess, Result<U, TError>>`)
-
-Rule: **if the function returns a `Result`, use `Bind`**; otherwise use `Map`.
 
 ### Unwrap at the boundary
 > **Boundary:** validate inputs, run domain logic, then `Match` into a public output (`DTO`s/status/`ProblemDetails`).
