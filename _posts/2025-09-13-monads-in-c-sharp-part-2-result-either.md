@@ -8,14 +8,15 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 > _Note_: This post was substantially rewritten on 2025-12-21.
 
-In **Part 1**, we used `List<T>` to contrast `Map` (LINQ `Select`) vs `Bind` (LINQ `SelectMany` or `FlatMap`), and built `Maybe<T>` to chain optional steps.
+In **Part 1**, we used `List<T>` to contrast `Map` (LINQ `Select`) vs `Bind` (LINQ `SelectMany`/`FlatMap`), and built `Maybe<T>` to chain optional steps.
 
-The `Result` monad allows you to represent a computation's outcome as success or failure and to sequence computations so failures propagate until handled.
+The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an error, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
 
-It operates like `Maybe<T>` (or `Option<T>`), but the failure case carries a specific error reason rather than `None`.
+It’s like Maybe<T>/Option<T> for composition, except Maybe models absence while Result models failure with an error value.
 
-This changes error handling from implicit control flow into an explicit return value. This allows errors to flow linearly, avoiding implicit `throw`s[^checked-exceptions] and verbose defensive checking, and also makes it clear if a method/function will fail.
-This shared pattern means you can use the same mental model—**chaining operations**—to solve completely different problems (collections, missing data, and now, error handling).
+That turns error handling from implicit control flow into an explicit return value, making pipelines linear and removing the need for scattered throws[^checked-exceptions] and defensive checks.
+
+Same mental model, different problems: collections, missing data (`Maybe`), and now error handling.
 
 #### The problem: explicit vs. readable
 
