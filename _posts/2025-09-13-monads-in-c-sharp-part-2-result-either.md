@@ -192,8 +192,8 @@ public sealed class Result<TSuccess, TError>
             false);
     }
 
-    // MAP: Transforms the data if successful. If the Result is a Failure, this is skipped entirely.
-    // The Short-Circuit: If this Result is already a Failure, the function 'f' never runs,
+    // MAP: Transforms the data if successful. If the Result is a failure, this is skipped entirely.
+    // The short-circuit: If this Result is already a failure, the function 'f' never runs,
     // and the existing error is passed along.
     public Result<U, TError> Map<U>(Func<TSuccess, U> f)
     {
@@ -207,7 +207,7 @@ public sealed class Result<TSuccess, TError>
 
     // BIND (LINQ SelectMany): Chains an operation that *might fail*.
     // Unlike Map (which just transforms data), Bind gives the function a chance to switch
-    // the state from Success to Failure.
+    // the state from success to failure.
     // Structurally: It flattens nested Result<Result<...>> back into a single Result.
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
@@ -220,7 +220,7 @@ public sealed class Result<TSuccess, TError>
     }
 
     // MATCH (Destructor): The "Exit Door".
-    // This is not part of the Monad pattern itself, but it is how you extract the value
+    // This is not part of the monad pattern itself, but it is how you extract the value
     // to leave the monad and return to the imperative world.
     // Typically used at the boundary to convert into a public-facing output (HTTP response, UI state, etc.).
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
@@ -263,7 +263,7 @@ Many `Result` implementations expose `Value`/`Error` (and flags like `IsSuccess`
 }
 ```
 
-That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
+Yikes. That wrapper is awkward, and it’s also brittle: now your public contract includes `isSuccess`/`isFailure` and your internal error/value shape. Unwrap at the boundary with `Match`, and return something that’s meant to be public (`DTO`s, status codes, `ProblemDetails`, etc.).
 
 ### Why bother?
 What do you get for returning `Result` instead of throwing or using "magic values"?
@@ -351,7 +351,7 @@ The idea: compute a `Result<User, Error>` in your internal workflow. Notice that
 
 In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`). This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
-Think of `await` as C#'s built-in "Do Notation" for the `Task` monad. Just as `Bind` unwraps the `Result` to get to the value, `await` unwraps the `Task` to get to the value.[^task-monad]
+Think of `await` as C#'s built-in "do notation" for the `Task` monad. Just as `Bind` unwraps the `Result` to get to the value, `await` unwraps the `Task` to get to the value.[^task-monad]
 
 The friction happens when you stack them. If you try to mix the `Task` monad (`await`ing) and the `Result` monad (failure handling), you end up needing to `await` manually before every step—and you can't just `await` your way out of the structure, because `await` unwraps the `Task`, not the `Result`. This brings back the indentation you tried to kill.
 
