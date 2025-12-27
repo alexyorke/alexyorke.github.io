@@ -129,8 +129,6 @@ But hold on, couldn't I just make an abstract class called `OperationStatus`, cr
 Think of `Result` as the "Composable" version of the standard C# `Try...` pattern.[^out-var]
 `int.TryParse` returns `bool` and uses `out int result`. `Result<int, Error>` wraps those two pieces (the success flag and the value) into a single object, allowing you to chain steps without stopping to declare temporary variables.
 
-Nullable (`T?`) models missing data; `Result<TSuccess, TError>` models an operation that can fail with a reason.
-
 Now you can rewrite Option B as a pipeline: each step either produces the next value or stops with an `Error`.
 
 We'll use a simple custom error payload in the examples below (this is **not** part of `Result` itself):
@@ -274,6 +272,8 @@ What do you get for returning `Result` instead of throwing or using "magic value
 *   **Testability:** Tests can assert the outcome *and* the specific error (`Code`, type, message) without exception scaffolding.
 
 ### Where `Result` fits (and where it doesn’t)
+Rule of thumb: use `T?` for “missing data”; use `Result<TSuccess, TError>` for “this operation can fail with a reason.”
+
 `Result` works best for **domain logic**: failures you expect and want to handle. It doesn’t replace exceptions; it just keeps them in their lane.[^always-valid]
 
 1.  **Infrastructure:** For technical failures (DB/network outages, timeouts, unexpected I/O errors), exceptions handled at the boundary (middleware/logging/global handlers) are often a good fit.
