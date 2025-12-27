@@ -23,15 +23,19 @@ What it looks like (Error record is not part of Result):
 public record Error(string Code, string Message);
 
 string inputId = inputIdFromRequest;
-Result<User, Error> result =
-    ParseId(inputId)
-        .Bind(FindUser)
-        .Bind(DeactivateDecision);
+Result<User, Error> result =          // Result<User, Error>
+    ParseId(inputId)                  // Result<int, Error>
+        .Bind(FindUser)               // Result<User, Error>
+        .Bind(DeactivateDecision);    // Result<User, Error>
 
 // Unwrap once at the boundary:
 string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
+
+// Creating results:
+Result<User, Error> okUser = Result<User, Error>.Ok(user);
+Result<User, Error> failed = Result<User, Error>.Fail(new Error("NotFound", "User not found"));
 ```
 
 Missing the intermediate `var`s? Here are the types:
