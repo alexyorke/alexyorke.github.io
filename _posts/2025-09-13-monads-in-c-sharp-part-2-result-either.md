@@ -112,7 +112,7 @@ public DeactivateUserResult DeactivateUser(string inputId)
 }
 ```
 
-> **Note:** In the two “Problem” snippets above, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In the “Putting it together” section below, we’ll switch to an **immutable** `record` and use `with` so the domain step (`DeactivateDecision`) stays side-effect free and deterministic. Either approach works—what matters is being consistent in your own codebase.
+> **Note:** In the examples in this post, `User` is treated as a **mutable** entity (`user.IsActive = false;`). In real domain code, prefer immutability where you can, but that’s out of scope for this post.[^immutability]
 
 At this point you might reach for `tuples` (e.g., `(bool Success, User? User, string Error)`).
 
@@ -287,7 +287,11 @@ We want to deactivate a user given an `id` from an HTTP request (received as a *
 We'll use the same `Error` payload from earlier (this is **not** part of `Result` itself).
 
 ```csharp
-public record User(int Id, bool IsActive);
+public class User
+{
+    public int Id { get; set; }
+    public bool IsActive { get; set; }
+}
 
 public sealed class UserService
 {
@@ -335,14 +339,15 @@ public sealed class UserService
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
-        return Result<User, Error>.Ok(user with { IsActive = false });
+        user.IsActive = false;
+        return Result<User, Error>.Ok(user);
     }
 }
 ```
 
 The idea: compute a `Result<User, Error>` in your internal workflow. Notice that the explicit `if` checks and guard clauses from the "Problem" examples have disappeared—they are now handled automatically inside `Bind`. We then unwrap the result once at the boundary in `HandleDeactivateRequest`.
 
-### Async: the `Task<Result<...>>` wrinkle
+### Async: the `Task<Result<...>>` nesting weirdness
 
 In modern .NET apps, most `I/O` APIs follow the Task-based async pattern (`Task` / `Task<T>`). This creates a "wrapping problem": your return types become `Task<Result<User, Error>>`.
 
@@ -386,12 +391,14 @@ You now have three monads in your toolkit: `List` (multiple values), `Maybe` (op
 
 [^id]: In real systems, use a Strongly Typed ID (e.g., `UserId`) rather than a bare number to avoid "Primitive Obsession." This post uses `string` at the boundary and parses to `int` to keep the example focused on `Result` composition.
 [^checked-exceptions]: Java has *checked exceptions*: methods can declare them with a `throws` clause and callers must catch/declare them. C# has no checked exceptions, so “what might throw” usually isn’t visible in the method signature unless it’s documented (e.g., XML `<exception>` docs).
+[^immutability]: Mutating domain objects makes pipelines harder to reason about and test. Prefer immutable `record`s (and returning a new value) where you can; this post sticks to mutation to keep the focus on `Result` composition.
 [^out-var]: C# supports inline `out` variable declarations (C# 7): e.g., `if (int.TryParse(input, out var id)) { ... }`. This makes a single `Try...` step fairly composable inside an `if`, but it doesn’t scale to multi-step pipelines the way `Result` + `Bind` does.
 [^try-catch]: A single big `try/catch` reduces noise, but it catches too broadly or loses step-specific failure reasons.
 [^rop]: Scott Wlaschin, [Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/).
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 [^no-serialize]: FluentResults Wiki, [Returning Result Objects from ASP.NET Core Controller](https://github.com/altmann/FluentResults/wiki/Returning-Result-Objects-from-ASP.NET-Core-Controller).
 [^unused-result]: C# allows ignoring return values, so a `Result` can be silently dropped. `exceptions` “force” handling by crashing; with `Result`, use a Roslyn analyzer to flag unused `Result`s (ideally as an error) so “oops” becomes a compile-time failure instead of a runtime crash.
+[^implicit-conversions]: Some libraries add `implicit operator` conversions so you can `return value;` or `return error;` instead of writing `Result.Ok(...)`/`Result.Fail(...)`. This post avoids that because it can make it less obvious what is (and isn’t) a `Result`.
 [^serializer-aside]: A generic serializer is like a toddler with a marker: it will eagerly “help” by drawing *every property it can reach* onto your public API.
 [^either-bias]: Most `Either`/`Result` APIs are right-/success-biased: `Map`/`Bind` operate on the success branch and propagate the error branch unchanged. If you’re using an `Either` type, double-check which side your library treats as “success.”
 [^async-pseudocode]: The snippet below assumes a library that provides async extensions/combinators (e.g., `Bind` on `Task<Result<...>>`). The teaching `Result` type above does not provide these by itself.[^either-bias]
