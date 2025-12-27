@@ -56,13 +56,9 @@ public void DeactivateUser(string inputId)
     }
     catch (Exception ex)
     {
-        // unsafe to proceed because user is not defined
         throw new InvalidOperationException("DeactivateUser failed at: load user", ex);
     }
 
-    // we have to manually check if user is null, since the operation could have failed
-    // it is clear in this example that we threw an exception, however, in larger programs
-    // it is ambigious and so defensive coding is the safe way to approach this
     if (user is null)
         throw new InvalidOperationException("User not found");
 
@@ -83,8 +79,6 @@ public void DeactivateUser(string inputId)
 ```
 
 In small snippets, throw sites are obvious. In larger services, exceptions can come from anywhere (parsing, mapping, I/O, nulls), so composition pushes you toward try/catch scaffolding, either scattered around each step or wrapped around large blocks.
-
-**The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong. It's also just a lot of boilerplate/noise. Miss one throw or null check and the pipeline keeps running on invalid state or could throw a NullReferenceException. And in large libraries it’s often unclear what can throw or be invalid, so you end up defensively catching/checking.
 
 **The point is, you are responsible for writing these null checks, handling exceptions, declaring User outside of the try/catch so it can be used in subsequent steps, and ensuring that computation doesn't continue if a step failed.** This logic is repeated many, many, times throughout typical programs, and is easy to get wrong.
 
