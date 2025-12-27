@@ -36,6 +36,15 @@ string message = result.Match(
 // Creating results:
 Result<User, Error> okUser = Result<User, Error>.Ok(user);
 Result<User, Error> failed = Result<User, Error>.Fail(new Error("NotFound", "User not found"));
+
+// Returning a Result from a function:
+Result<User, Error> FindUserOrFail(int id)
+{
+    User? user = repo.Find(id);
+    return user is null
+        ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
+        : Result<User, Error>.Ok(user);
+}
 ```
 
 Missing the intermediate `var`s? Here are the types:
