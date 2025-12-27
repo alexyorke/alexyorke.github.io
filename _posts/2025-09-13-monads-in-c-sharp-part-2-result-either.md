@@ -120,9 +120,9 @@ However, tuples lack invariants. You can accidentally create a tuple with `Succe
 
 `Result` encapsulates the state, making invalid combinations unrepresentable.
 
-But hold on, couldn't I just make an abstract class called `OperationStatus`, creating two classes that inherit from it, `OperationSuccess` and `OperationFailure`? You can, and this would make the invalid combination unrepresentable. The point isn't _just_ making the invalid combination unrepresentable, it's about composition, too. It's the whole pipeline, it's the ability to compose multiple monads together that don't need to know about each other.
-
 #### The solution: short-circuiting, as data
+
+But hold on, couldn't I just make an abstract class called `OperationStatus`, creating two classes that inherit from it, `OperationSuccess` and `OperationFailure`? You can, and this would make the invalid combination unrepresentable. The point isn't _just_ making the invalid combination unrepresentable, it's about composition, too. It's the whole pipeline, it's the ability to compose multiple monads together that don't need to know about each other.
 
 `Result` models operation outcomes as values. Unlike `exceptions` (which perform an "Unconstrained Jump" up the stack to an unknown handler), `Result` creates a linear flow. The error travels exactly one step at a time, strictly following the return path. It is deterministic control flow.
 
@@ -150,8 +150,6 @@ string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
-
-> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn `Result` into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then `Result` may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, `Result` is only pass/fail, and might be non-idiomatic to use `Result` in this case.
 
 ### A tiny `Result` implementation
 Here’s a small teaching implementation. Don’t use it in production; if you’re shipping this, use a library instead (e.g., *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
@@ -279,6 +277,8 @@ Rule of thumb: use `T?` for “missing data”; use `Result<TSuccess, TError>` f
 1.  **Infrastructure:** For technical failures (DB/network outages, timeouts, unexpected I/O errors), exceptions handled at the boundary (middleware/logging/global handlers) are often a good fit.
 2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
 3.  **Accumulation:** `Bind` stops at the first `Error`. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
+
+> **Note:** `Result` is designed to **short-circuit** (stop at the first `Error`). If you need to **accumulate** multiple errors (e.g., validating a form where you want to show all missing fields at once), use a validation type that returns a `List<Error>` instead. Additionally, try not to shoe-horn `Result` into situations where it doesn't make sense. If there are other outcomes other than success/fail such as a neutral outcome, then `Result` may not be appropriate for that situation. For example, if you need to return a list of all failed and successful jobs, `Result` is only pass/fail, and might be non-idiomatic to use `Result` in this case.
 
 ### Putting it together
 #### Example: deactivate a user
