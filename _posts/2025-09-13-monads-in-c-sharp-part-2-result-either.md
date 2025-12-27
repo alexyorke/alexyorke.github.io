@@ -10,7 +10,7 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1**, we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) and built `Maybe<T>` for optional pipelines.
 
-The `Result` monad sequences computations that could fail. Each step either produces a successful value or short-circuits with an `Error`, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type.
+The `Result` monad sequences and composes computations that could fail. Each step either produces a successful value or short-circuits with an `Error`, until you handle it. Use it when you want failures (and their reasons) to be explicit in the type. If you need to return multiple errors, e.g., validating a form, or there are multiple statuses that don't fit neatly into success/failure, then the Result monad might not be a good fit. We'll go into some other monads that might be more appropriate for that later in the series.
 
 This post applies the same pattern to failures with `Result<TSuccess, TError>`: like `Maybe`, but with an error value; it short-circuits until `Match`, keeping failures explicit and flow linear.[^checked-exceptions]
 
@@ -24,9 +24,9 @@ public record Error(string Code, string Message);
 
 string inputId = inputIdFromRequest;
 Result<User, Error> result =          // Result<User, Error>
-    ParseId(inputId)                  // Result<int, Error>
-        .Bind(FindUser)               // Result<User, Error>
-        .Bind(DeactivateDecision);    // Result<User, Error>
+    ParseId(inputId)                  // Result<int, Error>, first in chain, always runs
+        .Bind(FindUser)               // Result<User, Error>, FindUser only runs if ParseId succeeded
+        .Bind(DeactivateDecision);    // Result<User, Error>, DeactivateDecision only runs if FindUser succeeded
 
 // Unwrap once at the boundary:
 string message = result.Match(
@@ -99,9 +99,9 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In small snippets, throw sites are obvious. In larger apps, exceptions can come from anywhere, pushing you toward `try/catch` scaffolding.
+In small code snippets like this one, throw sites are obvious. In larger apps, exceptions can come from anywhere, pushing you toward `try/catch` scaffolding for every line so that you can log the specific error.
 
-**The main point here is, you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure—easy to repeat, noisy, boilerplate-y, and easy to get wrong.**
+**In this procedural code, the main point here is, you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure—easy to repeat, noisy, boilerplate-y, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 To reserve exceptions for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy. Basically defensive coding.
@@ -134,15 +134,15 @@ public DeactivateUserResult DeactivateUser(string inputId)
 
 > **Note:** `User` is **mutable** here to keep focus on `Result`. Prefer immutability in real domain code.[^immutability]
 
-At this point you might reach for `tuples` (e.g., `(bool Success, User? User, string Error)`).
+This doesn't contain a value for success (only a typed error code), so, at this point you might reach for `tuples` (e.g., `(bool Success, User? User, string Error)`).
 
 However, tuples lack invariants. You can accidentally create a tuple with `Success = true` AND `Error = "Failed"`. You can also ignore the `Success` boolean and read the `User` property directly, causing `NullReferenceException`s.
 
-`Result` makes invalid combinations unrepresentable.
+`Result` makes invalid combinations unrepresentable, because there is only Result.Ok or Result.Fail. It succeeded, or it didn't, just a single return value.
 
 #### The solution: short-circuiting, as data
 
-Aside: You could model this with `OperationSuccess` / `OperationFailure` classes that inherit from an abstract class `OperationStatus`, but `Result` adds standardized composition (`Map`/`Bind`) and composes with other monads. It's also about control flow.
+Aside: You could model this with `OperationSuccess` / `OperationFailure` classes that inherit from an abstract class `OperationStatus`, but `Result` adds standardized composition (`Map`/`Bind`) and composes with other monads. It's also about control flow and composition, think of Result and other monads like a functional programming pattern.
 
 `Result` returns failure as data, not an exception jump. Errors stay on the return path and short-circuit deterministically.
 
@@ -150,7 +150,7 @@ Think of `Result` as a composable `Try...`.[^out-var] Instead of `bool` + `out`,
 
 Now each step either produces the next value or stops with an `Error`.
 
-LINQ query syntax:
+LINQ query syntax, for those so inclined (like me):
 
 ```csharp
 Result<User, Error> result =
@@ -164,11 +164,10 @@ If you find `Bind(FindUser)` hard to read, expand the method group into a lambda
 `ParseId(inputId).Bind(id => FindUser(id))`.
 
 ### A tiny `Result` implementation
-Teaching implementation (don’t ship it; use a library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*).
-Assumes you don’t call `Ok(null)` / `Fail(null)` and uses `default` for the unused slot.
+Teaching implementation (don’t ship it; use a library like *LanguageExt*, *CSharpFunctionalExtensions*, or *FluentResults*). Assumes you don’t call `Ok(null)` / `Fail(null)` and uses `default` for the unused slot.
 
 #### Where is the “Unit” / “Return” / “Pure” method?
-In monad terms, **Unit** (also called **Return** or **Pure**) is “take a raw value and wrap it in the container.”
+In monad terms, **Unit** (also called **Return** or **Pure**) lifts a value into the mondaic context without changing the value or doing anything to it. For example, adding an element to List.
 
 For this `Result`, that’s `Ok(...)`:
 
@@ -178,16 +177,18 @@ Result<int, Error> ok = Result<int, Error>.Ok(123);
 
 `Fail(...)` is the other constructor, but it’s not “Unit” — it injects an error value instead of a success value.
 
+Here's the code for Result:
+
 ```csharp
 public sealed class Result<TSuccess, TError>
 {
-    private readonly TSuccess? _value;
-    private readonly TError? _error;
+    private readonly TSuccess _value;
+    private readonly TError _error;
 
     public bool IsSuccess { get; }
     public bool IsFailure => !IsSuccess;
 
-    private Result(TSuccess? value, TError? error, bool isSuccess)
+    private Result(TSuccess value, TError error, bool isSuccess)
     {
         IsSuccess = isSuccess;
         _value = value;
@@ -242,6 +243,10 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
+Aside: I should be using nullable annotations (the question mark) but this might be confusing for Rust developers because it is not the same thing, so, I'll omit it.
+
+I'd encourage you to open your IDE and write a Result implementation without the use of AI. Think about its public API, then work backwards.
+
 #### `Map` vs `Bind`: a quick cheat sheet
 Both `Map` and `Bind` run a function **only on success** and propagate failures unchanged.
 The only difference is what your function returns:
@@ -281,7 +286,7 @@ Many `Result` types expose `Value`/`Error`/`IsSuccess`, so serializers emit the 
 Yikes. Now your contract includes `isSuccess`/`isFailure` plus internal error/value shapes. Unwrap with `Match` and return a real `DTO`/status/`ProblemDetails`.
 
 ### Why bother?
-Why return `Result` instead of throwing or using magic values?
+Why return `Result` instead of throwing or using enums?
 *   **Explicit Signatures:** `Result<User, Error>` tells you up front that failure is on the table.
 *   **Fewer ad-hoc conventions:** No `-1`, no `null`, no “special string means error.”
 *   **Testability:** Tests can assert the outcome *and* the specific error (`Code`, type, message) without exception scaffolding.
@@ -295,7 +300,7 @@ Rule of thumb: use `T?` for “missing data” (nullability operator); use `Resu
 2.  **Bugs:** Violated preconditions are programmer errors—throw (`ArgumentNullException`, `ArgumentException`, etc.) rather than returning a domain `Result`.
 3.  **Accumulation:** `Bind` stops at the first `Error`. If you need to collect *all* validation errors, use a validation type that accumulates errors instead of short-circuiting.
 
-> **Note:** `Result` short-circuits on the first `Error`. For “collect all errors” validation, use a type that accumulates (e.g., `List<Error>`).
+> **Note:** `Result` short-circuits on the first `Error`. For “collect all errors” validation, use a type that accumulates (e.g., the Validation monad) but we haven't really covered that yet.
 
 ### Putting it together
 #### Example: deactivate a user
