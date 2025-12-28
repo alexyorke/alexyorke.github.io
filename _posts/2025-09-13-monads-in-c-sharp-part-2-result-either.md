@@ -10,13 +10,19 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>`, then built `Maybe<T>` for optional pipelines.
 
-The Result monad lets you sequence computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run; the failure just flows through).[^shortcircuit]
+Monads have a terrible reputation in tutorials. If the word *monad* makes you roll your eyes: fair — you don’t need category theory for this post.
 
-If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” as `Result<T, List<TError>>`, but then you have to define the aggregation rules yourself. If you have more than two meaningful outcomes (not strictly pass/fail), `Result` isn't really idiomatic for that.
+In engineering terms, think: **a chainable return type**. You can **wrap** a value (`Ok(...)`) and **chain** the next step (`Bind(...)`). If you want the short version: a monad is just something you can `Bind`/`SelectMany` (`flatMap`).
 
-This post uses `Result<TSuccess, TError>`: it’s _like_ `Maybe<T>`, except the “no value” case carries *why*. Prefer to keep results **wrapped** and compose with `Bind`; handle them at boundaries, or translate between layers. [^checked-exceptions]
+You already use the same shape elsewhere: `SelectMany` on `List<T>` (LINQ), `Bind` on `Maybe<T>` (Part 1), and `.then(...)` / `await` on Promises/`Task` (async).
 
-If you're coming from an FP language, this _sometimes_ corresponds to a right-biased `Either<TError, TSuccess>` (note the swapped type parameter order): `TError` is the failure branch and `TSuccess` is the success branch, by convention.
+Here we’re doing the error-handling version: `Result<TSuccess, TError>` is `Maybe<T>` plus an error payload. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run; the failure just flows through).[^shortcircuit]
+
+If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” as `Result<T, List<TError>>`, but then you have to define the aggregation rules yourself. If you have more than two meaningful outcomes (not strictly pass/fail), `Result` isn’t really idiomatic — consider a union/tagged type instead.
+
+This post uses `Result<TSuccess, TError>`: it’s _like_ `Maybe<T>`, except the “no value” case carries *why*. Prefer to keep results **wrapped** and compose with `Bind`; handle them at boundaries, or translate between layers (usually by `Match`-ing into a new shape, or mapping errors with a library helper). [^checked-exceptions]
+
+If you're coming from an FP language, this often corresponds to a right-biased `Either<TError, TSuccess>` (note the swapped type parameter order): `TError` is the failure branch and `TSuccess` is the success branch, by convention.
 
 ### TL;DR
 What it looks like (this `Error` record is not built-in to `Result`):
@@ -53,11 +59,11 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. The main point is that `Result` is sequencing these operations, automatically forwarding the error and bypassing remaining steps if there was an error.
+On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error` and **doesn’t call** later steps. Short-circuiting here is literal: the remaining functions aren’t executed.
 
-`Map`/`Bind` run only on success; errors propagate unchanged unless you explicitly map them. If your mapping/binding function throws, it still throws unless you catch/bridge it.
+`Map` is for `T -> U`. `Bind` is for `T -> Result<U, Error>` — it keeps the pipeline flat (avoids `Result<Result<...>>`). If your mapping/binding function throws, it still throws unless you catch/bridge it.
 
-Aside: “Why not use IO? Why a repository? Why not push effects to the boundary?” Fair points. I’m using C# as a vehicle to teach Result, but want to step the fine line between not writing an FP tutorial and making Result seem super complex, but also don't want to dump it with no context on how to use it correctly. A toy 1 + 1 calculator example is “pure” but unmotivating; this example gives context without implying you should replace exceptions everywhere with Result. I still want to avoid misleading people, so feedback is appreciated.
+> **Aside:** Yes, this example uses a repository and mutates a `User`. That’s deliberate: it’s “real enough” to be motivating, without implying you should replace exceptions everywhere with `Result`.
 
 #### The problem: explicit vs. implicit
 In C#, fallible work usually becomes either **implicit control flow** (`exceptions`) or **explicit checks** (guard clauses).
@@ -125,12 +131,12 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In small snippets, throw sites are obvious. In larger apps, `exceptions` can originate far from where you want context, so you rely on boundary handlers or add local `try/catch` for context/recovery. This is because you want to know where it failed.
+In small snippets, throw sites are obvious. In larger apps, `exceptions` can originate far from where you want context, so you rely on boundary handlers or add local `try/catch` for context/recovery.
 
 **Main point: in the code above, you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure. It’s easy to repeat, it's noisy, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
-To reserve `exceptions` for exceptional cases, you write guard clauses and early returns, much like defensive coding. It’s linear, but noisy.
+To reserve `exceptions` for exceptional cases, you write guard clauses and early returns. It’s linear, but noisy.
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -175,10 +181,10 @@ public DeactivateUserResult DeactivateUser(string inputId)
 }
 ```
 
-> **Note:** `User` is **mutable** here to keep focus on `Result` and to show that you don't have to throw the baby out with the bathwater so to speak if you want to adopt `Result`. Prefer immutability in real domain code.[^immutability]
+> **Note:** `User` is **mutable** here to keep focus on `Result` (and to show you don’t have to throw the baby out with the bathwater to adopt it). Prefer immutability in real domain code.[^immutability]
 
-Enums don’t carry a *success payload* (only a status), so you reach for tuples and conventions (e.g., `(User? user, Error? error, Success? success)` + “`error is null` means success”).
-Conventions are easy to violate: nothing is stopping you from setting error to an error, and also setting success, or vice-versa, or forgetting to set user. You’re back to ad-hoc checks and invalid combinations. Ka-blam-oh.
+Enums don’t carry a *success payload* (only a status), so you reach for tuples and conventions (e.g., `(User? user, Error? error)` + “`error is null` means success”).
+Conventions are easy to violate: nothing stops you from returning `(user: null, error: null)` or populating both. You’re back to ad-hoc checks and invalid combinations. Ka-blam-oh.
 
 > **Aside:** You can fix the “invalid combinations” problem with an `OperationStatus` hierarchy (e.g., `OperationSuccess` / `OperationFailure`) or a private constructor + `Success(...)`/`Failure(...)` factories. That helps, but you still need good composition to avoid “check the status after every step.”
 
@@ -291,11 +297,11 @@ See the TL;DR snippet above for a minimal `Match` example.
 Avoid serializing `Result` in **public contracts**: it leaks an internal control-flow wrapper into your schema. Prefer `Match` into `DTO`s/status/`ProblemDetails` (unless you intentionally standardize an envelope or write a custom converter).
 
 Depending on serializer configuration, serializing the teaching type in this post may produce only `IsSuccess`/`IsFailure` — i.e., you silently drop the payload.
-With production `Result` types, you can also leak internal `Value`/`Error` shapes — or even hit exceptions during serialization if invalid-access getters throw. Yikes. This typically results in properties like "IsSuccess" and "IsFailure" existing in the serialized output, plus an HTTP status code, which is confusing.
+With production `Result` types, you can also leak internal `Value`/`Error` shapes — or even hit exceptions during serialization if invalid-access getters throw. Yikes. Now your JSON includes wrapper flags like `IsSuccess`/`IsFailure`, and you still need to decide how that maps to HTTP status codes — it’s a confusing public contract.
 
 ### Why bother?
 Why return `Result` instead of throwing or using enums?
-*   **Explicit Signatures:** `Result<User, Error>` says failure could, potentially, occur.
+*   **Explicit Signatures:** `Result<User, Error>` says failure is a normal outcome you must handle.
 *   **Fewer sentinel values:** Avoid `-1` / `null` / “magic” return values used as control flow. (You still choose how to model errors.)
 *   **Testability:** Assert success/failure and inspect error details without `try/catch` scaffolding.
 
@@ -386,7 +392,7 @@ This example mutates `user.IsActive` to keep focus on the mechanics; prefer immu
 #### Why is `_repo.Save(user)` inside `Match`?
 `Save` is `I/O` and often fails via `exceptions` (DB/network outages, timeouts). Here we let infra exceptions bubble and assume boundary handlers translate/log them; `Result` is for expected failures. If you want uniform composition, bridge repo/client exceptions into `Result`.
 
-We're using C# as a language-vehicle to show how `Result` can be integrated, but, I'm not advocating you should just start adding it everywhere. So, I don't want to get into the weeds for how to shoe-horn an FP paradigm into a procedural language.
+I’m using C# as the vehicle to show how `Result` fits into typical application code — not as a call to turn C# into Haskell.
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
