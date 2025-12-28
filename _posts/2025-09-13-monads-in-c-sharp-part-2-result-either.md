@@ -14,17 +14,17 @@ If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps
 
 The `Result` pattern (more precisely: `Result<_, TError>` as a monad) lets you sequence and compose computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run; the failure just flows through).[^shortcircuit]
 
-`Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>` (success vs. non-success), except the non-success case carries a reason (`TError`) instead of being empty. `Maybe` models optionality (and sometimes “failure without a reason”); `Result` models failure *with* an explicit reason.
+`Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`) instead of being empty. `Maybe` models optionality; `Result` models failure *with* an explicit reason.
 
-Prefer to keep values within `Result` and compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. (If a step can throw—like a repo call—either let it bubble as an exception or catch/translate it into `Fail`.)[^checked-exceptions]
+Prefer to keep values within `Result` and compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. [^checked-exceptions]
 
-If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” (e.g., `Result<T, List<TError>>`), but `Bind` is sequential and fail-fast—accumulation usually needs a `Validation<T>`/applicative (or a dedicated `Combine` API). If your operation isn’t naturally success/failure (e.g., several first-class outcomes), a union/tagged type can model it more directly than forcing everything into “success vs error”.
+If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” (e.g., `Result<T, List<TError>>`), but `Bind` is sequential and fail-fast—accumulation usually needs a `Validation<T>`/applicative. If your operation isn’t naturally success/failure (e.g., several first-class outcomes), a union/tagged type can model it more directly than forcing everything into “success vs error”.
 
 If you're coming from FP, this is closest to an `Either`/`Result`-style type. Many codebases use `Either` specifically for errors (Left=error, Right=success), though `Either` can also be a general disjunction.
 In many ecosystems, the convention is “Left/error” and “Right/success” (but you may see this flipped in some libraries/codebases).
 
 ### TL;DR
-What it looks like (pseudo-code; implementations left out for brevity):
+What it looks like (implementations for user left out for brevity):
 
 ```csharp
 public record Error(string Code, string Message);
@@ -60,7 +60,7 @@ string message = result.Match(
 
 On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error` and **doesn’t call** later steps. Short-circuiting here is literal: the remaining functions aren’t executed.
 
-Yes, this example uses a repository and mutates a `User`. I could have used a squeaky clean, low-fat, low-carb, free-range, pure, side-effect free calculator example, but, it's a bit far removed from everyday code. That’s deliberate: it’s “real enough” to be motivating without implying you should replace `exceptions` everywhere with `Result`, or that you have to convert your entire codebase to a functional programming-esque one.
+Yes, this example uses a repository and mutates a `User` which is a bit weird to do in FP. I could have used a squeaky clean, low-fat, low-carb, free-range, pure, side-effect free calculator example, but, it's a bit far removed from everyday code. That’s deliberate: it’s “real enough” to be motivating without implying you should replace `exceptions` everywhere with `Result`, or that you have to convert your entire codebase to a functional programming-esque one.
 
 #### The problem: explicit vs. implicit
 
@@ -68,7 +68,7 @@ In C#, fallible work is often handled with exceptions, or with explicit branchin
 
 **Option A: Implicit Control Flow (Exceptions)**
 
-Method signatures often don’t advertise failure when using `exceptions` (including `Task` failures that throw on `await`), unlike `TryX`/`bool`-return patterns.[^checked-exceptions] `DeactivateUser` (below) returns `void`, so failures aren’t visible in the signature. In this style, it might throw while parsing/loading/saving, and it might also throw to signal business-rule failures (even though many teams prefer returning a value for those). You might call these “expected failures represented as exceptions”, but the signature still looks infallible unless someone writes (and reads) careful documentation.
+Method signatures often don’t advertise failure when using `exceptions` (including `Task` failures that throw on `await`), unlike `TryX`/`bool`-return patterns which are not intended to throw when failures are expected.[^checked-exceptions] `DeactivateUser` (below) returns `void`, so failures aren’t visible in the signature. In this style, it might throw while parsing/loading/saving, and it might also throw to signal business-rule failures. You might call these “expected failures represented as exceptions”, but the signature still looks infallible unless someone writes (and reads) careful documentation.
 
 The following shows a style where expected failures are represented as `exceptions` (“exceptions as control flow”, which is *often considered* an anti-pattern), and why that can get noisy and boilerplate-y. This snippet is intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight the worst-case ergonomics. In real code you’d often catch at boundaries (log/translate once) or catch narrower exceptions.
 
@@ -189,13 +189,15 @@ Conventions are easy to violate: nothing stops you from returning `(user: null, 
 
 > **Note:** You can fix the “invalid combinations” problem with an `OperationStatus` hierarchy (e.g., `OperationSuccess` / `OperationFailure`) or a private constructor plus `Success(...)`/`Failure(...)` factories. That helps, but you still need good composition to avoid “check the status after every step.”
 
-`Result` packages these conventions + combinators into a reusable shape (`Ok(...)`/`Fail(...)`, `Map`/`Bind`)—but in C# you still need discipline/analyzers to prevent silently discarding a `Result`.
+`Result` packages these conventions + combinators into a reusable shape (`Ok(...)`/`Fail(...)`, `Map`/`Bind`).
+
+**IMPORTANT!** Do not discard the return value from a function that returns a `Result`, unless you truly don't care if it succeeded (in that case, you should explicitly discard the value using `_`). There's nothing stopping you by default from doing this in C#. This is the big caveat to shoe-horning `Result` in a non-FP language. Prefer to use an analyzer to prevent ignoring the return value from `Result`.
 
 #### The solution: the Result monad
 
 `Result` returns *expected* failure as data (as long as your steps return `Result` rather than throwing), instead of using an `exception` jump. Unexpected `exceptions` still escape.
 
-Now each step either produces the next value or stops with an `Error`; `Result` handles the “stop here” plumbing for you for failures returned as `Fail(...)` (thrown exceptions still bypass this unless you catch/translate them).
+Now each step either produces the next value or stops with an `Error`; `Result` handles the “stop here” plumbing for you for failures returned as `Fail(...)`.
 
 Non-LINQ syntax (plain method chaining):
 
@@ -301,7 +303,7 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-Note: in `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>` (a real runtime wrapper). In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
+Note: in `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>`. In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
 
 ### Unwrap at the boundary
 At some point you have to turn a `Result` back into something your caller understands: an HTTP response, a CLI output/exit code, a message ack, a UI state update, etc.
@@ -312,10 +314,10 @@ That boundary (the “edge” of the system) is a good place to `Match`. In this
 See `HandleDeactivateRequest` below for a concrete example.
 
 #### Why you shouldn’t naively serialize `Result`
-Avoid serializing `Result` in **public contracts**: it leaks an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless you *intentionally* standardize an envelope or add a custom converter).
+Avoid serializing `Result` in **public contracts**: it leaks an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom special converter).
 This teaching `Result` doesn’t expose public `Value`/`Error`/flags, but many production `Result` types do - and that’s where this gets wonky.
 
-If you serialize a `Result`-shaped envelope directly, you can end up with confusing “wrapper JSON” like this:
+If you serialize a `Result`-shaped class directly, you can end up with confusing “wrapper JSON” like this:
 
 ```json
 // don't do this
@@ -342,7 +344,7 @@ Use `T?`/`Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>`
 **Prefer `Result` when:**
 
 * **Failure is expected and recoverable:** validation/business rules, not-found, auth failures, parsing user input.
-* **You want refactor pressure (and sometimes exhaustiveness):** refactors become visible because failure is in the return type. If `TError` is a *closed* union/enum, you can also get exhaustiveness over error variants; with `Error(Code: string, ...)`, you don’t.
+* **You want refactor pressure (and sometimes exhaustiveness):** refactors become visible because failure is in the return type.
 * **Failure is routine / on hot paths:** don’t throw for control flow; prefer `TryParse`/`Result`-style returns.
 
 **Prefer exceptions (or other types) when:**
