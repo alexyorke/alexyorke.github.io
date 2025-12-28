@@ -335,24 +335,23 @@ Otherwise you can end up with confusing “wrapper JSON” like this:
 Eeeeeww. Now your public API exposes `isSuccess/isFailure`, potentially leaks internal error/value shapes, and is ambigious because "isSuccess" could be true but have a 500 status code. Do we use the isSuccess property, or the isFailure? What if they are both true? We're out in the open world now, and so we don't have these constraints anymore, so we have to check both, do validation on that, it's a mess.
 
 
-### Why bother?
-Three pragmatic reasons:
-
-*   **Compiler copilot (exhaustiveness)**: with typed unions / exhaustive `Match`, adding a new error case breaks compilation until you handle it; `exceptions` won’t.
-*   **Parallel validation (accumulation)**: `Bind` is fail-fast, but validation often wants *all* errors; libraries use `Validation<T>`/applicatives (or combine APIs) to accumulate.
-*   **Refactoring safety (visible blast radius)**: `Result` makes error paths explicit in signatures, so refactors surface the ripple effect at compile time instead of becoming latent runtime bugs.
-
 ### Where `Result` fits (and where it doesn’t)
-Rule of thumb:
 
-- Use nullable `T?` (or `Maybe<T>`) for expected absence (no reason needed). For reference types, `T?` is a static annotation, not a runtime guarantee.
-- Use `Result<TSuccess, TError>` when you want an explicit reason (often typed) and fail-fast composition.
+Use `T?`/`Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you’ll handle, and exceptions for bugs or unrecoverable failures.[^always-valid]
 
-`Result` fits **domain logic** (expected failures you handle). It doesn’t replace `exceptions`.[^always-valid]
+**Prefer `Result` when:**
 
-1.  **Infrastructure:** Either let infra throw and handle at boundaries, or catch/bridge exceptions into `Result` at repo/client boundaries for uniform composition.
-2.  **Bugs:** Throw for programmer errors (null args, impossible states, broken invariants). Use `Result` for expected, user/domain-driven failures.
-3.  **Accumulation:** `Bind` is fail-fast. Use validation/combine types to accumulate errors.
+* **Failure is expected and recoverable:** validation/business rules, not-found, auth failures, parsing user input.
+* **You want refactor/exhaustiveness pressure:** error cases are in the signature, so adding/changing them forces call sites to update (often via exhaustive `Match`) instead of relying on docs.
+* **Failure is routine / on hot paths:** don’t throw for control flow; prefer `TryParse`/`Result`-style returns.
+
+**Prefer exceptions (or other types) when:**
+
+* **It’s a bug / broken invariant:** violated preconditions, “impossible states” → exceptions (e.g., `ArgumentNullException`).
+* **Continuing is pointless:** misconfiguration, out-of-memory, “dead end” aborts → exceptions / fail fast.
+* **Diagnostics matter most:** if you primarily need stack traces, exceptions are the native tool.
+* **You need accumulation:** `Bind` is fail-fast; use `Validation<T>`/applicatives (or a combine API) for independent validations.
+
 
 ### Putting it together
 #### Example: deactivate a user
