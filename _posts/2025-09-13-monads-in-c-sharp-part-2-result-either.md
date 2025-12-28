@@ -191,8 +191,7 @@ Result<User, Error> result =
     select deactivated;
 ```
 
-If you find `Bind(FindUser)` hard to read, expand the method group into a lambda so you can “see the variable”:
-`ParseId(inputId).Bind(id => FindUser(id))`.
+If method groups read weird, write the lambda: `ParseId(inputId).Bind(id => FindUser(id))`.
 
 ### A tiny `Result` implementation
 
@@ -202,8 +201,7 @@ Teaching implementation (don’t ship it; use *LanguageExt* or *CSharpFunctional
 It’s intentionally minimalist and **intentionally unsafe around `default`/null**: it stores a `default` in the unused slot (don’t read it). If you add `Value`/`Error` getters, make invalid access impossible/throwing (or model the union properly).
 
 #### Where is the “Unit” / “Return” / “Pure” method?
-In monad terms, **Unit** (also called **Return** or **Pure**) lifts a value into the monadic context. For the monad `Result<_, TError>`, that’s `Ok(...)`.
-`Fail(...)` injects an error value; it’s not “Unit”.
+For the monad `Result<_, TError>`, `Ok(...)` is **Unit/Return/Pure**. `Fail(...)` just constructs the error case.
 
 Here's the code for Result:
 
@@ -286,9 +284,9 @@ With production `Result` types, you can also leak internal `Value`/`Error` shape
 
 ### Why bother?
 Why return `Result` instead of throwing or using enums?
-*   **Explicit Signatures:** `Result<User, Error>` tells you up front that failure is on the table.
-*   **Fewer sentinel values:** Avoid `-1` / `null` / “magic” return values used as control flow. (You still choose how to model errors: strings, enums, or typed errors.)
-*   **Testability:** Tests can assert success/failure and inspect the specific error (`Code`, type, message) via `Match`/`IsSuccess`, without `try/catch` scaffolding.
+*   **Explicit Signatures:** `Result<User, Error>` says failure is on the table.
+*   **Fewer sentinel values:** Avoid `-1` / `null` / “magic” return values used as control flow. (You still choose how to model errors.)
+*   **Testability:** Assert success/failure and inspect error details without `try/catch` scaffolding.
 
 ### Where `Result` fits (and where it doesn’t)
 Rule of thumb:
@@ -396,23 +394,13 @@ If you want fluent pipelines, use a library with async `Map`/`Bind` overloads/ex
 - **[CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions)**
 - **[LanguageExt](https://github.com/louthy/language-ext)**
 
-```csharp
-// Requires library-provided async `Bind` extensions for `Task<Result<...>>`:
-public Task<Result<User, Error>> DeactivateUserAsync(string inputId) =>
-    Task.FromResult(ParseId(inputId))
-        .Bind(FindUserAsync)
-        .Bind(user => Task.FromResult(DeactivateDecision(user)));
-```
-
 ### Recap
 
 `Result` keeps “expected failure” in-band, as data.
 
-1.  **Chain** with `Map`/`Bind` (the universal monad pattern).
-2.  **Handle** `Task<Result<...>>` using async extensions to fuse the effects.
-3.  **Decide** once at the edge with `Match`.
-
-Toolbox recap: `List` (many), `Maybe` (optional), `Result` (success/failure with a reason). Same core shape: `Bind`/`SelectMany`.
+- Chain with `Map`/`Bind`.
+- `Match` at boundaries (or when translating layers).
+- For async, either `await` between steps or use library-provided async combinators.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
 If you want the simple `from`/`from`/`select` query syntax to compile, add these extension methods (or add the same methods directly to `Result`). (Other query keywords like `where` require additional methods.)
