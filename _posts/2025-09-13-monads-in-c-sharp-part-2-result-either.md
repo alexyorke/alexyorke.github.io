@@ -288,7 +288,9 @@ public sealed class Result<TSuccess, TError>
 
 ### Unwrap at the boundary
 At some point you have to turn a `Result` back into something your caller understands: an HTTP response, a CLI output/exit code, a message ack, a UI state update, etc.
-That “edge of the system” is a good place to `Match`.
+That boundary (the “edge” of the system) is a good place to `Match`.
+
+> **Note:** In this post, I use “boundary” and “edge” as synonyms.
 
 > **Boundary / application layer:** parse/validate inputs, call repos/services, run workflow/domain decisions, then `Match` into a public output (`DTO`s/status/`ProblemDetails`).
 > Don’t ignore returned `Result`s; use an analyzer.[^unused-result]
