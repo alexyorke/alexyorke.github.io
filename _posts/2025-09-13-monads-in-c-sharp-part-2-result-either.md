@@ -130,7 +130,7 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In larger apps, exceptions often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context/recovery.
+In larger apps, exceptions often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
 
 **Main point: in the code above, you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure. It’s easy to repeat, it's noisy, and easy to get wrong.**
 
@@ -419,14 +419,9 @@ Async note: once you mix `Task` and `Result`, you’ll quickly want async-aware 
 
 ### Recap
 
-`Result` keeps “expected failure” in-band, as data.
-
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
-- Use `Bind` to build a linear pipeline that short-circuits on the first failure.
-- Use `Match` to translate a `Result` into something the caller cares about (DTO/status/`ProblemDetails`, CLI output, etc.).
-- Avoid serializing `Result` as a public contract; unwrap into DTOs.
-- `Result` doesn’t replace exceptions; decide which failures you model in-band (as `Fail`) and where you catch/translate exceptions at boundaries.
-- Once you mix `Task` and `Result`, you’ll want async-aware helpers (`MapAsync`/`BindAsync`) from a library.
+- Use `Bind` for fail-fast pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
+- Avoid serializing `Result` as a public contract; unwrap into DTOs. Exceptions still exist - decide where you catch/translate them.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
 If you want the simple `from`/`from`/`select` query syntax to compile, add these extension methods (or add the same methods directly to `Result`). (Other query keywords like `where` require additional methods.)
