@@ -336,10 +336,11 @@ Eeeeeww. Now your public API exposes `isSuccess/isFailure`, potentially leaks in
 
 
 ### Why bother?
-Why return `Result` instead of throwing or using enums?
-*   **Explicit Signatures:** `Result<User, Error>` makes failure a normal outcome you must handle (and carries a success value on the happy path).
-*   **Domain modeling:** it forces you to separate “business failure” (a reason you can handle) from “system crash” (an `exception` you generally can’t).
-*   **Railway oriented programming:** it keeps happy-path logic linear and stops it being polluted with defensive checks deep in your business logic.
+Three pragmatic reasons:
+
+*   **Compiler copilot (exhaustiveness)**: with typed unions / exhaustive `Match`, adding a new error case breaks compilation until you handle it; `exceptions` won’t.
+*   **Parallel validation (accumulation)**: `Bind` is fail-fast, but validation often wants *all* errors; libraries use `Validation<T>`/applicatives (or combine APIs) to accumulate.
+*   **Refactoring safety (visible blast radius)**: `Result` makes error paths explicit in signatures, so refactors surface the ripple effect at compile time instead of becoming latent runtime bugs.
 
 ### Where `Result` fits (and where it doesn’t)
 Rule of thumb:
