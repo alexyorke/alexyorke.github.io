@@ -15,9 +15,9 @@ This post is the same idea, but for explicit errors: `Result<TSuccess, TError>` 
 
 The `Result` monad lets you sequence computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run; the failure just flows through).[^shortcircuit]
 
-If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” as `Result<T, List<TError>>`, but you have to define the aggregation rules yourself. If you have more than two meaningful outcomes (not strictly pass/fail), `Result` isn’t really idiomatic; consider a union/tagged type instead.
+Prefer to keep results within `Result` and compose with `Bind` for as long as you can. At some point, however, you do need to do something with the value, such as at a boundary in your app, or you need to do error handling. In that case, use `Match` on the `Result`. [^checked-exceptions]
 
-This post uses `Result<TSuccess, TError>`. Like `Maybe<T>`, it models a two-branch flow and composes cleanly with `Bind`; unlike `Maybe`, the non-success branch carries an explicit error value. (`Maybe` models absence; `Result` models failure with a reason.) Prefer to keep results within `Result` and compose with `Bind`; handle them at boundaries, or translate between layers (usually by `Match`-ing into a new shape, or mapping errors with a library helper).[^checked-exceptions]
+If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” as `Result<T, List<TError>>`, but you have to define the aggregation rules yourself. If you have more than two meaningful outcomes (not strictly pass/fail), `Result` isn’t really idiomatic; consider a union/tagged type instead.
 
 If you're coming from an FP language, this could correspond to a right-biased `Either<TError, TSuccess>` (note the swapped type parameter order): `TError` is the failure branch and `TSuccess` is the success branch, by convention.
 
