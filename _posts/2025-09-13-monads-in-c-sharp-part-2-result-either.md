@@ -209,7 +209,7 @@ Result<User, Error> result =
 
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
-Translating between layers often means turning a `Result` into a different output shape via `Match`. For example, at a boundary you might translate into a response DTO:
+Translating between layers often means turning a `Result` into a different output shape via `Match`. For example, at a boundary you might translate into a response shape:
 
 ```csharp
 string response =
@@ -219,6 +219,7 @@ string response =
 ```
 
 `Match` returns any `TResult`. At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
+When translating, try not to erase diagnostics: log the original exception/cause (or carry it inside `TError`) instead of flattening everything into a string.
 
 **IMPORTANT!** In C#, it’s still easy to ignore return values such as `Result`, which means that errors could go unnoticed. For a workaround, use an analyzer.[^unused-result]
 
@@ -315,12 +316,13 @@ If you serialize a `Result`-shaped class directly, you can end up with confusing
 }
 ```
 
-Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Since we're outside our "world", the API consumers would have to check `isSuccess`, the value, and the error, what if `isSuccess` was true but there was an error and a value, but the HTTP status code was 500? It's confusing.
+Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code, which invites contradictory states.
 
 
 ### Where `Result` fits (and where it doesn’t)
 
 Rule of thumb: `T?`/`Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you’ll handle, and exceptions for bugs or unrecoverable failures.[^always-valid]
+Also: model only the failure detail callers can act on; if `TError` is part of a public API, keep it small and stable.
 
 **Prefer `Result` when:**
 
