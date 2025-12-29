@@ -27,7 +27,7 @@ What it looks like (implementations for user left out for brevity):
 
 ```csharp
 public record Error(string Code, string Message);
-IUserRepo repo = /* assume repo is in scope */;
+// Assume `repo` is in scope.
 
 // Creating results:
 Result<User, Error> okUser = Result<User, Error>.Ok(new User(/* ... */));
@@ -212,10 +212,12 @@ LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 Translating between layers often means turning a `Result` into a different output shape via `Match`. For example, at a boundary you might translate into a response shape:
 
 ```csharp
+Result<int, Error> infraResult = ParseId(inputIdFromRequest);
+
 string response =
     infraResult.Match(
-        ok: _ => "OK",
-        err: infraErr => Map(infraErr));
+        ok: id => $"OK: {id}",
+        err: e => $"Bad request: {e.Code} - {e.Message}");
 ```
 
 `Match` returns any `TResult`. At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
