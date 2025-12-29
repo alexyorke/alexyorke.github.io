@@ -12,7 +12,7 @@ In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) 
 
 If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps, and the `Maybe` monad decides whether the next step runs.
 
-The `Result` monad[^result-monad-precise] lets you sequence and compose computations that are expected to fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for error handling.
+The `Result` monad[^result-monad-precise] lets you sequence and compose computations that can return an error. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for error handling.
 
 `Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`) instead of being empty. `Maybe` models optionality (not error handling); `Result` models failure *with* an explicit reason.
 
@@ -57,7 +57,7 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting is literal for the remaining methods you pass to `Bind`: after the first `Fail`, later steps aren't invoked. `Result` is responsible for the control flow.
+On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the error flows through to the end. `Result` is responsible for the control flow.
 
 Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: toy examples can feel far from everyday code, and I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
 
@@ -197,7 +197,7 @@ Conventions are easy to violate: nothing stops you from returning `(user: null, 
 
 `Result` returns *expected* failure as data (as long as your steps return `Result` rather than throwing), instead of using an `exception` jump. Unexpected `exceptions` still escape.
 
-Now each step either produces the next value or propagates the first `Fail(...)`. This is often described as **short-circuiting** or **fail-fast**.[^shortcircuit]
+Now each step either produces the next value or propagates the first `Fail(...)`. This is often described as **short-circuiting**.[^shortcircuit]
 
 Non-LINQ syntax (plain method chaining):
 
@@ -314,8 +314,8 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 **Prefer `exceptions` (or other types) when:**
 
 * **It's a bug / broken invariant:** violated preconditions, "impossible states" → `exceptions` (e.g., `ArgumentNullException`).
-* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → `exceptions` / fail fast.
-* **You need accumulation:** `Bind` is fail-fast; use `Validation<T>`/applicatives (or a combine API) for independent validations.
+* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → `exceptions` / short-circuit.
+* **You need accumulation:** `Bind` is short-circuiting; use `Validation<T>`/applicatives (or a combine API) for independent validations.
 
 
 ### Putting it together
@@ -421,7 +421,7 @@ Async note: once you mix `Task` and `Result`, you'll quickly want async-aware co
 ### Recap
 
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
-- Use `Bind` for fail-fast pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
+- Use `Bind` for short-circuiting pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
 - For public contracts, unwrap `Result` into DTOs (rather than serializing it). `exceptions` still exist - decide where you catch/translate them.
 - Once you mix `Task` and `Result`, you'll want async-aware helpers (`MapAsync`/`BindAsync`) from a library.
 
@@ -460,7 +460,7 @@ public static class ResultLinqExtensions
 
 [^shortcircuit]: "Short-circuit" here: after the first failure, later steps aren't called; the failure value just propagates.
 
-[^accumulation]: `Bind` is sequential and fail-fast. If you need to accumulate independent validation errors, prefer a `Validation<T>`/applicative (or a dedicated `Combine` API). If you have several first-class outcomes, a union/tagged type is often a better model than forcing "success vs error".
+[^accumulation]: `Bind` is sequential and short-circuiting. If you need to accumulate independent validation errors, prefer a `Validation<T>`/applicative (or a dedicated `Combine` API). If you have several first-class outcomes, a union/tagged type is often a better model than forcing "success vs error".
 
 [^either]: Closest analogue in FP is usually `Either` (often Left=error, Right=success, but conventions vary).
 
