@@ -1,5 +1,5 @@
 ---
-title: "Monads in C# (Part 2): Result (Either)"
+title: "Monads in C# (Part 2): Result"
 date: 2025-09-13
 description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose short-circuiting workflows with explicit errors."
 ---
@@ -12,7 +12,7 @@ In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) 
 
 If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps, and the `Maybe` monad decides whether the next step runs.
 
-The `Result` monad[^result-monad-precise] lets you sequence and compose computations that can return an error. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for error handling.
+The `Result` pattern[^result-monad-precise] lets you sequence and compose computations that are expected to or could fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for **making expected failure explicit and composable**.
 
 `Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`) instead of being empty. `Maybe` models optionality (not error handling); `Result` models failure *with* an explicit reason.
 
@@ -57,11 +57,11 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the error flows through to the end. `Result` is responsible for the control flow.
+On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the error flows through to the end. `Bind` *encodes* the control flow so your business logic doesn't have to repeat it.
 
 Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: toy examples can feel far from everyday code, and I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
 
-At this point, that's pretty much all you need to know. Now, if you see the scroll bar on the side, then you might notice that there's some more content. I don't want to give the impression that `Result` is this super complicated thing, it's very straightforward. I'm just going into _lots_ of detail to keep the level of detail consistent between articles.
+The core idea is simple: `Bind` chains successes and short-circuits on the first failure. The rest of this post just explores how that plays out in realistic C# code (exceptions, repos, boundaries, async).
 
 #### The problem: explicit vs. implicit
 
@@ -73,6 +73,8 @@ Method signatures often don't advertise failure when using `exceptions`, unlike 
 `DeactivateUser` (below) returns `void`, so failures aren't visible in the signature. In this style, it might throw for parsing/loading/saving and even for business-rule failures.
 
 The following shows a style where expected failures are represented as `exceptions` (sometimes called "exceptions as control flow"; some may avoid this style). It's intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
+
+Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw occasionally, then catch once at the boundary (log + translate). The snippet below is the "worst-case" version: local `try/catch` scaffolding everywhere to add context.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -212,7 +214,7 @@ Result<User, Error> result =
 
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
-Translating between layers often means turning a `Result` into a different output shape via `Match`. For example, at a boundary you might translate into a response shape:
+Translating between layers often means turning a `Result` into a different output shape via `Match`. In practice you'll often also want `MapError` (or `BindError`) to translate error types between layers without ending the pipeline. For example, at a boundary you might translate into a response shape:
 
 ```csharp
 Result<int, Error> infraResult = ParseId(inputIdFromRequest);
@@ -302,7 +304,7 @@ public sealed class Result<TSuccess, TError>
 
 ### Where `Result` fits (and where it doesn't)
 
-Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and `exceptions` for bugs or unrecoverable failures.[^always-valid]
+Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and `exceptions` often for bugs or unrecoverable failures.[^always-valid]
 Also: model only the failure detail callers can act on; if `TError` is part of a public API, keep it small and stable.
 
 **Prefer `Result` when:**
