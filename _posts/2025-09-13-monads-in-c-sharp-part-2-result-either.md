@@ -59,6 +59,8 @@ string message = result.Match(
 
 On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the error flows through to the end. `Bind` *encodes* the control flow so your business logic doesn't have to repeat it.
 
+> **Note:** You may also see this described as "railway switching", "bypassing", "error propagation", or "fail-fast".
+
 Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: toy examples can feel far from everyday code, and I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
 
 The core idea is simple: `Bind` chains successes and short-circuits on the first failure. The rest of this post just explores how that plays out in realistic C# code (exceptions, repos, boundaries, async).
