@@ -12,11 +12,11 @@ In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) 
 
 If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps, and `Maybe` decides whether the next step runs.
 
-The `Result` pattern[^result-monad-precise] lets you sequence and compose computations that are expected to or could fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for **making expected failure explicit and composable**.
+The `Result` pattern[^result-monad-precise] lets you compose computations that can fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for **making expected failure explicit and composable**.
 
 `Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`). `Maybe` models optionality; `Result` models failure *with* an explicit reason.
 
-Prefer to keep values within `Result` and compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. [^checked-exceptions]
+Prefer to compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. [^checked-exceptions]
 
 If you need to accumulate many errors (e.g., form validation) or you have several first-class outcomes, `Result` may not be the best fit.[^accumulation]
 
@@ -225,7 +225,7 @@ string response =
 
 At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
 
-**IMPORTANT!** In C#, there is nothing forcing you to handle a returned `Result`, which means that errors could go unnoticed. For a workaround, use an analyzer.[^unused-result]
+**IMPORTANT!** C# doesn't force you to handle a returned `Result`. Use an analyzer.[^unused-result]
 
 ### A tiny `Result` implementation
 
@@ -320,9 +320,9 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 
 ### Putting it together
 
-At some point you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.) or you need to do something with the error such as error handling. A boundary (the "edge" of the system) is a good place to `Match`.
+Eventually you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.). A boundary (the "edge" of the system) is a good place to `Match`.
 
-> **Boundary/Application Layer:** the boundary (or edge) of a program is the set of places where your program stops being "just your code" and starts interacting with something you don't fully control. That usually means: data, control, or responsibility crosses in or out of your program.
+> **Boundary/Application Layer:** the boundary (or edge) is where your program interacts with something you don't fully control (inputs, networks, storage, other systems).
 
 See `HandleDeactivateRequest` below for a concrete example.
 
@@ -416,17 +416,16 @@ Now your public API couples clients to an internal control-flow wrapper and can 
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
-Async note: once you mix `Task` and `Result`, you'll want async-aware combinators (`MapAsync`/`BindAsync`) so you can compose `Task<Result<...>>` without glue code. Rather than reimplement those helpers here, use a library that provides them.
+Async note: once you mix `Task` and `Result`, you'll want async-aware combinators (`MapAsync`/`BindAsync`) to compose `Task<Result<...>>` without glue code. Rather than reimplement those helpers here, use a library that provides them.
 
 ### Recap
 
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
-- Use `Bind` for short-circuiting pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
-- For public contracts, unwrap `Result` into DTOs (rather than serializing it). `exceptions` still exist - decide where you catch/translate them.
-- Once you mix `Task` and `Result`, you'll want async-aware helpers (`MapAsync`/`BindAsync`) from a library.
+- Use `Bind` for short-circuiting pipelines; `Match` to produce caller-facing output.
+- For public contracts, unwrap `Result` into DTOs (rather than serializing it). Decide where you catch/translate `exceptions`.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
-If you want the simple `from`/`from`/`select` query syntax to compile, add these extension methods (or add the same methods directly to `Result`). Other query keywords like `where` require additional methods.
+If you want `from`/`from`/`select` query syntax to compile, add these extension methods (or add them directly to `Result`). Other keywords like `where` require additional methods.
 
 ```csharp
 public static class ResultLinqExtensions
