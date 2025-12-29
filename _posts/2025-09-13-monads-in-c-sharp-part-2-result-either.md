@@ -61,9 +61,9 @@ On success, `Bind` passes the inner value to the next step; on failure, it forwa
 
 > **Note:** You may also see this described as "railway switching", "bypassing", "error propagation", or "fail-fast".
 
-Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: toy examples can feel far from everyday code, and I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
+Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
 
-The core idea is simple: `Bind` chains successes and short-circuits on the first failure. The rest of this post just explores how that plays out in realistic C# code (exceptions, repos, boundaries, async).
+The core idea is simple: `Bind` chains successes and short-circuits on the first failure.
 
 #### The problem: explicit vs. implicit
 
@@ -76,7 +76,7 @@ Method signatures often don't advertise failure when using `exceptions`, unlike 
 
 The following shows a style where expected failures are represented as `exceptions` (sometimes called "exceptions as control flow"; some may avoid this style). It's intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
 
-Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw occasionally, then catch once at the boundary (log + translate). The snippet below is the "worst-case" version: local `try/catch` scaffolding everywhere to add context.
+Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw occasionally, then catch once at the boundary. The snippet below is the "worst-case" version: local `try/catch` scaffolding everywhere to add context.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -101,11 +101,7 @@ public void DeactivateUser(string inputId)
     {
         id = int.Parse(inputId);
     }
-    catch (FormatException ex)
-    {
-        throw new InvalidOperationException("DeactivateUser failed at: parse id", ex);
-    }
-    catch (OverflowException ex)
+    catch (Exception ex) when (ex is FormatException or OverflowException)
     {
         throw new InvalidOperationException("DeactivateUser failed at: parse id", ex);
     }
@@ -138,7 +134,7 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-**Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's easy to repeat, it's noisy, and easy to get wrong.**
+**Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's noisy, and easy to get wrong.**
 
 In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
 
@@ -216,7 +212,7 @@ Result<User, Error> result =
 
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
-Translating between layers often means turning a `Result` into a different output shape via `Match`. In practice you'll often also want `MapError` (or `BindError`) to translate error types between layers without ending the pipeline. For example, at a boundary you might translate into a response shape:
+Translating between layers often means turning a `Result` into a different output shape via `Match`. In practice you'll often also want `MapError` (or `BindError`) to translate error types between layers without ending the pipeline.
 
 ```csharp
 Result<int, Error> infraResult = ParseId(inputIdFromRequest);
@@ -227,9 +223,9 @@ string response =
         err: e => $"Bad request: {e.Code} - {e.Message}");
 ```
 
-Here, `Match` could be modified to return any `TResult`, it doesn't have to be a `string`. At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
+At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
 
-**IMPORTANT!** In C#, there is nothing forcing you to handle the return from a method that returns a `Result`, which means that errors could go unnoticed. For a workaround, use an analyzer.[^unused-result]
+**IMPORTANT!** In C#, there is nothing forcing you to handle a returned `Result`, which means that errors could go unnoticed. For a workaround, use an analyzer.[^unused-result]
 
 ### A tiny `Result` implementation
 
