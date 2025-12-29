@@ -59,7 +59,7 @@ string message = result.Match(
 
 On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting is literal for the remaining delegates you pass to `Bind`: after the first `Fail`, later steps aren’t invoked (but any side effects that already happened stay happened).
 
-Yes, this example uses a repository and mutates a `User` which is a bit weird to do in FP. I could have used a squeaky clean, low-fat, low-carb, free-range, pure, side-effect free calculator example, but, it's a bit far removed from everyday code. That’s deliberate: it’s “real enough” to be motivating without implying you should replace `exceptions` everywhere with `Result`, or that you have to convert your entire codebase to a functional programming-esque one.
+Yes, this example uses a repository and mutates a `User`. That’s deliberate: toy examples can feel far from everyday code, and I don’t want this post to imply you should replace `exceptions` everywhere with `Result` (or “go full FP” to use it).
 
 #### The problem: explicit vs. implicit
 
@@ -70,7 +70,7 @@ In C#, fallible work is often handled with exceptions, or with explicit branchin
 Method signatures often don’t advertise failure when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
 `DeactivateUser` (below) returns `void`, so failures aren’t visible in the signature. In this style, it might throw for parsing/loading/saving and even for business-rule failures.
 
-The following shows a style where expected failures are represented as `exceptions` (“exceptions as control flow”, which is *often considered* an anti-pattern). It’s intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
+The following shows a style where expected failures are represented as `exceptions` (sometimes called “exceptions as control flow”; some teams avoid this style). It’s intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -227,8 +227,8 @@ When translating, try not to erase diagnostics: log the original exception/cause
 
 ### A tiny `Result` implementation
 
-Aside: try implementing `Result` yourself first.
-This teaching implementation (don’t ship it; use *LanguageExt* or *CSharpFunctionalExtensions*) is intentionally minimalist and unsafe around `default`/null: it stores `default` in the unused slot (don’t read it), it doesn’t prevent `Ok(null)` / `Fail(null)`, it doesn't prevent creating a null `Result`, doesn't have async support, and it doesn’t catch `exceptions`. These extra checks are intentionally omitted because I don't want to distract from the core structure of `Result`, and would likely end up massive otherwise.
+Aside: if you’re curious, try implementing `Result` yourself first.
+This teaching implementation isn’t production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don’t read it), doesn’t prevent `Ok(null)` / `Fail(null)`, doesn’t guard against “returning null” from `Bind`, has no async support, and doesn’t catch `exceptions`—to keep the focus on the core shape.
 
 In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic “unit”). `Fail(...)` is the constructor for the error case (analogous to `Left(...)` for `Either`).
 
@@ -304,8 +304,8 @@ At some point you turn a `Result` into something your caller understands (HTTP r
 > **Boundary / application layer:** parse/validate inputs, call repos/services, run workflow/domain decisions, then `Match` into a public output (`DTO`s/status/`ProblemDetails`/etc.).
 See `HandleDeactivateRequest` below for a concrete example.
 
-#### Why you shouldn’t naively serialize `Result`
-Avoid serializing `Result` in **public contracts**: it leaks an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
+#### Why serializing `Result` directly can be awkward
+In **public contracts**, serializing `Result` tends to leak an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
 Some `Result` types could expose public `Value`/`Error`/flags, which can make serialization even worse.
 
 If you serialize a `Result`-shaped class directly, you can end up with confusing “wrapper JSON” like this:
@@ -330,7 +330,7 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 
 * **Failure is expected and recoverable:** validation/business rules, not-found, auth failures, parsing user input.
 * **You want refactor pressure (and sometimes exhaustiveness):** refactors become visible because failure is in the return type.
-* **Failure is routine / on hot paths:** don’t throw for control flow; prefer `TryParse`/`Result`-style returns.
+* **Failure is routine / on hot paths:** avoid throwing for control flow; prefer `TryParse`/`Result`-style returns.
 
 **Prefer exceptions (or other types) when:**
 
@@ -421,7 +421,7 @@ Async note: once you mix `Task` and `Result`, you’ll quickly want async-aware 
 
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
 - Use `Bind` for fail-fast pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
-- Avoid serializing `Result` as a public contract; unwrap into DTOs. Exceptions still exist - decide where you catch/translate them.
+- For public contracts, unwrap `Result` into DTOs (rather than serializing it). Exceptions still exist - decide where you catch/translate them.
 - Once you mix `Task` and `Result`, you’ll want async-aware helpers (`MapAsync`/`BindAsync`) from a library.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
