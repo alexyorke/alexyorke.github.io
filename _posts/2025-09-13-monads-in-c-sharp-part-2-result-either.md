@@ -6,7 +6,7 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
 
-> _Note_: rewritten 2025-12-21.
+> _Note_: rewritten 2025-12-28.
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>`, then built `Maybe<T>`.
 
