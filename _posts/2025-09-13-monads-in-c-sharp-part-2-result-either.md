@@ -61,7 +61,7 @@ On success, `Bind` passes the inner value to the next step; on failure, it forwa
 
 Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: toy examples can feel far from everyday code, and I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
 
-At this point, that's pretty much all you need to know. Now, if you see the scroll bar on the side, then you might notice that there's some more, content. I don't want to give the impression that `Result` is this super complicated thing, it's very straightforward. I'm just going into _lots_ of detail to keep the level of detail consistent between articles.
+At this point, that's pretty much all you need to know. Now, if you see the scroll bar on the side, then you might notice that there's some more content. I don't want to give the impression that `Result` is this super complicated thing, it's very straightforward. I'm just going into _lots_ of detail to keep the level of detail consistent between articles.
 
 #### The problem: explicit vs. implicit
 
@@ -82,6 +82,8 @@ public class User
     public bool IsActive { get; set; }
 }
 ```
+
+`User` is **mutable** here to keep focus on `Result`. Prefer immutability where practical in domain code; some ecosystems (e.g., ORMs) still push you toward mutation.[^immutability]
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -132,9 +134,9 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
-
 **Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's easy to repeat, it's noisy, and easy to get wrong.**
+
+In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
 
 **Option B: Explicit Validation (Guard Clauses)**
 To avoid throwing for expected failures, you often use `TryX`-style APIs, guard clauses, and early returns. It's linear, but still noisy.
@@ -184,8 +186,6 @@ public DeactivateUserResult DeactivateUser(string inputId)
 }
 ```
 
-`User` is **mutable** here to keep focus on `Result`. Prefer immutability where practical in domain code; some ecosystems (e.g., ORMs) still push you toward mutation.[^immutability]
-
 An enum gives you a status, but not a success payload. If you need to return data on success, you end up adding an `out` parameter, returning a tuple, or introducing a wrapper type.
 Conventions are easy to violate: nothing stops you from returning `(user: null, error: null)` or populating both.
 
@@ -207,6 +207,8 @@ Result<User, Error> result =
         .Bind(FindUser)
         .Bind(DeactivateDecision);
 ```
+
+> In `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>`. In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
 
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
@@ -230,8 +232,6 @@ Here, `Match` could be modified to return any `TResult`, it doesn't have to be a
 > If you're curious, try implementing `Result` yourself first.
 
 This teaching implementation isn't production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no `async` support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
-
-> Where is `Result.Unit(...)`? In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic "unit"). `Fail(...)` is the constructor for the error case. Practically, `Result.Unit(...)` = `Result.Ok(...)`.
 
 Here's the implementation for `Result`:
 
@@ -298,29 +298,7 @@ public sealed class Result<TSuccess, TError>
 }
 ```
 
-> In `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>`. In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
-
-At some point you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.) or you need to do something with the error such as error handling. A boundary (the "edge" of the system) is a good place to `Match`.
-
-> **Boundary/Application Layer:** the boundary (or edge) of a program is the set of places where your program stops being "just your code" and starts interacting with something you don't fully control. That usually means: data, control, or responsibility crosses in or out of your program.
-
-See `HandleDeactivateRequest` below for a concrete example.
-
-#### Why serializing `Result` directly can be awkward
-
-In **public contracts**, serializing `Result` tends to leak an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
-
-Some `Result` types could expose public `Value`/`Error`/flags, which can make serialization even worse. If you serialize a `Result`-shaped class directly, you can end up with confusing "wrapper JSON" like this:
-
-```json
-{
-  "isSuccess": false,
-  "value": null,
-  "error": { "code": "DbError", "details": { /* ... */ } }
-}
-```
-
-Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code, which invites contradictory states.
+> Where is `Result.Unit(...)`? In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic "unit"). `Fail(...)` is the constructor for the error case. Practically, `Result.Unit(...)` = `Result.Ok(...)`.
 
 ### Where `Result` fits (and where it doesn't)
 
@@ -341,6 +319,13 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 
 
 ### Putting it together
+
+At some point you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.) or you need to do something with the error such as error handling. A boundary (the "edge" of the system) is a good place to `Match`.
+
+> **Boundary/Application Layer:** the boundary (or edge) of a program is the set of places where your program stops being "just your code" and starts interacting with something you don't fully control. That usually means: data, control, or responsibility crosses in or out of your program.
+
+See `HandleDeactivateRequest` below for a concrete example.
+
 #### Example: deactivate a user
 We want to deactivate a user given a user's `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
 
@@ -409,9 +394,25 @@ public sealed class UserService
 
 This computes `Result<User, Error>` internally, then `Match`es at the boundary (`HandleDeactivateRequest`) to produce the caller-facing output. In a real HTTP endpoint, you'd typically return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
 
-### Why is `_repo.Save(user)` inside `Match`?
+#### Why is `_repo.Save(user)` inside `Match`?
 
 `Save` is `I/O`. It can fail with domain-relevant outcomes (e.g., uniqueness conflicts) and unexpected infrastructure `exceptions` (timeouts, outages). If you want conflicts to be "expected failures," catch and translate the specific `exception` into a `Result` error; otherwise let truly unexpected `exceptions` bubble to boundary handlers.
+
+### Why serializing `Result` directly can be awkward
+
+In **public contracts**, serializing `Result` tends to leak an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
+
+Some `Result` types could expose public `Value`/`Error`/flags, which can make serialization even worse. If you serialize a `Result`-shaped class directly, you can end up with confusing "wrapper JSON" like this:
+
+```json
+{
+  "isSuccess": false,
+  "value": null,
+  "error": { "code": "DbError", "details": { /* ... */ } }
+}
+```
+
+Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code, which invites contradictory states.
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
