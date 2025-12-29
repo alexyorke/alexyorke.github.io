@@ -23,7 +23,7 @@ If you need to accumulate many errors (e.g., form validation) or you have severa
 If you're coming from FP, this is closest to an `Either`/`Result`-style type.[^either]
 
 ### TL;DR
-What it looks like (implementations for user left out for brevity):
+What it looks like (implementations for `User` left out for brevity):
 
 ```csharp
 public record Error(string Code, string Message);
@@ -65,7 +65,7 @@ At this point, that's pretty much all you need to know. Now, if you see the scro
 
 #### The problem: explicit vs. implicit
 
-In C#, fallible work is often handled with exceptions, or with explicit branching (`TryX`/guard clauses/status checks) depending on whether failure is expected.
+In C#, fallible work is often handled with `exceptions`, or with explicit branching (`TryX`/guard clauses/status checks) depending on whether failure is expected.
 
 **Option A: Implicit Control Flow (Exceptions)**
 
@@ -132,9 +132,9 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-In larger apps, exceptions often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
+In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
 
-**Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside try/catch, and stopping (early return/throwing exception). It's easy to repeat, it's noisy, and easy to get wrong.**
+**Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's easy to repeat, it's noisy, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 To avoid throwing for expected failures, you often use `TryX`-style APIs, guard clauses, and early returns. It's linear, but still noisy.
@@ -193,7 +193,7 @@ Conventions are easy to violate: nothing stops you from returning `(user: null, 
 
 `Result` packages these conventions + combinators into a reusable shape (`Ok(...)`/`Fail(...)`, `Map`/`Bind`).
 
-#### The solution: the Result monad
+#### The solution: the `Result` monad
 
 `Result` returns *expected* failure as data (as long as your steps return `Result` rather than throwing), instead of using an `exception` jump. Unexpected `exceptions` still escape.
 
@@ -229,9 +229,9 @@ Here, `Match` could be modified to return any `TResult`, it doesn't have to be a
 
 > If you're curious, try implementing `Result` yourself first.
 
-This teaching implementation isn't production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no async support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
+This teaching implementation isn't production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no `async` support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
 
-> Where is `Result.Unit(...)`? In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic "unit"). `Fail(...)` is the constructor for the error case. Practically, Result.Unit(...) = Result.Ok(...).
+> Where is `Result.Unit(...)`? In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic "unit"). `Fail(...)` is the constructor for the error case. Practically, `Result.Unit(...)` = `Result.Ok(...)`.
 
 Here's the implementation for `Result`:
 
@@ -324,7 +324,7 @@ Now your public API couples clients to an internal control-flow wrapper and can 
 
 ### Where `Result` fits (and where it doesn't)
 
-Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and exceptions for bugs or unrecoverable failures.[^always-valid]
+Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and `exceptions` for bugs or unrecoverable failures.[^always-valid]
 Also: model only the failure detail callers can act on; if `TError` is part of a public API, keep it small and stable.
 
 **Prefer `Result` when:**
@@ -333,10 +333,10 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 * **You want refactor pressure (and sometimes exhaustiveness):** refactors become visible because failure is in the return type.
 * **Failure is routine / on hot paths:** avoid throwing for control flow; prefer `TryParse`/`Result`-style returns.
 
-**Prefer exceptions (or other types) when:**
+**Prefer `exceptions` (or other types) when:**
 
-* **It's a bug / broken invariant:** violated preconditions, "impossible states" → exceptions (e.g., `ArgumentNullException`).
-* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → exceptions / fail fast.
+* **It's a bug / broken invariant:** violated preconditions, "impossible states" → `exceptions` (e.g., `ArgumentNullException`).
+* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → `exceptions` / fail fast.
 * **You need accumulation:** `Bind` is fail-fast; use `Validation<T>`/applicatives (or a combine API) for independent validations.
 
 
@@ -411,7 +411,7 @@ This computes `Result<User, Error>` internally, then `Match`es at the boundary (
 
 ### Why is `_repo.Save(user)` inside `Match`?
 
-`Save` is `I/O`. It can fail with domain-relevant outcomes (e.g., uniqueness conflicts) and unexpected infrastructure exceptions (timeouts, outages). If you want conflicts to be "expected failures," catch and translate the specific exception into a `Result` error; otherwise let truly unexpected exceptions bubble to boundary handlers.
+`Save` is `I/O`. It can fail with domain-relevant outcomes (e.g., uniqueness conflicts) and unexpected infrastructure `exceptions` (timeouts, outages). If you want conflicts to be "expected failures," catch and translate the specific `exception` into a `Result` error; otherwise let truly unexpected `exceptions` bubble to boundary handlers.
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
@@ -421,7 +421,7 @@ Async note: once you mix `Task` and `Result`, you'll quickly want async-aware co
 
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
 - Use `Bind` for fail-fast pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
-- For public contracts, unwrap `Result` into DTOs (rather than serializing it). Exceptions still exist - decide where you catch/translate them.
+- For public contracts, unwrap `Result` into DTOs (rather than serializing it). `exceptions` still exist - decide where you catch/translate them.
 - Once you mix `Task` and `Result`, you'll want async-aware helpers (`MapAsync`/`BindAsync`) from a library.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
