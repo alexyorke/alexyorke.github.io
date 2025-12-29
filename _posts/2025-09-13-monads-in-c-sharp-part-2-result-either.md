@@ -12,7 +12,7 @@ In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) 
 
 If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps, and the `Maybe` monad decides whether the next step runs.
 
-The `Result` pattern (more precisely: `Result<_, TError>` as a monad) lets you sequence and compose computations that are expected to or could fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run; the failure just flows through).[^shortcircuit]
+The `Result` monad[^result-monad-precise] lets you sequence and compose computations that are expected to or could fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don’t run; the failure just flows through).[^shortcircuit] It's useful for error handling.
 
 `Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`) instead of being empty. `Maybe` models optionality (not error handling); `Result` models failure *with* an explicit reason.
 
@@ -57,9 +57,11 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting is literal for the remaining delegates you pass to `Bind`: after the first `Fail`, later steps aren’t invoked (but any side effects that already happened stay happened).
+On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting is literal for the remaining delegates you pass to `Bind`: after the first `Fail`, later steps aren’t invoked (but any side effects that already happened stay happened). `Result` is responsible for the control flow.
 
 Yes, this example uses a repository and mutates a `User`. That’s deliberate: toy examples can feel far from everyday code, and I don’t want this post to imply you should replace `exceptions` everywhere with `Result` (or “go full FP” to use it).
+
+At this point, that's pretty much all you need to know. Now, if you see the scroll bar on the side, then you might notice that there's some more, content. I don't want to give the impression that `Result` is this super complicated thing, it's very straightforward. I'm just going into _lots_ of detail to keep the level of detail consistent between articles.
 
 #### The problem: explicit vs. implicit
 
@@ -228,9 +230,9 @@ When translating, try not to erase diagnostics: log the original exception/cause
 ### A tiny `Result` implementation
 
 Aside: if you’re curious, try implementing `Result` yourself first.
-This teaching implementation isn’t production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don’t read it), doesn’t prevent `Ok(null)` / `Fail(null)`, doesn’t guard against “returning null” from `Bind`, has no async support, and doesn’t catch `exceptions`—to keep the focus on the core shape.
+This teaching implementation isn’t production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don’t read it), doesn’t prevent `Ok(null)` / `Fail(null)`, doesn’t guard against “returning null” from `Bind`, has no async support, no `Equals`/`GetHashCode`, and doesn’t catch `exceptions`—to keep the focus on the core shape.
 
-In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic “unit”). `Fail(...)` is the constructor for the error case (analogous to `Left(...)` for `Either`).
+> Where is `Result.Unit(...)`? In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic “unit”). `Fail(...)` is the constructor for the error case. Practically, Result.Unit(...) = Result.Ok(...).
 
 Here's the implementation for `Result`:
 
@@ -248,6 +250,7 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
+    // Unit
     public static Result<TSuccess, TError> Ok(TSuccess value)
     {
         return new Result<TSuccess, TError>(
@@ -298,10 +301,10 @@ public sealed class Result<TSuccess, TError>
 
 Note: in `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>`. In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
 
-### Unwrap at the boundary
 At some point you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.) or you need to do something with the error such as error handling. A boundary (the “edge” of the system) is a good place to `Match`.
 
-> **Boundary / application layer:** parse/validate inputs, call repos/services, run workflow/domain decisions, then `Match` into a public output (`DTO`s/status/`ProblemDetails`/etc.).
+> **Boundary/Application Layer:** the boundary (or edge) of a program is the set of places where your program stops being “just your code” and starts interacting with something you don’t fully control. That usually means: data, control, or responsibility crosses in or out of your program.
+
 See `HandleDeactivateRequest` below for a concrete example.
 
 #### Why serializing `Result` directly can be awkward
@@ -319,7 +322,6 @@ If you serialize a `Result`-shaped class directly, you can end up with confusing
 ```
 
 Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code, which invites contradictory states.
-
 
 ### Where `Result` fits (and where it doesn’t)
 
@@ -455,3 +457,4 @@ public static class ResultLinqExtensions
 [^shortcircuit]: “Short-circuit” here: after the first failure, later steps aren’t called; the failure value just propagates.
 [^accumulation]: `Bind` is sequential and fail-fast. If you need to accumulate independent validation errors, prefer a `Validation<T>`/applicative (or a dedicated `Combine` API). If you have several first-class outcomes, a union/tagged type is often a better model than forcing “success vs error”.
 [^either]: Closest analogue in FP is usually `Either` (often Left=error, Right=success, but conventions vary).
+[^result-monad-precise]: More precisely: for a fixed error type, `Result<_, TError>` (like right-biased `Either`) forms a monad. See [Cats: Either](https://www.scala-exercises.org/cats/either). Practically, you have to commit to the same `TError` type throughout the entire pipeline, as that is how `Bind` is defined.
