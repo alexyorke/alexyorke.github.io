@@ -449,11 +449,19 @@ public static class ResultLinqExtensions
 **Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
 
 [^id]: In real systems, prefer a strongly typed ID (e.g., `UserId`) over primitives. Here I keep it simple: `string` at the boundary, parse to `int`, focus on `Result`.
+
 [^checked-exceptions]: Java has *checked exceptions* (`throws` forces callers to catch/declare them), but unchecked exceptions still exist. C# has no checked exceptions, so "might throw" usually isn't in the signature (unless documented).
+
 [^immutability]: Mutation could make pipelines harder to reason about and test. Prefer immutability (`record` + `init`, or return a new value); I mutate here to keep focus on `Result` mechanics.
+
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
+
 [^unused-result]: C# lets you ignore return values, so a `Result` can be silently dropped. Use a Roslyn analyzer to flag unused `Result`s.
+
 [^shortcircuit]: "Short-circuit" here: after the first failure, later steps aren't called; the failure value just propagates.
+
 [^accumulation]: `Bind` is sequential and fail-fast. If you need to accumulate independent validation errors, prefer a `Validation<T>`/applicative (or a dedicated `Combine` API). If you have several first-class outcomes, a union/tagged type is often a better model than forcing "success vs error".
+
 [^either]: Closest analogue in FP is usually `Either` (often Left=error, Right=success, but conventions vary).
+
 [^result-monad-precise]: More precisely: for a fixed error type, `Result<_, TError>` (like right-biased `Either`) forms a monad. See [Cats: Either](https://www.scala-exercises.org/cats/either). Practically, you have to commit to the same `TError` type throughout the entire pipeline, as that is how `Bind` is defined.
