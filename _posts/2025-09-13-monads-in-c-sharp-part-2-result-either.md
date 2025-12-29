@@ -57,9 +57,9 @@ string message = result.Match(
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting is literal for the remaining delegates you pass to `Bind`: after the first `Fail`, later steps aren’t invoked (but any side effects that already happened stay happened). `Result` is responsible for the control flow.
+On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting is literal for the remaining methods you pass to `Bind`: after the first `Fail`, later steps aren’t invoked. `Result` is responsible for the control flow.
 
-Yes, this example uses a repository and mutates a `User`. That’s deliberate: toy examples can feel far from everyday code, and I don’t want this post to imply you should replace `exceptions` everywhere with `Result` (or “go full FP” to use it).
+Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That’s deliberate: toy examples can feel far from everyday code, and I don’t want this post to imply you should replace `exceptions` everywhere with `Result` (or “go full FP” to use it).
 
 At this point, that's pretty much all you need to know. Now, if you see the scroll bar on the side, then you might notice that there's some more, content. I don't want to give the impression that `Result` is this super complicated thing, it's very straightforward. I'm just going into _lots_ of detail to keep the level of detail consistent between articles.
 
@@ -72,7 +72,7 @@ In C#, fallible work is often handled with exceptions, or with explicit branchin
 Method signatures often don’t advertise failure when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
 `DeactivateUser` (below) returns `void`, so failures aren’t visible in the signature. In this style, it might throw for parsing/loading/saving and even for business-rule failures.
 
-The following shows a style where expected failures are represented as `exceptions` (sometimes called “exceptions as control flow”; some teams avoid this style). It’s intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
+The following shows a style where expected failures are represented as `exceptions` (sometimes called “exceptions as control flow”; some may avoid this style). It’s intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -134,7 +134,7 @@ public void DeactivateUser(string inputId)
 
 In larger apps, exceptions often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
 
-**Main point: in the code above, you’re responsible for `null` checks, catching, initializing the user variable outside try/catch, and stopping the pipeline on failure. It’s easy to repeat, it's noisy, and easy to get wrong.**
+**Main point: in the code above, you’re responsible for `null` checks, initializing the user variable outside try/catch, and stopping (early return/throwing exception). It’s easy to repeat, it's noisy, and easy to get wrong.**
 
 **Option B: Explicit Validation (Guard Clauses)**
 To avoid throwing for expected failures, you often use `TryX`-style APIs, guard clauses, and early returns. It’s linear, but still noisy.
@@ -193,7 +193,6 @@ Conventions are easy to violate: nothing stops you from returning `(user: null, 
 
 `Result` packages these conventions + combinators into a reusable shape (`Ok(...)`/`Fail(...)`, `Map`/`Bind`).
 
-
 #### The solution: the Result monad
 
 `Result` returns *expected* failure as data (as long as your steps return `Result` rather than throwing), instead of using an `exception` jump. Unexpected `exceptions` still escape.
@@ -222,14 +221,14 @@ string response =
         err: e => $"Bad request: {e.Code} - {e.Message}");
 ```
 
-`Match` returns any `TResult`. At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
-When translating, try not to erase diagnostics: log the original exception/cause (or carry it inside `TError`) instead of flattening everything into a string.
+Here, `Match` could be modified to return any `TResult`, it doesn't have to be a `string`. At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
 
-**IMPORTANT!** In C#, it’s still easy to ignore return values such as `Result`, which means that errors could go unnoticed. For a workaround, use an analyzer.[^unused-result]
+**IMPORTANT!** In C#, there is nothing forcing you to handle the return from a method that returns a `Result`, which means that errors could go unnoticed. For a workaround, use an analyzer.[^unused-result]
 
 ### A tiny `Result` implementation
 
-Aside: if you’re curious, try implementing `Result` yourself first.
+> If you’re curious, try implementing `Result` yourself first.
+
 This teaching implementation isn’t production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don’t read it), doesn’t prevent `Ok(null)` / `Fail(null)`, doesn’t guard against “returning null” from `Bind`, has no async support, no `Equals`/`GetHashCode`, and doesn’t catch `exceptions`—to keep the focus on the core shape.
 
 > Where is `Result.Unit(...)`? In monad terms: for `Result<_, TError>`, `Ok(...)` is **return/pure** (the monadic “unit”). `Fail(...)` is the constructor for the error case. Practically, Result.Unit(...) = Result.Ok(...).
@@ -271,35 +270,35 @@ public sealed class Result<TSuccess, TError>
     {
         if (_isSuccess)
         {
-            return Result<U, TError>.Ok(f(_value!));
+            return Result<U, TError>.Ok(f(_value));
         }
 
-        return Result<U, TError>.Fail(_error!);
+        return Result<U, TError>.Fail(_error);
     }
 
     public Result<U, TError> Bind<U>(Func<TSuccess, Result<U, TError>> f)
     {
         if (_isSuccess)
         {
-            return f(_value!);
+            return f(_value);
         }
 
-        return Result<U, TError>.Fail(_error!);
+        return Result<U, TError>.Fail(_error);
     }
 
     public TResult Match<TResult>(Func<TSuccess, TResult> ok, Func<TError, TResult> err)
     {
         if (_isSuccess)
         {
-            return ok(_value!);
+            return ok(_value);
         }
 
-        return err(_error!);
+        return err(_error);
     }
 }
 ```
 
-Note: in `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>`. In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
+> In `C#`, `string?` is a nullable *reference* annotation; `int?` is `Nullable<int>`. In Rust, `?` is an early-return operator for `Result`/`Option` (and other types that implement the `Try` pattern).
 
 At some point you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.) or you need to do something with the error such as error handling. A boundary (the “edge” of the system) is a good place to `Match`.
 
@@ -308,10 +307,10 @@ At some point you turn a `Result` into something your caller understands (HTTP r
 See `HandleDeactivateRequest` below for a concrete example.
 
 #### Why serializing `Result` directly can be awkward
-In **public contracts**, serializing `Result` tends to leak an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
-Some `Result` types could expose public `Value`/`Error`/flags, which can make serialization even worse.
 
-If you serialize a `Result`-shaped class directly, you can end up with confusing “wrapper JSON” like this:
+In **public contracts**, serializing `Result` tends to leak an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
+
+Some `Result` types could expose public `Value`/`Error`/flags, which can make serialization even worse. If you serialize a `Result`-shaped class directly, you can end up with confusing “wrapper JSON” like this:
 
 ```json
 {
@@ -325,12 +324,12 @@ Now your public API couples clients to an internal control-flow wrapper and can 
 
 ### Where `Result` fits (and where it doesn’t)
 
-Rule of thumb: `T?`/`Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you’ll handle, and exceptions for bugs or unrecoverable failures.[^always-valid]
+Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you’ll handle, and exceptions for bugs or unrecoverable failures.[^always-valid]
 Also: model only the failure detail callers can act on; if `TError` is part of a public API, keep it small and stable.
 
 **Prefer `Result` when:**
 
-* **Failure is expected and recoverable:** validation/business rules, not-found, auth failures, parsing user input.
+* **Failure is expected and recoverable:** validation/business rules, not found, auth failures, parsing user input.
 * **You want refactor pressure (and sometimes exhaustiveness):** refactors become visible because failure is in the return type.
 * **Failure is routine / on hot paths:** avoid throwing for control flow; prefer `TryParse`/`Result`-style returns.
 
@@ -408,8 +407,7 @@ public sealed class UserService
 }
 ```
 
-Compute `Result<User, Error>` internally, then `Match` at the boundary (`HandleDeactivateRequest`) to produce the caller-facing output.
-In a real HTTP endpoint, you’d typically return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
+This computes `Result<User, Error>` internally, then `Match`es at the boundary (`HandleDeactivateRequest`) to produce the caller-facing output. In a real HTTP endpoint, you’d typically return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
 
 ### Why is `_repo.Save(user)` inside `Match`?
 
