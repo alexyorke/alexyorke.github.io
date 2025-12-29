@@ -61,7 +61,7 @@ On success, `Bind` passes the inner value to the next step; on failure, it forwa
 
 > **Note:** You may also see this described as "railway switching", "bypassing", "error propagation", or "fail-fast".
 
-Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: I don't want this post to imply you should replace `exceptions` everywhere with `Result` (or "go full FP" to use it).
+Yes, this example uses a repository (a very .NET thing) and mutates a `User`. That's deliberate: I don't want this post to imply you should replace `exceptions` everywhere with `Result`.
 
 The core idea is simple: `Bind` chains successes and short-circuits on the first failure.
 
@@ -74,9 +74,9 @@ In C#, fallible work is often handled with `exceptions`, or with explicit branch
 Method signatures often don't advertise failure when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
 `DeactivateUser` (below) returns `void`, so failures aren't visible in the signature. In this style, it might throw for parsing/loading/saving and even for business-rule failures.
 
-The following shows a style where expected failures are represented as `exceptions` (sometimes called "exceptions as control flow"; some may avoid this style). It's intentionally heavy-handed: it catches `Exception` and wraps at each step to highlight worst-case ergonomics.
+The following shows a style where expected failures are represented as `exceptions` (sometimes called "exceptions as control flow"; some may avoid this style). It's intentionally heavy-handed.
 
-Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw occasionally, then catch once at the boundary. The snippet below is the "worst-case" version: local `try/catch` scaffolding everywhere to add context.
+Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw occasionally, then catch once at the boundary.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -134,9 +134,9 @@ public void DeactivateUser(string inputId)
 }
 ```
 
-**Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's noisy, and easy to get wrong.**
+**Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's noisy and easy to get wrong.**
 
-In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries (log/translate once) or add local `try/catch` only when you truly need extra context.
+In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries or add local `try/catch` only when you truly need extra context.
 
 **Option B: Explicit Validation (Guard Clauses)**
 To avoid throwing for expected failures, you often use `TryX`-style APIs, guard clauses, and early returns. It's linear, but still noisy.
@@ -392,7 +392,7 @@ public sealed class UserService
 }
 ```
 
-This computes `Result<User, Error>` internally, then `Match`es at the boundary (`HandleDeactivateRequest`) to produce the caller-facing output. In a real HTTP endpoint, you'd typically return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
+This computes `Result<User, Error>` internally, then `Match`es at the boundary (`HandleDeactivateRequest`) to produce the caller-facing output. In a real HTTP endpoint, you'd return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
 
 #### Why is `_repo.Save(user)` inside `Match`?
 
@@ -416,7 +416,7 @@ Now your public API couples clients to an internal control-flow wrapper and can 
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
-Async note: once you mix `Task` and `Result`, you'll quickly want async-aware combinators (`MapAsync`/`BindAsync`) so you can compose `Task<Result<...>>` without glue code. Rather than reimplement those helpers here in a likely buggy fashion, use a library that provides them.
+Async note: once you mix `Task` and `Result`, you'll want async-aware combinators (`MapAsync`/`BindAsync`) so you can compose `Task<Result<...>>` without glue code. Rather than reimplement those helpers here, use a library that provides them.
 
 ### Recap
 
