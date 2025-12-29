@@ -10,11 +10,11 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>`, then built `Maybe<T>`.
 
-If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps, and the `Maybe` monad decides whether the next step runs.
+If you read Part 1, you already know the shape: `Bind`/`SelectMany` chains steps, and `Maybe` decides whether the next step runs.
 
 The `Result` pattern[^result-monad-precise] lets you sequence and compose computations that are expected to or could fail. You return `Ok(value)` or `Fail(error)`, then compose with `Bind` to propagate the first failure (later steps don't run; the failure just flows through).[^shortcircuit] It's useful for **making expected failure explicit and composable**.
 
-`Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`) instead of being empty. `Maybe` models optionality (not error handling); `Result` models failure *with* an explicit reason.
+`Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`). `Maybe` models optionality; `Result` models failure *with* an explicit reason.
 
 Prefer to keep values within `Result` and compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. [^checked-exceptions]
 
@@ -76,7 +76,7 @@ Method signatures often don't advertise failure when using `exceptions`, unlike 
 
 The following shows a style where expected failures are represented as `exceptions` (sometimes called "exceptions as control flow"; some may avoid this style). It's intentionally heavy-handed.
 
-Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw occasionally, then catch once at the boundary.
+Typical C# code is often closer to: parse with `TryParse`, call a repo/service that may throw, then catch once at the boundary.
 
 ```csharp
 // The implicit "User" entity used in the examples below
@@ -136,7 +136,7 @@ public void DeactivateUser(string inputId)
 
 **Main point: in the code above, you're responsible for `null` checks, initializing the user variable outside `try/catch`, and stopping (early return/throwing an `exception`). It's noisy and easy to get wrong.**
 
-In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries or add local `try/catch` only when you truly need extra context.
+In larger apps, `exceptions` often surface far from where you want domain context, so you either catch at boundaries or add local `try/catch` when you truly need extra context.
 
 **Option B: Explicit Validation (Guard Clauses)**
 To avoid throwing for expected failures, you often use `TryX`-style APIs, guard clauses, and early returns. It's linear, but still noisy.
@@ -412,7 +412,7 @@ Some `Result` types could expose public `Value`/`Error`/flags, which can make se
 }
 ```
 
-Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code, which invites contradictory states.
+Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code.
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
