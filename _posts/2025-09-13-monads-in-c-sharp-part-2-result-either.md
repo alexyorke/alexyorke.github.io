@@ -18,9 +18,9 @@ The `Result` pattern (more precisely: `Result<_, TError>` as a monad) lets you s
 
 Prefer to keep values within `Result` and compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. [^checked-exceptions]
 
-If you need to accumulate many errors (e.g., form validation), `Result` is not a great fit. You _can_ model “many errors” (e.g., `Result<T, List<TError>>`), but `Bind` is sequential and fail-fast—accumulation usually needs a `Validation<T>`/applicative. If your operation isn’t naturally success/failure (e.g., several first-class outcomes), a union/tagged type can model it more directly than forcing everything into “success vs error”.
+If you need to accumulate many errors (e.g., form validation) or you have several first-class outcomes, `Result` may not be the best fit.[^accumulation]
 
-If you're coming from FP, this is closest to an `Either`/`Result`-style type (often Left=error, Right=success, but this convention is not universal).
+If you're coming from FP, this is closest to an `Either`/`Result`-style type.[^either]
 
 ### TL;DR
 What it looks like (implementations for user left out for brevity):
@@ -196,7 +196,7 @@ Conventions are easy to violate: nothing stops you from returning `(user: null, 
 
 `Result` returns *expected* failure as data (as long as your steps return `Result` rather than throwing), instead of using an `exception` jump. Unexpected `exceptions` still escape.
 
-Now each step either produces the next value or stops with an `Error`; `Result` handles the “stop here” plumbing for you for failures returned as `Fail(...)`.
+Now each step either produces the next value or propagates the first `Fail(...)`. This is often described as **short-circuiting** or **fail-fast**.[^shortcircuit]
 
 Non-LINQ syntax (plain method chaining):
 
@@ -209,13 +209,13 @@ Result<User, Error> result =
 
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
-Translating between layers often means turning a `Result` into a different output shape via `Match`. Sometimes that output is another `Result` (different error type), e.g.:
+Translating between layers often means turning a `Result` into a different output shape via `Match`. For example, at a boundary you might translate into a response DTO:
 
 ```csharp
-Result<TSuccess, DomainError> domainResult =
+string response =
     infraResult.Match(
-        ok: value => Result<TSuccess, DomainError>.Ok(value),
-        err: infraErr => Result<TSuccess, DomainError>.Fail(Map(infraErr)));
+        ok: _ => "OK",
+        err: infraErr => Map(infraErr));
 ```
 
 `Match` returns any `TResult`. At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
@@ -418,6 +418,7 @@ Async note: once you mix `Task` and `Result`, you’ll quickly want async-aware 
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
 - Use `Bind` for fail-fast pipelines; `Match` to produce a caller-facing output (DTO/status/`ProblemDetails`, CLI output, etc.).
 - Avoid serializing `Result` as a public contract; unwrap into DTOs. Exceptions still exist - decide where you catch/translate them.
+- Once you mix `Task` and `Result`, you’ll want async-aware helpers (`MapAsync`/`BindAsync`) from a library.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
 If you want the simple `from`/`from`/`select` query syntax to compile, add these extension methods (or add the same methods directly to `Result`). Other query keywords like `where` require additional methods.
@@ -448,3 +449,5 @@ public static class ResultLinqExtensions
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 [^unused-result]: C# lets you ignore return values, so a `Result` can be silently dropped. Use a Roslyn analyzer to flag unused `Result`s.
 [^shortcircuit]: “Short-circuit” here: after the first failure, later steps aren’t called; the failure value just propagates.
+[^accumulation]: `Bind` is sequential and fail-fast. If you need to accumulate independent validation errors, prefer a `Validation<T>`/applicative (or a dedicated `Combine` API). If you have several first-class outcomes, a union/tagged type is often a better model than forcing “success vs error”.
+[^either]: Closest analogue in FP is usually `Either` (often Left=error, Right=success, but conventions vary).
