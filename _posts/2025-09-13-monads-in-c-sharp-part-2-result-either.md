@@ -412,7 +412,7 @@ Some `Result` types could expose public `Value`/`Error`/flags, which can make se
 }
 ```
 
-Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code.
+Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code. What if `isSuccess` is true and `error` contains an error? It's a weird situation.
 
 ### Async: the `Task<Result<...>>` nesting weirdness
 
