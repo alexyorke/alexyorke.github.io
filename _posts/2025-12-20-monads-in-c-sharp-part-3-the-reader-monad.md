@@ -44,6 +44,8 @@ Conceptually, `Reader<TEnv, T>` is `Func<TEnv, T>` plus a few combinators:
 - `Select` (`Map`): Transforms the final result (e.g., formatting a decimal to a string).
 - `Local`: Temporarily modifies the environment for a specific step.
 
+(`Pure`/`Unit` exists too; we'll defer it to the Appendix.)
+You build the computation as a value (a pipeline you can pass around and test), and only run it once you have an environment, typically at an application boundary.
 
 Important: While the Reader pattern treats the environment as a fixed input for the pipeline, it does not strictly enforce immutability on the objects stored inside it. If your environment contains a mutable object (like a `List<T>`), Reader won't stop you from modifying it, though doing so breaks the functional "pure dependency" model. [^1]
 
@@ -288,13 +290,12 @@ In this article I call it `Pure`; the helper `Reader.Unit(...)` is just an alias
 Reader helps with parameter drilling, but it's an extra abstraction that isn't always worth it for smaller or straightforward call chains.
 - The chain is short. For one or two calls, plain parameter passing is clearer.
 - You're already in DI-land. In `ASP.NET Core` services/controllers, inject what you need. Reader is most useful inside composed business-logic functions where you want to avoid manually threading an environment; it's not a tool for object graph construction or lifetime management.
-- You need mutable/evolving state. Reader is read-only. If state evolves through steps, you're looking for state-threading (often modeled as State).
-- You need very granular dependencies. If everything takes a giant Env, you can trade "parameter sprawl" for "environment coupling." If Env grows into a god object, refactor toward narrower capabilities.
 - You need mutable/evolving state. Reader is read-only. If state evolves through steps, you're looking for state-threading (often modeled as `State`).
+- You need very granular dependencies. If everything takes a giant `PricingEnv`, you can trade "parameter sprawl" for "environment coupling." If `PricingEnv` grows into a god object, refactor toward narrower capabilities.
 
 ## Async in C#
 
-Most apps have I/O. A practical default is to keep the Reader pipeline synchronous and do async work at the boundary. You *can* wrap `Task<T>` inside a `Reader`, but standard LINQ won't await it, so the composition tends to get noisy, so you may end up having to write helpers like `BindAsync`.
+Most apps have I/O. A practical default is to keep the Reader pipeline synchronous and do async work at the boundary. You *can* wrap `Task<T>` inside a `Reader`, but standard LINQ won't await it, so the composition tends to get noisy—you may end up writing helpers like `BindAsync`.
 
 ### Recommended: Functional Core, Imperative Shell
 
