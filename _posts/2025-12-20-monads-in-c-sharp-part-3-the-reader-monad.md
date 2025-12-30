@@ -4,27 +4,29 @@ date: 2025-12-20 09:00:00 +0000
 description: "Introduces the Reader monad in C# to avoid parameter drilling by threading an immutable environment through composed computations, with a minimal implementation and examples."
 ---
 
-**Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result (Either)](https://alexyorke.github.io/2025/12/21/monads-in-c-sharp-part-2-result-either/)
+**Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-In Part 2 you built `Result<TSuccess, TError>` (aka `Either`) to model failures explicitly: `Map`/`Bind` for composition, and `Match` to unwrap at the boundary (e.g., HTTP/UI) without leaking `Result` into serialization.
+In Part 2 you built `Result<TSuccess, TError>` to model failures explicitly: `Map`/`Bind` for composition, and `Match` to unwrap at the boundary (e.g., HTTP/UI) without leaking `Result` into serialization.
 
-The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. The computation doesn't run until you call `Run(env)`, so, it's closer to a blueprint, or a recipe.
+The Reader monad [^0] lets you sequence and compose computations that depend on an immutable environment (context) without manually threading that environment through every call. The computation doesn't run until you call `Run(env)`, so it’s closer to a blueprint, or a recipe.
 
 It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
 
 ## Problem: parameter drilling
 
 ```csharp
-static string GenerateCheckoutSummary(PricingEnv env, Cart cart) =>
-    var total = CalculateCartTotal(env, cart)
+static string GenerateCheckoutSummary(PricingEnv env, Cart cart)
+{
+    var total = CalculateCartTotal(env, cart);
     var priceFormatted = FormatPrice(env, total);
     return $"Final Amount: {priceFormatted}";
+}
 ```
 
 ## Solution: return a Reader
 
 ```csharp
-// No 'env' parameter
+// No `env` parameter
 static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
     CalculateCartTotal(cart)
         .Bind(FormatPrice)
@@ -36,14 +38,12 @@ If your call chain is short, Reader may be unnecessary, see the section "When no
 
 ## Reader in one sentence
 
-Conceptually, `Reader<Env, T>` is `Func<Env, T>` plus a few combinators:
+Conceptually, `Reader<TEnv, T>` is `Func<TEnv, T>` plus a few combinators:
 - `From`: Defines a step that requires access to the environment.
-- `SelectMany` (`Bind`/flatMap): Sequences steps. It runs the first step, gets the result, and passes it to the next step, while passing the Environment along.
+- `SelectMany` (`Bind`/`flatMap`): Sequences steps. It runs the first step, gets the result, and passes it to the next step, while passing the environment along.
 - `Select` (`Map`): Transforms the final result (e.g., formatting a decimal to a string).
 - `Local`: Temporarily modifies the environment for a specific step.
 
-(Pure/Unit exists too; we'll defer it to the Appendix.)
-You build the computation as a value (a pipeline you can pass around and test), and only run it once you have an env, typically at an application boundary.
 
 Important: While the Reader pattern treats the environment as a fixed input for the pipeline, it does not strictly enforce immutability on the objects stored inside it. If your environment contains a mutable object (like a `List<T>`), Reader won't stop you from modifying it, though doing so breaks the functional "pure dependency" model. [^1]
 
@@ -63,7 +63,7 @@ Each item's price depends on:
 - whether the current user is VIP
 - … and also there's a correlation ID for logging
 
-Some values come from the boundary of the system on each request (time, current user, locale, correlation id, logger). In typical C# code, these get passed as arguments, pulled from ambient context, or injected via DI.
+Some values come from the boundary of the system on each request (time, current user, locale, correlation ID, logger). In typical C# code, these get passed as arguments, pulled from ambient context, or injected via DI.
 
 Here, we'll model them as a single immutable environment (`PricingEnv`), build a `Reader<PricingEnv, T>` pipeline, then run it once at the boundary by supplying the environment.
 
@@ -90,7 +90,7 @@ public sealed record PricingEnv(
 ) : IUserContext, ILocalization, IRequestContext;
 ```
 
-In this example `PricingEnv` includes both request data (time/user/locale/correlation id/etc) and a small capability (`ILogger`) to show that the environment can carry services too.
+In this example `PricingEnv` includes both request data (time/user/locale/correlation ID/etc) and a small capability (`ILogger`) to show that the environment can carry services too.
 
 ## Core use-case
 
@@ -98,7 +98,7 @@ Goal: compute a checkout summary while keeping deep functions free of a `Pricing
 
 ### Step 1: price an item
 
-We'll start at the leaves: the business logic for pricing a single item is straightforward (just apply a discount), but it still needs an environment to calculate the discount. With Reader, we model that as an `Env -> decimal` computation, take the item now, and delay supplying env until we run the whole pipeline at the boundary.
+We'll start at the leaves: the business logic for pricing a single item is straightforward (just apply a discount), but it still needs an environment to calculate the discount. With Reader, we model that as a `PricingEnv -> decimal` computation: take the item now, and delay supplying the environment until we run the whole pipeline at the boundary.
 
 Read `Reader<PricingEnv, decimal>` as "a computation that needs `PricingEnv` later to produce a decimal".
 
@@ -210,7 +210,7 @@ static string HandleCheckout(Cart cart)
 }
 ```
 
-That's the whole pattern: compose in the functional core, then supply env once at the boundary and get a normal return value back.
+That's the whole pattern: compose in the functional core, then supply the environment once at the boundary and get a normal return value back.
 
 ## Local: the upsell / "what-if" feature
 
@@ -224,10 +224,11 @@ static Reader<PricingEnv, string> GenerateUpsellMessage(Cart cart) =>
         .Bind(currentTotal =>
             CalculateCartTotal(cart)
                 .Local(env => env with { IsVip = true })
-                .Map(potentialTotal =>
+                .Bind(potentialTotal =>
                     currentTotal == potentialTotal
-                        ? "You are getting the best price!"
-                        : $"Upgrade to VIP to save {(currentTotal - potentialTotal):C}!"
+                        ? Reader.Unit<PricingEnv, string>("You are getting the best price!")
+                        : FormatPrice(currentTotal - potentialTotal)
+                            .Map(savings => $"Upgrade to VIP to save {savings}!")
                 )
         );
 ```
@@ -237,14 +238,16 @@ The same idea is often clearer in LINQ query syntax:
 ```csharp
 static Reader<PricingEnv, string> GenerateUpsellMessage(Cart cart) =>
     from currentTotal in CalculateCartTotal(cart)
-        // Run the *same* calculation, but with a modified environment (VIP = true)
+    // Run the *same* calculation, but with a modified environment (`IsVip = true`)
     from potentialTotal in CalculateCartTotal(cart).Local(env => env with { IsVip = true })
-    select currentTotal == potentialTotal
-        ? "You are getting the best price!"
-        : $"Upgrade to VIP to save {(currentTotal - potentialTotal):C}!";
+    from message in currentTotal == potentialTotal
+        ? Reader.Unit<PricingEnv, string>("You are getting the best price!")
+        : from savingsText in FormatPrice(currentTotal - potentialTotal)
+          select $"Upgrade to VIP to save {savingsText}!"
+    select message;
 ```
 
-We avoid adding an extra isVip parameter or duplicating the pricing logic, it's the same computation, just evaluated under a modified environment for that one branch.
+We avoid adding an extra `isVip` parameter or duplicating the pricing logic: it’s the same computation, just evaluated under a modified environment for that one branch.
 
 ## Ask: reading the environment explicitly
 
@@ -252,7 +255,7 @@ Here, `Ask()` returns the current environment as a value inside the pipeline, so
 
 Most of the time you don't need `Ask`, because you can just use `Reader.From(env => ...)`. But `Ask()` is a nice way to make the "Reader reads from the environment" idea explicit, especially when you want to pull a single value out of `PricingEnv` and use it later in a query.
 
-For example, we can include the correlation id in the final summary without changing any function signatures:
+For example, we can include the correlation ID in the final summary without changing any function signatures:
 
 ```csharp
 static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
@@ -287,6 +290,7 @@ Reader helps with parameter drilling, but it's an extra abstraction that isn't a
 - You're already in DI-land. In `ASP.NET Core` services/controllers, inject what you need. Reader is most useful inside composed business-logic functions where you want to avoid manually threading an environment; it's not a tool for object graph construction or lifetime management.
 - You need mutable/evolving state. Reader is read-only. If state evolves through steps, you're looking for state-threading (often modeled as State).
 - You need very granular dependencies. If everything takes a giant Env, you can trade "parameter sprawl" for "environment coupling." If Env grows into a god object, refactor toward narrower capabilities.
+- You need mutable/evolving state. Reader is read-only. If state evolves through steps, you're looking for state-threading (often modeled as `State`).
 
 ## Async in C#
 
@@ -512,7 +516,7 @@ If a step returned only a raw value, you couldn't keep composing environment-dep
 
     The "container-like" metaphor (with composable aspects) works for `Maybe<T>` / `Result<T>` because their successful form literally contains a T; the other form represents "no value" or an error instead. `Reader<Env, T>` is different: it represents a computation `Env -> T` (a function waiting for context). There is literally no T to take out. Seeing Reader as a function also makes `Local` feel natural: it's just running the same computation under a transformed environment.
 
-[^1]: You can use Free Monads to separate IO Dead-Simple Dependency Injection - [YouTube](https://www.youtube.com/watch?v=ZasXwtTRkio) but this is outside the scope of this article.
+[^1]: You can use Free Monads to separate I/O (see “Dead-Simple Dependency Injection” - [YouTube](https://www.youtube.com/watch?v=ZasXwtTRkio)), but this is outside the scope of this article.
 
 [^2]: "Boundary" definition
 
