@@ -252,16 +252,9 @@ Translating between layers often means turning a `Result` into a different outpu
 ```csharp
 Result<int, Error> infraResult = ParseId(inputIdFromRequest);
 
-string response =
-    infraResult.Match(
-        ok: delegate (int id)
-        {
-            return $"OK: {id}";
-        },
-        err: delegate (Error e)
-        {
-            return $"Bad request: {e.Code} - {e.Message}";
-        });
+string response = infraResult.Match(
+        ok: id => $"OK: {id}",
+        err: e => $"Bad request: {e.Code} - {e.Message}");
 ```
 
 At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
