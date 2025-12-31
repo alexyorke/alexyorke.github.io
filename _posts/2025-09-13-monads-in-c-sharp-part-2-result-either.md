@@ -41,9 +41,12 @@ Result<User, Error> failed = Result<User, Error>.Fail(new Error("NotFound", "Use
 Result<User, Error> FindUserOrFail(IUserRepo repo, int id)
 {
     User? user = repo.Find(id);
-    return user is null
-        ? Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"))
-        : Result<User, Error>.Ok(user);
+    if (user is null)
+    {
+        return Result<User, Error>.Fail(new Error("NotFound", $"User {id} not found"));
+    }
+
+    return Result<User, Error>.Ok(user);
 }
 
 Result<User, Error> result =                   // Result<User, Error>
@@ -212,6 +215,38 @@ Result<User, Error> result =
 
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
+##### Procedural code detour
+
+> The following may be painful for an FP programmer to read; it’s intended to bridge the gap for those very familiar with procedural code. Feel free to skip if it adds confusion.
+
+If `ParseId` returns `Result.Fail(...)`, the pipeline (i.e., the sequence of `Bind(...)` calls chained together) short-circuits: `FindUser` and `DeactivateDecision` never run, and the original error flows all the way to the final result. If `ParseId` returns `Result.Ok(...)`, the pipeline continues.
+
+The key is that the steps (`ParseId`, `FindUser`, `DeactivateDecision`) don’t “know” they’re in a pipeline. For example, `FindUser` doesn’t decide whether it should run; it simply accepts an `int` and returns either `Result.Ok(...)` or `Result.Fail(...)`.
+
+So who decides whether `FindUser` runs? `Bind` does.
+
+After `ParseId` runs, you have a `Result` value. That `Result` is in one of two states:
+
+* **Ok**: it contains a success value
+* **Fail**: it contains an error
+
+Implementation-wise, your `Result` type stores some internal flag/tag (often something like `isSuccess`) plus either the success value or the error. `Result.Ok(...)` and `Result.Fail(...)` are just factory methods that create an instance of the `Result` class with that internal flag/tag set appropriately.
+
+Because *both* success and failure are represented by the same `Result` type, you can always call `Bind` next, on failure or success.
+
+`Bind` then does one of two things:
+
+* If the current `Result` is `Ok`, `Bind` calls the next step (e.g., `FindUser`, passed in as a function/delegate) and returns *that* step’s `Result`.
+* If the current `Result` is `Fail`, `Bind` skips the next step and returns the existing failure unchanged. It ignores the passed in step.
+
+That’s why failures “flow” to the end: once a `Fail` happens, every subsequent `Bind` just forwards it.
+
+Finally, chaining works because every step returns a `Result`. That keeps the shape consistent so you can keep calling `Bind`. If a step returned an unrelated type (or `void`), the chain would break because there’d be no `Bind` to call and no standard way to propagate errors.
+
+The key point: `Result` handles the sequencing; `ParseId`, `FindUser`, and `DeactivateDecision` don’t need to know about each other or manually check for errors, they just return `Result`, and `Bind` ensures the next step only runs after an `Ok(...)`.
+
+#### How to get out of a Result with Match
+
 Translating between layers often means turning a `Result` into a different output shape via `Match`. In practice you'll often also want `MapError` (or `BindError`) to translate error types between layers without ending the pipeline.
 
 ```csharp
@@ -219,8 +254,14 @@ Result<int, Error> infraResult = ParseId(inputIdFromRequest);
 
 string response =
     infraResult.Match(
-        ok: id => $"OK: {id}",
-        err: e => $"Bad request: {e.Code} - {e.Message}");
+        ok: delegate (int id)
+        {
+            return $"OK: {id}";
+        },
+        err: delegate (Error e)
+        {
+            return $"Bad request: {e.Code} - {e.Message}";
+        });
 ```
 
 At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/`ProblemDetails`/exit code.
