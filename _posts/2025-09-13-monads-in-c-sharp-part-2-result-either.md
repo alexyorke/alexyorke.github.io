@@ -59,6 +59,7 @@ string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
+</details>
 
 On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the error flows through to the end. `Bind` *encodes* the control flow so your business logic doesn't have to repeat it.
 
@@ -216,19 +217,21 @@ Result<User, Error> result =
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
 ##### Procedural code detour
+<details><summary>Procedural code detour (collapsed)</summary>
+> The detour provides procedural context for readers new to FP; it's optional.
 
-> The following may be painful for an FP programmer to read; it’s intended to bridge the gap for those very familiar with procedural code. Feel free to skip if it adds confusion.
+If `ParseId` returns `Result.Fail(...)`, the pipeline short-circuits; if `ParseId` returns `Result.Ok(...)`, the pipeline continues.
 
-If `ParseId` returns `Result.Fail(...)`, the pipeline (i.e., the sequence of `Bind(...)` calls chained together) short-circuits: `FindUser` and `DeactivateDecision` never run, and the original error flows all the way to the final result. If `ParseId` returns `Result.Ok(...)`, the pipeline continues.
+The key is that the steps (`ParseId`, `FindUser`, `DeactivateDecision`) don’t know they’re in a pipeline. For example, `FindUser` simply accepts an `int` and returns either `Result.Ok(...)` or `Result.Fail(...)`.
 
-The key is that the steps (`ParseId`, `FindUser`, `DeactivateDecision`) don’t “know” they’re in a pipeline. For example, `FindUser` doesn’t decide whether it should run; it simply accepts an `int` and returns either `Result.Ok(...)` or `Result.Fail(...)`.
+Who decides? `Bind`.
 
-So who decides whether `FindUser` runs? `Bind` does.
+After `ParseId` runs, the `Result` is in one of two states:
 
-After `ParseId` runs, you have a `Result` value. That `Result` is in one of two states:
+* Ok: contains a success value
+* Fail: contains an error
 
-* **Ok**: it contains a success value
-* **Fail**: it contains an error
+Internally, the `Result` type stores a flag and either a value or an error. `Result.Ok(...)` and `Result.Fail(...)` are factories.
 
 Implementation-wise, your `Result` type stores some internal flag/tag (often something like `isSuccess`) plus either the success value or the error. `Result.Ok(...)` and `Result.Fail(...)` are just factory methods that create an instance of the `Result` class with that internal flag/tag set appropriately.
 
@@ -239,11 +242,9 @@ Because *both* success and failure are represented by the same `Result` type, yo
 * If the current `Result` is `Ok`, `Bind` calls the next step (e.g., `FindUser`, passed in as a function/delegate) and returns *that* step’s `Result`.
 * If the current `Result` is `Fail`, `Bind` skips the next step and returns the existing failure unchanged. It ignores the passed in step.
 
-That’s why failures “flow” to the end: once a `Fail` happens, every subsequent `Bind` just forwards it.
+Finally, chaining works because every step returns a `Result`. This keeps the shape consistent so you can keep calling `Bind`. If a step returned an unrelated type (or `void`), the chain would break.
 
-Finally, chaining works because every step returns a `Result`. That keeps the shape consistent so you can keep calling `Bind`. If a step returned an unrelated type (or `void`), the chain would break because there’d be no `Bind` to call and no standard way to propagate errors.
-
-The key point: `Result` handles the sequencing; `ParseId`, `FindUser`, and `DeactivateDecision` don’t need to know about each other or manually check for errors, they just return `Result`, and `Bind` ensures the next step only runs after an `Ok(...)`.
+The key point: `Result` handles sequencing; steps just return a `Result`, and `Bind` ensures the next step runs after an Ok.
 
 #### How to get out of a Result with Match
 
