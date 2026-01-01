@@ -349,7 +349,7 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 **Prefer `exceptions` (or other types) when:**
 
 * **It's a bug / broken invariant:** violated preconditions, "impossible states" → `exceptions` (e.g., `ArgumentNullException`).
-* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → `exceptions` / short-circuit.
+* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → `exceptions` / short-circuit, array out of bounds.
 * **You need accumulation:** `Bind` is short-circuiting; use `Validation<T>`/applicatives (or a combine API) for independent validations.
 
 
