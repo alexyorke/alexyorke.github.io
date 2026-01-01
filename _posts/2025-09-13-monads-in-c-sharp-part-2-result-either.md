@@ -216,7 +216,9 @@ Result<User, Error> result =
 LINQ query syntax (`Select`/`SelectMany`) is in the appendix.
 
 ##### Procedural code detour
-<details><summary>Procedural code detour (collapsed)</summary>
+<details markdown="1">
+<summary>Procedural code detour (collapsed)</summary>
+
 > The detour provides procedural context for readers new to FP; it's optional.
 
 If `ParseId` returns `Result.Fail(...)`, the pipeline short-circuits; if `ParseId` returns `Result.Ok(...)`, the pipeline continues.
@@ -481,7 +483,7 @@ public static class ResultLinqExtensions
 }
 ```
 
-**Next in the series**: [Monads in C# (Part 3): The Reader Monad](https://alexyorke.github.io/2025/12/20/monads-in-c-sharp-part-3-the-reader-monad/)
+Part 3 coming soon.
 
 [^id]: In real systems, prefer a strongly typed ID (e.g., `UserId`) over primitives. Here I keep it simple: `string` at the boundary, parse to `int`, focus on `Result`.
 

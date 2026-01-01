@@ -1,1 +1,12 @@
 /scratch
+
+# Jekyll build output / caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler / Ruby
+.bundle/
+vendor/bundle/
+Gemfile.lock
