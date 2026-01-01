@@ -269,7 +269,9 @@ At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/
 
 > If you're curious, try implementing `Result` yourself first.
 
-This teaching implementation isn't production-ready (use *LanguageExt* or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no `async` support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
+This teaching implementation isn't production-ready (use [LanguageExt](https://github.com/louthy/language-ext) or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no `async` support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
+
+Performance note: this sample uses a `class` for clarity, but in high-throughput / low-allocation scenarios you’d typically implement `Result` as a `readonly struct` (or `record struct`) to reduce GC pressure (often alongside careful API design to avoid copying).
 
 Here's the implementation for `Result`:
 
@@ -351,8 +353,8 @@ Also: model only the failure detail callers can act on; if `TError` is part of a
 
 **Prefer `exceptions` (or other types) when:**
 
-* **It's a bug / broken invariant:** violated preconditions, "impossible states" → `exceptions` (e.g., `ArgumentNullException`).
-* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → `exceptions` / short-circuit, array out of bounds.
+* **It's a bug / broken invariant:** violated preconditions, "impossible states" → often `exceptions` (e.g., `ArgumentNullException`).
+* **Continuing is pointless / you need stack traces:** misconfiguration, out-of-memory, "dead end" aborts → often `exceptions` / short-circuit, array out of bounds.
 * **You need accumulation:** `Bind` is short-circuiting; use `Validation<T>`/applicatives (or a combine API) for independent validations.
 
 
@@ -452,9 +454,16 @@ Some `Result` types could expose public `Value`/`Error`/flags, which can make se
 
 Now your public API couples clients to an internal control-flow wrapper and can leak internal shapes. Clients have to interpret `isSuccess` + `value/error` *and* your HTTP status code. What if `isSuccess` is true and `error` contains an error? It's a weird situation.
 
-### Async: the `Task<Result<...>>` nesting weirdness
+### Note on async: `Task<Result<...>>` nesting is where people get stuck
 
-Async note: once you mix `Task` and `Result`, you'll want async-aware combinators (`MapAsync`/`BindAsync`) to compose `Task<Result<...>>` without glue code. Rather than reimplement those helpers here, use a library that provides them.
+Once you mix `Task` and `Result`, you quickly end up with `Task<Result<TSuccess, TError>>`, and plain LINQ query syntax doesn’t compose that shape out of the box (because `Task<Result<...>>` doesn’t have the right `SelectMany`).
+
+In practice you either:
+
+- add async-aware combinators like `BindAsync`/`MapAsync`, or
+- add LINQ helpers like `SelectManyAsync` to compose `Task<Result<...>>` without “await soup”.
+
+Rather than reimplement those helpers here, use a library that provides them.
 
 ### Recap
 
@@ -501,4 +510,4 @@ Part 3 coming soon.
 
 [^either]: Closest analogue in FP is usually `Either` (often Left=error, Right=success, but conventions vary).
 
-[^result-monad-precise]: More precisely: for a fixed error type, `Result<_, TError>` (like right-biased `Either`) forms a monad. See [Cats: Either](https://www.scala-exercises.org/cats/either). Practically, you have to commit to the same `TError` type throughout the entire pipeline, as that is how `Bind` is defined.
+[^result-monad-precise]: More precisely: for a fixed error type, `Result<_, TError>` (like right-biased `Either`) forms a monad. See [Cats: Either](https://www.scala-exercises.org/cats/either). In the basic `Bind` form, the error type stays the same throughout the chain; if you need to change it, you typically translate it explicitly (e.g., `MapError`) or widen it to a common error type.
