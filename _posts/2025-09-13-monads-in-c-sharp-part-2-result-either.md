@@ -59,7 +59,6 @@ string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
-</details>
 
 On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the error flows through to the end. `Bind` *encodes* the control flow so your business logic doesn't have to repeat it.
 
@@ -245,6 +244,8 @@ Because *both* success and failure are represented by the same `Result` type, yo
 Finally, chaining works because every step returns a `Result`. This keeps the shape consistent so you can keep calling `Bind`. If a step returned an unrelated type (or `void`), the chain would break.
 
 The key point: `Result` handles sequencing; steps just return a `Result`, and `Bind` ensures the next step runs after an Ok.
+
+</details>
 
 #### How to get out of a Result with Match
 
