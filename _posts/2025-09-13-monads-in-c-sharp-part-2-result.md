@@ -269,7 +269,7 @@ At boundaries (HTTP/CLI/public APIs), you typically translate into a DTO/status/
 
 > If you're curious, try implementing `Result` yourself first.
 
-This teaching implementation isn't production-ready (use [LanguageExt](https://github.com/louthy/language-ext) or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no `async` support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
+This teaching implementation isn't production-ready (use [LanguageExt](https://github.com/louthy/language-ext), [Danom](https://github.com/pimbrouwers/Danom), or *CSharpFunctionalExtensions*) and is intentionally minimalist and unsafe around `default`/null. It stores `default` in the unused slot (don't read it), doesn't prevent `Ok(null)` / `Fail(null)`, doesn't guard against "returning null" from `Bind`, has no `async` support, no `Equals`/`GetHashCode`, and doesn't catch `exceptions` -- to keep the focus on the core shape.
 
 Performance note: this sample uses a `class` for clarity, but in high-throughput / low-allocation scenarios you’d typically implement `Result` as a `readonly struct` (or `record struct`) to reduce GC pressure (often alongside careful API design to avoid copying).
 
