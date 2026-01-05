@@ -374,4 +374,4 @@ The real power comes when we apply this pattern to different contexts. In Part 2
 
 Exercise for reader: I'd encourage opening up your IDE, without any AI assistance, and implementing the `Maybe` monad from scratch (no cheating.)
 
-[Part 2](https://alexyorke.github.io/2025/12/21/monads-in-c-sharp-part-2-result-either/)
+[Part 2](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
