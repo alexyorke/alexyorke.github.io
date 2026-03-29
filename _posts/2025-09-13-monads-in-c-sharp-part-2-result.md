@@ -19,6 +19,21 @@ Terminology note: `Result<TSuccess, TError>` is just a data type. It only become
 
 `Result<TSuccess, TError>` has the same *two-case* shape as `Maybe<T>`, except the non-success case carries a reason (`TError`). `Maybe` models optionality; `Result` models failure *with* an explicit reason.
 
+The `Result` monad is useful when you want to be explicit about a method's expected failures. For example, sending an HTTP request might fail, i.e., there is no internet connected. Typically, this would throw an exception, but it's up to the API author to annotate that exception and behavior in the XMLDocs for that method.
+
+That's not to say that we should always avoid exceptions, rather, exceptions should be used in exceptional cirmstances. There are many cases where you just need to _stop_ right now, for example, illegal memory accesses, out of memory, stack overflow, etc. In fact, _not_ throwing an exception and allowing the program to continue could be dangerous, as it could be in an invalid state.
+
+If we only throw exceptions in exceptional cirmstances, then this begs the question, then, how does one create a uniform API for errors?
+
+One approach is to use the `Try*` pattern, where you prefix a method's name with `Try`, like `TryParse`, this outputs a boolean as to whether the operation was successful, then the "out" param is non-null if it is valid. This is a fairly well-established pattern in the .NET libraries.
+
+Now, this is fine, except sometimes you may need the reason. One approach is that instead of returning a boolean, you can return maybe a status enum that contains the error, or maybe a record.
+
+You can use custom exceptions, or domain exceptions, which clearly indicate which error was thrown and can contain other information. This works, but, I'm using C# as a vehicle to explain how the Result monad works.
+
+This works, but, they are not very composable. They grab onto the control flow and twist it out of your hand so to speak.
+
+
 Prefer to compose with `Bind` until you need to branch, translate, or produce an output (often at a boundary/edge), then `Match`. [^checked-exceptions]
 
 If you need to accumulate many errors (e.g., form validation) or you have several first-class outcomes, `Result` may not be the best fit.[^accumulation]

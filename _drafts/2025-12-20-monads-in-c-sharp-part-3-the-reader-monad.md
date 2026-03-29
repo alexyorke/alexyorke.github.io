@@ -12,25 +12,37 @@ The Reader monad lets you sequence and compose computations that depend on a sha
 
 It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
 
+It also helps to **let go of the “monads are containers” mental model**.
+That framing sort of works for `Maybe<T>` and `Result<TSuccess, TError>` because they *look* like they “contain” a value (or not). But it stops being a good fit pretty quickly: Reader doesn’t “contain” a value, it *delays* a computation until you provide some context.
+
+So what is a monad, really? It’s not a magic list of blessed types; it’s a **pattern**: a type that gives you `Unit`/`Pure` (lift a value), `Bind`/`SelectMany` (a.k.a. flatMap, sequence computations), and that obeys the monad laws (so refactoring doesn’t change meaning). The point is **composability**: you get to chain steps without re-implementing the plumbing each time.
+
 ## Problem: parameter drilling
 
 ```csharp
-static string GenerateCheckoutSummary(PricingEnv env, Cart cart)
+static string GenerateQuoteSummary(PricingEnv env, string serviceName)
 {
-    var total = CalculateCartTotal(env, cart);
-    var priceFormatted = FormatPrice(env, total);
-    return $"Final Amount: {priceFormatted}";
+    var basePrice = GetBasePrice(env, serviceName);
+    var discounted = ApplyDiscount(env, basePrice);
+    var withTax = AddTax(env, discounted);
+    var result = FormatResult(env, withTax);
+
+    return $"Quote for {serviceName}: {result}";
 }
 ```
+
+Notice how `env` gets threaded through every call. The same thing happens with logging, telemetry, time, localization, correlation IDs, request context, etc.
 
 ## Solution: return a Reader
 
 ```csharp
 // No `env` parameter
-static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
-    CalculateCartTotal(cart)
-        .Bind(FormatPrice)
-        .Map(text => $"Final Amount: {text}");
+static Reader<PricingEnv, string> GenerateQuote(string serviceName) =>
+    from basePrice in GetBasePrice(serviceName)
+    from discounted in ApplyDiscount(basePrice)
+    from withTax in AddTax(discounted)
+    from result in FormatResult(withTax)
+    select $"Quote for {serviceName}: {result}";
 ```
 
 You supply the environment once with `Run(env)`. `Bind`/`SelectMany` passes step results forward.
@@ -53,16 +65,13 @@ Reader is sometimes called “functional DI,” but it’s not a replacement for
 
 ## The setup
 
-We’ll use one running example: pricing + formatting a checkout summary using request-ish context (time, VIP flag, locale, correlation ID, logger). We’ll bundle that into `PricingEnv`, build a `Reader<PricingEnv, T>` pipeline, then run it at the boundary.
+We’ll use one running example: generating a quote for a single service subscription using request-ish context (time, VIP flag, locale, correlation ID, logger). We’ll bundle that into `PricingEnv`, build a `Reader<PricingEnv, T>` pipeline, then run it at the boundary.
 
 ```csharp
 internal sealed class ConsoleLogger : ILogger
 {
     public void Log(string msg) => Console.WriteLine(msg);
 }
-
-public sealed record Cart(IEnumerable<CartItem> Items);
-public sealed record CartItem(decimal BasePrice, string Name);
 
 public interface IUserContext { bool IsVip { get; } }
 public interface ILocalization { string CultureCode { get; } }
@@ -82,82 +91,70 @@ In this example `PricingEnv` includes both request data (time/user/locale/correl
 
 ## Core use-case
 
-Goal: compute a checkout summary while keeping deep functions free of a `PricingEnv` parameter.
+This is a common friction point: if you try to “iterate over a collection” inside Reader, you quickly run into the **Traversable** problem.
 
-### Step 1: price an item
+Combining a `List<Reader<...>>` into a `Reader<List<...>>` (or combining into a sum) requires `Sequence`/`Traverse`, and implementing that in C# tends to look like an intimidating `Aggregate`/fold.
 
-Start at the leaves: pricing an item needs the environment (VIP/time/logger), so we model it as a `PricingEnv -> decimal` computation and supply `env` later.
+That’s a perfectly valid topic, but it’s a side quest. The main point of Reader is **implicit context**.
+
+So instead, we’ll use a multi-step *linear* pipeline: generate a quote for a single service.
+
+### Step 1–4: the building blocks
+
+We’ll build small steps that each produce a `Reader<PricingEnv, ...>`. Some steps are pure (“no environment needed”), but we still lift them into Reader to keep the pipeline shape consistent.
 
 ```csharp
-static Reader<PricingEnv, decimal> CalculateItemPrice(CartItem item) =>
+// ---------------------------------------------------------
+// The Building Blocks
+// ---------------------------------------------------------
+
+// 1. Pure calculation (lifted into Reader)
+static Reader<PricingEnv, decimal> GetBasePrice(string serviceName)
+{
+    // Simulating a database lookup or pure logic
+    var price = serviceName == "ProPlan" ? 100m : 50m;
+    return Reader.Unit<PricingEnv, decimal>(price);
+}
+
+// 2. Logic that depends on VIP status
+static Reader<PricingEnv, decimal> ApplyDiscount(decimal price) =>
     Reader.From<PricingEnv, decimal>(env =>
     {
-        const decimal VipOrFlashSaleDiscountRate = 0.10m;
-        const decimal NoDiscountRate = 0.00m;
-        const decimal FullPriceMultiplier = 1.00m;
-
-        bool isFlashSale = env.Now.Hour >= 17 && env.Now.Hour < 19;
-        decimal discountRate = (env.IsVip || isFlashSale)
-            ? VipOrFlashSaleDiscountRate
-            : NoDiscountRate;
-        decimal finalPrice = item.BasePrice * (FullPriceMultiplier - discountRate);
-        env.Logger.Log(
-            $"Item={item.Name} Base={item.BasePrice} DiscountRate={discountRate:P0} Final={finalPrice} Request={env.CorrelationId}"
-        );
-        return finalPrice;
+        if (env.IsVip) return price * 0.90m; // 10% off
+        return price;
     });
-```
 
-### Step 2: sum the cart
+// 3. Logic that depends on Time or Logging
+static Reader<PricingEnv, decimal> AddTax(decimal price) =>
+    Reader.From<PricingEnv, decimal>(env =>
+    {
+        // Example: Tax is higher after 5 PM (silly rule, but illustrates the point)
+        decimal taxRate = env.Now.Hour > 17 ? 0.20m : 0.15m;
 
-Sum the prices by folding item-price Readers.
+        env.Logger.Log($"Calculating tax at {taxRate:P0}");
+        return price * (1.0m + taxRate);
+    });
 
-```csharp
-static Reader<PricingEnv, decimal> CalculateCartTotal(Cart cart)
-{
-    return cart.Items
-        // Start with a Reader returning 0
-        .Aggregate(Reader.Unit<PricingEnv, decimal>(0m),
-            (accReader, item) =>
-                // Combine the accumulator with the current item's price
-                from currentTotal in accReader
-                from itemPrice in CalculateItemPrice(item)
-                select currentTotal + itemPrice
-        );
-}
-```
-
-The signature stays small: `CalculateCartTotal(Cart cart)`. The dependency is captured by the return type and handled by `CalculateItemPrice`.
-
-### Step 3: format the total
-
-Formatting depends on localization, so it's also a Reader:
-
-```csharp
-static Reader<PricingEnv, string> FormatPrice(decimal amount) =>
+// 4. Formatting (Localization)
+static Reader<PricingEnv, string> FormatResult(decimal finalPrice) =>
     Reader.From<PricingEnv, string>(env =>
-        amount.ToString("C", new System.Globalization.CultureInfo(env.CultureCode))
-    );
+        finalPrice.ToString("C", new System.Globalization.CultureInfo(env.CultureCode)));
 ```
 
-### Step 4: compose the pipeline
+### Step 5: compose the pipeline
 
-Compose directly with `Bind`/`Map`:
-
-```csharp
-static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
-    CalculateCartTotal(cart)
-        .Bind(FormatPrice)
-        .Map(text => $"Final Amount: {text}");
-```
-
-Or with LINQ query syntax:
+This is the payoff: **clean linear composition** with implicit context. No passing `env` four times.
 
 ```csharp
-static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
-    from total in CalculateCartTotal(cart)
-    from text in FormatPrice(total)
-    select $"Final Amount: {text}";
+static Reader<PricingEnv, string> GenerateQuote(string serviceName)
+{
+    return
+        from basePrice in GetBasePrice(serviceName)
+        from discounted in ApplyDiscount(basePrice)
+        from withTax in AddTax(discounted)
+        from result in FormatResult(withTax)
+        select $"Quote for {serviceName}: {result}";
+}
 ```
 
 ## Run at the boundary
@@ -165,7 +162,7 @@ static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
 Up to this point, we've only built `Reader<PricingEnv, T>` values. The environment-dependent evaluation is deferred until you call `Run(env)` at the boundary (HTTP handler, message handler, UI event).
 
 ```csharp
-static string HandleCheckout(Cart cart)
+static string HandleQuote(string serviceName)
 {
     // In a real app these come from the outside world:
     DateTime now = DateTime.UtcNow;
@@ -183,7 +180,7 @@ static string HandleCheckout(Cart cart)
     );
 
     // Build the computation (still just a value)
-    Reader<PricingEnv, string> pipeline = GenerateCheckoutSummary(cart);
+    Reader<PricingEnv, string> pipeline = GenerateQuote(serviceName);
 
     // Run it once to get a plain result
     string summary = pipeline.Run(env);
@@ -198,35 +195,15 @@ That's the whole pattern: compose in the functional core, then supply the enviro
 
 `Local` runs a sub-computation under a transformed view of the environment.
 
-For example: compute the real total, then recompute under `IsVip = true` to show potential savings.
+For example: compute the current quote, then re-run the same pipeline under `IsVip = true` to show a “what if you were VIP?” price.
 
 ```csharp
-static Reader<PricingEnv, string> GenerateUpsellMessage(Cart cart) =>
-    CalculateCartTotal(cart)
-        .Bind(currentTotal =>
-            CalculateCartTotal(cart)
-                .Local(env => env with { IsVip = true })
-                .Bind(potentialTotal =>
-                    currentTotal == potentialTotal
-                        ? Reader.Unit<PricingEnv, string>("You are getting the best price!")
-                        : FormatPrice(currentTotal - potentialTotal)
-                            .Map(savings => $"Upgrade to VIP to save {savings}!")
-                )
-        );
-```
-
-The same idea is often clearer in LINQ query syntax:
-
-```csharp
-static Reader<PricingEnv, string> GenerateUpsellMessage(Cart cart) =>
-    from currentTotal in CalculateCartTotal(cart)
-    // Run the *same* calculation, but with a modified environment (`IsVip = true`)
-    from potentialTotal in CalculateCartTotal(cart).Local(env => env with { IsVip = true })
-    from message in currentTotal == potentialTotal
-        ? Reader.Unit<PricingEnv, string>("You are getting the best price!")
-        : from savingsText in FormatPrice(currentTotal - potentialTotal)
-          select $"Upgrade to VIP to save {savingsText}!"
-    select message;
+static Reader<PricingEnv, string> CompareVipPrice(string serviceName) =>
+    from current in GenerateQuote(serviceName)
+    // Run the WHOLE pipeline again, but pretend the user is VIP
+    from prediction in GenerateQuote(serviceName)
+                       .Local(env => env with { IsVip = true })
+    select $"{current} (If you were VIP: {prediction})";
 ```
 
 We avoid adding an extra `isVip` parameter or duplicating the pricing logic: it’s the same logic, recomputed under a modified environment for that one branch.
@@ -240,11 +217,10 @@ Most of the time you don't need `Ask`, because you can just use `Reader.From(env
 For example, we can include the correlation ID in the final summary without changing any function signatures:
 
 ```csharp
-static Reader<PricingEnv, string> GenerateCheckoutSummary(Cart cart) =>
-    from total in CalculateCartTotal(cart)
-    from formatted in FormatPrice(total)
+static Reader<PricingEnv, string> GenerateQuoteWithCorrelation(string serviceName) =>
+    from quote in GenerateQuote(serviceName)
     from env in Reader.Ask<PricingEnv>()
-    select $"Final Amount: {formatted} (Request={env.CorrelationId})";
+    select $"{quote} (Request={env.CorrelationId})";
 ```
 
 ## Testing
