@@ -6,7 +6,7 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
 
-_Last updated 2026-03-29._
+_Last updated 2026-04-09._
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>`, then built `Maybe<T>`.
 
@@ -56,6 +56,8 @@ On success, `Bind` passes the inner value to the next step; on failure, it forwa
 
 > **Note:** You may also see this described as "railway switching", "bypassing", "error propagation", or "fail-fast".
 
+In F#, this style is more natural. In C#, I use it selectively: mainly when several fallible steps need to compose and I want expected failure visible in the return type. For one-off parse/check code, `Try*` APIs or boundary-level exceptions are often clearer.
+
 ### The problem: explicit vs. implicit
 
 In C#, fallible work is often handled with `exceptions`, or with explicit branching (`TryX`/guard clauses/status checks) depending on whether failure is expected.[^expected-vs-exceptional]
@@ -90,10 +92,11 @@ public void DeactivateUser(string inputId)
 ```
 
 
-**Failure is implicit in the return type; composing fallible steps means nested `try/catch` or repeated status checks.**
+**Failure is implicit in the return type; when you need local recovery or translation, you typically rely on `try/catch` or repeated status checks.**
 
 **Option B: Explicit Validation (`TryX`/Guard Clauses)**
-To avoid throwing for expected failures, use `TryX`-style APIs and early returns (consider naming it `TryDeactivateUser(...)` to make that contract explicit).
+To avoid throwing for expected failures, use guard clauses and early returns.
+I don't call this `TryDeactivateUser`, because the standard .NET `Try*` pattern conventionally returns `bool` and uses an `out` parameter. Here I want a richer status enum.
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -103,42 +106,25 @@ public enum DeactivateUserResult
     Success,
     InvalidId,
     NotFound,
-    AlreadyInactive,
-    InfraError
+    AlreadyInactive
 }
 
 public DeactivateUserResult DeactivateUser(string inputId)
 {
     if (!int.TryParse(inputId, out var id)) return DeactivateUserResult.InvalidId;
 
-    User? user;
-    try
-    {
-        user = _repo.Find(id);
-    }
-    catch (Exception)
-    {
-        // logging omitted for brevity
-        return DeactivateUserResult.InfraError;
-    }
+    var user = _repo.Find(id); // unexpected infra failures bubble
     if (user is null) return DeactivateUserResult.NotFound;
 
     if (!user.IsActive) return DeactivateUserResult.AlreadyInactive;
 
-    // assuming an ORM that requires mutation
     user.IsActive = false;
-    try
-    {
-        _repo.Save(user);
-    }
-    catch (Exception)
-    {
-        // logging omitted for brevity
-        return DeactivateUserResult.InfraError;
-    }
+    _repo.Save(user); // unexpected infra failures bubble
     return DeactivateUserResult.Success;
 }
 ```
+
+If you genuinely want local translation here, catch a specific repository exception you intend to turn into a local status rather than catching `Exception`.
 
 An enum gives you a status, but not a success payload. If you need to return data on success, you end up adding an `out` parameter, returning a tuple, or introducing a wrapper type.
 Conventions are easy to violate: nothing stops you from returning `(user: null, error: null)` or populating both.
@@ -272,7 +258,9 @@ public sealed class Result<TSuccess, TError>
 
 ### Where `Result` fits (and where it doesn't)
 
-Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and `exceptions` often for bugs or unrecoverable failures.[^always-valid]
+Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and `exceptions` often for bugs or unrecoverable failures.[^always-valid]
+
+`Result` pays off most when a cohesive slice of code already returns it consistently; used in isolation, it often adds more ceremony than value.
 
 **Prefer `Result` when:**
 
