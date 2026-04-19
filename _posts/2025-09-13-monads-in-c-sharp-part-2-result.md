@@ -1,7 +1,7 @@
 ﻿---
 title: "Monads in C# (Part 2): Result"
 date: 2025-09-13
-description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose short-circuiting workflows with explicit errors."
+description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose short-circuiting workflows with explicit failure values."
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
@@ -17,7 +17,7 @@ The `Result` monad[^result-monad-precise] lets you compose operations that can f
 ### TL;DR
 What it looks like (implementations for `User` left out for brevity):
 
-> **Terminology:** In this post, I use `application boundary` for the part of the system that converts internal results into caller-facing output. In other writing, you may also see this called the `edge`, the `edge of the app`, or the `system boundary`.
+> **Terminology:** In this post, I use `application boundary` to mean the point where internal results are converted into caller-facing outputs. In other writing, you may also see this called the `edge`, the `edge of the app`, or the `system boundary`.
 
 ```csharp
 public record Error(string Code, string Message);
@@ -48,17 +48,17 @@ Result<User, Error> result =                   // Result<User, Error>
         .Bind(id => FindUserOrFail(repo, id))  // Result<User, Error>, only runs if ParseId succeeded
         .Bind(DeactivateDecision);             // Result<User, Error>, only runs if FindUser succeeded
 
-// Handle at the application boundary (or when converting between layers):
+// Handle at the application boundary (or when converting to another output type):
 string message = result.Match(
     ok:  _ => "User deactivated",
     err: e => $"Deactivate failed: {e.Code} - {e.Message}");
 ```
 
-On success, `Bind` passes the inner value to the next step; on failure, it forwards the `Error`. Short-circuiting allows the failure to propagate: after the first `Fail`, later steps are bypassed and the same error value is returned to the end of the pipeline. `Bind` encodes the control flow so your business logic doesn't have to repeat it.
+On success, `Bind` passes the inner value to the next step. On failure, it returns the same `Error` value unchanged and skips later steps, so your business logic does not have to repeat that control flow.
 
-> **Note:** You may also see this described as "railway switching", "bypassing", "error propagation", or "fail-fast".
+> **Note:** You may also see this called "railway switching", "bypassing", "error propagation", or "fail-fast".
 
-In F#, this style is more natural. In C#, I use it selectively: mainly when several operations can fail and I want expected failure visible in the return type. For one-off parse/check code, `Try*` APIs or exceptions handled at the application boundary are often clearer.
+In F#, this approach is more idiomatic. In C#, I use it selectively: mainly when several operations can fail and I want expected failures visible in the return type. For isolated parsing or validation code, `Try*` APIs or exceptions handled once at the application boundary are often clearer.
 
 ### The problem: explicit vs. implicit
 
@@ -66,8 +66,8 @@ In C#, operations that can fail are often handled with `exceptions`, or with exp
 
 **Option A: Implicit Control Flow (Exceptions)**
 
-Method signatures often don't advertise failure when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
-`DeactivateUser` (below) returns `void`, so failures aren't visible in the signature. In this style, it might throw for parsing/loading/saving and even for business-rule failures.
+Method signatures often don't indicate possible failures when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
+`DeactivateUser` (below) returns `void`, so failures aren't visible in the signature. In this style, it may throw while parsing, loading, saving, or enforcing business rules.
 
 
 
@@ -88,17 +88,17 @@ public void DeactivateUser(string inputId)
 
     user.IsActive = false;
 
-    // If this throws, it propagates to middleware or another handler at the application boundary, which can log and convert it.
+    // If this throws, middleware or another handler at the application boundary can log it and convert it into a caller-facing response.
     _repo.Save(user);
 }
 ```
 
 
-**Failure is implicit in the return type; when you need local recovery or conversion, you typically rely on `try/catch` or repeated status checks.**
+**Failure is implicit in the return type; when you need local recovery or need to represent the outcome differently, you typically rely on `try/catch` or repeated status checks.**
 
 **Option B: Explicit Validation (`TryX`/Guard Clauses)**
 To avoid throwing for expected failures, use guard clauses and early returns.
-I don't call this `TryDeactivateUser`, because the standard .NET `Try*` pattern conventionally returns `bool` and uses an `out` parameter. Here I want a richer status enum.
+I don't call this `TryDeactivateUser`, because the standard .NET `Try*` pattern conventionally returns `bool` and uses an `out` parameter. Here I want an enum with more than two outcomes.
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -126,18 +126,18 @@ public DeactivateUserResult DeactivateUser(string inputId)
 }
 ```
 
-If you genuinely want local conversion here, catch a specific repository exception you intend to turn into a local status rather than catching `Exception`.
+If you want local conversion here, catch only a specific repository exception that you intend to turn into a local status instead of catching `Exception`.
 
 An enum gives you a status, but not a success payload. If you need to return data on success, you end up adding an `out` parameter, returning a tuple, or introducing a wrapper type.
 Conventions are easy to violate: nothing stops you from returning `(user: null, error: null)` or populating both.
 
-`Result` packages these conventions and combinators into a reusable type and API (`Ok(...)`/`Fail(...)`, `Map`/`Bind`).
+`Result` turns these conventions into a reusable type with standard constructors and combinators (`Ok(...)`/`Fail(...)`, `Map`/`Bind`).
 
 ### The solution: the `Result` monad
 
-`Result` returns *expected* failure as data (as long as your steps return `Result` rather than throwing), instead of relying on a thrown `exception` for control flow. Unexpected `exceptions` still propagate.
+`Result` returns expected failures as data, as long as your steps return `Result` rather than throwing, instead of using a thrown `exception` for that control flow. Unexpected `exceptions` still propagate.
 
-Now each step either produces the next value or propagates the first `Fail(...)`.
+Each step either produces the next value or returns the first `Fail(...)` unchanged.
 
 Non-LINQ syntax (plain method chaining):
 
@@ -150,7 +150,7 @@ Result<User, Error> result =
 
 That `Bind` chain is the simplest linear pipeline case: each step only needs the previous value. It's useful, but it's **not** the general case.[^acid-test]
 
-When you need to reuse earlier values, LINQ query syntax avoids nested lambdas (directly inspired by Haskell’s `do`-notation):
+When you need to reuse earlier values, LINQ query syntax keeps them in scope without nested lambdas (directly inspired by Haskell’s `do`-notation):
 
 ```csharp
 Result<User, Error> result =
@@ -164,7 +164,7 @@ Result<User, Error> result =
 
 If you want LINQ query syntax (`from`/`select`) to compile for this `Result`, see the appendix.
 
-Converting between layers often means turning a `Result` into a different output type via `Match`. In practice you'll often also want `MapError` (or `BindError`) to convert error types between layers without ending the pipeline.
+When crossing layers, you often use `Match` to convert a `Result` into another output type. In practice, you'll also often want `MapError` (or `BindError`) to convert one error type into another without leaving the pipeline.
 
 ```csharp
 Result<int, Error> infraResult = ParseId(inputIdFromRequest);
@@ -174,7 +174,7 @@ string response = infraResult.Match(
         err: e => $"Bad request: {e.Code} - {e.Message}");
 ```
 
-At the application boundary (HTTP/CLI/public APIs), you typically convert the result into a DTO/status/`ProblemDetails`/exit code.
+At the application boundary (HTTP/CLI/public APIs), you typically convert the result into a DTO, an HTTP status code, a `ProblemDetails` instance, or an exit code.
 
 **IMPORTANT!** C# doesn't force you to handle a returned `Result`. Use an analyzer.[^unused-result]
 
@@ -182,16 +182,16 @@ At the application boundary (HTTP/CLI/public APIs), you typically convert the re
 
 > If you're curious, try implementing `Result` yourself first.
 
-This teaching implementation is intentionally minimal and not production-ready. Use a library (below) for real code.
+This implementation is intentionally small and meant for explanation, not production use. Use a library (below) in production code.
 
-If you want an ecosystem rather than a teaching implementation, look at:
+If you want a production library rather than a teaching implementation, look at:
 
-- [LanguageExt](https://github.com/louthy/language-ext): full FP ecosystem for C# (LINQ support, `Fin<A>`, higher-kinded traits; see [Paul Louth's series](https://paullouth.com/higher-kinds-in-c-with-language-ext/)).
+- [LanguageExt](https://github.com/louthy/language-ext): full functional-programming library for C# (LINQ support, `Fin<A>`, higher-kinded traits; see [Paul Louth's series](https://paullouth.com/higher-kinds-in-c-with-language-ext/)).
 - [CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions): smaller, pragmatic `Result`/`Maybe` types.
-- [Danom](https://github.com/pimbrouwers/Danom): another small Result/Option-style OSS library.
-- [ErrorOr](https://github.com/amantinband/error-or): an `ErrorOr<T>` style that reduces type-parameter noise.
+- [Danom](https://github.com/pimbrouwers/Danom): another small open-source Result/Option library.
+- [ErrorOr](https://github.com/amantinband/error-or): an `ErrorOr<T>` API that reduces type-parameter noise.
 
-Here's the implementation for `Result`:
+Here is a minimal implementation of `Result`:
 
 ```csharp
 public sealed class Result<TSuccess, TError>
@@ -207,7 +207,7 @@ public sealed class Result<TSuccess, TError>
         _error = error;
     }
 
-    // Unit
+    // Success/failure constructors
     public static Result<TSuccess, TError> Ok(TSuccess value)
     {
         return new Result<TSuccess, TError>(
@@ -260,32 +260,32 @@ public sealed class Result<TSuccess, TError>
 
 ### Where `Result` is useful (and where it isn't)
 
-Rule of thumb: `T?` for something that could be null, `Maybe<T>` for expected absence (no reason), `Result<TSuccess, TError>` for expected failures you'll handle, and `exceptions` often for bugs or unrecoverable failures.[^always-valid]
+A practical guideline: use `T?` for values that may be null, `Maybe<T>` for expected absence without an error, `Result<TSuccess, TError>` for expected failures that callers will handle, and `exceptions` for bugs or unrecoverable failures.[^always-valid]
 
-`Result` is most useful when a cohesive slice of code already returns it consistently; used in isolation, it often adds more ceremony than value.
+`Result` is most useful when a cohesive slice of code already returns it consistently; when used only once, it often adds more ceremony than value.
 
 **Prefer `Result` when:**
 
 * **Failure is expected and recoverable:** validation/business rules, not found, auth failures, parsing user input.
-* **You have a multi-step workflow:** the composition benefit matters once several steps that can fail need to fit together cleanly.
+* **You have a multi-step workflow:** the composition benefit matters once several steps that can fail need to compose cleanly.
 
 **Prefer `exceptions` (or other types) when:**
 
 * **It's a bug / broken invariant:** violated preconditions, "impossible states" → often `exceptions` (e.g., `ArgumentNullException`).
 * **You need accumulation:** `Bind` is short-circuiting; use `Validation<T>`/applicatives (or a combine API) for independent validations.[^accumulation]
 
-### A note on ergonomics (and why this can feel less idiomatic in C#)
-`Result` is idiomatic in F#; in C# it can feel more verbose.
+### Ergonomics in C#
+`Result` is idiomatic in F#; in C# the same approach usually requires more syntax.
 
-- In F#, discriminated unions and computation expressions make `Result` workflows terse.
-- In C#, you pay more ceremony (generic type arguments, `Ok(...)` factories, async nesting, etc.). If you push this everywhere, new-reader overhead is real.
+- In F#, discriminated unions and computation expressions make `Result` workflows concise.
+- In C#, the same code requires more generic arguments, explicit `Ok(...)` calls, and async nesting. If you use it pervasively, the extra reading burden for new readers is real.
 - Even if C# gets discriminated unions, that improves representation and pattern matching but does **not** give you F#-style computation expressions or type inference.
 
 Practical tips if you *do* use `Result` in C#:
 
-- Keep it local (often: application boundaries and workflows), not everywhere.
+- Use it locally, often at application boundaries and in workflows, rather than everywhere.
 - Prefer LINQ query syntax (`from`/`select`) once you need to reuse earlier values or branch (more on that below).
-- Consider a single error type / `ErrorOr<T>`-style API if the two-parameter shape gets too noisy.
+- Consider a single error type or an `ErrorOr<T>`-style API if the two-parameter form becomes too verbose.
 
 For example:
 
@@ -304,10 +304,10 @@ Many libraries provide implicit conversions (`Ok<T>`/`Err<E>` wrappers or `using
 
 ### Putting it together
 
-Eventually you turn a `Result` into something your caller understands (HTTP response, CLI exit code, UI state, etc.). The application boundary is a good place to `Match`.
+At the application boundary, you convert a `Result` into something your caller understands, such as an HTTP response, a CLI exit code, or UI state. That is a good place to `Match`.
 
 #### Example: deactivate a user
-We want to deactivate a user given a user's `id` from an HTTP request (received as a **string**, parsed to an `int`).[^id]
+We want to deactivate a user given a user ID from an HTTP request, received as a **string** and parsed to an `int`.[^id]
 
 ```csharp
 public class User
@@ -326,7 +326,7 @@ public sealed class UserService
 
     public Result<User, Error> DeactivateUser(string inputId)
     {
-        // Workflow composition; the write happens at the application boundary (see `HandleDeactivateRequest`).
+        // Compose the workflow here; perform the write at the application boundary (see `HandleDeactivateRequest`).
         return ParseId(inputId)
             .Bind(FindUser)
             .Bind(DeactivateDecision);
@@ -339,7 +339,7 @@ public sealed class UserService
         return result.Match(
             ok: user =>
             {
-                // If this throws, assume a handler at the application boundary logs it and converts it for the caller.
+                // If this throws, assume a handler at the application boundary logs it and turns it into a caller-facing response.
                 _repo.Save(user);
                 return "User deactivated";
             },
@@ -370,16 +370,16 @@ public sealed class UserService
 }
 ```
 
-This computes `Result<User, Error>` internally, then `Match`es at the application boundary (`HandleDeactivateRequest`) to produce caller-facing output. In a real HTTP endpoint, you'd return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
+This computes `Result<User, Error>` internally, then uses `Match` at the application boundary (`HandleDeactivateRequest`) to produce the caller-facing response. In a real HTTP endpoint, you'd return `IActionResult`/`IResult` (not a `string`) and map `Error` to `ProblemDetails`/status codes.
 
 #### Why is `_repo.Save(user)` inside `Match`?
 
-`Save` is I/O and can fail. Catch and convert domain-relevant exceptions (e.g., uniqueness conflicts) into a `Result` error; let unexpected infrastructure `exceptions` propagate to handlers at the application boundary.
+`Save` is I/O and can fail. Catch only the exceptions you intentionally map into a `Result` error, such as uniqueness conflicts; let unexpected infrastructure `exceptions` propagate to handlers at the application boundary.
 
 ### Why serializing `Result` directly adds wrapper fields
 
-On a **public API surface**, serializing `Result` tends to leak an internal control-flow wrapper into your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
-Serializing a `Result` class directly produces wrapper JSON like this:
+On a **public API surface**, serializing `Result` exposes an internal control-flow type in your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
+Serializing `Result` directly produces wrapper JSON like this:
 
 ```json
 {
@@ -391,14 +391,14 @@ Serializing a `Result` class directly produces wrapper JSON like this:
 
 ### Note on async: `Task<Result<...>>` nesting requires async-aware combinators
 
-Mixing `Task` and `Result` gives `Task<Result<...>>`, which plain LINQ doesn't compose. Use async-aware combinators (`BindAsync`/`MapAsync`) or a library that provides them.
+Mixing `Task` and `Result` produces `Task<Result<...>>`, which LINQ query syntax does not compose directly. Use async-aware combinators (`BindAsync`/`MapAsync`) or a library that provides them.
 
 ### Recap
 
 - `Result<TSuccess, TError>` makes expected failure explicit and composable.
 - It's a targeted tool, not a blanket replacement for `Try*` APIs or `exceptions`.
 - Use `Bind` for short-circuiting pipelines; `Match` to produce caller-facing output.
-- For public API surfaces, unwrap `Result` into DTOs (rather than serializing it). Decide where you catch/convert `exceptions`.
+- For public API surfaces, unwrap `Result` into DTOs (rather than serializing it). Decide where you catch `exceptions` and convert them.
 
 Part 3 coming soon.
 
@@ -427,12 +427,12 @@ public static class ResultLinqExtensions
 
 - [Ergonomically fitting monads into imperative languages](https://odr.chalmers.se/items/91bf8c4b-93dd-43ca-8ac2-8b0d2c62a581) — master's thesis on `do`-notation-style syntax for monads in imperative languages ([C# prototype](https://github.com/master-of-monads/monads-cs/blob/89netram/mcs/Mcs/SamplePrograms/MonadSamples.cs)).
 - [Paul Louth's higher-kinds in C# series](https://paullouth.com/higher-kinds-in-c-with-language-ext/) — higher-kinded abstractions and monads in C# with LanguageExt.
-- [jerf's monad tutorial acid test](https://jerf.org/iri/post/2928/) — litmus test for whether a monad implementation supports more than linear pipelines.
+- [jerf's monad tutorial acid test](https://jerf.org/iri/post/2928/) — criterion for whether a monad implementation supports more than linear pipelines.
 - [Scott Wlaschin's Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) — the canonical F# introduction to `Result`-style composition.
 
 [^id]: In real systems, prefer a strongly typed ID (e.g., `UserId`) over primitives. Here I keep it simple: `string` at the application boundary, parse to `int`, focus on `Result`.
 
-[^checked-exceptions]: Java has *checked exceptions* (`throws` forces callers to catch/declare them), but unchecked exceptions still exist. C# has no checked exceptions, so "might throw" usually isn't in the signature (unless documented).
+[^checked-exceptions]: Java has *checked exceptions* (`throws` forces callers to catch/declare them), but unchecked exceptions still exist. C# has no checked exceptions, so possible exceptions usually are not visible in the signature (unless documented).
 
 [^always-valid]: Vladimir Khorikov, [Always valid vs not always valid domain model](https://enterprisecraftsmanship.com/posts/always-valid-vs-not-always-valid-domain-model/).
 
