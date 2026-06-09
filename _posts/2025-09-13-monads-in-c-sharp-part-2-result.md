@@ -429,10 +429,10 @@ public static class ResultLinqExtensions
 
 ### Further reading
 
-- [Monadic Programming in Imperative Languages](https://odr.chalmers.se/bitstreams/3d20b1cc-091c-46fa-a706-bb826c4415c6/download) — master's thesis on `do`-notation-style syntax for monads in imperative languages ([C# prototype](https://github.com/master-of-monads/monads-cs/tree/89netram/monads/src)).
-- [Paul Louth's higher-kinds in C# series](https://paullouth.com/higher-kinds-in-c-with-language-ext/) — higher-kinded abstractions and monads in C# with LanguageExt.
-- [jerf's monad tutorial acid test](https://jerf.org/iri/post/2928/) — criterion for whether a monad implementation supports more than linear pipelines.
-- [Scott Wlaschin's Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) — the canonical F# introduction to `Result`-style composition.
+- [Monadic Programming in Imperative Languages](https://odr.chalmers.se/bitstreams/3d20b1cc-091c-46fa-a706-bb826c4415c6/download) - master's thesis on `do`-notation-style syntax for monads in imperative languages ([C# prototype](https://github.com/master-of-monads/monads-cs/tree/89netram/monads/src)).
+- [Paul Louth's higher-kinds in C# series](https://paullouth.com/higher-kinds-in-c-with-language-ext/) - higher-kinded abstractions and monads in C# with LanguageExt.
+- [jerf's monad tutorial acid test](https://jerf.org/iri/post/2928/) - criterion for whether a monad implementation supports more than linear pipelines.
+- [Scott Wlaschin's Railway Oriented Programming](https://fsharpforfunandprofit.com/rop/) - the canonical F# introduction to `Result`-style composition.
 
 [^id]: In real systems, prefer a strongly typed ID (e.g., `UserId`) over primitives. Here I keep it simple: `string` at the application boundary, parse to `int`, focus on `Result`.
 

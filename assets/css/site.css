@@ -12,6 +12,12 @@
   --site-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--site-ink);
   background: var(--site-bg);
@@ -35,10 +41,6 @@ body {
   font-family: var(--site-sans);
   font-weight: 700;
   letter-spacing: -0.01em;
-}
-
-.site-nav .nav-item[href="/"] {
-  display: none;
 }
 
 .page-content {
@@ -154,7 +156,8 @@ body {
 }
 
 .page-hero > :first-child {
-  flex: 1 1 30rem;
+  flex: 1 1 auto;
+  max-width: 42rem;
 }
 
 .page-hero-stats .stat-card {

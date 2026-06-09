@@ -127,7 +127,7 @@ If you are logging to a file and the logger doesn't expect UTF-8 output (and par
 For example,
 
 ```
-echo "Á" | jq -R yields "Á” (with quotes.)
+echo "Á" | jq -R yields "Á" (with quotes.)
 ```
 
 The -a switch changes this behavior and replaces them with escape sequences:
@@ -150,7 +150,7 @@ echo "{\"page\": 3}" | echo "https://example.com/search?id=$(jq .page)" (outputs
 
 But it gets dangerous if the number turns into text that contains non-URI safe characters:
 
-`echo "{\"page\": \"[3-2]\"}" | echo "https://example.com/search?id=$(jq .page)"` which returns `https://example.com/search?id="[3-2]"` . If you were to pipe this URL into curl, curl interprets the square brackets as a URL range. Curl fails to download that URL with the error, “curl: (3) [globbing] bad range in column 26”.
+`echo "{\"page\": \"[3-2]\"}" | echo "https://example.com/search?id=$(jq .page)"` which returns `https://example.com/search?id="[3-2]"` . If you were to pipe this URL into curl, curl interprets the square brackets as a URL range. Curl fails to download that URL with the error, "curl: (3) [globbing] bad range in column 26".
 
 However, running:
 

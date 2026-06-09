@@ -24,12 +24,12 @@ results are more focused on blogs than actual raw programming files.
 While not impossible to get raw files (e.g. using the inurl attribute to
 get the filename), the signal to noise ratio is low for what we want.
 
-Let’s use the GitHub search to find some sample files. Searching for
+Let's use the GitHub search to find some sample files. Searching for
 ".gradle" finds a lot of files, and we can write a script to download
 them, right? Well, we are limited to the first 100 pages of search
-results, and even if we search on the file type’s language, we only get
-1000 sample files and a lot of them are exact duplicates. That’s a lot,
-but it’s not enough for our purposes. What can we do if GitHub’s search
+results, and even if we search on the file type's language, we only get
+1000 sample files and a lot of them are exact duplicates. That's a lot,
+but it's not enough for our purposes. What can we do if GitHub's search
 restricts us to the first 1000 results?
 
 We can search for random dictionary words with the language as the
@@ -43,12 +43,12 @@ of those return zero search results. Is there a better way?
 
 The website GHArchive.com has been collecting public GitHub event data
 since about 2011. This event data consists of when new repos are
-created, user comments’ on PRs, and more importantly, pushes to all
+created, user comments' on PRs, and more importantly, pushes to all
 public repos. The "PushEvent" contains the message and URL of the
 commit. We can search for the word that we want in the commit message,
 then find and download the files that correspond to that word.
 
-It’s not perfect though: the word that corresponds to the filetype isn’t
+It's not perfect though: the word that corresponds to the filetype isn't
 guaranteed to be in the commit message. When is the last time you wrote
 "Adding a C\# file" for a commit? Thankfully though, this approach works
 well enough for our purposes and we are able to get a very sizable chunk
@@ -57,9 +57,9 @@ of files.
 The following script downloads all event data from 2015 through 2020
 from GHArchive.com. Since there are \~44640 files (assuming every month
 has 31 days), and each file is \~10MB, then this will download \~44GB.
-If that’s too much, then the years can be adjusted to get a smaller
+If that's too much, then the years can be adjusted to get a smaller
 slice in time. The "sponge" utility is required because gharchive.com
-doesn’t like having long-lived server connections when streaming the
+doesn't like having long-lived server connections when streaming the
 file (and will disconnect us); to get it, install the moreutils package.
 Also, install the jq package to parse json files. The following script
 will go to gharchive.com, and extract the commit URLs from the
@@ -90,13 +90,13 @@ CPU usage was hovering at around 30%.
 
 To speed this up, the files could be downloaded beforehand (or multiple in parallel.)
 
-If you get errors every 30th or 31st file, don’t worry because these
-days in that month doesn’t exist. It’s possible to skip over those but
+If you get errors every 30th or 31st file, don't worry because these
+days in that month doesn't exist. It's possible to skip over those but
 it could make the code a bit more complicated.
 
 This will output a list of URLs which correspond to a single commit
 (which can contain many files) whose commit messages contain the word
-"gradle". GitHub’s API is rate-limited, which is why they are saved to a
+"gradle". GitHub's API is rate-limited, which is why they are saved to a
 file called "gradle_urls.txt" for further processing at a slower speed.
 There are ways around the rate-limit in this API, but they will not be
 discussed in this post.
@@ -115,7 +115,7 @@ To get some inspiration on what extensions or filenames it *could* have
 (but not guaranteed), go through
 [*https://github.com/github/linguist/blob/master/lib/linguist/languages.yml*](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml),
 find your language, and see how the grammar is applied. You might find
-some filenames that you didn’t know about that you can match against. If
+some filenames that you didn't know about that you can match against. If
 you want a *lot* of files, you could download all of them and check them
 individually but the signal to noise ratio is very low.
 
@@ -126,7 +126,7 @@ first), run:
 wget -i ~/gradle_sample_file_urls.txt
 ```
 
-This will download all of the sample files. You could say you’re done,
+This will download all of the sample files. You could say you're done,
 but there is a bit of cleanup that you might want to do afterwards.
 
 ## Cleanup time
@@ -134,10 +134,10 @@ but there is a bit of cleanup that you might want to do afterwards.
 I have a few bonus tips on how to clean up the resulting downloaded
 files and how to get *even more*.
 
-After downloading the files (e.g. wget -i urls.txt), you’ll have a bunch
+After downloading the files (e.g. wget -i urls.txt), you'll have a bunch
 of files which are duplicates, a lot of them very similar, some might be
 empty, some might have invalid syntax, and some are totally random and
-don’t correspond to your file type at all.
+don't correspond to your file type at all.
 
 The first step is to remove exact duplicates. I used the fdupes utility
 to automatically delete all duplicates, preserving a random file in the
@@ -167,7 +167,7 @@ check to fail.
 Fortunately, there is a workaround. **Note: take a backup of the
 directory before running this command.** Since the filename has to be
 matched, then in order to have the filename pre-approved, it has to be
-in github-linguist’s filename set. Check this file to find out how the
+in github-linguist's filename set. Check this file to find out how the
 filenames have to match:
 [*https://github.com/github/linguist/blob/master/lib/linguist/languages.yml*](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
 Each file must be in a different directory, but with the pre-approved
@@ -200,14 +200,14 @@ will take a while to process, however.
 You could stop here if you have sufficient sample data, or if you are
 unsatisfied you can continue to get even more files.
 
-## Let’s get greedy
+## Let's get greedy
 
 (This section will be cleaned up at some point, as while it is possible
-to perform using a script, I haven’t made one yet for it.)
+to perform using a script, I haven't made one yet for it.)
 
 Notice that earlier I said that the URLs corresponded to commits, which
 mean that they are part of a series and can be linked together. The
-entire file’s history can be tracked and so we can find more examples of
+entire file's history can be tracked and so we can find more examples of
 this file by downloading it at each point in history.
 
 In the ~/gradle_url_sample_files.txt file, a URL might look like
@@ -256,7 +256,7 @@ Download that URL:
 ```
 curl
 "[*https://api.github.com/repos/github/linguist/commits/4ed58c743d*](https://api.github.com/repos/github/linguist/commits/4ed58c743d)"
-| jq .files[].raw\_url | cut -d ‘"‘ -f 2
+| jq .files[].raw\_url | cut -d '"' -f 2
 ```
 
 Each of those URLs will point directly to a raw file, including the
