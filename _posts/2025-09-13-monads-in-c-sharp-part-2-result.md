@@ -69,7 +69,7 @@ In C#, operations that can fail are often handled with `exceptions`, or with exp
 Method signatures often don't indicate possible failures when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
 `DeactivateUser` (below) returns `void`, so failures aren't visible in the signature. In this style, it may throw while parsing, loading, saving, or enforcing business rules.
 
-
+
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -92,7 +92,7 @@ public void DeactivateUser(string inputId)
     _repo.Save(user);
 }
 ```
-
+
 
 **Failure is implicit in the return type; when you need local recovery or need to represent the outcome differently, you typically rely on `try/catch` or repeated status checks.**
 
@@ -160,7 +160,7 @@ Result<User, Error> result =
     from done  in DeactivateDecisionWithPosts(user, posts)
     select done;
 ```
-
+
 
 If you want LINQ query syntax (`from`/`select`) to compile for this `Result`, see the appendix.
 
@@ -379,7 +379,7 @@ This computes `Result<User, Error>` internally, then uses `Match` at the applica
 ### Why serializing `Result` directly adds wrapper fields
 
 On a **public API surface**, serializing `Result` exposes an internal control-flow type in your schema. Prefer `Match` into a DTO / HTTP status / `ProblemDetails` (unless using a custom converter).
-Serializing `Result` directly produces wrapper JSON like this:
+Many `Result` implementations expose public `Value`/`Error`/status members, so serializing them directly can produce wrapper JSON like this:
 
 ```json
 {
@@ -400,7 +400,7 @@ Mixing `Task` and `Result` produces `Task<Result<...>>`, which LINQ query syntax
 - Use `Bind` for short-circuiting pipelines; `Match` to produce caller-facing output.
 - For public API surfaces, unwrap `Result` into DTOs (rather than serializing it). Decide where you catch `exceptions` and convert them.
 
-Part 3 coming soon.
+`Result` is a useful pattern when it clarifies a workflow, but it works best when applied deliberately rather than everywhere.
 
 ### Appendix: LINQ query syntax (`Select`/`SelectMany`)
 If you want `from`/`from`/`select` query syntax to compile, add these extension methods (or add them directly to `Result`). Other keywords like `where` require additional methods.
