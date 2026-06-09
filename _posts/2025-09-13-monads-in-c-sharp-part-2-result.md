@@ -56,7 +56,7 @@ string message = result.Match(
 
 On success, `Bind` passes the inner value to the next step. On failure, it returns the same `Error` value unchanged and skips later steps, so your business logic does not have to repeat that control flow.
 
-> **Note:** You may also see this called "railway switching", "bypassing", "error propagation", or "fail-fast".
+> **Note:** You may also see this called "Railway Oriented Programming (ROP)", "bypassing", "error propagation", or "fail-fast".
 
 In F#, this approach is more idiomatic. In C#, I use it selectively: mainly when several operations can fail and I want expected failures visible in the return type. For isolated parsing or validation code, `Try*` APIs or exceptions handled once at the application boundary are often clearer.
 
@@ -366,6 +366,8 @@ public sealed class UserService
         if (!user.IsActive)
             return Result<User, Error>.Fail(new Error("Domain", "User is already inactive"));
 
+        // Pragmatic C# version: this mutates the domain object.
+        // A purer version would return a new User state or a command and apply effects at the boundary.
         user.IsActive = false;
         return Result<User, Error>.Ok(user);
     }
