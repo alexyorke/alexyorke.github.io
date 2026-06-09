@@ -143,7 +143,7 @@ private ZLibNative.ErrorCode Inflate(ZLibNative.FlushCode flushCode) {
 
 It was returning a DataError or a StreamError, sometimes. This meant that there was something wrong with the data or the stream (yes, a bit obvious.)
 
-To rule out if it was a coding error, I tried to decompress the gzip file with bash via gzip -dc file. bash threw a strange error, [“can’t seek file descriptor”](https://stackoverflow.com/questions/3838322/bash-read-write-file-descriptors-seek-to-start-of-file) when trying to read the file. This error is emitted from [bash.c here](https://github.com/bminor/bash/blob/f3a35a2d601a55f337f8ca02a541f8c033682247/input.c). I also tried decompressing several other gzip files, but they were unable to be decompressed.
+To rule out if it was a coding error, I tried to decompress the gzip file with bash via gzip -dc file. bash threw a strange error, [“can’t seek file descriptor”](https://stackoverflow.com/questions/3838322/bash-read-write-file-descriptors-seek-to-start-of-file) when trying to read the file. This error is emitted from bash itself. I also tried decompressing several other gzip files, but they were unable to be decompressed.
 
 At this point, I strongly suspected data corruption. I quickly checked CrystalDiskInfo for any reallocated sectors but could not find any. I then ran sfc.exe /SCANNOW, and I believe it did find errors and corrected them. I ran it again, and again, and again, and it kept fixing errors. At some point (maybe five times) it didn’t report any more errors.
 

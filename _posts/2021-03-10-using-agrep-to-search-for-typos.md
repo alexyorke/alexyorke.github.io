@@ -8,7 +8,7 @@ If you have a typo in your codebase, it might be tempting to reach for spell che
 
 While it is possible to generate a team-driven spellcheck with a custom dictionary of words, sometimes this might not be practical. What if I just need to search the codebase for a single, potentially misspelled word?
 
-Enter '[[agrep]{.ul}](https://linux.die.net/man/1/agrep)' (not 'grep'.) The agrep command stands for approximate grep, and uses the edit distance between words to calculate how many characters would need to be added, removed, or modified to make your original word. A popular algorithm to calculate this is the Levenstein distance.
+Enter '[[agrep]{.ul}](https://www.tgries.de/agrep/)' (not 'grep'.) The agrep command stands for approximate grep, and uses the edit distance between words to calculate how many characters would need to be added, removed, or modified to make your original word. A popular algorithm to calculate this is the Levenstein distance.
 
 ### How do you use 'agrep'?
 

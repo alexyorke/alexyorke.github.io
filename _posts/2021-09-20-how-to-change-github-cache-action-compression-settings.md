@@ -6,7 +6,7 @@ description: "How to change GitHub Actions cache compression by setting ZSTD_CLE
 
 The [GitHub cache action](https://github.com/actions/cache) is an action that allows you to cache files in between CI runs. However, there isn&#39;t a publicly documented way to modify the compression settings (i.e. to increase or decrease the compression ratio.)
 
-However, changing the [ZSTD\_CLEVEL](http://zstd/README.md%20at%20cefafc0b6efc1cf31b57c8f7f99a7aa88344644d%20%C2%B7%20facebook/zstd%20(github.com)) environment variable allows you to modify the compression level.
+However, changing the [ZSTD\_CLEVEL](https://raw.githubusercontent.com/facebook/zstd/cefafc0b6efc1cf31b57c8f7f99a7aa88344644d/README.md) environment variable allows you to modify the compression level.
 
 For example, in your GitHub actions YAML file, add the `env` stanza:
 

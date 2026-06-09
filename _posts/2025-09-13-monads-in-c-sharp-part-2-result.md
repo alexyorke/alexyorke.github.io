@@ -446,6 +446,6 @@ public static class ResultLinqExtensions
 
 [^acid-test]: A useful criterion for monadic composition is whether you can reuse earlier bound values later in the workflow. LINQ query syntax supports that through the compiler's `SelectMany` projection; plain `.Bind().Bind()` chaining quickly degenerates into nested lambdas. Branch/filter clauses such as `where` require additional query-pattern methods.
 
-[^result-monad-precise]: Strictly, `Result` is a data type; it becomes a monad when paired with `Ok`/`Bind` (with `Map` derivable from them) satisfying the monad laws: left identity, right identity, and associativity, for pure/total functions. See [Cats: Either](https://www.scala-exercises.org/cats/either).
+[^result-monad-precise]: Strictly, `Result` is a data type; it becomes a monad when paired with `Ok`/`Bind` (with `Map` derivable from them) satisfying the monad laws: left identity, right identity, and associativity, for pure/total functions. See [Cats: Either](https://typelevel.org/cats/datatypes/either.html).
 
 [^expected-vs-exceptional]: See the [.NET design guidelines on exceptions and performance](https://learn.microsoft.com/dotnet/standard/design-guidelines/exceptions-and-performance): exceptions remain the standard error-reporting mechanism, but Tester-Doer/`TryParse`-style APIs are recommended when a member may commonly fail, especially in performance-sensitive paths.

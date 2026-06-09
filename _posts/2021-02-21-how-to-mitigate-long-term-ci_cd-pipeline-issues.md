@@ -64,7 +64,7 @@ Also, developers may not be aware of a pipeline taking longer and longer because
 
 Also,
 
--   Changing code in an unfamiliar programming language (such as Bash or GitHub Workflow files) can be difficult. Also, Bash has many pitfalls and edge-cases, which may not be clear if you don't spend a lot of time with the language. It follows the mantra of "If it's not broken, don't fix it." Tools such as a [[GitHub Workflow file validator extension]{.ul}](https://marketplace.visualstudio.com/items?itemName=cschleiden.vscode-github-actions) might not be used and instead use GitHub to validate the files after pushing it via trial and error.
+-   Changing code in an unfamiliar programming language (such as Bash or GitHub Workflow files) can be difficult. Also, Bash has many pitfalls and edge-cases, which may not be clear if you don't spend a lot of time with the language. It follows the mantra of "If it's not broken, don't fix it." Tools such as a [[GitHub Actions extension for VS Code]{.ul}](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions) might not be used and instead use GitHub to validate the files after pushing it via trial and error.
 
 -   DevOps is used to break down the barriers between developers and operations, but developers may not do operations work in their day-to-day. We may misjudge the operations philosophy as keep-trying-things-until-it-works to keep the lights on. Since Bash scripts are interpreted, there isn't a build-and-see-if-it-works function (there is a built-in syntax checker but might not be known), and so it turns into a guess-and-check. The guess-and-check method is an ops no-no.
 

@@ -44,7 +44,7 @@ These tips are theoretical and don't appear to have any concrete implementations
 
 -   Consider reducing the maximum disk allocation per container. This could allow for more containers to run per host if disk-space is an issue. It can also allow for smaller disk sizes to be used.
 
--   Run Selenium tests in a [[separate VM]{.ul}](https://www.selenium.dev/documentation/en/remote_webdriver/remote_webdriver_server/) and each container would share that VM to start up new browsers. This may or may not save energy.
+-   Run Selenium tests in a [[separate VM]{.ul}](https://www.selenium.dev/documentation/webdriver/drivers/remote_webdriver/) and each container would share that VM to start up new browsers. This may or may not save energy.
 
 -   Use \--tmp-fs to mount a RAM disk to store your CI's build files if your pipeline runner doesn't do that by default. Docker will [[write to its own internal filesystem]{.ul}](https://stackoverflow.com/questions/35313763/are-docker-artifacts-when-running-a-container-stored-in-host-fs-or-memory) (which writes to the container's layer which "writes" to the host.) Writing to a conventional disk could slow down build times, meaning that your runner will be running for longer. Writing to a RAM disk could be faster, especially if the files will be deleted the next run. This could use additional RAM, so make sure you size your containers correctly. Ensure this is right for you by doing additional research.
 

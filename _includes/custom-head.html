@@ -5,10 +5,11 @@
 
 {%- comment -%} RSS / Atom feed for readers and crawlers {%- endcomment -%}
 <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<meta name="theme-color" content="#0f3d3e">
 
 {%- comment -%}
   Optional: if you later add a social preview image site-wide, set in _config.yml:
   logo: /assets/images/...
   Then jekyll-seo-tag will include it.
 {%- endcomment -%}
-
