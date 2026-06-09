@@ -6,7 +6,7 @@ description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to co
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
 
-_Last updated 2026-04-18._
+_Last updated 2026-06-08._
 
 In **Part 1** (`List`), we contrasted `Map` (`Select`) vs `Bind` (`SelectMany`) on `List<T>`, then built `Maybe<T>`.
 
@@ -58,7 +58,7 @@ On success, `Bind` passes the inner value to the next step. On failure, it retur
 
 > **Note:** You may also see this called "Railway Oriented Programming (ROP)", "bypassing", "error propagation", or "fail-fast".
 
-In F#, this approach is more idiomatic. In C#, I use it selectively: mainly when several operations can fail and I want expected failures visible in the return type. For isolated parsing or validation code, `Try*` APIs or exceptions handled once at the application boundary are often clearer.
+> **Note 2:** In F#, this approach is more idiomatic. For isolated parsing or validation code, `Try*` APIs or exceptions handled once at the application boundary are often clearer, and this post isn't intended to imply you should use `Result` everywhere in C#. This implementation is a bit simplistic and awkward, but is used as a pedagogical tool to help procedural programmers (like myself) understand the mechanics.
 
 ### The problem: explicit vs. implicit
 
@@ -68,7 +68,6 @@ In C#, operations that can fail are often handled with `exceptions`, or with exp
 
 Method signatures often don't indicate possible failures when using `exceptions`, unlike `TryX`/`bool`-return patterns.[^checked-exceptions]
 `DeactivateUser` (below) returns `void`, so failures aren't visible in the signature. In this style, it may throw while parsing, loading, saving, or enforcing business rules.
-
 
 
 ```csharp
@@ -96,9 +95,11 @@ public void DeactivateUser(string inputId)
 
 **Failure is implicit in the return type; when you need local recovery or need to represent the outcome differently, you typically rely on `try/catch` or repeated status checks.**
 
-**Option B: Explicit Validation (`TryX`/Guard Clauses)**
-To avoid throwing for expected failures, use guard clauses and early returns.
-I don't call this `TryDeactivateUser`, because the standard .NET `Try*` pattern conventionally returns `bool` and uses an `out` parameter. Here I want an enum with more than two outcomes.
+**Option B: Explicit Status Return (Guard Clauses)**
+
+If failure is expected, one simple alternative is to return an explicit status enum and stop at the first failing check. This keeps the control flow linear and makes the possible outcomes visible in the return type.
+
+This is related to, but different from, the standard .NET `Try*` pattern. A conventional `Try*` method returns `bool` and uses an `out` parameter for the success value. Here I am not using `Try*` because I want to model several distinct failure outcomes (`InvalidId`, `NotFound`, `AlreadyInactive`), not just success vs. failure.
 
 ```csharp
 private readonly IUserRepo _repo;
@@ -126,10 +127,9 @@ public DeactivateUserResult DeactivateUser(string inputId)
 }
 ```
 
-If you want local conversion here, catch only a specific repository exception that you intend to turn into a local status instead of catching `Exception`.
+This style is straightforward and often fine for a single small workflow. If you want local conversion here, catch only a specific repository exception that you intend to turn into a local status instead of catching `Exception`.
 
-An enum gives you a status, but not a success payload. If you need to return data on success, you end up adding an `out` parameter, returning a tuple, or introducing a wrapper type.
-Conventions are easy to violate: nothing stops you from returning `(user: null, error: null)` or populating both.
+The tradeoff is that an enum gives you a status, but not a success payload. If you later need to return data on success, you end up adding an `out` parameter, returning a tuple, or introducing a wrapper type. Once that convention starts spreading across multiple methods, callers also have to remember what each enum value means, how success data is returned, and which exceptions still escape.
 
 `Result` turns these conventions into a reusable type with standard constructors and combinators (`Ok(...)`/`Fail(...)`, `Map`/`Bind`).
 
