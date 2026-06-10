@@ -1,14 +1,18 @@
 ---
-title: Alex Yorke
-description: Practical writing on CI/CD, testing, reliability, shell tooling, and functional programming.
+title: Alex Yorke (Alex York)
+description: Personal website of Alex Yorke, also known as Alex York. Writing on CI/CD, testing, reliability, shell tooling, and functional programming.
 permalink: /
 ---
 <section class="home-intro">
-  <h1>Notes on software engineering</h1>
+  <p class="eyebrow">Software engineering writing</p>
+  <h1>Alex Yorke</h1>
   <p>
-    Writing about CI/CD, testing, debugging, shell tooling, reliability, and functional programming in day-to-day engineering work.
+    <strong>Alex Yorke</strong>, also known as <strong>Alex York</strong>, writes practical articles on CI/CD, testing, debugging, shell tooling, reliability, and functional programming.
   </p>
+  <p>This is the personal website of Alex Yorke, with long-form technical notes, investigations, and essays for working software engineers.</p>
   <p class="home-links">
+    <a href="{{ '/about/' | relative_url }}">About Alex Yorke</a>
+    <span>/</span>
     <a href="{{ '/blog/' | relative_url }}">Browse the blog</a>
     <span>/</span>
     <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
