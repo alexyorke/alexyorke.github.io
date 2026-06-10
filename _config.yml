@@ -31,12 +31,14 @@ baseurl:          ""
 lang:             en
 image:            /assets/images/social-card.png
 author_url:       https://alexyorke.github.io
-header_pages:
-  - blog.html
-
 author:
   name:           'Alex Yorke'
   url:            https://alexyorke.github.io
+
+profiles:
+  github:         https://github.com/alexyorke
+  linkedin:       https://www.linkedin.com/in/alexyorke
+  stackoverflow:  https://stackoverflow.com/users/220935/alexyorke
 
 google_analytics: G-2GV04PM05P
 

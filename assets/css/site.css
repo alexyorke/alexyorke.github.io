@@ -30,6 +30,14 @@ body {
   background: #fff;
 }
 
+.site-header .wrapper {
+  max-width: 920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .site-title,
 .site-title:visited,
 .page-link,
@@ -41,6 +49,29 @@ body {
   font-family: var(--site-sans);
   font-weight: 700;
   letter-spacing: -0.01em;
+  line-height: 1.2;
+  padding: 0.9rem 0;
+}
+
+.site-nav {
+  margin-left: auto;
+}
+
+.site-nav .nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .nav-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 54px;
+  color: var(--site-ink);
+}
+
+.site-nav .nav-item[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .page-content {
@@ -89,7 +120,7 @@ body {
 .home-intro h1,
 .page-hero h1 {
   margin-bottom: 0.75rem;
-  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-size: clamp(1.75rem, 3.2vw, 2.6rem);
   line-height: 1.15;
 }
 
@@ -235,17 +266,29 @@ a:visited {
 
 .post-card-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 1rem;
 }
 
 .post-card-list .post-card {
-  flex: 1 1 240px;
-  min-width: 240px;
+  width: 100%;
+  min-width: 0;
 }
 
 .site-footer {
   border-top: 1px solid var(--site-line);
+  padding: 1rem 0 2rem;
+}
+
+.site-footer .wrapper {
+  max-width: 920px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.25rem;
+  align-items: center;
 }
 
 @media (max-width: 720px) {
@@ -270,7 +313,8 @@ a:visited {
     flex-wrap: wrap;
   }
 
-  .post-card-list .post-card {
-    min-width: 100%;
+  .site-header .wrapper {
+    align-items: flex-start;
   }
+
 }
