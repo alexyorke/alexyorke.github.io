@@ -50,7 +50,7 @@ The command curl -X POST -T file doesn't load the entire file into memory, howev
 
 Create a file named "test" in the current directory with the contents "test-text". Then run:
 
-curl -X POST -T test [https://pie.dev/post](https://pie.dev/post)
+curl -X POST -T test `https://pie.dev/post`
 
 {
 
@@ -98,7 +98,7 @@ curl -X POST -T test [https://pie.dev/post](https://pie.dev/post)
 
 }
 
-While curl \--data-binary \@test https://pie.dev/post gives:
+While curl \--data-binary \@test `https://pie.dev/post` gives:
 
 {
 

@@ -1,0 +1,26 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    {%- if site.header_pages and site.header_pages.size > 0 -%}
+      <nav class="site-nav" aria-label="Primary">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+          {%- for path in site.header_pages -%}
+            {%- assign nav_page = site.pages | where: "path", path | first -%}
+            {%- if nav_page and nav_page.title and nav_page.url != '/' -%}
+              <a
+                class="nav-item"
+                href="{{ nav_page.url | relative_url }}"
+                {%- if page.url == nav_page.url %} aria-current="page"{% endif -%}
+              >{{ nav_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </nav>
+    {%- endif -%}
+  </div>
+</header>

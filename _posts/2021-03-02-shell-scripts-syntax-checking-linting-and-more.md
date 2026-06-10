@@ -66,7 +66,7 @@ Run `git add --renormalize .`
 
 ### UTF-8 ignorables that aren&#39;t (usually) ignorable
 
-See my other post [https://github.com/alexyorke/alexyorke.github.io/blob/master/utf-8-default-ignorables-you-should-not-ignore.md](https://github.com/alexyorke/alexyorke.github.io/blob/master/utf-8-default-ignorables-you-should-not-ignore.md) on how to identify invisible characters and why they cause issues.
+See my other post [UTF-8 default ignorables you should not ignore]({{ '/2021/03/01/utf-8-default-ignorables-you-should-not-ignore/' | relative_url }}) on how to identify invisible characters and why they cause issues.
 
 ### What shebang should I use?
 

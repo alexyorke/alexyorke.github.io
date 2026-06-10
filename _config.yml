@@ -24,17 +24,22 @@ permalink:        pretty
 
 # Setup
 title:            Alex Yorke
-tagline:          ''
-description:      "Engineering writing on CI/CD, testing, reliability, and functional programming."
+tagline:          'Engineering writing and practical technical notes'
+description:      "Practical writing on CI/CD, testing, reliability, shell tooling, and functional programming."
 url:              https://alexyorke.github.io
 baseurl:          ""
 lang:             en
-
+image:            /assets/images/social-card.png
+author_url:       https://alexyorke.github.io
 author:
   name:           'Alex Yorke'
-  url:
+  url:            https://alexyorke.github.io
 
-paginate:         5
+profiles:
+  github:         https://github.com/alexyorke
+  linkedin:       https://www.linkedin.com/in/alexyorke
+  stackoverflow:  https://stackoverflow.com/users/220935/alexyorke
+
 google_analytics: G-2GV04PM05P
 
 # Make sure page/post excerpts are well-formed and consistent for feeds/search.
@@ -42,6 +47,11 @@ excerpt_separator: "\n\n"
 
 # Default metadata (used by jekyll-seo-tag when a page/post doesn't specify its own).
 defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
   - scope:
       path: ""
       type: "posts"

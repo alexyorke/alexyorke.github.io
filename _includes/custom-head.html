@@ -3,12 +3,19 @@
   Keep it small: extra SEO/link tags that apply site-wide.
 -->
 
-{%- comment -%} RSS / Atom feed for readers and crawlers {%- endcomment -%}
-<link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="light">
+{% assign social_image = page.image | default: site.image %}
+{% if social_image %}
+<meta property="og:image" content="{{ social_image | absolute_url }}">
+<meta property="og:image:alt" content="Alex Yorke - Notes on software engineering">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ social_image | absolute_url }}">
+<meta name="twitter:image:alt" content="Alex Yorke - Notes on software engineering">
+{% endif %}
 
 {%- comment -%}
-  Optional: if you later add a social preview image site-wide, set in _config.yml:
-  logo: /assets/images/...
-  Then jekyll-seo-tag will include it.
+  Site-wide metadata lives in _config.yml so jekyll-seo-tag can emit it consistently
+  across the home page, the blog index, and every post.
 {%- endcomment -%}
-
