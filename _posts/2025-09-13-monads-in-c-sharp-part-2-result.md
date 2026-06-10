@@ -2,6 +2,9 @@
 title: "Monads in C# (Part 2): Result"
 date: 2025-09-13
 description: "Build a small Result type in C# and use `Map`/`Bind`/`Match` to compose short-circuiting workflows with explicit failure values."
+redirect_from:
+  - /2025/09/13/monads-in-c-sharp-part-2-result-either/
+  - /2025/12/21/monads-in-c-sharp-part-2-result-either/
 ---
 
 **Previously in the series**: [List is a monad (part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/)
