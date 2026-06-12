@@ -1,0 +1,91 @@
+name: Submit IndexNow URLs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-submit
+  cancel-in-progress: true
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      SITEMAP_URL: https://alexyorke.github.io/sitemap.xml
+      INDEXNOW_ENDPOINT: https://www.bing.com/indexnow
+      INDEXNOW_HOST: alexyorke.github.io
+      INDEXNOW_KEY: cba38ee5-a48d-4d0e-ae69-dc9f6edead1b
+      INDEXNOW_KEY_LOCATION: https://alexyorke.github.io/cba38ee5-a48d-4d0e-ae69-dc9f6edead1b.txt
+    steps:
+      - name: Wait for live sitemap
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in {1..12}; do
+            status="$(curl -fsS -o sitemap.xml -w "%{http_code}" "$SITEMAP_URL" || true)"
+            if [ "$status" = "200" ] && grep -q "<loc>" sitemap.xml; then
+              echo "Live sitemap is ready."
+              exit 0
+            fi
+            echo "Sitemap not ready yet (attempt $attempt/12)."
+            sleep 30
+          done
+          echo "Timed out waiting for $SITEMAP_URL" >&2
+          exit 1
+
+      - name: Submit sitemap URLs to IndexNow
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          with open("sitemap.xml", "rb") as handle:
+              xml_bytes = handle.read()
+
+          root = ET.fromstring(xml_bytes)
+          ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          urls = [
+              loc.text.strip()
+              for loc in root.findall(".//sm:loc", ns)
+              if loc.text and loc.text.strip()
+          ]
+
+          if not urls:
+              raise SystemExit("No URLs found in sitemap.xml")
+
+          payload = {
+              "host": os.environ["INDEXNOW_HOST"],
+              "key": os.environ["INDEXNOW_KEY"],
+              "keyLocation": os.environ["INDEXNOW_KEY_LOCATION"],
+              "urlList": urls[:10000],
+          }
+
+          request = urllib.request.Request(
+              os.environ["INDEXNOW_ENDPOINT"],
+              data=json.dumps(payload).encode("utf-8"),
+              headers={"Content-Type": "application/json; charset=utf-8"},
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              status = response.getcode()
+              body = response.read().decode("utf-8", "replace")
+
+          print(f"Submitted {len(payload['urlList'])} URLs with HTTP {status}.")
+          if body:
+              print(body[:500])
+
+          if status not in (200, 202):
+              raise SystemExit(f"Unexpected IndexNow status: {status}")
+          PY
