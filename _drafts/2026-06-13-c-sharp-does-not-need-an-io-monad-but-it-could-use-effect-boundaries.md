@@ -1,5 +1,5 @@
 ---
-title: "C# Does Not Need an IO Monad, But It Could Use Effect Boundaries"
+title: "C# Does Not Need an IO Monad. It Needs Effect Boundaries."
 date: 2026-06-13
 description: "A case for separating deterministic decision logic from effectful boundaries in C# without importing a full IO monad."
 ---
@@ -11,6 +11,10 @@ In Part 1, I wrote about how `List<T>` has a monadic structure.
 In Part 2, I moved from lists to `Result<T>` in C#. Some of the feedback was fair: even when an abstraction is valid, it can still feel like it is being pushed into a language that does not really want it.
 
 This post is about the smaller idea I still think survives.
+
+Most C# code is not hard to read because it is object-oriented. It is hard to read because too many methods quietly depend on things that are not in their parameter list: `DateTime.UtcNow`, `Guid.NewGuid()`, `Random.Shared`, current culture, environment variables, databases, HTTP, logging, or mutable process state.
+
+This is also not a new architecture. It is very close to Gary Bernhardt's Functional Core, Imperative Shell, Mark Seemann's impure/pure/impure sandwich, and the narrower pure-render-plus-effects rule React applies during render. What I am trying to do here is translate that pressure into ordinary C# constraints: no whole-language retrofit, no attempt to turn C# into Haskell, just better effect boundaries and better signaling.
 
 Not:
 
@@ -38,9 +42,19 @@ That distinction is where I think functional programming has something practical
 
 ---
 
+## What "pure" means here
+
+I am using "pure" in the strong engineering sense: for the same explicit inputs, a method returns the same result or exception, and it performs no observable interaction with the outside world.
+
+That includes obvious things like file and network I/O, but also easy-to-miss ambient inputs like `DateTime.UtcNow`, `Guid.NewGuid()`, current culture, time zones, environment variables, and mutable static state.
+
+That definition is stronger than the old Code Contracts wording of "no visible state changes," and that difference matters here because hidden inputs are exactly what make code hard to reason about.
+
+---
+
 ## Effects are contagious
 
-Bob Nystrom's article "What Color is Your Function?" is usually discussed in the context of async programming. His imaginary language has red and blue functions; the reveal is that red functions are asynchronous functions. Once one function becomes async, the color tends to spread upward through the call graph. In C#, `async`/`await` makes this much less painful than raw callbacks, but the color is still visible: async methods return `Task`, `Task<T>`, or related awaitable types, and callers usually need to `await` them.
+Bob Nystrom's article "What Color is Your Function?" is useful here, but only as an analogy. In C#, async is a real function color that the language and compiler track. `async` methods return `Task`, `Task<T>`, or another awaitable shape, and callers usually need to `await` them.
 
 Effects have a similar shape.
 
@@ -79,7 +93,7 @@ The multiplication is still deterministic, but the method is not. The discount i
 
 That does not make the method wrong. It may be perfectly reasonable application code. But it has a different shape from the first version. To understand its behavior, I need to know not only the `price`, but also the current state and behavior of `_discountService`.
 
-C# makes async color visible in the type system. It does not usually make effect color visible.
+C# makes async color visible in the type system. It does not usually make purity or effect color visible. That is the asymmetry I care about: one important property is compiler-tracked, and another important property is still mostly inferred socially by reviewers and maintainers.
 
 This method:
 
@@ -126,7 +140,7 @@ core:  decide what should happen
 shell: make it happen
 ```
 
-That is the basic idea behind functional core / imperative shell.
+That is the basic idea behind Functional Core, Imperative Shell: keep computation dense and deterministic in the core, and keep I/O at the edges.
 
 The functional core is not the whole application. The shell still exists. The shell is allowed to be imperative. The shell is where you query the database, call Stripe, send the email, publish the event, and return the HTTP response.
 
@@ -188,6 +202,8 @@ send email
 
 The decision is mixed with the execution.
 
+If you like Mark Seemann's phrase, this is close to an "impureim sandwich": the interesting business rule is trapped between effectful operations on both sides.
+
 That mixture is sometimes fine. But it has a cost: there is no callable unit that means only this:
 
 ```text
@@ -228,6 +244,8 @@ public abstract record RenewalDecision
         Duration Extension) : RenewalDecision;
 }
 ```
+
+`RenewalDecision` is data, which makes C# records a good fit here. They give you concise syntax and value-based equality, so tests can assert against whole decisions instead of hand-checking a pile of fields.
 
 Now the policy can be a pure function:
 
@@ -317,11 +335,27 @@ That split is the whole point.
 
 ---
 
+## This also lines up with DDD and CQRS
+
+If you prefer enterprise architecture vocabulary, this split should look familiar.
+
+In DDD terms, `DecideRenewal` is domain logic that stays persistence-ignorant. It does not know about repositories, HTTP clients, or SMTP servers. It just evaluates business rules.
+
+In CQRS or event-driven code, an explicit decision object is also a useful boundary. The shell can translate that decision into database writes, outbound messages, domain events, or API responses.
+
+This is not full event sourcing, and I am not claiming `RenewalDecision` should literally be stored as an event record. The smaller point is that once the outcome is explicit data, it becomes much easier to persist it, publish it, inspect it, replay it, or explain it.
+
+It also fits ordinary dependency-injection-heavy C# just fine. The shell can stay as an injected application service or controller that talks to repositories, clocks, message buses, and HTTP clients. The core does not need the container at all; it just receives facts and returns a decision.
+
+---
+
 ## Why this is useful
 
 The usual argument for pure functions is that they are easier to test.
 
 That is true, but I do not think it is the strongest argument. People can reasonably respond: "Just mock the dependencies."
+
+The stronger argument is reviewability. Effect boundaries make hidden context visible, narrow the audit surface, and reduce how much code has to be trusted at once. One place reads context. One place decides. One place commits side effects.
 
 Mocks are useful. I use them. But mocks are a testing technique, not a design property.
 
@@ -334,6 +368,17 @@ explicit input -> explicit output
 ```
 
 That enables more than unit testing.
+
+It also changes the economics of testing. `DecideRenewal` needs no container setup and no mocks: instantiate the inputs, call the function, assert against the returned record. You can cover edge cases quickly in memory. The shell still needs tests, but because it mostly wires decisions to infrastructure, a smaller number of broader integration tests usually buys more than a large suite of interaction-heavy mock tests.
+
+In practice, that often means two different test shapes:
+
+```text
+unit tests for the decision function
+integration tests for the shell's wiring to infrastructure
+```
+
+The unit tests answer "given these facts, what decision should we get?" The integration tests answer "given this decision or branch, did we call the right database, billing, and messaging operations?" That split tends to produce faster tests, less brittle tests, and a clearer failure signal when something breaks.
 
 It lets you safely ask questions.
 
@@ -389,6 +434,8 @@ React says:
 
 Render should be pure because React may run rendering logic multiple times, pause it, resume it, prioritize it, or throw it away. React's docs specifically call out non-idempotent operations like `new Date()` and `Math.random()` as things that should not run during render.
 
+That is an analogy, not a one-to-one transfer. React's rule is specifically about render semantics. My point is just that mainstream developers already accept the idea that some phases of a program are easier to reason about when effects are pushed out of them.
+
 For backend C#, I think the analogous phase is often decision-making.
 
 Not the whole application.
@@ -411,13 +458,9 @@ That part is often worth keeping pure.
 
 ## Pure does not mean "no local mutation"
 
-One trap in these discussions is defining purity too strictly.
+One trap in these discussions is hearing that definition and assuming it means "never mutate anything anywhere."
 
-A practical definition:
-
-> A function is pure when, within the program's normal execution model, its result is determined only by its explicit inputs and it has no externally observable side effects.
-
-That does not mean "never use local variables."
+It does not mean that.
 
 This can still be pure:
 
@@ -590,6 +633,10 @@ You can test it. You can log it. You can compare old and new policies. You can r
 
 That is the kind of pure function I want more of.
 
+This also pairs naturally with explicit success/failure types. If a decision can produce an expected domain failure, the core can return something like `Result<RenewalDecision, Error>` or `Either<Error, RenewalDecision>` instead of throwing. The point is the same: keep the outcome explicit, keep the inputs explicit, and let the shell decide how to turn that outcome into I/O.
+
+You do not need a library for that, but libraries like LanguageExt or CSharpFunctionalExtensions can make this style less repetitive if your codebase already leans that way.
+
 ---
 
 ## Where this pattern does not help
@@ -632,6 +679,20 @@ A renewal policy, pricing rule, eligibility rule, retry rule, or fraud rule is u
 
 ---
 
+## Costs and tradeoffs
+
+This pattern is not free.
+
+You usually introduce more small types, more explicit data flow, and more handoff points between the shell and the core. That is often worth it, but it is still extra ceremony.
+
+On hot paths, you should also be aware of allocation cost. If every request builds several intermediate records or DTOs just to shuttle data into and out of the core, that can matter at scale. Usually the right response is not "abandon the pattern," but "measure first, then optimize where it actually hurts." Sometimes the answer is simply fewer intermediate objects; sometimes it is a `record struct` or a different representation in one hot spot. But that is a measurement decision, not a first-principles decision.
+
+If the real complexity in a service is query planning, transaction scoping, batching, or streaming, the pure kernel may stay small. That is fine. I am not suggesting those concerns get easier if you drag them into a fake pure pipeline.
+
+In other words: use the pattern where it simplifies reasoning, but do not turn it into an absolute rule for every tiny method.
+
+---
+
 ## What I am not claiming
 
 I am not claiming every method should be pure.
@@ -668,9 +729,13 @@ There is no built-in method annotation that means:
 pure OrderDecision DecideRenewal(...)
 ```
 
-There are existing purity annotations. For example, .NET has `System.Diagnostics.Contracts.PureAttribute`, which Microsoft describes as indicating that a type or method is pure in the sense that it does not make visible state changes; Microsoft also notes that analyzer CA1806 can use the attribute to warn when the return value of a pure method is ignored. JetBrains has a similar `PureAttribute` that marks methods as making no observable state changes.
+There are existing purity annotations. For example, .NET has `System.Diagnostics.Contracts.PureAttribute`, a leftover from the old Code Contracts work. Microsoft describes it as indicating that a type or method is pure in the sense that it does not make visible state changes, and analyzer CA1806 can use it to warn when the return value of a pure method is ignored. JetBrains also has a similar `PureAttribute` and related IDE inspections.
 
-That is useful, but it is not the same as a full effect system.
+One caveat matters in practice: .NET's `PureAttribute` is itself marked `[Conditional("CONTRACTS_FULL")]`. For conditional attribute classes, the compiler only emits the attribute into metadata when that symbol is defined. So a bare `[Pure]` in an ordinary build may not survive compilation into assembly metadata at all. Depending on where a tool gets its information, that can make the annotation much weaker than it first appears.
+
+Even without `[Pure]`, CA1806 still has some practical value because it can also be configured in `.editorconfig` to treat specific methods as "must use return value" APIs. That is useful for custom `Result<T>`, decision, and validation methods even if you are not trying to prove purity.
+
+That is useful, but it is not the same as a full effect system, and it is also not the same as the stronger definition of purity I am using in this article.
 
 For example, consider:
 
@@ -690,7 +755,21 @@ Does this method depend only on explicit inputs?
 
 A method that does not mutate visible state is not necessarily pure in the stronger sense.
 
-That is part of what makes this difficult in C#. A real purity analyzer has to be conservative. It can catch obvious problems:
+That is part of what makes this difficult in C#. A real purity analyzer has to be conservative. Part of the reason is that C# gives you many ways to hide effects:
+
+```text
+object aliasing
+virtual and interface dispatch
+delegates and callbacks
+cross-assembly calls with incomplete metadata
+mutation through reachable object graphs
+```
+
+If a method accepts an interface, the analyzer often cannot know which implementation will run. If it accepts a delegate, it cannot assume the callback is pure. If it mutates a locally created object, it has to prove that object was never aliased. Across assembly boundaries, it may have signatures and attributes, but not enough semantic information to prove much.
+
+In practice, I would rather have a tool classify many methods as `Unknown` than incorrectly bless them as pure. Trust matters more than coverage here.
+
+It can still catch obvious problems:
 
 ```text
 DateTime.Now
@@ -725,6 +804,17 @@ a lintable convention for keeping deterministic code deterministic
 
 That is the role I would want something like Purely Sharp to play.
 
+The same goes for custom Roslyn analyzers. A team can get real value from conventions like:
+
+```text
+no DateTime.UtcNow in decision-layer code
+no repository calls in domain-policy methods
+no Guid.NewGuid() inside deterministic rules
+no implicit current-culture behavior in deterministic rules
+```
+
+That still would not be a proof of purity. But it would make the architecture more visible, catch common leaks early, and reduce how much review-time discipline has to do by hand.
+
 ---
 
 ## Where IO fits
@@ -748,6 +838,10 @@ IO<RenewalDecision> DecideRenewal(...)
 ```
 
 That is probably the wrong shape for most C# codebases.
+
+Part of the reason is ergonomic. Haskell has the language built around this style. Ordinary C# does not have higher-kinded types or computation expressions, so a full IO encoding quickly turns into wrapper types, `SelectMany`, and a lot of ceremony.
+
+Part of the reason is also ecosystem fit. C# already has one successful narrow effect marker in `Task<T>`. That is enough to show the basic idea can work. But it is also a reminder that retrofitting a stronger effect distinction across the whole language and BCL would be much harder than just enforcing cleaner boundaries in application code.
 
 The practical lesson I would take from `IO` is smaller:
 
