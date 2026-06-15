@@ -4,17 +4,25 @@ date: 2026-06-13
 description: "Types make assumptions about values explicit. Purity does something similar for method calls."
 ---
 
-A caller always assumes something. If I call `DeleteCustomer(...)`, I assume it deletes. If I call `TryParse(...)`, I assume ordinary failure is reported through the return value. If I call `GetUserAsync(...)`, I assume I have awaitable work. If I call `CalculateTotal(...)`, I assume I have a calculation. Names, types, documentation, conventions, and tooling tell me what kind of call I am dealing with.
+A program is a sequence of steps. If a method call is one of those steps, the caller needs to know what kind of step it is before placing it in a larger sequence.
 
-One part of a method contract that signatures often omit is whether a call is value-like or interaction-like. This is close to command-query separation, but my emphasis is a little different: I am asking what guarantees the caller gets when a call behaves like a calculation. The examples use C#-style syntax, but the point is broader.
+Some methods are mostly calculations. Others interact with the world. A method might compute a total, format a string, or validate an order. Another might write a row, send an email, read the clock, mutate shared state, or hit the network. By "effect" here, I mean that second category: behavior beyond the returned value that depends on or changes the surrounding world.
 
-This is not an argument that ordinary procedural code is broken. A lot of it is direct and truthful: read input, do work, write output, return. Purity matters most in methods callers want to treat like calculations.
+We already rely on this distinction even when we do not name it. We treat `items.Count`, `string.Concat(a, b)`, and `CalculateSubtotal(lines)` as calls we can repeat, cache, or move around without changing the rest of the program. We treat `LoadCustomer(id)`, `SaveOrder(order)`, and `SendEmail()` differently because number, timing, and order may matter.
 
-By "impurity," I mean the call depends on more than its explicit inputs or produces more than its returned value. That includes visible effects like writing a file or sending an email, and hidden inputs like reading the clock, using current culture, or depending on global configuration. There is also always an observation boundary. In this post, "observable" means behavior that callers, tests, users, operators, or other systems may reasonably depend on.
+That is why purity is useful as a caller contract. Types make assumptions about values explicit. Purity does something similar for calls. It tells the caller which operations are safe around the call: repeat it, duplicate it, cache it, reorder it, parallelize it, or compose it with other calculations.
 
-The core claim is simple: types make assumptions about values explicit. Purity does something similar for calls. A pure call is value-like: when it returns normally, the same explicit inputs produce the same returned value, and the call leaves no externally visible effects behind. For an instance method, the receiver's observable state is part of that story too. Totality, exception behavior, cancellation, and cost are separate guarantees.
+The more assumptions a caller can make safely, the easier a method is to move, reuse, and combine with other code. The more a method depends on ambient setup, the more every caller has to reconstruct that setup or trust that someone else already did.
 
-That contract makes some caller transformations less dangerous: repeat the call, duplicate it, cache it, reorder it, parallelize it, or compose it with other calculations. In languages with observable reference identity, such as C#, this assumes the result is being treated as a value. Effects are still necessary. Real programs eventually send the email, write the row, read the clock, call the API, and mutate state. The practical question is simple: what can the caller safely do with this method call?
+Effectful code can regain some of those freedoms, but usually only with more structure around it. Idempotency keys, transactions, snapshots, explicit context objects, queues, and carefully managed retries can make an effectful operation safer to repeat or move. Those are good tools. They are also extra contract surface. When the supporting conditions stay ambient instead of explicit, the caller often has to trust that the surrounding system was set up correctly.
+
+If that contract is wrong, the caller can make bad moves. Retry a method that quietly sends email and you may send two messages. Cache a method that quietly reads the clock and you may freeze the wrong value. Treat every call as though it might touch the world and ordinary composition becomes overly conservative.
+
+That is the part of a method contract I care about here. This is close to command-query separation, but the emphasis is a little different: I am asking what guarantees the caller gets when a call behaves like a calculation. The examples use C#-style syntax, but the point is broader. This is not an argument that ordinary procedural code is broken. Many steps in a real program are supposed to interact with the world.
+
+By "pure," I mean a call that behaves like a calculation: when it returns normally, the same explicit inputs produce the same returned value, and the call leaves no externally visible effects behind. For an instance method, the receiver's observable state is part of that story too. By "impure," I mean a call depends on more than its explicit inputs or produces more than its returned value. That includes reading time or culture, using global configuration, mutating caller-visible state, writing a file, or sending an email. Here, "observable" means behavior that callers, tests, users, operators, or other systems may reasonably depend on.
+
+A pure call is easier to repeat, duplicate, cache, reorder, parallelize, or compose with other calculations. In languages with observable reference identity, such as C#, that still assumes the result is being treated as a value. The practical question is simple: what can the caller safely do with this method call?
 
 ## When the assumption matters
 
@@ -67,17 +75,40 @@ That refactor may duplicate work, but it does not duplicate an external effect. 
 
 ## Types for values, purity for calls
 
-Programs make value assumptions whether or not the type system records them. Static types move more of them into declarations the compiler can check. Purity does something similar for calls.
+Programs make value assumptions whether or not the type system records them. Static types move more of them into declarations the compiler can check. Purity plays a similar role for calls.
+
+At the lowest level, a program can treat data as raw bytes or memory and still work. The assumptions do not disappear. The code still has to know whether that data is meant to be a string, a number, an image, or something else, and which operations make sense for it. Types make those assumptions easier to check and easier to share. Once a value is known to be a `string`, other code can safely use string operations on it. Once a value is known to be a `Money`, callers and libraries can define operations that are sensible for money and reject ones that are not.
 
 Code reviews often use phrases like "this is just a calculation" or "this leaves objects unchanged." Those phrases name behavioral contracts. If purity is only a guess, the programmer has to carry that contract manually.
+
+The same thing happens with calls. If a method is known to behave like a calculation, other code can use it under stronger assumptions. It can be passed into a sort comparison, used inside a loop, cached behind a memoizer, retried without duplicating an external effect, or composed into larger calculations with less defensive setup. If that property is only informal, every caller has to rediscover it or trust it.
+
+None of this requires a special framework. In C#-style code, a pure method is still just an ordinary method whose behavior is narrow enough that callers can safely treat it like a calculation.
 
 The useful engineering promise is narrow: the call behaves like a calculation.
 
 That promise composes in a predictable way. Pure code built from pure code stays pure. One effectful step changes the contract of the whole method. That is all I mean by saying impurity propagates from the caller's point of view. Nothing moral is happening. The caller contract simply gets larger unless the effect is fully encapsulated behind the same outward behavior. Once a calculation reads the clock, writes a file, calls a service, mutates shared state, or invokes an effectful callback, callers must account for that larger behavior.
 
-## Loops and reuse
+## Loops, callbacks, and reuse
 
-The same distinction shows up in ordinary loops.
+The same distinction shows up in ordinary loops and in library code that calls your logic for you.
+
+When you write procedural code directly, you often control the order of steps yourself. You know where the loop starts, where it ends, and where each effect happens. Once you pass behavior into a library method, you usually give up some of that control. The library may call your code zero times, once, many times, in a different order than you expected, or under an implementation strategy that changes later.
+
+Sorting is a simple example:
+
+```csharp
+orders.Sort((left, right) =>
+    left.Total.CompareTo(right.Total));
+```
+
+This does not require full philosophical purity, but it does require the comparison to behave like a calculation for ordering purposes. Once the sort owns the call pattern, the comparison needs to give consistent answers for the same inputs. If the comparison reads the clock, consults mutable global state, or changes shared state that later comparisons depend on, the sort becomes harder to reason about because algorithm details become observable.
+
+Even harmless-looking side effects can matter here. Logging from inside the comparison may be acceptable, but it still makes call count and call order observable. The sort can only stay an interchangeable library operation if callers are willing to treat those details as irrelevant.
+
+The same pressure appears with predicates, selectors, and other callbacks. The more the callback behaves like a calculation, the less the surrounding framework has to care about when, how often, or in what order it runs.
+
+The same distinction also shows up in ordinary loops.
 
 ```csharp
 var labels = new List<string>();
@@ -119,7 +150,7 @@ Order + tax service + current policy -> Money
 Money + current culture -> string
 ```
 
-The same thing happens in loops. The loop is not harder because `foreach` is special. It is harder because every extra call site inherits the larger contract.
+The same thing happens in loops. The loop is not harder because `foreach` is special. It is harder because every extra call site inherits the larger contract. The difference is that in a loop you usually own the call pattern yourself. With callbacks handed to library code, someone else owns it.
 
 ## Number, timing, and order
 
@@ -156,6 +187,10 @@ This operation touches the world, and repeating the same logical request is safe
 ```
 
 That is a useful pattern. It gives an effectful call one pure-like property: repetition becomes safer. The caller gains flexibility even though the call still interacts with the world.
+
+The same thing happens with other guarantees. A stable cache around an effectful call may depend on a version key, a snapshot, a clock boundary, or a rule that the underlying data cannot change during the operation. A retry may depend on deduplication state in another system. A deterministic result may depend on reading the time once at the boundary and passing it inward. None of that is fake or bad. It just means the property is no longer coming from the method alone. It is coming from the method plus supporting infrastructure.
+
+In that sense, effectful systems often try to recover some of the caller freedoms that pure methods provide directly. They pin down hidden inputs, suppress duplicate effects, or hold the environment steady enough that the call behaves more predictably. That is often the right engineering move. It is still a larger maintenance burden because part of the contract now lives outside the method.
 
 ## Mutation and hidden inputs
 
@@ -207,6 +242,21 @@ bool IsExpired(Subscription subscription)
 
 The visible shapes look like `decimal -> string` and `Subscription -> bool`. The real shapes are closer to `decimal + current culture -> string` and `Subscription + current time -> bool`. At some boundaries, `CurrentCulture`, `UtcNow`, or `Guid.NewGuid()` are exactly the right choice. The distinction matters when the caller needs repeatability, preview, replay, comparison, or a stable cache key.
 
+A content hash is another good example:
+
+```csharp
+string ComputeDigest(byte[] payload)
+{
+    return Convert.ToHexString(SHA256.HashData(payload));
+}
+```
+
+That kind of method is useful precisely because callers can treat it like a calculation. If the same payload could produce a different digest because of hidden state, then deduplication, cache keys, and change detection would all get harder to trust. This is one place where "same input, same output" is not an academic preference. It is part of why the method is useful at all.
+
+One common response is to hold those hidden inputs steady from the outside: freeze the clock for a test, fix the culture for a request, snapshot the database, or thread a request context through the call chain. That can be the correct solution. It also shows the underlying pressure. As soon as the caller needs predictable behavior, it starts trying to make those hidden inputs explicit or fixed.
+
+Containers and similar environment controls fit the same pattern. Pinning the OS image, locale, configuration, and toolchain can make a program more reproducible by narrowing ambient variation. That is often worthwhile. It still does not make an effectful call pure. It makes some hidden inputs more stable.
+
 ## Boundaries and restraint
 
 Method signatures are useful. In C#-style code, they tell us parameter types, return types, and awaitable shapes. They usually leave out whether a method reads the clock, depends on `CurrentCulture`, calls a database, writes a file, or mutates shared state. That does not mean every dependency should become a parameter. Effects belong where callers expect interaction with the world.
@@ -227,6 +277,8 @@ Some languages and tools track purity or effects directly. In many mainstream pr
 That is still useful. A static analyzer, language feature, or project convention that marks a calculation as pure can solidify assumptions that were otherwise informal. It can catch accidental reads of time, culture, global state, random values, files, databases, or other services. It does not need to prove everything. It only needs to make an important assumption visible enough to review.
 
 There is a tradeoff. Making behavior visible can make code more verbose. Passing `now`, `culture`, `taxRate`, or `discount` explicitly can be overkill. Expose the dependencies that materially affect correctness, repeatability, reuse, or caller obligations.
+
+That is also why reducing hidden inputs matters. The more behavior depends on ambient setup, the more the caller has to trust that time, culture, feature flags, caches, retries, and external state all line up the same way every time. Real programs need some of that machinery. Keeping more of the important logic in pure calculations shrinks the amount of machinery the caller must trust and makes the remaining logic easier to move and reuse without rebuilding the same setup everywhere.
 
 There is also a bad version of this idea:
 
