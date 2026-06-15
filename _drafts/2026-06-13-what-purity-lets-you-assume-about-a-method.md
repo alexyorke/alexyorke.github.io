@@ -1,5 +1,5 @@
 ---
-title: "What Can I Assume About This C# Method?"
+title: "What Purity Lets You Assume About a Method"
 date: 2026-06-13
 description: "Types make assumptions about values explicit; a purity contract makes assumptions about method calls explicit."
 ---
@@ -14,7 +14,9 @@ If every method had to be treated as a mystery, ordinary APIs would become unusa
 
 In practice, we rely on names, types, documentation, conventions, and tooling to tell us what kind of behavior we are dealing with.
 
-This post is about one contract that is often absent from the signature in C#: whether a method call is value-like or interaction-like.
+This post is about one contract that is often absent from the signature: whether a method call is value-like or interaction-like.
+
+The examples use C#-style syntax because that is the code I usually write. The point applies more broadly to mainstream imperative and object-oriented languages where effects are ordinary and purity is usually a convention rather than a checked language feature.
 
 The thesis is:
 
@@ -29,6 +31,8 @@ That contract makes more caller transformations valid by default: repeat, retry,
 
 Effects are necessary. A useful program eventually sends the email, writes the row, reads the clock, calls the API, and mutates state. Effectful calls need a different contract. They may still be safe to retry, cache, parallelize, or reorder when another property makes that true: idempotency, retry-safety, cache-safety, thread-safety, transactionality, or an explicit effect boundary.
 
+Correctness depends on that contract. A method that looks like a calculation and behaves like an interaction is harder to retry, cache, move, test, and refactor safely.
+
 Another way to say it:
 
 ```text
@@ -36,9 +40,7 @@ Purity usually makes the number, timing, and order of calls less important.
 Effects can make them part of the contract.
 ```
 
-In [Part 2](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/), I wrote about `Result<T>`. The part I still care about is visibility: expected failure changes what a caller can assume, and sometimes it is useful for that change to appear in the method contract. This post applies the same idea to effects.
-
-**Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
+This is old territory. Pure functions, side effects, effect systems, explicit IO, and render-purity rules in UI frameworks all point at versions of the same idea. I am interested in the everyday version: when a caller sees a method, what assumptions are safe?
 
 ## Types For Values, Purity For Calls
 
@@ -69,6 +71,18 @@ That matters because real programs transform calls. They retry operations, cache
 Those transformations need support. A retry helper assumes it is allowed to call the operation again. A cache assumes a previous result can be reused for the same key. A sorting routine assumes its comparer is consistent. A LINQ query assumes its predicate can be called according to the query's evaluation strategy.
 
 Purity is one contract that makes many of those assumptions valid by default. It preserves more legal moves for the caller.
+
+It also composes in a predictable way:
+
+```text
+pure + pure = pure
+pure + effectful = effectful
+effectful + effectful = effectful
+```
+
+This is the practical sense in which effects "contaminate" a call. Nothing moral is happening. The caller contract simply gets larger. Once a calculation reads the clock, writes a file, calls a service, mutates shared state, or invokes an effectful callback, callers need to account for that larger behavior.
+
+That is why it can be useful to keep pure code near other pure code. Useful calculation boundaries stay small, stable, and easy to move.
 
 ## Retry And Repetition
 
@@ -148,13 +162,13 @@ Order -> bool
 Order + hidden world state -> bool + hidden effects
 ```
 
-C# leaves those contracts indistinguished at the type level.
+C# and many similar languages leave those contracts indistinguished at the type level.
 
 This shows up in ordinary library design too. A comparer passed to sorting code is expected to behave consistently. A hash function used by a dictionary is expected to be stable for the key while it is in the dictionary. Those assumptions can exist even when the word "pure" is absent.
 
 ## Boundaries And Hidden Inputs
 
-C# method signatures are useful. They tell us parameter types, return types, and awaitable shapes. Nullable reference type annotations can also make some assumptions visible enough for warnings and review.
+Method signatures are useful. In C#-style code, they tell us parameter types, return types, and awaitable shapes. Nullable reference type annotations can also make some assumptions visible enough for warnings and review.
 
 They usually leave out whether a method reads the clock, depends on `CurrentCulture`, calls a database, writes a file, mutates shared state, or leaves some other observable effect behind.
 
@@ -230,18 +244,20 @@ Expected failure can be hidden too:
 Customer LoadCustomerOrThrow(Guid id)
 Customer? FindCustomer(Guid id)
 bool TryLoadCustomer(Guid id, out Customer customer)
-Result<Customer> LoadCustomerResult(Guid id) // using an application-defined Result<T>
+CustomerResult LoadCustomer(Guid id)
 ```
 
 Those shapes create different expectations. Normal caller behavior should usually be visible somewhere: in the name, in the return type, in documentation, or in the boundary where the method lives.
 
 ## Tooling And Restraint
 
-C# already exposes some behavioral contracts. `Task<T>` and other awaitable shapes change how a method is called. Nullable reference type annotations make some assumptions visible enough for warnings while runtime behavior stays the same.
+Some languages expose some behavioral contracts. In C#, `Task<T>` and other awaitable shapes change how a method is called. Nullable reference type annotations make some assumptions visible enough for warnings while runtime behavior stays the same.
 
-Purity rarely appears in the type. So we express it indirectly through naming, documentation, boundaries, tests, code review, and analyzers.
+In many procedural and object-oriented languages, purity rarely appears in the type. So we express it indirectly through naming, documentation, boundaries, tests, code review, and analyzers.
 
-Annotations and analyzers can help in narrow cases. Depending on the rule set and known APIs, they can catch obvious cases, warn on ignored return values, flag implicit culture usage, or encode project conventions. Full semantic proof for arbitrary C# remains outside their reach.
+Some languages and tools track purity or effects directly. That gives stronger guarantees. In the kind of code I am talking about here, the usual version is more modest: keep pure calculations identifiable, keep effects near the boundary, and avoid pretending the two calls have the same contract.
+
+Annotations and analyzers can help in narrow cases. Depending on the rule set and known APIs, they can catch obvious cases, warn on ignored return values, flag implicit culture usage, or encode project conventions. Full semantic proof for arbitrary programs remains outside their reach.
 
 That is fine. The goal is better signals rather than theorem proving.
 
@@ -262,7 +278,7 @@ Purity alone is insufficient. A pure function should still earn its name. `Calcu
 
 I would avoid annotating every method, forcing every dependency into parameters, or turning clear imperative code into function confetti.
 
-Effects belong in C# programs. They belong in the parts of the program where the caller expects interaction with the world.
+Effects belong in programs. They belong in the parts of the program where the caller expects interaction with the world.
 
 Pure methods and effectful methods make different promises. Pure methods are value-like. Effectful methods are interaction-like. Both are useful, and they preserve different caller assumptions.
 
