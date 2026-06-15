@@ -1,183 +1,125 @@
 ---
 title: "What Can I Assume About This C# Method?"
 date: 2026-06-13
-description: "Types make assumptions about values explicit; purity makes assumptions about method calls explicit."
+description: "Types make assumptions about values explicit; a purity contract makes assumptions about method calls explicit."
 ---
 
-**Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
+A caller always assumes something.
 
-Part 2 was about `Result<T>`. The part I still care about is visibility: expected failure changes what a caller can assume, and sometimes it is useful for that change to appear in the method contract.
+Every method call depends on some behavioral contract.
 
-This post is about the same idea applied to effects.
+`DeleteCustomer(...)` is assumed to delete. `TryParse(...)` is assumed to report ordinary failure through its return value. `GetUserAsync(...)` is assumed to produce awaitable work. `CalculateTotal(...)` is assumed to calculate a total.
 
-A caller cannot assume nothing. Every method call depends on some behavioral contract.
+If every method had to be treated as a mystery, ordinary APIs would become unusable. A method named `Sort` could delete files. A method named `FormatAmount` could send email. A predicate passed to `Where` could mutate the database.
 
-`DeleteCustomer(...)` is assumed to delete. `TryParse(...)` is assumed to represent ordinary failure in the return value. `GetUserAsync(...)` is assumed to produce awaitable work. `CalculateTotal(...)` is assumed to calculate a total.
+In practice, we rely on names, types, documentation, conventions, and tooling to tell us what kind of behavior we are dealing with.
 
-If callers truly assumed nothing, ordinary APIs would become unusable. A method named `Sort` could delete files. A method named `FormatAmount` could send email. A predicate passed to `Where` could mutate the database.
-
-Of course we do not program that way. We rely on names, types, documentation, conventions, and tooling to tell us what kind of behavior we are dealing with.
-
-The question is whether those assumptions are supported by the method's visible contract.
+This post is about one contract that is often absent from the signature in C#: whether a method call is value-like or interaction-like.
 
 The thesis is:
 
 ```text
 Types make assumptions about values explicit.
-Purity makes assumptions about calls explicit.
+A purity contract makes assumptions about calls explicit.
 ```
 
-Purity says a call is value-like. Its observable behavior is determined by its explicit inputs, and it does not interact with the outside world.
+Purity says a call is value-like. Its observable behavior is determined by its explicit inputs, and externally visible effects are absent.
 
 That contract makes more caller transformations valid by default: repeat, retry, cache, reorder, replay, parallelize, and compose.
 
-Effects are necessary. A useful program eventually sends the email, writes the row, reads the clock, calls the API, and mutates state. The important distinction is that effectful calls need a different contract. They may still be safe to retry, cache, parallelize, or reorder, but only when some other property makes that true: idempotency, retry-safety, cache-safety, thread-safety, transactionality, or an explicit effect boundary.
+Effects are necessary. A useful program eventually sends the email, writes the row, reads the clock, calls the API, and mutates state. Effectful calls need a different contract. They may still be safe to retry, cache, parallelize, or reorder when another property makes that true: idempotency, retry-safety, cache-safety, thread-safety, transactionality, or an explicit effect boundary.
+
+Another way to say it:
+
+```text
+Purity usually makes the number, timing, and order of calls less important.
+Effects can make them part of the contract.
+```
+
+In [Part 2](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/), I wrote about `Result<T>`. The part I still care about is visibility: expected failure changes what a caller can assume, and sometimes it is useful for that change to appear in the method contract. This post applies the same idea to effects.
+
+**Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
 ## Types For Values, Purity For Calls
 
-Static types make assumptions about values visible.
+Static types make some assumptions about values visible.
 
-A program can be written without static types, but the assumptions do not disappear. If I add two values, call `.Length`, index into a collection, or pass a value to a method, I am assuming those values support those operations.
+A dynamically typed program still has value assumptions. If I add two values, call `.Length`, index into a collection, or pass a value to a method, I am assuming those values support those operations.
 
-Without types, those assumptions are still encoded in the program. They are just less explicit.
+Static types move some of those assumptions into declarations the compiler can check.
 
-Purity is similar, but for calls rather than values.
+Purity plays a similar role for calls.
 
-When I retry a method, cache its result, call it twice, pass it to LINQ, run it in parallel, or move it earlier in the program, I am assuming something about the method's behavior.
-
-I may not use the word "pure." I may say "this is just a calculation," "this is safe to retry," "this should not mutate anything," or "this predicate only checks a condition." Those are behavioral contracts.
+When I retry a method, cache its result, call it twice, pass it to LINQ, run it in parallel, or move it earlier in the program, I am assuming something about the method's behavior. The code may use phrases like "this is just a calculation," "this is safe to retry," "this leaves objects unchanged," or "this predicate only checks a condition." Those phrases still name behavioral contracts.
 
 By "pure" here, I mean the practical code-review version:
 
 ```text
-explicit inputs in
-explicit result out
-no hidden inputs
-no externally visible effects
+all inputs explicit
+deterministic observable outcome out
+externally visible effects absent
 ```
 
-That definition is intentionally ordinary. It is not trying to settle every formal question about referential transparency, exceptions, or the physical universe. It is a useful engineering promise: the call behaves like a calculation rather than an interaction.
+The outcome may be a returned value or a deterministic failure. Totality is a separate contract. So are performance, thread safety, naming, stable equality, and ease of use.
 
-## Transformations Need Contracts
+The useful engineering promise is narrower: the call behaves like a calculation.
 
-Calling a method once is the simplest case.
+That matters because real programs transform calls. They retry operations, cache results, delay work, reorder calculations, replay historical inputs, parallelize loops, and pass functions into other abstractions.
 
-Real programs often do more than call a method once. They transform the call:
+Those transformations need support. A retry helper assumes it is allowed to call the operation again. A cache assumes a previous result can be reused for the same key. A sorting routine assumes its comparer is consistent. A LINQ query assumes its predicate can be called according to the query's evaluation strategy.
 
-```text
-repeat it
-retry it
-cache it
-delay it
-reorder it
-replay it
-parallelize it
-pass it into another abstraction
-```
+Purity is one contract that makes many of those assumptions valid by default. It preserves more legal moves for the caller.
 
-Those transformations are not automatically valid.
+## Retry And Repetition
 
-A retry helper assumes it is allowed to call the operation again. A cache assumes a previous result can be reused. A sorting routine assumes its comparer is consistent. A LINQ query assumes its predicate can be called according to the query's evaluation strategy. A parallel loop assumes either no shared mutation or synchronization that the caller has accounted for.
+Retry logic makes the distinction concrete.
 
-Purity is one contract that makes many of those assumptions valid by default.
-
-That is the useful part. The value of purity is not that it sounds mathematically elegant. The value is that it preserves more legal moves for the caller.
-
-## Number, Timing, And Order
-
-Purity makes the number, timing, and order of calls less important.
-
-For a pure method, calling it twice instead of once usually changes performance, not program meaning. Calling it now or later usually does not change the result. Reordering it with another pure method is usually harmless, aside from cost or deterministic failure.
-
-For an effectful method, those details may be the whole point. Calling it twice may send two emails. Calling it later may read a different clock or database state. Reordering it may change persisted state.
-
-So callers do not merely need to know "what value does this return?" They often need to know whether the number, timing, and order of calls are observable.
-
-Consider these two calls:
+Real retry code needs backoff, cancellation, and exception filtering. This example only illustrates repetition:
 
 ```csharp
-var total = CalculateTotal(order, taxRate, discount);
-var invoice = CreateInvoice(order);
+var total = Retry(
+    () => CalculateTotal(order, taxRate, discount),
+    attempts: 3);
+
+var invoice = Retry(
+    () => CreateInvoice(order),
+    attempts: 3);
 ```
 
-The first one looks like a calculation. The second one may allocate an invoice number, read the current time, persist a record, or publish an event. Those are different kinds of call, even if both return one value.
-
-If I call `CalculateTotal` twice, I probably expect the same total twice.
-
-If I call `CreateInvoice` twice, I probably expect two invoices unless the method's contract says otherwise.
-
-## Retry, Idempotency, And Repetition
-
-Retry logic makes the distinction concrete:
-
-```csharp
-public static T Retry<T>(Func<T> operation, int attempts)
-{
-    Exception? last = null;
-
-    for (var i = 0; i < attempts; i++)
-    {
-        try
-        {
-            return operation();
-        }
-        catch (Exception ex)
-        {
-            last = ex;
-        }
-    }
-
-    throw last!;
-}
-```
-
-The type says:
-
-```text
-Func<T>
-```
-
-But the safety of `Retry` depends on another property:
+Both calls can fit behind a `Func<T>`. The type leaves open the important question:
 
 ```text
 Is this operation safe to repeat?
 ```
 
-If `operation` is a pure calculation, retrying is boring. Calling it again does not duplicate any external effect.
+If `CalculateTotal` is a pure calculation, repeating it has the same external footprint as calling it once. Retrying may still be useless if the failure is deterministic, but the repeat itself is harmless outside the process.
 
-If `operation` writes telemetry, inserts a database row, creates an invoice, sends an email, or charges a card, retrying is no longer just "try again." It may duplicate an effect.
+`CreateInvoice` is different. It may allocate an invoice number, read the current time, persist a row, send a message, or publish an event. Repeating it may create two invoices.
 
-Purity is one strong answer. Idempotency is another.
+`CreateInvoice` can still be a good boundary. The caller needs a different contract.
 
-For example, a payment operation can be safe to retry when it uses an idempotency key. That does not make the operation pure. It creates a different contract:
+A payment operation can be safe to retry when it uses an idempotency key and the receiving system honors that key. The operation remains effectful. The idempotency key creates a contract like this:
 
 ```text
-This operation touches the world, but repeating the same request is safe.
+This operation touches the world, and repeating the same logical request is safe.
 ```
 
 That is a perfectly good contract. The important part is that callers need some contract before they transform the call.
 
-## Higher-Order Functions And Effect Color
+## Higher-Order Functions
 
-Bob Nystrom's [What Color is Your Function?](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/) is useful here because it shows that a function property can escape local implementation detail. In his essay, the red/blue split eventually maps to asynchronous functions. Async/await improves the ergonomics, but awaitable work still has a caller-visible shape.
-
-The C# analogy is not exact, but the propagation idea is useful:
-
-```text
-Awaitable work affects how I call and compose a method.
-Effectful work affects which transformations are valid around the call.
-```
-
-The analogy is strongest with higher-order functions.
+The propagation problem is clearest with higher-order functions.
 
 ```csharp
 public static IEnumerable<Order> MatchingOrders(
-    IEnumerable<Order> orders,
+    IReadOnlyList<Order> orders,
     Func<Order, bool> predicate)
 {
     return orders.Where(predicate);
 }
 ```
+
+Assume the source collection is already materialized and stable. The source still has its own contract, but this example focuses on the predicate.
 
 If `predicate` is pure, `MatchingOrders` is mostly about values. The predicate is just:
 
@@ -185,7 +127,7 @@ If `predicate` is pure, `MatchingOrders` is mostly about values. The predicate i
 Order -> bool
 ```
 
-But if the predicate logs, mutates state, reads the clock, calls a service, or sends telemetry, then traversal details become caller-relevant.
+With an effectful predicate, traversal details become caller-relevant. Logging, mutating state, reading the clock, calling a service, or sending telemetry all make the call pattern visible.
 
 ```csharp
 var matching = MatchingOrders(orders, order =>
@@ -195,44 +137,26 @@ var matching = MatchingOrders(orders, order =>
 });
 ```
 
-Now the caller may need to ask:
+Now the caller may need to ask whether the sequence is lazy, how many times the predicate runs, what order it runs in, what happens if the result is enumerated twice, and whether a future implementation could change traversal strategy or run in parallel.
 
-```text
-Is the sequence lazy?
-How many times is the predicate called?
-Is it called once per order?
-In what order?
-What happens if the result is enumerated twice?
-Can the implementation short-circuit?
-Could it run in parallel later?
-```
+Those questions fade into the background when the predicate is pure. They become central when the predicate has effects.
 
-Those questions mostly do not matter when the predicate is pure. They matter a lot when the predicate has effects.
-
-That is the purity version of function color. The type says `Func<Order, bool>`, but there are two very different contracts hiding behind that shape:
+The type says `Func<Order, bool>`, and two very different contracts can hide behind that shape:
 
 ```text
 Order -> bool
 Order + hidden world state -> bool + hidden effects
 ```
 
-C# does not distinguish those at the type level.
+C# leaves those contracts indistinguished at the type level.
 
-This shows up in ordinary library design too. A comparer passed to sorting code is expected to behave consistently. A hash function used by a dictionary is expected to be stable for the key while it is in the dictionary. A predicate passed to `Where` is usually expected to be a predicate, not a database mutation hidden inside a boolean.
+This shows up in ordinary library design too. A comparer passed to sorting code is expected to behave consistently. A hash function used by a dictionary is expected to be stable for the key while it is in the dictionary. Those assumptions can exist even when the word "pure" is absent.
 
-```csharp
-int Compare(Customer x, Customer y)
-bool Equals(Customer x, Customer y)
-int GetHashCode(Customer customer)
-```
+## Boundaries And Hidden Inputs
 
-Those signatures are small, but the caller assumptions around them are large.
+C# method signatures are useful. They tell us parameter types, return types, and awaitable shapes. Nullable reference type annotations can also make some assumptions visible enough for warnings and review.
 
-## A Method Signature Is Only Part Of The Contract
-
-C# method signatures are useful. They tell us parameter types, return types, and awaitable shapes. Nullable annotations can also make some assumptions visible enough for warnings and review.
-
-They usually do not tell us whether a method reads the clock, depends on `CurrentCulture`, calls a database, writes a file, mutates shared state, or leaves some other observable effect behind.
+They usually leave out whether a method reads the clock, depends on `CurrentCulture`, calls a database, writes a file, mutates shared state, or leaves some other observable effect behind.
 
 Take a method like this:
 
@@ -248,7 +172,7 @@ public static Money CalculateTotal(
 }
 ```
 
-That method makes a fairly strong promise. Given the same `order`, `taxRate`, and `discount`, it behaves the same way. It does not need the current time. It does not need a feature flag. It does not call a service. It does not write anything anywhere.
+That method makes a strong promise. Given the same `order`, `taxRate`, and `discount`, it behaves the same way. It uses only the values in its parameter list.
 
 Now compare it to this:
 
@@ -267,173 +191,13 @@ public Money CalculateTotal(Order order)
 }
 ```
 
-The arithmetic is still familiar, but the contract is larger.
+The arithmetic is familiar. The contract is larger. The method still returns `Money`, and the call now also has latency, failure behavior, freshness questions, and dependencies on external state.
 
-The first method is basically:
+That may be exactly what you want in application-service code. The receiver object matters. A method on `CheckoutService` carries different expectations from a method on `CheckoutMath`. Constructor-injected dependencies are visible at the object boundary; `DateTimeOffset.UtcNow` or `Guid.NewGuid()` inside a calculation stay hidden inside the call.
 
-```text
-Order + TaxRate + Discount -> Money
-```
+The useful question is whether the caller can treat the method as just a calculation.
 
-The second method is closer to:
-
-```text
-Order
-+ tax service state
-+ feature flag state
-+ discount service state
-+ latency
-+ possible service failures
--> Money or exception
-```
-
-That does not make the second method wrong. It may be exactly what you want in application-service code. The returned `Money` is no longer the whole story.
-
-The receiver object matters. A method on `CheckoutService` carries different expectations from a method on `CheckoutMath`. Constructor-injected dependencies are visible at the object boundary in a way that `DateTimeOffset.UtcNow` or `Guid.NewGuid()` inside a calculation are not.
-
-So the useful question is:
-
-```text
-Can the caller treat this method as just a calculation?
-```
-
-If the answer is yes, the method is easier to move around, reuse, and compose. If the answer is no, the caller has to account for something beyond the returned value.
-
-## Hidden Inputs And Expected Failure
-
-Impurity is not only about writes. It is also about hidden reads.
-
-This method looks deterministic:
-
-```csharp
-string FormatAmount(decimal amount)
-{
-    return string.Format("{0:C}", amount);
-}
-```
-
-But it is not really just:
-
-```text
-decimal -> string
-```
-
-It is closer to:
-
-```text
-decimal + current culture -> string
-```
-
-The same thing happens with time:
-
-```csharp
-bool IsExpired(Subscription subscription)
-{
-    return subscription.ExpiresAt < DateTimeOffset.UtcNow;
-}
-```
-
-That is not really just:
-
-```text
-Subscription -> bool
-```
-
-It is closer to:
-
-```text
-Subscription + now -> bool
-```
-
-The usual repair is to make the hidden input explicit where the choice matters:
-
-```csharp
-bool IsExpired(Subscription subscription, DateTimeOffset now)
-{
-    return subscription.ExpiresAt < now;
-}
-```
-
-Sometimes `CurrentCulture`, `UtcNow`, or `Guid.NewGuid()` are exactly what you want at that boundary. Sometimes they are not. The distinction matters when the caller needs repeatability, preview, replay, comparison, or a stable cache key.
-
-Expected failure is another contract that may or may not be visible.
-
-```csharp
-Customer LoadCustomerOrThrow(Guid id)
-Customer? FindCustomer(Guid id)
-bool TryLoadCustomer(Guid id, out Customer customer)
-Result<Customer> LoadCustomerResult(Guid id)
-```
-
-Those shapes create different expectations. The point is not that one is always right. The point is that normal caller behavior should usually be visible somewhere: in the name, in the return type, in documentation, or in the boundary where the method lives.
-
-## What Purity Does Not Promise
-
-Purity is a strong contract, but it is not the whole contract.
-
-It is capability-preserving, not capability-complete.
-
-A pure method can still fail:
-
-```csharp
-public static int Divide(int x, int y)
-{
-    return x / y;
-}
-```
-
-It can still be expensive:
-
-```csharp
-public static BigInteger Fibonacci(int n)
-{
-    return n <= 1
-        ? n
-        : Fibonacci(n - 1) + Fibonacci(n - 2);
-}
-```
-
-It can still be awkward to cache if its inputs are mutable or do not have stable equality.
-
-So "pure" does not mean cheap, total, thread-safe, well-named, or automatically easy to use. It means the method's observable behavior is determined by explicit inputs and does not produce externally visible effects.
-
-That is already a useful guarantee.
-
-## One Repair Strategy: Functional Core / Imperative Shell
-
-Functional core / imperative shell is one practical response to the contract problem.
-
-The shell gathers facts from the world and performs visible effects. The core takes explicit values and returns a calculation, decision, or plan.
-
-The shell can know about services:
-
-```csharp
-public async Task<Money> CalculateTotalForCheckout(Order order)
-{
-    var taxRate = await _taxService.GetRate(order.ShippingAddress);
-    var discount = await _discounts.Current();
-
-    return CheckoutMath.CalculateTotal(order, taxRate, discount);
-}
-```
-
-The core can stay small:
-
-```csharp
-public static Money CalculateTotal(
-    Order order,
-    TaxRate taxRate,
-    Discount discount)
-{
-    return order.Subtotal
-        .ApplyDiscount(discount)
-        .ApplyTax(taxRate);
-}
-```
-
-The first method is allowed to know about the world. The second one usually should not have to.
-
-This gives a practical dependency rule:
+This is where functional core / imperative shell helps. The shell gathers facts from the world and performs visible effects. The core takes explicit values and returns a calculation, decision, or plan.
 
 ```text
 Use dependency injection in the shell.
@@ -442,32 +206,48 @@ Use explicit values in the core.
 
 Constructor injection is appropriate for application services, repositories, adapters, clients, and orchestration code. Explicit method parameters are often better for domain policy, pricing, validation, authorization, scheduling, retry rules, and other code where the main job is to decide.
 
-This is not a rule for every method. It is a way to keep important decisions value-like when the surrounding program still needs to interact with the world.
+Hidden inputs follow the same pattern:
 
-## Tooling Can Help, But Not Prove Everything
+```csharp
+string FormatAmount(decimal amount)
+{
+    return string.Format("{0:C}", amount);
+}
 
-C# already makes some behavior visible. Parameter types are visible. Return types are visible. `Task<T>` and other awaitable shapes change how a method is called. Nullable annotations make some assumptions visible enough for warnings without changing runtime behavior.
-
-Purity usually is not visible in the type.
-
-So we express it indirectly:
-
-```text
-naming
-documentation
-boundaries
-tests
-code review
-analyzers
+bool IsExpired(Subscription subscription)
+{
+    return subscription.ExpiresAt < DateTimeOffset.UtcNow;
+}
 ```
 
-Annotations and analyzers can help in narrow cases. They can catch obvious leaks, warn on ignored return values, flag implicit culture usage, or encode project conventions. They cannot prove every semantic property of arbitrary C#.
+The visible shapes look like `decimal -> string` and `Subscription -> bool`. The real shapes are closer to `decimal + current culture -> string` and `Subscription + current time -> bool`.
 
-That is fine. Nullable reference types do not prove the absence of every null bug either. They still make useful assumptions more visible.
+At some boundaries, `CurrentCulture`, `UtcNow`, or `Guid.NewGuid()` are exactly the right choice. The distinction matters when the caller needs repeatability, preview, replay, comparison, or a stable cache key.
 
-I would rather have a conservative tool say `Unknown` than have it incorrectly bless a method as pure. The point of tooling is not certainty. The point is to make important contracts easier to see and easier to review.
+Expected failure can be hidden too:
 
-## Restraint
+```csharp
+Customer LoadCustomerOrThrow(Guid id)
+Customer? FindCustomer(Guid id)
+bool TryLoadCustomer(Guid id, out Customer customer)
+Result<Customer> LoadCustomerResult(Guid id) // using an application-defined Result<T>
+```
+
+Those shapes create different expectations. Normal caller behavior should usually be visible somewhere: in the name, in the return type, in documentation, or in the boundary where the method lives.
+
+## Tooling And Restraint
+
+C# already exposes some behavioral contracts. `Task<T>` and other awaitable shapes change how a method is called. Nullable reference type annotations make some assumptions visible enough for warnings while runtime behavior stays the same.
+
+Purity rarely appears in the type. So we express it indirectly through naming, documentation, boundaries, tests, code review, and analyzers.
+
+Annotations and analyzers can help in narrow cases. Depending on the rule set and known APIs, they can catch obvious cases, warn on ignored return values, flag implicit culture usage, or encode project conventions. Full semantic proof for arbitrary C# remains outside their reach.
+
+That is fine. The goal is better signals rather than theorem proving.
+
+An incorrect annotation is worse than an absent annotation. If a `[Pure]`-style annotation becomes aspirational instead of checked, it becomes documentation that can lie. I would rather a tool say `Unknown` than incorrectly bless a method as pure.
+
+There is also a tradeoff. Making behavior visible can make code more verbose. Passing `now`, `culture`, `taxRate`, or `discount` explicitly can be overkill. Expose the dependencies that materially affect correctness, repeatability, reuse, or caller obligations.
 
 The bad version of this idea is easy to write:
 
@@ -478,14 +258,12 @@ var c = Step3(b);
 var d = Step4(c);
 ```
 
-That is not better just because each step is pure. A pure function should still earn its name. `CalculateTotal`, `DecideRenewal`, `ValidatePolicy`, and `PlanShipment` are useful boundaries. `Step1` through `Step4` usually are not.
+Purity alone is insufficient. A pure function should still earn its name. `CalculateTotal`, `DecideRenewal`, `ValidatePolicy`, and `PlanShipment` are useful boundaries. `Step1` through `Step4` usually are filler.
 
-There is also a tradeoff. Making behavior visible can make code more verbose. Passing `now`, `culture`, `taxRate`, or `discount` explicitly is not always worth it. The point is to expose the dependencies that materially affect correctness, repeatability, reuse, or caller obligations.
-
-I would not annotate every method. I would not force every dependency into parameters. I would not turn clear imperative code into function confetti.
+I would avoid annotating every method, forcing every dependency into parameters, or turning clear imperative code into function confetti.
 
 Effects belong in C# programs. They belong in the parts of the program where the caller expects interaction with the world.
 
-Pure methods and effectful methods make different promises. Pure methods are value-like. Effectful methods are interaction-like. Both are useful, but they preserve different caller assumptions.
+Pure methods and effectful methods make different promises. Pure methods are value-like. Effectful methods are interaction-like. Both are useful, and they preserve different caller assumptions.
 
-The goal is not to make every method pure. The goal is to know which assumptions remain valid before a method call becomes surprising.
+The goal is fewer surprising method calls.
