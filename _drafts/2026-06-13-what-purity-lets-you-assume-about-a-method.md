@@ -14,9 +14,11 @@ This article is about one contract that is often missing from the signature: whe
 
 The examples use C#-style syntax because that is the code I usually write. The point applies more broadly to mainstream imperative and object-oriented languages where effects are ordinary and purity is usually a convention rather than a checked language feature.
 
-By "effect," I mean behavior that reaches beyond the returned value. That includes writing a file, calling a service, sending an email, logging, mutating caller-owned or shared state, reading the clock, using randomness, reading current culture, or depending on global configuration. Some of those are outputs into the world. Some are hidden inputs from the world. Either way, the call is interacting with context the caller cannot see in the parameter list.
+By "impurity," I mean the call depends on more than its explicit inputs or produces more than its returned value. That includes visible effects like writing a file, calling a service, sending an email, logging, or mutating caller-owned state. It also includes hidden inputs like reading the clock, using randomness, reading current culture, or depending on global configuration.
 
-At a call site, one of three things is happening: I know the call is pure, I know the call is effectful, or I am guessing. The last case is where large programs get expensive.
+Effects are one part of impurity. Hidden inputs are another. The common issue is that the call is interacting with context the caller cannot see in the parameter list.
+
+At a call site, one of three things is happening: I have a reliable purity contract, I have a reliable effectful contract, or I am relying on convention. Convention is often enough in small code. In larger programs, unreliable convention gets expensive.
 
 The thesis is:
 
@@ -27,7 +29,7 @@ A purity contract makes assumptions about calls explicit.
 
 Purity says that a call is value-like. Its observable behavior is determined by its explicit inputs, and externally visible effects are absent.
 
-That contract makes more caller transformations valid by default:
+That contract removes one class of obstacles around caller transformations:
 
 ```text
 repeat
@@ -39,6 +41,8 @@ parallelize
 compose
 ```
 
+It does not make every transformation cheap or useful. It does make fewer transformations semantically dangerous.
+
 Effects are necessary. A useful program eventually sends the email, writes the row, reads the clock, calls the API, and mutates state. Effectful calls need a different contract. They may still be safe to retry, cache, parallelize, or reorder, but some other property has to make that true: idempotency, retry-safety, cache-safety, thread-safety, transactionality, or an explicit effect boundary.
 
 Purity has been discussed for a long time in functional programming, programming-language theory, and UI systems that keep rendering deterministic. I am using it here for a smaller programming question:
@@ -47,76 +51,51 @@ Purity has been discussed for a long time in functional programming, programming
 What can the caller safely do with this method call?
 ```
 
-## When The Assumption Matters
+## Higher-Order Functions
 
-Imagine this code:
-
-```csharp
-var normalized = NormalizeOrder(order);
-var total = CalculateTotal(normalized);
-var label = FormatTotal(total);
-```
-
-Most of the time, informal evidence is enough. I infer a contract from names, location, and convention. `NormalizeOrder`, `CalculateTotal`, and `FormatTotal` look like calculations.
-
-If that inference is correct, the code is easy to work with. I can call `CalculateTotal` twice while debugging. I can cache `FormatTotal`. I can replay the whole sequence with recorded inputs. I can move the calculation into a test, a dry-run path, or a background validation job.
-
-The caller has flexibility because the calls are value-like.
-
-Now change the contract behind the same names:
+The contract matters most when a method call is passed into another abstraction.
 
 ```csharp
-var normalized = NormalizeOrder(order); // updates order in the database
-var total = CalculateTotal(normalized); // calls a tax API
-var label = FormatTotal(total);         // reads CurrentCulture
+public static IEnumerable<Order> MatchingOrders(
+    IReadOnlyList<Order> orders,
+    Func<Order, bool> predicate)
+{
+    return orders.Where(predicate);
+}
 ```
 
-The code may still be valid. The names may even make sense in the application where they live. The caller contract is larger, though.
+Assume the source collection is already materialized and stable. The source still has its own contract, but this example focuses on the predicate.
 
-Now the caller has to ask:
+If `predicate` is pure, `MatchingOrders` is mostly about values. The predicate is just:
 
 ```text
-Can I call this twice?
-Can I call it in a loop?
-Can I move it earlier?
-Can I run it in parallel?
-Can I cache the result?
-Can I replay it from production inputs?
-Can I call it in a preview path?
+Order -> bool
 ```
 
-Those questions are not abstract. Calling a function twice might send two HTTP requests, insert two rows, produce two invoice numbers, or log two audit records. Moving a call earlier might read a different clock value. Running calls in parallel might race on shared state.
-
-The problem is contract mismatch. Treating an effectful call as pure is dangerous because the caller may retry, cache, parallelize, or reorder it under assumptions that are false. Treating a pure call as effectful is usually safer, but it gives up useful flexibility. The method becomes harder to move, cache, test, or reuse because the caller is being conservative.
-
-In procedural code, that uncertainty often turns into manual orchestration:
+With an impure predicate, traversal details become caller-relevant. Logging, mutating state, reading the clock, calling a service, or sending telemetry all make the call pattern visible.
 
 ```csharp
-// Treat each call as potentially effectful.
-// Call once, store the result, preserve order, and avoid hidden retries.
-var normalized = NormalizeOrder(order);
-var total = CalculateTotal(normalized);
-var label = FormatTotal(total);
-
-SaveReceipt(order.Id, label);
+var matching = MatchingOrders(orders, order =>
+{
+    _audit.Record("Checked " + order.Id);
+    return order.Total > 500;
+});
 ```
 
-There is nothing wrong with that shape. Many application services should look like that. The point is that the caller is now responsible for preserving the sequence and avoiding extra calls.
+Now the caller may need to ask whether the sequence is lazy, how many times the predicate runs, what order it runs in, what happens if the result is enumerated twice, and whether a future implementation could change traversal strategy or run in parallel.
 
-With pure calculations, some of that burden disappears:
+Those questions fade into the background when the predicate is pure. They become central when the predicate has effects.
 
-```csharp
-var total = CalculateTotal(normalized, taxRate, discount);
-var label = FormatTotal(total, culture);
+The type says `Func<Order, bool>`, and two very different contracts can hide behind that shape:
 
-var preview = FormatTotal(
-    CalculateTotal(normalized, taxRate, discount),
-    culture);
+```text
+Order -> bool
+Order + hidden world state -> bool + hidden effects
 ```
 
-That refactor may duplicate work, but it does not duplicate an external effect. The calculation can be moved, repeated, cached, or inlined more freely.
+C# and many similar languages leave those contracts indistinguished at the type level.
 
-This is the practical value of knowing whether a method is pure. It tells the caller which constraints have been relaxed.
+This shows up in ordinary library design too. A comparer passed to sorting code is expected to behave consistently. A hash function used by a dictionary is expected to be stable for the key while it is in the dictionary. Those assumptions can exist even when the word "pure" is absent.
 
 ## Types For Values, Purity For Calls
 
@@ -126,7 +105,7 @@ A dynamically typed program still has value assumptions. If I add two values, ca
 
 Static types move some of those assumptions into declarations the compiler can check.
 
-At the extreme, imagine every value was just a blob of bytes:
+At the extreme, imagine every value was just bytes:
 
 ```csharp
 byte[] value = LoadValue();
@@ -134,15 +113,13 @@ byte[] value = LoadValue();
 
 Sometimes bytes are exactly what you want. If you are writing a file or sending a packet, bytes may be the right abstraction.
 
-For ordinary application code, though, the program still has assumptions:
+For ordinary application code, the program still has assumptions:
 
 ```text
 Is this an image?
 Is this a number?
 Is this text?
-Is this a serialized customer?
 Can I add it?
-Can I index into it?
 Can I format it?
 ```
 
@@ -158,11 +135,11 @@ By "pure" here, I mean the practical code-review version:
 
 ```text
 all inputs explicit
-deterministic observable outcome out
+same explicit inputs, same observable behavior
 externally visible effects absent
 ```
 
-The outcome may be a returned value or a deterministic failure. Totality is a separate contract. So are performance, thread safety, naming, stable equality, and ease of use.
+The same explicit inputs produce the same observable behavior. Totality is a separate contract. So are performance, thread safety, naming, stable equality, and ease of use.
 
 The useful engineering promise is narrower:
 
@@ -178,11 +155,64 @@ pure + effectful = effectful
 effectful + effectful = effectful
 ```
 
-This is the practical sense in which effects "contaminate" a call. Nothing moral is happening. The caller contract simply gets larger. Once a calculation reads the clock, writes a file, calls a service, mutates shared state, or invokes an effectful callback, callers need to account for that larger behavior.
+This is the practical sense in which impurity propagates. Nothing moral is happening. The caller contract simply gets larger. Once a calculation reads the clock, writes a file, calls a service, mutates shared state, or invokes an effectful callback, callers need to account for that larger behavior.
 
 The upside is that pure composition preserves the smaller contract. A larger calculation built from smaller pure calculations is still a calculation. One effectful step changes the contract of the whole method.
 
 That is why it can be useful to keep pure code near other pure code. Useful calculation boundaries stay small, stable, and easy to move.
+
+## When The Assumption Matters
+
+Imagine this code:
+
+```csharp
+var normalized = NormalizeOrder(order);
+var total = CalculateTotal(normalized);
+var label = FormatTotal(total);
+```
+
+Most of the time, informal evidence is enough. I infer a contract from names, location, and convention. `NormalizeOrder`, `CalculateTotal`, and `FormatTotal` look like calculations.
+
+If that inference is correct, the caller has flexibility. I can call `CalculateTotal` twice while debugging. I can cache `FormatTotal`. I can replay the sequence with recorded inputs. I can move the calculation into a test, a dry-run path, or a background validation job.
+
+Now change the contract behind the same names:
+
+```csharp
+var normalized = NormalizeOrder(order); // updates order in the database
+var total = CalculateTotal(normalized); // calls a tax API
+var label = FormatTotal(total);         // reads CurrentCulture
+```
+
+The code may still be valid. The names may even make sense in the application where they live. The caller contract is larger, though.
+
+The problem is contract mismatch. Mistaking an impure call for a pure one can break behavior because the caller may retry, cache, parallelize, or reorder it under assumptions that are false. Mistaking a pure call for an impure one is usually safer, but it gives up useful flexibility. The method becomes harder to move, cache, test, or reuse because the caller is being conservative.
+
+In procedural code, uncertainty often turns into manual orchestration:
+
+```csharp
+// Treat each call as potentially effectful.
+// Call once, store the result, preserve order, and avoid hidden retries.
+var normalized = NormalizeOrder(order);
+var total = CalculateTotal(normalized);
+var label = FormatTotal(total);
+
+SaveReceipt(order.Id, label);
+```
+
+There is nothing wrong with that shape. Many application services should look like that. The point is that the caller is responsible for preserving the sequence and avoiding extra calls.
+
+With pure calculations, some of that burden disappears:
+
+```csharp
+var total = CalculateTotal(normalized, taxRate, discount);
+var label = FormatTotal(total, culture);
+
+var preview = FormatTotal(
+    CalculateTotal(normalized, taxRate, discount),
+    culture);
+```
+
+That refactor may duplicate work, but it does not duplicate an external effect. The calculation can be moved, repeated, cached, or inlined with fewer behavioral concerns.
 
 ## Number, Timing, And Order
 
@@ -222,53 +252,7 @@ A payment operation can be safe to retry when it uses an idempotency key and the
 This operation touches the world, and repeating the same logical request is safe.
 ```
 
-That is a useful pattern. It gives an effectful call some pure-like properties. Repetition becomes safer. The caller has more flexibility. Another design has rebuilt part of the purity contract around an interaction with the world.
-
-## Higher-Order Functions
-
-The propagation problem is clearest with higher-order functions.
-
-```csharp
-public static IEnumerable<Order> MatchingOrders(
-    IReadOnlyList<Order> orders,
-    Func<Order, bool> predicate)
-{
-    return orders.Where(predicate);
-}
-```
-
-Assume the source collection is already materialized and stable. The source still has its own contract, but this example focuses on the predicate.
-
-If `predicate` is pure, `MatchingOrders` is mostly about values. The predicate is just:
-
-```text
-Order -> bool
-```
-
-With an effectful predicate, traversal details become caller-relevant. Logging, mutating state, reading the clock, calling a service, or sending telemetry all make the call pattern visible.
-
-```csharp
-var matching = MatchingOrders(orders, order =>
-{
-    _audit.Record("Checked " + order.Id);
-    return order.Total > 500;
-});
-```
-
-Now the caller may need to ask whether the sequence is lazy, how many times the predicate runs, what order it runs in, what happens if the result is enumerated twice, and whether a future implementation could change traversal strategy or run in parallel.
-
-Those questions fade into the background when the predicate is pure. They become central when the predicate has effects.
-
-The type says `Func<Order, bool>`, and two very different contracts can hide behind that shape:
-
-```text
-Order -> bool
-Order + hidden world state -> bool + hidden effects
-```
-
-C# and many similar languages leave those contracts indistinguished at the type level.
-
-This shows up in ordinary library design too. A comparer passed to sorting code is expected to behave consistently. A hash function used by a dictionary is expected to be stable for the key while it is in the dictionary. Those assumptions can exist even when the word "pure" is absent.
+That is a useful pattern. It gives an effectful call one pure-like property: repetition becomes safer. The caller has more flexibility, even though the call still interacts with the world.
 
 ## Mutation And Hidden Inputs
 
@@ -330,7 +314,7 @@ That does not mean every dependency should become a parameter.
 
 Effects belong in programs. They belong in the parts of the program where the caller expects interaction with the world.
 
-This is where functional core / imperative shell helps. The shell gathers facts from the world and performs visible effects. The core takes explicit values and returns a calculation, decision, or plan.
+Functional core / imperative shell is one way to apply this idea. The shell gathers facts from the world and performs visible effects. The core takes explicit values and returns a calculation, decision, or plan.
 
 ```text
 Use dependency injection in the shell.
