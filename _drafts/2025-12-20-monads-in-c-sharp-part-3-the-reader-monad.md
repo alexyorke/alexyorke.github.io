@@ -8,14 +8,14 @@ description: "Introduces the Reader monad in C# to avoid parameter drilling by t
 
 In Part 2 you built `Result<TSuccess, TError>` to model failures explicitly: `Map`/`Bind` for composition, and `Match` to unwrap at the boundary (e.g., HTTP/UI) without leaking `Result` into serialization.
 
-The Reader monad lets you sequence and compose computations that depend on a shared environment (typically treated as immutable) without manually threading that environment through every call. The computation doesn't run until you call `Run(env)`, so it’s closer to a blueprint, or a recipe.
+The Reader monad lets you sequence and compose computations that depend on a shared environment (typically treated as immutable) without manually threading that environment through every call. The computation doesn't run until you call `Run(env)`, so it's closer to a blueprint, or a recipe.
 
 It also lets you run a sub-computation under a modified view of that environment (via `Local`). In practice, this avoids "parameter drilling" by passing the environment once at the boundary and letting the composed pipeline carry it.
 
-It also helps to **let go of the “monads are containers” mental model**.
-That framing sort of works for `Maybe<T>` and `Result<TSuccess, TError>` because they *look* like they “contain” a value (or not). But it stops being a good fit pretty quickly: Reader doesn’t “contain” a value, it *delays* a computation until you provide some context.
+It also helps to **let go of the "monads are containers" mental model**.
+That framing sort of works for `Maybe<T>` and `Result<TSuccess, TError>` because they *look* like they "contain" a value (or not). But it stops being a good fit pretty quickly: Reader doesn't "contain" a value, it *delays* a computation until you provide some context.
 
-So what is a monad, really? It’s not a magic list of blessed types; it’s a **pattern**: a type that gives you `Unit`/`Pure` (lift a value), `Bind`/`SelectMany` (a.k.a. flatMap, sequence computations), and that obeys the monad laws (so refactoring doesn’t change meaning). The point is **composability**: you get to chain steps without re-implementing the plumbing each time.
+So what is a monad, really? It's not a magic list of blessed types; it's a **pattern**: a type that gives you `Unit`/`Pure` (lift a value), `Bind`/`SelectMany` (a.k.a. flatMap, sequence computations), and that obeys the monad laws (so refactoring doesn't change meaning). The point is **composability**: you get to chain steps without re-implementing the plumbing each time.
 
 ## Problem: parameter drilling
 
@@ -57,15 +57,15 @@ Conceptually, `Reader<TEnv, T>` is `Func<TEnv, T>` plus a few combinators:
 
 You build the computation as a value, then run it once you have an environment (typically at an application boundary).
 
-Important: Reader doesn’t enforce immutability—it’s just conventional to treat the environment as immutable (and avoid mutating things stored inside it).
+Important: Reader doesn't enforce immutability - it's just conventional to treat the environment as immutable (and avoid mutating things stored inside it).
 
 ## A note on Dependency Injection
 
-Reader is sometimes called “functional DI,” but it’s not a replacement for a DI container. It’s a way to propagate context through a computation without turning every method signature into “and also pass `env`.”
+Reader is sometimes called "functional DI," but it's not a replacement for a DI container. It's a way to propagate context through a computation without turning every method signature into "and also pass `env`."
 
 ## The setup
 
-We’ll use one running example: generating a quote for a single service subscription using request-ish context (time, VIP flag, locale, correlation ID, logger). We’ll bundle that into `PricingEnv`, build a `Reader<PricingEnv, T>` pipeline, then run it at the boundary.
+We'll use one running example: generating a quote for a single service subscription using request-ish context (time, VIP flag, locale, correlation ID, logger). We'll bundle that into `PricingEnv`, build a `Reader<PricingEnv, T>` pipeline, then run it at the boundary.
 
 ```csharp
 internal sealed class ConsoleLogger : ILogger
@@ -91,17 +91,17 @@ In this example `PricingEnv` includes both request data (time/user/locale/correl
 
 ## Core use-case
 
-This is a common friction point: if you try to “iterate over a collection” inside Reader, you quickly run into the **Traversable** problem.
+This is a common friction point: if you try to "iterate over a collection" inside Reader, you quickly run into the **Traversable** problem.
 
 Combining a `List<Reader<...>>` into a `Reader<List<...>>` (or combining into a sum) requires `Sequence`/`Traverse`, and implementing that in C# tends to look like an intimidating `Aggregate`/fold.
 
-That’s a perfectly valid topic, but it’s a side quest. The main point of Reader is **implicit context**.
+That's a perfectly valid topic, but it's a side quest. The main point of Reader is **implicit context**.
 
-So instead, we’ll use a multi-step *linear* pipeline: generate a quote for a single service.
+So instead, we'll use a multi-step *linear* pipeline: generate a quote for a single service.
 
-### Step 1–4: the building blocks
+### Step 1-4: the building blocks
 
-We’ll build small steps that each produce a `Reader<PricingEnv, ...>`. Some steps are pure (“no environment needed”), but we still lift them into Reader to keep the pipeline shape consistent.
+We'll build small steps that each produce a `Reader<PricingEnv, ...>`. Some steps are pure ("no environment needed"), but we still lift them into Reader to keep the pipeline shape consistent.
 
 ```csharp
 // ---------------------------------------------------------
@@ -195,7 +195,7 @@ That's the whole pattern: compose in the functional core, then supply the enviro
 
 `Local` runs a sub-computation under a transformed view of the environment.
 
-For example: compute the current quote, then re-run the same pipeline under `IsVip = true` to show a “what if you were VIP?” price.
+For example: compute the current quote, then re-run the same pipeline under `IsVip = true` to show a "what if you were VIP?" price.
 
 ```csharp
 static Reader<PricingEnv, string> CompareVipPrice(string serviceName) =>
@@ -206,7 +206,7 @@ static Reader<PricingEnv, string> CompareVipPrice(string serviceName) =>
     select $"{current} (If you were VIP: {prediction})";
 ```
 
-We avoid adding an extra `isVip` parameter or duplicating the pricing logic: it’s the same logic, recomputed under a modified environment for that one branch.
+We avoid adding an extra `isVip` parameter or duplicating the pricing logic: it's the same logic, recomputed under a modified environment for that one branch.
 
 ## Ask: reading the environment explicitly
 
@@ -230,7 +230,7 @@ No container setup or lifetime scoping required, tests simply supply a `PricingE
 See the linked repository ([`alexyorke/ReaderMonad`](https://github.com/alexyorke/ReaderMonad)) for more testing examples; code is omitted here for brevity.
 
 ## Optional: Capability Interfaces
-If `PricingEnv` starts to feel too large, you can split it into capability interfaces. In practice, you’ll usually still want a single shared `TEnv` (or adapter helpers) so your Readers compose cleanly.
+If `PricingEnv` starts to feel too large, you can split it into capability interfaces. In practice, you'll usually still want a single shared `TEnv` (or adapter helpers) so your Readers compose cleanly.
 
 ## When not to use Reader
 
@@ -238,13 +238,13 @@ Reader helps with parameter drilling, but it's an extra abstraction that isn't a
 - The chain is short. For one or two calls, plain parameter passing is clearer.
 - You're already in DI-land. In `ASP.NET Core` services/controllers, inject what you need. Reader is most useful inside composed business-logic functions where you want to avoid manually threading an environment; it's not a tool for object graph construction or lifetime management.
 - You need mutable/evolving state. Reader is read-only. If state evolves through steps, you're looking for state-threading (often modeled as `State`).
-- You need very granular dependencies. If everything takes a giant `PricingEnv`, you can trade "parameter sprawl" for "environment coupling." Reader often improves call-site ergonomics, but it doesn’t eliminate dependency coupling—it just centralizes it. If `PricingEnv` grows into a god object, refactor toward narrower capabilities.
+- You need very granular dependencies. If everything takes a giant `PricingEnv`, you can trade "parameter sprawl" for "environment coupling." Reader often improves call-site ergonomics, but it doesn't eliminate dependency coupling - it just centralizes it. If `PricingEnv` grows into a god object, refactor toward narrower capabilities.
 
 ## Async in C#
 
 Most apps have I/O. In C#, many people either (a) keep Reader pipelines pure/sync and do I/O at the boundary, **or** (b) use an async Reader (`Reader<TEnv, Task<T>>`) with `BindAsync`-style helpers.
 
-LINQ query syntax won’t magically await; you’ll usually want async-specific combinators (`BindAsync` / a `SelectMany` that awaits internally) or a dedicated `ReaderAsync`.
+LINQ query syntax won't magically await; you'll usually want async-specific combinators (`BindAsync` / a `SelectMany` that awaits internally) or a dedicated `ReaderAsync`.
 
 ## LanguageExt
 
@@ -252,11 +252,11 @@ If you plan to adopt this pattern extensively, consider [LanguageExt (by Paul Lo
 
 ## Mechanics (short version)
 
-Reader isn’t a “container monad.” It’s basically a function waiting for context: `Reader<TEnv, T>` ≈ `Func<TEnv, T>`.
+Reader isn't a "container monad." It's basically a function waiting for context: `Reader<TEnv, T>` ~= `Func<TEnv, T>`.
 
-So `Bind`/`SelectMany` doesn’t execute anything when you build a pipeline; it builds a new Reader that forwards the same `env` through the chain when you call `Run(env)`.
+So `Bind`/`SelectMany` doesn't execute anything when you build a pipeline; it builds a new Reader that forwards the same `env` through the chain when you call `Run(env)`.
 
-If you want to go further: [Dead-Simple Dependency Injection by Rúnar Óli Bjarnason](https://polyglot.jamie.ly/programming/2014/10/20/dead-simple-dependency-injection-r%C3%BAnar-%C3%B3li.html).
+If you want to go further: [Dead-Simple Dependency Injection by Runar Oli Bjarnason](https://polyglot.jamie.ly/programming/2014/10/20/dead-simple-dependency-injection-r%C3%BAnar-%C3%B3li.html).
 
 
 ## Appendix: a minimal Reader implementation
