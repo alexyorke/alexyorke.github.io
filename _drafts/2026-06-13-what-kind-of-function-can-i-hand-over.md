@@ -1,110 +1,293 @@
 ---
 title: "What Kind of Function Can I Hand Over?"
 date: 2026-06-13
-description: "Purity matters most when I stop controlling the call."
+description: "Pure functions compose by passing values. Effectful functions compose by sequencing state changes."
 ---
 
-This post is about what happens when I hand a function to code I do not control.
+**Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-If I call a method directly, once, in an obvious order, I may not need a formal purity contract. I can read the method name, preserve the order of steps, and keep the effect boundaries in my head.
+In Part 1, I wrote about `List<T>` as a monad. The useful idea was broader than the word "monad" by itself: a context can know how to apply a function. A list applies a function to many values. An option-like value may apply a function zero or one times. A result-like value may skip the function after failure.
 
-But if I pass that method to another abstraction: a sort, a filter, a cache, a retry helper, a parallel query, or a reducer, I give up control over when, how often, and in what order it runs.
-
-A pure function tolerates that loss of control better. By "pure," I mean a call that behaves like a calculation: when it returns normally, the same explicit inputs produce the same returned value, and the call leaves no externally visible effects behind. For an instance method, the receiver's observable state is part of that story too.
-
-By "effect," I mean behavior beyond the returned value that depends on or changes the surrounding world: reading the clock, using current culture, writing a row, sending an email, mutating shared state, or calling the network.
-
-An effectful function can still be correct when handed to another abstraction, but it needs another visible contract: idempotency, retry-safety, cache-safety, thread-safety, transactionality, or an explicit effect boundary.
-
-The examples use C#-style syntax, but the point is broader. You do not need a new framework to write pure functions. You already use purity-like contracts whenever you sort, filter, cache, compare, aggregate, or parallelize.
-
-## The function you hand over
-
-In Part 1, a monad was useful because a context knew how to apply a function.
-
-A list applies a function to many values. An option-like value may apply it zero or one times. A result-like value may skip it after failure.
-
-In each case, I give some context a function, and the context controls the application.
-
-This post is about the other side of that bargain:
+In each case, I give some context a function, and the context controls the application. This post is about the other side of that bargain:
 
 ```text
 What kind of function am I safe to hand over?
 ```
 
-If the function is value-like, the context has more freedom. It can call the function now, later, once, many times, lazily, or as part of a larger composition.
+If the function is pure, the context has more freedom. It can call the function now, later, once, many times, lazily, or as part of a larger composition. If the function has effects, the context's strategy becomes observable. How many times it calls the function, when it calls it, whether it retries, whether it short-circuits, whether it runs in parallel - those details may now matter.
 
-If the function is interaction-like, the context's strategy becomes observable. How many times it calls the function, when it calls it, whether it retries, whether it short-circuits, whether it runs in parallel - those details may now matter.
+That is where purity matters. Real programs have to talk to the world, and pure functions and effectful functions compose differently.
 
-Purity is the contract that lets me stop caring about many details of that application. When the function has effects, those details come back.
+The short version is:
 
-## Number, timing, and order
+```text
+Pure functions compose by passing values.
+Effectful functions compose by sequencing state changes.
+```
 
-Purity makes the number, timing, and order of calls less important. Effects make them part of the contract.
+Both are useful, and they make different promises.
 
-Retry logic makes this concrete. Real retry code needs backoff, cancellation, and exception filtering. This example only illustrates repetition.
+## The hidden world parameter
+
+By "pure," I mean the practical code-review definition: when the function returns normally, the same explicit inputs produce the same returned value, and the call leaves no externally visible effect behind.
+
+A pure function has this shape:
+
+```text
+Input -> Output
+```
+
+An effectful function has a larger shape. If it reads from the world, it is closer to:
+
+```text
+Input + World -> Output
+```
+
+If it writes to the world, it is closer to:
+
+```text
+Input + World -> Output + World'
+```
+
+Passing `World` around in ordinary C# would be absurd. The model is still useful because it explains why effects compose differently. A database row, the current time, current culture, a feature flag, a file, a cache entry, or an API response can all become ordinary values. Obtaining those values is itself situated.
+
+Once the world has been observed, a calculation can be pure:
 
 ```csharp
-var total = Retry(
-    () => CalculateTotal(order, taxRate, discount),
-    attempts: 3);
-
-var receipt = Retry(
-    () => ChargeCard(payment),
-    attempts: 3);
+var taxRate = _taxService.GetRate(order.Address);
+var total = CalculateTotal(order, taxRate, discount);
 ```
 
-Both calls fit behind a `Func<T>`. The type leaves open the important question:
+The first line observes the world. The second line decides with values. The effect remains, and the boundary becomes explicit.
+
+## Effects introduce a state protocol
+
+Pure functions compose by passing values:
 
 ```text
-Is this operation safe to repeat?
+Input -> Output
 ```
 
-If `CalculateTotal` is a pure calculation, repeating it does not send another email, write another row, publish another event, or mutate caller-owned state. Retrying may still be useless if the failure is deterministic, but the repeat itself does not duplicate an external effect.
-
-`ChargeCard` is different. It may call a payment processor, reserve funds, write a ledger entry, send a receipt, or publish an event. Repeat it and you may charge twice.
-
-`ChargeCard` can still be a good boundary. The caller just needs a different contract. A payment operation can be safe to retry when it uses an idempotency key and the receiving system honors it. Here I am using idempotency in the distributed-systems sense: repeating the same logical request produces the same intended external state.
-
-That is a useful pattern. It gives an effectful call one pure-like property: repetition becomes safer. It is still a larger contract because part of the guarantee now lives outside the method.
-
-Purity still has limits. It does not make a calculation cheap, total, or well-named. It avoids hidden shared mutation, which makes parallelization simpler, but thread safety can still depend on immutable inputs and implementation details. Purity only removes hidden inputs and externally visible effects from the call's observable behavior.
-
-## Types for values, purity for calls
-
-Types make assumptions about values explicit. If I call `.Length`, add two values, or index into a collection, I am assuming those operations make sense.
-
-Purity does something similar for calls. If I retry a method, cache its result, pass it to `Where`, run it in parallel, or move it earlier in a program, I am assuming something about the method's behavior.
-
-From the caller's point of view, the composition rule is simple:
+Effectful functions compose by sequencing state changes:
 
 ```text
-value-like + value-like = value-like
-value-like + interaction-like = interaction-like
+Input + World -> Output + World'
 ```
 
-A pure calculation can call another pure calculation and remain value-like.
+That means effectful calls often come with a protocol:
 
-Once it reads the clock, calls a service, writes telemetry, mutates shared state, or invokes an effectful callback, the composed method makes a different promise. That does not make it bad. It just means callers can no longer treat it as only a calculation.
+```text
+configuration must be loaded before this runs
+this must run inside a transaction
+this must not run twice
+this must run before the event is published
+this must observe the same snapshot as the previous read
+this must not run in parallel without synchronization
+```
 
-## Delegating the call
+Those protocols are necessary in real programs. A useful program has to read files, query databases, call APIs, send emails, and persist changes. Trouble starts when the protocol is invisible.
 
-Higher-order functions are not exotic. Most programmers do not say "higher-order function" when they sort a list, filter a collection, populate a cache, or run a parallel query. They pass comparers, predicates, selectors, factories, and accumulators.
+Pure code still has order. The order is usually visible in the values:
+
+```text
+Order -> Subtotal -> Total
+```
+
+Effectful code can add another kind of order:
+
+```text
+load config before pricing
+open transaction before saving
+publish event after commit
+do not call twice
+do not run concurrently
+```
+
+That order may be real and absent from the values. If the protocol lives in a controller, job handler, repository, adapter, or application service, that may be exactly the right place. Those parts of the program are supposed to orchestrate effects.
+
+If the protocol is buried inside code that callers want to treat as a calculation, validation rule, predicate, formatter, pricing rule, policy decision, or state transition, then a value-like call has become situated.
+
+For example:
+
+```csharp
+public sealed class PricingService
+{
+    private readonly PricingConfig _config;
+
+    public void ReloadPricingConfig()
+    {
+        _config.ReloadFromDisk();
+    }
+
+    public Money CalculateTotal(Order order)
+    {
+        return order.Subtotal
+            .ApplyDiscount(_config.CurrentDiscount)
+            .ApplyTax(_config.CurrentTaxRate);
+    }
+}
+```
+
+There is real dataflow here:
+
+```text
+ReloadPricingConfig()
+    -> _config
+        -> CalculateTotal(order)
+```
+
+The call site only shows:
+
+```csharp
+pricing.CalculateTotal(order)
+```
+
+The code may be valid service-layer code, and it is situated. To reason about it, the caller may need to know whether the configuration was loaded, which version was loaded, whether another thread could reload it, whether this call saw the old or new version, and what happens if reload fails halfway.
+
+A value-like version moves the facts to the call boundary:
+
+```csharp
+public static Money CalculateTotal(
+    Order order,
+    Discount discount,
+    TaxRate taxRate)
+{
+    return order.Subtotal
+        .ApplyDiscount(discount)
+        .ApplyTax(taxRate);
+}
+```
+
+The shell can still be situated:
+
+```csharp
+public Money CalculateTotalForCheckout(Order order)
+{
+    var discount = _config.CurrentDiscount;
+    var taxRate = _config.CurrentTaxRate;
+
+    return Pricing.CalculateTotal(order, discount, taxRate);
+}
+```
+
+The effect remains. The protocol moved to the boundary.
+
+## Dependencies and facts are different
+
+Dependency injection can make a dependency explicit:
+
+```csharp
+public PricingService(ITaxRateProvider taxRates)
+```
+
+That tells me this service may get tax-rate facts from a provider. The specific tax rate used by a calculation is a separate fact. A dependency is a pipe. A fact is a value that came through the pipe.
+
+```text
+Dependency:
+    ITaxRateProvider
+
+Fact:
+    TaxRate = 7%, version 42, observed at this point in the workflow
+```
+
+Dependency injection makes services visible at the object boundary. Explicit parameters make facts visible at the call boundary. Those are different kinds of visibility.
+
+This method is situated:
+
+```csharp
+public Money CalculateTotal(Order order)
+```
+
+because the important facts may be hidden behind the provider:
+
+```text
+Order
++ tax rate currently returned by provider
++ provider state
++ cache state
++ transaction state
++ freshness policy
+-> Money
+```
+
+That may be exactly right for application-service code. When the important part is the pricing rule, this version makes the fact visible:
+
+```csharp
+public static Money CalculateTotal(Order order, TaxRate taxRate)
+```
+
+The shell observes facts through dependencies. The core decides with facts. That is the distinction.
+
+## Current value is still a contract
+
+Sometimes the writer of the value is irrelevant. If I call a repository, I may simply want the current persisted data. If I call an API client, I may simply want the API response. If I call a configuration provider, I may simply want the current configuration. That is fine. Hiding those details is often the point of the abstraction.
+
+"Current value" is still a contract. It means the result may change between calls even when the explicit arguments stay the same. That may be fine for display code. It may be wrong for billing, auditing, replay, cache keys, signatures, policy comparison, deterministic tests, historical reports, or security decisions.
+
+Load-bearing hidden dataflow creates the risk.
+
+## Read the world at the edge; decide with values
+
+A lot of effect management comes down to choosing where to perform effects.
+
+Reading configuration is situated. Using configuration can be pure.
+
+```csharp
+var config = LoadConfiguration();
+var delay = RetryPolicy.CalculateDelay(attempt, config.Backoff);
+```
+
+Checking the clock is situated. Deciding with a timestamp can be pure.
+
+```csharp
+var now = _clock.UtcNow;
+var expired = SubscriptionPolicy.IsExpired(subscription, now);
+```
+
+Calling a tax service is situated. Applying a tax rate can be pure.
+
+```csharp
+var taxRate = _taxService.GetRate(order.Address);
+var total = CalculateTotal(order, taxRate, discount);
+```
+
+Reading a template file is situated. Rendering with a template can be pure.
+
+```csharp
+var template = File.ReadAllText("Templates/Invoice.html");
+var html = RenderInvoice(order, template, culture, issuedAt);
+```
+
+The effects remain. They moved to a boundary.
+
+A useful rule of thumb is:
+
+```text
+Read the world at the edge.
+Decide with values.
+Write the world at the edge.
+```
+
+This tradeoff matters. Passing `now`, `culture`, `taxRate`, `discount`, `template`, and `config` everywhere can become noise. When a decision needs to be replayed, cached, tested, audited, compared, batched, simulated, or handed to another abstraction, making the facts explicit often pays for itself.
+
+## What kind of function can I hand over?
+
+Higher-order functions are where this becomes impossible to ignore. Most programmers say "sorting," "filtering," "caching," or "parallel query." Either way, they pass comparers, predicates, selectors, factories, and accumulators.
 
 The important part is that another piece of code now controls the call.
 
-| API shape | Function handed over | What the abstraction controls |
-| --- | --- | --- |
-| `Sort(comparer)` | comparer | comparison count and order |
-| `Where(predicate)` | predicate | evaluation timing and count |
-| `Select(selector)` | projection | evaluation timing and count |
-| `GetOrAdd(valueFactory)` | value factory | whether or how often to compute |
-| `AsParallel().Select(...)` | projection | thread, order, and concurrency |
-| `Aggregate(...)` | accumulator | grouping, partitioning, and order |
+| API shape                  | Function handed over | What the abstraction controls     |
+| -------------------------- | -------------------- | --------------------------------- |
+| `Sort(comparer)`           | comparer             | comparison count and order        |
+| `Where(predicate)`         | predicate            | evaluation timing and count       |
+| `Select(selector)`         | projection           | evaluation timing and count       |
+| `GetOrAdd(valueFactory)`   | value factory        | whether or how often to compute   |
+| `AsParallel().Select(...)` | projection           | thread, order, and concurrency    |
+| `Aggregate(...)`           | accumulator          | grouping, partitioning, and order |
 
-Most programmers call these sorting, filtering, caching, mapping, reducing, and looping. The shape is the same: I give behavior to another piece of code, and that piece of code decides how to invoke it.
+A pure callback can usually tolerate that loss of control. An effectful callback can still be correct, with the abstraction's call strategy becoming part of the program's behavior.
 
-Consider a value-like function:
+Consider a pure function:
 
 ```csharp
 public static Money CalculateTotal(
@@ -137,7 +320,7 @@ var retried = Retry(() =>
 
 Those contexts can call it in their own way without turning their call strategy into business behavior.
 
-Now compare an interaction-like version:
+Now compare an effectful version:
 
 ```csharp
 public Money CalculateTotal(Order order)
@@ -154,9 +337,74 @@ This may be valid service code. It is just less freely movable. If `Select` is l
 
 The function can still be used. Now I care how the context applies it.
 
+## Number, timing, and order
+
+Pure functions make the number, timing, and order of calls less important. Effects make them part of the contract.
+
+For a pure function, calling it twice usually changes performance more than program meaning. Calling it now or later usually produces the same result. Reordering it with another pure function is usually harmless, aside from cost or deterministic failure.
+
+For an effectful function, those details may be the whole point. Calling it twice may send two emails. Calling it later may read a different clock or database state. Reordering it may change persisted state.
+
+Retry logic makes this concrete. Real retry code needs backoff, cancellation, and exception filtering. This example only illustrates repetition.
+
+```csharp
+var total = Retry(
+    () => CalculateTotal(order, taxRate, discount),
+    attempts: 3);
+
+var receipt = Retry(
+    () => ChargeCard(payment),
+    attempts: 3);
+```
+
+Both calls fit behind a `Func<T>`. The type leaves open the important question:
+
+```text
+Is this operation safe to repeat?
+```
+
+If `CalculateTotal` is a pure calculation, repeating it sends no extra email, writes no extra row, publishes no extra event, and leaves caller-owned state alone. Retrying may still be useless if the failure is deterministic. Purity has limits: it leaves a calculation just as partial, expensive, or fallible as before. The repeat itself duplicates no external effect.
+
+`ChargeCard` is different. It may call a payment processor, reserve funds, write a ledger entry, send a receipt, or publish an event. Repeat it and you may charge twice.
+
+`ChargeCard` can still be a good boundary. The caller just needs a different contract. A payment operation can be safe to retry when it uses an idempotency key and the receiving system honors it. Here I am using idempotency in the distributed-systems sense: repeating the same logical request produces the same intended external state.
+
+That is a useful contract. It gives an effectful call one pure-like property: repetition becomes safer. Callers need some contract before they delegate or transform the call.
+
+## The purity version of function color
+
+Bob Nystrom's ["What Color is Your Function?"](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/) is about async. The useful shape is broader: a property of a function can stop being a local implementation detail and start affecting composition.
+
+In his article, async affects how a function can be called. Here, effects affect what another abstraction is allowed to do with the function.
+
+```text
+Async changes call mechanics.
+Effects change call assumptions.
+```
+
+A pure function can be applied more freely. An effectful function can still be correct when another contract makes the abstraction's call strategy safe.
+
+From the caller's point of view, the propagation rule is:
+
+```text
+pure + pure = pure
+pure + effectful = effectful
+```
+
+Or in the vocabulary of this post:
+
+```text
+value-like + value-like = value-like
+value-like + situated = situated
+```
+
+A calculation can call another calculation and remain value-like. Once it reads the clock, calls a service, writes telemetry, mutates shared state, or invokes an effectful callback, the composed method is now situated.
+
+That makes a different promise.
+
 ## Everyday places this already happens
 
-Sorting is the oldest everyday example:
+Sorting is one of the oldest everyday examples:
 
 ```csharp
 customers.Sort((left, right) =>
@@ -164,6 +412,8 @@ customers.Sort((left, right) =>
 ```
 
 The comparison needs to give consistent answers for the same inputs. If it reads the clock, consults mutable global state, or changes shared state that later comparisons depend on, sorting becomes harder to reason about because algorithm details become observable.
+
+For example:
 
 ```csharp
 customers.Sort((left, right) =>
@@ -187,7 +437,7 @@ var matching = orders.Where(order =>
 
 The predicate may run later than the line that creates `matching`. It may run again if the sequence is enumerated twice. A later operator may short-circuit before every order is checked.
 
-Cache factories are an especially good .NET example. `ConcurrentDictionary<TKey, TValue>.GetOrAdd` may call its value factory more than once under concurrency, even though only one value is stored:
+Cache factories are another good example. `ConcurrentDictionary<TKey, TValue>.GetOrAdd` may call its value factory more than once under concurrency, even though only one value is stored:
 
 ```csharp
 var summary = cache.GetOrAdd(id, key =>
@@ -213,83 +463,19 @@ var totals = orders.AsParallel()
 
 If the selector is pure, parallelism is mostly a scheduling and performance question. If the selector writes shared state, calls non-thread-safe APIs, or depends on result order, parallelism becomes a correctness question.
 
-Reducers follow the same pattern. Once an abstraction partitions or combines work, the accumulator may need additional contracts such as statelessness, an identity value, and associativity.
-
-## The purity version of function color
-
-Bob Nystrom's ["What Color is Your Function?"](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/) is about async, but the useful shape is broader: a property of a function can stop being a local implementation detail and start affecting composition.
-
-In his article, async affects how a function can be called. Here, effects affect what another abstraction is allowed to do with the function.
+Reducers follow the same pattern. Once an abstraction partitions or combines work, the accumulator may need additional contracts such as statelessness, an identity value, and associativity. This shows the broader rule:
 
 ```text
-Async changes call mechanics.
-Effects change call assumptions.
+when I hand a function to an abstraction, the function's contract determines which call strategies are legal
 ```
 
-A pure function can be applied more freely. An effectful function can still be correct, but the abstraction's call strategy becomes part of the behavior unless another contract makes that strategy safe.
+## Local mutation can stay local
 
-## Hidden inputs become setup
+Purity is about observable behavior more than implementation style. A pure implementation can use local mutation, structural sharing, memoization, pooling, or other optimizations as long as hidden inputs and externally visible effects stay outside the caller's view.
 
-Effects are not only writes. Hidden reads can also make a call depend on setup outside the visible arguments.
+Performance is still a real design constraint. Computation still has a cost.
 
-```csharp
-string FormatAmount(decimal amount)
-{
-    return string.Format("{0:C}", amount);
-}
-```
-
-This looks like:
-
-```text
-decimal -> string
-```
-
-but if it uses `CurrentCulture`, the real shape is closer to:
-
-```text
-decimal + current culture -> string
-```
-
-The hidden input does not disappear. It becomes setup: before calling `FormatAmount`, make sure the ambient culture is correct.
-
-The same pattern appears with time:
-
-```csharp
-bool IsExpired(Subscription subscription)
-{
-    return subscription.ExpiresAt < DateTimeOffset.UtcNow;
-}
-```
-
-The caller can still use this correctly by freezing the clock, injecting a clock service, or running under a known time boundary. But if the input becomes explicit:
-
-```csharp
-bool IsExpired(Subscription subscription, DateTimeOffset now)
-{
-    return subscription.ExpiresAt < now;
-}
-```
-
-then the call no longer needs ambient setup to say what facts it is deciding over.
-
-Making an input explicit does not remove complexity. It moves the complexity to the call boundary, where composition can see it:
-
-```csharp
-string FormatAmount(decimal amount, IFormatProvider culture)
-bool IsExpired(Subscription subscription, DateTimeOffset now)
-Money CalculateTotal(Order order, TaxRate taxRate, Discount discount)
-```
-
-Hidden inputs are useful when the method's job is to interact with the environment. They become expensive when the caller wants repeatability, replay, comparison, caching, or composition. In those cases, making the input explicit moves setup to the call boundary, where the composition can see it.
-
-## Mutation and local effects
-
-Purity is about observable behavior, not implementation style.
-
-Purity is also not about copying everything or recomputing forever. A pure implementation can use local mutation, structural sharing, memoization, pooling, or other optimizations as long as the caller cannot observe hidden inputs or externally visible effects. Performance is still a real design constraint; purity does not make computation free.
-
-Local mutation can be compatible with purity if it does not escape:
+Local mutation can be compatible with purity when it stays local:
 
 ```csharp
 public static ImmutableList<Item> AddItem(
@@ -302,7 +488,7 @@ public static ImmutableList<Item> AddItem(
 }
 ```
 
-The function mutates `builder`, but that mutation is local and the returned result is immutable. Assuming `Item` is itself treated as an immutable value, the caller cannot observe the intermediate mutation.
+The function mutates `builder`. That mutation is local, and the returned result is immutable. Assuming `Item` is itself treated as an immutable value, the intermediate mutation stays hidden from the caller.
 
 This is different:
 
@@ -315,38 +501,35 @@ public static void AddItem(List<Item> items, Item item)
 
 That mutates caller-owned state. The relevant question is whether the caller can observe the mutation and must account for it.
 
-## Boundaries and restraint
+## Functional core / imperative shell
 
-Functional core / imperative shell is one way to keep the functions I hand over value-like. It is a practical way to apply the thesis, not the thesis itself.
+Functional core / imperative shell is one practical response to the thesis.
 
-The shell is where I keep control of interaction-like calls. The core is where I keep value-like functions that can be reused, tested, batched, cached, retried, simulated, or passed to other abstractions with fewer surprises.
+The shell is situated. It reads files, talks to databases, checks the clock, calls services, handles retries, writes logs, and sends messages. The core is value-like. It receives values and returns values: prices, decisions, validation results, state transitions, schedules, and plans.
 
-The shell interacts with the world. It reads the database, checks the clock, calls services, and writes results. The core receives values and returns values.
+The whole program is still effectful. The important decisions no longer depend on invisible state protocols through the middle of the program.
 
-```text
-CheckoutService:
-    get tax rate
-    get discount
-    call CheckoutMath.CalculateTotal
+Objects, dependency injection, repositories, and ambient context all still have a place. A repository is supposed to know about a database. An HTTP client is supposed to know about the network. A controller is supposed to orchestrate a request. A job handler is supposed to sequence effects. Those calls are situated by design.
 
-CheckoutMath.CalculateTotal:
-    Order + TaxRate + Discount -> Money
-```
+The risk appears when situated behavior is buried inside code that callers want to treat as value-like: pricing rules, validation, authorization, scheduling, formatting, policy decisions, state transitions, and calculations.
 
-Gary Bernhardt popularized the phrase ["functional core, imperative shell"](https://www.destroyallsoftware.com/talks/boundaries). It works here because it turns environment into data and hidden setup into visible input.
+A rule of thumb:
 
 ```text
-Use dependency injection at interaction boundaries.
-Use explicit values in calculation-heavy code.
+Use dependency injection for services that observe or change the world.
+Use explicit values for facts that important decisions decide with.
 ```
 
-Constructor injection is appropriate for application services, repositories, adapters, clients, and orchestration code. Explicit method parameters are often better for domain policy, pricing, validation, authorization, scheduling, retry rules, and other code where the main job is to decide.
+Or more compactly:
 
-Effects belong where callers expect interaction with the world. Repositories should talk to databases. Controllers should orchestrate. Job handlers should sequence effects. Migration scripts should update state. In code like that, a procedural style is often the most honest representation of the work.
+```text
+The shell observes facts.
+The core decides with facts.
+```
 
-There is a tradeoff. Making behavior visible can make code more verbose. Passing `now`, `culture`, `taxRate`, or `discount` explicitly can be overkill. Expose the dependencies that materially affect correctness, repeatability, reuse, or caller obligations.
+## Restraint
 
-There is also a bad version of this idea:
+The bad version of this idea is easy to write:
 
 ```csharp
 var a = Step1(input);
@@ -355,10 +538,14 @@ var c = Step3(b);
 var d = Step4(c);
 ```
 
-The pipeline shape can be fine. Passing the output of one pure function into the next is exactly how composition is supposed to work. Names like `CalculateTotal`, `DecideRenewal`, `ValidatePolicy`, and `PlanShipment` create useful boundaries. `Step1` through `Step4` usually tell the reader nothing.
+Purity alone cannot rescue that code. A pure function should still earn its name. `CalculateTotal`, `DecideRenewal`, `ValidatePolicy`, and `PlanShipment` are useful boundaries. `Step1` through `Step4` usually are filler.
 
-Pure and effectful methods make different promises. A pure method is value-like. It is easier to hand to another piece of code because the number, timing, and order of calls matter less. An effectful method is interaction-like. It can still be the right design, but it needs a different contract: the effect should be obvious, explicit, isolated, or made safe by something like idempotency, transactionality, or synchronization.
+There is also a tradeoff. Making behavior visible can make code more verbose. Passing `now`, `culture`, `taxRate`, `discount`, or `template` explicitly can be overkill.
 
-The point is not to make every function pure. The point is to know what kind of function I am handing over.
+Expose the facts that materially affect correctness, repeatability, replay, caching, auditing, reuse, or caller obligations. Keep ordinary imperative code when it is clear. Avoid method-by-method annotation, parameterizing every dependency, or turning straightforward code into function confetti.
 
-Side effects belong in real programs. The useful discipline is knowing when a call is a calculation and when it is an interaction before the difference becomes a bug.
+Effects belong in real programs. They belong in the parts of the program where callers expect interaction with the world.
+
+The point is to keep important decisions from depending on load-bearing invisible dataflow.
+
+The goal is to keep invisible state protocols out of code that should have been a calculation.
