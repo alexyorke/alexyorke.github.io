@@ -1,15 +1,11 @@
-The current draft repeats its thesis across several sections and delays the most important distinction: **returning an `IO<T>` from deep code is fine; executing it there is what gives up control**. The edge is valuable because it is the last point at which an effect is still a value that can be wrapped with retry, timeout, cancellation, throttling, transactions, or instrumentation before it touches the world. 
-
-I would also retitle it as the third entry in the series and use the original title question as part of the argument.
-
-# Rewritten article
-
 ---
-
 title: "Monads in C# (Part 3): IO"
 date: 2026-06-13
 description: "IO separates describing an effect from running it, so the right part of the program can own the calling strategy."
---------------------------------------------------------------------------------------------------------------------------------
+permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
+redirect_from:
+  - /2026/06/13/what-kind-of-function-can-i-hand-over/
+---
 
 **Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
@@ -98,7 +94,7 @@ But the important distinction remains. In the loop, we wrote the invocation dire
 
 That transfer of control is normally useful. It is one of the reasons higher-order functions compose so well.
 
-It is also why the function’s contract matters.
+It is also why the function's contract matters.
 
 ## Sorting makes the handoff obvious
 
@@ -188,7 +184,7 @@ A pure function can be understood as a mapping from explicit inputs to an output
 Input -> Output
 ```
 
-For this article, a function is pure enough when replacing a call with its result would not change the program’s observable behavior.
+For this article, a function is pure enough when replacing a call with its result would not change the program's observable behavior.
 
 ```csharp
 public static Money CalculateTotal(
@@ -269,7 +265,7 @@ CustomerId + World1
 
 The `CustomerId` is the same. The world is not.
 
-Calling an effect is therefore not merely evaluating a formula. It is observing—and often changing—the world at a particular point in time.
+Calling an effect is therefore not merely evaluating a formula. It is observing - and often changing - the world at a particular point in time.
 
 ## Effects propagate through composition
 
@@ -436,7 +432,7 @@ CustomerId -> IO<CreditLimit>
 
 Calling `GetLimit(id)` constructs a value describing an effect. It does not yet contact the service.
 
-This is the same distinction used by Haskell’s `IO`: actions can be defined and composed without being invoked immediately, and the `IO` operations provide sequential composition of those actions. ([Haskell][3])
+This is the same distinction used by Haskell's `IO`: actions can be defined and composed without being invoked immediately, and the `IO` operations provide sequential composition of those actions. ([Haskell][3])
 
 Because the effect has not happened yet, the caller can still transform its calling strategy.
 
@@ -479,7 +475,7 @@ It makes the **description** of the operation an ordinary value.
 
 ## Why executing at the edge matters
 
-This gives us a sharper meaning for “move effects to the edge.”
+This gives us a sharper meaning for "move effects to the edge."
 
 It does **not** mean every function that mentions `IO<T>` must live in `Main`, a controller, or a single application-service method.
 
