@@ -1,42 +1,194 @@
+The current draft repeats its thesis across several sections and delays the most important distinction: **returning an `IO<T>` from deep code is fine; executing it there is what gives up control**. The edge is valuable because it is the last point at which an effect is still a value that can be wrapped with retry, timeout, cancellation, throttling, transactions, or instrumentation before it touches the world. 
+
+I would also retitle it as the third entry in the series and use the original title question as part of the argument.
+
+# Rewritten article
+
 ---
-title: "What Kind of Function Can I Hand Over?"
+
+title: "Monads in C# (Part 3): IO"
 date: 2026-06-13
-description: "Effectful functions depend on hidden world-state. That is why they are easier to reason about at the edge."
----
+description: "IO separates describing an effect from running it, so the right part of the program can own the calling strategy."
+--------------------------------------------------------------------------------------------------------------------------------
 
-**Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/), [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
+**Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
-In the first two parts, the focus was on `List<T>`, `Maybe<T>`, and `Result<TSuccess, TError>`.
+In the previous parts, we looked at `List<T>`, `Maybe<T>`, and `Result<TSuccess, TError>`. These types do more than hold values. Through operations such as `Map`, `Bind`, and `SelectMany`, they also decide how the next function is applied.
 
-Those types are interesting because they do more than hold values. They also decide how the next function is called.
+With `List<T>`, the function is applied to each element. With `Maybe<T>`, it may not be applied at all. With `Result<TSuccess, TError>`, it is only applied if the previous step succeeded.
 
-With `List<T>`, the next function may run once per element. With `Maybe<T>`, it may not run at all. With `Result<TSuccess, TError>`, it may only run if the previous step succeeded.
+That works because we provide the next function and allow the surrounding type to control part of the call strategy.
 
-So when we call `Map`, `Bind`, or `SelectMany`, we are handing a function to another piece of code and letting it decide part of the execution.
+This raises a question:
 
-That raises the question in this article's title:
+> What kind of function can I safely hand over?
 
-> What kind of function can I hand over?
+The answer changes when the function is **effectful**.
 
-The answer depends less on the delegate type and more on what the function needs in order to run correctly.
+In this article, an effectful function is one that observes or changes something outside its explicit arguments and return value. Reading a file, querying a database, calling an HTTP service, observing the current time, writing a log entry, and mutating shared state are all effects in this sense.
 
-Some functions only need their explicit arguments. Other functions also need the current time, a database row, a file, a feature flag, a cache entry, a transaction, a network response, a mutable field, or some other part of the outside world.
+Effects are necessary. A program that never observes or changes the outside world cannot do very much. The question is not how to eliminate effects. It is how to compose them without losing control over when the world is touched.
 
-That difference is the rationale behind functional core / imperative shell.
+That is what `IO` helps us do.
 
-Programs need to read files, call services, write rows, send messages, and observe time. The reason to push effects toward the edge is simpler: effectful functions depend on surrounding context that is not visible in the function's ordinary input list. The deeper those functions live inside a program, the more of that hidden context the caller has to reconstruct.
+## Direct calls and handed-over calls
 
-A pure function is easy to hand over because it carries less hidden context with it.
+In ordinary direct-style code, the programmer usually owns the calling strategy.
 
-An effectful function can still be handed over, but now the receiver must respect more rules.
+```csharp
+var template = File.ReadAllText(path);
+var html = RenderInvoice(order, template, culture, issuedAt);
 
-## Two shapes of function
+_emailGateway.Send(html);
+```
 
-For this article, a pure function is one where the call can be replaced by a lookup from explicit inputs to return values without changing the program's observable behavior.
+The order is visible. The file is read before the invoice is rendered. The invoice is rendered before the email is sent.
 
-This is a practical, code-review definition.
+If the file read requires retry logic, it can be placed around that read. If the email needs an idempotency key, the caller can attach one. If a transaction must commit before a message is published, the caller can make that sequence explicit.
 
-This function has everything it needs in the parameter list:
+The programmer is saying:
+
+```text
+Do this.
+Then do this.
+Then do this.
+```
+
+A callback changes that relationship. Instead of invoking the function directly, we give it to something else.
+
+Consider a `foreach` loop over an in-memory collection:
+
+```csharp
+var totals = new List<Money>();
+
+foreach (var order in orders)
+{
+    totals.Add(CalculateTotal(order));
+}
+
+PublishPricingCompletedEvent();
+```
+
+The call to `CalculateTotal` appears exactly where it runs. Assuming the loop completes, all totals have been calculated before the event is published.
+
+Now compare that with `Select`:
+
+```csharp
+var totals = orders.Select(order =>
+    CalculateTotal(order));
+
+PublishPricingCompletedEvent();
+```
+
+`Enumerable.Select` uses deferred execution. The assignment creates an enumerable that remembers the source and selector, but the selector does not run until the result is enumerated. ([Microsoft Learn][1])
+
+At the point where the event is published, no totals may have been calculated.
+
+We can force evaluation:
+
+```csharp
+var totals = orders
+    .Select(order => CalculateTotal(order))
+    .ToList();
+
+PublishPricingCompletedEvent();
+```
+
+But the important distinction remains. In the loop, we wrote the invocation directly. With `Select`, we described a transformation and handed its invocation to another abstraction.
+
+That transfer of control is normally useful. It is one of the reasons higher-order functions compose so well.
+
+It is also why the function’s contract matters.
+
+## Sorting makes the handoff obvious
+
+Sorting is an even clearer example because the algorithm, not the programmer, decides which calls to make.
+
+```csharp
+customers.Sort((left, right) =>
+    string.Compare(
+        left.LastName,
+        right.LastName,
+        StringComparison.Ordinal));
+```
+
+The programmer supplies a comparison function. The sorting algorithm chooses which elements to compare, in what order, and how many comparisons are needed.
+
+That is fine when the comparer answers a value question:
+
+```text
+Does left come before, after, or at the same position as right?
+```
+
+Now consider an effectful comparer:
+
+```csharp
+customers.Sort((left, right) =>
+{
+    _audit.Record($"Compared {left.Id} and {right.Id}");
+
+    var leftScore = _riskService.GetScore(left.Id);
+    var rightScore = _riskService.GetScore(right.Id);
+
+    return leftScore.CompareTo(rightScore);
+});
+```
+
+This compiles. It may even appear to work.
+
+But the sorting algorithm now controls more than sorting. It also controls:
+
+```text
+how many audit records are written
+which pairs are audited
+how many service calls are made
+whether the same customer is scored repeatedly
+the order and frequency of those calls
+```
+
+Those are effect policies, not comparison policies.
+
+`List<T>.Sort` accepts a comparison delegate and uses an unstable sorting algorithm; equal elements are not guaranteed to retain their original order. More generally, the comparison schedule belongs to the sorting implementation rather than the caller. ([Microsoft Learn][2])
+
+The better design is usually to separate observation from comparison.
+
+First, obtain the scores under an explicit calling strategy:
+
+```csharp
+var scoredCustomers = new List<ScoredCustomer>();
+
+foreach (var customer in customers)
+{
+    var score = RetryThrottled(() =>
+        _riskService.GetScore(customer.Id));
+
+    scoredCustomers.Add(
+        new ScoredCustomer(customer, score));
+}
+```
+
+Then sort ordinary values:
+
+```csharp
+scoredCustomers.Sort((left, right) =>
+    left.Score.CompareTo(right.Score));
+```
+
+The service calls can now be retried, throttled, cancelled, cached, or instrumented in a visible phase. The comparer returns to being a comparer.
+
+The lesson is not that sorting is unusually dangerous. It is that whenever another API calls our function, that API owns some part of the calling strategy.
+
+## The hidden input
+
+Why do effectful callbacks care so much about their calling strategy?
+
+A pure function can be understood as a mapping from explicit inputs to an output:
+
+```text
+Input -> Output
+```
+
+For this article, a function is pure enough when replacing a call with its result would not change the program’s observable behavior.
 
 ```csharp
 public static Money CalculateTotal(
@@ -50,411 +202,528 @@ public static Money CalculateTotal(
 }
 ```
 
-Give it the same `Order`, `TaxRate`, and `Discount`, and it returns the same `Money`. It does not read from the clock, check a feature flag, query a repository, mutate shared state, send an email, or write an audit row.
+The calculation receives everything it needs as values. The same `Order`, `TaxRate`, and `Discount` produce the same `Money`.
 
-It has this shape:
-
-```text
-Input -> Output
-```
-
-An effectful function has a different shape. It may still have ordinary parameters, but it also reads from or writes to something outside those parameters.
+An effectful function has a larger real input:
 
 ```csharp
 public Money CalculateTotal(Order order)
 {
-    var taxRate = _taxService.GetRate(order.ShippingAddress);
-
-    _audit.Record($"Calculated total for {order.Id}");
+    var taxRate =
+        _taxService.GetRate(order.ShippingAddress);
 
     return order.Subtotal.ApplyTax(taxRate);
 }
 ```
 
-The signature looks like this:
+The signature suggests:
 
 ```text
 Order -> Money
 ```
 
-But the behavior is closer to this:
+The behavior is closer to:
 
 ```text
 Order + World -> Money + World'
 ```
 
-The word `World` is just a model. It stands for whatever surrounding state the function observes or changes: current time, current configuration, database contents, remote service behavior, cache state, log state, thread scheduling, transaction state, and so on.
+`World` is only a model. It represents whatever surrounding state the function may observe:
 
-You do not literally pass a `World` object in ordinary C#.
+```text
+current time
+service availability
+network state
+authentication state
+rate limits
+database contents
+configuration
+cache contents
+transaction state
+shared mutable state
+```
 
-The point is that effectful functions have hidden inputs and sometimes hidden outputs. They read facts that are not in the parameter list, and they may change facts that later code can observe.
+`World'` represents the world after the call. The operation may have consumed quota, written telemetry, populated a cache, changed a database, or affected an external system.
 
-That is what I mean by an effect.
+We do not literally pass one giant `World` object. The point is that the explicit argument list does not describe the entire input or output.
 
-Here, an effect means that running the function depends on, or changes, something outside the explicit arguments and return value.
-
-## Hidden inputs are still inputs
-
-Suppose this calculation depends on the current tax rate.
+Two calls can therefore have the same visible input but different real inputs:
 
 ```csharp
-public Money CalculateTotal(Order order)
-{
-    var taxRate = _taxService.GetRate(order.ShippingAddress);
+var first =
+    _creditService.GetLimit(customer.Id);
 
+var second =
+    _creditService.GetLimit(customer.Id);
+```
+
+Conceptually:
+
+```text
+CustomerId + World0
+    -> Timeout + World1
+
+CustomerId + World1
+    -> CreditLimit + World2
+```
+
+The `CustomerId` is the same. The world is not.
+
+Calling an effect is therefore not merely evaluating a formula. It is observing—and often changing—the world at a particular point in time.
+
+## Effects propagate through composition
+
+Suppose `CalculateTotal` itself is pure:
+
+```csharp
+public static Money CalculateTotal(
+    Order order,
+    TaxRate taxRate)
+{
     return order.Subtotal.ApplyTax(taxRate);
 }
 ```
 
-Dependency injection may make `_taxService` visible at the object boundary:
+This wrapper is still effectful:
 
 ```csharp
-public PricingService(ITaxService taxService)
-```
-
-That is useful. It tells us where the service may get tax information.
-
-But it does not tell us which tax rate was used for this call.
-
-The dependency is the source. The fact is the value that came back.
-
-Those are different things.
-
-If the pricing rule is the important part, this version has a clearer boundary:
-
-```csharp
-public static Money CalculateTotal(Order order, TaxRate taxRate)
+public Money CalculateTotalForCheckout(
+    Order order)
 {
-    return order.Subtotal.ApplyTax(taxRate);
+    var taxRate =
+        _taxService.GetRate(order.ShippingAddress);
+
+    return CalculateTotal(order, taxRate);
 }
 ```
 
-The application can still observe the world:
+The pure calculation does not remove the service call. The combined operation still depends on the world.
+
+The same applies in the other direction:
 
 ```csharp
-var taxRate = _taxService.GetRate(order.ShippingAddress);
-var total = Pricing.CalculateTotal(order, taxRate);
+var receipt = RenderReceipt(order, total);
+
+_emailGateway.Send(receipt);
 ```
 
-The effect has not disappeared. The tax service still exists. The program still needs a boundary where it asks the outside world for a tax rate.
+`RenderReceipt` may be pure. The whole workflow is effectful because it sends an email.
 
-But the decision now receives an ordinary value.
-
-That distinction matters because "whatever the provider returns now" is a different contract from "calculate using this observed tax rate."
-
-The first contract depends on call time, provider state, cache freshness, network behavior, and possibly transaction state. The second contract depends on a value already in hand.
-
-This is why passing `IClock` into a policy is different from passing `Instant now`.
-
-```csharp
-var now = _clock.UtcNow;
-var expired = SubscriptionPolicy.IsExpired(subscription, now);
-```
-
-The shell observes time. The policy receives a fact.
-
-Likewise:
-
-```csharp
-var config = LoadConfiguration();
-var delay = RetryPolicy.CalculateDelay(attempt, config.Backoff);
-```
-
-The shell reads configuration. The policy receives values.
-
-This tradeoff is not always worth making. Passing every observed value through every layer can make code noisy. Sometimes "ask the provider at the point of use" is the right contract.
-
-But when a decision needs to be tested, replayed, audited, cached, compared, simulated, batched, or handed to another function, the observed facts usually deserve to be explicit.
-
-## Effects make ordering part of the contract
-
-A hidden input is already enough to make a function more situated. A hidden output makes the problem sharper.
-
-Two effectful steps can depend on each other without passing an ordinary value.
-
-One method writes a row. Another method reads it later. One method reloads configuration. Another method uses whatever configuration is current. One method opens a transaction. Another method assumes it is running inside that transaction. One method publishes an event. Another method assumes the database commit has already happened.
-
-There is real dataflow, but it is not visible in the function signature.
-
-For example:
-
-```csharp
-public sealed class PricingService
-{
-    private readonly PricingConfig _config;
-
-    public void ReloadPricingConfig()
-    {
-        _config.ReloadFromDisk();
-    }
-
-    public Money CalculateTotal(Order order)
-    {
-        return order.Subtotal
-            .ApplyDiscount(_config.CurrentDiscount)
-            .ApplyTax(_config.CurrentTaxRate);
-    }
-}
-```
-
-The call site says:
-
-```csharp
-pricing.CalculateTotal(order);
-```
-
-But the real behavior depends on more than `order`.
-
-Was the configuration loaded? Which version was loaded? Could another thread reload it during this call? What happens if reload fails halfway? Is the discount supposed to come from the same snapshot as the tax rate?
-
-None of those questions are exotic. They are ordinary questions in ordinary programs.
-
-The issue is that the function's apparent shape is smaller than its real shape.
-
-When effectful operations are buried deep inside a codebase, the programmer has to remember the invisible preconditions around them:
+In general:
 
 ```text
-configuration must already be loaded
-this must run inside a transaction
-this must not run twice
-this must run after validation
-this must run before publishing the event
-this must observe the same snapshot as the previous read
-this must not run in parallel
+pure + pure       -> pure
+pure + effectful  -> effectful
+effectful + pure  -> effectful
 ```
 
-Those requirements may be correct, but they restrict where the function can be called.
+The reason is simple: the larger operation still observes or changes something outside its explicit values. A pure step cannot erase an effect introduced elsewhere in the composition.
 
-They also restrict who can safely call it.
+This is why effects tend to spread outward through a call graph. If a low-level helper reads the clock, every operation that depends on that helper becomes time-sensitive. If a policy queries a repository, every caller of that policy now depends on database availability. If a formatter reads mutable configuration, every caller becomes configuration-sensitive.
 
-A value-like function is easier to move because the caller only has to supply values. An effectful function may require the caller to arrange a piece of the world first.
+That does not make the code invalid. It means the larger operation now needs an effect-aware calling strategy.
 
-## Effects propagate
+## What the calling strategy includes
 
-Effects also propagate through composition.
-
-If a function calls an effectful function, the combined function is effectful too.
+For a pure function, calling it twice usually changes cost more than meaning.
 
 ```csharp
-public Money CalculateTotalForCheckout(Order order)
-{
-    var taxRate = _taxService.GetRate(order.ShippingAddress);
+var first = CalculateTotal(
+    order,
+    taxRate,
+    discount);
 
-    return Pricing.CalculateTotal(order, taxRate);
+var second = CalculateTotal(
+    order,
+    taxRate,
+    discount);
+```
+
+The second call may waste CPU, but it does not consume another rate-limit slot, send another email, write another row, or observe another clock time.
+
+For an effectful function, the act of calling is part of the meaning.
+
+The caller may need to know:
+
+```text
+when the operation runs
+whether it runs at all
+how many times it runs
+how quickly calls are made
+whether calls may overlap
+which transaction is active
+which token is used
+whether repetition is safe
+which failures should be retried
+what happened before a failure
+```
+
+A generic function type rarely contains that information:
+
+```csharp
+Func<CustomerId, CreditLimit>
+```
+
+The type says nothing about rate limits, timeouts, retries, cancellation, idempotency, or transactions.
+
+That does not prevent the function from being called. It means the ordinary function type describes less than the real operational contract.
+
+## Why immediate effects are awkward to compose
+
+Consider an ordinary effectful helper:
+
+```csharp
+public CreditLimit GetLimit(CustomerId id)
+{
+    return _creditService.GetLimit(id);
 }
 ```
 
-`Pricing.CalculateTotal` may be pure. The wrapper is effectful too because it reads from `_taxService`.
+The effect happens as soon as `GetLimit` is invoked.
 
-The same is true in the other direction:
-
-```csharp
-var message = RenderReceipt(order, total);
-
-_emailGateway.Send(message);
-```
-
-`RenderReceipt` may be a pure formatter. The workflow is still effectful because it sends an email.
-
-This is simply how effects compose.
-
-The important consequence is that effects tend to move outward through the call graph. Once an operation reads or writes the world, every larger operation that depends on it must account for that fact.
-
-If the effect sits near the edge, that propagation is contained. The boundary code is already responsible for sequencing, retries, transactions, logging, errors, and communication with the outside world.
-
-If the effect sits in the middle of a rule, predicate, formatter, or state transition, then the middle of the program starts to inherit those concerns too.
-
-That is the practical argument for functional core / imperative shell.
-
-The point is more practical than moral: the shell is where world-management already belongs.
-
-## The handoff problem
-
-Now return to the original question: what kind of function can I hand over?
-
-A higher-order API does not just receive a function. It receives permission to call that function according to its own rules.
-
-A collection may call a selector once per element.
+If another function calls it internally:
 
 ```csharp
-var totals = orders.Select(order =>
-    Pricing.CalculateTotal(order, taxRate, discount));
+public Decision Decide(Customer customer)
+{
+    var limit = GetLimit(customer.Id);
+
+    return CreditPolicy.Decide(customer, limit);
+}
 ```
 
-A `Maybe<T>` may skip the function completely.
+then `Decide` is also effectful. More importantly, the service call has already happened before the caller of `Decide` gets control back.
+
+The caller can retry the entire `Decide` operation:
 
 ```csharp
-var total = maybeOrder.Map(order =>
-    Pricing.CalculateTotal(order, taxRate, discount));
+var decision = Retry(() =>
+    Decide(customer));
 ```
 
-A `Result<TSuccess, TError>` may only call the function after success.
+Sometimes that is the correct design. If the entire operation is idempotent, transactional, or safely repeatable, retrying the whole workflow can be simple and robust.
+
+But the caller cannot retroactively put a timeout around only `GetLimit`. It cannot throttle only that service call. It cannot replace only that effect with a test interpreter. It cannot retry the read without also rerunning any earlier work inside `Decide`.
+
+The effect has already been performed.
+
+This is the key limitation of burying immediate IO inside an ordinary function:
+
+> Higher-level code receives the result after the effect, rather than receiving the effect before it happens.
+
+## `IO` separates description from execution
+
+An `IO<T>` type changes that contract.
+
+Instead of performing an effect and returning `T`, a function returns a description of work that may later produce `T`.
+
+Conceptually:
 
 ```csharp
-var total = validatedOrder.Bind(order =>
-    CalculateTotalResult(order, taxRate, discount));
+public IO<CreditLimit> GetLimit(
+    CustomerId id)
+{
+    return IO.Delay(() =>
+        _creditService.GetLimit(id));
+}
 ```
 
-A retry helper may call an operation more than once.
-
-```csharp
-var total = Retry(() =>
-    Pricing.CalculateTotal(order, taxRate, discount));
-```
-
-These are different execution strategies.
-
-A value-like function tolerates many of them. If it runs twice, we spend extra CPU. If it runs later, it still sees the same explicit facts. If it is skipped, no email is lost. If it runs inside a larger composition, it does not quietly change some shared state that the caller forgot about.
-
-An effectful function behaves differently.
-
-```csharp
-var total = Retry(() =>
-    _pricingService.CalculateTotal(order));
-```
-
-That may read a different tax rate on the second attempt. It may write two audit rows. It may depend on whether configuration was reloaded between attempts. It may require a transaction that the retry helper does not know about.
-
-The delegate type does not show any of that.
-
-```csharp
-Func<Money>
-```
-
-Both versions fit behind the same type. But one is much easier to delegate.
-
-This is the real issue with effectful callbacks. The callback may be shaped like a calculation while behaving like a situated operation.
-
-Once another API controls when, whether, how often, or where the function runs, hidden context becomes part of the API contract.
-
-Effectful callbacks are still useful in the right places. Event handlers, message consumers, database transaction blocks, and request handlers are deliberately effectful.
-
-Those APIs should make that contract obvious, because the callback is part of boundary work.
-
-## Why the edge helps
-
-Moving effects to the edge gives the program a place to control the world before handing values inward.
-
-The shell can decide:
+The exact API depends on the library. The important part is the type:
 
 ```text
-when to read
-which transaction to use
-which snapshot to observe
-which idempotency key to attach
-how to retry
-what to log
-what to publish
-how to handle failure
-whether to commit or roll back
+CustomerId -> IO<CreditLimit>
 ```
 
-The core can then decide with values:
+Calling `GetLimit(id)` constructs a value describing an effect. It does not yet contact the service.
+
+This is the same distinction used by Haskell’s `IO`: actions can be defined and composed without being invoked immediately, and the `IO` operations provide sequential composition of those actions. ([Haskell][3])
+
+Because the effect has not happened yet, the caller can still transform its calling strategy.
+
+In pseudocode:
 
 ```csharp
-public static RenewalDecision Decide(
-    Subscription subscription,
-    PaymentStatus paymentStatus,
-    Plan plan,
+IO<CreditLimit> getLimit =
+    GetLimit(customer.Id)
+        .Retry(transientFailures)
+        .Timeout(TimeSpan.FromSeconds(5))
+        .WithCancellation(cancellationToken);
+```
+
+The caller can then compose the resulting value with pure logic:
+
+```csharp
+IO<Decision> program =
+    getLimit.Map(limit =>
+        CreditPolicy.Decide(customer, limit));
+```
+
+Or compose it with another effect:
+
+```csharp
+IO<Unit> program =
+    from limit in getLimit
+    let decision =
+        CreditPolicy.Decide(customer, limit)
+    from _ in SaveDecision(decision)
+    select Unit.Value;
+```
+
+`Map` and `Bind` do not execute these operations. They build a larger description.
+
+That is why `IO` can be a monad even though running an action twice may observe two different worlds. The monad laws concern how effect descriptions compose. They do not claim that the external world remains unchanged between separate executions.
+
+`IO` does not make the eventual operation pure.
+
+It makes the **description** of the operation an ordinary value.
+
+## Why executing at the edge matters
+
+This gives us a sharper meaning for “move effects to the edge.”
+
+It does **not** mean every function that mentions `IO<T>` must live in `Main`, a controller, or a single application-service method.
+
+Functions deep in the program can construct and combine `IO<T>` values:
+
+```csharp
+public IO<Decision> BuildDecisionProgram(
+    Customer customer)
+{
+    return GetLimit(customer.Id)
+        .Map(limit =>
+            CreditPolicy.Decide(customer, limit));
+}
+```
+
+That function can itself be pure. Given the same customer, it constructs the same description of a program.
+
+What belongs at the edge is the operation that interprets or runs the description:
+
+```csharp
+var program =
+    BuildDecisionProgram(customer);
+
+var decision =
+    await program.RunAsync(cancellationToken);
+```
+
+The edge is valuable for one specific reason:
+
+> It is the last point where the effect is still a value and has not yet touched the world.
+
+Before `Run`, higher-level code can still:
+
+```text
+add retry or backoff
+add a timeout
+provide cancellation
+limit concurrency
+attach an idempotency key
+choose a transaction
+add logging or tracing
+replace the interpreter in a test
+decide whether the operation should run at all
+```
+
+After `Run`, the effect has already happened. Those policies cannot be applied retroactively.
+
+This is why calling `Run` inside a helper gives up leverage:
+
+```csharp
+public CreditLimit GetLimit(CustomerId id)
+{
+    return GetLimitIO(id).Run();
+}
+```
+
+The function has converted a composable effect description into an immediate world interaction. Its caller can only wrap the entire helper invocation.
+
+Returning the `IO` preserves control:
+
+```csharp
+public IO<CreditLimit> GetLimit(
+    CustomerId id)
+{
+    return GetLimitIO(id);
+}
+```
+
+Now the caller can decide exactly how that effect should run before composing it with the rest of the program.
+
+The rule is therefore not:
+
+> IO may only appear at the edge.
+
+It is:
+
+> IO may be described and composed anywhere, but it should be interpreted at a boundary that owns the calling strategy.
+
+## `Result` and `IO` solve different problems
+
+`Result<TSuccess, TError>` makes an outcome explicit:
+
+```csharp
+Result<CreditLimit, CreditLimitError>
+```
+
+It answers:
+
+```text
+Did the computation succeed?
+If not, what failure was reported?
+```
+
+`IO<T>` answers a different question:
+
+```text
+Has this world interaction happened yet?
+```
+
+An effectful operation that can fail may therefore have this shape:
+
+```csharp
+IO<Result<CreditLimit, CreditLimitError>>
+```
+
+The outer `IO` says that obtaining the result requires touching the world. The inner `Result` describes the outcome after that interaction occurs.
+
+Returning `Result` without `IO` does not defer the service call:
+
+```csharp
+public Result<CreditLimit, CreditLimitError>
+    GetLimit(CustomerId id)
+{
+    // The effect occurs before this method returns.
+}
+```
+
+By the time the caller receives the `Result`, the world has already been touched.
+
+With `IO<Result<...>>`, the caller can apply an effect policy before execution. For example, it might retry timeouts but not business rejections, refresh an expired token, or stop after a rate-limit response.
+
+`Result` models the outcome.
+
+`IO` preserves control over the act of obtaining it.
+
+## Functional core, imperative shell
+
+This leads directly to functional core / imperative shell.
+
+The shell owns world interaction:
+
+```text
+files
+databases
+HTTP calls
+clocks
+transactions
+retries
+cancellation
+messages
+logging
+```
+
+It observes the world and turns successful observations into ordinary values.
+
+The core decides what follows from those values:
+
+```csharp
+public static CheckoutDecision Decide(
+    Order order,
+    TaxRate taxRate,
+    Discount discount,
+    InventoryStatus inventory,
     Instant now)
 {
-    if (paymentStatus.IsDelinquent)
+    var total = order.Subtotal
+        .ApplyDiscount(discount)
+        .ApplyTax(taxRate);
+
+    if (!inventory.CanFulfill(order.Items))
     {
-        return RenewalDecision.DoNotRenew("Payment is delinquent");
+        return CheckoutDecision.Rejected(
+            "Some items are unavailable");
     }
 
-    if (subscription.ExpiresAt <= now)
+    if (discount.ExpiresAt <= now)
     {
-        return RenewalDecision.Renew(plan.RenewalPrice);
+        return CheckoutDecision.Rejected(
+            "Discount has expired");
     }
 
-    return RenewalDecision.NoActionRequired();
+    return CheckoutDecision.Approved(total);
 }
 ```
 
-The application service remains effectful:
+The shell can build the effectful program:
 
 ```csharp
-public RenewalDecision DecideRenewal(Subscription subscription)
+public IO<CheckoutDecision> DecideCheckout(
+    Order order)
 {
-    var now = _clock.UtcNow;
-    var paymentStatus = _payments.GetStatus(subscription.CustomerId);
-    var plan = _plans.GetPlan(subscription.PlanId);
-
-    return RenewalPolicy.Decide(
-        subscription,
-        paymentStatus,
-        plan,
-        now);
+    return
+        from now in Clock.UtcNow
+        from taxRate in TaxService
+            .GetRate(order.ShippingAddress)
+            .Retry(transientFailures)
+        from discount in Discounts
+            .GetFor(order.CustomerId)
+        from inventory in Inventory
+            .Check(order.Items)
+        select CheckoutPolicy.Decide(
+            order,
+            taxRate,
+            discount,
+            inventory,
+            now);
 }
 ```
 
-The effectful code is still present. The difference is that the important decision can be tested, replayed, compared, cached, explained, or run in a batch without recreating the world that originally produced the facts.
-
-That is the benefit.
-
-The core does not need to know whether `PaymentStatus` came from a database, an HTTP call, a cache, a fixture, a message, or a simulation. It only needs the fact.
-
-The shell owns the question "where did this fact come from?"
-
-The core owns the question "what follows from these facts?"
-
-That separation is the point of functional core / imperative shell.
-
-## Local mutation and observable effects
-
-This argument is about observable effects and caller-visible behavior more than whether the implementation uses assignment.
-
-A function can use local mutation and still behave like a value-like function:
+The program is interpreted at the application boundary:
 
 ```csharp
-public static ImmutableList<Item> AddItem(
-    ImmutableList<Item> items,
-    Item item)
-{
-    var builder = items.ToBuilder();
-    builder.Add(item);
-    return builder.ToImmutable();
-}
+var decisionProgram =
+    DecideCheckout(order);
+
+var decision =
+    await decisionProgram.RunAsync(
+        cancellationToken);
 ```
 
-The builder is mutated, but the mutation is local. The caller observes only the returned value.
+The core does not need to know whether the tax rate came from a database, an HTTP service, a cache, a fixture, or a simulation. It does not need to know that the first request timed out or that a token was refreshed.
 
-This is different:
+It receives facts and calculates a decision.
 
-```csharp
-public static void AddItem(List<Item> items, Item item)
-{
-    items.Add(item);
-}
-```
-
-That mutates caller-owned state. Later code can observe the change, so ordering now matters.
-
-The important question is whether the caller has to account for something outside the explicit arguments and return value.
-
-If yes, the function is carrying context.
+The shell owns the protocol used to obtain those facts.
 
 ## The rule
 
-Effectful functions belong near the edge because the edge is where the program already has to manage the world.
+Higher-order functions let another abstraction call our function on our behalf. That is valuable because it removes repetitive control flow and makes programs easier to compose.
 
-That is where sequencing, retries, transactions, idempotency, logging, failure handling, and communication with external systems are easiest to see.
+Pure callbacks generally tolerate that handoff because the interesting behavior lies in the returned value.
 
-The deeper an effectful function is buried, the more hidden context travels with it. The caller may need to know what ran before, what state was prepared, what must not be repeated, what must be rolled back, and what other code may observe.
+Effectful callbacks are different because the act of calling them observes and may change the world. Their real contract can include timing, repetition, concurrency, retries, cancellation, rate limits, transactions, and idempotency.
 
-That makes the function harder to reuse and harder to hand over.
+`IO<T>` makes that difference visible. It separates:
 
-A value-like function can still be slow, partial, complicated, or wrong. And making every fact explicit can make simple code harder to read.
+```text
+describing the effect
+```
 
-But when the code represents a decision, rule, predicate, formatter, state transition, or calculation that you want to compose freely, it is usually worth moving reads and writes outward.
+from:
 
-Observe the world at the boundary.
+```text
+performing the effect
+```
 
-Turn observations into values.
+That gives higher-level code a chance to choose the calling strategy before the world is touched.
 
-Pass those values into the core.
+The practical rule is:
 
-Then perform the resulting effects at the boundary again.
+> Construct and compose effect descriptions wherever they belong. Interpret them at the boundary that owns their calling strategy.
 
-That is the functional core / imperative shell pattern in ordinary terms. It gives the program a controlled place to touch the world, and it gives the rest of the code functions that are easier to test, compose, replay, cache, batch, and hand over.
+That is why IO runs at the edge. The edge is not where effects become possible. It is where the program deliberately gives up the ability to rearrange, wrap, replace, or decline them and finally allows the world to change.
+
+[1]: https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.select?view=net-10.0&utm_source=chatgpt.com "Enumerable.Select Method (System.Linq) - Microsoft Learn"
+[2]: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.sort?view=net-10.0&utm_source=chatgpt.com "List<T>.Sort Method (System.Collections.Generic)"
+[3]: https://www.haskell.org/tutorial/io.html?utm_source=chatgpt.com "A Gentle Introduction to Haskell: IO"
