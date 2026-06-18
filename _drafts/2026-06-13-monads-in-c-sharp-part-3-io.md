@@ -58,7 +58,7 @@ var configs = configPaths.Select(path =>
 PublishConfigsLoadedEvent();
 ```
 
-`Enumerable.Select` uses deferred execution. The assignment creates an enumerable that remembers the source and selector, but the selector does not run until the result is enumerated.
+`Enumerable.Select` uses deferred execution. The assignment creates an enumerable that remembers the source and selector; it does not cache the loaded configs, and the selector does not run until the result is enumerated. Enumerating the result again may call the selector again.
 
 At the point where the event is published, no config files may have been read.
 
@@ -99,7 +99,7 @@ static int CompareByPriority(
 customers.Sort(CompareByPriority);
 ```
 
-`Sort` is a higher-order function in a concrete sense: the programmer supplies a comparison function, and the sorting algorithm decides the call schedule. Even if you know the broad algorithm, the actual comparisons depend on the current arrangement of the values and the implementation. Some pairs may be skipped, some values may be compared repeatedly, and a different sorting abstraction could cache keys or comparison results. The caller has handed over invocation.
+`Sort` is a higher-order function in a concrete sense: the programmer supplies a comparison function, and the sorting algorithm owns the call schedule. The comparer contract has to tolerate that freedom. Depending on the values and implementation, the algorithm may skip pairs, compare the same values more than once, or use a different abstraction that caches keys or comparison results. The caller has handed over invocation.
 
 That fits the usual comparer contract when the function answers a value question:
 
@@ -201,7 +201,7 @@ The behavior is closer to:
 Path + World -> Config or failure + World'
 ```
 
-`World` is a model for whatever surrounding state the function may observe: files, clocks, caches, databases, network state, configuration, or shared mutable state.
+`World` is a semantic model for hidden inputs and sequencing. In Haskell it belongs to explanation rather than the public `IO` API; in C#, it is only a way to make missing context visible. It stands for whatever surrounding state the function may observe: files, clocks, caches, databases, network state, configuration, or shared mutable state.
 
 `World'` represents the world after the call. The operation may have consumed quota, written telemetry, populated a cache, changed a database, or affected an external system.
 
@@ -219,7 +219,7 @@ public static (Config Config, World World) LoadConfig(
 }
 ```
 
-Real C# code does not pass one giant `World` object around. The point is that the explicit argument list describes only part of the operation.
+The point is that the explicit argument list describes only part of the operation.
 
 Two calls can therefore have the same visible input but different real inputs:
 
@@ -299,7 +299,7 @@ That may be fine for simple code. The limitation is that the caller receives the
 
 An `IO<T>` type changes that contract.
 
-A function can return a description of work that may later produce `T`. You can think of that value as a blueprint, a recipe, or a deferred computation. The call stores the effectful operation as a value, while the actual interaction with the world waits until some boundary explicitly says to run it.
+A function can return a description of work that may later produce `T`. You can think of that value as a blueprint, a recipe, or a deferred computation. The point here is deferral rather than background work or concurrency: the call stores the effectful operation as a value, while the actual interaction with the world waits until some boundary explicitly says to run it.
 
 To keep the shape visible, here is a toy synchronous implementation. This is teaching code, not a production library.
 
@@ -329,7 +329,7 @@ public sealed class IO<T>
 }
 ```
 
-That is the basic mechanism. The constructor stores a function. `Run` invokes it. `Map` and `Bind` build a new stored function around the old one.
+That is the basic mechanism. The constructor stores a function. `Run` invokes it. `Pure` builds an `IO<T>` that yields an already-available value when run and performs no new effect. `Map` and `Bind` build a new stored function around the old one.
 
 Conceptually:
 
@@ -351,7 +351,7 @@ The `T` is whatever the effect eventually produces. If the operation only perfor
 
 Calling `LoadConfigIO(path)` constructs a value describing an effect. The file read is still waiting inside that value. It runs only when the program eventually calls `Run`.
 
-This is the same distinction used by Haskell's `IO`: actions can be defined and composed without being invoked immediately, and the `IO` operations provide sequential composition of those actions. ([Haskell][1])
+This toy wrapper preserves the pedagogical separation used when explaining Haskell's `IO`: actions can be defined and composed without being invoked immediately, and the `IO` operations provide sequential composition of those actions. Haskell's actual `IO` is an abstract runtime-supported type rather than this public `Func<T>` wrapper. ([Haskell][1])
 
 Because the effect has not happened yet, the caller can still compose the value. `Map` keeps the same effect and transforms the value it will eventually produce:
 
@@ -361,7 +361,7 @@ IO<string> summary =
         .Map(RenderConfigSummary);
 ```
 
-`Bind` (or flatMap) lets the value choose the next effectful operation:
+`Bind` (or flatMap) lets the value choose the next effectful operation and then combine both values:
 
 ```csharp
 public IO<string> ReadTemplateIO(string path)
@@ -375,16 +375,14 @@ IO<string> page =
         .Bind(config =>
             ReadTemplateIO(config.TemplatePath)
                 .Map(template =>
-                    RenderConfigSummary(config, template)));
+                    RenderConfigPage(config, template)));
 ```
 
-Code that needs the eventual `Config` usually keeps composing. `Map` is where ordinary logic can use the value once it exists. `Bind` is where the value can choose the next effectful operation. In both cases, the callback becomes part of the description and receives the value later, when the whole program is interpreted.
-
-In practice, the code that wants `T` moves into the continuation, and the result remains an effect description until the boundary runs it.
+The natural question is how to get the `Config` out of `IO<Config>`. In the middle of a program, there is no general safe unwrap that lets the code continue as if no effect were involved. The options are to keep composing with `Map` and `Bind`, or return the `IO<Config>` outward until a boundary chooses to run it. The callback becomes part of the description, and the result remains an effect description until then.
 
 `Map` and `Bind` build a larger description from smaller ones. Execution is still delayed.
 
-That is why `IO` can be a monad even though running an action twice may observe two different worlds. The monad laws concern how effect descriptions compose. They do not claim that the external world remains unchanged between separate executions.
+That is why `IO` can be a monad even though running an action twice may observe two different worlds. For ordinary equational reasoning, the laws are about equivalence of composed descriptions; separate executions can still observe different external state.
 
 The same point matters operationally. If an `IO<T>` describes a file read, interpreting the same description twice may read the file twice. Sharing, caching, and memoization should be explicit parts of the calling strategy; assignment alone is too vague to define those policies.
 
@@ -414,7 +412,7 @@ var summary =
     program.Run();
 ```
 
-The boundary is valuable because it is the last point where the effect is still a value and has not yet touched the world. Before `Run`, higher-level code can still decide whether the operation should run, whether it should be wrapped with logging, or whether it should be replaced by a test version.
+The boundary is valuable because it is the last point where the effect is still a value. Before `Run`, higher-level code can still decide whether the operation should run, whether it should be wrapped with logging, or whether it should be replaced by a test version.
 
 After `Run`, the effect has already happened, and those policies cannot be applied retroactively. Calling `Run` inside a helper gives up that leverage:
 
@@ -427,7 +425,7 @@ public string BuildConfigSummaryNow(string path)
 }
 ```
 
-The function has converted a composable effect description into an immediate world interaction. Returning the `IO` instead lets the caller decide how that effect should run before composing it with the rest of the program. The practical guideline is to construct and compose effect descriptions wherever they make sense, then interpret them at a boundary that owns the calling strategy.
+The function has converted a composable effect description into an immediate world interaction. Returning the `IO` instead lets the caller decide how that effect should run as part of the rest of the program.
 
 ## Putting it together
 
@@ -435,8 +433,6 @@ Higher-order functions let another abstraction call our function on our behalf. 
 
 Pure callbacks generally tolerate that handoff because the interesting behavior lies in the returned value. Effectful callbacks have a larger operational contract: timing, repetition, caching, replacement in tests, failure handling, and surrounding context can all matter.
 
-`IO<T>` gives that operational contract room to be handled before the world is touched. The program can build a description, compose it with other descriptions, add the calling strategy around it, and then run it at the boundary that owns those choices.
-
-That is the reason IO tends to run at the edge. The edge is where the program finally commits to a particular interpretation of the effectful description and allows the world to change.
+`IO<T>` gives that operational contract room to be handled before the world is touched. The program can build a description, compose it with other descriptions, and run it at the boundary that owns the calling strategy.
 
 [1]: https://www.haskell.org/tutorial/io.html "A Gentle Introduction to Haskell: IO"
