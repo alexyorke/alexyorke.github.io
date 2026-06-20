@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Alex Yorke
-description: About Alex Yorke, also known as Alex York, a software engineer and writer focused on CI/CD, testing, reliability, shell tooling, and functional programming.
+description: About Alex Yorke, a software engineer and writer focused on CI/CD, testing, reliability, shell tooling, and functional programming.
 permalink: /about/
 ---
 <section class="page-hero">
@@ -9,7 +9,7 @@ permalink: /about/
     <p class="eyebrow">About</p>
     <h1>Alex Yorke</h1>
     <p class="lede">
-      <strong>Alex Yorke</strong>, also known as <strong>Alex York</strong>, is a software engineer and technical writer focused on CI/CD, testing, reliability, shell tooling, and functional programming.
+      <strong>Alex Yorke</strong> is a software engineer and technical writer focused on CI/CD, testing, reliability, shell tooling, and functional programming.
     </p>
   </div>
   <div class="page-hero-stats" aria-label="Areas of focus">

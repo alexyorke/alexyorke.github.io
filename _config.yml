@@ -25,12 +25,11 @@ permalink:        pretty
 # Setup
 title:            Alex Yorke
 tagline:          'Personal website and engineering writing'
-description:      "Personal website of Alex Yorke, also known as Alex York. Writing on CI/CD, testing, reliability, shell tooling, and functional programming."
+description:      "Personal website of Alex Yorke. Writing on CI/CD, testing, reliability, shell tooling, and functional programming."
 url:              https://alexyorke.github.io
 baseurl:          ""
 lang:             en
 image:            /assets/images/social-card.png
-alternate_name:   Alex York
 same_as:
   - https://github.com/alexyorke
   - https://www.linkedin.com/in/alexyorke
