@@ -7,93 +7,132 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
-So far in this series, the examples have mostly been computations over values. A `List` may apply a function to many items. A `Maybe` may skip it. A `Result` may stop after an error. In those examples, the supplied functions were pure computations: adding numbers, transforming a successful result, or producing another value from immutable inputs.
+So far in this series, the functions passed to `Map` and `FlatMap` have mostly been pure. They added numbers, transformed successful results, or produced new values from immutable inputs.
 
-Programs are not very useful if they can only transform values in memory. Real programs read files, write to consoles, call databases, send HTTP requests, and update external systems. Those operations are usually called effects.
-For a pure computation, the returned value captures its observable behavior: replacing the call with that value does not change the program. For an effectful computation, performing the operation is also part of the outcome. A file read can fail, a service call can consume quota, and a write can affect later reads even if it returns nothing useful. Therefore, whether, when, and how often an effect runs are part of its contract.
+For a pure function, the returned value captures its observable behavior. Replacing the call with that value does not change the rest of the program.
 
-Passing a function to Map or FlatMap lets the surrounding type decide how it is applied. If an effect is hidden inside A -> B, that application rule also becomes the effect’s execution policy. For example, mapping over a list may issue one request per item in quick succession, deferred enumeration may delay or repeat requests, and short-circuiting may skip them. This means that _how_ the function is run, what the monad is doing, is now an important implementation detail, which makes composition more difficult.v
+However, a program with just pure functions isn't very useful. Simply performing computations without having the ability to show them to the user, write to a database, call an HTTP API, etc. is not super useful, i.e., the program needs to be able to talk with the external world.
 
-Changing the function to A -> IO<B> makes the effect explicit. Calling it builds a representation of the operation rather than performing it. The program can create List<IO<B>> without executing anything, combine those operations with Sequence or Traverse, and execute the resulting IO at a chosen boundary.
+An effectful computation has a larger outcome, the act of invoking it is observable behavior in addition to its return value, if one exists. A file read can fail, a service request can consume quota, and a write can affect later reads even if it returns nothing useful. Whether, when, and how often an effect runs can therefore matter because these are changes to the external world.
 
-IO does not know every retry, rate-limit, or caching policy. It keeps effects deferred long enough for those policies to be composed explicitly before execution.
-`IO<T>` is a way to represent that kind of computation as a value before executing it.
+This creates a problem when an effect is hidden inside an ordinary function passed to a monad. The surrounding monad's rule for applying that function also becomes the effect's execution policy. For example, calling flatMap on List may call the function 100 times a second, which, doesn't matter if it's pure (simply a computation) but you may not want to hit your HTTP API a hundred times a second, as each subsequent read and/or call to the API influences the result of later calls (e.g., rate limiting, timeouts, etc).
+
+Changing the function from:
+
+```text
+A -> B
+```
+
+to:
+
+```text
+A -> IO<B>
+```
+
+makes the effect explicit. Calling the function constructs a representation, a deferred computation, or a recipe of the operation instead of performing it.
 
 ```csharp
-IO<string> program = ReadOrderFile("order.json")
-    .FlatMap(ParseOrder)
-    .FlatMap(BuildReportText);
+IO<Unit> program =
+    BuildReportProgram(
+        "order.json",
+        "report.txt",
+        ReadAllTextIO,
+        FetchExchangeRateIO,
+        WriteAllTextIO);
 
 // No file has been read.
 // No service has been called.
+// No report has been written.
 ```
 
-`program` is not the report text. It is a value describing the work required to produce it.
+`program` is a value describing the work. The work begins only when the program is interpreted:
 
-The examples use C#-style code to keep the discussion concrete. They are teaching examples, not an argument that C# applications should adopt an IO monad.
+```csharp
+program.Run();
+```
 
-## Values and interactions are different
+In this article we will use Run(), although typically the program is automatically interpreted. Using Run is more explicit for teaching purposes.
+
+The examples use C#-style code to make the ideas concrete. The `IO<T>` implementation is synchronous teaching code, not a recommendation to replace idiomatic C#.
+
+## Pure calculations and effects
 
 Consider a pure calculation:
 
 ```csharp
-public static decimal ConvertToUsd(decimal amount, decimal exchangeRate)
+public static decimal ConvertToUsd(
+    decimal amount,
+    decimal exchangeRate)
 {
     return amount * exchangeRate;
 }
 ```
 
-For a terminating pure function, immutable inputs determine the output. Given the same `amount` and `exchangeRate`, `ConvertToUsd` returns the same value.
+Given the same immutable inputs, `ConvertToUsd` returns the same value. Conceptually, it could be replaced by a lookup table.
 
-That was the style used in Part 1 and Part 2: adding 1 to every item in a list, or transforming a successful `Result`. Those examples were computations over values. If a pure function runs twice, the important thing is still the value it produces.
-
-Conceptually, the function could be replaced by a lookup table. Repeating the calculation may waste processor time, but it does not create another program-visible event.
+Repeating the calculation may waste processor time, but it does not create another program-visible event. It does not append another line, consume service quota, advance a cursor, or affect what the next invocation returns.
 
 Now consider obtaining the exchange rate:
 
 ```csharp
-public static decimal GetExchangeRate(string currency)
+public static decimal GetExchangeRate(
+    string currency)
 {
-    return exchangeRateService.GetCurrentRate(currency);
+    return exchangeRateService.GetCurrentRate(
+        currency);
 }
 ```
 
 The visible input can remain unchanged while the result changes:
 
 ```csharp
-decimal first = GetExchangeRate("EUR");
+decimal first =
+    GetExchangeRate("EUR");
 
-decimal second = GetExchangeRate("EUR");
+// The service might return 1.08.
+
+decimal second =
+    GetExchangeRate("EUR");
+
+// It might now return 1.09,
+// time out, or reject the request.
 ```
 
-The second call is not merely another calculation. It is another interaction. Even if both calls return the same number, two requests may consume more quota, produce two audit records, or encounter different rate limits.
+The second call is another interaction, not merely another calculation.
 
-The distinction is even sharper for a write:
+Even if both requests return the same number, two requests may consume more quota, produce two audit records, or encounter different rate limits.
+
+The distinction is clearer for a write:
 
 ```csharp
-File.WriteAllText("report.txt", report);
+File.WriteAllText(
+    "report.txt",
+    report);
 ```
 
-The useful outcome is the write itself. Discarding the method's return value does not undo the interaction.
+The useful outcome is the write itself. Discarding a return value does not undo the interaction.
 
-An effectful computation therefore has more than a returned value. Whether it runs, when it runs, and how often it runs can all matter. Performing the operation is part of the meaning now, not just a way to obtain a value.
+For a pure computation, the program usually cares about the resulting value. For an effectful computation, the returned value may matter, but execution itself is also part of the outcome.
 
 ## The implicit `World`
 
-One way to model an effect is to imagine an extra input:
+One way to model an effect is to imagine an additional input:
 
 ```csharp
-public static string ReadOrderJson(string path /*, World world */)
+public static string ReadOrderJson(
+    string path
+    /*, World world */)
 {
     // Conceptually:
     //
-    // return world.FileSystem.ReadAllText(path);
+    // return world.FileSystem
+    //     .ReadAllText(path);
 
     return File.ReadAllText(path);
 }
 ```
 
-`World` is not a proposed C# class. It is bookkeeping for files, databases, clocks, services, mutable objects, concurrent processes, and other external state available when the operation runs.
+`World` is not a proposed C# class. It represents the files, databases, clocks, services, mutable objects, concurrent processes, and other external state available when the operation runs.
 
 The semantic shape is closer to:
 
@@ -102,90 +141,138 @@ The semantic shape is closer to:
     -> (JSON or failure, World')
 ```
 
-`World'` represents the world after the interaction. A read may only observe its source, but it may also advance a cursor, populate a cache, acquire a lock, create an audit record, or consume quota.
+`World'` represents the world after the interaction.
 
-If the complete world were supplied as an immutable value and the transition were deterministic, the output and next world could in principle be predicted. Real programs do not receive such a value. They discover part of the world by performing the effect.
+A read observes external state. Depending on the capability, it may also advance a cursor, populate a cache, acquire a lock, create an audit record, or consume quota. A write changes external state more directly.
 
-This model explains dependency and ordering. It does not mean that the program receives a literal snapshot of the universe, nor does sequencing two effects guarantee an atomic view of external systems.
+If the complete world were available as an immutable input and the transition were deterministic, the result and next world could in principle be predicted. Real programs do not receive such a value. They discover part of the world by performing an effect.
 
-## Higher-order functions own invocation
+`World` is therefore a model for dependency and ordering, not a literal snapshot of the universe. Sequencing two effects does not guarantee that an external system remains unchanged between them.
 
-In synchronous procedural code, a direct call chooses an execution point:
+## Hidden effects inherit the surrounding rule
 
-```csharp
-string json = File.ReadAllText("order.json");
+When a function is passed to `Map` or `FlatMap`, the surrounding type applies it according to its own rule.
 
-// If the call returned normally,
-// this read has completed.
-```
+The types from the previous articles use different rules:
 
-At this point, `json` already contains the file contents. The read happened immediately. The caller chose exactly when that interaction occurred.
+- `List` applies a function to each item.
+- `Maybe` applies it only when a value is present.
+- `Result` applies it only after success.
 
-The previous articles already used a different pattern. `List`, `Maybe`, and `Result` each decide whether and how to apply the functions passed into them.
+These rules are part of the meaning of each type. They are not arbitrary scheduling decisions.
 
-- `List` may apply one callback to many values.
-- `Maybe` may skip it.
-- `Result` may stop at the first error.
+Pure functions fit them naturally because applying the function introduces no hidden interaction. Its contribution is the returned value.
 
-That abstraction is what makes monadic composition useful. The surrounding type owns callback application. `Maybe` does not ask the callback how it wants to be invoked; it either applies it or skips it. `List` may apply it several times.
-
-Those rules are fine for pure functions because the interesting contribution is the returned value. Effects can have stricter requirements because performing the operation is part of the outcome: a request may need rate limiting, a write may be unsafe to repeat, or a prompt may need to happen exactly once. In those cases, delegating execution to the surrounding type may not match the policy the program actually needs.
-
-If a callback performs effects, then whether it ran, how many times it ran, and where failure handling lives can all matter to later interactions with the world. You can try to hide retry or failure policy inside the callback, but then you start encoding execution concerns into ordinary return values and working around the surrounding monad rather than using its composition rule.
-
-For example, this asks the user once per item:
+Suppose, however, that this apparently ordinary function calls an API:
 
 ```csharp
-IEnumerable<decimal> adjustedAmounts = amounts.Select(
-    amount => amount + ReadAdjustmentFromConsole());
+public static RiskScore GetRiskScore(
+    Customer customer)
+{
+    return riskApi.GetCurrentScore(
+        customer.Id);
+}
 ```
 
-The number of prompts is now coupled to the enumeration rule.
+Its type appears to be:
 
-If the program needs one adjustment for the whole list, it should perform one interaction and then delegate only the pure calculation:
+```text
+Customer -> RiskScore
+```
+
+Mapping it over a list makes the list traversal an API execution plan:
 
 ```csharp
-decimal adjustment = ReadAdjustmentFromConsole();
-
-IEnumerable<decimal> adjustedAmounts = amounts.Select(
-    amount => amount + adjustment);
+List<RiskScore> scores =
+    customers.Map(GetRiskScore);
 ```
 
-A deferred API exposes the same issue more clearly. This LINQ query stores file reads until enumeration:
+If the list contains ten thousand customers, the traversal makes ten thousand service calls. The implementation may be well defined and sequential, but several decisions have now been combined:
+
+- which customers participate;
+- when the requests begin;
+- how many requests occur;
+- how failures are retried;
+- whether calls are throttled;
+- whether returned values are cached.
+
+The list has not behaved incorrectly. The effect was hidden inside what looked like an ordinary value transformation.
+
+Retry can be placed inside the supplied function:
 
 ```csharp
-IEnumerable<string> orderJson = orderPaths.Select(
-    path => File.ReadAllText(path));
+List<RiskScore> scores =
+    customers.Map(customer =>
+        Retry(
+            () => riskApi.GetCurrentScore(
+                customer.Id),
+            attempts: 3));
 ```
 
-Enumerating it later, or enumerating it twice, changes when and how often the reads occur. The API is behaving correctly; the effect has simply inherited the sequence's execution rule.
+This can work, but execution and policy are now fixed inside the traversal. The caller cannot first obtain a value describing the complete collection of requests and then decide how those requests should run.
 
-Hiding an effect inside a function passed to one of these surrounding operations makes the structure's application rule double as the effect's execution policy. If a list applies that function to ten thousand values, ten thousand interactions occur according to the list traversal. Retry, throttling, caching, and one-time requirements must then be hidden inside the function or coordinated through additional state.
+Other surrounding rules create similar consequences. An effect inside `Result.Map` is skipped on error. An effect inside a deferred `IEnumerable<T>` selector occurs during enumeration and may occur again during a second enumeration.
 
-Returning `IO<T>` changes the operation from "perform the effect and return `T`" to "construct a program that may later perform the effect and return `T`." Mapping a list of inputs to `IO<T>` values now produces a list of programs without running them. A separate `Sequence` or `Traverse` step can combine those programs under an explicit execution policy, and an interpreter eventually starts them.
+The issue is not that these abstractions cannot perform effects. The issue is that hiding an effect inside `A -> B` couples its execution to an application rule that does not express the effect's full operational contract.
 
-`IO` is therefore not needed because imperative code cannot perform effects. It is useful when the program needs to compose effectful work before committing to how and when that work executes.
+## Make the effect part of the type
 
-## What `IO<T>` must provide
-
-We need an abstraction that can:
-
-- represent an effect without performing it;
-- compose an operation whose next step depends on the previous result;
-- preserve the declared relative order of those operations;
-- leave the start of execution explicit.
-
-C# can already suspend a synchronous operation with a function:
+Represent the API request explicitly:
 
 ```csharp
-Func<string> readOrder = () => File.ReadAllText("order.json");
+public static IO<RiskScore> GetRiskScoreIO(
+    Customer customer)
+{
+    return IO<RiskScore>.From(() =>
+        riskApi.GetCurrentScore(
+            customer.Id));
+}
 ```
 
-That is a repeatable recipe for obtaining a value.
+The type is now:
 
-At the level used in this article, `IO<T>` is essentially a named recipe with `Pure` and `FlatMap`. The wrapper does not discover a new execution mechanism. Its value is that suspended effects receive a distinct type and a common composition rule.
+```text
+Customer -> IO<RiskScore>
+```
+
+Calling `GetRiskScoreIO` constructs a represented request. It does not call the service.
+
+Mapping over the customers therefore constructs a list of programs:
+
+```csharp
+List<IO<RiskScore>> requests =
+    customers.Map(GetRiskScoreIO);
+```
+
+The type is:
+
+```text
+List<IO<RiskScore>>
+```
+
+At this point, no requests have occurred.
+
+The responsibilities are now separated:
+
+- `List` determines which customers participate.
+- Each `IO<RiskScore>` represents one request.
+- Additional combinators can describe retry or throttling.
+- A sequencing operation can combine the requests.
+- An interpreter eventually begins execution.
+
+The effect has stopped masquerading as an ordinary returned value. It is now the value being composed.
 
 ## A small `IO<T>`
+
+C# can suspend a synchronous operation with a function:
+
+```csharp
+Func<string> readOrder =
+    () => File.ReadAllText(
+        "order.json");
+```
+
+At the level used in this article, `IO<T>` is essentially a named thunk with a composition interface. It does not discover a new execution mechanism. It gives suspended effects a distinct type and common operations.
 
 ```csharp
 public sealed class IO<T>
@@ -194,26 +281,45 @@ public sealed class IO<T>
 
     private IO(Func<T> operation)
     {
-        this.operation = operation;
+        this.operation =
+            operation
+            ?? throw new ArgumentNullException(
+                nameof(operation));
     }
 
-    public static IO<T> From(Func<T> operation)
+    public static IO<T> From(
+        Func<T> operation)
     {
         return new IO<T>(operation);
     }
 
-    public static IO<T> Pure(T value)
+    public static IO<T> Pure(
+        T value)
     {
         return new IO<T>(() => value);
     }
 
-    public IO<TResult> FlatMap<TResult>(Func<T, IO<TResult>> next)
+    public IO<TResult> Map<TResult>(
+        Func<T, TResult> map)
     {
         return new IO<TResult>(() =>
         {
             T value = Run();
 
-            return next(value).Run();
+            return map(value);
+        });
+    }
+
+    public IO<TResult> FlatMap<TResult>(
+        Func<T, IO<TResult>> next)
+    {
+        return new IO<TResult>(() =>
+        {
+            T value = Run();
+            IO<TResult> nextOperation =
+                next(value);
+
+            return nextOperation.Run();
         });
     }
 
@@ -226,101 +332,294 @@ public sealed class IO<T>
 
 This implementation is synchronous. `Run` invokes the stored function on the current thread. It does not add background work, concurrency, cancellation, or memoization.
 
-You can think of `Run()` here as the manual escape hatch in the toy example. In a real effect system, you would usually return an `IO<T>` outward and let the surrounding interpreter decide when to execute it.
+The responsibilities are:
 
-This type behaves as intended only under an important discipline: constructing an `IO<T>`, and invoking a function passed to `FlatMap`, should construct represented work rather than perform that work immediately. C# cannot enforce that discipline.
+```text
+Construct:
+    From and Pure
 
-Actual production effect types also need concerns that this class omits, including stack-safe interpretation, asynchronous execution, cancellation, resource safety, and explicit failure behavior.
+Compose:
+    Map and FlatMap
+
+Interpret:
+    Run
+```
+
+`Run` is not what makes `IO<T>` a monad. `Pure` and `FlatMap` provide the monadic structure. `Run` is the interpreter for this teaching representation.
+
+The type behaves as intended only under an important discipline: constructing an `IO<T>`, and invoking a function passed to `FlatMap`, should construct represented work rather than perform that work immediately. C# cannot enforce that discipline.
+
+`Pure` also does not defer evaluation of its argument. This performs the read before `Pure` is called:
+
+```csharp
+IO<string> order =
+    IO<string>.Pure(
+        File.ReadAllText(
+            "order.json"));
+```
+
+Deferral requires placing the operation inside a function:
+
+```csharp
+IO<string> order =
+    IO<string>.From(() =>
+        File.ReadAllText(
+            "order.json"));
+```
 
 ## Building one effectful program
 
-First, represent the primitive effects:
+First, define a void-like result for operations whose useful outcome is the effect itself:
 
 ```csharp
-public static IO<string> ReadOrderFile(string path)
+public readonly record struct Unit
 {
-    return IO<string>.From(() => File.ReadAllText(path));
+    public static Unit Value { get; } =
+        new Unit();
 }
+```
 
-public static IO<Order> ParseOrder(string json)
-{
-    return IO<Order>.Pure(OrderParser.Parse(json));
-}
+Now represent the primitive effects:
 
-public static IO<decimal> FetchExchangeRate(string currency)
-{
-    return IO<decimal>.From(() =>
-        exchangeRateService.GetCurrentRate(currency));
-}
-
-public static IO<string> RenderReportText(Order order, decimal exchangeRate)
-{
-    return IO<string>.Pure(RenderReport(order, exchangeRate));
-}
-
-public static IO<string> BuildReportText(Order order)
-{
-    return FetchExchangeRate(order.Currency)
-        .FlatMap(exchangeRate => RenderReportText(order, exchangeRate));
-}
-
-public static IO<string> WriteReportFile(string path, string contents)
+```csharp
+public static IO<string> ReadAllTextIO(
+    string path)
 {
     return IO<string>.From(() =>
-    {
-        File.WriteAllText(path, contents);
+        File.ReadAllText(path));
+}
 
-        return path;
+public static IO<decimal> FetchExchangeRateIO(
+    string currency)
+{
+    return IO<decimal>.From(() =>
+        exchangeRateService.GetCurrentRate(
+            currency));
+}
+
+public static IO<Unit> WriteAllTextIO(
+    string path,
+    string contents)
+{
+    return IO<Unit>.From(() =>
+    {
+        File.WriteAllText(
+            path,
+            contents);
+
+        return Unit.Value;
     });
 }
 ```
 
-For focus, assume `OrderParser.Parse` and `RenderReport` are pure, and assume parsing succeeds.
-
-`WriteReportFile` returns the path only so the toy example keeps a concrete result type. The interesting effect is still the write.
-
-Now the larger program reads as a sequence of named steps:
+Parsing and rendering remain ordinary pure functions:
 
 ```csharp
-public static IO<string> ReadAndRenderReport(string orderPath)
+public static Order ParseOrder(
+    string json)
 {
-    return ReadOrderFile(orderPath)
-        .FlatMap(ParseOrder)
-        .FlatMap(BuildReportText);
+    return OrderParser.Parse(json);
 }
 
-public static IO<string> BuildAndWriteReport(string orderPath, string reportPath)
+public static string RenderReport(
+    Order order,
+    decimal exchangeRate)
 {
-    return ReadAndRenderReport(orderPath)
-        .FlatMap(report => WriteReportFile(reportPath, report));
+    return ReportRenderer.Render(
+        order,
+        exchangeRate);
 }
 ```
 
-Constructing these values reads no file, calls no service, and writes no report.
-
-For simplicity, this article calls `Run()` directly at the boundary:
+The larger program composes effects with pure calculations:
 
 ```csharp
-IO<string> program = BuildAndWriteReport("order.json", "report.txt");
+public static IO<string> BuildReportTextProgram(
+    string orderPath,
+    Func<string, IO<string>> readText,
+    Func<string, IO<decimal>> fetchExchangeRate)
+{
+    return readText(orderPath)
+        .Map(ParseOrder)
+        .FlatMap(order =>
+            fetchExchangeRate(
+                order.Currency)
+            .Map(exchangeRate =>
+                RenderReport(
+                    order,
+                    exchangeRate)));
+}
+```
+
+The final write remains represented as well:
+
+```csharp
+public static IO<Unit> BuildReportProgram(
+    string orderPath,
+    string reportPath,
+    Func<string, IO<string>> readText,
+    Func<string, IO<decimal>> fetchExchangeRate,
+    Func<string, string, IO<Unit>> writeText)
+{
+    return BuildReportTextProgram(
+            orderPath,
+            readText,
+            fetchExchangeRate)
+        .FlatMap(report =>
+            writeText(
+                reportPath,
+                report));
+}
+```
+
+Constructing this value reads no file, calls no service, and writes no report.
+
+At the boundary, the program can select implementations and policies. Assume `Retry` creates another `IO<T>` that repeats only the operation it wraps:
+
+```csharp
+Func<string, IO<decimal>>
+    fetchExchangeRateWithRetry =
+        currency =>
+            Retry(
+                FetchExchangeRateIO(
+                    currency),
+                attempts: 3);
+
+IO<Unit> program =
+    BuildReportProgram(
+        "order.json",
+        "report.txt",
+        ReadAllTextIO,
+        fetchExchangeRateWithRetry,
+        WriteAllTextIO);
 
 program.Run();
 ```
 
-Running the program performs the read, then the parse, then the exchange-rate request, then the render, then the write.
+Several separate mechanisms are involved:
 
-The pure steps still matter, but they matter as ordinary values inside the larger effectful sequence. `Pure` is how they enter that sequence without becoming immediate world interactions.
+- `IO` suspends and composes the interactions.
+- Function parameters make dependencies replaceable.
+- `Retry` supplies a repetition policy for one interaction.
+- `Run` begins interpretation.
 
-Calling `Run` again repeats the whole program. One-time execution, caching, retry limits, and idempotency are additional policies, not guarantees supplied by `IO<T>`.
+The file read is not repeated merely because the service request needs another attempt.
 
-## Running at the boundary
+Calling `Run` again repeats the whole program. One-time execution, caching, idempotency, and exactly-once delivery are additional policies, not guarantees supplied by `IO<T>`.
 
-As smaller IO programs are combined, a larger part of the application may become one larger `IO` value. That does not make the application pure or remove its effects. It keeps the effects represented until execution begins.
+## Combining many effects
 
-"Move effects to the edge" means moving final interpretation outward. It does not mean defining every file read and service call in `Main`.
+Mapping an effectful function over a list produces a list of programs:
 
-A helper can describe an individual effect. Another helper can attach retry or validation. A larger function can compose those pieces. The boundary - perhaps `Main`, a request handler, a command dispatcher, or a background worker - selects dependencies and calls the interpreter.
+```csharp
+List<IO<RiskScore>> requests =
+    customers.Map(customer =>
+        GetRiskScoreIO(customer));
+```
+
+Often, the desired result is one program that produces all scores:
+
+```text
+IO<List<RiskScore>>
+```
+
+The operation that turns:
+
+```text
+List<IO<T>>
+```
+
+into:
+
+```text
+IO<List<T>>
+```
+
+is commonly called `Sequence`.
+
+```csharp
+public static class IOExtensions
+{
+    public static IO<List<T>> Sequence<T>(
+        this IReadOnlyList<IO<T>> operations)
+    {
+        return IO<List<T>>.From(() =>
+        {
+            var results =
+                new List<T>(
+                    operations.Count);
+
+            foreach (IO<T> operation
+                in operations)
+            {
+                results.Add(
+                    operation.Run());
+            }
+
+            return results;
+        });
+    }
+}
+```
+
+Calling `Sequence` does not run the inner programs. Their `Run` calls are inside the suspended outer operation.
+
+```csharp
+IO<List<RiskScore>> allScores =
+    requests.Sequence();
+```
+
+When `allScores` is interpreted, this implementation executes the requests sequentially and collects their results.
+
+A production asynchronous effect system might offer other explicit policies, such as bounded concurrency.
+
+Mapping an effectful function and then sequencing the resulting programs is commonly called `Traverse`:
+
+```text
+List<A>
+    + (A -> IO<B>)
+    -> IO<List<B>>
+```
+
+This is the direct connection between `List` and `IO`. `List` determines which values participate, while `IO` describes when the effects associated with those values are interpreted.
+
+## Interpretation at the edge
+
+As smaller IO programs are combined, a larger part of the application may become one larger `IO` value.
+
+That does not make the application pure or remove its effects. It keeps the effects represented until execution begins.
+
+“Move effects to the edge” means moving final interpretation outward. It does not mean defining every file read or service request in `Main`.
+
+A helper can describe an effect. Another helper can attach retry or validation. A larger function can compose those pieces. The boundary—perhaps `Main`, a request handler, a command dispatcher, or a background worker—selects dependencies and interprets the final program.
 
 That boundary cannot inspect a complete `World` or guarantee that external state is correct. It can establish known preconditions, choose an observation point, request available consistency guarantees, and validate outcomes.
+
+An outer `Run` also cannot inspect an arbitrary stored function and selectively retry one internal operation. Policies such as retry must be attached while that operation is still explicitly represented.
+
+## Limits of the toy type
+
+This implementation demonstrates synchronous suspension and dependent sequencing only.
+
+A production effect type may also need:
+
+- stack-safe interpretation;
+- asynchronous execution;
+- cancellation;
+- resource safety;
+- controlled concurrency;
+- tracing;
+- typed failures.
+
+`IO` and `Result` describe different concerns:
+
+```text
+IO<Result<T, Error>>
+```
+
+The outer type says that obtaining the value requires an interaction. The inner type describes an expected success or failure. Composing this combined shape ergonomically requires additional operations and is outside the scope of this article.
+
+Production C# normally uses `Task`, `Task<T>`, and `async`/`await` for asynchronous I/O. This toy `IO<T>` isolates a narrower idea: the separation between describing an interaction and interpreting it.
 
 ## Conclusion
 
@@ -328,7 +627,7 @@ That boundary cannot inspect a complete `World` or guarantee that external state
 
 It makes the effect explicit as a composable value.
 
-Suspension preserves the choice not to execute yet. `FlatMap` preserves dependency order between represented effects. An interpreter begins execution. Other combinators can add policies such as retry, caching, resource safety, or concurrency.
+Suspension preserves the choice not to execute yet. `FlatMap` preserves dependencies between represented effects. An interpreter begins execution. Other combinators can add policies such as retry, caching, resource safety, or concurrency.
 
 The distinction is:
 
