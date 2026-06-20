@@ -9,11 +9,13 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 This article continues those two parts. There, the functions passed to `Map` and `FlatMap` were mostly pure calculations. A pure function is determined by its explicit inputs. Conceptually, it could be replaced by a lookup table: the same arguments produce the same result regardless of prior or later calls. Its observable contribution is the value it returns.
 
+Useful programs eventually need effects. They need to print a value, write a file, answer an HTTP request, call an API, or otherwise interact with the world. A calculation that is never observed, recorded, or acted on does not help much on its own.
+
 That is why the earlier examples could delegate application to the surrounding monad. `List` can apply the function to many values. `Maybe` can skip it. `Result` can stop after an error. For pure computations, that is fine and convenient.
 
-Effectful computations are different. Real programs read files, write to databases, and call HTTP APIs. Here, performing the operation is part of the outcome, even when the operation also returns a value. A file read can fail. A request can consume quota. A write can change what a later read sees. Once that is true, execution policy matters too: when, whether, and how often the effect runs.
+Effectful computations are different. Real programs read files, write to databases, and call HTTP APIs. Here, performing the operation is part of the outcome, even when the operation also returns a value. A file read can fail. A request can consume quota. A write can change what a later read sees. Appending to a file now can change what a later read observes from the same path. Once that is true, execution policy matters too: when, whether, and how often the effect runs.
 
-In procedural code, execution is immediate. When the statement runs, the operation runs, and the programmer controls that sequence directly:
+In straightforward procedural code, execution is usually immediate. When the statement runs, the operation usually runs too, and the programmer controls that sequence directly:
 
 ```csharp
 var scores = new List<RiskScore>();
@@ -21,11 +23,7 @@ var scores = new List<RiskScore>();
 foreach (var customer in customers)
 {
     RateLimit();
-
-    var score =
-        riskApi.GetCurrentScore(
-            customer.Id);
-
+    var score = riskApi.GetCurrentScore(customer.Id);
     scores.Add(score);
 }
 ```
@@ -35,41 +33,46 @@ That style is natural for effectful work. The loop decides when the request runs
 For example:
 
 ```csharp
-public static RiskScore GetRiskScore(
-    Customer customer)
+public static RiskScore GetRiskScore(Customer customer)
 {
-    return riskApi.GetCurrentScore(
-        customer.Id);
+    return riskApi.GetCurrentScore(customer.Id);
 }
 ```
 
 If you call `GetRiskScore` directly in a loop, you control that policy yourself. If you pass it to another monad or higher-order abstraction, you delegate the application rule:
 
 ```csharp
-List<RiskScore> scores =
-    customers.Map(GetRiskScore);
-
-Maybe<RiskScore> score =
-    maybeCustomer.Map(GetRiskScore);
+List<RiskScore> scores = customers.Map(GetRiskScore);
+Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
 The list may apply the function many times. `Maybe` may skip it. Another abstraction might defer it or batch it. That delegation is one of the benefits of these abstractions. For pure computations, only the returned value matters. For effects, invocation matters too.
 
 `IO<T>` changes the operation from "perform the effect and return `T`" to "construct a program that may later perform the effect and return `T`." It defers the computation like a recipe, so the program can still compose those operations without committing to their execution policy yet.
 
+If you prefer LINQ syntax, the same deferred program can be sketched like this once the usual LINQ aliases are available:
+
 ```csharp
 IO<Unit> program =
-    ReadAllTextIO("order.json")
-        .FlatMap(contents =>
-            WriteAllTextIO(
-                "order-copy.json",
-                contents));
+    from contents in ReadAllTextIO("order.json")
+    from _ in WriteAllTextIO("order-copy.json", contents)
+    select Unit.Value;
+```
+
+<details>
+<summary>Equivalent <code>FlatMap</code> form</summary>
+
+```csharp
+IO<Unit> program = ReadAllTextIO("order.json")
+    .FlatMap(contents => WriteAllTextIO("order-copy.json", contents));
 
 // No file has been read.
 // No file has been written.
 ```
 
-`program` is a value describing the work. The work begins only when the program is interpreted:
+</details>
+
+`program` is a value describing the work. At this point, no file has been read or written. The work begins only when the program is interpreted:
 
 ```csharp
 program.Run();
@@ -84,9 +87,7 @@ The examples use C#-style code to make the ideas concrete. The `IO<T>` implement
 Consider a pure calculation:
 
 ```csharp
-public static decimal ConvertToUsd(
-    decimal amount,
-    decimal exchangeRate)
+public static decimal ConvertToUsd(decimal amount, decimal exchangeRate)
 {
     return amount * exchangeRate;
 }
@@ -96,14 +97,14 @@ Given the same immutable inputs, `ConvertToUsd` returns the same value. Conceptu
 
 Calling it again with the same arguments may waste processor time, but it does not create another program-visible event. It does not append another line, consume service quota, advance a cursor, or affect what the next invocation returns.
 
+If you call it twice and discard both results, the rest of the program cannot tell that it happened except through spent CPU time.
+
 Now consider obtaining the exchange rate:
 
 ```csharp
-public static decimal GetExchangeRate(
-    string currency)
+public static decimal GetExchangeRate(string currency)
 {
-    return exchangeRateApi.GetCurrentRate(
-        currency);
+    return exchangeRateApi.GetCurrentRate(currency);
 }
 ```
 
@@ -112,13 +113,11 @@ Assume `exchangeRateApi` reads from an external service.
 The visible input can remain unchanged while the result changes:
 
 ```csharp
-decimal first =
-    GetExchangeRate("EUR");
+decimal first = GetExchangeRate("EUR");
 
 // The service might return 1.08.
 
-decimal second =
-    GetExchangeRate("EUR");
+decimal second = GetExchangeRate("EUR");
 
 // It might now return 1.09,
 // time out, or reject the request.
@@ -131,9 +130,7 @@ Even if both requests return the same number, two requests may consume more quot
 The distinction is clearer for a write:
 
 ```csharp
-File.WriteAllText(
-    "report.txt",
-    report);
+File.WriteAllText("report.txt", report);
 ```
 
 The useful outcome is the write itself. Discarding a return value does not undo the interaction.
@@ -145,14 +142,11 @@ For a pure computation, the program usually cares about the resulting value. For
 One way to model an effect is to imagine an additional input:
 
 ```csharp
-public static string ReadOrderJson(
-    string path
-    /*, World world */)
+public static string ReadOrderJson(string path /*, World world */)
 {
     // Conceptually:
     //
-    // return world.FileSystem
-    //     .ReadAllText(path);
+    // return world.FileSystem.ReadAllText(path);
 
     return File.ReadAllText(path);
 }
@@ -185,11 +179,9 @@ Pure functions fit them naturally because applying the function introduces no hi
 Suppose, however, that this apparently ordinary function calls an API:
 
 ```csharp
-public static RiskScore GetRiskScore(
-    Customer customer)
+public static RiskScore GetRiskScore(Customer customer)
 {
-    return riskApi.GetCurrentScore(
-        customer.Id);
+    return riskApi.GetCurrentScore(customer.Id);
 }
 ```
 
@@ -202,8 +194,7 @@ Customer -> RiskScore
 Mapping it over a list makes the list traversal an API execution plan:
 
 ```csharp
-List<RiskScore> scores =
-    customers.Map(GetRiskScore);
+List<RiskScore> scores = customers.Map(GetRiskScore);
 ```
 
 If the list contains ten thousand customers, the traversal makes ten thousand service calls. The implementation may be well defined and sequential, but several decisions have now been combined:
@@ -220,12 +211,8 @@ The list has not behaved incorrectly. The effect was hidden inside what looked l
 Retry can be placed inside the supplied function:
 
 ```csharp
-List<RiskScore> scores =
-    customers.Map(customer =>
-        Retry(
-            () => riskApi.GetCurrentScore(
-                customer.Id),
-            attempts: 3));
+List<RiskScore> scores = customers.Map(customer =>
+    Retry(() => riskApi.GetCurrentScore(customer.Id), attempts: 3));
 ```
 
 This can work, but execution and policy are now fixed inside the traversal. The caller cannot first obtain a value describing the complete collection of requests and then decide how those requests should run.
@@ -239,12 +226,9 @@ The issue is not that these abstractions cannot perform effects. The issue is th
 Represent the API request explicitly:
 
 ```csharp
-public static IO<RiskScore> GetRiskScoreIO(
-    Customer customer)
+public static IO<RiskScore> GetRiskScoreIO(Customer customer)
 {
-    return IO<RiskScore>.From(() =>
-        riskApi.GetCurrentScore(
-            customer.Id));
+    return IO<RiskScore>.From(() => riskApi.GetCurrentScore(customer.Id));
 }
 ```
 
@@ -259,8 +243,7 @@ Calling `GetRiskScoreIO` constructs a represented request. It does not call the 
 Mapping over the customers therefore constructs a list of programs:
 
 ```csharp
-List<IO<RiskScore>> requests =
-    customers.Map(GetRiskScoreIO);
+List<IO<RiskScore>> requests = customers.Map(GetRiskScoreIO);
 ```
 
 The type is:
@@ -286,9 +269,7 @@ Because the requests are represented explicitly, a later step can decide whether
 C# can suspend a synchronous operation with a function:
 
 ```csharp
-Func<string> readOrder =
-    () => File.ReadAllText(
-        "order.json");
+Func<string> readOrder = () => File.ReadAllText("order.json");
 ```
 
 At the level used in this article, `IO<T>` is essentially a named thunk with a composition interface. It does not discover a new execution mechanism. It gives suspended effects a distinct type and common operations.
@@ -303,38 +284,31 @@ public sealed class IO<T>
         this.operation = operation;
     }
 
-    public static IO<T> From(
-        Func<T> operation)
+    public static IO<T> From(Func<T> operation)
     {
         return new IO<T>(operation);
     }
 
-    public static IO<T> Pure(
-        T value)
+    public static IO<T> Pure(T value)
     {
         return new IO<T>(() => value);
     }
 
-    public IO<TResult> Map<TResult>(
-        Func<T, TResult> map)
+    public IO<TResult> Map<TResult>(Func<T, TResult> map)
     {
         return new IO<TResult>(() =>
         {
             T value = Run();
-
             return map(value);
         });
     }
 
-    public IO<TResult> FlatMap<TResult>(
-        Func<T, IO<TResult>> next)
+    public IO<TResult> FlatMap<TResult>(Func<T, IO<TResult>> next)
     {
         return new IO<TResult>(() =>
         {
             T value = Run();
-            IO<TResult> nextOperation =
-                next(value);
-
+            IO<TResult> nextOperation = next(value);
             return nextOperation.Run();
         });
     }
@@ -357,19 +331,13 @@ The type behaves as intended only under an important discipline: constructing an
 `Pure` also does not defer evaluation of its argument. This performs the read before `Pure` is called:
 
 ```csharp
-IO<string> order =
-    IO<string>.Pure(
-        File.ReadAllText(
-            "order.json"));
+IO<string> order = IO<string>.Pure(File.ReadAllText("order.json"));
 ```
 
 Deferral requires placing the operation inside a function:
 
 ```csharp
-IO<string> order =
-    IO<string>.From(() =>
-        File.ReadAllText(
-            "order.json"));
+IO<string> order = IO<string>.From(() => File.ReadAllText("order.json"));
 ```
 
 ## Building one effectful program
@@ -379,39 +347,28 @@ First, define a void-like result for operations whose useful outcome is the effe
 ```csharp
 public readonly record struct Unit
 {
-    public static Unit Value { get; } =
-        new Unit();
+    public static Unit Value { get; } = new Unit();
 }
 ```
 
 Now represent the primitive effects:
 
 ```csharp
-public static IO<string> ReadAllTextIO(
-    string path)
+public static IO<string> ReadAllTextIO(string path)
 {
-    return IO<string>.From(() =>
-        File.ReadAllText(path));
+    return IO<string>.From(() => File.ReadAllText(path));
 }
 
-public static IO<decimal> FetchExchangeRateIO(
-    string currency)
+public static IO<decimal> FetchExchangeRateIO(string currency)
 {
-    return IO<decimal>.From(() =>
-        exchangeRateApi.GetCurrentRate(
-            currency));
+    return IO<decimal>.From(() => exchangeRateApi.GetCurrentRate(currency));
 }
 
-public static IO<Unit> WriteAllTextIO(
-    string path,
-    string contents)
+public static IO<Unit> WriteAllTextIO(string path, string contents)
 {
     return IO<Unit>.From(() =>
     {
-        File.WriteAllText(
-            path,
-            contents);
-
+        File.WriteAllText(path, contents);
         return Unit.Value;
     });
 }
@@ -420,70 +377,46 @@ public static IO<Unit> WriteAllTextIO(
 Parsing and rendering remain ordinary pure functions:
 
 ```csharp
-public static Order ParseOrder(
-    string json)
+public static Order ParseOrder(string json)
 {
     return OrderParser.Parse(json);
 }
 
-public static string RenderReport(
-    Order order,
-    decimal exchangeRate)
+public static string RenderReport(Order order, decimal exchangeRate)
 {
-    return ReportRenderer.Render(
-        order,
-        exchangeRate);
+    return ReportRenderer.Render(order, exchangeRate);
 }
 
-public static IO<Order> ParseOrderIO(
-    string json)
+public static IO<Order> ParseOrderIO(string json)
 {
-    return IO<Order>.Pure(
-        ParseOrder(json));
+    return IO<Order>.Pure(ParseOrder(json));
 }
 
-public static IO<string> RenderReportIO(
-    Order order,
-    decimal exchangeRate)
+public static IO<string> RenderReportIO(Order order, decimal exchangeRate)
 {
-    return IO<string>.Pure(
-        RenderReport(
-            order,
-            exchangeRate));
+    return IO<string>.Pure(RenderReport(order, exchangeRate));
 }
 ```
 
 The larger program now reads as direct `FlatMap` composition:
 
 ```csharp
-public static IO<string> LoadOrderAndRenderReport(
-    string orderPath)
+public static IO<string> LoadOrderAndRenderReport(string orderPath)
 {
     return ReadAllTextIO(orderPath)
         .FlatMap(ParseOrderIO)
-        .FlatMap(order =>
-            FetchExchangeRateIO(
-                order.Currency)
-            .FlatMap(exchangeRate =>
-                RenderReportIO(
-                    order,
-                    exchangeRate)));
+        .FlatMap(order => FetchExchangeRateIO(order.Currency)
+            .FlatMap(exchangeRate => RenderReportIO(order, exchangeRate)));
 }
 ```
 
 The final write remains represented as well:
 
 ```csharp
-public static IO<Unit> LoadOrderAndWriteReport(
-    string orderPath,
-    string reportPath)
+public static IO<Unit> LoadOrderAndWriteReport(string orderPath, string reportPath)
 {
-    return LoadOrderAndRenderReport(
-            orderPath)
-        .FlatMap(report =>
-            WriteAllTextIO(
-                reportPath,
-                report));
+    return LoadOrderAndRenderReport(orderPath)
+        .FlatMap(report => WriteAllTextIO(reportPath, report));
 }
 ```
 
@@ -492,10 +425,7 @@ Constructing this value reads no file, calls no service, and writes no report.
 At the boundary, the program decides whether to run it:
 
 ```csharp
-IO<Unit> program =
-    LoadOrderAndWriteReport(
-        "order.json",
-        "report.txt");
+IO<Unit> program = LoadOrderAndWriteReport("order.json", "report.txt");
 
 program.Run();
 ```
