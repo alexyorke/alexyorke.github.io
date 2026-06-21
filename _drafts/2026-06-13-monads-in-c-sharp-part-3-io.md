@@ -9,11 +9,13 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 This article builds on the previous two. In those articles, the functions passed to `Map` and `FlatMap` were mostly pure. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result regardless of external state or invocation history.
 
-This article is about what changes when executing an operation becomes part of the outcome. Programs need effects so results can be observed.
+This article is about what changes when running an operation can itself affect what later code or the outside world observes.
 
 ```csharp
 public static int Add(int x, int y)
 {
+    // Pure function: the result depends only on x and y,
+    // and calling it causes no other changes.
     return x + y;
 }
 
@@ -25,26 +27,27 @@ If we throw away `first`, the earlier invocation still does not change the later
 
 That is why the earlier examples could let the surrounding monad decide how and whether the function is invoked. `List` can apply the function to many values. `Maybe` can skip it. `Result` can stop after an error. For pure functions, that stays compatible with composition because only the returned value matters.
 
-An effect, in this article, is an operation whose interaction with the outside world is part of what the program does: printing text, reading a file, writing data, or issuing an API request.
+An effect is an operation whose interaction with the outside world is part of what the program does. Programs need effects so results can be observed. Running an effect can change what later operations or external systems observe, even with the same explicit inputs.
 
 ```csharp
-public static void AppendLine(string path, string line)
+public static RiskScore GetRiskScore(Customer customer)
 {
-    File.AppendAllText(path, line + Environment.NewLine);
+    return riskApi.GetCurrentScore(customer.Id);
 }
 
-AppendLine("log.txt", "hello");
-AppendLine("log.txt", "hello");
-// log.txt now contains two lines
+RiskScore firstScore = GetRiskScore(customer);
+RiskScore secondScore = GetRiskScore(customer);
 ```
 
-Invoke `AppendLine("log.txt", "hello")` once and the file gains one line. Invoke it twice and the file gains two. Another process may change or lock the file in between. A later read from the same path may now produce a different result.
+Calling `GetRiskScore(customer)` twice is not like calling `Add(2, 4)` twice. The request might time out, consume quota, hit a rate limit, or return a different score on the second call even with the same customer. The act of calling the API is itself observable.
 
-Once an operation interacts with the world, later invocations depend on what happened before: whether the file was already changed, whether an API was already invoked, or whether rate limits, retries, or delays now apply. A stateful or rate-limited API may need a specific invocation pattern if you want later requests to succeed.
+With effects, execution policy means when, whether, in what order, and how often the operation runs. Once running the operation can change what later code or external systems observe, those choices become part of the outcome.
 
-With effects, the act of executing the operation is also part of the outcome. In this article, execution policy means when, whether, in what order, and how often the effect executes. For `Add`, changing that policy usually does not change the result. For `AppendLine`, earlier executions become part of what later operations observe. If you issue requests to an API too quickly, later requests may time out or hit a rate limit. If you append to a file ten thousand times, that is a different outcome than appending once.
+`IO<T>` changes `Customer -> RiskScore` into `Customer -> IO<RiskScore>`. Instead of performing the request immediately, the function returns a recipe for a request that can be run later. That keeps effectful code composable while leaving the execution policy open until a boundary decides to call `Run()`.
 
-Once those choices matter, execution order and repeat count have become part of the operation's contract. Different monads can impose different application policies, and those policies may not match how an effectful operation needs to execute. You could invent a special monad for one callback, or bury retry and throttling inside the callback itself, but then callers have to know hidden policy details and the function loses composability. `IO<T>` uses a different strategy: it returns a description of the computation first, and the boundary decides when to execute it. `IO<T>` does not remove those effects; it preserves composability while leaving control over execution strategy at the boundary.
+```text
+Customer -> IO<RiskScore>
+```
 
 In straightforward procedural code, execution is often immediate, and the programmer controls that sequence directly:
 
@@ -53,83 +56,43 @@ var scores = new List<RiskScore>();
 
 foreach (var customer in customers)
 {
-    RateLimit();
-    var score = riskApi.GetCurrentScore(customer.Id);
+    RiskScore score;
+
+    try
+    {
+        score = riskApi.GetCurrentScore(customer.Id);
+    }
+    catch (TransientRiskApiException)
+    {
+        Thread.Sleep(250);
+        score = riskApi.GetCurrentScore(customer.Id);
+    }
+
+    // At this point, score has already been evaluated and is known.
     scores.Add(score);
 }
 ```
 
-The loop specifies the policy: where requests execute, how often, and where rate limiting or error handling belongs.
+The loop specifies the execution policy: where requests run, how retries happen, and where delay or error handling belongs. In a toy example, that policy may be simple enough that wrapping the effect in `IO<T>` looks like ceremony.
 
-For example:
-
-```csharp
-public static RiskScore GetRiskScore(Customer customer)
-{
-    return riskApi.GetCurrentScore(customer.Id);
-}
-```
-
-Its visible type is:
+The visible type of `GetRiskScore` is:
 
 ```text
 Customer -> RiskScore
 ```
 
-That type does not reveal the difference between a calculation and an API request. In `customers.Map(GetRiskScore)`, a pure `GetRiskScore` is a value transformation. An effectful `GetRiskScore` is also an execution plan.
+That type does not reveal the difference between a calculation and an API request. In `customers.Map(GetRiskScore)`, a pure `GetRiskScore` is a value transformation. An effectful `GetRiskScore` also performs observable work.
 
-Invoke `GetRiskScore` directly in a loop and you control that policy yourself. Pass it to another monad or higher-order abstraction and you delegate the application policy:
+Invoke `GetRiskScore` directly in a loop and you control that execution policy yourself. Pass it to another monad and the surrounding monad decides how and whether to call it:
 
 ```csharp
 List<RiskScore> scores = customers.Map(GetRiskScore);
 Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
-The list may apply the function many times. `Maybe` may skip it. Another abstraction might defer it or batch it. For pure computations, only the returned value matters. For effects, invocation matters too.
+The list may call the function many times. `Maybe` may skip it. Another surrounding type might defer it or batch it. For pure functions, only the returned value matters. For effects, invocation matters too.
 
-The need to represent effects explicitly appears when the program grows and that policy must stay composable.
-
-`IO<T>` can be viewed as a deferred effectful computation: a recipe for a computation that does nothing until it is executed. Constructing or naming one does not begin execution; it only describes later execution. It makes that difference explicit by changing the type:
-
-```text
-Customer -> IO<RiskScore>
-```
-
-Instead of performing an effect and returning a value, the function returns a value that describes a computation. That computation may later interact with the outside world and produce a result. This lets a program compose effectful computations before an outer boundary decides how to execute them.
-
-A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. A variable of type `IO<T>` names the described computation, not a finished `T`. `IO<T>` is a recipe, not a box with a finished `T` inside; the result appears only when the effect executes. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
-
-In LINQ syntax, the same deferred program can be written like this once the usual LINQ aliases are available:
-
-```csharp
-IO<Unit> program =
-    from contents in ReadAllTextIO("order.json")
-    from _ in WriteAllTextIO("order-copy.json", contents)
-    select Unit.Value;
-```
-
-<details>
-<summary>Equivalent <code>FlatMap</code> form</summary>
-
-```csharp
-IO<Unit> program = ReadAllTextIO("order.json")
-    .FlatMap(contents => WriteAllTextIO("order-copy.json", contents));
-
-// No file has been read.
-// No file has been written.
-```
-
-</details>
-
-`program` is a value describing the computation. Naming it does not read or write anything. Execution begins only when the program is executed, here by calling `Run()`:
-
-```csharp
-program.Run();
-```
-
-Here, `Run()` is explicit for teaching purposes. In a real program, final execution is usually at an outer boundary such as `Main`.
-
-> **Note:** This article is not advocating `IO<T>` in production C#. C# is only the teaching language: a familiar procedural language that makes the execution-policy problem concrete without also teaching Haskell syntax.
+A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. A variable of type `IO<T>` names a recipe for the computation, not a finished `T`. The result appears only when the effect runs. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
 
 ## The implicit `World`
 
@@ -158,7 +121,7 @@ This is only a model for dependency and ordering, not a literal snapshot. It is 
 
 ## Make the effect part of the type
 
-The next step is to stop returning the API result directly. Instead, return a value that describes the request, so callers can keep composing it without committing to an invocation policy.
+The next step is to stop returning the API result directly. Instead, return a recipe for the request so callers can keep composing it without committing to an execution policy.
 
 Represent the API request explicitly:
 
@@ -169,9 +132,9 @@ public static IO<RiskScore> GetRiskScoreIO(Customer customer)
 }
 ```
 
-Calling `GetRiskScoreIO` constructs a request description. It does not issue the request.
+Calling `GetRiskScoreIO` constructs a request recipe. It does not issue the request.
 
-Mapping over the customers constructs a list of computations:
+Mapping over the customers constructs a list of request recipes:
 
 ```csharp
 List<IO<RiskScore>> requests = customers.Map(GetRiskScoreIO);
@@ -179,11 +142,11 @@ List<IO<RiskScore>> requests = customers.Map(GetRiskScoreIO);
 
 Mapping still invokes `GetRiskScoreIO` once per customer, but those invocations only construct `IO` values.
 
-The list still determines which customers participate, but each `IO<RiskScore>` now describes one request as a value. `requests` is still a collection of descriptions, not completed scores. `List<IO<RiskScore>>` is not the same type as `IO<List<RiskScore>>`: one is many request descriptions, while the other is one larger described computation. A later step can combine them into `IO<List<RiskScore>>` and execute them under a chosen policy. The effect is no longer hidden inside an ordinary returned value.
+The list still determines which customers participate, but each `IO<RiskScore>` is now one request recipe. `requests` is still a collection of recipes, not completed scores. `List<IO<RiskScore>>` is not the same type as `IO<List<RiskScore>>`: one is many request recipes, while the other is one larger recipe. A later step can combine them into `IO<List<RiskScore>>` and execute them under a chosen policy. The effect is no longer hidden inside an ordinary returned value.
 
 ## A small `IO<T>`
 
-Here, `IO<T>` is a named thunk with a composition interface.
+Here, `IO<T>` is a small wrapper around a deferred computation.
 
 ```csharp
 public sealed class IO<T>
@@ -231,9 +194,9 @@ public sealed class IO<T>
 }
 ```
 
-`From` defers a function. `Pure` injects an already-computed value into `IO<T>`; it does not execute an effect or extract anything from `IO<T>`. `Map` applies pure logic to the eventual value, while `FlatMap` is for the dependent case where the next step also returns `IO`. `Run` executes one.
+`From` defers a function. `Pure` puts an already-computed value into `IO<T>`; it does not execute an effect or extract anything from `IO<T>`. `Map` applies pure logic to the eventual value, while `FlatMap` is for the dependent case where the next step also returns `IO`. `Run` executes one.
 
-This implementation is intentionally limited. It is synchronous, and C# cannot enforce that constructing an `IO<T>` should describe computation rather than execute it immediately.
+This implementation is intentionally limited. It is synchronous, and C# cannot enforce that constructing an `IO<T>` should represent computation rather than execute it immediately. It also skips scoped resource cleanup. If a computation needs a stream, file handle, or database connection, the usual approach is to keep acquisition, use, and disposal together with a `Using`-style combinator instead of opening the resource in one place and disposing it somewhere unrelated.
 
 `Pure` also does not defer evaluation of its argument. This performs the read before `Pure` is called:
 
@@ -337,11 +300,43 @@ program.Run();
 
 Calling `Run` again re-executes the whole program. One-time execution, caching, idempotency, and exactly-once delivery are additional policies, not guarantees of `IO<T>`.
 
+In LINQ syntax, the same deferred program can be written like this once the usual LINQ aliases are available:
+
+```csharp
+IO<Unit> program =
+    from contents in ReadAllTextIO("order.json")
+    from _ in WriteAllTextIO("order-copy.json", contents)
+    select Unit.Value;
+```
+
+<details>
+<summary>Equivalent <code>FlatMap</code> form</summary>
+
+```csharp
+IO<Unit> program = ReadAllTextIO("order.json")
+    .FlatMap(contents => WriteAllTextIO("order-copy.json", contents));
+
+// No file has been read.
+// No file has been written.
+```
+
+</details>
+
+`program` is a value representing the recipe. Naming it does not read or write anything. Execution begins only when `Run()` is called:
+
+```csharp
+program.Run();
+```
+
+Here, `Run()` is explicit for teaching purposes. In a real program, final execution is usually at an outer boundary such as `Main`.
+
+> **Note:** This article is not advocating `IO<T>` in production C#. C# is only the teaching language: a familiar procedural language that makes the execution-policy problem concrete without also teaching Haskell syntax.
+
 ## Running at the edge
 
 As smaller `IO` values are combined, a larger part of the application may become one larger `IO` value. That does not remove effects; it keeps them deferred.
 
-"Move effects to the edge" means moving the final `Run()` outward. Helper functions can describe effects, larger functions can compose them, and an outer boundary such as `Main` or a request handler decides when to execute the final program.
+"Move effects to the edge" means moving the final `Run()` outward. Helper functions can return effect recipes, larger functions can compose them, and an outer boundary such as `Main` or a request handler decides when to execute the final program.
 
 That boundary still cannot freeze the world or selectively retry a hidden operation. Policies such as retry or throttling have to be attached while the relevant operation is still explicit.
 
