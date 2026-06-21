@@ -43,7 +43,9 @@ RiskScore secondScore = GetRiskScore(customer);
 
 Calling `GetRiskScore(customer)` twice is not like calling `Add(2, 4)` twice. The request might time out, consume quota, hit a rate limit, or return a different score on the second call even with the same customer. The act of calling the API is itself observable.
 
-With effects, execution policy becomes important: when the operation runs, whether it runs at all, in what order it runs, and how often it runs. Once running the operation can change what later code or external systems observe, those choices become part of the outcome. If the surrounding monad decides that policy for you, effectful computations can become awkward to compose cleanly.
+With effects, execution policy becomes important: when the operation runs, whether it runs at all, in what order it runs, and how often it runs. Once running the operation can change what later code or external systems observe, those choices become part of the outcome.
+
+The problem is not that monads cannot express execution policy. The problem is that each surrounding monad already comes with its own way of applying and sequencing functions. For pure functions that is usually fine, because only the returned value matters. For effectful computations, when, whether, in what order, and how often the function runs also matters, so the surrounding monad's policy may no longer match what the effect needs.
 
 `IO<T>` changes `Customer -> RiskScore` into `Customer -> IO<RiskScore>`. Instead of performing the request immediately, the function returns a recipe for a request that can be run later. `IO<T>` names a computation to run later, not a finished `T` waiting inside. That keeps the effect composable while leaving the execution policy open until a boundary decides to call `Run()`.
 
@@ -263,29 +265,19 @@ public static string RenderReport(Order order, decimal exchangeRate)
 {
     return ReportRenderer.Render(order, exchangeRate);
 }
-
-public static IO<Order> ParseOrderIO(string json)
-{
-    return IO<Order>.Pure(ParseOrder(json));
-}
-
-public static IO<string> RenderReportIO(Order order, decimal exchangeRate)
-{
-    return IO<string>.Pure(RenderReport(order, exchangeRate));
-}
 ```
 
 The composed program:
 
-The nesting here is intentional: later effectful steps sometimes depend on earlier values staying available, so `FlatMap` has to preserve that dependency in the structure of the program.
+Here `Map` handles the pure steps, while `FlatMap` preserves the effectful dependency on the earlier `order` value.
 
 ```csharp
 public static IO<string> LoadOrderAndRenderReport(string orderPath)
 {
     return ReadAllTextIO(orderPath)
-        .FlatMap(ParseOrderIO)
+        .Map(ParseOrder)
         .FlatMap(order => FetchExchangeRateIO(order.Currency)
-            .FlatMap(exchangeRate => RenderReportIO(order, exchangeRate)));
+            .Map(exchangeRate => RenderReport(order, exchangeRate)));
 }
 ```
 
@@ -308,28 +300,6 @@ program.Run();
 ```
 
 Calling `Run` again re-executes the whole program. One-time execution, caching, idempotency, and exactly-once delivery are additional policies, not guarantees of `IO<T>`.
-
-In LINQ syntax, the same deferred program can be written like this once the usual LINQ aliases are available:
-
-```csharp
-IO<Unit> program =
-    from contents in ReadAllTextIO("order.json")
-    from _ in WriteAllTextIO("order-copy.json", contents)
-    select Unit.Value;
-```
-
-<details>
-<summary>Equivalent <code>FlatMap</code> form</summary>
-
-```csharp
-IO<Unit> program = ReadAllTextIO("order.json")
-    .FlatMap(contents => WriteAllTextIO("order-copy.json", contents));
-
-// No file has been read.
-// No file has been written.
-```
-
-</details>
 
 `program` is a value representing the recipe. Naming it does not read or write anything. Execution begins only when `Run()` is called:
 
