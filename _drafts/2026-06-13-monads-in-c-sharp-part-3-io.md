@@ -11,9 +11,9 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 Earlier in this series, many of the teaching examples passed pure functions to `Map` and `FlatMap`. Part 2 also used repository lookups and mutation pragmatically, but it did not examine what happens when the number, order, or timing of those operations becomes observable.
 
-An effect is observable behavior beyond returning a value: for example, I/O, mutation, observing time or randomness, or throwing an exception. This article focuses mainly on I/O and externally visible state.
+An effect is observable behavior beyond returning a value: for example, I/O, mutation, observing time or randomness, or throwing an exception. Whole programs usually need effects somewhere because results have to be displayed, stored, sent, or otherwise observed. This article focuses mainly on I/O and externally visible state.
 
-A pure function's observable result depends only on its explicit inputs. Given the same arguments, it produces the same result, and evaluating it causes no other observable behavior.
+For a terminating pure function, the observable result depends only on its explicit inputs. Given the same arguments, it produces the same result, and evaluating it causes no other observable behavior.
 
 ```csharp
 public static decimal CalculateTotal(
@@ -27,19 +27,17 @@ public static decimal CalculateTotal(
     return discountedSubtotal + tax;
 }
 
-decimal first = CalculateTotal(100m, 0.13m, 5m);   // 107.35
-decimal second = CalculateTotal(100m, 0.13m, 5m);  // 107.35
+decimal totalA = CalculateTotal(100m, 0.13m, 5m);  // 107.35
+decimal totalB = CalculateTotal(100m, 0.13m, 5m);  // 107.35
 ```
 
-Discarding `first` does not change the observable behavior of the program. The second invocation still produces `107.35`.
+At this level of reasoning, discarding `totalA` does not change the observable behavior of the program. The next invocation still produces `107.35`.
 
-This matters first at the `Map` level. An eager list map invokes its function once for every element. `Maybe.Map` invokes it zero or one times. `Result.Map` invokes it only when a successful value is present.
+The first place this matters is the operation that applies your function. The eager `List.Map` helper from Part 1 invokes the function once for every element. `Maybe.Map` invokes it zero or one times. `Result.Map` invokes it only when a successful value is present.
 
-When the function is pure, those differences affect only the returned values. When the function has effects, they also determine how many times those effects happen.
+When the function is pure, those rules only affect which values are returned. When the function has effects, the same rules also decide how many times those effects happen. A list of ten customers can mean ten API calls. A missing `Maybe` value can mean no API call. A failed `Result` can mean the next effectful step is skipped. For other monads, the rules differ.
 
-Strictly speaking, `Map` is the functor operation. `FlatMap`, also called bind, is the monadic operation used when the next function returns another value in the same context. ([Haskell][1])
-
-In this article, `List.Map` refers to the eager `List<T>` helper introduced in Part 1. It is not LINQ's deferred `IEnumerable<T>.Select`. A deferred LINQ query can run later and can repeat its selector when enumerated more than once, which matters when the selector has side effects. ([Microsoft Learn][2])
+> Note: I am starting with `Map` because it is the simplest place to see the invocation question. Strictly speaking, `Map` is the functor operation. `FlatMap`, also called bind, is the monadic operation used when the next function returns another value in the same context.
 
 Now compare an effectful function:
 
@@ -60,16 +58,18 @@ RiskScore secondScore =
 
 Calling `GetRiskScore` twice is not equivalent to calling `CalculateTotal` twice.
 
-The first request might succeed and the second might time out. The calls might return different scores, consume quota, encounter a rate limit, or observe different service state even though the explicit arguments are the same objects.
+Discarding `firstScore` does not undo the first API call. The next invocation is not guaranteed to return the same score: the service may have newer data, record audit or usage state, consume quota, change a cache, reject an expired token, throttle or rate-limit the caller, or be temporarily unavailable even though the visible arguments are the same.
 
-With effects, evaluation behavior becomes observable:
+With effects, execution policy becomes part of the program's observable behavior:
 
 * when an operation runs;
 * whether it runs;
 * in what order it runs;
 * how many times it runs.
 
-In procedural code, the programmer often controls that behavior directly:
+For a pure function, those invocation details do not change the value-level meaning: the caller only observes returned values. For an effectful function, delegating invocation to `List.Map`, `Maybe.Map`, `Result.Map`, or another mapping operation also delegates part of the execution policy. That abstraction can decide whether the function is called, how often it is called, and what prior effects later operations may observe.
+
+In procedural code, the programmer often controls that execution policy directly:
 
 ```csharp
 var scores = new List<RiskScore>();
@@ -93,7 +93,7 @@ foreach (Customer customer in customers)
 }
 ```
 
-The loop specifies the execution behavior: requests run in sequence, a particular exception causes one retry, and later customers are not processed if an unhandled exception escapes.
+The loop specifies the execution policy: requests run in sequence, a particular exception causes one retry, and later customers are not processed if an unhandled exception escapes.
 
 The ordinary method type does not distinguish this request from an in-memory calculation:
 
@@ -115,9 +115,7 @@ Maybe<RiskScore> score =
 
 The eager list map invokes the request once for every customer. `Maybe.Map` invokes it zero or one times.
 
-This is not necessarily wrong. It is simply important once invocation itself is observable.
-
-Wrapping an operation in `IO<T>` is also not the only way to express execution policy. Ordinary loops, decorators, schedulers, and .NET resilience pipelines can supply retries, timeouts, circuit breakers, rate limits, and related behavior. ([Microsoft Learn][3])
+Direct loops and ordinary .NET resilience tools are often the right approach in C#. Wrapping an operation in `IO<T>` is not the only way to express execution policy. Ordinary loops, decorators, schedulers, and resilience pipelines can supply retries, timeouts, circuit breakers, rate limits, and related behavior.
 
 The narrower benefit of `IO<T>` is that a deliberately deferred operation becomes a value. Code can return, combine, and rearrange that value without starting the operation immediately.
 
@@ -229,7 +227,7 @@ public sealed class IO<T>
 
 `Pure` puts an already-computed value into `IO<T>`. It does not defer evaluation of its argument.
 
-This is wrong when the expression itself performs an effect:
+This defeats deferral when the expression itself performs an effect:
 
 ```csharp
 IO<string> text =
@@ -266,8 +264,8 @@ The console write is delayed because the mapping function is called from the sto
 This implementation also has several important runtime semantics:
 
 * It is synchronous. `Run()` executes on the calling thread.
-* It is non-memoized. Every call to `Run()` invokes the stored delegate again.
-* Exceptions are delayed, not modeled as values. They escape when `Run()` executes.
+* It is non-memoized. Every call to `Run()` invokes the stored delegate again unless caching is added explicitly.
+* Exceptions thrown by the stored delegate or mapped functions are delayed, not modeled as values. They escape when `Run()` executes.
 * A deeply nested chain of `Map` or `FlatMap` calls is not stack-safe.
 * Captured mutable state is observed when the delegate runs, not necessarily when the `IO<T>` is constructed.
 * Running the same `IO<T>` concurrently is only as safe as the code and state captured by its delegate.
@@ -276,9 +274,9 @@ The name `IO` is conventional, but this particular implementation is only a thin
 
 ## Why this is not `Task<T>`
 
-This example deliberately avoids `Task<T>`.
+`Task<T>` is the usual .NET tool for asynchronous work, and it is a good fit for the Task-based Asynchronous Pattern.
 
-Under the normal .NET Task-based Asynchronous Pattern, tasks returned by asynchronous methods are active: the represented operation has already been initiated. Consumers are not expected to call `Start()` on those tasks. ([Microsoft Learn][4])
+This example deliberately avoids it because the article is focused on cold deferral. Under the normal Task-based Asynchronous Pattern, tasks returned by asynchronous methods are active: the represented operation has already been initiated. Consumers are not expected to call `Start()` on those tasks.
 
 This `IO<T>` is different. It is a cold computation that does not start until `Run()` is called.
 
@@ -313,7 +311,7 @@ IO<List<RiskScore>>
 
 `IO<List<RiskScore>>` is one larger recipe that, when run, performs some traversal and produces a list.
 
-`FlatMap` cannot by itself turn the first shape into the second. `FlatMap` removes a nested layer when both layers use the same abstraction:
+A single `FlatMap` on either structure is not enough to turn the first shape into the second. `FlatMap` removes a nested layer when both layers use the same abstraction:
 
 ```text
 IO<IO<T>>     -> IO<T>
@@ -322,7 +320,7 @@ List<List<T>> -> List<T>
 
 `List<IO<T>>` contains two different structures. Combining them requires a rule for how the list is traversed and how the individual operations are run.
 
-That operation is commonly called `Sequence`. A related operation called `Traverse` combines mapping with sequencing. The standard Haskell operations likewise distinguish `sequence`, which turns a list of actions into one action producing a list, from `mapM`, which first maps an action-producing function over the inputs. ([Haskell][1])
+That operation is commonly called `Sequence`. A related operation called `Traverse` combines mapping with sequencing. The standard Haskell operations likewise distinguish `sequence`, which turns a list of actions into one action producing a list, from `mapM`, which first maps an action-producing function over the inputs.
 
 Here is one specific traversal:
 
@@ -386,7 +384,7 @@ This implementation commits to a concrete policy:
 * only one operation runs at a time;
 * the first thrown exception stops the traversal;
 * the result list is returned only if every operation succeeds;
-* another call to `Run()` enumerates the source and performs every operation again.
+* another call to `Run()` attempts to enumerate the source and perform every operation again.
 
 The traversal policy is selected by `TraverseSequential`, not by the final call to `Run()`.
 
@@ -472,7 +470,7 @@ public static IO<Unit> LoadOrderAndWriteReport(
 }
 ```
 
-C# query syntax is translated by the compiler into method calls such as `Select` and `SelectMany`. That syntax is not restricted to enumerable collections; another type can participate by providing methods with the required shapes. ([Microsoft Learn][5])
+C# query syntax is translated by the compiler into method calls such as `Select` and `SelectMany`. That syntax is not restricted to enumerable collections; another type can participate by providing methods with the required shapes.
 
 <details>
 <summary>The same program with Map and FlatMap</summary>
@@ -548,8 +546,8 @@ Those decisions must be encoded while constructing the program:
 * `FlatMap` commits to dependent sequential composition.
 * `TraverseSequential` commits to one-at-a-time traversal.
 * A retry combinator could commit to repeating a particular operation.
-* An external resilience pipeline could provide retries, timeouts, circuit breaking, or rate limiting. ([Microsoft Learn][3])
-* Resource lifetime must still be handled with a construct such as `using`, `await using`, or an equivalent bracket operation. C#'s `using` statement guarantees disposal even when an exception leaves the block. ([Microsoft Learn][6])
+* An external resilience pipeline could provide retries, timeouts, circuit breaking, or rate limiting.
+* Resource lifetime must still be handled with a construct such as `using`, `await using`, or an equivalent bracket operation. C#'s `using` statement guarantees disposal even when an exception leaves the block.
 
 A richer effect system could preserve an inspectable description of individual operations and use a programmable interpreter or runtime. This toy implementation erases the composed structure into nested delegates, so `Run()` is only a runner.
 
@@ -562,10 +560,3 @@ This toy `IO<T>` makes deliberately wrapped computations composable and provides
 Order, traversal, retry, cancellation, concurrency, failure, and resource behavior are determined by the combinators and runtime used to construct the program.
 
 In this implementation, `Run()` simply executes the resulting synchronous, replayable thunk.
-
-[1]: https://www.haskell.org/onlinereport/haskell2010/haskellch13.html "13 Control.Monad"
-[2]: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1851 "CA1851: Possible multiple enumerations of 'IEnumerable' collection - .NET | Microsoft Learn"
-[3]: https://learn.microsoft.com/en-us/dotnet/core/resilience/ "Introduction to resilient app development - .NET | Microsoft Learn"
-[4]: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap "Task-based Asynchronous Pattern (TAP): Introduction and overview - .NET | Microsoft Learn"
-[5]: https://learn.microsoft.com/en-us/dotnet/csharp/linq/get-started/write-linq-queries "Write LINQ queries - C# | Microsoft Learn"
-[6]: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/using "using statement - ensure the correct use of disposable objects - C# reference | Microsoft Learn"
