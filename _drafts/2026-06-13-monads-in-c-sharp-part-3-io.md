@@ -38,6 +38,8 @@ AppendLine("log.txt", "hello");
 
 Call `AppendLine("log.txt", "hello")` once and the file gains one line. Call it twice and the file gains two. Another process may also change or lock the file in between. Even a later read from the same path may now produce a different result.
 
+Once an operation touches the world, later calls depend on what happened before: whether the file was already changed, whether an API was already called, or whether rate limits, retries, or delays now apply. An HTTP request often needs a specific calling pattern if you want later requests to succeed.
+
 That is why the earlier examples could let the surrounding monad decide how and whether the function is called. `List` can apply the function to many values. `Maybe` can skip it. `Result` can stop after an error. For pure functions, that stays compatible with composition because only the returned value matters.
 
 With effects, the act of running the operation is also part of the outcome. In this article, execution policy means the rule for when, whether, in what order, and how often the effect runs. For `Add`, changing that policy usually does not change the answer. For `AppendLine`, previous runs become part of what later operations observe. If you blast a service with requests, later calls may time out or hit a rate limit. If you append to a file ten thousand times, that is a different outcome than appending once.
@@ -150,30 +152,9 @@ Conceptually:
 
 This is only a model for dependency and ordering, not a literal snapshot. Sequencing two effects does not stop an external system from changing between them.
 
-## Hidden effects inherit the surrounding rule
-
-When a function is passed to `Map` or `FlatMap`, the surrounding type applies it according to its own rule. `List` applies it to each item, `Maybe` only when a value is present, and `Result` only after success. Pure functions fit these rules naturally because applying them introduces no hidden interaction.
-
-Suppose, however, that this apparently ordinary function calls an API:
-
-```csharp
-public static RiskScore GetRiskScore(Customer customer)
-{
-    return riskApi.GetCurrentScore(customer.Id);
-}
-```
-
-Mapping it over a list makes the list traversal an API execution plan:
-
-```csharp
-List<RiskScore> scores = customers.Map(GetRiskScore);
-```
-
-If the list contains ten thousand customers, the traversal makes ten thousand service calls. You can bury retry or throttling inside the callback, but then that policy is fixed inside the traversal. An effect inside `Result.Map` is skipped on error. An effect inside a deferred `IEnumerable<T>` selector may run again during a second enumeration.
-
-The issue is not that these abstractions cannot perform effects. The issue is that hiding an effect inside `A -> B` couples its execution to an application rule that does not express the effect's full operational contract.
-
 ## Make the effect part of the type
+
+The next step is to stop returning the API result directly. Instead, return a value that describes the request, so callers can keep composing it without committing to a calling policy yet.
 
 Represent the API request explicitly:
 
