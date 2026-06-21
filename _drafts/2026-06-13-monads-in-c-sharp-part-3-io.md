@@ -7,7 +7,7 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
-> **Note:** This article is not recommending `IO<T>` for production C#. C# is only the teaching language here: it makes the execution-policy problem concrete without also introducing Haskell syntax at the same time. There are already many excellent IO tutorials in Haskell and related languages, so this article uses familiar C# to approach the same ideas from a different angle.
+> **Note:** This article is not recommending `IO<T>` for production C#. The title follows the series naming, but the article is explanatory rather than prescriptive. C# is only the teaching language here: it makes the execution-policy problem concrete without also introducing Haskell syntax at the same time. There are already many excellent IO tutorials in Haskell and related languages, so this article uses familiar C# to approach the same ideas from a different angle.
 
 This article builds on the previous two. Earlier in the series, many of the small teaching examples passed pure functions to `Map` and `FlatMap`, although Part 2 already mixed in repository lookups and pragmatic mutation. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result, and calling it causes no side effects.
 
@@ -45,7 +45,7 @@ Calling `GetRiskScore(customer)` twice is not like calling `Add(2, 4)` twice. Th
 
 With effects, execution policy becomes important: when the operation runs, whether it runs at all, in what order it runs, and how often it runs. Once running the operation can change what later code or external systems observe, those choices become part of the outcome. If the surrounding monad decides that policy for you, effectful computations can become awkward to compose cleanly.
 
-`IO<T>` changes `Customer -> RiskScore` into `Customer -> IO<RiskScore>`. Instead of performing the request immediately, the function returns a recipe for a request that can be run later. That keeps the effect composable while leaving the execution policy open until a boundary decides to call `Run()`.
+`IO<T>` changes `Customer -> RiskScore` into `Customer -> IO<RiskScore>`. Instead of performing the request immediately, the function returns a recipe for a request that can be run later. `IO<T>` names a computation to run later, not a finished `T` waiting inside. That keeps the effect composable while leaving the execution policy open until a boundary decides to call `Run()`.
 
 ```text
 Customer -> IO<RiskScore>
@@ -203,7 +203,7 @@ public sealed class IO<T>
 
 `From` defers a function. `Pure` puts an already-computed value into `IO<T>`; it does not execute an effect or extract anything from `IO<T>`. `Map` applies pure logic to the eventual value, while `FlatMap` is for the dependent case where the next step also returns `IO`. `Run` executes the stored recipe.
 
-This implementation is intentionally a toy. It is synchronous, and C# cannot enforce that constructing an `IO<T>` should represent computation rather than execute it immediately. It also skips scoped resource cleanup. If a computation needs a stream, file handle, or database connection, the usual approach is to keep acquisition, use, and disposal together with a `Using`-style combinator instead of opening the resource in one place and disposing it somewhere unrelated.
+This implementation is intentionally a toy. It is synchronous, and C# cannot enforce that constructing an `IO<T>` should represent computation rather than execute it immediately. A standalone wrapper like this also does not make the rest of C# effect-aware or suddenly idiomatic for this style. It also skips scoped resource cleanup. If a computation needs a stream, file handle, or database connection, the usual approach is to keep acquisition, use, and disposal together with a `Using`-style combinator instead of opening the resource in one place and disposing it somewhere unrelated.
 
 `Pure` also does not defer evaluation of its argument. This performs the read before `Pure` is called:
 
@@ -276,6 +276,8 @@ public static IO<string> RenderReportIO(Order order, decimal exchangeRate)
 ```
 
 The composed program:
+
+The nesting here is intentional: later effectful steps sometimes depend on earlier values staying available, so `FlatMap` has to preserve that dependency in the structure of the program.
 
 ```csharp
 public static IO<string> LoadOrderAndRenderReport(string orderPath)
