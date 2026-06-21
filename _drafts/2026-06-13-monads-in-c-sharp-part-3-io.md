@@ -43,9 +43,7 @@ RiskScore secondScore = GetRiskScore(customer);
 
 Calling `GetRiskScore(customer)` twice is not like calling `Add(2, 4)` twice. The request might time out, consume quota, hit a rate limit, or return a different score on the second call even with the same customer.
 
-With effects, execution policy becomes important: when the operation runs, whether it runs at all, in what order it runs, and how often it runs. Later effectful steps may depend on whether earlier ones already ran, whether they succeeded, and what state they left behind, so those choices become part of the outcome.
-
-The problem is not that monads cannot express execution policy. The problem is that each surrounding monad already comes with its own way of applying and sequencing functions. For effectful computations, the surrounding monad's policy may no longer match what the effect needs.
+With effects, execution policy becomes part of the outcome: when the operation runs, whether it runs at all, in what order it runs, and how often it runs. That matters because each surrounding monad already has its own way of applying and sequencing functions.
 
 `IO<T>` changes `Customer -> RiskScore` into `Customer -> IO<RiskScore>`. Instead of performing the request immediately, the function returns a recipe for a request that can be run later. `IO<T>` names a computation to run later, not a finished `T` waiting inside.
 
@@ -80,30 +78,24 @@ foreach (var customer in customers)
 
 Here the programmer specifies the execution policy directly, and the loop is where that policy is visible: where requests run, how retries happen, and where delay or error handling belongs.
 
-The visible type of `GetRiskScore` is:
-
 ```text
 Customer -> RiskScore
 ```
 
-That type does not reveal the difference between a calculation and an API request. That matters because once the type hides observable work, the surrounding monad's way of applying the function also affects how the effect behaves.
-
-Invoke `GetRiskScore` directly in a loop and you control that execution policy yourself. Pass it to another monad and the surrounding monad decides how and whether to call it:
+That type does not reveal the difference between a calculation and an API request. Invoke `GetRiskScore` directly in a loop and you control that execution policy yourself. Pass it to another monad and the surrounding monad decides how and whether to call it:
 
 ```csharp
 List<RiskScore> scores = customers.Map(GetRiskScore);
 Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
-You can hide retry or delay inside `GetRiskScore`, and in a trivial case that may look sufficient. But the surrounding monad still decides when and whether the function gets called at all. If you need a different overall policy, you either bake that policy into the function itself or invent a special monad for that case, and both choices reduce composability.
+If you need a different overall policy, you either bake that policy into the function itself or invent a special monad for that case, and both choices reduce composability.
 
 A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. A variable of type `IO<T>` names a recipe for the computation, not a finished `T`. The result appears only when the effect runs. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
 
 ## Make the effect part of the type
 
-The next step is to stop returning the API result directly. Instead, return a recipe for the request so callers can keep composing it without committing to an execution policy.
-
-Represent the API request explicitly:
+Instead, return a recipe for the request so callers can keep composing it without committing to an execution policy.
 
 ```csharp
 public static IO<RiskScore> GetRiskScoreIO(Customer customer)
@@ -170,18 +162,6 @@ public sealed class IO<T>
 
 `From` defers a function. `Pure` puts an already-computed value into `IO<T>`; it does not execute an effect or extract anything from `IO<T>`. `Map` applies pure logic to the eventual value, while `FlatMap` is for the dependent case where the next step also returns `IO`. `Run` executes the stored recipe.
 
-`Pure` also does not defer evaluation of its argument. This performs the read before `Pure` is called:
-
-```csharp
-IO<string> order = IO<string>.Pure(File.ReadAllText("order.json"));
-```
-
-Deferral requires placing the operation inside a function:
-
-```csharp
-IO<string> order = IO<string>.From(() => File.ReadAllText("order.json"));
-```
-
 ## Building one effectful program
 
 First, define a void-like result for operations whose useful outcome is the effect itself:
@@ -192,8 +172,6 @@ public readonly record struct Unit
     public static Unit Value { get; } = new Unit();
 }
 ```
-
-Now represent the basic effects:
 
 ```csharp
 public static IO<string> ReadAllTextIO(string path)
@@ -216,21 +194,7 @@ public static IO<Unit> WriteAllTextIO(string path, string contents)
 }
 ```
 
-Parsing and rendering remain pure functions:
-
-```csharp
-public static Order ParseOrder(string json)
-{
-    return OrderParser.Parse(json);
-}
-
-public static string RenderReport(Order order, decimal exchangeRate)
-{
-    return ReportRenderer.Render(order, exchangeRate);
-}
-```
-
-The composed program:
+Assume `ParseOrder` and `RenderReport` are pure functions.
 
 ```csharp
 public static IO<string> LoadOrderAndRenderReport(string orderPath)
@@ -258,11 +222,7 @@ IO<Unit> program = LoadOrderAndWriteReport("order.json", "report.txt");
 program.Run();
 ```
 
-## Running at the edge
-
-"Move effects to the edge" means moving the final `Run()` outward. Helper functions can return effect recipes, larger functions can compose them, and an outer boundary such as `Main` or a request handler decides when to execute the final program.
-
-That boundary still cannot freeze the world or selectively retry a hidden operation. Policies such as retry or throttling have to be attached while the relevant operation is still explicit.
+Moving effects to the edge means moving the final `Run()` outward. Helper functions can return effect recipes, larger functions can compose them, and an outer boundary such as `Main` or a request handler decides when to execute the final program.
 
 ## Conclusion
 
