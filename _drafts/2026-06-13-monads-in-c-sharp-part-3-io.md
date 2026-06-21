@@ -141,6 +141,8 @@ Calling `GetRiskScoreIO` constructs an `IO<RiskScore>`. It does not call the API
 
 `IO<RiskScore>` does not contain a completed `RiskScore`. It contains a computation that may produce one when executed.
 
+If you map `GetRiskScoreIO` over a list of customers, the result is a `List<IO<RiskScore>>`: a list of deferred request recipes, not a list of scores and not one larger combined program. Combining many `IO` recipes into one larger recipe is useful, but it is a separate sequencing topic; the appendix sketches it.
+
 This does not make C# pure, and it does not prevent effects from being hidden inside ordinary delegates. It marks only the operations that the programmer deliberately wraps in `IO<T>`.
 
 There is also no non-executing conversion from `IO<T>` to `T`. In this implementation, producing the `T` means calling `Run()`, and calling `Run()` executes the stored computation.
@@ -198,24 +200,6 @@ public sealed class IO<T>
         });
     }
 
-    public IO<TResult> Select<TResult>(
-        Func<T, TResult> select)
-    {
-        return Map(select);
-    }
-
-    public IO<TResult> SelectMany<TNext, TResult>(
-        Func<T, IO<TNext>> next,
-        Func<T, TNext, TResult> project)
-    {
-        ArgumentNullException.ThrowIfNull(next);
-        ArgumentNullException.ThrowIfNull(project);
-
-        return FlatMap(value =>
-            next(value).Map(nextValue =>
-                project(value, nextValue)));
-    }
-
     public T Run()
     {
         return operation();
@@ -263,16 +247,10 @@ The console write is delayed because the mapping function is called from the sto
 
 This implementation also has several important runtime semantics:
 
-* It is synchronous. `Run()` executes on the calling thread.
-* It is non-memoized. Every call to `Run()` invokes the stored delegate again unless caching is added explicitly.
-* Exceptions thrown by the stored delegate or mapped functions are delayed, not modeled as values. They escape when `Run()` executes.
-* A deeply nested chain of `Map` or `FlatMap` calls is not stack-safe.
-* Captured mutable state is observed when the delegate runs, not necessarily when the `IO<T>` is constructed.
-* Running the same `IO<T>` concurrently is only as safe as the code and state captured by its delegate.
-
-The name `IO` is conventional, but this particular implementation is only a thin wrapper around a synchronous `Func<T>`.
-
-## Why this is not `Task<T>`
+* `Run()` executes synchronously on the calling thread.
+* Every call to `Run()` invokes the stored delegate again unless caching is added explicitly.
+* Exceptions are delayed, not modeled as values. They escape when `Run()` executes.
+* Captured mutable state is observed when the delegate runs, not when the `IO<T>` is constructed.
 
 `Task<T>` is the usual .NET tool for asynchronous work, and it is a good fit for the Task-based Asynchronous Pattern.
 
@@ -280,15 +258,195 @@ This example deliberately avoids it because the article is focused on cold defer
 
 This `IO<T>` is different. It is a cold computation that does not start until `Run()` is called.
 
-A realistic asynchronous effect abstraction would also need to address cancellation and resource lifetime, perhaps by storing something such as:
+## Building one effectful program
+
+Start with effects that produce useful values:
 
 ```csharp
-Func<CancellationToken, Task<T>>
+public static IO<string> ReadAllTextIO(
+    string path)
+{
+    return IO<string>.Delay(
+        () => File.ReadAllText(path));
+}
+
+public static IO<decimal> FetchExchangeRateIO(
+    IExchangeRateApi exchangeRateApi,
+    string currency)
+{
+    return IO<decimal>.Delay(
+        () => exchangeRateApi.GetCurrentRate(currency));
+}
 ```
 
-That is outside the scope of this synchronous teaching type.
+Writing a file matters primarily because the write happened. Since `IO<T>` still has a type parameter, use a small `Unit` value when there is no more useful result:
 
-## From a list of recipes to one recipe
+```csharp
+public readonly record struct Unit
+{
+    public static Unit Value { get; } = new();
+}
+
+public static IO<Unit> WriteAllTextIO(
+    string path,
+    string contents)
+{
+    return IO<Unit>.Delay(() =>
+    {
+        File.WriteAllText(path, contents);
+
+        return Unit.Value;
+    });
+}
+```
+
+For this example, assume that `ParseOrder` and `RenderReport` are pure and that `ParseOrder` is total: it always returns an `Order` rather than throwing or returning a failure.
+
+The dependent operations can now be composed in order:
+
+```csharp
+public static IO<string> LoadOrderAndRenderReport(
+    IExchangeRateApi exchangeRateApi,
+    string orderPath)
+{
+    return ReadAllTextIO(orderPath)
+        .Map(ParseOrder)
+        .FlatMap(order =>
+            FetchExchangeRateIO(
+                    exchangeRateApi,
+                    order.Currency)
+                .Map(exchangeRate =>
+                    RenderReport(
+                        order,
+                        exchangeRate)));
+}
+
+public static IO<Unit> LoadOrderAndWriteReport(
+    IExchangeRateApi exchangeRateApi,
+    string orderPath,
+    string reportPath)
+{
+    return LoadOrderAndRenderReport(
+            exchangeRateApi,
+            orderPath)
+        .FlatMap(report =>
+            WriteAllTextIO(
+                reportPath,
+                report));
+}
+```
+
+Constructing the program still performs none of the wrapped effects:
+
+```csharp
+IO<Unit> program =
+    LoadOrderAndWriteReport(
+        exchangeRateApi,
+        "order.json",
+        "report.txt");
+```
+
+The effects begin when the program is run:
+
+```csharp
+program.Run();
+```
+
+Calling it again repeats the file read, exchange-rate request, and file write:
+
+```csharp
+program.Run();
+```
+
+Moving effects to the edge means moving the final `Run()` outward by convention. Helper functions return deferred computations, larger functions compose them, and an outer boundary, such as a console application's `Main` method, decides when to start the final program.
+
+This convention does not guarantee that all effects occur at the boundary. C# still permits an effect while constructing an `IO<T>`, inside a function passed to `Map`, or before a value is passed to `Pure`.
+
+## `Run()` is a runner, not an interpreter
+
+In this implementation, `Run()` invokes one opaque `Func<T>`.
+
+It cannot inspect the program and determine which part is an API request, which part is a file write, and which part is pure calculation. It therefore cannot retroactively choose to parallelize independent operations, retry only one request, inject cancellation, or add resource cleanup.
+
+Those decisions must be encoded while constructing the program:
+
+* `FlatMap` commits to dependent sequential composition.
+* A sequencing helper can commit to one-at-a-time traversal over many operations; the appendix shows one such helper.
+* A retry combinator could commit to repeating a particular operation.
+* An external resilience pipeline could provide retries, timeouts, circuit breaking, or rate limiting.
+* Resource lifetime must still be handled with a construct such as `using`, `await using`, or an equivalent bracket operation. C#'s `using` statement guarantees disposal even when an exception leaves the block.
+
+A richer effect system could preserve an inspectable description of individual operations and use a programmable interpreter or runtime. This toy implementation erases the composed structure into nested delegates, so `Run()` is only a runner.
+
+## Conclusion
+
+The useful distinction is between a value and a deferred computation that may perform observable effects before producing a value.
+
+This toy `IO<T>` makes deliberately wrapped computations composable and provides an explicit point at which to start them. It delays execution; it does not enforce purity or leave every execution-policy decision until `Run()`.
+
+Order, traversal, retry, cancellation, concurrency, failure, and resource behavior are determined by the combinators and runtime used to construct the program.
+
+In this implementation, `Run()` simply executes the resulting synchronous, replayable thunk.
+
+## Appendix
+
+### Optional C# query syntax support
+
+C# query syntax is translated by the compiler into method calls such as `Select` and `SelectMany`. That syntax is not restricted to enumerable collections; another type can participate by providing methods with the required shapes.
+
+```csharp
+public IO<TResult> Select<TResult>(
+    Func<T, TResult> select)
+{
+    return Map(select);
+}
+
+public IO<TResult> SelectMany<TNext, TResult>(
+    Func<T, IO<TNext>> next,
+    Func<T, TNext, TResult> project)
+{
+    ArgumentNullException.ThrowIfNull(next);
+    ArgumentNullException.ThrowIfNull(project);
+
+    return FlatMap(value =>
+        next(value).Map(nextValue =>
+            project(value, nextValue)));
+}
+```
+
+With those methods added to `IO<T>`, the earlier program can also be written with query syntax:
+
+```csharp
+public static IO<string> LoadOrderAndRenderReport(
+    IExchangeRateApi exchangeRateApi,
+    string orderPath)
+{
+    return
+        from json in ReadAllTextIO(orderPath)
+        let order = ParseOrder(json)
+        from exchangeRate in FetchExchangeRateIO(
+            exchangeRateApi,
+            order.Currency)
+        select RenderReport(order, exchangeRate);
+}
+
+public static IO<Unit> LoadOrderAndWriteReport(
+    IExchangeRateApi exchangeRateApi,
+    string orderPath,
+    string reportPath)
+{
+    return
+        from report in LoadOrderAndRenderReport(
+            exchangeRateApi,
+            orderPath)
+        from ignored in WriteAllTextIO(
+            reportPath,
+            report)
+        select ignored;
+}
+```
+
+### From a list of recipes to one recipe
 
 Mapping `GetRiskScoreIO` over the customers constructs a list of request recipes:
 
@@ -386,177 +544,6 @@ This implementation commits to a concrete policy:
 * the result list is returned only if every operation succeeds;
 * another call to `Run()` attempts to enumerate the source and perform every operation again.
 
-The traversal policy is selected by `TraverseSequential`, not by the final call to `Run()`.
-
 `Run()` starts the program whose sequencing behavior has already been constructed.
 
 As elsewhere, C# cannot enforce that `action` merely constructs an `IO<TResult>`. A caller could pass a function that performs an effect before returning its recipe.
-
-## Building one effectful program
-
-Start with effects that produce useful values:
-
-```csharp
-public static IO<string> ReadAllTextIO(
-    string path)
-{
-    return IO<string>.Delay(
-        () => File.ReadAllText(path));
-}
-
-public static IO<decimal> FetchExchangeRateIO(
-    IExchangeRateApi exchangeRateApi,
-    string currency)
-{
-    return IO<decimal>.Delay(
-        () => exchangeRateApi.GetCurrentRate(currency));
-}
-```
-
-Writing a file matters primarily because the write happened. Since `IO<T>` still has a type parameter, use a small `Unit` value when there is no more useful result:
-
-```csharp
-public readonly record struct Unit
-{
-    public static Unit Value { get; } = new();
-}
-
-public static IO<Unit> WriteAllTextIO(
-    string path,
-    string contents)
-{
-    return IO<Unit>.Delay(() =>
-    {
-        File.WriteAllText(path, contents);
-
-        return Unit.Value;
-    });
-}
-```
-
-For this example, assume that `ParseOrder` and `RenderReport` are pure and that `ParseOrder` is total: it always returns an `Order` rather than throwing or returning a failure.
-
-A real parser would usually make failure explicit, perhaps with `Result<Order>`. This `IO<T>` does not do that. Exceptions from parsing, file access, or the API simply escape from `Run()`.
-
-The dependent operations can now be composed in order:
-
-```csharp
-public static IO<string> LoadOrderAndRenderReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath)
-{
-    return
-        from json in ReadAllTextIO(orderPath)
-        let order = ParseOrder(json)
-        from exchangeRate in FetchExchangeRateIO(
-            exchangeRateApi,
-            order.Currency)
-        select RenderReport(order, exchangeRate);
-}
-
-public static IO<Unit> LoadOrderAndWriteReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath,
-    string reportPath)
-{
-    return
-        from report in LoadOrderAndRenderReport(
-            exchangeRateApi,
-            orderPath)
-        from ignored in WriteAllTextIO(
-            reportPath,
-            report)
-        select ignored;
-}
-```
-
-C# query syntax is translated by the compiler into method calls such as `Select` and `SelectMany`. That syntax is not restricted to enumerable collections; another type can participate by providing methods with the required shapes.
-
-<details>
-<summary>The same program with Map and FlatMap</summary>
-
-```csharp
-public static IO<string> LoadOrderAndRenderReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath)
-{
-    return ReadAllTextIO(orderPath)
-        .Map(ParseOrder)
-        .FlatMap(order =>
-            FetchExchangeRateIO(
-                    exchangeRateApi,
-                    order.Currency)
-                .Map(exchangeRate =>
-                    RenderReport(
-                        order,
-                        exchangeRate)));
-}
-
-public static IO<Unit> LoadOrderAndWriteReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath,
-    string reportPath)
-{
-    return LoadOrderAndRenderReport(
-            exchangeRateApi,
-            orderPath)
-        .FlatMap(report =>
-            WriteAllTextIO(
-                reportPath,
-                report));
-}
-```
-
-</details>
-
-Constructing the program still performs none of the wrapped effects:
-
-```csharp
-IO<Unit> program =
-    LoadOrderAndWriteReport(
-        exchangeRateApi,
-        "order.json",
-        "report.txt");
-```
-
-The effects begin when the program is run:
-
-```csharp
-program.Run();
-```
-
-Calling it again repeats the file read, exchange-rate request, and file write:
-
-```csharp
-program.Run();
-```
-
-Moving effects to the edge means moving the final `Run()` outward by convention. Helper functions return deferred computations, larger functions compose them, and an outer boundary, such as a console application's `Main` method, decides when to start the final program.
-
-This convention does not guarantee that all effects occur at the boundary. C# still permits an effect while constructing an `IO<T>`, inside a function passed to `Map`, or before a value is passed to `Pure`.
-
-## `Run()` is a runner, not an interpreter
-
-In this implementation, `Run()` invokes one opaque `Func<T>`.
-
-It cannot inspect the program and determine which part is an API request, which part is a file write, and which part is pure calculation. It therefore cannot retroactively choose to parallelize independent operations, retry only one request, inject cancellation, or add resource cleanup.
-
-Those decisions must be encoded while constructing the program:
-
-* `FlatMap` commits to dependent sequential composition.
-* `TraverseSequential` commits to one-at-a-time traversal.
-* A retry combinator could commit to repeating a particular operation.
-* An external resilience pipeline could provide retries, timeouts, circuit breaking, or rate limiting.
-* Resource lifetime must still be handled with a construct such as `using`, `await using`, or an equivalent bracket operation. C#'s `using` statement guarantees disposal even when an exception leaves the block.
-
-A richer effect system could preserve an inspectable description of individual operations and use a programmable interpreter or runtime. This toy implementation erases the composed structure into nested delegates, so `Run()` is only a runner.
-
-## Conclusion
-
-The useful distinction is between a value and a deferred computation that may perform observable effects before producing a value.
-
-This toy `IO<T>` makes deliberately wrapped computations composable and provides an explicit point at which to start them. It delays execution; it does not enforce purity or leave every execution-policy decision until `Run()`.
-
-Order, traversal, retry, cancellation, concurrency, failure, and resource behavior are determined by the combinators and runtime used to construct the program.
-
-In this implementation, `Run()` simply executes the resulting synchronous, replayable thunk.
