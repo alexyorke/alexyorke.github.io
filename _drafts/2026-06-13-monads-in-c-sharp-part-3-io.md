@@ -7,9 +7,9 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
-This article builds on the previous two. In those articles, the functions passed to `Map` and `FlatMap` were mostly pure. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result regardless of external state or invocation history.
+This article builds on the previous two. Earlier in the series, many of the small teaching examples passed pure functions to `Map` and `FlatMap`, although Part 2 already mixed in repository lookups and pragmatic mutation. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result, and calling it causes no side effects.
 
-This article is about what changes when running an operation can itself affect what later code or the outside world observes.
+This article is about what changes when the act of running an operation can change what later code or the outside world observes, even when the explicit inputs stay the same.
 
 ```csharp
 public static int Add(int x, int y)
@@ -23,11 +23,11 @@ int first = Add(2, 4);   // 6
 int second = Add(2, 4);  // 6
 ```
 
-If we throw away `first`, the earlier invocation still does not change the later result. The next invocation is still `6`.
+If we throw away `first`, nothing observable changes. The next invocation is still `6`.
 
-That is why the earlier examples could let the surrounding monad decide how and whether the function is invoked. `List` can apply the function to many values. `Maybe` can skip it. `Result` can stop after an error. For pure functions, that stays compatible with composition because only the returned value matters.
+That is why the earlier examples could let the surrounding monad decide how and whether the function is invoked. The list monad can apply the function to many values. The maybe monad can skip it. The result monad continues with later mapped steps only after success; once a failure value is present, later steps are skipped. For pure functions, that stays compatible with composition because only the returned value matters.
 
-An effect is an operation whose interaction with the outside world is part of what the program does. Programs need effects so results can be observed. Running an effect can change what later operations or external systems observe, even with the same explicit inputs.
+An effect is an operation whose interaction with the outside world is part of what the program does. Useful programs eventually need effects, otherwise no result is ever read, displayed, saved, or sent anywhere. Running an effect can change what later operations or external systems observe, even when you make the same explicit request again.
 
 ```csharp
 public static RiskScore GetRiskScore(Customer customer)
@@ -41,7 +41,7 @@ RiskScore secondScore = GetRiskScore(customer);
 
 Calling `GetRiskScore(customer)` twice is not like calling `Add(2, 4)` twice. The request might time out, consume quota, hit a rate limit, or return a different score on the second call even with the same customer. The act of calling the API is itself observable.
 
-With effects, execution policy means when, whether, in what order, and how often the operation runs. Once running the operation can change what later code or external systems observe, those choices become part of the outcome.
+With effects, execution policy becomes important: when, whether, in what order, and how often the operation runs. Once running the operation can change what later code or external systems observe, those choices become part of the outcome. If the surrounding monad decides that policy for you, effectful computations can become awkward to compose.
 
 `IO<T>` changes `Customer -> RiskScore` into `Customer -> IO<RiskScore>`. Instead of performing the request immediately, the function returns a recipe for a request that can be run later. That keeps effectful code composable while leaving the execution policy open until a boundary decides to call `Run()`.
 
@@ -64,16 +64,19 @@ foreach (var customer in customers)
     }
     catch (TransientRiskApiException)
     {
+        // Toy example: in production you would usually use
+        // async retry logic instead of blocking with Thread.Sleep.
         Thread.Sleep(250);
         score = riskApi.GetCurrentScore(customer.Id);
     }
 
     // At this point, score has already been evaluated and is known.
+    // The request has already happened, so local fallback logic still belongs here.
     scores.Add(score);
 }
 ```
 
-The loop specifies the execution policy: where requests run, how retries happen, and where delay or error handling belongs. In a toy example, that policy may be simple enough that wrapping the effect in `IO<T>` looks like ceremony.
+Here the programmer specifies the execution policy directly, and the loop is where that control is visible: where requests run, how retries happen, and where delay or error handling belongs. If the retry still failed, this is also where the code would throw, log, or move the customer into a failed batch. In a toy example, that policy may be simple enough that wrapping the effect in `IO<T>` looks like ceremony. The need becomes clearer once the policy is anything beyond the simplest direct run.
 
 The visible type of `GetRiskScore` is:
 
@@ -81,7 +84,7 @@ The visible type of `GetRiskScore` is:
 Customer -> RiskScore
 ```
 
-That type does not reveal the difference between a calculation and an API request. In `customers.Map(GetRiskScore)`, a pure `GetRiskScore` is a value transformation. An effectful `GetRiskScore` also performs observable work.
+That type does not reveal the difference between a calculation and an API request. That matters because once the type hides observable work, the surrounding monad's way of applying the function becomes part of the effect's behavior too. In `customers.Map(GetRiskScore)`, a pure `GetRiskScore` is a value transformation. An effectful `GetRiskScore` also performs observable work.
 
 Invoke `GetRiskScore` directly in a loop and you control that execution policy yourself. Pass it to another monad and the surrounding monad decides how and whether to call it:
 
@@ -90,7 +93,9 @@ List<RiskScore> scores = customers.Map(GetRiskScore);
 Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
-The list may call the function many times. `Maybe` may skip it. Another surrounding type might defer it or batch it. For pure functions, only the returned value matters. For effects, invocation matters too.
+The list monad may call the function many times. The maybe monad may skip it. Another surrounding type might defer it or batch it. For pure functions, only the returned value matters. For effects, invocation matters too.
+
+You can hide retry or delay inside `GetRiskScore`, and in a trivial case that may look sufficient. But the surrounding monad still decides when and whether the function gets called at all. If you need a different overall policy, you either bake more policy into the function itself or invent a special monad for that case, and both moves reduce composability.
 
 A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. A variable of type `IO<T>` names a recipe for the computation, not a finished `T`. The result appears only when the effect runs. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
 
