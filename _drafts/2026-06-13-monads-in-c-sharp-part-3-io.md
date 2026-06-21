@@ -9,7 +9,7 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 This article builds on the previous two. In those articles, the functions passed to `Map` and `FlatMap` were mostly pure. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result regardless of external state or call history.
 
-This article is about what changes when running an operation becomes part of the outcome. Programs need effects so results can be observed. `IO<T>` does not remove those effects; it keeps them composable while leaving control over execution strategy at the boundary.
+This article is about what changes when running an operation becomes part of the outcome. Programs need effects so results can be observed.
 
 ```csharp
 public static int Add(int x, int y)
@@ -22,6 +22,8 @@ int second = Add(2, 4);  // 6
 ```
 
 If we throw away `first`, the earlier call still does not change the later answer. The next call is still `6`.
+
+That is why the earlier examples could let the surrounding monad decide how and whether the function is called. `List` can apply the function to many values. `Maybe` can skip it. `Result` can stop after an error. For pure functions, that stays compatible with composition because only the returned value matters.
 
 An effect, in this article, is an operation whose interaction with the outside world is part of what the program does: printing text, reading a file, writing data, or calling an API.
 
@@ -40,11 +42,9 @@ Call `AppendLine("log.txt", "hello")` once and the file gains one line. Call it 
 
 Once an operation touches the world, later calls depend on what happened before: whether the file was already changed, whether an API was already called, or whether rate limits, retries, or delays now apply. An HTTP request often needs a specific calling pattern if you want later requests to succeed.
 
-That is why the earlier examples could let the surrounding monad decide how and whether the function is called. `List` can apply the function to many values. `Maybe` can skip it. `Result` can stop after an error. For pure functions, that stays compatible with composition because only the returned value matters.
-
 With effects, the act of running the operation is also part of the outcome. In this article, execution policy means the rule for when, whether, in what order, and how often the effect runs. For `Add`, changing that policy usually does not change the answer. For `AppendLine`, previous runs become part of what later operations observe. If you blast a service with requests, later calls may time out or hit a rate limit. If you append to a file ten thousand times, that is a different outcome than appending once.
 
-Once those choices matter, ordering and repetition have become part of the operation's contract. Different monads bring different application rules, and those rules may not match how an effectful operation needs to run. You could invent a special monad for one callback, or bury retry and throttling inside the callback itself, but then callers have to know hidden policy details and the function stops composing cleanly. `IO<T>` takes a different route: it returns a description of the work first, and the boundary decides when to run it.
+Once those choices matter, ordering and repetition have become part of the operation's contract. Different monads bring different application rules, and those rules may not match how an effectful operation needs to run. You could invent a special monad for one callback, or bury retry and throttling inside the callback itself, but then callers have to know hidden policy details and the function stops composing cleanly. `IO<T>` takes a different route: it returns a description of the work first, and the boundary decides when to run it. `IO<T>` does not remove those effects; it keeps them composable while leaving control over execution strategy at the boundary.
 
 In straightforward procedural code, execution is usually immediate, and the programmer controls that sequence directly:
 
@@ -95,8 +95,6 @@ Customer -> IO<RiskScore>
 
 Instead of performing an effect and returning a value, the function returns a value that describes a computation. That computation may later interact with the outside world and produce a result. This lets a program compose effectful work before an outer boundary decides how to execute it.
 
-> **Note:** This article is not advocating `IO<T>` in production C#. C# is only the teaching medium: a familiar procedural language that makes the execution-policy problem concrete without also teaching Haskell syntax.
-
 A common question is how to get the `T` out of `IO<T>`. In the middle of the program, there is no general safe unwrap. `IO<T>` is a recipe, not a box with a finished `T` inside; the result appears only when the effect runs. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to run it.
 
 In LINQ syntax, the same deferred program can be sketched like this once the usual LINQ aliases are available:
@@ -128,6 +126,8 @@ program.Run();
 ```
 
 Here, `Run()` is explicit for teaching purposes. In a real program, the final run point is usually at an outer boundary such as `Main`.
+
+> **Note:** This article is not advocating `IO<T>` in production C#. C# is only the teaching medium: a familiar procedural language that makes the execution-policy problem concrete without also teaching Haskell syntax.
 
 ## The implicit `World`
 
