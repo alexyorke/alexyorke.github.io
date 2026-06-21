@@ -97,7 +97,7 @@ Customer -> IO<RiskScore>
 
 Instead of performing an effect and returning a value, the function returns a value that describes a computation. That computation may later interact with the outside world and produce a result. This lets a program compose effectful computations before an outer boundary decides how to execute them.
 
-A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. `IO<T>` is a recipe, not a box with a finished `T` inside; the result appears only when the effect executes. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
+A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. A variable of type `IO<T>` names the described computation, not a finished `T`. `IO<T>` is a recipe, not a box with a finished `T` inside; the result appears only when the effect executes. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
 
 In LINQ syntax, the same deferred program can be written like this once the usual LINQ aliases are available:
 
@@ -154,7 +154,7 @@ Conceptually:
 
 `World` is not a proposed C# class. It denotes files, databases, clocks, services, mutable objects, and other external state. `World'` is the world after the interaction.
 
-This is only a model for dependency and ordering, not a literal snapshot. Sequencing two effects does not stop external systems from changing between them.
+This is only a model for dependency and ordering, not a literal snapshot. It is useful because it makes the changing environment explicit in the model, even though ordinary C# does not pass a real `World` value around. Sequencing two effects does not stop external systems from changing between them.
 
 ## Make the effect part of the type
 
@@ -179,7 +179,7 @@ List<IO<RiskScore>> requests = customers.Map(GetRiskScoreIO);
 
 Mapping still invokes `GetRiskScoreIO` once per customer, but those invocations only construct `IO` values.
 
-The list still determines which customers participate, but each `IO<RiskScore>` now describes one request as a value. `requests` is still a collection of descriptions, not completed scores. A later step can combine them into `IO<List<RiskScore>>` and execute them under a chosen policy. The effect is no longer hidden inside an ordinary returned value.
+The list still determines which customers participate, but each `IO<RiskScore>` now describes one request as a value. `requests` is still a collection of descriptions, not completed scores. `List<IO<RiskScore>>` is not the same type as `IO<List<RiskScore>>`: one is many request descriptions, while the other is one larger described computation. A later step can combine them into `IO<List<RiskScore>>` and execute them under a chosen policy. The effect is no longer hidden inside an ordinary returned value.
 
 ## A small `IO<T>`
 
