@@ -59,7 +59,7 @@ foreach (var customer in customers)
 }
 ```
 
-The loop makes the policy visible: where requests run, how often, and where rate limiting or error handling belongs. The pressure to represent effects explicitly appears when the program grows and that policy must stay composable.
+The loop makes the policy visible: where requests run, how often, and where rate limiting or error handling belongs.
 
 For example:
 
@@ -86,6 +86,8 @@ Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
 The list may apply the function many times. `Maybe` may skip it. Another abstraction might defer it or batch it. For pure computations, only the returned value matters. For effects, invocation matters too.
+
+The pressure to represent effects explicitly appears when the program grows and that policy must stay composable.
 
 `IO<T>` can be thought of as a deferred effectful computation: a recipe for work that does nothing until it is run. Constructing or naming one does not start work; it only describes later work. It makes that difference visible by changing the type:
 
