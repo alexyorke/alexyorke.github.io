@@ -7,9 +7,9 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
-This article builds on the previous two. TL;DR: useful programs need effects so their results can be observed. `IO<T>` does not remove those effects; it keeps effectful computations composable while leaving control over execution strategy at the boundary, where that strategy can change the outcome in a way pure functions do not.
+This article builds on the previous two. In those articles, the functions passed to `Map` and `FlatMap` were mostly pure. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result regardless of external state or call history.
 
-In those articles, the functions passed to `Map` and `FlatMap` were mostly pure functions. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result regardless of external state or call history.
+This article is about what changes when the act of running an operation becomes part of the outcome. Programs need effects so results can be observed. `IO<T>` does not remove those effects; it keeps them composable while leaving control over execution strategy at the boundary.
 
 ```csharp
 public static int Add(int x, int y)
@@ -59,7 +59,7 @@ foreach (var customer in customers)
 }
 ```
 
-That style is natural for effects. In a tiny program, it may be enough. The loop makes the policy visible: where requests run, how often they run, and where rate limiting or error handling belongs. The pressure to represent effects explicitly appears when the program grows and that policy needs to stay composable.
+That style is natural for effects. The loop makes the policy visible: where requests run, how often they run, and where rate limiting or error handling belongs. The pressure to represent effects explicitly appears when the program grows and that policy needs to stay composable.
 
 For example:
 
@@ -85,15 +85,19 @@ List<RiskScore> scores = customers.Map(GetRiskScore);
 Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
-The list may apply the function many times. `Maybe` may skip it. Another abstraction might defer it or batch it. That delegation is one of the benefits of these abstractions. For pure computations, only the returned value matters. For effects, invocation matters too.
+The list may apply the function many times. `Maybe` may skip it. Another abstraction might defer it or batch it. For pure computations, only the returned value matters. For effects, invocation matters too.
 
-`IO<T>` can be thought of as a deferred effectful computation: a recipe for work that does nothing until it is run. It makes that difference visible by changing the type:
+`IO<T>` can be thought of as a deferred effectful computation: a recipe for work that does nothing until it is run. Constructing or naming one does not start work; it only describes later work. It makes that difference visible by changing the type:
 
 ```text
 Customer -> IO<RiskScore>
 ```
 
 Instead of performing an effect and returning a value, the function returns a value that describes a computation. That computation may later interact with the outside world and produce a result. This lets a program compose effectful work before an outer boundary decides how to execute it.
+
+> **Note:** This article is not advocating `IO<T>` in production C#. C# is only the teaching medium here: a familiar procedural language for making the execution-policy problem concrete without also teaching Haskell syntax.
+
+A common question is how to get the `T` out of `IO<T>`. In the middle of the program, there is no general safe unwrap. `IO<T>` is a recipe, not a box with a finished `T` inside; the result appears only when the effect runs. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to run it.
 
 In LINQ syntax, the same deferred program can be sketched like this once the usual LINQ aliases are available:
 
@@ -117,15 +121,13 @@ IO<Unit> program = ReadAllTextIO("order.json")
 
 </details>
 
-`program` is a value describing the work. At this point, no file has been read or written. The work begins only when the program is run, here by calling `Run()`:
+`program` is a value describing the work. Naming it does not read or write anything. The work begins only when the program is run, here by calling `Run()`:
 
 ```csharp
 program.Run();
 ```
 
 In this article, `Run()` is explicit for teaching purposes. In a real program, the final run point is usually arranged at an outer boundary such as `Main`.
-
-This `IO<T>` implementation is synchronous teaching code, not a recommendation to replace idiomatic C#.
 
 ## The implicit `World`
 
@@ -173,9 +175,9 @@ Mapping over the customers therefore constructs a list of programs:
 List<IO<RiskScore>> requests = customers.Map(GetRiskScoreIO);
 ```
 
-Mapping still invokes `GetRiskScoreIO` once per customer, but those invocations only construct `IO` values. At this point, no requests have occurred.
+Mapping still invokes `GetRiskScoreIO` once per customer, but those invocations only construct `IO` values.
 
-The list still determines which customers participate, but each `IO<RiskScore>` now describes one request as a value. A later step can combine those requests and run them under a chosen policy. The effect is no longer hidden inside an ordinary returned value.
+The list still determines which customers participate, but each `IO<RiskScore>` now describes one request as a value. `requests` is still a collection of descriptions, not completed scores. A later step can combine them into `IO<List<RiskScore>>` and run them under a chosen policy. The effect is no longer hidden inside an ordinary returned value.
 
 ## A small `IO<T>`
 
@@ -227,7 +229,7 @@ public sealed class IO<T>
 }
 ```
 
-`From` suspends a function. `Pure` lifts an already-computed value into `IO<T>`. `Map` and `FlatMap` build more suspended computations. `Run` executes one.
+`From` suspends a function. `Pure` lifts an already-computed value into `IO<T>`; it does not run an effect or extract anything from `IO<T>`. `Map` applies pure logic to the eventual value, while `FlatMap` is for the dependent case where the next step also returns `IO`. `Run` executes one.
 
 This implementation is deliberately limited. It is synchronous, and C# cannot enforce the discipline that constructing an `IO<T>` should describe work rather than perform it immediately.
 
@@ -301,7 +303,7 @@ public static IO<string> RenderReportIO(Order order, decimal exchangeRate)
 }
 ```
 
-The larger program now reads as direct `FlatMap` composition:
+The larger program:
 
 ```csharp
 public static IO<string> LoadOrderAndRenderReport(string orderPath)
@@ -323,7 +325,7 @@ public static IO<Unit> LoadOrderAndWriteReport(string orderPath, string reportPa
 }
 ```
 
-Constructing this value reads no file, calls no service, and writes no report. At the boundary, the program decides whether to run it:
+Constructing this value reads no file, calls no service, and writes no report. At the boundary:
 
 ```csharp
 IO<Unit> program = LoadOrderAndWriteReport("order.json", "report.txt");
@@ -339,10 +341,10 @@ As smaller `IO` values are combined, a larger part of the application may become
 
 "Move effects to the edge" means moving the final `Run()` outward. Helpers can describe effects, larger functions can compose them, and an outer boundary such as `Main` or a request handler decides when to run the final program.
 
-That boundary still cannot freeze the world or selectively retry a hidden operation. Policies such as retry or throttling have to be attached while the relevant operation is still explicitly represented.
+That boundary still cannot freeze the world or selectively retry a hidden operation. Policies such as retry or throttling have to be attached while the relevant operation is still represented.
 
 ## Conclusion
 
 `IO<T>` does not remove effects. It makes them explicit.
 
-The important distinction is between a plain value and a piece of work that may touch the outside world before producing a value. Once that distinction is visible in the type, the program can build effectful work first and decide at the boundary when, whether, and how often to run it.
+The important distinction is between a plain value and a piece of work that may touch the outside world before producing a value. Once that distinction is visible in the type, the program can decide at the boundary when, whether, and how often to run it.
