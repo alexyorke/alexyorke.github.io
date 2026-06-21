@@ -7,9 +7,9 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: *List is a monad (Part 1)* and *Monads in C# (Part 2): Result*
 
-> **Note:** This article is not recommending `IO<T>` for production C#. C# is only the teaching language here: it makes the execution-policy problem concrete without also introducing Haskell syntax at the same time.
+> **Note:** This article is not recommending `IO<T>` for production C#.
 
-This article builds on the previous two. Earlier in the series, many of the small teaching examples passed pure functions to `Map` and `FlatMap`, although Part 2 already mixed in repository lookups and pragmatic mutation. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result, and calling it causes no side effects.
+Earlier in the series, many of the small teaching examples passed pure functions to `Map` and `FlatMap`, although Part 2 already mixed in repository lookups and pragmatic mutation. A pure function depends only on its explicit inputs: given the same arguments, it produces the same result, and calling it causes no side effects.
 
 This article is about what changes when running an operation can affect what later code or the outside world observes, even when the explicit inputs stay the same.
 
@@ -29,7 +29,7 @@ If we throw away `first`, nothing observable changes. The next invocation is sti
 
 That is why the earlier examples could let the surrounding monad, meaning the type that controls how the function gets applied, decide how to apply the function. The list monad can apply the function to many values. The maybe monad can skip it. The result monad continues with later mapped steps only after success; once a failure value is present, later steps are skipped. For pure functions, that stays compatible with composition because only the returned value matters.
 
-An effect is an operation whose interaction with the outside world is part of what the program does. Useful programs eventually need effects, otherwise no result is ever read, displayed, saved, or sent anywhere. Running an effect can change what later operations or external systems observe, even when you make the same explicit request a second time.
+An effect is an operation whose interaction with the outside world is part of what the program does. Running an effect can change what later operations or external systems observe, even when you make the same explicit request a second time.
 
 ```csharp
 public static RiskScore GetRiskScore(Customer customer)
@@ -74,8 +74,6 @@ foreach (var customer in customers)
         score = riskApi.GetCurrentScore(customer.Id);
     }
 
-    // At this point, score has already been evaluated and is known.
-    // The request has already happened, so local fallback logic still belongs here.
     scores.Add(score);
 }
 ```
@@ -97,8 +95,6 @@ List<RiskScore> scores = customers.Map(GetRiskScore);
 Maybe<RiskScore> score = maybeCustomer.Map(GetRiskScore);
 ```
 
-The list monad may call the function many times. The maybe monad may skip it. Another surrounding type might defer the calls or batch them.
-
 You can hide retry or delay inside `GetRiskScore`, and in a trivial case that may look sufficient. But the surrounding monad still decides when and whether the function gets called at all. If you need a different overall policy, you either bake that policy into the function itself or invent a special monad for that case, and both choices reduce composability.
 
 A common question is how to extract the `T` from `IO<T>`. In the middle of the program, there is no general safe unwrap. A variable of type `IO<T>` names a recipe for the computation, not a finished `T`. The result appears only when the effect runs. Until then, keep composing, or return the `IO<T>` outward until a boundary decides to execute it.
@@ -116,8 +112,6 @@ public static IO<RiskScore> GetRiskScoreIO(Customer customer)
 }
 ```
 
-Calling `GetRiskScoreIO` constructs a request recipe.
-
 Mapping over the customers constructs a list of request recipes:
 
 ```csharp
@@ -127,8 +121,6 @@ List<IO<RiskScore>> requests = customers.Map(GetRiskScoreIO);
 The list still determines which customers participate, but each `IO<RiskScore>` now represents one request recipe. `requests` is still a collection of recipes, not completed scores. `List<IO<RiskScore>>` is not the same as `IO<List<RiskScore>>`: one is a list of request recipes, while the other is one larger recipe that produces a list. A later step can combine them into `IO<List<RiskScore>>` and execute them under a chosen policy.
 
 ## A small `IO<T>`
-
-Here, `IO<T>` is a small wrapper around a deferred computation.
 
 ```csharp
 public sealed class IO<T>
@@ -177,8 +169,6 @@ public sealed class IO<T>
 ```
 
 `From` defers a function. `Pure` puts an already-computed value into `IO<T>`; it does not execute an effect or extract anything from `IO<T>`. `Map` applies pure logic to the eventual value, while `FlatMap` is for the dependent case where the next step also returns `IO`. `Run` executes the stored recipe.
-
-This implementation is intentionally a toy. It is synchronous, and C# cannot enforce that constructing an `IO<T>` should represent computation rather than execute it immediately.
 
 `Pure` also does not defer evaluation of its argument. This performs the read before `Pure` is called:
 
@@ -252,8 +242,6 @@ public static IO<string> LoadOrderAndRenderReport(string orderPath)
 }
 ```
 
-The final write remains represented as well:
-
 ```csharp
 public static IO<Unit> LoadOrderAndWriteReport(string orderPath, string reportPath)
 {
@@ -269,8 +257,6 @@ IO<Unit> program = LoadOrderAndWriteReport("order.json", "report.txt");
 
 program.Run();
 ```
-
-Here, `Run()` is explicit for teaching purposes. In a real program, final execution is usually at an outer boundary such as `Main`.
 
 ## Running at the edge
 
