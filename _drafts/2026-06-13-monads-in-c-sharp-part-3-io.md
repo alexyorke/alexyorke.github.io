@@ -143,7 +143,9 @@ Calling `GetRiskScoreIO` constructs an `IO<RiskScore>`. It does not call the API
 
 `IO<RiskScore>` does not contain a completed `RiskScore`. It contains a computation that may produce one when executed.
 
-If you map `GetRiskScoreIO` over a list of customers, the result is a `List<IO<RiskScore>>`: a list of deferred request recipes, not a list of scores and not one larger combined program. Combining many `IO` recipes into one larger recipe is useful, but it is a separate sequencing topic; the appendix sketches it.
+`IO<T>` helps not merely by postponing effects, but by making an effectful computation into a value. Inner functions can return `IO<T>` recipes without executing them, outer functions can combine those recipes into larger recipes, and a boundary can decide later when to start the finished program.
+
+If you map `GetRiskScoreIO` over a list of customers, the result is a `List<IO<RiskScore>>`: a list of deferred request recipes, not a list of scores and not one larger combined program. Combining many `IO` recipes into one larger recipe is useful, but it is a separate sequencing topic; the appendix sketches it. That composition works because the recipes are inert values until execution, not because the effects somehow became safe on their own.
 
 ## A small `IO<T>`
 
@@ -322,6 +324,8 @@ IO<Unit> program =
         "report.txt");
 ```
 
+At that point, the caller has one larger recipe whose execution can still be controlled as a unit.
+
 The effects begin when the program is run:
 
 ```csharp
@@ -334,15 +338,17 @@ Calling it again repeats the file read, exchange-rate request, and file write:
 program.Run();
 ```
 
-Moving effects to the edge means moving the final `Run()` outward by convention. Helper functions return deferred computations, larger functions compose them, and an outer boundary, such as a console application's `Main` method, decides when to start the final program.
+What moves to the edge is `Run()`, not `IO<T>` itself. Helper functions can return `IO<T>` from deep inside the application, larger functions can compose those deferred computations into bigger ones, and an outer boundary, such as a console application's `Main` method, can decide when to start the final program. Calling `Run()` deep in the program gives up that compositional benefit because the effect has already happened.
 
-This convention does not guarantee that all effects occur at the boundary. C# still permits an effect while constructing an `IO<T>` or inside a function passed to `Map`.
+This convention does not guarantee that all effects occur at the boundary. `IO<T>` can appear throughout the call graph, and that is not itself a loss of control. The loss of control happens when execution, not description, is mixed everywhere. Once a helper executes an effect early, surrounding code can no longer incorporate that step into one larger deferred program.
 
 ## `Run()` is a runner, not an interpreter
 
 In this implementation, `Run()` invokes one opaque `Func<T>`.
 
 It cannot inspect the program and determine which part is an API request, which part is a file write, and which part is pure calculation. It therefore cannot retroactively choose to parallelize independent operations, retry only one request, inject cancellation, or add resource cleanup.
+
+Once execution has been described as one larger recipe, control comes from where and how that recipe is run, but this toy `IO<T>` still cannot inspect or optimize the recipe after construction.
 
 Those decisions must be encoded while constructing the program:
 
@@ -358,11 +364,11 @@ A richer effect system could preserve an inspectable description of individual o
 
 The useful distinction is between a value and a deferred computation that may perform observable effects before producing a value.
 
-This toy `IO<T>` makes deliberately wrapped computations composable and provides an explicit point at which to start them. It delays execution; it does not enforce purity or leave every execution-policy decision until `Run()`.
+This toy `IO<T>` makes deliberately wrapped computations composable and provides an explicit point at which to start them. It delays execution, but the deeper benefit is that effectful programs become first-class values that can be combined before any effect occurs. It does not enforce purity or leave every execution-policy decision until `Run()`.
 
 Order, traversal, retry, cancellation, concurrency, failure, and resource behavior are determined by the combinators and runtime used to construct the program.
 
-In this implementation, `Run()` simply executes the resulting synchronous, replayable thunk.
+In this implementation, `Run()` simply executes the resulting synchronous, replayable thunk. The practical discipline is to centralize execution, not to ban `IO<T>` from the rest of the program.
 
 ## Appendix
 
