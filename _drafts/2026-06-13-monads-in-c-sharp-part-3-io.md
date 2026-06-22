@@ -145,7 +145,7 @@ Calling `GetRiskScoreIO` constructs an `IO<RiskScore>`. It does not call the API
 
 `IO<T>` helps not merely by postponing effects, but by making an effectful computation into a value. Inner functions can return `IO<T>` recipes without executing them, outer functions can combine those recipes into larger recipes, and a boundary can decide later when to start the finished program.
 
-If you map `GetRiskScoreIO` over a list of customers, the result is a `List<IO<RiskScore>>`: a list of deferred request recipes, not a list of scores and not one larger combined program. Combining many `IO` recipes into one larger recipe is useful, but it is a separate sequencing topic; the appendix sketches it. That composition works because the recipes are inert values until execution, not because the effects somehow became safe on their own.
+If you map `GetRiskScoreIO` over a list of customers, the result is a `List<IO<RiskScore>>`: a list of deferred request recipes, not a list of scores and not one larger combined program. How that becomes `IO<List<RiskScore>>` is a separate sequencing topic, and the appendix gives one concrete answer. That composition works because the recipes are inert values until execution, not because the effects somehow became safe on their own.
 
 ## A small `IO<T>`
 
@@ -282,7 +282,7 @@ For this example, assume that `ParseOrder` and `RenderReport` are pure and that 
 
 The dependent operations can now be composed in order:
 
-If `IO<T>` also provides `Select` and `SelectMany`, C# query syntax lowers to those methods. The foldable appendix shows those support methods and the equivalent explicit `Map` / `FlatMap` version.
+Assume `IO<T>` also provides the standard `Select` / `SelectMany` methods required by C# query syntax.
 
 ```csharp
 public static IO<string> LoadOrderAndRenderReport(
@@ -373,62 +373,7 @@ In this implementation, `Run()` simply executes the resulting synchronous, repla
 ## Appendix
 
 <details>
-<summary>Open the appendix for optional query syntax and sequencing</summary>
-
-### Optional C# query syntax support
-
-C# query syntax is translated by the compiler into method calls such as `Select` and `SelectMany`. That syntax is not restricted to enumerable collections; another type can participate by providing methods with the required shapes.
-
-```csharp
-public IO<TResult> Select<TResult>(
-    Func<T, TResult> select)
-{
-    return Map(select);
-}
-
-public IO<TResult> SelectMany<TNext, TResult>(
-    Func<T, IO<TNext>> next,
-    Func<T, TNext, TResult> project)
-{
-    return FlatMap(value =>
-        next(value).Map(nextValue =>
-            project(value, nextValue)));
-}
-```
-
-The same program can also be written directly with `Map` and `FlatMap`:
-
-```csharp
-public static IO<string> LoadOrderAndRenderReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath)
-{
-    return ReadAllTextIO(orderPath)
-        .Map(ParseOrder)
-        .FlatMap(order =>
-            FetchExchangeRateIO(
-                    exchangeRateApi,
-                    order.Currency)
-                .Map(exchangeRate =>
-                    RenderReport(
-                        order,
-                        exchangeRate)));
-}
-
-public static IO<Unit> LoadOrderAndWriteReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath,
-    string reportPath)
-{
-    return LoadOrderAndRenderReport(
-            exchangeRateApi,
-            orderPath)
-        .FlatMap(report =>
-            WriteAllTextIO(
-                reportPath,
-                report));
-}
-```
+<summary>Open the appendix for sequential traversal</summary>
 
 ### From a list of recipes to one recipe
 
@@ -462,7 +407,17 @@ List<List<T>> -> List<T>
 
 `List<IO<T>>` contains two different structures. Combining them requires a rule for how the list is traversed and how the individual operations are run.
 
-That operation is commonly called `Sequence`. A related operation called `Traverse` combines mapping with sequencing. The standard Haskell operations likewise distinguish `sequence`, which turns a list of actions into one action producing a list, from `mapM`, which first maps an action-producing function over the inputs.
+Two useful shapes are:
+
+```text
+Sequence:
+List<IO<T>> -> IO<List<T>>
+
+Traverse:
+List<A> x (A -> IO<B>) -> IO<List<B>>
+```
+
+`Sequence` handles computations that already exist. `Traverse` maps inputs to computations and sequences the results. `Sequence` is traversal with the identity function. In general functional-programming terminology, `Traverse` is usually presented in applicative terms.
 
 Here is one specific traversal:
 
@@ -470,15 +425,18 @@ Here is one specific traversal:
 public static class IOExtensions
 {
     public static IO<List<TResult>>
-        TraverseSequential<T, TResult>(
-            this IEnumerable<T> source,
-            Func<T, IO<TResult>> action)
+        TraverseSequential<TSource, TResult>(
+            this IEnumerable<TSource> source,
+            Func<TSource, IO<TResult>> action)
     {
+        ArgumentNullException.ThrowIfNull(source);
+        ArgumentNullException.ThrowIfNull(action);
+
         return IO<List<TResult>>.Delay(() =>
         {
             var results = new List<TResult>();
 
-            foreach (T item in source)
+            foreach (TSource item in source)
             {
                 IO<TResult> operation = action(item);
                 TResult result = operation.Run();
@@ -494,39 +452,44 @@ public static class IOExtensions
         this IEnumerable<IO<T>> source)
     {
         return source.TraverseSequential(
-            operation => operation);
+            static operation => operation);
     }
 }
 ```
 
+`TraverseSequential` contributes a particular policy:
+
+* enumerate in source order;
+* execute one `IO` at a time;
+* stop when an unhandled exception escapes;
+* preserve result order;
+* return one `IO<List<T>>`.
+
+Effect libraries often distinguish this ordinary sequential traversal from parallel traversal operations such as `parTraverse`.
+
 The list of request recipes can now become one larger recipe:
 
 ```csharp
-IO<List<RiskScore>> scoresProgram =
+IO<List<RiskScore>> program =
     requests.SequenceSequential();
 ```
 
 Or `TraverseSequential` can combine the mapping and sequencing steps directly:
 
 ```csharp
-IO<List<RiskScore>> scoresProgram =
+IO<List<RiskScore>> program =
     customers.TraverseSequential(
         customer => GetRiskScoreIO(
             riskApi,
             customer));
 ```
 
-This implementation commits to a concrete policy:
+Calling `TraverseSequential` does not run the requests. It returns one larger deferred computation.
 
-* the source is enumerated when `Run()` is called;
-* operations run in source order;
-* only one operation runs at a time;
-* the first thrown exception stops the traversal;
-* the result list is returned only if every operation succeeds;
-* another call to `Run()` attempts to enumerate the source and perform every operation again.
+```csharp
+List<RiskScore> scores = program.Run();
+```
 
-`Run()` starts the program whose sequencing behavior has already been constructed.
-
-As elsewhere, C# cannot enforce that `action` merely constructs an `IO<TResult>`. A caller could pass a function that performs an effect before returning its recipe.
+That outer `Run()` starts the traversal. During that execution, `TraverseSequential` runs each component `IO` in order. The nested calls to `Run()` inside `TraverseSequential` are internal to one larger deferred program, so application code still starts one top-level program at the edge. The callback passed to `TraverseSequential` should construct an `IO`, not perform the effect before returning it.
 
 </details>
