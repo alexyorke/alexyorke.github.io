@@ -116,7 +116,9 @@ Maybe<RiskScore> score =
     maybeCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
 ```
 
-The `ToList()` call enumerates `customerIds` and issues one request per ID. Without `ToList()`, the LINQ query stays deferred and later enumerations can issue the requests again. `Select` chooses when and how often the callback runs. That is fine for pure callbacks. For effectful callbacks, it is a poor fit because it does not let you attach the execution policy you may need, such as explicit timing, retry behavior, or a known traversal policy.
+Once you hand the callback to `Select`, `Maybe.Map`, or another host abstraction, that abstraction decides the act of running. `Select(...).ToList()` runs the request once per enumerated ID. `Maybe.Map(...)` may run it zero or one times. Another host could choose different invocation rules. That is harmless for pure callbacks, but not for effectful callbacks whose outcome depends on timing, order, repetition, or prior effects.
+
+The `ToList()` call enumerates `customerIds`, so it decides when the requests happen and issues one request per ID. Without `ToList()`, the LINQ query stays deferred and later enumerations can issue the requests again. The host abstraction is therefore partly choosing program behavior. That is fine for pure callbacks. For effectful callbacks, it is a poor fit because it does not let you attach the execution policy you may need, such as explicit timing, retry behavior, or a known traversal policy.
 
 > **Note:** `IO<T>` is not the only way to express execution policy in C#. Direct loops and resilience pipelines often handle retries, timeouts, circuit breakers, and rate limits more directly.
 
