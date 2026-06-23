@@ -38,12 +38,14 @@ Delay or reorder the calls and the result stays the same. The function remembers
 Host abstractions choose when callbacks run. LINQ `Select` is deferred: the selector runs when the sequence is enumerated, and another enumeration can run it again. `ToList()` forces one enumeration and stores the values.
 
 ```csharp
-List<int> mapped = numbers
-    .Select(number => number + 1)
+List<decimal> subtotals = new() { 100m, 80m, 140m };
+
+List<decimal> totals = subtotals
+    .Select(subtotal => CalculateTotal(subtotal, 0.13m, 5m))
     .ToList();
 ```
 
-`Maybe.Map` may invoke its callback zero or one times; `Result.Map` invokes it only on success. For pure callbacks, that only changes which values appear. For effectful callbacks, it also changes whether and how often behavior occurs.
+For a pure callback, different host rules can change evaluation timing or which values are produced, but not the meaning of each calculation.
 
 Now compare an effectful function:
 
