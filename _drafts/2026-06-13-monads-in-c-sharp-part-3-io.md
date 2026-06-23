@@ -7,13 +7,11 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-> **Scope:** The `IO<T>` below is a synchronous, non-memoized teaching model built on `Func<T>`. `Run()` directly invokes its stored delegate on the current thread; the wrapper itself performs no scheduling. Every call to `Run()` starts the computation again. Exceptions thrown by the delayed operation or its composed callbacks propagate to the caller. The type has no built-in asynchronous I/O, cancellation, concurrency, resource bracketing, error model, or stack-safety mechanism. It is not a production abstraction or a compiler-enforced effect system.
+Earlier articles in this series explained `Map` / `FlatMap` chaining, but did not focus on callbacks that interact with the outside world.
 
-Earlier articles in this series passed functions to `Map` and `FlatMap`, but did not focus on when those functions run, how often they run, or when they interact with the outside world.
+Useful programs perform effects somewhere. Here, an *effect* is behavior such as printing, writing a file, calling a service, or observing time or randomness. A function is *pure* when the same inputs produce the same result and evaluation produces no observable behavior beyond that result.
 
-For this article, call a function *pure* when the same inputs produce the same result and evaluating it produces no observable behavior beyond that result. I use *effect* as shorthand for behavior such as printing, writing a file, mutating state, calling a service, or observing time or randomness. The traditional phrase is *side effect*.
-
-Most useful programs perform effects somewhere. Once a callback is effectful, the policy governing its invocation becomes part of the program's visible behavior.
+Once a callback performs effects, how and when it is invoked changes what the program does.
 
 A simple pure function:
 
@@ -30,9 +28,14 @@ decimal totalA = CalculateTotal(100m, 0.13m, 5m); // 107.35
 decimal totalB = CalculateTotal(100m, 0.13m, 5m); // 107.35
 ```
 
-Discarding `totalA` does not alter the next invocation. Both calls return `107.35`, and the function retains no state between them.
+```csharp
+decimal again = CalculateTotal(100m, 0.13m, 5m); // Still 107.35
+decimal later = CalculateTotal(100m, 0.13m, 5m); // Still 107.35
+```
 
-Invocation policy first becomes visible in the abstraction that applies a callback. LINQ-to-Objects `Select` is deferred: the selector runs when the sequence is enumerated, and enumerating it again can run it again. Calling `ToList()` forces one enumeration and stores the resulting values.
+Repeat or reorder the calls and the result stays the same. The function remembers nothing about prior execution.
+
+Invocation policy first becomes visible in the abstraction that applies a callback. LINQ `Select` is deferred: the selector runs when the sequence is enumerated, and another enumeration can run it again. `ToList()` forces one enumeration and stores the values.
 
 ```csharp
 List<int> mapped = numbers
@@ -40,21 +43,23 @@ List<int> mapped = numbers
     .ToList();
 ```
 
-A particular `Maybe.Map` implementation may invoke its callback zero or one times, while a `Result.Map` implementation may invoke it only for a successful value. For a pure callback, those rules determine whether values are produced. For an effectful callback, they also determine whether and how often observable behavior occurs.
+`Maybe.Map` may invoke its callback zero or one times, while `Result.Map` may invoke it only for a successful value. For pure callbacks, those rules only determine which values appear. For effectful callbacks, they also determine whether and how often behavior occurs.
 
 Now compare an effectful function:
 
 ```csharp
-public static RiskScore GetRiskScore(IRiskApi riskApi, Customer customer)
+public static RiskScore GetRiskScore(IRiskApi riskApi, string customerId)
 {
-    return riskApi.GetCurrentScore(customer.Id);
+    return riskApi.GetCurrentScore(customerId);
 }
 
-RiskScore firstScore = GetRiskScore(riskApi, customer);
-RiskScore secondScore = GetRiskScore(riskApi, customer);
+const string customerId = "cust-123";
+
+RiskScore firstScore = GetRiskScore(riskApi, customerId);   // The first request has already happened.
+RiskScore secondScore = GetRiskScore(riskApi, customerId);  // The later call may now see different conditions.
 ```
 
-Discarding `firstScore` does not undo the first API request. The next invocation is not guaranteed to return the same score: the service may have newer data, consume quota, update internal state, throttle the caller, or be unavailable despite the same visible arguments.
+Discarding `firstScore` does not undo the first API request. The next call with the same visible inputs is not guaranteed to return the same score: the service may have newer data, less quota, stronger throttling, or simply different timing conditions. Later calls can therefore see changed downstream conditions even with no explicit data flow between them.
 
 With effects, execution policy affects observable behavior:
 
@@ -63,49 +68,53 @@ With effects, execution policy affects observable behavior:
 * in what order operations run;
 * how many times each operation runs.
 
+> **Key point:** When one effect can change the conditions seen by the next, execution order becomes part of the result. Deferring those operations gives you a chance to choose that policy later. `IO<T>` turns each effectful step into a value, and helpers such as sequential traversal can combine those values into one larger program that runs in a known order.
+
+Pure functions do not care whether you run them once, many times, or in a different order, except where later values are used as inputs. Effectful functions do, because earlier effects can change the downstream conditions seen by later ones. That is why order and repetition policy have to stay under control.
+
 Procedural code commonly specifies that policy directly:
 
 ```csharp
 var scores = new List<RiskScore>();
 
-foreach (Customer customer in customers)
+foreach (string customerId in customerIds)
 {
     RiskScore score;
 
     try
     {
-        score = riskApi.GetCurrentScore(customer.Id);
+        score = riskApi.GetCurrentScore(customerId);
     }
     catch (TransientRiskApiException)
     {
         WaitBeforeRetry();
-        score = riskApi.GetCurrentScore(customer.Id);
+        score = riskApi.GetCurrentScore(customerId);
     }
 
     scores.Add(score);
 }
 ```
 
-The loop runs requests sequentially. A `TransientRiskApiException` from the first attempt causes one retry. If that retry throws, or if any other unhandled exception escapes, later customers are not processed.
+The loop runs requests sequentially. A `TransientRiskApiException` from the first attempt causes one retry. If that retry throws, or if any other unhandled exception escapes, later IDs are not processed.
 
 The ordinary method type does not distinguish this request from an in-memory calculation:
 
 ```text
-(IRiskApi, Customer) -> RiskScore
+(IRiskApi, string) -> RiskScore
 ```
 
 Passing the function to another abstraction transfers some control over invocation to that abstraction:
 
 ```csharp
-List<RiskScore> scores = customers
-    .Select(customer => GetRiskScore(riskApi, customer))
+List<RiskScore> scores = customerIds
+    .Select(customerId => GetRiskScore(riskApi, customerId))
     .ToList();
 
 Maybe<RiskScore> score =
-    maybeCustomer.Map(customer => GetRiskScore(riskApi, customer));
+    maybeCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
 ```
 
-The `ToList()` call enumerates `customers` and invokes the API request once per enumerated customer. Without `ToList()`, the LINQ query would remain deferred and later enumerations could issue the requests again.
+The `ToList()` call enumerates `customerIds` and invokes the API request once per enumerated ID. Without `ToList()`, the LINQ query would remain deferred and later enumerations could issue the requests again. `Select` chooses when and how often the callback runs. That is fine for pure callbacks. For effectful callbacks, it is a poor fit because it does not let you attach the execution policy you may need, such as explicit timing, retry behavior, or a known traversal policy.
 
 > **Note:** `IO<T>` is not the only way to express execution policy in C#. Direct loops and resilience pipelines often handle retries, timeouts, circuit breakers, and rate limits more directly.
 
@@ -114,29 +123,29 @@ The `ToList()` call enumerates `customers` and invokes the API request once per 
 The shift is to return a recipe for performing the request later instead of performing it immediately:
 
 ```text
-(IRiskApi, Customer) -> IO<RiskScore>
+(IRiskApi, string) -> IO<RiskScore>
 ```
 
 ```csharp
-public static IO<RiskScore> GetRiskScoreIO(IRiskApi riskApi, Customer customer)
+public static IO<RiskScore> GetRiskScoreIO(IRiskApi riskApi, string customerId)
 {
-    return IO<RiskScore>.Delay(() => riskApi.GetCurrentScore(customer.Id));
+    return IO<RiskScore>.Delay(() => riskApi.GetCurrentScore(customerId));
 }
 ```
 
 Calling `GetRiskScoreIO` constructs an `IO<RiskScore>`. It does not call the API.
 
-The lambda captures `riskApi` and `customer`, so captured mutable state is read when the delegate runs. Making the computation itself a value lets inner functions return it, outer functions combine it, and a boundary execute it later.
+Deferring the operation is not the whole point. The effectful step is now a value that can be composed before execution. That lets you choose the execution policy later, at the point where the larger program is run, which is what restores composability for effectful steps.
 
-Materializing a mapping over customers produces a list of separate request recipes:
+Materializing a mapping over customer IDs produces a list of separate request recipes:
 
 ```csharp
-List<IO<RiskScore>> requests = customers
-    .Select(customer => GetRiskScoreIO(riskApi, customer))
+List<IO<RiskScore>> requests = customerIds
+    .Select(customerId => GetRiskScoreIO(riskApi, customerId))
     .ToList();
 ```
 
-No API requests have started. The useful next step is to combine those recipes into an `IO<List<RiskScore>>`: one larger deferred program with an explicit traversal policy. The appendix shows one implementation.
+No API requests have started. The useful next step is to combine those recipes into an `IO<List<RiskScore>>`: one larger deferred program with an explicit traversal policy. The appendix shows one implementation and where a delay policy would attach.
 
 Some libraries use a name like `Eff` for a similar effect value.
 
@@ -184,20 +193,6 @@ public sealed class IO<T>
         });
     }
 
-    public IO<TResult> Select<TResult>(Func<T, TResult> selector)
-    {
-        return Map(selector);
-    }
-
-    public IO<TResult> SelectMany<TNext, TResult>(
-        Func<T, IO<TNext>> next,
-        Func<T, TNext, TResult> project)
-    {
-        return FlatMap(value =>
-            next(value).Map(nextValue =>
-                project(value, nextValue)));
-    }
-
     public T Run()
     {
         return operation();
@@ -205,28 +200,19 @@ public sealed class IO<T>
 }
 ```
 
+> **Scope:** This `IO<T>` is a synchronous, non-memoized teaching model built on `Func<T>`. `Run()` directly invokes its stored delegate on the current thread; the wrapper itself performs no scheduling. Every call to `Run()` starts the computation again. Exceptions thrown by the delayed operation or its composed callbacks propagate to the caller. The type has no built-in asynchronous I/O, cancellation, concurrency, resource bracketing, error model, or stack-safety mechanism. It is not a production abstraction or a compiler-enforced effect system.
+
 `Pure` and `Delay` should not be confused:
 
 ```csharp
 IO<int> value = IO<int>.Pure(42);
 ```
 
-`Pure` receives a value that has already been computed. It does not defer evaluation of its argument:
-
-```csharp
-// The file is read before Pure is called.
-IO<string> eager = IO<string>.Pure(File.ReadAllText(path));
-```
-
-Use `Delay` to suspend the read:
+`Pure` places an existing value in the context. `Delay` suspends a computation:
 
 ```csharp
 IO<string> deferred = IO<string>.Delay(() => File.ReadAllText(path));
 ```
-
-C# evaluates a method argument before invoking the target method, which is why wrapping an effectful expression in `Pure` cannot defer it.
-
-The `Select` and `SelectMany` methods permit the C# query syntax used later. A `let` clause uses `Select`, while a second `from` clause uses the two-function `SelectMany` form included above.
 
 For an effect whose only interesting result is that it completed, use a one-value `Unit` type:
 
@@ -237,7 +223,7 @@ public readonly record struct Unit
 }
 ```
 
-This `Unit` is roughly `void` as a value. It is not the value-lifting operation that Part 1 called `Unit`; that operation is named `Pure` here to keep the two concepts distinct.
+This `Unit` is roughly `void` as a value. It is not the value-lifting operation that Part 1 called `Unit`; that operation is named `Pure` here.
 
 A deferred file read places the read inside the stored function:
 
@@ -302,7 +288,7 @@ public static IO<Unit> WriteAllTextIO(string path, string contents)
 }
 ```
 
-Assume `ParseOrder` and `RenderReport` are total pure functions:
+Assume `ParseOrder` and `RenderReport` are total pure functions, and that `IO<T>` also provides the `Select` / `SelectMany` methods required by C# query syntax. The appendix shows those query-support methods.
 
 ```csharp
 public static IO<string> LoadOrderAndRenderReport(
@@ -396,13 +382,33 @@ The discipline is not to ban `IO<T>` from the interior of the program. It is to 
 <details markdown="1">
 <summary markdown="span">Open the appendix for sequential traversal</summary>
 
-### From a list of recipes to one recipe
+### Optional C# query syntax support
 
-Mapping `GetRiskScoreIO` over customers and materializing the result produces a `List<IO<RiskScore>>`:
+The main body keeps `IO<T>` small. If you want C# query syntax, add the standard `Select` and `SelectMany` methods:
 
 ```csharp
-List<IO<RiskScore>> requests = customers
-    .Select(customer => GetRiskScoreIO(riskApi, customer))
+public IO<TResult> Select<TResult>(Func<T, TResult> selector)
+{
+    return Map(selector);
+}
+
+public IO<TResult> SelectMany<TNext, TResult>(
+    Func<T, IO<TNext>> next,
+    Func<T, TNext, TResult> project)
+{
+    return FlatMap(value =>
+        next(value).Map(nextValue =>
+            project(value, nextValue)));
+}
+```
+
+### From a list of recipes to one recipe
+
+Mapping `GetRiskScoreIO` over customer IDs and materializing the result produces a `List<IO<RiskScore>>`:
+
+```csharp
+List<IO<RiskScore>> requests = customerIds
+    .Select(customerId => GetRiskScoreIO(riskApi, customerId))
     .ToList();
 ```
 
@@ -466,7 +472,7 @@ public static class IOExtensions
 * an exception from `action` or an operation stops the traversal;
 * every outer `Run()` traverses the list and executes the operations again.
 
-If you wanted pauses between items or some other batch policy, that would belong in each `IO` or in a different traversal helper.
+If you wanted pauses between items, retries around each request, or some other batch policy, that policy would not be invented by `Run()` later. You would build it into each item `IO`, or write a different traversal helper whose rule is "run one item, apply the policy, then run the next." `TraverseSequential` itself only says: run the list sequentially.
 
 This turns the list of request recipes into one batch recipe:
 
