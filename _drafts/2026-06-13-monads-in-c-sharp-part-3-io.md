@@ -7,7 +7,7 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-Earlier articles in this series explained `Map` / `FlatMap` chaining, but did not focus on callbacks that interact with the outside world.
+Earlier articles in this series explained `Map` / `FlatMap` chaining. This one focuses on what changes once callbacks perform effects.
 
 Useful programs perform effects somewhere. Here, an *effect* is behavior such as printing, writing a file, calling a service, or observing time or randomness. A function is *pure* when the same inputs produce the same result and evaluation produces no observable behavior beyond that result.
 
@@ -29,13 +29,13 @@ decimal totalB = CalculateTotal(100m, 0.13m, 5m); // 107.35
 ```
 
 ```csharp
-decimal again = CalculateTotal(100m, 0.13m, 5m); // Still 107.35
-decimal later = CalculateTotal(100m, 0.13m, 5m); // Still 107.35
+decimal delayedTotal = CalculateTotal(100m, 0.13m, 5m);    // Still 107.35, even if this happens later.
+decimal reorderedTotal = CalculateTotal(100m, 0.13m, 5m);  // Still 107.35, even if other work runs first.
 ```
 
-Repeat or reorder the calls and the result stays the same. The function remembers nothing about prior execution.
+Delay or reorder the calls and the result stays the same. The function remembers nothing about prior execution.
 
-Invocation policy first becomes visible in the abstraction that applies a callback. LINQ `Select` is deferred: the selector runs when the sequence is enumerated, and another enumeration can run it again. `ToList()` forces one enumeration and stores the values.
+Host abstractions choose when callbacks run. LINQ `Select` is deferred: the selector runs when the sequence is enumerated, and another enumeration can run it again. `ToList()` forces one enumeration and stores the values.
 
 ```csharp
 List<int> mapped = numbers
@@ -43,7 +43,7 @@ List<int> mapped = numbers
     .ToList();
 ```
 
-`Maybe.Map` may invoke its callback zero or one times, while `Result.Map` may invoke it only for a successful value. For pure callbacks, those rules only determine which values appear. For effectful callbacks, they also determine whether and how often behavior occurs.
+`Maybe.Map` may invoke its callback zero or one times; `Result.Map` invokes it only on success. For pure callbacks, that only changes which values appear. For effectful callbacks, it also changes whether and how often behavior occurs.
 
 Now compare an effectful function:
 
@@ -56,10 +56,10 @@ public static RiskScore GetRiskScore(IRiskApi riskApi, string customerId)
 const string customerId = "cust-123";
 
 RiskScore firstScore = GetRiskScore(riskApi, customerId);   // The first request has already happened.
-RiskScore secondScore = GetRiskScore(riskApi, customerId);  // The later call may now see different conditions.
+RiskScore secondScore = GetRiskScore(riskApi, customerId);  // Delay, reorder, or interleave calls first, and this one may now differ.
 ```
 
-Discarding `firstScore` does not undo the first API request. The next call with the same visible inputs is not guaranteed to return the same score: the service may have newer data, less quota, stronger throttling, or simply different timing conditions. Later calls can therefore see changed downstream conditions even with no explicit data flow between them.
+Discarding `firstScore` does not undo the first API request. The next call with the same visible inputs is not guaranteed to return the same score. Call it again immediately, wait before calling it, or interleave other requests first, and the service may now have newer data, less quota, stronger throttling, or simply different timing conditions. Later calls can therefore see changed downstream conditions even with no explicit data flow between them.
 
 With effects, execution policy affects observable behavior:
 
@@ -114,7 +114,7 @@ Maybe<RiskScore> score =
     maybeCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
 ```
 
-The `ToList()` call enumerates `customerIds` and invokes the API request once per enumerated ID. Without `ToList()`, the LINQ query would remain deferred and later enumerations could issue the requests again. `Select` chooses when and how often the callback runs. That is fine for pure callbacks. For effectful callbacks, it is a poor fit because it does not let you attach the execution policy you may need, such as explicit timing, retry behavior, or a known traversal policy.
+The `ToList()` call enumerates `customerIds` and issues one request per ID. Without `ToList()`, the LINQ query stays deferred and later enumerations can issue the requests again. `Select` chooses when and how often the callback runs. That is fine for pure callbacks. For effectful callbacks, it is a poor fit because it does not let you attach the execution policy you may need, such as explicit timing, retry behavior, or a known traversal policy.
 
 > **Note:** `IO<T>` is not the only way to express execution policy in C#. Direct loops and resilience pipelines often handle retries, timeouts, circuit breakers, and rate limits more directly.
 
