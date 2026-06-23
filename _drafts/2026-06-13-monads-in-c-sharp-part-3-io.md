@@ -7,9 +7,9 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-A callback stops being "just a calculation" once running it can call a service, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. Once effects are involved, when the callback runs also matters.
+A function stops being "just a calculation" once running it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. Once effects are involved, when the function runs also matters.
 
-## Callback invocation becomes observable
+## When effects run
 
 As a quick refresher, consider a pure calculation:
 
@@ -36,7 +36,7 @@ List<decimal> totals = subtotals
     .ToList();
 ```
 
-`Select` and `ToList()` still control when the callback runs. For a pure callback, that affects when the work happens, not what result each input produces.
+`Select` and `ToList()` still control when the function runs. For a pure function, that affects when the work happens, not what result each input produces.
 
 Consider an ordinary API method:
 
@@ -57,9 +57,9 @@ But calling it does more than calculate a value. It sends a request, observes th
 
 For a pure function, calling it again with the same input just gives you the same answer. For an effectful function, calling it earlier, later, more often, or in a different order can change what happens.
 
-If a callback runs too quickly, in a different order, or after an earlier failure, the program may hit throttling, consume rate limits, or stop before later work runs. For effectful code, the problem is not just "it ran again." Timing, order, repetition, and failure behavior can all matter.
+If a function runs too quickly, in a different order, or after an earlier failure, the program may hit throttling, consume rate limits, or stop before later work runs. For effectful code, the problem is not just "it ran again." Timing, order, repetition, and failure behavior can all matter.
 
-That becomes especially noticeable when the function is passed to an abstraction that controls callback invocation:
+That becomes especially noticeable when the function is passed to an abstraction that controls when it is invoked:
 
 ```csharp
 IEnumerable<RiskScore> scores = customerIds
@@ -75,7 +75,7 @@ List<RiskScore> second = scores.ToList(); // Sends them all again.
 
 This is normal `IEnumerable<T>` behavior. The selector is deferred and is invoked once for every value produced during each enumeration.
 
-The mismatch is in the type signature: it looks like an ordinary function that returns a `RiskScore`, but calling it also performs an external operation. Once you pass that callback into deferred enumeration, LINQ decides when it is invoked and how many times, and those details now matter.
+The mismatch is in the type signature: it looks like an ordinary function that returns a `RiskScore`, but calling it also performs an external operation. Once you pass that function into deferred enumeration, LINQ decides when it is invoked and how many times, and those details now matter.
 
 Plain procedural code usually makes the execution policy obvious:
 
@@ -121,14 +121,14 @@ That separation is the central idea:
 
 > **`IO<T>` does not make an effect pure. It makes the decision to perform the effect separate and explicit.**
 
-Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. The monadic part is `Pure` plus `FlatMap`: they let deferred, dependent computations be combined into another deferred computation.
+Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. Plain deferral is useful, but by itself it does not give you a way to combine dependent deferred computations while keeping them deferred. `Pure` and `FlatMap` provide that composition. Once the effectful computation is represented as an `IO<T>` value, execution policy can be chosen by the surrounding combinator or program structure instead of being forced by whatever host abstraction invokes the function. If you hand a plain function to `List.Select` or another host abstraction, that host decides when and how often the function runs. You can still put delays or retries inside the function itself, but then that policy is tied to the host abstraction you happened to use rather than being composed separately.
 
 ```text
 Pure    : T -> IO<T>
 FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
 ```
 
-Calling `FlatMap` builds another `IO`; it does not run the first operation or invoke the next callback. Those things happen only when the resulting program is run.
+Calling `FlatMap` builds another `IO`; it does not run the first operation or run the next deferred step. Those things happen only when the resulting program is run.
 
 This article implements that model as a small synchronous wrapper around `Func<T>`. The wrapper gives the thunk a meaningful type, an explicit execution boundary, and composition operations.
 
@@ -330,7 +330,7 @@ The central distinction is not merely that effects exist. It is that constructin
 
 This tiny `IO<T>` makes the computation a first-class cold value. `Delay` suspends it, `FlatMap` composes dependent steps without running them, and `Run()` marks the execution boundary.
 
-Because construction and execution are separate, sequencing and traversal policies can be expressed by combinators or surrounding infrastructure instead of being hidden inside whatever abstraction happens to invoke a callback. The discipline is not to ban `IO<T>` from the interior of the program. It is to avoid calling `Run()` prematurely.
+Because construction and execution are separate, sequencing and traversal policies can be expressed by combinators or surrounding infrastructure instead of being hidden inside whatever abstraction happens to control when a function is invoked. The discipline is not to ban `IO<T>` from the interior of the program. It is to avoid calling `Run()` prematurely.
 
 ## Appendix
 
