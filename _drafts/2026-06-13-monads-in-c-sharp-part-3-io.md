@@ -7,9 +7,9 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-A function stops being "just a calculation" once running it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. Once effects are involved, when the function runs also matters.
+A function is no longer "just a calculation" when running it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. With pure functions, the question is whether the inputs determine the result. With effectful functions, it can also matter when, how often, and in what order the function runs.
 
-## When effects run
+## When timing matters
 
 As a quick refresher, consider a pure calculation:
 
@@ -26,7 +26,7 @@ decimal totalA = CalculateTotal(100m, 0.13m, 5m); // 107.35
 decimal totalB = CalculateTotal(100m, 0.13m, 5m); // 107.35
 ```
 
-Those calls return the same value, and the first call does not change the conditions seen by the second.
+Those calls keep returning the same value for the same inputs. Whether you call the function once or many times, now or later, does not change what result those inputs determine.
 
 ```csharp
 List<decimal> subtotals = new() { 100m, 80m, 140m };
@@ -38,7 +38,7 @@ List<decimal> totals = subtotals
 
 `Select` and `ToList()` still control when the function runs. For a pure function, that affects when the work happens, not what result each input produces.
 
-Consider an ordinary API method:
+Consider an ordinary HTTP API call wrapped as a function:
 
 ```csharp
 public static RiskScore GetRiskScore(IRiskApi riskApi, string customerId)
@@ -55,7 +55,17 @@ Its type looks like an ordinary value-producing function:
 
 But calling it does more than calculate a value. It sends a request, observes the current state of another system, and may change externally visible conditions such as quota or throttling.
 
-For a pure function, calling it again with the same input just gives you the same answer. For an effectful function, calling it earlier, later, more often, or in a different order can change what happens.
+For a pure function, calling it again with the same input just gives you the same answer. For an effectful function, the inputs may stay the same while the outcome still changes depending on when, how often, or in what order the function runs.
+
+```csharp
+RiskScore firstScore = GetRiskScore(riskApi, customerId);   // Sends one request now.
+RiskScore secondScore = GetRiskScore(riskApi, customerId);  // May observe different service state.
+
+Thread.Sleep(TimeSpan.FromSeconds(1));
+RiskScore thirdScore = GetRiskScore(riskApi, customerId);   // May differ again, or hit throttling/rate limits.
+```
+
+The pure `CalculateTotal` example does not have that property. Call it now, later, once, or many times, and the same inputs still determine the same result.
 
 If a function runs too quickly, in a different order, or after an earlier failure, the program may hit throttling, consume rate limits, or stop before later work runs. For effectful code, the problem is not just "it ran again." Timing, order, repetition, and failure behavior can all matter.
 
@@ -121,7 +131,7 @@ That separation is the central idea:
 
 > **`IO<T>` does not make an effect pure. It makes the decision to perform the effect separate and explicit.**
 
-Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. Plain deferral is useful, but by itself it does not give you a way to combine dependent deferred computations while keeping them deferred. `Pure` and `FlatMap` provide that composition. Once the effectful computation is represented as an `IO<T>` value, execution policy can be chosen by the surrounding combinator or program structure instead of being forced by whatever host abstraction invokes the function. If you hand a plain function to `List.Select` or another host abstraction, that host decides when and how often the function runs. You can still put delays or retries inside the function itself, but then that policy is tied to the host abstraction you happened to use rather than being composed separately.
+Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. Plain deferral is useful, but by itself it does not give you a way to combine dependent deferred computations while keeping them deferred. `Pure` and `FlatMap` provide that composition. Once the effectful computation is represented as an `IO<T>` value, you can choose execution policy later through the surrounding combinator or program structure. If you hand a plain function to `List.Select` or another host abstraction, that host decides when and how often the function runs. Representing the effectful computation as a value makes that policy easier to compose and reuse.
 
 ```text
 Pure    : T -> IO<T>
