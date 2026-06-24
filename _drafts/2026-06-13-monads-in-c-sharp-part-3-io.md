@@ -55,7 +55,7 @@ Its type looks like an ordinary value-producing function:
 
 But calling it does more than calculate a value. It sends a request, observes the current state of another system, and may change externally visible conditions such as quota or throttling.
 
-For a pure function, calling it again with the same input just gives you the same answer. For an effectful function, the inputs may stay the same while the outcome still changes depending on when, how often, or in what order the function runs.
+For a pure function, calling it again with the same input just gives you the same answer. For an effectful function, the inputs may stay the same while the outcome still changes depending on when, how often, or in what order the function runs, and subsequent invocations of the function could depend on whether others have run, even if they are not provided as explicit inputs. If you run GetRiskScore too fast, even with the same inputs, subsequent functions may change their output (e.g., be rate limited, maybe a timeout, etc.)
 
 ```csharp
 RiskScore firstScore = GetRiskScore(riskApi, customerId);   // Sends one request now.
