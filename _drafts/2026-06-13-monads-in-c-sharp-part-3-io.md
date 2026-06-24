@@ -85,7 +85,34 @@ List<RiskScore> second = scores.ToList(); // Sends them all again.
 
 This is normal `IEnumerable<T>` behavior. The selector is deferred and is invoked once for every value produced during each enumeration.
 
-The mismatch is in the type signature: it looks like an ordinary function that returns a `RiskScore`, but calling it also performs an external operation. Once you pass that function into deferred enumeration, LINQ decides when it is invoked and how many times, and those details now matter.
+A list is only one example:
+
+```csharp
+var maybeScore =
+    from customerId in maybeCustomerId
+    select GetRiskScore(riskApi, customerId);
+
+var resultScore =
+    from customerId in validatedCustomerId
+    select GetRiskScore(riskApi, customerId);
+```
+
+<details markdown="1">
+<summary markdown="span">Equivalent method-call form</summary>
+
+```csharp
+var maybeScore =
+    maybeCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
+
+var resultScore =
+    validatedCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
+```
+
+</details>
+
+`Maybe` might invoke the function zero or one times. `Result` might invoke it only on the success path. The point is not `List.Select` specifically. Once you pass an effectful function into some host abstraction, that abstraction brings its own rule for when the function runs. You could imagine an abstraction that runs items in reverse order, or one that visits every second element before coming back for the rest. That rule may be perfectly valid for the abstraction, but still be the wrong execution policy for the effectful work you are trying to describe.
+
+The mismatch is in the type signature: it looks like an ordinary function that returns a `RiskScore`, but calling it also performs an external operation. Once you pass that function into such an abstraction, the abstraction decides when it is invoked and how many times, and those details now matter.
 
 Plain procedural code usually makes the execution policy obvious:
 
@@ -245,6 +272,27 @@ public static IO<Unit> LoadOrderAndWriteReport(
     string orderPath,
     string reportPath)
 {
+    return
+        from json in ReadAllTextIO(orderPath)
+        let order = ParseOrder(json)
+        from exchangeRate in FetchExchangeRateIO(exchangeRateApi, order.Currency)
+        let report = RenderReport(order, exchangeRate)
+        from result in WriteAllTextIO(reportPath, report)
+        select result;
+}
+```
+
+The `let` clauses keep the pure parsing and rendering steps inside the suspended computation. The later `from` clauses represent effectful steps that depend on earlier results. The return value is still another `IO<Unit>`, so the whole pipeline stays deferred.
+
+<details markdown="1">
+<summary markdown="span">Equivalent `Map` / `FlatMap` form</summary>
+
+```csharp
+public static IO<Unit> LoadOrderAndWriteReport(
+    IExchangeRateApi exchangeRateApi,
+    string orderPath,
+    string reportPath)
+{
     return ReadAllTextIO(orderPath)
         .Map(ParseOrder)
         .FlatMap(order =>
@@ -256,27 +304,9 @@ public static IO<Unit> LoadOrderAndWriteReport(
 }
 ```
 
-`Map(ParseOrder)` keeps the pure parsing step inside the suspended computation. Each `FlatMap` builds a later suspended step that depends on an earlier result. The return value is another `IO<Unit>`, so the whole pipeline stays deferred.
+</details>
 
-If you prefer query syntax, the same composition can be written this way:
-
-```csharp
-public static IO<Unit> LoadOrderAndWriteReportQuery(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath,
-    string reportPath)
-{
-    return
-        from json in ReadAllTextIO(orderPath)
-        let order = ParseOrder(json)
-        from exchangeRate in FetchExchangeRateIO(exchangeRateApi, order.Currency)
-        let report = RenderReport(order, exchangeRate)
-        from result in WriteAllTextIO(reportPath, report)
-        select result;
-}
-```
-
-That is syntax sugar over the same `Map` / `FlatMap` structure. The important point is unchanged: compose first, then run.
+That query is syntax sugar over the same `Map` / `FlatMap` structure. The important point is unchanged: compose first, then run.
 
 ## The execution boundary
 
@@ -322,7 +352,7 @@ List<IO<RiskScore>>  // Many suspended request recipes.
 IO<List<RiskScore>>  // One suspended program that will produce a list.
 ```
 
-After `Select`, you still need a helper that combines those many deferred requests into one deferred batch. A helper such as `SequenceSequential` or `TraverseSequential` also fixes the policy for that batch. In this article, that policy is: run later, in list order, one at a time, and stop on exception. The appendix shows one implementation.
+After `Select`, you still need a helper that combines those many deferred requests into one deferred batch. A helper such as `SequenceSequential` or `TraverseSequential` also fixes the policy for that batch. In this article, that policy is: run later, in list order, one at a time, and stop on exception.
 
 This turns the list of request recipes into one batch recipe:
 
@@ -330,58 +360,7 @@ This turns the list of request recipes into one batch recipe:
 IO<List<RiskScore>> program = requests.SequenceSequential();
 ```
 
-`SequenceSequential` still does not start the requests. The work begins only when the outer `Run()` executes the batch program:
-
-```csharp
-List<RiskScore> scores = program.Run();
-```
-
-## Conclusion
-
-The central distinction is not merely that effects exist. It is that constructing an effectful computation is different from running it.
-
-This tiny `IO<T>` makes the computation a first-class cold value. `Delay` suspends it, `FlatMap` composes dependent steps without running them, and `Run()` marks the execution boundary.
-
-Because construction and execution are separate, sequencing and traversal policies can be expressed by combinators or surrounding infrastructure instead of being hidden inside whatever abstraction happens to control when a function is invoked. The discipline is not to ban `IO<T>` from the interior of the program. It is to avoid calling `Run()` prematurely.
-
-## Appendix
-
-<details markdown="1">
-<summary markdown="span">Open the appendix for optional query syntax and traversal helpers</summary>
-
-### Optional C# query syntax support
-
-The main body uses `Map` and `FlatMap` directly. If you want C# query syntax, add the standard `Select` and `SelectMany` methods:
-
-```csharp
-public IO<TResult> Select<TResult>(Func<T, TResult> selector)
-{
-    return Map(selector);
-}
-
-public IO<TResult> SelectMany<TNext, TResult>(
-    Func<T, IO<TNext>> next,
-    Func<T, TNext, TResult> project)
-{
-    return FlatMap(value =>
-        next(value).Map(nextValue =>
-            project(value, nextValue)));
-}
-```
-
-### Optional traversal helper implementation
-
-If you want to see one sequential batch helper, here is a simple implementation.
-
-```text
-Sequence:
-List<IO<T>> -> IO<List<T>>
-
-Traverse:
-List<A> x (A -> IO<B>) -> IO<List<B>>
-```
-
-`Sequence` combines effectful values already present in the collection. `Traverse` maps inputs to effectful values and combines them.
+Here is one simple implementation:
 
 ```csharp
 public static class IOExtensions
@@ -412,6 +391,12 @@ public static class IOExtensions
 }
 ```
 
+`SequenceSequential` still does not start the requests. The work begins only when the outer `Run()` executes the batch program:
+
+```csharp
+List<RiskScore> scores = program.Run();
+```
+
 `TraverseSequential` contributes the following policy:
 
 * list traversal is deferred until `Run()`;
@@ -422,8 +407,39 @@ public static class IOExtensions
 * an exception stops the traversal;
 * every outer `Run()` traverses the list and executes the operations again.
 
-If you wanted pauses between items, retries around each request, or some other batch policy, `Run()` would not invent that later. You would build it into each item `IO`, or write a different traversal helper whose rule is "run one item, apply the policy, then run the next."
+The nested `Run()` calls inside `TraverseSequential` are part of that deferred traversal's implementation, so they happen only after the outer batch program begins. If you wanted pauses between items, retries around each request, reverse order, or some other rule, `Run()` would not invent that later. You would build it into each item `IO`, or write a different traversal helper with a different policy.
 
-The nested `Run()` calls inside `TraverseSequential` are part of that deferred traversal's implementation, so they happen only after the outer batch program begins.
+## Conclusion
+
+The central distinction is not merely that effects exist. It is that constructing an effectful computation is different from running it.
+
+This tiny `IO<T>` makes the computation a first-class cold value. `Delay` suspends it, `FlatMap` composes dependent steps without running them, and `Run()` marks the execution boundary.
+
+Because construction and execution are separate, sequencing and traversal policies can be expressed by combinators or surrounding infrastructure instead of being hidden inside whatever abstraction happens to control when a function is invoked. The discipline is not to ban `IO<T>` from the interior of the program. It is to avoid calling `Run()` prematurely.
+
+## Appendix
+
+<details markdown="1">
+<summary markdown="span">Open the appendix for optional query syntax support</summary>
+
+### Optional C# query syntax support
+
+The main body uses C# query syntax for the composed `IO` examples. If you want that surface on `IO<T>`, add the standard `Select` and `SelectMany` methods:
+
+```csharp
+public IO<TResult> Select<TResult>(Func<T, TResult> selector)
+{
+    return Map(selector);
+}
+
+public IO<TResult> SelectMany<TNext, TResult>(
+    Func<T, IO<TNext>> next,
+    Func<T, TNext, TResult> project)
+{
+    return FlatMap(value =>
+        next(value).Map(nextValue =>
+            project(value, nextValue)));
+}
+```
 
 </details>
