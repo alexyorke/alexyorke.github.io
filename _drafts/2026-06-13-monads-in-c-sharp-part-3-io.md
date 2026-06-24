@@ -1,155 +1,146 @@
 ---
 title: "Monads in C# (Part 3): Composing Deferred Effects with a Tiny IO"
 date: 2026-06-13
-description: "A tiny synchronous IO<T> turns an effectful computation into a cold value. FlatMap composes those computations, while Run() marks the execution boundary."
+description: "A tiny synchronous IO<T> represents an effectful computation as a cold value. FlatMap composes those computations, while Run() marks the execution boundary."
 permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 ---
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-A function is no longer "just a calculation" when running it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. For pure functions, the question is whether the inputs determine the result. For effectful functions, it can also matter when, how often, and in what order the function runs.
+A function is no longer "just a calculation" if calling it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, returns the same result for the same inputs and does not change anything outside itself.
+
+As in the earlier parts, the types in this article are deliberately small teaching models. The goal is to make the common structure of `Pure`, `Map`, and `FlatMap` visible, and here to examine how that structure interacts with effects. They are not presented as replacements for .NET collections, LINQ, `Task`, or ordinary procedural code.
+
+As in Part 1, I will write the list examples with `Map` in C#-ish pseudocode. The point is to keep the shared monadic shape visible. In that Part 1 model, the list is eager and materialized: `Map` traverses now, once per element, in list order.
 
 ## When timing matters
 
-As a quick refresher, consider a pure calculation:
+As a quick refresher, consider a pure price calculation:
 
 ```csharp
-public static decimal CalculateTotal(decimal subtotal, decimal taxRate, decimal discount)
+public static decimal CalculateLineTotal(
+    int quantity,
+    decimal unitPrice,
+    decimal taxRate)
 {
-    decimal discountedSubtotal = subtotal - discount;
-    decimal tax = discountedSubtotal * taxRate;
-
-    return discountedSubtotal + tax;
-}
-
-decimal totalA = CalculateTotal(100m, 0.13m, 5m); // 107.35
-decimal totalB = CalculateTotal(100m, 0.13m, 5m); // 107.35
-```
-
-Call it once or a thousand times, now or later, and the same inputs still determine the same result.
-
-```csharp
-List<decimal> subtotals = new() { 100m, 80m, 140m };
-
-List<decimal> totals = subtotals
-    .Select(subtotal => CalculateTotal(subtotal, 0.13m, 5m))
-    .ToList();
-```
-
-`Select` and `ToList()` still control when the function runs. For a pure function, that affects when the work happens, not what result each input produces.
-
-Consider an ordinary HTTP API call wrapped as a function:
-
-```csharp
-public static RiskScore GetRiskScore(IRiskApi riskApi, string customerId)
-{
-    return riskApi.GetCurrentScore(customerId);
+    decimal subtotal = quantity * unitPrice;
+    return subtotal + subtotal * taxRate;
 }
 ```
 
-Its type looks like an ordinary value-producing function:
+```csharp
+var quantities = new List<int> { 1, 2, 3 };
+
+List<decimal> totals =
+    quantities.Map(quantity =>
+        CalculateLineTotal(quantity, 19.99m, 0.13m));
+```
+
+Here the list's eagerness is usually unremarkable. `Map` runs now, but the same inputs still determine the same totals.
+
+Now consider an effectful price lookup:
+
+```csharp
+public static decimal FetchCurrentPrice(
+    IRemotePriceApi remotePriceApi,
+    string productId)
+{
+    return remotePriceApi.GetCurrentPrice(productId);
+}
+```
+
+```csharp
+List<decimal> prices =
+    productIds.Map(productId =>
+        FetchCurrentPrice(remotePriceApi, productId));
+```
+
+Its type still looks like an ordinary value-producing function:
 
 ```text
-(IRiskApi, string) -> RiskScore
+(IRemotePriceApi, string) -> decimal
 ```
 
-But calling it does more than calculate a value. It sends a request, observes the current state of another system, and may change externally visible conditions such as quota or throttling.
+But calling it does more than calculate a value. It sends a request and observes the current state of another system. Because the Part 1 list traverses immediately, those requests happen now, in list order. If one request throws, later product IDs are never reached.
 
-For a pure function, calling it again with the same input just gives you the same answer. For an effectful function, the inputs may stay the same while the outcome still changes depending on when, how often, or in what order the function runs, and subsequent invocations of the function could depend on whether others have run, even if they are not provided as explicit inputs. If you run GetRiskScore too fast, even with the same inputs, subsequent functions may change their output (e.g., be rate limited, maybe a timeout, etc.)
+The same `IRemotePriceApi` reference and product ID do not describe the remote service's complete state. A later invocation may observe a newer price, consume additional quota, fail transiently, or be throttled because of earlier requests.
+
+We can see the same shape with `Maybe` and `Result`:
 
 ```csharp
-RiskScore firstScore = GetRiskScore(riskApi, customerId);   // Sends one request now.
-RiskScore secondScore = GetRiskScore(riskApi, customerId);  // May observe different service state.
+var maybePrice =
+    maybeProductId.Map(productId =>
+        FetchCurrentPrice(remotePriceApi, productId));
 
-Thread.Sleep(TimeSpan.FromSeconds(1));
-RiskScore thirdScore = GetRiskScore(riskApi, customerId);   // May differ again, or hit throttling/rate limits.
+var resultPrice =
+    validatedProductId.Map(productId =>
+        FetchCurrentPrice(remotePriceApi, productId));
 ```
 
-The pure `CalculateTotal` example does not have that property. Call it now, later, once, or many times, and the same inputs still determine the same result.
+Although these types all provide a map-shaped operation, `Map` does not imply one universal execution strategy. Each type determines whether, when, and how often the supplied function is invoked.
 
-If a function runs too quickly, in a different order, or after an earlier failure, the program may hit throttling, consume rate limits, or stop before later work runs. For effectful code, the problem is not just "it ran again." Timing, order, repetition, and failure behavior can all matter.
+* In the Part 1 list, `Map` runs once per element, immediately, in list order.
+* In `Maybe<T>`, `Map` runs zero or one times.
+* In `Result<T>`, `Map` runs only on the success path.
+* In `IO<T>`, `Map` runs only when the resulting `IO` is run.
 
-That becomes especially noticeable when the function is passed to an abstraction that controls when it is invoked:
-
-```csharp
-IEnumerable<RiskScore> scores = customerIds
-    .Select(customerId => GetRiskScore(riskApi, customerId));
-```
-
-Constructing this query sends no requests. Enumeration does:
-
-```csharp
-List<RiskScore> first = scores.ToList();  // Sends the requests.
-List<RiskScore> second = scores.ToList(); // Sends them all again.
-```
-
-This is normal `IEnumerable<T>` behavior. The selector is deferred and is invoked once for every value produced during each enumeration.
-
-A list is only one example:
-
-```csharp
-var maybeScore =
-    from customerId in maybeCustomerId
-    select GetRiskScore(riskApi, customerId);
-
-var resultScore =
-    from customerId in validatedCustomerId
-    select GetRiskScore(riskApi, customerId);
-```
+For pure functions, those differences may be easy to ignore. For effectful functions, they become part of the program's observable behavior.
 
 <details markdown="1">
-<summary markdown="span">Equivalent method-call form</summary>
+<summary markdown="span">A related example with deferred LINQ</summary>
+
+The list from Part 1 maps eagerly. LINQ's `Enumerable.Select` has a different policy: it returns a deferred `IEnumerable<T>` whose selector runs during enumeration.
 
 ```csharp
-var maybeScore =
-    maybeCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
+IEnumerable<decimal> pricesQuery = productIds
+    .Select(productId => FetchCurrentPrice(remotePriceApi, productId));
 
-var resultScore =
-    validatedCustomerId.Map(customerId => GetRiskScore(riskApi, customerId));
+// No requests yet.
+
+List<decimal> firstPrices = pricesQuery.ToList();   // Requests happen.
+List<decimal> secondPrices = pricesQuery.ToList();  // Requests happen again.
 ```
+
+That is not the execution behavior of the list from Part 1. It is another example of a host abstraction imposing its own invocation policy.
 
 </details>
 
-`Maybe` might invoke the function zero or one times. `Result` might invoke it only on the success path. The point is not `List.Select` specifically. Once you pass an effectful function into some host abstraction, that abstraction brings its own rule for when the function runs. You could imagine an abstraction that runs items in reverse order, or one that visits every second element before coming back for the rest. That rule may be perfectly valid for the abstraction, but still be the wrong execution policy for the effectful work you are trying to describe.
-
-The mismatch is in the type signature: it looks like an ordinary function that returns a `RiskScore`, but calling it also performs an external operation. Once you pass that function into such an abstraction, the abstraction decides when it is invoked and how many times, and those details now matter.
-
-Plain procedural code usually makes the execution policy obvious:
-
-```csharp
-var scores = new List<RiskScore>();
-
-foreach (string customerId in customerIds)
-{
-    RiskScore score = riskApi.GetCurrentScore(customerId);
-    scores.Add(score);
-}
-```
-
-It runs now, in order, and stops on failure unless the code says otherwise. If you want pauses, retries, or rate limiting, this is where you would put them.
-
 ## From an immediate result to a suspended computation
 
-`GetRiskScore` is still a function we want to compose with other steps. The problem is that, in its current form, calling it performs the effect immediately, so whatever abstraction invokes the function also ends up deciding when and how often that effect runs. We do not want to require every caller to adopt some special collection or special execution policy up front. What we want instead is a way to return an inert description of the work - something that can be combined like any other value, but that does not run until we explicitly choose to run it.
+`FetchCurrentPrice` is still a function we want to compose with other steps. The problem is not that the Part 1 list is behaving incorrectly. It is still invoking its function now, once per element, in list order. The problem is that invoking this particular function performs the remote request immediately.
 
 One way to do that is to change what the function returns:
 
 ```text
-(IRiskApi, string) -> RiskScore
-(IRiskApi, string) -> IO<RiskScore>
+(IRemotePriceApi, string) -> decimal
+(IRemotePriceApi, string) -> IO<decimal>
 ```
 
 ```csharp
-public static IO<RiskScore> GetRiskScoreIO(
-    IRiskApi riskApi,
-    string customerId)
+public static IO<decimal> FetchCurrentPriceIO(
+    IRemotePriceApi remotePriceApi,
+    string productId)
 {
-    return IO<RiskScore>.Delay(
-        () => riskApi.GetCurrentScore(customerId));
+    return IO<decimal>.Delay(
+        () => FetchCurrentPrice(remotePriceApi, productId));
 }
 ```
 
-Calling `GetRiskScoreIO` does not send a request. It returns a deferred computation that can produce a `RiskScore` when run. The outer function now returns something inert that can be passed around and combined before any effect happens.
+```csharp
+List<IO<decimal>> requests =
+    productIds.Map(productId =>
+        FetchCurrentPriceIO(remotePriceApi, productId));
+```
+
+The list still traverses now. The difference is that invoking `FetchCurrentPriceIO` does not send the request; it constructs an `IO<decimal>`.
+
+```text
+List<string>
+    -> Map(string -> IO<decimal>)
+    -> List<IO<decimal>>
+```
+
+You have not changed the list's execution policy. You have changed what the function produces. The list is still eager, but it now produces suspended computations that can be combined before any wrapped work is performed.
 
 That separation is the central idea:
 
@@ -160,14 +151,16 @@ That separation is the central idea:
 
 > **`IO<T>` does not make an effect pure. It makes the decision to perform the effect separate and explicit.**
 
-Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. Plain deferral is useful, but by itself it does not give you a way to combine dependent deferred computations while keeping them deferred. `Pure` and `FlatMap` provide that composition. Once the effectful computation is represented as an `IO<T>` value, execution policy can be chosen by the surrounding combinator or program structure instead of by whatever host abstraction happens to invoke the function. You can still put delays or retries inside a plain function, but then that policy is tied to the particular abstraction that calls it. Representing the work as a value keeps that policy separate and makes it easier to compose.
+A `Func<T>` can already suspend work, and it could also be given `Map` and `FlatMap` extension methods. The `IO<T>` wrapper is useful because it gives effectful thunks a distinct type, names `Run()` as the execution boundary, and provides a focused API for composing them. You can hard-code delays or retries inside the effectful function, but then every caller receives that policy. Returning `IO<T>` instead gives callers a value that explicit policy combinators can wrap or traverse before execution. This small `IO<T>` does not make those policies automatic; the sequential traversal below is one concrete example.
 
 ```text
 Pure    : T -> IO<T>
 FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
 ```
 
-Calling `FlatMap` builds another `IO`; it does not run the first operation or run the next deferred step. Those things happen only when the resulting program is run. This is also why `Run()` tends to move outward: once part of the program is executed too early, the surrounding code loses the chance to choose policy for the larger whole.
+This implementation stores an opaque delegate, not an inspectable effect tree. `Run()` can execute it, but it cannot discover individual operations or retroactively add retries, cancellation, parallelism, cleanup, or resource management.
+
+Calling `FlatMap` builds another `IO`; it does not run the first operation or the next deferred step. Those things happen only when the resulting computation is run.
 
 This article implements that model as a small synchronous wrapper around `Func<T>`. The wrapper gives the thunk a meaningful type, an explicit execution boundary, and composition operations.
 
@@ -222,6 +215,8 @@ public sealed class IO<T>
 }
 ```
 
+Although `Map` and `FlatMap` contain calls to `Run()`, those calls are inside the delegate stored by the newly returned `IO`. Calling `Map` or `FlatMap` therefore constructs another suspended computation; the inner calls occur only when that outer computation is run.
+
 `Pure` wraps an existing value. `Delay` suspends a computation.
 
 For an effect whose only interesting result is that it completed, use a one-value `Unit` type:
@@ -235,11 +230,11 @@ public readonly record struct Unit
 
 This `Unit` is roughly `void` as a value. It is not the value-lifting operation that Part 1 called `Unit`; that operation is named `Pure` here.
 
-`Map` is for a next step that returns a plain value. `FlatMap` is for a next step that returns another `IO`.
+By convention, `Map` is used for pure transformations that return plain values. `FlatMap` is used when the next step returns another `IO`. C# cannot enforce that a function passed to `Map` is pure.
 
 ## Compose first, run later
 
-Suppose we want to read an order from disk, fetch its exchange rate, render a report, and write that report to disk:
+Suppose `ParseOrder` returns an order with `ProductId`, `Quantity`, and `TaxRate`, and we want to read an order from disk, fetch the current product price, calculate the total, render a report, and write that report to disk:
 
 ```csharp
 public static IO<string> ReadAllTextIO(string path)
@@ -247,15 +242,6 @@ public static IO<string> ReadAllTextIO(string path)
     return IO<string>.Delay(() => File.ReadAllText(path));
 }
 
-public static IO<decimal> FetchExchangeRateIO(IExchangeRateApi exchangeRateApi, string currency)
-{
-    return IO<decimal>.Delay(() => exchangeRateApi.GetCurrentRate(currency));
-}
-```
-
-For a file write, the interesting result is normally successful completion, so return `IO<Unit>`:
-
-```csharp
 public static IO<Unit> WriteAllTextIO(string path, string contents)
 {
     return IO<Unit>.Delay(() =>
@@ -268,45 +254,29 @@ public static IO<Unit> WriteAllTextIO(string path, string contents)
 
 ```csharp
 public static IO<Unit> LoadOrderAndWriteReport(
-    IExchangeRateApi exchangeRateApi,
-    string orderPath,
-    string reportPath)
-{
-    return
-        from json in ReadAllTextIO(orderPath)
-        let order = ParseOrder(json)
-        from exchangeRate in FetchExchangeRateIO(exchangeRateApi, order.Currency)
-        let report = RenderReport(order, exchangeRate)
-        from result in WriteAllTextIO(reportPath, report)
-        select result;
-}
-```
-
-The `let` clauses keep the pure parsing and rendering steps inside the suspended computation. The later `from` clauses represent effectful steps that depend on earlier results. The return value is still another `IO<Unit>`, so the whole pipeline stays deferred.
-
-<details markdown="1">
-<summary markdown="span">Equivalent `Map` / `FlatMap` form</summary>
-
-```csharp
-public static IO<Unit> LoadOrderAndWriteReport(
-    IExchangeRateApi exchangeRateApi,
+    IRemotePriceApi remotePriceApi,
     string orderPath,
     string reportPath)
 {
     return ReadAllTextIO(orderPath)
         .Map(ParseOrder)
         .FlatMap(order =>
-            FetchExchangeRateIO(exchangeRateApi, order.Currency)
-                .Map(exchangeRate =>
-                    RenderReport(order, exchangeRate)))
+            FetchCurrentPriceIO(remotePriceApi, order.ProductId)
+                .Map(unitPrice =>
+                {
+                    decimal total =
+                        CalculateLineTotal(order.Quantity, unitPrice, order.TaxRate);
+
+                    return RenderReport(order, unitPrice, total);
+                }))
         .FlatMap(report =>
             WriteAllTextIO(reportPath, report));
 }
 ```
 
-</details>
+`Map(ParseOrder)` keeps the pure parsing step inside the suspended computation. The inner `Map` turns the fetched price into a rendered report without leaving `IO`. Each `FlatMap` adds the next effectful step, and the whole pipeline remains deferred.
 
-That query is syntax sugar over the same `Map` / `FlatMap` structure. The important point is unchanged: compose first, then run.
+If you prefer C# query syntax, the appendix shows the equivalent `Select` / `SelectMany` support and the same pipeline written with `from` and `let`.
 
 ## The execution boundary
 
@@ -314,12 +284,12 @@ Constructing the program performs none of the wrapped effects:
 
 ```csharp
 IO<Unit> program = LoadOrderAndWriteReport(
-    exchangeRateApi,
+    remotePriceApi,
     "order.json",
     "report.txt");
 ```
 
-At that point, the caller holds one larger deferred computation.
+At that point, the caller holds one larger suspended computation.
 
 Calling `Run()` crosses the execution boundary:
 
@@ -327,37 +297,37 @@ Calling `Run()` crosses the execution boundary:
 program.Run();
 ```
 
-That call attempts the file read, exchange-rate request, report rendering, and file write in dependency order. A second `Run()` re-reads the order, re-fetches the rate, re-renders the report, and rewrites the file.
+That call attempts the file read, price request, total calculation, report rendering, and file write in dependency order. A second `Run()` re-reads the order, re-fetches the price, re-calculates the total, re-renders the report, and rewrites the file.
 
-In this style, you usually push calls to `Run()` outward toward the application boundary, while `IO<T>` values can remain in the call graph. Control is lost when an inner helper calls `Run()` prematurely and turns part of the deferred description into an already performed effect. This toy `Run()` only executes the delegate it is given; it cannot inspect the built program or retroactively add policies such as retries, parallelism, cancellation, or cleanup. Those choices must be encoded while constructing the `IO<T>` or supplied by surrounding infrastructure.
+In this style, you usually push calls to `Run()` outward toward the application boundary, while `IO<T>` values can remain in the call graph. Control is lost when an inner helper calls `Run()` prematurely and turns part of the suspended computation into an already performed effect. This toy `Run()` only executes the stored delegate; it cannot retroactively add policy.
 
 ## Runtime semantics and limitations
 
-This `IO<T>` is intentionally small: it is synchronous, cold, and non-memoized. Nothing happens until `Run()`, `Run()` executes on the current thread, and calling `Run()` twice runs the whole computation twice. Exceptions propagate normally, and closures over mutable state are observed when the computation runs. C# does not verify purity here. This is a teaching model, not a production-grade effect runtime. For asynchronous work, .NET normally uses `Task` and `Task<T>`.
+This `IO<T>` is intentionally small: it is synchronous, cold, non-memoized, and opaque. Nothing happens until `Run()`, `Run()` executes on the current thread, every `Run()` starts the computation again, exceptions propagate normally, and closures over mutable state are observed at run time. C# does not enforce purity here. It is not stack-safe for very deep composition chains and provides no built-in cancellation, resource safety, retry, or rollback mechanism. Production .NET I/O is usually asynchronous and represented with `Task` or `Task<T>`, but those types have different execution semantics: task-based asynchronous methods generally start before returning the `Task`. A cold asynchronous analogue of this teaching type would defer task creation, for example behind a `Func<CancellationToken, Task<T>>`.
 
 ## Traversal and policy
 
-Mapping `GetRiskScoreIO` over customer IDs and materializing the result produces a `List<IO<RiskScore>>`:
+The previous example produced a list of suspended price requests:
 
 ```csharp
-List<IO<RiskScore>> requests = customerIds
-    .Select(customerId => GetRiskScoreIO(riskApi, customerId))
-    .ToList();
+List<IO<decimal>> requests =
+    productIds.Map(productId =>
+        FetchCurrentPriceIO(remotePriceApi, productId));
 ```
 
-This builds separate suspended operations. It does not execute them.
+The list itself has already been built. The wrapped price requests are still deferred.
 
 ```text
-List<IO<RiskScore>>  // Many suspended request recipes.
-IO<List<RiskScore>>  // One suspended program that will produce a list.
+List<IO<decimal>>  // Many suspended price requests.
+IO<List<decimal>>  // One suspended program that will produce a list.
 ```
 
-After `Select`, you still need a helper that combines those many deferred requests into one deferred batch. A helper such as `SequenceSequential` or `TraverseSequential` also fixes the policy for that batch. In this article, that policy is: run later, in list order, one at a time, and stop on exception.
+After `Map`, you still need a helper that combines those many deferred requests into one deferred batch. A helper such as `SequenceSequential` or `TraverseSequential` also fixes the policy for that batch. In this article, that policy is: run later, in list order, one at a time, and stop on exception.
 
-This turns the list of request recipes into one batch recipe:
+This turns the list of request thunks into one batch thunk:
 
 ```csharp
-IO<List<RiskScore>> program = requests.SequenceSequential();
+IO<List<decimal>> program = requests.SequenceSequential();
 ```
 
 Here is one simple implementation:
@@ -394,7 +364,7 @@ public static class IOExtensions
 `SequenceSequential` still does not start the requests. The work begins only when the outer `Run()` executes the batch program:
 
 ```csharp
-List<RiskScore> scores = program.Run();
+List<decimal> prices = program.Run();
 ```
 
 `TraverseSequential` contributes the following policy:
@@ -404,18 +374,18 @@ List<RiskScore> scores = program.Run();
 * items are handled in list order;
 * one `IO` completes before the next begins;
 * results are stored in the same order;
-* an exception stops the traversal;
+* an exception stops later items, but it does not undo effects that earlier items already performed;
 * every outer `Run()` traverses the list and executes the operations again.
 
 The nested `Run()` calls inside `TraverseSequential` are part of that deferred traversal's implementation, so they happen only after the outer batch program begins. If you wanted pauses between items, retries around each request, reverse order, or some other rule, `Run()` would not invent that later. You would build it into each item `IO`, or write a different traversal helper with a different policy.
 
 ## Conclusion
 
-The central distinction is not merely that effects exist. It is that constructing an effectful computation is different from running it.
+The important distinction is not merely that effects exist. It is that constructing an effectful computation is different from running it.
 
-This tiny `IO<T>` makes the computation a first-class cold value. `Delay` suspends it, `FlatMap` composes dependent steps without running them, and `Run()` marks the execution boundary.
+This tiny `IO<T>` represents an effectful thunk as a cold value. `Delay` suspends it, `FlatMap` composes dependent steps without running them, and `Run()` marks the execution boundary.
 
-Because construction and execution are separate, sequencing and traversal policies can be expressed by combinators or surrounding infrastructure instead of being hidden inside whatever abstraction happens to control when a function is invoked. The discipline is not to ban `IO<T>` from the interior of the program. It is to avoid calling `Run()` prematurely.
+Keep pure transformations as ordinary functions, return `IO<T>` from effectful helpers, compose those values without running them, and call `Run()` near the application boundary.
 
 ## Appendix
 
@@ -424,7 +394,7 @@ Because construction and execution are separate, sequencing and traversal polici
 
 ### Optional C# query syntax support
 
-The main body uses C# query syntax for the composed `IO` examples. If you want that surface on `IO<T>`, add the standard `Select` and `SelectMany` methods:
+If you want C# query syntax on `IO<T>`, add the standard `Select` and `SelectMany` methods:
 
 ```csharp
 public IO<TResult> Select<TResult>(Func<T, TResult> selector)
@@ -439,6 +409,25 @@ public IO<TResult> SelectMany<TNext, TResult>(
     return FlatMap(value =>
         next(value).Map(nextValue =>
             project(value, nextValue)));
+}
+```
+
+With those methods in place, the same program can be written this way:
+
+```csharp
+public static IO<Unit> LoadOrderAndWriteReportQuery(
+    IRemotePriceApi remotePriceApi,
+    string orderPath,
+    string reportPath)
+{
+    return
+        from json in ReadAllTextIO(orderPath)
+        let order = ParseOrder(json)
+        from unitPrice in FetchCurrentPriceIO(remotePriceApi, order.ProductId)
+        let total = CalculateLineTotal(order.Quantity, unitPrice, order.TaxRate)
+        let report = RenderReport(order, unitPrice, total)
+        from result in WriteAllTextIO(reportPath, report)
+        select result;
 }
 ```
 
