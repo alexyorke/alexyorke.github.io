@@ -7,7 +7,7 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/)
 
-A function is no longer "just a calculation" when running it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. With pure functions, the question is whether the inputs determine the result. With effectful functions, it can also matter when, how often, and in what order the function runs.
+A function is no longer "just a calculation" when running it can call an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, *effect* just means that kind of observable interaction. A *pure* function, by contrast, always returns the same result for the same inputs and does not change anything outside itself. Earlier articles in this series used `Map` and `FlatMap` to compose calculations. For pure functions, the question is whether the inputs determine the result. For effectful functions, it can also matter when, how often, and in what order the function runs.
 
 ## When timing matters
 
@@ -26,7 +26,7 @@ decimal totalA = CalculateTotal(100m, 0.13m, 5m); // 107.35
 decimal totalB = CalculateTotal(100m, 0.13m, 5m); // 107.35
 ```
 
-Those calls keep returning the same value for the same inputs. Whether you call the function once or many times, now or later, does not change what result those inputs determine.
+Call it once or a thousand times, now or later, and the same inputs still determine the same result.
 
 ```csharp
 List<decimal> subtotals = new() { 100m, 80m, 140m };
@@ -103,7 +103,9 @@ It runs now, in order, and stops on failure unless the code says otherwise. If y
 
 ## From an immediate result to a suspended computation
 
-A small `IO<T>` changes the signature:
+`GetRiskScore` is still a function we want to compose with other steps. The problem is that, in its current form, calling it performs the effect immediately, so whatever abstraction invokes the function also ends up deciding when and how often that effect runs. We do not want to require every caller to adopt some special collection or special execution policy up front. What we want instead is a way to return an inert description of the work - something that can be combined like any other value, but that does not run until we explicitly choose to run it.
+
+One way to do that is to change what the function returns:
 
 ```text
 (IRiskApi, string) -> RiskScore
@@ -120,7 +122,7 @@ public static IO<RiskScore> GetRiskScoreIO(
 }
 ```
 
-Calling `GetRiskScoreIO` does not send a request. It returns a value that describes a computation which can produce a `RiskScore` when run. The first form performs the request immediately. The second only builds the deferred computation.
+Calling `GetRiskScoreIO` does not send a request. It returns a deferred computation that can produce a `RiskScore` when run. The outer function now returns something inert that can be passed around and combined before any effect happens.
 
 That separation is the central idea:
 
@@ -131,14 +133,14 @@ That separation is the central idea:
 
 > **`IO<T>` does not make an effect pure. It makes the decision to perform the effect separate and explicit.**
 
-Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. Plain deferral is useful, but by itself it does not give you a way to combine dependent deferred computations while keeping them deferred. `Pure` and `FlatMap` provide that composition. Once the effectful computation is represented as an `IO<T>` value, you can choose execution policy later through the surrounding combinator or program structure. If you hand a plain function to `List.Select` or another host abstraction, that host decides when and how often the function runs. Representing the effectful computation as a value makes that policy easier to compose and reuse.
+Deferral alone is not what makes `IO<T>` monadic; a `Func<T>` can already defer work. Plain deferral is useful, but by itself it does not give you a way to combine dependent deferred computations while keeping them deferred. `Pure` and `FlatMap` provide that composition. Once the effectful computation is represented as an `IO<T>` value, execution policy can be chosen by the surrounding combinator or program structure instead of by whatever host abstraction happens to invoke the function. You can still put delays or retries inside a plain function, but then that policy is tied to the particular abstraction that calls it. Representing the work as a value keeps that policy separate and makes it easier to compose.
 
 ```text
 Pure    : T -> IO<T>
 FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
 ```
 
-Calling `FlatMap` builds another `IO`; it does not run the first operation or run the next deferred step. Those things happen only when the resulting program is run.
+Calling `FlatMap` builds another `IO`; it does not run the first operation or run the next deferred step. Those things happen only when the resulting program is run. This is also why `Run()` tends to move outward: once part of the program is executed too early, the surrounding code loses the chance to choose policy for the larger whole.
 
 This article implements that model as a small synchronous wrapper around `Func<T>`. The wrapper gives the thunk a meaningful type, an explicit execution boundary, and composition operations.
 
