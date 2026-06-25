@@ -282,23 +282,25 @@ public sealed class IO<T>
         return new IO<T>(operation);
     }
 
-    public IO<TResult> Map<TResult>(Func<T, TResult> map)
+    public IO<TResult> Map<TResult>(
+        Func<T, TResult> transform)
     {
         return new IO<TResult>(() =>
         {
             T value = Run();
-            return map(value);
+            return transform(value);
         });
     }
 
-    public IO<TResult> FlatMap<TResult>(Func<T, IO<TResult>> next)
+    public IO<TResult> FlatMap<TResult>(
+        Func<T, IO<TResult>> next)
     {
         return new IO<TResult>(() =>
         {
             T value = Run();
-            IO<TResult> nextOperation = next(value);
+            IO<TResult> nextComputation = next(value);
 
-            return nextOperation.Run();
+            return nextComputation.Run();
         });
     }
 
@@ -309,19 +311,21 @@ public sealed class IO<T>
 }
 ```
 
-Although `Map` and `FlatMap` contain calls to `Run()`, those calls are inside the delegate stored by the newly returned `IO`. Calling `Map` or `FlatMap` therefore constructs another suspended computation. The inner calls occur only when that outer computation is run.
+`IO<T>` stores a parameterless operation and provides ways to suspend, compose, and run it.
 
-`Pure` and `Delay` are not interchangeable. `Pure` wraps a value that has already been produced; it does not delay evaluation of the expression passed to it:
+`Map` and `FlatMap` call `Run()` only inside the delegate stored by the returned `IO`. Calling either method therefore builds another suspended computation; the inner calls occur only when that returned `IO` runs.
 
-```csharp
-IO<decimal> alreadyFetched = IO<decimal>.Pure(
-    FetchCurrentPrice(remotePriceApi, productId)); // Request happens first.
+`Pure` receives an already available value. `Delay` receives a computation and stores it without invoking it.
 
-IO<decimal> deferredFetch = IO<decimal>.Delay(
-    () => FetchCurrentPrice(remotePriceApi, productId)); // Request happens on Run().
-```
+In this model, use `Map` for a pure transformation that returns a plain value. Use `FlatMap` when the next step returns another `IO`; mapping such a function directly would produce `IO<IO<TResult>>`. `FlatMap` combines those nested computations into one `IO<TResult>` while preserving suspension.
 
-For an effect whose only interesting result is successful completion, use a one-value `Unit` type:
+C# cannot enforce that a function passed to `Map` is pure or that a helper returning `IO<T>` performs no work before returning. Those remain conventions of the model.
+
+## Compose first, run later
+
+Suppose `ParseOrder` returns an order with `ProductId`, `Quantity`, and `TaxRate`. We want to read an order, fetch its current price, calculate the total, render a report, and write it to disk.
+
+Writing a file has no meaningful result beyond successful completion, so the wrapper returns an `IO<Unit>`:
 
 ```csharp
 public readonly record struct Unit
@@ -330,21 +334,18 @@ public readonly record struct Unit
 }
 ```
 
-This `Unit` is roughly `void` as a value. It is not the value-lifting operation that Part 1 called `Unit`; that operation is named `Pure` here.
-
-By convention, `Map` is used for pure transformations that return plain values. `FlatMap` is used when the next step returns another `IO`. C# cannot enforce that a function passed to `Map` is pure, or that a helper returning `IO<T>` performs no work before returning it.
-
-## Compose first, run later
-
-Suppose `ParseOrder` returns an order with `ProductId`, `Quantity`, and `TaxRate`. We want to read an order from disk, fetch the current product price, calculate the total, render a report, and write that report to disk:
+`Unit` is roughly `void` represented as a value. It is not the value-lifting operation that Part 1 called `Unit`; that operation is named `Pure` here.
 
 ```csharp
 public static IO<string> ReadAllTextIO(string path)
 {
-    return IO<string>.Delay(() => File.ReadAllText(path));
+    return IO<string>.Delay(
+        () => File.ReadAllText(path));
 }
 
-public static IO<Unit> WriteAllTextIO(string path, string contents)
+public static IO<Unit> WriteAllTextIO(
+    string path,
+    string contents)
 {
     return IO<Unit>.Delay(() =>
     {
@@ -354,93 +355,89 @@ public static IO<Unit> WriteAllTextIO(string path, string contents)
 }
 ```
 
+The following uses C# query syntax over `IO<T>`, not `IEnumerable<T>`. Assume `Select` and `SelectMany` delegate to `Map` and `FlatMap`. The syntax assembles a suspended dependency chain; it does not enumerate a sequence.
+
 ```csharp
 public static IO<Unit> LoadOrderAndWriteReport(
     IRemotePriceApi remotePriceApi,
     string orderPath,
     string reportPath)
 {
-    return ReadAllTextIO(orderPath)
-        .Map(ParseOrder)
-        .FlatMap(order =>
-            FetchCurrentPriceIO(remotePriceApi, order.ProductId)
-                .Map(unitPrice =>
-                {
-                    decimal total = CalculateLineTotal(
-                        order.Quantity,
-                        unitPrice,
-                        order.TaxRate);
-
-                    return RenderReport(order, unitPrice, total);
-                }))
-        .FlatMap(report =>
-            WriteAllTextIO(reportPath, report));
+    return
+        from contents in ReadAllTextIO(orderPath)
+        let order = ParseOrder(contents)
+        from unitPrice in FetchCurrentPriceIO(
+            remotePriceApi,
+            order.ProductId)
+        let total = CalculateLineTotal(
+            order.Quantity,
+            unitPrice,
+            order.TaxRate)
+        let report = RenderReport(
+            order,
+            unitPrice,
+            total)
+        from completion in WriteAllTextIO(
+            reportPath,
+            report)
+        select completion;
 }
 ```
 
-`Map(ParseOrder)` keeps parsing inside the suspended computation. The inner `Map` calculates the total and renders the report after the price has been fetched. Each `FlatMap` adds an effectful step that depends on an earlier result. The return value is still an `IO<Unit>`, so the whole pipeline remains deferred.
+The program reads the file before parsing it, fetches the price after obtaining the product ID, and writes only after the report exists. Conceptually, the `let` clauses perform pure transformations through `Map`, while each dependent effectful step uses `FlatMap`.
 
-If you prefer C# query syntax, the appendix shows the equivalent `Select` and `SelectMany` support and the same pipeline written with `from` and `let`.
+The result remains a suspended `IO<Unit>`. Constructing it performs none of the wrapped effects.
 
-## The execution boundary
+## Traversal makes the batch policy explicit
 
-Constructing the program performs none of the wrapped effects:
+`FlatMap` orders one dependent step after another. A collection raises a different question: how should the same effectful action be applied to many inputs?
 
-```csharp
-IO<Unit> program = LoadOrderAndWriteReport(
-    remotePriceApi,
-    "order.json",
-    "report.txt");
-```
-
-At that point, the caller holds one larger suspended computation.
-
-Calling `Run()` crosses the execution boundary:
+A sequential traversal answers that explicitly:
 
 ```csharp
-program.Run();
+IO<List<decimal>> program =
+    productIds.TraverseSequential(productId =>
+        FetchCurrentPriceIO(
+            remotePriceApi,
+            productId));
+// No requests yet.
 ```
 
-That call attempts the file read, price request, total calculation, report rendering, and file write in dependency order. A second `Run()` repeats the entire sequence.
+`TraverseSequential` returns one suspended program that visits the product IDs in order, runs one request at a time, and collects the results.
 
-Pushing `Run()` outward does not guarantee exactly-once execution. It makes execution visible at a small number of boundary call sites, where a caller can decide whether and under what surrounding policy to run the program. Preventing duplicate emails, charges, or other commands requires domain or infrastructure support beyond this wrapper.
+The two related operations begin with different inputs:
 
-Application code should therefore avoid forcing an `IO` inside an inner helper. Once a helper calls `Run()` and returns an ordinary value, its caller can no longer include that operation in a larger deferred program. Combinator implementations such as `Map`, `FlatMap`, and the traversal below use `Run()` internally only inside another suspended delegate, preserving the outer boundary.
+```text
+TraverseSequential :
+    IReadOnlyList<TSource>
+    -> (TSource -> IO<TResult>)
+    -> IO<List<TResult>>
 
-## Traversal is an execution policy
-
-The earlier example produced a list of suspended requests:
-
-```csharp
-List<IO<decimal>> requests = productIds
-    .Select(productId =>
-        FetchCurrentPriceIO(remotePriceApi, productId))
-    .ToList();
+SequenceSequential :
+    IReadOnlyList<IO<T>>
+    -> IO<List<T>>
 ```
 
-A `List<IO<decimal>>` says which operations exist, but it does not by itself say how to run the batch. `SequenceSequential` can turn those operations into one suspended program with a specific policy:
-
-```csharp
-IO<List<decimal>> program = requests.SequenceSequential();
-```
-
-Here is one small implementation:
+`TraverseSequential` constructs and combines computations. `SequenceSequential` combines `IO` values that already exist. Both produce one suspended computation for the entire batch.
 
 ```csharp
 public static class IOExtensions
 {
-    public static IO<List<TResult>> TraverseSequential<TSource, TResult>(
-        this IReadOnlyList<TSource> source,
-        Func<TSource, IO<TResult>> action)
+    public static IO<List<TResult>>
+        TraverseSequential<TSource, TResult>(
+            this IReadOnlyList<TSource> source,
+            Func<TSource, IO<TResult>> action)
     {
         return IO<List<TResult>>.Delay(() =>
         {
-            var results = new List<TResult>(source.Count);
+            var results =
+                new List<TResult>(source.Count);
 
             foreach (TSource item in source)
             {
                 IO<TResult> operation = action(item);
                 TResult result = operation.Run();
+
                 results.Add(result);
             }
 
@@ -448,8 +445,9 @@ public static class IOExtensions
         });
     }
 
-    public static IO<List<T>> SequenceSequential<T>(
-        this IReadOnlyList<IO<T>> source)
+    public static IO<List<T>>
+        SequenceSequential<T>(
+            this IReadOnlyList<IO<T>> source)
     {
         return source.TraverseSequential(
             static operation => operation);
@@ -457,24 +455,26 @@ public static class IOExtensions
 }
 ```
 
-`SequenceSequential` still does not start the requests. Work begins only when the outer program is run:
+Work begins only when the outer program runs:
 
 ```csharp
 List<decimal> prices = program.Run();
 ```
 
-This traversal contributes the following policy:
+This traversal defines a concrete policy:
 
-* source traversal and `action` invocation are deferred until `Run()`;
-* items are handled in list order;
-* one `IO` completes before the next begins;
-* results are stored in the same order;
-* an exception stops later items but does not undo effects already performed;
-* every outer `Run()` traverses the source and executes the operations again.
+* Traversal and `action` invocation wait until `Run()`.
+* Items are processed in list order, one at a time.
+* Results preserve the same order.
+* An exception prevents later items from running but does not undo completed effects.
+* Each outer `Run()` repeats the traversal and its effects.
 
-The nested `Run()` calls are implementation details of the suspended traversal. They occur only after the outer `Run()` begins.
+The nested `Run()` calls are part of the suspended traversal and occur only after the outer program begins.
 
-A different traversal could reverse the order, pause between requests, continue after selected failures, or apply a retry policy. An asynchronous version could also bound concurrency. Those policies are not automatically safe: retrying a read may be acceptable, while retrying a non-idempotent command may duplicate it. `IO<T>` makes the operation available to policy combinators; it cannot determine the correct domain policy on its own.
+Other traversals could add pacing, selective retries, failure collection, or bounded concurrency. Such policies are not automatically safe: retrying a read may be acceptable, while retrying a non-idempotent command may duplicate it.
+
+`IO<T>` cannot choose the correct policy. It makes effectful computations available as values so a combinator can encode that policy before execution.
+
 
 ## Runtime semantics and limitations
 
