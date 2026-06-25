@@ -113,7 +113,9 @@ These rules determine whether, when, how often, and for which values an effect o
 
 ## From an immediate result to a suspended computation
 
-`FetchCurrentPrice` is still a function we want to compose. Instead of returning the result of a request immediately, it can return a suspended computation:
+The effectful price lookup is still a function we want to compose. The problem is that a function returning `decimal` can produce that value only after sending the request. By the time the caller receives the result, the effect has already occurred.
+
+To compose the operation before performing it, the function can instead return a suspended computation:
 
 ```text
 (IRemotePriceApi, string) -> decimal
@@ -130,62 +132,133 @@ public static IO<decimal> FetchCurrentPriceIO(
 }
 ```
 
-Calling `FetchCurrentPriceIO` does not send a request. It captures the work in an `IO<decimal>`.
+Calling `FetchCurrentPriceIO` sends no request. It constructs an `IO<decimal>` containing the work to perform later.
+
+Here, `Delay` means **defer evaluation**. It does not pause a thread, wait for a duration, or behave like `Task.Delay`.
 
 ```csharp
-List<IO<decimal>> requests = productIds
-    .Select(productId =>
-        FetchCurrentPriceIO(remotePriceApi, productId))
-    .ToList();
+IO<decimal> request =
+    FetchCurrentPriceIO(remotePriceApi, productId);
+// No request yet.
+
+decimal price = request.Run();
+// The request is sent here.
 ```
 
-`ToList()` still invokes the selector now, but the selector only constructs suspended computations. The collection's behavior has not changed; what the callback produces has changed.
+In this teaching model, each call to `Run()` performs the computation again.
 
-The same move preserves the invocation rules of `Maybe` and `Result` without performing the request:
+> **Teaching note:** `Run()` is called directly here to make the execution boundary visible. In a larger effect system, the application normally constructs one final `IO` and hands it to a runtime or interpreter at the application boundary.
+
+Calling `Run()` immediately would merely reproduce the original function call. Suspension becomes useful when the computation is composed before it is run.
+
+The following examples use C#’s `from` and `select` syntax over `IO<T>`. Assume that `Select` and `SelectMany` delegate to `Map` and `FlatMap`. No `IEnumerable<T>` or enumeration is involved; the compiler translates this syntax into method calls on `IO<T>`. ([Microsoft Learn][1])
 
 ```csharp
-var maybeRequest =
-    maybeProductId.Map(productId =>
-        FetchCurrentPriceIO(remotePriceApi, productId));
-// Maybe<IO<decimal>>
-
-var validatedRequest =
-    validatedProductId.Map(productId =>
-        FetchCurrentPriceIO(remotePriceApi, productId));
-// Result<IO<decimal>, Error>
+IO<decimal> totalProgram =
+    from unitPrice in
+        FetchCurrentPriceIO(remotePriceApi, productId)
+    select
+        CalculateLineTotal(quantity, unitPrice, taxRate);
+// Still no request.
 ```
 
-The outer type still decides whether a request recipe is constructed. It no longer performs the request as a consequence of that decision.
+The computation describes what to do with the eventual price without obtaining it yet. Constructing `totalProgram` sends no request. Running it fetches the price and then calculates the total:
 
-```text
-List<IO<decimal>>  // Many suspended price requests.
-IO<List<decimal>>  // One suspended program that will produce a list.
+```csharp
+decimal total = totalProgram.Run();
 ```
 
-Returning `IO<T>` does not make arbitrary monads combine automatically. Mapping produces a `List<IO<decimal>>`, not an `IO<List<decimal>>`. A later `Sequence` or `Traverse` operation must exchange those layers, and that operation is where a concrete execution policy can be chosen.
+Several effectful steps can be composed in the same way:
 
-The central operations are:
+```csharp
+IO<decimal> basketTotalProgram =
+    from firstPrice in
+        FetchCurrentPriceIO(remotePriceApi, firstProductId)
+    from secondPrice in
+        FetchCurrentPriceIO(remotePriceApi, secondProductId)
+    select
+        firstPrice + secondPrice;
+// Still no requests.
+```
 
-* `Delay` suspends a computation.
-* `Pure` wraps an already available value.
-* `Map` transforms the eventual value.
-* `FlatMap` makes a later suspended computation depend on an earlier result.
-* `Run` performs the composed computation.
+The steps are now encoded in `basketTotalProgram`: fetch the first price, fetch the second, and add them. Constructing the program performs none of those steps. `Run()` executes them in that order.
 
-> **`IO<T>` does not make an effect pure. It makes the decision to perform the effect separate and explicit.**
+```csharp
+decimal basketTotal = basketTotalProgram.Run();
+```
 
-A `Func<T>` can already suspend work, and extension methods could give it `Map` and `FlatMap`. The `IO<T>` wrapper is useful because it gives effectful thunks a distinct type, names `Run()` as the execution boundary, and provides a focused composition API.
+Suspension does not itself choose an execution policy. It keeps the effect unperformed while the program is assembled. Here, `FlatMap` establishes sequential order. Other combinators can later express policies such as retries, pacing, or collection traversal before the final program is run.
+
+> **`IO<T>` does not remove the effect or decide how it should run. It makes the effectful computation explicit and keeps it suspended while those decisions are composed.**
+
+The same approach works with the eager `Maybe` and `Result` implementations:
+
+```csharp
+Maybe<IO<decimal>> maybeRequest =
+    from productId in maybeProductId
+    select FetchCurrentPriceIO(remotePriceApi, productId);
+
+Result<IO<decimal>, Error> validatedRequest =
+    from productId in validatedProductId
+    select FetchCurrentPriceIO(remotePriceApi, productId);
+```
+
+When `maybeProductId` contains a value, its `Select` immediately constructs an `IO<decimal>`; when it is empty, no `IO` is constructed. Likewise, `validatedProductId` constructs an `IO` only on the success path. In every case, constructing the outer value sends no request.
+
+The teaching model has five central operations:
 
 ```text
 Pure    : T -> IO<T>
 Delay   : (() -> T) -> IO<T>
 Map     : IO<T> -> (T -> TResult) -> IO<TResult>
 FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
+Run     : IO<T> -> T
 ```
 
-`Delay` is what makes this type useful for suspended effects; `Pure` and `FlatMap` provide its monadic composition.
+* `Pure` wraps an already available value.
+* `Delay` suspends a computation.
+* `Map` transforms its eventual result while preserving suspension.
+* `FlatMap` composes a later computation that depends on an earlier result.
+* `Run` performs the composed computation.
 
-This implementation stores an opaque delegate rather than an inspectable effect tree. A caller can wrap or compose the `IO` values it has been given, but `Run()` cannot discover internal operations or retroactively insert retries, cancellation, parallelism, cleanup, or rate limiting between them.
+`Pure` is the operation sometimes called `return` or the monadic unit. This article uses `Pure` because `Unit` already names the type used when a computation has no meaningful result, while `return` has an unrelated control-flow meaning in C#. `Pure` and `FlatMap` provide the monadic structure. ([Typelevel][2])
+
+The distinction between `Pure` and `Delay` is important:
+
+```csharp
+decimal cachedPrice = 19.99m;
+
+IO<decimal> availablePrice =
+    IO<decimal>.Pure(cachedPrice);
+
+IO<decimal> currentPrice =
+    IO<decimal>.Delay(
+        () => FetchCurrentPrice(remotePriceApi, productId));
+```
+
+`Pure` receives a value that is already available. `Delay` receives a computation that will produce one later. `Delay` can suspend pure work, but here its purpose is to postpone an effect.
+
+Passing an effectful call to `Pure` would be too late:
+
+```csharp
+IO<decimal> notSuspended =
+    IO<decimal>.Pure(
+        FetchCurrentPrice(remotePriceApi, productId));
+// FetchCurrentPrice runs before Pure is called.
+```
+
+A `Func<T>` can also postpone work, and suitable extension methods could give it `Map`, `FlatMap`, and even collection-combining operations. `IO<T>` is not valuable because delegates are incapable of composition.
+
+The difference is the contract expressed by the type. A bare `Func<T>` says only that some code can be invoked later; it may represent a pure calculation or an external effect. `IO<T>` specifically represents a potentially effectful computation, preserves suspension through its composition operations, and names `Run()` as the execution boundary. Defining the same conventions directly for `Func<T>` would effectively create an unnamed `IO`-like abstraction.
+
+That common structure also lets operations such as `Sequence` and `Traverse` combine many suspended computations uniformly. A later section will use them to make the traversal itself part of one suspended program:
+
+```text
+List<IO<T>> -> IO<List<T>>
+```
+
+Instead of asking a caller to loop through the list and call `Run()` on each item, the program can first describe how the computations are combined and then expose one final execution boundary. `Sequence` combines existing effectful values, while `Traverse` performs the mapping and combination together. ([Typelevel][3])
+
 
 ## A small `IO<T>`
 
