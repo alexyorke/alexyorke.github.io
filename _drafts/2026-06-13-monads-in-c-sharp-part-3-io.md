@@ -7,17 +7,15 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-A function is no longer "just a calculation" when calling it can invoke an HTTP API, read from or write to a database, write a file, print to the console, or observe time or randomness. Here, an *effect* means that kind of observable interaction. A *pure* function, by contrast, returns the same result for the same inputs and does not change anything outside itself.
+Calling a function may do more than calculate a value: it may invoke an API, access a database, write a file, or observe time or randomness. These observable interactions are effects. A pure function, by contrast, returns the same result for the same inputs and changes nothing outside itself.
 
-The earlier parts used monadic types to delegate control flow. It is useful shorthand to say that `Map` or `FlatMap` decides "how the next function runs," but that shorthand needs some precision. The monad laws do not prescribe wall-clock scheduling, retries, parallelism, or the business reason for running an operation. A concrete `Map` or `FlatMap` implementation does determine whether the supplied function is invoked, how many times it is invoked, which branch invokes it, and sometimes whether invocation is immediate or deferred.
+Each concrete Map or FlatMap implementation has its own rule for invoking callbacks: whether one runs, how often, on which path, and sometimes whether it runs now or later. The monad laws themselves do not prescribe scheduling, retries, or parallelism.
 
-For a pure callback, the host still determines the surrounding structure and control flow, but each invocation's result is determined by its explicit input. When the callback performs an effect, the host's invocation rule also determines whether an API request, file write, or other operation occurs, and in what order or how often.
+For a pure callback, each invocation remains determined by its input. For an effectful callback, the same invocation rule also determines which external operations occur, in what order, and how often. An abstraction can therefore behave exactly as designed while still imposing the wrong execution policy for a particular effect.
 
-That is the tension explored here. The host abstraction may be behaving exactly as designed, while its invocation rule may still be the wrong execution policy for a particular effect. We want to preserve composition without performing the effect merely because some outer `List`, `Maybe`, or `Result` chose to invoke a callback.
+Returning IO<T> instead of T separates constructing the operation from running it. The callback returns a suspended computation; explicit combinators can define its execution policy, and the resulting program is run at the application boundary. This preserves composition without performing the effect merely because an outer List, Maybe, or Result invokes a callback.
 
-The move is to return an `IO<T>` rather than a `T`. The callback then constructs a suspended computation instead of performing the operation. Other abstractions can compose that inert value, and a later combinator or application boundary can decide how to execute it.
-
-As in the earlier parts, the types in this article are deliberately small teaching models. The goal is to make the common structure of `Pure`, `Map`, and `FlatMap` visible, and here to examine how that structure interacts with effects. They are not presented as replacements for .NET collections, LINQ, `Task`, or ordinary procedural code.
+As before, these are small teaching models intended to show how Pure, Map, and FlatMap interact with effects, not replace .NET collections, LINQ, Task, or ordinary procedural code.
 
 ## When invocation becomes observable
 
