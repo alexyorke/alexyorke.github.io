@@ -7,15 +7,15 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-Calling a function may do more than calculate a value: it may invoke an API, access a database, write a file, or observe time or randomness. These observable interactions are effects. A pure function, by contrast, returns the same result for the same inputs and changes nothing outside itself.
+Calling a function may do more than calculate a value: it may invoke an API, query a database, send an email, write a file, or observe time or randomness. These observable interactions are effects. A pure function, by contrast, returns the same result for the same inputs and changes nothing outside itself.
 
-Each concrete Map or FlatMap implementation has its own rule for invoking callbacks: whether one runs, how often, on which path, and sometimes whether it runs now or later. The monad laws themselves do not prescribe scheduling, retries, or parallelism.
+Pure functions compose smoothly because they can be recomputed, delayed, repeated, or discarded without changing their meaning. Effectful functions cannot always be treated this way. Order, timing, repetition, delays, and retries may matter, and some effects cannot be undone. A request may require rate limiting, a retry may affect later work, and an email should not be sent twice by accident. Even if a result is discarded, the world may already have changed.
 
-For a pure callback, each invocation remains determined by its input. For an effectful callback, the same invocation rule also determines which external operations occur, in what order, and how often. An abstraction can therefore behave exactly as designed while still imposing the wrong execution policy for a particular effect.
+This creates a conflict: `List.Map`, `Maybe.Map`, and `Result.Map` each impose their own rule for invoking the supplied function. That works for pure code but may be the wrong execution policy for effects, and we do not want a special list, maybe, or result type for every possible policy.
 
-Returning IO<T> instead of T separates constructing the operation from running it. The callback returns a suspended computation; explicit combinators can define its execution policy, and the resulting program is run at the application boundary. This preserves composition without performing the effect merely because an outer List, Maybe, or Result invokes a callback.
+`IO<T>` separates composition from execution. Instead of performing an effect immediately, a function returns a suspended computation. Other abstractions can compose it, while explicit combinators determine how the work runs before the final program is executed at the application boundary.
 
-As before, these are small teaching models intended to show how Pure, Map, and FlatMap interact with effects, not replace .NET collections, LINQ, Task, or ordinary procedural code.
+As before, these small teaching models show how `Pure`, `Map`, and `FlatMap` interact with effects; they are not replacements for .NET collections, LINQ, `Task`, or ordinary procedural code.
 
 ## When invocation becomes observable
 
@@ -43,7 +43,9 @@ List<decimal> firstTotals = totalsQuery.ToList();
 List<decimal> secondTotals = totalsQuery.ToList();
 ```
 
-[`Enumerable.Select`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.select) is deferred: constructing `totalsQuery` stores the selector, while enumeration invokes it. Each call to `ToList()` enumerates the query again. The calculation is repeated, but the same inputs still produce the same totals.
+`Enumerable.Select` is deferred. Calling it creates a query; `CalculateLineTotal` runs only when the query is enumerated, such as by `foreach` or `ToList()`. Each `ToList()` enumerates it again. ([Microsoft Learn][1])
+
+Because the function is pure, this repeats work without changing anything outside the calculation. The same inputs produce the same totals, and discarded results leave no trace. The caller may enumerate quickly or slowly, stop early, or enumerate again. Those choices change when and how much work occurs, not the value produced for any evaluated element.
 
 Now consider an effectful price lookup:
 
@@ -60,51 +62,54 @@ public static decimal FetchCurrentPrice(
 IEnumerable<decimal> pricesQuery = productIds
     .Select(productId =>
         FetchCurrentPrice(remotePriceApi, productId));
+// No requests yet.
 
 List<decimal> firstPrices = pricesQuery.ToList();   // Sends the requests.
-List<decimal> secondPrices = pricesQuery.ToList();  // Sends them all again.
+List<decimal> secondPrices = pricesQuery.ToList();  // Sends them again.
 ```
 
-Its type still looks like an ordinary value-producing function:
+Creating `pricesQuery` also sends no requests. Enumeration performs the external work.
+
+The LINQ mechanics are unchanged; only the function passed to `Select` differs. With the pure function, enumeration controls when calculation occurs. With the effectful function, the same rules control external work.
+
+The caller may consume one value or all of them, pause between values, add more deferred operators, or enumerate again. Those choices determine which requests are sent, when they are sent, and how often.
+
+`IEnumerable<decimal>` represents a sequence of values, not a contract for rate limits, delays, retries, partial failures, or repeated requests. A custom iterator could enforce a policy, but the type alone would not communicate it.
+
+The function’s signature still looks ordinary:
 
 ```text
 (IRemotePriceApi, string) -> decimal
 ```
 
-Calling it, however, sends a request and observes another system. The same `IRemotePriceApi` reference and product ID do not describe that system's complete state. A later invocation may observe a newer price, consume more quota, fail transiently, or be throttled because of earlier requests. If one request throws during `ToList()`, later product IDs are not reached, but requests that already completed are not undone.
+Calling it, however, sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. If one request throws, later product IDs are not reached, while completed requests remain completed.
 
-One useful mental model is that an effectful function also threads an implicit state of the world:
+A useful mental model exposes the hidden dependency:
 
 ```text
 (World, string) -> (decimal, World)
 ```
 
-This is not a literal C# signature, and adding a mutable `World` parameter would not make the function pure. It is a way to expose the hidden dependency: each call observes or changes the world, and the next call occurs in the world left by the previous one. An object-oriented reader may recognize the same issue when calls through a service object depend on mutable or external state.
+This is a model, not a literal C# signature. `World` represents the relevant external state: each call observes or changes it, so a later call may occur in a different world.
 
-The effect is even clearer for a command such as sending an email or charging a card. Repeating a pure calculation may waste work; repeating a non-idempotent command can duplicate an irreversible action.
+Repeating a pure calculation may waste work. Repeating a command such as sending an email or charging a card may duplicate an action that cannot simply be undone.
 
-We can see different invocation rules with the other types from this series:
+The earlier `Maybe` and `Result` implementations map eagerly, while `Enumerable.Select` is deferred. Other types and languages make different choices. `Map` is the functor operation; `Pure` and `FlatMap` provide the monadic structure. Neither set of laws requires eager or deferred evaluation. The implementation and host language determine when and how often the function runs. ([Scala Documentation][2])
 
-```csharp
-var maybePrice =
-    maybeProductId.Map(productId =>
-        FetchCurrentPrice(remotePriceApi, productId));
+For pure functions, these choices usually affect work rather than meaning. They may change performance or termination, but whenever a calculation completes, the same inputs produce the same value without changing anything outside it.
 
-var resultPrice =
-    validatedProductId.Map(productId =>
-        FetchCurrentPrice(remotePriceApi, productId));
-```
+With an effectful function, the evaluation strategy becomes observable:
 
-Although these types all provide a map-shaped operation, `Map` does not imply one universal invocation strategy:
+* `Enumerable.Select` invokes the function as elements are requested during each enumeration. Stopping early or enumerating again changes how often it runs.
+* The earlier `Maybe<T>.Map` invokes it immediately when a value exists and not at all when it does not.
+* The earlier `Result<TSuccess, TError>.Map` invokes it immediately on success and not on error.
+* The `IO<T>.Map` in this article defers it until the resulting `IO` is run and invokes it again on each run.
 
-* `Enumerable.Select` invokes the selector for each source element requested during each enumeration. A consumer may stop early, and another enumeration invokes it again.
-* The `Maybe<T>` from Part 1 invokes the function zero or one times, depending on whether a value exists.
-* The `Result<TSuccess, TError>` from Part 2 invokes the function only on the success path.
-* The `IO<T>` in this article invokes the function only when the resulting `IO` is run, and invokes it again on every subsequent run.
+These rules determine whether, when, how often, and for which values an effect occurs. They can determine how many requests are sent, whether rate limits are exceeded, and what remains completed after a failure.
 
-Those are properties of the concrete implementations, not one timing rule supplied by the word *monad*. For a pure function, the differences may not appear in its returned value. For an effectful function, they become part of the program's observable behavior.
+`Select` is behaving as designed. The problem is that a function returning a plain `decimal` hides the external operation, so passing it to `Select` or `Map` silently turns the abstraction’s invocation rules into the effect’s execution policy.
 
-The problem is therefore not that `IEnumerable`, `Maybe`, or `Result` has an invocation rule. Composition requires such rules. The problem is that a function returning a plain `decimal` hides the fact that invoking it also performs an external operation. Passing that function to `Map` silently makes the host abstraction's invocation semantics the execution policy for the effect.
+`IO<T>` addresses this by representing the operation as a suspended value. The program can compose it first, then use explicit combinators to decide how and when it runs. ([Haskell][3])
 
 ## From an immediate result to a suspended computation
 
