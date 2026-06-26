@@ -60,11 +60,32 @@ var prices =
 
 `List.Map` is still just applying the supplied function according to the list's traversal policy. The difference is that invoking `FetchCurrentPrice` sends a request, so eager traversal sends requests eagerly and a thrown exception stops later product IDs.
 
+If you wrote the same thing procedurally, that policy would be explicit in the loop:
+
+```csharp
+var pricesProcedural = new List<decimal>();
+
+foreach (string productId in productIds)
+{
+    decimal price =
+        FetchCurrentPrice(remotePriceApi, productId);
+
+    pricesProcedural.Add(price);
+
+    // This is where you would add delays,
+    // retries, or error handling.
+}
+```
+
+This runs immediately, in list order. If a request throws, later items do not run unless the loop handles that explicitly, and delays, retries, pacing, or error handling would be written directly in that loop. That is useful because the programmer has direct control, but it is less composable because the execution policy is fused into that block of procedural code. If another caller wants a different policy, it needs a different loop or helper.
+
+With the `foreach`, you are responsible for both the effectful step and the traversal policy. With `Map`, the host abstraction is responsible for traversal policy instead. If the function still returns a plain `decimal`, that host policy becomes the execution policy for the effect.
+
 The method still looks like an ordinary function returning `decimal`, but invoking it sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. Replacing `FetchCurrentPrice(remotePriceApi, productId)` with a returned `decimal` therefore hides work that already happened, which is why the host abstraction's invocation rule becomes significant.
 
 These types all provide a map-shaped operation, but `Map` does not imply one execution strategy. `List.Map` runs immediately for each element, `Maybe<T>.Map` runs zero or one time, `Result<TSuccess, TError>.Map` runs only on the success path, and this article's `IO<T>.Map` defers execution until the resulting `IO` runs. For pure functions those policies mostly change work; for effectful ones they change which effects occur.
 
-That is why `IO<T>` helps: it represents the operation as a pure, first-class suspended computation that can be composed before any effect happens.
+That is why `IO<T>` helps: the problem is not that procedural control is impossible, but that with a plain effectful function the policy is either baked into manual control flow or inherited from the host abstraction. `IO<T>` represents the operation as a pure, first-class suspended computation that can be composed before any effect happens.
 
 ## From an immediate result to a suspended computation
 
