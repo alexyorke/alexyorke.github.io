@@ -13,7 +13,7 @@ This article is not advocating an `IO<T>` style as idiomatic C#. The goal is to 
 
 Calling a function may do more than calculate a value: it may invoke an API, query a database, send an email, write a file, or observe time or randomness. These observable interactions are called effects. A pure function depends only on its declared inputs: the same inputs produce the same result, and evaluating it does not read from or modify the outside world.
 
-Pure functions are easier to compose because recomputing, delaying, repeating, or discarding them does not change anything outside the calculation. Effects are different because invocation itself can matter. The problem is not that effects exist. The problem is that once timing, order, and repetition matter, whatever invokes the function can accidentally determine how those effects happen. `List.Map`, `Maybe.Map`, and `Result.Map` already decide when the supplied function runs. That is fine for pure code, but if the function performs effects directly, those invocation rules become the execution policy. Returning `IO<T>` changes the arrangement: the function now returns a suspended effectful computation instead of performing the effect immediately, so the surrounding program can compose those computations first and decide later how the larger whole should run.
+Pure functions are easier to compose because recomputing, delaying, repeating, or discarding them does not change anything outside the calculation. Effects are different because invocation itself can matter. The problem is not that effects exist. The problem is that once invoking the function already does work, ordinary composition becomes awkward: whatever invokes the function can accidentally determine how those effects happen. `List.Map`, `Maybe.Map`, and `Result.Map` already decide when the supplied function runs. That is fine for pure code, but if the function performs effects directly, those invocation rules become the execution policy. Returning `IO<T>` changes the arrangement: the function now returns a suspended effectful computation instead of performing the effect immediately, so the surrounding program can compose those computations first and decide later how the larger whole should run.
 
 ## When Execution Policy Matters
 
@@ -37,7 +37,7 @@ var totals =
 // `Map` is pseudocode here, following Part 1.
 ```
 
-In Part 1, `List.Map` visits each element now and builds a new list. Because `CalculateLineTotal` is pure, that changes work, not meaning: the same inputs still determine the same result, and replacing `CalculateLineTotal(quantity, 19.99m, 0.13m)` with its resulting `decimal` does not change the program.
+In Part 1, `List.Map` visits each element now and builds a new list. Because `CalculateLineTotal` is pure, that changes work, not meaning: the same inputs still determine the same result, and replacing `CalculateLineTotal(quantity, 19.99m, 0.13m)` with its resulting `decimal` is harmless in the relevant sense.
 
 Now consider an effectful price lookup:
 
@@ -81,7 +81,7 @@ This runs immediately, in list order. If a request throws, later items do not ru
 
 With the `foreach`, you are responsible for both the effectful step and the traversal policy. With `Map`, the type providing `Map` is responsible for traversal policy instead. If the function still returns a plain `decimal`, that policy becomes the execution policy for the effect.
 
-The method still looks like an ordinary function returning `decimal`, but invoking it sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. Replacing `FetchCurrentPrice(remotePriceApi, productId)` with a returned `decimal` therefore hides work that already happened, which is why the invocation rule of the type providing `Map` matters.
+The method still looks like an ordinary function returning `decimal`, but invoking it sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. Replacing `FetchCurrentPrice(remotePriceApi, productId)` with a returned `decimal` therefore hides the fact that the request already happened, so substitution is no longer harmless in the same way and the invocation rule of the type providing `Map` matters.
 
 These types all provide a map-shaped operation, but `Map` does not imply one execution strategy. `List.Map` runs immediately for each element, `Maybe<T>.Map` runs zero or one time, `Result<TSuccess, TError>.Map` runs only on the success path, and this article's `IO<T>.Map` defers execution until the resulting `IO` runs. For pure functions those policies mostly change work; for effectful ones they change which effects occur.
 
@@ -89,7 +89,7 @@ That is why `IO<T>` helps: the problem is not that procedural control is impossi
 
 ## From an immediate result to a suspended computation
 
-The effectful price lookup is still a function we want to compose with other steps. The problem is that a function returning `decimal` can produce that value only after sending the request, so by the time a larger program receives the result the effect has already happened. `IO<T>` is a value representing a computation that may perform effects and eventually return a `T` when run. That makes `IO<T>` a pure, first-class value that can be assigned, stored, passed around, and composed before anything happens. Returning `IO<decimal>` keeps the work suspended long enough to compose first and run later.
+The effectful price lookup is still a function we want to compose with other steps. The problem is that a function returning `decimal` can produce that value only after sending the request, so by the time a larger program receives the result the effect has already happened. `IO<T>` is a value representing a computation that may perform effects and eventually return a `T` when run. That makes `IO<T>` a pure, first-class value the program can assign, store, pass around, combine, and keep building on before any request happens. Returning `IO<decimal>` keeps the work suspended long enough to compose first and run later.
 
 So the signature changes:
 
@@ -108,7 +108,7 @@ public static IO<decimal> FetchCurrentPriceIO(
 }
 ```
 
-Calling `FetchCurrentPriceIO` sends no request. It returns a pure `IO<decimal>` value representing deferred work. Evaluating the expression that creates that value still sends no request; `Run()` executes the wrapped work. The point is not wrapping for its own sake. The indirection keeps the effect from happening too early, so larger compositions still have a value they can work with before execution begins.
+Calling `FetchCurrentPriceIO` sends no request. It returns a pure `IO<decimal>` value representing a computation. Evaluating the expression that creates that value is one thing; executing the wrapped work with `Run()` is another. The point is not wrapping for its own sake. If the function returned `decimal`, the effect would already have happened. Returning `IO<decimal>` leaves a value that larger compositions can still work with before execution begins.
 
 Here, `Delay` means **defer evaluation**. It does not pause a thread, wait for a duration, or behave like `Task.Delay`.
 
@@ -125,7 +125,7 @@ Constructing the `IO<decimal>` value is not the same thing as running it: the fi
 
 `Run()` makes the execution boundary explicit. The point of returning `IO<T>` is that the larger program can transform, combine, traverse, store, and pass around the work before crossing that boundary. In a fuller effect system, application code would usually return the final `IO` and let a runtime or interpreter execute it instead of calling `Run()` manually. In this small teaching model, `Run()` stands in for that boundary.
 
-The following examples use C#'s `from` and `select` syntax over `IO<T>`. Assume that `Select` and `SelectMany` delegate to `Map` and `FlatMap`. No `IEnumerable<T>` or sequence enumeration is involved; the compiler translates this syntax into method calls on `IO<T>`.
+The following examples use C#'s `from` and `select` syntax over `IO<T>`. Assume that `Select` and `SelectMany` delegate to `Map` and `FlatMap`. No `IEnumerable<T>` or sequence enumeration is involved; the compiler translates this syntax into method calls on `IO<T>`. This is how `IO<T>` recovers the ability to describe a sequence of effectful steps without performing them immediately.
 
 ```csharp
 IO<decimal> totalProgram =
@@ -146,7 +146,7 @@ Suspension does not itself choose an execution policy. It keeps the effect unper
 
 > **`IO<T>` does not remove the effect or decide how it should run. The indirection is the point: it makes the effectful computation explicit and keeps it suspended while those decisions are composed.**
 
-Once effects are represented as values, these operations let us assemble larger effectful programs from smaller ones.
+Once effects are represented as values, these operations become the small vocabulary that says how the larger computation proceeds.
 
 The teaching model has five central operations:
 
@@ -158,7 +158,7 @@ FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
 Run     : IO<T> -> T
 ```
 
-`Pure` wraps an already available value; `Delay` suspends a computation; `Map` transforms an eventual result; `FlatMap` composes a dependent `IO`; and `Run` performs the computation. Together they give a small vocabulary for building effectful programs while the work is still suspended.
+`Pure` wraps an already available value; `Delay` suspends a computation; `Map` transforms an eventual result; `FlatMap` sequences the next effectful step based on the previous result; and `Run` performs the computation. Together they give a small vocabulary for describing how a larger effectful computation proceeds while the work is still suspended.
 
 Passing an effectful call to `Pure` would be too late:
 
