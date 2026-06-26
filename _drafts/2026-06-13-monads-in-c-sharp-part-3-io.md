@@ -9,11 +9,11 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 `IO<T>` lets you compose effectful computations by representing them as deferred computations that can be run later.
 
+This article is not advocating an `IO<T>` style as idiomatic C#. The goal is to make the separation between constructing and running effectful work visible, not to eliminate effects. Effects are what let a program interact with the outside world and do useful work at all.
+
 Calling a function may do more than calculate a value: it may invoke an API, query a database, send an email, write a file, or observe time or randomness. These observable interactions are called effects. A pure function depends only on its declared inputs: the same inputs produce the same result, and evaluating it does not read from or modify the outside world.
 
-Pure functions are easier to compose because recomputing, delaying, repeating, or discarding them does not change anything outside the calculation. Effects are different because invocation itself can matter. Order, timing, delays, retries, and repetition can matter, and some effects cannot simply be undone.
-
-That is where the trouble starts. Once timing, order, and repetition matter, an ordinary host abstraction can accidentally become the execution policy for the effect. `List.Map`, `Maybe.Map`, and `Result.Map` already decide when the supplied function runs. That is fine for pure code, but if the function performs effects directly, those invocation rules become the execution policy. Returning `IO<T>` changes the arrangement: the function now returns a suspended effectful computation instead of performing the effect immediately, so the surrounding program can compose those computations first and decide later how the larger whole should run.
+Pure functions are easier to compose because recomputing, delaying, repeating, or discarding them does not change anything outside the calculation. Effects are different because invocation itself can matter. Once timing, order, and repetition matter, an ordinary host abstraction can accidentally become the execution policy for the effect. `List.Map`, `Maybe.Map`, and `Result.Map` already decide when the supplied function runs. That is fine for pure code, but if the function performs effects directly, those invocation rules become the execution policy. Returning `IO<T>` changes the arrangement: the function now returns a suspended effectful computation instead of performing the effect immediately, so the surrounding program can compose those computations first and decide later how the larger whole should run.
 
 ## When Execution Policy Matters
 
@@ -60,15 +60,15 @@ var prices =
 
 `List.Map` is still just applying the supplied function according to the list's traversal policy. The difference is that invoking `FetchCurrentPrice` sends a request, so eager traversal sends requests eagerly and a thrown exception stops later product IDs.
 
-The method still looks like an ordinary function returning `decimal`, but invoking it sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. Replacing `FetchCurrentPrice(remotePriceApi, productId)` with a returned `decimal` therefore hides work that already happened, which is why the host abstraction's invocation rule becomes significant. Repeating, reordering, or stopping invocation partway through can change what happens, even when later steps do not explicitly take earlier results as inputs.
+The method still looks like an ordinary function returning `decimal`, but invoking it sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. Replacing `FetchCurrentPrice(remotePriceApi, productId)` with a returned `decimal` therefore hides work that already happened, which is why the host abstraction's invocation rule becomes significant.
 
-These types all provide a map-shaped operation, but `Map` does not imply one execution strategy. `List.Map` runs immediately for each element, `Maybe<T>.Map` runs zero or one time, `Result<TSuccess, TError>.Map` runs only on the success path, and this article's `IO<T>.Map` defers execution until the resulting `IO` runs. For pure functions those policies mostly change work; for effectful ones they change which effects occur and what remains completed after a failure.
+These types all provide a map-shaped operation, but `Map` does not imply one execution strategy. `List.Map` runs immediately for each element, `Maybe<T>.Map` runs zero or one time, `Result<TSuccess, TError>.Map` runs only on the success path, and this article's `IO<T>.Map` defers execution until the resulting `IO` runs. For pure functions those policies mostly change work; for effectful ones they change which effects occur.
 
 That is why `IO<T>` helps: it represents the operation as a pure, first-class suspended computation that can be composed before any effect happens.
 
 ## From an immediate result to a suspended computation
 
-The effectful price lookup is still a function we want to compose with other steps. The problem is that a function returning `decimal` can produce that value only after sending the request, so by the time a larger program receives the result the effect has already happened. `IO<T>` is a value representing a computation which, when run, may perform effects and eventually returns a `T`. Returning `IO<decimal>` keeps the work suspended long enough to compose first and run later.
+The effectful price lookup is still a function we want to compose with other steps. The problem is that a function returning `decimal` can produce that value only after sending the request, so by the time a larger program receives the result the effect has already happened. `IO<T>` is a value representing a computation that may perform effects and eventually return a `T`. Returning `IO<decimal>` keeps the work suspended long enough to compose first and run later.
 
 So the signature changes:
 
@@ -100,9 +100,9 @@ decimal price = request.Run();
 // The request is sent here.
 ```
 
-In this teaching model, each call to `Run()` performs the computation again. Constructing the `IO<decimal>` value is not the same thing as running it: the first just produces a value, while the second executes the wrapped computation and performs its effects.
+Constructing the `IO<decimal>` value is not the same thing as running it: the first just produces a value, while the second executes the wrapped computation and performs its effects. In this teaching model, each call to `Run()` performs the computation again.
 
-`Run()` makes the execution boundary explicit. The point of returning `IO<T>` is not that we can immediately call `Run()`; doing so would merely reproduce the original function call. The point is that the larger program can transform, combine, traverse, store, and pass around the work before crossing that boundary. In a real application, `Run()` belongs near a composition root or application boundary.
+`Run()` makes the execution boundary explicit. The point of returning `IO<T>` is that the larger program can transform, combine, traverse, store, and pass around the work before crossing that boundary. In a fuller effect system, application code would usually return the final `IO` and let a runtime or interpreter execute it instead of calling `Run()` manually. In this small teaching model, `Run()` stands in for that boundary.
 
 The following examples use C#'s `from` and `select` syntax over `IO<T>`. Assume that `Select` and `SelectMany` delegate to `Map` and `FlatMap`. No `IEnumerable<T>` or sequence enumeration is involved; the compiler translates this syntax into method calls on `IO<T>`.
 
@@ -137,7 +137,7 @@ FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
 Run     : IO<T> -> T
 ```
 
-`Pure` wraps an already available value; `Delay` suspends a computation; `Map` transforms an eventual result; `FlatMap` composes a dependent `IO`; and `Run` performs the computation. `Delay` can suspend pure work too, but here its purpose is to postpone an effect.
+`Pure` wraps an already available value; `Delay` suspends a computation; `Map` transforms an eventual result; `FlatMap` composes a dependent `IO`; and `Run` performs the computation. Here, `Delay` is being used to postpone an effect.
 
 Passing an effectful call to `Pure` would be too late:
 
@@ -148,7 +148,7 @@ IO<decimal> notSuspended =
 // FetchCurrentPrice runs before Pure is called.
 ```
 
-A `Func<T>` can also postpone work. The difference is the contract: a bare `Func<T>` only says some code can be invoked later, while `IO<T>` names a potentially effectful suspended computation, preserves suspension through composition, and gives it an explicit `Run()` boundary.
+A `Func<T>` can also postpone work. The difference is the contract: a bare `Func<T>` only says some code can be invoked later, while `IO<T>` gives that deferred work a specific semantic type and an explicit `Run()` boundary.
 
 ## A small `IO<T>`
 
@@ -164,6 +164,8 @@ public sealed class IO<T>
 
     public static IO<T> Pure(T value)
     {
+        // `Pure` lifts an existing value into `IO<T>`.
+        // The `Unit` type used later is the void-like result value.
         return new IO<T>(() => value);
     }
 
@@ -201,7 +203,7 @@ public sealed class IO<T>
 }
 ```
 
-`IO<T>` stores a parameterless operation and provides ways to suspend, compose, and run it. `Pure` receives an already available value; `Delay` receives a computation and stores it without invoking it.
+`IO<T>` stores a parameterless operation and provides ways to suspend, compose, and run it. `Pure` is the value-lifting operation; `Delay` receives a computation and stores it without invoking it.
 
 `Map` and `FlatMap` call `Run()` only inside the delegate stored by the returned `IO`, so calling either method builds another suspended computation. The inner calls occur only when that returned `IO` runs.
 
@@ -218,7 +220,7 @@ public readonly record struct Unit
 }
 ```
 
-`Unit` is roughly `void` represented as a value; the value-lifting operation is named `Pure`.
+`Unit` is roughly `void` represented as a value; `Pure` is the operation that lifts an existing value into `IO<T>`.
 
 ```csharp
 public static IO<string> ReadAllTextIO(string path)
@@ -313,11 +315,7 @@ Other traversals could add pacing, selective retries, failure collection, or bou
 
 ## Runtime semantics and limitations
 
-This `IO<T>` is intentionally small: it is synchronous, cold, non-memoized, and opaque. Nothing happens until `Run()`. `Run()` executes on the current thread, every call starts the computation again, exceptions propagate normally, and captured mutable state is observed at run time.
-
-C# does not enforce purity or effect discipline. The type cannot prevent a supposedly pure `Map` function from performing I/O, or prevent an `IO`-returning helper from doing work before it constructs the `IO`. The implementation is not stack-safe for very deep composition chains and provides no built-in cancellation, asynchronous execution, resource safety, retry, memoization, rollback, or exactly-once guarantee.
-
-Production .NET I/O is commonly asynchronous and represented by `Task` or `Task<T>`, but those types have different execution semantics. Under the [Task-based Asynchronous Pattern](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap), methods return active tasks rather than cold tasks waiting for an explicit `Run()`. A cold asynchronous analogue of this teaching type would defer creation of the task, for example behind a `Func<CancellationToken, Task<T>>`, and would need additional design for cancellation and resource management.
+This `IO<T>` is a tiny teaching model, not a recommendation for idiomatic C# application structure. It is synchronous, cold, opaque, and non-memoized: nothing happens until `Run()`, and each call to `Run()` starts the computation again on the current thread. Exceptions propagate normally, captured mutable state is observed at run time, and C# does not enforce purity. It is also not stack-safe for very deep chains and provides no built-in cancellation, resource safety, retry, rollback, or async execution; in normal .NET code, asynchronous I/O is usually represented with `Task` or `Task<T>`.
 
 ## Conclusion
 
