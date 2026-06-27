@@ -7,13 +7,13 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-Some functions do more than calculate a value: they may call an API, query a database, send an email, write a file, or observe time or randomness. Those interactions are usually called side effects; here I will shorten that to effects. A pure function, by contrast, depends only on its declared inputs: the same inputs produce the same result, evaluating it produces no effects, and a call can be replaced with its result without changing the program.
+Useful programs need to interact with the outside world: call APIs, query databases, send email, write files, observe time or randomness, etc. Those observable interactions are usually called side effects. A pure function, by contrast, depends only on its declared inputs: the same inputs produce the same result, evaluation causes no outside-world interaction, and a call can be replaced with its result without changing the program's behavior.
 
-Effects make composition harder because calling the function is no longer just asking for a value; it also decides that the outside-world interaction should happen now.
+Effects require a different approach to composition because calling the function is also choosing to perform the outside-world interaction at that point.
 
-`IO<T>` represents effectful work as a cold computation value, so larger programs can compose it before crossing the execution boundary.
+`IO<T>` represents effectful work as a cold computation value: something that can be composed before the work is run.
 
-> Note: This is a teaching model, not idiomatic C# advice. The goal is not to eliminate effects; useful programs need effects. The goal is to make the separation between constructing and running effectful work visible.
+> Note: This is a teaching model, not idiomatic C# advice. The goal is to make construction vs execution visible.
 
 ## When Execution Policy Matters
 
@@ -37,7 +37,7 @@ var totals =
 // `Map` is pseudocode here, following Part 1.
 ```
 
-In Part 1, `List.Map` visits each element now and builds a new list. Because `CalculateLineTotal` is pure, that policy changes work, not meaning: the same inputs still determine the same result. You can recompute it, delay it, discard it, or plug it into another map-shaped context, and nothing outside the calculation changes.
+`List.Map` visits each element now and builds a new list. Because `CalculateLineTotal` is pure, that policy changes work, not meaning: the same inputs still determine the same result. You can recompute it, delay it, discard it, or plug it into another map-shaped context, and nothing outside the calculation changes.
 
 Now consider an effectful price lookup:
 
@@ -55,10 +55,11 @@ var prices =
     productIds.Map(productId =>
         FetchCurrentPrice(remotePriceApi, productId));
 // `Map` is pseudocode here, following Part 1.
-// Requests are sent while Map traverses the list.
+// Map owns the traversal policy here: requests are
+// sent now, as fast as this Map traverses.
 ```
 
-`List.Map` is still just applying the supplied function according to the list's traversal policy. The problem is that `FetchCurrentPrice` is not just a calculation. Invoking it already sends a request, so you cannot treat it like a value you can freely throw away and recompute. If this API needs pacing, retries, short-circuiting after failure, or simply to happen at a particular time, something has to own that policy.
+`List.Map` is still applying the supplied function according to the list's traversal policy. Other map-shaped contexts have their own policies: `Maybe.Map` may not invoke the function, `Result.Map` may invoke it only on success, and another monad could choose something else. Pure functions can move among those contexts because repeated, skipped, or delayed invocation does not change the world. `FetchCurrentPrice` does change or observe the world: re-running it may consume quota, trigger rate limits, observe changed remote state, or duplicate a command such as an email. Handing it directly to `Map` gives that context control over the effect.
 
 If you wrote the same thing procedurally, that policy would be explicit in the loop:
 
@@ -77,22 +78,20 @@ foreach (string productId in productIds)
 }
 ```
 
-This loop owns the policy explicitly: it runs immediately, in list order, and stops on an exception unless the loop handles that case. Delays, retries, and error handling go directly in the loop. That direct control is useful, but it is less composable because the traversal policy is fused into the loop. A different caller with a different policy needs a different loop or helper.
+This loop owns the policy explicitly: it controls order, delay, retry, and stop-on-error behavior. That direct control is useful, but less composable because the traversal policy is fused into the loop instead of returned as a value. A different caller with a different policy needs a different loop or helper.
 
-With `Map`, the type providing `Map` owns the traversal policy instead. `List.Map` may run once per element, `Maybe.Map` zero or one time, `Result.Map` only on the success path, and `IO.Map` later when an `IO` runs. For pure functions those differences mostly change work. For effects like API calls, printing, or sending email, they change what happens in the outside world.
-
-The method still looks like an ordinary function returning `decimal`, but invoking it sends a request and observes external state not fully described by its arguments. A later call may observe a new price, consume quota, fail transiently, or be throttled. Replacing `FetchCurrentPrice(remotePriceApi, productId)` with a returned `decimal` therefore hides the fact that the request already happened. `IO<T>` instead returns a pure, first-class suspended computation that can be composed before any effect happens.
+With a plain return value, composition inherits either the manual loop policy or the caller's `Map` policy. `IO<T>` changes what gets composed: not the already-run result, but the still-suspended computation.
 
 ## From an immediate result to a suspended computation
 
-The effectful price lookup is still a function we want to compose with other steps. But `(IRemotePriceApi, string) -> decimal` means the request has already run by the time any larger program receives the value. `IO<T>` is a value representing a computation that may perform effects and eventually return a `T` when run. Returning `IO<decimal>` keeps construction separate from execution with `Run()`.
-
-So the signature changes:
+The signature change is the important move:
 
 ```text
 (IRemotePriceApi, string) -> decimal
 (IRemotePriceApi, string) -> IO<decimal>
 ```
+
+The first form gives composition a `decimal` only after the request has run. The second gives composition an `IO<decimal>`: a value representing a computation that may perform effects and eventually return a `decimal` when run. Returning `IO<decimal>` keeps construction separate from execution with `Run()`.
 
 ```csharp
 public static IO<decimal> FetchCurrentPriceIO(
@@ -104,7 +103,7 @@ public static IO<decimal> FetchCurrentPriceIO(
 }
 ```
 
-Calling `FetchCurrentPriceIO` sends no request. It returns a pure `IO<decimal>` value that larger compositions can keep building on before execution begins. The point is not wrapping for its own sake: evaluating the expression that creates the value is one thing, and executing the wrapped work with `Run()` is another.
+Calling `FetchCurrentPriceIO` sends no request. It returns a pure `IO<decimal>` value that larger compositions can keep building on before execution begins. That is the point of the wrapper: evaluating the expression that creates the value is separate from executing the wrapped work with `Run()`.
 
 Here, `Delay` means **defer evaluation**. It does not pause a thread, wait for a duration, or behave like `Task.Delay`.
 
