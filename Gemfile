@@ -12,7 +12,8 @@ gem "jekyll-redirect-from"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
 gem "jekyll-seo-tag"
+gem "csv"
+gem "base64"
 
 # Required for `jekyll serve` on Ruby 3+.
 gem "webrick"
-
