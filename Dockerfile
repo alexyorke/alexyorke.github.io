@@ -1,4 +1,4 @@
-FROM ruby:3.1-bookworm AS build
+FROM ruby:4.0-bookworm AS build
 
 WORKDIR /site
 
