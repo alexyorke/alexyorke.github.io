@@ -4,7 +4,7 @@ source "https://rubygems.org"
 #
 # Pinned to Jekyll 4.2.x for compatibility with older Sass pipeline;
 # newer Jekyll versions use `sass-embedded`, which can be finicky in containers.
-gem "jekyll", "4.2.2"
+gem "jekyll", "4.4.1"
 gem "jekyll-sass-converter", "~> 2.2"
 gem "sassc"
 gem "jekyll-remote-theme"
