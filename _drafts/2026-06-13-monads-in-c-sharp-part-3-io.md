@@ -7,18 +7,18 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-So far, this series has composed functions that mostly behave like calculations. This article is about what changes when those functions interact with the outside world: call APIs, query databases, send email, write files, observe time or randomness, and so on. Those observable interactions are usually called side effects.
+So far, this series has composed functions that mostly behave like calculations. This article is about what changes when those functions perform observable work beyond returning a value.
+
+A side effect is any observable thing a function does besides return its result. Mutating shared state is a side effect even if no file, socket, database, or API is involved. I/O is one common kind of side effect: it communicates with something outside the function, such as a file, socket, database, API, console, system clock, or randomness source. Side effects are the broader category; this article mostly focuses on the I/O and outside-world subset.
 
 * Pure computation = producing a value.
-* Effectful computation = producing a value + outside-world interaction.
+* Effectful computation = producing a value + an observable effect.
 
-Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with the outside world. I/O is non-deterministic from the program's point of view because the outside world can change between calls.
+Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with anything else. Effectful computations are harder to reason about because their behavior can depend on state outside their declared inputs. I/O is especially non-deterministic from the program's point of view because the outside world can change between calls.
 
-A useful metaphor is that an effectful function runs against the current world and leaves a changed or newly observed world behind: world in, value plus world-prime out. C# does not pass a world value around, but the observable interaction is why execution cannot be treated as just another calculation.
+A useful metaphor is that an effectful function runs against the current world and leaves a changed or newly observed world behind: world in, value plus world-prime out. C# does not pass a world value around, but the metaphor explains why execution cannot be treated as just another calculation. If effectful computations run wherever they happen to appear, a program may read from or write to the world at the wrong time.
 
-For composition, that extra interaction matters. Running effectful computations wherever they happen to appear can make a program harder to reason about: it may read from or write to the world at the wrong time. Effectful computations may need a specific order, timing, retry strategy, or number of executions.
-
-That is why `IO<T>` starts by changing what gets composed. Instead of handing `Map` or `FlatMap` a function that performs the effect immediately, `IO<T>` represents the effectful work as a cold value first. Evaluating the `IO<T>` value does not run the work, so the program can compose it safely before choosing when to execute it.
+For composition, that timing matters. Effectful computations may need a specific order, timing, retry strategy, or number of executions. `IO<T>` starts by changing what gets composed: instead of handing `Map` or `FlatMap` a function that performs the effect immediately, it represents the effectful work as a cold value first. Evaluating the `IO<T>` value does not run the work, so the program can compose it safely before choosing when to execute it.
 
 > Note: This is a teaching model, not idiomatic C# advice. The goal is to make construction vs execution visible.
 
