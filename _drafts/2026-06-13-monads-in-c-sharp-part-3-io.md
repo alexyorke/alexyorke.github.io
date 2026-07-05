@@ -11,14 +11,29 @@ So far, this series has composed functions that mostly behave like calculations.
 
 A side effect is any observable thing a function does besides return its result. Mutating shared state is a side effect even if no file, socket, database, or API is involved. I/O is one common kind of side effect: it communicates with something outside the function, such as a file, socket, database, API, console, system clock, or randomness source. Side effects are the broader category; this article mostly focuses on the I/O and outside-world subset.
 
+So the final returned value is no longer the whole meaning of the program. The interaction history matters.
+
+With effects, the semantic shape becomes more like:
+
+program : World/Input/State -> Value plus World/Output/State
+
+For example:
+
+read     : InputState -> (Number, NewInputState)
+write(n) : OutputState -> (Unit, NewOutputState)
+
 * Pure computation = producing a value.
 * Effectful computation = producing a value + an observable effect.
 
-Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with anything else. Effectful computations are harder to reason about because their behavior can depend on state outside their declared inputs. I/O is especially non-deterministic from the program's point of view because the outside world can change between calls.
+Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with anything else. I/O is non-deterministic from the program's point of view because the value may come from outside the program. If a function asks the user for input, its result is not knowable until the user types something, and the user can type anything. The same idea applies to API responses, file contents, the current time, or any other outside-world value observed when the computation runs.
 
 A useful metaphor is that an effectful function runs against the current world and leaves a changed or newly observed world behind: world in, value plus world-prime out. C# does not pass a world value around, but the metaphor explains why execution cannot be treated as just another calculation. If effectful computations run wherever they happen to appear, a program may read from or write to the world at the wrong time.
 
-For composition, that timing matters. Effectful computations may need a specific order, timing, retry strategy, or number of executions. `IO<T>` starts by changing what gets composed: instead of handing `Map` or `FlatMap` a function that performs the effect immediately, it represents the effectful work as a cold value first. Evaluating the `IO<T>` value does not run the work, so the program can compose it safely before choosing when to execute it.
+Functional programming leans on this kind of reasoning: expressions should be easy to transform, refactor, and substitute while preserving the program's meaning. Raw I/O disrupts that style because moving a call can change when it reads from or writes to the world, how often it runs, or what value it observes.
+
+`IO<T>` is one way to preserve some of that algebraic style around effectful code. It changes what gets composed: instead of handing `Map` or `FlatMap` a function that performs the effect immediately, it represents the effectful work as a cold value first. You can think of that value as a recipe or set of instructions for work that may happen later.
+
+Building and transforming the recipe does not perform the effect, so that part can still be reasoned about like ordinary value manipulation. Running the recipe is different: that is when the program actually reads, writes, mutates, sends, retries, or observes whatever the recipe describes. Evaluating the `IO<T>` value does not run the work, so the program can compose it safely before choosing the order, timing, retry strategy, or number of executions.
 
 > Note: This is a teaching model, not idiomatic C# advice. The goal is to make construction vs execution visible.
 
