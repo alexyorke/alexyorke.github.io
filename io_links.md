@@ -2358,3 +2358,9 @@ https://www.susanpotter.net/software/a-haskell-tinted-view-of-functional-program
 https://github.com/haskell-effectful/effectful/issues/337
 https://github.com/haskell-effectful/effectful/issues/329
 https://github.com/haskell-effectful/effectful/issues/316
+https://flaviocorpa.com/haskell-for-elm-developers-giving-names-to-stuff-part-8-io.html
+https://discourse.elm-lang.org/t/haskell-for-elm-developers-part-8-io/10783
+https://reasonablypolymorphic.com/blog/freer-monads/
+https://reasonablypolymorphic.com/dont-eff-it-up/
+https://reasonablypolymorphic.com/blog/porting-to-polysemy/
+https://reasonablypolymorphic.com/blog/tactics/
