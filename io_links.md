@@ -78,6 +78,10 @@ https://dl.acm.org/doi/10.1145/3276481
 https://iris-project.org/pdfs/2023-esop-tes.pdf
 https://dl.acm.org/doi/10.1145/3485479
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F
+https://github.com/Icelandjack/Capabilities
+https://github.com/albertdahlin/elm-cli-io-monad
+https://github.com/okmij/libhandler
+https://github.com/effect-handlers/effect-handlers.github.io
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effekt-capabilitypassing-style-for-type-and-effectsafe-extensible-effect-handlers-in-scala/A19680B18FB74AD95F8D83BC4B097D4F
 https://dl.acm.org/doi/10.1145/2633357.2633358
 https://iris-project.org/pdfs/2026-pldi-exceptional.pdf
