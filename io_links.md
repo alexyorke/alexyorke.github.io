@@ -2322,3 +2322,9 @@ https://github.com/haskell-effectful/effectful/discussions/315
 https://github.com/haskell-effectful/effectful/discussions/294
 https://github.com/haskell-effectful/effectful/discussions/328
 https://github.com/haskell-effectful/effectful/discussions/332
+https://github.com/tomjaguarpaw/bluefin/discussions/36
+https://github.com/haskell-effectful/effectful/discussions/293
+https://github.com/haskell-effectful/effectful/discussions/303
+https://github.com/haskell-effectful/effectful/discussions/291
+https://github.com/haskell-effectful/effectful/issues/318
+https://github.com/ndmitchell/blogs/blob/master/monads-as-boxes.md
