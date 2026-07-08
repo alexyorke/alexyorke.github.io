@@ -123,6 +123,12 @@ https://github.com/goldfirere/effects
 https://github.com/Snowflyt/tinyeffect
 https://functional-architecture.org/events/funarch-2025/
 https://www.lambdadays.org/lambdadays2025
+https://haskell.foundation/podcast/79/
+https://haskell.foundation/podcast/78/
+https://haskell.foundation/podcast/57/
+https://haskell.foundation/podcast/45/
+https://haskell.foundation/podcast/22/
+https://haskell.foundation/podcast/62/
 https://paperswelove.org/papers/the-essence-of-functional-programming-2fac941d/
 https://www.md.chalmers.se/Cs/Research/Semantics/APPSEM/dtp99/proceedings.html
 https://arxiv.org/pdf/2411.00037
