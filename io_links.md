@@ -62,6 +62,9 @@ https://users.cs.utah.edu/~mflatt/cs6525/monads.html
 https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-spr25-notes/notes/Managing_Effects.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful.html
 https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1.pdf
+https://github.com/metareflection/plti-class/blob/main/resources.md
+https://github.com/JarnaChao09/Koffect
+https://github.com/vic/vic
 https://dl.acm.org/doi/10.1145/3527326
 https://arxiv.org/pdf/1905.06544
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html
