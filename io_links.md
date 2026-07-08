@@ -2570,6 +2570,11 @@ https://github.com/input-output-hk/haskell-course
 https://www.fceia.unr.edu.ar/~mauro/pubs/Thesis.pdf
 https://homepages.inf.ed.ac.uk/gdp/publications/Effect_Handlers.pdf
 https://iris-project.org/pdfs/2024-popl-gitrees.pdf
+https://github.com/edofic/effect-handlers
+https://github.com/ocaml-multicore/effects-examples
+https://github.com/juliangrove/algebraic-effects-montague
+https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99
+https://github.com/uhub/awesome-haskell/blob/master/README.md
 
 https://github.com/effect-handlers/effect-handlers-bench
 https://github.com/withoutboats/burrito
