@@ -2450,3 +2450,15 @@ https://github.com/fpringle/2025-05-24-storage-effect
 https://www.pls-lab.org/Algebraic_effect_and_handlers
 https://www.reddit.com/r/haskell/comments/1cse8ze/learning_haskell_finally_got_to_monads_would/
 https://github.com/agniv-the-marker/haskell-os/blob/main/HASKELL.md
+https://arxiv.org/pdf/2602.03275
+https://era.ed.ac.uk/handle/1842/38868
+https://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-141.pdf
+https://link.springer.com/chapter/10.1007/978-3-031-21314-4_4
+https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/qualified_do.html
+https://groups.seas.harvard.edu/courses/cs152/2023sp/lectures/lec18-monads.pdf
+https://github.com/JeanHuguesdeRaigniac/effects-landscape
+https://discourse.haskell.org/t/bluefin-compared-to-effectful-video/10723?page=2
+https://discourse.haskell.org/t/are-complaints-about-free-monad-performance-pointless-and-no-different-to-a-corresponding-monad-construction/13189?page=2
+https://haskell.foundation/podcast/60/
+https://haskell.foundation/podcast/61/
+https://blog.ploeh.dk/2025/08/11/song-recommendations-with-free-monads/
