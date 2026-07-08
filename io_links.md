@@ -2605,5 +2605,12 @@ https://www.sciencedirect.com/science/article/pii/S0167642324000091
 https://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs-2019.pdf
 https://mbsd.cs.ru.nl/publications/papers/2001/achp2001-HaskellObjectIO.pdf
 https://cburch.com/books/hsfun/
+https://www.cs.columbia.edu/~aho/cs6998/Lectures/14-10-13_Gururaja_Monads.pdf
 https://en.wikibooks.org/wiki/Haskell/Simple_input_and_output
+https://www.altocumulus.org/Fudgets/springschool95-intro.html
 https://www.sampou.org/haskell/tutorial-j/io.html
+https://users.cs.northwestern.edu/~robby/courses/395-495-2009-winter/fran.pdf
+https://conal.net/papers/push-pull-frp/push-pull-frp.pdf
+https://www.cs.ox.ac.uk/jeremy.gibbons/publications/mlenses.pdf
+https://www.cs.ox.ac.uk/jeremy.gibbons/publications/delivery.pdf
+https://www.cs.ox.ac.uk/jeremy.gibbons/publications/entangled.pdf
