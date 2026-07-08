@@ -38,6 +38,11 @@ https://arxiv.org/pdf/1902.06590
 https://homepages.inf.ed.ac.uk/wadler/papers/constraints/constraints.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf
 https://users.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf
+https://github.com/tweag/kernmantle
+https://github.com/lierdakil/free-monad-examples
+https://github.com/daanx/effect-bench
+https://gist.github.com/3693348
+https://www.youtube.com/watch?v=9Y-ZTTRDcp0
 https://haskell.foundation/podcast/80/
 https://haskell.foundation/podcast/77/
 https://arxiv.org/pdf/2507.10301
