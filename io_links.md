@@ -2185,3 +2185,14 @@ https://maxsnew.com/docs/zydeco-relmonad.pdf
 https://www.doc.ic.ac.uk/~dorchard/publ/effects-revisited.pdf
 https://arxiv.org/pdf/2304.09697
 https://www.kurims.kyoto-u.ac.jp/~tsanada/papers/phdthesis.pdf
+https://www.cis.upenn.edu/~cis1940/fall16/lectures/06-io-and-monads.html
+https://dl.acm.org/doi/pdf/10.1145/3331545.3342595
+https://dl.acm.org/doi/pdf/10.1145/3331545.3342589
+https://dl.acm.org/doi/pdf/10.1145/2775050.2633368
+https://arxiv.org/pdf/1401.5391
+https://arxiv.org/pdf/1312.2334
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.IO.Class.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO.html
+https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/safe_haskell.html
+https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/ffi.html
+https://ghc.gitlab.haskell.org/ghc/doc/users_guide/ghci.html
