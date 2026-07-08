@@ -2556,3 +2556,4 @@ https://discourse.haskell.org/t/are-complaints-about-free-monad-performance-poin
 https://haskell.foundation/podcast/60/
 https://haskell.foundation/podcast/61/
 https://blog.ploeh.dk/2025/08/11/song-recommendations-with-free-monads/
+https://github.com/input-output-hk/haskell-course
