@@ -18,6 +18,8 @@ https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11
 https://www.numdam.org/item/ITA_2002__36_2_155_0.pdf
 https://leventerkok.github.io/papers/mfix.pdf
 https://leventerkok.github.io/papers/mfixTR.pdf
+https://github.com/mjul/free-monad-interpreter-for-pascal
+https://github.com/gbogard/free-monads-from-scratch
 https://github.com/snapframework/io-streams
 https://leventerkok.github.io/papers/recdo.pdf
 https://launchbury.blog/wp-content/uploads/2019/01/semantics-of-fixio.pdf
