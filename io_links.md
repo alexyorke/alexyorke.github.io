@@ -2590,3 +2590,10 @@ https://github.com/typelevel/spotted-leopards/issues/3
 https://github.com/haskell/core-libraries-committee/issues/108
 https://github.com/arrow-kt/arrow/issues/1391
 https://github.com/carbon-language/carbon-lang/issues/2840
+https://person.dibris.unige.it/moggi-eugenio/ftp/lc88.pdf
+https://denotational.co.uk/publications/kammar-lindley-oury-handlers-in-action.pdf
+https://homepages.inf.ed.ac.uk/slindley/papers/effmondel.pdf
+https://lirias.kuleuven.be/retrieve/6d2bfbd4-f783-49d6-9e19-9f95d1324906
+https://xavierleroy.org/CdF/2023-2024/6.pdf
+https://www.sciencedirect.com/science/article/pii/S0167642324000091
+https://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs-2019.pdf
