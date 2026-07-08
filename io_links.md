@@ -2299,3 +2299,5 @@ https://github.com/haskell-effectful/hpqtypes-effectful
 https://github.com/deepflowinc-oss/effectful-extras
 https://www.youtube.com/watch?v=wZy0pVkQ-Jg
 https://www.youtube.com/watch?v=BUoYKBLOOrE
+https://github.com/tomjaguarpaw/bluefin/issues/53
+https://www.youtube.com/watch?v=ZejW5XfJsR0
