@@ -38,6 +38,11 @@ https://arxiv.org/pdf/1902.06590
 https://homepages.inf.ed.ac.uk/wadler/papers/constraints/constraints.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf
 https://users.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf
+https://haskell.foundation/podcast/80/
+https://haskell.foundation/podcast/77/
+https://arxiv.org/pdf/2507.10301
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/doo-bee-doo-bee-doo/DEC5F8FDABF7DE3088270E07392320DD
+https://github.com/Gabriella439/post-rfc/blob/master/sotu.md
 https://dl.acm.org/doi/10.1145/3527326
 https://arxiv.org/pdf/1905.06544
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html
