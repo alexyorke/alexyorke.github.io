@@ -2212,3 +2212,5 @@ https://blog.haskell.org/case-study-foreign-integration-js-browser/
 https://blog.haskell.org/stability-working-group/
 https://www.youtube.com/watch?v=RsTuy1jXQ6Y
 https://github.com/jaspervdj/talks/blob/master/2017-haskell-exchange-getting-things-done/slides.md
+https://dl.acm.org/doi/10.1145/2804302.2804319
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/parallel-dualnumbers-reverse-ad/ECFEF5DE72D5CB7C5BBA0AD7C203BF38
