@@ -2351,3 +2351,10 @@ https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-55
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-Handle-Lock.html
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Foreign-C-String-Encoding.html
 https://cseweb.ucsd.edu/~dstefan/cse130-winter18/lectures/week9/
+https://discourse.haskell.org/t/bluefin-compared-to-effectful-video/10723
+https://discourse.haskell.org/t/effectful-how-to-prevent-big-effect-runner-functions/7173
+https://exploring-better-ways.bellroy.com/integrating-effectful-and-persistent.html
+https://www.susanpotter.net/software/a-haskell-tinted-view-of-functional-programming-effectful/
+https://github.com/haskell-effectful/effectful/issues/337
+https://github.com/haskell-effectful/effectful/issues/329
+https://github.com/haskell-effectful/effectful/issues/316
