@@ -2364,3 +2364,6 @@ https://reasonablypolymorphic.com/blog/freer-monads/
 https://reasonablypolymorphic.com/dont-eff-it-up/
 https://reasonablypolymorphic.com/blog/porting-to-polysemy/
 https://reasonablypolymorphic.com/blog/tactics/
+https://reasonablypolymorphic.com/blog/yampa-frp/
+https://github.com/haskell/hackage-server
+https://github.com/bluefin-haskell/bluefin
