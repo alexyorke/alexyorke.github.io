@@ -2230,3 +2230,11 @@ https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-th
 https://www.youtube.com/watch?v=fCoQb-zqYDI
 https://www.youtube.com/watch?v=wgfYkQVpC-M
 https://www.youtube.com/watch?v=y3KiuFczOFE
+https://github.com/m50d/paperdoll
+https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell/blob/master/README.md
+https://github.com/YellPika/effin
+https://github.com/bitemyapp/learnhaskell/blob/master/specific_topics.md
+https://www.youtube.com/watch?v=k2voWa4D2ak
+https://www.youtube.com/watch?v=nGhoZzihbHY
+https://www.youtube.com/watch?v=A-qGGag3Mt8
+https://www.youtube.com/watch?v=e7mooXxW3gQ
