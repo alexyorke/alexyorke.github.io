@@ -2447,3 +2447,6 @@ https://downloads.haskell.org/ghc/latest/docs/users_guide/ghci.html
 https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/ffi.html
 https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/safe_haskell.html
 https://github.com/fpringle/2025-05-24-storage-effect
+https://www.pls-lab.org/Algebraic_effect_and_handlers
+https://www.reddit.com/r/haskell/comments/1cse8ze/learning_haskell_finally_got_to_monads_would/
+https://github.com/agniv-the-marker/haskell-os/blob/main/HASKELL.md
