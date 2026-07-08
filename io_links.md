@@ -2367,3 +2367,8 @@ https://reasonablypolymorphic.com/blog/tactics/
 https://reasonablypolymorphic.com/blog/yampa-frp/
 https://github.com/haskell/hackage-server
 https://github.com/bluefin-haskell/bluefin
+https://discourse.haskell.org/t/fork-fragile-reader-like-operations-in-haskell/14258
+https://h2.jaguarpaw.co.uk/posts/ioscopedref-reference-implementation/
+https://h2.jaguarpaw.co.uk/posts/haskells-missing-mutable-ref/
+https://haskellweekly.news/issue/529.html
+https://daily.dev/posts/issue-528-0qs9djvix
