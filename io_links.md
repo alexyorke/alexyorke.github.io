@@ -2243,3 +2243,15 @@ https://www.youtube.com/watch?v=7uPOjO13nCY
 https://www.youtube.com/watch?v=fP0srOQVGB8
 https://deque.blog/2017/11/13/free-monads-from-basics-up-to-implementing-composable-and-effectful-stream-processing/
 https://gist.github.com/nrinaudo/b02d0d17f62b6babea60cb0b52ded287
+https://www.youtube.com/watch?v=seyhAYIz1mk
+https://www.youtube.com/watch?v=JPs0NRRIqUU
+https://www.youtube.com/watch?v=GZPup5Iuaqw
+https://www.youtube.com/watch?v=wi_vLNULh9Y
+https://www.youtube.com/watch?v=KGJLeHhsZBo
+https://www.youtube.com/watch?v=gUPuWHAt6SA
+https://www.youtube.com/watch?v=-dHFOjcK6pA
+https://www.youtube.com/watch?v=zPtP-vvqagE
+https://github.com/raimohanska/Monads
+https://github.com/jagajaga/FP-Course-ITMO
+https://github.com/graninas/software-design-in-haskell/blob/master/README.md
+https://gist.github.com/b473c3c9aa921d14563b
