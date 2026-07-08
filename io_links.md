@@ -2615,3 +2615,6 @@ https://conal.net/papers/push-pull-frp/push-pull-frp.pdf
 https://www.cs.ox.ac.uk/jeremy.gibbons/publications/mlenses.pdf
 https://www.cs.ox.ac.uk/jeremy.gibbons/publications/delivery.pdf
 https://www.cs.ox.ac.uk/jeremy.gibbons/publications/entangled.pdf
+https://www.alilleybrinker.com/mini/the-best-monad-tutorial/
+https://discourse.haskell.org/t/combining-monads-with-natural-transformations/11605
+https://github.com/serokell/hse-haskell-course-src
