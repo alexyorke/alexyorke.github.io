@@ -2557,3 +2557,6 @@ https://haskell.foundation/podcast/60/
 https://haskell.foundation/podcast/61/
 https://blog.ploeh.dk/2025/08/11/song-recommendations-with-free-monads/
 https://github.com/input-output-hk/haskell-course
+https://www.fceia.unr.edu.ar/~mauro/pubs/Thesis.pdf
+https://homepages.inf.ed.ac.uk/gdp/publications/Effect_Handlers.pdf
+https://iris-project.org/pdfs/2024-popl-gitrees.pdf
