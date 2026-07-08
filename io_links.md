@@ -71,6 +71,11 @@ https://iris-project.org/pdfs/2023-esop-tes.pdf
 https://dl.acm.org/doi/10.1145/3485479
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effekt-capabilitypassing-style-for-type-and-effectsafe-extensible-effect-handlers-in-scala/A19680B18FB74AD95F8D83BC4B097D4F
+https://dl.acm.org/doi/10.1145/2633357.2633358
+https://iris-project.org/pdfs/2026-pldi-exceptional.pdf
+https://www.cambridge.org/core/product/31638FCCC07130C30C42853CF0E0A4C2/core-reader
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/algebraic-effects-and-handlers-for-arrows/S0956796824000066
+https://dl.acm.org/doi/10.1145/3676481
 https://dl.acm.org/doi/10.1145/3527326
 https://arxiv.org/pdf/1905.06544
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html
