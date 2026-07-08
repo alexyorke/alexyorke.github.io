@@ -2266,3 +2266,12 @@ https://www.youtube.com/watch?v=qZ4O-1VYv4c
 https://www.youtube.com/watch?v=H28QqxO7Ihc
 https://www.youtube.com/watch?v=c-A46L8__IY
 https://github.com/epogrebnyak/haskell-intro
+https://www.youtube.com/watch?v=e80BUh8clC8
+https://www.youtube.com/watch?v=xv-WApd-pSY
+https://www.youtube.com/watch?v=lLZKM7efBYw
+https://github.com/fused-effects/fused-effects
+https://github.com/lexi-lambda/freer-simple
+https://github.com/fizruk/free-agent
+https://gist.github.com/graninas/49be74a21fbd58236bad28e1ce1eed94
+https://github.com/Cambridge-Vision-Technology/purescript-parallel-effects
+https://www.youtube.com/watch?v=qgfCmQ-2tW0
