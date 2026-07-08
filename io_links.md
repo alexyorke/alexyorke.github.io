@@ -65,6 +65,12 @@ https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1
 https://github.com/metareflection/plti-class/blob/main/resources.md
 https://github.com/JarnaChao09/Koffect
 https://github.com/vic/vic
+https://iris-project.org/pdfs/2025-esop-gitrees.pdf
+https://dl.acm.org/doi/10.1145/3276481
+https://iris-project.org/pdfs/2023-esop-tes.pdf
+https://dl.acm.org/doi/10.1145/3485479
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effekt-capabilitypassing-style-for-type-and-effectsafe-extensible-effect-handlers-in-scala/A19680B18FB74AD95F8D83BC4B097D4F
 https://dl.acm.org/doi/10.1145/3527326
 https://arxiv.org/pdf/1905.06544
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html
