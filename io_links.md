@@ -100,6 +100,14 @@ https://doi.org/10.1145/3674651
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B18FB74AD95F8D83BC4B097D4F/S0956796820000027a.pdf/effekt_capabilitypassing_style_for_type_and_effectsafe_extensible_effect_handlers_in_scala.pdf
 https://teaching.well-typed.com/intro/monads.html
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-ST-Strict.html
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effect-handlers-via-generalised-continuations/DF590482FEE2F6888CD68B4B446E31D5
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/on-the-expressive-power-of-userdefined-effects-effect-handlers-monadic-reflection-delimited-control/3FFAA9AD05B58A1467E411F80EE4E076
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/no-value-restriction-is-needed-for-algebraic-effects-andhandlers/19DD87AEDAEABBB45A06D5EA21F03428
+https://arxiv.org/pdf/2603.02260
+https://arxiv.org/pdf/2512.10861
+https://arxiv.org/abs/2601.03836
+https://github.com/JonasHoefer/scoped-effects-agda
+https://github.com/ngernest/pbt-bibliography
 https://paperswelove.org/papers/the-essence-of-functional-programming-2fac941d/
 https://www.md.chalmers.se/Cs/Research/Semantics/APPSEM/dtp99/proceedings.html
 https://arxiv.org/pdf/2411.00037
