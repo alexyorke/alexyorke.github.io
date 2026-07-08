@@ -78,6 +78,8 @@ https://iris-project.org/pdfs/2025-esop-gitrees.pdf
 https://dl.acm.org/doi/10.1145/3276481
 https://iris-project.org/pdfs/2023-esop-tes.pdf
 https://dl.acm.org/doi/10.1145/3485479
+https://github.com/mmenestret/fp-resources
+https://github.com/qio-haskell/qio-haskell
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F
 https://github.com/Icelandjack/Capabilities
 https://github.com/albertdahlin/elm-cli-io-monad
