@@ -2275,3 +2275,11 @@ https://github.com/fizruk/free-agent
 https://gist.github.com/graninas/49be74a21fbd58236bad28e1ce1eed94
 https://github.com/Cambridge-Vision-Technology/purescript-parallel-effects
 https://www.youtube.com/watch?v=qgfCmQ-2tW0
+https://www.youtube.com/watch?v=sDnNjtkoUVs
+https://github.com/Gabriella439/Haskell-Transformers-Free-Library
+https://github.com/Gabriel439/Haskell-Free-Monads-Library/blob/master/Control/Monad/Trans/Free.hs
+https://github.com/tchajed/coq-io
+https://github.com/hasura/eff
+https://github.com/typedbyte/effet
+https://www.youtube.com/watch?v=0ABhsBpcxvY
+https://www.youtube.com/watch?v=2g5ZZRN2LZE
