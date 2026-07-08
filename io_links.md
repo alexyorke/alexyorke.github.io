@@ -2255,3 +2255,14 @@ https://github.com/raimohanska/Monads
 https://github.com/jagajaga/FP-Course-ITMO
 https://github.com/graninas/software-design-in-haskell/blob/master/README.md
 https://gist.github.com/b473c3c9aa921d14563b
+https://www.youtube.com/watch?v=7vxhNfNWP3k
+https://www.youtube.com/watch?v=w9ExsWcoXPs
+https://www.youtube.com/watch?v=BN3JAuGlOgM
+https://www.youtube.com/watch?v=3GKQ4ni2pS0
+https://www.youtube.com/watch?v=H3Bizwx_L1o
+https://www.youtube.com/watch?v=YTaNkWjd-ac
+https://www.youtube.com/watch?v=NruDKxLQPj8
+https://www.youtube.com/watch?v=qZ4O-1VYv4c
+https://www.youtube.com/watch?v=H28QqxO7Ihc
+https://www.youtube.com/watch?v=c-A46L8__IY
+https://github.com/epogrebnyak/haskell-intro
