@@ -2581,3 +2581,10 @@ https://github.com/withoutboats/burrito
 https://github.com/ghc/packages-base/blob/master/GHC/Base.lhs
 https://github.com/haskell-servant/servant/issues/1732
 https://github.com/koka-lang/koka/discussions/781
+https://github.com/maybevoid/casimir/blob/master/doc/tutorial.md
+https://github.com/selectel/mongoDB-haskell/blob/master/doc/tutorial.md
+https://github.com/tweag/monad-bayes/issues/144
+https://github.com/typelevel/spotted-leopards/issues/3
+https://github.com/haskell/core-libraries-committee/issues/108
+https://github.com/arrow-kt/arrow/issues/1391
+https://github.com/carbon-language/carbon-lang/issues/2840
