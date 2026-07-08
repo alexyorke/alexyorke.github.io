@@ -2238,3 +2238,8 @@ https://www.youtube.com/watch?v=k2voWa4D2ak
 https://www.youtube.com/watch?v=nGhoZzihbHY
 https://www.youtube.com/watch?v=A-qGGag3Mt8
 https://www.youtube.com/watch?v=e7mooXxW3gQ
+https://github.com/rexim/io
+https://www.youtube.com/watch?v=7uPOjO13nCY
+https://www.youtube.com/watch?v=fP0srOQVGB8
+https://deque.blog/2017/11/13/free-monads-from-basics-up-to-implementing-composable-and-effectful-stream-processing/
+https://gist.github.com/nrinaudo/b02d0d17f62b6babea60cb0b52ded287
