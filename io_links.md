@@ -2343,3 +2343,11 @@ https://arxiv.org/pdf/2302.01415
 https://arxiv.org/pdf/2011.03463
 https://arxiv.org/pdf/1604.01184
 https://arxiv.org/pdf/2407.11816
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-StdHandles.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-SubSystem.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-ST-Imp.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-Encoding-UTF8.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-Encoding-UTF32.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-Handle-Lock.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Foreign-C-String-Encoding.html
+https://cseweb.ucsd.edu/~dstefan/cse130-winter18/lectures/week9/
