@@ -58,6 +58,13 @@ https://arxiv.org/abs/2506.15424
 https://arxiv.org/abs/2502.15031
 https://arxiv.org/abs/2604.15290
 https://research.chalmers.se/en/publication/540080
+https://research.chalmers.se/en/publication/155369
+https://research.chalmers.se/publication/528822/file/528822_Fulltext.pdf
+https://research.chalmers.se/publication/505007/file/505007_Fulltext.pdf
+https://research.chalmers.se/publication/532471/file/532471_Fulltext.pdf
+https://research.chalmers.se/publication/536364/file/536364_Fulltext.pdf
+https://research.chalmers.se/publication/542885/file/542885_Fulltext.pdf
+https://research.chalmers.se/publication/540080/file/540080_Fulltext.pdf
 https://homepages.inf.ed.ac.uk/wadler/papers/formlets-aplas/formlets-bcs-facs.pdf
 https://imae.udg.edu/~villaret/monads.pdf
 https://software.imdea.org/~aleks/papers/effects/effects.pdf
