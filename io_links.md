@@ -2318,3 +2318,7 @@ https://discourse.haskell.org/t/monads-are-too-powerful-the-expressiveness-spect
 https://www.youtube.com/watch?v=cRh56LGzwas
 https://www.youtube.com/watch?v=UseIDeSCsf0
 https://www.youtube.com/watch?v=SMj-n2f7wYY
+https://github.com/haskell-effectful/effectful/discussions/315
+https://github.com/haskell-effectful/effectful/discussions/294
+https://github.com/haskell-effectful/effectful/discussions/328
+https://github.com/haskell-effectful/effectful/discussions/332
