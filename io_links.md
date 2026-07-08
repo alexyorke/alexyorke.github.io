@@ -2372,3 +2372,6 @@ https://h2.jaguarpaw.co.uk/posts/ioscopedref-reference-implementation/
 https://h2.jaguarpaw.co.uk/posts/haskells-missing-mutable-ref/
 https://haskellweekly.news/issue/529.html
 https://daily.dev/posts/issue-528-0qs9djvix
+https://www.reddit.com/r/haskell/comments/1u2u5ze/forkfragile_readerlike_operations_in_haskell/
+https://www.reddit.com/r/haskell/comments/1u1ueos/a_reference_implementation_of_ioscopedref/
+https://www.reddit.com/user/tomejaguar/
