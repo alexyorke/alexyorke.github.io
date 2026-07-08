@@ -2375,3 +2375,15 @@ https://daily.dev/posts/issue-528-0qs9djvix
 https://www.reddit.com/r/haskell/comments/1u2u5ze/forkfragile_readerlike_operations_in_haskell/
 https://www.reddit.com/r/haskell/comments/1u1ueos/a_reference_implementation_of_ioscopedref/
 https://www.reddit.com/user/tomejaguar/
+https://doi.org/10.1051/ita:2002008
+https://doi.org/10.1051/ita:2004018
+https://doi.org/10.1145/3110257
+https://doi.org/10.1017/S0956796820000106
+https://doi.org/10.1017/S0956796820000271
+https://dl.acm.org/doi/10.1145/3759164.3759352
+https://dl.acm.org/doi/10.1145/3720434
+https://dl.acm.org/doi/10.1145/3759425.3763396
+https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844
+https://deque.blog/2017/12/08/continuation-passing-style-free-monads-and-direct-style-free-monads/
+https://stackoverflow.com/questions/45045294/in-haskell-terminology-what-are-monadic-effects
+https://www.youtube.com/watch?v=V2vIfgGrr74
