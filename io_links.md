@@ -2283,3 +2283,9 @@ https://github.com/hasura/eff
 https://github.com/typedbyte/effet
 https://www.youtube.com/watch?v=0ABhsBpcxvY
 https://www.youtube.com/watch?v=2g5ZZRN2LZE
+https://github.com/FreeProving/free-compiler
+https://github.com/pvillega/free-monad-sample
+https://www.youtube.com/watch?v=sFYFuBzu9Ow
+https://www.youtube.com/watch?v=y0AHjJZeV1M
+https://www.youtube.com/watch?v=z8SI7WBtlcA
+https://www.youtube.com/watch?v=2LSOqikNqxM
