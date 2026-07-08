@@ -43,6 +43,7 @@ https://haskell.foundation/podcast/77/
 https://arxiv.org/pdf/2507.10301
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/doo-bee-doo-bee-doo/DEC5F8FDABF7DE3088270E07392320DD
 https://github.com/Gabriella439/post-rfc/blob/master/sotu.md
+https://github.com/re-xyr/cleff
 https://dl.acm.org/doi/10.1145/3527326
 https://arxiv.org/pdf/1905.06544
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html
