@@ -2414,3 +2414,13 @@ https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-ef
 https://deque.blog/2017/12/08/continuation-passing-style-free-monads-and-direct-style-free-monads/
 https://stackoverflow.com/questions/45045294/in-haskell-terminology-what-are-monadic-effects
 https://www.youtube.com/watch?v=V2vIfgGrr74
+https://people.cs.nott.ac.uk/pszgmh/appsem-papers/moggi.pdf
+https://kar.kent.ac.uk/57487/1/haskell19f-revised.pdf
+https://repository.nottingham.ac.uk/entities/publication/afa95713-a742-4fc8-9092-8c53cb74c935
+https://cs.ioc.ee/ewscs/2010/mycroft/ewscs10.pdf
+https://www.macs.hw.ac.uk/~hwloidl/Courses/F21DP/gph_milan15_handout.pdf
+https://dl.acm.org/doi/10.1145/3331545.3342589
+https://dl.acm.org/doi/pdf/10.1145/3428194
+https://hal.inria.fr/hal-01038053/document
+https://arxiv.org/pdf/1312.1399
+https://www.scs.stanford.edu/~dm/home/papers/terei:safe-haskell.pdf
