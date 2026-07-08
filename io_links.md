@@ -2424,3 +2424,9 @@ https://dl.acm.org/doi/pdf/10.1145/3428194
 https://hal.inria.fr/hal-01038053/document
 https://arxiv.org/pdf/1312.1399
 https://www.scs.stanford.edu/~dm/home/papers/terei:safe-haskell.pdf
+https://github.com/yallop/effects-bibliography
+https://dantb.dev/posts/effects-bibliography/
+https://github.com/Tomatosoup97/freak
+https://github.com/metaocaml/metaocaml-bibliography
+https://www.libhunt.com/compare-effects-bibliography-vs-koka
+https://github.com/prathyvsh/morphisms-of-computational-structures
