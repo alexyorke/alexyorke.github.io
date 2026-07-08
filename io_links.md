@@ -288,6 +288,12 @@ https://dl.acm.org/doi/pdf/10.1145/262009.262011
 https://andrewdgordon.github.io/papers/fpio.pdf
 https://people.cs.nott.ac.uk/psztxa/publ/qio.pdf
 https://www.mbsd.cs.ru.nl/publications/papers/2001/achp2001-HaskellObjectIO.pdf
+https://dl.acm.org/doi/pdf/10.1145/165180.165228
+https://publications.scss.tcd.ie/tech-reports/reports.06/TCD-CS-2006-19.pdf
+https://publications.scss.tcd.ie/tech-reports/reports.01/TCD-CS-2001-31.pdf
+https://link.springer.com/chapter/10.1007/3-540-45361-X_12
+https://www.altocumulus.org/Fudgets/fpca93-abstract.html
+https://www.sop.inria.fr/indes/rp/RapportsRecherche/RR-2511.pdf
 https://www.diva-portal.org/smash/get/diva2%3A1004952/FULLTEXT01.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/fpca93.pdf
 https://academic.oup.com/comjnl/article-pdf/32/2/162/1445725/320162.pdf
@@ -2597,3 +2603,7 @@ https://lirias.kuleuven.be/retrieve/6d2bfbd4-f783-49d6-9e19-9f95d1324906
 https://xavierleroy.org/CdF/2023-2024/6.pdf
 https://www.sciencedirect.com/science/article/pii/S0167642324000091
 https://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs-2019.pdf
+https://mbsd.cs.ru.nl/publications/papers/2001/achp2001-HaskellObjectIO.pdf
+https://cburch.com/books/hsfun/
+https://en.wikibooks.org/wiki/Haskell/Simple_input_and_output
+https://www.sampou.org/haskell/tutorial-j/io.html
