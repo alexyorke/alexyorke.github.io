@@ -2560,3 +2560,9 @@ https://github.com/input-output-hk/haskell-course
 https://www.fceia.unr.edu.ar/~mauro/pubs/Thesis.pdf
 https://homepages.inf.ed.ac.uk/gdp/publications/Effect_Handlers.pdf
 https://iris-project.org/pdfs/2024-popl-gitrees.pdf
+
+https://github.com/effect-handlers/effect-handlers-bench
+https://github.com/withoutboats/burrito
+https://github.com/ghc/packages-base/blob/master/GHC/Base.lhs
+https://github.com/haskell-servant/servant/issues/1732
+https://github.com/koka-lang/koka/discussions/781
