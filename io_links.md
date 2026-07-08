@@ -2289,3 +2289,13 @@ https://www.youtube.com/watch?v=sFYFuBzu9Ow
 https://www.youtube.com/watch?v=y0AHjJZeV1M
 https://www.youtube.com/watch?v=z8SI7WBtlcA
 https://www.youtube.com/watch?v=2LSOqikNqxM
+https://www.youtube.com/watch?v=_MgahTBF5ig
+https://github.com/Lysxia/bluefin-algae
+https://github.com/haskell-effectful/effectful-contrib
+https://github.com/haskell-effectful/monad-time-effectful
+https://github.com/haskell-effectful/typed-process-effectful
+https://github.com/haskell-effectful/crypto-rng-effectful
+https://github.com/haskell-effectful/hpqtypes-effectful
+https://github.com/deepflowinc-oss/effectful-extras
+https://www.youtube.com/watch?v=wZy0pVkQ-Jg
+https://www.youtube.com/watch?v=BUoYKBLOOrE
