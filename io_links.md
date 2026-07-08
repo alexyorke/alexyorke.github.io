@@ -2608,6 +2608,7 @@ https://cburch.com/books/hsfun/
 https://www.cs.columbia.edu/~aho/cs6998/Lectures/14-10-13_Gururaja_Monads.pdf
 https://en.wikibooks.org/wiki/Haskell/Simple_input_and_output
 https://www.altocumulus.org/Fudgets/springschool95-intro.html
+https://www.altocumulus.org/Fudgets/
 https://www.sampou.org/haskell/tutorial-j/io.html
 https://users.cs.northwestern.edu/~robby/courses/395-495-2009-winter/fran.pdf
 https://conal.net/papers/push-pull-frp/push-pull-frp.pdf
