@@ -4025,3 +4025,11 @@ https://www.research.ed.ac.uk/files/76099718/shallow_effect_handlers.pdf
 https://bentnib.org/paramnotions-jfp.pdf
 https://www.research.ed.ac.uk/en/publications/dependent-types-and-multi-monadic-effects-in-f/
 https://bentnib.org/param-notions.html
+https://d3s.mff.cuni.cz/publications/orchard_embedding_2014/
+https://arxiv.org/abs/2001.10274
+https://www.research.ed.ac.uk/en/publications/embedding-effect-systems-in-haskell/
+https://ieeexplore.ieee.org/document/39155/
+https://dl.acm.org/doi/10.5555/77350.77353
+https://dl.acm.org/doi/10.5555/646794.704856
+https://www.research.ed.ac.uk/en/publications/notions-of-computation-and-monads/
+https://www.research.ed.ac.uk/en/publications/computational-lambda-calculus-and-monads/
