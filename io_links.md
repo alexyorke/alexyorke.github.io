@@ -3328,3 +3328,7 @@ https://www.researchgate.net/publication/309551183_On_the_Expressive_Power_of_Us
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.1
 https://dl.acm.org/doi/10.1145/2633357.2633360
 https://okmij.org/ftp/Haskell/zseq.pdf
+https://dl.acm.org/doi/10.1145/2804302.2804317
+https://okmij.org/ftp/kakuritu/dsl-paper.pdf
+https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/quantitative-information-flow-with-monads-in-haskell/5FF49759807A74E7C42B8C8E0195F654
+https://www.repository.cam.ac.uk/items/4c4699e6-cc21-4725-8ff7-b24956dc9511
