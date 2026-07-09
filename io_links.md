@@ -2955,3 +2955,4 @@ https://www.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/6.Monads.pd
 https://malv.in/2018/funcproglog/L3.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/monadic.pdf
 https://arxiv.org/abs/2109.02198
+https://openaccess.city.ac.uk/id/eprint/13222/1/Applicative-final.pdf
