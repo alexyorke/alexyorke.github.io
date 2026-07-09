@@ -53,6 +53,10 @@ https://dl.acm.org/doi/10.1145/3473568
 https://dl.acm.org/doi/10.1145/1088348.1088353
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
+https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms
+https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH
+https://link.springer.com/chapter/10.1007/3-540-45587-6_13
+https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
 https://wasp.cs.washington.edu/dynsep/transact11.pdf
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
