@@ -4694,3 +4694,7 @@ https://www.academia.edu/87056434/Eden_The_paradise_of_functional_concurrent_pro
 https://www.researchgate.net/publication/230607110_Concurrent_Clean_language_report_version_20
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2009/09/ghc-parallel-tuning2.pdf
+https://www.researchgate.net/publication/2328165_Distributed_Programming_in_Haskell_with_Ports
+https://link.springer.com/chapter/10.1007/3-540-45361-X_4
+https://www.researchgate.net/publication/245733263_Composable_Memory_Transactions_in_Concurrent_Haskell
+https://www.researchgate.net/publication/221600494_The_Design_and_Implementation_of_Glasgow_Distributed_Haskell
