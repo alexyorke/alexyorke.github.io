@@ -3096,3 +3096,4 @@ https://www.haskell.org/haskellwiki/arrays
 https://www.haskell.org/haskellwiki/Library/AltBinary
 https://www.haskell.org/haskellwiki/Library/ArrayRef
 https://www.haskell.org/haskellwiki/Cookbook/Other_data_structures
+https://web.cecs.pdx.edu/~mpj/pubs/RR-1004.pdf
