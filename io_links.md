@@ -28,6 +28,8 @@ https://dl.acm.org/doi/10.1145/1088348.1088354
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
 https://dl.acm.org/doi/10.1145/292540.292557
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
+https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell
+https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf
 https://dl.acm.org/doi/10.1145/581690.581696
 https://dl.acm.org/doi/10.5555/647980.743391
 https://dl.acm.org/doi/10.1145/581478.581482
