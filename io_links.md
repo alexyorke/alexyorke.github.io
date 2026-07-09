@@ -4403,3 +4403,11 @@ https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff.html
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Dispatch-Dynamic.html#g:4
 https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-IO.html
 https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-System-IO.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Reader.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-State.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Handle.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Eff.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-State.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Reader.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Writer.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Error.html
