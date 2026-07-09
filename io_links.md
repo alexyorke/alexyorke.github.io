@@ -3525,3 +3525,5 @@ http://user.cs.tu-berlin.de/~magr/pub/Transformers.en.html
 http://user.cs.tu-berlin.de/~magr/pub/Transformers.pdf
 http://blog.sigfpe.com/2006/05/grok-haskell-monad-transformers.html
 http://cale.yi.org/index.php/How_To_Use_Monad_Transformers
+https://www.tutorialspoint.com/haskell/haskell_input_and_output.htm
+http://db.utwente.nl/Publications/PaperStore/db-utwente-0000003696.pdf
