@@ -3453,3 +3453,4 @@ https://www.haskell.org/haskell-workshop/2005/index.html
 https://www.haskell.org/haskell-symposium/2016/
 https://www.haskell.org/haskell-symposium/2017/index.html
 https://www.haskell.org/haskell-symposium/1999/1999-28.pdf
+https://www.researchgate.net/publication/3677430_Linear_logic_monads_and_the_lambda_calculus
