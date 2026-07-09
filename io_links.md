@@ -2939,3 +2939,10 @@ https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/base-4.22.0.0-66f8/GHC-
 https://hackage-content.haskell.org/package/lifted-async-0.11.0/docs/doc-index.html
 https://hackage-content.haskell.org/package/extra-1.8.1/docs/src/Control.Exception.Extra.html
 https://hackage-content.haskell.org/package/exceptions-0.10.12/docs/src/Control.Monad.Catch.html
+https://arxiv.org/pdf/2602.19973
+https://www.cs.umd.edu/~mwh/papers/coco-demo.pdf
+https://skeuchel.org/files/papers/2013-icfp-modular-monadic-metatheory.pdf
+https://ics.uci.edu/~jajones/INF102-S18/readings/17_malenfant-ijcai95.pdf
+https://rand.cs.uchicago.edu/files/thesis.pdf
+https://mail.haskell.org/pipermail/haskell-cafe/2006-June/016389.html
+https://mail.haskell.org/pipermail/haskell-cafe/2003-August/004859.html
