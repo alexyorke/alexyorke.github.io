@@ -4090,3 +4090,6 @@ https://livebook.manning.com/concept/haskell/monadio
 https://livebook.manning.com/concept/haskell/rwst
 https://livebook.manning.com/concept/haskell/catch
 https://livebook.manning.com/concept/haskell/stuarray
+https://books.google.com/books/about/Programming_in_Haskell.html?id=1xHPDAAAQBAJ
+https://books.google.com/books/about/Advanced_Functional_Programming_in_Haskell.html?id=Huxp0QEACAAJ
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-RFC1807.txt
