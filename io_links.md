@@ -3183,3 +3183,6 @@ https://cs.ioc.ee/~tarmo/papers/katsumata-rivas-uustalu-lics20.pdf
 https://cs.ioc.ee/~tarmo/papers/katsumata-mcdermott-uustalu-wu-flexible-presentations.pdf
 https://cs.ioc.ee/~tarmo/papers/katsumata-mcdermott-uustalu-wu-icfp22-authorver.pdf
 https://cs.ioc.ee/~tarmo/papers/capobianco-uustalu-ppdp23.pdf
+https://arxiv.org/abs/2212.07015
+https://arxiv.org/abs/2302.01415
+https://arxiv.org/abs/2511.05739
