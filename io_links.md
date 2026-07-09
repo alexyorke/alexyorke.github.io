@@ -3881,3 +3881,13 @@ https://search.worldcat.org/title/Introduction-to-functional-programming-using-H
 https://www.cs.bu.edu/fac/snyder/cs320/Lectures/Lecture12--%20State%20Monad.pdf
 https://benl.ouroborus.net/papers/2010-impure/lippmeier-impure-world.pdf
 https://lmf.di.uminho.pt/quantum-logic-2021/LQ-Monads.pdf
+https://openlibrary.org/authors/OL35497A/John_Goerzen
+https://books.google.com/books?id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r
+https://search.worldcat.org/title/Practical-Haskell-%3A-a-real-world-guide-to-programming/oclc/1099434629
+https://hal-emse.ccsd.cnrs.fr/LINA-ASCOLA/hal-01025633v2
+https://www.math.nagoya-u.ac.jp/~garrigue/papers/linocaml-201902.pdf
+https://dl.acm.org/doi/10.1145/3649848
+https://arxiv.org/abs/2310.18166
+https://www.csse.canterbury.ac.nz/research/reports/HonsReps/2017/hons_1701.pdf
+https://ecommons.cornell.edu/entities/publication/b24b0551-2689-437a-8662-4665d2d3d847
+https://dl.acm.org/doi/pdf/10.1145/1016848.1016867
