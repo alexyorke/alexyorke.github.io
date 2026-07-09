@@ -4684,3 +4684,7 @@ https://reasonablypolymorphic.com/blog/design-and-interpretation/
 https://reasonablypolymorphic.com/blog/specialization/
 https://reasonablypolymorphic.com/blog/writing-custom-optimizations/
 https://academy.fpblock.com/blog/philosophies-rust-haskell/
+https://web.cecs.pdx.edu/~mpj/pubs/reactive-objects.pdf
+https://homepages.inf.ed.ac.uk/wadler/linksetaps/slides/nordlander.pdf
+https://arxiv.org/abs/cs/0509027
+https://homepages.inf.ed.ac.uk/wadler/realworld/
