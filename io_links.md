@@ -3473,3 +3473,5 @@ https://www.researchgate.net/publication/221024513_Guaranteeing_Safe_Destructive
 https://link.springer.com/content/pdf/10.1007/3-540-17945-3_3.pdf
 https://kar.kent.ac.uk/id/document/2025
 https://dl.acm.org/doi/10.1145/1086365.1086380
+https://www.sciencedirect.com/science/article/pii/0167642386900286/pdf?_valck=1&md5=a164905ee07e651493d655ec76ceb8c4&pid=1-s2.0-0167642386900286-main.pdf
+https://kar.kent.ac.uk/94289
