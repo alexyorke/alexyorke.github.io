@@ -50,6 +50,7 @@ https://dl.acm.org/doi/10.1145/3122955.3122968
 https://dl.acm.org/doi/10.1145/2628136.2628144
 https://dl.acm.org/doi/10.1145/1052934.1052935
 https://dl.acm.org/doi/10.1145/3473568
+https://dl.acm.org/doi/10.1145/1017472.1017473
 https://dl.acm.org/doi/10.1145/1088348.1088353
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
@@ -61,6 +62,7 @@ https://dl.acm.org/doi/10.1145/871895.871898
 https://link.springer.com/chapter/10.1007/11737414_19
 https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf
 https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier
+https://dl.acm.org/doi/10.1145/2976002.2976015
 https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_HaskellScript
 https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server
 https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz
@@ -823,6 +825,7 @@ https://www.haskell.org/haskellwiki/Monad_tutorials_timeline
 https://homepages.inf.ed.ac.uk/wadler/topics/monads.html
 https://goodmath.org/blog/2012/08/19/monads-and-programming/
 https://blog.higher-order.com/posts/2/
+https://dl.acm.org/doi/10.1145/1297105.1297078
 https://dbp.io/essays/2011-09-03-mercury-tidbits.html
 https://www.haskell.org/pipermail/haskell-cafe/2007-August.txt
 https://www.haskell.org/haskellwiki/Avoiding_IO
