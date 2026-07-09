@@ -4556,3 +4556,10 @@ https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007579.html
 https://mail.haskell.org/pipermail/haskell-cafe/2011-December/097982.html
 https://mail.haskell.org/pipermail/haskell-cafe/2005-September/011202.html
 https://www.haskell.org/haskellwiki/Top_level_mutable_state
+https://mail.haskell.org/pipermail/haskell-cafe/2014-October/116360.html
+https://mail.haskell.org/pipermail/haskell-cafe/2014-October/116356.html
+https://mail.haskell.org/pipermail/beginners/2014-April/013561.html
+https://mail.haskell.org/pipermail/haskell-cafe/2013-October/110902.html
+https://mail.haskell.org/pipermail/haskell-cafe/2011-December/097311.html
+https://mail.haskell.org/pipermail/haskell-cafe/2014-April/113854.html
+https://mail.haskell.org/pipermail/beginners/2014-September/014121.html
