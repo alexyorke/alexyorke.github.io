@@ -4104,6 +4104,7 @@ https://learnyouahaskell.github.io/command-line-arguments.html
 https://learnyouahaskell.github.io/randomness.html
 https://learnyouahaskell.github.io/bytestrings.html
 https://learnyouahaskell.github.io/exceptions.html
+https://www.haskell.org/haskellwiki/Concurrency_demos/Two_reader_threads
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
