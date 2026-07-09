@@ -4349,3 +4349,7 @@ https://github.com/tomjaguarpaw/bluefin/issues/100
 https://github.com/tomjaguarpaw/bluefin/issues/98
 https://github.com/tomjaguarpaw/bluefin/issues/97
 https://github.com/tomjaguarpaw/bluefin/issues/96
+https://github.com/tomjaguarpaw/bluefin/blob/master/README.md
+https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin/src/Bluefin.hs
+https://github.com/tomjaguarpaw/bluefin-style-effectful/blob/main/README.md
+https://github.com/haskell-effectful/effectful/blob/master/benchmarks/README.md
