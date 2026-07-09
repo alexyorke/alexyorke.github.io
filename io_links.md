@@ -4377,3 +4377,8 @@ https://github.com/joshburgess/valiant
 https://github.com/haskell-effectful/effectful-core
 https://github.com/haskell-effectful/effectful-th
 https://github.com/haskell-effectful/genBench.sh
+https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispatch-Dynamic.html
+https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispatch-Static.html
+https://hackage.haskell.org/package/effectful-th
+https://hackage.haskell.org/package/effectful-core
+https://hackage.haskell.org/package/bluefin-0.0.6.0/docs/Bluefin-Compound.html
