@@ -2643,3 +2643,4 @@ https://github.com/dorchard/effect-monad
 https://gist.github.com/1a241955b041283a9009
 https://github.com/texitoi/rust-mdo
 https://github.com/ghc-proposals/ghc-proposals/issues/527
+https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e
