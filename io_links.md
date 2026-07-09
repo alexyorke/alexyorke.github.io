@@ -39,6 +39,9 @@ https://dl.acm.org/doi/pdf/10.1145/1159803.1159823?download=true
 https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concurrent_Haskell_Programs
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/PrettierConcurrency-Haskell2011.pdf
 https://dl.acm.org/doi/10.1145/2096148.2034685
+https://dl.acm.org/doi/10.1145/1366230.1366241
+https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
+https://wasp.cs.washington.edu/dynsep/transact11.pdf
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
 https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
