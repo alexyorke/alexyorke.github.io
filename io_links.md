@@ -4385,3 +4385,8 @@ https://hackage.haskell.org/package/bluefin-0.0.6.0/docs/Bluefin-Compound.html
 https://hackage.haskell.org/package/bluefin-0.0.4.3/docs/Bluefin-Compound.html
 https://hackage.haskell.org/package/bluefin-0.6.0.0
 https://hackage.haskell.org/package/cleff-plugin
+https://hackage.haskell.org/package/effectful-core-2.2.2.2/docs/Effectful-Dispatch-Dynamic.html#g:3
+https://hackage.haskell.org/package/effectful-core-2.2.2.2/docs/Effectful-Dispatch-Static.html
+https://hackage.haskell.org/package/bluefin-0.0.4.2/docs/Bluefin-Compound.html
+https://hackage.haskell.org/package/bluefin-0.0.4.1/docs/Bluefin-Compound.html
+https://hackage.haskell.org/package/bluefin-0.4.1.0/docs/Bluefin-Compound.html
