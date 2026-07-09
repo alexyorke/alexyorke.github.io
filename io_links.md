@@ -4495,3 +4495,5 @@ https://mail.haskell.org/pipermail/beginners/2014-July/013969.html
 https://mail.haskell.org/pipermail/haskell/2005-January/015174.html
 https://mail.haskell.org/pipermail/haskell/2005-January/015182.html
 https://mail.haskell.org/pipermail/haskell-cafe/2009-March/056908.html
+https://www.haskell.org/haskellwiki/Learning_Haskell
+https://www.haskell.org/haskellwiki/Books_and_tutorials
