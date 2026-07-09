@@ -2940,3 +2940,4 @@ https://ics.uci.edu/~jajones/INF102-S18/readings/17_malenfant-ijcai95.pdf
 https://rand.cs.uchicago.edu/files/thesis.pdf
 https://mail.haskell.org/pipermail/haskell-cafe/2006-June/016389.html
 https://mail.haskell.org/pipermail/haskell-cafe/2003-August/004859.html
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/monadic.pdf
