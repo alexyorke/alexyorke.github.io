@@ -3311,3 +3311,12 @@ https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7
 https://dl.acm.org/doi/10.1145/773473.178246
 https://person.dibris.unige.it/moggi-eugenio/ftp/jfp01.pdf
 https://www.researchgate.net/publication/220367662_Monadic_Encapsulation_of_Effects_a_Revised_Approach
+https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch07s05.html
+https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/ch02.html
+https://www.oreilly.com/library/view/learn-you-a/9781457100406/
+https://www.researchgate.net/publication/2265787_Concurrent_Monadic_Interfacing
+https://www.researchgate.net/profile/Eleni-Spiliopoulou-2/publication/2265787_Concurrent_Monadic_Interfacing/links/53eb4ddf0cf2fb1b9b6b0cae/Concurrent-Monadic-Interfacing.pdf?origin=scientificContributions
+https://www.researchgate.net/publication/222395061_Erratic_Fudgets_A_Semantic_Theory_for_an_Embedded_Coordination_Language
+https://www.sciencedirect.com/science/article/pii/S0167642302000886/pdf?md5=11d83664377c18806b9d5808d0535d10&pid=1-s2.0-S0167642302000886-main.pdf
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-regions/DD56B542BFFEB2F3F8206EBB95FE777B
+https://stefanesco.com/documents/st-monad-appendix.pdf
