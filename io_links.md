@@ -3482,3 +3482,7 @@ https://www.cs.vu.nl/~wanf/theses/blankers-bscthesis.pdf
 https://www.mbsd.cs.ru.nl/publications/papers/2002/vWeA2002-FamkeFunctionalOS.pdf
 https://dl.acm.org/doi/10.5555/1756972.1756986
 https://link.springer.com/chapter/10.1007/3-540-44854-3_14
+https://simon.peytonjones.org/assets/pdfs/composable-scheduler-earlier.pdf
+https://kcsrk.info/papers/schedact_jfp16.pdf
+https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2774&context=cstech
+https://dl.acm.org/doi/10.1145/224164.224213
