@@ -3495,3 +3495,5 @@ https://books.google.com/books/about/Central_European_Functional_Programming.htm
 https://books.google.com/books/about/Magical_Haskell.html?id=A4kJ0QEACAAJ
 https://books.google.com/books/about/Functional_Programming_with_Go.html?id=Y_ANEQAAQBAJ
 https://books.google.com/books/about/Advanced_Functional_Programming_in_Haske.html?id=Huxp0QEACAAJ
+https://www.researchgate.net/publication/31109739_Functional_Programming_and_Operating_Systems
+https://academic.oup.com/comjnl/article-abstract/32/2/162/543564
