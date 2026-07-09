@@ -3466,3 +3466,5 @@ https://worrydream.com/quotes/
 https://www.researchgate.net/publication/220939997_Experiences_with_Clean_IO
 https://www.scss.tcd.ie/publications/tech-reports/reports.01/TCD-CS-2001-31.pdf
 https://www.researchgate.net/publication/254855443_A_tutorial_to_the_Clean_object_IO_library_version_12
+https://www.researchgate.net/publication/220940004_High_Level_Specification_of_IO_in_Functional_Languages
+https://repository.ubn.ru.nl/bitstream/2066/111081/111081.pdf
