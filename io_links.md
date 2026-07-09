@@ -2770,3 +2770,7 @@ https://www.microsoft.com/en-us/research/publication/qualified-effect-types/
 https://www.microsoft.com/en-us/research/publication/first-class-named-effect-handlers/
 https://www.microsoft.com/en-us/research/publication/generalized-evidence-passing-for-effect-handlers/
 https://www.microsoft.com/en-us/research/publication/algebraic-effect-handlers-resources-deep-finalization/
+https://www.cis.upenn.edu/~cis1940/spring15/lectures/05-IO.html
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_15.xhtml
+https://www.some.ox.ac.uk/wp-content/uploads/2026/06/Haskell-Tutorial-2026.pdf
+https://www.haskell.org/haskellwiki/Learn_Haskell_in_10_minutes
