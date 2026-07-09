@@ -560,6 +560,7 @@ https://ncatlab.org/schreiber/files/QuantumMonadology-240120.pdf
 https://link.springer.com/chapter/10.1007/10704973_7
 https://ku-fpg.github.io/papers/Gill-15-RemoteMonad/
 https://www.cs.tufts.edu/comp/150DAO/notes.html
+https://www.numdam.org/item/10.1051/ita%3A2004018.pdf
 https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/
 https://www2.cs.sfu.ca/CourseCentral/383/burton/Notes/Reading/MonadsAsContainers.pdf
 https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/io-monad.pdf
