@@ -4603,3 +4603,4 @@ https://raw.githubusercontent.com/marvinborner/optimal-effects/refs/heads/bachel
 https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/84c68445f9e56160874e6e2f0c3dccc6322fa782/haskell/tackling-the-awkward-squad-monadic-input-output-concurrency-exceptions-and-foreign-language-calls-in-haskell.pdf
 https://files.osf.io/v1/resources/kdb7h/providers/osfstorage/5fa688b291419d005566ad67?action=download&direct=&version=1
 https://cs.brown.edu/people/sk/Publications/Papers/Published/plpk-reactor-design/paper.pdf
+https://books.google.co.in/books?id=O_M8AAAAIAAJ&printsec=copyright
