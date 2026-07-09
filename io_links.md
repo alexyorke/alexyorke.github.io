@@ -2999,3 +2999,4 @@ http://slides.com/fp-ctd/lecture-6#/
 https://github.com/haskell-streaming/streaming
 https://arxiv.org/html/2602.19973v2
 https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/2005/eves2005-FFormsIFL04.pdf
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.2186&rep=rep1&type=pdf
