@@ -2965,3 +2965,4 @@ https://github.com/haskell/mtl/blob/master/Control/Monad/Reader.hs
 https://github.com/tweag/linear-types/blob/master/Proposals/linear-haskell-proposal-faq.org
 https://github.com/bobatkey/CS316-19/blob/master/lectures/Lec13.hs
 https://github.com/louthy/language-ext/wiki/IO
+https://github.com/louthy/language-ext/wiki/Thinking-Functionally%3A-Application-Architecture
