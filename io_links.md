@@ -3124,3 +3124,8 @@ https://ncatlab.org/nlab/show/graded%2Bmonad
 https://ncatlab.org/nlab/show/commutative%2Bmonad
 https://ncatlab.org/nlab/show/tensorial%2Bstrength
 https://ncatlab.org/nlab/show/affine%2Bmonad
+https://ncatlab.org/nlab/show/function%2Bmonad
+https://ncatlab.org/nlab/show/enriched%2Bmonad
+https://ncatlab.org/nlab/show/monoidal%2Bmonad
+https://ncatlab.org/nlab/show/idempotent%2Bmonad
+https://ncatlab.org/nlab/show/additive%2Bmonad
