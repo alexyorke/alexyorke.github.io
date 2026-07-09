@@ -3377,3 +3377,6 @@ https://two-wrongs.com/the-what-are-monads-fallacy
 https://hacsoc.org/talks/20140219%20Functional%20Reactive%20Programming/presentation.pdf
 https://blog.banachewicz.pl/haskell/2014/05/30/short-tutorial-about-monads.html
 https://www.researchgate.net/publication/262974393_Polymonadic_Programming
+https://labs.oracle.com/pls/apex/f?p=94065%3A10%3A102749908185725%3A5738
+https://dl.acm.org/doi/10.1145/1706299.1706354
+https://dl.acm.org/doi/10.1145/2034773.2034778
