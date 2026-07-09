@@ -4073,6 +4073,9 @@ https://inria.hal.science/hal-01112161/file/main-submitted.pdf
 https://doi.org/10.1007/3-540-55844-6_154
 https://doi.org/10.1007/978-3-642-04027-6_21
 https://doi.org/10.1007/3-540-45361-X_12
+https://jaspervdj.be/files/2011-barcampghent-laziness.pdf
+https://foolwood07.cs.uchicago.edu/program/warth.pdf
+https://www.cs.tufts.edu/~nr/pubs/htdp-tablet.pdf
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
