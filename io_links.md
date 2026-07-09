@@ -3,6 +3,9 @@
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf
 https://dl.acm.org/doi/pdf/10.1145/143165.143169
 https://dl.acm.org/doi/10.1145/143165.143169
+https://dl.acm.org/doi/abs/10.1145/130697.130699
+https://dl.acm.org/doi/abs/10.1145/1238844.1238856
+https://dl.acm.org/doi/10.1145/72551.72554
 https://dl.acm.org/doi/10.5555/647698.734146
 https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/
@@ -704,6 +707,15 @@ https://homepages.inf.ed.ac.uk/stark/catmln.pdf
 https://www.cs.ox.ac.uk/monographs/cs/1983.html
 https://www.eighty-twenty.org/page3/
 https://github.com/yallop/effects-bibliography/blob/master/README.md
+https://www2.ccs.neu.edu/racket/pubs/dissertation-garnock-jones.pdf
+https://eprints.hud.ac.uk/id/eprint/6135/2/yxufinalthesis.pdf
+https://groups.google.com/g/comp.lang.functional/c/KxBuxPpYQvs
+https://groups.google.com/g/comp.lang.functional/c/IYNP_dGrOPg
+https://www.cse.chalmers.se/alumni/bringert/darcs/hwn/archives/20061003.html
+https://groups.google.com/g/fa.haskell/c/3XoFFzMxEjs
+https://www.researchgate.net/publication/220178104_Report_on_the_programming_language_Haskell_a_non-strict_purely_functional_language_version_12
+https://www.researchgate.net/publication/221501761_A_history_of_Haskell_Being_lazy_with_class
+https://groups.google.com/g/comp.lang.functional/c/Sku_QA6ALBU
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -714,6 +726,8 @@ https://link.springer.com/chapter/10.1007/10704973_7
 https://ku-fpg.github.io/papers/Gill-15-RemoteMonad/
 https://www.cs.tufts.edu/comp/150DAO/notes.html
 https://www.cs.tufts.edu/comp/150PLD/hw04-1.html
+https://cs.pomona.edu/classes/cs131/Homework/hmwk3.pdf
+https://www.engr.mun.ca/~theo/Misc/informal.html
 https://www.numdam.org/item/10.1051/ita%3A2004018.pdf
 https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/
 https://www2.cs.sfu.ca/CourseCentral/383/burton/Notes/Reading/MonadsAsContainers.pdf
@@ -873,6 +887,7 @@ https://blog.sigfpe.com/2007/11/io-monad-for-people-who-simply-dont.html
 https://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html
 https://neilmitchell.blogspot.com/2010/01/haskell-io-without-monads.html
 https://www.researchgate.net/publication/221241239_Witnessing_side-effects
+https://blog.raek.se/2012/10/19/haskell-io-in-five-minutes/
 https://blog.jle.im/entry/io-monad-considered-harmful.html
 https://mmhaskell.com/blog/2021/10/18/using-io-without-the-io-monad
 https://pqnelson.github.io/2021/07/29/monadic-io-in-ml.html
