@@ -2917,3 +2917,16 @@ https://link.springer.com/content/pdf/10.1007/11784180_14.pdf?pdf=preview
 https://arxiv.org/pdf/1608.06499
 https://yesodweb.com/blog/2011/12/resourcet
 https://www.stackage.org/lts-18.8/package/lifted-base-0.2.3.12
+https://www.cs.cmu.edu/~fp/courses/15312-f02/handouts/15-monads.pdf
+https://github.com/louthy/language-ext/wiki/Frequently-Asked-Questions
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/effects-semantics-2010.pdf
+https://arxiv.org/pdf/1610.09161
+https://arxiv.org/pdf/2307.08514
+https://arxiv.org/pdf/1304.3390
+https://arxiv.org/pdf/2109.02198
+https://arxiv.org/abs/1710.10385
+https://hackage.haskell.org/package/monad-control-1.0.3.1
+https://hackage.haskell.org/package/resourcet-1.3.0
+https://hackage.haskell.org/package/exceptions-0.10.11
+https://hackage.haskell.org/package/safe-exceptions-0.1.7.4
+https://hackage.haskell.org/package/unliftio-0.2.25.1
