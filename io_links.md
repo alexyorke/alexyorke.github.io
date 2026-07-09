@@ -16,6 +16,7 @@ https://www.microsoft.com/en-us/research/publication/lightweight-monadic-program
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf
 https://dl.acm.org/doi/10.5555/895692
 https://dl.acm.org/doi/10.1145/507635.507655
+https://dl.acm.org/doi/abs/10.1145/351268.351276
 https://dhil.net/research/papers/awkward_effects-ml17.pdf
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29
 https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11
@@ -29,8 +30,10 @@ https://leventerkok.github.io/papers/recdo.pdf
 https://launchbury.blog/wp-content/uploads/2019/01/semantics-of-fixio.pdf
 https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf
+https://www.research.ed.ac.uk/en/publications/a-history-of-haskell-being-lazy-with-class/
 https://dl.acm.org/doi/10.1145/1160074.1159823
 https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/
+https://wasp.cs.washington.edu/tecaml/teml.pdf
 https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf
 https://pdxscholar.library.pdx.edu/open_access_etds/1/
 https://arxiv.org/abs/1210.0611
