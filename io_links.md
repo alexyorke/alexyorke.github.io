@@ -4225,3 +4225,5 @@ https://scholar.archive.org/work/uqqw2rhiu5amtpklygif4aldhi/access/wayback/http%
 https://scholar.archive.org/work/jywpr2p64zdbfp4fsgoehs3y3q/access/wayback/http%3A//web.cecs.pdx.edu/~mpj/pubs/plos07.pdf
 https://scholar.archive.org/work/vgtnmf2jbngwdpvzukot77aopm/access/wayback/http%3A//www.informatik.uni-marburg.de/~kos/papers/aspects_and_monads.pdf
 https://scholar.archive.org/work/kcajomdebndlfpn7auvwfp67ea/access/wayback/http%3A//www.lifl.fr/dyla14/papers/dyla14-6-list-based-monadic-computations.pdf
+https://r6.ca/blog/20051203T090200Z.html
+https://well-typed.com/blog/2021/04/ghc-2021-02-2021-03/
