@@ -4563,3 +4563,4 @@ https://mail.haskell.org/pipermail/haskell-cafe/2013-October/110902.html
 https://mail.haskell.org/pipermail/haskell-cafe/2011-December/097311.html
 https://mail.haskell.org/pipermail/haskell-cafe/2014-April/113854.html
 https://mail.haskell.org/pipermail/beginners/2014-September/014121.html
+https://mail.haskell.org/pipermail/haskell-cafe/2014-August/115468.html
