@@ -2968,3 +2968,4 @@ https://github.com/louthy/language-ext/wiki/IO
 https://github.com/louthy/language-ext/wiki/Thinking-Functionally%3A-Application-Architecture
 https://gist.github.com/ion1/7154691
 https://github.com/unclechu/purescript-for-haskellers
+https://github.com/alexandru/alexn.org/blob/main/_posts/2017-01-30-asynchronous-programming-scala.md
