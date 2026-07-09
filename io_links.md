@@ -2878,3 +2878,8 @@ https://hackage.haskell.org/package/safe-exceptions/docs/Control-Exception-Safe.
 https://hackage.haskell.org/package/lifted-base/docs/Control-Concurrent-Lifted.html
 https://hackage.haskell.org/package/resource-pool/docs/Data-Pool.html
 https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-7-monads/
+https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types
+https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios
+https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model
+https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/using-async-for-file-access
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async
