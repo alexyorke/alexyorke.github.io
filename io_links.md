@@ -3437,3 +3437,5 @@ https://www.sciencedirect.com/science/article/pii/S0167642399000234/pdf?md5=af72
 https://www.haskell.org/report/
 https://www.haskell.org/report/haskell-1.4.html
 https://www.haskell.org/report/haskell-1.4.ps.gz
+https://assets.cambridge.org/97805216/43382/frontmatter/9780521643382_frontmatter.pdf
+https://assets.cambridge.org/97805210/70072/index/9780521070072_index.pdf
