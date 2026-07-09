@@ -869,6 +869,11 @@ https://clean.cs.ru.nl/Workflow_examples
 https://link.springer.com/chapter/10.1007/3-540-63237-9_28
 https://www.cs.ru.nl/P.Achten/papers/MyPapers.html
 https://dl.acm.org/doi/10.5555/647978.743370
+https://mbsd.cs.ru.nl/Publications?from=Main.PublicationsPerYear
+https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1996.html
+https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1997.html
+https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1999.html
+https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl2000.html
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
