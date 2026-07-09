@@ -7,29 +7,22 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-So far, this series has composed functions that mostly behave like calculations. This article is about what changes when those functions perform observable work beyond returning a value.
+So far, this series has composed functions that mostly behave like calculations: they take values, produce a value, and that returned value is the whole observable behavior.
 
-A side effect is any observable thing a function does besides return its result. Mutating shared state is a side effect even if no file, socket, database, or API is involved. I/O is one common kind of side effect: it communicates with something outside the function, such as a file, socket, database, API, console, system clock, or randomness source. Side effects are the broader category; this article mostly focuses on the I/O and outside-world subset.
+At first, I/O looks like just another function call. Why not call a function that reads a file, asks the user for input, or calls an API?
 
-So the final returned value is no longer the whole meaning of the program. The interaction history matters.
+The problem is that those calls do more than return a value. They interact with the outside world, and that interaction has to happen at the right time, in the right order, and the right number of times.
 
-With effects, the semantic shape becomes more like:
-
-program : World/Input/State -> Value plus World/Output/State
-
-For example:
-
-read     : InputState -> (Number, NewInputState)
-write(n) : OutputState -> (Unit, NewOutputState)
+These outside-world interactions are effects. A side effect is observable behavior beyond returning a value; I/O is the outside-world subset this article focuses on.
 
 * Pure computation = producing a value.
 * Effectful computation = producing a value + an observable effect.
 
-Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with anything else. I/O is non-deterministic from the program's point of view because the value may come from outside the program. If a function asks the user for input, its result is not knowable until the user types something, and the user can type anything. The same idea applies to API responses, file contents, the current time, or any other outside-world value observed when the computation runs.
+Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with anything else. Functional programming leans on equational reasoning: the ability to substitute and rearrange expressions while preserving meaning.
 
-A useful metaphor is that an effectful function runs against the current world and leaves a changed or newly observed world behind: world in, value plus world-prime out. C# does not pass a world value around, but the metaphor explains why execution cannot be treated as just another calculation. If effectful computations run wherever they happen to appear, a program may read from or write to the world at the wrong time.
+I/O is non-deterministic from the program's point of view because the value may come from outside the program. If a function asks the user for input, the value it returns is not knowable until the user types something, and the user can type anything. So the final returned value is no longer the whole meaning of the program. The interaction history matters.
 
-Functional programming leans on this kind of reasoning: expressions should be easy to transform, refactor, and substitute while preserving the program's meaning. Raw I/O disrupts that style because moving a call can change when it reads from or writes to the world, how often it runs, or what value it observes.
+Raw I/O breaks that style because moving a call can change when the world is read or written, how often it happens, and what value is observed.
 
 `IO<T>` is one way to preserve some of that algebraic style around effectful code. It changes what gets composed: instead of handing `Map` or `FlatMap` a function that performs the effect immediately, it represents the effectful work as a cold value first. You can think of that value as a recipe or set of instructions for work that may happen later.
 
