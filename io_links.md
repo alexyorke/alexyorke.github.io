@@ -3521,3 +3521,7 @@ https://en.wikibooks.org/wiki/Haskell/Practical_monads
 https://en.wikibooks.org/wiki/Haskell/Advanced_monads
 https://en.wikibooks.org/wiki/Haskell/Monadic_parser_combinators
 https://en.wikibooks.org/wiki/Haskell/Alternative_and_MonadPlus
+http://user.cs.tu-berlin.de/~magr/pub/Transformers.en.html
+http://user.cs.tu-berlin.de/~magr/pub/Transformers.pdf
+http://blog.sigfpe.com/2006/05/grok-haskell-monad-transformers.html
+http://cale.yi.org/index.php/How_To_Use_Monad_Transformers
