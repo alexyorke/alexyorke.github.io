@@ -891,6 +891,8 @@ https://books.google.com/books/about/Practical_Programming_in_Haskell.html?id=YK
 https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c143/
 https://subscription.packtpub.com/book/programming/9781786464217/8/ch08lvl1sec56/summary
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch13.html
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_s16/
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_s1/
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
