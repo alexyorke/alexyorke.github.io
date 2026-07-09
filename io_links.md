@@ -4419,3 +4419,12 @@ https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Error.html
 https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-IO.html
 https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Coroutine.html
 https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-NonDet.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Reader-Static.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-State-Static.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Error-Static.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Writer-Static.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Reader-Dynamic.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-State-Dynamic.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Error-Dynamic.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Writer-Dynamic.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Compound.html
