@@ -4652,3 +4652,8 @@ https://stackoverflow.com/questions/70226458/how-to-skip-unnecessary-ios-in-pure
 https://stackoverflow.com/questions/68522273/haskell-how-to-do-io-inside-pure-haskell-function-how-to-print-intermediate-re
 https://stackoverflow.com/questions/32213779/is-it-possible-to-use-io-inside-state-monad-without-using-statet-and-st
 https://stackoverflow.com/questions/52489707/how-to-turn-io-actions-into-a-pure-function
+https://academy.fpblock.com/blog/2018/10/resourcet-necessary-evil/
+https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1/
+https://blog.ploeh.dk/2020/03/30/repeatable-execution-in-haskell/
+https://evanrelf.com/haskell-libraries-i-love/
+https://vadosware.io/post/rest-ish-services-in-haskell-part-4/
