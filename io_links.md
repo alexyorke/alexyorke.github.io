@@ -3509,3 +3509,6 @@ https://www.iospress.com/node15242/books/engineering-theories-of-software-constr
 https://resources.oreilly.com/examples/9780596514983
 https://anil.recoil.org/notes/2017-ml-effects-1
 https://icfp17.sigplan.org/details/mlfamilyworkshop-2017-papers/2/Effectively-tackling-the-awkward-squad
+https://se.informatik.uni-tuebingen.de/publications/brachthaeuser21representing/
+https://www.researchgate.net/publication/343413725_Effect_handlers_evidently
+https://xnning.github.io/slides/effect-handlers-evidently.pdf
