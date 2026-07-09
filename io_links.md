@@ -4338,3 +4338,6 @@ https://github.com/dcastro/sqlite-simple-effectful
 https://haskell-effectful.github.io/ecosystem/messaging-systems/
 https://haskell-effectful.github.io/ecosystem/observability/
 https://haskell-effectful.github.io/ecosystem/metrics-logs-traces-profiles/
+https://github.com/haskell-effectful/effectful/blob/master/effectful-plugin/README.md
+https://github.com/haskell-effectful/effectful/issues/300
+https://github.com/haskell-effectful/effectful/issues/347
