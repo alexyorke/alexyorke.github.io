@@ -2782,4 +2782,3 @@ https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.HandleR
 https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.StateSource.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.State.Dynamic.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Error.Static.html
-https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Reader.Static.Local.html
