@@ -2669,3 +2669,8 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/1994/01/fp94.pdf
 https://cmsc-16100.cs.uchicago.edu/2017/lectures.php
 https://golem.ph.utexas.edu/category/2007/09/the_catsters_on_youtube.html
 https://www.cs.lmu.edu/~ray/notes/introhaskell/
+https://github.com/freckle/scientist-hs
+https://github.com/freckle/scientist-hs/blob/main/README.lhs
+https://github.com/parsonsmatt/exceptiot
+https://github.com/parsonsmatt/persistent-typed-db
+https://github.com/polysemy-research/polysemy/issues/73
