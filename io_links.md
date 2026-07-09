@@ -3119,3 +3119,8 @@ https://ncatlab.org/nlab/show/list%2Bmonad
 https://ncatlab.org/nlab/files/Uustalu-Monads1.pdf
 https://ncatlab.org/nlab/files/Uustalu-Monads2.pdf
 https://ncatlab.org/nlab/show/reader-writer%2B%28co%29monads%2B--%2Btable
+https://ncatlab.org/nlab/show/strong%2Bmonad
+https://ncatlab.org/nlab/show/graded%2Bmonad
+https://ncatlab.org/nlab/show/commutative%2Bmonad
+https://ncatlab.org/nlab/show/tensorial%2Bstrength
+https://ncatlab.org/nlab/show/affine%2Bmonad
