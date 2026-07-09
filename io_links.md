@@ -3893,3 +3893,5 @@ https://ecommons.cornell.edu/entities/publication/b24b0551-2689-437a-8662-4665d2
 https://dl.acm.org/doi/pdf/10.1145/1016848.1016867
 https://ecommons.cornell.edu/bitstream/handle/1813/5647/TR2004-1936.pdf?sequence=1
 https://ecommons.cornell.edu/items/b24b0551-2689-437a-8662-4665d2d3d847/full
+https://lirias.kuleuven.be/retrieve/89e51be3-ccd6-4529-bd3d-38527ba6da8e
+https://www.microsoft.com/en-us/research/publication/algebraic-effects-for-functional-programming/
