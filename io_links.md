@@ -4511,3 +4511,6 @@ https://arxiv.org/abs/1902.00735
 https://citeseer.ist.psu.edu/hudak89expressiveness.html
 https://odr.chalmers.se/bitstreams/3d20b1cc-091c-46fa-a706-bb826c4415c6/download
 https://arxiv.org/pdf/1902.00735.pdf
+https://blog.cwb.dk/yes-io-is-possible-in-a-functional-world
+https://discourse.haskell.org/t/how-realworld-passes-to-the-main/9680
+https://wiki.c2.com/?PurelyFunctionalOperatingSystem=
