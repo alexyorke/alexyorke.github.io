@@ -3479,3 +3479,6 @@ https://ftp.science.ru.nl/CSI/SoftwEng.FunctLang/papers/2002/vWeA2002StronglyTyp
 https://www.researchgate.net/publication/296486815_Reliable_Communication_in_Embedded_Systems
 https://www.jucs.org/jucs_11_7/jucs_11_7_1234_1254_dubois.html
 https://www.cs.vu.nl/~wanf/theses/blankers-bscthesis.pdf
+https://www.mbsd.cs.ru.nl/publications/papers/2002/vWeA2002-FamkeFunctionalOS.pdf
+https://dl.acm.org/doi/10.5555/1756972.1756986
+https://link.springer.com/chapter/10.1007/3-540-44854-3_14
