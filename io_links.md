@@ -4483,3 +4483,7 @@ https://mail.haskell.org/pipermail/haskell/2001-February/006728.html
 https://mail.haskell.org/pipermail/haskell/2006-July/018198.html
 https://mail.haskell.org/pipermail/haskell/2009-March/021064.html
 https://groups.google.com/g/fa.haskell/c/1sdXl-pMvUc
+https://mail.haskell.org/pipermail/beginners/2015-February/014762.html
+https://mail.haskell.org/pipermail/haskell/2003-May/011854.html
+https://mail.haskell.org/pipermail/haskell-cafe/2009-March/058361.html
+https://mail.haskell.org/pipermail/haskell-cafe/2013-March/107073.html
