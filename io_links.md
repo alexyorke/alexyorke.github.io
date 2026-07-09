@@ -4213,3 +4213,15 @@ https://haskellforall.com/2021/08/naming-function-arguments-in-dhall
 https://haskellforall.com/2013/10/an-all-atom-protein-search-engine
 https://haskellforall.com/2013/05/program-imperatively-using-haskell
 https://haskellforall.com/2012/09/the-functor-design-pattern
+https://www.haskell.org/haskellwiki/Continuation_passing_style
+https://r6.ca/blog/20071028T162529Z.html
+https://well-typed.com/blog/2012/03/parallel-haskell-digest-8/
+https://well-typed.com/blog/2020/04/dwarf-3/
+https://r6.ca/blog/20170616T114546Z.html
+https://r6.ca/blog/20061113T182800Z.html
+https://r6.ca/blog/20140210T181244Z.html
+https://archive.org/details/arxiv-1210.0611
+https://scholar.archive.org/work/uqqw2rhiu5amtpklygif4aldhi/access/wayback/http%3A//research.microsoft.com/pubs/66810/wxhaskell.pdf
+https://scholar.archive.org/work/jywpr2p64zdbfp4fsgoehs3y3q/access/wayback/http%3A//web.cecs.pdx.edu/~mpj/pubs/plos07.pdf
+https://scholar.archive.org/work/vgtnmf2jbngwdpvzukot77aopm/access/wayback/http%3A//www.informatik.uni-marburg.de/~kos/papers/aspects_and_monads.pdf
+https://scholar.archive.org/work/kcajomdebndlfpn7auvwfp67ea/access/wayback/http%3A//www.lifl.fr/dyla14/papers/dyla14-6-list-based-monadic-computations.pdf
