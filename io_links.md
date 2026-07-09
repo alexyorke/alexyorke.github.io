@@ -4270,3 +4270,11 @@ https://www.reddit.com/r/haskell/comments/380kmq/illustrating_the_problem_with_l
 https://www.reddit.com/r/haskell/comments/1imoi0z/implementing_unsafeinterleaveio_using/
 https://www.reddit.com/r/haskell/comments/1e8k3k/three_examples_of_problems_with_lazy_io/
 https://www.reddit.com/r/haskell/comments/2f191i/io_monad_and_purity/
+https://scholar.archive.org/work/xvfn6bc33vgahedvcxmig7fpwu/access/wayback/http%3A//okmij.org%3A80/ftp/Haskell/extensible/talk.pdf
+https://arxiv.org/pdf/1403.0749
+https://scholar.archive.org/work/3hkj7iz4vbcurawqkfasg3phnq/access/wayback/https%3A//drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf
+https://pdfs.semanticscholar.org/c85a/eee4353dfe9ff60095265b35017989808c81.pdf
+https://arxiv.org/pdf/1406.2061
+https://pdfs.semanticscholar.org/d6a6/7260152a8c3552829db1a06710494c114ff3.pdf
+https://pdfs.semanticscholar.org/685c/e3c26aa601dfb07211c14c2ff7cdf126926e.pdf
+https://arxiv.org/html/2303.01328v7
