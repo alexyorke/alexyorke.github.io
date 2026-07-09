@@ -3895,3 +3895,6 @@ https://ecommons.cornell.edu/bitstream/handle/1813/5647/TR2004-1936.pdf?sequence
 https://ecommons.cornell.edu/items/b24b0551-2689-437a-8662-4665d2d3d847/full
 https://lirias.kuleuven.be/retrieve/89e51be3-ccd6-4529-bd3d-38527ba6da8e
 https://www.microsoft.com/en-us/research/publication/algebraic-effects-for-functional-programming/
+https://homepages.inf.ed.ac.uk/slindley/papers/libseff.pdf
+https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/algeff-in-c-tr-v2.pdf
+https://xnning.github.io/papers/oopsla22-tr.pdf
