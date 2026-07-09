@@ -4081,3 +4081,4 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_54.html
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_57.html
 https://r6.ca/blog/20110520T220201Z.html
 https://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o
+https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspYEQAAQBAJ
