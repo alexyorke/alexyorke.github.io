@@ -2692,6 +2692,9 @@ https://groups.seas.harvard.edu/courses/cs152/2015sp/lectures/lec16-monads.pdf
 https://hackage-content.haskell.org/package/base-4.14.3.0/docs/Control-Monad-IO-Class.html
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Error.html
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Control-Monad-ST.html
+https://github.com/simonmar/monad-par/issues/18
+https://github.com/haskell/cabal/issues/5303
+https://gist.github.com/ymdfield/b681b81c4ce24038ed8be6f7b6cc4f01?permalink_comment_id=5597179
 https://www.altocumulus.org/Fudgets/dist.html
 https://www.altocumulus.org/Fudgets/links.html
 https://arxiv.org/abs/1501.04132
