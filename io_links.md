@@ -4644,3 +4644,7 @@ https://stackoverflow.com/questions/18339274/monad-transformers-io-and-state
 https://stackoverflow.com/questions/75585359/why-isnt-io-an-instantiation-of-state
 https://stackoverflow.com/questions/76913036/applying-changes-to-outer-monads-in-haskell-without-using-transformer-monads
 https://stackoverflow.com/questions/53939191/how-to-flatten-io-io
+https://stackoverflow.com/questions/12907714/is-it-ok-to-write-most-of-the-code-using-io-monads
+https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with
+https://stackoverflow.com/questions/9961778/haskell-can-i-call-function-without-io-output-working-with-monads
+https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging/9657844
