@@ -3162,3 +3162,8 @@ https://era.ed.ac.uk/items/5220ec22-5c1d-44d7-b3b3-909d39de4094
 https://www.era.lib.ed.ac.uk/bitstream/1842/196/1/Comp_Eff_Monads.pdf
 https://gallium.inria.fr/blog/lawvere-theories-and-monads/
 https://homepages.inf.ed.ac.uk/gdp/publications/Comb_Effects.pdf
+https://ncatlab.org/nlab/show/free%2Bmonad
+https://ncatlab.org/nlab/show/relative%2Bpseudomonad
+https://ncatlab.org/nlab/show/analytic%2Bmonad
+https://ncatlab.org/nlab/show/monad%2Bwith%2Barities
+https://ncatlab.org/nlab/files/Uustalu-Monads4.pdf
