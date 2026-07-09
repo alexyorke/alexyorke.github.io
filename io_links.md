@@ -3322,3 +3322,6 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://stefanesco.com/documents/st-monad-appendix.pdf
 https://www.researchgate.net/publication/221241358_A_Functional_IO_System_or_Fun_for_Freshman_Kids
 https://www.researchgate.net/publication/220676856_The_ins_and_outs_of_Clean_IO
+https://xnning.github.io/slides/haskell-evidently.pdf
+https://se.cs.uni-tuebingen.de/publications/brachthaeuser21representing.pdf
+https://www.researchgate.net/publication/309551183_On_the_Expressive_Power_of_User-Defined_Effects_Effect_Handlers_Monadic_Reflection_Delimited_Control
