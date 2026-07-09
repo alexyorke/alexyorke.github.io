@@ -3365,3 +3365,7 @@ https://books.google.com/books?cad=3&hl=es&id=Xy7ktAEACAAJ&source=gbs_book_other
 https://books.google.com/books?id=nh0okI1a1sQC&printsec=frontcover
 https://archive.org/details/learnyouhaskellf00lipo_0
 https://archive.org/details/pdfy-2af6sIo0-9yPtvRo
+https://dl.acm.org/doi/pdf/10.1145/268946.268952
+https://dl.acm.org/doi/10.5555/1756972.1756977
+https://homes.luddy.indiana.edu/sabry/files/sideeffects.pdf
+https://dl.acm.org/doi/abs/10.1145/1353445.1353449
