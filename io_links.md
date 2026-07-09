@@ -12,6 +12,7 @@ https://dl.acm.org/doi/10.1145/319838.319876
 https://dl.acm.org/doi/10.1145/165180.165195
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf
 https://simon.peytonjones.org/Tackling-the-awkward-squad/
+https://cs.nju.edu.cn/xyfeng/teaching/FOPL/reading/awkwardSquad.pdf
 https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/
 https://dl.acm.org/doi/10.1145/3331545.3342589
 https://dl.acm.org/doi/10.1145/2775050.2633368
@@ -22,6 +23,7 @@ https://dl.acm.org/doi/10.5555/895692
 https://dl.acm.org/doi/10.1145/2887747.2804311
 https://dl.acm.org/doi/10.1145/3156695.3122968
 https://dl.acm.org/doi/10.1145/1863523.1863536
+https://abhiroop.github.io/pubs/HasTEE_SGX.pdf
 https://dl.acm.org/doi/10.1145/1088348.1088354
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
 https://dl.acm.org/doi/10.1145/292540.292557
