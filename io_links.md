@@ -3429,3 +3429,5 @@ https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-OAI-SR.xml
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/haskell-school-of-expression-learning-functional-programming-through-multimedia-by-paul-hudak-cambridge-university-press-2000-363pp-isbn-0521644089/6215F433B7EF37CCC59F36B888AB9BDA
 https://www.cambridge.org/core/books/functional-programming-and-inputoutput/
 https://www.cambridge.org/core/books/the-haskell-school-of-expression/
+https://www.sciencedirect.com/science/article/pii/S0167642399000234
+https://www.haskell.org/arrows/biblio.html
