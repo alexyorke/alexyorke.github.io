@@ -3102,3 +3102,4 @@ https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue5
 https://people.cs.nott.ac.uk/pszgmh/pearl.pdf
 https://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf
 https://dl.acm.org/doi/10.1145/581478.581492
+https://plv.mpi-sws.org/plerg/papers/comprehending-monads.pdf
