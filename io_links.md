@@ -3964,3 +3964,5 @@ https://en.wikibooks.org/wiki/Haskell/Libraries/IO
 https://www.haskell.org/haskellwiki/New_monads/MonadBase
 https://www.haskell.org/haskellwiki/New_monads/MonadBaseControl
 https://www.haskell.org/haskellwiki/New_monads/LazyWriterT
+https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-Instances.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Reader.html
