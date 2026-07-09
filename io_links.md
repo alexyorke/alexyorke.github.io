@@ -2883,3 +2883,10 @@ https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-s
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/using-async-for-file-access
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async
+https://hackage-content.haskell.org/package/transformers-base-0.4.6.1/docs/Control-Monad-Base.html
+https://hackage-content.haskell.org/package/monad-control-1.0.3.1/docs/Control-Monad-Trans-Control.html
+https://hackage-content.haskell.org/package/unliftio-core-0.2.0.1/docs/Control-Monad-IO-Unlift.html
+https://hackage-content.haskell.org/package/resourcet-1.3.0.0/docs/Control-Monad-Trans-Resource.html
+https://hackage-content.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Lift.html
+https://hackage-content.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Combinators.html
+https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Process.html
