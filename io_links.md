@@ -4296,3 +4296,6 @@ https://arxiv.org/pdf/1806.03541
 https://arxiv.org/abs/1803.06960
 https://arxiv.org/pdf/1711.09286
 https://arxiv.org/abs/1805.08059
+https://people.eng.unimelb.edu.au/rizkallahc/publications/hs-verif-icfp.pdf
+https://staff.aist.go.jp/reynald.affeldt/documents/monae-hb.pdf
+https://easychair.org/smart-slide/slide/K3SD
