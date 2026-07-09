@@ -4323,3 +4323,7 @@ https://haskell-effectful.github.io/ecosystem/data-storage/
 https://haskell-effectful.github.io/ecosystem/concurrency/
 https://haskell-effectful.github.io/ecosystem/cryptography/
 https://haskell-effectful.github.io/ecosystem/web-development/
+https://sayo-hs.github.io/blog/heftia/heftia-part-1-2/
+https://sayo-hs.github.io/blog/heftia/heftia-part-1-4/
+https://sayo-hs.github.io/blog/heftia/heftia-rev-part-1-2/
+https://sayo-hs.github.io/blog/heftia/heftia-rev-part-1-4/
