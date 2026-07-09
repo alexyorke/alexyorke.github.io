@@ -556,6 +556,10 @@ https://ocw.mit.edu/courses/18-s996-category-theory-for-scientists-spring-2013/1
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
 https://ncatlab.org/nlab/show/IO-monad
+https://ncatlab.org/schreiber/files/QuantumMonadology-240120.pdf
+https://link.springer.com/chapter/10.1007/10704973_7
+https://ku-fpg.github.io/papers/Gill-15-RemoteMonad/
+https://www.cs.tufts.edu/comp/150DAO/notes.html
 https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/
 https://www2.cs.sfu.ca/CourseCentral/383/burton/Notes/Reading/MonadsAsContainers.pdf
 https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/io-monad.pdf
@@ -1963,7 +1967,6 @@ https://dev.to/szg251/haskell-do-notation-explained-through-javascript-async-awa
 https://www.haskell.org/hackage/package/base/docs/System-IO.html
 https://www.haskell.org/hackage/package/base/docs/GHC-IO.html
 https://www.haskell.org/hackage/package/base/docs/GHC-Base.html
-https://www.cs.tufts.edu/comp/150DAO/notes.html
 https://lukeplant.me.uk/blog/posts/understanding-monads-via-python-list-comprehensions/
 https://ericlippert.com/2013/04/03/monads-part-thirteen/
 https://dev.to/hamzzak/mastering-monad-design-patterns-simplify-your-python-code-and-boost-efficiency-kal
