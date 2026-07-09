@@ -2684,3 +2684,5 @@ https://github.com/haskell-effectful/log-effectful
 https://github.com/haskell-effectful/effectful/discussions/275
 https://github.com/haskell-effectful/effectful/issues/99
 https://github.com/hmac/kite
+https://www.microsoft.com/en-us/research/publication/relating-operational-denotational-semantics-inputoutput-effects/
+https://www.microsoft.com/en-us/research/publication/a-sound-metalogical-semantics-for-inputoutput-effects/
