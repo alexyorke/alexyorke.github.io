@@ -3486,3 +3486,6 @@ https://simon.peytonjones.org/assets/pdfs/composable-scheduler-earlier.pdf
 https://kcsrk.info/papers/schedact_jfp16.pdf
 https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2774&context=cstech
 https://dl.acm.org/doi/10.1145/224164.224213
+https://d3s.mff.cuni.cz/publications/petricek_joinads_2011/
+https://link.springer.com/chapter/10.1007/978-3-642-18378-2_17
+https://www.researchgate.net/publication/220802969_Joinads_A_Retargetable_Control-Flow_Construct_for_Reactive_Parallel_and_Concurrent_Programming
