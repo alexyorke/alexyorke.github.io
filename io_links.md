@@ -874,6 +874,10 @@ https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1996.html
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1997.html
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1999.html
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl2000.html
+http://www.cs.mu.oz.au/~bjpop/fpu/haskell-report-1.4-html/index.html
+http://www.cs.mu.oz.au/~bjpop/fpu/haskell-library-1.4-html/index.html
+http://www.cs.mu.oz.au/~bjpop/fpu/haskell-tutorial-1.4-html/index.html
+https://www.altocumulus.org/haskell-report-1.0.pdf
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
