@@ -3041,3 +3041,7 @@ https://books.google.com/books/about/The_Haskell_School_of_Expression.html?id=lQ
 https://www.cambridge.org/ag/universitypress/subjects/computer-science/programming-languages-and-applied-logic/haskell-school-expression-learning-functional-programming-through-multimedia?format=HB&isbn=9780521643382
 https://www.cambridge.org/highereducation/isbn/9780521644082/examination-copy
 https://dokumen.pub/effective-haskell-solving-real-world-problems-with-strongly-typed-functional-programming-1nbsped-1680509349-9781680509342-g-5556519.html
+https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4
+https://www.amazon.com/Real-World-Haskell-Bryan-OSullivan/dp/0596514980
+https://www.manning.com/books/get-programming-with-haskell
+https://www.simonandschuster.com/books/Get-Programming-with-Haskell/Will-Kurt/9781617293764
