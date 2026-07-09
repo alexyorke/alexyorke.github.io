@@ -878,6 +878,9 @@ http://www.cs.mu.oz.au/~bjpop/fpu/haskell-report-1.4-html/index.html
 http://www.cs.mu.oz.au/~bjpop/fpu/haskell-library-1.4-html/index.html
 http://www.cs.mu.oz.au/~bjpop/fpu/haskell-tutorial-1.4-html/index.html
 https://www.altocumulus.org/haskell-report-1.0.pdf
+http://www.haskell.org/definition/haskell-report-1.4.ps.gz
+http://www.haskell.org/onlinereport/
+http://www.haskell.org/onlinelibrary/
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
