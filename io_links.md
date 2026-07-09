@@ -3549,3 +3549,6 @@ https://blog.sigfpe.com/2008/10/operads-and-their-monads.html
 https://blog.sigfpe.com/2009/10/what-category-do-haskell-types-and.html
 https://themonadreader.files.wordpress.com/2010/05/issue16.pdf
 https://themonadreader.files.wordpress.com/2011/10/issue19.pdf
+https://themonadreader.files.wordpress.com/2011/07/issue18.pdf
+https://twistedsquare.com/TMR17.pdf
+https://tomasp.net/academic/articles/comprefun/
