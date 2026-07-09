@@ -8,9 +8,14 @@ https://www.microsoft.com/en-us/research/publication/imperative-functional-progr
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/
 https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf
+https://dl.acm.org/doi/10.1145/319838.319876
+https://dl.acm.org/doi/10.1145/165180.165195
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf
 https://simon.peytonjones.org/Tackling-the-awkward-squad/
+https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf
+https://dl.acm.org/doi/10.5555/895692
+https://dl.acm.org/doi/10.1145/507635.507655
 https://dhil.net/research/papers/awkward_effects-ml17.pdf
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29
 https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11
@@ -24,7 +29,10 @@ https://leventerkok.github.io/papers/recdo.pdf
 https://launchbury.blog/wp-content/uploads/2019/01/semantics-of-fixio.pdf
 https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf
+https://dl.acm.org/doi/10.1145/1160074.1159823
+https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/
 https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf
+https://pdxscholar.library.pdx.edu/open_access_etds/1/
 https://arxiv.org/abs/1210.0611
 https://www.cs.cmu.edu/~crary/819-f09/Moggi91.pdf
 https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf
@@ -503,6 +511,7 @@ https://www.cambridge.org/core/books/thinking-functionally-with-haskell/imperati
 https://www.cambridge.org/core/books/thinking-functionally-with-haskell/79F91D976F0C7229082325B41824EBBC
 https://livebook.manning.com/book/haskell-in-depth/chapter-1
 https://www.haskell.org/tutorial/monads.html
+https://dl.acm.org/doi/10.5555/1477677
 https://www.haskell.org/haskellwiki/Introduction_to_IO
 https://www.haskell.org/haskellwiki/All_about_monads
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO
