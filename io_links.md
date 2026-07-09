@@ -3930,3 +3930,10 @@ https://www.haskell.org/haskellwiki/MonadFail
 https://www.haskell.org/haskellwiki/MonadFail_Proposal
 https://ncatlab.org/nlab/show/Kleisli%2Bcategory
 https://www.haskell.org/haskellwiki/arrow_tutorial
+https://www.haskell.org/haskellwiki/TypeCompose
+https://www.haskell.org/haskellwiki/Applicative_data-driven_programming
+https://www.haskell.org/haskellwiki/LGtk/Semantics
+https://www.haskell.org/haskellwiki/User%3AMichiexile/MATH198/Lecture_7
+https://www.haskell.org/haskellwiki/User%3AMichiexile/MATH198/Lecture_8
+https://www.haskell.org/haskellwiki/DataDriven
+https://www.haskell.org/haskellwiki/Free_structure
