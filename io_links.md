@@ -3070,3 +3070,5 @@ https://www.haskell.org/haskellwiki/GuiTV
 https://www.haskell.org/haskellwiki/grapefruit
 https://www.haskell.org/haskellwiki/Category%3AApplicative_Functor
 https://www.haskell.org/haskellwiki/Category%3AUser_interfaces
+https://www.haskell.org/haskellwiki/Advocacy
+https://www.haskell.org/haskellwiki/GHC/Using_the_FFI
