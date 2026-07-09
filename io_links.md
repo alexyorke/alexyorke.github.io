@@ -4070,3 +4070,8 @@ https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/44dacd55-054
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/271aee82-7323-4bff-b79e-d120edb47140.xhtml
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/2a71930b-b92f-4606-91c8-6c1664373840.xhtml
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e9a033fc-b339-4a67-82c1-059b20eadc52.xhtml
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_105.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_108.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_110.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_toc.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_47.html
