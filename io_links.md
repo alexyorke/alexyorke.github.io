@@ -2785,3 +2785,7 @@ https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effe
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.State.Static.Local.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.State.Static.Shared.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Writer.Static.Local.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.Monad.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.Env.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.Effect.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Dispatch.Dynamic.html
