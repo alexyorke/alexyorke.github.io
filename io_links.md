@@ -4688,3 +4688,4 @@ https://web.cecs.pdx.edu/~mpj/pubs/reactive-objects.pdf
 https://homepages.inf.ed.ac.uk/wadler/linksetaps/slides/nordlander.pdf
 https://arxiv.org/abs/cs/0509027
 https://homepages.inf.ed.ac.uk/wadler/realworld/
+https://www.researchgate.net/publication/228744630_Interactively_Probing_Quiescent_Properties_of_Object_IO_Applications-A_Feasibility_Study-
