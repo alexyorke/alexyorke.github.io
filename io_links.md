@@ -2645,3 +2645,5 @@ https://github.com/texitoi/rust-mdo
 https://github.com/ghc-proposals/ghc-proposals/issues/527
 https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e
 https://people.csail.mit.edu/jeanyang/courses/haskell/
+https://www.rose-hulman.edu/class/cs/csse403/201110/SlidePDFs/HaskellMonads.pdf
+https://klasses.cs.uchicago.edu/archive/2008/winter/22300-1/monads-and-IO.pdf
