@@ -1519,7 +1519,6 @@ https://fileadmin.cs.lth.se/cs/education/EDAN40/lectures/bdellium_lth_presentati
 https://ianthehenry.com/posts/lazy-io/
 https://web.engr.oregonstate.edu/~erwig/papers/CategoricalImperative_IFL98.pdf
 https://lorepub.com/post/2016-12-17-Haskell-Pitfalls
-https://www.haskell.org/haskellwiki/Simple_Unix_tools
 https://www.haskell.org/haskellwiki/Implement_a_chat_server
 https://benl.ouroborus.net/thesis/2019-AmosRobinson-Streams.pdf
 https://www.andres-loeh.de/GenericStorage/wgp10-genstorage.pdf
@@ -4046,3 +4045,18 @@ https://journals.sagepub.com/doi/10.3233/FI-1995-22126
 https://www.research.ed.ac.uk/en/publications/a-generic-operational-metatheory-for-algebraic-effects/
 https://ieeexplore.ieee.org/document/4557905/
 https://www.research.ed.ac.uk/en/publications/handling-algebraic-effects/
+https://nestedsoftware.com/2018/12/04/book-notes-learn-you-a-haskell-for-great-good-2cnp.64983.html
+https://ro-che.info/articles/2017-01-10-nested-loop-space-leak
+https://www.schoolofhaskell.com/user/commercial/content/primitive-haskell
+https://www.schoolofhaskell.com/user/snoyberg/general-haskell/advanced/evaluation-order-and-state-tokens
+https://www.schoolofhaskell.com/user/snoyberg/general-haskell/exceptions/exceptions-and-monad-transformers
+https://www.schoolofhaskell.com/user/bartosz/basics-of-haskell/10_Error_Handling
+https://www.schoolofhaskell.com/school/starting-with-haskell/haskell-fast-hard/haskell-fast-hard-part-5
+https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/coroutines-for-streaming/part-1-pause-and-resume
+https://www.haskell.org/communities/05-2002/html/report.html
+https://www.haskell.org/communities/11-2011/html/report.html
+https://www.haskell.org/communities/05-2017/report.pdf
+https://www.haskell.org/communities/05-2011/html/report.html
+https://www.haskell.org/communities/11-2008/html/report.html
+https://www.haskell.org/communities/11-2014/report.html
+https://www.haskell.org/communities/05-2015/html/report.html
