@@ -3308,3 +3308,6 @@ https://github.com/joyofhaskell/haskell-report-archive
 https://direct.mit.edu/books/edited-volume/chapter-pdf/2303005/9780262257145_caa.pdf
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-encapsulation-of-effects-a-revised-approach-extended-version/D31AEC33C1E8291B309578FA84B4664D
 https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7
+https://dl.acm.org/doi/10.1145/773473.178246
+https://person.dibris.unige.it/moggi-eugenio/ftp/jfp01.pdf
+https://www.researchgate.net/publication/220367662_Monadic_Encapsulation_of_Effects_a_Revised_Approach
