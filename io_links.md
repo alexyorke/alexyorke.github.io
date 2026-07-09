@@ -3902,3 +3902,8 @@ https://kcsrk.info/papers/handlers_js-proweb2018.pdf
 https://dl.acm.org/doi/pdf/10.1145/3276481
 https://effekt-lang.org/publications
 https://github.com/xnning/EvEff
+https://kcsrk.info/papers/drafts/retro-concurrency.pdf
+https://kcsrk.info/papers/effects_dagstuhl18.pdf
+https://homepages.inf.ed.ac.uk/slindley/papers/cppeff-draft-august2022.pdf
+https://homepages.inf.ed.ac.uk/slindley/papers/asmfx-draft-february2026.pdf
+https://kcsrk.info/papers/caml-eff17.pdf
