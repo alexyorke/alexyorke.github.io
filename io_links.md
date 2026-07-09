@@ -3369,3 +3369,7 @@ https://dl.acm.org/doi/pdf/10.1145/268946.268952
 https://dl.acm.org/doi/10.5555/1756972.1756977
 https://homes.luddy.indiana.edu/sabry/files/sideeffects.pdf
 https://dl.acm.org/doi/abs/10.1145/1353445.1353449
+https://dl.acm.org/doi/10.1145/2578855.2535846
+https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf
+https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/6471.html
+https://dl.acm.org/doi/10.1145/1086365.1086379
