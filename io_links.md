@@ -3980,3 +3980,6 @@ https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
 https://cth.altocumulus.org/~hallgren/Papers/memo89.pdf
 https://www.researchgate.net/profile/Simon-Peyton-Jones/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell/links/0c960517e31f6377f2000000/A-Tutorial-on-Parallel-and-Concurrent-Programming-in-Haskell.pdf
+https://book.realworldhaskell.org
+https://www.e-booksdirectory.com/details.php?ebook=1760
+https://www.red-bean.com/~bos/realworldhaskell/
