@@ -2833,3 +2833,15 @@ https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=ne
 https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1?view=net-10.0
 https://link.springer.com/chapter/10.1007/3-540-44854-3_7
 https://dl.acm.org/doi/10.1145/2370776.2370801
+https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-Handle-FD.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-IO-Class.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-Handle.html
+https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Reader.html
+https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Except.html
+https://hackage.haskell.org/package/mtl/docs/Control-Monad-State.html
+https://hackage.haskell.org/package/mtl/docs/Control-Monad-Except.html
+https://hackage.haskell.org/package/unliftio/docs/UnliftIO.html
+https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Async.html
+https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Exception.html
+https://hackage.haskell.org/package/bluefin/docs/Bluefin.html
+https://hackage.haskell.org/package/effectful/docs/Effectful-Concurrent.html
