@@ -3268,3 +3268,6 @@ https://arxiv.org/pdf/2404.16381
 https://arxiv.org/abs/2512.03083
 https://arxiv.org/pdf/2512.03083
 https://arxiv.org/abs/1807.05923
+https://arxiv.org/abs/2412.19826
+https://arxiv.org/pdf/2412.19826
+https://doi.org/10.7488/era/5485
