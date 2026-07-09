@@ -4269,3 +4269,4 @@ https://www.reddit.com/r/haskell/comments/oexn0q/memotrie_and_the_io_monad_when_
 https://www.reddit.com/r/haskell/comments/380kmq/illustrating_the_problem_with_lazy_io/
 https://www.reddit.com/r/haskell/comments/1imoi0z/implementing_unsafeinterleaveio_using/
 https://www.reddit.com/r/haskell/comments/1e8k3k/three_examples_of_problems_with_lazy_io/
+https://www.reddit.com/r/haskell/comments/2f191i/io_monad_and_purity/
