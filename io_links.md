@@ -3465,3 +3465,4 @@ https://conal.net/blog/posts/the-c-language-is-purely-functional
 https://worrydream.com/quotes/
 https://www.researchgate.net/publication/220939997_Experiences_with_Clean_IO
 https://www.scss.tcd.ie/publications/tech-reports/reports.01/TCD-CS-2001-31.pdf
+https://www.researchgate.net/publication/254855443_A_tutorial_to_the_Clean_object_IO_library_version_12
