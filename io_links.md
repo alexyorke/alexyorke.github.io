@@ -2861,3 +2861,5 @@ https://www.cs.ox.ac.uk/people/richard.bird/online/MuBird2001Functional.pdf
 https://dl.acm.org/doi/10.1145/871895.871900
 https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf
 https://ncatlab.org/nlab/files/Grattage-CompilingFunctionalQPL.pdf
+https://people.cs.nott.ac.uk/psztxa/publ/qpl06.pdf
+https://arxiv.org/abs/2310.15735
