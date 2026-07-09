@@ -4361,3 +4361,10 @@ https://github.com/haskell-effectful/optparse-applicative-effectful
 https://github.com/haskell-effectful/effectful-plugin
 https://github.com/haskell-effectful/effectful/discussions/298
 https://reasonablypolymorphic.com/talks/
+https://reasonablypolymorphic.com/blog/announcing-polysemy/
+https://reasonablypolymorphic.com/blog/polysemy-mea-culpa/
+https://reasonablypolymorphic.com/blog/freer-yet-too-costly-higher-order-effects/
+https://reasonablypolymorphic.com/blog/polysemy-internals-the-effect-interpreter-effect/
+https://reasonablypolymorphic.com/blog/proving-equivalence-of-polysemy-interpreters/
+https://reasonablypolymorphic.com/blog/proving-commutativity-of-polysemy-interpreters/
+https://reasonablypolymorphic.com/blog/testing-polysemy-with-polysemy-check/
