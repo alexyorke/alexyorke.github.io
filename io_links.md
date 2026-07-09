@@ -3507,3 +3507,5 @@ https://www.researchgate.net/publication/2490314_Concurrent_Haskell
 https://www.researchgate.net/publication/304528156_Composable_scheduler_activations_for_Haskell
 https://www.iospress.com/node15242/books/engineering-theories-of-software-construction
 https://resources.oreilly.com/examples/9780596514983
+https://anil.recoil.org/notes/2017-ml-effects-1
+https://icfp17.sigplan.org/details/mlfamilyworkshop-2017-papers/2/Effectively-tackling-the-awkward-squad
