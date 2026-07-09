@@ -3084,3 +3084,5 @@ https://www.haskell.org/haskellwiki/Yhc/RTS/Concurrency
 https://www.haskell.org/haskellwiki/Background_thread_example
 https://www.haskell.org/haskellwiki/New_monads/MonadAdvSTM
 https://www.haskell.org/haskellwiki/New_monads/MonadSplit
+https://www.haskell.org/haskellwiki/NewMonads
+https://www.haskell.org/haskellwiki/lifting
