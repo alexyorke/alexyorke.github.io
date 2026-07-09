@@ -3957,3 +3957,6 @@ https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53b
 https://www.schoolofhaskell.com/user/commercial/content/covariance-contravariance
 https://www.schoolofhaskell.com/user/agocorona/a-monad-for-reactive-programming-part-1
 https://www.schoolofhaskell.com/user/agocorona/monad-reactive-programming-2
+https://www.haskell.org/haskellwiki/Sorting_large_arrays
+https://www.haskell.org/haskellwiki/sudoku
+https://www.haskell.org/haskellwiki/Introduction/Direct_Translation
