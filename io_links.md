@@ -2725,3 +2725,6 @@ https://hackage-content.haskell.org/package/auto-update-unliftio-0.1.0.0/candida
 https://hackage-content.haskell.org/package/tower-hs-0.3.0.1/docs/Tower.Service.html
 https://hackage-content.haskell.org/package/tower-hs-0.3.0.1/docs/Tower.html
 https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Labeled.State.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Fail.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Writer.Dynamic.html
