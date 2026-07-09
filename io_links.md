@@ -2903,3 +2903,7 @@ https://jfla.inria.fr/2007/actes/Presentation/tolmach.pdf
 https://cseweb.ucsd.edu/classes/wi14/cse230-a/lectures/lec-transformers.html
 https://www.cs.yale.edu/homes/hudak/CS429F04/AFPLectureNotes.pdf
 https://www.cs.jhu.edu/~hager/Public/ICRAtutorial/HagerPeterson-FRP/icra02-tutorial-paper.pdf
+https://hackage.haskell.org/package/transformers-base-0.4.6/docs/Control-Monad-Base.html
+https://hackage.haskell.org/package/async-2.2.6/docs/Control-Concurrent-Async.html
+https://hackage.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Lift.html
+https://hackage.haskell.org/package/lifted-base-0.2.3.12/docs/Control-Exception-Lifted.html
