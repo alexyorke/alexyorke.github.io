@@ -4400,3 +4400,6 @@ https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Free
 https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer-TH.html
 https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin.html
 https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Dispatch-Dynamic.html#g:4
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-IO.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-System-IO.html
