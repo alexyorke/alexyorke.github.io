@@ -4092,6 +4092,9 @@ https://blog.jle.im/entries/tagged/haskell.html
 https://blog.jle.im/entry/a-non-unique-monad-instance.html
 https://www.cis.upenn.edu/~cis1940/fall16/lectures/05-real-world-haskell.html
 https://caiorss.github.io/Functional-Programming/papers/Functiona_Pearls-Applicative_Programming_With_Effects.pdf
+https://blog.moertel.com/posts/2007-02-22-a-simple-directory-tree-printer-in-haskell.html
+https://kseo.github.io/posts/2016-12-28-lazy-vs-strict-state-monad.html
+https://blog.moertel.com/posts/2006-10-18-a-type-based-solution-to-the-strings-problem.html
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
