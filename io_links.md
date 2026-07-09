@@ -2890,3 +2890,6 @@ https://hackage-content.haskell.org/package/resourcet-1.3.0.0/docs/Control-Monad
 https://hackage-content.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Lift.html
 https://hackage-content.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Combinators.html
 https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Process.html
+https://cedric.cnam.fr/~crolardt/publications/reflection.pdf
+https://www.schemeworkshop.org/2005/03-sobel/03-sobel.pdf
+https://se.informatik.uni-tuebingen.de/publications/brachthaeuser21representing.pdf
