@@ -3027,3 +3027,4 @@ https://www.cl.cam.ac.uk/teaching/0607/FFuncProg/fofp.pdf
 https://www.cs.cornell.edu/andru/papers/nmifc/nmifc.pdf
 https://www.cl.cam.ac.uk/teaching/1920/ConceptsPL/lectures-4up.pdf
 https://ucsd-cse130.github.io/wi21/lectures.html
+https://www.cs.indiana.edu/~rrnewton/papers/ppopp17-sc-haskell.pdf
