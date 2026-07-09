@@ -3926,3 +3926,5 @@ https://www.haskell.org/haskellwiki/MonadCont_done_right
 https://www.haskell.org/haskellwiki/Hac_2007_II/Projects
 https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue5/Practical_Graph_Handling
 https://www.haskell.org/haskellwiki/Quantified_contexts
+https://www.haskell.org/haskellwiki/MonadFail
+https://www.haskell.org/haskellwiki/MonadFail_Proposal
