@@ -3505,3 +3505,4 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://cs.indiana.edu/~sabry/papers/monadicDC.pdf
 https://www.researchgate.net/publication/2490314_Concurrent_Haskell
 https://www.researchgate.net/publication/304528156_Composable_scheduler_activations_for_Haskell
+https://www.iospress.com/node15242/books/engineering-theories-of-software-construction
