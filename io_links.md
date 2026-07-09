@@ -4335,3 +4335,6 @@ https://github.com/kleidukos/servant-effectful
 https://github.com/fpringle/effectful-postgresql
 https://github.com/fpringle/effectful-opaleye
 https://github.com/dcastro/sqlite-simple-effectful
+https://haskell-effectful.github.io/ecosystem/messaging-systems/
+https://haskell-effectful.github.io/ecosystem/observability/
+https://haskell-effectful.github.io/ecosystem/metrics-logs-traces-profiles/
