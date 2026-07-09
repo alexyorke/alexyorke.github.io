@@ -695,6 +695,10 @@ https://docs.idris-lang.org/en/latest/reference/ffi.html
 https://mercurylang.org/information/doc-release/mercury_ref/The-_0060_0060state_002dof_002dthe_002dworld_0027_0027-type.html
 https://mercurylang.org/information/doc-release/mercury_library/io.html
 https://mercurylang.org/information/doc-release/reference_manual.pdf
+https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await
+https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall?view=net-10.0
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iasyncenumerable-1?view=net-10.0
 
 ## Articles and essays
 https://blog.sigfpe.com/2007/11/io-monad-for-people-who-simply-dont.html
@@ -2868,3 +2872,9 @@ https://hackage.haskell.org/package/lifted-base/docs/Control-Exception-Lifted.ht
 https://hackage.haskell.org/package/lifted-async/docs/Control-Concurrent-Async-Lifted.html
 https://hackage.haskell.org/package/resourcet/docs/Control-Monad-Trans-Resource.html
 https://hackage.haskell.org/package/conduit/docs/Data-Conduit.html
+https://hackage.haskell.org/package/async/docs/Control-Concurrent-Async.html
+https://hackage.haskell.org/package/exceptions/docs/Control-Monad-Catch.html
+https://hackage.haskell.org/package/safe-exceptions/docs/Control-Exception-Safe.html
+https://hackage.haskell.org/package/lifted-base/docs/Control-Concurrent-Lifted.html
+https://hackage.haskell.org/package/resource-pool/docs/Data-Pool.html
+https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-7-monads/
