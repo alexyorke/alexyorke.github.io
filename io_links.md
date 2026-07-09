@@ -619,6 +619,7 @@ https://dspace.mit.edu/entities/publication/ffc8c204-c55b-4783-947c-fdf298ee5228
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
+https://www.altocumulus.org/haskell-report/printing-13.html
 https://ncatlab.org/nlab/show/IO-monad
 https://ncatlab.org/schreiber/files/QuantumMonadology-240120.pdf
 https://link.springer.com/chapter/10.1007/10704973_7
