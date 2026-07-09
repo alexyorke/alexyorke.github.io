@@ -908,6 +908,7 @@ https://livebook.manning.com/book/haskell-in-depth/chapter-8
 https://livebook.manning.com/book/haskell-in-depth/chapter-7
 https://livebook.manning.com/book/haskell-in-depth/chapter-16
 https://livebook.manning.com/book/haskell-in-depth/chapter-12
+https://livebook.manning.com/book/haskell-in-depth/chapter-11
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
