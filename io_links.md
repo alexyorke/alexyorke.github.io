@@ -3907,3 +3907,7 @@ https://kcsrk.info/papers/effects_dagstuhl18.pdf
 https://homepages.inf.ed.ac.uk/slindley/papers/cppeff-draft-august2022.pdf
 https://homepages.inf.ed.ac.uk/slindley/papers/asmfx-draft-february2026.pdf
 https://kcsrk.info/papers/caml-eff17.pdf
+https://koka-lang.github.io/koka/doc/book.html
+https://hasura.github.io/eff/
+https://cambium.inria.fr/~fpottier/publis/de-vilhena-pottier-tes.pdf
+https://dl.acm.org/doi/abs/10.1145/3428194
