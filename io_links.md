@@ -4341,3 +4341,6 @@ https://haskell-effectful.github.io/ecosystem/metrics-logs-traces-profiles/
 https://github.com/haskell-effectful/effectful/blob/master/effectful-plugin/README.md
 https://github.com/haskell-effectful/effectful/issues/300
 https://github.com/haskell-effectful/effectful/issues/347
+https://github.com/haskell-effectful/effectful/discussions/204
+https://github.com/haskell-effectful/effectful/issues/296
+https://github.com/haskell-effectful/effectful/activity
