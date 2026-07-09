@@ -4306,3 +4306,6 @@ https://dl.acm.org/doi/10.1145/3434307
 https://dl.acm.org/doi/pdf/10.1145/3434307
 https://www.cis.upenn.edu/~stevez/papers/SZ21.pdf
 https://dl.acm.org/do/10.5281/zenodo.4284088/full
+https://github.com/effect-handlers/effects-rosetta-stone
+https://doi.org/10.5281/zenodo.4312937
+https://arxiv.org/pdf/2503.00404
