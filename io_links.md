@@ -2940,6 +2940,7 @@ https://ics.uci.edu/~jajones/INF102-S18/readings/17_malenfant-ijcai95.pdf
 https://rand.cs.uchicago.edu/files/thesis.pdf
 https://mail.haskell.org/pipermail/haskell-cafe/2006-June/016389.html
 https://mail.haskell.org/pipermail/haskell-cafe/2003-August/004859.html
+https://arxiv.org/html/2502.15031v2
 https://dl.acm.org/doi/pdf/10.1145/2887747.2804311
 https://caiorss.github.io/Functional-Programming/papers/Typeclassopedia.pdf
 https://www.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/6.Monads.pdf
