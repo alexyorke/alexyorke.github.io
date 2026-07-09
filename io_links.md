@@ -2774,3 +2774,9 @@ https://www.cis.upenn.edu/~cis1940/spring15/lectures/05-IO.html
 https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_15.xhtml
 https://www.some.ox.ac.uk/wp-content/uploads/2026/06/Haskell-Tutorial-2026.pdf
 https://www.haskell.org/haskellwiki/Learn_Haskell_in_10_minutes
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.Coroutine.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.EarlyReturn.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.Jump.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.CloneableHandle.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.HandleReader.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.StateSource.html
