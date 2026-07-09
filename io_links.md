@@ -3567,3 +3567,5 @@ https://tryjoinads.org/index.html?use%2Fagents.html=
 https://haskellforall.com/2014/04/how-continuation-monad-works
 https://haskellforall.com/2016/07/list-transformer-a-beginner-friendly-listt
 https://haskellforall.com/2017/10/why-do-our-programs-need-to-read-input
+https://haskellforall.com/2012/09/concurrency-lists-of-kleisli-arrows
+https://haskellforall.com/2012/09/the-monadtrans-class-is-missing-method
