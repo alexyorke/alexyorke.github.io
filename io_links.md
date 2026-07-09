@@ -753,6 +753,9 @@ https://mercurylang.org/information/doc-release/transition_guide.pdf
 https://mercurylang.org/documentation/papers.html
 https://www.mercurylang.org/documentation/papers/aadebug03_talk.pdf
 https://arxiv.org/pdf/cs/0311040
+https://www.academia.edu/22955469/Status_of_the_Mercury_system
+https://www.mbsd.cs.ru.nl/publications/papers/2003/verm2003-LazyDynamicIO.pdf
+https://link.springer.com/chapter/10.1007/978-3-540-85373-2_12
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await
 https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall?view=net-10.0
