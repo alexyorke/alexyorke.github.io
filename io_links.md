@@ -4374,3 +4374,6 @@ https://github.com/shinzui/hasql-effectful
 https://github.com/eldritch-cookie/hedis-effectful
 https://github.com/kleidukos/pg-transact-effectful
 https://github.com/joshburgess/valiant
+https://github.com/haskell-effectful/effectful-core
+https://github.com/haskell-effectful/effectful-th
+https://github.com/haskell-effectful/genBench.sh
