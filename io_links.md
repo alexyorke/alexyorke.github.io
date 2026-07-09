@@ -4593,3 +4593,6 @@ https://stackoverflow.com/questions/48631406/how-to-add-to-a-list-from-io-in-has
 https://stackoverflow.com/questions/16556202/types-and-do-notation
 https://stackoverflow.com/questions/25151406/how-to-break-io-action-in-haskell
 https://stackoverflow.com/questions/44722277/what-is-the-io-haskell-monad-equivalent-in-scala-standard-api
+https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbibH.html
+https://cstheory.stackexchange.com/questions/14482/resumption-based-io-systems
+https://doi.org/10.1002/spe.4380250105
