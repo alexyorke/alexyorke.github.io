@@ -4327,3 +4327,11 @@ https://sayo-hs.github.io/blog/heftia/heftia-part-1-2/
 https://sayo-hs.github.io/blog/heftia/heftia-part-1-4/
 https://sayo-hs.github.io/blog/heftia/heftia-rev-part-1-2/
 https://sayo-hs.github.io/blog/heftia/heftia-rev-part-1-4/
+https://github.com/eldritch-cookie/katip-effectful
+https://github.com/scrive/tracing-effectful
+https://github.com/eldritch-cookie/co-log-effectful
+https://github.com/The1Penguin/wreq-effectful
+https://github.com/kleidukos/servant-effectful
+https://github.com/fpringle/effectful-postgresql
+https://github.com/fpringle/effectful-opaleye
+https://github.com/dcastro/sqlite-simple-effectful
