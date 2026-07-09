@@ -65,6 +65,8 @@ https://dl.acm.org/doi/10.1145/291251.289437
 https://dl.acm.org/doi/10.1145/1088348.1088353
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/hdirect.pdf
 https://simonmar.github.io/bib/papers/vshaskell.pdf
+https://www.microsoft.com/en-us/research/publication/object-oriented-style-overloading-for-haskell/
+https://www.researchgate.net/publication/221241196_Experience_report_Building_an_Eclipse-based_IDE_for_Haskell
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
 https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms
