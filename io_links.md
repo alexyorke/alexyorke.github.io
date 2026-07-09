@@ -3180,3 +3180,6 @@ https://www.cl.cam.ac.uk/events/owls/slides/uustalu.pdf
 https://arxiv.org/pdf/1912.13477
 https://cs.ioc.ee/~tarmo/papers/lics20-slides.pdf
 https://cs.ioc.ee/~tarmo/papers/katsumata-rivas-uustalu-lics20.pdf
+https://cs.ioc.ee/~tarmo/papers/katsumata-mcdermott-uustalu-wu-flexible-presentations.pdf
+https://cs.ioc.ee/~tarmo/papers/katsumata-mcdermott-uustalu-wu-icfp22-authorver.pdf
+https://cs.ioc.ee/~tarmo/papers/capobianco-uustalu-ppdp23.pdf
