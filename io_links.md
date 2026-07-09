@@ -3564,3 +3564,4 @@ https://tryjoinads.org/index.html?use%2Fasync.html=
 https://tryjoinads.org/index.html?use%2Ftasks.html=
 https://tryjoinads.org/index.html?use%2Fjoins.html=
 https://tryjoinads.org/index.html?use%2Fagents.html=
+https://haskellforall.com/2014/04/how-continuation-monad-works
