@@ -2940,6 +2940,7 @@ https://ics.uci.edu/~jajones/INF102-S18/readings/17_malenfant-ijcai95.pdf
 https://rand.cs.uchicago.edu/files/thesis.pdf
 https://mail.haskell.org/pipermail/haskell-cafe/2006-June/016389.html
 https://mail.haskell.org/pipermail/haskell-cafe/2003-August/004859.html
+https://nikivazou.github.io/CMSC498V/lectures/Monads.html
 https://academic.oup.com/jos/advance-article-pdf/doi/10.1093/jos/ffad012/65044641/ffad012.pdf
 https://www.dcs.shef.ac.uk/intranet/teaching/public/modules/level2/com2108.html
 https://cosc59.gitlab.io/
