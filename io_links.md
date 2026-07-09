@@ -3004,3 +3004,4 @@ https://dl.acm.org/doi/pdf/10.1145/351240.351250
 https://dl.acm.org/doi/pdf/10.1145/3122955.3122970
 https://pdfs.semanticscholar.org/dd9a/8d3986630da6dea10c504c907681fdb3c322.pdf
 https://www.cse.chalmers.se/~russo/publications_files/haskell22Ext-russo.pdf
+https://github.com/getify/monio/blob/master/MONADS.md
