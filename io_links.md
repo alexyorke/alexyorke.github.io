@@ -3445,3 +3445,5 @@ https://www.haskell.org/definition/aboutHaskell98.html
 https://www.haskell.org/definition/haskell98-bugs.html
 https://www.haskell.org/definition/haskell98-revised-bugs.html
 https://www.haskell.org/onlinereport/haskell.html
+https://www.researchgate.net/publication/221492763_Composing_Haggis
+https://www.researchgate.net/profile/Simon_Peyton_Jones/publication/221492763_Composing_Haggis/links/0c960517e31f5579d2000000/Composing-Haggis.pdf
