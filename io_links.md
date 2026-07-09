@@ -4518,3 +4518,8 @@ https://www.funwithfunctions.com/
 https://mail.haskell.org/pipermail/beginners/2011-October/008692.html
 https://mail.haskell.org/pipermail/beginners/2011-December/009141.html
 https://mail.haskell.org/pipermail/haskell-cafe/2019-February/130667.html
+https://mail.haskell.org/pipermail/beginners/2010-April/004015.html
+https://mail.haskell.org/pipermail/haskell-cafe/2011-October/096422.html
+https://mail.haskell.org/pipermail/haskell-cafe/2013-April/107448.html
+https://mail.haskell.org/pipermail/haskell-cafe/2019-February/130694.html
+https://mail.haskell.org/pipermail/libraries/2007-March/007019.html
