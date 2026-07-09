@@ -3454,3 +3454,7 @@ https://www.haskell.org/haskell-symposium/2016/
 https://www.haskell.org/haskell-symposium/2017/index.html
 https://www.haskell.org/haskell-symposium/1999/1999-28.pdf
 https://www.researchgate.net/publication/3677430_Linear_logic_monads_and_the_lambda_calculus
+https://dl.acm.org/doi/10.1145/2503778.2503790
+https://www.microsoft.com/en-us/research/wp-content/uploads/1995/01/io-tutorial.pdf
+https://www.cs.tufts.edu/~kfisher/cs242/2008/Slides/Monads.pdf
+https://www.cmi.ac.in/~spsuresh/teaching/prgh15/lectures/lecture22.pdf
