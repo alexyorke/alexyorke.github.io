@@ -2695,6 +2695,9 @@ https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Contr
 https://github.com/simonmar/monad-par/issues/18
 https://github.com/haskell/cabal/issues/5303
 https://gist.github.com/ymdfield/b681b81c4ce24038ed8be6f7b6cc4f01?permalink_comment_id=5597179
+https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin-internal/src/Bluefin/Internal.hs
+https://github.com/ianmbloom/futhask
+https://github.com/sergv/emacs-module/blob/master/Tutorial.md
 https://www.altocumulus.org/Fudgets/dist.html
 https://www.altocumulus.org/Fudgets/links.html
 https://arxiv.org/abs/1501.04132
