@@ -3989,3 +3989,5 @@ https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl2004.html
 https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl1998.html
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/
 https://cs.ioc.ee/tfp-icfp-gpce05/page.php?page=prog
+https://link.springer.com/chapter/10.1007/3-540-45361-X_8
+https://www.researchgate.net/publication/237485064_The_Hume_Report_Version_11
