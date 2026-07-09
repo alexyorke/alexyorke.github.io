@@ -3922,3 +3922,6 @@ https://www.haskell.org/haskellwiki/Par_Monad:_A_Parallelism_Tutorial
 https://www.haskell.org/haskellwiki/compose
 https://www.haskell.org/haskellwiki/MapReduce_as_a_monad
 https://www.haskell.org/haskellwiki/Enter_the_Lambda
+https://www.haskell.org/haskellwiki/MonadCont_done_right
+https://www.haskell.org/haskellwiki/Hac_2007_II/Projects
+https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue5/Practical_Graph_Handling
