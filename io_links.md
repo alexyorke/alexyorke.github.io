@@ -4354,3 +4354,6 @@ https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin/src/Bluefin.hs
 https://github.com/tomjaguarpaw/bluefin-style-effectful/blob/main/README.md
 https://github.com/haskell-effectful/effectful/blob/master/benchmarks/README.md
 https://github.com/haskell-effectful/effectful/blob/master/README.md
+https://github.com/tomjaguarpaw/bluefin/issues/85
+https://github.com/tomjaguarpaw/bluefin/issues/52
+https://github.com/haskell-effectful/effectful/issues/261
