@@ -3339,3 +3339,5 @@ https://web.engr.oregonstate.edu/~erwig/papers/PFP_JFP06.pdf
 https://www.randomhacks.net/files/build-your-own-probability-monads.pdf
 https://gatowololo.github.io/resources/publications/detflow.pdf
 https://people.cs.kuleuven.be/~tom.schrijvers/Research/talks/probability_monad.pdf
+https://dl.acm.org/doi/10.1145/174675.178047
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/notions-of-computation-as-monoids/70019FC0F2384270E9F41B9719042528
