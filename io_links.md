@@ -28,6 +28,7 @@ https://abhiroop.github.io/pubs/HasTEE_SGX.pdf
 https://dl.acm.org/doi/10.1145/1088348.1088354
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
 https://dl.acm.org/doi/10.1145/292540.292557
+https://dl.acm.org/doi/proceedings/10.1145/581690
 https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
 https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell
@@ -601,6 +602,7 @@ https://link.springer.com/book/10.1007/978-1-4471-3166-3
 https://digitalcollections.ohsu.edu/record/122/files/122_etd.pdf
 https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbib.pdf
 https://web.cecs.pdx.edu/~mpj/pubs/language.pdf
+https://dspace.mit.edu/entities/publication/ffc8c204-c55b-4783-947c-fdf298ee5228
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
