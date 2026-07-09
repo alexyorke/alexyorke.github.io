@@ -2995,3 +2995,4 @@ https://github.com/rust-unofficial/awesome-rust
 https://github.com/birmjin10000/Haskell_for_seasoned_programmers
 https://github.com/louthy/language-ext/discussions/1343
 https://github.com/tmcgilchrist/postgresql-transactional
+http://slides.com/fp-ctd/lecture-6#/
