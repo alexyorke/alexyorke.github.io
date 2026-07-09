@@ -3300,3 +3300,5 @@ https://dl.ifip.org/db/conf/dsl/dsl2009/HarrisonPAKA09.pdf
 https://quantumpl.github.io/bib/publication/
 https://www.researchgate.net/publication/2316727_A_Modular_Monadic_Action_Semantics
 https://www.usenix.org/conference/dsl-97/modular-monadic-action-semantics
+https://www.cl.cam.ac.uk/teaching/1718/L28/10-monads-notes.pdf
+https://www.sigmod.org/publications/dblp/db/conf/fpca/fpca93.html
