@@ -4683,3 +4683,4 @@ https://www.biblio.cerist.dz/hrbdonf5214/ouvrages/00000000000000595141000000_2.p
 https://reasonablypolymorphic.com/blog/design-and-interpretation/
 https://reasonablypolymorphic.com/blog/specialization/
 https://reasonablypolymorphic.com/blog/writing-custom-optimizations/
+https://academy.fpblock.com/blog/philosophies-rust-haskell/
