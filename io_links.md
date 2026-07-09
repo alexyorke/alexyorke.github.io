@@ -3077,3 +3077,4 @@ https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/3169
 https://www.haskell.org/haskellwiki/FFI_Introduction
 https://www.haskell.org/haskellwiki/FFICookBook
 https://www.haskell.org/haskellwiki/HSFFIG
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e293f0c0-320c-452d-b0a8-da30e99b13de.xhtml
