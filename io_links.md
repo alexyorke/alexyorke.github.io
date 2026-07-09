@@ -2666,3 +2666,4 @@ https://homepages.inf.ed.ac.uk/slindley/papers/modal-effects.pdf
 https://www.altocumulus.org/haskell-report/intro.html
 https://www.altocumulus.org/haskell-report/basic.html
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/01/fp94.pdf
+https://cmsc-16100.cs.uchicago.edu/2017/lectures.php
