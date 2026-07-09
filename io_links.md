@@ -4611,3 +4611,6 @@ https://www.schoolofhaskell.com/user/griba/error-parameterized-monad-and-transfo
 https://haskellforall.com/2012/05/pipes-20-pipe-finalization
 https://www.researchgate.net/publication/2247556_FUDGETS_a_graphical_user_interface_in_a_lazy_functional_language
 https://www.cs.ru.nl/~marko/research/pubs/2001/achp2001-HaskellObjectIO.pdf
+https://academy.fpblock.com/blog/2017/07/the-rio-monad/
+https://mmhaskell.com/blog/2017/5/29/smart-data-with-conduits
+https://www.schoolofhaskell.com/user/rl/forking-forks-and-unsafeperformio
