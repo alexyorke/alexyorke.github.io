@@ -3532,3 +3532,6 @@ https://www.haskell.org/haskellwiki/Simple_monad_examples
 https://goodmath.scientopia.org/2007/01/23/haskell-a-first-step-into-monads/
 https://goodmath.scientopia.org/2007/01/29/more-monads-stateful-programming/
 https://goodmath.scientopia.org/2007/01/31/the-theory-of-monads-and-the-monad-laws/
+https://www.haskell.org/haskellwiki/MonadPlus_reform_proposal
+https://www.haskell.org/haskellwiki/MonadPrimer
+https://www.haskell.org/haskellwiki/Monadplus
