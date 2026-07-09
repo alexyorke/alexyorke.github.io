@@ -2998,3 +2998,4 @@ https://github.com/tmcgilchrist/postgresql-transactional
 http://slides.com/fp-ctd/lecture-6#/
 https://github.com/haskell-streaming/streaming
 https://arxiv.org/html/2602.19973v2
+https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/2005/eves2005-FFormsIFL04.pdf
