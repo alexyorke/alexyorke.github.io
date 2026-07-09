@@ -4515,3 +4515,6 @@ https://blog.cwb.dk/yes-io-is-possible-in-a-functional-world
 https://discourse.haskell.org/t/how-realworld-passes-to-the-main/9680
 https://wiki.c2.com/?PurelyFunctionalOperatingSystem=
 https://www.funwithfunctions.com/
+https://mail.haskell.org/pipermail/beginners/2011-October/008692.html
+https://mail.haskell.org/pipermail/beginners/2011-December/009141.html
+https://mail.haskell.org/pipermail/haskell-cafe/2019-February/130667.html
