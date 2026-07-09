@@ -3512,3 +3512,8 @@ https://icfp17.sigplan.org/details/mlfamilyworkshop-2017-papers/2/Effectively-ta
 https://se.informatik.uni-tuebingen.de/publications/brachthaeuser21representing/
 https://www.researchgate.net/publication/343413725_Effect_handlers_evidently
 https://xnning.github.io/slides/effect-handlers-evidently.pdf
+http://book.realworldhaskell.org/read/efficient-file-processing-regular-expressions-and-file-name-matching.html
+http://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the-filesystem.html
+https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch08.html
+https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch09.html
+https://books.google.fr/books?hl=fr&id=nh0okI1a1sQC&num=20
