@@ -3031,3 +3031,5 @@ https://www.cs.indiana.edu/~rrnewton/papers/ppopp17-sc-haskell.pdf
 https://www.cs.umd.edu/~rrand/voqc_draft.pdf
 https://www.cs.cornell.edu/people/fluet/research/tx-events/ICFP06/icfp06.pdf
 https://coalg.org/calco15/papers/p18-Pir%C3%B3g.pdf
+https://books.google.com/books/about/Functional_Programming_and_Input_Output.html?id=IykU332XpQ8C
+https://books.google.com/books?cad=3&id=D9KE8M-j90sC&source=gbs_book_other_versions_r
