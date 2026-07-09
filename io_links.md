@@ -888,6 +888,8 @@ https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec45
 https://books.google.com/books/about/Haskell_Programming_from_First_Principles.html?id=2J9HDwAAQBAJ
 https://books.google.com/books/about/Real_World_Haskell.html?id=Qm1GAAAAMAAJ
 https://books.google.com/books/about/Practical_Programming_in_Haskell.html?id=YK5TDwAAQBAJ
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c143/
+https://subscription.packtpub.com/book/programming/9781786464217/8/ch08lvl1sec56/summary
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
