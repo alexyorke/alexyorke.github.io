@@ -719,6 +719,8 @@ https://groups.google.com/g/comp.lang.functional/c/Sku_QA6ALBU
 https://www.engr.mun.ca/~theo/Publications/index.html
 https://www.bibsonomy.org/bibtex/27db3f265f10ffdfe33784b42c17105f3/alexv
 https://proofcafe.org/ocaml-nagoya/index.php?openfile=dontpanic04.pdf&plugin=attach&refer=%EF%BF%BD%CD%A5%EF%BF%BD%EF%BF%BD%EF%BF%BD%CF%BF%EF%BF%BD%EF%BF%BD%2Fcategory
+https://www.haskell.org/haskell-workshop/2007/
+https://www.cs.ox.ac.uk/ralf.hinze/hw2001.html
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -3761,3 +3763,18 @@ https://haskellforall.com/2017/10/why-do-our-programs-need-to-read-input
 https://haskellforall.com/2012/09/concurrency-lists-of-kleisli-arrows
 https://haskellforall.com/2012/09/the-monadtrans-class-is-missing-method
 https://haskellforall.com/2013/06/pipes-parse-100-pushback-delimited
+http://www.cl.cam.ac.uk/users/adg/fpio.html
+https://www.cs.chalmers.se/Fudgets/
+ftp://ftp.cs.chalmers.se/pub/haskell/chalmers/
+https://andrewdgordon.github.io/cv.pdf
+http://haskell.cs.yale.edu/haskell-report/haskell-report.html
+https://haskell.cs.yale.edu/wp-content/uploads/2011/01/haskell-report-1.3.pdf
+https://www.haskell.org/definition/haskell-report.html
+ftp://haskell.cs.yale.edu/pub/haskell/report/haskell-report.ps.gz
+ftp://haskell.cs.yale.edu/pub/haskell/report/prelude-files.tar.gz
+https://www.altocumulus.org/haskell-report/decls.html
+https://web.cecs.pdx.edu/~mpj/pubs/haskwork95.html
+https://web.cecs.pdx.edu/~mpj/pubs.html
+http://research.microsoft.com/Users/simonpj/haskell98-revised/haskell98-report-html/io.html
+https://www.cl.cam.ac.uk/ftp/papers/adg/fpio.pdf
+http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/subsubsectionstar3_3_2_2.html
