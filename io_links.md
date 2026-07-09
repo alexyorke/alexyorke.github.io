@@ -3347,3 +3347,5 @@ https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=
 https://kodu.ut.ee/~varmo/FP2007/slides/loeng12.pdf
 https://people.cs.nott.ac.uk/pszgmh/book-review.pdf
 https://xavierleroy.org/CdF/2018-2019/5.pdf
+https://blog.ezyang.com/2012/02/anatomy-of-you-could-have-invented/
+https://www-users.mat.uni.torun.pl/~fly/materialy/fp/haskell-doc/Monads.html
