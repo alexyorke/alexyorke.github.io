@@ -3332,3 +3332,6 @@ https://dl.acm.org/doi/10.1145/2804302.2804317
 https://okmij.org/ftp/kakuritu/dsl-paper.pdf
 https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/quantitative-information-flow-with-monads-in-haskell/5FF49759807A74E7C42B8C8E0195F654
 https://www.repository.cam.ac.uk/items/4c4699e6-cc21-4725-8ff7-b24956dc9511
+https://dl.acm.org/doi/10.1145/2887747.2804317
+https://pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf
+https://www.cs.tufts.edu/comp/150PP/handouts/0928pmonad2c.pdf
