@@ -3945,3 +3945,7 @@ https://www.haskell.org/haskellwiki/Tangible_Value
 https://www.haskell.org/haskellwiki/Applications_and_libraries/Data_structures
 https://www.haskell.org/haskellwiki/Alternatives_and_extensions_for_libraries
 https://www.haskell.org/haskellwiki/Category%3ALibraries
+https://www.haskell.org/ghc/docs/6.8.3/html/libraries/mtl/Control-Monad-Cont.html
+https://www.haskell.org/ghc/docs/6.8.3/html/libraries/transformers/Control-Monad-Trans-Class.html
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Class.html
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Maybe.html
