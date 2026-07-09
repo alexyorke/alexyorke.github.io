@@ -3380,3 +3380,5 @@ https://www.researchgate.net/publication/262974393_Polymonadic_Programming
 https://labs.oracle.com/pls/apex/f?p=94065%3A10%3A102749908185725%3A5738
 https://dl.acm.org/doi/10.1145/1706299.1706354
 https://dl.acm.org/doi/10.1145/2034773.2034778
+https://www.vladimirzdrazil.com/til/learning/abstraction-intuition-and-monad-tutorial-falacy/
+https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html
