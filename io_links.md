@@ -3441,3 +3441,7 @@ https://assets.cambridge.org/97805216/43382/frontmatter/9780521643382_frontmatte
 https://assets.cambridge.org/97805210/70072/index/9780521070072_index.pdf
 https://www.haskell.org/definition/haskell-report-1.3.html
 https://www.haskell.org/definition/haskell-library-1.4.html
+https://www.haskell.org/definition/aboutHaskell98.html
+https://www.haskell.org/definition/haskell98-bugs.html
+https://www.haskell.org/definition/haskell98-revised-bugs.html
+https://www.haskell.org/onlinereport/haskell.html
