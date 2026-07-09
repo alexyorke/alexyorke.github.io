@@ -3942,3 +3942,6 @@ https://www.haskell.org/haskellwiki/MonadLib
 https://www.haskell.org/haskellwiki/Eros
 https://www.haskell.org/haskellwiki/DeepArrow
 https://www.haskell.org/haskellwiki/Tangible_Value
+https://www.haskell.org/haskellwiki/Applications_and_libraries/Data_structures
+https://www.haskell.org/haskellwiki/Alternatives_and_extensions_for_libraries
+https://www.haskell.org/haskellwiki/Category%3ALibraries
