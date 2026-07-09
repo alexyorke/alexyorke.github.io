@@ -3035,3 +3035,5 @@ https://books.google.com/books/about/Functional_Programming_and_Input_Output.htm
 https://books.google.com/books?cad=3&id=D9KE8M-j90sC&source=gbs_book_other_versions_r
 https://cs.brown.edu/people/sk/Publications/Papers/Published/fffk-functional-io/
 https://www.haskell.org/communities/05-2007/html/report.html
+https://api.pageplace.de/preview/DT0400.9781107266483_A23760369/preview-9781107266483_A23760369.pdf
+https://books.google.com.vc/books?id=aexmQgAACAAJ&printsec=copyright
