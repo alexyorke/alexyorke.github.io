@@ -4033,3 +4033,13 @@ https://dl.acm.org/doi/10.5555/77350.77353
 https://dl.acm.org/doi/10.5555/646794.704856
 https://www.research.ed.ac.uk/en/publications/notions-of-computation-and-monads/
 https://www.research.ed.ac.uk/en/publications/computational-lambda-calculus-and-monads/
+https://www.research.ed.ac.uk/en/publications/a-reflection-on-call-by-value/
+https://www.research.ed.ac.uk/en/publications/the-semantic-marriage-of-monads-and-effects/
+https://www.research.ed.ac.uk/en/publications/monads-and-effects/
+https://www.research.ed.ac.uk/en/publications/notions-of-computation-determine-monads/
+https://www.research.ed.ac.uk/en/publications/linear-logic-monads-and-the-lambda-calculus/
+https://augusta.elsevierpure.com/en/publications/unifying-graded-and-parameterised-monads
+https://www.research.ed.ac.uk/en/publications/rows-and-capabilities-as-modal-effects/
+https://ieeexplore.ieee.org/document/316054/
+https://www.research.ed.ac.uk/en/publications/a-general-semantics-for-evaluation-logic/
+https://journals.sagepub.com/doi/10.3233/FI-1995-22126
