@@ -3920,3 +3920,5 @@ https://patryshev.com/monad/m-intro.html
 https://www.haskell.org/haskellwiki/Category:Monad
 https://www.haskell.org/haskellwiki/Par_Monad:_A_Parallelism_Tutorial
 https://www.haskell.org/haskellwiki/compose
+https://www.haskell.org/haskellwiki/MapReduce_as_a_monad
+https://www.haskell.org/haskellwiki/Enter_the_Lambda
