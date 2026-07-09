@@ -3352,3 +3352,9 @@ https://www-users.mat.uni.torun.pl/~fly/materialy/fp/haskell-doc/Monads.html
 https://ncatlab.org/nlab/show/imperative%2Bprogramming
 https://ncatlab.org/nlab/show/domain%2Bspecific%2Bembedded%2Bprogramming%2Blanguage
 https://ncatlab.org/nlab/show/algebra%2Bover%2Ba%2Bmonad
+https://confengine.com/conferences/functional-conf-2019/proposal/11256/hierarchical-free-monads-and-software-design-in-functional-programming
+https://confengine.com/conferences/functional-conf-2014/proposal/410/you-could-have-invented-monads
+https://www.youtube.com/watch?v=ouaR1A4ATdM
+https://www.youtube.com/watch?v=GyhDQ7BAQJw
+https://gist.github.com/fatcerberus/beae4d15842071eab24fca2f0740c2ef
+https://www.slideshare.net/slideshow/monads-are-no-nomads-unlocking-the-basics/272673689
