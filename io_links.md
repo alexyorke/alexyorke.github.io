@@ -15,9 +15,14 @@ https://simon.peytonjones.org/Tackling-the-awkward-squad/
 https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf
 https://dl.acm.org/doi/10.5555/895692
+https://dl.acm.org/doi/10.1145/2887747.2804311
+https://dl.acm.org/doi/10.1145/3156695.3122968
+https://dl.acm.org/doi/10.1145/1863523.1863536
 https://dl.acm.org/doi/10.1145/507635.507655
 https://dl.acm.org/doi/abs/10.1145/351268.351276
 https://dl.acm.org/doi/10.1145/1596638.1596653
+https://dl.acm.org/doi/abs/10.1145/581690.581695
+https://dl.acm.org/doi/10.1145/1160074.1159821
 https://dhil.net/research/papers/awkward_effects-ml17.pdf
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29
 https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11
