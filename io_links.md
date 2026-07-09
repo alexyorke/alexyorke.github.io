@@ -4313,3 +4313,6 @@ https://arxiv.org/abs/2307.13172
 https://arxiv.org/abs/2310.10887
 https://haskell-explained.gitlab.io/blog/posts/2019/07/28/polysemy-is-cool-part-1/
 https://jproyo.github.io/posts/2021-03-17-encoding-effects-with-freer-simple/
+https://haskell-explained.gitlab.io/blog/posts/2019/07/31/polysemy-is-cool-part-2/index.html
+https://discourse.haskell.org/t/bluefin-algae-algebraic-effects-in-bluefin/9470
+https://reasonablypolymorphic.com/blog/freer-higher-order-effects/
