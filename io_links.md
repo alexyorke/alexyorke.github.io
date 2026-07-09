@@ -3544,3 +3544,6 @@ https://okmij.org/ftp/Computation/monadic-reflection.txt
 https://okmij.org/ftp/Computation/numbered-monad.txt
 https://okmij.org/ftp/Computation/proving-monad-laws.txt
 https://okmij.org/ftp/Computation/random-var-monad.txt
+https://blog.sigfpe.com/2009/12/where-do-monads-come-from.html
+https://blog.sigfpe.com/2008/10/operads-and-their-monads.html
+https://blog.sigfpe.com/2009/10/what-category-do-haskell-types-and.html
