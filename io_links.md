@@ -4232,3 +4232,5 @@ https://free.cofree.io/2020/07/20/perform-io/
 https://stackoverflow.com/questions/10529284/is-there-ever-a-good-reason-to-use-unsafeperformio
 https://stackoverflow.com/questions/19371636/am-i-abusing-unsafeperformio
 https://news.ycombinator.com/item?id=1531832
+https://well-typed.com/blog/2013/07/video-and-slides-on-alternatives-to-lazy-io/
+https://well-typed.com/blog/aux/files/alternatives-to-lazy-io.pdf
