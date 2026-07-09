@@ -3173,3 +3173,7 @@ https://arxiv.org/abs/1912.13477
 https://link.springer.com/content/pdf/10.1007/978-3-030-99253-8_22.pdf
 https://dl.acm.org/doi/pdf/10.1145/3547654
 https://mta.ca/~rrosebru/FMCS2018/Slides/Uustalu.pdf
+https://entics.episciences.org/10491/pdf
+https://cs.ioc.ee/~tarmo/papers/mcdermott-uustalu-mpc22-authorver.pdf
+https://cs.ioc.ee/~tarmo/icfp21-tutorial/icfp21-slides.pdf
+https://www.cl.cam.ac.uk/events/owls/slides/uustalu.pdf
