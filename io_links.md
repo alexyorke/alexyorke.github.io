@@ -3190,3 +3190,7 @@ https://arxiv.org/abs/2504.10159
 https://tel.archives-ouvertes.fr/tel-02416788
 https://repositum.tuwien.at/bitstream/20.500.12708/192966/1/Siebenhandl%20Hannes%20-%202023%20-%20Opt-in%20protocol%20types%20for%20effect%20systems%20in%20Haskell.pdf
 https://radar.inria.fr/rapportsactivite/RA2019/prosecco/uid65.html
+https://arxiv.org/pdf/2110.07493
+https://doi.org/10.1145/3428194
+https://doi.org/10.1145/3779209.3779536
+https://doi.org/10.1016/j.scico.2024.103086
