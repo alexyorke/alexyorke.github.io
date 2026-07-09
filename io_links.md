@@ -4604,3 +4604,6 @@ https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/
 https://files.osf.io/v1/resources/kdb7h/providers/osfstorage/5fa688b291419d005566ad67?action=download&direct=&version=1
 https://cs.brown.edu/people/sk/Publications/Papers/Published/plpk-reactor-design/paper.pdf
 https://books.google.co.in/books?id=O_M8AAAAIAAJ&printsec=copyright
+https://www.schoolofhaskell.com/user/agocorona/EDSL-for-hard-working-IT-programmers
+https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/12-State-Monad
+https://www.schoolofhaskell.com/user/bjterry/interfacing-with-restful-json-apis
