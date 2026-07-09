@@ -2851,3 +2851,9 @@ https://www.stackage.org/package/resourcet
 https://www.stackage.org/package/conduit-extra
 https://www.cambridge.org/highereducation/books/the-haskell-school-of-expression/70651D70E17ECC07C91D8487D2EFEAE7
 https://wdi.centralesupelec.fr/users/valiron/qplmfps/papers/qs09t3.pdf
+https://hackage.haskell.org/package/async
+https://hackage.haskell.org/package/stm
+https://hackage.haskell.org/package/exceptions
+https://hackage.haskell.org/package/safe-exceptions
+https://hackage.haskell.org/package/lifted-async
+https://hackage.haskell.org/package/resource-pool
