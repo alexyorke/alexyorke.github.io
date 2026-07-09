@@ -3985,3 +3985,7 @@ https://www.e-booksdirectory.com/details.php?ebook=1760
 https://www.red-bean.com/~bos/realworldhaskell/
 https://www.researchgate.net/publication/2242966_High_Level_Specification_of_IO_in_Functional_Languages
 https://www.sciencedirect.com/science/article/pii/S1571066105801999
+https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl2004.html
+https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl1998.html
+https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/
+https://cs.ioc.ee/tfp-icfp-gpce05/page.php?page=prog
