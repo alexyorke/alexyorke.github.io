@@ -929,6 +929,9 @@ https://www.stackage.org/package/exception-mtl
 https://www.stackage.org/package/MonadCatchIO-transformers
 https://www.stackage.org/package/monad-peel
 https://www.stackage.org/package/di-monad
+https://www.stackage.org/package/async-pool
+https://www.stackage.org/package/monad-logger
+https://www.stackage.org/package/scientist
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
