@@ -2686,3 +2686,11 @@ https://github.com/haskell-effectful/effectful/issues/99
 https://github.com/hmac/kite
 https://www.microsoft.com/en-us/research/publication/relating-operational-denotational-semantics-inputoutput-effects/
 https://www.microsoft.com/en-us/research/publication/a-sound-metalogical-semantics-for-inputoutput-effects/
+https://www.altocumulus.org/Fudgets/dist.html
+https://www.altocumulus.org/Fudgets/links.html
+https://arxiv.org/abs/1501.04132
+https://dl.acm.org/doi/10.1145/3290388
+https://reflex-frp.org/
+https://dl.acm.org/doi/10.1145/3110246
+https://www.microsoft.com/en-us/research/project/koka/
+https://arxiv.org/abs/1306.6316
