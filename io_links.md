@@ -4089,6 +4089,7 @@ https://haskellweekly.news/issue/286.html
 https://blog.moertel.com/posts/2007-03-07-directory-tree-printing-in-haskell-part-two-refactoring.html
 https://blog.moertel.com/archive.html
 https://blog.jle.im/entries/tagged/haskell.html
+https://blog.jle.im/entry/a-non-unique-monad-instance.html
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
