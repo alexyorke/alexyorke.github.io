@@ -3961,3 +3961,6 @@ https://www.haskell.org/haskellwiki/Sorting_large_arrays
 https://www.haskell.org/haskellwiki/sudoku
 https://www.haskell.org/haskellwiki/Introduction/Direct_Translation
 https://en.wikibooks.org/wiki/Haskell/Libraries/IO
+https://www.haskell.org/haskellwiki/New_monads/MonadBase
+https://www.haskell.org/haskellwiki/New_monads/MonadBaseControl
+https://www.haskell.org/haskellwiki/New_monads/LazyWriterT
