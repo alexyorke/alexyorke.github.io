@@ -3489,3 +3489,9 @@ https://dl.acm.org/doi/10.1145/224164.224213
 https://d3s.mff.cuni.cz/publications/petricek_joinads_2011/
 https://link.springer.com/chapter/10.1007/978-3-642-18378-2_17
 https://www.researchgate.net/publication/220802969_Joinads_A_Retargetable_Control-Flow_Construct_for_Reactive_Parallel_and_Concurrent_Programming
+https://books.google.com/books/about/Functional_Programming_Glasgow_1994.html?id=BmngBwAAQBAJ
+https://books.google.com/books/about/Logic_Programming.html?id=ZKsV2ajbpQwC
+https://books.google.com/books/about/Central_European_Functional_Programming.html?hl=fr&id=CQJtCQAAQBAJ
+https://books.google.com/books/about/Magical_Haskell.html?id=A4kJ0QEACAAJ
+https://books.google.com/books/about/Functional_Programming_with_Go.html?id=Y_ANEQAAQBAJ
+https://books.google.com/books/about/Advanced_Functional_Programming_in_Haske.html?id=Huxp0QEACAAJ
