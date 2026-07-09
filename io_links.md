@@ -4614,3 +4614,4 @@ https://www.cs.ru.nl/~marko/research/pubs/2001/achp2001-HaskellObjectIO.pdf
 https://academy.fpblock.com/blog/2017/07/the-rio-monad/
 https://mmhaskell.com/blog/2017/5/29/smart-data-with-conduits
 https://www.schoolofhaskell.com/user/rl/forking-forks-and-unsafeperformio
+https://www.snoyman.com/blog/2018/10/raii-better-than-bracket-pattern/
