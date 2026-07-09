@@ -2716,3 +2716,12 @@ https://hackage-content.haskell.org/package/auto-update-unliftio-0.1.0.0/candida
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Writer.Static.Shared.html
 https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/src/Bluefin.Writer.html
 https://hackage-content.haskell.org/package/bluefin-0.2.6.0/docs/src/Bluefin.Consume.html
+https://hackage-content.haskell.org/package/bluefin-internal-0.5.1.0/docs/Bluefin-Internal-DslBuilder.html
+https://hackage-content.haskell.org/package/bluefin-internal-0.5.1.0/docs/src/Bluefin.Internal.GadtEffect.html
+https://hackage-content.haskell.org/package/bluefin-contrib-0.2.1.0/docs/Bluefin-Contrib-State.html
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/src/Effectful.Concurrent.html
+https://hackage-content.haskell.org/package/auto-update-unliftio-0.1.0.0/candidate/docs/UnliftIO-Debounce.html
+https://hackage-content.haskell.org/package/auto-update-unliftio-0.1.0.0/candidate/docs/UnliftIO-Debounce-Internal.html
+https://hackage-content.haskell.org/package/tower-hs-0.3.0.1/docs/Tower.Service.html
+https://hackage-content.haskell.org/package/tower-hs-0.3.0.1/docs/Tower.html
+https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.html
