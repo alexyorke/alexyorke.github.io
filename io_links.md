@@ -3006,3 +3006,4 @@ https://pdfs.semanticscholar.org/dd9a/8d3986630da6dea10c504c907681fdb3c322.pdf
 https://www.cse.chalmers.se/~russo/publications_files/haskell22Ext-russo.pdf
 https://github.com/getify/monio/blob/master/MONADS.md
 https://cs.ru.nl/~freek/courses/mfocs-2024/slides/lyra.pdf
+https://www.scs.stanford.edu/14sp-cs240h/projects/dimson_ganjoo.pdf
