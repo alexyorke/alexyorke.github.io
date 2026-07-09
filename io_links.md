@@ -4630,3 +4630,6 @@ https://stackoverflow.com/questions/11362930/how-do-i-actually-execute-a-statet-
 https://stackoverflow.com/questions/71072001/combining-resourcet-with-bracket-in-a-streaming-pipeline
 https://stackoverflow.com/questions/9054731/avoiding-lift-with-monad-transformers
 https://stackoverflow.com/questions/69532999/implementing-a-liftio-style-lift-for-monad-transformers-in-haskell
+https://stackoverflow.com/questions/77518119/how-can-i-use-liftio-with-state-to-print-values-inside-that-monad
+https://stackoverflow.com/questions/69327798/how-to-use-exceptt-to-replace-lots-of-io
+https://stackoverflow.com/questions/3640120/combine-state-with-io-actions
