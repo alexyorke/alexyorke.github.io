@@ -2742,3 +2742,6 @@ https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Prelude.Re
 https://dl.acm.org/doi/pdf/10.1145/158511.158524
 https://link.springer.com/chapter/10.1007/978-3-642-17685-2_5
 https://people.cs.nott.ac.uk/pszgmh/stm.pdf
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.MTL.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.IO.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.System.IO.html
