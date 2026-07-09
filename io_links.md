@@ -4666,3 +4666,4 @@ https://www.snoyman.com/blog/2017/12/what-makes-haskell-unique/
 https://www.snoyman.com/blog/2018/02/conduitpocalypse/
 https://vadosware.io/post/rest-ish-services-in-haskell-part-3/
 https://vadosware.io/post/adding-naive-in-memory-caching-to-my-haskell-webapp/
+https://blog.jle.im/entry/holly-jolly-streaming-combinators.html
