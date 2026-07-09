@@ -6,6 +6,9 @@ https://dl.acm.org/doi/10.1145/143165.143169
 https://dl.acm.org/doi/10.5555/647698.734146
 https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/
+https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf
+https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/Wadler-MonadsFP.pdf
+https://homes.luddy.indiana.edu/sabry/files/mdo-ita.pdf
 https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf
 https://dl.acm.org/doi/10.1145/319838.319876
@@ -620,6 +623,9 @@ https://books.google.com/books/about/Programming_in_Haskell.html?id=75C5DAAAQBAJ
 https://books.google.com/books/about/Haskell_Programming_from_First_Principle.html?id=5FaXDAEACAAJ
 https://books.google.com/books/about/Developing_Web_Apps_with_Haskell_and_Yes.html?id=kJe4BgAAQBAJ
 https://dokumen.pub/haskell-the-craft-of-functional-programming-3rd-revised-edition-9780201882957-9781447914242-0201882957.html
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-30
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-31
+https://livebook.manning.com/book/learn-haskell-by-example/chapter-15
 https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=ypNQAAAAMAAJ
 https://www.haskell.org/haskellwiki/Introduction_to_IO
 https://www.haskell.org/haskellwiki/All_about_monads
@@ -634,6 +640,7 @@ https://assets.cambridge.org/97813166/26221/excerpt/9781316626221_excerpt.pdf
 https://assets.cambridge.org/97811070/87200/toc/9781107087200_toc.pdf
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/quantum-io-monad/1C501E5F1E9964F7B7183A18754FABE1
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/810AD13D88C863565F604132FF4A5FDE
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/
 https://link.springer.com/chapter/10.1007/978-3-662-02880-3_8
 https://www.cambridge.org/core/books/haskell-school-of-music/6B377BCD40386E9D27EB93FC2F3B13FB
 https://blogs.asarkar.com/assets/docs/haskell/Monad%20Transformers%20Step%20by%20Step%20-%20Grabmuller.pdf
@@ -686,6 +693,8 @@ https://dspace.mit.edu/entities/publication/ffc8c204-c55b-4783-947c-fdf298ee5228
 https://groups.google.com/g/comp.lang.functional/c/EQb7zV8JlLk
 https://www.seas.upenn.edu/~sweirich/types/archive/1993/msg00111.html
 https://homepages.inf.ed.ac.uk/stark/catmln.pdf
+https://www.cs.ox.ac.uk/monographs/cs/1983.html
+https://www.eighty-twenty.org/page3/
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -695,6 +704,7 @@ https://ncatlab.org/schreiber/files/QuantumMonadology-240120.pdf
 https://link.springer.com/chapter/10.1007/10704973_7
 https://ku-fpg.github.io/papers/Gill-15-RemoteMonad/
 https://www.cs.tufts.edu/comp/150DAO/notes.html
+https://www.cs.tufts.edu/comp/150PLD/hw04-1.html
 https://www.numdam.org/item/10.1051/ita%3A2004018.pdf
 https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/
 https://www2.cs.sfu.ca/CourseCentral/383/burton/Notes/Reading/MonadsAsContainers.pdf
