@@ -2845,3 +2845,8 @@ https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Async.html
 https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Exception.html
 https://hackage.haskell.org/package/bluefin/docs/Bluefin.html
 https://hackage.haskell.org/package/effectful/docs/Effectful-Concurrent.html
+https://www.stackage.org/package/monad-control
+https://www.stackage.org/package/conduit
+https://www.stackage.org/package/resourcet
+https://www.stackage.org/package/conduit-extra
+https://www.cambridge.org/highereducation/books/the-haskell-school-of-expression/70651D70E17ECC07C91D8487D2EFEAE7
