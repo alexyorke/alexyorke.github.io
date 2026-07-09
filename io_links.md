@@ -4677,3 +4677,5 @@ https://www.researchgate.net/profile/Simon-Peyton-Jones/publication/221501761_A_
 https://books.google.com/books?hl=zh-TW&id=aexmQgAACAAJ&printsec=frontcover&source=gbs_atb
 https://scispace.com/pdf/reasoning-about-deterministic-concurrent-functional-i-o-3fnzb6o8k0.pdf
 https://link.springer.com/content/pdf/10.1007/3-540-48515-5.pdf
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-824.pdf
+https://www.scienceopen.com/document_file/9a8a943f-2de9-44c1-ae3b-993bfa21dfb9/ScienceOpen/001_Holyer.pdf
