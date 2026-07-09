@@ -3167,3 +3167,5 @@ https://ncatlab.org/nlab/show/relative%2Bpseudomonad
 https://ncatlab.org/nlab/show/analytic%2Bmonad
 https://ncatlab.org/nlab/show/monad%2Bwith%2Barities
 https://ncatlab.org/nlab/files/Uustalu-Monads4.pdf
+https://ncatlab.org/nlab/files/Uustalu-Monads3.pdf
+https://staff.ru.is/tarmo/qei/
