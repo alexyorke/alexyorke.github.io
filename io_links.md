@@ -3954,3 +3954,6 @@ https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/libraries/transformers-0.5
 https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/transformers-0.5.2.0/Control-Monad-Trans-Reader.html
 https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/libraries/transformers-0.6.1.0-371d/Control-Monad-Trans-Writer-Lazy.html
 https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-State.html
+https://www.schoolofhaskell.com/user/commercial/content/covariance-contravariance
+https://www.schoolofhaskell.com/user/agocorona/a-monad-for-reactive-programming-part-1
+https://www.schoolofhaskell.com/user/agocorona/monad-reactive-programming-2
