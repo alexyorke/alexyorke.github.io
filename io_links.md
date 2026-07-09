@@ -4596,3 +4596,5 @@ https://stackoverflow.com/questions/44722277/what-is-the-io-haskell-monad-equiva
 https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbibH.html
 https://cstheory.stackexchange.com/questions/14482/resumption-based-io-systems
 https://doi.org/10.1002/spe.4380250105
+https://www.researchgate.net/publication/259502342_An_Ontology_of_States
+https://doi.org/10.1007/978-3-642-40355-2_3
