@@ -2674,3 +2674,8 @@ https://github.com/freckle/scientist-hs/blob/main/README.lhs
 https://github.com/parsonsmatt/exceptiot
 https://github.com/parsonsmatt/persistent-typed-db
 https://github.com/polysemy-research/polysemy/issues/73
+https://github.com/cdsmith/HMock
+https://github.com/RobertFischer/hs-aws-lambda
+https://github.com/boygao1992/StateBackPrototype
+https://github.com/haskell-servant/servant/issues/1729
+https://github.com/haskell-servant/servant/issues/1544
