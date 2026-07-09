@@ -3878,3 +3878,6 @@ https://search.worldcat.org/title/Functional-programming-and-inputoutput/oclc/12
 https://search.worldcat.org/es/title/haskell-98-language-and-libraries-the-revised-report/oclc/255587471
 https://openlibrary.org/authors/OL771905A/Simon_L._Peyton_Jones
 https://search.worldcat.org/title/Introduction-to-functional-programming-using-Haskell/oclc/38430804
+https://www.cs.bu.edu/fac/snyder/cs320/Lectures/Lecture12--%20State%20Monad.pdf
+https://benl.ouroborus.net/papers/2010-impure/lippmeier-impure-world.pdf
+https://lmf.di.uminho.pt/quantum-logic-2021/LQ-Monads.pdf
