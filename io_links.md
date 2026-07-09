@@ -3147,3 +3147,8 @@ https://ncatlab.org/nlab/show/relative%2Bmonad
 https://dl.acm.org/doi/10.1145/2976002.2976012
 https://www.jbracker.de/publications/2016-BrackerNilsson-Supermonads.pdf
 https://www.jbracker.de/publications/2017-BrackerNilsson-SupermonadsAndSuperapplicatives-UnderConsideration.pdf
+https://ncatlab.org/nlab/files/Voutas-Monads.pdf
+https://ncatlab.org/nlab/files/Arkor-MonadicAndHigherStructure.pdf
+https://github.com/jbracker/supermonad
+https://github.com/jbracker/polymonad-plugin
+https://github.com/jbracker/polymonad-proofs
