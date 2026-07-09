@@ -4576,3 +4576,4 @@ https://okmij.org/ftp/Scheme/monadic-io.txt
 https://okmij.org/ftp/Scheme/misc.html
 https://doi.org/10.48456/tr-160
 https://okmij.org/ftp/Haskell/Iteratee/talk-FLOPS.pdf
+https://okmij.org/ftp/packages/sys_open.c
