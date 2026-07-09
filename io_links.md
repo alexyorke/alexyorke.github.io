@@ -2893,3 +2893,10 @@ https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Condui
 https://cedric.cnam.fr/~crolardt/publications/reflection.pdf
 https://www.schemeworkshop.org/2005/03-sobel/03-sobel.pdf
 https://se.informatik.uni-tuebingen.de/publications/brachthaeuser21representing.pdf
+
+## Related C# and language-ext references
+https://learn.microsoft.com/en-us/dotnet/api/system.func-2?view=net-10.0
+https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltextasync?view=net-10.0
+https://github.com/louthy/language-ext/wiki/How-to-deal-with-side-effects
+https://www2.cs.sfu.ca/~miltner/courses/current/383/resources/generated/lectures/haskell-io.pdf
+https://jfla.inria.fr/2007/actes/Presentation/tolmach.pdf
