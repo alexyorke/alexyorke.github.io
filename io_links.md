@@ -3835,3 +3835,4 @@ https://typeclasses.com/timeline/haskell-1.3
 https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/io-13.html
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/pages/lecture-notes/
 https://opencourse.inf.ed.ac.uk/inf1a/week-10
+https://imec-publications.be/entities/publication/1a2426f8-c5c9-4b9e-be7f-ee8bf9a4a2a5
