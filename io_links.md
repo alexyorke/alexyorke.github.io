@@ -2634,3 +2634,7 @@ https://www.cs.ox.ac.uk/files/12220/MaaikeZwartDPhilThesis.pdf
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/mr.pdf
 https://homes.cs.washington.edu/~djg/2011sp/HaskellOverview.pdf
 https://github.com/xgrommx/haskell-ecosystem/blob/master/README.md
+https://forum.snap.berkeley.edu/t/monads/285
+https://raw.githubusercontent.com/typeclasses/haskell-report-archive/master/1996-05-haskell-1.3/haskell-report.pdf
+https://dl.acm.org/doi/abs/10.1145/237721.237794
+https://www.cs.ru.nl/~marko/research/pubs/2005/LNCS3474.pdf
