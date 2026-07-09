@@ -3538,3 +3538,5 @@ https://www.haskell.org/haskellwiki/Monadplus
 https://haskellforall.com/2012/06/you-could-have-invented-free-monads.html
 https://blog.sigfpe.com/2010/01/monads-are-trees-with-grafting.html
 https://blog.poisson.chat/posts/2019-06-09-free-monads-free-monads.html
+https://apfelmus.nfshost.com/articles/operational-monad.html
+https://okmij.org/ftp/Computation/free-monad.html
