@@ -768,6 +768,8 @@ https://mail.haskell.org/pipermail/haskell-cafe/2007-August/030178.html
 https://ro-che.info/ccc/9
 https://www.haskell.org/haskellwiki/Monad_tutorials_timeline
 https://homepages.inf.ed.ac.uk/wadler/topics/monads.html
+https://goodmath.org/blog/2012/08/19/monads-and-programming/
+https://blog.higher-order.com/posts/2/
 https://www.haskell.org/pipermail/haskell-cafe/2007-August.txt
 https://www.haskell.org/haskellwiki/Avoiding_IO
 https://www.haskell.org/haskellwiki/How_to_get_rid_of_IO
