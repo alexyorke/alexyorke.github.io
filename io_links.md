@@ -4057,6 +4057,13 @@ https://www.haskell.org/haskellwiki/HAppS_tutorial2
 https://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program
 https://www.haskell.org/haskellwiki/Introductory_gui_programming
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/interactive-lazy-ml-system/D76BABE75A9AD9902ECED03A5FFC0318
+https://web.cs.wpi.edu/~jshutt/surfing.html
+https://repository.readscheme.org/ftp/papers/sw2005/sobel.pdf
+https://web.engr.oregonstate.edu/~erwig/papers/CategoricalADT_AMAST98.pdf
+https://doi.org/10.1017/S0956796800000617
+https://karczmarczuk.users.greyc.fr/TEACH/Semin/Perturb/Doc/Co_gordon.pdf
+https://books.google.com.vc/books?id=Z0QA2S6fceQC&printsec=copyright
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/haskell-school-of-expression-by-hudak-paul-cambridge-univerity-press-2000-1/AD9FD992E8EF22E5171BE9DF3E2368DC
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
