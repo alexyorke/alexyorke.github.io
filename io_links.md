@@ -3335,3 +3335,7 @@ https://www.repository.cam.ac.uk/items/4c4699e6-cc21-4725-8ff7-b24956dc9511
 https://dl.acm.org/doi/10.1145/2887747.2804317
 https://pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf
 https://www.cs.tufts.edu/comp/150PP/handouts/0928pmonad2c.pdf
+https://web.engr.oregonstate.edu/~erwig/papers/PFP_JFP06.pdf
+https://www.randomhacks.net/files/build-your-own-probability-monads.pdf
+https://gatowololo.github.io/resources/publications/detflow.pdf
+https://people.cs.kuleuven.be/~tom.schrijvers/Research/talks/probability_monad.pdf
