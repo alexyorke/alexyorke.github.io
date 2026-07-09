@@ -2857,3 +2857,7 @@ https://hackage.haskell.org/package/exceptions
 https://hackage.haskell.org/package/safe-exceptions
 https://hackage.haskell.org/package/lifted-async
 https://hackage.haskell.org/package/resource-pool
+https://www.cs.ox.ac.uk/people/richard.bird/online/MuBird2001Functional.pdf
+https://dl.acm.org/doi/10.1145/871895.871900
+https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf
+https://ncatlab.org/nlab/files/Grattage-CompilingFunctionalQPL.pdf
