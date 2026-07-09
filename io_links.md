@@ -3186,3 +3186,7 @@ https://cs.ioc.ee/~tarmo/papers/capobianco-uustalu-ppdp23.pdf
 https://arxiv.org/abs/2212.07015
 https://arxiv.org/abs/2302.01415
 https://arxiv.org/abs/2511.05739
+https://arxiv.org/abs/2504.10159
+https://tel.archives-ouvertes.fr/tel-02416788
+https://repositum.tuwien.at/bitstream/20.500.12708/192966/1/Siebenhandl%20Hannes%20-%202023%20-%20Opt-in%20protocol%20types%20for%20effect%20systems%20in%20Haskell.pdf
+https://radar.inria.fr/rapportsactivite/RA2019/prosecco/uid65.html
