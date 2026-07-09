@@ -3416,3 +3416,16 @@ https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_2.htm
 https://clean.cs.ru.nl/FAQ
 https://wiki.clean.cs.ru.nl/Clean_IDE
 https://clean.cs.ru.nl/Language_features
+https://upload.wikimedia.org/wikipedia/commons/2/26/Haskell.pdf
+https://riptutorial.com/haskell/example/6378/role-and-purpose-of-io
+https://www.ccs.neu.edu/scheme/pubs/icfp09-fffk.pdf
+https://web.cecs.pdx.edu/~apt/icfp09_accepted_papers/10.html
+https://web.cecs.pdx.edu/~apt/icfp09_final_program.pdf
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-160.pdf
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-table.html
+https://homepages.dcc.ufmg.br/~camarao/fp/haskell.pdf
+https://www.cmi.ac.in/~madhavan/papers/pdf/haskell.pdf
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-OAI-SR.xml
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/haskell-school-of-expression-learning-functional-programming-through-multimedia-by-paul-hudak-cambridge-university-press-2000-363pp-isbn-0521644089/6215F433B7EF37CCC59F36B888AB9BDA
+https://www.cambridge.org/core/books/functional-programming-and-inputoutput/
+https://www.cambridge.org/core/books/the-haskell-school-of-expression/
