@@ -3074,3 +3074,6 @@ https://www.haskell.org/haskellwiki/Advocacy
 https://www.haskell.org/haskellwiki/GHC/Using_the_FFI
 https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/316945_3_En_6_Chapter.xhtml
 https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/316945_3_En_9_Chapter.xhtml
+https://www.haskell.org/haskellwiki/FFI_Introduction
+https://www.haskell.org/haskellwiki/FFICookBook
+https://www.haskell.org/haskellwiki/HSFFIG
