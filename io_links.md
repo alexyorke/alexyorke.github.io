@@ -3103,3 +3103,5 @@ https://people.cs.nott.ac.uk/pszgmh/pearl.pdf
 https://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf
 https://dl.acm.org/doi/10.1145/581478.581492
 https://plv.mpi-sws.org/plerg/papers/comprehending-monads.pdf
+https://link.springer.com/chapter/10.1007/978-3-642-60085-2_9
+https://homepages.inf.ed.ac.uk/wadler/papers/how-and-why/how-and-why.pdf
