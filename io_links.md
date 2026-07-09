@@ -4584,3 +4584,7 @@ https://dorophone.blogspot.fr/2011/11/understanding-haskell-io-monad.html
 https://solariar.net/notes/fp_side_effect.html
 https://profgra.org/lycee/presentation_Haskell_IO.html
 https://dl.acm.org/doi/pdf/10.1145/319838.319876
+https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handled-in-a-pure-functional-language-besides-with
+https://stackoverflow.com/questions/9819578/whats-the-meaning-of-io-actions-within-pure-functions
+https://stackoverflow.com/questions/1675366/a-haskell-function-of-type-io-string-string
+https://stackoverflow.com/questions/46079371/haskell-how-to-avoid-messing-pure-with-io
