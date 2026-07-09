@@ -29,6 +29,8 @@ https://dl.acm.org/doi/10.1145/1088348.1088354
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
 https://dl.acm.org/doi/10.1145/292540.292557
 https://dl.acm.org/doi/proceedings/10.1145/581690
+https://dl.acm.org/doi/pdf/10.1145/99370.99409
+https://dl.acm.org/doi/10.1145/99370.99407
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
 https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
