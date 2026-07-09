@@ -10,6 +10,7 @@ https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf
 https://dl.acm.org/doi/10.1145/319838.319876
 https://dl.acm.org/doi/10.1145/165180.165195
+https://dl.acm.org/doi/pdf/10.1145/581690.581694
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf
 https://simon.peytonjones.org/Tackling-the-awkward-squad/
 https://cs.nju.edu.cn/xyfeng/teaching/FOPL/reading/awkwardSquad.pdf
@@ -27,6 +28,7 @@ https://abhiroop.github.io/pubs/HasTEE_SGX.pdf
 https://dl.acm.org/doi/10.1145/1088348.1088354
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
 https://dl.acm.org/doi/10.1145/292540.292557
+https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
 https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell
 https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf
