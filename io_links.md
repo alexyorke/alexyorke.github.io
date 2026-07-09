@@ -4359,3 +4359,4 @@ https://github.com/tomjaguarpaw/bluefin/issues/52
 https://github.com/haskell-effectful/effectful/issues/261
 https://github.com/haskell-effectful/optparse-applicative-effectful
 https://github.com/haskell-effectful/effectful-plugin
+https://github.com/haskell-effectful/effectful/discussions/298
