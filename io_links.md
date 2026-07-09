@@ -3037,3 +3037,6 @@ https://cs.brown.edu/people/sk/Publications/Papers/Published/fffk-functional-io/
 https://www.haskell.org/communities/05-2007/html/report.html
 https://api.pageplace.de/preview/DT0400.9781107266483_A23760369/preview-9781107266483_A23760369.pdf
 https://books.google.com.vc/books?id=aexmQgAACAAJ&printsec=copyright
+https://books.google.com/books/about/The_Haskell_School_of_Expression.html?id=lQbth9j5j9oC
+https://www.cambridge.org/ag/universitypress/subjects/computer-science/programming-languages-and-applied-logic/haskell-school-expression-learning-functional-programming-through-multimedia?format=HB&isbn=9780521643382
+https://www.cambridge.org/highereducation/isbn/9780521644082/examination-copy
