@@ -4639,3 +4639,8 @@ https://stackoverflow.com/questions/12892814/how-to-convert-io-int-to-string-in-
 https://stackoverflow.com/questions/11467066/how-to-get-normal-value-from-io-action-in-haskell
 https://stackoverflow.com/questions/64184067/lift-instance-of-class-with-a-monadio-type-variable-to-the-transformed-monad
 https://stackoverflow.com/questions/75821497/is-this-a-generic-transformer-for-any-monad
+https://stackoverflow.com/questions/52568702/are-there-valid-reasons-to-build-monad-transformer-stacks-on-top-of-io
+https://stackoverflow.com/questions/18339274/monad-transformers-io-and-state
+https://stackoverflow.com/questions/75585359/why-isnt-io-an-instantiation-of-state
+https://stackoverflow.com/questions/76913036/applying-changes-to-outer-monads-in-haskell-without-using-transformer-monads
+https://stackoverflow.com/questions/53939191/how-to-flatten-io-io
