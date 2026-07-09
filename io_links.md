@@ -2789,3 +2789,8 @@ https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effe
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.Env.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.Effect.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Dispatch.Dynamic.html
+https://www.seas.upenn.edu/~cis1940/spring13/lectures/08-IO.html
+https://www.cis.upenn.edu/~cis1940/fall14/lectures/06-monoid-io.html
+https://www.seas.upenn.edu/~cis1940/spring15/hw/05-IO.pdf
+https://crypto.stanford.edu/~blynn/haskell/butter.html
+https://crypto.stanford.edu/~blynn/haskell/veterans.html
