@@ -4311,3 +4311,5 @@ https://doi.org/10.5281/zenodo.4312937
 https://arxiv.org/pdf/2503.00404
 https://arxiv.org/abs/2307.13172
 https://arxiv.org/abs/2310.10887
+https://haskell-explained.gitlab.io/blog/posts/2019/07/28/polysemy-is-cool-part-1/
+https://jproyo.github.io/posts/2021-03-17-encoding-effects-with-freer-simple/
