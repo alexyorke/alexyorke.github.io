@@ -3966,3 +3966,12 @@ https://www.haskell.org/haskellwiki/New_monads/MonadBaseControl
 https://www.haskell.org/haskellwiki/New_monads/LazyWriterT
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-Instances.html
 https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Reader.html
+https://dblp.org/rec/conf/icfp/FelleisenFFK09
+https://www.haskell.org/haskellwiki/Roll_your_own_IRC_bot
+https://www.haskell.org/haskellwiki/SPOJ
+https://www.haskell.org/haskellwiki/simple_unix_tools
+https://www.haskell.org/haskellwiki/HAppS_tutorial
+https://www.haskell.org/haskellwiki/HAppS_tutorial2
+https://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program
+https://www.haskell.org/haskellwiki/Introductory_gui_programming
+https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
