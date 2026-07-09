@@ -3928,3 +3928,5 @@ https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue5/Practical_Graph_Hand
 https://www.haskell.org/haskellwiki/Quantified_contexts
 https://www.haskell.org/haskellwiki/MonadFail
 https://www.haskell.org/haskellwiki/MonadFail_Proposal
+https://ncatlab.org/nlab/show/Kleisli%2Bcategory
+https://www.haskell.org/haskellwiki/arrow_tutorial
