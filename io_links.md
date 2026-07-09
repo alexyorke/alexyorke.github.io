@@ -3158,3 +3158,5 @@ https://www.ics.uci.edu/~jajones/INF102-S18/readings/09_Moggi.pdf
 https://person.dibris.unige.it/moggi-eugenio/ftp/ic91.pdf
 https://person.dibris.unige.it/moggi-eugenio/ftp/abs-view.pdf
 https://person.dibris.unige.it/moggi-eugenio/ftp/lics89.pdf
+https://era.ed.ac.uk/items/5220ec22-5c1d-44d7-b3b3-909d39de4094
+https://www.era.lib.ed.ac.uk/bitstream/1842/196/1/Comp_Eff_Monads.pdf
