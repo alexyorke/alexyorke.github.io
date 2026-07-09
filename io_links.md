@@ -4572,3 +4572,5 @@ https://mail.haskell.org/pipermail/haskell-cafe/2004-December/007794.html
 https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007569.html
 https://okmij.org/ftp/continuations/ZFS/context-OS.pdf
 https://okmij.org/ftp/continuations/ZFS/zfs-talk.pdf
+https://okmij.org/ftp/Scheme/monadic-io.txt
+https://okmij.org/ftp/Scheme/misc.html
