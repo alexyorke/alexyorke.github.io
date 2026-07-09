@@ -3529,3 +3529,6 @@ https://www.tutorialspoint.com/haskell/haskell_input_and_output.htm
 http://db.utwente.nl/Publications/PaperStore/db-utwente-0000003696.pdf
 http://members.chello.nl/hjgtuyl/tourdemonad.html
 https://www.haskell.org/haskellwiki/Simple_monad_examples
+https://goodmath.scientopia.org/2007/01/23/haskell-a-first-step-into-monads/
+https://goodmath.scientopia.org/2007/01/29/more-monads-stateful-programming/
+https://goodmath.scientopia.org/2007/01/31/the-theory-of-monads-and-the-monad-laws/
