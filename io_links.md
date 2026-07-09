@@ -4316,3 +4316,9 @@ https://jproyo.github.io/posts/2021-03-17-encoding-effects-with-freer-simple/
 https://haskell-explained.gitlab.io/blog/posts/2019/07/31/polysemy-is-cool-part-2/index.html
 https://discourse.haskell.org/t/bluefin-algae-algebraic-effects-in-bluefin/9470
 https://reasonablypolymorphic.com/blog/freer-higher-order-effects/
+https://haskell-effectful.github.io/ecosystem/
+https://haskell-effectful.github.io/ecosystem/system/
+https://haskell-effectful.github.io/ecosystem/mltp/
+https://haskell-effectful.github.io/ecosystem/data-storage/
+https://haskell-effectful.github.io/ecosystem/concurrency/
+https://haskell-effectful.github.io/ecosystem/cryptography/
