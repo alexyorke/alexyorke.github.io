@@ -3320,3 +3320,5 @@ https://www.researchgate.net/publication/222395061_Erratic_Fudgets_A_Semantic_Th
 https://www.sciencedirect.com/science/article/pii/S0167642302000886/pdf?md5=11d83664377c18806b9d5808d0535d10&pid=1-s2.0-S0167642302000886-main.pdf
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-regions/DD56B542BFFEB2F3F8206EBB95FE777B
 https://stefanesco.com/documents/st-monad-appendix.pdf
+https://www.researchgate.net/publication/221241358_A_Functional_IO_System_or_Fun_for_Freshman_Kids
+https://www.researchgate.net/publication/220676856_The_ins_and_outs_of_Clean_IO
