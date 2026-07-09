@@ -4081,6 +4081,10 @@ https://www.haskell.org/haskellwiki/Haskell_1.0
 https://altocumulus.org/haskell-report/printing-13.html
 https://www.ub.utwente.nl/webdocs/ctit/1/00000154.pdf
 https://mth.io/talks/streams
+https://john-millikin.com/articles/understanding-iteratees/
+https://john-millikin.com/software/enumerator/
+http://therning.org/magnus/archives/735
+http://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
