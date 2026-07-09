@@ -716,6 +716,9 @@ https://groups.google.com/g/fa.haskell/c/3XoFFzMxEjs
 https://www.researchgate.net/publication/220178104_Report_on_the_programming_language_Haskell_a_non-strict_purely_functional_language_version_12
 https://www.researchgate.net/publication/221501761_A_history_of_Haskell_Being_lazy_with_class
 https://groups.google.com/g/comp.lang.functional/c/Sku_QA6ALBU
+https://www.engr.mun.ca/~theo/Publications/index.html
+https://www.bibsonomy.org/bibtex/27db3f265f10ffdfe33784b42c17105f3/alexv
+https://proofcafe.org/ocaml-nagoya/index.php?openfile=dontpanic04.pdf&plugin=attach&refer=%EF%BF%BD%CD%A5%EF%BF%BD%EF%BF%BD%EF%BF%BD%CF%BF%EF%BF%BD%EF%BF%BD%2Fcategory
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -728,6 +731,8 @@ https://www.cs.tufts.edu/comp/150DAO/notes.html
 https://www.cs.tufts.edu/comp/150PLD/hw04-1.html
 https://cs.pomona.edu/classes/cs131/Homework/hmwk3.pdf
 https://www.engr.mun.ca/~theo/Misc/informal.html
+https://www.engr.mun.ca/~theo/Publications/Talk-for-NDev-on-TBC.pdf
+https://www.engr.mun.ca/~theo/Publications/TBC-NECEC-2015-slides.pdf
 https://www.numdam.org/item/10.1051/ita%3A2004018.pdf
 https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/
 https://www2.cs.sfu.ca/CourseCentral/383/burton/Notes/Reading/MonadsAsContainers.pdf
