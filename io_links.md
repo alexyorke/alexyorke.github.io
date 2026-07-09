@@ -2971,3 +2971,4 @@ https://github.com/unclechu/purescript-for-haskellers
 https://github.com/alexandru/alexn.org/blob/main/_posts/2017-01-30-asynchronous-programming-scala.md
 https://github.com/HeinrichApfelmus/optimize-monad-trans
 https://github.com/EduardSergeev/monad-memo
+https://github.com/wenkokke/priority-sesh
