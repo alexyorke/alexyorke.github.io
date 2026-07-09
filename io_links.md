@@ -2981,3 +2981,4 @@ https://github.com/alt-romes/ghengin
 https://github.com/input-output-hk/io-sim
 https://github.com/gabrielelana/effective-haskell/blob/master/chapter-07.org
 https://github.com/lehins/primal
+https://github.com/mitchellwrosen/haskell-papers/blob/master/static/papers.json
