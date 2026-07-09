@@ -4369,3 +4369,8 @@ https://reasonablypolymorphic.com/blog/proving-equivalence-of-polysemy-interpret
 https://reasonablypolymorphic.com/blog/proving-commutativity-of-polysemy-interpreters/
 https://reasonablypolymorphic.com/blog/testing-polysemy-with-polysemy-check/
 https://github.com/haskell-effectful/effectful/issues/266
+https://github.com/Cajunvoodoo/network-effectful
+https://github.com/shinzui/hasql-effectful
+https://github.com/eldritch-cookie/hedis-effectful
+https://github.com/kleidukos/pg-transact-effectful
+https://github.com/joshburgess/valiant
