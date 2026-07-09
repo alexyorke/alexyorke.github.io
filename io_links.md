@@ -4322,3 +4322,4 @@ https://haskell-effectful.github.io/ecosystem/mltp/
 https://haskell-effectful.github.io/ecosystem/data-storage/
 https://haskell-effectful.github.io/ecosystem/concurrency/
 https://haskell-effectful.github.io/ecosystem/cryptography/
+https://haskell-effectful.github.io/ecosystem/web-development/
