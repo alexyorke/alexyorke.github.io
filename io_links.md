@@ -2993,3 +2993,4 @@ https://github.com/anton-k/reader-pattern-servant-app
 https://github.com/caiorss/Functional-Programming/blob/master/haskell/GUI_Graphical_User_Interface_GTK.org
 https://github.com/rust-unofficial/awesome-rust
 https://github.com/birmjin10000/Haskell_for_seasoned_programmers
+https://github.com/louthy/language-ext/discussions/1343
