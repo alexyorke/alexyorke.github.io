@@ -3255,3 +3255,6 @@ https://arxiv.org/pdf/2307.09383
 https://arxiv.org/abs/2504.03890
 https://arxiv.org/abs/2603.02260
 https://arxiv.org/pdf/2605.01032
+https://arxiv.org/abs/2507.22048
+https://arxiv.org/abs/1912.11554
+https://arxiv.org/abs/1810.09538
