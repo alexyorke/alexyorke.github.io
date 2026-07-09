@@ -4625,3 +4625,4 @@ https://www.hjdskes.nl/blog/haskell-streaming-s3-to-sftp/
 https://exploring-better-ways.bellroy.com/solving-a-resourcet-related-space-leak-in-production.html
 https://diogocastro.com/blog/the-hidden-perils-of-monadbasecontrol/
 https://www.47deg.com/blog/the-power-of-io-in-haskell/
+https://haskellweekly.news/issue/216.html
