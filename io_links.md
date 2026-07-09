@@ -3065,3 +3065,6 @@ https://www.haskell.org/haskellwiki/Using_Haskell_in_an_Xcode_Cocoa_project
 https://www.haskell.org/haskellwiki/X_window_programming_in_Haskell
 https://www.haskell.org/haskellwiki/Calling_Haskell_from_C
 https://www.haskell.org/haskellwiki/Unix_tools
+https://www.haskell.org/haskellwiki/phooey
+https://www.haskell.org/haskellwiki/GuiTV
+https://www.haskell.org/haskellwiki/grapefruit
