@@ -17,6 +17,7 @@ https://www.cs.umd.edu/~avik/papers/cmllch.pdf
 https://dl.acm.org/doi/10.5555/895692
 https://dl.acm.org/doi/10.1145/507635.507655
 https://dl.acm.org/doi/abs/10.1145/351268.351276
+https://dl.acm.org/doi/10.1145/1596638.1596653
 https://dhil.net/research/papers/awkward_effects-ml17.pdf
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29
 https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11
@@ -515,6 +516,8 @@ https://www.cambridge.org/core/books/thinking-functionally-with-haskell/79F91D97
 https://livebook.manning.com/book/haskell-in-depth/chapter-1
 https://www.haskell.org/tutorial/monads.html
 https://dl.acm.org/doi/10.5555/1477677
+https://dl.acm.org/doi/10.5555/3158283
+https://link.springer.com/book/10.1007/978-1-4842-2781-7
 https://www.haskell.org/haskellwiki/Introduction_to_IO
 https://www.haskell.org/haskellwiki/All_about_monads
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO
