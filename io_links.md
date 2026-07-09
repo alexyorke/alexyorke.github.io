@@ -2963,3 +2963,4 @@ https://github.com/jilen/slides/blob/master/cats-effect-and-fs2.org
 https://github.com/monix/monix.io/blob/main/_posts/2018-03-20-monix-vs-cats-effect.md
 https://github.com/haskell/mtl/blob/master/Control/Monad/Reader.hs
 https://github.com/tweag/linear-types/blob/master/Proposals/linear-haskell-proposal-faq.org
+https://github.com/bobatkey/CS316-19/blob/master/lectures/Lec13.hs
