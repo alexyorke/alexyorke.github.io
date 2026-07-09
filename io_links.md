@@ -552,6 +552,13 @@ https://link.springer.com/content/pdf/10.1007/b11942.pdf
 https://link.springer.com/content/pdf/10.1007/3-540-49201-1.pdf
 https://web.mit.edu/6.827/www/old/lectures/L16-MonadComputation.pdf
 https://ocw.mit.edu/courses/18-s996-category-theory-for-scientists-spring-2013/1920eed7eb325a4172a28b4aa7132b92_MIT18_S996S13_Monad.pdf
+https://books.google.com/books/about/Functional_Programming_and_Input_output.html?id=7r0gAQAAIAAJ
+https://shop.elsevier.com/books/implicit-parallel-programming-in-ph/nikhil/978-0-08-050852-8
+https://link.springer.com/book/10.1007/978-1-4471-3166-3
+## Theses, bibliographies, and archives
+https://digitalcollections.ohsu.edu/record/122/files/122_etd.pdf
+https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbib.pdf
+https://web.cecs.pdx.edu/~mpj/pubs/language.pdf
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
