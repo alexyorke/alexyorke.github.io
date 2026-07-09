@@ -4064,6 +4064,9 @@ https://doi.org/10.1017/S0956796800000617
 https://karczmarczuk.users.greyc.fr/TEACH/Semin/Perturb/Doc/Co_gordon.pdf
 https://books.google.com.vc/books?id=Z0QA2S6fceQC&printsec=copyright
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/haskell-school-of-expression-by-hudak-paul-cambridge-univerity-press-2000-1/AD9FD992E8EF22E5171BE9DF3E2368DC
+https://kar.kent.ac.uk/24064/1/FuncOlaf.pdf
+https://www.schemeworkshop.org/2005/program.html
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/haskell-school-of-expression-learning-functional-programming-through-multimedia-by-paul-hudak-cambridge-univerity-press-2000-363pp-isbn-0521644089/6215F433B7EF37CCC59F36B888AB9BDA
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
