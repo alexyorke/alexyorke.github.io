@@ -4227,3 +4227,8 @@ https://scholar.archive.org/work/vgtnmf2jbngwdpvzukot77aopm/access/wayback/http%
 https://scholar.archive.org/work/kcajomdebndlfpn7auvwfp67ea/access/wayback/http%3A//www.lifl.fr/dyla14/papers/dyla14-6-list-based-monadic-computations.pdf
 https://r6.ca/blog/20051203T090200Z.html
 https://well-typed.com/blog/2021/04/ghc-2021-02-2021-03/
+https://www.cis.upenn.edu/~bcpierce/courses/advprog/resources/base/System.IO.Unsafe.html
+https://free.cofree.io/2020/07/20/perform-io/
+https://stackoverflow.com/questions/10529284/is-there-ever-a-good-reason-to-use-unsafeperformio
+https://stackoverflow.com/questions/19371636/am-i-abusing-unsafeperformio
+https://news.ycombinator.com/item?id=1531832
