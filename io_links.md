@@ -4689,3 +4689,6 @@ https://homepages.inf.ed.ac.uk/wadler/linksetaps/slides/nordlander.pdf
 https://arxiv.org/abs/cs/0509027
 https://homepages.inf.ed.ac.uk/wadler/realworld/
 https://www.researchgate.net/publication/228744630_Interactively_Probing_Quiescent_Properties_of_Object_IO_Applications-A_Feasibility_Study-
+https://www.researchgate.net/publication/2549693_Concurrency_abstractions_for_Concurrent_Haskell
+https://www.academia.edu/87056434/Eden_The_paradise_of_functional_concurrent_programming
+https://www.researchgate.net/publication/230607110_Concurrent_Clean_language_report_version_20
