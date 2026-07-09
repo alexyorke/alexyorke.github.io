@@ -536,6 +536,7 @@ https://link.springer.com/book/10.1007/978-1-4842-2781-7
 https://books.google.com/books/about/Programming_in_Haskell.html?id=75C5DAAAQBAJ
 https://books.google.com/books/about/Haskell_Programming_from_First_Principle.html?id=5FaXDAEACAAJ
 https://books.google.com/books/about/Developing_Web_Apps_with_Haskell_and_Yes.html?id=kJe4BgAAQBAJ
+https://dokumen.pub/haskell-the-craft-of-functional-programming-3rd-revised-edition-9780201882957-9781447914242-0201882957.html
 https://www.haskell.org/haskellwiki/Introduction_to_IO
 https://www.haskell.org/haskellwiki/All_about_monads
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO
