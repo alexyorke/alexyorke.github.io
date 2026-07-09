@@ -2735,3 +2735,10 @@ https://hackage-content.haskell.org/package/fb-2.1.1.2/docs/src/Facebook.Graph.h
 https://hackage-content.haskell.org/package/shibuya-kafka-adapter-0.2.0.0/docs/src/Shibuya.Adapter.Kafka.html
 https://hackage-content.haskell.org/package/prairie-0.1.1.0/docs/Prairie-Traverse.html
 https://hackage-content.haskell.org/package/webdriver-0.13.0.0/docs/Test-WebDriver-Types.html
+https://discourse.haskell.org/t/auto-update-unliftio-auto-update-lifted-to-monadunliftio/14323
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful-Dispatch-Static-Primitive.html
+https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Directory.html
+https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Prelude.Reexports.html
+https://dl.acm.org/doi/pdf/10.1145/158511.158524
+https://link.springer.com/chapter/10.1007/978-3-642-17685-2_5
+https://people.cs.nott.ac.uk/pszgmh/stm.pdf
