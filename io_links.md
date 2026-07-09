@@ -4633,3 +4633,7 @@ https://stackoverflow.com/questions/69532999/implementing-a-liftio-style-lift-fo
 https://stackoverflow.com/questions/77518119/how-can-i-use-liftio-with-state-to-print-values-inside-that-monad
 https://stackoverflow.com/questions/69327798/how-to-use-exceptt-to-replace-lots-of-io
 https://stackoverflow.com/questions/3640120/combine-state-with-io-actions
+https://stackoverflow.com/questions/38212294/why-is-monadio-specific-to-io-rather-than-a-more-generic-monadtrans
+https://stackoverflow.com/questions/12892814/how-to-convert-io-int-to-string-in-haskell
+https://stackoverflow.com/questions/11467066/how-to-get-normal-value-from-io-action-in-haskell
+https://stackoverflow.com/questions/2759968/has-anyone-ever-encountered-a-monad-transformer-in-the-wild
