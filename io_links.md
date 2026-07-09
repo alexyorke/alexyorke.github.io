@@ -54,6 +54,7 @@ https://dl.acm.org/doi/10.1145/1017472.1017473
 https://dl.acm.org/doi/10.1007/978-3-540-27861-0_2
 https://dl.acm.org/doi/10.5555/647978.743363
 https://dl.acm.org/doi/10.1145/1173706.1173714
+https://www.cse.chalmers.se/alumni/bringert/publ/haskelldb/haskelldb.pdf
 https://dl.acm.org/doi/10.1145/289251.289437
 https://dl.acm.org/doi/10.1145/1017472.1017478
 https://dl.acm.org/doi/10.5555/646453.693097
@@ -838,6 +839,7 @@ https://homepages.inf.ed.ac.uk/wadler/topics/monads.html
 https://goodmath.org/blog/2012/08/19/monads-and-programming/
 https://blog.higher-order.com/posts/2/
 https://dl.acm.org/doi/10.1145/1297105.1297078
+https://research.microsoft.com/~emeijer/Papers/Lambada.pdf
 https://dbp.io/essays/2011-09-03-mercury-tidbits.html
 https://www.haskell.org/pipermail/haskell-cafe/2007-August.txt
 https://www.haskell.org/haskellwiki/Avoiding_IO
