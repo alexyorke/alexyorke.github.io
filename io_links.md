@@ -75,6 +75,9 @@ https://www.microsoft.com/en-us/research/publication/scripting-com-components-in
 https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/
 https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/
 https://www.sciencedirect.com/science/article/pii/S1571066105805493
+https://simonmar.github.io/bib/papers/conc-ffi.pdf
+https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages
+https://link.springer.com/chapter/10.1007/11964681_12
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
 https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms
@@ -93,6 +96,7 @@ https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b86
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/server-side-web-scripting-in-haskell/F34DEFF8D123F59DB19AAF76DA5241F0
 https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf
 https://scispace.com/pdf/integrating-an-interactive-haskell-tool-with-a-web-vttntpjuo3.pdf
+https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2007-008.pdf
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
 https://wasp.cs.washington.edu/dynsep/transact11.pdf
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
