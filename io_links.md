@@ -3468,3 +3468,5 @@ https://www.scss.tcd.ie/publications/tech-reports/reports.01/TCD-CS-2001-31.pdf
 https://www.researchgate.net/publication/254855443_A_tutorial_to_the_Clean_object_IO_library_version_12
 https://www.researchgate.net/publication/220940004_High_Level_Specification_of_IO_in_Functional_Languages
 https://repository.ubn.ru.nl/bitstream/2066/111081/111081.pdf
+https://www.researchgate.net/publication/225106069_Proving_Make_Correct_IO_Proofs_in_Haskell_and_Clean
+https://www.researchgate.net/publication/221024513_Guaranteeing_Safe_Destructive_Updates_Through_a_Type_System_with_Uniqueness_Information_for_Graphs
