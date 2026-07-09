@@ -3016,3 +3016,6 @@ https://adam.gundry.co.uk/pub/thesis/thesis-2013-12-03.pdf
 https://webspace.science.uu.nl/~swier004/publications/2008-icfp.pdf
 https://scholar.archive.org/work/tkmcttt7qbbotf5ol6276qx3oi/access/wayback/http%3A//www.st.cs.ru.nl/papers/2007/plar2007-ICFP07-iTasks.pdf
 https://www.staff.science.uu.nl/~swier004/publications/2008-jfp.pdf
+https://simonmar.github.io/bib/papers/safe-haskell.pdf
+https://uuinfofp.github.io/practicals/RetakeAssignment.pdf
+https://www.cis.upenn.edu/~stevez/papers/LZ06a.pdf
