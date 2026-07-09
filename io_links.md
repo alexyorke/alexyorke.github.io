@@ -3116,3 +3116,6 @@ https://ncatlab.org/nlab/show/monad%2Btransformer
 https://ncatlab.org/nlab/show/parameterized%2Bmonad
 https://ncatlab.org/nlab/show/action%2Bmonad
 https://ncatlab.org/nlab/show/list%2Bmonad
+https://ncatlab.org/nlab/files/Uustalu-Monads1.pdf
+https://ncatlab.org/nlab/files/Uustalu-Monads2.pdf
+https://ncatlab.org/nlab/show/reader-writer%2B%28co%29monads%2B--%2Btable
