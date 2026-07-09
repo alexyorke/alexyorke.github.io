@@ -50,6 +50,9 @@ https://dl.acm.org/doi/10.1145/3122955.3122968
 https://dl.acm.org/doi/10.1145/2628136.2628144
 https://dl.acm.org/doi/10.1145/1052934.1052935
 https://dl.acm.org/doi/10.1145/3473568
+https://dl.acm.org/doi/10.1145/1088348.1088353
+https://dl.acm.org/doi/10.5555/645772.667946
+https://dl.acm.org/doi/abs/10.1017/S0956796899003561
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
 https://wasp.cs.washington.edu/dynsep/transact11.pdf
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
