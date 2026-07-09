@@ -3452,3 +3452,4 @@ https://www.haskell.org/haskell-workshop/2001/index.html
 https://www.haskell.org/haskell-workshop/2005/index.html
 https://www.haskell.org/haskell-symposium/2016/
 https://www.haskell.org/haskell-symposium/2017/index.html
+https://www.haskell.org/haskell-symposium/1999/1999-28.pdf
