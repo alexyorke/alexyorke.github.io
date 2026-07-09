@@ -4500,3 +4500,9 @@ https://www.haskell.org/haskellwiki/Books_and_tutorials
 https://books.google.com/books/about/Functional_Programming_Glasgow_1992.html?id=YtRQAAAAYAAJ
 https://link.springer.com/book/10.1007/978-1-4471-3215-8
 https://dblp.org/db/conf/fp/fp1992
+https://lambda-the-ultimate.org/node/1276
+https://lambda-the-ultimate.org/node/724
+https://lambda-the-ultimate.org/node/2510
+https://lambda-the-ultimate.org/node/2700
+https://lambda-the-ultimate.org/node/4129
+https://lambda-the-ultimate.org/node/4306
