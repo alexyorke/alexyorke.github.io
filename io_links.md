@@ -78,6 +78,7 @@ https://www.sciencedirect.com/science/article/pii/S1571066105805493
 https://simonmar.github.io/bib/papers/conc-ffi.pdf
 https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages
 https://link.springer.com/chapter/10.1007/11964681_12
+https://dl.acm.org/doi/10.1145/1017472.1017479
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
 https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms
@@ -818,6 +819,7 @@ https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html
 https://idris2.readthedocs.io/en/latest/tutorial/multiplicities.html
 https://agda.github.io/agda-stdlib/master/IO.Base.html
 https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.html
+https://www.haskell.org/definition/ffi/
 https://lean-lang.org/doc/reference/latest/IO/Logical-Model/
 https://lean-lang.org/doc/reference/latest/IO/Files___-File-Handles___-and-Streams/
 https://docs.idris-lang.org/en/latest/reference/ffi.html
