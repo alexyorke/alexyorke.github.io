@@ -4292,3 +4292,7 @@ https://arxiv.org/pdf/1703.00055
 https://arxiv.org/pdf/2003.09993
 https://arxiv.org/abs/1711.09286
 https://arxiv.org/pdf/2303.01350
+https://arxiv.org/pdf/1806.03541
+https://arxiv.org/abs/1803.06960
+https://arxiv.org/pdf/1711.09286
+https://arxiv.org/abs/1805.08059
