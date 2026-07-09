@@ -4067,3 +4067,6 @@ https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0038.xhtm
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0041.xhtml
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0052.xhtml
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/44dacd55-054b-4e5a-b6e8-0d9d87282aee.xhtml
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/271aee82-7323-4bff-b79e-d120edb47140.xhtml
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/2a71930b-b92f-4606-91c8-6c1664373840.xhtml
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e9a033fc-b339-4a67-82c1-059b20eadc52.xhtml
