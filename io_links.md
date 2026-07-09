@@ -3082,3 +3082,5 @@ https://www.haskell.org/haskellwiki/Ru/IO
 https://www.haskell.org/haskellwiki/yampa/reactimate
 https://www.haskell.org/haskellwiki/Yhc/RTS/Concurrency
 https://www.haskell.org/haskellwiki/Background_thread_example
+https://www.haskell.org/haskellwiki/New_monads/MonadAdvSTM
+https://www.haskell.org/haskellwiki/New_monads/MonadSplit
