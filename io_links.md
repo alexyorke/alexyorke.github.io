@@ -2686,6 +2686,12 @@ https://github.com/haskell-effectful/effectful/issues/99
 https://github.com/hmac/kite
 https://www.microsoft.com/en-us/research/publication/relating-operational-denotational-semantics-inputoutput-effects/
 https://www.microsoft.com/en-us/research/publication/a-sound-metalogical-semantics-for-inputoutput-effects/
+https://pages.di.unipi.it/corradini/Didattica/PLP-16/SLIDES/PLP-2016-23.pdf
+https://www.cs.cornell.edu/courses/cs3110/2017fa/l/25-monads/lec.pdf
+https://groups.seas.harvard.edu/courses/cs152/2015sp/lectures/lec16-monads.pdf
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/Control-Monad-IO-Class.html
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Error.html
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Control-Monad-ST.html
 https://www.altocumulus.org/Fudgets/dist.html
 https://www.altocumulus.org/Fudgets/links.html
 https://arxiv.org/abs/1501.04132
