@@ -2706,3 +2706,9 @@ https://reflex-frp.org/
 https://dl.acm.org/doi/10.1145/3110246
 https://www.microsoft.com/en-us/research/project/koka/
 https://arxiv.org/abs/1306.6316
+https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/doc-index-47.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful-Internal-MTL.html
+https://hackage-content.haskell.org/package/unliftio-pool-0.4.3.1/docs/doc-index.html
+https://hackage-content.haskell.org/package/bluefin-internal-0.5.1.0/docs/Bluefin-Internal-Exception-Scoped.html
+https://hackage-content.haskell.org/package/Rattus-0.4/src/docs/paper.pdf
+https://hackage-content.haskell.org/package/WidgetRattus-0.4/src/docs/paper.pdf
