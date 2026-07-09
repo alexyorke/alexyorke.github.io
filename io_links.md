@@ -3363,3 +3363,5 @@ https://www.slideshare.net/slideshow/functors-applicatives-and-monads-in-scala/6
 https://archive.org/download/arxiv-1110.4163/1110.4163.pdf
 https://books.google.com/books?cad=3&hl=es&id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r
 https://books.google.com/books?id=nh0okI1a1sQC&printsec=frontcover
+https://archive.org/details/learnyouhaskellf00lipo_0
+https://archive.org/details/pdfy-2af6sIo0-9yPtvRo
