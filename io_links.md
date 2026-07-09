@@ -941,6 +941,7 @@ https://www.stackage.org/package/pipes-concurrency
 https://www.stackage.org/package/concurrent-output
 https://www.stackage.org/package/concurrent-extra
 https://www.stackage.org/package/hasql-pool
+https://www.stackage.org/package/file-io
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
