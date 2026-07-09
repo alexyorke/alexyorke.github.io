@@ -3517,3 +3517,7 @@ http://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the-
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch08.html
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch09.html
 https://books.google.fr/books?hl=fr&id=nh0okI1a1sQC&num=20
+https://en.wikibooks.org/wiki/Haskell/Practical_monads
+https://en.wikibooks.org/wiki/Haskell/Advanced_monads
+https://en.wikibooks.org/wiki/Haskell/Monadic_parser_combinators
+https://en.wikibooks.org/wiki/Haskell/Alternative_and_MonadPlus
