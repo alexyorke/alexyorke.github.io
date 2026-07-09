@@ -3358,3 +3358,5 @@ https://www.youtube.com/watch?v=ouaR1A4ATdM
 https://www.youtube.com/watch?v=GyhDQ7BAQJw
 https://gist.github.com/fatcerberus/beae4d15842071eab24fca2f0740c2ef
 https://www.slideshare.net/slideshow/monads-are-no-nomads-unlocking-the-basics/272673689
+https://www.slideshare.net/slideshow/free-monads-getting-started/76367619
+https://www.slideshare.net/slideshow/functors-applicatives-and-monads-in-scala/65414376
