@@ -3470,3 +3470,6 @@ https://www.researchgate.net/publication/220940004_High_Level_Specification_of_I
 https://repository.ubn.ru.nl/bitstream/2066/111081/111081.pdf
 https://www.researchgate.net/publication/225106069_Proving_Make_Correct_IO_Proofs_in_Haskell_and_Clean
 https://www.researchgate.net/publication/221024513_Guaranteeing_Safe_Destructive_Updates_Through_a_Type_System_with_Uniqueness_Information_for_Graphs
+https://link.springer.com/content/pdf/10.1007/3-540-17945-3_3.pdf
+https://kar.kent.ac.uk/id/document/2025
+https://dl.acm.org/doi/10.1145/1086365.1086380
