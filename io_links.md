@@ -4497,3 +4497,6 @@ https://mail.haskell.org/pipermail/haskell/2005-January/015182.html
 https://mail.haskell.org/pipermail/haskell-cafe/2009-March/056908.html
 https://www.haskell.org/haskellwiki/Learning_Haskell
 https://www.haskell.org/haskellwiki/Books_and_tutorials
+https://books.google.com/books/about/Functional_Programming_Glasgow_1992.html?id=YtRQAAAAYAAJ
+https://link.springer.com/book/10.1007/978-1-4471-3215-8
+https://dblp.org/db/conf/fp/fp1992
