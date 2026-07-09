@@ -3048,3 +3048,12 @@ https://www.simonandschuster.com/books/Get-Programming-with-Haskell/Will-Kurt/97
 https://www.cs.yale.edu/homes/external/nilsson/Publications/jfp2001.pdf
 https://etheses.whiterose.ac.uk/id/eprint/10807/
 https://digitalcollections.ohsu.edu/record/122/
+https://caiorss.github.io/Functional-Programming/haskell/Documentation_and_Learning_Materials.html
+https://publications.lib.chalmers.se/records/fulltext/117330.pdf
+https://www.haskell.org/haskell-workshop/1995/index.html
+https://dl.acm.org/doi/10.1145/1017472.1017483
+https://web.cecs.pdx.edu/~mpj/pubs/haskwork95.pdf
+https://www.haskell.org/haskellwiki/Old_news
+https://www.haskell.org/haskellwiki/H3D
+https://www.haskell.org/haskellwiki/ALUT
+https://www.haskell.org/haskellwiki/WxHaskell/FAQ
