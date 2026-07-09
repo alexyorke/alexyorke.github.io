@@ -3341,3 +3341,9 @@ https://gatowololo.github.io/resources/publications/detflow.pdf
 https://people.cs.kuleuven.be/~tom.schrijvers/Research/talks/probability_monad.pdf
 https://dl.acm.org/doi/10.1145/174675.178047
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/notions-of-computation-as-monoids/70019FC0F2384270E9F41B9719042528
+https://books.google.com/books/about/Programming_in_Haskell.html?hl=es&id=75C5DAAAQBAJ
+https://books.google.com/books/about/Learn_You_a_Haskell_for_Great_Good.html?id=2D6QEAAAQBAJ
+https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=B4RxBAAAQBAJ
+https://kodu.ut.ee/~varmo/FP2007/slides/loeng12.pdf
+https://people.cs.nott.ac.uk/pszgmh/book-review.pdf
+https://xavierleroy.org/CdF/2018-2019/5.pdf
