@@ -71,6 +71,10 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/com.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/overloading.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/green-card-1.pdf
+https://www.microsoft.com/en-us/research/publication/scripting-com-components-in-haskell/
+https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/
+https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/
+https://www.sciencedirect.com/science/article/pii/S1571066105805493
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
 https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms
