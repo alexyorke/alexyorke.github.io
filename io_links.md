@@ -1,4 +1,4 @@
-﻿# IO Monad Links
+# IO Monad Links
 ## Foundational papers and theses
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf
 https://dl.acm.org/doi/pdf/10.1145/143165.143169
@@ -2997,3 +2997,4 @@ https://github.com/louthy/language-ext/discussions/1343
 https://github.com/tmcgilchrist/postgresql-transactional
 http://slides.com/fp-ctd/lecture-6#/
 https://github.com/haskell-streaming/streaming
+https://arxiv.org/html/2602.19973v2
