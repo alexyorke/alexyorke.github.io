@@ -3302,3 +3302,9 @@ https://www.researchgate.net/publication/2316727_A_Modular_Monadic_Action_Semant
 https://www.usenix.org/conference/dsl-97/modular-monadic-action-semantics
 https://www.cl.cam.ac.uk/teaching/1718/L28/10-monads-notes.pdf
 https://www.sigmod.org/publications/dblp/db/conf/fpca/fpca93.html
+https://github.com/joyofhaskell/haskell-report-archive/blob/master/1992-03-haskell-1.2/haskell-report-1.2.pdf
+https://raw.githubusercontent.com/joyofhaskell/haskell-report-archive/master/1992-03-haskell-1.2/haskell-report-1.2.pdf
+https://github.com/joyofhaskell/haskell-report-archive
+https://direct.mit.edu/books/edited-volume/chapter-pdf/2303005/9780262257145_caa.pdf
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-encapsulation-of-effects-a-revised-approach-extended-version/D31AEC33C1E8291B309578FA84B4664D
+https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7
