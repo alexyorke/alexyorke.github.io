@@ -4598,3 +4598,6 @@ https://cstheory.stackexchange.com/questions/14482/resumption-based-io-systems
 https://doi.org/10.1002/spe.4380250105
 https://www.researchgate.net/publication/259502342_An_Ontology_of_States
 https://doi.org/10.1007/978-3-642-40355-2_3
+https://arxiv.org/abs/2306.12313
+https://raw.githubusercontent.com/marvinborner/optimal-effects/refs/heads/bachelor/thesis.pdf
+https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/84c68445f9e56160874e6e2f0c3dccc6322fa782/haskell/tackling-the-awkward-squad-monadic-input-output-concurrency-exceptions-and-foreign-language-calls-in-haskell.pdf
