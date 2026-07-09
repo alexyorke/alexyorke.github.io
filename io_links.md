@@ -2628,3 +2628,7 @@ https://www.scs.stanford.edu/~deian/pubs/stefan%3A2012%3Aflexible.pdf
 https://conal.net/papers/simply-reactive/
 https://www.koka-lang.org/
 https://www.eff-lang.org/learn/
+https://www.cs.ox.ac.uk/files/3858/pirog-biernacki-hs10.pdf
+https://github.com/Anton-Latukha/Fundamental-Haskell
+https://www.cs.ox.ac.uk/files/12220/MaaikeZwartDPhilThesis.pdf
+https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/mr.pdf
