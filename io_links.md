@@ -922,6 +922,7 @@ https://www.stackage.org/package/lifted-async
 https://www.stackage.org/package/log-warper
 https://www.stackage.org/package/mtl
 https://www.stackage.org/package/wai-control
+https://haskell.foundation/hs-opt-handbook.github.io/src/Case_Studies/klister.html
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
