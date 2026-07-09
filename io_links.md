@@ -4671,3 +4671,4 @@ https://www.snoyman.com/reveal/async-exception-handling/
 https://www.snoyman.com/reveal/whirlwind-tour-core-haskell-libraries/
 https://www.snoyman.com/reveal/monad-transformer-state/
 https://numdam.org/articles/10.1051/ita%3A2002008/
+https://crypto.stanford.edu/~blynn/haskell/papers.html
