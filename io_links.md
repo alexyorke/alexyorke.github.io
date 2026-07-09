@@ -2878,6 +2878,9 @@ https://hackage.haskell.org/package/safe-exceptions/docs/Control-Exception-Safe.
 https://hackage.haskell.org/package/lifted-base/docs/Control-Concurrent-Lifted.html
 https://hackage.haskell.org/package/resource-pool/docs/Data-Pool.html
 https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-7-monads/
+https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-8-monads-continued/
+https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-9-monad-transformers/
+https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-10-readert-monad-transformer/
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model
@@ -2907,3 +2910,8 @@ https://hackage.haskell.org/package/transformers-base-0.4.6/docs/Control-Monad-B
 https://hackage.haskell.org/package/async-2.2.6/docs/Control-Concurrent-Async.html
 https://hackage.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Lift.html
 https://hackage.haskell.org/package/lifted-base-0.2.3.12/docs/Control-Exception-Lifted.html
+https://packages.ubuntu.com/source/noble/haskell-lifted-base
+https://packages.ubuntu.com/source/resolute/haskell-resourcet
+https://packages.ubuntu.com/source/stonking/armhf/haskell-monad-control
+https://link.springer.com/content/pdf/10.1007/11784180_14.pdf?pdf=preview
+https://arxiv.org/pdf/1608.06499
