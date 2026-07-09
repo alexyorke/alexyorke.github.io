@@ -3045,3 +3045,4 @@ https://www.cambridge.org/highereducation/books/programming-in-haskell/8FED82E80
 https://www.amazon.com/Real-World-Haskell-Bryan-OSullivan/dp/0596514980
 https://www.manning.com/books/get-programming-with-haskell
 https://www.simonandschuster.com/books/Get-Programming-with-Haskell/Will-Kurt/9781617293764
+https://www.cs.yale.edu/homes/external/nilsson/Publications/jfp2001.pdf
