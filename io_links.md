@@ -4675,3 +4675,4 @@ https://crypto.stanford.edu/~blynn/haskell/papers.html
 https://scholar.archive.org/work/jywpr2p64zdbfp4fsgoehs3y3c/access/wayback/http%3A//web.cecs.pdx.edu/~mpj/pubs/plos07.pdf
 https://www.researchgate.net/profile/Simon-Peyton-Jones/publication/221501761_A_history_of_Haskell_Being_lazy_with_class/links/0c960517e31f50f743000000/A-history-of-Haskell-Being-lazy-with-class.pdf
 https://books.google.com/books?hl=zh-TW&id=aexmQgAACAAJ&printsec=frontcover&source=gbs_atb
+https://scispace.com/pdf/reasoning-about-deterministic-concurrent-functional-i-o-3fnzb6o8k0.pdf
