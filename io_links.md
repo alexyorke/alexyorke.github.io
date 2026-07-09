@@ -2978,3 +2978,4 @@ https://github.com/tweag/linear-base/blob/master/docs/USER_GUIDE.md
 https://github.com/ivanperez-keera/dunai
 https://github.com/haskell-chinese-working-group/ghc-users-guide/blob/master/content-chinese/ghci.rst
 https://github.com/alt-romes/ghengin
+https://github.com/input-output-hk/io-sim
