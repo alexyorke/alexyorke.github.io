@@ -2618,3 +2618,13 @@ https://www.cs.ox.ac.uk/jeremy.gibbons/publications/entangled.pdf
 https://www.alilleybrinker.com/mini/the-best-monad-tutorial/
 https://discourse.haskell.org/t/combining-monads-with-natural-transformations/11605
 https://github.com/serokell/hse-haskell-course-src
+https://web.cecs.pdx.edu/~sheard/course/AdvancedFP/spring2014/notes/MonadsPart1.pdf
+https://github.com/cis194/lectures
+https://goto.ucsd.edu/~nvazou/club_de_science15/lectures/StateMonad.html
+https://cholla.mmto.arizona.edu/haskell/io.html
+https://wiki.clean.cs.ru.nl/Clean_System
+https://people.cs.nott.ac.uk/psztxa/g5xnsc/
+https://www.scs.stanford.edu/~deian/pubs/stefan%3A2012%3Aflexible.pdf
+https://conal.net/papers/simply-reactive/
+https://www.koka-lang.org/
+https://www.eff-lang.org/learn/
