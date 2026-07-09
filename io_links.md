@@ -2985,3 +2985,4 @@ https://github.com/mitchellwrosen/haskell-papers/blob/master/static/papers.json
 https://github.com/tssm/up-to-date-real-world-haskell
 https://github.com/soupi/haskell-study-plan
 https://github.com/etorreborre/registry/blob/main/doc/applications.md
+https://github.com/anton-k/processing-for-haskell/blob/master/tutorial/FirstSteps.md
