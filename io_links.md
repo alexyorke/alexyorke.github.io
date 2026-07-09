@@ -2794,3 +2794,11 @@ https://www.cis.upenn.edu/~cis1940/fall14/lectures/06-monoid-io.html
 https://www.seas.upenn.edu/~cis1940/spring15/hw/05-IO.pdf
 https://crypto.stanford.edu/~blynn/haskell/butter.html
 https://crypto.stanford.edu/~blynn/haskell/veterans.html
+https://hackage.haskell.org/package/base/docs/GHC-IO.html
+https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Class.html
+https://hackage.haskell.org/package/unliftio-core/docs/Control-Monad-IO-Unlift.html
+https://cw.fel.cvut.cz/b212/_media/courses/fup/lectures/lecture11_2020.pdf
+https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-BufferedIO.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-Handle-Lock.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/System-Posix-Internals.html
+https://hackage-content.haskell.org/package/base-4.9.0.0/docs/src/GHC.IO.FD.html
