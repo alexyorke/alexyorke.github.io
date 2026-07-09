@@ -3169,3 +3169,7 @@ https://ncatlab.org/nlab/show/monad%2Bwith%2Barities
 https://ncatlab.org/nlab/files/Uustalu-Monads4.pdf
 https://ncatlab.org/nlab/files/Uustalu-Monads3.pdf
 https://staff.ru.is/tarmo/qei/
+https://arxiv.org/abs/1912.13477
+https://link.springer.com/content/pdf/10.1007/978-3-030-99253-8_22.pdf
+https://dl.acm.org/doi/pdf/10.1145/3547654
+https://mta.ca/~rrosebru/FMCS2018/Slides/Uustalu.pdf
