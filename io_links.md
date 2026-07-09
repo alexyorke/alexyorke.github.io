@@ -3535,3 +3535,6 @@ https://goodmath.scientopia.org/2007/01/31/the-theory-of-monads-and-the-monad-la
 https://www.haskell.org/haskellwiki/MonadPlus_reform_proposal
 https://www.haskell.org/haskellwiki/MonadPrimer
 https://www.haskell.org/haskellwiki/Monadplus
+https://haskellforall.com/2012/06/you-could-have-invented-free-monads.html
+https://blog.sigfpe.com/2010/01/monads-are-trees-with-grafting.html
+https://blog.poisson.chat/posts/2019-06-09-free-monads-free-monads.html
