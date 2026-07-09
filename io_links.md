@@ -4078,6 +4078,7 @@ https://foolwood07.cs.uchicago.edu/program/warth.pdf
 https://www.cs.tufts.edu/~nr/pubs/htdp-tablet.pdf
 https://www.haskell.org/haskellwiki/Haskell_1.3
 https://www.haskell.org/haskellwiki/Haskell_1.0
+https://altocumulus.org/haskell-report/printing-13.html
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
