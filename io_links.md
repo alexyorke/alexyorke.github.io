@@ -3141,3 +3141,9 @@ https://arxiv.org/abs/1406.2060
 https://www.cs.umd.edu/~mwh/papers/hicks12polymonadTR.html
 https://nottingham-repository.worktribe.com/preview/771150/paper.pdf
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?MSFP2014.7.pdf=
+https://ncatlab.org/nlab/show/side%2Beffect
+https://ncatlab.org/nlab/show/effect%2Balgebra
+https://ncatlab.org/nlab/show/relative%2Bmonad
+https://dl.acm.org/doi/10.1145/2976002.2976012
+https://www.jbracker.de/publications/2016-BrackerNilsson-Supermonads.pdf
+https://www.jbracker.de/publications/2017-BrackerNilsson-SupermonadsAndSuperapplicatives-UnderConsideration.pdf
