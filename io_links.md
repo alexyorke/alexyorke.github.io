@@ -13,6 +13,10 @@ https://dl.acm.org/doi/10.1145/165180.165195
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf
 https://simon.peytonjones.org/Tackling-the-awkward-squad/
 https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/
+https://dl.acm.org/doi/10.1145/3331545.3342589
+https://dl.acm.org/doi/10.1145/2775050.2633368
+https://dl.acm.org/doi/10.1145/2500365.2500581
+https://dl.acm.org/doi/10.1145/2503778.2503791
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf
 https://dl.acm.org/doi/10.5555/895692
 https://dl.acm.org/doi/10.1145/2887747.2804311
@@ -2562,7 +2566,6 @@ https://kar.kent.ac.uk/57487/1/haskell19f-revised.pdf
 https://repository.nottingham.ac.uk/entities/publication/afa95713-a742-4fc8-9092-8c53cb74c935
 https://cs.ioc.ee/ewscs/2010/mycroft/ewscs10.pdf
 https://www.macs.hw.ac.uk/~hwloidl/Courses/F21DP/gph_milan15_handout.pdf
-https://dl.acm.org/doi/10.1145/3331545.3342589
 https://dl.acm.org/doi/pdf/10.1145/3428194
 https://hal.inria.fr/hal-01038053/document
 https://arxiv.org/pdf/1312.1399
