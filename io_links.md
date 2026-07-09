@@ -4607,3 +4607,5 @@ https://books.google.co.in/books?id=O_M8AAAAIAAJ&printsec=copyright
 https://www.schoolofhaskell.com/user/agocorona/EDSL-for-hard-working-IT-programmers
 https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/12-State-Monad
 https://www.schoolofhaskell.com/user/bjterry/interfacing-with-restful-json-apis
+https://www.schoolofhaskell.com/user/griba/error-parameterized-monad-and-transformer-a-replacement-for-synchronous-exceptions
+https://haskellforall.com/2012/05/pipes-20-pipe-finalization
