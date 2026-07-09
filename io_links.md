@@ -3099,3 +3099,5 @@ https://www.haskell.org/haskellwiki/Cookbook/Other_data_structures
 https://web.cecs.pdx.edu/~mpj/pubs/RR-1004.pdf
 https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue4
 https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue5
+https://people.cs.nott.ac.uk/pszgmh/pearl.pdf
+https://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf
