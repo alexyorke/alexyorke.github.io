@@ -1,5 +1,4 @@
-# IO Monad Links
-
+﻿# IO Monad Links
 ## Foundational papers and theses
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf
 https://dl.acm.org/doi/pdf/10.1145/143165.143169
@@ -494,7 +493,6 @@ https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/kuifje.pdf
 https://staff.aist.go.jp/reynald.affeldt/documents/monae.pdf
 https://anil.recoil.org/papers/2017-ml-effects
 https://dl.acm.org/doi/pdf/10.1145/3156695.3122965
-
 ## Books, chapters, and longer tutorials
 https://book.realworldhaskell.org/
 https://book.realworldhaskell.org/read/io.html
@@ -554,7 +552,6 @@ https://link.springer.com/content/pdf/10.1007/b11942.pdf
 https://link.springer.com/content/pdf/10.1007/3-540-49201-1.pdf
 https://web.mit.edu/6.827/www/old/lectures/L16-MonadComputation.pdf
 https://ocw.mit.edu/courses/18-s996-category-theory-for-scientists-spring-2013/1920eed7eb325a4172a28b4aa7132b92_MIT18_S996S13_Monad.pdf
-
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -699,7 +696,6 @@ https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await
 https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall?view=net-10.0
 https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iasyncenumerable-1?view=net-10.0
-
 ## Articles and essays
 https://blog.sigfpe.com/2007/11/io-monad-for-people-who-simply-dont.html
 https://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html
@@ -2587,7 +2583,6 @@ https://github.com/ocaml-multicore/effects-examples
 https://github.com/juliangrove/algebraic-effects-montague
 https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99
 https://github.com/uhub/awesome-haskell/blob/master/README.md
-
 https://github.com/effect-handlers/effect-handlers-bench
 https://github.com/withoutboats/burrito
 https://github.com/ghc/packages-base/blob/master/GHC/Base.lhs
@@ -2896,7 +2891,6 @@ https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Condui
 https://cedric.cnam.fr/~crolardt/publications/reflection.pdf
 https://www.schemeworkshop.org/2005/03-sobel/03-sobel.pdf
 https://se.informatik.uni-tuebingen.de/publications/brachthaeuser21representing.pdf
-
 ## Related C# and language-ext references
 https://learn.microsoft.com/en-us/dotnet/api/system.func-2?view=net-10.0
 https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltextasync?view=net-10.0
