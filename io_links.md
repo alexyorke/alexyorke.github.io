@@ -2712,3 +2712,7 @@ https://hackage-content.haskell.org/package/unliftio-pool-0.4.3.1/docs/doc-index
 https://hackage-content.haskell.org/package/bluefin-internal-0.5.1.0/docs/Bluefin-Internal-Exception-Scoped.html
 https://hackage-content.haskell.org/package/Rattus-0.4/src/docs/paper.pdf
 https://hackage-content.haskell.org/package/WidgetRattus-0.4/src/docs/paper.pdf
+https://hackage-content.haskell.org/package/auto-update-unliftio-0.1.0.0/candidate/docs/doc-index.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Writer.Static.Shared.html
+https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/src/Bluefin.Writer.html
+https://hackage-content.haskell.org/package/bluefin-0.2.6.0/docs/src/Bluefin.Consume.html
