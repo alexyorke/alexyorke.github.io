@@ -4617,3 +4617,5 @@ https://www.schoolofhaskell.com/user/rl/forking-forks-and-unsafeperformio
 https://www.snoyman.com/blog/2018/10/raii-better-than-bracket-pattern/
 https://www.parsonsmatt.org/2017/11/21/monadbasecontrol_in_five_minutes.html
 https://journal.infinitenegativeutility.com/resources-laziness-and-continuation-passing-style
+https://www.fbrs.io/unliftio/
+https://blog.drewolson.org/adventures-in-looping/
