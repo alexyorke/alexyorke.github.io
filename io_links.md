@@ -2679,3 +2679,6 @@ https://github.com/RobertFischer/hs-aws-lambda
 https://github.com/boygao1992/StateBackPrototype
 https://github.com/haskell-servant/servant/issues/1729
 https://github.com/haskell-servant/servant/issues/1544
+https://github.com/haskell-effectful/haskell-effectful.github.io
+https://github.com/haskell-effectful/log-effectful
+https://github.com/haskell-effectful/effectful/discussions/275
