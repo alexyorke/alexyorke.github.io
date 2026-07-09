@@ -3555,3 +3555,12 @@ https://tomasp.net/academic/articles/comprefun/
 https://www.microsoft.com/en-us/research/publication/joinads-a-retargetable-control-flow-construct-for-reactive-parallel-and-concurrent-programming/
 https://tryjoinads.org/docs/pubs.html
 https://tryjoinads.org/index.html?pubs.html=
+https://tryjoinads.org/docs/home.html
+https://tryjoinads.org/docs/intro.html
+https://tryjoinads.org/docs/implement/async.html
+https://tryjoinads.org/docs/implement/parsers.html
+https://tryjoinads.org/docs/computations/layered.html
+https://tryjoinads.org/index.html?use%2Fasync.html=
+https://tryjoinads.org/index.html?use%2Ftasks.html=
+https://tryjoinads.org/index.html?use%2Fjoins.html=
+https://tryjoinads.org/index.html?use%2Fagents.html=
