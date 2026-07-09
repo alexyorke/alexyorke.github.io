@@ -4540,3 +4540,7 @@ https://mail.haskell.org/pipermail/haskell-cafe/2004-December/007815.html
 https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007502.html
 https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007512.html
 https://mail.haskell.org/pipermail/haskell-cafe/2008-June/044679.html
+https://mail.haskell.org/pipermail/haskell-cafe/2008-September/046932.html
+https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007455.html
+https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007525.html
+https://mail.haskell.org/pipermail/haskell-cafe/2009-May/060984.html
