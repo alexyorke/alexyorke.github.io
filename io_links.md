@@ -4619,3 +4619,6 @@ https://www.parsonsmatt.org/2017/11/21/monadbasecontrol_in_five_minutes.html
 https://journal.infinitenegativeutility.com/resources-laziness-and-continuation-passing-style
 https://www.fbrs.io/unliftio/
 https://blog.drewolson.org/adventures-in-looping/
+https://academy.fpblock.com/blog/2017/06/tale-of-two-brackets/
+https://www.yesodweb.com/blog/2013/03/resourcet-overview
+https://www.hjdskes.nl/blog/haskell-streaming-s3-to-sftp/
