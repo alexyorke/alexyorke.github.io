@@ -3382,3 +3382,7 @@ https://dl.acm.org/doi/10.1145/1706299.1706354
 https://dl.acm.org/doi/10.1145/2034773.2034778
 https://www.vladimirzdrazil.com/til/learning/abstraction-intuition-and-monad-tutorial-falacy/
 https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html
+https://www.haskell.org/haskellwiki/Ru/Monad
+https://www.haskell.org/haskellwiki/Ru/IO_Inside
+https://www.haskell.org/haskellwiki/Ru/Haskell
+https://www.haskell.org/haskellwiki/OOP_vs_type_classes
