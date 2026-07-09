@@ -3152,3 +3152,6 @@ https://ncatlab.org/nlab/files/Arkor-MonadicAndHigherStructure.pdf
 https://github.com/jbracker/supermonad
 https://github.com/jbracker/polymonad-plugin
 https://github.com/jbracker/polymonad-proofs
+https://www.lfcs.inf.ed.ac.uk/reports/88/ECS-LFCS-88-66/ECS-LFCS-88-66.pdf
+https://www.sciencedirect.com/science/article/pii/0890540191900524
+https://www.ics.uci.edu/~jajones/INF102-S18/readings/09_Moggi.pdf
