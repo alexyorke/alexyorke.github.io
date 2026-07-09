@@ -4626,3 +4626,6 @@ https://exploring-better-ways.bellroy.com/solving-a-resourcet-related-space-leak
 https://diogocastro.com/blog/the-hidden-perils-of-monadbasecontrol/
 https://www.47deg.com/blog/the-power-of-io-in-haskell/
 https://haskellweekly.news/issue/216.html
+https://stackoverflow.com/questions/11362930/how-do-i-actually-execute-a-statet-monad-along-with-io
+https://stackoverflow.com/questions/71072001/combining-resourcet-with-bracket-in-a-streaming-pipeline
+https://stackoverflow.com/questions/9054731/avoiding-lift-with-monad-transformers
