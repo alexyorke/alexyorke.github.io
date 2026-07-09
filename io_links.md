@@ -3090,3 +3090,4 @@ https://www.haskell.org/haskellwiki/Research_papers/Functional_pearls
 https://www.haskell.org/haskellwiki/Open_research_problems
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e4fdf7b9-6a2c-4943-ae88-de2d9359378f.xhtml
 https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/03.htm
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/01.htm
