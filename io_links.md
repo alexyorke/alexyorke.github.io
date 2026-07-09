@@ -4299,3 +4299,7 @@ https://arxiv.org/abs/1805.08059
 https://people.eng.unimelb.edu.au/rizkallahc/publications/hs-verif-icfp.pdf
 https://staff.aist.go.jp/reynald.affeldt/documents/monae-hb.pdf
 https://easychair.org/smart-slide/slide/K3SD
+https://dl.acm.org/doi/10.1145/3331545.3342592
+https://dl.acm.org/doi/10.1145/3236784
+https://link.springer.com/content/pdf/10.1007/978-3-319-95582-7_20.pdf
+https://dl.acm.org/doi/10.1145/3434307
