@@ -2932,3 +2932,5 @@ https://hackage.haskell.org/package/safe-exceptions-0.1.7.4
 https://hackage.haskell.org/package/unliftio-0.2.25.1
 https://link.springer.com/content/pdf/10.1007/BFb0022267.pdf
 https://dl.acm.org/doi/pdf/10.1145/3009837.3009894
+https://cmsc-16100.cs.uchicago.edu/2021-autumn/Lectures/06/intro-to-haskell-io.php
+https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/
