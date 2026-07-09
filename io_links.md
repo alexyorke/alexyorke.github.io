@@ -4693,3 +4693,4 @@ https://www.researchgate.net/publication/2549693_Concurrency_abstractions_for_Co
 https://www.academia.edu/87056434/Eden_The_paradise_of_functional_concurrent_programming
 https://www.researchgate.net/publication/230607110_Concurrent_Clean_language_report_version_20
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf
+https://www.microsoft.com/en-us/research/wp-content/uploads/2009/09/ghc-parallel-tuning2.pdf
