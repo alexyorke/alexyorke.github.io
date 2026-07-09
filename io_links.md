@@ -4234,3 +4234,17 @@ https://stackoverflow.com/questions/19371636/am-i-abusing-unsafeperformio
 https://news.ycombinator.com/item?id=1531832
 https://well-typed.com/blog/2013/07/video-and-slides-on-alternatives-to-lazy-io/
 https://well-typed.com/blog/aux/files/alternatives-to-lazy-io.pdf
+https://discourse.haskell.org/t/question-on-laziness-of-i-o-actions-in-haskell/11470
+https://discourse.haskell.org/t/best-way-to-remove-failures-due-to-lazy-io/7005
+https://discourse.haskell.org/t/weird-behavior-with-bracket-and-global-ioref/8132
+https://discourse.haskell.org/t/using-unsafeperformio-safely/4146
+https://discourse.haskell.org/t/using-unsafeperformio-safely/4146?page=2
+https://discourse.haskell.org/t/using-unsafeperformio-safely/4146?page=3
+https://discourse.haskell.org/t/using-unsafeperformio-safely/4146?page=4
+https://discourse.haskell.org/t/using-unsafeperformio-safely/4146/59
+https://discourse.haskell.org/t/ann-lazy-scope-st-like-io-handle-and-lazy-bytestring/12462
+https://discourse.haskell.org/t/question-on-laziness-of-i-o-actions-in-haskell/11470/7
+https://discourse.haskell.org/t/solved-safe-elimination-of-unsafeperformio/7901
+https://discourse.haskell.org/t/list-of-what-haskell-doesnt-have/4329?page=5
+https://discourse.haskell.org/t/ghc-proposal-top-level-shared-io-computations/14328?page=2
+https://discourse.haskell.org/t/ann-memo-io-replacing-thread-on-ghc-proposal-for-top-level-io/14328?page=2
