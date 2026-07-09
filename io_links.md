@@ -3915,3 +3915,5 @@ https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.ht
 https://openlibrary.org/books/OL36714046M/Parallel_and_Concurrent_Programming_in_Haskell
 https://search.worldcat.org/title/Parallel-and-concurrent-programming-in-Haskell/oclc/858949384
 https://search.worldcat.org/title/851826580
+https://www.cs.ox.ac.uk/publications/publication12055-abstract.html
+https://patryshev.com/monad/m-intro.html
