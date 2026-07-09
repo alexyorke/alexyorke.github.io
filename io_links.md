@@ -2987,3 +2987,4 @@ https://github.com/soupi/haskell-study-plan
 https://github.com/etorreborre/registry/blob/main/doc/applications.md
 https://github.com/anton-k/processing-for-haskell/blob/master/tutorial/FirstSteps.md
 https://github.com/giocosmiano/haskell-programming/blob/master/readme.md
+https://github.com/plrg-bristol/advanced-haskell-2026
