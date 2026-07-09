@@ -863,6 +863,9 @@ https://cs.sun.ac.za/courses/functional/slides/Chapter8.pdf
 https://proglang.informatik.uni-freiburg.de/teaching/proseminar/2008ws/material/io.pdf
 https://www.cs.yale.edu/homes/hudak/SOE/PPTSlides/Ch03.ppt
 https://clean.cs.ru.nl/download/Clean20/doc/CleanRep2.0.pdf
+https://clean.cs.ru.nl/ST_Publications
+https://wiki.clean.cs.ru.nl/ST_Publications
+https://clean.cs.ru.nl/Workflow_examples
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
