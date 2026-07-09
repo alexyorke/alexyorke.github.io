@@ -4692,3 +4692,4 @@ https://www.researchgate.net/publication/228744630_Interactively_Probing_Quiesce
 https://www.researchgate.net/publication/2549693_Concurrency_abstractions_for_Concurrent_Haskell
 https://www.academia.edu/87056434/Eden_The_paradise_of_functional_concurrent_programming
 https://www.researchgate.net/publication/230607110_Concurrent_Clean_language_report_version_20
+https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf
