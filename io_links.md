@@ -4657,3 +4657,12 @@ https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1/
 https://blog.ploeh.dk/2020/03/30/repeatable-execution-in-haskell/
 https://evanrelf.com/haskell-libraries-i-love/
 https://vadosware.io/post/rest-ish-services-in-haskell-part-4/
+https://academy.fpblock.com/blog/2016/11/exceptions-best-practices-haskell/
+https://academy.fpblock.com/blog/2016/11/covariance-contravariance/
+https://academy.fpblock.com/blog/2017/02/monadmask-vs-monadbracket/
+https://academy.fpblock.com/blog/2016/09/practical-haskell-simple-file-mirror-1/
+https://academy.fpblock.com/blog/2017/06/readert-design-pattern/
+https://www.snoyman.com/blog/2017/12/what-makes-haskell-unique/
+https://www.snoyman.com/blog/2018/02/conduitpocalypse/
+https://vadosware.io/post/rest-ish-services-in-haskell-part-3/
+https://vadosware.io/post/adding-naive-in-memory-caching-to-my-haskell-webapp/
