@@ -3991,3 +3991,5 @@ https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/
 https://cs.ioc.ee/tfp-icfp-gpce05/page.php?page=prog
 https://link.springer.com/chapter/10.1007/3-540-45361-X_8
 https://www.researchgate.net/publication/237485064_The_Hume_Report_Version_11
+https://link.springer.com/chapter/10.1007/978-3-540-40018-9_22
+https://www.haskell.org/haskell-symposium/1997/hw1997.pdf
