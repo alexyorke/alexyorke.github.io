@@ -4248,3 +4248,17 @@ https://discourse.haskell.org/t/solved-safe-elimination-of-unsafeperformio/7901
 https://discourse.haskell.org/t/list-of-what-haskell-doesnt-have/4329?page=5
 https://discourse.haskell.org/t/ghc-proposal-top-level-shared-io-computations/14328?page=2
 https://discourse.haskell.org/t/ann-memo-io-replacing-thread-on-ghc-proposal-for-top-level-io/14328?page=2
+https://stackoverflow.com/questions/21189325/haskell-how-getcontents-works
+https://stackoverflow.com/questions/23725476/timeout-and-unsafeperformio
+https://stackoverflow.com/questions/2527271/in-haskell-i-want-to-read-a-file-and-then-write-to-it-do-i-need-strictness-ann
+https://stackoverflow.com/questions/10485740/hgetcontents-being-too-lazy
+https://stackoverflow.com/questions/13097520/error-reading-and-writing-same-file-simultaneously-in-haskell
+https://stackoverflow.com/questions/40950764/reimplementing-getcontents-using-getchar
+https://stackoverflow.com/questions/45787011/is-getline-lazy
+https://stackoverflow.com/questions/78936751/reading-and-writing-files-in-haskell-results-in-withfile-resource-busy-file-i
+https://stackoverflow.com/questions/76297935/how-to-persist-an-object-in-haskell-to-a-memory-location-via-unsafeperformio-or
+https://stackoverflow.com/questions/296792/haskell-io-and-closing-files
+https://stackoverflow.com/questions/9509065/how-do-i-use-getcontents-to-take-input-from-the-command-line
+https://stackoverflow.com/questions/34516579/trouble-with-getcontents
+https://stackoverflow.com/questions/2290164/lazy-io-in-haskell
+https://stackoverflow.com/questions/18160807/haskell-io-hgetcontents-illegal-operation-handle-is-closed
