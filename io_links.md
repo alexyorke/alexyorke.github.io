@@ -4648,3 +4648,7 @@ https://stackoverflow.com/questions/12907714/is-it-ok-to-write-most-of-the-code-
 https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with
 https://stackoverflow.com/questions/9961778/haskell-can-i-call-function-without-io-output-working-with-monads
 https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging/9657844
+https://stackoverflow.com/questions/70226458/how-to-skip-unnecessary-ios-in-pure-functions
+https://stackoverflow.com/questions/68522273/haskell-how-to-do-io-inside-pure-haskell-function-how-to-print-intermediate-re
+https://stackoverflow.com/questions/32213779/is-it-possible-to-use-io-inside-state-monad-without-using-statet-and-st
+https://stackoverflow.com/questions/52489707/how-to-turn-io-actions-into-a-pure-function
