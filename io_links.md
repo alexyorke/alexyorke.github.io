@@ -3107,3 +3107,4 @@ https://link.springer.com/chapter/10.1007/978-3-642-60085-2_9
 https://homepages.inf.ed.ac.uk/wadler/papers/how-and-why/how-and-why.pdf
 https://www.cs.kent.ac.uk/people/staff/dao7/drafts/ixmonad-eabstract.pdf
 https://dl.acm.org/doi/abs/10.1145/2775050.2633368
+https://dl.acm.org/doi/10.1145/1238844.1238856
