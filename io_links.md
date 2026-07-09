@@ -4702,3 +4702,6 @@ https://www.cs.kent.ac.uk/projects/ofa/chp/tutorial.pdf
 https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/TFPpaper.pdf
 https://www.cs.kent.ac.uk/~oc/traceTheory.html
 https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/mpc.pdf
+https://twistedsquare.com/CHP.pdf
+https://twistedsquare.com/CHP-Models.pdf
+https://www.researchgate.net/publication/221004376_Communicating_Haskell_Processes_Composable_Explicit_Concurrency_Using_Monads
