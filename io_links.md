@@ -4577,3 +4577,6 @@ https://okmij.org/ftp/Scheme/misc.html
 https://doi.org/10.48456/tr-160
 https://okmij.org/ftp/Haskell/Iteratee/talk-FLOPS.pdf
 https://okmij.org/ftp/packages/sys_open.c
+https://stackoverflow.com/questions/34280735/understanding-pure-functions-in-haskell-with-io
+https://stackoverflow.com/questions/11260159/haskell-does-io-means-we-give-up-the-control-of-our-program
+https://stackoverflow.com/questions/74777875/getting-i-o-in-a-functional-program
