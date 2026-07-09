@@ -3057,3 +3057,11 @@ https://www.haskell.org/haskellwiki/Old_news
 https://www.haskell.org/haskellwiki/H3D
 https://www.haskell.org/haskellwiki/ALUT
 https://www.haskell.org/haskellwiki/WxHaskell/FAQ
+https://livebook.manning.com/book/haskell-in-depth/chapter-5
+https://livebook.manning.com/book/haskell-in-depth/chapter-6
+https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/
+https://www.haskell.org/haskellwiki/Extending_Phooey
+https://www.haskell.org/haskellwiki/Using_Haskell_in_an_Xcode_Cocoa_project
+https://www.haskell.org/haskellwiki/X_window_programming_in_Haskell
+https://www.haskell.org/haskellwiki/Calling_Haskell_from_C
+https://www.haskell.org/haskellwiki/Unix_tools
