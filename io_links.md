@@ -3093,3 +3093,6 @@ https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/0
 https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/01.htm
 https://www.haskell.org/haskellwiki/Monad/ST
 https://www.haskell.org/haskellwiki/arrays
+https://www.haskell.org/haskellwiki/Library/AltBinary
+https://www.haskell.org/haskellwiki/Library/ArrayRef
+https://www.haskell.org/haskellwiki/Cookbook/Other_data_structures
