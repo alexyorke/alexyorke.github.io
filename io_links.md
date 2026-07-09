@@ -3911,3 +3911,7 @@ https://koka-lang.github.io/koka/doc/book.html
 https://hasura.github.io/eff/
 https://cambium.inria.fr/~fpottier/publis/de-vilhena-pottier-tes.pdf
 https://dl.acm.org/doi/abs/10.1145/3428194
+https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?hl=pt-BR&id=wSkRAAAAQBAJ
+https://openlibrary.org/books/OL36714046M/Parallel_and_Concurrent_Programming_in_Haskell
+https://search.worldcat.org/title/Parallel-and-concurrent-programming-in-Haskell/oclc/858949384
+https://search.worldcat.org/title/851826580
