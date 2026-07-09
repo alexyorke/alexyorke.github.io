@@ -3552,3 +3552,6 @@ https://themonadreader.files.wordpress.com/2011/10/issue19.pdf
 https://themonadreader.files.wordpress.com/2011/07/issue18.pdf
 https://twistedsquare.com/TMR17.pdf
 https://tomasp.net/academic/articles/comprefun/
+https://www.microsoft.com/en-us/research/publication/joinads-a-retargetable-control-flow-construct-for-reactive-parallel-and-concurrent-programming/
+https://tryjoinads.org/docs/pubs.html
+https://tryjoinads.org/index.html?pubs.html=
