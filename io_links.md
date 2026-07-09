@@ -4580,3 +4580,7 @@ https://okmij.org/ftp/packages/sys_open.c
 https://stackoverflow.com/questions/34280735/understanding-pure-functions-in-haskell-with-io
 https://stackoverflow.com/questions/11260159/haskell-does-io-means-we-give-up-the-control-of-our-program
 https://stackoverflow.com/questions/74777875/getting-i-o-in-a-functional-program
+https://dorophone.blogspot.fr/2011/11/understanding-haskell-io-monad.html
+https://solariar.net/notes/fp_side_effect.html
+https://profgra.org/lycee/presentation_Haskell_IO.html
+https://dl.acm.org/doi/pdf/10.1145/319838.319876
