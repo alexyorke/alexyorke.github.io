@@ -3503,3 +3503,5 @@ https://link.springer.com/chapter/10.1007/978-3-540-71067-7_14
 https://www.microsoft.com/en-us/research/publication/a-monadic-framework-for-delimited-continuations/
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-framework-for-delimited-continuations/D99D1394370DFA8EA8428D552B5D8E7E
 https://cs.indiana.edu/~sabry/papers/monadicDC.pdf
+https://www.researchgate.net/publication/2490314_Concurrent_Haskell
+https://www.researchgate.net/publication/304528156_Composable_scheduler_activations_for_Haskell
