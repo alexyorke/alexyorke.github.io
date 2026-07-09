@@ -4679,3 +4679,4 @@ https://scispace.com/pdf/reasoning-about-deterministic-concurrent-functional-i-o
 https://link.springer.com/content/pdf/10.1007/3-540-48515-5.pdf
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-824.pdf
 https://www.scienceopen.com/document_file/9a8a943f-2de9-44c1-ae3b-993bfa21dfb9/ScienceOpen/001_Holyer.pdf
+https://www.biblio.cerist.dz/hrbdonf5214/ouvrages/00000000000000595141000000_2.pdf
