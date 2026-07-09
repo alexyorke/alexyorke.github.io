@@ -3937,3 +3937,4 @@ https://www.haskell.org/haskellwiki/User%3AMichiexile/MATH198/Lecture_7
 https://www.haskell.org/haskellwiki/User%3AMichiexile/MATH198/Lecture_8
 https://www.haskell.org/haskellwiki/DataDriven
 https://www.haskell.org/haskellwiki/Free_structure
+https://www.haskell.org/haskellwiki/Category_theory/Monads
