@@ -2979,3 +2979,4 @@ https://github.com/ivanperez-keera/dunai
 https://github.com/haskell-chinese-working-group/ghc-users-guide/blob/master/content-chinese/ghci.rst
 https://github.com/alt-romes/ghengin
 https://github.com/input-output-hk/io-sim
+https://github.com/gabrielelana/effective-haskell/blob/master/chapter-07.org
