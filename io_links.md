@@ -3938,3 +3938,7 @@ https://www.haskell.org/haskellwiki/User%3AMichiexile/MATH198/Lecture_8
 https://www.haskell.org/haskellwiki/DataDriven
 https://www.haskell.org/haskellwiki/Free_structure
 https://www.haskell.org/haskellwiki/Category_theory/Monads
+https://www.haskell.org/haskellwiki/MonadLib
+https://www.haskell.org/haskellwiki/Eros
+https://www.haskell.org/haskellwiki/DeepArrow
+https://www.haskell.org/haskellwiki/Tangible_Value
