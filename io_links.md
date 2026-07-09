@@ -2682,3 +2682,5 @@ https://github.com/haskell-servant/servant/issues/1544
 https://github.com/haskell-effectful/haskell-effectful.github.io
 https://github.com/haskell-effectful/log-effectful
 https://github.com/haskell-effectful/effectful/discussions/275
+https://github.com/haskell-effectful/effectful/issues/99
+https://github.com/hmac/kite
