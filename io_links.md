@@ -4528,3 +4528,9 @@ https://mail.haskell.org/pipermail/beginners/2010-August/005054.html
 https://mail.haskell.org/pipermail/glasgow-haskell-users/2002-April/003244.html
 https://mail.haskell.org/pipermail/haskell-cafe/2009-January/052710.html
 https://mail.haskell.org/pipermail/beginners/2016-July/017017.html
+https://mail.haskell.org/pipermail/haskell-cafe/2005-August/010961.html
+https://mail.haskell.org/pipermail/libraries/2008-February/009258.html
+https://mail.haskell.org/pipermail/haskell-cafe/2003-October/005190.html
+https://mail.haskell.org/pipermail/haskell/2005-April/015769.html
+https://mail.haskell.org/pipermail/haskell-cafe/2011-December/098051.html
+https://mail.haskell.org/pipermail/beginners/2011-January/006296.html
