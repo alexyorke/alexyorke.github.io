@@ -3068,3 +3068,5 @@ https://www.haskell.org/haskellwiki/Unix_tools
 https://www.haskell.org/haskellwiki/phooey
 https://www.haskell.org/haskellwiki/GuiTV
 https://www.haskell.org/haskellwiki/grapefruit
+https://www.haskell.org/haskellwiki/Category%3AApplicative_Functor
+https://www.haskell.org/haskellwiki/Category%3AUser_interfaces
