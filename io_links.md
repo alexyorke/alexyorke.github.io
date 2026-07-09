@@ -3373,3 +3373,6 @@ https://dl.acm.org/doi/10.1145/2578855.2535846
 https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/6471.html
 https://dl.acm.org/doi/10.1145/1086365.1086379
+https://two-wrongs.com/the-what-are-monads-fallacy
+https://hacsoc.org/talks/20140219%20Functional%20Reactive%20Programming/presentation.pdf
+https://blog.banachewicz.pl/haskell/2014/05/30/short-tutorial-about-monads.html
