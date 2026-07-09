@@ -2825,3 +2825,11 @@ https://hackage.haskell.org/package/polysemy/docs/Polysemy.html
 https://hackage.haskell.org/package/fused-effects/docs/Control-Algebra.html
 https://hackage.haskell.org/package/cleff/docs/Cleff.html
 https://hackage.haskell.org/package/capability/docs/Capability.html
+https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/projection-operations
+https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.selectmany?view=net-10.0
+https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltext?view=net-10.0
+https://learn.microsoft.com/en-us/dotnet/api/system.io.file.writealltext?view=net-10.0
+https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-10.0
+https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1?view=net-10.0
+https://link.springer.com/chapter/10.1007/3-540-44854-3_7
+https://dl.acm.org/doi/10.1145/2370776.2370801
