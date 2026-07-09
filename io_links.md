@@ -3133,3 +3133,11 @@ https://ncatlab.org/nlab/show/quantum%2Breader%2Bmonad
 https://ncatlab.org/nlab/show/quantum%2Bprogramming%2Blanguages%2B--%2Breferences
 https://ncatlab.org/schreiber/files/QuantumMonadology-240424.pdf
 https://ncatlab.org/schreiber/files/QuantumMonadology-250718.pdf
+https://ncatlab.org/nlab/show/polymonad
+https://ncatlab.org/nlab/show/promonad
+https://ncatlab.org/nlab/show/polynomial%2Bmonad
+https://ncatlab.org/nlab/show/separable%2Bmonad
+https://arxiv.org/abs/1406.2060
+https://www.cs.umd.edu/~mwh/papers/hicks12polymonadTR.html
+https://nottingham-repository.worktribe.com/preview/771150/paper.pdf
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?MSFP2014.7.pdf=
