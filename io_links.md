@@ -4629,3 +4629,4 @@ https://haskellweekly.news/issue/216.html
 https://stackoverflow.com/questions/11362930/how-do-i-actually-execute-a-statet-monad-along-with-io
 https://stackoverflow.com/questions/71072001/combining-resourcet-with-bracket-in-a-streaming-pipeline
 https://stackoverflow.com/questions/9054731/avoiding-lift-with-monad-transformers
+https://stackoverflow.com/questions/69532999/implementing-a-liftio-style-lift-for-monad-transformers-in-haskell
