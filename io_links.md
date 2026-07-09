@@ -25,6 +25,7 @@ https://dl.acm.org/doi/10.1145/1863523.1863536
 https://dl.acm.org/doi/10.1145/1088348.1088354
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
 https://dl.acm.org/doi/10.1145/292540.292557
+https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
 https://dl.acm.org/doi/10.1145/581690.581696
 https://dl.acm.org/doi/10.5555/647980.743391
 https://dl.acm.org/doi/10.1145/581478.581482
