@@ -866,6 +866,9 @@ https://clean.cs.ru.nl/download/Clean20/doc/CleanRep2.0.pdf
 https://clean.cs.ru.nl/ST_Publications
 https://wiki.clean.cs.ru.nl/ST_Publications
 https://clean.cs.ru.nl/Workflow_examples
+https://link.springer.com/chapter/10.1007/3-540-63237-9_28
+https://www.cs.ru.nl/P.Achten/papers/MyPapers.html
+https://dl.acm.org/doi/10.5555/647978.743370
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
