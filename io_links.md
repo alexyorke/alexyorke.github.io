@@ -671,6 +671,11 @@ https://link.springer.com/content/pdf/10.1007/3-540-49201-1.pdf
 https://web.mit.edu/6.827/www/old/lectures/L16-MonadComputation.pdf
 https://ocw.mit.edu/courses/18-s996-category-theory-for-scientists-spring-2013/1920eed7eb325a4172a28b4aa7132b92_MIT18_S996S13_Monad.pdf
 https://books.google.com/books/about/Functional_Programming_and_Input_output.html?id=7r0gAQAAIAAJ
+https://dl.acm.org/doi/abs/10.5555/203043
+https://books.google.com.vc/books?cad=3&id=acB3PwAACAAJ&source=gbs_book_other_versions_r
+https://www.cambridge.org/core/books/functional-programming-and-inputoutput?format=PB
+https://www.barnesandnoble.com/w/functional-programming-and-input-output-andrew-d-gordon/1117320546
+https://opac.library.strathmore.edu/bib/2091
 https://shop.elsevier.com/books/implicit-parallel-programming-in-ph/nikhil/978-0-08-050852-8
 https://link.springer.com/book/10.1007/978-1-4471-3166-3
 ## Theses, bibliographies, and archives
@@ -678,6 +683,9 @@ https://digitalcollections.ohsu.edu/record/122/files/122_etd.pdf
 https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbib.pdf
 https://web.cecs.pdx.edu/~mpj/pubs/language.pdf
 https://dspace.mit.edu/entities/publication/ffc8c204-c55b-4783-947c-fdf298ee5228
+https://groups.google.com/g/comp.lang.functional/c/EQb7zV8JlLk
+https://www.seas.upenn.edu/~sweirich/types/archive/1993/msg00111.html
+https://homepages.inf.ed.ac.uk/stark/catmln.pdf
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -845,6 +853,7 @@ https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iasyncen
 https://blog.sigfpe.com/2007/11/io-monad-for-people-who-simply-dont.html
 https://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html
 https://neilmitchell.blogspot.com/2010/01/haskell-io-without-monads.html
+https://www.researchgate.net/publication/221241239_Witnessing_side-effects
 https://blog.jle.im/entry/io-monad-considered-harmful.html
 https://mmhaskell.com/blog/2021/10/18/using-io-without-the-io-monad
 https://pqnelson.github.io/2021/07/29/monadic-io-in-ml.html
