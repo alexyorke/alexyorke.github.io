@@ -4411,3 +4411,11 @@ https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labele
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Reader.html
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Writer.html
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Error.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Effect.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Plugin.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-State.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Reader.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Error.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-IO.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Coroutine.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-NonDet.html
