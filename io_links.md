@@ -3872,3 +3872,9 @@ https://www.haskell.org/onlinereport/haskell2010/haskellpa2.html
 https://dblp.org/pid/j/SimonLPeytonJones
 https://dblp.org/pid/h/JohnHughes
 https://dblp.org/pid/35/4224
+https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=zVQ_AQAAIAAJ
+https://books.google.com/books/about/HASKELL_98_LANGUAGE_AND_LIBRARIES.html?id=iPnf0AEACAAJ
+https://search.worldcat.org/title/Functional-programming-and-inputoutput/oclc/123256659
+https://search.worldcat.org/es/title/haskell-98-language-and-libraries-the-revised-report/oclc/255587471
+https://openlibrary.org/authors/OL771905A/Simon_L._Peyton_Jones
+https://search.worldcat.org/title/Introduction-to-functional-programming-using-Haskell/oclc/38430804
