@@ -3086,3 +3086,5 @@ https://www.haskell.org/haskellwiki/New_monads/MonadAdvSTM
 https://www.haskell.org/haskellwiki/New_monads/MonadSplit
 https://www.haskell.org/haskellwiki/NewMonads
 https://www.haskell.org/haskellwiki/lifting
+https://www.haskell.org/haskellwiki/Research_papers/Functional_pearls
+https://www.haskell.org/haskellwiki/Open_research_problems
