@@ -2632,3 +2632,5 @@ https://www.cs.ox.ac.uk/files/3858/pirog-biernacki-hs10.pdf
 https://github.com/Anton-Latukha/Fundamental-Haskell
 https://www.cs.ox.ac.uk/files/12220/MaaikeZwartDPhilThesis.pdf
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/mr.pdf
+https://homes.cs.washington.edu/~djg/2011sp/HaskellOverview.pdf
+https://github.com/xgrommx/haskell-ecosystem/blob/master/README.md
