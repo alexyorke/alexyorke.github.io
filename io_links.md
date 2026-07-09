@@ -4588,3 +4588,8 @@ https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handle
 https://stackoverflow.com/questions/9819578/whats-the-meaning-of-io-actions-within-pure-functions
 https://stackoverflow.com/questions/1675366/a-haskell-function-of-type-io-string-string
 https://stackoverflow.com/questions/46079371/haskell-how-to-avoid-messing-pure-with-io
+https://stackoverflow.com/questions/23241587/c-c-wrapper-for-haskell-io-monad
+https://stackoverflow.com/questions/48631406/how-to-add-to-a-list-from-io-in-haskell
+https://stackoverflow.com/questions/16556202/types-and-do-notation
+https://stackoverflow.com/questions/25151406/how-to-break-io-action-in-haskell
+https://stackoverflow.com/questions/44722277/what-is-the-io-haskell-monad-equivalent-in-scala-standard-api
