@@ -605,6 +605,7 @@ https://www.cs.tufts.edu/comp/150DAO/notes.html
 https://www.numdam.org/item/10.1051/ita%3A2004018.pdf
 https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/
 https://www2.cs.sfu.ca/CourseCentral/383/burton/Notes/Reading/MonadsAsContainers.pdf
+https://john.cs.olemiss.edu/~hcc/reports/gofer_notes.pdf
 https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/io-monad.pdf
 https://www.inf.ed.ac.uk/teaching/courses/inf1/fp/lectures/2017/lect15.pdf
 https://www.haskell.org/onlinereport/io-13.html
