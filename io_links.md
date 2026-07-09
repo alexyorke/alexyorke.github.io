@@ -2638,3 +2638,8 @@ https://forum.snap.berkeley.edu/t/monads/285
 https://raw.githubusercontent.com/typeclasses/haskell-report-archive/master/1996-05-haskell-1.3/haskell-report.pdf
 https://dl.acm.org/doi/abs/10.1145/237721.237794
 https://www.cs.ru.nl/~marko/research/pubs/2005/LNCS3474.pdf
+https://github.com/sebastiaanvisser/jail
+https://github.com/dorchard/effect-monad
+https://gist.github.com/1a241955b041283a9009
+https://github.com/texitoi/rust-mdo
+https://github.com/ghc-proposals/ghc-proposals/issues/527
