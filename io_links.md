@@ -749,6 +749,10 @@ https://docs.idris-lang.org/en/latest/reference/ffi.html
 https://mercurylang.org/information/doc-release/mercury_ref/The-_0060_0060state_002dof_002dthe_002dworld_0027_0027-type.html
 https://mercurylang.org/information/doc-release/mercury_library/io.html
 https://mercurylang.org/information/doc-release/reference_manual.pdf
+https://mercurylang.org/information/doc-release/transition_guide.pdf
+https://mercurylang.org/documentation/papers.html
+https://www.mercurylang.org/documentation/papers/aadebug03_talk.pdf
+https://arxiv.org/pdf/cs/0311040
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await
 https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall?view=net-10.0
@@ -770,6 +774,7 @@ https://www.haskell.org/haskellwiki/Monad_tutorials_timeline
 https://homepages.inf.ed.ac.uk/wadler/topics/monads.html
 https://goodmath.org/blog/2012/08/19/monads-and-programming/
 https://blog.higher-order.com/posts/2/
+https://dbp.io/essays/2011-09-03-mercury-tidbits.html
 https://www.haskell.org/pipermail/haskell-cafe/2007-August.txt
 https://www.haskell.org/haskellwiki/Avoiding_IO
 https://www.haskell.org/haskellwiki/How_to_get_rid_of_IO
