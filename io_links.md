@@ -2863,3 +2863,8 @@ https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf
 https://ncatlab.org/nlab/files/Grattage-CompilingFunctionalQPL.pdf
 https://people.cs.nott.ac.uk/psztxa/publ/qpl06.pdf
 https://arxiv.org/abs/2310.15735
+https://hackage.haskell.org/package/monad-control/docs/Control-Monad-Trans-Control.html
+https://hackage.haskell.org/package/lifted-base/docs/Control-Exception-Lifted.html
+https://hackage.haskell.org/package/lifted-async/docs/Control-Concurrent-Async-Lifted.html
+https://hackage.haskell.org/package/resourcet/docs/Control-Monad-Trans-Resource.html
+https://hackage.haskell.org/package/conduit/docs/Data-Conduit.html
