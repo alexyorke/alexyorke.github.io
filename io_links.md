@@ -935,6 +935,7 @@ https://www.stackage.org/package/scientist
 https://www.stackage.org/package/req
 https://www.stackage.org/package/enclosed-exceptions
 https://www.stackage.org/package/temporary-resourcet
+https://www.stackage.org/package/monadology
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
