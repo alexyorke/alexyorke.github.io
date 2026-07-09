@@ -2974,3 +2974,4 @@ https://github.com/EduardSergeev/monad-memo
 https://github.com/wenkokke/priority-sesh
 https://github.com/toptobes/realworld-haskell-scotty-example
 https://github.com/ghc-proposals/ghc-proposals/blob/master/proposals/0111-linear-types.rst
+https://github.com/tweag/linear-base/blob/master/docs/USER_GUIDE.md
