@@ -4698,3 +4698,7 @@ https://www.researchgate.net/publication/2328165_Distributed_Programming_in_Hask
 https://link.springer.com/chapter/10.1007/3-540-45361-X_4
 https://www.researchgate.net/publication/245733263_Composable_Memory_Transactions_in_Concurrent_Haskell
 https://www.researchgate.net/publication/221600494_The_Design_and_Implementation_of_Glasgow_Distributed_Haskell
+https://www.cs.kent.ac.uk/projects/ofa/chp/tutorial.pdf
+https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/TFPpaper.pdf
+https://www.cs.kent.ac.uk/~oc/traceTheory.html
+https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/mpc.pdf
