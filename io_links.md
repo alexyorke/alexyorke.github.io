@@ -3161,3 +3161,4 @@ https://person.dibris.unige.it/moggi-eugenio/ftp/lics89.pdf
 https://era.ed.ac.uk/items/5220ec22-5c1d-44d7-b3b3-909d39de4094
 https://www.era.lib.ed.ac.uk/bitstream/1842/196/1/Comp_Eff_Monads.pdf
 https://gallium.inria.fr/blog/lawvere-theories-and-monads/
+https://homepages.inf.ed.ac.uk/gdp/publications/Comb_Effects.pdf
