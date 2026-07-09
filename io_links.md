@@ -2915,3 +2915,5 @@ https://packages.ubuntu.com/source/resolute/haskell-resourcet
 https://packages.ubuntu.com/source/stonking/armhf/haskell-monad-control
 https://link.springer.com/content/pdf/10.1007/11784180_14.pdf?pdf=preview
 https://arxiv.org/pdf/1608.06499
+https://yesodweb.com/blog/2011/12/resourcet
+https://www.stackage.org/lts-18.8/package/lifted-base-0.2.3.12
