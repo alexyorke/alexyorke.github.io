@@ -2900,3 +2900,6 @@ https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltextasync?vie
 https://github.com/louthy/language-ext/wiki/How-to-deal-with-side-effects
 https://www2.cs.sfu.ca/~miltner/courses/current/383/resources/generated/lectures/haskell-io.pdf
 https://jfla.inria.fr/2007/actes/Presentation/tolmach.pdf
+https://cseweb.ucsd.edu/classes/wi14/cse230-a/lectures/lec-transformers.html
+https://www.cs.yale.edu/homes/hudak/CS429F04/AFPLectureNotes.pdf
+https://www.cs.jhu.edu/~hager/Public/ICRAtutorial/HagerPeterson-FRP/icra02-tutorial-paper.pdf
