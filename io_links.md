@@ -4043,3 +4043,6 @@ https://www.research.ed.ac.uk/en/publications/rows-and-capabilities-as-modal-eff
 https://ieeexplore.ieee.org/document/316054/
 https://www.research.ed.ac.uk/en/publications/a-general-semantics-for-evaluation-logic/
 https://journals.sagepub.com/doi/10.3233/FI-1995-22126
+https://www.research.ed.ac.uk/en/publications/a-generic-operational-metatheory-for-algebraic-effects/
+https://ieeexplore.ieee.org/document/4557905/
+https://www.research.ed.ac.uk/en/publications/handling-algebraic-effects/
