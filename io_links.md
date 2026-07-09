@@ -4368,3 +4368,4 @@ https://reasonablypolymorphic.com/blog/polysemy-internals-the-effect-interpreter
 https://reasonablypolymorphic.com/blog/proving-equivalence-of-polysemy-interpreters/
 https://reasonablypolymorphic.com/blog/proving-commutativity-of-polysemy-interpreters/
 https://reasonablypolymorphic.com/blog/testing-polysemy-with-polysemy-check/
+https://github.com/haskell-effectful/effectful/issues/266
