@@ -3112,3 +3112,7 @@ https://dorchard.github.io/pubs.html
 https://ncatlab.org/nlab/show/state%2Bmonad
 https://ncatlab.org/nlab/show/monad%2B(in%2Bcomputer%2Bscience)
 https://ncatlab.org/nlab/show/quantum%20state%20monad
+https://ncatlab.org/nlab/show/monad%2Btransformer
+https://ncatlab.org/nlab/show/parameterized%2Bmonad
+https://ncatlab.org/nlab/show/action%2Bmonad
+https://ncatlab.org/nlab/show/list%2Bmonad
