@@ -2940,6 +2940,8 @@ https://ics.uci.edu/~jajones/INF102-S18/readings/17_malenfant-ijcai95.pdf
 https://rand.cs.uchicago.edu/files/thesis.pdf
 https://mail.haskell.org/pipermail/haskell-cafe/2006-June/016389.html
 https://mail.haskell.org/pipermail/haskell-cafe/2003-August/004859.html
+https://www.dcs.shef.ac.uk/intranet/teaching/public/modules/level2/com2108.html
+https://cosc59.gitlab.io/
 https://arxiv.org/html/2603.24199
 https://inria.hal.science/hal-01025633/file/RR-8569.pdf
 https://arxiv.org/html/2502.15031v2
