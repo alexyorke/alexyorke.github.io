@@ -914,6 +914,10 @@ https://livebook.manning.com/book/haskell-in-depth/chapter-4
 https://livebook.manning.com/book/haskell-in-depth/chapter-9
 https://livebook.manning.com/book/haskell-in-depth/chapter-3
 https://livebook.manning.com/book/haskell-in-depth/chapter-10
+https://www.stackage.org/package/resourcet-pool
+https://www.stackage.org/package/conduit-throttle
+https://www.stackage.org/package/conduit-combinators
+https://www.stackage.org/package/monad-control-aligned
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf
 https://typelevel.org/cats-effect/docs/datatypes/io
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect
