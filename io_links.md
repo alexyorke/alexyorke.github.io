@@ -51,6 +51,9 @@ https://dl.acm.org/doi/10.1145/2628136.2628144
 https://dl.acm.org/doi/10.1145/1052934.1052935
 https://dl.acm.org/doi/10.1145/3473568
 https://dl.acm.org/doi/10.1145/1017472.1017473
+https://dl.acm.org/doi/10.1007/978-3-540-27861-0_2
+https://dl.acm.org/doi/10.5555/647978.743363
+https://dl.acm.org/doi/10.1145/1173706.1173714
 https://dl.acm.org/doi/10.1145/1088348.1088353
 https://dl.acm.org/doi/10.5555/645772.667946
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561
