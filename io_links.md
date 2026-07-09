@@ -4082,3 +4082,11 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_57.html
 https://r6.ca/blog/20110520T220201Z.html
 https://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o
 https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspYEQAAQBAJ
+https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch07.html
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0021.xhtml
+https://effective-haskell.com/chapters/table-of-contents.html
+https://livebook.manning.com/book/functional-design-and-architecture/appendix-b/v-12
+https://livebook.manning.com/concept/haskell/monadio
+https://livebook.manning.com/concept/haskell/rwst
+https://livebook.manning.com/concept/haskell/catch
+https://livebook.manning.com/concept/haskell/stuarray
