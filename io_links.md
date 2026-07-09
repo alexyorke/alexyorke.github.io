@@ -3431,3 +3431,6 @@ https://www.cambridge.org/core/books/functional-programming-and-inputoutput/
 https://www.cambridge.org/core/books/the-haskell-school-of-expression/
 https://www.sciencedirect.com/science/article/pii/S0167642399000234
 https://www.haskell.org/arrows/biblio.html
+https://www.cs.yale.edu/publications/techreports/tr1031.pdf
+https://teaching.well-typed.com/intro/slides/introduction.pdf
+https://www.sciencedirect.com/science/article/pii/S0167642399000234/pdf?md5=af726051fb3b7268d63fa97f1e01aac3&pid=1-s2.0-S0167642399000234-main.pdf
