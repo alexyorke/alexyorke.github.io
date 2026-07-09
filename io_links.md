@@ -4090,6 +4090,8 @@ https://blog.moertel.com/posts/2007-03-07-directory-tree-printing-in-haskell-par
 https://blog.moertel.com/archive.html
 https://blog.jle.im/entries/tagged/haskell.html
 https://blog.jle.im/entry/a-non-unique-monad-instance.html
+https://www.cis.upenn.edu/~cis1940/fall16/lectures/05-real-world-haskell.html
+https://caiorss.github.io/Functional-Programming/papers/Functiona_Pearls-Applicative_Programming_With_Effects.pdf
 https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
 https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
