@@ -3475,3 +3475,7 @@ https://kar.kent.ac.uk/id/document/2025
 https://dl.acm.org/doi/10.1145/1086365.1086380
 https://www.sciencedirect.com/science/article/pii/0167642386900286/pdf?_valck=1&md5=a164905ee07e651493d655ec76ceb8c4&pid=1-s2.0-0167642386900286-main.pdf
 https://kar.kent.ac.uk/94289
+https://ftp.science.ru.nl/CSI/SoftwEng.FunctLang/papers/2002/vWeA2002StronglyTypedOS.pdf
+https://www.researchgate.net/publication/296486815_Reliable_Communication_in_Embedded_Systems
+https://www.jucs.org/jucs_11_7/jucs_11_7_1234_1254_dubois.html
+https://www.cs.vu.nl/~wanf/theses/blankers-bscthesis.pdf
