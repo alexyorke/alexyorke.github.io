@@ -40,6 +40,11 @@ https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concu
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/PrettierConcurrency-Haskell2011.pdf
 https://dl.acm.org/doi/10.1145/2096148.2034685
 https://dl.acm.org/doi/10.1145/1366230.1366241
+https://dl.acm.org/doi/pdf/10.1145/2503778.2503790
+https://dl.acm.org/doi/pdf/10.1145/2096148.2034690
+https://dl.acm.org/doi/10.1145/378795.378858
+https://dl.acm.org/doi/pdf/10.1145/2692915.2628144
+https://dl.acm.org/doi/pdf/10.1145/2414639.2414650
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
 https://wasp.cs.washington.edu/dynsep/transact11.pdf
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
