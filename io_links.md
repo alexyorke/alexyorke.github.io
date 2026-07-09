@@ -4060,3 +4060,6 @@ https://www.haskell.org/communities/05-2011/html/report.html
 https://www.haskell.org/communities/11-2008/html/report.html
 https://www.haskell.org/communities/11-2014/report.html
 https://www.haskell.org/communities/05-2015/html/report.html
+https://www.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Lecture/Slides.pdf
+https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
+https://git-r3lab-server.uni.lu/R3/school/haskell/haskell23
