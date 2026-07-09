@@ -7,6 +7,15 @@ https://dl.acm.org/doi/10.5555/647698.734146
 https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/
 https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf
+https://dl.acm.org/doi/10.1145/317765.317777
+https://homepages.inf.ed.ac.uk/wadler/papers/reflection-journal/reflection-journal.pdf
+https://link.springer.com/article/10.1007/BF01018828
+https://iris-project.org/pdfs/2018-popl-runST-final.pdf
+https://dl.acm.org/doi/10.1145/3158152
+https://cs.au.dk/~birke/papers/runST-conf.pdf
+https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf
+https://dl.acm.org/doi/10.1145/258949.258969
+https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf
 https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/Wadler-MonadsFP.pdf
 https://homes.luddy.indiana.edu/sabry/files/mdo-ita.pdf
 https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler
@@ -500,7 +509,6 @@ https://okmij.org/ftp/Haskell/extensible/more.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2020/07/effev.pdf
 https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf
 https://okmij.org/ftp/Computation/resource-aware-prog/region-io.pdf
-https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2004/09/conc-ffi.pdf
 https://alastairreid.github.io/papers/Haskell_FFI/
 https://kcsrk.info/papers/awkward_effects_ml17.pdf
@@ -695,6 +703,7 @@ https://www.seas.upenn.edu/~sweirich/types/archive/1993/msg00111.html
 https://homepages.inf.ed.ac.uk/stark/catmln.pdf
 https://www.cs.ox.ac.uk/monographs/cs/1983.html
 https://www.eighty-twenty.org/page3/
+https://github.com/yallop/effects-bibliography/blob/master/README.md
 ## Official docs, references, and lecture notes
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Types.html
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html
@@ -3533,7 +3542,6 @@ https://dl.acm.org/doi/10.5555/1756972.1756977
 https://homes.luddy.indiana.edu/sabry/files/sideeffects.pdf
 https://dl.acm.org/doi/abs/10.1145/1353445.1353449
 https://dl.acm.org/doi/10.1145/2578855.2535846
-https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/6471.html
 https://dl.acm.org/doi/10.1145/1086365.1086379
 https://two-wrongs.com/the-what-are-monads-fallacy
