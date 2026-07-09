@@ -3898,3 +3898,7 @@ https://www.microsoft.com/en-us/research/publication/algebraic-effects-for-funct
 https://homepages.inf.ed.ac.uk/slindley/papers/libseff.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/algeff-in-c-tr-v2.pdf
 https://xnning.github.io/papers/oopsla22-tr.pdf
+https://kcsrk.info/papers/handlers_js-proweb2018.pdf
+https://dl.acm.org/doi/pdf/10.1145/3276481
+https://effekt-lang.org/publications
+https://github.com/xnning/EvEff
