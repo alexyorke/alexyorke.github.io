@@ -2934,3 +2934,8 @@ https://link.springer.com/content/pdf/10.1007/BFb0022267.pdf
 https://dl.acm.org/doi/pdf/10.1145/3009837.3009894
 https://cmsc-16100.cs.uchicago.edu/2021-autumn/Lectures/06/intro-to-haskell-io.php
 https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result-either/
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Exception.html
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/base-4.22.0.0-66f8/GHC-Exception.html
+https://hackage-content.haskell.org/package/lifted-async-0.11.0/docs/doc-index.html
+https://hackage-content.haskell.org/package/extra-1.8.1/docs/src/Control.Exception.Extra.html
+https://hackage-content.haskell.org/package/exceptions-0.10.12/docs/src/Control.Monad.Catch.html
