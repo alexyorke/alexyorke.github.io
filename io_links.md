@@ -3547,3 +3547,5 @@ https://okmij.org/ftp/Computation/random-var-monad.txt
 https://blog.sigfpe.com/2009/12/where-do-monads-come-from.html
 https://blog.sigfpe.com/2008/10/operads-and-their-monads.html
 https://blog.sigfpe.com/2009/10/what-category-do-haskell-types-and.html
+https://themonadreader.files.wordpress.com/2010/05/issue16.pdf
+https://themonadreader.files.wordpress.com/2011/10/issue19.pdf
