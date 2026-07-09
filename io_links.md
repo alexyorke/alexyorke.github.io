@@ -3129,3 +3129,7 @@ https://ncatlab.org/nlab/show/enriched%2Bmonad
 https://ncatlab.org/nlab/show/monoidal%2Bmonad
 https://ncatlab.org/nlab/show/idempotent%2Bmonad
 https://ncatlab.org/nlab/show/additive%2Bmonad
+https://ncatlab.org/nlab/show/quantum%2Breader%2Bmonad
+https://ncatlab.org/nlab/show/quantum%2Bprogramming%2Blanguages%2B--%2Breferences
+https://ncatlab.org/schreiber/files/QuantumMonadology-240424.pdf
+https://ncatlab.org/schreiber/files/QuantumMonadology-250718.pdf
