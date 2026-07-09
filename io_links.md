@@ -4509,3 +4509,5 @@ https://lambda-the-ultimate.org/node/4306
 https://odr.chalmers.se/items/91bf8c4b-93dd-43ca-8ac2-8b0d2c310796
 https://arxiv.org/abs/1902.00735
 https://citeseer.ist.psu.edu/hudak89expressiveness.html
+https://odr.chalmers.se/bitstreams/3d20b1cc-091c-46fa-a706-bb826c4415c6/download
+https://arxiv.org/pdf/1902.00735.pdf
