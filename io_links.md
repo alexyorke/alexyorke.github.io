@@ -3325,3 +3325,6 @@ https://www.researchgate.net/publication/220676856_The_ins_and_outs_of_Clean_IO
 https://xnning.github.io/slides/haskell-evidently.pdf
 https://se.cs.uni-tuebingen.de/publications/brachthaeuser21representing.pdf
 https://www.researchgate.net/publication/309551183_On_the_Expressive_Power_of_User-Defined_Effects_Effect_Handlers_Monadic_Reflection_Delimited_Control
+https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.1
+https://dl.acm.org/doi/10.1145/2633357.2633360
+https://okmij.org/ftp/Haskell/zseq.pdf
