@@ -3196,3 +3196,7 @@ https://doi.org/10.1145/3779209.3779536
 https://doi.org/10.1016/j.scico.2024.103086
 https://arxiv.org/html/2504.10159v1
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2025.7
+https://arxiv.org/pdf/1611.09259
+https://dl.acm.org/doi/10.1145/3158095
+https://dl.acm.org/doi/10.1145/3158096
+https://dl.acm.org/doi/pdf/10.1145/3632898
