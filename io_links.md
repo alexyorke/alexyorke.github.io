@@ -4262,3 +4262,10 @@ https://stackoverflow.com/questions/9509065/how-do-i-use-getcontents-to-take-inp
 https://stackoverflow.com/questions/34516579/trouble-with-getcontents
 https://stackoverflow.com/questions/2290164/lazy-io-in-haskell
 https://stackoverflow.com/questions/18160807/haskell-io-hgetcontents-illegal-operation-handle-is-closed
+https://www.reddit.com/r/haskell/comments/57gqos/using_unsafeperformio_to_make_current_time/
+https://www.reddit.com/r/haskell/comments/2eoc7c/lazy_io_problem/
+https://www.reddit.com/r/haskell/comments/ipv28c/how_to_write_getcontents_in_terms_of_getchar/
+https://www.reddit.com/r/haskell/comments/oexn0q/memotrie_and_the_io_monad_when_to_use/
+https://www.reddit.com/r/haskell/comments/380kmq/illustrating_the_problem_with_lazy_io/
+https://www.reddit.com/r/haskell/comments/1imoi0z/implementing_unsafeinterleaveio_using/
+https://www.reddit.com/r/haskell/comments/1e8k3k/three_examples_of_problems_with_lazy_io/
