@@ -3974,4 +3974,9 @@ https://www.haskell.org/haskellwiki/HAppS_tutorial
 https://www.haskell.org/haskellwiki/HAppS_tutorial2
 https://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program
 https://www.haskell.org/haskellwiki/Introductory_gui_programming
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/interactive-lazy-ml-system/D76BABE75A9AD9902ECED03A5FFC0318
+https://www.microsoft.com/en-us/research/publication/a-tutorial-on-parallel-and-concurrent-programming-in-haskell/
+https://ucsd-cse230.github.io/fa21/lectures.html
 https://www.adit.io/posts/2012-04-14-working_with_HTML_in_haskell.html
+https://cth.altocumulus.org/~hallgren/Papers/memo89.pdf
+https://www.researchgate.net/profile/Simon-Peyton-Jones/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell/links/0c960517e31f6377f2000000/A-Tutorial-on-Parallel-and-Concurrent-Programming-in-Haskell.pdf
