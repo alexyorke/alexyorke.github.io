@@ -4063,3 +4063,7 @@ https://www.haskell.org/communities/05-2015/html/report.html
 https://www.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Lecture/Slides.pdf
 https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
 https://git-r3lab-server.uni.lu/R3/school/haskell/haskell23
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0038.xhtml
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0041.xhtml
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0052.xhtml
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/44dacd55-054b-4e5a-b6e8-0d9d87282aee.xhtml
