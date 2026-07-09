@@ -2988,3 +2988,4 @@ https://github.com/etorreborre/registry/blob/main/doc/applications.md
 https://github.com/anton-k/processing-for-haskell/blob/master/tutorial/FirstSteps.md
 https://github.com/giocosmiano/haskell-programming/blob/master/readme.md
 https://github.com/plrg-bristol/advanced-haskell-2026
+https://gist.github.com/binarin/f396729e0892536415a0a1b75a0f89d7
