@@ -3565,3 +3565,5 @@ https://tryjoinads.org/index.html?use%2Ftasks.html=
 https://tryjoinads.org/index.html?use%2Fjoins.html=
 https://tryjoinads.org/index.html?use%2Fagents.html=
 https://haskellforall.com/2014/04/how-continuation-monad-works
+https://haskellforall.com/2016/07/list-transformer-a-beginner-friendly-listt
+https://haskellforall.com/2017/10/why-do-our-programs-need-to-read-input
