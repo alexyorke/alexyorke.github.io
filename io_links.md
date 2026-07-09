@@ -3917,3 +3917,6 @@ https://search.worldcat.org/title/Parallel-and-concurrent-programming-in-Haskell
 https://search.worldcat.org/title/851826580
 https://www.cs.ox.ac.uk/publications/publication12055-abstract.html
 https://patryshev.com/monad/m-intro.html
+https://www.haskell.org/haskellwiki/Category:Monad
+https://www.haskell.org/haskellwiki/Par_Monad:_A_Parallelism_Tutorial
+https://www.haskell.org/haskellwiki/compose
