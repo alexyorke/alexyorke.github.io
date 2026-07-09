@@ -4344,3 +4344,8 @@ https://github.com/haskell-effectful/effectful/issues/347
 https://github.com/haskell-effectful/effectful/discussions/204
 https://github.com/haskell-effectful/effectful/issues/296
 https://github.com/haskell-effectful/effectful/activity
+https://github.com/haskell-effectful/effectful/issues/364
+https://github.com/tomjaguarpaw/bluefin/issues/100
+https://github.com/tomjaguarpaw/bluefin/issues/98
+https://github.com/tomjaguarpaw/bluefin/issues/97
+https://github.com/tomjaguarpaw/bluefin/issues/96
