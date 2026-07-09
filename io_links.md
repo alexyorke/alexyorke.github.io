@@ -3497,3 +3497,6 @@ https://books.google.com/books/about/Functional_Programming_with_Go.html?id=Y_AN
 https://books.google.com/books/about/Advanced_Functional_Programming_in_Haske.html?id=Huxp0QEACAAJ
 https://www.researchgate.net/publication/31109739_Functional_Programming_and_Operating_Systems
 https://academic.oup.com/comjnl/article-abstract/32/2/162/543564
+https://www21.in.tum.de/~krauss/publication/2007-lexicographic-orders/
+https://www21.in.tum.de/~krauss/papers/imperative-hol.pdf
+https://link.springer.com/chapter/10.1007/978-3-540-71067-7_14
