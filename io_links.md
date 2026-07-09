@@ -4382,3 +4382,6 @@ https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispat
 https://hackage.haskell.org/package/effectful-th
 https://hackage.haskell.org/package/effectful-core
 https://hackage.haskell.org/package/bluefin-0.0.6.0/docs/Bluefin-Compound.html
+https://hackage.haskell.org/package/bluefin-0.0.4.3/docs/Bluefin-Compound.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0
+https://hackage.haskell.org/package/cleff-plugin
