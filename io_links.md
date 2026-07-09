@@ -57,6 +57,10 @@ https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripti
 https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH
 https://link.springer.com/chapter/10.1007/3-540-45587-6_13
 https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf
+https://dl.acm.org/doi/10.1145/871895.871898
+https://link.springer.com/chapter/10.1007/11737414_19
+https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf
+https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
 https://wasp.cs.washington.edu/dynsep/transact11.pdf
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
