@@ -2983,3 +2983,4 @@ https://github.com/gabrielelana/effective-haskell/blob/master/chapter-07.org
 https://github.com/lehins/primal
 https://github.com/mitchellwrosen/haskell-papers/blob/master/static/papers.json
 https://github.com/tssm/up-to-date-real-world-haskell
+https://github.com/soupi/haskell-study-plan
