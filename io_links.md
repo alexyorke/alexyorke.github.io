@@ -4075,3 +4075,7 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_108.html
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_110.html
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_toc.html
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_47.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_111.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_103.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_54.html
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_57.html
