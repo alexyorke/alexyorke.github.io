@@ -3983,3 +3983,4 @@ https://www.researchgate.net/profile/Simon-Peyton-Jones/publication/221303519_A_
 https://book.realworldhaskell.org
 https://www.e-booksdirectory.com/details.php?ebook=1760
 https://www.red-bean.com/~bos/realworldhaskell/
+https://www.researchgate.net/publication/2242966_High_Level_Specification_of_IO_in_Functional_Languages
