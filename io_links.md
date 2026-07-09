@@ -2992,3 +2992,4 @@ https://gist.github.com/binarin/f396729e0892536415a0a1b75a0f89d7
 https://github.com/anton-k/reader-pattern-servant-app
 https://github.com/caiorss/Functional-Programming/blob/master/haskell/GUI_Graphical_User_Interface_GTK.org
 https://github.com/rust-unofficial/awesome-rust
+https://github.com/birmjin10000/Haskell_for_seasoned_programmers
