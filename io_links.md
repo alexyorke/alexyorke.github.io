@@ -4609,3 +4609,5 @@ https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/1
 https://www.schoolofhaskell.com/user/bjterry/interfacing-with-restful-json-apis
 https://www.schoolofhaskell.com/user/griba/error-parameterized-monad-and-transformer-a-replacement-for-synchronous-exceptions
 https://haskellforall.com/2012/05/pipes-20-pipe-finalization
+https://www.researchgate.net/publication/2247556_FUDGETS_a_graphical_user_interface_in_a_lazy_functional_language
+https://www.cs.ru.nl/~marko/research/pubs/2001/achp2001-HaskellObjectIO.pdf
