@@ -3078,3 +3078,7 @@ https://www.haskell.org/haskellwiki/FFI_Introduction
 https://www.haskell.org/haskellwiki/FFICookBook
 https://www.haskell.org/haskellwiki/HSFFIG
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e293f0c0-320c-452d-b0a8-da30e99b13de.xhtml
+https://www.haskell.org/haskellwiki/Ru/IO
+https://www.haskell.org/haskellwiki/yampa/reactimate
+https://www.haskell.org/haskellwiki/Yhc/RTS/Concurrency
+https://www.haskell.org/haskellwiki/Background_thread_example
