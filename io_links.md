@@ -2958,3 +2958,4 @@ https://arxiv.org/abs/2109.02198
 https://openaccess.city.ac.uk/id/eprint/13222/1/Applicative-final.pdf
 https://github.com/thma/WhyHaskellMatters
 https://github.com/hermannhueck/implementing-io-monad
+https://monix.io/blog/2018/03/20/monix-vs-cats-effect.html
