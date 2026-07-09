@@ -2728,3 +2728,10 @@ https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Labeled.State.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Fail.html
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Writer.Dynamic.html
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/src/Effectful.Concurrent.Async.html
+https://hackage-content.haskell.org/package/acolyte-server-0.1.0.1/docs/Acolyte-Server-Effects.html
+https://hackage-content.haskell.org/package/fb-2.1.1.2/docs/src/Facebook.TestUsers.html
+https://hackage-content.haskell.org/package/fb-2.1.1.2/docs/src/Facebook.Graph.html
+https://hackage-content.haskell.org/package/shibuya-kafka-adapter-0.2.0.0/docs/src/Shibuya.Adapter.Kafka.html
+https://hackage-content.haskell.org/package/prairie-0.1.1.0/docs/Prairie-Traverse.html
+https://hackage-content.haskell.org/package/webdriver-0.13.0.0/docs/Test-WebDriver-Types.html
