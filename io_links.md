@@ -4394,3 +4394,9 @@ https://hackage.haskell.org/package/polysemy-plugin
 https://hackage.haskell.org/package/polysemy-zoo
 https://hackage.haskell.org/package/freer-simple
 https://www.stackage.org/package/freer-simple
+https://hackage.haskell.org/package/polysemy-1.9.0.0/docs/Polysemy.html
+https://hackage.haskell.org/package/polysemy-plugin-0.1.0.0/docs/Polysemy-Plugin.html
+https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer.html
+https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer-TH.html
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin.html
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff.html
