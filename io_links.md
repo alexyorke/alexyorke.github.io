@@ -4548,3 +4548,5 @@ https://mail.haskell.org/pipermail/haskell-cafe/2007-May/025946.html
 https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007488.html
 https://mail.haskell.org/pipermail/haskell-cafe/2009-May/061009.html
 https://mail.haskell.org/pipermail/haskell-cafe/2012-June/102061.html
+https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007499.html
+https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007670.html
