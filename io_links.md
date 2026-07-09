@@ -4476,3 +4476,10 @@ https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-State-
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Error-Dynamic.html
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Writer-Dynamic.html
 https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Compound.html
+https://mail.haskell.org/pipermail/beginners/2010-April/004022.html
+https://mail.haskell.org/pipermail/beginners/2010-January/003180.html
+https://mail.haskell.org/pipermail/beginners/2010-January/003188.html
+https://mail.haskell.org/pipermail/haskell/2001-February/006728.html
+https://mail.haskell.org/pipermail/haskell/2006-July/018198.html
+https://mail.haskell.org/pipermail/haskell/2009-March/021064.html
+https://groups.google.com/g/fa.haskell/c/1sdXl-pMvUc
