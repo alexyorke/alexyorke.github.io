@@ -3019,3 +3019,5 @@ https://www.staff.science.uu.nl/~swier004/publications/2008-jfp.pdf
 https://simonmar.github.io/bib/papers/safe-haskell.pdf
 https://uuinfofp.github.io/practicals/RetakeAssignment.pdf
 https://www.cis.upenn.edu/~stevez/papers/LZ06a.pdf
+https://www.cs.utexas.edu/~wcook/Drafts/2012/mri-jfp.pdf
+https://www.cs.cornell.edu/~ethan/papers/nmifc.pdf
