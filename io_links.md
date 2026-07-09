@@ -3458,3 +3458,10 @@ https://dl.acm.org/doi/10.1145/2503778.2503790
 https://www.microsoft.com/en-us/research/wp-content/uploads/1995/01/io-tutorial.pdf
 https://www.cs.tufts.edu/~kfisher/cs242/2008/Slides/Monads.pdf
 https://www.cmi.ac.in/~spsuresh/teaching/prgh15/lectures/lecture22.pdf
+https://conal.net/blog/posts/is-haskell-a-purely-functional-language
+https://conal.net/blog/posts/notions-of-purity-in-haskell
+https://conal.net/blog/posts/can-functional-programming-be-liberated-from-the-von-neumann-paradigm
+https://conal.net/blog/posts/the-c-language-is-purely-functional
+https://worrydream.com/quotes/
+https://www.researchgate.net/publication/220939997_Experiences_with_Clean_IO
+https://www.scss.tcd.ie/publications/tech-reports/reports.01/TCD-CS-2001-31.pdf
