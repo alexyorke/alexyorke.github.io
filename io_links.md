@@ -4887,3 +4887,9 @@ https://www.haskell.org/hugs/pages/libraries/base/Data-IORef.html
 https://github.com/monet/monet.js
 https://monet.github.io/monet.js/
 https://colomboe.github.io/KIO/
+https://www.haskell.org/communities/12-2007/html/report.html
+https://www.haskell.org/communities/11-2008/report.pdf
+https://www.dantb.dev/files/dissertation.pdf
+https://www.utupub.fi/server/api/core/bitstreams/af1b5139-b1a4-4197-83e7-80e4c8b03bef/content
+https://webspace.science.uu.nl/~swier004/publications/2010-hosc.pdf
+https://webspace.science.uu.nl/~swier004/publications/2008-tfp.pdf
