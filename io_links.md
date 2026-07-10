@@ -5135,3 +5135,4 @@ https://www.scs.stanford.edu/14sp-cs240h/slides/
 https://devel.isa-afp.org/browser_info/current/AFP/Hello_World/outline.pdf
 https://pages.di.unipi.it/corradini/Didattica/AP-24/
 https://www.shoeisha.co.jp/book/detail/9784798161280
+https://amslaurea.unibo.it/28169/1/master-thesis.pdf
