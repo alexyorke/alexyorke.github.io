@@ -5130,3 +5130,8 @@ https://book.realworldhaskell.org/read/software-transactional-memory.html
 https://arxiv.org/abs/1710.09756
 https://arxiv.org/abs/1003.5513
 https://www.researchgate.net/publication/235929039_A_High-Level_Implementation_of_STM_Haskell_with_WriteWrite_Conflict_Detection
+https://www.scs.stanford.edu/14sp-cs240h/slides/functors-monads-slides.html
+https://www.scs.stanford.edu/14sp-cs240h/slides/
+https://devel.isa-afp.org/browser_info/current/AFP/Hello_World/outline.pdf
+https://pages.di.unipi.it/corradini/Didattica/AP-24/
+https://www.shoeisha.co.jp/book/detail/9784798161280
