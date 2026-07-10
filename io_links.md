@@ -4936,3 +4936,14 @@ https://docs.idris-lang.org/_/downloads/en/v0.10/pdf/
 https://simongregersen.com/papers/2019-post-depsec-full.pdf
 https://gallais.github.io/pdf/esop23-thin.pdf
 https://idris2.readthedocs.io/en/latest/implementation/overview.html
+https://www.skypack.dev/view/io-monad
+https://old.arrow-kt.io/docs/fx/
+https://softwaremill.com/cats-effect-vs-zio/
+https://livebook.manning.com/book/functional-programming-in-kotlin/chapter-13
+https://www.slideshare.net/slideshow/catseffectio-scala-vienna-meetup-february-2019/132527960
+https://gcanti.github.io/fp-ts/modules/MonadIO.ts.html
+https://typelevel.org/cats/faq.html
+https://d-nb.info/1293662739/34
+https://riuma.uma.es/xmlui/bitstream/handle/10630/20477/S%C3%A1nchez%20Fern%C3%A1ndez%2C%20Santiago%20Guillermo%20Memoriapdf.pdf?isAllowed=y&sequence=1
+https://jeapostrophe.github.io/conferences/2013-tfp/proceedings/tfp2013_submission_13.pdf
+https://npm.io/package/%40dodgez/ts-monads
