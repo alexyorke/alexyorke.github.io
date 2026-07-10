@@ -5006,3 +5006,12 @@ https://downloads.haskell.org/ghc/9.2.8/docs/users_guide.pdf
 https://downloads.haskell.org/~ghc/6.4/docs/hslibs.pdf
 https://www.haskell.org/pipermail/beginners/attachments/20090424/5476cc76/UnderstandingHaskellMonads.pdf
 https://hackage.haskell.org/package/conduit
+https://hackage-content.haskell.org/package/bluefin-0.0.16.0/docs/Bluefin.html
+https://hackage-content.haskell.org/package/bluefin-0.0.16.0/docs/Bluefin-IO.html
+https://hackage.haskell.org/package/cleff/docs/Cleff-Internal-Base.html
+https://hackage.haskell.org/package/cleff-0.3.0.0/docs/Cleff-Internal-Monad.html
+https://hackage.haskell.org/package/monad-effect
+https://citeseerx.ist.psu.edu/document?doi=88fd62fc47141d3f31f38df8dfb9de59bb848acf&repid=rep1&type=pdf
+https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0270&repid=rep1&type=pdf
+https://hackage.haskell.org/package/bluefin
+https://hackage.haskell.org/package/effectful
