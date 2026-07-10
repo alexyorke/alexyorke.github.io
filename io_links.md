@@ -4893,3 +4893,13 @@ https://www.dantb.dev/files/dissertation.pdf
 https://www.utupub.fi/server/api/core/bitstreams/af1b5139-b1a4-4197-83e7-80e4c8b03bef/content
 https://webspace.science.uu.nl/~swier004/publications/2010-hosc.pdf
 https://webspace.science.uu.nl/~swier004/publications/2008-tfp.pdf
+https://docs.rs/higher/latest/higher/io/enum.IO.html
+https://clojure.github.io/clojure-contrib/
+https://docs.rs/rustica/latest/rustica/datatypes/index.html
+https://clojurepatterns.com/1/12/9/
+https://www.nuget.org/packages/FSharp.FIO
+https://cljdoc.org/d/pure-io/pure-io/0.1.0
+https://www.cl.cam.ac.uk/teaching/2006/FFuncProg/fofp.pdf
+https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999904043363171c8050257c045&repid=rep1&type=pdf
+https://pkg.go.dev/github.com/IBM/fp-go/v2@v2.3.58/io
+https://gist.github.com/joergrathlev/f17092d3470dcf732be6
