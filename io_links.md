@@ -4705,3 +4705,5 @@ https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/mpc.pdf
 https://twistedsquare.com/CHP.pdf
 https://twistedsquare.com/CHP-Models.pdf
 https://www.researchgate.net/publication/221004376_Communicating_Haskell_Processes_Composable_Explicit_Concurrency_Using_Monads
+https://books.google.com/books/about/Functional_Design_and_Architecture.html?id=MB8kEQAAQBAJ
+https://books.google.com/books?hl=en&id=CGJjQgAACAAJ
