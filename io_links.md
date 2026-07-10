@@ -5124,3 +5124,9 @@ https://person.dibris.unige.it/moggi-eugenio/APPSEM00/
 https://arxiv.org/abs/1202.2922
 https://arxiv.org/abs/1202.2921
 https://arxiv.org/abs/1310.0605
+https://hackage.haskell.org/package/resourcet-0.4.0.2/docs/Control-Monad-Trans-Resource.html
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html
+https://book.realworldhaskell.org/read/software-transactional-memory.html
+https://arxiv.org/abs/1710.09756
+https://arxiv.org/abs/1003.5513
+https://www.researchgate.net/publication/235929039_A_High-Level_Implementation_of_STM_Haskell_with_WriteWrite_Conflict_Detection
