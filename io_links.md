@@ -4923,3 +4923,10 @@ https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_11.htm
 https://webspace.science.uu.nl/~hage0101/downloads/ariemiddelkoop-msc.pdf
 https://wiki.clean.cs.ru.nl/download/papers/cleanbook/oldCleanBookI.pdf
 https://cloogle.org/doc/
+https://wp.doc.ic.ac.uk/vetssannualreport/formal-verification-of-quantum-security-protocols-using-coq/
+https://rocq-prover.org/p/coq-simple-io/1.10.0
+https://wiki.portal.chalmers.se/agda/ReferenceManual2/Compilation
+https://devel.isa-afp.org/entries/Hello_World.html
+https://cronfa.swan.ac.uk/Record/cronfa38365/Download/0038365-26072018021200.pdf
+https://upload.wikimedia.org/wikiversity/en/7/77/MP2.1C.STrans.Monad.20190706.pdf
+https://www.researchgate.net/publication/228840374_Agate-an_Agda-to-Haskell_Compiler
