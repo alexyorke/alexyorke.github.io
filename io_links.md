@@ -5092,3 +5092,8 @@ https://blog.ssanj.net/posts/2018-01-12-stacking-the-readert-writert-monad-trans
 https://mabboux.net/informatique/haskell/en/Tutoriel/HDaume-Tutoriel.pdf
 https://btu.edu.ge/wp-content/uploads/2023/10/Lesson-10_-Advanced-Haskell-Concepts.pdf
 https://arxiv.org/abs/2011.03463
+https://docs.idris-lang.org/en/latest/tutorial/interfaces.html
+https://app.readthedocs.org/projects/idris/downloads/pdf/v0.10/
+https://doi.org/10.1145/143165.143169
+https://www.sciencedirect.com/science/article/pii/S1571066105000368
+https://www.researchgate.net/publication/313374522_Interactive_programming_in_Agda_-_Objects_and_graphical_user_interfaces
