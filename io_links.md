@@ -4959,3 +4959,14 @@ https://zio.dev/zio2-interop-cats2/
 https://monix.io/public/pdfs/ScalaWorld2017-Tale-TwoStreams.pdf
 https://jdriven.com/media/pages/expertise/techradar/34067a377b-1747394647/jdriven-radar-najaar-2021_1_20211201_120321.pdf
 https://fpilluminated.org/downloadFromS3/202/2019-12-01-applicative-functor-part-three.pdf
+https://hackage.haskell.org/package/iteratee-0.8.9.5
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2011.292
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-13
+https://eprints.nottingham.ac.uk/41715/
+https://users.cs.northwestern.edu/~robby/icfp2018/icfp18/icfp18main-p93-p.pdf
+https://ivanperez.io/papers/msfmathprops.pdf
+https://asaj.org/papers/csl11.pdf
+https://monix.io/docs/current/reactive/observable-comparisons.html
+https://index.scala-lang.org/typelevel/fs2
+https://api.pageplace.de/preview/DT0400.9781783988730_A26069413/preview-9781783988730_A26069413.pdf
+https://reposit.haw-hamburg.de/bitstream/20.500.12738/6601/1/BA_Theis.pdf
