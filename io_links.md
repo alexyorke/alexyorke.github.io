@@ -5029,3 +5029,10 @@ https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Asyn
 https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-STM.html
 https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Temporary.html
 https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Timeout.html
+https://webspace.science.uu.nl/~swier004/publications/2007-haskell.pdf
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/7-basic-inputoutput/43840B587166A4609773DA629DD318CD
+https://simon.peytonjones.org/history-of-haskell/
+https://dl.acm.org/doi/pdf/10.1145/1238844.1238856
+https://users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf
+https://www.microsoft.com/en-us/research/?p=321704
+https://www.sciencedirect.com/chapter/edited-volume/abs/pii/B9780444881359500097
