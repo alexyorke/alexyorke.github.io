@@ -5052,3 +5052,17 @@ https://equis.cs.queensu.ca/~equis/pubs/1995/graham-dissertation-95.pdf
 https://www.researchgate.net/publication/220266259_Upper_Bounds_on_Stream_IO_Using_Semantic_Interpretations
 https://research-portal.st-andrews.ac.uk/en/publications/report-on-the-programming-language-haskell-a-non-strict-purely-fu/
 https://www.research.ed.ac.uk/en/publications/report-on-the-programming-language-haskell-a-non-strict-purely-fu
+https://hackage.haskell.org/package/linear-base-0.1.0/docs/System-IO-Resource.html
+https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/lazyio/
+https://hackage.haskell.org/package/resourcet-0.4.10/docs/Control-Monad-Trans-Resource.html
+https://hackage.haskell.org/package/streaming
+https://hackage.haskell.org/package/conduit-1.0.8
+https://downloads.haskell.org/ghc/9.4-latest/docs/libraries/text-2.0.2/src/Data.Text.Lazy.IO.html
+https://hackage.haskell.org/package/pipes/docs/Pipes.html
+https://hackage.haskell.org/package/pipes/docs/Pipes-Tutorial.html
+https://hackage.haskell.org/package/streaming/docs/Streaming.html
+https://hackage.haskell.org/package/streaming/docs
+https://hackage.haskell.org/package/pipes
+https://hackage.haskell.org/package/pipes-2.0.0/docs/Control-Pipe.html
+https://hackage.haskell.org/package/streaming-0.2.4.0/docs
+https://hackage.haskell.org/package/io-streams/docs
