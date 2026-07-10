@@ -4812,3 +4812,10 @@ https://www.sciweavers.org/publications/space-semantics-core-haskell
 https://exchangetuts.com/in-what-sense-is-the-io-monad-pure-1639587190510803
 https://www.sambuz.com/doc/building-secure-systems-with-lio-ppt-presentation-897594
 https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-IO-Class.html
+https://doi.org/10.1145/1596550.1596561
+https://wiki.clean.cs.ru.nl/Publications
+https://www.cs.cornell.edu/people/fluet/research/tx-events/CS257/cs257.pdf
+https://leventerkok.github.io/papers/tiaFixIO.pdf
+https://web.cecs.pdx.edu/~mpj/pubs/par.html
+https://doczz.net/doc/86048/a-history-of-haskell--being-lazy-with-class
+https://mail.haskell.org/pipermail/haskell-cafe/2007-July/027778.html
