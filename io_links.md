@@ -4987,3 +4987,10 @@ https://darcs.realworldhaskell.org/static/00book.pdf
 https://doi.org/10.1145/1160074.1159823
 https://www.researchgate.net/publication/2561031_Monads_and_Effects_revised
 https://doi.org/10.1007/3-540-48515-5_5
+https://hackage.haskell.org/package/io-streams
+https://packages.debian.org/source/trixie/misc/haskell-io-streams
+https://citeseerx.ist.psu.edu/document?doi=842d83f195d7c5e9d2923b1170457f7e228b6974&repid=rep1&type=pdf
+https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/raw/commit/b16225016d84197e9725b6fed9948f77859dd1aa/haskell/tackling-the-awkward-squad-monadic-input-output-concurrency-exceptions-and-foreign-language-calls-in-haskell.pdf
+https://citeseerx.ist.psu.edu/document?doi=1d81d40211412a9b587eebf04ea2edfde902d4a4&repid=rep1&type=pdf
+https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/
+https://mail.haskell.org/pipermail/haskell-cafe/2007-May/025120.html
