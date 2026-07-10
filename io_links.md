@@ -4787,3 +4787,17 @@ https://arxiv.org/abs/1507.00385
 https://typelevel.org/cats-effect/datatypes/io.html
 https://typelevel.org/blog/2017/05/02/io-monad-for-cats.html
 https://github.com/soupi/haskell-study-plan/blob/master/README.org#what-is-io
+https://eprints.nottingham.ac.uk/11457/
+https://repositorio.uchile.cl/handle/2250/139232
+https://upapers.dcc.uchile.cl/index/publications/view_pdf/306805
+https://link.springer.com/book/10.1007/978-3-319-11863-5
+https://collaborate.princeton.edu/en/publications/building-secure-systems-with-lio-demo/
+https://www.researchgate.net/publication/253303178_The_Quantum_IO_Monad
+https://pure.york.ac.uk/portal/en/publications/a-space-semantics-for-core-haskell/
+https://hackage.haskell.org/package/QIO
+https://hackage.haskell.org/package/QIO-1.3/docs/QIO-Qio.html
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?QPL2011.2.pdf=
+https://people.cs.nott.ac.uk/psztxa/publ/qio-chapter.pdf
+https://www.scs.stanford.edu/~deian/pubs/stefan%3A2014%3Abuilding-haskell.pdf
+https://arxiv.org/abs/1207.3208
+https://www.monoidal.net/papers/tutorialqpl-2.pdf
