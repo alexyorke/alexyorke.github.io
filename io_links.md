@@ -4847,3 +4847,12 @@ https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1992/DagSemRep.36/D
 https://ir.cwi.nl/pub/27512/Nr.%2026%20%28juni%201993%29
 https://www.altocumulus.org/Fudgets/fudgets-fpca93.html
 https://stackoverflow.com/questions/3850368/how-do-functional-languages-model-side-effects?noredirect=1
+https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf
+https://doi.org/10.1093/comjnl/31.3.243
+https://doi.org/10.1007/3-540-17945-3_3
+https://dblp.org/rec/journals/ipl/Dwelly88
+https://citeseerx.ist.psu.edu/document?doi=e6bc44fbba2a6ebc8a3af0069bde561e5b6b0653&repid=rep1&type=pdf
+https://citeseerx.ist.psu.edu/document?doi=e0abbe5826666753560fe6d0a021b8ec04d50e9b&repid=rep1&type=pdf
+https://fpl.cs.depaul.edu/cpitcher/research/2001-dphil-thesis-fp-and-non-det.pdf
+https://citeseerx.ist.psu.edu/document?doi=fd3174600e8f448b32216ceb0dfedc243225788f&repid=rep1&type=pdf
+https://groups.google.com/g/comp.lang.functional/c/BvFJUX4dE0E
