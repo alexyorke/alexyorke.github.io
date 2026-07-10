@@ -5136,3 +5136,10 @@ https://devel.isa-afp.org/browser_info/current/AFP/Hello_World/outline.pdf
 https://pages.di.unipi.it/corradini/Didattica/AP-24/
 https://www.shoeisha.co.jp/book/detail/9784798161280
 https://amslaurea.unibo.it/28169/1/master-thesis.pdf
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/System-IO.html
+https://downloads.haskell.org/~ghc/6.0/docs/html/base/System.IO.html
+https://downloads.haskell.org/ghc/6.10.2/docs/html/libraries/base/System-IO.html
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-internal-9.1500.0-inplace/GHC-Internal-IO-Handle-FD.html
+https://downloads.haskell.org/ghc/latest/docs/users_guide.pdf
+https://downloads.haskell.org/ghc/6.10.2/docs/html/libraries/base/System-IO-Error.html
+https://hackage-content.haskell.org/package/base-4.22.0.0/docs/Control-Monad-IO-Class.html
