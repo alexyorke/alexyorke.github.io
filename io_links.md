@@ -5080,3 +5080,15 @@ https://www.haskell.org/hugs/pages/libraries/base/System-IO-Unsafe.html
 https://amslaurea.unibo.it/id/eprint/13264/1/Tesi.pdf
 https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/faecher/naturwissenschaften/informatik/unterrichtsmaterial/vertiefungsgebiete/funktional/daume02yaht.pdf
 https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Concurrent-MVar.html
+https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/
+https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/
+https://hackage.haskell.org/package/mtl-tf/docs/Control-Monad-Trans.html
+https://hackage.haskell.org/package/layers/docs/Documentation-Layers-Overview.html
+https://hackage.haskell.org/package/layers/docs/Control-Monad-Layer.html
+https://downloads.haskell.org/ghc/9.6.0.20230111/docs/libraries/transformers-0.6.0.4/Control-Monad-Trans-Class.html
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/libraries/mtl/Control-Monad-Reader.html
+https://book.realworldhaskell.org/read/monad-transformers.html
+https://blog.ssanj.net/posts/2018-01-12-stacking-the-readert-writert-monad-transformer-stack-in-haskell.html
+https://mabboux.net/informatique/haskell/en/Tutoriel/HDaume-Tutoriel.pdf
+https://btu.edu.ge/wp-content/uploads/2023/10/Lesson-10_-Advanced-Haskell-Concepts.pdf
+https://arxiv.org/abs/2011.03463
