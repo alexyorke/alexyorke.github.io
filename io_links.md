@@ -4724,3 +4724,16 @@ https://dblp.org/rec/phd/ethos/Gordon92
 https://www.angusrobertson.com.au/books/functional-programming-and-inputoutput-andrew-d-gordon/p/9780521070072
 https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444881359500097
 https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/17-iomonad.pdf
+https://publications.scss.tcd.ie/tech-reports/reports.03/TCD-CS-2003-03.pdf
+https://www.cs.ru.nl/~marko/research/sparkle/NIIIR0415Proofs.html
+https://www.cs.ru.nl/~marko/research/sparkle/NIIIR0415.pdf
+https://citeseerx.ist.psu.edu/document?doi=3904dbf767882ed7084246fc96c168120bbdf73c&repid=rep1&type=pdf
+https://citeseerx.ist.psu.edu/document?doi=401137c07d49c1d807ab65bcc0d6bf019c4307f8&repid=rep1&type=pdf
+https://eudml.org/doc/92695
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Implementation%20of%20Functional%20Languages%2C%2013%20conf.%2C%20IFL%202002%20Stockholm%28LNCS2312%2C%20Springer%2C%202002%29%28ISBN%203540435379%29%28193s%29.pdf
+https://doi.org/10.1007/3-540-44854-3_5
+https://doi.org/10.1007/978-3-642-32096-5_3
+https://plc.inf.elte.hu/cefp/brochure_cefp2011.pdf
+https://plc.inf.elte.hu/cefp/programme.html
+https://studylib.net/doc/28212125/haskell
+https://dokumen.pub/download/functional-programming-glasgow-1995-proceedings-of-the-1995-glasgow-workshop-on-functional-programming-ullapool-scotland-10-12-july-1995-1nbsped-354014580x-9783540145806.html
