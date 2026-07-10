@@ -4819,3 +4819,15 @@ https://leventerkok.github.io/papers/tiaFixIO.pdf
 https://web.cecs.pdx.edu/~mpj/pubs/par.html
 https://doczz.net/doc/86048/a-history-of-haskell--being-lazy-with-class
 https://mail.haskell.org/pipermail/haskell-cafe/2007-July/027778.html
+https://eprints.nottingham.ac.uk/50348/
+https://eprints.nottingham.ac.uk/50348/1/thesis.pdf
+https://research.utwente.nl/en/publications/the-haskell-programmers-guide-to-the-io-monad-dont-panic/
+https://wrap.warwick.ac.uk/id/eprint/191913/1/WRAP_Theses_Keating_2024.pdf
+https://etheses.whiterose.ac.uk/id/eprint/1723/
+https://etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf
+https://groups.google.com/g/comp.lang.functional/c/fZsMB3lOux0
+https://research-portal.st-andrews.ac.uk/en/publications/monadic-io-in-haskell-13/
+http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/io-tutorial.ps.gz
+https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/preface-13.html
+https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A991724
+https://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-18713
