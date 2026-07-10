@@ -5048,3 +5048,7 @@ https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-5
 https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/libraries/ghc-prim-0.11.0-5201/src/GHC.Prim.html
 https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-Base.html
 https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-Exts.html
+https://equis.cs.queensu.ca/~equis/pubs/1995/graham-dissertation-95.pdf
+https://www.researchgate.net/publication/220266259_Upper_Bounds_on_Stream_IO_Using_Semantic_Interpretations
+https://research-portal.st-andrews.ac.uk/en/publications/report-on-the-programming-language-haskell-a-non-strict-purely-fu/
+https://www.research.ed.ac.uk/en/publications/report-on-the-programming-language-haskell-a-non-strict-purely-fu
