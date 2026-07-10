@@ -5072,3 +5072,5 @@ https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control
 https://www.scs.stanford.edu/11au-cs240h/notes/concurrency-slides.html
 https://www.microsoft.com/en-us/research/publication/asynchronous-exceptions-haskell-3/
 https://www.haskell.org/ghc/docs/7.0-latest/users_guide.pdf
+https://haskell-for-readers.nomeata.de/
+https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_032.html
