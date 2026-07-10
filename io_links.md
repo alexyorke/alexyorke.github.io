@@ -4707,3 +4707,7 @@ https://twistedsquare.com/CHP-Models.pdf
 https://www.researchgate.net/publication/221004376_Communicating_Haskell_Processes_Composable_Explicit_Concurrency_Using_Monads
 https://books.google.com/books/about/Functional_Design_and_Architecture.html?id=MB8kEQAAQBAJ
 https://books.google.com/books?hl=en&id=CGJjQgAACAAJ
+https://dl.acm.org/doi/10.1145/3141858.3141863
+https://upload.wikimedia.org/wikiversity/en/d/df/MP3.2A.IO.Basic.20191019.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org
+https://upload.wikimedia.org/wikiversity/en/0/0c/MP2.1A.STrans.Basic.20191002.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org
+https://upload.wikimedia.org/wikiversity/en/6/6e/Monad.P1.1A.SideEffect.20190316.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org
