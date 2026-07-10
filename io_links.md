@@ -4711,3 +4711,16 @@ https://dl.acm.org/doi/10.1145/3141858.3141863
 https://upload.wikimedia.org/wikiversity/en/d/df/MP3.2A.IO.Basic.20191019.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org
 https://upload.wikimedia.org/wikiversity/en/0/0c/MP2.1A.STrans.Basic.20191002.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org
 https://upload.wikimedia.org/wikiversity/en/6/6e/Monad.P1.1A.SideEffect.20190316.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/fpio.pdf
+https://paperswelove.org/papers/tackling-the-awkward-squad-monadic-inputoutput-con-a79cb296/
+https://www.cs.cmu.edu/~fp/courses/15312-f04/lectures/17-iomonad.html
+https://researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-rea/
+https://www.numdam.org/articles/10.1051/ita:2002008/
+https://library.strathmore.edu/Record/2091
+https://obnb.uk/a00497587-andrew-d-gordon
+https://hackage.haskell.org/package/iteratee-0.8.7.1
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.html
+https://dblp.org/rec/phd/ethos/Gordon92
+https://www.angusrobertson.com.au/books/functional-programming-and-inputoutput-andrew-d-gordon/p/9780521070072
+https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444881359500097
+https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/17-iomonad.pdf
