@@ -4930,3 +4930,9 @@ https://devel.isa-afp.org/entries/Hello_World.html
 https://cronfa.swan.ac.uk/Record/cronfa38365/Download/0038365-26072018021200.pdf
 https://upload.wikimedia.org/wikiversity/en/7/77/MP2.1C.STrans.Monad.20190706.pdf
 https://www.researchgate.net/publication/228840374_Agate-an_Agda-to-Haskell_Compiler
+https://leanprover.github.io/functional_programming_in_lean/monads/io.html
+https://avigad.github.io/programming_in_lean/monads.html
+https://docs.idris-lang.org/_/downloads/en/v0.10/pdf/
+https://simongregersen.com/papers/2019-post-depsec-full.pdf
+https://gallais.github.io/pdf/esop23-thin.pdf
+https://idris2.readthedocs.io/en/latest/implementation/overview.html
