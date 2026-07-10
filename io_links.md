@@ -5015,3 +5015,17 @@ https://citeseerx.ist.psu.edu/document?doi=88fd62fc47141d3f31f38df8dfb9de59bb848
 https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0270&repid=rep1&type=pdf
 https://hackage.haskell.org/package/bluefin
 https://hackage.haskell.org/package/effectful
+https://hackage.haskell.org/package/rio
+https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/RIO.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO.html
+https://hackage.haskell.org/package/unliftio
+https://hackage.haskell.org/package/resourcet/docs/UnliftIO-Resource.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-MVar.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Concurrent.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IO.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IO-File.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Exception.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Async.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-STM.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Temporary.html
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Timeout.html
