@@ -5074,3 +5074,9 @@ https://www.microsoft.com/en-us/research/publication/asynchronous-exceptions-has
 https://www.haskell.org/ghc/docs/7.0-latest/users_guide.pdf
 https://haskell-for-readers.nomeata.de/
 https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_032.html
+https://downloads.haskell.org/~ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Data-IORef.html
+https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-STM-MonadIO.html
+https://www.haskell.org/hugs/pages/libraries/base/System-IO-Unsafe.html
+https://amslaurea.unibo.it/id/eprint/13264/1/Tesi.pdf
+https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/faecher/naturwissenschaften/informatik/unterrichtsmaterial/vertiefungsgebiete/funktional/daume02yaht.pdf
+https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Concurrent-MVar.html
