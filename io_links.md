@@ -4916,3 +4916,6 @@ https://hrjiang.github.io/teaching/fopl/2021/06_ioMonad.pdf
 https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-IO-4sw.pdf
 https://ppig.org/files/2022-PPIG-33rd--proceedings.pdf
 https://speakerdeck.com/defworkshop/haskell-workshop-haskell-io
+https://dl.acm.org/doi/pdf/10.1145/606666.606670
+https://core.ac.uk/download/pdf/16195531.pdf
+https://abhiroop.github.io/pubs/hailstorm.pdf
