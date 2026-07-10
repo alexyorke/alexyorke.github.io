@@ -5036,3 +5036,15 @@ https://dl.acm.org/doi/pdf/10.1145/1238844.1238856
 https://users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf
 https://www.microsoft.com/en-us/research/?p=321704
 https://www.sciencedirect.com/chapter/edited-volume/abs/pii/B9780444881359500097
+https://book.realworldhaskell.org/read/monads.html
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base/src/GHC-IO.html
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-internal-9.1500.0-inplace/GHC-Internal-Types.html
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-internal-9.1500.0-inplace/GHC-Internal-Control-Monad-ST.html
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-Exts.html
+https://downloads.haskell.org/ghc/4.08/docs/set.pdf
+https://downloads.haskell.org/~ghc/5.04/docs/html/users_guide/primitives.html
+https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Prim.html
+https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/libraries/ghc-prim-0.11.0-5201/src/GHC.Prim.html
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-Base.html
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-Exts.html
