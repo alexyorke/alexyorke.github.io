@@ -5066,3 +5066,9 @@ https://hackage.haskell.org/package/pipes
 https://hackage.haskell.org/package/pipes-2.0.0/docs/Control-Pipe.html
 https://hackage.haskell.org/package/streaming-0.2.4.0/docs
 https://hackage.haskell.org/package/io-streams/docs
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/users_guide/ffi-chap.html
+https://downloads.haskell.org/~ghc/6.0/docs/html/base/Control.Exception.html
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Exception.html
+https://www.scs.stanford.edu/11au-cs240h/notes/concurrency-slides.html
+https://www.microsoft.com/en-us/research/publication/asynchronous-exceptions-haskell-3/
+https://www.haskell.org/ghc/docs/7.0-latest/users_guide.pdf
