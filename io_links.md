@@ -5103,3 +5103,11 @@ https://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html
 https://www.schoolofhaskell.com/user/school/starting-with-haskell/basics-of-haskell/3-pure-functions-laziness-io
 https://www.haskell.org/communities/05-2004/report.pdf
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-730.pdf
+https://hackage.haskell.org/package/HMock
+https://hackage.haskell.org/package/mockcat
+https://hackage.haskell.org/package/AC-MiniTest/docs/Test-AC-Test.html
+https://www.cambridge.org/core/product/20BF7DCA6330A2115C2C2B9BA47AB2E0
+https://downloads.haskell.org/ghc/9.2.6/docs/users_guide.pdf
+https://arxiv.org/abs/1901.10541
+https://hackage.haskell.org/package/monad-mock
+https://hackage.haskell.org/package/typeable-mock
