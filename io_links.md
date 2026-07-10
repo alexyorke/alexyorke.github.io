@@ -4911,3 +4911,8 @@ https://citeseerx.ist.psu.edu/document?doi=0c8b5a7d5b0099605168d594890ad3e19ccd5
 https://blog.higher-order.com/assets/scalaio.pdf
 https://anne.mx/publicaties/2019-master-thesis.pdf
 https://perso.ens-lyon.fr/yannick.zakowski/papers/ordered-monads.pdf
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/libraries/haskell2010-1.0.0.0/System-IO.html
+https://hrjiang.github.io/teaching/fopl/2021/06_ioMonad.pdf
+https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-IO-4sw.pdf
+https://ppig.org/files/2022-PPIG-33rd--proceedings.pdf
+https://speakerdeck.com/defworkshop/haskell-workshop-haskell-io
