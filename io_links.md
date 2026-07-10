@@ -4970,3 +4970,14 @@ https://monix.io/docs/current/reactive/observable-comparisons.html
 https://index.scala-lang.org/typelevel/fs2
 https://api.pageplace.de/preview/DT0400.9781783988730_A26069413/preview-9781783988730_A26069413.pdf
 https://reposit.haw-hamburg.de/bitstream/20.500.12738/6601/1/BA_Theis.pdf
+https://hackage.haskell.org/package/safe-lazy-io
+https://hackage-content.haskell.org/package/dunai-0.14.1/docs/Data-MonadicStreamFunction.html
+https://hackage.haskell.org/package/enumerator/docs/Data-Enumerator.html
+https://mail.haskell.org/pipermail/haskell-cafe/2010-August/082324.html
+https://steve.vinoski.net/pdf/IC-Warp_a_Haskell_Web_Server.pdf
+https://www.mew.org/~kazu/proj/enumerator/
+https://www.haskell.org/communities/11-2004/report.pdf
+https://ntrs.nasa.gov/api/citations/20230006308/downloads/papers-2023-haskellsym-reactivity-v2.pdf?attachment=true
+https://types22.inria.fr/files/2022/06/TYPES_2022_paper_32.pdf
+https://hackage.haskell.org/package/dunai
+https://dl.acm.org/doi/10.1145/3241625.2976010
