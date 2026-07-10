@@ -4994,3 +4994,15 @@ https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/raw/commit/
 https://citeseerx.ist.psu.edu/document?doi=1d81d40211412a9b587eebf04ea2edfde902d4a4&repid=rep1&type=pdf
 https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/
 https://mail.haskell.org/pipermail/haskell-cafe/2007-May/025120.html
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base/System-IO.html
+https://www.haskell.org/hugs/pages/libraries/base/System-IO.html
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams.html
+https://hackage.haskell.org/package/conduit-1.0.8/docs/Data-Conduit.html
+https://hackage.haskell.org/package/conduit-0.5.2.7/docs/Data-Conduit.html
+https://hackage.haskell.org/package/machines-0.2.3/docs/Data-Machine-Tee.html
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Monad-ST-Safe.html
+https://www.haskell.org/communities/05-2018/report.pdf
+https://downloads.haskell.org/ghc/9.2.8/docs/users_guide.pdf
+https://downloads.haskell.org/~ghc/6.4/docs/hslibs.pdf
+https://www.haskell.org/pipermail/beginners/attachments/20090424/5476cc76/UnderstandingHaskellMonads.pdf
+https://hackage.haskell.org/package/conduit
