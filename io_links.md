@@ -4860,3 +4860,10 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F
 https://theses.gla.ac.uk/71760/1/10391401.pdf
 https://eprints.nottingham.ac.uk/10779/1/Thesis.pdf
 https://retis.santannapisa.it/luca/FPT/Old-2021/Slides/monadic_io.pdf
+https://docs.idris-lang.org/_/downloads/en/v1.0/pdf/
+https://idris.readthedocs.io/en/latest/reference/ffi.html
+https://ocaml.org/p/coq/8.16.0/doc/Logic_monad/index.html
+https://ocaml.org/p/io/latest/doc/src/io/IO.ml.html
+https://www.di.uminho.pt/~jno/ps/pdbc04.pdf
+https://citeseerx.ist.psu.edu/document?doi=735ac4990846061c31050a05708d12aeef332c5c&repid=rep1&type=pdf
+https://gist.github.com/nvanderw/7029997
