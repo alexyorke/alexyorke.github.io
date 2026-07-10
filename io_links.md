@@ -4856,3 +4856,7 @@ https://citeseerx.ist.psu.edu/document?doi=e0abbe5826666753560fe6d0a021b8ec04d50
 https://fpl.cs.depaul.edu/cpitcher/research/2001-dphil-thesis-fp-and-non-det.pdf
 https://citeseerx.ist.psu.edu/document?doi=fd3174600e8f448b32216ceb0dfedc243225788f&repid=rep1&type=pdf
 https://groups.google.com/g/comp.lang.functional/c/BvFJUX4dE0E
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf/semantics_of_value_recursionfor_monadic_inputoutput.pdf
+https://theses.gla.ac.uk/71760/1/10391401.pdf
+https://eprints.nottingham.ac.uk/10779/1/Thesis.pdf
+https://retis.santannapisa.it/luca/FPT/Old-2021/Slides/monadic_io.pdf
