@@ -4877,3 +4877,13 @@ https://www.numdam.org/item/10.1051/ita%3A2002008.pdf
 https://www.packtpub.com/en-us/product/haskell-design-patterns-9781783988723/chapter/2-patterns-for-io-2/section/iteratee-io-ch02lvl1sec15
 https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html
 https://ks.cs.uchicago.edu/qpl-bib/qpv_abstracts.html
+https://hackage.haskell.org/package/IOSpec
+https://hackage.haskell.org/package/jail
+https://hackage.haskell.org/package/io-classes
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/Control-Monad-IO-Class.html
+https://hackage-content.haskell.org/package/base-4.22.0.0/docs/System-IO.html
+https://hackage-content-origin.haskell.org/package/ghc-9.8.4/docs/GHC-Data-IOEnv.html
+https://www.haskell.org/hugs/pages/libraries/base/Data-IORef.html
+https://github.com/monet/monet.js
+https://monet.github.io/monet.js/
+https://colomboe.github.io/KIO/
