@@ -5111,3 +5111,16 @@ https://downloads.haskell.org/ghc/9.2.6/docs/users_guide.pdf
 https://arxiv.org/abs/1901.10541
 https://hackage.haskell.org/package/monad-mock
 https://hackage.haskell.org/package/typeable-mock
+https://www.pls-lab.org/Computational_lambda_calculus
+https://maxsnew.com/docs/wadler-monads.pdf
+https://www.sciencedirect.com/science/article/pii/S1571066104800161
+https://xavierleroy.org/control-structures/book/main014.html
+https://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-346/ECS-LFCS-96-346.pdf
+https://era.ed.ac.uk/items/33367ecc-ab0c-4c40-9002-4db64a160dc1
+https://researchprofiles.ku.dk/en/publications/monads-in-action/
+https://www.dfki.de/en/web/research/projects-and-publications/publication/3898
+https://ncatlab.org/nlab/show/Eugenio%20Moggi
+https://person.dibris.unige.it/moggi-eugenio/APPSEM00/
+https://arxiv.org/abs/1202.2922
+https://arxiv.org/abs/1202.2921
+https://arxiv.org/abs/1310.0605
