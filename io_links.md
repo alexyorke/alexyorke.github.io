@@ -4831,3 +4831,13 @@ http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/io-tutorial.ps.gz
 https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/preface-13.html
 https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A991724
 https://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-18713
+https://citeseerx.ist.psu.edu/document?doi=63a7a6c91df931904354fcc1768135ecc3f603de&repid=rep1&type=pdf
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EFAEBBE3A19EA03A8D6D75A5348E194/S0956796800001258a.pdf/the-ins-and-outs-of-clean-io.pdf
+https://www.cs.tufts.edu/comp/150FP/archive/matthias-felleisen/functional-io.pdf
+https://cir.nii.ac.jp/crid/1360586669745382528
+https://web.cecs.pdx.edu/~apt/icfp09_accepted_papers/accepted.html
+https://dblp.org/db/conf/icfp/icfp2009
+https://researchr.org/publication/icfp-2009
+https://www.scribd.com/document/357197882/Imperative-Functional-Programming-Philip-Wadler
+https://www.researchgate.net/publication/2743675_Report_on_the_Programming_Language
+https://www.researchgate.net/publication/2527238_The_Pros_and_Cons_of_Teaching_Purely_Functional_Programming_in_First_Year
