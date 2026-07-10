@@ -4801,3 +4801,14 @@ https://people.cs.nott.ac.uk/psztxa/publ/qio-chapter.pdf
 https://www.scs.stanford.edu/~deian/pubs/stefan%3A2014%3Abuilding-haskell.pdf
 https://arxiv.org/abs/1207.3208
 https://www.monoidal.net/papers/tutorialqpl-2.pdf
+https://discourse.haskell.org/t/realworld-evaluated/12331
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/Control-Monad-ST-Safe.html
+https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=188644&itemId=35936
+https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd3528767935317507965d&repid=rep1&type=pdf
+https://www.researchgate.net/publication/221241150_A_principled_approach_to_operating_system_construction_in_Haskell
+https://citeseerx.ist.psu.edu/document?doi=96a30690f35b5258a785423e10b8a0b012396463&repid=rep1&type=pdf
+https://eprints.nottingham.ac.uk/13348/1/hu-thesis.pdf
+https://www.sciweavers.org/publications/space-semantics-core-haskell
+https://exchangetuts.com/in-what-sense-is-the-io-monad-pure-1639587190510803
+https://www.sambuz.com/doc/building-secure-systems-with-lio-ppt-presentation-897594
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-IO-Class.html
