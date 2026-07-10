@@ -5097,3 +5097,9 @@ https://app.readthedocs.org/projects/idris/downloads/pdf/v0.10/
 https://doi.org/10.1145/143165.143169
 https://www.sciencedirect.com/science/article/pii/S1571066105000368
 https://www.researchgate.net/publication/313374522_Interactive_programming_in_Agda_-_Objects_and_graphical_user_interfaces
+https://downloads.haskell.org/~ghc/5.04.2/docs/html/base/System.IO.Unsafe.html
+https://hackage.haskell.org/package/lazyio
+https://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html
+https://www.schoolofhaskell.com/user/school/starting-with-haskell/basics-of-haskell/3-pure-functions-laziness-io
+https://www.haskell.org/communities/05-2004/report.pdf
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-730.pdf
