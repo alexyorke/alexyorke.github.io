@@ -4984,3 +4984,6 @@ https://dl.acm.org/doi/10.1145/3241625.2976010
 https://hackage.haskell.org/package/lazy-io
 https://mail.haskell.org/pipermail/haskell-cafe/2009-January/052803.html
 https://darcs.realworldhaskell.org/static/00book.pdf
+https://doi.org/10.1145/1160074.1159823
+https://www.researchgate.net/publication/2561031_Monads_and_Effects_revised
+https://doi.org/10.1007/3-540-48515-5_5
