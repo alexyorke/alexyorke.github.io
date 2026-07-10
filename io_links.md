@@ -4874,3 +4874,6 @@ https://www.cambridge.org/core/books/abs/semantic-techniques-in-quantum-computat
 https://www.epiqc.cs.uchicago.edu/quantum-hoare-type-theory
 https://eprints.nottingham.ac.uk/11226/
 https://www.numdam.org/item/10.1051/ita%3A2002008.pdf
+https://www.packtpub.com/en-us/product/haskell-design-patterns-9781783988723/chapter/2-patterns-for-io-2/section/iteratee-io-ch02lvl1sec15
+https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html
+https://ks.cs.uchicago.edu/qpl-bib/qpv_abstracts.html
