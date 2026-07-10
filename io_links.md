@@ -4981,3 +4981,6 @@ https://ntrs.nasa.gov/api/citations/20230006308/downloads/papers-2023-haskellsym
 https://types22.inria.fr/files/2022/06/TYPES_2022_paper_32.pdf
 https://hackage.haskell.org/package/dunai
 https://dl.acm.org/doi/10.1145/3241625.2976010
+https://hackage.haskell.org/package/lazy-io
+https://mail.haskell.org/pipermail/haskell-cafe/2009-January/052803.html
+https://darcs.realworldhaskell.org/static/00book.pdf
