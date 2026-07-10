@@ -4903,3 +4903,11 @@ https://www.cl.cam.ac.uk/teaching/2006/FFuncProg/fofp.pdf
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999904043363171c8050257c045&repid=rep1&type=pdf
 https://pkg.go.dev/github.com/IBM/fp-go/v2@v2.3.58/io
 https://gist.github.com/joergrathlev/f17092d3470dcf732be6
+https://gist.github.com/relrod/dd748c9ee0b111c3bd47
+https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html
+https://hackage.haskell.org/package/fused-effects
+https://hackage.haskell.org/package/heftia-0.4.0.0/docs/Control-Monad-Hefty.html
+https://citeseerx.ist.psu.edu/document?doi=0c8b5a7d5b0099605168d594890ad3e19ccd5f5d&repid=rep1&type=pdf
+https://blog.higher-order.com/assets/scalaio.pdf
+https://anne.mx/publicaties/2019-master-thesis.pdf
+https://perso.ens-lyon.fr/yannick.zakowski/papers/ordered-monads.pdf
