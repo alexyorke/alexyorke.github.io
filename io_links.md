@@ -4867,3 +4867,10 @@ https://ocaml.org/p/io/latest/doc/src/io/IO.ml.html
 https://www.di.uminho.pt/~jno/ps/pdbc04.pdf
 https://citeseerx.ist.psu.edu/document?doi=735ac4990846061c31050a05708d12aeef332c5c&repid=rep1&type=pdf
 https://gist.github.com/nvanderw/7029997
+https://www.numdam.org/item/ITA_2002__36_2_155_0/
+https://ghc-proposals.readthedocs.io/en/latest/proposals/0111-linear-types.html
+https://cgi.cse.unsw.edu.au/~eptcs/Published/QPL2022/Proceedings.pdf
+https://www.cambridge.org/core/books/abs/semantic-techniques-in-quantum-computation/quantum-io-monad/1C501E5F1E9964F7B7183A18754FABE1
+https://www.epiqc.cs.uchicago.edu/quantum-hoare-type-theory
+https://eprints.nottingham.ac.uk/11226/
+https://www.numdam.org/item/10.1051/ita%3A2002008.pdf
