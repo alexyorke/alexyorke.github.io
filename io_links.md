@@ -4919,3 +4919,7 @@ https://speakerdeck.com/defworkshop/haskell-workshop-haskell-io
 https://dl.acm.org/doi/pdf/10.1145/606666.606670
 https://core.ac.uk/download/pdf/16195531.pdf
 https://abhiroop.github.io/pubs/hailstorm.pdf
+https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_11.htm
+https://webspace.science.uu.nl/~hage0101/downloads/ariemiddelkoop-msc.pdf
+https://wiki.clean.cs.ru.nl/download/papers/cleanbook/oldCleanBookI.pdf
+https://cloogle.org/doc/
