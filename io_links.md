@@ -4947,3 +4947,15 @@ https://d-nb.info/1293662739/34
 https://riuma.uma.es/xmlui/bitstream/handle/10630/20477/S%C3%A1nchez%20Fern%C3%A1ndez%2C%20Santiago%20Guillermo%20Memoriapdf.pdf?isAllowed=y&sequence=1
 https://jeapostrophe.github.io/conferences/2013-tfp/proceedings/tfp2013_submission_13.pdf
 https://npm.io/package/%40dodgez/ts-monads
+https://zio.dev/reference/core/zio/io/
+https://zio.dev/reference/core/zio/
+https://zio.dev/zio-quill/writing-queries
+https://zio.dev/faq
+https://bio.monix.io/docs/introduction
+https://zio.dev/guides/migrate/zio-2.x-migration-guide/
+https://zio.dev/1.0.18/overview/overview_performance
+https://zio.dev/reference/architecture/functional-design-patterns
+https://zio.dev/zio2-interop-cats2/
+https://monix.io/public/pdfs/ScalaWorld2017-Tale-TwoStreams.pdf
+https://jdriven.com/media/pages/expertise/techradar/34067a377b-1747394647/jdriven-radar-najaar-2021_1_20211201_120321.pdf
+https://fpilluminated.org/downloadFromS3/202/2019-12-01-applicative-functor-part-three.pdf
