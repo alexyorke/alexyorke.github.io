@@ -4774,3 +4774,16 @@ https://link.springer.com/chapter/10.1007/978-3-319-89719-6_6
 https://doi.org/10.1007/978-3-319-89719-6_6
 https://github.com/b-studios/scala-effekt/tree/jfp
 https://arxiv.org/pdf/2203.15426
+https://lego.github.io/scala-cats-workshop/
+https://mabboux.net/informatique/haskell/en/Haskell-IO-Monade.pdf
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30ae8d78-628e-436c-8a34-078062777e52.xhtml
+https://www.oreilly.com/library/view/scala-programming-projects/9781788397643/e8352bca-e84d-4319-93ca-6fa96e1decba.xhtml
+https://www.scribd.com/document/927560311/00000154
+https://stdvotrainingprod.blob.core.windows.net/public/courses/SCALA-CATS3.pdf
+https://riuma.uma.es/xmlui/bitstream/handle/10630/20477/S%C3%A1nchez%20Fern%C3%A1ndez%2C%20Santiago%20Guillermo%20Memoriapdf.pdf?isAllowed=true&sequence=1
+https://typelevel.org/cats-effect/
+https://discourse.haskell.org/t/resources-to-learn-monad/1111
+https://arxiv.org/abs/1507.00385
+https://typelevel.org/cats-effect/datatypes/io.html
+https://typelevel.org/blog/2017/05/02/io-monad-for-cats.html
+https://github.com/soupi/haskell-study-plan/blob/master/README.org#what-is-io
