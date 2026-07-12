@@ -28526,3 +28526,9 @@ https://dl.acm.org/doi/pdf/10.1145/1596550.1596561
 https://www.cs.tufts.edu/~kfisher/cs242/2008/Code/IO.hs
 https://www.cs.tufts.edu/~kfisher/cs242/2009/Code/IO.hs
 https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_a_free_video-based_haskell/
+https://github.com/Eiko-Tokura/monad-effect
+https://groups.google.com/g/haskell-cafe/c/qTaKMnpiw5E
+https://hackage.haskell.org/package/io-effects-0.1.0
+https://hackage.haskell.org/package/io-sim/docs/Control-Monad-IOSim.html
+https://hasura.github.io/eff/src/Control.Effect.html
+https://www.researchgate.net/publication/262425485_Monadic_Reflection_in_Haskell
