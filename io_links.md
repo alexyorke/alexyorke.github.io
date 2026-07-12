@@ -28555,3 +28555,12 @@ http://ertes.de/articles/monads.html
 https://hackage-content.haskell.org/package/base-4.5.0.0/docs/System-IO-Unsafe.html
 https://hackage-content.haskell.org/package/ghc-lib-9.10.2.20250515/docs/GHC-Driver-Main.html
 https://www.cmi.ac.in/~madhavan/papers/haskell.php
+https://api.drum.lib.umd.edu/server/api/core/bitstreams/1ecd831a-f937-4b3a-975f-9d2eee733772/content
+https://bibbase.org/network/publication/altenkirch-green-thequantumiomonad
+https://git.io/qpl-bib
+https://nikivazou.github.io/static/lweb-popl2019.pdf
+https://packages.ubuntu.com/hu/source/noble/i386/haskell-iospec
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%20and%20Software%20Technology%2C%208%20conf.%2C%20AMAST%202000%28LNCS1816%2C%20Springer%2C%202000%29%28ISBN%203540675302%29%28555s%29.pdf
+https://www.stackage.org/lts-17.2
+https://www.educative.io/courses/functional-programming-haskell/more-io-functions
+https://citeseerx.ist.psu.edu/document?doi=3a84dc46d1a0918c3c47d92bebc62d856137e065&repid=rep1&type=pdf
