@@ -28652,3 +28652,8 @@ https://mail.haskell.org/pipermail/haskell/2001-February/006720.html
 https://www.diva-portal.org/smash/get/diva2:142802/FULLTEXT01.pdf
 https://github.com/ivelten/monad-rail
 https://www.cs.cornell.edu/courses/cs6110/2014sp/Handouts/WadlerMonads.pdf
+https://hackage.haskell.org/package/io-choice
+https://hackage.haskell.org/package/iotransaction
+https://hackage.haskell.org/package/lio-fs
+https://hackage.haskell.org/package/lmonad
+https://uu-afp.github.io/as2.html
