@@ -28662,3 +28662,12 @@ https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem.
 https://haskell.org/haskell-workshop/2007/AcceptedPapers.html
 https://www.reddit.com/r/haskell/comments/12rg4hr/iosim_on_hackage/
 https://www.sambuz.com/doc/io-monad-imperative-programming-in-haskell-deian-stefan-ppt-presentation-846124
+https://gitlab.com/LukaHorvat/simple-effects
+https://hackage.haskell.org/package/classy-effects
+https://hackage.haskell.org/package/monad-fork
+https://hackage.haskell.org/package/monad-stm/docs
+https://hackage.haskell.org/package/monad-unlift-0.1.0.0
+https://hackage.haskell.org/package/schedule
+https://hackage.haskell.org/package/stateful-mtl/docs/Control-Monad-ST-Class.html
+https://hackage.haskell.org/package/stm-io-hooks
+https://hackage.haskell.org/package/stm-lifted
