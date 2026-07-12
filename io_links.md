@@ -28707,3 +28707,9 @@ https://hackage.haskell.org/package/ixmonad
 https://hackage.haskell.org/package/remote-monad
 https://hackage.haskell.org/package/resource-effectful
 https://hackage.haskell.org/package/retry-io-classes
+https://gist.github.com/CMCDragonkai/1a241955b041283a9009
+https://gist.github.com/paf31/9c4d402d400d61a49656
+https://github.com/singpolyma/unexceptionalio-trans
+https://github.com/transient-haskell/transient-universe
+https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs
+https://minegishirei.hatenablog.com/entry/2024/01/14/153301
