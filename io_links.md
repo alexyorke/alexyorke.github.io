@@ -28657,3 +28657,8 @@ https://hackage.haskell.org/package/iotransaction
 https://hackage.haskell.org/package/lio-fs
 https://hackage.haskell.org/package/lmonad
 https://uu-afp.github.io/as2.html
+https://cpradic.web.deuxfleurs.fr/cs205-2425-files/iomonad.pdf
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem.html
+https://haskell.org/haskell-workshop/2007/AcceptedPapers.html
+https://www.reddit.com/r/haskell/comments/12rg4hr/iosim_on_hackage/
+https://www.sambuz.com/doc/io-monad-imperative-programming-in-haskell-deian-stefan-ppt-presentation-846124
