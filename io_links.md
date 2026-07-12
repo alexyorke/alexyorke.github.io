@@ -28576,3 +28576,15 @@ https://hackage.haskell.org/package/monadIO-0.10.0/docs/Control-Concurrent-Monad
 https://hackage-content.haskell.org/package/Test-QuickCheck-2.16.0.0/docs/Test-QuickCheck-Monadic.html
 https://www.dev.to/chenge/a-good-video-for-haskell-monad-5no
 https://www.haskell-links.org/
+https://dorchard.co.uk/publ/haskell14-effects.pdf
+https://hackage.haskell.org/package/linear-base-0.8.0/docs/src/System.IO.Linear.html
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/20-monads-intro/monads-intro.html
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/20-monads-intro/monads-intro.scala
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/21-io-monad/io-monad.html
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/21-io-monad/io-monad.scala
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/22-modular-interpreters/modular-interpreters.html
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/22-modular-interpreters/modular-interpreters.scala
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/monadic-reflection.html
+https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/monadic-reflection.rkt
+https://upload.wikimedia.org/wikiversity/en/6/65/MP3.3A.ST.Basic.20190810.pdf
+https://www.ps.uni-saarland.de/theses/brunotte/Thesis.htm
