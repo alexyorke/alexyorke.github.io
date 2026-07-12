@@ -28522,3 +28522,7 @@ https://hackage.haskell.org/package/ki
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Hutton%20A.%20Programming%20in%20Haskell%20%28draft%2C%20CUP%2C%202005%29%28200s%29_CsPl_.pdf
 https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHr
 https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3
+https://dl.acm.org/doi/pdf/10.1145/1596550.1596561
+https://www.cs.tufts.edu/~kfisher/cs242/2008/Code/IO.hs
+https://www.cs.tufts.edu/~kfisher/cs242/2009/Code/IO.hs
+https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_a_free_video-based_haskell/
