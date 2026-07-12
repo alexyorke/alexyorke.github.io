@@ -28693,3 +28693,6 @@ https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/IO_inside
 https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_computation
 https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_containers
 https://www.reddit.com/r/haskell/comments/1dqmvt0/
+https://hackage.haskell.org/package/perf
+https://haskell.org/communities/05-2018/report.pdf
+https://learnyouahaskell.github.io/a-fistful-of-monads
