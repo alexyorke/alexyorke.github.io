@@ -28564,3 +28564,15 @@ https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%2
 https://www.stackage.org/lts-17.2
 https://www.educative.io/courses/functional-programming-haskell/more-io-functions
 https://citeseerx.ist.psu.edu/document?doi=3a84dc46d1a0918c3c47d92bebc62d856137e065&repid=rep1&type=pdf
+https://blogs.intevation.de/wilde/haskell/monads/
+https://citeseerx.ist.psu.edu/document?doi=c0a3eb80020e2e162116901b5ae83dd4b060cbcd&repid=rep1&type=pdf
+https://github.com/input-output-hk/io-sim/tree/master/io-classes
+https://github.com/input-output-hk/io-sim/tree/master/io-sim
+https://github.com/oisim/iospec
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class.html
+https://hackage.haskell.org/package/jail-0.1.1
+https://hackage.haskell.org/package/monad-effect-0.2.3.1/docs/Control-Monad-Effect.html
+https://hackage.haskell.org/package/monadIO-0.10.0/docs/Control-Concurrent-MonadIO.html
+https://hackage-content.haskell.org/package/Test-QuickCheck-2.16.0.0/docs/Test-QuickCheck-Monadic.html
+https://www.dev.to/chenge/a-good-video-for-haskell-monad-5no
+https://www.haskell-links.org/
