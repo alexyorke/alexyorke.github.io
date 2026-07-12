@@ -28727,3 +28727,10 @@ https://web.cecs.pdx.edu/~apt/icfp09_final_program_onepage.pdf
 https://wiki.haskell.org/wikiupload/8/85/TMR-Issue13.pdf
 https://www2.ccs.neu.edu/racket/pubs/
 https://www.cin.ufpe.br/~alms/pdf/AOPHaskell_camera_ready.pdf
+https://dspace.cvut.cz/bitstream/handle/10467/102069/F8-BP-2022-Bednar-Martin-thesis.pdf?isAllowed=y&sequence=-1
+https://github.com/jphmrst/TLT
+https://hackage.haskell.org/package/acme-iot
+https://hackage.haskell.org/package/ImpSpec
+https://hackage.haskell.org/package/transformers-0.5.0.1
+https://input-output-hk.github.io/io-sim/io-sim
+https://www.research-collection.ethz.ch/server/api/core/bitstreams/f962dc57-a855-47e2-9c5b-cd1e7387d212/content
