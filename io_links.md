@@ -28600,3 +28600,14 @@ https://hackage.haskell.org/package/simple-effects
 https://hackage.haskell.org/package/Test-SmallCheck/docs/Test-SmallCheck.html
 https://stackoverflow.com/questions/5032475/why-does-haskell-not-have-an-i-monad-for-input-only-unlike-the-io-monad?noredirect=1
 https://studylib.net/doc/25910942/haskell2010
+https://gist.github.com/captainalan/88b2258623d321938d3daa3f0f3a12dc
+https://github.com/juspay/euler-hs
+https://repositorio.ufpe.br/bitstream/123456789/11435/1/DISSERTA%C3%87%C3%83O%20Francisco%20Miranda%20Soares%20da%20Silva%20Neto.pdf
+https://studyres.com/doc/2841226/database-programming-languages--dbpl-5-
+https://www.scribd.com/document/357197882/Imperative-Functional-Programming
+https://www.haskell.org/communities/11-2006/html/report.html
+https://www.di.uminho.pt/~jno/ps/_iscalc_2a.pdf.gz
+https://cs.ioc.ee/fics-archive/fics03-proceedings.pdf
+https://lobste.rs/s/hylhyr/don_t_fear_monad
+https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil
+https://www.youtube.com/watch?v=N9RUqGYuGfw
