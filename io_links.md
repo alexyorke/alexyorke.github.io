@@ -28719,3 +28719,11 @@ https://funfix.org/api/effect/
 https://kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf
 https://stackoverflow.com/questions/25296236/haskell-generate-hatex-output-from-io-string
 https://www.researchgate.net/publication/2407820_The_Mobile_Frame_Model
+https://conservatory.scheme.org/schemers/Videos/
+https://dblp.org/pid/f/MFelleisen
+https://hackage.haskell.org/package/io-classes-mtl
+https://haskell.org/wikiupload/8/85/TMR-Issue13.pdf
+https://web.cecs.pdx.edu/~apt/icfp09_final_program_onepage.pdf
+https://wiki.haskell.org/wikiupload/8/85/TMR-Issue13.pdf
+https://www2.ccs.neu.edu/racket/pubs/
+https://www.cin.ufpe.br/~alms/pdf/AOPHaskell_camera_ready.pdf
