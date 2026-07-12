@@ -28713,3 +28713,9 @@ https://github.com/singpolyma/unexceptionalio-trans
 https://github.com/transient-haskell/transient-universe
 https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs
 https://minegishirei.hatenablog.com/entry/2024/01/14/153301
+https://citeseerx.ist.psu.edu/document?doi=9732e82a22d4350f26ffff47d3f2578d59686d8c&repid=rep1&type=pdf
+https://escholarship.org/content/qt4hs1t9nc/qt4hs1t9nc.pdf?nosplash=90ee6ca9a4083a360d92057bded17f29&t=puqdhj
+https://funfix.org/api/effect/
+https://kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf
+https://stackoverflow.com/questions/25296236/haskell-generate-hatex-output-from-io-string
+https://www.researchgate.net/publication/2407820_The_Mobile_Frame_Model
