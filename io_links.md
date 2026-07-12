@@ -28546,3 +28546,8 @@ http://book.realworldhaskell.org/
 https://github.com/cjdev/monad-mock
 https://hackage.haskell.org/package/monad-io-adapter
 https://hackage.haskell.org/package/monad-stm
+https://books.thoughtbot.com/assets/maybe-haskell.pdf
+https://gist.github.com/jameshfisher/1d735b5267e8f848b280
+https://github.com/xgrommx/awesome-functional-programming/blob/master/README.md
+https://packages.ubuntu.com/ca/source/noble/s390x/haskell-io-storage
+https://scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vk3xbc.pdf
