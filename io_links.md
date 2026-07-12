@@ -28551,3 +28551,7 @@ https://gist.github.com/jameshfisher/1d735b5267e8f848b280
 https://github.com/xgrommx/awesome-functional-programming/blob/master/README.md
 https://packages.ubuntu.com/ca/source/noble/s390x/haskell-io-storage
 https://scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vk3xbc.pdf
+http://ertes.de/articles/monads.html
+https://hackage-content.haskell.org/package/base-4.5.0.0/docs/System-IO-Unsafe.html
+https://hackage-content.haskell.org/package/ghc-lib-9.10.2.20250515/docs/GHC-Driver-Main.html
+https://www.cmi.ac.in/~madhavan/papers/haskell.php
