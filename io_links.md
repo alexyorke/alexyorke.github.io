@@ -28643,3 +28643,12 @@ https://nottingham-repository.worktribe.com/OutputFile/37306922
 https://ocw.cs.pub.ro/ppcarte/doku.php?id=pp%3A2024%3Al11
 https://www.ma.rhul.ac.uk/~uvah099/Talks/MonadTalk.pdf
 https://www.caiorss.github.io/Functional-Programming/haskell/Functional_Programming_Concepts.html
+https://github.com/mercury-haskell/io-sim
+https://hackage.haskell.org/package/CorePrelude/docs/CorePrelude.html
+https://hackage.haskell.org/package/GHC-IO
+https://hackage.haskell.org/package/monad-rail
+https://hackage.haskell.org/package/time-out
+https://mail.haskell.org/pipermail/haskell/2001-February/006720.html
+https://www.diva-portal.org/smash/get/diva2:142802/FULLTEXT01.pdf
+https://github.com/ivelten/monad-rail
+https://www.cs.cornell.edu/courses/cs6110/2014sp/Handouts/WadlerMonads.pdf
