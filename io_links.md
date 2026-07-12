@@ -28671,3 +28671,15 @@ https://hackage.haskell.org/package/schedule
 https://hackage.haskell.org/package/stateful-mtl/docs/Control-Monad-ST-Class.html
 https://hackage.haskell.org/package/stm-io-hooks
 https://hackage.haskell.org/package/stm-lifted
+https://gist.github.com/CMCDragonkai/196227d39ad893e972c1
+https://hackage.haskell.org/package/explicit-exception-0.2/src/src/System/IO/Straight.hs
+https://hackage.haskell.org/package/io-sim/issues
+https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs
+https://input-output-hk.github.io/cardano-haskell-packages/all-package-versions/index.html
+https://input-output-hk.github.io/cardano-haskell-packages/package/network-mux-0.4.5.3/
+https://input-output-hk.github.io/io-sim/io-classes/strict-stm/doc-index.html
+https://stackage.org/package/unliftio
+https://teaching.well-typed.com/certificate/d92541c856a2b6c5e79dbeced53cb4e60d4659a8274fcc6e3878ee911843c157.pdf
+https://well-typed.com/blog/aux/files/multicore-less-pain-slides.pdf
+https://www.classes.uchicago.edu/archive/2012/spring/22300-1/lectures.html
+https://www.effective-haskell.com/chapters/chapter7.html
