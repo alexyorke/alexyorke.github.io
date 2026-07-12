@@ -28532,3 +28532,17 @@ https://hackage.haskell.org/package/io-effects-0.1.0
 https://hackage.haskell.org/package/io-sim/docs/Control-Monad-IOSim.html
 https://hasura.github.io/eff/src/Control.Effect.html
 https://www.researchgate.net/publication/262425485_Monadic_Reflection_in_Haskell
+https://github.com/input-output-hk/io-classes
+https://hackage.haskell.org/package/fs-sim
+https://hackage.haskell.org/package/monad-log
+https://hackage.haskell.org/package/snap-core/docs/Snap-Test.html
+https://hasura.github.io/eff/Control-Effect.html
+https://ir.library.oregonstate.edu/downloads/rj430581x
+https://scispace.com/pdf/continuation-semantics-for-parallel-haskell-dialects-4oee3a413s.pdf
+https://stackoverflow.com/questions/6398765/haskell-monadic-io
+https://www.semanticscholar.org/paper/Monadic-parser-combinators-Hutton-Meijer/3c76cf8397917ef4814fffb60e7c922b711edc45
+https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad
+http://book.realworldhaskell.org/
+https://github.com/cjdev/monad-mock
+https://hackage.haskell.org/package/monad-io-adapter
+https://hackage.haskell.org/package/monad-stm
