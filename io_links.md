@@ -28630,3 +28630,8 @@ https://hackage-content.haskell.org/package/io-sim-1.9.1.0/src/README.md
 https://ja.stackoverflow.com/questions/70051/monad%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE-%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%A0%B4%E9%9D%A2%E3%81%A7%E4%BD%BF%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B/70052
 https://web.cecs.pdx.edu/~antoy/homepage/publications/frocos00/paper.pdf
 https://www.jstage.jst.go.jp/article/jssstconference/2003/0/2003_0_3/_pdf
+https://haskell.org/pipermail/beginners/attachments/20090424/5476cc76/UnderstandingHaskellMonads.pdf
+https://hobson.space/posts/algebraic-effects/
+https://kar.kent.ac.uk/id/document/3229559
+https://maciejpirog.github.io/papers/what-binds-them-together.pdf
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/imperative.pdf
