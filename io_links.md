@@ -28588,3 +28588,15 @@ https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/m
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/monadic-reflection.rkt
 https://upload.wikimedia.org/wikiversity/en/6/65/MP3.3A.ST.Basic.20190810.pdf
 https://www.ps.uni-saarland.de/theses/brunotte/Thesis.htm
+https://citeseerx.ist.psu.edu/document?doi=dd70a5af31c2f6196803ed69dbc1f9e877047e7a&repid=rep1&type=pdf
+https://gist.github.com/7b114cc2df6ab4da4da591651f82e9a8
+https://gist.github.com/dseeni/ae8d2f8319036f84071c9517c468a5a3
+https://gist.github.com/fatcerberus
+https://gist.github.com/fatcerberus/io.md
+https://hackage.haskell.org/package/effect-monad/docs
+https://hackage.haskell.org/package/event-monad
+https://hackage.haskell.org/package/io-embed
+https://hackage.haskell.org/package/simple-effects
+https://hackage.haskell.org/package/Test-SmallCheck/docs/Test-SmallCheck.html
+https://stackoverflow.com/questions/5032475/why-does-haskell-not-have-an-i-monad-for-input-only-unlike-the-io-monad?noredirect=1
+https://studylib.net/doc/25910942/haskell2010
