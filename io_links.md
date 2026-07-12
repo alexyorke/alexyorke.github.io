@@ -28696,3 +28696,14 @@ https://www.reddit.com/r/haskell/comments/1dqmvt0/
 https://hackage.haskell.org/package/perf
 https://haskell.org/communities/05-2018/report.pdf
 https://learnyouahaskell.github.io/a-fistful-of-monads
+https://github.com/yinguanhao/pipes-io
+https://hackage.haskell.org/package/aivika-1.2/src/doc/aivika.pdf
+https://hackage.haskell.org/package/CheatSheet-1.8/src/CheatSheet.pdf
+https://hackage.haskell.org/package/dynamic-loader-0.0.1/src/dynamic-linker.pdf
+https://hackage.haskell.org/package/effectful-2.2.0.0/docs
+https://hackage.haskell.org/package/event-monad-0.0.2.0
+https://hackage.haskell.org/package/io-reactive
+https://hackage.haskell.org/package/ixmonad
+https://hackage.haskell.org/package/remote-monad
+https://hackage.haskell.org/package/resource-effectful
+https://hackage.haskell.org/package/retry-io-classes
