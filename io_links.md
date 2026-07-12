@@ -28635,3 +28635,11 @@ https://hobson.space/posts/algebraic-effects/
 https://kar.kent.ac.uk/id/document/3229559
 https://maciejpirog.github.io/papers/what-binds-them-together.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/imperative.pdf
+https://coursesidekick.com/computer-science/28500297
+https://github.com/tweag/cardano-conformance-testing-of-consensus/blob/main/docs/design.md
+https://hackage-content.haskell.org/package/Control-Monad-IO-Class/docs/Control-Monad-IO-Class.html
+https://intersectmbo.github.io/io-sim/
+https://nottingham-repository.worktribe.com/OutputFile/37306922
+https://ocw.cs.pub.ro/ppcarte/doku.php?id=pp%3A2024%3Al11
+https://www.ma.rhul.ac.uk/~uvah099/Talks/MonadTalk.pdf
+https://www.caiorss.github.io/Functional-Programming/haskell/Functional_Programming_Concepts.html
