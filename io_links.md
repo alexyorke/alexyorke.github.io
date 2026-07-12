@@ -28513,3 +28513,12 @@ https://www.research.ed.ac.uk/en/publications/imperative-functional-programming
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.5
 https://www.scs.stanford.edu/14sp-cs240h/slides/ifc.html
 https://www.youtube.com/playlist?list=PLNLIbsKl8RYmu_NaSvpvj74MPy8qZSNd8
+https://github.com/bbarker/haskell-zio#readme
+https://github.com/Eiko-Tokura/monad-effect.git
+https://github.com/haskell/mtl
+https://github.com/haskell-effectful
+https://guppy.eng.kagawa-u.ac.jp/2006/Declarative/Text/Chapter3.pdf
+https://hackage.haskell.org/package/ki
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Hutton%20A.%20Programming%20in%20Haskell%20%28draft%2C%20CUP%2C%202005%29%28200s%29_CsPl_.pdf
+https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHr
+https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3
