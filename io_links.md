@@ -28683,3 +28683,13 @@ https://teaching.well-typed.com/certificate/d92541c856a2b6c5e79dbeced53cb4e60d46
 https://well-typed.com/blog/aux/files/multicore-less-pain-slides.pdf
 https://www.classes.uchicago.edu/archive/2012/spring/22300-1/lectures.html
 https://www.effective-haskell.com/chapters/chapter7.html
+https://hackage.haskell.org/package/ghc-lib-9.8.4.20241130/docs/GHC.html
+https://hackage.haskell.org/package/hspec-1.12.0/docs/Test-Hspec.html
+https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Data-IOEnv.html
+https://haskell.org/communities/05-2007/html/report.html
+https://stackage.org/lts-24.39/package/io-machine-0.2.0.0
+https://web.archive.org/web/20160305000000/http://research.microsoft.com/users/simonpj/papers/ext-fp/
+https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/IO_inside
+https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_computation
+https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_containers
+https://www.reddit.com/r/haskell/comments/1dqmvt0/
