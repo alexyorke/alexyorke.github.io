@@ -29133,3 +29133,5 @@ https://ftp.math.utah.edu/pub/tex/bib/sigact.html
 https://ku-fpg.github.io/papers/Gill-09-TypeSafeReification/
 https://theory.stanford.edu/~aiken/publications/papers/icfp05.pdf
 https://hackage-content.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework-Runners-API.html
+https://simon.peyton-jones.org/assets/pdfs/tackling-awkward-squad.pdf
+https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/list_functions/
