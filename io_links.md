@@ -29106,3 +29106,16 @@ https://haskell.org/wikiupload/9/9d/TMR-Issue1.pdf
 https://sigarra.up.pt/feup/pt/conteudos_service.conteudos_cont?pct_id=16864&pv_cod=57xraFgb5Ykp
 https://www.di.uminho.pt/~jno/html/mpi-0304.html
 https://www.informatik.uni-bremen.de/cofi/CASL-CD/Tools/Hets/src/docs/System.IO.html
+https://amsdottorato.unibo.it/id/eprint/9075/
+https://arxiv.org/abs/1902.04645
+https://dlib.si/details/URN%3ANBN%3ASI%3Adoc-SL2671A9?language=eng
+https://www.cs.ox.ac.uk/people/ohad.kammar/thesis/
+https://haskell.mooc.fi/part2#maybe-is-a-monad
+https://citeseerx.ist.psu.edu/document?doi=120a2b7a955f76290e4e47aef7b2f49ea300fcd1&repid=rep1&type=pdf
+https://cs.ioc.ee/~tarmo/tsem09/uustalu1305.html
+https://lmcs.episciences.org/1004/pdf
+https://research.ed.ac.uk/files/17919596/Hyland_Levy_ET_AL_2007_Combining_Algebraic_Effects_with_Continuations.pdf
+https://ryankung.github.io/pdfs/2018-07-20-a-survey-of-algebraic-effect-system.pdf
+https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hlpp07.pdf
+https://haskell.org/pipermail/haskell/2003-May/011851.html
+https://hackage-origin.haskell.org/package/effect-handlers-0.1.0.0
