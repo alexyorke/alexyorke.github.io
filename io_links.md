@@ -29093,3 +29093,7 @@ https://dblp.org/pid/m/EugenioMoggi.html
 https://packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell
 https://www.packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell
 https://ir.cwi.nl/pub/4933
+https://citeseerx.ist.psu.edu/document?doi=88fd62fc47141d3f38df8dfb9de59bb848acf&repid=rep1&type=pdf
+https://hackage.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework-Runners-API.html
+https://simon.peytonjones.org/assets/papers/awkward-squad.pdf
+https://offre-de-formation.dauphine.psl.eu/print.php?annee=2025%2F2026&download=1&parcours=PRA2IIT3
