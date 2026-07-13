@@ -29022,4 +29022,8 @@ https://hackage.haskell.org/package/io-streams-1.1.4.4
 https://okondukai.net/blog/wp-content/uploads/2019/12/HaskellArticles_1_6.pdf
 https://arxiv.org/abs/2007.00616
 https://arxiv.org/abs/1403.0749
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html
+https://eurekamag.com/research/104/856/104856751.php
+https://hackage.haskell.org/package/GHC-IO.html
+https://www.cs.tufts.edu/comp/150GIT/archive/iago-abal/mfes_darcs.pdf
 https://www.stackage.org/package/fused-effects
