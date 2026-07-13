@@ -29100,3 +29100,9 @@ https://offre-de-formation.dauphine.psl.eu/print.php?annee=2025%2F2026&download=
 https://www.imn.htwk-leipzig.de/~waldmann/edu/ss18/fop/folien/skript.pdf
 https://www.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf
 https://haskell.org/communities/05-2016/html/report.html
+https://hackage.haskell.org/package/xmonad/docs/XMonad.html
+https://www.haskell.org/definition/from12to13.html#do
+https://haskell.org/wikiupload/9/9d/TMR-Issue1.pdf
+https://sigarra.up.pt/feup/pt/conteudos_service.conteudos_cont?pct_id=16864&pv_cod=57xraFgb5Ykp
+https://www.di.uminho.pt/~jno/html/mpi-0304.html
+https://www.informatik.uni-bremen.de/cofi/CASL-CD/Tools/Hets/src/docs/System.IO.html
