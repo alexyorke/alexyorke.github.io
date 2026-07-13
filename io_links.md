@@ -29084,3 +29084,6 @@ https://era.ed.ac.uk/handle/1842/396?show=full
 https://haskell.hmc.edu/~adavidso/monads.pdf
 https://web.cecs.pdx.edu/~sheard/course/CS457-557/Winter2015/Notes/NotesOnTesting.pdf
 https://www.cs.tufts.edu/comp/150FP/archive/john-hughes/quick.pdf
+https://commons.wikimedia.org/wiki/File%3AHaskell.pdf
+https://downloads.haskell.org/ghc/5.04.1/docs/html/haskell98/Monad.html
+https://www.sra.uni-hannover.de/Lehre/V_PS%C3%9C/skript/12-functional-paradigm.handout.pdf
