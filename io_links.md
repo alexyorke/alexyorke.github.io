@@ -28882,3 +28882,12 @@ https://www.researchgate.net/publication/228554214_Adaptive_High-Level_Schedulin
 https://www.scs.stanford.edu/16wi-cs240h/projects/wang_ruan.pdf
 https://digitalcollections.ohsu.edu/nanna/record/164/files/164_etd.pdf?registerDownload=1&version=1&withWatermark=0
 https://hackage.haskell.org/package/iostring/docs/Data-IOString.html
+http://www.cse.unsw.edu.au/~chak/haskell/ports/
+https://hackage.haskell.org/package/monad-memo
+https://john.cs.olemiss.edu/~hcc/csci450/2017fall/notes/450lectureNotes.html
+https://haskell.org/definition/haskell2010.pdf
+https://citeseerx.ist.psu.edu/document?doi=88fd72fc47141b9de59bb848acf&repid=rep1&type=pdf
+https://hackage.haskell.org/package/hashtables-1.0.0.0
+https://scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vk3bc.pdf
+https://www.cs.ox.ac.uk/files/3309/PRG40.pdf
+https://www.mabboux.net/informatique/haskell/en/Haskell-IO-Monade.pdf
