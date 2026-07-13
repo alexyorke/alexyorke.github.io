@@ -29087,3 +29087,8 @@ https://www.cs.tufts.edu/comp/150FP/archive/john-hughes/quick.pdf
 https://commons.wikimedia.org/wiki/File%3AHaskell.pdf
 https://downloads.haskell.org/ghc/5.04.1/docs/html/haskell98/Monad.html
 https://www.sra.uni-hannover.de/Lehre/V_PS%C3%9C/skript/12-functional-paradigm.handout.pdf
+https://arxiv.org/abs/1907.05706
+https://arxiv.org/abs/cs/0511006
+https://dblp.org/pid/m/EugenioMoggi.html
+https://packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell
+https://www.packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell
