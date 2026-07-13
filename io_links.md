@@ -28804,3 +28804,6 @@ https://accedacris.ulpgc.es/bitstream/10553/42272/2/0751135_00000_0000.pdf
 https://archlinux.org/packages/extra/x86_64/haskell-io-storage/
 https://archlinux.org/packages/extra-staging/x86_64/haskell-io-streams/
 https://www.cs.toronto.edu/~trebla/fp/
+https://eprints.nottingham.ac.uk/11457/files/
+https://eprints.nottingham.ac.uk/11457/files/10391401.pdf?download=1
+https://link.springer.com/book/10.1007/978-3-642-24276-2
