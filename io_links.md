@@ -28934,3 +28934,5 @@ https://hackage.haskell.org/package/pdf-toolbox-document-0.0.4.0/docs/Pdf-Toolbo
 https://research.chalmers.se/en/publication/231133
 https://www.archlinux.de/packages/extra/x86_64/haskell-quickcheck-io
 https://www.stackage.org/package/mockcat
+https://riptutorial.com/ebook/haskell
+https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html
