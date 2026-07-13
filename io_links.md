@@ -28856,3 +28856,4 @@ https://www.stackage.org/lts-20.7/package/quickcheck-state-machine-0.7.1
 https://www.stackage.org/nightly-2018-09-18/package/quickcheck-state-machine-0.4.2
 https://www.stackage.org/nightly-2023-02-13/package/quickcheck-state-machine-0.7.1
 https://www.stackage.org/nightly-2023-10-19/package/quickcheck-state-machine-0.7.3
+https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-IORef.html
