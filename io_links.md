@@ -29137,3 +29137,11 @@ https://simon.peyton-jones.org/assets/pdfs/tackling-awkward-squad.pdf
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/list_functions/
 https://archiv.ub.uni-marburg.de/diss/z2016/0107/pdf/dmd.pdf
 https://www.gladir.com/CODER/HASKELL/les-bases-des-monades.htm
+https://lics.siglog.org/1989/Moggi-Computationallambda.html
+https://kar.kent.ac.uk/69589/1/27sadamsThesisFinal.pdf
+https://vimeo.com/drtom
+https://www.youtube.com/watch?v=8tWzG0ML6Z4
+https://www.youtube.com/watch?v=FLAPIgvlVnE
+https://hackage.haskell.org/package/monadlog
+https://hackage.haskell.org/package/monadlog/docs
+https://hackage.haskell.org/package/yet-another-logger-0.3.0/candidate/docs/System-Logger-Types.html
