@@ -29009,4 +29009,10 @@ https://hackage.haskell.org/package/dunai-0.6.0
 https://hackage.haskell.org/package/effect-monad/src/examples
 https://hackage.haskell.org/package/Test-SmallCheck.html
 https://pdfs.semanticscholar.org/32ff/28cb5b5c990fe7bdca510040ea22f5c13316.pdf
+https://blog.latukha.com/haskell-notes.html
+https://de.wikipedia.org/wiki/Monade_(Informatik)
+https://es.wikipedia.org/wiki/M%C3%B3nada_(programaci%C3%B3n_funcional)
+https://hackage.haskell.org/package/planet-mitchell/docs/Concurrency-IORef.html
+https://it.wikipedia.org/wiki/Monade_(informatica)
+https://iteratee.hackage.haskell.org/
 https://www.stackage.org/package/fused-effects
