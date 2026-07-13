@@ -29187,3 +29187,6 @@ https://hackage.haskell.org/package/HTF
 https://dblp.org/rec/conf/lics/Moggi89.html
 https://pls-lab.org/Computational_lambda_calculus
 https://www.sigmod.org/publications/dblp/db/conf/lics/lics89.html
+https://www.cs.ox.ac.uk/files/2675/RR-09-18.pdf
+https://www.haskell.org/cabal/proposal/pkg-spec.pdf
+https://downloads.haskell.org/~ghc/6.4/docs/html/index.html
