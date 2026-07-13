@@ -28899,3 +28899,15 @@ http://arxiv.org/pdf/cs/0605058
 https://arxiv.org/pdf/cs/0605058
 https://export.arxiv.org/abs/cs/0605058
 https://export.arxiv.org/pdf/cs/0605058
+https://academic.oup.com/nsr/article/2/3/349/1427872
+https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.2237&rep=rep1&type=pdf
+https://github.com/GaloisInc/oughta
+https://hackage.haskell.org/package/oughta
+https://hackage.haskell.org/package/oughta-0.1.0.0
+https://hackage.haskell.org/package/oughta-0.2.0.0
+https://hackage.haskell.org/package/oughta-0.3.0.0/changelog
+https://hackage.haskell.org/package/oughta-0.3.0.0/docs
+https://hackage.haskell.org/package/oughta-0.3.0.0/docs/Oughta.html
+https://hackage.haskell.org/package/oughta-0.3.0.0/oughta-0.3.0.0.tar.gz
+https://homes.luddy.indiana.edu/ccshan/cs252/usage.pdf
+https://link.springer.com/book/10.1007/3-540-59451-5
