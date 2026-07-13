@@ -28741,3 +28741,8 @@ https://research-portal.st-andrews.ac.uk/en/publications/monadic-io-in-haskell-1
 https://vimeo.com/125038982
 https://www.dantb.dev/posts/dissertation
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/24num.pdf
+https://coot.me/about.html
+https://research.tue.nl/files/333714970/Gils_N.pdf
+https://uec.repo.nii.ac.jp/records/3550
+https://people.cs.nott.ac.uk/pszgmh/
+https://www.bilibili.com/video/BV1HP411M7im/
