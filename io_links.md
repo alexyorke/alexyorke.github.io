@@ -29021,4 +29021,5 @@ https://en.wikipedia.org/wiki/Monad_(functional_programming)
 https://hackage.haskell.org/package/io-streams-1.1.4.4
 https://okondukai.net/blog/wp-content/uploads/2019/12/HaskellArticles_1_6.pdf
 https://arxiv.org/abs/2007.00616
+https://arxiv.org/abs/1403.0749
 https://www.stackage.org/package/fused-effects
