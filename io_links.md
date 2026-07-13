@@ -28984,3 +28984,7 @@ https://www.vitalsource.com/products/the-awkward-squad-sophie-henaff-v9780857055
 https://web.cecs.pdx.edu/~sheard/course/CS457-557/Notes/IOActions.pdf
 https://www.complang.tuwien.ac.at/knoop/lehre/ss2012/ffp185A05/ffp_120630.pdf
 https://xuebaunion.com/detail/6641.html
+https://hackage.haskell.org/package/polysemy-1.9.2.0
+https://hackage.haskell.org/package/polysemy-http
+https://hackage.haskell.org/package/Salsa-0.1.0.1/src/Docs/Thesis.pdf
+https://retis.santannapisa.it/luca/ProgrammazioneFunzionale/Old-21/Slides/monadic_io.pdf
