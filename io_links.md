@@ -28814,3 +28814,5 @@ https://hackage.haskell.org/package/fs-sim/docs
 https://hackage.haskell.org/package/IOSpec-0.2.1/docs
 https://hackage.haskell.org/package/quickcheck-io/docs
 https://hackage.haskell.org/packages/tag/concurrency
+https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/software-engineering-programming-language-lab/news-lab/detail-lab/der-haskell-ecosystem-workshop-2024
+https://www.ost.ch/fileadmin/dateiliste/1_studium/1.3_informatik/1.3.1_bachelor_informatik/informatik-newsletter_24-2.pdf
