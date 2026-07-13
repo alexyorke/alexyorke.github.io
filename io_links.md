@@ -28857,3 +28857,4 @@ https://www.stackage.org/nightly-2018-09-18/package/quickcheck-state-machine-0.4
 https://www.stackage.org/nightly-2023-02-13/package/quickcheck-state-machine-0.7.1
 https://www.stackage.org/nightly-2023-10-19/package/quickcheck-state-machine-0.7.3
 https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-IORef.html
+https://cse.ucsd.edu/classes/wi12/cse230-a/lectures/monads.html
