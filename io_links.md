@@ -28786,3 +28786,8 @@ https://www.tufts.edu/~kfisher/teaching.html
 https://trepo.tuni.fi/bitstream/handle/10024/131448/WernerVille.pdf?sequence=2
 https://ishantheperson.github.io/posts/haskell-monads/
 https://haskell.org/hugs/pages/libraries/base/System-IO.html
+https://flora.pm/packages/%40hackage/http-monad
+https://fmaste.github.io/Haskell/doc/Monad.html
+https://hackage.haskell.org/package/http-monad
+https://softwarepatternslexicon.com/haskell/functional-design-patterns/monadic-design-patterns/
+https://wiki.haskell.org/Merely_monadic
