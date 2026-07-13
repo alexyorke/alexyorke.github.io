@@ -29170,3 +29170,16 @@ https://www.stackage.org/lts-15.4/package/quickcheck-io-0.2.0
 https://justinhsu.net/teaching/s20/cs538/resources/slides/lecture12.pdf
 https://hackage-content-origin.haskell.org/packages/search
 https://futurelearn.com/info/courses/functional-programming-haskell/0/steps/27205
+https://www.mail-archive.com/haskell@haskell.org/msg00341.html
+http://research.microsoft.com/en-us/um/people/simonpj/papers/marktoberdorf/mark.pdf
+http://www.cs.tufts.edu/~nr/cs257/archive/simon-peyton-jones/imperative.pdf
+https://researchportal.vub.be/en/datasets/tackling-the-awkward-squad-for-reactive-programming-the-actor-rea/
+https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1109%2Flics.1989.39155
+https://www.sciencedirect.com/science/article/pii/S0304397520305259
+https://mail-archive.com/haskell-cafe%40haskell.org/msg05828.html
+https://launchbury.blog/wp-content/uploads/2019/01/concurrent-orchestration-in-haskell.pdf
+https://www.cs.brown.edu/people/sk/Publications/Papers/Published/fffk-functional-io/paper.pdf
+https://www.cin.ufpe.br/~tg/2012-2/lgnfl.pdf
+https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_pdf
+https://www3.dti.ufv.br/sia/vicosa/2020/trabalhos/14403/arquivo
+https://slides.com/fp-ctd/lecture-5-part1
