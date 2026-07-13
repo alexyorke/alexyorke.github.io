@@ -29162,3 +29162,9 @@ https://www.di.uminho.pt/~jno/html/mpi0203su.html
 https://www.informatik.uni-bremen.de/agbkb/lehre/ss98/pi2/hugs_doc/tutorial-1.4-html/io.html
 https://www.uni-ulm.de/func0809/
 https://www-igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.13.0.0/Control-Monad-IO-Class.html
+https://www.sciencedirect.com/science/article/pii/S1571066106001721
+https://archlinux.org/packages/extra/x86_64/haskell-quickcheck-io/files/
+https://packages.debian.org/sid/source/haskell-quickcheck-io
+https://www.rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-quickcheck-io-doc-0.2.0-41.fc44.noarch.html
+https://www.stackage.org/lts-15.4/package/quickcheck-io-0.2.0
+https://justinhsu.net/teaching/s20/cs538/resources/slides/lecture12.pdf
