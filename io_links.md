@@ -29190,3 +29190,7 @@ https://www.sigmod.org/publications/dblp/db/conf/lics/lics89.html
 https://www.cs.ox.ac.uk/files/2675/RR-09-18.pdf
 https://www.haskell.org/cabal/proposal/pkg-spec.pdf
 https://downloads.haskell.org/~ghc/6.4/docs/html/index.html
+https://arxiv.org/abs/1410.5370
+https://haddocks.haskell-miso.org/base/Control-Monad.html
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base/System-IO.html
+https://www.cs.us.es/~jalonso/cursos/i1m-10/ejercicios/ej_prog_Haskell.pdf
