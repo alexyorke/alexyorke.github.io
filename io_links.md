@@ -29097,3 +29097,6 @@ https://citeseerx.ist.psu.edu/document?doi=88fd62fc47141d3f38df8dfb9de59bb848acf
 https://hackage.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework-Runners-API.html
 https://simon.peytonjones.org/assets/papers/awkward-squad.pdf
 https://offre-de-formation.dauphine.psl.eu/print.php?annee=2025%2F2026&download=1&parcours=PRA2IIT3
+https://www.imn.htwk-leipzig.de/~waldmann/edu/ss18/fop/folien/skript.pdf
+https://www.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf
+https://haskell.org/communities/05-2016/html/report.html
