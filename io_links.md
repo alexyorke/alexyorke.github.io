@@ -29183,3 +29183,4 @@ https://www.cin.ufpe.br/~tg/2012-2/lgnfl.pdf
 https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_pdf
 https://www3.dti.ufv.br/sia/vicosa/2020/trabalhos/14403/arquivo
 https://slides.com/fp-ctd/lecture-5-part1
+https://hackage.haskell.org/package/HTF
