@@ -29124,3 +29124,6 @@ https://repositum.tuwien.at/handle/20.500.12708/168248
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf
 https://hackage.haskell.org/package/effet-0.1.0.0
 https://hackage.haskell.org/package/failable-1.2.1.0
+https://www.haskell.org/pipermail/haskell-cafe/2008-November/051006.html
+https://hackage-content-origin.haskell.org/package/managed-1.0.11/docs/Control-Monad-Managed.html
+https://www.pdxscholar.library.pdx.edu/open_access_etds/508/
