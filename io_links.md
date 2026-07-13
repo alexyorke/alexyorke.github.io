@@ -28762,3 +28762,5 @@ https://hackage.haskell.org/package/helm
 https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with-an-io-base-layer
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30a8e78d-628e-436c-8a34-078062777e52.xhtml
 https://www.youtube.com/playlist?list=PLD0EBF7F6C1A5A4D6
+https://owenstephens.co.uk/assets/static/research/masters_report.pdf
+https://www.microsoft.com/en-us/research/publication/functional-programming-and-inputoutput/
