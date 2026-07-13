@@ -28936,3 +28936,8 @@ https://www.archlinux.de/packages/extra/x86_64/haskell-quickcheck-io
 https://www.stackage.org/package/mockcat
 https://riptutorial.com/ebook/haskell
 https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html
+https://archives.lib.ku.edu/repositories/3/archival_objects/16032
+https://hackage.haskell.org/package/io-classes-1.2.0.0/changelog
+https://hackage.haskell.org/package/QuickCheck
+https://link.springer.com/book/10.1007/978-1-4471-3810-5
+https://stanford-lambda.gitlab.io/notes.html
