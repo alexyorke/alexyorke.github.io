@@ -29208,3 +29208,12 @@ https://mynixos.com/nixpkgs/package/haskellPackages.io-manager
 https://trepo.tuni.fi/bitstream/handle/10024/131448/WernerVille.pdf?isAllowed=y&sequence=2
 https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/bracker.pdf
 https://citeseerx.ist.psu.edu/document?doi=c55006a79e5c27698f22554c5814ebeb9dc2097c&repid=rep1&type=pdf
+https://www.mail.haskell.org/pipermail/haskell-cafe/2008-November/051006.html
+https://hackage.haskell.org/package/transformers-eff/docs/Control-Effect.html
+https://web.archive.org/web/20190509070638/http://book.realworldhaskell.org/read/
+https://www.barnesandnoble.com/w/real-world-haskell-bryan-osullivan/1100157409
+https://pages.di.unipi.it/corradini/Didattica/AP-23/AP-2023-SYLLABUS.pdf
+https://research-repository.st-andrews.ac.uk/handle/10023/28867
+https://research-portal.st-andrews.ac.uk/en/studentTheses/erasure-in-dependently-typed-programming/
+https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/28867/Thesis-Mat%C3%BA%C5%A1-Teji%C5%A1%C4%8D%C3%A1k-complete-version.pdf?isAllowed=y&sequence=2
+https://ziman.functor.sk/media/thesis.pdf
