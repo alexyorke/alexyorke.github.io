@@ -29127,3 +29127,9 @@ https://hackage.haskell.org/package/failable-1.2.1.0
 https://www.haskell.org/pipermail/haskell-cafe/2008-November/051006.html
 https://hackage-content-origin.haskell.org/package/managed-1.0.11/docs/Control-Monad-Managed.html
 https://www.pdxscholar.library.pdx.edu/open_access_etds/508/
+https://digicoll.lib.berkeley.edu/nanna/record/138126/files/EECS-2006-106.pdf?registerDownload=1&version=1&withMetadata=0
+https://djvu.online/file/pjd4athwTBTuQ
+https://ftp.math.utah.edu/pub/tex/bib/sigact.html
+https://ku-fpg.github.io/papers/Gill-09-TypeSafeReification/
+https://theory.stanford.edu/~aiken/publications/papers/icfp05.pdf
+https://hackage-content.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework-Runners-API.html
