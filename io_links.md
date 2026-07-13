@@ -28880,3 +28880,5 @@ https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickch
 https://www.reddit.com/r/haskell/comments/10gst44
 https://www.researchgate.net/publication/228554214_Adaptive_High-Level_Scheduling_in_a_Generic_Parallel_Runtime_Environment
 https://www.scs.stanford.edu/16wi-cs240h/projects/wang_ruan.pdf
+https://digitalcollections.ohsu.edu/nanna/record/164/files/164_etd.pdf?registerDownload=1&version=1&withWatermark=0
+https://hackage.haskell.org/package/iostring/docs/Data-IOString.html
