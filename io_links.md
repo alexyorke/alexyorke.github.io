@@ -28870,3 +28870,13 @@ https://citeseerx.ist.psu.edu/document?doi=3b889bb5e6250b2b381522d0a0b91ba1a33f3
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67e4a2d35861293448dcb&repid=rep1&type=pdf
 https://people.cs.nott.ac.uk/psztxa/publ/DArray.pdf
 https://haskell.org/communities/05-2008/report.pdf
+https://archiv.ub.uni-marburg.de/diss/z2008/0547/pdf/djb.pdf
+https://arxiv.org/abs/2404.16062
+https://cambridge.org/core/books/haskell-school-of-music/bibliography/1F7596A68D0EA0C87624901EA0E144B8
+https://hackage.haskell.org/package/hspec-1.1.0/docs/Test-Hspec-QuickCheck.html
+https://hackage.haskell.org/package/http-io-streams
+https://packages.debian.org/source/trixie/misc/haskell-quickcheck-io
+https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck-io
+https://www.reddit.com/r/haskell/comments/10gst44
+https://www.researchgate.net/publication/228554214_Adaptive_High-Level_Scheduling_in_a_Generic_Parallel_Runtime_Environment
+https://www.scs.stanford.edu/16wi-cs240h/projects/wang_ruan.pdf
