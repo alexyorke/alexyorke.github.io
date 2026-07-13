@@ -28758,3 +28758,7 @@ https://www.stackage.org/lts-11.9/package/test-fixture-0.5.1.0
 https://discourse.haskell.org/t/the-haskell-unfolder-episode-34-you-already-understand-monads/10545
 https://www.youtube.com/watch?index=34&list=PLD8gywOEY4HaG5VSrKVnHxCptlJv2GAn7&v=n5ZtsHrYWq0
 https://www.well-typed.com/blog/2024/10/18-months-of-unfolder/
+https://hackage.haskell.org/package/helm
+https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with-an-io-base-layer
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30a8e78d-628e-436c-8a34-078062777e52.xhtml
+https://www.youtube.com/playlist?list=PLD0EBF7F6C1A5A4D6
