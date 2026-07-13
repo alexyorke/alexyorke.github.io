@@ -28952,3 +28952,11 @@ https://hackage.haskell.org/package/monad-effect-0.2.0.0
 https://hackage.haskell.org/package/Test-SmallCheck-1.2.1.1
 https://hackage.haskell.org/package/TLT-0.2.0.0
 https://hackage.haskell.org/package/Z-IO-2.0.0.0
+https://caiorss.github.io/Functional-Programming/papers/Monads_for_functional_programming-Phillip_Walder.pdf
+https://flora.pm/packages/%40hackage/monad-control/1.0.0.1/changelog
+https://hackage.haskell.org/package/effectful-core/docs/
+https://hackage.haskell.org/package/monadology-0.3/docs/
+https://hackage.haskell.org/package/QuickCheck-2.16.0.0/docs/Test-QuickCheck-Monadic.html
+https://github.com/haskell-beginners-2022/course-plan
+https://github.com/haskell-beginners-2022/exercises
+https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/control-cont.pdf
