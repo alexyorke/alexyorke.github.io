@@ -28988,3 +28988,7 @@ https://hackage.haskell.org/package/polysemy-1.9.2.0
 https://hackage.haskell.org/package/polysemy-http
 https://hackage.haskell.org/package/Salsa-0.1.0.1/src/Docs/Thesis.pdf
 https://retis.santannapisa.it/luca/ProgrammazioneFunzionale/Old-21/Slides/monadic_io.pdf
+https://staff.fnwi.uva.nl/d.j.n.vaneijck2/courses/16/fsa/lectures/FSA4.html
+https://hackage.haskell.org/package/cached-io
+https://hackage.haskell.org/package/once/docs/Control-Once.html
+https://hackage.haskell.org/package/retry
