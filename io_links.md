@@ -29041,6 +29041,16 @@ https://hackage-content.haskell.org/package/ghc-9.8.4/docs/src/GHC.Runtime.Eval.
 https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/Language-Haskell-TH.html
 https://hackage-content.haskell.org/package/miso-1.8.7.0/docs/Miso-FFI.html
 https://hackage-content.haskell.org/package/monad-logger-aeson-0.4.1.5/docs/Control-Monad-Logger-Aeson.html
+https://dblp.org/rec/journals/iandc/Moggi91.html
+https://haddocks.haskell-miso.org/mtl/Control-Monad-Trans.html
+https://maxsnew.com/docs/moggi91.pdf
+https://person.dibris.unige.it/moggi-eugenio/ftp/catia02-slides.pdf
+https://videohighlight.com/v/IBB7JpbClo
+https://github.com/blamario/SCC.wiki/
+https://www.stackage.org/package/http-io-streams
+https://www.stackage.org/package/monad-bayes
+https://www.stackage.org/lts-22.4
+https://www.stackage.org/lts-7.3/package/transformers-0.5.2.0
 https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.LLM.Core.html
 https://hackage-content.haskell.org/package/discord-haskell-voice-3.0.0/docs/Discord-Voice.html
 https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/src/GHC.Driver.Session.html
