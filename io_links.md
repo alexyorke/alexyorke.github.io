@@ -29025,6 +29025,17 @@ https://arxiv.org/abs/1403.0749
 https://www.fi.muni.cz/files/-pk-dn/exam-informatics-fall2017-en.pdf
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput_concurrency_exceptions_and_foreign-language_calls_in_haskell/
 https://es.wikipedia.org/wiki/M%C3%B3nada_(programación_funcional)
+https://hackage.haskell.org/package/hspec-2.7.1/docs/Test-Hspec-Discover.html
+https://hackage-content.haskell.org/package/hspec-core-2.11.12/docs/Test-Hspec-Core-Spec.html
+https://hspec.github.io/parallel-spec-execution.html
+https://publications.scss.tcd.ie/theses/diss/2020/TCD-SCSS-DISSERTATION-2020-048-ABSTRACT.pdf
+https://stackoverflow.com/questions/41694407/unit-testing-io-actions-with-hspec?noredirect=1
+https://app.studyraid.com/fr/read/5759/125728/la-monade-io-et-gestion-des-effets
+https://boystrange.github.io/LPP/IO
+https://cs.famaf.unc.edu.ar/~hoffmann/rio18/practico02.html
+https://gorgonite.developpez.com/livres/traductions/haskell/gentle-haskell/?page=a-propos-des-monades
+https://libreim.github.io/blog/2016/12/21/monadas/
+https://www.cs.rpi.edu/academics/courses/fall23/proglang/handouts/08/CTM2.8.3%2C3.7_EPL4_GIH9.pdf
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html
 https://eurekamag.com/research/104/856/104856751.php
 https://hackage.haskell.org/package/GHC-IO.html
