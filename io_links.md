@@ -28911,3 +28911,6 @@ https://hackage.haskell.org/package/oughta-0.3.0.0/docs/Oughta.html
 https://hackage.haskell.org/package/oughta-0.3.0.0/oughta-0.3.0.0.tar.gz
 https://homes.luddy.indiana.edu/ccshan/cs252/usage.pdf
 https://link.springer.com/book/10.1007/3-540-59451-5
+https://arxiv.org/abs/2207.00852
+https://github.com/awkward-squad/ki
+https://www.researchgate.net/publication/257655587_Towards_Semantics-directed_system_Design_and_Synthesis
