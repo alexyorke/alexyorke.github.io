@@ -29201,3 +29201,4 @@ https://www.reddit.com/r/haskell/comments/1rsud8p/
 https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Effect-Lift.html
 https://hackage-content.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework.html
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-737.html
+https://hackage.haskell.org/package/hoopl-3.8.6.0/src/hoopl.pdf
