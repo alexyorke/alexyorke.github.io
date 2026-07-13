@@ -28751,3 +28751,10 @@ https://citeseerx.ist.psu.edu/document?doi=752ec5ad72bf240bf3ff3be56318f452190f4
 https://gpo.zugaina.org/dev-haskell/iospec/Bugs
 https://raw.githubusercontent.com/NixOS/nixpkgs/c92ca95afb5043bc6faa0d526460584eccff2277/pkgs/development/haskell-modules/hackage-packages.nix
 https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad
+https://github-wiki-see.page/m/cardano-scaling/hydra/wiki/Logbook-2021-H1
+https://haskellweekly.news/issue/307.html
+https://leios.cardano-scaling.org/leios-design.pdf
+https://www.stackage.org/lts-11.9/package/test-fixture-0.5.1.0
+https://discourse.haskell.org/t/the-haskell-unfolder-episode-34-you-already-understand-monads/10545
+https://www.youtube.com/watch?index=34&list=PLD8gywOEY4HaG5VSrKVnHxCptlJv2GAn7&v=n5ZtsHrYWq0
+https://www.well-typed.com/blog/2024/10/18-months-of-unfolder/
