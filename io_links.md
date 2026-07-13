@@ -28816,3 +28816,8 @@ https://hackage.haskell.org/package/quickcheck-io/docs
 https://hackage.haskell.org/packages/tag/concurrency
 https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/software-engineering-programming-language-lab/news-lab/detail-lab/der-haskell-ecosystem-workshop-2024
 https://www.ost.ch/fileadmin/dateiliste/1_studium/1.3_informatik/1.3.1_bachelor_informatik/informatik-newsletter_24-2.pdf
+https://doi.org/10.1016/B978-0-444-88135-9.50009-7
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-7.8.4/MonadUtils.html
+https://github.com/dnikolovv/servant-purescript-codegen-example
+https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/
+https://www.haskell.org/pipermail/beginners/attachments/20090424/UnderstandingHaskellMonads.pdf
