@@ -28922,3 +28922,7 @@ https://github.com/Bodigrim/logict
 https://hackage.haskell.org/package/functor-monadic-0.1.0.3/candidate/docs/Data-Functor-Monadic.html
 https://mynixos.com/nixpkgs/package/haskellPackages.hashmap-io
 https://www.schoolofhaskell.com/user/XookDo/introduccion-a-la-programacion-funcional/introduccion
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc/MonadUtils.html
+https://ghcguide.haskell.jp/8.4.3/libraries/mtl-2.2.2/Control-Monad-Except.html
+https://haddocks.haskell-miso.org/base/Data-Traversable.html
+https://mabboux.net/informatique/haskell/en/Tutoriel/Haskell%20beginning.pdf
