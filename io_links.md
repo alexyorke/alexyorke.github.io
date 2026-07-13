@@ -28864,3 +28864,8 @@ https://hackage.haskell.org/package/CriterionPlus/docs/CriterionPlus.html
 https://hackage.haskell.org/package/hspec
 https://hackage.haskell.org/package/monad-peel
 https://haskell.org/definition/haskell98-report.pdf
+https://arxiv.org/abs/1406.2058
+https://arxiv.org/abs/1604.01184
+https://citeseerx.ist.psu.edu/document?doi=3b889bb5e6250b2b381522d0a0b91ba1a33f3159&repid=rep1&type=pdf
+https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67e4a2d35861293448dcb&repid=rep1&type=pdf
+https://people.cs.nott.ac.uk/psztxa/publ/DArray.pdf
