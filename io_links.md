@@ -29153,3 +29153,12 @@ https://hackage.haskell.org/package/monad-logger-0.3.40/docs/Control-Monad-Logge
 https://hackage.haskell.org/package/monad-unlift/docs/Control-Monad-IO-Unlift.html
 https://hackage.haskell.org/package/streaming-commons/docs/Data-Streaming-Network.html
 https://hackage.haskell.org/package/streaming-commons/docs/Data-Streaming-Process.html
+https://ncatlab.org/nlab/show/Eugenio%2BMoggi
+https://www.lfcs.inf.ed.ac.uk/reports/88/ECS-LFCS-88-66/
+https://en.wikipedia.org/wiki/Monade_%28Informatik%29
+https://hackage.haskell.org/package/monad-parallel-0.8.0.1
+https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/haskell.html
+https://www.di.uminho.pt/~jno/html/mpi0203su.html
+https://www.informatik.uni-bremen.de/agbkb/lehre/ss98/pi2/hugs_doc/tutorial-1.4-html/io.html
+https://www.uni-ulm.de/func0809/
+https://www-igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.13.0.0/Control-Monad-IO-Class.html
