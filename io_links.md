@@ -29194,3 +29194,7 @@ https://arxiv.org/abs/1410.5370
 https://haddocks.haskell-miso.org/base/Control-Monad.html
 https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base/System-IO.html
 https://www.cs.us.es/~jalonso/cursos/i1m-10/ejercicios/ej_prog_Haskell.pdf
+https://hackage-content.haskell.org/package/ghc-internal-9.1003.0/docs/GHC-Internal-Control-Monad.html
+https://hackage-content.haskell.org/package/sbv-12.2/docs/Data-SBV-Trans-Control.html
+https://www.inf.ed.ac.uk/publications/report/0581.html
+https://www.reddit.com/r/haskell/comments/1rsud8p/
