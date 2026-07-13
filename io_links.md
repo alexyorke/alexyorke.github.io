@@ -29024,6 +29024,7 @@ https://arxiv.org/abs/2007.00616
 https://arxiv.org/abs/1403.0749
 https://www.fi.muni.cz/files/-pk-dn/exam-informatics-fall2017-en.pdf
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput_concurrency_exceptions_and_foreign-language_calls_in_haskell/
+https://es.wikipedia.org/wiki/M%C3%B3nada_(programación_funcional)
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html
 https://eurekamag.com/research/104/856/104856751.php
 https://hackage.haskell.org/package/GHC-IO.html
