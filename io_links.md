@@ -28833,3 +28833,17 @@ https://arxiv.org/abs/2404.16321
 https://kar.kent.ac.uk/id/document/53983
 https://www.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Exercise.html
 https://www.stackage.org/lts-7.19/package/pure-io-0.2.1
+https://en.wikibooks.org/wiki/Haskell/Category:Input_and_output
+https://en.wikibooks.org/wiki/Haskell/Control_structures
+https://research.microsoft.com/en-us/um/people/simonpj/papers/marktoberdorf/
+https://www.cs.kent.ac.uk/people/staff/sjt/craft2e/monads.html
+https://www.cs.ox.ac.uk/jeremy.gibbons/publications/2001/monads.pdf
+https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/2007/monads.pdf
+https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/monads.pdf
+https://www.cse.chalmers.se/edu/year/2012/course/TDA452/monads.pdf
+https://www.haskell.org/ghc/docs/latest/html/libraries/base/System-IO.html
+https://github.com/CRogers/mockcat
+https://github.com/jphmrst/TLT/
+https://hackage.haskell.org/package/quickcheck-state-machine-0.10.3
+https://research.chalmers.se/publication/231133
+https://www.clean.cs.ru.nl/Publications
