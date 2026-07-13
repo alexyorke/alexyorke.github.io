@@ -29004,3 +29004,9 @@ https://hackage-content.haskell.org/package/ghc-lib-9.10.2.20250515/docs/GHC.htm
 https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.DocumentLoader.Core.html
 https://hackage-content.haskell.org/package/ollama-haskell-0.2.0.0/docs/Data-Ollama-Copy.html
 https://hackage-content.haskell.org/package/protolude-0.3.5/docs/Protolude.html
+https://hackage.haskell.org/package/Dialog/docs/Dialog.html
+https://hackage.haskell.org/package/dunai-0.6.0
+https://hackage.haskell.org/package/effect-monad/src/examples
+https://hackage.haskell.org/package/Test-SmallCheck.html
+https://pdfs.semanticscholar.org/32ff/28cb5b5c990fe7bdca510040ea22f5c13316.pdf
+https://www.stackage.org/package/fused-effects
