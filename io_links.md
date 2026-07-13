@@ -28847,3 +28847,12 @@ https://github.com/jphmrst/TLT/
 https://hackage.haskell.org/package/quickcheck-state-machine-0.10.3
 https://research.chalmers.se/publication/231133
 https://www.clean.cs.ru.nl/Publications
+https://hackage.haskell.org/package/mockcat-1.4.0.0
+https://www.stackage.org/lts-10.0/package/quickcheck-state-machine-0.3.0
+https://www.stackage.org/lts-13.2/package/quickcheck-state-machine-0.4.3
+https://www.stackage.org/lts-20.18/package/quickcheck-state-machine-0.7.1
+https://www.stackage.org/lts-20.21/package/quickcheck-state-machine-0.7.2
+https://www.stackage.org/lts-20.7/package/quickcheck-state-machine-0.7.1
+https://www.stackage.org/nightly-2018-09-18/package/quickcheck-state-machine-0.4.2
+https://www.stackage.org/nightly-2023-02-13/package/quickcheck-state-machine-0.7.1
+https://www.stackage.org/nightly-2023-10-19/package/quickcheck-state-machine-0.7.3
