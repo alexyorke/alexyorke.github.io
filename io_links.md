@@ -28778,3 +28778,5 @@ https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/message/SAU
 https://www.kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf
 https://www.reddit.com/r/haskell/comments/1dqmvt0/well-typed-part-5-io-and-explicit-effects-of-the-free-video-based-haskell-introduction-course
 https://www.reddit.com/r/haskell/comments/1dvvkms/well-typed-part-6-monads-of-the-free-video-based-haskell-introduction-course
+https://lat.inf.tu-dresden.de/research/reports/1998/LeuckerTobies-AIB-98-5.pdf
+https://users.cs.northwestern.edu/~clk800/rand-test-study/_epfffk/epfffk-2009-10-8-12-02-00.pdf
