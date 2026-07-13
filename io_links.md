@@ -28746,3 +28746,8 @@ https://research.tue.nl/files/333714970/Gils_N.pdf
 https://uec.repo.nii.ac.jp/records/3550
 https://people.cs.nott.ac.uk/pszgmh/
 https://www.bilibili.com/video/BV1HP411M7im/
+https://archlinux.org/packages/extra/x86_64/haskell-iospec/
+https://citeseerx.ist.psu.edu/document?doi=752ec5ad72bf240bf3ff3be56318f452190f4287&repid=rep1&type=pdf
+https://gpo.zugaina.org/dev-haskell/iospec/Bugs
+https://raw.githubusercontent.com/NixOS/nixpkgs/c92ca95afb5043bc6faa0d526460584eccff2277/pkgs/development/haskell-modules/hackage-packages.nix
+https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad
