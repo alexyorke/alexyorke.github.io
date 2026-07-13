@@ -29123,3 +29123,4 @@ https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda3e4a2d35861293448
 https://repositum.tuwien.at/handle/20.500.12708/168248
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf
 https://hackage.haskell.org/package/effet-0.1.0.0
+https://hackage.haskell.org/package/failable-1.2.1.0
