@@ -28798,3 +28798,5 @@ https://cris.maastrichtuniversity.nl/en/publications/monadic-systems/
 https://es.wikipedia.org/wiki/M%C3%B3nada_%28programación_funcional%29
 https://slideserve.com/bairn/the-io-monad
 https://stackoverflow.com/questions/18422099/monads-current-state-of-the-art-to-do-io-in-pure-languages?noredirect=1
+https://citeseerx.ist.psu.edu/document?doi=12c79a2c28194c6585ed51691f015d3a9c26dc1f&repid=rep1&type=pdf
+https://discourse.haskell.org/t/looking-for-a-library-like-concurrency-but-with-file-io-operations/10566/5
