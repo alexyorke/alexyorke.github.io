@@ -28894,3 +28894,8 @@ https://www.mabboux.net/informatique/haskell/en/Haskell-IO-Monade.pdf
 https://arxiv.org/abs/cs/0605058
 https://haddocks.haskell-miso.org/miso-tests/Miso-Test.html
 https://www.theses.gla.ac.uk/71760/1/10391401.pdf
+http://arxiv.org/abs/cs/0605058
+http://arxiv.org/pdf/cs/0605058
+https://arxiv.org/pdf/cs/0605058
+https://export.arxiv.org/abs/cs/0605058
+https://export.arxiv.org/pdf/cs/0605058
