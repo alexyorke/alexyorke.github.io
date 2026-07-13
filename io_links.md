@@ -28764,3 +28764,12 @@ https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30a8e78d-628
 https://www.youtube.com/playlist?list=PLD0EBF7F6C1A5A4D6
 https://owenstephens.co.uk/assets/static/research/masters_report.pdf
 https://www.microsoft.com/en-us/research/publication/functional-programming-and-inputoutput/
+https://cnds.constructor.university/courses/ics-2023/hs-notes.pdf
+https://hackage.haskell.org/package/aivika-transformers-4.3.5/docs
+https://hackage.haskell.org/package/forsyde-deep/docs/ForSyDe-Deep-System.html
+https://hackage.haskell.org/package/gloss/docs/Graphics-Gloss-Interface-IO-Simulate.html
+https://hackage.haskell.org/package/Yampa-core-0.2.0/docs/FRP-Yampa-Simulation.html
+https://www.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/c9-lectures-dr-erik-meijer-functional-programming-fundamentals-chapter-9-of-13
+https://www.reddit.com/r/haskell/comments/12rg4h/iosim_on_hackage/
+https://www.reddit.com/r/haskell/comments/1arpmi8/
+https://www.xuebaunion.com/detail/6641.html
