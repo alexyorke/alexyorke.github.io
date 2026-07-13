@@ -29222,3 +29222,6 @@ https://arxiv.org/abs/2104.01358
 https://hackage.haskell.org/package/lifted-base
 https://hackage.haskell.org/package/monad-loops-stm
 https://hackage.haskell.org/package/wai-control-0.1.0.2
+https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/6552
+https://en.wikibooks.org/wiki/Haskell
+https://mail-archive.com/arch-commits%40archlinux.org/msg820840.html
