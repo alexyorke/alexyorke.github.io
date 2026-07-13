@@ -28926,3 +28926,11 @@ https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc/MonadUtils.html
 https://ghcguide.haskell.jp/8.4.3/libraries/mtl-2.2.2/Control-Monad-Except.html
 https://haddocks.haskell-miso.org/base/Data-Traversable.html
 https://mabboux.net/informatique/haskell/en/Tutoriel/Haskell%20beginning.pdf
+https://citeseerx.ist.psu.edu/document?doi=88fd6bf47141d3f31f38df8dfb9de59bb848acf&repid=rep1&type=pdf
+https://github.com/cdsmith/HMock.git
+https://github.com/hspec/quickcheck-io
+https://github.com/pujoheadsoft/mockcat
+https://hackage.haskell.org/package/pdf-toolbox-document-0.0.4.0/docs/Pdf-Toolbox-Document-Pdf.html
+https://research.chalmers.se/en/publication/231133
+https://www.archlinux.de/packages/extra/x86_64/haskell-quickcheck-io
+https://www.stackage.org/package/mockcat
