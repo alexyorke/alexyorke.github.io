@@ -28807,3 +28807,10 @@ https://www.cs.toronto.edu/~trebla/fp/
 https://eprints.nottingham.ac.uk/11457/files/
 https://eprints.nottingham.ac.uk/11457/files/10391401.pdf?download=1
 https://link.springer.com/book/10.1007/978-3-642-24276-2
+https://cgi.cse.unsw.edu.au/~cs3141/22T2/Exercise.html
+https://hackage.haskell.org/package/dejafu
+https://hackage.haskell.org/package/dejafu-0.3.2.1/docs/Control-Concurrent-Classy.html
+https://hackage.haskell.org/package/fs-sim/docs
+https://hackage.haskell.org/package/IOSpec-0.2.1/docs
+https://hackage.haskell.org/package/quickcheck-io/docs
+https://hackage.haskell.org/packages/tag/concurrency
