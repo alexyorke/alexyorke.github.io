@@ -28785,3 +28785,4 @@ https://ja.stackoverflow.com/questions/70051/monad%E3%82%AF%E3%83%A9%E3%82%B9%E3
 https://www.tufts.edu/~kfisher/teaching.html
 https://trepo.tuni.fi/bitstream/handle/10024/131448/WernerVille.pdf?sequence=2
 https://ishantheperson.github.io/posts/haskell-monads/
+https://haskell.org/hugs/pages/libraries/base/System-IO.html
