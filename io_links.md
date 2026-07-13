@@ -29198,3 +29198,4 @@ https://hackage-content.haskell.org/package/ghc-internal-9.1003.0/docs/GHC-Inter
 https://hackage-content.haskell.org/package/sbv-12.2/docs/Data-SBV-Trans-Control.html
 https://www.inf.ed.ac.uk/publications/report/0581.html
 https://www.reddit.com/r/haskell/comments/1rsud8p/
+https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Effect-Lift.html
