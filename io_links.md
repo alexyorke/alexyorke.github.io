@@ -28829,3 +28829,7 @@ https://hackage-content.haskell.org/package/QuickCheck-2.17.1.0/docs/doc-index-M
 https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-Trans.html
 https://www.kcsrk.info/papers/awkward_effects_ml17.pdf
 https://www.researchgate.net/publication/351352005_Algebraic_Specification_for_Input-Output_in_Abstract_Data_Types
+https://arxiv.org/abs/2404.16321
+https://kar.kent.ac.uk/id/document/53983
+https://www.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Exercise.html
+https://www.stackage.org/lts-7.19/package/pure-io-0.2.1
