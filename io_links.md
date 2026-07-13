@@ -28914,3 +28914,11 @@ https://link.springer.com/book/10.1007/3-540-59451-5
 https://arxiv.org/abs/2207.00852
 https://github.com/awkward-squad/ki
 https://www.researchgate.net/publication/257655587_Towards_Semantics-directed_system_Design_and_Synthesis
+https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1cda3e4a2d35861293448dcb&repid=rep1&type=pdf
+https://gist.github.com/3994038
+https://gist.github.com/ijt/967505
+https://gist.github.com/piq9117/68b96887f75b3dc6e3cce5d3a83b289a
+https://github.com/Bodigrim/logict
+https://hackage.haskell.org/package/functor-monadic-0.1.0.3/candidate/docs/Data-Functor-Monadic.html
+https://mynixos.com/nixpkgs/package/haskellPackages.hashmap-io
+https://www.schoolofhaskell.com/user/XookDo/introduccion-a-la-programacion-funcional/introduccion
