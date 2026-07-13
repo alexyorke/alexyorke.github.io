@@ -29168,3 +29168,5 @@ https://packages.debian.org/sid/source/haskell-quickcheck-io
 https://www.rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-quickcheck-io-doc-0.2.0-41.fc44.noarch.html
 https://www.stackage.org/lts-15.4/package/quickcheck-io-0.2.0
 https://justinhsu.net/teaching/s20/cs538/resources/slides/lecture12.pdf
+https://hackage-content-origin.haskell.org/packages/search
+https://futurelearn.com/info/courses/functional-programming-haskell/0/steps/27205
