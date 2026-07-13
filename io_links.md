@@ -28773,3 +28773,8 @@ https://www.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-program
 https://www.reddit.com/r/haskell/comments/12rg4h/iosim_on_hackage/
 https://www.reddit.com/r/haskell/comments/1arpmi8/
 https://www.xuebaunion.com/detail/6641.html
+https://discourse.haskell.org/t/zurihac-2023-videos-online/6741
+https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/message/SAURVU736WOTDTNZN2QQJCWDA3RF72AY/
+https://www.kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf
+https://www.reddit.com/r/haskell/comments/1dqmvt0/well-typed-part-5-io-and-explicit-effects-of-the-free-video-based-haskell-introduction-course
+https://www.reddit.com/r/haskell/comments/1dvvkms/well-typed-part-6-monads-of-the-free-video-based-haskell-introduction-course
