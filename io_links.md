@@ -28740,3 +28740,4 @@ https://qastack.mx/cs/109421/is-the-io-monad-technically-incorrect
 https://research-portal.st-andrews.ac.uk/en/publications/monadic-io-in-haskell-1-3/
 https://vimeo.com/125038982
 https://www.dantb.dev/posts/dissertation
+https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/24num.pdf
