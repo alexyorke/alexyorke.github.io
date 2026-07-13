@@ -29199,3 +29199,5 @@ https://hackage-content.haskell.org/package/sbv-12.2/docs/Data-SBV-Trans-Control
 https://www.inf.ed.ac.uk/publications/report/0581.html
 https://www.reddit.com/r/haskell/comments/1rsud8p/
 https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Effect-Lift.html
+https://hackage-content.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework.html
+https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-737.html
