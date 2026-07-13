@@ -28800,3 +28800,7 @@ https://slideserve.com/bairn/the-io-monad
 https://stackoverflow.com/questions/18422099/monads-current-state-of-the-art-to-do-io-in-pure-languages?noredirect=1
 https://citeseerx.ist.psu.edu/document?doi=12c79a2c28194c6585ed51691f015d3a9c26dc1f&repid=rep1&type=pdf
 https://discourse.haskell.org/t/looking-for-a-library-like-concurrency-but-with-file-io-operations/10566/5
+https://accedacris.ulpgc.es/bitstream/10553/42272/2/0751135_00000_0000.pdf
+https://archlinux.org/packages/extra/x86_64/haskell-io-storage/
+https://archlinux.org/packages/extra-staging/x86_64/haskell-io-streams/
+https://www.cs.toronto.edu/~trebla/fp/
