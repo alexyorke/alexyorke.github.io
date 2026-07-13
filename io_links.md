@@ -28858,3 +28858,9 @@ https://www.stackage.org/nightly-2023-02-13/package/quickcheck-state-machine-0.7
 https://www.stackage.org/nightly-2023-10-19/package/quickcheck-state-machine-0.7.3
 https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-IORef.html
 https://cse.ucsd.edu/classes/wi12/cse230-a/lectures/monads.html
+https://hackage.haskell.org/package/array/docs/Data-Array-IO.html
+https://hackage.haskell.org/package/criterion
+https://hackage.haskell.org/package/CriterionPlus/docs/CriterionPlus.html
+https://hackage.haskell.org/package/hspec
+https://hackage.haskell.org/package/monad-peel
+https://haskell.org/definition/haskell98-report.pdf
