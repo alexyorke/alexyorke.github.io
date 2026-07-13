@@ -29036,6 +29036,14 @@ https://cs.famaf.unc.edu.ar/~hoffmann/rio18/practico02.html
 https://gorgonite.developpez.com/livres/traductions/haskell/gentle-haskell/?page=a-propos-des-monades
 https://libreim.github.io/blog/2016/12/21/monadas/
 https://www.cs.rpi.edu/academics/courses/fall23/proglang/handouts/08/CTM2.8.3%2C3.7_EPL4_GIH9.pdf
+https://arxiv.org/abs/2309.04179
+https://hackage-content.haskell.org/package/ghc-9.8.4/docs/src/GHC.Runtime.Eval.html
+https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/Language-Haskell-TH.html
+https://hackage-content.haskell.org/package/miso-1.8.7.0/docs/Miso-FFI.html
+https://hackage-content.haskell.org/package/monad-logger-aeson-0.4.1.5/docs/Control-Monad-Logger-Aeson.html
+https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.LLM.Core.html
+https://hackage-content.haskell.org/package/discord-haskell-voice-3.0.0/docs/Discord-Voice.html
+https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/src/GHC.Driver.Session.html
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html
 https://eurekamag.com/research/104/856/104856751.php
 https://hackage.haskell.org/package/GHC-IO.html
