@@ -28791,3 +28791,6 @@ https://fmaste.github.io/Haskell/doc/Monad.html
 https://hackage.haskell.org/package/http-monad
 https://softwarepatternslexicon.com/haskell/functional-design-patterns/monadic-design-patterns/
 https://wiki.haskell.org/Merely_monadic
+https://eprints.nottingham.ac.uk/11457/files/10391401.pdf
+https://hackage.haskell.org/package/aivika-1.1/src/aivika.pdf
+https://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/io-tutorial.ps.gz
