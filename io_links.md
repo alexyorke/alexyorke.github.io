@@ -28991,3 +28991,16 @@ https://retis.santannapisa.it/luca/ProgrammazioneFunzionale/Old-21/Slides/monadi
 https://hackage.haskell.org/package/cached-io
 https://hackage.haskell.org/package/once/docs/Control-Once.html
 https://hackage.haskell.org/package/retry
+https://dl.acm.org/doi/pdf/10.1145/1160074.1159821?download=true
+https://dl.acm.org/doi/pdf/10.1145/351268.351292
+https://groups.inf.ed.ac.uk/bx/monad.pdf
+https://hackage-content.haskell.org/package/hledger-web-1.43.1/docs/Hledger-Web-Import.html
+https://hackage-content.haskell.org/package/nvim-hs-2.3.2.4/docs/Neovim.html
+https://spl.cde.state.co.us/artemis/ucbserials/ucb51110internet/1999/ucb51110884internet.pdf
+https://www.pure.ed.ac.uk/ws/portalfiles/portal/12644250/haskml.pdf
+https://hackage-content.haskell.org/package/beam-postgres-0.5.4.3/docs/Database-Beam-Postgres.html
+https://hackage-content.haskell.org/package/flatparse-0.5.3.1/docs/FlatParse-Stateful.html
+https://hackage-content.haskell.org/package/ghc-lib-9.10.2.20250515/docs/GHC.html
+https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.DocumentLoader.Core.html
+https://hackage-content.haskell.org/package/ollama-haskell-0.2.0.0/docs/Data-Ollama-Copy.html
+https://hackage-content.haskell.org/package/protolude-0.3.5/docs/Protolude.html
