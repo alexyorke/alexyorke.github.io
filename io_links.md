@@ -28891,3 +28891,6 @@ https://hackage.haskell.org/package/hashtables-1.0.0.0
 https://scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vk3bc.pdf
 https://www.cs.ox.ac.uk/files/3309/PRG40.pdf
 https://www.mabboux.net/informatique/haskell/en/Haskell-IO-Monade.pdf
+https://arxiv.org/abs/cs/0605058
+https://haddocks.haskell-miso.org/miso-tests/Miso-Test.html
+https://www.theses.gla.ac.uk/71760/1/10391401.pdf
