@@ -29051,6 +29051,8 @@ https://www.stackage.org/package/http-io-streams
 https://www.stackage.org/package/monad-bayes
 https://www.stackage.org/lts-22.4
 https://www.stackage.org/lts-7.3/package/transformers-0.5.2.0
+https://hackage.haskell.org/package/CheatSheet-1.7/src/CheatSheet.pdf
+https://hackage.haskell.org/package/prometheus
 https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.LLM.Core.html
 https://hackage-content.haskell.org/package/discord-haskell-voice-3.0.0/docs/Discord-Voice.html
 https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/src/GHC.Driver.Session.html
