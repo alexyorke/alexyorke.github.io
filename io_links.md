@@ -29015,4 +29015,5 @@ https://es.wikipedia.org/wiki/M%C3%B3nada_(programaci%C3%B3n_funcional)
 https://hackage.haskell.org/package/planet-mitchell/docs/Concurrency-IORef.html
 https://it.wikipedia.org/wiki/Monade_(informatica)
 https://iteratee.hackage.haskell.org/
+https://john.cs.olemiss.edu/~hcc/docs/ELIFP/Ch12/12_Testing_Haskell.pdf
 https://www.stackage.org/package/fused-effects
