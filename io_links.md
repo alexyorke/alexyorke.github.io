@@ -28869,3 +28869,4 @@ https://arxiv.org/abs/1604.01184
 https://citeseerx.ist.psu.edu/document?doi=3b889bb5e6250b2b381522d0a0b91ba1a33f3159&repid=rep1&type=pdf
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67e4a2d35861293448dcb&repid=rep1&type=pdf
 https://people.cs.nott.ac.uk/psztxa/publ/DArray.pdf
+https://haskell.org/communities/05-2008/report.pdf
