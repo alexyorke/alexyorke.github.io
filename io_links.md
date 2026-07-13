@@ -28780,3 +28780,8 @@ https://www.reddit.com/r/haskell/comments/1dqmvt0/well-typed-part-5-io-and-expli
 https://www.reddit.com/r/haskell/comments/1dvvkms/well-typed-part-6-monads-of-the-free-video-based-haskell-introduction-course
 https://lat.inf.tu-dresden.de/research/reports/1998/LeuckerTobies-AIB-98-5.pdf
 https://users.cs.northwestern.edu/~clk800/rand-test-study/_epfffk/epfffk-2009-10-8-12-02-00.pdf
+https://hackage.haskell.org/package/strict-io/docs/System-IO-Strict.html
+https://ja.stackoverflow.com/questions/70051/monad%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE-%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%A0%B4%E9%9D%A2%E3%81%A7%E3%81%99%E3%81%8B/70052
+https://www.tufts.edu/~kfisher/teaching.html
+https://trepo.tuni.fi/bitstream/handle/10024/131448/WernerVille.pdf?sequence=2
+https://ishantheperson.github.io/posts/haskell-monads/
