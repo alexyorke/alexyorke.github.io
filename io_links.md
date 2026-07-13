@@ -29217,3 +29217,4 @@ https://research-repository.st-andrews.ac.uk/handle/10023/28867
 https://research-portal.st-andrews.ac.uk/en/studentTheses/erasure-in-dependently-typed-programming/
 https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/28867/Thesis-Mat%C3%BA%C5%A1-Teji%C5%A1%C4%8D%C3%A1k-complete-version.pdf?isAllowed=y&sequence=2
 https://ziman.functor.sk/media/thesis.pdf
+https://stackoverflow.com/questions/4063778/in-what-sense-is-the-io-monad-pure?noredirect=1
