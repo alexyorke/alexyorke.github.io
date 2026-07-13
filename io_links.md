@@ -29044,6 +29044,8 @@ https://hackage-content.haskell.org/package/monad-logger-aeson-0.4.1.5/docs/Cont
 https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.LLM.Core.html
 https://hackage-content.haskell.org/package/discord-haskell-voice-3.0.0/docs/Discord-Voice.html
 https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/src/GHC.Driver.Session.html
+https://hackage.haskell.org/package/QuickCheck-2.17.1.0/docs/Test-QuickCheck-Monadic.html
+https://hackage-content.haskell.org/package/hakyll-4.16.6.0/docs/Hakyll-Core-Provider-Metadata.html
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html
 https://eurekamag.com/research/104/856/104856751.php
 https://hackage.haskell.org/package/GHC-IO.html
