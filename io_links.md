@@ -28821,3 +28821,11 @@ https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-7.8.4/MonadUtil
 https://github.com/dnikolovv/servant-purescript-codegen-example
 https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/
 https://www.haskell.org/pipermail/beginners/attachments/20090424/UnderstandingHaskellMonads.pdf
+https://discourse.haskell.org/t/ann-effectful-an-easy-to-use-performant-extensible-effects-library/4774
+https://github.com/Effekt-TS/effekt
+https://hackage.haskell.org/package/quickcheck-io
+https://hackage.haskell.org/package/quickcheck-state-machine
+https://hackage-content.haskell.org/package/QuickCheck-2.17.1.0/docs/doc-index-M.html
+https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-Trans.html
+https://www.kcsrk.info/papers/awkward_effects_ml17.pdf
+https://www.researchgate.net/publication/351352005_Algebraic_Specification_for_Input-Output_in_Abstract_Data_Types
