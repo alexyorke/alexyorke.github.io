@@ -29145,3 +29145,11 @@ https://www.youtube.com/watch?v=FLAPIgvlVnE
 https://hackage.haskell.org/package/monadlog
 https://hackage.haskell.org/package/monadlog/docs
 https://hackage.haskell.org/package/yet-another-logger-0.3.0/candidate/docs/System-Logger-Types.html
+https://hackage.haskell.org/package/monad-logger
+https://hackage.haskell.org/package/monad-logger/docs/Control-Monad-Logger.html
+https://hackage.haskell.org/package/monad-unlift
+https://hackage.haskell.org/package/streaming-commons
+https://hackage.haskell.org/package/monad-logger-0.3.40/docs/Control-Monad-Logger.html
+https://hackage.haskell.org/package/monad-unlift/docs/Control-Monad-IO-Unlift.html
+https://hackage.haskell.org/package/streaming-commons/docs/Data-Streaming-Network.html
+https://hackage.haskell.org/package/streaming-commons/docs/Data-Streaming-Process.html
