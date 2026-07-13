@@ -29202,3 +29202,9 @@ https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-E
 https://hackage-content.haskell.org/package/test-framework-0.8.2.3/docs/Test-Framework.html
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-737.html
 https://hackage.haskell.org/package/hoopl-3.8.6.0/src/hoopl.pdf
+https://hackage.haskell.org/package/monad-control-aligned
+https://hackage.haskell.org/package/monad-control-identity
+https://mynixos.com/nixpkgs/package/haskellPackages.io-manager
+https://trepo.tuni.fi/bitstream/handle/10024/131448/WernerVille.pdf?isAllowed=y&sequence=2
+https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/bracker.pdf
+https://citeseerx.ist.psu.edu/document?doi=c55006a79e5c27698f22554c5814ebeb9dc2097c&repid=rep1&type=pdf
