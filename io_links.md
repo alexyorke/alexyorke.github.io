@@ -29092,3 +29092,4 @@ https://arxiv.org/abs/cs/0511006
 https://dblp.org/pid/m/EugenioMoggi.html
 https://packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell
 https://www.packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell
+https://ir.cwi.nl/pub/4933
