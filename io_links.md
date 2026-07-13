@@ -29136,3 +29136,4 @@ https://hackage-content.haskell.org/package/test-framework-0.8.2.3/docs/Test-Fra
 https://simon.peyton-jones.org/assets/pdfs/tackling-awkward-squad.pdf
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/list_functions/
 https://archiv.ub.uni-marburg.de/diss/z2016/0107/pdf/dmd.pdf
+https://www.gladir.com/CODER/HASKELL/les-bases-des-monades.htm
