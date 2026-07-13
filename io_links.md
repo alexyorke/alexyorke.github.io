@@ -28941,3 +28941,14 @@ https://hackage.haskell.org/package/io-classes-1.2.0.0/changelog
 https://hackage.haskell.org/package/QuickCheck
 https://link.springer.com/book/10.1007/978-1-4471-3810-5
 https://stanford-lambda.gitlab.io/notes.html
+https://citeseerx.ist.psu.edu/document?doi=9d557f4c6badddf9e2504d874803cdd1f3beb6d2&repid=rep1&type=pdf
+https://digicoll.lib.berkeley.edu/record/230707
+https://hackage.haskell.org/package/IOSim
+https://hackage.haskell.org/package/Test-SmallCheck
+https://hackage.haskell.org/package/Z-IO
+https://www.haskellmooc.cses.fi/part1
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base/src/GHC-Base.html
+https://hackage.haskell.org/package/monad-effect-0.2.0.0
+https://hackage.haskell.org/package/Test-SmallCheck-1.2.1.1
+https://hackage.haskell.org/package/TLT-0.2.0.0
+https://hackage.haskell.org/package/Z-IO-2.0.0.0
