@@ -29046,6 +29046,10 @@ https://hackage-content.haskell.org/package/discord-haskell-voice-3.0.0/docs/Dis
 https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/src/GHC.Driver.Session.html
 https://hackage.haskell.org/package/QuickCheck-2.17.1.0/docs/Test-QuickCheck-Monadic.html
 https://hackage-content.haskell.org/package/hakyll-4.16.6.0/docs/Hakyll-Core-Provider-Metadata.html
+https://hackage.haskell.org/package/backprop-0.1.2.0/src/renders/backprop-mnist.pdf
+https://hackage.haskell.org/package/backprop-0.1.4.0/src/renders/backprop-mnist.pdf
+https://homepages.inf.ed.ac.uk/wadler/short.html
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EFAEBBE3A19EA03A8D6D75A5348E194/S0956796800001258a.pdf
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html
 https://eurekamag.com/research/104/856/104856751.php
 https://hackage.haskell.org/package/GHC-IO.html
