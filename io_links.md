@@ -30033,3 +30033,9 @@ https://hackage.haskell.org/package/potoki-2.1.3
 https://hackage.haskell.org/package/potoki-2.1.4.1
 https://www.stackage.org/lts-23.17
 https://www.stackage.org/lts-8
+https://hackage.haskell.org/package/lhs2tex-1.21/src/doc/Guide2.pdf
+https://hackage.haskell.org/package/strict
+https://isa-afp.org/browser_info/current/AFP/Hello_World/IO.html
+https://tiefenauer.github.io/assets/img/posts/2018-06-28-programming-in-haskell/ch10.pdf
+https://www.cs.uaf.edu/~chappell/class/2025_spr/cs331/lect/cs331-20250303-haskell_data.pdf
+https://www.encyclopedia.com/humanities/dictionaries-thesauruses-pictures-and-press-releases/awkward-squad
