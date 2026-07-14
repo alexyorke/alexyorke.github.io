@@ -30291,3 +30291,6 @@ https://msfp-workshop.github.io/msfp2026/
 https://reasonablypolymorphic.com/polysemy-talk/
 https://www.slideshare.net/paulszulc/maintainable-software-architecture-in-haskell-with-polysemy
 https://hackage.haskell.org/package/hw-polysemy-0.3.1.2/docs/HaskellWorks-Polysemy.html
+https://docs.idris-lang.org/en/v0.10.3/effects/
+https://yuelipicasso.github.io/blog/comp_monad.html
+https://icfp21.sigplan.org/details/icfp-2021-papers/10/Generalized-Evidence-Passing-for-Effect-Handlers
