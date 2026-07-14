@@ -30382,3 +30382,7 @@ https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316
 https://riptutorial.com/Download/haskell-language-it.pdf
 https://www.cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
 https://ai.ia.agh.edu.pl/pl%3Adydaktyka%3App%3Ahaskell:lab-io
+https://cendekia.unisza.edu.my/neuaxis-e/Record/nottingham-223/Similar
+https://arxiv.org/abs/2604.24612
+https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec49/lifting-up-from-io
+https://web.archive.org/web/20151208175102/http://code.haskell.org/~dons/haskell-1990-2000/threads.html
