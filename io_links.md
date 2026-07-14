@@ -30247,3 +30247,9 @@ https://matija.me/2020/11/05/haskell-monad-transformers-intro/
 https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Reader.html
 https://hackage-content.haskell.org/package/bluefin-internal-0.3.1.0/docs/src/Bluefin.Internal.Examples.html
 https://hackage.haskell.org/package/bluefin-0.2.5.0/docs
+https://hackage.haskell.org/package/polysemy/docs
+https://hackage.haskell.org/package/polysemy-1.2.2.0/docs
+https://hackage.haskell.org/package/polysemy-1.2.3.0
+https://hackage.haskell.org/package/polysemy-0.4.0.0
+https://hackage.haskell.org/package/core-effect-effectful
+https://cse3000-research-project.github.io/static/db102206ec6bbf934bbe6ab8f428e121/poster.pdf
