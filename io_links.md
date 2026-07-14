@@ -30519,3 +30519,5 @@ https://hackage.haskell.org/package/ioref-stable/docs
 https://hackage-content.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html
 https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Network.html
 https://hackage-content-origin.haskell.org/package/network-2.6.3.3
+https://www.cs.ncl.ac.uk/jspui/handle/10443/6607
+https://downloads.haskell.org/ghc/6.8.3/docs/html/libraries/haskell98/IO.html
