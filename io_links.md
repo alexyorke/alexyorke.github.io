@@ -29451,3 +29451,9 @@ https://www.stackage.org/lts-15.0/package/io-streams-1.5.1.0
 https://www.stackage.org/lts-23.0/package/io-streams-1.5.2.2
 https://www.stackage.org/lts-18.21/package/io-streams-1.5.2.1
 https://www.stackage.org/lts-6.1/package/io-memoize-1.1.1.0
+https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad.html
+https://hackage.haskell.org/package/base-4.9.0.0/docs/Control-Monad.html
+https://hackage-content-origin.haskell.org/package/base-4.19.1.0
+https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/Control-Arrow-IOListArrow.html
+https://hackage-content-origin.haskell.org/packages/tag/database
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/libraries/base-4.5.1.0/src/Debug-Trace.html
