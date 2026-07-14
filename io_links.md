@@ -29487,3 +29487,16 @@ https://citeseerx.ist.psu.edu/document?doi=249b6aebf290be142b8e1476c09a9e36b4ba8
 https://www.haskell.org/pipermail/haskell-cafe/2007-May/025120.html
 https://shipthatcode.com/courses/haskell-intermediate/lessons/io-monad
 https://staff.fnwi.uva.nl/d.j.n.vaneijck2/courses/14/fsa/lectures/FSA4.pdf
+https://www.stackage.org/package/data-effects-core
+https://www.stackage.org/nightly-2025-07-01/package/io-manager-0.1.0.4
+https://sambuz.com/doc/10-21-08-pdf-document-968231
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=ekeC-qlijAk
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=k2voWa4D2ak
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=AflGgv8yaGA
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=VhAUAR1lOOc
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=BHMxhWXHd_I
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=nwbB8xHJ4tU
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=-0NHkV3kQzA
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=yoNYulGvMns
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=IYYu54iJY0o
+https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=e29BRfuiwnk
