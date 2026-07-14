@@ -30446,3 +30446,13 @@ https://ds12.github.io/scala-class/slides/lecture2.html
 https://www.manning.com/books/f-sharp-in-action
 https://mirror.ourhost.az/parrot/misc/openbooks/programming/FSharpProgramming.pdf
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Petricek%20T.%2C%20Skeet%20J.%20Functional%20Programming%20for%20the%20Real%20World..%20With%20Examples%20in%20F%23%20and%20C%23%20%28Manning%20Publications%2C%202009%29%28ISBN%209781933988924%29%28O%29%28495s%29_CsPl_.pdf
+https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-ohad-thesis.pdf
+https://citeseerx.ist.psu.edu/document?doi=83c485e220deb2d16e074decc212385ddb21632a&repid=rep1&type=pdf
+https://www.researchgate.net/publication/220977083_Monad-Based_Logics_for_Computational_Effects
+https://docs.rs/corophage
+https://infoscience.epfl.ch/bitstreams/00d8a37e-e74f-48a1-b144-c8e0798110f2/download
+https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html
+https://yangzhixuan.github.io/pdf/yang-thesis.pdf
+https://www.sciencedirect.com/science/article/pii/S0304397506009169
+https://scalasummerschool.github.io/lectures/
+https://studylib.net/doc/27608253/functional-programing-in-kotlin
