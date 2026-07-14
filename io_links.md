@@ -30781,3 +30781,10 @@ https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index
 https://devsisters.github.io/shardcake/docs/
 https://people.kth.se/~buiras/lic.pdf
 https://www.researchgate.net/publication/221563004_A_Library_for_Light-Weight_Information-Flow_Security_in_Haskell
+https://ocaml.org/p/eio_main/1.2/eio_main/Eio_main/index.html
+https://ocaml.org/p/eio/0.14/eio/Eio/index.html
+https://bahr.io/pubs/files/effcalc-paper.pdf
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-9.0.1/src/GHC-Builtin-PrimOps.html
+https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-Event.html
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IOArray.html
+https://lojban.io/documentation/ghc-prim-0.9.1/src/GHC-Prim-Ext.html
