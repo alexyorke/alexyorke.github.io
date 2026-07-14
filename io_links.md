@@ -29577,3 +29577,4 @@ https://mynixos.com/nixpkgs/package/haskellPackages.io-sim
 https://packages.debian.org/bookworm/libghc-iospec-prof
 https://www.classcentral.com/course/youtube-getting-started-with-fp-io-333658
 https://www.classcentral.com/course/youtube-philly-ete-2017-44-free-as-in-monads-daniel-spiewak-133074
+https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=94694136
