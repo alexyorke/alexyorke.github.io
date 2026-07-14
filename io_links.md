@@ -30788,3 +30788,15 @@ https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-9.0.1/src/GHC-Bu
 https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-Event.html
 https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IOArray.html
 https://lojban.io/documentation/ghc-prim-0.9.1/src/GHC-Prim-Ext.html
+https://hackage.haskell.org/package/resourcet/docs
+https://hackage.haskell.org/package/monad-time/docs/Control-Monad-Time.html
+https://hackage-content.haskell.org/package/time-1.15/docs/Data-Time-Clock-System.html
+https://citeseerx.ist.psu.edu/document?doi=ad43ccbee49d790fdc1c8c625a24cf7d00c8326d&repid=rep1&type=pdf
+https://typelevel.org/cats-effect/docs/datatypes/clock
+https://typelevel.org/cats-effect/docs/datatypes/timer
+https://typelevel.org/cats-effect/api/2.x/cats/effect/Resource.html
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/index.html
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/index.html
+https://sttp.softwaremill.com/_/downloads/en/v2.2.0/pdf/
+https://sttp.softwaremill.com/_/downloads/en/v3.1.2/pdf/
+https://sttp.softwaremill.com/_/downloads/en/v3.0.0-rc2/pdf/
