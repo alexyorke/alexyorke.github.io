@@ -30412,3 +30412,6 @@ https://ianen.org/haskell/enumerator/enumerator.pdf
 https://hackage.haskell.org/package/streamly-0.8.1
 https://streamly.composewell.com/haddocks/streamly-0.11.0/Streamly-Data-Stream-MkType.html
 https://www.stackage.org/lts-14.16/package/streamly-0.6.1
+http://www.haskell.org/wikiupload/6/65/Wxhaskell.pdf
+https://www.haskell.org/haskellwiki/Libraries_and_tools/GUI_libraries
+https://codeberg.org/wxHaskell
