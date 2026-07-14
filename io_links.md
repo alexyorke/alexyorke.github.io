@@ -29849,3 +29849,14 @@ https://www.stackage.org/lts-21.22/package/fused-effects-1.1.2.2
 https://www.stackage.org/nightly-2019-06-21/package/polysemy-0.4.0.0
 https://www.stackage.org/nightly-2026-01-17/package/effectful-2.6.1.0
 https://www.stackage.org/package/polysemy-webserver
+https://hackage.haskell.org/package/hashmap-io
+https://hackage.haskell.org/package/ioctl
+https://hackage.haskell.org/package/Monatron-IO
+https://hackage.haskell.org/package/Monatron-IO-1.0/docs
+https://hackage.haskell.org/package/pvar/docs/Data-Primitive-PVar.html
+https://haskell.org/onlinereport/haskell2010/haskellch7.html
+https://ocw.tudelft.nl/courses/introduction-to-functional-programming/subjects/functional-parsers-monads/
+https://ocw.tudelft.nl/courses/introduction-to-functional-programming/subjects/interactive-programs/
+https://www.educative.io/courses/functional-programming-haskell
+https://www.scs.stanford.edu/14sp-cs240h/slides/functors-monads.html
+https://www.stackage.org/package/hashmap
