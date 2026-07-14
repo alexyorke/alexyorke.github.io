@@ -30368,3 +30368,14 @@ https://haskellforall.com/2013/01/introduction-to-haskell-io.html
 https://www.cs.unm.edu/~jhaugh/tutorials/01-haskell-reference-sheet.html
 https://foundation.haskell.org/package/foundation-0.0.3/docs/Foundation-Monad.html
 https://zio.dev/overview/creating-effects/
+https://harrisonwl.github.io/assets/papers/ersa2011b.pdf
+https://era.ed.ac.uk/handle/1842/396
+https://journals.sagepub.com/doi/pdf/10.3233/FI-1995-22126?download=true
+https://publish.lfcs.inf.ed.ac.uk/reports/88/ECS-LFCS-88-66/
+https://arxiv.org/abs/2104.00250
+https://prg.is.titech.ac.jp/wp-content/uploads/2022/05/2022-03B-saito.pdf
+https://haskell.hpmeducation.com/functors-applicatives-and-monads/monads/monad-laws
+https://citeseerx.ist.psu.edu/document?doi=56b44cc407e22a0ab538bd05e6e560f77e47f36a&repid=rep1&type=pdf
+https://arxiv.org/abs/2012.06530
+https://homepages.inf.ed.ac.uk/wadler/papers/
+https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf
