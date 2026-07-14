@@ -30767,3 +30767,15 @@ https://hspec.github.io/writing-specs.html
 https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/QuickCheck/index.html
 https://www.microsoft.com/en-us/research/publication/a-deterministic-multi-way-rendezvous-library-for-haskell/
 https://arxiv.org/abs/1711.03842
+https://hackage.haskell.org/package/distributed-process
+https://hackage-content.haskell.org/package/distributed-process-client-server-0.2.8.0/docs/Control-Distributed-Process-ManagedProcess.html
+https://marino.miculan.org/assets/pdf/ITP12.pdf
+https://verse-lab.github.io/papers/dpc-padl19.pdf
+https://www.baeldung.com/scala/zio-fibers-tutorial
+https://zio.dev/zio-kafka/tutorial/
+https://scalac.io/blog/how-to-learn-zio-and-functional-programming/
+https://scalac.io/blog/streaming-microservices-with-zio-and-kafka/
+https://www.baeldung.com/scala/zio-intro
+https://scalac.io/blog/getting-started-with-zio-http/
+https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index
+https://devsisters.github.io/shardcake/docs/
