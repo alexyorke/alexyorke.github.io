@@ -29860,3 +29860,16 @@ https://ocw.tudelft.nl/courses/introduction-to-functional-programming/subjects/i
 https://www.educative.io/courses/functional-programming-haskell
 https://www.scs.stanford.edu/14sp-cs240h/slides/functors-monads.html
 https://www.stackage.org/package/hashmap
+http://dx.doi.org/10.1145/1160074.1159823
+https://dl.acm.org/doi/10.1145/1291201.1291206
+https://hackage.haskell.org/package/errors-ext-0.4.1
+https://www.eurekamag.com/research/104/856/104856751.php
+https://www.stackage.org/lts-10.5/package/io-manager-0.1.0.2
+https://www.stackage.org/lts-19.28/package/monad-par-0.3.5
+https://www.stackage.org/lts-20.25/package/io-storage-0.3
+https://www.stackage.org/lts-5.18/package/monad-stm-0.1.0.2
+https://www.stackage.org/nightly-2026-07-08/package/errors-ext-0.4.2
+https://www.stackage.org/nightly-2026-07-08/package/io-streams-1.5.2.2
+https://www.stackage.org/nightly-2026-07-08/package/monad-interleave-0.2.0.1
+https://www.stackage.org/nightly-2026-07-08/package/monad-unlift-0.2.0
+https://www.stackage.org/nightly-2026-07-08/package/monad-unlift-ref-0.2.1
