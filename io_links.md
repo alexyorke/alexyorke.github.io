@@ -30545,3 +30545,9 @@ https://researchr.org/publication/Moggi91
 https://arxiv.org/abs/1406.4823
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fefbd1c8-7808-4c0b-a414-a2a188e3049a.xhtml
 https://cs.tufts.edu/~nr/cs252r/ss.html
+https://lotz84.github.io/haskell/free-monad.html
+https://research-information.bris.ac.uk/en/studentTheses/effects-and-effect-handlers-for-probabilistic-programming/
+https://pblevy.github.io/msfp2014/freeapplic.pdf
+https://people.cs.kuleuven.be/~tom.schrijvers/portfolio/haskell2014.html
+https://research-information.bris.ac.uk/en/publications/effect-handlers-in-scope/
+https://hackage.haskell.org/package/effect-handlers-0.1.0.0
