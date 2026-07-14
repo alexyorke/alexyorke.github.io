@@ -30440,3 +30440,9 @@ https://arxiv.org/abs/2312.06103
 https://www.cs.uwyo.edu/~jlc/papers/extracting-bind-final.pdf
 https://hackage-content.haskell.org/package/exceptions-0.10.12/docs/Control-Monad-Catch-Pure.html
 https://hackage.haskell.org/package/base-4.21.0.0/changelog
+https://se.informatik.uni-tuebingen.de/publications/brachthaeuser17effekt/
+https://leanpub.com/effect-oriented-programming
+https://ds12.github.io/scala-class/slides/lecture2.html
+https://www.manning.com/books/f-sharp-in-action
+https://mirror.ourhost.az/parrot/misc/openbooks/programming/FSharpProgramming.pdf
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Petricek%20T.%2C%20Skeet%20J.%20Functional%20Programming%20for%20the%20Real%20World..%20With%20Examples%20in%20F%23%20and%20C%23%20%28Manning%20Publications%2C%202009%29%28ISBN%209781933988924%29%28O%29%28495s%29_CsPl_.pdf
