@@ -30489,3 +30489,9 @@ https://sir4ur0n.github.io/posts/polysemy-tests.html
 https://www.iog.io/api/research/pdf/5P4V3WEG
 https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Algebra.html
 https://ghc-proposals.readthedocs.io/en/latest/proposals/0313-delimited-continuation-primops.html
+https://lmcs.episciences.org/10045
+https://arxiv.org/abs/1712.08310
+https://icfp21.sigplan.org/details/icfp-2021-papers/1/Client-Server-Sessions-in-Linear-Logic
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022/LIPIcs.ECOOP.2022.pdf
+https://arxiv.org/abs/1603.03727
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-IO-Handle.html
