@@ -30876,3 +30876,15 @@ https://www.nuget.org/packages/ReactiveFileSystemWatcher
 https://www.idt.mdh.se/kurser/DVA229/slides/reactive-4up.pdf
 https://ifl2014.github.io/submissions/ifl2014_submission_4.pdf
 https://simonjf.com/drafts/reactive-abstractions.pdf
+https://hackage.haskell.org/package/jack-0.7.2.1/docs
+https://www.cambridge.org/core/books/abs/haskell-school-of-music/higherorder-types-and-monads/D77C48D01FCD99F307CF94FDF3126A6E
+https://hal2016.haskell.org/slides/HAL2016-thielemann.pdf
+https://www.researchgate.net/publication/45914316_Compiling_Signal_Processing_Code_embedded_in_Haskell_via_LLVM
+https://www.researchgate.net/publication/228791306_Audio_Processing_and_Sound_Synthesis_in_Haskell
+https://ocaml.org/p/streaming/0.8.0/doc/Streaming/Stream/index.html
+https://opam.ocaml.org/packages/fstreams/
+https://ocaml-multicore.github.io/eio/eio/Eio/Stream/index.html
+https://ocaml.org/p/streaming/0.8.0/doc/index.html
+https://ocaml-lib.sourceforge.net/doc/IO.html
+https://reactiveml.github.io/reactive_asco/resources/farm13.pdf
+https://strymonas.github.io/docs/ocaml-22.pdf
