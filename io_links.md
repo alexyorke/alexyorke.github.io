@@ -30267,3 +30267,4 @@ https://probabilistic-effects.github.io/papers/fusion-for-free/
 https://cardanofeed.com/learn/haskell-course
 https://zenn.dev/hand_accident/articles/7c681979acf9dc
 https://cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
+https://hackage.haskell.org/package/read-io
