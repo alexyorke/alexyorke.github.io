@@ -29757,3 +29757,13 @@ https://www.stackage.org/nightly-2022-12-17/package/io-manager-0.1.0.3
 https://homes.cs.washington.edu/~djg/theses/ColinGordon_dissertation.pdf
 https://link.springer.com/content/pdf/10.1007/3-540-44854-3.pdf
 https://repository.ubn.ru.nl/bitstream/handle/2066/26969/26969_genefupr.pdf?sequence=1
+https://www.reddit.com/r/haskellquestions/comments/dutr9n
+https://www.twistedsquare.com/thesis.pdf
+https://citeseerx.ist.psu.edu/document?doi=311002630bc97e9037d31a859564bd2c6b817876&repid=rep1&type=pdf
+https://dblp.dagstuhl.de/rec/phd/ethos/Brown11.html
+https://www.cs.kent.ac.uk/projects/ofa/chp/
+https://comp2221.github.io/fp-website/slides/
+https://downloads.haskell.org/ghc/6.0/docs/html/base/GHC.IOBase.html
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base/src/GHC-IO.html
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-9.10.2-96d4/GHC-Driver-Monad.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html
