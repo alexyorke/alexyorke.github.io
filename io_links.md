@@ -29269,3 +29269,5 @@ https://hackage.haskell.org/package/basic-prelude/docs/CorePrelude.html
 https://hackage.haskell.org/package/hashtables
 https://hackage.haskell.org/packages/candidates
 https://en.wikipedia.org/wiki/Haskell_features_%28programming_language%29
+https://cs.ioc.ee/~tarmo/oplss21/
+https://www.cs.ubc.ca/~poole/cs312/2023/slides/lect15s.pdf
