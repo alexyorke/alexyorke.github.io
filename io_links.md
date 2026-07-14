@@ -30021,3 +30021,8 @@ https://hackage.haskell.org/package/pure-io/docs/PureIO.html
 https://www.stackage.org/nightly-2020-08-26/package/io-manager-0.1.0.2
 https://www.standaardboekhandel.be/p/functional-programming-and-inputoutput-9780521070072
 https://www.reddit.com/r/haskell/comments/187m9qu/nicolas_wu_-_the_evolution_of_effects_haskell_23/
+https://hackage.haskell.org/package/io-streams-1.5.2.2
+https://www.reddit.com/r/haskell/comments/1dqmvt0/welltyped_part_5_io_and_explicit_effects/
+https://www.reddit.com/r/haskell/comments/1dvvkms/drifting_on_the_seas_of_io/
+https://www.stackage.org/lts-22.10/package/io-streams-1.5.2.2
+https://www.stackage.org/nightly-2019-12-22/package/io-streams-1.5.1.0
