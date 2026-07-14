@@ -29631,3 +29631,9 @@ https://packages.debian.org/stable/doc/libghc-io-storage-doc
 https://www.cse.iitk.ac.in/users/satyadev/au24/outline_lec_10.pdf
 https://www.youtube.com/watch?v=E1hWlg-Ms9I
 https://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/index.html
+https://downloads.haskell.org/~ghc/6.2/docs/html/hslibs/book-hslibs.html
+https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/src/Control-Monad-IOSim.html
+https://downloads.haskell.org/~ghc/6.4.2/docs/users_guide.pdf
+https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/using.html
+https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5/ch05
