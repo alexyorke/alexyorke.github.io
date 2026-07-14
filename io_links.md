@@ -29310,3 +29310,4 @@ https://hackage.haskell.org/packages/browse
 https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs
 https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/src/GHC.Internal.IO.html
 https://accu.org/journals/overload/21/114/deigh_1869/
+https://www.cs.tufts.edu/~nr/cs257/archive/jeremy-gibbons/unifying-theories-with-monads.pdf
