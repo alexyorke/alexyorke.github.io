@@ -29376,3 +29376,12 @@ https://www.youtube.com/watch?v=lC5UWG5N8oY
 https://www.youtube.com/watch?v=UBgam9XUHs0
 https://www.youtube.com/watch?v=xcB_LF3cdqw
 https://iris.unito.it/bitstream/2318/1739403/1/main.pdf
+https://flora.pm/packages/%40hackage/io-classes/1.5.0.0/changelog
+https://sources.debian.org/patches/haskell-monad-control/
+https://www.reddit.com/r/programming/comments/64r4q/tackling_the_awkward_squad_the_classic_haskell_io/
+https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling-the-awkward-squad/
+https://www.reddit.com/r/haskell/comments/10xln5x/yet_another_monad_video/
+https://www.reddit.com/r/haskell/comments/15a0z4k/the-haskell-unfolder-episode-8-laws/
+https://www.reddit.com/r/haskell/comments/1dvvkms/well-typed-part-6-monads-of-the-free-video-based-haskell-introduction-course/
+https://www.reddit.com/r/haskell/comments/1g52lzx/the-haskell-unfolder-episode-34-you-already-understand-monads/
+https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling-the-awkward-squad-monadic-inputoutput-concurrency-exceptions-and-foreign-language-calls-in-haskell/
