@@ -29671,3 +29671,9 @@ https://arxiv.org/abs/1608.03814
 https://arxiv.org/abs/1701.08152
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad/
 https://simon.peytonjones.org/taste-of-haskell/
+https://www.stackage.org/package/io-classes
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST-Safe.html
+https://dblp.org/rec/conf/fp/JonesT93
+https://dokumen.pub/download/functional-programming-glasgow-1995-proceedings-of-the-1995-glasgow-workshop-on-functional-programming-ullapool-scotland-6-8-july-1995-1nbsped-354014580x-9783540145806.html
+https://www.microsoft.com/en-us/research/publication/functional-programming-input-output/?lang=ko-kr
+https://stackoverflow.com/questions/24254805/different-return-types-of-print-and-withfile
