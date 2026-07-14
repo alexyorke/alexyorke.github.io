@@ -30583,3 +30583,10 @@ https://hackage-content.haskell.org/package/mmorph-1.2.2/docs/Control-Monad-Morp
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc/src/ForeignCall.html
 https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/DsForeign.html
 https://www.packtpub.com/en-In/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/7-concurrency-and-performance-ch07lvl1sec44
+https://people.kth.se/~buiras/publications/icfp2015.pdf
+https://publications.lib.chalmers.se/records/fulltext/249247/249247.pdf
+https://research.chalmers.se/publication/525640
+https://research.chalmers.se/en/publication/249247
+https://webspace.science.uu.nl/~4110161/
+https://research.chalmers.se/publication/508494/file/508494_Fulltext.pdf
+https://escholarship.org/uc/item/4hs1t9nc
