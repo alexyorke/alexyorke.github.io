@@ -29225,3 +29225,7 @@ https://hackage.haskell.org/package/wai-control-0.1.0.2
 https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/6552
 https://en.wikibooks.org/wiki/Haskell
 https://mail-archive.com/arch-commits%40archlinux.org/msg820840.html
+https://ci.nii.ac.jp/ncid/BA57122249
+https://verify.rwth-aachen.de/fp05/
+https://hackage.haskell.org/package/Foundation-0.0.3/docs/Foundation-Monad.html
+https://www.cs.tufts.edu/~kfisher/teaching/IOMonad.pdf
