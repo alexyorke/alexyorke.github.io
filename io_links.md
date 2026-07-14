@@ -29786,3 +29786,12 @@ https://en.wikipedia.org/wiki/Hugs_%28interpreter%29
 https://dspace.library.uu.nl/bitstream/handle/1874/362670/Hlogo.pdf?isAllowed=true&sequence=1
 https://www.haskell.org/onlinereport/haskellch7.html
 https://www.stackage.org/package/monad-effect
+https://hackage.haskell.org/package/ports-0.4.3.1
+https://hackage.haskell.org/package/ports/docs
+https://hackage.haskell.org/package/transformers-0.3.0.0/docs/Control-Monad-Trans-Class.html
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/monadic-io.pdf
+https://www2.ki.informatik.uni-frankfurt.de/bachelor/abgeschlossen/2013_castrovillari.pdf
+https://hackage-content.haskell.org/package/hxt-8.2.0/src/doc/hvalidator/thesis/index.html
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System-IO.html
+https://cse.sc.edu/~mgv/csce330f17/haskell/haskell2010.pdf
+https://www.reddit.com/r/haskell/comments/16ophex/can_you_handle_side_effects_in_haskell_without/
