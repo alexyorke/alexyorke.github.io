@@ -29274,3 +29274,10 @@ https://www.cs.ubc.ca/~poole/cs312/2023/slides/lect15s.pdf
 https://ajla-lang.cz/tutorial.html
 https://theses.gla.ac.uk/id/eprint/2353
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/functional-io.pdf
+https://simon.peytonjones.org/slpj-book-1987/
+https://simon.peytonjones.org/assets/pdfs/slpj-book-1987-searchable.pdf
+https://mailman.haskell.org/archives/list/beginners%40haskell.org/message/RLB2VOR2NKUD4PAHLOA57BYZHUVTYRWF/
+https://hoogle.haskell.org/?q=IO+String+-%3E+String&start=75
+https://www.stackage.org/package/easy-logger
+https://www.stackage.org/lts-24.42/hoogle?page=6&q=liftIO
+https://www.stackage.org/lts-6.1/package/io-storage-0.3
