@@ -30244,3 +30244,6 @@ https://cstml.github.io/2021/07/22/State-Monad.html
 https://haskell.haskell.narkive.com/eFLi4BaQ/st-stref-vs-io-ioref
 https://downloads.haskell.org/ghc/9.10.2.20250807/docs/libraries/transformers-0.6.1.1-5a8c/Control-Monad-Trans-Reader.html
 https://matija.me/2020/11/05/haskell-monad-transformers-intro/
+https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Reader.html
+https://hackage-content.haskell.org/package/bluefin-internal-0.3.1.0/docs/src/Bluefin.Internal.Examples.html
+https://hackage.haskell.org/package/bluefin-0.2.5.0/docs
