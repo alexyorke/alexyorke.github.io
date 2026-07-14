@@ -30165,3 +30165,6 @@ https://www.stackage.org/nightly-2016-02-19/package/effect-handlers-0.1.0.7
 https://www.stackage.org/nightly-2025-08-03/package/bluefin-0.0.16.0
 https://www.stackage.org/nightly-2026-01-17/package/bluefin-0.2.6.0
 https://www.stackage.org/nightly-2026-05-06/package/bluefin-0.5.100.0
+https://www.stackage.org/lts-10.2/package/freer-simple-1.0.0.0
+https://www.stackage.org/lts-18.24/package/polysemy-1.5.0.0
+https://www.stackage.org/lts-23.13/package/freer-simple-1.2.1.2
