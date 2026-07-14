@@ -30639,3 +30639,10 @@ https://hackage.haskell.org/package/stream-fusion
 https://www.cs.ox.ac.uk/files/4455/paper.pdf
 https://ora.ox.ac.uk/objects/uuid%3Ab4971f57-2b94-4fdf-a5c0-98d6935a44da/files/md50e6a8b2027ac4f99994936c2a32c3b
 https://hackage.haskell.org/package/fusion
+https://hackage.haskell.org/package/typed-process-0.2.13.0/docs
+https://pdxscholar.library.pdx.edu/compsci_fac/394/
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/not-by-equations-alone-reasoning-with-extensible-effects/8E5B14BA0105D056F0ED48564E79BEBC
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf=
+https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs
+https://downloads.haskell.org/ghc/6.4/docs/hslibs.pdf
+https://www.cs.du.edu/~chrisg/classes/comp3621/slides/socket-tutorial.pdf
