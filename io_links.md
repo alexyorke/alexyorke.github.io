@@ -30366,3 +30366,4 @@ https://isa-afp.org/entries/Transformer_Semantics.html
 https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-State-Lazy.html
 https://haskellforall.com/2013/01/introduction-to-haskell-io.html
 https://www.cs.unm.edu/~jhaugh/tutorials/01-haskell-reference-sheet.html
+https://foundation.haskell.org/package/foundation-0.0.3/docs/Foundation-Monad.html
