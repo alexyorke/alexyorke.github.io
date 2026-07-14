@@ -30511,3 +30511,11 @@ https://hackage.haskell.org/package/streaming-0.2.3.1/docs/Streaming.html
 https://well-typed.com/blog/2021/08/capi-usage/
 https://downloads.haskell.org/~ghc/7.10.3-rc1/users_guide/ffi.html
 https://frasertweedale.github.io/blog-fp/posts/2022-09-23-ffi-safety-and-gc.html
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Base.html
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/libraries/base-4.18.3.0/GHC-IORef.html
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO.html
+https://hackage.haskell.org/package/strict-io-0.2.2/docs
+https://hackage.haskell.org/package/ioref-stable/docs
+https://hackage-content.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html
+https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Network.html
+https://hackage-content-origin.haskell.org/package/network-2.6.3.3
