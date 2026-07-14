@@ -30360,3 +30360,7 @@ https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Mo
 https://idus.us.es/server/api/core/bitstreams/945bca35-2d81-40a2-8526-20fbd88a6236/content
 https://hackage.haskell.org/package/mtl-tf/docs/Control-Monad-Reader.html
 https://upload.wikimedia.org/wikiversity/en/1/1d/Monad.11.A.Reader.20180821.pdf
+https://is.muni.cz/el/fi/podzim2014/IA014/um/07-transformers.pdf
+https://haskellforall.com/2013/06/the-resource-applicative.html
+https://isa-afp.org/entries/Transformer_Semantics.html
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-State-Lazy.html
