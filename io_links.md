@@ -30552,3 +30552,14 @@ https://people.cs.kuleuven.be/~tom.schrijvers/portfolio/haskell2014.html
 https://research-information.bris.ac.uk/en/publications/effect-handlers-in-scope/
 https://hackage.haskell.org/package/effect-handlers-0.1.0.0
 https://hackage-content-origin.haskell.org/package/conduit-0.5.4.1
+https://www.cs.ox.ac.uk/projects/utgp/school/idris-tutorial.pdf
+https://mmhaskell.com/blog/2018/10/22/purescript-ii-typeclasses-and-monads
+https://opam.ocaml.org/packages/ocaml-monadic/
+https://books.underscore.io/scala-with-cats/scala-with-cats.html
+https://www.cl.cam.ac.uk/teaching/1516/L28/monads-etc.pdf
+https://fsharp.org/archive/videos/14
+https://www.oreilly.com/videos/learning-functional-programming/9781788477840/9781788477840-video5_4/
+https://www.classcentral.com/course/youtube-learn-f-59595
+https://learn.microsoft.com/en-us/shows/dotnetconf-focus-on-fsharp/starting-your-fsharp-journey
+https://anil.recoil.org/papers/2021-pldi-retroeff.pdf
+https://ocaml.org/manual/5.2/effects.html
