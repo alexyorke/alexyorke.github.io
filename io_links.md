@@ -29677,3 +29677,15 @@ https://dblp.org/rec/conf/fp/JonesT93
 https://dokumen.pub/download/functional-programming-glasgow-1995-proceedings-of-the-1995-glasgow-workshop-on-functional-programming-ullapool-scotland-6-8-july-1995-1nbsped-354014580x-9783540145806.html
 https://www.microsoft.com/en-us/research/publication/functional-programming-input-output/?lang=ko-kr
 https://stackoverflow.com/questions/24254805/different-return-types-of-print-and-withfile
+https://hackage.haskell.org/package/monad-stm-0.1.0.2/docs
+https://hackage.haskell.org/package/stm/docs/doc-index.html
+https://hackage.haskell.org/package/MonadRandom-0.1.3/docs/Control-Monad-Random.html
+https://hackage.haskell.org/package/base-4.0.0.0
+https://hackage.haskell.org/package/base-4.0.0.0/docs/System-Environment.html
+https://hackage.haskell.org/package/monadology/docs
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base/System-IO-Unsafe.html
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/ghc-7.0.4/CoreMonad.html
+https://downloads.haskell.org/~ghc/6.4/docs/users_guide.pdf
+https://citeseerx.ist.psu.edu/document?doi=1de67f7991ae9c97e08a1acf2bc354b64f932433&repid=rep1&type=pdf
+https://discourse.haskell.org/t/looking-back-on-that-denotative-future/6904
+https://videos.insa-lyon.fr/video/0070-monades-et-entrees-sorties/?is_iframe=true
