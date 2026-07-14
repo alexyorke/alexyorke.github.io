@@ -30352,3 +30352,11 @@ https://flora.pm/packages/%40hackage/io-sim
 https://flora.pm/packages/%40hackage/io-classes
 https://hackage-content.haskell.org/package/bluefin-algae-0.1.0.2/docs/Bluefin-Algae.html
 https://courses.washington.edu/courses/csep505/16au/lec8_6up.pdf
+https://www.haskell.org/book/monad-transformers.html
+https://streamly.composewell.com/streamly-0.11.0/Explanatory/monad-transformers.html
+https://next.fpcomplete.com/haskell/tutorial/monad-transformers/
+https://lexi-lambda.github.io/blog/2017/04/28/lifts-for-free-making-mtl-typeclasses-derivable/
+https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Class.html
+https://idus.us.es/server/api/core/bitstreams/945bca35-2d81-40a2-8526-20fbd88a6236/content
+https://hackage.haskell.org/package/mtl-tf/docs/Control-Monad-Reader.html
+https://upload.wikimedia.org/wikiversity/en/1/1d/Monad.11.A.Reader.20180821.pdf
