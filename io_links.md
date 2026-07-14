@@ -30012,3 +30012,12 @@ https://www.stackage.org/nightly-2026-07-08/package/io-storage-0.3
 https://www.stackage.org/lts-23.24/package/monad-parallel-0.8
 https://www.stackage.org/lts-22.35/package/wai-control-0.2.0.0
 https://www.stackage.org/nightly-2026-06-28/package/wai-control-0.2.0.1
+https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-IO.html
+https://hackage.haskell.org/package/jail/docs/System-IO-Jail.html
+https://hackage.haskell.org/package/monad-exception/docs/Control-Monad-Exception-Class.html
+https://hackage.haskell.org/package/pipes-io/docs/Pipes-IOStream.html
+https://hackage.haskell.org/package/ports/docs/Control-Concurrent-Ports.html
+https://hackage.haskell.org/package/pure-io/docs/PureIO.html
+https://www.stackage.org/nightly-2020-08-26/package/io-manager-0.1.0.2
+https://www.standaardboekhandel.be/p/functional-programming-and-inputoutput-9780521070072
+https://www.reddit.com/r/haskell/comments/187m9qu/nicolas_wu_-_the_evolution_of_effects_haskell_23/
