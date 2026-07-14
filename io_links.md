@@ -30459,3 +30459,10 @@ https://studylib.net/doc/27608253/functional-programing-in-kotlin
 https://xnning.github.io/papers/effect-handlers-evidently.pdf
 https://xnning.github.io/papers/multip.pdf
 https://arxiv.org/abs/1905.02033
+https://www.researchgate.net/publication/2241145_Towards_a_Denotational_Semantics_for_Concurrent_State_Transformers
+https://citeseerx.ist.psu.edu/document?doi=27b51ea77b79d4c8775c242b0f0562aa95c658fa&repid=rep1&type=pdf
+https://software.imdea.org/~aleks/papers/hoarelogic/tldi09.pdf
+https://repositum.tuwien.at/handle/20.500.12708/57360
+https://www.cs.ox.ac.uk/publications/publication6818-abstract.html
+https://arxiv.org/abs/1402.1051
+https://arxiv.org/abs/1411.7140
