@@ -30466,3 +30466,10 @@ https://repositum.tuwien.at/handle/20.500.12708/57360
 https://www.cs.ox.ac.uk/publications/publication6818-abstract.html
 https://arxiv.org/abs/1402.1051
 https://arxiv.org/abs/1411.7140
+https://munihac.de/2020.html
+https://discourse.haskell.org/t/haskell-video-archive-call-for-volunteers/8863
+https://haskell.foundation/events/2024-haskell-ecosystem-workshop.html
+https://www.haskell.org/haskell-symposium/2014/accepted.html
+https://icfp23.sigplan.org/details/haskellsymp-2023/4/Effect-Handlers-for-Programmable-Inference
+https://discourse.haskell.org/t/haskell-implementors-workshop-2023-individual-talk-videos-on-youtube/8221
+https://haskell.foundation/events/2025-haskell-implementors-workshop.html
