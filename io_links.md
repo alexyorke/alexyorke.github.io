@@ -30408,3 +30408,7 @@ https://www.haskell.org/definition/ffi/sec-entry.html
 https://pepeiborra.github.io/control-monad-exception/
 https://www.sistedes.es/files/actas-prole-2009.pdf
 https://www.stackage.org/lts-7.19/package/explicit-exception-0.1.8
+https://ianen.org/haskell/enumerator/enumerator.pdf
+https://hackage.haskell.org/package/streamly-0.8.1
+https://streamly.composewell.com/haddocks/streamly-0.11.0/Streamly-Data-Stream-MkType.html
+https://www.stackage.org/lts-14.16/package/streamly-0.6.1
