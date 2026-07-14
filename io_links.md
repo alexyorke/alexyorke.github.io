@@ -30932,3 +30932,14 @@ https://www.cs.cornell.edu/courses/cs3110/2011sp/Handouts/Hickey.pdf
 https://ocaml.github.io/ocamlunix/ocamlunix.pdf
 https://ocaml.org/manual/4.00/ocaml-4.00-refman.pdf
 https://www.researchgate.net/publication/2245424_Lambda_in_Motion_Controlling_Robots_With_Haskell
+https://hackage.haskell.org/package/exceptions-0.10.7/docs/Control-Monad-Catch.html
+https://hackage-content.haskell.org/package/exceptions-0.10.10/docs/src/Control.Monad.Catch.html
+https://ocaml.org/p/lwt/5.4.1/doc/lwt/Lwt/index.html
+https://ocaml.org/p/lwt-exit/1.0/doc/lwt-exit/Lwt_exit/index.html
+https://ocsigen.org/lwt/5.4.2/api/Lwt
+https://ocaml.org/u/dd4fdb0c026377497e91e41115e3044c/lwt/6.0.0~alpha00/manual.html
+https://discuss.ocaml.org/t/ann-lwt-canceler-0-3/7092
+https://arxiv.org/abs/1611.00692
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Exception-Base.html
+https://hackage.haskell.org/package/general-allocate-0.2.3.0
