@@ -30195,3 +30195,7 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616AC
 https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3
 https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1
 https://www.stackage.org/nightly-2025-02-20/package/monad-control-1.0.3.1
+https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157?pageNum=1
+https://www.cambridge.org/core/journals/journal-of-functional-programming/most-cited
+https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/0FA3A396DEF84CFADE3FDA0B26D4CEE3
+https://www.stackage.org/lts-17.0/package/io-machine-0.2.0.0
