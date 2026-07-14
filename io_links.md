@@ -29785,3 +29785,4 @@ https://www.haskell.org/hugs/pages/users_guide/ffihugs.html
 https://en.wikipedia.org/wiki/Hugs_%28interpreter%29
 https://dspace.library.uu.nl/bitstream/handle/1874/362670/Hlogo.pdf?isAllowed=true&sequence=1
 https://www.haskell.org/onlinereport/haskellch7.html
+https://www.stackage.org/package/monad-effect
