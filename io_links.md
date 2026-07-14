@@ -30502,3 +30502,9 @@ https://www.cs.princeton.edu/courses/archive/fall15/cos326/lec/05b-error-process
 https://web.stanford.edu/class/cs242/materials/lectures/lecture09.pdf
 https://downloads.haskell.org/ghc/9.10.0.20240413/docs/libraries/base-4.20.0.0-0f99/Control-Exception.html
 https://www.tweag.io/blog/2018-10-04-capability/
+https://begriffs.com/posts/2016-07-27-tikhon-on-frp.html
+https://researchr.org/publication/PerezBN16
+https://citeseerx.ist.psu.edu/document?doi=7b59a561216fcbb2b9194db7ecaa44fb6a651860&repid=rep1&type=pdf
+https://arxiv.org/abs/2202.02061
+https://www.schoolofhaskell.com/user/fumieval/drinkery-the-boozy-streaming-library
+https://hackage.haskell.org/package/streaming-0.2.3.1/docs/Streaming.html
