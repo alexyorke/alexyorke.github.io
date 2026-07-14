@@ -29795,3 +29795,4 @@ https://hackage-content.haskell.org/package/hxt-8.2.0/src/doc/hvalidator/thesis/
 https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System-IO.html
 https://cse.sc.edu/~mgv/csce330f17/haskell/haskell2010.pdf
 https://www.reddit.com/r/haskell/comments/16ophex/can_you_handle_side_effects_in_haskell_without/
+https://www.cs.cmu.edu/~popl-interviews/peytonjones.html
