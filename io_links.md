@@ -29457,3 +29457,7 @@ https://hackage-content-origin.haskell.org/package/base-4.19.1.0
 https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/Control-Arrow-IOListArrow.html
 https://hackage-content-origin.haskell.org/packages/tag/database
 https://downloads.haskell.org/ghc/7.4-latest/docs/html/libraries/base-4.5.1.0/src/Debug-Trace.html
+https://research-information.bris.ac.uk/en/publications/string-diagrams-for-free-monads-functional-pearl
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Central_European_Functional_Programming_School%2C%202%20school%2C%20CEFP%202007%28LNCS5161%2C%20Springer%2C%202008%29%28ISBN%209783540880585%29%28308s%29.pdf
+https://gitlab.haskell.org/ghc/ghc/-/issues/10462
+https://en.wikipedia.org/wiki/Monad_%28category_theory%29
