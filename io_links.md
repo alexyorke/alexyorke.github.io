@@ -30496,3 +30496,9 @@ https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.
 https://arxiv.org/abs/1603.03727
 https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-IO-Handle.html
 https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/exceptions-0.10.4/Control-Monad-Catch.html
+https://hackage.haskell.org/package/streaming-utils/docs/Streaming-Network-TCP.html
+https://cgi.cse.unsw.edu.au/~cs3141/15s1/lectures/effects-05.pdf
+https://www.cs.princeton.edu/courses/archive/fall15/cos326/lec/05b-error-processing.pdf
+https://web.stanford.edu/class/cs242/materials/lectures/lecture09.pdf
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/libraries/base-4.20.0.0-0f99/Control-Exception.html
+https://www.tweag.io/blog/2018-10-04-capability/
