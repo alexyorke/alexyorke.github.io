@@ -30156,3 +30156,12 @@ https://www.stackage.org/nightly-2025-07-25/package/heftia-effects-0.7.0.0
 https://www.stackage.org/nightly-2025-08-01/package/heftia-0.7.0.0
 https://www.stackage.org/nightly-2026-01-21/package/heftia-0.7.0.0
 https://www.stackage.org/nightly-2026-02-20/package/heftia-effects
+https://softwarepatternslexicon.com/haskell/principles-of-functional-programming-in-haskell/the-io-monad-and-managing-side-effects/
+https://www.stackage.org/lts-24.43/package/bluefin-0.0.17.1
+https://www.stackage.org/lts-8.15/package/effect-handlers-0.1.0.8
+https://www.stackage.org/lts-8.15/package/freer-effects-0.3.0.1
+https://www.stackage.org/lts-8.24/package/freer-effects-0.3.0.1
+https://www.stackage.org/nightly-2016-02-19/package/effect-handlers-0.1.0.7
+https://www.stackage.org/nightly-2025-08-03/package/bluefin-0.0.16.0
+https://www.stackage.org/nightly-2026-01-17/package/bluefin-0.2.6.0
+https://www.stackage.org/nightly-2026-05-06/package/bluefin-0.5.100.0
