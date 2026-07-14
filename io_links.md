@@ -30120,3 +30120,11 @@ https://www.stackage.org/nightly-2016-02-19/package/monad-coroutine-0.9.0.2
 https://www.stackage.org/nightly-2016-04-10/package/monad-coroutine-0.9.0.2
 https://www.stackage.org/nightly-2019-07-31/package/monad-coroutine-0.9.0.4
 https://www.stackage.org/nightly-2026-01-14/package/effectful-2.6.1.0
+https://doi.acm.org/10.1145/158511.158524
+https://doi.org/10.1145/234528.234736
+https://www.citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf
+https://www.stackage.org/lts-22.35/package/monad-parallel-0.8
+https://www.stackage.org/nightly-2018-02-27/package/transformers-0.5.2.0
+https://www.stackage.org/nightly-2021-03-19/package/io-manager-0.1.0.3
+https://www.stackage.org/nightly-2026-03-20/package/monad-parallel-0.8.0.1
+https://www.stackage.org/package/monad-log
