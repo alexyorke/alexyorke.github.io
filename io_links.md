@@ -29578,3 +29578,4 @@ https://packages.debian.org/bookworm/libghc-iospec-prof
 https://www.classcentral.com/course/youtube-getting-started-with-fp-io-333658
 https://www.classcentral.com/course/youtube-philly-ete-2017-44-free-as-in-monads-daniel-spiewak-133074
 https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=94694136
+https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/b16225016d84197e9725b6fed9948f77859dd1aa/haskell
