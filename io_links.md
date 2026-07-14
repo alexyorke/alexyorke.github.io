@@ -31167,3 +31167,16 @@ https://www.pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf
 https://www.research.ed.ac.uk/files/24354309/haskell15_2.pdf
 https://hackage-content.haskell.org/package/MonadRandom-0.6.2.1/docs/Control-Monad-Random-Class.html
 https://hackage-content.haskell.org/package/MonadRandom-0.6.2.1/docs/Control-Monad-Trans-Random-Strict.html
+https://hackage.haskell.org/package/git
+https://hackage.haskell.org/package/acid-state
+https://hackage.haskell.org/package/acid-state-0.10.1
+https://hackage.haskell.org/package/acid-state-0.7.7
+https://hackage.haskell.org/package/acid-state-dist
+https://hackage.haskell.org/package/acid-state/docs
+https://hackage.haskell.org/package/acid-state-0.16.1.4/docs/
+https://docs.haskellstack.org/en/latest/topics/package_location/
+https://arxiv.org/abs/1407.3561
+https://arxiv.org/abs/2004.07585
+https://sources.debian.org/src/git-annex/8.20210223-2/doc/design/iabackup.mdwn
+https://www.stackage.org/package/git-annex
+https://docs.haskellstack.org/en/v3.3.1/topics/package_location/
