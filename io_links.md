@@ -30632,3 +30632,10 @@ https://iti.san.edu.pl/jacsm/JACSM_Vol_08_No_1.pdf
 https://www3.ub.tu-berlin.de/ihv/000141622.pdf
 https://www.mpg.is/thesis.html
 https://kar.kent.ac.uk/21455/
+https://hackage.haskell.org/package/fusion/docs/Fusion.html
+https://shonan.nii.ac.jp/archives/seminar/136/wp-content/uploads/sites/172/2018/09/a-brief-history-of-streams.pdf
+https://arxiv.org/abs/1612.06668
+https://hackage.haskell.org/package/stream-fusion
+https://www.cs.ox.ac.uk/files/4455/paper.pdf
+https://ora.ox.ac.uk/objects/uuid%3Ab4971f57-2b94-4fdf-a5c0-98d6935a44da/files/md50e6a8b2027ac4f99994936c2a32c3b
+https://hackage.haskell.org/package/fusion
