@@ -29655,3 +29655,12 @@ https://datakinds.github.io/2019/05/10/a-basis-for-sequential-execution-monads-a
 https://tromp.github.io/cl/LC.pdf
 https://www.mclibre.org/descargar/docs/revistas/linux-voice/linux-voice-22-en-201601.pdf
 https://es.wikipedia.org/wiki/M%C3%B3nada_%28programación_funcional%29
+https://downloads.haskell.org/~ghc/6.2.1/docs/html/libraries/base/GHC.IO.html
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/System-IO.html
+https://downloads.haskell.org/ghc/6.10.1/docs/html/libraries/base/System-IO-Error.html
+https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/GHC-IO.html
+https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/System-IO.html
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/System-IO.html
+https://www.youtube.com/watch?v=7icH5EBNpHg
+https://www.youtube.com/watch?v=sDqD_xwF-cY
+https://cse.sc.edu/~pfu/teaching/544/544schedule.html
