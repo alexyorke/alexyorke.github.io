@@ -30396,3 +30396,5 @@ https://www.pls-lab.org/en/Freer_monads
 https://hackage-content-origin.haskell.org/package/extensible-effects-1.2.1
 https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/cp1920f12.pdf
 https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0276&repid=rep1&type=pdf
+https://arxiv.org/abs/2208.04699
+https://www.cs.tufts.edu/comp/150PLD/hw01-1.html
