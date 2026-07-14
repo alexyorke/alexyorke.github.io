@@ -30597,3 +30597,5 @@ https://www.cs.cornell.edu/courses/cs6110/2017sp/lectures/lec32.pdf
 https://www.danielgratzer.com/courses/type-theory-s-2024/lecture-notes.pdf
 https://bobkonf.de/archive/haskell
 https://www.classcentral.com/subject/haskell
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/a8c02536-4441-40af-a9c1-24133b3814d2.xhtml
+https://discover.knoxcountylibrary.org/oreilly/on1032263978
