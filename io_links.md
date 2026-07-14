@@ -30590,3 +30590,8 @@ https://research.chalmers.se/en/publication/249247
 https://webspace.science.uu.nl/~4110161/
 https://research.chalmers.se/publication/508494/file/508494_Fulltext.pdf
 https://escholarship.org/uc/item/4hs1t9nc
+https://arxiv.org/abs/1009.2793
+https://repository.tudelft.nl/record/uuid%3A99a0e50b-c3a5-4a6b-8204-4815d96c68eb
+https://lean-forward.github.io/logical-verification/2019/exams/final_exam_sheet.pdf
+https://www.cs.cornell.edu/courses/cs6110/2017sp/lectures/lec32.pdf
+https://www.danielgratzer.com/courses/type-theory-s-2024/lecture-notes.pdf
