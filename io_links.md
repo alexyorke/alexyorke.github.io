@@ -30199,3 +30199,4 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/
 https://www.cambridge.org/core/journals/journal-of-functional-programming/most-cited
 https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/0FA3A396DEF84CFADE3FDA0B26D4CEE3
 https://www.stackage.org/lts-17.0/package/io-machine-0.2.0.0
+https://www.semanticscholar.org/paper/Monads-for-functional-programming-Wadler/56f12dee2e97958fb3bb0572b5899069dedc0a7d
