@@ -29385,3 +29385,12 @@ https://www.reddit.com/r/haskell/comments/15a0z4k/the-haskell-unfolder-episode-8
 https://www.reddit.com/r/haskell/comments/1dvvkms/well-typed-part-6-monads-of-the-free-video-based-haskell-introduction-course/
 https://www.reddit.com/r/haskell/comments/1g52lzx/the-haskell-unfolder-episode-34-you-already-understand-monads/
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling-the-awkward-squad-monadic-inputoutput-concurrency-exceptions-and-foreign-language-calls-in-haskell/
+https://lhbg-book.link
+https://slides.com/haskellbeginners2022/lecture-1
+https://slides.com/haskellbeginners2022/lecture-2
+https://slides.com/haskellbeginners2022/lecture-3
+https://www.manning.com/books/functional-design-and-architecture
+https://www.youtube.com/watch?list=PLOJjn67NeYg9cWA4hyIWcxfaeX64pwo1c&v=6MsQcUprO9o
+https://www.youtube.com/watch?v=6MsQcUprO9o
+https://www.youtube.com/watch?v=rf-lie7U04Q
+https://www.youtube.com/watch?v=Vs-vvlYLtRI
