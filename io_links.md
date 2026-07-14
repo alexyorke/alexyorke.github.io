@@ -30646,3 +30646,7 @@ https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf=
 https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs
 https://downloads.haskell.org/ghc/6.4/docs/hslibs.pdf
 https://www.cs.du.edu/~chrisg/classes/comp3621/slides/socket-tutorial.pdf
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/process-1.4.2.0/System-Process.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/process-1.6.26.1-e91f/System-Process.html
+https://ghcguide.haskell.jp/8.0.2/libraries/process-1.4.3.0/System-Process.html
+https://ghcguide.haskell.jp/8.4.3/libraries/process-1.6.3.0/System-Process.html
