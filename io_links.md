@@ -30722,3 +30722,17 @@ https://presentation-slides.gitlab.io/outputs/haskell-parsers/haskell-parsers/pd
 https://nottingham-repository.worktribe.com/output/1024100/monadic-parsing-in-haskell
 https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/parsing.html
 https://fileadmin.cs.lth.se/cs/Education/EDAN40/lectures/Parsing.pdf
+https://hackage.haskell.org/package/warp
+https://hackage.haskell.org/package/servant-util
+https://hackage-content.haskell.org/package/servant-server-0.20.3.0/docs/Servant-Server.html
+https://docs.servant.dev/_/downloads/en/v0.16/pdf/
+https://hackage.haskell.org/package/req
+https://icfp17.sigplan.org/details/haskellsymp-2017-papers/1/Composable-Network-Stacks-and-Remote-Monads
+https://www.baeldung.com/scala/http4s-intro
+https://http4s.org/
+https://livebook.manning.com/book/get-programming-with-scala/chapter-17
+https://play.google.com/store/books/details/Jens_Grassel_Pure_functional_HTTP_APIs_in_Scala?id=szopEAAAQBAJ
+https://http4s.org/v0.15/
+https://blog.shangjiaming.com/scala%20tutorial/http4s-introduction-2/
+https://www.scalabook.ru/books/pfhais.html
+https://http4s.org/v0.22/docs/dsl.html
