@@ -30438,3 +30438,5 @@ https://experts.mcmaster.ca/scholarly-works/2169982
 https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_article/-char/en
 https://arxiv.org/abs/2312.06103
 https://www.cs.uwyo.edu/~jlc/papers/extracting-bind-final.pdf
+https://hackage-content.haskell.org/package/exceptions-0.10.12/docs/Control-Monad-Catch-Pure.html
+https://hackage.haskell.org/package/base-4.21.0.0/changelog
