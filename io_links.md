@@ -30222,3 +30222,5 @@ https://www.fceia.unr.edu.ar/~mauro/publications/theses/200909_phd.html
 https://flora.pm/packages/%40hackage/unliftio/0.2.15/changelog
 https://hackage-content.haskell.org/package/io-effects-0.1.0/candidate/docs/IO-Effects.html
 https://dblp.org/rec/conf/haskell/KiselyovI15.html
+https://vstill.eu/papers/2020/hsExprTest.pdf
+https://bracevac.org/assets/pdf/DissertationBracevac05112019.pdf
