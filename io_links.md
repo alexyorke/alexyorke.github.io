@@ -29540,3 +29540,10 @@ https://wiki.archlinux.org/title/Haskell
 https://www.reddit.com/r/haskell/comments/1dazfsr/welltyped_announcing_free_video_based_haskell/
 https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_free_video_based_haskell/
 https://www.reddit.com/r/haskell/comments/1rsud8p/drifting-on-the-seas-of-io/
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/libraries/base/System-IO.html
+https://downloads.haskell.org/~ghc/latest/docs/
+https://hackage.haskell.org/package/io-sim/docs
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-System-IO.html
+https://www.stackage.org/package/base
+https://hackage.haskell.org/package/base-4.14.0.0
+https://www.stackage.org/package/io-sim
