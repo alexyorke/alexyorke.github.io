@@ -29617,3 +29617,17 @@ https://packages.debian.org/bullseye/all/doc/libghc-monad-journal-doc
 https://eprints.gla.ac.uk/145536/
 https://www.cs.utoronto.ca/~trebla/fp/lecture-11.pdf
 https://www.reddit.com/r/haskell/comments/hu5n9t/part_3_of_game_of_life_-_polyglot_fp_-_haskell_-_scala_-_unison/
+https://arxiv.org/abs/0809.1552
+https://hackage.haskell.org/package/classy-prelude-0.9.3/docs/ClassyPrelude.html
+https://packages.debian.org/bookworm/amd64/libghc-io-streams-dev
+https://packages.debian.org/source/sid/misc/haskell-file-io
+https://www.stackage.org/lts-6.1/package/io-machine-0.2.0.0
+https://packages.debian.org/sid/armel/doc/libghc-io-storage-doc
+https://www.stackage.org/lts-19.17
+https://www.stackage.org/lts-24.1
+https://packages.debian.org/fi/source/sid/haskell-io-storage
+https://packages.debian.org/libghc-io-storage-prof
+https://packages.debian.org/stable/doc/libghc-io-storage-doc
+https://www.cse.iitk.ac.in/users/satyadev/au24/outline_lec_10.pdf
+https://www.youtube.com/watch?v=E1hWlg-Ms9I
+https://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/
