@@ -30758,3 +30758,12 @@ https://www.cs.cmu.edu/~fp/papers/jfp22.pdf
 https://www.andrew.cmu.edu/user/kpruiksm/papers/jfp22.pdf
 https://www.cs.cmu.edu/~fp/public/papers/cll05.pdf
 https://kar.kent.ac.uk/84635/
+https://index.scala-lang.org/typelevel/cats-effect-testing
+https://index.scala-lang.org/akiomik/cats-nio-file
+https://david-romero.github.io/articles/2022-03/Test-Functional-Clock-Scala
+https://hackage-content.haskell.org/package/QuickCheck-2.16.0.0/docs/Test-QuickCheck.html
+https://hackage-content.haskell.org/package/hspec-core-2.11.16/docs/Test-Hspec-Core-Spec.html
+https://hspec.github.io/writing-specs.html
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/QuickCheck/index.html
+https://www.microsoft.com/en-us/research/publication/a-deterministic-multi-way-rendezvous-library-for-haskell/
+https://arxiv.org/abs/1711.03842
