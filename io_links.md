@@ -30379,3 +30379,6 @@ https://citeseerx.ist.psu.edu/document?doi=56b44cc407e22a0ab538bd05e6e560f77e47f
 https://arxiv.org/abs/2012.06530
 https://homepages.inf.ed.ac.uk/wadler/papers/
 https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf
+https://riptutorial.com/Download/haskell-language-it.pdf
+https://www.cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
+https://ai.ia.agh.edu.pl/pl%3Adydaktyka%3App%3Ahaskell:lab-io
