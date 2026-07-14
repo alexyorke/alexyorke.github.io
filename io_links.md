@@ -30566,3 +30566,4 @@ https://ocaml.org/manual/5.2/effects.html
 https://arxiv.org/abs/2211.13140
 https://www.cambridge.org/core/books/a-practical-introduction-to-denotational-semantics/80122D52B49F175D38E0478EA45D4EDD
 https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ
+https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/src/System.FS.Sim.MockFS.html
