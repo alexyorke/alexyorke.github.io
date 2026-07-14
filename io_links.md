@@ -29229,3 +29229,11 @@ https://ci.nii.ac.jp/ncid/BA57122249
 https://verify.rwth-aachen.de/fp05/
 https://hackage.haskell.org/package/Foundation-0.0.3/docs/Foundation-Monad.html
 https://www.cs.tufts.edu/~kfisher/teaching/IOMonad.pdf
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/atlassian.pdf
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/dsl-long.pdf
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/dsl-short.pdf
+https://stackoverflow.com/questions/1655067/haskell-io-testing
+https://www.haskell.org/tutorial/haskell-tutorial.html
+https://www.irif.fr/~mellies/mpri/mpri-ens/articles/fuhrmann-direct-models-of-computational-lambda-calculus.pdf
+https://uu.diva-portal.org/smash/get/diva2:1369286/FULLTEXT01.pdf
