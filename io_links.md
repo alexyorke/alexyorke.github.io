@@ -30392,3 +30392,5 @@ https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/changelog
 https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/
 https://www-users.york.ac.uk/~sf786/Thesis.pdf
+https://www.pls-lab.org/en/Freer_monads
+https://hackage-content-origin.haskell.org/package/extensible-effects-1.2.1
