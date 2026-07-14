@@ -30779,3 +30779,5 @@ https://www.baeldung.com/scala/zio-intro
 https://scalac.io/blog/getting-started-with-zio-http/
 https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index
 https://devsisters.github.io/shardcake/docs/
+https://people.kth.se/~buiras/lic.pdf
+https://www.researchgate.net/publication/221563004_A_Library_for_Light-Weight_Information-Flow_Security_in_Haskell
