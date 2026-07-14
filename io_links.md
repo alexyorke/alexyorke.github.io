@@ -30404,3 +30404,7 @@ https://dl.acm.org/doi/pdf/10.1145/2804302.2804319
 https://shmish111.github.io/2018/09/23/freer-than-free/
 https://tweag.io/blog/2018-02-05-free-monads/
 https://deepwiki.com/fused-effects/fused-effects/1-overview
+https://www.haskell.org/definition/ffi/sec-entry.html
+https://pepeiborra.github.io/control-monad-exception/
+https://www.sistedes.es/files/actas-prole-2009.pdf
+https://www.stackage.org/lts-7.19/package/explicit-exception-0.1.8
