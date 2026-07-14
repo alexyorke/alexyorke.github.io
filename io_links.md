@@ -30146,3 +30146,13 @@ https://www.stackage.org/nightly-2022-12-17/package/effectful-core-2.2.1.0
 https://www.stackage.org/nightly-2024-10-22/package/effectful-core-2.4.0.0
 https://www.stackage.org/nightly-2025-07-03/package/effectful-core-2.6.0.0
 https://www.stackage.org/nightly-2026-03-27/package/effectful-core-2.6.1.0
+https://www.stackage.org/lts/package/data-effects-0.3.0.1
+https://www.stackage.org/lts/package/heftia-effects-0.5.0.0
+https://www.stackage.org/lts-23.0/package/data-effects-0.3.0.1
+https://www.stackage.org/lts-23.13/package/heftia-effects-0.5.0.0
+https://www.stackage.org/lts-24.18/package/heftia-effects
+https://www.stackage.org/lts-24.39/package/data-effects-0.4.2.0
+https://www.stackage.org/nightly-2025-07-25/package/heftia-effects-0.7.0.0
+https://www.stackage.org/nightly-2025-08-01/package/heftia-0.7.0.0
+https://www.stackage.org/nightly-2026-01-21/package/heftia-0.7.0.0
+https://www.stackage.org/nightly-2026-02-20/package/heftia-effects
