@@ -30650,3 +30650,8 @@ https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/process-1.4.2.0/Sys
 https://downloads.haskell.org/ghc/latest/docs/libraries/process-1.6.26.1-e91f/System-Process.html
 https://ghcguide.haskell.jp/8.0.2/libraries/process-1.4.3.0/System-Process.html
 https://ghcguide.haskell.jp/8.4.3/libraries/process-1.6.3.0/System-Process.html
+https://hackage.haskell.org/package/io-streams-1.3.6.1/docs
+https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/Network-HaskellNet-BSStream.html
+https://hackage-content.haskell.org/package/async-2.2.6
+https://hackage.haskell.org/package/async-2.0.1.4
+https://hackage.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf
