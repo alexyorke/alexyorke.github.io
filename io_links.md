@@ -29239,3 +29239,6 @@ https://www.irif.fr/~mellies/mpri/mpri-ens/articles/fuhrmann-direct-models-of-co
 https://uu.diva-portal.org/smash/get/diva2:1369286/FULLTEXT01.pdf
 https://hackage.haskell.org/package/extra/docs/Extra.html
 https://hackage.haskell.org/package/QuickCheck-2.10.1/docs/Test-QuickCheck.html
+https://eprints.nottingham.ac.uk/11457/1/11457.pdf
+https://uu.diva-portal.org/smash/record.jsf?pid=diva2:1369286
+https://hackage.haskell.org/package/hxt-7.3/src/doc/thesis.pdf
