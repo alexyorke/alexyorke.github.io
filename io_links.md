@@ -31115,3 +31115,6 @@ https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_professuren/grundlagen
 https://timharris.uk/papers/2005-haskell.pdf
 https://kar.kent.ac.uk/98981/
 https://hackage.haskell.org/package/bytestring-mmap/docs/System-IO-Posix-MMap.html
+https://hackage.haskell.org/package/monad-control-0.3.3.0/docs/Control-Monad-Trans-Control.html
+https://opam-5.ocaml.org/packages/interface-prime-lwt/
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Class.html
