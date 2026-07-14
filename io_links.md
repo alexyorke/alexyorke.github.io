@@ -30745,3 +30745,16 @@ https://haskell-brick.readthedocs.io/_/downloads/en/latest/pdf/
 https://www.haskell.org/wikiupload/5/54/Building_an_interpreter.pdf
 https://hackage.haskell.org/package/Shellac/docs/System-Console-Shell.html
 https://www.baeldung.com/scala/cats-effect-delay-defer-vs-deferred
+https://hackage.haskell.org/package/scheduler/docs/Control-Scheduler.html
+https://hackage.haskell.org/package/dejafu-0.3.2.0/docs
+https://hackage-content.haskell.org/package/distributed-process-async-0.2.11/docs/Control-Distributed-Process-Async.html
+https://hackage.haskell.org/package/scheduler
+https://ocaml.org/p/lwt/5.5.0/doc/index.html
+https://ocaml.org/p/lwt/4.5.0/doc/README.html
+https://ocaml.org/p/lwt/5.1.1/doc/lwt/Lwt/index.html
+https://kcsrk.info/papers/sumit_ms_thesis.pdf
+https://refubium.fu-berlin.de/handle/fub188/18938
+https://www.cs.cmu.edu/~fp/papers/jfp22.pdf
+https://www.andrew.cmu.edu/user/kpruiksm/papers/jfp22.pdf
+https://www.cs.cmu.edu/~fp/public/papers/cll05.pdf
+https://kar.kent.ac.uk/84635/
