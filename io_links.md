@@ -30266,3 +30266,4 @@ https://citeseerx.ist.psu.edu/document?doi=f6ce17217fbb0097d38e7d1b9ee134423895b
 https://probabilistic-effects.github.io/papers/fusion-for-free/
 https://cardanofeed.com/learn/haskell-course
 https://zenn.dev/hand_accident/articles/7c681979acf9dc
+https://cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
