@@ -30551,3 +30551,4 @@ https://pblevy.github.io/msfp2014/freeapplic.pdf
 https://people.cs.kuleuven.be/~tom.schrijvers/portfolio/haskell2014.html
 https://research-information.bris.ac.uk/en/publications/effect-handlers-in-scope/
 https://hackage.haskell.org/package/effect-handlers-0.1.0.0
+https://hackage-content-origin.haskell.org/package/conduit-0.5.4.1
