@@ -30315,3 +30315,7 @@ https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg9e5W8ZQyXmYq
 https://link.springer.com/chapter/10.1007/978-3-030-17184-1_6
 https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/concurrent-and-distributed-programming-in-haskell-12/section/working-with-ioref-ch12lvl1sec97
 https://www.google.com/books?id=nh0okI1a1sQC
+https://digicoll.lib.berkeley.edu/record/139011
+https://repository.dl.itc.u-tokyo.ac.jp/records/2568
+https://citeseerx.ist.psu.edu/document?doi=821caec03e9663c17256f797967b67c1ceb15e6e&repid=rep1&type=pdf
+https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=158931
