@@ -30310,3 +30310,6 @@ https://www.baeldung.com/scala/cats-effect
 https://gist.github.com/dino-/347b0f02c4acf9053ae4ff05ca891a55
 https://gist.github.com/friedbrice/520f627d927cb658c587bd3cdb6cf4dc
 https://www.etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf
+https://markwatson.com/books/haskell-cookbook-site/
+https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg9e5W8ZQyXmYqg5PpkEjxovze6DB84dpj6
+https://link.springer.com/chapter/10.1007/978-3-030-17184-1_6
