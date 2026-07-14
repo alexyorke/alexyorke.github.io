@@ -30325,3 +30325,5 @@ https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf
 https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf
 https://arxiv.org/abs/2509.20308
 https://downloads.haskell.org/ghc/9.4.1-rc1/docs/libraries/text-2.0/Data-Text-Lazy-IO.html
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Exception.html
+https://en.wikibooks.org/wiki/Haskell/FFI
