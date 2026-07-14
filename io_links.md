@@ -30655,3 +30655,10 @@ https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/Network-Haskel
 https://hackage-content.haskell.org/package/async-2.2.6
 https://hackage.haskell.org/package/async-2.0.1.4
 https://hackage.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf
+https://hackage.haskell.org/package/eventloop-0.8.1.2
+https://hackage.haskell.org/package/eventloop-0.8.2.7
+https://bahr.io/pubs/files/asyncrattus-paper.pdf
+https://hackage.haskell.org/package/hlibev/docs/Network-Libev.html
+https://kar.kent.ac.uk/69692/
+https://idris.readthedocs.io/en/latest/effects/index.html
+https://idris.readthedocs.io/en/latest/effects/summary.html
