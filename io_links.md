@@ -29773,3 +29773,11 @@ https://www2.dmst.aueb.gr/dds/pubs/thesis/MEng/html/haskell.pdf
 https://www.reddit.com/r/haskell/comments/1hp4kq
 https://www.reddit.com/r/ProgrammingLanguages/comments/cb8svb
 https://www.reddit.com/r/haskellquestions/comments/1tmaic9
+https://manpages.org/jhc
+https://www.haskell.org/nhc98/compiler-options.html
+https://www.haskell.org/nhc98/libs/FFI.html
+https://bhc.raskell.io/get-started/
+https://hackage.haskell.org/package/ajhc
+https://uu-computerscience.github.io/uhc-js/documentation.html
+https://docslib.org/doc/754481/notes-on-functional-programming-with-haskell
+https://haskell.pesquisa.ufabc.edu.br/haskell/
