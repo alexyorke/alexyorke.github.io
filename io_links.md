@@ -30662,3 +30662,12 @@ https://hackage.haskell.org/package/hlibev/docs/Network-Libev.html
 https://kar.kent.ac.uk/69692/
 https://idris.readthedocs.io/en/latest/effects/index.html
 https://idris.readthedocs.io/en/latest/effects/summary.html
+https://hackage.haskell.org/package/reflex
+https://docs.haskellstack.org/en/v1.5.0/ghcjs/
+https://docs.reflex-frp.org/en/latest/installation.html
+https://docs.reflex-frp.org/en/latest/overview.html
+https://icfp18.sigplan.org/details/hiw-2018-papers/6/Lightning-talk-Asterius-Bringing-Haskell-to-WebAssembly
+https://scala-fmi.github.io/scala-fmi-2022/lectures/11-cats-and-cats-effect.html
+https://arxiv.org/abs/2209.10941
+https://arxiv.org/abs/2008.12592
+https://cs.nott.ac.uk/~psxip1/papers/2015-HaskellSymposium-Perez-Nilsson-BridgingGUIGapReactiveValues.pdf
