@@ -30841,3 +30841,4 @@ https://downloads.haskell.org/~ghc/8.0-latest/docs/html/libraries/base-4.9.1.0/G
 https://www.baeldung.com/scala/fs2-functional-streams
 https://index.scala-lang.org/typelevel/fs2/fs2-io/3.12.0?binary-version=_sjs1_3
 https://index.scala-lang.org/spinoco/fs2-http
+https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/316945_3_En_7_Chapter.xhtml
