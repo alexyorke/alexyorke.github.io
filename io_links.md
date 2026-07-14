@@ -30181,3 +30181,11 @@ https://www.stackage.org/nightly-2016-02-19/package/monad-stm-0.1.0.2
 https://www.stackage.org/nightly-2016-02-29/package/monad-stm
 https://www.stackage.org/lts-18.28/package/unliftio-0.2.21.0
 https://www.stackage.org/lts-7.24/package/monad-unlift-0.2.0
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf
+https://www.mmhaskell.com/courses/summary
+https://www.stackage.org/lts-18.28/package/lifted-base-0.2.3.12
+https://www.stackage.org/lts-20.26/package/lifted-base-0.2.3.12
+https://www.stackage.org/lts-22.35/package/monad-peel-0.3
+https://www.stackage.org/lts-23.13/package/monad-peel-0.3
+https://www.stackage.org/lts-24.24/package/monad-peel-0.3
+https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11
