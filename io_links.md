@@ -30234,3 +30234,4 @@ https://github.com/fused-effects
 https://tweag.io/blog/2022-01-05-polysemy-scoped/
 https://www.extrema.is/blog/2021/09/24/fused-effects-tagless-final-hmock
 https://freecomputerbooks.com/Real-World-Haskell.html
+https://hackage.haskell.org/package/rio-0.1.5.0/docs
