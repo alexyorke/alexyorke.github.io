@@ -31118,3 +31118,17 @@ https://hackage.haskell.org/package/bytestring-mmap/docs/System-IO-Posix-MMap.ht
 https://hackage.haskell.org/package/monad-control-0.3.3.0/docs/Control-Monad-Trans-Control.html
 https://opam-5.ocaml.org/packages/interface-prime-lwt/
 https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Class.html
+https://hackage.haskell.org/package/path-io
+https://hackage.haskell.org/package/Glob/docs/System-FilePath-Glob.html
+https://hackage.haskell.org/package/filepattern/docs/System-FilePattern-Directory.html
+https://hackage.haskell.org/package/paths/docs/System-Path-IO.html
+https://hackage.haskell.org/package/pathtype
+https://ocaml.org/p/eio/1.1/doc/Eio/Path/index.html
+https://ocaml.org/p/eio/0.12/doc/Eio/Path/index.html
+https://ocaml.org/p/eio/0.10/doc/Eio/Path/index.html
+https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.html
+https://sanette.github.io/ocaml2.org/learn/tutorials/if_statements_loops_and_recursion.html
+https://ocaml.app/article/Working_with_files_and_inputoutput_in_OCaml.html
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/Data-Traversable.html
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/libraries/base-4.8.1.0/Data-Traversable.html
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/20-monad-utilities/D74BCFCB041AFF5AF5A799451999A8EB
