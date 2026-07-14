@@ -30567,3 +30567,7 @@ https://arxiv.org/abs/2211.13140
 https://www.cambridge.org/core/books/a-practical-introduction-to-denotational-semantics/80122D52B49F175D38E0478EA45D4EDD
 https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ
 https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/src/System.FS.Sim.MockFS.html
+https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/GHC.ST.html
+https://hackage.haskell.org/package/base-4.14.1.0/docs/GHC-Exts.html
+https://haskell.fi.muni.cz/doc/ghc-prim-0.5.3/GHC-Prim.html
+https://downloads.haskell.org/ghc/6.10.3/docs/users_guide.pdf
