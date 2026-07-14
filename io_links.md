@@ -30543,3 +30543,4 @@ http://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2
 https://researchr.org/publication/Moggi91
 https://arxiv.org/abs/1406.4823
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fefbd1c8-7808-4c0b-a414-a2a188e3049a.xhtml
