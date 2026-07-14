@@ -30609,3 +30609,9 @@ https://hackage.haskell.org/package/in-other-words/docs/Control-Effect-Reader.ht
 https://www.mobt3ath.com/uplode/book/book-99705.pdf
 https://bindthegap.news/issues/BindTheGap-01Nov2020.pdf
 https://discourse.haskell.org/t/adventures-assembling-records-of-capabilities/623
+https://repository.upenn.edu/bitstreams/9565ea3e-4948-4304-a266-1f4a6fd34762/download
+https://hackage.haskell.org/package/typed-protocols
+https://www.cse.chalmers.se/~russo/russothesis.pdf
+https://livebook.manning.com/book/haskell-in-depth/chapter-7/v-10/
+https://aherrmann.github.io/programming/2016/01/04/resource-management-in-haskell/index.html
+https://researchportal.hw.ac.uk/en/publications/embedding-session-types-in-haskell/
