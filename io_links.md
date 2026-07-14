@@ -30136,3 +30136,13 @@ https://hackage.haskell.org/package/transformers-0.5.0.2
 https://haskell.pesquisa.ufabc.edu.br/haskell/03.haskell.basico.1/
 https://monad.cat/
 https://www.youtube.com/playlist?list=PLMqFm6rr-xOXK8G2O31Kdzllm3aYaaRKG
+https://www.haskell.org/pipermail/beginners/2009-February/001065.html
+https://www.stackage.org/lts-20.11/package/effectful-core-2.2.2.1
+https://www.stackage.org/lts-21.11/package/effectful-core-2.2.2.2
+https://www.stackage.org/lts-22.0/package/effectful-core-2.3.0.1
+https://www.stackage.org/lts-22.32/package/effectful-core-2.3.1.0
+https://www.stackage.org/lts-23.13/package/effectful-core-2.5.1.0
+https://www.stackage.org/nightly-2022-12-17/package/effectful-core-2.2.1.0
+https://www.stackage.org/nightly-2024-10-22/package/effectful-core-2.4.0.0
+https://www.stackage.org/nightly-2025-07-03/package/effectful-core-2.6.0.0
+https://www.stackage.org/nightly-2026-03-27/package/effectful-core-2.6.1.0
