@@ -30279,3 +30279,15 @@ https://idris2.readthedocs.io/en/stable/app/
 https://files.core.ac.uk/download/62781956.pdf
 https://www.cambridge.org/core/books/abs/algorithm-design-with-haskell/functional-programming/211847F53158D024C6E5B0379571933A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf
+https://conf.researchr.org/home/icfp-splash-2025/haskellsymp-2025
+https://conf.researchr.org/details/icfp-splash-2025/haskellsymp-2025-papers/20/Machine-Learning-Primitives-as-Algebraic-Effects
+https://popl25.sigplan.org/details/PADL-2025-papers/10/Haskell-Based-Spreadsheets
+https://icfp24.sigplan.org/details/haskellsymp-2024-papers/6/Making-a-Curry-Interpreter-using-Effects-and-Handlers
+https://vetss.org.uk/vss25-algebraic-effects/
+https://repo.aosc.io/anthon/anthon/aosc-documentation/aoscc/2025/comonad/haskell-ecosystem.pdf
+https://www.cse.sc.edu/~mgv/csce330f17/haskell/index.html
+https://icfp26.sigplan.org/home/haskellsymp-2026
+https://msfp-workshop.github.io/msfp2026/
+https://reasonablypolymorphic.com/polysemy-talk/
+https://www.slideshare.net/paulszulc/maintainable-software-architecture-in-haskell-with-polysemy
+https://hackage.haskell.org/package/hw-polysemy-0.3.1.2/docs/HaskellWorks-Polysemy.html
