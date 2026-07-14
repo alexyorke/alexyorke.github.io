@@ -30229,3 +30229,8 @@ https://discourse.haskell.org/t/haskell-cafe-searchable-archive/4742
 https://mailman.haskell.org/mailman3/lists/haskell-cafe.haskell.org/
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/
 https://scienceblogs.com/goodmath/2007/01/23/haskell-a-first-step-into-mona-1
+https://github.com/polysemy-research
+https://github.com/fused-effects
+https://tweag.io/blog/2022-01-05-polysemy-scoped/
+https://www.extrema.is/blog/2021/09/24/fused-effects-tagless-final-hmock
+https://freecomputerbooks.com/Real-World-Haskell.html
