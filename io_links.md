@@ -30521,3 +30521,7 @@ https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Condui
 https://hackage-content-origin.haskell.org/package/network-2.6.3.3
 https://www.cs.ncl.ac.uk/jspui/handle/10443/6607
 https://downloads.haskell.org/ghc/6.8.3/docs/html/libraries/haskell98/IO.html
+https://www.classcentral.com/course/youtube-building-secure-systems-in-haskell-by-deian-stefan-141460
+https://arxiv.org/abs/1805.00120
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-safe/
+https://archlinux.org/packages/extra/x86_64/haskell-safe/
