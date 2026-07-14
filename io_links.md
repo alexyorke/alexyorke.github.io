@@ -30341,3 +30341,13 @@ https://flora.pm/packages/%40hackage/rio/0.1.24.0/changelog
 https://www.stackage.org/lts-21.11/package/effectful-2.2.2.0
 https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-KVStore.html
 https://hackage-content.haskell.org/package/polysemy-http-0.13.1.0/docs/doc-index.html
+https://packages.debian.org/it/sid/doc/libghc-unliftio-doc
+https://sources.debian.org/src/haskell-unliftio/0.2.13-1/
+https://mynixos.com/nixpkgs/package/haskellPackages.rio
+https://rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-unliftio-doc-0.2.25.1-5.fc44.noarch.html
+https://input-output-hk.github.io/haskell.nix/architecture.html
+https://flora.pm/packages/%40hackage/streaming
+https://flora.pm/packages/%40hackage/conduit
+https://flora.pm/packages/%40hackage/io-sim
+https://flora.pm/packages/%40hackage/io-classes
+https://hackage-content.haskell.org/package/bluefin-algae-0.1.0.2/docs/Bluefin-Algae.html
