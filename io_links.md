@@ -30168,3 +30168,8 @@ https://www.stackage.org/nightly-2026-05-06/package/bluefin-0.5.100.0
 https://www.stackage.org/lts-10.2/package/freer-simple-1.0.0.0
 https://www.stackage.org/lts-18.24/package/polysemy-1.5.0.0
 https://www.stackage.org/lts-23.13/package/freer-simple-1.2.1.2
+https://web.cecs.pdx.edu/~mpj/pubs/composing.html
+https://www.csse.canterbury.ac.nz/walter.guttmann/publications/0026.pdf
+https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3
+https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0
+https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0
