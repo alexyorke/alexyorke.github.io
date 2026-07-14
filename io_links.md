@@ -30327,3 +30327,5 @@ https://arxiv.org/abs/2509.20308
 https://downloads.haskell.org/ghc/9.4.1-rc1/docs/libraries/text-2.0/Data-Text-Lazy-IO.html
 https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Exception.html
 https://en.wikibooks.org/wiki/Haskell/FFI
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-compact-0.1.0.0-inplace/GHC-Compact.html
+https://www.stackage.org/lts-8.22/package/ghc-prim-0.5.0.0
