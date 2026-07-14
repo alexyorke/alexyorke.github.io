@@ -29637,3 +29637,13 @@ https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/src/Control-Monad-IOSim.
 https://downloads.haskell.org/~ghc/6.4.2/docs/users_guide.pdf
 https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/using.html
 https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5/ch05
+https://hackage.haskell.org/package/gloss-game/docs/Graphics-Gloss-Game.html
+https://hackage.haskell.org/package/AsyncRattus-0.1.0.1/src/docs/paper.pdf
+https://hackage.haskell.org/package/base-4.8.0.0/docs/src/GHC-Base.html
+https://hackage.haskell.org/package/ghc-prim-0.3.1.0/docs/src/GHC-Types.html
+https://hackage.haskell.org/package/monad-st
+https://hackage.haskell.org/package/exceptiot
+https://hackage.haskell.org/package/unexceptionalio
+https://hackage.haskell.org/package/io-string-like
+https://hackage.haskell.org/package/little-rio
+https://mynixos.com/nixpkgs/package/haskellPackages.QIO
