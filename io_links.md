@@ -30253,3 +30253,9 @@ https://hackage.haskell.org/package/polysemy-1.2.3.0
 https://hackage.haskell.org/package/polysemy-0.4.0.0
 https://hackage.haskell.org/package/core-effect-effectful
 https://cse3000-research-project.github.io/static/db102206ec6bbf934bbe6ab8f428e121/poster.pdf
+https://sourceforge.net/projects/polysemy.mirror/files/
+https://hackage.haskell.org/package/effectful-0.0.0.0/docs/src/Effectful.Reader.html
+https://github.com/tomjaguarpaw/bluefin/blob/783da151a74bae3eda774912386f168e6bb0e9af/bluefin-internal/src/Bluefin/Internal/System/IO.hs
+https://resolver.tudelft.nl/uuid:ffea061f-d832-4d54-9726-8389cd4bf42a
+https://haskelle.blogspot.com/2023/
+https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=2
