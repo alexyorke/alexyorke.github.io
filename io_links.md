@@ -29426,3 +29426,8 @@ https://retis.santannapisa.it/luca/FPT/Old-2021/
 https://www.slideserve.com/lee/programming-in-haskell
 https://ycce.edu/wp-content/uploads/2026/01/FinaI_1-6Sem_SoE_Syllab_2023_CT_23-24_onwards.pdf
 https://crypto.stanford.edu/~blynn/zh23/sly.html
+https://www.ccs.neu.edu/home/shivers/cs6983/papers/papers.html
+https://www.risc.jku.at/publications/download/risc_3852/WWV-2009-Proceedings.pdf
+https://pages.di.unipi.it/corradini/Didattica/AP-21/AP-2021-SYLLABUS.pdf
+https://pages.di.unipi.it/corradini/Didattica/AP-21/SLIDES/AP-2021-17-Monads.pdf
+https://www.reddit.com/r/haskell/comments/1dazfsr/welltyped_announcing_a_free_video_based_haskell/
