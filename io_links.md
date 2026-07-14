@@ -29655,3 +29655,4 @@ https://mail.haskell.org/pipermail/haskell/2009-March/021065.html
 https://datakinds.github.io/2019/05/10/a-basis-for-sequential-execution-monads-arrows-and-more
 https://tromp.github.io/cl/LC.pdf
 https://www.mclibre.org/descargar/docs/revistas/linux-voice/linux-voice-22-en-201601.pdf
+https://es.wikipedia.org/wiki/M%C3%B3nada_%28programación_funcional%29
