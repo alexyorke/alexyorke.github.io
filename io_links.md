@@ -30425,3 +30425,7 @@ https://cseweb.ucsd.edu/~rtate/effectstr.pdf
 https://arxiv.org/abs/1702.04908
 https://arxiv.org/abs/1707.06685
 https://caiorss.github.io/Functional-Programming/papers/README.html
+https://icfp18.sigplan.org/details/hiw-2018-papers/13/Lightning-talk-The-trick-which-makes-exceptions-0-10-0-possible
+https://www.classcentral.com/course/youtube-effect-systems-in-practice-hecate-lambda-days-2025-511578
+https://www.cst.cam.ac.uk/seminars/list/53899
+https://okmij.org/ftp/Computation/HOPE-talk.pdf
