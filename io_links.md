@@ -29665,3 +29665,9 @@ https://www.youtube.com/watch?v=7icH5EBNpHg
 https://www.youtube.com/watch?v=sDqD_xwF-cY
 https://cse.sc.edu/~pfu/teaching/544/544schedule.html
 https://downloads.haskell.org/ghc/9.0-latest/docs/html/libraries/ghc-9.0.2/GHC-Driver-Monad.html
+https://hackage.haskell.org/package/acme-iot-0.1.0.1/docs/Control-Monad-Trans-IO.html
+https://hackage-content.haskell.org/package/breakpoint-0.1.5.1/docs/Debug-Breakpoint-GhcFacade.html
+https://arxiv.org/abs/1608.03814
+https://arxiv.org/abs/1701.08152
+https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad/
+https://simon.peytonjones.org/taste-of-haskell/
