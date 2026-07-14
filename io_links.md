@@ -30627,3 +30627,8 @@ https://ics-archive.science.uu.nl/research/techreps/repo/CS-2001/2001-62.pdf
 https://keera.co.uk/posts/2013/03/08/keera-hails-event-driven-programming-of-desktop-applications-in-haskell/
 https://hackage-content.haskell.org/package/bearriver-0.15/docs/FRP-BearRiver-EventS.html
 https://www.ccs.neu.edu/home/amal/course/7480-s12/frp-notes.pdf
+https://cs240h-notes.herokuapp.com/
+https://iti.san.edu.pl/jacsm/JACSM_Vol_08_No_1.pdf
+https://www3.ub.tu-berlin.de/ihv/000141622.pdf
+https://www.mpg.is/thesis.html
+https://kar.kent.ac.uk/21455/
