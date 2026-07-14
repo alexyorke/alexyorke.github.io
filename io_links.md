@@ -29520,3 +29520,13 @@ https://hackage.haskell.org/package/monadio-unwrappable/0.2/monadio-unwrappable-
 https://hackage.haskell.org/package/monad-parallel/0.8.0.1/monad-parallel-0.8.0.1.tar.gz
 https://hackage.haskell.org/package/transformers/0.5.0.1/transformers-0.5.0.1.tar.gz
 https://hackage.haskell.org/package/unliftio-core/0.2.1.0/unliftio-core-0.2.1.0.tar.gz
+https://hackage.haskell.org/package/MonadRandom/docs/src
+https://www.stackage.org/package/template-haskell
+https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control
+https://sources.debian.org/src/haskell-monad-loops/
+https://tracker.debian.org/pkg/haskell-path-io
+https://hackage.haskell.org/package/base-4.3.1.0/docs/src/System-IO.html
+https://www.reddit.com/r/programminglanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput_concurrency_exceptions_and_foreignlanguage_calls_in_haskell/
+https://www.reddit.com/r/haskell/comments/1dqmvt
+https://discovery.ucl.ac.uk/id/eprint/10112228/
+https://wlv.openrepository.com/bitstream/2436/624322/1/Viet_Ha_Bui_PhD.pdf
