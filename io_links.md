@@ -30026,3 +30026,10 @@ https://www.reddit.com/r/haskell/comments/1dqmvt0/welltyped_part_5_io_and_explic
 https://www.reddit.com/r/haskell/comments/1dvvkms/drifting_on_the_seas_of_io/
 https://www.stackage.org/lts-22.10/package/io-streams-1.5.2.2
 https://www.stackage.org/nightly-2019-12-22/package/io-streams-1.5.1.0
+https://hackage.haskell.org/package/effect-monad-0.8.1.0
+https://hackage.haskell.org/package/io-streams-1.5.2.2/docs/System-IO-Streams.html
+https://hackage.haskell.org/package/potoki-0.10.6
+https://hackage.haskell.org/package/potoki-2.1.3
+https://hackage.haskell.org/package/potoki-2.1.4.1
+https://www.stackage.org/lts-23.17
+https://www.stackage.org/lts-8
