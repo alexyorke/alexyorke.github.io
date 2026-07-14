@@ -29530,3 +29530,13 @@ https://www.reddit.com/r/programminglanguages/comments/cwcbsv/tackling_the_awkwa
 https://www.reddit.com/r/haskell/comments/1dqmvt
 https://discovery.ucl.ac.uk/id/eprint/10112228/
 https://wlv.openrepository.com/bitstream/2436/624322/1/Viet_Ha_Bui_PhD.pdf
+http://cs.brown.edu/people/sk/Publications/Papers/Published/fffk-functional-io/paper.pdf
+https://hackage.haskell.org/package/ghc-mtl/docs/Control-Monad-Ghc.html
+https://hackage.haskell.org/package/encoding-io/docs/System-IO-Encoding.html
+https://hackage.haskell.org/package/rest-client/docs/Rest-Client-Base.html
+https://packages.fedoraproject.org/pkgs/ghc/ghc-base
+https://archlinux.org/packages/extra/x86_64/haskell-system-fileio/
+https://wiki.archlinux.org/title/Haskell
+https://www.reddit.com/r/haskell/comments/1dazfsr/welltyped_announcing_free_video_based_haskell/
+https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_free_video_based_haskell/
+https://www.reddit.com/r/haskell/comments/1rsud8p/drifting-on-the-seas-of-io/
