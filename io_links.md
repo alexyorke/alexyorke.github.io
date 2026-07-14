@@ -30319,3 +30319,7 @@ https://digicoll.lib.berkeley.edu/record/139011
 https://repository.dl.itc.u-tokyo.ac.jp/records/2568
 https://citeseerx.ist.psu.edu/document?doi=821caec03e9663c17256f797967b67c1ceb15e6e&repid=rep1&type=pdf
 https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=158931
+https://www.teses.usp.br/teses/disponiveis/45/45134/tde-03112023-152323/pt-br.php
+https://eprints.glos.ac.uk/2738/1/Abu%20Alam%20PhD%20Thesis%202015.pdf
+https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf
+https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf
