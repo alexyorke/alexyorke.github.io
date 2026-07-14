@@ -30474,3 +30474,10 @@ https://icfp23.sigplan.org/details/haskellsymp-2023/4/Effect-Handlers-for-Progra
 https://discourse.haskell.org/t/haskell-implementors-workshop-2023-individual-talk-videos-on-youtube/8221
 https://haskell.foundation/events/2025-haskell-implementors-workshop.html
 https://books.kabisa.nl/books/79
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2FB7DC08AA6A4FE4A65E40DEBA82EF5C/S0956796800000575a.pdf/using_miranda_as_a_first_programming_language.pdf
+https://research.utwente.nl/en/publications/static-analysis-of-functional-programs-2/
+https://www.curry-language.org/assets/files/tools/cass/cass_paper.pdf
+https://agda.readthedocs.io/en/v2.7.0/overview.html
+https://idris-community.github.io/idris2-tutorial/
+https://avigad.github.io/programming_in_lean/
+https://wiki.portal.chalmers.se/agda/ReferenceManual/StructureOfAnAgdaProgram
