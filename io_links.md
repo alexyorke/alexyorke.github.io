@@ -30351,3 +30351,4 @@ https://flora.pm/packages/%40hackage/conduit
 https://flora.pm/packages/%40hackage/io-sim
 https://flora.pm/packages/%40hackage/io-classes
 https://hackage-content.haskell.org/package/bluefin-algae-0.1.0.2/docs/Bluefin-Algae.html
+https://courses.washington.edu/courses/csep505/16au/lec8_6up.pdf
