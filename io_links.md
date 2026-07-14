@@ -30204,3 +30204,4 @@ https://www.stackage.org/lts-7.19/package/io-choice-0.0.6
 https://www.stackage.org/nightly-2015-11-27/package/io-choice-0.0.5
 https://www.stackage.org/nightly-2016-02-19/package/io-choice-0.0.5
 https://www.stackage.org/nightly-2019-07-31/package/io-choice-0.0.7
+https://www.cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html
