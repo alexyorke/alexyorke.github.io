@@ -30574,3 +30574,9 @@ https://downloads.haskell.org/ghc/6.10.3/docs/users_guide.pdf
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/Control-Monad-IO-Class.html
 https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad.html
 https://www.haskell.org/onlinereport/exps.html
+https://www.stackage.org/nightly-2025-01-06/package/unliftio-0.2.25.0
+https://hackage.haskell.org/package/transformers-lift-0.1.0.0/docs
+https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-List.html
+https://hackage.haskell.org/package/zio/docs/ZIO-Trans.html
+https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-State-Strict.html
+https://hackage-content.haskell.org/package/mmorph-1.2.2/docs/Control-Monad-Morph.html
