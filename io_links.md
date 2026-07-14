@@ -29547,3 +29547,7 @@ https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-55
 https://www.stackage.org/package/base
 https://hackage.haskell.org/package/base-4.14.0.0
 https://www.stackage.org/package/io-sim
+https://kar.kent.ac.uk/21470/
+https://doi.org/10.1145/299359.299390
+https://kar.kent.ac.uk/21470/1/IO_Considered_Harmful.pdf
+https://bluej.org/doc/publications.html
