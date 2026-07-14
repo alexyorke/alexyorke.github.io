@@ -30508,3 +30508,6 @@ https://citeseerx.ist.psu.edu/document?doi=7b59a561216fcbb2b9194db7ecaa44fb6a651
 https://arxiv.org/abs/2202.02061
 https://www.schoolofhaskell.com/user/fumieval/drinkery-the-boozy-streaming-library
 https://hackage.haskell.org/package/streaming-0.2.3.1/docs/Streaming.html
+https://well-typed.com/blog/2021/08/capi-usage/
+https://downloads.haskell.org/~ghc/7.10.3-rc1/users_guide/ffi.html
+https://frasertweedale.github.io/blog-fp/posts/2022-09-23-ffi-safety-and-gc.html
