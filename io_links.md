@@ -30429,3 +30429,6 @@ https://icfp18.sigplan.org/details/hiw-2018-papers/13/Lightning-talk-The-trick-w
 https://www.classcentral.com/course/youtube-effect-systems-in-practice-hecate-lambda-days-2025-511578
 https://www.cst.cam.ac.uk/seminars/list/53899
 https://okmij.org/ftp/Computation/HOPE-talk.pdf
+https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf
+https://www.some.ox.ac.uk/wp-content/uploads/2025/07/HaskellTutorial-2025.pdf
+https://discourse.haskell.org/t/haskell-implementors-workshop-hiw-2025-videos-online/12787
