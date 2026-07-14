@@ -30473,3 +30473,4 @@ https://www.haskell.org/haskell-symposium/2014/accepted.html
 https://icfp23.sigplan.org/details/haskellsymp-2023/4/Effect-Handlers-for-Programmable-Inference
 https://discourse.haskell.org/t/haskell-implementors-workshop-2023-individual-talk-videos-on-youtube/8221
 https://haskell.foundation/events/2025-haskell-implementors-workshop.html
+https://books.kabisa.nl/books/79
