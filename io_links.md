@@ -30420,3 +30420,8 @@ https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/mtl-2.2.2/Control-Mo
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Reader.html
 https://downloads.haskell.org/ghc/6.10.3/docs/html/libraries/mtl/Control-Monad-Reader.html
 https://downloads.haskell.org/ghc/9.0.1-rc1/docs/html/libraries/mtl-2.2.2/Control-Monad-Reader.html
+https://citeseerx.ist.psu.edu/document?doi=d79d90bb3659cfc9592f1685edf94636a7e81dd0&repid=rep1&type=pdf
+https://cseweb.ucsd.edu/~rtate/effectstr.pdf
+https://arxiv.org/abs/1702.04908
+https://arxiv.org/abs/1707.06685
+https://caiorss.github.io/Functional-Programming/papers/README.html
