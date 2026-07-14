@@ -30599,3 +30599,8 @@ https://bobkonf.de/archive/haskell
 https://www.classcentral.com/subject/haskell
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/a8c02536-4441-40af-a9c1-24133b3814d2.xhtml
 https://discover.knoxcountylibrary.org/oreilly/on1032263978
+https://hackage.haskell.org/package/distributed-process-monad-control
+https://hackage.haskell.org/package/streaming-process/docs/Streaming-Process.html
+https://downloads.haskell.org/~ghc/6.12-latest/docs/users_guide.pdf
+https://hackage.haskell.org/package/terminal-0.2.0.0/docs/System-Terminal.html
+https://hackage.haskell.org/package/shh/docs/Shh.html
