@@ -30620,3 +30620,10 @@ https://csclub.uwaterloo.ca/resources/tech-talks/software-transactional-memory-a
 https://subscription.packtpub.com/book/programming/9781786461353/12/ch12lvl1sec96/introduction
 https://downloads.haskell.org/ghc/9.14.0.20250908/docs/libraries/base-4.22.0.0-c394/src/Control.Exception.html
 https://downloads.haskell.org/ghc/9.12.2/docs/libraries/mtl-2.3.1-8a3c/Control-Monad-Except.html
+https://hackage.haskell.org/package/reactive/docs/FRP-Reactive.html
+https://hackage.haskell.org/package/reactive
+https://hackage.haskell.org/package/sodium/docs/FRP-Sodium.html
+https://ics-archive.science.uu.nl/research/techreps/repo/CS-2001/2001-62.pdf
+https://keera.co.uk/posts/2013/03/08/keera-hails-event-driven-programming-of-desktop-applications-in-haskell/
+https://hackage-content.haskell.org/package/bearriver-0.15/docs/FRP-BearRiver-EventS.html
+https://www.ccs.neu.edu/home/amal/course/7480-s12/frp-notes.pdf
