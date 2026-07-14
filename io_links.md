@@ -30213,3 +30213,6 @@ https://youtu.be/oDqHNkQK97k
 https://hackage.haskell.org/api
 https://dblp.org/rec/conf/haskell/JonesW07
 https://riptutorial.com/Download/haskell-language-de.pdf
+https://stackoverflow.com/questions/19917582/type-in-haskell-explanation-of-io
+https://stackoverflow.com/a/44979
+https://www.educative.io/blog/haskell-tutorial
