@@ -30736,3 +30736,12 @@ https://http4s.org/v0.15/
 https://blog.shangjiaming.com/scala%20tutorial/http4s-introduction-2/
 https://www.scalabook.ru/books/pfhais.html
 https://http4s.org/v0.22/docs/dsl.html
+https://hackage-content.haskell.org/package/optparse-applicative-0.19.0.0/docs/Options-Applicative.html
+https://hackage.haskell.org/package/brick
+https://hackage.haskell.org/package/structured-cli-0.9.3.0/docs/System-Console-StructuredCLI.html
+https://hackage-content.haskell.org/package/vty-6.5/docs/Graphics-Vty.html
+https://hackage.haskell.org/package/ansi-terminal-0.11.3/docs/System-Console-ANSI.html
+https://haskell-brick.readthedocs.io/_/downloads/en/latest/pdf/
+https://www.haskell.org/wikiupload/5/54/Building_an_interpreter.pdf
+https://hackage.haskell.org/package/Shellac/docs/System-Console-Shell.html
+https://www.baeldung.com/scala/cats-effect-delay-defer-vs-deferred
