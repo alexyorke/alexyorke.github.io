@@ -30800,3 +30800,9 @@ https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/i
 https://sttp.softwaremill.com/_/downloads/en/v2.2.0/pdf/
 https://sttp.softwaremill.com/_/downloads/en/v3.1.2/pdf/
 https://sttp.softwaremill.com/_/downloads/en/v3.0.0-rc2/pdf/
+https://hackage.haskell.org/package/ivory
+https://hackage.haskell.org/package/ion
+https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/17928/ChristopherSchwaabPhDThesis.pdf?isAllowed=y&sequence=2
+https://downloads.haskell.org/ghc/6.0/docs/html/base/System.IO.html
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/libraries/haskell98/IO.html
+https://ivanperez.io/papers/2016-HaskellSymposium-Perez-Barenz-Nilsson-FRPRefactored-short.pdf
