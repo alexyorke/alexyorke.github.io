@@ -29579,3 +29579,7 @@ https://www.classcentral.com/course/youtube-getting-started-with-fp-io-333658
 https://www.classcentral.com/course/youtube-philly-ete-2017-44-free-as-in-monads-daniel-spiewak-133074
 https://ekvv.uni-bielefeld.de/kvv_publ/publ/vd?id=94694136
 https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/b16225016d84197e9725b6fed9948f77859dd1aa/haskell
+https://igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.22-docs-offline/hackage-content.haskell.org/package/base-4.22.0.0/docs/Control-Exception-Base.html
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/template-haskell-2.17.0.0/src/Language-Haskell-TH-Syntax.html
+https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/
+https://www.youtube.com/watch?v=n5ZtsHrYWq0
