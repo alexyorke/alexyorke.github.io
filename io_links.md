@@ -30307,3 +30307,6 @@ https://rubenpieters.github.io/assets/papers/JFP20-handlers.pdf
 https://corophage.rs/
 https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf
 https://www.baeldung.com/scala/cats-effect
+https://gist.github.com/dino-/347b0f02c4acf9053ae4ff05ca891a55
+https://gist.github.com/friedbrice/520f627d927cb658c587bd3cdb6cf4dc
+https://www.etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf
