@@ -30259,3 +30259,10 @@ https://github.com/tomjaguarpaw/bluefin/blob/783da151a74bae3eda774912386f168e6bb
 https://resolver.tudelft.nl/uuid:ffea061f-d832-4d54-9726-8389cd4bf42a
 https://haskelle.blogspot.com/2023/
 https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=2
+https://github.com/ublue-os/bluefin/releases
+https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy.html
+https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy-IO.html
+https://citeseerx.ist.psu.edu/document?doi=f6ce17217fbb0097d38e7d1b9ee134423895babd&repid=rep1&type=pdf
+https://probabilistic-effects.github.io/papers/fusion-for-free/
+https://cardanofeed.com/learn/haskell-course
+https://zenn.dev/hand_accident/articles/7c681979acf9dc
