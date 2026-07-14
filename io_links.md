@@ -30842,3 +30842,9 @@ https://www.baeldung.com/scala/fs2-functional-streams
 https://index.scala-lang.org/typelevel/fs2/fs2-io/3.12.0?binary-version=_sjs1_3
 https://index.scala-lang.org/spinoco/fs2-http
 https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/316945_3_En_7_Chapter.xhtml
+https://verify.rwth-aachen.de/fp09/
+https://cs3110.github.io/textbook/chapters/conc/promises.html
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf?event-type=FTLA
+https://ocaml.org/p/async/v0.16.0/doc/index.html
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C8AF236F4E87677B5A5D9E522506273D/9781009125802c17_297-324.pdf/concurrent_programming_with_async.pdf
+https://www.cs.cornell.edu/courses/cs3110/2015fa/l/16-conc/lec.pdf
