@@ -30580,3 +30580,6 @@ https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-List.html
 https://hackage.haskell.org/package/zio/docs/ZIO-Trans.html
 https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-State-Strict.html
 https://hackage-content.haskell.org/package/mmorph-1.2.2/docs/Control-Monad-Morph.html
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc/src/ForeignCall.html
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/DsForeign.html
+https://www.packtpub.com/en-In/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/7-concurrency-and-performance-ch07lvl1sec44
