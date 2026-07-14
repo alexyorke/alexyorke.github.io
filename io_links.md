@@ -30533,3 +30533,13 @@ https://lean-lang.org/papers/thesis-sebastian.pdf
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.29
 https://trustworthy.systems/publications/full_text/Feree_AKOMH_18.pdf
 https://isabelle-utp.york.ac.uk/theories/interaction-trees
+https://xenon.stanford.edu/~hwatheod/monads.html
+https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/more-about-monads-5/section/introduction-ch05lvl1sec39
+https://rosstate.org/publications/sleffects/
+https://pdfroom.com/books/from-simple-io-to-monad-transformers/jGk207ZKgpm
+https://www.sciencedirect.com/science/article/abs/pii/S2405896322027331
+https://en.wikibooks.org/wiki/Category%3ABook%3AHaskell
+http://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf
+https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2
+https://researchr.org/publication/Moggi91
+https://arxiv.org/abs/1406.4823
