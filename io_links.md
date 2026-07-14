@@ -29664,3 +29664,4 @@ https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Sy
 https://www.youtube.com/watch?v=7icH5EBNpHg
 https://www.youtube.com/watch?v=sDqD_xwF-cY
 https://cse.sc.edu/~pfu/teaching/544/544schedule.html
+https://downloads.haskell.org/ghc/9.0-latest/docs/html/libraries/ghc-9.0.2/GHC-Driver-Monad.html
