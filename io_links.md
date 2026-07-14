@@ -30615,3 +30615,8 @@ https://www.cse.chalmers.se/~russo/russothesis.pdf
 https://livebook.manning.com/book/haskell-in-depth/chapter-7/v-10/
 https://aherrmann.github.io/programming/2016/01/04/resource-management-in-haskell/index.html
 https://researchportal.hw.ac.uk/en/publications/embedding-session-types-in-haskell/
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Concurrent-Async.html
+https://csclub.uwaterloo.ca/resources/tech-talks/software-transactional-memory-and-haskell/
+https://subscription.packtpub.com/book/programming/9781786461353/12/ch12lvl1sec96/introduction
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/libraries/base-4.22.0.0-c394/src/Control.Exception.html
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/mtl-2.3.1-8a3c/Control-Monad-Except.html
