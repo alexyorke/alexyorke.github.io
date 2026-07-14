@@ -30386,3 +30386,7 @@ https://cendekia.unisza.edu.my/neuaxis-e/Record/nottingham-223/Similar
 https://arxiv.org/abs/2604.24612
 https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec49/lifting-up-from-io
 https://web.archive.org/web/20151208175102/http://code.haskell.org/~dons/haskell-1990-2000/threads.html
+https://hackage.haskell.org/package/fused-effects-1.1.0.0/changelog
+https://www.reddit.com/r/haskell/comments/1gjbakz/heftia-effects-v05-higherorder-algebraic-effects/
+https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0
+https://hackage.haskell.org/package/fused-effects-1.0.0.0/changelog
