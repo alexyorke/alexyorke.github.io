@@ -30235,3 +30235,10 @@ https://tweag.io/blog/2022-01-05-polysemy-scoped/
 https://www.extrema.is/blog/2021/09/24/fused-effects-tagless-final-hmock
 https://freecomputerbooks.com/Real-World-Haskell.html
 https://hackage.haskell.org/package/rio-0.1.5.0/docs
+https://hackage-content-origin.haskell.org/package/rio-0.1.20.0/docs/doc-index-46.html
+https://www.stackage.org/lts-17.0/package/rio-0.1.19.0
+https://flora.pm/packages/%40hackage/rio
+https://hackage.haskell.org/package/rio-0.1.20.0/changelog
+https://hackage.haskell.org/package/rio-0.1.22.0/docs
+https://cstml.github.io/2021/07/22/State-Monad.html
+https://haskell.haskell.narkive.com/eFLi4BaQ/st-stref-vs-io-ioref
