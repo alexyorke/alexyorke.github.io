@@ -30821,3 +30821,12 @@ https://era.ed.ac.uk/items/14fd5200-9779-434c-b9c2-4a367cbeac9b
 https://docs.rs/crate/eff/latest
 https://www.logic.cs.tsukuba.ac.jp/~sat/pdf/tfp2020-postsymposium.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf
+https://hackage.haskell.org/package/system-fileio-0.2/docs/System-File.html
+https://fsharp.github.io/fsharp-core-docs/
+https://fsharp.org/docs/
+https://fsharp.github.io/fsharp-compiler-docs/fcs/filesystem.html
+https://fsharp.org/guides/data-access/
+https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf
+https://www.tutorialspoint.com/fsharp/pdf/fsharp_basic_io.pdf
+https://www.idt.mdh.se/kurser/DVA229/slides/io.pdf
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Handle.html
