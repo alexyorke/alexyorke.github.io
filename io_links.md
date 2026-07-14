@@ -30211,3 +30211,4 @@ https://www.ci.nii.ac.jp/crid/1360586669745382528
 https://www.publishersweekly.com/9781681440033
 https://youtu.be/oDqHNkQK97k
 https://hackage.haskell.org/api
+https://dblp.org/rec/conf/haskell/JonesW07
