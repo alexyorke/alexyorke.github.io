@@ -29572,3 +29572,8 @@ https://downloads.haskell.org/ghc/5.04/docs/html/base/System.IO.html
 https://cs.brown.edu/~sk/Publications/Papers/Published/fffk-functional-io/
 https://twitchard.github.io/posts/2020-07-26-monads.html
 https://xmonad.github.io/xmonad-docs/xmonad/XMonad.html
+https://dedup.debian.net/binary/ghc-doc
+https://mynixos.com/nixpkgs/package/haskellPackages.io-sim
+https://packages.debian.org/bookworm/libghc-iospec-prof
+https://www.classcentral.com/course/youtube-getting-started-with-fp-io-333658
+https://www.classcentral.com/course/youtube-philly-ete-2017-44-free-as-in-monads-daniel-spiewak-133074
