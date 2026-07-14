@@ -30323,3 +30323,5 @@ https://www.teses.usp.br/teses/disponiveis/45/45134/tde-03112023-152323/pt-br.ph
 https://eprints.glos.ac.uk/2738/1/Abu%20Alam%20PhD%20Thesis%202015.pdf
 https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf
 https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf
+https://arxiv.org/abs/2509.20308
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/libraries/text-2.0/Data-Text-Lazy-IO.html
