@@ -30277,3 +30277,5 @@ https://www.cs.utexas.edu/~bornholt/courses/cs345h-24sp/lectures/2-interpreters/
 https://en.wikibooks.org/wiki/Haskell/Denotational_semantics
 https://idris2.readthedocs.io/en/stable/app/
 https://files.core.ac.uk/download/62781956.pdf
+https://www.cambridge.org/core/books/abs/algorithm-design-with-haskell/functional-programming/211847F53158D024C6E5B0379571933A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf
