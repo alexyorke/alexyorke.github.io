@@ -30212,3 +30212,4 @@ https://www.publishersweekly.com/9781681440033
 https://youtu.be/oDqHNkQK97k
 https://hackage.haskell.org/api
 https://dblp.org/rec/conf/haskell/JonesW07
+https://riptutorial.com/Download/haskell-language-de.pdf
