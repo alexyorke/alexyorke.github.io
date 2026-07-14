@@ -29767,3 +29767,9 @@ https://downloads.haskell.org/ghc/6.0/docs/html/base/GHC.IOBase.html
 https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base/src/GHC-IO.html
 https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-9.10.2-96d4/GHC-Driver-Monad.html
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal/GHC-Internal-System-IO.html
+https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput/
+https://www2.dmst.aueb.gr/dds/pubs/thesis/MEng/html/haskell.pdf
+https://www.reddit.com/r/haskell/comments/1hp4kq
+https://www.reddit.com/r/ProgrammingLanguages/comments/cb8svb
+https://www.reddit.com/r/haskellquestions/comments/1tmaic9
