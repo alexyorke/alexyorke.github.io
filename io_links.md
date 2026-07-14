@@ -29302,3 +29302,11 @@ https://downloads.haskell.org/ghc/9.12.1/docs/libraries/base-4.21.0.0/Control-Mo
 https://hackage-content.haskell.org/package/CheatSheet-2.4/src/CheatSheet.pdf
 https://sgeos.github.io/programming-languages/theory/history/2026/04/02/the_1990s.html
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/D59AB616739BEEF223327F3E4B7D762B
+https://hackage-content-origin.haskell.org/package/quickcheck-dynamic-4.0.0/candidate
+https://www.haskell.org/hugs/pages/libraries/QuickCheck/Test-QuickCheck.html
+https://www.stackage.org/package/quickcheck-io
+https://www.sciencedirect.com/science/article/pii/S0304397596001697
+https://hackage.haskell.org/packages/browse
+https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs
+https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/src/GHC.Internal.IO.html
+https://accu.org/journals/overload/21/114/deigh_1869/
