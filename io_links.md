@@ -29237,3 +29237,5 @@ https://stackoverflow.com/questions/1655067/haskell-io-testing
 https://www.haskell.org/tutorial/haskell-tutorial.html
 https://www.irif.fr/~mellies/mpri/mpri-ens/articles/fuhrmann-direct-models-of-computational-lambda-calculus.pdf
 https://uu.diva-portal.org/smash/get/diva2:1369286/FULLTEXT01.pdf
+https://hackage.haskell.org/package/extra/docs/Extra.html
+https://hackage.haskell.org/package/QuickCheck-2.10.1/docs/Test-QuickCheck.html
