@@ -30525,3 +30525,11 @@ https://www.classcentral.com/course/youtube-building-secure-systems-in-haskell-b
 https://arxiv.org/abs/1805.00120
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-safe/
 https://archlinux.org/packages/extra/x86_64/haskell-safe/
+https://lean-forward.github.io/logical-verification/2018/33_notes.html
+https://arxiv.org/abs/2408.15817
+https://lean-lang.org/doc/tutorials/latest/
+https://www.cs.princeton.edu/~jmc16/docs/thesis.pdf
+https://lean-lang.org/papers/thesis-sebastian.pdf
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.29
+https://trustworthy.systems/publications/full_text/Feree_AKOMH_18.pdf
+https://isabelle-utp.york.ac.uk/theories/interaction-trees
