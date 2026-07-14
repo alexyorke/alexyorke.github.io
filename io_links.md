@@ -30294,3 +30294,9 @@ https://hackage.haskell.org/package/hw-polysemy-0.3.1.2/docs/HaskellWorks-Polyse
 https://docs.idris-lang.org/en/v0.10.3/effects/
 https://yuelipicasso.github.io/blog/comp_monad.html
 https://icfp21.sigplan.org/details/icfp-2021-papers/10/Generalized-Evidence-Passing-for-Effect-Handlers
+https://cronfa.swansea.ac.uk/Record/cronfa29413
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_article
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_pdf
+https://eprints.gla.ac.uk/226006/1/226006.pdf
+https://homepage.divms.uiowa.edu/~jgmorrs/pubs/lindley-hs2016-gvhs.pdf
+https://tannerduve.github.io/blog/freer-monad/part-1/
