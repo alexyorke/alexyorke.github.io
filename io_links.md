@@ -30432,3 +30432,6 @@ https://okmij.org/ftp/Computation/HOPE-talk.pdf
 https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf
 https://www.some.ox.ac.uk/wp-content/uploads/2025/07/HaskellTutorial-2025.pdf
 https://discourse.haskell.org/t/haskell-implementors-workshop-hiw-2025-videos-online/12787
+https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
+https://researchportalplus.anu.edu.au/en/publications/capabilities-effects-for-free/
+https://experts.mcmaster.ca/scholarly-works/2169982
