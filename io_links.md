@@ -30690,3 +30690,17 @@ https://icfp16.sigplan.org/details/haskellsymp-2016-papers/8/Revisiting-Software
 https://www.microsoft.com/en-us/research/publication/lock-free-data-structures-using-stms-in-haskell/
 https://salkhordeh.de/publication/haskell-icfp/
 https://dspace.library.uu.nl/bitstream/handle/1874/362670/Hlogo.pdf?isAllowed=y&sequence=1
+https://hackage.haskell.org/package/system-filepath/docs/Filesystem-Path.html
+https://hackage.haskell.org/package/fast-logger/docs
+https://hackage.haskell.org/package/fast-logger-2.2.3/docs/System-Log-FastLogger.html
+https://hackage.haskell.org/package/filesystem-trees/docs/System-File-Tree.html
+https://hackage.haskell.org/package/path
+https://hackage.haskell.org/package/file-io/docs/System-File-OsPath.html
+https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/doc-index.html
+https://hackage-content.haskell.org/package/log-base-0.12.1.0/docs/Log-Logger.html
+https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/resource-management/the-use-keyword
+https://www2.imm.dtu.dk/~mire/FSharpBook/
+https://www.packtpub.com/en-us/product/mastering-f-9781784396848
+https://books.out.csli.me/NonFiction/Programming/no%20starch%20press/Book%20of%20F%23%20Breaking%20Free%20with%20Managed%20Functional%20Programming.pdf
+https://up.4read.net/zahef/books/1653713845.pdf
+https://citeseerx.ist.psu.edu/document?doi=8e3262faee04030ea0c6f97a79242842670a2f09&repid=rep1&type=pdf
