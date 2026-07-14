@@ -29243,3 +29243,4 @@ https://eprints.nottingham.ac.uk/11457/1/11457.pdf
 https://uu.diva-portal.org/smash/record.jsf?pid=diva2:1369286
 https://hackage.haskell.org/package/hxt-7.3/src/doc/thesis.pdf
 https://h-deb.ca/Liens/Paradigmes-programmation--Liens.html
+https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranju.pdf
