@@ -30329,3 +30329,15 @@ https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Contro
 https://en.wikibooks.org/wiki/Haskell/FFI
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-compact-0.1.0.0-inplace/GHC-Compact.html
 https://www.stackage.org/lts-8.22/package/ghc-prim-0.5.0.0
+https://archlinux.org/packages/extra/x86_64/haskell-unliftio/
+https://packagehub.suse.com/packages/ghc-unliftio/
+https://www.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
+https://flora.pm/packages/%40hackage/resourcet/1.2.4.3/changelog
+https://hackage.haskell.org/package/resourcet-0.4.3/docs
+https://flora.pm/packages/%40hackage/resourcet
+https://hackage-content-origin.haskell.org/package/conduit-1.2.8/docs/doc-index-C.html
+https://hackage-origin.haskell.org/package/conduit-1.2.13/docs/src/Data-Conduit-List.html
+https://flora.pm/packages/%40hackage/rio/0.1.24.0/changelog
+https://www.stackage.org/lts-21.11/package/effectful-2.2.2.0
+https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-KVStore.html
+https://hackage-content.haskell.org/package/polysemy-http-0.13.1.0/docs/doc-index.html
