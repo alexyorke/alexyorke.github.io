@@ -30400,3 +30400,7 @@ https://arxiv.org/abs/2208.04699
 https://www.cs.tufts.edu/comp/150PLD/hw01-1.html
 https://commons.wikimedia.org/wiki/File%3AImperative_to_Functional_Programming.pdf
 https://external.dandelon.com/download/attachments/dandelon/ids/DE004C5162AB38F016FCBC1257A2B002867B4.pdf
+https://dl.acm.org/doi/pdf/10.1145/2804302.2804319
+https://shmish111.github.io/2018/09/23/freer-than-free/
+https://tweag.io/blog/2018-02-05-free-monads/
+https://deepwiki.com/fused-effects/fused-effects/1-overview
