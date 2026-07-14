@@ -29745,3 +29745,15 @@ https://www.cs.caltech.edu/courses/cs11/material/haskell/lectures/haskell_lectur
 https://www.youtube.com/playlist?list=PLYItvall0TqIZ_ih1mSoc1roCZGIfj8-t
 https://www.youtube.com/playlist?list=PLYItvall0TqLedblNsncIUfk3cHv_FS7O
 https://riptutorial.com/Download/haskell-language-es.pdf
+https://hackage.haskell.org/package/data-effects/docs
+https://www.stackage.org/nightly-2026-01-01/package/concurrency-1.11.0.3
+https://www.stackage.org/package/data-effects-th
+https://www.stackage.org/package/encoding-io
+https://www.stackage.org/lts-10.2/package/transformers-0.5.2.0
+https://www.stackage.org/lts-21.4/package/io-storage-0.3
+https://www.stackage.org/nightly-2019-07-31/package/io-manager-0.1.0.2
+https://www.stackage.org/nightly-2019-12-22/package/io-manager-0.1.0.2
+https://www.stackage.org/nightly-2022-12-17/package/io-manager-0.1.0.3
+https://homes.cs.washington.edu/~djg/theses/ColinGordon_dissertation.pdf
+https://link.springer.com/content/pdf/10.1007/3-540-44854-3.pdf
+https://repository.ubn.ru.nl/bitstream/handle/2066/26969/26969_genefupr.pdf?sequence=1
