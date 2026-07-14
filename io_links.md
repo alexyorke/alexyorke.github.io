@@ -30604,3 +30604,8 @@ https://hackage.haskell.org/package/streaming-process/docs/Streaming-Process.htm
 https://downloads.haskell.org/~ghc/6.12-latest/docs/users_guide.pdf
 https://hackage.haskell.org/package/terminal-0.2.0.0/docs/System-Terminal.html
 https://hackage.haskell.org/package/shh/docs/Shh.html
+https://berniepope.id.au/assets/files/BerniePope.PhD.Thesis.pdf
+https://hackage.haskell.org/package/in-other-words/docs/Control-Effect-Reader.html
+https://www.mobt3ath.com/uplode/book/book-99705.pdf
+https://bindthegap.news/issues/BindTheGap-01Nov2020.pdf
+https://discourse.haskell.org/t/adventures-assembling-records-of-capabilities/623
