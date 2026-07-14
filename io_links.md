@@ -30495,3 +30495,4 @@ https://icfp21.sigplan.org/details/icfp-2021-papers/1/Client-Server-Sessions-in-
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022/LIPIcs.ECOOP.2022.pdf
 https://arxiv.org/abs/1603.03727
 https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-IO-Handle.html
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/exceptions-0.10.4/Control-Monad-Catch.html
