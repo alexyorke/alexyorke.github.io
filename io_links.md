@@ -30867,3 +30867,12 @@ https://reactiveml.github.io/papers/MandelPlateau-draft-2010-rmltop.pdf
 https://remyzorg.github.io/papers/splashws16reblsmain.pdf
 https://www.lri.fr/~mandel/papers/MandelPlateau-draft-2010-rmltop.pdf
 https://icfp19.sigplan.org/details/haskellsymp-2019-papers/13/Synthesizing-Functional-Reactive-Programs
+https://hackage.haskell.org/package/hinotify
+https://fsharpwindowsservices.wordpress.com/2019/11/07/watching-files/
+https://softwarepatternslexicon.com/f-sharp/reactive-programming-patterns/observer-pattern-with-iobservable-and-iobserver/
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-observablemodule.html
+https://www.idt.mdh.se/kurser/DVA229/slides/reactive.pdf
+https://www.nuget.org/packages/ReactiveFileSystemWatcher
+https://www.idt.mdh.se/kurser/DVA229/slides/reactive-4up.pdf
+https://ifl2014.github.io/submissions/ifl2014_submission_4.pdf
+https://simonjf.com/drafts/reactive-abstractions.pdf
