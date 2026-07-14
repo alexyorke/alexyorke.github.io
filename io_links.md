@@ -29982,3 +29982,11 @@ https://www.reddit.com/r/haskellquestions/comments/es71yt
 https://www.stackage.org/package/iteratee
 https://www.stackage.org/package/iteratee-0.8.9.5
 https://www.stackage.org/package/iteratee-mtl
+https://doi.org/10.1016/0890-5401(91)90052-4
+https://hackage.haskell.org/package/effectful-core-2.0.0.0/docs/doc-index-I.html
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Exception.html
+https://hackage.haskell.org/package/effectful-core-2.6.1.0/docs/
+https://hackage.haskell.org/package/monad-effect-0.2.3.1/docs/
+https://hackage.haskell.org/package/polysemy-zoo/docs
+https://www.nrtec.in/wp-content/uploads/2019/11/R19-M.TECH-CSE.pdf
+https://www.sciencedirect.com/science/article/pii/S2405896322027331
