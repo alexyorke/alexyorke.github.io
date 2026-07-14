@@ -31081,3 +31081,17 @@ https://ocaml-multicore.github.io/eio/eio/Eio_unix/Process/index.html
 https://ocaml.github.io/ocamlunix/toc.html
 https://projects.camlcity.org/projects/dl/ocamlnet-4.0.2/doc/html-main/Netsys_posix.html
 https://www.cl.cam.ac.uk/~jjl25/docs/ocaml/Unix/index.html
+https://hackage.haskell.org/package/process
+https://hackage.haskell.org/package/process-1.6.11.0
+https://hackage.haskell.org/package/process-1.6.6.0
+https://hackage.haskell.org/package/process-1.6.18.0
+https://hackage.haskell.org/package/process-1.6.23.0
+https://hackage.haskell.org/package/angel
+https://ocaml.org/p/lwt/4.3.0/doc/lwt.unix/Lwt_process/index.html
+https://ocaml.org/p/lwt/4.2.1-1/doc/lwt.unix/Lwt_process/index.html
+https://ocaml.org/u/9a8383bd67a996e84bf1f19865223e33/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_process/index.html
+https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_unix/index.html
+https://ocaml.org/p/lwt/6.1.0/doc/lwt.unix/Lwt_unix/index.html
+https://opam.ocamllabs.io/packages/lwt/lwt.6.0.0~alpha00/
+https://www.sciencedirect.com/science/article/pii/S1571066109004447
+https://citeseerx.ist.psu.edu/document?doi=a4382318df903cbb166d51021e7ed7d9005638ee&repid=rep1&type=pdf
