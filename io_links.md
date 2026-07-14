@@ -30270,3 +30270,10 @@ https://cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
 https://hackage.haskell.org/package/read-io
 https://files.core.ac.uk/download/553630896.pdf
 https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Central%20European%20Functional%20Programming%20School%2C%202%20school%2C%20CEFP%202007%28LNCS5161%2C%20Springer%2C%202008%29%28ISBN%209783540880585%29%28308s%29.pdf
+https://www.cl.cam.ac.uk/teaching/2526/DenotSem/materials.html
+https://www8.cs.fau.de/teaching/ss23/mbprog/
+https://cse.sc.edu/~mgv/csce330f07/lectureNotes/index.html
+https://www.cs.utexas.edu/~bornholt/courses/cs345h-24sp/lectures/2-interpreters/
+https://en.wikibooks.org/wiki/Haskell/Denotational_semantics
+https://idris2.readthedocs.io/en/stable/app/
+https://files.core.ac.uk/download/62781956.pdf
