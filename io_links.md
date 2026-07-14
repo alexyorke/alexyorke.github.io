@@ -30456,3 +30456,6 @@ https://yangzhixuan.github.io/pdf/yang-thesis.pdf
 https://www.sciencedirect.com/science/article/pii/S0304397506009169
 https://scalasummerschool.github.io/lectures/
 https://studylib.net/doc/27608253/functional-programing-in-kotlin
+https://xnning.github.io/papers/effect-handlers-evidently.pdf
+https://xnning.github.io/papers/multip.pdf
+https://arxiv.org/abs/1905.02033
