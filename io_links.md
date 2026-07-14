@@ -28795,7 +28795,6 @@ https://eprints.nottingham.ac.uk/11457/files/10391401.pdf
 https://hackage.haskell.org/package/aivika-1.1/src/aivika.pdf
 https://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/io-tutorial.ps.gz
 https://cris.maastrichtuniversity.nl/en/publications/monadic-systems/
-https://es.wikipedia.org/wiki/M%C3%B3nada_%28programación_funcional%29
 https://slideserve.com/bairn/the-io-monad
 https://stackoverflow.com/questions/18422099/monads-current-state-of-the-art-to-do-io-in-pure-languages?noredirect=1
 https://citeseerx.ist.psu.edu/document?doi=12c79a2c28194c6585ed51691f015d3a9c26dc1f&repid=rep1&type=pdf
