@@ -29244,3 +29244,5 @@ https://uu.diva-portal.org/smash/record.jsf?pid=diva2:1369286
 https://hackage.haskell.org/package/hxt-7.3/src/doc/thesis.pdf
 https://h-deb.ca/Liens/Paradigmes-programmation--Liens.html
 https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranju.pdf
+https://ncatlab.org/nlab/show/Eugenio_Moggi
+https://ucsd-cse130.github.io/wi21/lectures/09-io.html
