@@ -30217,3 +30217,5 @@ https://stackoverflow.com/questions/19917582/type-in-haskell-explanation-of-io
 https://stackoverflow.com/a/44979
 https://www.educative.io/blog/haskell-tutorial
 https://hackage.haskell.org/package/attoparsec-iteratee/docs
+https://mailman.haskell.org/archives/list/haskell%40haskell.org/
+https://www.fceia.unr.edu.ar/~mauro/publications/theses/200909_phd.html
