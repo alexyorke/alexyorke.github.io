@@ -30189,3 +30189,9 @@ https://www.stackage.org/lts-22.35/package/monad-peel-0.3
 https://www.stackage.org/lts-23.13/package/monad-peel-0.3
 https://www.stackage.org/lts-24.24/package/monad-peel-0.3
 https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11
+https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/E9F6A3ABEC907BAA7C2F1E8810106BA5
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F4A86F27A77CAC76080B5F79667E619/S0956796816000071a.pdf/composable-scheduler-activations-for-haskell.pdf
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616ACD5687ABDC86D2B341E83D298/S0956796807006326a.pdf/applicative-programming-with-effects.pdf
+https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3
+https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1
+https://www.stackage.org/nightly-2025-02-20/package/monad-control-1.0.3.1
