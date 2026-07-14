@@ -30571,3 +30571,6 @@ https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/GHC.ST.html
 https://hackage.haskell.org/package/base-4.14.1.0/docs/GHC-Exts.html
 https://haskell.fi.muni.cz/doc/ghc-prim-0.5.3/GHC-Prim.html
 https://downloads.haskell.org/ghc/6.10.3/docs/users_guide.pdf
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/Control-Monad-IO-Class.html
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad.html
+https://www.haskell.org/onlinereport/exps.html
