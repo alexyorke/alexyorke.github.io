@@ -29796,3 +29796,10 @@ https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System
 https://cse.sc.edu/~mgv/csce330f17/haskell/haskell2010.pdf
 https://www.reddit.com/r/haskell/comments/16ophex/can_you_handle_side_effects_in_haskell_without/
 https://www.cs.cmu.edu/~popl-interviews/peytonjones.html
+https://allstar.jhuapl.edu/repo/p1/i386/haskell98-report/doc/haskell98-report.ps.gz
+https://programminglanguages.info/language/haskell/
+https://hackage.haskell.org/package/Data.Array.IO
+https://hackage.haskell.org/package/monad-base
+https://hackage.haskell.org/package/MonadCatchIO-mtl
+https://hackage.haskell.org/package/exceptions-0.8.0.2/docs/Control-Monad-Catch.html
+https://hackage.haskell.org/package/MonadCatchIO-mtl-0.3.0.3/docs
