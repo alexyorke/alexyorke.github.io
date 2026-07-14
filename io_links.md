@@ -30205,3 +30205,5 @@ https://www.stackage.org/nightly-2015-11-27/package/io-choice-0.0.5
 https://www.stackage.org/nightly-2016-02-19/package/io-choice-0.0.5
 https://www.stackage.org/nightly-2019-07-31/package/io-choice-0.0.7
 https://www.cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html
+https://pt.everand.com/book/405701408/Haskell-Uma-introducao-a-programacao-funcional
+https://www.cin.ufpe.br/~alms/pdf/aspecth_rita.pdf
