@@ -30207,3 +30207,6 @@ https://www.stackage.org/nightly-2019-07-31/package/io-choice-0.0.7
 https://www.cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html
 https://pt.everand.com/book/405701408/Haskell-Uma-introducao-a-programacao-funcional
 https://www.cin.ufpe.br/~alms/pdf/aspecth_rita.pdf
+https://www.ci.nii.ac.jp/crid/1360586669745382528
+https://www.publishersweekly.com/9781681440033
+https://youtu.be/oDqHNkQK97k
