@@ -29264,3 +29264,8 @@ https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.21.0.0/Control-Mo
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.21.0.0/System-IO.html
 https://hoogle.haskell.org/?hoogle=liftIO
 https://hoogle.haskell.org/?hoogle=MonadIO
+https://www.cmi.ac.in/~madhavan/courses/programming06/spj-marktoberdorf.pdf
+https://hackage.haskell.org/package/basic-prelude/docs/CorePrelude.html
+https://hackage.haskell.org/package/hashtables
+https://hackage.haskell.org/packages/candidates
+https://en.wikipedia.org/wiki/Haskell_features_%28programming_language%29
