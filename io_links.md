@@ -29361,3 +29361,17 @@ https://anyflip.com/anjn/nmbp/basic
 https://dokumen.pub/monads-for-functional-programming.html
 https://fr.wikipedia.org/wiki/Monade_(informatique)
 https://www.reddit.com/r/haskell/comments/e7xwsm/haskell_articles_in_pdf_book_format/
+https://archlinux.org/packages/extra/x86_64/haskell-unliftio-core/
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-unliftio-core/
+https://mirror.lagoon.nc/raspbian/raspbian/pool/main/h/haskell-unliftio-core/
+https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg38879.html
+https://hackage-content.haskell.org/package/Salsa-0.2.0.1/src/Docs/Thesis.pdf
+https://www.docslides.com/olivia-moreira/ynot-reasoning-with-the-awkward
+https://m.youtube.com/watch?v=RS3X-KpefdE
+https://www.youtube.com/watch?v=02_H3LjqMr8
+https://www.youtube.com/watch?v=2IZQx7WNOMs
+https://www.youtube.com/watch?v=jLj1QV11o9g
+https://www.youtube.com/watch?v=K1UjjcdBYp0
+https://www.youtube.com/watch?v=lC5UWG5N8oY
+https://www.youtube.com/watch?v=UBgam9XUHs0
+https://www.youtube.com/watch?v=xcB_LF3cdqw
