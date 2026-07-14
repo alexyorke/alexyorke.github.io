@@ -29300,3 +29300,5 @@ https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0/Control-Mon
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0/Control-Monad-IO-Class.html
 https://downloads.haskell.org/ghc/9.12.1/docs/libraries/base-4.21.0.0/Control-Monad-IO-Class.html
 https://hackage-content.haskell.org/package/CheatSheet-2.4/src/CheatSheet.pdf
+https://sgeos.github.io/programming-languages/theory/history/2026/04/02/the_1990s.html
+https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/D59AB616739BEEF223327F3E4B7D762B
