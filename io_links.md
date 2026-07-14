@@ -29410,3 +29410,8 @@ https://blog.reverberate.org/2015/08/monads-demystified.html
 https://livebook.manning.com/book/functional-design-and-architecture/appendix-b-v-12
 https://www.reddit.com/r/haskell/comments/1dqmvt0/well-typed-part-5-io-and-explicit-effects-of-the-free-video-based-haskell-introduction-course/
 https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_part_6_of_the_free-video-based-haskell-introduction-course/
+https://hackage.haskell.org/package/errors-ext-0.2
+https://hackage.haskell.org/package/hashmap-io-0.1.0.0
+https://www.youtube.com/playlist?list=PLYItvall0TqKPbnSblJ_fxNIFRgEoI-7_
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-State-Strict.html
+https://www.youtube.com/playlist?list=PLF1Z-APd9zK6mud3DkxKBQ4gUfxmU1Asy
