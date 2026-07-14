@@ -30128,3 +30128,7 @@ https://www.stackage.org/nightly-2018-02-27/package/transformers-0.5.2.0
 https://www.stackage.org/nightly-2021-03-19/package/io-manager-0.1.0.3
 https://www.stackage.org/nightly-2026-03-20/package/monad-parallel-0.8.0.1
 https://www.stackage.org/package/monad-log
+https://citeseerx.ist.psu.edu/document?doi=01249e95e1fe350dc3569aec1d46a6613219698c&repid=rep1&type=pdf
+https://hackage.haskell.org/package/fused-effects-exceptions-0.1.0.0
+https://ir.canterbury.ac.nz/server/api/core/bitstreams/5545fb17-ef38-4f0a-bf8e-5c7e5a4b6994/content
+https://www.youtube.com/watch?v=ryMkvAOJk20
