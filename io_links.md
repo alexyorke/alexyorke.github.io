@@ -30830,3 +30830,14 @@ https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf
 https://www.tutorialspoint.com/fsharp/pdf/fsharp_basic_io.pdf
 https://www.idt.mdh.se/kurser/DVA229/slides/io.pdf
 https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Handle.html
+https://hackage.haskell.org/package/text-icu
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Text.html
+https://hackage-origin.haskell.org/package/text-2.0.1/docs/Data-Text-Encoding.html
+https://hackage.haskell.org/package/text-1.1.1.3/docs/Data-Text-Encoding.html
+https://hackage-content.haskell.org/package/utf8-string-0.3.7.
+https://hackage-content.haskell.org/package/text-2.1.4/docs/Data-Text-IO.html
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-IO-Encoding.html
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/libraries/base-4.9.1.0/GHC-IO-Encoding.html
+https://www.baeldung.com/scala/fs2-functional-streams
+https://index.scala-lang.org/typelevel/fs2/fs2-io/3.12.0?binary-version=_sjs1_3
+https://index.scala-lang.org/spinoco/fs2-http
