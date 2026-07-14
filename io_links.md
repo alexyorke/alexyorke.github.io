@@ -30313,3 +30313,5 @@ https://www.etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf
 https://markwatson.com/books/haskell-cookbook-site/
 https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg9e5W8ZQyXmYqg5PpkEjxovze6DB84dpj6
 https://link.springer.com/chapter/10.1007/978-3-030-17184-1_6
+https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/concurrent-and-distributed-programming-in-haskell-12/section/working-with-ioref-ch12lvl1sec97
+https://www.google.com/books?id=nh0okI1a1sQC
