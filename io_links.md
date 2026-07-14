@@ -29689,3 +29689,13 @@ https://downloads.haskell.org/~ghc/6.4/docs/users_guide.pdf
 https://citeseerx.ist.psu.edu/document?doi=1de67f7991ae9c97e08a1acf2bc354b64f932433&repid=rep1&type=pdf
 https://discourse.haskell.org/t/looking-back-on-that-denotative-future/6904
 https://videos.insa-lyon.fr/video/0070-monades-et-entrees-sorties/?is_iframe=true
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/System-IO.html
+https://hackage.haskell.org/package/data-effects-core-0.4.2.0/docs/Control-Effect.html
+https://hackage.haskell.org/package/base-4.15.0.0/docs/src/GHC-Base.html#Applicative
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/libraries/base/src/System-IO-Unsafe.html
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs
+https://downloads.haskell.org/ghc/9.0.1-rc1/docs/html/libraries/base-4.15.0.0/GHC-GHCi.html
+https://haskell.org/communities/06-2006/report.pdf
+https://haskell.org/communities/11-2016/report.pdf
+https://sciencedirect.com/science/article/pii/S0167642315004062
+https://arxiv.org/abs/1412.4880
