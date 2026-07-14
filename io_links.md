@@ -29325,3 +29325,10 @@ https://hackage.haskell.org/package/unliftio-streams-0.1.0.0
 https://hackage.haskell.org/package/unliftio-streams-0.1.0.0/docs
 https://hackage.haskell.org/package/heftia-effects-0.6.0.0
 https://docs.idris-lang.org/en/v0.9.19/tutorial/classes.html
+https://hackage.haskell.org/package/effet-0.4.0.0/docs
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class.html
+https://hackage.haskell.org/package/transformers-base
+https://hackage-content.haskell.org/package/effectful-core-2.3.1.0/docs/src/Effectful.html
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful-Exception.html
+https://hackage.haskell.org/package/monad-control-1.0.3.1/changelog
+https://hackage-content.haskell.org/package/manatee-pdfviewer-0.1.0/src/data/welcome/LearnYouAHaskell.pdf
