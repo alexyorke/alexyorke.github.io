@@ -29415,3 +29415,14 @@ https://hackage.haskell.org/package/hashmap-io-0.1.0.0
 https://www.youtube.com/playlist?list=PLYItvall0TqKPbnSblJ_fxNIFRgEoI-7_
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-State-Strict.html
 https://www.youtube.com/playlist?list=PLF1Z-APd9zK6mud3DkxKBQ4gUfxmU1Asy
+https://hackage.haskell.org/package/base-4.15.0.0/docs/Control-Applicative.html
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-Prim-IORef.html
+https://hackage-content.haskell.org/packages/
+https://digicoll.lib.berkeley.edu/record/33633
+https://downloads.haskell.org/ghc/5.04/docs/html/base/GHC.IOBase.html
+https://leanpub.com/read/haskell-cookbook/tutorial-on-impure-haskell-programming
+https://ranjitjhala.github.io/static/vazou.pdf
+https://retis.santannapisa.it/luca/FPT/Old-2021/
+https://www.slideserve.com/lee/programming-in-haskell
+https://ycce.edu/wp-content/uploads/2026/01/FinaI_1-6Sem_SoE_Syllab_2023_CT_23-24_onwards.pdf
+https://crypto.stanford.edu/~blynn/zh23/sly.html
