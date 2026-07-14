@@ -30398,3 +30398,5 @@ https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/CP/Materia
 https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0276&repid=rep1&type=pdf
 https://arxiv.org/abs/2208.04699
 https://www.cs.tufts.edu/comp/150PLD/hw01-1.html
+https://commons.wikimedia.org/wiki/File%3AImperative_to_Functional_Programming.pdf
+https://external.dandelon.com/download/attachments/dandelon/ids/DE004C5162AB38F016FCBC1257A2B002867B4.pdf
