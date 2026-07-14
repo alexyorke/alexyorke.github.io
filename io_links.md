@@ -30300,3 +30300,10 @@ https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_pdf
 https://eprints.gla.ac.uk/226006/1/226006.pdf
 https://homepage.divms.uiowa.edu/~jgmorrs/pubs/lindley-hs2016-gvhs.pdf
 https://tannerduve.github.io/blog/freer-monad/part-1/
+https://doi.org/10.1145%2F2914770.2837655
+https://www.research.ed.ac.uk/en/publications/handlers-of-algebraic-effects/
+https://ocaml.org/papers
+https://rubenpieters.github.io/assets/papers/JFP20-handlers.pdf
+https://corophage.rs/
+https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf
+https://www.baeldung.com/scala/cats-effect
