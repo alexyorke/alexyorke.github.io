@@ -29716,3 +29716,7 @@ https://hackage-content-origin.haskell.org/package/haddock-use-refs
 https://www.reddit.com/r/haskell/comments/n1pd7u/free-online-intro-advanced-haskell-courses-youtube/
 https://www.reddit.com/r/haskell/comments/1dvvkms/
 https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/monads.pdf
+https://www.stackage.org/lts-23.13/package/effectful-2.5.1.0
+https://codes-isss.org/dl_subdomain/citation_id_1291151_preflayout_flat/
+https://kennethalambert.com/haskell/index.html
+https://haskell.org/onlinereport/io.html
