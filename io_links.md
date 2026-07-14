@@ -30488,3 +30488,4 @@ https://nokomprendo.gitlab.io/posts/tuto_111/2024-05-29-fr-README.html
 https://sir4ur0n.github.io/posts/polysemy-tests.html
 https://www.iog.io/api/research/pdf/5P4V3WEG
 https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Algebra.html
+https://ghc-proposals.readthedocs.io/en/latest/proposals/0313-delimited-continuation-primops.html
