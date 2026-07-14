@@ -30563,3 +30563,6 @@ https://www.classcentral.com/course/youtube-learn-f-59595
 https://learn.microsoft.com/en-us/shows/dotnetconf-focus-on-fsharp/starting-your-fsharp-journey
 https://anil.recoil.org/papers/2021-pldi-retroeff.pdf
 https://ocaml.org/manual/5.2/effects.html
+https://arxiv.org/abs/2211.13140
+https://www.cambridge.org/core/books/a-practical-introduction-to-denotational-semantics/80122D52B49F175D38E0478EA45D4EDD
+https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ
