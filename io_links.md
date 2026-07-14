@@ -30224,3 +30224,7 @@ https://hackage-content.haskell.org/package/io-effects-0.1.0/candidate/docs/IO-E
 https://dblp.org/rec/conf/haskell/KiselyovI15.html
 https://vstill.eu/papers/2020/hsExprTest.pdf
 https://bracevac.org/assets/pdf/DissertationBracevac05112019.pdf
+https://haskell.org/hugs/pages/libraries/base/Control-Monad.html
+https://discourse.haskell.org/t/haskell-cafe-searchable-archive/4742
+https://mailman.haskell.org/mailman3/lists/haskell-cafe.haskell.org/
+https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/
