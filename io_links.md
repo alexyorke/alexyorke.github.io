@@ -29290,3 +29290,13 @@ https://web.mit.edu/6.827/www/old/lectures/L15-Monadic-IO.ppt
 https://downloads.haskell.org/ghc/9.0.2/docs/libraries/ghc-9.0.2/GHC-Data-IOEnv.html
 https://hackage-content.haskell.org/package/base-4.18.3.0/candidate/docs/src/Data.IORef.html
 https://hackage-content.haskell.org/package/base-4.21.0.0/candidate/docs/src/Control.Exception.html
+https://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-346/
+https://www.research.ed.ac.uk/en/publications/adequacy-for-infinitary-algebraic-effects-abstract
+https://ltu.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf
+https://downloads.haskell.org/ghc/9.4.8/docs/users_guide.pdf
+https://downloads.haskell.org/ghc/9.6.6/docs/users_guide.pdf
+https://downloads.haskell.org/ghc/9.8.4/docs/users_guide.pdf
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0/Control-Monad-IO-Class.html
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0/Control-Monad-IO-Class.html
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/base-4.21.0.0/Control-Monad-IO-Class.html
+https://hackage-content.haskell.org/package/CheatSheet-2.4/src/CheatSheet.pdf
