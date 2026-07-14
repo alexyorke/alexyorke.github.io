@@ -30394,3 +30394,5 @@ https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/
 https://www-users.york.ac.uk/~sf786/Thesis.pdf
 https://www.pls-lab.org/en/Freer_monads
 https://hackage-content-origin.haskell.org/package/extensible-effects-1.2.1
+https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/cp1920f12.pdf
+https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0276&repid=rep1&type=pdf
