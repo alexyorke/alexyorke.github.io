@@ -30268,3 +30268,5 @@ https://cardanofeed.com/learn/haskell-course
 https://zenn.dev/hand_accident/articles/7c681979acf9dc
 https://cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
 https://hackage.haskell.org/package/read-io
+https://files.core.ac.uk/download/553630896.pdf
+https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Central%20European%20Functional%20Programming%20School%2C%202%20school%2C%20CEFP%202007%28LNCS5161%2C%20Springer%2C%202008%29%28ISBN%209783540880585%29%28308s%29.pdf
