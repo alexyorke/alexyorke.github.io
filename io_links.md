@@ -30435,3 +30435,6 @@ https://discourse.haskell.org/t/haskell-implementors-workshop-hiw-2025-videos-on
 https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
 https://researchportalplus.anu.edu.au/en/publications/capabilities-effects-for-free/
 https://experts.mcmaster.ca/scholarly-works/2169982
+https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_article/-char/en
+https://arxiv.org/abs/2312.06103
+https://www.cs.uwyo.edu/~jlc/papers/extracting-bind-final.pdf
