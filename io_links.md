@@ -30173,3 +30173,9 @@ https://www.csse.canterbury.ac.nz/walter.guttmann/publications/0026.pdf
 https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3
 https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0
 https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0
+https://www.cambridge.org/core/article/10.1017/S0956796800001611
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf
+https://www.haskell.org/onlinereport/haskell98-report.pdf
+https://www.stackage.org/nightly-2015-07-12/package/monad-stm-0.1.0.2
+https://www.stackage.org/nightly-2016-02-19/package/monad-stm-0.1.0.2
+https://www.stackage.org/nightly-2016-02-29/package/monad-stm
