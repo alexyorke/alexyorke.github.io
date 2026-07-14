@@ -29281,3 +29281,12 @@ https://hoogle.haskell.org/?q=IO+String+-%3E+String&start=75
 https://www.stackage.org/package/easy-logger
 https://www.stackage.org/lts-24.42/hoogle?page=6&q=liftIO
 https://www.stackage.org/lts-6.1/package/io-storage-0.3
+https://downloads.haskell.org/~ghc/6.2/docs/html/hslibs/sec-ioexts.html
+https://cs.pomona.edu/~kim/CSC181S16/Lectures/Lecture7/Lecture7.pdf
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-System-IO.html
+https://repositum.tuwien.at/handle/20.500.12708/15469
+https://uuinfofp.github.io/lectures.html
+https://web.mit.edu/6.827/www/old/lectures/L15-Monadic-IO.ppt
+https://downloads.haskell.org/ghc/9.0.2/docs/libraries/ghc-9.0.2/GHC-Data-IOEnv.html
+https://hackage-content.haskell.org/package/base-4.18.3.0/candidate/docs/src/Data.IORef.html
+https://hackage-content.haskell.org/package/base-4.21.0.0/candidate/docs/src/Control.Exception.html
