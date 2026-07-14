@@ -30481,3 +30481,10 @@ https://agda.readthedocs.io/en/v2.7.0/overview.html
 https://idris-community.github.io/idris2-tutorial/
 https://avigad.github.io/programming_in_lean/
 https://wiki.portal.chalmers.se/agda/ReferenceManual/StructureOfAnAgdaProgram
+https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd3528767935317507965&repid=rep1&type=pdf
+https://arxiv.org/abs/2105.05133
+https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic3.pdf
+https://nokomprendo.gitlab.io/posts/tuto_111/2024-05-29-fr-README.html
+https://sir4ur0n.github.io/posts/polysemy-tests.html
+https://www.iog.io/api/research/pdf/5P4V3WEG
+https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Algebra.html
