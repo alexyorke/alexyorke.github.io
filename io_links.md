@@ -29501,7 +29501,6 @@ https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=IYYu54iJ
 https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=e29BRfuiwnk
 https://www.stackage.org/package/path-io
 https://hackage.haskell.org/package/packages/
-https://es.wikipedia.org/wiki/M%C3%B3nada_%28programación_funcional%29
 https://packages.debian.org/bookworm/amd64/haskell/
 https://wiki.nixos.org/wiki/Haskell
 https://users.cs.northwestern.edu/~robby/pubs/
