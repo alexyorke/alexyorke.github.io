@@ -30228,3 +30228,4 @@ https://haskell.org/hugs/pages/libraries/base/Control-Monad.html
 https://discourse.haskell.org/t/haskell-cafe-searchable-archive/4742
 https://mailman.haskell.org/mailman3/lists/haskell-cafe.haskell.org/
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/
+https://scienceblogs.com/goodmath/2007/01/23/haskell-a-first-step-into-mona-1
