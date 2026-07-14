@@ -30219,3 +30219,4 @@ https://www.educative.io/blog/haskell-tutorial
 https://hackage.haskell.org/package/attoparsec-iteratee/docs
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/
 https://www.fceia.unr.edu.ar/~mauro/publications/theses/200909_phd.html
+https://flora.pm/packages/%40hackage/unliftio/0.2.15/changelog
