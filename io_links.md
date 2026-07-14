@@ -29567,3 +29567,8 @@ https://www.reddit.com/r/haskell/comments/1dazfsr/welltyped_announcing_a_free_vi
 https://classes.cs.uchicago.edu/archive/2008/winter/22300-1/
 https://archiv.infsec.ethz.ch/intranet_secured/education/ss11/fmfp/fp_material_secured/w7-monads.pdf/w7-monads.1.pdf
 https://www.cs.us.es/~jalonso/apuntes/Categorias_y_programacion/Categorias_y_programacion.html
+https://downloads.haskell.org/~ghc/6.0/docs/html/base/System-IO.html
+https://downloads.haskell.org/ghc/5.04/docs/html/base/System.IO.html
+https://cs.brown.edu/~sk/Publications/Papers/Published/fffk-functional-io/
+https://twitchard.github.io/posts/2020-07-26-monads.html
+https://xmonad.github.io/xmonad-docs/xmonad/XMonad.html
