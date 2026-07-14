@@ -29311,3 +29311,17 @@ https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs
 https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/src/GHC.Internal.IO.html
 https://accu.org/journals/overload/21/114/deigh_1869/
 https://www.cs.tufts.edu/~nr/cs257/archive/jeremy-gibbons/unifying-theories-with-monads.pdf
+https://doi.org/10.1145/3674648
+https://hackage.haskell.org/package/unliftio-streams-0.2.0.0/docs
+https://hackage.haskell.org/package/rio-0.0.2.0/docs
+https://hackage.haskell.org/package/capabilities-0.5.0/docs
+https://hackage.haskell.org/package/cleff-0.4.0/docs
+https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs
+https://hackage.haskell.org/package/fused-effects-1.1.2.3/docs
+https://hackage.haskell.org/package/polysemy-1.9.2.0/docs
+https://hackage.haskell.org/package/rio-0.1.0.0/docs
+https://hackage.haskell.org/package/rio-0.10.4/docs
+https://hackage.haskell.org/package/unliftio-streams-0.1.0.0
+https://hackage.haskell.org/package/unliftio-streams-0.1.0.0/docs
+https://hackage.haskell.org/package/heftia-effects-0.6.0.0
+https://docs.idris-lang.org/en/v0.9.19/tutorial/classes.html
