@@ -30848,3 +30848,10 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCC
 https://ocaml.org/p/async/v0.16.0/doc/index.html
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C8AF236F4E87677B5A5D9E522506273D/9781009125802c17_297-324.pdf/concurrent_programming_with_async.pdf
 https://www.cs.cornell.edu/courses/cs3110/2015fa/l/16-conc/lec.pdf
+https://pursuit.purescript.org/packages/purescript-aff/4.1.1/docs/Control.Monad.Aff.Console
+https://pursuit.purescript.org/packages/purescript-node-streams-aff/2.0.0/docs/Node.Stream.Aff
+https://pursuit.purescript.org/packages/purescript-effect/3.0.0/docs/Effect
+https://www.objc.io/books/functional-swift/
+https://www.objc.io/books/functional-swift
+https://www.slideshare.net/slideshow/functional-programming-in-scala-1st-edition-paul-chiusano/280861388?nway-refresh=B
+https://www.sciencedirect.com/science/article/abs/pii/S0167819111000524
