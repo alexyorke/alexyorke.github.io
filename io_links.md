@@ -30855,3 +30855,15 @@ https://www.objc.io/books/functional-swift/
 https://www.objc.io/books/functional-swift
 https://www.slideshare.net/slideshow/functional-programming-in-scala-1st-edition-paul-chiusano/280861388?nway-refresh=B
 https://www.sciencedirect.com/science/article/abs/pii/S0167819111000524
+https://hackage.haskell.org/package/reactive-banana-0.5.0.3/docs
+https://hackage.haskell.org/package/reactive-jack/docs
+https://hackage-content.haskell.org/package/glib-0.13.12.0/docs/System-Glib-Signals.html
+https://ocaml.org/p/react/latest/doc/README.html
+https://ocaml.org/p/react/latest/doc/index.html
+https://ocaml.org/p/react/latest/doc/react/React/E/index.html
+https://ocaml.org/p/react/latest/react/React/index.html
+https://reactiveml.github.io/documentation.html
+https://reactiveml.github.io/papers/MandelPlateau-draft-2010-rmltop.pdf
+https://remyzorg.github.io/papers/splashws16reblsmain.pdf
+https://www.lri.fr/~mandel/papers/MandelPlateau-draft-2010-rmltop.pdf
+https://icfp19.sigplan.org/details/haskellsymp-2019-papers/13/Synthesizing-Functional-Reactive-Programs
