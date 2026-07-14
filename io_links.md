@@ -29827,3 +29827,8 @@ https://www.stackage.org/nightly-2026-07-08/package/io-machine-0.2.0.0
 https://www.stackage.org/nightly-2026-07-08/package/io-manager-0.1.0.4
 https://www.stackage.org/nightly-2026-07-08/package/io-memoize-1.1.1.0
 https://www.stackage.org/nightly-2026-07-08/package/io-region-0.1.1
+https://ohua-dev.github.io/slides/haskell-19-stclang.pdf
+https://www.reddit.com/r/haskell/comments/nyebuz/video_series_haskell_by_example/
+https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput_concurrency_exceptions_and_foreignlanguage_calls_in_haskell/
+https://www.cs.nott.ac.uk/~pszgmh/FP04/IO.pdf
+https://www.cs.nott.ac.uk/~pszgmh/FP04/IO.ppt
