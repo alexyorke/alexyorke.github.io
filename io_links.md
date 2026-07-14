@@ -30390,3 +30390,4 @@ https://hackage.haskell.org/package/fused-effects-1.1.0.0/changelog
 https://www.reddit.com/r/haskell/comments/1gjbakz/heftia-effects-v05-higherorder-algebraic-effects/
 https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/changelog
+https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/
