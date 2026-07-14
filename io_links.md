@@ -29647,3 +29647,11 @@ https://hackage.haskell.org/package/unexceptionalio
 https://hackage.haskell.org/package/io-string-like
 https://hackage.haskell.org/package/little-rio
 https://mynixos.com/nixpkgs/package/haskellPackages.QIO
+https://stackage.org/package/managed
+https://stackage.org/package/monad-parallel
+https://videos.insa-lyon.fr/video/0049-haskell-un-langage-fonctionnel-pur-et-paresseux/?is_iframe=true
+https://david-davies.github.io/assets/masters.pdf
+https://mail.haskell.org/pipermail/haskell/2009-March/021065.html
+https://datakinds.github.io/2019/05/10/a-basis-for-sequential-execution-monads-arrows-and-more
+https://tromp.github.io/cl/LC.pdf
+https://www.mclibre.org/descargar/docs/revistas/linux-voice/linux-voice-22-en-201601.pdf
