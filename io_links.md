@@ -32175,3 +32175,9 @@ https://hackage-content.haskell.org/package/ghc-9.12.2/docs/GHC-SysTools-Process
 https://hackage-content.haskell.org/package/quick-process-0.0.3/docs/src/System.Process.Quick.CallSpec.Run.html
 https://hackage.haskell.org/package/http-monad-0.0.1/docs
 https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Process.html
+https://hackage.haskell.org/package/linear-base-0.5.0
+https://hackage.haskell.org/package/linear-base-0.5.0/docs
+https://hackage.haskell.org/package/aivika-1.2
+https://hackage.haskell.org/package/katip-0.8.8.4
+https://hackage.haskell.org/package/conduit-1.3.6.1/docs
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs
