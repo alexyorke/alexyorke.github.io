@@ -32523,3 +32523,9 @@ https://arxiv.org/abs/1701.07601
 https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad-powerpoint-presentation
 http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf
 https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/
+https://zenodo.org/records/7062933
+https://ucsd-cse230.github.io/fa23/lectures.html
+https://se.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/
+https://cs.uwaterloo.ca/~yizhou/papers/lexa-oopsla2024.pdf
+https://www.cs.cornell.edu/andru/papers/ufo/
+https://cvs.haskell.org/cgi-bin/cvsweb.cgi/haskell-report/report
