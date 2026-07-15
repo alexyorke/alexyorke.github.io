@@ -32045,3 +32045,5 @@ https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Unsafe.html
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO-Unsafe.html
 https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Foreign.html
 https://downloads.haskell.org/ghc/9.0.2/docs/libraries/base-4.15.1.0/src/GHC.IO.Unsafe.html
+https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume06/issue03/DagRep.6.3/DagRep.6.3.pdf
+https://www.youtube.com/watch?v=gHiyzctYqZ0
