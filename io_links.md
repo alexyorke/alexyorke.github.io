@@ -32939,3 +32939,6 @@ https://haskell25.hotcrp.com/
 https://lists.seas.upenn.edu/pipermail/types-announce/2025/011851.html
 https://mail.haskell.org/pipermail/haskell-cafe/attachments/20250327/b8e0710b/attachment.html
 https://www.mail-archive.com/haskell%40haskell.org/msg27378.html
+https://www.stackage.org/nightly-2026-03-23/package/effectful-2.6.1.0
+https://flora.pm/packages/%40hackage/effectful
+https://mynixos.com/nixpkgs/package/haskellPackages.SoOSiM
