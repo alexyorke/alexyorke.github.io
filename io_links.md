@@ -32629,6 +32629,12 @@ https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141
 https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2026-2027/FMFI/EN/mINF.pdf
 https://hackage.haskell.org/package/typed-protocols-1.2.0.0
 https://vetss.org.uk/wp-content/uploads/sites/165/2024/05/2021_15-K-Just.pdf
+https://flora.pm/packages/%40hackage/typed-protocols
+https://input-output-hk.github.io/typed-protocols/typed-protocols/Network-TypedProtocol.html
+https://input-output-hk.github.io/typed-protocols/typed-protocols/src/Network.TypedProtocol.html
+https://hackage.haskell.org/package/typed-protocols-1.1.0.1/candidate/src/stateful-cborg
+https://hackage.haskell.org/package/typed-encoding
+https://discourse.haskell.org/t/introduction-to-typed-session/10100
 https://arxiv.org/abs/2312.14964
 https://dl.acm.org/doi/10.1145/3331545.3342598
 https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries
