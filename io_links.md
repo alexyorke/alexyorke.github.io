@@ -32518,3 +32518,8 @@ https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-hand
 https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf
 https://hackage.haskell.org/package/effect-handlers/docs
 https://www.cambridge.org/core/books/abs/session-types/functional-programming/5A833EA4A5EECAD65C4C06FB8B86976B
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%20and%20Software%20Technology%2C%2011%20conf.%2C%20AMAST%202006%28LNCS4019%2C%20Springer%2C%202006%29%28ISBN%203540356339%29%28398s%29.pdf
+https://arxiv.org/abs/1701.07601
+https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad-powerpoint-presentation
+http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf
+https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/
