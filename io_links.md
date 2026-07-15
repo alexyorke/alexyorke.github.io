@@ -31576,3 +31576,16 @@ https://hackage.haskell.org/package/zeromq3-haskell-0.5.1
 https://zguide.zeromq.org/
 https://api.pageplace.de/preview/DT0400.9781449334451_A24456662/preview-9781449334451_A24456662.pdf
 https://hackage.haskell.org/package/zeromq4-haskell-0.6.4
+https://hackage.haskell.org/package/http-conduit-2.2.3
+https://hackage.haskell.org/package/http-conduit-1.8.2.1/docs
+https://hackage.haskell.org/package/websockets/docs/Network-WebSockets.html
+https://hackage.haskell.org/package/websockets-0.9.6.1/docs/Network-WebSockets.html
+https://hackage.haskell.org/package/websockets-0.3.1.0/docs/Network-WebSockets.html
+https://hackage.haskell.org/package/websockets-0.8.2.2/docs/Network-WebSockets.html
+https://hackage.haskell.org/package/wss-client/docs/Network-WebSockets-Client.html
+https://hackage-content.haskell.org/package/websockets-0.12.7.3/src/
+https://archlinux.org/packages/extra/x86_64/haskell-websockets/
+https://hackage.haskell.org/package/http-conduit-1.2.6/docs/Network-HTTP-Conduit.html
+https://hackage.haskell.org/package/http-conduit-1.2.0/docs/Network-HTTP-Conduit.html
+https://hackage.haskell.org/package/http-conduit-2.3.7.1/
+https://sources.debian.org/src/haskell-http-conduit/2.3.8-1/http-conduit.cabal
