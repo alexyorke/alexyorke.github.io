@@ -31899,3 +31899,12 @@ https://hackage.haskell.org/package/FileSystem/docs
 https://hackage.haskell.org/package/posix-paths
 https://hackage.haskell.org/package/hpath-0.9.2/docs/System-Posix-FilePath.html
 https://hackage.haskell.org/package/filepath-1.4.100.0
+https://hackage.haskell.org/package/Z-IO-0.7.0.0
+https://hackage.haskell.org/package/Z-IO/docs
+https://hackage.haskell.org/package/Z-IO-0.6.2.0/docs
+https://hackage.haskell.org/package/Z-IO-0.6.3.0/docs
+https://hackage.haskell.org/package/Z-IO-0.7.0.0/docs
+https://hackage.haskell.org/package/Z-IO-0.6.4.0/docs
+https://hackage.haskell.org/package/Z-IO-0.7.1.0/docs
+https://mynixos.com/nixpkgs/package/haskellPackages.Z-IO
+https://hackage.haskell.org/package/base-compat
