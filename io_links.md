@@ -32291,3 +32291,5 @@ https://packagist.org/packages/phunkie/
 https://packagist.org/packages/phunkie/phpstan
 https://www.javadoc.io/static/io.monix/monix-eval_2.11/3.2.1/monix/eval/Task.html
 https://hackage-content.haskell.org/package/streamly-core-0.2.3/docs/src/Streamly.FileSystem.File.html
+https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-effects-2/
+https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/
