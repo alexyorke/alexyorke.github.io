@@ -32430,3 +32430,5 @@ https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-
 https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781638352242
 https://hackage.haskell.org/package/idris
 https://arxiv.org/abs/2310.13441
+https://agda.readthedocs.io/_/downloads/en/v2.6.2.1/pdf/
+https://lets-play-agda.quasicoherent.io/
