@@ -31689,3 +31689,10 @@ https://hackage.haskell.org/package/fused-effects-0.1.1.0
 https://hackage.haskell.org/package/fused-effects-0.3.0.0
 https://hackage.haskell.org/package/fused-effects-0.5.0.0
 https://hackage.haskell.org/package/fused-effects-1.1.0.0
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html
+https://hackage.haskell.org/package/resourcet-1.2.2
+https://www.stackage.org/lts-18.24/package/resourcet-1.2.4.3
+https://www.stackage.org/lts-6.35/package/resourcet-1.1.9
+https://www.stackage.org/lts-10.0/package/resourcet-1.1.10
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html
