@@ -32283,3 +32283,9 @@ https://elixir.hexdocs.pm/main/IO.html
 https://elixir.hexdocs.pm/1.18/IO.html
 https://publications.lib.chalmers.se/records/fulltext/219742/219742.pdf
 https://odr.chalmers.se/server/api/core/bitstreams/7c8128ee-cd76-4c15-8635-8cfee1c5df9a/content
+https://phunkie.github.io/phunkie/introduction_to_functional_programming.html
+https://packagist.org/packages/phunkie/console
+https://www.functionalphp.com/
+https://packagist.org/packages/phunkie/streams
+https://packagist.org/packages/phunkie/
+https://packagist.org/packages/phunkie/phpstan
