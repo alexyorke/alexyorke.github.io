@@ -32503,3 +32503,7 @@ https://research-portal.uu.nl/en/publications/cogent-uniqueness-types-and-certif
 https://stackoverflow.com/questions/68584017/haskell-coresyn-library-how-does-one-refer-to-built-in-io-types?r=31
 https://www.sambuz.com/doc/effects-and-state-liam-o-connor-ppt-presentation-1031389
 https://www.curry-lang.org/docs/report/versions/report_2016_01_13.pdf
+https://web.stanford.edu/class/cs99/
+https://arxiv.org/abs/1706.07997
+https://arxiv.org/pdf/1706.07997
+https://cronfa.swan.ac.uk/Record/cronfa70368
