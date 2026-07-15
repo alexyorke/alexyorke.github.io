@@ -32483,3 +32483,4 @@ https://arxiv.org/pdf/1505.02579
 https://www.ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html
 https://sage.ci.dev/live/p/eio/0.9/doc/README.html
 https://arxiv.org/pdf/1812.11664
+https://doi.org/10.1016/j.ifacol.2022.11.100
