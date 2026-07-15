@@ -32856,3 +32856,8 @@ https://packages.fedoraproject.org/pkgs/ghc-monad-logger/ghc-monad-logger
 https://packages.debian.org/source/trixie/misc/haskell-monad-logger
 https://hackage.haskell.org/package/monad-loops-0.3.0.1/docs
 https://hackage-content.haskell.org/package/loops-0.2.0.2/docs/Control-Monad-Loop-Internal.html
+https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1920-ug-projects/An-Investigation-into-Adding-Exception-Handling-to-Haskell.pdf
+https://hackage.haskell.org/package/dph-lifted-base/docs
+https://hackage.haskell.org/package/lifted-base-0.1.1.1/docs
+https://hackage.haskell.org/package/monad-loops-0.3.0.2
+https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/
