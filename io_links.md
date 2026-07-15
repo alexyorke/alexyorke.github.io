@@ -32165,3 +32165,11 @@ https://www.mmhaskell.com/monads
 https://packages.debian.org/source/stable/haskell-control-monad-free
 https://ifl2014.github.io/submissions/ifl2014_submission_16.pdf
 https://hackage.haskell.org/package/shh/docs/Control-Shh.html
+https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.Common.html
+https://hackage-content.haskell.org/package/rio-0.1.23.0/docs/RIO-Process.html
+https://hackage-content.haskell.org/package/unix-2.8.8.0/docs/System-Posix-Process.html
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-Process.html
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Process.html
+https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.CommunicationHandle.html
+https://hackage-content.haskell.org/package/ghc-9.12.2/docs/GHC-SysTools-Process.html
+https://hackage-content.haskell.org/package/quick-process-0.0.3/docs/src/System.Process.Quick.CallSpec.Run.html
