@@ -31954,3 +31954,5 @@ https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp
 https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG
 https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/
 https://docs.idris.org/_/downloads/en/v0.9.20/pdf/
+https://ocaml.org/p/yocaml/2.7.0/effect.html
+https://ocaml.org/manual/5.4/api/Stdlib.Effect.html
