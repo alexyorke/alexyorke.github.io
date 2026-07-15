@@ -32335,3 +32335,4 @@ https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-us
 https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470/6
 https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434
 https://chrilves.github.io/raffiot.py/index.html
+https://csharp-functional.readthedocs.io/en/latest/
