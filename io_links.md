@@ -32399,3 +32399,6 @@ https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/libraries/ghc-internal-9
 https://haddocks.haskell-miso.org/base/index.html
 https://haddocks.haskell-miso.org/base/doc-index-I.html
 https://hackage.haskell.org/package/ghc-internal/docs
+https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow
+https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/
+https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ
