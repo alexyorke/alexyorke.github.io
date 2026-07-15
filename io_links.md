@@ -32946,3 +32946,11 @@ https://www.haskell.org/ghc/docs/7.0.1/core.pdf
 https://www.stackage.org/lts-6.1/package/strict-0.3.2
 https://flora.pm/packages/%40hackage/monad-classes
 https://hackage.haskell.org/package/exception-transformers
+https://mynixos.com/nixpkgs/package/haskellPackages.effectful-core
+https://flora.pm/packages/%40hackage/resourcet-effectful
+https://flora.pm/packages/%40hackage/core-effect-effectful/0.0.0.4/dependencies
+https://www.mail-archive.com/haskell%40haskell.org/msg27448.html
+https://www.ost.ch/en/details/events/haskell-implementors-workshop-hiw-2026
+https://icfp26.sigplan.org/
+https://icfp17.sigplan.org/series/icfp
+https://arxiv.org/abs/2601.02060
