@@ -32066,3 +32066,8 @@ https://hackage.haskell.org/package/HMock/docs
 https://hackage.haskell.org/package/monad-control-0.3.1/docs/Control-Monad-Trans-Control.html
 https://hackage.haskell.org/package/monad-control-0.3.1.3/docs/Control-Monad-Trans-Control.html
 https://hackage.haskell.org/package/ki-unlifted
+https://hackage.haskell.org/package/rio-0.1.22.0
+https://hackage.haskell.org/package/rio-0.1.2.0/docs
+https://hackage.haskell.org/package/rio-process-pool
+https://hackage.haskell.org/package/rio-orphans
+https://hackage.haskell.org/package/rio-0.1.24.0
