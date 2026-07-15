@@ -32396,3 +32396,6 @@ https://themonadreader.files.wordpress.com/2012/08/issue20.pdf
 https://aaltodoc.aalto.fi/bitstreams/e0f5aefc-556f-4254-bf9d-03c22f930357/download
 https://www.doi.org/10.1145/143165.143169
 https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/libraries/ghc-internal-9.1001.0-206d/GHC-Internal-System-IO.html
+https://haddocks.haskell-miso.org/base/index.html
+https://haddocks.haskell-miso.org/base/doc-index-I.html
+https://hackage.haskell.org/package/ghc-internal/docs
