@@ -32317,3 +32317,6 @@ https://pblevy.github.io/msfp2014/koka.pdf
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.165
 https://link.springer.com/article/10.1007/s10849-022-09378-7
 https://formal.land/blog/2023/05/28/monad-for-side-effects-in-rust
+https://www.cnblogs.com/javamoon/p/4112380.html
+https://blog.khinsen.net/posts/2009/04/22/Monads-in-Clojure.html
+https://khinsen.wordpress.com/2009/04/22/monad-tutorial-for-clojure-programmers/
