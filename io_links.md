@@ -32477,3 +32477,4 @@ https://stackoverflow.com/questions/70918015/how-to-execute-a-function-that-retu
 https://arxiv.org/pdf/2212.08177
 https://arxiv.org/pdf/1804.03460
 https://arxiv.org/abs/1803.08958
+https://cseweb.ucsd.edu/~dstefan/talks/strangeloop2016.pdf
