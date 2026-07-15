@@ -32580,6 +32580,9 @@ https://haskell.org/~simonmar/new-io.tar.gz
 https://hackage.haskell.org/package/conduit-combinators-1.0.8.1/docs/Conduit.html
 https://citeseerx.ist.psu.edu/document?doi=08c0eaa33b7692ddbd65e509db1356f3c6126d75&repid=rep1&type=pdf
 https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf
+https://cir.nii.ac.jp/crid/1360306914407986304
+https://www.mendeley.com/catalogue/5d7ff898-97c2-3128-9b81-b304817581d4/
+https://research.rug.nl/en/publications/c9162558-592e-4a11-a137-9c257cbfcc36/
 https://arxiv.org/abs/2010.10510
 https://research.chalmers.se/en/publication/182285
 https://kar.kent.ac.uk/98024/
