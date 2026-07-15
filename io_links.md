@@ -31680,3 +31680,12 @@ https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0
 https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/libraries/transformers-0.6.1.2-70e3/Control-Monad-Trans-Class.html
 https://hackage.haskell.org/package/transformers-0.6.3.0
 https://hackage.haskell.org/package/mtl-1.0
+https://hackage.haskell.org/package/polysemy-1.1.0.0
+https://hackage-content.haskell.org/package/effectful-core-2.2.2.1
+https://hackage-content-origin.haskell.org/package/in-other-words
+https://hackage.haskell.org/package/polysemy-0.2.0.0
+https://hackage.haskell.org/package/polysemy-0.1.2.1
+https://hackage.haskell.org/package/fused-effects-0.1.1.0
+https://hackage.haskell.org/package/fused-effects-0.3.0.0
+https://hackage.haskell.org/package/fused-effects-0.5.0.0
+https://hackage.haskell.org/package/fused-effects-1.1.0.0
