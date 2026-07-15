@@ -32605,6 +32605,7 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://goto.ucsd.edu/~nvazou/lweb/POPL19.pdf
 https://arxiv.org/abs/1708.01688
 https://pages.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf
+https://hackage.haskell.org/package/resource-simple/docs/Control-Monad-Resource.html
 https://arxiv.org/abs/2007.10809
 https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
 https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
