@@ -32071,3 +32071,4 @@ https://hackage.haskell.org/package/rio-0.1.2.0/docs
 https://hackage.haskell.org/package/rio-process-pool
 https://hackage.haskell.org/package/rio-orphans
 https://hackage.haskell.org/package/rio-0.1.24.0
+https://academy.fpblock.com/blog/2017/06/readert-design-pattern
