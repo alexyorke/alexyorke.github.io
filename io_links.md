@@ -32869,6 +32869,12 @@ https://hackage.haskell.org/package/exceptions-0.10.12/docs
 https://hackage.haskell.org/package/mtl-tf-0.2.0.0/docs
 https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-transformers-compat/
+https://hackage.haskell.org/package/monads-tf/docs
+https://hackage.haskell.org/package/monads-tf-0.1.0.3/docs
+https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc
+https://www.stackage.org/package/monads-tf
+https://packages.debian.org/source/stable/haskell-monads-tf
+https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/
 https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
 https://www.classcentral.com/subject/referential-transparency
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
