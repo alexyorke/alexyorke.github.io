@@ -32089,3 +32089,10 @@ https://hackage.haskell.org/package/haskeline-0.6.2.1/docs/System-Console-Haskel
 https://hackage.haskell.org/package/brick-0.27
 https://hackage-content-origin.haskell.org/package/brick-0.20
 https://hackage-content.haskell.org/package/vty-5.34
+https://hackage.haskell.org/package/terminfo/docs/System-Console-Terminfo-Base.html
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/terminfo-0.4.1.1/src/System.Console.Terminfo.Base.html
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/terminfo-0.4.0.0/System-Console-Terminfo-Base.html
+https://hackage.haskell.org/package/ansi-terminal-0.8.0.4
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/libraries/terminfo-0.4.0.2/src/System-Console-Terminfo-Base.html
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/terminfo-0.4.1.4/System-Console-Terminfo-Base.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/terminfo-0.4.1.7-5cba/src/System.Console.Terminfo.Base.html
