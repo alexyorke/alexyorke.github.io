@@ -32404,3 +32404,5 @@ https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/
 https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ
 https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/
 https://nostarch.com/fsharp
+https://cs3110.github.io/textbook/cover.html
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf%3Fevent-type%3DFTLA
