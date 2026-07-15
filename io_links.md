@@ -32047,3 +32047,4 @@ https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/For
 https://downloads.haskell.org/ghc/9.0.2/docs/libraries/base-4.15.1.0/src/GHC.IO.Unsafe.html
 https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume06/issue03/DagRep.6.3/DagRep.6.3.pdf
 https://www.youtube.com/watch?v=gHiyzctYqZ0
+https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dee1dd3528767935317507965d&repid=rep1&type=pdf
