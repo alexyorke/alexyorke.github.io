@@ -32255,3 +32255,7 @@ https://ocaml.org/manual/5.5/effects.html
 https://fpilluminated.org/deck/31
 https://pursuit.purescript.org/packages/purescript-aff/4.1.1
 https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/src/Effectful.html
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/Effect.html
+https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.13/2.1.4/cats/effect/index.html
+https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.12/1.2.0/cats/effect/index.html
+https://javadoc.io/static/org.typelevel/cats-effect_sjs1_2.13/2.3.2/cats/effect/Effect.html
