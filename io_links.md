@@ -32416,3 +32416,6 @@ https://niltag.net/essays/racket_monad.html
 https://arxiv.org/abs/1611.09470
 https://cljdoc.org/d/pure-io/pure-io/0.1.0/doc/readme
 https://www.classcentral.com/report/best-clojure-courses/
+https://jokerconf.com/en/archive/2022/talks/20000856-monads-in-java-in-20-minutes/
+https://higher-kinded-j.github.io/latest/tutorials/coretypes/foundations_journey.html
+https://java-design-patterns.com/patterns/monad/
