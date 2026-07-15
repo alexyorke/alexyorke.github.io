@@ -32603,6 +32603,17 @@ https://www.stackage.org/lts-10.3/package/warp-3.2.13
 https://www.servant.dev/
 http://www.acm.jhu.edu/~nwf/fwh/08_yesod.pdf
 https://haskell.org/communities/05-2014/html/report.html
+https://hackage.haskell.org/package/HasChor
+https://legacy.cs.indiana.edu/~dyb/pubs/monadicDC.pdf
+https://comp2221.github.io/fp-website/past-editions/2022-23/lectures/
+https://archive.fosdem.org/2023/schedule/event/haskell_2d_animations/
+https://discourse.haskell.org/t/haskell-2023-talk-videos-on-youtube/8233
+https://opencourse.inf.ed.ac.uk/sites/default/files/https/opencourse.inf.ed.ac.uk/inf1a/2023/tutorial1.pdf
+https://effect-handlers.org/talks/hope-2024-talk.pdf
+https://www.scribd.com/document/846854425/monadic-parsing-jfp
+https://theses.gla.ac.uk/2353/
+https://cronfa.swan.ac.uk/Record/cronfa42789/Download/0042789-02082018162522.pdf
+https://arxiv.org/abs/1304.4091
 https://cademy.io/packt/supercharge-scala-future-fp-tower
 https://www.classcentral.com/course/udemy-functional-effect-handling-in-scala-with-cats-effect-401728
 https://courses.rockthejvm.com/p/cats-effect
