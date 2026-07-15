@@ -32388,3 +32388,4 @@ https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M12/scalaz/Monad.html
 https://hackage.haskell.org/package/RIO-0.0.3.0/docs/RIO-Prelude-RIO.html
 https://library.nu.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=4706
 https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/?lang=japublications%2F%3Fpg=0&pg=96
+https://pursuit.purerl.fun/packages/effect/3.0.0-erl1/docs/Effect.Class
