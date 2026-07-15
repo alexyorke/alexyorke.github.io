@@ -32137,3 +32137,5 @@ https://books.google.de/books?id=nh0okI1a1sQC
 https://books.google.com.au/books?id=nh0okI1a1sQC
 https://books.google.co.uk/books?id=wSkRAAAAQBAJ
 https://books.google.ca/books?id=wSkRAAAAQBAJ
+https://www.scs.stanford.edu/16wi-cs240h/
+https://teaching.well-typed.com/intro/introduction.html
