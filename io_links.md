@@ -32449,3 +32449,4 @@ https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html
 https://eprints.nottingham.ac.uk/43557/
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html
+https://doi.org/10.1145/2605176
