@@ -32295,3 +32295,7 @@ https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-eff
 https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/
 https://www.oreilly.com/library/view/functional-programming-in/9781617293818/
 https://arxiv.org/abs/2312.13295
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-15
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html
+https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/
+https://www.bookey.app/book/functional-programming-in-scala
