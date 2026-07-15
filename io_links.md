@@ -32468,3 +32468,5 @@ https://www.leanpub.com/book-of-monads
 https://dblp.org/rec/conf/csl/HancockS00
 https://www.isa-afp.org/browser_info/current/AFP/Clean/document.pdf
 https://www.wiki.clean.cs.ru.nl/Publications
+https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture17.htm
+https://www.cse.iitd.ac.in/~mcs112586/book.pdf
