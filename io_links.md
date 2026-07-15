@@ -32307,3 +32307,5 @@ https://www.infoq.com/fp/presentations/175/
 https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/fm.htm
 https://www.baeldung.com/scala/cats-effect-error-handling
 https://www.creativescala.org/cats-effect-tutorial/
+https://www.kriso.lv/functional-programming-scala-db-9781617290657.html
+https://www.fp-tower.com/courses/foundations
