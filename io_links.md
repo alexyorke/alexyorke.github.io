@@ -32337,3 +32337,4 @@ https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm
 https://chrilves.github.io/raffiot.py/index.html
 https://csharp-functional.readthedocs.io/en/latest/
 https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Monad-IO-Class.html
+https://stackoverflow.com/questions/23537387/clarification-on-streaming-and-effects-in-context-of-pipes-library
