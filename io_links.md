@@ -31442,3 +31442,16 @@ https://hackage-content-origin.haskell.org/package/aeson-2.2.0.0
 https://archives.haskell.org/code.haskell.org/binary/
 https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html
 https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html
+https://hackage.haskell.org/package/fast-logger
+https://hackage.haskell.org/package/monad-logger-syslog
+https://hackage-content.haskell.org/package/hslogger-1.3.2.0/docs/System-Log-Logger.html
+https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/System-Log-FastLogger-Internal.html
+https://hackage.haskell.org/package/katip-0.3.1.4/docs/doc-index.html
+https://hackage-content.haskell.org/package/katip-0.8.8.3/docs/doc-index-All.html
+https://www.stackage.org/lts-22.44/package/katip-0.8.8.2
+https://kowainik.github.io/projects/co-log
+https://hackage.haskell.org/package/fast-logger/docs/System-Log-FastLogger.html
+https://hackage.haskell.org/package/fast-logger-3.2.0/docs
+https://hackage.haskell.org/package/fast-logger-3.0.0/docs
+https://hackage.haskell.org/package/fast-logger-2.4.17/docs
+https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/src/System.Log.FastLogger.FileIO.html
