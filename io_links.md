@@ -32037,3 +32037,11 @@ https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/io/IO.html
 https://www.j-labs.pl/en/tech-blog/how-to-use-monads-in-java/
 https://www.baeldung.com/vavr
 https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/function/IOFunction.html
+https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7
+https://itsdaniel.dk/notes/understanding-functional-effect-systems/
+https://overreacted.io/algebraic-effects-for-the-rest-of-us/
+https://hackage.haskell.org/package/general-allocate-0.2.2.0
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Unsafe.html
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO-Unsafe.html
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Foreign.html
+https://downloads.haskell.org/ghc/9.0.2/docs/libraries/base-4.15.1.0/src/GHC.IO.Unsafe.html
