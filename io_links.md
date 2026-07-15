@@ -32861,3 +32861,11 @@ https://hackage.haskell.org/package/dph-lifted-base/docs
 https://hackage.haskell.org/package/lifted-base-0.1.1.1/docs
 https://hackage.haskell.org/package/monad-loops-0.3.0.2
 https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/
+https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
+https://www.classcentral.com/subject/referential-transparency
+https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
+https://hackage.haskell.org/package/pipes-4.0.2/docs
+https://hackage.haskell.org/package/pipes-core/docs
+https://hackage.haskell.org/package/pipes-2.3.0/docs
+https://dev.to/bekbrace/monads-in-haskell-1p8i
+https://www.youtube.com/watch?v=pj7-rNyz3J8
