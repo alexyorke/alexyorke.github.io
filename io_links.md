@@ -32584,6 +32584,9 @@ https://cir.nii.ac.jp/crid/1360306914407986304
 https://www.mendeley.com/catalogue/5d7ff898-97c2-3128-9b81-b304817581d4/
 https://research.rug.nl/en/publications/c9162558-592e-4a11-a137-9c257cbfcc36/
 https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1
+https://cademy.io/packt/supercharge-scala-future-fp-tower
+https://www.classcentral.com/course/udemy-functional-effect-handling-in-scala-with-cats-effect-401728
+https://courses.rockthejvm.com/p/cats-effect
 https://arxiv.org/abs/2010.10510
 https://research.chalmers.se/en/publication/182285
 https://kar.kent.ac.uk/98024/
