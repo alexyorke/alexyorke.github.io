@@ -32079,3 +32079,7 @@ https://hackage.haskell.org/package/system-fileio
 https://hackage.haskell.org/package/system-filepath
 https://hackage.haskell.org/package/system-fileio/docs/System-IO-File.html
 https://hackage.haskell.org/package/system-filepath/docs
+https://hackage-content.haskell.org/package/process-1.6.26.0/docs/System-Process.html
+https://hackage.haskell.org/package/sys-process/docs/Sys-Process.html
+https://hackage.haskell.org/package/process-1.6.11.0/docs/System-Process.html#v:readProcess
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/System-IO.html
