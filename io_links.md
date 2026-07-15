@@ -32181,3 +32181,4 @@ https://hackage.haskell.org/package/aivika-1.2
 https://hackage.haskell.org/package/katip-0.8.8.4
 https://hackage.haskell.org/package/conduit-1.3.6.1/docs
 https://hackage.haskell.org/package/unliftio-0.2.25.1/docs
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/p4.htm
