@@ -32447,3 +32447,4 @@ https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html
 https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/Effectful.html
 https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html
+https://eprints.nottingham.ac.uk/43557/
