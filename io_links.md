@@ -32443,3 +32443,4 @@ https://zephyrtronium.github.io/articles/koka-experience.html
 https://gluon-lang.github.io/gluon/print.html
 https://atnos-org.github.io/eff/org.atnos.site.Introduction.html
 https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Internal-Monad.html
+https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html
