@@ -32488,3 +32488,7 @@ https://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP11b.pdf
 https://citeseerx.ist.psu.edu/document?doi=1997710cea4b67b9e53df96d6dee7f2c3e5c5556&type=pdf
 https://arxiv.org/pdf/1109.0785
 https://arxiv.org/pdf/1902.06950
+https://stackoverflow.com/questions/7769996/using-the-par-monad-with-stm-and-deterministic-io
+https://www.ideals.illinois.edu/items/29856/bitstreams/99122/data.pdf
+https://www.research-collection.ethz.ch/bitstreams/07a03edd-6ea9-4663-9a65-ed78416c2e44/download
+https://arxiv.org/pdf/1704.08055
