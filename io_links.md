@@ -31889,3 +31889,7 @@ https://hackage.haskell.org/package/entropy-0.4.1.11
 https://hackage.haskell.org/package/fused-effects-mwc-random
 https://hackage.haskell.org/package/crypto-random/docs/src/Crypto-Random-Entropy.html
 https://hackage.haskell.org/package/tf-random
+https://hackage.haskell.org/package/async-2.2.5/candidate
+https://hackage.haskell.org/package/async-2.0.0.0/docs/Control-Concurrent-Async.html
+https://hackage.haskell.org/package/async-pool
+https://hackage.haskell.org/package/distributed-process-async
