@@ -32473,3 +32473,4 @@ https://www.cse.iitd.ac.in/~mcs112586/book.pdf
 https://www.qualiero.com/lerninhalte/classroom-trainings/scala-typelevel-cats-effect.html
 https://www.edc4it.com/training/course/SCALA-CATS?online=
 https://dzone.com/refcardz/functional-programming-with-javascript
+https://stackoverflow.com/questions/70918015/how-to-execute-a-function-that-returns-a-function-inside-of-io-monad
