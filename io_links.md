@@ -32592,6 +32592,17 @@ https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/
 https://link.springer.com/book/10.1007/978-3-319-29604-3
 https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf
 https://link.springer.com/book/10.1007/978-981-92-0184-6
+https://arxiv.org/abs/2007.10809
+https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
+https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
+https://www.scitepress.org/Papers/2013/43267/43267.pdf
+https://hackage.haskell.org/package/servant-websockets
+https://hackage-content-origin.haskell.org/package/warp-1.3.7.5
+https://www.stackage.org/lts-10.10/package/warp-3.2.18
+https://www.stackage.org/lts-10.3/package/warp-3.2.13
+https://www.servant.dev/
+http://www.acm.jhu.edu/~nwf/fwh/08_yesod.pdf
+https://haskell.org/communities/05-2014/html/report.html
 https://cademy.io/packt/supercharge-scala-future-fp-tower
 https://www.classcentral.com/course/udemy-functional-effect-handling-in-scala-with-cats-effect-401728
 https://courses.rockthejvm.com/p/cats-effect
