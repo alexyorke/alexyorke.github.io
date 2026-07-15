@@ -32494,3 +32494,6 @@ https://www.research-collection.ethz.ch/bitstreams/07a03edd-6ea9-4663-9a65-ed784
 https://arxiv.org/pdf/1704.08055
 https://odr.chalmers.se/bitstreams/b5438b2f-a2a5-43ce-bd0e-86644f6f0e80/download
 https://koka-lang.github.io/koka/doc/book.html#why
+https://hackage-content-origin.haskell.org/package/monadIO-0.11.1.0/candidate/docs/doc-index.html
+https://stackoverflow.com/questions/47070279/liftio-do-block-and-syntax
+https://www.fpblock.com/blog/2017/06/readert-design-pattern
