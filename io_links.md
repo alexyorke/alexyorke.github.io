@@ -32367,3 +32367,5 @@ https://sources.debian.org/src/lwt/2.4.3-4/manual/manual.pdf
 https://grison.me/2019/03/21/intro-to-fp-with-vavr/
 https://www.baeldung.com/vavr-future
 https://docs.vavr.io/es/
+https://hackage.haskell.org/package/hw-polysemy/docs/HaskellWorks-Polysemy.html
+https://hackage-content.haskell.org/package/data-effects-core-0.4.3.0/docs/src/Data.Effect.html
