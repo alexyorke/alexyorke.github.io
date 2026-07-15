@@ -32876,6 +32876,11 @@ https://www.stackage.org/package/monads-tf
 https://packages.debian.org/source/stable/haskell-monads-tf
 https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/
 https://hackage.haskell.org/package/mmtl
+https://hackage.haskell.org/package/mtl-1.1.0.2/docs/Control-Monad-Cont.html
+https://hackage.haskell.org/package/control-monad-exception-mtl/docs
+https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs/doc-index.html
+https://mmhaskell.com/
+https://www.classcentral.com/index.php/subject/referential-transparency
 https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
 https://www.classcentral.com/subject/referential-transparency
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
