@@ -31407,3 +31407,10 @@ https://downloads.haskell.org/~ghc/6.4.2/docs/html/libraries/network/Network-Soc
 https://lean-lang.org/papers/do.pdf
 https://research.tudelft.nl/en/publications/modal-%CE%BC-calculus-for-free-in-agda/
 https://repository.tudelft.nl/record/uuid%3Ae0503427-80ad-478b-ac9c-c2076949e689
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/System.IO.html
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Event.html
+https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Event.html
+https://arxiv.org/abs/2010.13432
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/base-4.22.0.0-dbdd/GHC-IO-Handle.html
+https://mmhaskell.com/blog/2022/5/16/bufferingplease-wait
+https://www.cmi.ac.in/~spsuresh/teaching/prgh19/lectures/lecture17.pdf
