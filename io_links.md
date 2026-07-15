@@ -32342,3 +32342,6 @@ https://stackoverflow.com/questions/36949944/piping-an-http-stream-through-a-has
 https://stackoverflow.com/questions/38955432/haskell-conduits-from-file-to-process
 https://www.schoolofhaskell.com/school/advanced-haskell/conduit-overview
 https://stackoverflow.com/questions/44327727/understanding-conduit-output
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/Resource.html
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/IO.html
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-13/section-13-2/
