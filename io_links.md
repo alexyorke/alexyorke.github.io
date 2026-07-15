@@ -31419,3 +31419,7 @@ https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/stm.html
 https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/stm.html
 https://www.schoolofhaskell.com/user/alexanderaa/stm-examples
 https://www.cs.washington.edu/education/courses/549/07wi/files/stm.pdf
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception.html
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception-Base.html
+https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Utils-Exception.html
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/ghc-9.14.0.20251128-1ddb/GHC-Utils-Exception.html
