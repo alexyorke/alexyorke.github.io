@@ -32083,3 +32083,9 @@ https://hackage-content.haskell.org/package/process-1.6.26.0/docs/System-Process
 https://hackage.haskell.org/package/sys-process/docs/Sys-Process.html
 https://hackage.haskell.org/package/process-1.6.11.0/docs/System-Process.html#v:readProcess
 https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/System-IO.html
+https://hackage.haskell.org/package/haskeline
+https://hackage.haskell.org/package/haskeline-0.6.2
+https://hackage.haskell.org/package/haskeline-0.6.2.1/docs/System-Console-Haskeline.html
+https://hackage.haskell.org/package/brick-0.27
+https://hackage-content-origin.haskell.org/package/brick-0.20
+https://hackage-content.haskell.org/package/vty-5.34
