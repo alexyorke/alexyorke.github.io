@@ -32444,3 +32444,6 @@ https://gluon-lang.github.io/gluon/print.html
 https://atnos-org.github.io/eff/org.atnos.site.Introduction.html
 https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Internal-Monad.html
 https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html
+https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/Effectful.html
+https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html
+https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html
