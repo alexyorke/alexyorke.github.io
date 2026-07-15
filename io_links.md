@@ -32437,3 +32437,4 @@ https://fstar-lang.org/papers/mumon/
 https://cir.nii.ac.jp/crid/1360292619364595584
 https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/libraries/base-4.11.0.0/System-IO.html
 https://www.well-typed.com/blog/2024/10/haskell-unfolder-episode-34-you-already-understand-monads/
+https://hackage-content-origin.haskell.org/
