@@ -32419,3 +32419,8 @@ https://www.classcentral.com/report/best-clojure-courses/
 https://jokerconf.com/en/archive/2022/talks/20000856-monads-in-java-in-20-minutes/
 https://higher-kinded-j.github.io/latest/tutorials/coretypes/foundations_journey.html
 https://java-design-patterns.com/patterns/monad/
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/index.htm
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_021.html
+https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiusano/9781617290657
+https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ
+https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf
