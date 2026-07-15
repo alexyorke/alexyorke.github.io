@@ -32063,3 +32063,6 @@ https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperativ
 https://hackage.haskell.org/package/HMock-0.3.0.0
 https://hackage.haskell.org/package/mockcat/docs
 https://hackage.haskell.org/package/HMock/docs
+https://hackage.haskell.org/package/monad-control-0.3.1/docs/Control-Monad-Trans-Control.html
+https://hackage.haskell.org/package/monad-control-0.3.1.3/docs/Control-Monad-Trans-Control.html
+https://hackage.haskell.org/package/ki-unlifted
