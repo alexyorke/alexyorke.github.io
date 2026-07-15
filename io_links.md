@@ -31203,3 +31203,16 @@ https://typelevel.org/doobie/docs/07-Updating.html
 https://fsharp.github.io/fslang-spec/introduction/
 https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/cleanbook/II.01.SimpleDatabase.pdf
 https://arxiv.org/abs/1009.1166
+https://hackage.haskell.org/package/configuration-tools
+https://hackage.haskell.org/package/yaml/docs/Data-Yaml-Config.html
+https://hackage.haskell.org/package/embed-config
+https://hackage.haskell.org/package/configuration-tools-0.6.1
+https://hackage-content-origin.haskell.org/package/config-ini
+https://docs.haskellstack.org/en/v2.11.1/yaml_configuration/
+https://hackage-content-origin.haskell.org/package/aeson-1.4.1.0
+https://hackage-content-origin.haskell.org/package/aeson-2.1.2.0
+https://mpickering.github.io/papers/thesis.pdf
+https://opam.ocaml.org/doc/man/opam-config.html
+https://opam.ocaml.org/doc/man/opam-env.html
+https://manpages.ubuntu.com/manpages/stonking/man1/ocamlrun.1.html
+https://ocaml.org/manual/4.02/ocaml-4.02-refman.pdf
