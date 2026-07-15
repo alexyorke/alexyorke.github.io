@@ -32854,3 +32854,5 @@ https://pure.itu.dk/en/publications/calculating-compilers-effectively-functional
 https://arxiv.org/abs/2602.05850
 https://packages.fedoraproject.org/pkgs/ghc-monad-logger/ghc-monad-logger
 https://packages.debian.org/source/trixie/misc/haskell-monad-logger
+https://hackage.haskell.org/package/monad-loops-0.3.0.1/docs
+https://hackage-content.haskell.org/package/loops-0.2.0.2/docs/Control-Monad-Loop-Internal.html
