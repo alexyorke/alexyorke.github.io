@@ -32906,3 +32906,6 @@ https://haskell.foundation/events/2026-haskell-implementors-workshop.html
 https://discourse.haskell.org/t/call-for-talks-haskell-implementors-workshop-2026/13698
 https://discourse.haskell.org/t/call-for-participation-2.5-hour-haskell-foundation-online-workshop/14312
 https://www.reddit.com/r/haskell/comments/1upt8sr/zurihac_2026_video_playlist/
+https://hackage.haskell.org/package/safe-exceptions/docs
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html
+https://well-typed.com/blog/2025/05/haskell-unfolder-episode-44-state-based-testing-with-quickcheck-lockstep
