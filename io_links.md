@@ -32277,3 +32277,9 @@ https://github.com/joeycumines/go-monads
 https://pkg.go.dev/github.com/joeycumines/go-monads
 https://guillaumebogard.dev/posts/functional-error-handling/
 https://docs.racket-lang.org/functional/interfaces.html?fam=Shplait&tag=%28def._%28%28quote._~23~25kernel%29._pregexp%29%29&version=5.91
+https://www.erlang-factory.com/static/upload/media/1434458082784816joseelixireuc.pdf
+https://elixir-lang.readthedocs.io/_/downloads/en/latest/pdf/
+https://elixir.hexdocs.pm/main/IO.html
+https://elixir.hexdocs.pm/1.18/IO.html
+https://publications.lib.chalmers.se/records/fulltext/219742/219742.pdf
+https://odr.chalmers.se/server/api/core/bitstreams/7c8128ee-cd76-4c15-8635-8cfee1c5df9a/content
