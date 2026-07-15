@@ -32450,3 +32450,7 @@ https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-I
 https://eprints.nottingham.ac.uk/43557/
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html
 https://doi.org/10.1145/2605176
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0087.xhtml
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0083.xhtml
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0082.xhtml
+https://books.google.com/books?id=75C5DAAAQBAJ
