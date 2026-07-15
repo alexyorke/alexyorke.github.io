@@ -32458,3 +32458,5 @@ https://www.packtpub.com/en-BE/product/haskell-high-performance-programming-9781
 https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Types.html#IO
 https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html#State
 https://dspace.mit.edu/server/api/core/bitstreams/5154af6b-4a9a-4915-a744-6fcc13756898/content
+https://tannerduve.github.io/files/monads.pdf
+https://staff.emu.edu.tr/zekibayram/Documents/courses/CMPE462/Curry/tutorial.pdf
