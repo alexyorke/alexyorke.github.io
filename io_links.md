@@ -32032,3 +32032,8 @@ https://www.classcentral.com/course/youtube-haskell-for-imperative-programmers-5
 https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf
 https://hackage.haskell.org/package/streamly-0.1.2/docs/Streamly-Tutorial.html
 https://hackage.haskell.org/package/streamly-0.7.3.1
+https://lean-lang.org/doc/reference/4.19.0-rc2/Functors___-Monads-and--do--Notation/
+https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/io/IO.html
+https://www.j-labs.pl/en/tech-blog/how-to-use-monads-in-java/
+https://www.baeldung.com/vavr
+https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/function/IOFunction.html
