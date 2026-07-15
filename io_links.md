@@ -32457,3 +32457,4 @@ https://books.google.com/books?id=75C5DAAAQBAJ
 https://www.packtpub.com/en-BE/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/lifting-up-from-io-ch07lvl1sec49
 https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Types.html#IO
 https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html#State
+https://dspace.mit.edu/server/api/core/bitstreams/5154af6b-4a9a-4915-a744-6fcc13756898/content
