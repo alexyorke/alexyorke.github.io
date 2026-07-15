@@ -32763,6 +32763,11 @@ https://www.stackage.org/package/process
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397
 https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html
 https://www.stackage.org/lts-17.15/package/resourcet-1.2.4.2
+https://hackage.haskell.org/package/simpleprelude/docs/Prelude.html
+https://hackage-content.haskell.org/package/stm-chans-3.0.0.11/docs/Control-Concurrent-STM-TMQueue.html
+https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control-devel
+https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad-ST.html
+https://www.haskell.foundation/events/2025-haskell-ecosystem-workshop.html
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
