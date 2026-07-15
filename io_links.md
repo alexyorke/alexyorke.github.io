@@ -32508,3 +32508,9 @@ https://arxiv.org/abs/1706.07997
 https://arxiv.org/pdf/1706.07997
 https://cronfa.swan.ac.uk/Record/cronfa70368
 https://www.curry-language.org/docs/report/versions/report_2014_02_27.pdf
+https://ww.curry-language.org/docs/report/versions/report160902.pdf
+https://ww.curry-language.org/docs/report/versions/report_2012_09_11.pdf
+https://cpm.curry-lang.org/DOC/base-3.4.0/index.html
+https://cpm.curry-lang.org/DOC/flatcurry-4.0.0/FlatCurry.Files_curry.html
+https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.html
+https://arxiv.org/abs/cs/0111039
