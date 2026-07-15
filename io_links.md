@@ -32507,3 +32507,4 @@ https://web.stanford.edu/class/cs99/
 https://arxiv.org/abs/1706.07997
 https://arxiv.org/pdf/1706.07997
 https://cronfa.swan.ac.uk/Record/cronfa70368
+https://www.curry-language.org/docs/report/versions/report_2014_02_27.pdf
