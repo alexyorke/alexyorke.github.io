@@ -32410,3 +32410,4 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://www.cs.princeton.edu/courses/archive/spring05/cos320/notes/harperbook.pdf
 https://www.cs.princeton.edu/~appel/smlnj/basis/imperative-io-fn.html
 https://smlfamily.github.io/sml97-defn.pdf
+https://www.scribd.com/document/366128261/monad-3-ps
