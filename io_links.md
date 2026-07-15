@@ -32811,6 +32811,14 @@ https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-TCP.html
 https://www.classcentral.com/course/youtube-haskell-25-machine-learning-primitives-as-algebraic-effects-508816
 https://haskellweekly.news/issue/463.html
 https://icfp25.sigplan.org/room/splash-2025-venue-peony-sw
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/190FBF349B0D32D56992C566CDBF5ED5/S0956796824000133a.pdf/from_high_to_low_simulating_nondeterminism_and_state_with_state.pdf
+https://pure.itu.dk/en/projects/algebraic-effects-and-guarded-recursion/publications/
+https://mailman.haskell.org/archives/list/haskell%40haskell.org/2025/5/
+https://explore.gcts.edu/algebra-suggest-010/files?ID=KjE05-5383&title=why-algebraic-effects.pdf
+https://hackage.haskell.org/package/extensible-exceptions/docs
+https://packages.fedoraproject.org/pkgs/ghc-extensible-exceptions/ghc-extensible-exceptions-doc
+https://hackage.haskell.org/package/pipes-4.1.0/docs
+https://hackage.haskell.org/package/exceptions-0.6.1
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
