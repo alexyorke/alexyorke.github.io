@@ -32642,6 +32642,14 @@ https://hackage.haskell.org/package/linear-socket
 https://hackage.haskell.org/package/linear-socket-0.3.3.3
 https://haskell.foundation/assets/other/Duncan%20Coutts%20-%20GHC%20Tool%20Ecosystem.pdf
 https://well-typed.com/blog/aux/files/zurihac-2023/duncan-coutts-ghc-packaging-ecosystem.pdf
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Maybe.html
+https://lukastymo.com/posts/025-hello-haskell-a-hands-on-lab-for-2026/
+https://cse230.ucsd.edu/lectures/lec-monads.html
+https://downloads.haskell.org/~ghc/latest/docs/libraries/mtl-2.3.1-77f5/Control-Monad-Reader.html
+https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-State.html
+https://hackage.haskell.org/package/mtl-2.0.1.0/docs/Control-Monad-State-Lazy.html
+https://hackage.haskell.org/package/mtl-c-0.1.1/docs/Control-Monad-Reader-CPS.html
+https://xmonad.github.io/xmonad-docs/transformers-0.5.6.2/Control-Monad-Trans-Class.html
 https://pure.au.dk/portal/en/publications/monadic-abstract-interpreters/
 https://data.tmorris.net/talks/haskell-parsers/haskell-parsers/pdf/index.pdf
 https://arxiv.org/abs/1802.06571
