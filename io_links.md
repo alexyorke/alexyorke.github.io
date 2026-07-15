@@ -32465,3 +32465,4 @@ https://citeseerx.ist.psu.edu/document?doi=5c19f0ee0173cb847b36642e2b3ee7472e03b
 https://pierre-hyvernat.apps.math.cnrs.fr/data/Files/phd.pdf
 https://www.sambuz.com/doc/coinductive-reasoning-in-dependent-type-theory-copatterns-presentation-1039399
 https://www.leanpub.com/book-of-monads
+https://dblp.org/rec/conf/csl/HancockS00
