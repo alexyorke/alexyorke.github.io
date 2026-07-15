@@ -32492,3 +32492,5 @@ https://stackoverflow.com/questions/7769996/using-the-par-monad-with-stm-and-det
 https://www.ideals.illinois.edu/items/29856/bitstreams/99122/data.pdf
 https://www.research-collection.ethz.ch/bitstreams/07a03edd-6ea9-4663-9a65-ed78416c2e44/download
 https://arxiv.org/pdf/1704.08055
+https://odr.chalmers.se/bitstreams/b5438b2f-a2a5-43ce-bd0e-86644f6f0e80/download
+https://koka-lang.github.io/koka/doc/book.html#why
