@@ -32516,3 +32516,4 @@ https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.h
 https://arxiv.org/abs/cs/0111039
 https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf
 https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf
+https://hackage.haskell.org/package/effect-handlers/docs
