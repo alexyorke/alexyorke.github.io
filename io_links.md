@@ -31374,3 +31374,13 @@ https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/task-expressi
 https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasync.html
 https://courses.grainger.illinois.edu/cs421/su2009/lectures/26-Parallel.pdf
+https://www.mintlify.com/Effect-TS/effect-smol/reference/api-reference
+https://effect-ts.github.io/effect/docs/typeclass
+https://effect-ts.github.io/effect/docs/cli
+https://effect.website/docs/other/fp-ts
+https://gcanti.github.io/fp-ts/modules/Task.ts.html
+https://gcanti.github.io/fp-ts-fluture/modules/Future.ts.html
+https://dev.to/anthonyjoeseph/taskeither-vs-fluture-4e0n
+https://app.unpkg.com/fp-ts%401.8.1/files/README.md
+https://www.lambdalounge.org.uk/2021/01/18/practical-fp-in-typescript.html
+https://icfp17.sigplan.org/details/hope-2017-talks/1/Invited-Talk-Semantics-of-Effect-Systems-by-Graded-Monads
