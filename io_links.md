@@ -32922,3 +32922,8 @@ https://hackage.haskell.org/package/base-4.22.0.0/changelog
 https://hackage.haskell.org/package/safe-exceptions-0.1.7.4/docs
 https://igm.univ-mlv.fr/~vialette/teaching/2025-2026/E4/Examen-11-20-25/Lectures/lecture-01-first-steps.pdf
 https://hackage-content.haskell.org/package/hspec-2.11.12
+https://www.stackage.org/lts-17.6/package/safe-exceptions-0.1.7.1
+https://flora.pm/packages/%40hackage/fused-effects
+https://hackage.haskell.org/package/hspec-core-2.11.17
+https://discourse.haskell.org/t/rfc-hspec-quickcheck-classes-testing-typeclass-laws-from-hspec/13919
+https://web.mit.edu/phurst/Public/haskell13/day3.pdf
