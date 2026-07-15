@@ -31913,3 +31913,10 @@ https://hackage.haskell.org/package/protolude
 https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/Relude.html
 https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/doc-index-I.html
 https://hackage.haskell.org/package/relude-0.2.0/candidate
+https://hackage.haskell.org/package/classy-prelude
+https://hackage.haskell.org/package/classy-prelude/docs/ClassyPrelude.html
+https://hackage.haskell.org/package/classy-prelude-0.12.3/docs
+https://hackage.haskell.org/package/classy-prelude-0.5.4/docs
+https://packages.debian.org/trixie/doc/libghc-classy-prelude-doc
+https://www.stackage.org/lts-15.4/package/classy-prelude-1.5.0
+https://www.stackage.org/lts-10.2/package/classy-prelude-1.3.1
