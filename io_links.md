@@ -32326,3 +32326,5 @@ https://3e8.org/pub/scheme/doc/haskell-tutorial-writing-scheme-in-48-hours.pdf
 https://tomasp.net/blog/2013/computation-zoo-padl/
 https://old.arrow-kt.io/docs/quickstart/
 https://ducmanhphan.github.io/2020-12-15-monad-pattern/
+https://www.skypack.dev/view/monio
+https://www.skypack.dev/view/%40funkia/io
