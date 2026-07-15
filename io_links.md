@@ -31455,3 +31455,15 @@ https://hackage.haskell.org/package/fast-logger-3.2.0/docs
 https://hackage.haskell.org/package/fast-logger-3.0.0/docs
 https://hackage.haskell.org/package/fast-logger-2.4.17/docs
 https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/src/System.Log.FastLogger.FileIO.html
+https://hackage.haskell.org/package/temporary-1.1/docs/src/System-IO-Temp.html
+https://hackage-content.haskell.org/package/extra-1.8/docs/src/System.IO.Extra.html
+https://hackage.haskell.org/package/fsnotify
+https://hackage-content.haskell.org/package/fsnotify-0.4.3.0/docs/System-FSNotify-Devel.html
+https://hackage.haskell.org/package/temporary/docs/src/System.IO.Temp.html
+https://downloads.haskell.org/ghc/latest/docs/libraries/Cabal-3.16.0.0-d85b/Distribution-Simple-Utils.html
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/ghc-8.4.4/FileCleanup.html
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/Cabal-1.24.2.0/Distribution-Simple-Utils.html
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/Cabal-2.0.0.2/Distribution-Simple-Utils.html
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/Cabal-1.12.0/Distribution-Simple-Utils.html
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/Cabal-3.14.1.0-be50/Distribution-Simple-Utils.html
+https://hackage.haskell.org/package/Cabal-ide-backend-1.23.0.0/docs/Distribution-Simple-Utils.html
