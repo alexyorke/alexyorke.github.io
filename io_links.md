@@ -32012,3 +32012,9 @@ https://kodu.ut.ee/~varmo/FP2007/slides/loeng14.pdf
 https://agda.readthedocs.io/en/v2.6.0/getting-started/hello-world.html
 https://www.mathstat.dal.ca/~selinger/agda-lectures/
 https://researchgate.net/publication/313374522_Interactive_programming_in_Agda_Objects_and_graphical_user_interfaces
+https://media.arrow-kt.io/videos/
+https://arrow-kt.io/community/blog/2020/06/05/functional-domain-modeling-kotlin/
+https://arrow-kt.io/community/blog/tags/fx/
+https://media.arrow-kt.io/articles
+https://api.usaskillsinc.com/backend/files/SwJBiyWNE91tfxMxaUrg.pdf
+https://kotlinlang.org/spec/pdf/sections/asynchronous-programming-with-coroutines.pdf
