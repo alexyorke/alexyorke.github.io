@@ -31232,3 +31232,17 @@ https://typelevel.org/otel4s-sdk/instrumentation/metrics-cats-effect-io-runtime.
 https://tapir-scala.readthedocs.io/_/downloads/en/v0.12.17/pdf/
 https://sttp.softwaremill.com/_/downloads/en/v3.3.9/pdf/
 https://index.scala-lang.org/theinnerlight/pure-log
+https://hackage.haskell.org/package/directory-1.2.0.1/docs/System-Directory.html
+https://hackage.haskell.org/package/directory-1.0.0.0/docs/System-Directory.html
+https://hackage.haskell.org/package/system-fileio-0.2/docs/System-Directory.html
+https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/System-Directory.html
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/directory-1.2.1.0/System-Directory.html
+https://hackage-content.haskell.org/package/directory-1.3.10.1/docs/System-Directory.html
+https://downloads.haskell.org/~ghc/8.2-latest/docs/html/libraries/directory-1.3.0.2/src/System-Directory.html
+https://www.haskell.org/onlinereport/directory.html
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/directory-1.3.8.5-fc66/src/System.Directory.html
+https://ocaml.org/manual/4.06/libref/Unix.html
+https://ocaml.org/manual/5.0/api/Unix.html
+https://ocaml.org/p/ocaml-base-compiler/4.14.1/doc/unix/UnixLabels/index.html
+https://ocaml.org/manual/4.13/api/Unix.html
+https://unix.janestreet.com/ocaml-core/odoc/unix/Unix/index.html
