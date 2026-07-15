@@ -32461,3 +32461,7 @@ https://dspace.mit.edu/server/api/core/bitstreams/5154af6b-4a9a-4915-a744-6fcc13
 https://tannerduve.github.io/files/monads.pdf
 https://staff.emu.edu.tr/zekibayram/Documents/courses/CMPE462/Curry/tutorial.pdf
 https://docs.idris-lang.org/en/v0.9.18/effects/introduction.html
+https://citeseerx.ist.psu.edu/document?doi=5c19f0ee0173cb847b36642e2b3ee7472e03b1f2&repid=rep1&type=pdf
+https://pierre-hyvernat.apps.math.cnrs.fr/data/Files/phd.pdf
+https://www.sambuz.com/doc/coinductive-reasoning-in-dependent-type-theory-copatterns-presentation-1039399
+https://www.leanpub.com/book-of-monads
