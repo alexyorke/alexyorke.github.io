@@ -32363,3 +32363,4 @@ https://ocaml.org/p/eio/0.15/doc/README.html
 https://skvirski.com/articles/result-oriented-programming-fsharp/
 https://www.readkong.com/page/the-f-computation-expression-zoo-7270706
 https://wallymathieu.github.io/FSharpPlus/computation-expressions.html
+https://sources.debian.org/src/lwt/2.4.3-4/manual/manual.pdf
