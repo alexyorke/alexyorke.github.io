@@ -32139,3 +32139,7 @@ https://books.google.co.uk/books?id=wSkRAAAAQBAJ
 https://books.google.ca/books?id=wSkRAAAAQBAJ
 https://www.scs.stanford.edu/16wi-cs240h/
 https://teaching.well-typed.com/intro/introduction.html
+https://idris2.readthedocs.io/en/latest/ffi/ffi.html
+https://idris2.readthedocs.io/en/latest/updates/updates.html
+https://idris2.readthedocs.io/en/latest/app/introapp.html
+https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_Sources.pdf
