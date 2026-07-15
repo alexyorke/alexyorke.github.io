@@ -32347,3 +32347,5 @@ https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/I
 https://livebook.manning.com/book/functional-programming-in-scala/chapter-13/section-13-2/
 https://zio.dev/zio-blocks/guides/compile-time-resource-safety-with-scope/
 https://javadoc.io/static/dev.zio/zio_3/2.0.9/zio/Scope.html
+https://bio.monix.io/docs/resource-safety
+https://monix.io/api/3.0/monix/eval/TaskApp.html
