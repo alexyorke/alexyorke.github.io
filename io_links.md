@@ -32830,3 +32830,13 @@ https://hackage.haskell.org/package/extensible-exceptions-0.1.1.4/docs
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
+https://icfp26.sigplan.org/home/hope-2026
+https://doi.org/10.1145/3808259
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf
+https://hackage.haskell.org/package/happstack-monad-peel/docs
+https://www.stackage.org/package/http-conduit
+https://hackage-content.haskell.org/package/mstate-0.2.11/docs/Control-Concurrent-MState.html
+https://www.classcentral.com/index.php/course/youtube-haskell-23-haskell-for-choice-based-learning-347653
+https://www.classcentral.com/course/youtube-building-haskell-programs-with-fused-effects-by-patrick-thomson-166091
+https://www.classcentral.com/course/youtube-pldi-23-purecake-a-verified-compiler-for-a-lazy-functional-language-347887
+https://www.classcentral.com/course/youtube-haskellrank-59641
