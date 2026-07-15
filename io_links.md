@@ -32289,3 +32289,4 @@ https://www.functionalphp.com/
 https://packagist.org/packages/phunkie/streams
 https://packagist.org/packages/phunkie/
 https://packagist.org/packages/phunkie/phpstan
+https://www.javadoc.io/static/io.monix/monix-eval_2.11/3.2.1/monix/eval/Task.html
