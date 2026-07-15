@@ -32320,3 +32320,6 @@ https://formal.land/blog/2023/05/28/monad-for-side-effects-in-rust
 https://www.cnblogs.com/javamoon/p/4112380.html
 https://blog.khinsen.net/posts/2009/04/22/Monads-in-Clojure.html
 https://khinsen.wordpress.com/2009/04/22/monad-tutorial-for-clojure-programmers/
+https://mko.re/blog/scheme-monads/
+https://www.cl.cam.ac.uk/teaching/2223/ConceptsPL/lectures-4up.pdf
+https://3e8.org/pub/scheme/doc/haskell-tutorial-writing-scheme-in-48-hours.pdf
