@@ -32196,3 +32196,6 @@ https://okmij.org/ftp/continuations/Eff/caml-eff.pdf
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasyncbuilder.html
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-asyncprimitives.html
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control.html
+https://docs.rs/effect-monad/latest
+https://doc.rust-lang.org/std/future/index.html
+https://doc.rust-lang.org/core/io/index.html
