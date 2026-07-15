@@ -31482,3 +31482,17 @@ https://downloads.haskell.org/~ghc/latest/docs/libraries/text-2.1.3-075e/Data-Te
 https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-IO-Encoding-Types.html
 https://hackage.haskell.org/package/bytestring-encoding/docs/Data-ByteString-Encoding.html
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Encoding.html
+https://hackage.haskell.org/package/optparse-applicative
+https://hackage.haskell.org/package/optparse-applicative-0.14.0.0
+https://hackage-content-origin.haskell.org/package/optparse-applicative-0.15.1.0
+https://hackage.haskell.org/package/optparse-applicative-0.5.0
+https://hackage.haskell.org/package/optparse-applicative-0.12.1.0
+https://hackage-content.haskell.org/package/optparse-applicative-dex-1.0.1/docs/Options-Applicative-Dex.html
+https://hackage-content.haskell.org/package/cmdargs-0.1/src/cmdargs.htm
+https://hackage-content.haskell.org/package/optparse-applicative-0.16.0.0/docs/doc-index-B.html
+https://packages.debian.org/trixie/source/haskell-ansi-terminal
+https://hackage.haskell.org/package/ansi-terminal-0.6.2.2
+https://hackage.haskell.org/package/terminal
+https://sources.debian.org/src/haskell-ansi-terminal/1.1.5-1/README.md
+https://www.cse.sc.edu/~mgv/csce330f22/haskell/Haskell_wiki.pdf
+https://mail.haskell.org/pipermail/beginners/2010-March/003692.html
