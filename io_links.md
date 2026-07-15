@@ -32003,3 +32003,12 @@ https://docs.rs/functype-io/latest/functype_io/
 https://repository.tudelft.nl/file/File_48b620db-13e0-4102-960e-a5e6272b7843?preview=1
 https://atnos-org.github.io/eff/org.atnos.site.Installation.html
 https://fstar-lang.org/tutorial/book/part4/part4.html
+https://old.arrow-kt.io/docs/0.12/apidocs/arrow-fx/arrow.fx.extensions/index.html
+https://www.msec.it/blog/introducing-kio/
+https://livebook.manning.com/book/functional-programming-in-kotlin/part-4
+https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/
+https://klibs.io/project/Kotlin/kotlinx-io
+https://kodu.ut.ee/~varmo/FP2007/slides/loeng14.pdf
+https://agda.readthedocs.io/en/v2.6.0/getting-started/hello-world.html
+https://www.mathstat.dal.ca/~selinger/agda-lectures/
+https://researchgate.net/publication/313374522_Interactive_programming_in_Agda_Objects_and_graphical_user_interfaces
