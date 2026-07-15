@@ -32187,3 +32187,5 @@ https://monix.io/api/2.2/monix/types/
 https://monix.io/api/2.3/monix/types/index.html
 https://bio.monix.io/
 https://bio.monix.io/api/monix/bio/IO.html
+https://index.scala-lang.org/getkyo/kyo
+https://niqdev.github.io/scala-fp/docs/fp-advanced
