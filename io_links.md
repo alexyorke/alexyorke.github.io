@@ -32642,6 +32642,16 @@ https://hackage.haskell.org/package/linear-socket
 https://hackage.haskell.org/package/linear-socket-0.3.3.3
 https://haskell.foundation/assets/other/Duncan%20Coutts%20-%20GHC%20Tool%20Ecosystem.pdf
 https://well-typed.com/blog/aux/files/zurihac-2023/duncan-coutts-ghc-packaging-ecosystem.pdf
+https://pure.au.dk/portal/en/publications/monadic-abstract-interpreters/
+https://data.tmorris.net/talks/haskell-parsers/haskell-parsers/pdf/index.pdf
+https://arxiv.org/abs/1802.06571
+https://arxiv.org/abs/2001.04457
+https://arxiv.org/abs/1105.2576
+https://arxiv.org/abs/1707.04755
+https://hackage.haskell.org/package/network-3.1.1.1/docs/Network-Socket.html
+https://hackage.haskell.org/package/network-2.8.0.0/docs/Network-Socket.html
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/libraries/network/Network-Socket.html
+https://hackage.haskell.org/package/network-2.8.0.1/docs/Network-Socket.html
 https://arxiv.org/abs/2312.14964
 https://dl.acm.org/doi/10.1145/3331545.3342598
 https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries
