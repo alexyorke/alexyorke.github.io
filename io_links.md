@@ -32796,6 +32796,11 @@ https://hackage.haskell.org/package/lifted-base/docs
 https://hackage.haskell.org/package/resourcet-1.1.0.1/docs
 https://www.lironcohenlab.com/pubs/invitedFSCD2025.pdf
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol337-fscd2025/LIPIcs.FSCD.2025/LIPIcs.FSCD.2025.pdf
+https://hackage.haskell.org/package/Stream-0.1/docs
+https://hackage.haskell.org/package/conduit-1.2.4.2/docs
+https://packages.fedoraproject.org/pkgs/ghc-exceptions/ghc-exceptions
+https://hackage.haskell.org/package/html-conduit-1.2.0/docs
+https://constructor.university/sites/default/files/2026-02/AST_MSc_HandBook_2025_1_1.pdf
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
