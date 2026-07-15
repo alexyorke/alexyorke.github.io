@@ -32909,3 +32909,5 @@ https://www.reddit.com/r/haskell/comments/1upt8sr/zurihac_2026_video_playlist/
 https://hackage.haskell.org/package/safe-exceptions/docs
 https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html
 https://well-typed.com/blog/2025/05/haskell-unfolder-episode-44-state-based-testing-with-quickcheck-lockstep
+https://www.cambridge.org/core/product/20BF7DCA6330A2115C2C9B9BA47AB2E0
+https://discourse.haskell.org/t/state-based-testing-with-quickcheck-lockstep-haskell-unfolder-44/12095
