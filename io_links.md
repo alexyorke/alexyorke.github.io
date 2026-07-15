@@ -32486,3 +32486,5 @@ https://arxiv.org/pdf/1812.11664
 https://doi.org/10.1016/j.ifacol.2022.11.100
 https://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP11b.pdf
 https://citeseerx.ist.psu.edu/document?doi=1997710cea4b67b9e53df96d6dee7f2c3e5c5556&type=pdf
+https://arxiv.org/pdf/1109.0785
+https://arxiv.org/pdf/1902.06950
