@@ -32336,3 +32336,4 @@ https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-us
 https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434
 https://chrilves.github.io/raffiot.py/index.html
 https://csharp-functional.readthedocs.io/en/latest/
+https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Monad-IO-Class.html
