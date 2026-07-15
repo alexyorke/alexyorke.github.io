@@ -32299,3 +32299,6 @@ https://livebook.manning.com/book/functional-programming-in-scala/chapter-15
 https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html
 https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/
 https://www.bookey.app/book/functional-programming-in-scala
+https://www.cs.cmu.edu/~fp/courses/15312-f02/lectures/15-monads.html
+https://kar.kent.ac.uk/61623/
+https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/monads-for-fp_wadler.pdf
