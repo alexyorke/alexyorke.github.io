@@ -32314,3 +32314,5 @@ https://github.com/koka-lang/koka
 https://icfp21.sigplan.org/details/icfp-2021-tutorials/5/Programming-with-Effect-Handlers-and-FBIP-in-Koka
 https://goto.ucsd.edu/~nvazou/koka/koka.html
 https://pblevy.github.io/msfp2014/koka.pdf
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.165
+https://link.springer.com/article/10.1007/s10849-022-09378-7
