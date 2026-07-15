@@ -31879,3 +31879,4 @@ https://hackage.haskell.org/package/tf-random
 https://hackage.haskell.org/package/async-2.2.5/candidate
 https://hackage.haskell.org/package/async-pool
 https://hackage.haskell.org/package/distributed-process-async
+https://hackage.haskell.org/package/hasql-transaction-io-0.2.7.0
