@@ -32592,6 +32592,10 @@ https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/
 https://link.springer.com/book/10.1007/978-3-319-29604-3
 https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf
 https://link.springer.com/book/10.1007/978-981-92-0184-6
+https://www.classcentral.com/course/youtube-icfp-24-orange-3-haskell-sep-7th-347259
+https://www.cambridge.org/core/journals/journal-of-functional-programming/journal-of-functional-programming-most-downloaded-2023
+https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html
+https://homepages.cwi.nl/~ploeg/zseq.pdf
 https://arxiv.org/abs/2007.10809
 https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
 https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
