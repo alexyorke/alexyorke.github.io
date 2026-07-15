@@ -32819,6 +32819,14 @@ https://hackage.haskell.org/package/extensible-exceptions/docs
 https://packages.fedoraproject.org/pkgs/ghc-extensible-exceptions/ghc-extensible-exceptions-doc
 https://hackage.haskell.org/package/pipes-4.1.0/docs
 https://hackage.haskell.org/package/exceptions-0.6.1
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-IO.html
+https://mailman.haskell.org/archives/list/haskell%40haskell.org/2026/5/
+https://icfp24.sigplan.org/series/haskellsymp
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.45
+https://www.mail-archive.com/haskell%40haskell.org/msg27444.html
+https://hackage.haskell.org/package/network-conduit/docs
+https://hackage.haskell.org/package/conduit-1.0.5/docs
+https://hackage.haskell.org/package/extensible-exceptions-0.1.1.4/docs
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
