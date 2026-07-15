@@ -31524,3 +31524,16 @@ https://hackage.haskell.org/package/alsa-seq
 https://hackage.haskell.org/package/alsa-midi-0.4.0.1/docs
 https://hackage.haskell.org/package/alsa-gui
 https://hackage.haskell.org/package/RtMidi
+https://hackage-content.haskell.org/package/pipes-2.4.0
+https://hackage.haskell.org/package/pipes-parse
+https://hackage.haskell.org/package/pipes-bytestring
+https://packages.debian.org/source/sid/mips64el/misc/haskell-pipes
+https://sources.debian.org/src/haskell-pipes/4.3.14-1
+https://hackage.haskell.org/packages/archive/pipes/
+https://hackage-content.haskell.org/package/pipes-4.3.16
+https://hackage-origin.haskell.org/package/conduit-1.3.0/docs/Data-Conduit-Combinators-Stream.html
+https://packages.debian.org/source/stable/haskell-conduit
+https://packages.debian.org/source/bookworm/haskell-conduit
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1031858.html
+https://hackage.haskell.org/package/streamly-0.2.0
+https://hackage.haskell.org/package/streamly-0.8.3
