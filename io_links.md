@@ -31404,3 +31404,6 @@ https://hackage.haskell.org/package/twain
 https://hackage.haskell.org/package/network-2.3/docs/Network.html
 https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket-ByteString.html
 https://downloads.haskell.org/~ghc/6.4.2/docs/html/libraries/network/Network-Socket.html
+https://lean-lang.org/papers/do.pdf
+https://research.tudelft.nl/en/publications/modal-%CE%BC-calculus-for-free-in-agda/
+https://repository.tudelft.nl/record/uuid%3Ae0503427-80ad-478b-ac9c-c2076949e689
