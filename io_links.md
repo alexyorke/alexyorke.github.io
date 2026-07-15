@@ -32355,3 +32355,7 @@ https://grossbart.github.io/fp-ts/modules/IOEither.ts.html
 https://grossbart.github.io/fp-ts/recipes/interoperability.html
 https://gcanti.github.io/fp-ts/modules/StateReaderTaskEither.ts.html
 https://fp-ts.github.io/core/modules/Either.ts.html
+https://effect-ts.github.io/effect/
+https://www.npmjs.com/package/effect
+https://learn-effect-ts.tonytang.dev/
+https://github.com/effect-ts/effect
