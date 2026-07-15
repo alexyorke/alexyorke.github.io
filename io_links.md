@@ -32338,3 +32338,7 @@ https://chrilves.github.io/raffiot.py/index.html
 https://csharp-functional.readthedocs.io/en/latest/
 https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Monad-IO-Class.html
 https://stackoverflow.com/questions/23537387/clarification-on-streaming-and-effects-in-context-of-pipes-library
+https://stackoverflow.com/questions/36949944/piping-an-http-stream-through-a-haskell-conduit
+https://stackoverflow.com/questions/38955432/haskell-conduits-from-file-to-process
+https://www.schoolofhaskell.com/school/advanced-haskell/conduit-overview
+https://stackoverflow.com/questions/44327727/understanding-conduit-output
