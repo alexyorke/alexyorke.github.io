@@ -32214,3 +32214,7 @@ https://koka-lang.github.io/koka/doc/std_core-source.html
 https://koka-lang.github.io/koka/doc/std_core.html
 https://koka-lang.github.io/koka/doc/toc.html
 https://fuzion-lang.dev/design/effects
+https://doc.flix.dev/control-structures.html
+https://doc.flix.dev/
+https://api.flix.dev/Monad.html
+https://blog.flix.dev/blog/will-llms-help-or-hurt-new-programming-languages/
