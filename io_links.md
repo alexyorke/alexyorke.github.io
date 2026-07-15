@@ -31890,3 +31890,12 @@ https://hackage.haskell.org/package/unix-compat-0.7
 https://www.stackage.org/package/unix-compat
 https://hackage.haskell.org/package/unix-compat-0.4.0.0/docs
 https://hackage.haskell.org/package/unix-2.8.0.0/changelog
+https://hackage.haskell.org/package/hpath-io-0.14.2
+https://hackage.haskell.org/package/file-io
+https://hackage.haskell.org/package/hpath-posix-0.13.2
+https://hackage.haskell.org/package/hpath-io/docs
+https://hackage.haskell.org/package/Z-IO-0.1.3.0/docs/Z-IO-FileSystem.html
+https://hackage.haskell.org/package/FileSystem/docs
+https://hackage.haskell.org/package/posix-paths
+https://hackage.haskell.org/package/hpath-0.9.2/docs/System-Posix-FilePath.html
+https://hackage.haskell.org/package/filepath-1.4.100.0
