@@ -32173,3 +32173,4 @@ https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Pro
 https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.CommunicationHandle.html
 https://hackage-content.haskell.org/package/ghc-9.12.2/docs/GHC-SysTools-Process.html
 https://hackage-content.haskell.org/package/quick-process-0.0.3/docs/src/System.Process.Quick.CallSpec.Run.html
+https://hackage.haskell.org/package/http-monad-0.0.1/docs
