@@ -32866,6 +32866,9 @@ https://hackage.haskell.org/package/monad-peel-0.3
 https://hackage.haskell.org/package/transformers-base-0.4.6/docs
 https://hackage.haskell.org/package/transformers-compat-0.4.0.2/docs
 https://hackage.haskell.org/package/exceptions-0.10.12/docs
+https://hackage.haskell.org/package/mtl-tf-0.2.0.0/docs
+https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-transformers-compat/
 https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
 https://www.classcentral.com/subject/referential-transparency
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
