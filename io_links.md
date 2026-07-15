@@ -32537,6 +32537,13 @@ https://www.replay.io/blog/how-to-time-travel-every-time
 https://discuss.ocaml.org/t/introduction-to-eio-video/11571
 https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/
 https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/functional-programming-concepts
+https://danel.ahman.ee/talks/msr13.pdf
+https://prg.is.titech.ac.jp/papers/pdf/hope2022.pdf
+https://iris.uniupo.it/retrieve/ab1f4432-8581-4ef5-8f13-766d751b317e/proceedings.pdf
+https://icfp22.sigplan.org/details/icfp-2022-papers/10/Formal-Reasoning-About-Layered-Monadic-Interpreters
+https://citeseerx.ist.psu.edu/document?doi=8242b566d8bd1ce0ebbcb7cfdea0aa5b70501da1&repid=rep1&type=pdf
+https://www.cs.umd.edu/class/spring2019/cmsc388F/lectures/monads.html
+https://hackage-content.haskell.org/package/io-sim-1.9.1.0/docs
 https://lean-lang.org/doc/reference/latest/Functors___-Monads_and--do--Notation/
 https://prg.is.titech.ac.jp/projects/formalization/monae/
 https://github.com/leanprover/reference-manual/blob/main/Manual.lean
