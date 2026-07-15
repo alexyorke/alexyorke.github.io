@@ -32861,6 +32861,8 @@ https://hackage.haskell.org/package/dph-lifted-base/docs
 https://hackage.haskell.org/package/lifted-base-0.1.1.1/docs
 https://hackage.haskell.org/package/monad-loops-0.3.0.2
 https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/
+https://serokell.io/courses
+https://hackage.haskell.org/package/monad-peel-0.3
 https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
 https://www.classcentral.com/subject/referential-transparency
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
