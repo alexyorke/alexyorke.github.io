@@ -32863,6 +32863,9 @@ https://hackage.haskell.org/package/monad-loops-0.3.0.2
 https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/
 https://serokell.io/courses
 https://hackage.haskell.org/package/monad-peel-0.3
+https://hackage.haskell.org/package/transformers-base-0.4.6/docs
+https://hackage.haskell.org/package/transformers-compat-0.4.0.2/docs
+https://hackage.haskell.org/package/exceptions-0.10.12/docs
 https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
 https://www.classcentral.com/subject/referential-transparency
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
