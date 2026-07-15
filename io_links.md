@@ -32848,3 +32848,9 @@ https://www.classcentral.com/course/youtube-effective-haskell-rebecca-skinner-em
 https://www.classcentral.com/course/youtube-insait-tech-series-prof-martin-odersky-effects-and-resources-new-frontiers-for-safe-and-354715
 https://www.classcentral.com/course/youtube-oopsla-25-notions-of-stack-manipulating-computation-and-relative-monads-508883
 https://www.classcentral.com/course/youtube-haskell-for-beginners-59640
+https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/66/An-Equational-Axiomatization-of-Dynamic-Threads-via-Algebraic-Effects-Presheaves-on-
+https://luma.com/wv1zt5em
+https://pure.itu.dk/en/publications/calculating-compilers-effectively-functional-pearl/
+https://arxiv.org/abs/2602.05850
+https://packages.fedoraproject.org/pkgs/ghc-monad-logger/ghc-monad-logger
+https://packages.debian.org/source/trixie/misc/haskell-monad-logger
