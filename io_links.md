@@ -32480,3 +32480,6 @@ https://arxiv.org/abs/1803.08958
 https://cseweb.ucsd.edu/~dstefan/talks/strangeloop2016.pdf
 https://citeseerx.ist.psu.edu/document?doi=b82a2bba57ac617753e17f15833ccd40079f7c&repid=rep1&type=pdf
 https://arxiv.org/pdf/1505.02579
+https://www.ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html
+https://sage.ci.dev/live/p/eio/0.9/doc/README.html
+https://arxiv.org/pdf/1812.11664
