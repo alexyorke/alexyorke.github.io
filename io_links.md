@@ -31384,3 +31384,9 @@ https://dev.to/anthonyjoeseph/taskeither-vs-fluture-4e0n
 https://app.unpkg.com/fp-ts%401.8.1/files/README.md
 https://www.lambdalounge.org.uk/2021/01/18/practical-fp-in-typescript.html
 https://icfp17.sigplan.org/details/hope-2017-talks/1/Invited-Talk-Semantics-of-Effect-Systems-by-Graded-Monads
+https://streamly.composewell.com/streamly-0.11.0/Tutorials/streams-as-loops.html
+https://www.asaj.org/papers/csl11.pdf
+https://hackage.haskell.org/packages/archive/conduit/0.0.4/doc/html/Data-Conduit.html
+https://hackage-content-origin.haskell.org/package/conduit-1.3.1.2
+https://hackage-content-origin.haskell.org/package/conduit-1.2.4/docs/doc-index-C.html
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-IO.html
