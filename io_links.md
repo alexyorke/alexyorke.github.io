@@ -32304,3 +32304,4 @@ https://kar.kent.ac.uk/61623/
 https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/monads-for-fp_wadler.pdf
 https://hmemcpy.com/2017/05/from-net-to-scala-and-beyond-a-journey-to-functional-programming/
 https://www.infoq.com/fp/presentations/175/
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/fm.htm
