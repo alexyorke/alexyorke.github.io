@@ -32730,6 +32730,16 @@ https://hackage-content.haskell.org/package/postgresql-migration-persistent-1.0.
 https://hackage-content-origin.haskell.org/package/persistent-1.3.1.1
 https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1
 https://wespiser.com/writings/wyas/07_io.html
+https://research.chalmers.se/publication/500049/file/500049_Fulltext.pdf
+https://student.cs.uwaterloo.ca/~cs442/W25/videos/5.3/
+https://www.classcentral.com/index.php/course/youtube-haskell-25-freer-arrows-and-why-you-need-them-in-haskell-508747
+https://www.researchgate.net/publication/333600413_Interaction_Trees_Representing_Recursive_and_Impure_Programs_in_Coq_Work_In_Progress
+https://dl.acm.org/doi/10.1145/3632854
+https://doisinkidney.com/pdfs/algebraic-free-monads.pdf
+https://www.microsoft.com/en-us/research/wp-content/uploads/2019/03/algeff-in-c-aplas.pdf
+https://www.type-driven.org.uk/edwinb/papers/effects.pdf
+https://arxiv.org/abs/1904.08843
+https://arxiv.org/abs/1309.4821
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
