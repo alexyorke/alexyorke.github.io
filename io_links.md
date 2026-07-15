@@ -32402,3 +32402,5 @@ https://hackage.haskell.org/package/ghc-internal/docs
 https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow
 https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/
 https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ
+https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/
+https://nostarch.com/fsharp
