@@ -10358,7 +10358,6 @@ https://arxiv.org/abs/2012.02154
 https://www.monoidal.net/paris2020/talk/qs09t3.html
 https://www.researchgate.net/publication/354598841_Formal_Methods_for_Quantum_Programs_A_Survey
 https://dblp1.uni-trier.de/rec/journals/corr/abs-2012-02154.html
-https://doi.org/10.4204/EPTCS.95.2
 https://hjaafar.xyz/files/algeff_notes.pdf
 https://icfp22.sigplan.org/home/hope-2022
 https://docslib.org/doc/11824996/programming-and-reasoning-with-algebraic-effects-and-dependent-types
@@ -11802,7 +11801,6 @@ https://www.cs.utexas.edu/~wcook/anatomy/anatomy.htm
 https://pl.cs.jhu.edu/fpse/lecture/efficiency.html
 https://independent.academia.edu/LeventErkok
 https://www.linta.de/~aehlig/university/notes-lambda.pdf
-https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-io-4sw.pdf
 https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/my-notes-on-monads-and-IO.pdf
 https://www.cse.iitk.ac.in/users/satyadev/au24/
 https://www.ost.ch/de/die-ost/departemente/departement-informatik/aktuelles-aus-dem-departement-informatik/detail/der-haskell-ecosystem-workshop-2024
@@ -21257,7 +21255,6 @@ https://www.youtube.com/watch?v=cHfZEdxtVjU
 https://www.youtube.com/watch?v=Ug9yJnOYR4U
 https://www.youtube.com/watch?v=F3ppFRcTyHE
 https://www.youtube.com/watch?v=PlFgKV0ZXoE
-https://dokumen.pub/download/functional-programming-glasgow-1995-proceedings-of-the-1995-glasgow-workshop-on-functional-programming-ullapool-scotland-10-12-july-1995-1nbsped-354014580X-9783540145806.html
 https://media.ccc.de/v/bob2022-concurrent-programs-in-haskell-kant/oembed
 https://cdn.media.ccc.de/events/bobkonf/2022/h264-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_hd.mp4
 https://cdn.media.ccc.de/events/bobkonf/2022/h264-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_sd.mp4
@@ -26063,7 +26060,6 @@ https://libraries.io/hackage/fs-sim
 https://research.utwente.nl/files/5367181/111_Final_paper.pdf
 https://export.arxiv.org/abs/1901.07665
 https://export.arxiv.org/pdf/1901.07665
-https://github.com/plsyssec/lio
 https://pure.tue.nl/ws/portalfiles/portal/333714970/Gils_N.pdf
 https://www.typeerror.org/docs/haskell~8/libraries/base-4.14.1.0/ghc-io-unsafe
 http://www.altocumulus.org/Fudgets/Manual/
@@ -27231,7 +27227,6 @@ https://github.com/fpco/unliftio/tags
 https://github.com/Gabriella439/managed
 https://github.com/Gabriella439/managed/releases
 https://github.com/Gabriella439/managed/tags
-https://github.com/IntersectMBO/io-sim
 https://github.com/IntersectMBO/io-sim/releases
 https://github.com/IntersectMBO/io-sim/tags
 https://github.com/lambdabot/IOSpec/releases
@@ -28298,7 +28293,6 @@ https://www.oreilly.com/library/view/functional-programming-for/9781119527503/c1
 https://www.oreilly.com/library/view/haskell-quick-syntax/9781484245071/html/475690_1_En_1_Chapter.xhtml
 https://www.people.cs.nott.ac.uk/pszgmh/pih.html
 https://homepages.inf.ed.ac.uk/wadler/papers/yow/?C=D%3BO%3DA
-https://www.scribd.com/document/962278665/Functional-programming-and-input-output-distinguished-dissertations-in-computer-science-1st-edition-andrew-d-gordon
 https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/c9-lectures-dr-erik-meijer-functional-programming-fundamentals-chapter-9
 https://okmij.org/ftp/Haskell/extensible/tutorial.html
 https://programatica.cs.pdx.edu/P/harrison-kieburtz.pdf
@@ -28912,7 +28906,6 @@ https://homes.luddy.indiana.edu/ccshan/cs252/usage.pdf
 https://link.springer.com/book/10.1007/3-540-59451-5
 https://arxiv.org/abs/2207.00852
 https://github.com/awkward-squad/ki
-https://www.researchgate.net/publication/257655587_Towards_Semantics-directed_system_Design_and_Synthesis
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1cda3e4a2d35861293448dcb&repid=rep1&type=pdf
 https://gist.github.com/3994038
 https://gist.github.com/ijt/967505
@@ -28934,7 +28927,6 @@ https://research.chalmers.se/en/publication/231133
 https://www.archlinux.de/packages/extra/x86_64/haskell-quickcheck-io
 https://www.stackage.org/package/mockcat
 https://riptutorial.com/ebook/haskell
-https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html
 https://archives.lib.ku.edu/repositories/3/archival_objects/16032
 https://hackage.haskell.org/package/io-classes-1.2.0.0/changelog
 https://hackage.haskell.org/package/QuickCheck
@@ -29003,7 +28995,6 @@ https://hackage-content.haskell.org/package/ghc-lib-9.10.2.20250515/docs/GHC.htm
 https://hackage-content.haskell.org/package/langchain-hs-0.0.3.0/docs/src/Langchain.DocumentLoader.Core.html
 https://hackage-content.haskell.org/package/ollama-haskell-0.2.0.0/docs/Data-Ollama-Copy.html
 https://hackage-content.haskell.org/package/protolude-0.3.5/docs/Protolude.html
-https://hackage.haskell.org/package/Dialog/docs/Dialog.html
 https://hackage.haskell.org/package/dunai-0.6.0
 https://hackage.haskell.org/package/effect-monad/src/examples
 https://hackage.haskell.org/package/Test-SmallCheck.html
@@ -29226,7 +29217,6 @@ https://en.wikibooks.org/wiki/Haskell
 https://mail-archive.com/arch-commits%40archlinux.org/msg820840.html
 https://ci.nii.ac.jp/ncid/BA57122249
 https://verify.rwth-aachen.de/fp05/
-https://hackage.haskell.org/package/Foundation-0.0.3/docs/Foundation-Monad.html
 https://www.cs.tufts.edu/~kfisher/teaching/IOMonad.pdf
 https://homepages.inf.ed.ac.uk/wadler/papers/yow/
 https://homepages.inf.ed.ac.uk/wadler/papers/yow/atlassian.pdf
@@ -29829,7 +29819,6 @@ https://www.stackage.org/nightly-2026-07-08/package/io-memoize-1.1.1.0
 https://www.stackage.org/nightly-2026-07-08/package/io-region-0.1.1
 https://ohua-dev.github.io/slides/haskell-19-stclang.pdf
 https://www.reddit.com/r/haskell/comments/nyebuz/video_series_haskell_by_example/
-https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput_concurrency_exceptions_and_foreignlanguage_calls_in_haskell/
 https://www.cs.nott.ac.uk/~pszgmh/FP04/IO.pdf
 https://www.cs.nott.ac.uk/~pszgmh/FP04/IO.ppt
 https://hackage.haskell.org/package/effects
@@ -29969,7 +29958,6 @@ https://arxiv.org/abs/1810.06037
 https://en.wikipedia.org/wiki/Xmonad
 https://hackage.haskell.org/package/data-effects-core/docs
 https://hackage.haskell.org/package/io-classes-1.2.1
-https://hackage.haskell.org/package/ior
 https://hackage.haskell.org/package/io-sim-0.4.1.0
 https://hackage.haskell.org/package/io-sim-0.4.1.0/docs
 https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs
@@ -31859,7 +31847,6 @@ https://hackage.haskell.org/package/config-ini/docs
 https://hackage.haskell.org/package/config-ini-0.2.1.0
 https://hackage.haskell.org/packages/tag/csv
 https://hackage.haskell.org/package/cassava/docs
-https://hackage.haskell.org/package/Cassava/docs
 https://hackage.haskell.org/package/cassava-0.5.5.0/docs
 https://hackage-content.haskell.org/package/cassava-0.4.1.0
 https://hackage.haskell.org/package/cassava-0.2.1.2/docs
@@ -31890,6 +31877,5 @@ https://hackage.haskell.org/package/fused-effects-mwc-random
 https://hackage.haskell.org/package/crypto-random/docs/src/Crypto-Random-Entropy.html
 https://hackage.haskell.org/package/tf-random
 https://hackage.haskell.org/package/async-2.2.5/candidate
-https://hackage.haskell.org/package/async-2.0.0.0/docs/Control-Concurrent-Async.html
 https://hackage.haskell.org/package/async-pool
 https://hackage.haskell.org/package/distributed-process-async
