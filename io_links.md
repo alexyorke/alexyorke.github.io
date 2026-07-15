@@ -32146,3 +32146,8 @@ https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_So
 https://hackage-content.haskell.org/package/effectful-core-2.6.0.0/docs/doc-index-All.html
 https://hackage-content.haskell.org/package/ghc-internal-9.1401.0/docs/doc-index-I.html
 https://hackage-content.haskell.org/package/base-4.20.2.0/src/src/Data
+https://github.com/fpinscala/fpinscala
+https://www.bookey.app/book/programming-in-scala
+https://www.kufunda.net/publicdocs/Functional%20Programming%20in%20Scala.pdf
+https://docs.scala-lang.org/overviews/scala-book/functional-programming.html
+https://alvinalexander.com/misc/scala-functional-programming-simplified-contents/
