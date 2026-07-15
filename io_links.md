@@ -31885,3 +31885,8 @@ https://hackage.haskell.org/package/epoll-0.2.1
 https://hackage.haskell.org/package/blockio-uring-0.1.0.2
 https://hackage-content.haskell.org/package/posix-api-0.7.3.0/docs/Linux-Epoll.html
 https://repository.gatech.edu/server/api/core/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/content
+https://hackage-content.haskell.org/package/unix-compat-0.7.4/docs/System-PosixCompat.html
+https://hackage.haskell.org/package/unix-compat-0.7
+https://www.stackage.org/package/unix-compat
+https://hackage.haskell.org/package/unix-compat-0.4.0.0/docs
+https://hackage.haskell.org/package/unix-2.8.0.0/changelog
