@@ -32768,6 +32768,12 @@ https://hackage-content.haskell.org/package/stm-chans-3.0.0.11/docs/Control-Conc
 https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control-devel
 https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad-ST.html
 https://www.haskell.foundation/events/2025-haskell-ecosystem-workshop.html
+https://discourse.haskell.org/t/haskell-ecosystem-workshop-hew-2025-videos-online/12788
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025/LIPIcs.ECOOP.2025.pdf
+https://citeseerx.ist.psu.edu/document?doi=1ef1e228ef8bc029d50c4f8cc1d27e386cd53dc3&repid=rep1&type=pdf
+https://hackage-content.haskell.org/package/mtl-2.1.2/docs/Control-Monad-State-Strict.html
+https://hackage.haskell.org/package/transformers-0.6.2.0/docs
+https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Reader.html
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
