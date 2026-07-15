@@ -31390,3 +31390,17 @@ https://hackage.haskell.org/packages/archive/conduit/0.0.4/doc/html/Data-Conduit
 https://hackage-content-origin.haskell.org/package/conduit-1.3.1.2
 https://hackage-content-origin.haskell.org/package/conduit-1.2.4/docs/doc-index-C.html
 https://downloads.haskell.org/ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-IO.html
+https://hackage.haskell.org/package/http-conduit
+https://hackage.haskell.org/package/http-conduit-2.3.0
+https://hackage-content-origin.haskell.org/package/http-conduit-2.3.1/docs/Network-HTTP-Client-Conduit.html
+https://hackage-origin.haskell.org/package/http-client-0.4.21
+https://hackage.haskell.org/package/http-conduit-2.2.2.1/docs
+https://hackage.haskell.org/package/http-conduit-1.9.2.1/docs
+https://hackage.haskell.org/package/http-conduit-2.1.0/docs
+https://hackage.haskell.org/package/http-conduit-2.3.2
+https://hackage.haskell.org/package/webapp-0.3.6
+https://www.researchgate.net/publication/224231906_Warp_A_Haskell_web_server
+https://hackage.haskell.org/package/twain
+https://hackage.haskell.org/package/network-2.3/docs/Network.html
+https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket-ByteString.html
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/libraries/network/Network-Socket.html
