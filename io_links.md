@@ -32236,3 +32236,8 @@ https://zio.dev/reference/core/runtime/
 https://zio.dev/reference/di/
 https://zio.dev/api/zio/zio
 https://zio.dev/reference/error-management/types/defects/
+https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/control/Either.html
+https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/Function7.html
+https://arxiv.org/abs/2211.01473
+https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IO.html
+https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/io/IO.html
