@@ -32893,3 +32893,8 @@ https://hackage.haskell.org/package/pipes-core/docs
 https://hackage.haskell.org/package/pipes-2.3.0/docs
 https://dev.to/bekbrace/monads-in-haskell-1p8i
 https://www.youtube.com/watch?v=pj7-rNyz3J8
+https://hackage.haskell.org/package/exception-transformers/docs
+https://hackage.haskell.org/package/control-monad-exception-0.5
+https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/
+https://www.cs.toronto.edu/~trebla/CSCC24-latest/
+https://is.muni.cz/course/fi/spring2026/IB016?lang=en%3Bzobrazmatob%3D1
