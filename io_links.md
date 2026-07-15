@@ -31920,3 +31920,15 @@ https://hackage.haskell.org/package/classy-prelude-0.5.4/docs
 https://packages.debian.org/trixie/doc/libghc-classy-prelude-doc
 https://www.stackage.org/lts-15.4/package/classy-prelude-1.5.0
 https://www.stackage.org/lts-10.2/package/classy-prelude-1.3.1
+https://hackage.haskell.org/package/brick-0.25
+https://hackage.haskell.org/package/brick-0.20
+https://hackage.haskell.org/package/brick-1.8
+https://hackage.haskell.org/package/brick-1.5
+https://hackage-content-origin.haskell.org/package/brick-0.14
+https://hackage-content.haskell.org/package/brick-2.9
+https://hackage-content-origin.haskell.org/package/brick-0.38
+https://hackage-content-origin.haskell.org/package/brick-0.52
+https://hackage-content.haskell.org/package/vty-6.3/docs/src/Graphics.Vty.html
+https://hackage-content.haskell.org/package/vty-6.4
+https://jtdaugherty.github.io/vty-ui/manuals/vty-ui-users-manual-1.8.pdf
+https://hackage.haskell.org/package/vty-ui
