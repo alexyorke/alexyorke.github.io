@@ -31674,3 +31674,9 @@ https://packages.debian.org/source/stable/haskell-zlib
 https://hackage.haskell.org/package/pipes-zlib-0.4.2
 https://hackage-content.haskell.org/package/zlib-0.7.1.1/docs/doc-index.html
 https://www.cs.columbia.edu/~sedwards/classes/2021/4995-fall/reports/gzip.pdf
+https://hackage.haskell.org/package/mtl-mhs
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/transformers-0.6.3.0-inplace/Control-Monad-Trans-Class.html
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Class.html
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/libraries/transformers-0.6.1.2-70e3/Control-Monad-Trans-Class.html
+https://hackage.haskell.org/package/transformers-0.6.3.0
+https://hackage.haskell.org/package/mtl-1.0
