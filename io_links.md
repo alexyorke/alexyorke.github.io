@@ -32942,3 +32942,7 @@ https://www.mail-archive.com/haskell%40haskell.org/msg27378.html
 https://www.stackage.org/nightly-2026-03-23/package/effectful-2.6.1.0
 https://flora.pm/packages/%40hackage/effectful
 https://mynixos.com/nixpkgs/package/haskellPackages.SoOSiM
+https://www.haskell.org/ghc/docs/7.0.1/core.pdf
+https://www.stackage.org/lts-6.1/package/strict-0.3.2
+https://flora.pm/packages/%40hackage/monad-classes
+https://hackage.haskell.org/package/exception-transformers
