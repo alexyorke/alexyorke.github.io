@@ -31342,3 +31342,13 @@ https://www.scala-exercises.org/doobie/inserting_and_updating
 https://tpolecat.github.io/doobie-0.2.0/01-Introduction.html
 https://www.baeldung.com/scala/skunk-postgresql-driver
 https://scalac.io/wp-content/uploads/2021/01/Backend-tips-Scalac.pdf
+https://doc.rust-lang.org/std/keyword.async.html
+https://doc.rust-lang.org/stable/reference/expressions/await-expr.html
+https://zio.dev/reference/resource/scope/
+https://zio.dev/reference/
+https://zio.dev/zio-blocks/reference/resource-management/resource/
+https://zio.dev/reference/architecture/non-functional-requirements/
+https://zio.dev/reference/resource/scopedref/
+https://zio.dev/api/zio/scope
+https://typelevel.org/cats-effect/api/3.x/cats/effect/kernel/index.html
+https://virtuslab.com/blog/scala/comparing-effect-systems-in-scala-cats-effect-and-zio/
