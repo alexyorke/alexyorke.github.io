@@ -32801,6 +32801,11 @@ https://hackage.haskell.org/package/conduit-1.2.4.2/docs
 https://packages.fedoraproject.org/pkgs/ghc-exceptions/ghc-exceptions
 https://hackage.haskell.org/package/html-conduit-1.2.0/docs
 https://constructor.university/sites/default/files/2026-02/AST_MSc_HandBook_2025_1_1.pdf
+https://hackage.haskell.org/package/exceptions-0.7/docs
+https://packages.fedoraproject.org/pkgs/ghc-resourcet/ghc-resourcet-doc
+https://hackage.haskell.org/package/control-monad-exception-0.3
+https://conf.researchr.org/series/haskellsymp
+https://discourse.haskell.org/t/not-quite-monads-haskell-unfolder-54/13973
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
