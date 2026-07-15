@@ -32517,3 +32517,4 @@ https://arxiv.org/abs/cs/0111039
 https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf
 https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf
 https://hackage.haskell.org/package/effect-handlers/docs
+https://www.cambridge.org/core/books/abs/session-types/functional-programming/5A833EA4A5EECAD65C4C06FB8B86976B
