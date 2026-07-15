@@ -32224,3 +32224,6 @@ https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-lang
 https://docs.racket-lang.org/functional/index.html
 https://docs.racket-lang.org/algebraic/class_base.html
 https://ics-websites.science.uu.nl/docs/vakken/afp/slides/10-generics.pdf
+https://effect.readthedocs.io/
+https://javadoc.io/static/org.typelevel/cats-effect_native0.4_3/3.6-ecf93db/cats/effect/IO.html
+https://javadoc.io/static/org.typelevel/cats-effect_2.12/0.10-5b8214f/cats/effect/IO.html
