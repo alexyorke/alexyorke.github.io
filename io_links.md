@@ -31364,3 +31364,13 @@ https://old.arrow-kt.io/docs/0.12/core/
 https://www.oreilly.com/library/view/functional-programming-in/9781617297168/
 https://media.arrow-kt.io/
 https://media.arrow-kt.io/tags/fx/
+https://clojure.github.io/core.async/clojure.core.async.html
+https://clojure.github.io/core.async/reference.html
+https://clojure.github.io/core.async/rationale.html
+https://clojure.github.io/core.async/clojure.core.async.flow.html
+https://clojure.org/news/2013/06/28/clojure-clore-async-channels
+https://api.pageplace.de/preview/DT0400.9781783986675_A24356110/preview-9781783986675_A24356110.pdf
+https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/task-expressions
+https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasync.html
+https://courses.grainger.illinois.edu/cs421/su2009/lectures/26-Parallel.pdf
