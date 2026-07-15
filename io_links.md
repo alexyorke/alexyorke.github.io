@@ -32584,6 +32584,14 @@ https://cir.nii.ac.jp/crid/1360306914407986304
 https://www.mendeley.com/catalogue/5d7ff898-97c2-3128-9b81-b304817581d4/
 https://research.rug.nl/en/publications/c9162558-592e-4a11-a137-9c257cbfcc36/
 https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1
+https://man7.org/linux/man-pages/man7/io_uring.7.html
+https://hackage.haskell.org/package/sodium/docs/FRP-Sodium-Context.html
+https://hackage.haskell.org/package/threepenny-gui/docs/Reactive-Threepenny.html
+https://hackage.haskell.org/package/sodium
+https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=46586973
+https://link.springer.com/book/10.1007/978-3-319-29604-3
+https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf
+https://link.springer.com/book/10.1007/978-981-92-0184-6
 https://cademy.io/packt/supercharge-scala-future-fp-tower
 https://www.classcentral.com/course/udemy-functional-effect-handling-in-scala-with-cats-effect-401728
 https://courses.rockthejvm.com/p/cats-effect
