@@ -32875,6 +32875,7 @@ https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc
 https://www.stackage.org/package/monads-tf
 https://packages.debian.org/source/stable/haskell-monads-tf
 https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/
+https://hackage.haskell.org/package/mmtl
 https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
 https://www.classcentral.com/subject/referential-transparency
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
