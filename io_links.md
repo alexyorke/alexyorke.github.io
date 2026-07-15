@@ -32424,3 +32424,9 @@ https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kin
 https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiusano/9781617290657
 https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ
 https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf
+https://www.manning.com/books/type-driven-development-with-idris
+https://livebook.manning.com/book/type-driven-development-with-idris/about-this-book
+https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781617293023
+https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781638352242
+https://hackage.haskell.org/package/idris
+https://arxiv.org/abs/2310.13441
