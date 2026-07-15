@@ -32054,3 +32054,5 @@ https://hackage.haskell.org/package/unliftio-core-0.1.1.0/docs/src/Control-Monad
 https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-IO-Class.html
 https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-Trans-Class.html
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html
+https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html
+https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf
