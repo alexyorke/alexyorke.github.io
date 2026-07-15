@@ -32411,3 +32411,6 @@ https://www.cs.princeton.edu/courses/archive/spring05/cos320/notes/harperbook.pd
 https://www.cs.princeton.edu/~appel/smlnj/basis/imperative-io-fn.html
 https://smlfamily.github.io/sml97-defn.pdf
 https://www.scribd.com/document/366128261/monad-3-ps
+https://gist.github.com/gatlin/855929e8c24d83bb59
+https://niltag.net/essays/racket_monad.html
+https://arxiv.org/abs/1611.09470
