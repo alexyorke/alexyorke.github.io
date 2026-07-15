@@ -31779,3 +31779,16 @@ https://hackage-content.haskell.org/package/tls-2.1.10/docs/src/Network.TLS.Para
 https://hackage.haskell.org/package/cryptostore-0.3.1.0
 https://hackage-content.haskell.org/package/crypton-connection-0.4.4/docs/src/Network.Connection.Types.html
 https://haskell.github.io/security-advisories/by-packages.html
+https://hackage.haskell.org/package/connection
+https://hackage.haskell.org/package/connection/docs/Network-Connection.html
+https://hackage.haskell.org/package/connection/docs
+https://hackage.haskell.org/package/x509-store
+https://hackage.haskell.org/package/conduit-connection
+https://hackage.haskell.org/package/network-connection
+https://hackage.haskell.org/package/x509-validation/docs/Data-X509-Validation.html
+https://hackage.haskell.org/package/x509-validation-1.4.6
+https://hackage.haskell.org/package/x509-validation-1.4.6/docs/Data-X509-Validation.html
+https://hackage.haskell.org/package/x509/docs/Data-X509.html
+https://hackage.haskell.org/package/connections
+https://downloads.haskell.org/ghc/6.0/docs/html/network/doc-index-vT.html
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/network/src/Network-Socket.html
