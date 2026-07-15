@@ -32472,3 +32472,4 @@ https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture17.htm
 https://www.cse.iitd.ac.in/~mcs112586/book.pdf
 https://www.qualiero.com/lerninhalte/classroom-trainings/scala-typelevel-cats-effect.html
 https://www.edc4it.com/training/course/SCALA-CATS?online=
+https://dzone.com/refcardz/functional-programming-with-javascript
