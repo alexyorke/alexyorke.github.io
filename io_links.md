@@ -32498,3 +32498,5 @@ https://hackage-content-origin.haskell.org/package/monadIO-0.11.1.0/candidate/do
 https://stackoverflow.com/questions/47070279/liftio-do-block-and-syntax
 https://www.fpblock.com/blog/2017/06/readert-design-pattern
 https://www.cin.ufpe.br/~lgnfl/papers/msc-thesis.pdf
+https://era.ed.ac.uk/bitstream/handle/1842/24458/ClarkA_2008redux.pdf?isAllowed=y&sequence=1
+https://research-portal.uu.nl/en/publications/cogent-uniqueness-types-and-certifying-compilation
