@@ -31276,3 +31276,14 @@ https://ziohttp.com/reference/overview/
 https://ziohttp.com/examples/http-client-server
 https://zio.dev/zio-http/reference/client/
 https://arxiv.org/abs/1711.09288
+https://hackage.haskell.org/package/bytestring
+https://hackage.haskell.org/package/streamly-bytestring-0.2.3
+https://hackage.haskell.org/package/streamly-core
+https://webspace.science.uu.nl/~4110161/pubs/csf2017.pdf
+https://index.scala-lang.org/armanbilge/fs2
+https://index.scala-lang.org/scalaz/scalaz-stream
+https://devon-miller.gitbook.io/test_private_book/intro_basics/error_handling
+https://scala-slick.org/doc/prerelease/dbio.html
+https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.12.2/fs2/io.html
+https://javadoc.io/static/co.fs2/fs2-docs_3/3.8.0/fs2/Stream.html
+https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.8-1580d81/fs2/io.html
