@@ -32252,3 +32252,4 @@ https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/5.0.0/index.html
 https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-functions
 https://arxiv.org/abs/1202.3498
 https://ocaml.org/manual/5.5/effects.html
+https://fpilluminated.org/deck/31
