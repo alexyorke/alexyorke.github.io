@@ -32349,3 +32349,9 @@ https://zio.dev/zio-blocks/guides/compile-time-resource-safety-with-scope/
 https://javadoc.io/static/dev.zio/zio_3/2.0.9/zio/Scope.html
 https://bio.monix.io/docs/resource-safety
 https://monix.io/api/3.0/monix/eval/TaskApp.html
+https://zanza00.gitbook.io/learn-fp-ts/taskeither/taskeither-and-io-ts
+https://gcanti.github.io/fp-ts/ReaderTaskEither.ts.html
+https://grossbart.github.io/fp-ts/modules/IOEither.ts.html
+https://grossbart.github.io/fp-ts/recipes/interoperability.html
+https://gcanti.github.io/fp-ts/modules/StateReaderTaskEither.ts.html
+https://fp-ts.github.io/core/modules/Either.ts.html
