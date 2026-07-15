@@ -31414,3 +31414,8 @@ https://arxiv.org/abs/2010.13432
 https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/base-4.22.0.0-dbdd/GHC-IO-Handle.html
 https://mmhaskell.com/blog/2022/5/16/bufferingplease-wait
 https://www.cmi.ac.in/~spsuresh/teaching/prgh19/lectures/lecture17.pdf
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/libraries/base-4.5.1.0/Control-Concurrent-MVar.html
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/stm.html
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/stm.html
+https://www.schoolofhaskell.com/user/alexanderaa/stm-examples
+https://www.cs.washington.edu/education/courses/549/07wi/files/stm.pdf
