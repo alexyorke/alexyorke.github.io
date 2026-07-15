@@ -32058,3 +32058,5 @@ https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Cla
 https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf
 https://hackage.haskell.org/package/fused-effects/docs
 https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1
+https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/
+https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperative-shell-game-of-life-example-haskell-and-scala.pdf
