@@ -32131,3 +32131,9 @@ https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compil
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/monadic-io.pdf
 https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/marktoberdorf.pdf
 https://www.cs.ru.nl/~freek/courses/tt-2010/monads.pdf
+https://books.google.co.uk/books?id=nh0okI1a1sQC
+https://books.google.ca/books?id=nh0okI1a1sQC
+https://books.google.de/books?id=nh0okI1a1sQC
+https://books.google.com.au/books?id=nh0okI1a1sQC
+https://books.google.co.uk/books?id=wSkRAAAAQBAJ
+https://books.google.ca/books?id=wSkRAAAAQBAJ
