@@ -32275,3 +32275,4 @@ https://arxiv.org/abs/2208.14724
 https://github.com/IBM/fp-go
 https://github.com/joeycumines/go-monads
 https://pkg.go.dev/github.com/joeycumines/go-monads
+https://guillaumebogard.dev/posts/functional-error-handling/
