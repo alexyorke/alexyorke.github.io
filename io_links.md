@@ -32266,3 +32266,5 @@ https://dev-doc.rust-lang.org/std/io/index.html
 https://lean-lang.org/functional_programming_in_lean/Monads/do--Notation-for-Monads/
 https://docs.lean-lang.org/functional_programming_in_lean/Monads/The-Monad-Type-Class/
 https://lean-lang.org/functional_programming_in_lean/Introduction/
+https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/15F1C51D832FD7F084AE2602FBDB0157
+https://www.cl.cam.ac.uk/teaching//0607/FFuncProg/fofp.pdf
