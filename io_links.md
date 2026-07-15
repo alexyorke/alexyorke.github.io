@@ -32328,3 +32328,4 @@ https://old.arrow-kt.io/docs/quickstart/
 https://ducmanhphan.github.io/2020-12-15-monad-pattern/
 https://www.skypack.dev/view/monio
 https://www.skypack.dev/view/%40funkia/io
+https://www.thecodechameleon.io/articles/functional_programming/monads/
