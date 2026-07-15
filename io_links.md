@@ -32840,3 +32840,11 @@ https://www.classcentral.com/index.php/course/youtube-haskell-23-haskell-for-cho
 https://www.classcentral.com/course/youtube-building-haskell-programs-with-fused-effects-by-patrick-thomson-166091
 https://www.classcentral.com/course/youtube-pldi-23-purecake-a-verified-compiler-for-a-lazy-functional-language-347887
 https://www.classcentral.com/course/youtube-haskellrank-59641
+https://ghc.gitlab.haskell.org/ghc/doc/users_guide/using-warnings.html
+https://hackage.haskell.org/package/monad-logger-0.3.28/docs
+https://www.classcentral.com/course/youtube-haskell-23-effect-handlers-for-programmable-inference-347652
+https://www.classcentral.com/course/youtube-haskell-23-hastee-programming-trusted-execution-environments-with-haskell-347649
+https://www.classcentral.com/course/youtube-effective-haskell-rebecca-skinner-emily-pillmore-goto-2024-282505
+https://www.classcentral.com/course/youtube-insait-tech-series-prof-martin-odersky-effects-and-resources-new-frontiers-for-safe-and-354715
+https://www.classcentral.com/course/youtube-oopsla-25-notions-of-stack-manipulating-computation-and-relative-monads-508883
+https://www.classcentral.com/course/youtube-haskell-for-beginners-59640
