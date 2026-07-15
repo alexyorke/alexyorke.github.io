@@ -32785,6 +32785,13 @@ https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/De
 https://eric.walkingshaw.net/files/pubs/students/alkubaish-20-ms-thesis.pdf
 https://arxiv.org/abs/2402.03103
 https://arxiv.org/abs/2203.03288
+https://hackage.haskell.org/package/control-monad-exception-0.8.0
+https://hackage.haskell.org/package/streaming-utils-0.2.1.0/docs
+https://hackage.haskell.org/package/network-2.2.1/docs/Network.html
+https://hackage.haskell.org/package/control-monad-exception/docs
+https://popl24.sigplan.org/details/lafi-2024-papers/4/Effect-Handlers-for-Choice-Based-Learning
+https://www.researchgate.net/publication/383515063_Making_a_Curry_Interpreter_using_Effects_and_Handlers
+https://dspace.ut.ee/items/8fd690d9-6be2-4b5c-a481-afcba4e39d22
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
