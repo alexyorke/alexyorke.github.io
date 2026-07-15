@@ -31246,3 +31246,16 @@ https://ocaml.org/manual/5.0/api/Unix.html
 https://ocaml.org/p/ocaml-base-compiler/4.14.1/doc/unix/UnixLabels/index.html
 https://ocaml.org/manual/4.13/api/Unix.html
 https://unix.janestreet.com/ocaml-core/odoc/unix/Unix/index.html
+https://hackage.haskell.org/package/async-timer
+https://hackage.haskell.org/package/time-manager
+https://hackage.haskell.org/package/stm-delay
+https://hackage.haskell.org/package/time-manager-0.3.1.1
+https://hackage.haskell.org/package/time-manager-0.3.1
+https://hackage.haskell.org/package/extensible-effects-concurrent
+https://hackage-content.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf
+https://hackage-content.haskell.org/package/AsyncRattus-0.1.0.1/src/docs/paper.pdf
+https://ocaml.org/p/eio/latest/index.html
+https://ocaml.org/p/eio/latest/doc/index.html
+https://ocaml.org/p/eio/latest/doc/eio/Eio/index.html
+https://ocaml.org/p/eio/latest/eio.mock/Eio_mock/Clock/index.html
+https://ocaml-multicore.github.io/eio/eio/Eio/Time/index.html
