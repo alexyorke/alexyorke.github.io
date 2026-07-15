@@ -32293,3 +32293,5 @@ https://www.javadoc.io/static/io.monix/monix-eval_2.11/3.2.1/monix/eval/Task.htm
 https://hackage-content.haskell.org/package/streamly-core-0.2.3/docs/src/Streamly.FileSystem.File.html
 https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-effects-2/
 https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/
+https://www.oreilly.com/library/view/functional-programming-in/9781617293818/
+https://arxiv.org/abs/2312.13295
