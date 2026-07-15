@@ -32774,6 +32774,17 @@ https://citeseerx.ist.psu.edu/document?doi=1ef1e228ef8bc029d50c4f8cc1d27e386cd53
 https://hackage-content.haskell.org/package/mtl-2.1.2/docs/Control-Monad-State-Strict.html
 https://hackage.haskell.org/package/transformers-0.6.2.0/docs
 https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Reader.html
+https://verify.rwth-aachen.de/fp12/
+https://hackage.haskell.org/package/mtl-2.2.2/changelog
+https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TQueue.html
+https://hackage.haskell.org/package/mtl-2.2.2/docs/Control-Monad-Error.html
+https://hackage.haskell.org/package/transformers-0.2.1.0/docs/Control-Monad-Trans-State.html
+https://hackage.haskell.org/package/stm-2.4.4.1/docs
+https://pure-oai.bham.ac.uk/ws/portalfiles/portal/223684242/978-3-031-57262-3_1.pdf
+https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations
+https://eric.walkingshaw.net/files/pubs/students/alkubaish-20-ms-thesis.pdf
+https://arxiv.org/abs/2402.03103
+https://arxiv.org/abs/2203.03288
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
