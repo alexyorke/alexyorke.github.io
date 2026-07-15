@@ -32329,3 +32329,8 @@ https://ducmanhphan.github.io/2020-12-15-monad-pattern/
 https://www.skypack.dev/view/monio
 https://www.skypack.dev/view/%40funkia/io
 https://www.thecodechameleon.io/articles/functional_programming/monads/
+https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053
+https://stackoverflow.com/questions/65621157/how-to-use-the-task-monad
+https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470
+https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470/6
+https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434
