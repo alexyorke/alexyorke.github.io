@@ -32931,3 +32931,11 @@ https://mynixos.com/nixpkgs/package/haskellPackages.safe-exceptions
 https://mynixos.com/nixpkgs/package/haskellPackages.unliftio
 https://dev.flora.pm/packages/%40hackage/Z-IO/0.1.6.1/changelog
 https://flora.pm/packages/%40hackage/conduit/1.1.3/changelog
+https://mynixos.com/nixpkgs/package/haskellPackages.effectful
+https://mynixos.com/nixpkgs/package/haskellPackages.fused-effects
+https://pure.itu.dk/da/publications/the-calculated-typer-functional-pearl/
+https://researchportal.hw.ac.uk/files/149643713/TFP-2025-Author-Submitted-Manuscript.pdf
+https://haskell25.hotcrp.com/
+https://lists.seas.upenn.edu/pipermail/types-announce/2025/011851.html
+https://mail.haskell.org/pipermail/haskell-cafe/attachments/20250327/b8e0710b/attachment.html
+https://www.mail-archive.com/haskell%40haskell.org/msg27378.html
