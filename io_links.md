@@ -32729,6 +32729,7 @@ https://www.stackage.org/package/ghc-prim
 https://hackage-content.haskell.org/package/postgresql-migration-persistent-1.0.0/docs/PostgreSQL-Migration-Persistent.html
 https://hackage-content-origin.haskell.org/package/persistent-1.3.1.1
 https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1
+https://wespiser.com/writings/wyas/07_io.html
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
