@@ -32454,3 +32454,4 @@ https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0087.xhtm
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0083.xhtml
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0082.xhtml
 https://books.google.com/books?id=75C5DAAAQBAJ
+https://www.packtpub.com/en-BE/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/lifting-up-from-io-ch07lvl1sec49
