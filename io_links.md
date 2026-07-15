@@ -32570,3 +32570,10 @@ https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--
 https://usr.lmf.cnrs.fr/~jcf/publis_bib.html
 https://drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf
 https://arxiv.org/abs/2003.09993
+https://mew.org/~kazu/doc/paper/hask035-voellmy.pdf
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/PrimOp.html
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/GHC-Event.html
+https://www.stackage.org/package/ghc-prim
+https://hackage-content.haskell.org/package/postgresql-migration-persistent-1.0.0/docs/PostgreSQL-Migration-Persistent.html
+https://hackage-content-origin.haskell.org/package/persistent-1.3.1.1
+https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1
