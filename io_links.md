@@ -32334,3 +32334,4 @@ https://stackoverflow.com/questions/65621157/how-to-use-the-task-monad
 https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470
 https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470/6
 https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434
+https://chrilves.github.io/raffiot.py/index.html
