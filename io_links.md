@@ -32406,3 +32406,7 @@ https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/
 https://nostarch.com/fsharp
 https://cs3110.github.io/textbook/cover.html
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf%3Fevent-type%3DFTLA
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/standard-ml-basis-library-by-emden-r-gansner-and-john-h-reppy-editors-cambridge-university-press-2004-406pp/AF4F4E64538F286D9D24DC3D84D622D5
+https://www.cs.princeton.edu/courses/archive/spring05/cos320/notes/harperbook.pdf
+https://www.cs.princeton.edu/~appel/smlnj/basis/imperative-io-fn.html
+https://smlfamily.github.io/sml97-defn.pdf
