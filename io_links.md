@@ -32466,3 +32466,5 @@ https://pierre-hyvernat.apps.math.cnrs.fr/data/Files/phd.pdf
 https://www.sambuz.com/doc/coinductive-reasoning-in-dependent-type-theory-copatterns-presentation-1039399
 https://www.leanpub.com/book-of-monads
 https://dblp.org/rec/conf/csl/HancockS00
+https://www.isa-afp.org/browser_info/current/AFP/Clean/document.pdf
+https://www.wiki.clean.cs.ru.nl/Publications
