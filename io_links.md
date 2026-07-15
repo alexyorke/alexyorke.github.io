@@ -32074,3 +32074,8 @@ https://hackage.haskell.org/package/rio-0.1.24.0
 https://academy.fpblock.com/blog/2017/06/readert-design-pattern
 https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/base-3.0.0.0/Control-Monad.html
 http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497
+https://hackage.haskell.org/package/FileSystem
+https://hackage.haskell.org/package/system-fileio
+https://hackage.haskell.org/package/system-filepath
+https://hackage.haskell.org/package/system-fileio/docs/System-IO-File.html
+https://hackage.haskell.org/package/system-filepath/docs
