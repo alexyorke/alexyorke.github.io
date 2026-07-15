@@ -32302,3 +32302,5 @@ https://www.bookey.app/book/functional-programming-in-scala
 https://www.cs.cmu.edu/~fp/courses/15312-f02/lectures/15-monads.html
 https://kar.kent.ac.uk/61623/
 https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/monads-for-fp_wadler.pdf
+https://hmemcpy.com/2017/05/from-net-to-scala-and-beyond-a-journey-to-functional-programming/
+https://www.infoq.com/fp/presentations/175/
