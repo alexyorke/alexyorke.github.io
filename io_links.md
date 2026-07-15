@@ -32323,3 +32323,4 @@ https://khinsen.wordpress.com/2009/04/22/monad-tutorial-for-clojure-programmers/
 https://mko.re/blog/scheme-monads/
 https://www.cl.cam.ac.uk/teaching/2223/ConceptsPL/lectures-4up.pdf
 https://3e8.org/pub/scheme/doc/haskell-tutorial-writing-scheme-in-48-hours.pdf
+https://tomasp.net/blog/2013/computation-zoo-padl/
