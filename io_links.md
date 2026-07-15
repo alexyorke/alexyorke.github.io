@@ -32652,6 +32652,12 @@ https://hackage.haskell.org/package/network-3.1.1.1/docs/Network-Socket.html
 https://hackage.haskell.org/package/network-2.8.0.0/docs/Network-Socket.html
 https://downloads.haskell.org/~ghc/6.8.3/docs/html/libraries/network/Network-Socket.html
 https://hackage.haskell.org/package/network-2.8.0.1/docs/Network-Socket.html
+https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/Control-Exception.html
+https://downloads.haskell.org/ghc/8.10.1-alpha1/docs/html/libraries/ghc-8.10.0.20191123/Exception.html
+https://downloads.haskell.org/ghc/6.6/docs/html/libraries/base/Control-Exception.html
+https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/transformers-0.5.6.2/Control-Monad-Trans-Except.html
+https://courses.seas.harvard.edu/courses/cs152/2024sp/lectures/lec18-monads.pdf
+https://www.classcentral.com/subject/monads
 https://arxiv.org/abs/2312.14964
 https://dl.acm.org/doi/10.1145/3331545.3342598
 https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries
