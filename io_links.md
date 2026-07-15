@@ -32596,6 +32596,9 @@ https://www.classcentral.com/course/youtube-icfp-24-orange-3-haskell-sep-7th-347
 https://www.cambridge.org/core/journals/journal-of-functional-programming/journal-of-functional-programming-most-downloaded-2023
 https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html
 https://homepages.cwi.nl/~ploeg/zseq.pdf
+https://paperswelove.org/papers/freer-monads-more-extensible-effects-f271560c/
+https://haskell.pesquisa.ufabc.edu.br/cursos/11-paradigmas-2023/
+https://hackage.haskell.org/package/IOSpec-0.2.6/docs
 https://arxiv.org/abs/2007.10809
 https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
 https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
