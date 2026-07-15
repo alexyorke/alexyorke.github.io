@@ -32439,3 +32439,4 @@ https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/libraries/base-4.11.0.
 https://www.well-typed.com/blog/2024/10/haskell-unfolder-episode-34-you-already-understand-monads/
 https://hackage-content-origin.haskell.org/
 https://web.archive.org/web/*/https://code.haskell.org/~byorgey/TMR/*
+https://zephyrtronium.github.io/articles/koka-experience.html
