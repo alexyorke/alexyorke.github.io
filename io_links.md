@@ -32369,3 +32369,9 @@ https://www.baeldung.com/vavr-future
 https://docs.vavr.io/es/
 https://hackage.haskell.org/package/hw-polysemy/docs/HaskellWorks-Polysemy.html
 https://hackage-content.haskell.org/package/data-effects-core-0.4.3.0/docs/src/Data.Effect.html
+https://cljdoc.org/d/missionary/missionary/CURRENT
+https://clojure.org/events/2023/a-functional-approach-to-massively-1688048806
+https://gitextract.com/leonoel/missionary
+https://clojurepatterns.com/1/12/20/
+https://open-awesome.com/projects/missionary
+https://livebook.manning.com/book/functional-programming-with-kotlin/chapter-13
