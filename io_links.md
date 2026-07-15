@@ -31696,3 +31696,14 @@ https://www.stackage.org/lts-6.35/package/resourcet-1.1.9
 https://www.stackage.org/lts-10.0/package/resourcet-1.1.10
 https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html
 https://downloads.haskell.org/ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html
+https://hackage.haskell.org/package/streaming-bytestring-0.3.0
+https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6/docs
+https://hackage.haskell.org/package/streaming-bytestring-0.1.0.6/docs
+https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6
+https://hackage.haskell.org/package/streaming-bytestring-0.1.1.0
+https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0
+https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html
+https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2
+https://github.com/haskell-hvr/http-io-streams
+https://packages.ubuntu.com/source/jammy/armhf/haskell-io-streams
+https://hackage.haskell.org/package/io-streams-1.5.2.0/docs/System-IO-Streams.html
