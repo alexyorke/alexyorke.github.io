@@ -32382,3 +32382,6 @@ https://docs.rs/higher/latest/higher/monad/index.html
 https://docs.rs/higher/latest/x86_64-pc-windows-msvc/higher/
 https://docs.rs/higher/latest/x86_64-apple-darwin/higher/index.html
 https://docs.rs/effectful/latest/effectful/
+https://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/
+https://scalaz.github.io/scalaz/scalaz-2.10-7.0.3/doc/index.html
+https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M12/scalaz/Monad.html
