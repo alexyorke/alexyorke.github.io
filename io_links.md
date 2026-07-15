@@ -32310,3 +32310,7 @@ https://www.creativescala.org/cats-effect-tutorial/
 https://www.kriso.lv/functional-programming-scala-db-9781617290657.html
 https://www.fp-tower.com/courses/foundations
 https://hackage.haskell.org/package/effectful-2.1.0.0
+https://github.com/koka-lang/koka
+https://icfp21.sigplan.org/details/icfp-2021-tutorials/5/Programming-with-Effect-Handlers-and-FBIP-in-Koka
+https://goto.ucsd.edu/~nvazou/koka/koka.html
+https://pblevy.github.io/msfp2014/koka.pdf
