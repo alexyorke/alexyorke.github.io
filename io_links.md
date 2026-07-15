@@ -32127,3 +32127,7 @@ https://hackage.haskell.org/package/co-log-simple/docs
 https://hackage.haskell.org/package/co-log-json/docs
 https://hackage.haskell.org/package/co-log-effectful/docs
 https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/src/Control-Arrow-ArrowIO.html
+https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/resources/l15monadsio.pdf
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/monadic-io.pdf
+https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/marktoberdorf.pdf
+https://www.cs.ru.nl/~freek/courses/tt-2010/monads.pdf
