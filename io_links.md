@@ -32276,3 +32276,4 @@ https://github.com/IBM/fp-go
 https://github.com/joeycumines/go-monads
 https://pkg.go.dev/github.com/joeycumines/go-monads
 https://guillaumebogard.dev/posts/functional-error-handling/
+https://docs.racket-lang.org/functional/interfaces.html?fam=Shplait&tag=%28def._%28%28quote._~23~25kernel%29._pregexp%29%29&version=5.91
