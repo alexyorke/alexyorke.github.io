@@ -31932,3 +31932,9 @@ https://hackage-content.haskell.org/package/vty-6.3/docs/src/Graphics.Vty.html
 https://hackage-content.haskell.org/package/vty-6.4
 https://jtdaugherty.github.io/vty-ui/manuals/vty-ui-users-manual-1.8.pdf
 https://hackage.haskell.org/package/vty-ui
+https://hackage.haskell.org/package/gtk2hs-buildtools
+https://try.haskell.org/projects.haskell.org/gtk2hs/docs/gtk2hs-docs-0.9.11/index.html
+https://hackage-content-origin.haskell.org/package/glib-0.13.8.0
+https://book.realworldhaskell.org/read/gui-programming-with-gtk-hs.html
+https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.2.1
+https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.11.0
