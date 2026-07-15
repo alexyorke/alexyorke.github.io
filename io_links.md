@@ -31352,3 +31352,15 @@ https://zio.dev/reference/resource/scopedref/
 https://zio.dev/api/zio/scope
 https://typelevel.org/cats-effect/api/3.x/cats/effect/kernel/index.html
 https://virtuslab.com/blog/scala/comparing-effect-systems-in-scala-cats-effect-and-zio/
+https://www.javadoc.io/static/io.vavr/vavr/0.10.6/index.html
+https://citeseerx.ist.psu.edu/document?doi=9653810f947b594e91fdbc906635e0872df4da3d&repid=rep1&type=pdf
+https://www.scalar-conf.com/talk/beyond-flatmap-is-kyo-the-future-of-scala-effects
+https://www.usenix.org/conference/osdi22/presentation/stamler
+https://index.scala-lang.org/zio/interop-cats
+https://jokerconf.com/en/archive/2021/talks/10007539-scala-war-of-effects-zio-vs-cats-effect/
+https://degoes.net/articles/zio-2.0
+https://www.classcentral.com/index.php/subject/zio
+https://old.arrow-kt.io/docs/0.12/core/
+https://www.oreilly.com/library/view/functional-programming-in/9781617297168/
+https://media.arrow-kt.io/
+https://media.arrow-kt.io/tags/fx/
