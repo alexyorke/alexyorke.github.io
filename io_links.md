@@ -32207,3 +32207,4 @@ https://effect.website/play/
 https://effect.website/events/effect-days/speakers
 https://hackage-content.haskell.org/package/reflex-0.9.3.4/docs/Control-Monad-ReaderIO.html
 https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Prelude.RIO.html
+https://docs.idris-lang.org/_/downloads/en/v1.0.1/pdf/
