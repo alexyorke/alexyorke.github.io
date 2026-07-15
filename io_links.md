@@ -32316,3 +32316,4 @@ https://goto.ucsd.edu/~nvazou/koka/koka.html
 https://pblevy.github.io/msfp2014/koka.pdf
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.165
 https://link.springer.com/article/10.1007/s10849-022-09378-7
+https://formal.land/blog/2023/05/28/monad-for-side-effects-in-rust
