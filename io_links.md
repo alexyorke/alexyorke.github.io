@@ -32389,3 +32389,7 @@ https://hackage.haskell.org/package/RIO-0.0.3.0/docs/RIO-Prelude-RIO.html
 https://library.nu.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=4706
 https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/?lang=japublications%2F%3Fpg=0&pg=96
 https://pursuit.purerl.fun/packages/effect/3.0.0-erl1/docs/Effect.Class
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/transformers-0.6.1.0/Control-Monad-Trans-Reader.html
+https://mail.haskell.org/pipermail/haskell/2012-August/023478.html
+https://hackage.haskell.org/package/transformers-0.0.1.0/docs/Control-Monad-Trans-Reader.html
+https://themonadreader.files.wordpress.com/2012/08/issue20.pdf
