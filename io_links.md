@@ -32917,3 +32917,8 @@ https://www.packtpub.com/en-us/product/learning-haskell-programming-978178646554
 https://www.packtpub.com/en-sg/product/learning-haskell-programming-9781786465542
 https://www.packtpub.com/en-gb/product/learning-haskell-programming-9781786465542
 https://www.packtpub.com/en-br/product/learning-haskell-programming-9781786465542
+https://hackage.haskell.org/package/base-4.17.0.0/changelog
+https://hackage.haskell.org/package/base-4.22.0.0/changelog
+https://hackage.haskell.org/package/safe-exceptions-0.1.7.4/docs
+https://igm.univ-mlv.fr/~vialette/teaching/2025-2026/E4/Examen-11-20-25/Lectures/lecture-01-first-steps.pdf
+https://hackage-content.haskell.org/package/hspec-2.11.12
