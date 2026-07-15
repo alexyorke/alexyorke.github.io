@@ -32241,3 +32241,13 @@ https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/Function7.html
 https://arxiv.org/abs/2211.01473
 https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IO.html
 https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/io/IO.html
+https://javadoc.io/doc/com.aol.cyclops/cyclops-monad-api/latest/index.html
+https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-api
+https://www.javadoc.io/doc/com.aol.cyclops/cyclops-functionaljava/9.0.0-MI2/cyclops/monads/FJ.html
+https://javadoc.io/doc/com.aol.cyclops/cyclops-functionaljava/latest/index.html
+https://javadoc.io/doc/com.aol.cyclops/cyclops-base/latest/index.html
+https://javadoc.io/doc/com.aol.cyclops/cyclops-javaslang/latest/index.html
+https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/latest/index.html
+https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/5.0.0/index.html
+https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-functions
+https://arxiv.org/abs/1202.3498
