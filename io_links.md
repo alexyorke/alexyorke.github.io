@@ -32375,3 +32375,5 @@ https://gitextract.com/leonoel/missionary
 https://clojurepatterns.com/1/12/20/
 https://open-awesome.com/projects/missionary
 https://livebook.manning.com/book/functional-programming-with-kotlin/chapter-13
+https://samuelzhaoy.github.io/bow-swift/
+https://openaccess.inaf.it/bitstreams/54e360dd-89fe-48d0-8fd8-d2b7ba1afc51/download
