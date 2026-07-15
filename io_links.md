@@ -32309,3 +32309,4 @@ https://www.baeldung.com/scala/cats-effect-error-handling
 https://www.creativescala.org/cats-effect-tutorial/
 https://www.kriso.lv/functional-programming-scala-db-9781617290657.html
 https://www.fp-tower.com/courses/foundations
+https://hackage.haskell.org/package/effectful-2.1.0.0
