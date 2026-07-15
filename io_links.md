@@ -31880,3 +31880,8 @@ https://hackage.haskell.org/package/async-2.2.5/candidate
 https://hackage.haskell.org/package/async-pool
 https://hackage.haskell.org/package/distributed-process-async
 https://hackage.haskell.org/package/hasql-transaction-io-0.2.7.0
+https://hackage.haskell.org/package/epoll-0.2.2/docs
+https://hackage.haskell.org/package/epoll-0.2.1
+https://hackage.haskell.org/package/blockio-uring-0.1.0.2
+https://hackage-content.haskell.org/package/posix-api-0.7.3.0/docs/Linux-Epoll.html
+https://repository.gatech.edu/server/api/core/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/content
