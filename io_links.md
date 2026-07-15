@@ -32182,3 +32182,8 @@ https://hackage.haskell.org/package/katip-0.8.8.4
 https://hackage.haskell.org/package/conduit-1.3.6.1/docs
 https://hackage.haskell.org/package/unliftio-0.2.25.1/docs
 https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/p4.htm
+https://monix.io/api/2.2/monix/types/Monad.html
+https://monix.io/api/2.2/monix/types/
+https://monix.io/api/2.3/monix/types/index.html
+https://bio.monix.io/
+https://bio.monix.io/api/monix/bio/IO.html
