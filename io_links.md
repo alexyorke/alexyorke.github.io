@@ -32497,3 +32497,4 @@ https://koka-lang.github.io/koka/doc/book.html#why
 https://hackage-content-origin.haskell.org/package/monadIO-0.11.1.0/candidate/docs/doc-index.html
 https://stackoverflow.com/questions/47070279/liftio-do-block-and-syntax
 https://www.fpblock.com/blog/2017/06/readert-design-pattern
+https://www.cin.ufpe.br/~lgnfl/papers/msc-thesis.pdf
