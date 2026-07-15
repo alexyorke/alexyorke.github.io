@@ -32143,3 +32143,5 @@ https://idris2.readthedocs.io/en/latest/ffi/ffi.html
 https://idris2.readthedocs.io/en/latest/updates/updates.html
 https://idris2.readthedocs.io/en/latest/app/introapp.html
 https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_Sources.pdf
+https://hackage-content.haskell.org/package/effectful-core-2.6.0.0/docs/doc-index-All.html
+https://hackage-content.haskell.org/package/ghc-internal-9.1401.0/docs/doc-index-I.html
