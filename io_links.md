@@ -32162,3 +32162,5 @@ https://fsharpforfunandprofit.com/series/computation-expressions/
 https://www.lamsade.dauphine.fr/~mlampis/Functional/lec8.pdf
 https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad.html
 https://www.mmhaskell.com/monads
+https://packages.debian.org/source/stable/haskell-control-monad-free
+https://ifl2014.github.io/submissions/ifl2014_submission_16.pdf
