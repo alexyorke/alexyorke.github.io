@@ -32056,3 +32056,5 @@ https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Contr
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html
 https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html
 https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf
+https://hackage.haskell.org/package/fused-effects/docs
+https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1
