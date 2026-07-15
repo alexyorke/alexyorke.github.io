@@ -32570,6 +32570,13 @@ https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--
 https://usr.lmf.cnrs.fr/~jcf/publis_bib.html
 https://drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf
 https://arxiv.org/abs/2003.09993
+https://arxiv.org/abs/2010.10510
+https://research.chalmers.se/en/publication/182285
+https://kar.kent.ac.uk/98024/
+https://kar.kent.ac.uk/id/eprint/98024
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_article
+https://richarde.dev/papers/2022/linear-constraints/linear-constraints.pdf
+https://granule-project.github.io/papers/esop22-paper.pdf
 https://mew.org/~kazu/doc/paper/hask035-voellmy.pdf
 https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/PrimOp.html
 https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/GHC-Event.html
