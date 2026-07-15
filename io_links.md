@@ -32151,3 +32151,8 @@ https://www.bookey.app/book/programming-in-scala
 https://www.kufunda.net/publicdocs/Functional%20Programming%20in%20Scala.pdf
 https://docs.scala-lang.org/overviews/scala-book/functional-programming.html
 https://alvinalexander.com/misc/scala-functional-programming-simplified-contents/
+https://web.cecs.pdx.edu/~mpj/pubs/mil.html
+https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures/lec/lec/precepts/precepts/precepts/precept04-solutions.pdf
+https://a-nikolaev.github.io/fp/
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf%3Fevent-type%3DFTLA
+https://ocaml.org/books
