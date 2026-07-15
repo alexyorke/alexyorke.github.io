@@ -32156,3 +32156,7 @@ https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures/lec/lec/precepts/pr
 https://a-nikolaev.github.io/fp/
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf%3Fevent-type%3DFTLA
 https://ocaml.org/books
+https://tomasp.net/blog/fsharp-iv-lang.aspx
+https://fsprojects.github.io/FSharpPlus/abstraction-monad.html
+https://fsharpforfunandprofit.com/series/computation-expressions/
+https://www.lamsade.dauphine.fr/~mlampis/Functional/lec8.pdf
