@@ -32570,6 +32570,13 @@ https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--
 https://usr.lmf.cnrs.fr/~jcf/publis_bib.html
 https://drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf
 https://arxiv.org/abs/2003.09993
+https://docs.servant.dev/_/downloads/en/v0.8.1/pdf/
+https://docs.servant.dev/_/downloads/en/v0.7.1/pdf/
+https://hackage.haskell.org/package/io-streams-1.1.0.0
+https://hackage.haskell.org/package/io-streams-1.1.1.0
+https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-doc
+https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams
+https://haskell.org/~simonmar/new-io.tar.gz
 https://arxiv.org/abs/2010.10510
 https://research.chalmers.se/en/publication/182285
 https://kar.kent.ac.uk/98024/
