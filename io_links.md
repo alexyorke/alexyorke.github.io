@@ -32898,3 +32898,11 @@ https://hackage.haskell.org/package/control-monad-exception-0.5
 https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/
 https://www.cs.toronto.edu/~trebla/CSCC24-latest/
 https://is.muni.cz/course/fi/spring2026/IB016?lang=en%3Bzobrazmatob%3D1
+https://www.stackage.org/lts-3.0/package/conduit-1.2.5
+https://hackage.haskell.org/package/core-effect-effectful/docs/
+https://hackage.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html
+https://hackage-content.haskell.org/package/base-4.22.0.0/docs/GHC-Exception.html
+https://haskell.foundation/events/2026-haskell-implementors-workshop.html
+https://discourse.haskell.org/t/call-for-talks-haskell-implementors-workshop-2026/13698
+https://discourse.haskell.org/t/call-for-participation-2.5-hour-haskell-foundation-online-workshop/14312
+https://www.reddit.com/r/haskell/comments/1upt8sr/zurihac_2026_video_playlist/
