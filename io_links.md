@@ -32231,3 +32231,8 @@ https://clojure.github.io/clojure-contrib/monads-api.html
 https://clojure.org/about/functional_programming
 https://clojure.github.io/algo.monads/
 https://clojuredocs.org/clojure.core/io%21
+https://zio.dev/reference/core/zio/rio/
+https://zio.dev/reference/core/runtime/
+https://zio.dev/reference/di/
+https://zio.dev/api/zio/zio
+https://zio.dev/reference/error-management/types/defects/
