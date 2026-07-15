@@ -32500,3 +32500,5 @@ https://www.fpblock.com/blog/2017/06/readert-design-pattern
 https://www.cin.ufpe.br/~lgnfl/papers/msc-thesis.pdf
 https://era.ed.ac.uk/bitstream/handle/1842/24458/ClarkA_2008redux.pdf?isAllowed=y&sequence=1
 https://research-portal.uu.nl/en/publications/cogent-uniqueness-types-and-certifying-compilation
+https://stackoverflow.com/questions/68584017/haskell-coresyn-library-how-does-one-refer-to-built-in-io-types?r=31
+https://www.sambuz.com/doc/effects-and-state-liam-o-connor-ppt-presentation-1031389
