@@ -31908,3 +31908,8 @@ https://hackage.haskell.org/package/Z-IO-0.6.4.0/docs
 https://hackage.haskell.org/package/Z-IO-0.7.1.0/docs
 https://mynixos.com/nixpkgs/package/haskellPackages.Z-IO
 https://hackage.haskell.org/package/base-compat
+https://hackage.haskell.org/package/relude
+https://hackage.haskell.org/package/protolude
+https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/Relude.html
+https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/doc-index-I.html
+https://hackage.haskell.org/package/relude-0.2.0/candidate
