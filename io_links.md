@@ -32599,6 +32599,11 @@ https://homepages.cwi.nl/~ploeg/zseq.pdf
 https://paperswelove.org/papers/freer-monads-more-extensible-effects-f271560c/
 https://haskell.pesquisa.ufabc.edu.br/cursos/11-paradigmas-2023/
 https://hackage.haskell.org/package/IOSpec-0.2.6/docs
+https://arxiv.org/abs/2312.11257
+https://hackage-content-origin.haskell.org/package/lio-0.9.1.0
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-analysis-of-information-flow-security-with-mutable-state/01A8F47B757460768168CAF18989F83A
+https://goto.ucsd.edu/~nvazou/lweb/POPL19.pdf
+https://arxiv.org/abs/1708.01688
 https://arxiv.org/abs/2007.10809
 https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
 https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
