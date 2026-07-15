@@ -32756,6 +32756,11 @@ https://prg.is.titech.ac.jp/papers/bibtexbrowser.php?bib=prg-e.bib&key=tsuyama20
 https://continuation.passing.style/teaching/cs150-fall25/slides/05-effects.pdf
 https://prg.is.titech.ac.jp/papers/pdf/ifip21-slides.pdf
 https://link.springer.com/chapter/10.1007/978-0-307-98239-9_13
+https://hackage.haskell.org/package/bytestring-0.12.2.0/docs
+https://hackage.haskell.org/package/process-1.6.26.1/docs
+https://www.stackage.org/package/bytestring
+https://www.stackage.org/package/process
+https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
