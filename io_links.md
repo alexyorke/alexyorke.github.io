@@ -32577,6 +32577,9 @@ https://hackage.haskell.org/package/io-streams-1.1.1.0
 https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-doc
 https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams
 https://haskell.org/~simonmar/new-io.tar.gz
+https://hackage.haskell.org/package/conduit-combinators-1.0.8.1/docs/Conduit.html
+https://citeseerx.ist.psu.edu/document?doi=08c0eaa33b7692ddbd65e509db1356f3c6126d75&repid=rep1&type=pdf
+https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf
 https://arxiv.org/abs/2010.10510
 https://research.chalmers.se/en/publication/182285
 https://kar.kent.ac.uk/98024/
