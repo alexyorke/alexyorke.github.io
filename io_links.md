@@ -32514,3 +32514,5 @@ https://cpm.curry-lang.org/DOC/base-3.4.0/index.html
 https://cpm.curry-lang.org/DOC/flatcurry-4.0.0/FlatCurry.Files_curry.html
 https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.html
 https://arxiv.org/abs/cs/0111039
+https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf
+https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf
