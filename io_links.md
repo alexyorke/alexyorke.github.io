@@ -32435,3 +32435,4 @@ https://lets-play-agda.quasicoherent.io/
 https://research.ed.ac.uk/en/publications/dependent-types-and-multi-monadic-effects-in-f/
 https://fstar-lang.org/papers/mumon/
 https://cir.nii.ac.jp/crid/1360292619364595584
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/libraries/base-4.11.0.0/System-IO.html
