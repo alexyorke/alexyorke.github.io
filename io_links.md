@@ -32875,6 +32875,10 @@ https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc
 https://www.stackage.org/package/monads-tf
 https://packages.debian.org/source/stable/haskell-monads-tf
 https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/
+https://hackage.haskell.org/package/effect-monad-0.7.0.0
+https://hackage.haskell.org/package/control-monad-exception-monadstf/docs
+https://hackage.haskell.org/package/exception-transformers-0.4.0.3/docs
+https://hackage.haskell.org/package/mtl-1.1.0.0
 https://hackage.haskell.org/package/mmtl
 https://hackage.haskell.org/package/mtl-1.1.0.2/docs/Control-Monad-Cont.html
 https://hackage.haskell.org/package/control-monad-exception-mtl/docs
