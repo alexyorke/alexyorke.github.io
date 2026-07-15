@@ -32201,3 +32201,4 @@ https://doc.rust-lang.org/std/future/index.html
 https://doc.rust-lang.org/core/io/index.html
 https://docs.python.org/3/library/io.html?highlight=bytesio
 https://app.readthedocs.org/projects/monad/downloads/pdf/latest/
+https://pursuit.purescript.org/packages/purescript-aff/5.0.0
