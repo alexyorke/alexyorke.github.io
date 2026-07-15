@@ -31767,3 +31767,15 @@ https://www.stackage.org/package/http-client-tls
 https://www.stackage.org/lts-24.3/package/http-client-tls
 https://hackage.haskell.org/package/http-client-tls-0.2.1.2
 https://hackage-content-origin.haskell.org/package/tls-1.4.1
+https://hackage.haskell.org/package/tls-1.3.9
+https://hackage.haskell.org/package/tls-1.2.11
+https://hackage.haskell.org/package/tls-1.0.3
+https://hackage.haskell.org/package/tls-1.7.1
+https://hackage-content-origin.haskell.org/package/tls-0.8.1
+https://hackage.haskell.org/package/tls-1.3.10
+https://www.stackage.org/package/tls
+https://hackage.haskell.org/package/cryptostore
+https://hackage-content.haskell.org/package/tls-2.1.10/docs/src/Network.TLS.Parameters.html
+https://hackage.haskell.org/package/cryptostore-0.3.1.0
+https://hackage-content.haskell.org/package/crypton-connection-0.4.4/docs/src/Network.Connection.Types.html
+https://haskell.github.io/security-advisories/by-packages.html
