@@ -32060,3 +32060,6 @@ https://hackage.haskell.org/package/fused-effects/docs
 https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1
 https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/
 https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperative-shell-game-of-life-example-haskell-and-scala.pdf
+https://hackage.haskell.org/package/HMock-0.3.0.0
+https://hackage.haskell.org/package/mockcat/docs
+https://hackage.haskell.org/package/HMock/docs
