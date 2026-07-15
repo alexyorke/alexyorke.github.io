@@ -32606,6 +32606,12 @@ https://goto.ucsd.edu/~nvazou/lweb/POPL19.pdf
 https://arxiv.org/abs/1708.01688
 https://pages.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf
 https://hackage.haskell.org/package/resource-simple/docs/Control-Monad-Resource.html
+https://arxiv.org/abs/2507.23205
+https://arxiv.org/abs/2009.14322
+https://arxiv.org/abs/1012.4895
+https://www.ioc.ee/~matt/iti0212-2025/iti0212-specification-2025.pdf
+https://onlinecourses-archive.nptel.ac.in/noc15_cs13/
+https://citeseerx.ist.psu.edu/document?doi=6a77e58bdddc2752120b022d55a971931d379a57&repid=rep1&type=pdf
 https://arxiv.org/abs/2007.10809
 https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
 https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
