@@ -32927,3 +32927,7 @@ https://flora.pm/packages/%40hackage/fused-effects
 https://hackage.haskell.org/package/hspec-core-2.11.17
 https://discourse.haskell.org/t/rfc-hspec-quickcheck-classes-testing-typeclass-laws-from-hspec/13919
 https://web.mit.edu/phurst/Public/haskell13/day3.pdf
+https://mynixos.com/nixpkgs/package/haskellPackages.safe-exceptions
+https://mynixos.com/nixpkgs/package/haskellPackages.unliftio
+https://dev.flora.pm/packages/%40hackage/Z-IO/0.1.6.1/changelog
+https://flora.pm/packages/%40hackage/conduit/1.1.3/changelog
