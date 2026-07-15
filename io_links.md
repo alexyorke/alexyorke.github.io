@@ -32218,3 +32218,6 @@ https://doc.flix.dev/control-structures.html
 https://doc.flix.dev/
 https://api.flix.dev/Monad.html
 https://blog.flix.dev/blog/will-llms-help-or-hurt-new-programming-languages/
+https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/18
+https://elm-lang.org/assets/papers/concurrent-frp.pdf
+https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/9
