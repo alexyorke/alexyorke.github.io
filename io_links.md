@@ -31952,3 +31952,5 @@ https://www.youtube.com/playlist?list=PLYItvall0TqJwLa9rY-bT_B9-EmtaiPT0
 https://www.youtube.com/playlist?list=PLYItvall0TqJ1jteUbGOHfBycg5NM9thq
 https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp
 https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/
+https://docs.idris.org/_/downloads/en/v0.9.20/pdf/
