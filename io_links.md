@@ -32189,3 +32189,7 @@ https://bio.monix.io/
 https://bio.monix.io/api/monix/bio/IO.html
 https://index.scala-lang.org/getkyo/kyo
 https://niqdev.github.io/scala-fp/docs/fp-advanced
+https://ocaml.org/p/eio/latest/doc/Eio/index.html
+https://ocaml-multicore.github.io/eio/eio/Eio/index.html
+https://opam.ocaml.org/packages/eio/
+https://okmij.org/ftp/continuations/Eff/caml-eff.pdf
