@@ -32193,3 +32193,6 @@ https://ocaml.org/p/eio/latest/doc/Eio/index.html
 https://ocaml-multicore.github.io/eio/eio/Eio/index.html
 https://opam.ocaml.org/packages/eio/
 https://okmij.org/ftp/continuations/Eff/caml-eff.pdf
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasyncbuilder.html
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-asyncprimitives.html
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control.html
