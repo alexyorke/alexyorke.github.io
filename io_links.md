@@ -32018,3 +32018,17 @@ https://arrow-kt.io/community/blog/tags/fx/
 https://media.arrow-kt.io/articles
 https://api.usaskillsinc.com/backend/files/SwJBiyWNE91tfxMxaUrg.pdf
 https://kotlinlang.org/spec/pdf/sections/asynchronous-programming-with-coroutines.pdf
+https://idris-lang.org/Idris2/base/docs/Data.IORef.html
+https://idris-lang.org/Idris2/
+https://www.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf
+https://hackage.haskell.org/package/sockets
+https://hackage.haskell.org/package/network-2.6.3.1/docs/Network-Socket.html
+https://hackage.haskell.org/package/http-streams
+https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket.html
+https://hackage.haskell.org/package/network-2.6.3.5/docs/Network-Socket.html
+https://hackage.haskell.org/package/tcp-streams
+https://hackage.haskell.org/package/conduit/candidate/docs/Data-Conduit.html
+https://www.classcentral.com/course/youtube-haskell-for-imperative-programmers-59637
+https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf
+https://hackage.haskell.org/package/streamly-0.1.2/docs/Streamly-Tutorial.html
+https://hackage.haskell.org/package/streamly-0.7.3.1
