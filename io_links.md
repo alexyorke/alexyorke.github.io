@@ -31423,3 +31423,6 @@ https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Contro
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception-Base.html
 https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Utils-Exception.html
 https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/ghc-9.14.0.20251128-1ddb/GHC-Utils-Exception.html
+https://haskell.org/definition/ffi/sec-primitive.html
+https://hackage.haskell.org/package/process-1.2.0.0/docs/System-Process.html
+https://pdxscholar.library.pdx.edu/open_access_etds/499/
