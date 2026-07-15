@@ -32635,6 +32635,13 @@ https://input-output-hk.github.io/typed-protocols/typed-protocols/src/Network.Ty
 https://hackage.haskell.org/package/typed-protocols-1.1.0.1/candidate/src/stateful-cborg
 https://hackage.haskell.org/package/typed-encoding
 https://discourse.haskell.org/t/introduction-to-typed-session/10100
+https://www.stackage.org/package/stm
+https://chinanet.mirrors.ustc.edu.cn/help/hackage.html
+https://mirrors.tuna.tsinghua.edu.cn/help/hackage/
+https://hackage.haskell.org/package/linear-socket
+https://hackage.haskell.org/package/linear-socket-0.3.3.3
+https://haskell.foundation/assets/other/Duncan%20Coutts%20-%20GHC%20Tool%20Ecosystem.pdf
+https://well-typed.com/blog/aux/files/zurihac-2023/duncan-coutts-ghc-packaging-ecosystem.pdf
 https://arxiv.org/abs/2312.14964
 https://dl.acm.org/doi/10.1145/3331545.3342598
 https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries
