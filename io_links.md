@@ -31946,3 +31946,9 @@ https://hackage.haskell.org/package/wxcore-0.10.5
 https://hackage.haskell.org/package/wxcore-0.13.2.3
 https://hackage.haskell.org/package/wxcore-0.12.1.7
 https://sourceforge.net/projects/wxhaskell/files/
+https://www.youtube.com/playlist?list=PLYItvall0TqLlCPN9vbDIc8FAKhG-RfbM
+https://www.youtube.com/playlist?list=PLYItvall0TqLBLt6oXFVBaloU7-xZsV-v
+https://www.youtube.com/playlist?list=PLYItvall0TqJwLa9rY-bT_B9-EmtaiPT0
+https://www.youtube.com/playlist?list=PLYItvall0TqJ1jteUbGOHfBycg5NM9thq
+https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp
+https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG
