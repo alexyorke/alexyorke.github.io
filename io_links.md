@@ -32414,3 +32414,5 @@ https://www.scribd.com/document/366128261/monad-3-ps
 https://gist.github.com/gatlin/855929e8c24d83bb59
 https://niltag.net/essays/racket_monad.html
 https://arxiv.org/abs/1611.09470
+https://cljdoc.org/d/pure-io/pure-io/0.1.0/doc/readme
+https://www.classcentral.com/report/best-clojure-courses/
