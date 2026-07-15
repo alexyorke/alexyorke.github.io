@@ -32806,6 +32806,11 @@ https://packages.fedoraproject.org/pkgs/ghc-resourcet/ghc-resourcet-doc
 https://hackage.haskell.org/package/control-monad-exception-0.3
 https://conf.researchr.org/series/haskellsymp
 https://discourse.haskell.org/t/not-quite-monads-haskell-unfolder-54/13973
+https://hackage.haskell.org/package/constrained-monads/docs
+https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-TCP.html
+https://www.classcentral.com/course/youtube-haskell-25-machine-learning-primitives-as-algebraic-effects-508816
+https://haskellweekly.news/issue/463.html
+https://icfp25.sigplan.org/room/splash-2025-venue-peony-sw
 https://verify.rwth-aachen.de/fp26/
 https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs
