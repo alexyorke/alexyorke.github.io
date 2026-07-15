@@ -32911,3 +32911,9 @@ https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Dire
 https://well-typed.com/blog/2025/05/haskell-unfolder-episode-44-state-based-testing-with-quickcheck-lockstep
 https://www.cambridge.org/core/product/20BF7DCA6330A2115C2C9B9BA47AB2E0
 https://discourse.haskell.org/t/state-based-testing-with-quickcheck-lockstep-haskell-unfolder-44/12095
+https://hackage.haskell.org/package/resourcet-effectful/docs
+https://hackage.haskell.org/package/effectful-core-2.2.2.0/docs
+https://www.packtpub.com/en-us/product/learning-haskell-programming-9781786465542
+https://www.packtpub.com/en-sg/product/learning-haskell-programming-9781786465542
+https://www.packtpub.com/en-gb/product/learning-haskell-programming-9781786465542
+https://www.packtpub.com/en-br/product/learning-haskell-programming-9781786465542
