@@ -32261,3 +32261,5 @@ https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.12/1.2.0/cats/e
 https://javadoc.io/static/org.typelevel/cats-effect_sjs1_2.13/2.3.2/cats/effect/Effect.html
 https://resources.jetbrains.com/storage/products/kotlinconf-2023/Arrow%27s%202.0%20Trajectory.pdf
 https://old.arrow-kt.io/docs/patterns/monads
+https://docs.rs/rust_io
+https://dev-doc.rust-lang.org/std/io/index.html
