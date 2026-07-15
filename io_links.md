@@ -32105,3 +32105,6 @@ https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3/docs
 https://packages.debian.org/trixie/source/haskell-prettyprinter-ansi-terminal
 https://packages.debian.org/source/forky/haskell-prettyprinter-ansi-terminal
 https://packages.debian.org/bullseye/source/haskell-prettyprinter-ansi-terminal
+https://hackage.haskell.org/package/monad-logger-0.3.18/docs/Control-Monad-Logger.html
+https://hackage.haskell.org/package/monad-logger-0.3.16/docs/Control-Monad-Logger.html
+https://packages.debian.org/source/bullseye/misc/haskell-monad-logger
