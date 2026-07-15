@@ -32272,3 +32272,6 @@ https://forums.fsharp.org/t/series-of-6-articles-on-computation-expressions/4893
 https://github.com/IBM/fp-go/v2/io
 https://www.roundcrisis.com/presentations/2015-fsharp-gotham-computation-expressions/index.html
 https://arxiv.org/abs/2208.14724
+https://github.com/IBM/fp-go
+https://github.com/joeycumines/go-monads
+https://pkg.go.dev/github.com/joeycumines/go-monads
