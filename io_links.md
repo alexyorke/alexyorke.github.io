@@ -32126,3 +32126,4 @@ https://hackage.haskell.org/package/co-log-polysemy/docs
 https://hackage.haskell.org/package/co-log-simple/docs
 https://hackage.haskell.org/package/co-log-json/docs
 https://hackage.haskell.org/package/co-log-effectful/docs
+https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/src/Control-Arrow-ArrowIO.html
