@@ -32268,3 +32268,7 @@ https://docs.lean-lang.org/functional_programming_in_lean/Monads/The-Monad-Type-
 https://lean-lang.org/functional_programming_in_lean/Introduction/
 https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/15F1C51D832FD7F084AE2602FBDB0157
 https://www.cl.cam.ac.uk/teaching//0607/FFuncProg/fofp.pdf
+https://forums.fsharp.org/t/series-of-6-articles-on-computation-expressions/4893
+https://github.com/IBM/fp-go/v2/io
+https://www.roundcrisis.com/presentations/2015-fsharp-gotham-computation-expressions/index.html
+https://arxiv.org/abs/2208.14724
