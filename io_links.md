@@ -31938,3 +31938,11 @@ https://hackage-content-origin.haskell.org/package/glib-0.13.8.0
 https://book.realworldhaskell.org/read/gui-programming-with-gtk-hs.html
 https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.2.1
 https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.11.0
+https://hackage.haskell.org/package/wx-0.13.2
+https://hackage.haskell.org/package/wxcore-0.10.6/docs/index.html
+https://hackage.haskell.org/package/wxcore-0.11.1.2/docs/index.html
+https://hackage.haskell.org/package/wxcore
+https://hackage.haskell.org/package/wxcore-0.10.5
+https://hackage.haskell.org/package/wxcore-0.13.2.3
+https://hackage.haskell.org/package/wxcore-0.12.1.7
+https://sourceforge.net/projects/wxhaskell/files/
