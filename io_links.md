@@ -33121,3 +33121,4 @@ https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944874.h
 https://mailman.haskell.org/archives/list/ghc-commits@haskell.org/thread/TBCIDETQG5E7QHOKX75EHX3WXLAAUT62/
 https://hackage.haskell.org/package/logict
 https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html
+https://hackage.haskell.org/package/GHC.IO.html
