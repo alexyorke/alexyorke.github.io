@@ -33204,3 +33204,10 @@ https://www.inf.ed.ac.uk/publications/report/0599.html
 https://packages.debian.org/source/bullseye/i386/misc/haskell-monadprompt
 https://packages.ubuntu.com/ca/noble/i386/libghc-iospec-doc
 https://packages.ubuntu.com/search?keywords=lift
+https://era.ed.ac.uk/bitstream/handle/1842/43690/Hollenbeck2025.pdf?sequence=1
+https://fid-core.sourceforge.net/monads-interactive.pdf
+https://hunit.sourceforge.net/HUnit-1.0/Guide.html
+https://kokogut.sourceforge.net/faq.html
+https://sourceforge.net/directory/libraries/haskell/
+https://sourceforge.net/projects/marble.mirror/
+https://sourceforge.net/projects/marble-builds/files/losksu/LosKsu_26_September.zip/download
