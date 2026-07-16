@@ -33097,3 +33097,6 @@ https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/m
 https://www.stackage.org/lts/package/unliftio-0.2.25.1
 https://hackage.haskell.org/package/exceptions-0.10.3
 https://hackage.haskell.org/package/fused-effects-exceptions
+https://www.stackage.org/package/fused-effects-exceptions
+https://hackage.haskell.org/package/io-streams-1.3.6.1
+https://hackage.haskell.org/package/io-streams-1.5.2.2/docs
