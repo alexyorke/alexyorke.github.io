@@ -33104,3 +33104,5 @@ https://hackage.haskell.org/package/io-streams-1.5.2.2/docs
 https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html
 https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html
 https://packages.debian.org/sid/haskell/libghc-io-streams-dev
+https://packages.debian.org/testing/haskell/libghc-io-streams-dev
+https://ftp.cica.es/mirrors/Linux/raspbian/raspbian/pool/main/h/haskell-io-streams/
