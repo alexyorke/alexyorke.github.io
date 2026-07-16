@@ -33259,3 +33259,4 @@ https://www.cs.cornell.edu/courses/cs6117/2025fa/
 https://paperswelove.org/papers/tackling-the-awkward-squad-monadic-inputoutput-concurrency-exceptions-and-foreign-language-calls-in-haskell
 https://soft.vub.ac.be/~svdvonde/papers/ecoop2020-tackling-the-awkward-squad-the-actor-reactor-model.pdf
 https://www.cs.gla.ac.uk/~kh/Haskell1.3/IO.html
+https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/32/slides/jml.pdf
