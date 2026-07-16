@@ -33165,3 +33165,5 @@ https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/
 https://users.rust-lang.org/t/what-is-a-monad-and-who-needs-haskell-anyway/45710
 https://www.youtube.com/watch?v=ofUAlkYHFsI
 https://learnxinyminutes.com/fr/haskell/
+https://archlinux.org/packages/extra/x86_64/haskell-rio/
+https://packages.debian.org/search?keywords=libghc-io-streams-dev
