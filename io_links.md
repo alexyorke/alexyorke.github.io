@@ -4847,6 +4847,7 @@ https://dblp.org/rec/conf/fp/AchtenGP92
 https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1992/DagSemRep.36/DagSemRep.36.pdf
 https://ir.cwi.nl/pub/27512/Nr.%2026%20%28juni%201993%29
 https://www.altocumulus.org/Fudgets/fudgets-fpca93.html
+https://www.altocumulus.org/Fudgets/Manual/current/XEvent.html
 https://stackoverflow.com/questions/3850368/how-do-functional-languages-model-side-effects?noredirect=1
 https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf
 https://doi.org/10.1093/comjnl/31.3.243
