@@ -33132,3 +33132,4 @@ https://dblp.uni-trier.de/db/conf/haskell/haskell2000.html
 https://www.haskell.org/ghc/docs/6.12.2/haddock.pdf
 https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-workshop
 https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programming-in-haskell/
+https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html
