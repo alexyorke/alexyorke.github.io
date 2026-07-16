@@ -33094,3 +33094,6 @@ https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew
 https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/
 https://qa.debian.org/debcheck.php?dist=unstable&package=haskell-file-io
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html
+https://www.stackage.org/lts/package/unliftio-0.2.25.1
+https://hackage.haskell.org/package/exceptions-0.10.3
+https://hackage.haskell.org/package/fused-effects-exceptions
