@@ -33123,3 +33123,5 @@ https://hackage.haskell.org/package/logict
 https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html
 https://hackage.haskell.org/package/GHC.IO.html
 https://hackage-content.haskell.org/package/HPDF-1.8/docs/Graphics-PDF-Documentation.html
+https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944198.html
+https://piuparts.debian.org/trixie/maintainer/p/pkg-haskell-maintainers%40lists.alioth.debian.org.html
