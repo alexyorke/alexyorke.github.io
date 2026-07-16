@@ -33130,3 +33130,5 @@ https://hackage.haskell.org/package/base-4.0.0.0/docs/src/GHC-IOBase.html
 https://www.haskell.org/haskell-workshop/2000/papers.html
 https://dblp.uni-trier.de/db/conf/haskell/haskell2000.html
 https://www.haskell.org/ghc/docs/6.12.2/haddock.pdf
+https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-workshop
+https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programming-in-haskell/
