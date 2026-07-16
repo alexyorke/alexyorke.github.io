@@ -33164,3 +33164,4 @@ https://www.reddit.com/r/haskell/comments/6xkttl/why_do_haskell_needs_monad_for_
 https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/
 https://users.rust-lang.org/t/what-is-a-monad-and-who-needs-haskell-anyway/45710
 https://www.youtube.com/watch?v=ofUAlkYHFsI
+https://learnxinyminutes.com/fr/haskell/
