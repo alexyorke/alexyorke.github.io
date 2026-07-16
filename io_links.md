@@ -33217,3 +33217,6 @@ https://files01.core.ac.uk/download/237502259.pdf
 https://leanpub.com/purescript
 https://dantb.dev/files/dissertation.pdf
 https://www.slideshare.net/slideshow/the-io-monad/12123210
+https://www.simonpj.org/assets/papers/monadicIO13.pdf
+https://ceur-ws.org/Vol-1133/paper-17.pdf
+https://nostarch.com/download/samples/LearnYouAHaskell_Index_Sample.pdf
