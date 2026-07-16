@@ -29016,7 +29016,6 @@ https://arxiv.org/abs/2007.00616
 https://arxiv.org/abs/1403.0749
 https://www.fi.muni.cz/files/-pk-dn/exam-informatics-fall2017-en.pdf
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkward_squad_monadic_inputoutput_concurrency_exceptions_and_foreign-language_calls_in_haskell/
-https://es.wikipedia.org/wiki/M%C3%B3nada_(programaci%C3%B3n_funcional)
 https://hackage.haskell.org/package/hspec-2.7.1/docs/Test-Hspec-Discover.html
 https://hackage-content.haskell.org/package/hspec-core-2.11.12/docs/Test-Hspec-Core-Spec.html
 https://hspec.github.io/parallel-spec-execution.html
@@ -29646,7 +29645,6 @@ https://mail.haskell.org/pipermail/haskell/2009-March/021065.html
 https://datakinds.github.io/2019/05/10/a-basis-for-sequential-execution-monads-arrows-and-more
 https://tromp.github.io/cl/LC.pdf
 https://www.mclibre.org/descargar/docs/revistas/linux-voice/linux-voice-22-en-201601.pdf
-https://es.wikipedia.org/wiki/M%C3%B3nada_%28programaci%C3%B3n_funcional%29
 https://downloads.haskell.org/~ghc/6.2.1/docs/html/libraries/base/GHC.IO.html
 https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/System-IO.html
 https://downloads.haskell.org/ghc/6.10.1/docs/html/libraries/base/System-IO-Error.html
@@ -33262,3 +33260,6 @@ https://soft.vub.ac.be/~svdvonde/papers/ecoop2020-tackling-the-awkward-squad-the
 https://www.cs.gla.ac.uk/~kh/Haskell1.3/IO.html
 https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/32/slides/jml.pdf
 https://dblp.org/rec/conf/oopsla/VonderKMM17
+https://www.cs.cmu.edu/~fp/courses/15312-f06/lectures/17-iomonad.html
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.19.pdf
+https://researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-reactor-model
