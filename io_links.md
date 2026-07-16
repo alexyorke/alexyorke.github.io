@@ -33182,3 +33182,5 @@ https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-io-4sw.pd
 https://www.michaelhanus.de/lehre/cb13/skript/notizen2013.pdf
 https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2013/
 https://whatthefunctional.wordpress.com/haskell-for-the-imperative/
+https://zio.dev/zio-quill/writing-queries/
+https://jdriven.com/blog/2019/10/Functional-dependency-injection-in-Scala-using-ZIO-environments
