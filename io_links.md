@@ -33155,3 +33155,6 @@ https://gist.github.com/newswim/4668aef8a1f1bc0dabe8
 https://gist.github.com/837f820d38c8ac6c46e2a02a4d3c0fbd
 https://packages.debian.org/source/stable/haskell-monadlist
 https://arxiv.org/abs/1707.04724
+https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html
+https://forum.cardano.org/t/real-world-haskell-good-bad-ugly-by-saurabh-nanda-at-functional-conf-2017/12160
+https://www.youtube.com/watch?v=7NB8tMa8sUk
