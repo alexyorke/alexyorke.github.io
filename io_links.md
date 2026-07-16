@@ -33200,3 +33200,4 @@ https://books.rakuten.co.jp/rb/10380119/
 https://www.nippyo.co.jp/shop/book/8340.html
 https://haskellweekly.news/podcast.html
 https://www.reddit.com/r/haskell/comments/1kn0jog/
+https://www.inf.ed.ac.uk/publications/report/0599.html
