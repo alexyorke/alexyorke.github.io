@@ -33263,3 +33263,6 @@ https://dblp.org/rec/conf/oopsla/VonderKMM17
 https://www.cs.cmu.edu/~fp/courses/15312-f06/lectures/17-iomonad.html
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.19.pdf
 https://researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-reactor-model
+https://haskell.mooc.fi/part1/monads/
+https://haskell-cafe.haskell.org/
+https://www.youtube.com/playlist?list=PLu6SHDdOToSe7ZOw-mR55j2GEjkNTQgrd
