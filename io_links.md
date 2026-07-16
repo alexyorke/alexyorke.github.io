@@ -33083,3 +33083,11 @@ https://www.reddit.com/r/haskell/comments/1kky7b7
 https://arxiv.org/abs/2507.16086
 https://groups.seas.harvard.edu/courses/cs152/2021sp/lectures/lec18-monads.pdf
 https://www.cs.uoregon.edu/research/summerschool/summer18/topics.php
+https://archlinux.org/packages/extra/x86_64/haskell-extra/
+https://archlinux.org/packages/extra/x86_64/haskell-comonad/
+https://archlinux.org/packages/extra/x86_64/haskell-either/
+https://packages.debian.org/sid/all/doc/libghc-managed-doc
+https://cse.sc.edu/~mgv/csce590f20/haskell/p359-hudak.pdf
+https://icfp24.sigplan.org/home/hiw-2024
+https://haflang.github.io/workshops/hafdal24.html
+https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew-2025-videos-online/
