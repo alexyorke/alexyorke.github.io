@@ -33103,3 +33103,4 @@ https://hackage.haskell.org/package/io-streams-1.3.6.1
 https://hackage.haskell.org/package/io-streams-1.5.2.2/docs
 https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html
 https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html
+https://packages.debian.org/sid/haskell/libghc-io-streams-dev
