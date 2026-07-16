@@ -33136,3 +33136,4 @@ https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.htm
 https://sources.debian.org/src/haskell-monad-memo
 https://dspace.library.uu.nl/handle/1874/18968
 https://hackage.haskell.org/package/iospec
+https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/
