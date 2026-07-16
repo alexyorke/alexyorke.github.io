@@ -33119,3 +33119,5 @@ https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/
 https://discourse.haskell.org/t/call-for-participation-2-5-hour-haskell-foundation-online-workshop/14312
 https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944874.html
 https://mailman.haskell.org/archives/list/ghc-commits@haskell.org/thread/TBCIDETQG5E7QHOKX75EHX3WXLAAUT62/
+https://hackage.haskell.org/package/logict
+https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html
