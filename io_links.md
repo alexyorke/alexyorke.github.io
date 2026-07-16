@@ -33091,3 +33091,6 @@ https://cse.sc.edu/~mgv/csce590f20/haskell/p359-hudak.pdf
 https://icfp24.sigplan.org/home/hiw-2024
 https://haflang.github.io/workshops/hafdal24.html
 https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew-2025-videos-online/
+https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/
+https://qa.debian.org/debcheck.php?dist=unstable&package=haskell-file-io
+https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html
