@@ -33113,3 +33113,6 @@ https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-streams/
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-gio/
 https://sources.debian.org/src/haskell-http-streams/0.8.9.9-1/http-streams.cabal
 https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO
+https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html
+https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-storage/
+https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/
