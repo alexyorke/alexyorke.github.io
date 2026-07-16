@@ -33055,3 +33055,16 @@ https://mynixos.com/nixpkgs/packages/haskellPackages
 https://mynixos.com/nixpkgs/packages/haskellPackages/176
 https://mynixos.com/nixpkgs/package/haskellPackages.trans-fx-io
 https://mynixos.com/nixpkgs/package/haskellPackages.monad-loops
+https://packages.debian.org/source/bullseye/haskell-exception-transformers
+https://packages.debian.org/bullseye/haskell/libghc-exception-transformers-dev
+https://archlinux.org/packages/extra-staging/x86_64/haskell-safe-exceptions/
+https://archlinux.org/packages/extra/x86_64/haskell-extensible-exceptions/
+https://packages.debian.org/source/sid/haskell-control-monad-loop
+https://archlinux.org/packages/extra/x86_64/haskell-language-server/
+https://packages.debian.org/trixie/doc/libghc-monad-logger-doc
+https://dennou-q.gfd-dennou.org/library/Linux/debian/pool/main/h/haskell-file-io/
+https://www.uibk.ac.at/media/filer_public/02/ea/02eaeeda-ded3-4aa6-bcf4-a125e575a1dd/category_theory.pdf
+https://entropicthoughts.com/haskell-procedural-programming
+https://discourse.haskell.org/t/abstracting-storage-details-with-effectful-first-blog-post/12190
+https://studentprojectcode.com/blog/what-is-the-io-type-in-haskell
+https://www.openscience.uz/index.php/sciedu/article/download/8060/7411/14770
