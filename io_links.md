@@ -33198,3 +33198,5 @@ https://doi.org/10.1007/978-1-4471-3215-8
 https://doi.org/10.1007/978-1-4471-3166-3
 https://books.rakuten.co.jp/rb/10380119/
 https://www.nippyo.co.jp/shop/book/8340.html
+https://haskellweekly.news/podcast.html
+https://www.reddit.com/r/haskell/comments/1kn0jog/
