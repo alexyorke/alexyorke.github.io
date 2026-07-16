@@ -33116,3 +33116,4 @@ https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html
 https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html
 https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-storage/
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/
+https://discourse.haskell.org/t/call-for-participation-2-5-hour-haskell-foundation-online-workshop/14312
