@@ -32386,7 +32386,6 @@ https://docs.rs/effectful/latest/effectful/
 https://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/
 https://scalaz.github.io/scalaz/scalaz-2.10-7.0.3/doc/index.html
 https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M12/scalaz/Monad.html
-https://hackage.haskell.org/package/RIO-0.0.3.0/docs/RIO-Prelude-RIO.html
 https://library.nu.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=4706
 https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/?lang=japublications%2F%3Fpg=0&pg=96
 https://pursuit.purerl.fun/packages/effect/3.0.0-erl1/docs/Effect.Class
@@ -33135,7 +33134,6 @@ https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programmi
 https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html
 https://sources.debian.org/src/haskell-monad-memo
 https://dspace.library.uu.nl/handle/1874/18968
-https://hackage.haskell.org/package/iospec
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/
 https://www.stackage.org/package/io-machine-0.2.0.0
 https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0
@@ -33179,7 +33177,6 @@ https://hackage.haskell.org/package/binary-io
 https://downloads.haskell.org/~ghc/6.8.1/docs/users_guide.pdf
 https://cspages.ucalgary.ca/~robin/class/521/webnotes.html
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c045&repid=rep1&type=pdf
-https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-io-4sw.pdf
 https://www.michaelhanus.de/lehre/cb13/skript/notizen2013.pdf
 https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2013/
 https://whatthefunctional.wordpress.com/haskell-for-the-imperative/
@@ -33236,3 +33233,4 @@ https://www.researchgate.net/publication/7261003_Value_Recursion_in_Monadic_Comp
 https://downloads.haskell.org/old_docs/ghc-4.01.0.0/docs/set-io.htm
 https://www.mat.uc.pt/~pedro/lectivos/docs/ghc-manual.pdf?download=1
 https://www.chriswarbo.net/monads/IOMonad.pdf
+https://www.cl.cam.ac.uk/ftp/papers/monads/
