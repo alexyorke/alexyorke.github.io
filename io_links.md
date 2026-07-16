@@ -33185,3 +33185,4 @@ https://whatthefunctional.wordpress.com/haskell-for-the-imperative/
 https://zio.dev/zio-quill/writing-queries/
 https://jdriven.com/blog/2019/10/Functional-dependency-injection-in-Scala-using-ZIO-environments
 https://afiore.github.io/website/blog/2020/02/15/discarding-io
+https://livebook.manning.com/book/functional-programming-in-scala/part-4
