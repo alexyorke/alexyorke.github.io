@@ -33188,3 +33188,5 @@ https://jdriven.com/blog/2019/10/Functional-dependency-injection-in-Scala-using-
 https://afiore.github.io/website/blog/2020/02/15/discarding-io
 https://livebook.manning.com/book/functional-programming-in-scala/part-4
 https://www.users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf
+https://www.stackage.org/nightly-2019-07-04/package/rio-0.1.10.0
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/template-haskell-2.24.0.0-inplace/Language-Haskell-TH-Syntax.html
