@@ -33028,3 +33028,17 @@ https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-ef
 https://www.cs.unm.edu/~mlakin/assets/teaching/2021-fall-cs558-syllabus.pdf
 https://www.sigplan.org/OpenTOC/haskell25.html
 https://www.reddit.com/r/haskell/comments/1lvd5sv
+https://packages.debian.org/source/bookworm/haskell/
+https://packages.debian.org/source/bookworm/haskell-monadlib
+https://packages.debian.org/bookworm/libghc-monad-logger-prof
+https://www.stackage.org/lts-6.30/package/effect-handlers-0.1.0.8
+https://www.stackage.org/nightly-2021-08-23/package/extensible-effects-5.0.0.1
+https://www.stackage.org/lts-22.25/package/silently-1.2.5.3
+https://archlinux.org/packages/extra/x86_64/haskell-transformers-base/
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-exception-transformers/
+https://portal.acm.org/citation.cfm?id=363749
+https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497
+https://www.c2.com/cgi/wiki?OnMonads
+https://youtube.com/playlist?list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb
+https://haskell.foundation/events/
+https://person.dibris.unige.it/moggi-eugenio/ftp/EM-GDPfest.pdf
