@@ -33146,7 +33146,9 @@ https://www.oreilly.com/library/view/real-world-haskell/9780596154646/
 https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md
 https://gist.github.com/therewillbecode
 https://gist.github.com/FranklinChen/1448622
+https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2
 https://gist.github.com/vu3rdd/6409454
 https://gist.github.com/ymdfield/e17cb32aa24eb1418377d9fecc021101
 https://gist.github.com/newswim/4668aef8a1f1bc0dabe8
 https://gist.github.com/837f820d38c8ac6c46e2a02a4d3c0fbd
+https://packages.debian.org/source/stable/haskell-monadlist
