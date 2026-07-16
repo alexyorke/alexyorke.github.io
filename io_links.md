@@ -33194,3 +33194,7 @@ https://doi.org/10.1017/s0956796824000133
 https://doi.org/10.1145/2503778.2503783
 https://doi.org/10.22152/programming-journal.org/2018/2/12
 https://doi.org/10.1145/2887747.2804319
+https://doi.org/10.1007/978-1-4471-3215-8
+https://doi.org/10.1007/978-1-4471-3166-3
+https://books.rakuten.co.jp/rb/10380119/
+https://www.nippyo.co.jp/shop/book/8340.html
