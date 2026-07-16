@@ -33112,3 +33112,4 @@ https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-path-io/
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-streams/
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-gio/
 https://sources.debian.org/src/haskell-http-streams/0.8.9.9-1/http-streams.cabal
+https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO
