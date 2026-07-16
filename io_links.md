@@ -33122,3 +33122,4 @@ https://mailman.haskell.org/archives/list/ghc-commits@haskell.org/thread/TBCIDET
 https://hackage.haskell.org/package/logict
 https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html
 https://hackage.haskell.org/package/GHC.IO.html
+https://hackage-content.haskell.org/package/HPDF-1.8/docs/Graphics-PDF-Documentation.html
