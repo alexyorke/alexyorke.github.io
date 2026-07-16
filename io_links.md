@@ -33181,3 +33181,4 @@ https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c
 https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-io-4sw.pdf
 https://www.michaelhanus.de/lehre/cb13/skript/notizen2013.pdf
 https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2013/
+https://whatthefunctional.wordpress.com/haskell-for-the-imperative/
