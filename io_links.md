@@ -33137,3 +33137,8 @@ https://sources.debian.org/src/haskell-monad-memo
 https://dspace.library.uu.nl/handle/1874/18968
 https://hackage.haskell.org/package/iospec
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/
+https://www.stackage.org/package/io-machine-0.2.0.0
+https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0
+https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0
+https://www.stackage.org/lts-24.29/package/io-storage-0.3
+https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4
