@@ -33213,3 +33213,7 @@ https://sourceforge.net/projects/marble.mirror/
 https://sourceforge.net/projects/marble-builds/files/losksu/LosKsu_26_September.zip/download
 https://files01.core.ac.uk/download/74136999.pdf
 https://fileserver-az.core.ac.uk/download/577436407.pdf
+https://files01.core.ac.uk/download/237502259.pdf
+https://leanpub.com/purescript
+https://dantb.dev/files/dissertation.pdf
+https://www.slideshare.net/slideshow/the-io-monad/12123210
