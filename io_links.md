@@ -33134,3 +33134,5 @@ https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-wo
 https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programming-in-haskell/
 https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html
 https://sources.debian.org/src/haskell-monad-memo
+https://dspace.library.uu.nl/handle/1874/18968
+https://hackage.haskell.org/package/iospec
