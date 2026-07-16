@@ -1,5 +1,6 @@
 # IO Monad Links
 ## Foundational papers and theses
+https://sigplan.github.io/OpenTOC/haskell24.html
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf
 https://dl.acm.org/doi/pdf/10.1145/143165.143169
 https://dl.acm.org/doi/10.1145/143165.143169
@@ -33100,4 +33101,5 @@ https://hackage.haskell.org/package/fused-effects-exceptions
 https://www.stackage.org/package/fused-effects-exceptions
 https://hackage.haskell.org/package/io-streams-1.3.6.1
 https://hackage.haskell.org/package/io-streams-1.5.2.2/docs
-https://sigplan.github.io/OpenTOC/haskell24.html
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html
