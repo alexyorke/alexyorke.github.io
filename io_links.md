@@ -33211,3 +33211,5 @@ https://kokogut.sourceforge.net/faq.html
 https://sourceforge.net/directory/libraries/haskell/
 https://sourceforge.net/projects/marble.mirror/
 https://sourceforge.net/projects/marble-builds/files/losksu/LosKsu_26_September.zip/download
+https://files01.core.ac.uk/download/74136999.pdf
+https://fileserver-az.core.ac.uk/download/577436407.pdf
