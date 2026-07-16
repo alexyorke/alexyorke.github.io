@@ -33042,3 +33042,16 @@ https://www.c2.com/cgi/wiki?OnMonads
 https://youtube.com/playlist?list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb
 https://haskell.foundation/events/
 https://person.dibris.unige.it/moggi-eugenio/ftp/EM-GDPfest.pdf
+https://hackage.haskell.org/package/hnix
+https://hackage.haskell.org/package/base-4.9.0.0/docs/Control-Exception.html
+https://hackage.haskell.org/package/monad-loops
+https://hackage.haskell.org/package/monad-finally
+https://hackage.haskell.org/package/logging-effect
+https://hackage.haskell.org/package/eff
+https://hackage.haskell.org/package/free-programs
+https://hackage.haskell.org/package/monad-extras
+https://hackage.haskell.org/package/monad-journal
+https://mynixos.com/nixpkgs/packages/haskellPackages
+https://mynixos.com/nixpkgs/packages/haskellPackages/176
+https://mynixos.com/nixpkgs/package/haskellPackages.trans-fx-io
+https://mynixos.com/nixpkgs/package/haskellPackages.monad-loops
