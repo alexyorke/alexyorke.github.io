@@ -33143,3 +33143,7 @@ https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0
 https://www.stackage.org/lts-24.29/package/io-storage-0.3
 https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4
 https://www.oreilly.com/library/view/real-world-haskell/9780596154646/
+https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md
+https://gist.github.com/therewillbecode
+https://gist.github.com/FranklinChen/1448622
+https://gist.github.com/vu3rdd/6409454
