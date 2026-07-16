@@ -33158,6 +33158,7 @@ https://arxiv.org/abs/1707.04724
 https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html
 https://forum.cardano.org/t/real-world-haskell-good-bad-ugly-by-saurabh-nanda-at-functional-conf-2017/12160
 https://www.youtube.com/watch?v=7NB8tMa8sUk
+https://arxiv.org/abs/2511.06701
 https://mailman.haskell.org/archives/
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1da3e4a2d35861293448dcb&repid=rep1&type=pdf
 https://www.reddit.com/r/haskell/comments/6xkttl/why_do_haskell_needs_monad_for_io/
