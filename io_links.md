@@ -33174,4 +33174,6 @@ https://packages.fedoraproject.org/pkgs/ghc-unliftio/
 https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-devel
 https://packages.fedoraproject.org/pkgs/ghc-http-streams/ghc-http-streams
 https://rpmfind.net/linux/RPM/fedora/devel/rawhide/s390x/g/ghc-io-streams-doc-1.5.2.2-16.fc44.noarch.html
+https://hackage.haskell.org/package/binary-io
+https://downloads.haskell.org/~ghc/6.8.1/docs/users_guide.pdf
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c045&repid=rep1&type=pdf
