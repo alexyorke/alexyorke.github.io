@@ -33126,3 +33126,4 @@ https://hackage-content.haskell.org/package/HPDF-1.8/docs/Graphics-PDF-Documenta
 https://www.cs.tufts.edu/comp/150FP/archive/jason-dagit/ms-thesis.pdf
 https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944198.html
 https://piuparts.debian.org/trixie/maintainer/p/pkg-haskell-maintainers%40lists.alioth.debian.org.html
+https://hackage.haskell.org/package/base-4.0.0.0/docs/src/GHC-IOBase.html
