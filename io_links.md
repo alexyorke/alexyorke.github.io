@@ -33201,3 +33201,6 @@ https://www.nippyo.co.jp/shop/book/8340.html
 https://haskellweekly.news/podcast.html
 https://www.reddit.com/r/haskell/comments/1kn0jog/
 https://www.inf.ed.ac.uk/publications/report/0599.html
+https://packages.debian.org/source/bullseye/i386/misc/haskell-monadprompt
+https://packages.ubuntu.com/ca/noble/i386/libghc-iospec-doc
+https://packages.ubuntu.com/search?keywords=lift
