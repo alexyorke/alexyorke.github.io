@@ -24213,104 +24213,104 @@ https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.8	created	2017-02-11
 https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.9	created	2017-02-11
 https://www.npmjs.com/package/fluture/v/0.1.0	created	2016-03-06
 https://www.npmjs.com/package/fluture/v/0.2.0	created	2016-03-06
-https://www.npmjs.com/package/fluture/v/0.2.1	N/A
-https://www.npmjs.com/package/fluture/v/0.3.0	N/A
-https://www.npmjs.com/package/fluture/v/0.3.1	N/A
-https://www.npmjs.com/package/fluture/v/0.4.0	N/A
-https://www.npmjs.com/package/fluture/v/0.4.1	N/A
-https://www.npmjs.com/package/fluture/v/0.5.0	N/A
-https://www.npmjs.com/package/fluture/v/0.5.1	N/A
-https://www.npmjs.com/package/fluture/v/0.5.2	N/A
-https://www.npmjs.com/package/fluture/v/0.5.3	N/A
-https://www.npmjs.com/package/fluture/v/0.5.4	N/A
-https://www.npmjs.com/package/fluture/v/0.5.5	N/A
-https://www.npmjs.com/package/fluture/v/0.5.6	N/A
-https://www.npmjs.com/package/fluture/v/0.5.7	N/A
-https://www.npmjs.com/package/fluture/v/0.6.0-beta1	N/A
-https://www.npmjs.com/package/fluture/v/0.6.0-beta2	N/A
-https://www.npmjs.com/package/fluture/v/0.6.1	N/A
-https://www.npmjs.com/package/fluture/v/0.6.2	N/A
-https://www.npmjs.com/package/fluture/v/0.6.3	N/A
-https://www.npmjs.com/package/fluture/v/0.6.3-beta.1	N/A
-https://www.npmjs.com/package/fluture/v/0.6.4	N/A
-https://www.npmjs.com/package/fluture/v/0.6.5	N/A
-https://www.npmjs.com/package/fluture/v/1.0.0	N/A
-https://www.npmjs.com/package/fluture/v/1.0.1	N/A
-https://www.npmjs.com/package/fluture/v/1.0.2	N/A
-https://www.npmjs.com/package/fluture/v/1.0.3	N/A
-https://www.npmjs.com/package/fluture/v/1.1.0	N/A
-https://www.npmjs.com/package/fluture/v/1.2.0	N/A
-https://www.npmjs.com/package/fluture/v/1.2.1	N/A
-https://www.npmjs.com/package/fluture/v/10.0.0	N/A
-https://www.npmjs.com/package/fluture/v/10.1.0	N/A
-https://www.npmjs.com/package/fluture/v/10.1.1	N/A
-https://www.npmjs.com/package/fluture/v/10.2.0	N/A
-https://www.npmjs.com/package/fluture/v/10.3.0	N/A
-https://www.npmjs.com/package/fluture/v/10.3.1	N/A
-https://www.npmjs.com/package/fluture/v/11.0.0	N/A
-https://www.npmjs.com/package/fluture/v/11.0.1	N/A
-https://www.npmjs.com/package/fluture/v/11.0.2	N/A
-https://www.npmjs.com/package/fluture/v/11.0.3	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.0	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.1	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.2	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.3	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.4	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.5	N/A
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.6	N/A
-https://www.npmjs.com/package/fluture/v/12.0.1	N/A
-https://www.npmjs.com/package/fluture/v/12.0.2	N/A
-https://www.npmjs.com/package/fluture/v/12.1.0	N/A
-https://www.npmjs.com/package/fluture/v/12.1.1	N/A
-https://www.npmjs.com/package/fluture/v/12.2.0	N/A
-https://www.npmjs.com/package/fluture/v/12.2.1	N/A
-https://www.npmjs.com/package/fluture/v/12.3.0	N/A
-https://www.npmjs.com/package/fluture/v/12.3.1	N/A
-https://www.npmjs.com/package/fluture/v/13.0.0	N/A
-https://www.npmjs.com/package/fluture/v/13.0.1	N/A
-https://www.npmjs.com/package/fluture/v/14.0.0	N/A
-https://www.npmjs.com/package/fluture/v/2.0.0	N/A
-https://www.npmjs.com/package/fluture/v/2.0.0-beta.1	N/A
-https://www.npmjs.com/package/fluture/v/2.0.0-beta.2	N/A
-https://www.npmjs.com/package/fluture/v/2.0.1	N/A
-https://www.npmjs.com/package/fluture/v/3.0.0	N/A
-https://www.npmjs.com/package/fluture/v/3.1.0	N/A
-https://www.npmjs.com/package/fluture/v/3.1.1	N/A
-https://www.npmjs.com/package/fluture/v/4.0.0	N/A
-https://www.npmjs.com/package/fluture/v/4.0.1	N/A
-https://www.npmjs.com/package/fluture/v/4.0.2	N/A
-https://www.npmjs.com/package/fluture/v/4.0.3	N/A
-https://www.npmjs.com/package/fluture/v/4.1.0	N/A
-https://www.npmjs.com/package/fluture/v/4.1.1	N/A
-https://www.npmjs.com/package/fluture/v/4.2.0	N/A
-https://www.npmjs.com/package/fluture/v/4.3.0	N/A
-https://www.npmjs.com/package/fluture/v/4.3.1	N/A
-https://www.npmjs.com/package/fluture/v/4.3.2	N/A
-https://www.npmjs.com/package/fluture/v/4.3.3	N/A
-https://www.npmjs.com/package/fluture/v/4.3.4	N/A
-https://www.npmjs.com/package/fluture/v/4.3.5	N/A
-https://www.npmjs.com/package/fluture/v/5.0.0	N/A
-https://www.npmjs.com/package/fluture/v/6.0.0	N/A
-https://www.npmjs.com/package/fluture/v/6.0.1	N/A
-https://www.npmjs.com/package/fluture/v/6.1.0	N/A
-https://www.npmjs.com/package/fluture/v/6.1.1	N/A
-https://www.npmjs.com/package/fluture/v/6.2.0	N/A
-https://www.npmjs.com/package/fluture/v/6.2.1	N/A
-https://www.npmjs.com/package/fluture/v/6.2.2	N/A
-https://www.npmjs.com/package/fluture/v/6.2.3	N/A
-https://www.npmjs.com/package/fluture/v/6.2.4	N/A
-https://www.npmjs.com/package/fluture/v/6.2.5	N/A
-https://www.npmjs.com/package/fluture/v/6.2.6	N/A
-https://www.npmjs.com/package/fluture/v/6.2.7	N/A
-https://www.npmjs.com/package/fluture/v/6.2.8	N/A
-https://www.npmjs.com/package/fluture/v/6.3.0	N/A
-https://www.npmjs.com/package/fluture/v/7.0.0	N/A
-https://www.npmjs.com/package/fluture/v/7.0.1	N/A
-https://www.npmjs.com/package/fluture/v/7.1.0	N/A
-https://www.npmjs.com/package/fluture/v/7.1.1	N/A
-https://www.npmjs.com/package/fluture/v/7.1.2	N/A
-https://www.npmjs.com/package/fluture/v/7.1.3	N/A
+https://www.npmjs.com/package/fluture/v/0.2.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.3.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.3.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.4.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.4.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.4	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.5	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.6	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.5.7	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.0-beta1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.0-beta2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.3-beta.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.4	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.6.5	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.0.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.0.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.2.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/1.2.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/10.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/10.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/10.1.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/10.2.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/10.3.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/10.3.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/11.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/11.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/11.0.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/11.0.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.4	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.5	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.6	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.0.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.1.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.2.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.2.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.3.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/12.3.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/13.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/13.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/14.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/2.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/2.0.0-beta.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/2.0.0-beta.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/2.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/3.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/3.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/3.1.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.0.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.0.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.1.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.2.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.3.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.3.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.3.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.3.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.3.4	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/4.3.5	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/5.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.1.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.3	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.4	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.5	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.6	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.7	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.2.8	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/6.3.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/7.0.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/7.0.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/7.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/7.1.1	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/7.1.2	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/7.1.3	created	2016-03-06
 https://www.npmjs.com/package/fluture/v/7.2.0	N/A
 https://www.npmjs.com/package/fluture/v/7.2.1	N/A
 https://www.npmjs.com/package/fluture/v/7.2.2	N/A
