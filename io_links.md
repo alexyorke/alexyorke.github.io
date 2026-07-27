@@ -8,7 +8,7 @@ https://dl.acm.org/doi/abs/10.1145/130697.130699	N/A
 https://dl.acm.org/doi/abs/10.1145/1238844.1238856	N/A
 https://dl.acm.org/doi/10.1145/72551.72554	N/A
 https://dl.acm.org/doi/10.5555/647698.734146	N/A
-https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/	N/A
+https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/	publication	1993-01-01
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/	1997	publication
 https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf	N/A
 https://dl.acm.org/doi/10.1145/317765.317777	N/A
@@ -30,7 +30,7 @@ https://dl.acm.org/doi/pdf/10.1145/581690.581694	publication	2002-10-03
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf	created	2016
 https://simon.peytonjones.org/Tackling-the-awkward-squad/	2001-01-01
 https://cs.nju.edu.cn/xyfeng/teaching/FOPL/reading/awkwardSquad.pdf	N/A
-https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/	N/A
+https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/	publication	2011-07-01
 https://dl.acm.org/doi/10.1145/3331545.3342589	N/A
 https://dl.acm.org/doi/10.1145/2775050.2633368	N/A
 https://dl.acm.org/doi/10.1145/2500365.2500581	publication	2013-09-25
@@ -81,28 +81,28 @@ https://dl.acm.org/doi/10.1145/291251.289437	N/A
 https://dl.acm.org/doi/10.1145/1088348.1088353	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/hdirect.pdf	created	2016
 https://simonmar.github.io/bib/papers/vshaskell.pdf	N/A
-https://www.microsoft.com/en-us/research/publication/object-oriented-style-overloading-for-haskell/	N/A
+https://www.microsoft.com/en-us/research/publication/object-oriented-style-overloading-for-haskell/	publication	2001-09-01
 https://www.researchgate.net/publication/221241196_Experience_report_Building_an_Eclipse-based_IDE_for_Haskell	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/com.pdf	created	2016
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf	created	2016
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/overloading.pdf	created	2016
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/green-card-1.pdf	created	2016
 https://www.microsoft.com/en-us/research/publication/scripting-com-components-in-haskell/	N/A
-https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/	N/A
-https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/	N/A
+https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/	publication	1999-09-01
+https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/	publication	1997-02-14
 https://www.sciencedirect.com/science/article/pii/S1571066105805493	N/A
 https://simonmar.github.io/bib/papers/conc-ffi.pdf	N/A
 https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages	N/A
-https://link.springer.com/chapter/10.1007/11964681_12	N/A
+https://link.springer.com/chapter/10.1007/11964681_12	publication	2006-07-26
 https://dl.acm.org/doi/10.1145/1017472.1017479	N/A
 https://dl.acm.org/doi/10.5555/645772.667946	N/A
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561	N/A
 https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms	N/A
 https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH	N/A
-https://link.springer.com/chapter/10.1007/3-540-45587-6_13	N/A
+https://link.springer.com/chapter/10.1007/3-540-45587-6_13	publication	2002-07-26
 https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf	N/A
 https://dl.acm.org/doi/10.1145/871895.871898	N/A
-https://link.springer.com/chapter/10.1007/11737414_19	N/A
+https://link.springer.com/chapter/10.1007/11737414_19	publication	2006-07-26
 https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf	N/A
 https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier	N/A
 https://dl.acm.org/doi/10.1145/2976002.2976015	N/A
