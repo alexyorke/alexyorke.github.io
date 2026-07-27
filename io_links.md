@@ -110,106 +110,106 @@ https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_
 https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server	N/A
 https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz	N/A
 https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	N/A
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/server-side-web-scripting-in-haskell/F34DEFF8D123F59DB19AAF76DA5241F0
-https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf
-https://scispace.com/pdf/integrating-an-interactive-haskell-tool-with-a-web-vttntpjuo3.pdf
-https://dl.acm.org/doi/10.1145/2633357.2633367
-https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2007-008.pdf
-https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf
-https://wasp.cs.washington.edu/dynsep/transact11.pdf
-https://dl.acm.org/doi/10.1145/3677999.3678276
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf
-https://dl.acm.org/doi/10.1145/3156695.3122969
-https://www.researchgate.net/publication/320789853_A_meta-EDSL_for_distributed_web_applications
-https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105
-https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell
-https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell
-https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf
-https://dl.acm.org/doi/10.1145/581690.581696
-https://dl.acm.org/doi/10.5555/647980.743391
-https://dl.acm.org/doi/10.1145/581478.581482
-https://dl.acm.org/doi/10.1145/507635.507655
-https://dl.acm.org/doi/abs/10.1145/351268.351276
-https://dl.acm.org/doi/10.1145/1596638.1596653
-https://dl.acm.org/doi/abs/10.1145/581690.581695
-https://dl.acm.org/doi/10.1145/1160074.1159821
-https://dhil.net/research/papers/awkward_effects-ml17.pdf
-https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29
-https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11
-https://www.numdam.org/item/ITA_2002__36_2_155_0.pdf
-https://leventerkok.github.io/papers/mfix.pdf
-https://leventerkok.github.io/papers/mfixTR.pdf
-https://github.com/mjul/free-monad-interpreter-for-pascal
-https://github.com/gbogard/free-monads-from-scratch
-https://github.com/snapframework/io-streams
-https://leventerkok.github.io/papers/recdo.pdf
-https://launchbury.blog/wp-content/uploads/2019/01/semantics-of-fixio.pdf
-https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf
-https://www.research.ed.ac.uk/en/publications/a-history-of-haskell-being-lazy-with-class/
-https://dl.acm.org/doi/10.1145/1160074.1159823
-https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/
-https://wasp.cs.washington.edu/tecaml/teml.pdf
-https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf
-https://pdxscholar.library.pdx.edu/open_access_etds/1/
-https://arxiv.org/abs/1210.0611
-https://www.cs.cmu.edu/~crary/819-f09/Moggi91.pdf
-https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf
-https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-haskell.pdf
-https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-scala.pdf
-https://homepages.inf.ed.ac.uk/wadler/topics/links.html
-https://arxiv.org/abs/1207.1457
-https://arxiv.org/pdf/1901.07665
-https://dl.acm.org/doi/pdf/10.1145/2034675.2034688
-https://dl.acm.org/doi/pdf/10.1145/2505351.2505354
-https://dl.acm.org/doi/pdf/10.1145/2775050.2633373
-https://arxiv.org/pdf/1902.06590
-https://github.com/alexandersgreen/qio-agda
-https://homepages.inf.ed.ac.uk/wadler/papers/constraints/constraints.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf
-https://users.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf
-https://github.com/tweag/kernmantle
-https://github.com/lierdakil/free-monad-examples
-https://github.com/daanx/effect-bench
-https://gist.github.com/3693348
-https://www.youtube.com/watch?v=9Y-ZTTRDcp0
-https://haskell.foundation/podcast/80/
-https://haskell.foundation/podcast/77/
-https://arxiv.org/pdf/2507.10301
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/doo-bee-doo-bee-doo/DEC5F8FDABF7DE3088270E07392320DD
-https://github.com/Gabriella439/post-rfc/blob/master/sotu.md
-https://github.com/re-xyr/cleff
-https://haskell.foundation/podcast/81/
-https://arxiv.org/abs/2110.07493
-https://iris-project.org/pdfs/2026-popl-blaze.pdf
-https://steuwer.info/files/publications/2025/ICFP-Multiple-Resumptions-and-Local-Mutable-State-Directly.pdf
-https://se.cs.uni-tuebingen.de/publications/gaissert2025tracing.pdf
-https://xnning.github.io/papers/icfp24parallel.pdf
-https://dl.acm.org/doi/10.1145/3689798
-https://dl.acm.org/doi/10.1145/3677999.3678279
-https://arxiv.org/pdf/2402.03103
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796824000066
-https://dl.acm.org/doi/pdf/10.1145/3471874.3472988
-https://tomasp.net/academic/papers/malias/malias.pdf
-https://downloads.haskell.org/ghc/latest/docs/users_guide/
-https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Class.html
-https://users.cs.utah.edu/~mflatt/cs6525/monads.html
-https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-spr25-notes/notes/Managing_Effects.html
-https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful.html
-https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1.pdf
-https://github.com/metareflection/plti-class/blob/main/resources.md
-https://github.com/JarnaChao09/Koffect
-https://github.com/vic/vic
-https://iris-project.org/pdfs/2025-esop-gitrees.pdf
-https://dl.acm.org/doi/10.1145/3276481
-https://iris-project.org/pdfs/2023-esop-tes.pdf
-https://dl.acm.org/doi/10.1145/3485479
-https://github.com/danelahman/haskell-coop
-https://github.com/patrickt/patrickt.github.io/blob/develop/posts/serving-http-content-with-fused-effects.org
-https://github.com/mmenestret/fp-resources
-https://github.com/qio-haskell/qio-haskell
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F
-https://github.com/Icelandjack/Capabilities
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/server-side-web-scripting-in-haskell/F34DEFF8D123F59DB19AAF76DA5241F0	publication	2000
+https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf	N/A
+https://scispace.com/pdf/integrating-an-interactive-haskell-tool-with-a-web-vttntpjuo3.pdf	N/A
+https://dl.acm.org/doi/10.1145/2633357.2633367	N/A
+https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2007-008.pdf	N/A
+https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf	N/A
+https://wasp.cs.washington.edu/dynsep/transact11.pdf	N/A
+https://dl.acm.org/doi/10.1145/3677999.3678276	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf	N/A
+https://dl.acm.org/doi/10.1145/3156695.3122969	N/A
+https://www.researchgate.net/publication/320789853_A_meta-EDSL_for_distributed_web_applications	N/A
+https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105	N/A
+https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell	N/A
+https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell	N/A
+https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf	N/A
+https://dl.acm.org/doi/10.1145/581690.581696	N/A
+https://dl.acm.org/doi/10.5555/647980.743391	N/A
+https://dl.acm.org/doi/10.1145/581478.581482	N/A
+https://dl.acm.org/doi/10.1145/507635.507655	N/A
+https://dl.acm.org/doi/abs/10.1145/351268.351276	N/A
+https://dl.acm.org/doi/10.1145/1596638.1596653	N/A
+https://dl.acm.org/doi/abs/10.1145/581690.581695	N/A
+https://dl.acm.org/doi/10.1145/1160074.1159821	N/A
+https://dhil.net/research/papers/awkward_effects-ml17.pdf	N/A
+https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29	publication	1992
+https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11	N/A
+https://www.numdam.org/item/ITA_2002__36_2_155_0.pdf	N/A
+https://leventerkok.github.io/papers/mfix.pdf	N/A
+https://leventerkok.github.io/papers/mfixTR.pdf	N/A
+https://github.com/mjul/free-monad-interpreter-for-pascal	N/A
+https://github.com/gbogard/free-monads-from-scratch	N/A
+https://github.com/snapframework/io-streams	N/A
+https://leventerkok.github.io/papers/recdo.pdf	N/A
+https://launchbury.blog/wp-content/uploads/2019/01/semantics-of-fixio.pdf	N/A
+https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf	N/A
+https://www.research.ed.ac.uk/en/publications/a-history-of-haskell-being-lazy-with-class/	publication	2007
+https://dl.acm.org/doi/10.1145/1160074.1159823	N/A
+https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/	N/A
+https://wasp.cs.washington.edu/tecaml/teml.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf	N/A
+https://pdxscholar.library.pdx.edu/open_access_etds/1/	N/A
+https://arxiv.org/abs/1210.0611	N/A
+https://www.cs.cmu.edu/~crary/819-f09/Moggi91.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-haskell.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-scala.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/topics/links.html	N/A
+https://arxiv.org/abs/1207.1457	N/A
+https://arxiv.org/pdf/1901.07665	N/A
+https://dl.acm.org/doi/pdf/10.1145/2034675.2034688	N/A
+https://dl.acm.org/doi/pdf/10.1145/2505351.2505354	N/A
+https://dl.acm.org/doi/pdf/10.1145/2775050.2633373	N/A
+https://arxiv.org/pdf/1902.06590	N/A
+https://github.com/alexandersgreen/qio-agda	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/constraints/constraints.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf	N/A
+https://users.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf	N/A
+https://github.com/tweag/kernmantle	N/A
+https://github.com/lierdakil/free-monad-examples	N/A
+https://github.com/daanx/effect-bench	N/A
+https://gist.github.com/3693348	N/A
+https://www.youtube.com/watch?v=9Y-ZTTRDcp0	N/A
+https://haskell.foundation/podcast/80/	N/A
+https://haskell.foundation/podcast/77/	N/A
+https://arxiv.org/pdf/2507.10301	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/doo-bee-doo-bee-doo/DEC5F8FDABF7DE3088270E07392320DD	publication	2020
+https://github.com/Gabriella439/post-rfc/blob/master/sotu.md	N/A
+https://github.com/re-xyr/cleff	N/A
+https://haskell.foundation/podcast/81/	N/A
+https://arxiv.org/abs/2110.07493	N/A
+https://iris-project.org/pdfs/2026-popl-blaze.pdf	N/A
+https://steuwer.info/files/publications/2025/ICFP-Multiple-Resumptions-and-Local-Mutable-State-Directly.pdf	N/A
+https://se.cs.uni-tuebingen.de/publications/gaissert2025tracing.pdf	N/A
+https://xnning.github.io/papers/icfp24parallel.pdf	N/A
+https://dl.acm.org/doi/10.1145/3689798	N/A
+https://dl.acm.org/doi/10.1145/3677999.3678279	N/A
+https://arxiv.org/pdf/2402.03103	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796824000066	N/A
+https://dl.acm.org/doi/pdf/10.1145/3471874.3472988	N/A
+https://tomasp.net/academic/papers/malias/malias.pdf	N/A
+https://downloads.haskell.org/ghc/latest/docs/users_guide/	N/A
+https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Class.html	N/A
+https://users.cs.utah.edu/~mflatt/cs6525/monads.html	N/A
+https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-spr25-notes/notes/Managing_Effects.html	N/A
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful.html	N/A
+https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1.pdf	N/A
+https://github.com/metareflection/plti-class/blob/main/resources.md	N/A
+https://github.com/JarnaChao09/Koffect	N/A
+https://github.com/vic/vic	N/A
+https://iris-project.org/pdfs/2025-esop-gitrees.pdf	N/A
+https://dl.acm.org/doi/10.1145/3276481	N/A
+https://iris-project.org/pdfs/2023-esop-tes.pdf	N/A
+https://dl.acm.org/doi/10.1145/3485479	N/A
+https://github.com/danelahman/haskell-coop	N/A
+https://github.com/patrickt/patrickt.github.io/blob/develop/posts/serving-http-content-with-fused-effects.org	N/A
+https://github.com/mmenestret/fp-resources	N/A
+https://github.com/qio-haskell/qio-haskell	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F	publication	2020
+https://github.com/Icelandjack/Capabilities	N/A
 https://github.com/albertdahlin/elm-cli-io-monad
 https://github.com/okmij/libhandler
 https://github.com/effect-handlers/effect-handlers.github.io
