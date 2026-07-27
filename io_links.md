@@ -5511,7 +5511,7 @@ https://www.reddit.com/r/haskell/comments/hqdjem	N/A
 https://www.reddit.com/r/haskell/comments/sgt6dm	N/A
 https://www.reddit.com/r/haskell/comments/f0vejk	N/A
 https://www.reddit.com/r/haskell/comments/g7byld	N/A
-https://hackage.haskell.org/package/safer-file-handles/docs/System-IO-SaferFileHandles.html	N/A
+https://hackage.haskell.org/package/safer-file-handles/docs/System-IO-SaferFileHandles.html	created	2011-09-23
 https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/safe-haskell.html	N/A
 https://discourse.haskell.org/t/has-anyone-looked-into-monadic-regions-before/11016	publication	2024-12-13
 https://input-output-hk.github.io/io-sim/	N/A
@@ -5527,9 +5527,9 @@ https://www.reddit.com/r/ProgrammingLanguages/comments/t61av7	N/A
 https://www.reddit.com/r/haskell/comments/vorgg1	N/A
 https://www.reddit.com/r/haskell/comments/12rg4hr	N/A
 https://hackage.haskell.org/package/managed	N/A
-https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par-IO.html	N/A
-https://hackage.haskell.org/package/idris-1.2.0/src/idris-tutorial.pdf	N/A
-https://hackage.haskell.org/package/hxt-8.1.0/src/doc/thesis.pdf	N/A
+https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par-IO.html	created	2023-09-28
+https://hackage.haskell.org/package/idris-1.2.0/src/idris-tutorial.pdf	created	2018-01-07
+https://hackage.haskell.org/package/hxt-8.1.0/src/doc/thesis.pdf	created	2008-06-23
 https://www.reddit.com/r/haskell/comments/1gq6xj2	N/A
 https://www.reddit.com/r/haskell/comments/1rxog5p/just_published_monadrail_a_railwayoriented/	N/A
 https://www.reddit.com/r/haskell/comments/183h7x0	N/A
@@ -5542,18 +5542,18 @@ https://bibtex.github.io/tag/monad.html	N/A
 https://b-studios.de/functional%20programming/scala/2019/01/17/even-more-lightweight-monadic-regions.html	created	2019
 https://www.researchgate.net/publication/253417251_Compiling_Concurrency_Correctly_Cutting_Out_the_Middle_Man	N/A
 https://www.reddit.com/r/scala/comments/y6zyx9	N/A
-https://hackage.haskell.org/package/pipes-2.1.0/docs/Control-Pipe-Tutorial.html	N/A
+https://hackage.haskell.org/package/pipes-2.1.0/docs/Control-Pipe-Tutorial.html	created	2012-07-01
 https://www.sigplan.org/OpenTOC/haskell20.html	N/A
-https://hackage.haskell.org/package/pipes/docs/Pipes-Prelude.html	N/A
+https://hackage.haskell.org/package/pipes/docs/Pipes-Prelude.html	created	2021-05-07
 https://www.haskell.org/hugs/pages/libraries/unix/System-Posix-IO.html	N/A
 https://www.haskell.org/ghc/docs/7.8.2/users_guide.pdf	N/A
 https://www.reddit.com/r/haskell/comments/1tpdd97/is_a_uniform_lefttoright_piping_operator_for/	N/A
 https://www.reddit.com/r/learnprogramming/comments/rs7o1r	N/A
 https://www.reddit.com/r/haskell/comments/oguwvu	N/A
 https://www.reddit.com/r/haskellquestions/comments/ium9tm	N/A
-https://hackage.haskell.org/package/decoder-conduit/docs/Control-Monad-Trans-Resource.html	N/A
-https://hackage.haskell.org/package/streamly-0.4.0/docs/Streamly-Tutorial.html	N/A
-https://hackage.haskell.org/package/pipes-text/docs/Pipes-Text-Tutorial.html	N/A
+https://hackage.haskell.org/package/decoder-conduit/docs/Control-Monad-Trans-Resource.html	created	2013-09-27
+https://hackage.haskell.org/package/streamly-0.4.0/docs/Streamly-Tutorial.html	created	2018-07-11
+https://hackage.haskell.org/package/pipes-text/docs/Pipes-Text-Tutorial.html	created	2022-05-26
 https://www.schoolofhaskell.com/user/snoyberg/library-documentation/conduit-overview	N/A
 https://github.com/snoyberg/conduit	N/A
 https://www.scs.stanford.edu/~dm/iterIO/	N/A
@@ -5565,7 +5565,7 @@ https://www.reddit.com/r/haskell/comments/qe72nv	N/A
 https://www.reddit.com/r/haskell/comments/g8g897	N/A
 https://www.reddit.com/r/haskell/comments/yb9bi4	N/A
 https://www.reddit.com/r/haskell/comments/1g146ab	N/A
-https://hackage.haskell.org/package/reactive-banana/docs/Reactive-Banana-Frameworks.html	N/A
+https://hackage.haskell.org/package/reactive-banana/docs/Reactive-Banana-Frameworks.html	created	2023-01-22
 https://stackoverflow.com/questions/33613120/reactive-banana-1-0-0-unit-testing-in-the-momentio-monad	N/A
 https://discourse.haskell.org/t/reactimate-a-new-afrp-library/8852	publication	2024-02-20
 https://yampa-book.readthedocs.io/en/latest/intro.html	N/A
@@ -5577,15 +5577,15 @@ https://www.reddit.com/r/haskell/comments/wmhqpl	N/A
 https://www.reddit.com/r/haskell/comments/10vx1of	N/A
 https://www.reddit.com/r/haskell/comments/1jd1mw8	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/process-1.6.26.1-e91f/index.html	N/A
-https://hackage.haskell.org/package/turtle/docs/Turtle-Tutorial.html	N/A
-https://hackage.haskell.org/package/shell-monad/docs/Control-Monad-Shell.html	N/A
-https://hackage.haskell.org/package/shake-0.12/docs/Development-Shake.html	N/A
+https://hackage.haskell.org/package/turtle/docs/Turtle-Tutorial.html	created	2023-10-16
+https://hackage.haskell.org/package/shell-monad/docs/Control-Monad-Shell.html	created	2022-03-07
+https://hackage.haskell.org/package/shake-0.12/docs/Development-Shake.html	created	2014-05-09
 https://hackage.haskell.org/package/shh	N/A
-https://hackage.haskell.org/package/shake-0.19.8/docs/Development-Shake-Command.html	N/A
-https://hackage.haskell.org/package/turtle/docs/Turtle.html	N/A
-https://hackage.haskell.org/package/shake-0.13.4/docs/Development-Shake.html	N/A
+https://hackage.haskell.org/package/shake-0.19.8/docs/Development-Shake-Command.html	created	2024-01-14
+https://hackage.haskell.org/package/turtle/docs/Turtle.html	created	2023-10-16
+https://hackage.haskell.org/package/shake-0.13.4/docs/Development-Shake.html	created	2014-09-19
 https://hackage.haskell.org/package/shelly	N/A
-https://hackage.haskell.org/package/turtle/docs/Turtle-Prelude.html	N/A
+https://hackage.haskell.org/package/turtle/docs/Turtle-Prelude.html	created	2023-10-16
 https://kar.kent.ac.uk/86452/1/thesis.pdf	N/A
 https://www.haskell.org/wikiupload/4/46/Hiw2012-duncan-coutts.pdf	created	2012
 https://www.reddit.com/r/haskellquestions/comments/dhr11z	N/A
@@ -5599,7 +5599,7 @@ https://discourse.haskell.org/t/how-to-test-a-ui-made-with-frp-especially-reacti
 https://stackoverflow.com/questions/73342206/setup-custom-events-with-data-in-reactive-banana	N/A
 https://stackoverflow.com/questions/23505379/reactive-banana-glfw-event-register-example	N/A
 https://stackoverflow.com/questions/26560100/frp-frameworks-and-io	N/A
-https://hackage.haskell.org/package/netwire-1.2.4/docs/FRP-NetWire-IO.html	N/A
+https://hackage.haskell.org/package/netwire-1.2.4/docs/FRP-NetWire-IO.html	created	2011-09-11
 https://www.researchgate.net/publication/2927204_Parallel_Functional_Reactive_Programming	N/A
 https://theses.univ-orleans.fr/public/2025ORLE1052_va.pdf	created	2025
 https://nottingham-repository.worktribe.com/OutputFile/880307	N/A
@@ -5620,7 +5620,7 @@ https://www.reddit.com/r/haskell/comments/115bp3c	N/A
 https://www.reddit.com/r/haskell/comments/c0b9n3	N/A
 https://www.reddit.com/r/haskell/comments/1f0848q	N/A
 https://en.wikipedia.org/wiki/Monad_transformer	N/A
-https://hackage.haskell.org/package/control/docs/Control-Monad-Base-Control.html	N/A
+https://hackage.haskell.org/package/control/docs/Control-Monad-Base-Control.html	created	2018-08-19
 https://stackoverflow.com/questions/40008022/how-to-call-liftio-from-monadbasecontrol-io-m	N/A
 https://upload.wikimedia.org/wikiversity/en/a/ad/Monad.3.I.Transformer.20180727.pdf	N/A
 https://stackoverflow.com/questions/56868458/how-to-define-monadbasecontrol-for-a-monad-that-is-not-a-transformer	N/A
@@ -5635,7 +5635,7 @@ https://www.reddit.com/r/haskell/comments/d12zk3	N/A
 https://www.reddit.com/r/haskell/comments/101bcx9	N/A
 https://www.reddit.com/r/haskell/comments/kjb1i6	N/A
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/mtl-2.3.1-aac9/Control-Monad-Reader.html	N/A
-https://hackage.haskell.org/package/rio-0.0.3.0/docs/RIO-Prelude-RIO.html	N/A
+https://hackage.haskell.org/package/rio-0.0.3.0/docs/RIO-Prelude-RIO.html	created	2018-02-23
 https://stackoverflow.com/questions/3451546/help-with-reader-monad	N/A
 https://stackoverflow.com/questions/8159330/haskell-readert-env-io-boilerplate	N/A
 https://deepwiki.com/commercialhaskell/rio/1-overview	N/A
@@ -5672,7 +5672,7 @@ https://jyx.jyu.fi/bitstreams/c58db1cc-e5bf-4661-9166-3f7c90f01712/download	N/A
 https://www.fruct.org/files/publications/volume-26/fruct26/Cher.pdf	N/A
 https://jyx.jyu.fi/bitstreams/1ade94e2-4226-4f0b-81c8-bc59bf5b2ed9/download	N/A
 https://magnus.therning.org/archive.html	N/A
-https://hackage.haskell.org/package/iterio-server-0.2/docs	N/A
+https://hackage.haskell.org/package/iterio-server-0.2/docs	created	2012-02-10
 https://www.haskell.org/communities/05-2012/html/report.html	created	2012
 https://www.dcs.gla.ac.uk/~trinder/papers/HOSC13.pdf	N/A
 https://www.reddit.com/r/haskell/comments/17ya7jo	N/A
@@ -5683,7 +5683,7 @@ https://www.scs.stanford.edu/~dm/iterIO/doc/Data-IterIO-ListLike.html	N/A
 https://www.scs.stanford.edu/~dm/iterIO/doc/Data-IterIO-SSL.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=261f29d41b17fb6b8b90454de4e8e57fe0e6d1da&repid=rep1&type=pdf	N/A
 https://www.antonycourtney.com/pubs/frpcont.pdf	N/A
-https://hackage.haskell.org/package/Rattus-0.5.1/src/docs/paper.pdf	N/A
+https://hackage.haskell.org/package/Rattus-0.5.1/src/docs/paper.pdf	created	2023-03-13
 https://nottingham-repository.worktribe.com/output/809768/functional-reactive-programming-refactored	N/A
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/thread/TOAW4PXYAYSM6ZKM3BJL7M54E3SISDBY/	N/A
 https://publications.cispa.saarland/3079/	N/A
@@ -5701,7 +5701,7 @@ https://essay.utwente.nl/57287/1/scriptie_Rorije.pdf	N/A
 https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/cleanbook/old_book/I.1.Introduction.pdf	N/A
 https://hackage.haskell.org/package/iteratee-0.8.8.2	N/A
 https://hackage.haskell.org/package/operational	N/A
-https://hackage.haskell.org/package/operational-0.2.0.1/docs/Control-Monad-Operational.html	N/A
+https://hackage.haskell.org/package/operational-0.2.0.1/docs/Control-Monad-Operational.html	created	2010-10-27
 https://hackage-content.haskell.org/package/operational-0.2.0.0/src/docs/web/index.html	N/A
 https://link.springer.com/book/10.1007/3-540-18317-5	publication	1987
 https://link.springer.com/book/10.1007/3-540-54396-1	publication	1991
@@ -5745,9 +5745,9 @@ https://citeseerx.ist.psu.edu/document?doi=89125be7f9c222793c18b99d0644c16ff19d9
 https://citeseerx.ist.psu.edu/document?doi=ca15a20f1d89b8059903a3ee421ed8fdb4dcd40f&repid=rep1&type=pdf	N/A
 https://discourse.haskell.org/t/my-talk-functional-programming-failed-successfully-is-now-available/9725/101	publication	2024-06-25
 https://engineering.yale.edu/download_file/view/354156b2-8ad5-4d91-8b71-136fe99bb63c/431	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/docs	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/System-IO-Continuation.html	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/System-IO-Dialogue.html	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/docs	created	2022-02-13
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/System-IO-Continuation.html	created	2022-02-13
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/System-IO-Dialogue.html	created	2022-02-13
 https://www.cs.cmu.edu/~fp/courses/15312-f04/lectures/17-iomonad.pdf	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/1998/achp97-InteractFuncObjects.ps.gz	created	1998
 https://www.mbsd.cs.ru.nl/publications/papers/1999/horv99-TempPropUniqueWorld.ps.gz	created	1999
@@ -5771,7 +5771,7 @@ https://www.reddit.com/r/haskell/comments/1gjbakz	N/A
 https://blog.higher-order.com/blog/2013/11/01/free-and-yoneda/	created	2013
 https://diku-dk.github.io/ap-notes/chapter_4.html	N/A
 https://era.ed.ac.uk/bitstream/handle/1842/39747/PerivolaropoulosC_2022.pdf?isAllowed=y&sequence=3	created	2022
-https://hackage.haskell.org/package/operational/docs/Control-Monad-Operational.html	N/A
+https://hackage.haskell.org/package/operational/docs/Control-Monad-Operational.html	created	2023-02-19
 https://hackage.haskell.org/package/operational-0.2.0.3	N/A
 https://janis-voigtlaender.eu/papers/AsymptoticImprovementOfComputationsOverFreeMonads.pdf	N/A
 https://joa.sh/posts/2015-09-13-free-monad-steps.html	created	2015
@@ -5795,7 +5795,7 @@ https://www.reddit.com/r/haskell/comments/hnxnhs	N/A
 https://www.reddit.com/r/haskellquestions/comments/j98dfu	N/A
 https://www.scss.tcd.ie/publications/tech-reports/reports.06/TCD-CS-2006-19.pdf	created	2006
 https://www.sigplan.org/OpenTOC/haskell23.html	N/A
-https://hackage.haskell.org/package/free-4.2/docs/Control-Monad-Free.html	N/A
+https://hackage.haskell.org/package/free-4.2/docs/Control-Monad-Free.html	created	2013-11-01
 https://hdl.handle.net/1983/bf18fe1a-0776-4769-afaf-578c248488ca	created	1983
 https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13	N/A
 https://repositum.tuwien.at/handle/20.500.12708/192966	N/A
@@ -5818,9 +5818,9 @@ https://stackoverflow.com/questions/7370073/testing-functions-in-haskell-that-do
 https://www.reddit.com/r/haskell/comments/13y5oke	N/A
 https://www.reddit.com/r/haskell/comments/oeyaz2	N/A
 https://www.stackage.org/nightly-2024-04-01/package/HMock-0.5.1.2	created	2024
-https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful.html	N/A
-https://hackage.haskell.org/package/foundation-0.0.3/docs/Foundation-Monad.html	N/A
-https://hackage.haskell.org/package/io-sim-1.4.0.0/candidate/docs/	N/A
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful.html	created	2024-11-27
+https://hackage.haskell.org/package/foundation-0.0.3/docs/Foundation-Monad.html	created	2017-01-05
+https://hackage.haskell.org/package/io-sim-1.4.0.0/candidate/docs/	created	2024-02-02
 https://input-output-hk.github.io/io-sim/io-classes/mtl/index.html	N/A
 https://iotasks.fmi.uni-due.de/	N/A
 https://www.reddit.com/r/haskell/comments/1arpmi8	N/A
@@ -5828,7 +5828,7 @@ https://www.reddit.com/r/haskell/comments/v2mftc	N/A
 https://www.researchgate.net/publication/343782831_Describing_Console_IO_Behavior_for_Testing_Student_Submissions_in_Haskell	N/A
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2021.6.pdf=	created	2021
 https://hackage.haskell.org/package/mockcat-0.5.0.0	N/A
-https://hackage.haskell.org/package/monad-mock/docs	N/A
+https://hackage.haskell.org/package/monad-mock/docs	created	2017-09-14
 https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/System-FS-Sim-MockFS.html	N/A
 https://hackage-search.serokell.io/viewfile/HMock-0.5.1.0/test/Demo.hs	N/A
 https://www.haskell.org/communities/11-2016/report.pdf	created	2016
@@ -5844,8 +5844,8 @@ https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/ghc/src/GhcMonad.ht
 https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
 https://downloads.haskell.org/ghc/9.2.4/docs/users_guide.pdf	N/A
 https://downloads.haskell.org/ghc/9.4.1-alpha1/docs/users_guide.pdf	N/A
-https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20250103/docs/GHC-Utils-Monad.html	N/A
-https://hackage.haskell.org/package/ghc-prim/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20250103/docs/GHC-Utils-Monad.html	created	2025-01-03
+https://hackage.haskell.org/package/ghc-prim/docs/GHC-Prim.html	created	2024-12-16
 https://www.reddit.com/r/haskell/comments/h9pk46	N/A
 https://www.reddit.com/r/haskell/comments/i5jiuh	N/A
 https://xmonad.github.io/xmonad-docs/base-4.16.4.0/src/Data.IORef.html	N/A
