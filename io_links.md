@@ -3993,7 +3993,7 @@ https://kcsrk.info/papers/caml-eff17.pdf	N/A
 https://koka-lang.github.io/koka/doc/book.html	N/A
 https://hasura.github.io/eff/	N/A
 https://cambium.inria.fr/~fpottier/publis/de-vilhena-pottier-tes.pdf	N/A
-https://dl.acm.org/doi/abs/10.1145/3428194	N/A
+https://dl.acm.org/doi/abs/10.1145/3428194	publication	2020-11-13
 https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?hl=pt-BR&id=wSkRAAAAQBAJ	N/A
 https://openlibrary.org/books/OL36714046M/Parallel_and_Concurrent_Programming_in_Haskell	N/A
 https://search.worldcat.org/title/Parallel-and-concurrent-programming-in-Haskell/oclc/858949384	N/A
@@ -4352,7 +4352,7 @@ https://dl.acm.org/doi/10.1145/3331545.3342592	publication	2019-08-08
 https://dl.acm.org/doi/10.1145/3236784	publication	2018-07-30
 https://link.springer.com/content/pdf/10.1007/978-3-319-95582-7_20.pdf	N/A
 https://dl.acm.org/doi/10.1145/3434307	publication	2021-01-04
-https://dl.acm.org/doi/pdf/10.1145/3434307	N/A
+https://dl.acm.org/doi/pdf/10.1145/3434307	publication	2021-01-04
 https://www.cis.upenn.edu/~stevez/papers/SZ21.pdf	N/A
 https://dl.acm.org/do/10.5281/zenodo.4284088/full	N/A
 https://github.com/effect-handlers/effects-rosetta-stone	N/A
@@ -4584,7 +4584,7 @@ https://stackoverflow.com/questions/74777875/getting-i-o-in-a-functional-program
 https://dorophone.blogspot.fr/2011/11/understanding-haskell-io-monad.html	created	2011
 https://solariar.net/notes/fp_side_effect.html	publication	2023-03-13
 https://profgra.org/lycee/presentation_Haskell_IO.html	N/A
-https://dl.acm.org/doi/pdf/10.1145/319838.319876	N/A
+https://dl.acm.org/doi/pdf/10.1145/319838.319876	publication	1986
 https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handled-in-a-pure-functional-language-besides-with	N/A
 https://stackoverflow.com/questions/9819578/whats-the-meaning-of-io-actions-within-pure-functions	N/A
 https://stackoverflow.com/questions/1675366/a-haskell-function-of-type-io-string-string	N/A
@@ -4596,9 +4596,9 @@ https://stackoverflow.com/questions/25151406/how-to-break-io-action-in-haskell	N
 https://stackoverflow.com/questions/44722277/what-is-the-io-haskell-monad-equivalent-in-scala-standard-api	N/A
 https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbibH.html	N/A
 https://cstheory.stackexchange.com/questions/14482/resumption-based-io-systems	N/A
-https://doi.org/10.1002/spe.4380250105	N/A
+https://doi.org/10.1002/spe.4380250105	publication	1995-01
 https://www.researchgate.net/publication/259502342_An_Ontology_of_States	N/A
-https://doi.org/10.1007/978-3-642-40355-2_3	N/A
+https://doi.org/10.1007/978-3-642-40355-2_3	publication	2013
 https://arxiv.org/abs/2306.12313	N/A
 https://raw.githubusercontent.com/marvinborner/optimal-effects/refs/heads/bachelor/thesis.pdf	N/A
 https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/84c68445f9e56160874e6e2f0c3dccc6322fa782/haskell/tackling-the-awkward-squad-monadic-input-output-concurrency-exceptions-and-foreign-language-calls-in-haskell.pdf	N/A
@@ -4696,7 +4696,7 @@ https://www.researchgate.net/publication/230607110_Concurrent_Clean_language_rep
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf	created	2012
 https://www.microsoft.com/en-us/research/wp-content/uploads/2009/09/ghc-parallel-tuning2.pdf	created	2009
 https://www.researchgate.net/publication/2328165_Distributed_Programming_in_Haskell_with_Ports	N/A
-https://link.springer.com/chapter/10.1007/3-540-45361-X_4	N/A
+https://link.springer.com/chapter/10.1007/3-540-45361-X_4	publication	2001
 https://www.researchgate.net/publication/245733263_Composable_Memory_Transactions_in_Concurrent_Haskell	N/A
 https://www.researchgate.net/publication/221600494_The_Design_and_Implementation_of_Glasgow_Distributed_Haskell	N/A
 https://www.cs.kent.ac.uk/projects/ofa/chp/tutorial.pdf	N/A
@@ -4708,7 +4708,7 @@ https://twistedsquare.com/CHP-Models.pdf	N/A
 https://www.researchgate.net/publication/221004376_Communicating_Haskell_Processes_Composable_Explicit_Concurrency_Using_Monads	N/A
 https://books.google.com/books/about/Functional_Design_and_Architecture.html?id=MB8kEQAAQBAJ	N/A
 https://books.google.com/books?hl=en&id=CGJjQgAACAAJ	N/A
-https://dl.acm.org/doi/10.1145/3141858.3141863	N/A
+https://dl.acm.org/doi/10.1145/3141858.3141863	publication	2017-10-23
 https://upload.wikimedia.org/wikiversity/en/d/df/MP3.2A.IO.Basic.20191019.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org	N/A
 https://upload.wikimedia.org/wikiversity/en/0/0c/MP2.1A.STrans.Basic.20191002.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org	N/A
 https://upload.wikimedia.org/wikiversity/en/6/6e/Monad.P1.1A.SideEffect.20190316.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org	N/A
@@ -4732,8 +4732,8 @@ https://citeseerx.ist.psu.edu/document?doi=3904dbf767882ed7084246fc96c168120bbdf
 https://citeseerx.ist.psu.edu/document?doi=401137c07d49c1d807ab65bcc0d6bf019c4307f8&repid=rep1&type=pdf	N/A
 https://eudml.org/doc/92695	N/A
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Implementation%20of%20Functional%20Languages%2C%2013%20conf.%2C%20IFL%202002%20Stockholm%28LNCS2312%2C%20Springer%2C%202002%29%28ISBN%203540435379%29%28193s%29.pdf	created	2013
-https://doi.org/10.1007/3-540-44854-3_5	N/A
-https://doi.org/10.1007/978-3-642-32096-5_3	N/A
+https://doi.org/10.1007/3-540-44854-3_5	publication	2003
+https://doi.org/10.1007/978-3-642-32096-5_3	publication	2012
 https://plc.inf.elte.hu/cefp/brochure_cefp2011.pdf	created	2011
 https://plc.inf.elte.hu/cefp/programme.html	N/A
 https://studylib.net/doc/28212125/haskell	N/A
@@ -4768,10 +4768,10 @@ https://github.com/noughtmare/free-io	N/A
 https://effect-handlers.org/	N/A
 https://resolve.cambridge.org/core/journals/journal-of-functional-programming/article/from-high-to-low-simulating-nondeterminism-and-state-with-state/190FBF349B0D32D56992C566CDBF5ED5	publication	2024-01
 https://research-information.bris.ac.uk/en/publications/effect-handlers-for-programmable-inference/	publication	2023-08-31
-https://doi.org/10.1145/3609026.3609729	N/A
+https://doi.org/10.1145/3609026.3609729	publication	2023-08-30
 https://ps.informatik.uni-tuebingen.de/publications/brachthaeuser19effekt-revision.pdf	N/A
 https://anil.recoil.org/papers/2017-tfp-effecthandlers.pdf	created	2017
-https://link.springer.com/chapter/10.1007/978-3-319-89719-6_6	N/A
+https://link.springer.com/chapter/10.1007/978-3-319-89719-6_6	publication	2018
 https://doi.org/10.1007/978-3-319-89719-6_6	N/A
 https://github.com/b-studios/scala-effekt/tree/jfp	N/A
 https://arxiv.org/pdf/2203.15426	N/A
@@ -4791,7 +4791,7 @@ https://github.com/soupi/haskell-study-plan/blob/master/README.org#what-is-io	N/
 https://eprints.nottingham.ac.uk/11457/	N/A
 https://repositorio.uchile.cl/handle/2250/139232	N/A
 https://upapers.dcc.uchile.cl/index/publications/view_pdf/306805	N/A
-https://link.springer.com/book/10.1007/978-3-319-11863-5	N/A
+https://link.springer.com/book/10.1007/978-3-319-11863-5	publication	2014
 https://collaborate.princeton.edu/en/publications/building-secure-systems-with-lio-demo/	publication	2014
 https://www.researchgate.net/publication/253303178_The_Quantum_IO_Monad	N/A
 https://pure.york.ac.uk/portal/en/publications/a-space-semantics-for-core-haskell/	publication	2001
@@ -4813,7 +4813,7 @@ https://www.sciweavers.org/publications/space-semantics-core-haskell	N/A
 https://exchangetuts.com/in-what-sense-is-the-io-monad-pure-1639587190510803	N/A
 https://www.sambuz.com/doc/building-secure-systems-with-lio-ppt-presentation-897594	N/A
 https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-IO-Class.html	N/A
-https://doi.org/10.1145/1596550.1596561	N/A
+https://doi.org/10.1145/1596550.1596561	publication	2009-08-31
 https://wiki.clean.cs.ru.nl/Publications	N/A
 https://www.cs.cornell.edu/people/fluet/research/tx-events/CS257/cs257.pdf	N/A
 https://leventerkok.github.io/papers/tiaFixIO.pdf	N/A
@@ -4850,8 +4850,8 @@ https://www.altocumulus.org/Fudgets/fudgets-fpca93.html	N/A
 https://www.altocumulus.org/Fudgets/Manual/current/XEvent.html	N/A
 https://stackoverflow.com/questions/3850368/how-do-functional-languages-model-side-effects?noredirect=1	N/A
 https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf	N/A
-https://doi.org/10.1093/comjnl/31.3.243	N/A
-https://doi.org/10.1007/3-540-17945-3_3	N/A
+https://doi.org/10.1093/comjnl/31.3.243	publication	1988-03-01
+https://doi.org/10.1007/3-540-17945-3_3	publication	1987
 https://dblp.org/rec/journals/ipl/Dwelly88	N/A
 https://citeseerx.ist.psu.edu/document?doi=e6bc44fbba2a6ebc8a3af0069bde561e5b6b0653&repid=rep1&type=pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=e0abbe5826666753560fe6d0a021b8ec04d50e9b&repid=rep1&type=pdf	N/A
@@ -4918,7 +4918,7 @@ https://hrjiang.github.io/teaching/fopl/2021/06_ioMonad.pdf	created	2021
 https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-IO-4sw.pdf	created	2021
 https://ppig.org/files/2022-PPIG-33rd--proceedings.pdf	created	2022
 https://speakerdeck.com/defworkshop/haskell-workshop-haskell-io	N/A
-https://dl.acm.org/doi/pdf/10.1145/606666.606670	N/A
+https://dl.acm.org/doi/pdf/10.1145/606666.606670	publication	1999-06
 https://core.ac.uk/download/pdf/16195531.pdf	N/A
 https://abhiroop.github.io/pubs/hailstorm.pdf	N/A
 https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_11.htm	N/A
@@ -4982,13 +4982,13 @@ https://www.haskell.org/communities/11-2004/report.pdf	created	2004
 https://ntrs.nasa.gov/api/citations/20230006308/downloads/papers-2023-haskellsym-reactivity-v2.pdf?attachment=true	created	2023
 https://types22.inria.fr/files/2022/06/TYPES_2022_paper_32.pdf	created	2022
 https://hackage.haskell.org/package/dunai	N/A
-https://dl.acm.org/doi/10.1145/3241625.2976010	N/A
+https://dl.acm.org/doi/10.1145/3241625.2976010	publication	2018-07-19
 https://hackage.haskell.org/package/lazy-io	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2009-January/052803.html	created	2009
 https://darcs.realworldhaskell.org/static/00book.pdf	N/A
-https://doi.org/10.1145/1160074.1159823	N/A
+https://doi.org/10.1145/1160074.1159823	publication	2006-09-16
 https://www.researchgate.net/publication/2561031_Monads_and_Effects_revised	N/A
-https://doi.org/10.1007/3-540-48515-5_5	N/A
+https://doi.org/10.1007/3-540-48515-5_5	publication	1999
 https://hackage.haskell.org/package/io-streams	N/A
 https://packages.debian.org/source/trixie/misc/haskell-io-streams	N/A
 https://citeseerx.ist.psu.edu/document?doi=842d83f195d7c5e9d2923b1170457f7e228b6974&repid=rep1&type=pdf	N/A
@@ -5034,7 +5034,7 @@ https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Time
 https://webspace.science.uu.nl/~swier004/publications/2007-haskell.pdf	created	2007
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/7-basic-inputoutput/43840B587166A4609773DA629DD318CD	publication	2003-01
 https://simon.peytonjones.org/history-of-haskell/	publication	2007-06-01
-https://dl.acm.org/doi/pdf/10.1145/1238844.1238856	N/A
+https://dl.acm.org/doi/pdf/10.1145/1238844.1238856	publication	2007-06-09
 https://users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf	created	2009
 https://www.microsoft.com/en-us/research/?p=321704	N/A
 https://www.sciencedirect.com/chapter/edited-volume/abs/pii/B9780444881359500097	N/A
@@ -5096,7 +5096,7 @@ https://btu.edu.ge/wp-content/uploads/2023/10/Lesson-10_-Advanced-Haskell-Concep
 https://arxiv.org/abs/2011.03463	created	2011
 https://docs.idris-lang.org/en/latest/tutorial/interfaces.html	N/A
 https://app.readthedocs.org/projects/idris/downloads/pdf/v0.10/	N/A
-https://doi.org/10.1145/143165.143169	N/A
+https://doi.org/10.1145/143165.143169	publication	1992
 https://www.sciencedirect.com/science/article/pii/S1571066105000368	N/A
 https://www.researchgate.net/publication/313374522_Interactive_programming_in_Agda_-_Objects_and_graphical_user_interfaces	N/A
 https://downloads.haskell.org/~ghc/5.04.2/docs/html/base/System.IO.Unsafe.html	N/A
@@ -5703,8 +5703,8 @@ https://hackage.haskell.org/package/iteratee-0.8.8.2	N/A
 https://hackage.haskell.org/package/operational	N/A
 https://hackage.haskell.org/package/operational-0.2.0.1/docs/Control-Monad-Operational.html	N/A
 https://hackage-content.haskell.org/package/operational-0.2.0.0/src/docs/web/index.html	N/A
-https://link.springer.com/book/10.1007/3-540-18317-5	N/A
-https://link.springer.com/book/10.1007/3-540-54396-1	N/A
+https://link.springer.com/book/10.1007/3-540-18317-5	publication	1987
+https://link.springer.com/book/10.1007/3-540-54396-1	publication	1991
 https://link.springer.com/content/pdf/bfm%3A978-1-4471-3215-8/1	N/A
 https://stackoverflow.com/questions/2158050/what-are-the-alternative-of-monads-to-use-io-in-pure-functional-programming?noredirect=1	N/A
 https://theory.stanford.edu/~aiken/publications/trs/RJ7100.pdf	N/A
@@ -5941,8 +5941,8 @@ https://hackage.haskell.org/package/Agda-2.3.2.2/docs/Agda-Interaction-Response.
 https://hackage.haskell.org/package/monad-resumption/docs/Control-Monad-Resumption.html	N/A
 https://hackage.haskell.org/package/transformers-free/docs/Control-Monad-Trans-Free.html	N/A
 https://hackage-content.haskell.org/package/Agda-2.8.0/docs/src/Agda.Interaction.AgdaTop.html	N/A
-https://link.springer.com/book/10.1007/11784180	N/A
-https://link.springer.com/chapter/10.1007/11784180_14	N/A
+https://link.springer.com/book/10.1007/11784180	publication	2006
+https://link.springer.com/chapter/10.1007/11784180_14	publication	2006
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2001/3/	created	2001
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/message/BL2AGLEIXPPIQKT7RU23PTD222SDSIZI/	N/A
 https://nottingham-repository.worktribe.com/preview/878133/monadic_continuity_LICS2017.pdf	created	2017
@@ -6156,7 +6156,7 @@ https://arxiv.org/abs/2503.06162	N/A
 https://arxiv.org/abs/2510.23517	N/A
 https://book.realworldhaskell.org/read/error-handling.html	N/A
 https://boyang.cs.uwm.edu/publication/rebls2020.pdf	created	2020
-https://doi.org/10.1145/3158093	N/A
+https://doi.org/10.1145/3158093	publication	2018-01
 https://downloads.haskell.org/~ghc/5.02.1/docs/set/sec-exception.html	N/A
 https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/base/Control-Exception.html	N/A
 https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/Control-Exception.html	N/A
@@ -6211,7 +6211,7 @@ https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.html	N/A
 https://dblp.org/rec/conf/fpca/Gordon93	N/A
 https://discovery.ucl.ac.uk/10102879/1/Developing_and_measuring_paral.pdf	N/A
 https://doi.org/10.1017/S0956796800001258	publication	1995-01
-https://doi.org/10.1145/165180.165199	N/A
+https://doi.org/10.1145/165180.165199	publication	1993-07
 https://libris.kb.se/bib/5022151	N/A
 https://mail.haskell.org/pipermail/libraries/2001-August/000482.html	created	2001
 https://mschaef.com/concrete-control-flow	N/A
@@ -6269,7 +6269,7 @@ https://dhil.net/research/talks/aeio-2017-06.pdf	created	2017
 https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf%3B	N/A
 https://discourse.haskell.org/t/how-to-capture-io/8128	publication	2023-11-16
 https://doc.flix.dev/effects-and-handlers.html	N/A
-https://doi.org/10.1145/1291201.1291206	N/A
+https://doi.org/10.1145/1291201.1291206	publication	2007-09-30
 https://doi.org/10.1145/3141858.3141863	N/A
 https://doi.org/10.17863/CAM.30603	publication	2018
 https://doi.org/10.4230/DARTS.6.2.7	N/A
@@ -7034,7 +7034,7 @@ https://stackoverflow.com/questions/10518049/ensuring-files-are-closed-promptly?
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/thread/RCZN5WZOLVJYCKBNUTJSBPAGJZY3KYMU/	N/A
 https://stackoverflow.com/questions/3788853/what-makes-iteratees-worth-the-complexity	N/A
 https://en.wikipedia.org/wiki/Snap_%28web_framework%29	N/A
-https://doi.org/10.1145/3331545.3342601	N/A
+https://doi.org/10.1145/3331545.3342601	publication	2019-08-08
 https://citeseerx.ist.psu.edu/document?doi=18a5f56fe79cabd85375428c8c09adbe6d30b125&repid=rep1&type=pdf	N/A
 https://www.sciencedirect.com/science/article/pii/S0167642302000886	N/A
 https://ir.cwi.nl/pub/22007	publication	2013-10-01
