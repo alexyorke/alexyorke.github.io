@@ -4895,9 +4895,9 @@ https://www.dantb.dev/files/dissertation.pdf	N/A
 https://www.utupub.fi/server/api/core/bitstreams/af1b5139-b1a4-4197-83e7-80e4c8b03bef/content	N/A
 https://webspace.science.uu.nl/~swier004/publications/2010-hosc.pdf	created	2010
 https://webspace.science.uu.nl/~swier004/publications/2008-tfp.pdf	created	2008
-https://docs.rs/higher/latest/higher/io/enum.IO.html	N/A
+https://docs.rs/higher/latest/higher/io/enum.IO.html	published	2023-01-18
 https://clojure.github.io/clojure-contrib/	N/A
-https://docs.rs/rustica/latest/rustica/datatypes/index.html	N/A
+https://docs.rs/rustica/latest/rustica/datatypes/index.html	published	2026-04-04
 https://clojurepatterns.com/1/12/9/	N/A
 https://www.nuget.org/packages/FSharp.FIO	N/A
 https://cljdoc.org/d/pure-io/pure-io/0.1.0	N/A
@@ -5970,7 +5970,7 @@ https://www.researchgate.net/publication/396542082_HITrees_Higher-Order_Interact
 https://book.purescript.org/chapter10.html	N/A
 https://cseweb.ucsd.edu/classes/wi11/cse230/lectures/monads.html	N/A
 https://dblp.org/pid/83/2290	N/A
-https://docs.rs/crate/effect-monad/latest	N/A
+https://docs.rs/crate/effect-monad/latest	published	2015-12-17
 https://foldoc.org/Haskell	N/A
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120414092148%21Haskell.pdf	N/A
 https://hackage.haskell.org/package/hashtables/docs/Data-HashTable-IO.html	created	2025-01-23
@@ -9788,7 +9788,7 @@ https://dev-radar.com/articles/2023/08/09/comparing-cats-effect-and-zio%3A-scala
 https://nicf.net/static/mc2012/5in10.pdf	created	2012
 https://github.com/typelevel/cats-effect/discussions/4221	N/A
 ## Haskell-style IO monads in F#, TypeScript, and Rust
-https://docs.rs/rust_io/latest/rust_io/	N/A
+https://docs.rs/rust_io/latest/rust_io/	published	2023-06-10
 https://www.fssnip.net/6i/title/Tiny-IO-Monad	N/A
 https://gcanti.github.io/fp-ts/guides/do-notation.html	N/A
 https://gcanti.github.io/fp-ts/modules/IO.ts.html	N/A
@@ -10620,18 +10620,18 @@ https://www.vailtech.net/sites/default/files/JS_Functional-Programming-in-JavaSc
 https://opendal.apache.org/docs/bindings/haskell/	N/A
 https://serokell.io/blog/rust-for-haskellers	N/A
 https://ocaml.org/p/eio/0.13	N/A
-https://docs.rs/rsmonad	N/A
+https://docs.rs/rsmonad	published	2023-05-25
 https://ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html	N/A
-https://docs.rs/crate/rsmonad/0.2.4	N/A
+https://docs.rs/crate/rsmonad/0.2.4	published	2023-05-25
 https://www.munksgaard.me/papers/munksgaard-laumann-thesis.pdf	N/A
-https://docs.rs/higher/latest/higher/trait.Monad.html	N/A
-https://docs.rs/higher/latest/higher/	N/A
-https://docs.rs/higher/latest/higher/macro.run.html	N/A
-https://docs.rs/monadic	N/A
-https://docs.rs/higher/latest/higher/all.html	N/A
-https://docs.rs/higher-free-macro	N/A
-https://docs.rs/rsmonad/latest/rsmonad/	N/A
-https://docs.rs/higher/latest/src/higher/lib.rs.html	N/A
+https://docs.rs/higher/latest/higher/trait.Monad.html	published	2023-01-18
+https://docs.rs/higher/latest/higher/	published	2023-01-18
+https://docs.rs/higher/latest/higher/macro.run.html	published	2023-01-18
+https://docs.rs/monadic	published	2019-12-29
+https://docs.rs/higher/latest/higher/all.html	published	2023-01-18
+https://docs.rs/higher-free-macro	published	2025-08-31
+https://docs.rs/rsmonad/latest/rsmonad/	published	2023-05-25
+https://docs.rs/higher/latest/src/higher/lib.rs.html	published	2023-01-18
 https://languageext.readthedocs.io/en/latest/README.html	N/A
 https://docs.vavr.io/	N/A
 https://www.oreilly.com/library/view/learning-java-functional/9781783558483/ch06s02.html	N/A
@@ -11082,8 +11082,8 @@ https://iosexample.com/bow-a-cross-platform-library-for-typed-functional-program
 https://apple-swift.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://people.freebsd.org/~pgj/haskell/afp-arrows.pdf	N/A
 https://mmhaskell.com/blog/2017/2/13/finally-understanding-monads-part-1	created	2017
-https://docs.rs/do-notation/latest/do_notation/	N/A
-https://docs.rs/crate/rsmonad-macros/0.1.2/source/README.md	N/A
+https://docs.rs/do-notation/latest/do_notation/	published	2021-01-08
+https://docs.rs/crate/rsmonad-macros/0.1.2/source/README.md	published	2023-05-19
 https://cnds.constructor.university/courses/ics-2022/hs-notes.pdf	created	2022
 https://pub.dev/documentation/dartz/latest/	N/A
 https://pub.dev/packages/fpdart	N/A
@@ -14300,14 +14300,14 @@ https://hackage.haskell.org/package/fwgl/docs/FWGL.html	created	2015-09-06
 https://pkg.go.dev/github.com/IBM/fp-go/v2/io	N/A
 https://timwspence.github.io/blog/posts/2020-11-22-polymorphic-effects-in-scala.html	created	2020
 https://index.scala-lang.org/fwbrasil/quill	N/A
-https://docs.rs/higher/latest/higher/io/index.html	N/A
+https://docs.rs/higher/latest/higher/io/index.html	published	2023-01-18
 https://docs.scala-lang.org/overviews/scala-book/pure-functions.html	N/A
-https://docs.rs/crate/deep_causality_file/0.1.2	N/A
+https://docs.rs/crate/deep_causality_file/0.1.2	published	2026-07-08
 https://pkg.go.dev/github.com/denisdubochevalier/monad	N/A
-https://docs.rs/x-pipe-rs/latest/x_pipe_rs/	N/A
+https://docs.rs/x-pipe-rs/latest/x_pipe_rs/	published	2026-03-30
 https://pkg.go.dev/github.com/fogfish/gurl/v2	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioref	N/A
-https://docs.rs/crate/terminal-juice/0.1.1	N/A
+https://docs.rs/crate/terminal-juice/0.1.1	published	2023-08-15
 https://pkg.go.dev/github.com/IBM/fp-go/v2/idiomatic/ioresult	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/ioref	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/iterator/iter	N/A
@@ -14390,10 +14390,10 @@ https://www.reddit.com/r/functionalprogramming/comments/qwvo9x/im_learning_monad
 https://stackoverflow.com/questions/5448162/c-monad-library	N/A
 https://www.reddit.com/r/cpp/comments/xj3av6/monads_are_part_of_c_and_are_in_your_code/	N/A
 https://bartoszmilewski.com/2014/10/17/c-ranges-are-pure-monadic-goodness/	publication	2014-10-17
-https://docs.rs/higher/latest/src/higher/io.rs.html	N/A
+https://docs.rs/higher/latest/src/higher/io.rs.html	published	2023-01-18
 https://www.reddit.com/r/scala/comments/1u0m2u4/i_made_a_simple_implementation_of_ce_inside_rust/	N/A
 https://stackoverflow.com/questions/77935130/does-rust-has-a-data-type-for-encoding-side-effects-as-pure-values	N/A
-https://docs.rs/hs-bindgen	N/A
+https://docs.rs/hs-bindgen	published	2023-12-06
 https://independent.academia.edu/ASetzer	N/A
 https://www.cs.uoregon.edu/research/summerschool/summer22/topics.php	N/A
 https://independent.academia.edu/AntonSetzer	N/A
@@ -14441,10 +14441,10 @@ https://www.nuget.org/packages/FSharp.FIO.Http	N/A
 https://www.nuget.org/packages/FSharp.FIO.PostgreSQL	N/A
 https://www.nuget.org/packages/FSharp.FIO.Sockets	N/A
 https://www.nuget.org/packages/FSharp.FIO.WebSockets	N/A
-https://docs.rs/crate/deep_causality_file/0.1.2/source/	N/A
-https://docs.rs/crate/leo3/0.1.2	N/A
-https://docs.rs/crate/deep_causality_file/0.1.2/features	N/A
-https://docs.rs/crate/opendal/latest/source/CHANGELOG.md	N/A
+https://docs.rs/crate/deep_causality_file/0.1.2/source/	published	2026-07-08
+https://docs.rs/crate/leo3/0.1.2	published	2025-12-10
+https://docs.rs/crate/deep_causality_file/0.1.2/features	published	2026-07-08
+https://docs.rs/crate/opendal/latest/source/CHANGELOG.md	published	2026-06-01
 https://docs.idris-lang.org/en/latest/reference/repl.html	modified	2023-03-04
 https://www.gitlink.org.cn/dnrops/funswift	N/A
 https://tessl.io/registry/tessl/maven-org-typelevel--cats-effect_2-12/3.6.0/files/docs/core-io.md	N/A
@@ -30437,7 +30437,7 @@ https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Petricek%20T.%2C%20Skeet%20
 https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-ohad-thesis.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=83c485e220deb2d16e074decc212385ddb21632a&repid=rep1&type=pdf	N/A
 https://www.researchgate.net/publication/220977083_Monad-Based_Logics_for_Computational_Effects	N/A
-https://docs.rs/corophage	N/A
+https://docs.rs/corophage	published	2026-07-26
 https://infoscience.epfl.ch/bitstreams/00d8a37e-e74f-48a1-b144-c8e0798110f2/download	N/A
 https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html	N/A
 https://yangzhixuan.github.io/pdf/yang-thesis.pdf	N/A
@@ -30794,19 +30794,19 @@ https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/17928/Christ
 https://downloads.haskell.org/ghc/6.0/docs/html/base/System.IO.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/6.10.4/docs/html/libraries/haskell98/IO.html	modified	2019-02-15
 https://ivanperez.io/papers/2016-HaskellSymposium-Perez-Barenz-Nilsson-FRPRefactored-short.pdf	created	2016
-https://docs.rs/futures/latest/futures/io/index.html	N/A
-https://docs.rs/async-trait/latest/async_trait/	N/A
-https://docs.rs/effective	N/A
+https://docs.rs/futures/latest/futures/io/index.html	published	2026-07-18
+https://docs.rs/async-trait/latest/async_trait/	published	2026-07-18
+https://docs.rs/effective	published	2023-03-18
 https://rust-lang.github.io/async-book/07_workarounds/05_async_in_traits.html	N/A
 https://doc.rust-lang.org/stable/book/ch17-01-futures-and-syntax.html	N/A
 https://github.com/bytedance/monoio	updated	2026-05-29
-https://docs.rs/rustica/latest/rustica/datatypes/async_monad/index.html	N/A
-https://docs.rs/crate/functype-io/0.1.1	N/A
+https://docs.rs/rustica/latest/rustica/datatypes/async_monad/index.html	published	2026-04-04
+https://docs.rs/crate/functype-io/0.1.1	published	2026-02-25
 https://rust-lang.github.io/async-book/part-guide/async-await.html	N/A
 https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137?type=print	N/A
 https://artur-sulej.github.io/rust-ebooks/async-book.pdf	N/A
 https://era.ed.ac.uk/items/14fd5200-9779-434c-b9c2-4a367cbeac9b	publication	2014-06-27
-https://docs.rs/crate/eff/latest	N/A
+https://docs.rs/crate/eff/latest	published	2019-11-09
 https://www.logic.cs.tsukuba.ac.jp/~sat/pdf/tfp2020-postsymposium.pdf	created	2020
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf	created	2016
 https://hackage.haskell.org/package/system-fileio-0.2/docs/System-File.html	N/A
@@ -31994,12 +31994,12 @@ https://pursuit.purescript.org/packages/purescript-random/docs/Effect.Random	N/A
 https://pursuit.purescript.org/packages/purescript-avar/docs/Control.AVar	N/A
 https://github.com/slamdata/purescript-io	updated	2018-08-02
 https://github.com/purescript/purescript-aff/blob/master/README.md	N/A
-https://docs.rs/crate/effect-rs/latest/source/README.md	N/A
-https://docs.rs/stillwater/latest/stillwater/	N/A
-https://docs.rs/effectful/latest/effectful/kernel/reader/index.html	N/A
-https://docs.rs/deep_causality_file/latest/deep_causality_file/	N/A
-https://docs.rs/functype/latest/functype/	N/A
-https://docs.rs/functype-io/latest/functype_io/	N/A
+https://docs.rs/crate/effect-rs/latest/source/README.md	published	2026-01-10
+https://docs.rs/stillwater/latest/stillwater/	published	2026-05-23
+https://docs.rs/effectful/latest/effectful/kernel/reader/index.html	published	2026-04-29
+https://docs.rs/deep_causality_file/latest/deep_causality_file/	published	2026-07-14
+https://docs.rs/functype/latest/functype/	published	2026-02-25
+https://docs.rs/functype-io/latest/functype_io/	published	2026-02-25
 https://repository.tudelft.nl/file/File_48b620db-13e0-4102-960e-a5e6272b7843?preview=1	N/A
 https://atnos-org.github.io/eff/org.atnos.site.Installation.html	N/A
 https://fstar-lang.org/tutorial/book/part4/part4.html	N/A
@@ -32196,7 +32196,7 @@ https://okmij.org/ftp/continuations/Eff/caml-eff.pdf	N/A
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasyncbuilder.html	N/A
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-asyncprimitives.html	N/A
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control.html	N/A
-https://docs.rs/effect-monad/latest	N/A
+https://docs.rs/effect-monad/latest	published	2015-12-17
 https://doc.rust-lang.org/std/future/index.html	N/A
 https://doc.rust-lang.org/core/io/index.html	N/A
 https://docs.python.org/3/library/io.html?highlight=bytesio	N/A
@@ -32261,7 +32261,7 @@ https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.12/1.2.0/cats/e
 https://javadoc.io/static/org.typelevel/cats-effect_sjs1_2.13/2.3.2/cats/effect/Effect.html	N/A
 https://resources.jetbrains.com/storage/products/kotlinconf-2023/Arrow%27s%202.0%20Trajectory.pdf	created	2023
 https://old.arrow-kt.io/docs/patterns/monads	N/A
-https://docs.rs/rust_io	N/A
+https://docs.rs/rust_io	published	2023-06-10
 https://dev-doc.rust-lang.org/std/io/index.html	N/A
 https://lean-lang.org/functional_programming_in_lean/Monads/do--Notation-for-Monads/	N/A
 https://docs.lean-lang.org/functional_programming_in_lean/Monads/The-Monad-Type-Class/	N/A
@@ -32377,11 +32377,11 @@ https://open-awesome.com/projects/missionary	N/A
 https://livebook.manning.com/book/functional-programming-with-kotlin/chapter-13	N/A
 https://samuelzhaoy.github.io/bow-swift/	N/A
 https://openaccess.inaf.it/bitstreams/54e360dd-89fe-48d0-8fd8-d2b7ba1afc51/download	N/A
-https://docs.rs/higher	N/A
-https://docs.rs/higher/latest/higher/monad/index.html	N/A
-https://docs.rs/higher/latest/x86_64-pc-windows-msvc/higher/	N/A
-https://docs.rs/higher/latest/x86_64-apple-darwin/higher/index.html	N/A
-https://docs.rs/effectful/latest/effectful/	N/A
+https://docs.rs/higher	published	2023-01-18
+https://docs.rs/higher/latest/higher/monad/index.html	published	2023-01-18
+https://docs.rs/higher/latest/x86_64-pc-windows-msvc/higher/	published	2023-01-18
+https://docs.rs/higher/latest/x86_64-apple-darwin/higher/index.html	published	2023-01-18
+https://docs.rs/effectful/latest/effectful/	published	2026-04-29
 https://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/	publication	2010-10-17
 https://scalaz.github.io/scalaz/scalaz-2.10-7.0.3/doc/index.html	N/A
 https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M12/scalaz/Monad.html	N/A
@@ -32548,7 +32548,7 @@ https://hackage-content.haskell.org/package/horde-ad-0.2.0.0/docs/async-2.2.5-do
 https://hackage-content.haskell.org/package/async-2.2.6/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/lifted-async-0.11.0/docs/Control-Concurrent-Async-Lifted.html	N/A
 https://hackage-content-origin.haskell.org/package/async-2.2.2/docs/doc-index.html	N/A
-https://docs.rs/crate/functype/0.1.1	N/A
+https://docs.rs/crate/functype/0.1.1	published	2026-02-25
 https://kcsrk.info/papers/ocaml2021b.pdf	created	2021
 https://www.cs.pomona.edu/~michael/courses/csci181ns20/lec/Lec11.html	N/A
 https://2023.ecoop.org/details/ecoop-2023-papers/4/Interaction-Tree-Specifications-A-Framework-for-Specifying-Recursive-Effectful-Comp	created	2023
