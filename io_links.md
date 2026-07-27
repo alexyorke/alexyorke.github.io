@@ -24409,57 +24409,57 @@ https://www.npmjs.com/package/monio/v/0.2.0	created	2020-05-22
 https://www.npmjs.com/package/monio/v/0.2.1	created	2020-05-22
 https://www.npmjs.com/package/monio/v/0.2.2	created	2020-05-22
 https://www.npmjs.com/package/monio/v/0.2.3	created	2020-05-22
-https://www.npmjs.com/package/monio/v/0.20.0	N/A
-https://www.npmjs.com/package/monio/v/0.20.1	N/A
-https://www.npmjs.com/package/monio/v/0.21.0	N/A
-https://www.npmjs.com/package/monio/v/0.22.0	N/A
-https://www.npmjs.com/package/monio/v/0.23.0	N/A
-https://www.npmjs.com/package/monio/v/0.23.1	N/A
-https://www.npmjs.com/package/monio/v/0.23.2	N/A
-https://www.npmjs.com/package/monio/v/0.24.0	N/A
-https://www.npmjs.com/package/monio/v/0.24.1	N/A
-https://www.npmjs.com/package/monio/v/0.24.2	N/A
-https://www.npmjs.com/package/monio/v/0.25.0	N/A
-https://www.npmjs.com/package/monio/v/0.26.0	N/A
-https://www.npmjs.com/package/monio/v/0.27.0	N/A
-https://www.npmjs.com/package/monio/v/0.27.1	N/A
-https://www.npmjs.com/package/monio/v/0.3.0	N/A
-https://www.npmjs.com/package/monio/v/0.3.1	N/A
-https://www.npmjs.com/package/monio/v/0.30.0	N/A
-https://www.npmjs.com/package/monio/v/0.30.1	N/A
-https://www.npmjs.com/package/monio/v/0.31.0	N/A
-https://www.npmjs.com/package/monio/v/0.32.0	N/A
-https://www.npmjs.com/package/monio/v/0.32.1	N/A
-https://www.npmjs.com/package/monio/v/0.33.0	N/A
-https://www.npmjs.com/package/monio/v/0.4.0	N/A
-https://www.npmjs.com/package/monio/v/0.4.1	N/A
-https://www.npmjs.com/package/monio/v/0.4.2	N/A
-https://www.npmjs.com/package/monio/v/0.40.0	N/A
-https://www.npmjs.com/package/monio/v/0.40.1	N/A
-https://www.npmjs.com/package/monio/v/0.40.2	N/A
-https://www.npmjs.com/package/monio/v/0.5.0	N/A
-https://www.npmjs.com/package/monio/v/0.5.1	N/A
-https://www.npmjs.com/package/monio/v/0.50.0	N/A
-https://www.npmjs.com/package/monio/v/0.50.1	N/A
-https://www.npmjs.com/package/monio/v/0.51.0	N/A
-https://www.npmjs.com/package/monio/v/0.51.1	N/A
-https://www.npmjs.com/package/monio/v/0.51.4	N/A
-https://www.npmjs.com/package/monio/v/0.52.0	N/A
-https://www.npmjs.com/package/monio/v/0.52.1	N/A
-https://www.npmjs.com/package/monio/v/0.52.2	N/A
-https://www.npmjs.com/package/monio/v/0.53.0	N/A
-https://www.npmjs.com/package/monio/v/0.54.0	N/A
-https://www.npmjs.com/package/monio/v/0.54.1	N/A
-https://www.npmjs.com/package/monio/v/0.55.0	N/A
-https://www.npmjs.com/package/monio/v/0.6.0	N/A
-https://www.npmjs.com/package/monio/v/0.60.0	N/A
-https://www.npmjs.com/package/monio/v/0.61.0	N/A
-https://www.npmjs.com/package/monio/v/0.7.0	N/A
-https://www.npmjs.com/package/monio/v/0.70.0	N/A
-https://www.npmjs.com/package/monio/v/0.71.0	N/A
-https://www.npmjs.com/package/monio/v/0.8.0	N/A
-https://www.npmjs.com/package/monio/v/0.8.1	N/A
-https://www.npmjs.com/package/monio/v/0.9.0	N/A
+https://www.npmjs.com/package/monio/v/0.20.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.20.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.21.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.22.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.23.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.23.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.23.2	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.24.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.24.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.24.2	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.25.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.26.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.27.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.27.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.3.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.3.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.30.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.30.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.31.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.32.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.32.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.33.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.4.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.4.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.4.2	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.40.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.40.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.40.2	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.5.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.5.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.50.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.50.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.51.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.51.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.51.4	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.52.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.52.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.52.2	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.53.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.54.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.54.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.55.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.6.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.60.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.61.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.7.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.70.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.71.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.8.0	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.8.1	created	2020-05-22
+https://www.npmjs.com/package/monio/v/0.9.0	created	2020-05-22
 https://effect.readthedocs.io/en/latest/apidocs.html	N/A
 https://returns.readthedocs.io/en/latest/pages/io.html	N/A
 https://danigb.github.io/codes/2020-01-09-functional-core-imperative-shell/	created	2020
