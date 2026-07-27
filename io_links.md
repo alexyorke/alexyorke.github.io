@@ -5893,9 +5893,9 @@ https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/doc-i
 https://downloads.haskell.org/ghc/latest/docs/users_guide/ghc.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/users_guide/index.html	N/A
 https://hackage.haskell.org/package/base	N/A
-https://hackage.haskell.org/package/base/docs/	N/A
-https://hackage.haskell.org/package/control-monad-exception/docs/Control-Monad-Exception-IO.html	N/A
-https://hackage.haskell.org/package/ghcjs-base-stub/docs/GHCJS-Foreign-Callback.html	N/A
+https://hackage.haskell.org/package/base/docs/	created	2025-12-19
+https://hackage.haskell.org/package/control-monad-exception/docs/Control-Monad-Exception-IO.html	created	2020-07-06
+https://hackage.haskell.org/package/ghcjs-base-stub/docs/GHCJS-Foreign-Callback.html	created	2019-10-13
 https://hackage.haskell.org/package/monad-exception	N/A
 https://subs.emis.de/LNI/Proceedings/Proceedings215/P-215.pdf	N/A
 https://www.reddit.com/r/functionalprogramming/comments/qwvo9x	N/A
@@ -5936,10 +5936,10 @@ https://dblp.org/rec/journals/entcs/MichelbrinkS05	N/A
 https://docs.huihoo.com/haskell/haskell-tutorial-for-c-programmers/section3.html	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.30	created	2023
 https://ftp.math.utah.edu/pub/tex/bib/toc/jfunctprogram.html	N/A
-https://hackage.haskell.org/package/Agda/docs/Agda-Interaction-Monad.html	N/A
-https://hackage.haskell.org/package/Agda-2.3.2.2/docs/Agda-Interaction-Response.html	N/A
-https://hackage.haskell.org/package/monad-resumption/docs/Control-Monad-Resumption.html	N/A
-https://hackage.haskell.org/package/transformers-free/docs/Control-Monad-Trans-Free.html	N/A
+https://hackage.haskell.org/package/Agda/docs/Agda-Interaction-Monad.html	created	2025-07-05
+https://hackage.haskell.org/package/Agda-2.3.2.2/docs/Agda-Interaction-Response.html	created	2013-10-30
+https://hackage.haskell.org/package/monad-resumption/docs/Control-Monad-Resumption.html	created	2019-09-30
+https://hackage.haskell.org/package/transformers-free/docs/Control-Monad-Trans-Free.html	created	2012-11-01
 https://hackage-content.haskell.org/package/Agda-2.8.0/docs/src/Agda.Interaction.AgdaTop.html	N/A
 https://link.springer.com/book/10.1007/11784180	publication	2006
 https://link.springer.com/chapter/10.1007/11784180_14	publication	2006
@@ -5973,8 +5973,8 @@ https://dblp.org/pid/83/2290	N/A
 https://docs.rs/crate/effect-monad/latest	N/A
 https://foldoc.org/Haskell	N/A
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120414092148%21Haskell.pdf	N/A
-https://hackage.haskell.org/package/hashtables/docs/Data-HashTable-IO.html	N/A
-https://hackage.haskell.org/package/primal/docs/Control-Prim-Monad.html	N/A
+https://hackage.haskell.org/package/hashtables/docs/Data-HashTable-IO.html	created	2025-01-23
+https://hackage.haskell.org/package/primal/docs/Control-Prim-Monad.html	created	2021-01-22
 https://hackage-content.haskell.org/package/conduit-1.3.6.1/docs/Conduit.html	N/A
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/02-Effect-and-Aff/src/03-Aff/03-Node-ReadLine/03-Converting-Effects-with-Callbacks-into-Aff.html	N/A
 https://mailman.science.ru.nl/pipermail/clean-list/2002/002153.html	created	2002
@@ -6074,7 +6074,7 @@ https://fmv.jku.at/kv/ss07/KV-ArnoldSchwaighofer.pdf	N/A
 https://functional-architecture.org/functional_core_imperative_shell/	N/A
 https://hackage.haskell.org/package/fs-sim-0.4.0.0	N/A
 https://hackage.haskell.org/package/quickcheck-state-machine-0.4.0	N/A
-https://hackage.haskell.org/package/shellmate/docs/Control-Shell.html	N/A
+https://hackage.haskell.org/package/shellmate/docs/Control-Shell.html	created	2020-01-10
 https://hackage-content.haskell.org/package/blockio-0.1.0.1/docs/src/System.FS.BlockIO.html	N/A
 https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/System-FS-Sim-Prim.html	N/A
 https://hackage-content.haskell.org/package/io-sim-1.9.1.0/docs/Control-Monad-IOSim.html	N/A
@@ -6116,10 +6116,10 @@ https://downloads.haskell.org/ghc/8.10.3/docs/html/users_guide/ffi-chap.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/concurrent.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/parallel.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/using-concurrent.html	N/A
-https://hackage.haskell.org/package/dupIO/docs/Data-Dup.html	N/A
-https://hackage.haskell.org/package/free-concurrent/docs/Control-Concurrent-Free.html	N/A
+https://hackage.haskell.org/package/dupIO/docs/Data-Dup.html	created	2023-08-31
+https://hackage.haskell.org/package/free-concurrent/docs/Control-Concurrent-Free.html	created	2015-11-20
 https://hackage.haskell.org/package/greencard-3.0.4.1	N/A
-https://hackage.haskell.org/package/lazyio/docs/System-IO-Lazy.html	N/A
+https://hackage.haskell.org/package/lazyio/docs/System-IO-Lazy.html	created	2026-06-03
 https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/Control.Exception.html	N/A
 https://klasses.cs.uchicago.edu/archive/2007/spring/32102-1/papers/p274-marlow.pdf	created	2007
 https://mail.haskell.org/pipermail/haskell/2009-March/021071.html	created	2009
@@ -6165,14 +6165,14 @@ https://eprints.ost.ch/id/eprint/1128/	created	2023
 https://hackage-content.haskell.org/package/cauldron-0.9.0.1/docs/Cauldron-Managed.html	N/A
 https://hackage-content.haskell.org/package/managed-1.0.11/docs/Control-Monad-Managed-Safe.html	N/A
 https://hackage-content.haskell.org/package/managed-1.0.11/docs/Control-Monad-Managed.html	N/A
-https://hackage.haskell.org/package/base-4.7.0.0/docs/Control-Exception.html	N/A
-https://hackage.haskell.org/package/euphoria/docs/FRP-Euphoria-Signal.html	N/A
-https://hackage.haskell.org/package/event/docs/Control-Concurrent-Event.html	N/A
+https://hackage.haskell.org/package/base-4.7.0.0/docs/Control-Exception.html	created	2014-04-08
+https://hackage.haskell.org/package/euphoria/docs/FRP-Euphoria-Signal.html	created	2016-08-02
+https://hackage.haskell.org/package/event/docs/Control-Concurrent-Event.html	created	2016-05-24
 https://hackage.haskell.org/package/general-allocate	N/A
-https://hackage.haskell.org/package/network-simple/docs/Network-Simple-TCP.html	N/A
-https://hackage.haskell.org/package/reactive-banana/docs/Reactive-Banana-Combinators.html	N/A
-https://hackage.haskell.org/package/resourcet-1.1.7/docs/Data-Acquire.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs	N/A
+https://hackage.haskell.org/package/network-simple/docs/Network-Simple-TCP.html	created	2019-06-12
+https://hackage.haskell.org/package/reactive-banana/docs/Reactive-Banana-Combinators.html	created	2023-01-22
+https://hackage.haskell.org/package/resourcet-1.1.7/docs/Data-Acquire.html	created	2015-11-29
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs	created	2022-02-09
 https://icfp22.sigplan.org/details/icfp-2022-papers/6/Linearly-Qualified-Types-Generic-inference-for-capabilities-and-uniqueness	created	2022
 https://keera.co.uk/posts/2014/05/24/gui-programming-haskell-old-way/	publication	2014-05-24
 https://nottingham-repository.worktribe.com/preview/809778/paper.pdf	N/A
@@ -6287,7 +6287,7 @@ https://exchangetuts.com/how-do-i-compare-a-program-specified-as-a-free-monad-ag
 https://gallium.inria.fr/~scherer/doc/effect-handlers-talk.html	N/A
 https://hackage.haskell.org/package/effect-handlers	N/A
 https://hackage.haskell.org/package/free	N/A
-https://hackage.haskell.org/package/free-operational/docs/Control-Monad-Operational-Simple.html	N/A
+https://hackage.haskell.org/package/free-operational/docs/Control-Monad-Operational-Simple.html	created	2013-08-08
 https://hackage.haskell.org/package/TLT	N/A
 https://icfp17.sigplan.org/getImage/orig/icfp17adjunct.pdf	N/A
 https://icfp23.sigplan.org/details/ocaml-2023-papers/5/Eio-1-0-Effects-based-IO-for-OCaml-5	created	2023
@@ -6347,9 +6347,9 @@ https://downloads.haskell.org/~ghc/7.4.1/docs/users_guide.pdf	N/A
 https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-9.10.2-96d4/GHC-Data-Stream.html	N/A
 https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-weak.html	N/A
 https://downloads.haskell.org/ghc/6.8.1/docs/users_guide.pdf	N/A
-https://hackage.haskell.org/package/aivika-1.1/src/doc/aivika.pdf	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.html	N/A
-https://hackage.haskell.org/package/CheatSheet-2.7/src/CheatSheet.pdf	N/A
+https://hackage.haskell.org/package/aivika-1.1/src/doc/aivika.pdf	created	2014-02-16
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.html	created	2024-10-21
+https://hackage.haskell.org/package/CheatSheet-2.7/src/CheatSheet.pdf	created	2010-08-11
 https://hackage.haskell.org/package/conduit-0.5.5/docs/Data-Conduit.html	N/A
 https://hackage.haskell.org/package/conduit-1.0.0	N/A
 https://hackage.haskell.org/package/enumerator-0.4/docs/Data-Enumerator.html	N/A
