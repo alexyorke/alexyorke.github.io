@@ -4772,7 +4772,7 @@ https://doi.org/10.1145/3609026.3609729	publication	2023-08-30
 https://ps.informatik.uni-tuebingen.de/publications/brachthaeuser19effekt-revision.pdf	N/A
 https://anil.recoil.org/papers/2017-tfp-effecthandlers.pdf	created	2017
 https://link.springer.com/chapter/10.1007/978-3-319-89719-6_6	publication	2018
-https://doi.org/10.1007/978-3-319-89719-6_6	N/A
+https://doi.org/10.1007/978-3-319-89719-6_6	publication	2018
 https://github.com/b-studios/scala-effekt/tree/jfp	N/A
 https://arxiv.org/pdf/2203.15426	N/A
 https://lego.github.io/scala-cats-workshop/	N/A
@@ -6270,7 +6270,7 @@ https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf%3B	N/A
 https://discourse.haskell.org/t/how-to-capture-io/8128	publication	2023-11-16
 https://doc.flix.dev/effects-and-handlers.html	N/A
 https://doi.org/10.1145/1291201.1291206	publication	2007-09-30
-https://doi.org/10.1145/3141858.3141863	N/A
+https://doi.org/10.1145/3141858.3141863	publication	2017-10-23
 https://doi.org/10.17863/CAM.30603	publication	2018
 https://doi.org/10.4230/DARTS.6.2.7	N/A
 https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/GHC.IOBase.html	N/A
@@ -7593,7 +7593,7 @@ https://content.openalex.org/works/W2076004629.grobid-xml	N/A
 https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=iGenBAAAQBAJ	N/A
 https://books.google.com/books/about/Haskell.html?id=es9GPgAACAAJ	N/A
 ## Early functional I/O papers, records, and mirrors
-https://doi.org/10.1007/978-1-4471-3166-3_11	N/A
+https://doi.org/10.1007/978-1-4471-3166-3_11	publication	1990
 https://dblp.org/rec/conf/fp/McLoughlinH89	N/A
 https://dblp.org/rec/conf/fp/McLoughlinH89.html	N/A
 https://dblp.org/rec/conf/fp/McLoughlinH89.bib	N/A
@@ -7650,10 +7650,10 @@ https://openlibrary.org/books/OL8819499M	N/A
 https://openlibrary.org/books/OL17083314M	N/A
 https://openlibrary.org/books/OL3122434M	N/A
 ## Scholarly records, theses, and digitized proceedings
-https://doi.org/10.1007/978-3-030-76908-6_30	N/A
+https://doi.org/10.1007/978-3-030-76908-6_30	publication	2021
 https://doi.org/10.48550/arxiv.1210.0611	N/A
 https://openalex.org/W1999296801	N/A
-https://doi.org/10.4204/eptcs.95.2	N/A
+https://doi.org/10.4204/eptcs.95.2	publication	2012-10-01
 https://openalex.org/W25579122	N/A
 https://doi.org/10.13016/M2W32H	publication	2014
 https://hdl.handle.net/1903/16239	publication	2014
@@ -8408,7 +8408,7 @@ https://researchr.org/profile/philipwadler/publications	N/A
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Implementation%20of%20Functional%20Languages%2C%2011%20conf.%2C%20IFL%2799%28LNCS1868%2C%20Springer%2C%202000%29%28ISBN%203540678646%29%28204s%29.pdf	created	2011
 https://dblp.org/rec/conf/afp/Wadler95.html	N/A
 https://researchr.org/publication/Wadler92-0	N/A
-https://doi.org/10.1007/3-540-59451-5_2	N/A
+https://doi.org/10.1007/3-540-59451-5_2	publication	1995
 https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/imperative.html	N/A
 https://cth.altocumulus.org/~hallgren/Thesis/bibliography.html	N/A
 https://labun.com/fh/ma.pdf	N/A
@@ -9956,7 +9956,7 @@ https://www.researchgate.net/publication/228543378_Can_GUI_Programming_Be_Libera
 https://www2.fiit.stuba.sk/iitsrc/iit-src2012-postproceedings.pdf	created	2012
 https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/OWA/TC-OWA-5177.pdf	N/A
 https://apfelmus.nfshost.com/blog/2011/07/08-call-for-gui-examples.html	created	2011
-https://doi.org/10.1145/507663.507664	N/A
+https://doi.org/10.1145/507663.507664	publication	2001
 https://hackage.haskell.org/package/fudgets/docs	N/A
 ## Foreign interfaces and Haskell operating-system monads
 https://hackage.haskell.org/package/haskell2010/docs/System-IO.html	created	2010
@@ -9994,10 +9994,10 @@ https://discourse.haskell.org/t/deprecating-safe-haskell-or-heavily-investing-in
 ## Quantum I/O monad books and proceedings
 https://assets.cambridge.org/97810090/98175/index/9781009098175_index.pdf	N/A
 https://api.pageplace.de/preview/DT0400.9780511654831_A24404054/preview-9780511654831_A24404054.pdf	N/A
-https://link.springer.com/chapter/10.1007/978-3-030-47361-7_1	N/A
+https://link.springer.com/chapter/10.1007/978-3-030-47361-7_1	publication	2020
 https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-Q.html	N/A
 https://www.sciencedirect.com/book/9780128023068/foundations-of-quantum-programming	N/A
-https://doi.org/10.1145/3009837.3009894	N/A
+https://doi.org/10.1145/3009837.3009894	publication	2017-01
 ## Network and protocol-oriented monadic I/O sources
 https://www.research.ed.ac.uk/en/publications/the-essence-of-functional-programming	publication	1992
 https://hackage.haskell.org/package/socket-io/docs/Network-SocketIO.html	N/A
@@ -10059,8 +10059,8 @@ https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0100.xhtm
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/A512C0BB77D425E55066CBF97E68C153/S0956796803000819a.pdf/6_predefined_types_and_classes.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7D23DA54801AFA0FD239DEF3B0C05E26/S0956796809990220a.pdf/domainspecific_language_for_experimental_game_theory.pdf	N/A
 https://www.researchgate.net/publication/221600563_Proving_Correctness_of_Programs_with_IO_-A_Paradigm_Comparison	N/A
-https://link.springer.com/book/10.1007/978-1-4471-3196-0	N/A
-https://link.springer.com/book/10.1007/978-1-4471-3236-3	N/A
+https://link.springer.com/book/10.1007/978-1-4471-3196-0	publication	1992
+https://link.springer.com/book/10.1007/978-1-4471-3236-3	publication	1994
 https://obnb.uk/p11013103-functional-programming-proceedings-of-the-1989-glasgow-workshop-21-23-august-1989-fraserburgh-scotland	created	1989
 https://www.stackage.org/nightly-2026-03-14/package/io-storage-0.3	created	2026
 https://www.stackage.org/nightly-2025-01-06/package/io-storage-0.3	created	2025
@@ -10238,14 +10238,14 @@ https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base/src/System-IO-
 https://www.kitten-technologies.co.uk/project/argon/raw/references/CHROME/CleanBookI.pdf?name=a53e293ab9c04ac2223f2875f95639cf75310704	N/A
 https://www.haskell.org/hugs/pages/libraries/base/Data-Unique.html	N/A
 https://ghcguide.haskell.jp/8.2.2/users_guide/lang.html	N/A
-https://link.springer.com/book/10.1007/979-8-8688-1282-8	N/A
-https://link.springer.com/book/10.1007/978-3-642-04718-3	N/A
+https://link.springer.com/book/10.1007/979-8-8688-1282-8	publication	2025
+https://link.springer.com/book/10.1007/978-3-642-04718-3	publication	2011
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C418D095ECDDA0E2C777BA68D09C2592/S0956796803000315a.pdf/1_introduction.pdf	N/A
-https://link.springer.com/book/10.1007/3-540-45361-X	N/A
-https://link.springer.com/book/10.1007/978-1-4302-6251-0	N/A
-https://link.springer.com/book/10.1007/978-1-4842-4480-7	N/A
-https://link.springer.com/book/10.1007/978-3-031-68538-5	N/A
-https://link.springer.com/book/10.1007/978-3-642-55818-4	N/A
+https://link.springer.com/book/10.1007/3-540-45361-X	publication	2001
+https://link.springer.com/book/10.1007/978-1-4302-6251-0	publication	2014
+https://link.springer.com/book/10.1007/978-1-4842-4480-7	publication	2019
+https://link.springer.com/book/10.1007/978-3-031-68538-5	publication	2025
+https://link.springer.com/book/10.1007/978-3-642-55818-4	publication	2003
 https://books.google.com/books/about/Effective_Haskell.html?id=4cUIzwEACAAJ	N/A
 https://studylib.net/doc/27941553/haskell--the-craft-of-functional-programming--3rd-ed	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0003.xhtml	N/A
@@ -10274,9 +10274,9 @@ https://dblp.org/pid/96/3469.html	N/A
 https://www.nottingham.ac.uk/research/groups/fp-lab/completed-theses/phd-theses.aspx	N/A
 https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-IO.html	N/A
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative-2	publication	1995
-https://doi.org/10.1145/199448.199528	N/A
+https://doi.org/10.1145/199448.199528	publication	1995
 https://dokumen.pub/functional-programming-glasgow-1994-proceedings-of-the-1994-glasgow-workshop-1nbsped-3540199144-978-3-540-19914-4-978-1-4471-3573-9.html	created	1994
-https://doi.org/10.1145/262009.262011	N/A
+https://doi.org/10.1145/262009.262011	publication	1997-09
 https://logicprogramming.org/iclp95/	N/A
 https://ics.uci.edu/~lopes/teaching/inf102S14/	N/A
 https://mitpress.mit.edu/9780262620994/logic-programming/	N/A
@@ -10336,21 +10336,21 @@ https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012
 https://stackoverflow.com/questions/1319705/introduction-or-simple-examples-for-iteratee	N/A
 https://dblp.org/pid/78/3192.html	N/A
 https://dblp.org/rec/conf/flops/Kiselyov12	N/A
-https://link.springer.com/book/10.1007/978-3-642-29822-6	N/A
-https://doi.org/10.1007/978-3-642-29822-6_15	N/A
+https://link.springer.com/book/10.1007/978-3-642-29822-6	publication	2012
+https://doi.org/10.1007/978-3-642-29822-6_15	publication	2012
 https://dblp.org/db/conf/flops/index	N/A
 https://handwiki.org/wiki/Iteratee	publication	2023-06-27
 https://doi.org/10.1017/S095679680600596X	publication	2006-07
 https://dblp.org/pid/78/3192	N/A
-https://doi.org/10.1145/1543134.1411288	N/A
-https://doi.org/10.1145/1411286.1411288	N/A
+https://doi.org/10.1145/1543134.1411288	publication	2009-01-28
+https://doi.org/10.1145/1411286.1411288	publication	2008-09-25
 https://homes.luddy.indiana.edu/ccshan/capability/region-io-talk.pdf	N/A
 https://www.haskell.org/haskell-symposium/2008/accepted.html	created	2008
 https://doi.org/10.1016/j.scico.2015.11.010	created	2015
 https://www.researchgate.net/publication/254462930_Safe_haskell	N/A
 https://dblp.org/rec/conf/haskell/StefanRMM11.html	N/A
-https://doi.org/10.1145/2096148.2034688	N/A
-https://doi.org/10.1145/2364506.2364524	N/A
+https://doi.org/10.1145/2096148.2034688	publication	2012-01-12
+https://doi.org/10.1145/2364506.2364524	publication	2012-09-13
 https://www.scs.stanford.edu/~deian/pubs/stefan%3A2011%3Aflexible.pdf	created	2011
 https://simon.peytonjones.org/safe-haskell/	publication	2012-09-01
 https://doi.org/10.1017/S0956796816000241	publication	2017-01
@@ -10388,9 +10388,9 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2013/06/paper-pldi13
 https://www.microsoft.com/en-us/research/publication/monadic-framework-relational-verification-applied-information-security-program-equivalence-optimizations/	N/A
 https://casa.rub.de/en/research/publications/detail/securing-verified-io-programs-against-unverified-code-in-f	N/A
 https://ws.lib.ttu.ee/publikatsioonid/et/publ/item/08708474-6b91-47f9-ad7c-b95561e194c6	N/A
-https://doi.org/10.1145/3632916	N/A
+https://doi.org/10.1145/3632916	publication	2024-01-02
 https://www.doc.ic.ac.uk/~livshits/papers/pdf/pldi13.pdf	N/A
-https://doi.org/10.1145/2491956.2491978	N/A
+https://doi.org/10.1145/2491956.2491978	publication	2013-06-16
 https://dblp.org/rec/journals/corr/abs-2303-01350	N/A
 https://mtzguido.github.io/pubs/sciostar.pdf	N/A
 https://pleiad.cl/papers/2024/andriciAl-popl2024.pdf	created	2024
