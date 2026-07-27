@@ -24609,56 +24609,56 @@ https://www.reddit.com/r/scala/comments/bpa0j8	N/A
 https://www.reddit.com/r/Kotlin/comments/1h7pjo2	N/A
 https://bobkonf.de/2023/slides/fink.pdf	created	2023
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.0	published	2019-09-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.1	published	2019-10-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.2	published	2019-10-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.3	published	2019-11-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.4	published	2019-12-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.5	published	2020-04-02
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.11.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.11.0	published	2020-09-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.12.0	published	2021-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.12.1	published	2021-04-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.0	published	2023-07-12
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.0-RC	published	2023-04-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.1	published	2023-09-05
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.2	published	2024-02-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.3	published	2024-02-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.4	published	2024-03-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0	published	2024-12-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.1	published	2024-05-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.2	published	2024-05-18
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.3	published	2024-05-30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.4	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.4	published	2024-10-03
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.1	published	2024-11-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.2	published	2024-11-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.3	published	2024-11-22
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-rc.1	published	2024-11-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1	published	2025-01-23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1-alpha.1	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1-alpha.1	published	2024-12-10
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.0	published	2025-04-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.1	published	2025-04-29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.2	published	2025-05-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0	published	2023-07-12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0-RC	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0-RC	published	2023-04-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.1	published	2023-09-05
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.2	published	2024-02-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.3	published	2024-02-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.4	published	2024-03-28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0	published	2024-12-04
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.1	published	2024-05-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.2	published	2024-05-18
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.3	published	2024-05-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.4	published	2024-10-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.1	published	2024-11-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.2	published	2024-11-14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.3	published	2024-11-22
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-rc.1	published	2024-11-28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1	published	2025-01-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1-alpha.1	published	2024-12-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.0	published	2025-04-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.1	published	2025-04-29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.2	published	2025-05-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.0	published	2019-09-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.1	published	2019-10-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.2	published	2019-10-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.3	published	2019-11-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.4	published	2019-12-19
@@ -24666,23 +24666,23 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.5	published	
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.11.0	published	2020-09-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.12.0	published	2021-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.12.1	published	2021-04-27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.0	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.0	published	2019-09-16
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.1	published	2019-10-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.2	published	2019-10-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.3	published	2019-11-13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.4	published	2019-12-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.5	published	2020-04-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.11.0	published	2020-09-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.0	published	2021-03-31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.1	published	2021-04-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.11.0	published	2020-09-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.12.0	published	2021-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.12.1	published	2021-04-27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.0	published	2021-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.1	published	2021-04-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.2	published	2021-04-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.3	published	2021-09-18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.0	published	2021-09-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.1	published	2021-10-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.21	published	2022-01-05
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.22	published	2022-01-06
@@ -24692,16 +24692,16 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alph
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.28	published	2022-01-11
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.42	published	2022-01-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.43	published	2022-01-22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.1	published	2022-01-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.11	published	2022-02-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.12	published	2022-02-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.13	published	2022-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.14	published	2022-02-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.15	published	2022-02-28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.16	published	2022-02-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.17	published	2022-03-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.18	published	2022-03-01
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.19	published	2022-03-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.2	published	2022-01-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.20	published	2022-03-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.21	published	2022-03-08
@@ -24710,54 +24710,54 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alph
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.25	published	2022-03-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.26	published	2022-03-12
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.28	published	2022-03-14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.29	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.29	published	2022-03-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.30	published	2022-03-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.31	published	2022-03-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.32	published	2022-03-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.33	published	2022-03-28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.34	published	2022-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.35	published	2022-04-02
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.36	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.36	published	2022-04-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.37	published	2022-04-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.38	published	2022-04-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.39	published	2022-04-12
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.4	published	2022-02-05
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.40	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.40	published	2022-04-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.5	published	2022-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.6	published	2022-02-08
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.1	published	2022-04-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.2	published	2022-04-20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.6-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.6-alpha.1	published	2022-01-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.0	published	2022-04-20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.2	published	2022-04-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3	published	2022-09-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.1	published	2022-04-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.10	published	2022-05-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.11	published	2022-05-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.12	published	2022-05-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.13	published	2022-05-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.14	published	2022-05-27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.15	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.16	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.15	published	2022-06-03
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.16	published	2022-06-03
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.17	published	2022-06-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.18	published	2022-06-15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.19	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.19	published	2022-06-15
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.2	published	2022-05-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.20	published	2022-06-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.21	published	2022-06-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.22	published	2022-06-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.23	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.23	published	2022-06-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.24	published	2022-06-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.25	published	2022-07-04
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.26	published	2022-07-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.27	published	2022-07-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.28	published	2022-07-07
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.29	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.29	published	2022-07-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.3.0+2022-05-16T16-21-58-758705Z	created	2022
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.30	published	2022-07-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.31	published	2022-07-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.32	published	2022-07-19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.33	published	2022-07-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.34	published	2022-07-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.35	published	2022-07-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.36	published	2022-07-27
@@ -24770,61 +24770,61 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alph
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.42	published	2022-08-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.43	published	2022-08-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.44	published	2022-08-08
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.45	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.45	published	2022-08-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.46	published	2022-08-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.47	published	2022-08-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.48	published	2022-08-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.49	published	2022-09-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.5.0+2022-05-17T11-44-11-714740Z	created	2022
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.50	published	2022-09-05
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.51	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.51	published	2022-09-12
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.52	published	2022-09-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.6	published	2022-05-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.7	published	2022-05-22
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.8	published	2022-05-24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.9	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.9	published	2022-05-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-rc.1	published	2022-09-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4	published	2023-01-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.1	published	2022-09-29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.10	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.10	published	2022-10-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.11	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.12	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.13	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.14	published	2022-11-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.15	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.16	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.15	published	2022-11-17
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.16	published	2022-11-26
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.17	published	2022-11-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.18	published	2022-12-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.19	published	2022-12-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.2	published	2022-09-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.20	published	2022-12-05
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.3	published	2022-10-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.4	published	2022-10-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.5	published	2022-10-05
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.6	published	2022-10-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.7	published	2022-10-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.8	published	2022-10-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.9	published	2022-10-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.2	published	2022-12-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.3	published	2022-12-12
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5	published	2023-01-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.1	published	2022-12-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.2	published	2023-01-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.3	published	2023-01-09
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.4	published	2023-01-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.5	published	2023-01-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-rc.1	published	2023-01-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.1	published	2023-01-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.11	published	2023-02-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.12	published	2023-02-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.13	published	2023-02-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.14	published	2023-02-06
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.15	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.16	published	2023-02-06
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.17	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.18	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.19	published	2023-02-08
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.2	published	2023-01-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.20	published	2023-02-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.22	published	2023-02-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.23	published	2023-02-09
@@ -24832,72 +24832,72 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alph
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.26	published	2023-02-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.27	published	2023-02-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.28	published	2023-02-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.3	published	2023-01-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.33	published	2023-02-22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.34	published	2023-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.35	published	2023-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.36	published	2023-02-23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.37	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.37	published	2023-03-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.38	published	2023-03-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.39	published	2023-03-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.4	published	2023-01-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.40	published	2023-03-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.41	published	2023-03-03
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.42	published	2023-03-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.43	published	2023-03-06
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.44	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.44	published	2023-03-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.45	published	2023-03-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.46	published	2023-03-09
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.47	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.48	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.49	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.47	published	2023-03-10
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.48	published	2023-03-10
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.49	published	2023-03-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.5	published	2023-01-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.50	published	2023-03-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.51	published	2023-03-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.52	published	2023-03-15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.53	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.53	published	2023-03-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.54	published	2023-03-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.55	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.55	published	2023-03-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.56	published	2023-03-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.57	published	2023-03-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.58	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.58	published	2023-03-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.59	published	2023-03-18
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.6	published	2023-01-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.60	published	2023-03-20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.61	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.62	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.61	published	2023-03-20
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.62	published	2023-03-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.63	published	2023-03-21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.64	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.65	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.66	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.64	published	2023-03-24
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.65	published	2023-03-24
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.66	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.67	published	2023-03-24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.68	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.68	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.69	published	2023-03-24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.7	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.7	published	2023-01-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.70	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.71	published	2023-03-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.72	published	2023-03-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.73	published	2023-03-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.74	published	2023-03-27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.75	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.75	published	2023-03-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.76	published	2023-03-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.77	published	2023-03-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.78	published	2023-03-30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.79	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.79	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.80	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.81	published	2023-03-30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.82	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.82	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.83	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.84	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.85	published	2023-03-31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.86	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.87	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.86	published	2023-03-31
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.87	published	2023-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.88	published	2023-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.89	published	2023-04-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.90	published	2023-04-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.91	published	2023-04-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.0	published	2021-03-31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.1	published	2021-04-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.0	published	2021-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.1	published	2021-04-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.2	published	2021-04-27
@@ -24910,12 +24910,12 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.25	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.26	published	2022-01-11
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.27	published	2022-01-11
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.28	published	2022-01-11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.42	published	2022-01-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.43	published	2022-01-22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.1	published	2022-01-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.11	published	2022-02-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.12	published	2022-02-21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.13	published	2022-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.14	published	2022-02-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.15	published	2022-02-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.16	published	2022-02-28
@@ -24924,7 +24924,7 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.18	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.19	published	2022-03-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.2	published	2022-01-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.20	published	2022-03-02
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.21	published	2022-03-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.23	published	2022-03-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.24	published	2022-03-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.25	published	2022-03-10
@@ -24933,24 +24933,24 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.28	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.29	published	2022-03-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.30	published	2022-03-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.31	published	2022-03-21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.32	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.32	published	2022-03-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.33	published	2022-03-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.34	published	2022-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.35	published	2022-04-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.36	published	2022-04-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.37	published	2022-04-04
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.38	published	2022-04-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.39	published	2022-04-12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.4	published	2022-02-05
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.40	published	2022-04-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.5	published	2022-02-06
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.6	published	2022-02-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.4-alpha.1	published	2022-04-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.4-alpha.2	published	2022-04-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.6-alpha.1	published	2022-01-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.0	published	2022-04-20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.2	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.2	published	2022-04-21
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3	published	2022-09-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.1	published	2022-04-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.10	published	2022-05-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.11	published	2022-05-25
@@ -24962,12 +24962,12 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.16	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.17	published	2022-06-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.18	published	2022-06-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.19	published	2022-06-15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.2	published	2022-05-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.20	published	2022-06-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.21	published	2022-06-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.22	published	2022-06-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.23	published	2022-06-27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.24	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.24	published	2022-06-28
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.25	published	2022-07-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.26	published	2022-07-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.27	published	2022-07-07
@@ -24979,10 +24979,10 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.31	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.32	published	2022-07-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.33	published	2022-07-26
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.34	published	2022-07-26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.35	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.35	published	2022-07-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.36	published	2022-07-27
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.37	published	2022-07-28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.38	published	2022-08-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.39	published	2022-08-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.4.0+2022-05-17T09-11-10-723810Z	created	2022
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.40	published	2022-08-03
@@ -24990,8 +24990,8 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.41	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.42	published	2022-08-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.43	published	2022-08-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.44	published	2022-08-08
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.45	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.46	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.45	published	2022-08-09
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.46	published	2022-08-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.47	published	2022-08-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.48	published	2022-08-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.49	published	2022-09-02
@@ -25001,19 +25001,19 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.51	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.52	published	2022-09-14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.6	published	2022-05-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.7	published	2022-05-22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.8	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.8	published	2022-05-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.9	published	2022-05-25
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-rc.1	published	2022-09-15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4	published	2023-01-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.1	published	2022-09-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.10	published	2022-10-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.11	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.12	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.13	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.14	published	2022-11-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.15	published	2022-11-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.16	published	2022-11-26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.17	published	2022-11-29
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.18	published	2022-12-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.19	published	2022-12-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.2	published	2022-09-29
@@ -25021,45 +25021,45 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.20	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.3	published	2022-10-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.4	published	2022-10-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.5	published	2022-10-05
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.6	published	2022-10-07
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.7	published	2022-10-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.8	published	2022-10-13
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.9	published	2022-10-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.2	published	2022-12-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.3	published	2022-12-12
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5	published	2023-01-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.1	published	2022-12-28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.2	published	2023-01-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.3	published	2023-01-09
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.4	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.4	published	2023-01-09
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.5	published	2023-01-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-rc.1	published	2023-01-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.1	published	2023-01-19
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.11	published	2023-02-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.12	published	2023-02-04
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.13	published	2023-02-04
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.14	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.15	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.16	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.17	published	2023-02-06
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.18	published	2023-02-06
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.19	published	2023-02-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.2	published	2023-01-19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.20	published	2023-02-08
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.22	published	2023-02-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.23	published	2023-02-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.24	published	2023-02-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.26	published	2023-02-09
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.27	published	2023-02-13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.28	published	2023-02-17
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.3	published	2023-01-19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.33	published	2023-02-22
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.34	published	2023-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.35	published	2023-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.36	published	2023-02-23
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.37	published	2023-03-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.38	published	2023-03-01
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.39	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.39	published	2023-03-01
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.4	published	2023-01-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.40	published	2023-03-02
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.41	published	2023-03-03
@@ -25073,24 +25073,24 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.48	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.49	published	2023-03-10
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.5	published	2023-01-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.50	published	2023-03-10
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.51	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.52	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.51	published	2023-03-14
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.52	published	2023-03-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.53	published	2023-03-15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.54	published	2023-03-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.55	published	2023-03-16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.56	N/A
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.57	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.56	published	2023-03-16
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.57	published	2023-03-16
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.58	published	2023-03-17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.59	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.59	published	2023-03-18
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.6	published	2023-01-23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.60	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.60	published	2023-03-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.61	published	2023-03-20
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.62	published	2023-03-21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.63	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.63	published	2023-03-21
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.64	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.65	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.66	published	2023-03-24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.67	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.67	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.68	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.69	published	2023-03-24
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.7	published	2023-01-24
@@ -25107,15 +25107,15 @@ https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.79	pu
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.80	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.81	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.82	published	2023-03-30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.83	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.83	published	2023-03-30
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.84	published	2023-03-30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.85	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.85	published	2023-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.86	published	2023-03-31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.87	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.87	published	2023-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.88	published	2023-03-31
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.89	published	2023-04-03
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.90	published	2023-04-03
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.91	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.91	published	2023-04-03
 https://git.hubp.de/bow-swift/bow	N/A
 https://swiftpackageregistry.com/bow-swift/bow-lite	N/A
 https://bow-swift.io/docs/quick-start/resources/	N/A
