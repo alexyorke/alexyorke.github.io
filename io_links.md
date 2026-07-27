@@ -2,7 +2,7 @@
 ## Foundational papers and theses
 https://sigplan.github.io/OpenTOC/haskell24.html	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf	N/A
-https://dl.acm.org/doi/pdf/10.1145/143165.143169	N/A
+https://dl.acm.org/doi/pdf/10.1145/143165.143169	publication	1992
 https://dl.acm.org/doi/10.1145/143165.143169	N/A
 https://dl.acm.org/doi/abs/10.1145/130697.130699	N/A
 https://dl.acm.org/doi/abs/10.1145/1238844.1238856	N/A
@@ -26,20 +26,20 @@ https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf	N/A
 https://dl.acm.org/doi/10.1145/319838.319876	N/A
 https://dl.acm.org/doi/10.1145/165180.165195	N/A
-https://dl.acm.org/doi/pdf/10.1145/581690.581694	N/A
+https://dl.acm.org/doi/pdf/10.1145/581690.581694	publication	2002-10-03
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf	N/A
 https://simon.peytonjones.org/Tackling-the-awkward-squad/	2001-01-01
 https://cs.nju.edu.cn/xyfeng/teaching/FOPL/reading/awkwardSquad.pdf	N/A
 https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/	N/A
 https://dl.acm.org/doi/10.1145/3331545.3342589	N/A
 https://dl.acm.org/doi/10.1145/2775050.2633368	N/A
-https://dl.acm.org/doi/10.1145/2500365.2500581	N/A
+https://dl.acm.org/doi/10.1145/2500365.2500581	publication	2013-09-25
 https://dl.acm.org/doi/10.1145/2503778.2503791	N/A
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf	N/A
 https://dl.acm.org/doi/10.5555/895692	N/A
 https://dl.acm.org/doi/10.1145/2887747.2804311	N/A
 https://dl.acm.org/doi/10.1145/3156695.3122968	N/A
-https://dl.acm.org/doi/10.1145/1863523.1863536	N/A
+https://dl.acm.org/doi/10.1145/1863523.1863536	publication	2010-09-30
 https://abhiroop.github.io/pubs/HasTEE_SGX.pdf	N/A
 https://dl.acm.org/doi/10.1145/1088348.1088354	N/A
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535	N/A
