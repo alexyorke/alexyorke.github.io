@@ -5378,7 +5378,7 @@ https://www.reddit.com/r/haskell/comments/lctctr	N/A
 https://archlinux.org/packages/extra-staging/x86_64/haskell-iospec/	N/A
 https://lotz84.github.io/haskell/test-and-debug.html	N/A
 https://softwarepatternslexicon.com/functional/advanced-patterns/functional-abstractions/free-monad/	N/A
-https://www.mail-archive.com/arch-commits%40archlinux.org/msg820840.html	N/A
+https://www.mail-archive.com/arch-commits%40archlinux.org/msg820840.html	created	2023-08-21
 https://hackage.haskell.org/package/IOSpec/docs	created	2023-07-25
 https://www.abp-workshop.de/2019/proceedings.pdf	created	2019
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg39479.html	N/A
@@ -6726,9 +6726,9 @@ https://webspace.science.uu.nl/~swier004/publications/	N/A
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/abs/relating-operational-and-denotational-semantics-for-inputoutput-effects/70E9D314B64C8251259BDD2B3A9395DE	publication	1999-04
 https://www.haskell.org/communities/12-2007/report.pdf	created	2007
 https://www.haskell.org/hugs/pages/libraries/base/Debug-Trace.html	modified	2019-02-17
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1003494.html	N/A
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1034197.html	N/A
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1052154.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1003494.html	created	2026-03-31
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1034197.html	created	2026-04-20
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1052154.html	created	2026-05-07
 https://www.reddit.com/r/haskell/comments/1ag88q4	N/A
 https://www.reddit.com/r/haskell/comments/1bl4ob1	N/A
 https://www.reddit.com/r/haskell/comments/bwrw9e	N/A
@@ -27206,13 +27206,13 @@ https://packages.debian.org/fi/source/sid/haskell-monad-control	modified	2026-07
 https://sources.debian.org/src/haskell-monad-control/0.3.1.3-1	N/A
 https://tracker.debian.org/pkg/haskell-safe-exceptions	N/A
 https://www.archlinux.de/packages/extra/x86_64/haskell-safe-exceptions	N/A
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg874570.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg874570.html	created	2025-09-18
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-monad-control/	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-safe-exceptions/	N/A
 https://lists.archlinux.org/pipermail/arch-commits/2020-October/819264.html	created	2020
 https://packages.gentoo.org/packages/dev-haskell/safe-exceptions	N/A
 https://pleger.github.io/papers/legerAl-SAC2022.pdf	created	2022
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1044499.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1044499.html	created	2026-04-29
 https://github.com/basvandijk/monad-control	updated	2022-09-13
 https://github.com/basvandijk/monad-control/releases	updated	2022-09-13
 https://github.com/basvandijk/monad-control/tags	updated	2022-09-13
@@ -27242,7 +27242,7 @@ https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/tags	updated	2025-06-
 https://github.com/snapframework/io-streams/releases	updated	2025-03-24
 https://github.com/snapframework/io-streams/tags	updated	2025-03-24
 https://www.kosmikus.org/HaskellForDSLs.pdf	N/A
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg987863.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg987863.html	created	2026-03-26
 https://archlinux.org/packages/extra/x86_64/haskell-resourcet/	N/A
 https://gist.github.com/el-hult/486b9208edff473e1da91260a6d361bc	N/A
 https://sources.debian.org/src/haskell-conduit/1.3.6-1/ChangeLog.md	N/A
@@ -31522,7 +31522,7 @@ https://hackage-content.haskell.org/package/pipes-4.3.16	N/A
 https://hackage-origin.haskell.org/package/conduit-1.3.0/docs/Data-Conduit-Combinators-Stream.html	N/A
 https://packages.debian.org/source/stable/haskell-conduit	modified	2026-07-27
 https://packages.debian.org/source/bookworm/haskell-conduit	modified	2026-07-27
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1031858.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1031858.html	created	2026-04-17
 https://hackage.haskell.org/package/streamly-0.2.0	N/A
 https://hackage.haskell.org/package/streamly-0.8.3	N/A
 https://docs.min.io/aistor/developers/sdk/haskell/	publication	2025-10-17
@@ -32053,7 +32053,7 @@ https://hackage.haskell.org/package/i3ipc	N/A
 https://hackage.haskell.org/package/unliftio-core-0.1.1.0/docs/src/Control-Monad-IO-Unlift.html	N/A
 https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-IO-Class.html	N/A
 https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-Trans-Class.html	N/A
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html	created	2026-04-07
 https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html	N/A
 https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf	N/A
 https://hackage.haskell.org/package/fused-effects/docs	created	2026-05-05
