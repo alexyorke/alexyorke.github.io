@@ -255,7 +255,7 @@ https://flint.cs.yale.edu/trifonov/cs629/WadlerMonadsForFP.pdf	N/A
 https://www.cs.ox.ac.uk/jeremy.gibbons/publications/ringads.pdf	N/A
 https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/wadler-essence-fp.pdf	created	2005
 https://www.classes.cs.uchicago.edu/archive/2023/winter/22300-1/notes/monads/the-essence-of-functional-programming.pdf	created	2023
-https://arxiv.org/pdf/cs/0205026	N/A
+https://arxiv.org/pdf/cs/0205026	created	2002-05
 https://dl.acm.org/doi/10.1145/3009837.3009878	publication	2017-01
 https://www.classes.cs.uchicago.edu/archive/2023/winter/22300-1/notes/monads/comprehending-monads.pdf	created	2023
 https://www.jimpryor.net/teaching/nasslli/wadler-essence.pdf	N/A
@@ -965,7 +965,7 @@ https://mercurylang.org/information/doc-release/reference_manual.pdf	N/A
 https://mercurylang.org/information/doc-release/transition_guide.pdf	N/A
 https://mercurylang.org/documentation/papers.html	N/A
 https://www.mercurylang.org/documentation/papers/aadebug03_talk.pdf	N/A
-https://arxiv.org/pdf/cs/0311040	N/A
+https://arxiv.org/pdf/cs/0311040	created	2003-11
 https://www.academia.edu/22955469/Status_of_the_Mercury_system	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/2003/verm2003-LazyDynamicIO.pdf	created	2003
 https://link.springer.com/chapter/10.1007/978-3-540-85373-2_12	publication	2008
@@ -1714,7 +1714,7 @@ https://haskellforall.com/2014/04/model-view-controller-haskell-style	created	20
 https://haskellforall.com/2012/07/purify-code-using-free-monads	created	2012
 https://haskellforall.com/2013/10/how-to-reimplement-the-conduit-parsing-api	created	2013
 https://haskellforall.com/2012/05/conduit-bugs	created	2012
-https://arxiv.org/pdf/cs/0111039	N/A
+https://arxiv.org/pdf/cs/0111039	created	2001-11
 https://haskellforall.com/2013/06/from-zero-to-cooperative-threads-in-33	created	2013
 https://haskellforall.com/2014/02/pipes-http-10-streaming-httphttps	created	2014
 https://haskellforall.com/2014/02/pipes-parse-30-lens-based-parsing	created	2014
@@ -4687,7 +4687,7 @@ https://reasonablypolymorphic.com/blog/writing-custom-optimizations/	N/A
 https://academy.fpblock.com/blog/philosophies-rust-haskell/	N/A
 https://web.cecs.pdx.edu/~mpj/pubs/reactive-objects.pdf	N/A
 https://homepages.inf.ed.ac.uk/wadler/linksetaps/slides/nordlander.pdf	N/A
-https://arxiv.org/abs/cs/0509027	N/A
+https://arxiv.org/abs/cs/0509027	created	2005-09
 https://homepages.inf.ed.ac.uk/wadler/realworld/	N/A
 https://www.researchgate.net/publication/228744630_Interactively_Probing_Quiescent_Properties_of_Object_IO_Applications-A_Feasibility_Study-	N/A
 https://www.researchgate.net/publication/2549693_Concurrency_abstractions_for_Concurrent_Haskell	N/A
@@ -28303,7 +28303,7 @@ https://simon.peytonjones.org/assets/pdfs/halo-haskell-to-logic.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/21-inputoutput/032C8D62ACDD94C0D3EA86900DC9843B	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/static-semantics-for-haskell/9D90E0C7DE8DA7D6BAEAC5143E658E1D	publication	2002-07
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Handle.html	N/A
-https://arxiv.org/abs/quant-ph/0501151	N/A
+https://arxiv.org/abs/quant-ph/0501151	created	2005-01
 http://www.dcs.gla.ac.uk/~kh/Haskell1.3/IO.html	N/A
 https://upload.wikimedia.org/wikiversity/en/1/16/Functor.2.B.Lifting.20180721.pdf	N/A
 https://academy.mondaymorninghaskell.com/p/solve-hs	N/A
@@ -28886,14 +28886,14 @@ https://hackage.haskell.org/package/hashtables-1.0.0.0	N/A
 https://scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vk3bc.pdf	N/A
 https://www.cs.ox.ac.uk/files/3309/PRG40.pdf	N/A
 https://www.mabboux.net/informatique/haskell/en/Haskell-IO-Monade.pdf	N/A
-https://arxiv.org/abs/cs/0605058	N/A
+https://arxiv.org/abs/cs/0605058	created	2006-05
 https://haddocks.haskell-miso.org/miso-tests/Miso-Test.html	N/A
 https://www.theses.gla.ac.uk/71760/1/10391401.pdf	N/A
-http://arxiv.org/abs/cs/0605058	N/A
-http://arxiv.org/pdf/cs/0605058	N/A
-https://arxiv.org/pdf/cs/0605058	N/A
-https://export.arxiv.org/abs/cs/0605058	N/A
-https://export.arxiv.org/pdf/cs/0605058	N/A
+http://arxiv.org/abs/cs/0605058	created	2006-05
+http://arxiv.org/pdf/cs/0605058	created	2006-05
+https://arxiv.org/pdf/cs/0605058	created	2006-05
+https://export.arxiv.org/abs/cs/0605058	created	2006-05
+https://export.arxiv.org/pdf/cs/0605058	created	2006-05
 https://academic.oup.com/nsr/article/2/3/349/1427872	N/A
 https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.2237&rep=rep1&type=pdf	N/A
 https://github.com/GaloisInc/oughta	N/A
@@ -29079,7 +29079,7 @@ https://commons.wikimedia.org/wiki/File%3AHaskell.pdf	N/A
 https://downloads.haskell.org/ghc/5.04.1/docs/html/haskell98/Monad.html	N/A
 https://www.sra.uni-hannover.de/Lehre/V_PS%C3%9C/skript/12-functional-paradigm.handout.pdf	N/A
 https://arxiv.org/abs/1907.05706	created	1907
-https://arxiv.org/abs/cs/0511006	N/A
+https://arxiv.org/abs/cs/0511006	created	2005-11
 https://dblp.org/pid/m/EugenioMoggi.html	N/A
 https://packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell	N/A
 https://www.packtpub.com/en-se/learning/how-to-tutorials/getting-started-haskell	N/A
@@ -32512,7 +32512,7 @@ https://ww.curry-language.org/docs/report/versions/report_2012_09_11.pdf	created
 https://cpm.curry-lang.org/DOC/base-3.4.0/index.html	N/A
 https://cpm.curry-lang.org/DOC/flatcurry-4.0.0/FlatCurry.Files_curry.html	N/A
 https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.html	N/A
-https://arxiv.org/abs/cs/0111039	N/A
+https://arxiv.org/abs/cs/0111039	created	2001-11
 https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf	N/A
 https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf	N/A
 https://hackage.haskell.org/package/effect-handlers/docs	created	2016-04-28
