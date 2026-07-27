@@ -135,7 +135,7 @@ https://dl.acm.org/doi/abs/10.1145/581690.581695	N/A
 https://dl.acm.org/doi/10.1145/1160074.1159821	N/A
 https://dhil.net/research/papers/awkward_effects-ml17.pdf	N/A
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29	publication	1992
-https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11	N/A
+https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11	publication	1990-07-26
 https://www.numdam.org/item/ITA_2002__36_2_155_0.pdf	created	2002
 https://leventerkok.github.io/papers/mfix.pdf	N/A
 https://leventerkok.github.io/papers/mfixTR.pdf	N/A
