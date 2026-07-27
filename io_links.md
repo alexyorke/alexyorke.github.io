@@ -1328,8 +1328,8 @@ https://thepowerof.io/the-power-of-io-in-haskell/	N/A
 https://discourse.haskell.org/t/local-capabilities-with-mtl/231	publication	2019-02-23
 https://hexagoxel.de/postsforpublish/posts/2018-09-09-cont-part-one.html	created	2018
 https://gist.github.com/adamwespiser/25b0af28529a6de1272af6af6275f2a4	N/A
-https://news.ycombinator.com/item?id=21282647	N/A
-https://news.ycombinator.com/item?id=8933528	N/A
+https://news.ycombinator.com/item?id=21282647	created	2019-10-17
+https://news.ycombinator.com/item?id=8933528	created	2015-01-23
 https://lexi-lambda.github.io/blog/2016/06/12/four-months-with-haskell/	created	2016
 https://www.pleger.cl/cv-pleger/papers/legerAl-SAC2022.pdf	created	2022
 https://github.com/tfausak/tfausak.github.io/blob/master/_posts/2015-05-14-monad-transformers.md	created	2015
@@ -1954,7 +1954,7 @@ https://www.reddit.com/r/haskell/comments/1kx22n4/avoiding_io_as_much_as_possibl
 https://www.reddit.com/r/haskell/comments/2p9cvz/noob_question_what_is_exactly_side_effect/	N/A
 https://stackoverflow.com/questions/2488646/why-are-side-effects-modeled-as-monads-in-haskell	created	2010-03-21
 https://www.reddit.com/r/haskell/comments/1cse8ze/learning_haskell_finally_got_to_monads_would_appreciate_some/	N/A
-https://news.ycombinator.com/item?id=42134829	N/A
+https://news.ycombinator.com/item?id=42134829	created	2024-11-14
 https://assets.cambridge.org/97811070/87200/frontmatter/9781107087200_frontmatter.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/data-types-a-la-carte/14416CB20C4637164EA9F77097909409	publication	2008-07
 https://www.oreilly.com/library/view/learning-functional-programming/9781098111748/ch04.html	N/A
@@ -1972,7 +1972,7 @@ https://courses.grainger.illinois.edu/cs421/su2016/lectures/monads/	created	2016
 https://www.johndcook.com/blog/2014/03/03/monads-are-hard-because/	created	2014
 https://gist.github.com/cscalfani/b63552922a8deb2656ecd5ec8a1a77a8	N/A
 https://www.reddit.com/r/scala/comments/8ygjcq/can_someone_explain_the_benefits_of_io/	N/A
-https://news.ycombinator.com/item?id=16419440	N/A
+https://news.ycombinator.com/item?id=16419440	created	2018-02-20
 https://www.reddit.com/r/haskell/comments/6xkktl/why_do_haskell_needs_monad_for_io/	N/A
 https://www.reddit.com/r/haskell/comments/esfp5j/monad_carries_additional_data/	N/A
 https://patryshev.com/monad/crashcourse.pdf	N/A
@@ -1986,9 +1986,9 @@ https://www.slideshare.net/slideshow/dr-frankenfunctor-and-the-monadster/5399580
 https://github.com/fogfish/monad.js	updated	2017-05-07
 https://kristofsl.medium.com/a-gentle-introduction-to-monads-bc583d41d95	publication	2021-03-08
 https://discourse.haskell.org/t/monads-in-haskell/7257	publication	2023-08-10
-https://news.ycombinator.com/item?id=47958106	N/A
+https://news.ycombinator.com/item?id=47958106	created	2026-04-30
 https://www.reddit.com/r/programming/comments/ujjo/haskell_donotation_considered_harmful/	N/A
-https://news.ycombinator.com/item?id=8685993	N/A
+https://news.ycombinator.com/item?id=8685993	created	2014-12-02
 https://fluffynukeit.com/2011/07/	created	2011
 https://www.reddit.com/r/functionalprogramming/comments/13cnx5e/what_is_monad/	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch01.html	N/A
@@ -2046,7 +2046,7 @@ https://www.scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vkx3bc.pdf	N/A
 https://www.cambridge.org/core/product/identifier/9781108241861%23C15/type/BOOK_PART	publication	2018-10
 https://blog.sigfpe.com/2007/03/monads-vector-spaces-and-quantum.html	created	2007
 https://blog.sigfpe.com/2006/06/monads-kleisli-arrows-comonads-and.html	created	2006
-https://news.ycombinator.com/item?id=1997341	N/A
+https://news.ycombinator.com/item?id=1997341	created	2010-12-12
 https://stackoverflow.com/questions/44965/what-is-a-monad	created	2008-09-04
 https://gist.github.com/2ea422007a0f18b7877326cf3f8def86	N/A
 https://www.youtube.com/watch?v=-fKAh4PVKbU	N/A
@@ -2520,7 +2520,7 @@ https://www.reddit.com/r/haskell/comments/1fs8lrz/beginner_warning_how_do_i_extr
 https://medium.com/hackernoon/how-to-read-and-write-with-monads-7b24495754bc	N/A
 https://themechanicalbride.blogspot.com/2008/12/haskell-for-c-programmers-part-3.html	created	2008
 https://evincarofautumn.blogspot.com/2011/09/tricky-programming-concepts-arent.html	created	2011
-https://news.ycombinator.com/item?id=7466351	N/A
+https://news.ycombinator.com/item?id=7466351	created	2014-03-25
 https://www.cs.nott.ac.uk/~psztxa/g5xnsc/chapter.pdf	N/A
 https://www.cs.nott.ac.uk/~psztxa/publ/qio.pdf	N/A
 https://arxiv.org/pdf/2008.12751	created	2008
@@ -2530,8 +2530,8 @@ https://lambda-theultimate.org/node/1276	N/A
 https://www.cambridge.org/as/universitypress/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput?format=PB	N/A
 https://link.springer.com/chapter/10.1007/978-3-030-39197-3_9	publication	2020
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/flexible-dynamic-information-flow-control-in-the-presence-of-exceptions/DA92A6BA5FBBDC534F1B498217D160A8	publication	2017-01
-https://news.ycombinator.com/item?id=1183	N/A
-https://news.ycombinator.com/item?id=46123083	N/A
+https://news.ycombinator.com/item?id=1183	created	2007-02-26
+https://news.ycombinator.com/item?id=46123083	created	2025-12-02
 https://v-checha.medium.com/nest-js-monads-io-2a160005e4f8	publication	2023-01-27
 https://courses.cms.caltech.edu/cs11/material/haskell/lectures/haskell_lecture_1.pdf	N/A
 https://courses.cms.caltech.edu/cs11/material/haskell/lectures/haskell_lecture_6.pdf	N/A
@@ -4280,7 +4280,7 @@ https://www.cis.upenn.edu/~bcpierce/courses/advprog/resources/base/System.IO.Uns
 https://free.cofree.io/2020/07/20/perform-io/	created	2020
 https://stackoverflow.com/questions/10529284/is-there-ever-a-good-reason-to-use-unsafeperformio	created	2012-05-10
 https://stackoverflow.com/questions/19371636/am-i-abusing-unsafeperformio	created	2013-10-15
-https://news.ycombinator.com/item?id=1531832	N/A
+https://news.ycombinator.com/item?id=1531832	created	2010-07-20
 https://well-typed.com/blog/2013/07/video-and-slides-on-alternatives-to-lazy-io/	created	2013
 https://well-typed.com/blog/aux/files/alternatives-to-lazy-io.pdf	N/A
 https://discourse.haskell.org/t/question-on-laziness-of-i-o-actions-in-haskell/11470	publication	2025-02-22
@@ -6082,7 +6082,7 @@ https://kar.kent.ac.uk/id/document/3359918	N/A
 https://ku-fpg.github.io/files/Gill-15-RemoteMonad.pdf	N/A
 https://mail.haskell.org/pipermail/haskell/2007-May/019540.html	created	2007
 https://mth.io/slides/xmonad.pdf	N/A
-https://news.ycombinator.com/item?id=18043058	N/A
+https://news.ycombinator.com/item?id=18043058	created	2018-09-21
 https://pdos.csail.mit.edu/papers/tchajed-sm.pdf	N/A
 https://sites.uclouvain.be/OPODIS2022/slides/OPODIS2022-slides-Santos.pdf	created	2022
 https://stackoverflow.com/questions/1937102/is-it-possible-to-test-the-return-value-of-haskell-i-o-functions	created	2009-12-20
@@ -6295,7 +6295,7 @@ https://katalog.bibliothek.kit.edu/bib/407752	N/A
 https://kcsrk.info/publications	N/A
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/thread/5TRS3QKWKNYK4KTT5JBL4AKT5XH4GXVU/	N/A
 https://ncatlab.org/nlab/show/Wouter%2BSwierstra	N/A
-https://news.ycombinator.com/item?id=12530823	N/A
+https://news.ycombinator.com/item?id=12530823	created	2016-09-19
 https://ocaml.github.io/odoc/eio/eio/Eio/index.html	N/A
 https://ocaml.org/p/eio/1.1	N/A
 https://ora.ox.ac.uk/objects/uuid%3A87f73a35-a0c2-49b2-a8a8-e50e35421dcd	publication	2016
@@ -7614,7 +7614,7 @@ https://ftp.math.utah.edu/pub/tex/bib/sigplan1980.html	created	1980
 https://ftp.math.utah.edu/pub/tex/bib/sigplan1980.pdf	created	1980
 https://citeseerx.ist.psu.edu/document?doi=a22269a5d2be19ec2b7ead3a6615ca43525d92c5&repid=rep1&type=pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=61bf6b9882b4a5f0f381d97fe670e4c713c0e042&repid=rep1&type=pdf	N/A
-https://news.ycombinator.com/item?id=8335010	N/A
+https://news.ycombinator.com/item?id=8335010	created	2014-09-18
 https://openalex.org/W2134078973	N/A
 https://openalex.org/W1989524304	N/A
 https://dblp.org/rec/journals/jfp/Burton91	N/A
@@ -10324,7 +10324,7 @@ https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/index.html	modified	
 https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/doc-index-G.html	modified	2023-02-10
 https://downloads.haskell.org/ghc/8.8-latest/docs/html/libraries/base-4.13.0.0/doc-index-T.html	modified	2020-07-15
 https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Encoding-Types.html	modified	2021-08-26
-https://news.ycombinator.com/item?id=30596699	N/A
+https://news.ycombinator.com/item?id=30596699	created	2022-03-08
 https://orgwiki.space/roam/20210917212614-functional_programming.html	N/A
 https://lobste.rs/s/oh2r0a/unix_pipes_as_io_monads	N/A
 https://ehainry.github.io/2012/05-21/Shell.html	created	2012
@@ -13978,35 +13978,35 @@ https://stackoverflow.com/questions/76895187/laziness-of-infinite-lists-under-mo
 https://stackoverflow.com/questions/7267760/how-can-a-time-function-exist-in-functional-programming/7268323	N/A
 https://stackoverflow.com/questions/2488646/why-are-side-effects-modeled-as-monads-in-haskell?noredirect=1	N/A
 https://stackoverflow.com/questions/2751313/how-do-functional-programming-languages-work?noredirect=1	N/A
-https://news.ycombinator.com/item?id=27258751	N/A
-https://news.ycombinator.com/item?id=17645277	N/A
-https://news.ycombinator.com/item?id=5324100	N/A
-https://news.ycombinator.com/item?id=21170547	N/A
-https://news.ycombinator.com/item?id=17002554	N/A
-https://news.ycombinator.com/item?id=20673506	N/A
-https://news.ycombinator.com/item?id=29591210	N/A
-https://news.ycombinator.com/item?id=16405136	N/A
+https://news.ycombinator.com/item?id=27258751	created	2021-05-23
+https://news.ycombinator.com/item?id=17645277	created	2018-07-30
+https://news.ycombinator.com/item?id=5324100	created	2013-03-05
+https://news.ycombinator.com/item?id=21170547	created	2019-10-06
+https://news.ycombinator.com/item?id=17002554	created	2018-05-05
+https://news.ycombinator.com/item?id=20673506	created	2019-08-12
+https://news.ycombinator.com/item?id=29591210	created	2021-12-17
+https://news.ycombinator.com/item?id=16405136	created	2018-02-18
 https://lobste.rs/s/ovebeq/pythonista_s_review_haskell	N/A
 https://lobste.rs/s/nsdpki/implementation_functional_languages	N/A
-https://news.ycombinator.com/item?id=20110513	N/A
-https://news.ycombinator.com/item?id=5549254	N/A
+https://news.ycombinator.com/item?id=20110513	created	2019-06-06
+https://news.ycombinator.com/item?id=5549254	created	2013-04-15
 https://lobste.rs/s/ffx0rv	N/A
-https://news.ycombinator.com/item?id=3942997	N/A
-https://news.ycombinator.com/item?id=5546679	N/A
-https://news.ycombinator.com/item?id=20109840	N/A
-https://news.ycombinator.com/item?id=10141597	N/A
-https://news.ycombinator.com/item?id=17044595	N/A
-https://news.ycombinator.com/item?id=21710823	N/A
-https://news.ycombinator.com/item?id=23015593	N/A
-https://news.ycombinator.com/item?id=29659269	N/A
-https://news.ycombinator.com/item?id=42754098	N/A
-https://news.ycombinator.com/item?id=20255694	N/A
-https://news.ycombinator.com/item?id=12888382	N/A
-https://news.ycombinator.com/item?id=43504175	N/A
-https://news.ycombinator.com/item?id=9071965	N/A
-https://news.ycombinator.com/item?id=25728261	N/A
+https://news.ycombinator.com/item?id=3942997	created	2012-05-08
+https://news.ycombinator.com/item?id=5546679	created	2013-04-14
+https://news.ycombinator.com/item?id=20109840	created	2019-06-05
+https://news.ycombinator.com/item?id=10141597	created	2015-08-29
+https://news.ycombinator.com/item?id=17044595	created	2018-05-11
+https://news.ycombinator.com/item?id=21710823	created	2019-12-05
+https://news.ycombinator.com/item?id=23015593	created	2020-04-29
+https://news.ycombinator.com/item?id=29659269	created	2021-12-23
+https://news.ycombinator.com/item?id=42754098	created	2025-01-19
+https://news.ycombinator.com/item?id=20255694	created	2019-06-23
+https://news.ycombinator.com/item?id=12888382	created	2016-11-07
+https://news.ycombinator.com/item?id=43504175	created	2025-03-28
+https://news.ycombinator.com/item?id=9071965	created	2015-02-19
+https://news.ycombinator.com/item?id=25728261	created	2021-01-11
 https://news.ycombinator.com/item?id=24890463	N/A
-https://news.ycombinator.com/item?id=41992270	N/A
+https://news.ycombinator.com/item?id=41992270	created	2024-10-30
 https://news.ycombinator.com/item?id=11513883	N/A
 https://lobste.rs/s/bgnc5q	N/A
 https://lobste.rs/s/hkmxqc/effects	N/A
@@ -14022,7 +14022,7 @@ https://news.ycombinator.com/item?id=21711445	N/A
 https://news.ycombinator.com/item?id=22696229	N/A
 https://lobste.rs/s/0qvx5w/monad_fear	N/A
 https://lobste.rs/s/k4bprb/mio_high_performance_multicore_io	N/A
-https://news.ycombinator.com/item?id=43651576	N/A
+https://news.ycombinator.com/item?id=43651576	created	2025-04-11
 https://news.ycombinator.com/item?id=13210849	N/A
 https://lobste.rs/s/5mygc3/not_made_for_this_world	N/A
 https://news.ycombinator.com/item?id=25726588	N/A
@@ -14032,8 +14032,8 @@ https://news.ycombinator.com/item?id=19171757	N/A
 https://news.ycombinator.com/item?id=21145014	N/A
 https://news.ycombinator.com/item?id=5091020	N/A
 https://news.ycombinator.com/item?id=28466676	N/A
-https://news.ycombinator.com/item?id=38351195	N/A
-https://news.ycombinator.com/item?id=22137120	N/A
+https://news.ycombinator.com/item?id=38351195	created	2023-11-20
+https://news.ycombinator.com/item?id=22137120	created	2020-01-24
 https://news.ycombinator.com/item?id=1022538	N/A
 https://news.ycombinator.com/item?id=8970733	N/A
 https://news.ycombinator.com/item?id=7975436	N/A
@@ -14047,19 +14047,19 @@ https://news.ycombinator.com/item?id=42134366	N/A
 https://news.ycombinator.com/item?id=6716399	N/A
 https://news.ycombinator.com/item?id=10771031	N/A
 https://news.ycombinator.com/item?id=431702	N/A
-https://news.ycombinator.com/item?id=44522189	N/A
-https://news.ycombinator.com/item?id=44521224	N/A
+https://news.ycombinator.com/item?id=44522189	created	2025-07-10
+https://news.ycombinator.com/item?id=44521224	created	2025-07-10
 https://news.ycombinator.com/item?id=6278047	N/A
 https://news.ycombinator.com/item?id=14889605	N/A
 https://news.ycombinator.com/item?id=6019290	N/A
 https://news.ycombinator.com/item?id=43679906	N/A
-https://news.ycombinator.com/item?id=46121539	N/A
+https://news.ycombinator.com/item?id=46121539	created	2025-12-02
 https://news.ycombinator.com/item?id=1168736	N/A
 https://lobste.rs/s/drv9qs/why_do_our_programs_need_read_input_write	N/A
 https://news.ycombinator.com/item?id=44467657	N/A
 https://news.ycombinator.com/item?id=24949882	N/A
 https://news.ycombinator.com/item?id=37171943	N/A
-https://news.ycombinator.com/item?id=31944352	N/A
+https://news.ycombinator.com/item?id=31944352	created	2022-07-01
 https://news.ycombinator.com/item?id=6015326	N/A
 https://news.ycombinator.com/item?id=19127692	N/A
 https://news.ycombinator.com/item?id=8595905	N/A
@@ -14069,26 +14069,26 @@ https://news.ycombinator.com/item?id=15399787	N/A
 https://news.ycombinator.com/item?id=30625532	N/A
 https://news.ycombinator.com/item?id=33452733	N/A
 https://news.ycombinator.com/item?id=3122725	N/A
-https://news.ycombinator.com/item?id=40702146	N/A
-https://news.ycombinator.com/item?id=41758371	N/A
+https://news.ycombinator.com/item?id=40702146	created	2024-06-17
+https://news.ycombinator.com/item?id=41758371	created	2024-10-06
 https://news.ycombinator.com/item?id=23362648	N/A
 https://news.ycombinator.com/item?id=25005525	N/A
 https://news.ycombinator.com/item?id=12190562	N/A
 https://news.ycombinator.com/item?id=37039903	N/A
-https://news.ycombinator.com/item?id=41518600	N/A
+https://news.ycombinator.com/item?id=41518600	created	2024-09-12
 https://news.ycombinator.com/item?id=40349970	N/A
 https://news.ycombinator.com/item?id=28188822	N/A
-https://news.ycombinator.com/item?id=45701901	N/A
+https://news.ycombinator.com/item?id=45701901	created	2025-10-25
 https://news.ycombinator.com/item?id=36681049	N/A
 https://news.ycombinator.com/item?id=29119787	N/A
 https://lobste.rs/s/t0xrew/	N/A
-https://news.ycombinator.com/item?id=34787844	N/A
+https://news.ycombinator.com/item?id=34787844	created	2023-02-14
 https://news.ycombinator.com/item?id=33434689	N/A
 https://news.ycombinator.com/item?id=4214589	N/A
 https://news.ycombinator.com/item?id=45374790	N/A
 https://news.ycombinator.com/item?id=47277230	N/A
-https://news.ycombinator.com/item?id=45996755	N/A
-https://news.ycombinator.com/item?id=22840211	N/A
+https://news.ycombinator.com/item?id=45996755	created	2025-11-20
+https://news.ycombinator.com/item?id=22840211	created	2020-04-11
 https://lobste.rs/s/if8hle/have_you_found_side_effects_problem_by	N/A
 https://lobste.rs/s/djmxxg/freer_monad_more_extensible_effects	N/A
 https://lobste.rs/s/mcsk6m/how_free_monads_yield_extensible_effects	N/A
@@ -28032,8 +28032,8 @@ https://kyledewey.github.io/comp410-spring18/lecture/week_13/modes_and_mercury_h
 https://lambda-the-ultimate.org/node/890	N/A
 https://learnxinyminutes.com/mercury/	N/A
 https://mercurylang.org/documentation/papers/mfug_talk.pdf	N/A
-https://news.ycombinator.com/item?id=18397580	N/A
-https://news.ycombinator.com/item?id=19631919	N/A
+https://news.ycombinator.com/item?id=18397580	created	2018-11-07
+https://news.ycombinator.com/item?id=19631919	created	2019-04-11
 https://progopedia.com/language/mercury/	N/A
 https://sebastian.graphics/projects/a-mercury-tutorial/index.html	N/A
 https://www.researchgate.net/publication/2925835_The_Mercury_Language_Reference_Manual	N/A
