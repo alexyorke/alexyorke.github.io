@@ -30038,3235 +30038,3235 @@ https://www.researchgate.net/publication/220940044_Improving_Persistent_Data_Man
 https://www.researchgate.net/publication/351354961_Refinements_of_Futures_Past_Higher-Order_Specification_with_Implicit_Refinement_Types_Extended_Version	N/A
 https://www.stackage.org/lts-16.11/package/fused-effects-1.0.2.2	N/A
 https://www.stackage.org/lts-19.9/package/polysemy-1.6.0.0	N/A
-https://www.stackage.org/lts-23.3/package/data-effects-core-0.2.0.0
-https://www.stackage.org/nightly-2019-02-14/package/fused-effects-0.1.2.1
-https://www.stackage.org/nightly-2019-03-05/package/fused-effects-0.2.0.1
-https://www.stackage.org/nightly-2019-03-29/package/fused-effects-0.3.0.0
-https://www.stackage.org/nightly-2020-01-24/package/fused-effects-1.0.0.0
-https://www.stackage.org/nightly-2021-11-15/package/fused-effects-1.1.1.1
-https://www.stackage.org/nightly-2025-05-10/package/data-effects-core-0.4.2.0
-https://www.stackage.org/nightly-2025-08-03/package/fused-effects-1.1.2.5
-https://www.stackage.org/nightly-2026-02-08/package/data-effects-core-0.4.3.0
-https://www.stackage.org/package/effet
-https://www.stackage.org/package/failable
-https://www.stackage.org/package/monad-exception
-https://arxiv.org/abs/1803.10195
-https://doi.org/10.1017/S0960129500001560
-https://dspace.library.uu.nl/bitstream/handle/1874/2576/2001-62.pdf?isAllowed=y&sequence=1
-https://hackage.haskell.org/package/extensible-effects/docs/Control-Eff.html
-https://www.reddit.com/r/haskell/comments/15a0z4k
-https://www.reddit.com/r/haskell/comments/c7zcj7
-https://www.reddit.com/r/programming/comments/1ts1x2l/practical-uses-of-monads-in-haskell/
-https://www.researchgate.net/publication/220404087_Monads_for_functional_programming
-https://www.stackage.org/lts-22.28/package/io-storage-0.3
-https://www.stackage.org/lts-8.24/package/transformers-0.5.2.0
-https://www.stackage.org/package/box
-https://www.stackage.org/package/errors-ext
-https://www.stackage.org/package/monad-memo
-https://www.stackage.org/package/monad-recorder
-https://www.stackage.org/package/monad-resumption
-https://www.stackage.org/package/monad-schedule
-https://www.stackage.org/package/monad-stm
-https://www.stackage.org/package/ref-tf
-https://www.stackage.org/package/stamina
-https://www.stackage.org/package/timestats
-https://www.usenix.org/events/dsl99/full_papers/leijen/leijen_html/
-https://bilibili.com/video/BV1ihBBBFE2B/
-https://arxiv.org/abs/2410.07918
-https://dl.acm.org/doi/proceedings/10.1145/3406088
-https://uu.diva-portal.org/smash/get/diva2%3A1369286/FULLTEXT01.pdf%3E
-https://www.reddit.com/r/haskell/comments/16yurxb/what_stops_mutable_values_from_leaving_the_io_monad/
-https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_a_free_video_based_haskell/
-https://www.reddit.com/r/haskell/comments/um43bz/most_current_materials_for_learning_haskell/
-https://www.reddit.com/r/haskell/comments/y6og3z/notes_of_a_haskell_beginner/
-https://www.reddit.com/r/haskellquestions/comments/es71yt/do_i_need_to_know_about_monad/
-https://www.stackage.org/lts-12.26/package/monad-recorder-0.1.1
-https://www.stackage.org/nightly-2019-09-26/package/io-storage-0.3
-https://www.stackage.org/nightly-2021-08-23/package/io-manager-0.1.0.3
-https://www.stackage.org/nightly-2024-04-01/package/io-storage-0.3
-https://www.stackage.org/nightly-2026-07-08/package/directory-ospath-streaming-0.3
-https://www.stackage.org/package/data-reify
-https://www.stackage.org/package/perf
-https://www.reddit.com/r/haskell/comments/1q4ly5r/functors_applicatives_and_monads/
-https://www.reddit.com/r/haskell/comments/icu0tg/alternative_to_monads
-https://www.reddit.com/r/haskell/comments/t8pksp/how_to_use_monads_without_understanding_them
-https://arxiv.org/abs/2606.27805
-https://hackage.haskell.org/package/effectful-plugin
-https://hackage.haskell.org/package/monad-coroutine
-https://hackage.haskell.org/package/MonadStack
-https://hackage.haskell.org/package/monad-time
-https://hackage.haskell.org/package/more-extensible-effects
-https://ksvi.mff.cuni.cz/~dingle/2020-1/npp/haskell_library.html
-https://twodee.org/blog/16651
-https://www.stackage.org/lts-14.16/package/monad-coroutine-0.9.0.4
-https://www.stackage.org/lts-21.4/package/monad-coroutine-0.9.2
-https://www.stackage.org/lts-24.33/package/monad-coroutine-0.9.3
-https://www.stackage.org/lts-6.1/package/monad-coroutine-0.9.0.3
-https://www.stackage.org/lts-6.30/package/monad-coroutine-0.9.0.3
-https://www.stackage.org/nightly-2015-11-27/package/monad-coroutine-0.9.0.1
-https://www.stackage.org/nightly-2016-02-19/package/monad-coroutine-0.9.0.2
-https://www.stackage.org/nightly-2016-04-10/package/monad-coroutine-0.9.0.2
-https://www.stackage.org/nightly-2019-07-31/package/monad-coroutine-0.9.0.4
-https://www.stackage.org/nightly-2026-01-14/package/effectful-2.6.1.0
-https://doi.acm.org/10.1145/158511.158524
-https://doi.org/10.1145/234528.234736
-https://www.citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf
-https://www.stackage.org/lts-22.35/package/monad-parallel-0.8
-https://www.stackage.org/nightly-2018-02-27/package/transformers-0.5.2.0
-https://www.stackage.org/nightly-2021-03-19/package/io-manager-0.1.0.3
-https://www.stackage.org/nightly-2026-03-20/package/monad-parallel-0.8.0.1
-https://www.stackage.org/package/monad-log
-https://citeseerx.ist.psu.edu/document?doi=01249e95e1fe350dc3569aec1d46a6613219698c&repid=rep1&type=pdf
-https://hackage.haskell.org/package/fused-effects-exceptions-0.1.0.0
-https://ir.canterbury.ac.nz/server/api/core/bitstreams/5545fb17-ef38-4f0a-bf8e-5c7e5a4b6994/content
-https://www.youtube.com/watch?v=ryMkvAOJk20
-https://hackage.haskell.org/package/transformers-0.5.0.2
-https://haskell.pesquisa.ufabc.edu.br/haskell/03.haskell.basico.1/
-https://monad.cat/
-https://www.youtube.com/playlist?list=PLMqFm6rr-xOXK8G2O31Kdzllm3aYaaRKG
-https://www.haskell.org/pipermail/beginners/2009-February/001065.html
-https://www.stackage.org/lts-20.11/package/effectful-core-2.2.2.1
-https://www.stackage.org/lts-21.11/package/effectful-core-2.2.2.2
-https://www.stackage.org/lts-22.0/package/effectful-core-2.3.0.1
-https://www.stackage.org/lts-22.32/package/effectful-core-2.3.1.0
-https://www.stackage.org/lts-23.13/package/effectful-core-2.5.1.0
-https://www.stackage.org/nightly-2022-12-17/package/effectful-core-2.2.1.0
-https://www.stackage.org/nightly-2024-10-22/package/effectful-core-2.4.0.0
-https://www.stackage.org/nightly-2025-07-03/package/effectful-core-2.6.0.0
-https://www.stackage.org/nightly-2026-03-27/package/effectful-core-2.6.1.0
-https://www.stackage.org/lts/package/data-effects-0.3.0.1
-https://www.stackage.org/lts/package/heftia-effects-0.5.0.0
-https://www.stackage.org/lts-23.0/package/data-effects-0.3.0.1
-https://www.stackage.org/lts-23.13/package/heftia-effects-0.5.0.0
-https://www.stackage.org/lts-24.18/package/heftia-effects
-https://www.stackage.org/lts-24.39/package/data-effects-0.4.2.0
-https://www.stackage.org/nightly-2025-07-25/package/heftia-effects-0.7.0.0
-https://www.stackage.org/nightly-2025-08-01/package/heftia-0.7.0.0
-https://www.stackage.org/nightly-2026-01-21/package/heftia-0.7.0.0
-https://www.stackage.org/nightly-2026-02-20/package/heftia-effects
-https://softwarepatternslexicon.com/haskell/principles-of-functional-programming-in-haskell/the-io-monad-and-managing-side-effects/
-https://www.stackage.org/lts-24.43/package/bluefin-0.0.17.1
-https://www.stackage.org/lts-8.15/package/effect-handlers-0.1.0.8
-https://www.stackage.org/lts-8.15/package/freer-effects-0.3.0.1
-https://www.stackage.org/lts-8.24/package/freer-effects-0.3.0.1
-https://www.stackage.org/nightly-2016-02-19/package/effect-handlers-0.1.0.7
-https://www.stackage.org/nightly-2025-08-03/package/bluefin-0.0.16.0
-https://www.stackage.org/nightly-2026-01-17/package/bluefin-0.2.6.0
-https://www.stackage.org/nightly-2026-05-06/package/bluefin-0.5.100.0
-https://www.stackage.org/lts-10.2/package/freer-simple-1.0.0.0
-https://www.stackage.org/lts-18.24/package/polysemy-1.5.0.0
-https://www.stackage.org/lts-23.13/package/freer-simple-1.2.1.2
-https://web.cecs.pdx.edu/~mpj/pubs/composing.html
-https://www.csse.canterbury.ac.nz/walter.guttmann/publications/0026.pdf
-https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3
-https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0
-https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0
-https://www.cambridge.org/core/article/10.1017/S0956796800001611
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf
-https://www.haskell.org/onlinereport/haskell98-report.pdf
-https://www.stackage.org/nightly-2015-07-12/package/monad-stm-0.1.0.2
-https://www.stackage.org/nightly-2016-02-19/package/monad-stm-0.1.0.2
-https://www.stackage.org/nightly-2016-02-29/package/monad-stm
-https://www.stackage.org/lts-18.28/package/unliftio-0.2.21.0
-https://www.stackage.org/lts-7.24/package/monad-unlift-0.2.0
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf
-https://www.mmhaskell.com/courses/summary
-https://www.stackage.org/lts-18.28/package/lifted-base-0.2.3.12
-https://www.stackage.org/lts-20.26/package/lifted-base-0.2.3.12
-https://www.stackage.org/lts-22.35/package/monad-peel-0.3
-https://www.stackage.org/lts-23.13/package/monad-peel-0.3
-https://www.stackage.org/lts-24.24/package/monad-peel-0.3
-https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11
-https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/E9F6A3ABEC907BAA7C2F1E8810106BA5
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F4A86F27A77CAC76080B5F79667E619/S0956796816000071a.pdf/composable-scheduler-activations-for-haskell.pdf
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616ACD5687ABDC86D2B341E83D298/S0956796807006326a.pdf/applicative-programming-with-effects.pdf
-https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3
-https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1
-https://www.stackage.org/nightly-2025-02-20/package/monad-control-1.0.3.1
-https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157?pageNum=1
-https://www.cambridge.org/core/journals/journal-of-functional-programming/most-cited
-https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/0FA3A396DEF84CFADE3FDA0B26D4CEE3
-https://www.stackage.org/lts-17.0/package/io-machine-0.2.0.0
-https://www.semanticscholar.org/paper/Monads-for-functional-programming-Wadler/56f12dee2e97958fb3bb0572b5899069dedc0a7d
-https://www.stackage.org/lts-7.19/package/io-choice-0.0.6
-https://www.stackage.org/nightly-2015-11-27/package/io-choice-0.0.5
-https://www.stackage.org/nightly-2016-02-19/package/io-choice-0.0.5
-https://www.stackage.org/nightly-2019-07-31/package/io-choice-0.0.7
-https://www.cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html
-https://pt.everand.com/book/405701408/Haskell-Uma-introducao-a-programacao-funcional
-https://www.cin.ufpe.br/~alms/pdf/aspecth_rita.pdf
-https://www.ci.nii.ac.jp/crid/1360586669745382528
-https://www.publishersweekly.com/9781681440033
-https://youtu.be/oDqHNkQK97k
-https://hackage.haskell.org/api
-https://dblp.org/rec/conf/haskell/JonesW07
-https://riptutorial.com/Download/haskell-language-de.pdf
-https://stackoverflow.com/questions/19917582/type-in-haskell-explanation-of-io
-https://stackoverflow.com/a/44979
-https://www.educative.io/blog/haskell-tutorial
-https://hackage.haskell.org/package/attoparsec-iteratee/docs
-https://mailman.haskell.org/archives/list/haskell%40haskell.org/
-https://www.fceia.unr.edu.ar/~mauro/publications/theses/200909_phd.html
-https://flora.pm/packages/%40hackage/unliftio/0.2.15/changelog
-https://hackage-content.haskell.org/package/io-effects-0.1.0/candidate/docs/IO-Effects.html
-https://dblp.org/rec/conf/haskell/KiselyovI15.html
-https://vstill.eu/papers/2020/hsExprTest.pdf
-https://bracevac.org/assets/pdf/DissertationBracevac05112019.pdf
-https://haskell.org/hugs/pages/libraries/base/Control-Monad.html
-https://discourse.haskell.org/t/haskell-cafe-searchable-archive/4742
-https://mailman.haskell.org/mailman3/lists/haskell-cafe.haskell.org/
-https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/
-https://scienceblogs.com/goodmath/2007/01/23/haskell-a-first-step-into-mona-1
-https://github.com/polysemy-research
-https://github.com/fused-effects
-https://tweag.io/blog/2022-01-05-polysemy-scoped/
-https://www.extrema.is/blog/2021/09/24/fused-effects-tagless-final-hmock
-https://freecomputerbooks.com/Real-World-Haskell.html
-https://hackage.haskell.org/package/rio-0.1.5.0/docs
-https://hackage-content-origin.haskell.org/package/rio-0.1.20.0/docs/doc-index-46.html
-https://www.stackage.org/lts-17.0/package/rio-0.1.19.0
-https://flora.pm/packages/%40hackage/rio
-https://hackage.haskell.org/package/rio-0.1.20.0/changelog
-https://hackage.haskell.org/package/rio-0.1.22.0/docs
-https://cstml.github.io/2021/07/22/State-Monad.html
-https://haskell.haskell.narkive.com/eFLi4BaQ/st-stref-vs-io-ioref
-https://downloads.haskell.org/ghc/9.10.2.20250807/docs/libraries/transformers-0.6.1.1-5a8c/Control-Monad-Trans-Reader.html
-https://matija.me/2020/11/05/haskell-monad-transformers-intro/
-https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Reader.html
-https://hackage-content.haskell.org/package/bluefin-internal-0.3.1.0/docs/src/Bluefin.Internal.Examples.html
-https://hackage.haskell.org/package/bluefin-0.2.5.0/docs
-https://hackage.haskell.org/package/polysemy/docs
-https://hackage.haskell.org/package/polysemy-1.2.2.0/docs
-https://hackage.haskell.org/package/polysemy-1.2.3.0
-https://hackage.haskell.org/package/polysemy-0.4.0.0
-https://hackage.haskell.org/package/core-effect-effectful
-https://cse3000-research-project.github.io/static/db102206ec6bbf934bbe6ab8f428e121/poster.pdf
-https://sourceforge.net/projects/polysemy.mirror/files/
-https://hackage.haskell.org/package/effectful-0.0.0.0/docs/src/Effectful.Reader.html
-https://github.com/tomjaguarpaw/bluefin/blob/783da151a74bae3eda774912386f168e6bb0e9af/bluefin-internal/src/Bluefin/Internal/System/IO.hs
-https://resolver.tudelft.nl/uuid:ffea061f-d832-4d54-9726-8389cd4bf42a
-https://haskelle.blogspot.com/2023/
-https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=2
-https://github.com/ublue-os/bluefin/releases
-https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy.html
-https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy-IO.html
-https://citeseerx.ist.psu.edu/document?doi=f6ce17217fbb0097d38e7d1b9ee134423895babd&repid=rep1&type=pdf
-https://probabilistic-effects.github.io/papers/fusion-for-free/
-https://cardanofeed.com/learn/haskell-course
-https://zenn.dev/hand_accident/articles/7c681979acf9dc
-https://cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
-https://hackage.haskell.org/package/read-io
-https://files.core.ac.uk/download/553630896.pdf
-https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Central%20European%20Functional%20Programming%20School%2C%202%20school%2C%20CEFP%202007%28LNCS5161%2C%20Springer%2C%202008%29%28ISBN%209783540880585%29%28308s%29.pdf
-https://www.cl.cam.ac.uk/teaching/2526/DenotSem/materials.html
-https://www8.cs.fau.de/teaching/ss23/mbprog/
-https://cse.sc.edu/~mgv/csce330f07/lectureNotes/index.html
-https://www.cs.utexas.edu/~bornholt/courses/cs345h-24sp/lectures/2-interpreters/
-https://en.wikibooks.org/wiki/Haskell/Denotational_semantics
-https://idris2.readthedocs.io/en/stable/app/
-https://files.core.ac.uk/download/62781956.pdf
-https://www.cambridge.org/core/books/abs/algorithm-design-with-haskell/functional-programming/211847F53158D024C6E5B0379571933A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf
-https://conf.researchr.org/home/icfp-splash-2025/haskellsymp-2025
-https://conf.researchr.org/details/icfp-splash-2025/haskellsymp-2025-papers/20/Machine-Learning-Primitives-as-Algebraic-Effects
-https://popl25.sigplan.org/details/PADL-2025-papers/10/Haskell-Based-Spreadsheets
-https://icfp24.sigplan.org/details/haskellsymp-2024-papers/6/Making-a-Curry-Interpreter-using-Effects-and-Handlers
-https://vetss.org.uk/vss25-algebraic-effects/
-https://repo.aosc.io/anthon/anthon/aosc-documentation/aoscc/2025/comonad/haskell-ecosystem.pdf
-https://www.cse.sc.edu/~mgv/csce330f17/haskell/index.html
-https://icfp26.sigplan.org/home/haskellsymp-2026
-https://msfp-workshop.github.io/msfp2026/
-https://reasonablypolymorphic.com/polysemy-talk/
-https://www.slideshare.net/paulszulc/maintainable-software-architecture-in-haskell-with-polysemy
-https://hackage.haskell.org/package/hw-polysemy-0.3.1.2/docs/HaskellWorks-Polysemy.html
-https://docs.idris-lang.org/en/v0.10.3/effects/
-https://yuelipicasso.github.io/blog/comp_monad.html
-https://icfp21.sigplan.org/details/icfp-2021-papers/10/Generalized-Evidence-Passing-for-Effect-Handlers
-https://cronfa.swansea.ac.uk/Record/cronfa29413
-https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_article
-https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_pdf
-https://eprints.gla.ac.uk/226006/1/226006.pdf
-https://homepage.divms.uiowa.edu/~jgmorrs/pubs/lindley-hs2016-gvhs.pdf
-https://tannerduve.github.io/blog/freer-monad/part-1/
-https://doi.org/10.1145%2F2914770.2837655
-https://www.research.ed.ac.uk/en/publications/handlers-of-algebraic-effects/
-https://ocaml.org/papers
-https://rubenpieters.github.io/assets/papers/JFP20-handlers.pdf
-https://corophage.rs/
-https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf
-https://www.baeldung.com/scala/cats-effect
-https://gist.github.com/dino-/347b0f02c4acf9053ae4ff05ca891a55
-https://gist.github.com/friedbrice/520f627d927cb658c587bd3cdb6cf4dc
-https://www.etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf
-https://markwatson.com/books/haskell-cookbook-site/
-https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg9e5W8ZQyXmYqg5PpkEjxovze6DB84dpj6
-https://link.springer.com/chapter/10.1007/978-3-030-17184-1_6
-https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/concurrent-and-distributed-programming-in-haskell-12/section/working-with-ioref-ch12lvl1sec97
-https://www.google.com/books?id=nh0okI1a1sQC
-https://digicoll.lib.berkeley.edu/record/139011
-https://repository.dl.itc.u-tokyo.ac.jp/records/2568
-https://citeseerx.ist.psu.edu/document?doi=821caec03e9663c17256f797967b67c1ceb15e6e&repid=rep1&type=pdf
-https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=158931
-https://www.teses.usp.br/teses/disponiveis/45/45134/tde-03112023-152323/pt-br.php
-https://eprints.glos.ac.uk/2738/1/Abu%20Alam%20PhD%20Thesis%202015.pdf
-https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf
-https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf
-https://arxiv.org/abs/2509.20308
-https://downloads.haskell.org/ghc/9.4.1-rc1/docs/libraries/text-2.0/Data-Text-Lazy-IO.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Exception.html
-https://en.wikibooks.org/wiki/Haskell/FFI
-https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-compact-0.1.0.0-inplace/GHC-Compact.html
-https://www.stackage.org/lts-8.22/package/ghc-prim-0.5.0.0
-https://archlinux.org/packages/extra/x86_64/haskell-unliftio/
-https://packagehub.suse.com/packages/ghc-unliftio/
-https://www.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf
-https://flora.pm/packages/%40hackage/resourcet/1.2.4.3/changelog
-https://hackage.haskell.org/package/resourcet-0.4.3/docs
-https://flora.pm/packages/%40hackage/resourcet
-https://hackage-content-origin.haskell.org/package/conduit-1.2.8/docs/doc-index-C.html
-https://hackage-origin.haskell.org/package/conduit-1.2.13/docs/src/Data-Conduit-List.html
-https://flora.pm/packages/%40hackage/rio/0.1.24.0/changelog
-https://www.stackage.org/lts-21.11/package/effectful-2.2.2.0
-https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-KVStore.html
-https://hackage-content.haskell.org/package/polysemy-http-0.13.1.0/docs/doc-index.html
-https://packages.debian.org/it/sid/doc/libghc-unliftio-doc
-https://sources.debian.org/src/haskell-unliftio/0.2.13-1/
-https://mynixos.com/nixpkgs/package/haskellPackages.rio
-https://rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-unliftio-doc-0.2.25.1-5.fc44.noarch.html
-https://input-output-hk.github.io/haskell.nix/architecture.html
-https://flora.pm/packages/%40hackage/streaming
-https://flora.pm/packages/%40hackage/conduit
-https://flora.pm/packages/%40hackage/io-sim
-https://flora.pm/packages/%40hackage/io-classes
-https://hackage-content.haskell.org/package/bluefin-algae-0.1.0.2/docs/Bluefin-Algae.html
-https://courses.washington.edu/courses/csep505/16au/lec8_6up.pdf
-https://www.haskell.org/book/monad-transformers.html
-https://streamly.composewell.com/streamly-0.11.0/Explanatory/monad-transformers.html
-https://next.fpcomplete.com/haskell/tutorial/monad-transformers/
-https://lexi-lambda.github.io/blog/2017/04/28/lifts-for-free-making-mtl-typeclasses-derivable/
-https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Class.html
-https://idus.us.es/server/api/core/bitstreams/945bca35-2d81-40a2-8526-20fbd88a6236/content
-https://hackage.haskell.org/package/mtl-tf/docs/Control-Monad-Reader.html
-https://upload.wikimedia.org/wikiversity/en/1/1d/Monad.11.A.Reader.20180821.pdf
-https://is.muni.cz/el/fi/podzim2014/IA014/um/07-transformers.pdf
-https://haskellforall.com/2013/06/the-resource-applicative.html
-https://isa-afp.org/entries/Transformer_Semantics.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-State-Lazy.html
-https://haskellforall.com/2013/01/introduction-to-haskell-io.html
-https://www.cs.unm.edu/~jhaugh/tutorials/01-haskell-reference-sheet.html
-https://foundation.haskell.org/package/foundation-0.0.3/docs/Foundation-Monad.html
-https://zio.dev/overview/creating-effects/
-https://harrisonwl.github.io/assets/papers/ersa2011b.pdf
-https://era.ed.ac.uk/handle/1842/396
-https://journals.sagepub.com/doi/pdf/10.3233/FI-1995-22126?download=true
-https://publish.lfcs.inf.ed.ac.uk/reports/88/ECS-LFCS-88-66/
-https://arxiv.org/abs/2104.00250
-https://prg.is.titech.ac.jp/wp-content/uploads/2022/05/2022-03B-saito.pdf
-https://haskell.hpmeducation.com/functors-applicatives-and-monads/monads/monad-laws
-https://citeseerx.ist.psu.edu/document?doi=56b44cc407e22a0ab538bd05e6e560f77e47f36a&repid=rep1&type=pdf
-https://arxiv.org/abs/2012.06530
-https://homepages.inf.ed.ac.uk/wadler/papers/
-https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf
-https://riptutorial.com/Download/haskell-language-it.pdf
-https://www.cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf
-https://ai.ia.agh.edu.pl/pl%3Adydaktyka%3App%3Ahaskell:lab-io
-https://cendekia.unisza.edu.my/neuaxis-e/Record/nottingham-223/Similar
-https://arxiv.org/abs/2604.24612
-https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec49/lifting-up-from-io
-https://web.archive.org/web/20151208175102/http://code.haskell.org/~dons/haskell-1990-2000/threads.html
-https://hackage.haskell.org/package/fused-effects-1.1.0.0/changelog
-https://www.reddit.com/r/haskell/comments/1gjbakz/heftia-effects-v05-higherorder-algebraic-effects/
-https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0
-https://hackage.haskell.org/package/fused-effects-1.0.0.0/changelog
-https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/
-https://www-users.york.ac.uk/~sf786/Thesis.pdf
-https://www.pls-lab.org/en/Freer_monads
-https://hackage-content-origin.haskell.org/package/extensible-effects-1.2.1
-https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/cp1920f12.pdf
-https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0276&repid=rep1&type=pdf
-https://arxiv.org/abs/2208.04699
-https://www.cs.tufts.edu/comp/150PLD/hw01-1.html
-https://commons.wikimedia.org/wiki/File%3AImperative_to_Functional_Programming.pdf
-https://external.dandelon.com/download/attachments/dandelon/ids/DE004C5162AB38F016FCBC1257A2B002867B4.pdf
-https://dl.acm.org/doi/pdf/10.1145/2804302.2804319
-https://shmish111.github.io/2018/09/23/freer-than-free/
-https://tweag.io/blog/2018-02-05-free-monads/
-https://deepwiki.com/fused-effects/fused-effects/1-overview
-https://www.haskell.org/definition/ffi/sec-entry.html
-https://pepeiborra.github.io/control-monad-exception/
-https://www.sistedes.es/files/actas-prole-2009.pdf
-https://www.stackage.org/lts-7.19/package/explicit-exception-0.1.8
-https://ianen.org/haskell/enumerator/enumerator.pdf
-https://hackage.haskell.org/package/streamly-0.8.1
-https://streamly.composewell.com/haddocks/streamly-0.11.0/Streamly-Data-Stream-MkType.html
-https://www.stackage.org/lts-14.16/package/streamly-0.6.1
-http://www.haskell.org/wikiupload/6/65/Wxhaskell.pdf
-https://www.haskell.org/haskellwiki/Libraries_and_tools/GUI_libraries
-https://codeberg.org/wxHaskell
-https://www.schoolofhaskell.com/school/advanced-haskell/persistent-in-detail/existing-database
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/mtl-2.2.2/Control-Monad-Reader.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Reader.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/libraries/mtl/Control-Monad-Reader.html
-https://downloads.haskell.org/ghc/9.0.1-rc1/docs/html/libraries/mtl-2.2.2/Control-Monad-Reader.html
-https://citeseerx.ist.psu.edu/document?doi=d79d90bb3659cfc9592f1685edf94636a7e81dd0&repid=rep1&type=pdf
-https://cseweb.ucsd.edu/~rtate/effectstr.pdf
-https://arxiv.org/abs/1702.04908
-https://arxiv.org/abs/1707.06685
-https://caiorss.github.io/Functional-Programming/papers/README.html
-https://icfp18.sigplan.org/details/hiw-2018-papers/13/Lightning-talk-The-trick-which-makes-exceptions-0-10-0-possible
-https://www.classcentral.com/course/youtube-effect-systems-in-practice-hecate-lambda-days-2025-511578
-https://www.cst.cam.ac.uk/seminars/list/53899
-https://okmij.org/ftp/Computation/HOPE-talk.pdf
-https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf
-https://www.some.ox.ac.uk/wp-content/uploads/2025/07/HaskellTutorial-2025.pdf
-https://discourse.haskell.org/t/haskell-implementors-workshop-hiw-2025-videos-online/12787
-https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
-https://researchportalplus.anu.edu.au/en/publications/capabilities-effects-for-free/
-https://experts.mcmaster.ca/scholarly-works/2169982
-https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_article/-char/en
-https://arxiv.org/abs/2312.06103
-https://www.cs.uwyo.edu/~jlc/papers/extracting-bind-final.pdf
-https://hackage-content.haskell.org/package/exceptions-0.10.12/docs/Control-Monad-Catch-Pure.html
-https://hackage.haskell.org/package/base-4.21.0.0/changelog
-https://se.informatik.uni-tuebingen.de/publications/brachthaeuser17effekt/
-https://leanpub.com/effect-oriented-programming
-https://ds12.github.io/scala-class/slides/lecture2.html
-https://www.manning.com/books/f-sharp-in-action
-https://mirror.ourhost.az/parrot/misc/openbooks/programming/FSharpProgramming.pdf
-https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Petricek%20T.%2C%20Skeet%20J.%20Functional%20Programming%20for%20the%20Real%20World..%20With%20Examples%20in%20F%23%20and%20C%23%20%28Manning%20Publications%2C%202009%29%28ISBN%209781933988924%29%28O%29%28495s%29_CsPl_.pdf
-https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-ohad-thesis.pdf
-https://citeseerx.ist.psu.edu/document?doi=83c485e220deb2d16e074decc212385ddb21632a&repid=rep1&type=pdf
-https://www.researchgate.net/publication/220977083_Monad-Based_Logics_for_Computational_Effects
-https://docs.rs/corophage
-https://infoscience.epfl.ch/bitstreams/00d8a37e-e74f-48a1-b144-c8e0798110f2/download
-https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html
-https://yangzhixuan.github.io/pdf/yang-thesis.pdf
-https://www.sciencedirect.com/science/article/pii/S0304397506009169
-https://scalasummerschool.github.io/lectures/
-https://studylib.net/doc/27608253/functional-programing-in-kotlin
-https://xnning.github.io/papers/effect-handlers-evidently.pdf
-https://xnning.github.io/papers/multip.pdf
-https://arxiv.org/abs/1905.02033
-https://www.researchgate.net/publication/2241145_Towards_a_Denotational_Semantics_for_Concurrent_State_Transformers
-https://citeseerx.ist.psu.edu/document?doi=27b51ea77b79d4c8775c242b0f0562aa95c658fa&repid=rep1&type=pdf
-https://software.imdea.org/~aleks/papers/hoarelogic/tldi09.pdf
-https://repositum.tuwien.at/handle/20.500.12708/57360
-https://www.cs.ox.ac.uk/publications/publication6818-abstract.html
-https://arxiv.org/abs/1402.1051
-https://arxiv.org/abs/1411.7140
-https://munihac.de/2020.html
-https://discourse.haskell.org/t/haskell-video-archive-call-for-volunteers/8863
-https://haskell.foundation/events/2024-haskell-ecosystem-workshop.html
-https://www.haskell.org/haskell-symposium/2014/accepted.html
-https://icfp23.sigplan.org/details/haskellsymp-2023/4/Effect-Handlers-for-Programmable-Inference
-https://discourse.haskell.org/t/haskell-implementors-workshop-2023-individual-talk-videos-on-youtube/8221
-https://haskell.foundation/events/2025-haskell-implementors-workshop.html
-https://books.kabisa.nl/books/79
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2FB7DC08AA6A4FE4A65E40DEBA82EF5C/S0956796800000575a.pdf/using_miranda_as_a_first_programming_language.pdf
-https://research.utwente.nl/en/publications/static-analysis-of-functional-programs-2/
-https://www.curry-language.org/assets/files/tools/cass/cass_paper.pdf
-https://agda.readthedocs.io/en/v2.7.0/overview.html
-https://idris-community.github.io/idris2-tutorial/
-https://avigad.github.io/programming_in_lean/
-https://wiki.portal.chalmers.se/agda/ReferenceManual/StructureOfAnAgdaProgram
-https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd3528767935317507965&repid=rep1&type=pdf
-https://arxiv.org/abs/2105.05133
-https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic3.pdf
-https://nokomprendo.gitlab.io/posts/tuto_111/2024-05-29-fr-README.html
-https://sir4ur0n.github.io/posts/polysemy-tests.html
-https://www.iog.io/api/research/pdf/5P4V3WEG
-https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Algebra.html
-https://ghc-proposals.readthedocs.io/en/latest/proposals/0313-delimited-continuation-primops.html
-https://lmcs.episciences.org/10045
-https://arxiv.org/abs/1712.08310
-https://icfp21.sigplan.org/details/icfp-2021-papers/1/Client-Server-Sessions-in-Linear-Logic
-https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022/LIPIcs.ECOOP.2022.pdf
-https://arxiv.org/abs/1603.03727
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-IO-Handle.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/exceptions-0.10.4/Control-Monad-Catch.html
-https://hackage.haskell.org/package/streaming-utils/docs/Streaming-Network-TCP.html
-https://cgi.cse.unsw.edu.au/~cs3141/15s1/lectures/effects-05.pdf
-https://www.cs.princeton.edu/courses/archive/fall15/cos326/lec/05b-error-processing.pdf
-https://web.stanford.edu/class/cs242/materials/lectures/lecture09.pdf
-https://downloads.haskell.org/ghc/9.10.0.20240413/docs/libraries/base-4.20.0.0-0f99/Control-Exception.html
-https://www.tweag.io/blog/2018-10-04-capability/
-https://begriffs.com/posts/2016-07-27-tikhon-on-frp.html
-https://researchr.org/publication/PerezBN16
-https://citeseerx.ist.psu.edu/document?doi=7b59a561216fcbb2b9194db7ecaa44fb6a651860&repid=rep1&type=pdf
-https://arxiv.org/abs/2202.02061
-https://www.schoolofhaskell.com/user/fumieval/drinkery-the-boozy-streaming-library
-https://hackage.haskell.org/package/streaming-0.2.3.1/docs/Streaming.html
-https://well-typed.com/blog/2021/08/capi-usage/
-https://downloads.haskell.org/~ghc/7.10.3-rc1/users_guide/ffi.html
-https://frasertweedale.github.io/blog-fp/posts/2022-09-23-ffi-safety-and-gc.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Base.html
-https://downloads.haskell.org/ghc/9.6.7-rc2/docs/libraries/base-4.18.3.0/GHC-IORef.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO.html
-https://hackage.haskell.org/package/strict-io-0.2.2/docs
-https://hackage.haskell.org/package/ioref-stable/docs
-https://hackage-content.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html
-https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Network.html
-https://hackage-content-origin.haskell.org/package/network-2.6.3.3
-https://www.cs.ncl.ac.uk/jspui/handle/10443/6607
-https://downloads.haskell.org/ghc/6.8.3/docs/html/libraries/haskell98/IO.html
-https://www.classcentral.com/course/youtube-building-secure-systems-in-haskell-by-deian-stefan-141460
-https://arxiv.org/abs/1805.00120
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-safe/
-https://archlinux.org/packages/extra/x86_64/haskell-safe/
-https://lean-forward.github.io/logical-verification/2018/33_notes.html
-https://arxiv.org/abs/2408.15817
-https://lean-lang.org/doc/tutorials/latest/
-https://www.cs.princeton.edu/~jmc16/docs/thesis.pdf
-https://lean-lang.org/papers/thesis-sebastian.pdf
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.29
-https://trustworthy.systems/publications/full_text/Feree_AKOMH_18.pdf
-https://isabelle-utp.york.ac.uk/theories/interaction-trees
-https://xenon.stanford.edu/~hwatheod/monads.html
-https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/more-about-monads-5/section/introduction-ch05lvl1sec39
-https://rosstate.org/publications/sleffects/
-https://pdfroom.com/books/from-simple-io-to-monad-transformers/jGk207ZKgpm
-https://www.sciencedirect.com/science/article/abs/pii/S2405896322027331
-https://en.wikibooks.org/wiki/Category%3ABook%3AHaskell
-http://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf
-https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2
-https://researchr.org/publication/Moggi91
-https://arxiv.org/abs/1406.4823
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fefbd1c8-7808-4c0b-a414-a2a188e3049a.xhtml
-https://cs.tufts.edu/~nr/cs252r/ss.html
-https://lotz84.github.io/haskell/free-monad.html
-https://research-information.bris.ac.uk/en/studentTheses/effects-and-effect-handlers-for-probabilistic-programming/
-https://pblevy.github.io/msfp2014/freeapplic.pdf
-https://people.cs.kuleuven.be/~tom.schrijvers/portfolio/haskell2014.html
-https://research-information.bris.ac.uk/en/publications/effect-handlers-in-scope/
-https://hackage.haskell.org/package/effect-handlers-0.1.0.0
-https://hackage-content-origin.haskell.org/package/conduit-0.5.4.1
-https://www.cs.ox.ac.uk/projects/utgp/school/idris-tutorial.pdf
-https://mmhaskell.com/blog/2018/10/22/purescript-ii-typeclasses-and-monads
-https://opam.ocaml.org/packages/ocaml-monadic/
-https://books.underscore.io/scala-with-cats/scala-with-cats.html
-https://www.cl.cam.ac.uk/teaching/1516/L28/monads-etc.pdf
-https://fsharp.org/archive/videos/14
-https://www.oreilly.com/videos/learning-functional-programming/9781788477840/9781788477840-video5_4/
-https://www.classcentral.com/course/youtube-learn-f-59595
-https://learn.microsoft.com/en-us/shows/dotnetconf-focus-on-fsharp/starting-your-fsharp-journey
-https://anil.recoil.org/papers/2021-pldi-retroeff.pdf
-https://ocaml.org/manual/5.2/effects.html
-https://arxiv.org/abs/2211.13140
-https://www.cambridge.org/core/books/a-practical-introduction-to-denotational-semantics/80122D52B49F175D38E0478EA45D4EDD
-https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ
-https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/src/System.FS.Sim.MockFS.html
-https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/GHC.ST.html
-https://hackage.haskell.org/package/base-4.14.1.0/docs/GHC-Exts.html
-https://haskell.fi.muni.cz/doc/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/6.10.3/docs/users_guide.pdf
-https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/Control-Monad-IO-Class.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad.html
-https://www.haskell.org/onlinereport/exps.html
-https://www.stackage.org/nightly-2025-01-06/package/unliftio-0.2.25.0
-https://hackage.haskell.org/package/transformers-lift-0.1.0.0/docs
-https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-List.html
-https://hackage.haskell.org/package/zio/docs/ZIO-Trans.html
-https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-State-Strict.html
-https://hackage-content.haskell.org/package/mmorph-1.2.2/docs/Control-Monad-Morph.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc/src/ForeignCall.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/DsForeign.html
-https://www.packtpub.com/en-In/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/7-concurrency-and-performance-ch07lvl1sec44
-https://people.kth.se/~buiras/publications/icfp2015.pdf
-https://publications.lib.chalmers.se/records/fulltext/249247/249247.pdf
-https://research.chalmers.se/publication/525640
-https://research.chalmers.se/en/publication/249247
-https://webspace.science.uu.nl/~4110161/
-https://research.chalmers.se/publication/508494/file/508494_Fulltext.pdf
-https://escholarship.org/uc/item/4hs1t9nc
-https://arxiv.org/abs/1009.2793
-https://repository.tudelft.nl/record/uuid%3A99a0e50b-c3a5-4a6b-8204-4815d96c68eb
-https://lean-forward.github.io/logical-verification/2019/exams/final_exam_sheet.pdf
-https://www.cs.cornell.edu/courses/cs6110/2017sp/lectures/lec32.pdf
-https://www.danielgratzer.com/courses/type-theory-s-2024/lecture-notes.pdf
-https://bobkonf.de/archive/haskell
-https://www.classcentral.com/subject/haskell
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/a8c02536-4441-40af-a9c1-24133b3814d2.xhtml
-https://discover.knoxcountylibrary.org/oreilly/on1032263978
-https://hackage.haskell.org/package/distributed-process-monad-control
-https://hackage.haskell.org/package/streaming-process/docs/Streaming-Process.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/users_guide.pdf
-https://hackage.haskell.org/package/terminal-0.2.0.0/docs/System-Terminal.html
-https://hackage.haskell.org/package/shh/docs/Shh.html
-https://berniepope.id.au/assets/files/BerniePope.PhD.Thesis.pdf
-https://hackage.haskell.org/package/in-other-words/docs/Control-Effect-Reader.html
-https://www.mobt3ath.com/uplode/book/book-99705.pdf
-https://bindthegap.news/issues/BindTheGap-01Nov2020.pdf
-https://discourse.haskell.org/t/adventures-assembling-records-of-capabilities/623
-https://repository.upenn.edu/bitstreams/9565ea3e-4948-4304-a266-1f4a6fd34762/download
-https://hackage.haskell.org/package/typed-protocols
-https://www.cse.chalmers.se/~russo/russothesis.pdf
-https://livebook.manning.com/book/haskell-in-depth/chapter-7/v-10/
-https://aherrmann.github.io/programming/2016/01/04/resource-management-in-haskell/index.html
-https://researchportal.hw.ac.uk/en/publications/embedding-session-types-in-haskell/
-https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Concurrent-Async.html
-https://csclub.uwaterloo.ca/resources/tech-talks/software-transactional-memory-and-haskell/
-https://subscription.packtpub.com/book/programming/9781786461353/12/ch12lvl1sec96/introduction
-https://downloads.haskell.org/ghc/9.14.0.20250908/docs/libraries/base-4.22.0.0-c394/src/Control.Exception.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/mtl-2.3.1-8a3c/Control-Monad-Except.html
-https://hackage.haskell.org/package/reactive/docs/FRP-Reactive.html
-https://hackage.haskell.org/package/reactive
-https://hackage.haskell.org/package/sodium/docs/FRP-Sodium.html
-https://ics-archive.science.uu.nl/research/techreps/repo/CS-2001/2001-62.pdf
-https://keera.co.uk/posts/2013/03/08/keera-hails-event-driven-programming-of-desktop-applications-in-haskell/
-https://hackage-content.haskell.org/package/bearriver-0.15/docs/FRP-BearRiver-EventS.html
-https://www.ccs.neu.edu/home/amal/course/7480-s12/frp-notes.pdf
-https://cs240h-notes.herokuapp.com/
-https://iti.san.edu.pl/jacsm/JACSM_Vol_08_No_1.pdf
-https://www3.ub.tu-berlin.de/ihv/000141622.pdf
-https://www.mpg.is/thesis.html
-https://kar.kent.ac.uk/21455/
-https://hackage.haskell.org/package/fusion/docs/Fusion.html
-https://shonan.nii.ac.jp/archives/seminar/136/wp-content/uploads/sites/172/2018/09/a-brief-history-of-streams.pdf
-https://arxiv.org/abs/1612.06668
-https://hackage.haskell.org/package/stream-fusion
-https://www.cs.ox.ac.uk/files/4455/paper.pdf
-https://ora.ox.ac.uk/objects/uuid%3Ab4971f57-2b94-4fdf-a5c0-98d6935a44da/files/md50e6a8b2027ac4f99994936c2a32c3b
-https://hackage.haskell.org/package/fusion
-https://hackage.haskell.org/package/typed-process-0.2.13.0/docs
-https://pdxscholar.library.pdx.edu/compsci_fac/394/
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/not-by-equations-alone-reasoning-with-extensible-effects/8E5B14BA0105D056F0ED48564E79BEBC
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf=
-https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs
-https://downloads.haskell.org/ghc/6.4/docs/hslibs.pdf
-https://www.cs.du.edu/~chrisg/classes/comp3621/slides/socket-tutorial.pdf
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/process-1.4.2.0/System-Process.html
-https://downloads.haskell.org/ghc/latest/docs/libraries/process-1.6.26.1-e91f/System-Process.html
-https://ghcguide.haskell.jp/8.0.2/libraries/process-1.4.3.0/System-Process.html
-https://ghcguide.haskell.jp/8.4.3/libraries/process-1.6.3.0/System-Process.html
-https://hackage.haskell.org/package/io-streams-1.3.6.1/docs
-https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/Network-HaskellNet-BSStream.html
-https://hackage-content.haskell.org/package/async-2.2.6
-https://hackage.haskell.org/package/async-2.0.1.4
-https://hackage.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf
-https://hackage.haskell.org/package/eventloop-0.8.1.2
-https://hackage.haskell.org/package/eventloop-0.8.2.7
-https://bahr.io/pubs/files/asyncrattus-paper.pdf
-https://hackage.haskell.org/package/hlibev/docs/Network-Libev.html
-https://kar.kent.ac.uk/69692/
-https://idris.readthedocs.io/en/latest/effects/index.html
-https://idris.readthedocs.io/en/latest/effects/summary.html
-https://hackage.haskell.org/package/reflex
-https://docs.haskellstack.org/en/v1.5.0/ghcjs/
-https://docs.reflex-frp.org/en/latest/installation.html
-https://docs.reflex-frp.org/en/latest/overview.html
-https://icfp18.sigplan.org/details/hiw-2018-papers/6/Lightning-talk-Asterius-Bringing-Haskell-to-WebAssembly
-https://scala-fmi.github.io/scala-fmi-2022/lectures/11-cats-and-cats-effect.html
-https://arxiv.org/abs/2209.10941
-https://arxiv.org/abs/2008.12592
-https://cs.nott.ac.uk/~psxip1/papers/2015-HaskellSymposium-Perez-Nilsson-BridgingGUIGapReactiveValues.pdf
-https://hackage.haskell.org/package/opaleye/docs/Opaleye.html
-https://haskell-beam.github.io/beam/about/faq/
-https://hackage.haskell.org/package/persistent
-https://hackage.haskell.org/package/persistent-mtl/docs
-https://hackage.haskell.org/package/persistent-typed-db
-https://haskell-beam.github.io/beam/
-https://hackage-content.haskell.org/package/persistent-2.17.0.0/docs/Database-Persist-SqlBackend.html
-https://index.scala-lang.org/gaelrenoux/tranzactio
-https://scalac.io/training/functional-effects/
-https://www.javadoc.io/static/org.scalaz/scalaz-zio_2.11/0.5.3/scalaz/zio/package.html
-https://index.scala-lang.org/zio/zio-rocksdb
-https://scalac.io/blog/zio-sql-type-safe-sql-for-zio-applications/
-https://courses.rockthejvm.com/p/zio
-https://leanpub.com/eventsourcinginscala
-https://research.google/pubs/an-implementation-and-semantics-for-transactional-memory-introspection-in-haskell/
-https://icfp16.sigplan.org/details/haskellsymp-2016-papers/8/Revisiting-Software-Transactional-Memory-in-Haskell
-https://www.microsoft.com/en-us/research/publication/lock-free-data-structures-using-stms-in-haskell/
-https://salkhordeh.de/publication/haskell-icfp/
-https://dspace.library.uu.nl/bitstream/handle/1874/362670/Hlogo.pdf?isAllowed=y&sequence=1
-https://hackage.haskell.org/package/system-filepath/docs/Filesystem-Path.html
-https://hackage.haskell.org/package/fast-logger/docs
-https://hackage.haskell.org/package/fast-logger-2.2.3/docs/System-Log-FastLogger.html
-https://hackage.haskell.org/package/filesystem-trees/docs/System-File-Tree.html
-https://hackage.haskell.org/package/path
-https://hackage.haskell.org/package/file-io/docs/System-File-OsPath.html
-https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/doc-index.html
-https://hackage-content.haskell.org/package/log-base-0.12.1.0/docs/Log-Logger.html
-https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/resource-management/the-use-keyword
-https://www2.imm.dtu.dk/~mire/FSharpBook/
-https://www.packtpub.com/en-us/product/mastering-f-9781784396848
-https://books.out.csli.me/NonFiction/Programming/no%20starch%20press/Book%20of%20F%23%20Breaking%20Free%20with%20Managed%20Functional%20Programming.pdf
-https://up.4read.net/zahef/books/1653713845.pdf
-https://citeseerx.ist.psu.edu/document?doi=8e3262faee04030ea0c6f97a79242842670a2f09&repid=rep1&type=pdf
-https://hackage.haskell.org/package/pipes-attoparsec-streaming/docs/Control-Pipe-Attoparsec-Stream.html
-https://hackage.haskell.org/package/attoparsec-conduit/docs
-https://hackage.haskell.org/package/attoparsec
-https://hackage.haskell.org/package/json-stream
-https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Attoparsec.html
-https://hackage-content.haskell.org/package/wireform-proto-0.1.0.0/docs/Proto-Decode-Stream.html
-https://hackage-content.haskell.org/package/streamly-core-0.3.0/docs/Streamly-Data-Stream.html
-https://fs2.io/
-https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.12.2
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15/v-7/
-https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.9.2
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15
-https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.8-75a2246/fs2/io.html
-https://www.cs.rpi.edu/~milanova/csci4966/F24_Lecture12_Monadic_Parsing.pdf
-https://presentation-slides.gitlab.io/outputs/haskell-parsers/haskell-parsers/pdf/index.pdf
-https://nottingham-repository.worktribe.com/output/1024100/monadic-parsing-in-haskell
-https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/parsing.html
-https://fileadmin.cs.lth.se/cs/Education/EDAN40/lectures/Parsing.pdf
-https://hackage.haskell.org/package/warp
-https://hackage.haskell.org/package/servant-util
-https://hackage-content.haskell.org/package/servant-server-0.20.3.0/docs/Servant-Server.html
-https://docs.servant.dev/_/downloads/en/v0.16/pdf/
-https://hackage.haskell.org/package/req
-https://icfp17.sigplan.org/details/haskellsymp-2017-papers/1/Composable-Network-Stacks-and-Remote-Monads
-https://www.baeldung.com/scala/http4s-intro
-https://http4s.org/
-https://livebook.manning.com/book/get-programming-with-scala/chapter-17
-https://play.google.com/store/books/details/Jens_Grassel_Pure_functional_HTTP_APIs_in_Scala?id=szopEAAAQBAJ
-https://http4s.org/v0.15/
-https://blog.shangjiaming.com/scala%20tutorial/http4s-introduction-2/
-https://www.scalabook.ru/books/pfhais.html
-https://http4s.org/v0.22/docs/dsl.html
-https://hackage-content.haskell.org/package/optparse-applicative-0.19.0.0/docs/Options-Applicative.html
-https://hackage.haskell.org/package/brick
-https://hackage.haskell.org/package/structured-cli-0.9.3.0/docs/System-Console-StructuredCLI.html
-https://hackage-content.haskell.org/package/vty-6.5/docs/Graphics-Vty.html
-https://hackage.haskell.org/package/ansi-terminal-0.11.3/docs/System-Console-ANSI.html
-https://haskell-brick.readthedocs.io/_/downloads/en/latest/pdf/
-https://www.haskell.org/wikiupload/5/54/Building_an_interpreter.pdf
-https://hackage.haskell.org/package/Shellac/docs/System-Console-Shell.html
-https://www.baeldung.com/scala/cats-effect-delay-defer-vs-deferred
-https://hackage.haskell.org/package/scheduler/docs/Control-Scheduler.html
-https://hackage.haskell.org/package/dejafu-0.3.2.0/docs
-https://hackage-content.haskell.org/package/distributed-process-async-0.2.11/docs/Control-Distributed-Process-Async.html
-https://hackage.haskell.org/package/scheduler
-https://ocaml.org/p/lwt/5.5.0/doc/index.html
-https://ocaml.org/p/lwt/4.5.0/doc/README.html
-https://ocaml.org/p/lwt/5.1.1/doc/lwt/Lwt/index.html
-https://kcsrk.info/papers/sumit_ms_thesis.pdf
-https://refubium.fu-berlin.de/handle/fub188/18938
-https://www.cs.cmu.edu/~fp/papers/jfp22.pdf
-https://www.andrew.cmu.edu/user/kpruiksm/papers/jfp22.pdf
-https://www.cs.cmu.edu/~fp/public/papers/cll05.pdf
-https://kar.kent.ac.uk/84635/
-https://index.scala-lang.org/typelevel/cats-effect-testing
-https://index.scala-lang.org/akiomik/cats-nio-file
-https://david-romero.github.io/articles/2022-03/Test-Functional-Clock-Scala
-https://hackage-content.haskell.org/package/QuickCheck-2.16.0.0/docs/Test-QuickCheck.html
-https://hackage-content.haskell.org/package/hspec-core-2.11.16/docs/Test-Hspec-Core-Spec.html
-https://hspec.github.io/writing-specs.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/QuickCheck/index.html
-https://www.microsoft.com/en-us/research/publication/a-deterministic-multi-way-rendezvous-library-for-haskell/
-https://arxiv.org/abs/1711.03842
-https://hackage.haskell.org/package/distributed-process
-https://hackage-content.haskell.org/package/distributed-process-client-server-0.2.8.0/docs/Control-Distributed-Process-ManagedProcess.html
-https://marino.miculan.org/assets/pdf/ITP12.pdf
-https://verse-lab.github.io/papers/dpc-padl19.pdf
-https://www.baeldung.com/scala/zio-fibers-tutorial
-https://zio.dev/zio-kafka/tutorial/
-https://scalac.io/blog/how-to-learn-zio-and-functional-programming/
-https://scalac.io/blog/streaming-microservices-with-zio-and-kafka/
-https://www.baeldung.com/scala/zio-intro
-https://scalac.io/blog/getting-started-with-zio-http/
-https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index
-https://devsisters.github.io/shardcake/docs/
-https://people.kth.se/~buiras/lic.pdf
-https://www.researchgate.net/publication/221563004_A_Library_for_Light-Weight_Information-Flow_Security_in_Haskell
-https://ocaml.org/p/eio_main/1.2/eio_main/Eio_main/index.html
-https://ocaml.org/p/eio/0.14/eio/Eio/index.html
-https://bahr.io/pubs/files/effcalc-paper.pdf
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-9.0.1/src/GHC-Builtin-PrimOps.html
-https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-Event.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IOArray.html
-https://lojban.io/documentation/ghc-prim-0.9.1/src/GHC-Prim-Ext.html
-https://hackage.haskell.org/package/resourcet/docs
-https://hackage.haskell.org/package/monad-time/docs/Control-Monad-Time.html
-https://hackage-content.haskell.org/package/time-1.15/docs/Data-Time-Clock-System.html
-https://citeseerx.ist.psu.edu/document?doi=ad43ccbee49d790fdc1c8c625a24cf7d00c8326d&repid=rep1&type=pdf
-https://typelevel.org/cats-effect/docs/datatypes/clock
-https://typelevel.org/cats-effect/docs/datatypes/timer
-https://typelevel.org/cats-effect/api/2.x/cats/effect/Resource.html
-https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/index.html
-https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/index.html
-https://sttp.softwaremill.com/_/downloads/en/v2.2.0/pdf/
-https://sttp.softwaremill.com/_/downloads/en/v3.1.2/pdf/
-https://sttp.softwaremill.com/_/downloads/en/v3.0.0-rc2/pdf/
-https://hackage.haskell.org/package/ivory
-https://hackage.haskell.org/package/ion
-https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/17928/ChristopherSchwaabPhDThesis.pdf?isAllowed=y&sequence=2
-https://downloads.haskell.org/ghc/6.0/docs/html/base/System.IO.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/libraries/haskell98/IO.html
-https://ivanperez.io/papers/2016-HaskellSymposium-Perez-Barenz-Nilsson-FRPRefactored-short.pdf
-https://docs.rs/futures/latest/futures/io/index.html
-https://docs.rs/async-trait/latest/async_trait/
-https://docs.rs/effective
-https://rust-lang.github.io/async-book/07_workarounds/05_async_in_traits.html
-https://doc.rust-lang.org/stable/book/ch17-01-futures-and-syntax.html
-https://github.com/bytedance/monoio
-https://docs.rs/rustica/latest/rustica/datatypes/async_monad/index.html
-https://docs.rs/crate/functype-io/0.1.1
-https://rust-lang.github.io/async-book/part-guide/async-await.html
-https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137?type=print
-https://artur-sulej.github.io/rust-ebooks/async-book.pdf
-https://era.ed.ac.uk/items/14fd5200-9779-434c-b9c2-4a367cbeac9b
-https://docs.rs/crate/eff/latest
-https://www.logic.cs.tsukuba.ac.jp/~sat/pdf/tfp2020-postsymposium.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf
-https://hackage.haskell.org/package/system-fileio-0.2/docs/System-File.html
-https://fsharp.github.io/fsharp-core-docs/
-https://fsharp.org/docs/
-https://fsharp.github.io/fsharp-compiler-docs/fcs/filesystem.html
-https://fsharp.org/guides/data-access/
-https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf
-https://www.tutorialspoint.com/fsharp/pdf/fsharp_basic_io.pdf
-https://www.idt.mdh.se/kurser/DVA229/slides/io.pdf
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Handle.html
-https://hackage.haskell.org/package/text-icu
-https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Text.html
-https://hackage-origin.haskell.org/package/text-2.0.1/docs/Data-Text-Encoding.html
-https://hackage.haskell.org/package/text-1.1.1.3/docs/Data-Text-Encoding.html
-https://hackage-content.haskell.org/package/utf8-string-0.3.7.
-https://hackage-content.haskell.org/package/text-2.1.4/docs/Data-Text-IO.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-IO-Encoding.html
-https://downloads.haskell.org/~ghc/8.0-latest/docs/html/libraries/base-4.9.1.0/GHC-IO-Encoding.html
-https://www.baeldung.com/scala/fs2-functional-streams
-https://index.scala-lang.org/typelevel/fs2/fs2-io/3.12.0?binary-version=_sjs1_3
-https://index.scala-lang.org/spinoco/fs2-http
-https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/316945_3_En_7_Chapter.xhtml
-https://verify.rwth-aachen.de/fp09/
-https://cs3110.github.io/textbook/chapters/conc/promises.html
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf?event-type=FTLA
-https://ocaml.org/p/async/v0.16.0/doc/index.html
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C8AF236F4E87677B5A5D9E522506273D/9781009125802c17_297-324.pdf/concurrent_programming_with_async.pdf
-https://www.cs.cornell.edu/courses/cs3110/2015fa/l/16-conc/lec.pdf
-https://pursuit.purescript.org/packages/purescript-aff/4.1.1/docs/Control.Monad.Aff.Console
-https://pursuit.purescript.org/packages/purescript-node-streams-aff/2.0.0/docs/Node.Stream.Aff
-https://pursuit.purescript.org/packages/purescript-effect/3.0.0/docs/Effect
-https://www.objc.io/books/functional-swift/
-https://www.objc.io/books/functional-swift
-https://www.slideshare.net/slideshow/functional-programming-in-scala-1st-edition-paul-chiusano/280861388?nway-refresh=B
-https://www.sciencedirect.com/science/article/abs/pii/S0167819111000524
-https://hackage.haskell.org/package/reactive-banana-0.5.0.3/docs
-https://hackage.haskell.org/package/reactive-jack/docs
-https://hackage-content.haskell.org/package/glib-0.13.12.0/docs/System-Glib-Signals.html
-https://ocaml.org/p/react/latest/doc/README.html
-https://ocaml.org/p/react/latest/doc/index.html
-https://ocaml.org/p/react/latest/doc/react/React/E/index.html
-https://ocaml.org/p/react/latest/react/React/index.html
-https://reactiveml.github.io/documentation.html
-https://reactiveml.github.io/papers/MandelPlateau-draft-2010-rmltop.pdf
-https://remyzorg.github.io/papers/splashws16reblsmain.pdf
-https://www.lri.fr/~mandel/papers/MandelPlateau-draft-2010-rmltop.pdf
-https://icfp19.sigplan.org/details/haskellsymp-2019-papers/13/Synthesizing-Functional-Reactive-Programs
-https://hackage.haskell.org/package/hinotify
-https://fsharpwindowsservices.wordpress.com/2019/11/07/watching-files/
-https://softwarepatternslexicon.com/f-sharp/reactive-programming-patterns/observer-pattern-with-iobservable-and-iobserver/
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-observablemodule.html
-https://www.idt.mdh.se/kurser/DVA229/slides/reactive.pdf
-https://www.nuget.org/packages/ReactiveFileSystemWatcher
-https://www.idt.mdh.se/kurser/DVA229/slides/reactive-4up.pdf
-https://ifl2014.github.io/submissions/ifl2014_submission_4.pdf
-https://simonjf.com/drafts/reactive-abstractions.pdf
-https://hackage.haskell.org/package/jack-0.7.2.1/docs
-https://www.cambridge.org/core/books/abs/haskell-school-of-music/higherorder-types-and-monads/D77C48D01FCD99F307CF94FDF3126A6E
-https://hal2016.haskell.org/slides/HAL2016-thielemann.pdf
-https://www.researchgate.net/publication/45914316_Compiling_Signal_Processing_Code_embedded_in_Haskell_via_LLVM
-https://www.researchgate.net/publication/228791306_Audio_Processing_and_Sound_Synthesis_in_Haskell
-https://ocaml.org/p/streaming/0.8.0/doc/Streaming/Stream/index.html
-https://opam.ocaml.org/packages/fstreams/
-https://ocaml-multicore.github.io/eio/eio/Eio/Stream/index.html
-https://ocaml.org/p/streaming/0.8.0/doc/index.html
-https://ocaml-lib.sourceforge.net/doc/IO.html
-https://reactiveml.github.io/reactive_asco/resources/farm13.pdf
-https://strymonas.github.io/docs/ocaml-22.pdf
-https://hackage.haskell.org/package/SDL
-https://hackage.haskell.org/package/OpenGL
-https://hackage.haskell.org/package/HaGL
-https://hackage.haskell.org/package/sdl2-gfx
-https://hackage.haskell.org/package/gloss-rendering
-https://hackage.haskell.org/package/gloss
-https://hackage.haskell.org/package/diagrams
-https://hackage.haskell.org/package/sdl2-1.3.0
-https://hackage.haskell.org/package/sdl2-1.0.0
-https://hackage.haskell.org/package/sdl2-2.1.2
-https://hackage.haskell.org/package/sdl2-2.5.0.0
-https://ocaml.org/p/graphics/latest/doc/README.html
-https://ocaml.github.io/graphics/graphics/Graphics/
-https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora124.html
-https://ocaml.org/manual/4.05/libref/Graphics.html
-https://ocaml.org/p/graphics/5.1.2/doc/README.html
-https://www.cis.upenn.edu/~cis120/current/files/1200notes.pdf
-https://www.seas.upenn.edu/~cis120/archive/22sp/files/120notes.pdf
-https://ocaml.org/p/async_graphics/latest/doc/Async_graphics/index.html
-https://biblio.ugent.be/publication/1246782
-https://arthurxavierx.github.io/RealWorldAppComonadicUI.pdf
-https://hackage.haskell.org/package/gtk
-https://hackage.haskell.org/package/cairo
-https://hackage.haskell.org/packages/tag/graphics
-https://archives.haskell.org/projects.haskell.org/diagrams/doc/manual.html
-https://hackage.haskell.org/package/GLFW-b
-https://hackage.haskell.org/package/gi-gtk
-https://hackage.haskell.org/package/diagrams-cairo
-https://hackage.haskell.org/package/usb
-https://hackage.haskell.org/package/hidapi
-https://hackage.haskell.org/package/serialport/docs
-https://hackage.haskell.org/packages/tag/hardware
-https://hackage.haskell.org/package/usb-iteratee
-https://hackage.haskell.org/package/hid
-https://arxiv.org/abs/1309.2093
-https://opam.ocaml.org/packages/serialport/
-https://ocaml.org/p/serialport/0.1
-https://ocaml.org/p/stdio/latest/doc/Stdio/index.html
-https://ocaml.org/manual/5.2/api/Unix.html
-https://ocaml.org/manual/5.3/api/UnixLabels.html
-https://www.cs.cornell.edu/courses/cs3110/2011sp/Handouts/Hickey.pdf
-https://ocaml.github.io/ocamlunix/ocamlunix.pdf
-https://ocaml.org/manual/4.00/ocaml-4.00-refman.pdf
-https://www.researchgate.net/publication/2245424_Lambda_in_Motion_Controlling_Robots_With_Haskell
-https://hackage.haskell.org/package/exceptions-0.10.7/docs/Control-Monad-Catch.html
-https://hackage-content.haskell.org/package/exceptions-0.10.10/docs/src/Control.Monad.Catch.html
-https://ocaml.org/p/lwt/5.4.1/doc/lwt/Lwt/index.html
-https://ocaml.org/p/lwt-exit/1.0/doc/lwt-exit/Lwt_exit/index.html
-https://ocsigen.org/lwt/5.4.2/api/Lwt
-https://ocaml.org/u/dd4fdb0c026377497e91e41115e3044c/lwt/6.0.0~alpha00/manual.html
-https://discuss.ocaml.org/t/ann-lwt-canceler-0-3/7092
-https://arxiv.org/abs/1611.00692
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Exception-Base.html
-https://hackage.haskell.org/package/general-allocate-0.2.3.0
-https://hackage.haskell.org/package/network-simple-tls
-https://hackage.haskell.org/package/network-simple
-https://hackage.haskell.org/package/tls
-https://hackage.haskell.org/package/network-simple-tls-0.4.2
-https://hackage.haskell.org/package/network-simple-tls-0.3.2
-https://hackage-content.haskell.org/package/tls-2.2.2/docs/Network-TLS.html
-https://hackage.haskell.org/package/dns-4.2.0
-https://ocaml.org/p/tls-lwt/latest/tls-lwt/Tls_lwt/index.html
-https://ocaml.org/p/tls-lwt/latest/doc/index.html
-https://ocaml.org/p/tls-lwt/1.0.4/doc/tls-lwt/Tls_lwt/index.html
-https://opam-5.ocaml.org/packages/tls-lwt/
-https://git.jeffas.net/ocaml-tls/files/lwt/tls_lwt.mli.html
-https://projects.camlcity.org/projects/dl/ocamlnet-4.1.9/doc/html-main/Tls.html
-https://sources.debian.org/data/main/l/lwt/2.4.3-4/manual/manual.pdf
-https://hackage.haskell.org/package/uniform-io-1.0.0.0
-https://www.stackage.org/lts-18.0/package/network-simple-tls-0.4
-https://hackage.haskell.org/package/unagi-chan
-https://hackage.haskell.org/package/unagi-chan-0.2.0.0
-https://hackage.haskell.org/package/unagi-chan-0.4.1.2
-https://hackage.haskell.org/package/unagi-chan/docs/Control-Concurrent-Chan-Unagi.html
-https://hackage.haskell.org/package/unagi-streams-0.1.1.0
-https://hackage.haskell.org/package/stm-chans
-https://upcommons.upc.edu/bitstreams/1cf46039-a6e7-4daf-a90a-c11ddc38196c/content
-https://citeseerx.ist.psu.edu/document?doi=f0a3a86e9a05bb694be99d9d2db863fad6ff34ba&repid=rep1&type=pdf
-https://arxiv.org/abs/1608.02896
-https://hackage.haskell.org/package/simple-actors/docs/Control-Concurrent-Actors.html
-https://hackage.haskell.org/package/hactors/docs/Control-Concurrent-Actor.html
-https://ocaml.org/p/lwt/4.3.0/index.html
-https://opam.ocaml.org/packages/mirage-channel-lwt/
-https://arxiv.org/abs/2111.12147
-https://github.com/robur-coop/miou/blob/main/queue/main.ml
-https://hackage.haskell.org/package/amazonka-s3
-https://hackage.haskell.org/package/minio-hs
-https://hackage.haskell.org/package/minio-hs-1.2.0/
-https://hackage.haskell.org/package/minio-hs-1.3.1
-https://hackage.haskell.org/package/amazonka-s3-1.4.1
-https://hackage-content-origin.haskell.org/package/amazonka-s3-streaming-0.2.0.3
-https://discourse.haskell.org/t/reading-s3-hosted-files/5169
-https://www.researchgate.net/publication/221562940_Towards_Haskell_in_the_Cloud
-https://www.microsoft.com/en-us/research/wp-content/uploads/2011/01/monad-par.pdf
-https://zio.github.io/zio-s3/docs/quickstart/quickstart_index
-https://zio.dev/zio-s3/
-https://index.scala-lang.org/zio/zio-s3
-https://ziohttp.com/examples/streaming/
-https://index.scala-lang.org/zio/zio-s3/artifacts/zio-s3/0.3.7
-https://zio.dev/reference/stream/zstream/creating-zio-streams/
-https://index.scala-lang.org/laserdisc-io/fs2-aws
-https://zio.dev/zio-aws/getting-started
-https://hackage.haskell.org/package/websockets
-https://hackage.haskell.org/package/wuss
-https://hackage.haskell.org/package/wuss-2.0.1.0
-https://hackage.haskell.org/package/wuss-2.0.1.8
-https://hackage.haskell.org/package/wuss-1.1.8
-https://hackage.haskell.org/package/wuss-2.0.2.0
-https://hackage.haskell.org/package/wuss-2.0.2.7
-https://hackage-content.haskell.org/package/wuss-2.0.2.5/docs/Wuss.html
-https://hackage.haskell.org/package/websockets-0.7.4.1/docs/Network-WebSockets.html
-https://hackage.haskell.org/package/websockets-0.6.0.1/docs/Network-WebSockets.html
-https://arxiv.org/abs/2005.09452
-https://arxiv.org/abs/2112.03653
-https://ocaml.org/p/websocket-lwt/latest/README.html
-https://ocaml.org/p/websocket-lwt
-https://opam.ocaml.org/packages/websocket-lwt/
-https://ocaml.org/p/websocket-lwt-unix/latest/doc/index.html
-https://ocaml.org/p/websocket-lwt-unix/2.15
-https://ocaml.org/p/websocket-lwt-unix/2.15/doc/index.html
-https://ocaml.org/p/websocket-lwt-unix/2.17/doc/websocket-lwt-unix/Websocket_lwt_unix/index.html
-https://opam.ocaml.org/packages/websocket/
-https://hackage.haskell.org/package/wai-eventsource
-https://hackage.haskell.org/package/wai-eventsource/docs/Network-Wai-EventSource.html
-https://hackage.haskell.org/package/wai-extra-3.0.15.2/docs/Network-Wai-EventSource.html
-https://hackage.haskell.org/package/wai-extra
-https://hackage-content.haskell.org/package/http2-5.4.0
-https://hackage.haskell.org/package/yesod-eventsource
-https://hackage.haskell.org/package/wai-extra-3.1.4
-https://hackage-content-origin.haskell.org/package/http2-5.1.3
-https://ocaml.org/p/cohttp-lwt/2.1.3/doc/README.html
-https://ocaml.org/p/cohttp/4.0.0/doc/README.html
-https://github.com/mirage/ocaml-cohttp
-https://opam.ocaml.org/packages/cohttp/
-https://opam.ocaml.org/packages/cohttp-lwt-unix/
-https://ocaml.org/p/cohttp-lwt/1.2.0/doc/README.html
-https://hackage-content-origin.haskell.org/package/typed-protocols
-https://www.mew.org/~kazu/doc/paper/http2-haskell-2016.pdf
-https://hackage-content.haskell.org/package/louter-0.1.1.2/docs/Louter-Types-Streaming.html
-https://hackage.haskell.org/package/http2-client
-https://hackage.haskell.org/package/smtp-mail
-https://hackage.haskell.org/package/HaskellNet
-https://hackage.haskell.org/package/HaskellNet-0.2.2
-https://www.stackage.org/package/HaskellNet
-https://hackage.haskell.org/package/HaskellNet-SSL-0.3.3.0/docs
-https://hackage.haskell.org/package/HaskellNet-SSL-0.2.5/docs
-https://packages.debian.org/source/stable/haskell-mime-mail
-https://ocaml.org/p/letters/0.4.0/doc/README.html
-https://ocaml.org/p/sendmail-lwt/0.10.0/doc/Sendmail_lwt/index.html
-https://ocaml.org/p/letters/0.3.2/doc/README.html
-https://ocaml.org/p/letters/0.3.0/doc/README.html
-https://ocaml.github.io/platform-dev/packages/imap/
-https://ocaml.org/p/letters/0.3.3
-https://opam-5.ocaml.org/packages/letters/
-https://discuss.ocaml.org/t/are-there-any-imap-server-libraries/16175
-https://hackage.haskell.org/package/bzlib
-https://hackage.haskell.org/package/zlib-conduit-0.2.0
-https://hackage.haskell.org/package/zlib-conduit-0.5.0
-https://hackage.haskell.org/package/bzlib-conduit-0.3.0
-https://hackage.haskell.org/package/bzlib-conduit-0.2.1.0
-https://hackage.haskell.org/package/zlib-conduit-0.5.0.2
-https://hackage-content.haskell.org/package/zlib-0.7.1.0
-https://ocaml.org/p/lwt/6.1.0/doc/lwt/Lwt_stream/index.html
-https://ocaml.org/p/decompress/1.5.3
-https://ocaml.org/p/decompress/1.5.0
-https://opam.ocaml.org/packages/decompress/
-https://ocaml.org/p/bytesrw/0.2.0/doc/bytesrw.zlib/Bytesrw_zlib/Gzip/index.html
-https://opam.ocaml.org/packages/zlib/
-https://opam-5.ocaml.org/packages/clz/
-https://ocaml.org/p/decompress/1.5.0/doc/decompress.gz/Gz/Def/index.html
-https://vmchale.com/static/serve/lazy-c-api-streaming.pdf
-https://hackage.haskell.org/package/streaming-brotli/docs/Streaming-Brotli.html
-https://hackage.haskell.org/package/zstd/docs/Codec-Compression-Zstd-Streaming.html
-https://citeseerx.ist.psu.edu/document?doi=8766d8c68cf63e43c3d65955feab91dcb8e934f5&repid=rep1&type=pdf
-https://citeseerx.ist.psu.edu/document?doi=5740bd423ec97e8371d0589a7cdca738f12a12c6&repid=rep1&type=pdf
-https://hackage.haskell.org/package/lzma/docs/Codec-Compression-Lzma.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/binary-0.7.5.0/Data-Binary.html
-https://hackage.haskell.org/package/unix-2.7.2.2
-https://hackage-content.haskell.org/package/unix-2.8.6.0
-https://hackage-content-origin.haskell.org/package/unix-2.8.3.0
-https://hackage-content-origin.haskell.org/package/unix-2.8.1.1
-https://hackage-content-origin.haskell.org/package/unix-2.8.7.0
-https://hackage.haskell.org/package/unix-2.0/docs/System-Posix-IO.html
-https://hackage.haskell.org/package/base-4.6.0.1/docs/GHC-IO-Handle-FD.html
-https://ocaml.github.io/ocamlunix/
-https://ocaml.github.io/ocamlunix/ocamlunix.html
-https://ocaml.github.io/ocamlunix/signals.html
-https://ocaml.github.io/ocamlunix/pipes.html
-https://ocaml-multicore.github.io/eio/eio/Eio_unix/Process/index.html
-https://ocaml.github.io/ocamlunix/toc.html
-https://projects.camlcity.org/projects/dl/ocamlnet-4.0.2/doc/html-main/Netsys_posix.html
-https://www.cl.cam.ac.uk/~jjl25/docs/ocaml/Unix/index.html
-https://hackage.haskell.org/package/process
-https://hackage.haskell.org/package/process-1.6.11.0
-https://hackage.haskell.org/package/process-1.6.6.0
-https://hackage.haskell.org/package/process-1.6.18.0
-https://hackage.haskell.org/package/process-1.6.23.0
-https://hackage.haskell.org/package/angel
-https://ocaml.org/p/lwt/4.3.0/doc/lwt.unix/Lwt_process/index.html
-https://ocaml.org/p/lwt/4.2.1-1/doc/lwt.unix/Lwt_process/index.html
-https://ocaml.org/u/9a8383bd67a996e84bf1f19865223e33/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_process/index.html
-https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_unix/index.html
-https://ocaml.org/p/lwt/6.1.0/doc/lwt.unix/Lwt_unix/index.html
-https://opam.ocamllabs.io/packages/lwt/lwt.6.0.0~alpha00/
-https://www.sciencedirect.com/science/article/pii/S1571066109004447
-https://citeseerx.ist.psu.edu/document?doi=a4382318df903cbb166d51021e7ed7d9005638ee&repid=rep1&type=pdf
-https://hackage.haskell.org/package/mmap
-https://hackage.haskell.org/package/shared-memory
-https://hackage-content.haskell.org/package/unix-2.8.7.0/docs/System-Posix-SharedMem.html
-https://hackage.haskell.org/package/unix-memory/docs/System-Posix-Memory.html
-https://hackage.haskell.org/package/unix-memory-0.1.1
-https://hackage.haskell.org/package/bindings-mmap/docs
-https://www.stackage.org/lts-24.3/package/mmap
-https://ocaml.org/p/core_unix/latest/doc/core_unix/Core_unix/index.html
-https://opam.ocaml.org/packages/mmap/
-https://opam.ocaml.org/doc/api/opam-core/OpamSystem/
-https://projects.camlcity.org/projects/dl/ocamlnet-3.6/doc/html-main/Netshm.html
-https://ocaml.org/manual/4.11/libref/Unix.html
-https://ocaml.org/p/core_unix/v0.15.2/doc/core_unix/Core_unix/index.html
-https://ocaml.github.io/ocamlunix/files.html
-https://www.typeerror.org/docs/ocaml/libref/unixlabels
-https://www.researchgate.net/publication/221562952_Haskell_on_a_Shared-Memory_Multiprocessor
-https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_professuren/grundlagen_informatik/papersMM/mendler-pouzet-synchron25.pdf
-https://timharris.uk/papers/2005-haskell.pdf
-https://kar.kent.ac.uk/98981/
-https://hackage.haskell.org/package/bytestring-mmap/docs/System-IO-Posix-MMap.html
-https://hackage.haskell.org/package/monad-control-0.3.3.0/docs/Control-Monad-Trans-Control.html
-https://opam-5.ocaml.org/packages/interface-prime-lwt/
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Class.html
-https://hackage.haskell.org/package/path-io
-https://hackage.haskell.org/package/Glob/docs/System-FilePath-Glob.html
-https://hackage.haskell.org/package/filepattern/docs/System-FilePattern-Directory.html
-https://hackage.haskell.org/package/paths/docs/System-Path-IO.html
-https://hackage.haskell.org/package/pathtype
-https://ocaml.org/p/eio/1.1/doc/Eio/Path/index.html
-https://ocaml.org/p/eio/0.12/doc/Eio/Path/index.html
-https://ocaml.org/p/eio/0.10/doc/Eio/Path/index.html
-https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.html
-https://sanette.github.io/ocaml2.org/learn/tutorials/if_statements_loops_and_recursion.html
-https://ocaml.app/article/Working_with_files_and_inputoutput_in_OCaml.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/Data-Traversable.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/libraries/base-4.8.1.0/Data-Traversable.html
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/20-monad-utilities/D74BCFCB041AFF5AF5A799451999A8EB
-https://hackage-content-origin.haskell.org/package/unix-2.0/docs/System-Posix-Files.html
-https://hackage-content.haskell.org/package/unix-2.8.7.0/docs/System-Posix-Files.html
-https://hackage.haskell.org/package/socket
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-Files.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/unix-2.5.1.0/System-Posix-Files.html
-https://downloads.haskell.org/ghc/9.8.0.20230809/docs/libraries/unix-2.8.1.0-c20f/System-Posix-Files-PosixString.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-Files-ByteString.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-IO.html
-https://hackage.haskell.org/package/pipes-protolude/docs/Pipes-Monad.html
-https://mail.haskell.org/pipermail/haskell/2001-February/006703.html
-https://ocaml.org/p/lwt/5.5.0/doc/lwt.unix/Lwt_unix/index.html
-https://ocaml.org/p/lwt/4.2.0/lwt.unix/Lwt_unix/index.html
-https://ocaml.org/p/lwt/5.4.1/lwt.unix/Lwt_unix/index.html
-https://ocaml.org/u/73f55b5cad7ec65737d7a5e544eced32/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_unix/index.html
-https://beej.us/guide/bgipc/html/multi/index.html
-https://hackage.haskell.org/package/cryptonite
-https://hackage-content.haskell.org/package/crypton-x509-1.9.0/docs/Data-X509.html
-https://hackage.haskell.org/package/cryptonite-0.27
-https://hackage.haskell.org/package/cryptonite-0.21
-https://hackage-content.haskell.org/package/crypton-x509-store-1.6.10/docs/Data-X509-CertificateStore.html
-https://hackage.haskell.org/package/cryptonite-0.11
-https://hackage.haskell.org/package/cryptonite-cd
-https://hackage.haskell.org/package/cryptonite-0.15.1
-https://ocaml.org/p/tls-mirage/latest/doc/README.html
-https://opam.ocaml.org/packages/mirage-crypto-rng-lwt/
-https://mirage.io/blog/introducing-ocaml-tls
-https://mirage.io/blog/ocaml-tls-api-internals-attacks-mitigation
-https://fun-ocaml.com/2024/slides/mirageos.pdf
-https://www.cl.cam.ac.uk/~dk505/papers/tls-ocaml2014.pdf
-https://citeseerx.ist.psu.edu/document?doi=c314ea0763ad247eccffc3edcea9128e3bded554&repid=rep1&type=pdf
-https://citeseerx.ist.psu.edu/document?doi=8c0fadc91f0af6ea1ec8c824ec502b104fdc6132&repid=rep1&type=pdf
-https://www.pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf
-https://www.research.ed.ac.uk/files/24354309/haskell15_2.pdf
-https://hackage-content.haskell.org/package/MonadRandom-0.6.2.1/docs/Control-Monad-Random-Class.html
-https://hackage-content.haskell.org/package/MonadRandom-0.6.2.1/docs/Control-Monad-Trans-Random-Strict.html
-https://hackage.haskell.org/package/git
-https://hackage.haskell.org/package/acid-state
-https://hackage.haskell.org/package/acid-state-0.10.1
-https://hackage.haskell.org/package/acid-state-0.7.7
-https://hackage.haskell.org/package/acid-state-dist
-https://hackage.haskell.org/package/acid-state/docs
-https://hackage.haskell.org/package/acid-state-0.16.1.4/docs/
-https://docs.haskellstack.org/en/latest/topics/package_location/
-https://arxiv.org/abs/1407.3561
-https://arxiv.org/abs/2004.07585
-https://sources.debian.org/src/git-annex/8.20210223-2/doc/design/iabackup.mdwn
-https://www.stackage.org/package/git-annex
-https://docs.haskellstack.org/en/v3.3.1/topics/package_location/
-https://hackage.haskell.org/package/persistent-sqlite
-https://hackage.haskell.org/package/sqlite-simple
-https://hackage.haskell.org/package/persistent-sqlite-2.9.0
-https://hackage-content.haskell.org/package/persistent-sqlite-2.13.3.1/docs/Database-Sqlite.html
-https://hackage.haskell.org/package/sqlite-simple-0.4.18.2
-https://hackage.haskell.org/package/sqlite-simple-0.4.8.0
-https://hackage.haskell.org/package/sqlite-simple-0.4.6.0
-https://odr.chalmers.se/bitstreams/84df6716-04b1-4276-be49-653a0214aefe/download
-https://www.usenix.org/conference/dsl-99/domain-specific-embedded-compilers
-https://usenix.org/publications/library/proceedings/dsl99/full_papers/leijen/leijen.pdf
-https://research.manchester.ac.uk/files/54512586/FULL_TEXT.PDF
-https://ocaml.org/p/lwt/5.8.0/doc/index.html
-https://typelevel.org/doobie/docs/01-Introduction.html
-https://typelevel.org/doobie/
-https://index.scala-lang.org/typelevel/doobie?artifact=doobie-hikari-cats
-https://github.com/typelevel/doobie
-https://index.scala-lang.org/typelevel/doobie/artifacts/doobie-core/0.13.4
-https://tpolecat.github.io/doobie-cats-0.4.0/01-Introduction.html
-https://www.scala-exercises.org/doobie/error_handling
-https://typelevel.org/doobie/docs/07-Updating.html
-https://fsharp.github.io/fslang-spec/introduction/
-https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/cleanbook/II.01.SimpleDatabase.pdf
-https://arxiv.org/abs/1009.1166
-https://hackage.haskell.org/package/configuration-tools
-https://hackage.haskell.org/package/yaml/docs/Data-Yaml-Config.html
-https://hackage.haskell.org/package/embed-config
-https://hackage.haskell.org/package/configuration-tools-0.6.1
-https://hackage-content-origin.haskell.org/package/config-ini
-https://docs.haskellstack.org/en/v2.11.1/yaml_configuration/
-https://hackage-content-origin.haskell.org/package/aeson-1.4.1.0
-https://hackage-content-origin.haskell.org/package/aeson-2.1.2.0
-https://mpickering.github.io/papers/thesis.pdf
-https://opam.ocaml.org/doc/man/opam-config.html
-https://opam.ocaml.org/doc/man/opam-env.html
-https://manpages.ubuntu.com/manpages/stonking/man1/ocamlrun.1.html
-https://ocaml.org/manual/4.02/ocaml-4.02-refman.pdf
-https://hackage.haskell.org/package/katip
-https://hackage.haskell.org/package/co-log
-https://hackage.haskell.org/package/opentelemetry-plugin
-https://hackage.haskell.org/package/hs-opentelemetry-api
-https://hackage.haskell.org/package/hs-opentelemetry-api-0.0.3.3
-https://hackage.haskell.org/package/katip-0.3.1.0
-https://hackage-content.haskell.org/package/katip-0.8.8.4/docs/Katip.html
-https://kar.kent.ac.uk/14598/
-https://www.cs.kent.ac.uk/pubs/2003/1770/index.html
-https://kar.kent.ac.uk/61147/
-https://kar.kent.ac.uk/13566/
-https://kar.kent.ac.uk/58270/
-https://typelevel.org/otel4s-sdk/instrumentation/metrics-cats-effect-io-runtime.html
-https://tapir-scala.readthedocs.io/_/downloads/en/v0.12.17/pdf/
-https://sttp.softwaremill.com/_/downloads/en/v3.3.9/pdf/
-https://index.scala-lang.org/theinnerlight/pure-log
-https://hackage.haskell.org/package/directory-1.2.0.1/docs/System-Directory.html
-https://hackage.haskell.org/package/directory-1.0.0.0/docs/System-Directory.html
-https://hackage.haskell.org/package/system-fileio-0.2/docs/System-Directory.html
-https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/System-Directory.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/directory-1.2.1.0/System-Directory.html
-https://hackage-content.haskell.org/package/directory-1.3.10.1/docs/System-Directory.html
-https://downloads.haskell.org/~ghc/8.2-latest/docs/html/libraries/directory-1.3.0.2/src/System-Directory.html
-https://www.haskell.org/onlinereport/directory.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/directory-1.3.8.5-fc66/src/System.Directory.html
-https://ocaml.org/manual/4.06/libref/Unix.html
-https://ocaml.org/manual/5.0/api/Unix.html
-https://ocaml.org/p/ocaml-base-compiler/4.14.1/doc/unix/UnixLabels/index.html
-https://ocaml.org/manual/4.13/api/Unix.html
-https://unix.janestreet.com/ocaml-core/odoc/unix/Unix/index.html
-https://hackage.haskell.org/package/async-timer
-https://hackage.haskell.org/package/time-manager
-https://hackage.haskell.org/package/stm-delay
-https://hackage.haskell.org/package/time-manager-0.3.1.1
-https://hackage.haskell.org/package/time-manager-0.3.1
-https://hackage.haskell.org/package/extensible-effects-concurrent
-https://hackage-content.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf
-https://hackage-content.haskell.org/package/AsyncRattus-0.1.0.1/src/docs/paper.pdf
-https://ocaml.org/p/eio/latest/index.html
-https://ocaml.org/p/eio/latest/doc/index.html
-https://ocaml.org/p/eio/latest/doc/eio/Eio/index.html
-https://ocaml.org/p/eio/latest/eio.mock/Eio_mock/Clock/index.html
-https://ocaml-multicore.github.io/eio/eio/Eio/Time/index.html
-https://hackage.haskell.org/package/hal
-https://hackage.haskell.org/package/hal-0.3.4
-https://hackage.haskell.org/package/hal-0.3.2
-https://hackage-content-origin.haskell.org/package/amazonka-lambda-0.3.4
-https://hackage-content.haskell.org/package/servant-client-0.20.3.0/docs/Servant-Client.html
-https://hackage-content.haskell.org/package/servant-client-core-0.20.3.0/docs/Servant-Client-Core.html
-https://hackage.haskell.org/package/serverless-haskell-0.8.7
-https://docs.servant.dev/en/latest/links.html
-https://arxiv.org/abs/2607.10443
-https://ku-fpg.github.io/publications/
-https://zio.dev/zio-http/reference/server/
-https://ziohttp.com/introduction/
-https://zio.dev/guides/tutorials/build-a-restful-webservice/
-https://ziohttp.com/reference/overview/
-https://ziohttp.com/examples/http-client-server
-https://zio.dev/zio-http/reference/client/
-https://arxiv.org/abs/1711.09288
-https://hackage.haskell.org/package/bytestring
-https://hackage.haskell.org/package/streamly-bytestring-0.2.3
-https://hackage.haskell.org/package/streamly-core
-https://webspace.science.uu.nl/~4110161/pubs/csf2017.pdf
-https://index.scala-lang.org/armanbilge/fs2
-https://index.scala-lang.org/scalaz/scalaz-stream
-https://devon-miller.gitbook.io/test_private_book/intro_basics/error_handling
-https://scala-slick.org/doc/prerelease/dbio.html
-https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.12.2/fs2/io.html
-https://javadoc.io/static/co.fs2/fs2-docs_3/3.8.0/fs2/Stream.html
-https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.8-1580d81/fs2/io.html
-https://hackage.haskell.org/package/streaming-cassava
-https://hackage.haskell.org/package/cassava
-https://hackage.haskell.org/package/streaming-cassava-0.1.0.1
-https://hackage.haskell.org/package/Frames
-https://hackage.haskell.org/package/cassava-streams
-https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv-Streaming.html
-https://hackage.haskell.org/package/cassava-0.5.1.0/candidate/docs/Data-Csv-Streaming.html
-https://hackage.haskell.org/package/cassava-0.5.5.0
-https://hackage-content.haskell.org/package/csv-conduit-1.0.1.1/docs/Data-CSV-Conduit.html
-https://hackage.haskell.org/package/csv-conduit
-https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv-Incremental.html
-https://arxiv.org/abs/2307.03113
-https://index.scala-lang.org/sovt/spata
-https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.9.3
-https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.7.0?binary-version=_2.13
-https://hackage.haskell.org/package/xml-conduit
-https://hackage.haskell.org/package/xml-conduit-1.1.0
-https://hackage.haskell.org/package/xml-conduit-0.5.3.1
-https://hackage.haskell.org/package/xml-conduit-1.1.0.6
-https://www.stackage.org/package/html-conduit
-https://hackage.haskell.org/package/xml-conduit-1.2.3
-https://sources.debian.org/src/haskell-xml-conduit/1.8.0-4/xml-conduit.cabal/
-https://sources.debian.org/src/haskell-xml-conduit/1.9.1.3-2/xml-conduit.cabal
-https://archives.haskell.org/projects.haskell.org/HaXml/
-https://hackage.haskell.org/package/xml-conduit-1.9.1.3/candidate/docs/Text-XML-Stream-Parse.html
-https://hackage.haskell.org/package/html-conduit
-https://arxiv.org/abs/2011.03536
-https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/Archive/XMLtoSQLConversionToolAFPProject/icfp99.pdf
-https://martin.hoppenheit.info/blog/2023/xml-stream-processing-with-haskell/
-https://fs2-data.gnieh.org/documentation/xml/
-https://index.scala-lang.org/scalawilliam/xs4s
-https://www.scalawilliam.com/xml-streaming-for-scala/
-https://www.scala-lang.org/api/2.13.3/scala/io/index.html
-https://www.scala-lang.org/api/2.12.8/scala-xml/scala/xml/parsing/index.html
-https://sttp.softwaremill.com/_/downloads/en/v2.0.6/pdf/
-https://hackage.haskell.org/package/HDBC
-https://hackage.haskell.org/package/hasql
-https://hackage.haskell.org/package/sql-simple
-https://hackage.haskell.org/package/HDBC-1.1.5
-https://hackage.haskell.org/package/hasql-0.7.4/
-https://hackage-content.haskell.org/package/mysql-simple-0.3.0.0
-https://hackage-content.haskell.org/package/mysql-haskell-1.2.4
-https://selda.link/
-https://research.chalmers.se/en/publication/512620
-https://hackage.haskell.org/package/selda-0.1.8.0
-https://ipsj.ixsq.nii.ac.jp/records/20310
-https://arxiv.org/abs/2408.03170
-https://arxiv.org/abs/1102.4769
-https://www.baeldung.com/scala/doobie-intro
-https://typelevel.org/doobie/docs/02-Toolkit.html
-https://index.scala-lang.org/typelevel/doobie/artifacts/doobie-postgres/0.13.2
-https://www.scala-exercises.org/doobie/inserting_and_updating
-https://tpolecat.github.io/doobie-0.2.0/01-Introduction.html
-https://www.baeldung.com/scala/skunk-postgresql-driver
-https://scalac.io/wp-content/uploads/2021/01/Backend-tips-Scalac.pdf
-https://doc.rust-lang.org/std/keyword.async.html
-https://doc.rust-lang.org/stable/reference/expressions/await-expr.html
-https://zio.dev/reference/resource/scope/
-https://zio.dev/reference/
-https://zio.dev/zio-blocks/reference/resource-management/resource/
-https://zio.dev/reference/architecture/non-functional-requirements/
-https://zio.dev/reference/resource/scopedref/
-https://zio.dev/api/zio/scope
-https://typelevel.org/cats-effect/api/3.x/cats/effect/kernel/index.html
-https://virtuslab.com/blog/scala/comparing-effect-systems-in-scala-cats-effect-and-zio/
-https://www.javadoc.io/static/io.vavr/vavr/0.10.6/index.html
-https://citeseerx.ist.psu.edu/document?doi=9653810f947b594e91fdbc906635e0872df4da3d&repid=rep1&type=pdf
-https://www.scalar-conf.com/talk/beyond-flatmap-is-kyo-the-future-of-scala-effects
-https://www.usenix.org/conference/osdi22/presentation/stamler
-https://index.scala-lang.org/zio/interop-cats
-https://jokerconf.com/en/archive/2021/talks/10007539-scala-war-of-effects-zio-vs-cats-effect/
-https://degoes.net/articles/zio-2.0
-https://www.classcentral.com/index.php/subject/zio
-https://old.arrow-kt.io/docs/0.12/core/
-https://www.oreilly.com/library/view/functional-programming-in/9781617297168/
-https://media.arrow-kt.io/
-https://media.arrow-kt.io/tags/fx/
-https://clojure.github.io/core.async/clojure.core.async.html
-https://clojure.github.io/core.async/reference.html
-https://clojure.github.io/core.async/rationale.html
-https://clojure.github.io/core.async/clojure.core.async.flow.html
-https://clojure.org/news/2013/06/28/clojure-clore-async-channels
-https://api.pageplace.de/preview/DT0400.9781783986675_A24356110/preview-9781783986675_A24356110.pdf
-https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/task-expressions
-https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasync.html
-https://courses.grainger.illinois.edu/cs421/su2009/lectures/26-Parallel.pdf
-https://www.mintlify.com/Effect-TS/effect-smol/reference/api-reference
-https://effect-ts.github.io/effect/docs/typeclass
-https://effect-ts.github.io/effect/docs/cli
-https://effect.website/docs/other/fp-ts
-https://gcanti.github.io/fp-ts/modules/Task.ts.html
-https://gcanti.github.io/fp-ts-fluture/modules/Future.ts.html
-https://dev.to/anthonyjoeseph/taskeither-vs-fluture-4e0n
-https://app.unpkg.com/fp-ts%401.8.1/files/README.md
-https://www.lambdalounge.org.uk/2021/01/18/practical-fp-in-typescript.html
-https://icfp17.sigplan.org/details/hope-2017-talks/1/Invited-Talk-Semantics-of-Effect-Systems-by-Graded-Monads
-https://streamly.composewell.com/streamly-0.11.0/Tutorials/streams-as-loops.html
-https://www.asaj.org/papers/csl11.pdf
-https://hackage.haskell.org/packages/archive/conduit/0.0.4/doc/html/Data-Conduit.html
-https://hackage-content-origin.haskell.org/package/conduit-1.3.1.2
-https://hackage-content-origin.haskell.org/package/conduit-1.2.4/docs/doc-index-C.html
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-IO.html
-https://hackage.haskell.org/package/http-conduit
-https://hackage.haskell.org/package/http-conduit-2.3.0
-https://hackage-content-origin.haskell.org/package/http-conduit-2.3.1/docs/Network-HTTP-Client-Conduit.html
-https://hackage-origin.haskell.org/package/http-client-0.4.21
-https://hackage.haskell.org/package/http-conduit-2.2.2.1/docs
-https://hackage.haskell.org/package/http-conduit-1.9.2.1/docs
-https://hackage.haskell.org/package/http-conduit-2.1.0/docs
-https://hackage.haskell.org/package/http-conduit-2.3.2
-https://hackage.haskell.org/package/webapp-0.3.6
-https://www.researchgate.net/publication/224231906_Warp_A_Haskell_web_server
-https://hackage.haskell.org/package/twain
-https://hackage.haskell.org/package/network-2.3/docs/Network.html
-https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket-ByteString.html
-https://downloads.haskell.org/~ghc/6.4.2/docs/html/libraries/network/Network-Socket.html
-https://lean-lang.org/papers/do.pdf
-https://research.tudelft.nl/en/publications/modal-%CE%BC-calculus-for-free-in-agda/
-https://repository.tudelft.nl/record/uuid%3Ae0503427-80ad-478b-ac9c-c2076949e689
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/System.IO.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Event.html
-https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Event.html
-https://arxiv.org/abs/2010.13432
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/base-4.22.0.0-dbdd/GHC-IO-Handle.html
-https://mmhaskell.com/blog/2022/5/16/bufferingplease-wait
-https://www.cmi.ac.in/~spsuresh/teaching/prgh19/lectures/lecture17.pdf
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/libraries/base-4.5.1.0/Control-Concurrent-MVar.html
-https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/stm.html
-https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/stm.html
-https://www.schoolofhaskell.com/user/alexanderaa/stm-examples
-https://www.cs.washington.edu/education/courses/549/07wi/files/stm.pdf
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception-Base.html
-https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Utils-Exception.html
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/ghc-9.14.0.20251128-1ddb/GHC-Utils-Exception.html
-https://haskell.org/definition/ffi/sec-primitive.html
-https://hackage.haskell.org/package/process-1.2.0.0/docs/System-Process.html
-https://pdxscholar.library.pdx.edu/open_access_etds/499/
-https://hackage.haskell.org/package/serialise
-https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Tutorial.html
-https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Encoding.html
-https://hackage.haskell.org/package/cborg
-https://hackage.haskell.org/package/binary-serialise-cbor
-https://hackage.haskell.org/package/serialise-0.2.2.0
-https://hackage-content.haskell.org/package/cborg-0.2.10.0/docs/Codec-CBOR.html
-https://hackage.haskell.org/package/cborg-json
-https://citeseerx.ist.psu.edu/document?doi=19d9fb03cc0e9747b1208535cbe2751749b39dac&repid=rep1&type=pdf
-https://hackage.haskell.org/package/aeson
-https://hackage-content-origin.haskell.org/package/aeson-2.3.0.0
-https://hackage.haskell.org/package/aeson/docs/Data-Aeson.html
-https://hackage-content-origin.haskell.org/package/aeson-2.2.0.0
-https://archives.haskell.org/code.haskell.org/binary/
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html
-https://hackage.haskell.org/package/fast-logger
-https://hackage.haskell.org/package/monad-logger-syslog
-https://hackage-content.haskell.org/package/hslogger-1.3.2.0/docs/System-Log-Logger.html
-https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/System-Log-FastLogger-Internal.html
-https://hackage.haskell.org/package/katip-0.3.1.4/docs/doc-index.html
-https://hackage-content.haskell.org/package/katip-0.8.8.3/docs/doc-index-All.html
-https://www.stackage.org/lts-22.44/package/katip-0.8.8.2
-https://kowainik.github.io/projects/co-log
-https://hackage.haskell.org/package/fast-logger/docs/System-Log-FastLogger.html
-https://hackage.haskell.org/package/fast-logger-3.2.0/docs
-https://hackage.haskell.org/package/fast-logger-3.0.0/docs
-https://hackage.haskell.org/package/fast-logger-2.4.17/docs
-https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/src/System.Log.FastLogger.FileIO.html
-https://hackage.haskell.org/package/temporary-1.1/docs/src/System-IO-Temp.html
-https://hackage-content.haskell.org/package/extra-1.8/docs/src/System.IO.Extra.html
-https://hackage.haskell.org/package/fsnotify
-https://hackage-content.haskell.org/package/fsnotify-0.4.3.0/docs/System-FSNotify-Devel.html
-https://hackage.haskell.org/package/temporary/docs/src/System.IO.Temp.html
-https://downloads.haskell.org/ghc/latest/docs/libraries/Cabal-3.16.0.0-d85b/Distribution-Simple-Utils.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/ghc-8.4.4/FileCleanup.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/Cabal-1.24.2.0/Distribution-Simple-Utils.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/Cabal-2.0.0.2/Distribution-Simple-Utils.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/Cabal-1.12.0/Distribution-Simple-Utils.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/Cabal-3.14.1.0-be50/Distribution-Simple-Utils.html
-https://hackage.haskell.org/package/Cabal-ide-backend-1.23.0.0/docs/Distribution-Simple-Utils.html
-https://hackage.haskell.org/package/bytestring-0.10.0.0
-https://hackage-content.haskell.org/package/bytestring-0.10.12.0/docs/Data-ByteString.html
-https://hackage.haskell.org/package/bytestring-0.10.2.0
-https://hackage-content.haskell.org/package/bytestring-0.12.1.0/docs/Data-ByteString-Char8.html
-https://hackage.haskell.org/package/utf8-string/docs/Data-ByteString-UTF8.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/bytestring-0.10.4.0/Data-ByteString.html
-https://hackage-content.haskell.org/package/bytestring-0.12.2.0/docs/Data-ByteString-Internal.html
-https://hackage.haskell.org/package/bytestring/docs/Data-ByteString.html
-https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/Data-ByteString.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/bytestring-0.9.1.10/Data-ByteString.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-IO-Encoding.html
-https://downloads.haskell.org/~ghc/latest/docs/libraries/text-2.1.3-075e/Data-Text-Encoding.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-IO-Encoding-Types.html
-https://hackage.haskell.org/package/bytestring-encoding/docs/Data-ByteString-Encoding.html
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Encoding.html
-https://hackage.haskell.org/package/optparse-applicative
-https://hackage.haskell.org/package/optparse-applicative-0.14.0.0
-https://hackage-content-origin.haskell.org/package/optparse-applicative-0.15.1.0
-https://hackage.haskell.org/package/optparse-applicative-0.5.0
-https://hackage.haskell.org/package/optparse-applicative-0.12.1.0
-https://hackage-content.haskell.org/package/optparse-applicative-dex-1.0.1/docs/Options-Applicative-Dex.html
-https://hackage-content.haskell.org/package/cmdargs-0.1/src/cmdargs.htm
-https://hackage-content.haskell.org/package/optparse-applicative-0.16.0.0/docs/doc-index-B.html
-https://packages.debian.org/trixie/source/haskell-ansi-terminal
-https://hackage.haskell.org/package/ansi-terminal-0.6.2.2
-https://hackage.haskell.org/package/terminal
-https://sources.debian.org/src/haskell-ansi-terminal/1.1.5-1/README.md
-https://www.cse.sc.edu/~mgv/csce330f22/haskell/Haskell_wiki.pdf
-https://mail.haskell.org/pipermail/beginners/2010-March/003692.html
-https://hackage.haskell.org/package/WAVE/docs/Data-WAVE.html
-https://hackage-search.serokell.io/viewfile/wahsp-0.2/Web/Audio.hs
-https://web.cecs.pdx.edu/~mpj/pubs/plos07.html
-https://hackage.haskell.org/package/usb-1.3.0.6
-https://hackage.haskell.org/package/usb-safe-0.8
-https://hackage.haskell.org/package/usb-safe-0.4
-https://hackage.haskell.org/package/usb-0.3.0.1
-https://hackage.haskell.org/package/bindings-libusb
-https://hackage.haskell.org/package/ls-usb
-https://hackage.haskell.org/package/usb-enumerator
-https://hackage.haskell.org/package/serial
-https://hackage.haskell.org/package/linux-evdev/docs
-https://hackage.haskell.org/package/linux-evdev/docs/doc-index.html
-https://hackage.haskell.org/package/hsI2C-0.1.3
-https://hackage-content.haskell.org/package/evdev-2.3.1.2/docs/Evdev.html
-https://hackage.haskell.org/package/hpio-0.8.0.1
-https://hackage-content.haskell.org/package/evdev-2.3.1.2/docs/src/Evdev.html
-https://hackage.haskell.org/package/gpio
-https://hackage.haskell.org/package/i2c
-https://hackage.haskell.org/package/ftdi-0.2
-https://hackage.haskell.org/package/ftdi-0.3.0.0/docs
-https://hackage-content.haskell.org/package/ftdi-0.3.0.4/docs/System-FTDI.html
-https://hackage-content.haskell.org/package/ftdi-0.3.0.4/docs/doc-index.html
-https://hackage.haskell.org/package/midi
-https://hackage.haskell.org/package/alsa-seq
-https://hackage.haskell.org/package/alsa-midi-0.4.0.1/docs
-https://hackage.haskell.org/package/alsa-gui
-https://hackage.haskell.org/package/RtMidi
-https://hackage-content.haskell.org/package/pipes-2.4.0
-https://hackage.haskell.org/package/pipes-parse
-https://hackage.haskell.org/package/pipes-bytestring
-https://packages.debian.org/source/sid/mips64el/misc/haskell-pipes
-https://sources.debian.org/src/haskell-pipes/4.3.14-1
-https://hackage.haskell.org/packages/archive/pipes/
-https://hackage-content.haskell.org/package/pipes-4.3.16
-https://hackage-origin.haskell.org/package/conduit-1.3.0/docs/Data-Conduit-Combinators-Stream.html
-https://packages.debian.org/source/stable/haskell-conduit
-https://packages.debian.org/source/bookworm/haskell-conduit
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1031858.html
-https://hackage.haskell.org/package/streamly-0.2.0
-https://hackage.haskell.org/package/streamly-0.8.3
-https://docs.min.io/aistor/developers/sdk/haskell/
-https://docs.min.io/aistor/developers/sdk/haskell/api/
-https://github.com/brendanhay/amazonka
-https://www.stackage.org/lts-2.22/package/amazonka-s3-0.3.6
-https://repology.org/project/haskell%3Aamazonka-s3-streaming/packages
-https://tech.freckle.com/2023/09/22/using-amazonka-2-0/
-https://hackage.haskell.org/package/amazonka-s3-1.6.1
-https://gitlab.ifi.lmu.de/uni2work/haskell/minio-hs/-/blob/v1.5.1/minio-hs.cabal?ref_type=tags
-https://hackage.haskell.org/package/minio-hs/docs/Network-Minio-S3API.html
-https://hackage.haskell.org/package/minio-hs/docs/Network-Minio.html
-https://hackage.haskell.org/package/minio-hs-1.0.1/docs/Network-Minio.html
-https://hackage.haskell.org/package/google-cloud-storage-1.1.0.0
-https://min-io.cn/docs/minio/linux/developers/haskell/minio-haskell.html
-https://min-io.cn/docs/minio/linux/developers/haskell/API.html
-https://hackage.haskell.org/package/hS3-0.1
-https://hackage.haskell.org/package/hS3-0.3
-https://hackage.haskell.org/package/amazonka-s3-1.0.0
-https://hackage.haskell.org/package/amazonka-s3-1.2.0.2
-https://hackage.haskell.org/package/amazonka-s3-1.3.3
-https://hackage.haskell.org/package/amqp
-https://hackage.haskell.org/package/hedis
-https://hackage.haskell.org/package/hask-redis-mux-0.1.0.0
-https://hackage-content.haskell.org/package/amqp-worker-2.0.1/candidate
-https://www.stackage.org/lts-6.1/package/amqp-0.13.1
-https://hackage.haskell.org/package/amqp-streamly
-https://hackage.haskell.org/package/redis
-https://hackage.haskell.org/package/redis-0.14.2
-https://hackage.haskell.org/package/kafka-client
-https://hackage.haskell.org/package/zeromq-haskell/docs/System-ZMQ.html
-https://hackage.haskell.org/package/zeromq3-haskell
-https://hackage-content.haskell.org/package/zeromq4-haskell-0.8.0/docs/System-ZMQ4.html
-https://hackage-content.haskell.org/package/zeromq4-haskell-0.8.0/docs/System-ZMQ4-Monadic.html
-https://hackage.haskell.org/package/zeromq3-haskell-0.2
-https://hackage.haskell.org/package/zeromq3-haskell-0.3.0
-https://hackage.haskell.org/package/zeromq3-haskell-0.3.1
-https://hackage.haskell.org/package/zeromq3-haskell-0.5.1
-https://zguide.zeromq.org/
-https://api.pageplace.de/preview/DT0400.9781449334451_A24456662/preview-9781449334451_A24456662.pdf
-https://hackage.haskell.org/package/zeromq4-haskell-0.6.4
-https://hackage.haskell.org/package/http-conduit-2.2.3
-https://hackage.haskell.org/package/http-conduit-1.8.2.1/docs
-https://hackage.haskell.org/package/websockets/docs/Network-WebSockets.html
-https://hackage.haskell.org/package/websockets-0.9.6.1/docs/Network-WebSockets.html
-https://hackage.haskell.org/package/websockets-0.3.1.0/docs/Network-WebSockets.html
-https://hackage.haskell.org/package/websockets-0.8.2.2/docs/Network-WebSockets.html
-https://hackage.haskell.org/package/wss-client/docs/Network-WebSockets-Client.html
-https://hackage-content.haskell.org/package/websockets-0.12.7.3/src/
-https://archlinux.org/packages/extra/x86_64/haskell-websockets/
-https://hackage.haskell.org/package/http-conduit-1.2.6/docs/Network-HTTP-Conduit.html
-https://hackage.haskell.org/package/http-conduit-1.2.0/docs/Network-HTTP-Conduit.html
-https://hackage.haskell.org/package/http-conduit-2.3.7.1/
-https://sources.debian.org/src/haskell-http-conduit/2.3.8-1/http-conduit.cabal
-https://hackage.haskell.org/package/servant
-https://hackage.haskell.org/package/servant-client
-https://hackage.haskell.org/package/servant-client-core-0.14.1
-https://hackage.haskell.org/package/servant-client-0.10/docs
-https://hackage.haskell.org/package/servant-client-0.6.1
-https://hackage.haskell.org/package/servant-client-0.9.1
-https://hackage.haskell.org/package/servant-client-0.4.2
-https://docs.servant.dev/en/latest/index.html
-https://docs.servant.dev/_/downloads/en/v0.7/pdf/
-https://docs.servant.dev/_/downloads/en/v0.14.1/pdf/
-https://hackage.haskell.org/package/wai/docs/Network-Wai-Internal.html
-https://hackage.haskell.org/package/wai-3.2.2/docs/Network-Wai.html
-https://packages.debian.org/source/stable/haskell-wai-middleware-static
-https://hackage-content.haskell.org/package/wai-extra-3.1.18/docs/Network-Wai-Middleware-Select.html
-https://hackage-content.haskell.org/package/wai-extra-3.1.18/docs/Network-Wai-Parse.html
-https://hackage-content.haskell.org/package/wai-middleware-catch-0.1
-https://packages.debian.org/source/stable/haskell-wai-cors
-https://hackage.haskell.org/package/graphql-client
-https://hackage.haskell.org/package/graphql-client-1.0.0
-https://hackage.haskell.org/package/morpheus-graphql-client
-https://hackage.haskell.org/package/graphql-0.1
-https://hackage.haskell.org/package/morpheus-graphql-server
-https://hackage.haskell.org/package/morpheus-graphql-0.6.2
-https://www.stackage.org/lts-17.4/package/graphql-client-1.1.0
-https://hackage.haskell.org/package/proto-lens
-https://hackage.haskell.org/package/http2-grpc-proto-lens
-https://hackage.haskell.org/package/protobuf
-https://hackage.haskell.org/package/proto3-wire
-https://hackage.haskell.org/package/protocol-buffers
-https://hackage.haskell.org/package/proto3-suite-0.9.4
-https://www.stackage.org/lts-10.3/package/proto-lens-0.2.2.0
-https://hackage.haskell.org/package/grpc-haskell-0.1.0
-https://hackage-content.haskell.org/package/proto3-wire-1.4.6/docs/Proto3-Wire-Decode.html
-https://hackage.haskell.org/package/grapesy
-https://hackage.haskell.org/package/capnp
-https://hackage.haskell.org/package/capnp/docs/Capnp-Tutorial.html
-https://hackage.haskell.org/package/capnp-0.6.0.0
-https://hackage.haskell.org/package/thrift
-https://hackage.haskell.org/package/capnp-0.3.0.0
-https://hackage.haskell.org/package/capnp-0.1.0.0
-https://hackage.haskell.org/package/capnp-0.8.0.0/candidate/docs/Capnp-Tutorial.html
-https://hackage.haskell.org/package/capnp-0.1.0.0/docs/src/Data.Capnp.Tutorial.html
-https://capnproto.org/rpc.html
-https://capnproto.org/cxxrpc.html
-https://hackage.haskell.org/package/proto-lens-0.4.0.0
-https://hackage.haskell.org/package/proto-lens-0.2.2.0
-https://hackage.haskell.org/package/proto-lens-0.7.0.0
-https://hackage.haskell.org/package/proto-lens-0.6.0.0
-https://hackage-content.haskell.org/package/proto-lens-0.7.1.6
-https://hackage.haskell.org/package/proto-lens-0.1.0.4
-https://hackage.haskell.org/package/proto-lens-0.3.1.0
-https://hackage.haskell.org/package/esqueleto
-https://hackage.haskell.org/package/esqueleto-0.2
-https://hackage.haskell.org/package/esqueleto-3.5.6.1
-https://hackage.haskell.org/package/persistent-1.1.5.1
-https://hackage.haskell.org/package/esqueleto-3.1.0
-https://hackage-content.haskell.org/package/persistent-2.17.1.0/docs/Database-Persist.html
-https://hackage-content-origin.haskell.org/package/persistent-2.10.1
-https://packages.debian.org/source/stable/haskell-esqueleto
-http://www.yesodweb.com/book/persistent
-https://haskell-beam.github.io/beam/user-guide/databases/
-https://hackage.haskell.org/package/opaleye-0.2
-https://hackage.haskell.org/package/opaleye-0.6.7006.1
-https://hackage.haskell.org/package/opaleye-0.6.7003.1
-https://hackage.haskell.org/package/opaleye-0.4.1.0
-https://hackage.haskell.org/package/esqueleto-2.5.3/docs/Database-Esqueleto.html
-https://hackage.haskell.org/package/esqueleto-2.4.1/docs/Database-Esqueleto.html
-https://hackage.haskell.org/package/esqueleto-3.0.0
-https://hackage.haskell.org/package/persistent-eventsource/docs
-https://hackage.haskell.org/package/esqueleto-3.5.8.0
-https://hackage.haskell.org/package/zlib-conduit-0.5.0.3
-https://hackage.haskell.org/package/zlib-conduit-0.2.0.1
-https://hackage.haskell.org/package/zlib-conduit-0.4.0/docs
-https://hackage.haskell.org/package/zlib-conduit-0.2.0.1/docs
-https://hackage.haskell.org/package/tar
-https://hackage-content.haskell.org/package/tar-0.7.0.0/docs/Codec-Archive-Tar-Index.html
-https://hackage.haskell.org/package/tar-conduit/docs/Data-Conduit-Tar.html
-https://hackage.haskell.org/package/io-streams-1.3.6.0
-https://hackage.haskell.org/package/zlib
-https://hackage.haskell.org/package/zip-1.7.2
-https://hackage.haskell.org/package/zstd
-https://packages.debian.org/source/stable/haskell-zlib
-https://hackage.haskell.org/package/pipes-zlib-0.4.2
-https://hackage-content.haskell.org/package/zlib-0.7.1.1/docs/doc-index.html
-https://www.cs.columbia.edu/~sedwards/classes/2021/4995-fall/reports/gzip.pdf
-https://hackage.haskell.org/package/mtl-mhs
-https://ghc.gitlab.haskell.org/ghc/doc/libraries/transformers-0.6.3.0-inplace/Control-Monad-Trans-Class.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Class.html
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/libraries/transformers-0.6.1.2-70e3/Control-Monad-Trans-Class.html
-https://hackage.haskell.org/package/transformers-0.6.3.0
-https://hackage.haskell.org/package/mtl-1.0
-https://hackage.haskell.org/package/polysemy-1.1.0.0
-https://hackage-content.haskell.org/package/effectful-core-2.2.2.1
-https://hackage-content-origin.haskell.org/package/in-other-words
-https://hackage.haskell.org/package/polysemy-0.2.0.0
-https://hackage.haskell.org/package/polysemy-0.1.2.1
-https://hackage.haskell.org/package/fused-effects-0.1.1.0
-https://hackage.haskell.org/package/fused-effects-0.3.0.0
-https://hackage.haskell.org/package/fused-effects-0.5.0.0
-https://hackage.haskell.org/package/fused-effects-1.1.0.0
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html
-https://hackage.haskell.org/package/resourcet-1.2.2
-https://www.stackage.org/lts-18.24/package/resourcet-1.2.4.3
-https://www.stackage.org/lts-6.35/package/resourcet-1.1.9
-https://www.stackage.org/lts-10.0/package/resourcet-1.1.10
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html
-https://hackage.haskell.org/package/streaming-bytestring-0.3.0
-https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6/docs
-https://hackage.haskell.org/package/streaming-bytestring-0.1.0.6/docs
-https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6
-https://hackage.haskell.org/package/streaming-bytestring-0.1.1.0
-https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0
-https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html
-https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2
-https://github.com/haskell-hvr/http-io-streams
-https://packages.ubuntu.com/source/jammy/armhf/haskell-io-streams
-https://hackage.haskell.org/package/io-streams-1.5.2.0/docs/System-IO-Streams.html
-https://hackage.haskell.org/package/http-types/docs/Network-HTTP-Types-URI.html
-https://hackage.haskell.org/package/http-types
-https://hackage.haskell.org/package/http-types/docs
-https://hackage.haskell.org/package/network-uri/docs/Network-URI.html
-https://hackage.haskell.org/package/http-types-0.12.3
-https://hackage.haskell.org/package/network-2.5.0.0/docs/Network-URI.html
-https://hackage-content.haskell.org/package/http-types-0.8.6
-https://hackage-content.haskell.org/package/http-link-header-1.2.3/docs/Network-HTTP-Link-Types.html
-https://hackage.haskell.org/package/network-uri-2.6.0.3
-https://hackage-content.haskell.org/package/http-types-0.6.2
-https://hackage-content.haskell.org/package/warp-3.4.8/docs/Network-Wai-Handler-Warp.html
-https://hackage-content.haskell.org/package/warp-3.4.12/docs/Network-Wai-Handler-Warp.html
-https://hackage.haskell.org/package/warp-3.3.23
-https://hackage.haskell.org/package/warp-3.3.29
-https://hackage.haskell.org/package/warp-3.2.18.1
-https://hackage.haskell.org/package/warp-3.0.9.1
-https://hackage.haskell.org/package/http-types-0.7.0
-https://hackage.haskell.org/package/http-types-0.3.0
-https://hackage.haskell.org/package/http-types-0.7.3.0.1
-https://hackage.haskell.org/package/http-types-0.12.1/docs
-https://www.stackage.org/package/http-types
-https://packages.fedoraproject.org/pkgs/ghc-http-types/ghc-http-types-doc
-https://hackage.haskell.org/package/network-2.2.1.8/docs/Network-URI.html
-https://hackage.haskell.org/package/network
-https://downloads.haskell.org/~ghc/6.4/docs/html/libraries/network/Network.URI.html
-https://www.haskell.org/hugs/pages/libraries/network/Network-URI.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/network-2.1.0.0/Network-URI.html
-https://hackage-content.haskell.org/package/uri-bytestring-0.4.0.1/docs/URI-ByteString.html
-https://www.stackage.org/lts-7.19/package/network-uri-2.6.1.0
-https://hackage.haskell.org/package/http-client
-https://hackage.haskell.org/package/HTTP
-https://hackage.haskell.org/package/http-client-0.4.26.2/docs/Network-HTTP-Client.html
-https://hackage.haskell.org/package/http-client-0.3.2/docs/Network-HTTP-Client.html
-https://hackage.haskell.org/package/http-client-0.4.1/docs/Network-HTTP-Client.html
-https://hackage.haskell.org/package/http-common
-https://hackage.haskell.org/package/http-common/docs/Network-Http-Types.html
-https://hackage.haskell.org/package/http-client-0.7.13.1
-https://hackage.haskell.org/package/http-client-0.7.7
-https://hackage.haskell.org/package/io-streams-http/docs/System-IO-Streams-HTTP.html
-https://hackage.haskell.org/package/cookie
-https://hackage.haskell.org/package/clientsession/docs/Web-ClientSession.html
-https://hackage-content.haskell.org/package/clientsession-0.8.0.1
-https://hackage.haskell.org/package/cookie-0.4.0.1/docs/Web-Cookie.html
-https://hackage.haskell.org/package/hoauth2
-https://hackage-content.haskell.org/package/clientsession-0.7.3
-https://hackage.haskell.org/package/happstack-clientsession-7.1.1
-https://hackage.haskell.org/package/happstack-clientsession-7.3.3
-https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-Browser.html
-https://hackage-content-origin.haskell.org/package/hoauth2-0.5.5.0
-https://hackage.haskell.org/package/http-client-tls
-https://hackage.haskell.org/package/http-client-tls-0.3.2
-https://hackage.haskell.org/package/http-client-tls-0.3.5.2
-https://hackage.haskell.org/package/http-client-tls-0.3.4.1
-https://hackage.haskell.org/package/http-client-tls-0.3.5
-https://packages.debian.org/trixie/source/haskell-http-client-tls
-https://hackage-content.haskell.org/package/http-client-tls-0.3.6.4/docs/doc-index.html
-https://www.stackage.org/package/http-client-tls
-https://www.stackage.org/lts-24.3/package/http-client-tls
-https://hackage.haskell.org/package/http-client-tls-0.2.1.2
-https://hackage-content-origin.haskell.org/package/tls-1.4.1
-https://hackage.haskell.org/package/tls-1.3.9
-https://hackage.haskell.org/package/tls-1.2.11
-https://hackage.haskell.org/package/tls-1.0.3
-https://hackage.haskell.org/package/tls-1.7.1
-https://hackage-content-origin.haskell.org/package/tls-0.8.1
-https://hackage.haskell.org/package/tls-1.3.10
-https://www.stackage.org/package/tls
-https://hackage.haskell.org/package/cryptostore
-https://hackage-content.haskell.org/package/tls-2.1.10/docs/src/Network.TLS.Parameters.html
-https://hackage.haskell.org/package/cryptostore-0.3.1.0
-https://hackage-content.haskell.org/package/crypton-connection-0.4.4/docs/src/Network.Connection.Types.html
-https://haskell.github.io/security-advisories/by-packages.html
-https://hackage.haskell.org/package/connection
-https://hackage.haskell.org/package/connection/docs/Network-Connection.html
-https://hackage.haskell.org/package/connection/docs
-https://hackage.haskell.org/package/x509-store
-https://hackage.haskell.org/package/conduit-connection
-https://hackage.haskell.org/package/network-connection
-https://hackage.haskell.org/package/x509-validation/docs/Data-X509-Validation.html
-https://hackage.haskell.org/package/x509-validation-1.4.6
-https://hackage.haskell.org/package/x509-validation-1.4.6/docs/Data-X509-Validation.html
-https://hackage.haskell.org/package/x509/docs/Data-X509.html
-https://hackage.haskell.org/package/connections
-https://downloads.haskell.org/ghc/6.0/docs/html/network/doc-index-vT.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/network/src/Network-Socket.html
-https://hackage.haskell.org/package/smtp-mail-0.1.0.0
-https://hackage-content.haskell.org/package/MissingH-1.6.0.2/docs/Network-Email-Sendmail.html
-https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/Network-HaskellNet-IMAP.html
-https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/src/Network.HaskellNet.SMTP.html
-https://hackage-content.haskell.org/package/mime-mail-0.4.14
-https://hackage.haskell.org/package/HaskellNet-SSL-0.3.0.0/docs
-https://hackage.haskell.org/package/HaskellNet-0.6.2/docs
-https://hackage.haskell.org/package/HaskellNet-0.6.0.2/docs
-https://hackage.haskell.org/package/HaskellNet-SSL-0.3.4.4/docs
-https://hackage.haskell.org/package/HaskellNet-SSL-0.3.1.0/docs
-https://www.stackage.org/lts-22.10/package/HaskellNet-0.6.1.2
-https://hackage.haskell.org/package/smtp-mail/docs/Network-Mail-SMTP.html
-https://hackage.haskell.org/package/imap-0.3.0.0
-https://hackage.haskell.org/package/ismtp
-https://hackage.haskell.org/package/imap-0.3.0.8/docs
-https://hackage.haskell.org/package/smtp-mail-ng/docs
-https://hackage.haskell.org/package/hsmtpclient/docs
-https://hackage.haskell.org/package/hxt
-https://hackage.haskell.org/package/hxt-9.3.1.13
-https://hackage.haskell.org/package/hxt-9.3.1.0
-https://hackage-content.haskell.org/package/xml-conduit-1.10.1.0/docs/Text-XML.html
-https://hackage.haskell.org/package/hxt-9.1.4
-https://hackage.haskell.org/package/hxt-9.0.1
-https://hackage.haskell.org/package/hxt-9.1.5
-https://hackage.haskell.org/package/xml-conduit-1.9.1.1
-https://hackage.haskell.org/package/xml-conduit-1.9.0.0
-https://hackage.haskell.org/package/xml-conduit-1.9.1.3
-https://hackage.haskell.org/package/xml-conduit-1.7.0
-https://hackage.haskell.org/package/xml-conduit-1.6.0
-https://packages.guix.gnu.org/packages/ghc-html-conduit
-https://packages.debian.org/trixie/doc/libghc-html-conduit-doc
-https://hackage.haskell.org/package/blaze-html
-https://hackage.haskell.org/package/hxt/docs/Text-XML-HXT-Core.html
-https://hackage.haskell.org/package/blaze-html-0.1/docs
-https://hackage.haskell.org/package/blaze-html/docs
-https://hackage.haskell.org/package/hxt/docs
-https://hackage.haskell.org/package/blaze-html-0.3.0.1/docs/Text-Blaze.html
-https://hackage.haskell.org/package/blaze-html-0.4.1.4/docs/Text-Blaze-Internal.html
-https://hackage.haskell.org/package/tagsoup
-https://hackage.haskell.org/package/html-conduit/docs
-https://hackage.haskell.org/package/tagsoup-ht/docs
-https://hackage-content.haskell.org/package/tagsoup-0.6/src/tagsoup.htm
-https://hackage.haskell.org/package/html-conduit-1.3.1
-https://hackage.haskell.org/package/tagsoup-0.1/docs
-https://hackage.haskell.org/package/tagsoup-0.14.1
-https://hackage.haskell.org/package/blaze-markup/docs/Text-Blaze.html
-https://hackage.haskell.org/package/blaze-markup/docs
-https://packages.debian.org/source/stable/haskell-blaze-html
-https://hackage.haskell.org/package/blaze-html-0.9.0.0
-https://packages.fedoraproject.org/pkgs/ghc-blaze-html/ghc-blaze-html-doc
-https://hackage.haskell.org/package/ihp-hsx
-https://packages.fedoraproject.org/pkgs/ghc-blaze-markup/ghc-blaze-markup-doc
-https://hackage.haskell.org/package/ihp-hsx-1.1.0
-https://www.stackage.org/package/blaze-html
-https://hackage.haskell.org/package/tagsoup/docs/Text-HTML-TagSoup.html
-https://hackage.haskell.org/package/tagsoup/docs/doc-index.html
-https://hackage.haskell.org/package/hxt-tagsoup
-https://hackage.haskell.org/package/fast-tagsoup
-https://hackage.haskell.org/package/configurator-0.3.0.0
-https://hackage.haskell.org/package/config-ini
-https://hackage.haskell.org/package/ConfigFile/docs/Data-ConfigFile.html
-https://hackage.haskell.org/package/tini
-https://hackage.haskell.org/package/config-ini-0.2.7.0
-https://hackage.haskell.org/package/config-ini/docs
-https://hackage.haskell.org/package/config-ini-0.2.1.0
-https://hackage.haskell.org/packages/tag/csv
-https://hackage.haskell.org/package/cassava/docs
-https://hackage.haskell.org/package/cassava-0.5.5.0/docs
-https://hackage-content.haskell.org/package/cassava-0.4.1.0
-https://hackage.haskell.org/package/cassava-0.2.1.2/docs
-https://hackage-content.haskell.org/package/cassava-0.5.4.0/docs/doc-index.html
-https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv.html
-https://hackage.haskell.org/package/aeson-yaml
-https://hackage.haskell.org/package/yaml
-https://hackage.haskell.org/package/cereal
-https://hackage.haskell.org/package/cereal/docs
-https://hackage.haskell.org/package/cassava-megaparsec
-https://hackage.haskell.org/package/HsYAML
-https://hackage.haskell.org/package/random
-https://hackage.haskell.org/package/random-source
-https://hackage.haskell.org/package/entropy-0.4.1.6
-https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/random/System-Random.html
-https://hackage-content.haskell.org/package/mwc-random-0.15.3.0/docs/System-Random-MWC.html
-https://hackage.haskell.org/package/entropy-0.4.1.9
-https://hackage-content.haskell.org/package/random-fu-0.3.0.1/docs/Data-Random.html
-https://sources.debian.org/src/haskell-random/1.1-7/System/Random.hs
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/random-1.0.0.0/System-Random.html
-https://hackage.haskell.org/package/random-1.1/docs/System-Random.html
-https://hackage.haskell.org/package/random-1.1
-https://www.haskell.org/hugs/pages/libraries/base/System-Random.html
-https://downloads.haskell.org/~ghc/6.0/docs/html/base/System.Random.html
-https://hackage.haskell.org/package/mwc-random
-https://hackage.haskell.org/package/entropy-0.4.1.11
-https://hackage.haskell.org/package/fused-effects-mwc-random
-https://hackage.haskell.org/package/crypto-random/docs/src/Crypto-Random-Entropy.html
-https://hackage.haskell.org/package/tf-random
-https://hackage.haskell.org/package/async-2.2.5/candidate
-https://hackage.haskell.org/package/async-pool
-https://hackage.haskell.org/package/distributed-process-async
-https://hackage.haskell.org/package/hasql-transaction-io-0.2.7.0
-https://hackage.haskell.org/package/epoll-0.2.2/docs
-https://hackage.haskell.org/package/epoll-0.2.1
-https://hackage.haskell.org/package/blockio-uring-0.1.0.2
-https://hackage-content.haskell.org/package/posix-api-0.7.3.0/docs/Linux-Epoll.html
-https://repository.gatech.edu/server/api/core/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/content
-https://hackage-content.haskell.org/package/unix-compat-0.7.4/docs/System-PosixCompat.html
-https://hackage.haskell.org/package/unix-compat-0.7
-https://www.stackage.org/package/unix-compat
-https://hackage.haskell.org/package/unix-compat-0.4.0.0/docs
-https://hackage.haskell.org/package/unix-2.8.0.0/changelog
-https://hackage.haskell.org/package/hpath-io-0.14.2
-https://hackage.haskell.org/package/file-io
-https://hackage.haskell.org/package/hpath-posix-0.13.2
-https://hackage.haskell.org/package/hpath-io/docs
-https://hackage.haskell.org/package/Z-IO-0.1.3.0/docs/Z-IO-FileSystem.html
-https://hackage.haskell.org/package/FileSystem/docs
-https://hackage.haskell.org/package/posix-paths
-https://hackage.haskell.org/package/hpath-0.9.2/docs/System-Posix-FilePath.html
-https://hackage.haskell.org/package/filepath-1.4.100.0
-https://hackage.haskell.org/package/Z-IO-0.7.0.0
-https://hackage.haskell.org/package/Z-IO/docs
-https://hackage.haskell.org/package/Z-IO-0.6.2.0/docs
-https://hackage.haskell.org/package/Z-IO-0.6.3.0/docs
-https://hackage.haskell.org/package/Z-IO-0.7.0.0/docs
-https://hackage.haskell.org/package/Z-IO-0.6.4.0/docs
-https://hackage.haskell.org/package/Z-IO-0.7.1.0/docs
-https://mynixos.com/nixpkgs/package/haskellPackages.Z-IO
-https://hackage.haskell.org/package/base-compat
-https://hackage.haskell.org/package/relude
-https://hackage.haskell.org/package/protolude
-https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/Relude.html
-https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/doc-index-I.html
-https://hackage.haskell.org/package/relude-0.2.0/candidate
-https://hackage.haskell.org/package/classy-prelude
-https://hackage.haskell.org/package/classy-prelude/docs/ClassyPrelude.html
-https://hackage.haskell.org/package/classy-prelude-0.12.3/docs
-https://hackage.haskell.org/package/classy-prelude-0.5.4/docs
-https://packages.debian.org/trixie/doc/libghc-classy-prelude-doc
-https://www.stackage.org/lts-15.4/package/classy-prelude-1.5.0
-https://www.stackage.org/lts-10.2/package/classy-prelude-1.3.1
-https://hackage.haskell.org/package/brick-0.25
-https://hackage.haskell.org/package/brick-0.20
-https://hackage.haskell.org/package/brick-1.8
-https://hackage.haskell.org/package/brick-1.5
-https://hackage-content-origin.haskell.org/package/brick-0.14
-https://hackage-content.haskell.org/package/brick-2.9
-https://hackage-content-origin.haskell.org/package/brick-0.38
-https://hackage-content-origin.haskell.org/package/brick-0.52
-https://hackage-content.haskell.org/package/vty-6.3/docs/src/Graphics.Vty.html
-https://hackage-content.haskell.org/package/vty-6.4
-https://jtdaugherty.github.io/vty-ui/manuals/vty-ui-users-manual-1.8.pdf
-https://hackage.haskell.org/package/vty-ui
-https://hackage.haskell.org/package/gtk2hs-buildtools
-https://try.haskell.org/projects.haskell.org/gtk2hs/docs/gtk2hs-docs-0.9.11/index.html
-https://hackage-content-origin.haskell.org/package/glib-0.13.8.0
-https://book.realworldhaskell.org/read/gui-programming-with-gtk-hs.html
-https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.2.1
-https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.11.0
-https://hackage.haskell.org/package/wx-0.13.2
-https://hackage.haskell.org/package/wxcore-0.10.6/docs/index.html
-https://hackage.haskell.org/package/wxcore-0.11.1.2/docs/index.html
-https://hackage.haskell.org/package/wxcore
-https://hackage.haskell.org/package/wxcore-0.10.5
-https://hackage.haskell.org/package/wxcore-0.13.2.3
-https://hackage.haskell.org/package/wxcore-0.12.1.7
-https://sourceforge.net/projects/wxhaskell/files/
-https://www.youtube.com/playlist?list=PLYItvall0TqLlCPN9vbDIc8FAKhG-RfbM
-https://www.youtube.com/playlist?list=PLYItvall0TqLBLt6oXFVBaloU7-xZsV-v
-https://www.youtube.com/playlist?list=PLYItvall0TqJwLa9rY-bT_B9-EmtaiPT0
-https://www.youtube.com/playlist?list=PLYItvall0TqJ1jteUbGOHfBycg5NM9thq
-https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp
-https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/
-https://docs.idris.org/_/downloads/en/v0.9.20/pdf/
-https://ocaml.org/p/yocaml/2.7.0/effect.html
-https://ocaml.org/manual/5.4/api/Stdlib.Effect.html
-https://lrodero.github.io/cats-effect/docs/getting-started
-https://patryshev.com/books/GregoryMeredith.pdf
-https://arxiv.org/abs/2307.12187
-https://reference-global.com/download/book/9789365896534.pdf
-https://link.springer.com/book/10.1007/978-3-319-46481-7
-https://alvinalexander.com/scala/functional-programming-simplified-book-scala-3/
-https://alvinalexander.com/scala/learn-functional-programming-book/
-https://zio.dev/guides/
-https://alvinalexander.com/scala/fp-book/learning-functional-programming-in-scala/
-https://arxiv.org/abs/1007.3023
-https://arxiv.org/abs/1602.03598
-https://arxiv.org/abs/1704.03095
-https://hackage.haskell.org/package/process-1.1.0.1/docs/System-Process.html
-https://monix.io/
-https://index.scala-lang.org/monix/monix-bio
-https://javadoc.io/static/org.scalaz/scalaz_2.12/7.1.12/scalaz/Monad.html
-https://www.baeldung.com/scala/monix
-https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M22/scalaz/Monad.html
-https://arxiv.org/abs/1003.0585
-https://www.purescript.org/
-https://discourse.purescript.org/t/how-to-read-liftaff-signature/3782
-https://trepo.tuni.fi/bitstream/handle/10024/156847/NikoP%C3%A4rssinen.pdf?isAllowed=y&sequence=2
-https://github.com/purescript/documentation/blob/master/language/Effect.md
-https://pursuit.purescript.org/packages/purescript-effect/docs/Effect.Class
-https://pursuit.purescript.org/packages/purescript-aff/docs/Effect.Aff
-https://pursuit.purescript.org/packages/purescript-aff/docs/Effect.Aff.Class
-https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS.Aff
-https://pursuit.purescript.org/packages/purescript-console/docs/Effect.Console
-https://github.com/purescript/purescript-aff
-https://www.jsdelivr.com/package/npm/%40purescript/aff
-https://github.com/purescript/documentation/blob/master/guides/Eff.md
-https://github.com/purescript/purescript-eff
-https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS
-https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS.Sync
-https://pursuit.purescript.org/packages/purescript-random/docs/Effect.Random
-https://pursuit.purescript.org/packages/purescript-avar/docs/Control.AVar
-https://github.com/slamdata/purescript-io
-https://github.com/purescript/purescript-aff/blob/master/README.md
-https://docs.rs/crate/effect-rs/latest/source/README.md
-https://docs.rs/stillwater/latest/stillwater/
-https://docs.rs/effectful/latest/effectful/kernel/reader/index.html
-https://docs.rs/deep_causality_file/latest/deep_causality_file/
-https://docs.rs/functype/latest/functype/
-https://docs.rs/functype-io/latest/functype_io/
-https://repository.tudelft.nl/file/File_48b620db-13e0-4102-960e-a5e6272b7843?preview=1
-https://atnos-org.github.io/eff/org.atnos.site.Installation.html
-https://fstar-lang.org/tutorial/book/part4/part4.html
-https://old.arrow-kt.io/docs/0.12/apidocs/arrow-fx/arrow.fx.extensions/index.html
-https://www.msec.it/blog/introducing-kio/
-https://livebook.manning.com/book/functional-programming-in-kotlin/part-4
-https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/
-https://klibs.io/project/Kotlin/kotlinx-io
-https://kodu.ut.ee/~varmo/FP2007/slides/loeng14.pdf
-https://agda.readthedocs.io/en/v2.6.0/getting-started/hello-world.html
-https://www.mathstat.dal.ca/~selinger/agda-lectures/
-https://researchgate.net/publication/313374522_Interactive_programming_in_Agda_Objects_and_graphical_user_interfaces
-https://media.arrow-kt.io/videos/
-https://arrow-kt.io/community/blog/2020/06/05/functional-domain-modeling-kotlin/
-https://arrow-kt.io/community/blog/tags/fx/
-https://media.arrow-kt.io/articles
-https://api.usaskillsinc.com/backend/files/SwJBiyWNE91tfxMxaUrg.pdf
-https://kotlinlang.org/spec/pdf/sections/asynchronous-programming-with-coroutines.pdf
-https://idris-lang.org/Idris2/base/docs/Data.IORef.html
-https://idris-lang.org/Idris2/
-https://www.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf
-https://hackage.haskell.org/package/sockets
-https://hackage.haskell.org/package/network-2.6.3.1/docs/Network-Socket.html
-https://hackage.haskell.org/package/http-streams
-https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket.html
-https://hackage.haskell.org/package/network-2.6.3.5/docs/Network-Socket.html
-https://hackage.haskell.org/package/tcp-streams
-https://hackage.haskell.org/package/conduit/candidate/docs/Data-Conduit.html
-https://www.classcentral.com/course/youtube-haskell-for-imperative-programmers-59637
-https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf
-https://hackage.haskell.org/package/streamly-0.1.2/docs/Streamly-Tutorial.html
-https://hackage.haskell.org/package/streamly-0.7.3.1
-https://lean-lang.org/doc/reference/4.19.0-rc2/Functors___-Monads-and--do--Notation/
-https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/io/IO.html
-https://www.j-labs.pl/en/tech-blog/how-to-use-monads-in-java/
-https://www.baeldung.com/vavr
-https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/function/IOFunction.html
-https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7
-https://itsdaniel.dk/notes/understanding-functional-effect-systems/
-https://overreacted.io/algebraic-effects-for-the-rest-of-us/
-https://hackage.haskell.org/package/general-allocate-0.2.2.0
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Unsafe.html
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Foreign.html
-https://downloads.haskell.org/ghc/9.0.2/docs/libraries/base-4.15.1.0/src/GHC.IO.Unsafe.html
-https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume06/issue03/DagRep.6.3/DagRep.6.3.pdf
-https://www.youtube.com/watch?v=gHiyzctYqZ0
-https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dee1dd3528767935317507965d&repid=rep1&type=pdf
-https://downloads.haskell.org/~ghc/9.4-latest/docs/libraries/stm-2.5.1.0/Control-Monad-STM.html
-https://hackage.haskell.org/package/i3ipc
-https://hackage.haskell.org/package/unliftio-core-0.1.1.0/docs/src/Control-Monad-IO-Unlift.html
-https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-IO-Class.html
-https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-Trans-Class.html
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html
-https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html
-https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf
-https://hackage.haskell.org/package/fused-effects/docs
-https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1
-https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/
-https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperative-shell-game-of-life-example-haskell-and-scala.pdf
-https://hackage.haskell.org/package/HMock-0.3.0.0
-https://hackage.haskell.org/package/mockcat/docs
-https://hackage.haskell.org/package/HMock/docs
-https://hackage.haskell.org/package/monad-control-0.3.1/docs/Control-Monad-Trans-Control.html
-https://hackage.haskell.org/package/monad-control-0.3.1.3/docs/Control-Monad-Trans-Control.html
-https://hackage.haskell.org/package/ki-unlifted
-https://hackage.haskell.org/package/rio-0.1.22.0
-https://hackage.haskell.org/package/rio-0.1.2.0/docs
-https://hackage.haskell.org/package/rio-process-pool
-https://hackage.haskell.org/package/rio-orphans
-https://hackage.haskell.org/package/rio-0.1.24.0
-https://academy.fpblock.com/blog/2017/06/readert-design-pattern
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/base-3.0.0.0/Control-Monad.html
-http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497
-https://hackage.haskell.org/package/FileSystem
-https://hackage.haskell.org/package/system-fileio
-https://hackage.haskell.org/package/system-filepath
-https://hackage.haskell.org/package/system-fileio/docs/System-IO-File.html
-https://hackage.haskell.org/package/system-filepath/docs
-https://hackage-content.haskell.org/package/process-1.6.26.0/docs/System-Process.html
-https://hackage.haskell.org/package/sys-process/docs/Sys-Process.html
-https://hackage.haskell.org/package/process-1.6.11.0/docs/System-Process.html#v:readProcess
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/System-IO.html
-https://hackage.haskell.org/package/haskeline
-https://hackage.haskell.org/package/haskeline-0.6.2
-https://hackage.haskell.org/package/haskeline-0.6.2.1/docs/System-Console-Haskeline.html
-https://hackage.haskell.org/package/brick-0.27
-https://hackage-content-origin.haskell.org/package/brick-0.20
-https://hackage-content.haskell.org/package/vty-5.34
-https://hackage.haskell.org/package/terminfo/docs/System-Console-Terminfo-Base.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/terminfo-0.4.1.1/src/System.Console.Terminfo.Base.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/terminfo-0.4.0.0/System-Console-Terminfo-Base.html
-https://hackage.haskell.org/package/ansi-terminal-0.8.0.4
-https://downloads.haskell.org/ghc/8.0-latest/docs/html/libraries/terminfo-0.4.0.2/src/System-Console-Terminfo-Base.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/terminfo-0.4.1.4/System-Console-Terminfo-Base.html
-https://downloads.haskell.org/ghc/latest/docs/libraries/terminfo-0.4.1.7-5cba/src/System.Console.Terminfo.Base.html
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal
-https://hackage.haskell.org/package/prettyprinter
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Prettyprinter-Render-Terminal.html
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.1.1
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Data-Text-Prettyprint-Doc-Render-Terminal.html
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3/docs
-https://packages.debian.org/trixie/source/haskell-prettyprinter-ansi-terminal
-https://packages.debian.org/source/forky/haskell-prettyprinter-ansi-terminal
-https://packages.debian.org/bullseye/source/haskell-prettyprinter-ansi-terminal
-https://hackage.haskell.org/package/monad-logger-0.3.18/docs/Control-Monad-Logger.html
-https://hackage.haskell.org/package/monad-logger-0.3.16/docs/Control-Monad-Logger.html
-https://packages.debian.org/source/bullseye/misc/haskell-monad-logger
-https://hackage.haskell.org/package/co-log-core
-https://hackage.haskell.org/package/co-log-concurrent
-https://hackage.haskell.org/package/co-log-core/docs
-https://hackage.haskell.org/package/co-log-concurrent/docs
-https://hackage-content.haskell.org/package/co-log-core-0.3.2.5/docs/Colog-Core-Action.html
-https://hackage-content.haskell.org/package/polysemy-log-co-0.11.1.0/docs/Polysemy-Log-Colog.html
-https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-Log.html
-https://hackage.haskell.org/packages/tag/logging
-https://www.stackage.org/package/co-log
-https://www.stackage.org/package/co-log-core
-https://hackage.haskell.org/package/co-log-simple
-https://hackage.haskell.org/package/co-log-json
-https://hackage.haskell.org/package/co-log-effectful
-https://hackage.haskell.org/package/co-log-polysemy
-https://hackage.haskell.org/package/co-log-polysemy/docs
-https://hackage.haskell.org/package/co-log-simple/docs
-https://hackage.haskell.org/package/co-log-json/docs
-https://hackage.haskell.org/package/co-log-effectful/docs
-https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/src/Control-Arrow-ArrowIO.html
-https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/resources/l15monadsio.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/monadic-io.pdf
-https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/marktoberdorf.pdf
-https://www.cs.ru.nl/~freek/courses/tt-2010/monads.pdf
-https://books.google.co.uk/books?id=nh0okI1a1sQC
-https://books.google.ca/books?id=nh0okI1a1sQC
-https://books.google.de/books?id=nh0okI1a1sQC
-https://books.google.com.au/books?id=nh0okI1a1sQC
-https://books.google.co.uk/books?id=wSkRAAAAQBAJ
-https://books.google.ca/books?id=wSkRAAAAQBAJ
-https://www.scs.stanford.edu/16wi-cs240h/
-https://teaching.well-typed.com/intro/introduction.html
-https://idris2.readthedocs.io/en/latest/ffi/ffi.html
-https://idris2.readthedocs.io/en/latest/updates/updates.html
-https://idris2.readthedocs.io/en/latest/app/introapp.html
-https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_Sources.pdf
-https://hackage-content.haskell.org/package/effectful-core-2.6.0.0/docs/doc-index-All.html
-https://hackage-content.haskell.org/package/ghc-internal-9.1401.0/docs/doc-index-I.html
-https://hackage-content.haskell.org/package/base-4.20.2.0/src/src/Data
-https://github.com/fpinscala/fpinscala
-https://www.bookey.app/book/programming-in-scala
-https://www.kufunda.net/publicdocs/Functional%20Programming%20in%20Scala.pdf
-https://docs.scala-lang.org/overviews/scala-book/functional-programming.html
-https://alvinalexander.com/misc/scala-functional-programming-simplified-contents/
-https://web.cecs.pdx.edu/~mpj/pubs/mil.html
-https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures/lec/lec/precepts/precepts/precepts/precept04-solutions.pdf
-https://a-nikolaev.github.io/fp/
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf%3Fevent-type%3DFTLA
-https://ocaml.org/books
-https://tomasp.net/blog/fsharp-iv-lang.aspx
-https://fsprojects.github.io/FSharpPlus/abstraction-monad.html
-https://fsharpforfunandprofit.com/series/computation-expressions/
-https://www.lamsade.dauphine.fr/~mlampis/Functional/lec8.pdf
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad.html
-https://www.mmhaskell.com/monads
-https://packages.debian.org/source/stable/haskell-control-monad-free
-https://ifl2014.github.io/submissions/ifl2014_submission_16.pdf
-https://hackage.haskell.org/package/shh/docs/Control-Shh.html
-https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.Common.html
-https://hackage-content.haskell.org/package/rio-0.1.23.0/docs/RIO-Process.html
-https://hackage-content.haskell.org/package/unix-2.8.8.0/docs/System-Posix-Process.html
-https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-Process.html
-https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Process.html
-https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.CommunicationHandle.html
-https://hackage-content.haskell.org/package/ghc-9.12.2/docs/GHC-SysTools-Process.html
-https://hackage-content.haskell.org/package/quick-process-0.0.3/docs/src/System.Process.Quick.CallSpec.Run.html
-https://hackage.haskell.org/package/http-monad-0.0.1/docs
-https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Process.html
-https://hackage.haskell.org/package/linear-base-0.5.0
-https://hackage.haskell.org/package/linear-base-0.5.0/docs
-https://hackage.haskell.org/package/aivika-1.2
-https://hackage.haskell.org/package/katip-0.8.8.4
-https://hackage.haskell.org/package/conduit-1.3.6.1/docs
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs
-https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/p4.htm
-https://monix.io/api/2.2/monix/types/Monad.html
-https://monix.io/api/2.2/monix/types/
-https://monix.io/api/2.3/monix/types/index.html
-https://bio.monix.io/
-https://bio.monix.io/api/monix/bio/IO.html
-https://index.scala-lang.org/getkyo/kyo
-https://niqdev.github.io/scala-fp/docs/fp-advanced
-https://ocaml.org/p/eio/latest/doc/Eio/index.html
-https://ocaml-multicore.github.io/eio/eio/Eio/index.html
-https://opam.ocaml.org/packages/eio/
-https://okmij.org/ftp/continuations/Eff/caml-eff.pdf
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasyncbuilder.html
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-asyncprimitives.html
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control.html
-https://docs.rs/effect-monad/latest
-https://doc.rust-lang.org/std/future/index.html
-https://doc.rust-lang.org/core/io/index.html
-https://docs.python.org/3/library/io.html?highlight=bytesio
-https://app.readthedocs.org/projects/monad/downloads/pdf/latest/
-https://pursuit.purescript.org/packages/purescript-aff/5.0.0
-https://fp-ts.github.io/core/
-https://effect.website/play/
-https://effect.website/events/effect-days/speakers
-https://hackage-content.haskell.org/package/reflex-0.9.3.4/docs/Control-Monad-ReaderIO.html
-https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Prelude.RIO.html
-https://docs.idris-lang.org/_/downloads/en/v1.0.1/pdf/
-https://agda.readthedocs.io/en/v2.6.4.3/getting-started/a-taste-of-agda.html
-https://agda.readthedocs.io/_/downloads/en/nightly/pdf/
-https://koka-lang.github.io/koka/doc/std_core-source.html
-https://koka-lang.github.io/koka/doc/std_core.html
-https://koka-lang.github.io/koka/doc/toc.html
-https://fuzion-lang.dev/design/effects
-https://doc.flix.dev/control-structures.html
-https://doc.flix.dev/
-https://api.flix.dev/Monad.html
-https://blog.flix.dev/blog/will-llms-help-or-hurt-new-programming-languages/
-https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/18
-https://elm-lang.org/assets/papers/concurrent-frp.pdf
-https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/9
-https://docs.racket-lang.org/functional/index.html
-https://docs.racket-lang.org/algebraic/class_base.html
-https://ics-websites.science.uu.nl/docs/vakken/afp/slides/10-generics.pdf
-https://effect.readthedocs.io/
-https://javadoc.io/static/org.typelevel/cats-effect_native0.4_3/3.6-ecf93db/cats/effect/IO.html
-https://javadoc.io/static/org.typelevel/cats-effect_2.12/0.10-5b8214f/cats/effect/IO.html
-https://clojure.github.io/clojure-contrib/monads-api.html
-https://clojure.org/about/functional_programming
-https://clojure.github.io/algo.monads/
-https://clojuredocs.org/clojure.core/io%21
-https://zio.dev/reference/core/zio/rio/
-https://zio.dev/reference/core/runtime/
-https://zio.dev/reference/di/
-https://zio.dev/api/zio/zio
-https://zio.dev/reference/error-management/types/defects/
-https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/control/Either.html
-https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/Function7.html
-https://arxiv.org/abs/2211.01473
-https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IO.html
-https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/io/IO.html
-https://javadoc.io/doc/com.aol.cyclops/cyclops-monad-api/latest/index.html
-https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-api
-https://www.javadoc.io/doc/com.aol.cyclops/cyclops-functionaljava/9.0.0-MI2/cyclops/monads/FJ.html
-https://javadoc.io/doc/com.aol.cyclops/cyclops-functionaljava/latest/index.html
-https://javadoc.io/doc/com.aol.cyclops/cyclops-base/latest/index.html
-https://javadoc.io/doc/com.aol.cyclops/cyclops-javaslang/latest/index.html
-https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/latest/index.html
-https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/5.0.0/index.html
-https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-functions
-https://arxiv.org/abs/1202.3498
-https://ocaml.org/manual/5.5/effects.html
-https://fpilluminated.org/deck/31
-https://pursuit.purescript.org/packages/purescript-aff/4.1.1
-https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/src/Effectful.html
-https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/Effect.html
-https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.13/2.1.4/cats/effect/index.html
-https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.12/1.2.0/cats/effect/index.html
-https://javadoc.io/static/org.typelevel/cats-effect_sjs1_2.13/2.3.2/cats/effect/Effect.html
-https://resources.jetbrains.com/storage/products/kotlinconf-2023/Arrow%27s%202.0%20Trajectory.pdf
-https://old.arrow-kt.io/docs/patterns/monads
-https://docs.rs/rust_io
-https://dev-doc.rust-lang.org/std/io/index.html
-https://lean-lang.org/functional_programming_in_lean/Monads/do--Notation-for-Monads/
-https://docs.lean-lang.org/functional_programming_in_lean/Monads/The-Monad-Type-Class/
-https://lean-lang.org/functional_programming_in_lean/Introduction/
-https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/15F1C51D832FD7F084AE2602FBDB0157
-https://www.cl.cam.ac.uk/teaching//0607/FFuncProg/fofp.pdf
-https://forums.fsharp.org/t/series-of-6-articles-on-computation-expressions/4893
-https://github.com/IBM/fp-go/v2/io
-https://www.roundcrisis.com/presentations/2015-fsharp-gotham-computation-expressions/index.html
-https://arxiv.org/abs/2208.14724
-https://github.com/IBM/fp-go
-https://github.com/joeycumines/go-monads
-https://pkg.go.dev/github.com/joeycumines/go-monads
-https://guillaumebogard.dev/posts/functional-error-handling/
-https://docs.racket-lang.org/functional/interfaces.html?fam=Shplait&tag=%28def._%28%28quote._~23~25kernel%29._pregexp%29%29&version=5.91
-https://www.erlang-factory.com/static/upload/media/1434458082784816joseelixireuc.pdf
-https://elixir-lang.readthedocs.io/_/downloads/en/latest/pdf/
-https://elixir.hexdocs.pm/main/IO.html
-https://elixir.hexdocs.pm/1.18/IO.html
-https://publications.lib.chalmers.se/records/fulltext/219742/219742.pdf
-https://odr.chalmers.se/server/api/core/bitstreams/7c8128ee-cd76-4c15-8635-8cfee1c5df9a/content
-https://phunkie.github.io/phunkie/introduction_to_functional_programming.html
-https://packagist.org/packages/phunkie/console
-https://www.functionalphp.com/
-https://packagist.org/packages/phunkie/streams
-https://packagist.org/packages/phunkie/
-https://packagist.org/packages/phunkie/phpstan
-https://www.javadoc.io/static/io.monix/monix-eval_2.11/3.2.1/monix/eval/Task.html
-https://hackage-content.haskell.org/package/streamly-core-0.2.3/docs/src/Streamly.FileSystem.File.html
-https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-effects-2/
-https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/
-https://www.oreilly.com/library/view/functional-programming-in/9781617293818/
-https://arxiv.org/abs/2312.13295
-https://livebook.manning.com/book/functional-programming-in-scala/chapter-15
-https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html
-https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/
-https://www.bookey.app/book/functional-programming-in-scala
-https://www.cs.cmu.edu/~fp/courses/15312-f02/lectures/15-monads.html
-https://kar.kent.ac.uk/61623/
-https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/monads-for-fp_wadler.pdf
-https://hmemcpy.com/2017/05/from-net-to-scala-and-beyond-a-journey-to-functional-programming/
-https://www.infoq.com/fp/presentations/175/
-https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/fm.htm
-https://www.baeldung.com/scala/cats-effect-error-handling
-https://www.creativescala.org/cats-effect-tutorial/
-https://www.kriso.lv/functional-programming-scala-db-9781617290657.html
-https://www.fp-tower.com/courses/foundations
-https://hackage.haskell.org/package/effectful-2.1.0.0
-https://github.com/koka-lang/koka
-https://icfp21.sigplan.org/details/icfp-2021-tutorials/5/Programming-with-Effect-Handlers-and-FBIP-in-Koka
-https://goto.ucsd.edu/~nvazou/koka/koka.html
-https://pblevy.github.io/msfp2014/koka.pdf
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.165
-https://link.springer.com/article/10.1007/s10849-022-09378-7
-https://formal.land/blog/2023/05/28/monad-for-side-effects-in-rust
-https://www.cnblogs.com/javamoon/p/4112380.html
-https://blog.khinsen.net/posts/2009/04/22/Monads-in-Clojure.html
-https://khinsen.wordpress.com/2009/04/22/monad-tutorial-for-clojure-programmers/
-https://mko.re/blog/scheme-monads/
-https://www.cl.cam.ac.uk/teaching/2223/ConceptsPL/lectures-4up.pdf
-https://3e8.org/pub/scheme/doc/haskell-tutorial-writing-scheme-in-48-hours.pdf
-https://tomasp.net/blog/2013/computation-zoo-padl/
-https://old.arrow-kt.io/docs/quickstart/
-https://ducmanhphan.github.io/2020-12-15-monad-pattern/
-https://www.skypack.dev/view/monio
-https://www.skypack.dev/view/%40funkia/io
-https://www.thecodechameleon.io/articles/functional_programming/monads/
-https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053
-https://stackoverflow.com/questions/65621157/how-to-use-the-task-monad
-https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470
-https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470/6
-https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434
-https://chrilves.github.io/raffiot.py/index.html
-https://csharp-functional.readthedocs.io/en/latest/
-https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Monad-IO-Class.html
-https://stackoverflow.com/questions/23537387/clarification-on-streaming-and-effects-in-context-of-pipes-library
-https://stackoverflow.com/questions/36949944/piping-an-http-stream-through-a-haskell-conduit
-https://stackoverflow.com/questions/38955432/haskell-conduits-from-file-to-process
-https://www.schoolofhaskell.com/school/advanced-haskell/conduit-overview
-https://stackoverflow.com/questions/44327727/understanding-conduit-output
-https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/Resource.html
-https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/IO.html
-https://livebook.manning.com/book/functional-programming-in-scala/chapter-13/section-13-2/
-https://zio.dev/zio-blocks/guides/compile-time-resource-safety-with-scope/
-https://javadoc.io/static/dev.zio/zio_3/2.0.9/zio/Scope.html
-https://bio.monix.io/docs/resource-safety
-https://monix.io/api/3.0/monix/eval/TaskApp.html
-https://zanza00.gitbook.io/learn-fp-ts/taskeither/taskeither-and-io-ts
-https://gcanti.github.io/fp-ts/ReaderTaskEither.ts.html
-https://grossbart.github.io/fp-ts/modules/IOEither.ts.html
-https://grossbart.github.io/fp-ts/recipes/interoperability.html
-https://gcanti.github.io/fp-ts/modules/StateReaderTaskEither.ts.html
-https://fp-ts.github.io/core/modules/Either.ts.html
-https://effect-ts.github.io/effect/
-https://www.npmjs.com/package/effect
-https://learn-effect-ts.tonytang.dev/
-https://github.com/effect-ts/effect
-https://ocaml.org/p/eio/0.15/doc/README.html
-https://skvirski.com/articles/result-oriented-programming-fsharp/
-https://www.readkong.com/page/the-f-computation-expression-zoo-7270706
-https://wallymathieu.github.io/FSharpPlus/computation-expressions.html
-https://sources.debian.org/src/lwt/2.4.3-4/manual/manual.pdf
-https://grison.me/2019/03/21/intro-to-fp-with-vavr/
-https://www.baeldung.com/vavr-future
-https://docs.vavr.io/es/
-https://hackage.haskell.org/package/hw-polysemy/docs/HaskellWorks-Polysemy.html
-https://hackage-content.haskell.org/package/data-effects-core-0.4.3.0/docs/src/Data.Effect.html
-https://cljdoc.org/d/missionary/missionary/CURRENT
-https://clojure.org/events/2023/a-functional-approach-to-massively-1688048806
-https://gitextract.com/leonoel/missionary
-https://clojurepatterns.com/1/12/20/
-https://open-awesome.com/projects/missionary
-https://livebook.manning.com/book/functional-programming-with-kotlin/chapter-13
-https://samuelzhaoy.github.io/bow-swift/
-https://openaccess.inaf.it/bitstreams/54e360dd-89fe-48d0-8fd8-d2b7ba1afc51/download
-https://docs.rs/higher
-https://docs.rs/higher/latest/higher/monad/index.html
-https://docs.rs/higher/latest/x86_64-pc-windows-msvc/higher/
-https://docs.rs/higher/latest/x86_64-apple-darwin/higher/index.html
-https://docs.rs/effectful/latest/effectful/
-https://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/
-https://scalaz.github.io/scalaz/scalaz-2.10-7.0.3/doc/index.html
-https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M12/scalaz/Monad.html
-https://library.nu.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=4706
-https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/?lang=japublications%2F%3Fpg=0&pg=96
-https://pursuit.purerl.fun/packages/effect/3.0.0-erl1/docs/Effect.Class
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/transformers-0.6.1.0/Control-Monad-Trans-Reader.html
-https://mail.haskell.org/pipermail/haskell/2012-August/023478.html
-https://hackage.haskell.org/package/transformers-0.0.1.0/docs/Control-Monad-Trans-Reader.html
-https://themonadreader.files.wordpress.com/2012/08/issue20.pdf
-https://aaltodoc.aalto.fi/bitstreams/e0f5aefc-556f-4254-bf9d-03c22f930357/download
-https://www.doi.org/10.1145/143165.143169
-https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/libraries/ghc-internal-9.1001.0-206d/GHC-Internal-System-IO.html
-https://haddocks.haskell-miso.org/base/index.html
-https://haddocks.haskell-miso.org/base/doc-index-I.html
-https://hackage.haskell.org/package/ghc-internal/docs
-https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow
-https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/
-https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ
-https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/
-https://nostarch.com/fsharp
-https://cs3110.github.io/textbook/cover.html
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf%3Fevent-type%3DFTLA
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/standard-ml-basis-library-by-emden-r-gansner-and-john-h-reppy-editors-cambridge-university-press-2004-406pp/AF4F4E64538F286D9D24DC3D84D622D5
-https://www.cs.princeton.edu/courses/archive/spring05/cos320/notes/harperbook.pdf
-https://www.cs.princeton.edu/~appel/smlnj/basis/imperative-io-fn.html
-https://smlfamily.github.io/sml97-defn.pdf
-https://www.scribd.com/document/366128261/monad-3-ps
-https://gist.github.com/gatlin/855929e8c24d83bb59
-https://niltag.net/essays/racket_monad.html
-https://arxiv.org/abs/1611.09470
-https://cljdoc.org/d/pure-io/pure-io/0.1.0/doc/readme
-https://www.classcentral.com/report/best-clojure-courses/
-https://jokerconf.com/en/archive/2022/talks/20000856-monads-in-java-in-20-minutes/
-https://higher-kinded-j.github.io/latest/tutorials/coretypes/foundations_journey.html
-https://java-design-patterns.com/patterns/monad/
-https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/index.htm
-https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_021.html
-https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiusano/9781617290657
-https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ
-https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf
-https://www.manning.com/books/type-driven-development-with-idris
-https://livebook.manning.com/book/type-driven-development-with-idris/about-this-book
-https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781617293023
-https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781638352242
-https://hackage.haskell.org/package/idris
-https://arxiv.org/abs/2310.13441
-https://agda.readthedocs.io/_/downloads/en/v2.6.2.1/pdf/
-https://lets-play-agda.quasicoherent.io/
-https://research.ed.ac.uk/en/publications/dependent-types-and-multi-monadic-effects-in-f/
-https://fstar-lang.org/papers/mumon/
-https://cir.nii.ac.jp/crid/1360292619364595584
-https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/libraries/base-4.11.0.0/System-IO.html
-https://www.well-typed.com/blog/2024/10/haskell-unfolder-episode-34-you-already-understand-monads/
-https://hackage-content-origin.haskell.org/
-https://web.archive.org/web/*/https://code.haskell.org/~byorgey/TMR/*
-https://zephyrtronium.github.io/articles/koka-experience.html
-https://gluon-lang.github.io/gluon/print.html
-https://atnos-org.github.io/eff/org.atnos.site.Introduction.html
-https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Internal-Monad.html
-https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html
-https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/Effectful.html
-https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html
-https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html
-https://eprints.nottingham.ac.uk/43557/
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html
-https://doi.org/10.1145/2605176
-https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0087.xhtml
-https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0083.xhtml
-https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0082.xhtml
-https://books.google.com/books?id=75C5DAAAQBAJ
-https://www.packtpub.com/en-BE/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/lifting-up-from-io-ch07lvl1sec49
-https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Types.html#IO
-https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html#State
-https://dspace.mit.edu/server/api/core/bitstreams/5154af6b-4a9a-4915-a744-6fcc13756898/content
-https://tannerduve.github.io/files/monads.pdf
-https://staff.emu.edu.tr/zekibayram/Documents/courses/CMPE462/Curry/tutorial.pdf
-https://docs.idris-lang.org/en/v0.9.18/effects/introduction.html
-https://citeseerx.ist.psu.edu/document?doi=5c19f0ee0173cb847b36642e2b3ee7472e03b1f2&repid=rep1&type=pdf
-https://pierre-hyvernat.apps.math.cnrs.fr/data/Files/phd.pdf
-https://www.sambuz.com/doc/coinductive-reasoning-in-dependent-type-theory-copatterns-presentation-1039399
-https://www.leanpub.com/book-of-monads
-https://dblp.org/rec/conf/csl/HancockS00
-https://www.isa-afp.org/browser_info/current/AFP/Clean/document.pdf
-https://www.wiki.clean.cs.ru.nl/Publications
-https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture17.htm
-https://www.cse.iitd.ac.in/~mcs112586/book.pdf
-https://www.qualiero.com/lerninhalte/classroom-trainings/scala-typelevel-cats-effect.html
-https://www.edc4it.com/training/course/SCALA-CATS?online=
-https://dzone.com/refcardz/functional-programming-with-javascript
-https://stackoverflow.com/questions/70918015/how-to-execute-a-function-that-returns-a-function-inside-of-io-monad
-https://arxiv.org/pdf/2212.08177
-https://arxiv.org/pdf/1804.03460
-https://arxiv.org/abs/1803.08958
-https://cseweb.ucsd.edu/~dstefan/talks/strangeloop2016.pdf
-https://citeseerx.ist.psu.edu/document?doi=b82a2bba57ac617753e17f15833ccd40079f7c&repid=rep1&type=pdf
-https://arxiv.org/pdf/1505.02579
-https://www.ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html
-https://sage.ci.dev/live/p/eio/0.9/doc/README.html
-https://arxiv.org/pdf/1812.11664
-https://doi.org/10.1016/j.ifacol.2022.11.100
-https://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP11b.pdf
-https://citeseerx.ist.psu.edu/document?doi=1997710cea4b67b9e53df96d6dee7f2c3e5c5556&type=pdf
-https://arxiv.org/pdf/1109.0785
-https://arxiv.org/pdf/1902.06950
-https://stackoverflow.com/questions/7769996/using-the-par-monad-with-stm-and-deterministic-io
-https://www.ideals.illinois.edu/items/29856/bitstreams/99122/data.pdf
-https://www.research-collection.ethz.ch/bitstreams/07a03edd-6ea9-4663-9a65-ed78416c2e44/download
-https://arxiv.org/pdf/1704.08055
-https://odr.chalmers.se/bitstreams/b5438b2f-a2a5-43ce-bd0e-86644f6f0e80/download
-https://koka-lang.github.io/koka/doc/book.html#why
-https://hackage-content-origin.haskell.org/package/monadIO-0.11.1.0/candidate/docs/doc-index.html
-https://stackoverflow.com/questions/47070279/liftio-do-block-and-syntax
-https://www.fpblock.com/blog/2017/06/readert-design-pattern
-https://www.cin.ufpe.br/~lgnfl/papers/msc-thesis.pdf
-https://era.ed.ac.uk/bitstream/handle/1842/24458/ClarkA_2008redux.pdf?isAllowed=y&sequence=1
-https://research-portal.uu.nl/en/publications/cogent-uniqueness-types-and-certifying-compilation
-https://stackoverflow.com/questions/68584017/haskell-coresyn-library-how-does-one-refer-to-built-in-io-types?r=31
-https://www.sambuz.com/doc/effects-and-state-liam-o-connor-ppt-presentation-1031389
-https://www.curry-lang.org/docs/report/versions/report_2016_01_13.pdf
-https://web.stanford.edu/class/cs99/
-https://arxiv.org/abs/1706.07997
-https://arxiv.org/pdf/1706.07997
-https://cronfa.swan.ac.uk/Record/cronfa70368
-https://www.curry-language.org/docs/report/versions/report_2014_02_27.pdf
-https://ww.curry-language.org/docs/report/versions/report160902.pdf
-https://ww.curry-language.org/docs/report/versions/report_2012_09_11.pdf
-https://cpm.curry-lang.org/DOC/base-3.4.0/index.html
-https://cpm.curry-lang.org/DOC/flatcurry-4.0.0/FlatCurry.Files_curry.html
-https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.html
-https://arxiv.org/abs/cs/0111039
-https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf
-https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf
-https://hackage.haskell.org/package/effect-handlers/docs
-https://www.cambridge.org/core/books/abs/session-types/functional-programming/5A833EA4A5EECAD65C4C06FB8B86976B
-https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%20and%20Software%20Technology%2C%2011%20conf.%2C%20AMAST%202006%28LNCS4019%2C%20Springer%2C%202006%29%28ISBN%203540356339%29%28398s%29.pdf
-https://arxiv.org/abs/1701.07601
-https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad-powerpoint-presentation
-http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf
-https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/
-https://zenodo.org/records/7062933
-https://ucsd-cse230.github.io/fa23/lectures.html
-https://se.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/
-https://cs.uwaterloo.ca/~yizhou/papers/lexa-oopsla2024.pdf
-https://www.cs.cornell.edu/andru/papers/ufo/
-https://cvs.haskell.org/cgi-bin/cvsweb.cgi/haskell-report/report
-https://catalin-hritcu.github.io/publications/verified-testing-report.pdf
-https://www.replay.io/blog/recording-and-replaying
-https://docs.replay.io/basics/time-travel/how-does-time-travel-work
-https://www.replay.io/blog/the-replayability-roadmap
-https://www.replay.io/blog/how-to-time-travel-every-time
-https://discuss.ocaml.org/t/introduction-to-eio-video/11571
-https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/
-https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/functional-programming-concepts
-https://danel.ahman.ee/talks/msr13.pdf
-https://prg.is.titech.ac.jp/papers/pdf/hope2022.pdf
-https://iris.uniupo.it/retrieve/ab1f4432-8581-4ef5-8f13-766d751b317e/proceedings.pdf
-https://icfp22.sigplan.org/details/icfp-2022-papers/10/Formal-Reasoning-About-Layered-Monadic-Interpreters
-https://citeseerx.ist.psu.edu/document?doi=8242b566d8bd1ce0ebbcb7cfdea0aa5b70501da1&repid=rep1&type=pdf
-https://www.cs.umd.edu/class/spring2019/cmsc388F/lectures/monads.html
-https://hackage-content.haskell.org/package/io-sim-1.9.1.0/docs
-https://hackage.haskell.org/package/async/docs
-https://hackage-content.haskell.org/package/horde-ad-0.2.0.0/docs/async-2.2.5-docs/Control-Concurrent-Async-Internal.html
-https://hackage-content.haskell.org/package/async-2.2.6/docs/doc-index.html
-https://hackage-content.haskell.org/package/lifted-async-0.11.0/docs/Control-Concurrent-Async-Lifted.html
-https://hackage-content-origin.haskell.org/package/async-2.2.2/docs/doc-index.html
-https://docs.rs/crate/functype/0.1.1
-https://kcsrk.info/papers/ocaml2021b.pdf
-https://www.cs.pomona.edu/~michael/courses/csci181ns20/lec/Lec11.html
-https://2023.ecoop.org/details/ecoop-2023-papers/4/Interaction-Tree-Specifications-A-Framework-for-Specifying-Recursive-Effectful-Comp
-https://papertalk.org/papertalks/25023
-https://snu.elsevierpure.com/en/publications/interaction-trees-representing-recursive-and-impure-programs-in-c/
-https://research.ed.ac.uk/en/publications/interaction-trees-representing-recursive-and-impure-programs-in-c/
-https://icfp19.sigplan.org/details/icfp-2019-papers/8/Dijkstra-Monads-for-All
-https://www.researchgate.net/publication/334751758_Dijkstra_monads_for_all
-https://bentnib.org/dijkstra4all.html
-https://pureportal.strath.ac.uk/en/publications/dijkstra-monads-for-all/
-https://www.researchgate.net/publication/262175370_Verifying_Higher-order_Programs_with_the_Dijkstra_Monad
-https://bentnib.org/dijkstra4all.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/fstar.pdf
-https://lean-lang.org/doc/reference/latest/Functors___-Monads_and--do--Notation/
-https://prg.is.titech.ac.jp/projects/formalization/monae/
-https://github.com/leanprover/reference-manual/blob/main/Manual.lean
-https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--For-Monads/
-https://usr.lmf.cnrs.fr/~jcf/publis_bib.html
-https://drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf
-https://arxiv.org/abs/2003.09993
-https://docs.servant.dev/_/downloads/en/v0.8.1/pdf/
-https://docs.servant.dev/_/downloads/en/v0.7.1/pdf/
-https://hackage.haskell.org/package/io-streams-1.1.0.0
-https://hackage.haskell.org/package/io-streams-1.1.1.0
-https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-doc
-https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams
-https://haskell.org/~simonmar/new-io.tar.gz
-https://hackage.haskell.org/package/conduit-combinators-1.0.8.1/docs/Conduit.html
-https://citeseerx.ist.psu.edu/document?doi=08c0eaa33b7692ddbd65e509db1356f3c6126d75&repid=rep1&type=pdf
-https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf
-https://cir.nii.ac.jp/crid/1360306914407986304
-https://www.mendeley.com/catalogue/5d7ff898-97c2-3128-9b81-b304817581d4/
-https://research.rug.nl/en/publications/c9162558-592e-4a11-a137-9c257cbfcc36/
-https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1
-https://man7.org/linux/man-pages/man7/io_uring.7.html
-https://hackage.haskell.org/package/sodium/docs/FRP-Sodium-Context.html
-https://hackage.haskell.org/package/threepenny-gui/docs/Reactive-Threepenny.html
-https://hackage.haskell.org/package/sodium
-https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=46586973
-https://link.springer.com/book/10.1007/978-3-319-29604-3
-https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf
-https://link.springer.com/book/10.1007/978-981-92-0184-6
-https://www.classcentral.com/course/youtube-icfp-24-orange-3-haskell-sep-7th-347259
-https://www.cambridge.org/core/journals/journal-of-functional-programming/journal-of-functional-programming-most-downloaded-2023
-https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html
-https://homepages.cwi.nl/~ploeg/zseq.pdf
-https://paperswelove.org/papers/freer-monads-more-extensible-effects-f271560c/
-https://haskell.pesquisa.ufabc.edu.br/cursos/11-paradigmas-2023/
-https://hackage.haskell.org/package/IOSpec-0.2.6/docs
-https://arxiv.org/abs/2312.11257
-https://hackage-content-origin.haskell.org/package/lio-0.9.1.0
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-analysis-of-information-flow-security-with-mutable-state/01A8F47B757460768168CAF18989F83A
-https://goto.ucsd.edu/~nvazou/lweb/POPL19.pdf
-https://arxiv.org/abs/1708.01688
-https://citeseerx.ist.psu.edu/document?doi=8b6c2fa39d5ad248926da81b5d564544ee22b94a&repid=rep1&type=pdf
-https://arxiv.org/abs/2112.14048
-https://hackage.haskell.org/package/DSH
-https://hackage.haskell.org/package/relational-record/docs/Database-Relational-Documentation.html
-https://hackage.haskell.org/package/haskelldb/docs/Database-HaskellDB-Query.html
-https://db.cs.uni-tuebingen.de/staticfiles/publications/haskell2011.pdf
-https://www.research.ed.ac.uk/en/publications/comprehensive-comprehensions/
-https://researchportal.hkust.edu.hk/en/publications/comprehending-monoids-with-class
-https://utheme.univ-tlse3.fr/access/files/original/199d4d23354d3ae58ebf815fdc6f5b66b6e78448.pdf
-https://camdar.io/static/h4t/stuff/08/Monadic_Parser_Combinators.pdf
-https://repository.rit.edu/article/481/
-https://pdos.csail.mit.edu/~baford/packrat/thesis/
-https://nottingham-repository.worktribe.com/output/1024440/monadic-parser-combinators
-https://research-portal.uu.nl/en/publications/monadic-parser-combinators/
-https://academic.oup.com/logcom/article-pdf/29/4/487/28917421/exv078.pdf
-https://www.um.edu.mt/library/oar/handle/123456789/22406
-https://dbc.library.uu.nl/handle/1874/2535
-https://twdev.blog/docs/monparsing.pdf
-https://arxiv.org/abs/2305.07901
-https://eprints.gla.ac.uk/112254/
-https://db.cs.uni-tuebingen.de/teaching/ss25/functional-programming/
-https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141
-https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2026-2027/FMFI/EN/mINF.pdf
-https://hackage.haskell.org/package/typed-protocols-1.2.0.0
-https://vetss.org.uk/wp-content/uploads/sites/165/2024/05/2021_15-K-Just.pdf
-https://flora.pm/packages/%40hackage/typed-protocols
-https://input-output-hk.github.io/typed-protocols/typed-protocols/Network-TypedProtocol.html
-https://input-output-hk.github.io/typed-protocols/typed-protocols/src/Network.TypedProtocol.html
-https://hackage.haskell.org/package/typed-protocols-1.1.0.1/candidate/src/stateful-cborg
-https://hackage.haskell.org/package/typed-encoding
-https://discourse.haskell.org/t/introduction-to-typed-session/10100
-https://www.stackage.org/package/stm
-https://chinanet.mirrors.ustc.edu.cn/help/hackage.html
-https://mirrors.tuna.tsinghua.edu.cn/help/hackage/
-https://hackage.haskell.org/package/linear-socket
-https://hackage.haskell.org/package/linear-socket-0.3.3.3
-https://haskell.foundation/assets/other/Duncan%20Coutts%20-%20GHC%20Tool%20Ecosystem.pdf
-https://well-typed.com/blog/aux/files/zurihac-2023/duncan-coutts-ghc-packaging-ecosystem.pdf
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Maybe.html
-https://lukastymo.com/posts/025-hello-haskell-a-hands-on-lab-for-2026/
-https://cse230.ucsd.edu/lectures/lec-monads.html
-https://downloads.haskell.org/~ghc/latest/docs/libraries/mtl-2.3.1-77f5/Control-Monad-Reader.html
-https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-State.html
-https://hackage.haskell.org/package/mtl-2.0.1.0/docs/Control-Monad-State-Lazy.html
-https://hackage.haskell.org/package/mtl-c-0.1.1/docs/Control-Monad-Reader-CPS.html
-https://xmonad.github.io/xmonad-docs/transformers-0.5.6.2/Control-Monad-Trans-Class.html
-https://pure.au.dk/portal/en/publications/monadic-abstract-interpreters/
-https://data.tmorris.net/talks/haskell-parsers/haskell-parsers/pdf/index.pdf
-https://arxiv.org/abs/1802.06571
-https://arxiv.org/abs/2001.04457
-https://arxiv.org/abs/1105.2576
-https://arxiv.org/abs/1707.04755
-https://hackage.haskell.org/package/network-3.1.1.1/docs/Network-Socket.html
-https://hackage.haskell.org/package/network-2.8.0.0/docs/Network-Socket.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/libraries/network/Network-Socket.html
-https://hackage.haskell.org/package/network-2.8.0.1/docs/Network-Socket.html
-https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/Control-Exception.html
-https://downloads.haskell.org/ghc/8.10.1-alpha1/docs/html/libraries/ghc-8.10.0.20191123/Exception.html
-https://downloads.haskell.org/ghc/6.6/docs/html/libraries/base/Control-Exception.html
-https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/transformers-0.5.6.2/Control-Monad-Trans-Except.html
-https://courses.seas.harvard.edu/courses/cs152/2024sp/lectures/lec18-monads.pdf
-https://www.classcentral.com/subject/monads
-https://arxiv.org/abs/2312.14964
-https://dl.acm.org/doi/10.1145/3331545.3342598
-https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries
-https://www.cs.ox.ac.uk/people/samuel.staton/papers/mfps2021.pdf
-https://khibino.github.io/haskell-relational-record/pdf/hrr-haskell-sympo2016-rejected.pdf
-https://scispace.com/pdf/bringing-back-monad-comprehensions-4bpxamu9c8.pdf
-https://homepages.inf.ed.ac.uk/wadler/papers/list-comp/list-comp.pdf
-https://db.cs.uni-tuebingen.de/publications/2003/monad-comprehensions.-a-versatile-representation-for-queries/monad-comprehensions.pdf
-https://cir.nii.ac.jp/crid/1360298759830884864
-https://hackage.haskell.org/package/effectful-2.2.0.0
-https://www.researchgate.net/publication/30013135_Monad_Comprehensions_A_Versatile_Representation_for_Queries
-https://d-nb.info/957714041/34
-https://www.research.ed.ac.uk/en/publications/comprehending-monads/
-https://www.researchgate.net/publication/2393351_Comprehending_Queries
-https://www.researchgate.net/publication/221562949_Bringing_Back_Monad_Comprehensions
-https://www.wisnesky.net/tr-02-11.pdf
-https://pages.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf
-https://hackage.haskell.org/package/resource-simple/docs/Control-Monad-Resource.html
-https://arxiv.org/abs/2507.23205
-https://arxiv.org/abs/2009.14322
-https://arxiv.org/abs/1012.4895
-https://www.ioc.ee/~matt/iti0212-2025/iti0212-specification-2025.pdf
-https://onlinecourses-archive.nptel.ac.in/noc15_cs13/
-https://citeseerx.ist.psu.edu/document?doi=6a77e58bdddc2752120b022d55a971931d379a57&repid=rep1&type=pdf
-https://arxiv.org/abs/2007.10809
-https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf
-https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf
-https://www.scitepress.org/Papers/2013/43267/43267.pdf
-https://hackage.haskell.org/package/servant-websockets
-https://hackage-content-origin.haskell.org/package/warp-1.3.7.5
-https://www.stackage.org/lts-10.10/package/warp-3.2.18
-https://www.stackage.org/lts-10.3/package/warp-3.2.13
-https://www.servant.dev/
-http://www.acm.jhu.edu/~nwf/fwh/08_yesod.pdf
-https://haskell.org/communities/05-2014/html/report.html
-https://hackage.haskell.org/package/HasChor
-https://legacy.cs.indiana.edu/~dyb/pubs/monadicDC.pdf
-https://comp2221.github.io/fp-website/past-editions/2022-23/lectures/
-https://archive.fosdem.org/2023/schedule/event/haskell_2d_animations/
-https://discourse.haskell.org/t/haskell-2023-talk-videos-on-youtube/8233
-https://opencourse.inf.ed.ac.uk/sites/default/files/https/opencourse.inf.ed.ac.uk/inf1a/2023/tutorial1.pdf
-https://effect-handlers.org/talks/hope-2024-talk.pdf
-https://www.scribd.com/document/846854425/monadic-parsing-jfp
-https://theses.gla.ac.uk/2353/
-https://cronfa.swan.ac.uk/Record/cronfa42789/Download/0042789-02082018162522.pdf
-https://arxiv.org/abs/1304.4091
-https://cademy.io/packt/supercharge-scala-future-fp-tower
-https://www.classcentral.com/course/udemy-functional-effect-handling-in-scala-with-cats-effect-401728
-https://courses.rockthejvm.com/p/cats-effect
-https://arxiv.org/abs/2010.10510
-https://research.chalmers.se/en/publication/182285
-https://kar.kent.ac.uk/98024/
-https://kar.kent.ac.uk/id/eprint/98024
-https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_article
-https://richarde.dev/papers/2022/linear-constraints/linear-constraints.pdf
-https://granule-project.github.io/papers/esop22-paper.pdf
-https://mew.org/~kazu/doc/paper/hask035-voellmy.pdf
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/PrimOp.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/GHC-Event.html
-https://www.stackage.org/package/ghc-prim
-https://hackage-content.haskell.org/package/postgresql-migration-persistent-1.0.0/docs/PostgreSQL-Migration-Persistent.html
-https://hackage-content-origin.haskell.org/package/persistent-1.3.1.1
-https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1
-https://wespiser.com/writings/wyas/07_io.html
-https://research.chalmers.se/publication/500049/file/500049_Fulltext.pdf
-https://student.cs.uwaterloo.ca/~cs442/W25/videos/5.3/
-https://www.classcentral.com/index.php/course/youtube-haskell-25-freer-arrows-and-why-you-need-them-in-haskell-508747
-https://www.researchgate.net/publication/333600413_Interaction_Trees_Representing_Recursive_and_Impure_Programs_in_Coq_Work_In_Progress
-https://dl.acm.org/doi/10.1145/3632854
-https://doisinkidney.com/pdfs/algebraic-free-monads.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2019/03/algeff-in-c-aplas.pdf
-https://www.type-driven.org.uk/edwinb/papers/effects.pdf
-https://arxiv.org/abs/1904.08843
-https://arxiv.org/abs/1309.4821
-https://repozitorij.uni-lj.si/IzpisGradiva.php?id=162658
-https://sf.snu.ac.kr/yoonseung.kim/thesis_yskim.pdf
-https://run.unl.pt/entities/publication/21115aa8-fe7b-4eea-88f1-d372d0298188
-https://www.cl.cam.ac.uk/teaching/2526/R277/slides-effect-handlers.pdf
-https://hackage.haskell.org/package/process-1.4.3.0
-https://hackage.haskell.org/package/unix-bytestring-0.3.7.6/docs/System-Posix-IO-ByteString.html
-https://hackage.haskell.org/package/process-1.4.0.0
-https://groups.seas.harvard.edu/courses/cs152/2025sp/lectures/sld18-monads.pdf
-https://repository.tudelft.nl/record/uuid%3Aa4b267de-fe91-4672-9acb-e81961d2a6f0
-https://waseda.repo.nii.ac.jp/records/2001323
-https://www.researchgate.net/publication/383150860_Specification_and_Verification_for_Unrestricted_Algebraic_Effects_and_Handling
-https://reposiTUm.tuwien.at/handle/20.500.12708/199644
-https://prg.is.titech.ac.jp/papers/bibtexbrowser.php?bib=prg-e.bib&key=tsuyama2024pepm
-https://continuation.passing.style/teaching/cs150-fall25/slides/05-effects.pdf
-https://prg.is.titech.ac.jp/papers/pdf/ifip21-slides.pdf
-https://link.springer.com/chapter/10.1007/978-0-307-98239-9_13
-https://hackage.haskell.org/package/bytestring-0.12.2.0/docs
-https://hackage.haskell.org/package/process-1.6.26.1/docs
-https://www.stackage.org/package/bytestring
-https://www.stackage.org/package/process
-https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397
-https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html
-https://www.stackage.org/lts-17.15/package/resourcet-1.2.4.2
-https://hackage.haskell.org/package/simpleprelude/docs/Prelude.html
-https://hackage-content.haskell.org/package/stm-chans-3.0.0.11/docs/Control-Concurrent-STM-TMQueue.html
-https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control-devel
-https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad-ST.html
-https://www.haskell.foundation/events/2025-haskell-ecosystem-workshop.html
-https://discourse.haskell.org/t/haskell-ecosystem-workshop-hew-2025-videos-online/12788
-https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025/LIPIcs.ECOOP.2025.pdf
-https://citeseerx.ist.psu.edu/document?doi=1ef1e228ef8bc029d50c4f8cc1d27e386cd53dc3&repid=rep1&type=pdf
-https://hackage-content.haskell.org/package/mtl-2.1.2/docs/Control-Monad-State-Strict.html
-https://hackage.haskell.org/package/transformers-0.6.2.0/docs
-https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Reader.html
-https://verify.rwth-aachen.de/fp12/
-https://hackage.haskell.org/package/mtl-2.2.2/changelog
-https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TQueue.html
-https://hackage.haskell.org/package/mtl-2.2.2/docs/Control-Monad-Error.html
-https://hackage.haskell.org/package/transformers-0.2.1.0/docs/Control-Monad-Trans-State.html
-https://hackage.haskell.org/package/stm-2.4.4.1/docs
-https://pure-oai.bham.ac.uk/ws/portalfiles/portal/223684242/978-3-031-57262-3_1.pdf
-https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations
-https://eric.walkingshaw.net/files/pubs/students/alkubaish-20-ms-thesis.pdf
-https://arxiv.org/abs/2402.03103
-https://arxiv.org/abs/2203.03288
-https://hackage.haskell.org/package/control-monad-exception-0.8.0
-https://hackage.haskell.org/package/streaming-utils-0.2.1.0/docs
-https://hackage.haskell.org/package/network-2.2.1/docs/Network.html
-https://hackage.haskell.org/package/control-monad-exception/docs
-https://popl24.sigplan.org/details/lafi-2024-papers/4/Effect-Handlers-for-Choice-Based-Learning
-https://www.researchgate.net/publication/383515063_Making_a_Curry_Interpreter_using_Effects_and_Handlers
-https://dspace.ut.ee/items/8fd690d9-6be2-4b5c-a481-afcba4e39d22
-https://hackage.haskell.org/package/lifted-base/docs
-https://hackage.haskell.org/package/resourcet-1.1.0.1/docs
-https://www.lironcohenlab.com/pubs/invitedFSCD2025.pdf
-https://drops.dagstuhl.de/storage/00lipics/lipics-vol337-fscd2025/LIPIcs.FSCD.2025/LIPIcs.FSCD.2025.pdf
-https://hackage.haskell.org/package/Stream-0.1/docs
-https://hackage.haskell.org/package/conduit-1.2.4.2/docs
-https://packages.fedoraproject.org/pkgs/ghc-exceptions/ghc-exceptions
-https://hackage.haskell.org/package/html-conduit-1.2.0/docs
-https://constructor.university/sites/default/files/2026-02/AST_MSc_HandBook_2025_1_1.pdf
-https://hackage.haskell.org/package/exceptions-0.7/docs
-https://packages.fedoraproject.org/pkgs/ghc-resourcet/ghc-resourcet-doc
-https://hackage.haskell.org/package/control-monad-exception-0.3
-https://conf.researchr.org/series/haskellsymp
-https://discourse.haskell.org/t/not-quite-monads-haskell-unfolder-54/13973
-https://hackage.haskell.org/package/constrained-monads/docs
-https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-TCP.html
-https://www.classcentral.com/course/youtube-haskell-25-machine-learning-primitives-as-algebraic-effects-508816
-https://haskellweekly.news/issue/463.html
-https://icfp25.sigplan.org/room/splash-2025-venue-peony-sw
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/190FBF349B0D32D56992C566CDBF5ED5/S0956796824000133a.pdf/from_high_to_low_simulating_nondeterminism_and_state_with_state.pdf
-https://pure.itu.dk/en/projects/algebraic-effects-and-guarded-recursion/publications/
-https://mailman.haskell.org/archives/list/haskell%40haskell.org/2025/5/
-https://explore.gcts.edu/algebra-suggest-010/files?ID=KjE05-5383&title=why-algebraic-effects.pdf
-https://hackage.haskell.org/package/extensible-exceptions/docs
-https://packages.fedoraproject.org/pkgs/ghc-extensible-exceptions/ghc-extensible-exceptions-doc
-https://hackage.haskell.org/package/pipes-4.1.0/docs
-https://hackage.haskell.org/package/exceptions-0.6.1
-https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-IO.html
-https://mailman.haskell.org/archives/list/haskell%40haskell.org/2026/5/
-https://icfp24.sigplan.org/series/haskellsymp
-https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.45
-https://www.mail-archive.com/haskell%40haskell.org/msg27444.html
-https://hackage.haskell.org/package/network-conduit/docs
-https://hackage.haskell.org/package/conduit-1.0.5/docs
-https://hackage.haskell.org/package/extensible-exceptions-0.1.1.4/docs
-https://verify.rwth-aachen.de/fp26/
-https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
-https://hackage.haskell.org/package/network-2.6.0.0/docs
-https://icfp26.sigplan.org/home/hope-2026
-https://doi.org/10.1145/3808259
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf
-https://hackage.haskell.org/package/happstack-monad-peel/docs
-https://www.stackage.org/package/http-conduit
-https://hackage-content.haskell.org/package/mstate-0.2.11/docs/Control-Concurrent-MState.html
-https://www.classcentral.com/index.php/course/youtube-haskell-23-haskell-for-choice-based-learning-347653
-https://www.classcentral.com/course/youtube-building-haskell-programs-with-fused-effects-by-patrick-thomson-166091
-https://www.classcentral.com/course/youtube-pldi-23-purecake-a-verified-compiler-for-a-lazy-functional-language-347887
-https://www.classcentral.com/course/youtube-haskellrank-59641
-https://ghc.gitlab.haskell.org/ghc/doc/users_guide/using-warnings.html
-https://hackage.haskell.org/package/monad-logger-0.3.28/docs
-https://www.classcentral.com/course/youtube-haskell-23-effect-handlers-for-programmable-inference-347652
-https://www.classcentral.com/course/youtube-haskell-23-hastee-programming-trusted-execution-environments-with-haskell-347649
-https://www.classcentral.com/course/youtube-effective-haskell-rebecca-skinner-emily-pillmore-goto-2024-282505
-https://www.classcentral.com/course/youtube-insait-tech-series-prof-martin-odersky-effects-and-resources-new-frontiers-for-safe-and-354715
-https://www.classcentral.com/course/youtube-oopsla-25-notions-of-stack-manipulating-computation-and-relative-monads-508883
-https://www.classcentral.com/course/youtube-haskell-for-beginners-59640
-https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/66/An-Equational-Axiomatization-of-Dynamic-Threads-via-Algebraic-Effects-Presheaves-on-
-https://luma.com/wv1zt5em
-https://pure.itu.dk/en/publications/calculating-compilers-effectively-functional-pearl/
-https://arxiv.org/abs/2602.05850
-https://packages.fedoraproject.org/pkgs/ghc-monad-logger/ghc-monad-logger
-https://packages.debian.org/source/trixie/misc/haskell-monad-logger
-https://hackage.haskell.org/package/monad-loops-0.3.0.1/docs
-https://hackage-content.haskell.org/package/loops-0.2.0.2/docs/Control-Monad-Loop-Internal.html
-https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1920-ug-projects/An-Investigation-into-Adding-Exception-Handling-to-Haskell.pdf
-https://hackage.haskell.org/package/dph-lifted-base/docs
-https://hackage.haskell.org/package/lifted-base-0.1.1.1/docs
-https://hackage.haskell.org/package/monad-loops-0.3.0.2
-https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/
-https://serokell.io/courses
-https://hackage.haskell.org/package/monad-peel-0.3
-https://hackage.haskell.org/package/transformers-base-0.4.6/docs
-https://hackage.haskell.org/package/transformers-compat-0.4.0.2/docs
-https://hackage.haskell.org/package/exceptions-0.10.12/docs
-https://hackage.haskell.org/package/mtl-tf-0.2.0.0/docs
-https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-transformers-compat/
-https://hackage.haskell.org/package/monads-tf/docs
-https://hackage.haskell.org/package/monads-tf-0.1.0.3/docs
-https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc
-https://www.stackage.org/package/monads-tf
-https://packages.debian.org/source/stable/haskell-monads-tf
-https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/
-https://hackage.haskell.org/package/effect-monad-0.7.0.0
-https://hackage.haskell.org/package/control-monad-exception-monadstf/docs
-https://hackage.haskell.org/package/exception-transformers-0.4.0.3/docs
-https://hackage.haskell.org/package/mtl-1.1.0.0
-https://hackage.haskell.org/package/mmtl
-https://hackage.haskell.org/package/mtl-1.1.0.2/docs/Control-Monad-Cont.html
-https://hackage.haskell.org/package/control-monad-exception-mtl/docs
-https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs/doc-index.html
-https://mmhaskell.com/
-https://www.classcentral.com/index.php/subject/referential-transparency
-https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/
-https://www.classcentral.com/subject/referential-transparency
-https://hackage.haskell.org/package/pipes-safe-2.0.2/docs
-https://hackage.haskell.org/package/pipes-4.0.2/docs
-https://hackage.haskell.org/package/pipes-core/docs
-https://hackage.haskell.org/package/pipes-2.3.0/docs
-https://dev.to/bekbrace/monads-in-haskell-1p8i
-https://www.youtube.com/watch?v=pj7-rNyz3J8
-https://hackage.haskell.org/package/exception-transformers/docs
-https://hackage.haskell.org/package/control-monad-exception-0.5
-https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/
-https://www.cs.toronto.edu/~trebla/CSCC24-latest/
-https://is.muni.cz/course/fi/spring2026/IB016?lang=en%3Bzobrazmatob%3D1
-https://www.stackage.org/lts-3.0/package/conduit-1.2.5
-https://hackage.haskell.org/package/core-effect-effectful/docs/
-https://hackage.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html
-https://hackage-content.haskell.org/package/base-4.22.0.0/docs/GHC-Exception.html
-https://haskell.foundation/events/2026-haskell-implementors-workshop.html
-https://discourse.haskell.org/t/call-for-talks-haskell-implementors-workshop-2026/13698
-https://discourse.haskell.org/t/call-for-participation-2.5-hour-haskell-foundation-online-workshop/14312
-https://www.reddit.com/r/haskell/comments/1upt8sr/zurihac_2026_video_playlist/
-https://hackage.haskell.org/package/safe-exceptions/docs
-https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html
-https://well-typed.com/blog/2025/05/haskell-unfolder-episode-44-state-based-testing-with-quickcheck-lockstep
-https://www.cambridge.org/core/product/20BF7DCA6330A2115C2C9B9BA47AB2E0
-https://discourse.haskell.org/t/state-based-testing-with-quickcheck-lockstep-haskell-unfolder-44/12095
-https://hackage.haskell.org/package/resourcet-effectful/docs
-https://hackage.haskell.org/package/effectful-core-2.2.2.0/docs
-https://www.packtpub.com/en-us/product/learning-haskell-programming-9781786465542
-https://www.packtpub.com/en-sg/product/learning-haskell-programming-9781786465542
-https://www.packtpub.com/en-gb/product/learning-haskell-programming-9781786465542
-https://www.packtpub.com/en-br/product/learning-haskell-programming-9781786465542
-https://hackage.haskell.org/package/base-4.17.0.0/changelog
-https://hackage.haskell.org/package/base-4.22.0.0/changelog
-https://hackage.haskell.org/package/safe-exceptions-0.1.7.4/docs
-https://igm.univ-mlv.fr/~vialette/teaching/2025-2026/E4/Examen-11-20-25/Lectures/lecture-01-first-steps.pdf
-https://hackage-content.haskell.org/package/hspec-2.11.12
-https://www.stackage.org/lts-17.6/package/safe-exceptions-0.1.7.1
-https://flora.pm/packages/%40hackage/fused-effects
-https://hackage.haskell.org/package/hspec-core-2.11.17
-https://discourse.haskell.org/t/rfc-hspec-quickcheck-classes-testing-typeclass-laws-from-hspec/13919
-https://web.mit.edu/phurst/Public/haskell13/day3.pdf
-https://mynixos.com/nixpkgs/package/haskellPackages.safe-exceptions
-https://mynixos.com/nixpkgs/package/haskellPackages.unliftio
-https://dev.flora.pm/packages/%40hackage/Z-IO/0.1.6.1/changelog
-https://flora.pm/packages/%40hackage/conduit/1.1.3/changelog
-https://mynixos.com/nixpkgs/package/haskellPackages.effectful
-https://mynixos.com/nixpkgs/package/haskellPackages.fused-effects
-https://pure.itu.dk/da/publications/the-calculated-typer-functional-pearl/
-https://researchportal.hw.ac.uk/files/149643713/TFP-2025-Author-Submitted-Manuscript.pdf
-https://haskell25.hotcrp.com/
-https://lists.seas.upenn.edu/pipermail/types-announce/2025/011851.html
-https://mail.haskell.org/pipermail/haskell-cafe/attachments/20250327/b8e0710b/attachment.html
-https://www.mail-archive.com/haskell%40haskell.org/msg27378.html
-https://www.stackage.org/nightly-2026-03-23/package/effectful-2.6.1.0
-https://flora.pm/packages/%40hackage/effectful
-https://mynixos.com/nixpkgs/package/haskellPackages.SoOSiM
-https://www.haskell.org/ghc/docs/7.0.1/core.pdf
-https://www.stackage.org/lts-6.1/package/strict-0.3.2
-https://flora.pm/packages/%40hackage/monad-classes
-https://hackage.haskell.org/package/exception-transformers
-https://mynixos.com/nixpkgs/package/haskellPackages.effectful-core
-https://flora.pm/packages/%40hackage/resourcet-effectful
-https://flora.pm/packages/%40hackage/core-effect-effectful/0.0.0.4/dependencies
-https://www.mail-archive.com/haskell%40haskell.org/msg27448.html
-https://www.ost.ch/en/details/events/haskell-implementors-workshop-hiw-2026
-https://icfp26.sigplan.org/
-https://icfp17.sigplan.org/series/icfp
-https://arxiv.org/abs/2601.02060
-https://discourse.haskell.org/t/call-for-proposals-reviewing-testing-and-managing-llm-generated-haskell/14041
-https://www.stackage.org/di-monad
-https://www.stackage.org/lts-21.14/package/di-monad-1.3.2
-https://mynixos.com/nixpkgs/package/haskellPackages.io-region
-https://mynixos.com/nixpkgs/package/haskellPackages.io-storage
-https://mynixos.com/nixpkgs/package/haskellPackages.io-streams
-https://mynixos.com/nixpkgs/package/haskellPackages.ioctl
-https://mynixos.com/nixpkgs/package/haskellPackages.ior
-https://mynixos.com/nixpkgs/package/haskellPackages.effect-stack
-https://mynixos.com/nixpkgs/package/haskellPackages.effect-monad
-https://mynixos.com/nixpkgs/package/haskellPackages.monad-effect
-https://mynixos.com/nixpkgs/package/haskellPackages.effet
-https://mynixos.com/nixpkgs/package/haskellPackages.bluefin-algae
-https://mynixos.com/nixpkgs/package/haskellPackages.io-capture
-https://mynixos.com/nixpkgs/package/haskellPackages.io-choice
-https://mynixos.com/nixpkgs/package/haskellPackages.io-embed
-https://mynixos.com/nixpkgs/package/haskellPackages.io-memoize
-https://mynixos.com/nixpkgs/package/haskellPackages.io-reactive
-https://mynixos.com/nixpkgs/package/haskellPackages.io-streams-http
-https://mynixos.com/nixpkgs/package/haskellPackages.io-throttle
-https://mynixos.com/nixpkgs/package/haskellPackages.io-classes-mtl
-https://mynixos.com/nixpkgs/package/haskellPackages.polysemy
-https://mynixos.com/nixpkgs/package/haskellPackages.cleff
-https://mynixos.com/nixpkgs/package/haskellPackages.freer-simple
-https://mynixos.com/nixpkgs/package/haskellPackages.monad-unlift
-https://mynixos.com/nixpkgs/package/haskellPackages.unliftio-core
-https://mynixos.com/nixpkgs/package/haskellPackages.monad-control
-https://mynixos.com/nixpkgs/package/haskellPackages.exceptions
-https://mynixos.com/nixpkgs/package/haskellPackages.lifted-base
-https://mynixos.com/nixpkgs/package/haskellPackages.resourcet
-https://mynixos.com/nixpkgs/package/haskellPackages.conduit
-https://mynixos.com/nixpkgs/package/haskellPackages.streaming
-https://www.stackage.org/lts-24.49/package/monad-control-1.0.3.1
-https://www.stackage.org/lts-24.48/package/exceptions-0.10.9
-https://www.stackage.org/lts-7.24/package/monad-control-1.0.1.0
-https://www.stackage.org/lts-6.35/package/monad-control-1.0.1.0
-https://www.classcentral.com/course/youtube-effectful-pawel-szulc-lambda-days-2022-347191
-https://discourse.haskell.org/t/videos-for-the-2025-haskell-ecosystem-workshop/12632
-https://hackage.haskell.org/package/effectful-2.6.1.0
-https://www.stackage.org/lts-23.14/package/fused-effects-1.1.2.4
-https://www.stackage.org/lts-23.13/package/resourcet-1.3.0
-https://haskell.org/wikiupload/e/e9/Typeclassopedia.pdf
-https://www.youtube.com/playlist?list=PLQpeDZt0_xQfpBPdVV3hUZ3_pDxmYhsbr
-https://www.youtube.com/@HaskellFoundation
-https://www.youtube.com/@HaskellImplementorsWorkshop
-https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html#video-recordings
-https://www.reddit.com/r/haskell/comments/1mvgic6
-https://www.reddit.com/r/haskell/comments/1mvgj2k
-https://www.stackage.org/package/effectful-core/snapshots
-https://www.haskell.org/pipermail/haskell-cafe/2007-July/027778.html
-https://ir.cwi.nl/pub/22680
-https://mail.haskell.org/pipermail/haskell-cafe/2025-July/137171.html
-https://www.semanticscholar.org/paper/State-in-Haskell-Launchbury-Jones/5768f243d9d91cf3225ae6ca1a89193f5b5ee423
-https://www.semanticscholar.org/paper/Imperative-functional-programming-Jones-Wadler/4bc5332578e0da3556ed576a6d4d33cf9f789e02
-https://archlinux.org/packages/extra-staging/x86_64/haskell-transformers-base/
-https://archlinux.org/packages/extra/x86_64/haskell-transformers-compat/
-https://archlinux.org/packages/extra/x86_64/haskell-unexceptionalio/
-https://archlinux.org/packages/extra/x86_64/haskell-control-monad-free/
-https://archlinux.org/packages/extra/x86_64/haskell-monad-control/files/
-https://archlinux.org/packages/extra/x86_64/haskell-unliftio/files/
-https://packages.debian.org/source/bullseye/haskell-monad-logger
-https://packages.debian.org/bookworm/source/haskell-rio-orphans
-https://packages.debian.org/source/bullseye/allpackages
-https://packages.debian.org/sid/doc/
-https://packages.debian.org/uk/sid/doc/
-https://packages.debian.org/source/bullseye/haskell-musicbrainz
-https://packages.debian.org/testing/haskell/
-https://www.futurelearn.com/courses/functional-programming-haskell
-https://scispace.com/pdf/a-programming-tutor-for-haskell-3qal96p64z.pdf
-https://people.cs.nott.ac.uk/pszgmh/book-old.html
-https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844/56
-https://www.cs.unm.edu/~mlakin/assets/teaching/2021-fall-cs558-syllabus.pdf
-https://www.sigplan.org/OpenTOC/haskell25.html
-https://www.reddit.com/r/haskell/comments/1lvd5sv
-https://packages.debian.org/source/bookworm/haskell/
-https://packages.debian.org/source/bookworm/haskell-monadlib
-https://packages.debian.org/bookworm/libghc-monad-logger-prof
-https://www.stackage.org/lts-6.30/package/effect-handlers-0.1.0.8
-https://www.stackage.org/nightly-2021-08-23/package/extensible-effects-5.0.0.1
-https://www.stackage.org/lts-22.25/package/silently-1.2.5.3
-https://archlinux.org/packages/extra/x86_64/haskell-transformers-base/
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-exception-transformers/
-https://portal.acm.org/citation.cfm?id=363749
-https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497
-https://www.c2.com/cgi/wiki?OnMonads
-https://youtube.com/playlist?list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb
-https://haskell.foundation/events/
-https://person.dibris.unige.it/moggi-eugenio/ftp/EM-GDPfest.pdf
-https://hackage.haskell.org/package/hnix
-https://hackage.haskell.org/package/base-4.9.0.0/docs/Control-Exception.html
-https://hackage.haskell.org/package/monad-loops
-https://hackage.haskell.org/package/monad-finally
-https://hackage.haskell.org/package/logging-effect
-https://hackage.haskell.org/package/eff
-https://hackage.haskell.org/package/free-programs
-https://hackage.haskell.org/package/monad-extras
-https://hackage.haskell.org/package/monad-journal
-https://mynixos.com/nixpkgs/packages/haskellPackages
-https://mynixos.com/nixpkgs/packages/haskellPackages/176
-https://mynixos.com/nixpkgs/package/haskellPackages.trans-fx-io
-https://mynixos.com/nixpkgs/package/haskellPackages.monad-loops
-https://packages.debian.org/source/bullseye/haskell-exception-transformers
-https://packages.debian.org/bullseye/haskell/libghc-exception-transformers-dev
-https://archlinux.org/packages/extra-staging/x86_64/haskell-safe-exceptions/
-https://archlinux.org/packages/extra/x86_64/haskell-extensible-exceptions/
-https://packages.debian.org/source/sid/haskell-control-monad-loop
-https://archlinux.org/packages/extra/x86_64/haskell-language-server/
-https://packages.debian.org/trixie/doc/libghc-monad-logger-doc
-https://dennou-q.gfd-dennou.org/library/Linux/debian/pool/main/h/haskell-file-io/
-https://www.uibk.ac.at/media/filer_public/02/ea/02eaeeda-ded3-4aa6-bcf4-a125e575a1dd/category_theory.pdf
-https://entropicthoughts.com/haskell-procedural-programming
-https://discourse.haskell.org/t/abstracting-storage-details-with-effectful-first-blog-post/12190
-https://studentprojectcode.com/blog/what-is-the-io-type-in-haskell
-https://www.openscience.uz/index.php/sciedu/article/download/8060/7411/14770
-https://www.stackage.org/lts-16.0/package/resourcet-1.2.4.1
-https://www.stackage.org/lts-6.1/package/resourcet-1.1.7.4
-https://www.stackage.org/nightly-2016-10-23/package/resourcet-1.1.8
-https://www.stackage.org/nightly-2015-11-27/package/resourcet-1.1.6
-https://www.stackage.org/nightly-2015-04-30/package/resourcet-1.1.4.1
-https://www.stackage.org/nightly-2026-06-19/package/resourcet-1.3.0
-https://www.stackage.org/lts-21.22/package/resourcet-1.2.6
-https://packages.debian.org/bullseye/all/doc/libghc-io-storage-doc
-https://packages.debian.org/sid/libghc-iospec-dev
-https://packages.debian.org/unstable/haskell/libghc-io-storage-dev
-https://www.reddit.com/r/haskell/comments/1ux3kad
-https://www.reddit.com/r/haskell/comments/1kky7b7
-https://arxiv.org/abs/2507.16086
-https://groups.seas.harvard.edu/courses/cs152/2021sp/lectures/lec18-monads.pdf
-https://www.cs.uoregon.edu/research/summerschool/summer18/topics.php
-https://archlinux.org/packages/extra/x86_64/haskell-extra/
-https://archlinux.org/packages/extra/x86_64/haskell-comonad/
-https://archlinux.org/packages/extra/x86_64/haskell-either/
-https://packages.debian.org/sid/all/doc/libghc-managed-doc
-https://cse.sc.edu/~mgv/csce590f20/haskell/p359-hudak.pdf
-https://icfp24.sigplan.org/home/hiw-2024
-https://haflang.github.io/workshops/hafdal24.html
-https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew-2025-videos-online/
-https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/
-https://qa.debian.org/debcheck.php?dist=unstable&package=haskell-file-io
-https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html
-https://www.stackage.org/lts/package/unliftio-0.2.25.1
-https://hackage.haskell.org/package/exceptions-0.10.3
-https://hackage.haskell.org/package/fused-effects-exceptions
-https://www.stackage.org/package/fused-effects-exceptions
-https://hackage.haskell.org/package/io-streams-1.3.6.1
-https://hackage.haskell.org/package/io-streams-1.5.2.2/docs
-https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html
-https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html
-https://packages.debian.org/sid/haskell/libghc-io-streams-dev
-https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=1243163585
-https://packages.debian.org/testing/haskell/libghc-io-streams-dev
-https://ftp.cica.es/mirrors/Linux/raspbian/raspbian/pool/main/h/haskell-io-streams/
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-storage/
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-path-io/
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-streams/
-https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-gio/
-https://sources.debian.org/src/haskell-http-streams/0.8.9.9-1/http-streams.cabal
-https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO
-https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html
-https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-storage/
-https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/
-https://discourse.haskell.org/t/call-for-participation-2-5-hour-haskell-foundation-online-workshop/14312
-https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944874.html
-https://mailman.haskell.org/archives/list/ghc-commits@haskell.org/thread/TBCIDETQG5E7QHOKX75EHX3WXLAAUT62/
-https://hackage.haskell.org/package/logict
-https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html
-https://hackage.haskell.org/package/GHC.IO.html
-https://hackage-content.haskell.org/package/HPDF-1.8/docs/Graphics-PDF-Documentation.html
-https://www.cs.tufts.edu/comp/150FP/archive/jason-dagit/ms-thesis.pdf
-https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944198.html
-https://piuparts.debian.org/trixie/maintainer/p/pkg-haskell-maintainers%40lists.alioth.debian.org.html
-https://hackage.haskell.org/package/base-4.0.0.0/docs/src/GHC-IOBase.html
-https://www.haskell.org/haskell-workshop/2000/papers.html
-https://dblp.uni-trier.de/db/conf/haskell/haskell2000.html
-https://www.haskell.org/ghc/docs/6.12.2/haddock.pdf
-https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-workshop
-https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programming-in-haskell/
-https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html
-https://sources.debian.org/src/haskell-monad-memo
-https://dspace.library.uu.nl/handle/1874/18968
-https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/
-https://www.stackage.org/package/io-machine-0.2.0.0
-https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0
-https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0
-https://www.stackage.org/lts-24.29/package/io-storage-0.3
-https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4
-https://www.oreilly.com/library/view/real-world-haskell/9780596154646/
-https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md
-https://gist.github.com/therewillbecode
-https://gist.github.com/FranklinChen/1448622
-https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2
-https://hackage-content.haskell.org/package/heftia-0.7.0.0/docs/Control-Monad-Hefty.html
-https://arxiv.org/abs/2406.07216
-https://gist.github.com/vu3rdd/6409454
-https://gist.github.com/ymdfield/e17cb32aa24eb1418377d9fecc021101
-https://gist.github.com/newswim/4668aef8a1f1bc0dabe8
-https://gist.github.com/837f820d38c8ac6c46e2a02a4d3c0fbd
-https://packages.debian.org/source/stable/haskell-monadlist
-https://arxiv.org/abs/1707.04724
-https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html
-https://forum.cardano.org/t/real-world-haskell-good-bad-ugly-by-saurabh-nanda-at-functional-conf-2017/12160
-https://www.youtube.com/watch?v=7NB8tMa8sUk
-https://arxiv.org/abs/2511.06701
-https://mailman.haskell.org/archives/
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1da3e4a2d35861293448dcb&repid=rep1&type=pdf
-https://www.reddit.com/r/haskell/comments/6xkttl/why_do_haskell_needs_monad_for_io/
-https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/
-https://users.rust-lang.org/t/what-is-a-monad-and-who-needs-haskell-anyway/45710
-https://www.youtube.com/watch?v=ofUAlkYHFsI
-https://learnxinyminutes.com/fr/haskell/
-https://archlinux.org/packages/extra/x86_64/haskell-rio/
-https://packages.debian.org/search?keywords=libghc-io-streams-dev
-https://archlinux.org/packages/extra/x86_64/haskell-monad-logger/
-https://packages.debian.org/testing/haskell/libghc-unliftio-dev
-https://kar.kent.ac.uk/id/document/95650
-https://packages.fedoraproject.org/pkgs/ghc-unliftio/
-https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-devel
-https://packages.fedoraproject.org/pkgs/ghc-http-streams/ghc-http-streams
-https://rpmfind.net/linux/RPM/fedora/devel/rawhide/s390x/g/ghc-io-streams-doc-1.5.2.2-16.fc44.noarch.html
-https://hackage.haskell.org/package/binary-io
-https://downloads.haskell.org/~ghc/6.8.1/docs/users_guide.pdf
-https://cspages.ucalgary.ca/~robin/class/521/webnotes.html
-https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c045&repid=rep1&type=pdf
-https://www.michaelhanus.de/lehre/cb13/skript/notizen2013.pdf
-https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2013/
-https://whatthefunctional.wordpress.com/haskell-for-the-imperative/
-https://zio.dev/zio-quill/writing-queries/
-https://jdriven.com/blog/2019/10/Functional-dependency-injection-in-Scala-using-ZIO-environments
-https://afiore.github.io/website/blog/2020/02/15/discarding-io
-https://livebook.manning.com/book/functional-programming-in-scala/part-4
-https://www.users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf
-https://www.stackage.org/nightly-2019-07-04/package/rio-0.1.10.0
-https://ghc.gitlab.haskell.org/ghc/doc/libraries/template-haskell-2.24.0.0-inplace/Language-Haskell-TH-Syntax.html
-https://doi.org/10.1017/s0956796824000133
-https://doi.org/10.1145/2503778.2503783
-https://doi.org/10.22152/programming-journal.org/2018/2/12
-https://doi.org/10.1145/2887747.2804319
-https://doi.org/10.1007/978-1-4471-3215-8
-https://doi.org/10.1007/978-1-4471-3166-3
-https://books.rakuten.co.jp/rb/10380119/
-https://www.nippyo.co.jp/shop/book/8340.html
-https://haskellweekly.news/podcast.html
-https://www.reddit.com/r/haskell/comments/1kn0jog/
-https://www.inf.ed.ac.uk/publications/report/0599.html
-https://packages.debian.org/source/bullseye/i386/misc/haskell-monadprompt
-https://packages.ubuntu.com/ca/noble/i386/libghc-iospec-doc
-https://packages.ubuntu.com/search?keywords=lift
-https://era.ed.ac.uk/bitstream/handle/1842/43690/Hollenbeck2025.pdf?sequence=1
-https://fid-core.sourceforge.net/monads-interactive.pdf
-https://hunit.sourceforge.net/HUnit-1.0/Guide.html
-https://kokogut.sourceforge.net/faq.html
-https://sourceforge.net/directory/libraries/haskell/
-https://sourceforge.net/projects/marble.mirror/
-https://sourceforge.net/projects/marble-builds/files/losksu/LosKsu_26_September.zip/download
-https://files01.core.ac.uk/download/74136999.pdf
-https://fileserver-az.core.ac.uk/download/577436407.pdf
-https://files01.core.ac.uk/download/237502259.pdf
-https://leanpub.com/purescript
-https://dantb.dev/files/dissertation.pdf
-https://www.slideshare.net/slideshow/the-io-monad/12123210
-https://www.simonpj.org/assets/papers/monadicIO13.pdf
-https://ceur-ws.org/Vol-1133/paper-17.pdf
-https://nostarch.com/download/samples/LearnYouAHaskell_Index_Sample.pdf
-https://www.numdam.org/articles/10.1051/ita:2004018/
-https://www.numdam.org/articles/10.1051/ita%3A2004018/
-https://www.numdam.org/articles/10.1051/ita:2003020/
-https://www.numdam.org/item/ITA_2004__38_4_375_0
-https://www.numdam.org/item/ITA_2003__37_4_273_0/
-https://numdam.org/articles/10.1051/ita%3A2003020/
-https://eudml.org/doc/246065
-https://web.archive.org/web/20221212192523/https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf
-https://dblp.org/rec/conf/haskell/ErkokL02
-https://dblp.org/rec/journals/ita/ErkokLA05
-https://dblp.org/db/journals/ita/ita36.html
-https://www.researchgate.net/publication/220165760_An_abstract_monadic_semantics_for_value_recursion
-https://www.researchgate.net/publication/7261003_Value_Recursion_in_Monadic_Computations
-https://downloads.haskell.org/old_docs/ghc-4.01.0.0/docs/set-io.htm
-https://www.mat.uc.pt/~pedro/lectivos/docs/ghc-manual.pdf?download=1
-https://www.chriswarbo.net/monads/IOMonad.pdf
-https://www.cl.cam.ac.uk/ftp/papers/monads/
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers.html
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers/summary.html
-https://rocq-prover.org/doc/V8.10.1/api/coq/Logic_monad/index.html
-https://darcs.realworldhaskell.org/static/html/complete/index.html
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/implementing-a-functional-spreadsheet-in-clean/9B7355B606D0F77AD03C308C70B4FF9D
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/transactional-events1/84D5EB6061CC0B2A2C73AC148A26EB6C
-https://www.haskell.org/definition/from13.html
-https://www.haskell.org/definition/from98to13.html
-https://www.cs.cmu.edu/~fp/courses/15312-f06/handouts/17-iomonad.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/2005-ppopp-composable.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/1995/09/monadic-io.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/1987/01/slpj-book-1987-small.pdf
-https://academic.oup.com/edited-volume/34667/chapter-abstract/295394234
-https://ftp.math.utah.edu/pub/tex/bib/lncs1996b.pdf
-https://www.microsoft.com/en-us/research/publication/2005-ppopp-composable/
-https://www.haskell.org/onlinereport/haskell2010/haskellch1.html
-https://www.scs.stanford.edu/11au-cs240h/guide/IO.html
-https://www.michaelcurry.org/haskell/monads/lecture1.pdf
-https://xavierleroy.org/mpri/2-4/
-https://www.cl.cam.ac.uk/teaching/1718/L28/materials.html
-https://www.cs.uwaterloo.ca/~yizhou/courses/cs747-2026wi/schedule/
-https://www.cs.cornell.edu/courses/cs6117/2025fa/
-https://paperswelove.org/papers/tackling-the-awkward-squad-monadic-inputoutput-concurrency-exceptions-and-foreign-language-calls-in-haskell
-https://soft.vub.ac.be/~svdvonde/papers/ecoop2020-tackling-the-awkward-squad-the-actor-reactor-model.pdf
-https://www.cs.gla.ac.uk/~kh/Haskell1.3/IO.html
-https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/32/slides/jml.pdf
-https://dblp.org/rec/conf/oopsla/VonderKMM17
-https://www.cs.cmu.edu/~fp/courses/15312-f06/lectures/17-iomonad.html
-https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.19.pdf
-https://researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-reactor-model
-https://www.ncatlab.org/nlab/show/IO-monad
-https://www.cl.cam.ac.uk/users/adg/io.html
-https://www.cs.cornell.edu/courses/cs3110/2014sp/lectures/lecture13.htm
-http://www.cs.yale.edu/HTML/YALE/CS/haskell/haskell13.html
-https://haskell.mooc.fi/part1/monads/
-https://haskell-cafe.haskell.org/
-https://www.youtube.com/playlist?list=PLu6SHDdOToSe7ZOw-mR55j2GEjkNTQgrd
+https://www.stackage.org/lts-23.3/package/data-effects-core-0.2.0.0	N/A
+https://www.stackage.org/nightly-2019-02-14/package/fused-effects-0.1.2.1	N/A
+https://www.stackage.org/nightly-2019-03-05/package/fused-effects-0.2.0.1	N/A
+https://www.stackage.org/nightly-2019-03-29/package/fused-effects-0.3.0.0	N/A
+https://www.stackage.org/nightly-2020-01-24/package/fused-effects-1.0.0.0	N/A
+https://www.stackage.org/nightly-2021-11-15/package/fused-effects-1.1.1.1	N/A
+https://www.stackage.org/nightly-2025-05-10/package/data-effects-core-0.4.2.0	N/A
+https://www.stackage.org/nightly-2025-08-03/package/fused-effects-1.1.2.5	N/A
+https://www.stackage.org/nightly-2026-02-08/package/data-effects-core-0.4.3.0	N/A
+https://www.stackage.org/package/effet	N/A
+https://www.stackage.org/package/failable	N/A
+https://www.stackage.org/package/monad-exception	N/A
+https://arxiv.org/abs/1803.10195	N/A
+https://doi.org/10.1017/S0960129500001560	publication	1992-12
+https://dspace.library.uu.nl/bitstream/handle/1874/2576/2001-62.pdf?isAllowed=y&sequence=1	N/A
+https://hackage.haskell.org/package/extensible-effects/docs/Control-Eff.html	N/A
+https://www.reddit.com/r/haskell/comments/15a0z4k	N/A
+https://www.reddit.com/r/haskell/comments/c7zcj7	N/A
+https://www.reddit.com/r/programming/comments/1ts1x2l/practical-uses-of-monads-in-haskell/	N/A
+https://www.researchgate.net/publication/220404087_Monads_for_functional_programming	N/A
+https://www.stackage.org/lts-22.28/package/io-storage-0.3	N/A
+https://www.stackage.org/lts-8.24/package/transformers-0.5.2.0	N/A
+https://www.stackage.org/package/box	N/A
+https://www.stackage.org/package/errors-ext	N/A
+https://www.stackage.org/package/monad-memo	N/A
+https://www.stackage.org/package/monad-recorder	N/A
+https://www.stackage.org/package/monad-resumption	N/A
+https://www.stackage.org/package/monad-schedule	N/A
+https://www.stackage.org/package/monad-stm	N/A
+https://www.stackage.org/package/ref-tf	N/A
+https://www.stackage.org/package/stamina	N/A
+https://www.stackage.org/package/timestats	N/A
+https://www.usenix.org/events/dsl99/full_papers/leijen/leijen_html/	N/A
+https://bilibili.com/video/BV1ihBBBFE2B/	N/A
+https://arxiv.org/abs/2410.07918	N/A
+https://dl.acm.org/doi/proceedings/10.1145/3406088	N/A
+https://uu.diva-portal.org/smash/get/diva2%3A1369286/FULLTEXT01.pdf%3E	N/A
+https://www.reddit.com/r/haskell/comments/16yurxb/what_stops_mutable_values_from_leaving_the_io_monad/	N/A
+https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_a_free_video_based_haskell/	N/A
+https://www.reddit.com/r/haskell/comments/um43bz/most_current_materials_for_learning_haskell/	N/A
+https://www.reddit.com/r/haskell/comments/y6og3z/notes_of_a_haskell_beginner/	N/A
+https://www.reddit.com/r/haskellquestions/comments/es71yt/do_i_need_to_know_about_monad/	N/A
+https://www.stackage.org/lts-12.26/package/monad-recorder-0.1.1	N/A
+https://www.stackage.org/nightly-2019-09-26/package/io-storage-0.3	N/A
+https://www.stackage.org/nightly-2021-08-23/package/io-manager-0.1.0.3	N/A
+https://www.stackage.org/nightly-2024-04-01/package/io-storage-0.3	N/A
+https://www.stackage.org/nightly-2026-07-08/package/directory-ospath-streaming-0.3	N/A
+https://www.stackage.org/package/data-reify	N/A
+https://www.stackage.org/package/perf	N/A
+https://www.reddit.com/r/haskell/comments/1q4ly5r/functors_applicatives_and_monads/	N/A
+https://www.reddit.com/r/haskell/comments/icu0tg/alternative_to_monads	N/A
+https://www.reddit.com/r/haskell/comments/t8pksp/how_to_use_monads_without_understanding_them	N/A
+https://arxiv.org/abs/2606.27805	N/A
+https://hackage.haskell.org/package/effectful-plugin	N/A
+https://hackage.haskell.org/package/monad-coroutine	N/A
+https://hackage.haskell.org/package/MonadStack	N/A
+https://hackage.haskell.org/package/monad-time	N/A
+https://hackage.haskell.org/package/more-extensible-effects	N/A
+https://ksvi.mff.cuni.cz/~dingle/2020-1/npp/haskell_library.html	N/A
+https://twodee.org/blog/16651	N/A
+https://www.stackage.org/lts-14.16/package/monad-coroutine-0.9.0.4	N/A
+https://www.stackage.org/lts-21.4/package/monad-coroutine-0.9.2	N/A
+https://www.stackage.org/lts-24.33/package/monad-coroutine-0.9.3	N/A
+https://www.stackage.org/lts-6.1/package/monad-coroutine-0.9.0.3	N/A
+https://www.stackage.org/lts-6.30/package/monad-coroutine-0.9.0.3	N/A
+https://www.stackage.org/nightly-2015-11-27/package/monad-coroutine-0.9.0.1	N/A
+https://www.stackage.org/nightly-2016-02-19/package/monad-coroutine-0.9.0.2	N/A
+https://www.stackage.org/nightly-2016-04-10/package/monad-coroutine-0.9.0.2	N/A
+https://www.stackage.org/nightly-2019-07-31/package/monad-coroutine-0.9.0.4	N/A
+https://www.stackage.org/nightly-2026-01-14/package/effectful-2.6.1.0	N/A
+https://doi.acm.org/10.1145/158511.158524	N/A
+https://doi.org/10.1145/234528.234736	N/A
+https://www.citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf	N/A
+https://www.stackage.org/lts-22.35/package/monad-parallel-0.8	N/A
+https://www.stackage.org/nightly-2018-02-27/package/transformers-0.5.2.0	N/A
+https://www.stackage.org/nightly-2021-03-19/package/io-manager-0.1.0.3	N/A
+https://www.stackage.org/nightly-2026-03-20/package/monad-parallel-0.8.0.1	N/A
+https://www.stackage.org/package/monad-log	N/A
+https://citeseerx.ist.psu.edu/document?doi=01249e95e1fe350dc3569aec1d46a6613219698c&repid=rep1&type=pdf	N/A
+https://hackage.haskell.org/package/fused-effects-exceptions-0.1.0.0	N/A
+https://ir.canterbury.ac.nz/server/api/core/bitstreams/5545fb17-ef38-4f0a-bf8e-5c7e5a4b6994/content	N/A
+https://www.youtube.com/watch?v=ryMkvAOJk20	N/A
+https://hackage.haskell.org/package/transformers-0.5.0.2	N/A
+https://haskell.pesquisa.ufabc.edu.br/haskell/03.haskell.basico.1/	N/A
+https://monad.cat/	N/A
+https://www.youtube.com/playlist?list=PLMqFm6rr-xOXK8G2O31Kdzllm3aYaaRKG	N/A
+https://www.haskell.org/pipermail/beginners/2009-February/001065.html	N/A
+https://www.stackage.org/lts-20.11/package/effectful-core-2.2.2.1	N/A
+https://www.stackage.org/lts-21.11/package/effectful-core-2.2.2.2	N/A
+https://www.stackage.org/lts-22.0/package/effectful-core-2.3.0.1	N/A
+https://www.stackage.org/lts-22.32/package/effectful-core-2.3.1.0	N/A
+https://www.stackage.org/lts-23.13/package/effectful-core-2.5.1.0	N/A
+https://www.stackage.org/nightly-2022-12-17/package/effectful-core-2.2.1.0	N/A
+https://www.stackage.org/nightly-2024-10-22/package/effectful-core-2.4.0.0	N/A
+https://www.stackage.org/nightly-2025-07-03/package/effectful-core-2.6.0.0	N/A
+https://www.stackage.org/nightly-2026-03-27/package/effectful-core-2.6.1.0	N/A
+https://www.stackage.org/lts/package/data-effects-0.3.0.1	N/A
+https://www.stackage.org/lts/package/heftia-effects-0.5.0.0	N/A
+https://www.stackage.org/lts-23.0/package/data-effects-0.3.0.1	N/A
+https://www.stackage.org/lts-23.13/package/heftia-effects-0.5.0.0	N/A
+https://www.stackage.org/lts-24.18/package/heftia-effects	N/A
+https://www.stackage.org/lts-24.39/package/data-effects-0.4.2.0	N/A
+https://www.stackage.org/nightly-2025-07-25/package/heftia-effects-0.7.0.0	N/A
+https://www.stackage.org/nightly-2025-08-01/package/heftia-0.7.0.0	N/A
+https://www.stackage.org/nightly-2026-01-21/package/heftia-0.7.0.0	N/A
+https://www.stackage.org/nightly-2026-02-20/package/heftia-effects	N/A
+https://softwarepatternslexicon.com/haskell/principles-of-functional-programming-in-haskell/the-io-monad-and-managing-side-effects/	publication	2024-11-23
+https://www.stackage.org/lts-24.43/package/bluefin-0.0.17.1	N/A
+https://www.stackage.org/lts-8.15/package/effect-handlers-0.1.0.8	N/A
+https://www.stackage.org/lts-8.15/package/freer-effects-0.3.0.1	N/A
+https://www.stackage.org/lts-8.24/package/freer-effects-0.3.0.1	N/A
+https://www.stackage.org/nightly-2016-02-19/package/effect-handlers-0.1.0.7	N/A
+https://www.stackage.org/nightly-2025-08-03/package/bluefin-0.0.16.0	N/A
+https://www.stackage.org/nightly-2026-01-17/package/bluefin-0.2.6.0	N/A
+https://www.stackage.org/nightly-2026-05-06/package/bluefin-0.5.100.0	N/A
+https://www.stackage.org/lts-10.2/package/freer-simple-1.0.0.0	N/A
+https://www.stackage.org/lts-18.24/package/polysemy-1.5.0.0	N/A
+https://www.stackage.org/lts-23.13/package/freer-simple-1.2.1.2	N/A
+https://web.cecs.pdx.edu/~mpj/pubs/composing.html	N/A
+https://www.csse.canterbury.ac.nz/walter.guttmann/publications/0026.pdf	N/A
+https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3	N/A
+https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0	N/A
+https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0	N/A
+https://www.cambridge.org/core/article/10.1017/S0956796800001611	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf	N/A
+https://www.haskell.org/onlinereport/haskell98-report.pdf	N/A
+https://www.stackage.org/nightly-2015-07-12/package/monad-stm-0.1.0.2	N/A
+https://www.stackage.org/nightly-2016-02-19/package/monad-stm-0.1.0.2	N/A
+https://www.stackage.org/nightly-2016-02-29/package/monad-stm	N/A
+https://www.stackage.org/lts-18.28/package/unliftio-0.2.21.0	N/A
+https://www.stackage.org/lts-7.24/package/monad-unlift-0.2.0	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf	N/A
+https://www.mmhaskell.com/courses/summary	N/A
+https://www.stackage.org/lts-18.28/package/lifted-base-0.2.3.12	N/A
+https://www.stackage.org/lts-20.26/package/lifted-base-0.2.3.12	N/A
+https://www.stackage.org/lts-22.35/package/monad-peel-0.3	N/A
+https://www.stackage.org/lts-23.13/package/monad-peel-0.3	N/A
+https://www.stackage.org/lts-24.24/package/monad-peel-0.3	N/A
+https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/E9F6A3ABEC907BAA7C2F1E8810106BA5	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F4A86F27A77CAC76080B5F79667E619/S0956796816000071a.pdf/composable-scheduler-activations-for-haskell.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616ACD5687ABDC86D2B341E83D298/S0956796807006326a.pdf/applicative-programming-with-effects.pdf	N/A
+https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3	N/A
+https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1	N/A
+https://www.stackage.org/nightly-2025-02-20/package/monad-control-1.0.3.1	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157?pageNum=1	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/most-cited	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/0FA3A396DEF84CFADE3FDA0B26D4CEE3	N/A
+https://www.stackage.org/lts-17.0/package/io-machine-0.2.0.0	N/A
+https://www.semanticscholar.org/paper/Monads-for-functional-programming-Wadler/56f12dee2e97958fb3bb0572b5899069dedc0a7d	N/A
+https://www.stackage.org/lts-7.19/package/io-choice-0.0.6	N/A
+https://www.stackage.org/nightly-2015-11-27/package/io-choice-0.0.5	N/A
+https://www.stackage.org/nightly-2016-02-19/package/io-choice-0.0.5	N/A
+https://www.stackage.org/nightly-2019-07-31/package/io-choice-0.0.7	N/A
+https://www.cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lecture-at-a-time.html	N/A
+https://pt.everand.com/book/405701408/Haskell-Uma-introducao-a-programacao-funcional	N/A
+https://www.cin.ufpe.br/~alms/pdf/aspecth_rita.pdf	N/A
+https://www.ci.nii.ac.jp/crid/1360586669745382528	N/A
+https://www.publishersweekly.com/9781681440033	N/A
+https://youtu.be/oDqHNkQK97k	N/A
+https://hackage.haskell.org/api	N/A
+https://dblp.org/rec/conf/haskell/JonesW07	N/A
+https://riptutorial.com/Download/haskell-language-de.pdf	N/A
+https://stackoverflow.com/questions/19917582/type-in-haskell-explanation-of-io	N/A
+https://stackoverflow.com/a/44979	N/A
+https://www.educative.io/blog/haskell-tutorial	N/A
+https://hackage.haskell.org/package/attoparsec-iteratee/docs	N/A
+https://mailman.haskell.org/archives/list/haskell%40haskell.org/	N/A
+https://www.fceia.unr.edu.ar/~mauro/publications/theses/200909_phd.html	N/A
+https://flora.pm/packages/%40hackage/unliftio/0.2.15/changelog	N/A
+https://hackage-content.haskell.org/package/io-effects-0.1.0/candidate/docs/IO-Effects.html	N/A
+https://dblp.org/rec/conf/haskell/KiselyovI15.html	N/A
+https://vstill.eu/papers/2020/hsExprTest.pdf	N/A
+https://bracevac.org/assets/pdf/DissertationBracevac05112019.pdf	N/A
+https://haskell.org/hugs/pages/libraries/base/Control-Monad.html	N/A
+https://discourse.haskell.org/t/haskell-cafe-searchable-archive/4742	publication	2022-07-07
+https://mailman.haskell.org/mailman3/lists/haskell-cafe.haskell.org/	N/A
+https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/	N/A
+https://scienceblogs.com/goodmath/2007/01/23/haskell-a-first-step-into-mona-1	N/A
+https://github.com/polysemy-research	N/A
+https://github.com/fused-effects	N/A
+https://tweag.io/blog/2022-01-05-polysemy-scoped/	N/A
+https://www.extrema.is/blog/2021/09/24/fused-effects-tagless-final-hmock	N/A
+https://freecomputerbooks.com/Real-World-Haskell.html	N/A
+https://hackage.haskell.org/package/rio-0.1.5.0/docs	N/A
+https://hackage-content-origin.haskell.org/package/rio-0.1.20.0/docs/doc-index-46.html	N/A
+https://www.stackage.org/lts-17.0/package/rio-0.1.19.0	N/A
+https://flora.pm/packages/%40hackage/rio	N/A
+https://hackage.haskell.org/package/rio-0.1.20.0/changelog	N/A
+https://hackage.haskell.org/package/rio-0.1.22.0/docs	N/A
+https://cstml.github.io/2021/07/22/State-Monad.html	publication	2021-07-22
+https://haskell.haskell.narkive.com/eFLi4BaQ/st-stref-vs-io-ioref	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250807/docs/libraries/transformers-0.6.1.1-5a8c/Control-Monad-Trans-Reader.html	N/A
+https://matija.me/2020/11/05/haskell-monad-transformers-intro/	N/A
+https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Reader.html	N/A
+https://hackage-content.haskell.org/package/bluefin-internal-0.3.1.0/docs/src/Bluefin.Internal.Examples.html	N/A
+https://hackage.haskell.org/package/bluefin-0.2.5.0/docs	N/A
+https://hackage.haskell.org/package/polysemy/docs	N/A
+https://hackage.haskell.org/package/polysemy-1.2.2.0/docs	N/A
+https://hackage.haskell.org/package/polysemy-1.2.3.0	N/A
+https://hackage.haskell.org/package/polysemy-0.4.0.0	N/A
+https://hackage.haskell.org/package/core-effect-effectful	N/A
+https://cse3000-research-project.github.io/static/db102206ec6bbf934bbe6ab8f428e121/poster.pdf	N/A
+https://sourceforge.net/projects/polysemy.mirror/files/	N/A
+https://hackage.haskell.org/package/effectful-0.0.0.0/docs/src/Effectful.Reader.html	N/A
+https://github.com/tomjaguarpaw/bluefin/blob/783da151a74bae3eda774912386f168e6bb0e9af/bluefin-internal/src/Bluefin/Internal/System/IO.hs	N/A
+https://resolver.tudelft.nl/uuid:ffea061f-d832-4d54-9726-8389cd4bf42a	publication	2022
+https://haskelle.blogspot.com/2023/	N/A
+https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=2	publication	2024-11-27
+https://github.com/ublue-os/bluefin/releases	N/A
+https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy.html	N/A
+https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy-IO.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=f6ce17217fbb0097d38e7d1b9ee134423895babd&repid=rep1&type=pdf	N/A
+https://probabilistic-effects.github.io/papers/fusion-for-free/	publication	2020-11-13
+https://cardanofeed.com/learn/haskell-course	N/A
+https://zenn.dev/hand_accident/articles/7c681979acf9dc	N/A
+https://cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf	N/A
+https://hackage.haskell.org/package/read-io	N/A
+https://files.core.ac.uk/download/553630896.pdf	N/A
+https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Central%20European%20Functional%20Programming%20School%2C%202%20school%2C%20CEFP%202007%28LNCS5161%2C%20Springer%2C%202008%29%28ISBN%209783540880585%29%28308s%29.pdf	N/A
+https://www.cl.cam.ac.uk/teaching/2526/DenotSem/materials.html	N/A
+https://www8.cs.fau.de/teaching/ss23/mbprog/	N/A
+https://cse.sc.edu/~mgv/csce330f07/lectureNotes/index.html	N/A
+https://www.cs.utexas.edu/~bornholt/courses/cs345h-24sp/lectures/2-interpreters/	N/A
+https://en.wikibooks.org/wiki/Haskell/Denotational_semantics	N/A
+https://idris2.readthedocs.io/en/stable/app/	N/A
+https://files.core.ac.uk/download/62781956.pdf	N/A
+https://www.cambridge.org/core/books/abs/algorithm-design-with-haskell/functional-programming/211847F53158D024C6E5B0379571933A	publication	2020-07
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf	N/A
+https://conf.researchr.org/home/icfp-splash-2025/haskellsymp-2025	N/A
+https://conf.researchr.org/details/icfp-splash-2025/haskellsymp-2025-papers/20/Machine-Learning-Primitives-as-Algebraic-Effects	N/A
+https://popl25.sigplan.org/details/PADL-2025-papers/10/Haskell-Based-Spreadsheets	N/A
+https://icfp24.sigplan.org/details/haskellsymp-2024-papers/6/Making-a-Curry-Interpreter-using-Effects-and-Handlers	N/A
+https://vetss.org.uk/vss25-algebraic-effects/	N/A
+https://repo.aosc.io/anthon/anthon/aosc-documentation/aoscc/2025/comonad/haskell-ecosystem.pdf	N/A
+https://www.cse.sc.edu/~mgv/csce330f17/haskell/index.html	N/A
+https://icfp26.sigplan.org/home/haskellsymp-2026	N/A
+https://msfp-workshop.github.io/msfp2026/	N/A
+https://reasonablypolymorphic.com/polysemy-talk/	N/A
+https://www.slideshare.net/paulszulc/maintainable-software-architecture-in-haskell-with-polysemy	N/A
+https://hackage.haskell.org/package/hw-polysemy-0.3.1.2/docs/HaskellWorks-Polysemy.html	N/A
+https://docs.idris-lang.org/en/v0.10.3/effects/	N/A
+https://yuelipicasso.github.io/blog/comp_monad.html	N/A
+https://icfp21.sigplan.org/details/icfp-2021-papers/10/Generalized-Evidence-Passing-for-Effect-Handlers	N/A
+https://cronfa.swansea.ac.uk/Record/cronfa29413	N/A
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_article	publication	2019
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_pdf	N/A
+https://eprints.gla.ac.uk/226006/1/226006.pdf	N/A
+https://homepage.divms.uiowa.edu/~jgmorrs/pubs/lindley-hs2016-gvhs.pdf	N/A
+https://tannerduve.github.io/blog/freer-monad/part-1/	N/A
+https://doi.org/10.1145%2F2914770.2837655	N/A
+https://www.research.ed.ac.uk/en/publications/handlers-of-algebraic-effects/	publication	2009
+https://ocaml.org/papers	N/A
+https://rubenpieters.github.io/assets/papers/JFP20-handlers.pdf	N/A
+https://corophage.rs/	N/A
+https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf	N/A
+https://www.baeldung.com/scala/cats-effect	N/A
+https://gist.github.com/dino-/347b0f02c4acf9053ae4ff05ca891a55	N/A
+https://gist.github.com/friedbrice/520f627d927cb658c587bd3cdb6cf4dc	N/A
+https://www.etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf	N/A
+https://markwatson.com/books/haskell-cookbook-site/	N/A
+https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg9e5W8ZQyXmYqg5PpkEjxovze6DB84dpj6	N/A
+https://link.springer.com/chapter/10.1007/978-3-030-17184-1_6	N/A
+https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/concurrent-and-distributed-programming-in-haskell-12/section/working-with-ioref-ch12lvl1sec97	N/A
+https://www.google.com/books?id=nh0okI1a1sQC	N/A
+https://digicoll.lib.berkeley.edu/record/139011	publication	1997
+https://repository.dl.itc.u-tokyo.ac.jp/records/2568	N/A
+https://citeseerx.ist.psu.edu/document?doi=821caec03e9663c17256f797967b67c1ceb15e6e&repid=rep1&type=pdf	N/A
+https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=158931	N/A
+https://www.teses.usp.br/teses/disponiveis/45/45134/tde-03112023-152323/pt-br.php	N/A
+https://eprints.glos.ac.uk/2738/1/Abu%20Alam%20PhD%20Thesis%202015.pdf	N/A
+https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf	N/A
+https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf	N/A
+https://arxiv.org/abs/2509.20308	N/A
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/libraries/text-2.0/Data-Text-Lazy-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Exception.html	N/A
+https://en.wikibooks.org/wiki/Haskell/FFI	N/A
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-compact-0.1.0.0-inplace/GHC-Compact.html	N/A
+https://www.stackage.org/lts-8.22/package/ghc-prim-0.5.0.0	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-unliftio/	N/A
+https://packagehub.suse.com/packages/ghc-unliftio/	N/A
+https://www.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf	N/A
+https://flora.pm/packages/%40hackage/resourcet/1.2.4.3/changelog	N/A
+https://hackage.haskell.org/package/resourcet-0.4.3/docs	N/A
+https://flora.pm/packages/%40hackage/resourcet	N/A
+https://hackage-content-origin.haskell.org/package/conduit-1.2.8/docs/doc-index-C.html	N/A
+https://hackage-origin.haskell.org/package/conduit-1.2.13/docs/src/Data-Conduit-List.html	N/A
+https://flora.pm/packages/%40hackage/rio/0.1.24.0/changelog	N/A
+https://www.stackage.org/lts-21.11/package/effectful-2.2.2.0	N/A
+https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-KVStore.html	N/A
+https://hackage-content.haskell.org/package/polysemy-http-0.13.1.0/docs/doc-index.html	N/A
+https://packages.debian.org/it/sid/doc/libghc-unliftio-doc	N/A
+https://sources.debian.org/src/haskell-unliftio/0.2.13-1/	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.rio	N/A
+https://rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-unliftio-doc-0.2.25.1-5.fc44.noarch.html	N/A
+https://input-output-hk.github.io/haskell.nix/architecture.html	N/A
+https://flora.pm/packages/%40hackage/streaming	N/A
+https://flora.pm/packages/%40hackage/conduit	N/A
+https://flora.pm/packages/%40hackage/io-sim	N/A
+https://flora.pm/packages/%40hackage/io-classes	N/A
+https://hackage-content.haskell.org/package/bluefin-algae-0.1.0.2/docs/Bluefin-Algae.html	N/A
+https://courses.washington.edu/courses/csep505/16au/lec8_6up.pdf	N/A
+https://www.haskell.org/book/monad-transformers.html	N/A
+https://streamly.composewell.com/streamly-0.11.0/Explanatory/monad-transformers.html	N/A
+https://next.fpcomplete.com/haskell/tutorial/monad-transformers/	N/A
+https://lexi-lambda.github.io/blog/2017/04/28/lifts-for-free-making-mtl-typeclasses-derivable/	N/A
+https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Class.html	N/A
+https://idus.us.es/server/api/core/bitstreams/945bca35-2d81-40a2-8526-20fbd88a6236/content	N/A
+https://hackage.haskell.org/package/mtl-tf/docs/Control-Monad-Reader.html	N/A
+https://upload.wikimedia.org/wikiversity/en/1/1d/Monad.11.A.Reader.20180821.pdf	N/A
+https://is.muni.cz/el/fi/podzim2014/IA014/um/07-transformers.pdf	N/A
+https://haskellforall.com/2013/06/the-resource-applicative.html	N/A
+https://isa-afp.org/entries/Transformer_Semantics.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-State-Lazy.html	N/A
+https://haskellforall.com/2013/01/introduction-to-haskell-io.html	N/A
+https://www.cs.unm.edu/~jhaugh/tutorials/01-haskell-reference-sheet.html	N/A
+https://foundation.haskell.org/package/foundation-0.0.3/docs/Foundation-Monad.html	N/A
+https://zio.dev/overview/creating-effects/	N/A
+https://harrisonwl.github.io/assets/papers/ersa2011b.pdf	N/A
+https://era.ed.ac.uk/handle/1842/396	publication	1996-07
+https://journals.sagepub.com/doi/pdf/10.3233/FI-1995-22126?download=true	N/A
+https://publish.lfcs.inf.ed.ac.uk/reports/88/ECS-LFCS-88-66/	N/A
+https://arxiv.org/abs/2104.00250	N/A
+https://prg.is.titech.ac.jp/wp-content/uploads/2022/05/2022-03B-saito.pdf	N/A
+https://haskell.hpmeducation.com/functors-applicatives-and-monads/monads/monad-laws	N/A
+https://citeseerx.ist.psu.edu/document?doi=56b44cc407e22a0ab538bd05e6e560f77e47f36a&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/2012.06530	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/	N/A
+https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf	N/A
+https://riptutorial.com/Download/haskell-language-it.pdf	N/A
+https://www.cin.ufpe.br/~if098/tutoriais/l-hask-a4.pdf	N/A
+https://ai.ia.agh.edu.pl/pl%3Adydaktyka%3App%3Ahaskell:lab-io	N/A
+https://cendekia.unisza.edu.my/neuaxis-e/Record/nottingham-223/Similar	N/A
+https://arxiv.org/abs/2604.24612	N/A
+https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec49/lifting-up-from-io	N/A
+https://web.archive.org/web/20151208175102/http://code.haskell.org/~dons/haskell-1990-2000/threads.html	N/A
+https://hackage.haskell.org/package/fused-effects-1.1.0.0/changelog	N/A
+https://www.reddit.com/r/haskell/comments/1gjbakz/heftia-effects-v05-higherorder-algebraic-effects/	N/A
+https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0	N/A
+https://hackage.haskell.org/package/fused-effects-1.0.0.0/changelog	N/A
+https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/	N/A
+https://www-users.york.ac.uk/~sf786/Thesis.pdf	N/A
+https://www.pls-lab.org/en/Freer_monads	N/A
+https://hackage-content-origin.haskell.org/package/extensible-effects-1.2.1	N/A
+https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/cp1920f12.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0276&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/2208.04699	N/A
+https://www.cs.tufts.edu/comp/150PLD/hw01-1.html	N/A
+https://commons.wikimedia.org/wiki/File%3AImperative_to_Functional_Programming.pdf	N/A
+https://external.dandelon.com/download/attachments/dandelon/ids/DE004C5162AB38F016FCBC1257A2B002867B4.pdf	N/A
+https://dl.acm.org/doi/pdf/10.1145/2804302.2804319	N/A
+https://shmish111.github.io/2018/09/23/freer-than-free/	N/A
+https://tweag.io/blog/2018-02-05-free-monads/	N/A
+https://deepwiki.com/fused-effects/fused-effects/1-overview	N/A
+https://www.haskell.org/definition/ffi/sec-entry.html	N/A
+https://pepeiborra.github.io/control-monad-exception/	N/A
+https://www.sistedes.es/files/actas-prole-2009.pdf	N/A
+https://www.stackage.org/lts-7.19/package/explicit-exception-0.1.8	N/A
+https://ianen.org/haskell/enumerator/enumerator.pdf	N/A
+https://hackage.haskell.org/package/streamly-0.8.1	N/A
+https://streamly.composewell.com/haddocks/streamly-0.11.0/Streamly-Data-Stream-MkType.html	N/A
+https://www.stackage.org/lts-14.16/package/streamly-0.6.1	N/A
+http://www.haskell.org/wikiupload/6/65/Wxhaskell.pdf	N/A
+https://www.haskell.org/haskellwiki/Libraries_and_tools/GUI_libraries	N/A
+https://codeberg.org/wxHaskell	N/A
+https://www.schoolofhaskell.com/school/advanced-haskell/persistent-in-detail/existing-database	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/mtl-2.2.2/Control-Monad-Reader.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Reader.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/libraries/mtl/Control-Monad-Reader.html	N/A
+https://downloads.haskell.org/ghc/9.0.1-rc1/docs/html/libraries/mtl-2.2.2/Control-Monad-Reader.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=d79d90bb3659cfc9592f1685edf94636a7e81dd0&repid=rep1&type=pdf	N/A
+https://cseweb.ucsd.edu/~rtate/effectstr.pdf	N/A
+https://arxiv.org/abs/1702.04908	N/A
+https://arxiv.org/abs/1707.06685	N/A
+https://caiorss.github.io/Functional-Programming/papers/README.html	N/A
+https://icfp18.sigplan.org/details/hiw-2018-papers/13/Lightning-talk-The-trick-which-makes-exceptions-0-10-0-possible	N/A
+https://www.classcentral.com/course/youtube-effect-systems-in-practice-hecate-lambda-days-2025-511578	N/A
+https://www.cst.cam.ac.uk/seminars/list/53899	N/A
+https://okmij.org/ftp/Computation/HOPE-talk.pdf	N/A
+https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf	N/A
+https://www.some.ox.ac.uk/wp-content/uploads/2025/07/HaskellTutorial-2025.pdf	N/A
+https://discourse.haskell.org/t/haskell-implementors-workshop-hiw-2025-videos-online/12787	publication	2025-08-20
+https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/	N/A
+https://researchportalplus.anu.edu.au/en/publications/capabilities-effects-for-free/	publication	2018
+https://experts.mcmaster.ca/scholarly-works/2169982	N/A
+https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_article/-char/en	publication	2009-10-27
+https://arxiv.org/abs/2312.06103	N/A
+https://www.cs.uwyo.edu/~jlc/papers/extracting-bind-final.pdf	N/A
+https://hackage-content.haskell.org/package/exceptions-0.10.12/docs/Control-Monad-Catch-Pure.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/changelog	N/A
+https://se.informatik.uni-tuebingen.de/publications/brachthaeuser17effekt/	N/A
+https://leanpub.com/effect-oriented-programming	N/A
+https://ds12.github.io/scala-class/slides/lecture2.html	N/A
+https://www.manning.com/books/f-sharp-in-action	N/A
+https://mirror.ourhost.az/parrot/misc/openbooks/programming/FSharpProgramming.pdf	N/A
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Petricek%20T.%2C%20Skeet%20J.%20Functional%20Programming%20for%20the%20Real%20World..%20With%20Examples%20in%20F%23%20and%20C%23%20%28Manning%20Publications%2C%202009%29%28ISBN%209781933988924%29%28O%29%28495s%29_CsPl_.pdf	N/A
+https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-ohad-thesis.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=83c485e220deb2d16e074decc212385ddb21632a&repid=rep1&type=pdf	N/A
+https://www.researchgate.net/publication/220977083_Monad-Based_Logics_for_Computational_Effects	N/A
+https://docs.rs/corophage	N/A
+https://infoscience.epfl.ch/bitstreams/00d8a37e-e74f-48a1-b144-c8e0798110f2/download	N/A
+https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html	N/A
+https://yangzhixuan.github.io/pdf/yang-thesis.pdf	N/A
+https://www.sciencedirect.com/science/article/pii/S0304397506009169	N/A
+https://scalasummerschool.github.io/lectures/	N/A
+https://studylib.net/doc/27608253/functional-programing-in-kotlin	N/A
+https://xnning.github.io/papers/effect-handlers-evidently.pdf	N/A
+https://xnning.github.io/papers/multip.pdf	N/A
+https://arxiv.org/abs/1905.02033	N/A
+https://www.researchgate.net/publication/2241145_Towards_a_Denotational_Semantics_for_Concurrent_State_Transformers	N/A
+https://citeseerx.ist.psu.edu/document?doi=27b51ea77b79d4c8775c242b0f0562aa95c658fa&repid=rep1&type=pdf	N/A
+https://software.imdea.org/~aleks/papers/hoarelogic/tldi09.pdf	N/A
+https://repositum.tuwien.at/handle/20.500.12708/57360	N/A
+https://www.cs.ox.ac.uk/publications/publication6818-abstract.html	created	2013
+https://arxiv.org/abs/1402.1051	N/A
+https://arxiv.org/abs/1411.7140	N/A
+https://munihac.de/2020.html	N/A
+https://discourse.haskell.org/t/haskell-video-archive-call-for-volunteers/8863	publication	2024-02-21
+https://haskell.foundation/events/2024-haskell-ecosystem-workshop.html	N/A
+https://www.haskell.org/haskell-symposium/2014/accepted.html	N/A
+https://icfp23.sigplan.org/details/haskellsymp-2023/4/Effect-Handlers-for-Programmable-Inference	N/A
+https://discourse.haskell.org/t/haskell-implementors-workshop-2023-individual-talk-videos-on-youtube/8221	publication	2023-11-27
+https://haskell.foundation/events/2025-haskell-implementors-workshop.html	N/A
+https://books.kabisa.nl/books/79	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2FB7DC08AA6A4FE4A65E40DEBA82EF5C/S0956796800000575a.pdf/using_miranda_as_a_first_programming_language.pdf	N/A
+https://research.utwente.nl/en/publications/static-analysis-of-functional-programs-2/	publication	1994-10
+https://www.curry-language.org/assets/files/tools/cass/cass_paper.pdf	N/A
+https://agda.readthedocs.io/en/v2.7.0/overview.html	N/A
+https://idris-community.github.io/idris2-tutorial/	N/A
+https://avigad.github.io/programming_in_lean/	N/A
+https://wiki.portal.chalmers.se/agda/ReferenceManual/StructureOfAnAgdaProgram	N/A
+https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd3528767935317507965&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/2105.05133	N/A
+https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic3.pdf	N/A
+https://nokomprendo.gitlab.io/posts/tuto_111/2024-05-29-fr-README.html	N/A
+https://sir4ur0n.github.io/posts/polysemy-tests.html	N/A
+https://www.iog.io/api/research/pdf/5P4V3WEG	N/A
+https://hackage-content.haskell.org/package/fused-effects-1.1.2.5/docs/Control-Algebra.html	N/A
+https://ghc-proposals.readthedocs.io/en/latest/proposals/0313-delimited-continuation-primops.html	N/A
+https://lmcs.episciences.org/10045	publication	2022-09-15
+https://arxiv.org/abs/1712.08310	N/A
+https://icfp21.sigplan.org/details/icfp-2021-papers/1/Client-Server-Sessions-in-Linear-Logic	N/A
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol222-ecoop2022/LIPIcs.ECOOP.2022/LIPIcs.ECOOP.2022.pdf	N/A
+https://arxiv.org/abs/1603.03727	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-IO-Handle.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/exceptions-0.10.4/Control-Monad-Catch.html	N/A
+https://hackage.haskell.org/package/streaming-utils/docs/Streaming-Network-TCP.html	N/A
+https://cgi.cse.unsw.edu.au/~cs3141/15s1/lectures/effects-05.pdf	N/A
+https://www.cs.princeton.edu/courses/archive/fall15/cos326/lec/05b-error-processing.pdf	N/A
+https://web.stanford.edu/class/cs242/materials/lectures/lecture09.pdf	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/libraries/base-4.20.0.0-0f99/Control-Exception.html	N/A
+https://www.tweag.io/blog/2018-10-04-capability/	N/A
+https://begriffs.com/posts/2016-07-27-tikhon-on-frp.html	N/A
+https://researchr.org/publication/PerezBN16	N/A
+https://citeseerx.ist.psu.edu/document?doi=7b59a561216fcbb2b9194db7ecaa44fb6a651860&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/2202.02061	N/A
+https://www.schoolofhaskell.com/user/fumieval/drinkery-the-boozy-streaming-library	N/A
+https://hackage.haskell.org/package/streaming-0.2.3.1/docs/Streaming.html	N/A
+https://well-typed.com/blog/2021/08/capi-usage/	N/A
+https://downloads.haskell.org/~ghc/7.10.3-rc1/users_guide/ffi.html	N/A
+https://frasertweedale.github.io/blog-fp/posts/2022-09-23-ffi-safety-and-gc.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Base.html	N/A
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/libraries/base-4.18.3.0/GHC-IORef.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO.html	N/A
+https://hackage.haskell.org/package/strict-io-0.2.2/docs	N/A
+https://hackage.haskell.org/package/ioref-stable/docs	N/A
+https://hackage-content.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html	N/A
+https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Network.html	N/A
+https://hackage-content-origin.haskell.org/package/network-2.6.3.3	N/A
+https://www.cs.ncl.ac.uk/jspui/handle/10443/6607	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/libraries/haskell98/IO.html	N/A
+https://www.classcentral.com/course/youtube-building-secure-systems-in-haskell-by-deian-stefan-141460	N/A
+https://arxiv.org/abs/1805.00120	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-safe/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-safe/	N/A
+https://lean-forward.github.io/logical-verification/2018/33_notes.html	N/A
+https://arxiv.org/abs/2408.15817	N/A
+https://lean-lang.org/doc/tutorials/latest/	N/A
+https://www.cs.princeton.edu/~jmc16/docs/thesis.pdf	N/A
+https://lean-lang.org/papers/thesis-sebastian.pdf	N/A
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.29	N/A
+https://trustworthy.systems/publications/full_text/Feree_AKOMH_18.pdf	N/A
+https://isabelle-utp.york.ac.uk/theories/interaction-trees	N/A
+https://xenon.stanford.edu/~hwatheod/monads.html	N/A
+https://www.packtpub.com/en-SK/product/haskell-cookbook-9781786461353/chapter/more-about-monads-5/section/introduction-ch05lvl1sec39	N/A
+https://rosstate.org/publications/sleffects/	N/A
+https://pdfroom.com/books/from-simple-io-to-monad-transformers/jGk207ZKgpm	N/A
+https://www.sciencedirect.com/science/article/abs/pii/S2405896322027331	N/A
+https://en.wikibooks.org/wiki/Category%3ABook%3AHaskell	N/A
+http://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf	N/A
+https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2	N/A
+https://researchr.org/publication/Moggi91	N/A
+https://arxiv.org/abs/1406.4823	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fefbd1c8-7808-4c0b-a414-a2a188e3049a.xhtml	N/A
+https://cs.tufts.edu/~nr/cs252r/ss.html	N/A
+https://lotz84.github.io/haskell/free-monad.html	N/A
+https://research-information.bris.ac.uk/en/studentTheses/effects-and-effect-handlers-for-probabilistic-programming/	N/A
+https://pblevy.github.io/msfp2014/freeapplic.pdf	N/A
+https://people.cs.kuleuven.be/~tom.schrijvers/portfolio/haskell2014.html	N/A
+https://research-information.bris.ac.uk/en/publications/effect-handlers-in-scope/	publication	2014
+https://hackage.haskell.org/package/effect-handlers-0.1.0.0	N/A
+https://hackage-content-origin.haskell.org/package/conduit-0.5.4.1	N/A
+https://www.cs.ox.ac.uk/projects/utgp/school/idris-tutorial.pdf	N/A
+https://mmhaskell.com/blog/2018/10/22/purescript-ii-typeclasses-and-monads	N/A
+https://opam.ocaml.org/packages/ocaml-monadic/	N/A
+https://books.underscore.io/scala-with-cats/scala-with-cats.html	N/A
+https://www.cl.cam.ac.uk/teaching/1516/L28/monads-etc.pdf	N/A
+https://fsharp.org/archive/videos/14	N/A
+https://www.oreilly.com/videos/learning-functional-programming/9781788477840/9781788477840-video5_4/	N/A
+https://www.classcentral.com/course/youtube-learn-f-59595	N/A
+https://learn.microsoft.com/en-us/shows/dotnetconf-focus-on-fsharp/starting-your-fsharp-journey	N/A
+https://anil.recoil.org/papers/2021-pldi-retroeff.pdf	N/A
+https://ocaml.org/manual/5.2/effects.html	N/A
+https://arxiv.org/abs/2211.13140	N/A
+https://www.cambridge.org/core/books/a-practical-introduction-to-denotational-semantics/80122D52B49F175D38E0478EA45D4EDD	publication	1987-01
+https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/src/System.FS.Sim.MockFS.html	N/A
+https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.14.1.0/docs/GHC-Exts.html	N/A
+https://haskell.fi.muni.cz/doc/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/users_guide.pdf	N/A
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad.html	N/A
+https://www.haskell.org/onlinereport/exps.html	N/A
+https://www.stackage.org/nightly-2025-01-06/package/unliftio-0.2.25.0	N/A
+https://hackage.haskell.org/package/transformers-lift-0.1.0.0/docs	N/A
+https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-List.html	N/A
+https://hackage.haskell.org/package/zio/docs/ZIO-Trans.html	N/A
+https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-State-Strict.html	N/A
+https://hackage-content.haskell.org/package/mmorph-1.2.2/docs/Control-Monad-Morph.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc/src/ForeignCall.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/DsForeign.html	N/A
+https://www.packtpub.com/en-In/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/7-concurrency-and-performance-ch07lvl1sec44	N/A
+https://people.kth.se/~buiras/publications/icfp2015.pdf	N/A
+https://publications.lib.chalmers.se/records/fulltext/249247/249247.pdf	N/A
+https://research.chalmers.se/publication/525640	publication	2015
+https://research.chalmers.se/en/publication/249247	publication	2017
+https://webspace.science.uu.nl/~4110161/	N/A
+https://research.chalmers.se/publication/508494/file/508494_Fulltext.pdf	N/A
+https://escholarship.org/uc/item/4hs1t9nc	N/A
+https://arxiv.org/abs/1009.2793	N/A
+https://repository.tudelft.nl/record/uuid%3A99a0e50b-c3a5-4a6b-8204-4815d96c68eb	publication	2022
+https://lean-forward.github.io/logical-verification/2019/exams/final_exam_sheet.pdf	N/A
+https://www.cs.cornell.edu/courses/cs6110/2017sp/lectures/lec32.pdf	N/A
+https://www.danielgratzer.com/courses/type-theory-s-2024/lecture-notes.pdf	N/A
+https://bobkonf.de/archive/haskell	N/A
+https://www.classcentral.com/subject/haskell	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/a8c02536-4441-40af-a9c1-24133b3814d2.xhtml	N/A
+https://discover.knoxcountylibrary.org/oreilly/on1032263978	N/A
+https://hackage.haskell.org/package/distributed-process-monad-control	N/A
+https://hackage.haskell.org/package/streaming-process/docs/Streaming-Process.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/users_guide.pdf	N/A
+https://hackage.haskell.org/package/terminal-0.2.0.0/docs/System-Terminal.html	N/A
+https://hackage.haskell.org/package/shh/docs/Shh.html	N/A
+https://berniepope.id.au/assets/files/BerniePope.PhD.Thesis.pdf	N/A
+https://hackage.haskell.org/package/in-other-words/docs/Control-Effect-Reader.html	N/A
+https://www.mobt3ath.com/uplode/book/book-99705.pdf	N/A
+https://bindthegap.news/issues/BindTheGap-01Nov2020.pdf	N/A
+https://discourse.haskell.org/t/adventures-assembling-records-of-capabilities/623	publication	2019-04-25
+https://repository.upenn.edu/bitstreams/9565ea3e-4948-4304-a266-1f4a6fd34762/download	N/A
+https://hackage.haskell.org/package/typed-protocols	N/A
+https://www.cse.chalmers.se/~russo/russothesis.pdf	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-7/v-10/	N/A
+https://aherrmann.github.io/programming/2016/01/04/resource-management-in-haskell/index.html	N/A
+https://researchportal.hw.ac.uk/en/publications/embedding-session-types-in-haskell/	publication	2016-09
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Concurrent-Async.html	N/A
+https://csclub.uwaterloo.ca/resources/tech-talks/software-transactional-memory-and-haskell/	N/A
+https://subscription.packtpub.com/book/programming/9781786461353/12/ch12lvl1sec96/introduction	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/libraries/base-4.22.0.0-c394/src/Control.Exception.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/mtl-2.3.1-8a3c/Control-Monad-Except.html	N/A
+https://hackage.haskell.org/package/reactive/docs/FRP-Reactive.html	N/A
+https://hackage.haskell.org/package/reactive	N/A
+https://hackage.haskell.org/package/sodium/docs/FRP-Sodium.html	N/A
+https://ics-archive.science.uu.nl/research/techreps/repo/CS-2001/2001-62.pdf	N/A
+https://keera.co.uk/posts/2013/03/08/keera-hails-event-driven-programming-of-desktop-applications-in-haskell/	publication	2013-03-08
+https://hackage-content.haskell.org/package/bearriver-0.15/docs/FRP-BearRiver-EventS.html	N/A
+https://www.ccs.neu.edu/home/amal/course/7480-s12/frp-notes.pdf	N/A
+https://cs240h-notes.herokuapp.com/	N/A
+https://iti.san.edu.pl/jacsm/JACSM_Vol_08_No_1.pdf	N/A
+https://www3.ub.tu-berlin.de/ihv/000141622.pdf	N/A
+https://www.mpg.is/thesis.html	N/A
+https://kar.kent.ac.uk/21455/	N/A
+https://hackage.haskell.org/package/fusion/docs/Fusion.html	N/A
+https://shonan.nii.ac.jp/archives/seminar/136/wp-content/uploads/sites/172/2018/09/a-brief-history-of-streams.pdf	N/A
+https://arxiv.org/abs/1612.06668	N/A
+https://hackage.haskell.org/package/stream-fusion	N/A
+https://www.cs.ox.ac.uk/files/4455/paper.pdf	N/A
+https://ora.ox.ac.uk/objects/uuid%3Ab4971f57-2b94-4fdf-a5c0-98d6935a44da/files/md50e6a8b2027ac4f99994936c2a32c3b	N/A
+https://hackage.haskell.org/package/fusion	N/A
+https://hackage.haskell.org/package/typed-process-0.2.13.0/docs	N/A
+https://pdxscholar.library.pdx.edu/compsci_fac/394/	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/not-by-equations-alone-reasoning-with-extensible-effects/8E5B14BA0105D056F0ED48564E79BEBC	N/A
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf=	N/A
+https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs	N/A
+https://downloads.haskell.org/ghc/6.4/docs/hslibs.pdf	N/A
+https://www.cs.du.edu/~chrisg/classes/comp3621/slides/socket-tutorial.pdf	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/process-1.4.2.0/System-Process.html	N/A
+https://downloads.haskell.org/ghc/latest/docs/libraries/process-1.6.26.1-e91f/System-Process.html	N/A
+https://ghcguide.haskell.jp/8.0.2/libraries/process-1.4.3.0/System-Process.html	N/A
+https://ghcguide.haskell.jp/8.4.3/libraries/process-1.6.3.0/System-Process.html	N/A
+https://hackage.haskell.org/package/io-streams-1.3.6.1/docs	N/A
+https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/Network-HaskellNet-BSStream.html	N/A
+https://hackage-content.haskell.org/package/async-2.2.6	N/A
+https://hackage.haskell.org/package/async-2.0.1.4	N/A
+https://hackage.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf	N/A
+https://hackage.haskell.org/package/eventloop-0.8.1.2	N/A
+https://hackage.haskell.org/package/eventloop-0.8.2.7	N/A
+https://bahr.io/pubs/files/asyncrattus-paper.pdf	N/A
+https://hackage.haskell.org/package/hlibev/docs/Network-Libev.html	N/A
+https://kar.kent.ac.uk/69692/	N/A
+https://idris.readthedocs.io/en/latest/effects/index.html	N/A
+https://idris.readthedocs.io/en/latest/effects/summary.html	N/A
+https://hackage.haskell.org/package/reflex	N/A
+https://docs.haskellstack.org/en/v1.5.0/ghcjs/	N/A
+https://docs.reflex-frp.org/en/latest/installation.html	N/A
+https://docs.reflex-frp.org/en/latest/overview.html	N/A
+https://icfp18.sigplan.org/details/hiw-2018-papers/6/Lightning-talk-Asterius-Bringing-Haskell-to-WebAssembly	N/A
+https://scala-fmi.github.io/scala-fmi-2022/lectures/11-cats-and-cats-effect.html	N/A
+https://arxiv.org/abs/2209.10941	N/A
+https://arxiv.org/abs/2008.12592	N/A
+https://cs.nott.ac.uk/~psxip1/papers/2015-HaskellSymposium-Perez-Nilsson-BridgingGUIGapReactiveValues.pdf	N/A
+https://hackage.haskell.org/package/opaleye/docs/Opaleye.html	N/A
+https://haskell-beam.github.io/beam/about/faq/	N/A
+https://hackage.haskell.org/package/persistent	N/A
+https://hackage.haskell.org/package/persistent-mtl/docs	N/A
+https://hackage.haskell.org/package/persistent-typed-db	N/A
+https://haskell-beam.github.io/beam/	N/A
+https://hackage-content.haskell.org/package/persistent-2.17.0.0/docs/Database-Persist-SqlBackend.html	N/A
+https://index.scala-lang.org/gaelrenoux/tranzactio	N/A
+https://scalac.io/training/functional-effects/	N/A
+https://www.javadoc.io/static/org.scalaz/scalaz-zio_2.11/0.5.3/scalaz/zio/package.html	N/A
+https://index.scala-lang.org/zio/zio-rocksdb	N/A
+https://scalac.io/blog/zio-sql-type-safe-sql-for-zio-applications/	publication	2023-03-03
+https://courses.rockthejvm.com/p/zio	N/A
+https://leanpub.com/eventsourcinginscala	N/A
+https://research.google/pubs/an-implementation-and-semantics-for-transactional-memory-introspection-in-haskell/	publication	2009
+https://icfp16.sigplan.org/details/haskellsymp-2016-papers/8/Revisiting-Software-Transactional-Memory-in-Haskell	N/A
+https://www.microsoft.com/en-us/research/publication/lock-free-data-structures-using-stms-in-haskell/	N/A
+https://salkhordeh.de/publication/haskell-icfp/	publication	2021-09-01
+https://dspace.library.uu.nl/bitstream/handle/1874/362670/Hlogo.pdf?isAllowed=y&sequence=1	N/A
+https://hackage.haskell.org/package/system-filepath/docs/Filesystem-Path.html	N/A
+https://hackage.haskell.org/package/fast-logger/docs	N/A
+https://hackage.haskell.org/package/fast-logger-2.2.3/docs/System-Log-FastLogger.html	N/A
+https://hackage.haskell.org/package/filesystem-trees/docs/System-File-Tree.html	N/A
+https://hackage.haskell.org/package/path	N/A
+https://hackage.haskell.org/package/file-io/docs/System-File-OsPath.html	N/A
+https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/doc-index.html	N/A
+https://hackage-content.haskell.org/package/log-base-0.12.1.0/docs/Log-Logger.html	N/A
+https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/resource-management/the-use-keyword	N/A
+https://www2.imm.dtu.dk/~mire/FSharpBook/	N/A
+https://www.packtpub.com/en-us/product/mastering-f-9781784396848	N/A
+https://books.out.csli.me/NonFiction/Programming/no%20starch%20press/Book%20of%20F%23%20Breaking%20Free%20with%20Managed%20Functional%20Programming.pdf	N/A
+https://up.4read.net/zahef/books/1653713845.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=8e3262faee04030ea0c6f97a79242842670a2f09&repid=rep1&type=pdf	N/A
+https://hackage.haskell.org/package/pipes-attoparsec-streaming/docs/Control-Pipe-Attoparsec-Stream.html	N/A
+https://hackage.haskell.org/package/attoparsec-conduit/docs	N/A
+https://hackage.haskell.org/package/attoparsec	N/A
+https://hackage.haskell.org/package/json-stream	N/A
+https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Attoparsec.html	N/A
+https://hackage-content.haskell.org/package/wireform-proto-0.1.0.0/docs/Proto-Decode-Stream.html	N/A
+https://hackage-content.haskell.org/package/streamly-core-0.3.0/docs/Streamly-Data-Stream.html	N/A
+https://fs2.io/	N/A
+https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.12.2	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15/v-7/	N/A
+https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.9.2	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15	N/A
+https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.8-75a2246/fs2/io.html	N/A
+https://www.cs.rpi.edu/~milanova/csci4966/F24_Lecture12_Monadic_Parsing.pdf	N/A
+https://presentation-slides.gitlab.io/outputs/haskell-parsers/haskell-parsers/pdf/index.pdf	N/A
+https://nottingham-repository.worktribe.com/output/1024100/monadic-parsing-in-haskell	N/A
+https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/parsing.html	N/A
+https://fileadmin.cs.lth.se/cs/Education/EDAN40/lectures/Parsing.pdf	N/A
+https://hackage.haskell.org/package/warp	N/A
+https://hackage.haskell.org/package/servant-util	N/A
+https://hackage-content.haskell.org/package/servant-server-0.20.3.0/docs/Servant-Server.html	N/A
+https://docs.servant.dev/_/downloads/en/v0.16/pdf/	N/A
+https://hackage.haskell.org/package/req	N/A
+https://icfp17.sigplan.org/details/haskellsymp-2017-papers/1/Composable-Network-Stacks-and-Remote-Monads	N/A
+https://www.baeldung.com/scala/http4s-intro	N/A
+https://http4s.org/	N/A
+https://livebook.manning.com/book/get-programming-with-scala/chapter-17	N/A
+https://play.google.com/store/books/details/Jens_Grassel_Pure_functional_HTTP_APIs_in_Scala?id=szopEAAAQBAJ	N/A
+https://http4s.org/v0.15/	N/A
+https://blog.shangjiaming.com/scala%20tutorial/http4s-introduction-2/	publication	2020-02-12
+https://www.scalabook.ru/books/pfhais.html	N/A
+https://http4s.org/v0.22/docs/dsl.html	N/A
+https://hackage-content.haskell.org/package/optparse-applicative-0.19.0.0/docs/Options-Applicative.html	N/A
+https://hackage.haskell.org/package/brick	N/A
+https://hackage.haskell.org/package/structured-cli-0.9.3.0/docs/System-Console-StructuredCLI.html	N/A
+https://hackage-content.haskell.org/package/vty-6.5/docs/Graphics-Vty.html	N/A
+https://hackage.haskell.org/package/ansi-terminal-0.11.3/docs/System-Console-ANSI.html	N/A
+https://haskell-brick.readthedocs.io/_/downloads/en/latest/pdf/	N/A
+https://www.haskell.org/wikiupload/5/54/Building_an_interpreter.pdf	N/A
+https://hackage.haskell.org/package/Shellac/docs/System-Console-Shell.html	N/A
+https://www.baeldung.com/scala/cats-effect-delay-defer-vs-deferred	N/A
+https://hackage.haskell.org/package/scheduler/docs/Control-Scheduler.html	N/A
+https://hackage.haskell.org/package/dejafu-0.3.2.0/docs	N/A
+https://hackage-content.haskell.org/package/distributed-process-async-0.2.11/docs/Control-Distributed-Process-Async.html	N/A
+https://hackage.haskell.org/package/scheduler	N/A
+https://ocaml.org/p/lwt/5.5.0/doc/index.html	N/A
+https://ocaml.org/p/lwt/4.5.0/doc/README.html	N/A
+https://ocaml.org/p/lwt/5.1.1/doc/lwt/Lwt/index.html	N/A
+https://kcsrk.info/papers/sumit_ms_thesis.pdf	N/A
+https://refubium.fu-berlin.de/handle/fub188/18938	N/A
+https://www.cs.cmu.edu/~fp/papers/jfp22.pdf	N/A
+https://www.andrew.cmu.edu/user/kpruiksm/papers/jfp22.pdf	N/A
+https://www.cs.cmu.edu/~fp/public/papers/cll05.pdf	N/A
+https://kar.kent.ac.uk/84635/	N/A
+https://index.scala-lang.org/typelevel/cats-effect-testing	N/A
+https://index.scala-lang.org/akiomik/cats-nio-file	N/A
+https://david-romero.github.io/articles/2022-03/Test-Functional-Clock-Scala	N/A
+https://hackage-content.haskell.org/package/QuickCheck-2.16.0.0/docs/Test-QuickCheck.html	N/A
+https://hackage-content.haskell.org/package/hspec-core-2.11.16/docs/Test-Hspec-Core-Spec.html	N/A
+https://hspec.github.io/writing-specs.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/QuickCheck/index.html	N/A
+https://www.microsoft.com/en-us/research/publication/a-deterministic-multi-way-rendezvous-library-for-haskell/	N/A
+https://arxiv.org/abs/1711.03842	N/A
+https://hackage.haskell.org/package/distributed-process	N/A
+https://hackage-content.haskell.org/package/distributed-process-client-server-0.2.8.0/docs/Control-Distributed-Process-ManagedProcess.html	N/A
+https://marino.miculan.org/assets/pdf/ITP12.pdf	N/A
+https://verse-lab.github.io/papers/dpc-padl19.pdf	N/A
+https://www.baeldung.com/scala/zio-fibers-tutorial	N/A
+https://zio.dev/zio-kafka/tutorial/	N/A
+https://scalac.io/blog/how-to-learn-zio-and-functional-programming/	publication	2023-01-09
+https://scalac.io/blog/streaming-microservices-with-zio-and-kafka/	publication	2023-06-29
+https://www.baeldung.com/scala/zio-intro	N/A
+https://scalac.io/blog/getting-started-with-zio-http/	publication	2024-01-17
+https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index	N/A
+https://devsisters.github.io/shardcake/docs/	N/A
+https://people.kth.se/~buiras/lic.pdf	N/A
+https://www.researchgate.net/publication/221563004_A_Library_for_Light-Weight_Information-Flow_Security_in_Haskell	N/A
+https://ocaml.org/p/eio_main/1.2/eio_main/Eio_main/index.html	N/A
+https://ocaml.org/p/eio/0.14/eio/Eio/index.html	N/A
+https://bahr.io/pubs/files/effcalc-paper.pdf	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-9.0.1/src/GHC-Builtin-PrimOps.html	N/A
+https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-Event.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IOArray.html	N/A
+https://lojban.io/documentation/ghc-prim-0.9.1/src/GHC-Prim-Ext.html	N/A
+https://hackage.haskell.org/package/resourcet/docs	N/A
+https://hackage.haskell.org/package/monad-time/docs/Control-Monad-Time.html	N/A
+https://hackage-content.haskell.org/package/time-1.15/docs/Data-Time-Clock-System.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=ad43ccbee49d790fdc1c8c625a24cf7d00c8326d&repid=rep1&type=pdf	N/A
+https://typelevel.org/cats-effect/docs/datatypes/clock	N/A
+https://typelevel.org/cats-effect/docs/datatypes/timer	N/A
+https://typelevel.org/cats-effect/api/2.x/cats/effect/Resource.html	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/index.html	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/index.html	N/A
+https://sttp.softwaremill.com/_/downloads/en/v2.2.0/pdf/	N/A
+https://sttp.softwaremill.com/_/downloads/en/v3.1.2/pdf/	N/A
+https://sttp.softwaremill.com/_/downloads/en/v3.0.0-rc2/pdf/	N/A
+https://hackage.haskell.org/package/ivory	N/A
+https://hackage.haskell.org/package/ion	N/A
+https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/17928/ChristopherSchwaabPhDThesis.pdf?isAllowed=y&sequence=2	N/A
+https://downloads.haskell.org/ghc/6.0/docs/html/base/System.IO.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/libraries/haskell98/IO.html	N/A
+https://ivanperez.io/papers/2016-HaskellSymposium-Perez-Barenz-Nilsson-FRPRefactored-short.pdf	N/A
+https://docs.rs/futures/latest/futures/io/index.html	N/A
+https://docs.rs/async-trait/latest/async_trait/	N/A
+https://docs.rs/effective	N/A
+https://rust-lang.github.io/async-book/07_workarounds/05_async_in_traits.html	N/A
+https://doc.rust-lang.org/stable/book/ch17-01-futures-and-syntax.html	N/A
+https://github.com/bytedance/monoio	N/A
+https://docs.rs/rustica/latest/rustica/datatypes/async_monad/index.html	N/A
+https://docs.rs/crate/functype-io/0.1.1	N/A
+https://rust-lang.github.io/async-book/part-guide/async-await.html	N/A
+https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137?type=print	N/A
+https://artur-sulej.github.io/rust-ebooks/async-book.pdf	N/A
+https://era.ed.ac.uk/items/14fd5200-9779-434c-b9c2-4a367cbeac9b	publication	2014-06-27
+https://docs.rs/crate/eff/latest	N/A
+https://www.logic.cs.tsukuba.ac.jp/~sat/pdf/tfp2020-postsymposium.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf	N/A
+https://hackage.haskell.org/package/system-fileio-0.2/docs/System-File.html	N/A
+https://fsharp.github.io/fsharp-core-docs/	N/A
+https://fsharp.org/docs/	N/A
+https://fsharp.github.io/fsharp-compiler-docs/fcs/filesystem.html	N/A
+https://fsharp.org/guides/data-access/	N/A
+https://fsharp.org/specs/language-spec/4.1/FSharpSpec-4.1-latest.pdf	N/A
+https://www.tutorialspoint.com/fsharp/pdf/fsharp_basic_io.pdf	N/A
+https://www.idt.mdh.se/kurser/DVA229/slides/io.pdf	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Handle.html	N/A
+https://hackage.haskell.org/package/text-icu	N/A
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Text.html	N/A
+https://hackage-origin.haskell.org/package/text-2.0.1/docs/Data-Text-Encoding.html	N/A
+https://hackage.haskell.org/package/text-1.1.1.3/docs/Data-Text-Encoding.html	N/A
+https://hackage-content.haskell.org/package/utf8-string-0.3.7.	N/A
+https://hackage-content.haskell.org/package/text-2.1.4/docs/Data-Text-IO.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-IO-Encoding.html	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/libraries/base-4.9.1.0/GHC-IO-Encoding.html	N/A
+https://www.baeldung.com/scala/fs2-functional-streams	N/A
+https://index.scala-lang.org/typelevel/fs2/fs2-io/3.12.0?binary-version=_sjs1_3	N/A
+https://index.scala-lang.org/spinoco/fs2-http	N/A
+https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/316945_3_En_7_Chapter.xhtml	N/A
+https://verify.rwth-aachen.de/fp09/	N/A
+https://cs3110.github.io/textbook/chapters/conc/promises.html	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf?event-type=FTLA	N/A
+https://ocaml.org/p/async/v0.16.0/doc/index.html	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C8AF236F4E87677B5A5D9E522506273D/9781009125802c17_297-324.pdf/concurrent_programming_with_async.pdf	N/A
+https://www.cs.cornell.edu/courses/cs3110/2015fa/l/16-conc/lec.pdf	N/A
+https://pursuit.purescript.org/packages/purescript-aff/4.1.1/docs/Control.Monad.Aff.Console	N/A
+https://pursuit.purescript.org/packages/purescript-node-streams-aff/2.0.0/docs/Node.Stream.Aff	N/A
+https://pursuit.purescript.org/packages/purescript-effect/3.0.0/docs/Effect	N/A
+https://www.objc.io/books/functional-swift/	N/A
+https://www.objc.io/books/functional-swift	N/A
+https://www.slideshare.net/slideshow/functional-programming-in-scala-1st-edition-paul-chiusano/280861388?nway-refresh=B	N/A
+https://www.sciencedirect.com/science/article/abs/pii/S0167819111000524	N/A
+https://hackage.haskell.org/package/reactive-banana-0.5.0.3/docs	N/A
+https://hackage.haskell.org/package/reactive-jack/docs	N/A
+https://hackage-content.haskell.org/package/glib-0.13.12.0/docs/System-Glib-Signals.html	N/A
+https://ocaml.org/p/react/latest/doc/README.html	N/A
+https://ocaml.org/p/react/latest/doc/index.html	N/A
+https://ocaml.org/p/react/latest/doc/react/React/E/index.html	N/A
+https://ocaml.org/p/react/latest/react/React/index.html	N/A
+https://reactiveml.github.io/documentation.html	N/A
+https://reactiveml.github.io/papers/MandelPlateau-draft-2010-rmltop.pdf	N/A
+https://remyzorg.github.io/papers/splashws16reblsmain.pdf	N/A
+https://www.lri.fr/~mandel/papers/MandelPlateau-draft-2010-rmltop.pdf	N/A
+https://icfp19.sigplan.org/details/haskellsymp-2019-papers/13/Synthesizing-Functional-Reactive-Programs	N/A
+https://hackage.haskell.org/package/hinotify	N/A
+https://fsharpwindowsservices.wordpress.com/2019/11/07/watching-files/	publication	2019-11-07
+https://softwarepatternslexicon.com/f-sharp/reactive-programming-patterns/observer-pattern-with-iobservable-and-iobserver/	publication	2024-11-17
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-observablemodule.html	N/A
+https://www.idt.mdh.se/kurser/DVA229/slides/reactive.pdf	N/A
+https://www.nuget.org/packages/ReactiveFileSystemWatcher	N/A
+https://www.idt.mdh.se/kurser/DVA229/slides/reactive-4up.pdf	N/A
+https://ifl2014.github.io/submissions/ifl2014_submission_4.pdf	N/A
+https://simonjf.com/drafts/reactive-abstractions.pdf	N/A
+https://hackage.haskell.org/package/jack-0.7.2.1/docs	N/A
+https://www.cambridge.org/core/books/abs/haskell-school-of-music/higherorder-types-and-monads/D77C48D01FCD99F307CF94FDF3126A6E	publication	2018-10
+https://hal2016.haskell.org/slides/HAL2016-thielemann.pdf	N/A
+https://www.researchgate.net/publication/45914316_Compiling_Signal_Processing_Code_embedded_in_Haskell_via_LLVM	N/A
+https://www.researchgate.net/publication/228791306_Audio_Processing_and_Sound_Synthesis_in_Haskell	N/A
+https://ocaml.org/p/streaming/0.8.0/doc/Streaming/Stream/index.html	N/A
+https://opam.ocaml.org/packages/fstreams/	N/A
+https://ocaml-multicore.github.io/eio/eio/Eio/Stream/index.html	N/A
+https://ocaml.org/p/streaming/0.8.0/doc/index.html	N/A
+https://ocaml-lib.sourceforge.net/doc/IO.html	N/A
+https://reactiveml.github.io/reactive_asco/resources/farm13.pdf	N/A
+https://strymonas.github.io/docs/ocaml-22.pdf	N/A
+https://hackage.haskell.org/package/SDL	N/A
+https://hackage.haskell.org/package/OpenGL	N/A
+https://hackage.haskell.org/package/HaGL	N/A
+https://hackage.haskell.org/package/sdl2-gfx	N/A
+https://hackage.haskell.org/package/gloss-rendering	N/A
+https://hackage.haskell.org/package/gloss	N/A
+https://hackage.haskell.org/package/diagrams	N/A
+https://hackage.haskell.org/package/sdl2-1.3.0	N/A
+https://hackage.haskell.org/package/sdl2-1.0.0	N/A
+https://hackage.haskell.org/package/sdl2-2.1.2	N/A
+https://hackage.haskell.org/package/sdl2-2.5.0.0	N/A
+https://ocaml.org/p/graphics/latest/doc/README.html	N/A
+https://ocaml.github.io/graphics/graphics/Graphics/	N/A
+https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora124.html	N/A
+https://ocaml.org/manual/4.05/libref/Graphics.html	N/A
+https://ocaml.org/p/graphics/5.1.2/doc/README.html	N/A
+https://www.cis.upenn.edu/~cis120/current/files/1200notes.pdf	N/A
+https://www.seas.upenn.edu/~cis120/archive/22sp/files/120notes.pdf	N/A
+https://ocaml.org/p/async_graphics/latest/doc/Async_graphics/index.html	N/A
+https://biblio.ugent.be/publication/1246782	publication	2011
+https://arthurxavierx.github.io/RealWorldAppComonadicUI.pdf	N/A
+https://hackage.haskell.org/package/gtk	N/A
+https://hackage.haskell.org/package/cairo	N/A
+https://hackage.haskell.org/packages/tag/graphics	N/A
+https://archives.haskell.org/projects.haskell.org/diagrams/doc/manual.html	N/A
+https://hackage.haskell.org/package/GLFW-b	N/A
+https://hackage.haskell.org/package/gi-gtk	N/A
+https://hackage.haskell.org/package/diagrams-cairo	N/A
+https://hackage.haskell.org/package/usb	N/A
+https://hackage.haskell.org/package/hidapi	N/A
+https://hackage.haskell.org/package/serialport/docs	N/A
+https://hackage.haskell.org/packages/tag/hardware	N/A
+https://hackage.haskell.org/package/usb-iteratee	N/A
+https://hackage.haskell.org/package/hid	N/A
+https://arxiv.org/abs/1309.2093	N/A
+https://opam.ocaml.org/packages/serialport/	N/A
+https://ocaml.org/p/serialport/0.1	N/A
+https://ocaml.org/p/stdio/latest/doc/Stdio/index.html	N/A
+https://ocaml.org/manual/5.2/api/Unix.html	N/A
+https://ocaml.org/manual/5.3/api/UnixLabels.html	N/A
+https://www.cs.cornell.edu/courses/cs3110/2011sp/Handouts/Hickey.pdf	N/A
+https://ocaml.github.io/ocamlunix/ocamlunix.pdf	N/A
+https://ocaml.org/manual/4.00/ocaml-4.00-refman.pdf	N/A
+https://www.researchgate.net/publication/2245424_Lambda_in_Motion_Controlling_Robots_With_Haskell	N/A
+https://hackage.haskell.org/package/exceptions-0.10.7/docs/Control-Monad-Catch.html	N/A
+https://hackage-content.haskell.org/package/exceptions-0.10.10/docs/src/Control.Monad.Catch.html	N/A
+https://ocaml.org/p/lwt/5.4.1/doc/lwt/Lwt/index.html	N/A
+https://ocaml.org/p/lwt-exit/1.0/doc/lwt-exit/Lwt_exit/index.html	N/A
+https://ocsigen.org/lwt/5.4.2/api/Lwt	N/A
+https://ocaml.org/u/dd4fdb0c026377497e91e41115e3044c/lwt/6.0.0~alpha00/manual.html	N/A
+https://discuss.ocaml.org/t/ann-lwt-canceler-0-3/7092	publication	2021-01-14
+https://arxiv.org/abs/1611.00692	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Exception-Base.html	N/A
+https://hackage.haskell.org/package/general-allocate-0.2.3.0	N/A
+https://hackage.haskell.org/package/network-simple-tls	N/A
+https://hackage.haskell.org/package/network-simple	N/A
+https://hackage.haskell.org/package/tls	N/A
+https://hackage.haskell.org/package/network-simple-tls-0.4.2	N/A
+https://hackage.haskell.org/package/network-simple-tls-0.3.2	N/A
+https://hackage-content.haskell.org/package/tls-2.2.2/docs/Network-TLS.html	N/A
+https://hackage.haskell.org/package/dns-4.2.0	N/A
+https://ocaml.org/p/tls-lwt/latest/tls-lwt/Tls_lwt/index.html	N/A
+https://ocaml.org/p/tls-lwt/latest/doc/index.html	N/A
+https://ocaml.org/p/tls-lwt/1.0.4/doc/tls-lwt/Tls_lwt/index.html	N/A
+https://opam-5.ocaml.org/packages/tls-lwt/	N/A
+https://git.jeffas.net/ocaml-tls/files/lwt/tls_lwt.mli.html	N/A
+https://projects.camlcity.org/projects/dl/ocamlnet-4.1.9/doc/html-main/Tls.html	N/A
+https://sources.debian.org/data/main/l/lwt/2.4.3-4/manual/manual.pdf	N/A
+https://hackage.haskell.org/package/uniform-io-1.0.0.0	N/A
+https://www.stackage.org/lts-18.0/package/network-simple-tls-0.4	N/A
+https://hackage.haskell.org/package/unagi-chan	N/A
+https://hackage.haskell.org/package/unagi-chan-0.2.0.0	N/A
+https://hackage.haskell.org/package/unagi-chan-0.4.1.2	N/A
+https://hackage.haskell.org/package/unagi-chan/docs/Control-Concurrent-Chan-Unagi.html	N/A
+https://hackage.haskell.org/package/unagi-streams-0.1.1.0	N/A
+https://hackage.haskell.org/package/stm-chans	N/A
+https://upcommons.upc.edu/bitstreams/1cf46039-a6e7-4daf-a90a-c11ddc38196c/content	N/A
+https://citeseerx.ist.psu.edu/document?doi=f0a3a86e9a05bb694be99d9d2db863fad6ff34ba&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/1608.02896	N/A
+https://hackage.haskell.org/package/simple-actors/docs/Control-Concurrent-Actors.html	N/A
+https://hackage.haskell.org/package/hactors/docs/Control-Concurrent-Actor.html	N/A
+https://ocaml.org/p/lwt/4.3.0/index.html	N/A
+https://opam.ocaml.org/packages/mirage-channel-lwt/	N/A
+https://arxiv.org/abs/2111.12147	N/A
+https://github.com/robur-coop/miou/blob/main/queue/main.ml	N/A
+https://hackage.haskell.org/package/amazonka-s3	N/A
+https://hackage.haskell.org/package/minio-hs	N/A
+https://hackage.haskell.org/package/minio-hs-1.2.0/	N/A
+https://hackage.haskell.org/package/minio-hs-1.3.1	N/A
+https://hackage.haskell.org/package/amazonka-s3-1.4.1	N/A
+https://hackage-content-origin.haskell.org/package/amazonka-s3-streaming-0.2.0.3	N/A
+https://discourse.haskell.org/t/reading-s3-hosted-files/5169	publication	2022-10-12
+https://www.researchgate.net/publication/221562940_Towards_Haskell_in_the_Cloud	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2011/01/monad-par.pdf	N/A
+https://zio.github.io/zio-s3/docs/quickstart/quickstart_index	N/A
+https://zio.dev/zio-s3/	N/A
+https://index.scala-lang.org/zio/zio-s3	N/A
+https://ziohttp.com/examples/streaming/	N/A
+https://index.scala-lang.org/zio/zio-s3/artifacts/zio-s3/0.3.7	N/A
+https://zio.dev/reference/stream/zstream/creating-zio-streams/	N/A
+https://index.scala-lang.org/laserdisc-io/fs2-aws	N/A
+https://zio.dev/zio-aws/getting-started	N/A
+https://hackage.haskell.org/package/websockets	N/A
+https://hackage.haskell.org/package/wuss	N/A
+https://hackage.haskell.org/package/wuss-2.0.1.0	N/A
+https://hackage.haskell.org/package/wuss-2.0.1.8	N/A
+https://hackage.haskell.org/package/wuss-1.1.8	N/A
+https://hackage.haskell.org/package/wuss-2.0.2.0	N/A
+https://hackage.haskell.org/package/wuss-2.0.2.7	N/A
+https://hackage-content.haskell.org/package/wuss-2.0.2.5/docs/Wuss.html	N/A
+https://hackage.haskell.org/package/websockets-0.7.4.1/docs/Network-WebSockets.html	N/A
+https://hackage.haskell.org/package/websockets-0.6.0.1/docs/Network-WebSockets.html	N/A
+https://arxiv.org/abs/2005.09452	N/A
+https://arxiv.org/abs/2112.03653	N/A
+https://ocaml.org/p/websocket-lwt/latest/README.html	N/A
+https://ocaml.org/p/websocket-lwt	N/A
+https://opam.ocaml.org/packages/websocket-lwt/	N/A
+https://ocaml.org/p/websocket-lwt-unix/latest/doc/index.html	N/A
+https://ocaml.org/p/websocket-lwt-unix/2.15	N/A
+https://ocaml.org/p/websocket-lwt-unix/2.15/doc/index.html	N/A
+https://ocaml.org/p/websocket-lwt-unix/2.17/doc/websocket-lwt-unix/Websocket_lwt_unix/index.html	N/A
+https://opam.ocaml.org/packages/websocket/	N/A
+https://hackage.haskell.org/package/wai-eventsource	N/A
+https://hackage.haskell.org/package/wai-eventsource/docs/Network-Wai-EventSource.html	N/A
+https://hackage.haskell.org/package/wai-extra-3.0.15.2/docs/Network-Wai-EventSource.html	N/A
+https://hackage.haskell.org/package/wai-extra	N/A
+https://hackage-content.haskell.org/package/http2-5.4.0	N/A
+https://hackage.haskell.org/package/yesod-eventsource	N/A
+https://hackage.haskell.org/package/wai-extra-3.1.4	N/A
+https://hackage-content-origin.haskell.org/package/http2-5.1.3	N/A
+https://ocaml.org/p/cohttp-lwt/2.1.3/doc/README.html	N/A
+https://ocaml.org/p/cohttp/4.0.0/doc/README.html	N/A
+https://github.com/mirage/ocaml-cohttp	N/A
+https://opam.ocaml.org/packages/cohttp/	N/A
+https://opam.ocaml.org/packages/cohttp-lwt-unix/	N/A
+https://ocaml.org/p/cohttp-lwt/1.2.0/doc/README.html	N/A
+https://hackage-content-origin.haskell.org/package/typed-protocols	N/A
+https://www.mew.org/~kazu/doc/paper/http2-haskell-2016.pdf	N/A
+https://hackage-content.haskell.org/package/louter-0.1.1.2/docs/Louter-Types-Streaming.html	N/A
+https://hackage.haskell.org/package/http2-client	N/A
+https://hackage.haskell.org/package/smtp-mail	N/A
+https://hackage.haskell.org/package/HaskellNet	N/A
+https://hackage.haskell.org/package/HaskellNet-0.2.2	N/A
+https://www.stackage.org/package/HaskellNet	N/A
+https://hackage.haskell.org/package/HaskellNet-SSL-0.3.3.0/docs	N/A
+https://hackage.haskell.org/package/HaskellNet-SSL-0.2.5/docs	N/A
+https://packages.debian.org/source/stable/haskell-mime-mail	N/A
+https://ocaml.org/p/letters/0.4.0/doc/README.html	N/A
+https://ocaml.org/p/sendmail-lwt/0.10.0/doc/Sendmail_lwt/index.html	N/A
+https://ocaml.org/p/letters/0.3.2/doc/README.html	N/A
+https://ocaml.org/p/letters/0.3.0/doc/README.html	N/A
+https://ocaml.github.io/platform-dev/packages/imap/	N/A
+https://ocaml.org/p/letters/0.3.3	N/A
+https://opam-5.ocaml.org/packages/letters/	N/A
+https://discuss.ocaml.org/t/are-there-any-imap-server-libraries/16175	publication	2025-02-24
+https://hackage.haskell.org/package/bzlib	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.2.0	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.5.0	N/A
+https://hackage.haskell.org/package/bzlib-conduit-0.3.0	N/A
+https://hackage.haskell.org/package/bzlib-conduit-0.2.1.0	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.5.0.2	N/A
+https://hackage-content.haskell.org/package/zlib-0.7.1.0	N/A
+https://ocaml.org/p/lwt/6.1.0/doc/lwt/Lwt_stream/index.html	N/A
+https://ocaml.org/p/decompress/1.5.3	N/A
+https://ocaml.org/p/decompress/1.5.0	N/A
+https://opam.ocaml.org/packages/decompress/	N/A
+https://ocaml.org/p/bytesrw/0.2.0/doc/bytesrw.zlib/Bytesrw_zlib/Gzip/index.html	N/A
+https://opam.ocaml.org/packages/zlib/	N/A
+https://opam-5.ocaml.org/packages/clz/	N/A
+https://ocaml.org/p/decompress/1.5.0/doc/decompress.gz/Gz/Def/index.html	N/A
+https://vmchale.com/static/serve/lazy-c-api-streaming.pdf	N/A
+https://hackage.haskell.org/package/streaming-brotli/docs/Streaming-Brotli.html	N/A
+https://hackage.haskell.org/package/zstd/docs/Codec-Compression-Zstd-Streaming.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=8766d8c68cf63e43c3d65955feab91dcb8e934f5&repid=rep1&type=pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=5740bd423ec97e8371d0589a7cdca738f12a12c6&repid=rep1&type=pdf	N/A
+https://hackage.haskell.org/package/lzma/docs/Codec-Compression-Lzma.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/binary-0.7.5.0/Data-Binary.html	N/A
+https://hackage.haskell.org/package/unix-2.7.2.2	N/A
+https://hackage-content.haskell.org/package/unix-2.8.6.0	N/A
+https://hackage-content-origin.haskell.org/package/unix-2.8.3.0	N/A
+https://hackage-content-origin.haskell.org/package/unix-2.8.1.1	N/A
+https://hackage-content-origin.haskell.org/package/unix-2.8.7.0	N/A
+https://hackage.haskell.org/package/unix-2.0/docs/System-Posix-IO.html	N/A
+https://hackage.haskell.org/package/base-4.6.0.1/docs/GHC-IO-Handle-FD.html	N/A
+https://ocaml.github.io/ocamlunix/	N/A
+https://ocaml.github.io/ocamlunix/ocamlunix.html	N/A
+https://ocaml.github.io/ocamlunix/signals.html	N/A
+https://ocaml.github.io/ocamlunix/pipes.html	N/A
+https://ocaml-multicore.github.io/eio/eio/Eio_unix/Process/index.html	N/A
+https://ocaml.github.io/ocamlunix/toc.html	N/A
+https://projects.camlcity.org/projects/dl/ocamlnet-4.0.2/doc/html-main/Netsys_posix.html	N/A
+https://www.cl.cam.ac.uk/~jjl25/docs/ocaml/Unix/index.html	N/A
+https://hackage.haskell.org/package/process	N/A
+https://hackage.haskell.org/package/process-1.6.11.0	N/A
+https://hackage.haskell.org/package/process-1.6.6.0	N/A
+https://hackage.haskell.org/package/process-1.6.18.0	N/A
+https://hackage.haskell.org/package/process-1.6.23.0	N/A
+https://hackage.haskell.org/package/angel	N/A
+https://ocaml.org/p/lwt/4.3.0/doc/lwt.unix/Lwt_process/index.html	N/A
+https://ocaml.org/p/lwt/4.2.1-1/doc/lwt.unix/Lwt_process/index.html	N/A
+https://ocaml.org/u/9a8383bd67a996e84bf1f19865223e33/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_process/index.html	N/A
+https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_unix/index.html	N/A
+https://ocaml.org/p/lwt/6.1.0/doc/lwt.unix/Lwt_unix/index.html	N/A
+https://opam.ocamllabs.io/packages/lwt/lwt.6.0.0~alpha00/	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066109004447	N/A
+https://citeseerx.ist.psu.edu/document?doi=a4382318df903cbb166d51021e7ed7d9005638ee&repid=rep1&type=pdf	N/A
+https://hackage.haskell.org/package/mmap	N/A
+https://hackage.haskell.org/package/shared-memory	N/A
+https://hackage-content.haskell.org/package/unix-2.8.7.0/docs/System-Posix-SharedMem.html	N/A
+https://hackage.haskell.org/package/unix-memory/docs/System-Posix-Memory.html	N/A
+https://hackage.haskell.org/package/unix-memory-0.1.1	N/A
+https://hackage.haskell.org/package/bindings-mmap/docs	N/A
+https://www.stackage.org/lts-24.3/package/mmap	N/A
+https://ocaml.org/p/core_unix/latest/doc/core_unix/Core_unix/index.html	N/A
+https://opam.ocaml.org/packages/mmap/	N/A
+https://opam.ocaml.org/doc/api/opam-core/OpamSystem/	N/A
+https://projects.camlcity.org/projects/dl/ocamlnet-3.6/doc/html-main/Netshm.html	N/A
+https://ocaml.org/manual/4.11/libref/Unix.html	N/A
+https://ocaml.org/p/core_unix/v0.15.2/doc/core_unix/Core_unix/index.html	N/A
+https://ocaml.github.io/ocamlunix/files.html	N/A
+https://www.typeerror.org/docs/ocaml/libref/unixlabels	N/A
+https://www.researchgate.net/publication/221562952_Haskell_on_a_Shared-Memory_Multiprocessor	N/A
+https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_professuren/grundlagen_informatik/papersMM/mendler-pouzet-synchron25.pdf	N/A
+https://timharris.uk/papers/2005-haskell.pdf	N/A
+https://kar.kent.ac.uk/98981/	N/A
+https://hackage.haskell.org/package/bytestring-mmap/docs/System-IO-Posix-MMap.html	N/A
+https://hackage.haskell.org/package/monad-control-0.3.3.0/docs/Control-Monad-Trans-Control.html	N/A
+https://opam-5.ocaml.org/packages/interface-prime-lwt/	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Class.html	N/A
+https://hackage.haskell.org/package/path-io	N/A
+https://hackage.haskell.org/package/Glob/docs/System-FilePath-Glob.html	N/A
+https://hackage.haskell.org/package/filepattern/docs/System-FilePattern-Directory.html	N/A
+https://hackage.haskell.org/package/paths/docs/System-Path-IO.html	N/A
+https://hackage.haskell.org/package/pathtype	N/A
+https://ocaml.org/p/eio/1.1/doc/Eio/Path/index.html	N/A
+https://ocaml.org/p/eio/0.12/doc/Eio/Path/index.html	N/A
+https://ocaml.org/p/eio/0.10/doc/Eio/Path/index.html	N/A
+https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.html	N/A
+https://sanette.github.io/ocaml2.org/learn/tutorials/if_statements_loops_and_recursion.html	N/A
+https://ocaml.app/article/Working_with_files_and_inputoutput_in_OCaml.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/Data-Traversable.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/libraries/base-4.8.1.0/Data-Traversable.html	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/20-monad-utilities/D74BCFCB041AFF5AF5A799451999A8EB	publication	2003-01
+https://hackage-content-origin.haskell.org/package/unix-2.0/docs/System-Posix-Files.html	N/A
+https://hackage-content.haskell.org/package/unix-2.8.7.0/docs/System-Posix-Files.html	N/A
+https://hackage.haskell.org/package/socket	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-Files.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/unix-2.5.1.0/System-Posix-Files.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230809/docs/libraries/unix-2.8.1.0-c20f/System-Posix-Files-PosixString.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-Files-ByteString.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-IO.html	N/A
+https://hackage.haskell.org/package/pipes-protolude/docs/Pipes-Monad.html	N/A
+https://mail.haskell.org/pipermail/haskell/2001-February/006703.html	N/A
+https://ocaml.org/p/lwt/5.5.0/doc/lwt.unix/Lwt_unix/index.html	N/A
+https://ocaml.org/p/lwt/4.2.0/lwt.unix/Lwt_unix/index.html	N/A
+https://ocaml.org/p/lwt/5.4.1/lwt.unix/Lwt_unix/index.html	N/A
+https://ocaml.org/u/73f55b5cad7ec65737d7a5e544eced32/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_unix/index.html	N/A
+https://beej.us/guide/bgipc/html/multi/index.html	N/A
+https://hackage.haskell.org/package/cryptonite	N/A
+https://hackage-content.haskell.org/package/crypton-x509-1.9.0/docs/Data-X509.html	N/A
+https://hackage.haskell.org/package/cryptonite-0.27	N/A
+https://hackage.haskell.org/package/cryptonite-0.21	N/A
+https://hackage-content.haskell.org/package/crypton-x509-store-1.6.10/docs/Data-X509-CertificateStore.html	N/A
+https://hackage.haskell.org/package/cryptonite-0.11	N/A
+https://hackage.haskell.org/package/cryptonite-cd	N/A
+https://hackage.haskell.org/package/cryptonite-0.15.1	N/A
+https://ocaml.org/p/tls-mirage/latest/doc/README.html	N/A
+https://opam.ocaml.org/packages/mirage-crypto-rng-lwt/	N/A
+https://mirage.io/blog/introducing-ocaml-tls	N/A
+https://mirage.io/blog/ocaml-tls-api-internals-attacks-mitigation	N/A
+https://fun-ocaml.com/2024/slides/mirageos.pdf	N/A
+https://www.cl.cam.ac.uk/~dk505/papers/tls-ocaml2014.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=c314ea0763ad247eccffc3edcea9128e3bded554&repid=rep1&type=pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=8c0fadc91f0af6ea1ec8c824ec502b104fdc6132&repid=rep1&type=pdf	N/A
+https://www.pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf	N/A
+https://www.research.ed.ac.uk/files/24354309/haskell15_2.pdf	N/A
+https://hackage-content.haskell.org/package/MonadRandom-0.6.2.1/docs/Control-Monad-Random-Class.html	N/A
+https://hackage-content.haskell.org/package/MonadRandom-0.6.2.1/docs/Control-Monad-Trans-Random-Strict.html	N/A
+https://hackage.haskell.org/package/git	N/A
+https://hackage.haskell.org/package/acid-state	N/A
+https://hackage.haskell.org/package/acid-state-0.10.1	N/A
+https://hackage.haskell.org/package/acid-state-0.7.7	N/A
+https://hackage.haskell.org/package/acid-state-dist	N/A
+https://hackage.haskell.org/package/acid-state/docs	N/A
+https://hackage.haskell.org/package/acid-state-0.16.1.4/docs/	N/A
+https://docs.haskellstack.org/en/latest/topics/package_location/	N/A
+https://arxiv.org/abs/1407.3561	N/A
+https://arxiv.org/abs/2004.07585	N/A
+https://sources.debian.org/src/git-annex/8.20210223-2/doc/design/iabackup.mdwn	N/A
+https://www.stackage.org/package/git-annex	N/A
+https://docs.haskellstack.org/en/v3.3.1/topics/package_location/	N/A
+https://hackage.haskell.org/package/persistent-sqlite	N/A
+https://hackage.haskell.org/package/sqlite-simple	N/A
+https://hackage.haskell.org/package/persistent-sqlite-2.9.0	N/A
+https://hackage-content.haskell.org/package/persistent-sqlite-2.13.3.1/docs/Database-Sqlite.html	N/A
+https://hackage.haskell.org/package/sqlite-simple-0.4.18.2	N/A
+https://hackage.haskell.org/package/sqlite-simple-0.4.8.0	N/A
+https://hackage.haskell.org/package/sqlite-simple-0.4.6.0	N/A
+https://odr.chalmers.se/bitstreams/84df6716-04b1-4276-be49-653a0214aefe/download	N/A
+https://www.usenix.org/conference/dsl-99/domain-specific-embedded-compilers	publication	1999
+https://usenix.org/publications/library/proceedings/dsl99/full_papers/leijen/leijen.pdf	N/A
+https://research.manchester.ac.uk/files/54512586/FULL_TEXT.PDF	N/A
+https://ocaml.org/p/lwt/5.8.0/doc/index.html	N/A
+https://typelevel.org/doobie/docs/01-Introduction.html	N/A
+https://typelevel.org/doobie/	N/A
+https://index.scala-lang.org/typelevel/doobie?artifact=doobie-hikari-cats	N/A
+https://github.com/typelevel/doobie	N/A
+https://index.scala-lang.org/typelevel/doobie/artifacts/doobie-core/0.13.4	N/A
+https://tpolecat.github.io/doobie-cats-0.4.0/01-Introduction.html	N/A
+https://www.scala-exercises.org/doobie/error_handling	N/A
+https://typelevel.org/doobie/docs/07-Updating.html	N/A
+https://fsharp.github.io/fslang-spec/introduction/	N/A
+https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/cleanbook/II.01.SimpleDatabase.pdf	N/A
+https://arxiv.org/abs/1009.1166	N/A
+https://hackage.haskell.org/package/configuration-tools	N/A
+https://hackage.haskell.org/package/yaml/docs/Data-Yaml-Config.html	N/A
+https://hackage.haskell.org/package/embed-config	N/A
+https://hackage.haskell.org/package/configuration-tools-0.6.1	N/A
+https://hackage-content-origin.haskell.org/package/config-ini	N/A
+https://docs.haskellstack.org/en/v2.11.1/yaml_configuration/	N/A
+https://hackage-content-origin.haskell.org/package/aeson-1.4.1.0	N/A
+https://hackage-content-origin.haskell.org/package/aeson-2.1.2.0	N/A
+https://mpickering.github.io/papers/thesis.pdf	N/A
+https://opam.ocaml.org/doc/man/opam-config.html	N/A
+https://opam.ocaml.org/doc/man/opam-env.html	N/A
+https://manpages.ubuntu.com/manpages/stonking/man1/ocamlrun.1.html	N/A
+https://ocaml.org/manual/4.02/ocaml-4.02-refman.pdf	N/A
+https://hackage.haskell.org/package/katip	N/A
+https://hackage.haskell.org/package/co-log	N/A
+https://hackage.haskell.org/package/opentelemetry-plugin	N/A
+https://hackage.haskell.org/package/hs-opentelemetry-api	N/A
+https://hackage.haskell.org/package/hs-opentelemetry-api-0.0.3.3	N/A
+https://hackage.haskell.org/package/katip-0.3.1.0	N/A
+https://hackage-content.haskell.org/package/katip-0.8.8.4/docs/Katip.html	N/A
+https://kar.kent.ac.uk/14598/	N/A
+https://www.cs.kent.ac.uk/pubs/2003/1770/index.html	N/A
+https://kar.kent.ac.uk/61147/	N/A
+https://kar.kent.ac.uk/13566/	N/A
+https://kar.kent.ac.uk/58270/	N/A
+https://typelevel.org/otel4s-sdk/instrumentation/metrics-cats-effect-io-runtime.html	N/A
+https://tapir-scala.readthedocs.io/_/downloads/en/v0.12.17/pdf/	N/A
+https://sttp.softwaremill.com/_/downloads/en/v3.3.9/pdf/	N/A
+https://index.scala-lang.org/theinnerlight/pure-log	N/A
+https://hackage.haskell.org/package/directory-1.2.0.1/docs/System-Directory.html	N/A
+https://hackage.haskell.org/package/directory-1.0.0.0/docs/System-Directory.html	N/A
+https://hackage.haskell.org/package/system-fileio-0.2/docs/System-Directory.html	N/A
+https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/System-Directory.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/directory-1.2.1.0/System-Directory.html	N/A
+https://hackage-content.haskell.org/package/directory-1.3.10.1/docs/System-Directory.html	N/A
+https://downloads.haskell.org/~ghc/8.2-latest/docs/html/libraries/directory-1.3.0.2/src/System-Directory.html	N/A
+https://www.haskell.org/onlinereport/directory.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/directory-1.3.8.5-fc66/src/System.Directory.html	N/A
+https://ocaml.org/manual/4.06/libref/Unix.html	N/A
+https://ocaml.org/manual/5.0/api/Unix.html	N/A
+https://ocaml.org/p/ocaml-base-compiler/4.14.1/doc/unix/UnixLabels/index.html	N/A
+https://ocaml.org/manual/4.13/api/Unix.html	N/A
+https://unix.janestreet.com/ocaml-core/odoc/unix/Unix/index.html	N/A
+https://hackage.haskell.org/package/async-timer	N/A
+https://hackage.haskell.org/package/time-manager	N/A
+https://hackage.haskell.org/package/stm-delay	N/A
+https://hackage.haskell.org/package/time-manager-0.3.1.1	N/A
+https://hackage.haskell.org/package/time-manager-0.3.1	N/A
+https://hackage.haskell.org/package/extensible-effects-concurrent	N/A
+https://hackage-content.haskell.org/package/AsyncRattus-0.2.1/src/docs/paper.pdf	N/A
+https://hackage-content.haskell.org/package/AsyncRattus-0.1.0.1/src/docs/paper.pdf	N/A
+https://ocaml.org/p/eio/latest/index.html	N/A
+https://ocaml.org/p/eio/latest/doc/index.html	N/A
+https://ocaml.org/p/eio/latest/doc/eio/Eio/index.html	N/A
+https://ocaml.org/p/eio/latest/eio.mock/Eio_mock/Clock/index.html	N/A
+https://ocaml-multicore.github.io/eio/eio/Eio/Time/index.html	N/A
+https://hackage.haskell.org/package/hal	N/A
+https://hackage.haskell.org/package/hal-0.3.4	N/A
+https://hackage.haskell.org/package/hal-0.3.2	N/A
+https://hackage-content-origin.haskell.org/package/amazonka-lambda-0.3.4	N/A
+https://hackage-content.haskell.org/package/servant-client-0.20.3.0/docs/Servant-Client.html	N/A
+https://hackage-content.haskell.org/package/servant-client-core-0.20.3.0/docs/Servant-Client-Core.html	N/A
+https://hackage.haskell.org/package/serverless-haskell-0.8.7	N/A
+https://docs.servant.dev/en/latest/links.html	N/A
+https://arxiv.org/abs/2607.10443	N/A
+https://ku-fpg.github.io/publications/	N/A
+https://zio.dev/zio-http/reference/server/	N/A
+https://ziohttp.com/introduction/	N/A
+https://zio.dev/guides/tutorials/build-a-restful-webservice/	N/A
+https://ziohttp.com/reference/overview/	N/A
+https://ziohttp.com/examples/http-client-server	N/A
+https://zio.dev/zio-http/reference/client/	N/A
+https://arxiv.org/abs/1711.09288	N/A
+https://hackage.haskell.org/package/bytestring	N/A
+https://hackage.haskell.org/package/streamly-bytestring-0.2.3	N/A
+https://hackage.haskell.org/package/streamly-core	N/A
+https://webspace.science.uu.nl/~4110161/pubs/csf2017.pdf	N/A
+https://index.scala-lang.org/armanbilge/fs2	N/A
+https://index.scala-lang.org/scalaz/scalaz-stream	N/A
+https://devon-miller.gitbook.io/test_private_book/intro_basics/error_handling	N/A
+https://scala-slick.org/doc/prerelease/dbio.html	N/A
+https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.12.2/fs2/io.html	N/A
+https://javadoc.io/static/co.fs2/fs2-docs_3/3.8.0/fs2/Stream.html	N/A
+https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.8-1580d81/fs2/io.html	N/A
+https://hackage.haskell.org/package/streaming-cassava	N/A
+https://hackage.haskell.org/package/cassava	N/A
+https://hackage.haskell.org/package/streaming-cassava-0.1.0.1	N/A
+https://hackage.haskell.org/package/Frames	N/A
+https://hackage.haskell.org/package/cassava-streams	N/A
+https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv-Streaming.html	N/A
+https://hackage.haskell.org/package/cassava-0.5.1.0/candidate/docs/Data-Csv-Streaming.html	N/A
+https://hackage.haskell.org/package/cassava-0.5.5.0	N/A
+https://hackage-content.haskell.org/package/csv-conduit-1.0.1.1/docs/Data-CSV-Conduit.html	N/A
+https://hackage.haskell.org/package/csv-conduit	N/A
+https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv-Incremental.html	N/A
+https://arxiv.org/abs/2307.03113	N/A
+https://index.scala-lang.org/sovt/spata	N/A
+https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.9.3	N/A
+https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.7.0?binary-version=_2.13	N/A
+https://hackage.haskell.org/package/xml-conduit	N/A
+https://hackage.haskell.org/package/xml-conduit-1.1.0	N/A
+https://hackage.haskell.org/package/xml-conduit-0.5.3.1	N/A
+https://hackage.haskell.org/package/xml-conduit-1.1.0.6	N/A
+https://www.stackage.org/package/html-conduit	N/A
+https://hackage.haskell.org/package/xml-conduit-1.2.3	N/A
+https://sources.debian.org/src/haskell-xml-conduit/1.8.0-4/xml-conduit.cabal/	N/A
+https://sources.debian.org/src/haskell-xml-conduit/1.9.1.3-2/xml-conduit.cabal	N/A
+https://archives.haskell.org/projects.haskell.org/HaXml/	N/A
+https://hackage.haskell.org/package/xml-conduit-1.9.1.3/candidate/docs/Text-XML-Stream-Parse.html	N/A
+https://hackage.haskell.org/package/html-conduit	N/A
+https://arxiv.org/abs/2011.03536	N/A
+https://webarchive.di.uminho.pt/wiki.di.uminho.pt/twiki/pub/Education/Archive/XMLtoSQLConversionToolAFPProject/icfp99.pdf	N/A
+https://martin.hoppenheit.info/blog/2023/xml-stream-processing-with-haskell/	N/A
+https://fs2-data.gnieh.org/documentation/xml/	N/A
+https://index.scala-lang.org/scalawilliam/xs4s	N/A
+https://www.scalawilliam.com/xml-streaming-for-scala/	publication	2015-02-04
+https://www.scala-lang.org/api/2.13.3/scala/io/index.html	N/A
+https://www.scala-lang.org/api/2.12.8/scala-xml/scala/xml/parsing/index.html	N/A
+https://sttp.softwaremill.com/_/downloads/en/v2.0.6/pdf/	N/A
+https://hackage.haskell.org/package/HDBC	N/A
+https://hackage.haskell.org/package/hasql	N/A
+https://hackage.haskell.org/package/sql-simple	N/A
+https://hackage.haskell.org/package/HDBC-1.1.5	N/A
+https://hackage.haskell.org/package/hasql-0.7.4/	N/A
+https://hackage-content.haskell.org/package/mysql-simple-0.3.0.0	N/A
+https://hackage-content.haskell.org/package/mysql-haskell-1.2.4	N/A
+https://selda.link/	N/A
+https://research.chalmers.se/en/publication/512620	publication	2019
+https://hackage.haskell.org/package/selda-0.1.8.0	N/A
+https://ipsj.ixsq.nii.ac.jp/records/20310	N/A
+https://arxiv.org/abs/2408.03170	N/A
+https://arxiv.org/abs/1102.4769	N/A
+https://www.baeldung.com/scala/doobie-intro	N/A
+https://typelevel.org/doobie/docs/02-Toolkit.html	N/A
+https://index.scala-lang.org/typelevel/doobie/artifacts/doobie-postgres/0.13.2	N/A
+https://www.scala-exercises.org/doobie/inserting_and_updating	N/A
+https://tpolecat.github.io/doobie-0.2.0/01-Introduction.html	N/A
+https://www.baeldung.com/scala/skunk-postgresql-driver	N/A
+https://scalac.io/wp-content/uploads/2021/01/Backend-tips-Scalac.pdf	N/A
+https://doc.rust-lang.org/std/keyword.async.html	N/A
+https://doc.rust-lang.org/stable/reference/expressions/await-expr.html	N/A
+https://zio.dev/reference/resource/scope/	N/A
+https://zio.dev/reference/	N/A
+https://zio.dev/zio-blocks/reference/resource-management/resource/	N/A
+https://zio.dev/reference/architecture/non-functional-requirements/	N/A
+https://zio.dev/reference/resource/scopedref/	N/A
+https://zio.dev/api/zio/scope	N/A
+https://typelevel.org/cats-effect/api/3.x/cats/effect/kernel/index.html	N/A
+https://virtuslab.com/blog/scala/comparing-effect-systems-in-scala-cats-effect-and-zio/	N/A
+https://www.javadoc.io/static/io.vavr/vavr/0.10.6/index.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=9653810f947b594e91fdbc906635e0872df4da3d&repid=rep1&type=pdf	N/A
+https://www.scalar-conf.com/talk/beyond-flatmap-is-kyo-the-future-of-scala-effects	N/A
+https://www.usenix.org/conference/osdi22/presentation/stamler	publication	2022
+https://index.scala-lang.org/zio/interop-cats	N/A
+https://jokerconf.com/en/archive/2021/talks/10007539-scala-war-of-effects-zio-vs-cats-effect/	N/A
+https://degoes.net/articles/zio-2.0	N/A
+https://www.classcentral.com/index.php/subject/zio	N/A
+https://old.arrow-kt.io/docs/0.12/core/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617297168/	N/A
+https://media.arrow-kt.io/	N/A
+https://media.arrow-kt.io/tags/fx/	N/A
+https://clojure.github.io/core.async/clojure.core.async.html	N/A
+https://clojure.github.io/core.async/reference.html	N/A
+https://clojure.github.io/core.async/rationale.html	N/A
+https://clojure.github.io/core.async/clojure.core.async.flow.html	N/A
+https://clojure.org/news/2013/06/28/clojure-clore-async-channels	N/A
+https://api.pageplace.de/preview/DT0400.9781783986675_A24356110/preview-9781783986675_A24356110.pdf	N/A
+https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/task-expressions	N/A
+https://fsharp.org/specs/language-spec/3.0/FSharpSpec-3.0-final.pdf	N/A
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasync.html	N/A
+https://courses.grainger.illinois.edu/cs421/su2009/lectures/26-Parallel.pdf	N/A
+https://www.mintlify.com/Effect-TS/effect-smol/reference/api-reference	N/A
+https://effect-ts.github.io/effect/docs/typeclass	N/A
+https://effect-ts.github.io/effect/docs/cli	N/A
+https://effect.website/docs/other/fp-ts	N/A
+https://gcanti.github.io/fp-ts/modules/Task.ts.html	N/A
+https://gcanti.github.io/fp-ts-fluture/modules/Future.ts.html	N/A
+https://dev.to/anthonyjoeseph/taskeither-vs-fluture-4e0n	N/A
+https://app.unpkg.com/fp-ts%401.8.1/files/README.md	N/A
+https://www.lambdalounge.org.uk/2021/01/18/practical-fp-in-typescript.html	N/A
+https://icfp17.sigplan.org/details/hope-2017-talks/1/Invited-Talk-Semantics-of-Effect-Systems-by-Graded-Monads	N/A
+https://streamly.composewell.com/streamly-0.11.0/Tutorials/streams-as-loops.html	N/A
+https://www.asaj.org/papers/csl11.pdf	N/A
+https://hackage.haskell.org/packages/archive/conduit/0.0.4/doc/html/Data-Conduit.html	N/A
+https://hackage-content-origin.haskell.org/package/conduit-1.3.1.2	N/A
+https://hackage-content-origin.haskell.org/package/conduit-1.2.4/docs/doc-index-C.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/libraries/base-4.21.1.0-bcb3/GHC-IO.html	N/A
+https://hackage.haskell.org/package/http-conduit	N/A
+https://hackage.haskell.org/package/http-conduit-2.3.0	N/A
+https://hackage-content-origin.haskell.org/package/http-conduit-2.3.1/docs/Network-HTTP-Client-Conduit.html	N/A
+https://hackage-origin.haskell.org/package/http-client-0.4.21	N/A
+https://hackage.haskell.org/package/http-conduit-2.2.2.1/docs	N/A
+https://hackage.haskell.org/package/http-conduit-1.9.2.1/docs	N/A
+https://hackage.haskell.org/package/http-conduit-2.1.0/docs	N/A
+https://hackage.haskell.org/package/http-conduit-2.3.2	N/A
+https://hackage.haskell.org/package/webapp-0.3.6	N/A
+https://www.researchgate.net/publication/224231906_Warp_A_Haskell_web_server	N/A
+https://hackage.haskell.org/package/twain	N/A
+https://hackage.haskell.org/package/network-2.3/docs/Network.html	N/A
+https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket-ByteString.html	N/A
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/libraries/network/Network-Socket.html	N/A
+https://lean-lang.org/papers/do.pdf	N/A
+https://research.tudelft.nl/en/publications/modal-%CE%BC-calculus-for-free-in-agda/	publication	2024
+https://repository.tudelft.nl/record/uuid%3Ae0503427-80ad-478b-ac9c-c2076949e689	publication	2024
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/System.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Event.html	N/A
+https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Event.html	N/A
+https://arxiv.org/abs/2010.13432	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/base-4.22.0.0-dbdd/GHC-IO-Handle.html	N/A
+https://mmhaskell.com/blog/2022/5/16/bufferingplease-wait	N/A
+https://www.cmi.ac.in/~spsuresh/teaching/prgh19/lectures/lecture17.pdf	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/libraries/base-4.5.1.0/Control-Concurrent-MVar.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/stm.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/stm.html	N/A
+https://www.schoolofhaskell.com/user/alexanderaa/stm-examples	N/A
+https://www.cs.washington.edu/education/courses/549/07wi/files/stm.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Exception-Base.html	N/A
+https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Utils-Exception.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/libraries/ghc-9.14.0.20251128-1ddb/GHC-Utils-Exception.html	N/A
+https://haskell.org/definition/ffi/sec-primitive.html	N/A
+https://hackage.haskell.org/package/process-1.2.0.0/docs/System-Process.html	N/A
+https://pdxscholar.library.pdx.edu/open_access_etds/499/	N/A
+https://hackage.haskell.org/package/serialise	N/A
+https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Tutorial.html	N/A
+https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Encoding.html	N/A
+https://hackage.haskell.org/package/cborg	N/A
+https://hackage.haskell.org/package/binary-serialise-cbor	N/A
+https://hackage.haskell.org/package/serialise-0.2.2.0	N/A
+https://hackage-content.haskell.org/package/cborg-0.2.10.0/docs/Codec-CBOR.html	N/A
+https://hackage.haskell.org/package/cborg-json	N/A
+https://citeseerx.ist.psu.edu/document?doi=19d9fb03cc0e9747b1208535cbe2751749b39dac&repid=rep1&type=pdf	N/A
+https://hackage.haskell.org/package/aeson	N/A
+https://hackage-content-origin.haskell.org/package/aeson-2.3.0.0	N/A
+https://hackage.haskell.org/package/aeson/docs/Data-Aeson.html	N/A
+https://hackage-content-origin.haskell.org/package/aeson-2.2.0.0	N/A
+https://archives.haskell.org/code.haskell.org/binary/	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html	N/A
+https://hackage.haskell.org/package/fast-logger	N/A
+https://hackage.haskell.org/package/monad-logger-syslog	N/A
+https://hackage-content.haskell.org/package/hslogger-1.3.2.0/docs/System-Log-Logger.html	N/A
+https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/System-Log-FastLogger-Internal.html	N/A
+https://hackage.haskell.org/package/katip-0.3.1.4/docs/doc-index.html	N/A
+https://hackage-content.haskell.org/package/katip-0.8.8.3/docs/doc-index-All.html	N/A
+https://www.stackage.org/lts-22.44/package/katip-0.8.8.2	N/A
+https://kowainik.github.io/projects/co-log	N/A
+https://hackage.haskell.org/package/fast-logger/docs/System-Log-FastLogger.html	N/A
+https://hackage.haskell.org/package/fast-logger-3.2.0/docs	N/A
+https://hackage.haskell.org/package/fast-logger-3.0.0/docs	N/A
+https://hackage.haskell.org/package/fast-logger-2.4.17/docs	N/A
+https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/src/System.Log.FastLogger.FileIO.html	N/A
+https://hackage.haskell.org/package/temporary-1.1/docs/src/System-IO-Temp.html	N/A
+https://hackage-content.haskell.org/package/extra-1.8/docs/src/System.IO.Extra.html	N/A
+https://hackage.haskell.org/package/fsnotify	N/A
+https://hackage-content.haskell.org/package/fsnotify-0.4.3.0/docs/System-FSNotify-Devel.html	N/A
+https://hackage.haskell.org/package/temporary/docs/src/System.IO.Temp.html	N/A
+https://downloads.haskell.org/ghc/latest/docs/libraries/Cabal-3.16.0.0-d85b/Distribution-Simple-Utils.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/ghc-8.4.4/FileCleanup.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/Cabal-1.24.2.0/Distribution-Simple-Utils.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/Cabal-2.0.0.2/Distribution-Simple-Utils.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/Cabal-1.12.0/Distribution-Simple-Utils.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/Cabal-3.14.1.0-be50/Distribution-Simple-Utils.html	N/A
+https://hackage.haskell.org/package/Cabal-ide-backend-1.23.0.0/docs/Distribution-Simple-Utils.html	N/A
+https://hackage.haskell.org/package/bytestring-0.10.0.0	N/A
+https://hackage-content.haskell.org/package/bytestring-0.10.12.0/docs/Data-ByteString.html	N/A
+https://hackage.haskell.org/package/bytestring-0.10.2.0	N/A
+https://hackage-content.haskell.org/package/bytestring-0.12.1.0/docs/Data-ByteString-Char8.html	N/A
+https://hackage.haskell.org/package/utf8-string/docs/Data-ByteString-UTF8.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/bytestring-0.10.4.0/Data-ByteString.html	N/A
+https://hackage-content.haskell.org/package/bytestring-0.12.2.0/docs/Data-ByteString-Internal.html	N/A
+https://hackage.haskell.org/package/bytestring/docs/Data-ByteString.html	N/A
+https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/Data-ByteString.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/bytestring-0.9.1.10/Data-ByteString.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-IO-Encoding.html	N/A
+https://downloads.haskell.org/~ghc/latest/docs/libraries/text-2.1.3-075e/Data-Text-Encoding.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-IO-Encoding-Types.html	N/A
+https://hackage.haskell.org/package/bytestring-encoding/docs/Data-ByteString-Encoding.html	N/A
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Encoding.html	N/A
+https://hackage.haskell.org/package/optparse-applicative	N/A
+https://hackage.haskell.org/package/optparse-applicative-0.14.0.0	N/A
+https://hackage-content-origin.haskell.org/package/optparse-applicative-0.15.1.0	N/A
+https://hackage.haskell.org/package/optparse-applicative-0.5.0	N/A
+https://hackage.haskell.org/package/optparse-applicative-0.12.1.0	N/A
+https://hackage-content.haskell.org/package/optparse-applicative-dex-1.0.1/docs/Options-Applicative-Dex.html	N/A
+https://hackage-content.haskell.org/package/cmdargs-0.1/src/cmdargs.htm	N/A
+https://hackage-content.haskell.org/package/optparse-applicative-0.16.0.0/docs/doc-index-B.html	N/A
+https://packages.debian.org/trixie/source/haskell-ansi-terminal	N/A
+https://hackage.haskell.org/package/ansi-terminal-0.6.2.2	N/A
+https://hackage.haskell.org/package/terminal	N/A
+https://sources.debian.org/src/haskell-ansi-terminal/1.1.5-1/README.md	N/A
+https://www.cse.sc.edu/~mgv/csce330f22/haskell/Haskell_wiki.pdf	N/A
+https://mail.haskell.org/pipermail/beginners/2010-March/003692.html	N/A
+https://hackage.haskell.org/package/WAVE/docs/Data-WAVE.html	N/A
+https://hackage-search.serokell.io/viewfile/wahsp-0.2/Web/Audio.hs	N/A
+https://web.cecs.pdx.edu/~mpj/pubs/plos07.html	N/A
+https://hackage.haskell.org/package/usb-1.3.0.6	N/A
+https://hackage.haskell.org/package/usb-safe-0.8	N/A
+https://hackage.haskell.org/package/usb-safe-0.4	N/A
+https://hackage.haskell.org/package/usb-0.3.0.1	N/A
+https://hackage.haskell.org/package/bindings-libusb	N/A
+https://hackage.haskell.org/package/ls-usb	N/A
+https://hackage.haskell.org/package/usb-enumerator	N/A
+https://hackage.haskell.org/package/serial	N/A
+https://hackage.haskell.org/package/linux-evdev/docs	N/A
+https://hackage.haskell.org/package/linux-evdev/docs/doc-index.html	N/A
+https://hackage.haskell.org/package/hsI2C-0.1.3	N/A
+https://hackage-content.haskell.org/package/evdev-2.3.1.2/docs/Evdev.html	N/A
+https://hackage.haskell.org/package/hpio-0.8.0.1	N/A
+https://hackage-content.haskell.org/package/evdev-2.3.1.2/docs/src/Evdev.html	N/A
+https://hackage.haskell.org/package/gpio	N/A
+https://hackage.haskell.org/package/i2c	N/A
+https://hackage.haskell.org/package/ftdi-0.2	N/A
+https://hackage.haskell.org/package/ftdi-0.3.0.0/docs	N/A
+https://hackage-content.haskell.org/package/ftdi-0.3.0.4/docs/System-FTDI.html	N/A
+https://hackage-content.haskell.org/package/ftdi-0.3.0.4/docs/doc-index.html	N/A
+https://hackage.haskell.org/package/midi	N/A
+https://hackage.haskell.org/package/alsa-seq	N/A
+https://hackage.haskell.org/package/alsa-midi-0.4.0.1/docs	N/A
+https://hackage.haskell.org/package/alsa-gui	N/A
+https://hackage.haskell.org/package/RtMidi	N/A
+https://hackage-content.haskell.org/package/pipes-2.4.0	N/A
+https://hackage.haskell.org/package/pipes-parse	N/A
+https://hackage.haskell.org/package/pipes-bytestring	N/A
+https://packages.debian.org/source/sid/mips64el/misc/haskell-pipes	N/A
+https://sources.debian.org/src/haskell-pipes/4.3.14-1	N/A
+https://hackage.haskell.org/packages/archive/pipes/	N/A
+https://hackage-content.haskell.org/package/pipes-4.3.16	N/A
+https://hackage-origin.haskell.org/package/conduit-1.3.0/docs/Data-Conduit-Combinators-Stream.html	N/A
+https://packages.debian.org/source/stable/haskell-conduit	N/A
+https://packages.debian.org/source/bookworm/haskell-conduit	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1031858.html	N/A
+https://hackage.haskell.org/package/streamly-0.2.0	N/A
+https://hackage.haskell.org/package/streamly-0.8.3	N/A
+https://docs.min.io/aistor/developers/sdk/haskell/	publication	2025-10-17
+https://docs.min.io/aistor/developers/sdk/haskell/api/	publication	2025-10-17
+https://github.com/brendanhay/amazonka	N/A
+https://www.stackage.org/lts-2.22/package/amazonka-s3-0.3.6	N/A
+https://repology.org/project/haskell%3Aamazonka-s3-streaming/packages	N/A
+https://tech.freckle.com/2023/09/22/using-amazonka-2-0/	publication	2023-09-22
+https://hackage.haskell.org/package/amazonka-s3-1.6.1	N/A
+https://gitlab.ifi.lmu.de/uni2work/haskell/minio-hs/-/blob/v1.5.1/minio-hs.cabal?ref_type=tags	N/A
+https://hackage.haskell.org/package/minio-hs/docs/Network-Minio-S3API.html	N/A
+https://hackage.haskell.org/package/minio-hs/docs/Network-Minio.html	N/A
+https://hackage.haskell.org/package/minio-hs-1.0.1/docs/Network-Minio.html	N/A
+https://hackage.haskell.org/package/google-cloud-storage-1.1.0.0	N/A
+https://min-io.cn/docs/minio/linux/developers/haskell/minio-haskell.html	N/A
+https://min-io.cn/docs/minio/linux/developers/haskell/API.html	N/A
+https://hackage.haskell.org/package/hS3-0.1	N/A
+https://hackage.haskell.org/package/hS3-0.3	N/A
+https://hackage.haskell.org/package/amazonka-s3-1.0.0	N/A
+https://hackage.haskell.org/package/amazonka-s3-1.2.0.2	N/A
+https://hackage.haskell.org/package/amazonka-s3-1.3.3	N/A
+https://hackage.haskell.org/package/amqp	N/A
+https://hackage.haskell.org/package/hedis	N/A
+https://hackage.haskell.org/package/hask-redis-mux-0.1.0.0	N/A
+https://hackage-content.haskell.org/package/amqp-worker-2.0.1/candidate	N/A
+https://www.stackage.org/lts-6.1/package/amqp-0.13.1	N/A
+https://hackage.haskell.org/package/amqp-streamly	N/A
+https://hackage.haskell.org/package/redis	N/A
+https://hackage.haskell.org/package/redis-0.14.2	N/A
+https://hackage.haskell.org/package/kafka-client	N/A
+https://hackage.haskell.org/package/zeromq-haskell/docs/System-ZMQ.html	N/A
+https://hackage.haskell.org/package/zeromq3-haskell	N/A
+https://hackage-content.haskell.org/package/zeromq4-haskell-0.8.0/docs/System-ZMQ4.html	N/A
+https://hackage-content.haskell.org/package/zeromq4-haskell-0.8.0/docs/System-ZMQ4-Monadic.html	N/A
+https://hackage.haskell.org/package/zeromq3-haskell-0.2	N/A
+https://hackage.haskell.org/package/zeromq3-haskell-0.3.0	N/A
+https://hackage.haskell.org/package/zeromq3-haskell-0.3.1	N/A
+https://hackage.haskell.org/package/zeromq3-haskell-0.5.1	N/A
+https://zguide.zeromq.org/	N/A
+https://api.pageplace.de/preview/DT0400.9781449334451_A24456662/preview-9781449334451_A24456662.pdf	N/A
+https://hackage.haskell.org/package/zeromq4-haskell-0.6.4	N/A
+https://hackage.haskell.org/package/http-conduit-2.2.3	N/A
+https://hackage.haskell.org/package/http-conduit-1.8.2.1/docs	N/A
+https://hackage.haskell.org/package/websockets/docs/Network-WebSockets.html	N/A
+https://hackage.haskell.org/package/websockets-0.9.6.1/docs/Network-WebSockets.html	N/A
+https://hackage.haskell.org/package/websockets-0.3.1.0/docs/Network-WebSockets.html	N/A
+https://hackage.haskell.org/package/websockets-0.8.2.2/docs/Network-WebSockets.html	N/A
+https://hackage.haskell.org/package/wss-client/docs/Network-WebSockets-Client.html	N/A
+https://hackage-content.haskell.org/package/websockets-0.12.7.3/src/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-websockets/	N/A
+https://hackage.haskell.org/package/http-conduit-1.2.6/docs/Network-HTTP-Conduit.html	N/A
+https://hackage.haskell.org/package/http-conduit-1.2.0/docs/Network-HTTP-Conduit.html	N/A
+https://hackage.haskell.org/package/http-conduit-2.3.7.1/	N/A
+https://sources.debian.org/src/haskell-http-conduit/2.3.8-1/http-conduit.cabal	N/A
+https://hackage.haskell.org/package/servant	N/A
+https://hackage.haskell.org/package/servant-client	N/A
+https://hackage.haskell.org/package/servant-client-core-0.14.1	N/A
+https://hackage.haskell.org/package/servant-client-0.10/docs	N/A
+https://hackage.haskell.org/package/servant-client-0.6.1	N/A
+https://hackage.haskell.org/package/servant-client-0.9.1	N/A
+https://hackage.haskell.org/package/servant-client-0.4.2	N/A
+https://docs.servant.dev/en/latest/index.html	N/A
+https://docs.servant.dev/_/downloads/en/v0.7/pdf/	N/A
+https://docs.servant.dev/_/downloads/en/v0.14.1/pdf/	N/A
+https://hackage.haskell.org/package/wai/docs/Network-Wai-Internal.html	N/A
+https://hackage.haskell.org/package/wai-3.2.2/docs/Network-Wai.html	N/A
+https://packages.debian.org/source/stable/haskell-wai-middleware-static	N/A
+https://hackage-content.haskell.org/package/wai-extra-3.1.18/docs/Network-Wai-Middleware-Select.html	N/A
+https://hackage-content.haskell.org/package/wai-extra-3.1.18/docs/Network-Wai-Parse.html	N/A
+https://hackage-content.haskell.org/package/wai-middleware-catch-0.1	N/A
+https://packages.debian.org/source/stable/haskell-wai-cors	N/A
+https://hackage.haskell.org/package/graphql-client	N/A
+https://hackage.haskell.org/package/graphql-client-1.0.0	N/A
+https://hackage.haskell.org/package/morpheus-graphql-client	N/A
+https://hackage.haskell.org/package/graphql-0.1	N/A
+https://hackage.haskell.org/package/morpheus-graphql-server	N/A
+https://hackage.haskell.org/package/morpheus-graphql-0.6.2	N/A
+https://www.stackage.org/lts-17.4/package/graphql-client-1.1.0	N/A
+https://hackage.haskell.org/package/proto-lens	N/A
+https://hackage.haskell.org/package/http2-grpc-proto-lens	N/A
+https://hackage.haskell.org/package/protobuf	N/A
+https://hackage.haskell.org/package/proto3-wire	N/A
+https://hackage.haskell.org/package/protocol-buffers	N/A
+https://hackage.haskell.org/package/proto3-suite-0.9.4	N/A
+https://www.stackage.org/lts-10.3/package/proto-lens-0.2.2.0	N/A
+https://hackage.haskell.org/package/grpc-haskell-0.1.0	N/A
+https://hackage-content.haskell.org/package/proto3-wire-1.4.6/docs/Proto3-Wire-Decode.html	N/A
+https://hackage.haskell.org/package/grapesy	N/A
+https://hackage.haskell.org/package/capnp	N/A
+https://hackage.haskell.org/package/capnp/docs/Capnp-Tutorial.html	N/A
+https://hackage.haskell.org/package/capnp-0.6.0.0	N/A
+https://hackage.haskell.org/package/thrift	N/A
+https://hackage.haskell.org/package/capnp-0.3.0.0	N/A
+https://hackage.haskell.org/package/capnp-0.1.0.0	N/A
+https://hackage.haskell.org/package/capnp-0.8.0.0/candidate/docs/Capnp-Tutorial.html	N/A
+https://hackage.haskell.org/package/capnp-0.1.0.0/docs/src/Data.Capnp.Tutorial.html	N/A
+https://capnproto.org/rpc.html	N/A
+https://capnproto.org/cxxrpc.html	N/A
+https://hackage.haskell.org/package/proto-lens-0.4.0.0	N/A
+https://hackage.haskell.org/package/proto-lens-0.2.2.0	N/A
+https://hackage.haskell.org/package/proto-lens-0.7.0.0	N/A
+https://hackage.haskell.org/package/proto-lens-0.6.0.0	N/A
+https://hackage-content.haskell.org/package/proto-lens-0.7.1.6	N/A
+https://hackage.haskell.org/package/proto-lens-0.1.0.4	N/A
+https://hackage.haskell.org/package/proto-lens-0.3.1.0	N/A
+https://hackage.haskell.org/package/esqueleto	N/A
+https://hackage.haskell.org/package/esqueleto-0.2	N/A
+https://hackage.haskell.org/package/esqueleto-3.5.6.1	N/A
+https://hackage.haskell.org/package/persistent-1.1.5.1	N/A
+https://hackage.haskell.org/package/esqueleto-3.1.0	N/A
+https://hackage-content.haskell.org/package/persistent-2.17.1.0/docs/Database-Persist.html	N/A
+https://hackage-content-origin.haskell.org/package/persistent-2.10.1	N/A
+https://packages.debian.org/source/stable/haskell-esqueleto	N/A
+http://www.yesodweb.com/book/persistent	N/A
+https://haskell-beam.github.io/beam/user-guide/databases/	N/A
+https://hackage.haskell.org/package/opaleye-0.2	N/A
+https://hackage.haskell.org/package/opaleye-0.6.7006.1	N/A
+https://hackage.haskell.org/package/opaleye-0.6.7003.1	N/A
+https://hackage.haskell.org/package/opaleye-0.4.1.0	N/A
+https://hackage.haskell.org/package/esqueleto-2.5.3/docs/Database-Esqueleto.html	N/A
+https://hackage.haskell.org/package/esqueleto-2.4.1/docs/Database-Esqueleto.html	N/A
+https://hackage.haskell.org/package/esqueleto-3.0.0	N/A
+https://hackage.haskell.org/package/persistent-eventsource/docs	N/A
+https://hackage.haskell.org/package/esqueleto-3.5.8.0	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.5.0.3	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.2.0.1	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.4.0/docs	N/A
+https://hackage.haskell.org/package/zlib-conduit-0.2.0.1/docs	N/A
+https://hackage.haskell.org/package/tar	N/A
+https://hackage-content.haskell.org/package/tar-0.7.0.0/docs/Codec-Archive-Tar-Index.html	N/A
+https://hackage.haskell.org/package/tar-conduit/docs/Data-Conduit-Tar.html	N/A
+https://hackage.haskell.org/package/io-streams-1.3.6.0	N/A
+https://hackage.haskell.org/package/zlib	N/A
+https://hackage.haskell.org/package/zip-1.7.2	N/A
+https://hackage.haskell.org/package/zstd	N/A
+https://packages.debian.org/source/stable/haskell-zlib	N/A
+https://hackage.haskell.org/package/pipes-zlib-0.4.2	N/A
+https://hackage-content.haskell.org/package/zlib-0.7.1.1/docs/doc-index.html	N/A
+https://www.cs.columbia.edu/~sedwards/classes/2021/4995-fall/reports/gzip.pdf	N/A
+https://hackage.haskell.org/package/mtl-mhs	N/A
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/transformers-0.6.3.0-inplace/Control-Monad-Trans-Class.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/libraries/transformers-0.6.1.2-70e3/Control-Monad-Trans-Class.html	N/A
+https://hackage.haskell.org/package/transformers-0.6.3.0	N/A
+https://hackage.haskell.org/package/mtl-1.0	N/A
+https://hackage.haskell.org/package/polysemy-1.1.0.0	N/A
+https://hackage-content.haskell.org/package/effectful-core-2.2.2.1	N/A
+https://hackage-content-origin.haskell.org/package/in-other-words	N/A
+https://hackage.haskell.org/package/polysemy-0.2.0.0	N/A
+https://hackage.haskell.org/package/polysemy-0.1.2.1	N/A
+https://hackage.haskell.org/package/fused-effects-0.1.1.0	N/A
+https://hackage.haskell.org/package/fused-effects-0.3.0.0	N/A
+https://hackage.haskell.org/package/fused-effects-0.5.0.0	N/A
+https://hackage.haskell.org/package/fused-effects-1.1.0.0	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html	N/A
+https://hackage.haskell.org/package/resourcet-1.2.2	N/A
+https://www.stackage.org/lts-18.24/package/resourcet-1.2.4.3	N/A
+https://www.stackage.org/lts-6.35/package/resourcet-1.1.9	N/A
+https://www.stackage.org/lts-10.0/package/resourcet-1.1.10	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html	N/A
+https://hackage.haskell.org/package/streaming-bytestring-0.3.0	N/A
+https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6/docs	N/A
+https://hackage.haskell.org/package/streaming-bytestring-0.1.0.6/docs	N/A
+https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6	N/A
+https://hackage.haskell.org/package/streaming-bytestring-0.1.1.0	N/A
+https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0	N/A
+https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html	N/A
+https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2	N/A
+https://github.com/haskell-hvr/http-io-streams	N/A
+https://packages.ubuntu.com/source/jammy/armhf/haskell-io-streams	N/A
+https://hackage.haskell.org/package/io-streams-1.5.2.0/docs/System-IO-Streams.html	N/A
+https://hackage.haskell.org/package/http-types/docs/Network-HTTP-Types-URI.html	N/A
+https://hackage.haskell.org/package/http-types	N/A
+https://hackage.haskell.org/package/http-types/docs	N/A
+https://hackage.haskell.org/package/network-uri/docs/Network-URI.html	N/A
+https://hackage.haskell.org/package/http-types-0.12.3	N/A
+https://hackage.haskell.org/package/network-2.5.0.0/docs/Network-URI.html	N/A
+https://hackage-content.haskell.org/package/http-types-0.8.6	N/A
+https://hackage-content.haskell.org/package/http-link-header-1.2.3/docs/Network-HTTP-Link-Types.html	N/A
+https://hackage.haskell.org/package/network-uri-2.6.0.3	N/A
+https://hackage-content.haskell.org/package/http-types-0.6.2	N/A
+https://hackage-content.haskell.org/package/warp-3.4.8/docs/Network-Wai-Handler-Warp.html	N/A
+https://hackage-content.haskell.org/package/warp-3.4.12/docs/Network-Wai-Handler-Warp.html	N/A
+https://hackage.haskell.org/package/warp-3.3.23	N/A
+https://hackage.haskell.org/package/warp-3.3.29	N/A
+https://hackage.haskell.org/package/warp-3.2.18.1	N/A
+https://hackage.haskell.org/package/warp-3.0.9.1	N/A
+https://hackage.haskell.org/package/http-types-0.7.0	N/A
+https://hackage.haskell.org/package/http-types-0.3.0	N/A
+https://hackage.haskell.org/package/http-types-0.7.3.0.1	N/A
+https://hackage.haskell.org/package/http-types-0.12.1/docs	N/A
+https://www.stackage.org/package/http-types	N/A
+https://packages.fedoraproject.org/pkgs/ghc-http-types/ghc-http-types-doc	N/A
+https://hackage.haskell.org/package/network-2.2.1.8/docs/Network-URI.html	N/A
+https://hackage.haskell.org/package/network	N/A
+https://downloads.haskell.org/~ghc/6.4/docs/html/libraries/network/Network.URI.html	N/A
+https://www.haskell.org/hugs/pages/libraries/network/Network-URI.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/network-2.1.0.0/Network-URI.html	N/A
+https://hackage-content.haskell.org/package/uri-bytestring-0.4.0.1/docs/URI-ByteString.html	N/A
+https://www.stackage.org/lts-7.19/package/network-uri-2.6.1.0	N/A
+https://hackage.haskell.org/package/http-client	N/A
+https://hackage.haskell.org/package/HTTP	N/A
+https://hackage.haskell.org/package/http-client-0.4.26.2/docs/Network-HTTP-Client.html	N/A
+https://hackage.haskell.org/package/http-client-0.3.2/docs/Network-HTTP-Client.html	N/A
+https://hackage.haskell.org/package/http-client-0.4.1/docs/Network-HTTP-Client.html	N/A
+https://hackage.haskell.org/package/http-common	N/A
+https://hackage.haskell.org/package/http-common/docs/Network-Http-Types.html	N/A
+https://hackage.haskell.org/package/http-client-0.7.13.1	N/A
+https://hackage.haskell.org/package/http-client-0.7.7	N/A
+https://hackage.haskell.org/package/io-streams-http/docs/System-IO-Streams-HTTP.html	N/A
+https://hackage.haskell.org/package/cookie	N/A
+https://hackage.haskell.org/package/clientsession/docs/Web-ClientSession.html	N/A
+https://hackage-content.haskell.org/package/clientsession-0.8.0.1	N/A
+https://hackage.haskell.org/package/cookie-0.4.0.1/docs/Web-Cookie.html	N/A
+https://hackage.haskell.org/package/hoauth2	N/A
+https://hackage-content.haskell.org/package/clientsession-0.7.3	N/A
+https://hackage.haskell.org/package/happstack-clientsession-7.1.1	N/A
+https://hackage.haskell.org/package/happstack-clientsession-7.3.3	N/A
+https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-Browser.html	N/A
+https://hackage-content-origin.haskell.org/package/hoauth2-0.5.5.0	N/A
+https://hackage.haskell.org/package/http-client-tls	N/A
+https://hackage.haskell.org/package/http-client-tls-0.3.2	N/A
+https://hackage.haskell.org/package/http-client-tls-0.3.5.2	N/A
+https://hackage.haskell.org/package/http-client-tls-0.3.4.1	N/A
+https://hackage.haskell.org/package/http-client-tls-0.3.5	N/A
+https://packages.debian.org/trixie/source/haskell-http-client-tls	N/A
+https://hackage-content.haskell.org/package/http-client-tls-0.3.6.4/docs/doc-index.html	N/A
+https://www.stackage.org/package/http-client-tls	N/A
+https://www.stackage.org/lts-24.3/package/http-client-tls	N/A
+https://hackage.haskell.org/package/http-client-tls-0.2.1.2	N/A
+https://hackage-content-origin.haskell.org/package/tls-1.4.1	N/A
+https://hackage.haskell.org/package/tls-1.3.9	N/A
+https://hackage.haskell.org/package/tls-1.2.11	N/A
+https://hackage.haskell.org/package/tls-1.0.3	N/A
+https://hackage.haskell.org/package/tls-1.7.1	N/A
+https://hackage-content-origin.haskell.org/package/tls-0.8.1	N/A
+https://hackage.haskell.org/package/tls-1.3.10	N/A
+https://www.stackage.org/package/tls	N/A
+https://hackage.haskell.org/package/cryptostore	N/A
+https://hackage-content.haskell.org/package/tls-2.1.10/docs/src/Network.TLS.Parameters.html	N/A
+https://hackage.haskell.org/package/cryptostore-0.3.1.0	N/A
+https://hackage-content.haskell.org/package/crypton-connection-0.4.4/docs/src/Network.Connection.Types.html	N/A
+https://haskell.github.io/security-advisories/by-packages.html	N/A
+https://hackage.haskell.org/package/connection	N/A
+https://hackage.haskell.org/package/connection/docs/Network-Connection.html	N/A
+https://hackage.haskell.org/package/connection/docs	N/A
+https://hackage.haskell.org/package/x509-store	N/A
+https://hackage.haskell.org/package/conduit-connection	N/A
+https://hackage.haskell.org/package/network-connection	N/A
+https://hackage.haskell.org/package/x509-validation/docs/Data-X509-Validation.html	N/A
+https://hackage.haskell.org/package/x509-validation-1.4.6	N/A
+https://hackage.haskell.org/package/x509-validation-1.4.6/docs/Data-X509-Validation.html	N/A
+https://hackage.haskell.org/package/x509/docs/Data-X509.html	N/A
+https://hackage.haskell.org/package/connections	N/A
+https://downloads.haskell.org/ghc/6.0/docs/html/network/doc-index-vT.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/network/src/Network-Socket.html	N/A
+https://hackage.haskell.org/package/smtp-mail-0.1.0.0	N/A
+https://hackage-content.haskell.org/package/MissingH-1.6.0.2/docs/Network-Email-Sendmail.html	N/A
+https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/Network-HaskellNet-IMAP.html	N/A
+https://hackage-content.haskell.org/package/HaskellNet-0.6.2/docs/src/Network.HaskellNet.SMTP.html	N/A
+https://hackage-content.haskell.org/package/mime-mail-0.4.14	N/A
+https://hackage.haskell.org/package/HaskellNet-SSL-0.3.0.0/docs	N/A
+https://hackage.haskell.org/package/HaskellNet-0.6.2/docs	N/A
+https://hackage.haskell.org/package/HaskellNet-0.6.0.2/docs	N/A
+https://hackage.haskell.org/package/HaskellNet-SSL-0.3.4.4/docs	N/A
+https://hackage.haskell.org/package/HaskellNet-SSL-0.3.1.0/docs	N/A
+https://www.stackage.org/lts-22.10/package/HaskellNet-0.6.1.2	N/A
+https://hackage.haskell.org/package/smtp-mail/docs/Network-Mail-SMTP.html	N/A
+https://hackage.haskell.org/package/imap-0.3.0.0	N/A
+https://hackage.haskell.org/package/ismtp	N/A
+https://hackage.haskell.org/package/imap-0.3.0.8/docs	N/A
+https://hackage.haskell.org/package/smtp-mail-ng/docs	N/A
+https://hackage.haskell.org/package/hsmtpclient/docs	N/A
+https://hackage.haskell.org/package/hxt	N/A
+https://hackage.haskell.org/package/hxt-9.3.1.13	N/A
+https://hackage.haskell.org/package/hxt-9.3.1.0	N/A
+https://hackage-content.haskell.org/package/xml-conduit-1.10.1.0/docs/Text-XML.html	N/A
+https://hackage.haskell.org/package/hxt-9.1.4	N/A
+https://hackage.haskell.org/package/hxt-9.0.1	N/A
+https://hackage.haskell.org/package/hxt-9.1.5	N/A
+https://hackage.haskell.org/package/xml-conduit-1.9.1.1	N/A
+https://hackage.haskell.org/package/xml-conduit-1.9.0.0	N/A
+https://hackage.haskell.org/package/xml-conduit-1.9.1.3	N/A
+https://hackage.haskell.org/package/xml-conduit-1.7.0	N/A
+https://hackage.haskell.org/package/xml-conduit-1.6.0	N/A
+https://packages.guix.gnu.org/packages/ghc-html-conduit	N/A
+https://packages.debian.org/trixie/doc/libghc-html-conduit-doc	N/A
+https://hackage.haskell.org/package/blaze-html	N/A
+https://hackage.haskell.org/package/hxt/docs/Text-XML-HXT-Core.html	N/A
+https://hackage.haskell.org/package/blaze-html-0.1/docs	N/A
+https://hackage.haskell.org/package/blaze-html/docs	N/A
+https://hackage.haskell.org/package/hxt/docs	N/A
+https://hackage.haskell.org/package/blaze-html-0.3.0.1/docs/Text-Blaze.html	N/A
+https://hackage.haskell.org/package/blaze-html-0.4.1.4/docs/Text-Blaze-Internal.html	N/A
+https://hackage.haskell.org/package/tagsoup	N/A
+https://hackage.haskell.org/package/html-conduit/docs	N/A
+https://hackage.haskell.org/package/tagsoup-ht/docs	N/A
+https://hackage-content.haskell.org/package/tagsoup-0.6/src/tagsoup.htm	N/A
+https://hackage.haskell.org/package/html-conduit-1.3.1	N/A
+https://hackage.haskell.org/package/tagsoup-0.1/docs	N/A
+https://hackage.haskell.org/package/tagsoup-0.14.1	N/A
+https://hackage.haskell.org/package/blaze-markup/docs/Text-Blaze.html	N/A
+https://hackage.haskell.org/package/blaze-markup/docs	N/A
+https://packages.debian.org/source/stable/haskell-blaze-html	N/A
+https://hackage.haskell.org/package/blaze-html-0.9.0.0	N/A
+https://packages.fedoraproject.org/pkgs/ghc-blaze-html/ghc-blaze-html-doc	N/A
+https://hackage.haskell.org/package/ihp-hsx	N/A
+https://packages.fedoraproject.org/pkgs/ghc-blaze-markup/ghc-blaze-markup-doc	N/A
+https://hackage.haskell.org/package/ihp-hsx-1.1.0	N/A
+https://www.stackage.org/package/blaze-html	N/A
+https://hackage.haskell.org/package/tagsoup/docs/Text-HTML-TagSoup.html	N/A
+https://hackage.haskell.org/package/tagsoup/docs/doc-index.html	N/A
+https://hackage.haskell.org/package/hxt-tagsoup	N/A
+https://hackage.haskell.org/package/fast-tagsoup	N/A
+https://hackage.haskell.org/package/configurator-0.3.0.0	N/A
+https://hackage.haskell.org/package/config-ini	N/A
+https://hackage.haskell.org/package/ConfigFile/docs/Data-ConfigFile.html	N/A
+https://hackage.haskell.org/package/tini	N/A
+https://hackage.haskell.org/package/config-ini-0.2.7.0	N/A
+https://hackage.haskell.org/package/config-ini/docs	N/A
+https://hackage.haskell.org/package/config-ini-0.2.1.0	N/A
+https://hackage.haskell.org/packages/tag/csv	N/A
+https://hackage.haskell.org/package/cassava/docs	N/A
+https://hackage.haskell.org/package/cassava-0.5.5.0/docs	N/A
+https://hackage-content.haskell.org/package/cassava-0.4.1.0	N/A
+https://hackage.haskell.org/package/cassava-0.2.1.2/docs	N/A
+https://hackage-content.haskell.org/package/cassava-0.5.4.0/docs/doc-index.html	N/A
+https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv.html	N/A
+https://hackage.haskell.org/package/aeson-yaml	N/A
+https://hackage.haskell.org/package/yaml	N/A
+https://hackage.haskell.org/package/cereal	N/A
+https://hackage.haskell.org/package/cereal/docs	N/A
+https://hackage.haskell.org/package/cassava-megaparsec	N/A
+https://hackage.haskell.org/package/HsYAML	N/A
+https://hackage.haskell.org/package/random	N/A
+https://hackage.haskell.org/package/random-source	N/A
+https://hackage.haskell.org/package/entropy-0.4.1.6	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/random/System-Random.html	N/A
+https://hackage-content.haskell.org/package/mwc-random-0.15.3.0/docs/System-Random-MWC.html	N/A
+https://hackage.haskell.org/package/entropy-0.4.1.9	N/A
+https://hackage-content.haskell.org/package/random-fu-0.3.0.1/docs/Data-Random.html	N/A
+https://sources.debian.org/src/haskell-random/1.1-7/System/Random.hs	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/random-1.0.0.0/System-Random.html	N/A
+https://hackage.haskell.org/package/random-1.1/docs/System-Random.html	N/A
+https://hackage.haskell.org/package/random-1.1	N/A
+https://www.haskell.org/hugs/pages/libraries/base/System-Random.html	N/A
+https://downloads.haskell.org/~ghc/6.0/docs/html/base/System.Random.html	N/A
+https://hackage.haskell.org/package/mwc-random	N/A
+https://hackage.haskell.org/package/entropy-0.4.1.11	N/A
+https://hackage.haskell.org/package/fused-effects-mwc-random	N/A
+https://hackage.haskell.org/package/crypto-random/docs/src/Crypto-Random-Entropy.html	N/A
+https://hackage.haskell.org/package/tf-random	N/A
+https://hackage.haskell.org/package/async-2.2.5/candidate	N/A
+https://hackage.haskell.org/package/async-pool	N/A
+https://hackage.haskell.org/package/distributed-process-async	N/A
+https://hackage.haskell.org/package/hasql-transaction-io-0.2.7.0	N/A
+https://hackage.haskell.org/package/epoll-0.2.2/docs	N/A
+https://hackage.haskell.org/package/epoll-0.2.1	N/A
+https://hackage.haskell.org/package/blockio-uring-0.1.0.2	N/A
+https://hackage-content.haskell.org/package/posix-api-0.7.3.0/docs/Linux-Epoll.html	N/A
+https://repository.gatech.edu/server/api/core/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/content	N/A
+https://hackage-content.haskell.org/package/unix-compat-0.7.4/docs/System-PosixCompat.html	N/A
+https://hackage.haskell.org/package/unix-compat-0.7	N/A
+https://www.stackage.org/package/unix-compat	N/A
+https://hackage.haskell.org/package/unix-compat-0.4.0.0/docs	N/A
+https://hackage.haskell.org/package/unix-2.8.0.0/changelog	N/A
+https://hackage.haskell.org/package/hpath-io-0.14.2	N/A
+https://hackage.haskell.org/package/file-io	N/A
+https://hackage.haskell.org/package/hpath-posix-0.13.2	N/A
+https://hackage.haskell.org/package/hpath-io/docs	N/A
+https://hackage.haskell.org/package/Z-IO-0.1.3.0/docs/Z-IO-FileSystem.html	N/A
+https://hackage.haskell.org/package/FileSystem/docs	N/A
+https://hackage.haskell.org/package/posix-paths	N/A
+https://hackage.haskell.org/package/hpath-0.9.2/docs/System-Posix-FilePath.html	N/A
+https://hackage.haskell.org/package/filepath-1.4.100.0	N/A
+https://hackage.haskell.org/package/Z-IO-0.7.0.0	N/A
+https://hackage.haskell.org/package/Z-IO/docs	N/A
+https://hackage.haskell.org/package/Z-IO-0.6.2.0/docs	N/A
+https://hackage.haskell.org/package/Z-IO-0.6.3.0/docs	N/A
+https://hackage.haskell.org/package/Z-IO-0.7.0.0/docs	N/A
+https://hackage.haskell.org/package/Z-IO-0.6.4.0/docs	N/A
+https://hackage.haskell.org/package/Z-IO-0.7.1.0/docs	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.Z-IO	N/A
+https://hackage.haskell.org/package/base-compat	N/A
+https://hackage.haskell.org/package/relude	N/A
+https://hackage.haskell.org/package/protolude	N/A
+https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/Relude.html	N/A
+https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/doc-index-I.html	N/A
+https://hackage.haskell.org/package/relude-0.2.0/candidate	N/A
+https://hackage.haskell.org/package/classy-prelude	N/A
+https://hackage.haskell.org/package/classy-prelude/docs/ClassyPrelude.html	N/A
+https://hackage.haskell.org/package/classy-prelude-0.12.3/docs	N/A
+https://hackage.haskell.org/package/classy-prelude-0.5.4/docs	N/A
+https://packages.debian.org/trixie/doc/libghc-classy-prelude-doc	N/A
+https://www.stackage.org/lts-15.4/package/classy-prelude-1.5.0	N/A
+https://www.stackage.org/lts-10.2/package/classy-prelude-1.3.1	N/A
+https://hackage.haskell.org/package/brick-0.25	N/A
+https://hackage.haskell.org/package/brick-0.20	N/A
+https://hackage.haskell.org/package/brick-1.8	N/A
+https://hackage.haskell.org/package/brick-1.5	N/A
+https://hackage-content-origin.haskell.org/package/brick-0.14	N/A
+https://hackage-content.haskell.org/package/brick-2.9	N/A
+https://hackage-content-origin.haskell.org/package/brick-0.38	N/A
+https://hackage-content-origin.haskell.org/package/brick-0.52	N/A
+https://hackage-content.haskell.org/package/vty-6.3/docs/src/Graphics.Vty.html	N/A
+https://hackage-content.haskell.org/package/vty-6.4	N/A
+https://jtdaugherty.github.io/vty-ui/manuals/vty-ui-users-manual-1.8.pdf	N/A
+https://hackage.haskell.org/package/vty-ui	N/A
+https://hackage.haskell.org/package/gtk2hs-buildtools	N/A
+https://try.haskell.org/projects.haskell.org/gtk2hs/docs/gtk2hs-docs-0.9.11/index.html	N/A
+https://hackage-content-origin.haskell.org/package/glib-0.13.8.0	N/A
+https://book.realworldhaskell.org/read/gui-programming-with-gtk-hs.html	N/A
+https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.2.1	N/A
+https://hackage.haskell.org/package/gtk2hs-buildtools-0.13.11.0	N/A
+https://hackage.haskell.org/package/wx-0.13.2	N/A
+https://hackage.haskell.org/package/wxcore-0.10.6/docs/index.html	N/A
+https://hackage.haskell.org/package/wxcore-0.11.1.2/docs/index.html	N/A
+https://hackage.haskell.org/package/wxcore	N/A
+https://hackage.haskell.org/package/wxcore-0.10.5	N/A
+https://hackage.haskell.org/package/wxcore-0.13.2.3	N/A
+https://hackage.haskell.org/package/wxcore-0.12.1.7	N/A
+https://sourceforge.net/projects/wxhaskell/files/	N/A
+https://www.youtube.com/playlist?list=PLYItvall0TqLlCPN9vbDIc8FAKhG-RfbM	N/A
+https://www.youtube.com/playlist?list=PLYItvall0TqLBLt6oXFVBaloU7-xZsV-v	N/A
+https://www.youtube.com/playlist?list=PLYItvall0TqJwLa9rY-bT_B9-EmtaiPT0	N/A
+https://www.youtube.com/playlist?list=PLYItvall0TqJ1jteUbGOHfBycg5NM9thq	N/A
+https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp	N/A
+https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/	N/A
+https://docs.idris.org/_/downloads/en/v0.9.20/pdf/	N/A
+https://ocaml.org/p/yocaml/2.7.0/effect.html	N/A
+https://ocaml.org/manual/5.4/api/Stdlib.Effect.html	N/A
+https://lrodero.github.io/cats-effect/docs/getting-started	N/A
+https://patryshev.com/books/GregoryMeredith.pdf	N/A
+https://arxiv.org/abs/2307.12187	N/A
+https://reference-global.com/download/book/9789365896534.pdf	N/A
+https://link.springer.com/book/10.1007/978-3-319-46481-7	N/A
+https://alvinalexander.com/scala/functional-programming-simplified-book-scala-3/	N/A
+https://alvinalexander.com/scala/learn-functional-programming-book/	N/A
+https://zio.dev/guides/	N/A
+https://alvinalexander.com/scala/fp-book/learning-functional-programming-in-scala/	N/A
+https://arxiv.org/abs/1007.3023	N/A
+https://arxiv.org/abs/1602.03598	N/A
+https://arxiv.org/abs/1704.03095	N/A
+https://hackage.haskell.org/package/process-1.1.0.1/docs/System-Process.html	N/A
+https://monix.io/	N/A
+https://index.scala-lang.org/monix/monix-bio	N/A
+https://javadoc.io/static/org.scalaz/scalaz_2.12/7.1.12/scalaz/Monad.html	N/A
+https://www.baeldung.com/scala/monix	N/A
+https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M22/scalaz/Monad.html	N/A
+https://arxiv.org/abs/1003.0585	N/A
+https://www.purescript.org/	N/A
+https://discourse.purescript.org/t/how-to-read-liftaff-signature/3782	N/A
+https://trepo.tuni.fi/bitstream/handle/10024/156847/NikoP%C3%A4rssinen.pdf?isAllowed=y&sequence=2	N/A
+https://github.com/purescript/documentation/blob/master/language/Effect.md	N/A
+https://pursuit.purescript.org/packages/purescript-effect/docs/Effect.Class	N/A
+https://pursuit.purescript.org/packages/purescript-aff/docs/Effect.Aff	N/A
+https://pursuit.purescript.org/packages/purescript-aff/docs/Effect.Aff.Class	N/A
+https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS.Aff	N/A
+https://pursuit.purescript.org/packages/purescript-console/docs/Effect.Console	N/A
+https://github.com/purescript/purescript-aff	N/A
+https://www.jsdelivr.com/package/npm/%40purescript/aff	N/A
+https://github.com/purescript/documentation/blob/master/guides/Eff.md	N/A
+https://github.com/purescript/purescript-eff	N/A
+https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS	N/A
+https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS.Sync	N/A
+https://pursuit.purescript.org/packages/purescript-random/docs/Effect.Random	N/A
+https://pursuit.purescript.org/packages/purescript-avar/docs/Control.AVar	N/A
+https://github.com/slamdata/purescript-io	N/A
+https://github.com/purescript/purescript-aff/blob/master/README.md	N/A
+https://docs.rs/crate/effect-rs/latest/source/README.md	N/A
+https://docs.rs/stillwater/latest/stillwater/	N/A
+https://docs.rs/effectful/latest/effectful/kernel/reader/index.html	N/A
+https://docs.rs/deep_causality_file/latest/deep_causality_file/	N/A
+https://docs.rs/functype/latest/functype/	N/A
+https://docs.rs/functype-io/latest/functype_io/	N/A
+https://repository.tudelft.nl/file/File_48b620db-13e0-4102-960e-a5e6272b7843?preview=1	N/A
+https://atnos-org.github.io/eff/org.atnos.site.Installation.html	N/A
+https://fstar-lang.org/tutorial/book/part4/part4.html	N/A
+https://old.arrow-kt.io/docs/0.12/apidocs/arrow-fx/arrow.fx.extensions/index.html	N/A
+https://www.msec.it/blog/introducing-kio/	N/A
+https://livebook.manning.com/book/functional-programming-in-kotlin/part-4	N/A
+https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/	N/A
+https://klibs.io/project/Kotlin/kotlinx-io	N/A
+https://kodu.ut.ee/~varmo/FP2007/slides/loeng14.pdf	N/A
+https://agda.readthedocs.io/en/v2.6.0/getting-started/hello-world.html	N/A
+https://www.mathstat.dal.ca/~selinger/agda-lectures/	N/A
+https://researchgate.net/publication/313374522_Interactive_programming_in_Agda_Objects_and_graphical_user_interfaces	N/A
+https://media.arrow-kt.io/videos/	N/A
+https://arrow-kt.io/community/blog/2020/06/05/functional-domain-modeling-kotlin/	N/A
+https://arrow-kt.io/community/blog/tags/fx/	N/A
+https://media.arrow-kt.io/articles	N/A
+https://api.usaskillsinc.com/backend/files/SwJBiyWNE91tfxMxaUrg.pdf	N/A
+https://kotlinlang.org/spec/pdf/sections/asynchronous-programming-with-coroutines.pdf	N/A
+https://idris-lang.org/Idris2/base/docs/Data.IORef.html	N/A
+https://idris-lang.org/Idris2/	N/A
+https://www.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf	N/A
+https://hackage.haskell.org/package/sockets	N/A
+https://hackage.haskell.org/package/network-2.6.3.1/docs/Network-Socket.html	N/A
+https://hackage.haskell.org/package/http-streams	N/A
+https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket.html	N/A
+https://hackage.haskell.org/package/network-2.6.3.5/docs/Network-Socket.html	N/A
+https://hackage.haskell.org/package/tcp-streams	N/A
+https://hackage.haskell.org/package/conduit/candidate/docs/Data-Conduit.html	N/A
+https://www.classcentral.com/course/youtube-haskell-for-imperative-programmers-59637	N/A
+https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf	N/A
+https://hackage.haskell.org/package/streamly-0.1.2/docs/Streamly-Tutorial.html	N/A
+https://hackage.haskell.org/package/streamly-0.7.3.1	N/A
+https://lean-lang.org/doc/reference/4.19.0-rc2/Functors___-Monads-and--do--Notation/	N/A
+https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/io/IO.html	N/A
+https://www.j-labs.pl/en/tech-blog/how-to-use-monads-in-java/	N/A
+https://www.baeldung.com/vavr	N/A
+https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/function/IOFunction.html	N/A
+https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7	N/A
+https://itsdaniel.dk/notes/understanding-functional-effect-systems/	N/A
+https://overreacted.io/algebraic-effects-for-the-rest-of-us/	N/A
+https://hackage.haskell.org/package/general-allocate-0.2.2.0	N/A
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Unsafe.html	N/A
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Foreign.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/libraries/base-4.15.1.0/src/GHC.IO.Unsafe.html	N/A
+https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume06/issue03/DagRep.6.3/DagRep.6.3.pdf	N/A
+https://www.youtube.com/watch?v=gHiyzctYqZ0	N/A
+https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dee1dd3528767935317507965d&repid=rep1&type=pdf	N/A
+https://downloads.haskell.org/~ghc/9.4-latest/docs/libraries/stm-2.5.1.0/Control-Monad-STM.html	N/A
+https://hackage.haskell.org/package/i3ipc	N/A
+https://hackage.haskell.org/package/unliftio-core-0.1.1.0/docs/src/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-IO-Class.html	N/A
+https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Control-Monad-Trans-Class.html	N/A
+https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html	N/A
+https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html	N/A
+https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf	N/A
+https://hackage.haskell.org/package/fused-effects/docs	N/A
+https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1	N/A
+https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/	N/A
+https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperative-shell-game-of-life-example-haskell-and-scala.pdf	N/A
+https://hackage.haskell.org/package/HMock-0.3.0.0	N/A
+https://hackage.haskell.org/package/mockcat/docs	N/A
+https://hackage.haskell.org/package/HMock/docs	N/A
+https://hackage.haskell.org/package/monad-control-0.3.1/docs/Control-Monad-Trans-Control.html	N/A
+https://hackage.haskell.org/package/monad-control-0.3.1.3/docs/Control-Monad-Trans-Control.html	N/A
+https://hackage.haskell.org/package/ki-unlifted	N/A
+https://hackage.haskell.org/package/rio-0.1.22.0	N/A
+https://hackage.haskell.org/package/rio-0.1.2.0/docs	N/A
+https://hackage.haskell.org/package/rio-process-pool	N/A
+https://hackage.haskell.org/package/rio-orphans	N/A
+https://hackage.haskell.org/package/rio-0.1.24.0	N/A
+https://academy.fpblock.com/blog/2017/06/readert-design-pattern	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/base-3.0.0.0/Control-Monad.html	N/A
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497	N/A
+https://hackage.haskell.org/package/FileSystem	N/A
+https://hackage.haskell.org/package/system-fileio	N/A
+https://hackage.haskell.org/package/system-filepath	N/A
+https://hackage.haskell.org/package/system-fileio/docs/System-IO-File.html	N/A
+https://hackage.haskell.org/package/system-filepath/docs	N/A
+https://hackage-content.haskell.org/package/process-1.6.26.0/docs/System-Process.html	N/A
+https://hackage.haskell.org/package/sys-process/docs/Sys-Process.html	N/A
+https://hackage.haskell.org/package/process-1.6.11.0/docs/System-Process.html#v:readProcess	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/System-IO.html	N/A
+https://hackage.haskell.org/package/haskeline	N/A
+https://hackage.haskell.org/package/haskeline-0.6.2	N/A
+https://hackage.haskell.org/package/haskeline-0.6.2.1/docs/System-Console-Haskeline.html	N/A
+https://hackage.haskell.org/package/brick-0.27	N/A
+https://hackage-content-origin.haskell.org/package/brick-0.20	N/A
+https://hackage-content.haskell.org/package/vty-5.34	N/A
+https://hackage.haskell.org/package/terminfo/docs/System-Console-Terminfo-Base.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/terminfo-0.4.1.1/src/System.Console.Terminfo.Base.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/terminfo-0.4.0.0/System-Console-Terminfo-Base.html	N/A
+https://hackage.haskell.org/package/ansi-terminal-0.8.0.4	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/libraries/terminfo-0.4.0.2/src/System-Console-Terminfo-Base.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/terminfo-0.4.1.4/System-Console-Terminfo-Base.html	N/A
+https://downloads.haskell.org/ghc/latest/docs/libraries/terminfo-0.4.1.7-5cba/src/System.Console.Terminfo.Base.html	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal	N/A
+https://hackage.haskell.org/package/prettyprinter	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Prettyprinter-Render-Terminal.html	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.1.1	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Data-Text-Prettyprint-Doc-Render-Terminal.html	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3/docs	N/A
+https://packages.debian.org/trixie/source/haskell-prettyprinter-ansi-terminal	N/A
+https://packages.debian.org/source/forky/haskell-prettyprinter-ansi-terminal	N/A
+https://packages.debian.org/bullseye/source/haskell-prettyprinter-ansi-terminal	N/A
+https://hackage.haskell.org/package/monad-logger-0.3.18/docs/Control-Monad-Logger.html	N/A
+https://hackage.haskell.org/package/monad-logger-0.3.16/docs/Control-Monad-Logger.html	N/A
+https://packages.debian.org/source/bullseye/misc/haskell-monad-logger	N/A
+https://hackage.haskell.org/package/co-log-core	N/A
+https://hackage.haskell.org/package/co-log-concurrent	N/A
+https://hackage.haskell.org/package/co-log-core/docs	N/A
+https://hackage.haskell.org/package/co-log-concurrent/docs	N/A
+https://hackage-content.haskell.org/package/co-log-core-0.3.2.5/docs/Colog-Core-Action.html	N/A
+https://hackage-content.haskell.org/package/polysemy-log-co-0.11.1.0/docs/Polysemy-Log-Colog.html	N/A
+https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-Log.html	N/A
+https://hackage.haskell.org/packages/tag/logging	N/A
+https://www.stackage.org/package/co-log	N/A
+https://www.stackage.org/package/co-log-core	N/A
+https://hackage.haskell.org/package/co-log-simple	N/A
+https://hackage.haskell.org/package/co-log-json	N/A
+https://hackage.haskell.org/package/co-log-effectful	N/A
+https://hackage.haskell.org/package/co-log-polysemy	N/A
+https://hackage.haskell.org/package/co-log-polysemy/docs	N/A
+https://hackage.haskell.org/package/co-log-simple/docs	N/A
+https://hackage.haskell.org/package/co-log-json/docs	N/A
+https://hackage.haskell.org/package/co-log-effectful/docs	N/A
+https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/src/Control-Arrow-ArrowIO.html	N/A
+https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/resources/l15monadsio.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/monadic-io.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/marktoberdorf.pdf	N/A
+https://www.cs.ru.nl/~freek/courses/tt-2010/monads.pdf	N/A
+https://books.google.co.uk/books?id=nh0okI1a1sQC	N/A
+https://books.google.ca/books?id=nh0okI1a1sQC	N/A
+https://books.google.de/books?id=nh0okI1a1sQC	N/A
+https://books.google.com.au/books?id=nh0okI1a1sQC	N/A
+https://books.google.co.uk/books?id=wSkRAAAAQBAJ	N/A
+https://books.google.ca/books?id=wSkRAAAAQBAJ	N/A
+https://www.scs.stanford.edu/16wi-cs240h/	N/A
+https://teaching.well-typed.com/intro/introduction.html	N/A
+https://idris2.readthedocs.io/en/latest/ffi/ffi.html	N/A
+https://idris2.readthedocs.io/en/latest/updates/updates.html	N/A
+https://idris2.readthedocs.io/en/latest/app/introapp.html	N/A
+https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_Sources.pdf	N/A
+https://hackage-content.haskell.org/package/effectful-core-2.6.0.0/docs/doc-index-All.html	N/A
+https://hackage-content.haskell.org/package/ghc-internal-9.1401.0/docs/doc-index-I.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.2.0/src/src/Data	N/A
+https://github.com/fpinscala/fpinscala	N/A
+https://www.bookey.app/book/programming-in-scala	N/A
+https://www.kufunda.net/publicdocs/Functional%20Programming%20in%20Scala.pdf	N/A
+https://docs.scala-lang.org/overviews/scala-book/functional-programming.html	N/A
+https://alvinalexander.com/misc/scala-functional-programming-simplified-contents/	N/A
+https://web.cecs.pdx.edu/~mpj/pubs/mil.html	N/A
+https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures/lec/lec/precepts/precepts/precepts/precept04-solutions.pdf	N/A
+https://a-nikolaev.github.io/fp/	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf/Real_World_OCaml__Functional_Programming_for_the_Masses.pdf%3Fevent-type%3DFTLA	N/A
+https://ocaml.org/books	N/A
+https://tomasp.net/blog/fsharp-iv-lang.aspx	N/A
+https://fsprojects.github.io/FSharpPlus/abstraction-monad.html	N/A
+https://fsharpforfunandprofit.com/series/computation-expressions/	N/A
+https://www.lamsade.dauphine.fr/~mlampis/Functional/lec8.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad.html	N/A
+https://www.mmhaskell.com/monads	N/A
+https://packages.debian.org/source/stable/haskell-control-monad-free	N/A
+https://ifl2014.github.io/submissions/ifl2014_submission_16.pdf	N/A
+https://hackage.haskell.org/package/shh/docs/Control-Shh.html	N/A
+https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.Common.html	N/A
+https://hackage-content.haskell.org/package/rio-0.1.23.0/docs/RIO-Process.html	N/A
+https://hackage-content.haskell.org/package/unix-2.8.8.0/docs/System-Posix-Process.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-Process.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Process.html	N/A
+https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.CommunicationHandle.html	N/A
+https://hackage-content.haskell.org/package/ghc-9.12.2/docs/GHC-SysTools-Process.html	N/A
+https://hackage-content.haskell.org/package/quick-process-0.0.3/docs/src/System.Process.Quick.CallSpec.Run.html	N/A
+https://hackage.haskell.org/package/http-monad-0.0.1/docs	N/A
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Process.html	N/A
+https://hackage.haskell.org/package/linear-base-0.5.0	N/A
+https://hackage.haskell.org/package/linear-base-0.5.0/docs	N/A
+https://hackage.haskell.org/package/aivika-1.2	N/A
+https://hackage.haskell.org/package/katip-0.8.8.4	N/A
+https://hackage.haskell.org/package/conduit-1.3.6.1/docs	N/A
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/p4.htm	N/A
+https://monix.io/api/2.2/monix/types/Monad.html	N/A
+https://monix.io/api/2.2/monix/types/	N/A
+https://monix.io/api/2.3/monix/types/index.html	N/A
+https://bio.monix.io/	N/A
+https://bio.monix.io/api/monix/bio/IO.html	N/A
+https://index.scala-lang.org/getkyo/kyo	N/A
+https://niqdev.github.io/scala-fp/docs/fp-advanced	N/A
+https://ocaml.org/p/eio/latest/doc/Eio/index.html	N/A
+https://ocaml-multicore.github.io/eio/eio/Eio/index.html	N/A
+https://opam.ocaml.org/packages/eio/	N/A
+https://okmij.org/ftp/continuations/Eff/caml-eff.pdf	N/A
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasyncbuilder.html	N/A
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-asyncprimitives.html	N/A
+https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control.html	N/A
+https://docs.rs/effect-monad/latest	N/A
+https://doc.rust-lang.org/std/future/index.html	N/A
+https://doc.rust-lang.org/core/io/index.html	N/A
+https://docs.python.org/3/library/io.html?highlight=bytesio	N/A
+https://app.readthedocs.org/projects/monad/downloads/pdf/latest/	N/A
+https://pursuit.purescript.org/packages/purescript-aff/5.0.0	N/A
+https://fp-ts.github.io/core/	N/A
+https://effect.website/play/	N/A
+https://effect.website/events/effect-days/speakers	N/A
+https://hackage-content.haskell.org/package/reflex-0.9.3.4/docs/Control-Monad-ReaderIO.html	N/A
+https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Prelude.RIO.html	N/A
+https://docs.idris-lang.org/_/downloads/en/v1.0.1/pdf/	N/A
+https://agda.readthedocs.io/en/v2.6.4.3/getting-started/a-taste-of-agda.html	N/A
+https://agda.readthedocs.io/_/downloads/en/nightly/pdf/	N/A
+https://koka-lang.github.io/koka/doc/std_core-source.html	N/A
+https://koka-lang.github.io/koka/doc/std_core.html	N/A
+https://koka-lang.github.io/koka/doc/toc.html	N/A
+https://fuzion-lang.dev/design/effects	N/A
+https://doc.flix.dev/control-structures.html	N/A
+https://doc.flix.dev/	N/A
+https://api.flix.dev/Monad.html	N/A
+https://blog.flix.dev/blog/will-llms-help-or-hurt-new-programming-languages/	N/A
+https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/18	publication	2024-12-10
+https://elm-lang.org/assets/papers/concurrent-frp.pdf	N/A
+https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/9	publication	2024-11-28
+https://docs.racket-lang.org/functional/index.html	N/A
+https://docs.racket-lang.org/algebraic/class_base.html	N/A
+https://ics-websites.science.uu.nl/docs/vakken/afp/slides/10-generics.pdf	N/A
+https://effect.readthedocs.io/	N/A
+https://javadoc.io/static/org.typelevel/cats-effect_native0.4_3/3.6-ecf93db/cats/effect/IO.html	N/A
+https://javadoc.io/static/org.typelevel/cats-effect_2.12/0.10-5b8214f/cats/effect/IO.html	N/A
+https://clojure.github.io/clojure-contrib/monads-api.html	N/A
+https://clojure.org/about/functional_programming	N/A
+https://clojure.github.io/algo.monads/	N/A
+https://clojuredocs.org/clojure.core/io%21	N/A
+https://zio.dev/reference/core/zio/rio/	N/A
+https://zio.dev/reference/core/runtime/	N/A
+https://zio.dev/reference/di/	N/A
+https://zio.dev/api/zio/zio	N/A
+https://zio.dev/reference/error-management/types/defects/	N/A
+https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/control/Either.html	N/A
+https://www.javadoc.io/static/io.vavr/vavr/0.11.0/io/vavr/Function7.html	N/A
+https://arxiv.org/abs/2211.01473	N/A
+https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IO.html	N/A
+https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/io/IO.html	N/A
+https://javadoc.io/doc/com.aol.cyclops/cyclops-monad-api/latest/index.html	N/A
+https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-api	N/A
+https://www.javadoc.io/doc/com.aol.cyclops/cyclops-functionaljava/9.0.0-MI2/cyclops/monads/FJ.html	N/A
+https://javadoc.io/doc/com.aol.cyclops/cyclops-functionaljava/latest/index.html	N/A
+https://javadoc.io/doc/com.aol.cyclops/cyclops-base/latest/index.html	N/A
+https://javadoc.io/doc/com.aol.cyclops/cyclops-javaslang/latest/index.html	N/A
+https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/latest/index.html	N/A
+https://javadoc.io/doc/com.aol.cyclops/cyclops-functions/5.0.0/index.html	N/A
+https://central.sonatype.com/artifact/com.aol.cyclops/cyclops-monad-functions	N/A
+https://arxiv.org/abs/1202.3498	N/A
+https://ocaml.org/manual/5.5/effects.html	N/A
+https://fpilluminated.org/deck/31	N/A
+https://pursuit.purescript.org/packages/purescript-aff/4.1.1	N/A
+https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/src/Effectful.html	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/2.3.3/cats/effect/Effect.html	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.13/2.1.4/cats/effect/index.html	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_sjs0.6_2.12/1.2.0/cats/effect/index.html	N/A
+https://javadoc.io/static/org.typelevel/cats-effect_sjs1_2.13/2.3.2/cats/effect/Effect.html	N/A
+https://resources.jetbrains.com/storage/products/kotlinconf-2023/Arrow%27s%202.0%20Trajectory.pdf	N/A
+https://old.arrow-kt.io/docs/patterns/monads	N/A
+https://docs.rs/rust_io	N/A
+https://dev-doc.rust-lang.org/std/io/index.html	N/A
+https://lean-lang.org/functional_programming_in_lean/Monads/do--Notation-for-Monads/	N/A
+https://docs.lean-lang.org/functional_programming_in_lean/Monads/The-Monad-Type-Class/	N/A
+https://lean-lang.org/functional_programming_in_lean/Introduction/	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/15F1C51D832FD7F084AE2602FBDB0157	N/A
+https://www.cl.cam.ac.uk/teaching//0607/FFuncProg/fofp.pdf	N/A
+https://forums.fsharp.org/t/series-of-6-articles-on-computation-expressions/4893	publication	2025-09-02
+https://github.com/IBM/fp-go/v2/io	N/A
+https://www.roundcrisis.com/presentations/2015-fsharp-gotham-computation-expressions/index.html	N/A
+https://arxiv.org/abs/2208.14724	N/A
+https://github.com/IBM/fp-go	N/A
+https://github.com/joeycumines/go-monads	N/A
+https://pkg.go.dev/github.com/joeycumines/go-monads	N/A
+https://guillaumebogard.dev/posts/functional-error-handling/	publication	2020-05-18
+https://docs.racket-lang.org/functional/interfaces.html?fam=Shplait&tag=%28def._%28%28quote._~23~25kernel%29._pregexp%29%29&version=5.91	N/A
+https://www.erlang-factory.com/static/upload/media/1434458082784816joseelixireuc.pdf	N/A
+https://elixir-lang.readthedocs.io/_/downloads/en/latest/pdf/	N/A
+https://elixir.hexdocs.pm/main/IO.html	N/A
+https://elixir.hexdocs.pm/1.18/IO.html	N/A
+https://publications.lib.chalmers.se/records/fulltext/219742/219742.pdf	N/A
+https://odr.chalmers.se/server/api/core/bitstreams/7c8128ee-cd76-4c15-8635-8cfee1c5df9a/content	N/A
+https://phunkie.github.io/phunkie/introduction_to_functional_programming.html	N/A
+https://packagist.org/packages/phunkie/console	N/A
+https://www.functionalphp.com/	N/A
+https://packagist.org/packages/phunkie/streams	N/A
+https://packagist.org/packages/phunkie/	N/A
+https://packagist.org/packages/phunkie/phpstan	N/A
+https://www.javadoc.io/static/io.monix/monix-eval_2.11/3.2.1/monix/eval/Task.html	N/A
+https://hackage-content.haskell.org/package/streamly-core-0.2.3/docs/src/Streamly.FileSystem.File.html	N/A
+https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-effects-2/	N/A
+https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617293818/	N/A
+https://arxiv.org/abs/2312.13295	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-15	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html	N/A
+https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/	N/A
+https://www.bookey.app/book/functional-programming-in-scala	N/A
+https://www.cs.cmu.edu/~fp/courses/15312-f02/lectures/15-monads.html	N/A
+https://kar.kent.ac.uk/61623/	N/A
+https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/monads-for-fp_wadler.pdf	N/A
+https://hmemcpy.com/2017/05/from-net-to-scala-and-beyond-a-journey-to-functional-programming/	N/A
+https://www.infoq.com/fp/presentations/175/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/fm.htm	N/A
+https://www.baeldung.com/scala/cats-effect-error-handling	N/A
+https://www.creativescala.org/cats-effect-tutorial/	N/A
+https://www.kriso.lv/functional-programming-scala-db-9781617290657.html	N/A
+https://www.fp-tower.com/courses/foundations	N/A
+https://hackage.haskell.org/package/effectful-2.1.0.0	N/A
+https://github.com/koka-lang/koka	N/A
+https://icfp21.sigplan.org/details/icfp-2021-tutorials/5/Programming-with-Effect-Handlers-and-FBIP-in-Koka	N/A
+https://goto.ucsd.edu/~nvazou/koka/koka.html	N/A
+https://pblevy.github.io/msfp2014/koka.pdf	N/A
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2025.165	N/A
+https://link.springer.com/article/10.1007/s10849-022-09378-7	N/A
+https://formal.land/blog/2023/05/28/monad-for-side-effects-in-rust	publication	2023-05-28
+https://www.cnblogs.com/javamoon/p/4112380.html	N/A
+https://blog.khinsen.net/posts/2009/04/22/Monads-in-Clojure.html	N/A
+https://khinsen.wordpress.com/2009/04/22/monad-tutorial-for-clojure-programmers/	publication	2009-04-22
+https://mko.re/blog/scheme-monads/	publication	2015-07-05
+https://www.cl.cam.ac.uk/teaching/2223/ConceptsPL/lectures-4up.pdf	N/A
+https://3e8.org/pub/scheme/doc/haskell-tutorial-writing-scheme-in-48-hours.pdf	N/A
+https://tomasp.net/blog/2013/computation-zoo-padl/	N/A
+https://old.arrow-kt.io/docs/quickstart/	N/A
+https://ducmanhphan.github.io/2020-12-15-monad-pattern/	N/A
+https://www.skypack.dev/view/monio	N/A
+https://www.skypack.dev/view/%40funkia/io	N/A
+https://www.thecodechameleon.io/articles/functional_programming/monads/	publication	2025-07-02
+https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053	publication	2024-11-23
+https://stackoverflow.com/questions/65621157/how-to-use-the-task-monad	N/A
+https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470	publication	2018-07-10
+https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470/6	publication	2018-07-10
+https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434	publication	2025-09-16
+https://chrilves.github.io/raffiot.py/index.html	N/A
+https://csharp-functional.readthedocs.io/en/latest/	N/A
+https://downloads.haskell.org/ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Control-Monad-IO-Class.html	N/A
+https://stackoverflow.com/questions/23537387/clarification-on-streaming-and-effects-in-context-of-pipes-library	N/A
+https://stackoverflow.com/questions/36949944/piping-an-http-stream-through-a-haskell-conduit	N/A
+https://stackoverflow.com/questions/38955432/haskell-conduits-from-file-to-process	N/A
+https://www.schoolofhaskell.com/school/advanced-haskell/conduit-overview	N/A
+https://stackoverflow.com/questions/44327727/understanding-conduit-output	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/Resource.html	N/A
+https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/IO.html	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-13/section-13-2/	N/A
+https://zio.dev/zio-blocks/guides/compile-time-resource-safety-with-scope/	N/A
+https://javadoc.io/static/dev.zio/zio_3/2.0.9/zio/Scope.html	N/A
+https://bio.monix.io/docs/resource-safety	N/A
+https://monix.io/api/3.0/monix/eval/TaskApp.html	N/A
+https://zanza00.gitbook.io/learn-fp-ts/taskeither/taskeither-and-io-ts	N/A
+https://gcanti.github.io/fp-ts/ReaderTaskEither.ts.html	N/A
+https://grossbart.github.io/fp-ts/modules/IOEither.ts.html	N/A
+https://grossbart.github.io/fp-ts/recipes/interoperability.html	N/A
+https://gcanti.github.io/fp-ts/modules/StateReaderTaskEither.ts.html	N/A
+https://fp-ts.github.io/core/modules/Either.ts.html	N/A
+https://effect-ts.github.io/effect/	N/A
+https://www.npmjs.com/package/effect	N/A
+https://learn-effect-ts.tonytang.dev/	N/A
+https://github.com/effect-ts/effect	N/A
+https://ocaml.org/p/eio/0.15/doc/README.html	N/A
+https://skvirski.com/articles/result-oriented-programming-fsharp/	N/A
+https://www.readkong.com/page/the-f-computation-expression-zoo-7270706	N/A
+https://wallymathieu.github.io/FSharpPlus/computation-expressions.html	N/A
+https://sources.debian.org/src/lwt/2.4.3-4/manual/manual.pdf	N/A
+https://grison.me/2019/03/21/intro-to-fp-with-vavr/	N/A
+https://www.baeldung.com/vavr-future	N/A
+https://docs.vavr.io/es/	N/A
+https://hackage.haskell.org/package/hw-polysemy/docs/HaskellWorks-Polysemy.html	N/A
+https://hackage-content.haskell.org/package/data-effects-core-0.4.3.0/docs/src/Data.Effect.html	N/A
+https://cljdoc.org/d/missionary/missionary/CURRENT	N/A
+https://clojure.org/events/2023/a-functional-approach-to-massively-1688048806	N/A
+https://gitextract.com/leonoel/missionary	N/A
+https://clojurepatterns.com/1/12/20/	N/A
+https://open-awesome.com/projects/missionary	N/A
+https://livebook.manning.com/book/functional-programming-with-kotlin/chapter-13	N/A
+https://samuelzhaoy.github.io/bow-swift/	N/A
+https://openaccess.inaf.it/bitstreams/54e360dd-89fe-48d0-8fd8-d2b7ba1afc51/download	N/A
+https://docs.rs/higher	N/A
+https://docs.rs/higher/latest/higher/monad/index.html	N/A
+https://docs.rs/higher/latest/x86_64-pc-windows-msvc/higher/	N/A
+https://docs.rs/higher/latest/x86_64-apple-darwin/higher/index.html	N/A
+https://docs.rs/effectful/latest/effectful/	N/A
+https://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/	publication	2010-10-17
+https://scalaz.github.io/scalaz/scalaz-2.10-7.0.3/doc/index.html	N/A
+https://javadoc.io/static/org.scalaz/scalaz_2.12/7.3.0-M12/scalaz/Monad.html	N/A
+https://library.nu.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=4706	N/A
+https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/?lang=japublications%2F%3Fpg=0&pg=96	N/A
+https://pursuit.purerl.fun/packages/effect/3.0.0-erl1/docs/Effect.Class	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/transformers-0.6.1.0/Control-Monad-Trans-Reader.html	N/A
+https://mail.haskell.org/pipermail/haskell/2012-August/023478.html	N/A
+https://hackage.haskell.org/package/transformers-0.0.1.0/docs/Control-Monad-Trans-Reader.html	N/A
+https://themonadreader.files.wordpress.com/2012/08/issue20.pdf	N/A
+https://aaltodoc.aalto.fi/bitstreams/e0f5aefc-556f-4254-bf9d-03c22f930357/download	N/A
+https://www.doi.org/10.1145/143165.143169	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/libraries/ghc-internal-9.1001.0-206d/GHC-Internal-System-IO.html	N/A
+https://haddocks.haskell-miso.org/base/index.html	N/A
+https://haddocks.haskell-miso.org/base/doc-index-I.html	N/A
+https://hackage.haskell.org/package/ghc-internal/docs	N/A
+https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow	N/A
+https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/	N/A
+https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ	N/A
+https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/	N/A
+https://nostarch.com/fsharp	publication	2013-09-27
+https://cs3110.github.io/textbook/cover.html	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/052E4BCCB09D56A0FE875DD81B1ED571/9781009125802AR.pdf%3Fevent-type%3DFTLA	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/standard-ml-basis-library-by-emden-r-gansner-and-john-h-reppy-editors-cambridge-university-press-2004-406pp/AF4F4E64538F286D9D24DC3D84D622D5	publication	2006-03
+https://www.cs.princeton.edu/courses/archive/spring05/cos320/notes/harperbook.pdf	N/A
+https://www.cs.princeton.edu/~appel/smlnj/basis/imperative-io-fn.html	N/A
+https://smlfamily.github.io/sml97-defn.pdf	N/A
+https://www.scribd.com/document/366128261/monad-3-ps	N/A
+https://gist.github.com/gatlin/855929e8c24d83bb59	N/A
+https://niltag.net/essays/racket_monad.html	N/A
+https://arxiv.org/abs/1611.09470	N/A
+https://cljdoc.org/d/pure-io/pure-io/0.1.0/doc/readme	N/A
+https://www.classcentral.com/report/best-clojure-courses/	N/A
+https://jokerconf.com/en/archive/2022/talks/20000856-monads-in-java-in-20-minutes/	N/A
+https://higher-kinded-j.github.io/latest/tutorials/coretypes/foundations_journey.html	N/A
+https://java-design-patterns.com/patterns/monad/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/index.htm	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_021.html	N/A
+https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiusano/9781617290657	N/A
+https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ	N/A
+https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf	N/A
+https://www.manning.com/books/type-driven-development-with-idris	N/A
+https://livebook.manning.com/book/type-driven-development-with-idris/about-this-book	N/A
+https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781617293023	N/A
+https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781638352242	N/A
+https://hackage.haskell.org/package/idris	N/A
+https://arxiv.org/abs/2310.13441	N/A
+https://agda.readthedocs.io/_/downloads/en/v2.6.2.1/pdf/	N/A
+https://lets-play-agda.quasicoherent.io/	N/A
+https://research.ed.ac.uk/en/publications/dependent-types-and-multi-monadic-effects-in-f/	N/A
+https://fstar-lang.org/papers/mumon/	N/A
+https://cir.nii.ac.jp/crid/1360292619364595584	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/libraries/base-4.11.0.0/System-IO.html	N/A
+https://www.well-typed.com/blog/2024/10/haskell-unfolder-episode-34-you-already-understand-monads/	N/A
+https://hackage-content-origin.haskell.org/	N/A
+https://web.archive.org/web/*/https://code.haskell.org/~byorgey/TMR/*	N/A
+https://zephyrtronium.github.io/articles/koka-experience.html	N/A
+https://gluon-lang.github.io/gluon/print.html	N/A
+https://atnos-org.github.io/eff/org.atnos.site.Introduction.html	N/A
+https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Internal-Monad.html	N/A
+https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html	N/A
+https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/Effectful.html	N/A
+https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html	N/A
+https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html	N/A
+https://eprints.nottingham.ac.uk/43557/	N/A
+https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html	N/A
+https://doi.org/10.1145/2605176	N/A
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0087.xhtml	N/A
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0083.xhtml	N/A
+https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0082.xhtml	N/A
+https://books.google.com/books?id=75C5DAAAQBAJ	N/A
+https://www.packtpub.com/en-BE/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/lifting-up-from-io-ch07lvl1sec49	N/A
+https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Types.html#IO	N/A
+https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html#State	N/A
+https://dspace.mit.edu/server/api/core/bitstreams/5154af6b-4a9a-4915-a744-6fcc13756898/content	N/A
+https://tannerduve.github.io/files/monads.pdf	N/A
+https://staff.emu.edu.tr/zekibayram/Documents/courses/CMPE462/Curry/tutorial.pdf	N/A
+https://docs.idris-lang.org/en/v0.9.18/effects/introduction.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=5c19f0ee0173cb847b36642e2b3ee7472e03b1f2&repid=rep1&type=pdf	N/A
+https://pierre-hyvernat.apps.math.cnrs.fr/data/Files/phd.pdf	N/A
+https://www.sambuz.com/doc/coinductive-reasoning-in-dependent-type-theory-copatterns-presentation-1039399	N/A
+https://www.leanpub.com/book-of-monads	N/A
+https://dblp.org/rec/conf/csl/HancockS00	N/A
+https://www.isa-afp.org/browser_info/current/AFP/Clean/document.pdf	N/A
+https://www.wiki.clean.cs.ru.nl/Publications	N/A
+https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture17.htm	N/A
+https://www.cse.iitd.ac.in/~mcs112586/book.pdf	N/A
+https://www.qualiero.com/lerninhalte/classroom-trainings/scala-typelevel-cats-effect.html	N/A
+https://www.edc4it.com/training/course/SCALA-CATS?online=	N/A
+https://dzone.com/refcardz/functional-programming-with-javascript	N/A
+https://stackoverflow.com/questions/70918015/how-to-execute-a-function-that-returns-a-function-inside-of-io-monad	N/A
+https://arxiv.org/pdf/2212.08177	N/A
+https://arxiv.org/pdf/1804.03460	N/A
+https://arxiv.org/abs/1803.08958	N/A
+https://cseweb.ucsd.edu/~dstefan/talks/strangeloop2016.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=b82a2bba57ac617753e17f15833ccd40079f7c&repid=rep1&type=pdf	N/A
+https://arxiv.org/pdf/1505.02579	N/A
+https://www.ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html	N/A
+https://sage.ci.dev/live/p/eio/0.9/doc/README.html	N/A
+https://arxiv.org/pdf/1812.11664	N/A
+https://doi.org/10.1016/j.ifacol.2022.11.100	N/A
+https://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP11b.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=1997710cea4b67b9e53df96d6dee7f2c3e5c5556&type=pdf	N/A
+https://arxiv.org/pdf/1109.0785	N/A
+https://arxiv.org/pdf/1902.06950	N/A
+https://stackoverflow.com/questions/7769996/using-the-par-monad-with-stm-and-deterministic-io	N/A
+https://www.ideals.illinois.edu/items/29856/bitstreams/99122/data.pdf	N/A
+https://www.research-collection.ethz.ch/bitstreams/07a03edd-6ea9-4663-9a65-ed78416c2e44/download	N/A
+https://arxiv.org/pdf/1704.08055	N/A
+https://odr.chalmers.se/bitstreams/b5438b2f-a2a5-43ce-bd0e-86644f6f0e80/download	N/A
+https://koka-lang.github.io/koka/doc/book.html#why	N/A
+https://hackage-content-origin.haskell.org/package/monadIO-0.11.1.0/candidate/docs/doc-index.html	N/A
+https://stackoverflow.com/questions/47070279/liftio-do-block-and-syntax	N/A
+https://www.fpblock.com/blog/2017/06/readert-design-pattern	N/A
+https://www.cin.ufpe.br/~lgnfl/papers/msc-thesis.pdf	N/A
+https://era.ed.ac.uk/bitstream/handle/1842/24458/ClarkA_2008redux.pdf?isAllowed=y&sequence=1	N/A
+https://research-portal.uu.nl/en/publications/cogent-uniqueness-types-and-certifying-compilation	publication	2021
+https://stackoverflow.com/questions/68584017/haskell-coresyn-library-how-does-one-refer-to-built-in-io-types?r=31	N/A
+https://www.sambuz.com/doc/effects-and-state-liam-o-connor-ppt-presentation-1031389	N/A
+https://www.curry-lang.org/docs/report/versions/report_2016_01_13.pdf	N/A
+https://web.stanford.edu/class/cs99/	N/A
+https://arxiv.org/abs/1706.07997	N/A
+https://arxiv.org/pdf/1706.07997	N/A
+https://cronfa.swan.ac.uk/Record/cronfa70368	N/A
+https://www.curry-language.org/docs/report/versions/report_2014_02_27.pdf	N/A
+https://ww.curry-language.org/docs/report/versions/report160902.pdf	N/A
+https://ww.curry-language.org/docs/report/versions/report_2012_09_11.pdf	N/A
+https://cpm.curry-lang.org/DOC/base-3.4.0/index.html	N/A
+https://cpm.curry-lang.org/DOC/flatcurry-4.0.0/FlatCurry.Files_curry.html	N/A
+https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.html	N/A
+https://arxiv.org/abs/cs/0111039	N/A
+https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf	N/A
+https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf	N/A
+https://hackage.haskell.org/package/effect-handlers/docs	N/A
+https://www.cambridge.org/core/books/abs/session-types/functional-programming/5A833EA4A5EECAD65C4C06FB8B86976B	publication	2025-03
+https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%20and%20Software%20Technology%2C%2011%20conf.%2C%20AMAST%202006%28LNCS4019%2C%20Springer%2C%202006%29%28ISBN%203540356339%29%28398s%29.pdf	N/A
+https://arxiv.org/abs/1701.07601	N/A
+https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad-powerpoint-presentation	N/A
+http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf	N/A
+https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/	N/A
+https://zenodo.org/records/7062933	N/A
+https://ucsd-cse230.github.io/fa23/lectures.html	N/A
+https://se.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/	N/A
+https://cs.uwaterloo.ca/~yizhou/papers/lexa-oopsla2024.pdf	N/A
+https://www.cs.cornell.edu/andru/papers/ufo/	N/A
+https://cvs.haskell.org/cgi-bin/cvsweb.cgi/haskell-report/report	N/A
+https://catalin-hritcu.github.io/publications/verified-testing-report.pdf	N/A
+https://www.replay.io/blog/recording-and-replaying	N/A
+https://docs.replay.io/basics/time-travel/how-does-time-travel-work	N/A
+https://www.replay.io/blog/the-replayability-roadmap	N/A
+https://www.replay.io/blog/how-to-time-travel-every-time	N/A
+https://discuss.ocaml.org/t/introduction-to-eio-video/11571	publication	2023-03-03
+https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/	N/A
+https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/functional-programming-concepts	N/A
+https://danel.ahman.ee/talks/msr13.pdf	N/A
+https://prg.is.titech.ac.jp/papers/pdf/hope2022.pdf	N/A
+https://iris.uniupo.it/retrieve/ab1f4432-8581-4ef5-8f13-766d751b317e/proceedings.pdf	N/A
+https://icfp22.sigplan.org/details/icfp-2022-papers/10/Formal-Reasoning-About-Layered-Monadic-Interpreters	N/A
+https://citeseerx.ist.psu.edu/document?doi=8242b566d8bd1ce0ebbcb7cfdea0aa5b70501da1&repid=rep1&type=pdf	N/A
+https://www.cs.umd.edu/class/spring2019/cmsc388F/lectures/monads.html	N/A
+https://hackage-content.haskell.org/package/io-sim-1.9.1.0/docs	N/A
+https://hackage.haskell.org/package/async/docs	N/A
+https://hackage-content.haskell.org/package/horde-ad-0.2.0.0/docs/async-2.2.5-docs/Control-Concurrent-Async-Internal.html	N/A
+https://hackage-content.haskell.org/package/async-2.2.6/docs/doc-index.html	N/A
+https://hackage-content.haskell.org/package/lifted-async-0.11.0/docs/Control-Concurrent-Async-Lifted.html	N/A
+https://hackage-content-origin.haskell.org/package/async-2.2.2/docs/doc-index.html	N/A
+https://docs.rs/crate/functype/0.1.1	N/A
+https://kcsrk.info/papers/ocaml2021b.pdf	N/A
+https://www.cs.pomona.edu/~michael/courses/csci181ns20/lec/Lec11.html	N/A
+https://2023.ecoop.org/details/ecoop-2023-papers/4/Interaction-Tree-Specifications-A-Framework-for-Specifying-Recursive-Effectful-Comp	N/A
+https://papertalk.org/papertalks/25023	N/A
+https://snu.elsevierpure.com/en/publications/interaction-trees-representing-recursive-and-impure-programs-in-c/	publication	2020-01
+https://research.ed.ac.uk/en/publications/interaction-trees-representing-recursive-and-impure-programs-in-c/	N/A
+https://icfp19.sigplan.org/details/icfp-2019-papers/8/Dijkstra-Monads-for-All	N/A
+https://www.researchgate.net/publication/334751758_Dijkstra_monads_for_all	N/A
+https://bentnib.org/dijkstra4all.html	N/A
+https://pureportal.strath.ac.uk/en/publications/dijkstra-monads-for-all/	publication	2019-08-01
+https://www.researchgate.net/publication/262175370_Verifying_Higher-order_Programs_with_the_Dijkstra_Monad	N/A
+https://bentnib.org/dijkstra4all.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/fstar.pdf	N/A
+https://lean-lang.org/doc/reference/latest/Functors___-Monads_and--do--Notation/	N/A
+https://prg.is.titech.ac.jp/projects/formalization/monae/	N/A
+https://github.com/leanprover/reference-manual/blob/main/Manual.lean	N/A
+https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--For-Monads/	N/A
+https://usr.lmf.cnrs.fr/~jcf/publis_bib.html	N/A
+https://drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf	N/A
+https://arxiv.org/abs/2003.09993	N/A
+https://docs.servant.dev/_/downloads/en/v0.8.1/pdf/	N/A
+https://docs.servant.dev/_/downloads/en/v0.7.1/pdf/	N/A
+https://hackage.haskell.org/package/io-streams-1.1.0.0	N/A
+https://hackage.haskell.org/package/io-streams-1.1.1.0	N/A
+https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-doc	N/A
+https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams	N/A
+https://haskell.org/~simonmar/new-io.tar.gz	N/A
+https://hackage.haskell.org/package/conduit-combinators-1.0.8.1/docs/Conduit.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=08c0eaa33b7692ddbd65e509db1356f3c6126d75&repid=rep1&type=pdf	N/A
+https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf	N/A
+https://cir.nii.ac.jp/crid/1360306914407986304	N/A
+https://www.mendeley.com/catalogue/5d7ff898-97c2-3128-9b81-b304817581d4/	publication	2020
+https://research.rug.nl/en/publications/c9162558-592e-4a11-a137-9c257cbfcc36/	publication	2024-01-05
+https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1	N/A
+https://man7.org/linux/man-pages/man7/io_uring.7.html	N/A
+https://hackage.haskell.org/package/sodium/docs/FRP-Sodium-Context.html	N/A
+https://hackage.haskell.org/package/threepenny-gui/docs/Reactive-Threepenny.html	N/A
+https://hackage.haskell.org/package/sodium	N/A
+https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=46586973	N/A
+https://link.springer.com/book/10.1007/978-3-319-29604-3	N/A
+https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf	N/A
+https://link.springer.com/book/10.1007/978-981-92-0184-6	N/A
+https://www.classcentral.com/course/youtube-icfp-24-orange-3-haskell-sep-7th-347259	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/journal-of-functional-programming-most-downloaded-2023	N/A
+https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html	N/A
+https://homepages.cwi.nl/~ploeg/zseq.pdf	N/A
+https://paperswelove.org/papers/freer-monads-more-extensible-effects-f271560c/	N/A
+https://haskell.pesquisa.ufabc.edu.br/cursos/11-paradigmas-2023/	N/A
+https://hackage.haskell.org/package/IOSpec-0.2.6/docs	N/A
+https://arxiv.org/abs/2312.11257	N/A
+https://hackage-content-origin.haskell.org/package/lio-0.9.1.0	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-analysis-of-information-flow-security-with-mutable-state/01A8F47B757460768168CAF18989F83A	publication	2005-03
+https://goto.ucsd.edu/~nvazou/lweb/POPL19.pdf	N/A
+https://arxiv.org/abs/1708.01688	N/A
+https://citeseerx.ist.psu.edu/document?doi=8b6c2fa39d5ad248926da81b5d564544ee22b94a&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/2112.14048	N/A
+https://hackage.haskell.org/package/DSH	N/A
+https://hackage.haskell.org/package/relational-record/docs/Database-Relational-Documentation.html	N/A
+https://hackage.haskell.org/package/haskelldb/docs/Database-HaskellDB-Query.html	N/A
+https://db.cs.uni-tuebingen.de/staticfiles/publications/haskell2011.pdf	N/A
+https://www.research.ed.ac.uk/en/publications/comprehensive-comprehensions/	publication	2007
+https://researchportal.hkust.edu.hk/en/publications/comprehending-monoids-with-class	publication	2021-08-16
+https://utheme.univ-tlse3.fr/access/files/original/199d4d23354d3ae58ebf815fdc6f5b66b6e78448.pdf	N/A
+https://camdar.io/static/h4t/stuff/08/Monadic_Parser_Combinators.pdf	N/A
+https://repository.rit.edu/article/481/	N/A
+https://pdos.csail.mit.edu/~baford/packrat/thesis/	N/A
+https://nottingham-repository.worktribe.com/output/1024440/monadic-parser-combinators	N/A
+https://research-portal.uu.nl/en/publications/monadic-parser-combinators/	publication	1996
+https://academic.oup.com/logcom/article-pdf/29/4/487/28917421/exv078.pdf	N/A
+https://www.um.edu.mt/library/oar/handle/123456789/22406	N/A
+https://dbc.library.uu.nl/handle/1874/2535	N/A
+https://twdev.blog/docs/monparsing.pdf	N/A
+https://arxiv.org/abs/2305.07901	N/A
+https://eprints.gla.ac.uk/112254/	N/A
+https://db.cs.uni-tuebingen.de/teaching/ss25/functional-programming/	N/A
+https://warwick.ac.uk/fac/sci/dcs/teaching/modules/cs141	N/A
+https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2026-2027/FMFI/EN/mINF.pdf	N/A
+https://hackage.haskell.org/package/typed-protocols-1.2.0.0	N/A
+https://vetss.org.uk/wp-content/uploads/sites/165/2024/05/2021_15-K-Just.pdf	N/A
+https://flora.pm/packages/%40hackage/typed-protocols	N/A
+https://input-output-hk.github.io/typed-protocols/typed-protocols/Network-TypedProtocol.html	N/A
+https://input-output-hk.github.io/typed-protocols/typed-protocols/src/Network.TypedProtocol.html	N/A
+https://hackage.haskell.org/package/typed-protocols-1.1.0.1/candidate/src/stateful-cborg	N/A
+https://hackage.haskell.org/package/typed-encoding	N/A
+https://discourse.haskell.org/t/introduction-to-typed-session/10100	publication	2024-08-06
+https://www.stackage.org/package/stm	N/A
+https://chinanet.mirrors.ustc.edu.cn/help/hackage.html	N/A
+https://mirrors.tuna.tsinghua.edu.cn/help/hackage/	publication	2026-07-26
+https://hackage.haskell.org/package/linear-socket	N/A
+https://hackage.haskell.org/package/linear-socket-0.3.3.3	N/A
+https://haskell.foundation/assets/other/Duncan%20Coutts%20-%20GHC%20Tool%20Ecosystem.pdf	N/A
+https://well-typed.com/blog/aux/files/zurihac-2023/duncan-coutts-ghc-packaging-ecosystem.pdf	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-Trans-Maybe.html	N/A
+https://lukastymo.com/posts/025-hello-haskell-a-hands-on-lab-for-2026/	publication	2026-01-25
+https://cse230.ucsd.edu/lectures/lec-monads.html	N/A
+https://downloads.haskell.org/~ghc/latest/docs/libraries/mtl-2.3.1-77f5/Control-Monad-Reader.html	N/A
+https://www.haskell.org/hugs/pages/libraries/mtl/Control-Monad-State.html	N/A
+https://hackage.haskell.org/package/mtl-2.0.1.0/docs/Control-Monad-State-Lazy.html	N/A
+https://hackage.haskell.org/package/mtl-c-0.1.1/docs/Control-Monad-Reader-CPS.html	N/A
+https://xmonad.github.io/xmonad-docs/transformers-0.5.6.2/Control-Monad-Trans-Class.html	N/A
+https://pure.au.dk/portal/en/publications/monadic-abstract-interpreters/	publication	2013
+https://data.tmorris.net/talks/haskell-parsers/haskell-parsers/pdf/index.pdf	N/A
+https://arxiv.org/abs/1802.06571	N/A
+https://arxiv.org/abs/2001.04457	N/A
+https://arxiv.org/abs/1105.2576	N/A
+https://arxiv.org/abs/1707.04755	N/A
+https://hackage.haskell.org/package/network-3.1.1.1/docs/Network-Socket.html	N/A
+https://hackage.haskell.org/package/network-2.8.0.0/docs/Network-Socket.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/libraries/network/Network-Socket.html	N/A
+https://hackage.haskell.org/package/network-2.8.0.1/docs/Network-Socket.html	N/A
+https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/Control-Exception.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha1/docs/html/libraries/ghc-8.10.0.20191123/Exception.html	N/A
+https://downloads.haskell.org/ghc/6.6/docs/html/libraries/base/Control-Exception.html	N/A
+https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/transformers-0.5.6.2/Control-Monad-Trans-Except.html	N/A
+https://courses.seas.harvard.edu/courses/cs152/2024sp/lectures/lec18-monads.pdf	N/A
+https://www.classcentral.com/subject/monads	N/A
+https://arxiv.org/abs/2312.14964	N/A
+https://dl.acm.org/doi/10.1145/3331545.3342598	N/A
+https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries	N/A
+https://www.cs.ox.ac.uk/people/samuel.staton/papers/mfps2021.pdf	N/A
+https://khibino.github.io/haskell-relational-record/pdf/hrr-haskell-sympo2016-rejected.pdf	N/A
+https://scispace.com/pdf/bringing-back-monad-comprehensions-4bpxamu9c8.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/list-comp/list-comp.pdf	N/A
+https://db.cs.uni-tuebingen.de/publications/2003/monad-comprehensions.-a-versatile-representation-for-queries/monad-comprehensions.pdf	N/A
+https://cir.nii.ac.jp/crid/1360298759830884864	N/A
+https://hackage.haskell.org/package/effectful-2.2.0.0	N/A
+https://www.researchgate.net/publication/30013135_Monad_Comprehensions_A_Versatile_Representation_for_Queries	N/A
+https://d-nb.info/957714041/34	N/A
+https://www.research.ed.ac.uk/en/publications/comprehending-monads/	publication	1992
+https://www.researchgate.net/publication/2393351_Comprehending_Queries	N/A
+https://www.researchgate.net/publication/221562949_Bringing_Back_Monad_Comprehensions	N/A
+https://www.wisnesky.net/tr-02-11.pdf	N/A
+https://pages.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf	N/A
+https://hackage.haskell.org/package/resource-simple/docs/Control-Monad-Resource.html	N/A
+https://arxiv.org/abs/2507.23205	N/A
+https://arxiv.org/abs/2009.14322	N/A
+https://arxiv.org/abs/1012.4895	N/A
+https://www.ioc.ee/~matt/iti0212-2025/iti0212-specification-2025.pdf	N/A
+https://onlinecourses-archive.nptel.ac.in/noc15_cs13/	N/A
+https://citeseerx.ist.psu.edu/document?doi=6a77e58bdddc2752120b022d55a971931d379a57&repid=rep1&type=pdf	N/A
+https://arxiv.org/abs/2007.10809	N/A
+https://salkhordeh.de/publication/haskell-icfp/haskell-icfp.pdf	N/A
+https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf	N/A
+https://www.scitepress.org/Papers/2013/43267/43267.pdf	N/A
+https://hackage.haskell.org/package/servant-websockets	N/A
+https://hackage-content-origin.haskell.org/package/warp-1.3.7.5	N/A
+https://www.stackage.org/lts-10.10/package/warp-3.2.18	N/A
+https://www.stackage.org/lts-10.3/package/warp-3.2.13	N/A
+https://www.servant.dev/	N/A
+http://www.acm.jhu.edu/~nwf/fwh/08_yesod.pdf	N/A
+https://haskell.org/communities/05-2014/html/report.html	N/A
+https://hackage.haskell.org/package/HasChor	N/A
+https://legacy.cs.indiana.edu/~dyb/pubs/monadicDC.pdf	N/A
+https://comp2221.github.io/fp-website/past-editions/2022-23/lectures/	N/A
+https://archive.fosdem.org/2023/schedule/event/haskell_2d_animations/	N/A
+https://discourse.haskell.org/t/haskell-2023-talk-videos-on-youtube/8233	publication	2023-11-30
+https://opencourse.inf.ed.ac.uk/sites/default/files/https/opencourse.inf.ed.ac.uk/inf1a/2023/tutorial1.pdf	N/A
+https://effect-handlers.org/talks/hope-2024-talk.pdf	N/A
+https://www.scribd.com/document/846854425/monadic-parsing-jfp	N/A
+https://theses.gla.ac.uk/2353/	N/A
+https://cronfa.swan.ac.uk/Record/cronfa42789/Download/0042789-02082018162522.pdf	N/A
+https://arxiv.org/abs/1304.4091	N/A
+https://cademy.io/packt/supercharge-scala-future-fp-tower	N/A
+https://www.classcentral.com/course/udemy-functional-effect-handling-in-scala-with-cats-effect-401728	N/A
+https://courses.rockthejvm.com/p/cats-effect	N/A
+https://arxiv.org/abs/2010.10510	N/A
+https://research.chalmers.se/en/publication/182285	publication	2013
+https://kar.kent.ac.uk/98024/	N/A
+https://kar.kent.ac.uk/id/eprint/98024	N/A
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_article	publication	2019
+https://richarde.dev/papers/2022/linear-constraints/linear-constraints.pdf	N/A
+https://granule-project.github.io/papers/esop22-paper.pdf	N/A
+https://mew.org/~kazu/doc/paper/hask035-voellmy.pdf	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/PrimOp.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/GHC-Event.html	N/A
+https://www.stackage.org/package/ghc-prim	N/A
+https://hackage-content.haskell.org/package/postgresql-migration-persistent-1.0.0/docs/PostgreSQL-Migration-Persistent.html	N/A
+https://hackage-content-origin.haskell.org/package/persistent-1.3.1.1	N/A
+https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1	N/A
+https://wespiser.com/writings/wyas/07_io.html	N/A
+https://research.chalmers.se/publication/500049/file/500049_Fulltext.pdf	N/A
+https://student.cs.uwaterloo.ca/~cs442/W25/videos/5.3/	N/A
+https://www.classcentral.com/index.php/course/youtube-haskell-25-freer-arrows-and-why-you-need-them-in-haskell-508747	N/A
+https://www.researchgate.net/publication/333600413_Interaction_Trees_Representing_Recursive_and_Impure_Programs_in_Coq_Work_In_Progress	N/A
+https://dl.acm.org/doi/10.1145/3632854	N/A
+https://doisinkidney.com/pdfs/algebraic-free-monads.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2019/03/algeff-in-c-aplas.pdf	N/A
+https://www.type-driven.org.uk/edwinb/papers/effects.pdf	N/A
+https://arxiv.org/abs/1904.08843	N/A
+https://arxiv.org/abs/1309.4821	N/A
+https://repozitorij.uni-lj.si/IzpisGradiva.php?id=162658	publication	2024
+https://sf.snu.ac.kr/yoonseung.kim/thesis_yskim.pdf	N/A
+https://run.unl.pt/entities/publication/21115aa8-fe7b-4eea-88f1-d372d0298188	N/A
+https://www.cl.cam.ac.uk/teaching/2526/R277/slides-effect-handlers.pdf	N/A
+https://hackage.haskell.org/package/process-1.4.3.0	N/A
+https://hackage.haskell.org/package/unix-bytestring-0.3.7.6/docs/System-Posix-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/process-1.4.0.0	N/A
+https://groups.seas.harvard.edu/courses/cs152/2025sp/lectures/sld18-monads.pdf	N/A
+https://repository.tudelft.nl/record/uuid%3Aa4b267de-fe91-4672-9acb-e81961d2a6f0	publication	2024
+https://waseda.repo.nii.ac.jp/records/2001323	N/A
+https://www.researchgate.net/publication/383150860_Specification_and_Verification_for_Unrestricted_Algebraic_Effects_and_Handling	N/A
+https://reposiTUm.tuwien.at/handle/20.500.12708/199644	N/A
+https://prg.is.titech.ac.jp/papers/bibtexbrowser.php?bib=prg-e.bib&key=tsuyama2024pepm	N/A
+https://continuation.passing.style/teaching/cs150-fall25/slides/05-effects.pdf	N/A
+https://prg.is.titech.ac.jp/papers/pdf/ifip21-slides.pdf	N/A
+https://link.springer.com/chapter/10.1007/978-0-307-98239-9_13	N/A
+https://hackage.haskell.org/package/bytestring-0.12.2.0/docs	N/A
+https://hackage.haskell.org/package/process-1.6.26.1/docs	N/A
+https://www.stackage.org/package/bytestring	N/A
+https://www.stackage.org/package/process	N/A
+https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397	N/A
+https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html	N/A
+https://www.stackage.org/lts-17.15/package/resourcet-1.2.4.2	N/A
+https://hackage.haskell.org/package/simpleprelude/docs/Prelude.html	N/A
+https://hackage-content.haskell.org/package/stm-chans-3.0.0.11/docs/Control-Concurrent-STM-TMQueue.html	N/A
+https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control-devel	N/A
+https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad-ST.html	N/A
+https://www.haskell.foundation/events/2025-haskell-ecosystem-workshop.html	N/A
+https://discourse.haskell.org/t/haskell-ecosystem-workshop-hew-2025-videos-online/12788	publication	2025-08-20
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025/LIPIcs.ECOOP.2025.pdf	N/A
+https://citeseerx.ist.psu.edu/document?doi=1ef1e228ef8bc029d50c4f8cc1d27e386cd53dc3&repid=rep1&type=pdf	N/A
+https://hackage-content.haskell.org/package/mtl-2.1.2/docs/Control-Monad-State-Strict.html	N/A
+https://hackage.haskell.org/package/transformers-0.6.2.0/docs	N/A
+https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Reader.html	N/A
+https://verify.rwth-aachen.de/fp12/	N/A
+https://hackage.haskell.org/package/mtl-2.2.2/changelog	N/A
+https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TQueue.html	N/A
+https://hackage.haskell.org/package/mtl-2.2.2/docs/Control-Monad-Error.html	N/A
+https://hackage.haskell.org/package/transformers-0.2.1.0/docs/Control-Monad-Trans-State.html	N/A
+https://hackage.haskell.org/package/stm-2.4.4.1/docs	N/A
+https://pure-oai.bham.ac.uk/ws/portalfiles/portal/223684242/978-3-031-57262-3_1.pdf	N/A
+https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations	N/A
+https://eric.walkingshaw.net/files/pubs/students/alkubaish-20-ms-thesis.pdf	N/A
+https://arxiv.org/abs/2402.03103	N/A
+https://arxiv.org/abs/2203.03288	N/A
+https://hackage.haskell.org/package/control-monad-exception-0.8.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.1.0/docs	N/A
+https://hackage.haskell.org/package/network-2.2.1/docs/Network.html	N/A
+https://hackage.haskell.org/package/control-monad-exception/docs	N/A
+https://popl24.sigplan.org/details/lafi-2024-papers/4/Effect-Handlers-for-Choice-Based-Learning	N/A
+https://www.researchgate.net/publication/383515063_Making_a_Curry_Interpreter_using_Effects_and_Handlers	N/A
+https://dspace.ut.ee/items/8fd690d9-6be2-4b5c-a481-afcba4e39d22	N/A
+https://hackage.haskell.org/package/lifted-base/docs	N/A
+https://hackage.haskell.org/package/resourcet-1.1.0.1/docs	N/A
+https://www.lironcohenlab.com/pubs/invitedFSCD2025.pdf	N/A
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol337-fscd2025/LIPIcs.FSCD.2025/LIPIcs.FSCD.2025.pdf	N/A
+https://hackage.haskell.org/package/Stream-0.1/docs	N/A
+https://hackage.haskell.org/package/conduit-1.2.4.2/docs	N/A
+https://packages.fedoraproject.org/pkgs/ghc-exceptions/ghc-exceptions	N/A
+https://hackage.haskell.org/package/html-conduit-1.2.0/docs	N/A
+https://constructor.university/sites/default/files/2026-02/AST_MSc_HandBook_2025_1_1.pdf	N/A
+https://hackage.haskell.org/package/exceptions-0.7/docs	N/A
+https://packages.fedoraproject.org/pkgs/ghc-resourcet/ghc-resourcet-doc	N/A
+https://hackage.haskell.org/package/control-monad-exception-0.3	N/A
+https://conf.researchr.org/series/haskellsymp	N/A
+https://discourse.haskell.org/t/not-quite-monads-haskell-unfolder-54/13973	publication	2026-04-22
+https://hackage.haskell.org/package/constrained-monads/docs	N/A
+https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-TCP.html	N/A
+https://www.classcentral.com/course/youtube-haskell-25-machine-learning-primitives-as-algebraic-effects-508816	N/A
+https://haskellweekly.news/issue/463.html	N/A
+https://icfp25.sigplan.org/room/splash-2025-venue-peony-sw	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/190FBF349B0D32D56992C566CDBF5ED5/S0956796824000133a.pdf/from_high_to_low_simulating_nondeterminism_and_state_with_state.pdf	N/A
+https://pure.itu.dk/en/projects/algebraic-effects-and-guarded-recursion/publications/	N/A
+https://mailman.haskell.org/archives/list/haskell%40haskell.org/2025/5/	N/A
+https://explore.gcts.edu/algebra-suggest-010/files?ID=KjE05-5383&title=why-algebraic-effects.pdf	N/A
+https://hackage.haskell.org/package/extensible-exceptions/docs	N/A
+https://packages.fedoraproject.org/pkgs/ghc-extensible-exceptions/ghc-extensible-exceptions-doc	N/A
+https://hackage.haskell.org/package/pipes-4.1.0/docs	N/A
+https://hackage.haskell.org/package/exceptions-0.6.1	N/A
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-IO.html	N/A
+https://mailman.haskell.org/archives/list/haskell%40haskell.org/2026/5/	N/A
+https://icfp24.sigplan.org/series/haskellsymp	N/A
+https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.45	N/A
+https://www.mail-archive.com/haskell%40haskell.org/msg27444.html	N/A
+https://hackage.haskell.org/package/network-conduit/docs	N/A
+https://hackage.haskell.org/package/conduit-1.0.5/docs	N/A
+https://hackage.haskell.org/package/extensible-exceptions-0.1.1.4/docs	N/A
+https://verify.rwth-aachen.de/fp26/	N/A
+https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc	publication	2023
+https://hackage.haskell.org/package/network-2.6.0.0/docs	N/A
+https://icfp26.sigplan.org/home/hope-2026	N/A
+https://doi.org/10.1145/3808259	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf	N/A
+https://hackage.haskell.org/package/happstack-monad-peel/docs	N/A
+https://www.stackage.org/package/http-conduit	N/A
+https://hackage-content.haskell.org/package/mstate-0.2.11/docs/Control-Concurrent-MState.html	N/A
+https://www.classcentral.com/index.php/course/youtube-haskell-23-haskell-for-choice-based-learning-347653	N/A
+https://www.classcentral.com/course/youtube-building-haskell-programs-with-fused-effects-by-patrick-thomson-166091	N/A
+https://www.classcentral.com/course/youtube-pldi-23-purecake-a-verified-compiler-for-a-lazy-functional-language-347887	N/A
+https://www.classcentral.com/course/youtube-haskellrank-59641	N/A
+https://ghc.gitlab.haskell.org/ghc/doc/users_guide/using-warnings.html	N/A
+https://hackage.haskell.org/package/monad-logger-0.3.28/docs	N/A
+https://www.classcentral.com/course/youtube-haskell-23-effect-handlers-for-programmable-inference-347652	N/A
+https://www.classcentral.com/course/youtube-haskell-23-hastee-programming-trusted-execution-environments-with-haskell-347649	N/A
+https://www.classcentral.com/course/youtube-effective-haskell-rebecca-skinner-emily-pillmore-goto-2024-282505	N/A
+https://www.classcentral.com/course/youtube-insait-tech-series-prof-martin-odersky-effects-and-resources-new-frontiers-for-safe-and-354715	N/A
+https://www.classcentral.com/course/youtube-oopsla-25-notions-of-stack-manipulating-computation-and-relative-monads-508883	N/A
+https://www.classcentral.com/course/youtube-haskell-for-beginners-59640	N/A
+https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/66/An-Equational-Axiomatization-of-Dynamic-Threads-via-Algebraic-Effects-Presheaves-on-	N/A
+https://luma.com/wv1zt5em	N/A
+https://pure.itu.dk/en/publications/calculating-compilers-effectively-functional-pearl/	publication	2024-08-29
+https://arxiv.org/abs/2602.05850	N/A
+https://packages.fedoraproject.org/pkgs/ghc-monad-logger/ghc-monad-logger	N/A
+https://packages.debian.org/source/trixie/misc/haskell-monad-logger	N/A
+https://hackage.haskell.org/package/monad-loops-0.3.0.1/docs	N/A
+https://hackage-content.haskell.org/package/loops-0.2.0.2/docs/Control-Monad-Loop-Internal.html	N/A
+https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1920-ug-projects/An-Investigation-into-Adding-Exception-Handling-to-Haskell.pdf	N/A
+https://hackage.haskell.org/package/dph-lifted-base/docs	N/A
+https://hackage.haskell.org/package/lifted-base-0.1.1.1/docs	N/A
+https://hackage.haskell.org/package/monad-loops-0.3.0.2	N/A
+https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/	N/A
+https://serokell.io/courses	N/A
+https://hackage.haskell.org/package/monad-peel-0.3	N/A
+https://hackage.haskell.org/package/transformers-base-0.4.6/docs	N/A
+https://hackage.haskell.org/package/transformers-compat-0.4.0.2/docs	N/A
+https://hackage.haskell.org/package/exceptions-0.10.12/docs	N/A
+https://hackage.haskell.org/package/mtl-tf-0.2.0.0/docs	N/A
+https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-transformers-compat/	N/A
+https://hackage.haskell.org/package/monads-tf/docs	N/A
+https://hackage.haskell.org/package/monads-tf-0.1.0.3/docs	N/A
+https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc	N/A
+https://www.stackage.org/package/monads-tf	N/A
+https://packages.debian.org/source/stable/haskell-monads-tf	N/A
+https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/	N/A
+https://hackage.haskell.org/package/effect-monad-0.7.0.0	N/A
+https://hackage.haskell.org/package/control-monad-exception-monadstf/docs	N/A
+https://hackage.haskell.org/package/exception-transformers-0.4.0.3/docs	N/A
+https://hackage.haskell.org/package/mtl-1.1.0.0	N/A
+https://hackage.haskell.org/package/mmtl	N/A
+https://hackage.haskell.org/package/mtl-1.1.0.2/docs/Control-Monad-Cont.html	N/A
+https://hackage.haskell.org/package/control-monad-exception-mtl/docs	N/A
+https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs/doc-index.html	N/A
+https://mmhaskell.com/	N/A
+https://www.classcentral.com/index.php/subject/referential-transparency	N/A
+https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-for-dependent-effect-systems/	publication	2026
+https://www.classcentral.com/subject/referential-transparency	N/A
+https://hackage.haskell.org/package/pipes-safe-2.0.2/docs	N/A
+https://hackage.haskell.org/package/pipes-4.0.2/docs	N/A
+https://hackage.haskell.org/package/pipes-core/docs	N/A
+https://hackage.haskell.org/package/pipes-2.3.0/docs	N/A
+https://dev.to/bekbrace/monads-in-haskell-1p8i	N/A
+https://www.youtube.com/watch?v=pj7-rNyz3J8	N/A
+https://hackage.haskell.org/package/exception-transformers/docs	N/A
+https://hackage.haskell.org/package/control-monad-exception-0.5	N/A
+https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/	N/A
+https://www.cs.toronto.edu/~trebla/CSCC24-latest/	N/A
+https://is.muni.cz/course/fi/spring2026/IB016?lang=en%3Bzobrazmatob%3D1	N/A
+https://www.stackage.org/lts-3.0/package/conduit-1.2.5	N/A
+https://hackage.haskell.org/package/core-effect-effectful/docs/	N/A
+https://hackage.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html	N/A
+https://hackage-content.haskell.org/package/base-4.22.0.0/docs/GHC-Exception.html	N/A
+https://haskell.foundation/events/2026-haskell-implementors-workshop.html	N/A
+https://discourse.haskell.org/t/call-for-talks-haskell-implementors-workshop-2026/13698	publication	2026-02-18
+https://discourse.haskell.org/t/call-for-participation-2.5-hour-haskell-foundation-online-workshop/14312	N/A
+https://www.reddit.com/r/haskell/comments/1upt8sr/zurihac_2026_video_playlist/	N/A
+https://hackage.haskell.org/package/safe-exceptions/docs	N/A
+https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html	N/A
+https://well-typed.com/blog/2025/05/haskell-unfolder-episode-44-state-based-testing-with-quickcheck-lockstep	N/A
+https://www.cambridge.org/core/product/20BF7DCA6330A2115C2C9B9BA47AB2E0	N/A
+https://discourse.haskell.org/t/state-based-testing-with-quickcheck-lockstep-haskell-unfolder-44/12095	publication	2025-05-14
+https://hackage.haskell.org/package/resourcet-effectful/docs	N/A
+https://hackage.haskell.org/package/effectful-core-2.2.2.0/docs	N/A
+https://www.packtpub.com/en-us/product/learning-haskell-programming-9781786465542	N/A
+https://www.packtpub.com/en-sg/product/learning-haskell-programming-9781786465542	N/A
+https://www.packtpub.com/en-gb/product/learning-haskell-programming-9781786465542	N/A
+https://www.packtpub.com/en-br/product/learning-haskell-programming-9781786465542	N/A
+https://hackage.haskell.org/package/base-4.17.0.0/changelog	N/A
+https://hackage.haskell.org/package/base-4.22.0.0/changelog	N/A
+https://hackage.haskell.org/package/safe-exceptions-0.1.7.4/docs	N/A
+https://igm.univ-mlv.fr/~vialette/teaching/2025-2026/E4/Examen-11-20-25/Lectures/lecture-01-first-steps.pdf	N/A
+https://hackage-content.haskell.org/package/hspec-2.11.12	N/A
+https://www.stackage.org/lts-17.6/package/safe-exceptions-0.1.7.1	N/A
+https://flora.pm/packages/%40hackage/fused-effects	N/A
+https://hackage.haskell.org/package/hspec-core-2.11.17	N/A
+https://discourse.haskell.org/t/rfc-hspec-quickcheck-classes-testing-typeclass-laws-from-hspec/13919	publication	2026-04-11
+https://web.mit.edu/phurst/Public/haskell13/day3.pdf	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.safe-exceptions	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.unliftio	N/A
+https://dev.flora.pm/packages/%40hackage/Z-IO/0.1.6.1/changelog	N/A
+https://flora.pm/packages/%40hackage/conduit/1.1.3/changelog	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.effectful	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.fused-effects	N/A
+https://pure.itu.dk/da/publications/the-calculated-typer-functional-pearl/	publication	2025-10-09
+https://researchportal.hw.ac.uk/files/149643713/TFP-2025-Author-Submitted-Manuscript.pdf	N/A
+https://haskell25.hotcrp.com/	N/A
+https://lists.seas.upenn.edu/pipermail/types-announce/2025/011851.html	N/A
+https://mail.haskell.org/pipermail/haskell-cafe/attachments/20250327/b8e0710b/attachment.html	N/A
+https://www.mail-archive.com/haskell%40haskell.org/msg27378.html	N/A
+https://www.stackage.org/nightly-2026-03-23/package/effectful-2.6.1.0	N/A
+https://flora.pm/packages/%40hackage/effectful	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.SoOSiM	N/A
+https://www.haskell.org/ghc/docs/7.0.1/core.pdf	N/A
+https://www.stackage.org/lts-6.1/package/strict-0.3.2	N/A
+https://flora.pm/packages/%40hackage/monad-classes	N/A
+https://hackage.haskell.org/package/exception-transformers	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.effectful-core	N/A
+https://flora.pm/packages/%40hackage/resourcet-effectful	N/A
+https://flora.pm/packages/%40hackage/core-effect-effectful/0.0.0.4/dependencies	N/A
+https://www.mail-archive.com/haskell%40haskell.org/msg27448.html	N/A
+https://www.ost.ch/en/details/events/haskell-implementors-workshop-hiw-2026	N/A
+https://icfp26.sigplan.org/	N/A
+https://icfp17.sigplan.org/series/icfp	N/A
+https://arxiv.org/abs/2601.02060	N/A
+https://discourse.haskell.org/t/call-for-proposals-reviewing-testing-and-managing-llm-generated-haskell/14041	publication	2026-05-05
+https://www.stackage.org/di-monad	N/A
+https://www.stackage.org/lts-21.14/package/di-monad-1.3.2	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-region	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-storage	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-streams	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.ioctl	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.ior	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.effect-stack	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.effect-monad	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.monad-effect	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.effet	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.bluefin-algae	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-capture	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-choice	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-embed	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-memoize	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-reactive	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-streams-http	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-throttle	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.io-classes-mtl	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.polysemy	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.cleff	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.freer-simple	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.monad-unlift	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.unliftio-core	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.monad-control	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.exceptions	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.lifted-base	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.resourcet	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.conduit	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.streaming	N/A
+https://www.stackage.org/lts-24.49/package/monad-control-1.0.3.1	N/A
+https://www.stackage.org/lts-24.48/package/exceptions-0.10.9	N/A
+https://www.stackage.org/lts-7.24/package/monad-control-1.0.1.0	N/A
+https://www.stackage.org/lts-6.35/package/monad-control-1.0.1.0	N/A
+https://www.classcentral.com/course/youtube-effectful-pawel-szulc-lambda-days-2022-347191	N/A
+https://discourse.haskell.org/t/videos-for-the-2025-haskell-ecosystem-workshop/12632	publication	2025-08-04
+https://hackage.haskell.org/package/effectful-2.6.1.0	N/A
+https://www.stackage.org/lts-23.14/package/fused-effects-1.1.2.4	N/A
+https://www.stackage.org/lts-23.13/package/resourcet-1.3.0	N/A
+https://haskell.org/wikiupload/e/e9/Typeclassopedia.pdf	N/A
+https://www.youtube.com/playlist?list=PLQpeDZt0_xQfpBPdVV3hUZ3_pDxmYhsbr	N/A
+https://www.youtube.com/@HaskellFoundation	N/A
+https://www.youtube.com/@HaskellImplementorsWorkshop	N/A
+https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html#video-recordings	N/A
+https://www.reddit.com/r/haskell/comments/1mvgic6	N/A
+https://www.reddit.com/r/haskell/comments/1mvgj2k	N/A
+https://www.stackage.org/package/effectful-core/snapshots	N/A
+https://www.haskell.org/pipermail/haskell-cafe/2007-July/027778.html	N/A
+https://ir.cwi.nl/pub/22680	publication	2014-09-01
+https://mail.haskell.org/pipermail/haskell-cafe/2025-July/137171.html	N/A
+https://www.semanticscholar.org/paper/State-in-Haskell-Launchbury-Jones/5768f243d9d91cf3225ae6ca1a89193f5b5ee423	N/A
+https://www.semanticscholar.org/paper/Imperative-functional-programming-Jones-Wadler/4bc5332578e0da3556ed576a6d4d33cf9f789e02	N/A
+https://archlinux.org/packages/extra-staging/x86_64/haskell-transformers-base/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-transformers-compat/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-unexceptionalio/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-control-monad-free/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-monad-control/files/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-unliftio/files/	N/A
+https://packages.debian.org/source/bullseye/haskell-monad-logger	N/A
+https://packages.debian.org/bookworm/source/haskell-rio-orphans	N/A
+https://packages.debian.org/source/bullseye/allpackages	N/A
+https://packages.debian.org/sid/doc/	N/A
+https://packages.debian.org/uk/sid/doc/	N/A
+https://packages.debian.org/source/bullseye/haskell-musicbrainz	N/A
+https://packages.debian.org/testing/haskell/	N/A
+https://www.futurelearn.com/courses/functional-programming-haskell	N/A
+https://scispace.com/pdf/a-programming-tutor-for-haskell-3qal96p64z.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/book-old.html	N/A
+https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844/56	publication	2025-04-17
+https://www.cs.unm.edu/~mlakin/assets/teaching/2021-fall-cs558-syllabus.pdf	N/A
+https://www.sigplan.org/OpenTOC/haskell25.html	N/A
+https://www.reddit.com/r/haskell/comments/1lvd5sv	N/A
+https://packages.debian.org/source/bookworm/haskell/	N/A
+https://packages.debian.org/source/bookworm/haskell-monadlib	N/A
+https://packages.debian.org/bookworm/libghc-monad-logger-prof	N/A
+https://www.stackage.org/lts-6.30/package/effect-handlers-0.1.0.8	N/A
+https://www.stackage.org/nightly-2021-08-23/package/extensible-effects-5.0.0.1	N/A
+https://www.stackage.org/lts-22.25/package/silently-1.2.5.3	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-transformers-base/	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-exception-transformers/	N/A
+https://portal.acm.org/citation.cfm?id=363749	N/A
+https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497	N/A
+https://www.c2.com/cgi/wiki?OnMonads	N/A
+https://youtube.com/playlist?list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb	N/A
+https://haskell.foundation/events/	N/A
+https://person.dibris.unige.it/moggi-eugenio/ftp/EM-GDPfest.pdf	N/A
+https://hackage.haskell.org/package/hnix	N/A
+https://hackage.haskell.org/package/base-4.9.0.0/docs/Control-Exception.html	N/A
+https://hackage.haskell.org/package/monad-loops	N/A
+https://hackage.haskell.org/package/monad-finally	N/A
+https://hackage.haskell.org/package/logging-effect	N/A
+https://hackage.haskell.org/package/eff	N/A
+https://hackage.haskell.org/package/free-programs	N/A
+https://hackage.haskell.org/package/monad-extras	N/A
+https://hackage.haskell.org/package/monad-journal	N/A
+https://mynixos.com/nixpkgs/packages/haskellPackages	N/A
+https://mynixos.com/nixpkgs/packages/haskellPackages/176	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.trans-fx-io	N/A
+https://mynixos.com/nixpkgs/package/haskellPackages.monad-loops	N/A
+https://packages.debian.org/source/bullseye/haskell-exception-transformers	N/A
+https://packages.debian.org/bullseye/haskell/libghc-exception-transformers-dev	N/A
+https://archlinux.org/packages/extra-staging/x86_64/haskell-safe-exceptions/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-extensible-exceptions/	N/A
+https://packages.debian.org/source/sid/haskell-control-monad-loop	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-language-server/	N/A
+https://packages.debian.org/trixie/doc/libghc-monad-logger-doc	N/A
+https://dennou-q.gfd-dennou.org/library/Linux/debian/pool/main/h/haskell-file-io/	N/A
+https://www.uibk.ac.at/media/filer_public/02/ea/02eaeeda-ded3-4aa6-bcf4-a125e575a1dd/category_theory.pdf	N/A
+https://entropicthoughts.com/haskell-procedural-programming	N/A
+https://discourse.haskell.org/t/abstracting-storage-details-with-effectful-first-blog-post/12190	publication	2025-05-28
+https://studentprojectcode.com/blog/what-is-the-io-type-in-haskell	publication	2025-09-15
+https://www.openscience.uz/index.php/sciedu/article/download/8060/7411/14770	N/A
+https://www.stackage.org/lts-16.0/package/resourcet-1.2.4.1	N/A
+https://www.stackage.org/lts-6.1/package/resourcet-1.1.7.4	N/A
+https://www.stackage.org/nightly-2016-10-23/package/resourcet-1.1.8	N/A
+https://www.stackage.org/nightly-2015-11-27/package/resourcet-1.1.6	N/A
+https://www.stackage.org/nightly-2015-04-30/package/resourcet-1.1.4.1	N/A
+https://www.stackage.org/nightly-2026-06-19/package/resourcet-1.3.0	N/A
+https://www.stackage.org/lts-21.22/package/resourcet-1.2.6	N/A
+https://packages.debian.org/bullseye/all/doc/libghc-io-storage-doc	N/A
+https://packages.debian.org/sid/libghc-iospec-dev	N/A
+https://packages.debian.org/unstable/haskell/libghc-io-storage-dev	N/A
+https://www.reddit.com/r/haskell/comments/1ux3kad	N/A
+https://www.reddit.com/r/haskell/comments/1kky7b7	N/A
+https://arxiv.org/abs/2507.16086	N/A
+https://groups.seas.harvard.edu/courses/cs152/2021sp/lectures/lec18-monads.pdf	N/A
+https://www.cs.uoregon.edu/research/summerschool/summer18/topics.php	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-extra/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-comonad/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-either/	N/A
+https://packages.debian.org/sid/all/doc/libghc-managed-doc	N/A
+https://cse.sc.edu/~mgv/csce590f20/haskell/p359-hudak.pdf	N/A
+https://icfp24.sigplan.org/home/hiw-2024	N/A
+https://haflang.github.io/workshops/hafdal24.html	N/A
+https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew-2025-videos-online/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/	N/A
+https://qa.debian.org/debcheck.php?dist=unstable&package=haskell-file-io	N/A
+https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html	N/A
+https://www.stackage.org/lts/package/unliftio-0.2.25.1	N/A
+https://hackage.haskell.org/package/exceptions-0.10.3	N/A
+https://hackage.haskell.org/package/fused-effects-exceptions	N/A
+https://www.stackage.org/package/fused-effects-exceptions	N/A
+https://hackage.haskell.org/package/io-streams-1.3.6.1	N/A
+https://hackage.haskell.org/package/io-streams-1.5.2.2/docs	N/A
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html	N/A
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html	N/A
+https://packages.debian.org/sid/haskell/libghc-io-streams-dev	N/A
+https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=1243163585	N/A
+https://packages.debian.org/testing/haskell/libghc-io-streams-dev	N/A
+https://ftp.cica.es/mirrors/Linux/raspbian/raspbian/pool/main/h/haskell-io-streams/	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-storage/	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-path-io/	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-streams/	N/A
+https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-gio/	N/A
+https://sources.debian.org/src/haskell-http-streams/0.8.9.9-1/http-streams.cabal	N/A
+https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO	N/A
+https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html	N/A
+https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-storage/	N/A
+https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/	N/A
+https://discourse.haskell.org/t/call-for-participation-2-5-hour-haskell-foundation-online-workshop/14312	publication	2026-06-24
+https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944874.html	N/A
+https://mailman.haskell.org/archives/list/ghc-commits@haskell.org/thread/TBCIDETQG5E7QHOKX75EHX3WXLAAUT62/	N/A
+https://hackage.haskell.org/package/logict	N/A
+https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html	N/A
+https://hackage.haskell.org/package/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/HPDF-1.8/docs/Graphics-PDF-Documentation.html	N/A
+https://www.cs.tufts.edu/comp/150FP/archive/jason-dagit/ms-thesis.pdf	N/A
+https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944198.html	N/A
+https://piuparts.debian.org/trixie/maintainer/p/pkg-haskell-maintainers%40lists.alioth.debian.org.html	N/A
+https://hackage.haskell.org/package/base-4.0.0.0/docs/src/GHC-IOBase.html	N/A
+https://www.haskell.org/haskell-workshop/2000/papers.html	N/A
+https://dblp.uni-trier.de/db/conf/haskell/haskell2000.html	N/A
+https://www.haskell.org/ghc/docs/6.12.2/haddock.pdf	N/A
+https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-workshop	publication	1999
+https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programming-in-haskell/	N/A
+https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html	N/A
+https://sources.debian.org/src/haskell-monad-memo	N/A
+https://dspace.library.uu.nl/handle/1874/18968	publication	1999
+https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/	N/A
+https://www.stackage.org/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-24.29/package/io-storage-0.3	N/A
+https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4	N/A
+https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	N/A
+https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md	N/A
+https://gist.github.com/therewillbecode	N/A
+https://gist.github.com/FranklinChen/1448622	N/A
+https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2	N/A
+https://hackage-content.haskell.org/package/heftia-0.7.0.0/docs/Control-Monad-Hefty.html	N/A
+https://arxiv.org/abs/2406.07216	N/A
+https://gist.github.com/vu3rdd/6409454	N/A
+https://gist.github.com/ymdfield/e17cb32aa24eb1418377d9fecc021101	N/A
+https://gist.github.com/newswim/4668aef8a1f1bc0dabe8	N/A
+https://gist.github.com/837f820d38c8ac6c46e2a02a4d3c0fbd	N/A
+https://packages.debian.org/source/stable/haskell-monadlist	N/A
+https://arxiv.org/abs/1707.04724	N/A
+https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html	N/A
+https://forum.cardano.org/t/real-world-haskell-good-bad-ugly-by-saurabh-nanda-at-functional-conf-2017/12160	publication	2018-05-23
+https://www.youtube.com/watch?v=7NB8tMa8sUk	N/A
+https://arxiv.org/abs/2511.06701	N/A
+https://mailman.haskell.org/archives/	N/A
+https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1da3e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
+https://www.reddit.com/r/haskell/comments/6xkttl/why_do_haskell_needs_monad_for_io/	N/A
+https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/	N/A
+https://users.rust-lang.org/t/what-is-a-monad-and-who-needs-haskell-anyway/45710	publication	2020-07-11
+https://www.youtube.com/watch?v=ofUAlkYHFsI	N/A
+https://learnxinyminutes.com/fr/haskell/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-rio/	N/A
+https://packages.debian.org/search?keywords=libghc-io-streams-dev	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-monad-logger/	N/A
+https://packages.debian.org/testing/haskell/libghc-unliftio-dev	N/A
+https://kar.kent.ac.uk/id/document/95650	N/A
+https://packages.fedoraproject.org/pkgs/ghc-unliftio/	N/A
+https://packages.fedoraproject.org/pkgs/ghc-io-streams/ghc-io-streams-devel	N/A
+https://packages.fedoraproject.org/pkgs/ghc-http-streams/ghc-http-streams	N/A
+https://rpmfind.net/linux/RPM/fedora/devel/rawhide/s390x/g/ghc-io-streams-doc-1.5.2.2-16.fc44.noarch.html	N/A
+https://hackage.haskell.org/package/binary-io	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/users_guide.pdf	N/A
+https://cspages.ucalgary.ca/~robin/class/521/webnotes.html	N/A
+https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c045&repid=rep1&type=pdf	N/A
+https://www.michaelhanus.de/lehre/cb13/skript/notizen2013.pdf	N/A
+https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2013/	N/A
+https://whatthefunctional.wordpress.com/haskell-for-the-imperative/	publication	2018-02-26
+https://zio.dev/zio-quill/writing-queries/	N/A
+https://jdriven.com/blog/2019/10/Functional-dependency-injection-in-Scala-using-ZIO-environments	publication	2019-10-30
+https://afiore.github.io/website/blog/2020/02/15/discarding-io	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/part-4	N/A
+https://www.users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf	N/A
+https://www.stackage.org/nightly-2019-07-04/package/rio-0.1.10.0	N/A
+https://ghc.gitlab.haskell.org/ghc/doc/libraries/template-haskell-2.24.0.0-inplace/Language-Haskell-TH-Syntax.html	N/A
+https://doi.org/10.1017/s0956796824000133	publication	2024-01
+https://doi.org/10.1145/2503778.2503783	N/A
+https://doi.org/10.22152/programming-journal.org/2018/2/12	publication	2018-03-29
+https://doi.org/10.1145/2887747.2804319	N/A
+https://doi.org/10.1007/978-1-4471-3215-8	N/A
+https://doi.org/10.1007/978-1-4471-3166-3	N/A
+https://books.rakuten.co.jp/rb/10380119/	N/A
+https://www.nippyo.co.jp/shop/book/8340.html	N/A
+https://haskellweekly.news/podcast.html	N/A
+https://www.reddit.com/r/haskell/comments/1kn0jog/	N/A
+https://www.inf.ed.ac.uk/publications/report/0599.html	N/A
+https://packages.debian.org/source/bullseye/i386/misc/haskell-monadprompt	N/A
+https://packages.ubuntu.com/ca/noble/i386/libghc-iospec-doc	N/A
+https://packages.ubuntu.com/search?keywords=lift	N/A
+https://era.ed.ac.uk/bitstream/handle/1842/43690/Hollenbeck2025.pdf?sequence=1	N/A
+https://fid-core.sourceforge.net/monads-interactive.pdf	N/A
+https://hunit.sourceforge.net/HUnit-1.0/Guide.html	N/A
+https://kokogut.sourceforge.net/faq.html	N/A
+https://sourceforge.net/directory/libraries/haskell/	N/A
+https://sourceforge.net/projects/marble.mirror/	N/A
+https://sourceforge.net/projects/marble-builds/files/losksu/LosKsu_26_September.zip/download	N/A
+https://files01.core.ac.uk/download/74136999.pdf	N/A
+https://fileserver-az.core.ac.uk/download/577436407.pdf	N/A
+https://files01.core.ac.uk/download/237502259.pdf	N/A
+https://leanpub.com/purescript	N/A
+https://dantb.dev/files/dissertation.pdf	N/A
+https://www.slideshare.net/slideshow/the-io-monad/12123210	N/A
+https://www.simonpj.org/assets/papers/monadicIO13.pdf	N/A
+https://ceur-ws.org/Vol-1133/paper-17.pdf	N/A
+https://nostarch.com/download/samples/LearnYouAHaskell_Index_Sample.pdf	N/A
+https://www.numdam.org/articles/10.1051/ita:2004018/	publication	2004
+https://www.numdam.org/articles/10.1051/ita%3A2004018/	publication	2004
+https://www.numdam.org/articles/10.1051/ita:2003020/	publication	2003
+https://www.numdam.org/item/ITA_2004__38_4_375_0	publication	2004
+https://www.numdam.org/item/ITA_2003__37_4_273_0/	publication	2003
+https://numdam.org/articles/10.1051/ita%3A2003020/	publication	2003
+https://eudml.org/doc/246065	N/A
+https://web.archive.org/web/20221212192523/https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	N/A
+https://dblp.org/rec/conf/haskell/ErkokL02	N/A
+https://dblp.org/rec/journals/ita/ErkokLA05	N/A
+https://dblp.org/db/journals/ita/ita36.html	N/A
+https://www.researchgate.net/publication/220165760_An_abstract_monadic_semantics_for_value_recursion	N/A
+https://www.researchgate.net/publication/7261003_Value_Recursion_in_Monadic_Computations	N/A
+https://downloads.haskell.org/old_docs/ghc-4.01.0.0/docs/set-io.htm	N/A
+https://www.mat.uc.pt/~pedro/lectivos/docs/ghc-manual.pdf?download=1	N/A
+https://www.chriswarbo.net/monads/IOMonad.pdf	N/A
+https://www.cl.cam.ac.uk/ftp/papers/monads/	N/A
+https://leanprover.github.io/functional_programming_in_lean/monad-transformers.html	N/A
+https://leanprover.github.io/functional_programming_in_lean/monad-transformers/summary.html	N/A
+https://rocq-prover.org/doc/V8.10.1/api/coq/Logic_monad/index.html	N/A
+https://darcs.realworldhaskell.org/static/html/complete/index.html	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/implementing-a-functional-spreadsheet-in-clean/9B7355B606D0F77AD03C308C70B4FF9D	publication	1995-07
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/transactional-events1/84D5EB6061CC0B2A2C73AC148A26EB6C	publication	2008-09
+https://www.haskell.org/definition/from13.html	N/A
+https://www.haskell.org/definition/from98to13.html	N/A
+https://www.cs.cmu.edu/~fp/courses/15312-f06/handouts/17-iomonad.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/2005-ppopp-composable.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/1995/09/monadic-io.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/1987/01/slpj-book-1987-small.pdf	N/A
+https://academic.oup.com/edited-volume/34667/chapter-abstract/295394234	N/A
+https://ftp.math.utah.edu/pub/tex/bib/lncs1996b.pdf	N/A
+https://www.microsoft.com/en-us/research/publication/2005-ppopp-composable/	N/A
+https://www.haskell.org/onlinereport/haskell2010/haskellch1.html	N/A
+https://www.scs.stanford.edu/11au-cs240h/guide/IO.html	N/A
+https://www.michaelcurry.org/haskell/monads/lecture1.pdf	N/A
+https://xavierleroy.org/mpri/2-4/	N/A
+https://www.cl.cam.ac.uk/teaching/1718/L28/materials.html	N/A
+https://www.cs.uwaterloo.ca/~yizhou/courses/cs747-2026wi/schedule/	N/A
+https://www.cs.cornell.edu/courses/cs6117/2025fa/	N/A
+https://paperswelove.org/papers/tackling-the-awkward-squad-monadic-inputoutput-concurrency-exceptions-and-foreign-language-calls-in-haskell	N/A
+https://soft.vub.ac.be/~svdvonde/papers/ecoop2020-tackling-the-awkward-squad-the-actor-reactor-model.pdf	N/A
+https://www.cs.gla.ac.uk/~kh/Haskell1.3/IO.html	N/A
+https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/32/slides/jml.pdf	N/A
+https://dblp.org/rec/conf/oopsla/VonderKMM17	N/A
+https://www.cs.cmu.edu/~fp/courses/15312-f06/lectures/17-iomonad.html	N/A
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.19.pdf	N/A
+https://researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-reactor-model	N/A
+https://www.ncatlab.org/nlab/show/IO-monad	N/A
+https://www.cl.cam.ac.uk/users/adg/io.html	N/A
+https://www.cs.cornell.edu/courses/cs3110/2014sp/lectures/lecture13.htm	N/A
+http://www.cs.yale.edu/HTML/YALE/CS/haskell/haskell13.html	N/A
+https://haskell.mooc.fi/part1/monads/	N/A
+https://haskell-cafe.haskell.org/	N/A
+https://www.youtube.com/playlist?list=PLu6SHDdOToSe7ZOw-mR55j2GEjkNTQgrd	N/A
