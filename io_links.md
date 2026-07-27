@@ -3,7 +3,7 @@
 https://sigplan.github.io/OpenTOC/haskell24.html	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf	created	1993
 https://dl.acm.org/doi/pdf/10.1145/143165.143169	publication	1992
-https://dl.acm.org/doi/10.1145/143165.143169	N/A
+https://dl.acm.org/doi/10.1145/143165.143169	publication	1992
 https://dl.acm.org/doi/abs/10.1145/130697.130699	N/A
 https://dl.acm.org/doi/abs/10.1145/1238844.1238856	N/A
 https://dl.acm.org/doi/10.1145/72551.72554	N/A
@@ -13,7 +13,7 @@ https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/	1997
 https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf	N/A
 https://dl.acm.org/doi/10.1145/317765.317777	N/A
 https://homepages.inf.ed.ac.uk/wadler/papers/reflection-journal/reflection-journal.pdf	N/A
-https://link.springer.com/article/10.1007/BF01018828	N/A
+https://link.springer.com/article/10.1007/BF01018828	publication	1995-12
 https://iris-project.org/pdfs/2018-popl-runST-final.pdf	created	2018
 https://dl.acm.org/doi/10.1145/3158152	N/A
 https://cs.au.dk/~birke/papers/runST-conf.pdf	N/A
@@ -34,10 +34,10 @@ https://www.microsoft.com/en-us/research/publication/lightweight-monadic-program
 https://dl.acm.org/doi/10.1145/3331545.3342589	N/A
 https://dl.acm.org/doi/10.1145/2775050.2633368	N/A
 https://dl.acm.org/doi/10.1145/2500365.2500581	publication	2013-09-25
-https://dl.acm.org/doi/10.1145/2503778.2503791	N/A
+https://dl.acm.org/doi/10.1145/2503778.2503791	publication	2013-09-23
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf	N/A
 https://dl.acm.org/doi/10.5555/895692	N/A
-https://dl.acm.org/doi/10.1145/2887747.2804311	N/A
+https://dl.acm.org/doi/10.1145/2887747.2804311	publication	2016-01-28
 https://dl.acm.org/doi/10.1145/3156695.3122968	N/A
 https://dl.acm.org/doi/10.1145/1863523.1863536	publication	2010-09-30
 https://abhiroop.github.io/pubs/HasTEE_SGX.pdf	N/A
@@ -47,7 +47,7 @@ https://dl.acm.org/doi/10.1145/292540.292557	N/A
 https://dl.acm.org/doi/proceedings/10.1145/581690	N/A
 https://dl.acm.org/doi/pdf/10.1145/99370.99409	N/A
 https://dl.acm.org/doi/10.1145/99370.99407	N/A
-https://dl.acm.org/doi/10.1145/318593.318660	N/A
+https://dl.acm.org/doi/10.1145/318593.318660	publication	1985
 https://dl.acm.org/doi/10.5555/20652.20655	N/A
 https://dl.acm.org/doi/pdf/10.1145/258949.258973	N/A
 https://dl.acm.org/doi/10.1145/568173.568183	N/A
@@ -56,7 +56,7 @@ https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concu
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/PrettierConcurrency-Haskell2011.pdf	created	2016
 https://dl.acm.org/doi/10.1145/2096148.2034685	N/A
 https://dl.acm.org/doi/10.1145/1366230.1366241	N/A
-https://dl.acm.org/doi/pdf/10.1145/2503778.2503790	N/A
+https://dl.acm.org/doi/pdf/10.1145/2503778.2503790	publication	2013-09-23
 https://dl.acm.org/doi/pdf/10.1145/2096148.2034690	N/A
 https://dl.acm.org/doi/10.1145/378795.378858	N/A
 https://dl.acm.org/doi/pdf/10.1145/2692915.2628144	N/A
