@@ -10954,11 +10954,11 @@ https://davidtimms.github.io/typescript/effective.ts/2021/12/23/effective-ts-tut
 https://www.manning.com/books/functional-programming-in-javascript	N/A
 https://usermanual.wiki/Document/mostlyadequateguide.635039793.pdf	N/A
 https://www.lainislove.com/notes/Prof-Frisby-Funct-JS.pdf	N/A
-https://pypi.org/project/pyio-effect/	N/A
-https://pypi.org/project/PyMonad/	N/A
-https://pypi.org/project/zio-py/0.0.15/	N/A
+https://pypi.org/project/pyio-effect/	created	2025-08-18
+https://pypi.org/project/PyMonad/	created	2014-03-29
+https://pypi.org/project/zio-py/0.0.15/	created	2019-10-13
 https://monad.readthedocs.io/en/latest/intro.html	N/A
-https://pypi.org/project/monawhat/	N/A
+https://pypi.org/project/monawhat/	created	2025-05-14
 https://monad.readthedocs.io/en/latest/	N/A
 https://returns.readthedocs.io/en/0.28.0/pages/io.html	N/A
 https://monad.readthedocs.io/_/downloads/en/stable/pdf/	N/A
@@ -10966,12 +10966,12 @@ https://returns.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://returns.readthedocs.io/_/downloads/en/0.16.0/pdf/	N/A
 https://pyeffects.readthedocs.io/	N/A
 https://expression.readthedocs.io/	N/A
-https://pypi.org/project/raffiot/	N/A
+https://pypi.org/project/raffiot/	created	2021-02-03
 https://effect.readthedocs.io/en/latest/	N/A
 https://pyeffects.readthedocs.io/en/latest/monads.html	N/A
-https://pypi.org/project/zio-py/	N/A
+https://pypi.org/project/zio-py/	created	2019-10-13
 https://www.piwheels.org/project/raffiot	N/A
-https://pypi.org/project/pfun/	N/A
+https://pypi.org/project/pfun/	created	2019-08-04
 https://jasondelaat.github.io/pymonad_docs/explanations/whats-a-monad.html	N/A
 https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful.html	N/A
 https://effect.readthedocs.io/_/downloads/en/0.10/pdf/	N/A
@@ -14374,7 +14374,7 @@ https://fp.readthedocs.io/en/0.2/monads.html	N/A
 https://github.com/swiftlang/swift/blob/main/docs/ErrorHandlingRationale.md	N/A
 https://www.miguelfarrajota.com/2021/06/monads-in-python-with-pymonad/	created	2021
 https://github.com/tonivade/purefun	N/A
-https://pypi.org/project/effect/0.1a11/	N/A
+https://pypi.org/project/effect/0.1a11/	created	2014-05-28
 https://forums.swift.org/t/algebraic-effects/38769	publication	2020-07-26
 https://www.cocoawithlove.com/blog/an-aside-about-flatmap-and-monads.html	N/A
 https://lean-lang.org/functional_programming_in_lean/Monads/One-API___-Many-Applications/	N/A
@@ -24468,109 +24468,109 @@ https://principledcraft.dev/principles/testing/writing-testable-code/functional-
 https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html	created	2025
 https://www.reddit.com/r/Python/comments/1oolq4o	N/A
 https://www.reddit.com/r/Python/comments/lprsb0	N/A
-https://pypi.org/project/returns/0.10.0/	N/A
-https://pypi.org/project/returns/0.11.0/	N/A
-https://pypi.org/project/returns/0.12.0/	N/A
-https://pypi.org/project/returns/0.13.0/	N/A
-https://pypi.org/project/returns/0.14.0/	N/A
-https://pypi.org/project/returns/0.15.0/	N/A
-https://pypi.org/project/returns/0.16.0/	N/A
-https://pypi.org/project/returns/0.17.0/	N/A
-https://pypi.org/project/returns/0.18.0/	N/A
-https://pypi.org/project/returns/0.19.0/	N/A
-https://pypi.org/project/returns/0.2.0/	N/A
-https://pypi.org/project/returns/0.20.0/	N/A
-https://pypi.org/project/returns/0.20.1/	N/A
-https://pypi.org/project/returns/0.21.0/	N/A
-https://pypi.org/project/returns/0.22.0/	N/A
-https://pypi.org/project/returns/0.23.0/	N/A
-https://pypi.org/project/returns/0.24.0/	N/A
-https://pypi.org/project/returns/0.25.0/	N/A
-https://pypi.org/project/returns/0.26.0/	N/A
-https://pypi.org/project/returns/0.27.0/	N/A
-https://pypi.org/project/returns/0.28.0/	N/A
-https://pypi.org/project/returns/0.3.0/	N/A
-https://pypi.org/project/returns/0.3.1/	N/A
-https://pypi.org/project/returns/0.4.0/	N/A
-https://pypi.org/project/returns/0.5.0/	N/A
-https://pypi.org/project/returns/0.6.0/	N/A
-https://pypi.org/project/returns/0.7.0/	N/A
-https://pypi.org/project/returns/0.8.0/	N/A
-https://pypi.org/project/returns/0.9.0/	N/A
-https://pypi.org/project/effect/0.10.1/	N/A
-https://pypi.org/project/effect/0.10/	N/A
-https://pypi.org/project/effect/0.11.0/	N/A
-https://pypi.org/project/effect/0.12.0/	N/A
-https://pypi.org/project/effect/0.1a1/	N/A
-https://pypi.org/project/effect/0.1a10/	N/A
-https://pypi.org/project/effect/0.1a12/	N/A
-https://pypi.org/project/effect/0.1a13/	N/A
-https://pypi.org/project/effect/0.1a14/	N/A
-https://pypi.org/project/effect/0.1a15/	N/A
-https://pypi.org/project/effect/0.1a16/	N/A
-https://pypi.org/project/effect/0.1a17/	N/A
-https://pypi.org/project/effect/0.1a18/	N/A
-https://pypi.org/project/effect/0.1a2/	N/A
-https://pypi.org/project/effect/0.1a3/	N/A
-https://pypi.org/project/effect/0.1a4/	N/A
-https://pypi.org/project/effect/0.1a5/	N/A
-https://pypi.org/project/effect/0.1a6/	N/A
-https://pypi.org/project/effect/0.1a7/	N/A
-https://pypi.org/project/effect/0.1a8/	N/A
-https://pypi.org/project/effect/0.1a9/	N/A
-https://pypi.org/project/effect/0.9/	N/A
-https://pypi.org/project/effect/1.0.0/	N/A
-https://pypi.org/project/effect/1.1.0/	N/A
-https://pypi.org/project/pymonad/1.0/	N/A
-https://pypi.org/project/pymonad/1.1/	N/A
-https://pypi.org/project/pymonad/1.2/	N/A
-https://pypi.org/project/pymonad/1.3/	N/A
-https://pypi.org/project/pymonad/2.0.4/	N/A
-https://pypi.org/project/pymonad/2.1.0/	N/A
-https://pypi.org/project/pymonad/2.2.0/	N/A
-https://pypi.org/project/pymonad/2.3.0/	N/A
-https://pypi.org/project/pymonad/2.3.1/	N/A
-https://pypi.org/project/pymonad/2.3.2/	N/A
-https://pypi.org/project/pymonad/2.3.3/	N/A
-https://pypi.org/project/pymonad/2.3.4/	N/A
-https://pypi.org/project/pymonad/2.3.5/	N/A
-https://pypi.org/project/pymonad/2.4.0/	N/A
-https://pypi.org/project/pyeffects/1.0.0/	N/A
-https://pypi.org/project/pyeffects/1.0.1/	N/A
-https://pypi.org/project/pyeffects/1.0.2/	N/A
-https://pypi.org/project/pyeffects/1.0.3/	N/A
-https://pypi.org/project/pyeffects/1.0.4/	N/A
-https://pypi.org/project/pyeffects/1.0.5/	N/A
-https://pypi.org/project/pyio-effect/0.1.0/	N/A
-https://pypi.org/project/pyio-effect/0.1.1/	N/A
-https://pypi.org/project/pyio-effect/0.1.2/	N/A
-https://pypi.org/project/pyio-effect/0.1.3/	N/A
-https://pypi.org/project/pyio-effect/0.1.4/	N/A
-https://pypi.org/project/raffiot/0.0.2/	N/A
-https://pypi.org/project/raffiot/0.0.3/	N/A
-https://pypi.org/project/raffiot/0.0.4.1/	N/A
-https://pypi.org/project/raffiot/0.0.4.2/	N/A
-https://pypi.org/project/raffiot/0.0.4/	N/A
-https://pypi.org/project/raffiot/0.0.5/	N/A
-https://pypi.org/project/raffiot/0.0.6.1/	N/A
-https://pypi.org/project/raffiot/0.0.6.2/	N/A
-https://pypi.org/project/raffiot/0.0.6.3/	N/A
-https://pypi.org/project/raffiot/0.0.6.4/	N/A
-https://pypi.org/project/raffiot/0.0.6.5/	N/A
-https://pypi.org/project/raffiot/0.0.6.6/	N/A
-https://pypi.org/project/raffiot/0.0.6/	N/A
-https://pypi.org/project/raffiot/0.0.7/	N/A
-https://pypi.org/project/raffiot/0.1.0/	N/A
-https://pypi.org/project/raffiot/0.2.0/	N/A
-https://pypi.org/project/raffiot/0.3.0/	N/A
-https://pypi.org/project/raffiot/0.4.0/	N/A
-https://pypi.org/project/raffiot/0.5.0/	N/A
-https://pypi.org/project/raffiot/0.5.1/	N/A
-https://pypi.org/project/raffiot/0.5.2/	N/A
-https://pypi.org/project/raffiot/0.6.0/	N/A
-https://pypi.org/project/raffiot/0.6.1/	N/A
-https://pypi.org/project/raffiot/0.6.2/	N/A
-https://pypi.org/project/raffiot/0.6.3/	N/A
+https://pypi.org/project/returns/0.10.0/	created	2019-01-30
+https://pypi.org/project/returns/0.11.0/	created	2019-01-30
+https://pypi.org/project/returns/0.12.0/	created	2019-01-30
+https://pypi.org/project/returns/0.13.0/	created	2019-01-30
+https://pypi.org/project/returns/0.14.0/	created	2019-01-30
+https://pypi.org/project/returns/0.15.0/	created	2019-01-30
+https://pypi.org/project/returns/0.16.0/	created	2019-01-30
+https://pypi.org/project/returns/0.17.0/	created	2019-01-30
+https://pypi.org/project/returns/0.18.0/	created	2019-01-30
+https://pypi.org/project/returns/0.19.0/	created	2019-01-30
+https://pypi.org/project/returns/0.2.0/	created	2019-01-30
+https://pypi.org/project/returns/0.20.0/	created	2019-01-30
+https://pypi.org/project/returns/0.20.1/	created	2019-01-30
+https://pypi.org/project/returns/0.21.0/	created	2019-01-30
+https://pypi.org/project/returns/0.22.0/	created	2019-01-30
+https://pypi.org/project/returns/0.23.0/	created	2019-01-30
+https://pypi.org/project/returns/0.24.0/	created	2019-01-30
+https://pypi.org/project/returns/0.25.0/	created	2019-01-30
+https://pypi.org/project/returns/0.26.0/	created	2019-01-30
+https://pypi.org/project/returns/0.27.0/	created	2019-01-30
+https://pypi.org/project/returns/0.28.0/	created	2019-01-30
+https://pypi.org/project/returns/0.3.0/	created	2019-01-30
+https://pypi.org/project/returns/0.3.1/	created	2019-01-30
+https://pypi.org/project/returns/0.4.0/	created	2019-01-30
+https://pypi.org/project/returns/0.5.0/	created	2019-01-30
+https://pypi.org/project/returns/0.6.0/	created	2019-01-30
+https://pypi.org/project/returns/0.7.0/	created	2019-01-30
+https://pypi.org/project/returns/0.8.0/	created	2019-01-30
+https://pypi.org/project/returns/0.9.0/	created	2019-01-30
+https://pypi.org/project/effect/0.10.1/	created	2014-05-28
+https://pypi.org/project/effect/0.10/	created	2014-05-28
+https://pypi.org/project/effect/0.11.0/	created	2014-05-28
+https://pypi.org/project/effect/0.12.0/	created	2014-05-28
+https://pypi.org/project/effect/0.1a1/	created	2014-05-28
+https://pypi.org/project/effect/0.1a10/	created	2014-05-28
+https://pypi.org/project/effect/0.1a12/	created	2014-05-28
+https://pypi.org/project/effect/0.1a13/	created	2014-05-28
+https://pypi.org/project/effect/0.1a14/	created	2014-05-28
+https://pypi.org/project/effect/0.1a15/	created	2014-05-28
+https://pypi.org/project/effect/0.1a16/	created	2014-05-28
+https://pypi.org/project/effect/0.1a17/	created	2014-05-28
+https://pypi.org/project/effect/0.1a18/	created	2014-05-28
+https://pypi.org/project/effect/0.1a2/	created	2014-05-28
+https://pypi.org/project/effect/0.1a3/	created	2014-05-28
+https://pypi.org/project/effect/0.1a4/	created	2014-05-28
+https://pypi.org/project/effect/0.1a5/	created	2014-05-28
+https://pypi.org/project/effect/0.1a6/	created	2014-05-28
+https://pypi.org/project/effect/0.1a7/	created	2014-05-28
+https://pypi.org/project/effect/0.1a8/	created	2014-05-28
+https://pypi.org/project/effect/0.1a9/	created	2014-05-28
+https://pypi.org/project/effect/0.9/	created	2014-05-28
+https://pypi.org/project/effect/1.0.0/	created	2014-05-28
+https://pypi.org/project/effect/1.1.0/	created	2014-05-28
+https://pypi.org/project/pymonad/1.0/	created	2014-03-29
+https://pypi.org/project/pymonad/1.1/	created	2014-03-29
+https://pypi.org/project/pymonad/1.2/	created	2014-03-29
+https://pypi.org/project/pymonad/1.3/	created	2014-03-29
+https://pypi.org/project/pymonad/2.0.4/	created	2014-03-29
+https://pypi.org/project/pymonad/2.1.0/	created	2014-03-29
+https://pypi.org/project/pymonad/2.2.0/	created	2014-03-29
+https://pypi.org/project/pymonad/2.3.0/	created	2014-03-29
+https://pypi.org/project/pymonad/2.3.1/	created	2014-03-29
+https://pypi.org/project/pymonad/2.3.2/	created	2014-03-29
+https://pypi.org/project/pymonad/2.3.3/	created	2014-03-29
+https://pypi.org/project/pymonad/2.3.4/	created	2014-03-29
+https://pypi.org/project/pymonad/2.3.5/	created	2014-03-29
+https://pypi.org/project/pymonad/2.4.0/	created	2014-03-29
+https://pypi.org/project/pyeffects/1.0.0/	created	2020-03-28
+https://pypi.org/project/pyeffects/1.0.1/	created	2020-03-28
+https://pypi.org/project/pyeffects/1.0.2/	created	2020-03-28
+https://pypi.org/project/pyeffects/1.0.3/	created	2020-03-28
+https://pypi.org/project/pyeffects/1.0.4/	created	2020-03-28
+https://pypi.org/project/pyeffects/1.0.5/	created	2020-03-28
+https://pypi.org/project/pyio-effect/0.1.0/	created	2025-08-18
+https://pypi.org/project/pyio-effect/0.1.1/	created	2025-08-18
+https://pypi.org/project/pyio-effect/0.1.2/	created	2025-08-18
+https://pypi.org/project/pyio-effect/0.1.3/	created	2025-08-18
+https://pypi.org/project/pyio-effect/0.1.4/	created	2025-08-18
+https://pypi.org/project/raffiot/0.0.2/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.3/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.4.1/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.4.2/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.4/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.5/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6.1/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6.2/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6.3/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6.4/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6.5/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6.6/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.6/	created	2021-02-03
+https://pypi.org/project/raffiot/0.0.7/	created	2021-02-03
+https://pypi.org/project/raffiot/0.1.0/	created	2021-02-03
+https://pypi.org/project/raffiot/0.2.0/	created	2021-02-03
+https://pypi.org/project/raffiot/0.3.0/	created	2021-02-03
+https://pypi.org/project/raffiot/0.4.0/	created	2021-02-03
+https://pypi.org/project/raffiot/0.5.0/	created	2021-02-03
+https://pypi.org/project/raffiot/0.5.1/	created	2021-02-03
+https://pypi.org/project/raffiot/0.5.2/	created	2021-02-03
+https://pypi.org/project/raffiot/0.6.0/	created	2021-02-03
+https://pypi.org/project/raffiot/0.6.1/	created	2021-02-03
+https://pypi.org/project/raffiot/0.6.2/	created	2021-02-03
+https://pypi.org/project/raffiot/0.6.3/	created	2021-02-03
 https://www.youtube.com/watch?v=fM5d_2BS6FY	N/A
 https://www.youtube.com/watch?v=Ja6yP4ufSko	N/A
 https://www.youtube.com/watch?v=NMEnvmGjNLc	N/A
