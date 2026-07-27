@@ -27922,7 +27922,7 @@ https://www.reddit.com/r/haskell/comments/1n5xiwe	N/A
 https://www.reddit.com/r/haskellquestions/comments/k9cp2t	N/A
 https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/binary-0.8.3.0/Data-Binary-Get.html	N/A
 https://ep2015.europython.eu/media/conference/slides/exploring-the-haskell-ecosystem-to-bring-back-some-ideas.pdf	created	2015
-https://hackage.haskell.org/package/attoparsec-0.9.1.2/docs/Data-Attoparsec.html	N/A
+https://hackage.haskell.org/package/attoparsec-0.9.1.2/docs/Data-Attoparsec.html	created	2011-08-22
 https://hackage.haskell.org/package/binary/docs/Data-Binary.html	created	2025-01-28
 https://hackage.haskell.org/package/streaming-utils/docs/Data-ByteString-Streaming-Aeson.html	created	2024-09-20
 https://hackage-content.haskell.org/package/bytestring-0.12.2.0/docs/Data-ByteString-Lazy.html	N/A
@@ -27934,10 +27934,10 @@ https://www.reddit.com/r/haskell/comments/wxws01	N/A
 https://www.reddit.com/r/haskellquestions/comments/16abssx	N/A
 https://www.reddit.com/r/haskellquestions/comments/lf8we0	N/A
 https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/text-manipulation/attoparsec	N/A
-https://hackage.haskell.org/package/http-client-0.3.6.1/docs/Network-HTTP-Client.html	N/A
-https://hackage.haskell.org/package/http-client-0.4.18/docs/Network-HTTP-Client.html	N/A
+https://hackage.haskell.org/package/http-client-0.3.6.1/docs/Network-HTTP-Client.html	created	2014-08-03
+https://hackage.haskell.org/package/http-client-0.4.18/docs/Network-HTTP-Client.html	created	2015-07-21
 https://www.reddit.com/r/haskell/comments/1rsud8p	N/A
-https://hackage.haskell.org/package/pgsql-simple-0.1.2/docs/src/Database-PostgreSQL-Base.html	N/A
+https://hackage.haskell.org/package/pgsql-simple-0.1.2/docs/src/Database-PostgreSQL-Base.html	created	2013-03-05
 https://hackage.haskell.org/package/pgstream	N/A
 https://hackage.haskell.org/package/postgresql-simple/docs/Database-PostgreSQL-Simple.html	created	2025-08-02
 https://hackage.haskell.org/package/postgresql-simple/docs/Database-PostgreSQL-Simple-Transaction.html	created	2025-08-02
@@ -28108,7 +28108,7 @@ https://qfpl.io/posts/reflex/basics/introduction/	N/A
 https://research.chalmers.se/en/publication/525644	publication	2015
 https://www.cs.yale.edu/homes/external/nilsson/Publications/hw2002.pdf	created	2002
 https://arxiv.org/abs/1703.05227	N/A
-https://hackage.haskell.org/package/free-4.12.4/docs/Control-Monad-Free.html	N/A
+https://hackage.haskell.org/package/free-4.12.4/docs/Control-Monad-Free.html	created	2016-01-17
 https://hackage-content.haskell.org/package/free	N/A
 https://michael.homer.nz/Thesis/thesis.pdf	N/A
 https://www.cis.upenn.edu/~stevez/papers/KLL%2B19.pdf	N/A
@@ -28218,7 +28218,7 @@ https://packages.ubuntu.com/ca/source/noble/i386/haskell-iospec	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2015-November/122224.html	created	2015
 https://flora.pm/packages/%40hackage/io-sim/1.4.1.0/changelog	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.io-classes	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs	N/A
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs	created	2023-07-28
 https://input-output-hk.github.io/io-sim/io-classes/Control-Monad-Class-MonadST.html	N/A
 https://input-output-hk.github.io/io-sim/io-classes/mtl/doc-index.html	N/A
 https://people.kth.se/~buiras/publications/plas2015.pdf	created	2015
@@ -28400,11 +28400,11 @@ https://www.speicherleck.de/iblech/klasse11/index.pdf	N/A
 http://www.scs.stanford.edu/~deian/pubs/stefan:2011:flexible-ext.pdf	created	2011
 https://www.researchgate.net/publication/221440154_Fine_Control_of_Demand_in_Haskell	N/A
 https://hackage.haskell.org/package/smallcheck/docs/Test-SmallCheck.html	created	2023-06-04
-https://hackage.haskell.org/package/aivika-1.2/candidate/src/doc/aivika.pdf	N/A
+https://hackage.haskell.org/package/aivika-1.2/candidate/src/doc/aivika.pdf	created	2014-05-18
 https://hackage.haskell.org/package/futhask	N/A
 https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/?lang=japublications%2F%3Fpg%3D0&pg=96	N/A
 https://www.microsoft.com/en-us/research/podcast/advancing-excel-as-a-programming-language-with-andy-gordon-and-simon-peyton-jones/?lang=fr_ca&locale=fr-ca	N/A
-https://hackage.haskell.org/package/hxt-7.1/src/doc/cookbook/doc/thesis.pdf	N/A
+https://hackage.haskell.org/package/hxt-7.1/src/doc/cookbook/doc/thesis.pdf	created	2007-02-05
 https://ris.utwente.nl/ws/files/26329366/scriptieSE.pdf	N/A
 https://well-typed.com/blog/2024/10/haskell-unfolder-episode-34-you-already-understand-monads/	created	2024
 https://www.reddit.com/r/haskell/comments/hu5n9t/part-3-of-game-of-life-polyglot-fp-haskell-scala-unison	N/A
@@ -28490,7 +28490,7 @@ https://github.com/stepchowfun/effects	N/A
 https://github.com/zenhack/haskell-ocap	N/A
 https://github.com/ZHaskell/stdio	N/A
 https://github.com/ZHaskell/z-io	N/A
-https://hackage.haskell.org/package/base-4.10.0.0/docs/Prelude.html	N/A
+https://hackage.haskell.org/package/base-4.10.0.0/docs/Prelude.html	created	2017-07-23
 https://hackage.haskell.org/package/polysemy	N/A
 https://haskell.pesquisa.ufabc.edu.br/cursos/12-programa%C3%A7%C3%A3o-funcional-2024/	created	2024
 https://kar.kent.ac.uk/14117/1/SOFTWARE_MEASUREMENT_FOR.pdf	N/A
@@ -28565,15 +28565,15 @@ https://citeseerx.ist.psu.edu/document?doi=c0a3eb80020e2e162116901b5ae83dd4b060c
 https://github.com/input-output-hk/io-sim/tree/master/io-classes	N/A
 https://github.com/input-output-hk/io-sim/tree/master/io-sim	N/A
 https://github.com/oisim/iospec	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class.html	N/A
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class.html	created	2025-11-27
 https://hackage.haskell.org/package/jail-0.1.1	N/A
-https://hackage.haskell.org/package/monad-effect-0.2.3.1/docs/Control-Monad-Effect.html	N/A
+https://hackage.haskell.org/package/monad-effect-0.2.3.1/docs/Control-Monad-Effect.html	created	2025-12-16
 https://hackage.haskell.org/package/monadIO-0.10.0/docs/Control-Concurrent-MonadIO.html	N/A
 https://hackage-content.haskell.org/package/Test-QuickCheck-2.16.0.0/docs/Test-QuickCheck-Monadic.html	N/A
 https://www.dev.to/chenge/a-good-video-for-haskell-monad-5no	N/A
 https://www.haskell-links.org/	N/A
 https://dorchard.co.uk/publ/haskell14-effects.pdf	N/A
-https://hackage.haskell.org/package/linear-base-0.8.0/docs/src/System.IO.Linear.html	N/A
+https://hackage.haskell.org/package/linear-base-0.8.0/docs/src/System.IO.Linear.html	created	2026-05-13
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/20-monads-intro/monads-intro.html	N/A
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/20-monads-intro/monads-intro.scala	N/A
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/21-io-monad/io-monad.html	N/A
@@ -28654,7 +28654,7 @@ https://hackage.haskell.org/package/lio-fs	N/A
 https://hackage.haskell.org/package/lmonad	N/A
 https://uu-afp.github.io/as2.html	N/A
 https://cpradic.web.deuxfleurs.fr/cs205-2425-files/iomonad.pdf	N/A
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem.html	created	2024-11-27
 https://haskell.org/haskell-workshop/2007/AcceptedPapers.html	created	2007
 https://www.reddit.com/r/haskell/comments/12rg4hr/iosim_on_hackage/	N/A
 https://www.sambuz.com/doc/io-monad-imperative-programming-in-haskell-deian-stefan-ppt-presentation-846124	N/A
@@ -28668,9 +28668,9 @@ https://hackage.haskell.org/package/stateful-mtl/docs/Control-Monad-ST-Class.htm
 https://hackage.haskell.org/package/stm-io-hooks	N/A
 https://hackage.haskell.org/package/stm-lifted	N/A
 https://gist.github.com/CMCDragonkai/196227d39ad893e972c1	N/A
-https://hackage.haskell.org/package/explicit-exception-0.2/src/src/System/IO/Straight.hs	N/A
+https://hackage.haskell.org/package/explicit-exception-0.2/src/src/System/IO/Straight.hs	created	2023-01-14
 https://hackage.haskell.org/package/io-sim/issues	created	2026-04-15
-https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs	N/A
+https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs	created	2012-06-18
 https://input-output-hk.github.io/cardano-haskell-packages/all-package-versions/index.html	N/A
 https://input-output-hk.github.io/cardano-haskell-packages/package/network-mux-0.4.5.3/	N/A
 https://input-output-hk.github.io/io-sim/io-classes/strict-stm/doc-index.html	N/A
@@ -28679,8 +28679,8 @@ https://teaching.well-typed.com/certificate/d92541c856a2b6c5e79dbeced53cb4e60d46
 https://well-typed.com/blog/aux/files/multicore-less-pain-slides.pdf	N/A
 https://www.classes.uchicago.edu/archive/2012/spring/22300-1/lectures.html	created	2012
 https://www.effective-haskell.com/chapters/chapter7.html	N/A
-https://hackage.haskell.org/package/ghc-lib-9.8.4.20241130/docs/GHC.html	N/A
-https://hackage.haskell.org/package/hspec-1.12.0/docs/Test-Hspec.html	N/A
+https://hackage.haskell.org/package/ghc-lib-9.8.4.20241130/docs/GHC.html	created	2024-11-30
+https://hackage.haskell.org/package/hspec-1.12.0/docs/Test-Hspec.html	created	2014-10-19
 https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Data-IOEnv.html	N/A
 https://haskell.org/communities/05-2007/html/report.html	created	2007
 https://stackage.org/lts-24.39/package/io-machine-0.2.0.0	N/A
@@ -28693,10 +28693,10 @@ https://hackage.haskell.org/package/perf	N/A
 https://haskell.org/communities/05-2018/report.pdf	created	2018
 https://learnyouahaskell.github.io/a-fistful-of-monads	N/A
 https://github.com/yinguanhao/pipes-io	N/A
-https://hackage.haskell.org/package/aivika-1.2/src/doc/aivika.pdf	N/A
-https://hackage.haskell.org/package/CheatSheet-1.8/src/CheatSheet.pdf	N/A
-https://hackage.haskell.org/package/dynamic-loader-0.0.1/src/dynamic-linker.pdf	N/A
-https://hackage.haskell.org/package/effectful-2.2.0.0/docs	N/A
+https://hackage.haskell.org/package/aivika-1.2/src/doc/aivika.pdf	created	2014-05-18
+https://hackage.haskell.org/package/CheatSheet-1.8/src/CheatSheet.pdf	created	2009-03-28
+https://hackage.haskell.org/package/dynamic-loader-0.0.1/src/dynamic-linker.pdf	created	2016-08-25
+https://hackage.haskell.org/package/effectful-2.2.0.0/docs	created	2022-10-24
 https://hackage.haskell.org/package/event-monad-0.0.2.0	N/A
 https://hackage.haskell.org/package/io-reactive	N/A
 https://hackage.haskell.org/package/ixmonad	N/A
