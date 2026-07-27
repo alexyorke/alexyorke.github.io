@@ -14405,9 +14405,9 @@ https://mail.haskell.org/pipermail/libraries/2013-March/019528.html	created	2013
 https://waseda.repo.nii.ac.jp/record/16691/files/RikoShuron_2015_Isojima.pdf	created	2015
 https://www.npmjs.com/search?q=keywords%3A%22IO+monad%22	N/A
 https://www.npmjs.com/package/monet	N/A
-https://www.npmjs.com/package/monio?activeTab=readme	N/A
+https://www.npmjs.com/package/monio?activeTab=readme	created	2020-05-22
 https://javadoc.io/static/org.functionaljava/functionaljava/4.9/fj/data/package-summary.html	N/A
-https://www.npmjs.com/package/funfix?activeTab=readme	N/A
+https://www.npmjs.com/package/funfix?activeTab=readme	created	2017-06-05
 https://stackoverflow.com/questions/55358197/how-to-properly-create-dom-elements-using-io-monads	N/A
 https://www.skypack.dev/view/monadsjs	N/A
 https://citeseerx.ist.psu.edu/document?doi=601d9f013f1d980b5b368a34250dc0b4548e0960&repid=rep1&type=pdf	N/A
@@ -23221,7 +23221,7 @@ https://effect-ts.github.io/effect/effect/Fiber.ts.html	N/A
 https://effect-ts.github.io/effect/effect/Scope.ts.html	N/A
 https://app.unpkg.com/effect%403.13.2/files/dist/dts/Runtime.d.ts	N/A
 https://effect-ts.github.io/effect/effect/Layer.ts.html	N/A
-https://www.npmjs.com/package/effect?activeTab=readme	N/A
+https://www.npmjs.com/package/effect?activeTab=readme	created	2022-11-23
 https://effect-ts.github.io/effect/effect/FiberHandle.ts.html	N/A
 https://www.reddit.com/r/functionalprogramming/comments/19f8s6b	N/A
 https://www.reddit.com/r/typescript/comments/1ns6vma	N/A
@@ -23922,101 +23922,101 @@ https://www.reddit.com/r/functionalprogramming/comments/1496zgr	N/A
 https://www.reddit.com/r/functionalprogramming/comments/zmls5v	N/A
 https://www.reddit.com/r/functionalprogramming/comments/o881sz	N/A
 https://www.reddit.com/r/typescript/comments/r2qqcd	N/A
-https://www.npmjs.com/package/data.task/v/3.0.0	N/A
-https://www.npmjs.com/package/data.task/v/3.1.0	N/A
-https://www.npmjs.com/package/data.task/v/3.1.1	N/A
-https://www.npmjs.com/package/data.task/v/3.1.2	N/A
-https://www.npmjs.com/package/folktale/v/1.0.0-SNAPSHOT	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha1	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha2	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha3	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha4	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0-beta1	N/A
-https://www.npmjs.com/package/folktale/v/2.0.0-rc1	N/A
-https://www.npmjs.com/package/folktale/v/2.0.1	N/A
-https://www.npmjs.com/package/folktale/v/2.1.0	N/A
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha1	N/A
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha2	N/A
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha3	N/A
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha4	N/A
-https://www.npmjs.com/package/folktale/v/2.1.0-rc1	N/A
-https://www.npmjs.com/package/folktale/v/2.2.0-alpha1	N/A
-https://www.npmjs.com/package/folktale/v/2.3.0	N/A
-https://www.npmjs.com/package/folktale/v/2.3.1	N/A
-https://www.npmjs.com/package/folktale/v/2.3.2	N/A
-https://www.npmjs.com/package/folktale/v/3.0.0-alpha5	N/A
-https://www.npmjs.com/package/folktale/v/3.0.1-ts	N/A
-https://www.npmjs.com/package/sanctuary/v/0.1.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.10.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.11.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.11.1	N/A
-https://www.npmjs.com/package/sanctuary/v/0.12.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.12.1	N/A
-https://www.npmjs.com/package/sanctuary/v/0.12.2	N/A
-https://www.npmjs.com/package/sanctuary/v/0.13.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.13.1	N/A
-https://www.npmjs.com/package/sanctuary/v/0.13.2	N/A
-https://www.npmjs.com/package/sanctuary/v/0.14.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.14.1	N/A
-https://www.npmjs.com/package/sanctuary/v/0.15.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.15.1	N/A
-https://www.npmjs.com/package/sanctuary/v/0.2.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.3.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.4.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.5.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.6.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.7.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.7.1	N/A
-https://www.npmjs.com/package/sanctuary/v/0.8.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.9.0	N/A
-https://www.npmjs.com/package/sanctuary/v/0.9.1	N/A
-https://www.npmjs.com/package/sanctuary/v/1.0.0	N/A
-https://www.npmjs.com/package/sanctuary/v/1.1.0	N/A
-https://www.npmjs.com/package/sanctuary/v/2.0.0	N/A
-https://www.npmjs.com/package/sanctuary/v/2.0.1	N/A
-https://www.npmjs.com/package/sanctuary/v/2.0.2	N/A
-https://www.npmjs.com/package/sanctuary/v/3.0.0	N/A
-https://www.npmjs.com/package/sanctuary/v/3.1.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.0.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.0.2	N/A
-https://www.npmjs.com/package/fp-ts/v/0.0.3	N/A
-https://www.npmjs.com/package/fp-ts/v/0.0.4	N/A
-https://www.npmjs.com/package/fp-ts/v/0.1.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.1.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.2	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.3	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.4	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.5	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.6	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.7	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.8	N/A
-https://www.npmjs.com/package/fp-ts/v/0.2.9	N/A
-https://www.npmjs.com/package/fp-ts/v/0.3.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.3.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.3.2	N/A
-https://www.npmjs.com/package/fp-ts/v/0.3.3	N/A
-https://www.npmjs.com/package/fp-ts/v/0.3.4	N/A
-https://www.npmjs.com/package/fp-ts/v/0.3.5	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.2	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.3	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.4	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.5	N/A
-https://www.npmjs.com/package/fp-ts/v/0.4.6	N/A
-https://www.npmjs.com/package/fp-ts/v/0.5.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.5.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.5.2	N/A
-https://www.npmjs.com/package/fp-ts/v/0.5.3	N/A
-https://www.npmjs.com/package/fp-ts/v/0.5.4	N/A
-https://www.npmjs.com/package/fp-ts/v/0.6.0	N/A
-https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171013	N/A
-https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171016	N/A
-https://www.npmjs.com/package/fp-ts/v/0.6.1	N/A
-https://www.npmjs.com/package/fp-ts/v/0.6.2	N/A
+https://www.npmjs.com/package/data.task/v/3.0.0	created	2015-03-22
+https://www.npmjs.com/package/data.task/v/3.1.0	created	2015-03-22
+https://www.npmjs.com/package/data.task/v/3.1.1	created	2015-03-22
+https://www.npmjs.com/package/data.task/v/3.1.2	created	2015-03-22
+https://www.npmjs.com/package/folktale/v/1.0.0-SNAPSHOT	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha2	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha3	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha4	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0-beta1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.0-rc1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.0.1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.1.0	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha2	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha3	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha4	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.1.0-rc1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.2.0-alpha1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.3.0	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.3.1	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/2.3.2	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/3.0.0-alpha5	created	2015-05-11
+https://www.npmjs.com/package/folktale/v/3.0.1-ts	created	2015-05-11
+https://www.npmjs.com/package/sanctuary/v/0.1.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.10.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.11.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.11.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.12.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.12.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.12.2	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.13.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.13.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.13.2	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.14.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.14.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.15.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.15.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.2.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.3.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.4.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.5.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.6.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.7.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.7.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.8.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.9.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/0.9.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/1.0.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/1.1.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/2.0.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/2.0.1	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/2.0.2	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/3.0.0	created	2015-01-22
+https://www.npmjs.com/package/sanctuary/v/3.1.0	created	2015-01-22
+https://www.npmjs.com/package/fp-ts/v/0.0.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.0.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.0.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.0.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.1.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.1.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.7	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.8	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.2.9	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.3.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.3.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.3.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.3.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.3.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.3.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.4.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.5.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.5.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.5.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.5.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.5.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.6.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171013	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171016	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.6.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/0.6.2	created	2017-02-11
 https://www.npmjs.com/package/fp-ts/v/0.6.3	N/A
 https://www.npmjs.com/package/fp-ts/v/0.6.4	N/A
 https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171120	N/A
