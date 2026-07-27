@@ -12590,12 +12590,12 @@ https://dblp.org/rec/conf/popl/2016.html	created	2016
 https://dblp.org/rec/conf/popl/2016	created	2016
 https://dblp.org/rec/conf/popl/OrchardY16	published	2016
 https://doi.org/10.1145/2837614.2837634	published	2016-01-11
-https://dl.acm.org/doi/10.1145/2837614.2837634	N/A
+https://dl.acm.org/doi/10.1145/2837614.2837634	published	2016-01-11
 https://doi.org/10.4204/EPTCS.203.1	publication	2016-02-10
 https://eptcs.org/paper.cgi?PLACES2015.1	created	2015
 https://eptcs.org/paper.cgi?PLACES2015.1.pdf	created	2015
 https://doi.org/10.1145/2914770.2837634	published	2016-04-08
-https://dl.acm.org/doi/10.1145/2914770.2837634	N/A
+https://dl.acm.org/doi/10.1145/2914770.2837634	published	2016-04-08
 https://dblp.org/rec/conf/popl/OrchardY16.html	published	2016
 https://dblp.org/rec/conf/popl/OrchardY16.bib	published	2016
 https://dblp.org/rec/conf/popl/OrchardY16.xml	published	2016
@@ -26865,8 +26865,8 @@ https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic_Sli
 https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic_Slides/ITrees.html	modified	2024-05-31
 https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic_Slides/Monads.html	modified	2024-05-31
 https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic_Slides/toc.html	modified	2024-05-31
-https://dl.acm.org/doi/10.1145/3293880.3294106	N/A
-https://dl.acm.org/doi/10.1145/3371119	N/A
+https://dl.acm.org/doi/10.1145/3293880.3294106	published	2019-01-14
+https://dl.acm.org/doi/10.1145/3371119	published	2020
 https://dl.acm.org/doi/abs/10.1145/3372885.3373813	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2021.32	created	2021
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol193-itp2021/LIPIcs.ITP.2021.32/LIPIcs.ITP.2021.32.pdf	created	2021
@@ -26936,7 +26936,7 @@ https://cs3110.github.io/textbook/ocaml_programming.pdf	N/A
 https://dev.realworldocaml.org/concurrent-programming.html	N/A
 https://discuss.ocaml.org/t/we-need-to-stop-recommending-real-world-ocaml-as-introduction-text/11073	publication	2022-12-29
 https://discuss.ocaml.org/t/with-domains-is-anyone-actively-creating-or-updating-their-fault-tolerant-let-it-crash-like-framework-in-ocaml/8534	publication	2021-09-26
-https://dl.acm.org/doi/10.1145/1411304.1411307	N/A
+https://dl.acm.org/doi/10.1145/1411304.1411307	published	2008-09-21
 https://dl.acm.org/doi/pdf/10.1145/1411304.1411307	N/A
 https://hal.science/hal-00493213v1/document	N/A
 https://hal.science/hal-02865894v1/document	N/A
@@ -29850,7 +29850,7 @@ https://www.educative.io/courses/functional-programming-haskell	N/A
 https://www.scs.stanford.edu/14sp-cs240h/slides/functors-monads.html	modified	2014-05-02
 https://www.stackage.org/package/hashmap	indexed	2026-07-27
 http://dx.doi.org/10.1145/1160074.1159823	N/A
-https://dl.acm.org/doi/10.1145/1291201.1291206	N/A
+https://dl.acm.org/doi/10.1145/1291201.1291206	published	2007-09-30
 https://hackage.haskell.org/package/errors-ext-0.4.1	published	2017-12-07
 https://www.eurekamag.com/research/104/856/104856751.php	N/A
 https://www.stackage.org/lts-10.5/package/io-manager-0.1.0.2	indexed	2026-07-27
@@ -29863,8 +29863,8 @@ https://www.stackage.org/nightly-2026-07-08/package/monad-interleave-0.2.0.1	cre
 https://www.stackage.org/nightly-2026-07-08/package/monad-unlift-0.2.0	created	2026
 https://www.stackage.org/nightly-2026-07-08/package/monad-unlift-ref-0.2.1	created	2026
 https://arxiv.org/abs/2301.10519	created	2023-01
-https://dl.acm.org/doi/10.1007/978-3-642-32096-5_7	N/A
-https://dl.acm.org/doi/10.1145/3133934	N/A
+https://dl.acm.org/doi/10.1007/978-3-642-32096-5_7	published	2012
+https://dl.acm.org/doi/10.1145/3133934	published	2017-10-12
 https://doi.org/10.1145/2500365.2500581	published	2013-09-25
 https://hackage.haskell.org/package/data-effects	published	2025-04-24
 https://hackage.haskell.org/package/effectful/docs	created	2025-08-30
@@ -32666,7 +32666,7 @@ https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/transformers-0.5.6.2
 https://courses.seas.harvard.edu/courses/cs152/2024sp/lectures/lec18-monads.pdf	created	2024
 https://www.classcentral.com/subject/monads	N/A
 https://arxiv.org/abs/2312.14964	created	2023-12
-https://dl.acm.org/doi/10.1145/3331545.3342598	N/A
+https://dl.acm.org/doi/10.1145/3331545.3342598	published	2019-08-08
 https://icfp19.sigplan.org/details/haskellsymp-2019-papers/10/Scoping-Monadic-Relational-Database-Queries	created	2019
 https://www.cs.ox.ac.uk/people/samuel.staton/papers/mfps2021.pdf	created	2021
 https://khibino.github.io/haskell-relational-record/pdf/hrr-haskell-sympo2016-rejected.pdf	created	2016
