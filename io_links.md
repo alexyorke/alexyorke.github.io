@@ -1099,7 +1099,7 @@ https://www.cs.tufts.edu/~nr/cs257/archive/simon-peyton-jones/imperative.pdf	N/A
 https://cw.fel.cvut.cz/b222/_media/courses/fup/lectures/lecture12_2020.pdf	created	2020
 https://www.cse.chalmers.se/edu/year/2015/course/TDA342_Advanced_Functional_Programming/lectures.html	created	2015
 https://www.monoidal.net/papers/qhaskell.pdf	N/A
-https://dl.acm.org/doi/10.1145/3331543.3342585	N/A
+https://dl.acm.org/doi/10.1145/3331543.3342585	publication	2019-08-23
 https://www.cs.unm.edu/~eschulte/classes/cs558/data/effectstocl.pdf	N/A
 https://direct.mit.edu/books/edited-volume/chapter-pdf/2304816/9780262291248_cac.pdf	N/A
 https://homepages.inf.ed.ac.uk/wadler/papers/effectstocl/effectstocl.pdf	N/A
@@ -1287,7 +1287,7 @@ https://john.cs.olemiss.edu/~hcc/csci450/notes/haskell_notes.pdf	N/A
 https://staff.ustc.edu.cn/~yuzhang/fopl/2013s/lectures/hw4.pdf	created	2013
 https://people.inf.elte.hu/pgj/wsps3/haskell-lecture.pdf	N/A
 https://abhiroop.github.io/slides/HasTEE_UC_SantaCruz.pdf	N/A
-https://dl.acm.org/doi/10.1145/3609026.3609731	N/A
+https://dl.acm.org/doi/10.1145/3609026.3609731	publication	2023-08-30
 https://www.scs.stanford.edu/11au-cs240h/projects/haven.pdf	N/A
 https://www.cse.chalmers.se/~rjmh/tfp/proceedings/TFP_2020_paper_2.pdf	created	2020
 https://www.cs.cmu.edu/~crary/cmtool/manual.pdf	N/A
@@ -1439,7 +1439,7 @@ https://digitalcollections.ohsu.edu/record/3801/files/csetech-118.pdf?ln=en	N/A
 https://www.haskell.org/communities/05-2018/html/report.html	created	2018
 https://lmf.di.uminho.pt/Ibex/carvalho23.pdf	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/putting.pdf	created	2016
-https://dl.acm.org/doi/10.1145/581690.581693	N/A
+https://dl.acm.org/doi/10.1145/581690.581693	publication	2002-10-03
 https://leventerkok.github.io/papers/erkok-defenseSlides.pdf	N/A
 https://www-users.york.ac.uk/~sf786/simon-foster/assets/pdf/SDF-Thesis.pdf	N/A
 https://www.cse.chalmers.se/edu/course.2018/DAT280_Parallel_Functional_Programming/Papers/PMCJFP.pdf	created	2018
@@ -1507,7 +1507,7 @@ https://dl.acm.org/doi/10.5555/25946.25949	N/A
 https://link.springer.com/chapter/10.1007/3-540-61064-2_46	publication	1996
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/tfp-proc.pdf	N/A
 https://link.springer.com/chapter/10.1007/3-540-48515-5_5	publication	1999
-https://dl.acm.org/doi/10.1007/11431664_11	N/A
+https://dl.acm.org/doi/10.1007/11431664_11	publication	2005
 https://www.academia.edu/546572/A_language_for_reasoning_about_concurrent_functional_I_O	N/A
 https://launchbury.blog/technical/publications/	publication	2019-01-28
 https://launchbury.blog/wp-content/uploads/2019/01/lazy-functional-state-threads.pdf	created	2019
@@ -1865,7 +1865,7 @@ https://tweag.io/blog/2022-01-19-why-liquid-haskell/	created	2022
 https://tweag.io/blog/2021-06-15-asciidoc-haskell-pandoc/	created	2021
 https://tweag.io/blog/2017-11-29-linear-jvm/	created	2017
 https://books.google.com/books/about/Get_Programming_with_Haskell.html?id=bzczEAAAQBAJ	N/A
-https://dl.acm.org/doi/pdf/10.1145/289423.289429	N/A
+https://dl.acm.org/doi/pdf/10.1145/289423.289429	publication	1998-09-29
 https://www.cultured.systems/2022/10/01/Implementing-IO-Java/	created	2022
 https://lambdaland.org/posts/2024-05-01_definitely_not_about_monads/	created	2024
 https://www.jerf.org/iri/post/2025/fp_lessons_actual_fp/	created	2025
@@ -1885,7 +1885,7 @@ https://haskelle.blogspot.com/2013/02/haskell-binding-operator-introduction.html
 https://dev.to/drbearhands/haskell-for-madmen-hello-monad-3926	N/A
 https://medium.com/sourcescribes/what-is-haskell-853b6949a800	N/A
 https://medium.com/%40RaymondTayBL/journey-to-the-io-monad-part-3-1-35813c7f48ac	N/A
-https://dl.acm.org/doi/10.1145/158511.158524	N/A
+https://dl.acm.org/doi/10.1145/158511.158524	publication	1993
 https://xmonad.github.io/xmonad-docs/base-4.16.4.0/System-IO.html	N/A
 https://google.github.io/mlir-hs/base-4.14.1.0/GHC-IO.html	N/A
 https://charemza.name/blog/posts/haskell/monad/haskell-beauty-horror-monads/	N/A
@@ -1981,7 +1981,7 @@ https://mvanier.livejournal.com/4586.html	N/A
 https://link.springer.com/content/pdf/10.1007/3-540-59451-5_2.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/automatically-testing-console-io-behavior-of-student-submissions-in-haskell/20BF7DCA6330A2115C2C2B9BA47AB2E0	publication	2025-01
 https://assets.cambridge.org/97813166/26221/frontmatter/9781316626221_frontmatter.pdf	N/A
-https://link.springer.com/chapter/10.1007/3-540-59451-5_7	N/A
+https://link.springer.com/chapter/10.1007/3-540-59451-5_7	publication	1995
 https://www.slideshare.net/slideshow/dr-frankenfunctor-and-the-monadster/53995802	N/A
 https://github.com/fogfish/monad.js	N/A
 https://kristofsl.medium.com/a-gentle-introduction-to-monads-bc583d41d95	publication	2021-03-08
@@ -2032,8 +2032,8 @@ https://www.oreilly.com/library/view/practical-haskell-a/9781484244807/	N/A
 https://lambda-theultimate.org/node/1183	N/A
 https://cse.sc.edu/~mgv/csce330f23/haskell/haskell2010.pdf	created	2010
 https://hal.science/hal-02368138	N/A
-https://dl.acm.org/doi/pdf/10.1145/3677996.3678293	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-32096-5_7	N/A
+https://dl.acm.org/doi/pdf/10.1145/3677996.3678293	publication	2024-09-02
+https://link.springer.com/chapter/10.1007/978-3-642-32096-5_7	publication	2012
 https://serranofp.com/	N/A
 https://theory.stanford.edu/~aiken/publications/trs/FLProject.pdf	N/A
 https://www.cs.cmu.edu/~fp/papers/esop13a.pdf	N/A
@@ -2065,28 +2065,28 @@ https://www.cs.rochester.edu/meetings/TRANSACT07/papers/perfumo.pdf	N/A
 https://isa-afp.org/browser_info/current/AFP/Hello_World/outline.pdf	N/A
 https://okmij.org/ftp/Computation/monads.html	N/A
 https://www.researchgate.net/publication/315794543_Functional_Programming_Past_Present_and_Future_Contributions_dedicated_to_DA_Turner_on_his_70th_Birthday_JUCS_Special_Issue	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-32096-5_3	N/A
+https://link.springer.com/chapter/10.1007/978-3-642-32096-5_3	publication	2012
 https://www.slideserve.com/bairn/the-io-monad	N/A
-https://dl.acm.org/doi/abs/10.1145/165180.165199	N/A
+https://dl.acm.org/doi/abs/10.1145/165180.165199	publication	1993-07
 https://www.cse.chalmers.se/edu/year/2015/course/TDA342_Advanced_Functional_Programming/Papers/iomonad-wadler.ps	created	2015
 https://scispace.com/pdf/an-operational-semantics-for-i-o-in-a-lazy-functional-1a9djqta8u.pdf	N/A
 https://groups.google.com/g/comp.lang.functional/c/yyXtaWmUrd4	N/A
 https://groups.google.com/g/comp.lang.functional/c/0-Mw4u8JaCY	N/A
 https://etheses.whiterose.ac.uk/id/eprint/10807/1/261105.pdf	N/A
-https://dl.acm.org/doi/10.1145/130697.130699	N/A
+https://dl.acm.org/doi/10.1145/130697.130699	publication	1992-05
 https://github.com/typeclasses/haskell-report-archive/blob/master/1996-05-haskell-1.3/haskell-report.pdf	created	1996
 https://stackoverflow.com/questions/2970674/what-if-any-is-wrong-with-this-approach-to-declarative-i-o	N/A
 https://stackoverflow.com/questions/6399702/i-o-in-haskell-is-functional	N/A
 https://groups.google.com/g/comp.lang.functional/c/vxD26Z9077c	N/A
 https://www.michaelhanus.de/papers/ICLP07.pdf	N/A
 https://en.wikibooks.org/wiki/Haskell/do_notation	N/A
-https://link.springer.com/chapter/10.1007/3-540-59451-5_5	N/A
+https://link.springer.com/chapter/10.1007/3-540-59451-5_5	publication	1995
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State	N/A
 https://link.springer.com/content/pdf/10.1007/3-540-46028-4_5.pdf	N/A
-https://dl.acm.org/doi/pdf/10.1145/2897336.2897337	N/A
+https://dl.acm.org/doi/pdf/10.1145/2897336.2897337	publication	2015-09-14
 https://repository.ubn.ru.nl/bitstream/handle/2066/161445/161445.pdf?isAllowed=y&sequence=1	N/A
-https://dl.acm.org/doi/10.1145/1596550.1596561	N/A
-https://link.springer.com/chapter/10.1007/3-540-45587-6_15	N/A
+https://dl.acm.org/doi/10.1145/1596550.1596561	publication	2009-08-31
+https://link.springer.com/chapter/10.1007/3-540-45587-6_15	publication	2002
 https://scispace.com/pdf/interactively-probing-quiescent-properties-of-object-i-o-2clp0seilw.pdf	N/A
 https://ac.inf.elte.hu/Vol_031_2009/doi/107_31.pdf	created	2009
 https://www.sciencedirect.com/science/article/pii/S1571066105801999/pdf?md5=5cc5b7f654fbbec3a904f5a63efd72f4&pid=1-s2.0-S1571066105801999-main.pdf	N/A
@@ -2094,7 +2094,7 @@ https://wiki.clean.cs.ru.nl/Object_I_O_Tutorial	N/A
 https://cs.ioc.ee/mpc-amast06/msfp/filinski-slides.pdf	N/A
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads	N/A
 https://www.haskell.org/haskellwiki/Language_and_library_specification	N/A
-https://dl.acm.org/doi/10.1145/91556.91592	N/A
+https://dl.acm.org/doi/10.1145/91556.91592	publication	1990-05
 https://repository.ubn.ru.nl/bitstream/handle/2066/111083/111083.pdf?sequence=1	N/A
 https://www.science.uva.nl/research/ftp/Clean/Reports/1995/ExperiencesCleanIO.pdf	created	1995
 https://www.researchgate.net/publication/2467656_Towards_Distributed_Interactive_Programs_in_the_Functional_Programming_Language_Clean	N/A
@@ -2104,26 +2104,26 @@ https://www.researchgate.net/publication/2467660_Concurrent_Interactive_Processe
 https://repository.ubn.ru.nl/bitstream/handle/2066/111081/111081.pdf	N/A
 https://www.researchgate.net/publication/2467661_I_O_in_functional_languages	N/A
 https://www.researchgate.net/publication/2467663_Interactive_functional_programs	N/A
-https://dl.acm.org/doi/10.1145/165180.165228	N/A
-https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_18	N/A
+https://dl.acm.org/doi/10.1145/165180.165228	publication	1993-07
+https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_18	publication	1994
 https://www.cse.chalmers.se/edu/course.2019/TDA452/lectures/GUIprogramming.html	created	2019
 https://www.cse.chalmers.se/edu/year/2017/course/TDA452/lectures/WebProgramming.html	created	2017
 https://www.cse.chalmers.se/edu/course.2019/TDA452/lectures/code/ThreepennyFudgets.html	created	2019
-https://dl.acm.org/doi/10.1007/3-540-61628-4_1	N/A
+https://dl.acm.org/doi/10.1007/3-540-61628-4_1	publication	1996
 https://theses.gla.ac.uk/1597/1/1998finniephd.pdf	created	1998
 https://dl.acm.org/doi/10.1145/258916.258973	N/A
-https://dl.acm.org/doi/10.1145/581690.581695	N/A
+https://dl.acm.org/doi/10.1145/581690.581695	publication	2002-10-03
 https://www.cse.chalmers.se/~rjmh/afp-arrows.pdf	N/A
 https://www.ioc.ee/~wolfgang/research/tfp-2008-draft-paper.pdf	created	2008
-https://dl.acm.org/doi/10.1145/291251.289430	N/A
+https://dl.acm.org/doi/10.1145/291251.289430	publication	1999-01
 https://www.cse.chalmers.se/~rjmh/TFR/arrows.pdf	N/A
 https://www.researchgate.net/publication/2248360_Lazy_Imperative_Programming	N/A
-https://dl.acm.org/doi/10.1145/178243.178246	N/A
-https://dl.acm.org/doi/10.1145/2643135.2643159	N/A
+https://dl.acm.org/doi/10.1145/178243.178246	publication	1994-06
+https://dl.acm.org/doi/10.1145/2643135.2643159	publication	2014-09-08
 https://link.springer.com/content/pdf/10.1007/3-540-57787-4_23.pdf	N/A
 https://repository.ubn.ru.nl/bitstream/handle/2066/28039/28039.pdf?sequence=1	N/A
 https://www.researchgate.net/publication/220367487_A_Derivation_System_for_Uniqueness_Typing	N/A
-https://link.springer.com/chapter/10.1007/3-540-57529-4_42	N/A
+https://link.springer.com/chapter/10.1007/3-540-57529-4_42	publication	1993
 https://www.microsoft.com/en-us/research/publication/generalizing-first-class-stores/	N/A
 https://www.microsoft.com/en-us/research/publication/linear-types-can-change-the-world/	N/A
 https://www.microsoft.com/en-us/research/publication/functional-programming-and-input-output/	N/A
@@ -2133,40 +2133,40 @@ https://homepages.inf.ed.ac.uk/wadler/papers/comprehending/comprehending-monads.
 https://homepages.inf.ed.ac.uk/wadler/papers/monads/monads.html	N/A
 https://www.microsoft.com/en-us/research/publication/lazy-imperative-programming/	N/A
 https://www.research.ed.ac.uk/en/publications/imperative-functional-programming/	publication	1993
-https://dl.acm.org/doi/10.1145/258948.258970	N/A
-https://dl.acm.org/doi/10.1145/268946.268952	N/A
-https://dl.acm.org/doi/10.1145/1016850.1016867	N/A
-https://dl.acm.org/doi/10.1145/1411286.1411288	N/A
+https://dl.acm.org/doi/10.1145/258948.258970	publication	1997-08
+https://dl.acm.org/doi/10.1145/268946.268952	publication	1998
+https://dl.acm.org/doi/10.1145/1016850.1016867	publication	2004-09-19
+https://dl.acm.org/doi/10.1145/1411286.1411288	publication	2008-09-25
 https://www.cs.cornell.edu/people/fluet/research/rgn-monad/ICFP04/icfp04.pdf	N/A
-https://dl.acm.org/doi/10.1145/3331545.3342600	N/A
+https://dl.acm.org/doi/10.1145/3331545.3342600	publication	2019-08-08
 https://ohua-dev.github.io/papers/stc-lang.pdf	N/A
 https://arxiv.org/abs/1906.12098	created	1906
-https://link.springer.com/article/10.1007/BF01018827	N/A
-https://dl.acm.org/doi/10.1145/2976002.2976008	N/A
-https://dl.acm.org/doi/10.1145/2034675.2034685	N/A
-https://dl.acm.org/doi/10.1145/349299.349331	N/A
+https://link.springer.com/article/10.1007/BF01018827	publication	1995-12
+https://dl.acm.org/doi/10.1145/2976002.2976008	publication	2016-09-08
+https://dl.acm.org/doi/10.1145/2034675.2034685	publication	2011-09-22
+https://dl.acm.org/doi/10.1145/349299.349331	publication	2000-05
 https://dl.acm.org/doi/pdf/10.1145/349299.349331	N/A
-https://dl.acm.org/doi/10.1145/507635.507654	N/A
-https://dl.acm.org/doi/10.1145/1596638.1596643	N/A
-https://dl.acm.org/doi/10.1145/1596550.1596558	N/A
-https://link.springer.com/chapter/10.1007/978-3-540-44833-4_6	N/A
-https://dl.acm.org/doi/10.1145/258948.258973	N/A
+https://dl.acm.org/doi/10.1145/507635.507654	publication	2001-10
+https://dl.acm.org/doi/10.1145/1596638.1596643	publication	2009-09-03
+https://dl.acm.org/doi/10.1145/1596550.1596558	publication	2009-08-31
+https://link.springer.com/chapter/10.1007/978-3-540-44833-4_6	publication	2003
+https://dl.acm.org/doi/10.1145/258948.258973	publication	1997-08
 https://dl.acm.org/doi/pdf/10.1145/258948.258973	N/A
 https://www.cs.ox.ac.uk/people/phil.wadler/papers/effects/effects.pdf	N/A
 https://www.cs.ox.ac.uk/people/phil.wadler/papers/effects/effects.ps	N/A
 https://www.repository.cam.ac.uk/bitstreams/bcd4f9b2-eab5-48a3-89aa-79f052dd8fa0/download	N/A
 https://arxiv.org/abs/1401.5391	N/A
 https://web.cecs.pdx.edu/~mpj/pubs/modinterp.html	N/A
-https://dl.acm.org/doi/10.1145/3331545.3342595	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-00590-9_6	N/A
-https://dl.acm.org/doi/pdf/10.1145/581478.581482	N/A
+https://dl.acm.org/doi/10.1145/3331545.3342595	publication	2019-08-08
+https://link.springer.com/chapter/10.1007/978-3-642-00590-9_6	publication	2009
+https://dl.acm.org/doi/pdf/10.1145/581478.581482	publication	2002-09-17
 https://www.microsoft.com/en-us/research/publication/monads-for-incremental-computing/	N/A
 https://www.researchgate.net/publication/221440256_Asymptotic_Improvement_of_Computations_over_Free_Monads	N/A
 https://www.researchgate.net/publication/239441818_Backtracking_Interleaving_and_Terminating_Monad_Transformers	N/A
 https://www.researchgate.net/publication/221241270_Monads_for_incremental_computing	N/A
-https://dl.acm.org/doi/10.1145/2500365.2500593	N/A
+https://dl.acm.org/doi/10.1145/2500365.2500593	publication	2013-09-25
 https://www.microsoft.com/en-us/research/publication/extensible-effects-an-alternative-to-monad-transformers/	N/A
-https://dl.acm.org/doi/pdf/10.1145/3125374.3125385	N/A
+https://dl.acm.org/doi/pdf/10.1145/3125374.3125385	publication	2017-09-21
 https://www.researchgate.net/publication/326841214_A_preliminary_assessment_of_how_monads_are_used_in_Haskell	N/A
 https://dl.acm.org/doi/10.1145/3426488	N/A
 https://dl.acm.org/doi/pdf/10.1145/3426488	N/A
@@ -2177,26 +2177,26 @@ https://www.cs.kent.ac.uk/people/staff/jg/private/monadfactory.pdf	N/A
 https://www.microsoft.com/en-us/research/publication/monad-factory-type-indexed-monads/	N/A
 https://www.microsoft.com/en-us/research/publication/monad-comprehensions/	N/A
 https://dl.acm.org/doi/10.1145/1129003.1129007	N/A
-https://dl.acm.org/doi/10.1145/2034675.2034678	N/A
+https://dl.acm.org/doi/10.1145/2034675.2034678	publication	2011-09-22
 https://www.haskell.org/haskellwiki/Monad_comprehensions	N/A
-https://dl.acm.org/doi/10.1145/2633357.2633368	N/A
+https://dl.acm.org/doi/10.1145/2633357.2633368	publication	2014-09-03
 https://www.microsoft.com/en-us/research/publication/embedding-effect-systems-in-haskell/	N/A
-https://dl.acm.org/doi/10.1145/3656393	N/A
+https://dl.acm.org/doi/10.1145/3656393	publication	2024-06-20
 https://www.microsoft.com/en-us/research/publication/associated-effects-flexible-abstractions-for-effectful-programming/	N/A
-https://dl.acm.org/doi/pdf/10.1145/2897336.2897340	N/A
+https://dl.acm.org/doi/pdf/10.1145/2897336.2897340	publication	2015-09-14
 https://www.researchgate.net/publication/305647241_Polymonad_Programming_in_Haskell	N/A
 https://www.microsoft.com/en-us/research/publication/polymonad-programming-in-haskell/	N/A
 https://www.microsoft.com/en-us/research/publication/backtracking-interleaving-and-terminating-monad-transformers/	N/A
-https://doi.org/10.1007/978-3-540-70594-9_20	N/A
+https://doi.org/10.1007/978-3-540-70594-9_20	publication	None
 https://janis-voigtlaender.eu/Voi08d.html	N/A
 https://www.microsoft.com/en-us/research/publication/asymptotic-improvement-of-computations-over-free-monads/	N/A
 https://www.microsoft.com/en-us/research/publication/type-indexed-monads/	N/A
 https://dl.acm.org/doi/10.1145/3127587.3127604	N/A
 https://www.microsoft.com/en-us/research/publication/the-key-monad/	N/A
 https://www.microsoft.com/en-us/research/publication/a-monad-for-deterministic-parallelism/	N/A
-https://dl.acm.org/doi/10.1145/2976022.2976033	N/A
+https://dl.acm.org/doi/10.1145/2976022.2976033	publication	2016-09-18
 https://www.microsoft.com/en-us/research/publication/liberating-effects-with-rows-and-handlers/	N/A
-https://dl.acm.org/doi/10.1145/3674646	N/A
+https://dl.acm.org/doi/10.1145/3674646	publication	2024-08-15
 https://www.microsoft.com/en-us/research/publication/abstract-interpreters-a-monadic-approach-to-modular-verification/	N/A
 https://www.microsoft.com/en-us/research/publication/closure-free-functional-programming-in-a-two-level-type-theory/	N/A
 https://www.cis.upenn.edu/~bcpierce/courses/advprog/lectures/lec12.pdf	N/A
@@ -2210,14 +2210,14 @@ https://assets.cambridge.org/97811084/16757/frontmatter/9781108416757_frontmatte
 https://pdfs.semanticscholar.org/6a39/07b3e051470a14b03289008ca077090944cc.pdf	N/A
 https://research.chalmers.se/publication/529325/file/529325_Fulltext.pdf	N/A
 https://research.chalmers.se/publication/529325	publication	2022
-https://link.springer.com/chapter/10.1007/978-3-031-16912-0_6	N/A
+https://link.springer.com/chapter/10.1007/978-3-031-16912-0_6	publication	2022
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/hefty-algebras-modular-elaboration-of-higherorder-effects/A33FE759BB81EA94A180798C92E16283	publication	2025-01
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/hefty_algebras_modular_elaboration_of_higherorder_effects.pdf	N/A
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/monad.pdf	N/A
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/monad.ps	N/A
-https://dl.acm.org/doi/10.1145/2034773.2034777	N/A
+https://dl.acm.org/doi/10.1145/2034773.2034777	publication	2011-09-19
 https://www.researchgate.net/publication/220974596_Just_do_it_Simple_Monadic_Equational_Reasoning	N/A
-https://link.springer.com/chapter/10.1007/3-540-45988-X_3	N/A
+https://link.springer.com/chapter/10.1007/3-540-45988-X_3	publication	2002
 https://www.researchgate.net/publication/221370593_Monads_and_Modularity	N/A
 https://link.springer.com/chapter/10.1007/978-3-030-33636-3_9	N/A
 https://hal.science/hal-02359796	N/A
