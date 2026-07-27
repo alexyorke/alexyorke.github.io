@@ -24115,104 +24115,104 @@ https://www.npmjs.com/package/fp-ts/v/2.11.0-rc.2	created	2017-02-11
 https://www.npmjs.com/package/fp-ts/v/2.11.1	created	2017-02-11
 https://www.npmjs.com/package/fp-ts/v/2.11.10	created	2017-02-11
 https://www.npmjs.com/package/fp-ts/v/2.11.2	created	2017-02-11
-https://www.npmjs.com/package/fp-ts/v/2.11.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.11.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.11.5	N/A
-https://www.npmjs.com/package/fp-ts/v/2.11.6	N/A
-https://www.npmjs.com/package/fp-ts/v/2.11.7	N/A
-https://www.npmjs.com/package/fp-ts/v/2.11.8	N/A
-https://www.npmjs.com/package/fp-ts/v/2.11.9	N/A
-https://www.npmjs.com/package/fp-ts/v/2.12.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.12.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.12.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.12.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.5	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.6	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.13.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.14.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.15.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.10	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.11	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.5	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.6	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.7	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.8	N/A
-https://www.npmjs.com/package/fp-ts/v/2.16.9	N/A
-https://www.npmjs.com/package/fp-ts/v/2.2.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.3.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.3.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.4.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.4.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.4.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.4.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.4.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.5.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.5.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.5.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.5.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.5.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.5	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.6	N/A
-https://www.npmjs.com/package/fp-ts/v/2.6.7	N/A
-https://www.npmjs.com/package/fp-ts/v/2.7.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.7.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.5	N/A
-https://www.npmjs.com/package/fp-ts/v/2.8.6	N/A
-https://www.npmjs.com/package/fp-ts/v/2.9.0	N/A
-https://www.npmjs.com/package/fp-ts/v/2.9.1	N/A
-https://www.npmjs.com/package/fp-ts/v/2.9.2	N/A
-https://www.npmjs.com/package/fp-ts/v/2.9.3	N/A
-https://www.npmjs.com/package/fp-ts/v/2.9.4	N/A
-https://www.npmjs.com/package/fp-ts/v/2.9.5	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.1	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.10	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.11	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.12	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.13	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.14	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.15	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.16	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.17	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.18	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.19	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.2	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.20	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.21	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.22	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.23	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.24	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.25	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.26	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.3	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.4	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.5	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.6	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.7	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.8	N/A
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.9	N/A
-https://www.npmjs.com/package/fluture/v/0.1.0	N/A
-https://www.npmjs.com/package/fluture/v/0.2.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.11.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.11.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.11.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.11.7	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.11.8	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.11.9	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.12.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.12.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.12.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.12.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.13.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.14.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.15.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.10	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.11	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.7	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.8	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.16.9	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.2.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.3.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.3.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.4.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.4.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.4.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.4.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.4.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.5.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.5.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.5.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.5.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.5.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.6.7	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.7.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.7.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.8.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.9.0	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.9.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.9.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.9.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.9.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/2.9.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.1	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.10	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.11	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.12	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.13	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.14	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.15	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.16	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.17	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.18	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.19	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.2	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.20	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.21	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.22	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.23	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.24	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.25	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.26	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.3	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.4	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.5	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.6	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.7	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.8	created	2017-02-11
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.9	created	2017-02-11
+https://www.npmjs.com/package/fluture/v/0.1.0	created	2016-03-06
+https://www.npmjs.com/package/fluture/v/0.2.0	created	2016-03-06
 https://www.npmjs.com/package/fluture/v/0.2.1	N/A
 https://www.npmjs.com/package/fluture/v/0.3.0	N/A
 https://www.npmjs.com/package/fluture/v/0.3.1	N/A
