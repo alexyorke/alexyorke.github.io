@@ -11702,18 +11702,18 @@ https://stackoverflow.com/questions/58366794/what-is-the-purpose-of-liftio	creat
 https://stackoverflow.com/questions/48306846/getting-values-out-of-io-monad	created	2018-01-17
 https://stackoverflow.com/questions/69254740/no-instance-for-monadio-arising-from-a-use-of-liftio	created	2021-09-20
 https://stackoverflow.com/questions/45266054/how-to-create-a-monad-which-allows-io-but-is-not-a-monadio	created	2017-07-23
-https://stackoverflow.com/questions/66025014/replicating-the-concept-of-liftio-with-a-monadtransformer	N/A
-https://stackoverflow.com/questions/77552860/scotty-no-instance-for-monadio-scottyt-arising-from-a-use-of-liftio	N/A
+https://stackoverflow.com/questions/66025014/replicating-the-concept-of-liftio-with-a-monadtransformer	created	2021-02-03
+https://stackoverflow.com/questions/77552860/scotty-no-instance-for-monadio-scottyt-arising-from-a-use-of-liftio	created	2023-11-26
 https://stackoverflow.com/questions/42925365/recursive-liftio	N/A
-https://stackoverflow.com/questions/16750040/why-is-there-a-nested-io-monad-io-io-as-the-return-value-of-my-function	N/A
-https://stackoverflow.com/questions/73470840/is-there-readert-raised-into-a-monad	N/A
-https://stackoverflow.com/questions/44965/what-is-a-monad/34162489	N/A
-https://stackoverflow.com/questions/31279943/using-servant-with-readert-io-a	N/A
-https://stackoverflow.com/questions/45686726/what-is-the-purpose-of-in-the-readert-monad-transformer	N/A
-https://stackoverflow.com/questions/42382396/io-action-nested-in-other-monads-not-executing	N/A
-https://stackoverflow.com/questions/13042784/combining-readert-monads	N/A
-https://stackoverflow.com/questions/13879225/why-does-the-following-readert-string-io-lose-an-io-action	N/A
-https://stackoverflow.com/questions/28214913/how-to-use-bind-with-nested-monads	N/A
+https://stackoverflow.com/questions/16750040/why-is-there-a-nested-io-monad-io-io-as-the-return-value-of-my-function	created	2015-12-02
+https://stackoverflow.com/questions/73470840/is-there-readert-raised-into-a-monad	created	2022-08-24
+https://stackoverflow.com/questions/44965/what-is-a-monad/34162489	created	2010-04-25
+https://stackoverflow.com/questions/31279943/using-servant-with-readert-io-a	created	2017-06-28
+https://stackoverflow.com/questions/45686726/what-is-the-purpose-of-in-the-readert-monad-transformer	created	2017-08-15
+https://stackoverflow.com/questions/42382396/io-action-nested-in-other-monads-not-executing	created	2017-02-22
+https://stackoverflow.com/questions/13042784/combining-readert-monads	created	2012-10-24
+https://stackoverflow.com/questions/13879225/why-does-the-following-readert-string-io-lose-an-io-action	created	2012-12-14
+https://stackoverflow.com/questions/28214913/how-to-use-bind-with-nested-monads	created	2015-01-29
 https://downloads.haskell.org/ghc/9.6.7/docs/libraries/mtl-2.3.1/Control-Monad-Trans.html	modified	2025-03-21
 https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/process/System-Process.html	modified	2019-02-15
 https://www.reddit.com/r/haskell/comments/evegox	N/A
@@ -11734,7 +11734,7 @@ https://langdev.stackexchange.com/questions/3576/whats-the-state-of-the-art-for-
 https://discourse.haskell.org/t/where-did-the-structure-go/4866	publication	2022-08-01
 https://softwareengineering.stackexchange.com/questions/303472/what-is-the-purpose-of-wrapped-values-in-haskell	N/A
 https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=6	publication	2024-12-01
-https://stackoverflow.com/questions/3206869/haskell-how-to-write-interactive-interpreter-on-top-of-a-state-monad	N/A
+https://stackoverflow.com/questions/3206869/haskell-how-to-write-interactive-interpreter-on-top-of-a-state-monad	created	2010-07-08
 https://hackage.haskell.org/package/prologue/docs/Prologue-Control-Monad-IO.html	created	2018-12-18
 https://hackage.haskell.org/package/test-fixture	published	2017-10-30
 https://hackage.haskell.org/package/ConfigFile/docs/src/Data-ConfigFile.html	created	2014-10-30
@@ -11858,7 +11858,7 @@ https://scispace.com/conferences/practical-aspects-of-declarative-languages-2u08
 https://dokumen.pub/practical-aspects-of-declarative-languages-22nd-international-symposium-padl-2020-new-orleans-la-usa-january-2021-2020-proceedings-lecture-notes-in-computer-science-12007-3030391965-9783030391966.html	created	2020
 https://wg28-2019.mpi-sws.org/technical-presentations/	created	2019
 https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch05s03.html	published	2016
-https://stackoverflow.com/questions/14003098/modeling-time-as-lazy-numbers?noredirect=1	N/A
+https://stackoverflow.com/questions/14003098/modeling-time-as-lazy-numbers?noredirect=1	created	2012-12-22
 https://conf.researchr.org/room/pepm-2020/POPL-2020-venue-bacchus	created	2020
 https://xmonad.github.io/xmonad-docs/base-4.15.1.0/src/System-IO.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=20ab57bf6d14d6a08a950b015d17af5f41b1b22b&repid=rep1&type=pdf	N/A
@@ -11866,11 +11866,11 @@ https://scholarworks.iu.edu/dspace/items/a3d837dc-a8c3-465d-a315-cbd4622fc0f6	pu
 https://www.xuebaunion.com/detail/7465.html	N/A
 https://yumechi.jp/en/blog/2024/the-monad-bakery-the-65536th-monad-introduction/	publication	2024-09-01
 https://exchangetuts.com/escaping-monad-io-1641574744071549	N/A
-https://stackoverflow.com/questions/41694407/unit-testing-io-actions-with-hspec	N/A
+https://stackoverflow.com/questions/41694407/unit-testing-io-actions-with-hspec	created	2021-01-29
 https://neilmitchell.blogspot.com/2014/04/exceptional-testing.html	created	2014
 https://begriffs.com/posts/2017-01-14-design-use-quickcheck.html	created	2017
 https://cgi.cse.unsw.edu.au/~cs3141/18s1/Week%2007/exercise.html	created	2007
-https://stackoverflow.com/questions/9449464/haskell-functional-tests-against-a-json-api?noredirect=1	N/A
+https://stackoverflow.com/questions/9449464/haskell-functional-tests-against-a-json-api?noredirect=1	created	2012-02-26
 https://krdlab.hatenablog.com/entry/2015/11/03/122732	publication	2015-11-03
 https://www.fceia.unr.edu.ar/~mauro/pubs/sme/sme.pdf	N/A
 https://hackage.haskell.org/package/blockio	published	2026-05-13
@@ -11953,7 +11953,7 @@ https://hackage.haskell.org/package/stm/docs/Control-Monad-STM.html	created	2024
 https://raw.githubusercontent.com/Garbaz/OCamlProseminar/master/ausarbeitung/Tobias-Hoffmann-Ausarbeitung.pdf	updated	2022-11-24
 https://haskellweekly.news/issue/516.html	N/A
 https://neilmitchell.blogspot.com/2010/01/	created	2010
-https://stackoverflow.com/questions/18573924/haskell-loop-over-user-input	N/A
+https://stackoverflow.com/questions/18573924/haskell-loop-over-user-input	created	2013-09-02
 https://cw.fel.cvut.cz/b222/courses/fup/lectures/start	N/A
 https://stackoverflow.com/questions/15834966/how-are-all-graphic-and-web-libraries-implemented-in-haskell	N/A
 https://www.patryshev.com/monad/crashcourse.pdf	N/A
@@ -12116,15 +12116,15 @@ https://hackage-content.haskell.org/package/vty-6.4/docs/src/Graphics.Vty.Output
 https://citeseerx.ist.psu.edu/document?doi=8b448b78e3640352658fcbabd87abf184b6e5202&repid=rep1&type=pdf	N/A
 https://www.sos-vo.org/system/files/sos_files/AURA_A_Programming_Language_with_Authorization_and_Audit.pdf	N/A
 https://kseo.github.io/posts/2017-01-12-indexed-monads.html	created	2017
-https://stackoverflow.com/questions/28690448/what-is-indexed-monad/28708799	N/A
+https://stackoverflow.com/questions/28690448/what-is-indexed-monad/28708799	created	2015-02-24
 https://hackage.haskell.org/package/hs-ix/docs/Control-Monad-Indexed-Trans-State.html	created	2020-08-04
 https://cs.appstate.edu/johannp/f14-ghani.pdf	N/A
 https://www.researchgate.net/publication/338883912_Unifying_graded_and_parameterised_monads	N/A
-https://stackoverflow.com/questions/23887237/how-to-implement-index-core-style-indexed-state-monad?noredirect=1	N/A
+https://stackoverflow.com/questions/23887237/how-to-implement-index-core-style-indexed-state-monad?noredirect=1	created	2014-05-27
 https://kar.kent.ac.uk/84635/1/2001.10274v2.pdf	created	2001
 https://strathprints.strath.ac.uk/34572/1/paramnotions_jfp.pdf	N/A
-https://stackoverflow.com/questions/71830115/indexed-monads-for-state-machines	N/A
-https://stackoverflow.com/questions/33975270/can-a-st-like-monad-be-executed-purely-without-the-st-library	N/A
+https://stackoverflow.com/questions/71830115/indexed-monads-for-state-machines	created	2022-04-11
+https://stackoverflow.com/questions/33975270/can-a-st-like-monad-be-executed-purely-without-the-st-library	created	2015-11-28
 https://docs.idris-lang.org/en/latest/effects/impleff.html	modified	2023-03-04
 https://idris-lang.org/Idris2/base/docs/System.File.Handle.html	N/A
 https://idris2.readthedocs.io/en/latest/app/linear.html	N/A
@@ -12164,7 +12164,7 @@ https://paperzz.com/doc/7990874/reactive-objects-and-functional-programming	N/A
 https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf	N/A
 https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/safe_haskell.html	modified	2019-02-15
 https://research.chalmers.se/en/publication/233668	publication	2016
-https://stackoverflow.com/questions/5892653/whats-so-bad-about-lazy-i-o	N/A
+https://stackoverflow.com/questions/5892653/whats-so-bad-about-lazy-i-o	created	2014-07-19
 https://books.google.co.jp/books?id=2pbeyUWCln0C	N/A
 https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=xIlyOiGOC6EC	published	1998
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf/programming_in_haskell_by_graham_hutton_cambridge_university_press_2007_184_pp_isbn_0521692695.pdf	created	2007
@@ -12379,7 +12379,7 @@ https://mercurylang.org/information/doc-latest/mercury_user_guide/index.html	N/A
 https://mercurylang.org/information/doc-latest/mercury_user_guide/I_002fO-tabling.html	N/A
 https://abcdocz.com/doc/1477696/the-mercury-programming-language	N/A
 https://lists.mercurylang.org/archives/users/2010-May/005099.html	created	2010
-https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handled-in-a-pure-functional-language-besides-with?noredirect=1	N/A
+https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handled-in-a-pure-functional-language-besides-with?noredirect=1	created	2012-11-23
 https://mercurylang.org/information/doc-latest/mercury_transition_guide/index.html	N/A
 https://mercurylang.org/information/doc-latest/mercury_library_manual/index.html	N/A
 https://dl.mercurylang.org/release/	N/A
@@ -12508,8 +12508,8 @@ https://agda.github.io/agda-stdlib/experimental/IO.Effectful.html	modified	2026-
 https://my-agda.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://cronfa.swansea.ac.uk/Record/cronfa64152/Download/64152__30604__9432b09ebca14099a3bb61fc19f22e8a.pdf	N/A
 https://agda.readthedocs.io/_/downloads/en/v2.6.0/pdf/	N/A
-https://stackoverflow.com/questions/36079514/let-binding-intermediate-results-in-io-monad	N/A
-https://stackoverflow.com/questions/76552782/reading-a-string-from-the-command-line-in-agda-2	N/A
+https://stackoverflow.com/questions/36079514/let-binding-intermediate-results-in-io-monad	created	2016-03-18
+https://stackoverflow.com/questions/76552782/reading-a-string-from-the-command-line-in-agda-2	created	2023-06-26
 https://cronfa.swan.ac.uk/Record/cronfa54270	N/A
 https://www.cs.cornell.edu/courses/cs6115/2024fa/lectures/lec09_fuel_typeclasses.html	created	2024
 https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic_Slides/Free.html	modified	2024-05-31
@@ -12528,7 +12528,7 @@ https://arxiv.org/abs/1801.08114	created	2018-01
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dst-tr.pdf	created	2016
 https://pure.strath.ac.uk/ws/portalfiles/portal/7096639/paramnotions_jfp.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/82CE5F0583C3390BBBD305830255FAA0/S095679680900728Xa.pdf/parameterised_notions_of_computation.pdf	N/A
-https://stackoverflow.com/questions/55802920/how-to-use-indexed-monad-as-fsm	N/A
+https://stackoverflow.com/questions/55802920/how-to-use-indexed-monad-as-fsm	created	2019-04-23
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/parameterised-notions-of-computation/82CE5F0583C3390BBBD305830255FAA0	publication	2009-07
 https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/haskeline-0.7.3.0/System-Console-Haskeline-MonadException.html	modified	2019-02-15
 https://www.khoury.northeastern.edu/~riccardo/research.html	N/A
@@ -12541,7 +12541,7 @@ https://cgi.cse.unsw.edu.au/~eptcs/Published/PLACES2010/Papers/1/arXiv.pdf	creat
 https://hackage.haskell.org/package/full-sessions-0.4.189	published	2009-06-25
 https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/exts/qualified_do.html	modified	2024-03-29
 https://www.pls-lab.org/Session_Types	N/A
-https://stackoverflow.com/questions/40454598/experience-reports-using-indexed-monads-in-production	N/A
+https://stackoverflow.com/questions/40454598/experience-reports-using-indexed-monads-in-production	created	2016-11-06
 https://hackage.haskell.org/package/simple-sessions	published	2013-10-10
 https://hackage.haskell.org/package/indexed-do-notation/docs	created	2013-05-01
 https://kar.kent.ac.uk/66632/1/RP_9788793519817C10.pdf	N/A
@@ -12646,7 +12646,7 @@ https://mail.haskell.org/pipermail/haskell-cafe/2005-August/010985.html	created	
 https://mail.haskell.org/pipermail/haskell-cafe/2007-March/023686.html	created	2007
 https://discourse.haskell.org/t/what-is-a-semi-closed-handle/11160	publication	2025-01-08
 https://hackage.haskell.org/package/pipes-2.3.0	published	2012-09-05
-https://stackoverflow.com/questions/9960188/forcing-evaluation-on-lazy-io	N/A
+https://stackoverflow.com/questions/9960188/forcing-evaluation-on-lazy-io	created	2012-04-01
 http://okmij.org/ftp/Streams.html	modified	2026-06-08
 https://citeseerx.ist.psu.edu/document?doi=34053db6bbcdca48fa3e85b51aaf0a4fd97d42e2&repid=rep1&type=pdf	N/A
 https://downloads.haskell.org/~ghc/8.2.2/docs/users_guide.pdf	modified	2019-02-15
@@ -12800,7 +12800,7 @@ https://www.researchgate.net/scientific-contributions/Kartik-Singhal-2184966967	
 https://shamra-academia.com/show/3a445e42f2b640	N/A
 https://www.epiqc.cs.uchicago.edu/bibtex-of-epiqc-publications-2018present	created	2018
 https://dblp.org/db/series/eptcs/eptcs340	N/A
-https://stackoverflow.com/questions/57856241/teletype-io-getline-function	N/A
+https://stackoverflow.com/questions/57856241/teletype-io-getline-function	created	2019-09-09
 https://hackage.haskell.org/package/in-other-words	published	2022-06-15
 https://hackage.haskell.org/package/fused-effects-0.1.2.0	published	2018-11-30
 https://www.researchgate.net/publication/273877941_Beauty_in_the_Beast	N/A
@@ -12811,7 +12811,7 @@ https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-iospec/	N/A
 https://mirror.lagoon.nc/raspbian/raspbian/pool/main/h/haskell-iospec/	N/A
 https://www.rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-IOSpec-doc-0.3.1.2-7.fc44.noarch.html	N/A
 https://www.cambridge.org/core/books/abs/nominal-sets/preface/130BE862EC3F0D702E7249DD261E86F6	publication	2013-05
-https://stackoverflow.com/questions/51371869/why-do-we-need-io	N/A
+https://stackoverflow.com/questions/51371869/why-do-we-need-io	created	2018-07-17
 https://citeseerx.ist.psu.edu/document?doi=dc68a7d83bd24c8c9cef60576c688bafadc71d8d&repid=rep1&type=pdf	N/A
 https://eurekamag.com/research/099/311/099311585.php	N/A
 https://www.khoury.northeastern.edu/home/wand/papers/biblio.bib	N/A
@@ -12820,7 +12820,7 @@ https://downloads.haskell.org/~ghc/7.6-latest/docs/html/libraries/haskell98-2.0.
 https://blogs.asarkar.com/assets/docs/haskell/Generalising%20monads%20to%20arrows%20-%20Hughes.pdf	N/A
 https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1994/DagSemRep.89/DagSemRep.89.pdf	created	1994
 https://www.microsoft.com/en-us/research/?p=452935	N/A
-https://stackoverflow.com/questions/18422099/are-monads-current-state-of-the-art-to-do-io-in-pure-languages	N/A
+https://stackoverflow.com/questions/18422099/are-monads-current-state-of-the-art-to-do-io-in-pure-languages	created	2013-08-26
 https://stackoverflow.com/a/69384679	N/A
 https://doi.org/10.1002/cpe.4902	published	2019-02-25
 https://kar.kent.ac.uk/id/document/1858	N/A
@@ -12835,9 +12835,9 @@ https://www.researchgate.net/publication/220989917_A_Semantics_for_Lazy_Assertio
 https://kar.kent.ac.uk/14409/	N/A
 https://kar.kent.ac.uk/14409/1/A_Pattern_Logic_for_Prompt_Lazy_Assertions.pdf	N/A
 https://kar.kent.ac.uk/id/document/55703	N/A
-https://stackoverflow.com/questions/66575064/assert-is-not-evaluated-in-return	N/A
+https://stackoverflow.com/questions/66575064/assert-is-not-evaluated-in-return	created	2021-03-11
 https://www.cs.kent.ac.uk/pubs/2007/2510/content.pdf	created	2007
-https://stackoverflow.com/questions/31701863/test-quickcheck-monadic-why-is-assert-applied-to-bool-not-testable-a-a	N/A
+https://stackoverflow.com/questions/31701863/test-quickcheck-monadic-why-is-assert-applied-to-bool-not-testable-a-a	created	2015-07-29
 https://dblp.org/pid/56/4149	N/A
 https://www.michaelhanus.de/org/fg214/Honnef2007/Program.html	created	2007
 https://kar.kent.ac.uk/14599/1/A_Pattern.pdf	N/A
@@ -13537,13 +13537,13 @@ https://hackage.haskell.org/package/iteratee-mtl-0.5.0.0	published	2010-10-27
 https://hackage.haskell.org/package/iteratee-0.4.0.2	published	2010-08-25
 https://hackage.haskell.org/package/iteratee-0.8.9.1	published	2012-06-15
 https://hackage.haskell.org/package/stdio	published	2019-05-15
-https://stackoverflow.com/questions/45971057/why-does-haskells-main-function-require-io-operations?noredirect=1	N/A
-https://stackoverflow.com/questions/32489732/lazy-list-wrapped-in-io	N/A
+https://stackoverflow.com/questions/45971057/why-does-haskells-main-function-require-io-operations?noredirect=1	created	2017-08-30
+https://stackoverflow.com/questions/32489732/lazy-list-wrapped-in-io	created	2015-09-09
 https://stackoverflow.com/questions/tagged/io-monad?tab=Newest	N/A
-https://stackoverflow.com/questions/1916692/are-side-effects-possible-in-pure-functional-programming	N/A
-https://stackoverflow.com/questions/33423827/how-to-properly-force-evaluation-of-pure-value-in-io-monad	N/A
-https://stackoverflow.com/questions/15183324/what-is-the-difference-between-pure-and-impure-in-haskell	N/A
-https://stackoverflow.com/questions/41310361/monads-composition-and-the-order-of-computation	N/A
+https://stackoverflow.com/questions/1916692/are-side-effects-possible-in-pure-functional-programming	created	2009-12-16
+https://stackoverflow.com/questions/33423827/how-to-properly-force-evaluation-of-pure-value-in-io-monad	created	2015-10-29
+https://stackoverflow.com/questions/15183324/what-is-the-difference-between-pure-and-impure-in-haskell	created	2013-03-03
+https://stackoverflow.com/questions/41310361/monads-composition-and-the-order-of-computation	created	2016-12-24
 https://web.mit.edu/cfox/share/ghc-6.6.1/html/users_guide/index.html	N/A
 https://web.mit.edu/cfox/share/ghc-6.6.1/html/libraries/base/System-IO-Error.html	N/A
 https://web.mit.edu/cfox/share/ghc-6.6.1/html/libraries/base/Control-Exception.html	N/A
@@ -13928,7 +13928,7 @@ https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_s
 https://hackage.haskell.org/package/haste-compiler/docs/Haste-App.html	created	2017-09-08
 https://www.stackage.org/package/managed	indexed	2026-07-27
 https://stackoverflow.com/questions/23173971/in-haskell-how-do-i-promptly-close-resources	N/A
-https://stackoverflow.com/questions/36174670/catching-exceptions-in-monad-transformers	N/A
+https://stackoverflow.com/questions/36174670/catching-exceptions-in-monad-transformers	created	2016-03-29
 https://www.stackage.org/lts-23.0/package/pipes-safe-2.3.5	indexed	2026-07-27
 https://hackage.haskell.org/package/pipes-safe/docs	created	2023-11-04
 https://hackage.haskell.org/package/shell-conduit	published	2020-06-20
@@ -13946,8 +13946,8 @@ https://janis-voigtlaender.eu/papers.html	N/A
 https://gitlab.haskell.org/ghc/ghc-wiki-mirror/-/blob/original/reading-list.md	N/A
 https://citeseerx.ist.psu.edu/document?doi=f09be46c9638feecf15a7cdf12f463a1f58d04e6&repid=rep1&type=pdf	N/A
 https://gist.github.com/YBogomolov/d467dd7a3ae2b075c9bc9a1e14572309	created	2025-01-13
-https://stackoverflow.com/questions/33596471/does-folktale-have-an-io-monad	N/A
-https://stackoverflow.com/questions/33087966/use-only-the-value-from-io-monad-without-precedent-io-actions	N/A
+https://stackoverflow.com/questions/33596471/does-folktale-have-an-io-monad	created	2015-11-08
+https://stackoverflow.com/questions/33087966/use-only-the-value-from-io-monad-without-precedent-io-actions	created	2015-10-12
 https://hackage.haskell.org/package/javascript-bridge	published	2019-09-12
 https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/mtl-2.2.2/src/Control-Monad-Except.html	modified	2019-08-25
 https://citeseerx.ist.psu.edu/document?doi=cb06971fec8367a7d30501dca6c83ad5d373b6c8&repid=rep1&type=pdf	N/A
@@ -13970,14 +13970,14 @@ https://mail.haskell.org/pipermail/glasgow-haskell-users/2002-November/004271.ht
 https://gist.github.com/IGI-111/d80a8a9356ec10e5027d1efe28190352	created	2023-09-12
 https://gist.github.com/JoshCheek/e0adb84b3392440c3125c05f7a0fa3d6	created	2017-01-27
 https://gist.github.com/mmhelloworld/8d061753ef57ab6ab984	created	2016-01-18
-https://stackoverflow.com/questions/44128288/io-vs-referential-transparency	N/A
-https://stackoverflow.com/questions/7088085/trying-to-understand-the-types-produced-by-monad-transformers	N/A
-https://stackoverflow.com/questions/23185394/haskell-convert-type-to-data-statement	N/A
-https://stackoverflow.com/questions/5897845/relax-ordering-constraints-in-monadic-computation	N/A
-https://stackoverflow.com/questions/76895187/laziness-of-infinite-lists-under-monadic-context-in-haskell	N/A
-https://stackoverflow.com/questions/7267760/how-can-a-time-function-exist-in-functional-programming/7268323	N/A
-https://stackoverflow.com/questions/2488646/why-are-side-effects-modeled-as-monads-in-haskell?noredirect=1	N/A
-https://stackoverflow.com/questions/2751313/how-do-functional-programming-languages-work?noredirect=1	N/A
+https://stackoverflow.com/questions/44128288/io-vs-referential-transparency	created	2017-05-24
+https://stackoverflow.com/questions/7088085/trying-to-understand-the-types-produced-by-monad-transformers	created	2011-08-17
+https://stackoverflow.com/questions/23185394/haskell-convert-type-to-data-statement	created	2014-04-20
+https://stackoverflow.com/questions/5897845/relax-ordering-constraints-in-monadic-computation	created	2011-05-05
+https://stackoverflow.com/questions/76895187/laziness-of-infinite-lists-under-monadic-context-in-haskell	created	2023-08-13
+https://stackoverflow.com/questions/7267760/how-can-a-time-function-exist-in-functional-programming/7268323	created	2011-09-01
+https://stackoverflow.com/questions/2488646/why-are-side-effects-modeled-as-monads-in-haskell?noredirect=1	created	2010-03-21
+https://stackoverflow.com/questions/2751313/how-do-functional-programming-languages-work?noredirect=1	created	2010-05-01
 https://news.ycombinator.com/item?id=27258751	created	2021-05-23
 https://news.ycombinator.com/item?id=17645277	created	2018-07-30
 https://news.ycombinator.com/item?id=5324100	created	2013-03-05
@@ -14115,12 +14115,12 @@ https://www.reddit.com/r/haskell/comments/1n67mz3	N/A
 https://www.reddit.com/r/haskellquestions/comments/ezq233	N/A
 https://www.reddit.com/r/haskell/comments/ipv28c	N/A
 https://www.reddit.com/r/haskell/comments/1fugh09	N/A
-https://stackoverflow.com/questions/48186231/what-are-the-consequences-of-returning-an-io-action	N/A
-https://stackoverflow.com/questions/12496641/what-is-the-difference-between-io-and-io	N/A
-https://stackoverflow.com/questions/47336203/is-print-in-haskell-a-pure-function	N/A
-https://stackoverflow.com/questions/12226624/newbie-understanding-main-and-io	N/A
-https://stackoverflow.com/questions/42959514/how-infinite-loop-with-io-work-in-haskell	N/A
-https://stackoverflow.com/questions/45844720/haskell-maintaining-different-states-of-global-variable	N/A
+https://stackoverflow.com/questions/48186231/what-are-the-consequences-of-returning-an-io-action	created	2018-01-10
+https://stackoverflow.com/questions/12496641/what-is-the-difference-between-io-and-io	created	2012-09-19
+https://stackoverflow.com/questions/47336203/is-print-in-haskell-a-pure-function	created	2017-11-16
+https://stackoverflow.com/questions/12226624/newbie-understanding-main-and-io	created	2012-09-01
+https://stackoverflow.com/questions/42959514/how-infinite-loop-with-io-work-in-haskell	created	2017-03-22
+https://stackoverflow.com/questions/45844720/haskell-maintaining-different-states-of-global-variable	created	2017-08-25
 https://stackoverflow.com/questions/45971057/why-does-haskells-main-function-require-io-operations	N/A
 https://stackoverflow.com/questions/27001563/is-there-a-lazy-session-io-monad	N/A
 https://stackoverflow.com/questions/7191058/truly-lazy-io-in-haskell	N/A
