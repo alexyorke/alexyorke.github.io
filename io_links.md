@@ -28707,7 +28707,7 @@ https://gist.github.com/CMCDragonkai/1a241955b041283a9009	N/A
 https://gist.github.com/paf31/9c4d402d400d61a49656	N/A
 https://github.com/singpolyma/unexceptionalio-trans	N/A
 https://github.com/transient-haskell/transient-universe	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs	created	2014-09-13
 https://minegishirei.hatenablog.com/entry/2024/01/14/153301	publication	2026-05-30
 https://citeseerx.ist.psu.edu/document?doi=9732e82a22d4350f26ffff47d3f2578d59686d8c&repid=rep1&type=pdf	N/A
 https://escholarship.org/content/qt4hs1t9nc/qt4hs1t9nc.pdf?nosplash=90ee6ca9a4083a360d92057bded17f29&t=puqdhj	N/A
@@ -28730,7 +28730,7 @@ https://hackage.haskell.org/package/ImpSpec	N/A
 https://hackage.haskell.org/package/transformers-0.5.0.1	N/A
 https://input-output-hk.github.io/io-sim/io-sim	N/A
 https://www.research-collection.ethz.ch/server/api/core/bitstreams/f962dc57-a855-47e2-9c5b-cd1e7387d212/content	N/A
-https://hackage.haskell.org/package/monad-exception-0.1/docs/Control-Exception-Monadic.html	N/A
+https://hackage.haskell.org/package/monad-exception-0.1/docs/Control-Exception-Monadic.html	created	2012-03-01
 https://pages.di.unipi.it/corradini/Didattica/AP-24/AP-2024-SYLLABUS.pdf	created	2024
 https://qastack.mx/cs/109421/is-the-io-monad-technically-incorrect	N/A
 https://research-portal.st-andrews.ac.uk/en/publications/monadic-io-in-haskell-1-3/	N/A
@@ -28761,10 +28761,10 @@ https://www.youtube.com/playlist?list=PLD0EBF7F6C1A5A4D6	N/A
 https://owenstephens.co.uk/assets/static/research/masters_report.pdf	N/A
 https://www.microsoft.com/en-us/research/publication/functional-programming-and-inputoutput/	N/A
 https://cnds.constructor.university/courses/ics-2023/hs-notes.pdf	created	2023
-https://hackage.haskell.org/package/aivika-transformers-4.3.5/docs	N/A
+https://hackage.haskell.org/package/aivika-transformers-4.3.5/docs	created	2016-05-28
 https://hackage.haskell.org/package/forsyde-deep/docs/ForSyDe-Deep-System.html	created	2018-12-26
 https://hackage.haskell.org/package/gloss/docs/Graphics-Gloss-Interface-IO-Simulate.html	created	2022-03-20
-https://hackage.haskell.org/package/Yampa-core-0.2.0/docs/FRP-Yampa-Simulation.html	N/A
+https://hackage.haskell.org/package/Yampa-core-0.2.0/docs/FRP-Yampa-Simulation.html	created	2015-06-25
 https://www.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/c9-lectures-dr-erik-meijer-functional-programming-fundamentals-chapter-9-of-13	N/A
 https://www.reddit.com/r/haskell/comments/12rg4h/iosim_on_hackage/	N/A
 https://www.reddit.com/r/haskell/comments/1arpmi8/	N/A
@@ -28788,7 +28788,7 @@ https://hackage.haskell.org/package/http-monad	N/A
 https://softwarepatternslexicon.com/haskell/functional-design-patterns/monadic-design-patterns/	publication	2024-11-23
 https://wiki.haskell.org/Merely_monadic	N/A
 https://eprints.nottingham.ac.uk/11457/files/10391401.pdf	N/A
-https://hackage.haskell.org/package/aivika-1.1/src/aivika.pdf	N/A
+https://hackage.haskell.org/package/aivika-1.1/src/aivika.pdf	created	2014-02-16
 https://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/io-tutorial.ps.gz	N/A
 https://cris.maastrichtuniversity.nl/en/publications/monadic-systems/	publication	2022
 https://slideserve.com/bairn/the-io-monad	N/A
@@ -28804,9 +28804,9 @@ https://eprints.nottingham.ac.uk/11457/files/10391401.pdf?download=1	N/A
 https://link.springer.com/book/10.1007/978-3-642-24276-2	N/A
 https://cgi.cse.unsw.edu.au/~cs3141/22T2/Exercise.html	N/A
 https://hackage.haskell.org/package/dejafu	N/A
-https://hackage.haskell.org/package/dejafu-0.3.2.1/docs/Control-Concurrent-Classy.html	N/A
+https://hackage.haskell.org/package/dejafu-0.3.2.1/docs/Control-Concurrent-Classy.html	created	2016-07-21
 https://hackage.haskell.org/package/fs-sim/docs	created	2026-05-18
-https://hackage.haskell.org/package/IOSpec-0.2.1/docs	N/A
+https://hackage.haskell.org/package/IOSpec-0.2.1/docs	created	2009-10-26
 https://hackage.haskell.org/package/quickcheck-io/docs	created	2017-06-16
 https://hackage.haskell.org/packages/tag/concurrency	N/A
 https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/software-engineering-programming-language-lab/news-lab/detail-lab/der-haskell-ecosystem-workshop-2024	created	2024
