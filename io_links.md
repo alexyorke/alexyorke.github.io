@@ -4864,7 +4864,7 @@ https://eprints.nottingham.ac.uk/10779/1/Thesis.pdf	N/A
 https://retis.santannapisa.it/luca/FPT/Old-2021/Slides/monadic_io.pdf	created	2021
 https://docs.idris-lang.org/_/downloads/en/v1.0/pdf/	modified	2021-01-30
 https://idris.readthedocs.io/en/latest/reference/ffi.html	N/A
-https://ocaml.org/p/coq/8.16.0/doc/Logic_monad/index.html	N/A
+https://ocaml.org/p/coq/8.16.0/doc/Logic_monad/index.html	published	2022-09-06
 https://ocaml.org/p/io/latest/doc/src/io/IO.ml.html	N/A
 https://www.di.uminho.pt/~jno/ps/pdbc04.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=735ac4990846061c31050a05708d12aeef332c5c&repid=rep1&type=pdf	N/A
@@ -6297,7 +6297,7 @@ https://mailman.haskell.org/archives/list/haskell%40haskell.org/thread/5TRS3QKWK
 https://ncatlab.org/nlab/show/Wouter%2BSwierstra	N/A
 https://news.ycombinator.com/item?id=12530823	created	2016-09-19
 https://ocaml.github.io/odoc/eio/eio/Eio/index.html	N/A
-https://ocaml.org/p/eio/1.1	N/A
+https://ocaml.org/p/eio/1.1	published	2024-05-29
 https://ora.ox.ac.uk/objects/uuid%3A87f73a35-a0c2-49b2-a8a8-e50e35421dcd	publication	2016
 https://packages.debian.org/source/sid/armel/haskell-iospec	modified	2026-07-27
 https://people.cs.nott.ac.uk/psztxa/talks/cambridge-06.pdf	N/A
@@ -10619,9 +10619,9 @@ https://manning-content.s3.amazonaws.com/download/b/257ee3d-859b-41a2-9d50-7709a
 https://www.vailtech.net/sites/default/files/JS_Functional-Programming-in-JavaScript.pdf	N/A
 https://opendal.apache.org/docs/bindings/haskell/	N/A
 https://serokell.io/blog/rust-for-haskellers	N/A
-https://ocaml.org/p/eio/0.13	N/A
+https://ocaml.org/p/eio/0.13	published	2023-11-03
 https://docs.rs/rsmonad	published	2023-05-25
-https://ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html	N/A
+https://ocaml.org/p/yocaml/2.0.0/doc/yocaml/Yocaml/Eff/index.html	published	2024-10-04
 https://docs.rs/crate/rsmonad/0.2.4	published	2023-05-25
 https://www.munksgaard.me/papers/munksgaard-laumann-thesis.pdf	N/A
 https://docs.rs/higher/latest/higher/trait.Monad.html	published	2023-01-18
@@ -11051,8 +11051,8 @@ https://monix.io/api/current/monix/eval/Task%24.html	N/A
 https://monix.io/public/pdfs/ScalaDays2018-Tale-TwoStreams.pdf	created	2018
 https://ocaml.org/p/eio/latest/doc/README.html	N/A
 https://discuss.ocaml.org/t/update-on-eio-effects-based-direct-style-io-for-ocaml-5/10395	publication	2022-08-29
-https://ocaml.org/p/eio_main/1.2/doc/README.html	N/A
-https://ocaml.org/p/eio/0.7/doc/README.html	N/A
+https://ocaml.org/p/eio_main/1.2/doc/README.html	published	2024-11-25
+https://ocaml.org/p/eio/0.7/doc/README.html	published	2022-12-08
 https://watch.ocaml.org/w/9Hxc81ac3k6GQF1fdZLx7d	N/A
 https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298	publication	2022-02-10
 https://discuss.ocaml.org/t/best-practices-and-design-patterns-for-supporting-concurrent-io-in-libraries/15001	publication	2024-07-20
@@ -11995,9 +11995,9 @@ https://book.purescript.org/chapter14.html	N/A
 https://pursuit.purescript.org/packages/purescript-run/4.0.0/docs/Run	N/A
 https://rybczak.net/files/effectful/effectful-core-0.1-docs/Effectful-Internal-Monad.html	N/A
 https://ocaml.org/cookbook/create-and-await-promises/lwt	N/A
-https://ocaml.org/p/lwt/4.2.0/doc/lwt/Lwt/index.html	N/A
-https://ocaml.org/p/lwt/6.1.1/doc/lwt/Lwt/index.html	N/A
-https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_io/index.html	N/A
+https://ocaml.org/p/lwt/4.2.0/doc/lwt/Lwt/index.html	published	2019-03-25
+https://ocaml.org/p/lwt/6.1.1/doc/lwt/Lwt/index.html	published	2026-02-24
+https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_io/index.html	published	2026-02-24
 https://ocsigen.org/lwt/	N/A
 https://mirage.io/docs/tutorial-lwt	N/A
 https://ocsigen.org/download/lwt-manual.pdf	N/A
@@ -14384,7 +14384,7 @@ https://pub.dev/documentation/fpdart/latest/fpdart/IORef-class.html	N/A
 https://packagist.org/packages/php-fp/	N/A
 https://pkgs.racket-lang.org/package/monad	N/A
 https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830	publication	2017-09-09
-https://ocaml.org/p/interface-prime/0.1/doc/README.html	N/A
+https://ocaml.org/p/interface-prime/0.1/doc/README.html	published	2019-01-15
 https://run.unl.pt/server/api/core/bitstreams/60b9061c-ba50-43a7-89b9-2633e0e758d6/content	N/A
 https://www.reddit.com/r/functionalprogramming/comments/qwvo9x/im_learning_monads_by_implementing_io_in/	N/A
 https://stackoverflow.com/questions/5448162/c-monad-library	N/A
@@ -23512,58 +23512,58 @@ https://ocaml.org/p/async_unix/v0.14.0	N/A
 https://ocaml.org/p/async_unix/v0.15.0	N/A
 https://ocaml.org/p/async_unix/v0.16.0	N/A
 https://ocaml.org/p/async_unix/v0.17.0	N/A
-https://ocaml.org/p/eio/0.1	N/A
-https://ocaml.org/p/eio/0.10	N/A
-https://ocaml.org/p/eio/0.11	N/A
-https://ocaml.org/p/eio/0.12	N/A
-https://ocaml.org/p/eio/0.14	N/A
-https://ocaml.org/p/eio/0.15	N/A
-https://ocaml.org/p/eio/0.2	N/A
-https://ocaml.org/p/eio/0.3	N/A
-https://ocaml.org/p/eio/0.4	N/A
-https://ocaml.org/p/eio/0.5	N/A
-https://ocaml.org/p/eio/0.6	N/A
-https://ocaml.org/p/eio/0.7	N/A
-https://ocaml.org/p/eio/0.8.1	N/A
-https://ocaml.org/p/eio/0.9	N/A
-https://ocaml.org/p/eio/1.0	N/A
-https://ocaml.org/p/eio/1.2	N/A
-https://ocaml.org/p/eio/1.3	N/A
+https://ocaml.org/p/eio/0.1	published	2022-02-09
+https://ocaml.org/p/eio/0.10	published	2023-06-03
+https://ocaml.org/p/eio/0.11	published	2023-07-12
+https://ocaml.org/p/eio/0.12	published	2023-08-29
+https://ocaml.org/p/eio/0.14	published	2024-01-19
+https://ocaml.org/p/eio/0.15	published	2024-02-26
+https://ocaml.org/p/eio/0.2	published	2022-03-08
+https://ocaml.org/p/eio/0.3	published	2022-06-28
+https://ocaml.org/p/eio/0.4	published	2022-08-04
+https://ocaml.org/p/eio/0.5	published	2022-08-26
+https://ocaml.org/p/eio/0.6	published	2022-10-13
+https://ocaml.org/p/eio/0.7	published	2022-12-08
+https://ocaml.org/p/eio/0.8.1	published	2023-02-09
+https://ocaml.org/p/eio/0.9	published	2023-04-12
+https://ocaml.org/p/eio/1.0	published	2024-03-11
+https://ocaml.org/p/eio/1.2	published	2024-11-25
+https://ocaml.org/p/eio/1.3	published	2025-07-24
 https://ocaml.org/p/eio/latest	N/A
-https://ocaml.org/p/lwt/4.2.0	N/A
-https://ocaml.org/p/lwt/4.2.1	N/A
-https://ocaml.org/p/lwt/4.2.1-1	N/A
-https://ocaml.org/p/lwt/4.3.0	N/A
-https://ocaml.org/p/lwt/4.3.1	N/A
-https://ocaml.org/p/lwt/4.4.0	N/A
-https://ocaml.org/p/lwt/4.5.0	N/A
-https://ocaml.org/p/lwt/5.0.0	N/A
-https://ocaml.org/p/lwt/5.0.1	N/A
-https://ocaml.org/p/lwt/5.1.0	N/A
-https://ocaml.org/p/lwt/5.1.1	N/A
-https://ocaml.org/p/lwt/5.1.2	N/A
-https://ocaml.org/p/lwt/5.10.0	N/A
-https://ocaml.org/p/lwt/5.10.1	N/A
-https://ocaml.org/p/lwt/5.2.0	N/A
-https://ocaml.org/p/lwt/5.3.0	N/A
-https://ocaml.org/p/lwt/5.4.0	N/A
-https://ocaml.org/p/lwt/5.4.1	N/A
-https://ocaml.org/p/lwt/5.4.2	N/A
-https://ocaml.org/p/lwt/5.5.0	N/A
-https://ocaml.org/p/lwt/5.6.0	N/A
-https://ocaml.org/p/lwt/5.6.1	N/A
-https://ocaml.org/p/lwt/5.7.0	N/A
-https://ocaml.org/p/lwt/5.8.0	N/A
-https://ocaml.org/p/lwt/5.8.1	N/A
-https://ocaml.org/p/lwt/5.9.0	N/A
-https://ocaml.org/p/lwt/5.9.1	N/A
-https://ocaml.org/p/lwt/5.9.2	N/A
-https://ocaml.org/p/lwt/6.0.0	N/A
-https://ocaml.org/p/lwt/6.0.0~alpha00	N/A
-https://ocaml.org/p/lwt/6.0.0~beta01	N/A
-https://ocaml.org/p/lwt/6.1.0	N/A
-https://ocaml.org/p/lwt/6.1.1	N/A
-https://ocaml.org/p/lwt/6.1.2	N/A
+https://ocaml.org/p/lwt/4.2.0	published	2019-03-25
+https://ocaml.org/p/lwt/4.2.1	published	2019-04-02
+https://ocaml.org/p/lwt/4.2.1-1	published	2020-12-31
+https://ocaml.org/p/lwt/4.3.0	published	2019-08-20
+https://ocaml.org/p/lwt/4.3.1	published	2019-09-26
+https://ocaml.org/p/lwt/4.4.0	published	2019-10-10
+https://ocaml.org/p/lwt/4.5.0	published	2019-12-15
+https://ocaml.org/p/lwt/5.0.0	published	2019-12-19
+https://ocaml.org/p/lwt/5.0.1	published	2019-12-22
+https://ocaml.org/p/lwt/5.1.0	published	2019-12-28
+https://ocaml.org/p/lwt/5.1.1	published	2020-01-07
+https://ocaml.org/p/lwt/5.1.2	published	2020-02-26
+https://ocaml.org/p/lwt/5.10.0	published	2026-05-15
+https://ocaml.org/p/lwt/5.10.1	published	2026-06-29
+https://ocaml.org/p/lwt/5.2.0	published	2020-03-09
+https://ocaml.org/p/lwt/5.3.0	published	2020-04-24
+https://ocaml.org/p/lwt/5.4.0	published	2020-12-18
+https://ocaml.org/p/lwt/5.4.1	published	2021-05-31
+https://ocaml.org/p/lwt/5.4.2	published	2021-08-04
+https://ocaml.org/p/lwt/5.5.0	published	2021-11-26
+https://ocaml.org/p/lwt/5.6.0	published	2022-06-24
+https://ocaml.org/p/lwt/5.6.1	published	2022-06-29
+https://ocaml.org/p/lwt/5.7.0	published	2023-08-17
+https://ocaml.org/p/lwt/5.8.0	published	2024-10-24
+https://ocaml.org/p/lwt/5.8.1	published	2025-03-09
+https://ocaml.org/p/lwt/5.9.0	published	2024-11-15
+https://ocaml.org/p/lwt/5.9.1	published	2025-03-15
+https://ocaml.org/p/lwt/5.9.2	published	2025-08-27
+https://ocaml.org/p/lwt/6.0.0	published	2026-01-12
+https://ocaml.org/p/lwt/6.0.0~alpha00	published	2025-07-24
+https://ocaml.org/p/lwt/6.0.0~beta01	published	2026-02-05
+https://ocaml.org/p/lwt/6.1.0	published	2026-02-03
+https://ocaml.org/p/lwt/6.1.1	published	2026-02-24
+https://ocaml.org/p/lwt/6.1.2	published	2026-04-29
 https://ocaml.org/p/lwt/latest	N/A
 https://ocaml.org/p/async_kernel/latest	N/A
 https://ocaml.org/p/async_kernel/v0.13.0	N/A
@@ -23571,183 +23571,183 @@ https://ocaml.org/p/async_kernel/v0.14.0	N/A
 https://ocaml.org/p/async_kernel/v0.15.0	N/A
 https://ocaml.org/p/async_kernel/v0.16.0	N/A
 https://ocaml.org/p/async_kernel/v0.17.0	N/A
-https://ocaml.org/p/eio_linux/0.1	N/A
-https://ocaml.org/p/eio_linux/0.10	N/A
-https://ocaml.org/p/eio_linux/0.11	N/A
-https://ocaml.org/p/eio_linux/0.12	N/A
-https://ocaml.org/p/eio_linux/0.13	N/A
-https://ocaml.org/p/eio_linux/0.14	N/A
-https://ocaml.org/p/eio_linux/0.15	N/A
-https://ocaml.org/p/eio_linux/0.2	N/A
-https://ocaml.org/p/eio_linux/0.3	N/A
-https://ocaml.org/p/eio_linux/0.4	N/A
-https://ocaml.org/p/eio_linux/0.5	N/A
-https://ocaml.org/p/eio_linux/0.6	N/A
-https://ocaml.org/p/eio_linux/0.7	N/A
-https://ocaml.org/p/eio_linux/0.8.1	N/A
-https://ocaml.org/p/eio_linux/0.9	N/A
-https://ocaml.org/p/eio_linux/1.0	N/A
-https://ocaml.org/p/eio_linux/1.1	N/A
-https://ocaml.org/p/eio_linux/1.2	N/A
-https://ocaml.org/p/eio_linux/1.3	N/A
+https://ocaml.org/p/eio_linux/0.1	published	2022-02-09
+https://ocaml.org/p/eio_linux/0.10	published	2023-06-03
+https://ocaml.org/p/eio_linux/0.11	published	2023-07-12
+https://ocaml.org/p/eio_linux/0.12	published	2023-08-29
+https://ocaml.org/p/eio_linux/0.13	published	2023-11-03
+https://ocaml.org/p/eio_linux/0.14	published	2024-01-19
+https://ocaml.org/p/eio_linux/0.15	published	2024-02-26
+https://ocaml.org/p/eio_linux/0.2	published	2022-03-08
+https://ocaml.org/p/eio_linux/0.3	published	2022-06-28
+https://ocaml.org/p/eio_linux/0.4	published	2022-08-04
+https://ocaml.org/p/eio_linux/0.5	published	2022-08-26
+https://ocaml.org/p/eio_linux/0.6	published	2022-10-13
+https://ocaml.org/p/eio_linux/0.7	published	2022-12-08
+https://ocaml.org/p/eio_linux/0.8.1	published	2023-02-09
+https://ocaml.org/p/eio_linux/0.9	published	2023-04-12
+https://ocaml.org/p/eio_linux/1.0	published	2024-03-11
+https://ocaml.org/p/eio_linux/1.1	published	2024-05-29
+https://ocaml.org/p/eio_linux/1.2	published	2024-11-25
+https://ocaml.org/p/eio_linux/1.3	published	2025-07-24
 https://ocaml.org/p/eio_linux/latest	N/A
-https://ocaml.org/p/eio_main/0.10	N/A
-https://ocaml.org/p/eio_main/0.11	N/A
-https://ocaml.org/p/eio_main/0.12	N/A
-https://ocaml.org/p/eio_main/0.13	N/A
-https://ocaml.org/p/eio_main/0.14	N/A
-https://ocaml.org/p/eio_main/0.15	N/A
-https://ocaml.org/p/eio_main/0.9	N/A
-https://ocaml.org/p/eio_main/1.0	N/A
-https://ocaml.org/p/eio_main/1.1	N/A
-https://ocaml.org/p/eio_main/1.2	N/A
-https://ocaml.org/p/eio_main/1.3	N/A
+https://ocaml.org/p/eio_main/0.10	published	2023-06-03
+https://ocaml.org/p/eio_main/0.11	published	2023-07-12
+https://ocaml.org/p/eio_main/0.12	published	2023-08-29
+https://ocaml.org/p/eio_main/0.13	published	2023-11-03
+https://ocaml.org/p/eio_main/0.14	published	2024-01-19
+https://ocaml.org/p/eio_main/0.15	published	2024-02-26
+https://ocaml.org/p/eio_main/0.9	published	2023-04-12
+https://ocaml.org/p/eio_main/1.0	published	2024-03-11
+https://ocaml.org/p/eio_main/1.1	published	2024-05-29
+https://ocaml.org/p/eio_main/1.2	published	2024-11-25
+https://ocaml.org/p/eio_main/1.3	published	2025-07-24
 https://ocaml.org/p/eio_main/latest	N/A
-https://ocaml.org/p/eio_posix/0.10	N/A
-https://ocaml.org/p/eio_posix/0.11	N/A
-https://ocaml.org/p/eio_posix/0.12	N/A
-https://ocaml.org/p/eio_posix/0.13	N/A
-https://ocaml.org/p/eio_posix/0.14	N/A
-https://ocaml.org/p/eio_posix/0.15	N/A
-https://ocaml.org/p/eio_posix/0.9	N/A
-https://ocaml.org/p/eio_posix/1.0	N/A
-https://ocaml.org/p/eio_posix/1.1	N/A
-https://ocaml.org/p/eio_posix/1.2	N/A
-https://ocaml.org/p/eio_posix/1.3	N/A
+https://ocaml.org/p/eio_posix/0.10	published	2023-06-03
+https://ocaml.org/p/eio_posix/0.11	published	2023-07-12
+https://ocaml.org/p/eio_posix/0.12	published	2023-08-29
+https://ocaml.org/p/eio_posix/0.13	published	2023-11-03
+https://ocaml.org/p/eio_posix/0.14	published	2024-01-19
+https://ocaml.org/p/eio_posix/0.15	published	2024-02-26
+https://ocaml.org/p/eio_posix/0.9	published	2023-04-12
+https://ocaml.org/p/eio_posix/1.0	published	2024-03-11
+https://ocaml.org/p/eio_posix/1.1	published	2024-05-29
+https://ocaml.org/p/eio_posix/1.2	published	2024-11-25
+https://ocaml.org/p/eio_posix/1.3	published	2025-07-24
 https://ocaml.org/p/eio_posix/latest	N/A
-https://ocaml.org/p/eio_windows/0.10	N/A
-https://ocaml.org/p/eio_windows/0.11	N/A
-https://ocaml.org/p/eio_windows/0.12	N/A
-https://ocaml.org/p/eio_windows/0.13	N/A
-https://ocaml.org/p/eio_windows/0.14	N/A
-https://ocaml.org/p/eio_windows/0.15	N/A
-https://ocaml.org/p/eio_windows/1.0	N/A
-https://ocaml.org/p/eio_windows/1.1	N/A
-https://ocaml.org/p/eio_windows/1.2	N/A
-https://ocaml.org/p/eio_windows/1.3	N/A
+https://ocaml.org/p/eio_windows/0.10	published	2023-06-03
+https://ocaml.org/p/eio_windows/0.11	published	2023-07-12
+https://ocaml.org/p/eio_windows/0.12	published	2023-08-29
+https://ocaml.org/p/eio_windows/0.13	published	2023-11-03
+https://ocaml.org/p/eio_windows/0.14	published	2024-01-19
+https://ocaml.org/p/eio_windows/0.15	published	2024-02-26
+https://ocaml.org/p/eio_windows/1.0	published	2024-03-11
+https://ocaml.org/p/eio_windows/1.1	published	2024-05-29
+https://ocaml.org/p/eio_windows/1.2	published	2024-11-25
+https://ocaml.org/p/eio_windows/1.3	published	2025-07-24
 https://ocaml.org/p/eio_windows/latest	N/A
-https://ocaml.org/p/lwt_ppx/1.0.0	N/A
-https://ocaml.org/p/lwt_ppx/1.0.1	N/A
-https://ocaml.org/p/lwt_ppx/1.1.0	N/A
-https://ocaml.org/p/lwt_ppx/1.2.0	N/A
-https://ocaml.org/p/lwt_ppx/1.2.1	N/A
-https://ocaml.org/p/lwt_ppx/1.2.2	N/A
-https://ocaml.org/p/lwt_ppx/1.2.3	N/A
-https://ocaml.org/p/lwt_ppx/1.2.4	N/A
-https://ocaml.org/p/lwt_ppx/2.0.0	N/A
-https://ocaml.org/p/lwt_ppx/2.0.1	N/A
-https://ocaml.org/p/lwt_ppx/2.0.2	N/A
-https://ocaml.org/p/lwt_ppx/2.0.3	N/A
-https://ocaml.org/p/lwt_ppx/2.1.0	N/A
-https://ocaml.org/p/lwt_ppx/5.8.0	N/A
-https://ocaml.org/p/lwt_ppx/5.8.1	N/A
-https://ocaml.org/p/lwt_ppx/5.9.1	N/A
-https://ocaml.org/p/lwt_ppx/5.9.2	N/A
-https://ocaml.org/p/lwt_ppx/5.9.3	N/A
-https://ocaml.org/p/lwt_ppx/6.0.0	N/A
-https://ocaml.org/p/lwt_ppx/6.0.0~beta01	N/A
-https://ocaml.org/p/lwt_ppx/6.1.0	N/A
+https://ocaml.org/p/lwt_ppx/1.0.0	published	2017-12-24
+https://ocaml.org/p/lwt_ppx/1.0.1	published	2018-01-12
+https://ocaml.org/p/lwt_ppx/1.1.0	published	2018-03-08
+https://ocaml.org/p/lwt_ppx/1.2.0	published	2018-04-10
+https://ocaml.org/p/lwt_ppx/1.2.1	published	2018-06-28
+https://ocaml.org/p/lwt_ppx/1.2.2	published	2019-03-25
+https://ocaml.org/p/lwt_ppx/1.2.3	published	2019-08-20
+https://ocaml.org/p/lwt_ppx/1.2.4	published	2019-10-10
+https://ocaml.org/p/lwt_ppx/2.0.0	published	2019-12-19
+https://ocaml.org/p/lwt_ppx/2.0.1	published	2020-03-09
+https://ocaml.org/p/lwt_ppx/2.0.2	published	2020-12-18
+https://ocaml.org/p/lwt_ppx/2.0.3	published	2021-11-26
+https://ocaml.org/p/lwt_ppx/2.1.0	published	2022-06-24
+https://ocaml.org/p/lwt_ppx/5.8.0	published	2024-10-24
+https://ocaml.org/p/lwt_ppx/5.8.1	published	2025-03-09
+https://ocaml.org/p/lwt_ppx/5.9.1	published	2025-03-15
+https://ocaml.org/p/lwt_ppx/5.9.2	published	2025-08-27
+https://ocaml.org/p/lwt_ppx/5.9.3	published	2026-01-30
+https://ocaml.org/p/lwt_ppx/6.0.0	published	2026-01-12
+https://ocaml.org/p/lwt_ppx/6.0.0~beta01	published	2026-02-05
+https://ocaml.org/p/lwt_ppx/6.1.0	published	2026-02-03
 https://ocaml.org/p/lwt_ppx/latest	N/A
-https://ocaml.org/p/lwt_react/1.0.1	N/A
-https://ocaml.org/p/lwt_react/1.1.0	N/A
-https://ocaml.org/p/lwt_react/1.1.1	N/A
-https://ocaml.org/p/lwt_react/1.1.2	N/A
-https://ocaml.org/p/lwt_react/1.1.3	N/A
-https://ocaml.org/p/lwt_react/1.1.4	N/A
-https://ocaml.org/p/lwt_react/1.1.5	N/A
-https://ocaml.org/p/lwt_react/1.2.0	N/A
+https://ocaml.org/p/lwt_react/1.0.1	published	2017-04-19
+https://ocaml.org/p/lwt_react/1.1.0	published	2017-07-21
+https://ocaml.org/p/lwt_react/1.1.1	published	2018-04-10
+https://ocaml.org/p/lwt_react/1.1.2	published	2019-03-25
+https://ocaml.org/p/lwt_react/1.1.3	published	2019-08-20
+https://ocaml.org/p/lwt_react/1.1.4	published	2020-12-18
+https://ocaml.org/p/lwt_react/1.1.5	published	2021-11-26
+https://ocaml.org/p/lwt_react/1.2.0	published	2022-06-24
 https://ocaml.org/p/lwt_react/latest	N/A
-https://ocaml.org/p/cohttp-eio/6.0.0	N/A
-https://ocaml.org/p/cohttp-eio/6.0.0~alpha2	N/A
-https://ocaml.org/p/cohttp-eio/6.0.0~beta2	N/A
-https://ocaml.org/p/cohttp-eio/6.1.0	N/A
-https://ocaml.org/p/cohttp-eio/6.1.1	N/A
-https://ocaml.org/p/cohttp-eio/6.2.1	N/A
+https://ocaml.org/p/cohttp-eio/6.0.0	published	2024-11-27
+https://ocaml.org/p/cohttp-eio/6.0.0~alpha2	published	2023-08-15
+https://ocaml.org/p/cohttp-eio/6.0.0~beta2	published	2024-01-10
+https://ocaml.org/p/cohttp-eio/6.1.0	published	2025-03-04
+https://ocaml.org/p/cohttp-eio/6.1.1	published	2025-06-09
+https://ocaml.org/p/cohttp-eio/6.2.1	published	2025-12-20
 https://ocaml.org/p/cohttp-eio/latest	N/A
-https://ocaml.org/p/cohttp-lwt/1.2.0	N/A
-https://ocaml.org/p/cohttp-lwt/2.1.3	N/A
-https://ocaml.org/p/cohttp-lwt/2.5.8	N/A
-https://ocaml.org/p/cohttp-lwt/4.0.0	N/A
-https://ocaml.org/p/cohttp-lwt/4.1.2	N/A
-https://ocaml.org/p/cohttp-lwt/5.1.0	N/A
-https://ocaml.org/p/cohttp-lwt/5.3.0	N/A
-https://ocaml.org/p/cohttp-lwt/6.0.0	N/A
-https://ocaml.org/p/cohttp-lwt/6.0.0~beta2	N/A
-https://ocaml.org/p/cohttp-lwt/6.1.0	N/A
-https://ocaml.org/p/cohttp-lwt/6.1.1	N/A
-https://ocaml.org/p/cohttp-lwt/6.2.1	N/A
+https://ocaml.org/p/cohttp-lwt/1.2.0	published	2018-10-20
+https://ocaml.org/p/cohttp-lwt/2.1.3	published	2019-07-12
+https://ocaml.org/p/cohttp-lwt/2.5.8	published	2023-06-14
+https://ocaml.org/p/cohttp-lwt/4.0.0	published	2021-03-27
+https://ocaml.org/p/cohttp-lwt/4.1.2	published	2023-07-23
+https://ocaml.org/p/cohttp-lwt/5.1.0	published	2023-04-04
+https://ocaml.org/p/cohttp-lwt/5.3.0	published	2023-07-24
+https://ocaml.org/p/cohttp-lwt/6.0.0	published	2024-11-27
+https://ocaml.org/p/cohttp-lwt/6.0.0~beta2	published	2024-01-10
+https://ocaml.org/p/cohttp-lwt/6.1.0	published	2025-03-04
+https://ocaml.org/p/cohttp-lwt/6.1.1	published	2025-06-09
+https://ocaml.org/p/cohttp-lwt/6.2.1	published	2025-12-20
 https://ocaml.org/p/cohttp-lwt/latest	N/A
-https://ocaml.org/p/cohttp-lwt-unix/1.2.0	N/A
-https://ocaml.org/p/cohttp-lwt-unix/2.1.3	N/A
-https://ocaml.org/p/cohttp-lwt-unix/2.5.8	N/A
-https://ocaml.org/p/cohttp-lwt-unix/4.0.0	N/A
-https://ocaml.org/p/cohttp-lwt-unix/4.1.2	N/A
-https://ocaml.org/p/cohttp-lwt-unix/5.1.0	N/A
-https://ocaml.org/p/cohttp-lwt-unix/5.3.0	N/A
-https://ocaml.org/p/cohttp-lwt-unix/6.0.0	N/A
-https://ocaml.org/p/cohttp-lwt-unix/6.0.0~beta2	N/A
-https://ocaml.org/p/cohttp-lwt-unix/6.1.0	N/A
-https://ocaml.org/p/cohttp-lwt-unix/6.1.1	N/A
-https://ocaml.org/p/cohttp-lwt-unix/6.2.1	N/A
+https://ocaml.org/p/cohttp-lwt-unix/1.2.0	published	2018-10-20
+https://ocaml.org/p/cohttp-lwt-unix/2.1.3	published	2019-07-12
+https://ocaml.org/p/cohttp-lwt-unix/2.5.8	published	2023-06-14
+https://ocaml.org/p/cohttp-lwt-unix/4.0.0	published	2021-03-27
+https://ocaml.org/p/cohttp-lwt-unix/4.1.2	published	2023-07-23
+https://ocaml.org/p/cohttp-lwt-unix/5.1.0	published	2023-04-04
+https://ocaml.org/p/cohttp-lwt-unix/5.3.0	published	2023-07-24
+https://ocaml.org/p/cohttp-lwt-unix/6.0.0	published	2024-11-27
+https://ocaml.org/p/cohttp-lwt-unix/6.0.0~beta2	published	2024-01-10
+https://ocaml.org/p/cohttp-lwt-unix/6.1.0	published	2025-03-04
+https://ocaml.org/p/cohttp-lwt-unix/6.1.1	published	2025-06-09
+https://ocaml.org/p/cohttp-lwt-unix/6.2.1	published	2025-12-20
 https://ocaml.org/p/cohttp-lwt-unix/latest	N/A
-https://ocaml.org/p/conduit-lwt/1.3.0	N/A
-https://ocaml.org/p/conduit-lwt/1.4.0	N/A
-https://ocaml.org/p/conduit-lwt/1.5.0	N/A
-https://ocaml.org/p/conduit-lwt/2.0.2	N/A
-https://ocaml.org/p/conduit-lwt/2.1.0	N/A
-https://ocaml.org/p/conduit-lwt/2.3.0	N/A
-https://ocaml.org/p/conduit-lwt/4.0.2	N/A
-https://ocaml.org/p/conduit-lwt/6.1.0	N/A
-https://ocaml.org/p/conduit-lwt/6.2.2	N/A
-https://ocaml.org/p/conduit-lwt/6.2.3	N/A
-https://ocaml.org/p/conduit-lwt/7.0.0	N/A
-https://ocaml.org/p/conduit-lwt/7.1.0	N/A
-https://ocaml.org/p/conduit-lwt/8.0.0	N/A
+https://ocaml.org/p/conduit-lwt/1.3.0	published	2018-10-19
+https://ocaml.org/p/conduit-lwt/1.4.0	published	2019-01-08
+https://ocaml.org/p/conduit-lwt/1.5.0	published	2019-07-16
+https://ocaml.org/p/conduit-lwt/2.0.2	published	2019-11-02
+https://ocaml.org/p/conduit-lwt/2.1.0	published	2020-03-15
+https://ocaml.org/p/conduit-lwt/2.3.0	published	2021-02-20
+https://ocaml.org/p/conduit-lwt/4.0.2	published	2021-10-11
+https://ocaml.org/p/conduit-lwt/6.1.0	published	2022-12-15
+https://ocaml.org/p/conduit-lwt/6.2.2	published	2024-04-30
+https://ocaml.org/p/conduit-lwt/6.2.3	published	2024-06-14
+https://ocaml.org/p/conduit-lwt/7.0.0	published	2024-09-03
+https://ocaml.org/p/conduit-lwt/7.1.0	published	2024-09-21
+https://ocaml.org/p/conduit-lwt/8.0.0	published	2025-02-27
 https://ocaml.org/p/conduit-lwt/latest	N/A
-https://ocaml.org/p/conduit-lwt-unix/1.3.0	N/A
-https://ocaml.org/p/conduit-lwt-unix/1.4.0	N/A
-https://ocaml.org/p/conduit-lwt-unix/1.5.0	N/A
-https://ocaml.org/p/conduit-lwt-unix/2.0.2	N/A
-https://ocaml.org/p/conduit-lwt-unix/2.2.2	N/A
-https://ocaml.org/p/conduit-lwt-unix/2.3.0	N/A
-https://ocaml.org/p/conduit-lwt-unix/4.0.2	N/A
-https://ocaml.org/p/conduit-lwt-unix/6.1.0	N/A
-https://ocaml.org/p/conduit-lwt-unix/6.2.3	N/A
-https://ocaml.org/p/conduit-lwt-unix/7.0.0	N/A
-https://ocaml.org/p/conduit-lwt-unix/8.0.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/1.3.0	published	2018-10-19
+https://ocaml.org/p/conduit-lwt-unix/1.4.0	published	2019-01-08
+https://ocaml.org/p/conduit-lwt-unix/1.5.0	published	2019-07-16
+https://ocaml.org/p/conduit-lwt-unix/2.0.2	published	2019-11-02
+https://ocaml.org/p/conduit-lwt-unix/2.2.2	published	2020-06-16
+https://ocaml.org/p/conduit-lwt-unix/2.3.0	published	2021-02-20
+https://ocaml.org/p/conduit-lwt-unix/4.0.2	published	2021-10-11
+https://ocaml.org/p/conduit-lwt-unix/6.1.0	published	2022-12-15
+https://ocaml.org/p/conduit-lwt-unix/6.2.3	published	2024-06-14
+https://ocaml.org/p/conduit-lwt-unix/7.0.0	published	2024-09-03
+https://ocaml.org/p/conduit-lwt-unix/8.0.0	published	2025-02-27
 https://ocaml.org/p/conduit-lwt-unix/latest	N/A
-https://ocaml.org/p/eio-ssl/0.1.0	N/A
-https://ocaml.org/p/eio-ssl/0.1.1	N/A
-https://ocaml.org/p/eio-ssl/0.2.0	N/A
-https://ocaml.org/p/eio-ssl/0.3.0	N/A
+https://ocaml.org/p/eio-ssl/0.1.0	published	2022-10-26
+https://ocaml.org/p/eio-ssl/0.1.1	published	2023-03-20
+https://ocaml.org/p/eio-ssl/0.2.0	published	2023-06-13
+https://ocaml.org/p/eio-ssl/0.3.0	published	2024-06-29
 https://ocaml.org/p/eio-ssl/latest	N/A
-https://ocaml.org/p/tls-lwt/0.16.0	N/A
-https://ocaml.org/p/tls-lwt/0.17.3	N/A
-https://ocaml.org/p/tls-lwt/0.17.5	N/A
-https://ocaml.org/p/tls-lwt/1.0.4	N/A
-https://ocaml.org/p/tls-lwt/2.0.1	N/A
-https://ocaml.org/p/tls-lwt/2.0.2	N/A
-https://ocaml.org/p/tls-lwt/2.0.3	N/A
-https://ocaml.org/p/tls-lwt/2.0.4	N/A
-https://ocaml.org/p/tls-lwt/2.1.0	N/A
-https://ocaml.org/p/tls-lwt/2.1.1	N/A
+https://ocaml.org/p/tls-lwt/0.16.0	published	2023-02-16
+https://ocaml.org/p/tls-lwt/0.17.3	published	2023-11-21
+https://ocaml.org/p/tls-lwt/0.17.5	published	2024-05-15
+https://ocaml.org/p/tls-lwt/1.0.4	published	2024-10-29
+https://ocaml.org/p/tls-lwt/2.0.1	published	2025-04-15
+https://ocaml.org/p/tls-lwt/2.0.2	published	2025-08-22
+https://ocaml.org/p/tls-lwt/2.0.3	published	2025-09-26
+https://ocaml.org/p/tls-lwt/2.0.4	published	2026-03-10
+https://ocaml.org/p/tls-lwt/2.1.0	published	2026-05-20
+https://ocaml.org/p/tls-lwt/2.1.1	published	2026-06-30
 https://ocaml.org/p/tls-lwt/latest	N/A
-https://ocaml.org/p/lwt_eio/0.1	N/A
-https://ocaml.org/p/lwt_eio/0.2	N/A
-https://ocaml.org/p/lwt_eio/0.3	N/A
-https://ocaml.org/p/lwt_eio/0.4	N/A
-https://ocaml.org/p/lwt_eio/0.5	N/A
-https://ocaml.org/p/lwt_eio/0.5.1	N/A
-https://ocaml.org/p/lwt_eio/0.6	N/A
+https://ocaml.org/p/lwt_eio/0.1	published	2022-02-10
+https://ocaml.org/p/lwt_eio/0.2	published	2022-06-21
+https://ocaml.org/p/lwt_eio/0.3	published	2023-05-15
+https://ocaml.org/p/lwt_eio/0.4	published	2023-08-23
+https://ocaml.org/p/lwt_eio/0.5	published	2023-08-30
+https://ocaml.org/p/lwt_eio/0.5.1	published	2024-02-28
+https://ocaml.org/p/lwt_eio/0.6	published	2026-04-03
 https://ocaml.org/p/lwt_eio/latest	N/A
-https://ocaml.org/p/picos/0.1.0	N/A
-https://ocaml.org/p/picos/0.3.0	N/A
-https://ocaml.org/p/picos/0.4.0	N/A
-https://ocaml.org/p/picos/0.5.0	N/A
-https://ocaml.org/p/picos/0.6.0	N/A
+https://ocaml.org/p/picos/0.1.0	published	2024-04-09
+https://ocaml.org/p/picos/0.3.0	published	2024-04-28
+https://ocaml.org/p/picos/0.4.0	published	2024-06-06
+https://ocaml.org/p/picos/0.5.0	published	2024-09-05
+https://ocaml.org/p/picos/0.6.0	published	2024-11-03
 https://ocaml.org/p/picos/latest	N/A
-https://ocaml.org/p/picos_io/0.5.0	N/A
-https://ocaml.org/p/picos_io/0.6.0	N/A
+https://ocaml.org/p/picos_io/0.5.0	published	2024-09-05
+https://ocaml.org/p/picos_io/0.6.0	published	2024-11-03
 https://ocaml.org/p/picos_io/latest	N/A
 https://hopac.github.io/Hopac/Hopac.html	N/A
 https://www.oreilly.com/library/view/f-high-performance/9781786468079/ch04s03.html	N/A
@@ -26914,7 +26914,7 @@ https://discuss.ocaml.org/t/book-curious-ocaml-functional-programming-in-ocaml/1
 https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298/28	publication	2022-02-14
 https://discuss.ocaml.org/tag/effects	N/A
 https://icfp21.sigplan.org/details/ocaml-2021-papers/16/Experiences-with-Effects	created	2021
-https://ocaml.org/p/lwt/5.9.1/doc/index.html	N/A
+https://ocaml.org/p/lwt/5.9.1/doc/index.html	published	2025-03-15
 https://alan.petitepomme.net/cwn/2011.11.01.html	created	2011
 https://blog.janestreet.com/announcing-async/	N/A
 https://blog.janestreet.com/fun-with-algebraic-effects-hardcaml/	N/A
@@ -26941,7 +26941,7 @@ https://dl.acm.org/doi/pdf/10.1145/1411304.1411307	N/A
 https://hal.science/hal-00493213v1/document	N/A
 https://hal.science/hal-02865894v1/document	N/A
 https://kcsrk.info/papers/composable_concurrency.pdf	N/A
-https://ocaml.org/p/lwt/6.1.1/doc/manual.html	N/A
+https://ocaml.org/p/lwt/6.1.1/doc/manual.html	published	2026-02-24
 https://realworldocaml.org/	N/A
 https://rgrinberg.com/posts/free-monads-in-the-wild-ocaml/	N/A
 https://tweag.io/blog/2021-02-25-tezos-ocaml-monad/	created	2021
@@ -26949,7 +26949,7 @@ https://users.eecs.northwestern.edu/~clk800/rand-test-study/_eroawpf/eroawpf-200
 https://www.abebooks.com/9789351103844/Real-World-OCaml-Functional-Programming-9351103846/plp	N/A
 https://www.cs.cornell.edu/courses/cs3110/2015fa/l/17-async/rec.html	created	2015
 https://courses.cs.cornell.edu/cs3110/2021sp/textbook/adv/promises.html	created	2021
-https://ocaml.org/p/lwt/5.6.1/doc/lwt/Lwt_result/Syntax/index.html	N/A
+https://ocaml.org/p/lwt/5.6.1/doc/lwt/Lwt_result/Syntax/index.html	published	2022-06-29
 https://ocaml.org/p/lwt/latest/versions	N/A
 https://www.cs.cornell.edu/courses/cs3110/2015fa/a5/a5.html	created	2015
 https://www.cs.cornell.edu/courses/cs3110/2015sp/lectures/18/async/index_values.html	created	2015
@@ -26963,9 +26963,9 @@ https://www.reddit.com/r/haskell/comments/1clmivk	N/A
 https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/8?u=kantian	publication	2017-09-14
 https://ocaml.org/p/base/latest/doc/base/Base/Monad/index.html	N/A
 https://ocaml.org/p/mnd/latest/doc/index.html	N/A
-https://ocaml.org/p/monads/2.5.0/doc/monads/Monads/Std/index.html	N/A
+https://ocaml.org/p/monads/2.5.0/doc/monads/Monads/Std/index.html	published	2022-07-14
 https://ocaml.org/p/monads/latest/monads/Monads/Std/Monad/State/index.html	N/A
-https://ocaml.org/p/sel/0.7.0	N/A
+https://ocaml.org/p/sel/0.7.0	published	2025-06-19
 https://ocaml.org/p/tezos-error-monad/17.3	N/A
 https://ocaml.org/packages/search?q=tag%3A%22monad%22	N/A
 https://www.cs.cornell.edu/andru/papers/ufo/bidirectional-effects.pdf	N/A
@@ -30737,9 +30737,9 @@ https://hackage.haskell.org/package/scheduler/docs/Control-Scheduler.html	create
 https://hackage.haskell.org/package/dejafu-0.3.2.0/docs	N/A
 https://hackage-content.haskell.org/package/distributed-process-async-0.2.11/docs/Control-Distributed-Process-Async.html	N/A
 https://hackage.haskell.org/package/scheduler	published	2025-01-14
-https://ocaml.org/p/lwt/5.5.0/doc/index.html	N/A
-https://ocaml.org/p/lwt/4.5.0/doc/README.html	N/A
-https://ocaml.org/p/lwt/5.1.1/doc/lwt/Lwt/index.html	N/A
+https://ocaml.org/p/lwt/5.5.0/doc/index.html	published	2021-11-26
+https://ocaml.org/p/lwt/4.5.0/doc/README.html	published	2019-12-15
+https://ocaml.org/p/lwt/5.1.1/doc/lwt/Lwt/index.html	published	2020-01-07
 https://kcsrk.info/papers/sumit_ms_thesis.pdf	N/A
 https://refubium.fu-berlin.de/handle/fub188/18938	N/A
 https://www.cs.cmu.edu/~fp/papers/jfp22.pdf	N/A
@@ -30769,8 +30769,8 @@ https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index	N/A
 https://devsisters.github.io/shardcake/docs/	N/A
 https://people.kth.se/~buiras/lic.pdf	N/A
 https://www.researchgate.net/publication/221563004_A_Library_for_Light-Weight_Information-Flow_Security_in_Haskell	N/A
-https://ocaml.org/p/eio_main/1.2/eio_main/Eio_main/index.html	N/A
-https://ocaml.org/p/eio/0.14/eio/Eio/index.html	N/A
+https://ocaml.org/p/eio_main/1.2/eio_main/Eio_main/index.html	published	2024-11-25
+https://ocaml.org/p/eio/0.14/eio/Eio/index.html	published	2024-01-19
 https://bahr.io/pubs/files/effcalc-paper.pdf	N/A
 https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-9.0.1/src/GHC-Builtin-PrimOps.html	modified	2021-02-04
 https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-Event.html	N/A
@@ -30869,10 +30869,10 @@ https://www.cambridge.org/core/books/abs/haskell-school-of-music/higherorder-typ
 https://hal2016.haskell.org/slides/HAL2016-thielemann.pdf	created	2016
 https://www.researchgate.net/publication/45914316_Compiling_Signal_Processing_Code_embedded_in_Haskell_via_LLVM	N/A
 https://www.researchgate.net/publication/228791306_Audio_Processing_and_Sound_Synthesis_in_Haskell	N/A
-https://ocaml.org/p/streaming/0.8.0/doc/Streaming/Stream/index.html	N/A
+https://ocaml.org/p/streaming/0.8.0/doc/Streaming/Stream/index.html	published	2020-06-11
 https://opam.ocaml.org/packages/fstreams/	N/A
 https://ocaml-multicore.github.io/eio/eio/Eio/Stream/index.html	N/A
-https://ocaml.org/p/streaming/0.8.0/doc/index.html	N/A
+https://ocaml.org/p/streaming/0.8.0/doc/index.html	published	2020-06-11
 https://ocaml-lib.sourceforge.net/doc/IO.html	N/A
 https://reactiveml.github.io/reactive_asco/resources/farm13.pdf	N/A
 https://strymonas.github.io/docs/ocaml-22.pdf	N/A
@@ -30891,7 +30891,7 @@ https://ocaml.org/p/graphics/latest/doc/README.html	N/A
 https://ocaml.github.io/graphics/graphics/Graphics/	N/A
 https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora124.html	N/A
 https://ocaml.org/manual/4.05/libref/Graphics.html	N/A
-https://ocaml.org/p/graphics/5.1.2/doc/README.html	N/A
+https://ocaml.org/p/graphics/5.1.2/doc/README.html	published	2021-05-25
 https://www.cis.upenn.edu/~cis120/current/files/1200notes.pdf	N/A
 https://www.seas.upenn.edu/~cis120/archive/22sp/files/120notes.pdf	N/A
 https://ocaml.org/p/async_graphics/latest/doc/Async_graphics/index.html	N/A
@@ -30912,7 +30912,7 @@ https://hackage.haskell.org/package/usb-iteratee	published	2012-11-26
 https://hackage.haskell.org/package/hid	published	2016-05-25
 https://arxiv.org/abs/1309.2093	created	2013-09
 https://opam.ocaml.org/packages/serialport/	N/A
-https://ocaml.org/p/serialport/0.1	N/A
+https://ocaml.org/p/serialport/0.1	published	2025-12-13
 https://ocaml.org/p/stdio/latest/doc/Stdio/index.html	N/A
 https://ocaml.org/manual/5.2/api/Unix.html	N/A
 https://ocaml.org/manual/5.3/api/UnixLabels.html	N/A
@@ -30922,8 +30922,8 @@ https://ocaml.org/manual/4.00/ocaml-4.00-refman.pdf	N/A
 https://www.researchgate.net/publication/2245424_Lambda_in_Motion_Controlling_Robots_With_Haskell	N/A
 https://hackage.haskell.org/package/exceptions-0.10.7/docs/Control-Monad-Catch.html	N/A
 https://hackage-content.haskell.org/package/exceptions-0.10.10/docs/src/Control.Monad.Catch.html	N/A
-https://ocaml.org/p/lwt/5.4.1/doc/lwt/Lwt/index.html	N/A
-https://ocaml.org/p/lwt-exit/1.0/doc/lwt-exit/Lwt_exit/index.html	N/A
+https://ocaml.org/p/lwt/5.4.1/doc/lwt/Lwt/index.html	published	2021-05-31
+https://ocaml.org/p/lwt-exit/1.0/doc/lwt-exit/Lwt_exit/index.html	published	2020-12-07
 https://ocsigen.org/lwt/5.4.2/api/Lwt	N/A
 https://ocaml.org/u/dd4fdb0c026377497e91e41115e3044c/lwt/6.0.0~alpha00/manual.html	N/A
 https://discuss.ocaml.org/t/ann-lwt-canceler-0-3/7092	publication	2021-01-14
@@ -30940,7 +30940,7 @@ https://hackage-content.haskell.org/package/tls-2.2.2/docs/Network-TLS.html	N/A
 https://hackage.haskell.org/package/dns-4.2.0	published	2023-06-30
 https://ocaml.org/p/tls-lwt/latest/tls-lwt/Tls_lwt/index.html	N/A
 https://ocaml.org/p/tls-lwt/latest/doc/index.html	N/A
-https://ocaml.org/p/tls-lwt/1.0.4/doc/tls-lwt/Tls_lwt/index.html	N/A
+https://ocaml.org/p/tls-lwt/1.0.4/doc/tls-lwt/Tls_lwt/index.html	published	2024-10-29
 https://opam-5.ocaml.org/packages/tls-lwt/	N/A
 https://git.jeffas.net/ocaml-tls/files/lwt/tls_lwt.mli.html	N/A
 https://projects.camlcity.org/projects/dl/ocamlnet-4.1.9/doc/html-main/Tls.html	N/A
@@ -30958,7 +30958,7 @@ https://citeseerx.ist.psu.edu/document?doi=f0a3a86e9a05bb694be99d9d2db863fad6ff3
 https://arxiv.org/abs/1608.02896	created	2016-08
 https://hackage.haskell.org/package/simple-actors/docs/Control-Concurrent-Actors.html	created	2012-08-22
 https://hackage.haskell.org/package/hactors/docs/Control-Concurrent-Actor.html	created	2012-01-29
-https://ocaml.org/p/lwt/4.3.0/index.html	N/A
+https://ocaml.org/p/lwt/4.3.0/index.html	published	2019-08-20
 https://opam.ocaml.org/packages/mirage-channel-lwt/	N/A
 https://arxiv.org/abs/2111.12147	created	2021-11
 https://github.com/robur-coop/miou/blob/main/queue/main.ml	updated	2026-07-15
@@ -30995,9 +30995,9 @@ https://ocaml.org/p/websocket-lwt/latest/README.html	N/A
 https://ocaml.org/p/websocket-lwt	N/A
 https://opam.ocaml.org/packages/websocket-lwt/	N/A
 https://ocaml.org/p/websocket-lwt-unix/latest/doc/index.html	N/A
-https://ocaml.org/p/websocket-lwt-unix/2.15	N/A
-https://ocaml.org/p/websocket-lwt-unix/2.15/doc/index.html	N/A
-https://ocaml.org/p/websocket-lwt-unix/2.17/doc/websocket-lwt-unix/Websocket_lwt_unix/index.html	N/A
+https://ocaml.org/p/websocket-lwt-unix/2.15	published	2022-03-21
+https://ocaml.org/p/websocket-lwt-unix/2.15/doc/index.html	published	2022-03-21
+https://ocaml.org/p/websocket-lwt-unix/2.17/doc/websocket-lwt-unix/Websocket_lwt_unix/index.html	published	2024-09-17
 https://opam.ocaml.org/packages/websocket/	N/A
 https://hackage.haskell.org/package/wai-eventsource	published	2014-06-09
 https://hackage.haskell.org/package/wai-eventsource/docs/Network-Wai-EventSource.html	created	2014-06-09
@@ -31007,12 +31007,12 @@ https://hackage-content.haskell.org/package/http2-5.4.0	N/A
 https://hackage.haskell.org/package/yesod-eventsource	published	2026-06-17
 https://hackage.haskell.org/package/wai-extra-3.1.4	published	2020-12-05
 https://hackage-content-origin.haskell.org/package/http2-5.1.3	N/A
-https://ocaml.org/p/cohttp-lwt/2.1.3/doc/README.html	N/A
-https://ocaml.org/p/cohttp/4.0.0/doc/README.html	N/A
+https://ocaml.org/p/cohttp-lwt/2.1.3/doc/README.html	published	2019-07-12
+https://ocaml.org/p/cohttp/4.0.0/doc/README.html	published	2021-03-27
 https://github.com/mirage/ocaml-cohttp	updated	2026-07-26
 https://opam.ocaml.org/packages/cohttp/	N/A
 https://opam.ocaml.org/packages/cohttp-lwt-unix/	N/A
-https://ocaml.org/p/cohttp-lwt/1.2.0/doc/README.html	N/A
+https://ocaml.org/p/cohttp-lwt/1.2.0/doc/README.html	published	2018-10-20
 https://hackage-content-origin.haskell.org/package/typed-protocols	N/A
 https://www.mew.org/~kazu/doc/paper/http2-haskell-2016.pdf	created	2016
 https://hackage-content.haskell.org/package/louter-0.1.1.2/docs/Louter-Types-Streaming.html	N/A
@@ -31024,12 +31024,12 @@ https://www.stackage.org/package/HaskellNet	indexed	2026-07-27
 https://hackage.haskell.org/package/HaskellNet-SSL-0.3.3.0/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-SSL-0.2.5/docs	N/A
 https://packages.debian.org/source/stable/haskell-mime-mail	modified	2026-07-27
-https://ocaml.org/p/letters/0.4.0/doc/README.html	N/A
-https://ocaml.org/p/sendmail-lwt/0.10.0/doc/Sendmail_lwt/index.html	N/A
-https://ocaml.org/p/letters/0.3.2/doc/README.html	N/A
-https://ocaml.org/p/letters/0.3.0/doc/README.html	N/A
+https://ocaml.org/p/letters/0.4.0/doc/README.html	published	2025-01-22
+https://ocaml.org/p/sendmail-lwt/0.10.0/doc/Sendmail_lwt/index.html	published	2024-10-15
+https://ocaml.org/p/letters/0.3.2/doc/README.html	published	2023-02-07
+https://ocaml.org/p/letters/0.3.0/doc/README.html	published	2021-09-15
 https://ocaml.github.io/platform-dev/packages/imap/	N/A
-https://ocaml.org/p/letters/0.3.3	N/A
+https://ocaml.org/p/letters/0.3.3	published	2023-07-25
 https://opam-5.ocaml.org/packages/letters/	N/A
 https://discuss.ocaml.org/t/are-there-any-imap-server-libraries/16175	publication	2025-02-24
 https://hackage.haskell.org/package/bzlib	published	2026-07-10
@@ -31039,14 +31039,14 @@ https://hackage.haskell.org/package/bzlib-conduit-0.3.0	published	2018-02-04
 https://hackage.haskell.org/package/bzlib-conduit-0.2.1.0	published	2012-11-11
 https://hackage.haskell.org/package/zlib-conduit-0.5.0.2	published	2012-11-11
 https://hackage-content.haskell.org/package/zlib-0.7.1.0	N/A
-https://ocaml.org/p/lwt/6.1.0/doc/lwt/Lwt_stream/index.html	N/A
-https://ocaml.org/p/decompress/1.5.3	N/A
-https://ocaml.org/p/decompress/1.5.0	N/A
+https://ocaml.org/p/lwt/6.1.0/doc/lwt/Lwt_stream/index.html	published	2026-02-03
+https://ocaml.org/p/decompress/1.5.3	published	2023-09-20
+https://ocaml.org/p/decompress/1.5.0	published	2022-08-29
 https://opam.ocaml.org/packages/decompress/	N/A
-https://ocaml.org/p/bytesrw/0.2.0/doc/bytesrw.zlib/Bytesrw_zlib/Gzip/index.html	N/A
+https://ocaml.org/p/bytesrw/0.2.0/doc/bytesrw.zlib/Bytesrw_zlib/Gzip/index.html	published	2025-07-28
 https://opam.ocaml.org/packages/zlib/	N/A
 https://opam-5.ocaml.org/packages/clz/	N/A
-https://ocaml.org/p/decompress/1.5.0/doc/decompress.gz/Gz/Def/index.html	N/A
+https://ocaml.org/p/decompress/1.5.0/doc/decompress.gz/Gz/Def/index.html	published	2022-08-29
 https://vmchale.com/static/serve/lazy-c-api-streaming.pdf	N/A
 https://hackage.haskell.org/package/streaming-brotli/docs/Streaming-Brotli.html	created	2019-04-22
 https://hackage.haskell.org/package/zstd/docs/Codec-Compression-Zstd-Streaming.html	created	2021-09-27
@@ -31075,11 +31075,11 @@ https://hackage.haskell.org/package/process-1.6.6.0	published	2019-10-02
 https://hackage.haskell.org/package/process-1.6.18.0	published	2023-09-20
 https://hackage.haskell.org/package/process-1.6.23.0	published	2024-09-06
 https://hackage.haskell.org/package/angel	published	2015-07-17
-https://ocaml.org/p/lwt/4.3.0/doc/lwt.unix/Lwt_process/index.html	N/A
-https://ocaml.org/p/lwt/4.2.1-1/doc/lwt.unix/Lwt_process/index.html	N/A
+https://ocaml.org/p/lwt/4.3.0/doc/lwt.unix/Lwt_process/index.html	published	2019-08-20
+https://ocaml.org/p/lwt/4.2.1-1/doc/lwt.unix/Lwt_process/index.html	published	2020-12-31
 https://ocaml.org/u/9a8383bd67a996e84bf1f19865223e33/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_process/index.html	N/A
-https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_unix/index.html	N/A
-https://ocaml.org/p/lwt/6.1.0/doc/lwt.unix/Lwt_unix/index.html	N/A
+https://ocaml.org/p/lwt/6.1.1/doc/lwt.unix/Lwt_unix/index.html	published	2026-02-24
+https://ocaml.org/p/lwt/6.1.0/doc/lwt.unix/Lwt_unix/index.html	published	2026-02-03
 https://opam.ocamllabs.io/packages/lwt/lwt.6.0.0~alpha00/	N/A
 https://www.sciencedirect.com/science/article/pii/S1571066109004447	N/A
 https://citeseerx.ist.psu.edu/document?doi=a4382318df903cbb166d51021e7ed7d9005638ee&repid=rep1&type=pdf	N/A
@@ -31111,9 +31111,9 @@ https://hackage.haskell.org/package/Glob/docs/System-FilePath-Glob.html	created	
 https://hackage.haskell.org/package/filepattern/docs/System-FilePattern-Directory.html	created	2022-08-21
 https://hackage.haskell.org/package/paths/docs/System-Path-IO.html	created	2018-04-18
 https://hackage.haskell.org/package/pathtype	published	2026-06-04
-https://ocaml.org/p/eio/1.1/doc/Eio/Path/index.html	N/A
-https://ocaml.org/p/eio/0.12/doc/Eio/Path/index.html	N/A
-https://ocaml.org/p/eio/0.10/doc/Eio/Path/index.html	N/A
+https://ocaml.org/p/eio/1.1/doc/Eio/Path/index.html	published	2024-05-29
+https://ocaml.org/p/eio/0.12/doc/Eio/Path/index.html	published	2023-08-29
+https://ocaml.org/p/eio/0.10/doc/Eio/Path/index.html	published	2023-06-03
 https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.html	N/A
 https://sanette.github.io/ocaml2.org/learn/tutorials/if_statements_loops_and_recursion.html	N/A
 https://ocaml.app/article/Working_with_files_and_inputoutput_in_OCaml.html	N/A
@@ -31130,9 +31130,9 @@ https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/unix-2.7.0.1/System-Posix-IO.html	modified	2019-02-15
 https://hackage.haskell.org/package/pipes-protolude/docs/Pipes-Monad.html	created	2016-10-14
 https://mail.haskell.org/pipermail/haskell/2001-February/006703.html	created	2001
-https://ocaml.org/p/lwt/5.5.0/doc/lwt.unix/Lwt_unix/index.html	N/A
-https://ocaml.org/p/lwt/4.2.0/lwt.unix/Lwt_unix/index.html	N/A
-https://ocaml.org/p/lwt/5.4.1/lwt.unix/Lwt_unix/index.html	N/A
+https://ocaml.org/p/lwt/5.5.0/doc/lwt.unix/Lwt_unix/index.html	published	2021-11-26
+https://ocaml.org/p/lwt/4.2.0/lwt.unix/Lwt_unix/index.html	published	2019-03-25
+https://ocaml.org/p/lwt/5.4.1/lwt.unix/Lwt_unix/index.html	published	2021-05-31
 https://ocaml.org/u/73f55b5cad7ec65737d7a5e544eced32/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_unix/index.html	N/A
 https://beej.us/guide/bgipc/html/multi/index.html	N/A
 https://hackage.haskell.org/package/cryptonite	published	2022-03-13
@@ -31179,7 +31179,7 @@ https://odr.chalmers.se/bitstreams/84df6716-04b1-4276-be49-653a0214aefe/download
 https://www.usenix.org/conference/dsl-99/domain-specific-embedded-compilers	publication	1999
 https://usenix.org/publications/library/proceedings/dsl99/full_papers/leijen/leijen.pdf	N/A
 https://research.manchester.ac.uk/files/54512586/FULL_TEXT.PDF	N/A
-https://ocaml.org/p/lwt/5.8.0/doc/index.html	N/A
+https://ocaml.org/p/lwt/5.8.0/doc/index.html	published	2024-10-24
 https://typelevel.org/doobie/docs/01-Introduction.html	modified	2026-06-25
 https://typelevel.org/doobie/	modified	2026-06-25
 https://index.scala-lang.org/typelevel/doobie?artifact=doobie-hikari-cats	N/A
@@ -31231,7 +31231,7 @@ https://www.haskell.org/onlinereport/directory.html	modified	2019-02-17
 https://downloads.haskell.org/ghc/9.10.2/docs/libraries/directory-1.3.8.5-fc66/src/System.Directory.html	modified	2025-05-01
 https://ocaml.org/manual/4.06/libref/Unix.html	N/A
 https://ocaml.org/manual/5.0/api/Unix.html	N/A
-https://ocaml.org/p/ocaml-base-compiler/4.14.1/doc/unix/UnixLabels/index.html	N/A
+https://ocaml.org/p/ocaml-base-compiler/4.14.1/doc/unix/UnixLabels/index.html	published	2022-12-19
 https://ocaml.org/manual/4.13/api/Unix.html	N/A
 https://unix.janestreet.com/ocaml-core/odoc/unix/Unix/index.html	N/A
 https://hackage.haskell.org/package/async-timer	published	2018-02-28
@@ -31954,7 +31954,7 @@ https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp	N/A
 https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG	N/A
 https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/	N/A
 https://docs.idris.org/_/downloads/en/v0.9.20/pdf/	N/A
-https://ocaml.org/p/yocaml/2.7.0/effect.html	N/A
+https://ocaml.org/p/yocaml/2.7.0/effect.html	published	2025-11-23
 https://ocaml.org/manual/5.4/api/Stdlib.Effect.html	N/A
 https://lrodero.github.io/cats-effect/docs/getting-started	N/A
 https://patryshev.com/books/GregoryMeredith.pdf	N/A
@@ -32359,7 +32359,7 @@ https://effect-ts.github.io/effect/	modified	2026-07-26
 https://www.npmjs.com/package/effect	N/A
 https://learn-effect-ts.tonytang.dev/	N/A
 https://github.com/effect-ts/effect	N/A
-https://ocaml.org/p/eio/0.15/doc/README.html	N/A
+https://ocaml.org/p/eio/0.15/doc/README.html	published	2024-02-26
 https://skvirski.com/articles/result-oriented-programming-fsharp/	N/A
 https://www.readkong.com/page/the-f-computation-expression-zoo-7270706	N/A
 https://wallymathieu.github.io/FSharpPlus/computation-expressions.html	N/A
