@@ -31895,12 +31895,12 @@ https://hackage.haskell.org/package/file-io	N/A
 https://hackage.haskell.org/package/hpath-posix-0.13.2	N/A
 https://hackage.haskell.org/package/hpath-io/docs	created	2021-03-08
 https://hackage.haskell.org/package/Z-IO-0.1.3.0/docs/Z-IO-FileSystem.html	N/A
-https://hackage.haskell.org/package/FileSystem/docs	N/A
+https://hackage.haskell.org/package/FileSystem/docs	created	2011-01-28
 https://hackage.haskell.org/package/posix-paths	N/A
 https://hackage.haskell.org/package/hpath-0.9.2/docs/System-Posix-FilePath.html	N/A
 https://hackage.haskell.org/package/filepath-1.4.100.0	N/A
 https://hackage.haskell.org/package/Z-IO-0.7.0.0	N/A
-https://hackage.haskell.org/package/Z-IO/docs	N/A
+https://hackage.haskell.org/package/Z-IO/docs	created	2022-11-26
 https://hackage.haskell.org/package/Z-IO-0.6.2.0/docs	N/A
 https://hackage.haskell.org/package/Z-IO-0.6.3.0/docs	N/A
 https://hackage.haskell.org/package/Z-IO-0.7.0.0/docs	N/A
@@ -31914,7 +31914,7 @@ https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/Relude.html	N/A
 https://hackage-content.haskell.org/package/relude-1.2.2.2/docs/doc-index-I.html	N/A
 https://hackage.haskell.org/package/relude-0.2.0/candidate	N/A
 https://hackage.haskell.org/package/classy-prelude	N/A
-https://hackage.haskell.org/package/classy-prelude/docs/ClassyPrelude.html	N/A
+https://hackage.haskell.org/package/classy-prelude/docs/ClassyPrelude.html	created	2023-08-01
 https://hackage.haskell.org/package/classy-prelude-0.12.3/docs	N/A
 https://hackage.haskell.org/package/classy-prelude-0.5.4/docs	N/A
 https://packages.debian.org/trixie/doc/libghc-classy-prelude-doc	N/A
@@ -32027,7 +32027,7 @@ https://hackage.haskell.org/package/http-streams	N/A
 https://hackage.haskell.org/package/network-2.6.2.1/docs/Network-Socket.html	N/A
 https://hackage.haskell.org/package/network-2.6.3.5/docs/Network-Socket.html	N/A
 https://hackage.haskell.org/package/tcp-streams	N/A
-https://hackage.haskell.org/package/conduit/candidate/docs/Data-Conduit.html	N/A
+https://hackage.haskell.org/package/conduit/candidate/docs/Data-Conduit.html	created	2025-02-23
 https://www.classcentral.com/course/youtube-haskell-for-imperative-programmers-59637	N/A
 https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf	N/A
 https://hackage.haskell.org/package/streamly-0.1.2/docs/Streamly-Tutorial.html	N/A
@@ -32056,13 +32056,13 @@ https://hackage.haskell.org/packages/archive/transformers/0.3.0.0/doc/html/Contr
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html	N/A
 https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html	N/A
 https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf	N/A
-https://hackage.haskell.org/package/fused-effects/docs	N/A
+https://hackage.haskell.org/package/fused-effects/docs	created	2026-05-05
 https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1	N/A
 https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/	N/A
 https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperative-shell-game-of-life-example-haskell-and-scala.pdf	created	2021
 https://hackage.haskell.org/package/HMock-0.3.0.0	N/A
-https://hackage.haskell.org/package/mockcat/docs	N/A
-https://hackage.haskell.org/package/HMock/docs	N/A
+https://hackage.haskell.org/package/mockcat/docs	created	2026-01-17
+https://hackage.haskell.org/package/HMock/docs	created	2023-11-29
 https://hackage.haskell.org/package/monad-control-0.3.1/docs/Control-Monad-Trans-Control.html	N/A
 https://hackage.haskell.org/package/monad-control-0.3.1.3/docs/Control-Monad-Trans-Control.html	N/A
 https://hackage.haskell.org/package/ki-unlifted	N/A
@@ -32077,10 +32077,10 @@ http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497	N/A
 https://hackage.haskell.org/package/FileSystem	N/A
 https://hackage.haskell.org/package/system-fileio	N/A
 https://hackage.haskell.org/package/system-filepath	N/A
-https://hackage.haskell.org/package/system-fileio/docs/System-IO-File.html	N/A
-https://hackage.haskell.org/package/system-filepath/docs	N/A
+https://hackage.haskell.org/package/system-fileio/docs/System-IO-File.html	created	2025-05-14
+https://hackage.haskell.org/package/system-filepath/docs	created	2024-11-13
 https://hackage-content.haskell.org/package/process-1.6.26.0/docs/System-Process.html	N/A
-https://hackage.haskell.org/package/sys-process/docs/Sys-Process.html	N/A
+https://hackage.haskell.org/package/sys-process/docs/Sys-Process.html	created	2017-05-10
 https://hackage.haskell.org/package/process-1.6.11.0/docs/System-Process.html#v:readProcess	N/A
 https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/System-IO.html	N/A
 https://hackage.haskell.org/package/haskeline	N/A
@@ -32089,7 +32089,7 @@ https://hackage.haskell.org/package/haskeline-0.6.2.1/docs/System-Console-Haskel
 https://hackage.haskell.org/package/brick-0.27	N/A
 https://hackage-content-origin.haskell.org/package/brick-0.20	N/A
 https://hackage-content.haskell.org/package/vty-5.34	N/A
-https://hackage.haskell.org/package/terminfo/docs/System-Console-Terminfo-Base.html	N/A
+https://hackage.haskell.org/package/terminfo/docs/System-Console-Terminfo-Base.html	created	2025-01-28
 https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/terminfo-0.4.1.1/src/System.Console.Terminfo.Base.html	N/A
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/terminfo-0.4.0.0/System-Console-Terminfo-Base.html	N/A
 https://hackage.haskell.org/package/ansi-terminal-0.8.0.4	N/A
@@ -32098,9 +32098,9 @@ https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/terminfo-0.4.1.4/Sy
 https://downloads.haskell.org/ghc/latest/docs/libraries/terminfo-0.4.1.7-5cba/src/System.Console.Terminfo.Base.html	N/A
 https://hackage.haskell.org/package/prettyprinter-ansi-terminal	N/A
 https://hackage.haskell.org/package/prettyprinter	N/A
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Prettyprinter-Render-Terminal.html	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Prettyprinter-Render-Terminal.html	created	2026-04-28
 https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.1.1	N/A
-https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Data-Text-Prettyprint-Doc-Render-Terminal.html	N/A
+https://hackage.haskell.org/package/prettyprinter-ansi-terminal/docs/Data-Text-Prettyprint-Doc-Render-Terminal.html	created	2026-04-28
 https://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3/docs	N/A
 https://packages.debian.org/trixie/source/haskell-prettyprinter-ansi-terminal	N/A
 https://packages.debian.org/source/forky/haskell-prettyprinter-ansi-terminal	N/A
@@ -32110,8 +32110,8 @@ https://hackage.haskell.org/package/monad-logger-0.3.16/docs/Control-Monad-Logge
 https://packages.debian.org/source/bullseye/misc/haskell-monad-logger	N/A
 https://hackage.haskell.org/package/co-log-core	N/A
 https://hackage.haskell.org/package/co-log-concurrent	N/A
-https://hackage.haskell.org/package/co-log-core/docs	N/A
-https://hackage.haskell.org/package/co-log-concurrent/docs	N/A
+https://hackage.haskell.org/package/co-log-core/docs	created	2026-05-27
+https://hackage.haskell.org/package/co-log-concurrent/docs	created	2025-06-08
 https://hackage-content.haskell.org/package/co-log-core-0.3.2.5/docs/Colog-Core-Action.html	N/A
 https://hackage-content.haskell.org/package/polysemy-log-co-0.11.1.0/docs/Polysemy-Log-Colog.html	N/A
 https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-Log.html	N/A
@@ -32122,10 +32122,10 @@ https://hackage.haskell.org/package/co-log-simple	N/A
 https://hackage.haskell.org/package/co-log-json	N/A
 https://hackage.haskell.org/package/co-log-effectful	N/A
 https://hackage.haskell.org/package/co-log-polysemy	N/A
-https://hackage.haskell.org/package/co-log-polysemy/docs	N/A
-https://hackage.haskell.org/package/co-log-simple/docs	N/A
-https://hackage.haskell.org/package/co-log-json/docs	N/A
-https://hackage.haskell.org/package/co-log-effectful/docs	N/A
+https://hackage.haskell.org/package/co-log-polysemy/docs	created	2025-01-05
+https://hackage.haskell.org/package/co-log-simple/docs	created	2025-09-11
+https://hackage.haskell.org/package/co-log-json/docs	created	2025-06-08
+https://hackage.haskell.org/package/co-log-effectful/docs	created	2024-11-16
 https://hackage-content-origin.haskell.org/package/hxt-9.3.1.15/docs/src/Control-Arrow-ArrowIO.html	N/A
 https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/resources/l15monadsio.pdf	created	2002
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/monadic-io.pdf	created	2016
@@ -32164,7 +32164,7 @@ https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Contr
 https://www.mmhaskell.com/monads	N/A
 https://packages.debian.org/source/stable/haskell-control-monad-free	N/A
 https://ifl2014.github.io/submissions/ifl2014_submission_16.pdf	created	2014
-https://hackage.haskell.org/package/shh/docs/Control-Shh.html	N/A
+https://hackage.haskell.org/package/shh/docs/Control-Shh.html	created	2023-12-19
 https://hackage-content.haskell.org/package/process-1.6.26.1/docs/src/System.Process.Common.html	N/A
 https://hackage-content.haskell.org/package/rio-0.1.23.0/docs/RIO-Process.html	N/A
 https://hackage-content.haskell.org/package/unix-2.8.8.0/docs/System-Posix-Process.html	N/A
@@ -32367,7 +32367,7 @@ https://sources.debian.org/src/lwt/2.4.3-4/manual/manual.pdf	N/A
 https://grison.me/2019/03/21/intro-to-fp-with-vavr/	created	2019
 https://www.baeldung.com/vavr-future	N/A
 https://docs.vavr.io/es/	N/A
-https://hackage.haskell.org/package/hw-polysemy/docs/HaskellWorks-Polysemy.html	N/A
+https://hackage.haskell.org/package/hw-polysemy/docs/HaskellWorks-Polysemy.html	created	2024-12-30
 https://hackage-content.haskell.org/package/data-effects-core-0.4.3.0/docs/src/Data.Effect.html	N/A
 https://cljdoc.org/d/missionary/missionary/CURRENT	N/A
 https://clojure.org/events/2023/a-functional-approach-to-massively-1688048806	created	2023
