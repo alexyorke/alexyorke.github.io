@@ -11451,7 +11451,7 @@ https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.
 https://kar.kent.ac.uk/105396/1/117kanabar2023phd.pdf	created	2023
 https://www.cs.uoregon.edu/research/summerschool/summer24/lectures/Zdancewic_Slides/Preface.html	N/A
 https://popl20.sigplan.org/details/POPL-2020-Student-Research-Competition/18/Through-the-Interaction-Forest-Modeling-Concurrency-in-Coq-with-Interaction-Trees	created	2020
-https://zenodo.org/records/6913915	N/A
+https://zenodo.org/records/6913915	publication	2022-06-02
 https://rocq-prover.org/p/coq-itree-io/0.1.0	N/A
 https://en.wikipedia.org/wiki/Haskell	N/A
 https://citeseerx.ist.psu.edu/document?doi=2e6c9d76f9cb690dc18019fc894ba9572a8c2812&repid=rep1&type=pdf	N/A
@@ -26870,7 +26870,7 @@ https://dl.acm.org/doi/10.1145/3371119	N/A
 https://dl.acm.org/doi/abs/10.1145/3372885.3373813	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2021.32	created	2021
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol193-itp2021/LIPIcs.ITP.2021.32/LIPIcs.ITP.2021.32.pdf	created	2021
-https://zenodo.org/record/4697379	N/A
+https://zenodo.org/record/4697379	publication	2021-04-16
 https://conf.researchr.org/profile/conf/stevezdancewic	N/A
 https://dblp.uni-trier.de/pid/99/3437.html	N/A
 https://lag47.github.io/assets/pdf/dmf.pdf	N/A
@@ -32522,7 +32522,7 @@ https://arxiv.org/abs/1701.07601	N/A
 https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad-powerpoint-presentation	N/A
 http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf	N/A
 https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/	N/A
-https://zenodo.org/records/7062933	N/A
+https://zenodo.org/records/7062933	publication	2022-09-08
 https://ucsd-cse230.github.io/fa23/lectures.html	N/A
 https://se.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/	N/A
 https://cs.uwaterloo.ca/~yizhou/papers/lexa-oopsla2024.pdf	created	2024
