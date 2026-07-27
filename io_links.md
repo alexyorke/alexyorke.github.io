@@ -626,7 +626,7 @@ https://learnyouahaskell.github.io/input-and-output.html	N/A
 https://learnyouahaskell.github.io/for-a-few-monads-more.html	N/A
 https://www.cambridge.org/core/books/thinking-functionally-with-haskell/imperative-functional-programming/92EEB623AF7FB7EBEF6A7A00B1FE7145	publication	2014-10
 https://www.cambridge.org/core/books/thinking-functionally-with-haskell/79F91D976F0C7229082325B41824EBBC	publication	2014-10
-https://livebook.manning.com/book/haskell-in-depth/chapter-1	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-1	published	2024-11-25
 https://www.haskell.org/tutorial/monads.html	modified	2019-02-17
 https://dl.acm.org/doi/10.5555/1477677	N/A
 https://dl.acm.org/doi/10.5555/3158283	N/A
@@ -635,9 +635,9 @@ https://books.google.com/books/about/Programming_in_Haskell.html?id=75C5DAAAQBAJ
 https://books.google.com/books/about/Haskell_Programming_from_First_Principle.html?id=5FaXDAEACAAJ	published	2016
 https://books.google.com/books/about/Developing_Web_Apps_with_Haskell_and_Yes.html?id=kJe4BgAAQBAJ	published	2015
 https://dokumen.pub/haskell-the-craft-of-functional-programming-3rd-revised-edition-9780201882957-9781447914242-0201882957.html	N/A
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-30	N/A
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-31	N/A
-https://livebook.manning.com/book/learn-haskell-by-example/chapter-15	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-30	published	2018-03-18
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-31	published	2018-03-18
+https://livebook.manning.com/book/learn-haskell-by-example/chapter-15	published	2024-12-05
 https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=ypNQAAAAMAAJ	published	1998
 https://www.haskell.org/haskellwiki/Introduction_to_IO	modified	2022-08-03
 https://www.haskell.org/haskellwiki/All_about_monads	modified	2024-05-27
@@ -657,7 +657,7 @@ https://link.springer.com/chapter/10.1007/978-3-662-02880-3_8	publication	1993
 https://www.cambridge.org/core/books/haskell-school-of-music/6B377BCD40386E9D27EB93FC2F3B13FB	publication	2018-09
 https://blogs.asarkar.com/assets/docs/haskell/Monad%20Transformers%20Step%20by%20Step%20-%20Grabmuller.pdf	N/A
 https://nickx.hu/Monads.pdf	N/A
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-21	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-21	published	2018-03-18
 https://www.haskell.org/haskellwiki/Tutorials/Programming_Haskell/String_IO	modified	2021-10-22
 https://haskellforall.com/2013/01/introduction-to-haskell-io	created	2013
 https://teaching.well-typed.com/intro/io-and-explicit-effects.html	N/A
@@ -903,18 +903,18 @@ https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch11.html
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch24.html	N/A
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch10.html	N/A
 https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c113/	published	2021
-https://livebook.manning.com/book/haskell-in-depth/chapter-15	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-15	published	2024-11-25
 https://www.oreilly.com/videos/haskell-in-depth/9781617295409AU/9781617295409AU-has_ch15/	published	2021
-https://livebook.manning.com/book/haskell-in-depth/chapter-8	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-7	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-16	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-12	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-11	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-1/v-1	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-4	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-9	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-3	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-10	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-8	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-7	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-16	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-12	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-11	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-1/v-1	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-4	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-9	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-3	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-10	published	2024-11-25
 https://www.stackage.org/package/resourcet-pool	indexed	2021-04-15
 https://www.stackage.org/package/conduit-throttle	indexed	2019-09-21
 https://www.stackage.org/package/conduit-combinators	indexed	2026-07-27
@@ -1488,7 +1488,7 @@ https://www.cse.chalmers.se/~russo/publications_files/sme.pdf	N/A
 https://www.cse.chalmers.se/~russo/eci11/lectures/material_full.pdf	N/A
 https://jazimmer.net/html/ZimmerPublications.html	N/A
 https://people.cs.nott.ac.uk/pszgmh/afp.html	modified	2026-03-20
-https://livebook.manning.com/book/haskell-in-depth/chapter-2/v-7	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-2/v-7	published	2024-11-25
 https://people.cs.nott.ac.uk/pszgmh/solutions.pdf	modified	2009-05-16
 https://people.cs.nott.ac.uk/pszgmh/pgp.html	modified	2026-03-20
 https://www.youtube.com/playlist?list=PLF1Z-APd9zK5uFc8FKr_di9bfsYv8-lbc	N/A
@@ -1584,7 +1584,7 @@ https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_08.x
 https://subscription.packtpub.com/book/programming/9781805128458/10/ch10lvl1sec72/the-io-approach	N/A
 https://learning.oreilly.com/library/view/haskell-high-performance/9781786464217/ch14s11.html	N/A
 https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_11.xhtml	published	2023
-https://livebook.manning.com/book/functional-design-and-architecture/chapter-6/v-4	N/A
+https://livebook.manning.com/book/functional-design-and-architecture/chapter-6/v-4	published	2025-03-19
 https://livevideo.manning.com/module/2028_16_3/haskell-in-depth-video-edition/concurrency/summary?fullscreen=true	N/A
 https://pragprog.com/news/effective-haskell-in-beta/	N/A
 https://www.47deg.com/blog/io-haskell	N/A
@@ -2008,8 +2008,8 @@ http://dev.stephendiehl.com/hask/	N/A
 https://i.iinfo.cz/files/root/k/real-world-haskell.pdf	N/A
 https://www.extrema.is/articles/haskell-books/book-of-monads	N/A
 https://manning.com/books/haskell-in-depth	N/A
-https://livebook.manning.com/book/haskell-in-depth/front-matter	N/A
-https://livebook.manning.com/book/haskell-in-depth/welcome/v-9/	N/A
+https://livebook.manning.com/book/haskell-in-depth/front-matter	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/welcome/v-9/	published	2024-11-25
 https://gotchamana.github.io/wiwinwlh/	N/A
 https://smunix.github.io/dev.stephendiehl.com/hask/tutorial.pdf	N/A
 https://github.com/sdiehl/wiwinwlh	updated	2025-09-13
@@ -3368,8 +3368,8 @@ https://www.haskell.org/haskellwiki/Old_news	modified	2019-08-15
 https://www.haskell.org/haskellwiki/H3D	modified	2012-06-25
 https://www.haskell.org/haskellwiki/ALUT	modified	2015-10-15
 https://www.haskell.org/haskellwiki/WxHaskell/FAQ	modified	2013-04-17
-https://livebook.manning.com/book/haskell-in-depth/chapter-5	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-6	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-5	published	2024-11-25
+https://livebook.manning.com/book/haskell-in-depth/chapter-6	published	2024-11-25
 https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/	N/A
 https://www.haskell.org/haskellwiki/Extending_Phooey	modified	2007-08-18
 https://www.haskell.org/haskellwiki/Using_Haskell_in_an_Xcode_Cocoa_project	modified	2012-06-11
@@ -4217,7 +4217,7 @@ https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspY
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch07.html	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0021.xhtml	N/A
 https://effective-haskell.com/chapters/table-of-contents.html	N/A
-https://livebook.manning.com/book/functional-design-and-architecture/appendix-b/v-12	N/A
+https://livebook.manning.com/book/functional-design-and-architecture/appendix-b/v-12	published	2025-03-19
 https://livebook.manning.com/concept/haskell/monadio	N/A
 https://livebook.manning.com/concept/haskell/rwst	N/A
 https://livebook.manning.com/concept/haskell/catch	N/A
@@ -4941,7 +4941,7 @@ https://idris2.readthedocs.io/en/latest/implementation/overview.html	N/A
 https://www.skypack.dev/view/io-monad	N/A
 https://old.arrow-kt.io/docs/fx/	N/A
 https://softwaremill.com/cats-effect-vs-zio/	N/A
-https://livebook.manning.com/book/functional-programming-in-kotlin/chapter-13	N/A
+https://livebook.manning.com/book/functional-programming-in-kotlin/chapter-13	published	2024-11-01
 https://www.slideshare.net/slideshow/catseffectio-scala-vienna-meetup-february-2019/132527960	created	2019
 https://gcanti.github.io/fp-ts/modules/MonadIO.ts.html	N/A
 https://typelevel.org/cats/faq.html	modified	2026-07-17
@@ -4963,7 +4963,7 @@ https://jdriven.com/media/pages/expertise/techradar/34067a377b-1747394647/jdrive
 https://fpilluminated.org/downloadFromS3/202/2019-12-01-applicative-functor-part-three.pdf	created	2019
 https://hackage.haskell.org/package/iteratee-0.8.9.5	published	2014-02-18
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CSL.2011.292	created	2011
-https://livebook.manning.com/book/functional-programming-in-scala/chapter-13	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-13	published	2014-09-01
 https://eprints.nottingham.ac.uk/41715/	N/A
 https://users.cs.northwestern.edu/~robby/icfp2018/icfp18/icfp18main-p93-p.pdf	created	2018
 https://ivanperez.io/papers/msfmathprops.pdf	N/A
@@ -5185,7 +5185,7 @@ https://docs.idris-lang.org/en/latest/st/state.html	modified	2023-03-04
 https://purescript-resources.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://docs.idris-lang.org/_/downloads/en/v1.3.3/pdf/	modified	2021-01-30
 https://index.scala-lang.org/typelevel/cats	N/A
-https://livebook.manning.com/book/get-programming-with-scala/chapter-50/	N/A
+https://livebook.manning.com/book/get-programming-with-scala/chapter-50/	published	2021-09-06
 https://johanzietsman.com/building-tic-tac-toe-in-kotlin-with-functional-programming/	N/A
 https://rockthejvm.com/articles/the-effect-pattern	publication	2026-02-17
 https://leanpub.com/purescript/read	N/A
@@ -5797,7 +5797,7 @@ https://www.scss.tcd.ie/publications/tech-reports/reports.06/TCD-CS-2006-19.pdf	
 https://www.sigplan.org/OpenTOC/haskell23.html	N/A
 https://hackage.haskell.org/package/free-4.2/docs/Control-Monad-Free.html	created	2013-11-01
 https://hdl.handle.net/1983/bf18fe1a-0776-4769-afaf-578c248488ca	created	1983
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13	published	2023-08-16
 https://repositum.tuwien.at/handle/20.500.12708/192966	N/A
 https://tomasp.net/academic/papers/haskell-effects/	modified	2026-02-12
 https://www.reddit.com/r/haskell/comments/1q24oxt	N/A
@@ -7179,7 +7179,7 @@ https://www.reddit.com/r/haskell/comments/lgewpv	N/A
 https://www.reddit.com/r/haskell/comments/1hp448p	N/A
 https://www.reddit.com/r/haskell/comments/mlax59	N/A
 https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/Cover.xhtml	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-5/v-10	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-5/v-10	published	2024-11-25
 https://books.google.com/books/about/Learn_Haskell_by_Example.html?id=zDYtEQAAQBAJ	published	2024
 https://en.wikipedia.org/wiki/Real_World_Haskell	modified	2026-07-23
 https://www.reddit.com/r/haskell/comments/hqeedz	N/A
@@ -9781,7 +9781,7 @@ https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect	N/A
 https://www.cse.chalmers.se/~abela/ooAgda.pdf	N/A
 https://alvinalexander.com/downloads/learning-fp-in-scala-0.1.1.pdf	N/A
 ## Scala IO monads and effect runtimes
-https://livebook.manning.com/book/get-programming-with-scala/chapter-50	N/A
+https://livebook.manning.com/book/get-programming-with-scala/chapter-50	published	2021-09-06
 https://zio.dev/guides/migrate/from-cats-effect	N/A
 https://degoes.net/articles/zio-history	N/A
 https://dev-radar.com/articles/2023/08/09/comparing-cats-effect-and-zio%3A-scala%27s-asynchronous-and-concurrent-libraries/	created	2023
@@ -10931,7 +10931,7 @@ https://leanpub.com/gidti	N/A
 https://docs.idris-lang.org/en/latest/tutorial/	modified	2023-03-04
 https://www.oreilly.com/library/view/type-driven-development-with/9781617293023/OEBPS/Text/02.html	published	2017
 https://docslib.org/doc/590952/idris-a-functional-programming-language-with-dependent-types	N/A
-https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5	N/A
+https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5	published	2019-02-24
 https://index.scala-lang.org/frees-io/freestyle	N/A
 https://scalac.io/blog/free-monad-cats-overview/	publication	2016-06-02
 https://leanpub.com/pfp-scala	N/A
@@ -11311,8 +11311,8 @@ https://arxiv.org/abs/1902.06950	created	1902
 https://arxiv.org/abs/2106.09164	created	2021-06
 https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/Control-Monad-IO-Class.html	modified	2025-03-21
 https://discourse.haskell.org/t/ann-jet-stream-1-0-0-0-a-streaming-library/2866	publication	2021-08-10
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-22	N/A
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-24	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-22	published	2018-03-18
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-24	published	2018-03-18
 https://avvmspc.ac.in/public/pdf/syllabus/syllabus_2020_updated/PG_SYLLABUS/msc_informationtechnology_syllabus.pdf	created	2020
 https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-Event.html	modified	2019-02-15
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/poor-mans-concurrency-monad/A369E310ADAE4455020C918FC1D47958	publication	1999-05
@@ -11472,7 +11472,7 @@ https://research.chalmers.se/publication/202162	publication	2014
 https://bibtex.github.io/ICFP-2011.html	created	2011
 https://www.oreilly.com/library/view/programming-scala-3rd/9781492077886/bibliography01.html	N/A
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol109-ecoop2018/LIPIcs.ECOOP.2018.2/LIPIcs.ECOOP.2018.2.pdf	created	2018
-https://livebook.manning.com/book/concurrency-in-dot-net/chapter-9	N/A
+https://livebook.manning.com/book/concurrency-in-dot-net/chapter-9	published	2018-06-05
 https://tomasp.net/academic/materials/mff-fsharp-09/	modified	2026-02-12
 https://fsharp.org/specs/language-spec/4.0/FSharpSpec-4.0-final.pdf	N/A
 https://www2.imm.dtu.dk/courses/02157/2016/LectureLambdaHandout.pdf	created	2016
@@ -11629,10 +11629,10 @@ https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/36841.pdf	cr
 https://adrian.geek.nz/haskell_docs/ghc-rts.html	N/A
 https://stackoverflow.com/questions/4446700/what-io-activity-does-the-ghc-io-manager-support	created	2010-12-15
 https://hackage.haskell.org/package/lmdb-simple/docs/Database-LMDB-Simple.html	created	2018-03-24
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-33	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-33	published	2018-03-18
 https://ora.ox.ac.uk/objects/uuid%3A1fa54dcc-1188-40c9-aa2f-ce2c989e7bd3	publication	1989
 https://www.college-de-france.fr/en/agenda/lecture/program-demonstrate-curry-howard-correspondence-today/can-we-change-the-world-imperative-programming-monadic-effects-algebraic-effects	N/A
-https://livebook.manning.com/book/functional-design-and-architecture/chapter-7	N/A
+https://livebook.manning.com/book/functional-design-and-architecture/chapter-7	published	2025-03-19
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1F7596A68D0EA0C87624901EA0E144B8/9781108416757bib_379-380.pdf/bibliography.pdf	publication	2018-10
 https://stackoverflow.com/questions/412929/creative-uses-of-monads	created	2009-01-05
 https://libris.kb.se/bib/17361104	N/A
@@ -12045,7 +12045,7 @@ https://www.fstar-lang.org/papers/indexedeffects/indexedeffects.pdf	N/A
 https://fstar-lang.org/slides/itp-aug24-2016.html?history=1&transition=none	created	2016
 https://fstar-lang.org/papers/dm4free/	N/A
 https://leanpub.com/mastering-advanced-scala	N/A
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/part-4	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/part-4	published	2023-08-16
 https://leanpub.com/read/fpmortals/leanpub-auto-advanced-monads	N/A
 https://leanpub.com/read/pfhais/leanpub-auto-maybe-there-is-another-way	N/A
 https://zio.dev/1.0.18/overview/overview_background/	N/A
@@ -12240,9 +12240,9 @@ https://cs.usm.maine.edu/~james.quinlan/cos360/learnyouahaskell.pdf	N/A
 https://translatedby.org/you/learn-you-a-haskell-for-great-good-input-and-output/original/?page=2	N/A
 https://www.bookey.app/book/learn-you-a-haskell-for-great-good%21	N/A
 https://www.studocu.com/es/document/uned/teoria-de-los-lenguajes-de-programacion/learnyouahaskell/11666579	N/A
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-32	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-32	published	2018-03-18
 https://www.goodreads.com/book/show/58587831-get-programming-with-haskell	N/A
-https://livebook.manning.com/book/get-programming-with-haskell/part-5	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/part-5	published	2018-03-18
 https://www.goodreads.com/en/book/show/31338521-get-programming-with-haskell	N/A
 https://play.google.com/store/books/details/Will_Kurt_%E5%85%A5%E9%96%80Haskell%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0?id=f8SqDwAAQBAJ	N/A
 https://manning-content.s3.amazonaws.com/download/8/7d463b3-dae3-46a7-aee8-9fa3c4bc65a8/SampleLesson38.pdf	N/A
@@ -12362,7 +12362,7 @@ https://researchr.org/profile/robbyfindler/publications	N/A
 https://dblp.org/pid/f/MatthewFlatt	N/A
 https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_professuren/grundlagen_informatik/papersMM/synchron22-v3-4print.pdf	N/A
 https://www.monatar.infotech.monash.edu/CSE3456.html	N/A
-https://livebook.manning.com/book/functional-programming-in-java/chapter-13	N/A
+https://livebook.manning.com/book/functional-programming-in-java/chapter-13	published	2017-01-19
 https://orcmid.github.io/bib/progsys.htm	N/A
 https://citeseerx.ist.psu.edu/document?doi=96c799d7051f0ea15b580457efb10db7ba486f8e&repid=rep1&type=pdf	N/A
 https://handwiki.org/wiki/Uniqueness_type	publication	2026-02-14
@@ -27007,9 +27007,9 @@ https://learn.microsoft.com/ka-ge/dotnet/fsharp/language-reference/async-express
 https://mbrace.io/kron-thesis.pdf	N/A
 https://tomasp.net/academic/papers/async/async.pdf	modified	2026-02-12
 https://books.google.com/books/about/Programming_F.html?id=gzVdyw2WoXMC	published	2009
-https://livebook.manning.com/book/f-sharp-deep-dives/chapter-8	N/A
-https://livebook.manning.com/book/f-sharp-in-action/chapter-12	N/A
-https://livebook.manning.com/book/get-programming-with-f-sharp/chapter-36/ch36	N/A
+https://livebook.manning.com/book/f-sharp-deep-dives/chapter-8	published	2014-12-16
+https://livebook.manning.com/book/f-sharp-in-action/chapter-12	published	2024-05-14
+https://livebook.manning.com/book/get-programming-with-f-sharp/chapter-36/ch36	published	2018-02-26
 https://studylib.net/doc/28203669/the-book-of-f%23	N/A
 https://subscription.packtpub.com/book/programming/9781784393434/5/ch05lvl1sec24/asynchronous-workflows-in-f	N/A
 https://www.reddit.com/r/fsharp/comments/17mpihe	N/A
@@ -27033,7 +27033,7 @@ https://books.google.com/books/about/Get_Programming_with_F.html?id=c_U3MQAACAAJ
 https://devblogs.microsoft.com/dotnet/project-springfield-a-cloud-service-built-entirely-in-f/	publication	2016-12-13
 https://fsharp.org/learn/books	N/A
 https://learn.microsoft.com/pt-pt/dotnet/fsharp/language-reference/async-expressions	N/A
-https://livebook.manning.com/book/get-programming-with-f-sharp/chapter-36	N/A
+https://livebook.manning.com/book/get-programming-with-f-sharp/chapter-36	published	2018-02-26
 https://play.google.com/store/books/details?PAffiliateID=1101l9Qkq&id=6gcvDwAAQBAJ	N/A
 https://toc.library.ethz.ch/objects/pdf03/z01_978-1-107-68406-5_01.pdf	N/A
 https://tomasp.net/academic/papers/computation-zoo/computation-zoo.pdf	modified	2026-02-12
@@ -27656,7 +27656,7 @@ https://api.pageplace.de/preview/DT0400.9781783286348_A24172325/preview-97817832
 https://discourse.haskell.org/t/how-to-parse-streams-and-variable-length-syntax/11347	publication	2025-02-04
 https://hackage.haskell.org/package/streaming-utils/docs/Data-Attoparsec-ByteString-Streaming.html	created	2024-09-20
 https://hackage-content.haskell.org/package/configuration-tools-0.7.1/docs/Configuration-Utils-ConfigFile.html	published	2025-03-05
-https://livebook.manning.com/book/get-programming-with-haskell/chapter-40	N/A
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-40	published	2018-03-18
 https://stackoverflow.com/questions/12736533/lifting-function-into-io-monad-to-parse-a-json-string-read-from-a-file	N/A
 https://stackoverflow.com/questions/13754447/is-there-an-instance-stream-handle-io-char-for-text-parsec-stream	N/A
 https://subscription.packtpub.com/book/data/9781783286331/1/ch01lvl1sec07/examining-a-json-file-with-the-aeson-package	N/A
@@ -27959,7 +27959,7 @@ https://citeseerx.ist.psu.edu/document?doi=6469be83f95a6a67e50bbb742fa2e9cc4ef62
 https://www.cs.le.ac.uk/people/rlc3/research/papers/pubs-list.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=78db511c84020e70c29750551902780d8ad6edf1&repid=rep1&type=pdf	N/A
 https://foldoc.org/Clean	N/A
-https://livebook.manning.com/book/the-joy-of-kotlin/chapter-12	N/A
+https://livebook.manning.com/book/the-joy-of-kotlin/chapter-12	published	2025-11-22
 https://sac-home.org/_media/publications%3Apdf%3Asac-classes-objects-bastad-95.pdf	N/A
 https://www.sac-home.org/_media/publications%3Apdf%3Asac-classes-objects-bastad-95.pdf	N/A
 https://www.sambuz.com/doc/in-tro-duction-to-f-unctional-programming-lecture-8-1-in-document-929397	N/A
@@ -28097,7 +28097,7 @@ https://docs.websharper.com/core/async	N/A
 https://fsharp.org/history/hopl-draft-3b.pdf	N/A
 https://link.springer.com/book/10.1007/978-1-4302-0285-1	N/A
 https://link.springer.com/book/10.1007/978-1-4842-7205-3	publication	2022
-https://livebook.manning.com/book/real-world-functional-programming/table-of-contents	N/A
+https://livebook.manning.com/book/real-world-functional-programming/table-of-contents	published	2009-11-30
 https://www.timetoact-group.at/en/techblog/techblog/f-sharp-series/introduction-to-functional-programming-in-f-sharp-part-12	N/A
 https://arxiv.org/abs/1911.12932	created	1911
 https://citeseerx.ist.psu.edu/document?doi=90f2f14979beb659548328bda3ac99f7658316a1&repid=rep1&type=pdf	N/A
@@ -28290,7 +28290,7 @@ https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/basic.html	N/A
 https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/haskell.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67f1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
 https://sambuz.com/doc/monadic-i-o-in-haskell-ppt-presentation-1026853	N/A
-https://livebook.manning.com/book/haskell-in-depth/welcome	N/A
+https://livebook.manning.com/book/haskell-in-depth/welcome	published	2024-11-25
 https://www.oreilly.com/library/view/functional-programming-for/9781119527503/c11.xhtml	published	2019
 https://www.oreilly.com/library/view/haskell-quick-syntax/9781484245071/html/475690_1_En_1_Chapter.xhtml	N/A
 https://www.people.cs.nott.ac.uk/pszgmh/pih.html	N/A
@@ -29397,7 +29397,7 @@ https://launchpad.net/ubuntu/%2Bsource/haskell-unliftio	N/A
 https://salsa.debian.org/haskell-team/DHG_packages.git	N/A
 https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-io-streams	N/A
 https://blog.reverberate.org/2015/08/monads-demystified.html	created	2015
-https://livebook.manning.com/book/functional-design-and-architecture/appendix-b-v-12	N/A
+https://livebook.manning.com/book/functional-design-and-architecture/appendix-b-v-12	published	2025-03-19
 https://www.reddit.com/r/haskell/comments/1dqmvt0/well-typed-part-5-io-and-explicit-effects-of-the-free-video-based-haskell-introduction-course/	N/A
 https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_part_6_of_the_free-video-based-haskell-introduction-course/	N/A
 https://hackage.haskell.org/package/errors-ext-0.2	published	2017-11-25
@@ -29626,7 +29626,7 @@ https://downloads.haskell.org/~ghc/6.2/docs/html/hslibs/book-hslibs.html	modifie
 https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/src/Control-Monad-IOSim.html	N/A
 https://downloads.haskell.org/~ghc/6.4.2/docs/users_guide.pdf	modified	2019-02-15
 https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/using.html	modified	2019-02-15
-https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5/ch05	N/A
+https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5/ch05	published	2019-02-24
 https://hackage.haskell.org/package/gloss-game/docs/Graphics-Gloss-Game.html	created	2014-08-03
 https://hackage.haskell.org/package/AsyncRattus-0.1.0.1/src/docs/paper.pdf	N/A
 https://hackage.haskell.org/package/base-4.8.0.0/docs/src/GHC-Base.html	N/A
@@ -30600,7 +30600,7 @@ https://discourse.haskell.org/t/adventures-assembling-records-of-capabilities/62
 https://repository.upenn.edu/bitstreams/9565ea3e-4948-4304-a266-1f4a6fd34762/download	N/A
 https://hackage.haskell.org/package/typed-protocols	published	2026-04-15
 https://www.cse.chalmers.se/~russo/russothesis.pdf	N/A
-https://livebook.manning.com/book/haskell-in-depth/chapter-7/v-10/	N/A
+https://livebook.manning.com/book/haskell-in-depth/chapter-7/v-10/	published	2024-11-25
 https://aherrmann.github.io/programming/2016/01/04/resource-management-in-haskell/index.html	created	2016
 https://researchportal.hw.ac.uk/en/publications/embedding-session-types-in-haskell/	publication	2016-09
 https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Concurrent-Async.html	published	2025-06-13
@@ -30701,9 +30701,9 @@ https://hackage-content.haskell.org/package/wireform-proto-0.1.0.0/docs/Proto-De
 https://hackage-content.haskell.org/package/streamly-core-0.3.0/docs/Streamly-Data-Stream.html	published	2025-09-03
 https://fs2.io/	N/A
 https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.12.2	N/A
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15/v-7/	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15/v-7/	published	2023-08-16
 https://index.scala-lang.org/typelevel/fs2/artifacts/fs2-io/3.9.2	N/A
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-15	published	2023-08-16
 https://www.javadoc.io/static/co.fs2/fs2-docs_3/3.8-75a2246/fs2/io.html	N/A
 https://www.cs.rpi.edu/~milanova/csci4966/F24_Lecture12_Monadic_Parsing.pdf	N/A
 https://presentation-slides.gitlab.io/outputs/haskell-parsers/haskell-parsers/pdf/index.pdf	N/A
@@ -30718,7 +30718,7 @@ https://hackage.haskell.org/package/req	published	2024-09-29
 https://icfp17.sigplan.org/details/haskellsymp-2017-papers/1/Composable-Network-Stacks-and-Remote-Monads	created	2017
 https://www.baeldung.com/scala/http4s-intro	N/A
 https://http4s.org/	N/A
-https://livebook.manning.com/book/get-programming-with-scala/chapter-17	N/A
+https://livebook.manning.com/book/get-programming-with-scala/chapter-17	published	2021-09-06
 https://play.google.com/store/books/details/Jens_Grassel_Pure_functional_HTTP_APIs_in_Scala?id=szopEAAAQBAJ	N/A
 https://http4s.org/v0.15/	N/A
 https://blog.shangjiaming.com/scala%20tutorial/http4s-introduction-2/	publication	2020-02-12
@@ -31952,7 +31952,7 @@ https://www.youtube.com/playlist?list=PLYItvall0TqJwLa9rY-bT_B9-EmtaiPT0	N/A
 https://www.youtube.com/playlist?list=PLYItvall0TqJ1jteUbGOHfBycg5NM9thq	N/A
 https://www.youtube.com/playlist?list=PLYItvall0TqKz0Jw8RTA2epq8VimzSqGp	N/A
 https://www.youtube.com/playlist?list=PLYItvall0TqIOxQzCMsK3zciIXxxgzlcG	N/A
-https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/	N/A
+https://livebook.manning.com/book/functional-programming-in-scala-second-edition/chapter-13/	published	2023-08-16
 https://docs.idris.org/_/downloads/en/v0.9.20/pdf/	N/A
 https://ocaml.org/p/yocaml/2.7.0/effect.html	published	2025-11-23
 https://ocaml.org/manual/5.4/api/Stdlib.Effect.html	N/A
@@ -32005,7 +32005,7 @@ https://atnos-org.github.io/eff/org.atnos.site.Installation.html	N/A
 https://fstar-lang.org/tutorial/book/part4/part4.html	N/A
 https://old.arrow-kt.io/docs/0.12/apidocs/arrow-fx/arrow.fx.extensions/index.html	N/A
 https://www.msec.it/blog/introducing-kio/	N/A
-https://livebook.manning.com/book/functional-programming-in-kotlin/part-4	N/A
+https://livebook.manning.com/book/functional-programming-in-kotlin/part-4	published	2024-11-01
 https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/	N/A
 https://klibs.io/project/Kotlin/kotlinx-io	N/A
 https://kodu.ut.ee/~varmo/FP2007/slides/loeng14.pdf	created	2007
@@ -32295,7 +32295,7 @@ https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-eff
 https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/	N/A
 https://www.oreilly.com/library/view/functional-programming-in/9781617293818/	published	2019
 https://arxiv.org/abs/2312.13295	created	2023-12
-https://livebook.manning.com/book/functional-programming-in-scala/chapter-15	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-15	published	2014-09-01
 https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html	published	2015
 https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/	published	2015
 https://www.bookey.app/book/functional-programming-in-scala	N/A
@@ -32344,7 +32344,7 @@ https://www.schoolofhaskell.com/school/advanced-haskell/conduit-overview	modifie
 https://stackoverflow.com/questions/44327727/understanding-conduit-output	N/A
 https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/Resource.html	N/A
 https://www.javadoc.io/static/org.typelevel/cats-effect_2.12/1.4.0/cats/effect/IO.html	N/A
-https://livebook.manning.com/book/functional-programming-in-scala/chapter-13/section-13-2/	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/chapter-13/section-13-2/	published	2014-09-01
 https://zio.dev/zio-blocks/guides/compile-time-resource-safety-with-scope/	N/A
 https://javadoc.io/static/dev.zio/zio_3/2.0.9/zio/Scope.html	N/A
 https://bio.monix.io/docs/resource-safety	N/A
@@ -32424,7 +32424,7 @@ https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiu
 https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ	published	2023
 https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf	N/A
 https://www.manning.com/books/type-driven-development-with-idris	N/A
-https://livebook.manning.com/book/type-driven-development-with-idris/about-this-book	N/A
+https://livebook.manning.com/book/type-driven-development-with-idris/about-this-book	published	2019-02-24
 https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781617293023	N/A
 https://www.simonandschuster.com/books/Type-Driven-Development-with-Idris/Edwin-Brady/9781638352242	N/A
 https://hackage.haskell.org/package/idris	published	2021-10-22
@@ -33182,7 +33182,7 @@ https://whatthefunctional.wordpress.com/haskell-for-the-imperative/	publication	
 https://zio.dev/zio-quill/writing-queries/	N/A
 https://jdriven.com/blog/2019/10/Functional-dependency-injection-in-Scala-using-ZIO-environments	publication	2019-10-30
 https://afiore.github.io/website/blog/2020/02/15/discarding-io	created	2020
-https://livebook.manning.com/book/functional-programming-in-scala/part-4	N/A
+https://livebook.manning.com/book/functional-programming-in-scala/part-4	published	2014-09-01
 https://www.users.cs.northwestern.edu/~robby/pubs/papers/icfp2009-fffk.pdf	created	2009
 https://www.stackage.org/nightly-2019-07-04/package/rio-0.1.10.0	created	2019
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/template-haskell-2.24.0.0-inplace/Language-Haskell-TH-Syntax.html	modified	2026-03-07
