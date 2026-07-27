@@ -7575,14 +7575,14 @@ https://archive.org/metadata/haskellcraftoffu0000thom_z2w2	N/A
 https://archive.org/details/programminginhas0000hutt	N/A
 https://archive.org/metadata/programminginhas0000hutt	N/A
 https://archive.org/metadata/learnyouhaskellf00lipo_0	N/A
-https://web.archive.org/web/20011123041758/http://www-fp.dcs.st-and.ac.uk:80/~kh/papers/io-tutorial/io-tutorial.ps.gz	N/A
-https://web.archive.org/web/20020421164540/http://www.research.microsoft.com:80/~simonpj/Papers/marktoberdorf/	N/A
-https://web.archive.org/web/20020818142445/http://research.microsoft.com:80/~simonpj/papers/marktoberdorf/	N/A
-https://web.archive.org/web/20030802235019/http://www.research.microsoft.com:80/~simonpj/Papers/marktoberdorf/	N/A
-https://web.archive.org/web/19970607013241/http://www.dcs.gla.ac.uk:80/~kh/Haskell1.3/IO.html	N/A
-https://web.archive.org/web/20170808202731/http://www.ub.utwente.nl/webdocs/ctit/1/00000154.pdf	N/A
-https://web.archive.org/web/20000926031648/http://research.microsoft.com:80/Users/simonpj/Papers/imperative.ps.Z	N/A
-https://web.archive.org/web/20010828144209/http://research.microsoft.com:80/Users/simonpj/Papers/imperative.ps.Z	N/A
+https://web.archive.org/web/20011123041758/http://www-fp.dcs.st-and.ac.uk:80/~kh/papers/io-tutorial/io-tutorial.ps.gz	archived	2001-11-23
+https://web.archive.org/web/20020421164540/http://www.research.microsoft.com:80/~simonpj/Papers/marktoberdorf/	archived	2002-04-21
+https://web.archive.org/web/20020818142445/http://research.microsoft.com:80/~simonpj/papers/marktoberdorf/	archived	2002-08-18
+https://web.archive.org/web/20030802235019/http://www.research.microsoft.com:80/~simonpj/Papers/marktoberdorf/	archived	2003-08-02
+https://web.archive.org/web/19970607013241/http://www.dcs.gla.ac.uk:80/~kh/Haskell1.3/IO.html	archived	1997-06-07
+https://web.archive.org/web/20170808202731/http://www.ub.utwente.nl/webdocs/ctit/1/00000154.pdf	archived	2017-08-08
+https://web.archive.org/web/20000926031648/http://research.microsoft.com:80/Users/simonpj/Papers/imperative.ps.Z	archived	2000-09-26
+https://web.archive.org/web/20010828144209/http://research.microsoft.com:80/Users/simonpj/Papers/imperative.ps.Z	archived	2001-08-28
 ## OpenAlex content mirrors and book editions
 https://content.openalex.org/works/W2078944436.pdf	N/A
 https://content.openalex.org/works/W2078944436.grobid-xml	N/A
@@ -7604,7 +7604,7 @@ https://smlfamily.github.io/history/ML2015-talk.pdf	created	2015
 https://smlfamily.github.io/history/macqueen-lucafest.pdf	N/A
 https://docs.huihoo.com/ml/smlfamily/history/SML-history.pdf	N/A
 https://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	N/A
-https://web.archive.org/web/20190307145556/http://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	N/A
+https://web.archive.org/web/20190307145556/http://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	archived	2019-03-07
 https://dblp.org/rec/journals/ipl/Dwelly88.html	N/A
 https://dblp.org/rec/journals/ipl/Dwelly88.bib	N/A
 https://dblp.org/rec/journals/ipl/Dwelly88.ris	N/A
@@ -7785,10 +7785,10 @@ https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/zapalki.hs	created	2022
 https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/zapalki1.hs	created	2022
 https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/zapalkiW.hs	created	2022
 ## HaskellWiki snapshots and Wikibooks I/O variants
-https://web.archive.org/web/20150330072214/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20260422061517/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210518170619/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20240617093453/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20150330072214/https://wiki.haskell.org/IO_inside	archived	2015-03-30
+https://web.archive.org/web/20260422061517/https://wiki.haskell.org/IO_inside	archived	2026-04-22
+https://web.archive.org/web/20210518170619/https://wiki.haskell.org/IO_at_work	archived	2021-05-18
+https://web.archive.org/web/20240617093453/https://wiki.haskell.org/IO_at_work	archived	2024-06-17
 https://en.wikibooks.org/w/index.php?title=Haskell/Understanding_monads/IO&printable=yes	N/A
 https://en.wikibooks.org/w/index.php?title=Haskell/Understanding_monads/IO&oldid=4037255	N/A
 https://en.wikibooks.org/w/index.php?title=Haskell/do_notation&printable=yes	N/A
@@ -12325,7 +12325,7 @@ https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/continuations/	N/A
 https://slides.com/fp-ctd	N/A
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2005/10/	created	2005
 https://sm-haskell-users-group.github.io/	N/A
-https://web.archive.org/web/20201109033750/members.chello.nl/hjgtuyl/tourdemonad.html#(%3E%3E=)	N/A
+https://web.archive.org/web/20201109033750/members.chello.nl/hjgtuyl/tourdemonad.html#(%3E%3E=)	archived	2020-11-09
 https://www.sambuz.com/doc/lecture-9-input-and-output-ppt-presentation-1032173	N/A
 https://bibliografia.icm.edu.pl/g2/main.pl?id=10137&lim=100000&mod=p&ord=1&rok=2001	created	2001
 https://www.ljmu.ac.uk/about-us/edi/edipedia/a-to-z-list/c-anthony-hoare/c-anthony-hoare	N/A
@@ -13559,7 +13559,7 @@ https://www.microsoft.com/en-us/research/podcast/functional-programming-language
 https://www.fress.io/bib	N/A
 https://www.stephendiehl.com/posts/essential_haskell/	publication	2012
 https://dkalemis.wordpress.com/2014/06/05/the-io-monad/	publication	2014-06-05
-https://web.archive.org/web/20201109030741/http://okmij.org/ftp/Computation/monadic-shell.html	N/A
+https://web.archive.org/web/20201109030741/http://okmij.org/ftp/Computation/monadic-shell.html	archived	2020-11-09
 http://research.microsoft.com/~simonpj/Papers/marktoberdorf/	N/A
 http://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Types.html#IO	N/A
 http://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html#State.	N/A
@@ -21266,259 +21266,259 @@ https://cdn.media.ccc.de/events/bobkonf/2022/mp3/bob2022-110-eng-io-sim_testing_
 https://cdn.media.ccc.de/events/bobkonf/2022/opus/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_opus.opus	created	2022
 https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/06_ioMonad.pdf	N/A
 https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/IOMonad.hs	N/A
-http://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation	N/A
-http://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_containers	N/A
-http://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside	N/A
+http://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation	archived	2024-10-02
+http://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_containers	archived	2024-10-08
+http://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside	archived	2024-09-10
 https://www.sylvain-henry.info/home/data/uploads/talks/shenry-2013-02-05-haskell-intro.pdf	created	2013
-https://web.archive.org/web/20150222005715/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20150222071213/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20150412164224/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20150423185704/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20150423185705/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20150423212232/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20150601212938/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20150907175013/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20150909064806/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20150909140633/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20150909212047/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20160304025255/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20160320105006/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20160320113152/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20160429025331/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20160430080500/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20160911104809/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20160913232415/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20160914053153/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20170115004719/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20170321162041/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20170407055135/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20170407082614/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20171002220513/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20171214023936/http://wiki.haskell.org:80/Monads_as_computation	N/A
-https://web.archive.org/web/20171214235146/http://wiki.haskell.org:80/Monads_as_containers	N/A
-https://web.archive.org/web/20181116131730/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20181121204035/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20181208115832/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20181208131913/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20181208140935/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20190528041116/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20190528041124/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20190718085432/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20190721205452/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20190721210231/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20190822154053/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20190822162353/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20190826102230/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20190917192613/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20190922232927/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20190923083339/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20191016004852/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20191031075931/http://wiki.haskell.org:80/Monads_as_computation	N/A
-https://web.archive.org/web/20191031093330/http://wiki.haskell.org:80/Monads_as_containers	N/A
-https://web.archive.org/web/20191113224110/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20191114230350/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20191122193055/http://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20191124064030/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20191210154510/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20191213092649/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20191216071949/http://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20200126233516/http://wiki.haskell.org:80/Monads_as_containers	N/A
-https://web.archive.org/web/20200127055736/http://wiki.haskell.org:80/Monads_as_computation	N/A
-https://web.archive.org/web/20200513181136/http://wiki.haskell.org:80/IO_inside	N/A
-https://web.archive.org/web/20200713085429/http://wiki.haskell.org:80/IO_inside	N/A
-https://web.archive.org/web/20200720161139/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20200806144511/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20200807095101/http://wiki.haskell.org/Monads_as_Computation	N/A
-https://web.archive.org/web/20200813005732/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20200814004414/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20200818215238/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20200821103900/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20200821103901/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20200925035051/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20201108032615/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20201109023225/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20201109025507/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20201109032321/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20201111202705/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20201125023506/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20201127183127/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20201129074739/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210115145834/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20210121070028/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210123023841/http://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20210123121441/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210123152532/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210126120932/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210211035115/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210214131044/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210217161736/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210219093417/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20210413221055/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210413224356/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210413225308/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210416214338/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210419035501/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210421231518/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20210422002508/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210423121415/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210513144030/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210513165654/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20210514084756/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210526161702/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210609021703/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210620014952/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20210702155901/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210702155915/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20210728214020/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20210731100034/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20210802133223/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20211008092523/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20211008165114/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20211020033156/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20211022040417/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	N/A
-https://web.archive.org/web/20211024154729/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20211026005153/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20211121172742/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20211128131305/https://wiki.haskell.org/Monads_as_Computation	N/A
-https://web.archive.org/web/20220123035237/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20220123035242/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20220125020637/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20220402223511/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20220402223545/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20220421114909/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20220606174323/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20220701050847/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20220707085817/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20220708134955/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20220708233654/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20220726203035/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20220817082122/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	N/A
-https://web.archive.org/web/20220929104808/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20221009143617/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20221011113158/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20221012122934/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20221014064000/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20221020141052/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20221024044043/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20221130162224/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20221130164456/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20221206062823/http://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20221206191412/http://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230118160005/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230130154558/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230131213352/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230131213447/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230206124417/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20230224082237/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230316150511/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230316174935/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230317075443/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230318105851/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230318105853/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230326020011/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230326020020/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230329203852/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230522174122/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230530013243/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230601190912/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230603151849/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20230604083039/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230605040044/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20230619125751/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230704224820/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230815210240/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230926033916/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230926163105/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20230928090935/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20230930170953/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	N/A
-https://web.archive.org/web/20231002180255/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20231104070800/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20231106212509/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20231128010503/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20231202051052/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20231208071412/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20231210135617/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20231225061543/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240103132713/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240220232110/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240221082842/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20240403060537/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240415040512/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240416114801/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20240525111616/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240529220500/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240530140228/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240607081530/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20240626164712/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240713090236/http://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240713221331/http://wiki.haskell.org/Monads_as_Computation	N/A
-https://web.archive.org/web/20240718113537/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240721045103/http://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20240721203620/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240722012910/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20240725104749/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20240909213150/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20241007140011/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20241016084510/http://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20241019230835/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20241123014825/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20241127020710/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20241202001404/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20241227050241/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250114210129/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20250120123801/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250122145245/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250123103053/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20250207190011/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20250208030239/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20250307200850/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250307200918/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20250311191503/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250418213048/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250605165649/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250620162909/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250719041219/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20250723091827/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250729043258/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20250808092413/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20250817173537/https://wiki.haskell.org/Monads_as_Computation	N/A
-https://web.archive.org/web/20250921125332/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20251002114734/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20251008194817/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20251026204313/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20251026204413/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20251117223434/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20251223223310/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20251224154518/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20260101065727/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20260210232850/https://wiki.haskell.org/Monads_as_containers	N/A
-https://web.archive.org/web/20260302080701/https://wiki.haskell.org/Monads_as_Containers	N/A
-https://web.archive.org/web/20260303010259/https://wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20260422061504/https://wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20150910194211/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20191021223213/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20210923021259/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20211206155033/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20230322054729/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20231130044425/http://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20240222065906/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20240415092124/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20240813120557/http://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20241011084506/https://wiki.haskell.org/Lazy_IO	N/A
-https://web.archive.org/web/20250527223545/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20150222005715/https://wiki.haskell.org/Monads_as_containers	archived	2015-02-22
+https://web.archive.org/web/20150222071213/https://wiki.haskell.org/Monads_as_computation	archived	2015-02-22
+https://web.archive.org/web/20150412164224/https://wiki.haskell.org/Monads_as_Containers	archived	2015-04-12
+https://web.archive.org/web/20150423185704/https://wiki.haskell.org/Monads_as_containers	archived	2015-04-23
+https://web.archive.org/web/20150423185705/https://wiki.haskell.org/Monads_as_computation	archived	2015-04-23
+https://web.archive.org/web/20150423212232/https://wiki.haskell.org/IO_inside	archived	2015-04-23
+https://web.archive.org/web/20150601212938/https://wiki.haskell.org/Monads_as_computation	archived	2015-06-01
+https://web.archive.org/web/20150907175013/https://wiki.haskell.org/Monads_as_Containers	archived	2015-09-07
+https://web.archive.org/web/20150909064806/https://wiki.haskell.org/Monads_as_containers	archived	2015-09-09
+https://web.archive.org/web/20150909140633/https://wiki.haskell.org/IO_inside	archived	2015-09-09
+https://web.archive.org/web/20150909212047/https://wiki.haskell.org/Monads_as_computation	archived	2015-09-09
+https://web.archive.org/web/20160304025255/https://wiki.haskell.org/IO_inside	archived	2016-03-04
+https://web.archive.org/web/20160320105006/https://wiki.haskell.org/Monads_as_computation	archived	2016-03-20
+https://web.archive.org/web/20160320113152/https://wiki.haskell.org/Monads_as_Containers	archived	2016-03-20
+https://web.archive.org/web/20160429025331/https://wiki.haskell.org/Monads_as_computation	archived	2016-04-29
+https://web.archive.org/web/20160430080500/https://wiki.haskell.org/Monads_as_containers	archived	2016-04-30
+https://web.archive.org/web/20160911104809/https://wiki.haskell.org/Monads_as_Containers	archived	2016-09-11
+https://web.archive.org/web/20160913232415/https://wiki.haskell.org/Monads_as_computation	archived	2016-09-13
+https://web.archive.org/web/20160914053153/https://wiki.haskell.org/Monads_as_containers	archived	2016-09-14
+https://web.archive.org/web/20170115004719/https://wiki.haskell.org/Monads_as_containers	archived	2017-01-15
+https://web.archive.org/web/20170321162041/https://wiki.haskell.org/IO_inside	archived	2017-03-21
+https://web.archive.org/web/20170407055135/https://wiki.haskell.org/Monads_as_computation	archived	2017-04-07
+https://web.archive.org/web/20170407082614/https://wiki.haskell.org/Monads_as_containers	archived	2017-04-07
+https://web.archive.org/web/20171002220513/https://wiki.haskell.org/IO_inside	archived	2017-10-02
+https://web.archive.org/web/20171214023936/http://wiki.haskell.org:80/Monads_as_computation	archived	2017-12-14
+https://web.archive.org/web/20171214235146/http://wiki.haskell.org:80/Monads_as_containers	archived	2017-12-14
+https://web.archive.org/web/20181116131730/https://wiki.haskell.org/IO_inside	archived	2018-11-16
+https://web.archive.org/web/20181121204035/https://wiki.haskell.org/Monads_as_containers	archived	2018-11-21
+https://web.archive.org/web/20181208115832/https://wiki.haskell.org/Monads_as_containers	archived	2018-12-08
+https://web.archive.org/web/20181208131913/https://wiki.haskell.org/Monads_as_computation	archived	2018-12-08
+https://web.archive.org/web/20181208140935/https://wiki.haskell.org/Monads_as_Containers	archived	2018-12-08
+https://web.archive.org/web/20190528041116/https://wiki.haskell.org/Monads_as_Containers	archived	2019-05-28
+https://web.archive.org/web/20190528041124/https://wiki.haskell.org/Monads_as_containers	archived	2019-05-28
+https://web.archive.org/web/20190718085432/https://wiki.haskell.org/IO_inside	archived	2019-07-18
+https://web.archive.org/web/20190721205452/https://wiki.haskell.org/Monads_as_Containers	archived	2019-07-21
+https://web.archive.org/web/20190721210231/https://wiki.haskell.org/IO_inside	archived	2019-07-21
+https://web.archive.org/web/20190822154053/https://wiki.haskell.org/Monads_as_computation	archived	2019-08-22
+https://web.archive.org/web/20190822162353/https://wiki.haskell.org/Monads_as_containers	archived	2019-08-22
+https://web.archive.org/web/20190826102230/https://wiki.haskell.org/Monads_as_computation	archived	2019-08-26
+https://web.archive.org/web/20190917192613/https://wiki.haskell.org/Monads_as_Containers	archived	2019-09-17
+https://web.archive.org/web/20190922232927/https://wiki.haskell.org/Monads_as_Containers	archived	2019-09-22
+https://web.archive.org/web/20190923083339/https://wiki.haskell.org/IO_inside	archived	2019-09-23
+https://web.archive.org/web/20191016004852/https://wiki.haskell.org/Monads_as_computation	archived	2019-10-16
+https://web.archive.org/web/20191031075931/http://wiki.haskell.org:80/Monads_as_computation	archived	2019-10-31
+https://web.archive.org/web/20191031093330/http://wiki.haskell.org:80/Monads_as_containers	archived	2019-10-31
+https://web.archive.org/web/20191113224110/https://wiki.haskell.org/Monads_as_Containers	archived	2019-11-13
+https://web.archive.org/web/20191114230350/https://wiki.haskell.org/Monads_as_Containers	archived	2019-11-14
+https://web.archive.org/web/20191122193055/http://wiki.haskell.org/Monads_as_containers	archived	2019-11-22
+https://web.archive.org/web/20191124064030/https://wiki.haskell.org/IO_inside	archived	2019-11-24
+https://web.archive.org/web/20191210154510/https://wiki.haskell.org/IO_inside	archived	2019-12-10
+https://web.archive.org/web/20191213092649/https://wiki.haskell.org/IO_inside	archived	2019-12-13
+https://web.archive.org/web/20191216071949/http://wiki.haskell.org/Monads_as_computation	archived	2019-12-16
+https://web.archive.org/web/20200126233516/http://wiki.haskell.org:80/Monads_as_containers	archived	2020-01-26
+https://web.archive.org/web/20200127055736/http://wiki.haskell.org:80/Monads_as_computation	archived	2020-01-27
+https://web.archive.org/web/20200513181136/http://wiki.haskell.org:80/IO_inside	archived	2020-05-13
+https://web.archive.org/web/20200713085429/http://wiki.haskell.org:80/IO_inside	archived	2020-07-13
+https://web.archive.org/web/20200720161139/https://wiki.haskell.org/Monads_as_containers	archived	2020-07-20
+https://web.archive.org/web/20200806144511/https://wiki.haskell.org/IO_inside	archived	2020-08-06
+https://web.archive.org/web/20200807095101/http://wiki.haskell.org/Monads_as_Computation	archived	2020-08-07
+https://web.archive.org/web/20200813005732/http://wiki.haskell.org/IO_inside	archived	2020-08-13
+https://web.archive.org/web/20200814004414/https://wiki.haskell.org/Monads_as_Containers	archived	2020-08-14
+https://web.archive.org/web/20200818215238/https://wiki.haskell.org/Monads_as_containers	archived	2020-08-18
+https://web.archive.org/web/20200821103900/https://wiki.haskell.org/Monads_as_containers	archived	2020-08-21
+https://web.archive.org/web/20200821103901/https://wiki.haskell.org/Monads_as_computation	archived	2020-08-21
+https://web.archive.org/web/20200925035051/https://wiki.haskell.org/IO_inside	archived	2020-09-25
+https://web.archive.org/web/20201108032615/https://wiki.haskell.org/IO_inside	archived	2020-11-08
+https://web.archive.org/web/20201109023225/https://wiki.haskell.org/Monads_as_computation	archived	2020-11-09
+https://web.archive.org/web/20201109025507/https://wiki.haskell.org/Monads_as_Containers	archived	2020-11-09
+https://web.archive.org/web/20201109032321/https://wiki.haskell.org/IO_inside	archived	2020-11-09
+https://web.archive.org/web/20201111202705/https://wiki.haskell.org/IO_inside	archived	2020-11-11
+https://web.archive.org/web/20201125023506/https://wiki.haskell.org/Monads_as_containers	archived	2020-11-25
+https://web.archive.org/web/20201127183127/http://wiki.haskell.org/IO_inside	archived	2020-11-27
+https://web.archive.org/web/20201129074739/https://wiki.haskell.org/Monads_as_computation	archived	2020-11-29
+https://web.archive.org/web/20210115145834/https://wiki.haskell.org/Monads_as_Containers	archived	2021-01-15
+https://web.archive.org/web/20210121070028/https://wiki.haskell.org/IO_inside	archived	2021-01-21
+https://web.archive.org/web/20210123023841/http://wiki.haskell.org/Monads_as_Containers	archived	2021-01-23
+https://web.archive.org/web/20210123121441/https://wiki.haskell.org/IO_inside	archived	2021-01-23
+https://web.archive.org/web/20210123152532/https://wiki.haskell.org/Monads_as_containers	archived	2021-01-23
+https://web.archive.org/web/20210126120932/https://wiki.haskell.org/Monads_as_containers	archived	2021-01-26
+https://web.archive.org/web/20210211035115/https://wiki.haskell.org/IO_inside	archived	2021-02-11
+https://web.archive.org/web/20210214131044/https://wiki.haskell.org/Monads_as_containers	archived	2021-02-14
+https://web.archive.org/web/20210217161736/https://wiki.haskell.org/Monads_as_computation	archived	2021-02-17
+https://web.archive.org/web/20210219093417/https://wiki.haskell.org/Monads_as_Containers	archived	2021-02-19
+https://web.archive.org/web/20210413221055/https://wiki.haskell.org/Monads_as_containers	archived	2021-04-13
+https://web.archive.org/web/20210413224356/https://wiki.haskell.org/IO_inside	archived	2021-04-13
+https://web.archive.org/web/20210413225308/https://wiki.haskell.org/Monads_as_computation	archived	2021-04-13
+https://web.archive.org/web/20210416214338/http://wiki.haskell.org/IO_inside	archived	2021-04-16
+https://web.archive.org/web/20210419035501/https://wiki.haskell.org/Monads_as_computation	archived	2021-04-19
+https://web.archive.org/web/20210421231518/https://wiki.haskell.org/Monads_as_Containers	archived	2021-04-21
+https://web.archive.org/web/20210422002508/https://wiki.haskell.org/Monads_as_computation	archived	2021-04-22
+https://web.archive.org/web/20210423121415/https://wiki.haskell.org/Monads_as_containers	archived	2021-04-23
+https://web.archive.org/web/20210513144030/https://wiki.haskell.org/Monads_as_computation	archived	2021-05-13
+https://web.archive.org/web/20210513165654/https://wiki.haskell.org/Monads_as_Containers	archived	2021-05-13
+https://web.archive.org/web/20210514084756/https://wiki.haskell.org/Monads_as_containers	archived	2021-05-14
+https://web.archive.org/web/20210526161702/https://wiki.haskell.org/IO_inside	archived	2021-05-26
+https://web.archive.org/web/20210609021703/https://wiki.haskell.org/Monads_as_containers	archived	2021-06-09
+https://web.archive.org/web/20210620014952/https://wiki.haskell.org/IO_inside	archived	2021-06-20
+https://web.archive.org/web/20210702155901/https://wiki.haskell.org/Monads_as_containers	archived	2021-07-02
+https://web.archive.org/web/20210702155915/https://wiki.haskell.org/Monads_as_computation	archived	2021-07-02
+https://web.archive.org/web/20210728214020/https://wiki.haskell.org/Monads_as_containers	archived	2021-07-28
+https://web.archive.org/web/20210731100034/https://wiki.haskell.org/Monads_as_Containers	archived	2021-07-31
+https://web.archive.org/web/20210802133223/https://wiki.haskell.org/Monads_as_computation	archived	2021-08-02
+https://web.archive.org/web/20211008092523/https://wiki.haskell.org/Monads_as_computation	archived	2021-10-08
+https://web.archive.org/web/20211008165114/https://wiki.haskell.org/Monads_as_Containers	archived	2021-10-08
+https://web.archive.org/web/20211020033156/https://wiki.haskell.org/IO_inside	archived	2021-10-20
+https://web.archive.org/web/20211022040417/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	archived	2021-10-22
+https://web.archive.org/web/20211024154729/https://wiki.haskell.org/Monads_as_containers	archived	2021-10-24
+https://web.archive.org/web/20211026005153/http://wiki.haskell.org/IO_inside	archived	2021-10-26
+https://web.archive.org/web/20211121172742/https://wiki.haskell.org/IO_inside	archived	2021-11-21
+https://web.archive.org/web/20211128131305/https://wiki.haskell.org/Monads_as_Computation	archived	2021-11-28
+https://web.archive.org/web/20220123035237/https://wiki.haskell.org/Monads_as_computation	archived	2022-01-23
+https://web.archive.org/web/20220123035242/https://wiki.haskell.org/Monads_as_Containers	archived	2022-01-23
+https://web.archive.org/web/20220125020637/https://wiki.haskell.org/Monads_as_computation	archived	2022-01-25
+https://web.archive.org/web/20220402223511/https://wiki.haskell.org/Monads_as_Containers	archived	2022-04-02
+https://web.archive.org/web/20220402223545/https://wiki.haskell.org/Monads_as_computation	archived	2022-04-02
+https://web.archive.org/web/20220421114909/https://wiki.haskell.org/IO_inside	archived	2022-04-21
+https://web.archive.org/web/20220606174323/https://wiki.haskell.org/IO_inside	archived	2022-06-06
+https://web.archive.org/web/20220701050847/https://wiki.haskell.org/Monads_as_Containers	archived	2022-07-01
+https://web.archive.org/web/20220707085817/https://wiki.haskell.org/IO_inside	archived	2022-07-07
+https://web.archive.org/web/20220708134955/https://wiki.haskell.org/Monads_as_computation	archived	2022-07-08
+https://web.archive.org/web/20220708233654/https://wiki.haskell.org/Monads_as_containers	archived	2022-07-08
+https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Monads_as_containers	archived	2022-07-26
+https://web.archive.org/web/20220726203035/https://wiki.haskell.org/Monads_as_computation	archived	2022-07-26
+https://web.archive.org/web/20220817082122/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	archived	2022-08-17
+https://web.archive.org/web/20220929104808/https://wiki.haskell.org/IO_inside	archived	2022-09-29
+https://web.archive.org/web/20221009143617/https://wiki.haskell.org/IO_inside	archived	2022-10-09
+https://web.archive.org/web/20221011113158/https://wiki.haskell.org/Monads_as_computation	archived	2022-10-11
+https://web.archive.org/web/20221012122934/https://wiki.haskell.org/Monads_as_Containers	archived	2022-10-12
+https://web.archive.org/web/20221014064000/http://wiki.haskell.org/IO_inside	archived	2022-10-14
+https://web.archive.org/web/20221020141052/https://wiki.haskell.org/Monads_as_containers	archived	2022-10-20
+https://web.archive.org/web/20221024044043/https://wiki.haskell.org/IO_inside	archived	2022-10-24
+https://web.archive.org/web/20221130162224/https://wiki.haskell.org/Monads_as_Containers	archived	2022-11-30
+https://web.archive.org/web/20221130164456/https://wiki.haskell.org/Monads_as_computation	archived	2022-11-30
+https://web.archive.org/web/20221206062823/http://wiki.haskell.org/Monads_as_computation	archived	2022-12-06
+https://web.archive.org/web/20221206191412/http://wiki.haskell.org/Monads_as_containers	archived	2022-12-06
+https://web.archive.org/web/20230118160005/https://wiki.haskell.org/IO_inside	archived	2023-01-18
+https://web.archive.org/web/20230130154558/https://wiki.haskell.org/Monads_as_computation	archived	2023-01-30
+https://web.archive.org/web/20230131213352/https://wiki.haskell.org/Monads_as_containers	archived	2023-01-31
+https://web.archive.org/web/20230131213447/http://wiki.haskell.org/IO_inside	archived	2023-01-31
+https://web.archive.org/web/20230206124417/https://wiki.haskell.org/Monads_as_Containers	archived	2023-02-06
+https://web.archive.org/web/20230224082237/https://wiki.haskell.org/Monads_as_containers	archived	2023-02-24
+https://web.archive.org/web/20230316150511/https://wiki.haskell.org/IO_inside	archived	2023-03-16
+https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_inside	archived	2023-03-16
+https://web.archive.org/web/20230316174935/https://wiki.haskell.org/IO_inside	archived	2023-03-16
+https://web.archive.org/web/20230317075443/https://wiki.haskell.org/IO_inside	archived	2023-03-17
+https://web.archive.org/web/20230318105851/https://wiki.haskell.org/Monads_as_computation	archived	2023-03-18
+https://web.archive.org/web/20230318105853/https://wiki.haskell.org/Monads_as_containers	archived	2023-03-18
+https://web.archive.org/web/20230326020011/https://wiki.haskell.org/IO_inside	archived	2023-03-26
+https://web.archive.org/web/20230326020020/https://wiki.haskell.org/IO_inside	archived	2023-03-26
+https://web.archive.org/web/20230329203852/https://wiki.haskell.org/IO_inside	archived	2023-03-29
+https://web.archive.org/web/20230522174122/https://wiki.haskell.org/IO_inside	archived	2023-05-22
+https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_computation	archived	2023-05-22
+https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_containers	archived	2023-05-22
+https://web.archive.org/web/20230530013243/https://wiki.haskell.org/Monads_as_containers	archived	2023-05-30
+https://web.archive.org/web/20230601190912/https://wiki.haskell.org/Monads_as_computation	archived	2023-06-01
+https://web.archive.org/web/20230603151849/https://wiki.haskell.org/Monads_as_Containers	archived	2023-06-03
+https://web.archive.org/web/20230604083039/https://wiki.haskell.org/Monads_as_containers	archived	2023-06-04
+https://web.archive.org/web/20230605040044/https://wiki.haskell.org/Monads_as_containers	archived	2023-06-05
+https://web.archive.org/web/20230619125751/https://wiki.haskell.org/Monads_as_computation	archived	2023-06-19
+https://web.archive.org/web/20230704224820/https://wiki.haskell.org/Monads_as_computation	archived	2023-07-04
+https://web.archive.org/web/20230815210240/https://wiki.haskell.org/IO_inside	archived	2023-08-15
+https://web.archive.org/web/20230926033916/https://wiki.haskell.org/IO_inside	archived	2023-09-26
+https://web.archive.org/web/20230926163105/https://wiki.haskell.org/Monads_as_computation	archived	2023-09-26
+https://web.archive.org/web/20230928090935/http://wiki.haskell.org/IO_inside	archived	2023-09-28
+https://web.archive.org/web/20230930170953/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	archived	2023-09-30
+https://web.archive.org/web/20231002180255/https://wiki.haskell.org/Monads_as_Containers	archived	2023-10-02
+https://web.archive.org/web/20231104070800/https://wiki.haskell.org/IO_inside	archived	2023-11-04
+https://web.archive.org/web/20231106212509/https://wiki.haskell.org/Monads_as_containers	archived	2023-11-06
+https://web.archive.org/web/20231128010503/https://wiki.haskell.org/Monads_as_containers	archived	2023-11-28
+https://web.archive.org/web/20231202051052/https://wiki.haskell.org/IO_inside	archived	2023-12-02
+https://web.archive.org/web/20231208071412/https://wiki.haskell.org/Monads_as_containers	archived	2023-12-08
+https://web.archive.org/web/20231210135617/https://wiki.haskell.org/Monads_as_computation	archived	2023-12-10
+https://web.archive.org/web/20231225061543/https://wiki.haskell.org/Monads_as_computation	archived	2023-12-25
+https://web.archive.org/web/20240103132713/https://wiki.haskell.org/IO_inside	archived	2024-01-03
+https://web.archive.org/web/20240220232110/https://wiki.haskell.org/IO_inside	archived	2024-02-20
+https://web.archive.org/web/20240221082842/https://wiki.haskell.org/Monads_as_Containers	archived	2024-02-21
+https://web.archive.org/web/20240403060537/https://wiki.haskell.org/Monads_as_computation	archived	2024-04-03
+https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Monads_as_computation	archived	2024-04-09
+https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_inside	archived	2024-04-09
+https://web.archive.org/web/20240415040512/https://wiki.haskell.org/IO_inside	archived	2024-04-15
+https://web.archive.org/web/20240416114801/https://wiki.haskell.org/Monads_as_containers	archived	2024-04-16
+https://web.archive.org/web/20240525111616/https://wiki.haskell.org/Monads_as_computation	archived	2024-05-25
+https://web.archive.org/web/20240529220500/https://wiki.haskell.org/Monads_as_computation	archived	2024-05-29
+https://web.archive.org/web/20240530140228/http://wiki.haskell.org/IO_inside	archived	2024-05-30
+https://web.archive.org/web/20240607081530/https://wiki.haskell.org/Monads_as_containers	archived	2024-06-07
+https://web.archive.org/web/20240626164712/https://wiki.haskell.org/Monads_as_computation	archived	2024-06-26
+https://web.archive.org/web/20240713090236/http://wiki.haskell.org/Monads_as_computation	archived	2024-07-13
+https://web.archive.org/web/20240713221331/http://wiki.haskell.org/Monads_as_Computation	archived	2024-07-13
+https://web.archive.org/web/20240718113537/https://wiki.haskell.org/Monads_as_computation	archived	2024-07-18
+https://web.archive.org/web/20240721045103/http://wiki.haskell.org/Monads_as_Containers	archived	2024-07-21
+https://web.archive.org/web/20240721203620/https://wiki.haskell.org/IO_inside	archived	2024-07-21
+https://web.archive.org/web/20240722012910/https://wiki.haskell.org/Monads_as_Containers	archived	2024-07-22
+https://web.archive.org/web/20240725104749/https://wiki.haskell.org/Monads_as_containers	archived	2024-07-25
+https://web.archive.org/web/20240909213150/https://wiki.haskell.org/Monads_as_computation	archived	2024-09-09
+https://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside	archived	2024-09-10
+https://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation	archived	2024-10-02
+https://web.archive.org/web/20241007140011/https://wiki.haskell.org/IO_inside	archived	2024-10-07
+https://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_Containers	archived	2024-10-08
+https://web.archive.org/web/20241016084510/http://wiki.haskell.org/IO_inside	archived	2024-10-16
+https://web.archive.org/web/20241019230835/https://wiki.haskell.org/Monads_as_computation	archived	2024-10-19
+https://web.archive.org/web/20241123014825/https://wiki.haskell.org/IO_inside	archived	2024-11-23
+https://web.archive.org/web/20241127020710/https://wiki.haskell.org/IO_inside	archived	2024-11-27
+https://web.archive.org/web/20241202001404/https://wiki.haskell.org/Monads_as_containers	archived	2024-12-02
+https://web.archive.org/web/20241227050241/https://wiki.haskell.org/IO_inside	archived	2024-12-27
+https://web.archive.org/web/20250114210129/https://wiki.haskell.org/IO_inside	archived	2025-01-14
+https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_computation	archived	2025-01-17
+https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_Containers	archived	2025-01-17
+https://web.archive.org/web/20250120123801/https://wiki.haskell.org/IO_inside	archived	2025-01-20
+https://web.archive.org/web/20250122145245/https://wiki.haskell.org/Monads_as_computation	archived	2025-01-22
+https://web.archive.org/web/20250123103053/https://wiki.haskell.org/Monads_as_Containers	archived	2025-01-23
+https://web.archive.org/web/20250207190011/https://wiki.haskell.org/Monads_as_containers	archived	2025-02-07
+https://web.archive.org/web/20250208030239/https://wiki.haskell.org/Monads_as_Containers	archived	2025-02-08
+https://web.archive.org/web/20250307200850/https://wiki.haskell.org/Monads_as_computation	archived	2025-03-07
+https://web.archive.org/web/20250307200918/https://wiki.haskell.org/Monads_as_containers	archived	2025-03-07
+https://web.archive.org/web/20250311191503/https://wiki.haskell.org/Monads_as_computation	archived	2025-03-11
+https://web.archive.org/web/20250418213048/https://wiki.haskell.org/IO_inside	archived	2025-04-18
+https://web.archive.org/web/20250605165649/https://wiki.haskell.org/IO_inside	archived	2025-06-05
+https://web.archive.org/web/20250620162909/https://wiki.haskell.org/Monads_as_computation	archived	2025-06-20
+https://web.archive.org/web/20250719041219/https://wiki.haskell.org/Monads_as_containers	archived	2025-07-19
+https://web.archive.org/web/20250723091827/https://wiki.haskell.org/Monads_as_computation	archived	2025-07-23
+https://web.archive.org/web/20250729043258/https://wiki.haskell.org/IO_inside	archived	2025-07-29
+https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_computation	archived	2025-08-04
+https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_containers	archived	2025-08-04
+https://web.archive.org/web/20250808092413/https://wiki.haskell.org/IO_inside	archived	2025-08-08
+https://web.archive.org/web/20250817173537/https://wiki.haskell.org/Monads_as_Computation	archived	2025-08-17
+https://web.archive.org/web/20250921125332/https://wiki.haskell.org/Monads_as_computation	archived	2025-09-21
+https://web.archive.org/web/20251002114734/https://wiki.haskell.org/IO_inside	archived	2025-10-02
+https://web.archive.org/web/20251008194817/https://wiki.haskell.org/IO_inside	archived	2025-10-08
+https://web.archive.org/web/20251026204313/https://wiki.haskell.org/IO_inside	archived	2025-10-26
+https://web.archive.org/web/20251026204413/https://wiki.haskell.org/Monads_as_computation	archived	2025-10-26
+https://web.archive.org/web/20251117223434/https://wiki.haskell.org/IO_inside	archived	2025-11-17
+https://web.archive.org/web/20251223223310/https://wiki.haskell.org/IO_inside	archived	2025-12-23
+https://web.archive.org/web/20251224154518/https://wiki.haskell.org/IO_inside	archived	2025-12-24
+https://web.archive.org/web/20260101065727/https://wiki.haskell.org/IO_inside	archived	2026-01-01
+https://web.archive.org/web/20260210232850/https://wiki.haskell.org/Monads_as_containers	archived	2026-02-10
+https://web.archive.org/web/20260302080701/https://wiki.haskell.org/Monads_as_Containers	archived	2026-03-02
+https://web.archive.org/web/20260303010259/https://wiki.haskell.org/Monads_as_computation	archived	2026-03-03
+https://web.archive.org/web/20260422061504/https://wiki.haskell.org/IO_inside	archived	2026-04-22
+https://web.archive.org/web/20150910194211/https://wiki.haskell.org/Lazy_IO	archived	2015-09-10
+https://web.archive.org/web/20191021223213/https://wiki.haskell.org/Lazy_IO	archived	2019-10-21
+https://web.archive.org/web/20210923021259/https://wiki.haskell.org/Lazy_IO	archived	2021-09-23
+https://web.archive.org/web/20211206155033/https://wiki.haskell.org/Lazy_IO	archived	2021-12-06
+https://web.archive.org/web/20230322054729/https://wiki.haskell.org/Lazy_IO	archived	2023-03-22
+https://web.archive.org/web/20231130044425/http://wiki.haskell.org/Lazy_IO	archived	2023-11-30
+https://web.archive.org/web/20240222065906/https://wiki.haskell.org/Lazy_IO	archived	2024-02-22
+https://web.archive.org/web/20240415092124/https://wiki.haskell.org/Lazy_IO	archived	2024-04-15
+https://web.archive.org/web/20240813120557/http://wiki.haskell.org/Lazy_IO	archived	2024-08-13
+https://web.archive.org/web/20241011084506/https://wiki.haskell.org/Lazy_IO	archived	2024-10-11
+https://web.archive.org/web/20250527223545/https://wiki.haskell.org/Lazy_IO	archived	2025-05-27
 https://wiki.haskell.org/Lazy_IO	N/A
 https://wiki.haskell.org/index.php?title=Avoiding_IO	N/A
 https://wiki.haskell.org/index.php?title=How_to_get_rid_of_IO	N/A
@@ -21546,596 +21546,596 @@ https://wiki.haskell.org/index.php?title=Introduction_to_IO_actions	N/A
 https://wiki.haskell.org/index.php?title=IO,_partible-style	N/A
 https://wiki.haskell.org/index.php?title=Tutorials/Programming_Haskell/String_IO	N/A
 https://wiki.haskell.org/index.php?title=Tutorials/ProgrammingHaskell/String_IO	N/A
-https://web.archive.org/web/20150906053054/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20150906120146/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20150907200059/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20150925143519/https://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20150927185129/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20151021023622/http://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20160419051823/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20160527011711/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20160711151741/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20161009163939/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20161009164017/https://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20170416153323/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20170814190633/https://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20180225104405/http://wiki.haskell.org:80/Introduction_to_IO	N/A
-https://web.archive.org/web/20181124231624/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20181222231012/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20190112211221/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20190223235557/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20190302230016/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20190309183024/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20190418200704/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20190524053853/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20190625180421/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20190716211818/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20190719153230/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20190726133317/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20190828031105/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20190921202514/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20190922170857/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20190923080800/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20190930232122/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20191002000612/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20191004022838/http://wiki.haskell.org:80/Avoiding_IO	N/A
-https://web.archive.org/web/20191004104046/http://wiki.haskell.org:80/Introduction_to_IO	N/A
-https://web.archive.org/web/20191004130007/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20191026171203/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20191117191738/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20191120183453/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20191125224935/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20191203191637/http://wiki.haskell.org:80/Introduction_to_IO	N/A
-https://web.archive.org/web/20191210053743/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20191210102307/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20191213005516/http://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20191226045245/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20200125175450/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20200202001923/http://wiki.haskell.org:80/Introduction_to_IO	N/A
-https://web.archive.org/web/20200202144838/http://wiki.haskell.org:80/Avoiding_IO	N/A
-https://web.archive.org/web/20200224223541/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20200718183254/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20200806143505/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20201023011716/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20201109015049/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20201109025703/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20201109032722/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20201111212312/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20201118064951/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20201129060959/http://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20210214030712/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20210415192324/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20210514081549/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20210518164324/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20210526094347/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20210621205905/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20210702155900/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20211006222302/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20211026202747/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20211128095221/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20211203204758/http://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20220127140912/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20220129045854/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20220402223440/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20220402223816/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20220501204758/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20220702113106/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20220817013206/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20220920022146/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20220923114730/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20220926145837/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20221130161424/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20221204185913/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20221205233447/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20221207212556/http://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20221209001941/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20221210080853/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20221211190137/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20230115055039/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20230116175552/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20230117092009/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20230130161413/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20230131025941/http://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20230316174551/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20230325170304/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20230509033521/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20230522174033/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20230522174110/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20230530044418/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20230604003748/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20230608220359/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20230609052530/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20230718005035/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20230719024528/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20231001102050/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20231204185851/http://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20231210205334/http://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20231214021431/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240114190809/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240121085326/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240121085336/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240221161935/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240225021414/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240228160305/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20240228165526/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20240413231813/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20240415013500/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240417063326/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240513180716/http://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240524233811/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20240525231858/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
-https://web.archive.org/web/20240527102450/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240618152527/http://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20240620080529/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20240621083150/http://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20240621083713/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240815225451/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240909232812/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240913184459/http://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20240930142757/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20240930142800/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20241005151204/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20241014151844/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20241123013239/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20241209001717/https://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20241226003102/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20250118040414/http://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20250118051541/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20250123104931/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20250124075238/http://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20250318012116/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20250320011212/https://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20250324202259/http://wiki.haskell.org/IO_Semantics	N/A
-https://web.archive.org/web/20250426222634/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20250426222645/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20250505121425/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20250712042247/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20250815163946/http://wiki.haskell.org/Avoiding_IO	N/A
-https://web.archive.org/web/20250820110533/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20250828123842/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20250927112007/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20251106131915/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20251229101724/https://wiki.haskell.org/Introduction_to_IO	N/A
-https://web.archive.org/web/20260109162718/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20260123232344/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20260126225721/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
-https://web.archive.org/web/20260219095611/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
-https://web.archive.org/web/20150909132730/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20160430084314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20170421150610/https://wiki.haskell.org/UnsafePerformIO	N/A
-https://web.archive.org/web/20190825162914/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20191016004101/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20201109025028/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20210923032314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20211019223111/https://wiki.haskell.org/UnsafePerformIO	N/A
-https://web.archive.org/web/20211130210217/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20220119055359/https://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20220123103638/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20220213201637/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20220705122859/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20220726201534/https://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20220819012142/http://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20220820054408/http://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20220930200528/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20221007182320/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20221205071857/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20221205143628/http://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20230130235346/https://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20230206094404/https://wiki.haskell.org/UnsafePerformIO	N/A
-https://web.archive.org/web/20230208114205/https://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20230326015541/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20230531032205/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20230602152233/http://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20230608074515/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20230610043214/http://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20230923001711/http://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20231128185611/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20231206005033/https://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20231210224443/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20240416104734/http://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20240430042947/https://wiki.haskell.org/IO_at_work	N/A
-https://web.archive.org/web/20240522043657/https://wiki.haskell.org/IO_in_action	N/A
-https://web.archive.org/web/20240526002201/https://wiki.haskell.org/IO_tutorials_timeline	N/A
-https://web.archive.org/web/20240614082447/http://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20240617172950/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20240617174248/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20240624055553/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20240914161346/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20250112214730/https://wiki.haskell.org/IO_tutorials_timeline	N/A
-https://web.archive.org/web/20250204192957/https://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20250729180344/https://wiki.haskell.org/IO_then_abstraction	N/A
-https://web.archive.org/web/20260422055652/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20260508215043/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
-https://web.archive.org/web/20150930164633/https://wiki.haskell.org/Blog_articles/IO	N/A
-https://web.archive.org/web/20190716213305/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20190720210543/https://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20190921201437/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20191119010713/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20200806065327/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20210420221123/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20210517111739/https://wiki.haskell.org/Monada_de_IO	N/A
-https://web.archive.org/web/20210923031053/https://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20211128190719/https://wiki.haskell.org/Monada_de_IO	N/A
-https://web.archive.org/web/20220124232957/https://wiki.haskell.org/Iteratee_IO	N/A
-https://web.archive.org/web/20220630003756/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20220930195116/https://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20221007160332/https://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20230130155741/https://wiki.haskell.org/Monada_de_IO	N/A
-https://web.archive.org/web/20230207022034/http://wiki.haskell.org/Namespaced_IO_Layer	N/A
-https://web.archive.org/web/20230320122529/https://wiki.haskell.org/Iteratee_IO	N/A
-https://web.archive.org/web/20230329122952/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20230926145654/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20231130045113/http://wiki.haskell.org/Iteratee_IO	N/A
-https://web.archive.org/web/20240423164724/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20240526001150/http://wiki.haskell.org/Namespaced_IO_Layer	N/A
-https://web.archive.org/web/20240901090248/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20240918004026/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20240930030305/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20241116120736/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20241119081713/https://wiki.haskell.org/Ru/IO_Inside	N/A
-https://web.archive.org/web/20250114034122/http://wiki.haskell.org/Namespaced_IO_Layer	N/A
-https://web.archive.org/web/20250208085106/http://wiki.haskell.org/Ru/IO	N/A
-https://web.archive.org/web/20150925151901/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20150925154742/https://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20160430095204/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20160506004753/https://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20170714155745/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20180126080636/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20180215154331/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20190311120912/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20190516145501/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20190722151728/https://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20190919030730/https://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20191017070011/https://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20191114021559/https://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20191114124724/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO	N/A
-https://web.archive.org/web/20191121224037/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20200804173504/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20210117200455/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20210129131505/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20210413224257/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20210518061049/https://wiki.haskell.org/IO,_partible-style	N/A
-https://web.archive.org/web/20210726131530/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO	N/A
-https://web.archive.org/web/20210918083424/http://wiki.haskell.org/IO,_partible-style	N/A
-https://web.archive.org/web/20211022040926/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20211025151250/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20211128192732/https://wiki.haskell.org/IO,_partible-style	N/A
-https://web.archive.org/web/20220129034202/http://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20220419225309/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20221003115054/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20221128180423/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20221209002634/https://wiki.haskell.org/IO,_partible-style	N/A
-https://web.archive.org/web/20230130135300/http://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20230131105701/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20230329195342/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20230424000811/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20231128200835/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20231130042656/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20231130044750/http://wiki.haskell.org/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20231130045358/http://wiki.haskell.org/IO,_partible-style	N/A
-https://web.archive.org/web/20240221071930/http://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20240412201536/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20240617101154/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
-https://web.archive.org/web/20240810073355/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20240909211454/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20240914124736/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20240918005149/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20250215160317/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20250416035606/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20250426222641/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20250518221617/https://wiki.haskell.org/Binary_IO	N/A
-https://web.archive.org/web/20251104220709/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20251228075742/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
-https://web.archive.org/web/20150204182956/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20150228073124/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20150303104409/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20150324011857/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20150402222642/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20150423221452/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20150730202922/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20150905114947/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20150905130636/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20150918224839/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20150925152908/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20151021023727/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20160304215136/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20160309222649/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20160311021301/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20160321222857/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20160429145152/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20160914015455/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20160914043736/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20161115191757/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20170115011804/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20170125125356/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20170407121107/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20170502044842/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20170524151750/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20170601110824/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20170605104948/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20170701190037/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20170905030047/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20170905110118/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20171003003516/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20171012070950/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20171012075041/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20171214235050/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20171219021937/http://wiki.haskell.org:80/Monad/ST	N/A
-https://web.archive.org/web/20180225102016/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20181116053957/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20181202135716/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20190220121612/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20190220123135/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20190220124647/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20190412221913/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20190429083526/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20190518145113/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20190721204959/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20190822152248/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20190826102434/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20190922113909/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20190922232244/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20191014084347/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20191014121537/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20191015194547/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20191016164650/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20191031093447/http://wiki.haskell.org:80/Monad/ST	N/A
-https://web.archive.org/web/20191031093741/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20191114021316/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20191210070638/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20191213234349/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20191230153642/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20200105131731/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20200110040658/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20200127143453/http://wiki.haskell.org:80/Monad/ST	N/A
-https://web.archive.org/web/20200131184140/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20200312090857/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20200506232514/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20200622113654/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20200810195933/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20200821103839/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20200831202539/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20201022080256/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20201028115412/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201106052541/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201107234832/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20201109041130/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20201112010941/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201112221755/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201122030538/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201122083145/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201122104544/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201122140522/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201122150404/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201123025622/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20201125020857/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20201129070147/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20210209175331/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20210308110739/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20210321102857/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20210411135357/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20210413155017/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20210417181350/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20210423172947/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20210513160330/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20210719214415/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20210719214532/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20210724225719/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20210725200913/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20210801214531/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20210806235649/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20210806235701/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20210807135220/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20211006223611/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20211203192900/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20211210183348/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20211230031902/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220119034830/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20220209195949/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220226075443/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20220402223500/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220402223501/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220427043054/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220705203444/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220706232553/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220808074701/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220813111214/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220816160210/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220816223348/http://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20220817045139/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20220817094446/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20220818044801/http://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20220920022142/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220923112004/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20220924135940/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20221014060357/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20221102190113/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20221121155247/http://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20221204204207/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20221205105055/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20221205143851/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20221225031641/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20221229045910/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20230107190101/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230108173150/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230117195630/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230201155933/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230208094217/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230208173317/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230208174951/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230307223252/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230316150511/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230318105854/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230325100548/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230327061824/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20230329101738/http://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20230425110604/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20230529230319/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20230602020941/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230701101220/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230707210430/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230729195220/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20230815131742/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20230927220711/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20230928081452/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20231001111659/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20231119101841/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20231130162114/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20231204011957/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20231207231753/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20231212173023/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20231216235224/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240106222510/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240110104112/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240118015414/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240122145808/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240204162359/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240212205613/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240220232559/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240225220327/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240228160846/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20240229110215/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240405084146/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240409080553/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240415081208/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20240416195936/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240417054255/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240505000826/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240512050616/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240512085831/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240529212829/http://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240612024012/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240612031206/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240621075507/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240624040000/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240627150607/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240628193838/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240718110854/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240813011629/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240825125728/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20240901090247/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240908162843/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20240915102644/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240917134548/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20240930030209/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241004042322/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
-https://web.archive.org/web/20241015154102/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241016073952/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241107232854/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241116115644/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241118211900/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241119021941/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20241128025856/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241202134605/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20241204061331/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241212012335/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20241212122730/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20241214105335/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20241216112655/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20241221131924/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20241227014048/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250111092634/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20250112211031/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250114205122/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250115175019/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250118025440/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20250118042437/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250126180623/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20250214021552/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250222085420/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250222213525/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250223110407/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250320053408/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250320230309/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250323001932/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250327005045/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250327005308/http://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250329180029/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250330165009/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250506235342/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250607040646/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250725154238/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20250801050944/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20250803035732/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250813212242/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20250818235023/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250818235426/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20250902004004/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20250905232409/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20251008192446/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20251008192622/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20251108025117/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20251115183823/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20251116194856/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20251124011851/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20251210055534/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20251226155125/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20260106062956/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20260123032054/https://wiki.haskell.org/State_Monad	N/A
-https://web.archive.org/web/20260213204042/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260215220721/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20260425011801/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20260425021012/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260430043539/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260430124759/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260430130821/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260430195713/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260501024111/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260501075831/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260502134112/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260505075111/https://wiki.haskell.org/Monad/ST	N/A
-https://web.archive.org/web/20260506052457/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260612003752/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
-https://web.archive.org/web/20260706174239/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20150906053054/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2015-09-06
+https://web.archive.org/web/20150906120146/https://wiki.haskell.org/Avoiding_IO	archived	2015-09-06
+https://web.archive.org/web/20150907200059/https://wiki.haskell.org/Introduction_to_IO	archived	2015-09-07
+https://web.archive.org/web/20150925143519/https://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2015-09-25
+https://web.archive.org/web/20150927185129/https://wiki.haskell.org/IO_Semantics	archived	2015-09-27
+https://web.archive.org/web/20151021023622/http://wiki.haskell.org/Introduction_to_IO	archived	2015-10-21
+https://web.archive.org/web/20160419051823/https://wiki.haskell.org/Avoiding_IO	archived	2016-04-19
+https://web.archive.org/web/20160527011711/https://wiki.haskell.org/Introduction_to_IO	archived	2016-05-27
+https://web.archive.org/web/20160711151741/https://wiki.haskell.org/Introduction_to_IO	archived	2016-07-11
+https://web.archive.org/web/20161009163939/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2016-10-09
+https://web.archive.org/web/20161009164017/https://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2016-10-09
+https://web.archive.org/web/20170416153323/https://wiki.haskell.org/Avoiding_IO	archived	2017-04-16
+https://web.archive.org/web/20170814190633/https://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2017-08-14
+https://web.archive.org/web/20180225104405/http://wiki.haskell.org:80/Introduction_to_IO	archived	2018-02-25
+https://web.archive.org/web/20181124231624/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2018-11-24
+https://web.archive.org/web/20181222231012/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2018-12-22
+https://web.archive.org/web/20190112211221/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2019-01-12
+https://web.archive.org/web/20190223235557/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2019-02-23
+https://web.archive.org/web/20190302230016/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2019-03-02
+https://web.archive.org/web/20190309183024/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2019-03-09
+https://web.archive.org/web/20190418200704/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-04-18
+https://web.archive.org/web/20190524053853/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-05-24
+https://web.archive.org/web/20190625180421/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-06-25
+https://web.archive.org/web/20190716211818/https://wiki.haskell.org/Introduction_to_IO	archived	2019-07-16
+https://web.archive.org/web/20190719153230/https://wiki.haskell.org/IO_Semantics	archived	2019-07-19
+https://web.archive.org/web/20190726133317/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-07-26
+https://web.archive.org/web/20190828031105/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-08-28
+https://web.archive.org/web/20190921202514/https://wiki.haskell.org/Introduction_to_IO	archived	2019-09-21
+https://web.archive.org/web/20190922170857/https://wiki.haskell.org/IO_Semantics	archived	2019-09-22
+https://web.archive.org/web/20190923080800/https://wiki.haskell.org/Avoiding_IO	archived	2019-09-23
+https://web.archive.org/web/20190930232122/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-09-30
+https://web.archive.org/web/20191002000612/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-10-02
+https://web.archive.org/web/20191004022838/http://wiki.haskell.org:80/Avoiding_IO	archived	2019-10-04
+https://web.archive.org/web/20191004104046/http://wiki.haskell.org:80/Introduction_to_IO	archived	2019-10-04
+https://web.archive.org/web/20191004130007/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-10-04
+https://web.archive.org/web/20191026171203/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-10-26
+https://web.archive.org/web/20191117191738/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2019-11-17
+https://web.archive.org/web/20191120183453/https://wiki.haskell.org/Avoiding_IO	archived	2019-11-20
+https://web.archive.org/web/20191125224935/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-11-25
+https://web.archive.org/web/20191203191637/http://wiki.haskell.org:80/Introduction_to_IO	archived	2019-12-03
+https://web.archive.org/web/20191210053743/https://wiki.haskell.org/Introduction_to_IO	archived	2019-12-10
+https://web.archive.org/web/20191210102307/http://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2019-12-10
+https://web.archive.org/web/20191213005516/http://wiki.haskell.org/Introduction_to_IO	archived	2019-12-13
+https://web.archive.org/web/20191226045245/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2019-12-26
+https://web.archive.org/web/20200125175450/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2020-01-25
+https://web.archive.org/web/20200202001923/http://wiki.haskell.org:80/Introduction_to_IO	archived	2020-02-02
+https://web.archive.org/web/20200202144838/http://wiki.haskell.org:80/Avoiding_IO	archived	2020-02-02
+https://web.archive.org/web/20200224223541/http://wiki.haskell.org:80/How_to_get_rid_of_IO	archived	2020-02-24
+https://web.archive.org/web/20200718183254/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2020-07-18
+https://web.archive.org/web/20200806143505/https://wiki.haskell.org/Introduction_to_IO	archived	2020-08-06
+https://web.archive.org/web/20201023011716/https://wiki.haskell.org/Introduction_to_IO	archived	2020-10-23
+https://web.archive.org/web/20201109015049/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2020-11-09
+https://web.archive.org/web/20201109025703/https://wiki.haskell.org/Avoiding_IO	archived	2020-11-09
+https://web.archive.org/web/20201109032722/https://wiki.haskell.org/IO_Semantics	archived	2020-11-09
+https://web.archive.org/web/20201111212312/https://wiki.haskell.org/Introduction_to_IO	archived	2020-11-11
+https://web.archive.org/web/20201118064951/https://wiki.haskell.org/Introduction_to_IO	archived	2020-11-18
+https://web.archive.org/web/20201129060959/http://wiki.haskell.org/IO_Semantics	archived	2020-11-29
+https://web.archive.org/web/20210214030712/https://wiki.haskell.org/Introduction_to_IO	archived	2021-02-14
+https://web.archive.org/web/20210415192324/https://wiki.haskell.org/Introduction_to_IO	archived	2021-04-15
+https://web.archive.org/web/20210514081549/https://wiki.haskell.org/Introduction_to_IO	archived	2021-05-14
+https://web.archive.org/web/20210518164324/https://wiki.haskell.org/Introduction_to_IO	archived	2021-05-18
+https://web.archive.org/web/20210526094347/https://wiki.haskell.org/Avoiding_IO	archived	2021-05-26
+https://web.archive.org/web/20210621205905/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2021-06-21
+https://web.archive.org/web/20210702155900/https://wiki.haskell.org/Introduction_to_IO	archived	2021-07-02
+https://web.archive.org/web/20211006222302/https://wiki.haskell.org/Introduction_to_IO	archived	2021-10-06
+https://web.archive.org/web/20211026202747/https://wiki.haskell.org/Avoiding_IO	archived	2021-10-26
+https://web.archive.org/web/20211128095221/https://wiki.haskell.org/Introduction_to_IO	archived	2021-11-28
+https://web.archive.org/web/20211203204758/http://wiki.haskell.org/IO_Semantics	archived	2021-12-03
+https://web.archive.org/web/20220127140912/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2022-01-27
+https://web.archive.org/web/20220129045854/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2022-01-29
+https://web.archive.org/web/20220402223440/https://wiki.haskell.org/Introduction_to_IO	archived	2022-04-02
+https://web.archive.org/web/20220402223816/https://wiki.haskell.org/Introduction_to_IO	archived	2022-04-02
+https://web.archive.org/web/20220501204758/https://wiki.haskell.org/Introduction_to_IO	archived	2022-05-01
+https://web.archive.org/web/20220702113106/http://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2022-07-02
+https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Introduction_to_IO	archived	2022-07-26
+https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_Semantics	archived	2022-07-26
+https://web.archive.org/web/20220817013206/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2022-08-17
+https://web.archive.org/web/20220920022146/https://wiki.haskell.org/Introduction_to_IO	archived	2022-09-20
+https://web.archive.org/web/20220923114730/https://wiki.haskell.org/Introduction_to_IO	archived	2022-09-23
+https://web.archive.org/web/20220926145837/https://wiki.haskell.org/Avoiding_IO	archived	2022-09-26
+https://web.archive.org/web/20221130161424/https://wiki.haskell.org/Introduction_to_IO	archived	2022-11-30
+https://web.archive.org/web/20221204185913/https://wiki.haskell.org/Avoiding_IO	archived	2022-12-04
+https://web.archive.org/web/20221205233447/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2022-12-05
+https://web.archive.org/web/20221207212556/http://wiki.haskell.org/IO_Semantics	archived	2022-12-07
+https://web.archive.org/web/20221209001941/https://wiki.haskell.org/Introduction_to_IO	archived	2022-12-09
+https://web.archive.org/web/20221210080853/https://wiki.haskell.org/Avoiding_IO	archived	2022-12-10
+https://web.archive.org/web/20221211190137/https://wiki.haskell.org/Avoiding_IO	archived	2022-12-11
+https://web.archive.org/web/20230115055039/https://wiki.haskell.org/Avoiding_IO	archived	2023-01-15
+https://web.archive.org/web/20230116175552/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2023-01-16
+https://web.archive.org/web/20230117092009/https://wiki.haskell.org/Introduction_to_IO	archived	2023-01-17
+https://web.archive.org/web/20230130161413/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2023-01-30
+https://web.archive.org/web/20230131025941/http://wiki.haskell.org/How_to_get_rid_of_IO	archived	2023-01-31
+https://web.archive.org/web/20230316174551/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2023-03-16
+https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Introduction_to_IO	archived	2023-03-20
+https://web.archive.org/web/20230325170304/http://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2023-03-25
+https://web.archive.org/web/20230509033521/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2023-05-09
+https://web.archive.org/web/20230522174033/https://wiki.haskell.org/Introduction_to_IO	archived	2023-05-22
+https://web.archive.org/web/20230522174110/https://wiki.haskell.org/Avoiding_IO	archived	2023-05-22
+https://web.archive.org/web/20230530044418/https://wiki.haskell.org/IO_Semantics	archived	2023-05-30
+https://web.archive.org/web/20230604003748/https://wiki.haskell.org/Avoiding_IO	archived	2023-06-04
+https://web.archive.org/web/20230608220359/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2023-06-08
+https://web.archive.org/web/20230609052530/https://wiki.haskell.org/Introduction_to_IO	archived	2023-06-09
+https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Introduction_to_IO	archived	2023-06-17
+https://web.archive.org/web/20230718005035/https://wiki.haskell.org/Avoiding_IO	archived	2023-07-18
+https://web.archive.org/web/20230719024528/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2023-07-19
+https://web.archive.org/web/20231001102050/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2023-10-01
+https://web.archive.org/web/20231204185851/http://wiki.haskell.org/How_to_get_rid_of_IO	archived	2023-12-04
+https://web.archive.org/web/20231210205334/http://wiki.haskell.org/IO_Semantics	archived	2023-12-10
+https://web.archive.org/web/20231214021431/https://wiki.haskell.org/Introduction_to_IO	archived	2023-12-14
+https://web.archive.org/web/20240114190809/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-01-14
+https://web.archive.org/web/20240121085326/https://wiki.haskell.org/Introduction_to_IO	archived	2024-01-21
+https://web.archive.org/web/20240121085336/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-01-21
+https://web.archive.org/web/20240221161935/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-02-21
+https://web.archive.org/web/20240225021414/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-02-25
+https://web.archive.org/web/20240228160305/https://wiki.haskell.org/Avoiding_IO	archived	2024-02-28
+https://web.archive.org/web/20240228165526/https://wiki.haskell.org/Introduction_to_IO	archived	2024-02-28
+https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_Semantics	archived	2024-04-09
+https://web.archive.org/web/20240413231813/https://wiki.haskell.org/IO_Semantics	archived	2024-04-13
+https://web.archive.org/web/20240415013500/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-04-15
+https://web.archive.org/web/20240417063326/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-04-17
+https://web.archive.org/web/20240513180716/http://wiki.haskell.org/Introduction_to_IO	archived	2024-05-13
+https://web.archive.org/web/20240524233811/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2024-05-24
+https://web.archive.org/web/20240525231858/http://wiki.haskell.org/Introduction_to_Haskell_IO	archived	2024-05-25
+https://web.archive.org/web/20240527102450/https://wiki.haskell.org/Introduction_to_IO	archived	2024-05-27
+https://web.archive.org/web/20240618152527/http://wiki.haskell.org/Avoiding_IO	archived	2024-06-18
+https://web.archive.org/web/20240620080529/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2024-06-20
+https://web.archive.org/web/20240621083150/http://wiki.haskell.org/IO_Semantics	archived	2024-06-21
+https://web.archive.org/web/20240621083713/https://wiki.haskell.org/Introduction_to_IO	archived	2024-06-21
+https://web.archive.org/web/20240815225451/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-08-15
+https://web.archive.org/web/20240909232812/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-09-09
+https://web.archive.org/web/20240913184459/http://wiki.haskell.org/Introduction_to_IO	archived	2024-09-13
+https://web.archive.org/web/20240930142757/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2024-09-30
+https://web.archive.org/web/20240930142800/https://wiki.haskell.org/Introduction_to_IO	archived	2024-09-30
+https://web.archive.org/web/20241005151204/https://wiki.haskell.org/Introduction_to_IO	archived	2024-10-05
+https://web.archive.org/web/20241014151844/https://wiki.haskell.org/Introduction_to_IO	archived	2024-10-14
+https://web.archive.org/web/20241123013239/https://wiki.haskell.org/Introduction_to_IO	archived	2024-11-23
+https://web.archive.org/web/20241209001717/https://wiki.haskell.org/Avoiding_IO	archived	2024-12-09
+https://web.archive.org/web/20241226003102/https://wiki.haskell.org/Introduction_to_IO	archived	2024-12-26
+https://web.archive.org/web/20250118040414/http://wiki.haskell.org/Avoiding_IO	archived	2025-01-18
+https://web.archive.org/web/20250118051541/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-01-18
+https://web.archive.org/web/20250123104931/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-01-23
+https://web.archive.org/web/20250124075238/http://wiki.haskell.org/Introduction_to_IO	archived	2025-01-24
+https://web.archive.org/web/20250318012116/https://wiki.haskell.org/Introduction_to_IO	archived	2025-03-18
+https://web.archive.org/web/20250320011212/https://wiki.haskell.org/IO_Semantics	archived	2025-03-20
+https://web.archive.org/web/20250324202259/http://wiki.haskell.org/IO_Semantics	archived	2025-03-24
+https://web.archive.org/web/20250426222634/https://wiki.haskell.org/Introduction_to_IO	archived	2025-04-26
+https://web.archive.org/web/20250426222645/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-04-26
+https://web.archive.org/web/20250505121425/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-05-05
+https://web.archive.org/web/20250712042247/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-07-12
+https://web.archive.org/web/20250815163946/http://wiki.haskell.org/Avoiding_IO	archived	2025-08-15
+https://web.archive.org/web/20250820110533/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2025-08-20
+https://web.archive.org/web/20250828123842/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-08-28
+https://web.archive.org/web/20250927112007/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-09-27
+https://web.archive.org/web/20251106131915/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2025-11-06
+https://web.archive.org/web/20251229101724/https://wiki.haskell.org/Introduction_to_IO	archived	2025-12-29
+https://web.archive.org/web/20260109162718/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2026-01-09
+https://web.archive.org/web/20260123232344/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2026-01-23
+https://web.archive.org/web/20260126225721/https://wiki.haskell.org/How_to_get_rid_of_IO	archived	2026-01-26
+https://web.archive.org/web/20260219095611/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	archived	2026-02-19
+https://web.archive.org/web/20150909132730/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2015-09-09
+https://web.archive.org/web/20160430084314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2016-04-30
+https://web.archive.org/web/20170421150610/https://wiki.haskell.org/UnsafePerformIO	archived	2017-04-21
+https://web.archive.org/web/20190825162914/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2019-08-25
+https://web.archive.org/web/20191016004101/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2019-10-16
+https://web.archive.org/web/20201109025028/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2020-11-09
+https://web.archive.org/web/20210923032314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2021-09-23
+https://web.archive.org/web/20211019223111/https://wiki.haskell.org/UnsafePerformIO	archived	2021-10-19
+https://web.archive.org/web/20211130210217/https://wiki.haskell.org/IO_at_work	archived	2021-11-30
+https://web.archive.org/web/20220119055359/https://wiki.haskell.org/IO_then_abstraction	archived	2022-01-19
+https://web.archive.org/web/20220123103638/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2022-01-23
+https://web.archive.org/web/20220213201637/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2022-02-13
+https://web.archive.org/web/20220705122859/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2022-07-05
+https://web.archive.org/web/20220726201534/https://wiki.haskell.org/IO_in_action	archived	2022-07-26
+https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_at_work	archived	2022-07-26
+https://web.archive.org/web/20220819012142/http://wiki.haskell.org/IO_then_abstraction	archived	2022-08-19
+https://web.archive.org/web/20220820054408/http://wiki.haskell.org/IO_in_action	archived	2022-08-20
+https://web.archive.org/web/20220930200528/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2022-09-30
+https://web.archive.org/web/20221007182320/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2022-10-07
+https://web.archive.org/web/20221205071857/https://wiki.haskell.org/IO_at_work	archived	2022-12-05
+https://web.archive.org/web/20221205143628/http://wiki.haskell.org/IO_at_work	archived	2022-12-05
+https://web.archive.org/web/20230130235346/https://wiki.haskell.org/IO_in_action	archived	2023-01-30
+https://web.archive.org/web/20230206094404/https://wiki.haskell.org/UnsafePerformIO	archived	2023-02-06
+https://web.archive.org/web/20230208114205/https://wiki.haskell.org/IO_then_abstraction	archived	2023-02-08
+https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_at_work	archived	2023-03-16
+https://web.archive.org/web/20230326015541/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2023-03-26
+https://web.archive.org/web/20230531032205/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2023-05-31
+https://web.archive.org/web/20230602152233/http://wiki.haskell.org/IO_at_work	archived	2023-06-02
+https://web.archive.org/web/20230608074515/https://wiki.haskell.org/IO_at_work	archived	2023-06-08
+https://web.archive.org/web/20230610043214/http://wiki.haskell.org/IO_in_action	archived	2023-06-10
+https://web.archive.org/web/20230923001711/http://wiki.haskell.org/IO_then_abstraction	archived	2023-09-23
+https://web.archive.org/web/20231128185611/https://wiki.haskell.org/IO_at_work	archived	2023-11-28
+https://web.archive.org/web/20231206005033/https://wiki.haskell.org/IO_in_action	archived	2023-12-06
+https://web.archive.org/web/20231210224443/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2023-12-10
+https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2024-04-09
+https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_in_action	archived	2024-04-09
+https://web.archive.org/web/20240416104734/http://wiki.haskell.org/IO_at_work	archived	2024-04-16
+https://web.archive.org/web/20240430042947/https://wiki.haskell.org/IO_at_work	archived	2024-04-30
+https://web.archive.org/web/20240522043657/https://wiki.haskell.org/IO_in_action	archived	2024-05-22
+https://web.archive.org/web/20240526002201/https://wiki.haskell.org/IO_tutorials_timeline	archived	2024-05-26
+https://web.archive.org/web/20240614082447/http://wiki.haskell.org/IO_then_abstraction	archived	2024-06-14
+https://web.archive.org/web/20240617172950/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2024-06-17
+https://web.archive.org/web/20240617174248/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2024-06-17
+https://web.archive.org/web/20240624055553/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2024-06-24
+https://web.archive.org/web/20240914161346/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2024-09-14
+https://web.archive.org/web/20250112214730/https://wiki.haskell.org/IO_tutorials_timeline	archived	2025-01-12
+https://web.archive.org/web/20250204192957/https://wiki.haskell.org/IO_then_abstraction	archived	2025-02-04
+https://web.archive.org/web/20250729180344/https://wiki.haskell.org/IO_then_abstraction	archived	2025-07-29
+https://web.archive.org/web/20260422055652/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2026-04-22
+https://web.archive.org/web/20260508215043/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	archived	2026-05-08
+https://web.archive.org/web/20150930164633/https://wiki.haskell.org/Blog_articles/IO	archived	2015-09-30
+https://web.archive.org/web/20190716213305/https://wiki.haskell.org/Ru/IO_Inside	archived	2019-07-16
+https://web.archive.org/web/20190720210543/https://wiki.haskell.org/Ru/IO	archived	2019-07-20
+https://web.archive.org/web/20190921201437/https://wiki.haskell.org/Ru/IO_Inside	archived	2019-09-21
+https://web.archive.org/web/20191119010713/https://wiki.haskell.org/Ru/IO_Inside	archived	2019-11-19
+https://web.archive.org/web/20200806065327/http://wiki.haskell.org/Ru/IO	archived	2020-08-06
+https://web.archive.org/web/20210420221123/http://wiki.haskell.org/Ru/IO	archived	2021-04-20
+https://web.archive.org/web/20210517111739/https://wiki.haskell.org/Monada_de_IO	archived	2021-05-17
+https://web.archive.org/web/20210923031053/https://wiki.haskell.org/Ru/IO	archived	2021-09-23
+https://web.archive.org/web/20211128190719/https://wiki.haskell.org/Monada_de_IO	archived	2021-11-28
+https://web.archive.org/web/20220124232957/https://wiki.haskell.org/Iteratee_IO	archived	2022-01-24
+https://web.archive.org/web/20220630003756/http://wiki.haskell.org/Ru/IO	archived	2022-06-30
+https://web.archive.org/web/20220930195116/https://wiki.haskell.org/Ru/IO	archived	2022-09-30
+https://web.archive.org/web/20221007160332/https://wiki.haskell.org/Ru/IO	archived	2022-10-07
+https://web.archive.org/web/20230130155741/https://wiki.haskell.org/Monada_de_IO	archived	2023-01-30
+https://web.archive.org/web/20230207022034/http://wiki.haskell.org/Namespaced_IO_Layer	archived	2023-02-07
+https://web.archive.org/web/20230320122529/https://wiki.haskell.org/Iteratee_IO	archived	2023-03-20
+https://web.archive.org/web/20230329122952/http://wiki.haskell.org/Ru/IO	archived	2023-03-29
+https://web.archive.org/web/20230926145654/http://wiki.haskell.org/Ru/IO	archived	2023-09-26
+https://web.archive.org/web/20231130045113/http://wiki.haskell.org/Iteratee_IO	archived	2023-11-30
+https://web.archive.org/web/20240423164724/http://wiki.haskell.org/Ru/IO	archived	2024-04-23
+https://web.archive.org/web/20240526001150/http://wiki.haskell.org/Namespaced_IO_Layer	archived	2024-05-26
+https://web.archive.org/web/20240901090248/https://wiki.haskell.org/Ru/IO_Inside	archived	2024-09-01
+https://web.archive.org/web/20240918004026/http://wiki.haskell.org/Ru/IO	archived	2024-09-18
+https://web.archive.org/web/20240930030305/https://wiki.haskell.org/Ru/IO_Inside	archived	2024-09-30
+https://web.archive.org/web/20241116120736/https://wiki.haskell.org/Ru/IO_Inside	archived	2024-11-16
+https://web.archive.org/web/20241119081713/https://wiki.haskell.org/Ru/IO_Inside	archived	2024-11-19
+https://web.archive.org/web/20250114034122/http://wiki.haskell.org/Namespaced_IO_Layer	archived	2025-01-14
+https://web.archive.org/web/20250208085106/http://wiki.haskell.org/Ru/IO	archived	2025-02-08
+https://web.archive.org/web/20150925151901/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2015-09-25
+https://web.archive.org/web/20150925154742/https://wiki.haskell.org/Binary_IO	archived	2015-09-25
+https://web.archive.org/web/20160430095204/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2016-04-30
+https://web.archive.org/web/20160506004753/https://wiki.haskell.org/Binary_IO	archived	2016-05-06
+https://web.archive.org/web/20170714155745/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2017-07-14
+https://web.archive.org/web/20180126080636/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2018-01-26
+https://web.archive.org/web/20180215154331/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2018-02-15
+https://web.archive.org/web/20190311120912/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2019-03-11
+https://web.archive.org/web/20190516145501/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2019-05-16
+https://web.archive.org/web/20190722151728/https://wiki.haskell.org/Binary_IO	archived	2019-07-22
+https://web.archive.org/web/20190919030730/https://wiki.haskell.org/Binary_IO	archived	2019-09-19
+https://web.archive.org/web/20191017070011/https://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	archived	2019-10-17
+https://web.archive.org/web/20191114021559/https://wiki.haskell.org/Binary_IO	archived	2019-11-14
+https://web.archive.org/web/20191114124724/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO	archived	2019-11-14
+https://web.archive.org/web/20191121224037/https://wiki.haskell.org/Introduction_to_IO_actions	archived	2019-11-21
+https://web.archive.org/web/20200804173504/https://wiki.haskell.org/Introduction_to_IO_actions	archived	2020-08-04
+https://web.archive.org/web/20210117200455/https://wiki.haskell.org/Introduction_to_IO_actions	archived	2021-01-17
+https://web.archive.org/web/20210129131505/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2021-01-29
+https://web.archive.org/web/20210413224257/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2021-04-13
+https://web.archive.org/web/20210518061049/https://wiki.haskell.org/IO,_partible-style	archived	2021-05-18
+https://web.archive.org/web/20210726131530/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO	archived	2021-07-26
+https://web.archive.org/web/20210918083424/http://wiki.haskell.org/IO,_partible-style	archived	2021-09-18
+https://web.archive.org/web/20211022040926/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2021-10-22
+https://web.archive.org/web/20211025151250/https://wiki.haskell.org/Introduction_to_IO_actions	archived	2021-10-25
+https://web.archive.org/web/20211128192732/https://wiki.haskell.org/IO,_partible-style	archived	2021-11-28
+https://web.archive.org/web/20220129034202/http://wiki.haskell.org/Binary_IO	archived	2022-01-29
+https://web.archive.org/web/20220419225309/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2022-04-19
+https://web.archive.org/web/20221003115054/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2022-10-03
+https://web.archive.org/web/20221128180423/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2022-11-28
+https://web.archive.org/web/20221209002634/https://wiki.haskell.org/IO,_partible-style	archived	2022-12-09
+https://web.archive.org/web/20230130135300/http://wiki.haskell.org/Binary_IO	archived	2023-01-30
+https://web.archive.org/web/20230131105701/https://wiki.haskell.org/Introduction_to_IO_actions	archived	2023-01-31
+https://web.archive.org/web/20230329195342/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2023-03-29
+https://web.archive.org/web/20230424000811/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2023-04-24
+https://web.archive.org/web/20231128200835/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2023-11-28
+https://web.archive.org/web/20231130042656/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	archived	2023-11-30
+https://web.archive.org/web/20231130044750/http://wiki.haskell.org/Introduction_to_IO_actions	archived	2023-11-30
+https://web.archive.org/web/20231130045358/http://wiki.haskell.org/IO,_partible-style	archived	2023-11-30
+https://web.archive.org/web/20240221071930/http://wiki.haskell.org/Binary_IO	archived	2024-02-21
+https://web.archive.org/web/20240412201536/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2024-04-12
+https://web.archive.org/web/20240617101154/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	archived	2024-06-17
+https://web.archive.org/web/20240810073355/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2024-08-10
+https://web.archive.org/web/20240909211454/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2024-09-09
+https://web.archive.org/web/20240914124736/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2024-09-14
+https://web.archive.org/web/20240918005149/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2024-09-18
+https://web.archive.org/web/20250215160317/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2025-02-15
+https://web.archive.org/web/20250416035606/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2025-04-16
+https://web.archive.org/web/20250426222641/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2025-04-26
+https://web.archive.org/web/20250518221617/https://wiki.haskell.org/Binary_IO	archived	2025-05-18
+https://web.archive.org/web/20251104220709/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2025-11-04
+https://web.archive.org/web/20251228075742/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	archived	2025-12-28
+https://web.archive.org/web/20150204182956/https://wiki.haskell.org/Monad/ST	archived	2015-02-04
+https://web.archive.org/web/20150228073124/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-02-28
+https://web.archive.org/web/20150303104409/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-03-03
+https://web.archive.org/web/20150324011857/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-03-24
+https://web.archive.org/web/20150402222642/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-04-02
+https://web.archive.org/web/20150423221452/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-04-23
+https://web.archive.org/web/20150730202922/https://wiki.haskell.org/Monad/ST	archived	2015-07-30
+https://web.archive.org/web/20150905114947/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-09-05
+https://web.archive.org/web/20150905130636/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2015-09-05
+https://web.archive.org/web/20150918224839/https://wiki.haskell.org/Monad/ST	archived	2015-09-18
+https://web.archive.org/web/20150925152908/https://wiki.haskell.org/State_Monad	archived	2015-09-25
+https://web.archive.org/web/20151021023727/http://wiki.haskell.org/Monad_tutorials_timeline	archived	2015-10-21
+https://web.archive.org/web/20160304215136/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2016-03-04
+https://web.archive.org/web/20160309222649/https://wiki.haskell.org/State_Monad	archived	2016-03-09
+https://web.archive.org/web/20160311021301/https://wiki.haskell.org/Monad/ST	archived	2016-03-11
+https://web.archive.org/web/20160321222857/https://wiki.haskell.org/Monad/ST	archived	2016-03-21
+https://web.archive.org/web/20160429145152/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2016-04-29
+https://web.archive.org/web/20160914015455/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2016-09-14
+https://web.archive.org/web/20160914043736/https://wiki.haskell.org/Monad/ST	archived	2016-09-14
+https://web.archive.org/web/20161115191757/https://wiki.haskell.org/Monad/ST	archived	2016-11-15
+https://web.archive.org/web/20170115011804/https://wiki.haskell.org/State_Monad	archived	2017-01-15
+https://web.archive.org/web/20170125125356/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2017-01-25
+https://web.archive.org/web/20170407121107/https://wiki.haskell.org/Monad/ST	archived	2017-04-07
+https://web.archive.org/web/20170502044842/https://wiki.haskell.org/State_Monad	archived	2017-05-02
+https://web.archive.org/web/20170524151750/https://wiki.haskell.org/State_Monad	archived	2017-05-24
+https://web.archive.org/web/20170601110824/https://wiki.haskell.org/State_Monad	archived	2017-06-01
+https://web.archive.org/web/20170605104948/https://wiki.haskell.org/State_Monad	archived	2017-06-05
+https://web.archive.org/web/20170701190037/https://wiki.haskell.org/State_Monad	archived	2017-07-01
+https://web.archive.org/web/20170905030047/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2017-09-05
+https://web.archive.org/web/20170905110118/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2017-09-05
+https://web.archive.org/web/20171003003516/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2017-10-03
+https://web.archive.org/web/20171012070950/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2017-10-12
+https://web.archive.org/web/20171012075041/https://wiki.haskell.org/Monad/ST	archived	2017-10-12
+https://web.archive.org/web/20171214235050/http://wiki.haskell.org:80/Monad_tutorials_timeline	archived	2017-12-14
+https://web.archive.org/web/20171219021937/http://wiki.haskell.org:80/Monad/ST	archived	2017-12-19
+https://web.archive.org/web/20180225102016/http://wiki.haskell.org:80/Monad_tutorials_timeline	archived	2018-02-25
+https://web.archive.org/web/20181116053957/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2018-11-16
+https://web.archive.org/web/20181202135716/https://wiki.haskell.org/Monad/ST	archived	2018-12-02
+https://web.archive.org/web/20190220121612/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-02-20
+https://web.archive.org/web/20190220123135/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-02-20
+https://web.archive.org/web/20190220124647/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-02-20
+https://web.archive.org/web/20190412221913/https://wiki.haskell.org/Monad/ST	archived	2019-04-12
+https://web.archive.org/web/20190429083526/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-04-29
+https://web.archive.org/web/20190518145113/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-05-18
+https://web.archive.org/web/20190721204959/https://wiki.haskell.org/State_Monad	archived	2019-07-21
+https://web.archive.org/web/20190822152248/https://wiki.haskell.org/Monad/ST	archived	2019-08-22
+https://web.archive.org/web/20190826102434/https://wiki.haskell.org/Monad/ST	archived	2019-08-26
+https://web.archive.org/web/20190922113909/http://wiki.haskell.org/State_Monad	archived	2019-09-22
+https://web.archive.org/web/20190922232244/https://wiki.haskell.org/State_Monad	archived	2019-09-22
+https://web.archive.org/web/20191014084347/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-10-14
+https://web.archive.org/web/20191014121537/https://wiki.haskell.org/Monad/ST	archived	2019-10-14
+https://web.archive.org/web/20191015194547/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-10-15
+https://web.archive.org/web/20191016164650/https://wiki.haskell.org/State_Monad	archived	2019-10-16
+https://web.archive.org/web/20191031093447/http://wiki.haskell.org:80/Monad/ST	archived	2019-10-31
+https://web.archive.org/web/20191031093741/http://wiki.haskell.org:80/Monad_tutorials_timeline	archived	2019-10-31
+https://web.archive.org/web/20191114021316/https://wiki.haskell.org/State_Monad	archived	2019-11-14
+https://web.archive.org/web/20191210070638/https://wiki.haskell.org/State_Monad	archived	2019-12-10
+https://web.archive.org/web/20191213234349/http://wiki.haskell.org/Monad_tutorials_timeline	archived	2019-12-13
+https://web.archive.org/web/20191230153642/http://wiki.haskell.org:80/Monad_tutorials_timeline	archived	2019-12-30
+https://web.archive.org/web/20200105131731/https://wiki.haskell.org/State_Monad	archived	2020-01-05
+https://web.archive.org/web/20200110040658/https://wiki.haskell.org/State_Monad	archived	2020-01-10
+https://web.archive.org/web/20200127143453/http://wiki.haskell.org:80/Monad/ST	archived	2020-01-27
+https://web.archive.org/web/20200131184140/https://wiki.haskell.org/Monad/ST	archived	2020-01-31
+https://web.archive.org/web/20200312090857/https://wiki.haskell.org/Monad/ST	archived	2020-03-12
+https://web.archive.org/web/20200506232514/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2020-05-06
+https://web.archive.org/web/20200622113654/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2020-06-22
+https://web.archive.org/web/20200810195933/https://wiki.haskell.org/Monad/ST	archived	2020-08-10
+https://web.archive.org/web/20200821103839/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2020-08-21
+https://web.archive.org/web/20200831202539/https://wiki.haskell.org/Monad/ST	archived	2020-08-31
+https://web.archive.org/web/20201022080256/https://wiki.haskell.org/Monad/ST	archived	2020-10-22
+https://web.archive.org/web/20201028115412/https://wiki.haskell.org/State_Monad	archived	2020-10-28
+https://web.archive.org/web/20201106052541/https://wiki.haskell.org/State_Monad	archived	2020-11-06
+https://web.archive.org/web/20201107234832/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2020-11-07
+https://web.archive.org/web/20201109041130/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2020-11-09
+https://web.archive.org/web/20201112010941/https://wiki.haskell.org/State_Monad	archived	2020-11-12
+https://web.archive.org/web/20201112221755/https://wiki.haskell.org/State_Monad	archived	2020-11-12
+https://web.archive.org/web/20201122030538/http://wiki.haskell.org/State_Monad	archived	2020-11-22
+https://web.archive.org/web/20201122083145/http://wiki.haskell.org/State_Monad	archived	2020-11-22
+https://web.archive.org/web/20201122104544/http://wiki.haskell.org/State_Monad	archived	2020-11-22
+https://web.archive.org/web/20201122140522/http://wiki.haskell.org/State_Monad	archived	2020-11-22
+https://web.archive.org/web/20201122150404/http://wiki.haskell.org/State_Monad	archived	2020-11-22
+https://web.archive.org/web/20201123025622/http://wiki.haskell.org/State_Monad	archived	2020-11-23
+https://web.archive.org/web/20201125020857/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2020-11-25
+https://web.archive.org/web/20201129070147/https://wiki.haskell.org/Monad/ST	archived	2020-11-29
+https://web.archive.org/web/20210209175331/https://wiki.haskell.org/State_Monad	archived	2021-02-09
+https://web.archive.org/web/20210308110739/https://wiki.haskell.org/State_Monad	archived	2021-03-08
+https://web.archive.org/web/20210321102857/https://wiki.haskell.org/Monad/ST	archived	2021-03-21
+https://web.archive.org/web/20210411135357/https://wiki.haskell.org/Monad/ST	archived	2021-04-11
+https://web.archive.org/web/20210413155017/https://wiki.haskell.org/State_Monad	archived	2021-04-13
+https://web.archive.org/web/20210417181350/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2021-04-17
+https://web.archive.org/web/20210423172947/https://wiki.haskell.org/Monad/ST	archived	2021-04-23
+https://web.archive.org/web/20210513160330/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2021-05-13
+https://web.archive.org/web/20210719214415/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2021-07-19
+https://web.archive.org/web/20210719214532/https://wiki.haskell.org/Monad/ST	archived	2021-07-19
+https://web.archive.org/web/20210724225719/https://wiki.haskell.org/State_Monad	archived	2021-07-24
+https://web.archive.org/web/20210725200913/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2021-07-25
+https://web.archive.org/web/20210801214531/https://wiki.haskell.org/Monad/ST	archived	2021-08-01
+https://web.archive.org/web/20210806235649/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2021-08-06
+https://web.archive.org/web/20210806235701/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2021-08-06
+https://web.archive.org/web/20210807135220/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2021-08-07
+https://web.archive.org/web/20211006223611/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2021-10-06
+https://web.archive.org/web/20211203192900/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2021-12-03
+https://web.archive.org/web/20211210183348/https://wiki.haskell.org/State_Monad	archived	2021-12-10
+https://web.archive.org/web/20211230031902/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2021-12-30
+https://web.archive.org/web/20220119034830/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2022-01-19
+https://web.archive.org/web/20220209195949/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-02-09
+https://web.archive.org/web/20220226075443/https://wiki.haskell.org/State_Monad	archived	2022-02-26
+https://web.archive.org/web/20220402223500/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-04-02
+https://web.archive.org/web/20220402223501/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-04-02
+https://web.archive.org/web/20220427043054/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-04-27
+https://web.archive.org/web/20220705203444/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-07-05
+https://web.archive.org/web/20220706232553/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-07-06
+https://web.archive.org/web/20220808074701/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-08-08
+https://web.archive.org/web/20220813111214/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-08-13
+https://web.archive.org/web/20220816160210/http://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-08-16
+https://web.archive.org/web/20220816223348/http://wiki.haskell.org/Monad/ST	archived	2022-08-16
+https://web.archive.org/web/20220817045139/https://wiki.haskell.org/Monad/ST	archived	2022-08-17
+https://web.archive.org/web/20220817094446/https://wiki.haskell.org/State_Monad	archived	2022-08-17
+https://web.archive.org/web/20220818044801/http://wiki.haskell.org/Monad/ST	archived	2022-08-18
+https://web.archive.org/web/20220920022142/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-09-20
+https://web.archive.org/web/20220923112004/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-09-23
+https://web.archive.org/web/20220924135940/https://wiki.haskell.org/State_Monad	archived	2022-09-24
+https://web.archive.org/web/20221014060357/https://wiki.haskell.org/Monad/ST	archived	2022-10-14
+https://web.archive.org/web/20221102190113/https://wiki.haskell.org/State_Monad	archived	2022-11-02
+https://web.archive.org/web/20221121155247/http://wiki.haskell.org/State_Monad	archived	2022-11-21
+https://web.archive.org/web/20221204204207/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-12-04
+https://web.archive.org/web/20221205105055/https://wiki.haskell.org/Monad/ST	archived	2022-12-05
+https://web.archive.org/web/20221205143851/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2022-12-05
+https://web.archive.org/web/20221225031641/https://wiki.haskell.org/State_Monad	archived	2022-12-25
+https://web.archive.org/web/20221229045910/https://wiki.haskell.org/Monad/ST	archived	2022-12-29
+https://web.archive.org/web/20230107190101/https://wiki.haskell.org/State_Monad	archived	2023-01-07
+https://web.archive.org/web/20230108173150/https://wiki.haskell.org/State_Monad	archived	2023-01-08
+https://web.archive.org/web/20230117195630/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-01-17
+https://web.archive.org/web/20230201155933/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-02-01
+https://web.archive.org/web/20230208094217/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-02-08
+https://web.archive.org/web/20230208173317/https://wiki.haskell.org/State_Monad	archived	2023-02-08
+https://web.archive.org/web/20230208174951/https://wiki.haskell.org/State_Monad	archived	2023-02-08
+https://web.archive.org/web/20230307223252/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-03-07
+https://web.archive.org/web/20230316150511/https://wiki.haskell.org/State_Monad	archived	2023-03-16
+https://web.archive.org/web/20230318105854/https://wiki.haskell.org/Monad/ST	archived	2023-03-18
+https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-03-20
+https://web.archive.org/web/20230325100548/https://wiki.haskell.org/State_Monad	archived	2023-03-25
+https://web.archive.org/web/20230327061824/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2023-03-27
+https://web.archive.org/web/20230329101738/http://wiki.haskell.org/Monad/ST	archived	2023-03-29
+https://web.archive.org/web/20230425110604/https://wiki.haskell.org/Monad/ST	archived	2023-04-25
+https://web.archive.org/web/20230529230319/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2023-05-29
+https://web.archive.org/web/20230602020941/https://wiki.haskell.org/Monad/ST	archived	2023-06-02
+https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-06-17
+https://web.archive.org/web/20230701101220/https://wiki.haskell.org/State_Monad	archived	2023-07-01
+https://web.archive.org/web/20230707210430/https://wiki.haskell.org/State_Monad	archived	2023-07-07
+https://web.archive.org/web/20230729195220/https://wiki.haskell.org/State_Monad	archived	2023-07-29
+https://web.archive.org/web/20230815131742/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-08-15
+https://web.archive.org/web/20230927220711/https://wiki.haskell.org/Monad/ST	archived	2023-09-27
+https://web.archive.org/web/20230928081452/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-09-28
+https://web.archive.org/web/20231001111659/https://wiki.haskell.org/State_Monad	archived	2023-10-01
+https://web.archive.org/web/20231119101841/https://wiki.haskell.org/State_Monad	archived	2023-11-19
+https://web.archive.org/web/20231130162114/https://wiki.haskell.org/State_Monad	archived	2023-11-30
+https://web.archive.org/web/20231204011957/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2023-12-04
+https://web.archive.org/web/20231207231753/https://wiki.haskell.org/Monad/ST	archived	2023-12-07
+https://web.archive.org/web/20231212173023/https://wiki.haskell.org/State_Monad	archived	2023-12-12
+https://web.archive.org/web/20231216235224/https://wiki.haskell.org/State_Monad	archived	2023-12-16
+https://web.archive.org/web/20240106222510/https://wiki.haskell.org/State_Monad	archived	2024-01-06
+https://web.archive.org/web/20240110104112/https://wiki.haskell.org/State_Monad	archived	2024-01-10
+https://web.archive.org/web/20240118015414/https://wiki.haskell.org/State_Monad	archived	2024-01-18
+https://web.archive.org/web/20240122145808/https://wiki.haskell.org/State_Monad	archived	2024-01-22
+https://web.archive.org/web/20240204162359/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-02-04
+https://web.archive.org/web/20240212205613/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-02-12
+https://web.archive.org/web/20240220232559/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-02-20
+https://web.archive.org/web/20240225220327/https://wiki.haskell.org/Monad/ST	archived	2024-02-25
+https://web.archive.org/web/20240228160846/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2024-02-28
+https://web.archive.org/web/20240229110215/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-02-29
+https://web.archive.org/web/20240405084146/https://wiki.haskell.org/Monad/ST	archived	2024-04-05
+https://web.archive.org/web/20240409080553/https://wiki.haskell.org/State_Monad	archived	2024-04-09
+https://web.archive.org/web/20240415081208/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2024-04-15
+https://web.archive.org/web/20240416195936/https://wiki.haskell.org/State_Monad	archived	2024-04-16
+https://web.archive.org/web/20240417054255/https://wiki.haskell.org/State_Monad	archived	2024-04-17
+https://web.archive.org/web/20240505000826/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-05-05
+https://web.archive.org/web/20240512050616/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-05-12
+https://web.archive.org/web/20240512085831/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-05-12
+https://web.archive.org/web/20240529212829/http://wiki.haskell.org/Monad/ST	archived	2024-05-29
+https://web.archive.org/web/20240612024012/https://wiki.haskell.org/State_Monad	archived	2024-06-12
+https://web.archive.org/web/20240612031206/https://wiki.haskell.org/Monad/ST	archived	2024-06-12
+https://web.archive.org/web/20240621075507/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-06-21
+https://web.archive.org/web/20240624040000/https://wiki.haskell.org/Monad/ST	archived	2024-06-24
+https://web.archive.org/web/20240627150607/https://wiki.haskell.org/Monad/ST	archived	2024-06-27
+https://web.archive.org/web/20240628193838/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-06-28
+https://web.archive.org/web/20240718110854/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-07-18
+https://web.archive.org/web/20240813011629/https://wiki.haskell.org/State_Monad	archived	2024-08-13
+https://web.archive.org/web/20240825125728/https://wiki.haskell.org/State_Monad	archived	2024-08-25
+https://web.archive.org/web/20240901090247/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-09-01
+https://web.archive.org/web/20240908162843/https://wiki.haskell.org/Monad/ST	archived	2024-09-08
+https://web.archive.org/web/20240915102644/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-09-15
+https://web.archive.org/web/20240917134548/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-09-17
+https://web.archive.org/web/20240930030209/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-09-30
+https://web.archive.org/web/20241004042322/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2024-10-04
+https://web.archive.org/web/20241015154102/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-10-15
+https://web.archive.org/web/20241016073952/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-10-16
+https://web.archive.org/web/20241107232854/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-11-07
+https://web.archive.org/web/20241116115644/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-11-16
+https://web.archive.org/web/20241118211900/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-11-18
+https://web.archive.org/web/20241119021941/https://wiki.haskell.org/Monad/ST	archived	2024-11-19
+https://web.archive.org/web/20241128025856/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-11-28
+https://web.archive.org/web/20241202134605/https://wiki.haskell.org/Monad/ST	archived	2024-12-02
+https://web.archive.org/web/20241204061331/http://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-12-04
+https://web.archive.org/web/20241212012335/https://wiki.haskell.org/Monad/ST	archived	2024-12-12
+https://web.archive.org/web/20241212122730/https://wiki.haskell.org/Monad/ST	archived	2024-12-12
+https://web.archive.org/web/20241214105335/https://wiki.haskell.org/Monad/ST	archived	2024-12-14
+https://web.archive.org/web/20241216112655/https://wiki.haskell.org/State_Monad	archived	2024-12-16
+https://web.archive.org/web/20241221131924/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-12-21
+https://web.archive.org/web/20241227014048/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2024-12-27
+https://web.archive.org/web/20250111092634/https://wiki.haskell.org/State_Monad	archived	2025-01-11
+https://web.archive.org/web/20250112211031/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-01-12
+https://web.archive.org/web/20250114205122/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-01-14
+https://web.archive.org/web/20250115175019/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-01-15
+https://web.archive.org/web/20250118025440/https://wiki.haskell.org/State_Monad	archived	2025-01-18
+https://web.archive.org/web/20250118042437/https://wiki.haskell.org/Monad/ST	archived	2025-01-18
+https://web.archive.org/web/20250126180623/https://wiki.haskell.org/State_Monad	archived	2025-01-26
+https://web.archive.org/web/20250214021552/https://wiki.haskell.org/Monad/ST	archived	2025-02-14
+https://web.archive.org/web/20250222085420/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-02-22
+https://web.archive.org/web/20250222213525/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-02-22
+https://web.archive.org/web/20250223110407/https://wiki.haskell.org/Monad/ST	archived	2025-02-23
+https://web.archive.org/web/20250320053408/https://wiki.haskell.org/Monad/ST	archived	2025-03-20
+https://web.archive.org/web/20250320230309/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-03-20
+https://web.archive.org/web/20250323001932/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-03-23
+https://web.archive.org/web/20250327005045/https://wiki.haskell.org/Monad/ST	archived	2025-03-27
+https://web.archive.org/web/20250327005308/http://wiki.haskell.org/Monad/ST	archived	2025-03-27
+https://web.archive.org/web/20250329180029/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-03-29
+https://web.archive.org/web/20250330165009/https://wiki.haskell.org/Monad/ST	archived	2025-03-30
+https://web.archive.org/web/20250506235342/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-05-06
+https://web.archive.org/web/20250607040646/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-06-07
+https://web.archive.org/web/20250725154238/https://wiki.haskell.org/State_Monad	archived	2025-07-25
+https://web.archive.org/web/20250801050944/https://wiki.haskell.org/State_Monad	archived	2025-08-01
+https://web.archive.org/web/20250803035732/https://wiki.haskell.org/Monad/ST	archived	2025-08-03
+https://web.archive.org/web/20250813212242/https://wiki.haskell.org/State_Monad	archived	2025-08-13
+https://web.archive.org/web/20250818235023/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-08-18
+https://web.archive.org/web/20250818235426/https://wiki.haskell.org/Monad/ST	archived	2025-08-18
+https://web.archive.org/web/20250902004004/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-09-02
+https://web.archive.org/web/20250905232409/https://wiki.haskell.org/Monad/ST	archived	2025-09-05
+https://web.archive.org/web/20251008192446/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-10-08
+https://web.archive.org/web/20251008192622/https://wiki.haskell.org/State_Monad	archived	2025-10-08
+https://web.archive.org/web/20251108025117/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-11-08
+https://web.archive.org/web/20251115183823/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-11-15
+https://web.archive.org/web/20251116194856/https://wiki.haskell.org/Monad/ST	archived	2025-11-16
+https://web.archive.org/web/20251124011851/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2025-11-24
+https://web.archive.org/web/20251210055534/https://wiki.haskell.org/State_Monad	archived	2025-12-10
+https://web.archive.org/web/20251226155125/https://wiki.haskell.org/State_Monad	archived	2025-12-26
+https://web.archive.org/web/20260106062956/https://wiki.haskell.org/State_Monad	archived	2026-01-06
+https://web.archive.org/web/20260123032054/https://wiki.haskell.org/State_Monad	archived	2026-01-23
+https://web.archive.org/web/20260213204042/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-02-13
+https://web.archive.org/web/20260215220721/https://wiki.haskell.org/Monad/ST	archived	2026-02-15
+https://web.archive.org/web/20260425011801/https://wiki.haskell.org/Monad/ST	archived	2026-04-25
+https://web.archive.org/web/20260425021012/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-04-25
+https://web.archive.org/web/20260430043539/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-04-30
+https://web.archive.org/web/20260430124759/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-04-30
+https://web.archive.org/web/20260430130821/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-04-30
+https://web.archive.org/web/20260430195713/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-04-30
+https://web.archive.org/web/20260501024111/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-05-01
+https://web.archive.org/web/20260501075831/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-05-01
+https://web.archive.org/web/20260502134112/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-05-02
+https://web.archive.org/web/20260505075111/https://wiki.haskell.org/Monad/ST	archived	2026-05-05
+https://web.archive.org/web/20260506052457/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-05-06
+https://web.archive.org/web/20260612003752/https://wiki.haskell.org/Monad_tutorials_timeline	archived	2026-06-12
+https://web.archive.org/web/20260706174239/https://wiki.haskell.org/State_Monad	archived	2026-07-06
 https://wiki.haskell.org/index.php?title=Monad/ST	N/A
 https://wiki.haskell.org/index.php?title=Monad_Transformers_Tutorial	N/A
 https://wiki.haskell.org/index.php?title=Monad_tutorials_timeline	N/A
 https://wiki.haskell.org/index.php?title=State_Monad	N/A
-https://web.archive.org/web/20150915080654/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20150915121550/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
-https://web.archive.org/web/20170924213752/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20171103224045/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20180220054150/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20180310124407/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20180422071532/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20180620175608/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20180822161334/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20181023094126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20190329225126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20190720211526/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20190923083205/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20191115085647/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
-https://web.archive.org/web/20191213092020/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20200806234733/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20200928003006/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
-https://web.archive.org/web/20200928231805/http://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20210411052555/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20210729103151/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20220529032255/http://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20220924173634/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20221005051344/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
-https://web.archive.org/web/20230203144931/http://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20230529162942/http://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20230530175609/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20230601083637/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
-https://web.archive.org/web/20230922225212/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20240224203735/http://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20240520212043/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
-https://web.archive.org/web/20240520220342/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20240614092725/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
-https://web.archive.org/web/20241119195214/https://wiki.haskell.org/Ru/Monad	N/A
-https://web.archive.org/web/20241204000308/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20150915080654/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2015-09-15
+https://web.archive.org/web/20150915121550/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	archived	2015-09-15
+https://web.archive.org/web/20170924213752/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2017-09-24
+https://web.archive.org/web/20171103224045/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2017-11-03
+https://web.archive.org/web/20180220054150/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2018-02-20
+https://web.archive.org/web/20180310124407/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2018-03-10
+https://web.archive.org/web/20180422071532/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2018-04-22
+https://web.archive.org/web/20180620175608/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2018-06-20
+https://web.archive.org/web/20180822161334/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2018-08-22
+https://web.archive.org/web/20181023094126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2018-10-23
+https://web.archive.org/web/20190329225126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2019-03-29
+https://web.archive.org/web/20190720211526/https://wiki.haskell.org/Ru/Monad	archived	2019-07-20
+https://web.archive.org/web/20190923083205/https://wiki.haskell.org/Ru/Monad	archived	2019-09-23
+https://web.archive.org/web/20191115085647/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	archived	2019-11-15
+https://web.archive.org/web/20191213092020/https://wiki.haskell.org/Ru/Monad	archived	2019-12-13
+https://web.archive.org/web/20200806234733/https://wiki.haskell.org/Ru/Monad	archived	2020-08-06
+https://web.archive.org/web/20200928003006/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	archived	2020-09-28
+https://web.archive.org/web/20200928231805/http://wiki.haskell.org/Ru/Monad	archived	2020-09-28
+https://web.archive.org/web/20210411052555/https://wiki.haskell.org/Ru/Monad	archived	2021-04-11
+https://web.archive.org/web/20210729103151/https://wiki.haskell.org/Ru/Monad	archived	2021-07-29
+https://web.archive.org/web/20220529032255/http://wiki.haskell.org/Ru/Monad	archived	2022-05-29
+https://web.archive.org/web/20220924173634/https://wiki.haskell.org/Ru/Monad	archived	2022-09-24
+https://web.archive.org/web/20221005051344/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	archived	2022-10-05
+https://web.archive.org/web/20230203144931/http://wiki.haskell.org/Ru/Monad	archived	2023-02-03
+https://web.archive.org/web/20230529162942/http://wiki.haskell.org/Ru/Monad	archived	2023-05-29
+https://web.archive.org/web/20230530175609/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2023-05-30
+https://web.archive.org/web/20230601083637/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	archived	2023-06-01
+https://web.archive.org/web/20230922225212/https://wiki.haskell.org/Ru/Monad	archived	2023-09-22
+https://web.archive.org/web/20240224203735/http://wiki.haskell.org/Ru/Monad	archived	2024-02-24
+https://web.archive.org/web/20240520212043/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	archived	2024-05-20
+https://web.archive.org/web/20240520220342/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2024-05-20
+https://web.archive.org/web/20240614092725/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2024-06-14
+https://web.archive.org/web/20241119195214/https://wiki.haskell.org/Ru/Monad	archived	2024-11-19
+https://web.archive.org/web/20241204000308/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	archived	2024-12-04
 https://wiki.haskell.org/index.php?title=Ce_sunt_Monad_respectiv_MonadPlus_%3F	N/A
 https://wiki.haskell.org/index.php?title=Ce_sunt_monadele_din_clasa_Monad_%3F	N/A
 https://wiki.haskell.org/index.php?title=Ru/Monad	N/A
@@ -27022,7 +27022,7 @@ https://books.google.com/books/about/Functional_Programming_Using_F.html?id=Gbg4
 https://books.google.com/books/about/Pro_Asynchronous_Programming_with_NET.html?id=YpgQAwAAQBAJ	N/A
 https://dsyme.net/2009/10/10/f-tutorial-code-and-slides/	publication	2009-10-10
 https://en.wikipedia.org/wiki/MBrace	N/A
-https://web.archive.org/web/20110715231625/http://www.ctocorner.com/fsharp/book/default.aspx	N/A
+https://web.archive.org/web/20110715231625/http://www.ctocorner.com/fsharp/book/default.aspx	archived	2011-07-15
 https://www.diva-portal.org/smash/get/diva2%3A1502080/FULLTEXT01.pdf	N/A
 https://www.oreilly.com/library/view/programming-f-30/9781449326036/ch09.html	N/A
 https://www.reddit.com/r/fsharp/comments/1eqnvnv	N/A
@@ -28378,7 +28378,7 @@ https://ocw.tudelft.nl/course-lectures/functional-parsers-monads/	N/A
 https://cseweb.ucsd.edu/classes/wi12/cse230-a/lectures/parsers.html	N/A
 https://hackage.haskell.org/package/megaparsec	N/A
 https://repository.rit.edu/other/81/	N/A
-https://web.archive.org/web/20060807052639/http://www.cs.uu.nl/~daan/parsec.html	N/A
+https://web.archive.org/web/20060807052639/http://www.cs.uu.nl/~daan/parsec.html	archived	2006-08-07
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/monad_comprehensions.html	N/A
 https://www.researchgate.net/publication/220676813_Monadic_Encapsulation_of_Effects_A_Revised_Approach_Extended_Version	N/A
 https://www.researchgate.net/publication/282840927_How_functional_programming_mattered	N/A
@@ -28684,10 +28684,10 @@ https://hackage.haskell.org/package/hspec-1.12.0/docs/Test-Hspec.html	created	20
 https://hackage-content.haskell.org/package/ghc-9.8.4/docs/GHC-Data-IOEnv.html	N/A
 https://haskell.org/communities/05-2007/html/report.html	created	2007
 https://stackage.org/lts-24.39/package/io-machine-0.2.0.0	N/A
-https://web.archive.org/web/20160305000000/http://research.microsoft.com/users/simonpj/papers/ext-fp/	N/A
-https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/IO_inside	N/A
-https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_computation	N/A
-https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20160305000000/http://research.microsoft.com/users/simonpj/papers/ext-fp/	archived	2016-03-05
+https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/IO_inside	archived	2024-09-10
+https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_computation	archived	2024-09-10
+https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_containers	archived	2024-09-10
 https://www.reddit.com/r/haskell/comments/1dqmvt0/	N/A
 https://hackage.haskell.org/package/perf	N/A
 https://haskell.org/communities/05-2018/report.pdf	created	2018
@@ -29201,7 +29201,7 @@ https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/msc/bracker.pdf	N
 https://citeseerx.ist.psu.edu/document?doi=c55006a79e5c27698f22554c5814ebeb9dc2097c&repid=rep1&type=pdf	N/A
 https://www.mail.haskell.org/pipermail/haskell-cafe/2008-November/051006.html	created	2008
 https://hackage.haskell.org/package/transformers-eff/docs/Control-Effect.html	created	2018-03-22
-https://web.archive.org/web/20190509070638/http://book.realworldhaskell.org/read/	N/A
+https://web.archive.org/web/20190509070638/http://book.realworldhaskell.org/read/	archived	2019-05-09
 https://www.barnesandnoble.com/w/real-world-haskell-bryan-osullivan/1100157409	N/A
 https://pages.di.unipi.it/corradini/Didattica/AP-23/AP-2023-SYLLABUS.pdf	created	2023
 https://research-repository.st-andrews.ac.uk/handle/10023/28867	N/A
@@ -32521,7 +32521,7 @@ https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%2
 https://arxiv.org/abs/1701.07601	created	2017-01
 https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling-the-awkward-squad-powerpoint-presentation	N/A
 http://page.mi.fu-berlin.de/scravy/bridging-the-gap-between-haskell-and-java.pdf	N/A
-https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/	N/A
+https://web.archive.org/web/20180702051235/www.cse.unsw.edu.au/~chak/haskell/ffi/	archived	2018-07-02
 https://zenodo.org/records/7062933	publication	2022-09-08
 https://ucsd-cse230.github.io/fa23/lectures.html	N/A
 https://se.informatik.uni-tuebingen.de/publications/brachthaeuser20effects/	N/A
@@ -33223,7 +33223,7 @@ https://www.numdam.org/item/ITA_2004__38_4_375_0	publication	2004
 https://www.numdam.org/item/ITA_2003__37_4_273_0/	publication	2003
 https://numdam.org/articles/10.1051/ita%3A2003020/	publication	2003
 https://eudml.org/doc/246065	N/A
-https://web.archive.org/web/20221212192523/https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	N/A
+https://web.archive.org/web/20221212192523/https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	archived	2022-12-12
 https://dblp.org/rec/conf/haskell/ErkokL02	N/A
 https://dblp.org/rec/journals/ita/ErkokLA05	N/A
 https://dblp.org/db/journals/ita/ita36.html	N/A
