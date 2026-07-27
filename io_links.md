@@ -236,7 +236,7 @@ https://haskellforall.com/	N/A
 https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Io	N/A
 https://arxiv.org/abs/2401.08901	N/A
 https://arxiv.org/abs/2506.15424	N/A
-https://arxiv.org/abs/2502.15031	N/A
+https://arxiv.org/abs/2502.15031	publication	2025
 https://arxiv.org/abs/2604.15290	N/A
 https://research.chalmers.se/en/publication/540080	publication	2024
 https://research.chalmers.se/en/publication/155369	publication	2011
@@ -321,7 +321,7 @@ https://link.springer.com/content/pdf/10.1007/10722298_3.pdf	N/A
 https://link.springer.com/content/pdf/10.1007/978-3-642-32096-5_7	publication	2012
 https://arxiv.org/pdf/2506.15424	N/A
 https://link.springer.com/content/pdf/10.1007/978-3-030-44914-8_2.pdf	N/A
-https://arxiv.org/html/2502.15031v1	N/A
+https://arxiv.org/html/2502.15031v1	publication	2025
 https://link.springer.com/content/pdf/10.1007/s10990-011-9075-y.pdf	N/A
 https://link.springer.com/content/pdf/10.1007/978-3-642-11503-5_14	publication	2010
 https://raw.githubusercontent.com/nbenton/nbenton.github.io/master/monadsandeffectsfinal.pdf	N/A
@@ -2609,7 +2609,7 @@ https://stackoverflow.com/questions/78677160/when-forcing-of-strict-evoluation-i
 https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io	N/A
 https://www.youtube.com/watch?v=T26Yd-rURLs	N/A
 https://www.youtube.com/watch?v=Tzry-0K_hvQ	N/A
-https://arxiv.org/pdf/2502.15031	N/A
+https://arxiv.org/pdf/2502.15031	publication	2025
 https://arxiv.org/pdf/2504.10159	N/A
 https://arxiv.org/pdf/2506.12212	N/A
 https://arxiv.org/pdf/2511.05739	N/A
@@ -3263,7 +3263,7 @@ https://www.dcs.shef.ac.uk/intranet/teaching/public/modules/level2/com2108.html	
 https://cosc59.gitlab.io/	N/A
 https://arxiv.org/html/2603.24199	N/A
 https://inria.hal.science/hal-01025633/file/RR-8569.pdf	N/A
-https://arxiv.org/html/2502.15031v2	N/A
+https://arxiv.org/html/2502.15031v2	publication	2025
 https://dl.acm.org/doi/pdf/10.1145/2887747.2804311	publication	2016-01-28
 https://caiorss.github.io/Functional-Programming/papers/Typeclassopedia.pdf	N/A
 https://www.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/6.Monads.pdf	N/A
