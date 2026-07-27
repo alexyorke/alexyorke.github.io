@@ -1357,13 +1357,13 @@ https://www.yesodweb.com/blog/2014/05/exceptions-cont-monads	created	2014
 https://discourse.haskell.org/t/io-without-exceptions/9922	publication	2024-07-09
 https://medium.com/%40james_32022/does-your-monad-even-lift-f4d21921d509	N/A
 https://xebia.com/blog/the-power-of-io-in-haskell/	N/A
-https://hackage.haskell.org/package/transformers-0.6.0.4/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/transformers-0.6.0.4/docs/Control-Monad-Trans-Class.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/transformers-0.4.2.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/transformers-0.4.3.0/docs/Control-Monad-Trans-Class.html	N/A
-https://hackage.haskell.org/package/mtl-2.2.2/docs/Control-Monad-Reader.html	N/A
+https://hackage.haskell.org/package/transformers-0.6.0.4/docs/Control-Monad-IO-Class.html	created	2022-02-18
+https://hackage.haskell.org/package/transformers-0.6.0.4/docs/Control-Monad-Trans-Class.html	created	2022-02-18
+https://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Monad-IO-Class.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Monad-IO-Class.html	created	2018-09-23
+https://hackage.haskell.org/package/transformers-0.4.2.0/docs/Control-Monad-IO-Class.html	created	2014-11-10
+https://hackage.haskell.org/package/transformers-0.4.3.0/docs/Control-Monad-Trans-Class.html	created	2015-03-08
+https://hackage.haskell.org/package/mtl-2.2.2/docs/Control-Monad-Reader.html	created	2018-02-24
 https://www.reddit.com/r/haskell/comments/5wb5qw/how_do_you_guys_get_anything_done/	N/A
 https://www.reddit.com/r/haskell/comments/8xkak/ask_haskell_is_supermonad_a_bad_idea/	N/A
 https://academy.fpblock.com/blog/2018/04/async-exception-handling-haskell/	created	2018
@@ -1420,9 +1420,9 @@ https://www.stackage.org/package/lifted-base	N/A
 https://github.com/basvandijk/lifted-base	N/A
 https://www.stackage.org/package/unlift-stm	N/A
 https://www.stackage.org/package/unlift	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.0.1/docs/src/Control.Monad.IO.Unlift.html#MonadUnliftIO	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/src/UnliftIO.Internals.Async.html#concurrently	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.2.0.1/docs/src/Control.Monad.IO.Unlift.html#MonadUnliftIO	created	2020-03-02
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/src/UnliftIO.Internals.Async.html#concurrently	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs/Control-Monad-IO-Unlift.html	created	2023-02-06
 https://www.scribd.com/document/76960853/Transformers	N/A
 https://packages.debian.org/uk/sid/doc/libghc-unliftio-core-doc	N/A
 https://packages.debian.org/uk/sid/doc/libghc-unliftio-doc	N/A
@@ -2014,8 +2014,8 @@ https://gotchamana.github.io/wiwinwlh/	N/A
 https://smunix.github.io/dev.stephendiehl.com/hask/tutorial.pdf	N/A
 https://github.com/sdiehl/wiwinwlh	N/A
 https://www.simonandschuster.com/books/Learn-Haskell-by-Example/Philipp-Hagenlocher/Bookcamp/9781633438934	N/A
-https://hackage.haskell.org/package/base/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base/docs/System-IO.html	N/A
+https://hackage.haskell.org/package/base/docs/Control-Monad-IO-Class.html	created	2025-12-19
+https://hackage.haskell.org/package/base/docs/System-IO.html	created	2025-12-19
 https://www.manning.com/books/learn-haskell-by-example	N/A
 https://github.com/Apress/practical-haskell	N/A
 https://github.com/asarkar/book-of-monads	N/A
@@ -3108,9 +3108,9 @@ https://www.cis.upenn.edu/~cis1940/fall14/lectures/06-monoid-io.html	created	194
 https://www.seas.upenn.edu/~cis1940/spring15/hw/05-IO.pdf	created	1940
 https://crypto.stanford.edu/~blynn/haskell/butter.html	N/A
 https://crypto.stanford.edu/~blynn/haskell/veterans.html	N/A
-https://hackage.haskell.org/package/base/docs/GHC-IO.html	N/A
-https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Class.html	N/A
-https://hackage.haskell.org/package/unliftio-core/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/base/docs/GHC-IO.html	created	2025-12-19
+https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Class.html	created	2026-01-12
+https://hackage.haskell.org/package/unliftio-core/docs/Control-Monad-IO-Unlift.html	created	2023-02-06
 https://cw.fel.cvut.cz/b212/_media/courses/fup/lectures/lecture11_2020.pdf	created	2020
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-BufferedIO.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-Handle-Lock.html	N/A
@@ -3129,16 +3129,16 @@ https://homepages.inf.ed.ac.uk/gdp/publications/comb_cont_journal.pdf	N/A
 https://homepages.inf.ed.ac.uk/gdp/publications/Logic_Algebraic_Effects.pdf	N/A
 https://homepages.inf.ed.ac.uk/gdp/publications/CSP_Alg_Effects.pdf	N/A
 https://homepages.inf.ed.ac.uk/gdp/publications/sem_alg_ops.pdf	N/A
-https://hackage.haskell.org/package/base/docs/GHC-IO-Handle.html	N/A
-https://hackage.haskell.org/package/base/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base/docs/GHC-IO-Handle-Text.html	N/A
-https://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base/docs/System-IO-Error.html	N/A
-https://hackage.haskell.org/package/rio/docs/RIO.html	N/A
-https://hackage.haskell.org/package/polysemy/docs/Polysemy.html	N/A
-https://hackage.haskell.org/package/fused-effects/docs/Control-Algebra.html	N/A
-https://hackage.haskell.org/package/cleff/docs/Cleff.html	N/A
-https://hackage.haskell.org/package/capability/docs/Capability.html	N/A
+https://hackage.haskell.org/package/base/docs/GHC-IO-Handle.html	created	2025-12-19
+https://hackage.haskell.org/package/base/docs/GHC-IO-Unsafe.html	created	2025-12-19
+https://hackage.haskell.org/package/base/docs/GHC-IO-Handle-Text.html	created	2025-12-19
+https://hackage.haskell.org/package/base/docs/System-IO-Unsafe.html	created	2025-12-19
+https://hackage.haskell.org/package/base/docs/System-IO-Error.html	created	2025-12-19
+https://hackage.haskell.org/package/rio/docs/RIO.html	created	2026-07-03
+https://hackage.haskell.org/package/polysemy/docs/Polysemy.html	created	2024-06-03
+https://hackage.haskell.org/package/fused-effects/docs/Control-Algebra.html	created	2026-05-05
+https://hackage.haskell.org/package/cleff/docs/Cleff.html	created	2022-05-21
+https://hackage.haskell.org/package/capability/docs/Capability.html	created	2022-03-21
 https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/projection-operations	N/A
 https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.selectmany?view=net-10.0	N/A
 https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltext?view=net-10.0	N/A
@@ -3150,15 +3150,15 @@ https://dl.acm.org/doi/10.1145/2370776.2370801	publication	2012-09-19
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-Handle-FD.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-IO-Class.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO-Handle.html	N/A
-https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Reader.html	N/A
-https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Except.html	N/A
-https://hackage.haskell.org/package/mtl/docs/Control-Monad-State.html	N/A
-https://hackage.haskell.org/package/mtl/docs/Control-Monad-Except.html	N/A
-https://hackage.haskell.org/package/unliftio/docs/UnliftIO.html	N/A
-https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/bluefin/docs/Bluefin.html	N/A
-https://hackage.haskell.org/package/effectful/docs/Effectful-Concurrent.html	N/A
+https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Reader.html	created	2026-01-12
+https://hackage.haskell.org/package/transformers/docs/Control-Monad-Trans-Except.html	created	2026-01-12
+https://hackage.haskell.org/package/mtl/docs/Control-Monad-State.html	created	2025-12-08
+https://hackage.haskell.org/package/mtl/docs/Control-Monad-Except.html	created	2025-12-08
+https://hackage.haskell.org/package/unliftio/docs/UnliftIO.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Async.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Exception.html	created	2025-03-10
+https://hackage.haskell.org/package/bluefin/docs/Bluefin.html	created	2026-07-19
+https://hackage.haskell.org/package/effectful/docs/Effectful-Concurrent.html	created	2025-08-30
 https://www.stackage.org/package/monad-control	N/A
 https://www.stackage.org/package/conduit	N/A
 https://www.stackage.org/package/resourcet	N/A
@@ -3177,16 +3177,16 @@ https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf	N/A
 https://ncatlab.org/nlab/files/Grattage-CompilingFunctionalQPL.pdf	N/A
 https://people.cs.nott.ac.uk/psztxa/publ/qpl06.pdf	N/A
 https://arxiv.org/abs/2310.15735	N/A
-https://hackage.haskell.org/package/monad-control/docs/Control-Monad-Trans-Control.html	N/A
-https://hackage.haskell.org/package/lifted-base/docs/Control-Exception-Lifted.html	N/A
-https://hackage.haskell.org/package/lifted-async/docs/Control-Concurrent-Async-Lifted.html	N/A
-https://hackage.haskell.org/package/resourcet/docs/Control-Monad-Trans-Resource.html	N/A
-https://hackage.haskell.org/package/conduit/docs/Data-Conduit.html	N/A
-https://hackage.haskell.org/package/async/docs/Control-Concurrent-Async.html	N/A
-https://hackage.haskell.org/package/exceptions/docs/Control-Monad-Catch.html	N/A
-https://hackage.haskell.org/package/safe-exceptions/docs/Control-Exception-Safe.html	N/A
-https://hackage.haskell.org/package/lifted-base/docs/Control-Concurrent-Lifted.html	N/A
-https://hackage.haskell.org/package/resource-pool/docs/Data-Pool.html	N/A
+https://hackage.haskell.org/package/monad-control/docs/Control-Monad-Trans-Control.html	created	2021-08-02
+https://hackage.haskell.org/package/lifted-base/docs/Control-Exception-Lifted.html	created	2018-03-14
+https://hackage.haskell.org/package/lifted-async/docs/Control-Concurrent-Async-Lifted.html	created	2025-09-06
+https://hackage.haskell.org/package/resourcet/docs/Control-Monad-Trans-Resource.html	created	2022-10-23
+https://hackage.haskell.org/package/conduit/docs/Data-Conduit.html	created	2025-02-23
+https://hackage.haskell.org/package/async/docs/Control-Concurrent-Async.html	created	2026-01-07
+https://hackage.haskell.org/package/exceptions/docs/Control-Monad-Catch.html	created	2026-01-10
+https://hackage.haskell.org/package/safe-exceptions/docs/Control-Exception-Safe.html	created	2023-06-26
+https://hackage.haskell.org/package/lifted-base/docs/Control-Concurrent-Lifted.html	created	2018-03-14
+https://hackage.haskell.org/package/resource-pool/docs/Data-Pool.html	created	2026-07-08
 https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-7-monads/	N/A
 https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-8-monads-continued/	N/A
 https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-9-monad-transformers/	N/A
@@ -3215,10 +3215,10 @@ https://jfla.inria.fr/2007/actes/Presentation/tolmach.pdf	created	2007
 https://cseweb.ucsd.edu/classes/wi14/cse230-a/lectures/lec-transformers.html	N/A
 https://www.cs.yale.edu/homes/hudak/CS429F04/AFPLectureNotes.pdf	N/A
 https://www.cs.jhu.edu/~hager/Public/ICRAtutorial/HagerPeterson-FRP/icra02-tutorial-paper.pdf	N/A
-https://hackage.haskell.org/package/transformers-base-0.4.6/docs/Control-Monad-Base.html	N/A
-https://hackage.haskell.org/package/async-2.2.6/docs/Control-Concurrent-Async.html	N/A
-https://hackage.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Lift.html	N/A
-https://hackage.haskell.org/package/lifted-base-0.2.3.12/docs/Control-Exception-Lifted.html	N/A
+https://hackage.haskell.org/package/transformers-base-0.4.6/docs/Control-Monad-Base.html	created	2021-08-01
+https://hackage.haskell.org/package/async-2.2.6/docs/Control-Concurrent-Async.html	created	2026-01-07
+https://hackage.haskell.org/package/conduit-1.3.6.1/docs/Data-Conduit-Lift.html	created	2025-02-23
+https://hackage.haskell.org/package/lifted-base-0.2.3.12/docs/Control-Exception-Lifted.html	created	2018-03-14
 https://packages.ubuntu.com/source/noble/haskell-lifted-base	N/A
 https://packages.ubuntu.com/source/resolute/haskell-resourcet	N/A
 https://packages.ubuntu.com/source/stonking/armhf/haskell-monad-control	N/A
@@ -4426,48 +4426,48 @@ https://github.com/joshburgess/valiant	N/A
 https://github.com/haskell-effectful/effectful-core	N/A
 https://github.com/haskell-effectful/effectful-th	N/A
 https://github.com/haskell-effectful/genBench.sh	N/A
-https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispatch-Dynamic.html	N/A
-https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispatch-Static.html	N/A
+https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispatch-Dynamic.html	created	2022-07-13
+https://hackage.haskell.org/package/effectful-core-1.0.0.0/docs/Effectful-Dispatch-Static.html	created	2022-07-13
 https://hackage.haskell.org/package/effectful-th	N/A
 https://hackage.haskell.org/package/effectful-core	N/A
-https://hackage.haskell.org/package/bluefin-0.0.6.0/docs/Bluefin-Compound.html	N/A
-https://hackage.haskell.org/package/bluefin-0.0.4.3/docs/Bluefin-Compound.html	N/A
+https://hackage.haskell.org/package/bluefin-0.0.6.0/docs/Bluefin-Compound.html	created	2024-04-27
+https://hackage.haskell.org/package/bluefin-0.0.4.3/docs/Bluefin-Compound.html	created	2024-04-21
 https://hackage.haskell.org/package/bluefin-0.6.0.0	N/A
 https://hackage.haskell.org/package/cleff-plugin	N/A
-https://hackage.haskell.org/package/effectful-core-2.2.2.2/docs/Effectful-Dispatch-Dynamic.html#g:3	N/A
-https://hackage.haskell.org/package/effectful-core-2.2.2.2/docs/Effectful-Dispatch-Static.html	N/A
-https://hackage.haskell.org/package/bluefin-0.0.4.2/docs/Bluefin-Compound.html	N/A
-https://hackage.haskell.org/package/bluefin-0.0.4.1/docs/Bluefin-Compound.html	N/A
-https://hackage.haskell.org/package/bluefin-0.4.1.0/docs/Bluefin-Compound.html	N/A
+https://hackage.haskell.org/package/effectful-core-2.2.2.2/docs/Effectful-Dispatch-Dynamic.html#g:3	created	2023-03-13
+https://hackage.haskell.org/package/effectful-core-2.2.2.2/docs/Effectful-Dispatch-Static.html	created	2023-03-13
+https://hackage.haskell.org/package/bluefin-0.0.4.2/docs/Bluefin-Compound.html	created	2024-04-08
+https://hackage.haskell.org/package/bluefin-0.0.4.1/docs/Bluefin-Compound.html	created	2024-04-08
+https://hackage.haskell.org/package/bluefin-0.4.1.0/docs/Bluefin-Compound.html	created	2026-02-27
 https://hackage.haskell.org/package/polysemy-plugin	N/A
 https://hackage.haskell.org/package/polysemy-zoo	N/A
 https://hackage.haskell.org/package/freer-simple	N/A
 https://www.stackage.org/package/freer-simple	N/A
-https://hackage.haskell.org/package/polysemy-1.9.0.0/docs/Polysemy.html	N/A
-https://hackage.haskell.org/package/polysemy-plugin-0.1.0.0/docs/Polysemy-Plugin.html	N/A
-https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer.html	N/A
-https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer-TH.html	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff.html	N/A
-https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Dispatch-Dynamic.html#g:4	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-IO.html	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-System-IO.html	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Reader.html	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-State.html	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Handle.html	N/A
-https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Eff.html	N/A
-https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-State.html	N/A
-https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Reader.html	N/A
-https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Writer.html	N/A
-https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Error.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Effect.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Plugin.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-State.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Reader.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Error.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-IO.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Coroutine.html	N/A
-https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-NonDet.html	N/A
+https://hackage.haskell.org/package/polysemy-1.9.0.0/docs/Polysemy.html	created	2022-12-28
+https://hackage.haskell.org/package/polysemy-plugin-0.1.0.0/docs/Polysemy-Plugin.html	created	2019-04-28
+https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer.html	created	2022-01-07
+https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer-TH.html	created	2022-01-07
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin.html	created	2026-05-09
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff.html	created	2022-01-31
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Dispatch-Dynamic.html#g:4	created	2024-11-27
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-IO.html	created	2026-05-09
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-System-IO.html	created	2026-05-09
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Reader.html	created	2026-05-09
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-State.html	created	2026-05-09
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Handle.html	created	2026-05-09
+https://hackage.haskell.org/package/bluefin-0.6.0.0/docs/Bluefin-Eff.html	created	2026-05-09
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-State.html	created	2024-11-27
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Reader.html	created	2024-11-27
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Writer.html	created	2024-11-27
+https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Labeled-Error.html	created	2024-11-27
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Effect.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Plugin.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-State.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Reader.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Error.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-IO.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-Coroutine.html	created	2022-01-31
+https://hackage.haskell.org/package/cleff-0.1.0.0/docs/Cleff-NonDet.html	created	2022-01-31
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Reader-Static.html	N/A
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-State-Static.html	N/A
 https://hackage.haskell.org/package/effectful-core-2.5.1.0/docs/Effectful-Error-Static.html	N/A
