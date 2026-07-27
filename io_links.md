@@ -7864,78 +7864,78 @@ https://stackoverflow.com/questions/16750040	created	2013-05-25
 https://www.stackprinter.com/export?question=16750040&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
 https://stackoverflow.com/questions/2290164	created	2010-02-18
 https://www.stackprinter.com/export?question=2290164&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/23044464	N/A
+https://stackoverflow.com/questions/23044464	created	2014-04-13
 https://www.stackprinter.com/export?question=23044464&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/9285596	N/A
+https://stackoverflow.com/questions/9285596	created	2012-02-14
 https://www.stackprinter.com/export?question=9285596&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/54175948	N/A
+https://stackoverflow.com/questions/54175948	created	2019-01-14
 https://www.stackprinter.com/export?question=54175948&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/53770035	N/A
+https://stackoverflow.com/questions/53770035	created	2018-12-13
 https://www.stackprinter.com/export?question=53770035&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/52116792	N/A
+https://stackoverflow.com/questions/52116792	created	2018-08-31
 https://www.stackprinter.com/export?question=52116792&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/47929099	N/A
+https://stackoverflow.com/questions/47929099	created	2017-12-21
 https://www.stackprinter.com/export?question=47929099&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
 ## Adjacent functional-I/O discussions and cross-site print views
-https://stackoverflow.com/questions/2672791	N/A
+https://stackoverflow.com/questions/2672791	created	2010-04-20
 https://www.stackprinter.com/export?question=2672791&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/34280735	N/A
+https://stackoverflow.com/questions/34280735	created	2015-12-15
 https://www.stackprinter.com/export?question=34280735&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/45971057	N/A
+https://stackoverflow.com/questions/45971057	created	2017-08-30
 https://www.stackprinter.com/export?question=45971057&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/13536761	N/A
+https://stackoverflow.com/questions/13536761	created	2012-11-23
 https://www.stackprinter.com/export?question=13536761&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/12335245	N/A
+https://stackoverflow.com/questions/12335245	created	2012-09-08
 https://www.stackprinter.com/export?question=12335245&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/41829618	N/A
+https://stackoverflow.com/questions/41829618	created	2017-01-24
 https://www.stackprinter.com/export?question=41829618&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/71175957	N/A
+https://stackoverflow.com/questions/71175957	created	2022-02-18
 https://www.stackprinter.com/export?question=71175957&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/13340458	N/A
+https://stackoverflow.com/questions/13340458	created	2012-11-12
 https://www.stackprinter.com/export?question=13340458&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/24775528	N/A
+https://stackoverflow.com/questions/24775528	created	2014-07-16
 https://www.stackprinter.com/export?question=24775528&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/22964750	N/A
+https://stackoverflow.com/questions/22964750	created	2014-04-09
 https://www.stackprinter.com/export?question=22964750&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/28203214	N/A
+https://stackoverflow.com/questions/28203214	created	2015-01-28
 https://www.stackprinter.com/export?question=28203214&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/32569852	N/A
+https://stackoverflow.com/questions/32569852	created	2015-09-14
 https://www.stackprinter.com/export?question=32569852&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/66393690	N/A
+https://stackoverflow.com/questions/66393690	created	2021-02-26
 https://www.stackprinter.com/export?question=66393690&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/15996712	N/A
+https://stackoverflow.com/questions/15996712	created	2013-04-14
 https://www.stackprinter.com/export?question=15996712&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/46079371	N/A
+https://stackoverflow.com/questions/46079371	created	2017-09-06
 https://www.stackprinter.com/export?question=46079371&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/754279	N/A
+https://stackoverflow.com/questions/754279	created	2009-04-16
 https://www.stackprinter.com/export?question=754279&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/77937446	N/A
+https://stackoverflow.com/questions/77937446	created	2024-02-04
 https://www.stackprinter.com/export?question=77937446&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/57703898	N/A
+https://stackoverflow.com/questions/57703898	created	2019-08-29
 https://www.stackprinter.com/export?question=57703898&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/52489707	N/A
+https://stackoverflow.com/questions/52489707	created	2018-09-25
 https://www.stackprinter.com/export?question=52489707&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/61798648	N/A
+https://stackoverflow.com/questions/61798648	created	2020-05-14
 https://www.stackprinter.com/export?question=61798648&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/38140381	N/A
+https://stackoverflow.com/questions/38140381	created	2016-07-01
 https://www.stackprinter.com/export?question=38140381&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/4578540	N/A
+https://stackoverflow.com/questions/4578540	created	2011-01-02
 https://www.stackprinter.com/export?question=4578540&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/51371869	N/A
+https://stackoverflow.com/questions/51371869	created	2018-07-17
 https://www.stackprinter.com/export?question=51371869&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/71106628	N/A
+https://stackoverflow.com/questions/71106628	created	2022-02-14
 https://www.stackprinter.com/export?question=71106628&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/10447914	N/A
+https://stackoverflow.com/questions/10447914	created	2012-05-04
 https://www.stackprinter.com/export?question=10447914&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/7840126	N/A
+https://stackoverflow.com/questions/7840126	created	2011-10-20
 https://www.stackprinter.com/export?question=7840126&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/1024585	N/A
+https://stackoverflow.com/questions/1024585	created	2009-06-21
 https://www.stackprinter.com/export?question=1024585&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/59092892	N/A
+https://stackoverflow.com/questions/59092892	created	2019-11-28
 https://www.stackprinter.com/export?question=59092892&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/57211404	N/A
+https://stackoverflow.com/questions/57211404	created	2019-07-25
 https://www.stackprinter.com/export?question=57211404&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/54779029	N/A
+https://stackoverflow.com/questions/54779029	created	2019-02-20
 https://www.stackprinter.com/export?question=54779029&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
 https://cs.stackexchange.com/questions/109421	N/A
 https://www.stackprinter.com/export?question=109421&service=cs.stackexchange&language=en&hideAnswers=false&showAll=true&width=640	N/A
@@ -8217,8 +8217,8 @@ https://www.classes.cs.uchicago.edu/archive/2023/fall/22300-1/notes/introduction
 https://web.cecs.pdx.edu/~sheard/course/CS457-557/Winter2015/DailyRecord.html	created	2015
 ## World-passing discussions, syllabi, and functional I/O course pages
 https://www.scribd.com/document/4079/Yet-another-Haskell-tutorial	N/A
-https://stackoverflow.com/questions/40566508/how-do-you-implement-haskells-io-type-in-java	N/A
-https://stackoverflow.com/questions/71289435/haskell-pure-functions-and-files	N/A
+https://stackoverflow.com/questions/40566508/how-do-you-implement-haskells-io-type-in-java	created	2016-11-12
+https://stackoverflow.com/questions/71289435/haskell-pure-functions-and-files	created	2022-02-28
 https://www.scribd.com/document/496517803/specific-topics	N/A
 https://web.mit.edu/6.827/www/old/syllabus.html	N/A
 https://luce.si.usi.ch/programming-styles/labh2/	N/A
@@ -8245,7 +8245,7 @@ https://objectclub.jp/ml-arch/magazine/243.html	N/A
 https://kmizu.hatenablog.com/entry/20100113/1263397418	publication	2010-01-12
 https://www.timedia.co.jp/tech/monad-you-already-know/	N/A
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.19/LIPIcs.ECOOP.2020.19.pdf	created	2020
-https://stackoverflow.com/questions/61380826/operational-semantics-for-throwing-exceptions-to-other-threads-in-haskell	N/A
+https://stackoverflow.com/questions/61380826/operational-semantics-for-throwing-exceptions-to-other-threads-in-haskell	created	2020-04-23
 ## East Asian IO resources and historical mailing-list discussions
 https://dev59.com/Q1IH5IYBdhLWcg3wAHcv	N/A
 https://dlcenter.gotop.com.tw/PDFSample/ACL049800.pdf	N/A
@@ -8340,7 +8340,7 @@ https://ks.cs.uchicago.edu/qpl-bib/bbt_abstracts.html	N/A
 https://ncatlab.org/nlab/show/QML	N/A
 https://people.cs.nott.ac.uk/psztxa/talks/	N/A
 ## IO implementation discussion and historical GHC manuals
-https://stackoverflow.com/questions/10447914/io-implementation-inside-haskell?noredirect=1	N/A
+https://stackoverflow.com/questions/10447914/io-implementation-inside-haskell?noredirect=1	created	2012-05-04
 https://downloads.haskell.org/~ghc/9.2.4/docs/users_guide.pdf	N/A
 https://downloads.haskell.org/~ghc/8.0.1/docs/users_guide.pdf	N/A
 ## Versioned GHC User Guides and System.IO references
@@ -9759,13 +9759,13 @@ https://hackage.haskell.org/package/haskell98/docs/Prelude.html	created	2014-03-
 ## Haskell report publication archives
 https://mail.haskell.org/pipermail/haskell/2010-June/022184.html	created	2010
 ## Testing and mocking IO actions
-https://stackoverflow.com/questions/27256684/mocking-io-actions-getargs-and-putstrln	N/A
+https://stackoverflow.com/questions/27256684/mocking-io-actions-getargs-and-putstrln	created	2014-12-02
 ## World passing and uniqueness typing comparisons
 https://www.cs.tufts.edu/comp/150FP/archive/edsko-de-vries/uniqueness.pdf	N/A
 https://mail.haskell.org/pipermail/haskell/2002-March/009162.html	created	2002
 ## RealWorld token and compiler implementation studies
 https://oxij.org/thesis/phd/PhD.xetex.pdf	N/A
-https://stackoverflow.com/questions/8382485/what-happens-if-you-compile-a-program-that-takes-no-input-haskell-io-purity-is	N/A
+https://stackoverflow.com/questions/8382485/what-happens-if-you-compile-a-program-that-takes-no-input-haskell-io-purity-is	created	2011-12-05
 ## IO monads, transformers, and algebraic effects
 https://www.fceia.unr.edu.ar/~mauro/publications/articles/201908-monadsalgeffects.html	N/A
 https://www.enhan.eu/scala-io-2018/	publication	2018-11-06
@@ -9808,15 +9808,15 @@ https://hackage.haskell.org/package/monad-loops-0.4.3/docs/Control-Monad-Loops.h
 https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-IO-Unsafe.html	N/A
 https://downloads.haskell.org/~ghc/5.04/docs/html/base/Data.IORef.html	N/A
 https://hackage.haskell.org/package/StateVar/docs/Data-StateVar.html	created	2021-07-25
-https://stackoverflow.com/questions/43230520/is-state-monad-needed-useful-in-a-language-with-mutable-local-variables-such	N/A
+https://stackoverflow.com/questions/43230520/is-state-monad-needed-useful-in-a-language-with-mutable-local-variables-such	created	2017-04-05
 ## Lifting and unlifting IO actions
 https://next.fpcomplete.com/haskell/library/unliftio/	N/A
 ## Lifted IO exceptions and transformer boundaries
-https://stackoverflow.com/questions/25752900/exceptions-and-monad-transformers	N/A
+https://stackoverflow.com/questions/25752900/exceptions-and-monad-transformers	created	2014-09-09
 https://hackage.haskell.org/package/mtl-compat/docs/Control-Monad-Except.html	created	2019-04-28
 https://downloads.haskell.org/~ghc/9.2.1/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Error.html	N/A
-https://stackoverflow.com/questions/26385809/catch-someexception-with-exceptt	N/A
-https://stackoverflow.com/questions/67186267/best-practices-with-monad-transformers-to-hide-or-not-to-hide-liftio	N/A
+https://stackoverflow.com/questions/26385809/catch-someexception-with-exceptt	created	2014-10-15
+https://stackoverflow.com/questions/67186267/best-practices-with-monad-transformers-to-hide-or-not-to-hide-liftio	created	2021-04-20
 https://downloads.haskell.org/ghc/8.2.2-rc1/docs/users_guide.pdf	N/A
 ## Labeled and restricted IO security models
 https://hackage.haskell.org/package/lio/docs/LIO-Labeled.html	created	2020-09-23
@@ -9969,15 +9969,15 @@ https://old.agniv.me/blog/haskell-os/	publication	2026-03-25
 https://ogi.altocumulus.org/~hallgren/ICFP2005/house.pdf	created	2005
 ## IO exceptions and resource-safety references
 https://hackage.haskell.org/package/base-4.14.3.0/docs/src/GHC-IO-Exception.html	created	2021-08-06
-https://stackoverflow.com/questions/12335245/why-is-catching-an-exception-non-pure-but-throwing-an-exception-is-pure	N/A
+https://stackoverflow.com/questions/12335245/why-is-catching-an-exception-non-pure-but-throwing-an-exception-is-pure	created	2012-09-08
 https://mmhaskell.com/blog/2022/6/6/catching-what-weve-thrown	created	2022
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/thread/Q476SVPFN5IJLIUVP2VBIOK27MTP6CDF/?sort=thread	N/A
 https://downloads.haskell.org/~ghc/7.2-latest/docs/html/libraries/base-4.4.1.0/Control-Exception-Base.html	N/A
 https://hackage.haskell.org/package/conduit-0.0.1/docs/Control-Monad-Trans-Resource.html	created	2012-01-06
-https://stackoverflow.com/questions/64468126/how-to-make-bracket-safe-from-async-exception	N/A
+https://stackoverflow.com/questions/64468126/how-to-make-bracket-safe-from-async-exception	created	2020-10-21
 https://downloads.haskell.org/~ghc/6.4.1/docs/hslibs.pdf	N/A
 ## Lazy and streaming I/O references
-https://stackoverflow.com/questions/7733482/how-do-i-handle-an-infinite-list-of-io-objects-in-haskell	N/A
+https://stackoverflow.com/questions/7733482/how-do-i-handle-an-infinite-list-of-io-objects-in-haskell	created	2011-10-11
 https://scispace.com/pdf/a-history-of-haskell-being-lazy-with-class-18v2l48ari.pdf	N/A
 https://inf.ufes.br/~raulh/ufes/teaching/courses/ds/haskell/haskell98-library-report/io.html	N/A
 https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-8.0.1/src/Stream.html	N/A
@@ -10147,7 +10147,7 @@ https://mail.haskell.org/pipermail/haskell-cafe/2013-April/107547.html	created	2
 https://mail.haskell.org/pipermail/haskell-cafe/2006-February/014406.html	created	2006
 https://haddocks.haskell-miso.org/miso/Miso-Effect.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=4fe470cefeea7df69af4b72bc80b6cfbe06fed0c&repid=rep1&type=pdf	N/A
-https://stackoverflow.com/questions/3862954/systems-programming-in-haskell	N/A
+https://stackoverflow.com/questions/3862954/systems-programming-in-haskell	created	2010-10-05
 https://web.cecs.pdx.edu/~mpj/pubs/plos07.pdf	N/A
 https://www.osnews.com/story/8862/hop-a-haskell-os/	N/A
 https://eprints.ost.ch/id/eprint/1334/	N/A
@@ -10223,7 +10223,7 @@ https://www.mail-archive.com/haskell-cafe%40haskell.org/msg35952.html	N/A
 https://www.mail-archive.com/haskell-cafe%40haskell.org/msg72522.html	N/A
 https://www.markhneedham.com/blog/2013/01/02/haskell-reading-files/	created	2013
 https://upload.wikimedia.org/wikiversity/en/5/5f/Monad.P1.3A.Operations.20190308.pdf	N/A
-https://stackoverflow.com/questions/7691374/io-and-maybe-monad-interaction	N/A
+https://stackoverflow.com/questions/7691374/io-and-maybe-monad-interaction	created	2011-10-07
 https://speakerdeck.com/realm/correct-behavior-through-type-safety-justin-spahr-summers	N/A
 https://hackage.haskell.org/package/transformers	N/A
 https://hackage.haskell.org/package/transformers/docs	created	2026-01-12
@@ -10333,7 +10333,7 @@ https://okmij.org/ftp/	N/A
 https://docs.huihoo.com/okmij.org/ftp/Haskell/Iteratee/describe.pdf	N/A
 https://www.researchgate.net/publication/273444648_Freer_Monads_More_Extensible_Effects	N/A
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012
-https://stackoverflow.com/questions/1319705/introduction-or-simple-examples-for-iteratee	N/A
+https://stackoverflow.com/questions/1319705/introduction-or-simple-examples-for-iteratee	created	2009-08-23
 https://dblp.org/pid/78/3192.html	N/A
 https://dblp.org/rec/conf/flops/Kiselyov12	N/A
 https://link.springer.com/book/10.1007/978-3-642-29822-6	publication	2012
@@ -10605,11 +10605,11 @@ https://zio.dev/1.0.18/reference/core/io/	N/A
 https://www.baeldung.com/scala/zio-effects	N/A
 https://www.manning.com/books/functional-programming-in-scala	N/A
 https://medium.com/scalac/introduction-to-programming-with-zio-functional-effects-125d3a699e94	N/A
-https://stackoverflow.com/questions/56877750/io-monad-vs-reader-monad	N/A
+https://stackoverflow.com/questions/56877750/io-monad-vs-reader-monad	created	2019-07-03
 https://softwaremill.com/implementing-raft-using-a-functional-effect-system/	N/A
 https://www.scribd.com/document/878026617/Zionomicon-Digital-Book-Edition-20-11-24	N/A
 https://gcanti.github.io/fp-ts/modules/IOEither.ts.html	N/A
-https://stackoverflow.com/questions/60732841/how-to-manage-monads-in-fp-and-specially-in-fp-ts	N/A
+https://stackoverflow.com/questions/60732841/how-to-manage-monads-in-fp-and-specially-in-fp-ts	created	2020-03-18
 https://www.bookey.app/book/functional-programming-in-javascript	N/A
 https://leanpub.com/functional-programming-in-js-with-categories	N/A
 https://effect-ts.github.io/effect/effect/Effect.ts.html	N/A
@@ -10675,7 +10675,7 @@ https://devblogs.microsoft.com/dotnet/announcing-f-5/	publication	2020-11-10
 https://autoforecastteam.github.io/posts/monad-computation-expressions/	N/A
 https://fsprojects.github.io/FSharpPlus/computation-expressions.html	N/A
 https://bbatsov.github.io/fslang-spec/expressions/	N/A
-https://stackoverflow.com/questions/24630402/f-computation-expressions-and-return-statement	N/A
+https://stackoverflow.com/questions/24630402/f-computation-expressions-and-return-statement	created	2014-07-08
 https://tomasp.net/blog/fsharp-iv-lang.aspx/	N/A
 https://tomasp.net/academic/theses/events/events.pdf	N/A
 https://yanniss.github.io/theses/kalogeropoulos.pdf	N/A
@@ -10704,8 +10704,8 @@ https://codingtechroom.com/question/-frege-java-interoperability-io-monad	N/A
 https://www.frege-lang.org/doc/frege/data/Monoid.html	N/A
 https://www.frege-lang.org/doc/frege/control/Concurrent.html	N/A
 https://www.frege-lang.org/doc/frege/control/monad/trans/MaybeT.html	N/A
-https://stackoverflow.com/questions/12617664/a-simple-example-showing-that-io-doesnt-satisfy-the-monad-laws	N/A
-https://stackoverflow.com/questions/58553006/does-io-monad-become-strict-when-bang-pattern-is-used	N/A
+https://stackoverflow.com/questions/12617664/a-simple-example-showing-that-io-doesnt-satisfy-the-monad-laws	created	2012-09-27
+https://stackoverflow.com/questions/58553006/does-io-monad-become-strict-when-bang-pattern-is-used	created	2019-10-25
 https://www.haskell.org/communities/11-2010/html/report.html	created	2010
 https://www.doc.ic.ac.uk/teaching/distinguished-projects/2015/m.srb.pdf	created	2015
 https://webspace.science.uu.nl/~swier004/talks/2007-leicester.pdf	created	2007
@@ -10859,37 +10859,37 @@ https://www.infoq.com/articles/Understanding-Monads-guide-for-perplexed/	N/A
 https://www-cs-students.stanford.edu/~blynn/haskell/papers.html	N/A
 https://histre.com/public/notes/scott/note/nyd7s2k5/	N/A
 https://www.dfki.de/web/forschung/projekte-publikationen/publikation/3898	N/A
-https://stackoverflow.com/questions/45136398/is-the-monadic-io-construct-in-haskell-just-a-convention?noredirect=1	N/A
+https://stackoverflow.com/questions/45136398/is-the-monadic-io-construct-in-haskell-just-a-convention?noredirect=1	created	2017-07-17
 https://webspace.science.uu.nl/~swier004/talks/2007-udine.pdf	created	2007
 https://digitalcollections.ohsu.edu/nanna/record/164/files/164_etd.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0	N/A
 https://nforum.ncatlab.org/discussion/15359/	N/A
 https://citeseerx.ist.psu.edu/document?doi=14919a3db4428fdabb4ad7446c1783ecfd83b099&repid=rep1&type=pdf	N/A
 https://software.imdea.org/~aliaksandr.hryzlou/plreading/notes/2022.06.03.uniqueness.html	created	2022
 https://alumni.media.mit.edu/~tpminka/PLE/haskell/haskell.html	N/A
-https://stackoverflow.com/questions/3642793/why-can-haskell-exceptions-only-be-caught-inside-the-io-monad	N/A
+https://stackoverflow.com/questions/3642793/why-can-haskell-exceptions-only-be-caught-inside-the-io-monad	created	2010-09-04
 https://en-academic.com/dic.nsf/enwiki/1727056/	N/A
 https://www-igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.13.0.0/Control-Exception.html	N/A
 https://www.haskell.org/hugs/pages/libraries/base/Control-Concurrent.html	N/A
-https://stackoverflow.com/questions/2981984/can-i-ensure-that-haskell-performs-atomic-io	N/A
+https://stackoverflow.com/questions/2981984/can-i-ensure-that-haskell-performs-atomic-io	created	2010-06-05
 https://www.haskell.org/hugs/pages/libraries/base/Control-Concurrent-MVar.html	N/A
 https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Concurrent-MVar.html	N/A
 https://downloads.haskell.org/~ghc/6.0/docs/html/base/System.IO.Unsafe.html	N/A
 https://ghcguide.haskell.jp/8.4.3/users_guide/safe_haskell.html	N/A
-https://stackoverflow.com/questions/3124591/is-haskell-really-a-purely-functional-language-considering-unsafeperformio?noredirect=1	N/A
+https://stackoverflow.com/questions/3124591/is-haskell-really-a-purely-functional-language-considering-unsafeperformio?noredirect=1	created	2010-06-26
 https://hackage-content.haskell.org/package/hasql-transaction-1.2.2/docs/Hasql-Transaction.html	N/A
 https://www.informatik.uni-kiel.de/~fhu/projects/stm.pdf	N/A
-https://stackoverflow.com/questions/3031878/stm-monad-problem	N/A
-https://stackoverflow.com/questions/11457687/composable-atomic-like-operations	N/A
+https://stackoverflow.com/questions/3031878/stm-monad-problem	created	2010-06-13
+https://stackoverflow.com/questions/11457687/composable-atomic-like-operations	created	2012-07-12
 https://zio.dev/reference/stm	N/A
 https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-Base.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=b018a74a8766ef2063b979e631c9ffa1d9adaccc&repid=rep1&type=pdf	N/A
-https://stackoverflow.com/questions/28400197/how-to-get-reader-and-readert-to-work-together	N/A
+https://stackoverflow.com/questions/28400197/how-to-get-reader-and-readert-to-work-together	created	2015-02-08
 https://devtut.github.io/haskell/reader-readert.html	N/A
 https://fulmanski.pl/zajecia/jpsi/daume02yaht.pdf	N/A
-https://stackoverflow.com/questions/28353159/haskell-getcontents-wait-for-eof	N/A
+https://stackoverflow.com/questions/28353159/haskell-getcontents-wait-for-eof	created	2015-02-05
 https://www.rose-hulman.edu/class/cs/csse403/201110/SlidePDFs/HaskellIO.pdf	N/A
 https://cgi.cse.unsw.edu.au/~eptcs/all.cgi	N/A
-https://stackoverflow.com/questions/2259926/testing-io-actions-with-monadic-quickcheck	N/A
+https://stackoverflow.com/questions/2259926/testing-io-actions-with-monadic-quickcheck	created	2010-02-14
 https://dblp.org/db/series/eptcs/eptcs321.html	N/A
 https://dblp.org/db/series/eptcs/eptcs321	N/A
 https://tst.stu.cn.ua/article/view/345263	N/A
@@ -10904,12 +10904,12 @@ https://denotational.co.uk/foeh/abstract.html	N/A
 https://www.sigplan-www.sigplan.hosting.acm.org/OpenTOC/haskell19.html	N/A
 https://repository.upenn.edu/bitstreams/9eaac6e3-ba5a-4f8e-b2c9-9c68c28881aa/download	N/A
 https://okmij.org/ftp/Haskell/extensible/param-eff.pdf	N/A
-https://stackoverflow.com/questions/61780295/readert-design-pattern-parametrize-the-environment	N/A
+https://stackoverflow.com/questions/61780295/readert-design-pattern-parametrize-the-environment	created	2020-05-13
 https://se.cs.uni-tuebingen.de/publications/schuster22region.pdf	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/attachments/20091212/d0b070be/attachment.html	N/A
 https://dblp.uni-trier.de/pid/120/7675.html	N/A
 https://www.cs.drexel.edu/~csg63/publications/oopsla12/	N/A
-https://stackoverflow.com/questions/46024597/how-can-linear-types-replace-monads	N/A
+https://stackoverflow.com/questions/46024597/how-can-linear-types-replace-monads	created	2017-09-03
 https://jpaykin.github.io/papers/paykin_dissertation_2018.pdf	created	2018
 https://isa-afp.org/entries/Hello_World.html	N/A
 https://www.isa-afp.org/entries/Clean.html	N/A
@@ -10939,7 +10939,7 @@ https://docs.scala-lang.org/scala3/book/fp-pure-functions.html	N/A
 https://days2012.scala-lang.org/sites/days2012/files/bjarnason_trampolines.pdf	created	2012
 https://www.javadoc.io/static/org.typelevel/cats-effect_3/3.6-bb17ea2/cats/effect/IO.html	N/A
 https://www.educative.io/courses/pure-functional-http-apis-scala/an-alternate-way	N/A
-https://stackoverflow.com/questions/59172957/can-a-function-operating-upon-mutable-data-structure-be-referentially-transparen	N/A
+https://stackoverflow.com/questions/59172957/can-a-function-operating-upon-mutable-data-structure-be-referentially-transparen	created	2019-12-04
 https://index.scala-lang.org/djspiewak/cats-effect	N/A
 https://www.baeldung.com/scala/cats-effect-fibers-concurrent-programming	N/A
 https://www.discotec.org/2020/slides/ice/ICE-2020-PurelyFunc-slides.pdf	created	2020
@@ -10994,7 +10994,7 @@ https://www.baeldung.com/kotlin/arrow	N/A
 https://arrow-kt.io/learn/design/suspend-io/	N/A
 https://www.baeldung.com/java-monads-optional	N/A
 https://arrow-kt.io/learn/quickstart/from-fp/	N/A
-https://stackoverflow.com/questions/52255089/what-is-monad-in-kotlin-arrow-functional-programming	N/A
+https://stackoverflow.com/questions/52255089/what-is-monad-in-kotlin-arrow-functional-programming	created	2018-09-10
 https://www.baeldung.com/java-functional-programming	N/A
 https://old.arrow-kt.io/docs/effects/io/	N/A
 https://old.arrow-kt.io/docs/0.12/apidocs/arrow-core-data/arrow.typeclasses/-monad/index.html	N/A
@@ -11002,8 +11002,8 @@ https://old.arrow-kt.io/docs/core/	N/A
 https://www.eecs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf	N/A
 https://nljug.org/wp-content/uploads/2024/05/JAM01-24.pdf	created	2024
 https://cuddly-octo-palm-tree.com/posts/2021-10-03-monads-clojure/	created	2021
-https://stackoverflow.com/questions/21826665/is-it-possible-to-do-the-io-monad-from-haskell-in-clojure	N/A
-https://stackoverflow.com/questions/20431964/what-is-the-clojure-equivalent-for-haskells	N/A
+https://stackoverflow.com/questions/21826665/is-it-possible-to-do-the-io-monad-from-haskell-in-clojure	created	2014-02-17
+https://stackoverflow.com/questions/20431964/what-is-the-clojure-equivalent-for-haskells	created	2013-12-06
 https://softwarepatternslexicon.com/clojure/functional-programming-patterns-in-clojure/monads-and-monad-transformers/	publication	2026-03-30
 https://clojurepatterns.com/1/12/	N/A
 https://clojurepatterns.com/1/12/16/	N/A
@@ -11070,7 +11070,7 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/computation-
 https://samhh.github.io/fp-ts-std/modules/IO.ts.html	N/A
 https://effect-ts.github.io/effect/typeclass/Monad.ts.html	N/A
 https://www.npmjs.com/package/fp-ts	N/A
-https://stackoverflow.com/questions/71232280/how-to-flatten-taskeithererror-eithererror-t-in-fp-ts	N/A
+https://stackoverflow.com/questions/71232280/how-to-flatten-taskeithererror-eithererror-t-in-fp-ts	created	2022-02-23
 https://blog.chainring.xyz/posts/tp-io-promise-monad/	N/A
 https://www.bcaron.me/presentations/2024-10-08-BFPG-Functional-Programming-In-TypeScript.pdf	created	2024
 https://bow-swift.io/api-docs/Protocols/Effect.html	N/A
@@ -11214,7 +11214,7 @@ https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Monad-IO-
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/mtl-2.3.1-aac9/Control-Monad-Reader.html	N/A
 https://www.cs.rpi.edu/~milanova/csci4966/F24_Lecture15_Monad_Transformers.pdf	N/A
 https://hackage.haskell.org/package/free/docs/Control-Monad-Free.html	created	2023-03-12
-https://stackoverflow.com/questions/20564633/is-it-possible-to-extend-free-monad-interpreters	N/A
+https://stackoverflow.com/questions/20564633/is-it-possible-to-extend-free-monad-interpreters	created	2013-12-13
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/finally-tagless-partially-evaluated-tagless-staged-interpreters-for-simpler-typed-languages/7B2DC44A2127EBBA71ADE63809D9425F	publication	2009-09
 https://hackage.haskell.org/package/polysemy-zoo/docs/Polysemy-Final-IO.html	created	2023-08-03
 https://cir.nii.ac.jp/crid/1363670318659110656	N/A
@@ -11241,11 +11241,11 @@ https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-IO-Un
 https://xmonad.github.io/xmonad-docs/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Conc.Sync.html	N/A
 https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf	N/A
-https://stackoverflow.com/questions/74999701/how-do-you-run-a-single-test-with-quickcheck-when-using-monadicio-in-haskell	N/A
-https://stackoverflow.com/questions/57777451/how-do-i-quickcheck-a-servant-application-that-is-constructed-from-an-io	N/A
+https://stackoverflow.com/questions/74999701/how-do-you-run-a-single-test-with-quickcheck-when-using-monadicio-in-haskell	created	2023-01-03
+https://stackoverflow.com/questions/57777451/how-do-i-quickcheck-a-servant-application-that-is-constructed-from-an-io	created	2019-09-03
 https://hackage.haskell.org/package/QuickCheck/docs/Test-QuickCheck.html	created	2026-02-26
 https://hackage.haskell.org/package/QuickCheck-2.9.2/docs/Test-QuickCheck-Property.html	created	2016-09-15
-https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging	N/A
+https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging	created	2012-03-11
 https://users.cs.northwestern.edu/~robby/courses/395-495-2009-fall/quick.pdf	created	2009
 https://citeseerx.ist.psu.edu/document?doi=1559a9a26ca1baac9f465b72a1e97a9d6923696d&repid=rep1&type=pdf	N/A
 https://kar.kent.ac.uk/13937/1/content.pdf	N/A
@@ -11517,8 +11517,8 @@ https://www.michaelhanus.de/lehre/abschlussarbeiten/bsc/Wieczerkowski.pdf	N/A
 https://en.wikipedia.org/wiki/Curry_%28programming_language%29	N/A
 https://de.wikipedia.org/wiki/Curry_%28Programmiersprache%29	N/A
 https://www.researchgate.net/publication/2527491_HOPE_An_Experimental_Applicative_Language	N/A
-https://stackoverflow.com/questions/13609626/anatomy-of-a-monad-transformer	N/A
-https://stackoverflow.com/questions/16457111/how-to-design-a-monadic-stack	N/A
+https://stackoverflow.com/questions/13609626/anatomy-of-a-monad-transformer	created	2012-11-28
+https://stackoverflow.com/questions/16457111/how-to-design-a-monadic-stack	created	2013-05-09
 https://smunix.github.io/dev.stephendiehl.com/fun/WYAH.pdf	N/A
 https://www.open-open.com/news/view/565e9c	N/A
 https://kar.kent.ac.uk/id/document/1367717	N/A
@@ -11542,7 +11542,7 @@ https://groups.google.com/g/haskell-core-libraries/c/MIRPTkYj7s0	N/A
 https://academy.fpblock.com/haskell/library/rio/	N/A
 https://tech.freckle.com/2019/04/16/evaluating-rio/	publication	2019-04-16
 https://brandon.si/code/synchronized-concurrent-io-actions/	N/A
-https://stackoverflow.com/questions/4592509/using-parallel-strategies-with-monads	N/A
+https://stackoverflow.com/questions/4592509/using-parallel-strategies-with-monads	created	2011-01-04
 https://citeseerx.ist.psu.edu/document?doi=f1b80c7591e2b28c27c23235116038573369cfcc&repid=rep1&type=pdf	N/A
 https://www.ost.ch/en/details/news/haskell-ecosystem-workshop-2024	created	2024
 https://pages.di.unipi.it/corradini/Didattica/AP-24/DOCS/Scott-ch10.pdf	N/A
@@ -11558,10 +11558,10 @@ https://hackage.haskell.org/package/exception-transformers/docs/Control-Monad-Ex
 https://downloads.haskell.org/~ghc/4.08/docs/set.pdf	N/A
 https://simonmar.github.io/bib/papers/ext-exceptions.pdf	N/A
 https://webspace.science.uu.nl/~4110161/pubs/asynch-mac.pdf	N/A
-https://stackoverflow.com/questions/57101911/how-to-call-functions-in-handler-monad-from-io-monad	N/A
+https://stackoverflow.com/questions/57101911/how-to-call-functions-in-handler-monad-from-io-monad	created	2019-07-18
 https://hackage.haskell.org/package/yesod-core-1.1.6.1/docs/Yesod-Handler.html	created	2012-11-28
 https://www.yesodweb.com/book/yesods-monads	N/A
-https://stackoverflow.com/questions/45779957/how-to-avoid-unsafeperformio-in-the-handler-monad	N/A
+https://stackoverflow.com/questions/45779957/how-to-avoid-unsafeperformio-in-the-handler-monad	created	2017-08-20
 https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/persistent-db	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/unix-2.8.8.0-inplace/System-Posix-IO.html	N/A
 https://www.haskell.org/hugs/pages/libraries/unix/System-Posix.html	N/A
@@ -11573,7 +11573,7 @@ https://www.youtube.com/playlist?list=PLYItvall0TqLW_mPtIpVA8qHpuQ3YbnVO	N/A
 https://www.youtube.com/playlist?list=PLYItvall0TqIl6y3FydOuEjFMH6jp7ROm	N/A
 https://www.youtube.com/playlist?list=PLYItvall0TqJ25sVTLcMhxsE0Hci58mpQ	N/A
 https://www.udemy.com/course/learning-path-haskell-functional-programming-and-haskell/	N/A
-https://stackoverflow.com/questions/28203214/why-how-does-recursive-io-work	N/A
+https://stackoverflow.com/questions/28203214/why-how-does-recursive-io-work	created	2015-01-28
 https://hackage.haskell.org/package/bluefin-algae	N/A
 https://hackage-content.haskell.org/package/effectful-core-2.6.0.0/docs/src/Effectful.html	N/A
 https://web.jaguarpaw.co.uk/~tom/temporary/bluefin/Bluefin.html	N/A
@@ -11584,7 +11584,7 @@ https://richarde.dev/papers/2016/thesis/eisenberg-thesis.pdf	created	2016
 https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/ch03s04.html	N/A
 https://research.google/pubs/coinduction-inductively-mechanizing-coinductive-proofs-in-liquid-haskell/	publication	2022
 https://hackage.haskell.org/package/sdp-io/candidate/docs/System-IO-Handle.html	created	2021-02-24
-https://stackoverflow.com/questions/22435286/store-handle-in-custom-data-field	N/A
+https://stackoverflow.com/questions/22435286/store-handle-in-custom-data-field	created	2014-03-16
 https://simon.peytonjones.org/publications/	N/A
 https://homepages.inf.ed.ac.uk/wadler/topics/functional-programming.html	N/A
 https://www.research.ed.ac.uk/en/publications/monads-for-functional-programming/	publication	1995
@@ -11627,14 +11627,14 @@ https://www.scribd.com/document/26121753/Galois-Tech-Talk-A-Scalable-Io-Manager-
 https://umu.diva-portal.org/smash/get/diva2%3A1038657/FULLTEXT01.pdf	N/A
 https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/36841.pdf	created	2023
 https://adrian.geek.nz/haskell_docs/ghc-rts.html	N/A
-https://stackoverflow.com/questions/4446700/what-io-activity-does-the-ghc-io-manager-support	N/A
+https://stackoverflow.com/questions/4446700/what-io-activity-does-the-ghc-io-manager-support	created	2010-12-15
 https://hackage.haskell.org/package/lmdb-simple/docs/Database-LMDB-Simple.html	created	2018-03-24
 https://livebook.manning.com/book/get-programming-with-haskell/chapter-33	N/A
 https://ora.ox.ac.uk/objects/uuid%3A1fa54dcc-1188-40c9-aa2f-ce2c989e7bd3	publication	1989
 https://www.college-de-france.fr/en/agenda/lecture/program-demonstrate-curry-howard-correspondence-today/can-we-change-the-world-imperative-programming-monadic-effects-algebraic-effects	N/A
 https://livebook.manning.com/book/functional-design-and-architecture/chapter-7	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1F7596A68D0EA0C87624901EA0E144B8/9781108416757bib_379-380.pdf/bibliography.pdf	publication	2018-10
-https://stackoverflow.com/questions/412929/creative-uses-of-monads	N/A
+https://stackoverflow.com/questions/412929/creative-uses-of-monads	created	2009-01-05
 https://libris.kb.se/bib/17361104	N/A
 https://jgbm.github.io/eecs762f19/papers/wadler-monads.pdf	N/A
 https://alvinalexander.com/bookmarks/scala/why-current-enthusiasm-functional-programming/	N/A
@@ -11658,7 +11658,7 @@ https://search.worldcat.org/title/862346456	N/A
 https://search.worldcat.org/zh-tw/title/haskell-cookbook-build-functional-applications-using-monads-applicatives-and-functors/oclc/1007536519	N/A
 https://citeseerx.ist.psu.edu/document?doi=8c04f97a8dfe35c099d8ba5b304a149c5649c407&repid=rep1&type=pdf	N/A
 https://www.schoolofhaskell.com/user/agocorona/the-hardworking-programmer-ii-practical-backtracking-to-undo-actions	N/A
-https://stackoverflow.com/questions/18422099/are-monads-current-state-of-the-art-to-do-io-in-pure-languages?noredirect=1	N/A
+https://stackoverflow.com/questions/18422099/are-monads-current-state-of-the-art-to-do-io-in-pure-languages?noredirect=1	created	2013-08-24
 https://unformeddelta.wiki/7FzDAf8VJ7Fo/7-haskell-effect-systems	publication	2026-04-27
 https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=5	publication	2024-12-01
 https://zh.wikipedia.org/wiki/House_%28%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%29	N/A
@@ -11669,7 +11669,7 @@ https://leanprover.github.io/functional_programming_in_lean/monads/do.html	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/do/	N/A
 https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions	N/A
 https://uuinfofp.github.io/slides/fp-10-monads-one.pdf	N/A
-https://stackoverflow.com/questions/22568771/get-value-from-io-rather-than-the-computation-itself	N/A
+https://stackoverflow.com/questions/22568771/get-value-from-io-rather-than-the-computation-itself	created	2014-03-21
 https://is.muni.cz/predmet/fi/IB016?lang=en	N/A
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPiE2025.3.pdf=	created	2025
 https://aicenter.github.io/FUP/lectures/	N/A
@@ -11682,7 +11682,7 @@ https://www.monad.cat/	N/A
 https://www.bilibili.com/video/BV1ihBBBFE2B/	N/A
 https://haskell.foundation/events/2026-haskell-ecosystem-workshop.html	created	2026
 https://malv.in/2022/funcproglog/L4.pdf	created	2022
-https://stackoverflow.com/questions/36608918/haskell-couldnt-match-expected-type-io-t0-with-actual-type-integer	N/A
+https://stackoverflow.com/questions/36608918/haskell-couldnt-match-expected-type-io-t0-with-actual-type-integer	created	2016-04-13
 https://exchangetuts.com/io-in-haskell-is-functional-1639939040502958	N/A
 https://ics-websites.science.uu.nl/docs/vakken/fp/	N/A
 https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/TDA452/?acYear=2025%2F2026	created	2025
@@ -11690,18 +11690,18 @@ https://www.cs.ox.ac.uk/teaching/courses/2025-2026/fp/	created	2025
 https://onlinecourses-archive.nptel.ac.in/noc15_cs13/preview	N/A
 https://www.fer.unizg.hr/en/course/pih	N/A
 https://kurser.lth.se/kursplaner/senaste-en/EDAN40.html	N/A
-https://stackoverflow.com/questions/44965/what-is-a-monad/33609881	N/A
-https://stackoverflow.com/questions/27004415/how-should-i-organize-normal-and-state-versions-of-functions-in-the-state-mona	N/A
-https://stackoverflow.com/questions/10913835/combining-monads-in-haskell	N/A
-https://stackoverflow.com/questions/19747548/recursion-with-the-io-and-state-monads	N/A
-https://stackoverflow.com/questions/57874635/statemonad-instance-for-teletypeio	N/A
-https://stackoverflow.com/questions/66684248/how-to-preserve-the-state-of-the-monad-stack-in-the-io-exception-handler	N/A
-https://stackoverflow.com/questions/42404258/why-will-a-io-nested-in-other-monads-not-execute-is-there-a-way-to-force-them-t	N/A
+https://stackoverflow.com/questions/44965/what-is-a-monad/33609881	created	2008-09-04
+https://stackoverflow.com/questions/27004415/how-should-i-organize-normal-and-state-versions-of-functions-in-the-state-mona	created	2014-11-18
+https://stackoverflow.com/questions/10913835/combining-monads-in-haskell	created	2012-06-06
+https://stackoverflow.com/questions/19747548/recursion-with-the-io-and-state-monads	created	2013-11-02
+https://stackoverflow.com/questions/57874635/statemonad-instance-for-teletypeio	created	2019-09-10
+https://stackoverflow.com/questions/66684248/how-to-preserve-the-state-of-the-monad-stack-in-the-io-exception-handler	created	2021-03-18
+https://stackoverflow.com/questions/42404258/why-will-a-io-nested-in-other-monads-not-execute-is-there-a-way-to-force-them-t	created	2017-02-22
 https://ru.wikipedia.org/wiki/Idris_%28%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%29	N/A
-https://stackoverflow.com/questions/58366794/what-is-the-purpose-of-liftio	N/A
-https://stackoverflow.com/questions/48306846/getting-values-out-of-io-monad	N/A
-https://stackoverflow.com/questions/69254740/no-instance-for-monadio-arising-from-a-use-of-liftio	N/A
-https://stackoverflow.com/questions/45266054/how-to-create-a-monad-which-allows-io-but-is-not-a-monadio	N/A
+https://stackoverflow.com/questions/58366794/what-is-the-purpose-of-liftio	created	2019-10-13
+https://stackoverflow.com/questions/48306846/getting-values-out-of-io-monad	created	2018-01-17
+https://stackoverflow.com/questions/69254740/no-instance-for-monadio-arising-from-a-use-of-liftio	created	2021-09-20
+https://stackoverflow.com/questions/45266054/how-to-create-a-monad-which-allows-io-but-is-not-a-monadio	created	2017-07-23
 https://stackoverflow.com/questions/66025014/replicating-the-concept-of-liftio-with-a-monadtransformer	N/A
 https://stackoverflow.com/questions/77552860/scotty-no-instance-for-monadio-scottyt-arising-from-a-use-of-liftio	N/A
 https://stackoverflow.com/questions/42925365/recursive-liftio	N/A
