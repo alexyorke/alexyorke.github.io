@@ -5375,7 +5375,7 @@ https://stackoverflow.com/questions/34227536/is-there-a-way-to-emulate-linear-ty
 https://www.haskell.org/communities/05-2009/report.pdf	created	2009
 https://www.emergentmind.com/papers/2008.09253	created	2008
 https://www.reddit.com/r/haskell/comments/lctctr	N/A
-https://archlinux.org/packages/extra-staging/x86_64/haskell-iospec/	N/A
+https://archlinux.org/packages/extra-staging/x86_64/haskell-iospec/	updated	2026-07-03
 https://lotz84.github.io/haskell/test-and-debug.html	N/A
 https://softwarepatternslexicon.com/functional/advanced-patterns/functional-abstractions/free-monad/	N/A
 https://www.mail-archive.com/arch-commits%40archlinux.org/msg820840.html	created	2023-08-21
@@ -6337,7 +6337,7 @@ https://www.slideserve.com/psharon/lazy-functional-programming-for-real-tackling
 https://www8.cs.fau.de/ext/teaching/sose2023/mbprog/mbprog-skript.pdf	created	2023
 https://wwwbroy.cs.tum.edu/publ/vollst_list.shtml	N/A
 https://xavierleroy.org/control-structures/book/main015.html	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-io-streams/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-io-streams/	updated	2026-07-03
 https://blog.higher-order.com/blog/2010/10/14/scalaz-tutorial-enumeration-based-io-with-iteratees/	created	2010
 https://citeseerx.ist.psu.edu/document?doi=d20f03e1fe179e2304bbd16e019c1258d9e5533d&repid=rep1&type=pdf	N/A
 https://discourse.haskell.org/t/is-unsafeinterleaveio-idempotent/8672	publication	2024-01-30
@@ -27243,7 +27243,7 @@ https://github.com/snapframework/io-streams/releases	updated	2025-03-24
 https://github.com/snapframework/io-streams/tags	updated	2025-03-24
 https://www.kosmikus.org/HaskellForDSLs.pdf	N/A
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg987863.html	created	2026-03-26
-https://archlinux.org/packages/extra/x86_64/haskell-resourcet/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-resourcet/	updated	2026-07-03
 https://gist.github.com/el-hult/486b9208edff473e1da91260a6d361bc	created	2022-03-10
 https://sources.debian.org/src/haskell-conduit/1.3.6-1/ChangeLog.md	N/A
 https://github.com/ekmett/exceptions	updated	2026-03-02
@@ -27325,7 +27325,7 @@ https://hackage-content.haskell.org/package/resource-pool-0.5.0.0/docs/Data-Pool
 https://hackage-content.haskell.org/package/resource-pool-0.5.0.0/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/resource-pool-0.5.0.0/docs/src/Data.Pool.Internal.html	N/A
 https://hackage-content.haskell.org/package/text-2.1.3/docs/Data-Text-IO.html	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-monad-control/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-monad-control/	updated	2026-07-03
 https://github.com/srijs/haskell-resource-pool-monad	updated	2015-10-24
 https://hackage.haskell.org/package/resource-pool-monad	published	2015-10-24
 https://haskellweekly.news/issue/245.html	N/A
@@ -27572,7 +27572,7 @@ https://www.reddit.com/r/haskell/comments/1ebvy8b	N/A
 https://www.reddit.com/r/haskellquestions/comments/ec2e0v	N/A
 https://www.scs.stanford.edu/16wi-cs240h/projects/campagna_dodhia_jain.pdf	modified	2016-03-21
 https://www.yesodweb.com/book/routing-and-handlers	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-entropy/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-entropy/	updated	2025-10-25
 https://hackage.haskell.org/package/crypto-api/docs/Crypto-Random.html	created	2018-01-05
 https://hackage-content.haskell.org/package/crypton-1.0.4/docs/Crypto-Random-Types.html	N/A
 https://hackage.haskell.org/package/crypton-0.31/docs/src/Crypto.Tutorial.html	created	2023-06-06
@@ -28742,7 +28742,7 @@ https://research.tue.nl/files/333714970/Gils_N.pdf	N/A
 https://uec.repo.nii.ac.jp/records/3550	N/A
 https://people.cs.nott.ac.uk/pszgmh/	modified	2026-07-15
 https://www.bilibili.com/video/BV1HP411M7im/	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-iospec/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-iospec/	updated	2026-07-03
 https://citeseerx.ist.psu.edu/document?doi=752ec5ad72bf240bf3ff3be56318f452190f4287&repid=rep1&type=pdf	N/A
 https://gpo.zugaina.org/dev-haskell/iospec/Bugs	N/A
 https://raw.githubusercontent.com/NixOS/nixpkgs/c92ca95afb5043bc6faa0d526460584eccff2277/pkgs/development/haskell-modules/hackage-packages.nix	updated	2026-07-27
@@ -28796,8 +28796,8 @@ https://stackoverflow.com/questions/18422099/monads-current-state-of-the-art-to-
 https://citeseerx.ist.psu.edu/document?doi=12c79a2c28194c6585ed51691f015d3a9c26dc1f&repid=rep1&type=pdf	N/A
 https://discourse.haskell.org/t/looking-for-a-library-like-concurrency-but-with-file-io-operations/10566/5	publication	2024-10-19
 https://accedacris.ulpgc.es/bitstream/10553/42272/2/0751135_00000_0000.pdf	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-io-storage/	N/A
-https://archlinux.org/packages/extra-staging/x86_64/haskell-io-streams/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-io-storage/	updated	2025-10-25
+https://archlinux.org/packages/extra-staging/x86_64/haskell-io-streams/	updated	2026-07-03
 https://www.cs.toronto.edu/~trebla/fp/	N/A
 https://eprints.nottingham.ac.uk/11457/files/	N/A
 https://eprints.nottingham.ac.uk/11457/files/10391401.pdf?download=1	N/A
@@ -29154,7 +29154,7 @@ https://www.informatik.uni-bremen.de/agbkb/lehre/ss98/pi2/hugs_doc/tutorial-1.4-
 https://www.uni-ulm.de/func0809/	N/A
 https://www-igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.13.0.0/Control-Monad-IO-Class.html	N/A
 https://www.sciencedirect.com/science/article/pii/S1571066106001721	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-quickcheck-io/files/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-quickcheck-io/files/	updated	2026-07-03
 https://packages.debian.org/sid/source/haskell-quickcheck-io	modified	2026-07-27
 https://www.rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-quickcheck-io-doc-0.2.0-41.fc44.noarch.html	N/A
 https://www.stackage.org/lts-15.4/package/quickcheck-io-0.2.0	indexed	2026-07-27
@@ -29351,7 +29351,7 @@ https://anyflip.com/anjn/nmbp/basic	N/A
 https://dokumen.pub/monads-for-functional-programming.html	N/A
 https://fr.wikipedia.org/wiki/Monade_(informatique)	N/A
 https://www.reddit.com/r/haskell/comments/e7xwsm/haskell_articles_in_pdf_book_format/	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-unliftio-core/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-unliftio-core/	updated	2025-10-25
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-unliftio-core/	N/A
 https://mirror.lagoon.nc/raspbian/raspbian/pool/main/h/haskell-unliftio-core/	N/A
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg38879.html	N/A
@@ -29385,11 +29385,11 @@ https://www.youtube.com/watch?v=6MsQcUprO9o	uploaded	2022-01-11
 https://www.youtube.com/watch?v=rf-lie7U04Q	uploaded	2022-01-18
 https://www.youtube.com/watch?v=Vs-vvlYLtRI	uploaded	2022-01-25
 https://archlinux.org/packages/extra/x86_64/ghc/	N/A
-https://archlinux.org/packages/extra/x86_64/ghc-libs/	N/A
+https://archlinux.org/packages/extra/x86_64/ghc-libs/	updated	2025-10-25
 https://archlinux.org/packages/extra/x86_64/haskell-linear-base/files/	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-quickcheck/	N/A
-https://archlinux.org/packages/extra-staging/x86_64/haskell-quickcheck-io/	N/A
-https://archlinux.org/packages/extra-staging/x86_64/haskell-vector/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-quickcheck/	updated	2026-07-03
+https://archlinux.org/packages/extra-staging/x86_64/haskell-quickcheck-io/	updated	2026-07-03
+https://archlinux.org/packages/extra-staging/x86_64/haskell-vector/	updated	2026-07-03
 https://citeseerx.ist.psu.edu/document?doi=0d5852de69d2691903a7480e3ccb6b028c8e3fcc&repid=rep1&type=pdf	N/A
 https://www.acm.org/doi/10.1145/1596550.1596561	N/A
 https://cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf/semantics_of_value_recursionfor_monadic_inputoutput.pdf	publication	2002-04
@@ -29525,7 +29525,7 @@ https://hackage.haskell.org/package/ghc-mtl/docs/Control-Monad-Ghc.html	created	
 https://hackage.haskell.org/package/encoding-io/docs/System-IO-Encoding.html	created	2016-08-05
 https://hackage.haskell.org/package/rest-client/docs/Rest-Client-Base.html	created	2018-04-03
 https://packages.fedoraproject.org/pkgs/ghc/ghc-base	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-system-fileio/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-system-fileio/	updated	2026-07-03
 https://wiki.archlinux.org/title/Haskell	N/A
 https://www.reddit.com/r/haskell/comments/1dazfsr/welltyped_announcing_free_video_based_haskell/	N/A
 https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_free_video_based_haskell/	N/A
@@ -33007,11 +33007,11 @@ https://ir.cwi.nl/pub/22680	publication	2014-09-01
 https://mail.haskell.org/pipermail/haskell-cafe/2025-July/137171.html	created	2025
 https://www.semanticscholar.org/paper/State-in-Haskell-Launchbury-Jones/5768f243d9d91cf3225ae6ca1a89193f5b5ee423	N/A
 https://www.semanticscholar.org/paper/Imperative-functional-programming-Jones-Wadler/4bc5332578e0da3556ed576a6d4d33cf9f789e02	N/A
-https://archlinux.org/packages/extra-staging/x86_64/haskell-transformers-base/	N/A
+https://archlinux.org/packages/extra-staging/x86_64/haskell-transformers-base/	updated	2026-07-03
 https://archlinux.org/packages/extra/x86_64/haskell-transformers-compat/	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-unexceptionalio/	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-control-monad-free/	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-monad-control/files/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-unexceptionalio/	updated	2025-10-25
+https://archlinux.org/packages/extra/x86_64/haskell-control-monad-free/	updated	2025-10-25
+https://archlinux.org/packages/extra/x86_64/haskell-monad-control/files/	updated	2026-07-03
 https://archlinux.org/packages/extra/x86_64/haskell-unliftio/files/	N/A
 https://packages.debian.org/source/bullseye/haskell-monad-logger	modified	2026-07-27
 https://packages.debian.org/bookworm/source/haskell-rio-orphans	modified	2026-07-27
@@ -33033,7 +33033,7 @@ https://packages.debian.org/bookworm/libghc-monad-logger-prof	modified	2026-07-2
 https://www.stackage.org/lts-6.30/package/effect-handlers-0.1.0.8	indexed	2018-03-10
 https://www.stackage.org/nightly-2021-08-23/package/extensible-effects-5.0.0.1	created	2021
 https://www.stackage.org/lts-22.25/package/silently-1.2.5.3	indexed	2026-07-27
-https://archlinux.org/packages/extra/x86_64/haskell-transformers-base/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-transformers-base/	updated	2026-07-03
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-exception-transformers/	N/A
 https://portal.acm.org/citation.cfm?id=363749	N/A
 https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.6497	N/A
@@ -33082,7 +33082,7 @@ https://www.reddit.com/r/haskell/comments/1kky7b7	N/A
 https://arxiv.org/abs/2507.16086	created	2025-07
 https://groups.seas.harvard.edu/courses/cs152/2021sp/lectures/lec18-monads.pdf	created	2021
 https://www.cs.uoregon.edu/research/summerschool/summer18/topics.php	N/A
-https://archlinux.org/packages/extra/x86_64/haskell-extra/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-extra/	updated	2026-07-03
 https://archlinux.org/packages/extra/x86_64/haskell-comonad/	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-either/	N/A
 https://packages.debian.org/sid/all/doc/libghc-managed-doc	modified	2026-07-27
@@ -33090,7 +33090,7 @@ https://cse.sc.edu/~mgv/csce590f20/haskell/p359-hudak.pdf	N/A
 https://icfp24.sigplan.org/home/hiw-2024	created	2024
 https://haflang.github.io/workshops/hafdal24.html	N/A
 https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew-2025-videos-online/	created	2025
-https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/	updated	2026-07-03
 https://qa.debian.org/debcheck.php?dist=unstable&package=haskell-file-io	N/A
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html	N/A
 https://www.stackage.org/lts/package/unliftio-0.2.25.1	indexed	2026-07-27
@@ -33165,7 +33165,7 @@ https://www.youtube.com/watch?v=ofUAlkYHFsI	N/A
 https://learnxinyminutes.com/fr/haskell/	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-rio/	N/A
 https://packages.debian.org/search?keywords=libghc-io-streams-dev	modified	2026-07-27
-https://archlinux.org/packages/extra/x86_64/haskell-monad-logger/	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-monad-logger/	updated	2026-07-03
 https://packages.debian.org/testing/haskell/libghc-unliftio-dev	modified	2026-07-27
 https://kar.kent.ac.uk/id/document/95650	N/A
 https://packages.fedoraproject.org/pkgs/ghc-unliftio/	N/A
