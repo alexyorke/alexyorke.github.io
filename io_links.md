@@ -2145,13 +2145,13 @@ https://link.springer.com/article/10.1007/BF01018827	publication	1995-12
 https://dl.acm.org/doi/10.1145/2976002.2976008	publication	2016-09-08
 https://dl.acm.org/doi/10.1145/2034675.2034685	publication	2011-09-22
 https://dl.acm.org/doi/10.1145/349299.349331	publication	2000-05
-https://dl.acm.org/doi/pdf/10.1145/349299.349331	N/A
+https://dl.acm.org/doi/pdf/10.1145/349299.349331	publication	2000-05
 https://dl.acm.org/doi/10.1145/507635.507654	publication	2001-10
 https://dl.acm.org/doi/10.1145/1596638.1596643	publication	2009-09-03
 https://dl.acm.org/doi/10.1145/1596550.1596558	publication	2009-08-31
 https://link.springer.com/chapter/10.1007/978-3-540-44833-4_6	publication	2003
 https://dl.acm.org/doi/10.1145/258948.258973	publication	1997-08
-https://dl.acm.org/doi/pdf/10.1145/258948.258973	N/A
+https://dl.acm.org/doi/pdf/10.1145/258948.258973	publication	1997-08
 https://www.cs.ox.ac.uk/people/phil.wadler/papers/effects/effects.pdf	N/A
 https://www.cs.ox.ac.uk/people/phil.wadler/papers/effects/effects.ps	N/A
 https://www.repository.cam.ac.uk/bitstreams/bcd4f9b2-eab5-48a3-89aa-79f052dd8fa0/download	N/A
@@ -2219,9 +2219,9 @@ https://dl.acm.org/doi/10.1145/2034773.2034777	publication	2011-09-19
 https://www.researchgate.net/publication/220974596_Just_do_it_Simple_Monadic_Equational_Reasoning	N/A
 https://link.springer.com/chapter/10.1007/3-540-45988-X_3	publication	2002
 https://www.researchgate.net/publication/221370593_Monads_and_Modularity	N/A
-https://link.springer.com/chapter/10.1007/978-3-030-33636-3_9	N/A
+https://link.springer.com/chapter/10.1007/978-3-030-33636-3_9	publication	2019
 https://hal.science/hal-02359796	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-24672-2_14	N/A
+https://link.springer.com/chapter/10.1007/978-3-642-24672-2_14	publication	2012
 https://dl.acm.org/doi/10.1145/2034773.2034776	N/A
 https://www.microsoft.com/en-us/research/publication/monad-transformers-and-module-systems/	N/A
 https://dl.acm.org/doi/10.1145/199448.199456	N/A
@@ -2244,10 +2244,10 @@ https://haskellbook.com/	N/A
 https://www.oreilly.com/library/view/haskell-programming-from/9781942991973/	N/A
 https://melt.cs.umn.edu/silver/tutorial/5_running_silver/	N/A
 https://haskellbook.com/progress/	N/A
-https://doi.org/10.1007/3-540-45988-X_3	N/A
+https://doi.org/10.1007/3-540-45988-X_3	publication	2002
 https://doi.org/10.1007/978-3-642-24672-2_14	N/A
 https://doi.org/10.1007/978-3-030-33636-3_9	N/A
-https://doi.org/10.1007/978-3-031-16912-0_6	N/A
+https://doi.org/10.1007/978-3-031-16912-0_6	publication	2022
 https://www.cambridge.org/core/books/haskell-school-of-music/contents/B358A30CEA20D4377E5D8FBAF0877D0B	publication	2018-10
 https://assets.cambridge.org/97811084/16757/excerpt/9781108416757_excerpt.pdf	N/A
 https://www.euterpea.com/	N/A
@@ -2258,10 +2258,10 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://www.cambridge.org/core/books/thinking-functionally-with-haskell/imperative-functional-programming/92EEB623AF7FB7EBEF6A7A00BFE7145	N/A
 https://www.cambridge.org/core/books/thinking-functionally-with-haskell/contents/9781107087200	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2012/01/safe-haskell.pdf	created	2012
-https://link.springer.com/book/10.1007/978-1-4842-8581-7	N/A
-https://dl.acm.org/doi/pdf/10.1145/289423.289454	N/A
+https://link.springer.com/book/10.1007/978-1-4842-8581-7	publication	2022
+https://dl.acm.org/doi/pdf/10.1145/289423.289454	publication	1998-09-29
 https://link.springer.com/content/pdf/10.1007/978-3-319-11863-5_7.pdf	N/A
-https://dl.acm.org/doi/pdf/10.1145/581690.581696	N/A
+https://dl.acm.org/doi/pdf/10.1145/581690.581696	publication	2002-10-03
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/algeff-tr-2016-v2.pdf	created	2016
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/algeff-tr-2016-v3.pdf	created	2016
 https://www.microsoft.com/en-us/research/publication/effect-handlers-in-haskell-evidently/	N/A
@@ -2290,8 +2290,8 @@ https://medium.com/coderhack-com/functional-programming-with-monads-90230ccccb48
 https://medium.com/swlh/functional-effect-system-in-kotlin-599f1d8778cc	N/A
 https://medium.com/%40willymyfriend/java-io-monad-reality-or-fiction-5ae9078c9b44	N/A
 https://vived.io/on-modern-error-handling-not-just-in-java-monads-effects-and-project-amber-jvm-weekly-vol-172/	publication	2024-05-02
-https://dl.acm.org/doi/10.1145/289423.289429	N/A
-https://dl.acm.org/doi/10.1145/1159803.1159840	N/A
+https://dl.acm.org/doi/10.1145/289423.289429	publication	1998-09-29
+https://dl.acm.org/doi/10.1145/1159803.1159840	publication	2006-09-16
 https://www.nokia.com/bell-labs/publications-and-media/publications/the-marriage-of-effects-and-monads/	N/A
 https://harrisonwl.github.io/assets/papers/tecs18.pdf	N/A
 https://harrisonwl.github.io/assets/papers/haskell08.pdf	N/A
@@ -2322,13 +2322,13 @@ https://www.microsoft.com/en-us/research/publication/composing-haggis/	N/A
 https://www.microsoft.com/en-us/research/publication/effect-capabilities-for-haskell-taming-effect-interference-in-monadic-programming/	N/A
 https://www.microsoft.com/en-us/research/publication/imperative-streams-a-monadic-combinator-library-for-synchronous-programming/	N/A
 https://www.microsoft.com/en-us/research/publication/a-monadic-combinator-library-for-synchronous-programming/	N/A
-https://doi.org/10.1007/978-3-319-11863-5_7	N/A
-https://doi.org/10.1145/2034675.2034688	N/A
+https://doi.org/10.1007/978-3-319-11863-5_7	publication	2014
+https://doi.org/10.1145/2034675.2034688	publication	2011-09-22
 https://www.microsoft.com/en-us/research/publication/a-history-of-haskell-being-lazy-with-class/	N/A
 https://www.microsoft.com/en-us/research/publication/monads-zippers-and-views-virtualizing-the-monad-stack/	N/A
 https://www.microsoft.com/en-us/research/publication/safe-haskell/	N/A
 https://www.microsoft.com/en-us/research/publication/more-dependent-types-for-distributed-arrays/	N/A
-https://doi.org/10.1007/s10990-011-9075-y	N/A
+https://doi.org/10.1007/s10990-011-9075-y	publication	2010-11
 https://www.microsoft.com/en-us/research/publication/using-catamorphisms-subtypes-and-monad-transformers-for-writing-modular-functional-interpreters/	N/A
 https://www.microsoft.com/en-us/research/publication/deriving-monad-transformers/	N/A
 https://www.microsoft.com/en-us/research/publication/deriving-backtracking-monad-transformers/	N/A
@@ -2337,7 +2337,7 @@ https://www.microsoft.com/en-us/research/publication/monads-and-modularity/	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/903740A1C61C5EFD81B4695171949F51/S1471068426100453a.pdf/monadic_implementation_of_functional_logic_programs.pdf	N/A
 https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/firstview	N/A
 https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/article/monadic-implementation-of-functional-logic-programs/903740A1C61C5EFD81B4695171949F51	N/A
-https://dl.acm.org/doi/10.1145/3678232.3678249	N/A
+https://dl.acm.org/doi/10.1145/3678232.3678249	publication	2024-09-09
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/from-high-to-low-simulating-nondeterminism-and-state-with-state/190FBF349B0D32D56992C566CDBF5ED5	publication	2024-01
 https://dl.acm.org/doi/10.1016/j.scico.2024.103086	created	2024
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/generalized-monoidal-effects-and-handlers/E11A8F2693A1762295769026C91E2D1D	publication	2020-01
@@ -2422,25 +2422,25 @@ https://cseweb.ucsd.edu/classes/wi14/cse230-a/lectures/lec-monads.html	N/A
 https://www.cis.upenn.edu/~cis5520/current/lectures/stub/12-concurrency/Concurrency.html	N/A
 https://www.cis.upenn.edu/~cis1940/fall14/lectures/08-monads.html	created	1940
 https://cs.lmu.edu/~ray/notes/introhaskell/	N/A
-https://dl.acm.org/doi/10.1145/2003476.2003492	N/A
-https://dl.acm.org/doi/pdf/10.1145/2544174.2500585	N/A
-https://dl.acm.org/doi/10.1145/3236950.3236952	N/A
-https://dl.acm.org/doi/fullHtml/10.1145/2958736	N/A
-https://dl.acm.org/doi/10.1145/3133897	N/A
-https://dl.acm.org/doi/pdf/10.1145/1159842.1159854	N/A
-https://dl.acm.org/doi/pdf/10.1145/3607854	N/A
+https://dl.acm.org/doi/10.1145/2003476.2003492	publication	2011-07-20
+https://dl.acm.org/doi/pdf/10.1145/2544174.2500585	publication	2013-11-12
+https://dl.acm.org/doi/10.1145/3236950.3236952	publication	2018-09-03
+https://dl.acm.org/doi/fullHtml/10.1145/2958736	publication	2016-07-22
+https://dl.acm.org/doi/10.1145/3133897	publication	2017-10-12
+https://dl.acm.org/doi/pdf/10.1145/1159842.1159854	publication	2006-09-17
+https://dl.acm.org/doi/pdf/10.1145/3607854	publication	2023-08-30
 https://dl.acm.org/doi/pdf/10.1145/3133897	N/A
-https://dl.acm.org/doi/pdf/10.1145/2976002.2976010	N/A
-https://dl.acm.org/doi/pdf/10.1145/1016850.1016883	N/A
+https://dl.acm.org/doi/pdf/10.1145/2976002.2976010	publication	2016-09-08
+https://dl.acm.org/doi/pdf/10.1145/1016850.1016883	publication	2004-09-19
 https://dl.acm.org/doi/pdf/10.1145/2003476.2003492	N/A
 https://dl.acm.org/doi/pdf/10.1145/3236950.3236952	N/A
 https://dl.acm.org/doi/pdf/10.1145/2958736	N/A
 https://lambda-theultimate.org/node/5335	N/A
-https://dl.acm.org/doi/pdf/10.1145/1543134.1411288	N/A
-https://dl.acm.org/doi/pdf/10.1145/224164.224213	N/A
-https://dl.acm.org/doi/pdf/10.1145/2617548.2617551	N/A
-https://dl.acm.org/doi/pdf/10.1145/507635.507655	N/A
-https://dl.acm.org/doi/pdf/10.1145/2096148.2034685	N/A
+https://dl.acm.org/doi/pdf/10.1145/1543134.1411288	publication	2009-01-28
+https://dl.acm.org/doi/pdf/10.1145/224164.224213	publication	1995
+https://dl.acm.org/doi/pdf/10.1145/2617548.2617551	publication	2014-06-09
+https://dl.acm.org/doi/pdf/10.1145/507635.507655	publication	2001-10
+https://dl.acm.org/doi/pdf/10.1145/2096148.2034685	publication	2012-01-12
 https://arxiv.org/pdf/2508.03642	N/A
 https://arxiv.org/pdf/2303.01278	N/A
 https://www.cs.cornell.edu/courses/cs6112/2011fa/notes/nov01.pdf	created	2011
@@ -2474,8 +2474,8 @@ https://www.academia.edu/30954656/Real_World_Haskell	N/A
 https://medium.com/geekculture/why-haskell-a9117c42da12	N/A
 https://alexyorke.github.io/2025/06/29/list-is-a-monad/	publication	2025-06-29
 https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/	publication	2025-09-13
-https://link.springer.com/chapter/10.1007/978-1-4471-3215-8_23	N/A
-https://link.springer.com/chapter/10.1007/978-1-4471-3573-9_14	N/A
+https://link.springer.com/chapter/10.1007/978-1-4471-3215-8_23	publication	1993
+https://link.springer.com/chapter/10.1007/978-1-4471-3573-9_14	publication	1995
 https://csetzer.github.io/articles/dtp99.pdf	N/A
 https://csetzer.github.io/articles/dtp00.pdf	N/A
 https://csetzer.github.io/articles/michelbrinksetzer2004.pdf	created	2004
@@ -2499,7 +2499,7 @@ https://doi.org/10.1017/CBO9781316092415.011	publication	2014-10
 https://doi.org/10.1017/CBO9781139193313.006	publication	2009-11
 https://doi.org/10.1017/9781108241861.016	publication	2018-10
 https://doi.org/10.1016/j.entcs.2004.06.055	created	2004
-https://doi.org/10.1007/3-540-44622-2_21	N/A
+https://doi.org/10.1007/3-540-44622-2_21	publication	2000
 https://www.codefugue.com/magic-not-in-the-monad/	publication	2014-05-13
 https://softwareengineering.stackexchange.com/questions/412100/whats-the-value-of-io-monad	N/A
 https://madjestic.github.io/posts/2019-01-20-not-a-monad-tutorial.html	created	2019
@@ -2509,10 +2509,10 @@ https://medium.com/att-israel/its-time-you-learn-about-monads-4ebe687e3ec7	N/A
 https://www.haskell.org/onlinereport/haskell2010/	created	2010
 https://www.cs.tufts.edu/comp/150PLD/hw06-1.html	N/A
 https://dl.acm.org/doi/10.5555/647850.737221	N/A
-https://dl.acm.org/doi/abs/10.1145/1596550.1596589	N/A
-https://dl.acm.org/doi/pdf/10.1145/1631687.1596561	N/A
-https://dl.acm.org/doi/abs/10.1145/3331543.3342585	N/A
-https://link.springer.com/chapter/10.1007/3-540-62064-8_33	N/A
+https://dl.acm.org/doi/abs/10.1145/1596550.1596589	publication	2009-08-31
+https://dl.acm.org/doi/pdf/10.1145/1631687.1596561	publication	2009-08-31
+https://dl.acm.org/doi/abs/10.1145/3331543.3342585	publication	2019-08-23
+https://link.springer.com/chapter/10.1007/3-540-62064-8_33	publication	1996
 https://www.reddit.com/r/haskell/comments/1owtvs/could_you_explain_why_complexity_of_monadic_io_is/	N/A
 https://www.reddit.com/r/haskell/comments/swffy/why_do_we_not_define_io_as_a_free_monad/	N/A
 https://www.reddit.com/r/haskell/comments/4dsw74/its_the_io_type_not_io_monad/	N/A
@@ -2528,7 +2528,7 @@ https://dev.to/eureka84/how-to-live-in-a-pure-world-5fbj	N/A
 https://discuss.ocaml.org/t/threading-io-monad-vs-threads-the-case-of-web-app-servers/6935	publication	2020-12-07
 https://lambda-theultimate.org/node/1276	N/A
 https://www.cambridge.org/as/universitypress/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput?format=PB	N/A
-https://link.springer.com/chapter/10.1007/978-3-030-39197-3_9	N/A
+https://link.springer.com/chapter/10.1007/978-3-030-39197-3_9	publication	2020
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/flexible-dynamic-information-flow-control-in-the-presence-of-exceptions/DA92A6BA5FBBDC534F1B498217D160A8	publication	2017-01
 https://news.ycombinator.com/item?id=1183	N/A
 https://news.ycombinator.com/item?id=46123083	N/A
@@ -2568,7 +2568,7 @@ https://moss.cs.iit.edu/cs340/	N/A
 https://web.ecs.syr.edu/courses/cis352/diary.html	N/A
 https://web.ecs.syr.edu/~sueo/fp/writeups/syllabus.pdf	N/A
 https://www.cs.utexas.edu/~wcook/anatomy/anatomy.pdf	N/A
-https://doi.org/10.1145/158511.158524	N/A
+https://doi.org/10.1145/158511.158524	publication	1993
 https://www.microsoft.com/en-us/research/publication/an-operational-semantics-for-io-in-a-lazy-functional-language/	N/A
 https://repository.nottingham.ac.uk/entities/publication/615ec641-cbee-4c82-a121-3789b1b11cfa	N/A
 https://repository.tudelft.nl/file/File_e5e764ca-7470-4399-a070-c9fd53b1122c?preview=1	N/A
@@ -2598,8 +2598,8 @@ https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Syste
 https://www.cambridge.org/core/books/haskell-school-of-music/higherorder-types-and-monads/D77C48D01FCD99F307CF94FDF3126A6E	publication	2018-10
 https://ks.cs.uchicago.edu/publication/qhtt-masters/qhtt-masters.pdf	N/A
 https://arxiv.org/pdf/1903.01237	created	1903
-https://dl.acm.org/doi/pdf/10.1145/3720434	N/A
-https://dl.acm.org/doi/pdf/10.1145/3674651	N/A
+https://dl.acm.org/doi/pdf/10.1145/3720434	publication	2025-04-09
+https://dl.acm.org/doi/pdf/10.1145/3674651	publication	2024-08-15
 https://lirias.kuleuven.be/retrieve/efc6afb8-d4ec-4f22-8b1a-e3f88e5a50c9	N/A
 https://chrisdone.com/posts/applicative-wired-monad/	N/A
 https://noelwelsh.com/posts/direct-style/	N/A
@@ -2641,9 +2641,9 @@ https://www.doc.ic.ac.uk/~dorchard/publ/effects-revisited.pdf	N/A
 https://arxiv.org/pdf/2304.09697	N/A
 https://www.kurims.kyoto-u.ac.jp/~tsanada/papers/phdthesis.pdf	N/A
 https://www.cis.upenn.edu/~cis1940/fall16/lectures/06-io-and-monads.html	created	1940
-https://dl.acm.org/doi/pdf/10.1145/3331545.3342595	N/A
-https://dl.acm.org/doi/pdf/10.1145/3331545.3342589	N/A
-https://dl.acm.org/doi/pdf/10.1145/2775050.2633368	N/A
+https://dl.acm.org/doi/pdf/10.1145/3331545.3342595	publication	2019-08-08
+https://dl.acm.org/doi/pdf/10.1145/3331545.3342589	publication	2019-08-08
+https://dl.acm.org/doi/pdf/10.1145/2775050.2633368	publication	2015-05-11
 https://arxiv.org/pdf/1401.5391	N/A
 https://arxiv.org/pdf/1312.2334	N/A
 https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
@@ -2667,7 +2667,7 @@ https://blog.haskell.org/case-study-foreign-integration-js-browser/	N/A
 https://blog.haskell.org/stability-working-group/	N/A
 https://www.youtube.com/watch?v=RsTuy1jXQ6Y	N/A
 https://github.com/jaspervdj/talks/blob/master/2017-haskell-exchange-getting-things-done/slides.md	created	2017
-https://dl.acm.org/doi/10.1145/2804302.2804319	N/A
+https://dl.acm.org/doi/10.1145/2804302.2804319	publication	2015-08-30
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/parallel-dualnumbers-reverse-ad/ECFEF5DE72D5CB7C5BBA0AD7C203BF38	publication	2025-01
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/GHC-IO-StdHandles.html	N/A
@@ -2832,10 +2832,10 @@ https://www.reddit.com/r/haskell/comments/1u1ueos/a_reference_implementation_of_
 https://www.reddit.com/user/tomejaguar/	N/A
 https://doi.org/10.1051/ita:2002008	publication	2002-04-01
 https://doi.org/10.1051/ita:2004018	publication	2004-10-01
-https://doi.org/10.1145/3110257	N/A
+https://doi.org/10.1145/3110257	publication	2017-08-29
 https://doi.org/10.1017/S0956796820000106	publication	2020-01
-https://doi.org/10.1017/S0956796820000271	N/A
-https://dl.acm.org/doi/10.1145/3759164.3759352	N/A
+https://doi.org/10.1017/S0956796820000271	publication	2021-01-27
+https://dl.acm.org/doi/10.1145/3759164.3759352	publication	2025-10-09
 https://dl.acm.org/doi/10.1145/3720434	N/A
 https://dl.acm.org/doi/10.1145/3759425.3763396	N/A
 https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844	publication	2025-04-13
