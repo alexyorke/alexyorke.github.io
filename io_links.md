@@ -4049,7 +4049,7 @@ https://www.haskell.org/haskellwiki/New_monads/MonadBaseControl	N/A
 https://www.haskell.org/haskellwiki/New_monads/LazyWriterT	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-Instances.html	modified	2025-12-18
 https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Reader.html	modified	2025-12-18
-https://dblp.org/rec/conf/icfp/FelleisenFFK09	N/A
+https://dblp.org/rec/conf/icfp/FelleisenFFK09	published	2009
 https://www.haskell.org/haskellwiki/Roll_your_own_IRC_bot	N/A
 https://www.haskell.org/haskellwiki/SPOJ	N/A
 https://www.haskell.org/haskellwiki/simple_unix_tools	N/A
@@ -4720,8 +4720,8 @@ https://www.numdam.org/articles/10.1051/ita:2002008/	publication	2002
 https://library.strathmore.edu/Record/2091	N/A
 https://obnb.uk/a00497587-andrew-d-gordon	N/A
 https://hackage.haskell.org/package/iteratee-0.8.7.1	N/A
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.html	N/A
-https://dblp.org/rec/phd/ethos/Gordon92	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.html	published	1992
+https://dblp.org/rec/phd/ethos/Gordon92	published	1992
 https://www.angusrobertson.com.au/books/functional-programming-and-inputoutput-andrew-d-gordon/p/9780521070072	N/A
 https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444881359500097	N/A
 https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/17-iomonad.pdf	N/A
@@ -4843,7 +4843,7 @@ https://www.scribd.com/document/357197882/Imperative-Functional-Programming-Phil
 https://www.researchgate.net/publication/2743675_Report_on_the_Programming_Language	N/A
 https://www.researchgate.net/publication/2527238_The_Pros_and_Cons_of_Teaching_Purely_Functional_Programming_in_First_Year	N/A
 https://www.researchgate.net/publication/2625989_The_Beauty_and_the_Beast	N/A
-https://dblp.org/rec/conf/fp/AchtenGP92	N/A
+https://dblp.org/rec/conf/fp/AchtenGP92	published	1992
 https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1992/DagSemRep.36/DagSemRep.36.pdf	created	1992
 https://ir.cwi.nl/pub/27512/Nr.%2026%20%28juni%201993%29	created	2026
 https://www.altocumulus.org/Fudgets/fudgets-fpca93.html	N/A
@@ -4852,7 +4852,7 @@ https://stackoverflow.com/questions/3850368/how-do-functional-languages-model-si
 https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf	N/A
 https://doi.org/10.1093/comjnl/31.3.243	publication	1988-03-01
 https://doi.org/10.1007/3-540-17945-3_3	publication	1987
-https://dblp.org/rec/journals/ipl/Dwelly88	N/A
+https://dblp.org/rec/journals/ipl/Dwelly88	published	1988
 https://citeseerx.ist.psu.edu/document?doi=e6bc44fbba2a6ebc8a3af0069bde561e5b6b0653&repid=rep1&type=pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=e0abbe5826666753560fe6d0a021b8ec04d50e9b&repid=rep1&type=pdf	N/A
 https://fpl.cs.depaul.edu/cpitcher/research/2001-dphil-thesis-fp-and-non-det.pdf	created	2001
@@ -5473,7 +5473,7 @@ https://mabboux.net/informatique/haskell/haskell0.html	N/A
 https://dblp.org/pid/00/5157.html	N/A
 https://archiv.infsec.ethz.ch/education/ss10/fmfp/haskell_links.html	N/A
 https://www.numdam.org/article/ITA_2002__36_2_155_0.pdf	created	2002
-https://dblp.org/rec/journals/ita/ErkokLM02	N/A
+https://dblp.org/rec/journals/ita/ErkokLM02	published	2002
 https://www.salahadawi.com/hacker-news-ai-detector/monad-tutorials-timeline	N/A
 https://bob.ippoli.to/haskell-for-erlangers-2014/	created	2014
 https://www.numdam.org/item/?id=ITA_2002__36_2_155_0	created	2002
@@ -5537,7 +5537,7 @@ https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902222199463289	N/A
 https://eprints.nottingham.ac.uk/13348/	N/A
 https://citeseerx.ist.psu.edu/document?doi=24fd36e132569bb3a5f39fe9eafa51b306423c36&repid=rep1&type=pdf	N/A
 https://dblp.org/pid/s/ChungchiehShan	N/A
-https://dblp.org/rec/conf/haskell/KiselyovS08	N/A
+https://dblp.org/rec/conf/haskell/KiselyovS08	published	2008
 https://bibtex.github.io/tag/monad.html	N/A
 https://b-studios.de/functional%20programming/scala/2019/01/17/even-more-lightweight-monadic-regions.html	created	2019
 https://www.researchgate.net/publication/253417251_Compiling_Concurrency_Correctly_Cutting_Out_the_Middle_Man	N/A
@@ -5862,7 +5862,7 @@ https://www.reddit.com/r/haskell/comments/pkj92z	N/A
 https://www.reddit.com/r/haskell/comments/utmymx	N/A
 https://www.reddit.com/r/haskell/comments/yb09cq	N/A
 https://arxiv.org/abs/1612.04610	created	2016-12
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.html	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.html	published	1994
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-Conc-Sync.html	N/A
 https://gitlab.haskell.org/ghc/ghc/-/issues/24263	N/A
 https://mail.haskell.org/pipermail/libraries/2017-July/028113.html	created	2017
@@ -5905,7 +5905,7 @@ https://www.reddit.com/r/haskell/comments/ud78pi	N/A
 https://www.researchgate.net/publication/220752313_Asynchronous_Exceptions_in_Haskell	N/A
 https://www.researchgate.net/publication/233858461_Conservative_Concurrency_in_Haskell	N/A
 https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/slides/krauss.pdf	created	2005
-https://dblp.org/rec/conf/pldi/MarlowJMR01	N/A
+https://dblp.org/rec/conf/pldi/MarlowJMR01	published	2001
 https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=1048713	publication	2001
 https://www.haskell.org/communities/11-2015/html/report.html	created	2015
 https://www.haskell.org/haskell-workshop/2004/program.pdf	created	2004
@@ -5932,7 +5932,7 @@ https://cronfa.swan.ac.uk/Record/cronfa28988/Download/0028988-06122016222602.pdf
 https://cronfa.swan.ac.uk/Record/cronfa54270/Download/54270__17286__42c977b3ef4f420d89ba3edf602893cb.pdf	N/A
 https://dblp.org/db/journals/entcs/entcs122	N/A
 https://dblp.org/pid/47/2439.html	N/A
-https://dblp.org/rec/journals/entcs/MichelbrinkS05	N/A
+https://dblp.org/rec/journals/entcs/MichelbrinkS05	published	2005
 https://docs.huihoo.com/haskell/haskell-tutorial-for-c-programmers/section3.html	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.30	created	2023
 https://ftp.math.utah.edu/pub/tex/bib/toc/jfunctprogram.html	N/A
@@ -6207,8 +6207,8 @@ https://ci.nii.ac.jp/ncid/BA23765645	created	1994
 https://citeseerx.ist.psu.edu/document?doi=3bf9b30fd286618b8d7044bec752d51a6cf4f5ce&repid=rep1&type=pdf	N/A
 https://cnds.constructor.university/courses/ics-2019/hs-slides.pdf	created	2019
 https://cth.altocumulus.org/~hallgren/Papers/memo89.html	N/A
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.html	N/A
-https://dblp.org/rec/conf/fpca/Gordon93	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.html	published	1993
+https://dblp.org/rec/conf/fpca/Gordon93	published	1993
 https://discovery.ucl.ac.uk/10102879/1/Developing_and_measuring_paral.pdf	N/A
 https://doi.org/10.1017/S0956796800001258	publication	1995-01
 https://doi.org/10.1145/165180.165199	publication	1993-07
@@ -6259,10 +6259,10 @@ https://cris.vub.be/ws/portalfiles/portal/54382515/DARTS_6_2_7.pdf	N/A
 https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/index.html	N/A
 https://cs.pomona.edu/classes/cs131/csc131_2.html	N/A
 https://cse.sc.edu/~mgv/csce590f21/haskell/haskell2010.pdf	created	2010
-https://dblp.dagstuhl.de/rec/conf/haskell/SwierstraA07.html	N/A
+https://dblp.dagstuhl.de/rec/conf/haskell/SwierstraA07.html	published	2007
 https://dblp.org/db/conf/haskell/haskell2007	created	2007
 https://dblp.org/rec/conf/haskell/2007	created	2007
-https://dblp.org/rec/conf/haskell/SwierstraA07	N/A
+https://dblp.org/rec/conf/haskell/SwierstraA07	published	2007
 https://dhil.net/research/papers/conc_system_prog_handlers-draft-may2017.pdf	created	2017
 https://dhil.net/research/papers/thesis2015.pdf	created	2015
 https://dhil.net/research/talks/aeio-2017-06.pdf	created	2017
@@ -6783,7 +6783,7 @@ https://downloads.haskell.org/ghc/9.2.3/docs/html/users_guide/exts/ffi.html	modi
 https://research.google.com/intl/en/pubs/SoftwareSystems.html	N/A
 https://www.cs.tufts.edu/~nr/cs257/ss.html	N/A
 https://www.researchgate.net/publication/327737169_A_high-performance_multicore_IO_manager_based_on_libuv_experience_report	N/A
-https://dblp.org/rec/conf/haskell/HanH18	N/A
+https://dblp.org/rec/conf/haskell/HanH18	published	2018
 https://ftp.math.utah.edu/pub/tex/bib/toc/sigplan2010.html	created	2010
 https://icfp18.sigplan.org/track/haskellsymp-2018-papers	created	2018
 https://www.haskell.org/haskell-symposium/2013/	created	2013
@@ -6792,7 +6792,7 @@ https://www.mew.org/~kazu/doc/paper/haskell-paper.html	N/A
 https://www.researchgate.net/publication/303969094_Combining_Events_And_Threads_For_Scalable_Network_Services_Implementation_And_Evaluation_Of_Monadic_Application-level_Concurrency_Primitives	N/A
 https://dblp.org/db/conf/haskell/haskell2010	created	2010
 https://dblp.org/pid/58/10736.html	N/A
-https://dblp.org/rec/conf/haskell/OSullivanT10	N/A
+https://dblp.org/rec/conf/haskell/OSullivanT10	published	2010
 https://arxiv.org/abs/1602.05365	created	2016-02
 https://arxiv.org/abs/2008.13359	created	2008
 https://ceur-ws.org/Vol-1129/paper48.pdf	N/A
@@ -6824,7 +6824,7 @@ https://www.researchgate.net/publication/270956407_Beautiful_concurrency	N/A
 https://www.researchgate.net/publication/308381653_Composable_Memory_Transactions_with_Eager_Version_Management	N/A
 https://www.sigplan.org/OpenTOC/haskell17.html	N/A
 https://www.sigplan.org/OpenTOC/haskell22.html	N/A
-https://dblp.org/rec/conf/haskell/LeYF16	N/A
+https://dblp.org/rec/conf/haskell/LeYF16	published	2016
 https://discourse.haskell.org/t/is-unsafeiotostm-ever-safe/4815	publication	2022-07-22
 https://mailman.haskell.org/archives/list/glasgow-haskell-users%40haskell.org/message/FU4DIM2Q2EHCOVZHDZ53FI75NMT25JDZ/	N/A
 https://mcschroeder.github.io/files/stmio_thesis.pdf	N/A
@@ -6866,9 +6866,9 @@ https://books.google.com/books?id=wSkRAAAAQBAJ	N/A
 https://dblp.org/db/conf/popl/popl96.html	N/A
 https://dblp.org/pid/08/649.html	N/A
 https://dblp.org/pid/j/SimonLPeytonJones.html	N/A
-https://dblp.org/rec/conf/afp/JonesS08	N/A
-https://dblp.org/rec/conf/haskell/LiMJT07	N/A
-https://dblp.org/rec/conf/popl/JonesGF96	N/A
+https://dblp.org/rec/conf/afp/JonesS08	published	2008
+https://dblp.org/rec/conf/haskell/LiMJT07	published	2007
+https://dblp.org/rec/conf/popl/JonesGF96	published	1996
 https://www.researchgate.net/publication/220752094_Composable_Asynchronous_Events	N/A
 https://www.researchgate.net/publication/221600536_A_High-Level_Implementation_of_Composable_Memory_Transactions_in_Concurrent_Haskell	N/A
 https://citeseerx.ist.psu.edu/document?doi=00eac28d29540f6932d64bc1be12deaf311ea0dd&repid=rep1&type=pdf	N/A
@@ -6990,8 +6990,8 @@ https://dblp.org/db/conf/padl/padl2019	created	2019
 https://dblp.org/db/journals/jfp/jfp30	N/A
 https://dblp.org/pid/s/JMichaelSpivey	N/A
 https://dblp.org/pid/s/TomSchrijvers.html	N/A
-https://dblp.org/rec/conf/padl/PietersS19	N/A
-https://dblp.org/rec/journals/jfp/PietersS20	N/A
+https://dblp.org/rec/conf/padl/PietersS19	published	2019
+https://dblp.org/rec/journals/jfp/PietersS20	published	2020
 https://www.researchgate.net/publication/326921126_Extensions_to_Type_Classes_and_Pattern_Match_Checking	N/A
 https://bibtex.github.io/tag/performance.html	N/A
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol012-csl2011/LIPIcs.CSL.2011.292/LIPIcs.CSL.2011.292.pdf	created	2011
@@ -7056,7 +7056,7 @@ https://en.wikipedia.org/wiki/Haskell_features	N/A
 https://hackage.haskell.org/package/fudgets	N/A
 https://ogi.altocumulus.org/~hallgren/Fudgets/	N/A
 https://www.altocumulus.org/Fudgets/dist-h12.html	N/A
-https://dblp1.uni-trier.de/rec/conf/icfp/ElliottH97.html	N/A
+https://dblp1.uni-trier.de/rec/conf/icfp/ElliottH97.html	published	1997
 https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_368/_article/-char/en	publication	2025
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C828ACD945F6DF45CE9B5DFDF0B67C76/S0956796800003671a.pdf/functional_reactive_animation_of_a_lift_using_fran.pdf	N/A
 https://alastairreid.github.io/papers/	N/A
@@ -7390,17 +7390,17 @@ https://repository.upenn.edu/bitstreams/69072158-fade-4334-be54-182522b57de5/dow
 https://www.reddit.com/r/haskell/comments/j7ci9e	N/A
 https://www.reddit.com/r/haskell/comments/v80v6f	N/A
 ## Citation records, catalogs, and book previews
-https://dblp.org/rec/conf/popl/JonesW93	N/A
-https://dblp.org/rec/conf/popl/JonesW93.html	N/A
+https://dblp.org/rec/conf/popl/JonesW93	published	1993
+https://dblp.org/rec/conf/popl/JonesW93.html	published	1993
 https://dblp.org/rec/conf/popl/JonesW93.bib	N/A
 https://dblp.org/rec/conf/popl/JonesW93.ris	N/A
 https://dblp.org/rec/conf/popl/JonesW93.xml	N/A
-https://dblp.org/rec/journals/ita/ErkokLM02.html	N/A
+https://dblp.org/rec/journals/ita/ErkokLM02.html	published	2002
 https://dblp.org/rec/journals/ita/ErkokLM02.bib	N/A
 https://dblp.org/rec/journals/ita/ErkokLM02.ris	N/A
 https://dblp.org/rec/journals/ita/ErkokLM02.xml	N/A
-https://dblp.org/rec/journals/lisp/LaunchburyJ95	N/A
-https://dblp.org/rec/journals/lisp/LaunchburyJ95.html	N/A
+https://dblp.org/rec/journals/lisp/LaunchburyJ95	published	1995
+https://dblp.org/rec/journals/lisp/LaunchburyJ95.html	published	1995
 https://dblp.org/rec/journals/lisp/LaunchburyJ95.bib	N/A
 https://dblp.org/rec/journals/lisp/LaunchburyJ95.ris	N/A
 https://dblp.org/rec/journals/lisp/LaunchburyJ95.xml	N/A
@@ -7457,11 +7457,11 @@ https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/State-monad.lhs.t
 https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/State-monad.lhs	N/A
 ## Thesis identifiers and proceedings exports
 https://doi.org/10.6083/M4SQ8XBW	publication	2002
-https://dblp.org/rec/phd/ethos/Gordon92.html	N/A
+https://dblp.org/rec/phd/ethos/Gordon92.html	published	1992
 https://dblp.org/rec/phd/ethos/Gordon92.bib	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.ris	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.xml	N/A
-https://dblp.org/rec/conf/fp/AchtenGP92.html	N/A
+https://dblp.org/rec/conf/fp/AchtenGP92.html	published	1992
 https://dblp.org/rec/conf/fp/AchtenGP92.bib	N/A
 https://dblp.org/rec/conf/fp/AchtenGP92.ris	N/A
 https://dblp.org/rec/conf/fp/AchtenGP92.xml	N/A
@@ -7470,45 +7470,45 @@ https://coursys.sfu.ca/2018sp-cmpt-384-d1/pages/IO	created	2018
 https://grosskurth.ca/bib/2003/dowse-tr.pdf	created	2003
 https://cgi.cse.unsw.edu.au/~eptcs/references.cgi?MSFP2012.8.html=	created	2012
 https://dl.acm.org/doi/10.5555/647557.729907	N/A
-https://dblp.org/rec/conf/ifl/DowseSB02	N/A
-https://dblp.org/rec/conf/ifl/DowseSB02.html	N/A
+https://dblp.org/rec/conf/ifl/DowseSB02	published	2002
+https://dblp.org/rec/conf/ifl/DowseSB02.html	published	2002
 https://dblp.org/rec/conf/ifl/DowseSB02.bib	N/A
 https://dblp.org/rec/conf/ifl/DowseSB02.ris	N/A
 https://dblp.org/rec/conf/ifl/DowseSB02.xml	N/A
-https://dblp.org/rec/conf/ifl/ButterfieldS01	N/A
-https://dblp.org/rec/conf/ifl/ButterfieldS01.html	N/A
+https://dblp.org/rec/conf/ifl/ButterfieldS01	published	2001
+https://dblp.org/rec/conf/ifl/ButterfieldS01.html	published	2001
 https://dblp.org/rec/conf/ifl/ButterfieldS01.bib	N/A
 https://dblp.org/rec/conf/ifl/ButterfieldS01.ris	N/A
 https://dblp.org/rec/conf/ifl/ButterfieldS01.xml	N/A
-https://dblp.org/rec/conf/ifl/DowseBE04	N/A
-https://dblp.org/rec/conf/ifl/DowseBE04.html	N/A
+https://dblp.org/rec/conf/ifl/DowseBE04	published	2004
+https://dblp.org/rec/conf/ifl/DowseBE04.html	published	2004
 https://dblp.org/rec/conf/ifl/DowseBE04.bib	N/A
 https://dblp.org/rec/conf/ifl/DowseBE04.ris	N/A
 https://dblp.org/rec/conf/ifl/DowseBE04.xml	N/A
-https://dblp.org/rec/conf/cefp/Butterfield11	N/A
-https://dblp.org/rec/conf/cefp/Butterfield11.html	N/A
+https://dblp.org/rec/conf/cefp/Butterfield11	published	2011
+https://dblp.org/rec/conf/cefp/Butterfield11.html	published	2011
 https://dblp.org/rec/conf/cefp/Butterfield11.bib	N/A
 https://dblp.org/rec/conf/cefp/Butterfield11.ris	N/A
 https://dblp.org/rec/conf/cefp/Butterfield11.xml	N/A
-https://dblp.org/rec/conf/icfp/DowseB06	N/A
-https://dblp.org/rec/conf/icfp/DowseB06.html	N/A
+https://dblp.org/rec/conf/icfp/DowseB06	published	2006
+https://dblp.org/rec/conf/icfp/DowseB06.html	published	2006
 https://dblp.org/rec/conf/icfp/DowseB06.bib	N/A
 https://dblp.org/rec/conf/icfp/DowseB06.ris	N/A
 https://dblp.org/rec/conf/icfp/DowseB06.xml	N/A
-https://dblp.org/rec/conf/icfp/FelleisenFFK09.html	N/A
+https://dblp.org/rec/conf/icfp/FelleisenFFK09.html	published	2009
 https://dblp.org/rec/conf/icfp/FelleisenFFK09.bib	N/A
 https://dblp.org/rec/conf/icfp/FelleisenFFK09.ris	N/A
 https://dblp.org/rec/conf/icfp/FelleisenFFK09.xml	N/A
 ## Interactive-functional records and report mirrors
 https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/DAT600/?acYear=2026%2F2027	created	2026
 https://www.cs.ox.ac.uk/people/maciej.pirog/mbext.pdf	N/A
-https://dblp.org/rec/phd/basesearch/Achten96	N/A
-https://dblp.org/rec/phd/basesearch/Achten96.html	N/A
+https://dblp.org/rec/phd/basesearch/Achten96	published	1996
+https://dblp.org/rec/phd/basesearch/Achten96.html	published	1996
 https://dblp.org/rec/phd/basesearch/Achten96.bib	N/A
 https://dblp.org/rec/phd/basesearch/Achten96.ris	N/A
 https://dblp.org/rec/phd/basesearch/Achten96.xml	N/A
-https://dblp.org/rec/conf/plilp/Achten95	N/A
-https://dblp.org/rec/conf/plilp/Achten95.html	N/A
+https://dblp.org/rec/conf/plilp/Achten95	published	1995
+https://dblp.org/rec/conf/plilp/Achten95.html	published	1995
 https://dblp.org/rec/conf/plilp/Achten95.bib	N/A
 https://dblp.org/rec/conf/plilp/Achten95.ris	N/A
 https://dblp.org/rec/conf/plilp/Achten95.xml	N/A
@@ -7594,8 +7594,8 @@ https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=
 https://books.google.com/books/about/Haskell.html?id=es9GPgAACAAJ	N/A
 ## Early functional I/O papers, records, and mirrors
 https://doi.org/10.1007/978-1-4471-3166-3_11	publication	1990
-https://dblp.org/rec/conf/fp/McLoughlinH89	N/A
-https://dblp.org/rec/conf/fp/McLoughlinH89.html	N/A
+https://dblp.org/rec/conf/fp/McLoughlinH89	published	1989
+https://dblp.org/rec/conf/fp/McLoughlinH89.html	published	1989
 https://dblp.org/rec/conf/fp/McLoughlinH89.bib	N/A
 https://dblp.org/rec/conf/fp/McLoughlinH89.ris	N/A
 https://dblp.org/rec/conf/fp/McLoughlinH89.xml	N/A
@@ -7605,7 +7605,7 @@ https://smlfamily.github.io/history/macqueen-lucafest.pdf	N/A
 https://docs.huihoo.com/ml/smlfamily/history/SML-history.pdf	N/A
 https://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	N/A
 https://web.archive.org/web/20190307145556/http://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	archived	2019-03-07
-https://dblp.org/rec/journals/ipl/Dwelly88.html	N/A
+https://dblp.org/rec/journals/ipl/Dwelly88.html	published	1988
 https://dblp.org/rec/journals/ipl/Dwelly88.bib	N/A
 https://dblp.org/rec/journals/ipl/Dwelly88.ris	N/A
 https://dblp.org/rec/journals/ipl/Dwelly88.xml	N/A
@@ -7617,8 +7617,8 @@ https://citeseerx.ist.psu.edu/document?doi=61bf6b9882b4a5f0f381d97fe670e4c713c0e
 https://news.ycombinator.com/item?id=8335010	created	2014-09-18
 https://openalex.org/W2134078973	N/A
 https://openalex.org/W1989524304	N/A
-https://dblp.org/rec/journals/jfp/Burton91	N/A
-https://dblp.org/rec/journals/jfp/Burton91.html	N/A
+https://dblp.org/rec/journals/jfp/Burton91	published	1991
+https://dblp.org/rec/journals/jfp/Burton91.html	published	1991
 https://dblp.org/rec/journals/jfp/Burton91.bib	N/A
 https://dblp.org/rec/journals/jfp/Burton91.ris	N/A
 https://dblp.org/rec/journals/jfp/Burton91.xml	N/A
@@ -7628,8 +7628,8 @@ https://ir.cwi.nl/pub/27567/Thesis_N_Bezirgiannis	N/A
 https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/9.4.1-notes.html	modified	2022-08-20
 https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	modified	2019-02-15
-https://dblp.org/rec/conf/ifl/AchtenJ00	N/A
-https://dblp.org/rec/conf/ifl/AchtenJ00.html	N/A
+https://dblp.org/rec/conf/ifl/AchtenJ00	published	2000
+https://dblp.org/rec/conf/ifl/AchtenJ00.html	published	2000
 https://dblp.org/rec/conf/ifl/AchtenJ00.bib	N/A
 https://dblp.org/rec/conf/ifl/AchtenJ00.ris	N/A
 https://dblp.org/rec/conf/ifl/AchtenJ00.xml	N/A
@@ -7763,14 +7763,14 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA
 https://openalex.org/W4414067080	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/div-class-title-automatically-testing-console-i-o-behavior-of-student-submissions-in-haskell-div.pdf	N/A
 ## Functional and operational semantics for I/O
-https://dblp.org/rec/conf/fpca/Gordon93.html	N/A
+https://dblp.org/rec/conf/fpca/Gordon93.html	published	1993
 https://dblp.org/rec/conf/fpca/Gordon93.bib	N/A
 https://dblp.org/rec/conf/fpca/Gordon93.ris	N/A
 https://dblp.org/rec/conf/fpca/Gordon93.xml	N/A
 https://www.numdam.org/article/ITA_2004__38_4_375_0.pdf	created	2004
 https://citeseerx.ist.psu.edu/document?doi=9995cdf9ea0ce604e65a6c09b45f83ea714b788e&repid=rep1&type=pdf	N/A
 https://webspace.science.uu.nl/~swier004/talks/	N/A
-https://dblp.org/rec/conf/haskell/SwierstraA07.html	N/A
+https://dblp.org/rec/conf/haskell/SwierstraA07.html	published	2007
 https://dblp.org/rec/conf/haskell/SwierstraA07.bib	N/A
 https://dblp.org/rec/conf/haskell/SwierstraA07.ris	N/A
 https://dblp.org/rec/conf/haskell/SwierstraA07.xml	N/A
@@ -8400,13 +8400,13 @@ https://www.cs.put.poznan.pl/ksiek/fp/monads/	N/A
 https://citeseerx.ist.psu.edu/document?doi=bc3e8fbd8686d793583b75cd777345aef7143771&repid=rep1&type=pdf	N/A
 https://www.it.uu.se/edu/course/homepage/avfunpro/ht10/notes/glimming-4up.pdf	N/A
 ## Early monadic IO citation indexes and proceedings mirrors
-https://dblp.uni-trier.de/rec/conf/popl/JonesW93.html	N/A
+https://dblp.uni-trier.de/rec/conf/popl/JonesW93.html	published	1993
 https://dblp.org/pid/w/PhilipWadler.html	N/A
 https://simon.peytonjones.org/publications-1999/	publication	1990-01-01
 https://homepages.inf.ed.ac.uk/wadler/	N/A
 https://researchr.org/profile/philipwadler/publications	N/A
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/Implementation%20of%20Functional%20Languages%2C%2011%20conf.%2C%20IFL%2799%28LNCS1868%2C%20Springer%2C%202000%29%28ISBN%203540678646%29%28204s%29.pdf	created	2011
-https://dblp.org/rec/conf/afp/Wadler95.html	N/A
+https://dblp.org/rec/conf/afp/Wadler95.html	published	1995
 https://researchr.org/publication/Wadler92-0	N/A
 https://doi.org/10.1007/3-540-59451-5_2	publication	1995
 https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/imperative.html	N/A
@@ -10335,7 +10335,7 @@ https://www.researchgate.net/publication/273444648_Freer_Monads_More_Extensible_
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012
 https://stackoverflow.com/questions/1319705/introduction-or-simple-examples-for-iteratee	created	2009-08-23
 https://dblp.org/pid/78/3192.html	N/A
-https://dblp.org/rec/conf/flops/Kiselyov12	N/A
+https://dblp.org/rec/conf/flops/Kiselyov12	published	2012
 https://link.springer.com/book/10.1007/978-3-642-29822-6	publication	2012
 https://doi.org/10.1007/978-3-642-29822-6_15	publication	2012
 https://dblp.org/db/conf/flops/index	N/A
@@ -10348,7 +10348,7 @@ https://homes.luddy.indiana.edu/ccshan/capability/region-io-talk.pdf	N/A
 https://www.haskell.org/haskell-symposium/2008/accepted.html	created	2008
 https://doi.org/10.1016/j.scico.2015.11.010	created	2015
 https://www.researchgate.net/publication/254462930_Safe_haskell	N/A
-https://dblp.org/rec/conf/haskell/StefanRMM11.html	N/A
+https://dblp.org/rec/conf/haskell/StefanRMM11.html	published	2011
 https://doi.org/10.1145/2096148.2034688	publication	2012-01-12
 https://doi.org/10.1145/2364506.2364524	publication	2012-09-13
 https://www.scs.stanford.edu/~deian/pubs/stefan%3A2011%3Aflexible.pdf	created	2011
@@ -10391,7 +10391,7 @@ https://ws.lib.ttu.ee/publikatsioonid/et/publ/item/08708474-6b91-47f9-ad7c-b9556
 https://doi.org/10.1145/3632916	publication	2024-01-02
 https://www.doc.ic.ac.uk/~livshits/papers/pdf/pldi13.pdf	N/A
 https://doi.org/10.1145/2491956.2491978	publication	2013-06-16
-https://dblp.org/rec/journals/corr/abs-2303-01350	N/A
+https://dblp.org/rec/journals/corr/abs-2303-01350	published	1950
 https://mtzguido.github.io/pubs/sciostar.pdf	N/A
 https://pleiad.cl/papers/2024/andriciAl-popl2024.pdf	created	2024
 https://link.springer.com/chapter/10.1007/978-3-031-91121-7_16	N/A
@@ -10452,7 +10452,7 @@ https://www.researchgate.net/publication/215991534_Arrows_Robots_and_Functional_
 https://wrap.warwick.ac.uk/id/eprint/191913/	N/A
 https://publications.scss.tcd.ie/theses/diss/2013/TCD-SCSS-DISSERTATION-2013-040.pdf	created	2013
 https://dblp.org/pid/09/5433	N/A
-https://dblp.org/rec/conf/icfp/Janin19	N/A
+https://dblp.org/rec/conf/icfp/Janin19	published	2019
 https://hds.hebis.de/fuas/EBSCO/Record?id=edsbas.23104C05%7Cedsbas	N/A
 https://doi.org/10.1145/3331543.3342585	N/A
 https://icfp19.sigplan.org/home/farm-2019	created	2019
@@ -10471,7 +10471,7 @@ https://doi.org/10.34726/hss.2023.110085	created	2023
 https://hackage.haskell.org/package/monad-param/docs/Control-Monad-Parameterized.html	created	2011-01-15
 https://www.eyrie.org/~zednenem/2012/07/29/paramonads	created	2012
 https://dblp.org/pid/t/EricTanter.html	N/A
-https://dblp.org/rec/journals/scp/FigueroaTT16	N/A
+https://dblp.org/rec/journals/scp/FigueroaTT16	published	2016
 https://users.dcc.uchile.cl/~gnavarro/res/ET.html	N/A
 https://www.researchgate.net/topic/Haskell/publications/30	N/A
 https://arxiv.org/abs/2601.14846	created	2026-01
@@ -10485,7 +10485,7 @@ https://www.researchgate.net/publication/372508025_Session_Types_with_Linearity_
 https://popl21.sigplan.org/details/POPL-2021-research-papers/50/A-Graded-Dependent-Type-System-with-a-Usage-Aware-Semantics	created	2021
 https://drops.dagstuhl.de/entities/document/10.4230/DagSemProc.04381.2	N/A
 https://doi.org/10.4230/DagSemProc.04381.2	N/A
-https://dblp.dagstuhl.de/rec/journals/entcs/MichelbrinkS05.html	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/MichelbrinkS05.html	published	2005
 https://csetzer.github.io/articles/objectOrientedProgrammingInDepTypeTheoryTfp2006.pdf	created	2006
 https://dblp.org/db/conf/csl/csl2000	created	2000
 https://csetzer.github.io/articles/TyDe2016.pdf	created	2016
@@ -10498,7 +10498,7 @@ https://poisson.chat/popl20/itrees.pdf	N/A
 https://deepspec.github.io/InteractionTrees/	N/A
 https://gmalecha.github.io/publications/2020/interaction-trees-representing-recursive-and-impure-programs-in-coq/	created	2020
 https://paulhe.com/assets/ctrees-popl.pdf	N/A
-https://dblp.org/rec/journals/pacmpl/XiaZHHMPZ20	N/A
+https://dblp.org/rec/journals/pacmpl/XiaZHHMPZ20	published	2020
 https://popl21.sigplan.org/details/POPL-2021-research-papers/26/Dijkstra-Monads-Forever	created	2021
 https://paulhe.com/assets/itrees.pdf	N/A
 https://arxiv.org/abs/1811.11911	created	2018-11
@@ -10509,7 +10509,7 @@ https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/14/Modular-Den
 https://doi.org/10.1145/3371119	publication	2020-01
 https://doi.org/10.1145/3571254	publication	2023-01-09
 https://arxiv.org/abs/2211.06863	created	2022-11
-https://dblp.org/rec/journals/corr/abs-2211-06863.html	N/A
+https://dblp.org/rec/journals/corr/abs-2211-06863.html	published	1963
 https://popl19.sigplan.org/details/CPP-2019/2/From-C-to-Interaction-Trees-Specifying-Verifying-and-Testing-a-Networked-Server	created	2019
 https://www.cis.upenn.edu/~bcpierce/papers/deepweb-cpp-2019.pdf	created	2019
 https://www.researchgate.net/publication/329254364_From_C_to_Interaction_Trees_Specifying_Verifying_and_Testing_a_Networked_Server	N/A
@@ -10529,7 +10529,7 @@ https://doi.org/10.1016/j.entcs.2016.09.036	created	2016
 https://lmcs.episciences.org/4784	publication	2018-08-27
 https://cris.fau.de/publications/107507004/?lang=de_DE	N/A
 https://research.birmingham.ac.uk/en/publications/complete-elgot-monads-and-coalgebraic-resumptions/	publication	2016-10-05
-https://dblp.org/rec/journals/corr/0001MR16	N/A
+https://dblp.org/rec/journals/corr/0001MR16	published	2016
 https://www8.cs.fau.de/ext/milius/publications/files/gmr16_mfps.pdf	N/A
 https://lmcs.episciences.org/4784/pdf	N/A
 https://poisson.chat/thesis.pdf	N/A
@@ -10583,7 +10583,7 @@ https://idris-lang.org/pages/papers.html	N/A
 https://nabilhassein.github.io/blog/notes-on-idris/	N/A
 https://keens.github.io/slide/effective_idris__effects/	N/A
 https://simonjf.com/2014/04/28/networked-pong-in-idris.html	created	2014
-https://dblp.org/rec/journals/corr/abs-2104-00480.html	N/A
+https://dblp.org/rec/journals/corr/abs-2104-00480.html	published	1980
 https://lean4.dev/language	N/A
 https://lean4.dev/language/effects/do-notation	N/A
 https://sdiehl.github.io/zero-to-qed/	N/A
@@ -10849,7 +10849,7 @@ https://www.microsoft.com/en-us/research/publication/a-sound-metalogical-semanti
 https://www.cs.le.ac.uk/people/rlc3/research/papers/csNotes-2011.pdf	created	2011
 https://www.cs.le.ac.uk/people/rlc3/research/papers/thesis.pdf	N/A
 https://dblp.org/db/conf/csl/csl94	N/A
-https://dblp.org/rec/conf/csl/CroleG94	N/A
+https://dblp.org/rec/conf/csl/CroleG94	published	1994
 https://cs.ioc.ee/~tarmo/mgs21/	N/A
 https://citeseerx.ist.psu.edu/document?doi=50416ed8f348b8ad27b91d7532ed024826636378&repid=rep1&type=pdf	N/A
 https://www.deinprogramm.de/sperber/papers/funarch-ui.pdf	N/A
@@ -11896,10 +11896,10 @@ https://www.sinlib.ru/stitle.php?id=6&pg=91	N/A
 https://archive.org/details/haskellcraftfunc00thom	N/A
 https://www.packtpub.com/en-nz/product/haskell-cookbook-9781786461353/chapter/preface-pref/section/what-this-book-covers-preflvl1sec02	N/A
 https://research.chalmers.se/en/publication/72780	publication	2008
-https://dblp1.uni-trier.de/rec/journals/jfp/StefanMMR17.html	N/A
-https://dblp.org/rec/journals/jfp/StefanMMR17	N/A
+https://dblp1.uni-trier.de/rec/journals/jfp/StefanMMR17.html	published	2017
+https://dblp.org/rec/journals/jfp/StefanMMR17	published	2017
 https://citeseerx.ist.psu.edu/document?doi=4cff498d7f1392e600b598600c93bb95a2e9a6e9&repid=rep1&type=pdf	N/A
-https://dblp.org/rec/conf/haskell/RussoCH08	N/A
+https://dblp.org/rec/conf/haskell/RussoCH08	published	2008
 https://www.alphaxiv.org/abs/1207.1457	publication	2012
 https://hackage.haskell.org/package/io-machine	N/A
 https://www.stackage.org/lts-14.16/package/io-machine-0.2.0.0	N/A
@@ -12007,7 +12007,7 @@ https://www.developerfusion.com/article/136179/an-introduction-to-fsharpx/	N/A
 https://academic.oup.com/comjnl/article/40/9/572/343036	N/A
 https://lrytz.github.io/download/thesis-rytz.pdf	N/A
 https://www.sciencedirect.com/science/article/pii/S0167642304000486	N/A
-https://dblp.org/rec/journals/csur/Wadler97	N/A
+https://dblp.org/rec/journals/csur/Wadler97	published	1997
 https://www.researchgate.net/publication/243775401_The_IO_monad_in_dependent_type_theory	N/A
 https://www.sciencedirect.com/science/article/pii/S0168007216301336	N/A
 https://haskellforall.com/2012/10/hello-core	created	2012
@@ -12309,7 +12309,7 @@ https://www.slideshare.net/AlejandroMena6/build-your-own-monads	N/A
 https://dokumen.pub/download/book-of-monads.html	N/A
 https://untz.ba/wp-content/uploads/2025/05/Studijski_program_II_ciklusa_studija_FE_EiR_2024_25.pdf	created	2025
 https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Haskell/Hutton%20G.%20Programming%20in%20Haskell%20%28CUP%2C%202006%29%28ISBN%200511296150%29%28O%29%28184s%29_CsPl_.pdf	N/A
-https://dblp.org/rec/conf/afp/Wadler95	N/A
+https://dblp.org/rec/conf/afp/Wadler95	published	1995
 https://people.cs.nott.ac.uk/pszgmh/day-thesis.pdf	N/A
 https://wadler.blogspot.com/2013/03/informatics-1-functional-programming.html	created	2013
 https://citeseerx.ist.psu.edu/document?doi=016daf3ab6e96eb60ae8c26667c7e5f8215ea419&repid=rep1&type=pdf	N/A
@@ -12471,7 +12471,7 @@ https://docs.idris-lang.org/en/v0.9.19/effects/introduction.html	N/A
 https://www.researchgate.net/publication/322134356_Handling_Fibred_Algebraic_Effects	N/A
 https://pureportal.strath.ac.uk/en/activities/correct-by-construction-concurrent-programs-in-idris-2/	N/A
 https://memento.epfl.ch/event/practical-effect-systems/	N/A
-https://dblp.org/rec/conf/sfp/Brady14.html	N/A
+https://dblp.org/rec/conf/sfp/Brady14.html	published	2014
 https://openurl.ebsco.com/contentitem/doi%3A10.3233/fi-2010-303?id=ebsco%3Adoi%3A10.3233%2Ffi-2010-303&sid=ebsco%3Aplink%3Acrawler	publication	2010-12-30
 https://repositum.tuwien.at/bitstream/20.500.12708/16972/1/Rizvanovic%20Aldin%20-%202020%20-%20Language%20properties%20for%20smart%20contracts.pdf	N/A
 https://escholarship.org/content/qt10q825qj/qt10q825qj_noSplash_d71bf4925cfdb7660fe4bca254f96e1a.pdf?t=q6z2i8	N/A
@@ -12588,7 +12588,7 @@ https://popl16.sigplan.org/	N/A
 https://popl16.sigplan.org/program/program-POPL-2016	created	2016
 https://dblp.org/rec/conf/popl/2016.html	created	2016
 https://dblp.org/rec/conf/popl/2016	created	2016
-https://dblp.org/rec/conf/popl/OrchardY16	N/A
+https://dblp.org/rec/conf/popl/OrchardY16	published	2016
 https://doi.org/10.1145/2837614.2837634	N/A
 https://dl.acm.org/doi/10.1145/2837614.2837634	N/A
 https://doi.org/10.4204/EPTCS.203.1	publication	2016-02-10
@@ -12596,7 +12596,7 @@ https://eptcs.org/paper.cgi?PLACES2015.1	created	2015
 https://eptcs.org/paper.cgi?PLACES2015.1.pdf	created	2015
 https://doi.org/10.1145/2914770.2837634	N/A
 https://dl.acm.org/doi/10.1145/2914770.2837634	N/A
-https://dblp.org/rec/conf/popl/OrchardY16.html	N/A
+https://dblp.org/rec/conf/popl/OrchardY16.html	published	2016
 https://dblp.org/rec/conf/popl/OrchardY16.bib	N/A
 https://dblp.org/rec/conf/popl/OrchardY16.xml	N/A
 https://kar.kent.ac.uk/id/eprint/61624	N/A
@@ -12607,7 +12607,7 @@ https://github.com/dorchard/effects-as-sessions	updated	2024-11-28
 https://www.doc.ic.ac.uk/~dorchard/publ/effects-as-sessions-places15.pdf	N/A
 https://kar.kent.ac.uk/id/document/97327	N/A
 https://www.cs.kent.ac.uk/people/staff/dao7/publ/popl16-orchard-yoshida.pdf	N/A
-https://dblp.uni-trier.de/rec/conf/popl/OrchardY16.html	N/A
+https://dblp.uni-trier.de/rec/conf/popl/OrchardY16.html	published	2016
 https://dblp.uni-trier.de/rec/conf/popl/OrchardY16.html?view=bibtex	N/A
 https://cstheory.stackexchange.com/questions/36369/how-to-prove-relations-between-classes-of-types	N/A
 https://kar.kent.ac.uk/57481/1/popl16-orchard-yoshida.pdf	N/A
@@ -12624,8 +12624,8 @@ https://ref2021-resultsapp-live.azurewebsites.net/outputs/685231c9-c022-49d5-925
 https://kar.kent.ac.uk/id/document/51872	N/A
 https://www.cs.kent.ac.uk/people/staff/dao7/talks.html	N/A
 https://www.researchgate.net/publication/386981954_Using_session_types_as_an_effect_system	N/A
-https://dblp.org/rec/journals/corr/OrchardY16	N/A
-https://dblp.org/rec/journals/corr/OrchardY16.html	N/A
+https://dblp.org/rec/journals/corr/OrchardY16	published	2016
+https://dblp.org/rec/journals/corr/OrchardY16.html	published	2016
 https://dblp.org/rec/journals/corr/OrchardY16.bib	N/A
 https://dblp.org/rec/journals/corr/OrchardY16.xml	N/A
 https://arxiv.org/pdf/1602.03591	created	2016-02
@@ -12707,8 +12707,8 @@ https://citeseerx.ist.psu.edu/document?doi=f837782f2a7afc31a185c0b5b9013b5bd4a8b
 https://jtod.github.io/	N/A
 https://dblp.uni-trier.de/pid/b/ManfredBroy.html	N/A
 https://eurekamag.com/research/105/103/105103275.php	N/A
-https://dblp.org/rec/journals/jfp/BroyD92	N/A
-https://dblp.org/rec/journals/sigplan/ODonnell85	N/A
+https://dblp.org/rec/journals/jfp/BroyD92	published	1992
+https://dblp.org/rec/journals/sigplan/ODonnell85	published	1985
 https://doi.org/10.1017/S0956796800000241	publication	1992-01
 https://doi.org/10.1016/0167-6423(86)90028-6	N/A
 https://www.mendeley.com/catalogue/0e003907-0294-36cb-ad4a-c377c80bbad2/	publication	1992
@@ -12784,7 +12784,7 @@ https://www.sambuz.com/doc/quantum-hoare-type-theory-ppt-presentation-1026859	N/
 https://par.nsf.gov/servlets/purl/10294082	N/A
 https://www.researchgate.net/publication/346614761_Quantum_Hoare_Type_Theory	N/A
 https://ks.cs.uchicago.edu/publication/quantum-hoare-types-src/	publication	2019-12-08
-https://dblp.org/rec/journals/corr/abs-2109-02198	N/A
+https://dblp.org/rec/journals/corr/abs-2109-02198	published	1998
 https://ks.cs.uchicago.edu/publication/qhtt/qhtt-slides.pdf	N/A
 https://bibbase.org/network/publication/singhal-reppy-quantumhoaretypetheoryextendedabstract-2021	created	2021
 https://pl.cs.uchicago.edu/talks/index.html	N/A
@@ -12849,8 +12849,8 @@ https://cseweb.ucsd.edu/classes/wi11/cse230/lectures/quickcheck.html	N/A
 https://stackoverflow.com/questions/9863451/is-there-a-monadic-version-of-arbitrary-to-use-with-quickcheck	N/A
 https://www.jeffvaughan.net/docs/quickcheck.pdf	N/A
 https://www.schoolofhaskell.com/user/christianpbrink/quickcheck-and-webdriver	N/A
-https://dblp.uni-trier.de/rec/journals/sigplan/ClaessenH02.html	N/A
-https://dblp.org/rec/journals/sigplan/ClaessenH02	N/A
+https://dblp.uni-trier.de/rec/journals/sigplan/ClaessenH02.html	published	2002
+https://dblp.org/rec/journals/sigplan/ClaessenH02	published	2002
 https://research.chalmers.se/en/publication/170517	publication	2002
 https://www.wikidata.org/wiki/Q60191267	N/A
 https://doi.org/10.1145/581690.581696	N/A
@@ -12871,7 +12871,7 @@ https://media.ccc.de/tags/110	N/A
 https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Types.hs	updated	2026-06-30
 https://github.com/input-output-hk/io-sim/blob/main/README.md	updated	2026-06-30
 https://media.ccc.de/v/bob2022-concurrent-programs-in-haskell-kant	created	2022
-https://dblp.org/rec/journals/jfp/WestphalV25	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25	published	2025
 https://www.emergentmind.com/topics/i-o-grammars	N/A
 https://www.uni-due.de/imperia/md/content/fmi/ow-wflp2020.pdf	created	2020
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPiE2025.6.pdf=	created	2025
@@ -13766,13 +13766,13 @@ https://www.scribd.com/document/645007362/Report-on-the-Programming-Language	N/A
 https://www.scribd.com/document/402151063/learnxinyminutes-pdf	N/A
 https://dblp.org/rec/journals/jfp/Jones03g	N/A
 https://dblp.org/rec/journals/jfp/Jones03s	N/A
-https://dblp.org/rec/conf/cade/HoAKMTN18	N/A
+https://dblp.org/rec/conf/cade/HoAKMTN18	published	2018
 https://books.google.com/books/about/Real_World_Haskell.html?hl=fr&id=nh0okI1a1sQC	N/A
 https://link.springer.com/chapter/10.1007/978-3-031-57267-8_11	N/A
 https://hackage.haskell.org/package/iteratee-0.8.7.4	N/A
 https://hackage.haskell.org/package/iteratee-0.8.1.2	N/A
 https://imusic.dk/books/9780521070072/gordon-andrew-d-university-of-cambridge-2008-functional-programming-and-input-output-distinguished-dissertations-in-computer-science-paperback-bog	created	2008
-https://dblp.dagstuhl.de/rec/conf/popl/Wadler92.html	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/Wadler92.html	published	1992
 https://users.csc.calpoly.edu/~akeen/languages/papers.html	N/A
 https://www.fing.edu.uy/~gustun/CLFP/info/biblio.html	N/A
 https://downloads.haskell.org/~ghc/5.02/docs/set/sec-ioexts.html	modified	2019-02-15
@@ -13792,7 +13792,7 @@ https://www.infoq.com/File-IO/presentations/	N/A
 https://blog.higher-order.com/posts/2	N/A
 https://notebook.community/LambdaFanatics/scala-notebooks/notebooks/%5BScala%20a%20FP%20approach%201%5D%20Pure%20Functions	N/A
 https://qconnewyork.com/ny2013/node/152.html	created	2013
-https://dblp.org/rec/conf/nato/Wadler92	N/A
+https://dblp.org/rec/conf/nato/Wadler92	published	1992
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/130BE862EC3F0D702E7249DD261E86F6/9781139084673prf_pxi-xiii_CBO.pdf/preface.pdf	publication	2013-05
 https://www.researchgate.net/publication/366964902_Tackling_the_Awkward_Squad_for_Reactive_Programming_The_Actor-Reactor_Model	N/A
 https://gitlab.haskell.org/ghc/ghc/-/issues/2095	N/A
@@ -14826,36 +14826,36 @@ https://www.youtube.com/watch?v=JrpFFRdf7Q8	N/A
 https://www.youtube.com/watch?v=30q6BkBv5MY	N/A
 https://www.youtube.com/watch?v=8MoibGqlOqU	N/A
 http://www.haskell.org/wikiupload/8/85/TMR-Issue13.pdf	N/A
-https://dblp.org/rec/conf/slp/Wadler95.html	N/A
+https://dblp.org/rec/conf/slp/Wadler95.html	published	1995
 https://dblp.org/rec/conf/slp/Wadler95.bib	N/A
 https://dblp.org/rec/conf/slp/Wadler95.ris	N/A
-https://dblp.org/rec/journals/csur/Wadler97.html	N/A
+https://dblp.org/rec/journals/csur/Wadler97.html	published	1997
 https://dblp.org/rec/journals/csur/Wadler97.bib	N/A
 https://dblp.org/rec/journals/csur/Wadler97.ris	N/A
-https://dblp.org/rec/conf/ecoop/VonderROKM19.html	N/A
+https://dblp.org/rec/conf/ecoop/VonderROKM19.html	published	2019
 https://dblp.org/rec/conf/ecoop/VonderROKM19.bib	N/A
 https://dblp.org/rec/conf/ecoop/VonderROKM19.ris	N/A
-https://dblp.org/rec/data/11/VonderROKM20.html	N/A
+https://dblp.org/rec/data/11/VonderROKM20.html	published	2020
 https://dblp.org/rec/data/11/VonderROKM20.bib	N/A
 https://dblp.org/rec/data/11/VonderROKM20.ris	N/A
-https://dblp.org/rec/conf/nato/Wadler92.html	N/A
+https://dblp.org/rec/conf/nato/Wadler92.html	published	1992
 https://dblp.org/rec/conf/nato/Wadler92.bib	N/A
 https://dblp.org/rec/conf/nato/Wadler92.ris	N/A
 https://dblp.org/rec/conf/afp/Wadler95.bib	N/A
 https://dblp.org/rec/conf/afp/Wadler95.ris	N/A
-https://dblp.org/rec/conf/icfp/ErkokL00.html	N/A
+https://dblp.org/rec/conf/icfp/ErkokL00.html	published	2000
 https://dblp.org/rec/conf/icfp/ErkokL00.bib	N/A
 https://dblp.org/rec/conf/icfp/ErkokL00.ris	N/A
-https://dblp.org/rec/conf/haskell/ErkokL02.html	N/A
+https://dblp.org/rec/conf/haskell/ErkokL02.html	published	2002
 https://dblp.org/rec/conf/haskell/ErkokL02.bib	N/A
 https://dblp.org/rec/conf/haskell/ErkokL02.ris	N/A
-https://dblp.org/rec/conf/popl/Wadler92.html	N/A
+https://dblp.org/rec/conf/popl/Wadler92.html	published	1992
 https://dblp.org/rec/conf/popl/Wadler92.bib	N/A
 https://dblp.org/rec/conf/popl/Wadler92.ris	N/A
-https://dblp.org/rec/conf/lfp/Wadler90.html	N/A
+https://dblp.org/rec/conf/lfp/Wadler90.html	published	1990
 https://dblp.org/rec/conf/lfp/Wadler90.bib	N/A
 https://dblp.org/rec/conf/lfp/Wadler90.ris	N/A
-https://dblp.org/rec/conf/fpca/Wadler89.html	N/A
+https://dblp.org/rec/conf/fpca/Wadler89.html	published	1989
 https://dblp.org/rec/conf/fpca/Wadler89.bib	N/A
 https://dblp.org/rec/conf/fpca/Wadler89.ris	N/A
 https://riptutorial.com/haskell/example/10080/io-monad	N/A
@@ -20091,7 +20091,7 @@ https://dblp.org/rec/phd/ethos/Gordon92.nt	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.ttl	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.rdf	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.txt	N/A
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92	published	1992
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.bib	N/A
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ris	N/A
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.nt	N/A
@@ -20106,8 +20106,8 @@ https://dblp.org/rec/conf/fpca/Gordon93.nt	N/A
 https://dblp.org/rec/conf/fpca/Gordon93.ttl	N/A
 https://dblp.org/rec/conf/fpca/Gordon93.rdf	N/A
 https://dblp.org/rec/conf/fpca/Gordon93.txt	N/A
-https://dblp.org/rec/journals/mscs/CroleG99	N/A
-https://dblp.org/rec/journals/mscs/CroleG99.html	N/A
+https://dblp.org/rec/journals/mscs/CroleG99	published	1999
+https://dblp.org/rec/journals/mscs/CroleG99.html	published	1999
 https://dblp.org/rec/journals/mscs/CroleG99.bib	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.ris	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.nt	N/A
@@ -20115,7 +20115,7 @@ https://dblp.org/rec/journals/mscs/CroleG99.ttl	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.rdf	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.xml	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93	published	1993
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.nt	N/A
@@ -20123,8 +20123,8 @@ https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.txt	N/A
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99	N/A
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.html	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99	published	1999
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.html	published	1999
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.bib	N/A
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ris	N/A
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.nt	N/A
@@ -20136,8 +20136,8 @@ https://dblp.org/rec/conf/popl/JonesW93.nt	N/A
 https://dblp.org/rec/conf/popl/JonesW93.ttl	N/A
 https://dblp.org/rec/conf/popl/JonesW93.rdf	N/A
 https://dblp.org/rec/conf/popl/JonesW93.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.html	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93	published	1993
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.html	published	1993
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.nt	N/A
@@ -20150,8 +20150,8 @@ https://dblp.org/rec/journals/csur/Wadler97.ttl	N/A
 https://dblp.org/rec/journals/csur/Wadler97.rdf	N/A
 https://dblp.org/rec/journals/csur/Wadler97.xml	N/A
 https://dblp.org/rec/journals/csur/Wadler97.txt	N/A
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97	N/A
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.html	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97	published	1997
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.html	published	1997
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.bib	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ris	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.nt	N/A
@@ -20159,14 +20159,14 @@ https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.rdf	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.xml	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.txt	N/A
-https://dblp.org/rec/conf/slp/Wadler95	N/A
+https://dblp.org/rec/conf/slp/Wadler95	published	1995
 https://dblp.org/rec/conf/slp/Wadler95.nt	N/A
 https://dblp.org/rec/conf/slp/Wadler95.ttl	N/A
 https://dblp.org/rec/conf/slp/Wadler95.rdf	N/A
 https://dblp.org/rec/conf/slp/Wadler95.xml	N/A
 https://dblp.org/rec/conf/slp/Wadler95.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95	N/A
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.html	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95	published	1995
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.html	published	1995
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.nt	N/A
@@ -20174,7 +20174,7 @@ https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.txt	N/A
-https://dblp.org/rec/conf/pldi/LaunchburyJ94	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94	published	1994
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.bib	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.ris	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.nt	N/A
@@ -20182,8 +20182,8 @@ https://dblp.org/rec/conf/pldi/LaunchburyJ94.ttl	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.rdf	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.xml	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94	N/A
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.html	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94	published	1994
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.html	published	1994
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.nt	N/A
@@ -20191,8 +20191,8 @@ https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.txt	N/A
-https://dblp.org/rec/conf/iclp/LaunchburyJ94	N/A
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.html	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94	published	1994
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.html	published	1994
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.bib	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.ris	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.nt	N/A
@@ -20200,8 +20200,8 @@ https://dblp.org/rec/conf/iclp/LaunchburyJ94.ttl	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.rdf	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.xml	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94	N/A
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.html	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94	published	1994
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.html	published	1994
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.nt	N/A
@@ -20209,8 +20209,8 @@ https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.txt	N/A
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08	N/A
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.html	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08	published	2008
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.html	published	2008
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.bib	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ris	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.nt	N/A
@@ -20218,8 +20218,8 @@ https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ttl	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.rdf	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.xml	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08	N/A
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.html	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08	published	2008
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.html	published	2008
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.nt	N/A
@@ -20234,8 +20234,8 @@ https://dblp.org/rec/conf/afp/Wadler95.ttl	N/A
 https://dblp.org/rec/conf/afp/Wadler95.rdf	N/A
 https://dblp.org/rec/conf/afp/Wadler95.xml	N/A
 https://dblp.org/rec/conf/afp/Wadler95.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95	N/A
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.html	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95	published	1995
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.html	published	1995
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.nt	N/A
@@ -20243,8 +20243,8 @@ https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.txt	N/A
-https://dblp.org/rec/conf/hopl/HudakHJW07	N/A
-https://dblp.org/rec/conf/hopl/HudakHJW07.html	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07	published	2007
+https://dblp.org/rec/conf/hopl/HudakHJW07.html	published	2007
 https://dblp.org/rec/conf/hopl/HudakHJW07.bib	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.ris	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.nt	N/A
@@ -20252,8 +20252,8 @@ https://dblp.org/rec/conf/hopl/HudakHJW07.ttl	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.rdf	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.xml	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07	N/A
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.html	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07	published	2007
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.html	published	2007
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.nt	N/A
@@ -20261,8 +20261,8 @@ https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.txt	N/A
-https://dblp.org/rec/conf/popl/JonesFG96	N/A
-https://dblp.org/rec/conf/popl/JonesFG96.html	N/A
+https://dblp.org/rec/conf/popl/JonesFG96	published	1996
+https://dblp.org/rec/conf/popl/JonesFG96.html	published	1996
 https://dblp.org/rec/conf/popl/JonesFG96.bib	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.ris	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.nt	N/A
@@ -20270,8 +20270,8 @@ https://dblp.org/rec/conf/popl/JonesFG96.ttl	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.rdf	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.xml	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.html	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96	published	1996
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.html	published	1996
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.nt	N/A
@@ -20286,8 +20286,8 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_106.html	modified	
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_109.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_112.html	modified	2019-02-15
 https://www.asaj.org/papers/hoots97.pdf	N/A
-https://dblp.org/rec/conf/lics/Jeffrey95	N/A
-https://dblp.org/rec/conf/lics/Jeffrey95.html	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95	published	1995
+https://dblp.org/rec/conf/lics/Jeffrey95.html	published	1995
 https://dblp.org/rec/conf/lics/Jeffrey95.bib	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.ris	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.nt	N/A
@@ -20295,8 +20295,8 @@ https://dblp.org/rec/conf/lics/Jeffrey95.ttl	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.rdf	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.xml	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.txt	N/A
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95	N/A
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.html	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95	published	1995
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.html	published	1995
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.bib	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ris	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.nt	N/A
@@ -20304,8 +20304,8 @@ https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.rdf	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.xml	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.txt	N/A
-https://dblp.org/rec/journals/entcs/Jeffrey95	N/A
-https://dblp.org/rec/journals/entcs/Jeffrey95.html	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95	published	1995
+https://dblp.org/rec/journals/entcs/Jeffrey95.html	published	1995
 https://dblp.org/rec/journals/entcs/Jeffrey95.bib	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.ris	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.nt	N/A
@@ -20313,8 +20313,8 @@ https://dblp.org/rec/journals/entcs/Jeffrey95.ttl	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.rdf	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.xml	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.txt	N/A
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95	N/A
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.html	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95	published	1995
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.html	published	1995
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.bib	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ris	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.nt	N/A
@@ -20322,8 +20322,8 @@ https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.rdf	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.xml	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.txt	N/A
-https://dblp.org/rec/journals/tcs/Jeffrey99	N/A
-https://dblp.org/rec/journals/tcs/Jeffrey99.html	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99	published	1999
+https://dblp.org/rec/journals/tcs/Jeffrey99.html	published	1999
 https://dblp.org/rec/journals/tcs/Jeffrey99.bib	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.ris	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.nt	N/A
@@ -20331,8 +20331,8 @@ https://dblp.org/rec/journals/tcs/Jeffrey99.ttl	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.rdf	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.xml	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.txt	N/A
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99	N/A
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.html	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99	published	1999
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.html	published	1999
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.bib	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ris	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.nt	N/A
@@ -20341,7 +20341,7 @@ https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.rdf	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.xml	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.txt	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-free/	N/A
-https://dblp.org/rec/journals/jfp/WestphalV25.html	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.html	published	2025
 https://dblp.org/rec/journals/jfp/WestphalV25.bib	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.ris	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.nt	N/A
@@ -20349,8 +20349,8 @@ https://dblp.org/rec/journals/jfp/WestphalV25.ttl	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.rdf	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.xml	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.txt	N/A
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25	N/A
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.html	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25	published	2025
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.html	published	2025
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.bib	N/A
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ris	N/A
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.nt	N/A
@@ -20371,8 +20371,8 @@ https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.ttl	created	2008
 https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.rdf	created	2008
 https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.xml	created	2008
 https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.txt	created	2008
-https://dblp.org/rec/journals/corr/abs-1210-0611	N/A
-https://dblp.org/rec/journals/corr/abs-1210-0611.html	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611	published	2011
+https://dblp.org/rec/journals/corr/abs-1210-0611.html	published	2011
 https://dblp.org/rec/journals/corr/abs-1210-0611.bib	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.ris	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.nt	N/A
@@ -20380,8 +20380,8 @@ https://dblp.org/rec/journals/corr/abs-1210-0611.ttl	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.rdf	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.xml	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.txt	N/A
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611	N/A
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.html	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611	published	2011
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.html	published	2011
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.bib	N/A
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ris	N/A
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.nt	N/A
@@ -22288,9 +22288,9 @@ https://stackoverflow.com/questions/9689129/io-inside-the-get-monad	N/A
 https://stackoverflow.com/questions/7830743/haskell-how-to-deal-with-io-monad-inside-another-io-monad	N/A
 https://dblp1.uni-trier.de/pid/15/1957.html	created	1957
 https://dblp.org/db/conf/plilp/plilp92	N/A
-https://dblp.org/rec/conf/plilp/Rebelsky92	N/A
+https://dblp.org/rec/conf/plilp/Rebelsky92	published	1992
 https://research-information.bris.ac.uk/en/publications/concurrent-monadic-interfacing-2/	publication	1999
-https://dblp.org/rec/conf/ifl/HolyerS98	N/A
+https://dblp.org/rec/conf/ifl/HolyerS98	published	1998
 https://stackoverflow.com/questions/39556936/what-is-the-meaning-of	N/A
 https://www.youtube.com/watch?v=5k3_olHdhjQ	N/A
 https://www.youtube.com/watch?v=V9PRiOtT7VM	N/A
@@ -27293,7 +27293,7 @@ https://hackage.haskell.org/package/polysemy-1.2.3.0/changelog	created	2019-10-2
 https://hackage.haskell.org/package/polysemy-1.8.0.0	N/A
 https://www.reddit.com/r/haskell/comments/12im0z9	N/A
 https://books.google.fr/books?hl=fr&id=xIlyOiGOC6EC	N/A
-https://dblp.org/rec/journals/jfp/HuttonM98.html	N/A
+https://dblp.org/rec/journals/jfp/HuttonM98.html	published	1998
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120522095609%21Haskell.pdf	N/A
 https://search.worldcat.org/de/title/haskell-cookbook-build-functional-applications-using-monads-applicatives-and-functors/oclc/1007536519	N/A
 https://downloads.haskell.org/~ghc/6.4.2/docs/hslibs.pdf	modified	2019-02-15
@@ -27301,7 +27301,7 @@ https://downloads.haskell.org/~ghc/9.12-latest/docs/libraries/base-4.21.0.0-8bb5
 https://hackage.haskell.org/package/base-4.17.0.0/docs/GHC-Base.html	created	2022-08-07
 https://hackage-content.haskell.org/package/base-4.22.0.0/docs/doc-index-All.html	N/A
 https://packages.debian.org/trixie/i386/haskell/libghc-iospec-dev	N/A
-https://dblp.org/rec/journals/scp/Spivey90	N/A
+https://dblp.org/rec/journals/scp/Spivey90	published	1990
 https://doi.org/10.1016/0167-6423(90)90056-J	N/A
 https://www.sciencedirect.com/science/article/pii/016764239090056J	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/fap.pdf	created	2016
@@ -29032,7 +29032,7 @@ https://hackage-content.haskell.org/package/ghc-9.8.4/docs/src/GHC.Runtime.Eval.
 https://hackage-content.haskell.org/package/ghc-lib-parser-9.10.2.20250515/docs/Language-Haskell-TH.html	N/A
 https://hackage-content.haskell.org/package/miso-1.8.7.0/docs/Miso-FFI.html	N/A
 https://hackage-content.haskell.org/package/monad-logger-aeson-0.4.1.5/docs/Control-Monad-Logger-Aeson.html	N/A
-https://dblp.org/rec/journals/iandc/Moggi91.html	N/A
+https://dblp.org/rec/journals/iandc/Moggi91.html	published	1991
 https://haddocks.haskell-miso.org/mtl/Control-Monad-Trans.html	N/A
 https://maxsnew.com/docs/moggi91.pdf	N/A
 https://person.dibris.unige.it/moggi-eugenio/ftp/catia02-slides.pdf	N/A
@@ -29070,7 +29070,7 @@ https://eurekamag.com/research/104/856/104856751.php	N/A
 https://hackage.haskell.org/package/GHC-IO.html	N/A
 https://www.cs.tufts.edu/comp/150GIT/archive/iago-abal/mfes_darcs.pdf	N/A
 https://www.stackage.org/package/fused-effects	N/A
-https://dblp.dagstuhl.de/rec/conf/lics/Moggi89.html	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Moggi89.html	published	1989
 https://era.ed.ac.uk/handle/1842/396?show=full	publication	1996-07
 https://haskell.hmc.edu/~adavidso/monads.pdf	N/A
 https://web.cecs.pdx.edu/~sheard/course/CS457-557/Winter2015/Notes/NotesOnTesting.pdf	created	2015
@@ -29175,7 +29175,7 @@ https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_pdf	N/A
 https://www3.dti.ufv.br/sia/vicosa/2020/trabalhos/14403/arquivo	created	2020
 https://slides.com/fp-ctd/lecture-5-part1	N/A
 https://hackage.haskell.org/package/HTF	N/A
-https://dblp.org/rec/conf/lics/Moggi89.html	N/A
+https://dblp.org/rec/conf/lics/Moggi89.html	published	1989
 https://pls-lab.org/Computational_lambda_calculus	N/A
 https://www.sigmod.org/publications/dblp/db/conf/lics/lics89.html	N/A
 https://www.cs.ox.ac.uk/files/2675/RR-09-18.pdf	N/A
@@ -29236,7 +29236,7 @@ https://h-deb.ca/Liens/Paradigmes-programmation--Liens.html	N/A
 https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranju.pdf	updated	2025-12-01
 https://ncatlab.org/nlab/show/Eugenio_Moggi	N/A
 https://ucsd-cse130.github.io/wi21/lectures/09-io.html	N/A
-https://dblp.org/rec/conf/lics/Moggi89	N/A
+https://dblp.org/rec/conf/lics/Moggi89	published	1989
 https://paperzz.com/doc/6907563/direct-models-of-the-computational-lambda-calculus	N/A
 https://hackage.haskell.org/package/conduit-extra	N/A
 https://hackage.haskell.org/package/hspec-core	N/A
@@ -29663,7 +29663,7 @@ https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/tackling_the_awkwa
 https://simon.peytonjones.org/taste-of-haskell/	N/A
 https://www.stackage.org/package/io-classes	N/A
 https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST-Safe.html	N/A
-https://dblp.org/rec/conf/fp/JonesT93	N/A
+https://dblp.org/rec/conf/fp/JonesT93	published	1993
 https://dokumen.pub/download/functional-programming-glasgow-1995-proceedings-of-the-1995-glasgow-workshop-on-functional-programming-ullapool-scotland-6-8-july-1995-1nbsped-354014580x-9783540145806.html	created	1995
 https://www.microsoft.com/en-us/research/publication/functional-programming-input-output/?lang=ko-kr	N/A
 https://stackoverflow.com/questions/24254805/different-return-types-of-print-and-withfile	N/A
@@ -29750,7 +29750,7 @@ https://repository.ubn.ru.nl/bitstream/handle/2066/26969/26969_genefupr.pdf?sequ
 https://www.reddit.com/r/haskellquestions/comments/dutr9n	N/A
 https://www.twistedsquare.com/thesis.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=311002630bc97e9037d31a859564bd2c6b817876&repid=rep1&type=pdf	N/A
-https://dblp.dagstuhl.de/rec/phd/ethos/Brown11.html	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Brown11.html	published	2011
 https://www.cs.kent.ac.uk/projects/ofa/chp/	N/A
 https://comp2221.github.io/fp-website/slides/	N/A
 https://downloads.haskell.org/ghc/6.0/docs/html/base/GHC.IOBase.html	modified	2019-02-15
@@ -30199,7 +30199,7 @@ https://www.ci.nii.ac.jp/crid/1360586669745382528	N/A
 https://www.publishersweekly.com/9781681440033	N/A
 https://youtu.be/oDqHNkQK97k	N/A
 https://hackage.haskell.org/api	N/A
-https://dblp.org/rec/conf/haskell/JonesW07	N/A
+https://dblp.org/rec/conf/haskell/JonesW07	published	2007
 https://riptutorial.com/Download/haskell-language-de.pdf	N/A
 https://stackoverflow.com/questions/19917582/type-in-haskell-explanation-of-io	N/A
 https://stackoverflow.com/a/44979	N/A
@@ -30209,7 +30209,7 @@ https://mailman.haskell.org/archives/list/haskell%40haskell.org/	N/A
 https://www.fceia.unr.edu.ar/~mauro/publications/theses/200909_phd.html	N/A
 https://flora.pm/packages/%40hackage/unliftio/0.2.15/changelog	N/A
 https://hackage-content.haskell.org/package/io-effects-0.1.0/candidate/docs/IO-Effects.html	N/A
-https://dblp.org/rec/conf/haskell/KiselyovI15.html	N/A
+https://dblp.org/rec/conf/haskell/KiselyovI15.html	published	2015
 https://vstill.eu/papers/2020/hsExprTest.pdf	created	2020
 https://bracevac.org/assets/pdf/DissertationBracevac05112019.pdf	N/A
 https://haskell.org/hugs/pages/libraries/base/Control-Monad.html	N/A
@@ -32464,7 +32464,7 @@ https://citeseerx.ist.psu.edu/document?doi=5c19f0ee0173cb847b36642e2b3ee7472e03b
 https://pierre-hyvernat.apps.math.cnrs.fr/data/Files/phd.pdf	N/A
 https://www.sambuz.com/doc/coinductive-reasoning-in-dependent-type-theory-copatterns-presentation-1039399	N/A
 https://www.leanpub.com/book-of-monads	N/A
-https://dblp.org/rec/conf/csl/HancockS00	N/A
+https://dblp.org/rec/conf/csl/HancockS00	published	2000
 https://www.isa-afp.org/browser_info/current/AFP/Clean/document.pdf	N/A
 https://www.wiki.clean.cs.ru.nl/Publications	N/A
 https://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture17.htm	created	2004
@@ -33111,7 +33111,7 @@ https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-streams/	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-gio/	N/A
 https://sources.debian.org/src/haskell-http-streams/0.8.9.9-1/http-streams.cabal	N/A
 https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO	created	2018-10-03
-https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html	N/A
+https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html	published	2009
 https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-storage/	N/A
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/	N/A
 https://discourse.haskell.org/t/call-for-participation-2-5-hour-haskell-foundation-online-workshop/14312	publication	2026-06-24
@@ -33224,8 +33224,8 @@ https://www.numdam.org/item/ITA_2003__37_4_273_0/	publication	2003
 https://numdam.org/articles/10.1051/ita%3A2003020/	publication	2003
 https://eudml.org/doc/246065	N/A
 https://web.archive.org/web/20221212192523/https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	archived	2022-12-12
-https://dblp.org/rec/conf/haskell/ErkokL02	N/A
-https://dblp.org/rec/journals/ita/ErkokLA05	N/A
+https://dblp.org/rec/conf/haskell/ErkokL02	published	2002
+https://dblp.org/rec/journals/ita/ErkokLA05	published	2005
 https://dblp.org/db/journals/ita/ita36.html	N/A
 https://www.researchgate.net/publication/220165760_An_abstract_monadic_semantics_for_value_recursion	N/A
 https://www.researchgate.net/publication/7261003_Value_Recursion_in_Monadic_Computations	N/A
@@ -33259,7 +33259,7 @@ https://paperswelove.org/papers/tackling-the-awkward-squad-monadic-inputoutput-c
 https://soft.vub.ac.be/~svdvonde/papers/ecoop2020-tackling-the-awkward-squad-the-actor-reactor-model.pdf	created	2020
 https://www.cs.gla.ac.uk/~kh/Haskell1.3/IO.html	N/A
 https://www.cs.ox.ac.uk/ralf.hinze/WG2.8/32/slides/jml.pdf	N/A
-https://dblp.org/rec/conf/oopsla/VonderKMM17	N/A
+https://dblp.org/rec/conf/oopsla/VonderKMM17	published	2017
 https://www.cs.cmu.edu/~fp/courses/15312-f06/lectures/17-iomonad.html	N/A
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.19.pdf	created	2020
 https://researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-reactor-model	N/A
