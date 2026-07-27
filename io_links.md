@@ -449,26 +449,26 @@ https://www.researchgate.net/publication/221563015_There_and_Back_Again_Arrows_f
 https://www2.ccs.neu.edu/racket/pubs/icfp09-fffk.pdf	N/A
 https://link.springer.com/chapter/10.1007/978-3-642-12107-4_21	publication	2010
 https://www.microsoft.com/en-us/research/publication/monadic-io-in-haskell-1-3/	N/A
-https://link.springer.com/chapter/10.1007/BFb0022267	N/A
-https://dl.acm.org/doi/10.1145/165180.165199	N/A
-https://link.springer.com/chapter/10.1007/3-540-55844-6_154	N/A
+https://link.springer.com/chapter/10.1007/BFb0022267	publication	1995
+https://dl.acm.org/doi/10.1145/165180.165199	publication	1993-07
+https://link.springer.com/chapter/10.1007/3-540-55844-6_154	publication	None
 https://www.haskell.org/haskell-workshop/1995/HW1995-Proceedings.pdf	created	1995
 https://alastairreid.github.io/papers/Haskell_95b/	N/A
 https://alastairreid.github.io/papers/StdLib_98/	N/A
 https://repository.ubn.ru.nl/bitstream/handle/2066/146152/mmubn000001_216876060.pdf	N/A
 https://kar.kent.ac.uk/20889/1/interactive_thompson.pdf	N/A
-https://dl.acm.org/doi/pdf/10.1145/800225.806823	N/A
+https://dl.acm.org/doi/pdf/10.1145/800225.806823	publication	1985
 https://dl.acm.org/doi/book/10.5555/119830	N/A
 https://dl.acm.org/doi/10.5555/119830.119838	N/A
-https://link.springer.com/chapter/10.1007/BFb0055438	N/A
+https://link.springer.com/chapter/10.1007/BFb0055438	publication	1998
 https://dl.acm.org/doi/10.5555/2227330.2227346	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/1995/achp95-ConcurrIO.abs	created	1995
-https://link.springer.com/chapter/10.1007/3-540-17945-3_3	N/A
+https://link.springer.com/chapter/10.1007/3-540-17945-3_3	publication	1987
 https://www.sciencedirect.com/science/article/pii/0167642386900286	N/A
 https://www.altocumulus.org/Fudgets/fudgets-fpca93.pdf	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/1997/pilm97-FstClassIOIFL96.ps.gz	created	1997
-https://link.springer.com/chapter/10.1007/10722298_7	N/A
-https://link.springer.com/chapter/10.1007/978-1-4471-3573-9_4	N/A
+https://link.springer.com/chapter/10.1007/10722298_7	publication	2000
+https://link.springer.com/chapter/10.1007/978-1-4471-3573-9_4	publication	1995
 https://web.cecs.pdx.edu/~apt/icfp05.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A369E310ADAE4455020C918FC1D47958/S0956796899003342a.pdf/poor_mans_concurrency_monad.pdf	N/A
 https://web.cecs.pdx.edu/~apt/wflp03.pdf	N/A
@@ -477,36 +477,36 @@ https://www.softlab.ntua.gr/research/techrep/CSD-SW-TR-2-01.pdf	N/A
 https://harrisonwl.github.io/assets/papers/amast06.pdf	N/A
 https://wiki.clean.cs.ru.nl/download/papers/2002/verm2002-LazyDynamicIO2.pdf	created	2002
 https://www.scss.tcd.ie/publications/tech-reports/reports.03/TCD-CS-2003-03.pdf	created	2003
-https://link.springer.com/chapter/10.1007/11431664_11	N/A
+https://link.springer.com/chapter/10.1007/11431664_11	publication	2005
 https://dl.acm.org/doi/10.5555/647977.743240	N/A
 https://kto.web.elte.hu/papers/papers/ifl99.pdf	N/A
 https://kto.web.elte.hu/papers/papers/fusst99temp.pdf	N/A
 https://harrisonwl.github.io/assets/papers/mpc08.pdf	N/A
 https://repository.ubn.ru.nl/bitstream/handle/2066/306183/306183.pdf?isAllowed=y&sequence=1	N/A
-https://link.springer.com/chapter/10.1007/3-540-46028-4_5	N/A
-https://link.springer.com/chapter/10.1007/978-1-4471-3196-0_1	N/A
+https://link.springer.com/chapter/10.1007/3-540-46028-4_5	publication	2002
+https://link.springer.com/chapter/10.1007/978-1-4471-3196-0_1	publication	1992
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/06/processing_transactions.pdf	created	1993
-https://link.springer.com/chapter/10.1007/978-1-4471-3215-8_7	N/A
+https://link.springer.com/chapter/10.1007/978-1-4471-3215-8_7	publication	1993
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.9	created	1995
 https://link.springer.com/content/pdf/10.1007/978-1-4471-3573-9_16.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8678CDA48EB1DF29B9C2C9943AF6BC29/S0960129500001560a.pdf/comprehending_monads.pdf	publication	1992-12
-https://link.springer.com/article/10.1007/BF01019944	N/A
-https://dl.acm.org/doi/10.1145/601775.601776	N/A
+https://link.springer.com/article/10.1007/BF01019944	publication	1994-01
+https://dl.acm.org/doi/10.1145/601775.601776	publication	2003-01
 https://okmij.org/ftp/Haskell/Iteratee/describe.pdf	N/A
 https://timharris.uk/papers/2005-ppopp-composable.pdf	created	2005
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/stm-invariants.pdf	created	2016
 https://www.microsoft.com/en-us/research/wp-content/uploads/2009/01/stm-haskell09.pdf	created	2009
 https://okmij.org/ftp/continuations/PPYield/yield-pp.pdf	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/2008/vrie08-IFL07-UniquenessTypingSimplified.pdf	created	2008
-https://link.springer.com/chapter/10.1007/3-540-57787-4_23	N/A
-https://link.springer.com/chapter/10.1007/BFb0026821	N/A
+https://link.springer.com/chapter/10.1007/3-540-57787-4_23	publication	1994
+https://link.springer.com/chapter/10.1007/BFb0026821	publication	1995
 https://repository.ubn.ru.nl/bitstream/handle/2066/224622/1/224622.pdf	N/A
-https://dl.acm.org/doi/10.1145/606666.606670	N/A
+https://dl.acm.org/doi/10.1145/606666.606670	publication	1999-06
 https://www.haskell.org/definition/long-semantics.ps.gz	N/A
 https://www.haskell.org/definition/dynamic-semantics.dvi.gz	N/A
 https://web.cecs.pdx.edu/~mpj/thih/thih.pdf	N/A
-https://dl.acm.org/doi/10.1145/227699.227700	N/A
-https://dl.acm.org/doi/10.1145/199448.199528	N/A
+https://dl.acm.org/doi/10.1145/227699.227700	publication	1996-03
+https://dl.acm.org/doi/10.1145/199448.199528	publication	1995
 https://okmij.org/ftp/Haskell/extensible/exteff.pdf	N/A
 https://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf	N/A
 https://okmij.org/ftp/Haskell/extensible/more.pdf	N/A
@@ -528,11 +528,11 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://www.microsoft.com/en-us/research/publication/transactional-memory-data-invariants/	N/A
 https://www.microsoft.com/en-us/research/publication/beautiful-concurrency/	N/A
 https://www.microsoft.com/en-us/research/publication/prettier-concurrency-purely-functional-concurrent-revisions/	N/A
-https://dl.acm.org/doi/10.1145/262009.262011	N/A
+https://dl.acm.org/doi/10.1145/262009.262011	publication	1997-09
 https://core.ac.uk/download/pdf/82372750.pdf	N/A
 https://csetzer.github.io/articles/iopreprint.pdf	N/A
 http://www.md.chalmers.se/Cs/Research/Semantics/APPSEM/dtp99/proceedings.html	N/A
-https://link.springer.com/chapter/10.1007/3-540-44622-2_21	N/A
+https://link.springer.com/chapter/10.1007/3-540-44622-2_21	publication	2000
 https://www.cs.ox.ac.uk/files/6660/crm.pdf	N/A
 https://www.cs.ox.ac.uk/files/5694/monbeh-final.pdf	N/A
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol139-calco2019/LIPIcs.CALCO.2019.13/LIPIcs.CALCO.2019.13.pdf	created	2019
@@ -543,48 +543,48 @@ https://www.cs.ox.ac.uk/jeremy.gibbons/publications/mr.pdf	N/A
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/utp-monads.pdf	N/A
 https://www.cs.ox.ac.uk/people/samuel.staton/papers/mfps2013-nbe.pdf	created	2013
 https://www.cs.ox.ac.uk/people/aleks.kissinger/theses/vakar-thesis.pdf	N/A
-https://dl.acm.org/doi/10.1145/2976022.2976032	N/A
-https://dl.acm.org/doi/10.1145/289423.289454	N/A
-https://dl.acm.org/doi/10.1145/2034675.2034688	N/A
-https://link.springer.com/content/pdf/10.1007/978-3-319-11863-5_7	N/A
-https://dl.acm.org/doi/pdf/10.1145/2430532.2364524	N/A
-https://dl.acm.org/doi/pdf/10.1145/3331543.3342585	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-38986-3_10	N/A
+https://dl.acm.org/doi/10.1145/2976022.2976032	publication	2016-09-18
+https://dl.acm.org/doi/10.1145/289423.289454	publication	1998-09-29
+https://dl.acm.org/doi/10.1145/2034675.2034688	publication	2011-09-22
+https://link.springer.com/content/pdf/10.1007/978-3-319-11863-5_7	publication	2014
+https://dl.acm.org/doi/pdf/10.1145/2430532.2364524	publication	2013-01-17
+https://dl.acm.org/doi/pdf/10.1145/3331543.3342585	publication	2019-08-23
+https://link.springer.com/chapter/10.1007/978-3-642-38986-3_10	publication	2013
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/extracting-functional-programs-from-coq-in-coq/ACA1A3F43DD4EA96646F705BC2F8E370	publication	2022-01
 https://okmij.org/ftp/Computation/LogicT.pdf	N/A
-https://dl.acm.org/doi/10.1145/1086365.1086390	N/A
+https://dl.acm.org/doi/10.1145/1086365.1086390	publication	2005-09-12
 https://homes.luddy.indiana.edu/ccshan/logicprog/LogicT-icfp2005.pdf	created	2005
-https://dl.acm.org/doi/10.1017/S0956796808006758	N/A
-https://dl.acm.org/doi/10.1145/1016850.1016858	N/A
-https://dl.acm.org/doi/pdf/10.1145/3139337.3139338	N/A
+https://dl.acm.org/doi/10.1017/S0956796808006758	publication	2008-07
+https://dl.acm.org/doi/10.1145/1016850.1016858	publication	2004-09-19
+https://dl.acm.org/doi/pdf/10.1145/3139337.3139338	publication	2017-10-30
 https://users.cs.northwestern.edu/~jesse/pubs/haskell-session-types/session08.pdf	N/A
-https://link.springer.com/content/pdf/10.1007/3-540-45361-X_7	N/A
+https://link.springer.com/content/pdf/10.1007/3-540-45361-X_7	publication	2001
 https://www.cs.cmu.edu/~rwh/papers/mml5/paper.pdf	N/A
 https://homes.luddy.indiana.edu/ccshan/prepose/prepose.pdf	N/A
 https://www.cis.upenn.edu/~cis5520/current/data/lec2.pdf	N/A
 https://www.cs.cmu.edu/~aldrich/papers/iwaco2014-arch-control.pdf	created	2014
 https://users.soe.ucsc.edu/~cormac/papers/UCSC-SOE-14-07.pdf	N/A
-https://link.springer.com/chapter/10.1007/978-3-031-30044-8_19	N/A
+https://link.springer.com/chapter/10.1007/978-3-031-30044-8_19	publication	2023
 https://icfp23.sigplan.org/details/haskellsymp-2023/6/HasTEE-Programming-Trusted-Execution-Environments-with-Haskell	created	2023
 https://arxiv.org/pdf/2307.13172	N/A
 https://www.cis.upenn.edu/~cjtaylor/PUBLICATIONS/pdfs/CowleyTaylorIROS11b.pdf	N/A
 https://engineering.yale.edu/download_file/view/5bafda7f-3cd0-4948-90fe-8e7bc0e1f0b1/431	N/A
-https://dl.acm.org/doi/10.1145/2628136.2628140	N/A
-https://dl.acm.org/doi/pdf/10.1145/3609026.3609731	N/A
-https://dl.acm.org/doi/10.1145/1596550.1596589	N/A
-https://dl.acm.org/doi/pdf/10.1145/3808259	N/A
+https://dl.acm.org/doi/10.1145/2628136.2628140	publication	2014-08-19
+https://dl.acm.org/doi/pdf/10.1145/3609026.3609731	publication	2023-08-30
+https://dl.acm.org/doi/10.1145/1596550.1596589	publication	2009-08-31
+https://dl.acm.org/doi/pdf/10.1145/3808259	publication	2026-06-08
 https://pldi26.sigplan.org/details/pldi-2026-papers/16/Pure-Borrow-Linear-Haskell-Meets-Rust-Style-Borrowing	created	2026
-https://dl.acm.org/doi/full/10.1145/3674651	N/A
-https://dl.acm.org/doi/10.1145/2858949.2784745	N/A
-https://dl.acm.org/doi/10.1145/3677996.3678293	N/A
+https://dl.acm.org/doi/full/10.1145/3674651	publication	2024-08-15
+https://dl.acm.org/doi/10.1145/2858949.2784745	publication	2015-12-18
+https://dl.acm.org/doi/10.1145/3677996.3678293	publication	2024-09-02
 https://hal.science/hal-04914365/document	N/A
 https://icfp24.sigplan.org/home/farm-2024	created	2024
-https://dl.acm.org/doi/full/10.1145/3674648	N/A
-https://dl.acm.org/doi/pdf/10.1145/3591259	N/A
-https://dl.acm.org/doi/10.1007/978-3-030-39197-3_9	N/A
+https://dl.acm.org/doi/full/10.1145/3674648	publication	2024-08-15
+https://dl.acm.org/doi/pdf/10.1145/3591259	publication	2023-06-06
+https://dl.acm.org/doi/10.1007/978-3-030-39197-3_9	publication	2020
 https://popl20.sigplan.org/details/PADL-2020-papers/11/A-Timed-IO-Monad	created	2020
-https://dl.acm.org/doi/10.1145/3632878	N/A
-https://dl.acm.org/doi/10.1145/3677999.3678283	N/A
+https://dl.acm.org/doi/10.1145/3632878	publication	2024-01-02
+https://dl.acm.org/doi/10.1145/3677999.3678283	publication	2024-08-29
 https://icfp24.sigplan.org/details/icfp-2024-papers/27/Parallel-Algebraic-Effect-Handlers	created	2024
 https://wg28-2019.mpi-sws.org/technical-presentations/files/cfdb7_uploads/1558519954-IFIP-WG2.8-TimedIOMonad.pdf	created	2019
 https://xnning.github.io/papers/pepm22.pdf	N/A
@@ -617,7 +617,7 @@ https://www.cs.ox.ac.uk/files/2136/Mixins.pdf	N/A
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/kuifje.pdf	N/A
 https://staff.aist.go.jp/reynald.affeldt/documents/monae.pdf	N/A
 https://anil.recoil.org/papers/2017-ml-effects	publication	2017-09-01
-https://dl.acm.org/doi/pdf/10.1145/3156695.3122965	N/A
+https://dl.acm.org/doi/pdf/10.1145/3156695.3122965	publication	2017-10-31
 ## Books, chapters, and longer tutorials
 https://book.realworldhaskell.org/	N/A
 https://book.realworldhaskell.org/read/io.html	N/A
@@ -630,7 +630,7 @@ https://livebook.manning.com/book/haskell-in-depth/chapter-1	N/A
 https://www.haskell.org/tutorial/monads.html	N/A
 https://dl.acm.org/doi/10.5555/1477677	N/A
 https://dl.acm.org/doi/10.5555/3158283	N/A
-https://link.springer.com/book/10.1007/978-1-4842-2781-7	N/A
+https://link.springer.com/book/10.1007/978-1-4842-2781-7	publication	2017
 https://books.google.com/books/about/Programming_in_Haskell.html?id=75C5DAAAQBAJ	N/A
 https://books.google.com/books/about/Haskell_Programming_from_First_Principle.html?id=5FaXDAEACAAJ	N/A
 https://books.google.com/books/about/Developing_Web_Apps_with_Haskell_and_Yes.html?id=kJe4BgAAQBAJ	N/A
@@ -653,7 +653,7 @@ https://assets.cambridge.org/97811070/87200/toc/9781107087200_toc.pdf	N/A
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/quantum-io-monad/1C501E5F1E9964F7B7183A18754FABE1	publication	2009-11
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/810AD13D88C863565F604132FF4A5FDE	publication	2009-11
 https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/	N/A
-https://link.springer.com/chapter/10.1007/978-3-662-02880-3_8	N/A
+https://link.springer.com/chapter/10.1007/978-3-662-02880-3_8	publication	1993
 https://www.cambridge.org/core/books/haskell-school-of-music/6B377BCD40386E9D27EB93FC2F3B13FB	publication	2018-09
 https://blogs.asarkar.com/assets/docs/haskell/Monad%20Transformers%20Step%20by%20Step%20-%20Grabmuller.pdf	N/A
 https://nickx.hu/Monads.pdf	N/A
@@ -696,7 +696,7 @@ https://www.cambridge.org/core/books/functional-programming-and-inputoutput?form
 https://www.barnesandnoble.com/w/functional-programming-and-input-output-andrew-d-gordon/1117320546	N/A
 https://opac.library.strathmore.edu/bib/2091	N/A
 https://shop.elsevier.com/books/implicit-parallel-programming-in-ph/nikhil/978-0-08-050852-8	N/A
-https://link.springer.com/book/10.1007/978-1-4471-3166-3	N/A
+https://link.springer.com/book/10.1007/978-1-4471-3166-3	publication	1990
 ## Theses, bibliographies, and archives
 https://digitalcollections.ohsu.edu/record/122/files/122_etd.pdf	N/A
 https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbib.pdf	N/A
@@ -728,7 +728,7 @@ https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/recursive_do.html	N/A
 https://www.altocumulus.org/haskell-report/printing-13.html	N/A
 https://ncatlab.org/nlab/show/IO-monad	N/A
 https://ncatlab.org/schreiber/files/QuantumMonadology-240120.pdf	N/A
-https://link.springer.com/chapter/10.1007/10704973_7	N/A
+https://link.springer.com/chapter/10.1007/10704973_7	publication	1999
 https://ku-fpg.github.io/papers/Gill-15-RemoteMonad/	N/A
 https://www.cs.tufts.edu/comp/150DAO/notes.html	N/A
 https://www.cs.tufts.edu/comp/150PLD/hw04-1.html	N/A
@@ -867,7 +867,7 @@ https://clean.cs.ru.nl/download/Clean20/doc/CleanRep2.0.pdf	N/A
 https://clean.cs.ru.nl/ST_Publications	N/A
 https://wiki.clean.cs.ru.nl/ST_Publications	N/A
 https://clean.cs.ru.nl/Workflow_examples	N/A
-https://link.springer.com/chapter/10.1007/3-540-63237-9_28	N/A
+https://link.springer.com/chapter/10.1007/3-540-63237-9_28	publication	1997
 https://www.cs.ru.nl/P.Achten/papers/MyPapers.html	N/A
 https://dl.acm.org/doi/10.5555/647978.743370	N/A
 https://mbsd.cs.ru.nl/Publications?from=Main.PublicationsPerYear	N/A
@@ -968,7 +968,7 @@ https://www.mercurylang.org/documentation/papers/aadebug03_talk.pdf	N/A
 https://arxiv.org/pdf/cs/0311040	N/A
 https://www.academia.edu/22955469/Status_of_the_Mercury_system	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/2003/verm2003-LazyDynamicIO.pdf	created	2003
-https://link.springer.com/chapter/10.1007/978-3-540-85373-2_12	N/A
+https://link.springer.com/chapter/10.1007/978-3-540-85373-2_12	publication	2008
 https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/	N/A
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await	N/A
 https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall?view=net-10.0	N/A
@@ -992,7 +992,7 @@ https://www.haskell.org/haskellwiki/Monad_tutorials_timeline	N/A
 https://homepages.inf.ed.ac.uk/wadler/topics/monads.html	N/A
 https://goodmath.org/blog/2012/08/19/monads-and-programming/	created	2012
 https://blog.higher-order.com/posts/2/	N/A
-https://dl.acm.org/doi/10.1145/1297105.1297078	N/A
+https://dl.acm.org/doi/10.1145/1297105.1297078	publication	2007-10-21
 https://research.microsoft.com/~emeijer/Papers/Lambada.pdf	N/A
 https://dbp.io/essays/2011-09-03-mercury-tidbits.html	created	2011
 https://www.haskell.org/pipermail/haskell-cafe/2007-August.txt	created	2007
@@ -1240,7 +1240,7 @@ https://www.scribd.com/document/884360784/io	N/A
 https://www.scribd.com/document/927559821/Lecture-11	N/A
 https://www.scribd.com/presentation/348217028/IO	N/A
 https://www.scribd.com/presentation/69424261/Chapter-9	N/A
-https://dl.acm.org/doi/10.1145/2897336.2897340	N/A
+https://dl.acm.org/doi/10.1145/2897336.2897340	publication	2015-09-14
 https://haskell-effectful.github.io/	N/A
 https://www.haskell.org/haskellwiki/MonadTrans	N/A
 https://www.haskell.org/haskellwiki/MonadReader	N/A
@@ -1348,7 +1348,7 @@ https://abailly.github.io/posts/free.html	N/A
 https://chrishenson.net/posts/2024-04-28-synacor.html	created	2024
 https://mail.haskell.org/pipermail/haskell/2010-October/022341.html	created	2010
 https://stackoverflow.com/questions/73770694/how-to-use-st-monad-with-monad-transformers	N/A
-https://dl.acm.org/doi/abs/10.1145/3125374.3125385	N/A
+https://dl.acm.org/doi/abs/10.1145/3125374.3125385	publication	2017-09-21
 https://www.researchgate.net/publication/319948438_A_preliminary_assessment_of_how_monads_are_used_in_Haskell	N/A
 https://www.cs-study.com/koga/category/monads.html	N/A
 https://stackoverflow.com/questions/56747974/how-to-wrap-monadic-action-in-io	N/A
@@ -1504,9 +1504,9 @@ https://kar.kent.ac.uk/20889/	N/A
 https://pauillac.inria.fr/~fpottier/biblio/english.html	N/A
 https://www.cs.ox.ac.uk/files/3313/PRG42.pdf	N/A
 https://dl.acm.org/doi/10.5555/25946.25949	N/A
-https://link.springer.com/chapter/10.1007/3-540-61064-2_46	N/A
+https://link.springer.com/chapter/10.1007/3-540-61064-2_46	publication	1996
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/tfp-proc.pdf	N/A
-https://link.springer.com/chapter/10.1007/3-540-48515-5_5	N/A
+https://link.springer.com/chapter/10.1007/3-540-48515-5_5	publication	1999
 https://dl.acm.org/doi/10.1007/11431664_11	N/A
 https://www.academia.edu/546572/A_language_for_reasoning_about_concurrent_functional_I_O	N/A
 https://launchbury.blog/technical/publications/	publication	2019-01-28
@@ -1518,8 +1518,8 @@ https://homes.luddy.indiana.edu/sabry/index.html%3Fp%3D28.html	N/A
 https://cs.au.dk/~timany/publications/pub_pages/2018_popl_stmonad/	created	2018
 http://www.cs.chalmers.se/Fudgets/	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/HaskellRetrospective.ppt	created	2016
-https://link.springer.com/content/pdf/10.1007/3-540-62064-8_33	N/A
-https://link.springer.com/chapter/10.1007/978-3-7091-6878-3_7	N/A
+https://link.springer.com/content/pdf/10.1007/3-540-62064-8_33	publication	1996
+https://link.springer.com/chapter/10.1007/978-3-7091-6878-3_7	publication	1997
 https://link.springer.com/content/pdf/10.1007/978-3-540-92995-6_2.pdf?pdf=inline+link	N/A
 https://assets.cambridge.org/97805210/70072/frontmatter/9780521070072_frontmatter.pdf	N/A
 https://www.rairo-ita.org/articles/ita/abs/2002/02/ita0216/ita0216.html	publication	2002-04-01
@@ -1548,7 +1548,7 @@ https://academy.fpblock.com/haskell/tutorial/primitive-haskell/	N/A
 https://priyankamondal-11139.medium.com/haskell-io-monad-b4a825b59269	publication	2023-11-04
 https://www.microsoft.com/en-us/research/publication/monadic-io-in-haskell-1-3/?lang=zh-cn	N/A
 https://engineering.yale.edu/download_file/view/13c54083-53c7-4bdd-9d31-2faa3ac9de80/3815	N/A
-https://link.springer.com/chapter/10.1007/978-1-4471-3215-8_1	N/A
+https://link.springer.com/chapter/10.1007/978-1-4471-3215-8_1	publication	1993
 https://www.classes.cs.uchicago.edu/archive/2007/spring/32102-1/papers/p274-marlow.pdf	created	2007
 https://web.mit.edu/price/a/2007/haskell/stm-lock-free-data-structures.pdf	created	2007
 https://link.springer.com/content/pdf/10.1007/3-540-55844-6_154.pdf	N/A
@@ -1559,7 +1559,7 @@ https://research.google.com/pubs/archive/36841.pdf	N/A
 https://www.mew.org/~kazu/doc/paper/hask035-voellmy.pdf	N/A
 https://www.diva-portal.org/smash/get/diva2%3A1038657/FULLTEXT01.pdf	N/A
 https://www.sciencedirect.com/science/article/pii/S1571066104052600/pdf?md5=3fc5d2869704c70640a2b7032162ce32&isDTMRedir=Y&pid=1-s2.0-S1571066104052600-main.pdf&_valck=1	N/A
-https://dl.acm.org/doi/10.1145/3242744.3242759	N/A
+https://dl.acm.org/doi/10.1145/3242744.3242759	publication	2018-09-17
 https://link.springer.com/content/pdf/10.1007/BFb0055438.pdf	N/A
 https://www.inf.ufsc.br/~jbosco/cleanBookI.pdf	N/A
 https://www.complete.org/real-world-haskell/	N/A
@@ -1606,17 +1606,17 @@ https://lorepub.com/post/2016-12-17-Haskell-Pitfalls	created	2016
 https://www.haskell.org/haskellwiki/Implement_a_chat_server	N/A
 https://benl.ouroborus.net/thesis/2019-AmosRobinson-Streams.pdf	created	2019
 https://www.andres-loeh.de/GenericStorage/wgp10-genstorage.pdf	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-29822-6_15	N/A
+https://link.springer.com/chapter/10.1007/978-3-642-29822-6_15	publication	2012
 https://www.haskell.org/pipermail/haskell-cafe/2010-August/082324.html	created	2010
 https://www.haskell.org/communities/11-2001/html/report.html	created	2001
 https://www.haskell.org/communities/05-2002/report.pdf	created	2002
 https://repository.ubn.ru.nl/bitstream/handle/2066/18841/18841_tutotothc.pdf	N/A
-https://link.springer.com/chapter/10.1007/11431664_2	N/A
+https://link.springer.com/chapter/10.1007/11431664_2	publication	2005
 https://mbsd.cs.ru.nl/publications/papers/2004/achp2004-ProbingGUIs.pdf	created	2004
 https://www.cs.ru.nl/masters-theses/2010/S_Michels___Building_iTask_applications.pdf	created	2010
 https://wiki.clean.cs.ru.nl/Object_I/O_Tutorial	N/A
 https://clean.cs.ru.nl/Documentation	N/A
-https://link.springer.com/chapter/10.1007/10722298_1	N/A
+https://link.springer.com/chapter/10.1007/10722298_1	publication	2000
 https://link.springer.com/content/pdf/10.1007/10722298.pdf	N/A
 http://www.haskell.org/ObjectIO/	N/A
 https://okmij.org/ftp/Haskell/extensible/index.html	N/A
