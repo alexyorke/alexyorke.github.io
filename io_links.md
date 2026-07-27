@@ -211,205 +211,205 @@ https://github.com/qio-haskell/qio-haskell	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F	publication	2020
 https://github.com/Icelandjack/Capabilities	N/A
 https://github.com/albertdahlin/elm-cli-io-monad	created	2020-11-17
-https://github.com/okmij/libhandler	publication	N/A
+https://github.com/okmij/libhandler	N/A
 https://github.com/effect-handlers/effect-handlers.github.io	created	2022-04-11
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effekt-capabilitypassing-style-for-type-and-effectsafe-extensible-effect-handlers-in-scala/A19680B18FB74AD95F8D83BC4B097D4F	publication	2020-01
 https://dl.acm.org/doi/10.1145/2633357.2633358	publication	2014-09-03
 https://iris-project.org/pdfs/2026-pldi-exceptional.pdf	created	2026
 https://www.cambridge.org/core/product/31638FCCC07130C30C42853CF0E0A4C2/core-reader	publication	2024-01
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/algebraic-effects-and-handlers-for-arrows/S0956796824000066	publication	N/A
-https://dl.acm.org/doi/10.1145/3676481	publication	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/algebraic-effects-and-handlers-for-arrows/S0956796824000066	N/A
+https://dl.acm.org/doi/10.1145/3676481	N/A
 https://dl.acm.org/doi/10.1145/3527326	publication	2022-04-29
 https://arxiv.org/pdf/1905.06544	created	1905
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html	publication	N/A
-https://serokell.io/blog/introduction-to-free-monads	publication	N/A
-https://gist.github.com/CMCDragonkai/165d9a598b8fb333ea65	publication	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html	N/A
+https://serokell.io/blog/introduction-to-free-monads	N/A
+https://gist.github.com/CMCDragonkai/165d9a598b8fb333ea65	N/A
 https://discourse.haskell.org/t/have-effect-systems-completely-replaced-transformers-mtl-on-your-code/7273	publication	2023-08-11
-https://github.com/polysemy-research/polysemy	publication	N/A
+https://github.com/polysemy-research/polysemy	N/A
 https://haskellforall.com/2012/08/the-category-design-pattern	created	2012
-https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Solutions/IO	publication	N/A
+https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Solutions/IO	N/A
 https://haskellforall.com/2014/08/managed-100-monad-for-managed-resources	created	2014
-https://en.wikibooks.org/wiki/Haskell/Prologue%3A_IO%2C_an_applicative_functor	publication	N/A
+https://en.wikibooks.org/wiki/Haskell/Prologue%3A_IO%2C_an_applicative_functor	N/A
 https://haskellforall.com/2012/07/pipes-2.1-and-index-core-1.0-indexed	created	2012
-https://en.wikibooks.org/wiki/Haskell/Comonads	publication	N/A
-https://haskellforall.com/	publication	N/A
-https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Io	publication	N/A
-https://arxiv.org/abs/2401.08901	publication	N/A
-https://arxiv.org/abs/2506.15424	publication	N/A
-https://arxiv.org/abs/2502.15031	publication	N/A
-https://arxiv.org/abs/2604.15290	publication	N/A
+https://en.wikibooks.org/wiki/Haskell/Comonads	N/A
+https://haskellforall.com/	N/A
+https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Io	N/A
+https://arxiv.org/abs/2401.08901	N/A
+https://arxiv.org/abs/2506.15424	N/A
+https://arxiv.org/abs/2502.15031	N/A
+https://arxiv.org/abs/2604.15290	N/A
 https://research.chalmers.se/en/publication/540080	publication	2024
 https://research.chalmers.se/en/publication/155369	publication	2011
-https://research.chalmers.se/publication/528822/file/528822_Fulltext.pdf	publication	N/A
-https://research.chalmers.se/publication/505007/file/505007_Fulltext.pdf	publication	N/A
-https://research.chalmers.se/publication/532471/file/532471_Fulltext.pdf	publication	N/A
-https://research.chalmers.se/publication/536364/file/536364_Fulltext.pdf	publication	N/A
-https://research.chalmers.se/publication/542885/file/542885_Fulltext.pdf	publication	N/A
-https://research.chalmers.se/publication/540080/file/540080_Fulltext.pdf	publication	N/A
-https://homepages.inf.ed.ac.uk/wadler/papers/formlets-aplas/formlets-bcs-facs.pdf	publication	N/A
-https://imae.udg.edu/~villaret/monads.pdf	publication	N/A
-https://software.imdea.org/~aleks/papers/effects/effects.pdf	publication	N/A
-https://homes.luddy.indiana.edu/sabry/files/monadicDC.pdf	publication	N/A
-https://ncatlab.org/nlab/files/WadlerMonads.pdf	publication	N/A
-https://flint.cs.yale.edu/trifonov/cs629/WadlerMonadsForFP.pdf	publication	N/A
-https://www.cs.ox.ac.uk/jeremy.gibbons/publications/ringads.pdf	publication	N/A
+https://research.chalmers.se/publication/528822/file/528822_Fulltext.pdf	N/A
+https://research.chalmers.se/publication/505007/file/505007_Fulltext.pdf	N/A
+https://research.chalmers.se/publication/532471/file/532471_Fulltext.pdf	N/A
+https://research.chalmers.se/publication/536364/file/536364_Fulltext.pdf	N/A
+https://research.chalmers.se/publication/542885/file/542885_Fulltext.pdf	N/A
+https://research.chalmers.se/publication/540080/file/540080_Fulltext.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/formlets-aplas/formlets-bcs-facs.pdf	N/A
+https://imae.udg.edu/~villaret/monads.pdf	N/A
+https://software.imdea.org/~aleks/papers/effects/effects.pdf	N/A
+https://homes.luddy.indiana.edu/sabry/files/monadicDC.pdf	N/A
+https://ncatlab.org/nlab/files/WadlerMonads.pdf	N/A
+https://flint.cs.yale.edu/trifonov/cs629/WadlerMonadsForFP.pdf	N/A
+https://www.cs.ox.ac.uk/jeremy.gibbons/publications/ringads.pdf	N/A
 https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/wadler-essence-fp.pdf	created	2005
 https://www.classes.cs.uchicago.edu/archive/2023/winter/22300-1/notes/monads/the-essence-of-functional-programming.pdf	created	2023
-https://arxiv.org/pdf/cs/0205026	publication	N/A
+https://arxiv.org/pdf/cs/0205026	N/A
 https://dl.acm.org/doi/10.1145/3009837.3009878	publication	2017-01
 https://www.classes.cs.uchicago.edu/archive/2023/winter/22300-1/notes/monads/comprehending-monads.pdf	created	2023
-https://www.jimpryor.net/teaching/nasslli/wadler-essence.pdf	publication	N/A
-https://haskell.foundation/podcast/64/	publication	N/A
-https://haskell.foundation/podcast/54/	publication	N/A
-https://arxiv.org/pdf/2601.18793	publication	N/A
+https://www.jimpryor.net/teaching/nasslli/wadler-essence.pdf	N/A
+https://haskell.foundation/podcast/64/	N/A
+https://haskell.foundation/podcast/54/	N/A
+https://arxiv.org/pdf/2601.18793	N/A
 https://link.springer.com/chapter/10.1007/11784180_3	publication	2006
-https://arxiv.org/pdf/2507.22048	publication	N/A
-https://haskell.foundation/podcast/65/	publication	N/A
-https://haskell.foundation/podcast/68/	publication	N/A
-https://haskell.foundation/podcast/74/	publication	N/A
-https://arxiv.org/pdf/2512.22431	publication	N/A
-https://gist.github.com/vic/e33fea2e46810faf1848cc8d0b3ceba3	publication	N/A
-https://arxiv.org/html/2508.12572v1	publication	N/A
-https://github.com/hasura/eff/issues/12	publication	N/A
+https://arxiv.org/pdf/2507.22048	N/A
+https://haskell.foundation/podcast/65/	N/A
+https://haskell.foundation/podcast/68/	N/A
+https://haskell.foundation/podcast/74/	N/A
+https://arxiv.org/pdf/2512.22431	N/A
+https://gist.github.com/vic/e33fea2e46810faf1848cc8d0b3ceba3	N/A
+https://arxiv.org/html/2508.12572v1	N/A
+https://github.com/hasura/eff/issues/12	N/A
 https://doi.org/10.1017/S0956796808006758	publication	2008-07
-https://homepages.inf.ed.ac.uk/slindley/papers/aeia.pdf	publication	N/A
-https://cambium.inria.fr/~yzakowsk/papers/itrees.pdf	publication	N/A
-https://cambium.inria.fr/~yzakowsk/papers/layered-monadic-interpreters.pdf	publication	N/A
+https://homepages.inf.ed.ac.uk/slindley/papers/aeia.pdf	N/A
+https://cambium.inria.fr/~yzakowsk/papers/itrees.pdf	N/A
+https://cambium.inria.fr/~yzakowsk/papers/layered-monadic-interpreters.pdf	N/A
 https://doi.org/10.1145/3406088.3409022	publication	2020-08-27
 https://doi.org/10.1145/3331545.3342595	publication	2019-08-08
 https://doi.org/10.1145/3674651	publication	2024-08-15
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B18FB74AD95F8D83BC4B097D4F/S0956796820000027a.pdf/effekt_capabilitypassing_style_for_type_and_effectsafe_extensible_effect_handlers_in_scala.pdf	publication	N/A
-https://teaching.well-typed.com/intro/monads.html	publication	N/A
-https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-ST-Strict.html	publication	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B18FB74AD95F8D83BC4B097D4F/S0956796820000027a.pdf/effekt_capabilitypassing_style_for_type_and_effectsafe_extensible_effect_handlers_in_scala.pdf	N/A
+https://teaching.well-typed.com/intro/monads.html	N/A
+https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-ST-Strict.html	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effect-handlers-via-generalised-continuations/DF590482FEE2F6888CD68B4B446E31D5	publication	2020-01
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/on-the-expressive-power-of-userdefined-effects-effect-handlers-monadic-reflection-delimited-control/3FFAA9AD05B58A1467E411F80EE4E076	publication	2019-01
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/no-value-restriction-is-needed-for-algebraic-effects-andhandlers/19DD87AEDAEABBB45A06D5EA21F03428	publication	2017-01
-https://arxiv.org/pdf/2603.02260	publication	N/A
-https://arxiv.org/pdf/2512.10861	publication	N/A
-https://arxiv.org/abs/2601.03836	publication	N/A
-https://github.com/JonasHoefer/scoped-effects-agda	publication	N/A
-https://github.com/ngernest/pbt-bibliography	publication	N/A
-https://h2.jaguarpaw.co.uk/posts/bluefin-versus-oop/	publication	N/A
-https://h2.jaguarpaw.co.uk/posts/bluefin-plucking-constraints/	publication	N/A
-https://h2.jaguarpaw.co.uk/posts/bluefin-streams-finalize-promptly/	publication	N/A
-https://h2.jaguarpaw.co.uk/posts/bluefin-prevents-handles-leaking/	publication	N/A
-https://h2.jaguarpaw.co.uk/posts/extensible-effects-interleaving/	publication	N/A
-https://h2.jaguarpaw.co.uk/posts/bluefin-all/	publication	N/A
+https://arxiv.org/pdf/2603.02260	N/A
+https://arxiv.org/pdf/2512.10861	N/A
+https://arxiv.org/abs/2601.03836	N/A
+https://github.com/JonasHoefer/scoped-effects-agda	N/A
+https://github.com/ngernest/pbt-bibliography	N/A
+https://h2.jaguarpaw.co.uk/posts/bluefin-versus-oop/	N/A
+https://h2.jaguarpaw.co.uk/posts/bluefin-plucking-constraints/	N/A
+https://h2.jaguarpaw.co.uk/posts/bluefin-streams-finalize-promptly/	N/A
+https://h2.jaguarpaw.co.uk/posts/bluefin-prevents-handles-leaking/	N/A
+https://h2.jaguarpaw.co.uk/posts/extensible-effects-interleaving/	N/A
+https://h2.jaguarpaw.co.uk/posts/bluefin-all/	N/A
 https://discourse.haskell.org/t/bluefin-versus-oop/11336	publication	2025-02-03
-https://www.reddit.com/r/haskell/comments/1cbyqv9/bluefin_a_new_effect_system/	publication	N/A
-https://www.reddit.com/r/haskell/comments/1mh89i0/haskell_realworld_example_with_effectful/	publication	N/A
-https://www.reddit.com/r/haskell/comments/1jd1mw8/am_i_the_only_person_who_hates_monad_transformers/	publication	N/A
-https://github.com/haskell-effectful/effectful/discussions/258	publication	N/A
-https://github.com/goldfirere/effects	publication	N/A
-https://github.com/Snowflyt/tinyeffect	publication	N/A
+https://www.reddit.com/r/haskell/comments/1cbyqv9/bluefin_a_new_effect_system/	N/A
+https://www.reddit.com/r/haskell/comments/1mh89i0/haskell_realworld_example_with_effectful/	N/A
+https://www.reddit.com/r/haskell/comments/1jd1mw8/am_i_the_only_person_who_hates_monad_transformers/	N/A
+https://github.com/haskell-effectful/effectful/discussions/258	N/A
+https://github.com/goldfirere/effects	N/A
+https://github.com/Snowflyt/tinyeffect	N/A
 https://functional-architecture.org/events/funarch-2025/	created	2025
 https://www.lambdadays.org/lambdadays2025	created	2025
-https://haskell.foundation/podcast/79/	publication	N/A
-https://haskell.foundation/podcast/78/	publication	N/A
-https://haskell.foundation/podcast/57/	publication	N/A
-https://haskell.foundation/podcast/45/	publication	N/A
-https://haskell.foundation/podcast/22/	publication	N/A
-https://haskell.foundation/podcast/62/	publication	N/A
-https://paperswelove.org/papers/the-essence-of-functional-programming-2fac941d/	publication	N/A
-https://www.md.chalmers.se/Cs/Research/Semantics/APPSEM/dtp99/proceedings.html	publication	N/A
-https://arxiv.org/pdf/2411.00037	publication	N/A
+https://haskell.foundation/podcast/79/	N/A
+https://haskell.foundation/podcast/78/	N/A
+https://haskell.foundation/podcast/57/	N/A
+https://haskell.foundation/podcast/45/	N/A
+https://haskell.foundation/podcast/22/	N/A
+https://haskell.foundation/podcast/62/	N/A
+https://paperswelove.org/papers/the-essence-of-functional-programming-2fac941d/	N/A
+https://www.md.chalmers.se/Cs/Research/Semantics/APPSEM/dtp99/proceedings.html	N/A
+https://arxiv.org/pdf/2411.00037	N/A
 https://dl.acm.org/doi/10.1145/3156695.3122965	publication	2017-10-31
-https://arxiv.org/html/2401.08901v1	publication	N/A
-https://arxiv.org/pdf/1309.5132	publication	N/A
-https://arxiv.org/pdf/1202.2921	publication	N/A
-https://link.springer.com/content/pdf/10.1007/10722298_3.pdf	publication	N/A
+https://arxiv.org/html/2401.08901v1	N/A
+https://arxiv.org/pdf/1309.5132	N/A
+https://arxiv.org/pdf/1202.2921	N/A
+https://link.springer.com/content/pdf/10.1007/10722298_3.pdf	N/A
 https://link.springer.com/content/pdf/10.1007/978-3-642-32096-5_7	publication	2012
-https://arxiv.org/pdf/2506.15424	publication	N/A
-https://link.springer.com/content/pdf/10.1007/978-3-030-44914-8_2.pdf	publication	N/A
-https://arxiv.org/html/2502.15031v1	publication	N/A
-https://link.springer.com/content/pdf/10.1007/s10990-011-9075-y.pdf	publication	N/A
+https://arxiv.org/pdf/2506.15424	N/A
+https://link.springer.com/content/pdf/10.1007/978-3-030-44914-8_2.pdf	N/A
+https://arxiv.org/html/2502.15031v1	N/A
+https://link.springer.com/content/pdf/10.1007/s10990-011-9075-y.pdf	N/A
 https://link.springer.com/content/pdf/10.1007/978-3-642-11503-5_14	publication	2010
-https://raw.githubusercontent.com/nbenton/nbenton.github.io/master/monadsandeffectsfinal.pdf	publication	N/A
+https://raw.githubusercontent.com/nbenton/nbenton.github.io/master/monadsandeffectsfinal.pdf	N/A
 https://dl.acm.org/doi/pdf/10.1145/581478.581492	publication	2002-09-17
 https://eric.walkingshaw.net/files/pubs/2018/ppdp18-declarative-guis.pdf	created	2018
-https://www.sciencedirect.com/science/article/pii/S1571066113000650/pdf?md5=b47e68231cb82f2a5480b5495a915e00&pid=1-s2.0-S1571066113000650-main.pdf	publication	N/A
-https://www.researchgate.net/publication/262396831_Reasoning_about_IO_in_Functional_Programs	publication	N/A
-https://www.researchgate.net/publication/2358765_Interactive_Programs_in_Dependent_Type_Theory	publication	N/A
-https://ncatlab.org/nlab/files/KohlSchwaiger-Monads.pdf	publication	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066113000650/pdf?md5=b47e68231cb82f2a5480b5495a915e00&pid=1-s2.0-S1571066113000650-main.pdf	N/A
+https://www.researchgate.net/publication/262396831_Reasoning_about_IO_in_Functional_Programs	N/A
+https://www.researchgate.net/publication/2358765_Interactive_Programs_in_Dependent_Type_Theory	N/A
+https://ncatlab.org/nlab/files/KohlSchwaiger-Monads.pdf	N/A
 https://groups.seas.harvard.edu/courses/cs252/2016fa/8.pdf	created	2016
-https://www.researchgate.net/publication/2806790_Monads_and_Effects	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S0167642320301313	publication	N/A
-https://arxiv.org/pdf/2207.10010	publication	N/A
-https://cronfa.swan.ac.uk/Record/cronfa40967/Download/0040967-26072018015932.pdf	publication	N/A
-https://old.matf.bg.ac.rs/files/ivan-cukic-phd.pdf	publication	N/A
-https://www.researchgate.net/publication/221335532_Object-oriented_programming_in_dependent_type_theory	publication	N/A
-https://arxiv.org/pdf/1710.09756	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S1571066105000368/pdf?md5=7f9e1b7c0465f84befad020068427106&pid=1-s2.0-S1571066105000368-main.pdf	publication	N/A
-https://www.researchgate.net/publication/221055373_Declarative_Scripting_in_Haskell	publication	N/A
-https://www.researchgate.net/publication/2472798_Tackling_the_Awkward_Squad_monadic_inputoutput_concurrency_exceptions_and_foreign-language_calls_in_Haskell	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S1571066111000168	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S1571066107002228/pdf?md5=3672476270840a9c94579ad834954420&pid=1-s2.0-S1571066107002228-main.pdf	publication	N/A
-https://www.researchgate.net/publication/2596837_Haskell_as_an_Automation_Controller	publication	N/A
-https://www.researchgate.net/publication/220802957_Scheduling_Light-Weight_Parallelism_in_ArTCoP	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S016764231500249X	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S1877050911003103/pdf?md5=4c195a107058a7713c0d1dfcdeca6d5d&pid=1-s2.0-S1877050911003103-main.pdf	publication	N/A
-https://arxiv.org/pdf/0806.2735	publication	N/A
-https://eprints.nottingham.ac.uk/11457/1/thesis.pdf	publication	N/A
-https://www.cs.nott.ac.uk/~asg/pdfs/tfp08.pdf	publication	N/A
-https://www.researchgate.net/publication/2904078_Functional_Quantum_Programming	publication	N/A
-https://www.researchgate.net/publication/333918631_Quantum_Computing_in_Haskell	publication	N/A
-https://www.researchgate.net/publication/354400934_Quantum_Hoare_Type_Theory_Extended_Abstract	publication	N/A
-https://www.researchgate.net/publication/266579870_Towards_a_formally_verified_functional_quantum_programming_language	publication	N/A
-https://www.researchgate.net/publication/222661800_From_Reversible_to_Irreversible_Computations	publication	N/A
-https://www.researchgate.net/publication/220173717_Structuring_quantum_effects_Superoperators_as_arrows	publication	N/A
-https://www.researchgate.net/publication/370062658_Type-safe_Quantum_Programming_in_Idris	publication	N/A
-https://www.researchgate.net/publication/396499861_GUPPY_Pythonic_Quantum-Classical_Programming	publication	N/A
-https://www.sciencedirect.com/science/article/pii/S0167642315004062	publication	N/A
-https://www.researchgate.net/publication/342793798_A_Tutorial_Introduction_to_Quantum_Circuit_Programming_in_Dependently_Typed_Proto-Quipper	publication	N/A
-https://www.researchgate.net/publication/246546655_Quipper_A_Scalable_Quantum_Programming_Language	publication	N/A
-https://www.researchgate.net/publication/334750953_Modular_effects_in_Haskell_through_effect_polymorphism_and_explicit_dictionary_applications_a_new_approach_and_the_mVeriFast_verifier_as_a_case_study	publication	N/A
-https://www.researchgate.net/publication/2392251_Global_Variables_in_Haskell	publication	N/A
-https://www.researchgate.net/publication/281050531_Effect_Capabilities_For_Haskell	publication	N/A
-https://www.researchgate.net/publication/278710891_Parallel_and_Concurrent_Programming_in_Haskell	publication	N/A
-https://www.researchgate.net/publication/386943633_Linear_Haskell_practical_linearity_in_a_higher-order_polymorphic_language	publication	N/A
-https://www.researchgate.net/publication/234811588_Imperative_Functional_Programming	publication	N/A
-https://www.researchgate.net/publication/221562996_Lightweight_Monadic_Regions	publication	N/A
-https://www.researchgate.net/publication/221241355_Recursive_monadic_bindings	publication	N/A
-https://www.researchgate.net/publication/220997971_Imperative_Functional_Programming	publication	N/A
+https://www.researchgate.net/publication/2806790_Monads_and_Effects	N/A
+https://www.sciencedirect.com/science/article/pii/S0167642320301313	N/A
+https://arxiv.org/pdf/2207.10010	N/A
+https://cronfa.swan.ac.uk/Record/cronfa40967/Download/0040967-26072018015932.pdf	N/A
+https://old.matf.bg.ac.rs/files/ivan-cukic-phd.pdf	N/A
+https://www.researchgate.net/publication/221335532_Object-oriented_programming_in_dependent_type_theory	N/A
+https://arxiv.org/pdf/1710.09756	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066105000368/pdf?md5=7f9e1b7c0465f84befad020068427106&pid=1-s2.0-S1571066105000368-main.pdf	N/A
+https://www.researchgate.net/publication/221055373_Declarative_Scripting_in_Haskell	N/A
+https://www.researchgate.net/publication/2472798_Tackling_the_Awkward_Squad_monadic_inputoutput_concurrency_exceptions_and_foreign-language_calls_in_Haskell	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066111000168	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066107002228/pdf?md5=3672476270840a9c94579ad834954420&pid=1-s2.0-S1571066107002228-main.pdf	N/A
+https://www.researchgate.net/publication/2596837_Haskell_as_an_Automation_Controller	N/A
+https://www.researchgate.net/publication/220802957_Scheduling_Light-Weight_Parallelism_in_ArTCoP	N/A
+https://www.sciencedirect.com/science/article/pii/S016764231500249X	N/A
+https://www.sciencedirect.com/science/article/pii/S1877050911003103/pdf?md5=4c195a107058a7713c0d1dfcdeca6d5d&pid=1-s2.0-S1877050911003103-main.pdf	N/A
+https://arxiv.org/pdf/0806.2735	N/A
+https://eprints.nottingham.ac.uk/11457/1/thesis.pdf	N/A
+https://www.cs.nott.ac.uk/~asg/pdfs/tfp08.pdf	N/A
+https://www.researchgate.net/publication/2904078_Functional_Quantum_Programming	N/A
+https://www.researchgate.net/publication/333918631_Quantum_Computing_in_Haskell	N/A
+https://www.researchgate.net/publication/354400934_Quantum_Hoare_Type_Theory_Extended_Abstract	N/A
+https://www.researchgate.net/publication/266579870_Towards_a_formally_verified_functional_quantum_programming_language	N/A
+https://www.researchgate.net/publication/222661800_From_Reversible_to_Irreversible_Computations	N/A
+https://www.researchgate.net/publication/220173717_Structuring_quantum_effects_Superoperators_as_arrows	N/A
+https://www.researchgate.net/publication/370062658_Type-safe_Quantum_Programming_in_Idris	N/A
+https://www.researchgate.net/publication/396499861_GUPPY_Pythonic_Quantum-Classical_Programming	N/A
+https://www.sciencedirect.com/science/article/pii/S0167642315004062	N/A
+https://www.researchgate.net/publication/342793798_A_Tutorial_Introduction_to_Quantum_Circuit_Programming_in_Dependently_Typed_Proto-Quipper	N/A
+https://www.researchgate.net/publication/246546655_Quipper_A_Scalable_Quantum_Programming_Language	N/A
+https://www.researchgate.net/publication/334750953_Modular_effects_in_Haskell_through_effect_polymorphism_and_explicit_dictionary_applications_a_new_approach_and_the_mVeriFast_verifier_as_a_case_study	N/A
+https://www.researchgate.net/publication/2392251_Global_Variables_in_Haskell	N/A
+https://www.researchgate.net/publication/281050531_Effect_Capabilities_For_Haskell	N/A
+https://www.researchgate.net/publication/278710891_Parallel_and_Concurrent_Programming_in_Haskell	N/A
+https://www.researchgate.net/publication/386943633_Linear_Haskell_practical_linearity_in_a_higher-order_polymorphic_language	N/A
+https://www.researchgate.net/publication/234811588_Imperative_Functional_Programming	N/A
+https://www.researchgate.net/publication/221562996_Lightweight_Monadic_Regions	N/A
+https://www.researchgate.net/publication/221241355_Recursive_monadic_bindings	N/A
+https://www.researchgate.net/publication/220997971_Imperative_Functional_Programming	N/A
 https://link.springer.com/chapter/10.1007/978-3-642-22941-1_13	publication	2011
-https://goto.ucsd.edu/~nvazou/koka/icfp15.pdf	publication	N/A
-https://inria.hal.science/hal-01038053/PDF/main_sblp.pdf	publication	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37A6F7551C3A84120D658CE2D2C55E6E/S0956796802004471a.pdf/global-variables-in-haskell.pdf	publication	N/A
-https://www.recurial.com/ppopp17-sc-haskell.pdf	publication	N/A
-https://www.researchgate.net/publication/221335580_Monad_Factory_Type-Indexed_Monads	publication	N/A
-https://www.cs.chalmers.se/~rjmh/Globals.ps	publication	N/A
-https://www.researchgate.net/publication/236235374_An_Introduction_to_Quantum_Programming_in_Quipper	publication	N/A
-https://www.researchgate.net/publication/2270555_Merging_Monads_and_Folds_for_Functional_Programming	publication	N/A
-https://www.researchgate.net/publication/2550340_Using_Catamorphisms_Subtypes_and_Monad_Transformers_for_Writing_Modular_Functional_Interpreters	publication	N/A
-https://www.researchgate.net/publication/259825022_The_semantic_marriage_of_monads_and_effects	publication	N/A
-https://www.researchgate.net/publication/2384858_Notions_of_Computation_Determine_Monads	publication	N/A
-https://www.researchgate.net/publication/243538721_Functional_pearl_Monadic_parsing_in_Haskell	publication	N/A
-https://www.researchgate.net/publication/310819035_Programming_with_monadic_CSP-style_processes_in_dependent_type_theory	publication	N/A
-https://www.researchgate.net/publication/2306033_Deriving_Monad_Transformers	publication	N/A
-https://www.researchgate.net/publication/2631269_Deriving_Backtracking_Monad_Transformers	publication	N/A
-https://www.researchgate.net/publication/222520426_Generalising_monads_to_arrows	publication	N/A
-https://www.researchgate.net/publication/324790248_QJava_A_Monadic_Java_Library_for_Quantum_Programming	publication	N/A
-https://www.researchgate.net/publication/336425012_Concurrency_control_of_JavaScript_with_arrows	publication	N/A
+https://goto.ucsd.edu/~nvazou/koka/icfp15.pdf	N/A
+https://inria.hal.science/hal-01038053/PDF/main_sblp.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37A6F7551C3A84120D658CE2D2C55E6E/S0956796802004471a.pdf/global-variables-in-haskell.pdf	N/A
+https://www.recurial.com/ppopp17-sc-haskell.pdf	N/A
+https://www.researchgate.net/publication/221335580_Monad_Factory_Type-Indexed_Monads	N/A
+https://www.cs.chalmers.se/~rjmh/Globals.ps	N/A
+https://www.researchgate.net/publication/236235374_An_Introduction_to_Quantum_Programming_in_Quipper	N/A
+https://www.researchgate.net/publication/2270555_Merging_Monads_and_Folds_for_Functional_Programming	N/A
+https://www.researchgate.net/publication/2550340_Using_Catamorphisms_Subtypes_and_Monad_Transformers_for_Writing_Modular_Functional_Interpreters	N/A
+https://www.researchgate.net/publication/259825022_The_semantic_marriage_of_monads_and_effects	N/A
+https://www.researchgate.net/publication/2384858_Notions_of_Computation_Determine_Monads	N/A
+https://www.researchgate.net/publication/243538721_Functional_pearl_Monadic_parsing_in_Haskell	N/A
+https://www.researchgate.net/publication/310819035_Programming_with_monadic_CSP-style_processes_in_dependent_type_theory	N/A
+https://www.researchgate.net/publication/2306033_Deriving_Monad_Transformers	N/A
+https://www.researchgate.net/publication/2631269_Deriving_Backtracking_Monad_Transformers	N/A
+https://www.researchgate.net/publication/222520426_Generalising_monads_to_arrows	N/A
+https://www.researchgate.net/publication/324790248_QJava_A_Monadic_Java_Library_for_Quantum_Programming	N/A
+https://www.researchgate.net/publication/336425012_Concurrency_control_of_JavaScript_with_arrows	N/A
 https://link.springer.com/chapter/10.1007/3-540-45699-6_2	publication	2002
-https://www.researchgate.net/publication/336456728_Staged_abstract_interpreters_fast_and_modular_whole-program_analysis_via_meta-programming	publication	N/A
-https://www.researchgate.net/publication/262351170_Towards_Modular_Compilers_for_Effects	publication	N/A
-https://repositorio.uchile.cl/bitstream/handle/2250/139232/Effect-capabilities-for-Haskell.pdf?sequence=1	publication	N/A
-https://www.researchgate.net/publication/372625799_HasTEE_Programming_Trusted_Execution_Environments_with_Haskell	publication	N/A
-https://www.researchgate.net/publication/385510488_Clean_for_Haskell_Programmers	publication	N/A
-https://www.researchgate.net/publication/406455636_Pure_Borrow_Linear_Haskell_Meets_Rust-Style_Borrowing	publication	N/A
-https://www.researchgate.net/publication/221303508_Programming_with_Arrows	publication	N/A
-https://www.researchgate.net/publication/254898016_Fibrational_Induction_Meets_Effects	publication	N/A
-https://www.researchgate.net/publication/269080561_Monads_zippers_and_views	publication	N/A
-https://www.researchgate.net/publication/221540984_The_Essence_of_Dataflow_Programming	publication	N/A
-https://www.researchgate.net/publication/221241119_Monadic_Regions	publication	N/A
-https://www.researchgate.net/publication/221241410_Monads_Zippers_and_Views_Virtualizing_the_Monad_Stack	publication	N/A
-https://www.researchgate.net/publication/220997107_Monads_in_action	publication	N/A
-https://www.researchgate.net/publication/2354615_Correctness_of_Monadic_State_An_Imperative_Call-by-Need_Calculus	publication	N/A
-https://www.researchgate.net/publication/256305596_Fixing_idioms_a_recursion_primitive_for_Applicative_DSLs	publication	N/A
-https://www.researchgate.net/publication/266660749_Hindley-Milner_Elaboration_in_Applicative_Style	publication	N/A
-https://www.researchgate.net/publication/2853429_Efficient_Recursion_in_the_Presence_of_Effects	publication	N/A
-https://www.researchgate.net/publication/222669202_Syntactic_Type_Soundness_Results_for_the_Region_Calculus	publication	N/A
-https://www.researchgate.net/publication/242440078_Effect_Types_and_Region-based_Memory_Management	publication	N/A
+https://www.researchgate.net/publication/336456728_Staged_abstract_interpreters_fast_and_modular_whole-program_analysis_via_meta-programming	N/A
+https://www.researchgate.net/publication/262351170_Towards_Modular_Compilers_for_Effects	N/A
+https://repositorio.uchile.cl/bitstream/handle/2250/139232/Effect-capabilities-for-Haskell.pdf?sequence=1	N/A
+https://www.researchgate.net/publication/372625799_HasTEE_Programming_Trusted_Execution_Environments_with_Haskell	N/A
+https://www.researchgate.net/publication/385510488_Clean_for_Haskell_Programmers	N/A
+https://www.researchgate.net/publication/406455636_Pure_Borrow_Linear_Haskell_Meets_Rust-Style_Borrowing	N/A
+https://www.researchgate.net/publication/221303508_Programming_with_Arrows	N/A
+https://www.researchgate.net/publication/254898016_Fibrational_Induction_Meets_Effects	N/A
+https://www.researchgate.net/publication/269080561_Monads_zippers_and_views	N/A
+https://www.researchgate.net/publication/221540984_The_Essence_of_Dataflow_Programming	N/A
+https://www.researchgate.net/publication/221241119_Monadic_Regions	N/A
+https://www.researchgate.net/publication/221241410_Monads_Zippers_and_Views_Virtualizing_the_Monad_Stack	N/A
+https://www.researchgate.net/publication/220997107_Monads_in_action	N/A
+https://www.researchgate.net/publication/2354615_Correctness_of_Monadic_State_An_Imperative_Call-by-Need_Calculus	N/A
+https://www.researchgate.net/publication/256305596_Fixing_idioms_a_recursion_primitive_for_Applicative_DSLs	N/A
+https://www.researchgate.net/publication/266660749_Hindley-Milner_Elaboration_in_Applicative_Style	N/A
+https://www.researchgate.net/publication/2853429_Efficient_Recursion_in_the_Presence_of_Effects	N/A
+https://www.researchgate.net/publication/222669202_Syntactic_Type_Soundness_Results_for_the_Region_Calculus	N/A
+https://www.researchgate.net/publication/242440078_Effect_Types_and_Region-based_Memory_Management	N/A
 https://dl.acm.org/doi/pdf/10.1145/262009.262011	publication	1997-09
 https://andrewdgordon.github.io/papers/fpio.pdf	N/A
 https://people.cs.nott.ac.uk/psztxa/publ/qio.pdf	N/A
