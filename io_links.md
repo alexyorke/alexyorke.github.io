@@ -15038,5006 +15038,5006 @@ https://hackage-content.haskell.org/package/monadIO/docs/src/Control.Concurrent.
 https://hackage-content.haskell.org/package/monadIO/docs/src/Control.Concurrent.STM.MonadIO.html	N/A
 https://hackage.haskell.org/package/preamble/docs/Preamble.html	N/A
 https://www.stackage.org/package/monadIO	N/A
-https://www.stackage.org/package/transformers-base
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-IO.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/libraries/base-4.10.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-IO.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/transformers-0.3.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/transformers-0.3.0.0/src/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-IO.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-IO.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-Exts.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.Exts.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-Exts.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-Exts.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-Exts.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-Exts.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-Exts.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.Exts.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/GHC-Exts.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.Exts.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/GHC-Exts.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.Exts.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Prim.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/libraries/ghc-prim-0.11.0-5201/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.2-latest/docs/html/libraries/ghc-prim-0.8.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Prim.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Prim.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.4.0.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.2.0/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.10.0/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html
-https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html
-https://hackage-content.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Base.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Base.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Base.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Base.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Base.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Base.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Base.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.IO.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Base.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Base.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.12.20241014/docs/libraries/ghc-internal-9.1200.0-3d08/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.IO.Class.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-IO-Class.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-ST-Imp.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.ST.Imp.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Prim.html
-https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Prim.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Prim.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Prim.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-ST.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-ST.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-ST.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-ST.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-ST.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-ST.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-ST.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-ST.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-ST.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.ST.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-ST.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/Control.Monad.ST.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/libraries/base-4.15.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.2.1-rc1/docs/html/libraries/base-4.16.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.ST.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-ST.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/Control.Monad.ST.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.ST.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-ST.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-ST.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/Control-Monad-ST.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-ST.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/Control-Monad-ST.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-ST.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-ST.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.ST.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/Control-Monad-ST.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.ST.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.14.3.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-ST.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.ST.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/Control-Monad-ST.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.ST.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.ST.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO-Unsafe.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/System.IO.Unsafe.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/System.IO.Unsafe.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/System-IO-Unsafe.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.11.1.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.12.0.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.13.0.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.14.3.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.15.1.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.16.4.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.17.2.1/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.18.3.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.19.2.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.20.1.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.21.0.0/docs/System-IO-Unsafe.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/System.IO.Unsafe.html
-https://hackage.haskell.org/package/base-4.9.1.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.11.1.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.12.0.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.13.0.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.14.3.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.15.1.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.16.4.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.17.2.1/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.18.3.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.19.2.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.20.1.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.21.0.0/docs/System-IO-Unsafe.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/System.IO.Unsafe.html
-https://hackage-content.haskell.org/package/base-4.9.1.0/docs/System-IO-Unsafe.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Magic.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.0-latest/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-prim-0.13.0-cb0f/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Magic.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Magic.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Magic.html
-https://www.youtube.com/watch?v=1Q97gHX5jyA
-https://www.youtube.com/watch?v=iNyQG8n9On0
-https://www.youtube.com/watch?v=RFSW_HNxJWc
-https://www.youtube.com/watch?v=LnX3B9oaKzw
-https://www.youtube.com/watch?v=Qa8IfEeBJqk
-https://www.youtube.com/watch?v=-I4yVPlvFvA
-https://dblp.org/rec/journals/ita/ErkokLM02.txt
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_69.html
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_75.html
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_89.html
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_90.html
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_91.html
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_102.html
-https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_164.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_67.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_69.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_75.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_89.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_90.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_91.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_102.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_163.html
-https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_164.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_67.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_69.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_75.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_89.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_90.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_91.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_102.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_163.html
-https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_164.html
-https://downloads.haskell.org/ghc/old_docs/3.01/users_guide/users_guide-5.html
-https://downloads.haskell.org/ghc/old_docs/4.00/users_guide/users_guide.html
-https://downloads.haskell.org/~ghc/old_docs/4.00/users_guide/users_guide.html
-https://downloads.haskell.org/ghc/old_docs/4.04pl1/users_guide/users_guide-6.html
-https://downloads.haskell.org/~ghc/old_docs/4.04pl1/users_guide/users_guide-6.html
-https://downloads.haskell.org/ghc/old_docs/4.00/users_guide/users_guide-5.html
-https://downloads.haskell.org/~ghc/old_docs/4.00/users_guide/users_guide-5.html
-https://downloads.haskell.org/ghc/old_docs/4.00/users_guide/users_guide-6.html
-https://downloads.haskell.org/~ghc/old_docs/4.00/users_guide/users_guide-6.html
-https://downloads.haskell.org/ghc/old_docs/4.01/users_guide/users_guide-5.html
-https://downloads.haskell.org/~ghc/old_docs/4.01/users_guide/users_guide-5.html
-https://downloads.haskell.org/ghc/old_docs/4.01/users_guide/users_guide-6.html
-https://downloads.haskell.org/~ghc/old_docs/4.01/users_guide/users_guide-6.html
-https://downloads.haskell.org/ghc/old_docs/4.04pl1/users_guide/users_guide-5.html
-https://downloads.haskell.org/~ghc/old_docs/4.04pl1/users_guide/users_guide-5.html
-https://downloads.haskell.org/~ghc/4.04/docs/users_guide/users_guide.html
-https://downloads.haskell.org/~ghc/4.04/docs/users_guide/users_guide-5.html
-https://downloads.haskell.org/~ghc/4.06/docs/users_guide/ghc-prelude.html
-https://downloads.haskell.org/~ghc/4.06/docs/users_guide/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/4.08.2/docs/set/book-users-guide.html
-https://downloads.haskell.org/~ghc/4.08.2/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-exception.html
-https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-ioexts.html
-https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-primitive.html
-https://downloads.haskell.org/~ghc/4.08/docs/set/book-users-guide.html
-https://downloads.haskell.org/~ghc/4.08/docs/set/ghc-language-features.html
-https://downloads.haskell.org/~ghc/4.08/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/4.08/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/4.08/docs/set/sec-ioexts.html
-https://downloads.haskell.org/~ghc/4.08/docs/set/sec-primitive.html
-https://downloads.haskell.org/~ghc/4.08/docs/users_guide/book-users-guide.html
-https://downloads.haskell.org/~ghc/4.08/docs/users_guide/ghc-language-features.html
-https://downloads.haskell.org/~ghc/4.08/docs/users_guide/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/4.08/docs/users_guide/sec-ccall.html
-https://downloads.haskell.org/~ghc/4.08/docs/users_guide/sec-exception.html
-https://downloads.haskell.org/~ghc/4.08/docs/users_guide/sec-primitive.html
-https://downloads.haskell.org/ghc/4.04/docs/users_guide/users_guide.html
-https://downloads.haskell.org/ghc/4.04/docs/users_guide/users_guide-5.html
-https://downloads.haskell.org/ghc/4.04/docs/users_guide/users_guide-6.html
-https://downloads.haskell.org/ghc/4.06/docs/users_guide/book1.html
-https://downloads.haskell.org/ghc/4.06/docs/users_guide/ghc-language-features.html
-https://downloads.haskell.org/ghc/4.06/docs/users_guide/ghc-prelude.html
-https://downloads.haskell.org/ghc/4.06/docs/users_guide/glasgow-ccalls.html
-https://downloads.haskell.org/ghc/4.06/docs/users_guide/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-primitive.html
-https://downloads.haskell.org/ghc/4.08/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/4.08/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/4.08/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/4.08/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/4.08/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/4.08/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/4.08/docs/set/sec-primitive.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/book-users-guide.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/ghc-language-features.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-ccall.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-exception.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-ioexts.html
-https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-primitive.html
-https://downloads.haskell.org/ghc/4.08.2/docs/set.pdf
-https://downloads.haskell.org/ghc/old_docs/6.12.1-OLD/users_guide.pdf
-https://downloads.haskell.org/~ghc/old_docs/6.12.1-OLD/users_guide.pdf
-https://downloads.haskell.org/ghc/old_docs/6.12.1-OLD/users_guide.ps
-https://downloads.haskell.org/~ghc/old_docs/6.12.1-OLD/users_guide.ps
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/release-6-12-1.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/release-6-12-1.html
-https://downloads.haskell.org/ghc/old_docs/6.12.1-OLD/html/libraries/base-4.2.0.0/GHC-IO-Handle.html
-https://downloads.haskell.org/~ghc/old_docs/6.12.1-OLD/html/libraries/base-4.2.0.0/GHC-IO-Handle.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/ghc/MonadUtils.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/ghc/MonadUtils.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/haskell98-1.0.1.1/Monad.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/haskell98-1.0.1.1/Monad.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base/GHC-Conc.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base/GHC-Conc.html
-https://downloads.haskell.org/~ghc/5.00/docs/set/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.00/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/5.00/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/5.00/docs/set/sec-exception.html
-https://downloads.haskell.org/~ghc/5.00/docs/set/sec-ioexts.html
-https://downloads.haskell.org/~ghc/5.00/docs/set/sec-primitive.html
-https://downloads.haskell.org/~ghc/5.02.1/docs/set/book-users-guide.html
-https://downloads.haskell.org/~ghc/5.02.1/docs/set/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.02.1/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/5.02.1/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/5.02.1/docs/set/sec-ioexts.html
-https://downloads.haskell.org/~ghc/5.02.2/docs/set/book-users-guide.html
-https://downloads.haskell.org/~ghc/5.02.2/docs/set/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.02.2/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/5.02.2/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/5.02.2/docs/set/sec-exception.html
-https://downloads.haskell.org/~ghc/5.02.2/docs/set/sec-ioexts.html
-https://downloads.haskell.org/~ghc/5.02.3/docs/set/book-users-guide.html
-https://downloads.haskell.org/~ghc/5.02.3/docs/set/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.02.3/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/5.02.3/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/5.02.3/docs/set/sec-exception.html
-https://downloads.haskell.org/~ghc/5.02/docs/set/book-users-guide.html
-https://downloads.haskell.org/~ghc/5.02/docs/set/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.02/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/~ghc/5.02/docs/set/sec-ccall.html
-https://downloads.haskell.org/~ghc/5.02/docs/set/sec-exception.html
-https://downloads.haskell.org/~ghc/5.04.1/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.04.2/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.04.3/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/~ghc/5.04/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.00/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/5.00/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.00/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/5.00/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/5.00/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/5.00/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/5.00/docs/set/sec-primitive.html
-https://downloads.haskell.org/ghc/5.02.1/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/5.02.1/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.02.1/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/5.02.2/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/5.02.2/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.02.2/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/5.02.2/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/5.02.2/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/5.02.2/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/5.02.3/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/5.02.3/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.02.3/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/5.02.3/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/5.02.3/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/5.02.3/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/5.02/docs/set/book-users-guide.html
-https://downloads.haskell.org/ghc/5.02/docs/set/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.02/docs/set/glasgow-st-monad.html
-https://downloads.haskell.org/ghc/5.02/docs/set/sec-ccall.html
-https://downloads.haskell.org/ghc/5.02/docs/set/sec-exception.html
-https://downloads.haskell.org/ghc/5.02/docs/set/sec-ioexts.html
-https://downloads.haskell.org/ghc/5.04.1/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.04.2/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.04.3/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/ghc/5.04/docs/html/users_guide/ghc-language-features.html
-https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/ghci-invokation.html
-https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/ghci-invocation.html
-https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/sec-ffi-ghc.html
-https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/ffi.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/ffi-ghc.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/interactive-evaluation.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/primitive-module.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/primitives.html
-https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/terminal-interaction.html
-https://downloads.haskell.org/~ghc/7.0.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.0.1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.0.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.0.2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.0.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.0.3/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.0.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.0.4/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.0-latest/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10.3/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.10-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.10-latest/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.2.1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.2.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.2.2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.2-latest/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.4.1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.4.2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.4-latest/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.6.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.6.1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.6.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.6.2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.6.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.6.3/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.6-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.6-latest/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8.1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.2/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8.3/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8.4/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/7.8-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/7.8-latest/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.0.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.0.1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.0.2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.0.2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.0.3/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.0.4/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.0-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.0-latest/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.1-rc1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.1-rc2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.1-rc3/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.2-rc1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10.2-rc2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10.3/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.10-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.10-latest/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.2.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.2.1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.2.2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.2-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.2-latest/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.4.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.4.1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.4.2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.4-latest/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.6.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.6.1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.6.2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.6.3/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.6-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.6-latest/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.8.1-rc1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.8.1-rc2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.8.2/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.8.3/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.4/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.8.4-rc1/docs/users_guide.ps
-https://downloads.haskell.org/ghc/7.8-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/7.8-latest/docs/users_guide.ps
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.4-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.4-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.4-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.0.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.6/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10.7/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.5/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.3/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/index.html
-https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/ffi-chap.html
-https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/genindex.html
-https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/ghci.html
-https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/index.html
-https://downloads.haskell.org/~ghc/8.0.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.0-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.6/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.10.7/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.2.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.2-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.4-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6.5/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.6-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/8.8-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.0.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.0-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.10.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.10.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.10-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.2.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.2.1-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.2.2-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.2.2-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.2-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.2-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4.3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.4-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.6.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.6.1-beta1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.6.2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.6.3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.6.5-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.8.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/8.8.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/index.html
-https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/exts/ffi.html
-https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/exts/primitives.html
-https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/genindex.html
-https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/ghci.html
-https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/index.html
-https://downloads.haskell.org/~ghc/9.0.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.0.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.0.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.0.2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.0-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.3/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.5/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.6/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2.8/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.2-latest/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.4.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.0.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.0.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.10.3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.4/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2.1-alpha1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2.1-alpha2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2.1-rc1/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2.2/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2.3/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2.7/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.2-latest/docs/users_guide.pdf
-https://downloads.haskell.org/ghc/9.4.4/docs/users_guide.pdf
-https://www.haskell.org/onlinereport/monad.html
-https://www.haskell.org/onlinereport/system.html
-https://www.haskell.org/onlinereport/haskell2010/haskellpa1.html
-https://www.haskell.org/definition/haskell98-report-html.tar.gz
-https://www.haskell.org/definition/haskell98-report.ps.gz
-https://www.haskell.org/definition/haskell98-report.pdf.gz
-https://www.haskell.org/definition/original-haskell98-report-html.tar.gz
-https://www.haskell.org/definition/original-haskell98-library-html.tar.gz
-https://www.haskell.org/definition/haskell-report-1.4-html.tar.gz
-https://www.haskell.org/definition/haskell-library-1.4-html.tar.gz
-https://hackage.haskell.org/package/dialogue-0.1.0
-https://hackage.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz
-https://hackage-content.haskell.org/package/dialogue-0.1.0
+https://www.stackage.org/package/transformers-base	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-IO.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/libraries/base-4.10.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/transformers-0.3.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/transformers-0.3.0.0/src/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/transformers-0.3.0.0/Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-IO.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-Exts.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-Exts.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/GHC-Exts.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.Exts.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/libraries/ghc-prim-0.11.0-5201/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.2-latest/docs/html/libraries/ghc-prim-0.8.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/ghc-prim-0.4.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-prim-0.3.0.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.4.0.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.2.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.10.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html	N/A
+https://hackage-content.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Base.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-IO.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Base.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-internal-9.1002.0-f20d/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-internal-9.1003.0-e2a7/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-internal-9.1202.0-a87f/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.12.20241014/docs/libraries/ghc-internal-9.1200.0-3d08/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.IO.Class.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-internal-9.1203.0-8274/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-IO-Class.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-ST-Imp.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Control.Monad.ST.Imp.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Prim.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Prim.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.Prim.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/libraries/base-4.15.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.1-rc1/docs/html/libraries/base-4.16.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/Control.Monad.ST.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/libraries/base-4.8.2.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/Control-Monad-ST.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-ST.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.ST.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.ST.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/base-4.9.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/base-4.14.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/base-4.14.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/base-4.10.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/base-4.11.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/base-4.15.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/base-4.15.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/base-4.16.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/base-4.16.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/base-4.16.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/base-4.17.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/base-4.18.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/base-4.18.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/base-4.18.3.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/base-4.9.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/base-4.9.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/base-4.14.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/base-4.14.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/base-4.14.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/base-4.14.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/base-4.10.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/base-4.10.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/base-4.11.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/base-4.11.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/base-4.12.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/base-4.15.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/base-4.15.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/base-4.20.1.0-8d28/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/base-4.20.2.0-52ef/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/base-4.16.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/base-4.16.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/base-4.16.4.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/base-4.17.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/base-4.17.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/base-4.17.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/base-4.17.2.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/base-4.18.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/base-4.18.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/base-4.18.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/base-4.18.2.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/base-4.18.3.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/base-4.19.0.0-b67a/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/base-4.19.1.0-179c/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/base-4.19.2.0-2cc5/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/GHC-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/GHC.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/src/System.IO.Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/base-4.19.2.0-cc80/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base-4.2.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/libraries/base-4.2.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/libraries/base-4.3.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/base-4.8.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/base-4.8.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/base-4.8.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/libraries/base-4.4.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/libraries/base-4.5.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/libraries/base-4.5.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/libraries/base-4.6.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/libraries/base-4.7.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/base-4.7.0.2/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base-4.2.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/base-4.2.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/base-4.2.0.2/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/libraries/base-4.3.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/base-4.3.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/libraries/base-4.8.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/libraries/base-4.8.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/libraries/base-4.4.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/base-4.4.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base-4.5.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/libraries/base-4.5.1.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/libraries/base-4.6.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base-4.6.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/libraries/base-4.7.0.0/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.11.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.12.0.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.13.0.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.14.3.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.15.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.16.4.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.17.2.1/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.18.3.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.19.2.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.20.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/GHC-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.21.0.0/docs/System-IO-Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/System.IO.Unsafe.html	N/A
+https://hackage-content.haskell.org/package/base-4.9.1.0/docs/System-IO-Unsafe.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/libraries/ghc-prim-0.5.0.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/libraries/ghc-prim-0.6.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/libraries/ghc-prim-0.5.1.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/libraries/ghc-prim-0.5.1.1/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/libraries/ghc-prim-0.5.2.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/ghc-prim-0.5.3/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/html/libraries/ghc-prim-0.7.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/ghc-prim-0.11.0-70a9/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/libraries/ghc-prim-0.12.0-d79c/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/libraries/ghc-prim-0.12.0-baf9/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/libraries/ghc-prim-0.13.0-cb0f/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/ghc-prim-0.13.0-22f2/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.4/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.7/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/libraries/ghc-prim-0.9.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/libraries/ghc-prim-0.9.1/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/libraries/ghc-prim-0.10.0/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/libraries/ghc-prim-0.11.0-62f6/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/libraries/ghc-prim-0.11.0-7523/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Magic.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Magic.html	N/A
+https://www.youtube.com/watch?v=1Q97gHX5jyA	N/A
+https://www.youtube.com/watch?v=iNyQG8n9On0	N/A
+https://www.youtube.com/watch?v=RFSW_HNxJWc	N/A
+https://www.youtube.com/watch?v=LnX3B9oaKzw	N/A
+https://www.youtube.com/watch?v=Qa8IfEeBJqk	N/A
+https://www.youtube.com/watch?v=-I4yVPlvFvA	N/A
+https://dblp.org/rec/journals/ita/ErkokLM02.txt	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_69.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_75.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_89.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_90.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_91.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_102.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_164.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_67.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_69.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_75.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_89.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_90.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_91.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_102.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_163.html	N/A
+https://downloads.haskell.org/ghc/old_docs/2.10/users_guide/user_164.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_67.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_69.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_75.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_89.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_90.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_91.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_102.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_163.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/3.00/users_guide/user_164.html	N/A
+https://downloads.haskell.org/ghc/old_docs/3.01/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.00/users_guide/users_guide.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.00/users_guide/users_guide.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.04pl1/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.04pl1/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.00/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.00/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.00/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.00/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.01/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.01/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.01/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.01/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/ghc/old_docs/4.04pl1/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/4.04pl1/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/~ghc/4.04/docs/users_guide/users_guide.html	N/A
+https://downloads.haskell.org/~ghc/4.04/docs/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/~ghc/4.06/docs/users_guide/ghc-prelude.html	N/A
+https://downloads.haskell.org/~ghc/4.06/docs/users_guide/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/4.08.2/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/4.08.2/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/~ghc/4.08.2/docs/set/sec-primitive.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/set/sec-primitive.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/users_guide/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/users_guide/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/users_guide/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/users_guide/sec-exception.html	N/A
+https://downloads.haskell.org/~ghc/4.08/docs/users_guide/sec-primitive.html	N/A
+https://downloads.haskell.org/ghc/4.04/docs/users_guide/users_guide.html	N/A
+https://downloads.haskell.org/ghc/4.04/docs/users_guide/users_guide-5.html	N/A
+https://downloads.haskell.org/ghc/4.04/docs/users_guide/users_guide-6.html	N/A
+https://downloads.haskell.org/ghc/4.06/docs/users_guide/book1.html	N/A
+https://downloads.haskell.org/ghc/4.06/docs/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/4.06/docs/users_guide/ghc-prelude.html	N/A
+https://downloads.haskell.org/ghc/4.06/docs/users_guide/glasgow-ccalls.html	N/A
+https://downloads.haskell.org/ghc/4.06/docs/users_guide/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set/sec-primitive.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/set/sec-primitive.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/4.08/docs/users_guide/sec-primitive.html	N/A
+https://downloads.haskell.org/ghc/4.08.2/docs/set.pdf	N/A
+https://downloads.haskell.org/ghc/old_docs/6.12.1-OLD/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/old_docs/6.12.1-OLD/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/old_docs/6.12.1-OLD/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/old_docs/6.12.1-OLD/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/release-6-12-1.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/release-6-12-1.html	N/A
+https://downloads.haskell.org/ghc/old_docs/6.12.1-OLD/html/libraries/base-4.2.0.0/GHC-IO-Handle.html	N/A
+https://downloads.haskell.org/~ghc/old_docs/6.12.1-OLD/html/libraries/base-4.2.0.0/GHC-IO-Handle.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/ghc/MonadUtils.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/ghc/MonadUtils.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/haskell98-1.0.1.1/Monad.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/haskell98-1.0.1.1/Monad.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/libraries/base/GHC-Conc.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/libraries/base/GHC-Conc.html	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/sec-primitive.html	N/A
+https://downloads.haskell.org/~ghc/5.02.1/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/5.02.1/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.02.1/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/5.02.1/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/5.02.1/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/~ghc/5.02.2/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/5.02.2/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.02.2/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/5.02.2/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/5.02.2/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/~ghc/5.02.2/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/~ghc/5.02.3/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/5.02.3/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.02.3/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/5.02.3/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/5.02.3/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/~ghc/5.02/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/~ghc/5.02/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.02/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/~ghc/5.02/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/~ghc/5.02/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/~ghc/5.04.1/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.04.2/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.04.3/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/5.04/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/5.00/docs/set/sec-primitive.html	N/A
+https://downloads.haskell.org/ghc/5.02.1/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/5.02.1/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.02.1/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/5.02.1/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/5.02.2/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/5.02.2/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.02.2/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/5.02.2/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/5.02.2/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/5.02.2/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/5.02.3/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/5.02.3/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.02.3/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/5.02.3/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/5.02.3/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/5.02.3/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/5.02/docs/set/book-users-guide.html	N/A
+https://downloads.haskell.org/ghc/5.02/docs/set/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.02/docs/set/glasgow-st-monad.html	N/A
+https://downloads.haskell.org/ghc/5.02/docs/set/sec-ccall.html	N/A
+https://downloads.haskell.org/ghc/5.02/docs/set/sec-exception.html	N/A
+https://downloads.haskell.org/ghc/5.02/docs/set/sec-ioexts.html	N/A
+https://downloads.haskell.org/ghc/5.04.1/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.04.2/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.04.3/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/ghc/5.04/docs/html/users_guide/ghc-language-features.html	N/A
+https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.0.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.0/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.10.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.10.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.10.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.10.4/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.10-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.12.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.2.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.2.2/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.2/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.4.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.4.2/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.4/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.6.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.8.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.8.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/6.8.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.0.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.0/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.10.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.10.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.10.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.10.4/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.10-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.12.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.12.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.12-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.2.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.2.2/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/ghci-invokation.html	N/A
+https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.2/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.4.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.4.2/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.4/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.6.1/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/ghci-invocation.html	N/A
+https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.6/docs/html/users_guide/sec-ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.8.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.8.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/6.8.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/ffi.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/ffi-ghc.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/interactive-evaluation.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/primitive-module.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/primitives.html	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/html/users_guide/terminal-interaction.html	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.0.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.0.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.0.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.0.4/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.0-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.1-rc3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.2-rc2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.10-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.2.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.2.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.2-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.4.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.4.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.4-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.6.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.6.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.6.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.6-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.4/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8.4-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/7.8-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.0.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.0.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.0.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.0.4/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.0-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.1-rc3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10.2-rc2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.10-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.2.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.2.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.2-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.4.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.4.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.4-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.6.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.6.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.6.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.6-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.8.1-rc2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.8.2/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.8.3/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.4/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.8.4-rc1/docs/users_guide.ps	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/7.8-latest/docs/users_guide.ps	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.0.1-rc4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.5/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.10-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.2-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.4-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.4-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.4-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.6-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.0.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.5/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.6/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10.7/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.10-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.2-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.1-beta1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.5/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6.5-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.6-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8.1-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8.2/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8.2-rc1/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8.4/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/ffi-chap.html	N/A
+https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/8.8-latest/docs/html/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/8.0.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.0-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.6/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.10.7/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.2.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.2.1-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.2.2-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.2-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.1-alpha3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.4-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.1-beta1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.5/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6.5-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.6-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.2-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/8.8-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.0.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.10.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.10.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.10-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.2.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.2.1-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.2.2-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.2-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.1-alpha3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.2-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.4-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.6.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.6.1-beta1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.6.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.6.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.6.5-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.8.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.8.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/8.8.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.5/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.6/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.7/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4.8/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.4-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.5/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.6/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.7/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4.8/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.4-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230111/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230128/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230210/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.0.20230302/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.6/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7.20250131/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.6.7-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.6-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230111/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230128/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230210/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.0.20230302/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.5/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.6/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.7.20250131/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.7/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6.7-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.6-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230727/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230822/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230919/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.0.20230929/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-alpha4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8.4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.8-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230727/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230809/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230822/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230919/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.0.20230929/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-alpha4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.8-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240313/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240328/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240413/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1.20250417/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250725/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250804/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250807/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2.20250817/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.2-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10.3-rc4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240313/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240413/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.0.20240426/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.1.20250417/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250725/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250804/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250807/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.2.20250817/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.2-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10.3-rc4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241031/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241114/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.0.20241128/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1.20250219/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.20241014/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.2-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241031/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241114/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.0.20241128/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.1.20250219/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.20241014/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.2-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.4/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/exts/ffi.html	N/A
+https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/exts/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/genindex.html	N/A
+https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/ghci.html	N/A
+https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide/index.html	N/A
+https://downloads.haskell.org/~ghc/9.0.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.0.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.0.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.0.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.0-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.10.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.10-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20250919/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251110/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.2.20251209/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.3.20260311/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.3-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260606/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.4.20260614/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.4-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12.5-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.12-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250819/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20250908/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251007/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251028/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251104/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.0.20251128/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1-alpha3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14.1-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.14-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.5/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.6/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2.8/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.2-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.4.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/~ghc/9.4.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.0.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.0.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.10.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.10-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.2.20250919/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251110/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.2.20251209/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.3.20260311/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.3-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260606/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.4.20260614/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.4/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.4-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12.5-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.12-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250819/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.0.20250908/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251007/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251028/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251104/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.0.20251128/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1-alpha3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14.1-rc3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.14-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2.1-alpha1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2.1-alpha2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2.1-rc1/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2.2/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2.3/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2.7/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.2-latest/docs/users_guide.pdf	N/A
+https://downloads.haskell.org/ghc/9.4.4/docs/users_guide.pdf	N/A
+https://www.haskell.org/onlinereport/monad.html	N/A
+https://www.haskell.org/onlinereport/system.html	N/A
+https://www.haskell.org/onlinereport/haskell2010/haskellpa1.html	N/A
+https://www.haskell.org/definition/haskell98-report-html.tar.gz	N/A
+https://www.haskell.org/definition/haskell98-report.ps.gz	N/A
+https://www.haskell.org/definition/haskell98-report.pdf.gz	N/A
+https://www.haskell.org/definition/original-haskell98-report-html.tar.gz	N/A
+https://www.haskell.org/definition/original-haskell98-library-html.tar.gz	N/A
+https://www.haskell.org/definition/haskell-report-1.4-html.tar.gz	N/A
+https://www.haskell.org/definition/haskell-library-1.4-html.tar.gz	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/dialogue-0.1.0	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Continuation.html
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Dialogue.html
