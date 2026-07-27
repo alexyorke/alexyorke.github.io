@@ -3515,7 +3515,7 @@ https://arxiv.org/abs/1312.1399	N/A
 https://arxiv.org/abs/2203.15426	N/A
 https://arxiv.org/abs/1312.2334	N/A
 https://dl.acm.org/doi/10.1145/3122975.3122977	publication	2017-09-03
-https://dl.acm.org/doi/10.1145/3428194	N/A
+https://dl.acm.org/doi/10.1145/3428194	publication	2020-11-13
 https://dl.acm.org/doi/10.1145/3563289	publication	2022-10-31
 https://dl.acm.org/doi/10.1145/3240719.3241789	publication	2018-09-27
 https://dl.acm.org/doi/10.1145/3674641	publication	2024-08-15
@@ -3558,7 +3558,7 @@ https://dl.acm.org/doi/10.1145/3674656	publication	2024-08-15
 https://dl.acm.org/doi/10.1145/3110259	publication	2017-08-29
 https://dl.acm.org/doi/10.1145/3635800.3636968	publication	2024-01-11
 https://arxiv.org/abs/2307.09383	N/A
-https://dl.acm.org/doi/abs/10.1145/3563445	N/A
+https://dl.acm.org/doi/abs/10.1145/3563445	publication	2022-10-31
 https://arxiv.org/abs/2605.01032	N/A
 https://arxiv.org/abs/1610.09161	N/A
 https://arxiv.org/abs/1605.06938	N/A
@@ -3585,8 +3585,8 @@ https://doi.org/10.7488/era/5485	publication	2019-11-23
 https://arxiv.org/abs/2203.04608	N/A
 https://arxiv.org/pdf/2203.04608	N/A
 https://doi.org/10.1145/3547635	publication	2022-08-29
-https://dl.acm.org/doi/pdf/10.1145/3473576	N/A
-https://dl.acm.org/doi/pdf/10.1145/3763177	N/A
+https://dl.acm.org/doi/pdf/10.1145/3473576	publication	2021-08-22
+https://dl.acm.org/doi/pdf/10.1145/3763177	publication	2025-10-09
 https://dl.acm.org/doi/10.1145/3110257	publication	2017-08-29
 https://arxiv.org/pdf/2511.22419	N/A
 https://arxiv.org/abs/2511.22419	N/A
@@ -3680,16 +3680,16 @@ https://dl.acm.org/doi/pdf/10.1145/268946.268952	publication	1998
 https://dl.acm.org/doi/10.5555/1756972.1756977	N/A
 https://homes.luddy.indiana.edu/sabry/files/sideeffects.pdf	N/A
 https://dl.acm.org/doi/abs/10.1145/1353445.1353449	publication	2008-05
-https://dl.acm.org/doi/10.1145/2578855.2535846	N/A
+https://dl.acm.org/doi/10.1145/2578855.2535846	publication	2014-01-13
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/6471.html	created	2005
-https://dl.acm.org/doi/10.1145/1086365.1086379	N/A
+https://dl.acm.org/doi/10.1145/1086365.1086379	publication	2005-09-12
 https://two-wrongs.com/the-what-are-monads-fallacy	N/A
 https://hacsoc.org/talks/20140219%20Functional%20Reactive%20Programming/presentation.pdf	N/A
 https://blog.banachewicz.pl/haskell/2014/05/30/short-tutorial-about-monads.html	created	2014
 https://www.researchgate.net/publication/262974393_Polymonadic_Programming	N/A
 https://labs.oracle.com/pls/apex/f?p=94065%3A10%3A102749908185725%3A5738	N/A
-https://dl.acm.org/doi/10.1145/1706299.1706354	N/A
-https://dl.acm.org/doi/10.1145/2034773.2034778	N/A
+https://dl.acm.org/doi/10.1145/1706299.1706354	publication	2010-01-17
+https://dl.acm.org/doi/10.1145/2034773.2034778	publication	2011-09-19
 https://www.vladimirzdrazil.com/til/learning/abstraction-intuition-and-monad-tutorial-falacy/	N/A
 https://byorgey.github.io/blog/posts/2025/06/16/monads-are-not-burritos.html	created	2025
 https://www.haskell.org/haskellwiki/Ru/Monad	N/A
@@ -3707,7 +3707,7 @@ https://scholar.archive.org/work/nhr6bb3ma5aybi5kd77q7exfdi/access/wayback/http%
 https://scholar.archive.org/work/qtr5cmxyfvg2blvpf34db3km6a/access/wayback/https%3A//www.cambridge.org/core/services/aop-cambridge-core/content/view/9BE20E8D61E9B74811CF3CF97B5D10C7/S0956796822000132a.pdf/div-class-title-modal-frp-for-all-functional-reactive-programming-without-space-leaks-in-haskell-div.pdf	N/A
 https://scholar.archive.org/work/jpldjdy3yfgb7nd33drpbnbiya/access/wayback/http%3A//semarch.linguistics.fas.nyu.edu/barker/dybvig-et-al-monadic-delimited.pdf	N/A
 https://scholar.archive.org/work/ae356s3oifhsnazqn2e5ahstci/access/wayback/http%3A//simonmar.github.io/bib/papers/shake.pdf	N/A
-https://dl.acm.org/doi/fullHtml/10.1145/3551357.3551370	N/A
+https://dl.acm.org/doi/fullHtml/10.1145/3551357.3551370	publication	2022-09-20
 https://simonmar.github.io/bib/papers/multiproc.pdf	N/A
 https://macau.uni-kiel.de/servlets/MCRFileNodeServlet/macau_derivate_00002884/1998_tr04.pdf	created	1998
 https://www.haskell.org/haskell-symposium/2001/2001-62.pdf	created	2001
@@ -3715,8 +3715,8 @@ https://www.semanticscholar.org/paper/6f26f3d9a936f0af42da210847006a0a6c9fb23d	N
 https://www.spinellis.gr/pubs/thesis/MEng/html/haskell.pdf	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch04.html	N/A
 https://www.researchgate.net/publication/242104714_Functional_programming_in_Haskell	N/A
-https://link.springer.com/chapter/10.1007/978-3-540-27861-0_10	N/A
-https://link.springer.com/chapter/10.1007/3-540-45361-X_7	N/A
+https://link.springer.com/chapter/10.1007/978-3-540-27861-0_10	publication	2004
+https://link.springer.com/chapter/10.1007/3-540-45361-X_7	publication	2001
 https://link.springer.com/content/pdf/10.1007/978-3-642-40355-2_1.pdf	N/A
 https://clean.cs.ru.nl/TCP	N/A
 https://clean.cs.ru.nl/Functional_Programming_in_Clean	N/A
@@ -3764,7 +3764,7 @@ https://www.haskell.org/haskell-symposium/2016/	created	2016
 https://www.haskell.org/haskell-symposium/2017/index.html	created	2017
 https://www.haskell.org/haskell-symposium/1999/1999-28.pdf	created	1999
 https://www.researchgate.net/publication/3677430_Linear_logic_monads_and_the_lambda_calculus	N/A
-https://dl.acm.org/doi/10.1145/2503778.2503790	N/A
+https://dl.acm.org/doi/10.1145/2503778.2503790	publication	2013-09-23
 https://www.microsoft.com/en-us/research/wp-content/uploads/1995/01/io-tutorial.pdf	created	1995
 https://www.cs.tufts.edu/~kfisher/cs242/2008/Slides/Monads.pdf	created	2008
 https://www.cmi.ac.in/~spsuresh/teaching/prgh15/lectures/lecture22.pdf	N/A
@@ -3782,7 +3782,7 @@ https://www.researchgate.net/publication/225106069_Proving_Make_Correct_IO_Proof
 https://www.researchgate.net/publication/221024513_Guaranteeing_Safe_Destructive_Updates_Through_a_Type_System_with_Uniqueness_Information_for_Graphs	N/A
 https://link.springer.com/content/pdf/10.1007/3-540-17945-3_3.pdf	N/A
 https://kar.kent.ac.uk/id/document/2025	created	2025
-https://dl.acm.org/doi/10.1145/1086365.1086380	N/A
+https://dl.acm.org/doi/10.1145/1086365.1086380	publication	2005-09-12
 https://www.sciencedirect.com/science/article/pii/0167642386900286/pdf?_valck=1&md5=a164905ee07e651493d655ec76ceb8c4&pid=1-s2.0-0167642386900286-main.pdf	N/A
 https://kar.kent.ac.uk/94289	N/A
 https://ftp.science.ru.nl/CSI/SoftwEng.FunctLang/papers/2002/vWeA2002StronglyTypedOS.pdf	created	2002
@@ -3791,13 +3791,13 @@ https://www.jucs.org/jucs_11_7/jucs_11_7_1234_1254_dubois.html	N/A
 https://www.cs.vu.nl/~wanf/theses/blankers-bscthesis.pdf	N/A
 https://www.mbsd.cs.ru.nl/publications/papers/2002/vWeA2002-FamkeFunctionalOS.pdf	created	2002
 https://dl.acm.org/doi/10.5555/1756972.1756986	N/A
-https://link.springer.com/chapter/10.1007/3-540-44854-3_14	N/A
+https://link.springer.com/chapter/10.1007/3-540-44854-3_14	publication	2003
 https://simon.peytonjones.org/assets/pdfs/composable-scheduler-earlier.pdf	N/A
 https://kcsrk.info/papers/schedact_jfp16.pdf	N/A
 https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2774&context=cstech	N/A
-https://dl.acm.org/doi/10.1145/224164.224213	N/A
+https://dl.acm.org/doi/10.1145/224164.224213	publication	1995
 https://d3s.mff.cuni.cz/publications/petricek_joinads_2011/	created	2011
-https://link.springer.com/chapter/10.1007/978-3-642-18378-2_17	N/A
+https://link.springer.com/chapter/10.1007/978-3-642-18378-2_17	publication	2011
 https://www.researchgate.net/publication/220802969_Joinads_A_Retargetable_Control-Flow_Construct_for_Reactive_Parallel_and_Concurrent_Programming	N/A
 https://books.google.com/books/about/Functional_Programming_Glasgow_1994.html?id=BmngBwAAQBAJ	created	1994
 https://books.google.com/books/about/Logic_Programming.html?id=ZKsV2ajbpQwC	N/A
@@ -3809,7 +3809,7 @@ https://www.researchgate.net/publication/31109739_Functional_Programming_and_Ope
 https://academic.oup.com/comjnl/article-abstract/32/2/162/543564	N/A
 https://www21.in.tum.de/~krauss/publication/2007-lexicographic-orders/	created	2007
 https://www21.in.tum.de/~krauss/papers/imperative-hol.pdf	N/A
-https://link.springer.com/chapter/10.1007/978-3-540-71067-7_14	N/A
+https://link.springer.com/chapter/10.1007/978-3-540-71067-7_14	publication	2008
 https://www.microsoft.com/en-us/research/publication/a-monadic-framework-for-delimited-continuations/	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-framework-for-delimited-continuations/D99D1394370DFA8EA8428D552B5D8E7E	publication	2007-11
 https://cs.indiana.edu/~sabry/papers/monadicDC.pdf	N/A
@@ -3969,11 +3969,11 @@ https://books.google.com/books?id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r	
 https://search.worldcat.org/title/Practical-Haskell-%3A-a-real-world-guide-to-programming/oclc/1099434629	N/A
 https://hal-emse.ccsd.cnrs.fr/LINA-ASCOLA/hal-01025633v2	N/A
 https://www.math.nagoya-u.ac.jp/~garrigue/papers/linocaml-201902.pdf	N/A
-https://dl.acm.org/doi/10.1145/3649848	N/A
+https://dl.acm.org/doi/10.1145/3649848	publication	2024-04-29
 https://arxiv.org/abs/2310.18166	N/A
 https://www.csse.canterbury.ac.nz/research/reports/HonsReps/2017/hons_1701.pdf	created	2017
 https://ecommons.cornell.edu/entities/publication/b24b0551-2689-437a-8662-4665d2d3d847	publication	2004-04-22
-https://dl.acm.org/doi/pdf/10.1145/1016848.1016867	N/A
+https://dl.acm.org/doi/pdf/10.1145/1016848.1016867	publication	2004-09-19
 https://ecommons.cornell.edu/bitstream/handle/1813/5647/TR2004-1936.pdf?sequence=1	created	2004
 https://ecommons.cornell.edu/items/b24b0551-2689-437a-8662-4665d2d3d847/full	publication	2004-04-22
 https://lirias.kuleuven.be/retrieve/89e51be3-ccd6-4529-bd3d-38527ba6da8e	N/A
@@ -3982,7 +3982,7 @@ https://homepages.inf.ed.ac.uk/slindley/papers/libseff.pdf	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/algeff-in-c-tr-v2.pdf	created	2017
 https://xnning.github.io/papers/oopsla22-tr.pdf	N/A
 https://kcsrk.info/papers/handlers_js-proweb2018.pdf	created	2018
-https://dl.acm.org/doi/pdf/10.1145/3276481	N/A
+https://dl.acm.org/doi/pdf/10.1145/3276481	publication	2018-10-24
 https://effekt-lang.org/publications	N/A
 https://github.com/xnning/EvEff	N/A
 https://kcsrk.info/papers/drafts/retro-concurrency.pdf	N/A
@@ -4071,9 +4071,9 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://cs-people.bu.edu/gaboardi/publication/GaboardiPechoux09csl.pdf	N/A
 https://sf.snu.ac.kr/publications/itrees.pdf	N/A
 https://inria.hal.science/hal-01112161/file/main-submitted.pdf	N/A
-https://doi.org/10.1007/3-540-55844-6_154	N/A
-https://doi.org/10.1007/978-3-642-04027-6_21	N/A
-https://doi.org/10.1007/3-540-45361-X_12	N/A
+https://doi.org/10.1007/3-540-55844-6_154	publication	None
+https://doi.org/10.1007/978-3-642-04027-6_21	publication	2009
+https://doi.org/10.1007/3-540-45361-X_12	publication	2001
 https://jaspervdj.be/files/2011-barcampghent-laziness.pdf	created	2011
 https://foolwood07.cs.uchicago.edu/program/warth.pdf	N/A
 https://www.cs.tufts.edu/~nr/pubs/htdp-tablet.pdf	N/A
@@ -4120,19 +4120,19 @@ https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl2004.html	created	2004
 https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl1998.html	created	1998
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/	N/A
 https://cs.ioc.ee/tfp-icfp-gpce05/page.php?page=prog	N/A
-https://link.springer.com/chapter/10.1007/3-540-45361-X_8	N/A
+https://link.springer.com/chapter/10.1007/3-540-45361-X_8	publication	2001
 https://www.researchgate.net/publication/237485064_The_Hume_Report_Version_11	N/A
-https://link.springer.com/chapter/10.1007/978-3-540-40018-9_22	N/A
+https://link.springer.com/chapter/10.1007/978-3-540-40018-9_22	publication	2003
 https://www.haskell.org/haskell-symposium/1997/hw1997.pdf	created	1997
 https://www.cis.upenn.edu/~bcpierce/courses/552-2008/resources/awkward.pdf	created	2008
 https://www.cs.columbia.edu/~sedwards/classes/2020/4995-fall/io.pdf	created	2020
 https://www.cs.cornell.edu/courses/cs6110/2014sp/Lectures/lec41.pdf	created	2014
 https://www.cs.tufts.edu/comp/150GIT/archive/mark-jones/fpca93.pdf	N/A
-https://link.springer.com/chapter/10.1007/3-540-59451-5_2	N/A
+https://link.springer.com/chapter/10.1007/3-540-59451-5_2	publication	1995
 https://www.cis.upenn.edu/~cis120/archive/19fa/notes/120notes.pdf	N/A
 https://www.pls-lab.org/Monads_in_functional_programming	N/A
-https://link.springer.com/chapter/10.1007/3-540-59451-5_4	N/A
-https://dl.acm.org/doi/10.1145/165180.165190	N/A
+https://link.springer.com/chapter/10.1007/3-540-59451-5_4	publication	1995
+https://dl.acm.org/doi/10.1145/165180.165190	publication	1993-07
 https://web.cecs.pdx.edu/~mpj/pubs/fpca93.html	N/A
 https://www.research.ed.ac.uk/en/publications/linear-logic-monads-and-the-lambda-calculus	publication	1996-07-01
 https://www.research.ed.ac.uk/en/publications/comprehending-monads	publication	1992
@@ -4348,10 +4348,10 @@ https://arxiv.org/abs/1805.08059	N/A
 https://people.eng.unimelb.edu.au/rizkallahc/publications/hs-verif-icfp.pdf	N/A
 https://staff.aist.go.jp/reynald.affeldt/documents/monae-hb.pdf	N/A
 https://easychair.org/smart-slide/slide/K3SD	N/A
-https://dl.acm.org/doi/10.1145/3331545.3342592	N/A
-https://dl.acm.org/doi/10.1145/3236784	N/A
+https://dl.acm.org/doi/10.1145/3331545.3342592	publication	2019-08-08
+https://dl.acm.org/doi/10.1145/3236784	publication	2018-07-30
 https://link.springer.com/content/pdf/10.1007/978-3-319-95582-7_20.pdf	N/A
-https://dl.acm.org/doi/10.1145/3434307	N/A
+https://dl.acm.org/doi/10.1145/3434307	publication	2021-01-04
 https://dl.acm.org/doi/pdf/10.1145/3434307	N/A
 https://www.cis.upenn.edu/~stevez/papers/SZ21.pdf	N/A
 https://dl.acm.org/do/10.5281/zenodo.4284088/full	N/A
@@ -4499,7 +4499,7 @@ https://mail.haskell.org/pipermail/haskell-cafe/2009-March/056908.html	created	2
 https://www.haskell.org/haskellwiki/Learning_Haskell	N/A
 https://www.haskell.org/haskellwiki/Books_and_tutorials	N/A
 https://books.google.com/books/about/Functional_Programming_Glasgow_1992.html?id=YtRQAAAAYAAJ	created	1992
-https://link.springer.com/book/10.1007/978-1-4471-3215-8	N/A
+https://link.springer.com/book/10.1007/978-1-4471-3215-8	publication	1993
 https://dblp.org/db/conf/fp/fp1992	created	1992
 https://lambda-the-ultimate.org/node/1276	N/A
 https://lambda-the-ultimate.org/node/724	N/A
