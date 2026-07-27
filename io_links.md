@@ -10403,7 +10403,7 @@ https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsAi/Gabbay%20D.M.%2C%20Hogger%20C.J
 https://citeseerx.ist.psu.edu/document?doi=ac33808af2e5ca9a597f631f0116e8383b9a64a0&repid=rep1&type=pdf	N/A
 https://kar.kent.ac.uk/94289/	N/A
 https://doi.org/10.22024/UniKent/01.02.94289	N/A
-https://doi.org/10.1145/1090189.1086380	N/A
+https://doi.org/10.1145/1090189.1086380	publication	2005-09-12
 https://www.cs.ox.ac.uk/publications/publication3792-abstract.html	created	1984
 https://theses.ncl.ac.uk/jspui/handle/10443/6607	N/A
 https://dblp.org/pid/t/AndrewPTolmach	N/A
@@ -10444,7 +10444,7 @@ https://www.scribd.com/document/701859398/Programming-with-Miranda	N/A
 https://psilists.ethz.ch/sympa/arc/opal/2020-09/msg00002.html	created	2020
 https://www.cs.kent.ac.uk/people/staff/dat/miranda	N/A
 https://kar.kent.ac.uk/101697	N/A
-https://doi.org/10.1145/3591259	N/A
+https://doi.org/10.1145/3591259	publication	2023-06-06
 http://amas.web.psi.ch/opal/Documentation/2.4/Manual.pdf	N/A
 https://aicenter.github.io/FUP/slides/lecture07.pdf	N/A
 https://www.sigplan.org/OpenTOC/farm19.html	N/A
@@ -10506,8 +10506,8 @@ https://cambium.inria.fr/~yzakowsk/publications.html	N/A
 https://cs.au.dk/~birke/papers/gitrees-popl24-final.pdf	N/A
 https://coq-workshop.gitlab.io/2025/files/EA5.pdf	created	2025
 https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/14/Modular-Denotational-Semantics-for-Effects-with-Guarded-Interaction-Trees	created	2024
-https://doi.org/10.1145/3371119	N/A
-https://doi.org/10.1145/3571254	N/A
+https://doi.org/10.1145/3371119	publication	2020-01
+https://doi.org/10.1145/3571254	publication	2023-01-09
 https://arxiv.org/abs/2211.06863	N/A
 https://dblp.org/rec/journals/corr/abs-2211-06863.html	N/A
 https://popl19.sigplan.org/details/CPP-2019/2/From-C-to-Interaction-Trees-Specifying-Verifying-and-Testing-a-Networked-Server	created	2019
@@ -10540,8 +10540,8 @@ https://katalog.bibliothek.kit.edu/bib/1084635	N/A
 https://www.tcd.ie/research/profiles/?profile=butrfeld	N/A
 https://tcd.academia.edu/GStrong	N/A
 https://link.springer.com/book/10.1007/3-540-46028-4	N/A
-https://doi.org/10.1007/3-540-46028-4_5	N/A
-https://doi.org/10.1007/11431664_11	N/A
+https://doi.org/10.1007/3-540-46028-4_5	publication	2002
+https://doi.org/10.1007/11431664_11	publication	2005
 https://citeseerx.ist.psu.edu/document?doi=0bac2b7547b4e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf	N/A
 https://www.cambridge.org/core/journals/rairo-theoretical-informatics-and-applications/article/semantics-of-value-recursionfor-monadic-inputoutput/139DB03F213002D63BD54AA6DBCE457A	publication	2002-04
 https://www.numdam.org/volume/ITA_2002__36_1/	created	2002
@@ -10688,7 +10688,7 @@ https://d3s.mff.cuni.cz/publications/syme_f_2011/	created	2011
 https://tomasp.net/academic/papers/async/	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/async-padl-revised-v2.pdf	created	2016
 https://fsharp.org/teaching/research	N/A
-https://link.springer.com/book/10.1007/978-3-642-18378-2	N/A
+https://link.springer.com/book/10.1007/978-3-642-18378-2	publication	2011
 https://d3s.mff.cuni.cz/publications/tomaspetricek/	N/A
 https://dblp.uni-trier.de/db/conf/padl/padl2011.html	created	2011
 https://www.microsoft.com/en-us/research/project/f-at-microsoft-research/publications/	N/A
@@ -10727,7 +10727,7 @@ https://sac-home.org/publications	N/A
 https://doksi.net/en/get.php?lid=25723	N/A
 https://codedocs.org/what-is/clean-programming-language	N/A
 https://www.research.ed.ac.uk/en/publications/hope-an-experimental-applicative-language	publication	1980
-https://doi.org/10.1145/800087.802799	N/A
+https://doi.org/10.1145/800087.802799	publication	1980
 https://icfp22.sigplan.org/details/hope-2022-papers/8/Verifying-non-terminating-programs-with-IO-in-F-	created	2022
 https://www.cs.kent.ac.uk/pubs/1995/209/	created	1995
 https://www.sciencedirect.com/science/article/pii/0950584988900134	N/A
@@ -12521,7 +12521,7 @@ https://sdiehl.github.io/zero-to-qed/11_io.html	N/A
 https://clean.cs.ru.nl/download/Clean20/doc/CleanLangRep.2.1.pdf	N/A
 https://gavinbierman.github.io/assets/pdf/msfp2014.pdf	created	2014
 https://www.cl.cam.ac.uk/teaching/1617/Types/types.notes.pdf	N/A
-https://link.springer.com/chapter/10.1007/978-3-319-89366-2_7	N/A
+https://link.springer.com/chapter/10.1007/978-3-319-89366-2_7	publication	2018
 https://www.researchgate.net/publication/225894175_Fun_with_Type_Functions	N/A
 https://www.riverpublishers.com/pdf/ebook/chapter/RP_9788793519817C10.pdf	N/A
 https://arxiv.org/abs/1801.08114	N/A
@@ -12591,7 +12591,7 @@ https://dblp.org/rec/conf/popl/2016	created	2016
 https://dblp.org/rec/conf/popl/OrchardY16	N/A
 https://doi.org/10.1145/2837614.2837634	N/A
 https://dl.acm.org/doi/10.1145/2837614.2837634	N/A
-https://doi.org/10.4204/EPTCS.203.1	N/A
+https://doi.org/10.4204/EPTCS.203.1	publication	2016-02-10
 https://eptcs.org/paper.cgi?PLACES2015.1	created	2015
 https://eptcs.org/paper.cgi?PLACES2015.1.pdf	created	2015
 https://doi.org/10.1145/2914770.2837634	N/A
@@ -12844,7 +12844,7 @@ https://kar.kent.ac.uk/14599/1/A_Pattern.pdf	N/A
 https://dblp.org/pid/49/854	N/A
 https://www.cs.kent.ac.uk/pubs/2006/2479/content.pdf	created	2006
 https://doi.org/10.1007/978-3-540-76637-7_4	N/A
-https://doi.org/10.1007/978-3-540-74130-5	N/A
+https://doi.org/10.1007/978-3-540-74130-5	publication	2007
 https://cseweb.ucsd.edu/classes/wi11/cse230/lectures/quickcheck.html	N/A
 https://stackoverflow.com/questions/9863451/is-there-a-monadic-version-of-arbitrary-to-use-with-quickcheck	N/A
 https://www.jeffvaughan.net/docs/quickcheck.pdf	N/A
@@ -28096,7 +28096,7 @@ https://davefancher.com/the-book-of-f-2/	publication	2014-04-11
 https://docs.websharper.com/core/async	N/A
 https://fsharp.org/history/hopl-draft-3b.pdf	N/A
 https://link.springer.com/book/10.1007/978-1-4302-0285-1	N/A
-https://link.springer.com/book/10.1007/978-1-4842-7205-3	N/A
+https://link.springer.com/book/10.1007/978-1-4842-7205-3	publication	2022
 https://livebook.manning.com/book/real-world-functional-programming/table-of-contents	N/A
 https://www.timetoact-group.at/en/techblog/techblog/f-sharp-series/introduction-to-functional-programming-in-f-sharp-part-12	N/A
 https://arxiv.org/abs/1911.12932	created	1911
@@ -28811,7 +28811,7 @@ https://hackage.haskell.org/package/quickcheck-io/docs	N/A
 https://hackage.haskell.org/packages/tag/concurrency	N/A
 https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/software-engineering-programming-language-lab/news-lab/detail-lab/der-haskell-ecosystem-workshop-2024	created	2024
 https://www.ost.ch/fileadmin/dateiliste/1_studium/1.3_informatik/1.3.1_bachelor_informatik/informatik-newsletter_24-2.pdf	N/A
-https://doi.org/10.1016/B978-0-444-88135-9.50009-7	N/A
+https://doi.org/10.1016/B978-0-444-88135-9.50009-7	publication	1992
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-7.8.4/MonadUtils.html	N/A
 https://github.com/dnikolovv/servant-purescript-codegen-example	N/A
 https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/	N/A
@@ -28905,7 +28905,7 @@ https://hackage.haskell.org/package/oughta-0.3.0.0/docs	N/A
 https://hackage.haskell.org/package/oughta-0.3.0.0/docs/Oughta.html	N/A
 https://hackage.haskell.org/package/oughta-0.3.0.0/oughta-0.3.0.0.tar.gz	N/A
 https://homes.luddy.indiana.edu/ccshan/cs252/usage.pdf	N/A
-https://link.springer.com/book/10.1007/3-540-59451-5	N/A
+https://link.springer.com/book/10.1007/3-540-59451-5	publication	1995
 https://arxiv.org/abs/2207.00852	N/A
 https://github.com/awkward-squad/ki	N/A
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
@@ -28932,7 +28932,7 @@ https://riptutorial.com/ebook/haskell	N/A
 https://archives.lib.ku.edu/repositories/3/archival_objects/16032	N/A
 https://hackage.haskell.org/package/io-classes-1.2.0.0/changelog	N/A
 https://hackage.haskell.org/package/QuickCheck	N/A
-https://link.springer.com/book/10.1007/978-1-4471-3810-5	N/A
+https://link.springer.com/book/10.1007/978-1-4471-3810-5	publication	1991
 https://stanford-lambda.gitlab.io/notes.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=9d557f4c6badddf9e2504d874803cdd1f3beb6d2&repid=rep1&type=pdf	N/A
 https://digicoll.lib.berkeley.edu/record/230707	publication	2020
@@ -29301,7 +29301,7 @@ https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs	N/A
 https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/src/GHC.Internal.IO.html	N/A
 https://accu.org/journals/overload/21/114/deigh_1869/	N/A
 https://www.cs.tufts.edu/~nr/cs257/archive/jeremy-gibbons/unifying-theories-with-monads.pdf	N/A
-https://doi.org/10.1145/3674648	N/A
+https://doi.org/10.1145/3674648	publication	2024-08-15
 https://hackage.haskell.org/package/unliftio-streams-0.2.0.0/docs	N/A
 https://hackage.haskell.org/package/rio-0.0.2.0/docs	N/A
 https://hackage.haskell.org/package/capabilities-0.5.0/docs	N/A
@@ -29920,7 +29920,7 @@ https://www.stackage.org/package/mstate	N/A
 https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Hutton%20A.%20Programming%20in%20Haskell%20%28draft%2C%20CUP%2C%202005%29%28200s%29_CsPl_.pdf	N/A
 https://arxiv.org/abs/2211.08802	N/A
 https://cir.nii.ac.jp/crid/1360855571286351616?lang=en	N/A
-https://dl.acm.org/doi/pdf/10.1145/301631.301637	N/A
+https://dl.acm.org/doi/pdf/10.1145/301631.301637	publication	1999-05
 https://hackage.haskell.org/package/auto	N/A
 https://hackage.haskell.org/package/backward-state	N/A
 https://hackage.haskell.org/package/ClassLaws/docs/Control-Monad-State-Class-Laws.html	N/A
@@ -30109,7 +30109,7 @@ https://www.stackage.org/nightly-2016-04-10/package/monad-coroutine-0.9.0.2	crea
 https://www.stackage.org/nightly-2019-07-31/package/monad-coroutine-0.9.0.4	created	2019
 https://www.stackage.org/nightly-2026-01-14/package/effectful-2.6.1.0	created	2026
 https://doi.acm.org/10.1145/158511.158524	N/A
-https://doi.org/10.1145/234528.234736	N/A
+https://doi.org/10.1145/234528.234736	publication	1996-06
 https://www.citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf	N/A
 https://www.stackage.org/lts-22.35/package/monad-parallel-0.8	N/A
 https://www.stackage.org/nightly-2018-02-27/package/transformers-0.5.2.0	created	2018
@@ -32037,7 +32037,7 @@ https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/io/IO.html	N/A
 https://www.j-labs.pl/en/tech-blog/how-to-use-monads-in-java/	N/A
 https://www.baeldung.com/vavr	N/A
 https://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/function/IOFunction.html	N/A
-https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7	N/A
+https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7	publication	2009
 https://itsdaniel.dk/notes/understanding-functional-effect-systems/	N/A
 https://overreacted.io/algebraic-effects-for-the-rest-of-us/	N/A
 https://hackage.haskell.org/package/general-allocate-0.2.2.0	N/A
@@ -32393,7 +32393,7 @@ https://mail.haskell.org/pipermail/haskell/2012-August/023478.html	created	2012
 https://hackage.haskell.org/package/transformers-0.0.1.0/docs/Control-Monad-Trans-Reader.html	N/A
 https://themonadreader.files.wordpress.com/2012/08/issue20.pdf	created	2012
 https://aaltodoc.aalto.fi/bitstreams/e0f5aefc-556f-4254-bf9d-03c22f930357/download	N/A
-https://www.doi.org/10.1145/143165.143169	N/A
+https://www.doi.org/10.1145/143165.143169	publication	1992
 https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/libraries/ghc-internal-9.1001.0-206d/GHC-Internal-System-IO.html	N/A
 https://haddocks.haskell-miso.org/base/index.html	N/A
 https://haddocks.haskell-miso.org/base/doc-index-I.html	N/A
@@ -32448,7 +32448,7 @@ https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html	N
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html	N/A
 https://eprints.nottingham.ac.uk/43557/	N/A
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html	N/A
-https://doi.org/10.1145/2605176	N/A
+https://doi.org/10.1145/2605176	publication	2014-06
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0087.xhtml	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0083.xhtml	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0082.xhtml	N/A
@@ -32590,7 +32590,7 @@ https://hackage.haskell.org/package/sodium	N/A
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=46586973	N/A
 https://link.springer.com/book/10.1007/978-3-319-29604-3	N/A
 https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf	N/A
-https://link.springer.com/book/10.1007/978-981-92-0184-6	N/A
+https://link.springer.com/book/10.1007/978-981-92-0184-6	publication	2026
 https://www.classcentral.com/course/youtube-icfp-24-orange-3-haskell-sep-7th-347259	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/journal-of-functional-programming-most-downloaded-2023	created	2023
 https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html	N/A
@@ -32733,7 +32733,7 @@ https://research.chalmers.se/publication/500049/file/500049_Fulltext.pdf	N/A
 https://student.cs.uwaterloo.ca/~cs442/W25/videos/5.3/	N/A
 https://www.classcentral.com/index.php/course/youtube-haskell-25-freer-arrows-and-why-you-need-them-in-haskell-508747	N/A
 https://www.researchgate.net/publication/333600413_Interaction_Trees_Representing_Recursive_and_Impure_Programs_in_Coq_Work_In_Progress	N/A
-https://dl.acm.org/doi/10.1145/3632854	N/A
+https://dl.acm.org/doi/10.1145/3632854	publication	2024-01-02
 https://doisinkidney.com/pdfs/algebraic-free-monads.pdf	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2019/03/algeff-in-c-aplas.pdf	created	2019
 https://www.type-driven.org.uk/edwinb/papers/effects.pdf	N/A
@@ -33189,7 +33189,7 @@ https://ghc.gitlab.haskell.org/ghc/doc/libraries/template-haskell-2.24.0.0-inpla
 https://doi.org/10.1017/s0956796824000133	publication	2024-01
 https://doi.org/10.1145/2503778.2503783	N/A
 https://doi.org/10.22152/programming-journal.org/2018/2/12	publication	2018-03-29
-https://doi.org/10.1145/2887747.2804319	N/A
+https://doi.org/10.1145/2887747.2804319	publication	2016-01-28
 https://doi.org/10.1007/978-1-4471-3215-8	N/A
 https://doi.org/10.1007/978-1-4471-3166-3	N/A
 https://books.rakuten.co.jp/rb/10380119/	N/A
