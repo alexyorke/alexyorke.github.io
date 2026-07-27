@@ -52,7 +52,7 @@ https://dl.acm.org/doi/10.5555/20652.20655	N/A
 https://dl.acm.org/doi/pdf/10.1145/258949.258973	publication	1997-08
 https://dl.acm.org/doi/10.1145/568173.568183	publication	2002-09-12
 https://dl.acm.org/doi/pdf/10.1145/1159803.1159823?download=true	publication	2006-09-16
-https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concurrent_Haskell_Programs	N/A
+https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concurrent_Haskell_Programs	published	2005
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/PrettierConcurrency-Haskell2011.pdf	created	2016
 https://dl.acm.org/doi/10.1145/2096148.2034685	publication	2012-01-12
 https://dl.acm.org/doi/10.1145/1366230.1366241	publication	2008-05-05
@@ -92,12 +92,12 @@ https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-an
 https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/	publication	1997-02-14
 https://www.sciencedirect.com/science/article/pii/S1571066105805493	created	2022-07-02
 https://simonmar.github.io/bib/papers/conc-ffi.pdf	created	2025-08-15
-https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages	N/A
+https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages	published	2004
 https://link.springer.com/chapter/10.1007/11964681_12	publication	2006-07-26
 https://dl.acm.org/doi/10.1145/1017472.1017479	publication	2004-09-22
 https://dl.acm.org/doi/10.5555/645772.667946	N/A
 https://dl.acm.org/doi/abs/10.1017/S0956796899003561	publication	2000-01
-https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms	N/A
+https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms	published	2002
 https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH	N/A
 https://link.springer.com/chapter/10.1007/3-540-45587-6_13	publication	2002-07-26
 https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf	created	2026-04-18
@@ -106,12 +106,12 @@ https://link.springer.com/chapter/10.1007/11737414_19	publication	2006-07-26
 https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf	created	2020-09-24
 https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier	N/A
 https://dl.acm.org/doi/10.1145/2976002.2976015	publication	2016-09-08
-https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_HaskellScript	N/A
-https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server	N/A
+https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_HaskellScript	published	2011
+https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server	published	2001
 https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz	created	2022-11-27
 https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/server-side-web-scripting-in-haskell/F34DEFF8D123F59DB19AAF76DA5241F0	publication	2000
-https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf	N/A
+https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf	published	2001
 https://scispace.com/pdf/integrating-an-interactive-haskell-tool-with-a-web-vttntpjuo3.pdf	N/A
 https://dl.acm.org/doi/10.1145/2633357.2633367	publication	2014-09-03
 https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2007-008.pdf	created	2007
@@ -120,7 +120,7 @@ https://wasp.cs.washington.edu/dynsep/transact11.pdf	created	2024-04-18
 https://dl.acm.org/doi/10.1145/3677999.3678276	publication	2024-08-29
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf	N/A
 https://dl.acm.org/doi/10.1145/3156695.3122969	publication	2017-10-31
-https://www.researchgate.net/publication/320789853_A_meta-EDSL_for_distributed_web_applications	N/A
+https://www.researchgate.net/publication/320789853_A_meta-EDSL_for_distributed_web_applications	published	2017-10-31
 https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105	publication	1995-01
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell	N/A
 https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell	N/A
