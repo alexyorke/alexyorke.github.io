@@ -1495,11 +1495,11 @@ https://www.youtube.com/playlist?list=PLF1Z-APd9zK5uFc8FKr_di9bfsYv8-lbc	N/A
 https://people.cs.nott.ac.uk/pszgmh/AFP-intro.pdf	N/A
 https://people.cs.nott.ac.uk/pszgmh/PGP-review.pdf	N/A
 https://people.cs.nott.ac.uk/pszgmh/prelude-new.pdf	N/A
-https://youtu.be/NBO6kN7JEAw?si=gbSCnZMjINj61pSL	N/A
-https://www.youtube.com/watch?v=9injd7JE6vU	N/A
-https://www.youtube.com/watch?v=CFNaCAOcykk	N/A
-https://www.youtube.com/watch?v=fABeIG_HiyU	N/A
-https://www.youtube.com/watch?v=Pgo73GfHk0U	N/A
+https://youtu.be/NBO6kN7JEAw?si=gbSCnZMjINj61pSL	uploaded	2024-02-20
+https://www.youtube.com/watch?v=9injd7JE6vU	uploaded	2024-02-23
+https://www.youtube.com/watch?v=CFNaCAOcykk	uploaded	2024-02-27
+https://www.youtube.com/watch?v=fABeIG_HiyU	uploaded	2018-01-12
+https://www.youtube.com/watch?v=Pgo73GfHk0U	uploaded	2018-05-22
 https://kar.kent.ac.uk/20889/	N/A
 https://pauillac.inria.fr/~fpottier/biblio/english.html	N/A
 https://www.cs.ox.ac.uk/files/3313/PRG42.pdf	N/A
@@ -2049,7 +2049,7 @@ https://blog.sigfpe.com/2006/06/monads-kleisli-arrows-comonads-and.html	created	
 https://news.ycombinator.com/item?id=1997341	created	2010-12-12
 https://stackoverflow.com/questions/44965/what-is-a-monad	created	2008-09-04
 https://gist.github.com/2ea422007a0f18b7877326cf3f8def86	N/A
-https://www.youtube.com/watch?v=-fKAh4PVKbU	N/A
+https://www.youtube.com/watch?v=-fKAh4PVKbU	uploaded	2022-07-03
 https://www.reddit.com/r/programming/comments/4351we/the_monad_challenges_monads_cannot_be_taught_they/	N/A
 https://www.reddit.com/r/haskell/comments/ujjo/haskell_donotation_considered_harmful/	N/A
 https://www.haskell.org/haskellwiki/Monad_%28sans_metaphors%29	N/A
@@ -2587,11 +2587,11 @@ https://discourse.haskell.org/t/the-issues-with-effect-systems/5630	publication	
 https://stackoverflow.com/questions/65167380/controlling-side-effects-in-function	created	2020-12-06
 https://stackoverflow.com/questions/31335805/monad-transformers-more-powerful-than-effects-examples	created	2015-07-10
 https://stackoverflow.com/questions/28637146/monads-in-haskell-and-purity	created	2015-02-20
-https://www.youtube.com/watch?v=m821Vz8N_bo	N/A
-https://www.youtube.com/watch?v=GaAe7zGq1zM	N/A
-https://www.youtube.com/watch?v=lUzF1CYdxgk	N/A
-https://www.youtube.com/watch?v=qPvPdRbTF-E	N/A
-https://www.youtube.com/watch?v=XCVg_cc9Jo4	N/A
+https://www.youtube.com/watch?v=m821Vz8N_bo	uploaded	2023-11-30
+https://www.youtube.com/watch?v=GaAe7zGq1zM	uploaded	2024-04-15
+https://www.youtube.com/watch?v=lUzF1CYdxgk	uploaded	2025-01-22
+https://www.youtube.com/watch?v=qPvPdRbTF-E	uploaded	2024-04-10
+https://www.youtube.com/watch?v=XCVg_cc9Jo4	uploaded	2024-06-20
 https://www.haskell.org/tutorial/indextutorial.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/System-IO.html	modified	2025-12-18
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/System-Environment.html	modified	2025-12-18
@@ -2607,8 +2607,8 @@ https://discourse.haskell.org/t/implementing-a-basic-continuation-based-monadic-
 https://discourse.haskell.org/t/about-comonads-for-uis/12005	publication	2025-05-04
 https://stackoverflow.com/questions/78677160/when-forcing-of-strict-evoluation-is-required-with-monads	created	2024-06-27
 https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io	created	2024-12-30
-https://www.youtube.com/watch?v=T26Yd-rURLs	N/A
-https://www.youtube.com/watch?v=Tzry-0K_hvQ	N/A
+https://www.youtube.com/watch?v=T26Yd-rURLs	uploaded	2024-11-06
+https://www.youtube.com/watch?v=Tzry-0K_hvQ	uploaded	2024-11-24
 https://arxiv.org/pdf/2502.15031	publication	2025
 https://arxiv.org/pdf/2504.10159	created	2025-04
 https://arxiv.org/pdf/2506.12212	created	2025-06
@@ -2626,8 +2626,8 @@ https://haskellforall.com/2015/03/algebraic-side-effects	created	2015
 https://haskellforall.com/2016/04/worst-practices-should-be-hard	created	2016
 https://haskellforall.com/2019/12/prefer-to-use-fail-for-io-exceptions	created	2019
 https://haskellforall.com/2015/05/the-internet-of-code	created	2015
-https://www.youtube.com/watch?v=PJAVv28YB7E	N/A
-https://www.youtube.com/watch?v=_nG09Z_tdUU	N/A
+https://www.youtube.com/watch?v=PJAVv28YB7E	uploaded	2025-12-05
+https://www.youtube.com/watch?v=_nG09Z_tdUU	uploaded	2025-05-04
 https://www.haskell.org/onlinereport/haskell2010/haskellch42.html	created	2010
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.StdHandles.html	modified	2025-12-18
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.Encoding.UTF8.html	modified	2025-12-18
@@ -2657,15 +2657,15 @@ https://discourse.haskell.org/t/theseus-worry-free-algebraic-and-higher-order-ef
 https://discourse.haskell.org/t/zurihac-2025-videos-online/12430	publication	2025-07-09
 https://stackoverflow.com/questions/71175957/why-does-haskell-need-to-have-io-actions-even-though-its-lazy-evaluation	created	2022-02-18
 https://stackoverflow.com/questions/58244653/lazy-evaluation-of-io-actions	created	2019-10-05
-https://www.youtube.com/watch?v=0jI-AlWEwYI	N/A
-https://www.youtube.com/watch?v=mjeGHqSgqP4	N/A
-https://www.youtube.com/watch?v=JQwc1OBOt5k	N/A
+https://www.youtube.com/watch?v=0jI-AlWEwYI	uploaded	2020-06-14
+https://www.youtube.com/watch?v=mjeGHqSgqP4	uploaded	2021-10-18
+https://www.youtube.com/watch?v=JQwc1OBOt5k	uploaded	2020-03-03
 https://icfp23.sigplan.org/details/haskellsymp-2023/10/The-Evolution-of-Effects	created	2023
 https://blog.sumtypeofway.com/posts/ode-to-a-streaming-bytestream.html	N/A
 https://blog.haskell.org/a-couple-million-lines-of-haskell/	N/A
 https://blog.haskell.org/case-study-foreign-integration-js-browser/	N/A
 https://blog.haskell.org/stability-working-group/	N/A
-https://www.youtube.com/watch?v=RsTuy1jXQ6Y	N/A
+https://www.youtube.com/watch?v=RsTuy1jXQ6Y	uploaded	2025-07-09
 https://github.com/jaspervdj/talks/blob/master/2017-haskell-exchange-getting-things-done/slides.md	created	2017
 https://dl.acm.org/doi/10.1145/2804302.2804319	publication	2015-08-30
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/parallel-dualnumbers-reverse-ad/ECFEF5DE72D5CB7C5BBA0AD7C203BF38	publication	2025-01
@@ -2682,69 +2682,69 @@ https://chrispenner.ca/posts/expressiveness-spectrum	N/A
 https://antelang.org/blog/why_effects/	publication	2025-05-21
 https://discourse.haskell.org/t/transformer-version-of-the-st-monad/13623	publication	2026-01-30
 https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io-monad-for-testing-functions-that-run-in-a-io-based-monadic-stack	created	2024-12-30
-https://www.youtube.com/watch?v=fCoQb-zqYDI	N/A
-https://www.youtube.com/watch?v=wgfYkQVpC-M	N/A
-https://www.youtube.com/watch?v=y3KiuFczOFE	N/A
+https://www.youtube.com/watch?v=fCoQb-zqYDI	uploaded	2018-11-09
+https://www.youtube.com/watch?v=wgfYkQVpC-M	uploaded	2026-01-08
+https://www.youtube.com/watch?v=y3KiuFczOFE	uploaded	2025-12-09
 https://github.com/m50d/paperdoll	updated	2025-01-08
 https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell/blob/master/README.md	updated	2021-07-22
 https://github.com/YellPika/effin	updated	2017-08-03
 https://github.com/bitemyapp/learnhaskell/blob/master/specific_topics.md	updated	2026-07-20
-https://www.youtube.com/watch?v=k2voWa4D2ak	N/A
-https://www.youtube.com/watch?v=nGhoZzihbHY	N/A
-https://www.youtube.com/watch?v=A-qGGag3Mt8	N/A
-https://www.youtube.com/watch?v=e7mooXxW3gQ	N/A
+https://www.youtube.com/watch?v=k2voWa4D2ak	uploaded	2024-06-28
+https://www.youtube.com/watch?v=nGhoZzihbHY	uploaded	2022-10-12
+https://www.youtube.com/watch?v=A-qGGag3Mt8	uploaded	2021-03-30
+https://www.youtube.com/watch?v=e7mooXxW3gQ	uploaded	2026-05-22
 https://github.com/rexim/io	updated	2018-10-03
-https://www.youtube.com/watch?v=7uPOjO13nCY	N/A
-https://www.youtube.com/watch?v=fP0srOQVGB8	N/A
+https://www.youtube.com/watch?v=7uPOjO13nCY	uploaded	2025-05-21
+https://www.youtube.com/watch?v=fP0srOQVGB8	uploaded	2020-01-19
 https://deque.blog/2017/11/13/free-monads-from-basics-up-to-implementing-composable-and-effectful-stream-processing/	created	2017
 https://gist.github.com/nrinaudo/b02d0d17f62b6babea60cb0b52ded287	N/A
-https://www.youtube.com/watch?v=seyhAYIz1mk	N/A
-https://www.youtube.com/watch?v=JPs0NRRIqUU	N/A
-https://www.youtube.com/watch?v=GZPup5Iuaqw	N/A
-https://www.youtube.com/watch?v=wi_vLNULh9Y	N/A
-https://www.youtube.com/watch?v=KGJLeHhsZBo	N/A
-https://www.youtube.com/watch?v=gUPuWHAt6SA	N/A
-https://www.youtube.com/watch?v=-dHFOjcK6pA	N/A
-https://www.youtube.com/watch?v=zPtP-vvqagE	N/A
+https://www.youtube.com/watch?v=seyhAYIz1mk	uploaded	2021-10-25
+https://www.youtube.com/watch?v=JPs0NRRIqUU	uploaded	2024-02-09
+https://www.youtube.com/watch?v=GZPup5Iuaqw	uploaded	2015-06-15
+https://www.youtube.com/watch?v=wi_vLNULh9Y	uploaded	2017-11-23
+https://www.youtube.com/watch?v=KGJLeHhsZBo	uploaded	2016-06-06
+https://www.youtube.com/watch?v=gUPuWHAt6SA	uploaded	2017-04-26
+https://www.youtube.com/watch?v=-dHFOjcK6pA	uploaded	2019-04-21
+https://www.youtube.com/watch?v=zPtP-vvqagE	uploaded	2024-04-21
 https://github.com/raimohanska/Monads	updated	2017-08-11
 https://github.com/jagajaga/FP-Course-ITMO	updated	2022-01-17
 https://github.com/graninas/software-design-in-haskell/blob/master/README.md	updated	2024-12-18
 https://gist.github.com/b473c3c9aa921d14563b	N/A
-https://www.youtube.com/watch?v=7vxhNfNWP3k	N/A
-https://www.youtube.com/watch?v=w9ExsWcoXPs	N/A
-https://www.youtube.com/watch?v=BN3JAuGlOgM	N/A
-https://www.youtube.com/watch?v=3GKQ4ni2pS0	N/A
-https://www.youtube.com/watch?v=H3Bizwx_L1o	N/A
-https://www.youtube.com/watch?v=YTaNkWjd-ac	N/A
-https://www.youtube.com/watch?v=NruDKxLQPj8	N/A
-https://www.youtube.com/watch?v=qZ4O-1VYv4c	N/A
-https://www.youtube.com/watch?v=H28QqxO7Ihc	N/A
-https://www.youtube.com/watch?v=c-A46L8__IY	N/A
+https://www.youtube.com/watch?v=7vxhNfNWP3k	uploaded	2024-05-06
+https://www.youtube.com/watch?v=w9ExsWcoXPs	uploaded	2023-06-27
+https://www.youtube.com/watch?v=BN3JAuGlOgM	uploaded	2021-01-27
+https://www.youtube.com/watch?v=3GKQ4ni2pS0	uploaded	2019-11-23
+https://www.youtube.com/watch?v=H3Bizwx_L1o	uploaded	2023-07-03
+https://www.youtube.com/watch?v=YTaNkWjd-ac	uploaded	2016-09-06
+https://www.youtube.com/watch?v=NruDKxLQPj8	uploaded	2019-08-16
+https://www.youtube.com/watch?v=qZ4O-1VYv4c	uploaded	2017-09-19
+https://www.youtube.com/watch?v=H28QqxO7Ihc	uploaded	2016-01-11
+https://www.youtube.com/watch?v=c-A46L8__IY	uploaded	2020-08-09
 https://github.com/epogrebnyak/haskell-intro	updated	2024-12-27
-https://www.youtube.com/watch?v=e80BUh8clC8	N/A
-https://www.youtube.com/watch?v=xv-WApd-pSY	N/A
-https://www.youtube.com/watch?v=lLZKM7efBYw	N/A
+https://www.youtube.com/watch?v=e80BUh8clC8	uploaded	2020-11-18
+https://www.youtube.com/watch?v=xv-WApd-pSY	uploaded	2026-04-23
+https://www.youtube.com/watch?v=lLZKM7efBYw	uploaded	2024-11-24
 https://github.com/fused-effects/fused-effects	updated	2026-05-05
 https://github.com/lexi-lambda/freer-simple	updated	2022-01-07
 https://github.com/fizruk/free-agent	N/A
 https://gist.github.com/graninas/49be74a21fbd58236bad28e1ce1eed94	N/A
 https://github.com/Cambridge-Vision-Technology/purescript-parallel-effects	updated	2025-12-07
-https://www.youtube.com/watch?v=qgfCmQ-2tW0	N/A
-https://www.youtube.com/watch?v=sDnNjtkoUVs	N/A
+https://www.youtube.com/watch?v=qgfCmQ-2tW0	uploaded	2022-03-18
+https://www.youtube.com/watch?v=sDnNjtkoUVs	uploaded	2023-01-31
 https://github.com/Gabriella439/Haskell-Transformers-Free-Library	updated	2022-09-04
 https://github.com/Gabriel439/Haskell-Free-Monads-Library/blob/master/Control/Monad/Trans/Free.hs	updated	2012-06-19
 https://github.com/tchajed/coq-io	updated	2018-07-27
 https://github.com/hasura/eff	updated	2020-11-10
 https://github.com/typedbyte/effet	N/A
-https://www.youtube.com/watch?v=0ABhsBpcxvY	N/A
-https://www.youtube.com/watch?v=2g5ZZRN2LZE	N/A
+https://www.youtube.com/watch?v=0ABhsBpcxvY	uploaded	2025-12-05
+https://www.youtube.com/watch?v=2g5ZZRN2LZE	uploaded	2025-02-24
 https://github.com/FreeProving/free-compiler	updated	2022-05-31
 https://github.com/pvillega/free-monad-sample	updated	2017-02-10
-https://www.youtube.com/watch?v=sFYFuBzu9Ow	N/A
-https://www.youtube.com/watch?v=y0AHjJZeV1M	N/A
-https://www.youtube.com/watch?v=z8SI7WBtlcA	N/A
-https://www.youtube.com/watch?v=2LSOqikNqxM	N/A
-https://www.youtube.com/watch?v=_MgahTBF5ig	N/A
+https://www.youtube.com/watch?v=sFYFuBzu9Ow	uploaded	2020-01-24
+https://www.youtube.com/watch?v=y0AHjJZeV1M	uploaded	2024-05-03
+https://www.youtube.com/watch?v=z8SI7WBtlcA	uploaded	2018-04-05
+https://www.youtube.com/watch?v=2LSOqikNqxM	uploaded	2023-08-01
+https://www.youtube.com/watch?v=_MgahTBF5ig	uploaded	2024-11-09
 https://github.com/Lysxia/bluefin-algae	updated	2026-05-13
 https://github.com/haskell-effectful/effectful-contrib	updated	2022-02-22
 https://github.com/haskell-effectful/monad-time-effectful	updated	2026-03-24
@@ -2752,10 +2752,10 @@ https://github.com/haskell-effectful/typed-process-effectful	updated	2026-06-23
 https://github.com/haskell-effectful/crypto-rng-effectful	updated	2023-11-01
 https://github.com/haskell-effectful/hpqtypes-effectful	updated	2025-11-27
 https://github.com/deepflowinc-oss/effectful-extras	updated	2024-12-20
-https://www.youtube.com/watch?v=wZy0pVkQ-Jg	N/A
-https://www.youtube.com/watch?v=BUoYKBLOOrE	N/A
+https://www.youtube.com/watch?v=wZy0pVkQ-Jg	uploaded	2025-12-09
+https://www.youtube.com/watch?v=BUoYKBLOOrE	uploaded	2022-12-13
 https://github.com/tomjaguarpaw/bluefin/issues/53	updated	2026-07-19
-https://www.youtube.com/watch?v=ZejW5XfJsR0	N/A
+https://www.youtube.com/watch?v=ZejW5XfJsR0	uploaded	2024-07-19
 https://github.com/tomjaguarpaw/bluefin/discussions/88	updated	2026-07-19
 https://github.com/haskell-effectful/effectful/discussions/149	updated	2026-07-23
 https://github.com/haskell-effectful/effectful/discussions/285	updated	2026-07-23
@@ -2770,9 +2770,9 @@ https://github.com/haskell-effectful/effectful/issues/237	updated	2026-07-23
 https://marcosh.github.io/post/2025/03/10/combining-monads.html	created	2025
 https://calwoo.github.io/posts/2020-02-09-effects.html	created	2020
 https://discourse.haskell.org/t/monads-are-too-powerful-the-expressiveness-spectrum/13043	publication	2025-09-26
-https://www.youtube.com/watch?v=cRh56LGzwas	N/A
-https://www.youtube.com/watch?v=UseIDeSCsf0	N/A
-https://www.youtube.com/watch?v=SMj-n2f7wYY	N/A
+https://www.youtube.com/watch?v=cRh56LGzwas	uploaded	2022-03-30
+https://www.youtube.com/watch?v=UseIDeSCsf0	uploaded	2024-07-03
+https://www.youtube.com/watch?v=SMj-n2f7wYY	uploaded	2018-12-20
 https://github.com/haskell-effectful/effectful/discussions/315	updated	2026-07-23
 https://github.com/haskell-effectful/effectful/discussions/294	updated	2026-07-23
 https://github.com/haskell-effectful/effectful/discussions/328	updated	2026-07-23
@@ -2786,9 +2786,9 @@ https://github.com/ndmitchell/blogs/blob/master/monads-as-boxes.md	updated	2021-
 https://noelwelsh.com/posts/codata-interpreter-terminal/	N/A
 https://chrisdone.com/posts/pure-io-tryhaskell/	N/A
 https://teaching.well-typed.com/intro/slides/io-and-explicit-effects.pdf	N/A
-https://www.youtube.com/watch?v=4zrYRiTSWQo	N/A
-https://www.youtube.com/watch?v=GDWQ8QPqZpY	N/A
-https://www.youtube.com/watch?v=3CcAxhMw0-c	N/A
+https://www.youtube.com/watch?v=4zrYRiTSWQo	uploaded	2020-04-14
+https://www.youtube.com/watch?v=GDWQ8QPqZpY	uploaded	2022-10-06
+https://www.youtube.com/watch?v=3CcAxhMw0-c	uploaded	2024-03-23
 https://discourse.haskell.org/t/are-complaints-about-free-monad-performance-pointless-and-no-different-to-a-corresponding-monad-construction/13189	publication	2025-10-29
 https://stackoverflow.com/questions/77772089/registering-a-signal-handler-in-haskell-with-an-action-depending-on-state	created	2024-01-07
 https://arxiv.org/pdf/2305.08496	created	2023-05
@@ -2841,7 +2841,7 @@ https://dl.acm.org/doi/10.1145/3759425.3763396	publication	2025-10-09
 https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844	publication	2025-04-13
 https://deque.blog/2017/12/08/continuation-passing-style-free-monads-and-direct-style-free-monads/	created	2017
 https://stackoverflow.com/questions/45045294/in-haskell-terminology-what-are-monadic-effects	created	2017-07-11
-https://www.youtube.com/watch?v=V2vIfgGrr74	N/A
+https://www.youtube.com/watch?v=V2vIfgGrr74	uploaded	2023-11-30
 https://people.cs.nott.ac.uk/pszgmh/appsem-papers/moggi.pdf	N/A
 https://kar.kent.ac.uk/57487/1/haskell19f-revised.pdf	N/A
 https://repository.nottingham.ac.uk/entities/publication/afa95713-a742-4fc8-9092-8c53cb74c935	N/A
@@ -3665,8 +3665,8 @@ https://ncatlab.org/nlab/show/domain%2Bspecific%2Bembedded%2Bprogramming%2Blangu
 https://ncatlab.org/nlab/show/algebra%2Bover%2Ba%2Bmonad	N/A
 https://confengine.com/conferences/functional-conf-2019/proposal/11256/hierarchical-free-monads-and-software-design-in-functional-programming	created	2019
 https://confengine.com/conferences/functional-conf-2014/proposal/410/you-could-have-invented-monads	created	2014
-https://www.youtube.com/watch?v=ouaR1A4ATdM	N/A
-https://www.youtube.com/watch?v=GyhDQ7BAQJw	N/A
+https://www.youtube.com/watch?v=ouaR1A4ATdM	uploaded	2024-11-29
+https://www.youtube.com/watch?v=GyhDQ7BAQJw	uploaded	2022-06-28
 https://gist.github.com/fatcerberus/beae4d15842071eab24fca2f0740c2ef	N/A
 https://www.slideshare.net/slideshow/monads-are-no-nomads-unlocking-the-basics/272673689	N/A
 https://www.slideshare.net/slideshow/free-monads-getting-started/76367619	N/A
@@ -12074,7 +12074,7 @@ https://www.complang.tuwien.ac.at/knoop/fp185161_ws0506	N/A
 https://homepages.dcc.ufmg.br/~camarao/haskell/livro003.html	N/A
 https://www2.uesb.br/editora/wp-content/uploads/Introducao-ao-Haskel.pdf	N/A
 https://hood.com.br/new/filegator/repository/Paradigmas%20de%20Linguagens%20de%20Programa%C3%A7%C3%A3o/Notas%20de%20Aula.pdf	N/A
-https://www.youtube.com/watch?v=7aEjpyRWIzk	N/A
+https://www.youtube.com/watch?v=7aEjpyRWIzk	uploaded	2021-12-16
 https://qiita.com/YoshikuniJujo/items/0708f108bf53a216a61a	N/A
 https://ruhaskell.org/posts/theory/2015/01/20/the-what-are-monads-fallacy.html	created	2015
 https://www.infoq.com/jp/articles/Understanding-Monads-guide-for-perplexed/	N/A
@@ -13063,7 +13063,7 @@ https://cdn.bookey.app/files/pdf/book/en/programming-in-haskell.pdf	N/A
 https://www.classcentral.com/course/independent-haskell-lecture-notes-and-assignments-110550	N/A
 https://courses.cs.washington.edu/courses/cse505/01au/functional/haskell-mini-exercises.pdf	N/A
 https://effective-haskell.com/chapters/chapter7.html	N/A
-https://www.youtube.com/watch?v=YJQgvgornAs	N/A
+https://www.youtube.com/watch?v=YJQgvgornAs	uploaded	2022-09-24
 http://hdl.handle.net/1903/16239	publication	2014
 https://www.uibk.ac.at/files/share/1763989708/116085/	N/A
 https://www.pleger.cl/cv-pleger/papers/figueroaAl-SCP2020.pdf	created	2020
@@ -14223,21 +14223,21 @@ https://sigpl.or.kr/journal/2000/2/06.pdf	created	2000
 https://flolac.iis.sinica.edu.tw/2024/FP-Handouts.pdf	created	2024
 https://mirror1.sox.rs/parrot/misc/openbooks/programming/Haskell.pdf	N/A
 https://pg.cabinet.sumdu.edu.ua/report/course/11475f244aa124e3e2c2348fe565338e4928691	N/A
-https://www.youtube.com/watch?v=-0NHkV3kQzA	N/A
-https://www.youtube.com/watch?v=AflGgv8yaGA	N/A
-https://www.youtube.com/watch?v=BHMxhWXHd_I	N/A
-https://www.youtube.com/watch?v=e29BRfuiwnk	N/A
-https://www.youtube.com/watch?v=ekeC-qlijAk	N/A
-https://www.youtube.com/watch?v=IYYu54iJY0o	N/A
-https://www.youtube.com/watch?v=nwbB8xHJ4tU	N/A
-https://www.youtube.com/watch?v=VhAUAR1lOOc	N/A
-https://www.youtube.com/watch?v=yoNYulGvMns	N/A
+https://www.youtube.com/watch?v=-0NHkV3kQzA	uploaded	2024-06-28
+https://www.youtube.com/watch?v=AflGgv8yaGA	uploaded	2024-06-28
+https://www.youtube.com/watch?v=BHMxhWXHd_I	uploaded	2024-06-28
+https://www.youtube.com/watch?v=e29BRfuiwnk	uploaded	2024-06-28
+https://www.youtube.com/watch?v=ekeC-qlijAk	uploaded	2024-06-28
+https://www.youtube.com/watch?v=IYYu54iJY0o	uploaded	2024-06-28
+https://www.youtube.com/watch?v=nwbB8xHJ4tU	uploaded	2024-06-28
+https://www.youtube.com/watch?v=VhAUAR1lOOc	uploaded	2024-06-28
+https://www.youtube.com/watch?v=yoNYulGvMns	uploaded	2024-06-28
 https://raw.githubusercontent.com/haskell-beginners-2022/course-plan/main/README.md	created	2022
-https://www.youtube.com/watch?v=12D4Y2Hdnhg	N/A
-https://www.youtube.com/watch?v=6MsQcUprO9o&list=PLOJjn67NeYg9cWA4hyIWcxfaeX64pwo1c&ab_channel=chshersh	N/A
+https://www.youtube.com/watch?v=12D4Y2Hdnhg	uploaded	2022-02-01
+https://www.youtube.com/watch?v=6MsQcUprO9o&list=PLOJjn67NeYg9cWA4hyIWcxfaeX64pwo1c&ab_channel=chshersh	uploaded	2022-01-11
 https://www.bilibili.com/video/BV1ihBBBFEAq/	N/A
 https://www.bilibili.com/video/BV16F411j7Zq/	N/A
-https://www.youtube.com/watch?v=SPwnfSmyAGI	N/A
+https://www.youtube.com/watch?v=SPwnfSmyAGI	uploaded	2022-06-25
 https://www.bilibili.com/video/BV14s411e7JK/	N/A
 https://exchangetuts.com/why-io-is-a-monad-instead-of-a-comonad-1639990503819740	N/A
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120519131521%21Haskell.pdf	N/A
@@ -14543,72 +14543,72 @@ https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region-OnEx
 https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region-Unsafe.html	created	2011-09-23
 https://www.youtube.com/playlist?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10	N/A
 https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV	N/A
-https://www.youtube.com/watch?v=IBB7JpbClo8	N/A
-https://www.youtube.com/watch?v=kbFGvUXqUcw	N/A
-https://www.youtube.com/watch?v=cuHD2qTXxL4	N/A
-https://www.youtube.com/watch?v=2lll2VbX8Vc	N/A
-https://www.youtube.com/watch?v=UPb83JiGiIY	N/A
-https://www.youtube.com/watch?v=_Gk_lwhJMzk	N/A
-https://www.youtube.com/watch?v=NkYKY_NNpSQ	N/A
-https://www.youtube.com/watch?v=r74F_z8czB8	N/A
-https://www.youtube.com/watch?v=5McozSwG8uU	N/A
-https://www.youtube.com/watch?v=QQOJ_7dEJng	N/A
-https://www.youtube.com/watch?v=6qoIUu6gNUI	N/A
-https://www.youtube.com/watch?v=0xQ8j6h8bNc	N/A
-https://www.youtube.com/watch?v=Gt6OeWxkcEI	N/A
-https://www.youtube.com/watch?v=4k8M9C2WdDQ	N/A
-https://www.youtube.com/watch?v=J_JutbE-JbQ	N/A
-https://www.youtube.com/watch?v=DNp3ifNpgPM	N/A
-https://www.youtube.com/watch?v=YXDySmPxwh0	N/A
-https://www.youtube.com/watch?v=r85TcDpIgLA	N/A
-https://www.youtube.com/watch?v=bsrpKD136Og	N/A
-https://www.youtube.com/watch?v=vfDazZfxlNs	N/A
-https://www.youtube.com/watch?v=jPBHj6hTYuk	N/A
-https://www.youtube.com/watch?v=wk3Qj15WPpk	N/A
-https://www.youtube.com/watch?v=1gZAqJA2pEk	N/A
-https://www.youtube.com/watch?v=BQ46cJNS-g4	N/A
-https://www.youtube.com/watch?v=4Mmn2NWzkjU	N/A
-https://www.youtube.com/watch?v=Yx8z9M7XHu0	N/A
-https://www.youtube.com/watch?v=U0cWqgTLn6k	N/A
-https://www.youtube.com/watch?v=8t8fjkISjus	N/A
-https://www.youtube.com/watch?v=X8XHXhSvfrY	N/A
-https://www.youtube.com/watch?v=8F7bXzPkDS4	N/A
-https://www.youtube.com/watch?v=Ewf0njcUhKo	N/A
-https://www.youtube.com/watch?v=4Xte_joYlpo	N/A
-https://www.youtube.com/watch?v=6YInxGbSiCY	N/A
-https://www.youtube.com/watch?v=SndXh7vZCd0	N/A
-https://www.youtube.com/watch?v=ysqQ818wTYE	N/A
-https://www.youtube.com/watch?v=mZxDtE9ONAQ	N/A
-https://www.youtube.com/watch?v=WUDl7ciaYy8	N/A
-https://www.youtube.com/watch?v=V8v-1PnFisU	N/A
-https://www.youtube.com/watch?v=o8_Ne5ueYAc	N/A
-https://www.youtube.com/watch?v=QG6AwWn9f9Q	N/A
-https://www.youtube.com/watch?v=sT6VJkkhy0o	N/A
-https://www.youtube.com/watch?v=l_OJsOMkrd0	N/A
-https://www.youtube.com/watch?v=3gQtVxTXrWU	N/A
-https://www.youtube.com/watch?v=LWE1F2nOlTE	N/A
-https://www.youtube.com/watch?v=UKAGN8v2t2k	N/A
-https://www.youtube.com/watch?v=HZVxxxmTyYA	N/A
-https://www.youtube.com/watch?v=3mqhzZqj42Q	N/A
-https://www.youtube.com/watch?v=pZmL-unYvbA	N/A
-https://www.youtube.com/watch?v=kbnPaCd1T10	N/A
-https://www.youtube.com/watch?v=jtYylUdBGBY	N/A
-https://www.youtube.com/watch?v=JZyizZ0wkPU	N/A
-https://www.youtube.com/watch?v=bNJ_yixZUeg	N/A
-https://www.youtube.com/watch?v=El2bAPDcOHM	N/A
-https://www.youtube.com/watch?v=A9tcL8AJBwA	N/A
-https://www.youtube.com/watch?v=QoywHEBW4Tw	N/A
-https://www.youtube.com/watch?v=CjNFZjtwHfY	N/A
-https://www.youtube.com/watch?v=rNoRxXdcv2o	N/A
-https://www.youtube.com/watch?v=JvAvDejAQMM	N/A
-https://www.youtube.com/watch?v=6WM4gFP7rs4	N/A
-https://www.youtube.com/watch?v=cfCQXYGiN4s	N/A
-https://www.youtube.com/watch?v=iYegg8Rzhr4	N/A
-https://www.youtube.com/watch?v=h6zbQ23U05g	N/A
-https://www.youtube.com/watch?v=pEkMZPdKy58	N/A
-https://www.youtube.com/watch?v=kYaowT7wT0E	N/A
-https://www.youtube.com/watch?v=b9FagOVqxmI	N/A
-https://www.youtube.com/watch?v=re96UgMk6GQ	N/A
+https://www.youtube.com/watch?v=IBB7JpbClo8	uploaded	2020-01-22
+https://www.youtube.com/watch?v=kbFGvUXqUcw	uploaded	2020-05-02
+https://www.youtube.com/watch?v=cuHD2qTXxL4	uploaded	2020-05-07
+https://www.youtube.com/watch?v=2lll2VbX8Vc	uploaded	2020-05-24
+https://www.youtube.com/watch?v=UPb83JiGiIY	uploaded	2020-08-18
+https://www.youtube.com/watch?v=_Gk_lwhJMzk	uploaded	2020-10-03
+https://www.youtube.com/watch?v=NkYKY_NNpSQ	uploaded	2021-11-21
+https://www.youtube.com/watch?v=r74F_z8czB8	uploaded	2019-03-24
+https://www.youtube.com/watch?v=5McozSwG8uU	uploaded	2026-03-13
+https://www.youtube.com/watch?v=QQOJ_7dEJng	uploaded	2025-11-09
+https://www.youtube.com/watch?v=6qoIUu6gNUI	uploaded	2017-05-01
+https://www.youtube.com/watch?v=0xQ8j6h8bNc	uploaded	2023-01-24
+https://www.youtube.com/watch?v=Gt6OeWxkcEI	uploaded	2022-06-15
+https://www.youtube.com/watch?v=4k8M9C2WdDQ	uploaded	2020-11-11
+https://www.youtube.com/watch?v=J_JutbE-JbQ	uploaded	2017-03-28
+https://www.youtube.com/watch?v=DNp3ifNpgPM	uploaded	2018-01-12
+https://www.youtube.com/watch?v=YXDySmPxwh0	uploaded	2022-10-29
+https://www.youtube.com/watch?v=r85TcDpIgLA	uploaded	2017-05-02
+https://www.youtube.com/watch?v=bsrpKD136Og	uploaded	2021-02-11
+https://www.youtube.com/watch?v=vfDazZfxlNs	uploaded	2019-09-14
+https://www.youtube.com/watch?v=jPBHj6hTYuk	uploaded	2020-04-17
+https://www.youtube.com/watch?v=wk3Qj15WPpk	uploaded	2022-10-09
+https://www.youtube.com/watch?v=1gZAqJA2pEk	uploaded	2012-04-09
+https://www.youtube.com/watch?v=BQ46cJNS-g4	uploaded	2020-11-15
+https://www.youtube.com/watch?v=4Mmn2NWzkjU	uploaded	2025-04-13
+https://www.youtube.com/watch?v=Yx8z9M7XHu0	uploaded	2023-07-09
+https://www.youtube.com/watch?v=U0cWqgTLn6k	uploaded	2020-10-24
+https://www.youtube.com/watch?v=8t8fjkISjus	uploaded	2015-09-01
+https://www.youtube.com/watch?v=X8XHXhSvfrY	uploaded	2020-10-16
+https://www.youtube.com/watch?v=8F7bXzPkDS4	uploaded	2021-06-12
+https://www.youtube.com/watch?v=Ewf0njcUhKo	uploaded	2015-10-16
+https://www.youtube.com/watch?v=4Xte_joYlpo	uploaded	2022-05-06
+https://www.youtube.com/watch?v=6YInxGbSiCY	uploaded	2018-03-19
+https://www.youtube.com/watch?v=SndXh7vZCd0	uploaded	2022-04-29
+https://www.youtube.com/watch?v=ysqQ818wTYE	uploaded	2023-06-23
+https://www.youtube.com/watch?v=mZxDtE9ONAQ	uploaded	2021-12-17
+https://www.youtube.com/watch?v=WUDl7ciaYy8	uploaded	2020-05-05
+https://www.youtube.com/watch?v=V8v-1PnFisU	uploaded	2017-10-18
+https://www.youtube.com/watch?v=o8_Ne5ueYAc	uploaded	2022-03-16
+https://www.youtube.com/watch?v=QG6AwWn9f9Q	uploaded	2020-09-11
+https://www.youtube.com/watch?v=sT6VJkkhy0o	uploaded	2017-09-30
+https://www.youtube.com/watch?v=l_OJsOMkrd0	uploaded	2022-10-24
+https://www.youtube.com/watch?v=3gQtVxTXrWU	uploaded	2024-05-01
+https://www.youtube.com/watch?v=LWE1F2nOlTE	uploaded	2021-06-16
+https://www.youtube.com/watch?v=UKAGN8v2t2k	uploaded	2022-11-21
+https://www.youtube.com/watch?v=HZVxxxmTyYA	uploaded	2020-10-21
+https://www.youtube.com/watch?v=3mqhzZqj42Q	uploaded	2023-06-09
+https://www.youtube.com/watch?v=pZmL-unYvbA	uploaded	2023-05-01
+https://www.youtube.com/watch?v=kbnPaCd1T10	uploaded	2019-03-17
+https://www.youtube.com/watch?v=jtYylUdBGBY	uploaded	2023-10-05
+https://www.youtube.com/watch?v=JZyizZ0wkPU	uploaded	2022-10-19
+https://www.youtube.com/watch?v=bNJ_yixZUeg	uploaded	2019-12-06
+https://www.youtube.com/watch?v=El2bAPDcOHM	uploaded	2020-11-14
+https://www.youtube.com/watch?v=A9tcL8AJBwA	uploaded	2023-08-12
+https://www.youtube.com/watch?v=QoywHEBW4Tw	uploaded	2023-07-01
+https://www.youtube.com/watch?v=CjNFZjtwHfY	uploaded	2022-03-16
+https://www.youtube.com/watch?v=rNoRxXdcv2o	uploaded	2021-09-11
+https://www.youtube.com/watch?v=JvAvDejAQMM	uploaded	2022-10-04
+https://www.youtube.com/watch?v=6WM4gFP7rs4	uploaded	2016-10-04
+https://www.youtube.com/watch?v=cfCQXYGiN4s	uploaded	2019-08-24
+https://www.youtube.com/watch?v=iYegg8Rzhr4	uploaded	2017-10-24
+https://www.youtube.com/watch?v=h6zbQ23U05g	uploaded	2016-05-14
+https://www.youtube.com/watch?v=pEkMZPdKy58	uploaded	2021-10-28
+https://www.youtube.com/watch?v=kYaowT7wT0E	uploaded	2018-01-04
+https://www.youtube.com/watch?v=b9FagOVqxmI	uploaded	2011-10-19
+https://www.youtube.com/watch?v=re96UgMk6GQ	uploaded	2017-04-25
 https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-166	N/A
 https://arxiv.org/pdf/2306.12313	created	2023-06
 https://cse.sc.edu/~mgv/csce330f24/index.html	N/A
@@ -14796,35 +14796,35 @@ https://files.speakerdeck.com/presentations/f2305381819e4073b619949fdd401417/sca
 https://files.speakerdeck.com/presentations/f79ee1b9864f411e9ce18f53089a2186/game-of-life-polyglot-fp-haskell-scala-unison-part-2.pdf	N/A
 https://files.speakerdeck.com/presentations/a3498907e8f2407db637d64353518dd7/Justin_Spahr-Summers_-_Correct_Behavior_Through_Type_Safety.pdf	N/A
 https://files.speakerdeck.com/presentations/cc105595e0fa435e84cf50b71c362c42/game-of-life-polyglot-fp-haskell-scala-unison-part-3.pdf	N/A
-https://www.youtube.com/watch?v=dNi__BckudQ	N/A
-https://www.youtube.com/watch?v=-MFk7PIKYsg	N/A
-https://www.youtube.com/watch?v=g_jP47HFpWA	N/A
-https://www.youtube.com/watch?v=OsI-MWiIRng	N/A
-https://www.youtube.com/watch?v=cTN1Qar4HSw	N/A
-https://www.youtube.com/watch?v=A5c9kgDYXr8	N/A
-https://www.youtube.com/watch?v=2PGUt_dcHX0	N/A
-https://www.youtube.com/watch?v=3bjXGrycMhQ	N/A
-https://www.youtube.com/watch?v=apBWkBDVlow	N/A
-https://www.youtube.com/watch?v=CIPGZzbPpeg	N/A
+https://www.youtube.com/watch?v=dNi__BckudQ	uploaded	2023-07-02
+https://www.youtube.com/watch?v=-MFk7PIKYsg	uploaded	2016-09-06
+https://www.youtube.com/watch?v=g_jP47HFpWA	uploaded	2017-12-18
+https://www.youtube.com/watch?v=OsI-MWiIRng	uploaded	2019-11-18
+https://www.youtube.com/watch?v=cTN1Qar4HSw	uploaded	2019-03-28
+https://www.youtube.com/watch?v=A5c9kgDYXr8	uploaded	2018-12-20
+https://www.youtube.com/watch?v=2PGUt_dcHX0	uploaded	2022-10-19
+https://www.youtube.com/watch?v=3bjXGrycMhQ	uploaded	2014-01-13
+https://www.youtube.com/watch?v=apBWkBDVlow	uploaded	2014-08-01
+https://www.youtube.com/watch?v=CIPGZzbPpeg	uploaded	2017-12-17
 https://files.speakerdeck.com/presentations/1b0fa6506458013118920647abd8ddef/slides_haskell_io.pdf	N/A
 https://files.speakerdeck.com/presentations/bd293a6009a30132b9193edb5b019a53/presentation.pdf	N/A
 https://files.speakerdeck.com/presentations/4fbc471b398a4d27830302d7cc313931/Why_haskell_can_save_your_life.pdf	N/A
 https://files.speakerdeck.com/presentations/2c9a17f7efe34ffd948a756b105a6b75/Monadic_Composition_Comprehensions___Parallel_Processing_with_Arrow_IO.pdf	N/A
 https://files.speakerdeck.com/presentations/78943dd8ff6d4bbe8fde5e92d0fe351e/applicativeerror-functions-handling-and-recovering-from-errors--a-mnemonic-to-recall-their-signatures-from-their-names.pdf	N/A
 https://files.speakerdeck.com/presentations/9b3378757fad48c2aab9aca908deb2e6/presentation.pdf	N/A
-https://www.youtube.com/watch?v=wu6OuBglUGQ	N/A
-https://www.youtube.com/watch?v=Gig-f_HXvLI	N/A
-https://www.youtube.com/watch?v=Go-RR_2I9CU	N/A
-https://www.youtube.com/watch?v=ZfAgvAIoUEY	N/A
-https://www.youtube.com/watch?v=PWBTOhMemxQ	N/A
-https://www.youtube.com/watch?v=83pXEdCpY4A	N/A
-https://www.youtube.com/watch?v=ECGxRU0lWyg	N/A
-https://www.youtube.com/watch?v=WcJ_Rw97H-o	N/A
-https://www.youtube.com/watch?v=WmkEAgs0dO8	N/A
-https://www.youtube.com/watch?v=TBe0_iVOYSM	N/A
-https://www.youtube.com/watch?v=JrpFFRdf7Q8	N/A
-https://www.youtube.com/watch?v=30q6BkBv5MY	N/A
-https://www.youtube.com/watch?v=8MoibGqlOqU	N/A
+https://www.youtube.com/watch?v=wu6OuBglUGQ	uploaded	2017-12-18
+https://www.youtube.com/watch?v=Gig-f_HXvLI	uploaded	2019-01-17
+https://www.youtube.com/watch?v=Go-RR_2I9CU	uploaded	2014-10-31
+https://www.youtube.com/watch?v=ZfAgvAIoUEY	uploaded	2016-01-04
+https://www.youtube.com/watch?v=PWBTOhMemxQ	uploaded	2017-07-09
+https://www.youtube.com/watch?v=83pXEdCpY4A	uploaded	2019-10-25
+https://www.youtube.com/watch?v=ECGxRU0lWyg	uploaded	2026-02-19
+https://www.youtube.com/watch?v=WcJ_Rw97H-o	uploaded	2025-11-26
+https://www.youtube.com/watch?v=WmkEAgs0dO8	uploaded	2019-10-29
+https://www.youtube.com/watch?v=TBe0_iVOYSM	uploaded	2021-04-22
+https://www.youtube.com/watch?v=JrpFFRdf7Q8	uploaded	2021-03-22
+https://www.youtube.com/watch?v=30q6BkBv5MY	uploaded	2018-09-21
+https://www.youtube.com/watch?v=8MoibGqlOqU	uploaded	2019-01-12
 http://www.haskell.org/wikiupload/8/85/TMR-Issue13.pdf	N/A
 https://dblp.org/rec/conf/slp/Wadler95.html	published	1995
 https://dblp.org/rec/conf/slp/Wadler95.bib	published	1995
@@ -14860,16 +14860,16 @@ https://dblp.org/rec/conf/fpca/Wadler89.bib	published	1989
 https://dblp.org/rec/conf/fpca/Wadler89.ris	published	1989
 https://riptutorial.com/haskell/example/10080/io-monad	N/A
 https://ola.bearblog.dev/io-in-haskell-an-epiphany/	N/A
-https://www.youtube.com/watch?v=jhf1Qiqq3b8	N/A
-https://www.youtube.com/watch?v=Bn6rIDjA9hg	N/A
-https://www.youtube.com/watch?v=QnsAxYTgq3A	N/A
-https://www.youtube.com/watch?v=Dwf8LbH_gFE	N/A
-https://www.youtube.com/watch?v=PX062vBGlxM	N/A
-https://www.youtube.com/watch?v=PjGD35CTVTw	N/A
-https://www.youtube.com/watch?v=t7rfvpd9mD0	N/A
-https://www.youtube.com/watch?v=CnPT5LOIVZw	N/A
-https://www.youtube.com/watch?v=jr6UBI18tx0	N/A
-https://www.youtube.com/watch?v=knK70T4X7YE	N/A
+https://www.youtube.com/watch?v=jhf1Qiqq3b8	uploaded	2026-02-08
+https://www.youtube.com/watch?v=Bn6rIDjA9hg	uploaded	2025-01-02
+https://www.youtube.com/watch?v=QnsAxYTgq3A	uploaded	2025-08-22
+https://www.youtube.com/watch?v=Dwf8LbH_gFE	uploaded	2019-12-28
+https://www.youtube.com/watch?v=PX062vBGlxM	uploaded	2025-05-11
+https://www.youtube.com/watch?v=PjGD35CTVTw	uploaded	2019-12-28
+https://www.youtube.com/watch?v=t7rfvpd9mD0	uploaded	2021-04-29
+https://www.youtube.com/watch?v=CnPT5LOIVZw	uploaded	2023-09-08
+https://www.youtube.com/watch?v=jr6UBI18tx0	uploaded	2022-10-03
+https://www.youtube.com/watch?v=knK70T4X7YE	uploaded	2018-01-10
 https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-IO-Class.html	created	2021-08-06
 https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-IO-Class.html	created	2021-12-28
 https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-IO-Class.html	created	2022-11-09
@@ -14960,7 +14960,7 @@ https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/Control-Mon
 https://downloads.haskell.org/ghc/9.6.5/docs/libraries/base-4.18.2.1/src/Control.Monad.IO.Class.html	modified	2024-04-15
 https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/Control-Monad-IO-Class.html	modified	2024-07-01
 https://downloads.haskell.org/ghc/9.6.6/docs/libraries/base-4.18.2.1/src/Control.Monad.IO.Class.html	modified	2024-07-01
-https://www.youtube.com/watch?v=zlOrYQH_-Xs	N/A
+https://www.youtube.com/watch?v=zlOrYQH_-Xs	uploaded	2020-02-24
 https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/Control-Monad-IO-Class.html	modified	2022-11-03
 https://downloads.haskell.org/ghc/9.4.3/docs/libraries/base-4.17.0.0/src/Control.Monad.IO.Class.html	modified	2022-11-03
 https://downloads.haskell.org/ghc/9.4.4/docs/libraries/base-4.17.0.0/Control-Monad-IO-Class.html	modified	2022-12-24
@@ -17501,12 +17501,12 @@ https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/GHC
 https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-prim-0.11.0-bb4e/src/GHC.Magic.html	modified	2024-10-20
 https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/GHC-Magic.html	modified	2024-11-29
 https://downloads.haskell.org/~ghc/9.8.4/docs/libraries/ghc-prim-0.11.0-865e/src/GHC.Magic.html	modified	2024-11-29
-https://www.youtube.com/watch?v=1Q97gHX5jyA	N/A
-https://www.youtube.com/watch?v=iNyQG8n9On0	N/A
-https://www.youtube.com/watch?v=RFSW_HNxJWc	N/A
-https://www.youtube.com/watch?v=LnX3B9oaKzw	N/A
-https://www.youtube.com/watch?v=Qa8IfEeBJqk	N/A
-https://www.youtube.com/watch?v=-I4yVPlvFvA	N/A
+https://www.youtube.com/watch?v=1Q97gHX5jyA	uploaded	2013-09-02
+https://www.youtube.com/watch?v=iNyQG8n9On0	uploaded	2019-07-04
+https://www.youtube.com/watch?v=RFSW_HNxJWc	uploaded	2020-09-12
+https://www.youtube.com/watch?v=LnX3B9oaKzw	uploaded	2016-11-30
+https://www.youtube.com/watch?v=Qa8IfEeBJqk	uploaded	2021-11-29
+https://www.youtube.com/watch?v=-I4yVPlvFvA	uploaded	2024-10-11
 https://dblp.org/rec/journals/ita/ErkokLM02.txt	published	2002
 https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_69.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_75.html	modified	2019-02-15
@@ -21250,13 +21250,13 @@ https://hackage-content.haskell.org/package/io-sim-1.10.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/io-sim-1.10.1.0/io-sim-1.10.1.0.tar.gz	created	2026-04-15
 https://hackage-content.haskell.org/package/io-sim-1.10.1.0.tar.gz	N/A
 https://stackoverflow.com/questions/22875449/stdin-and-stdout-handle	N/A
-https://www.youtube.com/watch?v=ZSJW4jp8K08	N/A
-https://www.youtube.com/watch?v=BFgmrO-c0Ec	N/A
-https://www.youtube.com/watch?v=3q8xYFDYLeI	N/A
-https://www.youtube.com/watch?v=cHfZEdxtVjU	N/A
-https://www.youtube.com/watch?v=Ug9yJnOYR4U	N/A
-https://www.youtube.com/watch?v=F3ppFRcTyHE	N/A
-https://www.youtube.com/watch?v=PlFgKV0ZXoE	N/A
+https://www.youtube.com/watch?v=ZSJW4jp8K08	uploaded	2025-10-17
+https://www.youtube.com/watch?v=BFgmrO-c0Ec	uploaded	2025-08-20
+https://www.youtube.com/watch?v=3q8xYFDYLeI	uploaded	2012-11-12
+https://www.youtube.com/watch?v=cHfZEdxtVjU	uploaded	2020-04-07
+https://www.youtube.com/watch?v=Ug9yJnOYR4U	uploaded	2019-03-28
+https://www.youtube.com/watch?v=F3ppFRcTyHE	uploaded	2016-12-21
+https://www.youtube.com/watch?v=PlFgKV0ZXoE	uploaded	2016-05-06
 https://media.ccc.de/v/bob2022-concurrent-programs-in-haskell-kant/oembed	created	2022
 https://cdn.media.ccc.de/events/bobkonf/2022/h264-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_hd.mp4	created	2022
 https://cdn.media.ccc.de/events/bobkonf/2022/h264-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_sd.mp4	created	2022
@@ -22142,12 +22142,12 @@ https://wiki.haskell.org/index.php?title=Ru/Monad	N/A
 https://wiki.haskell.org/index.php?title=The_Monad.Reader/Issue3/Join_Hs	N/A
 https://wiki.haskell.org/index.php?title=The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
 https://ipsj.ixsq.nii.ac.jp/records/16534	N/A
-https://www.youtube.com/watch?v=VgA4wCaxp-Q	N/A
-https://www.youtube.com/watch?v=t1e8gqXLbsU	N/A
-https://www.youtube.com/watch?v=tYJT1ITE_Dk	N/A
-https://www.youtube.com/watch?v=C2w45qRc3aU	N/A
-https://www.youtube.com/watch?v=nXLOdusLKyc	N/A
-https://www.youtube.com/watch?v=YVcU6y7TxJo	N/A
+https://www.youtube.com/watch?v=VgA4wCaxp-Q	uploaded	2022-06-26
+https://www.youtube.com/watch?v=t1e8gqXLbsU	uploaded	2017-11-24
+https://www.youtube.com/watch?v=tYJT1ITE_Dk	uploaded	2021-07-12
+https://www.youtube.com/watch?v=C2w45qRc3aU	uploaded	2021-12-28
+https://www.youtube.com/watch?v=nXLOdusLKyc	uploaded	2018-02-02
+https://www.youtube.com/watch?v=YVcU6y7TxJo	uploaded	2021-07-19
 https://www.listennotes.com/podcasts/lambda-show/fp-with-kotlinarrow-monad-fBcqiRMtolC/	publication	2020-02-26
 https://ericnormand.me/podcast/what-a-monoid-is-and-why-monoids-kick-monads-butt	N/A
 https://open.spotify.com/episode/0bVVHleHXfZx7UbPfA6x8w	N/A
@@ -22259,10 +22259,10 @@ https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UpperLower.hs	cre
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2012
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2012
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Text/Monad.pdf	created	2012
-https://www.youtube.com/watch?v=75fWhkM-OsE	N/A
-https://www.youtube.com/watch?v=E3yuJZGJa9k	N/A
-https://www.youtube.com/watch?v=-NO3GiA4fRQ	N/A
-https://www.youtube.com/watch?v=UeyGHhYJqG4	N/A
+https://www.youtube.com/watch?v=75fWhkM-OsE	uploaded	2022-11-17
+https://www.youtube.com/watch?v=E3yuJZGJa9k	uploaded	2021-03-08
+https://www.youtube.com/watch?v=-NO3GiA4fRQ	uploaded	2020-03-06
+https://www.youtube.com/watch?v=UeyGHhYJqG4	uploaded	2018-06-17
 https://downloads.haskell.org/~ghc/5.00/docs/set/primitives.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/ghc-prim-0.7.0/GHC-Prim-Ext.html	modified	2021-12-25
 https://downloads.haskell.org/ghc/8.0-latest/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html	modified	2019-02-15
@@ -22292,41 +22292,41 @@ https://dblp.org/rec/conf/plilp/Rebelsky92	published	1992
 https://research-information.bris.ac.uk/en/publications/concurrent-monadic-interfacing-2/	publication	1999
 https://dblp.org/rec/conf/ifl/HolyerS98	published	1998
 https://stackoverflow.com/questions/39556936/what-is-the-meaning-of	N/A
-https://www.youtube.com/watch?v=5k3_olHdhjQ	N/A
-https://www.youtube.com/watch?v=V9PRiOtT7VM	N/A
-https://www.youtube.com/watch?v=3-AthNF4IBw	N/A
-https://www.youtube.com/watch?v=JCyAcYZ7We4	N/A
-https://www.youtube.com/watch?v=8xkG660D6bI	N/A
-https://www.youtube.com/watch?v=9KHj7mi8Lzk	N/A
-https://www.youtube.com/watch?v=H-Rv12otC34	N/A
-https://www.youtube.com/watch?v=iNWxC8PwXrk	N/A
-https://www.youtube.com/watch?v=0AlhlG7n9nc	N/A
-https://www.youtube.com/watch?v=T5y8sFmCFnA	N/A
-https://www.youtube.com/watch?v=hC7hwEQtdnE	N/A
-https://www.youtube.com/watch?v=Rz7O-oR6ujE	N/A
-https://www.youtube.com/watch?v=FIdQiavsemI	N/A
-https://www.youtube.com/watch?v=PWS0Whf6-wc	N/A
-https://www.youtube.com/watch?v=M5l1d2lHH1A	N/A
-https://www.youtube.com/watch?v=nrTge_JCib0	N/A
-https://www.youtube.com/watch?v=lqG3mURwUxo	N/A
-https://www.youtube.com/watch?v=FdUS93RXEwY	N/A
-https://www.youtube.com/watch?v=d-NZnR2CTss	N/A
-https://www.youtube.com/watch?v=jawbOge4dCg	N/A
-https://www.youtube.com/watch?v=uzsqgdMMgtk	N/A
-https://www.youtube.com/watch?v=N6sOMGYsvFA	N/A
-https://www.youtube.com/watch?v=ijiykwuZvRQ	N/A
-https://www.youtube.com/watch?v=73B1uc3xkvo	N/A
-https://www.youtube.com/watch?v=hF1enHn54e8	N/A
-https://www.youtube.com/watch?v=8OQUH8q4sMM	N/A
-https://www.youtube.com/watch?v=uVK3t-5wWew	N/A
-https://www.youtube.com/watch?v=uedUGeWN4ZM	N/A
-https://www.youtube.com/watch?v=HHVD8SIx6v0	N/A
-https://www.youtube.com/watch?v=TP0ApVPLc24	N/A
-https://www.youtube.com/watch?v=y95WtkWCmKg	N/A
-https://www.youtube.com/watch?v=pm_WFnWqn20	N/A
-https://www.youtube.com/watch?v=IMrBTx7aYjs	N/A
-https://www.youtube.com/watch?v=1NeULUGWAaI	N/A
-https://www.youtube.com/watch?v=fQn_n80dGoA	N/A
+https://www.youtube.com/watch?v=5k3_olHdhjQ	uploaded	2013-08-15
+https://www.youtube.com/watch?v=V9PRiOtT7VM	uploaded	2013-06-05
+https://www.youtube.com/watch?v=3-AthNF4IBw	uploaded	2019-07-28
+https://www.youtube.com/watch?v=JCyAcYZ7We4	uploaded	2022-09-16
+https://www.youtube.com/watch?v=8xkG660D6bI	uploaded	2016-01-20
+https://www.youtube.com/watch?v=9KHj7mi8Lzk	uploaded	2018-03-21
+https://www.youtube.com/watch?v=H-Rv12otC34	uploaded	2022-09-30
+https://www.youtube.com/watch?v=iNWxC8PwXrk	uploaded	2018-03-19
+https://www.youtube.com/watch?v=0AlhlG7n9nc	uploaded	2021-03-30
+https://www.youtube.com/watch?v=T5y8sFmCFnA	uploaded	2018-04-12
+https://www.youtube.com/watch?v=hC7hwEQtdnE	uploaded	2025-08-18
+https://www.youtube.com/watch?v=Rz7O-oR6ujE	uploaded	2021-04-20
+https://www.youtube.com/watch?v=FIdQiavsemI	uploaded	2024-04-07
+https://www.youtube.com/watch?v=PWS0Whf6-wc	uploaded	2015-11-24
+https://www.youtube.com/watch?v=M5l1d2lHH1A	uploaded	2024-02-09
+https://www.youtube.com/watch?v=nrTge_JCib0	uploaded	2020-10-22
+https://www.youtube.com/watch?v=lqG3mURwUxo	uploaded	2014-03-19
+https://www.youtube.com/watch?v=FdUS93RXEwY	uploaded	2016-05-16
+https://www.youtube.com/watch?v=d-NZnR2CTss	uploaded	2025-12-17
+https://www.youtube.com/watch?v=jawbOge4dCg	uploaded	2015-07-14
+https://www.youtube.com/watch?v=uzsqgdMMgtk	uploaded	2019-11-22
+https://www.youtube.com/watch?v=N6sOMGYsvFA	uploaded	2016-04-11
+https://www.youtube.com/watch?v=ijiykwuZvRQ	uploaded	2020-05-28
+https://www.youtube.com/watch?v=73B1uc3xkvo	uploaded	2013-11-25
+https://www.youtube.com/watch?v=hF1enHn54e8	uploaded	2017-06-28
+https://www.youtube.com/watch?v=8OQUH8q4sMM	uploaded	2015-11-24
+https://www.youtube.com/watch?v=uVK3t-5wWew	uploaded	2015-10-28
+https://www.youtube.com/watch?v=uedUGeWN4ZM	uploaded	2022-10-06
+https://www.youtube.com/watch?v=HHVD8SIx6v0	uploaded	2026-05-28
+https://www.youtube.com/watch?v=TP0ApVPLc24	uploaded	2015-04-10
+https://www.youtube.com/watch?v=y95WtkWCmKg	uploaded	2018-07-23
+https://www.youtube.com/watch?v=pm_WFnWqn20	uploaded	2014-09-05
+https://www.youtube.com/watch?v=IMrBTx7aYjs	uploaded	2024-11-21
+https://www.youtube.com/watch?v=1NeULUGWAaI	uploaded	2021-04-29
+https://www.youtube.com/watch?v=fQn_n80dGoA	uploaded	2024-11-24
 https://hackage.haskell.org/package/http-monad-0.1.0.2	N/A
 https://hackage.haskell.org/package/http-monad-0.0.1	N/A
 https://hackage.haskell.org/package/http-monad-0.1	N/A
@@ -22831,14 +22831,14 @@ https://hackage.haskell.org/package/pipes-bytestring-2.1.5	N/A
 https://hackage.haskell.org/package/pipes-bytestring-2.1.6	N/A
 https://hackage.haskell.org/package/pipes-bytestring-2.1.7	N/A
 https://stackoverflow.com/questions/26522053/is-my-concurrency-monad-a-valid-instance-of-monadthrow	N/A
-https://www.youtube.com/watch?v=8_TWM2t97r4	N/A
-https://www.youtube.com/watch?v=p2h6WHcV8CY	N/A
-https://www.youtube.com/watch?v=po3wmq4S15A	N/A
-https://www.youtube.com/watch?v=wFpUG2jGxVg	N/A
-https://www.youtube.com/watch?v=a6tQkOv1k38	N/A
-https://www.youtube.com/watch?v=xDATcERgKgg	N/A
-https://www.youtube.com/watch?v=o3Siln85TJ4	N/A
-https://www.youtube.com/watch?v=79CXOlIevVU	N/A
+https://www.youtube.com/watch?v=8_TWM2t97r4	uploaded	2019-01-14
+https://www.youtube.com/watch?v=p2h6WHcV8CY	uploaded	2020-04-05
+https://www.youtube.com/watch?v=po3wmq4S15A	uploaded	2017-11-22
+https://www.youtube.com/watch?v=wFpUG2jGxVg	uploaded	2017-06-28
+https://www.youtube.com/watch?v=a6tQkOv1k38	uploaded	2019-02-09
+https://www.youtube.com/watch?v=xDATcERgKgg	uploaded	2021-03-24
+https://www.youtube.com/watch?v=o3Siln85TJ4	uploaded	2016-04-15
+https://www.youtube.com/watch?v=79CXOlIevVU	uploaded	2017-12-04
 https://typelevel.org/cats-effect/api/2.x/cats/effect/index.html	N/A
 https://typelevel.org/cats-effect/docs/std/resource	N/A
 https://lrodero.github.io/cats-effect/docs/2.x/guides/tutorial	N/A
@@ -22849,24 +22849,24 @@ https://docs.idris-lang.org/en/latest/tutorial/introduction.html	N/A
 https://pursuit.purescript.org/packages/purescript-aff/3.0.0	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/idris-a-generalpurpose-dependently-typed-programming-language-design-and-implementation/418409138B4452969AC0736DB0A2C238	publication	2013-09
 https://www.reddit.com/r/ProgrammingLanguages/comments/vlgqko	N/A
-https://www.youtube.com/watch?v=EArV7Uy-TD0	N/A
-https://www.youtube.com/watch?v=dbM72ap30TE	N/A
-https://www.youtube.com/watch?v=GlUcCPmH8wI	N/A
-https://www.youtube.com/watch?v=L8AEj6IRNEE	N/A
-https://www.youtube.com/watch?v=RpqGG-N5p1I	N/A
-https://www.youtube.com/watch?v=y2oY4mETysQ	N/A
-https://www.youtube.com/watch?v=X36ye-1x_HQ	N/A
-https://www.youtube.com/watch?v=UdSDTEdP_tQ	N/A
-https://www.youtube.com/watch?v=P1vES9AgfC4	N/A
-https://www.youtube.com/watch?v=vnrUIJMxZJ0	N/A
-https://www.youtube.com/watch?v=N9EBKp5nTzU	N/A
-https://www.youtube.com/watch?v=3WwYkqPctIQ	N/A
-https://www.youtube.com/watch?v=yAT0qYlD0UM	N/A
-https://www.youtube.com/watch?v=Dle5sNB1M8U	N/A
-https://www.youtube.com/watch?v=q9lUT75YU4M	N/A
-https://www.youtube.com/watch?v=7SidSvJcPd0	N/A
-https://www.youtube.com/watch?v=G8XMRZKOhG0	N/A
-https://www.youtube.com/watch?v=252slbrmk8M	N/A
+https://www.youtube.com/watch?v=EArV7Uy-TD0	uploaded	2016-02-23
+https://www.youtube.com/watch?v=dbM72ap30TE	uploaded	2017-12-05
+https://www.youtube.com/watch?v=GlUcCPmH8wI	uploaded	2018-06-09
+https://www.youtube.com/watch?v=L8AEj6IRNEE	uploaded	2018-12-20
+https://www.youtube.com/watch?v=RpqGG-N5p1I	uploaded	2015-10-16
+https://www.youtube.com/watch?v=y2oY4mETysQ	uploaded	2015-05-17
+https://www.youtube.com/watch?v=X36ye-1x_HQ	uploaded	2015-10-12
+https://www.youtube.com/watch?v=UdSDTEdP_tQ	uploaded	2018-04-21
+https://www.youtube.com/watch?v=P1vES9AgfC4	uploaded	2024-04-12
+https://www.youtube.com/watch?v=vnrUIJMxZJ0	uploaded	2020-08-03
+https://www.youtube.com/watch?v=N9EBKp5nTzU	uploaded	2020-09-16
+https://www.youtube.com/watch?v=3WwYkqPctIQ	uploaded	2022-10-19
+https://www.youtube.com/watch?v=yAT0qYlD0UM	uploaded	2021-08-16
+https://www.youtube.com/watch?v=Dle5sNB1M8U	uploaded	2018-10-08
+https://www.youtube.com/watch?v=q9lUT75YU4M	uploaded	2022-09-24
+https://www.youtube.com/watch?v=7SidSvJcPd0	uploaded	2023-05-14
+https://www.youtube.com/watch?v=G8XMRZKOhG0	uploaded	2022-07-15
+https://www.youtube.com/watch?v=252slbrmk8M	uploaded	2024-12-23
 https://www.mendeley.com/catalogue/70f7e8f4-39bc-38fd-b300-28be9aac3226/	publication	2006
 https://www.reddit.com/r/functionalprogramming/comments/xix3v1	N/A
 https://citeseerx.ist.psu.edu/document?doi=deb6809f2b9e3208a481913b2b822680ca6b7127&repid=rep1&type=pdf	N/A
@@ -22877,29 +22877,29 @@ https://sttp.softwaremill.com/_/downloads/en/v3.0.0/pdf/	N/A
 https://www.reddit.com/r/scala/comments/j6l4qx	N/A
 https://www.reddit.com/r/scala/comments/zjeab5	N/A
 https://www.reddit.com/r/scala/comments/yhajqa	N/A
-https://www.youtube.com/watch?v=TXxzMF14pxU	N/A
-https://www.youtube.com/watch?v=AOaE0-9MYVM	N/A
-https://www.youtube.com/watch?v=oFk8-a1FSP0	N/A
-https://www.youtube.com/watch?v=m9cu4xUvrUs	N/A
-https://www.youtube.com/watch?v=AEScmarqa80	N/A
-https://www.youtube.com/watch?v=J_9DjHMCPKM	N/A
-https://www.youtube.com/watch?v=HDlxoItyGZA	N/A
-https://www.youtube.com/watch?v=B1wb4fIdtn4	N/A
-https://www.youtube.com/watch?v=mkSHhsJXjdc	N/A
-https://www.youtube.com/watch?v=Q4OCmKRPUf8	N/A
-https://www.youtube.com/watch?v=vRnYCLy7C0o	N/A
-https://www.youtube.com/watch?v=38HJM0MdufY	N/A
-https://www.youtube.com/watch?v=OFFrw5aJzG4	N/A
-https://www.youtube.com/watch?v=ZNB2epqQhc8	N/A
-https://www.youtube.com/watch?v=A7CCGMxJyaM	N/A
-https://www.youtube.com/watch?v=wi97X8_JQUk	N/A
-https://www.youtube.com/watch?v=5PInsnw0puI	N/A
-https://www.youtube.com/watch?v=RzV-VWLPGmM	N/A
-https://www.youtube.com/watch?v=nEycZ8TMirk	N/A
-https://www.youtube.com/watch?v=TqJg4AuxEIQ	N/A
-https://www.youtube.com/watch?v=RRFbFC67IiY	N/A
-https://www.youtube.com/watch?v=y_QHSDOVJM8	N/A
-https://www.youtube.com/watch?v=uyqqoooKpmI	N/A
+https://www.youtube.com/watch?v=TXxzMF14pxU	uploaded	2017-11-22
+https://www.youtube.com/watch?v=AOaE0-9MYVM	uploaded	2019-03-29
+https://www.youtube.com/watch?v=oFk8-a1FSP0	uploaded	2016-11-26
+https://www.youtube.com/watch?v=m9cu4xUvrUs	uploaded	2019-08-18
+https://www.youtube.com/watch?v=AEScmarqa80	uploaded	2019-02-13
+https://www.youtube.com/watch?v=J_9DjHMCPKM	uploaded	2021-02-25
+https://www.youtube.com/watch?v=HDlxoItyGZA	uploaded	2021-09-21
+https://www.youtube.com/watch?v=B1wb4fIdtn4	uploaded	2018-09-12
+https://www.youtube.com/watch?v=mkSHhsJXjdc	uploaded	2019-01-07
+https://www.youtube.com/watch?v=Q4OCmKRPUf8	uploaded	2021-01-08
+https://www.youtube.com/watch?v=vRnYCLy7C0o	uploaded	2019-11-26
+https://www.youtube.com/watch?v=38HJM0MdufY	uploaded	2020-01-06
+https://www.youtube.com/watch?v=OFFrw5aJzG4	uploaded	2021-04-07
+https://www.youtube.com/watch?v=ZNB2epqQhc8	uploaded	2023-01-03
+https://www.youtube.com/watch?v=A7CCGMxJyaM	uploaded	2021-03-07
+https://www.youtube.com/watch?v=wi97X8_JQUk	uploaded	2017-06-30
+https://www.youtube.com/watch?v=5PInsnw0puI	uploaded	2021-07-25
+https://www.youtube.com/watch?v=RzV-VWLPGmM	uploaded	2019-08-25
+https://www.youtube.com/watch?v=nEycZ8TMirk	uploaded	2019-09-26
+https://www.youtube.com/watch?v=TqJg4AuxEIQ	uploaded	2019-07-11
+https://www.youtube.com/watch?v=RRFbFC67IiY	uploaded	2018-05-22
+https://www.youtube.com/watch?v=y_QHSDOVJM8	uploaded	2018-09-24
+https://www.youtube.com/watch?v=uyqqoooKpmI	uploaded	2019-07-11
 https://zio.dev/reference/resource/	N/A
 https://zio.dev/1.0.18/reference/core/zio/	N/A
 https://typelevel.org/cats-effect/api/2.x/cats/effect/IO%24.html	N/A
@@ -23262,12 +23262,12 @@ https://effect.website/events/effect-days/speakers/antoine-coulon	N/A
 https://effect.website/play	N/A
 https://webflow.effect.website/events/effect-days-2024/effect-days	created	2024
 https://effect.website/events/effect-days/schedule-2025	created	2025
-https://www.youtube.com/watch?v=Lz2J1NBnHK4	N/A
-https://www.youtube.com/watch?v=VR_MQH3opc8	N/A
-https://www.youtube.com/watch?v=7jOD5okJC00	N/A
-https://www.youtube.com/watch?v=Oy7fr2_WBFI	N/A
-https://www.youtube.com/watch?v=4lEDdMuTDJg	N/A
-https://www.youtube.com/watch?v=nyvB6nRe5x0	N/A
+https://www.youtube.com/watch?v=Lz2J1NBnHK4	uploaded	2024-04-26
+https://www.youtube.com/watch?v=VR_MQH3opc8	uploaded	2025-10-27
+https://www.youtube.com/watch?v=7jOD5okJC00	uploaded	2024-05-03
+https://www.youtube.com/watch?v=Oy7fr2_WBFI	uploaded	2021-04-08
+https://www.youtube.com/watch?v=4lEDdMuTDJg	uploaded	2025-05-13
+https://www.youtube.com/watch?v=nyvB6nRe5x0	uploaded	2025-04-08
 https://effect-ts.github.io/effect/effect/Cache.ts.html	N/A
 https://effect-ts.github.io/effect/effect/ConfigProvider.ts.html	N/A
 https://effect-ts.github.io/effect/effect/DefaultServices.ts.html	N/A
@@ -23490,16 +23490,16 @@ https://arxiv.org/abs/1803.02796	created	2018-03
 https://www.reddit.com/r/ocaml/comments/16d7twc	N/A
 https://www.reddit.com/r/ocaml/comments/k0mq0f	N/A
 https://www.reddit.com/r/ocaml/comments/1c7obmu	N/A
-https://www.youtube.com/watch?v=jr4LsCVQBj4	N/A
-https://www.youtube.com/watch?v=zfGlQZ2pkss	N/A
-https://www.youtube.com/watch?v=iVpsVqd6eNE	N/A
-https://www.youtube.com/watch?v=4Hy5AEg43jc	N/A
-https://www.youtube.com/watch?v=OhV5knHKSBw	N/A
-https://www.youtube.com/watch?v=YDGJ-E7leJo	N/A
-https://www.youtube.com/watch?v=41F1x2lD54w	N/A
-https://www.youtube.com/watch?v=bocj6ReCq5w	N/A
-https://www.youtube.com/watch?v=abDWZ9D8kEE	N/A
-https://www.youtube.com/watch?v=hbnss4U5xps	N/A
+https://www.youtube.com/watch?v=jr4LsCVQBj4	uploaded	2023-12-01
+https://www.youtube.com/watch?v=zfGlQZ2pkss	uploaded	2025-11-07
+https://www.youtube.com/watch?v=iVpsVqd6eNE	uploaded	2024-11-24
+https://www.youtube.com/watch?v=4Hy5AEg43jc	uploaded	2022-10-21
+https://www.youtube.com/watch?v=OhV5knHKSBw	uploaded	2022-10-21
+https://www.youtube.com/watch?v=YDGJ-E7leJo	uploaded	2023-05-13
+https://www.youtube.com/watch?v=41F1x2lD54w	uploaded	2023-05-13
+https://www.youtube.com/watch?v=bocj6ReCq5w	uploaded	2024-02-14
+https://www.youtube.com/watch?v=abDWZ9D8kEE	uploaded	2025-12-05
+https://www.youtube.com/watch?v=hbnss4U5xps	uploaded	2024-12-08
 https://ocaml.org/p/async/latest	N/A
 https://ocaml.org/p/async/v0.13.0	N/A
 https://ocaml.org/p/async/v0.14.0	N/A
@@ -23872,15 +23872,15 @@ https://www.nuget.org/packages/TaskBuilder.fs/1.2.0-rc	N/A
 https://www.nuget.org/packages/TaskBuilder.fs/2.0.0	N/A
 https://www.nuget.org/packages/TaskBuilder.fs/2.1.0	N/A
 https://www.nuget.org/packages/TaskBuilder.fs/2.2.0-alpha	N/A
-https://www.youtube.com/watch?v=bKpRrCssAWM	N/A
-https://www.youtube.com/watch?v=AHOU1_nXR40	N/A
-https://www.youtube.com/watch?v=bYor0oBgvws	N/A
-https://www.youtube.com/watch?v=c8eCE1Yrolc	N/A
-https://www.youtube.com/watch?v=xfz7T9eKWmI	N/A
-https://www.youtube.com/watch?v=u2SlQ5WdL2k	N/A
-https://www.youtube.com/watch?v=6aMVHocZFOY	N/A
-https://www.youtube.com/watch?v=AMjcjXIMzmA	N/A
-https://www.youtube.com/watch?v=F9bznonKc64	N/A
+https://www.youtube.com/watch?v=bKpRrCssAWM	uploaded	2017-06-06
+https://www.youtube.com/watch?v=AHOU1_nXR40	uploaded	2023-04-29
+https://www.youtube.com/watch?v=bYor0oBgvws	uploaded	2018-10-18
+https://www.youtube.com/watch?v=c8eCE1Yrolc	uploaded	2019-09-22
+https://www.youtube.com/watch?v=xfz7T9eKWmI	uploaded	2019-06-01
+https://www.youtube.com/watch?v=u2SlQ5WdL2k	uploaded	2019-07-25
+https://www.youtube.com/watch?v=6aMVHocZFOY	uploaded	2019-07-29
+https://www.youtube.com/watch?v=AMjcjXIMzmA	uploaded	2016-08-31
+https://www.youtube.com/watch?v=F9bznonKc64	uploaded	2018-10-11
 https://www.kindafunctional.com/lesson-64-handling-side-effects-in-elm.html	N/A
 https://guide.elm-lang.org/interop/ports	N/A
 https://guide.elm-lang.org/effects/http.html	N/A
@@ -23893,13 +23893,13 @@ https://www.cs.columbia.edu/~aho/cs6998/Lectures/14-09-29_Townsend_Elm.pdf	N/A
 https://www.reddit.com/r/functionalprogramming/comments/k919wl	N/A
 https://www.reddit.com/r/elm/comments/evtv35	N/A
 https://www.reddit.com/r/elm/comments/gh0wqz	N/A
-https://www.youtube.com/watch?v=rdCFDITvW0g	N/A
-https://www.youtube.com/watch?v=yFFwfJNTd5E	N/A
-https://www.youtube.com/watch?v=IZA9HN9NA2U	N/A
-https://www.youtube.com/watch?v=uRyuNPdUjJ4	N/A
-https://www.youtube.com/watch?v=_ul8sZ6dDWA	N/A
-https://www.youtube.com/watch?v=hdDYQ9dbN9g	N/A
-https://www.youtube.com/watch?v=3n17wHe5wEw	N/A
+https://www.youtube.com/watch?v=rdCFDITvW0g	uploaded	2017-08-24
+https://www.youtube.com/watch?v=yFFwfJNTd5E	uploaded	2016-12-15
+https://www.youtube.com/watch?v=IZA9HN9NA2U	uploaded	2017-10-03
+https://www.youtube.com/watch?v=uRyuNPdUjJ4	uploaded	2017-02-22
+https://www.youtube.com/watch?v=_ul8sZ6dDWA	uploaded	2015-07-15
+https://www.youtube.com/watch?v=hdDYQ9dbN9g	uploaded	2017-11-28
+https://www.youtube.com/watch?v=3n17wHe5wEw	uploaded	2022-01-12
 https://package.elm-lang.org/packages/elm/core/latest/Task	N/A
 https://package.elm-lang.org/packages/elm/core/latest/Platform-Cmd	N/A
 https://package.elm-lang.org/packages/elm/core/latest/Platform-Sub	N/A
@@ -24571,9 +24571,9 @@ https://pypi.org/project/raffiot/0.6.0/	created	2021-02-03
 https://pypi.org/project/raffiot/0.6.1/	created	2021-02-03
 https://pypi.org/project/raffiot/0.6.2/	created	2021-02-03
 https://pypi.org/project/raffiot/0.6.3/	created	2021-02-03
-https://www.youtube.com/watch?v=fM5d_2BS6FY	N/A
-https://www.youtube.com/watch?v=Ja6yP4ufSko	N/A
-https://www.youtube.com/watch?v=NMEnvmGjNLc	N/A
+https://www.youtube.com/watch?v=fM5d_2BS6FY	uploaded	2015-09-17
+https://www.youtube.com/watch?v=Ja6yP4ufSko	uploaded	2021-11-08
+https://www.youtube.com/watch?v=NMEnvmGjNLc	uploaded	2022-09-20
 https://libraries.io/racket/effects	N/A
 https://docs.racket-lang.org/functional/interfaces.html	N/A
 https://download.racket-lang.org/docs/5.1/html/guide/Continuations.html	N/A
@@ -24584,16 +24584,16 @@ https://download.racket-lang.org/docs/5.1/pdf/guide.pdf	N/A
 https://www.reddit.com/r/Racket/comments/kkayf1	N/A
 https://www.reddit.com/r/scheme/comments/z7mcri	N/A
 https://www.reddit.com/r/Racket/comments/m3iubq	N/A
-https://www.youtube.com/watch?v=TE48LsgVlIU	N/A
-https://www.youtube.com/watch?v=DRFsodbxHQo	N/A
-https://www.youtube.com/watch?v=QNM-njddhIw	N/A
-https://www.youtube.com/watch?v=bOUgXd9XlJ4	N/A
-https://www.youtube.com/watch?v=BAMtstt3Jp8	N/A
-https://www.youtube.com/watch?v=DW3TEyAScsY	N/A
-https://www.youtube.com/watch?v=DjPlfeejR0c	N/A
-https://www.youtube.com/watch?v=IKddmXjYa5U	N/A
-https://www.youtube.com/watch?v=sosOu989jXs	N/A
-https://www.youtube.com/watch?v=cnhb4M8-J5M	N/A
+https://www.youtube.com/watch?v=TE48LsgVlIU	uploaded	2023-07-06
+https://www.youtube.com/watch?v=DRFsodbxHQo	uploaded	2023-06-27
+https://www.youtube.com/watch?v=QNM-njddhIw	uploaded	2017-10-11
+https://www.youtube.com/watch?v=bOUgXd9XlJ4	uploaded	2017-11-17
+https://www.youtube.com/watch?v=BAMtstt3Jp8	uploaded	2021-02-26
+https://www.youtube.com/watch?v=DW3TEyAScsY	uploaded	2020-04-13
+https://www.youtube.com/watch?v=DjPlfeejR0c	uploaded	2020-04-17
+https://www.youtube.com/watch?v=IKddmXjYa5U	uploaded	2016-09-06
+https://www.youtube.com/watch?v=sosOu989jXs	uploaded	2015-05-04
+https://www.youtube.com/watch?v=cnhb4M8-J5M	uploaded	2014-06-17
 https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/-resource/index.html	N/A
 https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/bracket.html	N/A
 https://old.arrow-kt.io/docs/0.12/fx/	N/A
@@ -25234,7 +25234,7 @@ https://etd.adm.unipi.it/theses/available/etd-06252024-164535/unrestricted/Runti
 https://repozitorij.uni-lj.si/Dokument.php?id=192065&lang=slv	N/A
 https://era.ed.ac.uk/bitstream/handle/1842/41919/Sigal2024.pdf?sequence=1&isAllowed=y	created	2024
 https://ii.uni.wroc.pl/media/uploads/2024/12/01/balik-patrycja-praca.pdf	created	2024
-https://youtu.be/I8vtWYlrktU	N/A
+https://youtu.be/I8vtWYlrktU	uploaded	2024-12-09
 https://repository.tudelft.nl/islandora/object/uuid:36d382d8-3ba4-4825-b718-a080b01b0649/datastream/OBJ/download	publication	2019
 https://lirias.kuleuven.be/retrieve/532832/	N/A
 https://homepages.inf.ed.ac.uk/cmatache/documents/m_diss.pdf	N/A
@@ -25353,24 +25353,24 @@ https://github.com/koka-lang/koka/releases/tag/v3.1.3	updated	2026-07-20
 https://github.com/koka-lang/koka/releases/tag/v3.2.0	updated	2026-07-20
 https://github.com/koka-lang/koka/releases/tag/v3.2.2	updated	2026-07-20
 https://github.com/koka-lang/koka/releases/tag/v3.2.3	updated	2026-07-20
-https://www.youtube.com/watch?v=3g5emxzUu8o	N/A
-https://www.youtube.com/watch?v=6lv_E-CjGzg	N/A
-https://www.youtube.com/watch?v=71fV7zYyD-Q	N/A
-https://www.youtube.com/watch?v=7GcrT0SBSnI	N/A
-https://www.youtube.com/watch?v=8vGibTYiheM	N/A
-https://www.youtube.com/watch?v=BhrmXKySaa8	N/A
-https://www.youtube.com/watch?v=BmBSJFkfL2M	N/A
-https://www.youtube.com/watch?v=e23WTKhUlo8	N/A
-https://www.youtube.com/watch?v=G3nzUrlJcIg	N/A
-https://www.youtube.com/watch?v=m77HM55JaWM	N/A
-https://www.youtube.com/watch?v=-Na2i8MbXbI	N/A
-https://www.youtube.com/watch?v=R1WckDMkDa8	N/A
-https://www.youtube.com/watch?v=SO7rElIMe_I	N/A
-https://www.youtube.com/watch?v=tJR-MvPQhT8	N/A
-https://www.youtube.com/watch?v=wxJ7w-FjnzI	N/A
-https://www.youtube.com/watch?v=X30xmcOow2U	N/A
-https://www.youtube.com/watch?v=XQ0fBRzXm-I	N/A
-https://www.youtube.com/watch?v=Ye90HCCG-UA	N/A
+https://www.youtube.com/watch?v=3g5emxzUu8o	uploaded	2021-12-01
+https://www.youtube.com/watch?v=6lv_E-CjGzg	uploaded	2020-03-12
+https://www.youtube.com/watch?v=71fV7zYyD-Q	uploaded	2022-07-18
+https://www.youtube.com/watch?v=7GcrT0SBSnI	uploaded	2018-08-22
+https://www.youtube.com/watch?v=8vGibTYiheM	uploaded	2018-11-20
+https://www.youtube.com/watch?v=BhrmXKySaa8	uploaded	2021-10-27
+https://www.youtube.com/watch?v=BmBSJFkfL2M	uploaded	2021-01-19
+https://www.youtube.com/watch?v=e23WTKhUlo8	uploaded	2018-08-02
+https://www.youtube.com/watch?v=G3nzUrlJcIg	uploaded	2020-08-23
+https://www.youtube.com/watch?v=m77HM55JaWM	uploaded	2020-12-08
+https://www.youtube.com/watch?v=-Na2i8MbXbI	uploaded	2018-12-20
+https://www.youtube.com/watch?v=R1WckDMkDa8	uploaded	2020-11-15
+https://www.youtube.com/watch?v=SO7rElIMe_I	uploaded	2020-09-11
+https://www.youtube.com/watch?v=tJR-MvPQhT8	uploaded	2022-04-25
+https://www.youtube.com/watch?v=wxJ7w-FjnzI	uploaded	2019-04-29
+https://www.youtube.com/watch?v=X30xmcOow2U	uploaded	2019-12-10
+https://www.youtube.com/watch?v=XQ0fBRzXm-I	uploaded	2023-03-09
+https://www.youtube.com/watch?v=Ye90HCCG-UA	uploaded	2021-09-08
 https://stackoverflow.com/questions/5892653/whats-so-bad-about-lazy-i-o?noredirect=1	N/A
 https://subscription.packtpub.com/book/programming/9781786464217/6/ch06lvl1sec41/streaming-with-side-effects	N/A
 https://www.reddit.com/r/haskell/comments/nrz75b	N/A
@@ -25403,45 +25403,45 @@ https://www.reddit.com/r/haskell/comments/s9uylb	N/A
 https://www.reddit.com/r/haskell/comments/wd7oqx	N/A
 https://www.reddit.com/r/haskell/comments/kevg5b	N/A
 https://arxiv.org/abs/2010.12338	created	2010
-https://www.youtube.com/watch?v=08YJnJ3MuzI	N/A
-https://www.youtube.com/watch?v=3qfc9XFVo2c	N/A
-https://www.youtube.com/watch?v=54wuexG4aPo	N/A
-https://www.youtube.com/watch?v=5hoQLovZBxQ	N/A
-https://www.youtube.com/watch?v=92eXGvHFbzs	N/A
-https://www.youtube.com/watch?v=A469Fs2h10Y	N/A
-https://www.youtube.com/watch?v=Agu6jipKfYw	N/A
-https://www.youtube.com/watch?v=bMK6nDh6LX0	N/A
-https://www.youtube.com/watch?v=bPO14nEcBh0	N/A
-https://www.youtube.com/watch?v=bs54LNFo8-o	N/A
-https://www.youtube.com/watch?v=D1UD3YWyi9A	N/A
-https://www.youtube.com/watch?v=dNBUDAU9sv4	N/A
-https://www.youtube.com/watch?v=dNGClNsnn24	N/A
-https://www.youtube.com/watch?v=dOy7zIk3IUI	N/A
-https://www.youtube.com/watch?v=dqe1toIraWM	N/A
-https://www.youtube.com/watch?v=Eu0j2jaGNmY	N/A
-https://www.youtube.com/watch?v=eZqqQPRdkLs	N/A
-https://www.youtube.com/watch?v=eZss2crMYFw	N/A
-https://www.youtube.com/watch?v=gaG3tIb3Lbk	N/A
-https://www.youtube.com/watch?v=gKpWF6J9hMM	N/A
-https://www.youtube.com/watch?v=GOBhhtxfhi0	N/A
-https://www.youtube.com/watch?v=GXW1jBijhlk	N/A
-https://www.youtube.com/watch?v=iik7yfB8BGo	N/A
-https://www.youtube.com/watch?v=-IpE0CyHK7Q	N/A
-https://www.youtube.com/watch?v=j3mnPyYxQxA	N/A
-https://www.youtube.com/watch?v=kkGDJsougyM	N/A
-https://www.youtube.com/watch?v=mbwZ3GaYDjQ	N/A
-https://www.youtube.com/watch?v=mT0QUGRj1eQ	N/A
-https://www.youtube.com/watch?v=mYvkcskJbc4	N/A
-https://www.youtube.com/watch?v=nTqcepgnkYg	N/A
-https://www.youtube.com/watch?v=oufUbGOJ-nM	N/A
-https://www.youtube.com/watch?v=pZxB4d-ouFo	N/A
-https://www.youtube.com/watch?v=qNyuNvOQm0s	N/A
-https://www.youtube.com/watch?v=sdeWRieUw2U	N/A
-https://www.youtube.com/watch?v=T3xXebIr8AM	N/A
-https://www.youtube.com/watch?v=tXplmdbUlqA	N/A
-https://www.youtube.com/watch?v=-wI-TEKbmxc	N/A
-https://www.youtube.com/watch?v=WSLf4PSNXYs	N/A
-https://www.youtube.com/watch?v=WykPGVOOdbo	N/A
+https://www.youtube.com/watch?v=08YJnJ3MuzI	uploaded	2018-09-17
+https://www.youtube.com/watch?v=3qfc9XFVo2c	uploaded	2015-04-07
+https://www.youtube.com/watch?v=54wuexG4aPo	uploaded	2022-11-17
+https://www.youtube.com/watch?v=5hoQLovZBxQ	uploaded	2016-05-09
+https://www.youtube.com/watch?v=92eXGvHFbzs	uploaded	2016-02-05
+https://www.youtube.com/watch?v=A469Fs2h10Y	uploaded	2016-07-19
+https://www.youtube.com/watch?v=Agu6jipKfYw	uploaded	2014-09-21
+https://www.youtube.com/watch?v=bMK6nDh6LX0	uploaded	2012-07-19
+https://www.youtube.com/watch?v=bPO14nEcBh0	uploaded	2024-11-24
+https://www.youtube.com/watch?v=bs54LNFo8-o	uploaded	2019-07-15
+https://www.youtube.com/watch?v=D1UD3YWyi9A	uploaded	2013-03-27
+https://www.youtube.com/watch?v=dNBUDAU9sv4	uploaded	2017-04-22
+https://www.youtube.com/watch?v=dNGClNsnn24	uploaded	2017-02-28
+https://www.youtube.com/watch?v=dOy7zIk3IUI	uploaded	2015-05-09
+https://www.youtube.com/watch?v=dqe1toIraWM	uploaded	2015-03-18
+https://www.youtube.com/watch?v=Eu0j2jaGNmY	uploaded	2025-10-17
+https://www.youtube.com/watch?v=eZqqQPRdkLs	uploaded	2025-04-06
+https://www.youtube.com/watch?v=eZss2crMYFw	uploaded	2019-07-12
+https://www.youtube.com/watch?v=gaG3tIb3Lbk	uploaded	2013-12-14
+https://www.youtube.com/watch?v=gKpWF6J9hMM	uploaded	2023-08-21
+https://www.youtube.com/watch?v=GOBhhtxfhi0	uploaded	2015-06-22
+https://www.youtube.com/watch?v=GXW1jBijhlk	uploaded	2016-11-06
+https://www.youtube.com/watch?v=iik7yfB8BGo	uploaded	2019-11-17
+https://www.youtube.com/watch?v=-IpE0CyHK7Q	uploaded	2013-03-13
+https://www.youtube.com/watch?v=j3mnPyYxQxA	uploaded	2011-11-01
+https://www.youtube.com/watch?v=kkGDJsougyM	uploaded	2019-10-11
+https://www.youtube.com/watch?v=mbwZ3GaYDjQ	uploaded	2016-04-25
+https://www.youtube.com/watch?v=mT0QUGRj1eQ	uploaded	2022-07-18
+https://www.youtube.com/watch?v=mYvkcskJbc4	uploaded	2015-04-07
+https://www.youtube.com/watch?v=nTqcepgnkYg	uploaded	2019-10-30
+https://www.youtube.com/watch?v=oufUbGOJ-nM	uploaded	2012-09-15
+https://www.youtube.com/watch?v=pZxB4d-ouFo	uploaded	2018-06-12
+https://www.youtube.com/watch?v=qNyuNvOQm0s	uploaded	2017-06-22
+https://www.youtube.com/watch?v=sdeWRieUw2U	uploaded	2015-07-21
+https://www.youtube.com/watch?v=T3xXebIr8AM	uploaded	2013-03-20
+https://www.youtube.com/watch?v=tXplmdbUlqA	uploaded	2015-11-03
+https://www.youtube.com/watch?v=-wI-TEKbmxc	uploaded	2016-02-23
+https://www.youtube.com/watch?v=WSLf4PSNXYs	uploaded	2019-11-14
+https://www.youtube.com/watch?v=WykPGVOOdbo	uploaded	2023-05-26
 https://github.com/ivanperez-keera/Yampa/releases/tag/v0.15	updated	2025-02-28
 https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.12	updated	2025-02-28
 https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.11	updated	2025-02-28
@@ -25699,21 +25699,21 @@ https://github.com/fpco/unliftio/releases/tag/unliftio/0.2.1.0	updated	2025-09-1
 https://github.com/fpco/unliftio/releases/tag/unliftio/0.2.0.0	updated	2025-09-10
 https://github.com/fpco/unliftio/releases/tag/unliftio/0.1.1.0	updated	2025-09-10
 https://github.com/fpco/unliftio/releases/tag/unliftio/0.1.0.0	updated	2025-09-10
-https://www.youtube.com/watch?v=6bkWvfI7QDQ	N/A
-https://www.youtube.com/watch?v=aJvwORrBJ0o	N/A
-https://www.youtube.com/watch?v=F0tUPcffT6Y	N/A
-https://www.youtube.com/watch?v=-fCq_ydZsO0	N/A
-https://www.youtube.com/watch?v=FwS7OSrzNlc	N/A
-https://www.youtube.com/watch?v=KAlSoytmVFA	N/A
-https://www.youtube.com/watch?v=qlAKyivFxGQ	N/A
-https://www.youtube.com/watch?v=RgJyXymEH0k	N/A
-https://www.youtube.com/watch?v=S11PdUHUE0k	N/A
-https://www.youtube.com/watch?v=syVhlXwaaN0	N/A
-https://www.youtube.com/watch?v=tHAVtoyqssg	N/A
-https://www.youtube.com/watch?v=tuApH_snNJI	N/A
-https://www.youtube.com/watch?v=vQWP8fi05XQ	N/A
-https://www.youtube.com/watch?v=X2HjaFCCxeo	N/A
-https://www.youtube.com/watch?v=x3GwVccWcqs	N/A
+https://www.youtube.com/watch?v=6bkWvfI7QDQ	uploaded	2015-11-12
+https://www.youtube.com/watch?v=aJvwORrBJ0o	uploaded	2019-02-04
+https://www.youtube.com/watch?v=F0tUPcffT6Y	uploaded	2020-10-05
+https://www.youtube.com/watch?v=-fCq_ydZsO0	uploaded	2021-03-13
+https://www.youtube.com/watch?v=FwS7OSrzNlc	uploaded	2020-04-18
+https://www.youtube.com/watch?v=KAlSoytmVFA	uploaded	2022-11-08
+https://www.youtube.com/watch?v=qlAKyivFxGQ	uploaded	2020-09-11
+https://www.youtube.com/watch?v=RgJyXymEH0k	uploaded	2017-10-08
+https://www.youtube.com/watch?v=S11PdUHUE0k	uploaded	2015-10-09
+https://www.youtube.com/watch?v=syVhlXwaaN0	uploaded	2016-09-06
+https://www.youtube.com/watch?v=tHAVtoyqssg	uploaded	2021-09-02
+https://www.youtube.com/watch?v=tuApH_snNJI	uploaded	2021-11-30
+https://www.youtube.com/watch?v=vQWP8fi05XQ	uploaded	2016-08-11
+https://www.youtube.com/watch?v=X2HjaFCCxeo	uploaded	2015-05-14
+https://www.youtube.com/watch?v=x3GwVccWcqs	uploaded	2020-05-16
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/base/Control-Concurrent.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/9.10.2/docs/users_guide/exts/stm.html	modified	2025-05-01
 https://haskell.pesquisa.ufabc.edu.br/haskell/14.concorrencia/	N/A
@@ -25951,29 +25951,29 @@ https://haskell-distributed.github.io/wiki/networktransport.html	N/A
 https://packages.gentoo.org/packages/dev-haskell/network	N/A
 https://www.reddit.com/r/haskell/comments/4si5fn/networksocket_example_of_a_supersimple_server/	N/A
 https://www.stackage.org/package/network-simple	indexed	2026-07-27
-https://www.youtube.com/watch?v=_xaupVx68Fs	N/A
-https://www.youtube.com/watch?v=2-OImnbOloQ	N/A
-https://www.youtube.com/watch?v=4lxAgm4y1gg	N/A
-https://www.youtube.com/watch?v=C2s9-U6rOmg	N/A
-https://www.youtube.com/watch?v=EbK6VAqYh3g	N/A
-https://www.youtube.com/watch?v=EKpU2eaREW0	N/A
-https://www.youtube.com/watch?v=FqnScw9U7gA	N/A
-https://www.youtube.com/watch?v=fRZLFEZpQss	N/A
-https://www.youtube.com/watch?v=GDITBmIzCDs	N/A
-https://www.youtube.com/watch?v=GNc1t6Q5Dls	N/A
-https://www.youtube.com/watch?v=j8gza2L61nM	N/A
-https://www.youtube.com/watch?v=kkynmgwa7gE	N/A
-https://www.youtube.com/watch?v=Ku3PBSvLyiw	N/A
-https://www.youtube.com/watch?v=l4DljWLQZa4	N/A
-https://www.youtube.com/watch?v=LqwrUmuodyY	N/A
-https://www.youtube.com/watch?v=MpYRVbxTxj0	N/A
-https://www.youtube.com/watch?v=mxVAuLNClS0	N/A
-https://www.youtube.com/watch?v=nlhM-ZWgOl0	N/A
-https://www.youtube.com/watch?v=OrvljJbLk50	N/A
-https://www.youtube.com/watch?v=oV6KSl1srL8	N/A
-https://www.youtube.com/watch?v=tevaOaYUF5o	N/A
-https://www.youtube.com/watch?v=uXt4a_46qZ0	N/A
-https://www.youtube.com/watch?v=YUiG0faZw8Y	N/A
+https://www.youtube.com/watch?v=_xaupVx68Fs	uploaded	2022-05-09
+https://www.youtube.com/watch?v=2-OImnbOloQ	uploaded	2022-03-19
+https://www.youtube.com/watch?v=4lxAgm4y1gg	uploaded	2015-05-23
+https://www.youtube.com/watch?v=C2s9-U6rOmg	uploaded	2017-03-26
+https://www.youtube.com/watch?v=EbK6VAqYh3g	uploaded	2022-11-09
+https://www.youtube.com/watch?v=EKpU2eaREW0	uploaded	2019-09-03
+https://www.youtube.com/watch?v=FqnScw9U7gA	uploaded	2020-09-11
+https://www.youtube.com/watch?v=fRZLFEZpQss	uploaded	2023-03-13
+https://www.youtube.com/watch?v=GDITBmIzCDs	uploaded	2020-09-11
+https://www.youtube.com/watch?v=GNc1t6Q5Dls	uploaded	2015-09-27
+https://www.youtube.com/watch?v=j8gza2L61nM	uploaded	2019-07-04
+https://www.youtube.com/watch?v=kkynmgwa7gE	uploaded	2025-03-20
+https://www.youtube.com/watch?v=Ku3PBSvLyiw	uploaded	2025-01-09
+https://www.youtube.com/watch?v=l4DljWLQZa4	uploaded	2021-06-11
+https://www.youtube.com/watch?v=LqwrUmuodyY	uploaded	2014-12-10
+https://www.youtube.com/watch?v=MpYRVbxTxj0	uploaded	2018-05-16
+https://www.youtube.com/watch?v=mxVAuLNClS0	uploaded	2022-03-04
+https://www.youtube.com/watch?v=nlhM-ZWgOl0	uploaded	2022-09-03
+https://www.youtube.com/watch?v=OrvljJbLk50	uploaded	2024-03-15
+https://www.youtube.com/watch?v=oV6KSl1srL8	uploaded	2019-08-16
+https://www.youtube.com/watch?v=tevaOaYUF5o	uploaded	2022-02-26
+https://www.youtube.com/watch?v=uXt4a_46qZ0	uploaded	2016-03-29
+https://www.youtube.com/watch?v=YUiG0faZw8Y	uploaded	2016-10-04
 https://arxiv.org/pdf/1110.4163	created	2011-10
 https://arxiv.org/pdf/2103.14481	created	2021-03
 https://export.arxiv.org/abs/1110.4163	created	2011-10
@@ -26042,7 +26042,7 @@ https://github.com/dorchard/effect-monad/tree/master/examples	updated	2025-10-21
 https://github.com/ku-fpg/wakarusa	updated	2015-03-09
 https://hackage.haskell.org/package/operational-0.2.1.3/docs/src/Control-Monad-Operational.html	created	2012-07-21
 https://www.usenix.org/events/dsl99/full_papers/peterson/peterson_html/	N/A
-https://www.youtube.com/watch?v=guMLPr6eBLo	N/A
+https://www.youtube.com/watch?v=guMLPr6eBLo	uploaded	2015-09-07
 https://arxiv.org/pdf/1807.03732	created	2018-07
 https://export.arxiv.org/abs/1807.03732	created	2018-07
 https://export.arxiv.org/pdf/1807.03732	created	2018-07
@@ -27090,10 +27090,10 @@ https://courses.cs.cornell.edu/cs3110/2021sp/textbook/adv/monads.html	created	20
 https://github.com/purescript/purescript-effect	N/A
 https://medium.com/walmartglobaltech/understanding-io-monad-in-scala-b495ca572174	N/A
 https://stackoverflow.com/questions/65228874/how-does-the-cats-effect-io-monad-really-work	N/A
-https://www.youtube.com/watch?v=DTni0RHV_Ds	N/A
-https://www.youtube.com/watch?v=7BeBN508q2w	N/A
-https://www.youtube.com/watch?v=bbss7elSfxs	N/A
-https://www.youtube.com/watch?v=KV9KDv0VMiE	N/A
+https://www.youtube.com/watch?v=DTni0RHV_Ds	uploaded	2023-05-04
+https://www.youtube.com/watch?v=7BeBN508q2w	uploaded	2022-01-25
+https://www.youtube.com/watch?v=bbss7elSfxs	uploaded	2020-01-13
+https://www.youtube.com/watch?v=KV9KDv0VMiE	uploaded	2020-01-23
 https://classes.cs.uchicago.edu/archive/2023/winter/22300-1/qh.pdf	created	2023
 https://ocw.cs.pub.ro/ppcarte/doku.php?id=pp%3A2023%3Ahaskell%3Al10	created	2023
 https://lotz84.github.io/haskell/monad-transformer.html	N/A
@@ -27138,31 +27138,31 @@ https://stackoverflow.com/questions/52127882/freer-simple-freer-monads-how-do-i-
 https://www.tiny.cloud/blog/tiny-cloud-free-monads/	N/A
 https://citeseerx.ist.psu.edu/document?doi=42e82500502694323b9410cc4a1ae95b6ecfeec9&repid=rep1&type=pdf	N/A
 https://web.cecs.pdx.edu/~mpj/pubs/springschool.html	N/A
-https://www.youtube.com/watch?v=DaU6BAV7Z94	N/A
-https://www.youtube.com/watch?v=r6c0GQJGVlc	N/A
-https://www.youtube.com/watch?v=75HqyZ04AFs	N/A
-https://www.youtube.com/watch?v=A4-oGXdYinI	N/A
-https://www.youtube.com/watch?v=KZtVBtOrP50	N/A
-https://www.youtube.com/watch?v=V9t_inPRKMU	N/A
-https://www.youtube.com/watch?v=4i7KrG1Afbk	N/A
-https://www.youtube.com/watch?v=6x_q6dIkGzk	N/A
-https://www.youtube.com/watch?v=GTYgsXTh10Q	N/A
-https://www.youtube.com/watch?v=IQOpCqXCR7M	N/A
-https://www.youtube.com/watch?v=jB14HZuz4Y4	N/A
-https://www.youtube.com/watch?v=NBBQoX1EWCY	N/A
-https://www.youtube.com/watch?v=Q9y452lIDB0	N/A
-https://www.youtube.com/watch?v=aWn8c5Q_KFU	N/A
-https://www.youtube.com/watch?v=cnXbsQKqN6c	N/A
-https://www.youtube.com/watch?v=L0aYcq1tqMo	N/A
-https://www.youtube.com/watch?v=LLkbzt4ms6M	N/A
-https://www.youtube.com/watch?v=Uf75ycYwFUU	N/A
-https://www.youtube.com/watch?v=fSqE-HSh_NU	N/A
-https://www.youtube.com/watch?v=NCM8pRiLtAc	N/A
-https://www.youtube.com/watch?v=SnUn1PZDbqQ	N/A
-https://www.youtube.com/watch?v=ze0SGPOcfTM	N/A
-https://www.youtube.com/watch?v=5vKBFnTsCcE	N/A
-https://www.youtube.com/watch?v=kgNh5mdZ1xw	N/A
-https://www.youtube.com/watch?v=vvLDerKtUWE	N/A
+https://www.youtube.com/watch?v=DaU6BAV7Z94	uploaded	2018-01-08
+https://www.youtube.com/watch?v=r6c0GQJGVlc	uploaded	2022-11-14
+https://www.youtube.com/watch?v=75HqyZ04AFs	uploaded	2021-04-29
+https://www.youtube.com/watch?v=A4-oGXdYinI	uploaded	2021-08-04
+https://www.youtube.com/watch?v=KZtVBtOrP50	uploaded	2021-03-29
+https://www.youtube.com/watch?v=V9t_inPRKMU	uploaded	2023-10-30
+https://www.youtube.com/watch?v=4i7KrG1Afbk	uploaded	2014-09-20
+https://www.youtube.com/watch?v=6x_q6dIkGzk	uploaded	2020-09-21
+https://www.youtube.com/watch?v=GTYgsXTh10Q	uploaded	2023-10-27
+https://www.youtube.com/watch?v=IQOpCqXCR7M	uploaded	2015-10-08
+https://www.youtube.com/watch?v=jB14HZuz4Y4	uploaded	2022-05-29
+https://www.youtube.com/watch?v=NBBQoX1EWCY	uploaded	2015-09-03
+https://www.youtube.com/watch?v=Q9y452lIDB0	uploaded	2020-10-27
+https://www.youtube.com/watch?v=aWn8c5Q_KFU	uploaded	2012-04-05
+https://www.youtube.com/watch?v=cnXbsQKqN6c	uploaded	2016-04-18
+https://www.youtube.com/watch?v=L0aYcq1tqMo	uploaded	2018-01-03
+https://www.youtube.com/watch?v=LLkbzt4ms6M	uploaded	2022-02-24
+https://www.youtube.com/watch?v=Uf75ycYwFUU	uploaded	2022-03-28
+https://www.youtube.com/watch?v=fSqE-HSh_NU	uploaded	2023-08-13
+https://www.youtube.com/watch?v=NCM8pRiLtAc	uploaded	2023-08-18
+https://www.youtube.com/watch?v=SnUn1PZDbqQ	uploaded	2022-06-30
+https://www.youtube.com/watch?v=ze0SGPOcfTM	uploaded	2014-03-02
+https://www.youtube.com/watch?v=5vKBFnTsCcE	uploaded	2023-07-12
+https://www.youtube.com/watch?v=kgNh5mdZ1xw	uploaded	2020-09-11
+https://www.youtube.com/watch?v=vvLDerKtUWE	uploaded	2020-09-18
 https://downloads.haskell.org/~ghc/8.2.1-rc1/docs/html/libraries/base-4.10.0.0/src/GHC-Event-Manager.html	modified	2019-02-15
 https://mail.haskell.org/pipermail/libraries/2014-November/024239.html	created	2014
 https://stackoverflow.com/questions/17522198/defining-primmonad-instance-for-stt-st-transformer	N/A
@@ -27361,7 +27361,7 @@ https://www.reddit.com/r/haskell/comments/bzcj7w	N/A
 https://github.com/AliasQli/dialogue/issues	updated	2022-02-13
 https://hackage.haskell.org/package/heftia-0.3.1.0	N/A
 https://www.edsko.net/pubs/ifl07-paper.pdf	N/A
-https://www.youtube.com/watch?v=ZhuHCtR3xq8	N/A
+https://www.youtube.com/watch?v=ZhuHCtR3xq8	uploaded	2012-11-20
 https://www.reddit.com/r/haskell/comments/bnbd04	N/A
 https://downloads.haskell.org/ghc/9.2.1-alpha2/docs/html/libraries/exceptions-0.10.4/Control-Monad-Catch.html	modified	2021-04-23
 https://downloads.haskell.org/ghc/latest/docs/libraries/exceptions-0.10.11-e9cb/src/Control.Monad.Catch.html	modified	2025-12-18
@@ -27685,12 +27685,12 @@ https://hackage-content.haskell.org/package/amqp-worker-2.0.1/docs/Network-AMQP-
 https://www.reddit.com/r/haskell/comments/ngaegl	N/A
 https://stackoverflow.com/questions/39193147/combining-and-splitting-assignment-in-haskell-io-do-block	N/A
 https://stackoverflow.com/questions/62138544/understanding-nested-monad-constraints	N/A
-https://www.youtube.com/watch?v=TkBOozeNtiM	N/A
-https://www.youtube.com/watch?v=0if71HOyVjY	N/A
-https://www.youtube.com/watch?v=BKyEHYN1Ob4	N/A
-https://www.youtube.com/watch?v=JQDRCTa32jY	N/A
-https://www.youtube.com/watch?v=pmZaiDsY8as	N/A
-https://www.youtube.com/watch?v=WZ_0FSGeq2s	N/A
+https://www.youtube.com/watch?v=TkBOozeNtiM	uploaded	2018-11-19
+https://www.youtube.com/watch?v=0if71HOyVjY	uploaded	2018-11-09
+https://www.youtube.com/watch?v=BKyEHYN1Ob4	uploaded	2018-09-05
+https://www.youtube.com/watch?v=JQDRCTa32jY	uploaded	2022-12-17
+https://www.youtube.com/watch?v=pmZaiDsY8as	uploaded	2024-05-05
+https://www.youtube.com/watch?v=WZ_0FSGeq2s	uploaded	2021-09-09
 https://www.reddit.com/r/haskell/comments/ox5j50	N/A
 https://www.reddit.com/r/haskell/comments/12gvhi6	N/A
 https://www.reddit.com/r/haskell/comments/bz3aio	N/A
@@ -27776,9 +27776,9 @@ https://www.nslabs.jp/haskell-fileio.rhtml	N/A
 https://www.reddit.com/r/haskell/comments/ddqe8t	N/A
 https://www.reddit.com/r/haskell/comments/ozyt56	N/A
 https://www.reddit.com/r/haskell/comments/qxfs2d	N/A
-https://www.youtube.com/watch?v=BZBSgb55Mnk	N/A
-https://www.youtube.com/watch?v=wC9cpQk7WWA	N/A
-https://www.youtube.com/watch?v=Xceng7i98Y0	N/A
+https://www.youtube.com/watch?v=BZBSgb55Mnk	uploaded	2022-11-10
+https://www.youtube.com/watch?v=wC9cpQk7WWA	uploaded	2023-09-01
+https://www.youtube.com/watch?v=Xceng7i98Y0	uploaded	2023-08-24
 https://downloads.haskell.org/~ghc/6.10.2/docs/html/libraries/process/System-Process.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/latest/docs/libraries/process-1.6.26.1-e91f/System-Process.html	modified	2025-12-18
 https://stackoverflow.com/questions/28869164/haskell-system-process-createprocess-redirect-stdout-and-stderr	N/A
@@ -28007,7 +28007,7 @@ https://flix.dev/principles/	N/A
 https://flix.dev/talks/devoxx2025.pdf	created	2025
 https://flix.dev/talks/lambdadays2025.pdf	created	2025
 https://pure.au.dk/ws/portalfiles/portal/456074624/thesis.pdf	N/A
-https://www.youtube.com/watch?v=PmmvszfloyU	N/A
+https://www.youtube.com/watch?v=PmmvszfloyU	uploaded	2025-03-12
 https://getkyo.io/	N/A
 https://zio.dev/1.0.18/guides/interop/with-monix/	N/A
 https://typelevel.org/cats-effect/versions	N/A
@@ -28167,7 +28167,7 @@ https://books.google.com/books/about/Mastering_Functional_Programming_with_Ty.ht
 https://openlibrary.org/works/OL17581286W/Parallel_And_Concurrent_Programming_In_Haskell	N/A
 https://trendsfp.github.io/2025/abstracts/paper-020.pdf	created	2025
 https://www.mail-archive.com/haskell%40haskell.org/msg17122.html	N/A
-https://www.youtube.com/watch?v=bm6VRCkkow4	N/A
+https://www.youtube.com/watch?v=bm6VRCkkow4	uploaded	2018-06-14
 https://citeseerx.ist.psu.edu/document?doi=b9a2e1fc9a064dcc6de8b457e8c4e724716971ed&repid=rep1&type=pdf	N/A
 https://discourse.haskell.org/t/creating-a-gui-application-in-haskell/9093	publication	2024-03-18
 https://repositum.tuwien.at/bitstream/20.500.12708/12949/2/Jiresch%20Eugen%20Robert%20Winfried%20-%202012%20-%20Extending%20interaction%20nets%20towards%20the...pdf	N/A
@@ -28198,12 +28198,12 @@ https://se-radio.net/2008/08/episode-108-simon-peyton-jones-on-functional-progra
 https://haskell.foundation/podcast/	N/A
 https://www.ivoox.com/podcast-the-haskell-interlude_sq_f11342183_1.html	N/A
 https://www.youtube.com/playlist?list=PLNEK_Ejlx3x1D9Vq5kqeC3ZDEP7in4dqb	N/A
-https://www.youtube.com/watch?v=TklkNLihQ_A	N/A
-https://www.youtube.com/watch?v=3qXGCfZtIeg	N/A
-https://www.youtube.com/watch?v=ahGUA8iTavg	N/A
-https://www.youtube.com/watch?v=dwWoMx-npaU	N/A
-https://www.youtube.com/watch?v=L6WeHeo3C8M	N/A
-https://www.youtube.com/watch?v=sc8apy-nrEM	N/A
+https://www.youtube.com/watch?v=TklkNLihQ_A	uploaded	2024-06-30
+https://www.youtube.com/watch?v=3qXGCfZtIeg	uploaded	2014-08-25
+https://www.youtube.com/watch?v=ahGUA8iTavg	uploaded	2020-11-13
+https://www.youtube.com/watch?v=dwWoMx-npaU	uploaded	2017-09-05
+https://www.youtube.com/watch?v=L6WeHeo3C8M	uploaded	2025-06-07
+https://www.youtube.com/watch?v=sc8apy-nrEM	uploaded	2015-01-27
 https://publikationen.bibliothek.kit.edu/1000056002	publication	2016
 https://raspberryconnect.com/raspbian-packages/40-raspbian-haskell	N/A
 https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-iospec	N/A
@@ -28433,8 +28433,8 @@ https://emilien.ca/Notes/Notes/notes/Haskell%20for%20all_%20Why%20free%20monads%
 http://dorchard.co.uk/publ/haskell14-effects.pdf	N/A
 https://www.cse.chalmers.se/~rjmh/Papers/QuickCheckST.ps	N/A
 https://www.books.com.tw/products/CN11099212	N/A
-https://www.youtube.com/watch?v=Ex4FWMexQNo	N/A
-https://www.youtube.com/watch?v=JKJaD7E6WxE	N/A
+https://www.youtube.com/watch?v=Ex4FWMexQNo	uploaded	2026-05-10
+https://www.youtube.com/watch?v=JKJaD7E6WxE	uploaded	2019-11-22
 https://hackage.haskell.org/package/BasePrelude/docs/BasePrelude.html	N/A
 https://hackage.haskell.org/packages/tag/simulation	N/A
 https://chrisdone.com/posts/projects/	N/A
@@ -28606,7 +28606,7 @@ https://www.di.uminho.pt/~jno/ps/_iscalc_2a.pdf.gz	N/A
 https://cs.ioc.ee/fics-archive/fics03-proceedings.pdf	N/A
 https://lobste.rs/s/hylhyr/don_t_fear_monad	N/A
 https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil	N/A
-https://www.youtube.com/watch?v=N9RUqGYuGfw	N/A
+https://www.youtube.com/watch?v=N9RUqGYuGfw	uploaded	2019-11-21
 https://academia-lab.com/enciclopedia/monada-programacion-funcional/	N/A
 https://core.ac.uk/download/pdf/82130994.pdf	N/A
 https://dl.acm.org/doi/proceedings/10.1145/1291201	N/A
@@ -29131,8 +29131,8 @@ https://www.gladir.com/CODER/HASKELL/les-bases-des-monades.htm	N/A
 https://lics.siglog.org/1989/Moggi-Computationallambda.html	created	1989
 https://kar.kent.ac.uk/69589/1/27sadamsThesisFinal.pdf	N/A
 https://vimeo.com/drtom	N/A
-https://www.youtube.com/watch?v=8tWzG0ML6Z4	N/A
-https://www.youtube.com/watch?v=FLAPIgvlVnE	N/A
+https://www.youtube.com/watch?v=8tWzG0ML6Z4	uploaded	2023-04-06
+https://www.youtube.com/watch?v=FLAPIgvlVnE	uploaded	2020-10-11
 https://hackage.haskell.org/package/monadlog	N/A
 https://hackage.haskell.org/package/monadlog/docs	created	2017-11-07
 https://hackage.haskell.org/package/yet-another-logger-0.3.0/candidate/docs/System-Logger-Types.html	N/A
@@ -29357,14 +29357,14 @@ https://mirror.lagoon.nc/raspbian/raspbian/pool/main/h/haskell-unliftio-core/	N/
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg38879.html	N/A
 https://hackage-content.haskell.org/package/Salsa-0.2.0.1/src/Docs/Thesis.pdf	N/A
 https://www.docslides.com/olivia-moreira/ynot-reasoning-with-the-awkward	N/A
-https://m.youtube.com/watch?v=RS3X-KpefdE	N/A
-https://www.youtube.com/watch?v=02_H3LjqMr8	N/A
-https://www.youtube.com/watch?v=2IZQx7WNOMs	N/A
-https://www.youtube.com/watch?v=jLj1QV11o9g	N/A
-https://www.youtube.com/watch?v=K1UjjcdBYp0	N/A
-https://www.youtube.com/watch?v=lC5UWG5N8oY	N/A
-https://www.youtube.com/watch?v=UBgam9XUHs0	N/A
-https://www.youtube.com/watch?v=xcB_LF3cdqw	N/A
+https://m.youtube.com/watch?v=RS3X-KpefdE	uploaded	2024-01-30
+https://www.youtube.com/watch?v=02_H3LjqMr8	uploaded	2015-08-01
+https://www.youtube.com/watch?v=2IZQx7WNOMs	uploaded	2014-05-18
+https://www.youtube.com/watch?v=jLj1QV11o9g	uploaded	2014-01-09
+https://www.youtube.com/watch?v=K1UjjcdBYp0	uploaded	2018-12-20
+https://www.youtube.com/watch?v=lC5UWG5N8oY	uploaded	2017-06-06
+https://www.youtube.com/watch?v=UBgam9XUHs0	uploaded	2024-01-31
+https://www.youtube.com/watch?v=xcB_LF3cdqw	uploaded	2026-06-08
 https://iris.unito.it/bitstream/2318/1739403/1/main.pdf	N/A
 https://flora.pm/packages/%40hackage/io-classes/1.5.0.0/changelog	N/A
 https://sources.debian.org/patches/haskell-monad-control/	N/A
@@ -29381,9 +29381,9 @@ https://slides.com/haskellbeginners2022/lecture-2	created	2022
 https://slides.com/haskellbeginners2022/lecture-3	created	2022
 https://www.manning.com/books/functional-design-and-architecture	N/A
 https://www.youtube.com/watch?list=PLOJjn67NeYg9cWA4hyIWcxfaeX64pwo1c&v=6MsQcUprO9o	N/A
-https://www.youtube.com/watch?v=6MsQcUprO9o	N/A
-https://www.youtube.com/watch?v=rf-lie7U04Q	N/A
-https://www.youtube.com/watch?v=Vs-vvlYLtRI	N/A
+https://www.youtube.com/watch?v=6MsQcUprO9o	uploaded	2022-01-11
+https://www.youtube.com/watch?v=rf-lie7U04Q	uploaded	2022-01-18
+https://www.youtube.com/watch?v=Vs-vvlYLtRI	uploaded	2022-01-25
 https://archlinux.org/packages/extra/x86_64/ghc/	N/A
 https://archlinux.org/packages/extra/x86_64/ghc-libs/	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-linear-base/files/	N/A
@@ -29572,7 +29572,7 @@ https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/
 https://igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.22-docs-offline/hackage-content.haskell.org/package/base-4.22.0.0/docs/Control-Exception-Base.html	N/A
 https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/template-haskell-2.17.0.0/src/Language-Haskell-TH-Syntax.html	modified	2021-02-04
 https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/	N/A
-https://www.youtube.com/watch?v=n5ZtsHrYWq0	N/A
+https://www.youtube.com/watch?v=n5ZtsHrYWq0	uploaded	2024-10-17
 https://www.stackage.org/lts-10.2/package/monad-skeleton-0.1.5	indexed	2022-11-17
 https://hackage.haskell.org/package/monad-skeleton	N/A
 https://hackage.haskell.org/package/monad-skeleton-0.1.5/docs	N/A
@@ -29619,7 +29619,7 @@ https://packages.debian.org/fi/source/sid/haskell-io-storage	N/A
 https://packages.debian.org/libghc-io-storage-prof	N/A
 https://packages.debian.org/stable/doc/libghc-io-storage-doc	N/A
 https://www.cse.iitk.ac.in/users/satyadev/au24/outline_lec_10.pdf	N/A
-https://www.youtube.com/watch?v=E1hWlg-Ms9I	N/A
+https://www.youtube.com/watch?v=E1hWlg-Ms9I	uploaded	2020-11-16
 https://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/	created	2014
 https://downloads.haskell.org/~ghc/6.12.3/docs/html/libraries/index.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/6.2/docs/html/hslibs/book-hslibs.html	modified	2019-02-15
@@ -29651,8 +29651,8 @@ https://downloads.haskell.org/ghc/6.10.1/docs/html/libraries/base/System-IO-Erro
 https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/GHC-IO.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/System-IO.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/8.8.1/docs/html/libraries/base-4.13.0.0/src/System-IO.html	modified	2019-08-25
-https://www.youtube.com/watch?v=7icH5EBNpHg	N/A
-https://www.youtube.com/watch?v=sDqD_xwF-cY	N/A
+https://www.youtube.com/watch?v=7icH5EBNpHg	uploaded	2025-11-14
+https://www.youtube.com/watch?v=sDqD_xwF-cY	uploaded	2026-01-02
 https://cse.sc.edu/~pfu/teaching/544/544schedule.html	N/A
 https://downloads.haskell.org/ghc/9.0-latest/docs/html/libraries/ghc-9.0.2/GHC-Driver-Monad.html	modified	2021-12-25
 https://hackage.haskell.org/package/acme-iot-0.1.0.1/docs/Control-Monad-Trans-IO.html	N/A
@@ -29886,7 +29886,7 @@ https://www.stackage.org/lts-24.24/package/effectful-2.6.1.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2024-04-01/package/effectful-2.3.0.0	created	2024
 https://www.stackage.org/nightly-2026-07-03/package/data-effects-th-0.4.2.1	created	2026
 https://www.stackage.org/package/http-streams	indexed	2026-07-27
-https://www.youtube.com/watch?v=e6tWJD5q8uw	N/A
+https://www.youtube.com/watch?v=e6tWJD5q8uw	uploaded	2022-01-06
 https://arxiv.org/abs/2508.03640	created	2025-08
 https://cs.princeton.edu/~dpw/cos441-11/notes/slides17-monads2.pdf	N/A
 https://hackage.haskell.org/package/exotic-list-monads-1.2.0/src/degrading-lists.pdf	N/A
@@ -30119,7 +30119,7 @@ https://www.stackage.org/package/monad-log	N/A
 https://citeseerx.ist.psu.edu/document?doi=01249e95e1fe350dc3569aec1d46a6613219698c&repid=rep1&type=pdf	N/A
 https://hackage.haskell.org/package/fused-effects-exceptions-0.1.0.0	N/A
 https://ir.canterbury.ac.nz/server/api/core/bitstreams/5545fb17-ef38-4f0a-bf8e-5c7e5a4b6994/content	N/A
-https://www.youtube.com/watch?v=ryMkvAOJk20	N/A
+https://www.youtube.com/watch?v=ryMkvAOJk20	uploaded	2020-07-06
 https://hackage.haskell.org/package/transformers-0.5.0.2	N/A
 https://haskell.pesquisa.ufabc.edu.br/haskell/03.haskell.basico.1/	N/A
 https://monad.cat/	N/A
@@ -32046,7 +32046,7 @@ https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO-Unsafe.html	
 https://downloads.haskell.org/ghc/7.2.1/docs/html/libraries/base-4.4.0.0/src/Foreign.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/9.0.2/docs/libraries/base-4.15.1.0/src/GHC.IO.Unsafe.html	modified	2021-12-25
 https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume06/issue03/DagRep.6.3/DagRep.6.3.pdf	N/A
-https://www.youtube.com/watch?v=gHiyzctYqZ0	N/A
+https://www.youtube.com/watch?v=gHiyzctYqZ0	uploaded	2016-10-27
 https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dee1dd3528767935317507965d&repid=rep1&type=pdf	N/A
 https://downloads.haskell.org/~ghc/9.4-latest/docs/libraries/stm-2.5.1.0/Control-Monad-STM.html	modified	2023-08-21
 https://hackage.haskell.org/package/i3ipc	N/A
@@ -32891,7 +32891,7 @@ https://hackage.haskell.org/package/pipes-4.0.2/docs	N/A
 https://hackage.haskell.org/package/pipes-core/docs	created	2012-04-09
 https://hackage.haskell.org/package/pipes-2.3.0/docs	N/A
 https://dev.to/bekbrace/monads-in-haskell-1p8i	N/A
-https://www.youtube.com/watch?v=pj7-rNyz3J8	N/A
+https://www.youtube.com/watch?v=pj7-rNyz3J8	uploaded	2021-07-29
 https://hackage.haskell.org/package/exception-transformers/docs	created	2023-08-31
 https://hackage.haskell.org/package/control-monad-exception-0.5	N/A
 https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/	created	2026
@@ -33154,7 +33154,7 @@ https://packages.debian.org/source/stable/haskell-monadlist	N/A
 https://arxiv.org/abs/1707.04724	created	2017-07
 https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html	N/A
 https://forum.cardano.org/t/real-world-haskell-good-bad-ugly-by-saurabh-nanda-at-functional-conf-2017/12160	publication	2018-05-23
-https://www.youtube.com/watch?v=7NB8tMa8sUk	N/A
+https://www.youtube.com/watch?v=7NB8tMa8sUk	uploaded	2017-11-30
 https://arxiv.org/abs/2511.06701	created	2025-11
 https://mailman.haskell.org/archives/	N/A
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1da3e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
