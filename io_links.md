@@ -7,20 +7,20 @@ https://dl.acm.org/doi/10.1145/143165.143169	publication	1992
 https://dl.acm.org/doi/abs/10.1145/130697.130699	publication	1992-05
 https://dl.acm.org/doi/abs/10.1145/1238844.1238856	publication	2007-06-09
 https://dl.acm.org/doi/10.1145/72551.72554	publication	1989-09
-https://dl.acm.org/doi/10.5555/647698.734146	N/A
+https://dl.acm.org/doi/10.5555/647698.734146	created	2024-05-18
 https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/	publication	1993-01-01
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/	1997	publication
 https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf	N/A
 https://dl.acm.org/doi/10.1145/317765.317777	publication	1999-09
-https://homepages.inf.ed.ac.uk/wadler/papers/reflection-journal/reflection-journal.pdf	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/reflection-journal/reflection-journal.pdf	created	2025-12-31
 https://link.springer.com/article/10.1007/BF01018828	publication	1995-12
 https://iris-project.org/pdfs/2018-popl-runST-final.pdf	created	2018
 https://dl.acm.org/doi/10.1145/3158152	publication	2018-01
-https://cs.au.dk/~birke/papers/runST-conf.pdf	N/A
-https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf	N/A
+https://cs.au.dk/~birke/papers/runST-conf.pdf	created	2025-11-13
+https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf	created	2026-06-05
 https://dl.acm.org/doi/10.1145/258949.258969	publication	1997-08
-https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf	N/A
-https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/Wadler-MonadsFP.pdf	N/A
+https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf	created	2024-05-11
+https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/Wadler-MonadsFP.pdf	created	2024-03-08
 https://homes.luddy.indiana.edu/sabry/files/mdo-ita.pdf	N/A
 https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf	created	1994
@@ -35,12 +35,12 @@ https://dl.acm.org/doi/10.1145/3331545.3342589	publication	2019-08-08
 https://dl.acm.org/doi/10.1145/2775050.2633368	publication	2015-05-11
 https://dl.acm.org/doi/10.1145/2500365.2500581	publication	2013-09-25
 https://dl.acm.org/doi/10.1145/2503778.2503791	publication	2013-09-23
-https://www.cs.umd.edu/~avik/papers/cmllch.pdf	N/A
+https://www.cs.umd.edu/~avik/papers/cmllch.pdf	created	2024-07-30
 https://dl.acm.org/doi/10.5555/895692	N/A
 https://dl.acm.org/doi/10.1145/2887747.2804311	publication	2016-01-28
 https://dl.acm.org/doi/10.1145/3156695.3122968	publication	2017-10-31
 https://dl.acm.org/doi/10.1145/1863523.1863536	publication	2010-09-30
-https://abhiroop.github.io/pubs/HasTEE_SGX.pdf	N/A
+https://abhiroop.github.io/pubs/HasTEE_SGX.pdf	created	2024-03-25
 https://dl.acm.org/doi/10.1145/1088348.1088354	publication	2005-09-30
 https://dl.acm.org/doi/pdf/10.1145/2088456.1863535	publication	2010-11-17
 https://dl.acm.org/doi/10.1145/292540.292557	publication	1999-01
@@ -68,9 +68,9 @@ https://dl.acm.org/doi/10.1145/1052934.1052935	publication	2005-02
 https://dl.acm.org/doi/10.1145/3473568	publication	2021-08-22
 https://dl.acm.org/doi/10.1145/1017472.1017473	publication	2004-09-22
 https://dl.acm.org/doi/10.1007/978-3-540-27861-0_2	publication	2004
-https://dl.acm.org/doi/10.5555/647978.743363	N/A
+https://dl.acm.org/doi/10.5555/647978.743363	created	2024-07-07
 https://dl.acm.org/doi/10.1145/1173706.1173714	publication	2006-10-22
-https://www.cse.chalmers.se/alumni/bringert/publ/haskelldb/haskelldb.pdf	N/A
+https://www.cse.chalmers.se/alumni/bringert/publ/haskelldb/haskelldb.pdf	created	2021-12-06
 https://dl.acm.org/doi/10.1145/289251.289437	N/A
 https://dl.acm.org/doi/10.1145/1017472.1017478	publication	2004-09-22
 https://dl.acm.org/doi/10.5555/646453.693097	N/A
@@ -80,7 +80,7 @@ https://dl.acm.org/doi/10.1145/1088348.1088351	publication	2005-09-30
 https://dl.acm.org/doi/10.1145/291251.289437	publication	1999-01
 https://dl.acm.org/doi/10.1145/1088348.1088353	publication	2005-09-30
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/hdirect.pdf	created	2016
-https://simonmar.github.io/bib/papers/vshaskell.pdf	N/A
+https://simonmar.github.io/bib/papers/vshaskell.pdf	created	2024-04-23
 https://www.microsoft.com/en-us/research/publication/object-oriented-style-overloading-for-haskell/	publication	2001-09-01
 https://www.researchgate.net/publication/221241196_Experience_report_Building_an_Eclipse-based_IDE_for_Haskell	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/com.pdf	created	2016
@@ -90,8 +90,8 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/green-card-1
 https://www.microsoft.com/en-us/research/publication/scripting-com-components-in-haskell/	N/A
 https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/	publication	1999-09-01
 https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/	publication	1997-02-14
-https://www.sciencedirect.com/science/article/pii/S1571066105805493	N/A
-https://simonmar.github.io/bib/papers/conc-ffi.pdf	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066105805493	created	2022-07-02
+https://simonmar.github.io/bib/papers/conc-ffi.pdf	created	2025-08-15
 https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages	N/A
 https://link.springer.com/chapter/10.1007/11964681_12	publication	2006-07-26
 https://dl.acm.org/doi/10.1145/1017472.1017479	publication	2004-09-22
@@ -100,15 +100,15 @@ https://dl.acm.org/doi/abs/10.1017/S0956796899003561	publication	2000-01
 https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms	N/A
 https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH	N/A
 https://link.springer.com/chapter/10.1007/3-540-45587-6_13	publication	2002-07-26
-https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf	N/A
+https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf	created	2026-04-18
 https://dl.acm.org/doi/10.1145/871895.871898	publication	2003-08-28
 https://link.springer.com/chapter/10.1007/11737414_19	publication	2006-07-26
-https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf	N/A
+https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf	created	2020-09-24
 https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier	N/A
 https://dl.acm.org/doi/10.1145/2976002.2976015	publication	2016-09-08
 https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_HaskellScript	N/A
 https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server	N/A
-https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz	N/A
+https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz	created	2022-11-27
 https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/server-side-web-scripting-in-haskell/F34DEFF8D123F59DB19AAF76DA5241F0	publication	2000
 https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf	N/A
@@ -116,7 +116,7 @@ https://scispace.com/pdf/integrating-an-interactive-haskell-tool-with-a-web-vttn
 https://dl.acm.org/doi/10.1145/2633357.2633367	publication	2014-09-03
 https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2007-008.pdf	created	2007
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf	created	2014
-https://wasp.cs.washington.edu/dynsep/transact11.pdf	N/A
+https://wasp.cs.washington.edu/dynsep/transact11.pdf	created	2024-04-18
 https://dl.acm.org/doi/10.1145/3677999.3678276	publication	2024-08-29
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf	N/A
 https://dl.acm.org/doi/10.1145/3156695.3122969	publication	2017-10-31
@@ -124,7 +124,7 @@ https://www.researchgate.net/publication/320789853_A_meta-EDSL_for_distributed_w
 https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105	publication	1995-01
 https://www.researchgate.net/publication/221303519_A_Tutorial_on_Parallel_and_Concurrent_Programming_in_Haskell	N/A
 https://www.academia.edu/82973313/Conservative_Concurrency_in_Haskell	N/A
-https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf	N/A
+https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf	created	2024-04-15
 https://dl.acm.org/doi/10.1145/581690.581696	publication	2002-10-03
 https://dl.acm.org/doi/10.5555/647980.743391	N/A
 https://dl.acm.org/doi/10.1145/581478.581482	publication	2002-09-17
@@ -133,86 +133,86 @@ https://dl.acm.org/doi/abs/10.1145/351268.351276	publication	2000-09
 https://dl.acm.org/doi/10.1145/1596638.1596653	publication	2009-09-03
 https://dl.acm.org/doi/abs/10.1145/581690.581695	publication	2002-10-03
 https://dl.acm.org/doi/10.1145/1160074.1159821	publication	2006-09-16
-https://dhil.net/research/papers/awkward_effects-ml17.pdf	N/A
+https://dhil.net/research/papers/awkward_effects-ml17.pdf	created	2024-03-26
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/comprehending-monads/8678CDA48EB1DF29B9C2C9943AF6BC29	publication	1992
 https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11	publication	1990-07-26
 https://www.numdam.org/item/ITA_2002__36_2_155_0.pdf	created	2002
-https://leventerkok.github.io/papers/mfix.pdf	N/A
-https://leventerkok.github.io/papers/mfixTR.pdf	N/A
+https://leventerkok.github.io/papers/mfix.pdf	created	2024-06-14
+https://leventerkok.github.io/papers/mfixTR.pdf	created	2022-10-06
 https://github.com/mjul/free-monad-interpreter-for-pascal	N/A
-https://github.com/gbogard/free-monads-from-scratch	N/A
-https://github.com/snapframework/io-streams	N/A
-https://leventerkok.github.io/papers/recdo.pdf	N/A
+https://github.com/gbogard/free-monads-from-scratch	created	2026-05-10
+https://github.com/snapframework/io-streams	created	2026-04-13
+https://leventerkok.github.io/papers/recdo.pdf	created	2025-12-29
 https://launchbury.blog/wp-content/uploads/2019/01/semantics-of-fixio.pdf	created	2019
 https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf	created	2016
 https://www.research.ed.ac.uk/en/publications/a-history-of-haskell-being-lazy-with-class/	publication	2007
 https://dl.acm.org/doi/10.1145/1160074.1159823	publication	2006-09-16
-https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/	N/A
-https://wasp.cs.washington.edu/tecaml/teml.pdf	N/A
+https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/	created	2026-07-21
+https://wasp.cs.washington.edu/tecaml/teml.pdf	created	2024-02-21
 https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf	N/A
-https://pdxscholar.library.pdx.edu/open_access_etds/1/	N/A
-https://arxiv.org/abs/1210.0611	N/A
-https://www.cs.cmu.edu/~crary/819-f09/Moggi91.pdf	N/A
-https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf	N/A
-https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-haskell.pdf	N/A
-https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-scala.pdf	N/A
-https://homepages.inf.ed.ac.uk/wadler/topics/links.html	N/A
-https://arxiv.org/abs/1207.1457	N/A
+https://pdxscholar.library.pdx.edu/open_access_etds/1/	created	2024-03-30
+https://arxiv.org/abs/1210.0611	created	2025-04-06
+https://www.cs.cmu.edu/~crary/819-f09/Moggi91.pdf	created	2026-04-11
+https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf	created	2026-07-10
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-haskell.pdf	created	2024-03-13
+https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-scala.pdf	created	2023-03-05
+https://homepages.inf.ed.ac.uk/wadler/topics/links.html	created	2026-05-04
+https://arxiv.org/abs/1207.1457	created	2024-06-05
 https://arxiv.org/pdf/1901.07665	created	1901
 https://dl.acm.org/doi/pdf/10.1145/2034675.2034688	publication	2011-09-22
 https://dl.acm.org/doi/pdf/10.1145/2505351.2505354	publication	2013-09-22
 https://dl.acm.org/doi/pdf/10.1145/2775050.2633373	publication	2015-05-11
 https://arxiv.org/pdf/1902.06590	created	1902
-https://github.com/alexandersgreen/qio-agda	N/A
-https://homepages.inf.ed.ac.uk/wadler/papers/constraints/constraints.pdf	N/A
+https://github.com/alexandersgreen/qio-agda	created	2020-10-31
+https://homepages.inf.ed.ac.uk/wadler/papers/constraints/constraints.pdf	created	2022-07-04
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/state-lasc.pdf	created	2016
 https://users.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf	N/A
-https://github.com/tweag/kernmantle	N/A
-https://github.com/lierdakil/free-monad-examples	N/A
-https://github.com/daanx/effect-bench	N/A
+https://github.com/tweag/kernmantle	created	2025-12-23
+https://github.com/lierdakil/free-monad-examples	created	2025-07-24
+https://github.com/daanx/effect-bench	created	2025-07-04
 https://gist.github.com/3693348	N/A
-https://www.youtube.com/watch?v=9Y-ZTTRDcp0	N/A
-https://haskell.foundation/podcast/80/	N/A
-https://haskell.foundation/podcast/77/	N/A
-https://arxiv.org/pdf/2507.10301	N/A
+https://www.youtube.com/watch?v=9Y-ZTTRDcp0	created	2024-09-17
+https://haskell.foundation/podcast/80/	created	2026-05-17
+https://haskell.foundation/podcast/77/	created	2026-03-07
+https://arxiv.org/pdf/2507.10301	created	2025-11-27
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/doo-bee-doo-bee-doo/DEC5F8FDABF7DE3088270E07392320DD	publication	2020
 https://github.com/Gabriella439/post-rfc/blob/master/sotu.md	N/A
-https://github.com/re-xyr/cleff	N/A
-https://haskell.foundation/podcast/81/	N/A
-https://arxiv.org/abs/2110.07493	N/A
+https://github.com/re-xyr/cleff	created	2026-01-08
+https://haskell.foundation/podcast/81/	created	2026-05-17
+https://arxiv.org/abs/2110.07493	created	2026-02-18
 https://iris-project.org/pdfs/2026-popl-blaze.pdf	created	2026
 https://steuwer.info/files/publications/2025/ICFP-Multiple-Resumptions-and-Local-Mutable-State-Directly.pdf	created	2025
 https://se.cs.uni-tuebingen.de/publications/gaissert2025tracing.pdf	created	2025
-https://xnning.github.io/papers/icfp24parallel.pdf	N/A
+https://xnning.github.io/papers/icfp24parallel.pdf	created	2026-02-15
 https://dl.acm.org/doi/10.1145/3689798	publication	2024-10-08
 https://dl.acm.org/doi/10.1145/3677999.3678279	publication	2024-08-29
 https://arxiv.org/pdf/2402.03103	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796824000066	N/A
 https://dl.acm.org/doi/pdf/10.1145/3471874.3472988	publication	2021-08-18
-https://tomasp.net/academic/papers/malias/malias.pdf	N/A
-https://downloads.haskell.org/ghc/latest/docs/users_guide/	N/A
-https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Class.html	N/A
-https://users.cs.utah.edu/~mflatt/cs6525/monads.html	N/A
-https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-spr25-notes/notes/Managing_Effects.html	N/A
-https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful.html	N/A
-https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1.pdf	N/A
+https://tomasp.net/academic/papers/malias/malias.pdf	created	2024-03-02
+https://downloads.haskell.org/ghc/latest/docs/users_guide/	created	2026-06-28
+https://downloads.haskell.org/ghc/latest/docs/libraries/transformers-0.6.1.2-53bb/Control-Monad-Trans-Class.html	created	2026-02-10
+https://users.cs.utah.edu/~mflatt/cs6525/monads.html	created	2024-12-10
+https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-spr25-notes/notes/Managing_Effects.html	created	2026-04-16
+https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful.html	created	2025-12-07
+https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1.pdf	created	2025-09-29
 https://github.com/metareflection/plti-class/blob/main/resources.md	N/A
 https://github.com/JarnaChao09/Koffect	N/A
-https://github.com/vic/vic	N/A
+https://github.com/vic/vic	created	2026-02-09
 https://iris-project.org/pdfs/2025-esop-gitrees.pdf	created	2025
 https://dl.acm.org/doi/10.1145/3276481	publication	2018-10-24
 https://iris-project.org/pdfs/2023-esop-tes.pdf	created	2023
 https://dl.acm.org/doi/10.1145/3485479	publication	2021-10-20
-https://github.com/danelahman/haskell-coop	N/A
+https://github.com/danelahman/haskell-coop	created	2025-12-12
 https://github.com/patrickt/patrickt.github.io/blob/develop/posts/serving-http-content-with-fused-effects.org	N/A
-https://github.com/mmenestret/fp-resources	N/A
+https://github.com/mmenestret/fp-resources	created	2025-09-17
 https://github.com/qio-haskell/qio-haskell	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F	publication	2020
 https://github.com/Icelandjack/Capabilities	N/A
-https://github.com/albertdahlin/elm-cli-io-monad	publication	N/A
+https://github.com/albertdahlin/elm-cli-io-monad	publication	created	2020-11-17
 https://github.com/okmij/libhandler	publication	N/A
-https://github.com/effect-handlers/effect-handlers.github.io	publication	N/A
+https://github.com/effect-handlers/effect-handlers.github.io	publication	created	2022-04-11
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effekt-capabilitypassing-style-for-type-and-effectsafe-extensible-effect-handlers-in-scala/A19680B18FB74AD95F8D83BC4B097D4F	publication	2020-01
 https://dl.acm.org/doi/10.1145/2633357.2633358	publication	publication	2014-09-03
 https://iris-project.org/pdfs/2026-pldi-exceptional.pdf	publication	created	2026
