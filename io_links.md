@@ -8842,816 +8842,816 @@ https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-C
 https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2024-08-27
 https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2024-08-27
 https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2024-08-27
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadUnique.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadUnique-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadUnique.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadUnique-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadUnique.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTimer-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadUnique-Trans.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-Trans.html	N/A
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadST.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSay.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTest.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTime.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-Trans.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadST.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadSay.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTest.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTime.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-Trans.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadST.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadSay.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTest.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTime.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-Trans.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadMVar.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadEventlog.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadST.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadSay.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTest.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTime.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-Trans.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadST.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadSay.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTest.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTime.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadUnique.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadUnique-Trans.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-Trans.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadST.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadSay.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTest.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTime.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadUnique.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadUnique-Trans.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-Trans.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadEventlog.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadST.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadSay.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTest.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTime.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadUnique.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTimer-Trans.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadUnique-Trans.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-Trans.html	created	2026-04-15
 ## Versioned strict IO classes and SI timer modules
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTime-SI.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTimer-SI.html	N/A
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTime-SI.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTime-SI.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTime-SI.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTime-SI.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTimer-SI.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTime-SI.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTime-SI.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTimer-SI.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadMVar-Strict.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TArray.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TBQueue.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TChan.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TMVar.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TQueue.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Concurrent-Class-MonadSTM-Strict-TVar.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTime-SI.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTimer-SI.html	created	2026-04-15
 ## Historical MonadIO, MonadSTM, and IO adapter packages
 https://hackage.haskell.org/package/monadIO-0.9.1.0	N/A
-https://hackage.haskell.org/package/monadIO-0.9.1.0/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.9.1.0/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.9.1.0/src/	created	2010-06-14
+https://hackage.haskell.org/package/monadIO-0.9.1.0/docs/Control-Concurrent-MonadIO.html	created	2010-06-14
 https://hackage.haskell.org/package/monadIO-0.9.2.0	N/A
-https://hackage.haskell.org/package/monadIO-0.9.2.0/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.9.2.0/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.9.2.0/src/	created	2010-06-14
+https://hackage.haskell.org/package/monadIO-0.9.2.0/docs/Control-Concurrent-MonadIO.html	created	2010-06-14
 https://hackage.haskell.org/package/monadIO-0.10.1.1	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.1/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.1/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.10.1.1/src/	created	2011-05-13
+https://hackage.haskell.org/package/monadIO-0.10.1.1/docs/Control-Concurrent-MonadIO.html	created	2011-05-13
 https://hackage.haskell.org/package/monadIO-0.10.1.2	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.2/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.2/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.10.1.2/src/	created	2012-05-03
+https://hackage.haskell.org/package/monadIO-0.10.1.2/docs/Control-Concurrent-MonadIO.html	created	2012-05-03
 https://hackage.haskell.org/package/monadIO-0.10.1.3	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.3/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.3/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.10.1.3/src/	created	2012-08-13
+https://hackage.haskell.org/package/monadIO-0.10.1.3/docs/Control-Concurrent-MonadIO.html	created	2012-08-13
 https://hackage.haskell.org/package/monadIO-0.10.1.4	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.4/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.10.1.4/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.10.1.4/src/	created	2014-06-17
+https://hackage.haskell.org/package/monadIO-0.10.1.4/docs/Control-Concurrent-MonadIO.html	created	2014-06-17
 https://hackage.haskell.org/package/monadIO-0.11.0.0	N/A
-https://hackage.haskell.org/package/monadIO-0.11.0.0/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.11.0.0/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.11.0.0/src/	created	2018-05-21
+https://hackage.haskell.org/package/monadIO-0.11.0.0/docs/Control-Concurrent-MonadIO.html	created	2018-05-21
 https://hackage.haskell.org/package/monadIO-0.11.1.0	N/A
-https://hackage.haskell.org/package/monadIO-0.11.1.0/src/	N/A
-https://hackage.haskell.org/package/monadIO-0.11.1.0/docs/Control-Concurrent-MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO-0.11.1.0/src/	created	2018-10-03
+https://hackage.haskell.org/package/monadIO-0.11.1.0/docs/Control-Concurrent-MonadIO.html	created	2018-10-03
 https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0	N/A
-https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/src/	N/A
-https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs/Control-Monad-IO-Adapter.html	N/A
+https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/src/	created	2017-11-21
+https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs/Control-Monad-IO-Adapter.html	created	2017-11-21
 https://hackage.haskell.org/package/monadio-unwrappable-0.1	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.1/src/	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.1/docs/Control-Monad-IO-Unwrappable.html	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.1/docs/Control-Monad-IO-MonadIOException.html	N/A
+https://hackage.haskell.org/package/monadio-unwrappable-0.1/src/	created	2012-05-21
+https://hackage.haskell.org/package/monadio-unwrappable-0.1/docs/Control-Monad-IO-Unwrappable.html	created	2012-05-21
+https://hackage.haskell.org/package/monadio-unwrappable-0.1/docs/Control-Monad-IO-MonadIOException.html	created	2012-05-21
 https://hackage.haskell.org/package/monadio-unwrappable-0.2	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.2/src/	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.2/docs/Control-Monad-IO-Unwrappable.html	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.2/docs/Control-Monad-IO-MonadIOException.html	N/A
+https://hackage.haskell.org/package/monadio-unwrappable-0.2/src/	created	2012-05-21
+https://hackage.haskell.org/package/monadio-unwrappable-0.2/docs/Control-Monad-IO-Unwrappable.html	created	2012-05-21
+https://hackage.haskell.org/package/monadio-unwrappable-0.2/docs/Control-Monad-IO-MonadIOException.html	created	2012-05-21
 https://hackage.haskell.org/package/monadio-unwrappable-0.3	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.3/src/	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs/Control-Monad-IO-Unwrappable.html	N/A
-https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs/Control-Monad-IO-MonadIOException.html	N/A
+https://hackage.haskell.org/package/monadio-unwrappable-0.3/src/	created	2012-06-18
+https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs/Control-Monad-IO-Unwrappable.html	created	2012-06-18
+https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs/Control-Monad-IO-MonadIOException.html	created	2012-06-18
 https://hackage.haskell.org/package/monad-fork-0.1	N/A
-https://hackage.haskell.org/package/monad-fork-0.1/src/	N/A
-https://hackage.haskell.org/package/monad-fork-0.1/docs/Control-Monad-Fork-Class.html	N/A
+https://hackage.haskell.org/package/monad-fork-0.1/src/	created	2012-02-21
+https://hackage.haskell.org/package/monad-fork-0.1/docs/Control-Monad-Fork-Class.html	created	2012-02-21
 https://hackage.haskell.org/package/monad-stm-0.1.0.0	N/A
-https://hackage.haskell.org/package/monad-stm-0.1.0.0/src/	N/A
-https://hackage.haskell.org/package/monad-stm-0.1.0.0/docs/Control-Monad-STM-Class.html	N/A
+https://hackage.haskell.org/package/monad-stm-0.1.0.0/src/	created	2013-04-06
+https://hackage.haskell.org/package/monad-stm-0.1.0.0/docs/Control-Monad-STM-Class.html	created	2013-04-06
 https://hackage.haskell.org/package/monad-stm-0.1.0.1	N/A
-https://hackage.haskell.org/package/monad-stm-0.1.0.1/src/	N/A
+https://hackage.haskell.org/package/monad-stm-0.1.0.1/src/	created	2013-04-06
 https://hackage.haskell.org/package/monad-stm-0.1.0.2	N/A
-https://hackage.haskell.org/package/monad-stm-0.1.0.2/src/	N/A
-https://hackage.haskell.org/package/monad-stm-0.1.0.2/docs/Control-Monad-STM-Class.html	N/A
+https://hackage.haskell.org/package/monad-stm-0.1.0.2/src/	created	2013-04-07
+https://hackage.haskell.org/package/monad-stm-0.1.0.2/docs/Control-Monad-STM-Class.html	created	2013-04-07
 ## Versioned unliftio and IO-unlifting resources
 https://hackage.haskell.org/package/unliftio-core-0.1.0.0	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.0.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.0.0/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.1.0.0/src/	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-core-0.1.0.0/docs/Control-Monad-IO-Unlift.html	created	2017-07-14
 https://hackage.haskell.org/package/unliftio-core-0.1.1.0	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.1.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.1.0/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.1.1.0/src/	created	2018-01-04
+https://hackage.haskell.org/package/unliftio-core-0.1.1.0/docs/Control-Monad-IO-Unlift.html	created	2018-01-04
 https://hackage.haskell.org/package/unliftio-core-0.1.2.0	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.2.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.2.0/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.1.2.0/src/	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-core-0.1.2.0/docs/Control-Monad-IO-Unlift.html	created	2018-08-28
 https://hackage.haskell.org/package/unliftio-core-0.2.0.0	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.0.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.0.0/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.2.0.0/src/	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-core-0.2.0.0/docs/Control-Monad-IO-Unlift.html	created	2020-03-01
 https://hackage.haskell.org/package/unliftio-core-0.2.0.1	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.0.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.0.1/docs/Control-Monad-IO-Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.2.0.1/src/	created	2020-03-02
+https://hackage.haskell.org/package/unliftio-core-0.2.0.1/docs/Control-Monad-IO-Unlift.html	created	2020-03-02
 https://hackage.haskell.org/package/unliftio-core-0.2.1.0	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.1.0/src/	N/A
+https://hackage.haskell.org/package/unliftio-core-0.2.1.0/src/	created	2023-02-06
 https://hackage.haskell.org/package/unlift-0.0.0.0	N/A
-https://hackage.haskell.org/package/unlift-0.0.0.0/src/	N/A
-https://hackage.haskell.org/package/unlift-0.0.0.0/docs/Unlift.html	N/A
+https://hackage.haskell.org/package/unlift-0.0.0.0/src/	created	2021-04-21
+https://hackage.haskell.org/package/unlift-0.0.0.0/docs/Unlift.html	created	2021-04-21
 https://hackage.haskell.org/package/unliftio-0.1.0.0	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.1.0.0/src/	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO.html	created	2017-07-14
 https://hackage.haskell.org/package/unliftio-0.1.1.0	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.1.1.0/src/	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO.html	created	2017-10-15
 https://hackage.haskell.org/package/unliftio-0.2.0.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.0.0/src/	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO.html	created	2017-12-05
 https://hackage.haskell.org/package/unliftio-0.2.1.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.1.0/src/	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO.html	created	2017-12-19
 https://hackage.haskell.org/package/unliftio-0.2.2.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.2.0/src/	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO.html	created	2017-12-29
 https://hackage.haskell.org/package/unliftio-0.2.4.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.4.0/src/	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO.html	created	2018-01-07
 https://hackage.haskell.org/package/unliftio-0.2.5.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.5.0/src/	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO.html	created	2018-03-13
 https://hackage.haskell.org/package/unliftio-0.2.6.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.6.0/src/	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO.html	created	2018-03-18
 https://hackage.haskell.org/package/unliftio-0.2.7.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.7.0/src/	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO.html	created	2018-04-22
 https://hackage.haskell.org/package/unliftio-0.2.7.1	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.7.1/src/	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.8.0/src/	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO.html	created	2018-09-04
 https://hackage.haskell.org/package/unliftio-0.2.8.1	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.8.1/src/	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO.html	created	2018-09-22
 https://hackage.haskell.org/package/unliftio-0.2.9.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.9.0/src/	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO.html	created	2018-12-11
 https://hackage.haskell.org/package/unliftio-0.2.10	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.10/src/	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO.html	created	2018-12-30
 https://hackage.haskell.org/package/unliftio-0.2.11	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.11/src/	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO.html	created	2019-06-07
 https://hackage.haskell.org/package/unliftio-0.2.12	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.12/src/	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO.html	created	2019-07-12
 https://hackage.haskell.org/package/unliftio-0.2.12.1	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.12.1/src/	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO.html	created	2020-03-01
 https://hackage.haskell.org/package/unliftio-0.2.13	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.13/src/	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO.html	created	2020-05-21
 https://hackage.haskell.org/package/unliftio-0.2.13.1	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.13.1/src/	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO.html	created	2020-10-29
 https://hackage.haskell.org/package/unliftio-0.2.14	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.14/src/	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO.html	created	2021-01-24
 https://hackage.haskell.org/package/unliftio-0.2.15	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.15/src/	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO.html	created	2021-05-07
 https://hackage.haskell.org/package/unliftio-0.2.16	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.16/src/	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO.html	created	2021-05-10
 https://hackage.haskell.org/package/unliftio-0.2.17	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.17/src/	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO.html	created	2021-05-28
 https://hackage.haskell.org/package/unliftio-0.2.18	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.18/src/	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO.html	created	2021-06-01
 https://hackage.haskell.org/package/unliftio-0.2.19	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.19/src/	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.20/src/	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO.html	created	2021-08-30
 https://hackage.haskell.org/package/unliftio-0.2.20.1	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.20.1/src/	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO.html	created	2022-01-27
 https://hackage.haskell.org/package/unliftio-0.2.21.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.21.0/src/	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO.html	created	2022-02-09
 https://hackage.haskell.org/package/unliftio-0.2.22.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.22.0/src/	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO.html	created	2022-04-26
 https://hackage.haskell.org/package/unliftio-0.2.23.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.23.0/src/	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO.html	created	2022-10-27
 https://hackage.haskell.org/package/unliftio-0.2.24.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.24.0/src/	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO.html	created	2023-02-28
 https://hackage.haskell.org/package/unliftio-0.2.25.0	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/src/	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.25.0/src/	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.1/src/	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO.html	created	2025-03-10
 ## Versioned unliftio IO and concurrency modules
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Timeout.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Async.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Exception.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IO.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IORef.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-MVar.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-STM.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Timeout.html	N/A
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Async.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Exception.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-IO.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-IORef.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-MVar.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Timeout.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Async.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Concurrent.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Exception.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-IO.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-IORef.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-MVar.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Timeout.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Async.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Concurrent.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Exception.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-IO.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-IORef.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-MVar.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Timeout.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Async.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Concurrent.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Exception.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-IO.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-IORef.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-MVar.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-STM.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Timeout.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Async.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Concurrent.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Exception.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-IO.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-IORef.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-MVar.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-STM.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Timeout.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Async.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Concurrent.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Exception.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-IO.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-IORef.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-MVar.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-STM.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Timeout.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Async.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Concurrent.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Exception.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-IO.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-IORef.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-MVar.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-STM.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Timeout.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Async.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Concurrent.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Exception.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-IO.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-IORef.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-MVar.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-STM.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Timeout.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Async.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Concurrent.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Exception.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-IO.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-IORef.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-MVar.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-STM.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Timeout.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Async.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Concurrent.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Exception.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-IO.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-IORef.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-MVar.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-STM.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Timeout.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Async.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Concurrent.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Exception.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-IO.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-IORef.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-MVar.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-STM.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Timeout.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Async.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Concurrent.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Exception.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-IO.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-IORef.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-MVar.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-STM.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Timeout.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Async.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Concurrent.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Exception.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-IO.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-IORef.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-MVar.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-STM.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Timeout.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Async.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Concurrent.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Exception.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-IO.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-IORef.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-MVar.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-STM.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Timeout.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Async.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Concurrent.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Exception.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-IO.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-IORef.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-MVar.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-STM.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Timeout.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Async.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Concurrent.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Exception.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-IO.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-IORef.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-MVar.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-STM.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Timeout.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Async.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Concurrent.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Exception.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-IO.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-IORef.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-MVar.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-STM.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Timeout.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Async.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Concurrent.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Exception.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-IO.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-IORef.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-MVar.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-STM.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Timeout.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Async.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Concurrent.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Exception.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-IO.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-IORef.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-MVar.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-STM.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Timeout.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Async.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Concurrent.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Exception.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-IO.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-IORef.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-MVar.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-STM.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Timeout.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Async.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Concurrent.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Exception.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-IO.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-IORef.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-MVar.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-STM.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Timeout.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Async.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Concurrent.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Exception.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-IO.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-IORef.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-MVar.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-STM.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Timeout.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Async.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Concurrent.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Exception.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-IO.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-IORef.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-MVar.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-STM.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Timeout.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Async.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Concurrent.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Exception.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-IO.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-IORef.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-MVar.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-STM.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Timeout.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Async.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Concurrent.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Exception.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-IO.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-IORef.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-MVar.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-STM.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Timeout.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Async.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Concurrent.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Exception.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-IO.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-IORef.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-MVar.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-STM.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Timeout.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Async.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Concurrent.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Exception.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-IO.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-IORef.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-MVar.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-STM.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Timeout.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Async.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Concurrent.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Exception.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IO.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IORef.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-MVar.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-STM.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Timeout.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Async.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Concurrent.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Exception.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-IO.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-IORef.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-MVar.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-STM.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Timeout.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Async.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Concurrent.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Exception.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-IO.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-IORef.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-MVar.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-STM.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Timeout.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Async.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Concurrent.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Exception.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-IO.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-IORef.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-MVar.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-STM.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Timeout.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Async.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Concurrent.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Exception.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-IO.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-IORef.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-MVar.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-STM.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Timeout.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Async.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Concurrent.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Exception.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IO.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IORef.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-MVar.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-STM.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Timeout.html	created	2025-03-10
 ## Additional versioned unliftio system modules
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Directory.html	N/A
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Chan.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.0.0/docs/UnliftIO-Temporary.html	created	2017-07-14
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Chan.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.1.1.0/docs/UnliftIO-Temporary.html	created	2017-10-15
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Chan.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.0.0/docs/UnliftIO-Temporary.html	created	2017-12-05
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Chan.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.1.0/docs/UnliftIO-Temporary.html	created	2017-12-19
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Chan.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.2.0/docs/UnliftIO-Temporary.html	created	2017-12-29
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Chan.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.4.0/docs/UnliftIO-Temporary.html	created	2018-01-07
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Chan.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Environment.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Foreign.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Process.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.5.0/docs/UnliftIO-Temporary.html	created	2018-03-13
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Chan.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Directory.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Environment.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Foreign.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Process.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.6.0/docs/UnliftIO-Temporary.html	created	2018-03-18
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Chan.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Directory.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Environment.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Foreign.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Process.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.0/docs/UnliftIO-Temporary.html	created	2018-04-22
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Chan.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Directory.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Environment.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Foreign.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Process.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.7.1/docs/UnliftIO-Temporary.html	created	2018-08-28
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Chan.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Directory.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Environment.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Foreign.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Memoize.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Process.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.0/docs/UnliftIO-Temporary.html	created	2018-09-04
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Chan.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Directory.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Environment.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Foreign.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Memoize.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Process.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.8.1/docs/UnliftIO-Temporary.html	created	2018-09-22
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Chan.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Directory.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Environment.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Foreign.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Memoize.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Process.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.9.0/docs/UnliftIO-Temporary.html	created	2018-12-11
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Chan.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Directory.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Environment.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Foreign.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Memoize.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Process.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.10/docs/UnliftIO-Temporary.html	created	2018-12-30
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Chan.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Directory.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Environment.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Foreign.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Memoize.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Process.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.11/docs/UnliftIO-Temporary.html	created	2019-06-07
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Chan.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Directory.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Environment.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Foreign.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Memoize.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Process.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-Temporary.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12/docs/UnliftIO-IO-File.html	created	2019-07-12
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Chan.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Directory.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Environment.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Foreign.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Memoize.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Process.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-Temporary.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.12.1/docs/UnliftIO-IO-File.html	created	2020-03-01
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Chan.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Directory.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Environment.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Foreign.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Memoize.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Process.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-Temporary.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13/docs/UnliftIO-IO-File.html	created	2020-05-21
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Chan.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Directory.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Environment.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Foreign.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Memoize.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Process.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-Temporary.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.13.1/docs/UnliftIO-IO-File.html	created	2020-10-29
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Chan.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Directory.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Environment.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Foreign.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Memoize.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Process.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-Temporary.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-QSem.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-QSemN.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.14/docs/UnliftIO-IO-File.html	created	2021-01-24
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Chan.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Directory.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Environment.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Foreign.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Memoize.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Process.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-Temporary.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-QSem.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-QSemN.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.15/docs/UnliftIO-IO-File.html	created	2021-05-07
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Chan.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Directory.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Environment.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Foreign.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Memoize.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Process.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-Temporary.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-QSem.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-QSemN.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.16/docs/UnliftIO-IO-File.html	created	2021-05-10
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Chan.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Directory.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Environment.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Foreign.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Memoize.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Process.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-Temporary.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-QSem.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-QSemN.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.17/docs/UnliftIO-IO-File.html	created	2021-05-28
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Chan.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Directory.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Environment.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Foreign.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Memoize.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Process.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-Temporary.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-QSem.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-QSemN.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.18/docs/UnliftIO-IO-File.html	created	2021-06-01
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Chan.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Directory.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Environment.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Foreign.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Memoize.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Process.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-Temporary.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-QSem.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-QSemN.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.19/docs/UnliftIO-IO-File.html	created	2021-07-20
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Chan.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Directory.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Environment.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Foreign.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Memoize.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Process.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-Temporary.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-QSem.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-QSemN.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20/docs/UnliftIO-IO-File.html	created	2021-08-30
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Chan.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Directory.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Environment.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Foreign.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Memoize.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Process.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-Temporary.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-QSem.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-QSemN.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.20.1/docs/UnliftIO-IO-File.html	created	2022-01-27
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Chan.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Directory.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Environment.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Foreign.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Memoize.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Process.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-Temporary.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-QSem.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-QSemN.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IO-File.html	created	2022-02-09
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Chan.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Directory.html	created	2022-04-26
 https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Environment.html	N/A
 https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Foreign.html	N/A
 https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Memoize.html	N/A
