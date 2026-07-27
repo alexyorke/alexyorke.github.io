@@ -6444,60 +6444,60 @@ https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-Fil
 https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-Console-ByteString.html	N/A
 https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO.html	N/A
 https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/git/trees/master?recursive=1	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit	modified	2020-01-18
+https://api.github.com/repos/RobertFischer/vfs-conduit/git/trees/master?recursive=1	modified	2020-01-18
 https://github.com/RobertFischer/vfs-conduit/archive/refs/heads/master.zip	N/A
 https://github.com/RobertFischer/vfs-conduit/archive/refs/heads/master.tar.gz	N/A
 https://codeload.github.com/RobertFischer/vfs-conduit/zip/refs/heads/master	N/A
 https://codeload.github.com/RobertFischer/vfs-conduit/tar.gz/refs/heads/master	N/A
 https://github.com/RobertFischer/vfs-conduit/blob/master/README.md	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/README.md	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/README.md?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/README.md?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/.gitignore	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/.gitignore	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/.gitignore?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/.gitignore?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/ChangeLog.md	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/ChangeLog.md	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/ChangeLog.md?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/ChangeLog.md?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/LICENSE	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/LICENSE	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/LICENSE?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/LICENSE?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/README.md	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/README.md	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/README.md?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/README.md?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/Setup.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/Setup.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/Setup.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/Setup.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/dist/cabal-config-flags	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/dist/cabal-config-flags	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/dist/cabal-config-flags?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/dist/cabal-config-flags?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/package.yaml	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/package.yaml	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/package.yaml?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/package.yaml?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/src/Data/Conduit/VFS.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/src/Data/Conduit/VFS/Disk.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Disk.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Disk.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Disk.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/src/Data/Conduit/VFS/Import.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Import.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Import.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Import.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/src/Data/Conduit/VFS/InMemory.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/InMemory.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/InMemory.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/InMemory.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/src/Data/Conduit/VFS/Pure.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Pure.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Pure.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Pure.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/src/Data/Conduit/VFS/Types.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Types.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Types.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/src/Data/Conduit/VFS/Types.hs?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/stack.yaml	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/stack.yaml	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/stack.yaml?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/stack.yaml?ref=master	modified	2019-06-12
 https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/test/Spec.hs	N/A
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/test/Spec.hs	N/A
-https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/test/Spec.hs?ref=master	N/A
+https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/test/Spec.hs?ref=master	modified	2019-06-12
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.0	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.0/conduit-vfs-0.1.0.0.tar.gz	created	2019-06-11
 https://hackage-content.haskell.org/package/conduit-vfs-0.1.0.0.tar.gz	N/A
@@ -6531,8 +6531,8 @@ https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Type
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Types.html	N/A
 https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Utils.html	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Utils.html	N/A
-https://api.github.com/repos/haskell-hvr/missingh	N/A
-https://api.github.com/repos/haskell-hvr/missingh/git/trees/master?recursive=1	N/A
+https://api.github.com/repos/haskell-hvr/missingh	modified	2026-04-13
+https://api.github.com/repos/haskell-hvr/missingh/git/trees/master?recursive=1	modified	2026-04-13
 https://github.com/haskell-hvr/missingh/archive/refs/heads/master.zip	updated	2026-01-07
 https://github.com/haskell-hvr/missingh/archive/refs/heads/master.tar.gz	updated	2026-01-07
 https://codeload.github.com/haskell-hvr/missingh/zip/refs/heads/master	N/A
@@ -6542,25 +6542,25 @@ https://archlinux.org/packages/extra-staging/x86_64/haskell-missingh/	N/A
 https://openhub.net/p/missingh	N/A
 https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS.hs?ref=master	modified	2026-01-07
 https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/Combinators.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/Combinators.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/Combinators.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/Combinators.hs?ref=master	modified	2026-01-07
 https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/InstanceHelpers.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/InstanceHelpers.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/InstanceHelpers.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/InstanceHelpers.hs?ref=master	modified	2026-01-07
 https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/Utils.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/Utils.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/Utils.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/Utils.hs?ref=master	modified	2026-01-07
 https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVIO.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVIO.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVIO.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVIO.hs?ref=master	modified	2026-01-07
 https://github.com/haskell-hvr/missingh/blob/master/testsrc/HVFStest.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/testsrc/HVFStest.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/testsrc/HVFStest.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/testsrc/HVFStest.hs?ref=master	modified	2026-01-07
 https://github.com/haskell-hvr/missingh/blob/master/testsrc/HVIOtest.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/testsrc/HVIOtest.hs	N/A
-https://api.github.com/repos/haskell-hvr/missingh/contents/testsrc/HVIOtest.hs?ref=master	N/A
+https://api.github.com/repos/haskell-hvr/missingh/contents/testsrc/HVIOtest.hs?ref=master	modified	2026-01-07
 https://hackage.haskell.org/package/MissingH-1.6.0.3/docs/System-IO-HVFS.html	created	2026-01-07
 https://hackage-content.haskell.org/package/MissingH-1.6.0.3/docs/System-IO-HVFS.html	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.3/docs/System-IO-HVFS-Combinators.html	created	2026-01-07
@@ -12980,42 +12980,42 @@ https://hackage-content.haskell.org/package/MissingH-1.6.0.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.3	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.3/MissingH-1.6.0.3.tar.gz	created	2026-01-07
 https://hackage-content.haskell.org/package/MissingH-1.6.0.3.tar.gz	N/A
-https://api.github.com/repos/ncfavier/knob	N/A
-https://api.github.com/repos/ncfavier/knob/git/trees/main?recursive=1	N/A
+https://api.github.com/repos/ncfavier/knob	modified	2023-04-04
+https://api.github.com/repos/ncfavier/knob/git/trees/main?recursive=1	modified	2023-04-04
 https://github.com/ncfavier/knob/archive/refs/heads/main.zip	updated	2024-02-01
 https://github.com/ncfavier/knob/archive/refs/heads/main.tar.gz	updated	2024-02-01
 https://codeload.github.com/ncfavier/knob/zip/refs/heads/main	N/A
 https://codeload.github.com/ncfavier/knob/tar.gz/refs/heads/main	N/A
 https://github.com/ncfavier/knob/blob/main/.gitignore	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/.gitignore	N/A
-https://api.github.com/repos/ncfavier/knob/contents/.gitignore?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/.gitignore?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/Setup.hs	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/Setup.hs	N/A
-https://api.github.com/repos/ncfavier/knob/contents/Setup.hs?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/Setup.hs?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/knob.cabal	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/knob.cabal	N/A
-https://api.github.com/repos/ncfavier/knob/contents/knob.cabal?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/knob.cabal?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/lib/Data/Knob.hs	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/lib/Data/Knob.hs	N/A
-https://api.github.com/repos/ncfavier/knob/contents/lib/Data/Knob.hs?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/lib/Data/Knob.hs?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/license.txt	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/license.txt	N/A
-https://api.github.com/repos/ncfavier/knob/contents/license.txt?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/license.txt?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/scripts/common.bash	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/common.bash	N/A
-https://api.github.com/repos/ncfavier/knob/contents/scripts/common.bash?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/scripts/common.bash?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/scripts/run-coverage	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-coverage	N/A
-https://api.github.com/repos/ncfavier/knob/contents/scripts/run-coverage?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/scripts/run-coverage?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/scripts/run-tests	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-tests	N/A
-https://api.github.com/repos/ncfavier/knob/contents/scripts/run-tests?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/scripts/run-tests?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/tests/KnobTests.hs	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/tests/KnobTests.hs	N/A
-https://api.github.com/repos/ncfavier/knob/contents/tests/KnobTests.hs?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/tests/KnobTests.hs?ref=main	modified	2024-02-01
 https://github.com/ncfavier/knob/blob/main/tests/knob-tests.cabal	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/tests/knob-tests.cabal	N/A
-https://api.github.com/repos/ncfavier/knob/contents/tests/knob-tests.cabal?ref=main	N/A
+https://api.github.com/repos/ncfavier/knob/contents/tests/knob-tests.cabal?ref=main	modified	2024-02-01
 https://hackage.haskell.org/package/knob-0.1	N/A
 https://hackage.haskell.org/package/knob-0.1/knob-0.1.tar.gz	created	2011-10-09
 https://hackage-content.haskell.org/package/knob-0.1.tar.gz	N/A
@@ -20047,9 +20047,9 @@ https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.h
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html	N/A
-https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Continuation.hs?ref=master	N/A
-https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Dialogue.hs?ref=master	N/A
-https://api.github.com/repos/noughtmare/free-io/contents/src/System/IO/Free.hs?ref=main	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Continuation.hs?ref=master	modified	2022-02-13
+https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Dialogue.hs?ref=master	modified	2022-02-13
+https://api.github.com/repos/noughtmare/free-io/contents/src/System/IO/Free.hs?ref=main	modified	2024-11-30
 https://github.com/AliasQli/dialogue/blob/master/dialogue.cabal	updated	2022-02-13
 https://github.com/AliasQli/dialogue/blob/master/README.md	updated	2022-02-13
 https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Continuation.hs	updated	2022-02-13
@@ -20066,22 +20066,22 @@ https://raw.githubusercontent.com/noughtmare/free-io/main/free-io.cabal	N/A
 https://raw.githubusercontent.com/noughtmare/free-io/main/src/System/IO/Free.hs	N/A
 https://codeload.github.com/AliasQli/dialogue/zip/refs/heads/master	N/A
 https://codeload.github.com/noughtmare/free-io/zip/refs/heads/main	N/A
-https://api.github.com/repos/AliasQli/dialogue/git/trees/master?recursive=1	N/A
+https://api.github.com/repos/AliasQli/dialogue/git/trees/master?recursive=1	modified	2026-01-05
 https://github.com/AliasQli/dialogue/blob/master/ChangeLog.md	updated	2022-02-13
 https://raw.githubusercontent.com/AliasQli/dialogue/master/ChangeLog.md	N/A
-https://api.github.com/repos/AliasQli/dialogue/contents/ChangeLog.md?ref=master	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/ChangeLog.md?ref=master	modified	2022-02-13
 https://github.com/AliasQli/dialogue/blob/master/examples/Main.hs	updated	2022-02-13
 https://raw.githubusercontent.com/AliasQli/dialogue/master/examples/Main.hs	N/A
-https://api.github.com/repos/AliasQli/dialogue/contents/examples/Main.hs?ref=master	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/examples/Main.hs?ref=master	modified	2022-02-13
 https://github.com/AliasQli/dialogue/archive/refs/heads/master.tar.gz	updated	2022-02-13
 https://codeload.github.com/AliasQli/dialogue/tar.gz/refs/heads/master	N/A
-https://api.github.com/repos/noughtmare/free-io/git/trees/main?recursive=1	N/A
+https://api.github.com/repos/noughtmare/free-io/git/trees/main?recursive=1	modified	2025-01-20
 https://github.com/noughtmare/free-io/blob/main/CHANGELOG.md	updated	2024-11-30
 https://raw.githubusercontent.com/noughtmare/free-io/main/CHANGELOG.md	N/A
-https://api.github.com/repos/noughtmare/free-io/contents/CHANGELOG.md?ref=main	N/A
+https://api.github.com/repos/noughtmare/free-io/contents/CHANGELOG.md?ref=main	modified	2024-11-30
 https://github.com/noughtmare/free-io/blob/main/example/Main.hs	updated	2024-11-30
 https://raw.githubusercontent.com/noughtmare/free-io/main/example/Main.hs	N/A
-https://api.github.com/repos/noughtmare/free-io/contents/example/Main.hs?ref=main	N/A
+https://api.github.com/repos/noughtmare/free-io/contents/example/Main.hs?ref=main	modified	2024-11-30
 https://github.com/noughtmare/free-io/archive/refs/heads/main.tar.gz	updated	2024-11-30
 https://codeload.github.com/noughtmare/free-io/tar.gz/refs/heads/main	N/A
 https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad/	publication	2012
@@ -20390,33 +20390,33 @@ https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.rdf	published	2011
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.xml	published	2011
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.txt	published	2011
 https://repos.ecosyste.ms/hosts/GitHub/owners/expipiplus1?page=1&per_page=100	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/git/trees/master?recursive=1	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell	modified	2025-11-20
+https://api.github.com/repos/alexandersgreen/qio-haskell/git/trees/master?recursive=1	modified	2025-11-20
 https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.zip	updated	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.tar.gz	updated	2016-11-13
 https://codeload.github.com/alexandersgreen/qio-haskell/zip/refs/heads/master	N/A
 https://codeload.github.com/alexandersgreen/qio-haskell/tar.gz/refs/heads/master	N/A
 https://github.com/alexandersgreen/qio-haskell/blob/master/LICENSE	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/LICENSE	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/LICENSE?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/LICENSE?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO.cabal	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO.cabal	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO.cabal?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO.cabal?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Heap.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Heap.hs	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Heap.hs?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Heap.hs?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QArith.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QArith.hs	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QArith.hs?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QArith.hs?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QExamples.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QExamples.hs	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QExamples.hs?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QExamples.hs?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QIORandom.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QIORandom.hs	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QIORandom.hs?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QIORandom.hs?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qdata.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qdata.hs	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qdata.hs?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qdata.hs?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qft.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qft.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qft.hs?ref=master	N/A
@@ -20428,7 +20428,7 @@ https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioClas
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioClass.hs?ref=master	N/A
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSyn.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSyn.hs	N/A
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSyn.hs?ref=master	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSyn.hs?ref=master	modified	2016-11-13
 https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSynAlt.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSynAlt.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSynAlt.hs?ref=master	N/A
