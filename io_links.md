@@ -27535,10 +27535,10 @@ https://hackage.haskell.org/package/SDL/docs	created	2018-07-15
 https://hackage.haskell.org/package/sdl2	N/A
 https://hackage.haskell.org/package/sdl2/docs/SDL-Audio.html	created	2026-06-30
 https://hackage.haskell.org/package/sdl2/docs/SDL-Event.html	created	2026-06-30
-https://hackage.haskell.org/package/sdl2/docs/SDL-Filesystem.html	N/A
-https://hackage.haskell.org/package/sdl2/docs/SDL-Input-Mouse.html	N/A
-https://hackage.haskell.org/package/sdl2/docs/SDL-Video.html	N/A
-https://hackage.haskell.org/package/sdl2-1.2.0/docs/doc-index-W.html	N/A
+https://hackage.haskell.org/package/sdl2/docs/SDL-Filesystem.html	created	2026-06-30
+https://hackage.haskell.org/package/sdl2/docs/SDL-Input-Mouse.html	created	2026-06-30
+https://hackage.haskell.org/package/sdl2/docs/SDL-Video.html	created	2026-06-30
+https://hackage.haskell.org/package/sdl2-1.2.0/docs/doc-index-W.html	created	2014-11-02
 https://haskell-game.dev/intro/gloss.html	N/A
 https://uuinfofp.github.io/practicals/project.pdf	N/A
 https://www.cs.princeton.edu/~dpw/cos441-11/notes/slides05-Haskell-IO.pdf	N/A
@@ -27551,8 +27551,8 @@ https://citeseerx.ist.psu.edu/document?doi=872a949b9a66c3d6c657942e2e27f00f867dd
 https://docs.servant.dev/en/stable/tutorial/Server.html	N/A
 https://github-wiki-see.page/m/scotty-web/scotty/wiki/Scotty-Tutorials-%26-Examples	N/A
 https://hackage.haskell.org/package/scotty	N/A
-https://hackage.haskell.org/package/scotty-0.21/docs/Web-Scotty.html	N/A
-https://hackage.haskell.org/package/wai/docs/Network-Wai.html	N/A
+https://hackage.haskell.org/package/scotty-0.21/docs/Web-Scotty.html	created	2023-12-17
+https://hackage.haskell.org/package/wai/docs/Network-Wai.html	created	2023-12-10
 https://stackoverflow.com/questions/41316870/perform-io-inside-wai-application	N/A
 https://www.reddit.com/r/haskell/comments/10chdim	N/A
 https://www.reddit.com/r/haskell/comments/1dzxmxi	N/A
@@ -27561,10 +27561,10 @@ https://www.reddit.com/r/haskell/comments/xhiur9	N/A
 https://www.reddit.com/r/haskell/comments/z13xvj	N/A
 https://www.servant.dev/client-in-5-minutes.html	N/A
 https://hackage.haskell.org/package/snap-core	N/A
-https://hackage.haskell.org/package/snap-core/docs/Snap-Core.html	N/A
-https://hackage.haskell.org/package/snap-core-1.0.0.0/candidate/docs/Snap-Test.html	N/A
-https://hackage.haskell.org/package/snap-server-0.4.0/docs/Snap-Http-Server.html	N/A
-https://hackage.haskell.org/package/wai-3.2.2.1/docs/Network-Wai.html	N/A
+https://hackage.haskell.org/package/snap-core/docs/Snap-Core.html	created	2023-02-10
+https://hackage.haskell.org/package/snap-core-1.0.0.0/candidate/docs/Snap-Test.html	created	2016-08-08
+https://hackage.haskell.org/package/snap-server-0.4.0/docs/Snap-Http-Server.html	created	2011-02-06
+https://hackage.haskell.org/package/wai-3.2.2.1/docs/Network-Wai.html	created	2019-06-20
 https://stackoverflow.com/questions/19079579/in-yesod-can-we-invoke-a-method-that-returns-handler-from-a-method-that-retu	N/A
 https://stackoverflow.com/questions/77530224/how-would-i-make-a-proxy-with-wai-and-http-client-that-can-stream-server-sent-ev	N/A
 https://www.reddit.com/r/haskell/comments/15ac9nr	N/A
@@ -27573,26 +27573,26 @@ https://www.reddit.com/r/haskellquestions/comments/ec2e0v	N/A
 https://www.scs.stanford.edu/16wi-cs240h/projects/campagna_dodhia_jain.pdf	N/A
 https://www.yesodweb.com/book/routing-and-handlers	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-entropy/	N/A
-https://hackage.haskell.org/package/crypto-api/docs/Crypto-Random.html	N/A
+https://hackage.haskell.org/package/crypto-api/docs/Crypto-Random.html	created	2018-01-05
 https://hackage-content.haskell.org/package/crypton-1.0.4/docs/Crypto-Random-Types.html	N/A
-https://hackage.haskell.org/package/crypton-0.31/docs/src/Crypto.Tutorial.html	N/A
-https://hackage.haskell.org/package/entropy-0.4.1.6/docs/System-Entropy.html	N/A
-https://hackage.haskell.org/package/tls/docs/src	N/A
+https://hackage.haskell.org/package/crypton-0.31/docs/src/Crypto.Tutorial.html	created	2023-06-06
+https://hackage.haskell.org/package/entropy-0.4.1.6/docs/System-Entropy.html	created	2020-04-11
+https://hackage.haskell.org/package/tls/docs/src	created	2026-06-03
 https://hackage-content.haskell.org/package/tls-2.1.10/docs/Network-TLS.html	N/A
-https://hackage.haskell.org/package/readline/docs/System-Console-Readline.html	N/A
+https://hackage.haskell.org/package/readline/docs/System-Console-Readline.html	created	2013-02-17
 https://hackage-content.haskell.org/package/brick-2.10/docs/Brick-Main.html	N/A
 https://hackage-content.haskell.org/package/repline-0.4.3.0/docs/System-Console-Repline.html	N/A
 https://stackoverflow.com/questions/37144229/how-can-i-use-getline-or-getchar-in-haskell	N/A
 https://stackoverflow.com/questions/40717014/how-to-readline-in-haskell-without-transfer-to-the-next-line	N/A
 https://www.reddit.com/r/haskell/comments/kepn3n	N/A
 https://www.reddit.com/r/haskell/comments/r7e9a9	N/A
-https://hackage.haskell.org/package/ansi-terminal-0.8.0.4/docs/System-Console-ANSI.html	N/A
-https://hackage.haskell.org/package/AsyncRattus-0.1.0.3/src/docs/paper.pdf	N/A
+https://hackage.haskell.org/package/ansi-terminal-0.8.0.4/docs/System-Console-ANSI.html	created	2018-05-07
+https://hackage.haskell.org/package/AsyncRattus-0.1.0.3/src/docs/paper.pdf	created	2023-12-10
 https://hackage.haskell.org/package/tinytools-vty	N/A
 https://hackage.haskell.org/package/vty-5.18	N/A
-https://hackage.haskell.org/package/vty-5.18/docs/Graphics-Vty.html	N/A
-https://hackage.haskell.org/package/vty-ui/docs/Graphics-Vty-Widgets-Edit.html	N/A
-https://hackage.haskell.org/package/vty-windows/docs/Graphics-Vty-Platform-Windows-Input.html	N/A
+https://hackage.haskell.org/package/vty-5.18/docs/Graphics-Vty.html	created	2017-10-06
+https://hackage.haskell.org/package/vty-ui/docs/Graphics-Vty-Widgets-Edit.html	created	2015-04-11
+https://hackage.haskell.org/package/vty-windows/docs/Graphics-Vty-Platform-Windows-Input.html	created	2025-06-01
 https://hackage-content.haskell.org/package/brick-2.10/docs/Brick-Types.html	N/A
 https://veldi.dev/A%20gentle%20guide%20to%20Haskell%27s%20Brick/	N/A
 https://www.reddit.com/r/haskell/comments/ceerty	N/A
@@ -27601,14 +27601,14 @@ https://www.reddit.com/r/haskell/comments/uzx9dx	N/A
 https://www.reddit.com/r/haskell/comments/yxlq8s	N/A
 https://www.reddit.com/r/haskellquestions/comments/er562k	N/A
 https://www.stackage.org/package/ansi-terminal	N/A
-https://hackage.haskell.org/package/mmap/docs/System-IO-MMap.html	N/A
-https://hackage.haskell.org/package/temporary/docs/System-IO-Temp.html	N/A
+https://hackage.haskell.org/package/mmap/docs/System-IO-MMap.html	created	2013-09-05
+https://hackage.haskell.org/package/temporary/docs/System-IO-Temp.html	created	2018-04-10
 https://www.reddit.com/r/haskell/comments/16e34mw	N/A
 https://www.reddit.com/r/haskell/comments/vs7m2j	N/A
 https://www.reddit.com/r/haskellquestions/comments/qtrkf2	N/A
 https://archives.haskell.org/code.haskell.org/hinotify/README.html	N/A
-https://hackage.haskell.org/package/linux-inotify/docs/System-Linux-Inotify.html	N/A
-https://hackage.haskell.org/package/path-io/docs/Path-IO.html	N/A
+https://hackage.haskell.org/package/linux-inotify/docs/System-Linux-Inotify.html	created	2020-07-30
+https://hackage.haskell.org/package/path-io/docs/Path-IO.html	created	2024-05-20
 https://hackage-content.haskell.org/package/fsnotify-0.4.3.0/docs/System-FSNotify.html	N/A
 https://hackage-content.haskell.org/package/fsnotify-0.4.4.0/docs/src/System.FSNotify.html	N/A
 https://subscription.packtpub.com/book/data/9781783286331/10/ch10lvl1sec33/detecting-real-time-file-directory-changes	N/A
@@ -27620,33 +27620,33 @@ https://hackage.haskell.org/package/socket-unix	N/A
 https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/unix-2.4.2.0/System-Posix-SharedMem.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/Win32-2.14.2.1-inplace/System-Win32-NamedPipes.html	N/A
 https://hackage.haskell.org/package/posix-api	N/A
-https://hackage.haskell.org/package/shared-memory-0.1.0.0/docs/SharedMemory.html	N/A
+https://hackage.haskell.org/package/shared-memory-0.1.0.0/docs/SharedMemory.html	created	2014-11-25
 https://hackage.haskell.org/package/unix	N/A
-https://hackage.haskell.org/package/unix-2.4.1.0/docs/System-Posix-IO.html	N/A
-https://hackage.haskell.org/package/unix-2.8.1.0/docs/System-Posix-IO-PosixString.html	N/A
+https://hackage.haskell.org/package/unix-2.4.1.0/docs/System-Posix-IO.html	created	2010-11-16
+https://hackage.haskell.org/package/unix-2.8.1.0/docs/System-Posix-IO-PosixString.html	created	2023-02-23
 https://hackage.haskell.org/package/unix-bytestring-0.4.0.1	N/A
 https://hackage-content.haskell.org/package/unix-2.8.8.0/docs/src/System.Posix.SharedMem.html	N/A
 https://stackoverflow.com/questions/13441676/how-to-write-ctrl-c-handler-in-haskell	N/A
 https://www.reddit.com/r/haskell/comments/e90icy	N/A
 https://www.reddit.com/r/haskell/comments/ve9eng	N/A
 https://arxiv.org/abs/2011.03070	created	2011
-https://hackage.haskell.org/package/amazonka-1.6.1/docs/Control-Monad-Trans-AWS.html	N/A
+https://hackage.haskell.org/package/amazonka-1.6.1/docs/Control-Monad-Trans-AWS.html	created	2019-02-06
 https://hackage.haskell.org/package/aws	N/A
 https://stackoverflow.com/questions/48119827/send-message-in-cloudhaskell-from-io-monad	N/A
 https://www.reddit.com/r/haskell/comments/eb0u18	N/A
 https://www.reddit.com/r/haskellquestions/comments/gr1fji	N/A
-https://hackage.haskell.org/package/amazonka/docs/Amazonka.html	N/A
-https://hackage.haskell.org/package/remote-monad-0.1.0.1/docs	N/A
+https://hackage.haskell.org/package/amazonka/docs/Amazonka.html	created	2023-07-27
+https://hackage.haskell.org/package/remote-monad-0.1.0.1/docs	created	2016-02-05
 https://packages.ecosyste.ms/registries/hackage.haskell.org/packages/monad-control	N/A
 https://www.reddit.com/r/haskell/comments/mwwgx2	N/A
 https://hackage.haskell.org/package/monad-metrics	N/A
-https://hackage.haskell.org/package/prometheus-client/docs/Prometheus.html	N/A
-https://hackage.haskell.org/package/tracing/docs/Control-Monad-Trace.html	N/A
-https://hackage.haskell.org/package/tracing-0.0.1.1/docs/Control-Monad-Trace.html	N/A
-https://hackage.haskell.org/package/tracing-control/docs/Control-Monad-Trace-Class.html	N/A
+https://hackage.haskell.org/package/prometheus-client/docs/Prometheus.html	created	2026-05-27
+https://hackage.haskell.org/package/tracing/docs/Control-Monad-Trace.html	created	2024-01-20
+https://hackage.haskell.org/package/tracing-0.0.1.1/docs/Control-Monad-Trace.html	created	2019-06-08
+https://hackage.haskell.org/package/tracing-control/docs/Control-Monad-Trace-Class.html	created	2022-03-20
 https://hackage-content.haskell.org/package/hs-opentelemetry-api-0.3.0.0/docs/OpenTelemetry-Trace-Monad.html	N/A
 https://www.reddit.com/r/haskell/comments/1b6mbd9	N/A
-https://hackage.haskell.org/package/ekg-rrd/docs/System-Metrics-RRDTool.html	N/A
+https://hackage.haskell.org/package/ekg-rrd/docs/System-Metrics-RRDTool.html	created	2015-01-09
 https://hackage.haskell.org/package/opentelemetry	N/A
 https://hackage-content.haskell.org/package/ekg-0.4.1.2/docs/System-Remote-Monitoring.html	N/A
 https://hackage-content.haskell.org/package/ekg-core-0.1.2.0/docs/System-Metrics.html	N/A
@@ -27654,7 +27654,7 @@ https://hackage-content.haskell.org/package/ekg-core-0.1.2.0/docs/System-Metrics
 https://hackage-content-origin.haskell.org/package/ekg-core-0.1.1.6/docs/System-Metrics-Distribution-Internal.html	N/A
 https://api.pageplace.de/preview/DT0400.9781783286348_A24172325/preview-9781783286348_A24172325.pdf	N/A
 https://discourse.haskell.org/t/how-to-parse-streams-and-variable-length-syntax/11347	publication	2025-02-04
-https://hackage.haskell.org/package/streaming-utils/docs/Data-Attoparsec-ByteString-Streaming.html	N/A
+https://hackage.haskell.org/package/streaming-utils/docs/Data-Attoparsec-ByteString-Streaming.html	created	2024-09-20
 https://hackage-content.haskell.org/package/configuration-tools-0.7.1/docs/Configuration-Utils-ConfigFile.html	N/A
 https://livebook.manning.com/book/get-programming-with-haskell/chapter-40	N/A
 https://stackoverflow.com/questions/12736533/lifting-function-into-io-monad-to-parse-a-json-string-read-from-a-file	N/A
@@ -27667,20 +27667,20 @@ https://www.reddit.com/r/haskell/comments/k7jth7	N/A
 https://www.reddit.com/r/haskell/comments/p38o4p	N/A
 https://www.reddit.com/r/haskell/comments/rpmjz6	N/A
 https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/text-manipulation/json	N/A
-https://hackage.haskell.org/package/dhall-1.42.2/docs/Dhall.html	N/A
+https://hackage.haskell.org/package/dhall-1.42.2/docs/Dhall.html	created	2025-01-19
 https://hackage.haskell.org/package/dotenv-0.12.0.0	N/A
-https://hackage.haskell.org/package/yaml/docs/Data-Yaml.html	N/A
+https://hackage.haskell.org/package/yaml/docs/Data-Yaml.html	created	2023-07-01
 https://stackoverflow.com/questions/50136713/reading-an-ini-file-using-monads	N/A
 https://stackoverflow.com/questions/54982110/using-reader-monad-for-config-file	N/A
 https://stackoverflow.com/questions/73597644/statet-for-configuration-file	N/A
 https://www.cmi.ac.in/~spsuresh/teaching/prgh15/lectures/lecture23.pdf	N/A
 https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/bsc/Andresen_Justin.pdf	N/A
 https://www.reddit.com/r/haskell/comments/vgp29b	N/A
-https://hackage.haskell.org/package/imap/docs/Network-IMAP.html	N/A
+https://hackage.haskell.org/package/imap/docs/Network-IMAP.html	created	2018-12-03
 https://hackage.haskell.org/package/hw-kafka-client	N/A
-https://hackage.haskell.org/package/hw-kafka-client/docs/Kafka-Consumer.html	N/A
-https://hackage.haskell.org/package/hw-kafka-client/docs/Kafka-Producer.html	N/A
-https://hackage.haskell.org/package/kafka-client/docs/Kafka.html	N/A
+https://hackage.haskell.org/package/hw-kafka-client/docs/Kafka-Consumer.html	created	2023-08-05
+https://hackage.haskell.org/package/hw-kafka-client/docs/Kafka-Producer.html	created	2023-08-05
+https://hackage.haskell.org/package/kafka-client/docs/Kafka.html	created	2015-06-02
 https://hackage-content.haskell.org/package/amqp-worker-2.0.1/docs/Network-AMQP-Worker-Connection.html	N/A
 https://www.reddit.com/r/haskell/comments/ngaegl	N/A
 https://stackoverflow.com/questions/39193147/combining-and-splitting-assignment-in-haskell-io-do-block	N/A
@@ -27711,8 +27711,8 @@ https://stackoverflow.com/questions/70480804/haskell-exercise-mooc-fi-do-notatio
 https://web.cecs.pdx.edu/~sheard/course/AdvancedFP/hw/hw5.html	N/A
 https://www.classes.cs.uchicago.edu/archive/2023/winter/22300-1/notes/introduction/	created	2023
 https://www.rose-hulman.edu/Class/cs/csse403/201010/SlidePDFs/HaskellIO.pdf	N/A
-https://hackage.haskell.org/package/conduit-1.0.0/docs/Data-Conduit.html	N/A
-https://hackage.haskell.org/package/pipes-4.1.2/docs/Pipes.html	N/A
+https://hackage.haskell.org/package/conduit-1.0.0/docs/Data-Conduit.html	created	2013-02-18
+https://hackage.haskell.org/package/pipes-4.1.2/docs/Pipes.html	created	2014-05-14
 https://stackoverflow.com/questions/17094862/how-to-read-all-content-of-a-file-with-iteratee	N/A
 https://www.reddit.com/r/haskell/comments/1s5fmu6/delayedlazy_either_list/	N/A
 https://www.reddit.com/r/haskell/comments/utmymx/comparing_strict_and_lazy/	N/A
@@ -27758,10 +27758,10 @@ https://www.reddit.com/r/haskell/comments/1hgas2t	N/A
 https://www.reddit.com/r/haskell/comments/dwpw78	N/A
 https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/base-4.3.1.0/Control-Concurrent.html	N/A
 https://downloads.haskell.org/~ghc/8.8.4/docs/html/libraries/base-4.13.0.0/GHC-Event.html	N/A
-https://hackage.haskell.org/package/epoll/docs	N/A
-https://hackage.haskell.org/package/epoll/docs/System-Linux-Epoll-EventLoop.html	N/A
+https://hackage.haskell.org/package/epoll/docs	created	2009-12-14
+https://hackage.haskell.org/package/epoll/docs/System-Linux-Epoll-EventLoop.html	created	2009-12-14
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/process-1.6.26.1-inplace/System-Process-Internals.html	N/A
-https://hackage.haskell.org/package/ansi-terminal-0.11.1/changelog	N/A
+https://hackage.haskell.org/package/ansi-terminal-0.11.1/changelog	created	2021-11-23
 https://mail.haskell.org/pipermail/cvs-ghc/2007-January/033562.html	created	2007
 https://www.mail-archive.com/ghc-devs%40haskell.org/msg21725.html	N/A
 https://www.reddit.com/r/haskell/comments/iuloeh	N/A
@@ -27769,8 +27769,8 @@ https://www.reddit.com/r/haskell/comments/sl8j73	N/A
 https://www.haskell.org/hugs/pages/libraries/base/Control-Monad-ST-Lazy.html	N/A
 https://downloads.haskell.org/~ghc/9.0-latest/docs/html/libraries/base-4.15.1.0/src/GHC-IO-Unsafe.html	N/A
 https://downloads.haskell.org/ghc/7.0.3/docs/core.pdf	N/A
-https://hackage.haskell.org/package/base/candidate/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.6.0.1/docs/src/Control-Monad-ST-Lazy-Imp.html	N/A
+https://hackage.haskell.org/package/base/candidate/docs/GHC-ST.html	created	2025-12-19
+https://hackage.haskell.org/package/base-4.6.0.1/docs/src/Control-Monad-ST-Lazy-Imp.html	created	2013-01-31
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Handle.Types.html	N/A
 https://www.nslabs.jp/haskell-fileio.rhtml	N/A
 https://www.reddit.com/r/haskell/comments/ddqe8t	N/A
@@ -27788,8 +27788,8 @@ https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/stdinout/	N/A
 https://www.cmi.ac.in/~spsuresh/teaching/prgh19/lectures/lecture18.pdf	N/A
 https://www.reddit.com/r/haskellquestions/comments/k0tw9h	N/A
 https://www.reddit.com/r/haskellquestions/comments/l4r0uu	N/A
-https://hackage.haskell.org/package/ghc-prim/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/stdio/docs/Std-IO-Buffered.html	N/A
+https://hackage.haskell.org/package/ghc-prim/docs/src/GHC.Prim.html	created	2024-12-16
+https://hackage.haskell.org/package/stdio/docs/Std-IO-Buffered.html	created	2019-05-15
 https://www.reddit.com/r/haskell/comments/102ofst	N/A
 https://www.reddit.com/r/haskell/comments/g30xq2	N/A
 https://www.reddit.com/r/haskell/comments/m6gv2g	N/A
@@ -27799,7 +27799,7 @@ https://www.reddit.com/r/haskell/comments/vieopo	N/A
 https://downloads.haskell.org/~ghc/6.12.2/docs/html/users_guide/lang-parallel.html	N/A
 https://eprints.whiterose.ac.uk/id/eprint/118198/	created	2015
 https://www.reddit.com/r/haskell/comments/10k3ann	N/A
-https://hackage.haskell.org/package/temporary-1.2.0.2/docs/src/System-IO-Temp.html	N/A
+https://hackage.haskell.org/package/temporary-1.2.0.2/docs/src/System-IO-Temp.html	created	2014-04-05
 https://hackage-content.haskell.org/package/extra-1.8/docs/System-IO-Extra.html	N/A
 https://hackage-content.haskell.org/package/typed-process-0.2.13.0	N/A
 https://learnxbyexample.com/haskell/temporary-files-and-directories/	publication	2024-09-22
@@ -27812,7 +27812,7 @@ https://book.realworldhaskell.org/read/efficient-file-processing-regular-express
 https://downloads.haskell.org/~ghc/6.8.3/docs/html/libraries/bytestring/Data-ByteString.html	N/A
 https://downloads.haskell.org/~ghc/9.6.4/docs/libraries/unix-2.8.4.0/System-Posix-IO-ByteString.html	N/A
 https://gitlab.haskell.org/ghc/ghc/-/issues/17755	N/A
-https://hackage.haskell.org/package/text-utf8/docs/Data-Text-IO.html	N/A
+https://hackage.haskell.org/package/text-utf8/docs/Data-Text-IO.html	created	2018-05-14
 https://hackage-content.haskell.org/package/system-fileio-0.3.16.7/docs/Filesystem.html	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/bytestring/	N/A
 https://www.reddit.com/r/haskell/comments/jguomx	N/A
@@ -27822,13 +27822,13 @@ https://www.reddit.com/r/haskell/comments/u8enux	N/A
 https://www.reddit.com/r/haskell/comments/wc2cea	N/A
 https://www.reddit.com/r/haskell/comments/x64u3v	N/A
 https://www.reddit.com/r/haskellquestions/comments/c7oxlf	N/A
-https://hackage.haskell.org/package/network-2.3/docs/Network-Socket.html	N/A
-https://hackage.haskell.org/package/network-bytestring/docs	N/A
+https://hackage.haskell.org/package/network-2.3/docs/Network-Socket.html	created	2010-11-11
+https://hackage.haskell.org/package/network-bytestring/docs	created	2011-01-31
 https://www.reddit.com/r/haskell/comments/d8evg4	N/A
 https://www.reddit.com/r/haskellquestions/comments/cibctf	N/A
 https://downloads.haskell.org/~ghc/6.6.1/docs/html/libraries/base/System-Posix-Signals.html	N/A
 https://downloads.haskell.org/~ghc/latest/docs/libraries/unix-2.8.8.0-98c9/System-Posix-Signals.html	N/A
-https://hackage.haskell.org/package/concurrent-output-1.2.0/docs/System-Process-Concurrent.html	N/A
+https://hackage.haskell.org/package/concurrent-output-1.2.0/docs/System-Process-Concurrent.html	created	2015-11-03
 https://packages.debian.org/source/stable/haskell-unixutils	N/A
 https://stackoverflow.com/questions/68610936/how-to-handle-sigwinch-in-haskell	N/A
 https://www.reddit.com/r/haskell/comments/ir3hmr	N/A
@@ -27837,7 +27837,7 @@ https://www.reddit.com/r/haskellquestions/comments/vnkhc2	N/A
 https://downloads.haskell.org/~ghc/6.10.2/docs/html/libraries/Cabal/src/Distribution-Simple-Utils.html	N/A
 https://downloads.haskell.org/~ghc/7.6-latest/docs/html/libraries/directory-1.2.0.1/System-Directory.html	N/A
 https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/directory-1.3.6.0/System-Directory.html	N/A
-https://hackage.haskell.org/package/atomic-file-ops/docs/System-IO-AtomicFileOps.html	N/A
+https://hackage.haskell.org/package/atomic-file-ops/docs/System-IO-AtomicFileOps.html	created	2018-01-15
 https://hackage.haskell.org/package/atomic-write	N/A
 https://hackage-content.haskell.org/package/atomic-write-0.2.1.1/docs/System-AtomicWrite-Writer-ByteString.html	N/A
 https://packages.cachyos.org/package/extra/x86_64/haskell-atomic-write	N/A
@@ -27850,7 +27850,7 @@ https://downloads.haskell.org/~ghc/6.0/docs/html/unix/System.Posix.Terminal.html
 https://downloads.haskell.org/ghc/8.6-latest/docs/html/libraries/haskeline-0.7.4.3/doc-index.html	N/A
 https://downloads.haskell.org/ghc/9.4.3/docs/libraries/haskeline-0.8.2/doc-index.html	N/A
 https://hackage.haskell.org/package/concurrent-output	N/A
-https://hackage.haskell.org/package/concurrent-output/docs/System-Console-Concurrent.html	N/A
+https://hackage.haskell.org/package/concurrent-output/docs/System-Console-Concurrent.html	created	2024-04-29
 https://hackage-content-origin.haskell.org/package/concurrent-output-1.10.2/docs/src/System-Console-Concurrent-Internal.html	N/A
 https://www.haskell.org/hugs/pages/libraries/unix/System-Posix-Terminal.html	N/A
 https://www.reddit.com/r/haskell/comments/c57q9w	N/A
@@ -27860,9 +27860,9 @@ https://www.reddit.com/r/haskell/comments/o1d8t3	N/A
 https://www.reddit.com/r/haskellquestions/comments/lx5jgb	N/A
 https://downloads.haskell.org/~ghc/5.02/docs/set/sec-weak.html	N/A
 https://gitlab.haskell.org/ghc/ghc/-/issues/13167	N/A
-https://hackage.haskell.org/package/base/candidate/docs/GHC-ForeignPtr.html	N/A
-https://hackage.haskell.org/package/base-4.10.0.0/docs/src/GHC.ForeignPtr.html	N/A
-https://hackage.haskell.org/package/mutable-containers/docs/Data-Mutable.html	N/A
+https://hackage.haskell.org/package/base/candidate/docs/GHC-ForeignPtr.html	created	2025-12-19
+https://hackage.haskell.org/package/base-4.10.0.0/docs/src/GHC.ForeignPtr.html	created	2017-07-23
+https://hackage.haskell.org/package/mutable-containers/docs/Data-Mutable.html	created	2022-09-23
 https://people.cs.nott.ac.uk/pszgmh/real-world.pdf	N/A
 https://stackoverflow.com/questions/20439316/when-to-use-stref-or-ioref	N/A
 https://www.reddit.com/r/haskell/comments/102resp	N/A
@@ -27880,18 +27880,18 @@ https://www.reddit.com/r/haskell/comments/oo5cm5	N/A
 https://www.reddit.com/r/haskell/comments/pkhx08	N/A
 https://www.reddit.com/r/haskell/comments/sajpj8	N/A
 https://www.reddit.com/r/haskell/comments/yk9wd0	N/A
-https://hackage.haskell.org/package/prologue-3.2.6/docs/Prologue-Control-Monad.html	N/A
+https://hackage.haskell.org/package/prologue-3.2.6/docs/Prologue-Control-Monad.html	created	2018-12-18
 https://stackoverflow.com/questions/62265750/stm-and-unsafeperformio-in-haskell	N/A
 https://www.reddit.com/r/haskell/comments/1oujfmi	N/A
 https://cseweb.ucsd.edu/classes/wi11/cse230/static/lec-stm.pdf	N/A
-https://hackage.haskell.org/package/system-time-monotonic/docs/System-Time-Monotonic.html	N/A
+https://hackage.haskell.org/package/system-time-monotonic/docs/System-Time-Monotonic.html	created	2012-08-07
 https://haskell.libhunt.com/time-machine-alternatives	N/A
 https://www.haskell.org/hugs/pages/libraries/base/System-Time.html	N/A
 https://www.reddit.com/r/haskell/comments/jhz42b	N/A
 https://www.reddit.com/r/haskell/comments/ky1llf	N/A
 https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/src/Debug-Trace.html	N/A
 https://downloads.haskell.org/ghc/8.8.3/docs/html/libraries/base-4.13.0.0/Debug-Trace.html	N/A
-https://hackage.haskell.org/package/print-debugger/docs/Debug-Print-StackTraceDebug.html	N/A
+https://hackage.haskell.org/package/print-debugger/docs/Debug-Print-StackTraceDebug.html	created	2016-02-14
 https://stackoverflow.com/questions/9447666/catching-hijacking-stdout-in-haskell	N/A
 https://www.reddit.com/r/haskell/comments/13a54of	N/A
 https://www.reddit.com/r/haskell/comments/1d11ftb	N/A
@@ -27900,16 +27900,16 @@ https://www.reddit.com/r/haskell/comments/qb9t3f	N/A
 https://www.reddit.com/r/haskellquestions/comments/66a9d1	N/A
 https://downloads.haskell.org/ghc/6.10.2/docs/html/libraries/bytestring/src/Data-ByteString.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/bytestring-0.12.2.0-f1bc/Data-ByteString.html	N/A
-https://hackage.haskell.org/package/colock/docs/System-IO-Lock.html	N/A
-https://hackage.haskell.org/package/lock-file/docs/System-IO-LockFile.html	N/A
-https://hackage.haskell.org/package/sendfile/docs/Network-Socket-SendFile.html	N/A
-https://hackage.haskell.org/package/simple-sendfile/docs/Network-Sendfile.html	N/A
+https://hackage.haskell.org/package/colock/docs/System-IO-Lock.html	created	2008-01-28
+https://hackage.haskell.org/package/lock-file/docs/System-IO-LockFile.html	created	2018-04-15
+https://hackage.haskell.org/package/sendfile/docs/Network-Socket-SendFile.html	created	2024-05-23
+https://hackage.haskell.org/package/simple-sendfile/docs/Network-Sendfile.html	created	2023-06-19
 https://hackage-content.haskell.org/package/filelock-0.1.1.8/docs/System-FileLock.html	N/A
 https://www.reddit.com/r/haskell/comments/1awp9dy	N/A
 https://www.reddit.com/r/haskell/comments/vf8w5w	N/A
 https://downloads.haskell.org/~ghc/7.0-latest/docs/html/libraries/bytestring-0.9.1.10/Data-ByteString-Lazy.html	N/A
 https://hackage.haskell.org/package/zip	N/A
-https://hackage.haskell.org/package/zip-stream/docs/Codec-Archive-Zip-Conduit-UnZip.html	N/A
+https://hackage.haskell.org/package/zip-stream/docs/Codec-Archive-Zip-Conduit-UnZip.html	created	2022-11-21
 https://hackage-content.haskell.org/package/conduit-extra-1.3.8/docs/Data-Conduit-Zlib.html	N/A
 https://hackage-content.haskell.org/package/streaming-bytestring-0.3.4/docs/Streaming-ByteString-Char8.html	N/A
 https://hackage-content.haskell.org/package/streaming-commons-0.2.3.1/docs/Data-Streaming-Zlib.html	N/A
