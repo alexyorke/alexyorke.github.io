@@ -32397,7 +32397,7 @@ https://www.doi.org/10.1145/143165.143169	publication	1992
 https://downloads.haskell.org/~ghc/9.10.0.20240426/docs/libraries/ghc-internal-9.1001.0-206d/GHC-Internal-System-IO.html	N/A
 https://haddocks.haskell-miso.org/base/index.html	N/A
 https://haddocks.haskell-miso.org/base/doc-index-I.html	N/A
-https://hackage.haskell.org/package/ghc-internal/docs	N/A
+https://hackage.haskell.org/package/ghc-internal/docs	created	2025-12-19
 https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow	N/A
 https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/	N/A
 https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ	N/A
@@ -32442,9 +32442,9 @@ https://zephyrtronium.github.io/articles/koka-experience.html	N/A
 https://gluon-lang.github.io/gluon/print.html	N/A
 https://atnos-org.github.io/eff/org.atnos.site.Introduction.html	N/A
 https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful-Internal-Monad.html	N/A
-https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html	N/A
+https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal.html	created	2024-06-03
 https://hackage.haskell.org/package/effectful-core-2.6.0.0/docs/Effectful.html	N/A
-https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html	N/A
+https://hackage.haskell.org/package/fused-effects/docs/Control-Carrier-IO.html	created	2026-05-05
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/docs/Control-Carrier-IO.html	N/A
 https://eprints.nottingham.ac.uk/43557/	N/A
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html	N/A
@@ -32515,7 +32515,7 @@ https://cpm.curry-lang.org/DOC/transformers-3.0.0/Control.Monad.IO.Class_curry.h
 https://arxiv.org/abs/cs/0111039	N/A
 https://www.cs.ox.ac.uk/people/ohad.kammar/publications/kammar-lindley-oury-handlers-in-action.pdf	N/A
 https://kcsrk.info/papers/retro-concurrency_pldi_21.pdf	N/A
-https://hackage.haskell.org/package/effect-handlers/docs	N/A
+https://hackage.haskell.org/package/effect-handlers/docs	created	2016-04-28
 https://www.cambridge.org/core/books/abs/session-types/functional-programming/5A833EA4A5EECAD65C4C06FB8B86976B	publication	2025-03
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%20and%20Software%20Technology%2C%2011%20conf.%2C%20AMAST%202006%28LNCS4019%2C%20Springer%2C%202006%29%28ISBN%203540356339%29%28398s%29.pdf	created	2011
 https://arxiv.org/abs/1701.07601	N/A
@@ -32543,7 +32543,7 @@ https://icfp22.sigplan.org/details/icfp-2022-papers/10/Formal-Reasoning-About-La
 https://citeseerx.ist.psu.edu/document?doi=8242b566d8bd1ce0ebbcb7cfdea0aa5b70501da1&repid=rep1&type=pdf	N/A
 https://www.cs.umd.edu/class/spring2019/cmsc388F/lectures/monads.html	created	2019
 https://hackage-content.haskell.org/package/io-sim-1.9.1.0/docs	N/A
-https://hackage.haskell.org/package/async/docs	N/A
+https://hackage.haskell.org/package/async/docs	created	2026-01-07
 https://hackage-content.haskell.org/package/horde-ad-0.2.0.0/docs/async-2.2.5-docs/Control-Concurrent-Async-Internal.html	N/A
 https://hackage-content.haskell.org/package/async-2.2.6/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/lifted-async-0.11.0/docs/Control-Concurrent-Async-Lifted.html	N/A
@@ -32584,8 +32584,8 @@ https://www.mendeley.com/catalogue/5d7ff898-97c2-3128-9b81-b304817581d4/	publica
 https://research.rug.nl/en/publications/c9162558-592e-4a11-a137-9c257cbfcc36/	publication	2024-01-05
 https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1	N/A
 https://man7.org/linux/man-pages/man7/io_uring.7.html	N/A
-https://hackage.haskell.org/package/sodium/docs/FRP-Sodium-Context.html	N/A
-https://hackage.haskell.org/package/threepenny-gui/docs/Reactive-Threepenny.html	N/A
+https://hackage.haskell.org/package/sodium/docs/FRP-Sodium-Context.html	created	2014-12-30
+https://hackage.haskell.org/package/threepenny-gui/docs/Reactive-Threepenny.html	created	2024-12-25
 https://hackage.haskell.org/package/sodium	N/A
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=46586973	N/A
 https://link.springer.com/book/10.1007/978-3-319-29604-3	N/A
@@ -32593,7 +32593,7 @@ https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f8768
 https://link.springer.com/book/10.1007/978-981-92-0184-6	publication	2026
 https://www.classcentral.com/course/youtube-icfp-24-orange-3-haskell-sep-7th-347259	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/journal-of-functional-programming-most-downloaded-2023	created	2023
-https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html	N/A
+https://hackage.haskell.org/package/reflection-without-remorse/docs/Control-Monad-Free-Reflectable.html	created	2014-12-30
 https://homepages.cwi.nl/~ploeg/zseq.pdf	N/A
 https://paperswelove.org/papers/freer-monads-more-extensible-effects-f271560c/	N/A
 https://haskell.pesquisa.ufabc.edu.br/cursos/11-paradigmas-2023/	created	2023
@@ -32606,8 +32606,8 @@ https://arxiv.org/abs/1708.01688	N/A
 https://citeseerx.ist.psu.edu/document?doi=8b6c2fa39d5ad248926da81b5d564544ee22b94a&repid=rep1&type=pdf	N/A
 https://arxiv.org/abs/2112.14048	N/A
 https://hackage.haskell.org/package/DSH	N/A
-https://hackage.haskell.org/package/relational-record/docs/Database-Relational-Documentation.html	N/A
-https://hackage.haskell.org/package/haskelldb/docs/Database-HaskellDB-Query.html	N/A
+https://hackage.haskell.org/package/relational-record/docs/Database-Relational-Documentation.html	created	2018-06-17
+https://hackage.haskell.org/package/haskelldb/docs/Database-HaskellDB-Query.html	created	2014-09-29
 https://db.cs.uni-tuebingen.de/staticfiles/publications/haskell2011.pdf	created	2011
 https://www.research.ed.ac.uk/en/publications/comprehensive-comprehensions/	publication	2007
 https://researchportal.hkust.edu.hk/en/publications/comprehending-monoids-with-class	publication	2021-08-16
@@ -32682,7 +32682,7 @@ https://www.researchgate.net/publication/2393351_Comprehending_Queries	N/A
 https://www.researchgate.net/publication/221562949_Bringing_Back_Monad_Comprehensions	N/A
 https://www.wisnesky.net/tr-02-11.pdf	N/A
 https://pages.khoury.northeastern.edu/sholtzen/cs4400-fall24/lecture-notes/lecture-19/lecture-19.pdf	N/A
-https://hackage.haskell.org/package/resource-simple/docs/Control-Monad-Resource.html	N/A
+https://hackage.haskell.org/package/resource-simple/docs/Control-Monad-Resource.html	created	2012-03-02
 https://arxiv.org/abs/2507.23205	N/A
 https://arxiv.org/abs/2009.14322	created	2009
 https://arxiv.org/abs/1012.4895	N/A
@@ -32762,7 +32762,7 @@ https://www.stackage.org/package/process	N/A
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397	N/A
 https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html	created	2025
 https://www.stackage.org/lts-17.15/package/resourcet-1.2.4.2	N/A
-https://hackage.haskell.org/package/simpleprelude/docs/Prelude.html	N/A
+https://hackage.haskell.org/package/simpleprelude/docs/Prelude.html	created	2011-11-04
 https://hackage-content.haskell.org/package/stm-chans-3.0.0.11/docs/Control-Concurrent-STM-TMQueue.html	N/A
 https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control-devel	N/A
 https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad-ST.html	N/A
@@ -32775,7 +32775,7 @@ https://hackage.haskell.org/package/transformers-0.6.2.0/docs	N/A
 https://hackage-content.haskell.org/package/transformers-0.6.3.0/docs/Control-Monad-Trans-Reader.html	N/A
 https://verify.rwth-aachen.de/fp12/	N/A
 https://hackage.haskell.org/package/mtl-2.2.2/changelog	N/A
-https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TQueue.html	N/A
+https://hackage.haskell.org/package/stm/docs/Control-Concurrent-STM-TQueue.html	created	2024-04-12
 https://hackage.haskell.org/package/mtl-2.2.2/docs/Control-Monad-Error.html	N/A
 https://hackage.haskell.org/package/transformers-0.2.1.0/docs/Control-Monad-Trans-State.html	N/A
 https://hackage.haskell.org/package/stm-2.4.4.1/docs	N/A
@@ -32787,11 +32787,11 @@ https://arxiv.org/abs/2203.03288	N/A
 https://hackage.haskell.org/package/control-monad-exception-0.8.0	N/A
 https://hackage.haskell.org/package/streaming-utils-0.2.1.0/docs	N/A
 https://hackage.haskell.org/package/network-2.2.1/docs/Network.html	N/A
-https://hackage.haskell.org/package/control-monad-exception/docs	N/A
+https://hackage.haskell.org/package/control-monad-exception/docs	created	2020-07-06
 https://popl24.sigplan.org/details/lafi-2024-papers/4/Effect-Handlers-for-Choice-Based-Learning	created	2024
 https://www.researchgate.net/publication/383515063_Making_a_Curry_Interpreter_using_Effects_and_Handlers	N/A
 https://dspace.ut.ee/items/8fd690d9-6be2-4b5c-a481-afcba4e39d22	N/A
-https://hackage.haskell.org/package/lifted-base/docs	N/A
+https://hackage.haskell.org/package/lifted-base/docs	created	2018-03-14
 https://hackage.haskell.org/package/resourcet-1.1.0.1/docs	N/A
 https://www.lironcohenlab.com/pubs/invitedFSCD2025.pdf	created	2025
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol337-fscd2025/LIPIcs.FSCD.2025/LIPIcs.FSCD.2025.pdf	created	2025
@@ -32805,7 +32805,7 @@ https://packages.fedoraproject.org/pkgs/ghc-resourcet/ghc-resourcet-doc	N/A
 https://hackage.haskell.org/package/control-monad-exception-0.3	N/A
 https://conf.researchr.org/series/haskellsymp	N/A
 https://discourse.haskell.org/t/not-quite-monads-haskell-unfolder-54/13973	publication	2026-04-22
-https://hackage.haskell.org/package/constrained-monads/docs	N/A
+https://hackage.haskell.org/package/constrained-monads/docs	created	2017-03-31
 https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-TCP.html	N/A
 https://www.classcentral.com/course/youtube-haskell-25-machine-learning-primitives-as-algebraic-effects-508816	N/A
 https://haskellweekly.news/issue/463.html	N/A
@@ -32814,7 +32814,7 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/190FBF34
 https://pure.itu.dk/en/projects/algebraic-effects-and-guarded-recursion/publications/	N/A
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2025/5/	created	2025
 https://explore.gcts.edu/algebra-suggest-010/files?ID=KjE05-5383&title=why-algebraic-effects.pdf	N/A
-https://hackage.haskell.org/package/extensible-exceptions/docs	N/A
+https://hackage.haskell.org/package/extensible-exceptions/docs	created	2012-02-02
 https://packages.fedoraproject.org/pkgs/ghc-extensible-exceptions/ghc-extensible-exceptions-doc	N/A
 https://hackage.haskell.org/package/pipes-4.1.0/docs	N/A
 https://hackage.haskell.org/package/exceptions-0.6.1	N/A
@@ -32823,7 +32823,7 @@ https://mailman.haskell.org/archives/list/haskell%40haskell.org/2026/5/	created	
 https://icfp24.sigplan.org/series/haskellsymp	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.45	created	2026
 https://www.mail-archive.com/haskell%40haskell.org/msg27444.html	N/A
-https://hackage.haskell.org/package/network-conduit/docs	N/A
+https://hackage.haskell.org/package/network-conduit/docs	created	2014-04-02
 https://hackage.haskell.org/package/conduit-1.0.5/docs	N/A
 https://hackage.haskell.org/package/extensible-exceptions-0.1.1.4/docs	N/A
 https://verify.rwth-aachen.de/fp26/	N/A
@@ -32832,7 +32832,7 @@ https://hackage.haskell.org/package/network-2.6.0.0/docs	N/A
 https://icfp26.sigplan.org/home/hope-2026	created	2026
 https://doi.org/10.1145/3808259	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf	N/A
-https://hackage.haskell.org/package/happstack-monad-peel/docs	N/A
+https://hackage.haskell.org/package/happstack-monad-peel/docs	created	2013-02-22
 https://www.stackage.org/package/http-conduit	N/A
 https://hackage-content.haskell.org/package/mstate-0.2.11/docs/Control-Concurrent-MState.html	N/A
 https://www.classcentral.com/index.php/course/youtube-haskell-23-haskell-for-choice-based-learning-347653	N/A
@@ -32856,7 +32856,7 @@ https://packages.debian.org/source/trixie/misc/haskell-monad-logger	N/A
 https://hackage.haskell.org/package/monad-loops-0.3.0.1/docs	N/A
 https://hackage-content.haskell.org/package/loops-0.2.0.2/docs/Control-Monad-Loop-Internal.html	N/A
 https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1920-ug-projects/An-Investigation-into-Adding-Exception-Handling-to-Haskell.pdf	created	1920
-https://hackage.haskell.org/package/dph-lifted-base/docs	N/A
+https://hackage.haskell.org/package/dph-lifted-base/docs	created	2012-10-25
 https://hackage.haskell.org/package/lifted-base-0.1.1.1/docs	N/A
 https://hackage.haskell.org/package/monad-loops-0.3.0.2	N/A
 https://openmamba.org/en/rpms/base/ghc-lifted-base-doc/x86_64/	N/A
@@ -32868,19 +32868,19 @@ https://hackage.haskell.org/package/exceptions-0.10.12/docs	N/A
 https://hackage.haskell.org/package/mtl-tf-0.2.0.0/docs	N/A
 https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-transformers-compat/	N/A
-https://hackage.haskell.org/package/monads-tf/docs	N/A
+https://hackage.haskell.org/package/monads-tf/docs	created	2023-07-10
 https://hackage.haskell.org/package/monads-tf-0.1.0.3/docs	N/A
 https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc	N/A
 https://www.stackage.org/package/monads-tf	N/A
 https://packages.debian.org/source/stable/haskell-monads-tf	N/A
 https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/	created	2025
 https://hackage.haskell.org/package/effect-monad-0.7.0.0	N/A
-https://hackage.haskell.org/package/control-monad-exception-monadstf/docs	N/A
+https://hackage.haskell.org/package/control-monad-exception-monadstf/docs	created	2012-05-28
 https://hackage.haskell.org/package/exception-transformers-0.4.0.3/docs	N/A
 https://hackage.haskell.org/package/mtl-1.1.0.0	N/A
 https://hackage.haskell.org/package/mmtl	N/A
 https://hackage.haskell.org/package/mtl-1.1.0.2/docs/Control-Monad-Cont.html	N/A
-https://hackage.haskell.org/package/control-monad-exception-mtl/docs	N/A
+https://hackage.haskell.org/package/control-monad-exception-mtl/docs	created	2012-05-28
 https://hackage.haskell.org/package/effect-monad-0.8.1.0/docs/doc-index.html	N/A
 https://mmhaskell.com/	N/A
 https://www.classcentral.com/index.php/subject/referential-transparency	N/A
@@ -32888,29 +32888,29 @@ https://waseda.elsevierpure.com/en/publications/a-category-theoretic-framework-f
 https://www.classcentral.com/subject/referential-transparency	N/A
 https://hackage.haskell.org/package/pipes-safe-2.0.2/docs	N/A
 https://hackage.haskell.org/package/pipes-4.0.2/docs	N/A
-https://hackage.haskell.org/package/pipes-core/docs	N/A
+https://hackage.haskell.org/package/pipes-core/docs	created	2012-04-09
 https://hackage.haskell.org/package/pipes-2.3.0/docs	N/A
 https://dev.to/bekbrace/monads-in-haskell-1p8i	N/A
 https://www.youtube.com/watch?v=pj7-rNyz3J8	N/A
-https://hackage.haskell.org/package/exception-transformers/docs	N/A
+https://hackage.haskell.org/package/exception-transformers/docs	created	2023-08-31
 https://hackage.haskell.org/package/control-monad-exception-0.5	N/A
 https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/	created	2026
 https://www.cs.toronto.edu/~trebla/CSCC24-latest/	N/A
 https://is.muni.cz/course/fi/spring2026/IB016?lang=en%3Bzobrazmatob%3D1	created	2026
 https://www.stackage.org/lts-3.0/package/conduit-1.2.5	N/A
-https://hackage.haskell.org/package/core-effect-effectful/docs/	N/A
+https://hackage.haskell.org/package/core-effect-effectful/docs/	created	2023-02-04
 https://hackage.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html	N/A
 https://hackage-content.haskell.org/package/base-4.22.0.0/docs/GHC-Exception.html	N/A
 https://haskell.foundation/events/2026-haskell-implementors-workshop.html	created	2026
 https://discourse.haskell.org/t/call-for-talks-haskell-implementors-workshop-2026/13698	publication	2026-02-18
 https://discourse.haskell.org/t/call-for-participation-2.5-hour-haskell-foundation-online-workshop/14312	N/A
 https://www.reddit.com/r/haskell/comments/1upt8sr/zurihac_2026_video_playlist/	created	2026
-https://hackage.haskell.org/package/safe-exceptions/docs	N/A
+https://hackage.haskell.org/package/safe-exceptions/docs	created	2023-06-26
 https://hackage-content.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html	N/A
 https://well-typed.com/blog/2025/05/haskell-unfolder-episode-44-state-based-testing-with-quickcheck-lockstep	created	2025
 https://www.cambridge.org/core/product/20BF7DCA6330A2115C2C9B9BA47AB2E0	N/A
 https://discourse.haskell.org/t/state-based-testing-with-quickcheck-lockstep-haskell-unfolder-44/12095	publication	2025-05-14
-https://hackage.haskell.org/package/resourcet-effectful/docs	N/A
+https://hackage.haskell.org/package/resourcet-effectful/docs	created	2023-11-05
 https://hackage.haskell.org/package/effectful-core-2.2.2.0/docs	N/A
 https://www.packtpub.com/en-us/product/learning-haskell-programming-9781786465542	N/A
 https://www.packtpub.com/en-sg/product/learning-haskell-programming-9781786465542	N/A
@@ -33099,8 +33099,8 @@ https://hackage.haskell.org/package/fused-effects-exceptions	N/A
 https://www.stackage.org/package/fused-effects-exceptions	N/A
 https://hackage.haskell.org/package/io-streams-1.3.6.1	N/A
 https://hackage.haskell.org/package/io-streams-1.5.2.2/docs	N/A
-https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html	N/A
-https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html	N/A
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Attoparsec.html	created	2022-08-17
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Process.html	created	2022-08-17
 https://packages.debian.org/sid/haskell/libghc-io-streams-dev	N/A
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=1243163585	N/A
 https://packages.debian.org/testing/haskell/libghc-io-streams-dev	N/A
@@ -33110,7 +33110,7 @@ https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-path-io/	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-streams/	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-gio/	N/A
 https://sources.debian.org/src/haskell-http-streams/0.8.9.9-1/http-streams.cabal	N/A
-https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO	N/A
+https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-MonadIO.html#t:MonadIO	created	2018-10-03
 https://dblp.uni-trier.de/rec/phd/ethos/Jaskelioff09.html	N/A
 https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-storage/	N/A
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-path-io/	N/A
@@ -33118,7 +33118,7 @@ https://discourse.haskell.org/t/call-for-participation-2-5-hour-haskell-foundati
 https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944874.html	N/A
 https://mailman.haskell.org/archives/list/ghc-commits@haskell.org/thread/TBCIDETQG5E7QHOKX75EHX3WXLAAUT62/	N/A
 https://hackage.haskell.org/package/logict	N/A
-https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html	N/A
+https://hackage.haskell.org/package/marvin/docs/Marvin-Prelude.html	created	2017-09-24
 https://hackage.haskell.org/package/GHC.IO.html	N/A
 https://hackage-content.haskell.org/package/HPDF-1.8/docs/Graphics-PDF-Documentation.html	N/A
 https://www.cs.tufts.edu/comp/150FP/archive/jason-dagit/ms-thesis.pdf	N/A
@@ -33130,7 +33130,7 @@ https://dblp.uni-trier.de/db/conf/haskell/haskell2000.html	created	2000
 https://www.haskell.org/ghc/docs/6.12.2/haddock.pdf	N/A
 https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-workshop	publication	1999
 https://lambertk.academic.wlu.edu/publications/new-ebook-on-functional-programming-in-haskell/	N/A
-https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html	N/A
+https://hackage.haskell.org/package/io-classes/docs/Control-Concurrent-Class.html	created	2026-04-15
 https://sources.debian.org/src/haskell-monad-memo	N/A
 https://dspace.library.uu.nl/handle/1874/18968	publication	1999
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/	N/A
