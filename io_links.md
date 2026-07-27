@@ -150,7 +150,7 @@ https://www.research.ed.ac.uk/en/publications/a-history-of-haskell-being-lazy-wi
 https://dl.acm.org/doi/10.1145/1160074.1159823	publication	2006-09-16
 https://www.cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/	created	2026-07-21
 https://wasp.cs.washington.edu/tecaml/teml.pdf	created	2024-02-21
-https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/g5xnsc/chapter.pdf	modified	2009-02-17
 https://pdxscholar.library.pdx.edu/open_access_etds/1/	created	2024-03-30
 https://arxiv.org/abs/1210.0611	created	2025-04-06
 https://www.cs.cmu.edu/~crary/819-f09/Moggi91.pdf	created	2026-04-11
@@ -412,7 +412,7 @@ https://www.researchgate.net/publication/222669202_Syntactic_Type_Soundness_Resu
 https://www.researchgate.net/publication/242440078_Effect_Types_and_Region-based_Memory_Management	N/A
 https://dl.acm.org/doi/pdf/10.1145/262009.262011	publication	1997-09
 https://andrewdgordon.github.io/papers/fpio.pdf	N/A
-https://people.cs.nott.ac.uk/psztxa/publ/qio.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/qio.pdf	modified	2008-03-10
 https://www.mbsd.cs.ru.nl/publications/papers/2001/achp2001-HaskellObjectIO.pdf	created	2001
 https://dl.acm.org/doi/pdf/10.1145/165180.165228	publication	1993-07
 https://publications.scss.tcd.ie/tech-reports/reports.06/TCD-CS-2006-19.pdf	created	2006
@@ -439,7 +439,7 @@ https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_22	publication	1994
 https://link.springer.com/chapter/10.1007/978-1-4471-3196-0_26	publication	1992
 https://www.microsoft.com/en-us/research/wp-content/uploads/1996/01/concurrent-haskell.pdf	created	1996
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/asynch-exns.pdf	created	2016
-https://people.cs.nott.ac.uk/psztxa/publ/beast.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/beast.pdf	modified	2007-10-21
 https://www.owenstephens.co.uk/assets/static/research/masters_report.pdf	N/A
 https://theses.gla.ac.uk/71760/	N/A
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/02num.pdf	N/A
@@ -645,7 +645,7 @@ https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO	modified	2026-07-1
 https://stefan-klinger.de/files/monadGuide.pdf	N/A
 https://research.utwente.nl/en/publications/the-haskell-programmers-guide-to-the-io-monad-dont-panic	publication	2005-11
 https://www21.in.tum.de/teaching/perlen/WS1415/unterlagen/Monads_in_Haskell.pdf	N/A
-https://people.cs.nott.ac.uk/pszgmh/pih.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/pih.html	modified	2026-07-24
 https://www.cambridge.org/core/books/programming-in-haskell/2BA9C30CE32480DE8DD2B596C4771C6C	publication	2007-01
 https://www.cambridge.org/core/books/programming-in-haskell/interactive-programs/2FB17582443D39C37233DF45EA7E7FB8	publication	2007-01
 https://assets.cambridge.org/97813166/26221/excerpt/9781316626221_excerpt.pdf	N/A
@@ -672,11 +672,11 @@ https://learn-haskell.blog/05-glue/02-io.html	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/io/	N/A
 https://www.cs.yale.edu/homes/hudak/SOE/	modified	2007-10-18
 https://simonjohnthompson.github.io/craft3e/craft3e.pdf	N/A
-https://people.cs.nott.ac.uk/pszgmh/ch10.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/ch10.pdf	modified	2020-01-15
 https://www.haskell.org/tutorial/haskell-98-tutorial.pdf	modified	2019-02-17
 https://www.red-bean.com/~bos/rwh-draft.pdf	N/A
 https://www.cs.tufts.edu/~kfisher/teaching.html	modified	2011-02-22
-https://people.cs.nott.ac.uk/pszgmh/functional.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/functional.html	modified	2010-03-19
 https://clean.cs.ru.nl/download/papers/cleanbook/CleanBookI.pdf	N/A
 https://clean.cs.ru.nl/download/supported/ObjectIO.1.2/doc/tutorial.pdf	N/A
 https://book.purescript.org/chapter8.html	N/A
@@ -1487,14 +1487,14 @@ https://numdam.org/item/ITA_2002__36_2_155_0.pdf	created	2002
 https://www.cse.chalmers.se/~russo/publications_files/sme.pdf	N/A
 https://www.cse.chalmers.se/~russo/eci11/lectures/material_full.pdf	N/A
 https://jazimmer.net/html/ZimmerPublications.html	N/A
-https://people.cs.nott.ac.uk/pszgmh/afp.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/afp.html	modified	2026-03-20
 https://livebook.manning.com/book/haskell-in-depth/chapter-2/v-7	N/A
-https://people.cs.nott.ac.uk/pszgmh/solutions.pdf	N/A
-https://people.cs.nott.ac.uk/pszgmh/pgp.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/solutions.pdf	modified	2009-05-16
+https://people.cs.nott.ac.uk/pszgmh/pgp.html	modified	2026-03-20
 https://www.youtube.com/playlist?list=PLF1Z-APd9zK5uFc8FKr_di9bfsYv8-lbc	N/A
-https://people.cs.nott.ac.uk/pszgmh/AFP-intro.pdf	N/A
-https://people.cs.nott.ac.uk/pszgmh/PGP-review.pdf	N/A
-https://people.cs.nott.ac.uk/pszgmh/prelude-new.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/AFP-intro.pdf	modified	2022-01-12
+https://people.cs.nott.ac.uk/pszgmh/PGP-review.pdf	modified	2022-01-27
+https://people.cs.nott.ac.uk/pszgmh/prelude-new.pdf	modified	2016-09-28
 https://youtu.be/NBO6kN7JEAw?si=gbSCnZMjINj61pSL	uploaded	2024-02-20
 https://www.youtube.com/watch?v=9injd7JE6vU	uploaded	2024-02-23
 https://www.youtube.com/watch?v=CFNaCAOcykk	uploaded	2024-02-27
@@ -1531,7 +1531,7 @@ https://www.stackage.org/package/bluefin	indexed	2026-07-27
 https://www.stackage.org/package/bluefin-effects	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf/semantics-of-value-recursion-for-monadic-inputoutput.pdf	publication	2002-04
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43840B587166A4609773DA629DD318CD/S0956796803000911a.pdf/7-basic-inputoutput.pdf	N/A
-https://people.cs.nott.ac.uk/psztxa/talks/qics07.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/talks/qics07.pdf	modified	2007-04-27
 https://homepages.inf.ed.ac.uk/slindley/papers/gvhs-draft-june2016.pdf	created	2016
 https://homepages.inf.ed.ac.uk/slindley/papers/effmondel-jfp.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data-types-a-la-carte.pdf	N/A
@@ -2842,7 +2842,7 @@ https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-ef
 https://deque.blog/2017/12/08/continuation-passing-style-free-monads-and-direct-style-free-monads/	created	2017
 https://stackoverflow.com/questions/45045294/in-haskell-terminology-what-are-monadic-effects	created	2017-07-11
 https://www.youtube.com/watch?v=V2vIfgGrr74	uploaded	2023-11-30
-https://people.cs.nott.ac.uk/pszgmh/appsem-papers/moggi.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/appsem-papers/moggi.pdf	modified	2003-05-08
 https://kar.kent.ac.uk/57487/1/haskell19f-revised.pdf	N/A
 https://repository.nottingham.ac.uk/entities/publication/afa95713-a742-4fc8-9092-8c53cb74c935	N/A
 https://cs.ioc.ee/ewscs/2010/mycroft/ewscs10.pdf	created	2010
@@ -2937,7 +2937,7 @@ https://github.com/cis194/lectures	updated	2018-12-02
 https://goto.ucsd.edu/~nvazou/club_de_science15/lectures/StateMonad.html	N/A
 https://cholla.mmto.arizona.edu/haskell/io.html	N/A
 https://wiki.clean.cs.ru.nl/Clean_System	N/A
-https://people.cs.nott.ac.uk/psztxa/g5xnsc/	N/A
+https://people.cs.nott.ac.uk/psztxa/g5xnsc/	modified	2009-03-20
 https://www.scs.stanford.edu/~deian/pubs/stefan%3A2012%3Aflexible.pdf	created	2012
 https://conal.net/papers/simply-reactive/	N/A
 https://www.koka-lang.org/	N/A
@@ -2968,7 +2968,7 @@ https://cth.altocumulus.org/~hallgren/Papers/lpar2000.pdf	created	2000
 https://www.altocumulus.org/Fudgets/fpca93.html	N/A
 https://www.altocumulus.org/Fudgets/userguide.html	N/A
 https://www.altocumulus.org/Fudgets/Manual/	N/A
-https://people.cs.nott.ac.uk/psztxa/g5xnsc/qc3.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/g5xnsc/qc3.pdf	modified	2009-04-06
 https://www.scs.stanford.edu/~dm/home/papers/stefan%3Adclabels.pdf	modified	2011-11-23
 https://conal.net/papers/frp.html	N/A
 https://conal.net/papers/dsl97/dsl97.html	N/A
@@ -3055,7 +3055,7 @@ https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Directory.
 https://hackage-content.haskell.org/package/rio-0.1.24.0/docs/src/RIO.Prelude.Reexports.html	N/A
 https://dl.acm.org/doi/pdf/10.1145/158511.158524	publication	1993
 https://link.springer.com/chapter/10.1007/978-3-642-17685-2_5	publication	2010
-https://people.cs.nott.ac.uk/pszgmh/stm.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/stm.pdf	modified	2008-11-04
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/src/Effectful.Internal.MTL.html	N/A
 https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.IO.html	N/A
 https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.System.IO.html	N/A
@@ -3173,9 +3173,9 @@ https://hackage.haskell.org/package/lifted-async	published	2025-09-06
 https://hackage.haskell.org/package/resource-pool	published	2026-07-08
 https://www.cs.ox.ac.uk/people/richard.bird/online/MuBird2001Functional.pdf	created	2001
 https://dl.acm.org/doi/10.1145/871895.871900	publication	2003-08-28
-https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf	modified	2006-05-01
 https://ncatlab.org/nlab/files/Grattage-CompilingFunctionalQPL.pdf	N/A
-https://people.cs.nott.ac.uk/psztxa/publ/qpl06.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/qpl06.pdf	modified	2006-06-19
 https://arxiv.org/abs/2310.15735	created	2023-10
 https://hackage.haskell.org/package/monad-control/docs/Control-Monad-Trans-Control.html	created	2021-08-02
 https://hackage.haskell.org/package/lifted-base/docs/Control-Exception-Lifted.html	created	2018-03-14
@@ -3410,7 +3410,7 @@ https://www.haskell.org/haskellwiki/Cookbook/Other_data_structures	modified	2019
 https://web.cecs.pdx.edu/~mpj/pubs/RR-1004.pdf	modified	2005-10-01
 https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue4	modified	2017-03-25
 https://www.haskell.org/haskellwiki/The_Monad.Reader/Issue5	modified	2008-05-10
-https://people.cs.nott.ac.uk/pszgmh/pearl.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/pearl.pdf	modified	2001-04-05
 https://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf	N/A
 https://dl.acm.org/doi/10.1145/581478.581492	publication	2002-09-17
 https://plv.mpi-sws.org/plerg/papers/comprehending-monads.pdf	N/A
@@ -3656,7 +3656,7 @@ https://books.google.com/books/about/Programming_in_Haskell.html?hl=es&id=75C5DA
 https://books.google.com/books/about/Learn_You_a_Haskell_for_Great_Good.html?id=2D6QEAAAQBAJ	published	2011
 https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=B4RxBAAAQBAJ	published	2015
 https://kodu.ut.ee/~varmo/FP2007/slides/loeng12.pdf	created	2007
-https://people.cs.nott.ac.uk/pszgmh/book-review.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/book-review.pdf	modified	2007-04-30
 https://xavierleroy.org/CdF/2018-2019/5.pdf	created	2018
 https://blog.ezyang.com/2012/02/anatomy-of-you-could-have-invented/	created	2012
 https://www-users.mat.uni.torun.pl/~fly/materialy/fp/haskell-doc/Monads.html	N/A
@@ -4798,7 +4798,7 @@ https://pure.york.ac.uk/portal/en/publications/a-space-semantics-for-core-haskel
 https://hackage.haskell.org/package/QIO	published	2016-11-13
 https://hackage.haskell.org/package/QIO-1.3/docs/QIO-Qio.html	created	2016-11-13
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?QPL2011.2.pdf=	created	2011
-https://people.cs.nott.ac.uk/psztxa/publ/qio-chapter.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/qio-chapter.pdf	modified	2009-05-25
 https://www.scs.stanford.edu/~deian/pubs/stefan%3A2014%3Abuilding-haskell.pdf	created	2014
 https://arxiv.org/abs/1207.3208	created	2012-07
 https://www.monoidal.net/papers/tutorialqpl-2.pdf	N/A
@@ -6300,8 +6300,8 @@ https://ocaml.github.io/odoc/eio/eio/Eio/index.html	N/A
 https://ocaml.org/p/eio/1.1	published	2024-05-29
 https://ora.ox.ac.uk/objects/uuid%3A87f73a35-a0c2-49b2-a8a8-e50e35421dcd	publication	2016
 https://packages.debian.org/source/sid/armel/haskell-iospec	modified	2026-07-27
-https://people.cs.nott.ac.uk/psztxa/talks/cambridge-06.pdf	N/A
-https://people.cs.nott.ac.uk/psztxa/talks/efftt07.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/talks/cambridge-06.pdf	modified	2006-06-29
+https://people.cs.nott.ac.uk/psztxa/talks/efftt07.pdf	modified	2007-12-15
 https://programming-group.com/assets/pdf/papers/2023_A-Direct-Style-Effect-Notation-for-Sequential-and-Parallel-Programs.pdf	created	2023
 https://repository.tudelft.nl/record/uuid%3A9388bc6b-4be1-444c-a020-a1acaf9c803b	publication	2024
 https://scispace.com/pdf/experience-report-the-next-1100-haskell-programmers-3cteljmnp3.pdf	N/A
@@ -8284,7 +8284,7 @@ https://inspirehep.net/literature/1965330	N/A
 https://www.cs.ox.ac.uk/people/bob.coecke/WSimmons.pdf	modified	2018-10-03
 https://www.monoidal.net/hdr.pdf	N/A
 https://inspirehep.net/literature/2939017	N/A
-https://people.cs.nott.ac.uk/psztxa/publ/	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/	modified	2019-03-28
 https://leventerkok.github.io/	N/A
 https://leventerkok.github.io/papers/erkok-cv.pdf	N/A
 https://ncatlab.org/nlab/show/Alexander%2BGreen	N/A
@@ -8338,7 +8338,7 @@ https://hackage.haskell.org/package/QIO-1.3/QIO-1.3.tar.gz	created	2016-11-13
 ## QIO proceedings, citation indexes, and related talks
 https://ks.cs.uchicago.edu/qpl-bib/bbt_abstracts.html	N/A
 https://ncatlab.org/nlab/show/QML	N/A
-https://people.cs.nott.ac.uk/psztxa/talks/	N/A
+https://people.cs.nott.ac.uk/psztxa/talks/	modified	2020-06-03
 ## IO implementation discussion and historical GHC manuals
 https://stackoverflow.com/questions/10447914/io-implementation-inside-haskell?noredirect=1	created	2012-05-04
 https://downloads.haskell.org/~ghc/9.2.4/docs/users_guide.pdf	modified	2022-07-28
@@ -10823,7 +10823,7 @@ https://www.docslides.com/jane-oiler/the-io-monad	N/A
 https://discourse.haskell.org/t/haskell-exchange-2020/1639	publication	2020-12-10
 https://simon.peytonjones.org/wearing-the-hair-shirt	publication	2003-01-01
 https://www.haskell.org/cabal/talks/HS-2008-batteries-paper.pdf	created	2008
-https://people.cs.nott.ac.uk/pszgmh/appsem03.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/appsem03.html	modified	2005-03-24
 https://files01.core.ac.uk/download/pdf/36694272.pdf	N/A
 https://foldoc.org/Yale%2BHaskell	N/A
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/message/YHPWUGSUSQKDDV2UDS3KGFSDPQFIGTR7/	N/A
@@ -11718,7 +11718,7 @@ https://downloads.haskell.org/ghc/9.6.7/docs/libraries/mtl-2.3.1/Control-Monad-T
 https://downloads.haskell.org/~ghc/6.10-latest/docs/html/libraries/process/System-Process.html	modified	2019-02-15
 https://www.reddit.com/r/haskell/comments/evegox	N/A
 https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/src/commit/ad09aaa2f98ae80441e8b8d22362bd9fd51fa089/languages/haskell	N/A
-https://people.cs.nott.ac.uk/pszgmh/bib.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/bib.html	modified	2026-07-09
 https://www.mail-archive.com/haskell-cafe%40haskell.org/msg13838.html	N/A
 https://ichi.pro/pl/czas-dowiedziec-sie-wiecej-o-monadach-86579703856839	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard_classes/monad_io/	N/A
@@ -12310,7 +12310,7 @@ https://dokumen.pub/download/book-of-monads.html	N/A
 https://untz.ba/wp-content/uploads/2025/05/Studijski_program_II_ciklusa_studija_FE_EiR_2024_25.pdf	created	2025
 https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Haskell/Hutton%20G.%20Programming%20in%20Haskell%20%28CUP%2C%202006%29%28ISBN%200511296150%29%28O%29%28184s%29_CsPl_.pdf	N/A
 https://dblp.org/rec/conf/afp/Wadler95	published	1995
-https://people.cs.nott.ac.uk/pszgmh/day-thesis.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/day-thesis.pdf	modified	2015-10-14
 https://wadler.blogspot.com/2013/03/informatics-1-functional-programming.html	created	2013
 https://citeseerx.ist.psu.edu/document?doi=016daf3ab6e96eb60ae8c26667c7e5f8215ea419&repid=rep1&type=pdf	N/A
 https://downloads.haskell.org/~ghc/6.12-latest/docs/html/users_guide/release-6-12-1.html	modified	2019-02-15
@@ -12351,7 +12351,7 @@ https://www.researchgate.net/publication/221540988_Proving_Properties_of_Lazy_Fu
 https://www.ou.nl/documents/40554/111661/Marko_van_Eekelen_LevenLangComputerenofFoeteren_2010.pdf/3f0710d9-4389-4da8-9173-eaad134c04e0	created	2010
 https://www.cs.ru.nl/~marko/research/sparkle/	N/A
 https://www.cs.ru.nl/~marko/research/pubs/2006/ProofToolSupportForExplicitStrictness.pdf	created	2006
-https://people.cs.nott.ac.uk/pszgmh/icfp09.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/icfp09.html	modified	2009-10-07
 https://icfpconference.org/history.html	N/A
 https://cs.brown.edu/~sk/Publications/Papers/Published/fffk-functional-io/paper.pdf	N/A
 https://researchr.org/profile/matthiasfelleisen/publications	N/A
@@ -14498,7 +14498,7 @@ https://openaccess.city.ac.uk/13222/1/Applicative-final.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=d361c075e970ef212328d6a20a5018d2f6416ee4&repid=rep1&type=pdf	N/A
 https://www.staff.city.ac.uk/~ross/papers/Applicative.html	N/A
 https://independent.academia.edu/PeterHancock2	N/A
-https://people.cs.nott.ac.uk/pszvc/g52afp/	N/A
+https://people.cs.nott.ac.uk/pszvc/g52afp/	modified	2016-05-18
 https://gu-se.academia.edu/Departments/Computer_Science_and_Engineering/Documents?page=13	N/A
 https://www.cs.ox.ac.uk/people/ohad.kammar/talks-and-publications.html	N/A
 https://core.ac.uk/download/pdf/76382625.pdf	N/A
@@ -26218,7 +26218,7 @@ https://agda.readthedocs.io/en/stable/language/coinduction.html	N/A
 https://agda.readthedocs.io/en/v2.5.2/language/foreign-function-interface.html	N/A
 https://agda.readthedocs.io/en/v2.6.1.1/tools/compilers.html	N/A
 https://arxiv.org/abs/2002.06047	created	2002
-https://people.cs.nott.ac.uk/psztxa/g53cfr/l15.html/l15.html	N/A
+https://people.cs.nott.ac.uk/psztxa/g53cfr/l15.html/l15.html	modified	2010-03-16
 https://people.inf.elte.hu/divip/AgdaTutorial/Revise.Coinduction.html	N/A
 https://repository.tudelft.nl/file/File_9d5e9685-a9e3-47df-9cdd-03cecb4b44c7	N/A
 https://www.reddit.com/r/agda/comments/btqwfk	N/A
@@ -27863,7 +27863,7 @@ https://gitlab.haskell.org/ghc/ghc/-/issues/13167	N/A
 https://hackage.haskell.org/package/base/candidate/docs/GHC-ForeignPtr.html	created	2025-12-19
 https://hackage.haskell.org/package/base-4.10.0.0/docs/src/GHC.ForeignPtr.html	created	2017-07-23
 https://hackage.haskell.org/package/mutable-containers/docs/Data-Mutable.html	created	2022-09-23
-https://people.cs.nott.ac.uk/pszgmh/real-world.pdf	N/A
+https://people.cs.nott.ac.uk/pszgmh/real-world.pdf	modified	2007-03-19
 https://stackoverflow.com/questions/20439316/when-to-use-stref-or-ioref	N/A
 https://www.reddit.com/r/haskell/comments/102resp	N/A
 https://www.reddit.com/r/haskell/comments/dblx9o	N/A
@@ -27964,7 +27964,7 @@ https://sac-home.org/_media/publications%3Apdf%3Asac-classes-objects-bastad-95.p
 https://www.sac-home.org/_media/publications%3Apdf%3Asac-classes-objects-bastad-95.pdf	N/A
 https://www.sambuz.com/doc/in-tro-duction-to-f-unctional-programming-lecture-8-1-in-document-929397	N/A
 https://homes.luddy.indiana.edu/sabry/files/exteff.pdf	N/A
-https://people.cs.nott.ac.uk/psztxa/talks/qnet06.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/talks/qnet06.pdf	modified	2006-12-18
 https://awesome.ecosyste.ms/projects/github.com%2Fuhub%2Fawesome-haskell	N/A
 https://assets.cambridge.org/97805215/13746/frontmatter/9780521513746_frontmatter.pdf	N/A
 https://ouci.dntb.gov.ua/works/4bPLQYeN/	N/A
@@ -28740,7 +28740,7 @@ https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/24num.pdf	N/A
 https://coot.me/about.html	N/A
 https://research.tue.nl/files/333714970/Gils_N.pdf	N/A
 https://uec.repo.nii.ac.jp/records/3550	N/A
-https://people.cs.nott.ac.uk/pszgmh/	N/A
+https://people.cs.nott.ac.uk/pszgmh/	modified	2026-07-15
 https://www.bilibili.com/video/BV1HP411M7im/	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-iospec/	N/A
 https://citeseerx.ist.psu.edu/document?doi=752ec5ad72bf240bf3ff3be56318f452190f4287&repid=rep1&type=pdf	N/A
@@ -28863,7 +28863,7 @@ https://arxiv.org/abs/1406.2058	created	2014-06
 https://arxiv.org/abs/1604.01184	created	2016-04
 https://citeseerx.ist.psu.edu/document?doi=3b889bb5e6250b2b381522d0a0b91ba1a33f3159&repid=rep1&type=pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
-https://people.cs.nott.ac.uk/psztxa/publ/DArray.pdf	N/A
+https://people.cs.nott.ac.uk/psztxa/publ/DArray.pdf	modified	2007-10-31
 https://haskell.org/communities/05-2008/report.pdf	created	2008
 https://archiv.ub.uni-marburg.de/diss/z2008/0547/pdf/djb.pdf	created	2008
 https://arxiv.org/abs/2404.16062	created	2024-04
@@ -33022,7 +33022,7 @@ https://packages.debian.org/source/bullseye/haskell-musicbrainz	modified	2026-07
 https://packages.debian.org/testing/haskell/	modified	2026-07-27
 https://www.futurelearn.com/courses/functional-programming-haskell	N/A
 https://scispace.com/pdf/a-programming-tutor-for-haskell-3qal96p64z.pdf	N/A
-https://people.cs.nott.ac.uk/pszgmh/book-old.html	N/A
+https://people.cs.nott.ac.uk/pszgmh/book-old.html	modified	2016-10-16
 https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844/56	publication	2025-04-17
 https://www.cs.unm.edu/~mlakin/assets/teaching/2021-fall-cs558-syllabus.pdf	created	2021
 https://www.sigplan.org/OpenTOC/haskell25.html	N/A
