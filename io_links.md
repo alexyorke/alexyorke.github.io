@@ -652,7 +652,7 @@ https://assets.cambridge.org/97813166/26221/excerpt/9781316626221_excerpt.pdf	N/
 https://assets.cambridge.org/97811070/87200/toc/9781107087200_toc.pdf	N/A
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/quantum-io-monad/1C501E5F1E9964F7B7183A18754FABE1	publication	2009-11
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/810AD13D88C863565F604132FF4A5FDE	publication	2009-11
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/	N/A
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/	published	2021
 https://link.springer.com/chapter/10.1007/978-3-662-02880-3_8	publication	1993
 https://www.cambridge.org/core/books/haskell-school-of-music/6B377BCD40386E9D27EB93FC2F3B13FB	publication	2018-09
 https://blogs.asarkar.com/assets/docs/haskell/Monad%20Transformers%20Step%20by%20Step%20-%20Grabmuller.pdf	N/A
@@ -889,11 +889,11 @@ https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec45
 https://books.google.com/books/about/Haskell_Programming_from_First_Principles.html?id=2J9HDwAAQBAJ	N/A
 https://books.google.com/books/about/Real_World_Haskell.html?id=Qm1GAAAAMAAJ	published	1993
 https://books.google.com/books/about/Practical_Programming_in_Haskell.html?id=YK5TDwAAQBAJ	N/A
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c143/	N/A
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c143/	published	2021
 https://subscription.packtpub.com/book/programming/9781786464217/8/ch08lvl1sec56/summary	N/A
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch13.html	N/A
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_s16/	N/A
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_s1/	N/A
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_s16/	published	2021
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_s1/	published	2021
 https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec46/runtime-system-and-threads	N/A
 https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec47/asynchronous-processing	N/A
 https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec48/summary	N/A
@@ -902,9 +902,9 @@ https://www.oreilly.com/library/view/developing-web-apps/9781491915585/apb.html	
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch11.html	N/A
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch24.html	N/A
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch10.html	N/A
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c113/	N/A
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c113/	published	2021
 https://livebook.manning.com/book/haskell-in-depth/chapter-15	N/A
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409AU/9781617295409AU-has_ch15/	N/A
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409AU/9781617295409AU-has_ch15/	published	2021
 https://livebook.manning.com/book/haskell-in-depth/chapter-8	N/A
 https://livebook.manning.com/book/haskell-in-depth/chapter-7	N/A
 https://livebook.manning.com/book/haskell-in-depth/chapter-16	N/A
@@ -1047,16 +1047,16 @@ https://www.researchgate.net/publication/231537363_On_the_Automation_of_Encoding
 https://kubuszok.com/2019/io-monad-which-why-and-how/	created	2019
 https://medium.com/%40tatsukisaito/how-to-perform-imperative-programming-in-haskell-6524d2c4e4c0	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2015-March/118446.html	created	2015
-https://www.oreilly.com/library/view/functional-programming-in/9781617297168/OEBPS/Text/13.htm	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_024.html	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617297168/OEBPS/Text/13.htm	published	2021
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_024.html	published	2015
 https://mvanier.livejournal.com/1205.html	N/A
 https://mvanier.livejournal.com/1765.html	N/A
 https://mvanier.livejournal.com/5406.html	N/A
 https://mvanier.livejournal.com/3917.html	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch18.html	N/A
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/59e02a97-de04-409f-9455-4f6f544b7181.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/79b0a554-f146-43d1-95af-f7fb00fc2c97.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/	published	2021
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/59e02a97-de04-409f-9455-4f6f544b7181.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/79b0a554-f146-43d1-95af-f7fb00fc2c97.xhtml	published	2017
 https://mail.haskell.org/pipermail/beginners/2010-August/005052.html	created	2010
 https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/ch07.html	N/A
 https://essay.utwente.nl/fileshare/file/70777/Verheij_MA_EEMCS.pdf	N/A
@@ -1570,20 +1570,20 @@ https://uu-afp.github.io/slides/02-monads.pdf	N/A
 https://ncatlab.org/nlab/files/Green-QIOMonad.pdf	N/A
 https://ncatlab.org/nlab/files/Altenkirch-QIOMonad.pdf	N/A
 https://ncatlab.org/nlab/files/Benton-CategoricalMonads.pdf	N/A
-https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch09.xhtml	N/A
+https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch09.xhtml	published	2014
 https://learnyouahaskell.github.io/chapters.html	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/	N/A
-https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_TOC_ePub.xhtml	N/A
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_TOC_ePub.xhtml	published	2023
 https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Haskell/Thinking%20Functionally%20With%20Haskell.pdf	N/A
 https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/ch10.html	N/A
 https://subscription.packtpub.com/book/programming/9781786461353/1/ch01lvl1sec03/getting-started-with-haskell	N/A
 https://www.apress.com/gp/book/9781484244791	N/A
 https://subscription.packtpub.com/book/programming/9781805128458/14/ch14lvl1sec02/the-monad-type-class	N/A
-https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch07.xhtml	N/A
-https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_08.xhtml	N/A
+https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch07.xhtml	published	2014
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_08.xhtml	published	2023
 https://subscription.packtpub.com/book/programming/9781805128458/10/ch10lvl1sec72/the-io-approach	N/A
 https://learning.oreilly.com/library/view/haskell-high-performance/9781786464217/ch14s11.html	N/A
-https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_11.xhtml	N/A
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_11.xhtml	published	2023
 https://livebook.manning.com/book/functional-design-and-architecture/chapter-6/v-4	N/A
 https://livevideo.manning.com/module/2028_16_3/haskell-in-depth-video-edition/concurrency/summary?fullscreen=true	N/A
 https://pragprog.com/news/effective-haskell-in-beta/	N/A
@@ -1776,7 +1776,7 @@ https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/t
 https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/3-pure-functions-laziness-io	modified	2026-07-27
 https://www.schoolofhaskell.com/user/garrett.mitchener/Monads	modified	2026-07-27
 https://www.schoolofhaskell.com/user/commercial/content/monad-transformers	modified	2026-07-27
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/07.htm	N/A
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/07.htm	published	2021
 https://www.haskell.org/haskellwiki/Example_code	modified	2022-10-22
 https://blog.ploeh.dk/2020/06/29/syntactic-sugar-for-io/	created	2020
 https://anurudhp.github.io/blogs/2021/06/23/io-monad-in-cpp.html	publication	2021-06-23
@@ -3085,7 +3085,7 @@ https://www.microsoft.com/en-us/research/publication/first-class-named-effect-ha
 https://www.microsoft.com/en-us/research/publication/generalized-evidence-passing-for-effect-handlers/	N/A
 https://www.microsoft.com/en-us/research/publication/algebraic-effect-handlers-resources-deep-finalization/	N/A
 https://www.cis.upenn.edu/~cis1940/spring15/lectures/05-IO.html	created	1940
-https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_15.xhtml	N/A
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_15.xhtml	published	2023
 https://www.some.ox.ac.uk/wp-content/uploads/2026/06/Haskell-Tutorial-2026.pdf	created	2026
 https://www.haskell.org/haskellwiki/Learn_Haskell_in_10_minutes	modified	2019-08-09
 https://hackage-content.haskell.org/package/bluefin-0.2.7.0/docs/Bluefin.Coroutine.html	published	2026-01-31
@@ -3388,7 +3388,7 @@ https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/3169
 https://www.haskell.org/haskellwiki/FFI_Introduction	modified	2015-02-17
 https://www.haskell.org/haskellwiki/FFICookBook	modified	2017-04-17
 https://www.haskell.org/haskellwiki/HSFFIG	modified	2025-07-08
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e293f0c0-320c-452d-b0a8-da30e99b13de.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e293f0c0-320c-452d-b0a8-da30e99b13de.xhtml	published	2017
 https://www.haskell.org/haskellwiki/Ru/IO	modified	2022-06-01
 https://www.haskell.org/haskellwiki/yampa/reactimate	modified	2016-06-06
 https://www.haskell.org/haskellwiki/Yhc/RTS/Concurrency	modified	2006-03-26
@@ -3399,9 +3399,9 @@ https://www.haskell.org/haskellwiki/NewMonads	modified	2023-06-08
 https://www.haskell.org/haskellwiki/lifting	modified	2025-06-03
 https://www.haskell.org/haskellwiki/Research_papers/Functional_pearls	modified	2026-01-06
 https://www.haskell.org/haskellwiki/Open_research_problems	modified	2022-05-31
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e4fdf7b9-6a2c-4943-ae88-de2d9359378f.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/03.htm	N/A
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/01.htm	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e4fdf7b9-6a2c-4943-ae88-de2d9359378f.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/03.htm	published	2021
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/01.htm	published	2021
 https://www.haskell.org/haskellwiki/Monad/ST	modified	2025-06-16
 https://www.haskell.org/haskellwiki/arrays	modified	2020-07-23
 https://www.haskell.org/haskellwiki/Library/AltBinary	modified	2006-12-27
@@ -3622,8 +3622,8 @@ https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7	publication	2014
 https://dl.acm.org/doi/10.1145/773473.178246	publication	1994-06
 https://person.dibris.unige.it/moggi-eugenio/ftp/jfp01.pdf	N/A
 https://www.researchgate.net/publication/220367662_Monadic_Encapsulation_of_Effects_a_Revised_Approach	N/A
-https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch07s05.html	N/A
-https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/ch02.html	N/A
+https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch07s05.html	published	2016
+https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/ch02.html	published	2015
 https://www.oreilly.com/library/view/learn-you-a/9781457100406/	N/A
 https://www.researchgate.net/publication/2265787_Concurrent_Monadic_Interfacing	N/A
 https://www.researchgate.net/profile/Eleni-Spiliopoulou-2/publication/2265787_Concurrent_Monadic_Interfacing/links/53eb4ddf0cf2fb1b9b6b0cae/Concurrent-Monadic-Interfacing.pdf?origin=scientificContributions	N/A
@@ -4198,10 +4198,10 @@ https://git-r3lab-server.uni.lu/R3/school/haskell/haskell23	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0038.xhtml	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0041.xhtml	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0052.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/44dacd55-054b-4e5a-b6e8-0d9d87282aee.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/271aee82-7323-4bff-b79e-d120edb47140.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/2a71930b-b92f-4606-91c8-6c1664373840.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e9a033fc-b339-4a67-82c1-059b20eadc52.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/44dacd55-054b-4e5a-b6e8-0d9d87282aee.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/271aee82-7323-4bff-b79e-d120edb47140.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/2a71930b-b92f-4606-91c8-6c1664373840.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/e9a033fc-b339-4a67-82c1-059b20eadc52.xhtml	published	2017
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_105.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_108.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_110.html	modified	2019-02-15
@@ -4777,8 +4777,8 @@ https://github.com/b-studios/scala-effekt/tree/jfp	N/A
 https://arxiv.org/pdf/2203.15426	created	2022-03
 https://lego.github.io/scala-cats-workshop/	N/A
 https://mabboux.net/informatique/haskell/en/Haskell-IO-Monade.pdf	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30ae8d78-628e-436c-8a34-078062777e52.xhtml	N/A
-https://www.oreilly.com/library/view/scala-programming-projects/9781788397643/e8352bca-e84d-4319-93ca-6fa96e1decba.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30ae8d78-628e-436c-8a34-078062777e52.xhtml	published	2017
+https://www.oreilly.com/library/view/scala-programming-projects/9781788397643/e8352bca-e84d-4319-93ca-6fa96e1decba.xhtml	published	2018
 https://www.scribd.com/document/927560311/00000154	modified	2025-10-03
 https://stdvotrainingprod.blob.core.windows.net/public/courses/SCALA-CATS3.pdf	N/A
 https://riuma.uma.es/xmlui/bitstream/handle/10630/20477/S%C3%A1nchez%20Fern%C3%A1ndez%2C%20Santiago%20Guillermo%20Memoriapdf.pdf?isAllowed=true&sequence=1	N/A
@@ -4994,7 +4994,7 @@ https://packages.debian.org/source/trixie/misc/haskell-io-streams	modified	2026-
 https://citeseerx.ist.psu.edu/document?doi=842d83f195d7c5e9d2923b1170457f7e228b6974&repid=rep1&type=pdf	N/A
 https://code.garrettmills.dev/Archives/papers-we-love_papers-we-love/raw/commit/b16225016d84197e9725b6fed9948f77859dd1aa/haskell/tackling-the-awkward-squad-monadic-input-output-concurrency-exceptions-and-foreign-language-calls-in-haskell.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=1d81d40211412a9b587eebf04ea2edfde902d4a4&repid=rep1&type=pdf	N/A
-https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/	N/A
+https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/	published	2014
 https://mail.haskell.org/pipermail/haskell-cafe/2007-May/025120.html	created	2007
 https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base/System-IO.html	modified	2019-02-15
 https://www.haskell.org/hugs/pages/libraries/base/System-IO.html	modified	2019-02-17
@@ -5075,7 +5075,7 @@ https://www.scs.stanford.edu/11au-cs240h/notes/concurrency-slides.html	modified	
 https://www.microsoft.com/en-us/research/publication/asynchronous-exceptions-haskell-3/	N/A
 https://www.haskell.org/ghc/docs/7.0-latest/users_guide.pdf	modified	2019-02-15
 https://haskell-for-readers.nomeata.de/	N/A
-https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_032.html	N/A
+https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_032.html	published	2018
 https://downloads.haskell.org/~ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Data-IORef.html	modified	2021-10-29
 https://hackage.haskell.org/package/monadIO/docs/Control-Concurrent-STM-MonadIO.html	created	2018-10-03
 https://www.haskell.org/hugs/pages/libraries/base/System-IO-Unsafe.html	modified	2019-02-17
@@ -5273,7 +5273,7 @@ https://hackage.haskell.org/package/mtl	published	2025-12-08
 https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2022/ex/ex11.pdf	created	2022
 https://mabboux.net/informatique/haskell/en/Tutoriel/Wikibooks-Haskell.pdf	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ix01.html	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/	published	2017
 https://hiskio.com/en/ebooks/1104	N/A
 https://stackoverflow.com/questions/9345008/why-doesnt-scala-have-an-io-monad	created	2012-02-18
 https://stackoverflow.com/questions/18172947/how-to-perform-side-effects-in-pure-functional-programming	created	2013-08-11
@@ -7006,7 +7006,7 @@ https://www.usrsb.in/iteratee-notes.html	N/A
 https://www.sambuz.com/doc/lazy-v-yield-incremental-linear-pretty-printing-ppt-presentation-514188	N/A
 https://hackage.haskell.org/package/iteratee/docs	created	2014-05-19
 https://en.wikipedia.org/wiki/Iteratee	modified	2026-07-16
-https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/ch06s04.html	N/A
+https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/ch06s04.html	published	2015
 https://paperzz.com/doc/8273438/lazier-imperative-programming	N/A
 https://www.philipzucker.com/notes/Programming/continuations-effects/	publication	2026-07-17
 https://stackoverflow.com/questions/13422756/handling-exceptions-in-an-iteratee-library-without-an-error-state	created	2012-11-16
@@ -7023,7 +7023,7 @@ https://www.reddit.com/r/haskell/comments/sxxcg3	N/A
 https://www.reddit.com/r/haskell/comments/mlw821	N/A
 https://www.reddit.com/r/haskell/comments/bva5c4	N/A
 https://hackage.haskell.org/package/conduit-1.1.0	published	2014-04-02
-https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch14s11.html	N/A
+https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch14s11.html	published	2016
 https://www.reddit.com/r/haskell/comments/143tx64	N/A
 https://www.reddit.com/r/haskell/comments/qio3b6	N/A
 https://www.reddit.com/r/haskellquestions/comments/c491lw	N/A
@@ -10051,9 +10051,9 @@ https://www.pure.ed.ac.uk/ws/portalfiles/portal/7944776/Comprehending_monads.pdf
 https://cir.nii.ac.jp/crid/1363388845654673408	N/A
 https://www.researchgate.net/publication/2460300_Comprehending_Monads	N/A
 https://www.researchgate.net/publication/2464619_How_to_Declare_an_Imperative	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/ab3eb06c-d5ae-4c30-9d6a-7d57c756424b.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/eccbb313-0e04-4882-8a76-68b8557e23af.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/toc.htm	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/ab3eb06c-d5ae-4c30-9d6a-7d57c756424b.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/eccbb313-0e04-4882-8a76-68b8557e23af.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/toc.htm	published	2021
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch19.html	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0100.xhtml	N/A
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/A512C0BB77D425E55066CBF97E68C153/S0956796803000819a.pdf/6_predefined_types_and_classes.pdf	N/A
@@ -10597,7 +10597,7 @@ https://www.scribd.com/document/392102951/scalaio	modified	2018-11-01
 https://typelevel.org/cats-effect/api/3.x/cats/effect/index.html	modified	2026-07-25
 https://www.perlego.com/book/800653/mastering-functional-programming-functional-techniques-for-sequential-and-parallel-programming-with-scala-pdf	N/A
 https://typelevel.org/cats-effect/docs/concepts	modified	2026-07-25
-https://www.oreilly.com/library/view/mastering-functional-programming/9781788620796/d6427d3b-5b55-44a7-9ac8-51fa6c6f04a1.xhtml	N/A
+https://www.oreilly.com/library/view/mastering-functional-programming/9781788620796/d6427d3b-5b55-44a7-9ac8-51fa6c6f04a1.xhtml	published	2018
 https://index.scala-lang.org/tomasmikula/libretto	N/A
 https://essentialeffects.dev/essential-effects-excerpt.pdf	N/A
 https://zio.dev/reference/concurrency/ref	N/A
@@ -10634,7 +10634,7 @@ https://docs.rs/rsmonad/latest/rsmonad/	published	2023-05-25
 https://docs.rs/higher/latest/src/higher/lib.rs.html	published	2023-01-18
 https://languageext.readthedocs.io/en/latest/README.html	N/A
 https://docs.vavr.io/	N/A
-https://www.oreilly.com/library/view/learning-java-functional/9781783558483/ch06s02.html	N/A
+https://www.oreilly.com/library/view/learning-java-functional/9781783558483/ch06s02.html	published	2015
 https://www.javacodegeeks.com/2025/01/vavr-bringing-functional-programming-to-java.html	publication	2025-01-02
 https://louthy.github.io/language-ext-v4/LanguageExt.Core/Effects/index.html	N/A
 https://mvnrepository.com/artifact/io.vavr/vavr	N/A
@@ -10929,7 +10929,7 @@ https://lean-lang.org/functional_programming_in_lean/	N/A
 https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/33592/Thesis-Thomas-Ekstr%C3%B6m-Hansen-complete-version.pdf?sequence=5	N/A
 https://leanpub.com/gidti	N/A
 https://docs.idris-lang.org/en/latest/tutorial/	modified	2023-03-04
-https://www.oreilly.com/library/view/type-driven-development-with/9781617293023/OEBPS/Text/02.html	N/A
+https://www.oreilly.com/library/view/type-driven-development-with/9781617293023/OEBPS/Text/02.html	published	2017
 https://docslib.org/doc/590952/idris-a-functional-programming-language-with-dependent-types	N/A
 https://livebook.manning.com/book/type-driven-development-with-idris/chapter-5	N/A
 https://index.scala-lang.org/frees-io/freestyle	N/A
@@ -11857,7 +11857,7 @@ https://conf.researchr.org/profile/conf/davidjanin	N/A
 https://scispace.com/conferences/practical-aspects-of-declarative-languages-2u08719m/2020	created	2020
 https://dokumen.pub/practical-aspects-of-declarative-languages-22nd-international-symposium-padl-2020-new-orleans-la-usa-january-2021-2020-proceedings-lecture-notes-in-computer-science-12007-3030391965-9783030391966.html	created	2020
 https://wg28-2019.mpi-sws.org/technical-presentations/	created	2019
-https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch05s03.html	N/A
+https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch05s03.html	published	2016
 https://stackoverflow.com/questions/14003098/modeling-time-as-lazy-numbers?noredirect=1	N/A
 https://conf.researchr.org/room/pepm-2020/POPL-2020-venue-bacchus	created	2020
 https://xmonad.github.io/xmonad-docs/base-4.15.1.0/src/System-IO.html	N/A
@@ -12221,7 +12221,7 @@ https://katalog.bibliothek.kit.edu/bib/319287	N/A
 https://libris.kb.se/bib/11949296	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/copyright.html	N/A
 https://catonmat.net/ftp/typeclassopedia.pdf	N/A
-https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_044.html	N/A
+https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_044.html	published	2018
 https://www.bookey.app/book/real-world-haskell	N/A
 https://katalog.bibliothek.kit.edu/bib/357081	N/A
 https://ndlsearch.ndl.go.jp/books/R100000002-I023618487	N/A
@@ -12257,7 +12257,7 @@ https://hamk.finna.fi/Record/nelli19.5500000000344222	N/A
 https://media.pragprog.com/titles/rshaskell/typeclasses.pdf	N/A
 https://webfiles.amrita.edu/2024/12/btech-cse-curriculam-and-syllabus-2023.pdf	created	2024
 https://prosabladet.dk/fileadmin/user_upload/84261_PROSA_11-2023_web.pdf	created	2023
-https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c61/	N/A
+https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c61/	published	2021
 https://discover.knoxcountylibrary.org/oreilly/on1479279521	N/A
 https://www.manning.com/books/haskell-in-depth	N/A
 https://catalog.faylib.org/Record/214856	N/A
@@ -12269,7 +12269,7 @@ https://www.goodreads.com/en/book/show/41057179-haskell-in-depth	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/review-of-haskell-in-depth-by-vitaly-bragilevsky-manning-publications-2021/E8BE1DB3FD80AB7AD92EE979893A10AC	publication	2025-01
 https://dmkpress.com/files/PDF/978-5-93700-379-9.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E8BE1DB3FD80AB7AD92EE979893A10AC/S0956796825000024a.pdf/review_of_haskell_in_depth_by_vitaly_bragilevsky_manning_publications_2021.pdf	created	2021
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/btoc.htm	N/A
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/btoc.htm	published	2021
 https://ci.nii.ac.jp/ncid/BC02774380	created	2018
 https://serranofp.com/assets/cv.pdf	N/A
 https://ebooks.mpdl.mpg.de/ebooks/Record/EB002092793	N/A
@@ -12288,12 +12288,12 @@ https://next.fpcomplete.com/haskell/learn/	N/A
 https://www.goodreads.com/book/show/25587599-haskell-programming	N/A
 https://www.goodreads.com/author/show/3240780.Tom_Schrijvers	N/A
 https://www.extrema.is/articles/haskell-books	N/A
-https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_01.xhtml	N/A
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_01.xhtml	published	2023
 https://www.packtpub.com/en-us/product/soar-with-haskell-9781805122562	N/A
 https://www.goodreads.com/en/book/show/203852024-soar-with-haskell	N/A
 https://subscription.packtpub.com/book/programming/9781805128458/pref/preflvl1sec03/what-this-book-covers	N/A
 https://www.packtpub.com/en-no/product/soar-with-haskell-9781805128458	N/A
-https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_10.xhtml	N/A
+https://www.oreilly.com/library/view/soar-with-haskell/9781805128458/B20868_10.xhtml	published	2023
 https://www.library.cbit.ac.in/2024-CBIT-PACKT%20E.Books%20List.pdf	created	2024
 https://subscription.packtpub.com/book/programming/9781805128458/10/ch10lvl1sec75/summary	N/A
 https://www.packtpub.com/en-cl/product/soar-with-haskell-9781805128458	N/A
@@ -12302,7 +12302,7 @@ https://subscription.packtpub.com/book/programming/9781805128458/15/ch15lvl1sec1
 https://www.packtpub.com/en-us/product/soar-with-haskell-9781805128458?type=print	N/A
 https://www.packtpub.com/en-pl/product/soar-with-haskell-9781805128458?type=print	N/A
 https://www.bookey.app/book/soar-with-haskell	N/A
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/appendix.htm	N/A
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/appendix.htm	published	2021
 https://www.cs.hs-rm.de/~sabel/teaching/archive/assets/SS2025/FP/folien/01-begruessung-4s.pdf	created	2025
 https://harfangk.dev/en/posts/2023-09-24-haskell-in-depth.html	created	2023
 https://www.slideshare.net/AlejandroMena6/build-your-own-monads	N/A
@@ -13056,7 +13056,7 @@ https://bdm.unb.br/bitstream/10483/19378/1/2017_LuizGustavoSoaresdeSa.pdf	create
 https://github.com/AliasQli/dialogue#readme	updated	2022-02-13
 https://www.haskell.org/communities/11-2014/report.pdf	created	2014
 https://hackage.haskell.org/package/dialogue/docs/System-IO-Continuation.html	created	2022-02-13
-https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/05.htm	N/A
+https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/05.htm	published	2021
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/5FF49759807A74E7C42B8C8E0195F654/9781108488518c12_391-448.pdf/quantitative-information-flow-with-monads-in-haskell.pdf	N/A
 https://www.cs.us.es/~jalonso/cursos/i1m-16/temas/tema-13.html	N/A
 https://cdn.bookey.app/files/pdf/book/en/programming-in-haskell.pdf	N/A
@@ -13734,9 +13734,9 @@ https://www.ipl.riec.tohoku.ac.jp/FLOPS2020/pdf/5-3.pdf	created	2020
 https://3f2cm.github.io/join_to_Monad/join_to_Monad.html	N/A
 https://downloads.haskell.org/ghc/8.10.4/docs/html/users_guide/index.html	modified	2021-02-05
 https://fileadmin.cs.lth.se/cs/Education/EDAN40/labs/lab3_2.04.pdf	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/50ca31fa-ab36-4bfe-b794-093ded8102b4.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/54a9cb67-8cf1-4abe-a0b0-8b77fe71ded5.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/01a10648-2737-405a-a922-026aa042738d.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/50ca31fa-ab36-4bfe-b794-093ded8102b4.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/54a9cb67-8cf1-4abe-a0b0-8b77fe71ded5.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/01a10648-2737-405a-a922-026aa042738d.xhtml	published	2017
 https://pdfcoffee.com/functional-design-and-architecture-pdf-free.html	N/A
 https://docplayer.net/13447212-Implementing-programming-languages-aarne-ranta.html	N/A
 https://docplayer.net/266704-Type-inference-and-optimisation-for-an-impure-world.html	N/A
@@ -13924,7 +13924,7 @@ https://rwh.readthedocs.io/en/latest/chp/7.html	N/A
 https://pt.scribd.com/document/741447417/Artigo06Editado	N/A
 https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranje.pdf	updated	2025-12-01
 https://amslaurea.unibo.it/id/eprint/27900/1/borghi_luca_tesi.pdf	N/A
-https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_033.html	N/A
+https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_033.html	published	2018
 https://hackage.haskell.org/package/haste-compiler/docs/Haste-App.html	created	2017-09-08
 https://www.stackage.org/package/managed	indexed	2026-07-27
 https://stackoverflow.com/questions/23173971/in-haskell-how-do-i-promptly-close-resources	N/A
@@ -14481,15 +14481,15 @@ https://stackoverflow.com/questions/29001751/getting-parallel-io-while-accountin
 https://utheme.univ-tlse3.fr/files/original/199d4d23354d3ae58ebf815fdc6f5b66b6e78448.pdf	N/A
 https://usermanual.wiki/Document/Thesis.1600500564.pdf	N/A
 https://www.siforge.org/articles/2006/03/22-hsintro.html	created	2006
-https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch02s07.html	N/A
+https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch02s07.html	published	2016
 https://discus-lang.org/papers/2010-impure/lippmeier-impure-world.pdf	created	2010
 https://www.repository.cam.ac.uk/items/1911c9bf-d371-4564-a044-c87253163334	publication	2023-02-16
 https://stackoverflow.com/questions/51537980/request-response-pattern-within-haskell	N/A
 https://www.informatik.uni-kiel.de/~mh/lehre/seminare/ss04-sem-arbeiten/sadeghi.pdf	N/A
 https://simon.peytonjones.org/assets/pdfs/slpj-book-1987-2up-searchable.pdf	created	1987
 https://dalila.sip.ucm.es/~ricardo/waaapl99.pdf	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/675728fe-02dc-4fa9-913b-e0073fb7903a.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fa94de42-373f-44ed-ba29-546d17f96d1b.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/675728fe-02dc-4fa9-913b-e0073fb7903a.xhtml	published	2017
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fa94de42-373f-44ed-ba29-546d17f96d1b.xhtml	published	2017
 https://stackoverflow.com/questions/47178815/how-haskell-catch-throwio-called-exception-in-exceptt	N/A
 https://caiorss.github.io/Functional-Programming/haskell/haskell_handling_exceptions.html	N/A
 https://downloads.haskell.org/ghc/7.10.1/docs/html/libraries/haskeline-0.7.2.1/System-Console-Haskeline-MonadException.html	modified	2019-02-15
@@ -23750,7 +23750,7 @@ https://ocaml.org/p/picos_io/0.5.0	published	2024-09-05
 https://ocaml.org/p/picos_io/0.6.0	published	2024-11-03
 https://ocaml.org/p/picos_io/latest	N/A
 https://hopac.github.io/Hopac/Hopac.html	N/A
-https://www.oreilly.com/library/view/f-high-performance/9781786468079/ch04s03.html	N/A
+https://www.oreilly.com/library/view/f-high-performance/9781786468079/ch04s03.html	published	2017
 https://arxiv.org/abs/1512.01896	created	2015-12
 https://uu.diva-portal.org/smash/get/diva2%3A1502080/FULLTEXT01.pdf	N/A
 https://mbrace.io/mbrace-plos.pdf	N/A
@@ -26102,8 +26102,8 @@ https://dspace.vut.cz/items/b0128a32-52bc-46cc-9141-71053c6cf211	publication	201
 https://hackage.haskell.org/package/wai-3.2.1.2/docs/Network-Wai.html	created	2018-03-19
 https://research.google.com/pubs/archive/37267.pdf	N/A
 https://trendsfp.github.io/2022/tfp-abstracts.pdf	created	2022
-https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch12.xhtml	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/732f5b32-be8b-40f2-92c8-b75df2747ef1.xhtml	N/A
+https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch12.xhtml	published	2014
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/732f5b32-be8b-40f2-92c8-b75df2747ef1.xhtml	published	2017
 https://archlinux.org/packages/extra/x86_64/haskell-wai/	N/A
 https://hackage.haskell.org/package/wai-2.1.0.3/docs/Network-Wai.html	created	2014-05-23
 https://hackage-content.haskell.org/package/yesod-core-1.6.27.0/docs/Yesod-Core-Handler.html	published	2025-03-21
@@ -26127,7 +26127,7 @@ https://docs.idris-lang.org/en/v0.12.3/effects/	modified	2021-01-29
 https://idris.readthedocs.io/en/latest/effects/impleff.html	N/A
 https://idris.readthedocs.io/en/latest/effects/simpleeff.html	N/A
 https://idris2.readthedocs.io/en/stable/typedd/typedd.html	N/A
-https://www.oreilly.com/library/view/type-driven-development-with/9781617293023/	N/A
+https://www.oreilly.com/library/view/type-driven-development-with/9781617293023/	published	2017
 https://hackage.haskell.org/package/idris-0.9.15/docs/Idris-AbsSyntax.html	created	2014-10-26
 https://hackage.haskell.org/package/idris-0.9.15/docs/src/Idris-REPL.html	created	2014-10-26
 https://hackage.haskell.org/package/idris-1.0/changelog	created	2017-04-01
@@ -28146,13 +28146,13 @@ https://paranoidmonoid.github.io/articles/Kotlin%20and%20friends/Hands-on%20Arro
 https://stackoverflow.com/questions/61806329/how-to-compose-io-functions-with-other-effects-in-kotlin-arrow-fx	N/A
 https://vavr.io/?lang=en	N/A
 https://www.oreilly.co.jp/books/9784873117041/	N/A
-https://www.oreilly.com/library/view/functional-programming-for/9781449312657/ch02.html	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617292736/kindle_split_020.html	N/A
+https://www.oreilly.com/library/view/functional-programming-for/9781449312657/ch02.html	published	2011
+https://www.oreilly.com/library/view/functional-programming-in/9781617292736/kindle_split_020.html	published	2017
 https://www.packtpub.com/en-NO/product/learning-java-functional-programming-9781783558483	N/A
 https://codeyaan.com/blog/how-to-guides/effectts-functional-programming-in-typescript-3658	N/A
 https://dev.to/peerhenry/functional-programming-in-typescript-using-fp-ts-readertaskeither-1pei	N/A
 https://www.ayokoding.com/en/c/learn/software-engineering/platforms/web/tools/ts-effect/by-example/overview	N/A
-https://www.oreilly.com/videos/functional-programming-in/9781617292828VE/9781617292828VE-Atencio_c08s05/	N/A
+https://www.oreilly.com/videos/functional-programming-in/9781617292828VE/9781617292828VE-Atencio_c08s05/	published	2016
 https://www.utupub.fi/bitstream/handle/10024/174968/Paju_Jaakko_opinnayte.pdf?isAllowed=y&sequence=1	N/A
 https://blog.drewolson.org/concurrent-ruby-with-tasks/	publication	2018-10-29
 https://richarde.dev/papers/2020/workflows/workflows.pdf	created	2020
@@ -28162,7 +28162,7 @@ https://github.com/stumathews/UnderstandingLanguageExt	N/A
 https://subscription.packtpub.com/book/programming/9781785282225/pref/preflvl1sec02/what-this-book-covers	N/A
 https://subscription.packtpub.com/book/programming/9781837635191/12/ch12lvl1sec23/chapter-12-functional-programming	N/A
 https://www.manning.com/books/functional-programming-in-c-sharp?query=functional	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617299827/OEBPS/Text/title.htm	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299827/OEBPS/Text/title.htm	published	2021
 https://books.google.com/books/about/Mastering_Functional_Programming_with_Ty.html?id=iMUOEQAAQBAJ	published	2024
 https://openlibrary.org/works/OL17581286W/Parallel_And_Concurrent_Programming_In_Haskell	N/A
 https://trendsfp.github.io/2025/abstracts/paper-020.pdf	created	2025
@@ -28291,7 +28291,7 @@ https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/haskell.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67f1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
 https://sambuz.com/doc/monadic-i-o-in-haskell-ppt-presentation-1026853	N/A
 https://livebook.manning.com/book/haskell-in-depth/welcome	N/A
-https://www.oreilly.com/library/view/functional-programming-for/9781119527503/c11.xhtml	N/A
+https://www.oreilly.com/library/view/functional-programming-for/9781119527503/c11.xhtml	published	2019
 https://www.oreilly.com/library/view/haskell-quick-syntax/9781484245071/html/475690_1_En_1_Chapter.xhtml	N/A
 https://www.people.cs.nott.ac.uk/pszgmh/pih.html	N/A
 https://homepages.inf.ed.ac.uk/wadler/papers/yow/?C=D%3BO%3DA	N/A
@@ -28756,7 +28756,7 @@ https://www.youtube.com/watch?index=34&list=PLD8gywOEY4HaG5VSrKVnHxCptlJv2GAn7&v
 https://www.well-typed.com/blog/2024/10/18-months-of-unfolder/	created	2024
 https://hackage.haskell.org/package/helm	published	2016-10-03
 https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with-an-io-base-layer	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30a8e78d-628e-436c-8a34-078062777e52.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/30a8e78d-628e-436c-8a34-078062777e52.xhtml	published	2017
 https://www.youtube.com/playlist?list=PLD0EBF7F6C1A5A4D6	N/A
 https://owenstephens.co.uk/assets/static/research/masters_report.pdf	N/A
 https://www.microsoft.com/en-us/research/publication/functional-programming-and-inputoutput/	N/A
@@ -30531,7 +30531,7 @@ http://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf	N/A
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2	created	2006
 https://researchr.org/publication/Moggi91	N/A
 https://arxiv.org/abs/1406.4823	created	2014-06
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fefbd1c8-7808-4c0b-a414-a2a188e3049a.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fefbd1c8-7808-4c0b-a414-a2a188e3049a.xhtml	published	2017
 https://cs.tufts.edu/~nr/cs252r/ss.html	N/A
 https://lotz84.github.io/haskell/free-monad.html	N/A
 https://research-information.bris.ac.uk/en/studentTheses/effects-and-effect-handlers-for-probabilistic-programming/	N/A
@@ -30585,7 +30585,7 @@ https://www.cs.cornell.edu/courses/cs6110/2017sp/lectures/lec32.pdf	created	2017
 https://www.danielgratzer.com/courses/type-theory-s-2024/lecture-notes.pdf	created	2024
 https://bobkonf.de/archive/haskell	N/A
 https://www.classcentral.com/subject/haskell	N/A
-https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/a8c02536-4441-40af-a9c1-24133b3814d2.xhtml	N/A
+https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/a8c02536-4441-40af-a9c1-24133b3814d2.xhtml	published	2017
 https://discover.knoxcountylibrary.org/oreilly/on1032263978	N/A
 https://hackage.haskell.org/package/distributed-process-monad-control	published	2017-09-07
 https://hackage.haskell.org/package/streaming-process/docs/Streaming-Process.html	created	2018-05-23
@@ -31349,7 +31349,7 @@ https://jokerconf.com/en/archive/2021/talks/10007539-scala-war-of-effects-zio-vs
 https://degoes.net/articles/zio-2.0	N/A
 https://www.classcentral.com/index.php/subject/zio	N/A
 https://old.arrow-kt.io/docs/0.12/core/	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617297168/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617297168/	published	2021
 https://media.arrow-kt.io/	N/A
 https://media.arrow-kt.io/tags/fx/	N/A
 https://clojure.github.io/core.async/clojure.core.async.html	N/A
@@ -32181,7 +32181,7 @@ https://hackage.haskell.org/package/aivika-1.2	published	2014-05-18
 https://hackage.haskell.org/package/katip-0.8.8.4	published	2025-09-03
 https://hackage.haskell.org/package/conduit-1.3.6.1/docs	N/A
 https://hackage.haskell.org/package/unliftio-0.2.25.1/docs	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/p4.htm	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/p4.htm	published	2022
 https://monix.io/api/2.2/monix/types/Monad.html	N/A
 https://monix.io/api/2.2/monix/types/	N/A
 https://monix.io/api/2.3/monix/types/index.html	N/A
@@ -32293,18 +32293,18 @@ https://www.javadoc.io/static/io.monix/monix-eval_2.11/3.2.1/monix/eval/Task.htm
 https://hackage-content.haskell.org/package/streamly-core-0.2.3/docs/src/Streamly.FileSystem.File.html	published	2025-02-11
 https://tohoku.elsevierpure.com/en/publications/freer-monads-more-extensible-effects-2/	N/A
 https://tohoku.elsevierpure.com/en/publications/lightweight-monadic-regions/	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617293818/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617293818/	published	2019
 https://arxiv.org/abs/2312.13295	created	2023-12
 https://livebook.manning.com/book/functional-programming-in-scala/chapter-15	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html	N/A
-https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_026.html	published	2015
+https://www.oreilly.com/videos/functional-programming-in/9781617290657VE/9781617290657VE-FPScala_c11s4/	published	2015
 https://www.bookey.app/book/functional-programming-in-scala	N/A
 https://www.cs.cmu.edu/~fp/courses/15312-f02/lectures/15-monads.html	N/A
 https://kar.kent.ac.uk/61623/	N/A
 https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/monads-for-fp_wadler.pdf	N/A
 https://hmemcpy.com/2017/05/from-net-to-scala-and-beyond-a-journey-to-functional-programming/	created	2017
 https://www.infoq.com/fp/presentations/175/	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/fm.htm	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/fm.htm	published	2022
 https://www.baeldung.com/scala/cats-effect-error-handling	N/A
 https://www.creativescala.org/cats-effect-tutorial/	N/A
 https://www.kriso.lv/functional-programming-scala-db-9781617290657.html	N/A
@@ -32399,7 +32399,7 @@ https://haddocks.haskell-miso.org/base/index.html	N/A
 https://haddocks.haskell-miso.org/base/doc-index-I.html	N/A
 https://hackage.haskell.org/package/ghc-internal/docs	created	2025-12-19
 https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow	N/A
-https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/	N/A
+https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/	published	2021
 https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ	published	2021
 https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/	N/A
 https://nostarch.com/fsharp	publication	2013-09-27
@@ -32418,8 +32418,8 @@ https://www.classcentral.com/report/best-clojure-courses/	N/A
 https://jokerconf.com/en/archive/2022/talks/20000856-monads-in-java-in-20-minutes/	created	2022
 https://higher-kinded-j.github.io/latest/tutorials/coretypes/foundations_journey.html	N/A
 https://java-design-patterns.com/patterns/monad/	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/index.htm	N/A
-https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_021.html	N/A
+https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/index.htm	published	2022
+https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_021.html	published	2015
 https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiusano/9781617290657	N/A
 https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ	published	2023
 https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf	N/A
@@ -33139,7 +33139,7 @@ https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0	created	2026
 https://www.stackage.org/lts-24.29/package/io-storage-0.3	indexed	2026-07-27
 https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4	indexed	2026-07-27
-https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	N/A
+https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	published	2008
 https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md	updated	2020-09-24
 https://gist.github.com/therewillbecode	created	2023-08-29
 https://gist.github.com/FranklinChen/1448622	created	2011-12-08
