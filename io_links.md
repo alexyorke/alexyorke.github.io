@@ -1,115 +1,115 @@
 # IO Monad Links
 ## Foundational papers and theses
-https://sigplan.github.io/OpenTOC/haskell24.html
-https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf
-https://dl.acm.org/doi/pdf/10.1145/143165.143169
-https://dl.acm.org/doi/10.1145/143165.143169
-https://dl.acm.org/doi/abs/10.1145/130697.130699
-https://dl.acm.org/doi/abs/10.1145/1238844.1238856
-https://dl.acm.org/doi/10.1145/72551.72554
-https://dl.acm.org/doi/10.5555/647698.734146
-https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/
-https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/
-https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf
-https://dl.acm.org/doi/10.1145/317765.317777
-https://homepages.inf.ed.ac.uk/wadler/papers/reflection-journal/reflection-journal.pdf
-https://link.springer.com/article/10.1007/BF01018828
-https://iris-project.org/pdfs/2018-popl-runST-final.pdf
-https://dl.acm.org/doi/10.1145/3158152
-https://cs.au.dk/~birke/papers/runST-conf.pdf
-https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf
-https://dl.acm.org/doi/10.1145/258949.258969
-https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf
-https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/Wadler-MonadsFP.pdf
-https://homes.luddy.indiana.edu/sabry/files/mdo-ita.pdf
-https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler
-https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf
-https://dl.acm.org/doi/10.1145/319838.319876
-https://dl.acm.org/doi/10.1145/165180.165195
-https://dl.acm.org/doi/pdf/10.1145/581690.581694
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf
-https://simon.peytonjones.org/Tackling-the-awkward-squad/
-https://cs.nju.edu.cn/xyfeng/teaching/FOPL/reading/awkwardSquad.pdf
-https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/
-https://dl.acm.org/doi/10.1145/3331545.3342589
-https://dl.acm.org/doi/10.1145/2775050.2633368
-https://dl.acm.org/doi/10.1145/2500365.2500581
-https://dl.acm.org/doi/10.1145/2503778.2503791
-https://www.cs.umd.edu/~avik/papers/cmllch.pdf
-https://dl.acm.org/doi/10.5555/895692
-https://dl.acm.org/doi/10.1145/2887747.2804311
-https://dl.acm.org/doi/10.1145/3156695.3122968
-https://dl.acm.org/doi/10.1145/1863523.1863536
-https://abhiroop.github.io/pubs/HasTEE_SGX.pdf
-https://dl.acm.org/doi/10.1145/1088348.1088354
-https://dl.acm.org/doi/pdf/10.1145/2088456.1863535
-https://dl.acm.org/doi/10.1145/292540.292557
-https://dl.acm.org/doi/proceedings/10.1145/581690
-https://dl.acm.org/doi/pdf/10.1145/99370.99409
-https://dl.acm.org/doi/10.1145/99370.99407
-https://dl.acm.org/doi/10.1145/318593.318660
-https://dl.acm.org/doi/10.5555/20652.20655
-https://dl.acm.org/doi/pdf/10.1145/258949.258973
-https://dl.acm.org/doi/10.1145/568173.568183
-https://dl.acm.org/doi/pdf/10.1145/1159803.1159823?download=true
-https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concurrent_Haskell_Programs
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/PrettierConcurrency-Haskell2011.pdf
-https://dl.acm.org/doi/10.1145/2096148.2034685
-https://dl.acm.org/doi/10.1145/1366230.1366241
-https://dl.acm.org/doi/pdf/10.1145/2503778.2503790
-https://dl.acm.org/doi/pdf/10.1145/2096148.2034690
-https://dl.acm.org/doi/10.1145/378795.378858
-https://dl.acm.org/doi/pdf/10.1145/2692915.2628144
-https://dl.acm.org/doi/pdf/10.1145/2414639.2414650
-https://dl.acm.org/doi/10.1145/2976002.2976006
-https://dl.acm.org/doi/10.1145/3122955.3122968
-https://dl.acm.org/doi/10.1145/2628136.2628144
-https://dl.acm.org/doi/10.1145/1052934.1052935
-https://dl.acm.org/doi/10.1145/3473568
-https://dl.acm.org/doi/10.1145/1017472.1017473
-https://dl.acm.org/doi/10.1007/978-3-540-27861-0_2
-https://dl.acm.org/doi/10.5555/647978.743363
-https://dl.acm.org/doi/10.1145/1173706.1173714
-https://www.cse.chalmers.se/alumni/bringert/publ/haskelldb/haskelldb.pdf
-https://dl.acm.org/doi/10.1145/289251.289437
-https://dl.acm.org/doi/10.1145/1017472.1017478
-https://dl.acm.org/doi/10.5555/646453.693097
-https://dl.acm.org/doi/10.1145/1088348.1088352
-https://dl.acm.org/doi/10.1145/1088348.1088350
-https://dl.acm.org/doi/10.1145/1088348.1088351
-https://dl.acm.org/doi/10.1145/291251.289437
-https://dl.acm.org/doi/10.1145/1088348.1088353
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/hdirect.pdf
-https://simonmar.github.io/bib/papers/vshaskell.pdf
-https://www.microsoft.com/en-us/research/publication/object-oriented-style-overloading-for-haskell/
-https://www.researchgate.net/publication/221241196_Experience_report_Building_an_Eclipse-based_IDE_for_Haskell
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/com.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/overloading.pdf
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/green-card-1.pdf
-https://www.microsoft.com/en-us/research/publication/scripting-com-components-in-haskell/
-https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/
-https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/
-https://www.sciencedirect.com/science/article/pii/S1571066105805493
-https://simonmar.github.io/bib/papers/conc-ffi.pdf
-https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages
-https://link.springer.com/chapter/10.1007/11964681_12
-https://dl.acm.org/doi/10.1145/1017472.1017479
-https://dl.acm.org/doi/10.5555/645772.667946
-https://dl.acm.org/doi/abs/10.1017/S0956796899003561
-https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms
-https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH
-https://link.springer.com/chapter/10.1007/3-540-45587-6_13
-https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf
-https://dl.acm.org/doi/10.1145/871895.871898
-https://link.springer.com/chapter/10.1007/11737414_19
-https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf
-https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier
-https://dl.acm.org/doi/10.1145/2976002.2976015
-https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_HaskellScript
-https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server
-https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz
-https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf
+https://sigplan.github.io/OpenTOC/haskell24.html	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/imperative.pdf	N/A
+https://dl.acm.org/doi/pdf/10.1145/143165.143169	N/A
+https://dl.acm.org/doi/10.1145/143165.143169	N/A
+https://dl.acm.org/doi/abs/10.1145/130697.130699	N/A
+https://dl.acm.org/doi/abs/10.1145/1238844.1238856	N/A
+https://dl.acm.org/doi/10.1145/72551.72554	N/A
+https://dl.acm.org/doi/10.5555/647698.734146	N/A
+https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/	N/A
+https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative/	1997
+https://homepages.inf.ed.ac.uk/wadler/papers/imperative/imperative.pdf	N/A
+https://dl.acm.org/doi/10.1145/317765.317777	N/A
+https://homepages.inf.ed.ac.uk/wadler/papers/reflection-journal/reflection-journal.pdf	N/A
+https://link.springer.com/article/10.1007/BF01018828	N/A
+https://iris-project.org/pdfs/2018-popl-runST-final.pdf	N/A
+https://dl.acm.org/doi/10.1145/3158152	N/A
+https://cs.au.dk/~birke/papers/runST-conf.pdf	N/A
+https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf	N/A
+https://dl.acm.org/doi/10.1145/258949.258969	N/A
+https://goto.ucsd.edu/~nvazou/padl16/techrep.pdf	N/A
+https://web.engr.oregonstate.edu/~walkiner/teaching/cs583-sp21/files/Wadler-MonadsFP.pdf	N/A
+https://homes.luddy.indiana.edu/sabry/files/mdo-ita.pdf	N/A
+https://ics.uci.edu/~jajones/INF102-S18/readings/24_wadler	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf	N/A
+https://dl.acm.org/doi/10.1145/319838.319876	N/A
+https://dl.acm.org/doi/10.1145/165180.165195	N/A
+https://dl.acm.org/doi/pdf/10.1145/581690.581694	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf	N/A
+https://simon.peytonjones.org/Tackling-the-awkward-squad/	2001-01-01
+https://cs.nju.edu.cn/xyfeng/teaching/FOPL/reading/awkwardSquad.pdf	N/A
+https://www.microsoft.com/en-us/research/publication/lightweight-monadic-programming-in-ml-2/	N/A
+https://dl.acm.org/doi/10.1145/3331545.3342589	N/A
+https://dl.acm.org/doi/10.1145/2775050.2633368	N/A
+https://dl.acm.org/doi/10.1145/2500365.2500581	N/A
+https://dl.acm.org/doi/10.1145/2503778.2503791	N/A
+https://www.cs.umd.edu/~avik/papers/cmllch.pdf	N/A
+https://dl.acm.org/doi/10.5555/895692	N/A
+https://dl.acm.org/doi/10.1145/2887747.2804311	N/A
+https://dl.acm.org/doi/10.1145/3156695.3122968	N/A
+https://dl.acm.org/doi/10.1145/1863523.1863536	N/A
+https://abhiroop.github.io/pubs/HasTEE_SGX.pdf	N/A
+https://dl.acm.org/doi/10.1145/1088348.1088354	N/A
+https://dl.acm.org/doi/pdf/10.1145/2088456.1863535	N/A
+https://dl.acm.org/doi/10.1145/292540.292557	N/A
+https://dl.acm.org/doi/proceedings/10.1145/581690	N/A
+https://dl.acm.org/doi/pdf/10.1145/99370.99409	N/A
+https://dl.acm.org/doi/10.1145/99370.99407	N/A
+https://dl.acm.org/doi/10.1145/318593.318660	N/A
+https://dl.acm.org/doi/10.5555/20652.20655	N/A
+https://dl.acm.org/doi/pdf/10.1145/258949.258973	N/A
+https://dl.acm.org/doi/10.1145/568173.568183	N/A
+https://dl.acm.org/doi/pdf/10.1145/1159803.1159823?download=true	N/A
+https://www.researchgate.net/publication/220369636_Runtime_Verification_of_Concurrent_Haskell_Programs	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/PrettierConcurrency-Haskell2011.pdf	N/A
+https://dl.acm.org/doi/10.1145/2096148.2034685	N/A
+https://dl.acm.org/doi/10.1145/1366230.1366241	N/A
+https://dl.acm.org/doi/pdf/10.1145/2503778.2503790	N/A
+https://dl.acm.org/doi/pdf/10.1145/2096148.2034690	N/A
+https://dl.acm.org/doi/10.1145/378795.378858	N/A
+https://dl.acm.org/doi/pdf/10.1145/2692915.2628144	N/A
+https://dl.acm.org/doi/pdf/10.1145/2414639.2414650	N/A
+https://dl.acm.org/doi/10.1145/2976002.2976006	N/A
+https://dl.acm.org/doi/10.1145/3122955.3122968	N/A
+https://dl.acm.org/doi/10.1145/2628136.2628144	N/A
+https://dl.acm.org/doi/10.1145/1052934.1052935	N/A
+https://dl.acm.org/doi/10.1145/3473568	N/A
+https://dl.acm.org/doi/10.1145/1017472.1017473	N/A
+https://dl.acm.org/doi/10.1007/978-3-540-27861-0_2	N/A
+https://dl.acm.org/doi/10.5555/647978.743363	N/A
+https://dl.acm.org/doi/10.1145/1173706.1173714	N/A
+https://www.cse.chalmers.se/alumni/bringert/publ/haskelldb/haskelldb.pdf	N/A
+https://dl.acm.org/doi/10.1145/289251.289437	N/A
+https://dl.acm.org/doi/10.1145/1017472.1017478	N/A
+https://dl.acm.org/doi/10.5555/646453.693097	N/A
+https://dl.acm.org/doi/10.1145/1088348.1088352	N/A
+https://dl.acm.org/doi/10.1145/1088348.1088350	N/A
+https://dl.acm.org/doi/10.1145/1088348.1088351	N/A
+https://dl.acm.org/doi/10.1145/291251.289437	N/A
+https://dl.acm.org/doi/10.1145/1088348.1088353	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/hdirect.pdf	N/A
+https://simonmar.github.io/bib/papers/vshaskell.pdf	N/A
+https://www.microsoft.com/en-us/research/publication/object-oriented-style-overloading-for-haskell/	N/A
+https://www.researchgate.net/publication/221241196_Experience_report_Building_an_Eclipse-based_IDE_for_Haskell	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/com.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/overloading.pdf	N/A
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/green-card-1.pdf	N/A
+https://www.microsoft.com/en-us/research/publication/scripting-com-components-in-haskell/	N/A
+https://www.microsoft.com/en-us/research/publication/calling-hell-from-heaven-and-heaven-from-hell/	N/A
+https://www.microsoft.com/en-us/research/publication/green-card-a-foreign-language-interface-for-haskell/	N/A
+https://www.sciencedirect.com/science/article/pii/S1571066105805493	N/A
+https://simonmar.github.io/bib/papers/conc-ffi.pdf	N/A
+https://www.researchgate.net/publication/221600561_Interfacing_Haskell_with_Object-Oriented_Languages	N/A
+https://link.springer.com/chapter/10.1007/11964681_12	N/A
+https://dl.acm.org/doi/10.1145/1017472.1017479	N/A
+https://dl.acm.org/doi/10.5555/645772.667946	N/A
+https://dl.acm.org/doi/abs/10.1017/S0956796899003561	N/A
+https://www.researchgate.net/publication/2380982_WASHCGI_Server-side_Web_Scripting_with_Sessions_and_Typed_Compositional_Forms	N/A
+https://www.researchgate.net/publication/234803311_XML_templates_and_caching_in_WASH	N/A
+https://link.springer.com/chapter/10.1007/3-540-45587-6_13	N/A
+https://www2.informatik.uni-freiburg.de/~thiemann/papers/padl02.pdf	N/A
+https://dl.acm.org/doi/10.1145/871895.871898	N/A
+https://link.springer.com/chapter/10.1007/11737414_19	N/A
+https://webspace.science.uu.nl/~jeuri101/homepage/Publications/webapp.pdf	N/A
+https://www.researchgate.net/publication/2381809_Haskell_Server_Pages_-_Functional_Programming_and_the_Battle_for_the_Middle_Tier	N/A
+https://dl.acm.org/doi/10.1145/2976002.2976015	N/A
+https://www.researchgate.net/publication/2408901_Client-Side_Web_Scripting_with_HaskellScript	N/A
+https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server	N/A
+https://www.informatik.uni-bremen.de/~clueth/lehre/PI3.WS00/meijer.ps.gz	N/A
+https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/server-side-web-scripting-in-haskell/F34DEFF8D123F59DB19AAF76DA5241F0
 https://www.researchgate.net/publication/220367550_Writing_High-Performance_Server_Applications_in_Haskell_Case_Study_A_Haskell_Web_Server/fulltext/026e24500cf26271f5893eb1/Writing-High-Performance-Server-Applications-in-Haskell-Case-Study-A-Haskell-Web-Server.pdf
 https://scispace.com/pdf/integrating-an-interactive-haskell-tool-with-a-web-vttntpjuo3.pdf
