@@ -207,11 +207,11 @@ https://dl.acm.org/doi/10.1145/3485479	publication	2021-10-20
 https://github.com/danelahman/haskell-coop	created	2025-12-12
 https://github.com/patrickt/patrickt.github.io/blob/develop/posts/serving-http-content-with-fused-effects.org	N/A
 https://github.com/mmenestret/fp-resources	created	2025-09-17
-https://github.com/qio-haskell/qio-haskell	N/A
+https://github.com/qio-haskell/qio-haskell	created	2026
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F	publication	2020
 https://github.com/Icelandjack/Capabilities	N/A
 https://github.com/albertdahlin/elm-cli-io-monad	created	2020-11-17
-https://github.com/okmij/libhandler	N/A
+https://github.com/okmij/libhandler	created	2026
 https://github.com/effect-handlers/effect-handlers.github.io	created	2022-04-11
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effekt-capabilitypassing-style-for-type-and-effectsafe-extensible-effect-handlers-in-scala/A19680B18FB74AD95F8D83BC4B097D4F	publication	2020-01
 https://dl.acm.org/doi/10.1145/2633357.2633358	publication	2014-09-03
