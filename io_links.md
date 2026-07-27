@@ -7392,18 +7392,18 @@ https://www.reddit.com/r/haskell/comments/v80v6f	N/A
 ## Citation records, catalogs, and book previews
 https://dblp.org/rec/conf/popl/JonesW93	published	1993
 https://dblp.org/rec/conf/popl/JonesW93.html	published	1993
-https://dblp.org/rec/conf/popl/JonesW93.bib	N/A
-https://dblp.org/rec/conf/popl/JonesW93.ris	N/A
-https://dblp.org/rec/conf/popl/JonesW93.xml	N/A
+https://dblp.org/rec/conf/popl/JonesW93.bib	published	1993
+https://dblp.org/rec/conf/popl/JonesW93.ris	published	1993
+https://dblp.org/rec/conf/popl/JonesW93.xml	published	1993
 https://dblp.org/rec/journals/ita/ErkokLM02.html	published	2002
-https://dblp.org/rec/journals/ita/ErkokLM02.bib	N/A
-https://dblp.org/rec/journals/ita/ErkokLM02.ris	N/A
-https://dblp.org/rec/journals/ita/ErkokLM02.xml	N/A
+https://dblp.org/rec/journals/ita/ErkokLM02.bib	published	2002
+https://dblp.org/rec/journals/ita/ErkokLM02.ris	published	2002
+https://dblp.org/rec/journals/ita/ErkokLM02.xml	published	2002
 https://dblp.org/rec/journals/lisp/LaunchburyJ95	published	1995
 https://dblp.org/rec/journals/lisp/LaunchburyJ95.html	published	1995
-https://dblp.org/rec/journals/lisp/LaunchburyJ95.bib	N/A
-https://dblp.org/rec/journals/lisp/LaunchburyJ95.ris	N/A
-https://dblp.org/rec/journals/lisp/LaunchburyJ95.xml	N/A
+https://dblp.org/rec/journals/lisp/LaunchburyJ95.bib	published	1995
+https://dblp.org/rec/journals/lisp/LaunchburyJ95.ris	published	1995
+https://dblp.org/rec/journals/lisp/LaunchburyJ95.xml	published	1995
 https://www.ninebynine.org/Software/Learning-Haskell-Notes.html	N/A
 https://www.researchportal.vub.be/en/publications/tackling-the-awkward-squad-for-reactive-programming-the-actor-rea	N/A
 https://eudml.org/doc/245821	N/A
@@ -7458,13 +7458,13 @@ https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/State-monad.lhs	N
 ## Thesis identifiers and proceedings exports
 https://doi.org/10.6083/M4SQ8XBW	publication	2002
 https://dblp.org/rec/phd/ethos/Gordon92.html	published	1992
-https://dblp.org/rec/phd/ethos/Gordon92.bib	N/A
-https://dblp.org/rec/phd/ethos/Gordon92.ris	N/A
-https://dblp.org/rec/phd/ethos/Gordon92.xml	N/A
+https://dblp.org/rec/phd/ethos/Gordon92.bib	published	1992
+https://dblp.org/rec/phd/ethos/Gordon92.ris	published	1992
+https://dblp.org/rec/phd/ethos/Gordon92.xml	published	1992
 https://dblp.org/rec/conf/fp/AchtenGP92.html	published	1992
-https://dblp.org/rec/conf/fp/AchtenGP92.bib	N/A
-https://dblp.org/rec/conf/fp/AchtenGP92.ris	N/A
-https://dblp.org/rec/conf/fp/AchtenGP92.xml	N/A
+https://dblp.org/rec/conf/fp/AchtenGP92.bib	published	1992
+https://dblp.org/rec/conf/fp/AchtenGP92.ris	published	1992
+https://dblp.org/rec/conf/fp/AchtenGP92.xml	published	1992
 https://cs.ru.nl/bachelors-theses/2020/Koen_W%C3%B6sten___4787838___Abstract_Nonsense_and_Programming_-_Uses_of_Category_Theory_in_Computer_Science.pdf	created	2020
 https://coursys.sfu.ca/2018sp-cmpt-384-d1/pages/IO	created	2018
 https://grosskurth.ca/bib/2003/dowse-tr.pdf	created	2003
@@ -7472,46 +7472,46 @@ https://cgi.cse.unsw.edu.au/~eptcs/references.cgi?MSFP2012.8.html=	created	2012
 https://dl.acm.org/doi/10.5555/647557.729907	N/A
 https://dblp.org/rec/conf/ifl/DowseSB02	published	2002
 https://dblp.org/rec/conf/ifl/DowseSB02.html	published	2002
-https://dblp.org/rec/conf/ifl/DowseSB02.bib	N/A
-https://dblp.org/rec/conf/ifl/DowseSB02.ris	N/A
-https://dblp.org/rec/conf/ifl/DowseSB02.xml	N/A
+https://dblp.org/rec/conf/ifl/DowseSB02.bib	published	2002
+https://dblp.org/rec/conf/ifl/DowseSB02.ris	published	2002
+https://dblp.org/rec/conf/ifl/DowseSB02.xml	published	2002
 https://dblp.org/rec/conf/ifl/ButterfieldS01	published	2001
 https://dblp.org/rec/conf/ifl/ButterfieldS01.html	published	2001
-https://dblp.org/rec/conf/ifl/ButterfieldS01.bib	N/A
-https://dblp.org/rec/conf/ifl/ButterfieldS01.ris	N/A
-https://dblp.org/rec/conf/ifl/ButterfieldS01.xml	N/A
+https://dblp.org/rec/conf/ifl/ButterfieldS01.bib	published	2001
+https://dblp.org/rec/conf/ifl/ButterfieldS01.ris	published	2001
+https://dblp.org/rec/conf/ifl/ButterfieldS01.xml	published	2001
 https://dblp.org/rec/conf/ifl/DowseBE04	published	2004
 https://dblp.org/rec/conf/ifl/DowseBE04.html	published	2004
-https://dblp.org/rec/conf/ifl/DowseBE04.bib	N/A
-https://dblp.org/rec/conf/ifl/DowseBE04.ris	N/A
-https://dblp.org/rec/conf/ifl/DowseBE04.xml	N/A
+https://dblp.org/rec/conf/ifl/DowseBE04.bib	published	2004
+https://dblp.org/rec/conf/ifl/DowseBE04.ris	published	2004
+https://dblp.org/rec/conf/ifl/DowseBE04.xml	published	2004
 https://dblp.org/rec/conf/cefp/Butterfield11	published	2011
 https://dblp.org/rec/conf/cefp/Butterfield11.html	published	2011
-https://dblp.org/rec/conf/cefp/Butterfield11.bib	N/A
-https://dblp.org/rec/conf/cefp/Butterfield11.ris	N/A
-https://dblp.org/rec/conf/cefp/Butterfield11.xml	N/A
+https://dblp.org/rec/conf/cefp/Butterfield11.bib	published	2011
+https://dblp.org/rec/conf/cefp/Butterfield11.ris	published	2011
+https://dblp.org/rec/conf/cefp/Butterfield11.xml	published	2011
 https://dblp.org/rec/conf/icfp/DowseB06	published	2006
 https://dblp.org/rec/conf/icfp/DowseB06.html	published	2006
-https://dblp.org/rec/conf/icfp/DowseB06.bib	N/A
-https://dblp.org/rec/conf/icfp/DowseB06.ris	N/A
-https://dblp.org/rec/conf/icfp/DowseB06.xml	N/A
+https://dblp.org/rec/conf/icfp/DowseB06.bib	published	2006
+https://dblp.org/rec/conf/icfp/DowseB06.ris	published	2006
+https://dblp.org/rec/conf/icfp/DowseB06.xml	published	2006
 https://dblp.org/rec/conf/icfp/FelleisenFFK09.html	published	2009
-https://dblp.org/rec/conf/icfp/FelleisenFFK09.bib	N/A
-https://dblp.org/rec/conf/icfp/FelleisenFFK09.ris	N/A
-https://dblp.org/rec/conf/icfp/FelleisenFFK09.xml	N/A
+https://dblp.org/rec/conf/icfp/FelleisenFFK09.bib	published	2009
+https://dblp.org/rec/conf/icfp/FelleisenFFK09.ris	published	2009
+https://dblp.org/rec/conf/icfp/FelleisenFFK09.xml	published	2009
 ## Interactive-functional records and report mirrors
 https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/DAT600/?acYear=2026%2F2027	created	2026
 https://www.cs.ox.ac.uk/people/maciej.pirog/mbext.pdf	N/A
 https://dblp.org/rec/phd/basesearch/Achten96	published	1996
 https://dblp.org/rec/phd/basesearch/Achten96.html	published	1996
-https://dblp.org/rec/phd/basesearch/Achten96.bib	N/A
-https://dblp.org/rec/phd/basesearch/Achten96.ris	N/A
-https://dblp.org/rec/phd/basesearch/Achten96.xml	N/A
+https://dblp.org/rec/phd/basesearch/Achten96.bib	published	1996
+https://dblp.org/rec/phd/basesearch/Achten96.ris	published	1996
+https://dblp.org/rec/phd/basesearch/Achten96.xml	published	1996
 https://dblp.org/rec/conf/plilp/Achten95	published	1995
 https://dblp.org/rec/conf/plilp/Achten95.html	published	1995
-https://dblp.org/rec/conf/plilp/Achten95.bib	N/A
-https://dblp.org/rec/conf/plilp/Achten95.ris	N/A
-https://dblp.org/rec/conf/plilp/Achten95.xml	N/A
+https://dblp.org/rec/conf/plilp/Achten95.bib	published	1995
+https://dblp.org/rec/conf/plilp/Achten95.ris	published	1995
+https://dblp.org/rec/conf/plilp/Achten95.xml	published	1995
 https://rebelsky.cs.grinnell.edu/CV/rebelsky-cv-full.pdf	N/A
 https://www.researchgate.net/publication/259162987_Monads_for_Behaviour	N/A
 https://www.cs.cornell.edu/Conferences/MFPS29/accepted.htm	N/A
@@ -7596,9 +7596,9 @@ https://books.google.com/books/about/Haskell.html?id=es9GPgAACAAJ	N/A
 https://doi.org/10.1007/978-1-4471-3166-3_11	publication	1990
 https://dblp.org/rec/conf/fp/McLoughlinH89	published	1989
 https://dblp.org/rec/conf/fp/McLoughlinH89.html	published	1989
-https://dblp.org/rec/conf/fp/McLoughlinH89.bib	N/A
-https://dblp.org/rec/conf/fp/McLoughlinH89.ris	N/A
-https://dblp.org/rec/conf/fp/McLoughlinH89.xml	N/A
+https://dblp.org/rec/conf/fp/McLoughlinH89.bib	published	1989
+https://dblp.org/rec/conf/fp/McLoughlinH89.ris	published	1989
+https://dblp.org/rec/conf/fp/McLoughlinH89.xml	published	1989
 https://www.cs.cmu.edu/~rwh/papers/history/main.pdf	N/A
 https://smlfamily.github.io/history/ML2015-talk.pdf	created	2015
 https://smlfamily.github.io/history/macqueen-lucafest.pdf	N/A
@@ -7606,9 +7606,9 @@ https://docs.huihoo.com/ml/smlfamily/history/SML-history.pdf	N/A
 https://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	N/A
 https://web.archive.org/web/20190307145556/http://lucacardelli.name/Papers/Polymorphism%20Vol%20I,%20No%203.pdf	archived	2019-03-07
 https://dblp.org/rec/journals/ipl/Dwelly88.html	published	1988
-https://dblp.org/rec/journals/ipl/Dwelly88.bib	N/A
-https://dblp.org/rec/journals/ipl/Dwelly88.ris	N/A
-https://dblp.org/rec/journals/ipl/Dwelly88.xml	N/A
+https://dblp.org/rec/journals/ipl/Dwelly88.bib	published	1988
+https://dblp.org/rec/journals/ipl/Dwelly88.ris	published	1988
+https://dblp.org/rec/journals/ipl/Dwelly88.xml	published	1988
 https://www.schweitzer-online.de/ebook/Davis/Functional-Programming/9781447131663/A17855838/	N/A
 https://ftp.math.utah.edu/pub/tex/bib/sigplan1980.html	created	1980
 https://ftp.math.utah.edu/pub/tex/bib/sigplan1980.pdf	created	1980
@@ -7619,9 +7619,9 @@ https://openalex.org/W2134078973	N/A
 https://openalex.org/W1989524304	N/A
 https://dblp.org/rec/journals/jfp/Burton91	published	1991
 https://dblp.org/rec/journals/jfp/Burton91.html	published	1991
-https://dblp.org/rec/journals/jfp/Burton91.bib	N/A
-https://dblp.org/rec/journals/jfp/Burton91.ris	N/A
-https://dblp.org/rec/journals/jfp/Burton91.xml	N/A
+https://dblp.org/rec/journals/jfp/Burton91.bib	published	1991
+https://dblp.org/rec/journals/jfp/Burton91.ris	published	1991
+https://dblp.org/rec/journals/jfp/Burton91.xml	published	1991
 ## RealWorld internals and uniqueness-typed I/O comparisons
 https://cgi.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Quiz.html	created	2008
 https://ir.cwi.nl/pub/27567/Thesis_N_Bezirgiannis	N/A
@@ -7630,9 +7630,9 @@ https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-prim-0.2.0.0/GH
 https://downloads.haskell.org/~ghc/7.0.3/docs/html/libraries/ghc-prim-0.2.0.0/GHC-Prim.html	modified	2019-02-15
 https://dblp.org/rec/conf/ifl/AchtenJ00	published	2000
 https://dblp.org/rec/conf/ifl/AchtenJ00.html	published	2000
-https://dblp.org/rec/conf/ifl/AchtenJ00.bib	N/A
-https://dblp.org/rec/conf/ifl/AchtenJ00.ris	N/A
-https://dblp.org/rec/conf/ifl/AchtenJ00.xml	N/A
+https://dblp.org/rec/conf/ifl/AchtenJ00.bib	published	2000
+https://dblp.org/rec/conf/ifl/AchtenJ00.ris	published	2000
+https://dblp.org/rec/conf/ifl/AchtenJ00.xml	published	2000
 ## Proceedings catalogs and multilingual lecture material
 https://openlibrary.org/works/OL12608300W	N/A
 https://openlibrary.org/books/OL9701343M	N/A
@@ -7764,16 +7764,16 @@ https://openalex.org/W4414067080	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/div-class-title-automatically-testing-console-i-o-behavior-of-student-submissions-in-haskell-div.pdf	N/A
 ## Functional and operational semantics for I/O
 https://dblp.org/rec/conf/fpca/Gordon93.html	published	1993
-https://dblp.org/rec/conf/fpca/Gordon93.bib	N/A
-https://dblp.org/rec/conf/fpca/Gordon93.ris	N/A
-https://dblp.org/rec/conf/fpca/Gordon93.xml	N/A
+https://dblp.org/rec/conf/fpca/Gordon93.bib	published	1993
+https://dblp.org/rec/conf/fpca/Gordon93.ris	published	1993
+https://dblp.org/rec/conf/fpca/Gordon93.xml	published	1993
 https://www.numdam.org/article/ITA_2004__38_4_375_0.pdf	created	2004
 https://citeseerx.ist.psu.edu/document?doi=9995cdf9ea0ce604e65a6c09b45f83ea714b788e&repid=rep1&type=pdf	N/A
 https://webspace.science.uu.nl/~swier004/talks/	N/A
 https://dblp.org/rec/conf/haskell/SwierstraA07.html	published	2007
-https://dblp.org/rec/conf/haskell/SwierstraA07.bib	N/A
-https://dblp.org/rec/conf/haskell/SwierstraA07.ris	N/A
-https://dblp.org/rec/conf/haskell/SwierstraA07.xml	N/A
+https://dblp.org/rec/conf/haskell/SwierstraA07.bib	published	2007
+https://dblp.org/rec/conf/haskell/SwierstraA07.ris	published	2007
+https://dblp.org/rec/conf/haskell/SwierstraA07.xml	published	2007
 https://stackoverflow.com/questions/6190745/struggling-with-using-pure-functional-programming-to-solve-an-everyday-problem	created	2011-05-31
 ## Multilingual tutorials and linked I/O course examples
 https://rsdn.org/article/funcprog/monad.xml	N/A
@@ -12597,8 +12597,8 @@ https://eptcs.org/paper.cgi?PLACES2015.1.pdf	created	2015
 https://doi.org/10.1145/2914770.2837634	N/A
 https://dl.acm.org/doi/10.1145/2914770.2837634	N/A
 https://dblp.org/rec/conf/popl/OrchardY16.html	published	2016
-https://dblp.org/rec/conf/popl/OrchardY16.bib	N/A
-https://dblp.org/rec/conf/popl/OrchardY16.xml	N/A
+https://dblp.org/rec/conf/popl/OrchardY16.bib	published	2016
+https://dblp.org/rec/conf/popl/OrchardY16.xml	published	2016
 https://kar.kent.ac.uk/id/eprint/61624	N/A
 https://kar.kent.ac.uk/57481/	N/A
 https://eptcs.org/content.cgi?PLACES2015	created	2015
@@ -12626,8 +12626,8 @@ https://www.cs.kent.ac.uk/people/staff/dao7/talks.html	N/A
 https://www.researchgate.net/publication/386981954_Using_session_types_as_an_effect_system	N/A
 https://dblp.org/rec/journals/corr/OrchardY16	published	2016
 https://dblp.org/rec/journals/corr/OrchardY16.html	published	2016
-https://dblp.org/rec/journals/corr/OrchardY16.bib	N/A
-https://dblp.org/rec/journals/corr/OrchardY16.xml	N/A
+https://dblp.org/rec/journals/corr/OrchardY16.bib	published	2016
+https://dblp.org/rec/journals/corr/OrchardY16.xml	published	2016
 https://arxiv.org/pdf/1602.03591	created	2016-02
 https://export.arxiv.org/abs/1602.03591	created	2016-02
 https://export.arxiv.org/pdf/1602.03591	created	2016-02
@@ -14827,37 +14827,37 @@ https://www.youtube.com/watch?v=30q6BkBv5MY	N/A
 https://www.youtube.com/watch?v=8MoibGqlOqU	N/A
 http://www.haskell.org/wikiupload/8/85/TMR-Issue13.pdf	N/A
 https://dblp.org/rec/conf/slp/Wadler95.html	published	1995
-https://dblp.org/rec/conf/slp/Wadler95.bib	N/A
-https://dblp.org/rec/conf/slp/Wadler95.ris	N/A
+https://dblp.org/rec/conf/slp/Wadler95.bib	published	1995
+https://dblp.org/rec/conf/slp/Wadler95.ris	published	1995
 https://dblp.org/rec/journals/csur/Wadler97.html	published	1997
-https://dblp.org/rec/journals/csur/Wadler97.bib	N/A
-https://dblp.org/rec/journals/csur/Wadler97.ris	N/A
+https://dblp.org/rec/journals/csur/Wadler97.bib	published	1997
+https://dblp.org/rec/journals/csur/Wadler97.ris	published	1997
 https://dblp.org/rec/conf/ecoop/VonderROKM19.html	published	2019
-https://dblp.org/rec/conf/ecoop/VonderROKM19.bib	N/A
-https://dblp.org/rec/conf/ecoop/VonderROKM19.ris	N/A
+https://dblp.org/rec/conf/ecoop/VonderROKM19.bib	published	2019
+https://dblp.org/rec/conf/ecoop/VonderROKM19.ris	published	2019
 https://dblp.org/rec/data/11/VonderROKM20.html	published	2020
-https://dblp.org/rec/data/11/VonderROKM20.bib	N/A
-https://dblp.org/rec/data/11/VonderROKM20.ris	N/A
+https://dblp.org/rec/data/11/VonderROKM20.bib	published	2020
+https://dblp.org/rec/data/11/VonderROKM20.ris	published	2020
 https://dblp.org/rec/conf/nato/Wadler92.html	published	1992
-https://dblp.org/rec/conf/nato/Wadler92.bib	N/A
-https://dblp.org/rec/conf/nato/Wadler92.ris	N/A
-https://dblp.org/rec/conf/afp/Wadler95.bib	N/A
-https://dblp.org/rec/conf/afp/Wadler95.ris	N/A
+https://dblp.org/rec/conf/nato/Wadler92.bib	published	1992
+https://dblp.org/rec/conf/nato/Wadler92.ris	published	1992
+https://dblp.org/rec/conf/afp/Wadler95.bib	published	1995
+https://dblp.org/rec/conf/afp/Wadler95.ris	published	1995
 https://dblp.org/rec/conf/icfp/ErkokL00.html	published	2000
-https://dblp.org/rec/conf/icfp/ErkokL00.bib	N/A
-https://dblp.org/rec/conf/icfp/ErkokL00.ris	N/A
+https://dblp.org/rec/conf/icfp/ErkokL00.bib	published	2000
+https://dblp.org/rec/conf/icfp/ErkokL00.ris	published	2000
 https://dblp.org/rec/conf/haskell/ErkokL02.html	published	2002
-https://dblp.org/rec/conf/haskell/ErkokL02.bib	N/A
-https://dblp.org/rec/conf/haskell/ErkokL02.ris	N/A
+https://dblp.org/rec/conf/haskell/ErkokL02.bib	published	2002
+https://dblp.org/rec/conf/haskell/ErkokL02.ris	published	2002
 https://dblp.org/rec/conf/popl/Wadler92.html	published	1992
-https://dblp.org/rec/conf/popl/Wadler92.bib	N/A
-https://dblp.org/rec/conf/popl/Wadler92.ris	N/A
+https://dblp.org/rec/conf/popl/Wadler92.bib	published	1992
+https://dblp.org/rec/conf/popl/Wadler92.ris	published	1992
 https://dblp.org/rec/conf/lfp/Wadler90.html	published	1990
-https://dblp.org/rec/conf/lfp/Wadler90.bib	N/A
-https://dblp.org/rec/conf/lfp/Wadler90.ris	N/A
+https://dblp.org/rec/conf/lfp/Wadler90.bib	published	1990
+https://dblp.org/rec/conf/lfp/Wadler90.ris	published	1990
 https://dblp.org/rec/conf/fpca/Wadler89.html	published	1989
-https://dblp.org/rec/conf/fpca/Wadler89.bib	N/A
-https://dblp.org/rec/conf/fpca/Wadler89.ris	N/A
+https://dblp.org/rec/conf/fpca/Wadler89.bib	published	1989
+https://dblp.org/rec/conf/fpca/Wadler89.ris	published	1989
 https://riptutorial.com/haskell/example/10080/io-monad	N/A
 https://ola.bearblog.dev/io-in-haskell-an-epiphany/	N/A
 https://www.youtube.com/watch?v=jhf1Qiqq3b8	N/A
@@ -20092,12 +20092,12 @@ https://dblp.org/rec/phd/ethos/Gordon92.ttl	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.rdf	N/A
 https://dblp.org/rec/phd/ethos/Gordon92.txt	N/A
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92	published	1992
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.bib	N/A
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ris	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.bib	published	1992
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ris	published	1992
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.nt	N/A
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ttl	N/A
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.rdf	N/A
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.xml	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.xml	published	1992
 https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.txt	N/A
 https://studylib.net/doc/25980160/manning.functional.programming.in.scala.2014.8	created	2014
 https://www.grafiati.com/en/literature-selections/computer-input-output-equipment-eye/	N/A
@@ -20108,29 +20108,29 @@ https://dblp.org/rec/conf/fpca/Gordon93.rdf	N/A
 https://dblp.org/rec/conf/fpca/Gordon93.txt	N/A
 https://dblp.org/rec/journals/mscs/CroleG99	published	1999
 https://dblp.org/rec/journals/mscs/CroleG99.html	published	1999
-https://dblp.org/rec/journals/mscs/CroleG99.bib	N/A
-https://dblp.org/rec/journals/mscs/CroleG99.ris	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.bib	published	1999
+https://dblp.org/rec/journals/mscs/CroleG99.ris	published	1999
 https://dblp.org/rec/journals/mscs/CroleG99.nt	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.ttl	N/A
 https://dblp.org/rec/journals/mscs/CroleG99.rdf	N/A
-https://dblp.org/rec/journals/mscs/CroleG99.xml	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.xml	published	1999
 https://dblp.org/rec/journals/mscs/CroleG99.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93	published	1993
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.bib	published	1993
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ris	published	1993
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.xml	published	1993
 https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.txt	N/A
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99	published	1999
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.html	published	1999
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.bib	N/A
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.bib	published	1999
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ris	published	1999
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.nt	N/A
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.rdf	N/A
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.xml	published	1999
 https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.txt	N/A
 https://dblp.org/rec/conf/popl/JonesW93.nt	N/A
 https://dblp.org/rec/conf/popl/JonesW93.ttl	N/A
@@ -20138,146 +20138,146 @@ https://dblp.org/rec/conf/popl/JonesW93.rdf	N/A
 https://dblp.org/rec/conf/popl/JonesW93.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93	published	1993
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.html	published	1993
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.bib	published	1993
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ris	published	1993
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.xml	published	1993
 https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.txt	N/A
 https://dblp.org/rec/journals/csur/Wadler97.nt	N/A
 https://dblp.org/rec/journals/csur/Wadler97.ttl	N/A
 https://dblp.org/rec/journals/csur/Wadler97.rdf	N/A
-https://dblp.org/rec/journals/csur/Wadler97.xml	N/A
+https://dblp.org/rec/journals/csur/Wadler97.xml	published	1997
 https://dblp.org/rec/journals/csur/Wadler97.txt	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97	published	1997
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.html	published	1997
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.bib	N/A
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.bib	published	1997
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ris	published	1997
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.nt	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.rdf	N/A
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.xml	published	1997
 https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.txt	N/A
 https://dblp.org/rec/conf/slp/Wadler95	published	1995
 https://dblp.org/rec/conf/slp/Wadler95.nt	N/A
 https://dblp.org/rec/conf/slp/Wadler95.ttl	N/A
 https://dblp.org/rec/conf/slp/Wadler95.rdf	N/A
-https://dblp.org/rec/conf/slp/Wadler95.xml	N/A
+https://dblp.org/rec/conf/slp/Wadler95.xml	published	1995
 https://dblp.org/rec/conf/slp/Wadler95.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95	published	1995
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.html	published	1995
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.bib	published	1995
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ris	published	1995
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.xml	published	1995
 https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.txt	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94	published	1994
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.bib	N/A
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.ris	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.bib	published	1994
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.ris	published	1994
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.nt	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.ttl	N/A
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.rdf	N/A
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.xml	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.xml	published	1994
 https://dblp.org/rec/conf/pldi/LaunchburyJ94.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94	published	1994
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.html	published	1994
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.bib	published	1994
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ris	published	1994
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.xml	published	1994
 https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.txt	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94	published	1994
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.html	published	1994
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.bib	N/A
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.ris	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.bib	published	1994
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.ris	published	1994
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.nt	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.ttl	N/A
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.rdf	N/A
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.xml	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.xml	published	1994
 https://dblp.org/rec/conf/iclp/LaunchburyJ94.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94	published	1994
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.html	published	1994
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.bib	published	1994
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ris	published	1994
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.xml	published	1994
 https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.txt	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08	published	2008
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.html	published	2008
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.bib	N/A
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ris	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.bib	published	2008
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ris	published	2008
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.nt	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ttl	N/A
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.rdf	N/A
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.xml	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.xml	published	2008
 https://dblp.org/rec/conf/tphol/BulwahnKHEM08.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08	published	2008
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.html	published	2008
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.bib	published	2008
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ris	published	2008
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.xml	published	2008
 https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.txt	N/A
 https://webarchive.di.uminho.pt/web.archive.org/web/20090217092139/http%3A/haskell.org/haskellwiki/History_of_Haskell.html	N/A
 https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470050118.ecse164	N/A
 https://dblp.org/rec/conf/afp/Wadler95.nt	N/A
 https://dblp.org/rec/conf/afp/Wadler95.ttl	N/A
 https://dblp.org/rec/conf/afp/Wadler95.rdf	N/A
-https://dblp.org/rec/conf/afp/Wadler95.xml	N/A
+https://dblp.org/rec/conf/afp/Wadler95.xml	published	1995
 https://dblp.org/rec/conf/afp/Wadler95.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95	published	1995
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.html	published	1995
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.bib	published	1995
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ris	published	1995
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.xml	published	1995
 https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.txt	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07	published	2007
 https://dblp.org/rec/conf/hopl/HudakHJW07.html	published	2007
-https://dblp.org/rec/conf/hopl/HudakHJW07.bib	N/A
-https://dblp.org/rec/conf/hopl/HudakHJW07.ris	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.bib	published	2007
+https://dblp.org/rec/conf/hopl/HudakHJW07.ris	published	2007
 https://dblp.org/rec/conf/hopl/HudakHJW07.nt	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.ttl	N/A
 https://dblp.org/rec/conf/hopl/HudakHJW07.rdf	N/A
-https://dblp.org/rec/conf/hopl/HudakHJW07.xml	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.xml	published	2007
 https://dblp.org/rec/conf/hopl/HudakHJW07.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07	published	2007
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.html	published	2007
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.bib	published	2007
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ris	published	2007
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.xml	published	2007
 https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.txt	N/A
 https://dblp.org/rec/conf/popl/JonesFG96	published	1996
 https://dblp.org/rec/conf/popl/JonesFG96.html	published	1996
-https://dblp.org/rec/conf/popl/JonesFG96.bib	N/A
-https://dblp.org/rec/conf/popl/JonesFG96.ris	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.bib	published	1996
+https://dblp.org/rec/conf/popl/JonesFG96.ris	published	1996
 https://dblp.org/rec/conf/popl/JonesFG96.nt	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.ttl	N/A
 https://dblp.org/rec/conf/popl/JonesFG96.rdf	N/A
-https://dblp.org/rec/conf/popl/JonesFG96.xml	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.xml	published	1996
 https://dblp.org/rec/conf/popl/JonesFG96.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96	published	1996
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.html	published	1996
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.bib	published	1996
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ris	published	1996
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.xml	published	1996
 https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.txt	N/A
 https://www.cs.unibo.it/~sangio/DOC_public/logBis.pdf	N/A
 https://www.sussex.ac.uk/informatics/cogslib/reports/compsci/cs031996.pdf	N/A
@@ -20288,75 +20288,75 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_112.html	modified	
 https://www.asaj.org/papers/hoots97.pdf	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95	published	1995
 https://dblp.org/rec/conf/lics/Jeffrey95.html	published	1995
-https://dblp.org/rec/conf/lics/Jeffrey95.bib	N/A
-https://dblp.org/rec/conf/lics/Jeffrey95.ris	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.bib	published	1995
+https://dblp.org/rec/conf/lics/Jeffrey95.ris	published	1995
 https://dblp.org/rec/conf/lics/Jeffrey95.nt	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.ttl	N/A
 https://dblp.org/rec/conf/lics/Jeffrey95.rdf	N/A
-https://dblp.org/rec/conf/lics/Jeffrey95.xml	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.xml	published	1995
 https://dblp.org/rec/conf/lics/Jeffrey95.txt	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95	published	1995
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.html	published	1995
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.bib	N/A
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.bib	published	1995
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ris	published	1995
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.nt	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ttl	N/A
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.rdf	N/A
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.xml	published	1995
 https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.txt	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95	published	1995
 https://dblp.org/rec/journals/entcs/Jeffrey95.html	published	1995
-https://dblp.org/rec/journals/entcs/Jeffrey95.bib	N/A
-https://dblp.org/rec/journals/entcs/Jeffrey95.ris	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.bib	published	1995
+https://dblp.org/rec/journals/entcs/Jeffrey95.ris	published	1995
 https://dblp.org/rec/journals/entcs/Jeffrey95.nt	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.ttl	N/A
 https://dblp.org/rec/journals/entcs/Jeffrey95.rdf	N/A
-https://dblp.org/rec/journals/entcs/Jeffrey95.xml	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.xml	published	1995
 https://dblp.org/rec/journals/entcs/Jeffrey95.txt	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95	published	1995
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.html	published	1995
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.bib	N/A
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.bib	published	1995
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ris	published	1995
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.nt	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.rdf	N/A
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.xml	published	1995
 https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.txt	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99	published	1999
 https://dblp.org/rec/journals/tcs/Jeffrey99.html	published	1999
-https://dblp.org/rec/journals/tcs/Jeffrey99.bib	N/A
-https://dblp.org/rec/journals/tcs/Jeffrey99.ris	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.bib	published	1999
+https://dblp.org/rec/journals/tcs/Jeffrey99.ris	published	1999
 https://dblp.org/rec/journals/tcs/Jeffrey99.nt	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.ttl	N/A
 https://dblp.org/rec/journals/tcs/Jeffrey99.rdf	N/A
-https://dblp.org/rec/journals/tcs/Jeffrey99.xml	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.xml	published	1999
 https://dblp.org/rec/journals/tcs/Jeffrey99.txt	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99	published	1999
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.html	published	1999
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.bib	N/A
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.bib	published	1999
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ris	published	1999
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.nt	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.rdf	N/A
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.xml	published	1999
 https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.txt	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-free/	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.html	published	2025
-https://dblp.org/rec/journals/jfp/WestphalV25.bib	N/A
-https://dblp.org/rec/journals/jfp/WestphalV25.ris	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.bib	published	2025
+https://dblp.org/rec/journals/jfp/WestphalV25.ris	published	2025
 https://dblp.org/rec/journals/jfp/WestphalV25.nt	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.ttl	N/A
 https://dblp.org/rec/journals/jfp/WestphalV25.rdf	N/A
-https://dblp.org/rec/journals/jfp/WestphalV25.xml	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.xml	published	2025
 https://dblp.org/rec/journals/jfp/WestphalV25.txt	N/A
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25	published	2025
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.html	published	2025
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.bib	N/A
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.bib	published	2025
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ris	published	2025
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.nt	N/A
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.rdf	N/A
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.xml	published	2025
 https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.txt	N/A
 https://dblp.org/rec/journals/corr/abs-2008-09253.nt	created	2008
 https://dblp.org/rec/journals/corr/abs-2008-09253.ttl	created	2008
@@ -20373,21 +20373,21 @@ https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.xml	created	2008
 https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.txt	created	2008
 https://dblp.org/rec/journals/corr/abs-1210-0611	published	2011
 https://dblp.org/rec/journals/corr/abs-1210-0611.html	published	2011
-https://dblp.org/rec/journals/corr/abs-1210-0611.bib	N/A
-https://dblp.org/rec/journals/corr/abs-1210-0611.ris	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.bib	published	2011
+https://dblp.org/rec/journals/corr/abs-1210-0611.ris	published	2011
 https://dblp.org/rec/journals/corr/abs-1210-0611.nt	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.ttl	N/A
 https://dblp.org/rec/journals/corr/abs-1210-0611.rdf	N/A
-https://dblp.org/rec/journals/corr/abs-1210-0611.xml	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.xml	published	2011
 https://dblp.org/rec/journals/corr/abs-1210-0611.txt	N/A
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611	published	2011
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.html	published	2011
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.bib	N/A
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.bib	published	2011
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ris	published	2011
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.nt	N/A
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ttl	N/A
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.rdf	N/A
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.xml	published	2011
 https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.txt	N/A
 https://repos.ecosyste.ms/hosts/GitHub/owners/expipiplus1?page=1&per_page=100	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell	N/A
