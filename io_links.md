@@ -6505,23 +6505,23 @@ https://hackage.haskell.org/package/conduit-vfs-0.1.0.1	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.1/conduit-vfs-0.1.0.1.tar.gz	created	2019-06-11
 https://hackage-content.haskell.org/package/conduit-vfs-0.1.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.2	N/A
-https://hackage.haskell.org/package/conduit-vfs-0.1.0.2/conduit-vfs-0.1.0.2.tar.gz	N/A
+https://hackage.haskell.org/package/conduit-vfs-0.1.0.2/conduit-vfs-0.1.0.2.tar.gz	created	2019-06-11
 https://hackage-content.haskell.org/package/conduit-vfs-0.1.0.2.tar.gz	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.3	N/A
-https://hackage.haskell.org/package/conduit-vfs-0.1.0.3/conduit-vfs-0.1.0.3.tar.gz	N/A
+https://hackage.haskell.org/package/conduit-vfs-0.1.0.3/conduit-vfs-0.1.0.3.tar.gz	created	2019-06-12
 https://hackage-content.haskell.org/package/conduit-vfs-0.1.0.3.tar.gz	N/A
 https://hackage.haskell.org/package/FileSystem-1.0.0	N/A
-https://hackage.haskell.org/package/FileSystem-1.0.0/FileSystem-1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/FileSystem-1.0.0/FileSystem-1.0.0.tar.gz	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem.html	N/A
+https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem.html	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem.html	N/A
-https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Across.html	N/A
+https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Across.html	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Across.html	N/A
-https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Class.html	N/A
+https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Class.html	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Class.html	N/A
-https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Computations.html	N/A
+https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Computations.html	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Computations.html	N/A
-https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Instances.html	N/A
+https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Instances.html	created	2011-01-28
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Instances.html	N/A
 https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-IO.html	N/A
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-IO.html	N/A
