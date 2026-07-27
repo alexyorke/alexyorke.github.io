@@ -6350,29 +6350,29 @@ https://downloads.haskell.org/ghc/6.8.1/docs/users_guide.pdf	N/A
 https://hackage.haskell.org/package/aivika-1.1/src/doc/aivika.pdf	created	2014-02-16
 https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.html	created	2024-10-21
 https://hackage.haskell.org/package/CheatSheet-2.7/src/CheatSheet.pdf	created	2010-08-11
-https://hackage.haskell.org/package/conduit-0.5.5/docs/Data-Conduit.html	N/A
+https://hackage.haskell.org/package/conduit-0.5.5/docs/Data-Conduit.html	created	2012-11-27
 https://hackage.haskell.org/package/conduit-1.0.0	N/A
-https://hackage.haskell.org/package/enumerator-0.4/docs/Data-Enumerator.html	N/A
-https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Tutorial.html	N/A
-https://hackage.haskell.org/package/iteratee-0.8.4.2/docs	N/A
-https://hackage.haskell.org/package/liboleg/docs/System-RandomIO.html	N/A
-https://hackage.haskell.org/package/machines-0.2.5/docs/Data-Machine-Process.html	N/A
-https://hackage.haskell.org/package/monad-coroutine-0.8.0.1/candidate/docs/Control-Monad-Coroutine-SuspensionFunctors.html	N/A
+https://hackage.haskell.org/package/enumerator-0.4/docs/Data-Enumerator.html	created	2010-08-24
+https://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Tutorial.html	created	2022-08-17
+https://hackage.haskell.org/package/iteratee-0.8.4.2/docs	created	2012-09-03
+https://hackage.haskell.org/package/liboleg/docs/System-RandomIO.html	created	2010-10-16
+https://hackage.haskell.org/package/machines-0.2.5/docs/Data-Machine-Process.html	created	2014-03-04
+https://hackage.haskell.org/package/monad-coroutine-0.8.0.1/candidate/docs/Control-Monad-Coroutine-SuspensionFunctors.html	created	2014-12-15
 https://hackage.haskell.org/package/monad-coroutine-0.9.1.3	N/A
-https://hackage.haskell.org/package/monad-coroutine-0.9.3/docs	N/A
-https://hackage.haskell.org/package/pipes-2.0.0/docs/Control-Pipe-Final.html	N/A
-https://hackage.haskell.org/package/pipes-3.1.0/docs/Control-Proxy-Tutorial.html	N/A
-https://hackage.haskell.org/package/pipes-concurrency/docs/Pipes-Concurrent-Tutorial.html	N/A
+https://hackage.haskell.org/package/monad-coroutine-0.9.3/docs	created	2026-01-11
+https://hackage.haskell.org/package/pipes-2.0.0/docs/Control-Pipe-Final.html	created	2012-05-21
+https://hackage.haskell.org/package/pipes-3.1.0/docs/Control-Proxy-Tutorial.html	created	2013-01-14
+https://hackage.haskell.org/package/pipes-concurrency/docs/Pipes-Concurrent-Tutorial.html	created	2021-12-05
 https://hackage.haskell.org/package/pipes-safe	N/A
-https://hackage.haskell.org/package/pipes-safe-2.3.5/docs/Pipes-Safe.html	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.5/docs/Pipes-Safe.html	created	2023-11-04
 https://hackage.haskell.org/package/potoki	N/A
-https://hackage.haskell.org/package/stream-fusion/docs/Control-Monad-Stream.html	N/A
+https://hackage.haskell.org/package/stream-fusion/docs/Control-Monad-Stream.html	created	2013-01-12
 https://hackage.haskell.org/package/streaming-bytestring	N/A
-https://hackage.haskell.org/package/streaming-bytestring-0.1.2.2/docs/Data-ByteString-Streaming.html	N/A
-https://hackage.haskell.org/package/streaming-bytestring-0.1.5/docs	N/A
-https://hackage.haskell.org/package/streaming-commons-0.1.4/docs	N/A
+https://hackage.haskell.org/package/streaming-bytestring-0.1.2.2/docs/Data-ByteString-Streaming.html	created	2015-11-03
+https://hackage.haskell.org/package/streaming-bytestring-0.1.5/docs	created	2017-12-13
+https://hackage.haskell.org/package/streaming-commons-0.1.4/docs	created	2014-07-15
 https://hackage.haskell.org/package/streaming-utils	N/A
-https://hackage.haskell.org/package/streaming-utils/docs/Data-ByteString-Streaming-HTTP.html	N/A
+https://hackage.haskell.org/package/streaming-utils/docs/Data-ByteString-Streaming-HTTP.html	created	2024-09-20
 https://hackage.haskell.org/package/streamly	N/A
 https://hackage.haskell.org/package/streamly-0.1.0/docs/Streamly-Tutorial.html	N/A
 https://hackage.haskell.org/package/streamly-0.5.1/docs/Streamly.html	N/A
