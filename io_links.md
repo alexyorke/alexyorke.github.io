@@ -4652,7 +4652,7 @@ https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging/96
 https://stackoverflow.com/questions/70226458/how-to-skip-unnecessary-ios-in-pure-functions	created	2021-12-04
 https://stackoverflow.com/questions/68522273/haskell-how-to-do-io-inside-pure-haskell-function-how-to-print-intermediate-re	created	2021-07-25
 https://stackoverflow.com/questions/32213779/is-it-possible-to-use-io-inside-state-monad-without-using-statet-and-st	created	2015-08-25
-https://stackoverflow.com/questions/52489707/how-to-turn-io-actions-into-a-pure-function	N/A
+https://stackoverflow.com/questions/52489707/how-to-turn-io-actions-into-a-pure-function	created	2018-09-25
 https://academy.fpblock.com/blog/2018/10/resourcet-necessary-evil/	created	2018
 https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1/	created	2020
 https://blog.ploeh.dk/2020/03/30/repeatable-execution-in-haskell/	created	2020
@@ -4848,7 +4848,7 @@ https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1992/DagSemRep.36/D
 https://ir.cwi.nl/pub/27512/Nr.%2026%20%28juni%201993%29	created	2026
 https://www.altocumulus.org/Fudgets/fudgets-fpca93.html	N/A
 https://www.altocumulus.org/Fudgets/Manual/current/XEvent.html	N/A
-https://stackoverflow.com/questions/3850368/how-do-functional-languages-model-side-effects?noredirect=1	N/A
+https://stackoverflow.com/questions/3850368/how-do-functional-languages-model-side-effects?noredirect=1	created	2010-10-03
 https://academic.oup.com/comjnl/article-pdf/31/3/243/1157325/310243.pdf	N/A
 https://doi.org/10.1093/comjnl/31.3.243	publication	1988-03-01
 https://doi.org/10.1007/3-540-17945-3_3	publication	1987
@@ -5241,7 +5241,7 @@ https://www.haskell.org/haskell-workshop/2007/AcceptedPapers.html	created	2007
 https://www.ibisc.univ-evry.fr/~sivanov/content/courses/h4life/marlow-tutorial.pdf	N/A
 https://www.researchgate.net/publication/257655587_Towards_Semantics-directed_System_Design_and_Synthesis	N/A
 https://www.slideserve.com/cedric/the-io-monad-powerpoint-ppt-presentation	N/A
-https://stackoverflow.com/questions/19052200/are-monads-expressions-or-are-there-statements-in-haskell	N/A
+https://stackoverflow.com/questions/19052200/are-monads-expressions-or-are-there-statements-in-haskell	created	2013-09-27
 https://downloads.haskell.org/~ghc/7.8.3/docs/html/users_guide/informal-semantics.html	N/A
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Text/Monad.pdf	created	2018
 https://userweb.mnet.ne.jp/tnomura/haskell/listmonad.html	N/A
@@ -5275,8 +5275,8 @@ https://mabboux.net/informatique/haskell/en/Tutoriel/Wikibooks-Haskell.pdf	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ix01.html	N/A
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/	N/A
 https://hiskio.com/en/ebooks/1104	N/A
-https://stackoverflow.com/questions/9345008/why-doesnt-scala-have-an-io-monad	N/A
-https://stackoverflow.com/questions/18172947/how-to-perform-side-effects-in-pure-functional-programming	N/A
+https://stackoverflow.com/questions/9345008/why-doesnt-scala-have-an-io-monad	created	2012-02-18
+https://stackoverflow.com/questions/18172947/how-to-perform-side-effects-in-pure-functional-programming	created	2013-08-11
 https://monix.io/docs/current/eval/task.html	N/A
 https://monix.io/docs/current/	N/A
 https://typelevel.org/cats-effect/docs/tutorial	N/A
@@ -5294,7 +5294,7 @@ https://kodu.ut.ee/~vesal/MFP2005/tutorial.pdf	created	2005
 https://en.wikibooks.org/wiki/Haskell/Print_version	N/A
 https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions	N/A
 https://www.baeldung.com/java-monads	N/A
-https://stackoverflow.com/questions/21364837/does-an-io-monad-make-sense-in-a-language-like-c-sharp	N/A
+https://stackoverflow.com/questions/21364837/does-an-io-monad-make-sense-in-a-language-like-c-sharp	created	2014-01-26
 https://faustinelli.wordpress.com/2013/08/14/handling-io-with-the-state-monad-in-javascript/	publication	2013-08-14
 https://app.unpkg.com/monio/files/README.md	N/A
 https://csharp-functional.readthedocs.io/	N/A
@@ -5316,7 +5316,7 @@ https://ericnormand.me/slides/haskell-slides.pdf	N/A
 https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/	N/A
 https://downloads.haskell.org/ghc/6.12.2/docs/html/users_guide/interactive-evaluation.html	N/A
 https://downloads.haskell.org/ghc/8.10.3/docs/users_guide.pdf	N/A
-https://stackoverflow.com/questions/13811153/non-blocking-io-with-haskell	N/A
+https://stackoverflow.com/questions/13811153/non-blocking-io-with-haskell	created	2012-12-10
 https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/concurrent.html	N/A
 https://www.sciencedirect.com/science/article/pii/S1571066105050826	N/A
 https://citeseerx.ist.psu.edu/document?doi=89b76e3719971789a412963d2145ad804c3670ac&repid=rep1&type=pdf	N/A
@@ -5325,13 +5325,13 @@ https://citeseerx.ist.psu.edu/document?doi=32fdb1577de8b130384668fe3e883f7180489
 https://langdev.stackexchange.com/questions/2492/possible-ways-for-a-system-interface-in-a-lazy-lc-language/2518	N/A
 https://citeseerx.ist.psu.edu/document?doi=eb55981ff53f6dc971bff73cc172beb2d6e8838a&repid=rep1&type=pdf	N/A
 https://funprogram.readthedocs.io/en/latest/manual/monads.html	N/A
-https://stackoverflow.com/questions/2158050/what-are-the-alternative-of-monads-to-use-io-in-pure-functional-programming	N/A
+https://stackoverflow.com/questions/2158050/what-are-the-alternative-of-monads-to-use-io-in-pure-functional-programming	created	2010-01-28
 https://retis.sssup.it/luca/FPT/Old-2223/Slides/monadic_io.pdf	N/A
-https://stackoverflow.com/questions/3117583/is-haskell-truly-pure-is-any-language-that-deals-with-input-and-output-outside	N/A
-https://stackoverflow.com/questions/39438091/how-monads-are-considered-pure	N/A
+https://stackoverflow.com/questions/3117583/is-haskell-truly-pure-is-any-language-that-deals-with-input-and-output-outside	created	2010-06-25
+https://stackoverflow.com/questions/39438091/how-monads-are-considered-pure	created	2016-09-11
 https://citeseerx.ist.psu.edu/document?doi=8183bfbcd2ce3a03d83bb3ec73e72cd7b39b68df&repid=rep1&type=pdf	N/A
 https://theses.gla.ac.uk/74954/1/11007875.pdf	N/A
-https://stackoverflow.com/questions/6399702/i-o-in-haskell-is-functional/6408271	N/A
+https://stackoverflow.com/questions/6399702/i-o-in-haskell-is-functional/6408271	created	2011-06-19
 https://www.ioc.ee/~matt/iti0212-2025/lab_sheets/lab07.pdf	created	2025
 https://degoes.net/articles/only-one-io	N/A
 https://courses.cs.washington.edu/courses/cse505/01au/functional/functional-io.pdf	N/A
@@ -5349,12 +5349,12 @@ https://hackage.haskell.org/package/QuickCheck-2.5/docs/Test-QuickCheck-Monadic.
 https://www.researchgate.net/publication/395364741_Automatically_testing_console_IO_behavior_of_student_submissions_in_Haskell	N/A
 https://downloads.haskell.org/ghc/9.12.3/docs/libraries/base-4.21.1.0-2a19/Control-Monad-IO-Class.html	N/A
 https://ghcguide.haskell.jp/8.2.2/libraries/base-4.10.1.0/System-IO.html	N/A
-https://stackoverflow.com/questions/2259926/testing-io-actions-with-monadic-quickcheck?noredirect=1	N/A
+https://stackoverflow.com/questions/2259926/testing-io-actions-with-monadic-quickcheck?noredirect=1	created	2010-02-14
 https://probabilistic-effects.github.io/papers/freer-monads/	publication	2020-11-13
 https://hackage-content.haskell.org/package/MultiChor-1.1.0.0/docs/Control-Monad-Freer.html	N/A
 https://softwareengineering.stackexchange.com/questions/242795/what-is-the-free-monad-interpreter-pattern	N/A
 https://www.schoolofhaskell.com/user/fumieval/extensible/the-world-s-fastest-extensible-effects-framework	N/A
-https://stackoverflow.com/questions/34384954/how-to-encode-actions-that-take-monadic-arguments-with-free-or-freer-monads	N/A
+https://stackoverflow.com/questions/34384954/how-to-encode-actions-that-take-monadic-arguments-with-free-or-freer-monads	created	2015-12-20
 https://www.tweag.io/blog/2018-02-05-free-monads/	created	2018
 https://docs.kleisli.io/nix-effects/guide/theory	N/A
 https://jeremymikkola.com/posts/2017_07_11_free_monad_cheatsheet.html	created	2017
@@ -5371,7 +5371,7 @@ https://gitlab.haskell.org/ghc/ghc/-/wikis/linear-types/history	N/A
 https://www.tweag.io/blog/2020-02-06-safe-inline-java/	created	2020
 https://arxiv.org/abs/2103.06127	created	2021-03
 https://www.tweag.io/blog/2020-02-19-linear-type-exception/	created	2020
-https://stackoverflow.com/questions/34227536/is-there-a-way-to-emulate-linear-types-in-haskell	N/A
+https://stackoverflow.com/questions/34227536/is-there-a-way-to-emulate-linear-types-in-haskell	created	2015-12-11
 https://www.haskell.org/communities/05-2009/report.pdf	created	2009
 https://www.emergentmind.com/papers/2008.09253	created	2008
 https://www.reddit.com/r/haskell/comments/lctctr	N/A
@@ -5440,8 +5440,8 @@ https://it.wikipedia.org/wiki/Monade_%28informatica%29	N/A
 https://www.reddit.com/r/haskell/comments/dzxnen	N/A
 https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B0%D0%B4%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29	N/A
 https://mail.haskell.org/pipermail/template-haskell/2006-January/000522.html	created	2006
-https://stackoverflow.com/questions/13340458/what-does-the-world-mean-in-functional-programming-world?noredirect=1	N/A
-https://stackoverflow.com/questions/10230562/confusion-over-the-state-monad-code-on-learn-you-a-haskell	N/A
+https://stackoverflow.com/questions/13340458/what-does-the-world-mean-in-functional-programming-world?noredirect=1	created	2012-11-12
+https://stackoverflow.com/questions/10230562/confusion-over-the-state-monad-code-on-learn-you-a-haskell	created	2012-04-19
 https://mirror.ourhost.az/parrot/misc/openbooks/programming/Haskell.pdf	N/A
 https://www.reddit.com/r/haskell/comments/t8pksp	N/A
 https://www.reddit.com/r/haskell/comments/1unbiyf/howcan_i_do_it_in_haskell/	N/A
@@ -5492,7 +5492,7 @@ https://www.reddit.com/r/haskell/comments/e7xwsm	N/A
 https://hackage.haskell.org/package/io-sim	N/A
 https://hackage-content.haskell.org/package/QuickCheck-2.16.0.0/docs/Test-QuickCheck-Monadic.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch-Pure.html	N/A
-https://stackoverflow.com/questions/19953612/haskell-piping-strings-into-io	N/A
+https://stackoverflow.com/questions/19953612/haskell-piping-strings-into-io	created	2013-11-13
 https://www.reddit.com/r/haskell/comments/vxxp47	N/A
 https://www.reddit.com/r/haskell/comments/kov65t	N/A
 https://repository.nottingham.ac.uk/server/api/core/bitstreams/6bd198d5-921c-4354-b6e8-2c00e57d100f/content	N/A
@@ -5517,7 +5517,7 @@ https://discourse.haskell.org/t/has-anyone-looked-into-monadic-regions-before/11
 https://input-output-hk.github.io/io-sim/	N/A
 https://www.haskell.org/communities/11-2005/report.pdf	created	2005
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/2006/12/	created	2006
-https://stackoverflow.com/questions/2383778/using-haskells-type-system-to-enforce-modularity	N/A
+https://stackoverflow.com/questions/2383778/using-haskells-type-system-to-enforce-modularity	created	2010-03-05
 https://mailman.haskell.org/archives/list/glasgow-haskell-users%40haskell.org/thread/2NNYXYZCH2TJCBY6B5ED2WSJ5QVBFOMV/?sort=date	N/A
 https://www.reddit.com/r/haskell/comments/p2cmlp	N/A
 https://www.reddit.com/r/haskell/comments/dpr276	N/A
@@ -5566,7 +5566,7 @@ https://www.reddit.com/r/haskell/comments/g8g897	N/A
 https://www.reddit.com/r/haskell/comments/yb9bi4	N/A
 https://www.reddit.com/r/haskell/comments/1g146ab	N/A
 https://hackage.haskell.org/package/reactive-banana/docs/Reactive-Banana-Frameworks.html	created	2023-01-22
-https://stackoverflow.com/questions/33613120/reactive-banana-1-0-0-unit-testing-in-the-momentio-monad	N/A
+https://stackoverflow.com/questions/33613120/reactive-banana-1-0-0-unit-testing-in-the-momentio-monad	created	2015-11-09
 https://discourse.haskell.org/t/reactimate-a-new-afrp-library/8852	publication	2024-02-20
 https://yampa-book.readthedocs.io/en/latest/intro.html	N/A
 https://book.realworldhaskell.org/read/programming-with-monads.html	N/A
@@ -5596,9 +5596,9 @@ https://vesely.io/teaching/CS4400f20/a/06/Assignment06.pdf	N/A
 https://www.reddit.com/r/haskell/comments/l6da0o	N/A
 https://hackage-content.haskell.org/package/reactive-banana-1.2.0.0/candidate/docs/Reactive-Banana.html	N/A
 https://discourse.haskell.org/t/how-to-test-a-ui-made-with-frp-especially-reactive-banana/5678	publication	2023-01-27
-https://stackoverflow.com/questions/73342206/setup-custom-events-with-data-in-reactive-banana	N/A
-https://stackoverflow.com/questions/23505379/reactive-banana-glfw-event-register-example	N/A
-https://stackoverflow.com/questions/26560100/frp-frameworks-and-io	N/A
+https://stackoverflow.com/questions/73342206/setup-custom-events-with-data-in-reactive-banana	created	2022-08-13
+https://stackoverflow.com/questions/23505379/reactive-banana-glfw-event-register-example	created	2014-05-06
+https://stackoverflow.com/questions/26560100/frp-frameworks-and-io	created	2014-10-25
 https://hackage.haskell.org/package/netwire-1.2.4/docs/FRP-NetWire-IO.html	created	2011-09-11
 https://www.researchgate.net/publication/2927204_Parallel_Functional_Reactive_Programming	N/A
 https://theses.univ-orleans.fr/public/2025ORLE1052_va.pdf	created	2025
@@ -5621,9 +5621,9 @@ https://www.reddit.com/r/haskell/comments/c0b9n3	N/A
 https://www.reddit.com/r/haskell/comments/1f0848q	N/A
 https://en.wikipedia.org/wiki/Monad_transformer	N/A
 https://hackage.haskell.org/package/control/docs/Control-Monad-Base-Control.html	created	2018-08-19
-https://stackoverflow.com/questions/40008022/how-to-call-liftio-from-monadbasecontrol-io-m	N/A
+https://stackoverflow.com/questions/40008022/how-to-call-liftio-from-monadbasecontrol-io-m	created	2016-10-12
 https://upload.wikimedia.org/wikiversity/en/a/ad/Monad.3.I.Transformer.20180727.pdf	N/A
-https://stackoverflow.com/questions/56868458/how-to-define-monadbasecontrol-for-a-monad-that-is-not-a-transformer	N/A
+https://stackoverflow.com/questions/56868458/how-to-define-monadbasecontrol-for-a-monad-that-is-not-a-transformer	created	2019-07-03
 https://downloads.haskell.org/~ghc/9.2.2/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Class.html	N/A
 https://haskellweekly.news/issue/164.html	N/A
 https://www.reddit.com/r/haskell/comments/11264pg	N/A
@@ -5636,8 +5636,8 @@ https://www.reddit.com/r/haskell/comments/101bcx9	N/A
 https://www.reddit.com/r/haskell/comments/kjb1i6	N/A
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/mtl-2.3.1-aac9/Control-Monad-Reader.html	N/A
 https://hackage.haskell.org/package/rio-0.0.3.0/docs/RIO-Prelude-RIO.html	created	2018-02-23
-https://stackoverflow.com/questions/3451546/help-with-reader-monad	N/A
-https://stackoverflow.com/questions/8159330/haskell-readert-env-io-boilerplate	N/A
+https://stackoverflow.com/questions/3451546/help-with-reader-monad	created	2010-08-10
+https://stackoverflow.com/questions/8159330/haskell-readert-env-io-boilerplate	created	2011-11-16
 https://deepwiki.com/commercialhaskell/rio/1-overview	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/reader/	N/A
 https://www.haskell.org/wikiupload/9/9d/TMR-Issue1.pdf	N/A
@@ -5652,7 +5652,7 @@ https://www.reddit.com/r/haskellquestions/comments/n4e6qd	N/A
 https://www.reddit.com/r/haskell/comments/dvpvvd	N/A
 https://next.fpcomplete.com/blog/readert-design-pattern/	N/A
 https://mail.haskell.org/pipermail/beginners/2020-June/018711.html	created	2020
-https://stackoverflow.com/questions/61642492/simplifying-the-invocation-of-functions-stored-inside-an-readert-environment	N/A
+https://stackoverflow.com/questions/61642492/simplifying-the-invocation-of-functions-stored-inside-an-readert-environment	created	2020-05-06
 https://hackage-content.haskell.org/package/freckle-app-1.25.0.1/docs/Freckle-App.html	N/A
 https://lobste.rs/s/oak5qd/readert_design_pattern	N/A
 https://discourse.haskell.org/t/important-things-to-know-about-writing-good-haskell-code/7302	publication	2023-08-14
@@ -5706,7 +5706,7 @@ https://hackage-content.haskell.org/package/operational-0.2.0.0/src/docs/web/ind
 https://link.springer.com/book/10.1007/3-540-18317-5	publication	1987
 https://link.springer.com/book/10.1007/3-540-54396-1	publication	1991
 https://link.springer.com/content/pdf/bfm%3A978-1-4471-3215-8/1	N/A
-https://stackoverflow.com/questions/2158050/what-are-the-alternative-of-monads-to-use-io-in-pure-functional-programming?noredirect=1	N/A
+https://stackoverflow.com/questions/2158050/what-are-the-alternative-of-monads-to-use-io-in-pure-functional-programming?noredirect=1	created	2010-01-28
 https://theory.stanford.edu/~aiken/publications/trs/RJ7100.pdf	N/A
 https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_1.htm	N/A
 https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_6.htm	N/A
@@ -5730,8 +5730,8 @@ https://mercurylang.org/information/doc-latest/mercury_reference_manual/Unique-m
 https://mercurylang.org/information/doc-release/mercury_trans_guide/IO.html	N/A
 https://repository.rice.edu/items/3baa9ea4-af1f-44aa-b20e-625bdedafb69	N/A
 https://researchr.org/profile/peterachten/publications/identify	N/A
-https://stackoverflow.com/questions/13340458/what-does-the-world-mean-in-functional-programming-world	N/A
-https://stackoverflow.com/questions/8666618/possible-means-of-side-effectst-in-purely-functional-languages	N/A
+https://stackoverflow.com/questions/13340458/what-does-the-world-mean-in-functional-programming-world	created	2012-11-12
+https://stackoverflow.com/questions/8666618/possible-means-of-side-effectst-in-purely-functional-languages	created	2011-12-29
 https://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-83-9_The_Semantics_of_Lazy_And_Industrious_Evaluation.pdf	N/A
 https://www.cs.ru.nl/~freek/liber/liber.pdf	N/A
 https://www.cs.ru.nl/P.Achten/	N/A
@@ -5808,13 +5808,13 @@ https://www.reddit.com/r/ProgrammingLanguages/comments/pweawl	N/A
 https://downloads.haskell.org/~ghc/8.10.5/docs/users_guide.pdf	N/A
 https://downloads.haskell.org/~ghc/9.2.7/docs/users_guide.pdf	N/A
 https://downloads.haskell.org/ghc/8.10.4/docs/users_guide.pdf	N/A
-https://stackoverflow.com/questions/24700714/can-haskell-make-distinctions-for-different-kinds-of-io	N/A
-https://stackoverflow.com/questions/31987208/monad-for-tracking-side-effects	N/A
+https://stackoverflow.com/questions/24700714/can-haskell-make-distinctions-for-different-kinds-of-io	created	2014-07-11
+https://stackoverflow.com/questions/31987208/monad-for-tracking-side-effects	created	2015-08-13
 https://www.reddit.com/r/haskell/comments/zc6tzz	N/A
 https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/	created	2017
 https://simon.peytonjones.org/deterministic-parallelism/	publication	2011-01-01
-https://stackoverflow.com/questions/34168538/haskell-unit-tests-using-io-monad	N/A
-https://stackoverflow.com/questions/7370073/testing-functions-in-haskell-that-do-io	N/A
+https://stackoverflow.com/questions/34168538/haskell-unit-tests-using-io-monad	created	2015-12-09
+https://stackoverflow.com/questions/7370073/testing-functions-in-haskell-that-do-io	created	2011-09-10
 https://www.reddit.com/r/haskell/comments/13y5oke	N/A
 https://www.reddit.com/r/haskell/comments/oeyaz2	N/A
 https://www.stackage.org/nightly-2024-04-01/package/HMock-0.5.1.2	created	2024
@@ -5851,9 +5851,9 @@ https://www.reddit.com/r/haskell/comments/i5jiuh	N/A
 https://xmonad.github.io/xmonad-docs/base-4.16.4.0/src/Data.IORef.html	N/A
 https://discourse.haskell.org/t/how-do-i-make-a-function-of-type-a-io-print-each-element-of-type-a-as-soon-as-possible/5893	publication	2023-03-01
 https://softwarecorner.wordpress.com/2014/12/04/scalaz-statet-monad-transformer/	publication	2014-12-04
-https://stackoverflow.com/questions/11650227/failure-to-produce-a-lazy-stream	N/A
-https://stackoverflow.com/questions/13263692/when-is-unsafeinterleaveio-unsafe	N/A
-https://stackoverflow.com/questions/14912007/lazy-io-in-haskell-how-to-return-a-lazy-list-that-is-generated-by-some-blocking	N/A
+https://stackoverflow.com/questions/11650227/failure-to-produce-a-lazy-stream	created	2012-07-25
+https://stackoverflow.com/questions/13263692/when-is-unsafeinterleaveio-unsafe	created	2012-11-07
+https://stackoverflow.com/questions/14912007/lazy-io-in-haskell-how-to-return-a-lazy-list-that-is-generated-by-some-blocking	created	2013-02-16
 https://www.reddit.com/r/haskell/comments/1h2irxe	N/A
 https://www.reddit.com/r/haskell/comments/1imoi0z	N/A
 https://www.reddit.com/r/haskell/comments/fms5k7	N/A
@@ -5951,8 +5951,8 @@ https://people.kth.se/~buiras/thesis.pdf	N/A
 https://riptutorial.com/haskell/example/4241/free-monads-split-monadic-computations-into-data-structures-and-interpreters	N/A
 https://simonjf.com/writing/ifl2013.pdf	created	2013
 https://soft.vub.ac.be/Publications/2017/vub-soft-tr-17-17.pdf	created	2017
-https://stackoverflow.com/questions/52883431/interpreting-the-teletype-free-monad-in-the-rws-monad	N/A
-https://stackoverflow.com/questions/7223901/haskell-what-monad-did-i-just-reinvent	N/A
+https://stackoverflow.com/questions/52883431/interpreting-the-teletype-free-monad-in-the-rws-monad	created	2018-10-18
+https://stackoverflow.com/questions/7223901/haskell-what-monad-did-i-just-reinvent	created	2011-08-28
 https://theses.gla.ac.uk/76212/1/13833929.pdf	N/A
 https://www.reddit.com/r/functionalprogramming/comments/dc0r5b	N/A
 https://www.reddit.com/r/functionalprogramming/comments/t7eu2g	N/A
@@ -5985,7 +5985,7 @@ https://pursuit.purescript.org/packages/purescript-aff/3.1.0	N/A
 https://pursuit.purescript.org/packages/purescript-aff/8.0.0/docs/Effect.Aff	N/A
 https://research.chalmers.se/publication/155369	publication	2011
 https://scalac.io/wp-content/uploads/2021/02/Ebook_Introducion_to_Programming_With_ZIO_Functional_Effects_ENG.pdf	created	2021
-https://stackoverflow.com/questions/10098386/how-to-handle-state-from-external-systems-functionally	N/A
+https://stackoverflow.com/questions/10098386/how-to-handle-state-from-external-systems-functionally	created	2012-04-11
 https://tcd.academia.edu/GlennStrong	N/A
 https://trepo.tuni.fi/bitstream/10024/156847/2/ParssinenNiko.pdf	N/A
 https://trepo.tuni.fi/bitstream/handle/10024/156847/ParssinenNiko.pdf?isAllowed=y&sequence=2	N/A
@@ -6085,9 +6085,9 @@ https://mth.io/slides/xmonad.pdf	N/A
 https://news.ycombinator.com/item?id=18043058	N/A
 https://pdos.csail.mit.edu/papers/tchajed-sm.pdf	N/A
 https://sites.uclouvain.be/OPODIS2022/slides/OPODIS2022-slides-Santos.pdf	created	2022
-https://stackoverflow.com/questions/1937102/is-it-possible-to-test-the-return-value-of-haskell-i-o-functions	N/A
-https://stackoverflow.com/questions/48977455/how-do-i-force-evaluation-of-an-io-action-within-unsafeperformio	N/A
-https://stackoverflow.com/questions/71190849/how-to-compose-free-monads	N/A
+https://stackoverflow.com/questions/1937102/is-it-possible-to-test-the-return-value-of-haskell-i-o-functions	created	2009-12-20
+https://stackoverflow.com/questions/48977455/how-do-i-force-evaluation-of-an-io-action-within-unsafeperformio	created	2018-02-25
+https://stackoverflow.com/questions/71190849/how-to-compose-free-monads	created	2022-02-20
 https://stefanesco.com/documents/st-monad.pdf	N/A
 https://www.berniepope.id.au/assets/files/BerniePope.PhD.Thesis.pdf	N/A
 https://www.haskell.org/communities/11-2015/report.pdf	created	2015
@@ -6177,7 +6177,7 @@ https://icfp22.sigplan.org/details/icfp-2022-papers/6/Linearly-Qualified-Types-G
 https://keera.co.uk/posts/2014/05/24/gui-programming-haskell-old-way/	publication	2014-05-24
 https://nottingham-repository.worktribe.com/preview/809778/paper.pdf	N/A
 https://packages.debian.org/source/stable/haskell-unliftio	N/A
-https://stackoverflow.com/questions/40372087/what-is-the-best-way-to-manage-resources-in-a-monad-stack-like-exceptt-a-io	N/A
+https://stackoverflow.com/questions/40372087/what-is-the-best-way-to-manage-resources-in-a-monad-stack-like-exceptt-a-io	created	2016-11-02
 https://www.haskell.org/haskell-workshop/2001/proceedings.pdf	created	2001
 https://www.reddit.com/r/haskell/comments/123oghs	N/A
 https://www.reddit.com/r/haskell/comments/156v4eg	N/A
@@ -6305,9 +6305,9 @@ https://people.cs.nott.ac.uk/psztxa/talks/efftt07.pdf	N/A
 https://programming-group.com/assets/pdf/papers/2023_A-Direct-Style-Effect-Notation-for-Sequential-and-Parallel-Programs.pdf	created	2023
 https://repository.tudelft.nl/record/uuid%3A9388bc6b-4be1-444c-a020-a1acaf9c803b	publication	2024
 https://scispace.com/pdf/experience-report-the-next-1100-haskell-programmers-3cteljmnp3.pdf	N/A
-https://stackoverflow.com/questions/28587552/can-anybody-explain-ghcs-definition-of-io	N/A
-https://stackoverflow.com/questions/32672814/where-is-the-realworld-defined	N/A
-https://stackoverflow.com/questions/5032475/why-does-haskell-not-have-an-i-monad-for-input-only-unlike-the-io-monad	N/A
+https://stackoverflow.com/questions/28587552/can-anybody-explain-ghcs-definition-of-io	created	2015-02-18
+https://stackoverflow.com/questions/32672814/where-is-the-realworld-defined	created	2015-09-19
+https://stackoverflow.com/questions/5032475/why-does-haskell-not-have-an-i-monad-for-input-only-unlike-the-io-monad	created	2011-02-17
 https://verify.rwth-aachen.de/fp24/	N/A
 https://web.cecs.pdx.edu/~sheard/course/CS457-557/Winter2010/DailyRecord.html	created	2010
 https://webspace.science.uu.nl/~swier004/talks/2007-freiburg.pdf	created	2007
@@ -6386,8 +6386,8 @@ https://jyp.github.io/pdf/Organ-HaskeLL.pdf	N/A
 https://legacy.cs.indiana.edu/~sabry/papers/yield-pp.pdf	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.streaming-with	N/A
 https://packages.debian.org/source/trixie/misc/haskell-http-streams	N/A
-https://stackoverflow.com/questions/45722021/how-can-i-fold-streaming-data	N/A
-https://stackoverflow.com/questions/5892653/whats-so-bad-about-lazy-i-o/9517835	N/A
+https://stackoverflow.com/questions/45722021/how-can-i-fold-streaming-data	created	2017-08-16
+https://stackoverflow.com/questions/5892653/whats-so-bad-about-lazy-i-o/9517835	created	2011-05-05
 https://www.haskell.org/communities/05-2012/report.pdf	created	2012
 https://www.haskell.org/communities/11-2011/report.pdf	created	2011
 https://www.haskell.org/communities/11-2017/report.pdf	created	2017
@@ -6577,7 +6577,7 @@ https://kar.kent.ac.uk/113723/1/138marshall2026phdfinal.pdf	created	2026
 https://kar.kent.ac.uk/66632/	N/A
 https://libraries.io/hackage/bluefin	N/A
 https://macau.uni-kiel.de/servlets/MCRFileNodeServlet/macau_derivate_00003380/kcss_2021_07.pdf	created	2021
-https://stackoverflow.com/questions/44965/what-is-a-monad/71579	N/A
+https://stackoverflow.com/questions/44965/what-is-a-monad/71579	created	2008-09-04
 https://starsandspira.ls/docs/ecoop22-draft.pdf	N/A
 https://wen.works/assets/pubs/hs2021.pdf	created	2021
 https://www.haskell.org/communities/11-2012/report.pdf	created	2012
@@ -6686,8 +6686,8 @@ https://hackage.haskell.org/package/gofer-prelude/docs/Prelude-Gofer.html	create
 https://paperzz.com/doc/7791308/exchanging-sources-between-clean-and-haskell	N/A
 https://stackoverflow.com/a/44397392	N/A
 https://stackoverflow.com/a/62194521	N/A
-https://stackoverflow.com/questions/62120135/are-there-any-languages-that-handle-functional-impurity-side-effects-without-m	N/A
-https://stackoverflow.com/questions/74419542/how-to-construct-and-transform-io-actions-without-using-monads	N/A
+https://stackoverflow.com/questions/62120135/are-there-any-languages-that-handle-functional-impurity-side-effects-without-m	created	2020-05-31
+https://stackoverflow.com/questions/74419542/how-to-construct-and-transform-io-actions-without-using-monads	created	2022-11-13
 https://studyres.com/doc/235818/multi-purpose-shared-data-sources-in-a-functional-language	N/A
 https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/abs/uniqueness-typing-for-functional-languages-with-graph-rewriting-semantics/0BF63E550377419604F633CB61A78496	publication	1996-12
 https://www.cse.msu.edu/~cse452/Readings/a12-hudak.pdf	N/A
@@ -6802,7 +6802,7 @@ https://gitlab.haskell.org/ghc/ghc/-/merge_requests/14354	N/A
 https://hackage.haskell.org/package/stm-orelse-io/docs	created	2012-09-15
 https://mail.haskell.org/pipermail/haskell-cafe/2006-November/019771.html	created	2006
 https://researchr.org/publication/haskell-2011	created	2011
-https://stackoverflow.com/questions/37162112/stm-and-outgoing-io	N/A
+https://stackoverflow.com/questions/37162112/stm-and-outgoing-io	created	2016-05-11
 https://www.reddit.com/r/haskell/comments/1shwa0o/how_does_stm_work_under_the_hood/	N/A
 https://www.reddit.com/r/haskell/comments/c1bcoe	N/A
 https://www.reddit.com/r/haskell/comments/m7ssaf	N/A
@@ -6947,8 +6947,8 @@ https://hackage.haskell.org/package/base-4.3.1.0/docs/src/Control-Monad-Fix.html
 https://hackage.haskell.org/package/resourcet/docs/Control-Monad-Trans-Resource-Internal.html	created	2022-10-23
 https://mail.haskell.org/pipermail/haskell-cafe/2009-March/057848.html	created	2009
 https://se.informatik.uni-tuebingen.de/publications/schuster22region.pdf	N/A
-https://stackoverflow.com/questions/14494648/why-the-haskell-sequence-function-cant-be-lazy-or-why-recursive-monadic-functio	N/A
-https://stackoverflow.com/questions/15553526/monadfix-in-strict-language	N/A
+https://stackoverflow.com/questions/14494648/why-the-haskell-sequence-function-cant-be-lazy-or-why-recursive-monadic-functio	created	2013-01-24
+https://stackoverflow.com/questions/15553526/monadfix-in-strict-language	created	2013-03-21
 https://subscription.packtpub.com/book/programming/9781783988723/2/ch02lvl1sec14/resource-management-with-bracket	N/A
 https://www.cs.cornell.edu/people/fluet/research/rgn-monad/	N/A
 https://www.reddit.com/r/haskell/comments/1ctwar4	N/A
@@ -6963,7 +6963,7 @@ https://amosr.amospheric.com/thesis.pdf	N/A
 https://hackage.haskell.org/package/conduit-1.0.10.1	N/A
 https://hackage.haskell.org/package/streaming-0.1.4.0	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2008-September/047738.html	created	2008
-https://stackoverflow.com/questions/22742001/what-is-pipes-conduit-trying-to-solve	N/A
+https://stackoverflow.com/questions/22742001/what-is-pipes-conduit-trying-to-solve	created	2014-03-30
 https://theses.ncl.ac.uk/jspui/bitstream/10443/6607/1/Dowland%20Jonathan%20on%20Dspace%20011802127%20Final%20Submission.pdf	N/A
 https://www.reddit.com/r/haskell/comments/gv81rl	N/A
 https://hackage.haskell.org/package/conduit-0.5.0	N/A
@@ -6979,7 +6979,7 @@ https://www.reddit.com/r/haskell/comments/eax2vf	N/A
 https://dtai.cs.kuleuven.be/people/dtaiMembers/dtai-publications/view?fromnr=501&pubsonpage=50&pubtype=&sortby=popularity	N/A
 https://opac.admin.ch/toc/toc1902057067.pdf	N/A
 https://rubenpieters.github.io/assets/papers/JFP20-pipes.pdf	N/A
-https://stackoverflow.com/questions/66193235/how-to-implementing-a-fork-function-that-combines-two-consumer-into-one	N/A
+https://stackoverflow.com/questions/66193235/how-to-implementing-a-fork-function-that-combines-two-consumer-into-one	created	2021-02-14
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/faster-coroutine-pipelines-a-reconstruction/BE694B384B35DF1DC03684FF5AE3FBDE	publication	2020-01
 https://www.haskell.org/communities/05-2014/html/report.html	created	2014
 https://www.reddit.com/r/haskell/comments/1tptw9p/help_me_get_back_up_to_date_after_5_years_away/	N/A
@@ -7009,11 +7009,11 @@ https://en.wikipedia.org/wiki/Iteratee	N/A
 https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/ch06s04.html	N/A
 https://paperzz.com/doc/8273438/lazier-imperative-programming	N/A
 https://www.philipzucker.com/notes/Programming/continuations-effects/	publication	2026-07-17
-https://stackoverflow.com/questions/13422756/handling-exceptions-in-an-iteratee-library-without-an-error-state	N/A
+https://stackoverflow.com/questions/13422756/handling-exceptions-in-an-iteratee-library-without-an-error-state	created	2012-11-16
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2009/3/	created	2009
 https://www.researchgate.net/publication/280852374_Lazier_Imperative_Programming	N/A
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/2012/4/?count=25&page=6	created	2012
-https://stackoverflow.com/questions/9983840/what-are-the-pros-and-cons-of-enumerators-vs-conduits-vs-pipes	N/A
+https://stackoverflow.com/questions/9983840/what-are-the-pros-and-cons-of-enumerators-vs-conduits-vs-pipes	created	2012-04-02
 https://www.haskellforall.com/2012/10/pipes-25-faster-and-slimmer.html	created	2012
 https://exchangetuts.com/efficient-streaming-and-manipulation-of-a-byte-stream-in-haskell-1641714544499053	N/A
 https://www.haskellforall.com/2012/03/haskell-for-purists-pipe-finalization.html	created	2012
@@ -7030,9 +7030,9 @@ https://www.reddit.com/r/haskellquestions/comments/c491lw	N/A
 https://www.reddit.com/r/haskell/comments/16nzd52	N/A
 https://www.packtpub.com/en-ic/product/haskell-design-patterns-9781783988723/chapter/2-patterns-for-io-2/section/iteratee-io-ch02lvl1sec15	N/A
 https://db.cs.uni-tuebingen.de/teaching/archive/ws1112/advanced-functional-programming/	N/A
-https://stackoverflow.com/questions/10518049/ensuring-files-are-closed-promptly?noredirect=1	N/A
+https://stackoverflow.com/questions/10518049/ensuring-files-are-closed-promptly?noredirect=1	created	2012-05-09
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/thread/RCZN5WZOLVJYCKBNUTJSBPAGJZY3KYMU/	N/A
-https://stackoverflow.com/questions/3788853/what-makes-iteratees-worth-the-complexity	N/A
+https://stackoverflow.com/questions/3788853/what-makes-iteratees-worth-the-complexity	created	2010-09-24
 https://en.wikipedia.org/wiki/Snap_%28web_framework%29	N/A
 https://doi.org/10.1145/3331545.3342601	publication	2019-08-08
 https://citeseerx.ist.psu.edu/document?doi=18a5f56fe79cabd85375428c8c09adbe6d30b125&repid=rep1&type=pdf	N/A
@@ -7078,7 +7078,7 @@ https://www.haskell.org/communities/11-2003/html/report.html	created	2003
 https://downloads.haskell.org/~ghc/4.04/docs/users_guide/users_guide-6.html	N/A
 https://isa-afp.org/browser_info/current/AFP/Hello_World/document.pdf	N/A
 https://hackage-content.haskell.org/package/primitive-0.9.1.0/docs/Control-Monad-Primitive.html	N/A
-https://stackoverflow.com/questions/6647852/haskell-actual-io-monad-implementation-in-different-language/6706442	N/A
+https://stackoverflow.com/questions/6647852/haskell-actual-io-monad-implementation-in-different-language/6706442	created	2011-07-11
 https://www.reddit.com/r/haskell/comments/hzum7v	N/A
 https://www.reddit.com/r/haskell/comments/knne96	N/A
 https://www.reddit.com/r/haskellquestions/comments/1du4b63	N/A
@@ -7101,7 +7101,7 @@ https://courses.cms.caltech.edu/cs11/material/haskell/books_and_papers.html	N/A
 https://en.wikipedia.org/wiki/Awkward_squad	N/A
 https://www.ps.uni-saarland.de/courses/proseminar-ws09/literature.html	N/A
 https://www.cl.cam.ac.uk/research/ls/Talks/2005_06/2006-06-23.Altenkirch.html	created	2005
-https://stackoverflow.com/questions/27850363/implementing-channels-in-haskell-tackling-the-awkward-squad	N/A
+https://stackoverflow.com/questions/27850363/implementing-channels-in-haskell-tackling-the-awkward-squad	created	2015-01-08
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/thread/4AJXQEYWKAKMNQMJAGLOSMPZ2NO6QCCS/	N/A
 https://downloads.haskell.org/~ghc/7.8.1-rc2/docs/html/libraries/ghc-7.8.0.20140228/Exception.html	N/A
 https://frank-buss.de/haskell-98-tutorial.pdf	N/A
@@ -7193,7 +7193,7 @@ https://www.reddit.com/r/ProgrammingLanguages/comments/1u8885s/question_about_si
 https://www.reddit.com/r/haskell/comments/1d1a0h3	N/A
 ## Historical dialogue I/O and uniqueness-type comparisons
 https://courses.cs.washington.edu/courses/cse505/99au/functional/functional-io.pdf	N/A
-https://stackoverflow.com/questions/7840126/why-monads-how-does-it-resolve-side-effects	N/A
+https://stackoverflow.com/questions/7840126/why-monads-how-does-it-resolve-side-effects	created	2011-10-20
 https://www.reddit.com/r/haskell/comments/c9phlx	N/A
 https://www.reddit.com/r/haskell/comments/1797k4r	N/A
 https://www.reddit.com/r/haskell/comments/iilzx3	N/A
@@ -7231,7 +7231,7 @@ https://hackage.haskell.org/package/freer-simple/docs/Control-Monad-Freer.html	c
 https://cs.gmu.edu/~marks/463/slides/7.haskell2/7.haskell2.pdf	N/A
 https://www.reddit.com/r/haskell/comments/k79ynz	N/A
 https://en.wikipedia.org/wiki/Effect_system	N/A
-https://stackoverflow.com/questions/62444355/how-to-make-a-free-monad-interpreter-recursive	N/A
+https://stackoverflow.com/questions/62444355/how-to-make-a-free-monad-interpreter-recursive	created	2020-06-18
 https://hackage.haskell.org/package/fakefs-0.3.0.0	N/A
 https://hackage-content.haskell.org/package/operational-0.2.0.1/src/docs/web/examples/TicTacToe.hs.html	N/A
 https://www.reddit.com/r/haskell/comments/82xw8b/haskell_design_patterns_the_handle_pattern/	N/A
@@ -7279,7 +7279,7 @@ https://haskell.pesquisa.ufabc.edu.br/19.q3.haskell/files/dia03.pdf	N/A
 https://www.reddit.com/r/haskell/comments/rbzmyl	N/A
 https://www.reddit.com/r/haskellquestions/comments/jyz1mz	N/A
 https://www.reddit.com/r/haskell/comments/sbwj6w	N/A
-https://stackoverflow.com/questions/42469244/write-a-function-from-io-a-a	N/A
+https://stackoverflow.com/questions/42469244/write-a-function-from-io-a-a	created	2017-02-26
 https://kurzy.kpi.fei.tuke.sk/fp/labs/07-monads.html	N/A
 https://tgdwyer.github.io/monad	publication	2026-07-16
 https://libstore.ugent.be/fulltxt/RUG01/002/033/250/RUG01-002033250_2013_0001_AC.pdf	created	2013
@@ -7287,8 +7287,8 @@ https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=206951	N/A
 https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-io.pdf	created	2021
 https://www.reddit.com/r/haskell/comments/ocgcbs	N/A
 https://www.reddit.com/r/haskell/comments/i3wy40	N/A
-https://stackoverflow.com/questions/7442974/how-to-add-io-to-my-own-monad-in-haskell	N/A
-https://stackoverflow.com/questions/58750936/function-composition-in-the-io-monad	N/A
+https://stackoverflow.com/questions/7442974/how-to-add-io-to-my-own-monad-in-haskell	created	2011-09-16
+https://stackoverflow.com/questions/58750936/function-composition-in-the-io-monad	created	2019-11-07
 https://person.dibris.unige.it/moggi-eugenio/ftp/fics03.pdf	N/A
 https://searchworks.stanford.edu/view/2973449	N/A
 https://www.semanticscholar.org/paper/Conception%2C-evolution%2C-and-application-of-languages-Hudak/e69449921581f1e00b801994236f840f5b459e00	N/A
@@ -7354,8 +7354,8 @@ https://hackage.haskell.org/package/lio-0.9.2.2/docs/src/LIO-Core.html	created	2
 https://citeseerx.ist.psu.edu/document?doi=d685dd1beeef73edd42ce7f21c4373c7b7e4a7eb&repid=rep1&type=pdf	N/A
 https://research.chalmers.se/en/publication/145790	publication	2011
 https://hackage.haskell.org/package/coquina-0.2.0.0	N/A
-https://stackoverflow.com/questions/51493608/haskell-turtle-get-out-of-shell-monad	N/A
-https://stackoverflow.com/questions/72525754/how-am-i-meant-to-use-sort	N/A
+https://stackoverflow.com/questions/51493608/haskell-turtle-get-out-of-shell-monad	created	2018-07-24
+https://stackoverflow.com/questions/72525754/how-am-i-meant-to-use-sort	created	2022-06-07
 https://discourse.haskell.org/t/looking-for-a-library-like-concurrency-but-with-file-io-operations/10566	publication	2024-10-19
 https://www.specware.org/research/specware/documentation/4.2/user-manual/SpecwareUserManual.pdf	N/A
 https://mmhaskell.com/blog/2022/6/23/resources-and-bracket	created	2022
@@ -7376,7 +7376,7 @@ https://haskelle.blogspot.com/2015/05/	created	2015
 https://leanpub.com/read/haskell-cookbook/building-a-rubber-bridge-game-engine-and-ai-in-haskell	N/A
 https://hackage.haskell.org/package/lio	N/A
 https://hackage.haskell.org/package/lio/candidate/docs/LIO-Monad.html	created	2020-09-23
-https://stackoverflow.com/questions/39424961/escaping-monad-io	N/A
+https://stackoverflow.com/questions/39424961/escaping-monad-io	created	2016-09-10
 https://hackage.haskell.org/package/lio-0.9.2.0/docs/LIO-Label.html	created	2012-11-29
 https://andersk.mit.edu/haskell/monad-peel/	N/A
 https://gist.github.com/jeyj0/a2fcd8a94931a7f3e9febccd1e6d8dec	N/A
@@ -7774,7 +7774,7 @@ https://dblp.org/rec/conf/haskell/SwierstraA07.html	N/A
 https://dblp.org/rec/conf/haskell/SwierstraA07.bib	N/A
 https://dblp.org/rec/conf/haskell/SwierstraA07.ris	N/A
 https://dblp.org/rec/conf/haskell/SwierstraA07.xml	N/A
-https://stackoverflow.com/questions/6190745/struggling-with-using-pure-functional-programming-to-solve-an-everyday-problem	N/A
+https://stackoverflow.com/questions/6190745/struggling-with-using-pure-functional-programming-to-solve-an-everyday-problem	created	2011-05-31
 ## Multilingual tutorials and linked I/O course examples
 https://rsdn.org/article/funcprog/monad.xml	N/A
 https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/SimpleIO_00.hs	created	2022
@@ -7808,61 +7808,61 @@ https://en.wikibooks.org/wiki/Haskell/Standalone_programs	N/A
 https://en.wikibooks.org/w/index.php?title=Haskell/Standalone_programs&printable=yes	N/A
 https://en.wikibooks.org/w/index.php?title=Haskell/Standalone_programs&oldid=4445257	N/A
 ## Conceptual Stack Overflow I/O discussions and print views
-https://stackoverflow.com/questions/4063778	N/A
+https://stackoverflow.com/questions/4063778	created	2010-10-31
 https://www.stackprinter.com/export?question=4063778&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/9244538	N/A
+https://stackoverflow.com/questions/9244538	created	2012-02-11
 https://www.stackprinter.com/export?question=9244538&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/9345008	N/A
+https://stackoverflow.com/questions/9345008	created	2012-02-18
 https://www.stackprinter.com/export?question=9345008&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/31174841	N/A
+https://stackoverflow.com/questions/31174841	created	2015-07-02
 https://www.stackprinter.com/export?question=31174841&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/36596701	N/A
+https://stackoverflow.com/questions/36596701	created	2016-04-13
 https://www.stackprinter.com/export?question=36596701&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/3642793	N/A
+https://stackoverflow.com/questions/3642793	created	2010-09-04
 https://www.stackprinter.com/export?question=3642793&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/21956103	N/A
+https://stackoverflow.com/questions/21956103	created	2014-02-22
 https://www.stackprinter.com/export?question=21956103&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/6647852	N/A
+https://stackoverflow.com/questions/6647852	created	2011-07-11
 https://www.stackprinter.com/export?question=6647852&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/5032475	N/A
+https://stackoverflow.com/questions/5032475	created	2011-02-17
 https://www.stackprinter.com/export?question=5032475&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/41096040	N/A
+https://stackoverflow.com/questions/41096040	created	2016-12-12
 https://www.stackprinter.com/export?question=41096040&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/32192471	N/A
+https://stackoverflow.com/questions/32192471	created	2015-08-24
 https://www.stackprinter.com/export?question=32192471&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/48159763	N/A
+https://stackoverflow.com/questions/48159763	created	2018-01-09
 https://www.stackprinter.com/export?question=48159763&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/5797707	N/A
+https://stackoverflow.com/questions/5797707	created	2011-04-26
 https://www.stackprinter.com/export?question=5797707&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/62836068	N/A
+https://stackoverflow.com/questions/62836068	created	2020-07-10
 https://www.stackprinter.com/export?question=62836068&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/70434433	N/A
+https://stackoverflow.com/questions/70434433	created	2021-12-21
 https://www.stackprinter.com/export?question=70434433&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/26802456	N/A
+https://stackoverflow.com/questions/26802456	created	2014-11-07
 https://www.stackprinter.com/export?question=26802456&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/36729022	N/A
+https://stackoverflow.com/questions/36729022	created	2016-04-19
 https://www.stackprinter.com/export?question=36729022&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/41926897	N/A
+https://stackoverflow.com/questions/41926897	created	2017-01-29
 https://www.stackprinter.com/export?question=41926897&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/74590522	N/A
+https://stackoverflow.com/questions/74590522	created	2022-11-27
 https://www.stackprinter.com/export?question=74590522&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/79318638	N/A
+https://stackoverflow.com/questions/79318638	created	2024-12-30
 https://www.stackprinter.com/export?question=79318638&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/67661043	N/A
+https://stackoverflow.com/questions/67661043	created	2021-05-23
 https://www.stackprinter.com/export?question=67661043&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/22063216	N/A
+https://stackoverflow.com/questions/22063216	created	2014-02-27
 https://www.stackprinter.com/export?question=22063216&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/45136398	N/A
+https://stackoverflow.com/questions/45136398	created	2017-07-17
 https://www.stackprinter.com/export?question=45136398&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/33423827	N/A
+https://stackoverflow.com/questions/33423827	created	2015-10-29
 https://www.stackprinter.com/export?question=33423827&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/35581300	N/A
+https://stackoverflow.com/questions/35581300	created	2016-02-23
 https://www.stackprinter.com/export?question=35581300&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/7191058	N/A
+https://stackoverflow.com/questions/7191058	created	2011-08-25
 https://www.stackprinter.com/export?question=7191058&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/16750040	N/A
+https://stackoverflow.com/questions/16750040	created	2013-05-25
 https://www.stackprinter.com/export?question=16750040&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
-https://stackoverflow.com/questions/2290164	N/A
+https://stackoverflow.com/questions/2290164	created	2010-02-18
 https://www.stackprinter.com/export?question=2290164&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
 https://stackoverflow.com/questions/23044464	N/A
 https://www.stackprinter.com/export?question=23044464&service=stackoverflow&language=en&hideAnswers=false&showAll=true&width=640	N/A
