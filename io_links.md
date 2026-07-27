@@ -139,7 +139,7 @@ https://link.springer.com/chapter/10.1007/978-1-4471-3166-3_11	publication	1990-
 https://www.numdam.org/item/ITA_2002__36_2_155_0.pdf	created	2002
 https://leventerkok.github.io/papers/mfix.pdf	created	2024-06-14
 https://leventerkok.github.io/papers/mfixTR.pdf	created	2022-10-06
-https://github.com/mjul/free-monad-interpreter-for-pascal	N/A
+https://github.com/mjul/free-monad-interpreter-for-pascal	updated	2026-02-23
 https://github.com/gbogard/free-monads-from-scratch	created	2026-05-10
 https://github.com/snapframework/io-streams	created	2026-04-13
 https://leventerkok.github.io/papers/recdo.pdf	created	2025-12-29
@@ -177,7 +177,7 @@ https://haskell.foundation/podcast/80/	created	2026-05-17
 https://haskell.foundation/podcast/77/	created	2026-03-07
 https://arxiv.org/pdf/2507.10301	created	2025-11-27
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/doo-bee-doo-bee-doo/DEC5F8FDABF7DE3088270E07392320DD	publication	2020
-https://github.com/Gabriella439/post-rfc/blob/master/sotu.md	N/A
+https://github.com/Gabriella439/post-rfc/blob/master/sotu.md	updated	2023-07-19
 https://github.com/re-xyr/cleff	created	2026-01-08
 https://haskell.foundation/podcast/81/	created	2026-05-17
 https://arxiv.org/abs/2110.07493	created	2026-02-18
@@ -197,7 +197,7 @@ https://users.cs.utah.edu/~mflatt/cs6525/monads.html	created	2024-12-10
 https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-spr25-notes/notes/Managing_Effects.html	created	2026-04-16
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful.html	created	2025-12-07
 https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-slides-1.pdf	created	2025-09-29
-https://github.com/metareflection/plti-class/blob/main/resources.md	N/A
+https://github.com/metareflection/plti-class/blob/main/resources.md	updated	2025-01-18
 https://github.com/JarnaChao09/Koffect	N/A
 https://github.com/vic/vic	created	2026-02-09
 https://iris-project.org/pdfs/2025-esop-gitrees.pdf	created	2025
@@ -205,11 +205,11 @@ https://dl.acm.org/doi/10.1145/3276481	publication	2018-10-24
 https://iris-project.org/pdfs/2023-esop-tes.pdf	created	2023
 https://dl.acm.org/doi/10.1145/3485479	publication	2021-10-20
 https://github.com/danelahman/haskell-coop	created	2025-12-12
-https://github.com/patrickt/patrickt.github.io/blob/develop/posts/serving-http-content-with-fused-effects.org	N/A
+https://github.com/patrickt/patrickt.github.io/blob/develop/posts/serving-http-content-with-fused-effects.org	updated	2025-05-09
 https://github.com/mmenestret/fp-resources	created	2025-09-17
 https://github.com/qio-haskell/qio-haskell	created	2026
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/local-algebraic-effect-theories/670D4567BB7D87DA956E1EAD7F1DFD6F	publication	2020
-https://github.com/Icelandjack/Capabilities	N/A
+https://github.com/Icelandjack/Capabilities	updated	2018-03-30
 https://github.com/albertdahlin/elm-cli-io-monad	created	2020-11-17
 https://github.com/okmij/libhandler	created	2026
 https://github.com/effect-handlers/effect-handlers.github.io	created	2022-04-11
@@ -225,7 +225,7 @@ https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Syst
 https://serokell.io/blog/introduction-to-free-monads	N/A
 https://gist.github.com/CMCDragonkai/165d9a598b8fb333ea65	N/A
 https://discourse.haskell.org/t/have-effect-systems-completely-replaced-transformers-mtl-on-your-code/7273	publication	2023-08-11
-https://github.com/polysemy-research/polysemy	N/A
+https://github.com/polysemy-research/polysemy	updated	2025-03-15
 https://haskellforall.com/2012/08/the-category-design-pattern	created	2012
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Solutions/IO	N/A
 https://haskellforall.com/2014/08/managed-100-monad-for-managed-resources	created	2014
@@ -270,7 +270,7 @@ https://haskell.foundation/podcast/74/	N/A
 https://arxiv.org/pdf/2512.22431	created	2025-12
 https://gist.github.com/vic/e33fea2e46810faf1848cc8d0b3ceba3	N/A
 https://arxiv.org/html/2508.12572v1	created	2025-08
-https://github.com/hasura/eff/issues/12	N/A
+https://github.com/hasura/eff/issues/12	updated	2020-11-10
 https://doi.org/10.1017/S0956796808006758	publication	2008-07
 https://homepages.inf.ed.ac.uk/slindley/papers/aeia.pdf	N/A
 https://cambium.inria.fr/~yzakowsk/papers/itrees.pdf	N/A
@@ -287,8 +287,8 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://arxiv.org/pdf/2603.02260	created	2026-03
 https://arxiv.org/pdf/2512.10861	created	2025-12
 https://arxiv.org/abs/2601.03836	created	2026-01
-https://github.com/JonasHoefer/scoped-effects-agda	N/A
-https://github.com/ngernest/pbt-bibliography	N/A
+https://github.com/JonasHoefer/scoped-effects-agda	updated	2021-03-11
+https://github.com/ngernest/pbt-bibliography	updated	2026-07-26
 https://h2.jaguarpaw.co.uk/posts/bluefin-versus-oop/	N/A
 https://h2.jaguarpaw.co.uk/posts/bluefin-plucking-constraints/	N/A
 https://h2.jaguarpaw.co.uk/posts/bluefin-streams-finalize-promptly/	N/A
@@ -299,8 +299,8 @@ https://discourse.haskell.org/t/bluefin-versus-oop/11336	publication	2025-02-03
 https://www.reddit.com/r/haskell/comments/1cbyqv9/bluefin_a_new_effect_system/	N/A
 https://www.reddit.com/r/haskell/comments/1mh89i0/haskell_realworld_example_with_effectful/	N/A
 https://www.reddit.com/r/haskell/comments/1jd1mw8/am_i_the_only_person_who_hates_monad_transformers/	N/A
-https://github.com/haskell-effectful/effectful/discussions/258	N/A
-https://github.com/goldfirere/effects	N/A
+https://github.com/haskell-effectful/effectful/discussions/258	updated	2026-07-23
+https://github.com/goldfirere/effects	updated	2016-09-23
 https://github.com/Snowflyt/tinyeffect	N/A
 https://functional-architecture.org/events/funarch-2025/	created	2025
 https://www.lambdadays.org/lambdadays2025	created	2025
@@ -707,7 +707,7 @@ https://www.seas.upenn.edu/~sweirich/types/archive/1993/msg00111.html	created	19
 https://homepages.inf.ed.ac.uk/stark/catmln.pdf	N/A
 https://www.cs.ox.ac.uk/monographs/cs/1983.html	created	1983
 https://www.eighty-twenty.org/page3/	N/A
-https://github.com/yallop/effects-bibliography/blob/master/README.md	N/A
+https://github.com/yallop/effects-bibliography/blob/master/README.md	updated	2026-04-30
 https://www2.ccs.neu.edu/racket/pubs/dissertation-garnock-jones.pdf	N/A
 https://eprints.hud.ac.uk/id/eprint/6135/2/yxufinalthesis.pdf	N/A
 https://groups.google.com/g/comp.lang.functional/c/KxBuxPpYQvs	N/A
@@ -1311,13 +1311,13 @@ https://www.cse.unm.edu/~eschulte/classes/cs558/data/effectstocl.pdf	N/A
 https://www.academia.edu/24796533/Disjoint_forms_in_graphical_user_interfaces	N/A
 https://academy.fpblock.com/haskell/tutorial/monad-transformers/	N/A
 https://www.stackage.org/lts-9.1/package/transformers-0.5.2.0	N/A
-https://github.com/keithfancher/haskell-notes/blob/master/haskell-notes.md	N/A
+https://github.com/keithfancher/haskell-notes/blob/master/haskell-notes.md	updated	2024-09-04
 https://haskellforall.com/2012/07/free-monad-transformers	created	2012
 https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/Control.Monad.Trans.html	modified	2019-02-15
 https://cpm.curry-lang.org/pkgs/transformers.html	N/A
 https://devdocs.io/haskell~7/	N/A
-https://github.com/sqids/sqids-haskell	N/A
+https://github.com/sqids/sqids-haskell	updated	2024-03-08
 https://chrispenner.ca/posts/monadio-considered-harmful	N/A
 https://blog.ezyang.com/2012/01/modelling-io/	created	2012
 https://academy.fpblock.com/haskell/library/unliftio/	N/A
@@ -1380,7 +1380,7 @@ https://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for	create
 https://www.schoolofhaskell.com/user/jwiegley/monad-control	N/A
 https://felixspringer.xyz/homepage/blog/composingTransformers	N/A
 https://academy.fpblock.com/haskell/tutorial/exceptions/	N/A
-https://github.com/ekmett/free/issues/193	N/A
+https://github.com/ekmett/free/issues/193	updated	2026-01-11
 https://www.fpcomplete.com/blog/2016/11/covariance-contravariance	created	2016
 https://www.fpcomplete.com/blog/2017/06/readert-design-pattern	created	2017
 https://www.fpcomplete.com/haskell/library/async	N/A
@@ -1399,25 +1399,25 @@ https://harporoeder.com/posts/servant-13-reader-io/	publication	2016-11-14
 https://github.com/fpco/monad-unlift	N/A
 https://fbrs.io/unliftio/	N/A
 https://www.reddit.com/r/haskell/comments/c0b9n3/blog_post_understanding_unliftio_aimed_at_beginners/	N/A
-https://github.com/GaloisInc/monadIO	N/A
-https://github.com/fpco/unliftio	N/A
+https://github.com/GaloisInc/monadIO	updated	2018-10-03
+https://github.com/fpco/unliftio	updated	2025-09-10
 https://github.com/fpco/unliftio-core	N/A
 https://github.com/jgm/lifted-base	N/A
 https://tech.fpcomplete.com/haskell/library/rio/	N/A
 https://www.stackage.org/package/rio	N/A
-https://github.com/commercialhaskell/rio	N/A
+https://github.com/commercialhaskell/rio	updated	2026-02-06
 https://www.stackage.org/package/unliftio	N/A
 https://www.stackage.org/package/monad-unlift	N/A
 https://www.stackage.org/package/rio-orphans	N/A
 https://www.stackage.org/lts/docs	N/A
 https://packages.ubuntu.com/source/stonking/ppc64el/haskell-unliftio-core	N/A
 https://www.stackage.org/nightly-2026-07-03/package/monad-unlift	created	2026
-https://github.com/commercialhaskell/rio/issues/103	N/A
+https://github.com/commercialhaskell/rio/issues/103	updated	2026-02-06
 https://www.stackage.org/package/rio-prettyprint	N/A
 https://github.com/commercialhaskell/rio-prettyprint	N/A
 https://www.stackage.org/package/monad-unlift-ref	N/A
 https://www.stackage.org/package/lifted-base	N/A
-https://github.com/basvandijk/lifted-base	N/A
+https://github.com/basvandijk/lifted-base	updated	2018-03-14
 https://www.stackage.org/package/unlift-stm	N/A
 https://www.stackage.org/package/unlift	N/A
 https://hackage.haskell.org/package/unliftio-core-0.2.0.1/docs/src/Control.Monad.IO.Unlift.html#MonadUnliftIO	created	2020-03-02
@@ -1445,38 +1445,38 @@ https://www-users.york.ac.uk/~sf786/simon-foster/assets/pdf/SDF-Thesis.pdf	N/A
 https://www.cse.chalmers.se/edu/course.2018/DAT280_Parallel_Functional_Programming/Papers/PMCJFP.pdf	created	2018
 https://leventerkok.github.io/papers/erkok-thesis.pdf	N/A
 https://hackage-content.haskell.org/package/base-4.22.0.0/docs/src/Control.Monad.Fix.html	N/A
-https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell	N/A
+https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell	updated	2021-07-22
 https://discourse.haskell.org/t/supporting-both-monadbasecontrol-and-unliftio-ecosystems/9707	publication	2024-06-08
 https://discourse.haskell.org/t/what-is-a-higher-order-effect/10744	publication	2024-11-15
-https://github.com/haskell-effectful/effectful	N/A
-https://github.com/sayo-hs/heftia	N/A
-https://github.com/fpco/unliftio/issues/17	N/A
-https://github.com/haskell-effectful/effectful/issues/219	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/issues/34	N/A
-https://github.com/fpco/unliftio/issues/55	N/A
+https://github.com/haskell-effectful/effectful	updated	2026-07-23
+https://github.com/sayo-hs/heftia	updated	2025-08-02
+https://github.com/fpco/unliftio/issues/17	updated	2025-09-10
+https://github.com/haskell-effectful/effectful/issues/219	updated	2026-07-23
+https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/issues/34	updated	2025-06-26
+https://github.com/fpco/unliftio/issues/55	updated	2025-09-10
 https://gist.github.com/pedrominicz/2a949417660534d99c2f556c39242957	N/A
 https://www.stackage.org/lts-24.49	N/A
 https://www.stackage.org/package/effectful	N/A
 https://www.stackage.org/package/effectful-core	N/A
 https://www.stackage.org/package/effectful-th	N/A
 https://www.stackage.org/package/heftia-effects	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/29	N/A
-https://github.com/ghc-proposals/ghc-proposals/issues/503	N/A
-https://github.com/tomjaguarpaw/bluefin	N/A
-https://github.com/tomjaguarpaw/bluefin-style-effectful	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/15	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/34	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/2	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/37	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/87	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/16	N/A
+https://github.com/tomjaguarpaw/bluefin/issues/29	updated	2026-07-19
+https://github.com/ghc-proposals/ghc-proposals/issues/503	updated	2026-07-23
+https://github.com/tomjaguarpaw/bluefin	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin-style-effectful	updated	2024-04-28
+https://github.com/tomjaguarpaw/bluefin/issues/15	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/34	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/2	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/37	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/87	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/16	updated	2026-07-19
 https://www.stackage.org/package/bluefin-random	N/A
 https://www.reddit.com/r/haskell/comments/1fhyobw/bluefin_streams_finalize_promptly/	N/A
 https://discourse.haskell.org/t/bluefin-a-new-effect-system/9395	publication	2024-04-22
-https://github.com/tomjaguarpaw/bluefin/issues/86	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/91	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/93	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/95	N/A
+https://github.com/tomjaguarpaw/bluefin/issues/86	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/91	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/93	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/95	updated	2026-07-19
 https://github.com/tomjaguarpaw/bluefin-contrib	N/A
 https://github.com/tomjaguarpaw/bluefin-examples	N/A
 https://github.com/tomjaguarpaw/bluefin-random	N/A
@@ -1983,7 +1983,7 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://assets.cambridge.org/97813166/26221/frontmatter/9781316626221_frontmatter.pdf	N/A
 https://link.springer.com/chapter/10.1007/3-540-59451-5_7	publication	1995
 https://www.slideshare.net/slideshow/dr-frankenfunctor-and-the-monadster/53995802	N/A
-https://github.com/fogfish/monad.js	N/A
+https://github.com/fogfish/monad.js	updated	2017-05-07
 https://kristofsl.medium.com/a-gentle-introduction-to-monads-bc583d41d95	publication	2021-03-08
 https://discourse.haskell.org/t/monads-in-haskell/7257	publication	2023-08-10
 https://news.ycombinator.com/item?id=47958106	N/A
@@ -2012,20 +2012,20 @@ https://livebook.manning.com/book/haskell-in-depth/front-matter	N/A
 https://livebook.manning.com/book/haskell-in-depth/welcome/v-9/	N/A
 https://gotchamana.github.io/wiwinwlh/	N/A
 https://smunix.github.io/dev.stephendiehl.com/hask/tutorial.pdf	N/A
-https://github.com/sdiehl/wiwinwlh	N/A
+https://github.com/sdiehl/wiwinwlh	updated	2025-09-13
 https://www.simonandschuster.com/books/Learn-Haskell-by-Example/Philipp-Hagenlocher/Bookcamp/9781633438934	N/A
 https://hackage.haskell.org/package/base/docs/Control-Monad-IO-Class.html	created	2025-12-19
 https://hackage.haskell.org/package/base/docs/System-IO.html	created	2025-12-19
 https://www.manning.com/books/learn-haskell-by-example	N/A
-https://github.com/Apress/practical-haskell	N/A
-https://github.com/asarkar/book-of-monads	N/A
-https://github.com/chiroptical/book-of-monads	N/A
+https://github.com/Apress/practical-haskell	updated	2019-05-02
+https://github.com/asarkar/book-of-monads	updated	2024-01-10
+https://github.com/chiroptical/book-of-monads	updated	2020-05-01
 https://edu.anarcho-copy.org/Programming%20Languages/Haskell/Practical%20Haskell%2C%202nd%20Edition.pdf	N/A
 http://haskell.cs.yale.edu/wp-content/uploads/2015/03/HSoM.pdf	created	2015
-https://github.com/phagenlocher/learn-haskell-by-example	N/A
-https://github.com/Caroisawesome/HSoM	N/A
-https://github.com/JonathanLorimer/book-of-monads	N/A
-https://github.com/qfpl/applied-fp-course	N/A
+https://github.com/phagenlocher/learn-haskell-by-example	updated	2025-07-31
+https://github.com/Caroisawesome/HSoM	updated	2017-01-11
+https://github.com/JonathanLorimer/book-of-monads	updated	2020-04-07
+https://github.com/qfpl/applied-fp-course	updated	2023-05-29
 https://www.cs.miami.edu/home/odelia/teaching/csc419_spring20/syllabus/PL_ch15_part6.pdf	N/A
 https://www.ccs.neu.edu/home/amal/ahmedsthesis.pdf	N/A
 https://www.oreilly.com/library/view/practical-haskell-a/9781484244807/	N/A
@@ -2391,24 +2391,24 @@ https://discourse.haskell.org/t/whence-monad-transformers-where-are-distributive
 https://discourse.haskell.org/t/ann-heftia-effects-higher-order-algebraic-effects-done-right/10509	publication	2024-10-11
 https://discourse.haskell.org/t/tangle-the-dynamic-programming-monad/2406	publication	2021-04-22
 https://discourse.haskell.org/t/ghc-proposal-top-level-shared-io-computations/14328	publication	2026-06-29
-https://github.com/PLSysSec/lio	N/A
-https://github.com/fogfish/monad.js/	N/A
-https://github.com/intersectmbo/io-sim	N/A
-https://github.com/alexandersgreen/qio-haskell	N/A
-https://github.com/lambdabot/IOSpec	N/A
-https://github.com/jprider63/LMonad	N/A
-https://github.com/haskell-distributed/distributed-process-monad-control	N/A
-https://github.com/haskell-effectful/effectful/discussions/272	N/A
-https://github.com/haskell-effectful/effectful/blob/master/transformers.md	N/A
-https://github.com/php-fp/php-fp-io	N/A
-https://github.com/bbarker/haskell-zio	N/A
-https://github.com/redux-saga/redux-saga/issues/505	N/A
+https://github.com/PLSysSec/lio	updated	2020-09-23
+https://github.com/fogfish/monad.js/	updated	2017-05-07
+https://github.com/intersectmbo/io-sim	updated	2026-06-30
+https://github.com/alexandersgreen/qio-haskell	updated	2016-11-13
+https://github.com/lambdabot/IOSpec	updated	2023-07-25
+https://github.com/jprider63/LMonad	updated	2018-07-10
+https://github.com/haskell-distributed/distributed-process-monad-control	updated	2017-09-07
+https://github.com/haskell-effectful/effectful/discussions/272	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/blob/master/transformers.md	updated	2026-07-23
+https://github.com/php-fp/php-fp-io	updated	2016-04-21
+https://github.com/bbarker/haskell-zio	updated	2021-03-16
+https://github.com/redux-saga/redux-saga/issues/505	updated	2026-07-26
 https://github.com/typst/typst/discussions/2501	N/A
 https://github.com/louthy/language-ext/discussions/1482	N/A
-https://github.com/acowley/roshask	N/A
-https://github.com/alleystoughton/battleship	N/A
-https://github.com/snoyberg/code-sample-rio	N/A
-https://github.com/haskell-effectful/resourcet-effectful	N/A
+https://github.com/acowley/roshask	updated	2016-11-18
+https://github.com/alleystoughton/battleship	updated	2023-01-13
+https://github.com/snoyberg/code-sample-rio	updated	2014-11-18
+https://github.com/haskell-effectful/resourcet-effectful	updated	2026-06-26
 https://discourse.haskell.org/t/at-what-point-should-i-give-up-on-learning-haskell/2792	publication	2021-07-25
 https://discourse.haskell.org/t/why-does-guard-differ-from-if-then-else-behavior/10147	publication	2024-08-12
 https://www.haskell.org/haskellwiki/Monad_transformers	N/A
@@ -2685,15 +2685,15 @@ https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-th
 https://www.youtube.com/watch?v=fCoQb-zqYDI	N/A
 https://www.youtube.com/watch?v=wgfYkQVpC-M	N/A
 https://www.youtube.com/watch?v=y3KiuFczOFE	N/A
-https://github.com/m50d/paperdoll	N/A
-https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell/blob/master/README.md	N/A
-https://github.com/YellPika/effin	N/A
-https://github.com/bitemyapp/learnhaskell/blob/master/specific_topics.md	N/A
+https://github.com/m50d/paperdoll	updated	2025-01-08
+https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell/blob/master/README.md	updated	2021-07-22
+https://github.com/YellPika/effin	updated	2017-08-03
+https://github.com/bitemyapp/learnhaskell/blob/master/specific_topics.md	updated	2026-07-20
 https://www.youtube.com/watch?v=k2voWa4D2ak	N/A
 https://www.youtube.com/watch?v=nGhoZzihbHY	N/A
 https://www.youtube.com/watch?v=A-qGGag3Mt8	N/A
 https://www.youtube.com/watch?v=e7mooXxW3gQ	N/A
-https://github.com/rexim/io	N/A
+https://github.com/rexim/io	updated	2018-10-03
 https://www.youtube.com/watch?v=7uPOjO13nCY	N/A
 https://www.youtube.com/watch?v=fP0srOQVGB8	N/A
 https://deque.blog/2017/11/13/free-monads-from-basics-up-to-implementing-composable-and-effectful-stream-processing/	created	2017
@@ -2706,9 +2706,9 @@ https://www.youtube.com/watch?v=KGJLeHhsZBo	N/A
 https://www.youtube.com/watch?v=gUPuWHAt6SA	N/A
 https://www.youtube.com/watch?v=-dHFOjcK6pA	N/A
 https://www.youtube.com/watch?v=zPtP-vvqagE	N/A
-https://github.com/raimohanska/Monads	N/A
-https://github.com/jagajaga/FP-Course-ITMO	N/A
-https://github.com/graninas/software-design-in-haskell/blob/master/README.md	N/A
+https://github.com/raimohanska/Monads	updated	2017-08-11
+https://github.com/jagajaga/FP-Course-ITMO	updated	2022-01-17
+https://github.com/graninas/software-design-in-haskell/blob/master/README.md	updated	2024-12-18
 https://gist.github.com/b473c3c9aa921d14563b	N/A
 https://www.youtube.com/watch?v=7vxhNfNWP3k	N/A
 https://www.youtube.com/watch?v=w9ExsWcoXPs	N/A
@@ -2720,69 +2720,69 @@ https://www.youtube.com/watch?v=NruDKxLQPj8	N/A
 https://www.youtube.com/watch?v=qZ4O-1VYv4c	N/A
 https://www.youtube.com/watch?v=H28QqxO7Ihc	N/A
 https://www.youtube.com/watch?v=c-A46L8__IY	N/A
-https://github.com/epogrebnyak/haskell-intro	N/A
+https://github.com/epogrebnyak/haskell-intro	updated	2024-12-27
 https://www.youtube.com/watch?v=e80BUh8clC8	N/A
 https://www.youtube.com/watch?v=xv-WApd-pSY	N/A
 https://www.youtube.com/watch?v=lLZKM7efBYw	N/A
-https://github.com/fused-effects/fused-effects	N/A
-https://github.com/lexi-lambda/freer-simple	N/A
+https://github.com/fused-effects/fused-effects	updated	2026-05-05
+https://github.com/lexi-lambda/freer-simple	updated	2022-01-07
 https://github.com/fizruk/free-agent	N/A
 https://gist.github.com/graninas/49be74a21fbd58236bad28e1ce1eed94	N/A
-https://github.com/Cambridge-Vision-Technology/purescript-parallel-effects	N/A
+https://github.com/Cambridge-Vision-Technology/purescript-parallel-effects	updated	2025-12-07
 https://www.youtube.com/watch?v=qgfCmQ-2tW0	N/A
 https://www.youtube.com/watch?v=sDnNjtkoUVs	N/A
-https://github.com/Gabriella439/Haskell-Transformers-Free-Library	N/A
-https://github.com/Gabriel439/Haskell-Free-Monads-Library/blob/master/Control/Monad/Trans/Free.hs	N/A
-https://github.com/tchajed/coq-io	N/A
-https://github.com/hasura/eff	N/A
+https://github.com/Gabriella439/Haskell-Transformers-Free-Library	updated	2022-09-04
+https://github.com/Gabriel439/Haskell-Free-Monads-Library/blob/master/Control/Monad/Trans/Free.hs	updated	2012-06-19
+https://github.com/tchajed/coq-io	updated	2018-07-27
+https://github.com/hasura/eff	updated	2020-11-10
 https://github.com/typedbyte/effet	N/A
 https://www.youtube.com/watch?v=0ABhsBpcxvY	N/A
 https://www.youtube.com/watch?v=2g5ZZRN2LZE	N/A
-https://github.com/FreeProving/free-compiler	N/A
-https://github.com/pvillega/free-monad-sample	N/A
+https://github.com/FreeProving/free-compiler	updated	2022-05-31
+https://github.com/pvillega/free-monad-sample	updated	2017-02-10
 https://www.youtube.com/watch?v=sFYFuBzu9Ow	N/A
 https://www.youtube.com/watch?v=y0AHjJZeV1M	N/A
 https://www.youtube.com/watch?v=z8SI7WBtlcA	N/A
 https://www.youtube.com/watch?v=2LSOqikNqxM	N/A
 https://www.youtube.com/watch?v=_MgahTBF5ig	N/A
-https://github.com/Lysxia/bluefin-algae	N/A
-https://github.com/haskell-effectful/effectful-contrib	N/A
-https://github.com/haskell-effectful/monad-time-effectful	N/A
-https://github.com/haskell-effectful/typed-process-effectful	N/A
-https://github.com/haskell-effectful/crypto-rng-effectful	N/A
-https://github.com/haskell-effectful/hpqtypes-effectful	N/A
-https://github.com/deepflowinc-oss/effectful-extras	N/A
+https://github.com/Lysxia/bluefin-algae	updated	2026-05-13
+https://github.com/haskell-effectful/effectful-contrib	updated	2022-02-22
+https://github.com/haskell-effectful/monad-time-effectful	updated	2026-03-24
+https://github.com/haskell-effectful/typed-process-effectful	updated	2026-06-23
+https://github.com/haskell-effectful/crypto-rng-effectful	updated	2023-11-01
+https://github.com/haskell-effectful/hpqtypes-effectful	updated	2025-11-27
+https://github.com/deepflowinc-oss/effectful-extras	updated	2024-12-20
 https://www.youtube.com/watch?v=wZy0pVkQ-Jg	N/A
 https://www.youtube.com/watch?v=BUoYKBLOOrE	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/53	N/A
+https://github.com/tomjaguarpaw/bluefin/issues/53	updated	2026-07-19
 https://www.youtube.com/watch?v=ZejW5XfJsR0	N/A
-https://github.com/tomjaguarpaw/bluefin/discussions/88	N/A
-https://github.com/haskell-effectful/effectful/discussions/149	N/A
-https://github.com/haskell-effectful/effectful/discussions/285	N/A
-https://github.com/haskell-effectful/effectful/discussions/319	N/A
-https://github.com/haskell-effectful/effectful/discussions/341	N/A
-https://github.com/haskell-effectful/effectful/discussions/265	N/A
-https://github.com/haskell-effectful/effectful/discussions/267	N/A
-https://github.com/haskell-effectful/effectful/discussions/299	N/A
-https://github.com/haskell-effectful/effectful/discussions/300	N/A
-https://github.com/haskell-effectful/effectful/discussions/333	N/A
-https://github.com/haskell-effectful/effectful/issues/237	N/A
+https://github.com/tomjaguarpaw/bluefin/discussions/88	updated	2026-07-19
+https://github.com/haskell-effectful/effectful/discussions/149	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/285	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/319	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/341	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/265	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/267	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/299	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/300	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/333	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/237	updated	2026-07-23
 https://marcosh.github.io/post/2025/03/10/combining-monads.html	created	2025
 https://calwoo.github.io/posts/2020-02-09-effects.html	created	2020
 https://discourse.haskell.org/t/monads-are-too-powerful-the-expressiveness-spectrum/13043	publication	2025-09-26
 https://www.youtube.com/watch?v=cRh56LGzwas	N/A
 https://www.youtube.com/watch?v=UseIDeSCsf0	N/A
 https://www.youtube.com/watch?v=SMj-n2f7wYY	N/A
-https://github.com/haskell-effectful/effectful/discussions/315	N/A
-https://github.com/haskell-effectful/effectful/discussions/294	N/A
-https://github.com/haskell-effectful/effectful/discussions/328	N/A
-https://github.com/haskell-effectful/effectful/discussions/332	N/A
-https://github.com/tomjaguarpaw/bluefin/discussions/36	N/A
-https://github.com/haskell-effectful/effectful/discussions/293	N/A
-https://github.com/haskell-effectful/effectful/discussions/303	N/A
-https://github.com/haskell-effectful/effectful/discussions/291	N/A
-https://github.com/haskell-effectful/effectful/issues/318	N/A
-https://github.com/ndmitchell/blogs/blob/master/monads-as-boxes.md	N/A
+https://github.com/haskell-effectful/effectful/discussions/315	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/294	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/328	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/332	updated	2026-07-23
+https://github.com/tomjaguarpaw/bluefin/discussions/36	updated	2026-07-19
+https://github.com/haskell-effectful/effectful/discussions/293	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/303	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/291	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/318	updated	2026-07-23
+https://github.com/ndmitchell/blogs/blob/master/monads-as-boxes.md	updated	2021-09-16
 https://noelwelsh.com/posts/codata-interpreter-terminal/	N/A
 https://chrisdone.com/posts/pure-io-tryhaskell/	N/A
 https://teaching.well-typed.com/intro/slides/io-and-explicit-effects.pdf	N/A
@@ -2810,9 +2810,9 @@ https://discourse.haskell.org/t/bluefin-compared-to-effectful-video/10723	public
 https://discourse.haskell.org/t/effectful-how-to-prevent-big-effect-runner-functions/7173	publication	2023-08-02
 https://exploring-better-ways.bellroy.com/integrating-effectful-and-persistent.html	N/A
 https://www.susanpotter.net/software/a-haskell-tinted-view-of-functional-programming-effectful/	N/A
-https://github.com/haskell-effectful/effectful/issues/337	N/A
-https://github.com/haskell-effectful/effectful/issues/329	N/A
-https://github.com/haskell-effectful/effectful/issues/316	N/A
+https://github.com/haskell-effectful/effectful/issues/337	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/329	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/316	updated	2026-07-23
 https://flaviocorpa.com/haskell-for-elm-developers-giving-names-to-stuff-part-8-io.html	N/A
 https://discourse.elm-lang.org/t/haskell-for-elm-developers-part-8-io/10783	publication	2026-06-12
 https://reasonablypolymorphic.com/blog/freer-monads/	N/A
@@ -2820,7 +2820,7 @@ https://reasonablypolymorphic.com/dont-eff-it-up/	N/A
 https://reasonablypolymorphic.com/blog/porting-to-polysemy/	N/A
 https://reasonablypolymorphic.com/blog/tactics/	N/A
 https://reasonablypolymorphic.com/blog/yampa-frp/	N/A
-https://github.com/haskell/hackage-server	N/A
+https://github.com/haskell/hackage-server	updated	2026-07-04
 https://github.com/bluefin-haskell/bluefin	N/A
 https://discourse.haskell.org/t/fork-fragile-reader-like-operations-in-haskell/14258	publication	2026-06-11
 https://h2.jaguarpaw.co.uk/posts/ioscopedref-reference-implementation/	N/A
@@ -2851,12 +2851,12 @@ https://dl.acm.org/doi/pdf/10.1145/3428194	publication	2020-11-13
 https://hal.inria.fr/hal-01038053/document	N/A
 https://arxiv.org/pdf/1312.1399	created	2013-12
 https://www.scs.stanford.edu/~dm/home/papers/terei:safe-haskell.pdf	N/A
-https://github.com/yallop/effects-bibliography	N/A
+https://github.com/yallop/effects-bibliography	updated	2026-04-30
 https://dantb.dev/posts/effects-bibliography/	N/A
-https://github.com/Tomatosoup97/freak	N/A
-https://github.com/metaocaml/metaocaml-bibliography	N/A
+https://github.com/Tomatosoup97/freak	updated	2020-09-07
+https://github.com/metaocaml/metaocaml-bibliography	updated	2024-12-01
 https://www.libhunt.com/compare-effects-bibliography-vs-koka	N/A
-https://github.com/prathyvsh/morphisms-of-computational-structures	N/A
+https://github.com/prathyvsh/morphisms-of-computational-structures	updated	2022-04-30
 https://arxiv.org/abs/1203.1539	created	2012-03
 https://www.eff-lang.org/handlers-tutorial.pdf	N/A
 https://dl.acm.org/doi/10.1145/2578854.2503791	publication	2014-01-31
@@ -2876,39 +2876,39 @@ https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/safe_haskell.html
 https://github.com/fpringle/2025-05-24-storage-effect	created	2025
 https://www.pls-lab.org/Algebraic_effect_and_handlers	N/A
 https://www.reddit.com/r/haskell/comments/1cse8ze/learning_haskell_finally_got_to_monads_would/	N/A
-https://github.com/agniv-the-marker/haskell-os/blob/main/HASKELL.md	N/A
+https://github.com/agniv-the-marker/haskell-os/blob/main/HASKELL.md	updated	2026-03-20
 https://arxiv.org/pdf/2602.03275	created	2026-02
 https://era.ed.ac.uk/handle/1842/38868	publication	2022-04-11
 https://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-141.pdf	created	2020
 https://link.springer.com/chapter/10.1007/978-3-031-21314-4_4	publication	2022
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/qualified_do.html	N/A
 https://groups.seas.harvard.edu/courses/cs152/2023sp/lectures/lec18-monads.pdf	created	2023
-https://github.com/JeanHuguesdeRaigniac/effects-landscape	N/A
+https://github.com/JeanHuguesdeRaigniac/effects-landscape	updated	2023-07-04
 https://discourse.haskell.org/t/bluefin-compared-to-effectful-video/10723?page=2	publication	2024-11-15
 https://discourse.haskell.org/t/are-complaints-about-free-monad-performance-pointless-and-no-different-to-a-corresponding-monad-construction/13189?page=2	publication	2025-11-10
 https://haskell.foundation/podcast/60/	N/A
 https://haskell.foundation/podcast/61/	N/A
 https://blog.ploeh.dk/2025/08/11/song-recommendations-with-free-monads/	created	2025
-https://github.com/input-output-hk/haskell-course	N/A
+https://github.com/input-output-hk/haskell-course	updated	2025-09-12
 https://www.fceia.unr.edu.ar/~mauro/pubs/Thesis.pdf	N/A
 https://homepages.inf.ed.ac.uk/gdp/publications/Effect_Handlers.pdf	N/A
 https://iris-project.org/pdfs/2024-popl-gitrees.pdf	created	2024
-https://github.com/edofic/effect-handlers	N/A
-https://github.com/ocaml-multicore/effects-examples	N/A
-https://github.com/juliangrove/algebraic-effects-montague	N/A
+https://github.com/edofic/effect-handlers	updated	2016-04-28
+https://github.com/ocaml-multicore/effects-examples	updated	2026-03-20
+https://github.com/juliangrove/algebraic-effects-montague	updated	2020-10-14
 https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99	N/A
-https://github.com/uhub/awesome-haskell/blob/master/README.md	N/A
-https://github.com/effect-handlers/effect-handlers-bench	N/A
-https://github.com/withoutboats/burrito	N/A
-https://github.com/ghc/packages-base/blob/master/GHC/Base.lhs	N/A
+https://github.com/uhub/awesome-haskell/blob/master/README.md	updated	2026-07-17
+https://github.com/effect-handlers/effect-handlers-bench	updated	2025-08-21
+https://github.com/withoutboats/burrito	updated	2016-02-21
+https://github.com/ghc/packages-base/blob/master/GHC/Base.lhs	updated	2014-04-01
 https://github.com/haskell-servant/servant/issues/1732	N/A
-https://github.com/koka-lang/koka/discussions/781	N/A
-https://github.com/maybevoid/casimir/blob/master/doc/tutorial.md	N/A
-https://github.com/selectel/mongoDB-haskell/blob/master/doc/tutorial.md	N/A
-https://github.com/tweag/monad-bayes/issues/144	N/A
-https://github.com/typelevel/spotted-leopards/issues/3	N/A
-https://github.com/haskell/core-libraries-committee/issues/108	N/A
-https://github.com/arrow-kt/arrow/issues/1391	N/A
+https://github.com/koka-lang/koka/discussions/781	updated	2026-07-20
+https://github.com/maybevoid/casimir/blob/master/doc/tutorial.md	updated	2020-04-18
+https://github.com/selectel/mongoDB-haskell/blob/master/doc/tutorial.md	updated	2014-04-12
+https://github.com/tweag/monad-bayes/issues/144	updated	2026-07-21
+https://github.com/typelevel/spotted-leopards/issues/3	updated	2024-06-01
+https://github.com/haskell/core-libraries-committee/issues/108	updated	2026-07-05
+https://github.com/arrow-kt/arrow/issues/1391	updated	2026-07-24
 https://github.com/carbon-language/carbon-lang/issues/2840	N/A
 https://person.dibris.unige.it/moggi-eugenio/ftp/lc88.pdf	N/A
 https://denotational.co.uk/publications/kammar-lindley-oury-handlers-in-action.pdf	N/A
@@ -2931,9 +2931,9 @@ https://www.cs.ox.ac.uk/jeremy.gibbons/publications/delivery.pdf	N/A
 https://www.cs.ox.ac.uk/jeremy.gibbons/publications/entangled.pdf	N/A
 https://www.alilleybrinker.com/mini/the-best-monad-tutorial/	N/A
 https://discourse.haskell.org/t/combining-monads-with-natural-transformations/11605	publication	2025-03-11
-https://github.com/serokell/hse-haskell-course-src	N/A
+https://github.com/serokell/hse-haskell-course-src	updated	2021-12-27
 https://web.cecs.pdx.edu/~sheard/course/AdvancedFP/spring2014/notes/MonadsPart1.pdf	created	2014
-https://github.com/cis194/lectures	N/A
+https://github.com/cis194/lectures	updated	2018-12-02
 https://goto.ucsd.edu/~nvazou/club_de_science15/lectures/StateMonad.html	N/A
 https://cholla.mmto.arizona.edu/haskell/io.html	N/A
 https://wiki.clean.cs.ru.nl/Clean_System	N/A
@@ -2943,20 +2943,20 @@ https://conal.net/papers/simply-reactive/	N/A
 https://www.koka-lang.org/	N/A
 https://www.eff-lang.org/learn/	N/A
 https://www.cs.ox.ac.uk/files/3858/pirog-biernacki-hs10.pdf	N/A
-https://github.com/Anton-Latukha/Fundamental-Haskell	N/A
+https://github.com/Anton-Latukha/Fundamental-Haskell	updated	2022-03-02
 https://www.cs.ox.ac.uk/files/12220/MaaikeZwartDPhilThesis.pdf	N/A
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/mr.pdf	N/A
 https://homes.cs.washington.edu/~djg/2011sp/HaskellOverview.pdf	created	2011
-https://github.com/xgrommx/haskell-ecosystem/blob/master/README.md	N/A
+https://github.com/xgrommx/haskell-ecosystem/blob/master/README.md	updated	2017-12-22
 https://forum.snap.berkeley.edu/t/monads/285	publication	2019-02-13
 https://raw.githubusercontent.com/typeclasses/haskell-report-archive/master/1996-05-haskell-1.3/haskell-report.pdf	created	1996
 https://dl.acm.org/doi/abs/10.1145/237721.237794	publication	1996
 https://www.cs.ru.nl/~marko/research/pubs/2005/LNCS3474.pdf	created	2005
-https://github.com/sebastiaanvisser/jail	N/A
-https://github.com/dorchard/effect-monad	N/A
+https://github.com/sebastiaanvisser/jail	updated	2009-11-10
+https://github.com/dorchard/effect-monad	updated	2025-10-21
 https://gist.github.com/1a241955b041283a9009	N/A
-https://github.com/texitoi/rust-mdo	N/A
-https://github.com/ghc-proposals/ghc-proposals/issues/527	N/A
+https://github.com/texitoi/rust-mdo	updated	2019-05-30
+https://github.com/ghc-proposals/ghc-proposals/issues/527	updated	2026-07-23
 https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e	N/A
 https://people.csail.mit.edu/jeanyang/courses/haskell/	N/A
 https://www.rose-hulman.edu/class/cs/csse403/201110/SlidePDFs/HaskellMonads.pdf	N/A
@@ -2983,21 +2983,21 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/1994/01/fp94.pdf	cre
 https://cmsc-16100.cs.uchicago.edu/2017/lectures.php	created	2017
 https://golem.ph.utexas.edu/category/2007/09/the_catsters_on_youtube.html	created	2007
 https://www.cs.lmu.edu/~ray/notes/introhaskell/	N/A
-https://github.com/freckle/scientist-hs	N/A
-https://github.com/freckle/scientist-hs/blob/main/README.lhs	N/A
+https://github.com/freckle/scientist-hs	updated	2026-06-20
+https://github.com/freckle/scientist-hs/blob/main/README.lhs	updated	2026-06-20
 https://github.com/parsonsmatt/exceptiot	N/A
-https://github.com/parsonsmatt/persistent-typed-db	N/A
-https://github.com/polysemy-research/polysemy/issues/73	N/A
-https://github.com/cdsmith/HMock	N/A
-https://github.com/RobertFischer/hs-aws-lambda	N/A
+https://github.com/parsonsmatt/persistent-typed-db	updated	2025-06-02
+https://github.com/polysemy-research/polysemy/issues/73	updated	2025-03-15
+https://github.com/cdsmith/HMock	updated	2024-11-03
+https://github.com/RobertFischer/hs-aws-lambda	updated	2021-10-09
 https://github.com/boygao1992/StateBackPrototype	created	1992
 https://github.com/haskell-servant/servant/issues/1729	N/A
 https://github.com/haskell-servant/servant/issues/1544	N/A
-https://github.com/haskell-effectful/haskell-effectful.github.io	N/A
-https://github.com/haskell-effectful/log-effectful	N/A
-https://github.com/haskell-effectful/effectful/discussions/275	N/A
-https://github.com/haskell-effectful/effectful/issues/99	N/A
-https://github.com/hmac/kite	N/A
+https://github.com/haskell-effectful/haskell-effectful.github.io	updated	2026-06-16
+https://github.com/haskell-effectful/log-effectful	updated	2024-11-07
+https://github.com/haskell-effectful/effectful/discussions/275	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/99	updated	2026-07-23
+https://github.com/hmac/kite	updated	2022-07-28
 https://www.microsoft.com/en-us/research/publication/relating-operational-denotational-semantics-inputoutput-effects/	N/A
 https://www.microsoft.com/en-us/research/publication/a-sound-metalogical-semantics-for-inputoutput-effects/	N/A
 https://pages.di.unipi.it/corradini/Didattica/PLP-16/SLIDES/PLP-2016-23.pdf	created	2016
@@ -3006,12 +3006,12 @@ https://groups.seas.harvard.edu/courses/cs152/2015sp/lectures/lec16-monads.pdf	c
 https://hackage-content.haskell.org/package/base-4.14.3.0/docs/Control-Monad-IO-Class.html	N/A
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO-Error.html	modified	2024-05-10
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Control-Monad-ST.html	modified	2024-05-10
-https://github.com/simonmar/monad-par/issues/18	N/A
-https://github.com/haskell/cabal/issues/5303	N/A
+https://github.com/simonmar/monad-par/issues/18	updated	2023-11-29
+https://github.com/haskell/cabal/issues/5303	updated	2026-07-26
 https://gist.github.com/ymdfield/b681b81c4ce24038ed8be6f7b6cc4f01?permalink_comment_id=5597179	N/A
-https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin-internal/src/Bluefin/Internal.hs	N/A
-https://github.com/ianmbloom/futhask	N/A
-https://github.com/sergv/emacs-module/blob/master/Tutorial.md	N/A
+https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin-internal/src/Bluefin/Internal.hs	updated	2026-07-19
+https://github.com/ianmbloom/futhask	updated	2023-03-06
+https://github.com/sergv/emacs-module/blob/master/Tutorial.md	updated	2025-10-08
 https://www.altocumulus.org/Fudgets/dist.html	N/A
 https://www.altocumulus.org/Fudgets/links.html	N/A
 https://arxiv.org/abs/1501.04132	created	2015-01
@@ -3271,45 +3271,45 @@ https://malv.in/2018/funcproglog/L3.pdf	created	2018
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/monadic.pdf	created	2016
 https://arxiv.org/abs/2109.02198	created	2021-09
 https://openaccess.city.ac.uk/id/eprint/13222/1/Applicative-final.pdf	N/A
-https://github.com/thma/WhyHaskellMatters	N/A
-https://github.com/hermannhueck/implementing-io-monad	N/A
+https://github.com/thma/WhyHaskellMatters	updated	2020-10-26
+https://github.com/hermannhueck/implementing-io-monad	updated	2020-05-02
 https://monix.io/blog/2018/03/20/monix-vs-cats-effect.html	created	2018
-https://github.com/jilen/slides/blob/master/cats-effect-and-fs2.org	N/A
+https://github.com/jilen/slides/blob/master/cats-effect-and-fs2.org	updated	2018-09-15
 https://github.com/monix/monix.io/blob/main/_posts/2018-03-20-monix-vs-cats-effect.md	created	2018
-https://github.com/haskell/mtl/blob/master/Control/Monad/Reader.hs	N/A
-https://github.com/tweag/linear-types/blob/master/Proposals/linear-haskell-proposal-faq.org	N/A
-https://github.com/bobatkey/CS316-19/blob/master/lectures/Lec13.hs	N/A
+https://github.com/haskell/mtl/blob/master/Control/Monad/Reader.hs	updated	2026-06-08
+https://github.com/tweag/linear-types/blob/master/Proposals/linear-haskell-proposal-faq.org	updated	2020-05-29
+https://github.com/bobatkey/CS316-19/blob/master/lectures/Lec13.hs	updated	2020-07-09
 https://github.com/louthy/language-ext/wiki/IO	N/A
 https://github.com/louthy/language-ext/wiki/Thinking-Functionally%3A-Application-Architecture	N/A
 https://gist.github.com/ion1/7154691	N/A
-https://github.com/unclechu/purescript-for-haskellers	N/A
+https://github.com/unclechu/purescript-for-haskellers	updated	2018-08-22
 https://github.com/alexandru/alexn.org/blob/main/_posts/2017-01-30-asynchronous-programming-scala.md	created	2017
-https://github.com/HeinrichApfelmus/optimize-monad-trans	N/A
-https://github.com/EduardSergeev/monad-memo	N/A
-https://github.com/wenkokke/priority-sesh	N/A
-https://github.com/toptobes/realworld-haskell-scotty-example	N/A
-https://github.com/ghc-proposals/ghc-proposals/blob/master/proposals/0111-linear-types.rst	N/A
-https://github.com/tweag/linear-base/blob/master/docs/USER_GUIDE.md	N/A
+https://github.com/HeinrichApfelmus/optimize-monad-trans	updated	2014-02-12
+https://github.com/EduardSergeev/monad-memo	updated	2022-01-03
+https://github.com/wenkokke/priority-sesh	updated	2024-06-11
+https://github.com/toptobes/realworld-haskell-scotty-example	updated	2025-01-01
+https://github.com/ghc-proposals/ghc-proposals/blob/master/proposals/0111-linear-types.rst	updated	2026-07-23
+https://github.com/tweag/linear-base/blob/master/docs/USER_GUIDE.md	updated	2026-06-30
 https://github.com/ivanperez-keera/dunai	N/A
-https://github.com/haskell-chinese-working-group/ghc-users-guide/blob/master/content-chinese/ghci.rst	N/A
-https://github.com/alt-romes/ghengin	N/A
-https://github.com/input-output-hk/io-sim	N/A
-https://github.com/gabrielelana/effective-haskell/blob/master/chapter-07.org	N/A
-https://github.com/lehins/primal	N/A
-https://github.com/mitchellwrosen/haskell-papers/blob/master/static/papers.json	N/A
-https://github.com/tssm/up-to-date-real-world-haskell	N/A
-https://github.com/soupi/haskell-study-plan	N/A
-https://github.com/etorreborre/registry/blob/main/doc/applications.md	N/A
-https://github.com/anton-k/processing-for-haskell/blob/master/tutorial/FirstSteps.md	N/A
+https://github.com/haskell-chinese-working-group/ghc-users-guide/blob/master/content-chinese/ghci.rst	updated	2016-11-29
+https://github.com/alt-romes/ghengin	updated	2026-03-02
+https://github.com/input-output-hk/io-sim	updated	2026-06-30
+https://github.com/gabrielelana/effective-haskell/blob/master/chapter-07.org	updated	2024-03-13
+https://github.com/lehins/primal	updated	2022-11-25
+https://github.com/mitchellwrosen/haskell-papers/blob/master/static/papers.json	updated	2018-12-15
+https://github.com/tssm/up-to-date-real-world-haskell	updated	2020-08-20
+https://github.com/soupi/haskell-study-plan	updated	2022-03-26
+https://github.com/etorreborre/registry/blob/main/doc/applications.md	updated	2025-10-08
+https://github.com/anton-k/processing-for-haskell/blob/master/tutorial/FirstSteps.md	updated	2022-07-15
 https://github.com/giocosmiano/haskell-programming/blob/master/readme.md	N/A
 https://github.com/plrg-bristol/advanced-haskell-2026	created	2026
 https://gist.github.com/binarin/f396729e0892536415a0a1b75a0f89d7	N/A
-https://github.com/anton-k/reader-pattern-servant-app	N/A
+https://github.com/anton-k/reader-pattern-servant-app	updated	2023-11-01
 https://github.com/caiorss/Functional-Programming/blob/master/haskell/GUI_Graphical_User_Interface_GTK.org	N/A
 https://github.com/rust-unofficial/awesome-rust	N/A
-https://github.com/birmjin10000/Haskell_for_seasoned_programmers	N/A
+https://github.com/birmjin10000/Haskell_for_seasoned_programmers	updated	2017-10-06
 https://github.com/louthy/language-ext/discussions/1343	N/A
-https://github.com/tmcgilchrist/postgresql-transactional	N/A
+https://github.com/tmcgilchrist/postgresql-transactional	updated	2017-04-24
 http://slides.com/fp-ctd/lecture-6#/	N/A
 https://github.com/haskell-streaming/streaming	N/A
 https://arxiv.org/html/2602.19973v2	created	2026-02
@@ -3319,7 +3319,7 @@ https://dl.acm.org/doi/pdf/10.1145/351240.351250	publication	2000-09
 https://dl.acm.org/doi/pdf/10.1145/3122955.3122970	publication	2017-09-07
 https://pdfs.semanticscholar.org/dd9a/8d3986630da6dea10c504c907681fdb3c322.pdf	N/A
 https://www.cse.chalmers.se/~russo/publications_files/haskell22Ext-russo.pdf	N/A
-https://github.com/getify/monio/blob/master/MONADS.md	N/A
+https://github.com/getify/monio/blob/master/MONADS.md	updated	2026-05-01
 https://cs.ru.nl/~freek/courses/mfocs-2024/slides/lyra.pdf	created	2024
 https://www.scs.stanford.edu/14sp-cs240h/projects/dimson_ganjoo.pdf	N/A
 https://davidchristiansen.dk/david-christiansen-thesis.pdf	N/A
@@ -3460,9 +3460,9 @@ https://www.jbracker.de/publications/2016-BrackerNilsson-Supermonads.pdf	created
 https://www.jbracker.de/publications/2017-BrackerNilsson-SupermonadsAndSuperapplicatives-UnderConsideration.pdf	created	2017
 https://ncatlab.org/nlab/files/Voutas-Monads.pdf	N/A
 https://ncatlab.org/nlab/files/Arkor-MonadicAndHigherStructure.pdf	N/A
-https://github.com/jbracker/supermonad	N/A
-https://github.com/jbracker/polymonad-plugin	N/A
-https://github.com/jbracker/polymonad-proofs	N/A
+https://github.com/jbracker/supermonad	updated	2018-10-31
+https://github.com/jbracker/polymonad-plugin	updated	2016-01-25
+https://github.com/jbracker/polymonad-proofs	updated	2018-09-25
 https://www.lfcs.inf.ed.ac.uk/reports/88/ECS-LFCS-88-66/ECS-LFCS-88-66.pdf	N/A
 https://www.sciencedirect.com/science/article/pii/0890540191900524	N/A
 https://www.ics.uci.edu/~jajones/INF102-S18/readings/09_Moggi.pdf	N/A
@@ -3615,7 +3615,7 @@ https://www.cl.cam.ac.uk/teaching/1718/L28/10-monads-notes.pdf	N/A
 https://www.sigmod.org/publications/dblp/db/conf/fpca/fpca93.html	N/A
 https://github.com/joyofhaskell/haskell-report-archive/blob/master/1992-03-haskell-1.2/haskell-report-1.2.pdf	created	1992
 https://raw.githubusercontent.com/joyofhaskell/haskell-report-archive/master/1992-03-haskell-1.2/haskell-report-1.2.pdf	created	1992
-https://github.com/joyofhaskell/haskell-report-archive	N/A
+https://github.com/joyofhaskell/haskell-report-archive	updated	2017-08-17
 https://direct.mit.edu/books/edited-volume/chapter-pdf/2303005/9780262257145_caa.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-encapsulation-of-effects-a-revised-approach-extended-version/D31AEC33C1E8291B309578FA84B4664D	publication	2001-11
 https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7	publication	2014
@@ -3984,7 +3984,7 @@ https://xnning.github.io/papers/oopsla22-tr.pdf	N/A
 https://kcsrk.info/papers/handlers_js-proweb2018.pdf	created	2018
 https://dl.acm.org/doi/pdf/10.1145/3276481	publication	2018-10-24
 https://effekt-lang.org/publications	N/A
-https://github.com/xnning/EvEff	N/A
+https://github.com/xnning/EvEff	updated	2021-07-19
 https://kcsrk.info/papers/drafts/retro-concurrency.pdf	N/A
 https://kcsrk.info/papers/effects_dagstuhl18.pdf	N/A
 https://homepages.inf.ed.ac.uk/slindley/papers/cppeff-draft-august2022.pdf	created	2022
@@ -4355,7 +4355,7 @@ https://dl.acm.org/doi/10.1145/3434307	publication	2021-01-04
 https://dl.acm.org/doi/pdf/10.1145/3434307	publication	2021-01-04
 https://www.cis.upenn.edu/~stevez/papers/SZ21.pdf	N/A
 https://dl.acm.org/do/10.5281/zenodo.4284088/full	N/A
-https://github.com/effect-handlers/effects-rosetta-stone	N/A
+https://github.com/effect-handlers/effects-rosetta-stone	updated	2019-03-29
 https://doi.org/10.5281/zenodo.4312937	N/A
 https://arxiv.org/pdf/2503.00404	created	2025-03
 https://arxiv.org/abs/2307.13172	created	2023-07
@@ -4376,39 +4376,39 @@ https://sayo-hs.github.io/blog/heftia/heftia-part-1-2/	publication	2025-05-14
 https://sayo-hs.github.io/blog/heftia/heftia-part-1-4/	publication	2025-05-14
 https://sayo-hs.github.io/blog/heftia/heftia-rev-part-1-2/	publication	2025-05-19
 https://sayo-hs.github.io/blog/heftia/heftia-rev-part-1-4/	publication	2025-05-19
-https://github.com/eldritch-cookie/katip-effectful	N/A
-https://github.com/scrive/tracing-effectful	N/A
-https://github.com/eldritch-cookie/co-log-effectful	N/A
-https://github.com/The1Penguin/wreq-effectful	N/A
-https://github.com/kleidukos/servant-effectful	N/A
-https://github.com/fpringle/effectful-postgresql	N/A
+https://github.com/eldritch-cookie/katip-effectful	updated	2025-10-21
+https://github.com/scrive/tracing-effectful	updated	2022-09-28
+https://github.com/eldritch-cookie/co-log-effectful	updated	2025-10-21
+https://github.com/The1Penguin/wreq-effectful	updated	2025-09-01
+https://github.com/kleidukos/servant-effectful	updated	2025-08-01
+https://github.com/fpringle/effectful-postgresql	updated	2026-04-10
 https://github.com/fpringle/effectful-opaleye	N/A
-https://github.com/dcastro/sqlite-simple-effectful	N/A
+https://github.com/dcastro/sqlite-simple-effectful	updated	2026-06-15
 https://haskell-effectful.github.io/ecosystem/messaging-systems/	N/A
 https://haskell-effectful.github.io/ecosystem/observability/	N/A
 https://haskell-effectful.github.io/ecosystem/metrics-logs-traces-profiles/	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful-plugin/README.md	N/A
-https://github.com/haskell-effectful/effectful/issues/300	N/A
-https://github.com/haskell-effectful/effectful/issues/347	N/A
-https://github.com/haskell-effectful/effectful/discussions/204	N/A
-https://github.com/haskell-effectful/effectful/issues/296	N/A
-https://github.com/haskell-effectful/effectful/activity	N/A
-https://github.com/haskell-effectful/effectful/issues/364	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/100	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/98	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/97	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/96	N/A
-https://github.com/tomjaguarpaw/bluefin/blob/master/README.md	N/A
-https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin/src/Bluefin.hs	N/A
-https://github.com/tomjaguarpaw/bluefin-style-effectful/blob/main/README.md	N/A
-https://github.com/haskell-effectful/effectful/blob/master/benchmarks/README.md	N/A
-https://github.com/haskell-effectful/effectful/blob/master/README.md	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/85	N/A
-https://github.com/tomjaguarpaw/bluefin/issues/52	N/A
-https://github.com/haskell-effectful/effectful/issues/261	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful-plugin/README.md	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/300	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/347	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/discussions/204	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/296	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/activity	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/issues/364	updated	2026-07-23
+https://github.com/tomjaguarpaw/bluefin/issues/100	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/98	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/97	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/96	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/blob/master/README.md	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin/src/Bluefin.hs	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin-style-effectful/blob/main/README.md	updated	2024-04-28
+https://github.com/haskell-effectful/effectful/blob/master/benchmarks/README.md	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/blob/master/README.md	updated	2026-07-23
+https://github.com/tomjaguarpaw/bluefin/issues/85	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/issues/52	updated	2026-07-19
+https://github.com/haskell-effectful/effectful/issues/261	updated	2026-07-23
 https://github.com/haskell-effectful/optparse-applicative-effectful	N/A
 https://github.com/haskell-effectful/effectful-plugin	N/A
-https://github.com/haskell-effectful/effectful/discussions/298	N/A
+https://github.com/haskell-effectful/effectful/discussions/298	updated	2026-07-23
 https://reasonablypolymorphic.com/talks/	N/A
 https://reasonablypolymorphic.com/blog/announcing-polysemy/	N/A
 https://reasonablypolymorphic.com/blog/polysemy-mea-culpa/	N/A
@@ -4417,11 +4417,11 @@ https://reasonablypolymorphic.com/blog/polysemy-internals-the-effect-interpreter
 https://reasonablypolymorphic.com/blog/proving-equivalence-of-polysemy-interpreters/	N/A
 https://reasonablypolymorphic.com/blog/proving-commutativity-of-polysemy-interpreters/	N/A
 https://reasonablypolymorphic.com/blog/testing-polysemy-with-polysemy-check/	N/A
-https://github.com/haskell-effectful/effectful/issues/266	N/A
-https://github.com/Cajunvoodoo/network-effectful	N/A
-https://github.com/shinzui/hasql-effectful	N/A
+https://github.com/haskell-effectful/effectful/issues/266	updated	2026-07-23
+https://github.com/Cajunvoodoo/network-effectful	updated	2025-03-24
+https://github.com/shinzui/hasql-effectful	updated	2026-05-02
 https://github.com/eldritch-cookie/hedis-effectful	N/A
-https://github.com/kleidukos/pg-transact-effectful	N/A
+https://github.com/kleidukos/pg-transact-effectful	updated	2025-03-14
 https://github.com/joshburgess/valiant	N/A
 https://github.com/haskell-effectful/effectful-core	N/A
 https://github.com/haskell-effectful/effectful-th	N/A
@@ -4747,7 +4747,7 @@ https://www.scs.stanford.edu/~dbg/readings/haskell-history.pdf	N/A
 https://courses.cs.umbc.edu/graduate/631/Fall2002/haskell.pdf	created	2002
 https://cir.nii.ac.jp/crid/1361418520312503552?lang=en	N/A
 https://acawiki.org/A_History_of_Haskell%3A_Being_Lazy_With_Class	N/A
-https://github.com/AliasQli/dialogue	N/A
+https://github.com/AliasQli/dialogue	updated	2022-02-13
 https://titles.cambridge.org/catalogue.asp?isbn=0521826144	N/A
 https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_163.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/old_docs/3.00/users_guide/user_67.html	modified	2019-02-15
@@ -4764,7 +4764,7 @@ https://doi.org/10.1017/S0956796820000027	publication	2020-01
 https://anil.recoil.org/papers/2017-tfp-effecthandlers	created	2017
 https://min-nguyen.github.io/files/papers/doctoral_thesis.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=9a7c815a3c84ceedf2e9bf2cff66205c71563ede&repid=rep1&type=pdf	N/A
-https://github.com/noughtmare/free-io	N/A
+https://github.com/noughtmare/free-io	updated	2024-11-30
 https://effect-handlers.org/	N/A
 https://resolve.cambridge.org/core/journals/journal-of-functional-programming/article/from-high-to-low-simulating-nondeterminism-and-state-with-state/190FBF349B0D32D56992C566CDBF5ED5	publication	2024-01
 https://research-information.bris.ac.uk/en/publications/effect-handlers-for-programmable-inference/	publication	2023-08-31
@@ -4787,7 +4787,7 @@ https://discourse.haskell.org/t/resources-to-learn-monad/1111	publication	2020-0
 https://arxiv.org/abs/1507.00385	created	2015-07
 https://typelevel.org/cats-effect/datatypes/io.html	N/A
 https://typelevel.org/blog/2017/05/02/io-monad-for-cats.html	created	2017
-https://github.com/soupi/haskell-study-plan/blob/master/README.org#what-is-io	N/A
+https://github.com/soupi/haskell-study-plan/blob/master/README.org#what-is-io	updated	2022-03-26
 https://eprints.nottingham.ac.uk/11457/	N/A
 https://repositorio.uchile.cl/handle/2250/139232	N/A
 https://upapers.dcc.uchile.cl/index/publications/view_pdf/306805	N/A
@@ -4886,7 +4886,7 @@ https://hackage-content.haskell.org/package/base-4.13.0.0/docs/Control-Monad-IO-
 https://hackage-content.haskell.org/package/base-4.22.0.0/docs/System-IO.html	N/A
 https://hackage-content-origin.haskell.org/package/ghc-9.8.4/docs/GHC-Data-IOEnv.html	N/A
 https://www.haskell.org/hugs/pages/libraries/base/Data-IORef.html	N/A
-https://github.com/monet/monet.js	N/A
+https://github.com/monet/monet.js	updated	2021-11-28
 https://monet.github.io/monet.js/	N/A
 https://colomboe.github.io/KIO/	N/A
 https://www.haskell.org/communities/12-2007/html/report.html	created	2007
@@ -6533,32 +6533,32 @@ https://hackage.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Util
 https://hackage-content.haskell.org/package/FileSystem-1.0.0/docs/System-FileSystem-Utils.html	N/A
 https://api.github.com/repos/haskell-hvr/missingh	N/A
 https://api.github.com/repos/haskell-hvr/missingh/git/trees/master?recursive=1	N/A
-https://github.com/haskell-hvr/missingh/archive/refs/heads/master.zip	N/A
-https://github.com/haskell-hvr/missingh/archive/refs/heads/master.tar.gz	N/A
+https://github.com/haskell-hvr/missingh/archive/refs/heads/master.zip	updated	2026-01-07
+https://github.com/haskell-hvr/missingh/archive/refs/heads/master.tar.gz	updated	2026-01-07
 https://codeload.github.com/haskell-hvr/missingh/zip/refs/heads/master	N/A
 https://codeload.github.com/haskell-hvr/missingh/tar.gz/refs/heads/master	N/A
 https://packages.debian.org/source/stable/missingh	N/A
 https://archlinux.org/packages/extra-staging/x86_64/haskell-missingh/	N/A
 https://openhub.net/p/missingh	N/A
-https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS.hs?ref=master	N/A
-https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/Combinators.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/Combinators.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/Combinators.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/Combinators.hs?ref=master	N/A
-https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/InstanceHelpers.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/InstanceHelpers.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/InstanceHelpers.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/InstanceHelpers.hs?ref=master	N/A
-https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/Utils.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVFS/Utils.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/Utils.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVFS/Utils.hs?ref=master	N/A
-https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVIO.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/src/System/IO/HVIO.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVIO.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/src/System/IO/HVIO.hs?ref=master	N/A
-https://github.com/haskell-hvr/missingh/blob/master/testsrc/HVFStest.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/testsrc/HVFStest.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/testsrc/HVFStest.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/testsrc/HVFStest.hs?ref=master	N/A
-https://github.com/haskell-hvr/missingh/blob/master/testsrc/HVIOtest.hs	N/A
+https://github.com/haskell-hvr/missingh/blob/master/testsrc/HVIOtest.hs	updated	2026-01-07
 https://raw.githubusercontent.com/haskell-hvr/missingh/master/testsrc/HVIOtest.hs	N/A
 https://api.github.com/repos/haskell-hvr/missingh/contents/testsrc/HVIOtest.hs?ref=master	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.3/docs/System-IO-HVFS.html	created	2026-01-07
@@ -7241,7 +7241,7 @@ https://www.reddit.com/r/haskell/comments/265blu/must_file_and_network_io_always
 https://tweag.io/blog/2018-10-04-capability/	created	2018
 https://www.schoolofhaskell.com/user/meiersi/the-service-pattern	N/A
 https://chrispenner.ca/posts/mock-effects-with-data-kinds	N/A
-https://github.com/michaelt/tagless	N/A
+https://github.com/michaelt/tagless	updated	2013-02-20
 https://welltypedwit.ch/posts/value-restriction.html	N/A
 https://itnext.io/hmock-first-rate-mocks-in-haskell-e59d7c3b066c	publication	2021-06-21
 https://arxiv.org/abs/1901.07665	created	1901
@@ -7972,26 +7972,26 @@ https://mail.haskell.org/pipermail/haskell-cafe/2005-June/010309.html	created	20
 https://mail.haskell.org/pipermail/haskell-cafe/2009-January/052887.html	created	2009
 ## I/O model, restriction, testing, and teaching repositories
 https://github.com/winterland1989/unboxed-ref	created	1989
-https://github.com/chrisdone-archive/pure-io	N/A
-https://github.com/mihaimaruseac/io-manager	N/A
-https://github.com/willdonnelly/io-storage	N/A
-https://github.com/snoyberg/rio	N/A
-https://github.com/lspitzner/cont-io-playground	N/A
-https://github.com/charles-cooper/fun-with-IO	N/A
-https://github.com/YoshikuniJujo/io-machine	N/A
-https://github.com/emilaxelsson/feldspar-io	N/A
+https://github.com/chrisdone-archive/pure-io	updated	2014-08-06
+https://github.com/mihaimaruseac/io-manager	updated	2026-07-23
+https://github.com/willdonnelly/io-storage	updated	2009-08-06
+https://github.com/snoyberg/rio	updated	2017-07-21
+https://github.com/lspitzner/cont-io-playground	updated	2018-09-12
+https://github.com/charles-cooper/fun-with-IO	updated	2016-02-21
+https://github.com/YoshikuniJujo/io-machine	updated	2016-04-08
+https://github.com/emilaxelsson/feldspar-io	updated	2016-02-06
 https://github.com/andysonnenburg/logicst	N/A
-https://github.com/FPtje/elm-marshall	N/A
-https://github.com/Shimuuar/monad-primitive	N/A
-https://github.com/nielsreijers/io_monad	N/A
-https://github.com/holmisen/output-monad	N/A
-https://github.com/latrovalievioan/IO-monad-drill	N/A
+https://github.com/FPtje/elm-marshall	updated	2017-03-05
+https://github.com/Shimuuar/monad-primitive	updated	2014-02-04
+https://github.com/nielsreijers/io_monad	updated	2023-08-31
+https://github.com/holmisen/output-monad	updated	2015-02-19
+https://github.com/latrovalievioan/IO-monad-drill	updated	2024-01-08
 https://github.com/A1-Triard/errors-ext	N/A
-https://github.com/seanesss/old-haskell-io	N/A
-https://github.com/kevinmeredith/monad_book	N/A
-https://github.com/ecamalionte/hangman	N/A
-https://github.com/trvrmcs/monadic_io	N/A
-https://github.com/aur-archive/haskell-iospec	N/A
+https://github.com/seanesss/old-haskell-io	updated	2014-07-06
+https://github.com/kevinmeredith/monad_book	updated	2017-05-23
+https://github.com/ecamalionte/hangman	updated	2016-01-31
+https://github.com/trvrmcs/monadic_io	updated	2023-08-01
+https://github.com/aur-archive/haskell-iospec	updated	2015-08-16
 https://gitlab.com/igrep/haskell-fakefs	N/A
 https://gitlab.com/bgamari/ghc-wiki	N/A
 https://gitlab.com/Lipovsky/awesome-concurrency	N/A
@@ -10588,7 +10588,7 @@ https://lean4.dev/language	N/A
 https://lean4.dev/language/effects/do-notation	N/A
 https://sdiehl.github.io/zero-to-qed/	N/A
 https://lean4.dev/	N/A
-https://github.com/arthurpaulino/lean4-metaprogramming-book/blob/master/temp/monad-stacks.lean	N/A
+https://github.com/arthurpaulino/lean4-metaprogramming-book/blob/master/temp/monad-stacks.lean	updated	2026-07-26
 https://lean-lang.org/doc/reference/latest/IO/Tasks-and-Threads/	N/A
 https://pfaffelh.github.io/leancourse/Mathematics/	N/A
 https://avigad.github.io/programming_in_lean/programming_in_lean.pdf	N/A
@@ -10919,7 +10919,7 @@ https://dblp.org/db/conf/haskell/index	N/A
 https://citeseerx.ist.psu.edu/document?doi=ac59f8adb5fa820bd5b407257a5f387231864c87&repid=rep1&type=pdf	N/A
 https://okmij.org/ftp/Computation/streams-hapoc2021.pdf	created	2021
 https://downloads.haskell.org/ghc/8.10.2/docs/html/libraries/mtl-2.2.2/Control-Monad-Cont-Class.html	modified	2020-08-08
-https://github.com/TU-Berlin/opal	N/A
+https://github.com/TU-Berlin/opal	updated	2025-12-08
 https://handwiki.org/wiki/Monad_%28functional_programming%29	publication	2024-02-07
 https://www.readkong.com/page/the-opal-tutorial-8714252	N/A
 https://softwareengineering.stackexchange.com/questions/315232/history-of-the-maybe-monad	N/A
@@ -10948,7 +10948,7 @@ https://www.manning.com/books/functional-programming-in-c-sharp	N/A
 https://leanpub.com/functional-programming-in-cSharp-with-categories	N/A
 https://mikhail.io/2018/07/monads-explained-in-csharp-again/	created	2018
 https://www.dvdsgl.co/2015/monads-explained	publication	2015-08-07
-https://github.com/MostlyAdequate/mostly-adequate-guide	N/A
+https://github.com/MostlyAdequate/mostly-adequate-guide	updated	2024-09-17
 https://fliphtml5.com/lchw/rhrw/Mostly_Adequate_Guide/	N/A
 https://davidtimms.github.io/typescript/effective.ts/2021/12/23/effective-ts-tutorial-part-one.html	publication	2021-12-23
 https://www.manning.com/books/functional-programming-in-javascript	N/A
@@ -11136,7 +11136,7 @@ https://koka-lang.github.io/koka/doc/std_core_hnd.html	N/A
 https://www.microsoft.com/en-us/research/publication/type-directed-compilation-row-typed-algebraic-effects/	N/A
 https://shonan.nii.ac.jp/archives/seminar/103/wp-content/uploads/sites/122/2016/09/handlers.pdf	created	2016
 https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/asynceffects-msr-tr-2017-21.pdf	created	2017
-https://github.com/matijapretnar/eff	N/A
+https://github.com/matijapretnar/eff	updated	2026-04-02
 https://www.college-de-france.fr/sites/default/files/media/document/2024-03/Leroy_2023-2024_s%C3%A9minaire%20Pretnar_7%20mars%202024.pdf	created	2024
 https://deepwiki.com/matijapretnar/eff/5-algebraic-effects	N/A
 https://www.researchgate.net/publication/289994451_An_Introduction_to_Algebraic_Effects_and_Handlers_Invited_tutorial_paper	N/A
@@ -11408,7 +11408,7 @@ https://www.sidorenko.me/blog/2026/06/haskell-for-scala-devs-03-effects/	publica
 https://en.wikipedia.org/wiki/John_Launchbury	N/A
 https://www.idris-lang.org/Idris2/prelude/docs/PrimIO.html	N/A
 https://idris2.readthedocs.io/en/latest/app/interfaces.html	N/A
-https://github.com/idris-lang/Idris2/blob/master/docs/source/backends/backend-cookbook.rst	N/A
+https://github.com/idris-lang/Idris2/blob/master/docs/source/backends/backend-cookbook.rst	updated	2026-07-21
 https://www.idris-lang.org/Idris2/base/docs/Data.IOArray.Prims.html	N/A
 https://www.idris-lang.org/Idris2/	N/A
 https://www.idris-lang.org/Idris2/prelude/source/Prelude.IO.html	N/A
@@ -12555,7 +12555,7 @@ https://hackage.haskell.org/package/indexed/docs	created	2016-09-17
 https://hackage.haskell.org/package/indexed-free/docs/Control-Monad-Indexed-Free.html	created	2013-11-27
 https://hackage.haskell.org/package/sessiontypes-distributed/docs	created	2018-01-13
 https://hackage.haskell.org/package/sessiontypes-distributed/docs/Control-Distributed-Session-Spawn.html	created	2018-01-13
-https://github.com/Ferdinand-vW/sessiontypes	N/A
+https://github.com/Ferdinand-vW/sessiontypes	updated	2023-03-28
 https://hackage.haskell.org/package/full-sessions/docs	created	2012-01-23
 https://www.doc.ic.ac.uk/~dorchard/popl16/sessions/doc/html/effect-sessions/Control-Effect-Sessions.html	N/A
 https://www.doc.ic.ac.uk/~dorchard/popl16/	N/A
@@ -12603,7 +12603,7 @@ https://kar.kent.ac.uk/id/eprint/61624	N/A
 https://kar.kent.ac.uk/57481/	N/A
 https://eptcs.org/content.cgi?PLACES2015	created	2015
 https://eptcs.org/content.cgi?PLACES2015.1	created	2015
-https://github.com/dorchard/effects-as-sessions	N/A
+https://github.com/dorchard/effects-as-sessions	updated	2024-11-28
 https://www.doc.ic.ac.uk/~dorchard/publ/effects-as-sessions-places15.pdf	N/A
 https://kar.kent.ac.uk/id/document/97327	N/A
 https://www.cs.kent.ac.uk/people/staff/dao7/publ/popl16-orchard-yoshida.pdf	N/A
@@ -12614,7 +12614,7 @@ https://kar.kent.ac.uk/57481/1/popl16-orchard-yoshida.pdf	N/A
 https://www.dcs.gla.ac.uk/~simon/PLACES2015-PreliminaryProceedings.pdf	created	2015
 https://theses.gla.ac.uk/83946/3/2023VoineaPhD.pdf	created	2023
 https://www.doc.ic.ac.uk/~dorchard/talks.html	N/A
-https://github.com/xgrommx/agda-ecosystem	N/A
+https://github.com/xgrommx/agda-ecosystem	updated	2018-05-27
 https://groups.inf.ed.ac.uk/abcd/	N/A
 https://www.researchgate.net/publication/303011773_Effects_as_sessions_sessions_as_effects	N/A
 https://www.researchgate.net/publication/305516209_Behavioral_Types_in_Programming_Languages	N/A
@@ -12865,11 +12865,11 @@ https://ouroboros-consensus.cardano.intersectmbo.org/assets/files/utxo-db-lsm-7d
 https://coot.me/	N/A
 https://build.opensuse.org/package/show/devel%3Alanguages%3Ahaskell%3Acardano/ghc-io-sim	N/A
 https://bobkonf.de/2024/slides/bailly.pdf	created	2024
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim.hs	updated	2026-06-30
 https://coot.me/presentations/iosimpor.pdf	N/A
 https://media.ccc.de/tags/110	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Types.hs	N/A
-https://github.com/input-output-hk/io-sim/blob/main/README.md	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Types.hs	updated	2026-06-30
+https://github.com/input-output-hk/io-sim/blob/main/README.md	updated	2026-06-30
 https://media.ccc.de/v/bob2022-concurrent-programs-in-haskell-kant	created	2022
 https://dblp.org/rec/journals/jfp/WestphalV25	N/A
 https://www.emergentmind.com/topics/i-o-grammars	N/A
@@ -12982,38 +12982,38 @@ https://hackage.haskell.org/package/MissingH-1.6.0.3/MissingH-1.6.0.3.tar.gz	cre
 https://hackage-content.haskell.org/package/MissingH-1.6.0.3.tar.gz	N/A
 https://api.github.com/repos/ncfavier/knob	N/A
 https://api.github.com/repos/ncfavier/knob/git/trees/main?recursive=1	N/A
-https://github.com/ncfavier/knob/archive/refs/heads/main.zip	N/A
-https://github.com/ncfavier/knob/archive/refs/heads/main.tar.gz	N/A
+https://github.com/ncfavier/knob/archive/refs/heads/main.zip	updated	2024-02-01
+https://github.com/ncfavier/knob/archive/refs/heads/main.tar.gz	updated	2024-02-01
 https://codeload.github.com/ncfavier/knob/zip/refs/heads/main	N/A
 https://codeload.github.com/ncfavier/knob/tar.gz/refs/heads/main	N/A
-https://github.com/ncfavier/knob/blob/main/.gitignore	N/A
+https://github.com/ncfavier/knob/blob/main/.gitignore	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/.gitignore	N/A
 https://api.github.com/repos/ncfavier/knob/contents/.gitignore?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/Setup.hs	N/A
+https://github.com/ncfavier/knob/blob/main/Setup.hs	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/Setup.hs	N/A
 https://api.github.com/repos/ncfavier/knob/contents/Setup.hs?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/knob.cabal	N/A
+https://github.com/ncfavier/knob/blob/main/knob.cabal	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/knob.cabal	N/A
 https://api.github.com/repos/ncfavier/knob/contents/knob.cabal?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/lib/Data/Knob.hs	N/A
+https://github.com/ncfavier/knob/blob/main/lib/Data/Knob.hs	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/lib/Data/Knob.hs	N/A
 https://api.github.com/repos/ncfavier/knob/contents/lib/Data/Knob.hs?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/license.txt	N/A
+https://github.com/ncfavier/knob/blob/main/license.txt	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/license.txt	N/A
 https://api.github.com/repos/ncfavier/knob/contents/license.txt?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/scripts/common.bash	N/A
+https://github.com/ncfavier/knob/blob/main/scripts/common.bash	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/common.bash	N/A
 https://api.github.com/repos/ncfavier/knob/contents/scripts/common.bash?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/scripts/run-coverage	N/A
+https://github.com/ncfavier/knob/blob/main/scripts/run-coverage	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-coverage	N/A
 https://api.github.com/repos/ncfavier/knob/contents/scripts/run-coverage?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/scripts/run-tests	N/A
+https://github.com/ncfavier/knob/blob/main/scripts/run-tests	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-tests	N/A
 https://api.github.com/repos/ncfavier/knob/contents/scripts/run-tests?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/tests/KnobTests.hs	N/A
+https://github.com/ncfavier/knob/blob/main/tests/KnobTests.hs	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/tests/KnobTests.hs	N/A
 https://api.github.com/repos/ncfavier/knob/contents/tests/KnobTests.hs?ref=main	N/A
-https://github.com/ncfavier/knob/blob/main/tests/knob-tests.cabal	N/A
+https://github.com/ncfavier/knob/blob/main/tests/knob-tests.cabal	updated	2024-02-01
 https://raw.githubusercontent.com/ncfavier/knob/main/tests/knob-tests.cabal	N/A
 https://api.github.com/repos/ncfavier/knob/contents/tests/knob-tests.cabal?ref=main	N/A
 https://hackage.haskell.org/package/knob-0.1	N/A
@@ -13053,7 +13053,7 @@ https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/2
 http://doi.acm.org/10.1145/158511.158524	N/A
 https://doi.org/10.5281/zenodo.3862954	N/A
 https://bdm.unb.br/bitstream/10483/19378/1/2017_LuizGustavoSoaresdeSa.pdf	created	2017
-https://github.com/AliasQli/dialogue#readme	N/A
+https://github.com/AliasQli/dialogue#readme	updated	2022-02-13
 https://www.haskell.org/communities/11-2014/report.pdf	created	2014
 https://hackage.haskell.org/package/dialogue/docs/System-IO-Continuation.html	created	2022-02-13
 https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/05.htm	N/A
@@ -13080,7 +13080,7 @@ https://pages.di.unipi.it/corradini/Didattica/PLP-14/	N/A
 https://pages.di.unipi.it/corradini/Didattica/PLP-14/SLIDES/PLP-29.pdf	N/A
 https://pages.di.unipi.it/corradini/Didattica/AP-24/ESER/04/exercises_4.html	N/A
 https://cse.sc.edu/~mgv/csce590f21/haskell/Haskell_wiki.pdf	N/A
-https://github.com/cs340ppp/lectures/blob/completed/src/Lect10.lhs	N/A
+https://github.com/cs340ppp/lectures/blob/completed/src/Lect10.lhs	updated	2026-04-22
 https://www.libroworld.com/9780521070072/	N/A
 https://www.bol.com/be/fr/p/functional-programming-and-input-output/1001004006142417/	N/A
 https://citeseerx.ist.psu.edu/document?doi=e60f1c2236c4c4d5decbbdae6acb0fbdae9c7860&repid=rep1&type=pdf	N/A
@@ -13837,7 +13837,7 @@ https://www.stackage.org/lts-24.39/package/io-machine-0.2.0.0	N/A
 https://www.stackage.org/lts-18.21/package/io-machine-0.2.0.0	N/A
 https://www.stackage.org/nightly-2024-04-01/package/io-machine-0.2.0.0	created	2024
 https://www.stackage.org/nightly-2025-08-01/package/io-machine-0.2.0.0	created	2025
-https://github.com/YoshikuniJujo/io-machine#readme	N/A
+https://github.com/YoshikuniJujo/io-machine#readme	updated	2016-04-08
 https://packagehub.suse.com/packages/ghc-io-machine/	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.io-machine	N/A
 https://www.haskell.org/haskell-workshop/2007/ProgramDraft.html	created	2007
@@ -13922,7 +13922,7 @@ https://dzuniv.com/storage/media/04137c3fbbadb1ac102fd61c20333e6c/cours_compilat
 https://theses.hal.science/tel-03278311v1/file/ARCHIPOFF_SIMON_2020.pdf	created	2020
 https://rwh.readthedocs.io/en/latest/chp/7.html	N/A
 https://pt.scribd.com/document/741447417/Artigo06Editado	N/A
-https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranje.pdf	N/A
+https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranje.pdf	updated	2025-12-01
 https://amslaurea.unibo.it/id/eprint/27900/1/borghi_luca_tesi.pdf	N/A
 https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_033.html	N/A
 https://hackage.haskell.org/package/haste-compiler/docs/Haste-App.html	created	2017-09-08
@@ -14373,7 +14373,7 @@ https://mail.haskell.org/pipermail/libraries/2009-August/012452.html	created	200
 https://fp.readthedocs.io/en/0.2/monads.html	N/A
 https://github.com/swiftlang/swift/blob/main/docs/ErrorHandlingRationale.md	N/A
 https://www.miguelfarrajota.com/2021/06/monads-in-python-with-pymonad/	created	2021
-https://github.com/tonivade/purefun	N/A
+https://github.com/tonivade/purefun	updated	2026-07-26
 https://pypi.org/project/effect/0.1a11/	created	2014-05-28
 https://forums.swift.org/t/algebraic-effects/38769	publication	2020-07-26
 https://www.cocoawithlove.com/blog/an-aside-about-flatmap-and-monads.html	N/A
@@ -14421,7 +14421,7 @@ https://web.cecs.pdx.edu/~sheard/course/AdvancedFP/notes/arrows/ArrowBasics.pdf	
 https://www.reddit.com/r/Kotlin/comments/ek5030	N/A
 https://www.jsdelivr.com/package/npm/%40io-monad/chrome-util	N/A
 https://app.unpkg.com/monio%400.71.0/files/MONIO.md	N/A
-https://github.com/leonoel/missionary	N/A
+https://github.com/leonoel/missionary	updated	2026-06-26
 https://gist.github.com/jdegoes/7cc7e7aacd032773f3c24123d0d486d4	N/A
 https://www.rubydoc.info/gems/ruby-maybe/0.2.0/file/README.md	N/A
 https://aicenter.github.io/FUP/slides/lecture10.pdf	N/A
@@ -14625,29 +14625,29 @@ https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2025/EFP/main_content.html	c
 https://link.springer.com/book/10.1007/3-540-34796-8	N/A
 https://www.cs.hs-rm.de/~sabel/teaching/archive/assets/SS2025/FP/folien/07-monaden.pdf	created	2025
 https://www-ps.informatik.uni-kiel.de/~fhu/FunktionaleProgrammierung.pdf	N/A
-https://github.com/ucsd-cse130/wi21/blob/main/lectures/09-io.md	N/A
+https://github.com/ucsd-cse130/wi21/blob/main/lectures/09-io.md	updated	2021-03-13
 https://raw.githubusercontent.com/ucsd-cse130/wi21/main/lectures/09-io.md	N/A
-https://github.com/ucsd-cse130/wi21/blob/main/docs/static/code/09-io.md	N/A
+https://github.com/ucsd-cse130/wi21/blob/main/docs/static/code/09-io.md	updated	2021-03-13
 https://raw.githubusercontent.com/ucsd-cse130/wi21/main/docs/static/code/09-io.md	N/A
-https://github.com/ucsd-cse130/wi22/blob/main/docs/lectures/09-io.html	N/A
+https://github.com/ucsd-cse130/wi22/blob/main/docs/lectures/09-io.html	updated	2022-03-10
 https://raw.githubusercontent.com/ucsd-cse130/wi22/main/docs/lectures/09-io.html	N/A
-https://github.com/ucsd-cse130/wi22/blob/main/docs/static/code/09-io.md	N/A
+https://github.com/ucsd-cse130/wi22/blob/main/docs/static/code/09-io.md	updated	2022-03-10
 https://raw.githubusercontent.com/ucsd-cse130/wi22/main/docs/static/code/09-io.md	N/A
-https://github.com/ucsd-cse130/wi22/blob/main/lectures/09-io.md	N/A
+https://github.com/ucsd-cse130/wi22/blob/main/lectures/09-io.md	updated	2022-03-10
 https://raw.githubusercontent.com/ucsd-cse130/wi22/main/lectures/09-io.md	N/A
-https://github.com/ucsd-cse130/wi24/blob/main/docs/lectures/09-io.html	N/A
+https://github.com/ucsd-cse130/wi24/blob/main/docs/lectures/09-io.html	updated	2024-03-15
 https://raw.githubusercontent.com/ucsd-cse130/wi24/main/docs/lectures/09-io.html	N/A
-https://github.com/ucsd-cse130/wi24/blob/main/docs/static/code/09-io.md	N/A
+https://github.com/ucsd-cse130/wi24/blob/main/docs/static/code/09-io.md	updated	2024-03-15
 https://raw.githubusercontent.com/ucsd-cse130/wi24/main/docs/static/code/09-io.md	N/A
-https://github.com/ucsd-cse130/wi24/blob/main/lectures/09-io.md	N/A
+https://github.com/ucsd-cse130/wi24/blob/main/lectures/09-io.md	updated	2024-03-15
 https://raw.githubusercontent.com/ucsd-cse130/wi24/main/lectures/09-io.md	N/A
-https://github.com/ucsd-cse130/wi25/blob/main/docs/lectures/09-io.html	N/A
+https://github.com/ucsd-cse130/wi25/blob/main/docs/lectures/09-io.html	updated	2025-03-13
 https://raw.githubusercontent.com/ucsd-cse130/wi25/main/docs/lectures/09-io.html	N/A
-https://github.com/ucsd-cse130/wi25/blob/main/lectures/09-io.md	N/A
+https://github.com/ucsd-cse130/wi25/blob/main/lectures/09-io.md	updated	2025-03-13
 https://raw.githubusercontent.com/ucsd-cse130/wi25/main/lectures/09-io.md	N/A
-https://github.com/ucsd-cse130/wi26/blob/main/docs/lectures/09-io.html	N/A
+https://github.com/ucsd-cse130/wi26/blob/main/docs/lectures/09-io.html	updated	2026-03-17
 https://raw.githubusercontent.com/ucsd-cse130/wi26/main/docs/lectures/09-io.html	N/A
-https://github.com/ucsd-cse130/wi26/blob/main/lectures/09-io.md	N/A
+https://github.com/ucsd-cse130/wi26/blob/main/lectures/09-io.md	updated	2026-03-17
 https://raw.githubusercontent.com/ucsd-cse130/wi26/main/lectures/09-io.md	N/A
 https://openlibrary.org/books/OL18807238M/Proceedings_of_the_2002_ACM_SIGPLAN_Haskell_Workshop_%28Haskell_%2702%29	created	2002
 https://ucsd-cse230.github.io/sp20/lectures/04-haskell-io.html	N/A
@@ -14655,59 +14655,59 @@ https://ucsc-cse-114a.github.io/fall21/static_files/presentations/monads.pdf	N/A
 https://ucsc-cse-114a.github.io/winter22/static_files/presentations/monads.pdf	N/A
 https://ucsd-cse230.github.io/fa23/static/raw/05-io.pdf	N/A
 https://drbearhands.com/haskell-tutorial/2.hello-monad	N/A
-https://github.com/ucsd-cse230/sp20/blob/master/docs/lectures/04-haskell-io.html	N/A
+https://github.com/ucsd-cse230/sp20/blob/master/docs/lectures/04-haskell-io.html	updated	2020-06-05
 https://raw.githubusercontent.com/ucsd-cse230/sp20/master/docs/lectures/04-haskell-io.html	N/A
-https://github.com/ucsd-cse230/sp20/blob/master/docs/static/raw/04-hs-io-A.pdf	N/A
+https://github.com/ucsd-cse230/sp20/blob/master/docs/static/raw/04-hs-io-A.pdf	updated	2020-06-05
 https://raw.githubusercontent.com/ucsd-cse230/sp20/master/docs/static/raw/04-hs-io-A.pdf	N/A
-https://github.com/ucsd-cse230/sp20/blob/master/lectures/04-haskell-io.md	N/A
+https://github.com/ucsd-cse230/sp20/blob/master/lectures/04-haskell-io.md	updated	2020-06-05
 https://raw.githubusercontent.com/ucsd-cse230/sp20/master/lectures/04-haskell-io.md	N/A
-https://github.com/ucsd-cse230/sp20/blob/master/static/raw/04-hs-io-A.pdf	N/A
+https://github.com/ucsd-cse230/sp20/blob/master/static/raw/04-hs-io-A.pdf	updated	2020-06-05
 https://raw.githubusercontent.com/ucsd-cse230/sp20/master/static/raw/04-hs-io-A.pdf	N/A
-https://github.com/ucsd-cse230/fa20/blob/master/docs/lectures/04-haskell-io.html	N/A
+https://github.com/ucsd-cse230/fa20/blob/master/docs/lectures/04-haskell-io.html	updated	2020-12-08
 https://raw.githubusercontent.com/ucsd-cse230/fa20/master/docs/lectures/04-haskell-io.html	N/A
-https://github.com/ucsd-cse230/fa20/blob/master/docs/static/raw/04-hs-io-A.pdf	N/A
+https://github.com/ucsd-cse230/fa20/blob/master/docs/static/raw/04-hs-io-A.pdf	updated	2020-12-08
 https://raw.githubusercontent.com/ucsd-cse230/fa20/master/docs/static/raw/04-hs-io-A.pdf	N/A
-https://github.com/ucsd-cse230/fa20/blob/master/lectures/04-haskell-io.md	N/A
+https://github.com/ucsd-cse230/fa20/blob/master/lectures/04-haskell-io.md	updated	2020-12-08
 https://raw.githubusercontent.com/ucsd-cse230/fa20/master/lectures/04-haskell-io.md	N/A
-https://github.com/ucsd-cse230/fa21/blob/main/docs/lectures/04-haskell-io.html	N/A
+https://github.com/ucsd-cse230/fa21/blob/main/docs/lectures/04-haskell-io.html	updated	2021-12-07
 https://raw.githubusercontent.com/ucsd-cse230/fa21/main/docs/lectures/04-haskell-io.html	N/A
-https://github.com/ucsd-cse230/fa21/blob/main/docs/static/raw/04-hs-io-A.pdf	N/A
+https://github.com/ucsd-cse230/fa21/blob/main/docs/static/raw/04-hs-io-A.pdf	updated	2021-12-07
 https://raw.githubusercontent.com/ucsd-cse230/fa21/main/docs/static/raw/04-hs-io-A.pdf	N/A
-https://github.com/ucsd-cse230/fa21/blob/main/lectures/04-haskell-io.md	N/A
+https://github.com/ucsd-cse230/fa21/blob/main/lectures/04-haskell-io.md	updated	2021-12-07
 https://raw.githubusercontent.com/ucsd-cse230/fa21/main/lectures/04-haskell-io.md	N/A
-https://github.com/ucsd-cse230/fa23/blob/main/docs/lectures/04-haskell-io.html	N/A
+https://github.com/ucsd-cse230/fa23/blob/main/docs/lectures/04-haskell-io.html	updated	2023-11-30
 https://raw.githubusercontent.com/ucsd-cse230/fa23/main/docs/lectures/04-haskell-io.html	N/A
-https://github.com/ucsd-cse230/fa23/blob/main/docs/lectures/05-io.html	N/A
+https://github.com/ucsd-cse230/fa23/blob/main/docs/lectures/05-io.html	updated	2023-11-30
 https://raw.githubusercontent.com/ucsd-cse230/fa23/main/docs/lectures/05-io.html	N/A
-https://github.com/ucsd-cse230/fa23/blob/main/docs/static/raw/04-hs-io-A.pdf	N/A
+https://github.com/ucsd-cse230/fa23/blob/main/docs/static/raw/04-hs-io-A.pdf	updated	2023-11-30
 https://raw.githubusercontent.com/ucsd-cse230/fa23/main/docs/static/raw/04-hs-io-A.pdf	N/A
-https://github.com/ucsd-cse230/fa23/blob/main/docs/static/raw/05-io.pdf	N/A
+https://github.com/ucsd-cse230/fa23/blob/main/docs/static/raw/05-io.pdf	updated	2023-11-30
 https://raw.githubusercontent.com/ucsd-cse230/fa23/main/docs/static/raw/05-io.pdf	N/A
-https://github.com/ucsd-cse230/fa23/blob/main/lectures/05-io.md	N/A
+https://github.com/ucsd-cse230/fa23/blob/main/lectures/05-io.md	updated	2023-11-30
 https://raw.githubusercontent.com/ucsd-cse230/fa23/main/lectures/05-io.md	N/A
-https://github.com/ucsd-cse230/fa23/blob/main/static/raw/05-io.pdf	N/A
+https://github.com/ucsd-cse230/fa23/blob/main/static/raw/05-io.pdf	updated	2023-11-30
 https://raw.githubusercontent.com/ucsd-cse230/fa23/main/static/raw/05-io.pdf	N/A
-https://github.com/ucsd-cse230/wi26/blob/main/docs/lectures/04-haskell-io.html	N/A
+https://github.com/ucsd-cse230/wi26/blob/main/docs/lectures/04-haskell-io.html	updated	2026-03-16
 https://raw.githubusercontent.com/ucsd-cse230/wi26/main/docs/lectures/04-haskell-io.html	N/A
-https://github.com/ucsd-cse230/wi26/blob/main/docs/lectures/05-io.html	N/A
+https://github.com/ucsd-cse230/wi26/blob/main/docs/lectures/05-io.html	updated	2026-03-16
 https://raw.githubusercontent.com/ucsd-cse230/wi26/main/docs/lectures/05-io.html	N/A
-https://github.com/ucsd-cse230/wi26/blob/main/docs/static/raw/04-hs-io-A.pdf	N/A
+https://github.com/ucsd-cse230/wi26/blob/main/docs/static/raw/04-hs-io-A.pdf	updated	2026-03-16
 https://raw.githubusercontent.com/ucsd-cse230/wi26/main/docs/static/raw/04-hs-io-A.pdf	N/A
-https://github.com/ucsd-cse230/wi26/blob/main/docs/static/raw/05-io.pdf	N/A
+https://github.com/ucsd-cse230/wi26/blob/main/docs/static/raw/05-io.pdf	updated	2026-03-16
 https://raw.githubusercontent.com/ucsd-cse230/wi26/main/docs/static/raw/05-io.pdf	N/A
-https://github.com/ucsd-cse230/wi26/blob/main/lectures/05-io.md	N/A
+https://github.com/ucsd-cse230/wi26/blob/main/lectures/05-io.md	updated	2026-03-16
 https://raw.githubusercontent.com/ucsd-cse230/wi26/main/lectures/05-io.md	N/A
-https://github.com/ucsd-cse230/wi26/blob/main/static/raw/05-io.pdf	N/A
+https://github.com/ucsd-cse230/wi26/blob/main/static/raw/05-io.pdf	updated	2026-03-16
 https://raw.githubusercontent.com/ucsd-cse230/wi26/main/static/raw/05-io.pdf	N/A
-https://github.com/ucsc-cse-114a/fall21/blob/master/_lectures/11_monads.md	N/A
+https://github.com/ucsc-cse-114a/fall21/blob/master/_lectures/11_monads.md	updated	2022-12-08
 https://raw.githubusercontent.com/ucsc-cse-114a/fall21/master/_lectures/11_monads.md	N/A
-https://github.com/ucsc-cse-114a/fall21/blob/master/static_files/presentations/monads-handout.pdf	N/A
+https://github.com/ucsc-cse-114a/fall21/blob/master/static_files/presentations/monads-handout.pdf	updated	2022-12-08
 https://raw.githubusercontent.com/ucsc-cse-114a/fall21/master/static_files/presentations/monads-handout.pdf	N/A
-https://github.com/ucsc-cse-114a/fall21/blob/master/static_files/presentations/monads.pdf	N/A
+https://github.com/ucsc-cse-114a/fall21/blob/master/static_files/presentations/monads.pdf	updated	2022-12-08
 https://raw.githubusercontent.com/ucsc-cse-114a/fall21/master/static_files/presentations/monads.pdf	N/A
-https://github.com/ucsc-cse-114a/spring26/blob/main/static_files/slides/monads-handout.pdf	N/A
+https://github.com/ucsc-cse-114a/spring26/blob/main/static_files/slides/monads-handout.pdf	updated	2026-06-06
 https://raw.githubusercontent.com/ucsc-cse-114a/spring26/main/static_files/slides/monads-handout.pdf	N/A
-https://github.com/ucsc-cse-114a/spring26/blob/main/static_files/slides/monads.pdf	N/A
+https://github.com/ucsc-cse-114a/spring26/blob/main/static_files/slides/monads.pdf	updated	2026-06-06
 https://raw.githubusercontent.com/ucsc-cse-114a/spring26/main/static_files/slides/monads.pdf	N/A
 https://ucsd-cse230.github.io/sp20/static/raw/04-hs-io-A.pdf	N/A
 https://ucsd-cse230.github.io/fa20/lectures/04-haskell-io.html	N/A
@@ -14759,17 +14759,17 @@ https://devel.isa-afp.org/release/afp-Hello_World-2020-04-18.tar.gz	created	2020
 https://devel.isa-afp.org/release/afp-Hello_World-2020-03-23.tar.gz	created	2020
 https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FIO.thy	N/A
 https://isabelle.systems/zulip-archive/stream/238552-Beginner-Questions/topic/Isabelle.20LaTeX.20documents.html	N/A
-https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/HelloWorld.thy	N/A
+https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/HelloWorld.thy	updated	2026-07-25
 https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/HelloWorld.thy	N/A
-https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/HelloWorld_Proof.thy	N/A
+https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/HelloWorld_Proof.thy	updated	2026-07-25
 https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/HelloWorld_Proof.thy	N/A
-https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/IO.thy	N/A
+https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/IO.thy	updated	2026-07-25
 https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/IO.thy	N/A
-https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/ROOT	N/A
+https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/ROOT	updated	2026-07-25
 https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/ROOT	N/A
-https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/RunningCodeFromIsabelle.thy	N/A
+https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/RunningCodeFromIsabelle.thy	updated	2026-07-25
 https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/RunningCodeFromIsabelle.thy	N/A
-https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/document/root.tex	N/A
+https://github.com/isabelle-prover/mirror-afp-devel/blob/master/thys/Hello_World/document/root.tex	updated	2026-07-25
 https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/document/root.tex	N/A
 https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FHelloWorld.thy	N/A
 https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FHelloWorld_Proof.thy	N/A
@@ -20050,14 +20050,14 @@ https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Di
 https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Continuation.hs?ref=master	N/A
 https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Dialogue.hs?ref=master	N/A
 https://api.github.com/repos/noughtmare/free-io/contents/src/System/IO/Free.hs?ref=main	N/A
-https://github.com/AliasQli/dialogue/blob/master/dialogue.cabal	N/A
-https://github.com/AliasQli/dialogue/blob/master/README.md	N/A
-https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Continuation.hs	N/A
-https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Dialogue.hs	N/A
-https://github.com/AliasQli/dialogue/archive/refs/heads/master.zip	N/A
-https://github.com/noughtmare/free-io/blob/main/free-io.cabal	N/A
-https://github.com/noughtmare/free-io/blob/main/src/System/IO/Free.hs	N/A
-https://github.com/noughtmare/free-io/archive/refs/heads/main.zip	N/A
+https://github.com/AliasQli/dialogue/blob/master/dialogue.cabal	updated	2022-02-13
+https://github.com/AliasQli/dialogue/blob/master/README.md	updated	2022-02-13
+https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Continuation.hs	updated	2022-02-13
+https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Dialogue.hs	updated	2022-02-13
+https://github.com/AliasQli/dialogue/archive/refs/heads/master.zip	updated	2022-02-13
+https://github.com/noughtmare/free-io/blob/main/free-io.cabal	updated	2024-11-30
+https://github.com/noughtmare/free-io/blob/main/src/System/IO/Free.hs	updated	2024-11-30
+https://github.com/noughtmare/free-io/archive/refs/heads/main.zip	updated	2024-11-30
 https://raw.githubusercontent.com/AliasQli/dialogue/master/dialogue.cabal	N/A
 https://raw.githubusercontent.com/AliasQli/dialogue/master/README.md	N/A
 https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Continuation.hs	N/A
@@ -20067,22 +20067,22 @@ https://raw.githubusercontent.com/noughtmare/free-io/main/src/System/IO/Free.hs	
 https://codeload.github.com/AliasQli/dialogue/zip/refs/heads/master	N/A
 https://codeload.github.com/noughtmare/free-io/zip/refs/heads/main	N/A
 https://api.github.com/repos/AliasQli/dialogue/git/trees/master?recursive=1	N/A
-https://github.com/AliasQli/dialogue/blob/master/ChangeLog.md	N/A
+https://github.com/AliasQli/dialogue/blob/master/ChangeLog.md	updated	2022-02-13
 https://raw.githubusercontent.com/AliasQli/dialogue/master/ChangeLog.md	N/A
 https://api.github.com/repos/AliasQli/dialogue/contents/ChangeLog.md?ref=master	N/A
-https://github.com/AliasQli/dialogue/blob/master/examples/Main.hs	N/A
+https://github.com/AliasQli/dialogue/blob/master/examples/Main.hs	updated	2022-02-13
 https://raw.githubusercontent.com/AliasQli/dialogue/master/examples/Main.hs	N/A
 https://api.github.com/repos/AliasQli/dialogue/contents/examples/Main.hs?ref=master	N/A
-https://github.com/AliasQli/dialogue/archive/refs/heads/master.tar.gz	N/A
+https://github.com/AliasQli/dialogue/archive/refs/heads/master.tar.gz	updated	2022-02-13
 https://codeload.github.com/AliasQli/dialogue/tar.gz/refs/heads/master	N/A
 https://api.github.com/repos/noughtmare/free-io/git/trees/main?recursive=1	N/A
-https://github.com/noughtmare/free-io/blob/main/CHANGELOG.md	N/A
+https://github.com/noughtmare/free-io/blob/main/CHANGELOG.md	updated	2024-11-30
 https://raw.githubusercontent.com/noughtmare/free-io/main/CHANGELOG.md	N/A
 https://api.github.com/repos/noughtmare/free-io/contents/CHANGELOG.md?ref=main	N/A
-https://github.com/noughtmare/free-io/blob/main/example/Main.hs	N/A
+https://github.com/noughtmare/free-io/blob/main/example/Main.hs	updated	2024-11-30
 https://raw.githubusercontent.com/noughtmare/free-io/main/example/Main.hs	N/A
 https://api.github.com/repos/noughtmare/free-io/contents/example/Main.hs?ref=main	N/A
-https://github.com/noughtmare/free-io/archive/refs/heads/main.tar.gz	N/A
+https://github.com/noughtmare/free-io/archive/refs/heads/main.tar.gz	updated	2024-11-30
 https://codeload.github.com/noughtmare/free-io/tar.gz/refs/heads/main	N/A
 https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad/	publication	2012
 https://studylib.net/doc/13548648/using-monads-to-structure-computation-monadic-i-o	N/A
@@ -20392,59 +20392,59 @@ https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.txt	N/A
 https://repos.ecosyste.ms/hosts/GitHub/owners/expipiplus1?page=1&per_page=100	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/git/trees/master?recursive=1	N/A
-https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.zip	N/A
-https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.tar.gz	N/A
+https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.zip	updated	2016-11-13
+https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.tar.gz	updated	2016-11-13
 https://codeload.github.com/alexandersgreen/qio-haskell/zip/refs/heads/master	N/A
 https://codeload.github.com/alexandersgreen/qio-haskell/tar.gz/refs/heads/master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/LICENSE	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/LICENSE	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/LICENSE	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/LICENSE?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO.cabal	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO.cabal	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO.cabal	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO.cabal?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Heap.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Heap.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Heap.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Heap.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QArith.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QArith.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QArith.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QArith.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QExamples.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QExamples.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QExamples.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QExamples.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QIORandom.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QIORandom.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QIORandom.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QIORandom.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qdata.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qdata.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qdata.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qdata.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qft.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qft.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qft.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qft.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qio.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qio.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qio.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qio.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioClass.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioClass.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioClass.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioClass.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSyn.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSyn.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSyn.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSyn.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSynAlt.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSynAlt.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSynAlt.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSynAlt.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Shor.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Shor.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Shor.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Shor.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Vec.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Vec.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Vec.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Vec.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/VecEq.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/VecEq.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/VecEq.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/VecEq.hs?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/README.md	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/README.md	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/README.md	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/README.md?ref=master	N/A
-https://github.com/alexandersgreen/qio-haskell/blob/master/Setup.hs	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/Setup.hs	updated	2016-11-13
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/Setup.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/Setup.hs?ref=master	N/A
 https://hackage-content.haskell.org/package/QIO-1.0.tar.gz	N/A
@@ -20500,74 +20500,74 @@ https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Vec.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-VecEq.html	N/A
 https://api.github.com/repos/lambdabot/IOSpec	N/A
 https://api.github.com/repos/lambdabot/IOSpec/git/trees/master?recursive=1	N/A
-https://github.com/lambdabot/IOSpec/archive/refs/heads/master.zip	N/A
-https://github.com/lambdabot/IOSpec/archive/refs/heads/master.tar.gz	N/A
+https://github.com/lambdabot/IOSpec/archive/refs/heads/master.zip	updated	2023-07-25
+https://github.com/lambdabot/IOSpec/archive/refs/heads/master.tar.gz	updated	2023-07-25
 https://codeload.github.com/lambdabot/IOSpec/zip/refs/heads/master	N/A
 https://codeload.github.com/lambdabot/IOSpec/tar.gz/refs/heads/master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/.gitignore	N/A
+https://github.com/lambdabot/IOSpec/blob/master/.gitignore	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/.gitignore	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/.gitignore?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/IOSpec.cabal	N/A
+https://github.com/lambdabot/IOSpec/blob/master/IOSpec.cabal	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/IOSpec.cabal	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/IOSpec.cabal?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/LICENSE	N/A
+https://github.com/lambdabot/IOSpec/blob/master/LICENSE	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/LICENSE	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/LICENSE?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/README	N/A
+https://github.com/lambdabot/IOSpec/blob/master/README	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/README	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/README?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/Setup.lhs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/Setup.lhs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/Setup.lhs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/Setup.lhs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/examples/Channels.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Channels.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Channels.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Channels.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/examples/Echo.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Echo.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Echo.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Echo.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/examples/Queues.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Queues.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Queues.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Queues.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/examples/Refs.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Refs.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Refs.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Refs.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/examples/Sudoku.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Sudoku.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Sudoku.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Sudoku.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/index.html	N/A
+https://github.com/lambdabot/IOSpec/blob/master/index.html	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/index.html	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/index.html?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Fork.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Fork.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Fork.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Fork.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/IORef.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/IORef.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/IORef.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/IORef.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/MVar.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/MVar.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/MVar.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/MVar.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/STM.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/STM.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/STM.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/STM.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Surrogate.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Surrogate.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Surrogate.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Surrogate.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Teletype.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Teletype.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Teletype.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Teletype.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Types.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Types.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Types.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Types.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/VirtualMachine.hs	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/VirtualMachine.hs	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/VirtualMachine.hs	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/VirtualMachine.hs?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/www/cabal.png	N/A
+https://github.com/lambdabot/IOSpec/blob/master/www/cabal.png	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/cabal.png	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/www/cabal.png?ref=master	N/A
-https://github.com/lambdabot/IOSpec/blob/master/www/unsafe.jpg	N/A
+https://github.com/lambdabot/IOSpec/blob/master/www/unsafe.jpg	updated	2023-07-25
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/unsafe.jpg	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/www/unsafe.jpg?ref=master	N/A
 https://hackage.haskell.org/package/IOSpec-0.1/IOSpec-0.1.tar.gz	created	2007-04-24
@@ -20668,149 +20668,149 @@ https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Type
 https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-VirtualMachine.html	N/A
 https://api.github.com/repos/input-output-hk/io-sim	N/A
 https://api.github.com/repos/input-output-hk/io-sim/git/trees/main?recursive=1	N/A
-https://github.com/input-output-hk/io-sim/archive/refs/heads/main.zip	N/A
-https://github.com/input-output-hk/io-sim/archive/refs/heads/main.tar.gz	N/A
+https://github.com/input-output-hk/io-sim/archive/refs/heads/main.zip	updated	2026-06-30
+https://github.com/input-output-hk/io-sim/archive/refs/heads/main.tar.gz	updated	2026-06-30
 https://codeload.github.com/input-output-hk/io-sim/zip/refs/heads/main	N/A
 https://codeload.github.com/input-output-hk/io-sim/tar.gz/refs/heads/main	N/A
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/README.md	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/README.md?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadFork.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadST.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSay.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTest.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTime.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/CHANGELOG.md	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/CHANGELOG.md	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/CHANGELOG.md	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/CHANGELOG.md?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/LICENSE	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/LICENSE	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/LICENSE	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/LICENSE?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/NOTICE	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/NOTICE	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/NOTICE	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/NOTICE?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/README.md	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/README.md	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/README.md	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/README.md?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/bench/Main.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/bench/Main.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/bench/Main.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/bench/Main.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/how-to-use-IOSimPOR.md	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/how-to-use-IOSimPOR.md	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/how-to-use-IOSimPOR.md	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/how-to-use-IOSimPOR.md?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/io-sim.cabal	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/io-sim.cabal	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/io-sim.cabal	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/io-sim.cabal?ref=main	N/A
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/CommonTypes.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Internal.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Internal.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Internal.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/Internal.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/InternalTypes.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/STM.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/STM.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/STM.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/STM.hs?ref=main	N/A
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Types.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/Types.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Internal.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Types.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/Deque/Strict.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/Deque/Strict.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/Deque/Strict.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Data/Deque/Strict.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/List/Trace.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/List/Trace.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/List/Trace.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Data/List/Trace.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Main.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Main.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Main.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Main.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSim.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSim.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSim.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/IOSim.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/IOSimPOR.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/STM.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/STM.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/STM.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/STM.hs?ref=main	N/A
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/Utils.hs	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/Utils.hs	updated	2026-06-30
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/Utils.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/Utils.hs?ref=main	N/A
 https://hackage.haskell.org/package/io-classes-1.0.0.0/io-classes-1.0.0.0.tar.gz	created	2023-04-18
@@ -20847,137 +20847,137 @@ https://hackage.haskell.org/package/io-classes-1.10.1.0/io-classes-1.10.1.0.tar.
 https://hackage-content.haskell.org/package/io-classes-1.10.1.0.tar.gz	N/A
 https://api.github.com/repos/input-output-hk/fs-sim	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/git/trees/main?recursive=1	N/A
-https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.zip	N/A
-https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.tar.gz	N/A
+https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.zip	updated	2026-05-18
+https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.tar.gz	updated	2026-05-18
 https://codeload.github.com/input-output-hk/fs-sim/zip/refs/heads/main	N/A
 https://codeload.github.com/input-output-hk/fs-sim/tar.gz/refs/heads/main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/CONTRIBUTING.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/CONTRIBUTING.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/CONTRIBUTING.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/CONTRIBUTING.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/LICENSE	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/LICENSE	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/LICENSE	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/LICENSE?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/NOTICE	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/NOTICE	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/NOTICE	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/NOTICE?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/README.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/README.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/README.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/README.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/SECURITY.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/SECURITY.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/SECURITY.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/SECURITY.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/CHANGELOG.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/CHANGELOG.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/CHANGELOG.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/CHANGELOG.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/LICENSE	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/LICENSE	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/LICENSE	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/LICENSE?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/NOTICE	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/NOTICE	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/NOTICE	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/NOTICE?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/README.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/README.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/README.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/README.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/fs-api.cabal	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/fs-api.cabal	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/fs-api.cabal	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/fs-api.cabal?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-unix/System/FS/IO/Unix.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-unix/System/FS/IO/Unix.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-unix/System/FS/IO/Unix.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src-unix/System/FS/IO/Unix.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-win32/System/FS/IO/Windows.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-win32/System/FS/IO/Windows.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-win32/System/FS/IO/Windows.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src-win32/System/FS/IO/Windows.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Lazy.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Lazy.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Lazy.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Lazy.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Strict.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Strict.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Strict.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Strict.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Types.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Types.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Types.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Types.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CRC.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CRC.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CRC.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/CRC.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CallStack.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CallStack.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CallStack.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/CallStack.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/Condense.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/Condense.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/Condense.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/Condense.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/IO.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO/Handle.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO/Handle.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO/Handle.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/IO/Handle.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Main.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Main.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Main.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Main.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/API/FsPath.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/API/FsPath.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/API/FsPath.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Test/System/FS/API/FsPath.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/IO.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/IO.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/IO.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Test/System/FS/IO.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/CHANGELOG.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/CHANGELOG.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/CHANGELOG.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/CHANGELOG.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/LICENSE	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/LICENSE	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/LICENSE	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/LICENSE?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/NOTICE	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/NOTICE	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/NOTICE	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/NOTICE?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/README.md	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/README.md	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/README.md	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/README.md?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/fs-sim.cabal	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/fs-sim.cabal	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/fs-sim.cabal	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/fs-sim.cabal?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Error.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Error.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Error.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Error.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/FsTree.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/FsTree.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/FsTree.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/FsTree.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/MockFS.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/MockFS.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/MockFS.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/MockFS.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Prim.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Prim.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Prim.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Prim.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/STM.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/STM.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/STM.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/STM.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Stream.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Stream.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Stream.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Stream.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Main.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Main.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Main.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Main.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Error.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Error.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Error.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/Error.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/FsTree.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Stream.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Stream.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Stream.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/Stream.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/StateMachine.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/StateMachine.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/StateMachine.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/StateMachine.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/RefEnv.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/RefEnv.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/RefEnv.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/RefEnv.hs?ref=main	N/A
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/WithEntryCounter.hs	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/WithEntryCounter.hs	updated	2026-05-18
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/WithEntryCounter.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/WithEntryCounter.hs?ref=main	N/A
 https://hackage.haskell.org/package/fs-api-0.3.0.0	N/A
@@ -21011,68 +21011,68 @@ https://hackage.haskell.org/package/fs-sim-0.5.0.1/fs-sim-0.5.0.1.tar.gz	created
 https://hackage-content.haskell.org/package/fs-sim-0.5.0.1.tar.gz	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/git/trees/main?recursive=1	N/A
-https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.zip	N/A
-https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.tar.gz	N/A
+https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.zip	updated	2026-07-21
+https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.tar.gz	updated	2026-07-21
 https://codeload.github.com/IntersectMBO/lsm-tree/zip/refs/heads/main	N/A
 https://codeload.github.com/IntersectMBO/lsm-tree/tar.gz/refs/heads/main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/CHANGELOG.md	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/CHANGELOG.md	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/CHANGELOG.md	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/CHANGELOG.md?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/LICENSE	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/LICENSE	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/LICENSE	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/LICENSE?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/NOTICE	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/NOTICE	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/NOTICE	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/NOTICE?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/README.md	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/README.md	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/README.md	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/README.md?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/blockio.cabal	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/blockio.cabal	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/blockio.cabal	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/blockio.cabal?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Async.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Async.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Async.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Async.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Internal.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-macos/System/FS/BlockIO/Internal.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-sim/System/FS/BlockIO/Sim.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-sim/System/FS/BlockIO/Sim.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-sim/System/FS/BlockIO/Sim.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-sim/System/FS/BlockIO/Sim.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-windows/System/FS/BlockIO/Internal.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-windows/System/FS/BlockIO/Internal.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-windows/System/FS/BlockIO/Internal.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-windows/System/FS/BlockIO/Internal.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/API.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/API.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/API.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/API.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/IO.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO/Internal.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO/Internal.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO/Internal.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/IO/Internal.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/Serial.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/Serial/Internal.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test-sim/Main.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test-sim/Main.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test-sim/Main.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test-sim/Main.hs?ref=main	N/A
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test/Main.hs	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test/Main.hs	updated	2026-07-21
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test/Main.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test/Main.hs?ref=main	N/A
 https://hackage.haskell.org/package/blockio-0.1.0.0	N/A
@@ -21095,25 +21095,25 @@ https://hackage.haskell.org/package/blockio-0.2.0.0/blockio-0.2.0.0.tar.gz	creat
 https://hackage-content.haskell.org/package/blockio-0.2.0.0.tar.gz	N/A
 https://hackage.haskell.org/packages/tag/io	N/A
 https://repository.tudelft.nl/file/File_6157c7f8-9e15-49c6-aaa4-d0ccc8e06c2d	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem.hs?ref=master	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/Effect.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/Effect.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/Effect.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/Effect.hs?ref=master	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO.hs?ref=master	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString.hs?ref=master	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs?ref=master	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs?ref=master	N/A
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/File.hs	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/File.hs	updated	2026-07-23
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/File.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/File.hs?ref=master	N/A
 https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html	created	2022-07-13
@@ -23912,7 +23912,7 @@ https://package.elm-lang.org/packages/elm/browser/latest/Browser-Events	N/A
 https://package.elm-lang.org/packages/elm/browser/latest/Browser-Navigation	N/A
 https://package.elm-lang.org/packages/elm/time/latest/Time	N/A
 https://package.elm-lang.org/packages/elm/random/latest/Random	N/A
-https://github.com/fluture-js/Fluture	N/A
+https://github.com/fluture-js/Fluture	updated	2024-01-05
 https://sanctuary.js.org/	N/A
 https://folktalegithubio.readthedocs.io/en/latest/api/data/task/	N/A
 https://folktale.origamitower.com/api/v2.0.0/en/folktale.concurrency.task.html	N/A
@@ -25123,15 +25123,15 @@ https://swiftstudent.com/blog/2025-5-15-an-introduction-to-monads-in-swift/	crea
 https://swiftpackageregistry.com/Alex-Ozun/swift-effect	N/A
 https://joc.raf.edu.rs/images/vol7/implementacija-monada-u-programskoj-jeziku-swift-1-1.pdf	N/A
 https://www.reddit.com/r/functionalprogramming/comments/1dskjte	N/A
-https://github.com/bow-swift/bow/releases/tag/0.8.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.7.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.6.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.5.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.4.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.3.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.2.0	N/A
-https://github.com/bow-swift/bow/releases/tag/0.1.0	N/A
-https://github.com/bow-swift/bow-lite/releases/tag/0.1.0	N/A
+https://github.com/bow-swift/bow/releases/tag/0.8.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.7.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.6.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.5.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.4.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.3.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.2.0	updated	2021-10-31
+https://github.com/bow-swift/bow/releases/tag/0.1.0	updated	2021-10-31
+https://github.com/bow-swift/bow-lite/releases/tag/0.1.0	updated	2021-10-31
 https://www.baeldung.com/scala/tagless-final-pattern	N/A
 https://softwarepatternslexicon.com/scala/functional-design-patterns/free-monads-and-tagless-final/	publication	2026-04-08
 https://users.scala-lang.org/t/tagless-final-questions/10857	publication	2025-07-02
@@ -25179,7 +25179,7 @@ https://www.reddit.com/r/ProgrammingLanguages/comments/1efwcso	N/A
 https://www.reddit.com/r/haskell/comments/k0v9q6	N/A
 https://www.reddit.com/r/programming/comments/emsltb	N/A
 https://idris2.readthedocs.io/en/stable/tutorial/	N/A
-https://github.com/idris-community/idris2-tutorial	N/A
+https://github.com/idris-community/idris2-tutorial	updated	2026-06-14
 https://www.readkong.com/page/idris-2-quantitative-type-theory-in-practice-arxiv-6884775	N/A
 https://citeseerx.ist.psu.edu/document?doi=c0c1e40a9e4c35c7dea90c543d949748339ccbb1&repid=rep1&type=pdf	N/A
 https://arxiv.org/abs/1806.02024	created	2018-06
@@ -25222,13 +25222,13 @@ https://arxiv.org/abs/1811.07332	created	2018-11
 https://lmcs.episciences.org/705	publication	2013-12-17
 https://drops.dagstuhl.de/entities/document/10.4230/DagRep.8.4.104	N/A
 https://books.google.com/books/about/Efficient_Multishot_Algebraic_Effect_Han.html?id=weUM0QEACAAJ	N/A
-https://github.com/andrejbauer/coop	N/A
-https://github.com/frank-lang/frank	N/A
-https://github.com/koka-lang/libhandler	N/A
+https://github.com/andrejbauer/coop	updated	2021-08-20
+https://github.com/frank-lang/frank	updated	2022-08-01
+https://github.com/koka-lang/libhandler	updated	2019-02-11
 https://github.com/koka-lang/libmprompt	N/A
-https://github.com/okeuday/effects	N/A
+https://github.com/okeuday/effects	updated	2025-07-13
 https://github.com/dhil/ocaml-multicont	N/A
-https://github.com/pigworker/shonky	N/A
+https://github.com/pigworker/shonky	updated	2016-02-03
 https://marcinzh.github.io/turbolift/	N/A
 https://etd.adm.unipi.it/theses/available/etd-06252024-164535/unrestricted/Runtime_Verification_Algebraic_Effect_Handlers.pdf	N/A
 https://repozitorij.uni-lj.si/Dokument.php?id=192065&lang=slv	N/A
@@ -25240,7 +25240,7 @@ https://lirias.kuleuven.be/retrieve/532832/	N/A
 https://homepages.inf.ed.ac.uk/cmatache/documents/m_diss.pdf	N/A
 https://etheses.bham.ac.uk//id/eprint/10520/1/Geron2020PhD.pdf	created	2020
 https://msp.cis.strath.ac.uk/101/slides/2020-12-17_sam.pdf	created	2020
-https://github.com/rcardin/yaes	N/A
+https://github.com/rcardin/yaes	updated	2026-07-08
 https://era.ed.ac.uk/handle/1842/4611	publication	2010
 https://medium.com/%40kuy/algebraic-effects-%E8%87%AA%E7%BF%92%E7%94%A8%E8%B3%87%E6%96%99%E3%81%BE%E3%81%A8%E3%82%81-e589fa74607d	N/A
 https://zenn.dev/catminusminus/scraps/8bc583d390fb6d	N/A
@@ -25308,51 +25308,51 @@ https://github.com/effekt-lang/effekt/releases/tag/v0.70.0	N/A
 https://github.com/effekt-lang/effekt/releases/tag/v0.71.0	N/A
 https://github.com/effekt-lang/effekt/releases/tag/v0.72.0	N/A
 https://github.com/effekt-lang/effekt/releases/tag/v0.33.1	N/A
-https://github.com/matijapretnar/eff/releases/tag/v3.0	N/A
-https://github.com/matijapretnar/eff/releases/tag/v4.0	N/A
-https://github.com/matijapretnar/eff/releases/tag/v5.0	N/A
-https://github.com/matijapretnar/eff/releases/tag/v5.1	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.3	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.4	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.5	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.6	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.7	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.8	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.9	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.10	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.11	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.12	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.14	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.0.16	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.1	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.2	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.4	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.6	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.8	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.1.9	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.2.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.2.1	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.1	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.2	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.3	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.4	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.6	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.3.8	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.4.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.4.2	N/A
-https://github.com/koka-lang/koka/releases/tag/v2.6.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.0.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.0.1	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.0.4	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.1.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.1.1	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.1.2	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.1.3	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.2.0	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.2.2	N/A
-https://github.com/koka-lang/koka/releases/tag/v3.2.3	N/A
+https://github.com/matijapretnar/eff/releases/tag/v3.0	updated	2026-04-02
+https://github.com/matijapretnar/eff/releases/tag/v4.0	updated	2026-04-02
+https://github.com/matijapretnar/eff/releases/tag/v5.0	updated	2026-04-02
+https://github.com/matijapretnar/eff/releases/tag/v5.1	updated	2026-04-02
+https://github.com/koka-lang/koka/releases/tag/v2.0.3	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.4	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.5	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.6	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.7	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.8	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.9	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.10	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.11	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.12	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.14	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.0.16	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.1	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.2	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.4	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.6	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.8	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.1.9	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.2.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.2.1	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.1	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.2	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.3	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.4	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.6	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.3.8	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.4.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.4.2	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v2.6.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.0.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.0.1	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.0.4	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.1.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.1.1	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.1.2	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.1.3	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.2.0	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.2.2	updated	2026-07-20
+https://github.com/koka-lang/koka/releases/tag/v3.2.3	updated	2026-07-20
 https://www.youtube.com/watch?v=3g5emxzUu8o	N/A
 https://www.youtube.com/watch?v=6lv_E-CjGzg	N/A
 https://www.youtube.com/watch?v=71fV7zYyD-Q	N/A
@@ -25442,107 +25442,107 @@ https://www.youtube.com/watch?v=tXplmdbUlqA	N/A
 https://www.youtube.com/watch?v=-wI-TEKbmxc	N/A
 https://www.youtube.com/watch?v=WSLf4PSNXYs	N/A
 https://www.youtube.com/watch?v=WykPGVOOdbo	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.15	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.12	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.11	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.10	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.9	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.8	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.7	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.6	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.5	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.4	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.3	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.2	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.7	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.6	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.5	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.4	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.3	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.2	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.12	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.11.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.11	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.7	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.6.2	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.6.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.6	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.5.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.5	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.4	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.3	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.2	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.1.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.1	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.0	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.9.7	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.9.6	N/A
-https://github.com/ivanperez-keera/Yampa/releases/tag/v0.9.5	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.3.2.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.3.1.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.3.0.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.2.2.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.2.1.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.2.0.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.1.0.1	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.1.0.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.0.0.1	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.0.0.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.9.0.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.1.2	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.1.1	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.1.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.4	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.3	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.2	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.1	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.0	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.7.1.3	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.7.1.1	N/A
-https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.6.0.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.4.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.4.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.4	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.3	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.2	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.2.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.0.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.9.0.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.8.2.2	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.8.2.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.8.2.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.8.1.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.8.1.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.8.0.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.7.2.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.7.1.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.7.1.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.7.0.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.4.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.4	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.3	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.2.4	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.2.3	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.2.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.6	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.5.0.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.5	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.4.0.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.4.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.3.2	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.3.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.2	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.1.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.1.0	N/A
-https://github.com/reflex-frp/reflex/releases/tag/v0.0.1	N/A
-https://github.com/reflex-frp/reflex/releases/tag/0.3	N/A
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.15	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.12	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.11	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.10	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.9	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.8	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.7	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.6	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.5	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.4	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.3	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.2	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.14	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.7	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.6	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.5	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.4	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.3	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.2	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.13	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.12	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.11.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.11	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.7	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.6.2	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.6.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.6	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.5.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.5	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.4	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.3	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.2	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.1.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.1	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.10.0	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.9.7	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.9.6	updated	2025-02-28
+https://github.com/ivanperez-keera/Yampa/releases/tag/v0.9.5	updated	2025-02-28
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.3.2.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.3.1.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.3.0.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.2.2.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.2.1.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.2.0.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.1.0.1	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.1.0.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.0.0.1	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v1.0.0.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.9.0.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.1.2	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.1.1	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.1.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.4	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.3	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.2	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.1	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.8.0.0	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.7.1.3	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.7.1.1	updated	2026-07-19
+https://github.com/HeinrichApfelmus/reactive-banana/releases/tag/v0.6.0.0	updated	2026-07-19
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.4.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.4.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.4	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.3	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.2	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.3.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.2.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.0.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.9.0.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.8.2.2	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.8.2.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.8.2.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.8.1.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.8.1.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.8.0.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.7.2.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.7.1.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.7.1.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.7.0.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.4.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.4	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.3	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.2.4	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.2.3	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.2.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.6	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.5.0.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.5	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.4.0.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.4.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.3.2	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.3.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.2	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.1.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.1.0	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/v0.0.1	updated	2026-07-17
+https://github.com/reflex-frp/reflex/releases/tag/0.3	updated	2026-07-17
 https://github.com/HeinrichApfelmus/threepenny-gui/releases/tag/v0.9.4.1	N/A
 https://github.com/HeinrichApfelmus/threepenny-gui/releases/tag/v0.9.4.0	N/A
 https://github.com/HeinrichApfelmus/threepenny-gui/releases/tag/v0.9.2.0	N/A
@@ -25607,98 +25607,98 @@ https://www.reddit.com/r/haskell/comments/u5otqx	N/A
 https://www.reddit.com/r/haskell/comments/gxiejj	N/A
 https://www.reddit.com/r/haskellquestions/comments/r3iwps	N/A
 https://www.reddit.com/r/haskell/comments/1jmclu7	N/A
-https://github.com/simonmar/async/releases/tag/2.2.5	N/A
-https://github.com/simonmar/async/releases/tag/2.2.4	N/A
-https://github.com/simonmar/async/releases/tag/2.2.3	N/A
-https://github.com/simonmar/async/releases/tag/2.2.2	N/A
-https://github.com/simonmar/async/releases/tag/2.2.1	N/A
-https://github.com/simonmar/async/releases/tag/2.1.1.1	N/A
-https://github.com/simonmar/async/releases/tag/2.1.1	N/A
-https://github.com/simonmar/async/releases/tag/2.1.0	N/A
-https://github.com/simonmar/async/releases/tag/2.0.2	N/A
-https://github.com/simonmar/async/releases/tag/2.0.1.6	N/A
-https://github.com/simonmar/async/releases/tag/2.0.1.5	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.3.1	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.3.0	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.2.1	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.2.0	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.1.0	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.0.1	N/A
-https://github.com/haskell/stm/releases/tag/v2.5.0.0	N/A
-https://github.com/haskell/stm/releases/tag/v2.4.5.1	N/A
-https://github.com/haskell/stm/releases/tag/v2.4.5.0	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.12	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.11	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.10	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.9	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.8	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.7	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.6	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.5	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.4	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.3	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.2	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.10.0	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.9.0	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.8.3	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.8.2.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.8.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.8.0.2	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.8.0.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.8	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.7	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.6.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.6	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.5	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.4	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.3.3.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.3.3	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.3.2	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.3.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.3	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.2	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.1.2	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.1.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.1.0.1	N/A
-https://github.com/ekmett/exceptions/releases/tag/v0.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.2.1.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.2.0.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.2.0.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.1.2.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.1.1.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-core/0.1.0.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.25.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.24.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.23.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.22.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.21.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.20.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.20	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.19	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.18	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.17	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.16	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.15	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.14	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.13.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.12.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.12	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.11	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.10	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.9.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.8.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.8.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.7.1	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.7.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.6.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.5.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.4.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.2.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio/0.2.1.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio/0.2.0.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio/0.1.1.0	N/A
-https://github.com/fpco/unliftio/releases/tag/unliftio/0.1.0.0	N/A
+https://github.com/simonmar/async/releases/tag/2.2.5	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.2.4	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.2.3	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.2.2	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.2.1	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.1.1.1	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.1.1	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.1.0	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.0.2	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.0.1.6	updated	2026-06-30
+https://github.com/simonmar/async/releases/tag/2.0.1.5	updated	2026-06-30
+https://github.com/haskell/stm/releases/tag/v2.5.3.1	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.5.3.0	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.5.2.1	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.5.2.0	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.5.1.0	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.5.0.1	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.5.0.0	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.4.5.1	updated	2026-06-19
+https://github.com/haskell/stm/releases/tag/v2.4.5.0	updated	2026-06-19
+https://github.com/ekmett/exceptions/releases/tag/v0.10.12	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.11	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.10	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.9	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.8	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.7	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.6	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.5	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.4	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.3	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.2	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.10.0	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.9.0	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.8.3	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.8.2.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.8.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.8.0.2	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.8.0.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.8	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.7	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.6.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.6	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.5	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.4	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.3.3.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.3.3	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.3.2	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.3.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.3	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.2	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.1.2	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.1.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.1.0.1	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases/tag/v0.1	updated	2026-03-02
+https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.2.1.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.2.0.1	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.2.0.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.1.2.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-core-0.1.1.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-core/0.1.0.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.25.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.24.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.23.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.22.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.21.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.20.1	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.20	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.19	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.18	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.17	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.16	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.15	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.14	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.13.1	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.12.1	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.12	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.11	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.10	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.9.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.8.1	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.8.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.7.1	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.7.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.6.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.5.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.4.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio-0.2.2.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio/0.2.1.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio/0.2.0.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio/0.1.1.0	updated	2025-09-10
+https://github.com/fpco/unliftio/releases/tag/unliftio/0.1.0.0	updated	2025-09-10
 https://www.youtube.com/watch?v=6bkWvfI7QDQ	N/A
 https://www.youtube.com/watch?v=aJvwORrBJ0o	N/A
 https://www.youtube.com/watch?v=F0tUPcffT6Y	N/A
@@ -25750,18 +25750,18 @@ https://github.com/awkward-squad/ki/releases/tag/ki-1.0.1.2	N/A
 https://github.com/awkward-squad/ki/releases/tag/ki-unlifted-1.0.0	N/A
 https://github.com/awkward-squad/ki/releases/tag/ki-unlifted-1.0.0.1	N/A
 https://github.com/awkward-squad/ki/releases/tag/ki-unlifted-1.0.0.2	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.0.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.1.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.2.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.3.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.4.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.5.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.6.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.0	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.1	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.2	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.3	N/A
-https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.4	N/A
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.0.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.1.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.2.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.3.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.4.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.5.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions/0.1.6.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.0	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.1	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.2	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.3	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases/tag/safe-exceptions-0.1.7.4	updated	2023-10-16
 https://github.com/snoyberg/conduit/releases/tag/resourcet/0.4.10	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet/0.4.10.1	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet/0.4.10.2	N/A
@@ -25813,120 +25813,120 @@ https://downloads.haskell.org/ghc/6.10.2/docs/html/libraries/network/src/Network
 https://www.researchgate.net/publication/220752289_Combining_Events_And_Threads_For_Scalable_Network_Services_Implementation_And_Evaluation_Of_Monadic_Application-level_Concurrency_Primitives	N/A
 https://www.reddit.com/r/haskell/comments/sy816h	N/A
 https://www.reddit.com/r/haskell/comments/rx3ey5	N/A
-https://github.com/haskell/network/releases/tag/v0.1.1.3	N/A
-https://github.com/haskell/network/releases/tag/v0.1.1.4	N/A
-https://github.com/haskell/network/releases/tag/v0.1.2	N/A
-https://github.com/haskell/network/releases/tag/v0.1.2.1	N/A
-https://github.com/haskell/network/releases/tag/v0.1.3	N/A
-https://github.com/haskell/network/releases/tag/v0.1.3.1	N/A
-https://github.com/haskell/network/releases/tag/v0.1.3.2	N/A
-https://github.com/haskell/network/releases/tag/v2.2.1.10	N/A
-https://github.com/haskell/network/releases/tag/v2.2.3	N/A
-https://github.com/haskell/network/releases/tag/v2.2.3.1	N/A
-https://github.com/haskell/network/releases/tag/v2.3	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.1	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.10	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.11	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.12	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.13	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.14	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.2	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.3	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.4	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.5	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.6	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.7	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.8	N/A
-https://github.com/haskell/network/releases/tag/v2.3.0.9	N/A
-https://github.com/haskell/network/releases/tag/v2.3.1.0	N/A
-https://github.com/haskell/network/releases/tag/v2.3.1.1	N/A
-https://github.com/haskell/network/releases/tag/v2.3.2.0	N/A
-https://github.com/haskell/network/releases/tag/v2.3.2.1	N/A
-https://github.com/haskell/network/releases/tag/v2.4.0.0	N/A
-https://github.com/haskell/network/releases/tag/v2.4.0.1	N/A
-https://github.com/haskell/network/releases/tag/v2.4.1.0	N/A
-https://github.com/haskell/network/releases/tag/v2.4.1.1	N/A
-https://github.com/haskell/network/releases/tag/v2.4.1.2	N/A
-https://github.com/haskell/network/releases/tag/v2.4.2.0	N/A
-https://github.com/haskell/network/releases/tag/v2.4.2.1	N/A
-https://github.com/haskell/network/releases/tag/v2.4.2.2	N/A
-https://github.com/haskell/network/releases/tag/v2.4.2.3	N/A
-https://github.com/haskell/network/releases/tag/v2.5.0.0	N/A
-https://github.com/haskell/network/releases/tag/v2.6.0.0	N/A
-https://github.com/haskell/network/releases/tag/v2.6.0.1	N/A
-https://github.com/haskell/network/releases/tag/v2.6.0.2	N/A
-https://github.com/haskell/network/releases/tag/v2.6.1.0	N/A
-https://github.com/haskell/network/releases/tag/v2.6.2.0	N/A
-https://github.com/haskell/network/releases/tag/v2.6.2.1	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.0	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.1	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.2	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.3	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.4	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.5	N/A
-https://github.com/haskell/network/releases/tag/v2.6.3.6	N/A
-https://github.com/haskell/network/releases/tag/v2.7.0.0	N/A
-https://github.com/haskell/network/releases/tag/v2.7.0.1	N/A
-https://github.com/haskell/network/releases/tag/v2.7.0.2	N/A
-https://github.com/haskell/network/releases/tag/v2.8.0.0	N/A
-https://github.com/haskell/network/releases/tag/v2.8.0.1	N/A
-https://github.com/haskell/network/releases/tag/v3.0.0.0	N/A
-https://github.com/haskell/network/releases/tag/v3.0.0.1	N/A
-https://github.com/haskell/network/releases/tag/v3.0.1.0	N/A
-https://github.com/haskell/network/releases/tag/v3.0.1.1	N/A
-https://github.com/haskell/network/releases/tag/v3.1.0.0	N/A
-https://github.com/haskell/network/releases/tag/v3.1.0.1	N/A
-https://github.com/haskell/network/releases/tag/v3.1.1.0	N/A
-https://github.com/haskell/network/releases/tag/v3.1.1.1	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.0	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.1	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.2	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.3	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.4	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.5	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.6	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.7	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.8	N/A
-https://github.com/haskell/network/releases/tag/v3.1.2.9	N/A
-https://github.com/haskell/network/releases/tag/v3.1.3.0	N/A
-https://github.com/haskell/network/releases/tag/v3.1.4.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.0.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.1.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.2.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.3.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.4.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.5.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.6.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.7.0	N/A
-https://github.com/haskell/network/releases/tag/v3.2.8.0	N/A
-https://github.com/haskell/network-bsd/releases/tag/v2.7.0.0	N/A
-https://github.com/haskell/network-bsd/releases/tag/v2.8.0.0	N/A
-https://github.com/haskell/network-bsd/releases/tag/v2.8.1.0	N/A
-https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.0	N/A
-https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.1	N/A
-https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.2	N/A
-https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.3	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.1.0.0	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.1.0.1	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.2.0.0	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.2.0.1	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.2.1.0	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.3.0	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.3.1	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.1	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.2	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.3	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.4	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.5	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.1	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.2	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.3	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.4	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-tls-0.4.1	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-tls-0.4.2	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-ws-0.2	N/A
-https://github.com/k0001/network-simple/releases/tag/network-simple-wss-0.2	N/A
+https://github.com/haskell/network/releases/tag/v0.1.1.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v0.1.1.4	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v0.1.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v0.1.2.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v0.1.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v0.1.3.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v0.1.3.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.2.1.10	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.2.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.2.3.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.10	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.11	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.12	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.13	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.14	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.4	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.5	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.6	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.7	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.8	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.0.9	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.1.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.1.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.2.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.3.2.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.1.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.1.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.1.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.2.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.2.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.2.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.4.2.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.5.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.0.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.1.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.2.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.2.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.4	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.5	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.6.3.6	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.7.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.7.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.7.0.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.8.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v2.8.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.0.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.0.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.0.1.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.0.1.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.0.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.1.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.1.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.1	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.2	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.3	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.4	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.5	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.6	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.7	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.8	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.2.9	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.3.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.1.4.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.0.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.1.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.2.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.3.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.4.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.5.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.6.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.7.0	updated	2026-05-31
+https://github.com/haskell/network/releases/tag/v3.2.8.0	updated	2026-05-31
+https://github.com/haskell/network-bsd/releases/tag/v2.7.0.0	updated	2023-08-06
+https://github.com/haskell/network-bsd/releases/tag/v2.8.0.0	updated	2023-08-06
+https://github.com/haskell/network-bsd/releases/tag/v2.8.1.0	updated	2023-08-06
+https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.0	updated	2026-05-14
+https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.1	updated	2026-05-14
+https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.2	updated	2026-05-14
+https://github.com/IntersectMBO/typed-protocols/releases/tag/v0.1.0.3	updated	2026-05-14
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.1.0.0	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.1.0.1	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.2.0.0	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.2.0.1	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.2.1.0	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.3.0	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.3.1	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.1	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.2	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.3	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.4	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.0.5	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.1	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.2	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.3	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-0.4.4	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-tls-0.4.1	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-tls-0.4.2	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-ws-0.2	updated	2023-12-12
+https://github.com/k0001/network-simple/releases/tag/network-simple-wss-0.2	updated	2023-12-12
 https://github.com/snoyberg/conduit/releases/tag/resourcet-1.1.11	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet-1.2.0	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet-1.2.1	N/A
@@ -25938,15 +25938,15 @@ https://github.com/snoyberg/conduit/releases/tag/resourcet-1.2.4.3	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet-1.2.5	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet-1.2.6	N/A
 https://github.com/snoyberg/conduit/releases/tag/resourcet-1.3.0	N/A
-https://github.com/TristanCacqueray/ki-effectful/releases/tag/0.1.0.0	N/A
-https://github.com/TristanCacqueray/ki-effectful/releases/tag/0.1.1.0	N/A
-https://github.com/GaloisInc/HaNS	N/A
-https://github.com/haskell/network	N/A
-https://github.com/haskell/network/issues/151	N/A
-https://github.com/haskell/network-bsd	N/A
-https://github.com/IntersectMBO/typed-protocols	N/A
-https://github.com/k0001/network-simple	N/A
-https://github.com/k0001/network-simple-tls	N/A
+https://github.com/TristanCacqueray/ki-effectful/releases/tag/0.1.0.0	updated	2024-07-23
+https://github.com/TristanCacqueray/ki-effectful/releases/tag/0.1.1.0	updated	2024-07-23
+https://github.com/GaloisInc/HaNS	updated	2018-01-16
+https://github.com/haskell/network	updated	2026-05-31
+https://github.com/haskell/network/issues/151	updated	2026-05-31
+https://github.com/haskell/network-bsd	updated	2023-08-06
+https://github.com/IntersectMBO/typed-protocols	updated	2026-05-14
+https://github.com/k0001/network-simple	updated	2023-12-12
+https://github.com/k0001/network-simple-tls	updated	2023-03-26
 https://haskell-distributed.github.io/wiki/networktransport.html	N/A
 https://packages.gentoo.org/packages/dev-haskell/network	N/A
 https://www.reddit.com/r/haskell/comments/4si5fn/networksocket_example_of_a_supersimple_server/	N/A
@@ -26038,8 +26038,8 @@ http://www.ittc.ku.edu/csdl/fpg/files/Gill-15-RemoteMonad.pdf	N/A
 https://arxiv.org/pdf/1708.03882	created	2017-08
 https://export.arxiv.org/abs/1708.03882	created	2017-08
 https://export.arxiv.org/pdf/1708.03882	created	2017-08
-https://github.com/dorchard/effect-monad/tree/master/examples	N/A
-https://github.com/ku-fpg/wakarusa	N/A
+https://github.com/dorchard/effect-monad/tree/master/examples	updated	2025-10-21
+https://github.com/ku-fpg/wakarusa	updated	2015-03-09
 https://hackage.haskell.org/package/operational-0.2.1.3/docs/src/Control-Monad-Operational.html	created	2012-07-21
 https://www.usenix.org/events/dsl99/full_papers/peterson/peterson_html/	N/A
 https://www.youtube.com/watch?v=guMLPr6eBLo	N/A
@@ -26057,7 +26057,7 @@ https://export.arxiv.org/abs/2008.09253	created	2008
 https://export.arxiv.org/abs/2008.12751	created	2008
 https://export.arxiv.org/pdf/2008.09253	created	2008
 https://export.arxiv.org/pdf/2008.12751	created	2008
-https://github.com/input-output-hk/fs-sim	N/A
+https://github.com/input-output-hk/fs-sim	updated	2026-05-18
 https://libraries.io/hackage/fs-sim	N/A
 https://research.utwente.nl/files/5367181/111_Final_paper.pdf	N/A
 https://export.arxiv.org/abs/1901.07665	created	1901
@@ -26152,10 +26152,10 @@ http://doi.acm.org/10.1145/2544174.2500590	N/A
 http://www.sciencedirect.com/science/article/pii/S2352220814000194	N/A
 https://doi.org/10.1007/978-3-642-10672-9_9	N/A
 https://doi.org/10.1145/2544174.2500581	N/A
-https://github.com/edwinb/idris-demos	N/A
-https://github.com/edwinb/Protocols	N/A
-https://github.com/edwinb/SDL-idris	N/A
-https://github.com/SimonJF/IdrisNet2	N/A
+https://github.com/edwinb/idris-demos	updated	2017-03-25
+https://github.com/edwinb/Protocols	updated	2014-12-19
+https://github.com/edwinb/SDL-idris	updated	2017-03-23
+https://github.com/SimonJF/IdrisNet2	updated	2015-04-04
 https://docs.idris-lang.org/en/v0.9.18.1/effects/hangman.html	N/A
 https://docs.idris-lang.org/en/v0.9.18.1/effects/state.html	N/A
 https://docs.idris-lang.org/en/v0.9.19/effects/impleff.html	N/A
@@ -26469,7 +26469,7 @@ https://agda.github.io/agda-stdlib/v2.1/System.Random.Primitive.html	N/A
 https://agda.github.io/agda-stdlib/v2.1/System.Clock.html	N/A
 https://agda.github.io/agda-stdlib/v2.1/System.Clock.Primitive.html	N/A
 https://gist.github.com/UlfNorell/bb7b807e7de013a7daca310da123c834	N/A
-https://github.com/agda/agda/issues/5843	N/A
+https://github.com/agda/agda/issues/5843	updated	2026-07-21
 https://hackage.haskell.org/package/Agda-2.6.1/src/doc/user-manual.pdf	created	2020-03-16
 https://sources.debian.org/src/agda-stdlib/	N/A
 https://sources.debian.org/src/agda-stdlib/1.7.1-1/README.agda	N/A
@@ -26517,54 +26517,54 @@ https://sources.debian.org/src/agda-stdlib/0.6-2/src/IO.agda	N/A
 https://sources.debian.org/src/agda-stdlib/0.6-2/src/IO/Primitive.agda	N/A
 https://sources.debian.org/src/agda-stdlib/0.3-3/src/IO.agda	N/A
 https://sources.debian.org/src/agda-stdlib/0.3-3/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/master/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/master/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/master/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/master/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.4/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.4/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.4/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.4/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.3/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.3/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.3/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.3/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.2/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.2/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.2/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.2/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1.1/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1.1/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1.1/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1.1/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.1/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.0/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.0/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.0/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v2.0/src/Effect/Monad/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.3/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.3/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.3/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.3/README/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.2/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.2/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.2/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.2/README/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.1/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.1/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.1/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7.1/README/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.7/README/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.6/src/IO.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.6/src/IO/Base.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.6/src/IO/Primitive.agda	N/A
-https://github.com/agda/agda-stdlib/blob/v1.6/README/IO.agda	N/A
+https://github.com/agda/agda-stdlib/blob/master/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/master/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/master/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/master/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.4/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.4/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.4/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.4/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.3/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.3/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.3/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.3/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.2/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.2/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.2/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.2/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1.1/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1.1/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1.1/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1.1/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.1/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.0/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.0/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.0/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v2.0/src/Effect/Monad/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.3/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.3/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.3/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.3/README/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.2/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.2/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.2/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.2/README/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.1/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.1/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.1/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7.1/README/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.7/README/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.6/src/IO.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.6/src/IO/Base.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.6/src/IO/Primitive.agda	updated	2026-07-16
+https://github.com/agda/agda-stdlib/blob/v1.6/README/IO.agda	updated	2026-07-16
 https://agda.github.io/agda/Agda-Utils-Monad.html	N/A
 https://agda.github.io/agda-stdlib/master/Effect.Monad.Random.html	N/A
 https://editorialcimted.com/wp-content/uploads/2024/10/El-Arte-de-la-Programaci%C3%B3n-Funcional-Gu%C3%ADa-de-Aprendizaje-en-AGDA.pdf	created	2024
@@ -26589,189 +26589,189 @@ https://lean-lang.org/doc/reference/latest/IO/Processes/	N/A
 https://lean-lang.org/doc/reference/latest/IO/Random-Numbers/	N/A
 https://lean-lang.org/doc/reference/latest/Iterators/	N/A
 https://leanprover-community.github.io/archive/stream/270676-lean4/topic/Using.20FFI.20to.20communicate.20with.20a.20stateful.20C.2B.2B.20library.html	N/A
-https://github.com/leanprover/lean4/blob/master/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/master/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/master/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/master/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/FilePath.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/Platform.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/FilePath.lean	N/A
+https://github.com/leanprover/lean4/blob/master/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/master/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/master/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/master/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.30.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.29.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.28.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.27.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.26.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.25.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.24.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.23.0/src/Init/System/FilePath.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/Platform.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.22.0/src/Init/System/FilePath.lean	updated	2026-07-26
 https://lean-lang.org/doc/reference/latest/Functors___-Monads-and--do--Notation/Lifting-Monads/	N/A
 https://leanprover.github.io/reference/lean_reference.pdf	N/A
-https://github.com/leanprover/lean4/blob/v4.21.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.21.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.20.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.20.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.19.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.19.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.18.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.18.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.17.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.17.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.16.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.16.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.15.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.15.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.14.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.14.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.13.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.13.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.12.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.12.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.11.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.11.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.10.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.10.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.9.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.9.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.8.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.8.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.7.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.7.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.6.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.6.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.5.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.5.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.4.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.4.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.3.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.3.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.2.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.2.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.1.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.1.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.0.0/src/Init/System/IO.lean	N/A
-https://github.com/leanprover/lean4/blob/v4.0.0/src/Init/System/IOError.lean	N/A
-https://github.com/leanprover-community/lean3/blob/master/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/master/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.51.1/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.51.1/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.50.3/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.50.3/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.49.1/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.49.1/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.48.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.48.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.47.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.47.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.46.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.46.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.45.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.45.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.44.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.44.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.43.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.43.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.42.1/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.42.1/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.41.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.41.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.40.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.40.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.39.2/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.39.2/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.38.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.38.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.37.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.37.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.36.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.36.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.35.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.35.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.33.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.33.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.32.1/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.32.1/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.31.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.31.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.30.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.30.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.29.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.29.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.28.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.28.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.27.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.27.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.26.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.26.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.25.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.25.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.24.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.24.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.23.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.23.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.22.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.22.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.21.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.21.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.20.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.20.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.19.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.19.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.18.4/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.18.4/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.16.5/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.16.5/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.15.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.15.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.14.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.14.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.13.2/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.13.2/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.12.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.12.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.11.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.11.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.10.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.10.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.9.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.9.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.8.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.8.0/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.7.2/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.7.2/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.6.1/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.6.1/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.5.1/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.5.1/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.4.2/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.4.2/library/system/io_interface.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.3.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.1.0/library/system/io.lean	N/A
-https://github.com/leanprover-community/lean3/blob/v3.0.0/library/system/io.lean	N/A
+https://github.com/leanprover/lean4/blob/v4.21.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.21.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.20.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.20.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.19.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.19.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.18.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.18.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.17.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.17.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.16.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.16.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.15.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.15.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.14.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.14.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.13.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.13.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.12.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.12.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.11.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.11.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.10.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.10.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.9.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.9.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.8.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.8.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.7.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.7.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.6.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.6.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.5.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.5.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.4.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.4.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.3.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.3.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.2.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.2.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.1.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.1.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.0.0/src/Init/System/IO.lean	updated	2026-07-26
+https://github.com/leanprover/lean4/blob/v4.0.0/src/Init/System/IOError.lean	updated	2026-07-26
+https://github.com/leanprover-community/lean3/blob/master/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/master/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.51.1/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.51.1/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.50.3/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.50.3/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.49.1/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.49.1/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.48.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.48.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.47.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.47.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.46.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.46.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.45.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.45.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.44.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.44.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.43.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.43.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.42.1/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.42.1/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.41.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.41.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.40.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.40.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.39.2/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.39.2/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.38.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.38.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.37.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.37.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.36.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.36.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.35.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.35.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.33.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.33.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.32.1/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.32.1/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.31.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.31.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.30.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.30.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.29.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.29.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.28.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.28.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.27.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.27.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.26.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.26.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.25.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.25.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.24.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.24.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.23.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.23.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.22.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.22.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.21.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.21.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.20.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.20.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.19.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.19.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.18.4/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.18.4/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.16.5/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.16.5/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.15.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.15.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.14.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.14.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.13.2/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.13.2/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.12.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.12.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.11.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.11.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.10.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.10.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.9.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.9.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.8.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.8.0/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.7.2/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.7.2/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.6.1/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.6.1/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.5.1/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.5.1/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.4.2/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.4.2/library/system/io_interface.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.3.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.1.0/library/system/io.lean	updated	2023-10-12
+https://github.com/leanprover-community/lean3/blob/v3.0.0/library/system/io.lean	updated	2023-10-12
 https://leanprover.github.io/functional_programming_in_lean/monad-transformers/do.html	N/A
 https://leanprover.github.io/functional_programming_in_lean/monad-transformers/reader-io.html	N/A
 https://leanprover.github.io/functional_programming_in_lean/monad-transformers/transformers.html	N/A
@@ -26799,7 +26799,7 @@ https://www.cl.cam.ac.uk/~nrc51/defense.pdf	N/A
 https://www.staff.science.uu.nl/~swier004/publications/2012-haskell.pdf	created	2012
 https://context7.com/deepspec/interactiontrees	N/A
 https://discourse.rocq-prover.org/t/good-library-or-framework-for-handling-extraction-io-etc/936	publication	2020-07-09
-https://github.com/rocq-community/awesome-coq	N/A
+https://github.com/rocq-community/awesome-coq	updated	2025-08-18
 https://sources.debian.org/src/coq/9.1.0%2Bdfsg-3/dev/ci/ci-basic-overlay.sh	N/A
 https://rocq-prover.org/p/coq-simple-io/1.9.0	N/A
 https://rocq-prover.org/p/coq-simple-io/1.8.0	N/A
@@ -26844,10 +26844,10 @@ https://rocq-prover.org/p/coq-itree-io/0.1.1	N/A
 https://rocq-prover.org/p/coq-itree-io/latest/versions	N/A
 https://rocq-prover.org/p/coq-simple-io/1.11.0	N/A
 https://rocq-prover.org/p/coq-simple-io/latest/versions	N/A
-https://github.com/DeepSpec/InteractionTrees	N/A
-https://github.com/DeepSpec/InteractionTrees/tree/master/theories	N/A
-https://github.com/Lysxia/coq-itree-io	N/A
-https://github.com/Lysxia/coq-simple-io	N/A
+https://github.com/DeepSpec/InteractionTrees	updated	2026-06-12
+https://github.com/DeepSpec/InteractionTrees/tree/master/theories	updated	2026-06-12
+https://github.com/Lysxia/coq-itree-io	updated	2023-08-31
+https://github.com/Lysxia/coq-simple-io	updated	2026-04-29
 https://deepspec.github.io/InteractionTrees/5.0.0/toc.html	N/A
 https://deepspec.github.io/InteractionTrees/master/ITree.Basics.Monad.html	N/A
 https://deepspec.github.io/InteractionTrees/master/ITree.Core.ITreeDefinition.html	N/A
@@ -27213,61 +27213,61 @@ https://lists.archlinux.org/pipermail/arch-commits/2020-October/819264.html	crea
 https://packages.gentoo.org/packages/dev-haskell/safe-exceptions	N/A
 https://pleger.github.io/papers/legerAl-SAC2022.pdf	created	2022
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1044499.html	N/A
-https://github.com/basvandijk/monad-control	N/A
-https://github.com/basvandijk/monad-control/releases	N/A
-https://github.com/basvandijk/monad-control/tags	N/A
-https://github.com/fpco/safe-exceptions	N/A
-https://github.com/fpco/safe-exceptions/releases	N/A
-https://github.com/fpco/safe-exceptions/tags	N/A
-https://github.com/YoshikuniJujo/io-machine/releases	N/A
-https://github.com/YoshikuniJujo/io-machine/tags	N/A
-https://github.com/Yuras/io-region	N/A
-https://github.com/Yuras/io-region/releases	N/A
-https://github.com/Yuras/io-region/tags	N/A
-https://github.com/fpco/unliftio/releases	N/A
-https://github.com/fpco/unliftio/tags	N/A
-https://github.com/Gabriella439/managed	N/A
-https://github.com/Gabriella439/managed/releases	N/A
-https://github.com/Gabriella439/managed/tags	N/A
-https://github.com/IntersectMBO/io-sim/releases	N/A
-https://github.com/IntersectMBO/io-sim/tags	N/A
-https://github.com/lambdabot/IOSpec/releases	N/A
-https://github.com/lambdabot/IOSpec/tags	N/A
-https://github.com/basvandijk/regions	N/A
-https://github.com/basvandijk/regions/releases	N/A
-https://github.com/basvandijk/regions/tags	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Safe-Library	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/releases	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/tags	N/A
-https://github.com/snapframework/io-streams/releases	N/A
-https://github.com/snapframework/io-streams/tags	N/A
+https://github.com/basvandijk/monad-control	updated	2022-09-13
+https://github.com/basvandijk/monad-control/releases	updated	2022-09-13
+https://github.com/basvandijk/monad-control/tags	updated	2022-09-13
+https://github.com/fpco/safe-exceptions	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/releases	updated	2023-10-16
+https://github.com/fpco/safe-exceptions/tags	updated	2023-10-16
+https://github.com/YoshikuniJujo/io-machine/releases	updated	2016-04-08
+https://github.com/YoshikuniJujo/io-machine/tags	updated	2016-04-08
+https://github.com/Yuras/io-region	updated	2025-09-07
+https://github.com/Yuras/io-region/releases	updated	2025-09-07
+https://github.com/Yuras/io-region/tags	updated	2025-09-07
+https://github.com/fpco/unliftio/releases	updated	2025-09-10
+https://github.com/fpco/unliftio/tags	updated	2025-09-10
+https://github.com/Gabriella439/managed	updated	2025-11-18
+https://github.com/Gabriella439/managed/releases	updated	2025-11-18
+https://github.com/Gabriella439/managed/tags	updated	2025-11-18
+https://github.com/IntersectMBO/io-sim/releases	updated	2026-06-30
+https://github.com/IntersectMBO/io-sim/tags	updated	2026-06-30
+https://github.com/lambdabot/IOSpec/releases	updated	2023-07-25
+https://github.com/lambdabot/IOSpec/tags	updated	2023-07-25
+https://github.com/basvandijk/regions	updated	2014-08-28
+https://github.com/basvandijk/regions/releases	updated	2014-08-28
+https://github.com/basvandijk/regions/tags	updated	2014-08-28
+https://github.com/Gabriella439/Haskell-Pipes-Safe-Library	updated	2025-06-26
+https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/releases	updated	2025-06-26
+https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/tags	updated	2025-06-26
+https://github.com/snapframework/io-streams/releases	updated	2025-03-24
+https://github.com/snapframework/io-streams/tags	updated	2025-03-24
 https://www.kosmikus.org/HaskellForDSLs.pdf	N/A
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg987863.html	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-resourcet/	N/A
 https://gist.github.com/el-hult/486b9208edff473e1da91260a6d361bc	N/A
 https://sources.debian.org/src/haskell-conduit/1.3.6-1/ChangeLog.md	N/A
-https://github.com/ekmett/exceptions	N/A
-https://github.com/ekmett/exceptions/releases	N/A
-https://github.com/ekmett/exceptions/tags	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Library	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Library/releases	N/A
-https://github.com/Gabriella439/Haskell-Pipes-Library/tags	N/A
+https://github.com/ekmett/exceptions	updated	2026-03-02
+https://github.com/ekmett/exceptions/releases	updated	2026-03-02
+https://github.com/ekmett/exceptions/tags	updated	2026-03-02
+https://github.com/Gabriella439/Haskell-Pipes-Library	updated	2022-10-15
+https://github.com/Gabriella439/Haskell-Pipes-Library/releases	updated	2022-10-15
+https://github.com/Gabriella439/Haskell-Pipes-Library/tags	updated	2022-10-15
 https://github.com/snoyberg/conduit/releases	N/A
 https://github.com/snoyberg/conduit/tags	N/A
 https://discourse.haskell.org/t/ann-haskell-streamly-0-9-0-release/6316	publication	2023-05-25
 https://discourse.haskell.org/t/announcing-streamly-0-11-0-and-streamly-core-0-3-0/13028	publication	2025-09-24
 https://github.com/blamario/monoid-subclasses/wiki/Files/HaskellSymposium2013.pdf	created	2013
-https://github.com/composewell/streamly	N/A
-https://github.com/composewell/streamly/releases	N/A
-https://github.com/composewell/streamly/tags	N/A
+https://github.com/composewell/streamly	updated	2026-07-12
+https://github.com/composewell/streamly/releases	updated	2026-07-12
+https://github.com/composewell/streamly/tags	updated	2026-07-12
 https://github.com/haskell-streaming/streaming/releases	N/A
 https://github.com/haskell-streaming/streaming/tags	N/A
-https://github.com/typelevel/fs2	N/A
+https://github.com/typelevel/fs2	updated	2026-07-21
 https://streamly.composewell.com/	N/A
 https://awesome.ecosyste.ms/projects/github.com%2Fcomposewell%2Fstreaming-benchmarks	N/A
-https://github.com/ekmett/machines	N/A
-https://github.com/ekmett/machines/releases	N/A
-https://github.com/ekmett/machines/tags	N/A
+https://github.com/ekmett/machines	updated	2025-03-03
+https://github.com/ekmett/machines/releases	updated	2025-03-03
+https://github.com/ekmett/machines/tags	updated	2025-03-03
 https://www.archlinux.de/packages/extra/x86_64/haskell-streaming-commons	N/A
 https://www.scs.stanford.edu/11au-cs240h/projects/levy.pdf	N/A
 https://discourse.haskell.org/t/ann-cleff-fast-and-concise-extensible-effects/4002	publication	2022-01-31
@@ -27276,14 +27276,14 @@ https://hackage.haskell.org/package/conduit-1.0.11/docs/Data-Conduit.html	create
 https://hackage-content.haskell.org/package/fused-effects-1.1.2.6/docs/Control-Effect-Lift.html	N/A
 https://hackage-content-origin.haskell.org/package/fused-effects-0.4.0.0/candidate/docs/src/	N/A
 https://discourse.haskell.org/t/the-effectful-effect-system-has-a-website-haskell-effectful-github-io/11040	publication	2024-12-17
-https://github.com/fused-effects/fused-effects/releases	N/A
-https://github.com/fused-effects/fused-effects/tags	N/A
-https://github.com/haskell-effectful/effectful/releases	N/A
-https://github.com/haskell-effectful/effectful/tags	N/A
-https://github.com/re-xyr/cleff/releases	N/A
-https://github.com/re-xyr/cleff/tags	N/A
-https://github.com/tomjaguarpaw/bluefin/releases	N/A
-https://github.com/tomjaguarpaw/bluefin/tags	N/A
+https://github.com/fused-effects/fused-effects/releases	updated	2026-05-05
+https://github.com/fused-effects/fused-effects/tags	updated	2026-05-05
+https://github.com/haskell-effectful/effectful/releases	updated	2026-07-23
+https://github.com/haskell-effectful/effectful/tags	updated	2026-07-23
+https://github.com/re-xyr/cleff/releases	updated	2022-06-03
+https://github.com/re-xyr/cleff/tags	updated	2022-06-03
+https://github.com/tomjaguarpaw/bluefin/releases	updated	2026-07-19
+https://github.com/tomjaguarpaw/bluefin/tags	updated	2026-07-19
 https://xnning.github.io/papers/haskell20evidently.pdf	N/A
 https://hackage.haskell.org/package/polysemy/docs/Polysemy-Error.html	created	2024-06-03
 https://hackage.haskell.org/package/polysemy/docs/Polysemy-Internal-Scoped.html	created	2024-06-03
@@ -27326,7 +27326,7 @@ https://hackage-content.haskell.org/package/resource-pool-0.5.0.0/docs/doc-index
 https://hackage-content.haskell.org/package/resource-pool-0.5.0.0/docs/src/Data.Pool.Internal.html	N/A
 https://hackage-content.haskell.org/package/text-2.1.3/docs/Data-Text-IO.html	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-monad-control/	N/A
-https://github.com/srijs/haskell-resource-pool-monad	N/A
+https://github.com/srijs/haskell-resource-pool-monad	updated	2015-10-24
 https://hackage.haskell.org/package/resource-pool-monad	N/A
 https://haskellweekly.news/issue/245.html	N/A
 https://packages.debian.org/bullseye/source/haskell-resource-pool	N/A
@@ -27335,30 +27335,30 @@ https://www.reddit.com/r/haskell/comments/13m7ow3	N/A
 https://hackage.haskell.org/packages/tag/control	N/A
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2011/9/	created	2011
 https://packages.ecosyste.ms/registries/hackage.haskell.org/maintainers/BasVanDijk	N/A
-https://github.com/duairc/resource-simple/releases	N/A
-https://github.com/duairc/resource-simple/tags	N/A
+https://github.com/duairc/resource-simple/releases	updated	2012-03-02
+https://github.com/duairc/resource-simple/tags	updated	2012-03-02
 https://hackage.haskell.org/package/regions-0.11	N/A
 https://hackage.haskell.org/package/resource-pool-monad-0.1.0.0	N/A
 https://hackage.haskell.org/package/resource-simple-0.2	N/A
-https://github.com/basvandijk/regions/	N/A
-https://github.com/basvandijk/regions/issues	N/A
+https://github.com/basvandijk/regions/	updated	2014-08-28
+https://github.com/basvandijk/regions/issues	updated	2014-08-28
 https://hackage.haskell.org/package/resource-effectful/docs/	created	2026-05-16
 https://www.reddit.com/r/haskell/comments/1hgcyzv	N/A
-https://github.com/duairc/resource-simple	N/A
+https://github.com/duairc/resource-simple	updated	2012-03-02
 https://hackage.haskell.org/package/resource-registry	N/A
 https://hackage.haskell.org/package/resource-simple	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.resource-registry	N/A
 https://www.yesodweb.com/blog/2012/02/simplifying-resourcet	created	2012
 https://git.hubp.de/haskell-effectful/effectful	N/A
 https://dejafu.docs.barrucadu.co.uk/migration-guides/0x-1x.html	N/A
-https://github.com/input-output-hk/fs-sim/issues	N/A
-https://github.com/input-output-hk/io-sim/issues	N/A
+https://github.com/input-output-hk/fs-sim/issues	updated	2026-05-18
+https://github.com/input-output-hk/io-sim/issues	updated	2026-06-30
 https://hackage.haskell.org/package/registry/docs	created	2025-10-08
 https://hackage.haskell.org/package/resource-simple/docs	created	2012-03-02
 https://www.stackage.org/package/dejafu	N/A
-https://github.com/HeinrichApfelmus/operational/tree/master/doc/examples#readme	N/A
+https://github.com/HeinrichApfelmus/operational/tree/master/doc/examples#readme	updated	2023-12-29
 https://www.reddit.com/r/haskell/comments/bzcj7w	N/A
-https://github.com/AliasQli/dialogue/issues	N/A
+https://github.com/AliasQli/dialogue/issues	updated	2022-02-13
 https://hackage.haskell.org/package/heftia-0.3.1.0	N/A
 https://www.edsko.net/pubs/ifl07-paper.pdf	N/A
 https://www.youtube.com/watch?v=ZhuHCtR3xq8	N/A
@@ -27480,9 +27480,9 @@ https://www.reddit.com/r/haskell/comments/urnmzz	N/A
 https://www.reddit.com/r/haskellquestions/comments/kbz9ef	N/A
 https://discourse.haskell.org/t/whats-the-goto-general-purpose-library-for-logging/8503	publication	2024-01-09
 https://downloads.haskell.org/ghc/9.2.1/docs/html/users_guide/runtime_control.html	modified	2021-10-29
-https://github.com/Soostone/katip	N/A
-https://github.com/wdanilo/haskell-logger	N/A
-https://github.com/well-typed/trace-foreign-calls	N/A
+https://github.com/Soostone/katip	updated	2025-09-03
+https://github.com/wdanilo/haskell-logger	updated	2019-10-28
+https://github.com/well-typed/trace-foreign-calls	updated	2025-01-14
 https://haskell.foundation/hs-opt-handbook.github.io/src/Measurement_Observation/Haskell_Profiling/eventlog.html	N/A
 https://haskell-cafe.haskell.narkive.com/ycnkSnOD/ann-katip-a-new-structured-logging-framework-for-haskell	N/A
 https://kowainik.github.io/posts/2018-09-25-co-log	created	2018
@@ -27739,7 +27739,7 @@ https://downloads.haskell.org/~ghc/9.6.5/docs/users_guide/9.6.1-notes.html	modif
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/codegens.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/javascript.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/wasm.html	N/A
-https://github.com/haskell-wasm/ghc-wasm-meta	N/A
+https://github.com/haskell-wasm/ghc-wasm-meta	updated	2026-07-25
 https://hackage.haskell.org/package/ghcjs-websockets	N/A
 https://www.reddit.com/r/haskell/comments/10bz1bi	N/A
 https://www.reddit.com/r/haskell/comments/114ksse	N/A
@@ -27971,7 +27971,7 @@ https://ouci.dntb.gov.ua/works/4bPLQYeN/	N/A
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/index/12A77AB9E6C9F4E166E10C0A632624C4	publication	2009-11
 https://www.sciencedirect.com/book/monograph/9780128023068/foundations-of-quantum-programming	N/A
 https://effekt-lang.org/tour/io	N/A
-https://github.com/effekt-lang/effekt-website/blob/main/docs/concepts/effect-safety.md	N/A
+https://github.com/effekt-lang/effekt-website/blob/main/docs/concepts/effect-safety.md	updated	2026-07-20
 https://homepages.inf.ed.ac.uk/slindley/papers/leak-draft-november2018.pdf	created	2018
 https://ocaml.org/manual/5.3/effects.html	N/A
 https://prg.is.titech.ac.jp/wp-content/uploads/2021/04/2021-03M-niimi.pdf	created	2021
@@ -28027,7 +28027,7 @@ https://mail.haskell.org/pipermail/haskell-cafe/2005-December/012605.html	create
 https://mailman.science.ru.nl/pipermail/clean-list/1996/000060.html	created	1996
 https://researchportal.hw.ac.uk/en/publications/a-generic-usage-analysis-with-subeffect-qualifiers/	publication	2007-10-01
 https://www.cs.kent.ac.uk/events/2020/ifl20/ifl2020draftproceedings.pdf	created	2020
-https://github.com/Mercury-Language/books/blob/master/tutorial/01-mercury-by-example.polytex	N/A
+https://github.com/Mercury-Language/books/blob/master/tutorial/01-mercury-by-example.polytex	updated	2023-10-11
 https://kyledewey.github.io/comp410-spring18/lecture/week_13/modes_and_mercury_handout.pdf	N/A
 https://lambda-the-ultimate.org/node/890	N/A
 https://learnxinyminutes.com/mercury/	N/A
@@ -28321,7 +28321,7 @@ https://hackage-content.haskell.org/package/base-4.19.2.0/docs/System-IO-Error.h
 https://www.haskell.org/hugs/pages/libraries/base/System.IO-Error.html	N/A
 http://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=bf97bcdb8aa93567a3c573a8cc7d1195d66efcdb&repid=rep1&type=pdf	N/A
-https://github.com/haskell/parsec	N/A
+https://github.com/haskell/parsec	updated	2026-06-09
 https://hackage.haskell.org/package/parsec	N/A
 https://hackage.haskell.org/package/parsec-3.1.11	N/A
 https://hackage.haskell.org/package/parsec-3.1.18.0	N/A
@@ -28482,14 +28482,14 @@ https://researchgate.net/publication/2472798_Tackling_the_Awkward_Squad_monadic_
 https://coursetube.com/index.php/courses/contentdetail/courseid/906/sec/3301	N/A
 https://en.wikipedia.org/wiki/Monad_%28functional_programming%29	N/A
 https://gihyo.jp/book/2017/978-4-7741-9237-6	publication	2017-09-27
-https://github.com/A1kmm/monadio-unwrappable	N/A
+https://github.com/A1kmm/monadio-unwrappable	updated	2012-06-18
 https://github.com/haskell/effectful	N/A
-https://github.com/leithaus/XTrace/blob/monadic/src/main/book/content/monadic.pdf	N/A
-https://github.com/MichielDeCuyper/Algebraic-Effect-Handlers	N/A
-https://github.com/stepchowfun/effects	N/A
-https://github.com/zenhack/haskell-ocap	N/A
-https://github.com/ZHaskell/stdio	N/A
-https://github.com/ZHaskell/z-io	N/A
+https://github.com/leithaus/XTrace/blob/monadic/src/main/book/content/monadic.pdf	updated	2009-11-24
+https://github.com/MichielDeCuyper/Algebraic-Effect-Handlers	updated	2016-02-28
+https://github.com/stepchowfun/effects	updated	2022-01-17
+https://github.com/zenhack/haskell-ocap	updated	2020-11-25
+https://github.com/ZHaskell/stdio	updated	2020-10-24
+https://github.com/ZHaskell/z-io	updated	2024-05-20
 https://hackage.haskell.org/package/base-4.10.0.0/docs/Prelude.html	created	2017-07-23
 https://hackage.haskell.org/package/polysemy	N/A
 https://haskell.pesquisa.ufabc.edu.br/cursos/12-programa%C3%A7%C3%A3o-funcional-2024/	created	2024
@@ -28509,9 +28509,9 @@ https://www.research.ed.ac.uk/en/publications/imperative-functional-programming	
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.5	created	2006
 https://www.scs.stanford.edu/14sp-cs240h/slides/ifc.html	N/A
 https://www.youtube.com/playlist?list=PLNLIbsKl8RYmu_NaSvpvj74MPy8qZSNd8	N/A
-https://github.com/bbarker/haskell-zio#readme	N/A
+https://github.com/bbarker/haskell-zio#readme	updated	2021-03-16
 https://github.com/Eiko-Tokura/monad-effect.git	N/A
-https://github.com/haskell/mtl	N/A
+https://github.com/haskell/mtl	updated	2026-06-08
 https://github.com/haskell-effectful	N/A
 https://guppy.eng.kagawa-u.ac.jp/2006/Declarative/Text/Chapter3.pdf	created	2006
 https://hackage.haskell.org/package/ki	N/A
@@ -28562,8 +28562,8 @@ https://www.educative.io/courses/functional-programming-haskell/more-io-function
 https://citeseerx.ist.psu.edu/document?doi=3a84dc46d1a0918c3c47d92bebc62d856137e065&repid=rep1&type=pdf	N/A
 https://blogs.intevation.de/wilde/haskell/monads/	N/A
 https://citeseerx.ist.psu.edu/document?doi=c0a3eb80020e2e162116901b5ae83dd4b060cbcd&repid=rep1&type=pdf	N/A
-https://github.com/input-output-hk/io-sim/tree/master/io-classes	N/A
-https://github.com/input-output-hk/io-sim/tree/master/io-sim	N/A
+https://github.com/input-output-hk/io-sim/tree/master/io-classes	updated	2026-06-30
+https://github.com/input-output-hk/io-sim/tree/master/io-sim	updated	2026-06-30
 https://github.com/oisim/iospec	N/A
 https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class.html	created	2025-11-27
 https://hackage.haskell.org/package/jail-0.1.1	N/A
@@ -28597,7 +28597,7 @@ https://hackage.haskell.org/package/Test-SmallCheck/docs/Test-SmallCheck.html	N/
 https://stackoverflow.com/questions/5032475/why-does-haskell-not-have-an-i-monad-for-input-only-unlike-the-io-monad?noredirect=1	N/A
 https://studylib.net/doc/25910942/haskell2010	created	2010
 https://gist.github.com/captainalan/88b2258623d321938d3daa3f0f3a12dc	N/A
-https://github.com/juspay/euler-hs	N/A
+https://github.com/juspay/euler-hs	updated	2023-08-31
 https://repositorio.ufpe.br/bitstream/123456789/11435/1/DISSERTA%C3%87%C3%83O%20Francisco%20Miranda%20Soares%20da%20Silva%20Neto.pdf	N/A
 https://studyres.com/doc/2841226/database-programming-languages--dbpl-5-	N/A
 https://www.scribd.com/document/357197882/Imperative-Functional-Programming	N/A
@@ -28610,11 +28610,11 @@ https://www.youtube.com/watch?v=N9RUqGYuGfw	N/A
 https://academia-lab.com/enciclopedia/monada-programacion-funcional/	N/A
 https://core.ac.uk/download/pdf/82130994.pdf	N/A
 https://dl.acm.org/doi/proceedings/10.1145/1291201	N/A
-https://github.com/cdsmith/HMock/issues	N/A
-https://github.com/input-output-hk/ouroboros-network/tree/master/ouroboros-consensus-test/src/Test/Util/IOSim	N/A
+https://github.com/cdsmith/HMock/issues	updated	2024-11-03
+https://github.com/input-output-hk/ouroboros-network/tree/master/ouroboros-consensus-test/src/Test/Util/IOSim	updated	2026-07-24
 https://github.com/input-output-hk/si-timers	N/A
-https://github.com/lexi-lambda/eff	N/A
-https://github.com/tweag/monad-bayes	N/A
+https://github.com/lexi-lambda/eff	updated	2022-04-04
+https://github.com/tweag/monad-bayes	updated	2026-07-21
 https://hackage.haskell.org/package/aivika-1.2.1	N/A
 https://hackage.haskell.org/package/io-effects	N/A
 https://hackage.haskell.org/package/monadIO	N/A
@@ -28632,7 +28632,7 @@ https://kar.kent.ac.uk/id/document/3229559	N/A
 https://maciejpirog.github.io/papers/what-binds-them-together.pdf	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/imperative.pdf	created	2016
 https://coursesidekick.com/computer-science/28500297	N/A
-https://github.com/tweag/cardano-conformance-testing-of-consensus/blob/main/docs/design.md	N/A
+https://github.com/tweag/cardano-conformance-testing-of-consensus/blob/main/docs/design.md	updated	2026-02-26
 https://hackage-content.haskell.org/package/Control-Monad-IO-Class/docs/Control-Monad-IO-Class.html	N/A
 https://intersectmbo.github.io/io-sim/	N/A
 https://nottingham-repository.worktribe.com/OutputFile/37306922	N/A
@@ -28692,7 +28692,7 @@ https://www.reddit.com/r/haskell/comments/1dqmvt0/	N/A
 https://hackage.haskell.org/package/perf	N/A
 https://haskell.org/communities/05-2018/report.pdf	created	2018
 https://learnyouahaskell.github.io/a-fistful-of-monads	N/A
-https://github.com/yinguanhao/pipes-io	N/A
+https://github.com/yinguanhao/pipes-io	updated	2016-09-29
 https://hackage.haskell.org/package/aivika-1.2/src/doc/aivika.pdf	created	2014-05-18
 https://hackage.haskell.org/package/CheatSheet-1.8/src/CheatSheet.pdf	created	2009-03-28
 https://hackage.haskell.org/package/dynamic-loader-0.0.1/src/dynamic-linker.pdf	created	2016-08-25
@@ -28705,8 +28705,8 @@ https://hackage.haskell.org/package/resource-effectful	N/A
 https://hackage.haskell.org/package/retry-io-classes	N/A
 https://gist.github.com/CMCDragonkai/1a241955b041283a9009	N/A
 https://gist.github.com/paf31/9c4d402d400d61a49656	N/A
-https://github.com/singpolyma/unexceptionalio-trans	N/A
-https://github.com/transient-haskell/transient-universe	N/A
+https://github.com/singpolyma/unexceptionalio-trans	updated	2024-01-02
+https://github.com/transient-haskell/transient-universe	updated	2021-03-06
 https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs	created	2014-09-13
 https://minegishirei.hatenablog.com/entry/2024/01/14/153301	publication	2026-05-30
 https://citeseerx.ist.psu.edu/document?doi=9732e82a22d4350f26ffff47d3f2578d59686d8c&repid=rep1&type=pdf	N/A
@@ -28724,7 +28724,7 @@ https://wiki.haskell.org/wikiupload/8/85/TMR-Issue13.pdf	N/A
 https://www2.ccs.neu.edu/racket/pubs/	N/A
 https://www.cin.ufpe.br/~alms/pdf/AOPHaskell_camera_ready.pdf	N/A
 https://dspace.cvut.cz/bitstream/handle/10467/102069/F8-BP-2022-Bednar-Martin-thesis.pdf?isAllowed=y&sequence=-1	created	2022
-https://github.com/jphmrst/TLT	N/A
+https://github.com/jphmrst/TLT	updated	2023-11-08
 https://hackage.haskell.org/package/acme-iot	N/A
 https://hackage.haskell.org/package/ImpSpec	N/A
 https://hackage.haskell.org/package/transformers-0.5.0.1	N/A
@@ -28813,7 +28813,7 @@ https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fue
 https://www.ost.ch/fileadmin/dateiliste/1_studium/1.3_informatik/1.3.1_bachelor_informatik/informatik-newsletter_24-2.pdf	N/A
 https://doi.org/10.1016/B978-0-444-88135-9.50009-7	publication	1992
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-7.8.4/MonadUtils.html	modified	2019-02-15
-https://github.com/dnikolovv/servant-purescript-codegen-example	N/A
+https://github.com/dnikolovv/servant-purescript-codegen-example	updated	2023-02-26
 https://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/	N/A
 https://www.haskell.org/pipermail/beginners/attachments/20090424/UnderstandingHaskellMonads.pdf	N/A
 https://discourse.haskell.org/t/ann-effectful-an-easy-to-use-performant-extensible-effects-library/4774	publication	2022-07-15
@@ -28838,7 +28838,7 @@ https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/monads.pdf	N/A
 https://www.cse.chalmers.se/edu/year/2012/course/TDA452/monads.pdf	created	2012
 https://www.haskell.org/ghc/docs/latest/html/libraries/base/System-IO.html	N/A
 https://github.com/CRogers/mockcat	N/A
-https://github.com/jphmrst/TLT/	N/A
+https://github.com/jphmrst/TLT/	updated	2023-11-08
 https://hackage.haskell.org/package/quickcheck-state-machine-0.10.3	N/A
 https://research.chalmers.se/publication/231133	publication	2015
 https://www.clean.cs.ru.nl/Publications	N/A
@@ -28896,7 +28896,7 @@ https://export.arxiv.org/abs/cs/0605058	created	2006-05
 https://export.arxiv.org/pdf/cs/0605058	created	2006-05
 https://academic.oup.com/nsr/article/2/3/349/1427872	N/A
 https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.2237&rep=rep1&type=pdf	N/A
-https://github.com/GaloisInc/oughta	N/A
+https://github.com/GaloisInc/oughta	updated	2026-06-29
 https://hackage.haskell.org/package/oughta	N/A
 https://hackage.haskell.org/package/oughta-0.1.0.0	N/A
 https://hackage.haskell.org/package/oughta-0.2.0.0	N/A
@@ -28921,8 +28921,8 @@ https://ghcguide.haskell.jp/8.4.3/libraries/mtl-2.2.2/Control-Monad-Except.html	
 https://haddocks.haskell-miso.org/base/Data-Traversable.html	N/A
 https://mabboux.net/informatique/haskell/en/Tutoriel/Haskell%20beginning.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=88fd6bf47141d3f31f38df8dfb9de59bb848acf&repid=rep1&type=pdf	N/A
-https://github.com/cdsmith/HMock.git	N/A
-https://github.com/hspec/quickcheck-io	N/A
+https://github.com/cdsmith/HMock.git	updated	2024-11-03
+https://github.com/hspec/quickcheck-io	updated	2017-06-16
 https://github.com/pujoheadsoft/mockcat	N/A
 https://hackage.haskell.org/package/pdf-toolbox-document-0.0.4.0/docs/Pdf-Toolbox-Document-Pdf.html	N/A
 https://research.chalmers.se/en/publication/231133	publication	2015
@@ -29233,7 +29233,7 @@ https://eprints.nottingham.ac.uk/11457/1/11457.pdf	N/A
 https://uu.diva-portal.org/smash/record.jsf?pid=diva2:1369286	N/A
 https://hackage.haskell.org/package/hxt-7.3/src/doc/thesis.pdf	N/A
 https://h-deb.ca/Liens/Paradigmes-programmation--Liens.html	N/A
-https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranju.pdf	N/A
+https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranju.pdf	updated	2025-12-01
 https://ncatlab.org/nlab/show/Eugenio_Moggi	N/A
 https://ucsd-cse130.github.io/wi21/lectures/09-io.html	N/A
 https://dblp.org/rec/conf/lics/Moggi89	N/A
@@ -29583,7 +29583,7 @@ https://haskell4nix.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.monad-skeleton	N/A
 https://packages.fedoraproject.org/pkgs/ghc-unliftio/ghc-unliftio	N/A
 https://academy.mondaymorninghaskell.com/courses/making-sense-of-monads/lectures/31894892	N/A
-https://github.com/moocfi/haskell-mooc	N/A
+https://github.com/moocfi/haskell-mooc	updated	2026-05-08
 https://citeseerx.ist.psu.edu/document?doi=c453e924645f2dff471020a087e04e4de8b0ac3d&repid=rep1&type=pdf	N/A
 https://note.com/tanzawa2379/n/n61ffab4a700c	N/A
 https://qastack.jp/cs/109421/is-the-io-monad-technically-incorrect	N/A
@@ -29710,7 +29710,7 @@ https://www.stackage.org/lts-23.13/package/effectful-2.5.1.0	N/A
 https://codes-isss.org/dl_subdomain/citation_id_1291151_preflayout_flat/	N/A
 https://kennethalambert.com/haskell/index.html	N/A
 https://haskell.org/onlinereport/io.html	N/A
-https://github.com/commercialhaskell/stackage	N/A
+https://github.com/commercialhaskell/stackage	updated	2026-07-26
 https://igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.22-docs-offline/hackage-content.haskell.org/package/base-4.22.0.0/docs/src/Control.Monad.IO.Class.html	N/A
 https://www.stackage.org/lts-11.22/package/base-4.10.1.0	N/A
 https://www.stackage.org/nightly-2026-06-25/package/io-storage	created	2026
@@ -30243,11 +30243,11 @@ https://hackage.haskell.org/package/core-effect-effectful	N/A
 https://cse3000-research-project.github.io/static/db102206ec6bbf934bbe6ab8f428e121/poster.pdf	N/A
 https://sourceforge.net/projects/polysemy.mirror/files/	N/A
 https://hackage.haskell.org/package/effectful-0.0.0.0/docs/src/Effectful.Reader.html	N/A
-https://github.com/tomjaguarpaw/bluefin/blob/783da151a74bae3eda774912386f168e6bb0e9af/bluefin-internal/src/Bluefin/Internal/System/IO.hs	N/A
+https://github.com/tomjaguarpaw/bluefin/blob/783da151a74bae3eda774912386f168e6bb0e9af/bluefin-internal/src/Bluefin/Internal/System/IO.hs	updated	2026-07-19
 https://resolver.tudelft.nl/uuid:ffea061f-d832-4d54-9726-8389cd4bf42a	publication	2022
 https://haskelle.blogspot.com/2023/	created	2023
 https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=2	publication	2024-11-27
-https://github.com/ublue-os/bluefin/releases	N/A
+https://github.com/ublue-os/bluefin/releases	updated	2026-07-17
 https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy.html	N/A
 https://hackage.haskell.org/package/polysemy-1.9.2.0/docs/Polysemy-IO.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=f6ce17217fbb0097d38e7d1b9ee134423895babd&repid=rep1&type=pdf	N/A
@@ -30799,7 +30799,7 @@ https://docs.rs/async-trait/latest/async_trait/	N/A
 https://docs.rs/effective	N/A
 https://rust-lang.github.io/async-book/07_workarounds/05_async_in_traits.html	N/A
 https://doc.rust-lang.org/stable/book/ch17-01-futures-and-syntax.html	N/A
-https://github.com/bytedance/monoio	N/A
+https://github.com/bytedance/monoio	updated	2026-05-29
 https://docs.rs/rustica/latest/rustica/datatypes/async_monad/index.html	N/A
 https://docs.rs/crate/functype-io/0.1.1	N/A
 https://rust-lang.github.io/async-book/part-guide/async-await.html	N/A
@@ -30961,7 +30961,7 @@ https://hackage.haskell.org/package/hactors/docs/Control-Concurrent-Actor.html	c
 https://ocaml.org/p/lwt/4.3.0/index.html	N/A
 https://opam.ocaml.org/packages/mirage-channel-lwt/	N/A
 https://arxiv.org/abs/2111.12147	created	2021-11
-https://github.com/robur-coop/miou/blob/main/queue/main.ml	N/A
+https://github.com/robur-coop/miou/blob/main/queue/main.ml	updated	2026-07-15
 https://hackage.haskell.org/package/amazonka-s3	N/A
 https://hackage.haskell.org/package/minio-hs	N/A
 https://hackage.haskell.org/package/minio-hs-1.2.0/	N/A
@@ -31009,7 +31009,7 @@ https://hackage.haskell.org/package/wai-extra-3.1.4	N/A
 https://hackage-content-origin.haskell.org/package/http2-5.1.3	N/A
 https://ocaml.org/p/cohttp-lwt/2.1.3/doc/README.html	N/A
 https://ocaml.org/p/cohttp/4.0.0/doc/README.html	N/A
-https://github.com/mirage/ocaml-cohttp	N/A
+https://github.com/mirage/ocaml-cohttp	updated	2026-07-26
 https://opam.ocaml.org/packages/cohttp/	N/A
 https://opam.ocaml.org/packages/cohttp-lwt-unix/	N/A
 https://ocaml.org/p/cohttp-lwt/1.2.0/doc/README.html	N/A
@@ -31183,7 +31183,7 @@ https://ocaml.org/p/lwt/5.8.0/doc/index.html	N/A
 https://typelevel.org/doobie/docs/01-Introduction.html	N/A
 https://typelevel.org/doobie/	N/A
 https://index.scala-lang.org/typelevel/doobie?artifact=doobie-hikari-cats	N/A
-https://github.com/typelevel/doobie	N/A
+https://github.com/typelevel/doobie	updated	2026-07-18
 https://index.scala-lang.org/typelevel/doobie/artifacts/doobie-core/0.13.4	N/A
 https://tpolecat.github.io/doobie-cats-0.4.0/01-Introduction.html	N/A
 https://www.scala-exercises.org/doobie/error_handling	N/A
@@ -31527,7 +31527,7 @@ https://hackage.haskell.org/package/streamly-0.2.0	N/A
 https://hackage.haskell.org/package/streamly-0.8.3	N/A
 https://docs.min.io/aistor/developers/sdk/haskell/	publication	2025-10-17
 https://docs.min.io/aistor/developers/sdk/haskell/api/	publication	2025-10-17
-https://github.com/brendanhay/amazonka	N/A
+https://github.com/brendanhay/amazonka	updated	2026-06-10
 https://www.stackage.org/lts-2.22/package/amazonka-s3-0.3.6	N/A
 https://repology.org/project/haskell%3Aamazonka-s3-streaming/packages	N/A
 https://tech.freckle.com/2023/09/22/using-amazonka-2-0/	publication	2023-09-22
@@ -31692,7 +31692,7 @@ https://hackage.haskell.org/package/streaming-bytestring-0.1.1.0	N/A
 https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0	N/A
 https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html	created	2023-05-13
 https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2	N/A
-https://github.com/haskell-hvr/http-io-streams	N/A
+https://github.com/haskell-hvr/http-io-streams	updated	2025-08-26
 https://packages.ubuntu.com/source/jammy/armhf/haskell-io-streams	N/A
 https://hackage.haskell.org/package/io-streams-1.5.2.0/docs/System-IO-Streams.html	N/A
 https://hackage.haskell.org/package/http-types/docs/Network-HTTP-Types-URI.html	created	2026-05-31
@@ -31978,7 +31978,7 @@ https://arxiv.org/abs/1003.0585	created	2010-03
 https://www.purescript.org/	N/A
 https://discourse.purescript.org/t/how-to-read-liftaff-signature/3782	N/A
 https://trepo.tuni.fi/bitstream/handle/10024/156847/NikoP%C3%A4rssinen.pdf?isAllowed=y&sequence=2	N/A
-https://github.com/purescript/documentation/blob/master/language/Effect.md	N/A
+https://github.com/purescript/documentation/blob/master/language/Effect.md	updated	2024-03-04
 https://pursuit.purescript.org/packages/purescript-effect/docs/Effect.Class	N/A
 https://pursuit.purescript.org/packages/purescript-aff/docs/Effect.Aff	N/A
 https://pursuit.purescript.org/packages/purescript-aff/docs/Effect.Aff.Class	N/A
@@ -31986,13 +31986,13 @@ https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS.Aff	N/A
 https://pursuit.purescript.org/packages/purescript-console/docs/Effect.Console	N/A
 https://github.com/purescript/purescript-aff	N/A
 https://www.jsdelivr.com/package/npm/%40purescript/aff	N/A
-https://github.com/purescript/documentation/blob/master/guides/Eff.md	N/A
-https://github.com/purescript/purescript-eff	N/A
+https://github.com/purescript/documentation/blob/master/guides/Eff.md	updated	2024-03-04
+https://github.com/purescript/purescript-eff	updated	2018-07-22
 https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS	N/A
 https://pursuit.purescript.org/packages/purescript-node-fs/docs/Node.FS.Sync	N/A
 https://pursuit.purescript.org/packages/purescript-random/docs/Effect.Random	N/A
 https://pursuit.purescript.org/packages/purescript-avar/docs/Control.AVar	N/A
-https://github.com/slamdata/purescript-io	N/A
+https://github.com/slamdata/purescript-io	updated	2018-08-02
 https://github.com/purescript/purescript-aff/blob/master/README.md	N/A
 https://docs.rs/crate/effect-rs/latest/source/README.md	N/A
 https://docs.rs/stillwater/latest/stillwater/	N/A
@@ -32146,7 +32146,7 @@ https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_So
 https://hackage-content.haskell.org/package/effectful-core-2.6.0.0/docs/doc-index-All.html	N/A
 https://hackage-content.haskell.org/package/ghc-internal-9.1401.0/docs/doc-index-I.html	N/A
 https://hackage-content.haskell.org/package/base-4.20.2.0/src/src/Data	N/A
-https://github.com/fpinscala/fpinscala	N/A
+https://github.com/fpinscala/fpinscala	updated	2024-12-11
 https://www.bookey.app/book/programming-in-scala	N/A
 https://www.kufunda.net/publicdocs/Functional%20Programming%20in%20Scala.pdf	N/A
 https://docs.scala-lang.org/overviews/scala-book/functional-programming.html	N/A
@@ -32269,10 +32269,10 @@ https://lean-lang.org/functional_programming_in_lean/Introduction/	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/15F1C51D832FD7F084AE2602FBDB0157	N/A
 https://www.cl.cam.ac.uk/teaching//0607/FFuncProg/fofp.pdf	N/A
 https://forums.fsharp.org/t/series-of-6-articles-on-computation-expressions/4893	publication	2025-09-02
-https://github.com/IBM/fp-go/v2/io	N/A
+https://github.com/IBM/fp-go/v2/io	updated	2026-07-25
 https://www.roundcrisis.com/presentations/2015-fsharp-gotham-computation-expressions/index.html	created	2015
 https://arxiv.org/abs/2208.14724	created	2022-08
-https://github.com/IBM/fp-go	N/A
+https://github.com/IBM/fp-go	updated	2026-07-25
 https://github.com/joeycumines/go-monads	N/A
 https://pkg.go.dev/github.com/joeycumines/go-monads	N/A
 https://guillaumebogard.dev/posts/functional-error-handling/	publication	2020-05-18
@@ -32310,7 +32310,7 @@ https://www.creativescala.org/cats-effect-tutorial/	N/A
 https://www.kriso.lv/functional-programming-scala-db-9781617290657.html	N/A
 https://www.fp-tower.com/courses/foundations	N/A
 https://hackage.haskell.org/package/effectful-2.1.0.0	N/A
-https://github.com/koka-lang/koka	N/A
+https://github.com/koka-lang/koka	updated	2026-07-20
 https://icfp21.sigplan.org/details/icfp-2021-tutorials/5/Programming-with-Effect-Handlers-and-FBIP-in-Koka	created	2021
 https://goto.ucsd.edu/~nvazou/koka/koka.html	N/A
 https://pblevy.github.io/msfp2014/koka.pdf	created	2014
@@ -32564,7 +32564,7 @@ https://bentnib.org/dijkstra4all.pdf	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/fstar.pdf	created	2017
 https://lean-lang.org/doc/reference/latest/Functors___-Monads_and--do--Notation/	N/A
 https://prg.is.titech.ac.jp/projects/formalization/monae/	N/A
-https://github.com/leanprover/reference-manual/blob/main/Manual.lean	N/A
+https://github.com/leanprover/reference-manual/blob/main/Manual.lean	updated	2026-07-23
 https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--For-Monads/	N/A
 https://usr.lmf.cnrs.fr/~jcf/publis_bib.html	N/A
 https://drops.dagstuhl.de/opus/volltexte/2021/13881/pdf/LIPIcs-TYPES-2020-2.pdf	created	2021
@@ -33140,7 +33140,7 @@ https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0	created	2
 https://www.stackage.org/lts-24.29/package/io-storage-0.3	N/A
 https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	N/A
-https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md	N/A
+https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md	updated	2020-09-24
 https://gist.github.com/therewillbecode	N/A
 https://gist.github.com/FranklinChen/1448622	N/A
 https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2	N/A
