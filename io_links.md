@@ -6374,9 +6374,9 @@ https://hackage.haskell.org/package/streaming-commons-0.1.4/docs	created	2014-07
 https://hackage.haskell.org/package/streaming-utils	N/A
 https://hackage.haskell.org/package/streaming-utils/docs/Data-ByteString-Streaming-HTTP.html	created	2024-09-20
 https://hackage.haskell.org/package/streamly	N/A
-https://hackage.haskell.org/package/streamly-0.1.0/docs/Streamly-Tutorial.html	N/A
-https://hackage.haskell.org/package/streamly-0.5.1/docs/Streamly.html	N/A
-https://hackage.haskell.org/package/streamly-0.9.0/docs/Streamly.html	N/A
+https://hackage.haskell.org/package/streamly-0.1.0/docs/Streamly-Tutorial.html	created	2017-12-05
+https://hackage.haskell.org/package/streamly-0.5.1/docs/Streamly.html	created	2018-09-12
+https://hackage.haskell.org/package/streamly-0.9.0/docs/Streamly.html	created	2023-03-13
 https://hackage.haskell.org/package/streamly-examples	N/A
 https://hackage.haskell.org/packages/tag/streaming	N/A
 https://hackage-content.haskell.org/package/streaming-bytestring-0.3.4/docs/Streaming-ByteString.html	N/A
@@ -6428,15 +6428,15 @@ https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/haskeline-0.8.2/Syst
 https://eprints.gla.ac.uk/249058/2/249058.pdf	N/A
 https://era.ed.ac.uk/server/api/core/bitstreams/574ab588-d1b6-44fd-b64f-f9c998e8d22e/content	N/A
 https://gallais.github.io/pdf/2025_TYPES_abstract.pdf	created	2025
-https://hackage.haskell.org/package/base-4.9.1.0/docs/System-IO.html	N/A
-https://hackage.haskell.org/package/bluefin-0.2.2.0/docs	N/A
-https://hackage.haskell.org/package/effectful-2.6.0.0/changelog	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/System-IO.html	created	2017-01-14
+https://hackage.haskell.org/package/bluefin-0.2.2.0/docs	created	2025-12-17
+https://hackage.haskell.org/package/effectful-2.6.0.0/changelog	created	2025-06-13
 https://hackage.haskell.org/package/effet	N/A
 https://hackage.haskell.org/package/extensible-effects	N/A
-https://hackage.haskell.org/package/FileSystem/docs/System-FileSystem.html	N/A
+https://hackage.haskell.org/package/FileSystem/docs/System-FileSystem.html	created	2011-01-28
 https://hackage.haskell.org/package/monad-effect-0.2.3.1	N/A
-https://hackage.haskell.org/package/streaming-with/docs	N/A
-https://hackage.haskell.org/package/streaming-with/docs/Streaming-With-Lifted.html	N/A
+https://hackage.haskell.org/package/streaming-with/docs	created	2021-08-29
+https://hackage.haskell.org/package/streaming-with/docs/Streaming-With-Lifted.html	created	2021-08-29
 https://hackage-content.haskell.org/package/bluefin-0.0.16.0/docs/Bluefin-Stream.html	N/A
 https://hackage-content.haskell.org/package/bluefin-0.4.0.1/docs/Bluefin.html	N/A
 https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem.html	N/A
@@ -6499,10 +6499,10 @@ https://github.com/RobertFischer/vfs-conduit/blob/master/conduit-vfs/test/Spec.h
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/test/Spec.hs	N/A
 https://api.github.com/repos/RobertFischer/vfs-conduit/contents/conduit-vfs/test/Spec.hs?ref=master	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.0	N/A
-https://hackage.haskell.org/package/conduit-vfs-0.1.0.0/conduit-vfs-0.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/conduit-vfs-0.1.0.0/conduit-vfs-0.1.0.0.tar.gz	created	2019-06-11
 https://hackage-content.haskell.org/package/conduit-vfs-0.1.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.1	N/A
-https://hackage.haskell.org/package/conduit-vfs-0.1.0.1/conduit-vfs-0.1.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/conduit-vfs-0.1.0.1/conduit-vfs-0.1.0.1.tar.gz	created	2019-06-11
 https://hackage-content.haskell.org/package/conduit-vfs-0.1.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.2	N/A
 https://hackage.haskell.org/package/conduit-vfs-0.1.0.2/conduit-vfs-0.1.0.2.tar.gz	N/A
