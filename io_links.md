@@ -631,14 +631,14 @@ https://www.haskell.org/tutorial/monads.html	modified	2019-02-17
 https://dl.acm.org/doi/10.5555/1477677	N/A
 https://dl.acm.org/doi/10.5555/3158283	N/A
 https://link.springer.com/book/10.1007/978-1-4842-2781-7	publication	2017
-https://books.google.com/books/about/Programming_in_Haskell.html?id=75C5DAAAQBAJ	N/A
-https://books.google.com/books/about/Haskell_Programming_from_First_Principle.html?id=5FaXDAEACAAJ	N/A
-https://books.google.com/books/about/Developing_Web_Apps_with_Haskell_and_Yes.html?id=kJe4BgAAQBAJ	N/A
+https://books.google.com/books/about/Programming_in_Haskell.html?id=75C5DAAAQBAJ	published	2016
+https://books.google.com/books/about/Haskell_Programming_from_First_Principle.html?id=5FaXDAEACAAJ	published	2016
+https://books.google.com/books/about/Developing_Web_Apps_with_Haskell_and_Yes.html?id=kJe4BgAAQBAJ	published	2015
 https://dokumen.pub/haskell-the-craft-of-functional-programming-3rd-revised-edition-9780201882957-9781447914242-0201882957.html	N/A
 https://livebook.manning.com/book/get-programming-with-haskell/chapter-30	N/A
 https://livebook.manning.com/book/get-programming-with-haskell/chapter-31	N/A
 https://livebook.manning.com/book/learn-haskell-by-example/chapter-15	N/A
-https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=ypNQAAAAMAAJ	N/A
+https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=ypNQAAAAMAAJ	published	1998
 https://www.haskell.org/haskellwiki/Introduction_to_IO	modified	2022-08-03
 https://www.haskell.org/haskellwiki/All_about_monads	modified	2024-05-27
 https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO	N/A
@@ -689,7 +689,7 @@ https://link.springer.com/content/pdf/10.1007/b11942.pdf	N/A
 https://link.springer.com/content/pdf/10.1007/3-540-49201-1.pdf	N/A
 https://web.mit.edu/6.827/www/old/lectures/L16-MonadComputation.pdf	N/A
 https://ocw.mit.edu/courses/18-s996-category-theory-for-scientists-spring-2013/1920eed7eb325a4172a28b4aa7132b92_MIT18_S996S13_Monad.pdf	created	2013
-https://books.google.com/books/about/Functional_Programming_and_Input_output.html?id=7r0gAQAAIAAJ	N/A
+https://books.google.com/books/about/Functional_Programming_and_Input_output.html?id=7r0gAQAAIAAJ	published	1993
 https://dl.acm.org/doi/abs/10.5555/203043	N/A
 https://books.google.com.vc/books?cad=3&id=acB3PwAACAAJ&source=gbs_book_other_versions_r	N/A
 https://www.cambridge.org/core/books/functional-programming-and-inputoutput?format=PB	N/A
@@ -882,12 +882,12 @@ https://www.altocumulus.org/haskell-report-1.0.pdf	N/A
 http://www.haskell.org/definition/haskell-report-1.4.ps.gz	modified	2019-02-17
 http://www.haskell.org/onlinereport/	modified	2019-02-17
 http://www.haskell.org/onlinelibrary/	N/A
-https://books.google.com/books/about/Developing_Web_Applications_with_Haskell.html?id=rWMXKMhOLq4C	N/A
+https://books.google.com/books/about/Developing_Web_Applications_with_Haskell.html?id=rWMXKMhOLq4C	published	2012
 https://subscription.packtpub.com/book/programming/9781786464217/6	N/A
 https://subscription.packtpub.com/book/programming/9781786464217/14/ch14lvl1sec06/summary	N/A
 https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec45/threads-and-concurrency-primitives	N/A
 https://books.google.com/books/about/Haskell_Programming_from_First_Principles.html?id=2J9HDwAAQBAJ	N/A
-https://books.google.com/books/about/Real_World_Haskell.html?id=Qm1GAAAAMAAJ	N/A
+https://books.google.com/books/about/Real_World_Haskell.html?id=Qm1GAAAAMAAJ	published	1993
 https://books.google.com/books/about/Practical_Programming_in_Haskell.html?id=YK5TDwAAQBAJ	N/A
 https://www.oreilly.com/videos/haskell-in-depth/9781617295409VE/9781617295409VE-hid_c143/	N/A
 https://subscription.packtpub.com/book/programming/9781786464217/8/ch08lvl1sec56/summary	N/A
@@ -1787,8 +1787,8 @@ https://www.haskell.org/pipermail/haskell/2003-May/011851.html	created	2003
 https://simon.peytonjones.org/assets/pdfs/haskell-being-lazy-with-class.pdf	N/A
 https://haskellforall.com/2015/06/break-100-small-library-for-breaking	created	2015
 https://haskellforall.com/2012/03/haskell-for-purists-pipe-finalization	created	2012
-https://books.google.com/books/about/Fundamentals_of_Haskell_Programming.html?id=QrmJEQAAQBAJ	N/A
-https://books.google.com/books/about/Haskell_Step_By_Step_Solution_with_Progr.html?id=09eyEAAAQBAJ	N/A
+https://books.google.com/books/about/Fundamentals_of_Haskell_Programming.html?id=QrmJEQAAQBAJ	published	2025
+https://books.google.com/books/about/Haskell_Step_By_Step_Solution_with_Progr.html?id=09eyEAAAQBAJ	published	2023
 https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/137d9bcfb0cef5b225ad18c13bcd9e3c_L16MonadComputation.pdf	created	2002
 https://www.eecs.wsu.edu/~hauser/teaching/Concurrent-S08/handouts/Lecture20-2.pdf	N/A
 https://opencs.aalto.fi/en/courses/programming-languages/part-1/9-input-output	N/A
@@ -1864,7 +1864,7 @@ https://tweag.io/blog/2021-04-08-capabilities-ad-hoc-interpreters/	created	2021
 https://tweag.io/blog/2022-01-19-why-liquid-haskell/	created	2022
 https://tweag.io/blog/2021-06-15-asciidoc-haskell-pandoc/	created	2021
 https://tweag.io/blog/2017-11-29-linear-jvm/	created	2017
-https://books.google.com/books/about/Get_Programming_with_Haskell.html?id=bzczEAAAQBAJ	N/A
+https://books.google.com/books/about/Get_Programming_with_Haskell.html?id=bzczEAAAQBAJ	published	2018
 https://dl.acm.org/doi/pdf/10.1145/289423.289429	publication	1998-09-29
 https://www.cultured.systems/2022/10/01/Implementing-IO-Java/	created	2022
 https://lambdaland.org/posts/2024-05-01_definitely_not_about_monads/	created	2024
@@ -3342,13 +3342,13 @@ https://www.cs.indiana.edu/~rrnewton/papers/ppopp17-sc-haskell.pdf	N/A
 https://www.cs.umd.edu/~rrand/voqc_draft.pdf	N/A
 https://www.cs.cornell.edu/people/fluet/research/tx-events/ICFP06/icfp06.pdf	N/A
 https://coalg.org/calco15/papers/p18-Pir%C3%B3g.pdf	N/A
-https://books.google.com/books/about/Functional_Programming_and_Input_Output.html?id=IykU332XpQ8C	N/A
-https://books.google.com/books?cad=3&id=D9KE8M-j90sC&source=gbs_book_other_versions_r	N/A
+https://books.google.com/books/about/Functional_Programming_and_Input_Output.html?id=IykU332XpQ8C	published	1994
+https://books.google.com/books?cad=3&id=D9KE8M-j90sC&source=gbs_book_other_versions_r	published	1994
 https://cs.brown.edu/people/sk/Publications/Papers/Published/fffk-functional-io/	N/A
 https://www.haskell.org/communities/05-2007/html/report.html	created	2007
 https://api.pageplace.de/preview/DT0400.9781107266483_A23760369/preview-9781107266483_A23760369.pdf	N/A
 https://books.google.com.vc/books?id=aexmQgAACAAJ&printsec=copyright	N/A
-https://books.google.com/books/about/The_Haskell_School_of_Expression.html?id=lQbth9j5j9oC	N/A
+https://books.google.com/books/about/The_Haskell_School_of_Expression.html?id=lQbth9j5j9oC	published	2000
 https://www.cambridge.org/ag/universitypress/subjects/computer-science/programming-languages-and-applied-logic/haskell-school-expression-learning-functional-programming-through-multimedia?format=HB&isbn=9780521643382	N/A
 https://www.cambridge.org/highereducation/isbn/9780521644082/examination-copy	N/A
 https://dokumen.pub/effective-haskell-solving-real-world-problems-with-strongly-typed-functional-programming-1nbsped-1680509349-9781680509342-g-5556519.html	N/A
@@ -3652,9 +3652,9 @@ https://gatowololo.github.io/resources/publications/detflow.pdf	N/A
 https://people.cs.kuleuven.be/~tom.schrijvers/Research/talks/probability_monad.pdf	N/A
 https://dl.acm.org/doi/10.1145/174675.178047	publication	1994
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/notions-of-computation-as-monoids/70019FC0F2384270E9F41B9719042528	publication	2017-01
-https://books.google.com/books/about/Programming_in_Haskell.html?hl=es&id=75C5DAAAQBAJ	N/A
-https://books.google.com/books/about/Learn_You_a_Haskell_for_Great_Good.html?id=2D6QEAAAQBAJ	N/A
-https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=B4RxBAAAQBAJ	N/A
+https://books.google.com/books/about/Programming_in_Haskell.html?hl=es&id=75C5DAAAQBAJ	published	2016
+https://books.google.com/books/about/Learn_You_a_Haskell_for_Great_Good.html?id=2D6QEAAAQBAJ	published	2011
+https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=B4RxBAAAQBAJ	published	2015
 https://kodu.ut.ee/~varmo/FP2007/slides/loeng12.pdf	created	2007
 https://people.cs.nott.ac.uk/pszgmh/book-review.pdf	N/A
 https://xavierleroy.org/CdF/2018-2019/5.pdf	created	2018
@@ -3672,7 +3672,7 @@ https://www.slideshare.net/slideshow/monads-are-no-nomads-unlocking-the-basics/2
 https://www.slideshare.net/slideshow/free-monads-getting-started/76367619	N/A
 https://www.slideshare.net/slideshow/functors-applicatives-and-monads-in-scala/65414376	N/A
 https://archive.org/download/arxiv-1110.4163/1110.4163.pdf	N/A
-https://books.google.com/books?cad=3&hl=es&id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r	N/A
+https://books.google.com/books?cad=3&hl=es&id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r	published	2008
 https://books.google.com/books?id=nh0okI1a1sQC&printsec=frontcover	N/A
 https://archive.org/details/learnyouhaskellf00lipo_0	N/A
 https://archive.org/details/pdfy-2af6sIo0-9yPtvRo	N/A
@@ -3696,8 +3696,8 @@ https://www.haskell.org/haskellwiki/Ru/Monad	modified	2012-04-04
 https://www.haskell.org/haskellwiki/Ru/IO_Inside	modified	2022-10-22
 https://www.haskell.org/haskellwiki/Ru/Haskell	modified	2012-04-04
 https://www.haskell.org/haskellwiki/OOP_vs_type_classes	modified	2021-07-14
-https://books.google.com/books/about/Engineering_Theories_of_Software_Constru.html?id=ns5QAAAAYAAJ	N/A
-https://books.google.com/books/about/Soar_with_Haskell.html?id=xjli0AEACAAJ	N/A
+https://books.google.com/books/about/Engineering_Theories_of_Software_Constru.html?id=ns5QAAAAYAAJ	published	2001
+https://books.google.com/books/about/Soar_with_Haskell.html?id=xjli0AEACAAJ	published	2023
 https://dn710307.ca.archive.org/0/items/happylearnhaskell/happylearnhaskell.pdf	N/A
 https://scholar.archive.org/work/nd5hynxmdfemvclqddqtn555oe/access/wayback/http%3A//yadda.icm.edu.pl/yadda/element/bwmeta1.element.baztech-0622a6c7-c2d7-4914-952a-465e78d3d959/c/Grzanek_Monadic_JACSM_2014.pdf	created	2014
 https://scholar.archive.org/work/72w7wzbv5ffdjkipbjdeydubue/access/wayback/http%3A//drops.dagstuhl.de/opus/volltexte/2015/5540/pdf/20.pdf	created	2015
@@ -3800,11 +3800,11 @@ https://d3s.mff.cuni.cz/publications/petricek_joinads_2011/	created	2011
 https://link.springer.com/chapter/10.1007/978-3-642-18378-2_17	publication	2011
 https://www.researchgate.net/publication/220802969_Joinads_A_Retargetable_Control-Flow_Construct_for_Reactive_Parallel_and_Concurrent_Programming	N/A
 https://books.google.com/books/about/Functional_Programming_Glasgow_1994.html?id=BmngBwAAQBAJ	created	1994
-https://books.google.com/books/about/Logic_Programming.html?id=ZKsV2ajbpQwC	N/A
-https://books.google.com/books/about/Central_European_Functional_Programming.html?hl=fr&id=CQJtCQAAQBAJ	N/A
-https://books.google.com/books/about/Magical_Haskell.html?id=A4kJ0QEACAAJ	N/A
-https://books.google.com/books/about/Functional_Programming_with_Go.html?id=Y_ANEQAAQBAJ	N/A
-https://books.google.com/books/about/Advanced_Functional_Programming_in_Haske.html?id=Huxp0QEACAAJ	N/A
+https://books.google.com/books/about/Logic_Programming.html?id=ZKsV2ajbpQwC	published	1995
+https://books.google.com/books/about/Central_European_Functional_Programming.html?hl=fr&id=CQJtCQAAQBAJ	published	2006
+https://books.google.com/books/about/Magical_Haskell.html?id=A4kJ0QEACAAJ	published	2025
+https://books.google.com/books/about/Functional_Programming_with_Go.html?id=Y_ANEQAAQBAJ	published	2024
+https://books.google.com/books/about/Advanced_Functional_Programming_in_Haske.html?id=Huxp0QEACAAJ	published	2025
 https://www.researchgate.net/publication/31109739_Functional_Programming_and_Operating_Systems	N/A
 https://academic.oup.com/comjnl/article-abstract/32/2/162/543564	N/A
 https://www21.in.tum.de/~krauss/publication/2007-lexicographic-orders/	created	2007
@@ -3927,8 +3927,8 @@ https://www.cs.ru.nl/bachelors-theses/2025/Sjoerd_van_Dis___1075812___Integratin
 https://www.cs.ru.nl/masters-theses/2017/D_vd_Vooren___Improving_the_efficiency_of_SVG_in_iTasks_using_deltas.pdf	created	2017
 https://www.cs.ru.nl/bachelors-theses/2018/Mark_Wijkhuizen___4659147___Security_analysis_of_the_Itasks_framework.pdf	created	2018
 https://www.mbsd.cs.ru.nl/publications/papers/2007/plar2007-ICFP07-iTasks.pdf	created	2007
-https://books.google.com/books/about/Functional_Programming_and_Input_Output.html?id=D9KE8M-j90sC	N/A
-https://books.google.com/books/about/Haskell_98_Language_and_Libraries.html?id=LAIN0gEACAAJ	N/A
+https://books.google.com/books/about/Functional_Programming_and_Input_Output.html?id=D9KE8M-j90sC	published	1994
+https://books.google.com/books/about/Haskell_98_Language_and_Libraries.html?id=LAIN0gEACAAJ	published	2003
 https://www.cse.chalmers.se/~patrikj/haskell/haskell98-report/index98.html	N/A
 https://dblp.org/pid/g/AndrewDGordon	N/A
 https://archive.alvb.in/msc/03_infoafp/papers/2012-11-20_HoorCollege_Monads_dk.pdf	created	2012
@@ -3955,8 +3955,8 @@ https://www.haskell.org/onlinereport/haskell2010/haskellpa2.html	created	2010
 https://dblp.org/pid/j/SimonLPeytonJones	N/A
 https://dblp.org/pid/h/JohnHughes	N/A
 https://dblp.org/pid/35/4224	N/A
-https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=zVQ_AQAAIAAJ	N/A
-https://books.google.com/books/about/HASKELL_98_LANGUAGE_AND_LIBRARIES.html?id=iPnf0AEACAAJ	N/A
+https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=zVQ_AQAAIAAJ	published	1998
+https://books.google.com/books/about/HASKELL_98_LANGUAGE_AND_LIBRARIES.html?id=iPnf0AEACAAJ	published	2003
 https://search.worldcat.org/title/Functional-programming-and-inputoutput/oclc/123256659	N/A
 https://search.worldcat.org/es/title/haskell-98-language-and-libraries-the-revised-report/oclc/255587471	N/A
 https://openlibrary.org/authors/OL771905A/Simon_L._Peyton_Jones	N/A
@@ -3965,7 +3965,7 @@ https://www.cs.bu.edu/fac/snyder/cs320/Lectures/Lecture12--%20State%20Monad.pdf	
 https://benl.ouroborus.net/papers/2010-impure/lippmeier-impure-world.pdf	created	2010
 https://lmf.di.uminho.pt/quantum-logic-2021/LQ-Monads.pdf	created	2021
 https://openlibrary.org/authors/OL35497A/John_Goerzen	N/A
-https://books.google.com/books?id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r	N/A
+https://books.google.com/books?id=Xy7ktAEACAAJ&source=gbs_book_other_versions_r	published	2017
 https://search.worldcat.org/title/Practical-Haskell-%3A-a-real-world-guide-to-programming/oclc/1099434629	N/A
 https://hal-emse.ccsd.cnrs.fr/LINA-ASCOLA/hal-01025633v2	N/A
 https://www.math.nagoya-u.ac.jp/~garrigue/papers/linocaml-201902.pdf	N/A
@@ -3994,7 +3994,7 @@ https://koka-lang.github.io/koka/doc/book.html	N/A
 https://hasura.github.io/eff/	N/A
 https://cambium.inria.fr/~fpottier/publis/de-vilhena-pottier-tes.pdf	N/A
 https://dl.acm.org/doi/abs/10.1145/3428194	publication	2020-11-13
-https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?hl=pt-BR&id=wSkRAAAAQBAJ	N/A
+https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?hl=pt-BR&id=wSkRAAAAQBAJ	published	2013
 https://openlibrary.org/books/OL36714046M/Parallel_and_Concurrent_Programming_in_Haskell	N/A
 https://search.worldcat.org/title/Parallel-and-concurrent-programming-in-Haskell/oclc/858949384	N/A
 https://search.worldcat.org/title/851826580	N/A
@@ -4213,7 +4213,7 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_54.html	modified	2
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_57.html	modified	2019-02-15
 https://r6.ca/blog/20110520T220201Z.html	N/A
 https://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o	created	2013-06-08
-https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspYEQAAQBAJ	N/A
+https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspYEQAAQBAJ	published	2010
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch07.html	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0021.xhtml	N/A
 https://effective-haskell.com/chapters/table-of-contents.html	N/A
@@ -4222,15 +4222,15 @@ https://livebook.manning.com/concept/haskell/monadio	N/A
 https://livebook.manning.com/concept/haskell/rwst	N/A
 https://livebook.manning.com/concept/haskell/catch	N/A
 https://livebook.manning.com/concept/haskell/stuarray	N/A
-https://books.google.com/books/about/Programming_in_Haskell.html?id=1xHPDAAAQBAJ	N/A
-https://books.google.com/books/about/Advanced_Functional_Programming_in_Haskell.html?id=Huxp0QEACAAJ	N/A
+https://books.google.com/books/about/Programming_in_Haskell.html?id=1xHPDAAAQBAJ	published	2016
+https://books.google.com/books/about/Advanced_Functional_Programming_in_Haskell.html?id=Huxp0QEACAAJ	published	2025
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-RFC1807.txt	N/A
 https://www.cs.yale.edu/homes/hudak-paul/CS431F06/SOEMusicChapter.pdf	N/A
 https://ucsd-cse230.github.io/sp20/lectures.html	N/A
 https://www.cs.stanford.edu/class/cs242/materials/lectures/haskell-notes.pdf	N/A
 https://cs.pomona.edu/~kim/CSC101S19/Lectures/Lecture8/Lecture8.pdf	N/A
-https://books.google.com/books/about/Haskell_in_Depth.html?id=A_Q1EAAAQBAJ	N/A
-https://books.google.com/books/about/Category_Theory_Using_Haskell.html?id=SI3q0QEACAAJ	N/A
+https://books.google.com/books/about/Haskell_in_Depth.html?id=A_Q1EAAAQBAJ	published	2021
+https://books.google.com/books/about/Category_Theory_Using_Haskell.html?id=SI3q0QEACAAJ	published	2025
 https://mdu.diva-portal.org/smash/get/diva2%3A223698/FULLTEXT01.pdf	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2013-November.txt	created	2013
 https://mail.haskell.org/pipermail/haskell-cafe/2014-August.txt	created	2014
@@ -4706,8 +4706,8 @@ https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/mpc.pdf	N/A
 https://twistedsquare.com/CHP.pdf	N/A
 https://twistedsquare.com/CHP-Models.pdf	N/A
 https://www.researchgate.net/publication/221004376_Communicating_Haskell_Processes_Composable_Explicit_Concurrency_Using_Monads	N/A
-https://books.google.com/books/about/Functional_Design_and_Architecture.html?id=MB8kEQAAQBAJ	N/A
-https://books.google.com/books?hl=en&id=CGJjQgAACAAJ	N/A
+https://books.google.com/books/about/Functional_Design_and_Architecture.html?id=MB8kEQAAQBAJ	published	2024
+https://books.google.com/books?hl=en&id=CGJjQgAACAAJ	published	1996
 https://dl.acm.org/doi/10.1145/3141858.3141863	publication	2017-10-23
 https://upload.wikimedia.org/wikiversity/en/d/df/MP3.2A.IO.Basic.20191019.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org	N/A
 https://upload.wikimedia.org/wikiversity/en/0/0c/MP2.1A.STrans.Basic.20191002.pdf?utm_campaign=index&utm_content=original&utm_source=en.wikiversity.org	N/A
@@ -5422,10 +5422,10 @@ https://downloads.haskell.org/ghc/8.10.5/docs/users_guide.pdf	modified	2021-06-0
 https://downloads.haskell.org/ghc/8.10.2/docs/users_guide.pdf	modified	2020-08-08
 https://downloads.haskell.org/ghc/8.10.7/docs/users_guide.pdf	modified	2021-08-26
 https://downloads.haskell.org/ghc/8.6.4/docs/users_guide.pdf	modified	2019-03-05
-https://books.google.com/books?id=nh0okI1a1sQC	N/A
+https://books.google.com/books?id=nh0okI1a1sQC	published	2008
 https://www.mail-archive.com/haskell-cafe%40haskell.org/msg22248.html	N/A
 https://hackage.haskell.org/package/base-4.9.0.0/docs/Control-Monad-IO-Class.html	created	2016-05-21
-https://books.google.com/books/about/Programming_in_Haskell.html?id=olp7lAtpRX0C	N/A
+https://books.google.com/books/about/Programming_in_Haskell.html?id=olp7lAtpRX0C	published	2007
 https://www.cs.auckland.ac.nz/references/haskell/haskell-intro-html/io.html	N/A
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120527201949%21Haskell.pdf	N/A
 https://hoogle.haskell.org/?q=IO	N/A
@@ -5920,7 +5920,7 @@ http://www.cs.swan.ac.uk/~csetzer/articles/ooAgda.pdf	N/A
 https://agda.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://arxiv.org/abs/1906.00046	created	1906
 https://arxiv.org/abs/1907.05244	created	1907
-https://books.google.com/books/about/Introduction_to_Functional_Programming.html?id=Op5QAAAAMAAJ	N/A
+https://books.google.com/books/about/Introduction_to_Functional_Programming.html?id=Op5QAAAAMAAJ	published	1988
 https://bow-swift.io/docs/effects/effects-overview/	N/A
 https://cburch.com/books/hsmonad/	N/A
 https://cir.nii.ac.jp/crid/1360306910698247424	N/A
@@ -6202,7 +6202,7 @@ https://arxiv.org/abs/2302.09403	created	2023-02
 https://arxiv.org/abs/2307.08514	created	2023-07
 https://arxiv.org/abs/2510.14558	created	2025-10
 https://bibtex.github.io/tag/functional.html	N/A
-https://books.google.com/books/about/Functional_Programming_and_Its_Applicati.html?id=O_M8AAAAIAAJ	N/A
+https://books.google.com/books/about/Functional_Programming_and_Its_Applicati.html?id=O_M8AAAAIAAJ	published	1982
 https://ci.nii.ac.jp/ncid/BA23765645	created	1994
 https://citeseerx.ist.psu.edu/document?doi=3bf9b30fd286618b8d7044bec752d51a6cf4f5ce&repid=rep1&type=pdf	N/A
 https://cnds.constructor.university/courses/ics-2019/hs-slides.pdf	created	2019
@@ -6592,7 +6592,7 @@ https://1library.net/document/q0jp32xz-session-types-with-linearity-in-haskell.h
 https://api.pageplace.de/preview/DT0400.9781316876336_A27452880/preview-9781316876336_A27452880.pdf	N/A
 https://api.repository.cam.ac.uk/server/api/core/bitstreams/901716b2-87aa-43e4-94d3-d8e0902edce1/content	N/A
 https://arxiv.org/abs/1708.09158	created	2017-08
-https://books.google.com/books/about/Haskell_Cookbook.html?id=2plGDwAAQBAJ	N/A
+https://books.google.com/books/about/Haskell_Cookbook.html?id=2plGDwAAQBAJ	published	2017
 https://dblp.org/pid/50/8166.html	N/A
 https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.IO.html	modified	2025-12-18
 https://downloads.haskell.org/ghc/7.2.1/docs/html/users_guide/safe-haskell.html	modified	2019-02-15
@@ -6861,8 +6861,8 @@ https://hackage.haskell.org/package/privileged-concurrency-0.7.0/docs/Control-Co
 https://sedici.unlp.edu.ar/bitstream/handle/10915/2173/Documento_completo.pdf?isAllowed=y&sequence=1	N/A
 https://www.reddit.com/r/haskell/comments/pcfilm	N/A
 https://www.scs.stanford.edu/14sp-cs240h/slides/ghc-rts.pdf	modified	2014-05-27
-https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?id=iSoRAAAAQBAJ	N/A
-https://books.google.com/books?id=wSkRAAAAQBAJ	N/A
+https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?id=iSoRAAAAQBAJ	published	2013
+https://books.google.com/books?id=wSkRAAAAQBAJ	published	2013
 https://dblp.org/db/conf/popl/popl96.html	N/A
 https://dblp.org/pid/08/649.html	N/A
 https://dblp.org/pid/j/SimonLPeytonJones.html	N/A
@@ -7180,7 +7180,7 @@ https://www.reddit.com/r/haskell/comments/1hp448p	N/A
 https://www.reddit.com/r/haskell/comments/mlax59	N/A
 https://www.oreilly.com/library/view/practical-haskell-a/9781484285817/html/Cover.xhtml	N/A
 https://livebook.manning.com/book/haskell-in-depth/chapter-5/v-10	N/A
-https://books.google.com/books/about/Learn_Haskell_by_Example.html?id=zDYtEQAAQBAJ	N/A
+https://books.google.com/books/about/Learn_Haskell_by_Example.html?id=zDYtEQAAQBAJ	published	2024
 https://en.wikipedia.org/wiki/Real_World_Haskell	modified	2026-07-23
 https://www.reddit.com/r/haskell/comments/hqeedz	N/A
 https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_tutorial/monads.html	N/A
@@ -7590,8 +7590,8 @@ https://content.openalex.org/works/W1980408208.pdf	N/A
 https://content.openalex.org/works/W1980408208.grobid-xml	N/A
 https://content.openalex.org/works/W2076004629.pdf	N/A
 https://content.openalex.org/works/W2076004629.grobid-xml	N/A
-https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=iGenBAAAQBAJ	N/A
-https://books.google.com/books/about/Haskell.html?id=es9GPgAACAAJ	N/A
+https://books.google.com/books/about/Thinking_Functionally_with_Haskell.html?id=iGenBAAAQBAJ	published	2014
+https://books.google.com/books/about/Haskell.html?id=es9GPgAACAAJ	published	2011
 ## Early functional I/O papers, records, and mirrors
 https://doi.org/10.1007/978-1-4471-3166-3_11	publication	1990
 https://dblp.org/rec/conf/fp/McLoughlinH89	published	1989
@@ -8208,8 +8208,8 @@ https://andrewdgordon.github.io/short-cv.pdf	N/A
 https://publications.scss.tcd.ie/tech-reports/reports.05/TCD-CS-2005-56.pdf	created	2005
 https://www.cl.cam.ac.uk/~amp12/fresh-ocaml/publications/shinwell-thesis.pdf	N/A
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol011-iclp2011/LIPIcs.ICLP.2011/LIPIcs.ICLP.2011.pdf	created	2011
-https://books.google.com/books/about/Functional_Programming_in_Java.html?id=RzkzEAAAQBAJ	N/A
-https://books.google.com/books/about/Programming_Language_Pragmatics.html?id=gkV9lAEACAAJ	N/A
+https://books.google.com/books/about/Functional_Programming_in_Java.html?id=RzkzEAAAQBAJ	published	2017
+https://books.google.com/books/about/Programming_Language_Pragmatics.html?id=gkV9lAEACAAJ	published	2009
 https://courses.cs.washington.edu/courses/cse341/10wi/haskell/daume02yaht.pdf	N/A
 https://constable.blog/wp-content/uploads/pdbc.pdf	N/A
 https://web.ecs.syr.edu/courses/cis352/slides/13io4up.pdf	N/A
@@ -10246,7 +10246,7 @@ https://link.springer.com/book/10.1007/978-1-4302-6251-0	publication	2014
 https://link.springer.com/book/10.1007/978-1-4842-4480-7	publication	2019
 https://link.springer.com/book/10.1007/978-3-031-68538-5	publication	2025
 https://link.springer.com/book/10.1007/978-3-642-55818-4	publication	2003
-https://books.google.com/books/about/Effective_Haskell.html?id=4cUIzwEACAAJ	N/A
+https://books.google.com/books/about/Effective_Haskell.html?id=4cUIzwEACAAJ	published	2023
 https://studylib.net/doc/27941553/haskell--the-craft-of-functional-programming--3rd-ed	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0003.xhtml	N/A
 https://libris.kb.se/bib/17120895	N/A
@@ -12166,7 +12166,7 @@ https://downloads.haskell.org/~ghc/8.0.2/docs/html/users_guide/safe_haskell.html
 https://research.chalmers.se/en/publication/233668	publication	2016
 https://stackoverflow.com/questions/5892653/whats-so-bad-about-lazy-i-o	N/A
 https://books.google.co.jp/books?id=2pbeyUWCln0C	N/A
-https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=xIlyOiGOC6EC	N/A
+https://books.google.com/books/about/Introduction_to_Functional_Programming_U.html?id=xIlyOiGOC6EC	published	1998
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf/programming_in_haskell_by_graham_hutton_cambridge_university_press_2007_184_pp_isbn_0521692695.pdf	created	2007
 https://openlibrary.org/books/OL28424966M/Introduction_Functional_Programming	N/A
 https://pergamo.unlam.edu.ar/pergamo/documento.php?id=PERGAMO.1.17960&recno=17960&ui=1	N/A
@@ -12174,7 +12174,7 @@ https://www.cs.ox.ac.uk/publications/publication2642-abstract.html	created	1998
 https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=156540&se=b0&ty=B	N/A
 https://external.dandelon.com/download/attachments/dandelon/ids/DE001287AB5FD483B5F1EC1257B6C00554344.pdf	N/A
 https://db.cs.uni-tuebingen.de/staticfiles/publications/thinking-functionally-in-haskell.pdf	N/A
-https://books.google.com/books/about/Introduction_to_Functional_Programming_S.html?id=OPFoJZeI8MEC	N/A
+https://books.google.com/books/about/Introduction_to_Functional_Programming_S.html?id=OPFoJZeI8MEC	published	1992
 https://pergamo.unlam.edu.ar/pergamo/documento.php?id=PERGAMO.1.17830&recno=17830&ui=1	N/A
 https://mitpressbookstore.mit.edu/book/9780521277242	N/A
 https://www.extrema.is/articles/haskell-books/introduction-to-functional-programming-systems-using-haskell	N/A
@@ -13767,7 +13767,7 @@ https://www.scribd.com/document/402151063/learnxinyminutes-pdf	modified	2019-03-
 https://dblp.org/rec/journals/jfp/Jones03g	published	2003
 https://dblp.org/rec/journals/jfp/Jones03s	published	2003
 https://dblp.org/rec/conf/cade/HoAKMTN18	published	2018
-https://books.google.com/books/about/Real_World_Haskell.html?hl=fr&id=nh0okI1a1sQC	N/A
+https://books.google.com/books/about/Real_World_Haskell.html?hl=fr&id=nh0okI1a1sQC	published	2017
 https://link.springer.com/chapter/10.1007/978-3-031-57267-8_11	N/A
 https://hackage.haskell.org/package/iteratee-0.8.7.4	N/A
 https://hackage.haskell.org/package/iteratee-0.8.1.2	N/A
@@ -14999,7 +14999,7 @@ https://www.stackage.org/lts-22.4/package/base-4.18.1.0	indexed	2026-07-27
 https://www.stackage.org/lts-20.25/package/base-4.16.4.0	indexed	2026-07-27
 https://www.stackage.org/lts-22.35/package/monad-control-1.0.3.1	indexed	2026-07-27
 https://www.stackage.org/lts-24.42/docs	N/A
-https://books.google.com/books/about/Beginning_Haskell.html?id=IZsQAwAAQBAJ	N/A
+https://books.google.com/books/about/Beginning_Haskell.html?id=IZsQAwAAQBAJ	published	2014
 https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.IO.Class.html	created	2017-01-14
 https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.IO.Class.html	N/A
 https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.IO.Class.html	created	2017-12-04
@@ -25221,7 +25221,7 @@ https://www.researchgate.net/publication/309506509_From_Theory_to_Practice_of_Al
 https://arxiv.org/abs/1811.07332	created	2018-11
 https://lmcs.episciences.org/705	publication	2013-12-17
 https://drops.dagstuhl.de/entities/document/10.4230/DagRep.8.4.104	N/A
-https://books.google.com/books/about/Efficient_Multishot_Algebraic_Effect_Han.html?id=weUM0QEACAAJ	N/A
+https://books.google.com/books/about/Efficient_Multishot_Algebraic_Effect_Han.html?id=weUM0QEACAAJ	published	2024
 https://github.com/andrejbauer/coop	updated	2021-08-20
 https://github.com/frank-lang/frank	updated	2022-08-01
 https://github.com/koka-lang/libhandler	updated	2019-02-11
@@ -27006,7 +27006,7 @@ https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/async	N/A
 https://learn.microsoft.com/ka-ge/dotnet/fsharp/language-reference/async-expressions	N/A
 https://mbrace.io/kron-thesis.pdf	N/A
 https://tomasp.net/academic/papers/async/async.pdf	N/A
-https://books.google.com/books/about/Programming_F.html?id=gzVdyw2WoXMC	N/A
+https://books.google.com/books/about/Programming_F.html?id=gzVdyw2WoXMC	published	2009
 https://livebook.manning.com/book/f-sharp-deep-dives/chapter-8	N/A
 https://livebook.manning.com/book/f-sharp-in-action/chapter-12	N/A
 https://livebook.manning.com/book/get-programming-with-f-sharp/chapter-36/ch36	N/A
@@ -27016,10 +27016,10 @@ https://www.reddit.com/r/fsharp/comments/17mpihe	N/A
 https://www.reddit.com/r/fsharp/comments/elea2a	N/A
 https://www.reddit.com/r/fsharp/comments/tqcnuy	N/A
 https://www.researchgate.net/publication/370775729_A_Direct-Style_Effect_Notation_for_Sequential_and_Parallel_Programs	N/A
-https://books.google.com/books/about/Expert_F_4_0.html?id=XKhPCwAAQBAJ	N/A
-https://books.google.com/books/about/F_in_Action.html?id=qGYN0AEACAAJ	N/A
-https://books.google.com/books/about/Functional_Programming_Using_F.html?id=Gbg4AvVTHCAC	N/A
-https://books.google.com/books/about/Pro_Asynchronous_Programming_with_NET.html?id=YpgQAwAAQBAJ	N/A
+https://books.google.com/books/about/Expert_F_4_0.html?id=XKhPCwAAQBAJ	published	2015
+https://books.google.com/books/about/F_in_Action.html?id=qGYN0AEACAAJ	published	2024
+https://books.google.com/books/about/Functional_Programming_Using_F.html?id=Gbg4AvVTHCAC	published	2013
+https://books.google.com/books/about/Pro_Asynchronous_Programming_with_NET.html?id=YpgQAwAAQBAJ	published	2014
 https://dsyme.net/2009/10/10/f-tutorial-code-and-slides/	publication	2009-10-10
 https://en.wikipedia.org/wiki/MBrace	modified	2026-07-15
 https://web.archive.org/web/20110715231625/http://www.ctocorner.com/fsharp/book/default.aspx	archived	2011-07-15
@@ -27029,7 +27029,7 @@ https://www.reddit.com/r/fsharp/comments/1eqnvnv	N/A
 https://www.reddit.com/r/fsharp/comments/p5k5bx	N/A
 https://www.reddit.com/r/fsharp/comments/x2zgfc	N/A
 https://www.scribd.com/document/341185796/76151782-The-F-Survival-Guide-pdf	modified	2017-03-07
-https://books.google.com/books/about/Get_Programming_with_F.html?id=c_U3MQAACAAJ	N/A
+https://books.google.com/books/about/Get_Programming_with_F.html?id=c_U3MQAACAAJ	published	2018
 https://devblogs.microsoft.com/dotnet/project-springfield-a-cloud-service-built-entirely-in-f/	publication	2016-12-13
 https://fsharp.org/learn/books	N/A
 https://learn.microsoft.com/pt-pt/dotnet/fsharp/language-reference/async-expressions	N/A
@@ -28163,7 +28163,7 @@ https://subscription.packtpub.com/book/programming/9781785282225/pref/preflvl1se
 https://subscription.packtpub.com/book/programming/9781837635191/12/ch12lvl1sec23/chapter-12-functional-programming	N/A
 https://www.manning.com/books/functional-programming-in-c-sharp?query=functional	N/A
 https://www.oreilly.com/library/view/functional-programming-in/9781617299827/OEBPS/Text/title.htm	N/A
-https://books.google.com/books/about/Mastering_Functional_Programming_with_Ty.html?id=iMUOEQAAQBAJ	N/A
+https://books.google.com/books/about/Mastering_Functional_Programming_with_Ty.html?id=iMUOEQAAQBAJ	published	2024
 https://openlibrary.org/works/OL17581286W/Parallel_And_Concurrent_Programming_In_Haskell	N/A
 https://trendsfp.github.io/2025/abstracts/paper-020.pdf	created	2025
 https://www.mail-archive.com/haskell%40haskell.org/msg17122.html	N/A
@@ -30553,7 +30553,7 @@ https://anil.recoil.org/papers/2021-pldi-retroeff.pdf	created	2021
 https://ocaml.org/manual/5.2/effects.html	N/A
 https://arxiv.org/abs/2211.13140	created	2022-11
 https://www.cambridge.org/core/books/a-practical-introduction-to-denotational-semantics/80122D52B49F175D38E0478EA45D4EDD	publication	1987-01
-https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ	N/A
+https://books.google.com/books/about/Denotational_Semantics.html?id=jM0mAAAAMAAJ	published	1985
 https://hackage-content.haskell.org/package/fs-sim-0.4.0.0/docs/src/System.FS.Sim.MockFS.html	N/A
 https://downloads.haskell.org/~ghc/6.2/docs/html/libraries/base/GHC.ST.html	modified	2019-02-15
 https://hackage.haskell.org/package/base-4.14.1.0/docs/GHC-Exts.html	N/A
@@ -32400,7 +32400,7 @@ https://haddocks.haskell-miso.org/base/doc-index-I.html	N/A
 https://hackage.haskell.org/package/ghc-internal/docs	created	2025-12-19
 https://www.kodeco.com/books/functional-programming-in-kotlin-by-tutorials/v1.0/chapters/17-sequence-flow	N/A
 https://www.oreilly.com/videos/functional-programming-in/9781617297168VE/	N/A
-https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ	N/A
+https://books.google.com/books/about/Functional_Programming_in_Kotlin.html?id=fvk_EAAAQBAJ	published	2021
 https://www.penguinrandomhouse.com/books/565601/the-book-of-f-by-dave-fancher/	N/A
 https://nostarch.com/fsharp	publication	2013-09-27
 https://cs3110.github.io/textbook/cover.html	N/A
@@ -32421,7 +32421,7 @@ https://java-design-patterns.com/patterns/monad/	N/A
 https://www.oreilly.com/library/view/functional-programming-in/9781617299582/OEBPS/Text/index.htm	N/A
 https://www.oreilly.com/library/view/functional-programming-in/9781617290657/kindle_split_021.html	N/A
 https://www.simonandschuster.com/books/Functional-Programming-in-Scala/Paul-Chiusano/9781617290657	N/A
-https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ	N/A
+https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ	published	2023
 https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf	N/A
 https://www.manning.com/books/type-driven-development-with-idris	N/A
 https://livebook.manning.com/book/type-driven-development-with-idris/about-this-book	N/A
@@ -32452,7 +32452,7 @@ https://doi.org/10.1145/2605176	publication	2014-06
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0087.xhtml	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0083.xhtml	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0082.xhtml	N/A
-https://books.google.com/books?id=75C5DAAAQBAJ	N/A
+https://books.google.com/books?id=75C5DAAAQBAJ	published	2016
 https://www.packtpub.com/en-BE/product/haskell-high-performance-programming-9781786464217/chapter/7-concurrency-and-performance-7/section/lifting-up-from-io-ch07lvl1sec49	N/A
 https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Types.html#IO	modified	2019-02-15
 https://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Prim.html#State	modified	2019-02-15
