@@ -118,7 +118,7 @@ https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2007-008.pdf	created	2007
 https://www.cs.rochester.edu/u/scott/papers/2014_Yates_TRANSACT_GHC_Hybrid_TM.pdf	created	2014
 https://wasp.cs.washington.edu/dynsep/transact11.pdf	created	2024-04-18
 https://dl.acm.org/doi/10.1145/3677999.3678276	publication	2024-08-29
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D76BABE75A9AD9902ECED03A5FFC0318/S0956796800000617a.pdf/div-class-title-the-interactive-lazy-ml-system-div.pdf	published	1993
 https://dl.acm.org/doi/10.1145/3156695.3122969	publication	2017-10-31
 https://www.researchgate.net/publication/320789853_A_meta-EDSL_for_distributed_web_applications	published	2017-10-31
 https://onlinelibrary.wiley.com/doi/10.1002/spe.4380250105	publication	1995-01
@@ -188,7 +188,7 @@ https://xnning.github.io/papers/icfp24parallel.pdf	created	2026-02-15
 https://dl.acm.org/doi/10.1145/3689798	publication	2024-10-08
 https://dl.acm.org/doi/10.1145/3677999.3678279	publication	2024-08-29
 https://arxiv.org/pdf/2402.03103	publication	2024
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796824000066	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796824000066	published	2024
 https://dl.acm.org/doi/pdf/10.1145/3471874.3472988	publication	2021-08-18
 https://tomasp.net/academic/papers/malias/malias.pdf	created	2024-03-02
 https://downloads.haskell.org/ghc/latest/docs/users_guide/	created	2026-06-28
@@ -217,7 +217,7 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://dl.acm.org/doi/10.1145/2633357.2633358	publication	2014-09-03
 https://iris-project.org/pdfs/2026-pldi-exceptional.pdf	created	2026
 https://www.cambridge.org/core/product/31638FCCC07130C30C42853CF0E0A4C2/core-reader	publication	2024-01
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/algebraic-effects-and-handlers-for-arrows/S0956796824000066	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/algebraic-effects-and-handlers-for-arrows/S0956796824000066	published	2024
 https://dl.acm.org/doi/10.1145/3676481	N/A
 https://dl.acm.org/doi/10.1145/3527326	publication	2022-04-29
 https://arxiv.org/pdf/1905.06544	created	1905
@@ -278,7 +278,7 @@ https://cambium.inria.fr/~yzakowsk/papers/layered-monadic-interpreters.pdf	N/A
 https://doi.org/10.1145/3406088.3409022	publication	2020-08-27
 https://doi.org/10.1145/3331545.3342595	publication	2019-08-08
 https://doi.org/10.1145/3674651	publication	2024-08-15
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B18FB74AD95F8D83BC4B097D4F/S0956796820000027a.pdf/effekt_capabilitypassing_style_for_type_and_effectsafe_extensible_effect_handlers_in_scala.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B18FB74AD95F8D83BC4B097D4F/S0956796820000027a.pdf/effekt_capabilitypassing_style_for_type_and_effectsafe_extensible_effect_handlers_in_scala.pdf	published	2020
 https://teaching.well-typed.com/intro/monads.html	N/A
 https://downloads.haskell.org/ghc/latest/docs/libraries/base-4.22.0.0-66f8/Control-Monad-ST-Strict.html	modified	2025-12-18
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/effect-handlers-via-generalised-continuations/DF590482FEE2F6888CD68B4B446E31D5	publication	2020-01
@@ -374,7 +374,7 @@ https://www.researchgate.net/publication/220997971_Imperative_Functional_Program
 https://link.springer.com/chapter/10.1007/978-3-642-22941-1_13	publication	2011
 https://goto.ucsd.edu/~nvazou/koka/icfp15.pdf	N/A
 https://inria.hal.science/hal-01038053/PDF/main_sblp.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37A6F7551C3A84120D658CE2D2C55E6E/S0956796802004471a.pdf/global-variables-in-haskell.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37A6F7551C3A84120D658CE2D2C55E6E/S0956796802004471a.pdf/global-variables-in-haskell.pdf	published	2004
 https://www.recurial.com/ppopp17-sc-haskell.pdf	N/A
 https://www.researchgate.net/publication/221335580_Monad_Factory_Type-Indexed_Monads	N/A
 https://www.cs.chalmers.se/~rjmh/Globals.ps	N/A
@@ -470,7 +470,7 @@ https://www.mbsd.cs.ru.nl/publications/papers/1997/pilm97-FstClassIOIFL96.ps.gz	
 https://link.springer.com/chapter/10.1007/10722298_7	publication	2000
 https://link.springer.com/chapter/10.1007/978-1-4471-3573-9_4	publication	1995
 https://web.cecs.pdx.edu/~apt/icfp05.pdf	modified	2005-09-26
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A369E310ADAE4455020C918FC1D47958/S0956796899003342a.pdf/poor_mans_concurrency_monad.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A369E310ADAE4455020C918FC1D47958/S0956796899003342a.pdf/poor_mans_concurrency_monad.pdf	published	1999
 https://web.cecs.pdx.edu/~apt/wflp03.pdf	modified	2004-05-05
 https://harrisonwl.github.io/assets/papers/hosc-cheapthreads.pdf	N/A
 https://www.softlab.ntua.gr/research/techrep/CSD-SW-TR-2-01.pdf	N/A
@@ -1530,11 +1530,11 @@ https://www.stackage.org/package/bluefin-internal	indexed	2026-07-27
 https://www.stackage.org/package/bluefin	indexed	2026-07-27
 https://www.stackage.org/package/bluefin-effects	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf/semantics-of-value-recursion-for-monadic-inputoutput.pdf	publication	2002-04
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43840B587166A4609773DA629DD318CD/S0956796803000911a.pdf/7-basic-inputoutput.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43840B587166A4609773DA629DD318CD/S0956796803000911a.pdf/7-basic-inputoutput.pdf	published	2003
 https://people.cs.nott.ac.uk/psztxa/talks/qics07.pdf	modified	2007-04-27
 https://homepages.inf.ed.ac.uk/slindley/papers/gvhs-draft-june2016.pdf	created	2016
 https://homepages.inf.ed.ac.uk/slindley/papers/effmondel-jfp.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data-types-a-la-carte.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data-types-a-la-carte.pdf	published	2008
 https://www.cs.cmu.edu/~fp/courses/15312-f03/handouts/15-monads.pdf	N/A
 https://web.cecs.pdx.edu/~mpj/pubs/RR-982.pdf	modified	2005-10-01
 https://www.cse.sc.edu/~mgv/csce330f12/haskell/haskell98-report.pdf	N/A
@@ -1654,7 +1654,7 @@ https://arxiv.org/pdf/2207.12703	created	2022-07
 https://arxiv.org/pdf/2105.13468	created	2021-05
 https://arxiv.org/pdf/2205.06841	created	2022-05
 https://arxiv.org/pdf/2604.27863	created	2026-04
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/automatically_testing_console_io_behavior_of_student_submissions_in_haskell.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/automatically_testing_console_io_behavior_of_student_submissions_in_haskell.pdf	published	2025
 https://simonmar.github.io/bib/papers/monad-par.pdf	N/A
 https://www.math.mcgill.ca/gsams/drp/papers/papers2025/Report14.pdf	created	2025
 https://cseweb.ucsd.edu/~dstefan/cse130-winter18/lectures/week8/	N/A
@@ -2212,7 +2212,7 @@ https://research.chalmers.se/publication/529325/file/529325_Fulltext.pdf	N/A
 https://research.chalmers.se/publication/529325	publication	2022
 https://link.springer.com/chapter/10.1007/978-3-031-16912-0_6	publication	2022
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/hefty-algebras-modular-elaboration-of-higherorder-effects/A33FE759BB81EA94A180798C92E16283	publication	2025-01
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/hefty_algebras_modular_elaboration_of_higherorder_effects.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/hefty_algebras_modular_elaboration_of_higherorder_effects.pdf	published	2025
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/monad.pdf	N/A
 https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/monad.ps	N/A
 https://dl.acm.org/doi/10.1145/2034773.2034777	publication	2011-09-19
@@ -2334,7 +2334,7 @@ https://www.microsoft.com/en-us/research/publication/deriving-monad-transformers
 https://www.microsoft.com/en-us/research/publication/deriving-backtracking-monad-transformers/	N/A
 https://www.microsoft.com/en-us/research/publication/monad-transformers-step-by-step/	N/A
 https://www.microsoft.com/en-us/research/publication/monads-and-modularity/	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/903740A1C61C5EFD81B4695171949F51/S1471068426100453a.pdf/monadic_implementation_of_functional_logic_programs.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/903740A1C61C5EFD81B4695171949F51/S1471068426100453a.pdf/monadic_implementation_of_functional_logic_programs.pdf	published	2026-06-25
 https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/firstview	N/A
 https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/article/monadic-implementation-of-functional-logic-programs/903740A1C61C5EFD81B4695171949F51	N/A
 https://dl.acm.org/doi/10.1145/3678232.3678249	publication	2024-09-09
@@ -2344,7 +2344,7 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://www.cambridge.org/core/books/programming-in-haskell/8FED82E807EF12D390DE0D16FDE217E4	publication	2016-09-01
 https://www.cambridge.org/core/books/programming-in-haskell/contents/EF427572D284ABD162A56FBABA2BB02A	publication	2007-01
 https://www.cambridge.org/core/books/haskell-school-of-music/basic-inputoutput/03A2DF3922E2627E9D6830B1C476AB8E	publication	2018-10
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B59B87DE000F48B9807F24AEDB11452E/S0956796824000157a.pdf/practical_formalization_of_monadic_equational_reasoning_in_dependenttype_theory.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B59B87DE000F48B9807F24AEDB11452E/S0956796824000157a.pdf/practical_formalization_of_monadic_equational_reasoning_in_dependenttype_theory.pdf	published	2025
 https://doi.org/10.1017/S0956796824000157	publication	2025-01
 https://dl.acm.org/doi/10.1145/261964.2619688	N/A
 https://www.microsoft.com/en-us/research/publication/monadic-parsing-in-haskell/	N/A
@@ -2614,7 +2614,7 @@ https://arxiv.org/pdf/2504.10159	created	2025-04
 https://arxiv.org/pdf/2506.12212	created	2025-06
 https://arxiv.org/pdf/2511.05739	created	2025-11
 https://arxiv.org/pdf/2504.03890	created	2025-04
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FCD90F7590C031791DBE08DCD65CED5/S0956796824000054a.pdf/signature-restriction-for-polymorphic-algebraic-effects.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FCD90F7590C031791DBE08DCD65CED5/S0956796824000054a.pdf/signature-restriction-for-polymorphic-algebraic-effects.pdf	published	2024
 https://learnyouahaskell.github.io/introduction.html	N/A
 https://stuff.mit.edu/afs/athena/software/frege-lang_v3.24/Introduction_Frege.pdf	N/A
 https://www.kestrel.edu/research/specware/documentation/4.2/user-manual/SpecwareUserManual.pdf	N/A
@@ -2675,9 +2675,9 @@ https://www.cambridge.org/core/books/haskell-school-of-music/higher-order-types-
 https://math.andrej.com/wp-content/uploads/2012/03/eff.pdf	created	2012
 https://homepages.inf.ed.ac.uk/gdp/publications/handling-algebraic-effects.pdf	N/A
 https://denotational.co.uk/publications/kammar-pretnar-no-value-restriction-is-neede-for-algebraic-effects-and-handlers.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E11A8F2693A1762295769026C91E2D1D/S0956796820000106a.pdf/generalized-monoidal-effects-and-handlers.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E11A8F2693A1762295769026C91E2D1D/S0956796820000106a.pdf/generalized-monoidal-effects-and-handlers.pdf	published	2020
 https://yangzhixuan.github.io/pdf/scoped-cata.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31638FCCC07130C30C42853CF0E0A4C2/S0956796824000066a.pdf/algebraic-effects-and-handlers-for-arrows.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31638FCCC07130C30C42853CF0E0A4C2/S0956796824000066a.pdf/algebraic-effects-and-handlers-for-arrows.pdf	published	2024
 https://chrispenner.ca/posts/expressiveness-spectrum	N/A
 https://antelang.org/blog/why_effects/	publication	2025-05-21
 https://discourse.haskell.org/t/transformer-version-of-the-st-monad/13623	publication	2026-01-30
@@ -4833,7 +4833,7 @@ https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/preface
 https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A991724	N/A
 https://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-18713	N/A
 https://citeseerx.ist.psu.edu/document?doi=63a7a6c91df931904354fcc1768135ecc3f603de&repid=rep1&type=pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EFAEBBE3A19EA03A8D6D75A5348E194/S0956796800001258a.pdf/the-ins-and-outs-of-clean-io.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EFAEBBE3A19EA03A8D6D75A5348E194/S0956796800001258a.pdf/the-ins-and-outs-of-clean-io.pdf	published	1995
 https://www.cs.tufts.edu/comp/150FP/archive/matthias-felleisen/functional-io.pdf	modified	2014-02-04
 https://cir.nii.ac.jp/crid/1360586669745382528	N/A
 https://web.cecs.pdx.edu/~apt/icfp09_accepted_papers/accepted.html	modified	2009-07-20
@@ -7058,7 +7058,7 @@ https://ogi.altocumulus.org/~hallgren/Fudgets/	N/A
 https://www.altocumulus.org/Fudgets/dist-h12.html	N/A
 https://dblp1.uni-trier.de/rec/conf/icfp/ElliottH97.html	published	1997
 https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_368/_article/-char/en	publication	2025
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C828ACD945F6DF45CE9B5DFDF0B67C76/S0956796800003671a.pdf/functional_reactive_animation_of_a_lift_using_fran.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C828ACD945F6DF45CE9B5DFDF0B67C76/S0956796800003671a.pdf/functional_reactive_animation_of_a_lift_using_fran.pdf	published	2000
 https://alastairreid.github.io/papers/	N/A
 https://discourse.haskell.org/t/haskeller-interest-in-declarative-gui/7384	publication	2023-08-22
 https://foldoc.org/Fudgets	N/A
@@ -7759,9 +7759,9 @@ https://dblp.org/rec/journals/corr/abs-2008-09253.ris	created	2008
 https://dblp.org/rec/journals/corr/abs-2008-09253.xml	created	2008
 https://www.uni-due.de/fmi/veroeffentlichungen_en.php	N/A
 https://www.uni-due.de/fmi/westphal	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/automatically-testing-console-io-behavior-of-student-submissions-in-haskell.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/automatically-testing-console-io-behavior-of-student-submissions-in-haskell.pdf	published	2025
 https://openalex.org/W4414067080	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/div-class-title-automatically-testing-console-i-o-behavior-of-student-submissions-in-haskell-div.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/div-class-title-automatically-testing-console-i-o-behavior-of-student-submissions-in-haskell-div.pdf	published	2025
 ## Functional and operational semantics for I/O
 https://dblp.org/rec/conf/fpca/Gordon93.html	published	1993
 https://dblp.org/rec/conf/fpca/Gordon93.bib	published	1993
@@ -8386,7 +8386,7 @@ https://mail.haskell.org/pipermail/haskell-cafe/2012-February/099131.html	create
 https://www.lehmanns.ch/shop/mathematik-informatik/9157073-9780521070072-functional-programming-and-input-output	N/A
 https://www.thriftbooks.com/w/functional-programming-and-inputoutput-distinguished-dissertations-in-computer-science_andrew-d-gordon/2364316/	N/A
 https://www.cambridge.org/core/books/abs/functional-approach-to-programming/imperative-aspects/96E4D69020AF0746C8122C4368C048AE	publication	1998-10
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/354FFB29102309CCD2A3824F894A2799/S0956796800000319a.pdf/implementing_lazy_functional_languages_on_stock_hardware_the_spineless_tagless_gmachine.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/354FFB29102309CCD2A3824F894A2799/S0956796800000319a.pdf/implementing_lazy_functional_languages_on_stock_hardware_the_spineless_tagless_gmachine.pdf	published	1992
 https://doi.org/10.1017/S0956796800000319	publication	1992-04
 ## IO monad course notes, slides, and lecture mirrors
 https://www.studocu.com/en-au/document/haileybury/computer-science/12-lecture-notes-1/24337222	N/A
@@ -9828,8 +9828,8 @@ https://hackage.haskell.org/package/liboleg/docs/System-SafeHandles.html	created
 https://www.inf.ed.ac.uk/teaching/courses/inf1/fp/	N/A
 https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/pages/calendar/	created	2002
 ## Publisher-hosted IO and effect-system papers
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data_types_a_la_carte.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C389E0D461C51F7D20E871BF2DDF4B21/S0956796812000366a.pdf/syntactic_soundness_proof_of_a_typeandcapability_system_with_hidden_state.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data_types_a_la_carte.pdf	published	2008
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C389E0D461C51F7D20E871BF2DDF4B21/S0956796812000366a.pdf/syntactic_soundness_proof_of_a_typeandcapability_system_with_hidden_state.pdf	published	2013
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/84D5EB6061CC0B2A2C73AC148A26EB6C/S0956796808006916a.pdf/transactional_events1.pdf	N/A
 ## Monadic IO bibliography records and archive mirrors
 https://dblp.org/rec/journals/jfp/Jones03f	published	2003
@@ -10057,7 +10057,7 @@ https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/t
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch19.html	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0100.xhtml	N/A
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/A512C0BB77D425E55066CBF97E68C153/S0956796803000819a.pdf/6_predefined_types_and_classes.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7D23DA54801AFA0FD239DEF3B0C05E26/S0956796809990220a.pdf/domainspecific_language_for_experimental_game_theory.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7D23DA54801AFA0FD239DEF3B0C05E26/S0956796809990220a.pdf/domainspecific_language_for_experimental_game_theory.pdf	published	2009
 https://www.researchgate.net/publication/221600563_Proving_Correctness_of_Programs_with_IO_-A_Paradigm_Comparison	N/A
 https://link.springer.com/book/10.1007/978-1-4471-3196-0	publication	1992
 https://link.springer.com/book/10.1007/978-1-4471-3236-3	publication	1994
@@ -10240,7 +10240,7 @@ https://www.haskell.org/hugs/pages/libraries/base/Data-Unique.html	modified	2019
 https://ghcguide.haskell.jp/8.2.2/users_guide/lang.html	N/A
 https://link.springer.com/book/10.1007/979-8-8688-1282-8	publication	2025
 https://link.springer.com/book/10.1007/978-3-642-04718-3	publication	2011
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C418D095ECDDA0E2C777BA68D09C2592/S0956796803000315a.pdf/1_introduction.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C418D095ECDDA0E2C777BA68D09C2592/S0956796803000315a.pdf/1_introduction.pdf	published	2003
 https://link.springer.com/book/10.1007/3-540-45361-X	publication	2001
 https://link.springer.com/book/10.1007/978-1-4302-6251-0	publication	2014
 https://link.springer.com/book/10.1007/978-1-4842-4480-7	publication	2019
@@ -11376,7 +11376,7 @@ https://hackage.haskell.org/package/network-conduit/docs/Data-Conduit-Network.ht
 https://www.cl.cam.ac.uk/~jdy22/papers/dissertation.pdf	modified	2026-04-07
 https://haskell-for-readers.nomeata.de/haskell-for-readers.pdf	N/A
 https://de.wikipedia.org/wiki/Socket	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F34DEFF8D123F59DB19AAF76DA5241F0/S0956796899003561a.pdf/server-side-web-scripting-in-haskell.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F34DEFF8D123F59DB19AAF76DA5241F0/S0956796899003561a.pdf/server-side-web-scripting-in-haskell.pdf	published	2000
 https://www.mendeley.com/catalogue/e196e77b-fb78-34e8-98e0-484fe9c1f433/	publication	2000
 https://wrap.warwick.ac.uk/id/eprint/155565/	N/A
 https://en.wikipedia.org/wiki/Philip_Wadler	modified	2026-07-24
@@ -12085,7 +12085,7 @@ https://webspace.science.uu.nl/~hage0101/FP-elec.pdf	N/A
 https://fldit-www.cs.tu-dortmund.de/~peter/HaskellHistory.pdf	N/A
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Exception.html	N/A
 https://www.brics.dk/NS/94/5/BRICS-NS-94-5.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37B1EAE149C3EE88BE5A90EF9B56FD4F/S0956796898002998a.pdf/div-class-title-computational-types-from-a-logical-perspective-div.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37B1EAE149C3EE88BE5A90EF9B56FD4F/S0956796898002998a.pdf/div-class-title-computational-types-from-a-logical-perspective-div.pdf	published	1998
 https://citeseerx.ist.psu.edu/document?doi=19ec20f318919ca399be8d40017f4a205907aed6&repid=rep1&type=pdf	N/A
 https://files01.core.ac.uk/download/pdf/586453137.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=a61a8264b7c8cdfaec1ee6ea056a4fb6425f8a89&repid=rep1&type=pdf	N/A
@@ -12141,7 +12141,7 @@ https://downloads.haskell.org/~ghc/9.8.0.20230809/docs/libraries/bytestring-0.11
 https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/src/GHC.Internal.System.IO.html	modified	2025-12-18
 https://www.cs.hs-rm.de/~sabel/assets/files/slides/chf-conservative.pdf	N/A
 https://doi.org/10.1007/BF01018827	published	1995
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/050F6652EB31D730ECC20A16E5B0E8EE/S0956796800001611a.pdf/note_on_algol_and_conservatively_extending_functional_programming.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/050F6652EB31D730ECC20A16E5B0E8EE/S0956796800001611a.pdf/note_on_algol_and_conservatively_extending_functional_programming.pdf	published	1996
 https://ftp.math.utah.edu/pub/tex/bib/toc/lispsymbcomput.html	N/A
 https://etheses.dur.ac.uk/2800/	created	2005
 https://era.ed.ac.uk/handle/1842/28788	publication	2017-11-30
@@ -12687,14 +12687,14 @@ https://www.dcs.gla.ac.uk/~jtod/publications/	N/A
 https://www.dcs.gla.ac.uk/~jtod/research/	N/A
 https://citeseerx.ist.psu.edu/document?doi=063e4644d68c3e458cddc5a08125aa539428cdc2&repid=rep1&type=pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/modelling-operating-system-structures-by-timed-stream-processing-functions/3A13783378428EA08B1AE8A4BCC8021E	publication	1992-01
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66F1ACF22742EA28DD52608A5122E70F/S0956796800003828a.pdf/forms3-a-first-order-visual-language-to-explore-the-boundaries-of-the-spreadsheet-paradigm.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66F1ACF22742EA28DD52608A5122E70F/S0956796800003828a.pdf/forms3-a-first-order-visual-language-to-explore-the-boundaries-of-the-spreadsheet-paradigm.pdf	published	2001
 https://citeseerx.ist.psu.edu/document?doi=392c21206ea2a5ced3396499f5b9c1f2278842e1&repid=rep1&type=pdf	N/A
 https://discourse.haskell.org/t/introducing-neohaskell-a-beacon-of-joy-in-a-greyed-tech-world/7688/78	publication	2023-09-28
 https://portal.fis.tum.de/en/publications/modelling-operating-system-structures-by-timed-stream-processing-/	publication	1992-01
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/105EF62E27A41601CFDF851224DF4409/S095679680000023Xa.pdf/jfp_volume_2_issue_1_cover_and_back_matter.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=3a5299228a953f17368e88faccf177d4e2154513&repid=rep1&type=pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=6478c1cd00444e731d6332ef3a26121eee054f11&repid=rep1&type=pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FFCC72D11DECDEC984C88AA62DC10BA5/S0956796800002021a.pdf/author_index_to_volume_2.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FFCC72D11DECDEC984C88AA62DC10BA5/S0956796800002021a.pdf/author_index_to_volume_2.pdf	published	1992
 https://dblp.org/db/journals/jfp/jfp2	N/A
 https://ftp.math.utah.edu/pub/tex/bib/jfunctprogram.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=b0259710da1e0c0268d452233b87033b7c9b3041&repid=rep1&type=pdf	N/A
@@ -29064,7 +29064,7 @@ https://hackage-content.haskell.org/package/hakyll-4.16.6.0/docs/Hakyll-Core-Pro
 https://hackage.haskell.org/package/backprop-0.1.2.0/src/renders/backprop-mnist.pdf	N/A
 https://hackage.haskell.org/package/backprop-0.1.4.0/src/renders/backprop-mnist.pdf	N/A
 https://homepages.inf.ed.ac.uk/wadler/short.html	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EFAEBBE3A19EA03A8D6D75A5348E194/S0956796800001258a.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2EFAEBBE3A19EA03A8D6D75A5348E194/S0956796800001258a.pdf	published	1995
 https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.html	modified	2019-02-15
 https://eurekamag.com/research/104/856/104856751.php	N/A
 https://hackage.haskell.org/package/GHC-IO.html	N/A
@@ -30161,15 +30161,15 @@ https://www.csse.canterbury.ac.nz/walter.guttmann/publications/0026.pdf	N/A
 https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3	indexed	2026-07-27
 https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0	indexed	2026-07-27
 https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0	indexed	2026-07-27
-https://www.cambridge.org/core/article/10.1017/S0956796800001611	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf	N/A
+https://www.cambridge.org/core/article/10.1017/S0956796800001611	published	1996
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf	published	1998
 https://www.haskell.org/onlinereport/haskell98-report.pdf	N/A
 https://www.stackage.org/nightly-2015-07-12/package/monad-stm-0.1.0.2	created	2015
 https://www.stackage.org/nightly-2016-02-19/package/monad-stm-0.1.0.2	created	2016
 https://www.stackage.org/nightly-2016-02-29/package/monad-stm	created	2016
 https://www.stackage.org/lts-18.28/package/unliftio-0.2.21.0	indexed	2026-07-27
 https://www.stackage.org/lts-7.24/package/monad-unlift-0.2.0	indexed	2026-07-27
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf	published	1998
 https://www.mmhaskell.com/courses/summary	N/A
 https://www.stackage.org/lts-18.28/package/lifted-base-0.2.3.12	indexed	2026-07-27
 https://www.stackage.org/lts-20.26/package/lifted-base-0.2.3.12	indexed	2026-07-27
@@ -30178,8 +30178,8 @@ https://www.stackage.org/lts-23.13/package/monad-peel-0.3	indexed	2026-07-27
 https://www.stackage.org/lts-24.24/package/monad-peel-0.3	indexed	2026-07-27
 https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11	indexed	2026-07-27
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/E9F6A3ABEC907BAA7C2F1E8810106BA5	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F4A86F27A77CAC76080B5F79667E619/S0956796816000071a.pdf/composable-scheduler-activations-for-haskell.pdf	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616ACD5687ABDC86D2B341E83D298/S0956796807006326a.pdf/applicative-programming-with-effects.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F4A86F27A77CAC76080B5F79667E619/S0956796816000071a.pdf/composable-scheduler-activations-for-haskell.pdf	published	2016
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616ACD5687ABDC86D2B341E83D298/S0956796807006326a.pdf/applicative-programming-with-effects.pdf	published	2008
 https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3	indexed	2026-07-27
 https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1	indexed	2026-07-27
 https://www.stackage.org/nightly-2025-02-20/package/monad-control-1.0.3.1	created	2025
@@ -30266,7 +30266,7 @@ https://en.wikibooks.org/wiki/Haskell/Denotational_semantics	modified	2026-07-13
 https://idris2.readthedocs.io/en/stable/app/	N/A
 https://files.core.ac.uk/download/62781956.pdf	N/A
 https://www.cambridge.org/core/books/abs/algorithm-design-with-haskell/functional-programming/211847F53158D024C6E5B0379571933A	publication	2020-07
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf	published	2009
 https://conf.researchr.org/home/icfp-splash-2025/haskellsymp-2025	created	2025
 https://conf.researchr.org/details/icfp-splash-2025/haskellsymp-2025-papers/20/Machine-Learning-Primitives-as-Algebraic-Effects	created	2025
 https://popl25.sigplan.org/details/PADL-2025-papers/10/Haskell-Based-Spreadsheets	created	2025
@@ -30462,7 +30462,7 @@ https://icfp23.sigplan.org/details/haskellsymp-2023/4/Effect-Handlers-for-Progra
 https://discourse.haskell.org/t/haskell-implementors-workshop-2023-individual-talk-videos-on-youtube/8221	publication	2023-11-27
 https://haskell.foundation/events/2025-haskell-implementors-workshop.html	created	2025
 https://books.kabisa.nl/books/79	N/A
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2FB7DC08AA6A4FE4A65E40DEBA82EF5C/S0956796800000575a.pdf/using_miranda_as_a_first_programming_language.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2FB7DC08AA6A4FE4A65E40DEBA82EF5C/S0956796800000575a.pdf/using_miranda_as_a_first_programming_language.pdf	published	1993
 https://research.utwente.nl/en/publications/static-analysis-of-functional-programs-2/	publication	1994-10
 https://www.curry-language.org/assets/files/tools/cass/cass_paper.pdf	N/A
 https://agda.readthedocs.io/en/v2.7.0/overview.html	N/A
@@ -32810,7 +32810,7 @@ https://hackage-content.haskell.org/package/HTTP-4000.5.0/docs/Network-TCP.html	
 https://www.classcentral.com/course/youtube-haskell-25-machine-learning-primitives-as-algebraic-effects-508816	N/A
 https://haskellweekly.news/issue/463.html	N/A
 https://icfp25.sigplan.org/room/splash-2025-venue-peony-sw	created	2025
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/190FBF349B0D32D56992C566CDBF5ED5/S0956796824000133a.pdf/from_high_to_low_simulating_nondeterminism_and_state_with_state.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/190FBF349B0D32D56992C566CDBF5ED5/S0956796824000133a.pdf/from_high_to_low_simulating_nondeterminism_and_state_with_state.pdf	published	2024
 https://pure.itu.dk/en/projects/algebraic-effects-and-guarded-recursion/publications/	N/A
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2025/5/	created	2025
 https://explore.gcts.edu/algebra-suggest-010/files?ID=KjE05-5383&title=why-algebraic-effects.pdf	N/A
@@ -32831,7 +32831,7 @@ https://repository.tudelft.nl/record/uuid%3A414215b8-837d-46d5-952e-bdc5b47e47cc
 https://hackage.haskell.org/package/network-2.6.0.0/docs	N/A
 https://icfp26.sigplan.org/home/hope-2026	created	2026
 https://doi.org/10.1145/3808259	published	2026-06-08
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf	N/A
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf	published	2025
 https://hackage.haskell.org/package/happstack-monad-peel/docs	created	2013-02-22
 https://www.stackage.org/package/http-conduit	indexed	2026-07-27
 https://hackage-content.haskell.org/package/mstate-0.2.11/docs/Control-Concurrent-MState.html	published	2025-02-04
