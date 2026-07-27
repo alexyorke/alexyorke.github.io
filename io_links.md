@@ -953,8 +953,8 @@ https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect	N/A
 https://idris2.readthedocs.io/en/latest/app/index.html	N/A
 https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html	N/A
 https://idris2.readthedocs.io/en/latest/tutorial/multiplicities.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.html	N/A
+https://agda.github.io/agda-stdlib/master/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.html	modified	2026-07-16
 https://www.haskell.org/definition/ffi/	N/A
 https://lean-lang.org/doc/reference/latest/IO/Logical-Model/	N/A
 https://lean-lang.org/doc/reference/latest/IO/Files___-File-Handles___-and-Streams/	N/A
@@ -11429,7 +11429,7 @@ https://zh.wikipedia.org/wiki/Agda	N/A
 https://csetzer.github.io/articles/ooAgda.pdf	N/A
 https://agda.readthedocs.io/en/v2.6.1/tools/package-system.html	N/A
 https://wiki.portal.chalmers.se/agda/pmwiki.php?n=ReferenceManual.Codatatypes	N/A
-https://agda.github.io/agda/	N/A
+https://agda.github.io/agda/	modified	2026-07-09
 https://leanpub.com/fpmortals	N/A
 https://leanprover.github.io/functional_programming_in_lean/	N/A
 https://arxiv.org/abs/1406.2059	created	2014-06
@@ -12501,10 +12501,10 @@ https://www.sciencedirect.com/science/article/pii/S0304397506003422	N/A
 https://www.researchgate.net/publication/2883874_Guarded_Induction_and_Weakly_Final_Coalgebras_in	N/A
 https://dblp.org/pid/01/2499.html	N/A
 https://agda.readthedocs.io/en/v2.6.0.1/getting-started/hello-world.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/Effect.Monad.IO.html	N/A
+https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/Effect.Monad.IO.html	modified	2026-07-16
 https://agda.readthedocs.io/_/downloads/en/v2.7.0/pdf/	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Effectful.html	N/A
+https://agda.github.io/agda-stdlib/experimental/IO.Effectful.html	modified	2026-07-16
 https://my-agda.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://cronfa.swansea.ac.uk/Record/cronfa64152/Download/64152__30604__9432b09ebca14099a3bb61fc19f22e8a.pdf	N/A
 https://agda.readthedocs.io/_/downloads/en/v2.6.0/pdf/	N/A
@@ -14464,7 +14464,7 @@ https://discourse.haskell.org/t/monadic-code-in-haskell/7872	publication	2023-10
 https://citeseerx.ist.psu.edu/document?doi=4ade042eb26557c55c5976a995ff36b19a679f3b&repid=rep1&type=pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157	N/A
 https://www.themoonlight.io/en/review/hastee-confidential-cloud-computing-and-analytics-with-haskell	N/A
-https://agda.github.io/agda-stdlib/master/Everything.html	N/A
+https://agda.github.io/agda-stdlib/master/Everything.html	modified	2026-07-16
 https://abakst.github.io/bounded.pdf	N/A
 https://ranjitjhala.github.io/static/bounded_refinement_types.pdf	N/A
 https://hackage.haskell.org/packages/tag/security	N/A
@@ -26193,21 +26193,21 @@ https://docs.idris-lang.org/en/v1.3.1/effects/introduction.html	N/A
 https://docs.idris-lang.org/en/v1.3.1/effects/simpleeff.html	N/A
 https://docs.idris-lang.org/en/v1.3.1/effects/state.html	N/A
 https://docs.idris-lang.org/en/v1.3.1/effects/summary.html	N/A
-https://agda.github.io/agda-stdlib/	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/master/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Base.html	N/A
+https://agda.github.io/agda-stdlib/	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Base.html	modified	2026-07-16
 https://agda.readthedocs.io/_/downloads/en/v2.5.2/pdf/	N/A
 https://agda.readthedocs.io/_/downloads/en/v2.5.3/pdf/	N/A
 https://agda.readthedocs.io/_/downloads/en/v2.5.4/pdf/	N/A
@@ -26222,252 +26222,252 @@ https://people.cs.nott.ac.uk/psztxa/g53cfr/l15.html/l15.html	N/A
 https://people.inf.elte.hu/divip/AgdaTutorial/Revise.Coinduction.html	N/A
 https://repository.tudelft.nl/file/File_9d5e9685-a9e3-47df-9cdd-03cecb4b44c7	N/A
 https://www.reddit.com/r/agda/comments/btqwfk	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Infinite.html	N/A
+https://agda.github.io/agda-stdlib/experimental/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Infinite.html	modified	2026-07-16
 https://digikogu.taltech.ee/en/Download/263b2b89-218f-4bbf-bf2a-2a7fa600111b	N/A
 https://hdl.handle.net/20.500.12380/117330	publication	2009
 https://sources.debian.org/src/agda-stdlib/2.1-4/CHANGELOG.md	N/A
 https://wiki.portal.chalmers.se/agda/Main/Epic	N/A
 https://www.reddit.com/r/agda/comments/eykomb	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/Effect.Monad.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/Effect.Monad.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/Effect.Monad.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/Effect.Monad.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Core.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Handle.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Effectful.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/Effect.Monad.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.0/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.3/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.2/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7.1/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.7/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.Base.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.Finite.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.Infinite.html	N/A
-https://agda.github.io/agda-stdlib/v1.6/README.IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.5/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.5/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.4/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.4/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.3/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.3/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.2/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.2/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.1/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.1/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v1.0/IO.html	N/A
-https://agda.github.io/agda-stdlib/v1.0/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v0.17/IO.html	N/A
-https://agda.github.io/agda-stdlib/v0.17/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v0.16/IO.html	N/A
-https://agda.github.io/agda-stdlib/v0.16/IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/master/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/master/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/master/System.Clock.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/experimental/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/experimental/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/experimental/System.Clock.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/v2.4/System.Clock.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/v2.3/System.Clock.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/v2.2/System.Clock.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/v2.1.1/System.Clock.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/Effect.Monad.IO.Instances.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/Data.Bytestring.IO.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/Data.Bytestring.IO.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Directory.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Directory.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Environment.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Environment.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Exit.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Exit.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Process.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Process.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Random.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Random.Primitive.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Clock.html	N/A
-https://agda.github.io/agda-stdlib/v2.1/System.Clock.Primitive.html	N/A
+https://agda.github.io/agda-stdlib/v2.4/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/Effect.Monad.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/Effect.Monad.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/Effect.Monad.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/Effect.Monad.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Core.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Handle.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Effectful.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/Effect.Monad.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.0/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.3/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.2/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7.1/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.7/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/IO.Base.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/IO.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.Finite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.Infinite.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.6/README.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.5/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.5/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.4/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.4/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.3/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.3/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.2/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.2/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.1/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.1/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.0/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v1.0/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v0.17/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v0.17/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v0.16/IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v0.16/IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/master/System.Clock.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/experimental/System.Clock.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.4/System.Clock.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.3/System.Clock.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.2/System.Clock.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1.1/System.Clock.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/Effect.Monad.IO.Instances.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/Data.Bytestring.IO.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/Data.Bytestring.IO.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Directory.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Directory.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Environment.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Environment.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Exit.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Exit.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Process.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Process.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Random.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Random.Primitive.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Clock.html	modified	2026-07-16
+https://agda.github.io/agda-stdlib/v2.1/System.Clock.Primitive.html	modified	2026-07-16
 https://gist.github.com/UlfNorell/bb7b807e7de013a7daca310da123c834	N/A
 https://github.com/agda/agda/issues/5843	updated	2026-07-21
 https://hackage.haskell.org/package/Agda-2.6.1/src/doc/user-manual.pdf	created	2020-03-16
@@ -26565,12 +26565,12 @@ https://github.com/agda/agda-stdlib/blob/v1.6/src/IO.agda	updated	2026-07-16
 https://github.com/agda/agda-stdlib/blob/v1.6/src/IO/Base.agda	updated	2026-07-16
 https://github.com/agda/agda-stdlib/blob/v1.6/src/IO/Primitive.agda	updated	2026-07-16
 https://github.com/agda/agda-stdlib/blob/v1.6/README/IO.agda	updated	2026-07-16
-https://agda.github.io/agda/Agda-Utils-Monad.html	N/A
-https://agda.github.io/agda-stdlib/master/Effect.Monad.Random.html	N/A
+https://agda.github.io/agda/Agda-Utils-Monad.html	modified	2026-07-09
+https://agda.github.io/agda-stdlib/master/Effect.Monad.Random.html	modified	2026-07-16
 https://editorialcimted.com/wp-content/uploads/2024/10/El-Arte-de-la-Programaci%C3%B3n-Funcional-Gu%C3%ADa-de-Aprendizaje-en-AGDA.pdf	created	2024
 https://programming.muthu.co/posts/beginners-guide-to-agda/	publication	2024-12-19
 https://repository.tudelft.nl/file/File_3da24d5e-7fee-4b39-ad31-de326efd77b1	N/A
-https://agda.github.io/agda/Agda-TypeChecking-Monad-Base.html	N/A
+https://agda.github.io/agda/Agda-TypeChecking-Monad-Base.html	modified	2026-07-09
 https://casvdrest.github.io/staged-effects.agda/pepm21.pdf	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITP.2021.13	created	2021
 https://repository.tudelft.nl/record/uuid%3Acfe6b4c0-bbe3-43f2-8482-bc7dcd067280	publication	2025
@@ -28113,7 +28113,7 @@ https://hackage-content.haskell.org/package/free	N/A
 https://michael.homer.nz/Thesis/thesis.pdf	N/A
 https://www.cis.upenn.edu/~stevez/papers/KLL%2B19.pdf	N/A
 https://www.researchgate.net/publication/227308118_Interactive_Programs_in_Dependent_Type_Theory	N/A
-https://agda.github.io/agda-stdlib/v1.1/Category.Monad.html	N/A
+https://agda.github.io/agda-stdlib/v1.1/Category.Monad.html	modified	2026-07-16
 https://agda.readthedocs.io/en/latest/language/coinduction.html	N/A
 https://arxiv.org/abs/1702.02282	created	2017-02
 https://arxiv.org/abs/1704.07004	created	2017-04
