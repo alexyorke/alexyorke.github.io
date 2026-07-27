@@ -9652,84 +9652,84 @@ https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-QSemN.html	c
 https://hackage.haskell.org/package/unliftio-0.2.21.0/docs/UnliftIO-IO-File.html	created	2022-02-09
 https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Chan.html	created	2022-04-26
 https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Directory.html	created	2022-04-26
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-IO-File.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Chan.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Environment.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Foreign.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Memoize.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Process.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Temporary.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-QSem.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-QSemN.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IO-File.html	N/A
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Environment.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Foreign.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Memoize.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Process.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-Temporary.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-QSem.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-QSemN.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.22.0/docs/UnliftIO-IO-File.html	created	2022-04-26
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Chan.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Directory.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Environment.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Foreign.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Memoize.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Process.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-Temporary.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-QSem.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-QSemN.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.23.0/docs/UnliftIO-IO-File.html	created	2022-10-27
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Chan.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Directory.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Environment.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Foreign.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Memoize.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Process.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-Temporary.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-QSem.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-QSemN.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.24.0/docs/UnliftIO-IO-File.html	created	2023-02-28
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Chan.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Directory.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Environment.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Foreign.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Memoize.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Process.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-Temporary.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-QSem.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-QSemN.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.0/docs/UnliftIO-IO-File.html	created	2023-06-16
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Chan.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Directory.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Environment.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Foreign.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Memoize.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Process.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-Temporary.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-QSem.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-QSemN.html	created	2025-03-10
+https://hackage.haskell.org/package/unliftio-0.2.25.1/docs/UnliftIO-IO-File.html	created	2025-03-10
 ## Restricted IO, unexceptional IO, and explicit IO effects
 https://hackage.haskell.org/package/unexceptionalio-0.1.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.1.0/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.1.0/docs/UnexceptionalIO.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.1.0/src/	created	2013-09-20
+https://hackage.haskell.org/package/unexceptionalio-0.1.0/docs/UnexceptionalIO.html	created	2013-09-20
 https://hackage.haskell.org/package/unexceptionalio-0.2.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.2.0/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs/UnexceptionalIO.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.2.0/src/	created	2014-09-13
+https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs/UnexceptionalIO.html	created	2014-09-13
 https://hackage.haskell.org/package/unexceptionalio-0.3.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.3.0/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.3.0/docs/UnexceptionalIO.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.3.0/src/	created	2016-01-07
+https://hackage.haskell.org/package/unexceptionalio-0.3.0/docs/UnexceptionalIO.html	created	2016-01-07
 https://hackage.haskell.org/package/unexceptionalio-0.4.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.4.0/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.4.0/docs/UnexceptionalIO.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.4.0/src/	created	2018-05-08
+https://hackage.haskell.org/package/unexceptionalio-0.4.0/docs/UnexceptionalIO.html	created	2018-05-08
 https://hackage.haskell.org/package/unexceptionalio-0.5.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.5.0/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.5.0/docs/UnexceptionalIO.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.5.0/src/	created	2019-11-27
+https://hackage.haskell.org/package/unexceptionalio-0.5.0/docs/UnexceptionalIO.html	created	2019-11-27
 https://hackage.haskell.org/package/unexceptionalio-0.5.1	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.5.1/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-0.5.1/docs/UnexceptionalIO.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-0.5.1/src/	created	2020-05-13
+https://hackage.haskell.org/package/unexceptionalio-0.5.1/docs/UnexceptionalIO.html	created	2020-05-13
 https://hackage.haskell.org/package/unexceptionalio-trans-0.4.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.4.0/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.4.0/docs/UnexceptionalIO-Trans.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-trans-0.4.0/src/	created	2018-05-08
+https://hackage.haskell.org/package/unexceptionalio-trans-0.4.0/docs/UnexceptionalIO-Trans.html	created	2018-05-08
 https://hackage.haskell.org/package/unexceptionalio-trans-0.5.0	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.5.0/src/	N/A
+https://hackage.haskell.org/package/unexceptionalio-trans-0.5.0/src/	created	2019-11-27
 https://hackage.haskell.org/package/unexceptionalio-trans-0.5.1	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.5.1/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.5.1/docs/UnexceptionalIO-Trans.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-trans-0.5.1/src/	created	2020-02-12
+https://hackage.haskell.org/package/unexceptionalio-trans-0.5.1/docs/UnexceptionalIO-Trans.html	created	2020-02-12
 https://hackage.haskell.org/package/unexceptionalio-trans-0.5.2	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.5.2/src/	N/A
-https://hackage.haskell.org/package/unexceptionalio-trans-0.5.2/docs/UnexceptionalIO-Trans.html	N/A
+https://hackage.haskell.org/package/unexceptionalio-trans-0.5.2/src/	created	2024-01-02
+https://hackage.haskell.org/package/unexceptionalio-trans-0.5.2/docs/UnexceptionalIO-Trans.html	created	2024-01-02
 https://hackage.haskell.org/package/io-effects-0.1.0/candidate	N/A
 https://hackage.haskell.org/package/io-effects-0.1.0/candidate/src/	N/A
 ## Versioned GHC.IO and MonadIO implementation references
@@ -9754,8 +9754,8 @@ https://www.sambuz.com/doc/monadic-i-o-in-haskell-ppt-presentation-1026853	N/A
 https://www.cs.rochester.edu/u/scott/pragmatics/1e/A.shtml	N/A
 https://www.cs.tufts.edu/~nr/cs252r/ss.html	N/A
 ## Historical Haskell IO library documentation
-https://hackage.haskell.org/package/haskell98/docs/IO.html	N/A
-https://hackage.haskell.org/package/haskell98/docs/Prelude.html	N/A
+https://hackage.haskell.org/package/haskell98/docs/IO.html	created	2014-03-22
+https://hackage.haskell.org/package/haskell98/docs/Prelude.html	created	2014-03-22
 ## Haskell report publication archives
 https://mail.haskell.org/pipermail/haskell/2010-June/022184.html	created	2010
 ## Testing and mocking IO actions
@@ -9797,33 +9797,33 @@ https://gcanti.github.io/fp-ts/learning-resources/	N/A
 https://person.dibris.unige.it/moggi-eugenio/publications.html	N/A
 https://upload.wikimedia.org/wikipedia/commons/f/f5/Imperative_to_Functional_Programming.pdf	N/A
 ## Concurrent actions abstracted from IO
-https://hackage.haskell.org/package/monad-fork/docs/Control-Monad-Fork-Class.html	N/A
+https://hackage.haskell.org/package/monad-fork/docs/Control-Monad-Fork-Class.html	created	2012-02-21
 ## Graphical and event-driven IO monads
 https://www.mi.fu-berlin.de/math/publications/theses/Ab-D-98-05.html	N/A
 https://softwareengineering.stackexchange.com/questions/288100/how-to-manage-the-state-in-a-gui-app-with-haskell	N/A
-https://hackage.haskell.org/package/event-monad/docs/Control-Monad-Event-Classes.html	N/A
-https://hackage.haskell.org/package/gtk/docs/Graphics-UI-Gtk-General-General.html	N/A
-https://hackage.haskell.org/package/monad-loops-0.4.3/docs/Control-Monad-Loops.html	N/A
+https://hackage.haskell.org/package/event-monad/docs/Control-Monad-Event-Classes.html	created	2010-01-11
+https://hackage.haskell.org/package/gtk/docs/Graphics-UI-Gtk-General-General.html	created	2025-03-20
+https://hackage.haskell.org/package/monad-loops-0.4.3/docs/Control-Monad-Loops.html	created	2015-06-19
 ## Unsafe IO and mutable-state boundaries
 https://downloads.haskell.org/~ghc/9.12.1/docs/libraries/ghc-internal-9.1201.0-3ad5/GHC-Internal-IO-Unsafe.html	N/A
 https://downloads.haskell.org/~ghc/5.04/docs/html/base/Data.IORef.html	N/A
-https://hackage.haskell.org/package/StateVar/docs/Data-StateVar.html	N/A
+https://hackage.haskell.org/package/StateVar/docs/Data-StateVar.html	created	2021-07-25
 https://stackoverflow.com/questions/43230520/is-state-monad-needed-useful-in-a-language-with-mutable-local-variables-such	N/A
 ## Lifting and unlifting IO actions
 https://next.fpcomplete.com/haskell/library/unliftio/	N/A
 ## Lifted IO exceptions and transformer boundaries
 https://stackoverflow.com/questions/25752900/exceptions-and-monad-transformers	N/A
-https://hackage.haskell.org/package/mtl-compat/docs/Control-Monad-Except.html	N/A
+https://hackage.haskell.org/package/mtl-compat/docs/Control-Monad-Except.html	created	2019-04-28
 https://downloads.haskell.org/~ghc/9.2.1/docs/html/libraries/transformers-0.5.6.2/Control-Monad-Trans-Error.html	N/A
 https://stackoverflow.com/questions/26385809/catch-someexception-with-exceptt	N/A
 https://stackoverflow.com/questions/67186267/best-practices-with-monad-transformers-to-hide-or-not-to-hide-liftio	N/A
 https://downloads.haskell.org/ghc/8.2.2-rc1/docs/users_guide.pdf	N/A
 ## Labeled and restricted IO security models
-https://hackage.haskell.org/package/lio/docs/LIO-Labeled.html	N/A
+https://hackage.haskell.org/package/lio/docs/LIO-Labeled.html	created	2020-09-23
 https://cseweb.ucsd.edu/~dstefan/cse291-fall16/papers/lio-sequential.pdf	N/A
 https://api.drum.lib.umd.edu/server/api/core/bitstreams/ee587230-cd94-4e52-84b4-5f5ca8803d07/content	N/A
 ## Capability-safe IO resources
-https://hackage.haskell.org/package/liboleg/docs/System-SafeHandles.html	N/A
+https://hackage.haskell.org/package/liboleg/docs/System-SafeHandles.html	created	2010-10-16
 ## University monadic IO course archives
 https://www.inf.ed.ac.uk/teaching/courses/inf1/fp/	N/A
 https://ocw.mit.edu/courses/6-827-multithreaded-parallelism-languages-and-compilers-fall-2002/pages/calendar/	created	2002
@@ -9957,7 +9957,7 @@ https://www2.fiit.stuba.sk/iitsrc/iit-src2012-postproceedings.pdf	created	2012
 https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/OWA/TC-OWA-5177.pdf	N/A
 https://apfelmus.nfshost.com/blog/2011/07/08-call-for-gui-examples.html	created	2011
 https://doi.org/10.1145/507663.507664	publication	2001
-https://hackage.haskell.org/package/fudgets/docs	N/A
+https://hackage.haskell.org/package/fudgets/docs	created	2023-06-27
 ## Foreign interfaces and Haskell operating-system monads
 https://hackage.haskell.org/package/haskell2010/docs/System-IO.html	created	2010
 https://downloads.haskell.org/~ghc/4.06/docs/users_guide/glasgow-ccalls.html	N/A
@@ -9968,12 +9968,12 @@ https://www.net.in.tum.de/fileadmin/bibtex/publications/theses/2019-ixy-haskell.
 https://old.agniv.me/blog/haskell-os/	publication	2026-03-25
 https://ogi.altocumulus.org/~hallgren/ICFP2005/house.pdf	created	2005
 ## IO exceptions and resource-safety references
-https://hackage.haskell.org/package/base-4.14.3.0/docs/src/GHC-IO-Exception.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/src/GHC-IO-Exception.html	created	2021-08-06
 https://stackoverflow.com/questions/12335245/why-is-catching-an-exception-non-pure-but-throwing-an-exception-is-pure	N/A
 https://mmhaskell.com/blog/2022/6/6/catching-what-weve-thrown	created	2022
 https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/thread/Q476SVPFN5IJLIUVP2VBIOK27MTP6CDF/?sort=thread	N/A
 https://downloads.haskell.org/~ghc/7.2-latest/docs/html/libraries/base-4.4.1.0/Control-Exception-Base.html	N/A
-https://hackage.haskell.org/package/conduit-0.0.1/docs/Control-Monad-Trans-Resource.html	N/A
+https://hackage.haskell.org/package/conduit-0.0.1/docs/Control-Monad-Trans-Resource.html	created	2012-01-06
 https://stackoverflow.com/questions/64468126/how-to-make-bracket-safe-from-async-exception	N/A
 https://downloads.haskell.org/~ghc/6.4.1/docs/hslibs.pdf	N/A
 ## Lazy and streaming I/O references
@@ -9983,7 +9983,7 @@ https://inf.ufes.br/~raulh/ufes/teaching/courses/ds/haskell/haskell98-library-re
 https://downloads.haskell.org/~ghc/8.0.1/docs/html/libraries/ghc-8.0.1/src/Stream.html	N/A
 ## Inspectable and test-oriented I/O representations
 https://downloads.haskell.org/ghc/7.8.3/docs/html/users_guide/interactive-evaluation.html	N/A
-https://hackage.haskell.org/package/extensible-effects-1.11.1.0/docs/Control-Monad-Free-Reflection.html	N/A
+https://hackage.haskell.org/package/extensible-effects-1.11.1.0/docs/Control-Monad-Free-Reflection.html	created	2017-07-11
 https://gupea.ub.gu.se/server/api/core/bitstreams/ef14c4af-102d-41fb-bffe-bcf843275344/content	N/A
 ## Restricted and labeled I/O security references
 https://hackage.haskell.org/package/lio-0.1.2	N/A
@@ -9995,12 +9995,12 @@ https://discourse.haskell.org/t/deprecating-safe-haskell-or-heavily-investing-in
 https://assets.cambridge.org/97810090/98175/index/9781009098175_index.pdf	N/A
 https://api.pageplace.de/preview/DT0400.9780511654831_A24404054/preview-9780511654831_A24404054.pdf	N/A
 https://link.springer.com/chapter/10.1007/978-3-030-47361-7_1	publication	2020
-https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-Q.html	N/A
+https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-Q.html	created	2012-08-22
 https://www.sciencedirect.com/book/9780128023068/foundations-of-quantum-programming	N/A
 https://doi.org/10.1145/3009837.3009894	publication	2017-01
 ## Network and protocol-oriented monadic I/O sources
 https://www.research.ed.ac.uk/en/publications/the-essence-of-functional-programming	publication	1992
-https://hackage.haskell.org/package/socket-io/docs/Network-SocketIO.html	N/A
+https://hackage.haskell.org/package/socket-io/docs/Network-SocketIO.html	created	2020-12-14
 https://www.haskell.org/hugs/pages/libraries/network/Network-Socket.html	N/A
 https://pdxscholar.library.pdx.edu/open_access_etds/508/	N/A
 https://hackage.haskell.org/package/layers	N/A
@@ -10010,7 +10010,7 @@ https://archives.haskell.org/code.haskell.org/haskelldb/haskelldb.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=220e92adeb06a3bacec9fdd2a1f1c023dcbf3187&repid=rep1&type=pdf	N/A
 https://www.yesodweb.com/book-1.4/routing-and-handlers	N/A
 https://hackage-content.haskell.org/package/reflex-0.9.4.0/docs/Control-Monad-ReaderIO.html	N/A
-https://hackage.haskell.org/package/rio-0.1.0.0/docs/RIO.html	N/A
+https://hackage.haskell.org/package/rio-0.1.0.0/docs/RIO.html	created	2018-04-04
 https://www.yesodweb.com/blog/2010/06/handler-monad	created	2010
 ## Historical compiler and RealWorld I/O internals
 https://user.informatik.uni-bremen.de/~clueth/lehre/rp.ss15/lectures/handouts-all.pdf	N/A
@@ -10226,14 +10226,14 @@ https://upload.wikimedia.org/wikiversity/en/5/5f/Monad.P1.3A.Operations.20190308
 https://stackoverflow.com/questions/7691374/io-and-maybe-monad-interaction	N/A
 https://speakerdeck.com/realm/correct-behavior-through-type-safety-justin-spahr-summers	N/A
 https://hackage.haskell.org/package/transformers	N/A
-https://hackage.haskell.org/package/transformers/docs	N/A
+https://hackage.haskell.org/package/transformers/docs	created	2026-01-12
 https://hackage.haskell.org/package/has-transformers	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/transformers-0.1.3.0/docs/Control-Monad-Trans.html	N/A
-https://hackage.haskell.org/package/hxt-8.1.0/src/doc/xslt/thesis.pdf	N/A
-https://hackage.haskell.org/package/idris-0.9.20.2/docs/idris-tutorial.pdf	N/A
-https://hackage.haskell.org/package/idris-1.3.3/src/idris-tutorial.pdf	N/A
-https://hackage.haskell.org/package/transformers-0.2.1.0/docs/Control-Monad-Trans-Class.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.IO.Unsafe.html	created	2018-09-23
+https://hackage.haskell.org/package/transformers-0.1.3.0/docs/Control-Monad-Trans.html	created	2009-03-16
+https://hackage.haskell.org/package/hxt-8.1.0/src/doc/xslt/thesis.pdf	created	2008-06-23
+https://hackage.haskell.org/package/idris-0.9.20.2/docs/idris-tutorial.pdf	created	2015-12-17
+https://hackage.haskell.org/package/idris-1.3.3/src/idris-tutorial.pdf	created	2020-05-23
+https://hackage.haskell.org/package/transformers-0.2.1.0/docs/Control-Monad-Trans-Class.html	created	2010-04-24
 https://downloads.haskell.org/~ghc/7.4.1/docs/html/libraries/base/src/System-IO-Unsafe.html	N/A
 https://www.kitten-technologies.co.uk/project/argon/raw/references/CHROME/CleanBookI.pdf?name=a53e293ab9c04ac2223f2875f95639cf75310704	N/A
 https://www.haskell.org/hugs/pages/libraries/base/Data-Unique.html	N/A
@@ -10265,7 +10265,7 @@ https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/Papers/haskell2010.pdf	cr
 https://toc.library.ethz.ch/objects/pdf03/e01_978-0-521-87172-3_01.pdf	N/A
 https://www3.dcc.fc.up.pt/~pribeiro/pubs/pdf/ribeiro-ioi2008.pdf	created	2008
 https://project-archive.inf.ed.ac.uk/ug4/20233979/ug4_proj.pdf	N/A
-https://hackage.haskell.org/package/script-monad/docs	N/A
+https://hackage.haskell.org/package/script-monad/docs	created	2022-06-26
 https://csetzer.github.io/slides/agdaimplementorsmeeting/agdaImplementorsMeetingGoeteborg2009/goeteborg2009AgdaIntensiveMeeting.pdf	created	2009
 https://input-output-hk.github.io/io-sim/io-classes/index.html	N/A
 https://hackage-content.haskell.org/package/io-sim-1.9.1.0/src/	N/A
@@ -10457,7 +10457,7 @@ https://hds.hebis.de/fuas/EBSCO/Record?id=edsbas.23104C05%7Cedsbas	N/A
 https://doi.org/10.1145/3331543.3342585	N/A
 https://icfp19.sigplan.org/home/farm-2019	created	2019
 https://exchangetuts.com/squeezing-more-performance-out-of-monadic-streams-in-haskell-1640170804533257	N/A
-https://hackage.haskell.org/package/vector-stream/docs/Data-Stream-Monadic.html	N/A
+https://hackage.haskell.org/package/vector-stream/docs/Data-Stream-Monadic.html	created	2024-01-06
 https://bentnib.org/posts/2012-01-06-streams.html	created	2012
 https://conscientiousprogrammer.com/blog/2015/12/15/24-days-of-hackage-2015-day-15-iospec-testing-io-and-some-quickcheck-tricks/	created	2015
 https://lukas-probst.com/images/thesis.pdf	N/A
@@ -10468,7 +10468,7 @@ https://flora.pm/packages/%40hackage/Stream/dependents?page=1	N/A
 https://rpmfind.net/linux/rpm2html/search.php?query=ghc-IOSpec%28x86-64%29	N/A
 https://icfp20.sigplan.org/details/icfp-2020-papers/24/Recovering-Purity-with-Comonads-and-Capabilities	created	2020
 https://doi.org/10.34726/hss.2023.110085	created	2023
-https://hackage.haskell.org/package/monad-param/docs/Control-Monad-Parameterized.html	N/A
+https://hackage.haskell.org/package/monad-param/docs/Control-Monad-Parameterized.html	created	2011-01-15
 https://www.eyrie.org/~zednenem/2012/07/29/paramonads	created	2012
 https://dblp.org/pid/t/EricTanter.html	N/A
 https://dblp.org/rec/journals/scp/FigueroaTT16	N/A
@@ -10779,15 +10779,15 @@ https://www.stackage.org/nightly-2023-04-05	created	2023
 https://studylib.net/doc/28090444/haskel-1	N/A
 https://ifipwg21wiki.cs.kuleuven.be/wiki/images/9/90/78_janis.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=dd3e0f2e6e23b1050c206838536e4a81c8a3fd7b&repid=rep1&type=pdf	N/A
-https://hackage.haskell.org/package/free/docs/Control-Monad-Free-TH.html	N/A
-https://hackage.haskell.org/package/transformers-free/docs/src/Control-Monad-Trans-Free.html	N/A
-https://hackage.haskell.org/package/MonadPrompt/docs/Control-Monad-Prompt.html	N/A
+https://hackage.haskell.org/package/free/docs/Control-Monad-Free-TH.html	created	2023-03-12
+https://hackage.haskell.org/package/transformers-free/docs/src/Control-Monad-Trans-Free.html	created	2012-11-01
+https://hackage.haskell.org/package/MonadPrompt/docs/Control-Monad-Prompt.html	created	2014-09-14
 https://hackage.haskell.org/package/prompt	N/A
-https://hackage.haskell.org/package/prompt/docs/Control-Monad-Prompt.html	N/A
-https://hackage.haskell.org/package/MonadPrompt/docs	N/A
+https://hackage.haskell.org/package/prompt/docs/Control-Monad-Prompt.html	created	2016-05-26
+https://hackage.haskell.org/package/MonadPrompt/docs	created	2014-09-14
 https://hackage.haskell.org/package/polysemy-1.7.0.0	N/A
 https://hackage.haskell.org/package/more-extensible-effects-0.1.0.4	N/A
-https://hackage.haskell.org/package/free-3.0/docs/Control-Monad-Free.html	N/A
+https://hackage.haskell.org/package/free-3.0/docs/Control-Monad-Free.html	created	2012-07-05
 https://blog.ploeh.dk/2017/06/28/pure-times-in-haskell/	created	2017
 https://monatar.infotech.monash.edu/CSE3456.html	N/A
 https://abcdocz.com/doc/1268625/the-haskell-school-of-music	N/A
@@ -10973,7 +10973,7 @@ https://pypi.org/project/zio-py/	created	2019-10-13
 https://www.piwheels.org/project/raffiot	N/A
 https://pypi.org/project/pfun/	created	2019-08-04
 https://jasondelaat.github.io/pymonad_docs/explanations/whats-a-monad.html	N/A
-https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful.html	N/A
+https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful.html	created	2021-06-13
 https://effect.readthedocs.io/_/downloads/en/0.10/pdf/	N/A
 https://returns.readthedocs.io/en/latest/_modules/returns/interfaces/specific/ioresult.html	N/A
 https://returns.readthedocs.io/en/0.20.0/pages/io.html	N/A
@@ -11116,10 +11116,10 @@ https://hackage.haskell.org/package/pipes-io	N/A
 https://hackage.haskell.org/package/	N/A
 https://hackage.haskell.org/package/base-io-access	N/A
 https://hackage.haskell.org/packages/	N/A
-https://hackage.haskell.org/package/monad-bayes-1.3.0.5/changelog	N/A
+https://hackage.haskell.org/package/monad-bayes-1.3.0.5/changelog	created	2025-10-07
 https://hackage.haskell.org/package/monad-control	N/A
-https://hackage.haskell.org/package/CheatSheet-1.10/src/CheatSheet.pdf	N/A
-https://hackage.haskell.org/package/frown-0.6.2.1/src/Manual/Manual.pdf	N/A
+https://hackage.haskell.org/package/CheatSheet-1.10/src/CheatSheet.pdf	created	2009-04-30
+https://hackage.haskell.org/package/frown-0.6.2.1/src/Manual/Manual.pdf	created	2016-02-07
 https://louthy.github.io/language-ext/LanguageExt.Core/Effects/index.html	N/A
 https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-25	N/A
 https://www.nuget.org/packages/LanguageExt.Streaming/	N/A
@@ -11173,21 +11173,21 @@ https://hackage.haskell.org/package/heftia	N/A
 https://hackage.haskell.org/package/heftia-effects-0.4.0.0	N/A
 https://pure.uva.nl/ws/files/2217978/167002_haskell_for_ocaml_programmers.pdf	N/A
 https://downloads.haskell.org/ghc/9.6.6/docs/libraries/stm-2.5.1.0/Control-Monad-STM.html	N/A
-https://hackage.haskell.org/package/stm-2.4.4.1/docs/Control-Monad-STM.html	N/A
+https://hackage.haskell.org/package/stm-2.4.4.1/docs/Control-Monad-STM.html	created	2015-12-22
 https://ghcguide.haskell.jp/8.4.3/libraries/stm-2.4.5.0/Control-Monad-STM.html	N/A
 https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/stm/Control-Monad-STM.html	N/A
 https://kodu.ut.ee/~varmo/FP2007/slides/stm.pdf	created	2007
-https://hackage.haskell.org/package/stm-2.4.4/docs/Control-Monad-STM.html	N/A
+https://hackage.haskell.org/package/stm-2.4.4/docs/Control-Monad-STM.html	created	2014-12-17
 https://citeseerx.ist.psu.edu/document?doi=b8417eed902452a1590874d4b9ba957d5e0205a5&repid=rep1&type=pdf	N/A
 https://www.microsoft.com/en-us/research/publication/a-compositional-theory-for-stm-haskell/	N/A
 https://citeseerx.ist.psu.edu/document?doi=e75a155fd802010d677e15345a51fdb0f495c8c3&repid=rep1&type=pdf	N/A
-https://hackage.haskell.org/package/stm-2.2.0.1/docs/Control-Monad-STM.html	N/A
+https://hackage.haskell.org/package/stm-2.2.0.1/docs/Control-Monad-STM.html	created	2010-11-03
 https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/stm-2.5.0.0/Control-Concurrent-STM.html	N/A
 https://pure.manchester.ac.uk/ws/portalfiles/portal/38475983/FULL_TEXT.pdf	N/A
-https://hackage.haskell.org/package/pipes-4.3.9/docs/src/Pipes-Tutorial.html	N/A
+https://hackage.haskell.org/package/pipes-4.3.9/docs/src/Pipes-Tutorial.html	created	2018-03-12
 https://www.scs.stanford.edu/14sp-cs240h/slides/pipes.html	N/A
-https://hackage.haskell.org/package/pipes-1.0/docs/Control-Pipe.html	N/A
-https://hackage.haskell.org/package/pipes-2.3.0/docs/Control-Pipe-Tutorial.html	N/A
+https://hackage.haskell.org/package/pipes-1.0/docs/Control-Pipe.html	created	2012-01-14
+https://hackage.haskell.org/package/pipes-2.3.0/docs/Control-Pipe-Tutorial.html	created	2012-09-05
 http://okmij.org/ftp/Computation/monadic-shell.html	N/A
 https://downloads.haskell.org/~ghc/7.8.1-rc1/docs/html/users_guide/ffi.html	N/A
 https://www.haskell.org/ghc/docs/6.12.2/users_guide.pdf	N/A
@@ -11213,10 +11213,10 @@ https://downloads.haskell.org/ghc/9.10.2.20250807/docs/libraries/mtl-2.3.1-e0bf/
 https://hackage-content.haskell.org/package/base-4.19.2.0/docs/Control-Monad-IO-Class.html	N/A
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/mtl-2.3.1-aac9/Control-Monad-Reader.html	N/A
 https://www.cs.rpi.edu/~milanova/csci4966/F24_Lecture15_Monad_Transformers.pdf	N/A
-https://hackage.haskell.org/package/free/docs/Control-Monad-Free.html	N/A
+https://hackage.haskell.org/package/free/docs/Control-Monad-Free.html	created	2023-03-12
 https://stackoverflow.com/questions/20564633/is-it-possible-to-extend-free-monad-interpreters	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/finally-tagless-partially-evaluated-tagless-staged-interpreters-for-simpler-typed-languages/7B2DC44A2127EBBA71ADE63809D9425F	publication	2009-09
-https://hackage.haskell.org/package/polysemy-zoo/docs/Polysemy-Final-IO.html	N/A
+https://hackage.haskell.org/package/polysemy-zoo/docs/Polysemy-Final-IO.html	created	2023-08-03
 https://cir.nii.ac.jp/crid/1363670318659110656	N/A
 https://maksbotan.github.io/posts/2019-09-04-abstract-definitional-interpreters.html	created	2019
 https://tohoku.elsevierpure.com/en/publications/finally-tagless-partially-evaluated-tagless-staged-interpreters-f/	N/A
@@ -11243,15 +11243,15 @@ https://downloads.haskell.org/ghc/latest/docs/libraries/ghc-internal-9.1401.0-55
 https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf	N/A
 https://stackoverflow.com/questions/74999701/how-do-you-run-a-single-test-with-quickcheck-when-using-monadicio-in-haskell	N/A
 https://stackoverflow.com/questions/57777451/how-do-i-quickcheck-a-servant-application-that-is-constructed-from-an-io	N/A
-https://hackage.haskell.org/package/QuickCheck/docs/Test-QuickCheck.html	N/A
-https://hackage.haskell.org/package/QuickCheck-2.9.2/docs/Test-QuickCheck-Property.html	N/A
+https://hackage.haskell.org/package/QuickCheck/docs/Test-QuickCheck.html	created	2026-02-26
+https://hackage.haskell.org/package/QuickCheck-2.9.2/docs/Test-QuickCheck-Property.html	created	2016-09-15
 https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging	N/A
 https://users.cs.northwestern.edu/~robby/courses/395-495-2009-fall/quick.pdf	created	2009
 https://citeseerx.ist.psu.edu/document?doi=1559a9a26ca1baac9f465b72a1e97a9d6923696d&repid=rep1&type=pdf	N/A
 https://kar.kent.ac.uk/13937/1/content.pdf	N/A
-https://hackage.haskell.org/package/dejafu-0.1.0.0/docs/Test-DejaFu-Deterministic.html	N/A
+https://hackage.haskell.org/package/dejafu-0.1.0.0/docs/Test-DejaFu-Deterministic.html	created	2015-08-27
 https://citeseerx.ist.psu.edu/document?doi=7fd3096889fe03467539da3a50645110a57e24df&repid=rep1&type=pdf	N/A
-https://hackage.haskell.org/package/remote/docs/Remote.html	N/A
+https://hackage.haskell.org/package/remote/docs/Remote.html	created	2011-12-16
 https://hackage.haskell.org/package/remote	N/A
 https://haskell-distributed.github.io/tutorials/1ch.html	N/A
 https://irep.ntu.ac.uk/id/eprint/27905/	publication	2015-12
@@ -11259,14 +11259,14 @@ https://hackage.haskell.org/package/cloud-haskell	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/remote.pdf	created	2016
 https://haskell-distributed.github.io/static/semantics.pdf	N/A
 https://hackage.haskell.org/package/sofetch	N/A
-https://hackage.haskell.org/package/haxl-0.1.0.0/docs/Haxl-Prelude.html	N/A
+https://hackage.haskell.org/package/haxl-0.1.0.0/docs/Haxl-Prelude.html	created	2014-06-10
 https://hackage.haskell.org/package/haxl	N/A
 https://hackage-content.haskell.org/package/haxl-2.5.1.1/docs/Haxl-Core-Fetch.html	N/A
 https://hackage.haskell.org/package/fraxl	N/A
-https://hackage.haskell.org/package/haxl-0.1.0.0/docs/Haxl-Core-Types.html	N/A
+https://hackage.haskell.org/package/haxl-0.1.0.0/docs/Haxl-Core-Types.html	created	2014-06-10
 https://hackage-content.haskell.org/package/haxl-2.5.1.1/candidate/docs/Haxl-Core.html	N/A
 https://hackage-content.haskell.org/package/haxl-2.5.1.1/candidate/docs/Haxl-Core-Monad.html	N/A
-https://hackage.haskell.org/package/haxl-0.5.1.0/candidate/docs/Haxl-Core-Types.html	N/A
+https://hackage.haskell.org/package/haxl-0.5.1.0/candidate/docs/Haxl-Core-Types.html	created	2017-07-25
 https://hackage-content.haskell.org/package/haxl-2.5.1.1/docs/Haxl-Core-DataSource.html	N/A
 https://simonmar.github.io/bib/papers/haxl-icfp14.pdf	N/A
 https://afp-2017.github.io/slides/slides-marlow.pdf	created	2017
@@ -11279,21 +11279,21 @@ https://www.cambridge.org/core/product/identifier/S0956796822000132/type/journal
 https://www.haskell.org/communities/11-2009/report.pdf	created	2009
 https://hackage-content.haskell.org/package/Yampa-0.15/docs/FRP-Yampa-Simulation.html	N/A
 https://hackage-content.haskell.org/package/Yampa-0.15/docs/FRP-Yampa.html	N/A
-https://hackage.haskell.org/package/Yampa-0.10.4/docs/FRP-Yampa.html	N/A
-https://hackage.haskell.org/package/Yampa-0.9.7/docs/FRP-Yampa.html	N/A
-https://hackage.haskell.org/package/reactive-banana-0.4.3.2/docs/Reactive-Banana-Model.html	N/A
+https://hackage.haskell.org/package/Yampa-0.10.4/docs/FRP-Yampa.html	created	2015-11-14
+https://hackage.haskell.org/package/Yampa-0.9.7/docs/FRP-Yampa.html	created	2015-05-05
+https://hackage.haskell.org/package/reactive-banana-0.4.3.2/docs/Reactive-Banana-Model.html	created	2012-03-11
 https://hackage-content.haskell.org/package/bearriver-0.15/docs/FRP-BearRiver-Simulation.html	N/A
 https://hackage-content.haskell.org/package/bearriver-0.15/docs/FRP-BearRiver.html	N/A
 https://yampa-book.readthedocs.io/en/latest/links.html	N/A
 https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B0%E5%BC%8F%E5%8F%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B	N/A
-https://hackage.haskell.org/package/QIO/docs/QIO-Qdata.html	N/A
-https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-All.html	N/A
-https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-63.html	N/A
+https://hackage.haskell.org/package/QIO/docs/QIO-Qdata.html	created	2016-11-13
+https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-All.html	created	2012-08-22
+https://hackage.haskell.org/package/QIO-1.2/docs/doc-index-63.html	created	2012-08-22
 https://www.research.ed.ac.uk/en/publications/towards-secure-iot-programming-in-haskell/	publication	2020-08-09
 https://arxiv.org/abs/2004.12885	created	2004
 https://mhicks.me/papers/dissertation-jp.pdf	N/A
-https://hackage.haskell.org/package/lio-0.11.4.2/docs	N/A
-https://hackage.haskell.org/package/lio-0.11.7.1/reports/3	N/A
+https://hackage.haskell.org/package/lio-0.11.4.2/docs	created	2014-05-04
+https://hackage.haskell.org/package/lio-0.11.7.1/reports/3	created	2020-09-23
 https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=25507919&lang=en	publication	2011
 https://iot.stanford.edu/workshop14/SITP-8-11-14-Mazieres.pdf	N/A
 https://horizon-lab.org/pubs/rfp16.pdf	N/A
@@ -11321,7 +11321,7 @@ https://jfischoff.github.io/blog/the-eventmanager-and-non-blocking-io.html	N/A
 https://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1038657	N/A
 https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler	N/A
 https://downloads.haskell.org/~ghc/7.4-latest/docs/html/libraries/base-4.5.1.0/Control-Exception-Base.html	N/A
-https://hackage.haskell.org/package/resource-simple-0.2/docs/Control-Monad-Resource.html	N/A
+https://hackage.haskell.org/package/resource-simple-0.2/docs/Control-Monad-Resource.html	created	2012-03-02
 https://mmhaskell.com/blog/2022/6/30/a-brief-look-at-asynchronous-exceptions	created	2022
 https://www.schoolofhaskell.com/user/snoyberg/general-haskell/exceptions/catching-all-exceptions	N/A
 https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/c9-lectures-dr-erik-meijer-functional-programming-fundamentals-chapter-9-of-13	N/A
@@ -11372,7 +11372,7 @@ https://arxiv.org/abs/1303.5768	N/A
 https://arxiv.org/abs/1202.4269	N/A
 https://www.researchgate.net/publication/242502528_Functional_and_Logic_Programming_8th_International_Symposium_FLOPS_2006_Fuji-Susono_Japan_April_24-26_2006_Proceedings	created	2006
 https://www.haskell.org/communities/06-2006/report.pdf	created	2006
-https://hackage.haskell.org/package/network-conduit/docs/Data-Conduit-Network.html	N/A
+https://hackage.haskell.org/package/network-conduit/docs/Data-Conduit-Network.html	created	2014-04-02
 https://www.cl.cam.ac.uk/~jdy22/papers/dissertation.pdf	N/A
 https://haskell-for-readers.nomeata.de/haskell-for-readers.pdf	N/A
 https://de.wikipedia.org/wiki/Socket	N/A
@@ -11381,7 +11381,7 @@ https://www.mendeley.com/catalogue/e196e77b-fb78-34e8-98e0-484fe9c1f433/	publica
 https://wrap.warwick.ac.uk/id/eprint/155565/	N/A
 https://en.wikipedia.org/wiki/Philip_Wadler	N/A
 https://downloads.haskell.org/ghc/9.12.20241014/docs/libraries/ghc-internal-9.1200.0-3d08/GHC-Internal-Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/haskelldb/docs/Database-HaskellDB.html	N/A
+https://hackage.haskell.org/package/haskelldb/docs/Database-HaskellDB.html	created	2014-09-29
 https://hackage.haskell.org/package/opaleye	N/A
 https://repositum.tuwien.at/handle/20.500.12708/11216	N/A
 https://haskell-webapps.readthedocs.io/en/latest/docs/opaleye/opaleye.html	N/A
@@ -11390,8 +11390,8 @@ https://marvin-jahn.de/mathematics/monads/	publication	2020-10-15
 https://arxiv.org/abs/1209.1011	N/A
 https://research.chalmers.se/en/publication/12481	publication	2004
 https://caiorss.github.io/Functional-Programming/haskell/DatabaseHDBC.html	N/A
-https://hackage.haskell.org/package/HDBC/docs/Database-HDBC.html	N/A
-https://hackage.haskell.org/package/Takusen/docs	N/A
+https://hackage.haskell.org/package/HDBC/docs/Database-HDBC.html	created	2026-05-21
+https://hackage.haskell.org/package/Takusen/docs	created	2011-01-26
 https://chrisdone.com/posts/haskelldb-tutorial/	N/A
 https://dbc.library.uu.nl/handle/1874/7352	N/A
 https://arxiv.org/abs/1803.10202	N/A
@@ -11547,19 +11547,19 @@ https://citeseerx.ist.psu.edu/document?doi=f1b80c7591e2b28c27c23235116038573369c
 https://www.ost.ch/en/details/news/haskell-ecosystem-workshop-2024	created	2024
 https://pages.di.unipi.it/corradini/Didattica/AP-24/DOCS/Scott-ch10.pdf	N/A
 https://downloads.haskell.org/~ghc/9.8.3/docs/libraries/ghc-9.8.3-c39e/src/GHC.Builtin.PrimOps.html	N/A
-https://hackage.haskell.org/package/primitive-0.6.2.0/docs/Control-Monad-Primitive.html	N/A
+https://hackage.haskell.org/package/primitive-0.6.2.0/docs/Control-Monad-Primitive.html	created	2016-11-21
 https://www.macs.hw.ac.uk/~dsg/gdh/papers/MSc/yl2/dissertation.pdf	N/A
 https://ghcguide.haskell.jp/8.4.3/libraries/text-1.2.3.0/Data-Text-Lazy-IO.html	N/A
 https://wrap.warwick.ac.uk/191913/1/WRAP_Theses_Keating_2024.pdf	created	2024
 http://www.scs.stanford.edu/11au-cs240h/notes/iteratee.html	N/A
 https://doi.org/10.1145/3406088.3409027	N/A
 https://cseweb.ucsd.edu/~dstefan/pubs/stefan%3A2015%3Aphdthesis.pdf	created	2015
-https://hackage.haskell.org/package/exception-transformers/docs/Control-Monad-Exception.html	N/A
+https://hackage.haskell.org/package/exception-transformers/docs/Control-Monad-Exception.html	created	2023-08-31
 https://downloads.haskell.org/~ghc/4.08/docs/set.pdf	N/A
 https://simonmar.github.io/bib/papers/ext-exceptions.pdf	N/A
 https://webspace.science.uu.nl/~4110161/pubs/asynch-mac.pdf	N/A
 https://stackoverflow.com/questions/57101911/how-to-call-functions-in-handler-monad-from-io-monad	N/A
-https://hackage.haskell.org/package/yesod-core-1.1.6.1/docs/Yesod-Handler.html	N/A
+https://hackage.haskell.org/package/yesod-core-1.1.6.1/docs/Yesod-Handler.html	created	2012-11-28
 https://www.yesodweb.com/book/yesods-monads	N/A
 https://stackoverflow.com/questions/45779957/how-to-avoid-unsafeperformio-in-the-handler-monad	N/A
 https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/persistent-db	N/A
@@ -11583,7 +11583,7 @@ https://www.sciencedirect.com/science/article/pii/S0890540113000898	N/A
 https://richarde.dev/papers/2016/thesis/eisenberg-thesis.pdf	created	2016
 https://downloads.haskell.org/~ghc/6.6/docs/html/users_guide/ch03s04.html	N/A
 https://research.google/pubs/coinduction-inductively-mechanizing-coinductive-proofs-in-liquid-haskell/	publication	2022
-https://hackage.haskell.org/package/sdp-io/candidate/docs/System-IO-Handle.html	N/A
+https://hackage.haskell.org/package/sdp-io/candidate/docs/System-IO-Handle.html	created	2021-02-24
 https://stackoverflow.com/questions/22435286/store-handle-in-custom-data-field	N/A
 https://simon.peytonjones.org/publications/	N/A
 https://homepages.inf.ed.ac.uk/wadler/topics/functional-programming.html	N/A
@@ -11594,13 +11594,13 @@ https://www.sciencedirect.com/author/8328527700/simon-l-peyton-jones	N/A
 https://www.netlib.org/tex/bib/jfunctprogram.pdf	N/A
 https://fm.csl.sri.com/SSFT15/Bibliography.pdf	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/primitives.html	N/A
-https://hackage.haskell.org/package/ArrayRef/docs/GHC-Unboxed.html	N/A
+https://hackage.haskell.org/package/ArrayRef/docs/GHC-Unboxed.html	created	2009-06-26
 https://upload.wikimedia.org/wikiversity/en/c/cd/MP3.1B.Mut.PrimType.20200313.pdf	N/A
 https://downloads.haskell.org/~ghc/7.2.1/docs/core.pdf	N/A
 https://gitlab.haskell.org/ghc/ghc/-/issues/17001	N/A
 https://kar.kent.ac.uk/24103/	N/A
 https://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/h/haskell-io-streams/	N/A
-https://hackage.haskell.org/package/read-env-var/docs/System-ReadEnvVar.html	N/A
+https://hackage.haskell.org/package/read-env-var/docs/System-ReadEnvVar.html	created	2017-03-22
 https://www.schoolofhaskell.com/school/starting-with-haskell/libraries-and-frameworks/randoms	N/A
 https://www.reddit.com/r/haskell/comments/marh72	N/A
 https://www.haskell.org/wikiupload/6/6a/TMR-Issue11.pdf	N/A
@@ -11615,7 +11615,7 @@ https://ku-fpg.github.io/2015/12/10/remote-monad-part-1/	created	2015
 https://dblp1.uni-trier.de/pid/69/6989.html	N/A
 https://dokumen.pub/haskell15-proceedings-of-8th-2015-acm-sigplan-haskell-workshop-978-1-4503-3808-0-1450338089.html	created	2015
 https://www.researchgate.net/publication/281407245_The_Remote_Monad_Design_Pattern	N/A
-https://hackage.haskell.org/package/reflection-without-remorse-0.9.5/docs/Control-Monad-Operational-Reflectable.html	N/A
+https://hackage.haskell.org/package/reflection-without-remorse-0.9.5/docs/Control-Monad-Operational-Reflectable.html	created	2014-12-30
 https://ku-fpg.github.io/files/Grebe-16-Haskino.pdf	N/A
 https://arxiv.org/abs/1708.03882	N/A
 https://ittc.ku.edu/research/thesis/documents/justin_dawson.pdf	N/A
@@ -11628,7 +11628,7 @@ https://umu.diva-portal.org/smash/get/diva2%3A1038657/FULLTEXT01.pdf	N/A
 https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/36841.pdf	created	2023
 https://adrian.geek.nz/haskell_docs/ghc-rts.html	N/A
 https://stackoverflow.com/questions/4446700/what-io-activity-does-the-ghc-io-manager-support	N/A
-https://hackage.haskell.org/package/lmdb-simple/docs/Database-LMDB-Simple.html	N/A
+https://hackage.haskell.org/package/lmdb-simple/docs/Database-LMDB-Simple.html	created	2018-03-24
 https://livebook.manning.com/book/get-programming-with-haskell/chapter-33	N/A
 https://ora.ox.ac.uk/objects/uuid%3A1fa54dcc-1188-40c9-aa2f-ce2c989e7bd3	publication	1989
 https://www.college-de-france.fr/en/agenda/lecture/program-demonstrate-curry-howard-correspondence-today/can-we-change-the-world-imperative-programming-monadic-effects-algebraic-effects	N/A
@@ -11735,12 +11735,12 @@ https://discourse.haskell.org/t/where-did-the-structure-go/4866	publication	2022
 https://softwareengineering.stackexchange.com/questions/303472/what-is-the-purpose-of-wrapped-values-in-haskell	N/A
 https://discourse.haskell.org/t/why-use-an-effect-system/10841?page=6	publication	2024-12-01
 https://stackoverflow.com/questions/3206869/haskell-how-to-write-interactive-interpreter-on-top-of-a-state-monad	N/A
-https://hackage.haskell.org/package/prologue/docs/Prologue-Control-Monad-IO.html	N/A
+https://hackage.haskell.org/package/prologue/docs/Prologue-Control-Monad-IO.html	created	2018-12-18
 https://hackage.haskell.org/package/test-fixture	N/A
-https://hackage.haskell.org/package/ConfigFile/docs/src/Data-ConfigFile.html	N/A
+https://hackage.haskell.org/package/ConfigFile/docs/src/Data-ConfigFile.html	created	2014-10-30
 https://hackage.haskell.org/package/liblawless-0.21.3	N/A
-https://hackage.haskell.org/package/basic-prelude/docs/BasicPrelude.html	N/A
-https://hackage.haskell.org/package/CheatSheet-1.5/src/CheatSheet.pdf	N/A
+https://hackage.haskell.org/package/basic-prelude/docs/BasicPrelude.html	created	2017-12-05
+https://hackage.haskell.org/package/CheatSheet-1.5/src/CheatSheet.pdf	created	2008-11-17
 https://hackage.haskell.org/package/monad-control-0.3.1.2	N/A
 https://hackage.haskell.org/package/monad-control-0.3.1.1	N/A
 https://hackage.haskell.org/package/monad-control-1.0.2.0	N/A
@@ -11812,29 +11812,29 @@ https://math.iisc.ac.in/~gadgil/proofs-and-programs-2023/doc/PnP2023/Lec_03_01/R
 https://www.mathematik.uni-marburg.de/~loogen/Lehre/ws06/Konzepte/pi3.shtml	N/A
 https://www.cse.iitk.ac.in/users/karkare/Courses/cs653/	N/A
 https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_library/	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.0/changelog	N/A
-https://hackage.haskell.org/package/io-sim-1.6.0.0/revisions/	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.0/changelog	created	2025-05-21
+https://hackage.haskell.org/package/io-sim-1.6.0.0/revisions/	created	2024-08-27
 https://hackage.haskell.org/package/strict-mvar	N/A
-https://hackage.haskell.org/package/io-sim-1.9.1.0/docs	N/A
-https://hackage.haskell.org/package/aivika-1.2.1/src/doc/aivika.pdf	N/A
-https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/src/Control.Monad.IOSim.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1/docs	N/A
+https://hackage.haskell.org/package/io-sim-1.9.1.0/docs	created	2026-01-23
+https://hackage.haskell.org/package/aivika-1.2.1/src/doc/aivika.pdf	created	2014-05-23
+https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/src/Control.Monad.IOSim.html	created	2026-01-23
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec-0.3.1/docs	created	2018-10-29
 https://static.hlt.bme.hu/semantics/external/pages/bizony%C3%ADt%C3%A1sok_programokk%C3%A9nt_t%C3%B6rt%C3%A9n%C5%91_%C3%A9rtelmez%C3%A9se/en.wikipedia.org/wiki/Philip_Wadler.html	N/A
 https://mailman.haskell.org/archives/list/haskell%40haskell.org/2010/2/	created	2010
 https://openlibrary.org/books/OL37336231M/Learning_Functional_Programming	N/A
 https://archiv.infsec.ethz.ch/education/ss08/fmfp/haskell_links.html	N/A
-https://hackage.haskell.org/package/monad-io-adapter/docs	N/A
-https://hackage.haskell.org/package/heftia-0.5.0.0/docs/Control-Monad-Hefty.html	N/A
-https://hackage.haskell.org/package/wizards/docs/System-Console-Wizard-Internal.html	N/A
-https://hackage.haskell.org/package/base-4.19.1.0/docs/Data-Traversable.html	N/A
-https://hackage.haskell.org/package/base-4.15.0.0/docs/Data-Traversable.html	N/A
+https://hackage.haskell.org/package/monad-io-adapter/docs	created	2017-11-21
+https://hackage.haskell.org/package/heftia-0.5.0.0/docs/Control-Monad-Hefty.html	created	2024-11-03
+https://hackage.haskell.org/package/wizards/docs/System-Console-Wizard-Internal.html	created	2018-11-16
+https://hackage.haskell.org/package/base-4.19.1.0/docs/Data-Traversable.html	created	2024-02-22
+https://hackage.haskell.org/package/base-4.15.0.0/docs/Data-Traversable.html	created	2021-03-28
 https://hackage.haskell.org/package/lio-eci11	N/A
-https://hackage.haskell.org/package/lio-0.10.0.0/docs/LIO-Labeled.html	N/A
+https://hackage.haskell.org/package/lio-0.10.0.0/docs/LIO-Labeled.html	created	2013-06-16
 https://hackage.haskell.org/package/lio-0.1.1	N/A
-https://hackage.haskell.org/package/lio-0.9.0.1/docs/LIO.html	N/A
-https://hackage.haskell.org/package/hxt-8.3.0/src/doc/xslt/thesis.pdf	N/A
-https://hackage.haskell.org/package/aivika-0.1/src/doc/aivika.pdf	N/A
+https://hackage.haskell.org/package/lio-0.9.0.1/docs/LIO.html	created	2012-08-20
+https://hackage.haskell.org/package/hxt-8.3.0/src/doc/xslt/thesis.pdf	created	2009-03-18
+https://hackage.haskell.org/package/aivika-0.1/src/doc/aivika.pdf	created	2011-03-28
 https://www.studocu.com/de/document/technische-universitat-munchen/funktionale-programmierung/funktionale-programmierung/53479469	N/A
 https://downloads.haskell.org/~ghc/7.10-latest/docs/html/libraries/base-4.8.2.0/src/System-IO.html	N/A
 https://www.haskell.org/wikiupload/6/65/Wxhaskell.pdf	N/A
@@ -11882,7 +11882,7 @@ https://www-leland.stanford.edu/class/cs242/materials/lectures/haskell-notes.pdf
 https://ie.u-ryukyu.ac.jp/~kono/presentation/2014/kono-prosym55/agda-prog.html	created	2014
 https://www.cl.cam.ac.uk/teaching/2324/ConceptsPL/ConceptsPL-2324-v1.pdf	N/A
 https://www.cl.cam.ac.uk/~jjl25/docs.mirage.io/html/markup/Markup/index.html	N/A
-https://hackage.haskell.org/package/reactive-banana-1.2.2.0/docs/Reactive-Banana-Prim.html	N/A
+https://hackage.haskell.org/package/reactive-banana-1.2.2.0/docs/Reactive-Banana-Prim.html	created	2021-09-16
 https://www.cl.cam.ac.uk/teaching/1415/L28/monads.pdf	N/A
 https://api.pageplace.de/preview/DT0400.9780596803322_A23630146/preview-9780596803322_A23630146.pdf	N/A
 https://riptutorial.com/Download/haskell-language-ru.pdf	N/A
@@ -11930,7 +11930,7 @@ https://softwareengineering.stackexchange.com/questions/108531/stdout-and-its-im
 https://studylib.net/doc/8145604/%CE%BB-calculus--then-and-now---acm-am-turing-centenary-celebration	N/A
 https://www.inf.ed.ac.uk/teaching/courses/apl/2009-2010/slides/apl10.pdf	created	2009
 https://dmi.unibas.ch/fileadmin/user_upload/dmi/Studium/Computer_Science/Vorlesungen_FS20/Paradigmen_und_Konzepte_von_Programmiersprachen/slides/08-haskell-teilII.pdf	N/A
-https://hackage.haskell.org/package/base-4.5.1.0/docs/Control-Monad-ST.html	N/A
+https://hackage.haskell.org/package/base-4.5.1.0/docs/Control-Monad-ST.html	created	2012-06-10
 https://ci.nii.ac.jp/ncid/BA52242833	created	1989
 https://digital.library.adelaide.edu.au/server/api/core/bitstreams/f7c18690-33f5-4b61-a018-813fc178c2d3/content	N/A
 https://citeseerx.ist.psu.edu/document?doi=d607936813ae919ac0e412fbb84fbfc4675be1fa&repid=rep1&type=pdf	N/A
@@ -11948,8 +11948,8 @@ https://arxiv.org/abs/1907.07283	created	1907
 https://kodu.ut.ee/~varmo/FP2007/slides/loeng18.pdf	created	2007
 https://www.scribd.com/document/400200855/Haskell-pdf	N/A
 https://ics-archive.science.uu.nl/research/techreps/repo/CS-2010/2010-020.pdf	created	2010
-https://hackage.haskell.org/package/async-pool/docs/Control-Concurrent-Async-Pool.html	N/A
-https://hackage.haskell.org/package/stm/docs/Control-Monad-STM.html	N/A
+https://hackage.haskell.org/package/async-pool/docs/Control-Concurrent-Async-Pool.html	created	2023-07-03
+https://hackage.haskell.org/package/stm/docs/Control-Monad-STM.html	created	2024-04-12
 https://raw.githubusercontent.com/Garbaz/OCamlProseminar/master/ausarbeitung/Tobias-Hoffmann-Ausarbeitung.pdf	N/A
 https://haskellweekly.news/issue/516.html	N/A
 https://neilmitchell.blogspot.com/2010/01/	created	2010
@@ -11959,7 +11959,7 @@ https://stackoverflow.com/questions/15834966/how-are-all-graphic-and-web-librari
 https://www.patryshev.com/monad/crashcourse.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=f25608a741652a4448afc6164856231f3565d517&repid=rep1&type=pdf	N/A
 https://2017.splashcon.org/details/splash-2017-OOPSLA/60/Monadic-Composition-for-Deterministic-Parallel-Batch-Processing	created	2017
-https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par.html	N/A
+https://hackage.haskell.org/package/monad-par/docs/Control-Monad-Par.html	created	2023-09-28
 https://theses.gla.ac.uk/6561/1/2015Al-SaeediPhD.pdf	created	2015
 https://www.researchgate.net/publication/221562943_S_A_monad_for_deterministic_parallelism	N/A
 https://chrisbloecker.se/papers/Thesis.Master.Christopher.Bloecker.pdf	N/A
@@ -12117,7 +12117,7 @@ https://citeseerx.ist.psu.edu/document?doi=8b448b78e3640352658fcbabd87abf184b6e5
 https://www.sos-vo.org/system/files/sos_files/AURA_A_Programming_Language_with_Authorization_and_Audit.pdf	N/A
 https://kseo.github.io/posts/2017-01-12-indexed-monads.html	created	2017
 https://stackoverflow.com/questions/28690448/what-is-indexed-monad/28708799	N/A
-https://hackage.haskell.org/package/hs-ix/docs/Control-Monad-Indexed-Trans-State.html	N/A
+https://hackage.haskell.org/package/hs-ix/docs/Control-Monad-Indexed-Trans-State.html	created	2020-08-04
 https://cs.appstate.edu/johannp/f14-ghani.pdf	N/A
 https://www.researchgate.net/publication/338883912_Unifying_graded_and_parameterised_monads	N/A
 https://stackoverflow.com/questions/23887237/how-to-implement-index-core-style-indexed-state-monad?noredirect=1	N/A
@@ -12230,7 +12230,7 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://www.goodreads.com/book/show/13352920-learn-you-a-haskell-for-great-good	N/A
 https://obnb.uk/p15635311-learn-you-a-haskell-for-great-good-a-beginners-guide	N/A
 https://www.lincolnquirk.com/coding/2011/05/14/coding_lyah.html	created	2011
-https://hackage.haskell.org/package/manatee-pdfviewer-0.1.0/src/data/welcome/LearnYouAHaskell.pdf	N/A
+https://hackage.haskell.org/package/manatee-pdfviewer-0.1.0/src/data/welcome/LearnYouAHaskell.pdf	created	2011-05-07
 https://nostarch.com/lyah.htm	publication	2010-06-14
 https://haskell.swizzer.cc/	N/A
 https://alvinalexander.com/haskell/how-to-use-command-line-arguments-in-haskell/	N/A
@@ -12439,7 +12439,7 @@ https://docs.idris-lang.org/	N/A
 https://www.idris-lang.org/Idris2/network/source/Network.FFI.html	N/A
 https://idris-lang.org/Idris2/base/docs/System.FFI.html	N/A
 https://hackage-content.haskell.org/package/idris-1.2.0/candidate/src/idris-tutorial.pdf	N/A
-https://hackage.haskell.org/package/idris-1.0/docs	N/A
+https://hackage.haskell.org/package/idris-1.0/docs	created	2017-04-01
 https://idris2.readthedocs.io/en/stable/tutorial/interfaces.html	N/A
 https://idris.readthedocs.io/en/v1.0/st/machines.html	N/A
 https://docs.idris-lang.org/en/latest/reference/syntax-guide.html	N/A
@@ -12543,7 +12543,7 @@ https://downloads.haskell.org/ghc/9.10.0.20240328/docs/users_guide/exts/qualifie
 https://www.pls-lab.org/Session_Types	N/A
 https://stackoverflow.com/questions/40454598/experience-reports-using-indexed-monads-in-production	N/A
 https://hackage.haskell.org/package/simple-sessions	N/A
-https://hackage.haskell.org/package/indexed-do-notation/docs	N/A
+https://hackage.haskell.org/package/indexed-do-notation/docs	created	2013-05-01
 https://kar.kent.ac.uk/66632/1/RP_9788793519817C10.pdf	N/A
 https://hackage.haskell.org/package/sessions	N/A
 https://hackage.haskell.org/package/sessiontypes	N/A
@@ -12551,12 +12551,12 @@ https://hackage.haskell.org/package/ixdopp-0.1.2	N/A
 https://hackage.haskell.org/package/indexed-free	N/A
 https://hackage.haskell.org/package/indexed-transformers	N/A
 https://hackage.haskell.org/package/freer-indexed	N/A
-https://hackage.haskell.org/package/indexed/docs	N/A
-https://hackage.haskell.org/package/indexed-free/docs/Control-Monad-Indexed-Free.html	N/A
-https://hackage.haskell.org/package/sessiontypes-distributed/docs	N/A
-https://hackage.haskell.org/package/sessiontypes-distributed/docs/Control-Distributed-Session-Spawn.html	N/A
+https://hackage.haskell.org/package/indexed/docs	created	2016-09-17
+https://hackage.haskell.org/package/indexed-free/docs/Control-Monad-Indexed-Free.html	created	2013-11-27
+https://hackage.haskell.org/package/sessiontypes-distributed/docs	created	2018-01-13
+https://hackage.haskell.org/package/sessiontypes-distributed/docs/Control-Distributed-Session-Spawn.html	created	2018-01-13
 https://github.com/Ferdinand-vW/sessiontypes	N/A
-https://hackage.haskell.org/package/full-sessions/docs	N/A
+https://hackage.haskell.org/package/full-sessions/docs	created	2012-01-23
 https://www.doc.ic.ac.uk/~dorchard/popl16/sessions/doc/html/effect-sessions/Control-Effect-Sessions.html	N/A
 https://www.doc.ic.ac.uk/~dorchard/popl16/	N/A
 https://www.macs.hw.ac.uk/splv/wp-content/uploads/2019/08/Dardha-IST-SPLV-2019.pdf	created	2019
@@ -12651,7 +12651,7 @@ http://okmij.org/ftp/Streams.html	N/A
 https://citeseerx.ist.psu.edu/document?doi=34053db6bbcdca48fa3e85b51aaf0a4fd97d42e2&repid=rep1&type=pdf	N/A
 https://downloads.haskell.org/~ghc/8.2.2/docs/users_guide.pdf	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2010-March/074524.html	created	2010
-https://hackage.haskell.org/package/lazy-io/docs	N/A
+https://hackage.haskell.org/package/lazy-io/docs	created	2013-04-17
 https://www.scs.stanford.edu/11au-cs240h/notes/basics.html	N/A
 http://www.edsko.net/pubs/ifl07-paper.pdf	N/A
 https://www.scribd.com/document/444074281/fp1-print	N/A
@@ -12882,103 +12882,103 @@ https://cgi.cse.unsw.edu.au/~eptcs/Published/TFPiE2025/Proceedings.pdf	created	2
 https://www.uni-due.de/imperia/md/content/fmi/tfpie2019-rebuild.pdf	created	2019
 https://hackage-content.haskell.org/package/MissingH-1.6.0.3/docs/System-IO-HVIO.html	N/A
 https://hackage.haskell.org/package/MissingH-0.18.2	N/A
-https://hackage.haskell.org/package/MissingH-0.18.2/MissingH-0.18.2.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-0.18.2/MissingH-0.18.2.tar.gz	created	2007-03-07
 https://hackage-content.haskell.org/package/MissingH-0.18.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-0.18.6	N/A
-https://hackage.haskell.org/package/MissingH-0.18.6/MissingH-0.18.6.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-0.18.6/MissingH-0.18.6.tar.gz	created	2007-06-15
 https://hackage-content.haskell.org/package/MissingH-0.18.6.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.0	N/A
-https://hackage.haskell.org/package/MissingH-1.0.0/MissingH-1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.0/MissingH-1.0.0.tar.gz	created	2008-01-11
 https://hackage-content.haskell.org/package/MissingH-1.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.0.1/MissingH-1.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.1/MissingH-1.0.1.tar.gz	created	2008-04-16
 https://hackage-content.haskell.org/package/MissingH-1.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.1.1	N/A
-https://hackage.haskell.org/package/MissingH-1.0.1.1/MissingH-1.0.1.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.1.1/MissingH-1.0.1.1.tar.gz	created	2008-04-16
 https://hackage-content.haskell.org/package/MissingH-1.0.1.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.1.2	N/A
-https://hackage.haskell.org/package/MissingH-1.0.1.2/MissingH-1.0.1.2.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.1.2/MissingH-1.0.1.2.tar.gz	created	2008-04-16
 https://hackage-content.haskell.org/package/MissingH-1.0.1.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.2.0	N/A
-https://hackage.haskell.org/package/MissingH-1.0.2.0/MissingH-1.0.2.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.2.0/MissingH-1.0.2.0.tar.gz	created	2008-05-02
 https://hackage-content.haskell.org/package/MissingH-1.0.2.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.2.1	N/A
-https://hackage.haskell.org/package/MissingH-1.0.2.1/MissingH-1.0.2.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.2.1/MissingH-1.0.2.1.tar.gz	created	2008-09-14
 https://hackage-content.haskell.org/package/MissingH-1.0.2.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.0.3	N/A
-https://hackage.haskell.org/package/MissingH-1.0.3/MissingH-1.0.3.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.0.3/MissingH-1.0.3.tar.gz	created	2008-12-05
 https://hackage-content.haskell.org/package/MissingH-1.0.3.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.1.0	N/A
-https://hackage.haskell.org/package/MissingH-1.1.0/MissingH-1.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.1.0/MissingH-1.1.0.tar.gz	created	2009-03-16
 https://hackage-content.haskell.org/package/MissingH-1.1.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.1.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.1.0.1/MissingH-1.1.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.1.0.1/MissingH-1.1.0.1.tar.gz	created	2009-08-19
 https://hackage-content.haskell.org/package/MissingH-1.1.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.1.0.2	N/A
-https://hackage.haskell.org/package/MissingH-1.1.0.2/MissingH-1.1.0.2.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.1.0.2/MissingH-1.1.0.2.tar.gz	created	2010-02-12
 https://hackage-content.haskell.org/package/MissingH-1.1.0.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.1.0.3	N/A
-https://hackage.haskell.org/package/MissingH-1.1.0.3/MissingH-1.1.0.3.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.1.0.3/MissingH-1.1.0.3.tar.gz	created	2010-02-16
 https://hackage-content.haskell.org/package/MissingH-1.1.0.3.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.1.1.0	N/A
-https://hackage.haskell.org/package/MissingH-1.1.1.0/MissingH-1.1.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.1.1.0/MissingH-1.1.1.0.tar.gz	created	2011-09-07
 https://hackage-content.haskell.org/package/MissingH-1.1.1.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.2.0.0	N/A
-https://hackage.haskell.org/package/MissingH-1.2.0.0/MissingH-1.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.2.0.0/MissingH-1.2.0.0.tar.gz	created	2012-09-22
 https://hackage-content.haskell.org/package/MissingH-1.2.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.2.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.2.0.1/MissingH-1.2.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.2.0.1/MissingH-1.2.0.1.tar.gz	created	2013-08-03
 https://hackage-content.haskell.org/package/MissingH-1.2.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.2.0.2	N/A
-https://hackage.haskell.org/package/MissingH-1.2.0.2/MissingH-1.2.0.2.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.2.0.2/MissingH-1.2.0.2.tar.gz	created	2013-08-21
 https://hackage-content.haskell.org/package/MissingH-1.2.0.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.2.1.0	N/A
-https://hackage.haskell.org/package/MissingH-1.2.1.0/MissingH-1.2.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.2.1.0/MissingH-1.2.1.0.tar.gz	created	2014-03-09
 https://hackage-content.haskell.org/package/MissingH-1.2.1.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.3.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.3.0.1/MissingH-1.3.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.3.0.1/MissingH-1.3.0.1.tar.gz	created	2014-10-28
 https://hackage-content.haskell.org/package/MissingH-1.3.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.3.0.2	N/A
-https://hackage.haskell.org/package/MissingH-1.3.0.2/MissingH-1.3.0.2.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.3.0.2/MissingH-1.3.0.2.tar.gz	created	2016-05-16
 https://hackage-content.haskell.org/package/MissingH-1.3.0.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.0.0	N/A
-https://hackage.haskell.org/package/MissingH-1.4.0.0/MissingH-1.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.0.0/MissingH-1.4.0.0.tar.gz	created	2016-05-29
 https://hackage-content.haskell.org/package/MissingH-1.4.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.4.0.1/MissingH-1.4.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.0.1/MissingH-1.4.0.1.tar.gz	created	2016-06-15
 https://hackage-content.haskell.org/package/MissingH-1.4.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.1.0	N/A
-https://hackage.haskell.org/package/MissingH-1.4.1.0/MissingH-1.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.1.0/MissingH-1.4.1.0.tar.gz	created	2018-10-13
 https://hackage-content.haskell.org/package/MissingH-1.4.1.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.2.0	N/A
-https://hackage.haskell.org/package/MissingH-1.4.2.0/MissingH-1.4.2.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.2.0/MissingH-1.4.2.0.tar.gz	created	2019-05-14
 https://hackage-content.haskell.org/package/MissingH-1.4.2.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.2.1	N/A
-https://hackage.haskell.org/package/MissingH-1.4.2.1/MissingH-1.4.2.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.2.1/MissingH-1.4.2.1.tar.gz	created	2019-05-20
 https://hackage-content.haskell.org/package/MissingH-1.4.2.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.3.0	N/A
-https://hackage.haskell.org/package/MissingH-1.4.3.0/MissingH-1.4.3.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.3.0/MissingH-1.4.3.0.tar.gz	created	2020-04-09
 https://hackage-content.haskell.org/package/MissingH-1.4.3.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.4.3.1	N/A
-https://hackage.haskell.org/package/MissingH-1.4.3.1/MissingH-1.4.3.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.4.3.1/MissingH-1.4.3.1.tar.gz	created	2022-02-12
 https://hackage-content.haskell.org/package/MissingH-1.4.3.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.5.0.0	N/A
-https://hackage.haskell.org/package/MissingH-1.5.0.0/MissingH-1.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.5.0.0/MissingH-1.5.0.0.tar.gz	created	2022-02-12
 https://hackage-content.haskell.org/package/MissingH-1.5.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.5.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.5.0.1/MissingH-1.5.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.5.0.1/MissingH-1.5.0.1.tar.gz	created	2022-03-15
 https://hackage-content.haskell.org/package/MissingH-1.5.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.0	N/A
-https://hackage.haskell.org/package/MissingH-1.6.0.0/MissingH-1.6.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.6.0.0/MissingH-1.6.0.0.tar.gz	created	2023-01-14
 https://hackage-content.haskell.org/package/MissingH-1.6.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.1	N/A
-https://hackage.haskell.org/package/MissingH-1.6.0.1/MissingH-1.6.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.6.0.1/MissingH-1.6.0.1.tar.gz	created	2023-09-11
 https://hackage-content.haskell.org/package/MissingH-1.6.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.2	N/A
-https://hackage.haskell.org/package/MissingH-1.6.0.2/MissingH-1.6.0.2.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.6.0.2/MissingH-1.6.0.2.tar.gz	created	2025-03-02
 https://hackage-content.haskell.org/package/MissingH-1.6.0.2.tar.gz	N/A
 https://hackage.haskell.org/package/MissingH-1.6.0.3	N/A
-https://hackage.haskell.org/package/MissingH-1.6.0.3/MissingH-1.6.0.3.tar.gz	N/A
+https://hackage.haskell.org/package/MissingH-1.6.0.3/MissingH-1.6.0.3.tar.gz	created	2026-01-07
 https://hackage-content.haskell.org/package/MissingH-1.6.0.3.tar.gz	N/A
 https://api.github.com/repos/ncfavier/knob	N/A
 https://api.github.com/repos/ncfavier/knob/git/trees/main?recursive=1	N/A
@@ -13017,31 +13017,31 @@ https://github.com/ncfavier/knob/blob/main/tests/knob-tests.cabal	N/A
 https://raw.githubusercontent.com/ncfavier/knob/main/tests/knob-tests.cabal	N/A
 https://api.github.com/repos/ncfavier/knob/contents/tests/knob-tests.cabal?ref=main	N/A
 https://hackage.haskell.org/package/knob-0.1	N/A
-https://hackage.haskell.org/package/knob-0.1/knob-0.1.tar.gz	N/A
+https://hackage.haskell.org/package/knob-0.1/knob-0.1.tar.gz	created	2011-10-09
 https://hackage-content.haskell.org/package/knob-0.1.tar.gz	N/A
-https://hackage.haskell.org/package/knob-0.1/docs/Data-Knob.html	N/A
+https://hackage.haskell.org/package/knob-0.1/docs/Data-Knob.html	created	2011-10-09
 https://hackage-content.haskell.org/package/knob-0.1/docs/Data-Knob.html	N/A
 https://hackage.haskell.org/package/knob-0.1.1	N/A
-https://hackage.haskell.org/package/knob-0.1.1/knob-0.1.1.tar.gz	N/A
+https://hackage.haskell.org/package/knob-0.1.1/knob-0.1.1.tar.gz	created	2012-04-08
 https://hackage-content.haskell.org/package/knob-0.1.1.tar.gz	N/A
-https://hackage.haskell.org/package/knob-0.1.1/docs/Data-Knob.html	N/A
+https://hackage.haskell.org/package/knob-0.1.1/docs/Data-Knob.html	created	2012-04-08
 https://hackage-content.haskell.org/package/knob-0.1.1/docs/Data-Knob.html	N/A
 https://hackage.haskell.org/package/knob-0.2	N/A
-https://hackage.haskell.org/package/knob-0.2/knob-0.2.tar.gz	N/A
+https://hackage.haskell.org/package/knob-0.2/knob-0.2.tar.gz	created	2022-03-25
 https://hackage-content.haskell.org/package/knob-0.2.tar.gz	N/A
-https://hackage.haskell.org/package/knob-0.2/docs/Data-Knob.html	N/A
+https://hackage.haskell.org/package/knob-0.2/docs/Data-Knob.html	created	2022-03-25
 https://hackage-content.haskell.org/package/knob-0.2/docs/Data-Knob.html	N/A
 https://hackage.haskell.org/package/knob-0.2.1	N/A
-https://hackage.haskell.org/package/knob-0.2.1/knob-0.2.1.tar.gz	N/A
+https://hackage.haskell.org/package/knob-0.2.1/knob-0.2.1.tar.gz	created	2022-10-06
 https://hackage-content.haskell.org/package/knob-0.2.1.tar.gz	N/A
-https://hackage.haskell.org/package/knob-0.2.1/docs/Data-Knob.html	N/A
+https://hackage.haskell.org/package/knob-0.2.1/docs/Data-Knob.html	created	2022-10-06
 https://hackage-content.haskell.org/package/knob-0.2.1/docs/Data-Knob.html	N/A
 https://hackage.haskell.org/package/knob-0.2.2	N/A
-https://hackage.haskell.org/package/knob-0.2.2/knob-0.2.2.tar.gz	N/A
+https://hackage.haskell.org/package/knob-0.2.2/knob-0.2.2.tar.gz	created	2023-02-10
 https://hackage-content.haskell.org/package/knob-0.2.2.tar.gz	N/A
-https://hackage.haskell.org/package/knob-0.2.2/docs/Data-Knob.html	N/A
+https://hackage.haskell.org/package/knob-0.2.2/docs/Data-Knob.html	created	2023-02-10
 https://hackage-content.haskell.org/package/knob-0.2.2/docs/Data-Knob.html	N/A
-https://hackage.haskell.org/package/wizards/docs/System-Console-Wizard-Pure.html	N/A
+https://hackage.haskell.org/package/wizards/docs/System-Console-Wizard-Pure.html	created	2018-11-16
 https://citeseerx.ist.psu.edu/document?doi=36df1539df9f5e72f864b5095826ee72665d5740&repid=rep1&type=pdf	N/A
 https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput	N/A
 https://doi.org/10.5525/gla.thesis.71760	N/A
@@ -13055,7 +13055,7 @@ https://doi.org/10.5281/zenodo.3862954	N/A
 https://bdm.unb.br/bitstream/10483/19378/1/2017_LuizGustavoSoaresdeSa.pdf	created	2017
 https://github.com/AliasQli/dialogue#readme	N/A
 https://www.haskell.org/communities/11-2014/report.pdf	created	2014
-https://hackage.haskell.org/package/dialogue/docs/System-IO-Continuation.html	N/A
+https://hackage.haskell.org/package/dialogue/docs/System-IO-Continuation.html	created	2022-02-13
 https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/05.htm	N/A
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/5FF49759807A74E7C42B8C8E0195F654/9781108488518c12_391-448.pdf/quantitative-information-flow-with-monads-in-haskell.pdf	N/A
 https://www.cs.us.es/~jalonso/cursos/i1m-16/temas/tema-13.html	N/A
@@ -13605,7 +13605,7 @@ https://citeseerx.ist.psu.edu/document?doi=fd01713b4d2f66e63a4cdd3bade53e618349d
 https://manualzilla.com/doc/5798614/t-oy---gpd---universidad-complutense-de-madrid	N/A
 https://www.kriso.ee/real-world-haskell-code-you-can-db-97805968033222e.html	N/A
 https://www.cse.chalmers.se/~rjmh/Wash/Survey/ByUniversity.cgi.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/GHC-Exts.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/GHC-Exts.html	created	2018-09-23
 https://downloads.haskell.org/ghc/9.4.8/docs/libraries/base-4.17.2.1/src/GHC.Stable.html	N/A
 https://downloads.haskell.org/~ghc/8.6.4/docs/html/libraries/base-4.12.0.0/GHC-Exts.html	N/A
 https://downloads.haskell.org/~ghc/8.10.1-rc1/docs/html/libraries/ghc-prim-0.6.1/GHC-Prim.html	N/A
@@ -13727,7 +13727,7 @@ https://slideplayer.com/slide/13137356/	N/A
 https://www.classcentral.com/course/youtube-haskell-23-the-evolution-of-effects-347651	N/A
 https://vimeo.com/370819261	N/A
 https://media.ccc.de/v/bob2023-getting-recursive-definitions-off-their-bottoms-breitner	created	2023
-https://hackage.haskell.org/package/dialog/docs/Dialog.html	N/A
+https://hackage.haskell.org/package/dialog/docs/Dialog.html	created	2015-12-22
 https://hackage.haskell.org/package/freer-simple-1.1.0.0	N/A
 https://hackage.haskell.org/package/freer-simple-1.2.1.1	N/A
 https://www.ipl.riec.tohoku.ac.jp/FLOPS2020/pdf/5-3.pdf	created	2020
@@ -13832,7 +13832,7 @@ https://gist.github.com/ardbytes/10446574	N/A
 https://www.stackage.org/nightly-2015-12-08/package/pure-io-0.2.1	created	2015
 https://www.stackage.org/lts-17.6/package/io-machine-0.2.0.0	N/A
 https://www.stackage.org/lts-20.4/package/io-manager-0.1.0.3	N/A
-https://hackage.haskell.org/package/explicit-iomodes/docs/System-IO-ExplicitIOModes.html	N/A
+https://hackage.haskell.org/package/explicit-iomodes/docs/System-IO-ExplicitIOModes.html	created	2012-09-23
 https://www.stackage.org/lts-24.39/package/io-machine-0.2.0.0	N/A
 https://www.stackage.org/lts-18.21/package/io-machine-0.2.0.0	N/A
 https://www.stackage.org/nightly-2024-04-01/package/io-machine-0.2.0.0	created	2024
@@ -13866,7 +13866,7 @@ https://www.sota.io/blog/deploy-clean-europe-eu-hosting	N/A
 https://www.fishpond.co.nz/Books/Functional-Programming-and-Input-Output-Andrew-D-Gordon/9780521070072	N/A
 https://citeseerx.ist.psu.edu/document?doi=ba89d189921ba83d01a3b2bbde00a16a43692853&repid=rep1&type=pdf	N/A
 https://www.yumpu.com/de/document/view/7411259/kapitel-5-nichtdeterminismus-und-sharing-goethe-universitat	N/A
-https://hackage.haskell.org/package/annah/docs/Annah-Tutorial.html	N/A
+https://hackage.haskell.org/package/annah/docs/Annah-Tutorial.html	created	2016-04-24
 https://docs.idris-lang.org/_/downloads/en/v1.3.1/pdf/	N/A
 https://www.schoolofhaskell.com/school/to-infinity-and-beyond/competition-winners/how-haskell-can-solve-the-integration-problem	N/A
 https://www.tcs.uni-luebeck.de/downloads/mitarbeiter/tantau/DidrichBSTT2000-screen.pdf	created	2000
@@ -13925,16 +13925,16 @@ https://pt.scribd.com/document/741447417/Artigo06Editado	N/A
 https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranje.pdf	N/A
 https://amslaurea.unibo.it/id/eprint/27900/1/borghi_luca_tesi.pdf	N/A
 https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_033.html	N/A
-https://hackage.haskell.org/package/haste-compiler/docs/Haste-App.html	N/A
+https://hackage.haskell.org/package/haste-compiler/docs/Haste-App.html	created	2017-09-08
 https://www.stackage.org/package/managed	N/A
 https://stackoverflow.com/questions/23173971/in-haskell-how-do-i-promptly-close-resources	N/A
 https://stackoverflow.com/questions/36174670/catching-exceptions-in-monad-transformers	N/A
 https://www.stackage.org/lts-23.0/package/pipes-safe-2.3.5	N/A
-https://hackage.haskell.org/package/pipes-safe/docs	N/A
+https://hackage.haskell.org/package/pipes-safe/docs	created	2023-11-04
 https://hackage.haskell.org/package/shell-conduit	N/A
-https://hackage.haskell.org/package/conduit/docs	N/A
-https://hackage.haskell.org/package/http-conduit/docs/Network-HTTP-Conduit.html	N/A
-https://hackage.haskell.org/package/piped/docs/Piped.html	N/A
+https://hackage.haskell.org/package/conduit/docs	created	2025-02-23
+https://hackage.haskell.org/package/http-conduit/docs/Network-HTTP-Conduit.html	created	2024-10-27
+https://hackage.haskell.org/package/piped/docs/Piped.html	created	2019-08-01
 https://stackoverflow.com/questions/19673383/how-does-one-use-monadic-properties-in-smallcheck	N/A
 https://www.arnauabella.net/posts/free-interpreter/	N/A
 https://lukasz-golebiewski.github.io/haskell/effects/2021/01/06/overlappable-instances.html	publication	2021-01-06
@@ -14296,7 +14296,7 @@ https://www.ioc.ee/~matt/iti0212-2024/files/lab-07.pdf	created	2024
 https://www.isa-afp.org/browser_info/current/AFP/Hello_World/outline.pdf	N/A
 https://mpcs-courses.cs.uchicago.edu/2026-27/autumn/courses/mpcs-51400-1	created	2026
 https://valhovey.github.io/blog/the-exception-butterfly	N/A
-https://hackage.haskell.org/package/fwgl/docs/FWGL.html	N/A
+https://hackage.haskell.org/package/fwgl/docs/FWGL.html	created	2015-09-06
 https://pkg.go.dev/github.com/IBM/fp-go/v2/io	N/A
 https://timwspence.github.io/blog/posts/2020-11-22-polymorphic-effects-in-scala.html	created	2020
 https://index.scala-lang.org/fwbrasil/quill	N/A
@@ -14474,7 +14474,7 @@ https://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the
 https://nauths.fr/en/2026/05/28/practical-use-of-monads.html	publication	2026-05-28
 https://repository.upenn.edu/server/api/core/bitstreams/b705fba2-a929-4f57-924e-ce0b57108d35/content	N/A
 https://packdeps.haskellers.com/licenses/rio-app?include-tests=true	N/A
-https://hackage.haskell.org/package/haskeline-0.7.4.0/docs/System-Console-Haskeline-MonadException.html	N/A
+https://hackage.haskell.org/package/haskeline-0.7.4.0/docs/System-Console-Haskeline-MonadException.html	created	2017-04-21
 https://hackage.haskell.org/package/monad-par	N/A
 https://hackage-content.haskell.org/package/streamly-0.11.0/docs/Streamly-Data-Stream-Prelude.html	N/A
 https://stackoverflow.com/questions/29001751/getting-parallel-io-while-accounting-for-failure	N/A
@@ -14504,43 +14504,43 @@ https://www.cs.ox.ac.uk/people/ohad.kammar/talks-and-publications.html	N/A
 https://core.ac.uk/download/pdf/76382625.pdf	N/A
 https://www.cs.umd.edu/~mwh/papers/swamy11monad.html	N/A
 https://hackage-content.haskell.org/package/base-4.19.1.0/docs/Control-Monad.html	N/A
-https://hackage.haskell.org/package/transformers-base/docs/Control-Monad-Base.html	N/A
+https://hackage.haskell.org/package/transformers-base/docs/Control-Monad-Base.html	created	2026-03-09
 https://hackage-content.haskell.org/package/aivika-1.2/candidate/src/doc/aivika.pdf	N/A
-https://hackage.haskell.org/package/monadio-unwrappable/docs	N/A
-https://hackage.haskell.org/package/io-choice/docs	N/A
-https://hackage.haskell.org/package/MonadCatchIO-transformers-foreign/docs	N/A
-https://hackage.haskell.org/package/monadio-unwrappable/docs/Control-Monad-IO-Unwrappable.html	N/A
-https://hackage.haskell.org/package/monadio-unwrappable/docs/Control-Monad-IO-MonadIOException.html	N/A
-https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice.html	N/A
-https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice-Lifted.html	N/A
-https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice-TH.html	N/A
-https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice-Lifted-TH.html	N/A
-https://hackage.haskell.org/package/MonadCatchIO-transformers-foreign/docs/Control-Monad-CatchIO-Foreign.html	N/A
-https://hackage.haskell.org/package/MonadCatchIO-transformers/docs	N/A
-https://hackage.haskell.org/package/MonadCatchIO-transformers/docs/Control-Monad-CatchIO-Try.html	N/A
-https://hackage.haskell.org/package/MonadCatchIO-transformers/docs/Control-Monad-CatchIO.html	N/A
-https://hackage.haskell.org/package/MonadCatchIO-mtl-0.3.0.0/docs	N/A
-https://hackage.haskell.org/package/MonadCatchIO-mtl-0.3.0.0/docs/Control-Monad-CatchIO.html	N/A
+https://hackage.haskell.org/package/monadio-unwrappable/docs	created	2012-06-18
+https://hackage.haskell.org/package/io-choice/docs	created	2018-12-11
+https://hackage.haskell.org/package/MonadCatchIO-transformers-foreign/docs	created	2010-05-29
+https://hackage.haskell.org/package/monadio-unwrappable/docs/Control-Monad-IO-Unwrappable.html	created	2012-06-18
+https://hackage.haskell.org/package/monadio-unwrappable/docs/Control-Monad-IO-MonadIOException.html	created	2012-06-18
+https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice.html	created	2018-12-11
+https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice-Lifted.html	created	2018-12-11
+https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice-TH.html	created	2018-12-11
+https://hackage.haskell.org/package/io-choice/docs/Control-Exception-IOChoice-Lifted-TH.html	created	2018-12-11
+https://hackage.haskell.org/package/MonadCatchIO-transformers-foreign/docs/Control-Monad-CatchIO-Foreign.html	created	2010-05-29
+https://hackage.haskell.org/package/MonadCatchIO-transformers/docs	created	2014-12-23
+https://hackage.haskell.org/package/MonadCatchIO-transformers/docs/Control-Monad-CatchIO-Try.html	created	2014-12-23
+https://hackage.haskell.org/package/MonadCatchIO-transformers/docs/Control-Monad-CatchIO.html	created	2014-12-23
+https://hackage.haskell.org/package/MonadCatchIO-mtl-0.3.0.0/docs	created	2010-03-16
+https://hackage.haskell.org/package/MonadCatchIO-mtl-0.3.0.0/docs/Control-Monad-CatchIO.html	created	2010-03-16
 https://hackage.haskell.org/package/MonadCatchIO-transformers-0.2.2.2	N/A
-https://hackage.haskell.org/package/unliftio-core/docs	N/A
-https://hackage.haskell.org/package/monad-peel/docs/Control-Exception-Peel.html	N/A
-https://hackage.haskell.org/package/lifted-base/docs/System-Timeout-Lifted.html	N/A
-https://hackage.haskell.org/package/base-4.17.0.0/docs/Control-Monad.html	N/A
+https://hackage.haskell.org/package/unliftio-core/docs	created	2023-02-06
+https://hackage.haskell.org/package/monad-peel/docs/Control-Exception-Peel.html	created	2023-08-10
+https://hackage.haskell.org/package/lifted-base/docs/System-Timeout-Lifted.html	created	2018-03-14
+https://hackage.haskell.org/package/base-4.17.0.0/docs/Control-Monad.html	created	2022-08-07
 https://hugopeters.me/posts/10/	N/A
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/05-Application-Structure/src/02-MTL/32-The-ReaderT-Capability-Design-Pattern.html	N/A
-https://hackage.haskell.org/package/lio/docs/LIO-Label.html	N/A
+https://hackage.haskell.org/package/lio/docs/LIO-Label.html	created	2020-09-23
 https://hackage.haskell.org/package/failable	N/A
-https://hackage.haskell.org/package/lio/docs/LIO-Core.html	N/A
-https://hackage.haskell.org/package/lio/docs/LIO-Run.html	N/A
-https://hackage.haskell.org/package/lio/docs/LIO.html	N/A
-https://hackage.haskell.org/package/lio/docs/LIO-Monad.html	N/A
-https://hackage.haskell.org/package/lio/docs/LIO-Exception.html	N/A
-https://hackage.haskell.org/package/io-region/docs	N/A
+https://hackage.haskell.org/package/lio/docs/LIO-Core.html	created	2020-09-23
+https://hackage.haskell.org/package/lio/docs/LIO-Run.html	created	2020-09-23
+https://hackage.haskell.org/package/lio/docs/LIO.html	created	2020-09-23
+https://hackage.haskell.org/package/lio/docs/LIO-Monad.html	created	2020-09-23
+https://hackage.haskell.org/package/lio/docs/LIO-Exception.html	created	2020-09-23
+https://hackage.haskell.org/package/io-region/docs	created	2015-04-24
 https://hackage.haskell.org/package/resourcet	N/A
-https://hackage.haskell.org/package/io-region/docs/Control-IO-Region.html	N/A
-https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region.html	N/A
-https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region-OnExit.html	N/A
-https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region-Unsafe.html	N/A
+https://hackage.haskell.org/package/io-region/docs/Control-IO-Region.html	created	2015-04-24
+https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region.html	created	2011-09-23
+https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region-OnExit.html	created	2011-09-23
+https://hackage.haskell.org/package/regions/docs/Control-Monad-Trans-Region-Unsafe.html	created	2011-09-23
 https://www.youtube.com/playlist?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10	N/A
 https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV	N/A
 https://www.youtube.com/watch?v=IBB7JpbClo8	N/A
@@ -14870,30 +14870,30 @@ https://www.youtube.com/watch?v=t7rfvpd9mD0	N/A
 https://www.youtube.com/watch?v=CnPT5LOIVZw	N/A
 https://www.youtube.com/watch?v=jr6UBI18tx0	N/A
 https://www.youtube.com/watch?v=knK70T4X7YE	N/A
-https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.22.0.0/docs/Control-Monad-IO-Class.html	N/A
+https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-IO-Class.html	created	2021-08-06
+https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-IO-Class.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-IO-Class.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.17.2.1/docs/Control-Monad-IO-Class.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.18.3.0/docs/Control-Monad-IO-Class.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.19.2.0/docs/Control-Monad-IO-Class.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.20.1.0/docs/Control-Monad-IO-Class.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad-IO-Class.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.22.0.0/docs/Control-Monad-IO-Class.html	created	2025-12-19
 https://hackage-content.haskell.org/package/base-4.15.1.0/docs/Control-Monad-IO-Class.html	N/A
 https://hackage-content.haskell.org/package/base-4.16.4.0/docs/Control-Monad-IO-Class.html	N/A
 https://hackage-content.haskell.org/package/base-4.17.2.1/docs/Control-Monad-IO-Class.html	N/A
 https://hackage-content.haskell.org/package/base-4.18.3.0/docs/Control-Monad-IO-Class.html	N/A
 https://hackage-content.haskell.org/package/base-4.20.1.0/docs/Control-Monad-IO-Class.html	N/A
 https://hackage-content.haskell.org/package/base-4.21.0.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Monad-IO-Class.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/Control-Monad-IO-Class.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Monad-IO-Class.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.13.0.0/docs/Control-Monad-IO-Class.html	created	2020-05-04
 https://hackage-content.haskell.org/package/base-4.11.1.0/docs/Control-Monad-IO-Class.html	N/A
 https://hackage-content.haskell.org/package/unliftio-core-0.1.0.0/docs/Control-Monad-IO-Unlift.html	N/A
 https://hackage-content.haskell.org/package/unliftio-core-0.1.1.0/docs/Control-Monad-IO-Unlift.html	N/A
 https://hackage-content.haskell.org/package/unliftio-core-0.1.2.0/docs/Control-Monad-IO-Unlift.html	N/A
 https://hackage-content.haskell.org/package/unliftio-core-0.2.0.0/docs/Control-Monad-IO-Unlift.html	N/A
 https://hackage-content.haskell.org/package/unliftio-core-0.2.1.0/docs/Control-Monad-IO-Unlift.html	N/A
-https://hackage.haskell.org/package/unliftio-0.2.20.1/changelog	N/A
+https://hackage.haskell.org/package/unliftio-0.2.20.1/changelog	created	2022-01-27
 https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/Control-Monad-IO-Class.html	N/A
 https://downloads.haskell.org/ghc/8.0.1/docs/html/libraries/base-4.9.0.0/src/Control-Monad-IO-Class.html	N/A
 https://downloads.haskell.org/ghc/8.2.1/docs/html/libraries/base-4.10.0.0/Control-Monad-IO-Class.html	N/A
@@ -15000,43 +15000,43 @@ https://www.stackage.org/lts-20.25/package/base-4.16.4.0	N/A
 https://www.stackage.org/lts-22.35/package/monad-control-1.0.3.1	N/A
 https://www.stackage.org/lts-24.42/docs	N/A
 https://books.google.com/books/about/Beginning_Haskell.html?id=IZsQAwAAQBAJ	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.IO.Class.html	created	2017-01-14
 https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.IO.Class.html	created	2017-12-04
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.IO.Class.html	created	2018-04-21
 https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.IO.Class.html	created	2018-09-23
 https://hackage-content.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.IO.Class.html	created	2020-05-04
 https://hackage-content.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.IO.Class.html	created	2021-12-28
 https://hackage-content.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.IO.Class.html	created	2022-11-09
 https://hackage-content.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.IO.Class.html	created	2023-12-07
 https://hackage-content.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.IO.Class.html	created	2025-04-15
 https://hackage-content.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.IO.Class.html	created	2024-10-21
 https://hackage-content.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.IO.Class.html	created	2025-05-03
 https://hackage-content.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.IO.Class.html	created	2024-12-16
 https://hackage-content.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/unliftio-core-0.1.2.0/docs/src/Control.Monad.IO.Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.1.2.0/docs/src/Control.Monad.IO.Unlift.html	created	2018-08-28
 https://hackage-content.haskell.org/package/unliftio-core-0.1.2.0/docs/src/Control.Monad.IO.Unlift.html	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.0.0/docs/src/Control.Monad.IO.Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.2.0.0/docs/src/Control.Monad.IO.Unlift.html	created	2020-03-01
 https://hackage-content.haskell.org/package/unliftio-core-0.2.0.0/docs/src/Control.Monad.IO.Unlift.html	N/A
-https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs/src/Control.Monad.IO.Unlift.html	N/A
+https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs/src/Control.Monad.IO.Unlift.html	created	2023-02-06
 https://hackage-content.haskell.org/package/unliftio-core-0.2.1.0/docs/src/Control.Monad.IO.Unlift.html	N/A
 https://hackage.haskell.org/package/unliftio-core	N/A
 https://hackage.haskell.org/package/unliftio-servant-server	N/A
-https://hackage.haskell.org/package/monadIO/docs/src/Control.Concurrent.MonadIO.html	N/A
-https://hackage.haskell.org/package/monadIO/docs/src/Control.Concurrent.STM.MonadIO.html	N/A
+https://hackage.haskell.org/package/monadIO/docs/src/Control.Concurrent.MonadIO.html	created	2018-10-03
+https://hackage.haskell.org/package/monadIO/docs/src/Control.Concurrent.STM.MonadIO.html	created	2018-10-03
 https://hackage-content.haskell.org/package/monadIO/docs/src/Control.Concurrent.MonadIO.html	N/A
 https://hackage-content.haskell.org/package/monadIO/docs/src/Control.Concurrent.STM.MonadIO.html	N/A
-https://hackage.haskell.org/package/preamble/docs/Preamble.html	N/A
+https://hackage.haskell.org/package/preamble/docs/Preamble.html	created	2018-10-11
 https://www.stackage.org/package/monadIO	N/A
 https://www.stackage.org/package/transformers-base	N/A
 https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.html	N/A
@@ -15646,30 +15646,30 @@ https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/GHC-Ex
 https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GHC-Exts.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/GHC-Exts.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.Exts.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/GHC-Exts.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.Exts.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.Exts.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.Exts.html	created	2018-09-23
+https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-Exts.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.Exts.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-Exts.html	created	2021-08-06
+https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-Exts.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.Exts.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-Exts.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.Exts.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-Exts.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.Exts.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-Exts.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.Exts.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-Exts.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.Exts.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-Exts.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.Exts.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-Exts.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.Exts.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.9.1.0/docs/GHC-Exts.html	created	2017-01-14
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.Exts.html	created	2017-01-14
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/GHC-Exts.html	N/A
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.Exts.html	N/A
 https://hackage-content.haskell.org/package/base-4.11.1.0/docs/GHC-Exts.html	N/A
@@ -15926,47 +15926,47 @@ https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/GH
 https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/GHC-Prim.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/ghc-prim-0.3.1.0/src/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html	created	2014-04-08
 https://hackage-content.haskell.org/package/ghc-prim-0.3.1.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.4.0.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html	created	2016-05-21
+https://hackage.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html	created	2016-05-21
 https://hackage-content.haskell.org/package/ghc-prim-0.5.0.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.5.0.0/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html	created	2017-12-21
+https://hackage.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html	created	2017-12-21
 https://hackage-content.haskell.org/package/ghc-prim-0.5.1.1/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.5.1.1/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html	created	2018-04-01
 https://hackage-content.haskell.org/package/ghc-prim-0.5.2.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.5.2.0/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html	created	2018-10-05
+https://hackage.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html	created	2018-10-05
 https://hackage-content.haskell.org/package/ghc-prim-0.5.3/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.5.3/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html	created	2020-05-04
+https://hackage.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html	created	2020-05-04
 https://hackage-content.haskell.org/package/ghc-prim-0.6.1/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.6.1/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html	created	2021-03-28
 https://hackage-content.haskell.org/package/ghc-prim-0.7.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html	created	2021-10-29
+https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html	created	2021-10-29
 https://hackage-content.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.8.0/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html	created	2023-03-28
 https://hackage-content.haskell.org/package/ghc-prim-0.10.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.10.0/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html	created	2023-10-10
+https://hackage.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html	created	2023-10-10
 https://hackage-content.haskell.org/package/ghc-prim-0.11.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.11.0/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html	created	2025-05-03
+https://hackage.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html	created	2025-05-03
 https://hackage-content.haskell.org/package/ghc-prim-0.12.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.12.0/docs/src/GHC.Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html	N/A
-https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html	N/A
+https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html	created	2024-12-16
+https://hackage.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html	created	2024-12-16
 https://hackage-content.haskell.org/package/ghc-prim-0.13.0/docs/GHC-Prim.html	N/A
 https://hackage-content.haskell.org/package/ghc-prim-0.13.0/docs/src/GHC.Prim.html	N/A
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/ghc-internal-9.1001.0-be1e/GHC-Internal-Base.html	N/A
@@ -16613,52 +16613,52 @@ https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/GH
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/Control-Monad-ST.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/Control-Monad-ST.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-ST.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.ST.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/Control-Monad-ST.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.ST.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.ST.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Monad-ST.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/Control.Monad.ST.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.ST.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Monad-ST.html	created	2018-09-23
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/Control.Monad.ST.html	created	2018-09-23
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/GHC.ST.html	created	2018-09-23
+https://hackage.haskell.org/package/base-4.13.0.0/docs/Control-Monad-ST.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-ST.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/Control.Monad.ST.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.ST.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.14.3.0/docs/Control-Monad-ST.html	created	2021-08-06
+https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-ST.html	created	2021-08-06
+https://hackage.haskell.org/package/base-4.15.1.0/docs/Control-Monad-ST.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-ST.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/Control.Monad.ST.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.ST.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.16.4.0/docs/Control-Monad-ST.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-ST.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/Control.Monad.ST.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.ST.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.17.2.1/docs/Control-Monad-ST.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-ST.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/Control.Monad.ST.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.ST.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.18.3.0/docs/Control-Monad-ST.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-ST.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/Control.Monad.ST.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.ST.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.19.2.0/docs/Control-Monad-ST.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-ST.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/Control.Monad.ST.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.ST.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.20.1.0/docs/Control-Monad-ST.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-ST.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/Control.Monad.ST.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.ST.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad-ST.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-ST.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/Control.Monad.ST.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.ST.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.9.1.0/docs/Control-Monad-ST.html	created	2017-01-14
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.ST.html	created	2017-01-14
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.ST.html	created	2017-01-14
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/Control-Monad-ST.html	N/A
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/Control.Monad.ST.html	N/A
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.ST.html	N/A
@@ -17190,51 +17190,51 @@ https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/src/Sy
 https://downloads.haskell.org/~ghc/7.8.3/docs/html/libraries/base-4.7.0.1/System-IO-Unsafe.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/src/System-IO-Unsafe.html	N/A
 https://downloads.haskell.org/~ghc/7.8.4/docs/html/libraries/base-4.7.0.2/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.11.1.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.12.0.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.13.0.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.14.3.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.15.1.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.16.4.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.17.2.1/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.18.3.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.19.2.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.20.1.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.21.0.0/docs/System-IO-Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/src/System.IO.Unsafe.html	N/A
-https://hackage.haskell.org/package/base-4.9.1.0/docs/System-IO-Unsafe.html	N/A
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html	created	2017-12-04
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.Unsafe.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.11.1.0/docs/src/System.IO.Unsafe.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.11.1.0/docs/System-IO-Unsafe.html	created	2018-04-21
+https://hackage.haskell.org/package/base-4.12.0.0/docs/src/System.IO.Unsafe.html	created	2018-09-23
+https://hackage.haskell.org/package/base-4.12.0.0/docs/System-IO-Unsafe.html	created	2018-09-23
+https://hackage.haskell.org/package/base-4.13.0.0/docs/GHC-IO-Unsafe.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/GHC.IO.Unsafe.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/src/System.IO.Unsafe.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.13.0.0/docs/System-IO-Unsafe.html	created	2020-05-04
+https://hackage.haskell.org/package/base-4.14.3.0/docs/GHC-IO-Unsafe.html	created	2021-08-06
+https://hackage.haskell.org/package/base-4.14.3.0/docs/System-IO-Unsafe.html	created	2021-08-06
+https://hackage.haskell.org/package/base-4.15.1.0/docs/GHC-IO-Unsafe.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/GHC.IO.Unsafe.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/src/System.IO.Unsafe.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.15.1.0/docs/System-IO-Unsafe.html	created	2021-12-28
+https://hackage.haskell.org/package/base-4.16.4.0/docs/GHC-IO-Unsafe.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/GHC.IO.Unsafe.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/src/System.IO.Unsafe.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.16.4.0/docs/System-IO-Unsafe.html	created	2022-11-09
+https://hackage.haskell.org/package/base-4.17.2.1/docs/GHC-IO-Unsafe.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/GHC.IO.Unsafe.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/src/System.IO.Unsafe.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.17.2.1/docs/System-IO-Unsafe.html	created	2023-12-07
+https://hackage.haskell.org/package/base-4.18.3.0/docs/GHC-IO-Unsafe.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/GHC.IO.Unsafe.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/src/System.IO.Unsafe.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.18.3.0/docs/System-IO-Unsafe.html	created	2025-04-15
+https://hackage.haskell.org/package/base-4.19.2.0/docs/GHC-IO-Unsafe.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/GHC.IO.Unsafe.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/src/System.IO.Unsafe.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.19.2.0/docs/System-IO-Unsafe.html	created	2024-10-21
+https://hackage.haskell.org/package/base-4.20.1.0/docs/GHC-IO-Unsafe.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/GHC.IO.Unsafe.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/src/System.IO.Unsafe.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.20.1.0/docs/System-IO-Unsafe.html	created	2025-05-03
+https://hackage.haskell.org/package/base-4.21.0.0/docs/GHC-IO-Unsafe.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/GHC.IO.Unsafe.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/src/System.IO.Unsafe.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.21.0.0/docs/System-IO-Unsafe.html	created	2024-12-16
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.Unsafe.html	created	2017-01-14
+https://hackage.haskell.org/package/base-4.9.1.0/docs/src/System.IO.Unsafe.html	created	2017-01-14
+https://hackage.haskell.org/package/base-4.9.1.0/docs/System-IO-Unsafe.html	created	2017-01-14
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.Unsafe.html	N/A
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/System.IO.Unsafe.html	N/A
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/System-IO-Unsafe.html	N/A
@@ -20036,14 +20036,14 @@ https://www.haskell.org/definition/original-haskell98-library-html.tar.gz	N/A
 https://www.haskell.org/definition/haskell-report-1.4-html.tar.gz	N/A
 https://www.haskell.org/definition/haskell-library-1.4-html.tar.gz	N/A
 https://hackage.haskell.org/package/dialogue-0.1.0	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz	created	2022-02-13
 https://hackage-content.haskell.org/package/dialogue-0.1.0	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Continuation.html	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Dialogue.html	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/doc-index.html	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html	N/A
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/doc-index.html	created	2022-02-13
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html	created	2022-02-13
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html	created	2022-02-13
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html	N/A
@@ -20448,7 +20448,7 @@ https://github.com/alexandersgreen/qio-haskell/blob/master/Setup.hs	N/A
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/Setup.hs	N/A
 https://api.github.com/repos/alexandersgreen/qio-haskell/contents/Setup.hs?ref=master	N/A
 https://hackage-content.haskell.org/package/QIO-1.0.tar.gz	N/A
-https://hackage.haskell.org/package/QIO-1.0/docs/QIO.html	N/A
+https://hackage.haskell.org/package/QIO-1.0/docs/QIO.html	created	2010-01-29
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Heap.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QArith.html	N/A
@@ -20459,14 +20459,14 @@ https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qft.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qio.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioClass.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioSyn.html	N/A
-https://hackage.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html	N/A
+https://hackage.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html	created	2010-01-29
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Shor.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Vec.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-VecEq.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.1.tar.gz	N/A
 https://hackage-content.haskell.org/package/QIO-1.2.tar.gz	N/A
-https://hackage.haskell.org/package/QIO-1.2/docs/QIO.html	N/A
+https://hackage.haskell.org/package/QIO-1.2/docs/QIO.html	created	2012-08-22
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Heap.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QArith.html	N/A
@@ -20477,13 +20477,13 @@ https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qft.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qio.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioClass.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioSyn.html	N/A
-https://hackage.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html	N/A
+https://hackage.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html	created	2012-08-22
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Shor.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Vec.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-VecEq.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.3.tar.gz	N/A
-https://hackage.haskell.org/package/QIO-1.3/docs/QIO.html	N/A
+https://hackage.haskell.org/package/QIO-1.3/docs/QIO.html	created	2016-11-13
 https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Heap.html	N/A
 https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QArith.html	N/A
@@ -20570,7 +20570,7 @@ https://api.github.com/repos/lambdabot/IOSpec/contents/www/cabal.png?ref=master	
 https://github.com/lambdabot/IOSpec/blob/master/www/unsafe.jpg	N/A
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/unsafe.jpg	N/A
 https://api.github.com/repos/lambdabot/IOSpec/contents/www/unsafe.jpg?ref=master	N/A
-https://hackage.haskell.org/package/IOSpec-0.1/IOSpec-0.1.tar.gz	N/A
+https://hackage.haskell.org/package/IOSpec-0.1/IOSpec-0.1.tar.gz	created	2007-04-24
 https://hackage-content.haskell.org/package/IOSpec-0.1.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.1.1.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.2.tar.gz	N/A
@@ -20579,12 +20579,12 @@ https://hackage-content.haskell.org/package/IOSpec-0.2.2.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.2.3.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.2.4.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.2.5.tar.gz	N/A
-https://hackage.haskell.org/package/IOSpec-0.2.6/IOSpec-0.2.6.tar.gz	N/A
+https://hackage.haskell.org/package/IOSpec-0.2.6/IOSpec-0.2.6.tar.gz	created	2015-04-21
 https://hackage-content.haskell.org/package/IOSpec-0.2.6.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.3.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.3.1.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.3.1.1.tar.gz	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.2/IOSpec-0.3.1.2.tar.gz	N/A
+https://hackage.haskell.org/package/IOSpec-0.3.1.2/IOSpec-0.3.1.2.tar.gz	created	2023-07-25
 https://hackage-content.haskell.org/package/IOSpec-0.3.1.2.tar.gz	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Fork.html	N/A
 https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-IORef.html	N/A
@@ -20813,37 +20813,37 @@ https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Co
 https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/Utils.hs	N/A
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/Utils.hs	N/A
 https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/Utils.hs?ref=main	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/io-classes-1.0.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.0/io-classes-1.0.0.0.tar.gz	created	2023-04-18
 https://hackage-content.haskell.org/package/io-classes-1.0.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/io-classes-1.0.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.1/io-classes-1.0.0.1.tar.gz	created	2023-04-20
 https://hackage-content.haskell.org/package/io-classes-1.0.0.1.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/io-classes-1.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.1.0.0/io-classes-1.1.0.0.tar.gz	created	2023-04-26
 https://hackage-content.haskell.org/package/io-classes-1.1.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/io-classes-1.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.2.0.0/io-classes-1.2.0.0.tar.gz	created	2023-07-28
 https://hackage-content.haskell.org/package/io-classes-1.2.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/io-classes-1.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.3.0.0/io-classes-1.3.0.0.tar.gz	created	2023-11-08
 https://hackage-content.haskell.org/package/io-classes-1.3.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/io-classes-1.3.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.3.1.0/io-classes-1.3.1.0.tar.gz	created	2023-11-20
 https://hackage-content.haskell.org/package/io-classes-1.3.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/io-classes-1.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.4.0.0/io-classes-1.4.0.0.tar.gz	created	2024-02-02
 https://hackage-content.haskell.org/package/io-classes-1.4.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/io-classes-1.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.4.1.0/io-classes-1.4.1.0.tar.gz	created	2024-02-15
 https://hackage-content.haskell.org/package/io-classes-1.4.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/io-classes-1.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.5.0.0/io-classes-1.5.0.0.tar.gz	created	2024-05-17
 https://hackage-content.haskell.org/package/io-classes-1.5.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/io-classes-1.6.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.6.0.0/io-classes-1.6.0.0.tar.gz	created	2024-08-27
 https://hackage-content.haskell.org/package/io-classes-1.6.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/io-classes-1.7.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.7.0.0/io-classes-1.7.0.0.tar.gz	created	2024-08-27
 https://hackage-content.haskell.org/package/io-classes-1.7.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/io-classes-1.8.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.8.0.0/io-classes-1.8.0.0.tar.gz	created	2025-05-21
 https://hackage-content.haskell.org/package/io-classes-1.8.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/io-classes-1.8.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.8.0.1/io-classes-1.8.0.1.tar.gz	created	2025-06-02
 https://hackage-content.haskell.org/package/io-classes-1.8.0.1.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/io-classes-1.9.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.9.0.0/io-classes-1.9.0.0.tar.gz	created	2025-11-27
 https://hackage-content.haskell.org/package/io-classes-1.9.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/io-classes-1.10.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.10.0.0/io-classes-1.10.0.0.tar.gz	created	2026-02-23
 https://hackage-content.haskell.org/package/io-classes-1.10.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/io-classes-1.10.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.10.1.0/io-classes-1.10.1.0.tar.gz	created	2026-04-15
 https://hackage-content.haskell.org/package/io-classes-1.10.1.0.tar.gz	N/A
 https://api.github.com/repos/input-output-hk/fs-sim	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/git/trees/main?recursive=1	N/A
@@ -20981,33 +20981,33 @@ https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/WithEn
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/WithEntryCounter.hs	N/A
 https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/WithEntryCounter.hs?ref=main	N/A
 https://hackage.haskell.org/package/fs-api-0.3.0.0	N/A
-https://hackage.haskell.org/package/fs-api-0.3.0.0/fs-api-0.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-api-0.3.0.0/fs-api-0.3.0.0.tar.gz	created	2024-08-26
 https://hackage-content.haskell.org/package/fs-api-0.3.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/fs-api-0.3.0.1	N/A
-https://hackage.haskell.org/package/fs-api-0.3.0.1/fs-api-0.3.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/fs-api-0.3.0.1/fs-api-0.3.0.1.tar.gz	created	2024-10-02
 https://hackage-content.haskell.org/package/fs-api-0.3.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/fs-api-0.4.0.0	N/A
-https://hackage.haskell.org/package/fs-api-0.4.0.0/fs-api-0.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-api-0.4.0.0/fs-api-0.4.0.0.tar.gz	created	2025-06-12
 https://hackage-content.haskell.org/package/fs-api-0.4.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/fs-sim-0.3.0.0	N/A
-https://hackage.haskell.org/package/fs-sim-0.3.0.0/fs-sim-0.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.0.0/fs-sim-0.3.0.0.tar.gz	created	2024-08-26
 https://hackage-content.haskell.org/package/fs-sim-0.3.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/fs-sim-0.3.0.1	N/A
-https://hackage.haskell.org/package/fs-sim-0.3.0.1/fs-sim-0.3.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.0.1/fs-sim-0.3.0.1.tar.gz	created	2024-10-02
 https://hackage-content.haskell.org/package/fs-sim-0.3.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/fs-sim-0.3.1.0	N/A
-https://hackage.haskell.org/package/fs-sim-0.3.1.0/fs-sim-0.3.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.1.0/fs-sim-0.3.1.0.tar.gz	created	2024-12-10
 https://hackage-content.haskell.org/package/fs-sim-0.3.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/fs-sim-0.4.0.0/fs-sim-0.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.4.0.0/fs-sim-0.4.0.0.tar.gz	created	2025-06-12
 https://hackage-content.haskell.org/package/fs-sim-0.4.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/fs-sim-0.4.1.0	N/A
-https://hackage.haskell.org/package/fs-sim-0.4.1.0/fs-sim-0.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.4.1.0/fs-sim-0.4.1.0.tar.gz	created	2025-09-29
 https://hackage-content.haskell.org/package/fs-sim-0.4.1.0.tar.gz	N/A
 https://hackage.haskell.org/package/fs-sim-0.5.0.0	N/A
-https://hackage.haskell.org/package/fs-sim-0.5.0.0/fs-sim-0.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.5.0.0/fs-sim-0.5.0.0.tar.gz	created	2026-04-24
 https://hackage-content.haskell.org/package/fs-sim-0.5.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/fs-sim-0.5.0.1	N/A
-https://hackage.haskell.org/package/fs-sim-0.5.0.1/fs-sim-0.5.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.5.0.1/fs-sim-0.5.0.1.tar.gz	created	2026-05-18
 https://hackage-content.haskell.org/package/fs-sim-0.5.0.1.tar.gz	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/git/trees/main?recursive=1	N/A
@@ -21076,22 +21076,22 @@ https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test/Main.hs	N/A
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test/Main.hs	N/A
 https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test/Main.hs?ref=main	N/A
 https://hackage.haskell.org/package/blockio-0.1.0.0	N/A
-https://hackage.haskell.org/package/blockio-0.1.0.0/blockio-0.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.0.0/blockio-0.1.0.0.tar.gz	created	2025-07-15
 https://hackage-content.haskell.org/package/blockio-0.1.0.0.tar.gz	N/A
 https://hackage.haskell.org/package/blockio-0.1.0.1	N/A
-https://hackage.haskell.org/package/blockio-0.1.0.1/blockio-0.1.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.0.1/blockio-0.1.0.1.tar.gz	created	2025-07-16
 https://hackage-content.haskell.org/package/blockio-0.1.0.1.tar.gz	N/A
 https://hackage.haskell.org/package/blockio-0.1.1.0	N/A
-https://hackage.haskell.org/package/blockio-0.1.1.0/blockio-0.1.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.0/blockio-0.1.1.0.tar.gz	created	2025-12-03
 https://hackage-content.haskell.org/package/blockio-0.1.1.0.tar.gz	N/A
 https://hackage.haskell.org/package/blockio-0.1.1.1	N/A
-https://hackage.haskell.org/package/blockio-0.1.1.1/blockio-0.1.1.1.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.1/blockio-0.1.1.1.tar.gz	created	2025-12-10
 https://hackage-content.haskell.org/package/blockio-0.1.1.1.tar.gz	N/A
 https://hackage.haskell.org/package/blockio-0.1.1.2	N/A
-https://hackage.haskell.org/package/blockio-0.1.1.2/blockio-0.1.1.2.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.2/blockio-0.1.1.2.tar.gz	created	2026-04-24
 https://hackage-content.haskell.org/package/blockio-0.1.1.2.tar.gz	N/A
 https://hackage.haskell.org/package/blockio-0.2.0.0	N/A
-https://hackage.haskell.org/package/blockio-0.2.0.0/blockio-0.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.2.0.0/blockio-0.2.0.0.tar.gz	created	2026-05-13
 https://hackage-content.haskell.org/package/blockio-0.2.0.0.tar.gz	N/A
 https://hackage.haskell.org/packages/tag/io	N/A
 https://repository.tudelft.nl/file/File_6157c7f8-9e15-49c6-aaa4-d0ccc8e06c2d	N/A
@@ -21116,138 +21116,138 @@ https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/
 https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/File.hs	N/A
 https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/File.hs	N/A
 https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/File.hs?ref=master	N/A
-https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html	created	2022-07-13
 https://hackage-content.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html	created	2022-07-13
 https://hackage-content.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html	created	2022-07-19
 https://hackage-content.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html	created	2022-07-19
 https://hackage-content.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html	created	2022-07-28
 https://hackage-content.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html	created	2022-07-28
 https://hackage-content.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html	created	2022-08-12
 https://hackage-content.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html	created	2022-08-12
 https://hackage-content.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html	created	2022-08-22
 https://hackage-content.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html	created	2022-08-22
 https://hackage-content.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html	created	2022-10-24
 https://hackage-content.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html	created	2022-10-24
 https://hackage-content.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html	created	2022-11-09
 https://hackage-content.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html	created	2022-11-09
 https://hackage-content.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html	created	2023-01-11
 https://hackage-content.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html	created	2023-01-11
 https://hackage-content.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html	created	2023-09-13
 https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2023-09-13
 https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2023-09-13
 https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2023-09-13
 https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html	created	2023-09-13
 https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html	created	2024-06-06
 https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2024-06-06
 https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2024-06-06
 https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2024-06-06
 https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html	created	2024-06-06
 https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html	created	2024-10-08
 https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2024-10-08
 https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2024-10-08
 https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2024-10-08
 https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html	created	2024-10-08
 https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html	created	2024-10-23
 https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2024-10-23
 https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2024-10-23
 https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2024-10-23
 https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html	created	2024-10-23
 https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html	created	2024-11-27
 https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2024-11-27
 https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2024-11-27
 https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2024-11-27
 https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html	created	2024-11-27
 https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO.html	created	2025-06-13
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2025-06-13
 https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2025-06-13
 https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2025-06-13
 https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html	created	2025-06-13
 https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO.html	created	2025-08-30
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html	created	2025-08-30
 https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	created	2025-08-30
 https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	created	2025-08-30
 https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.0/io-sim-1.0.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-File.html	created	2025-08-30
+https://hackage.haskell.org/package/io-sim-1.0.0.0/io-sim-1.0.0.0.tar.gz	created	2023-04-18
 https://hackage-content.haskell.org/package/io-sim-1.0.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.1/io-sim-1.0.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.0.0.1/io-sim-1.0.0.1.tar.gz	created	2023-04-20
 https://hackage-content.haskell.org/package/io-sim-1.0.0.1.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.1.0.0/io-sim-1.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.1.0.0/io-sim-1.1.0.0.tar.gz	created	2023-04-26
 https://hackage-content.haskell.org/package/io-sim-1.1.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.2.0.0/io-sim-1.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.2.0.0/io-sim-1.2.0.0.tar.gz	created	2023-07-28
 https://hackage-content.haskell.org/package/io-sim-1.2.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.3.0.0/io-sim-1.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.3.0.0/io-sim-1.3.0.0.tar.gz	created	2023-11-08
 https://hackage-content.haskell.org/package/io-sim-1.3.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.3.1.0/io-sim-1.3.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.3.1.0/io-sim-1.3.1.0.tar.gz	created	2023-11-20
 https://hackage-content.haskell.org/package/io-sim-1.3.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.4.0.0/io-sim-1.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.4.0.0/io-sim-1.4.0.0.tar.gz	created	2024-02-02
 https://hackage-content.haskell.org/package/io-sim-1.4.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.4.1.0/io-sim-1.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.4.1.0/io-sim-1.4.1.0.tar.gz	created	2024-02-15
 https://hackage-content.haskell.org/package/io-sim-1.4.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.5.0.0/io-sim-1.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.5.0.0/io-sim-1.5.0.0.tar.gz	created	2024-05-17
 https://hackage-content.haskell.org/package/io-sim-1.5.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.5.1.0/io-sim-1.5.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.5.1.0/io-sim-1.5.1.0.tar.gz	created	2024-12-10
 https://hackage-content.haskell.org/package/io-sim-1.5.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.6.0.0/io-sim-1.6.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.6.0.0/io-sim-1.6.0.0.tar.gz	created	2024-08-27
 https://hackage-content.haskell.org/package/io-sim-1.6.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.0/io-sim-1.8.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.0/io-sim-1.8.0.0.tar.gz	created	2025-05-21
 https://hackage-content.haskell.org/package/io-sim-1.8.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.1/io-sim-1.8.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.1/io-sim-1.8.0.1.tar.gz	created	2025-06-05
 https://hackage-content.haskell.org/package/io-sim-1.8.0.1.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.9.0.0/io-sim-1.9.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.9.0.0/io-sim-1.9.0.0.tar.gz	created	2025-11-27
 https://hackage-content.haskell.org/package/io-sim-1.9.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.9.1.0/io-sim-1.9.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.9.1.0/io-sim-1.9.1.0.tar.gz	created	2026-01-23
 https://hackage-content.haskell.org/package/io-sim-1.9.1.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.10.0.0/io-sim-1.10.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.10.0.0/io-sim-1.10.0.0.tar.gz	created	2026-02-23
 https://hackage-content.haskell.org/package/io-sim-1.10.0.0.tar.gz	N/A
-https://hackage.haskell.org/package/io-sim-1.10.1.0/io-sim-1.10.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.10.1.0/io-sim-1.10.1.0.tar.gz	created	2026-04-15
 https://hackage-content.haskell.org/package/io-sim-1.10.1.0.tar.gz	N/A
 https://stackoverflow.com/questions/22875449/stdin-and-stdout-handle	N/A
 https://www.youtube.com/watch?v=ZSJW4jp8K08	N/A
@@ -22272,7 +22272,7 @@ https://www.sigplan.org/Awards/POPL/	N/A
 https://dblp.org/db/conf/popl/popl93	N/A
 https://periodicos.unemat.br/index.php/rbedrpp/article/view/14406/10038	N/A
 https://downloads.haskell.org/~ghc/latest/docs/libraries/base-4.22.0.0-66f8/src/Control.Monad.IO.Class.html	N/A
-https://hackage.haskell.org/package/ghc-prim/docs/src/GHC.Types.html	N/A
+https://hackage.haskell.org/package/ghc-prim/docs/src/GHC.Types.html	created	2024-12-16
 https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007702.html	created	2004
 https://mail.haskell.org/pipermail/haskell/2015-May/024556.html	created	2015
 https://mail.haskell.org/pipermail/cvs-ghc/2009-April/048402.html	created	2009
@@ -22330,11 +22330,11 @@ https://www.youtube.com/watch?v=fQn_n80dGoA	N/A
 https://hackage.haskell.org/package/http-monad-0.1.0.2	N/A
 https://hackage.haskell.org/package/http-monad-0.0.1	N/A
 https://hackage.haskell.org/package/http-monad-0.1	N/A
-https://hackage.haskell.org/package/safe-lazy-io/docs	N/A
-https://hackage.haskell.org/package/binary/docs/Data-Binary-Get.html	N/A
+https://hackage.haskell.org/package/safe-lazy-io/docs	created	2009-03-20
+https://hackage.haskell.org/package/binary/docs/Data-Binary-Get.html	created	2025-01-28
 https://hackage.haskell.org/package/enumerator-0.4.11	N/A
 https://hackage.haskell.org/package/enumerator-0.4.5	N/A
-https://hackage.haskell.org/package/http-monad/docs/Network-Monad-Transfer.html	N/A
+https://hackage.haskell.org/package/http-monad/docs/Network-Monad-Transfer.html	created	2023-01-15
 https://dblp.org/db/journals/jfp/jfp35.html	N/A
 https://researchr.org/journal/jfp/home	N/A
 https://www.researchgate.net/publication/362277409_Engaging_Large-Scale_Functional_Programming_Education_in_Physical_and_Virtual_Space	N/A
@@ -22342,11 +22342,11 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/volume
 https://www.cambridge.org/core/journals/journal-of-functional-programming/listing	N/A
 https://www.uni-due.de/fmi/veroeffentlichungen	N/A
 https://stackoverflow.com/questions/28690448/what-is-indexed-monad	N/A
-https://hackage.haskell.org/package/lio/docs/LIO-Concurrent.html	N/A
-https://hackage.haskell.org/package/lio-0.9.1.0/docs/LIO-Concurrent.html	N/A
+https://hackage.haskell.org/package/lio/docs/LIO-Concurrent.html	created	2020-09-23
+https://hackage.haskell.org/package/lio-0.9.1.0/docs/LIO-Concurrent.html	created	2012-08-28
 https://hackage.haskell.org/package/lio-0.9.0.0	N/A
 https://hackage.haskell.org/package/lio-0.1.0	N/A
-https://hackage.haskell.org/package/lio-0.1.1/lio.cabal/edit	N/A
+https://hackage.haskell.org/package/lio-0.1.1/lio.cabal/edit	created	2012-01-13
 https://hackage.haskell.org/package/lio-0.0.2	N/A
 https://hackage.haskell.org/package/lio-0.1.3	N/A
 https://hackage.haskell.org/package/lio-0.9.0.1	N/A
