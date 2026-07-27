@@ -6603,7 +6603,7 @@ https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSCD.2020.15	created	
 https://ghcguide.haskell.jp/8.4.3/libraries/array-0.5.2.0/Data-Array-IO-Safe.html	N/A
 https://granule-project.github.io/splv23/splv23-slides-part4.pdf	N/A
 https://groups.google.com/g/haskell-cafe/c/K2KGzy3TY80	N/A
-https://hackage.haskell.org/package/base-4.7.0.1/docs/src/GHC-IO.html	N/A
+https://hackage.haskell.org/package/base-4.7.0.1/docs/src/GHC-IO.html	created	2014-07-19
 https://itat.ics.upjs.sk/proceedings/itat2009-ceur-proceedings.pdf	created	2009
 https://mabboux.net/informatique/haskell/fr/Presentation/ebeffara.pdf	N/A
 https://openlibrary.org/books/OL22647856M/Real_World_Haskell	N/A
@@ -6682,7 +6682,7 @@ https://cycle.js.org/dialogue.html	N/A
 https://discourse.haskell.org/t/rust-has-no-exceptions/10729?page=2	publication	2024-11-14
 https://en.wikipedia.org/wiki/Clean_%28programming_language%29	N/A
 https://groups.google.com/g/comp.lang.functional/c/GLD4OgiyMPU	N/A
-https://hackage.haskell.org/package/gofer-prelude/docs/Prelude-Gofer.html	N/A
+https://hackage.haskell.org/package/gofer-prelude/docs/Prelude-Gofer.html	created	2011-05-09
 https://paperzz.com/doc/7791308/exchanging-sources-between-clean-and-haskell	N/A
 https://stackoverflow.com/a/44397392	N/A
 https://stackoverflow.com/a/62194521	N/A
@@ -6705,12 +6705,12 @@ https://discourse.haskell.org/t/parallel-property-based-testing-with-a-determini
 https://downloads.haskell.org/~ghc/9.2.1/docs/html/libraries/base-4.16.0.0/Debug-Trace.html	N/A
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TYPES.2016.12	created	2016
 https://hackage.haskell.org/package/haskell2020/docs/Control-Monad.html	created	2020
-https://hackage.haskell.org/package/io-sim-1.0.0.1/docs/src/Control.Monad.IOSim.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Fork.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-IORef.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-MVar.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-STM.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage.haskell.org/package/io-sim-1.0.0.1/docs/src/Control.Monad.IOSim.html	created	2023-04-20
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Fork.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-IORef.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-MVar.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-STM.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Surrogate.html	created	2023-07-25
 https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Teletype.html	N/A
 https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Types.html	N/A
 https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-VirtualMachine.html	N/A
