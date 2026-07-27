@@ -4899,7 +4899,7 @@ https://docs.rs/higher/latest/higher/io/enum.IO.html	published	2023-01-18
 https://clojure.github.io/clojure-contrib/	N/A
 https://docs.rs/rustica/latest/rustica/datatypes/index.html	published	2026-04-04
 https://clojurepatterns.com/1/12/9/	N/A
-https://www.nuget.org/packages/FSharp.FIO	N/A
+https://www.nuget.org/packages/FSharp.FIO	published	2026-07-12
 https://cljdoc.org/d/pure-io/pure-io/0.1.0	N/A
 https://www.cl.cam.ac.uk/teaching/2006/FFuncProg/fofp.pdf	created	2006
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999904043363171c8050257c045&repid=rep1&type=pdf	N/A
@@ -11121,15 +11121,15 @@ https://hackage.haskell.org/package/monad-control	N/A
 https://hackage.haskell.org/package/CheatSheet-1.10/src/CheatSheet.pdf	created	2009-04-30
 https://hackage.haskell.org/package/frown-0.6.2.1/src/Manual/Manual.pdf	created	2016-02-07
 https://louthy.github.io/language-ext/LanguageExt.Core/Effects/index.html	N/A
-https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-25	N/A
-https://www.nuget.org/packages/LanguageExt.Streaming/	N/A
+https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-25	published	2024-10-13
+https://www.nuget.org/packages/LanguageExt.Streaming/	published	2025-12-30
 https://packages.nuget.org/packages/LanguageExt.Core/5.0.0-beta-74	N/A
 https://packages.nuget.org/packages/LanguageExt.Rx/5.0.0-beta-73	N/A
 https://www.nuget.org/profiles/louthy	N/A
 https://www-0.nuget.org/packages/LanguageExt.FSharp/5.0.0-beta-69	N/A
 https://www-0.nuget.org/packages/LanguageExt.Sys/5.0.0-beta-61	N/A
 https://www-0.nuget.org/packages/LanguageExt.Sys/5.0.0-beta-66	N/A
-https://www.nuget.org/packages/Genesis.LanguageExt.AspNetCore	N/A
+https://www.nuget.org/packages/Genesis.LanguageExt.AspNetCore	published	2023-05-30
 https://csharp-functional.readthedocs.io/_/downloads/en/latest/pdf/	N/A
 https://arxiv.org/abs/1406.2061	created	2014-06
 https://koka-lang.github.io/koka/doc/std_core_hnd.html	N/A
@@ -14428,19 +14428,19 @@ https://aicenter.github.io/FUP/slides/lecture10.pdf	N/A
 https://www.reddit.com/r/functionalprogramming/comments/yqzxwl	N/A
 https://typelevel.org/cats-effect/api/2.x/cats/effect/IO.html	modified	2026-07-25
 https://users.scala-lang.org/t/how-to-use-io-cats-api/8561	publication	2022-06-16
-https://www.nuget.org/packages/LanguageExt.Streaming/5.0.0-beta-75	N/A
+https://www.nuget.org/packages/LanguageExt.Streaming/5.0.0-beta-75	published	2025-12-29
 https://barrelfish.org/publications/TN-024-FiletOFish.pdf	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.1.10-alpha	N/A
-https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-24	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.1.10-alpha	published	2026-06-24
+https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-24	published	2024-10-11
 https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/statereaderioeither	N/A
-https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-57	N/A
-https://www.nuget.org/packages/Monad.NET.SourceGenerators/	N/A
-https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-75	N/A
-https://www.nuget.org/packages/LanguageExt.Rx/5.0.0-beta-70	N/A
-https://www.nuget.org/packages/FSharp.FIO.Http	N/A
-https://www.nuget.org/packages/FSharp.FIO.PostgreSQL	N/A
-https://www.nuget.org/packages/FSharp.FIO.Sockets	N/A
-https://www.nuget.org/packages/FSharp.FIO.WebSockets	N/A
+https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-57	published	2025-11-14
+https://www.nuget.org/packages/Monad.NET.SourceGenerators/	published	2026-02-23
+https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-75	published	2025-12-29
+https://www.nuget.org/packages/LanguageExt.Rx/5.0.0-beta-70	published	2025-12-26
+https://www.nuget.org/packages/FSharp.FIO.Http	published	2026-07-12
+https://www.nuget.org/packages/FSharp.FIO.PostgreSQL	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO.Sockets	published	2026-07-12
+https://www.nuget.org/packages/FSharp.FIO.WebSockets	published	2026-07-12
 https://docs.rs/crate/deep_causality_file/0.1.2/source/	published	2026-07-08
 https://docs.rs/crate/leo3/0.1.2	published	2025-12-10
 https://docs.rs/crate/deep_causality_file/0.1.2/features	published	2026-07-08
@@ -23759,119 +23759,119 @@ https://arxiv.org/abs/1511.00511	created	2015-11
 https://www.reddit.com/r/fsharp/comments/en1rqb	N/A
 https://www.reddit.com/r/fsharp/comments/tfj24n	N/A
 https://www.reddit.com/r/fsharp/comments/18s4ns5	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.30-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.31-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.32-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.33-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.34-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.35-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.36-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.37-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.38-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.39-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.0.40-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.1.0-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.1.15-alpha	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.2.0-beta	N/A
-https://www.nuget.org/packages/FSharp.FIO/0.2.1-beta	N/A
-https://www.nuget.org/packages/Hopac/0.0.0	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.1	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.10	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.11	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.12	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.13	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.2	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.21	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.22	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.23	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.24	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.25	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.26	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.27	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.28	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.29	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.3	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.30	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.31	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.32	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.33	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.34	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.35	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.36	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.37	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.38	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.39	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.4	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.40	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.41	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.42	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.43	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.44	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.45	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.46	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.47	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.48	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.5	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.6	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.7	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.8	N/A
-https://www.nuget.org/packages/Hopac/0.0.0.9	N/A
-https://www.nuget.org/packages/Hopac/0.1.0	N/A
-https://www.nuget.org/packages/Hopac/0.1.1	N/A
-https://www.nuget.org/packages/Hopac/0.1.2	N/A
-https://www.nuget.org/packages/Hopac/0.1.3	N/A
-https://www.nuget.org/packages/Hopac/0.2.0	N/A
-https://www.nuget.org/packages/Hopac/0.2.1	N/A
-https://www.nuget.org/packages/Hopac/0.3.0	N/A
-https://www.nuget.org/packages/Hopac/0.3.1	N/A
-https://www.nuget.org/packages/Hopac/0.3.10	N/A
-https://www.nuget.org/packages/Hopac/0.3.11	N/A
-https://www.nuget.org/packages/Hopac/0.3.12	N/A
-https://www.nuget.org/packages/Hopac/0.3.13	N/A
-https://www.nuget.org/packages/Hopac/0.3.14	N/A
-https://www.nuget.org/packages/Hopac/0.3.15	N/A
-https://www.nuget.org/packages/Hopac/0.3.16	N/A
-https://www.nuget.org/packages/Hopac/0.3.17	N/A
-https://www.nuget.org/packages/Hopac/0.3.18	N/A
-https://www.nuget.org/packages/Hopac/0.3.19	N/A
-https://www.nuget.org/packages/Hopac/0.3.2	N/A
-https://www.nuget.org/packages/Hopac/0.3.20	N/A
-https://www.nuget.org/packages/Hopac/0.3.21	N/A
-https://www.nuget.org/packages/Hopac/0.3.22	N/A
-https://www.nuget.org/packages/Hopac/0.3.23	N/A
-https://www.nuget.org/packages/Hopac/0.3.3	N/A
-https://www.nuget.org/packages/Hopac/0.3.4	N/A
-https://www.nuget.org/packages/Hopac/0.3.5	N/A
-https://www.nuget.org/packages/Hopac/0.3.6	N/A
-https://www.nuget.org/packages/Hopac/0.3.7	N/A
-https://www.nuget.org/packages/Hopac/0.3.8	N/A
-https://www.nuget.org/packages/Hopac/0.3.9	N/A
-https://www.nuget.org/packages/Hopac/0.4.0	N/A
-https://www.nuget.org/packages/Hopac/0.4.1	N/A
-https://www.nuget.org/packages/Hopac/0.5.0	N/A
-https://www.nuget.org/packages/Hopac/0.5.1	N/A
-https://www.nuget.org/packages/Ply/0.1.0	N/A
-https://www.nuget.org/packages/Ply/0.1.1	N/A
-https://www.nuget.org/packages/Ply/0.1.2	N/A
-https://www.nuget.org/packages/Ply/0.1.3	N/A
-https://www.nuget.org/packages/Ply/0.1.4	N/A
-https://www.nuget.org/packages/Ply/0.1.5	N/A
-https://www.nuget.org/packages/Ply/0.1.6	N/A
-https://www.nuget.org/packages/Ply/0.1.7	N/A
-https://www.nuget.org/packages/Ply/0.1.8	N/A
-https://www.nuget.org/packages/Ply/0.2.0	N/A
-https://www.nuget.org/packages/Ply/0.2.1	N/A
-https://www.nuget.org/packages/Ply/0.2.2	N/A
-https://www.nuget.org/packages/Ply/0.3.0	N/A
-https://www.nuget.org/packages/Ply/0.3.1	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/1.0.0	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/1.0.1	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/1.1.0	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/1.1.1	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/1.2.0-rc	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/2.0.0	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/2.1.0	N/A
-https://www.nuget.org/packages/TaskBuilder.fs/2.2.0-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.30-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.31-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.32-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.33-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.34-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.35-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.36-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.37-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.38-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.39-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.0.40-alpha	published	1900-01-01
+https://www.nuget.org/packages/FSharp.FIO/0.1.0-alpha	published	2026-06-18
+https://www.nuget.org/packages/FSharp.FIO/0.1.15-alpha	published	2026-06-30
+https://www.nuget.org/packages/FSharp.FIO/0.2.0-beta	published	2026-07-06
+https://www.nuget.org/packages/FSharp.FIO/0.2.1-beta	published	2026-07-09
+https://www.nuget.org/packages/Hopac/0.0.0	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.1	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.10	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.11	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.12	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.13	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.2	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.21	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.22	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.23	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.24	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.25	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.26	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.27	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.28	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.29	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.3	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.30	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.31	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.32	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.33	published	2014-12-11
+https://www.nuget.org/packages/Hopac/0.0.0.34	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.35	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.36	published	2015-01-20
+https://www.nuget.org/packages/Hopac/0.0.0.37	published	2015-01-21
+https://www.nuget.org/packages/Hopac/0.0.0.38	published	2015-01-24
+https://www.nuget.org/packages/Hopac/0.0.0.39	published	2015-02-01
+https://www.nuget.org/packages/Hopac/0.0.0.4	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.40	published	2015-02-06
+https://www.nuget.org/packages/Hopac/0.0.0.41	published	2015-02-11
+https://www.nuget.org/packages/Hopac/0.0.0.42	published	2015-02-27
+https://www.nuget.org/packages/Hopac/0.0.0.43	published	2015-02-28
+https://www.nuget.org/packages/Hopac/0.0.0.44	published	2015-03-02
+https://www.nuget.org/packages/Hopac/0.0.0.45	published	2015-04-10
+https://www.nuget.org/packages/Hopac/0.0.0.46	published	2015-05-24
+https://www.nuget.org/packages/Hopac/0.0.0.47	published	2015-05-27
+https://www.nuget.org/packages/Hopac/0.0.0.48	published	2015-07-15
+https://www.nuget.org/packages/Hopac/0.0.0.5	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.6	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.7	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.8	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.0.0.9	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.1.0	published	2015-11-23
+https://www.nuget.org/packages/Hopac/0.1.1	published	2015-11-24
+https://www.nuget.org/packages/Hopac/0.1.2	published	2015-11-27
+https://www.nuget.org/packages/Hopac/0.1.3	published	2015-12-15
+https://www.nuget.org/packages/Hopac/0.2.0	published	2016-06-01
+https://www.nuget.org/packages/Hopac/0.2.1	published	2016-06-05
+https://www.nuget.org/packages/Hopac/0.3.0	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.3.1	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.3.10	published	2016-08-16
+https://www.nuget.org/packages/Hopac/0.3.11	published	2016-08-20
+https://www.nuget.org/packages/Hopac/0.3.12	published	2016-08-21
+https://www.nuget.org/packages/Hopac/0.3.13	published	2016-08-24
+https://www.nuget.org/packages/Hopac/0.3.14	published	2016-09-07
+https://www.nuget.org/packages/Hopac/0.3.15	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.3.16	published	2016-09-12
+https://www.nuget.org/packages/Hopac/0.3.17	published	2016-09-12
+https://www.nuget.org/packages/Hopac/0.3.18	published	2016-09-21
+https://www.nuget.org/packages/Hopac/0.3.19	published	2016-09-22
+https://www.nuget.org/packages/Hopac/0.3.2	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.3.20	published	2016-09-22
+https://www.nuget.org/packages/Hopac/0.3.21	published	2016-09-25
+https://www.nuget.org/packages/Hopac/0.3.22	published	2016-09-27
+https://www.nuget.org/packages/Hopac/0.3.23	published	2016-09-30
+https://www.nuget.org/packages/Hopac/0.3.3	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.3.4	published	2016-08-05
+https://www.nuget.org/packages/Hopac/0.3.5	published	2016-08-06
+https://www.nuget.org/packages/Hopac/0.3.6	published	2016-08-06
+https://www.nuget.org/packages/Hopac/0.3.7	published	2016-08-08
+https://www.nuget.org/packages/Hopac/0.3.8	published	2016-08-13
+https://www.nuget.org/packages/Hopac/0.3.9	published	2016-08-14
+https://www.nuget.org/packages/Hopac/0.4.0	published	1900-01-01
+https://www.nuget.org/packages/Hopac/0.4.1	published	2018-09-21
+https://www.nuget.org/packages/Hopac/0.5.0	published	2020-11-22
+https://www.nuget.org/packages/Hopac/0.5.1	published	2021-07-05
+https://www.nuget.org/packages/Ply/0.1.0	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.1.1	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.1.2	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.1.3	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.1.4	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.1.5	published	2019-04-28
+https://www.nuget.org/packages/Ply/0.1.6	published	2019-12-04
+https://www.nuget.org/packages/Ply/0.1.7	published	2019-12-13
+https://www.nuget.org/packages/Ply/0.1.8	published	2020-02-09
+https://www.nuget.org/packages/Ply/0.2.0	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.2.1	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.2.2	published	1900-01-01
+https://www.nuget.org/packages/Ply/0.3.0	published	2020-08-21
+https://www.nuget.org/packages/Ply/0.3.1	published	2020-08-22
+https://www.nuget.org/packages/TaskBuilder.fs/1.0.0	published	2017-10-07
+https://www.nuget.org/packages/TaskBuilder.fs/1.0.1	published	2018-02-09
+https://www.nuget.org/packages/TaskBuilder.fs/1.1.0	published	2018-02-17
+https://www.nuget.org/packages/TaskBuilder.fs/1.1.1	published	2018-02-19
+https://www.nuget.org/packages/TaskBuilder.fs/1.2.0-rc	published	2018-02-26
+https://www.nuget.org/packages/TaskBuilder.fs/2.0.0	published	2018-05-27
+https://www.nuget.org/packages/TaskBuilder.fs/2.1.0	published	2018-09-16
+https://www.nuget.org/packages/TaskBuilder.fs/2.2.0-alpha	published	2019-12-05
 https://www.youtube.com/watch?v=bKpRrCssAWM	uploaded	2017-06-06
 https://www.youtube.com/watch?v=AHOU1_nXR40	uploaded	2023-04-29
 https://www.youtube.com/watch?v=bYor0oBgvws	uploaded	2018-10-18
@@ -30860,7 +30860,7 @@ https://fsharpwindowsservices.wordpress.com/2019/11/07/watching-files/	publicati
 https://softwarepatternslexicon.com/f-sharp/reactive-programming-patterns/observer-pattern-with-iobservable-and-iobserver/	publication	2024-11-17
 https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-observablemodule.html	N/A
 https://www.idt.mdh.se/kurser/DVA229/slides/reactive.pdf	N/A
-https://www.nuget.org/packages/ReactiveFileSystemWatcher	N/A
+https://www.nuget.org/packages/ReactiveFileSystemWatcher	published	2015-08-14
 https://www.idt.mdh.se/kurser/DVA229/slides/reactive-4up.pdf	N/A
 https://ifl2014.github.io/submissions/ifl2014_submission_4.pdf	created	2014
 https://simonjf.com/drafts/reactive-abstractions.pdf	N/A
