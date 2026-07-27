@@ -1334,24 +1334,24 @@ https://lexi-lambda.github.io/blog/2016/06/12/four-months-with-haskell/	created	
 https://www.pleger.cl/cv-pleger/papers/legerAl-SAC2022.pdf	created	2022
 https://github.com/tfausak/tfausak.github.io/blob/master/_posts/2015-05-14-monad-transformers.md	created	2015
 https://www.stackage.org/nightly-2016-12-13/package/transformers-0.5.2.0	created	2016
-https://stackoverflow.com/questions/3921237/haskell-lift-vs-liftio	N/A
-https://stackoverflow.com/questions/46227562/understanding-the-monadio-laws	N/A
+https://stackoverflow.com/questions/3921237/haskell-lift-vs-liftio	created	2010-10-13
+https://stackoverflow.com/questions/46227562/understanding-the-monadio-laws	created	2017-09-14
 https://github.com/tfausak/tfausak.github.io/blob/master/_posts/2014-10-21-building-a-json-rest-api-in-haskell.md	created	2014
 https://www.reddit.com/r/haskell/comments/10nsn9t/about_monad_transformers/	N/A
 https://www.reddit.com/r/haskell/comments/s35hms/mtl_monad_transformer_deriving_monadio_still_needing_to_lift/	N/A
 https://www.scs.stanford.edu/14sp-cs240h/slides/extensions.html	N/A
-https://stackoverflow.com/questions/71223344/how-do-i-deal-with-the-error-no-instance-for-control-monad-io-class-monadio	N/A
+https://stackoverflow.com/questions/71223344/how-do-i-deal-with-the-error-no-instance-for-control-monad-io-class-monadio	created	2022-02-22
 https://www.reddit.com/r/haskell/comments/td22b3/question_from_a_beginner_is_liftio_a_code_smell/	N/A
 https://www.reddit.com/r/haskell/comments/5zjwym/when_is_undecidableinstances_okay_to_use/	N/A
-https://stackoverflow.com/questions/57894702/how-do-i-run-this-method-with-monadreader-and-monadio	N/A
+https://stackoverflow.com/questions/57894702/how-do-i-run-this-method-with-monadreader-and-monadio	created	2019-09-11
 https://abailly.github.io/posts/free.html	N/A
 https://chrishenson.net/posts/2024-04-28-synacor.html	created	2024
 https://mail.haskell.org/pipermail/haskell/2010-October/022341.html	created	2010
-https://stackoverflow.com/questions/73770694/how-to-use-st-monad-with-monad-transformers	N/A
+https://stackoverflow.com/questions/73770694/how-to-use-st-monad-with-monad-transformers	created	2022-09-19
 https://dl.acm.org/doi/abs/10.1145/3125374.3125385	publication	2017-09-21
 https://www.researchgate.net/publication/319948438_A_preliminary_assessment_of_how_monads_are_used_in_Haskell	N/A
 https://www.cs-study.com/koga/category/monads.html	N/A
-https://stackoverflow.com/questions/56747974/how-to-wrap-monadic-action-in-io	N/A
+https://stackoverflow.com/questions/56747974/how-to-wrap-monadic-action-in-io	created	2019-06-25
 https://xion.io/post/code/haskell-printer-monad.html	N/A
 https://www.yesodweb.com/blog/2014/05/exceptions-cont-monads	created	2014
 https://discourse.haskell.org/t/io-without-exceptions/9922	publication	2024-07-09
@@ -1368,7 +1368,7 @@ https://www.reddit.com/r/haskell/comments/5wb5qw/how_do_you_guys_get_anything_do
 https://www.reddit.com/r/haskell/comments/8xkak/ask_haskell_is_supermonad_a_bad_idea/	N/A
 https://academy.fpblock.com/blog/2018/04/async-exception-handling-haskell/	created	2018
 https://cmsc-16100.cs.uchicago.edu/2016/Lectures/23-mtl.php	created	2016
-https://stackoverflow.com/questions/60018048/how-to-use-custom-app-type-in-place-of-io	N/A
+https://stackoverflow.com/questions/60018048/how-to-use-custom-app-type-in-place-of-io	created	2020-02-01
 https://www.reddit.com/r/haskell/comments/o4sggi/is_monadbasecontrol_dead/	N/A
 https://www.reddit.com/r/haskell/comments/1dcv2lp/so_why_cant_lift_be_implemented_like_this/	N/A
 https://serokell.io/blog/the-hidden-perils-of-monadbasecontrol	N/A
@@ -1376,7 +1376,7 @@ https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard_c
 https://blog.ezyang.com/2012/01/monadbasecontrol-is-unsound/	created	2012
 https://lexi-lambda.github.io/blog/2019/09/07/demystifying-monadbasecontrol/	created	2019
 https://www.yesodweb.com/blog/2014/06/exceptions-transformers	created	2014
-https://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for	N/A
+https://stackoverflow.com/questions/11694299/what-is-monadbasecontrol-for	created	2012-07-27
 https://www.schoolofhaskell.com/user/jwiegley/monad-control	N/A
 https://felixspringer.xyz/homepage/blog/composingTransformers	N/A
 https://academy.fpblock.com/haskell/tutorial/exceptions/	N/A
@@ -1386,15 +1386,15 @@ https://www.fpcomplete.com/blog/2017/06/readert-design-pattern	created	2017
 https://www.fpcomplete.com/haskell/library/async	N/A
 https://tech.fpcomplete.com/haskell/library/stm/	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/local_definitions/let/	N/A
-https://stackoverflow.com/questions/51906879/monad-and-monadio-for-custom-type	N/A
-https://stackoverflow.com/questions/54779029/how-to-understand-monadunliftios-requirement-of-no-stateful-monads	N/A
+https://stackoverflow.com/questions/51906879/monad-and-monadio-for-custom-type	created	2018-08-18
+https://stackoverflow.com/questions/54779029/how-to-understand-monadunliftios-requirement-of-no-stateful-monads	created	2019-02-20
 https://www.fpcomplete.com/blog/2017/06/tale-of-two-brackets?ref=dzone	created	2017
 https://www.fpcomplete.com/haskell/library/unliftio/	N/A
 https://www.reddit.com/r/haskell/comments/u9bcc3/error_handling_in_the_rio_and_unliftio_world/	N/A
 https://www.reddit.com/r/haskell/comments/115bp3c/unliftio_exceptt_and_coercible/	N/A
 https://www.reddit.com/r/haskell/comments/1s33dmc/the_hidden_perils_of_monadbasecontrol/	N/A
 https://www.stackage.org/package/unliftio-core	N/A
-https://stackoverflow.com/questions/57198777/how-to-define-monadunliftio-instance-for-a-newtype-with-a-phantom-type-variable	N/A
+https://stackoverflow.com/questions/57198777/how-to-define-monadunliftio-instance-for-a-newtype-with-a-phantom-type-variable	created	2019-07-25
 https://harporoeder.com/posts/servant-13-reader-io/	publication	2016-11-14
 https://github.com/fpco/monad-unlift	N/A
 https://fbrs.io/unliftio/	N/A
@@ -1678,29 +1678,29 @@ https://haskellforall.com/2013/09/perfect-streaming-using-pipes-bytestring	creat
 https://haskellforall.com/2014/11/how-to-build-library-agnostic-streaming-sources	created	2014
 https://haskellforall.com/2013/11/test-stream-programming-using-haskells	created	2013
 https://haskellforall.com/2014/07/equational-reasoning-at-scale	created	2014
-https://stackoverflow.com/questions/4063778/in-what-sense-is-the-io-monad-pure	N/A
-https://stackoverflow.com/questions/6647852/haskell-actual-io-monad-implementation-in-different-language	N/A
-https://stackoverflow.com/questions/9244538/what-are-the-definitions-for-and-return-for-the-io-monad	N/A
-https://stackoverflow.com/questions/41096040/why-wrap-an-io-result-in-io-monad	N/A
-https://stackoverflow.com/questions/48412023/regarding-when-executed-in-haskell-io-monad	N/A
-https://stackoverflow.com/questions/65447500/accessing-state-in-an-io-monad	N/A
-https://stackoverflow.com/questions/24293814/understanding-i-o-monad-and-the-use-of-do-notation	N/A
-https://stackoverflow.com/questions/51770808/how-exactly-does-ios-work-under-the-hood	N/A
-https://stackoverflow.com/questions/36596701/in-what-sense-is-io-monad-special-if-at-all	N/A
-https://stackoverflow.com/questions/42657529/difference-between-evaluating-and-performing-io-actions-what-causes-haskell-to	N/A
-https://stackoverflow.com/questions/13056663/why-is-there-no-io-transformer-in-haskell	N/A
-https://stackoverflow.com/questions/61556650/what-is-the-io-type-in-haskell	N/A
-https://stackoverflow.com/questions/10880713/haskell-io-monad-and-memory-use	N/A
-https://stackoverflow.com/questions/32192471/how-does-io-monad-work-in-system-random	N/A
+https://stackoverflow.com/questions/4063778/in-what-sense-is-the-io-monad-pure	created	2010-10-31
+https://stackoverflow.com/questions/6647852/haskell-actual-io-monad-implementation-in-different-language	created	2011-07-11
+https://stackoverflow.com/questions/9244538/what-are-the-definitions-for-and-return-for-the-io-monad	created	2012-02-11
+https://stackoverflow.com/questions/41096040/why-wrap-an-io-result-in-io-monad	created	2016-12-12
+https://stackoverflow.com/questions/48412023/regarding-when-executed-in-haskell-io-monad	created	2018-01-23
+https://stackoverflow.com/questions/65447500/accessing-state-in-an-io-monad	created	2020-12-25
+https://stackoverflow.com/questions/24293814/understanding-i-o-monad-and-the-use-of-do-notation	created	2014-06-18
+https://stackoverflow.com/questions/51770808/how-exactly-does-ios-work-under-the-hood	created	2018-08-09
+https://stackoverflow.com/questions/36596701/in-what-sense-is-io-monad-special-if-at-all	created	2016-04-13
+https://stackoverflow.com/questions/42657529/difference-between-evaluating-and-performing-io-actions-what-causes-haskell-to	created	2017-03-07
+https://stackoverflow.com/questions/13056663/why-is-there-no-io-transformer-in-haskell	created	2012-10-24
+https://stackoverflow.com/questions/61556650/what-is-the-io-type-in-haskell	created	2020-05-02
+https://stackoverflow.com/questions/10880713/haskell-io-monad-and-memory-use	created	2012-06-04
+https://stackoverflow.com/questions/32192471/how-does-io-monad-work-in-system-random	created	2015-08-24
 https://arxiv.org/pdf/1910.11629	created	1910
 https://arxiv.org/html/1603.08865/	created	2016-03
 https://arxiv.org/pdf/1009.0305	created	2010-09
-https://stackoverflow.com/questions/10447914/io-implementation-inside-haskell	N/A
-https://stackoverflow.com/questions/41926897/io-monads-ghc-implementation-meaning-vs-mathematical-meaning	N/A
-https://stackoverflow.com/questions/38890218/state-and-io-monads	N/A
-https://stackoverflow.com/questions/45136398/is-the-monadic-io-construct-in-haskell-just-a-convention	N/A
-https://stackoverflow.com/questions/32569852/how-does-the-monad-based-io-design-of-haskell-contrasts-with-one-based-on-tagg	N/A
-https://stackoverflow.com/questions/61820358/is-io-a-free-monad	N/A
+https://stackoverflow.com/questions/10447914/io-implementation-inside-haskell	created	2012-05-04
+https://stackoverflow.com/questions/41926897/io-monads-ghc-implementation-meaning-vs-mathematical-meaning	created	2017-01-29
+https://stackoverflow.com/questions/38890218/state-and-io-monads	created	2016-08-11
+https://stackoverflow.com/questions/45136398/is-the-monadic-io-construct-in-haskell-just-a-convention	created	2017-07-17
+https://stackoverflow.com/questions/32569852/how-does-the-monad-based-io-design-of-haskell-contrasts-with-one-based-on-tagg	created	2015-09-14
+https://stackoverflow.com/questions/61820358/is-io-a-free-monad	created	2020-05-15
 https://haskellforall.com/2013/01/pipes-safe-10-resource-management-and	created	2013
 https://haskellforall.com/2013/09/pipes-40-simpler-types-and-api	created	2013
 https://haskellforall.com/2012/12/pipes-30-simpler-unified-api	created	2012
@@ -1727,7 +1727,7 @@ https://haskellforall.com/2012/09/pipes-23-bidirectional-pipes	created	2012
 https://www.microsoft.com/en-us/research/publication/haskell-transactional-memory/	N/A
 https://www.haskell.org/haskellwiki/Introduction_to_Haskell_IO	N/A
 https://www.haskell.org/haskellwiki/Introduction_to_Haskell_IO/Actions	N/A
-https://stackoverflow.com/questions/36729022/haskell-how-to-unwrap-io-monad	N/A
+https://stackoverflow.com/questions/36729022/haskell-how-to-unwrap-io-monad	created	2016-04-19
 https://blog.sigfpe.com/2006/05/grok-haskell-monad-transformers.html	created	2006
 https://blog.sigfpe.com/2009/11/programming-with-impossible-functions.html	created	2009
 https://blog.sigfpe.com/2007/04/trivial-monad.html	created	2007
@@ -1952,7 +1952,7 @@ https://hackernoon.com/exploring-monads-in-javascript-for-file-handling	N/A
 https://www.reddit.com/r/haskell/comments/2tbbxh/io_monad_considered_harmful/	N/A
 https://www.reddit.com/r/haskell/comments/1kx22n4/avoiding_io_as_much_as_possible_is_the_key_to/	N/A
 https://www.reddit.com/r/haskell/comments/2p9cvz/noob_question_what_is_exactly_side_effect/	N/A
-https://stackoverflow.com/questions/2488646/why-are-side-effects-modeled-as-monads-in-haskell	N/A
+https://stackoverflow.com/questions/2488646/why-are-side-effects-modeled-as-monads-in-haskell	created	2010-03-21
 https://www.reddit.com/r/haskell/comments/1cse8ze/learning_haskell_finally_got_to_monads_would_appreciate_some/	N/A
 https://news.ycombinator.com/item?id=42134829	N/A
 https://assets.cambridge.org/97811070/87200/frontmatter/9781107087200_frontmatter.pdf	N/A
@@ -2047,7 +2047,7 @@ https://www.cambridge.org/core/product/identifier/9781108241861%23C15/type/BOOK_
 https://blog.sigfpe.com/2007/03/monads-vector-spaces-and-quantum.html	created	2007
 https://blog.sigfpe.com/2006/06/monads-kleisli-arrows-comonads-and.html	created	2006
 https://news.ycombinator.com/item?id=1997341	N/A
-https://stackoverflow.com/questions/44965/what-is-a-monad	N/A
+https://stackoverflow.com/questions/44965/what-is-a-monad	created	2008-09-04
 https://gist.github.com/2ea422007a0f18b7877326cf3f8def86	N/A
 https://www.youtube.com/watch?v=-fKAh4PVKbU	N/A
 https://www.reddit.com/r/programming/comments/4351we/the_monad_challenges_monads_cannot_be_taught_they/	N/A
@@ -2075,8 +2075,8 @@ https://groups.google.com/g/comp.lang.functional/c/0-Mw4u8JaCY	N/A
 https://etheses.whiterose.ac.uk/id/eprint/10807/1/261105.pdf	N/A
 https://dl.acm.org/doi/10.1145/130697.130699	publication	1992-05
 https://github.com/typeclasses/haskell-report-archive/blob/master/1996-05-haskell-1.3/haskell-report.pdf	created	1996
-https://stackoverflow.com/questions/2970674/what-if-any-is-wrong-with-this-approach-to-declarative-i-o	N/A
-https://stackoverflow.com/questions/6399702/i-o-in-haskell-is-functional	N/A
+https://stackoverflow.com/questions/2970674/what-if-any-is-wrong-with-this-approach-to-declarative-i-o	created	2010-06-04
+https://stackoverflow.com/questions/6399702/i-o-in-haskell-is-functional	created	2011-06-19
 https://groups.google.com/g/comp.lang.functional/c/vxD26Z9077c	N/A
 https://www.michaelhanus.de/papers/ICLP07.pdf	N/A
 https://en.wikibooks.org/wiki/Haskell/do_notation	N/A
@@ -2584,9 +2584,9 @@ https://blog.poisson.chat/posts/2019-10-26-reasonable-continuations.html	created
 https://blog.poisson.chat/posts/2019-10-27-continuation-submonads.html	created	2019
 https://discourse.haskell.org/t/playing-with-effects/12317	publication	2025-06-15
 https://discourse.haskell.org/t/the-issues-with-effect-systems/5630	publication	2023-01-20
-https://stackoverflow.com/questions/65167380/controlling-side-effects-in-function	N/A
-https://stackoverflow.com/questions/31335805/monad-transformers-more-powerful-than-effects-examples	N/A
-https://stackoverflow.com/questions/28637146/monads-in-haskell-and-purity	N/A
+https://stackoverflow.com/questions/65167380/controlling-side-effects-in-function	created	2020-12-06
+https://stackoverflow.com/questions/31335805/monad-transformers-more-powerful-than-effects-examples	created	2015-07-10
+https://stackoverflow.com/questions/28637146/monads-in-haskell-and-purity	created	2015-02-20
 https://www.youtube.com/watch?v=m821Vz8N_bo	N/A
 https://www.youtube.com/watch?v=GaAe7zGq1zM	N/A
 https://www.youtube.com/watch?v=lUzF1CYdxgk	N/A
@@ -2605,8 +2605,8 @@ https://chrisdone.com/posts/applicative-wired-monad/	N/A
 https://noelwelsh.com/posts/direct-style/	N/A
 https://discourse.haskell.org/t/implementing-a-basic-continuation-based-monadic-effect/13173	publication	2025-10-26
 https://discourse.haskell.org/t/about-comonads-for-uis/12005	publication	2025-05-04
-https://stackoverflow.com/questions/78677160/when-forcing-of-strict-evoluation-is-required-with-monads	N/A
-https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io	N/A
+https://stackoverflow.com/questions/78677160/when-forcing-of-strict-evoluation-is-required-with-monads	created	2024-06-27
+https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io	created	2024-12-30
 https://www.youtube.com/watch?v=T26Yd-rURLs	N/A
 https://www.youtube.com/watch?v=Tzry-0K_hvQ	N/A
 https://arxiv.org/pdf/2502.15031	publication	2025
@@ -2655,8 +2655,8 @@ https://blog.vmchale.com/article/effects	N/A
 https://blog.sumtypeofway.com/posts/serving-http-content-with-fused-effects.html	N/A
 https://discourse.haskell.org/t/theseus-worry-free-algebraic-and-higher-order-effects/13563	publication	2026-01-19
 https://discourse.haskell.org/t/zurihac-2025-videos-online/12430	publication	2025-07-09
-https://stackoverflow.com/questions/71175957/why-does-haskell-need-to-have-io-actions-even-though-its-lazy-evaluation	N/A
-https://stackoverflow.com/questions/58244653/lazy-evaluation-of-io-actions	N/A
+https://stackoverflow.com/questions/71175957/why-does-haskell-need-to-have-io-actions-even-though-its-lazy-evaluation	created	2022-02-18
+https://stackoverflow.com/questions/58244653/lazy-evaluation-of-io-actions	created	2019-10-05
 https://www.youtube.com/watch?v=0jI-AlWEwYI	N/A
 https://www.youtube.com/watch?v=mjeGHqSgqP4	N/A
 https://www.youtube.com/watch?v=JQwc1OBOt5k	N/A
@@ -2681,7 +2681,7 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31638FCC
 https://chrispenner.ca/posts/expressiveness-spectrum	N/A
 https://antelang.org/blog/why_effects/	publication	2025-05-21
 https://discourse.haskell.org/t/transformer-version-of-the-st-monad/13623	publication	2026-01-30
-https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io-monad-for-testing-functions-that-run-in-a-io-based-monadic-stack	N/A
+https://stackoverflow.com/questions/79318638/how-can-i-use-the-state-monad-or-the-statet-monad-transformer-to-mimic-the-io-monad-for-testing-functions-that-run-in-a-io-based-monadic-stack	created	2024-12-30
 https://www.youtube.com/watch?v=fCoQb-zqYDI	N/A
 https://www.youtube.com/watch?v=wgfYkQVpC-M	N/A
 https://www.youtube.com/watch?v=y3KiuFczOFE	N/A
@@ -2790,7 +2790,7 @@ https://www.youtube.com/watch?v=4zrYRiTSWQo	N/A
 https://www.youtube.com/watch?v=GDWQ8QPqZpY	N/A
 https://www.youtube.com/watch?v=3CcAxhMw0-c	N/A
 https://discourse.haskell.org/t/are-complaints-about-free-monad-performance-pointless-and-no-different-to-a-corresponding-monad-construction/13189	publication	2025-10-29
-https://stackoverflow.com/questions/77772089/registering-a-signal-handler-in-haskell-with-an-action-depending-on-state	N/A
+https://stackoverflow.com/questions/77772089/registering-a-signal-handler-in-haskell-with-an-action-depending-on-state	created	2024-01-07
 https://arxiv.org/pdf/2305.08496	created	2023-05
 https://arxiv.org/pdf/2307.15463	created	2023-07
 https://arxiv.org/pdf/2303.01328	created	2023-03
@@ -2840,7 +2840,7 @@ https://dl.acm.org/doi/10.1145/3720434	publication	2025-04-09
 https://dl.acm.org/doi/10.1145/3759425.3763396	publication	2025-10-09
 https://discourse.haskell.org/t/why-are-there-so-many-libraries-for-algebraic-effects/11844	publication	2025-04-13
 https://deque.blog/2017/12/08/continuation-passing-style-free-monads-and-direct-style-free-monads/	created	2017
-https://stackoverflow.com/questions/45045294/in-haskell-terminology-what-are-monadic-effects	N/A
+https://stackoverflow.com/questions/45045294/in-haskell-terminology-what-are-monadic-effects	created	2017-07-11
 https://www.youtube.com/watch?v=V2vIfgGrr74	N/A
 https://people.cs.nott.ac.uk/pszgmh/appsem-papers/moggi.pdf	N/A
 https://kar.kent.ac.uk/57487/1/haskell19f-revised.pdf	N/A
@@ -4212,7 +4212,7 @@ https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_103.html	N/A
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_54.html	N/A
 https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_57.html	N/A
 https://r6.ca/blog/20110520T220201Z.html	N/A
-https://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o	N/A
+https://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o	created	2013-06-08
 https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspYEQAAQBAJ	N/A
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch07.html	N/A
 https://www.oreilly.com/library/view/effective-haskell/9798888650400/f_0021.xhtml	N/A
@@ -4278,8 +4278,8 @@ https://r6.ca/blog/20051203T090200Z.html	N/A
 https://well-typed.com/blog/2021/04/ghc-2021-02-2021-03/	created	2021
 https://www.cis.upenn.edu/~bcpierce/courses/advprog/resources/base/System.IO.Unsafe.html	N/A
 https://free.cofree.io/2020/07/20/perform-io/	created	2020
-https://stackoverflow.com/questions/10529284/is-there-ever-a-good-reason-to-use-unsafeperformio	N/A
-https://stackoverflow.com/questions/19371636/am-i-abusing-unsafeperformio	N/A
+https://stackoverflow.com/questions/10529284/is-there-ever-a-good-reason-to-use-unsafeperformio	created	2012-05-10
+https://stackoverflow.com/questions/19371636/am-i-abusing-unsafeperformio	created	2013-10-15
 https://news.ycombinator.com/item?id=1531832	N/A
 https://well-typed.com/blog/2013/07/video-and-slides-on-alternatives-to-lazy-io/	created	2013
 https://well-typed.com/blog/aux/files/alternatives-to-lazy-io.pdf	N/A
@@ -4297,20 +4297,20 @@ https://discourse.haskell.org/t/solved-safe-elimination-of-unsafeperformio/7901	
 https://discourse.haskell.org/t/list-of-what-haskell-doesnt-have/4329?page=5	publication	2022-04-09
 https://discourse.haskell.org/t/ghc-proposal-top-level-shared-io-computations/14328?page=2	publication	2026-07-01
 https://discourse.haskell.org/t/ann-memo-io-replacing-thread-on-ghc-proposal-for-top-level-io/14328?page=2	publication	2026-07-01
-https://stackoverflow.com/questions/21189325/haskell-how-getcontents-works	N/A
-https://stackoverflow.com/questions/23725476/timeout-and-unsafeperformio	N/A
-https://stackoverflow.com/questions/2527271/in-haskell-i-want-to-read-a-file-and-then-write-to-it-do-i-need-strictness-ann	N/A
-https://stackoverflow.com/questions/10485740/hgetcontents-being-too-lazy	N/A
-https://stackoverflow.com/questions/13097520/error-reading-and-writing-same-file-simultaneously-in-haskell	N/A
-https://stackoverflow.com/questions/40950764/reimplementing-getcontents-using-getchar	N/A
-https://stackoverflow.com/questions/45787011/is-getline-lazy	N/A
-https://stackoverflow.com/questions/78936751/reading-and-writing-files-in-haskell-results-in-withfile-resource-busy-file-i	N/A
-https://stackoverflow.com/questions/76297935/how-to-persist-an-object-in-haskell-to-a-memory-location-via-unsafeperformio-or	N/A
-https://stackoverflow.com/questions/296792/haskell-io-and-closing-files	N/A
-https://stackoverflow.com/questions/9509065/how-do-i-use-getcontents-to-take-input-from-the-command-line	N/A
-https://stackoverflow.com/questions/34516579/trouble-with-getcontents	N/A
-https://stackoverflow.com/questions/2290164/lazy-io-in-haskell	N/A
-https://stackoverflow.com/questions/18160807/haskell-io-hgetcontents-illegal-operation-handle-is-closed	N/A
+https://stackoverflow.com/questions/21189325/haskell-how-getcontents-works	created	2014-01-17
+https://stackoverflow.com/questions/23725476/timeout-and-unsafeperformio	created	2014-05-18
+https://stackoverflow.com/questions/2527271/in-haskell-i-want-to-read-a-file-and-then-write-to-it-do-i-need-strictness-ann	created	2010-03-26
+https://stackoverflow.com/questions/10485740/hgetcontents-being-too-lazy	created	2012-05-07
+https://stackoverflow.com/questions/13097520/error-reading-and-writing-same-file-simultaneously-in-haskell	created	2012-10-27
+https://stackoverflow.com/questions/40950764/reimplementing-getcontents-using-getchar	created	2016-12-03
+https://stackoverflow.com/questions/45787011/is-getline-lazy	created	2017-08-20
+https://stackoverflow.com/questions/78936751/reading-and-writing-files-in-haskell-results-in-withfile-resource-busy-file-i	created	2024-09-01
+https://stackoverflow.com/questions/76297935/how-to-persist-an-object-in-haskell-to-a-memory-location-via-unsafeperformio-or	created	2023-05-21
+https://stackoverflow.com/questions/296792/haskell-io-and-closing-files	created	2008-11-17
+https://stackoverflow.com/questions/9509065/how-do-i-use-getcontents-to-take-input-from-the-command-line	created	2012-03-01
+https://stackoverflow.com/questions/34516579/trouble-with-getcontents	created	2015-12-29
+https://stackoverflow.com/questions/2290164/lazy-io-in-haskell	created	2010-02-18
+https://stackoverflow.com/questions/18160807/haskell-io-hgetcontents-illegal-operation-handle-is-closed	created	2013-08-10
 https://www.reddit.com/r/haskell/comments/57gqos/using_unsafeperformio_to_make_current_time/	N/A
 https://www.reddit.com/r/haskell/comments/2eoc7c/lazy_io_problem/	N/A
 https://www.reddit.com/r/haskell/comments/ipv28c/how_to_write_getcontents_in_terms_of_getchar/	N/A
@@ -4578,22 +4578,22 @@ https://okmij.org/ftp/Scheme/misc.html	N/A
 https://doi.org/10.48456/tr-160	N/A
 https://okmij.org/ftp/Haskell/Iteratee/talk-FLOPS.pdf	N/A
 https://okmij.org/ftp/packages/sys_open.c	N/A
-https://stackoverflow.com/questions/34280735/understanding-pure-functions-in-haskell-with-io	N/A
-https://stackoverflow.com/questions/11260159/haskell-does-io-means-we-give-up-the-control-of-our-program	N/A
-https://stackoverflow.com/questions/74777875/getting-i-o-in-a-functional-program	N/A
+https://stackoverflow.com/questions/34280735/understanding-pure-functions-in-haskell-with-io	created	2015-12-15
+https://stackoverflow.com/questions/11260159/haskell-does-io-means-we-give-up-the-control-of-our-program	created	2012-06-29
+https://stackoverflow.com/questions/74777875/getting-i-o-in-a-functional-program	created	2022-12-12
 https://dorophone.blogspot.fr/2011/11/understanding-haskell-io-monad.html	created	2011
 https://solariar.net/notes/fp_side_effect.html	publication	2023-03-13
 https://profgra.org/lycee/presentation_Haskell_IO.html	N/A
 https://dl.acm.org/doi/pdf/10.1145/319838.319876	publication	1986
-https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handled-in-a-pure-functional-language-besides-with	N/A
-https://stackoverflow.com/questions/9819578/whats-the-meaning-of-io-actions-within-pure-functions	N/A
-https://stackoverflow.com/questions/1675366/a-haskell-function-of-type-io-string-string	N/A
-https://stackoverflow.com/questions/46079371/haskell-how-to-avoid-messing-pure-with-io	N/A
-https://stackoverflow.com/questions/23241587/c-c-wrapper-for-haskell-io-monad	N/A
-https://stackoverflow.com/questions/48631406/how-to-add-to-a-list-from-io-in-haskell	N/A
-https://stackoverflow.com/questions/16556202/types-and-do-notation	N/A
-https://stackoverflow.com/questions/25151406/how-to-break-io-action-in-haskell	N/A
-https://stackoverflow.com/questions/44722277/what-is-the-io-haskell-monad-equivalent-in-scala-standard-api	N/A
+https://stackoverflow.com/questions/13536761/what-other-ways-can-state-be-handled-in-a-pure-functional-language-besides-with	created	2012-11-23
+https://stackoverflow.com/questions/9819578/whats-the-meaning-of-io-actions-within-pure-functions	created	2012-03-22
+https://stackoverflow.com/questions/1675366/a-haskell-function-of-type-io-string-string	created	2009-11-04
+https://stackoverflow.com/questions/46079371/haskell-how-to-avoid-messing-pure-with-io	created	2017-09-06
+https://stackoverflow.com/questions/23241587/c-c-wrapper-for-haskell-io-monad	created	2014-04-23
+https://stackoverflow.com/questions/48631406/how-to-add-to-a-list-from-io-in-haskell	created	2018-02-05
+https://stackoverflow.com/questions/16556202/types-and-do-notation	created	2013-05-15
+https://stackoverflow.com/questions/25151406/how-to-break-io-action-in-haskell	created	2014-08-06
+https://stackoverflow.com/questions/44722277/what-is-the-io-haskell-monad-equivalent-in-scala-standard-api	created	2017-06-23
 https://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbibH.html	N/A
 https://cstheory.stackexchange.com/questions/14482/resumption-based-io-systems	N/A
 https://doi.org/10.1002/spe.4380250105	publication	1995-01
@@ -4627,31 +4627,31 @@ https://exploring-better-ways.bellroy.com/solving-a-resourcet-related-space-leak
 https://diogocastro.com/blog/the-hidden-perils-of-monadbasecontrol/	N/A
 https://www.47deg.com/blog/the-power-of-io-in-haskell/	N/A
 https://haskellweekly.news/issue/216.html	N/A
-https://stackoverflow.com/questions/11362930/how-do-i-actually-execute-a-statet-monad-along-with-io	N/A
-https://stackoverflow.com/questions/71072001/combining-resourcet-with-bracket-in-a-streaming-pipeline	N/A
-https://stackoverflow.com/questions/9054731/avoiding-lift-with-monad-transformers	N/A
-https://stackoverflow.com/questions/69532999/implementing-a-liftio-style-lift-for-monad-transformers-in-haskell	N/A
-https://stackoverflow.com/questions/77518119/how-can-i-use-liftio-with-state-to-print-values-inside-that-monad	N/A
-https://stackoverflow.com/questions/69327798/how-to-use-exceptt-to-replace-lots-of-io	N/A
-https://stackoverflow.com/questions/3640120/combine-state-with-io-actions	N/A
-https://stackoverflow.com/questions/2759968/has-anyone-ever-encountered-a-monad-transformer-in-the-wild	N/A
-https://stackoverflow.com/questions/38212294/why-is-monadio-specific-to-io-rather-than-a-more-generic-monadtrans	N/A
-https://stackoverflow.com/questions/12892814/how-to-convert-io-int-to-string-in-haskell	N/A
-https://stackoverflow.com/questions/11467066/how-to-get-normal-value-from-io-action-in-haskell	N/A
-https://stackoverflow.com/questions/64184067/lift-instance-of-class-with-a-monadio-type-variable-to-the-transformed-monad	N/A
-https://stackoverflow.com/questions/75821497/is-this-a-generic-transformer-for-any-monad	N/A
-https://stackoverflow.com/questions/52568702/are-there-valid-reasons-to-build-monad-transformer-stacks-on-top-of-io	N/A
-https://stackoverflow.com/questions/18339274/monad-transformers-io-and-state	N/A
-https://stackoverflow.com/questions/75585359/why-isnt-io-an-instantiation-of-state	N/A
-https://stackoverflow.com/questions/76913036/applying-changes-to-outer-monads-in-haskell-without-using-transformer-monads	N/A
-https://stackoverflow.com/questions/53939191/how-to-flatten-io-io	N/A
-https://stackoverflow.com/questions/12907714/is-it-ok-to-write-most-of-the-code-using-io-monads	N/A
-https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with	N/A
-https://stackoverflow.com/questions/9961778/haskell-can-i-call-function-without-io-output-working-with-monads	N/A
-https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging/9657844	N/A
-https://stackoverflow.com/questions/70226458/how-to-skip-unnecessary-ios-in-pure-functions	N/A
-https://stackoverflow.com/questions/68522273/haskell-how-to-do-io-inside-pure-haskell-function-how-to-print-intermediate-re	N/A
-https://stackoverflow.com/questions/32213779/is-it-possible-to-use-io-inside-state-monad-without-using-statet-and-st	N/A
+https://stackoverflow.com/questions/11362930/how-do-i-actually-execute-a-statet-monad-along-with-io	created	2012-07-06
+https://stackoverflow.com/questions/71072001/combining-resourcet-with-bracket-in-a-streaming-pipeline	created	2022-02-10
+https://stackoverflow.com/questions/9054731/avoiding-lift-with-monad-transformers	created	2012-01-29
+https://stackoverflow.com/questions/69532999/implementing-a-liftio-style-lift-for-monad-transformers-in-haskell	created	2021-10-11
+https://stackoverflow.com/questions/77518119/how-can-i-use-liftio-with-state-to-print-values-inside-that-monad	created	2023-11-20
+https://stackoverflow.com/questions/69327798/how-to-use-exceptt-to-replace-lots-of-io	created	2021-09-25
+https://stackoverflow.com/questions/3640120/combine-state-with-io-actions	created	2010-09-03
+https://stackoverflow.com/questions/2759968/has-anyone-ever-encountered-a-monad-transformer-in-the-wild	created	2010-05-03
+https://stackoverflow.com/questions/38212294/why-is-monadio-specific-to-io-rather-than-a-more-generic-monadtrans	created	2016-07-05
+https://stackoverflow.com/questions/12892814/how-to-convert-io-int-to-string-in-haskell	created	2012-10-15
+https://stackoverflow.com/questions/11467066/how-to-get-normal-value-from-io-action-in-haskell	created	2012-07-13
+https://stackoverflow.com/questions/64184067/lift-instance-of-class-with-a-monadio-type-variable-to-the-transformed-monad	created	2020-10-03
+https://stackoverflow.com/questions/75821497/is-this-a-generic-transformer-for-any-monad	created	2023-03-23
+https://stackoverflow.com/questions/52568702/are-there-valid-reasons-to-build-monad-transformer-stacks-on-top-of-io	created	2018-09-29
+https://stackoverflow.com/questions/18339274/monad-transformers-io-and-state	created	2013-08-20
+https://stackoverflow.com/questions/75585359/why-isnt-io-an-instantiation-of-state	created	2023-02-27
+https://stackoverflow.com/questions/76913036/applying-changes-to-outer-monads-in-haskell-without-using-transformer-monads	created	2023-08-16
+https://stackoverflow.com/questions/53939191/how-to-flatten-io-io	created	2018-12-27
+https://stackoverflow.com/questions/12907714/is-it-ok-to-write-most-of-the-code-using-io-monads	created	2012-10-16
+https://stackoverflow.com/questions/79305702/how-can-i-unit-test-computations-that-happen-in-a-monadic-transformer-stack-with	created	2024-12-24
+https://stackoverflow.com/questions/9961778/haskell-can-i-call-function-without-io-output-working-with-monads	created	2012-04-01
+https://stackoverflow.com/questions/9656734/redefine-io-to-simplify-debugging/9657844	created	2012-03-11
+https://stackoverflow.com/questions/70226458/how-to-skip-unnecessary-ios-in-pure-functions	created	2021-12-04
+https://stackoverflow.com/questions/68522273/haskell-how-to-do-io-inside-pure-haskell-function-how-to-print-intermediate-re	created	2021-07-25
+https://stackoverflow.com/questions/32213779/is-it-possible-to-use-io-inside-state-monad-without-using-statet-and-st	created	2015-08-25
 https://stackoverflow.com/questions/52489707/how-to-turn-io-actions-into-a-pure-function	N/A
 https://academy.fpblock.com/blog/2018/10/resourcet-necessary-evil/	created	2018
 https://www.snoyman.com/blog/2020/10/haskell-bad-parts-1/	created	2020
