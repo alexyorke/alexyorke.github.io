@@ -8496,352 +8496,352 @@ https://hackage.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-MVar.html	crea
 https://hackage.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-STM.html	created	2018-10-29
 https://hackage.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Surrogate.html	created	2018-10-29
 https://hackage.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Teletype.html	created	2018-10-29
-https://hackage.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-VirtualMachine.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Fork.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-IORef.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-MVar.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-STM.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Surrogate.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Teletype.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-VirtualMachine.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-IORef.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-MVar.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-STM.html	N/A
+https://hackage.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-VirtualMachine.html	created	2018-10-29
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Fork.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-IORef.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-MVar.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-STM.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Surrogate.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Teletype.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-VirtualMachine.html	created	2018-12-28
+https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-IORef.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-MVar.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-STM.html	created	2023-07-25
 ## Versioned io-sim and io-classes documentation resources
 https://hackage.haskell.org/package/io-sim-1.0.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.0.0.0/src/	created	2023-04-18
+https://hackage.haskell.org/package/io-sim-1.0.0.0/docs/Control-Monad-IOSim.html	created	2023-04-18
+https://hackage.haskell.org/package/io-sim-1.0.0.0/docs/Data-List-Trace.html	created	2023-04-18
 https://hackage.haskell.org/package/io-sim-1.0.0.1	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.1/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.1/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.0.0.1/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.0.0.1/src/	created	2023-04-20
+https://hackage.haskell.org/package/io-sim-1.0.0.1/docs/Control-Monad-IOSim.html	created	2023-04-20
+https://hackage.haskell.org/package/io-sim-1.0.0.1/docs/Data-List-Trace.html	created	2023-04-20
 https://hackage.haskell.org/package/io-sim-1.1.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.1.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.1.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.1.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.1.0.0/src/	created	2023-04-26
+https://hackage.haskell.org/package/io-sim-1.1.0.0/docs/Control-Monad-IOSim.html	created	2023-04-26
+https://hackage.haskell.org/package/io-sim-1.1.0.0/docs/Data-List-Trace.html	created	2023-04-26
 https://hackage.haskell.org/package/io-sim-1.2.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.2.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.2.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.2.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.2.0.0/src/	created	2023-07-28
+https://hackage.haskell.org/package/io-sim-1.2.0.0/docs/Control-Monad-IOSim.html	created	2023-07-28
+https://hackage.haskell.org/package/io-sim-1.2.0.0/docs/Data-List-Trace.html	created	2023-07-28
 https://hackage.haskell.org/package/io-sim-1.3.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.3.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.3.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.3.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.3.0.0/src/	created	2023-11-08
+https://hackage.haskell.org/package/io-sim-1.3.0.0/docs/Control-Monad-IOSim.html	created	2023-11-08
+https://hackage.haskell.org/package/io-sim-1.3.0.0/docs/Data-List-Trace.html	created	2023-11-08
 https://hackage.haskell.org/package/io-sim-1.3.1.0	N/A
-https://hackage.haskell.org/package/io-sim-1.3.1.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.3.1.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.3.1.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.3.1.0/src/	created	2023-11-20
+https://hackage.haskell.org/package/io-sim-1.3.1.0/docs/Control-Monad-IOSim.html	created	2023-11-20
+https://hackage.haskell.org/package/io-sim-1.3.1.0/docs/Data-List-Trace.html	created	2023-11-20
 https://hackage.haskell.org/package/io-sim-1.4.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.4.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.4.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.4.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.4.0.0/src/	created	2024-02-02
+https://hackage.haskell.org/package/io-sim-1.4.0.0/docs/Control-Monad-IOSim.html	created	2024-02-02
+https://hackage.haskell.org/package/io-sim-1.4.0.0/docs/Data-List-Trace.html	created	2024-02-02
 https://hackage.haskell.org/package/io-sim-1.4.1.0	N/A
-https://hackage.haskell.org/package/io-sim-1.4.1.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.4.1.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.4.1.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.4.1.0/src/	created	2024-02-15
+https://hackage.haskell.org/package/io-sim-1.4.1.0/docs/Control-Monad-IOSim.html	created	2024-02-15
+https://hackage.haskell.org/package/io-sim-1.4.1.0/docs/Data-List-Trace.html	created	2024-02-15
 https://hackage.haskell.org/package/io-sim-1.5.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.5.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.5.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.5.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.5.0.0/src/	created	2024-05-17
+https://hackage.haskell.org/package/io-sim-1.5.0.0/docs/Control-Monad-IOSim.html	created	2024-05-17
+https://hackage.haskell.org/package/io-sim-1.5.0.0/docs/Data-List-Trace.html	created	2024-05-17
 https://hackage.haskell.org/package/io-sim-1.5.1.0	N/A
-https://hackage.haskell.org/package/io-sim-1.5.1.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.5.1.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.5.1.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.5.1.0/src/	created	2024-12-10
+https://hackage.haskell.org/package/io-sim-1.5.1.0/docs/Control-Monad-IOSim.html	created	2024-12-10
+https://hackage.haskell.org/package/io-sim-1.5.1.0/docs/Data-List-Trace.html	created	2024-12-10
 https://hackage.haskell.org/package/io-sim-1.6.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.6.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.6.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.6.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.6.0.0/src/	created	2024-08-27
+https://hackage.haskell.org/package/io-sim-1.6.0.0/docs/Control-Monad-IOSim.html	created	2024-08-27
+https://hackage.haskell.org/package/io-sim-1.6.0.0/docs/Data-List-Trace.html	created	2024-08-27
 https://hackage.haskell.org/package/io-sim-1.8.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.0/src/	created	2025-05-21
+https://hackage.haskell.org/package/io-sim-1.8.0.0/docs/Control-Monad-IOSim.html	created	2025-05-21
+https://hackage.haskell.org/package/io-sim-1.8.0.0/docs/Data-List-Trace.html	created	2025-05-21
 https://hackage.haskell.org/package/io-sim-1.8.0.1	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.1/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.1/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.8.0.1/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.1/src/	created	2025-06-05
+https://hackage.haskell.org/package/io-sim-1.8.0.1/docs/Control-Monad-IOSim.html	created	2025-06-05
+https://hackage.haskell.org/package/io-sim-1.8.0.1/docs/Data-List-Trace.html	created	2025-06-05
 https://hackage.haskell.org/package/io-sim-1.9.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.9.0.0/src/	N/A
+https://hackage.haskell.org/package/io-sim-1.9.0.0/src/	created	2025-11-27
 https://hackage.haskell.org/package/io-sim-1.9.1.0	N/A
-https://hackage.haskell.org/package/io-sim-1.9.1.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.9.1.0/src/	created	2026-01-23
+https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/Control-Monad-IOSim.html	created	2026-01-23
+https://hackage.haskell.org/package/io-sim-1.9.1.0/docs/Data-List-Trace.html	created	2026-01-23
 https://hackage.haskell.org/package/io-sim-1.10.0.0	N/A
-https://hackage.haskell.org/package/io-sim-1.10.0.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.10.0.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.10.0.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.10.0.0/src/	created	2026-02-23
+https://hackage.haskell.org/package/io-sim-1.10.0.0/docs/Control-Monad-IOSim.html	created	2026-02-23
+https://hackage.haskell.org/package/io-sim-1.10.0.0/docs/Data-List-Trace.html	created	2026-02-23
 https://hackage.haskell.org/package/io-sim-1.10.1.0	N/A
-https://hackage.haskell.org/package/io-sim-1.10.1.0/src/	N/A
-https://hackage.haskell.org/package/io-sim-1.10.1.0/docs/Control-Monad-IOSim.html	N/A
-https://hackage.haskell.org/package/io-sim-1.10.1.0/docs/Data-List-Trace.html	N/A
+https://hackage.haskell.org/package/io-sim-1.10.1.0/src/	created	2026-04-15
+https://hackage.haskell.org/package/io-sim-1.10.1.0/docs/Control-Monad-IOSim.html	created	2026-04-15
+https://hackage.haskell.org/package/io-sim-1.10.1.0/docs/Data-List-Trace.html	created	2026-04-15
 https://hackage.haskell.org/package/io-classes-1.0.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.0/src/	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadFork.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2023-04-18
 https://hackage.haskell.org/package/io-classes-1.0.0.1	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.1/src/	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadAsync.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadFork.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadSTM.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadThrow.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadTimer.html	created	2023-04-20
 https://hackage.haskell.org/package/io-classes-1.1.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.1.0.0/src/	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadFork.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2023-04-26
 https://hackage.haskell.org/package/io-classes-1.2.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.2.0.0/src/	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadFork.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2023-07-28
 https://hackage.haskell.org/package/io-classes-1.3.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.3.0.0/src/	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadFork.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2023-11-08
 https://hackage.haskell.org/package/io-classes-1.3.1.0	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.3.1.0/src/	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadAsync.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadFork.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadSTM.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadThrow.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadTimer.html	created	2023-11-20
 https://hackage.haskell.org/package/io-classes-1.4.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.4.0.0/src/	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadFork.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2024-02-02
 https://hackage.haskell.org/package/io-classes-1.4.1.0	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.4.1.0/src/	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadAsync.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadFork.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadSTM.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadThrow.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadTimer.html	created	2024-02-15
 https://hackage.haskell.org/package/io-classes-1.5.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.5.0.0/src/	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadFork.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2024-05-17
 https://hackage.haskell.org/package/io-classes-1.6.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.6.0.0/src/	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadFork.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2024-08-27
 https://hackage.haskell.org/package/io-classes-1.7.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.7.0.0/src/	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadFork.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.7.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2024-08-27
 https://hackage.haskell.org/package/io-classes-1.8.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.8.0.0/src/	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadFork.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2025-05-21
+https://hackage.haskell.org/package/io-classes-1.8.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2025-05-21
 https://hackage.haskell.org/package/io-classes-1.8.0.1	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.8.0.1/src/	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadAsync.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadFork.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadSTM.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadThrow.html	created	2025-06-02
+https://hackage.haskell.org/package/io-classes-1.8.0.1/docs/Control-Monad-Class-MonadTimer.html	created	2025-06-02
 https://hackage.haskell.org/package/io-classes-1.9.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.9.0.0/src/	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadFork.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2025-11-27
+https://hackage.haskell.org/package/io-classes-1.9.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2025-11-27
 https://hackage.haskell.org/package/io-classes-1.10.0.0	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.10.0.0/src/	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadAsync.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadFork.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadSTM.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadThrow.html	created	2026-02-23
+https://hackage.haskell.org/package/io-classes-1.10.0.0/docs/Control-Monad-Class-MonadTimer.html	created	2026-02-23
 https://hackage.haskell.org/package/io-classes-1.10.1.0	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/src/	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadAsync.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadFork.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadThrow.html	N/A
-https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTimer.html	N/A
+https://hackage.haskell.org/package/io-classes-1.10.1.0/src/	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadAsync.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadFork.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadSTM.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadThrow.html	created	2026-04-15
+https://hackage.haskell.org/package/io-classes-1.10.1.0/docs/Control-Monad-Class-MonadTimer.html	created	2026-04-15
 https://hackage.haskell.org/package/io-classes-mtl-0.1.0.0	N/A
-https://hackage.haskell.org/package/io-classes-mtl-0.1.0.0/src/	N/A
+https://hackage.haskell.org/package/io-classes-mtl-0.1.0.0/src/	created	2023-04-18
 https://hackage.haskell.org/package/io-classes-mtl-0.1.0.1	N/A
-https://hackage.haskell.org/package/io-classes-mtl-0.1.0.1/src/	N/A
+https://hackage.haskell.org/package/io-classes-mtl-0.1.0.1/src/	created	2023-04-20
 https://hackage.haskell.org/package/io-classes-mtl-0.1.0.2	N/A
-https://hackage.haskell.org/package/io-classes-mtl-0.1.0.2/src/	N/A
+https://hackage.haskell.org/package/io-classes-mtl-0.1.0.2/src/	created	2023-11-08
 https://hackage.haskell.org/package/io-classes-mtl-0.1.0.3	N/A
-https://hackage.haskell.org/package/io-classes-mtl-0.1.0.3/src/	N/A
+https://hackage.haskell.org/package/io-classes-mtl-0.1.0.3/src/	created	2024-02-02
 https://hackage.haskell.org/package/io-classes-mtl-0.1.1.0	N/A
-https://hackage.haskell.org/package/io-classes-mtl-0.1.1.0/src/	N/A
+https://hackage.haskell.org/package/io-classes-mtl-0.1.1.0/src/	created	2024-02-15
 https://hackage.haskell.org/package/io-classes-mtl-0.1.2.0	N/A
-https://hackage.haskell.org/package/io-classes-mtl-0.1.2.0/src/	N/A
+https://hackage.haskell.org/package/io-classes-mtl-0.1.2.0/src/	created	2024-05-17
 ## Additional versioned io-classes monad and concurrency modules
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadST.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadTest.html	N/A
-https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadTime.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	N/A
-https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadEventlog.html	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadST.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadSay.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadTest.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.0/docs/Control-Monad-Class-MonadTime.html	created	2023-04-18
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadEventlog.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadST.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadSay.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadTest.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.0.0.1/docs/Control-Monad-Class-MonadTime.html	created	2023-04-20
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadST.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadSay.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadTest.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.1.0.0/docs/Control-Monad-Class-MonadTime.html	created	2023-04-26
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadST.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadSay.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadTest.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.2.0.0/docs/Control-Monad-Class-MonadTime.html	created	2023-07-28
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadST.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadSay.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadTest.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.0.0/docs/Control-Monad-Class-MonadTime.html	created	2023-11-08
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadEventlog.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadST.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadSay.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadTest.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.3.1.0/docs/Control-Monad-Class-MonadTime.html	created	2023-11-20
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadST.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadSay.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadTest.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.0.0/docs/Control-Monad-Class-MonadTime.html	created	2024-02-02
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadEventlog.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadST.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadSay.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadTest.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.4.1.0/docs/Control-Monad-Class-MonadTime.html	created	2024-02-15
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadST.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadSay.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadTest.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.5.0.0/docs/Control-Monad-Class-MonadTime.html	created	2024-05-17
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadMVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TArray.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TBQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TChan.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TMVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TQueue.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TSem.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Concurrent-Class-MonadSTM-TVar.html	created	2024-08-27
+https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadEventlog.html	created	2024-08-27
 https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadST.html	N/A
 https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSTM-Internal.html	N/A
 https://hackage.haskell.org/package/io-classes-1.6.0.0/docs/Control-Monad-Class-MonadSay.html	N/A
