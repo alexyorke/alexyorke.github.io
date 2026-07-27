@@ -915,38 +915,38 @@ https://livebook.manning.com/book/haskell-in-depth/chapter-4	N/A
 https://livebook.manning.com/book/haskell-in-depth/chapter-9	N/A
 https://livebook.manning.com/book/haskell-in-depth/chapter-3	N/A
 https://livebook.manning.com/book/haskell-in-depth/chapter-10	N/A
-https://www.stackage.org/package/resourcet-pool	N/A
-https://www.stackage.org/package/conduit-throttle	N/A
-https://www.stackage.org/package/conduit-combinators	N/A
-https://www.stackage.org/package/monad-control-aligned	N/A
-https://www.stackage.org/package/lifted-async	N/A
-https://www.stackage.org/package/log-warper	N/A
-https://www.stackage.org/package/mtl	N/A
-https://www.stackage.org/package/wai-control	N/A
+https://www.stackage.org/package/resourcet-pool	indexed	2021-04-15
+https://www.stackage.org/package/conduit-throttle	indexed	2019-09-21
+https://www.stackage.org/package/conduit-combinators	indexed	2026-07-27
+https://www.stackage.org/package/monad-control-aligned	indexed	2026-07-27
+https://www.stackage.org/package/lifted-async	indexed	2026-07-27
+https://www.stackage.org/package/log-warper	indexed	2018-03-12
+https://www.stackage.org/package/mtl	indexed	2026-07-27
+https://www.stackage.org/package/wai-control	indexed	2026-07-27
 https://haskell.foundation/hs-opt-handbook.github.io/src/Case_Studies/klister.html	N/A
-https://www.stackage.org/package/safe-exceptions	N/A
-https://www.stackage.org/package/exception-transformers	N/A
-https://www.stackage.org/package/exception-mtl	N/A
-https://www.stackage.org/package/MonadCatchIO-transformers	N/A
-https://www.stackage.org/package/monad-peel	N/A
-https://www.stackage.org/package/di-monad	N/A
-https://www.stackage.org/package/async-pool	N/A
-https://www.stackage.org/package/monad-logger	N/A
-https://www.stackage.org/package/scientist	N/A
-https://www.stackage.org/package/req	N/A
-https://www.stackage.org/package/enclosed-exceptions	N/A
-https://www.stackage.org/package/temporary-resourcet	N/A
-https://www.stackage.org/package/monadology	N/A
-https://www.stackage.org/package/concurrent-split	N/A
-https://www.stackage.org/package/pipes-concurrency	N/A
-https://www.stackage.org/package/concurrent-output	N/A
-https://www.stackage.org/package/concurrent-extra	N/A
-https://www.stackage.org/package/hasql-pool	N/A
-https://www.stackage.org/package/file-io	N/A
-https://www.stackage.org/package/MonadPrompt	N/A
-https://www.stackage.org/package/simple-prompt	N/A
-https://www.stackage.org/package/monad-coroutine	N/A
-https://www.stackage.org/package/fakepull	N/A
+https://www.stackage.org/package/safe-exceptions	indexed	2026-07-27
+https://www.stackage.org/package/exception-transformers	indexed	2026-07-27
+https://www.stackage.org/package/exception-mtl	indexed	2026-07-27
+https://www.stackage.org/package/MonadCatchIO-transformers	indexed	2016-05-25
+https://www.stackage.org/package/monad-peel	indexed	2026-07-27
+https://www.stackage.org/package/di-monad	indexed	2026-07-27
+https://www.stackage.org/package/async-pool	indexed	2026-07-27
+https://www.stackage.org/package/monad-logger	indexed	2026-07-27
+https://www.stackage.org/package/scientist	indexed	2026-07-27
+https://www.stackage.org/package/req	indexed	2026-07-27
+https://www.stackage.org/package/enclosed-exceptions	indexed	2026-07-27
+https://www.stackage.org/package/temporary-resourcet	indexed	2026-07-27
+https://www.stackage.org/package/monadology	indexed	2026-07-27
+https://www.stackage.org/package/concurrent-split	indexed	2026-07-27
+https://www.stackage.org/package/pipes-concurrency	indexed	2026-07-27
+https://www.stackage.org/package/concurrent-output	indexed	2026-07-27
+https://www.stackage.org/package/concurrent-extra	indexed	2026-07-27
+https://www.stackage.org/package/hasql-pool	indexed	2026-07-27
+https://www.stackage.org/package/file-io	indexed	2026-07-27
+https://www.stackage.org/package/MonadPrompt	indexed	2026-07-27
+https://www.stackage.org/package/simple-prompt	indexed	2026-07-27
+https://www.stackage.org/package/monad-coroutine	indexed	2026-07-27
+https://www.stackage.org/package/fakepull	indexed	2026-07-27
 https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf	N/A
 https://typelevel.org/cats-effect/docs/datatypes/io	N/A
 https://pursuit.purescript.org/packages/purescript-effect/4.0.0/docs/Effect	N/A
@@ -1310,7 +1310,7 @@ https://digitalcollections.ohsu.edu/record/2532/files/3273_etd.pdf	N/A
 https://www.cse.unm.edu/~eschulte/classes/cs558/data/effectstocl.pdf	N/A
 https://www.academia.edu/24796533/Disjoint_forms_in_graphical_user_interfaces	N/A
 https://academy.fpblock.com/haskell/tutorial/monad-transformers/	N/A
-https://www.stackage.org/lts-9.1/package/transformers-0.5.2.0	N/A
+https://www.stackage.org/lts-9.1/package/transformers-0.5.2.0	indexed	2026-07-27
 https://github.com/keithfancher/haskell-notes/blob/master/haskell-notes.md	updated	2024-09-04
 https://haskellforall.com/2012/07/free-monad-transformers	created	2012
 https://downloads.haskell.org/ghc/8.6.2/docs/html/libraries/base-4.12.0.0/Control-Monad-IO-Class.html	modified	2019-02-15
@@ -1393,7 +1393,7 @@ https://www.fpcomplete.com/haskell/library/unliftio/	N/A
 https://www.reddit.com/r/haskell/comments/u9bcc3/error_handling_in_the_rio_and_unliftio_world/	N/A
 https://www.reddit.com/r/haskell/comments/115bp3c/unliftio_exceptt_and_coercible/	created	2023-02-18
 https://www.reddit.com/r/haskell/comments/1s33dmc/the_hidden_perils_of_monadbasecontrol/	N/A
-https://www.stackage.org/package/unliftio-core	N/A
+https://www.stackage.org/package/unliftio-core	indexed	2026-07-27
 https://stackoverflow.com/questions/57198777/how-to-define-monadunliftio-instance-for-a-newtype-with-a-phantom-type-variable	created	2019-07-25
 https://harporoeder.com/posts/servant-13-reader-io/	publication	2016-11-14
 https://github.com/fpco/monad-unlift	N/A
@@ -1404,19 +1404,19 @@ https://github.com/fpco/unliftio	updated	2025-09-10
 https://github.com/fpco/unliftio-core	N/A
 https://github.com/jgm/lifted-base	N/A
 https://tech.fpcomplete.com/haskell/library/rio/	N/A
-https://www.stackage.org/package/rio	N/A
+https://www.stackage.org/package/rio	indexed	2026-07-27
 https://github.com/commercialhaskell/rio	updated	2026-02-06
-https://www.stackage.org/package/unliftio	N/A
-https://www.stackage.org/package/monad-unlift	N/A
-https://www.stackage.org/package/rio-orphans	N/A
+https://www.stackage.org/package/unliftio	indexed	2026-07-27
+https://www.stackage.org/package/monad-unlift	indexed	2026-07-27
+https://www.stackage.org/package/rio-orphans	indexed	2026-07-27
 https://www.stackage.org/lts/docs	N/A
 https://packages.ubuntu.com/source/stonking/ppc64el/haskell-unliftio-core	N/A
 https://www.stackage.org/nightly-2026-07-03/package/monad-unlift	created	2026
 https://github.com/commercialhaskell/rio/issues/103	updated	2026-02-06
-https://www.stackage.org/package/rio-prettyprint	N/A
+https://www.stackage.org/package/rio-prettyprint	indexed	2026-07-27
 https://github.com/commercialhaskell/rio-prettyprint	N/A
-https://www.stackage.org/package/monad-unlift-ref	N/A
-https://www.stackage.org/package/lifted-base	N/A
+https://www.stackage.org/package/monad-unlift-ref	indexed	2026-07-27
+https://www.stackage.org/package/lifted-base	indexed	2026-07-27
 https://github.com/basvandijk/lifted-base	updated	2018-03-14
 https://www.stackage.org/package/unlift-stm	N/A
 https://www.stackage.org/package/unlift	N/A
@@ -1426,11 +1426,11 @@ https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs/Control-Monad-IO-
 https://www.scribd.com/document/76960853/Transformers	N/A
 https://packages.debian.org/uk/sid/doc/libghc-unliftio-core-doc	N/A
 https://packages.debian.org/uk/sid/doc/libghc-unliftio-doc	N/A
-https://www.stackage.org/lts-24.24	N/A
-https://www.stackage.org/package/unliftio-path	N/A
-https://www.stackage.org/package/unliftio-pool	N/A
-https://www.stackage.org/package/unliftio-streams	N/A
-https://www.stackage.org/package/unlifted	N/A
+https://www.stackage.org/lts-24.24	indexed	2025-12-14
+https://www.stackage.org/package/unliftio-path	indexed	2026-07-27
+https://www.stackage.org/package/unliftio-pool	indexed	2026-07-27
+https://www.stackage.org/package/unliftio-streams	indexed	2026-07-27
+https://www.stackage.org/package/unlifted	indexed	2026-07-27
 https://docs.huihoo.com/okmij.org/ftp/Computation/LogicT.pdf	N/A
 https://www.reddit.com/r/haskell/comments/1c9czmn/what_are_effects/	N/A
 https://plv.mpi-sws.org/plerg/papers/monads-for-fp.pdf	N/A
@@ -1455,11 +1455,11 @@ https://github.com/haskell-effectful/effectful/issues/219	updated	2026-07-23
 https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/issues/34	updated	2025-06-26
 https://github.com/fpco/unliftio/issues/55	updated	2025-09-10
 https://gist.github.com/pedrominicz/2a949417660534d99c2f556c39242957	N/A
-https://www.stackage.org/lts-24.49	N/A
-https://www.stackage.org/package/effectful	N/A
-https://www.stackage.org/package/effectful-core	N/A
-https://www.stackage.org/package/effectful-th	N/A
-https://www.stackage.org/package/heftia-effects	N/A
+https://www.stackage.org/lts-24.49	indexed	2026-07-04
+https://www.stackage.org/package/effectful	indexed	2026-07-27
+https://www.stackage.org/package/effectful-core	indexed	2026-07-27
+https://www.stackage.org/package/effectful-th	indexed	2026-07-27
+https://www.stackage.org/package/heftia-effects	indexed	2026-07-27
 https://github.com/tomjaguarpaw/bluefin/issues/29	updated	2026-07-19
 https://github.com/ghc-proposals/ghc-proposals/issues/503	updated	2026-07-23
 https://github.com/tomjaguarpaw/bluefin	updated	2026-07-19
@@ -1526,8 +1526,8 @@ https://www.rairo-ita.org/articles/ita/abs/2002/02/ita0216/ita0216.html	publicat
 https://www.rairo-ita.org/articles/ita/abs/2004/04/ita0431NS/ita0431NS.html	created	2004
 https://kar.kent.ac.uk/30749/1/craft3e.pdf	N/A
 https://www.cs.arizona.edu/classes/cs453/fall16/ClassNotes/28-IO-monads-shorter.pdf	N/A
-https://www.stackage.org/package/bluefin-internal	N/A
-https://www.stackage.org/package/bluefin	N/A
+https://www.stackage.org/package/bluefin-internal	indexed	2026-07-27
+https://www.stackage.org/package/bluefin	indexed	2026-07-27
 https://www.stackage.org/package/bluefin-effects	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/139DB03F213002D63BD54AA6DBCE457A/S0988375402000085a.pdf/semantics-of-value-recursion-for-monadic-inputoutput.pdf	publication	2002-04
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43840B587166A4609773DA629DD318CD/S0956796803000911a.pdf/7-basic-inputoutput.pdf	N/A
@@ -3159,10 +3159,10 @@ https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Async.html	created	20
 https://hackage.haskell.org/package/unliftio/docs/UnliftIO-Exception.html	created	2025-03-10
 https://hackage.haskell.org/package/bluefin/docs/Bluefin.html	created	2026-07-19
 https://hackage.haskell.org/package/effectful/docs/Effectful-Concurrent.html	created	2025-08-30
-https://www.stackage.org/package/monad-control	N/A
-https://www.stackage.org/package/conduit	N/A
-https://www.stackage.org/package/resourcet	N/A
-https://www.stackage.org/package/conduit-extra	N/A
+https://www.stackage.org/package/monad-control	indexed	2026-07-27
+https://www.stackage.org/package/conduit	indexed	2026-07-27
+https://www.stackage.org/package/resourcet	indexed	2026-07-27
+https://www.stackage.org/package/conduit-extra	indexed	2026-07-27
 https://www.cambridge.org/highereducation/books/the-haskell-school-of-expression/70651D70E17ECC07C91D8487D2EFEAE7	N/A
 https://wdi.centralesupelec.fr/users/valiron/qplmfps/papers/qs09t3.pdf	N/A
 https://hackage.haskell.org/package/async	N/A
@@ -3225,7 +3225,7 @@ https://packages.ubuntu.com/source/stonking/armhf/haskell-monad-control	N/A
 https://link.springer.com/content/pdf/10.1007/11784180_14.pdf?pdf=preview	N/A
 https://arxiv.org/pdf/1608.06499	created	2016-08
 https://yesodweb.com/blog/2011/12/resourcet	created	2011
-https://www.stackage.org/lts-18.8/package/lifted-base-0.2.3.12	N/A
+https://www.stackage.org/lts-18.8/package/lifted-base-0.2.3.12	indexed	2026-07-27
 https://www.cs.cmu.edu/~fp/courses/15312-f02/handouts/15-monads.pdf	N/A
 https://github.com/louthy/language-ext/wiki/Frequently-Asked-Questions	N/A
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/effects-semantics-2010.pdf	created	2016
@@ -4442,7 +4442,7 @@ https://hackage.haskell.org/package/bluefin-0.4.1.0/docs/Bluefin-Compound.html	c
 https://hackage.haskell.org/package/polysemy-plugin	N/A
 https://hackage.haskell.org/package/polysemy-zoo	N/A
 https://hackage.haskell.org/package/freer-simple	N/A
-https://www.stackage.org/package/freer-simple	N/A
+https://www.stackage.org/package/freer-simple	indexed	2024-12-09
 https://hackage.haskell.org/package/polysemy-1.9.0.0/docs/Polysemy.html	created	2022-12-28
 https://hackage.haskell.org/package/polysemy-plugin-0.1.0.0/docs/Polysemy-Plugin.html	created	2019-04-28
 https://hackage.haskell.org/package/freer-simple-1.2.1.2/docs/Control-Monad-Freer.html	created	2022-01-07
@@ -5838,7 +5838,7 @@ https://www.reddit.com/r/haskell/comments/fntfyg	N/A
 https://www.reddit.com/r/haskell/comments/k0g2m8	N/A
 https://www.reddit.com/r/haskell/comments/qdexgu	N/A
 https://www.researchgate.net/publication/362225937_Engaging_Large-Scale_Functional_Programming_Education_in_Physical_and_Virtual_Space	N/A
-https://www.stackage.org/lts-23.14/package/HMock-0.5.1.2	N/A
+https://www.stackage.org/lts-23.14/package/HMock-0.5.1.2	indexed	2024-12-09
 https://downloads.haskell.org/~ghc/4.08.2/docs/set.pdf	modified	2019-02-15
 https://downloads.haskell.org/~ghc/7.6.2/docs/html/libraries/ghc/src/GhcMonad.html	modified	2019-02-15
 https://downloads.haskell.org/~ghc/8.4.2-rc1/docs/html/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	modified	2019-02-15
@@ -6059,7 +6059,7 @@ https://www.reddit.com/r/scala/comments/121v0at	N/A
 https://www.reddit.com/r/scala/comments/1ccmyxb	N/A
 https://www.reddit.com/r/scala/comments/1ekk0t4	N/A
 https://www.researchgate.net/publication/1736989_An_Overview_of_QML_With_a_Concrete_Implementation_in_Haskell	N/A
-https://www.stackage.org/lts-7.19/package/effect-handlers-0.1.0.8	N/A
+https://www.stackage.org/lts-7.19/package/effect-handlers-0.1.0.8	indexed	2018-03-10
 https://www.unison-lang.org/docs/fundamentals/abilities/for-monadically-inclined/	N/A
 https://zylos.ai/research/2026-03-15-effect-systems-algebraic-effects-ai-agent-runtimes	publication	2026-03-15
 https://academy.mondaymorninghaskell.com/p/effectful-haskell	N/A
@@ -6415,7 +6415,7 @@ https://www.reddit.com/r/haskell/comments/ujqniz	N/A
 https://www.reddit.com/r/haskell/comments/v0ofdh	N/A
 https://www.reddit.com/r/haskellquestions/comments/bzd2r9	N/A
 https://www.scs.stanford.edu/~dm/home/papers/yang%3Aspace-limits.pdf	N/A
-https://www.stackage.org/package/streaming-commons	N/A
+https://www.stackage.org/package/streaming-commons	indexed	2026-07-27
 https://arxiv.org/abs/1110.4163	created	2011-10
 https://arxiv.org/abs/2103.14481	created	2021-03
 https://cs.emis.de/LIPIcs/volltexte/2022/16227/pdf/lipics-vol222-ecoop2022-complete_.pdf	created	2022
@@ -6733,7 +6733,7 @@ https://www.reddit.com/r/haskell/comments/1ag88q4	N/A
 https://www.reddit.com/r/haskell/comments/1bl4ob1	N/A
 https://www.reddit.com/r/haskell/comments/bwrw9e	N/A
 https://www.rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-IOSpec-0.3.1.2-7.fc44.aarch64.html	N/A
-https://www.stackage.org/lts-3.0/package/IOSpec-0.3	N/A
+https://www.stackage.org/lts-3.0/package/IOSpec-0.3	indexed	2015-12-08
 https://www.stackage.org/nightly-2015-11-27/package/IOSpec-0.3	created	2015
 https://www.uni-due.de/fmi/westphal_en	N/A
 https://www-cambridge-org.accedys.udc.es/core/journals/journal-of-functional-programming/article/data-types-a-la-carte/14416CB20C4637164EA9F77097909409	N/A
@@ -8034,13 +8034,13 @@ https://hackage.haskell.org/package/unboxed-ref-0.4.0.0/docs/Data-IORef-Unboxed.
 https://hackage.haskell.org/package/acme-realworld-0.1.1/docs/Acme-RealWorld.html	created	2011-12-09
 https://hackage.haskell.org/package/primal-0.3.0.0/docs/Control-Prim-Monad.html	created	2021-01-22
 https://hackage.haskell.org/package/primal-0.3.0.0/docs/Control-Prim-Monad-Unsafe.html	created	2021-01-22
-https://www.stackage.org/package/pure-io	N/A
-https://www.stackage.org/package/io-manager	N/A
-https://www.stackage.org/package/io-storage	N/A
+https://www.stackage.org/package/pure-io	indexed	2018-03-12
+https://www.stackage.org/package/io-manager	indexed	2026-07-27
+https://www.stackage.org/package/io-storage	indexed	2026-07-27
 https://www.stackage.org/package/jail	N/A
 https://www.stackage.org/package/logicst	N/A
-https://www.stackage.org/package/monad-primitive	N/A
-https://www.stackage.org/package/unboxed-ref	N/A
+https://www.stackage.org/package/monad-primitive	indexed	2023-06-21
+https://www.stackage.org/package/unboxed-ref	indexed	2026-07-27
 https://www.stackage.org/package/acme-realworld	N/A
 https://www.stackage.org/package/primal	N/A
 ## I/O package source renderings and release archives
@@ -8095,23 +8095,23 @@ https://hackage.haskell.org/package/pure-io-0.1.0	N/A
 https://hackage.haskell.org/package/pure-io-0.2.0	N/A
 https://hackage.haskell.org/package/unboxed-ref-0.2.0.0	N/A
 https://hackage.haskell.org/package/unboxed-ref-0.3.0.0	N/A
-https://www.stackage.org/lts-11.22/package/pure-io	N/A
+https://www.stackage.org/lts-11.22/package/pure-io	indexed	2018-03-12
 https://www.stackage.org/nightly-2018-03-12/package/pure-io	created	2018
 https://www.stackage.org/haddock/nightly-2018-02-27/pure-io-0.2.1/PureIO.html	created	2018
-https://www.stackage.org/lts-24.49/package/io-manager	N/A
+https://www.stackage.org/lts-24.49/package/io-manager	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-07-10/package/io-manager	created	2026
 https://www.stackage.org/haddock/nightly-2026-07-10/io-manager-0.1.0.4/Training-MM-IOManager.html	created	2026
-https://www.stackage.org/lts-24.49/package/io-storage	N/A
+https://www.stackage.org/lts-24.49/package/io-storage	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-07-10/package/io-storage	created	2026
 https://www.stackage.org/haddock/nightly-2026-07-10/io-storage-0.3/System-IO-Storage.html	created	2026
-https://www.stackage.org/lts-21.25/package/monad-primitive	N/A
+https://www.stackage.org/lts-21.25/package/monad-primitive	indexed	2023-06-21
 https://www.stackage.org/nightly-2023-06-21/package/monad-primitive	created	2023
 https://www.stackage.org/haddock/lts-21.25/monad-primitive-0.1/Control-Monad-Primitive-Class.html	N/A
 https://www.stackage.org/haddock/lts-21.25/monad-primitive-0.1/Data-PrimRef.html	N/A
-https://www.stackage.org/lts-24.49/package/unboxed-ref	N/A
+https://www.stackage.org/lts-24.49/package/unboxed-ref	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-07-10/package/unboxed-ref	created	2026
 https://www.stackage.org/haddock/nightly-2026-07-10/unboxed-ref-0.4.0.0/Data-IORef-Unboxed.html	created	2026
-https://www.stackage.org/lts-3.22/package/IOSpec	N/A
+https://www.stackage.org/lts-3.22/package/IOSpec	indexed	2015-12-08
 https://www.stackage.org/nightly-2015-12-08/package/IOSpec	created	2015
 https://www.stackage.org/haddock/nightly-2015-10-07/IOSpec-0.3/Test-IOSpec.html	created	2015
 https://www.stackage.org/haddock/nightly-2015-10-07/IOSpec-0.3/Test-IOSpec-Fork.html	created	2015
@@ -10065,47 +10065,47 @@ https://obnb.uk/p11013103-functional-programming-proceedings-of-the-1989-glasgow
 https://www.stackage.org/nightly-2026-03-14/package/io-storage-0.3	created	2026
 https://www.stackage.org/nightly-2025-01-06/package/io-storage-0.3	created	2025
 https://www.stackage.org/nightly-2021-03-19/package/io-storage-0.3	created	2021
-https://www.stackage.org/lts-23.13/package/io-storage-0.3	N/A
-https://www.stackage.org/lts-21.0/package/io-storage-0.3	N/A
+https://www.stackage.org/lts-23.13/package/io-storage-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-21.0/package/io-storage-0.3	indexed	2026-07-27
 https://www.stackage.org/nightly-2019-07-31/package/io-storage-0.3	created	2019
 https://www.stackage.org/nightly-2025-01-06/package/lazyio-0.1.0.4	created	2025
-https://www.stackage.org/lts-16.0/package/io-streams-1.5.1.0	N/A
-https://www.stackage.org/lts-3.0/package/io-streams-1.3.2.0	N/A
-https://www.stackage.org/lts-7.19/package/io-streams-1.3.6.0	N/A
-https://www.stackage.org/package/monad-parallel	N/A
-https://www.stackage.org/lts-7.21/package/transformers-0.5.2.0	N/A
-https://www.stackage.org/lts-24.33/package/io-manager-0.1.0.4	N/A
+https://www.stackage.org/lts-16.0/package/io-streams-1.5.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-3.0/package/io-streams-1.3.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-7.19/package/io-streams-1.3.6.0	indexed	2026-07-27
+https://www.stackage.org/package/monad-parallel	indexed	2026-07-27
+https://www.stackage.org/lts-7.21/package/transformers-0.5.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-24.33/package/io-manager-0.1.0.4	indexed	2026-07-27
 https://www.stackage.org/nightly-2024-07-03/package/io-machine-0.2.0.0	created	2024
-https://www.stackage.org/lts-7.19/package/io-machine-0.2.0.0	N/A
-https://www.stackage.org/lts-13.28/package/io-machine-0.2.0.0	N/A
-https://www.stackage.org/lts-7.19/package/io-manager-0.1.0.2	N/A
-https://www.stackage.org/package/IOSpec	N/A
-https://www.stackage.org/package/io-choice	N/A
-https://www.stackage.org/package/io-region	N/A
-https://www.stackage.org/package/io-embed	N/A
-https://www.stackage.org/package/io-memoize	N/A
-https://www.stackage.org/package/io-machine	N/A
-https://www.stackage.org/package/lazyio	N/A
-https://www.stackage.org/package/io-streams	N/A
-https://www.stackage.org/lts-3.22/package/IOSpec-0.3	N/A
-https://www.stackage.org/lts-7.19/package/io-region-0.1.1	N/A
-https://www.stackage.org/lts-6.1/package/io-choice-0.0.6	N/A
+https://www.stackage.org/lts-7.19/package/io-machine-0.2.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-13.28/package/io-machine-0.2.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-7.19/package/io-manager-0.1.0.2	indexed	2026-07-27
+https://www.stackage.org/package/IOSpec	indexed	2015-12-08
+https://www.stackage.org/package/io-choice	indexed	2019-09-21
+https://www.stackage.org/package/io-region	indexed	2026-07-27
+https://www.stackage.org/package/io-embed	indexed	2025-07-14
+https://www.stackage.org/package/io-memoize	indexed	2026-07-27
+https://www.stackage.org/package/io-machine	indexed	2026-07-27
+https://www.stackage.org/package/lazyio	indexed	2026-07-27
+https://www.stackage.org/package/io-streams	indexed	2026-07-27
+https://www.stackage.org/lts-3.22/package/IOSpec-0.3	indexed	2015-12-08
+https://www.stackage.org/lts-7.19/package/io-region-0.1.1	indexed	2026-07-27
+https://www.stackage.org/lts-6.1/package/io-choice-0.0.6	indexed	2019-09-21
 https://www.stackage.org/nightly-2015-08-26/package/io-choice-0.0.5	created	2015
-https://www.stackage.org/lts-17.0	N/A
-https://www.stackage.org/lts-20.4	N/A
+https://www.stackage.org/lts-17.0	indexed	2021-01-24
+https://www.stackage.org/lts-20.4	indexed	2022-12-10
 https://www.stackage.org/nightly-2025-03-24/package/io-region-0.1.1/deps	created	2025
-https://www.stackage.org/lts-7.8	N/A
+https://www.stackage.org/lts-7.8	indexed	2016-11-06
 https://www.stackage.org/nightly-2016-04-28	created	2016
-https://www.stackage.org/lts-24.40	N/A
-https://www.stackage.org/lts-10.0	N/A
+https://www.stackage.org/lts-24.40	indexed	2026-05-12
+https://www.stackage.org/lts-10.0	indexed	2017-12-19
 https://www.stackage.org/nightly-2024-07-03/package/HMock-0.5.1.2	created	2024
 https://www.stackage.org/nightly-2026-01-05/package/mockcat	created	2026
-https://www.stackage.org/lts-11.8	N/A
-https://www.stackage.org/lts-11.22/package/monad-recorder-0.1.1	N/A
-https://www.stackage.org/lts-19.2	N/A
-https://www.stackage.org/lts-13.2	N/A
-https://www.stackage.org/lts-9.10	N/A
-https://www.stackage.org/lts-17.6	N/A
+https://www.stackage.org/lts-11.8	indexed	2018-05-07
+https://www.stackage.org/lts-11.22/package/monad-recorder-0.1.1	indexed	2018-09-28
+https://www.stackage.org/lts-19.2	indexed	2022-04-03
+https://www.stackage.org/lts-13.2	indexed	2019-01-07
+https://www.stackage.org/lts-9.10	indexed	2017-10-21
+https://www.stackage.org/lts-17.6	indexed	2021-03-14
 https://www.cs.toronto.edu/~trebla/fp/lecture-01.pdf	N/A
 https://web.cecs.pdx.edu/~antoy/Courses/syllabi/FAL2020CS568.html	created	2020
 https://citeseerx.ist.psu.edu/document?doi=c16e86498447b046e6ea1444baed9be7eef7ec9c&repid=rep1&type=pdf	N/A
@@ -10771,7 +10771,7 @@ https://www.cse.chalmers.se/~rjmh/pubs.htm	N/A
 https://doi.org/10.1145/636517.636527	N/A
 https://academia-lab.com/enciclopedia/comprobacion-rapida/	N/A
 https://handwiki.org/wiki/Software%3AQuickCheck	publication	2026-02-15
-https://www.stackage.org/lts-10.10	N/A
+https://www.stackage.org/lts-10.10	indexed	2018-03-17
 https://ouroboros-network.cardano.intersectmbo.org/pdfs/network-design/network-design.pdf	N/A
 https://gist.github.com/TerrorJack/ef1f8b231660ea3523bb	N/A
 https://dokumen.pub/functional-and-logic-programming-15th-international-symposium-flops-2020-akita-japan-september-1416-2020-proceedings-1st-ed-9783030590246-9783030590253.html	created	2020
@@ -11400,7 +11400,7 @@ https://citeseerx.ist.psu.edu/document?doi=d7ed84aea89396e5361f699feb6b9e9506c92
 https://conf.researchr.org/profile/wouterswierstra	N/A
 https://paperswelove.org/papers/data-types-a-la-carte-564eb670/	N/A
 https://haskell-links.org/	N/A
-https://www.stackage.org/lts-3.22	N/A
+https://www.stackage.org/lts-3.22	indexed	2016-01-10
 https://mynixos.com/packages/haskellPackages/91	N/A
 https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora202.html	N/A
 https://www.studocu.com/en-gb/document/university-of-southampton/programming-iii/programming-iii-notes/37639822	N/A
@@ -11782,17 +11782,17 @@ https://downloads.haskell.org/~ghc/7.2.1/docs/html/users_guide/ghci.html	modifie
 https://downloads.haskell.org/ghc/8.8.1/docs/html/users_guide/ghci.html	modified	2019-08-25
 https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Monad-IO-Class.html	modified	2025-12-18
 https://downloads.haskell.org/~ghc/9.2.3/docs/html/libraries/base-4.16.2.0/src/Control.Monad.IO.Class.html	modified	2022-05-27
-https://www.stackage.org/lts-12.0/package/unliftio-0.2.7.0	N/A
-https://www.stackage.org/lts-17.15/package/unliftio-0.2.18	N/A
-https://www.stackage.org/lts-11.6/package/unliftio-0.2.6.0	N/A
-https://www.stackage.org/lts-18.6/package/unliftio-0.2.19	N/A
-https://www.stackage.org/lts-11.9/package/unliftio-0.2.7.0	N/A
+https://www.stackage.org/lts-12.0/package/unliftio-0.2.7.0	indexed	2026-07-27
+https://www.stackage.org/lts-17.15/package/unliftio-0.2.18	indexed	2026-07-27
+https://www.stackage.org/lts-11.6/package/unliftio-0.2.6.0	indexed	2026-07-27
+https://www.stackage.org/lts-18.6/package/unliftio-0.2.19	indexed	2026-07-27
+https://www.stackage.org/lts-11.9/package/unliftio-0.2.7.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2019-12-22/package/unliftio-0.2.12	created	2019
 https://www.stackage.org/nightly-2025-12-03/package/unliftio-0.2.25.1	created	2025
-https://www.stackage.org/lts-19.9/package/unliftio-core-0.2.0.1	N/A
-https://www.stackage.org/lts-20.24/package/unliftio-0.2.24.0	N/A
-https://www.stackage.org/lts-21.4/package/unliftio-0.2.25.0	N/A
-https://www.stackage.org/lts-17.0/package/unliftio-0.2.13.1	N/A
+https://www.stackage.org/lts-19.9/package/unliftio-core-0.2.0.1	indexed	2026-07-27
+https://www.stackage.org/lts-20.24/package/unliftio-0.2.24.0	indexed	2026-07-27
+https://www.stackage.org/lts-21.4/package/unliftio-0.2.25.0	indexed	2026-07-27
+https://www.stackage.org/lts-17.0/package/unliftio-0.2.13.1	indexed	2026-07-27
 https://www.chiark.greenend.org.uk/doc/hugs/users_guide/faq.html	N/A
 https://research-solution.com/uplode/books/book-48329.pdf	N/A
 https://www.scribd.com/document/111948816/Haskell-eBook-Reader	N/A
@@ -11902,7 +11902,7 @@ https://citeseerx.ist.psu.edu/document?doi=4cff498d7f1392e600b598600c93bb95a2e9a
 https://dblp.org/rec/conf/haskell/RussoCH08	published	2008
 https://www.alphaxiv.org/abs/1207.1457	publication	2012
 https://hackage.haskell.org/package/io-machine	N/A
-https://www.stackage.org/lts-14.16/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-14.16/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://hackage.haskell.org/package/oi-0.0.5	N/A
 https://citeseerx.ist.psu.edu/document?doi=3f917b2dd8e58b00b4011250d7d3164373f87a86&repid=rep1&type=pdf	N/A
 https://www.curry-lang.org/assets/files/tools/cass/cass_paper.pdf	N/A
@@ -13830,11 +13830,11 @@ https://gist.github.com/3163428	N/A
 https://gist.github.com/dtchepak/3163428	N/A
 https://gist.github.com/ardbytes/10446574	N/A
 https://www.stackage.org/nightly-2015-12-08/package/pure-io-0.2.1	created	2015
-https://www.stackage.org/lts-17.6/package/io-machine-0.2.0.0	N/A
-https://www.stackage.org/lts-20.4/package/io-manager-0.1.0.3	N/A
+https://www.stackage.org/lts-17.6/package/io-machine-0.2.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-20.4/package/io-manager-0.1.0.3	indexed	2026-07-27
 https://hackage.haskell.org/package/explicit-iomodes/docs/System-IO-ExplicitIOModes.html	created	2012-09-23
-https://www.stackage.org/lts-24.39/package/io-machine-0.2.0.0	N/A
-https://www.stackage.org/lts-18.21/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-24.39/package/io-machine-0.2.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-18.21/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2024-04-01/package/io-machine-0.2.0.0	created	2024
 https://www.stackage.org/nightly-2025-08-01/package/io-machine-0.2.0.0	created	2025
 https://github.com/YoshikuniJujo/io-machine#readme	updated	2016-04-08
@@ -13926,10 +13926,10 @@ https://github.com/milansegedinac/UvodUProgramiranje/blob/main/UvodUProgramiranj
 https://amslaurea.unibo.it/id/eprint/27900/1/borghi_luca_tesi.pdf	N/A
 https://www.oreilly.com/library/view/get-programming-with/9781617293764/kindle_split_033.html	N/A
 https://hackage.haskell.org/package/haste-compiler/docs/Haste-App.html	created	2017-09-08
-https://www.stackage.org/package/managed	N/A
+https://www.stackage.org/package/managed	indexed	2026-07-27
 https://stackoverflow.com/questions/23173971/in-haskell-how-do-i-promptly-close-resources	N/A
 https://stackoverflow.com/questions/36174670/catching-exceptions-in-monad-transformers	N/A
-https://www.stackage.org/lts-23.0/package/pipes-safe-2.3.5	N/A
+https://www.stackage.org/lts-23.0/package/pipes-safe-2.3.5	indexed	2026-07-27
 https://hackage.haskell.org/package/pipes-safe/docs	created	2023-11-04
 https://hackage.haskell.org/package/shell-conduit	N/A
 https://hackage.haskell.org/package/conduit/docs	created	2025-02-23
@@ -14266,8 +14266,8 @@ https://confengine.com/conferences/functional-conf-2025/proposal/21324/designing
 https://confengine.com/functional-conf-2018/proposal/6551	created	2018
 https://confengine.com/conferences/functional-conf-2022/proposal/16377/interpret-your-monads-concrete-monads-vs-monad-classes	created	2022
 https://confengine.com/conferences/functional-conf-2014/proposal/437/monads-you-already-use-without-knowing-it	created	2014
-https://www.stackage.org/lts-10.2/package/io-manager-0.1.0.2	N/A
-https://www.stackage.org/lts-6.30/package/pure-io-0.2.1	N/A
+https://www.stackage.org/lts-10.2/package/io-manager-0.1.0.2	indexed	2026-07-27
+https://www.stackage.org/lts-6.30/package/pure-io-0.2.1	indexed	2018-03-12
 https://www.stackage.org/nightly-2020-08-26/package/lazyio-0.1.0.4	created	2020
 https://hackage-content.haskell.org/package/CheatSheet-1.11/src/CheatSheet.pdf	N/A
 https://hackage-content.haskell.org/package/CheatSheet-1.7/src/CheatSheet.pdf	N/A
@@ -14276,8 +14276,8 @@ https://www.stackage.org/nightly-2024-12-15	created	2024
 https://www.stackage.org/nightly-2016-07-09	created	2016
 https://www.stackage.org/nightly-2019-07-04	created	2019
 https://www.stackage.org/nightly-2020-08-15	created	2020
-https://www.stackage.org/lts-24.9	N/A
-https://www.stackage.org/lts-10.2	N/A
+https://www.stackage.org/lts-24.9	indexed	2025-09-06
+https://www.stackage.org/lts-10.2	indexed	2017-12-31
 https://discourse.purescript.org/t/how-does-an-aff-monad-work/2637	publication	2021-10-13
 https://cooperpress.s3.amazonaws.com/Excerpt_FPJavaScript.pdf	N/A
 https://louisjenkinscs.github.io/presentations/OPL_Final_Project_Presentation.pdf	N/A
@@ -14452,7 +14452,7 @@ https://swift.libhunt.com/bow-changelog	N/A
 https://fluttertrends.dev/top/functional-programming/	N/A
 https://pub.dev/documentation/fpdart/latest/fpdart/writeIORef.html	N/A
 https://qiita.com/ysn/items/31789b29c7e73faf00f2	N/A
-https://www.stackage.org/lts-6.1/package/io-manager-0.1.0.2	N/A
+https://www.stackage.org/lts-6.1/package/io-manager-0.1.0.2	indexed	2026-07-27
 https://www.reddit.com/r/dartlang/comments/10mj43j	N/A
 https://www.reddit.com/r/reactjs/comments/19achw6	N/A
 https://hackage.haskell.org/package/easy-logger	N/A
@@ -14995,9 +14995,9 @@ https://downloads.haskell.org/ghc/7.10.2/docs/html/libraries/transformers-0.4.2.
 https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/transformers-0.4.2.0/Control-Monad-IO-Class.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/7.10.3/docs/html/libraries/transformers-0.4.2.0/src/Control-Monad-IO-Class.html	modified	2019-02-15
 https://www.stackage.org/lts-20.10/docs	N/A
-https://www.stackage.org/lts-22.4/package/base-4.18.1.0	N/A
-https://www.stackage.org/lts-20.25/package/base-4.16.4.0	N/A
-https://www.stackage.org/lts-22.35/package/monad-control-1.0.3.1	N/A
+https://www.stackage.org/lts-22.4/package/base-4.18.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-20.25/package/base-4.16.4.0	indexed	2026-07-27
+https://www.stackage.org/lts-22.35/package/monad-control-1.0.3.1	indexed	2026-07-27
 https://www.stackage.org/lts-24.42/docs	N/A
 https://books.google.com/books/about/Beginning_Haskell.html?id=IZsQAwAAQBAJ	N/A
 https://hackage.haskell.org/package/base-4.9.1.0/docs/src/Control.Monad.IO.Class.html	created	2017-01-14
@@ -15038,7 +15038,7 @@ https://hackage-content.haskell.org/package/monadIO/docs/src/Control.Concurrent.
 https://hackage-content.haskell.org/package/monadIO/docs/src/Control.Concurrent.STM.MonadIO.html	N/A
 https://hackage.haskell.org/package/preamble/docs/Preamble.html	created	2018-10-11
 https://www.stackage.org/package/monadIO	N/A
-https://www.stackage.org/package/transformers-base	N/A
+https://www.stackage.org/package/transformers-base	indexed	2026-07-27
 https://hackage-content.haskell.org/package/base-4.9.1.0/docs/src/GHC.IO.html	N/A
 https://hackage-content.haskell.org/package/base-4.10.1.0/docs/src/GHC.IO.html	N/A
 https://hackage-content.haskell.org/package/base-4.11.1.0/docs/src/GHC.IO.html	N/A
@@ -25730,7 +25730,7 @@ https://packages.debian.org/sid/source/haskell-safe-exceptions	N/A
 https://gitlab.haskell.org/ghc/ghc/-/issues/18899	N/A
 https://discourse.haskell.org/t/multitasking-a-new-concurrency-library/12409	publication	2025-07-03
 https://archlinux.org/packages/extra/x86_64/haskell-safe-exceptions/	N/A
-https://www.stackage.org/lts-7.16/package/safe-exceptions-0.1.4.0	N/A
+https://www.stackage.org/lts-7.16/package/safe-exceptions-0.1.4.0	indexed	2026-07-27
 https://hackage.haskell.org/package/ki-effectful	N/A
 https://context7.com/awkward-squad/ki	N/A
 https://www.reddit.com/r/haskell/comments/jsamsl	N/A
@@ -25950,7 +25950,7 @@ https://github.com/k0001/network-simple-tls	updated	2023-03-26
 https://haskell-distributed.github.io/wiki/networktransport.html	N/A
 https://packages.gentoo.org/packages/dev-haskell/network	N/A
 https://www.reddit.com/r/haskell/comments/4si5fn/networksocket_example_of_a_supersimple_server/	N/A
-https://www.stackage.org/package/network-simple	N/A
+https://www.stackage.org/package/network-simple	indexed	2026-07-27
 https://www.youtube.com/watch?v=_xaupVx68Fs	N/A
 https://www.youtube.com/watch?v=2-OImnbOloQ	N/A
 https://www.youtube.com/watch?v=4lxAgm4y1gg	N/A
@@ -26051,7 +26051,7 @@ https://hackage.haskell.org/package/streaming-0.1.0.5/docs/Streaming-Internal.ht
 https://hal.archives-ouvertes.fr/hal-02368138	N/A
 https://hal.archives-ouvertes.fr/hal-02368138/document	N/A
 https://hal.archives-ouvertes.fr/hal-02368138/file/full.pdf	N/A
-https://www.stackage.org/package/streaming	N/A
+https://www.stackage.org/package/streaming	indexed	2026-07-27
 https://arxiv.org/pdf/2008.09253	created	2008
 https://export.arxiv.org/abs/2008.09253	created	2008
 https://export.arxiv.org/abs/2008.12751	created	2008
@@ -27173,27 +27173,27 @@ https://hackage.haskell.org/package/monad-control/docs/doc-index.html	created	20
 https://hackage.haskell.org/package/primitive/docs	created	2025-03-31
 https://hackage.haskell.org/package/unliftio-core-0.2.1.0/changelog	created	2023-02-06
 https://hackage.haskell.org/package/mtl/docs	created	2025-12-08
-https://www.stackage.org/lts-16.31/package/unliftio-0.2.13.1	N/A
-https://www.stackage.org/lts-24.17/package/unliftio-core-0.2.1.0	N/A
+https://www.stackage.org/lts-16.31/package/unliftio-0.2.13.1	indexed	2026-07-27
+https://www.stackage.org/lts-24.17/package/unliftio-core-0.2.1.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2017-07-25/package/unliftio-0.1.0.0	created	2017
 https://www.stackage.org/nightly-2019-12-22/package/unliftio-core-0.1.2.0	created	2019
 https://www.stackage.org/nightly-2022-06-22/package/unliftio-core-0.2.0.1	created	2022
 https://www.stackage.org/nightly-2024-11-04/package/unliftio-0.2.25.0	created	2024
 https://www.stackage.org/nightly-2025-01-06/package/unliftio-core-0.2.1.0	created	2025
-https://www.stackage.org/lts-10.3/package/safe-exceptions-0.1.6.0	N/A
-https://www.stackage.org/lts-13.28/package/monad-control-1.0.2.3	N/A
-https://www.stackage.org/lts-18.8/package/monad-control-1.0.3.1	N/A
-https://www.stackage.org/lts-19.9/package/safe-exceptions-0.1.7.3	N/A
-https://www.stackage.org/lts-7.19/package/monad-control-1.0.1.0	N/A
-https://www.stackage.org/package/exceptions	N/A
-https://www.stackage.org/package/monad-control-identity	N/A
+https://www.stackage.org/lts-10.3/package/safe-exceptions-0.1.6.0	indexed	2026-07-27
+https://www.stackage.org/lts-13.28/package/monad-control-1.0.2.3	indexed	2026-07-27
+https://www.stackage.org/lts-18.8/package/monad-control-1.0.3.1	indexed	2026-07-27
+https://www.stackage.org/lts-19.9/package/safe-exceptions-0.1.7.3	indexed	2026-07-27
+https://www.stackage.org/lts-7.19/package/monad-control-1.0.1.0	indexed	2026-07-27
+https://www.stackage.org/package/exceptions	indexed	2026-07-27
+https://www.stackage.org/package/monad-control-identity	indexed	2026-07-27
 https://hackage.haskell.org/package/CheatSheet-2.9/src/CheatSheet.pdf	created	2013-07-22
 https://www.stackage.org/nightly-2025-07-31/package/primitive-0.9.1.0	created	2025
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/haskell98-2.0.0.3/Monad.html	modified	2019-02-15
 https://hackage.haskell.org/package/io-region	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-io-choice/	N/A
 https://www.mail-archive.com/debian-bugs-dist%40lists.debian.org/msg1775394.html	N/A
-https://www.stackage.org/lts-6.1/package/io-region-0.1.1	N/A
+https://www.stackage.org/lts-6.1/package/io-region-0.1.1	indexed	2026-07-27
 https://www.stackage.org/nightly-2023-03-30/package/io-machine-0.2.0.0/deps	created	2023
 https://hackage.haskell.org/package/CheatSheet-1.11/src/CheatSheet.pdf	created	2009-05-12
 https://packagehub.suse.com/packages/ghc-io-manager/	N/A
@@ -27355,7 +27355,7 @@ https://github.com/input-output-hk/fs-sim/issues	updated	2026-05-18
 https://github.com/input-output-hk/io-sim/issues	updated	2026-06-30
 https://hackage.haskell.org/package/registry/docs	created	2025-10-08
 https://hackage.haskell.org/package/resource-simple/docs	created	2012-03-02
-https://www.stackage.org/package/dejafu	N/A
+https://www.stackage.org/package/dejafu	indexed	2026-07-27
 https://github.com/HeinrichApfelmus/operational/tree/master/doc/examples#readme	updated	2023-12-29
 https://www.reddit.com/r/haskell/comments/bzcj7w	N/A
 https://github.com/AliasQli/dialogue/issues	updated	2022-02-13
@@ -27426,7 +27426,7 @@ https://uuinfofp.github.io/slides/fp-09-io.pdf	N/A
 https://www.reddit.com/r/haskell/comments/byy4wh	N/A
 https://www.reddit.com/r/haskell/comments/nxdf0t	N/A
 https://www.scs.stanford.edu/16wi-cs240h/slides/turtles.html	N/A
-https://www.stackage.org/package/typed-process	N/A
+https://www.stackage.org/package/typed-process	indexed	2026-07-27
 https://packages.debian.org/bookworm/source/haskell-typed-process	N/A
 https://packages.debian.org/unstable/haskell/libghc-typed-process-dev	N/A
 https://hackage.haskell.org/package/persistent-mtl	N/A
@@ -27492,7 +27492,7 @@ https://stackoverflow.com/questions/6310961/how-do-i-do-logging-in-haskell	N/A
 https://well-typed.com/blog/2019/09/eventful-ghc/	created	2019
 https://www.reddit.com/r/haskell/comments/4gdskm/announcement_monadlog_a_simple_and_fast_logging	N/A
 https://www.stackage.org/nightly-2016-07-09/package/monad-logger-0.3.19	created	2016
-https://www.stackage.org/package/katip	N/A
+https://www.stackage.org/package/katip	indexed	2026-07-27
 https://hackage.haskell.org/package/logger	N/A
 https://hackage.haskell.org/package/logging-effect-1.4.2	N/A
 https://hackage.haskell.org/package/monad-effect-logging	N/A
@@ -27500,7 +27500,7 @@ https://hackage.haskell.org/package/monad-logger-0.3.26/docs/Control-Monad-Logge
 https://hackage-content.haskell.org/package/log-base-0.12.1.0/docs/Log-Monad.html	N/A
 https://www.reddit.com/r/haskell/comments/xarkrx	N/A
 https://www.reddit.com/r/haskell/comments/ycohkg	N/A
-https://www.stackage.org/package/logging-effect	N/A
+https://www.stackage.org/package/logging-effect	indexed	2026-07-27
 https://hackage.haskell.org/package/hpio/docs/System-GPIO-Tutorial.html	created	2019-01-04
 https://www.reddit.com/r/haskellquestions/comments/1uk953q/after_3_years_of_stopstart_attempts_this_framing/	N/A
 https://hackage.haskell.org/package/HPi/docs/System-RaspberryPi-GPIO.html	created	2024-04-13
@@ -27527,7 +27527,7 @@ https://oathompsonjones.github.io/A-Graphical-Playground-for-Haskell/main.pdf	N/
 https://packages.debian.org/source/sid/misc/haskell-control-monad-loop	N/A
 https://www.reddit.com/r/haskell/comments/dee0iz	N/A
 https://www.reddit.com/r/haskell/comments/luqhiu	N/A
-https://www.stackage.org/package/monad-loops	N/A
+https://www.stackage.org/package/monad-loops	indexed	2026-07-27
 https://hackage.haskell.org/package/OpenGL/docs	created	2019-05-06
 https://hackage.haskell.org/package/opengles/docs/Graphics-EGL.html	created	2016-03-11
 https://hackage.haskell.org/package/opengles-0.6.0/docs/Graphics-OpenGLES-Env.html	created	2014-10-22
@@ -27600,7 +27600,7 @@ https://www.reddit.com/r/haskell/comments/j54dob/crossplatform_terminal_and_clip
 https://www.reddit.com/r/haskell/comments/uzx9dx	N/A
 https://www.reddit.com/r/haskell/comments/yxlq8s	N/A
 https://www.reddit.com/r/haskellquestions/comments/er562k	N/A
-https://www.stackage.org/package/ansi-terminal	N/A
+https://www.stackage.org/package/ansi-terminal	indexed	2026-07-27
 https://hackage.haskell.org/package/mmap/docs/System-IO-MMap.html	created	2013-09-05
 https://hackage.haskell.org/package/temporary/docs/System-IO-Temp.html	created	2018-04-10
 https://www.reddit.com/r/haskell/comments/16e34mw	N/A
@@ -28557,7 +28557,7 @@ https://git.io/qpl-bib	N/A
 https://nikivazou.github.io/static/lweb-popl2019.pdf	created	2019
 https://packages.ubuntu.com/hu/source/noble/i386/haskell-iospec	N/A
 https://www.nzdr.ru/data/media/biblio/kolxoz/Cs/CsLn/A/Algebraic%20Methodology%20and%20Software%20Technology%2C%208%20conf.%2C%20AMAST%202000%28LNCS1816%2C%20Springer%2C%202000%29%28ISBN%203540675302%29%28555s%29.pdf	N/A
-https://www.stackage.org/lts-17.2	N/A
+https://www.stackage.org/lts-17.2	indexed	2021-02-06
 https://www.educative.io/courses/functional-programming-haskell/more-io-functions	N/A
 https://citeseerx.ist.psu.edu/document?doi=3a84dc46d1a0918c3c47d92bebc62d856137e065&repid=rep1&type=pdf	N/A
 https://blogs.intevation.de/wilde/haskell/monads/	N/A
@@ -28750,7 +28750,7 @@ https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad	publi
 https://github-wiki-see.page/m/cardano-scaling/hydra/wiki/Logbook-2021-H1	created	2021
 https://haskellweekly.news/issue/307.html	N/A
 https://leios.cardano-scaling.org/leios-design.pdf	N/A
-https://www.stackage.org/lts-11.9/package/test-fixture-0.5.1.0	N/A
+https://www.stackage.org/lts-11.9/package/test-fixture-0.5.1.0	indexed	2018-03-12
 https://discourse.haskell.org/t/the-haskell-unfolder-episode-34-you-already-understand-monads/10545	publication	2024-10-16
 https://www.youtube.com/watch?index=34&list=PLD8gywOEY4HaG5VSrKVnHxCptlJv2GAn7&v=n5ZtsHrYWq0	N/A
 https://www.well-typed.com/blog/2024/10/18-months-of-unfolder/	created	2024
@@ -28827,7 +28827,7 @@ https://www.researchgate.net/publication/351352005_Algebraic_Specification_for_I
 https://arxiv.org/abs/2404.16321	created	2024-04
 https://kar.kent.ac.uk/id/document/53983	N/A
 https://www.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Exercise.html	created	2008
-https://www.stackage.org/lts-7.19/package/pure-io-0.2.1	N/A
+https://www.stackage.org/lts-7.19/package/pure-io-0.2.1	indexed	2018-03-12
 https://en.wikibooks.org/wiki/Haskell/Category:Input_and_output	N/A
 https://en.wikibooks.org/wiki/Haskell/Control_structures	N/A
 https://research.microsoft.com/en-us/um/people/simonpj/papers/marktoberdorf/	N/A
@@ -28843,11 +28843,11 @@ https://hackage.haskell.org/package/quickcheck-state-machine-0.10.3	N/A
 https://research.chalmers.se/publication/231133	publication	2015
 https://www.clean.cs.ru.nl/Publications	N/A
 https://hackage.haskell.org/package/mockcat-1.4.0.0	N/A
-https://www.stackage.org/lts-10.0/package/quickcheck-state-machine-0.3.0	N/A
-https://www.stackage.org/lts-13.2/package/quickcheck-state-machine-0.4.3	N/A
-https://www.stackage.org/lts-20.18/package/quickcheck-state-machine-0.7.1	N/A
-https://www.stackage.org/lts-20.21/package/quickcheck-state-machine-0.7.2	N/A
-https://www.stackage.org/lts-20.7/package/quickcheck-state-machine-0.7.1	N/A
+https://www.stackage.org/lts-10.0/package/quickcheck-state-machine-0.3.0	indexed	2025-07-14
+https://www.stackage.org/lts-13.2/package/quickcheck-state-machine-0.4.3	indexed	2025-07-14
+https://www.stackage.org/lts-20.18/package/quickcheck-state-machine-0.7.1	indexed	2025-07-14
+https://www.stackage.org/lts-20.21/package/quickcheck-state-machine-0.7.2	indexed	2025-07-14
+https://www.stackage.org/lts-20.7/package/quickcheck-state-machine-0.7.1	indexed	2025-07-14
 https://www.stackage.org/nightly-2018-09-18/package/quickcheck-state-machine-0.4.2	created	2018
 https://www.stackage.org/nightly-2023-02-13/package/quickcheck-state-machine-0.7.1	created	2023
 https://www.stackage.org/nightly-2023-10-19/package/quickcheck-state-machine-0.7.3	created	2023
@@ -28927,7 +28927,7 @@ https://github.com/pujoheadsoft/mockcat	N/A
 https://hackage.haskell.org/package/pdf-toolbox-document-0.0.4.0/docs/Pdf-Toolbox-Document-Pdf.html	N/A
 https://research.chalmers.se/en/publication/231133	publication	2015
 https://www.archlinux.de/packages/extra/x86_64/haskell-quickcheck-io	N/A
-https://www.stackage.org/package/mockcat	N/A
+https://www.stackage.org/package/mockcat	indexed	2026-07-27
 https://riptutorial.com/ebook/haskell	N/A
 https://archives.lib.ku.edu/repositories/3/archival_objects/16032	N/A
 https://hackage.haskell.org/package/io-classes-1.2.0.0/changelog	N/A
@@ -29038,10 +29038,10 @@ https://maxsnew.com/docs/moggi91.pdf	N/A
 https://person.dibris.unige.it/moggi-eugenio/ftp/catia02-slides.pdf	N/A
 https://videohighlight.com/v/IBB7JpbClo	N/A
 https://github.com/blamario/SCC.wiki/	N/A
-https://www.stackage.org/package/http-io-streams	N/A
-https://www.stackage.org/package/monad-bayes	N/A
-https://www.stackage.org/lts-22.4	N/A
-https://www.stackage.org/lts-7.3/package/transformers-0.5.2.0	N/A
+https://www.stackage.org/package/http-io-streams	indexed	2026-07-27
+https://www.stackage.org/package/monad-bayes	indexed	2024-12-09
+https://www.stackage.org/lts-22.4	indexed	2023-12-29
+https://www.stackage.org/lts-7.3/package/transformers-0.5.2.0	indexed	2026-07-27
 https://hackage.haskell.org/package/CheatSheet-1.7/src/CheatSheet.pdf	N/A
 https://hackage.haskell.org/package/prometheus	N/A
 https://fileserver-az.core.ac.uk/download/145142513.pdf	N/A
@@ -29049,10 +29049,10 @@ https://hackage.haskell.org/package/can-i-haz/docs/Control-Monad-Except-CoHas.ht
 https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs	N/A
 https://hackage.haskell.org/package/unliftio-core-0.2.1.0/docs/doc-index.html	N/A
 https://hackage.haskell.org/package/unliftio-streams-0.1.1.0	N/A
-https://www.stackage.org/lts-12.0/package/monad-peel-0.2.1.2	N/A
-https://www.stackage.org/lts-20.4/package/monad-peel-0.2.1.2	N/A
-https://www.stackage.org/lts-22.6/package/monad-peel-0.3	N/A
-https://www.stackage.org/lts-3.0/package/monad-peel-0.2	N/A
+https://www.stackage.org/lts-12.0/package/monad-peel-0.2.1.2	indexed	2026-07-27
+https://www.stackage.org/lts-20.4/package/monad-peel-0.2.1.2	indexed	2026-07-27
+https://www.stackage.org/lts-22.6/package/monad-peel-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-3.0/package/monad-peel-0.2	indexed	2026-07-27
 https://www.stackage.org/nightly-2021-11-15/package/monad-peel-0.2.1.2	created	2021
 https://www.stackage.org/nightly-2026-05-06/package/monad-peel-0.3	created	2026
 https://www.cseweb.ucsd.edu/classes/wi12/cse230-a/lectures/monads.html	N/A
@@ -29069,7 +29069,7 @@ https://downloads.haskell.org/~ghc/7.6.3/docs/html/libraries/ghc-7.6.3/IOEnv.htm
 https://eurekamag.com/research/104/856/104856751.php	N/A
 https://hackage.haskell.org/package/GHC-IO.html	N/A
 https://www.cs.tufts.edu/comp/150GIT/archive/iago-abal/mfes_darcs.pdf	N/A
-https://www.stackage.org/package/fused-effects	N/A
+https://www.stackage.org/package/fused-effects	indexed	2026-07-27
 https://dblp.dagstuhl.de/rec/conf/lics/Moggi89.html	published	1989
 https://era.ed.ac.uk/handle/1842/396?show=full	publication	1996-07
 https://haskell.hmc.edu/~adavidso/monads.pdf	N/A
@@ -29157,7 +29157,7 @@ https://www.sciencedirect.com/science/article/pii/S1571066106001721	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-quickcheck-io/files/	N/A
 https://packages.debian.org/sid/source/haskell-quickcheck-io	N/A
 https://www.rpmfind.net/linux/RPM/fedora/devel/rawhide/aarch64/g/ghc-quickcheck-io-doc-0.2.0-41.fc44.noarch.html	N/A
-https://www.stackage.org/lts-15.4/package/quickcheck-io-0.2.0	N/A
+https://www.stackage.org/lts-15.4/package/quickcheck-io-0.2.0	indexed	2026-07-27
 https://justinhsu.net/teaching/s20/cs538/resources/slides/lecture12.pdf	N/A
 https://hackage-content-origin.haskell.org/packages/search	N/A
 https://futurelearn.com/info/courses/functional-programming-haskell/0/steps/27205	N/A
@@ -29268,9 +29268,9 @@ https://simon.peytonjones.org/slpj-book-1987/	created	1987
 https://simon.peytonjones.org/assets/pdfs/slpj-book-1987-searchable.pdf	created	1987
 https://mailman.haskell.org/archives/list/beginners%40haskell.org/message/RLB2VOR2NKUD4PAHLOA57BYZHUVTYRWF/	N/A
 https://hoogle.haskell.org/?q=IO+String+-%3E+String&start=75	N/A
-https://www.stackage.org/package/easy-logger	N/A
+https://www.stackage.org/package/easy-logger	indexed	2026-07-27
 https://www.stackage.org/lts-24.42/hoogle?page=6&q=liftIO	N/A
-https://www.stackage.org/lts-6.1/package/io-storage-0.3	N/A
+https://www.stackage.org/lts-6.1/package/io-storage-0.3	indexed	2026-07-27
 https://downloads.haskell.org/~ghc/6.2/docs/html/hslibs/sec-ioexts.html	modified	2019-02-15
 https://cs.pomona.edu/~kim/CSC181S16/Lectures/Lecture7/Lecture7.pdf	N/A
 https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-System-IO.html	modified	2025-12-18
@@ -29294,7 +29294,7 @@ https://sgeos.github.io/programming-languages/theory/history/2026/04/02/the_1990
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/D59AB616739BEEF223327F3E4B7D762B	N/A
 https://hackage-content-origin.haskell.org/package/quickcheck-dynamic-4.0.0/candidate	N/A
 https://www.haskell.org/hugs/pages/libraries/QuickCheck/Test-QuickCheck.html	N/A
-https://www.stackage.org/package/quickcheck-io	N/A
+https://www.stackage.org/package/quickcheck-io	indexed	2026-07-27
 https://www.sciencedirect.com/science/article/pii/S0304397596001697	N/A
 https://hackage.haskell.org/packages/browse	N/A
 https://hackage.haskell.org/package/monad-io-adapter-0.1.0.0/docs	N/A
@@ -29322,29 +29322,29 @@ https://hackage-content.haskell.org/package/effectful-core-2.3.1.0/docs/src/Effe
 https://hackage-content.haskell.org/package/effectful-core-2.6.1.0/docs/Effectful-Exception.html	N/A
 https://hackage.haskell.org/package/monad-control-1.0.3.1/changelog	N/A
 https://hackage-content.haskell.org/package/manatee-pdfviewer-0.1.0/src/data/welcome/LearnYouAHaskell.pdf	N/A
-https://www.stackage.org/package	N/A
-https://www.stackage.org/lts-22.35/package/monadology-0.3	N/A
-https://www.stackage.org/lts-6.30/package/monad-unlift-0.2.0	N/A
+https://www.stackage.org/package	indexed	2026-07-27
+https://www.stackage.org/lts-22.35/package/monadology-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-6.30/package/monad-unlift-0.2.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2015-11-27/package/monad-unlift-0.1.1.0	created	2015
-https://www.stackage.org/lts-17.6/package/monad-unlift-ref-0.2.1	N/A
-https://www.stackage.org/lts-17.15/package/monad-unlift-0.2.0	N/A
-https://www.stackage.org/lts-3.0/package/lifted-base-0.2.3.6	N/A
-https://www.stackage.org/lts-10.2/package/lifted-base-0.2.3.11	N/A
-https://www.stackage.org/lts-7.19/package/monad-unlift-ref-0.2.0	N/A
-https://www.stackage.org/lts-9.0/package/lifted-base-0.2.3.11	N/A
-https://www.stackage.org/lts-22.11/package/lifted-base-0.2.3.12	N/A
-https://www.stackage.org/lts-17.2/package/lifted-base-0.2.3.12	N/A
-https://www.stackage.org/lts-5.11/package/monad-stm-0.1.0.2	N/A
-https://www.stackage.org/lts-3.11/package/monad-stm-0.1.0.2	N/A
-https://www.stackage.org/lts-17.6/package/exceptions-0.10.4	N/A
-https://www.stackage.org/lts-24.3/package/exceptions	N/A
-https://www.stackage.org/lts-15.4/package/exceptions-0.10.4	N/A
-https://www.stackage.org/lts-20.4/package/exceptions-0.10.4	N/A
-https://www.stackage.org/lts-17.4/package/exceptions-0.10.4	N/A
-https://www.stackage.org/lts-23.13/package/exceptions-0.10.7	N/A
-https://www.stackage.org/lts-10.2/package/exceptions-0.8.3	N/A
-https://www.stackage.org/lts-6.30/package/exceptions-0.8.3	N/A
-https://www.stackage.org/lts-21.7/package/exceptions-0.10.5	N/A
+https://www.stackage.org/lts-17.6/package/monad-unlift-ref-0.2.1	indexed	2026-07-27
+https://www.stackage.org/lts-17.15/package/monad-unlift-0.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-3.0/package/lifted-base-0.2.3.6	indexed	2026-07-27
+https://www.stackage.org/lts-10.2/package/lifted-base-0.2.3.11	indexed	2026-07-27
+https://www.stackage.org/lts-7.19/package/monad-unlift-ref-0.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-9.0/package/lifted-base-0.2.3.11	indexed	2026-07-27
+https://www.stackage.org/lts-22.11/package/lifted-base-0.2.3.12	indexed	2026-07-27
+https://www.stackage.org/lts-17.2/package/lifted-base-0.2.3.12	indexed	2026-07-27
+https://www.stackage.org/lts-5.11/package/monad-stm-0.1.0.2	indexed	2016-02-29
+https://www.stackage.org/lts-3.11/package/monad-stm-0.1.0.2	indexed	2016-02-29
+https://www.stackage.org/lts-17.6/package/exceptions-0.10.4	indexed	2026-07-27
+https://www.stackage.org/lts-24.3/package/exceptions	indexed	2026-07-27
+https://www.stackage.org/lts-15.4/package/exceptions-0.10.4	indexed	2026-07-27
+https://www.stackage.org/lts-20.4/package/exceptions-0.10.4	indexed	2026-07-27
+https://www.stackage.org/lts-17.4/package/exceptions-0.10.4	indexed	2026-07-27
+https://www.stackage.org/lts-23.13/package/exceptions-0.10.7	indexed	2026-07-27
+https://www.stackage.org/lts-10.2/package/exceptions-0.8.3	indexed	2026-07-27
+https://www.stackage.org/lts-6.30/package/exceptions-0.8.3	indexed	2026-07-27
+https://www.stackage.org/lts-21.7/package/exceptions-0.10.5	indexed	2026-07-27
 https://haskell.foundation/podcast/70/	N/A
 https://arxiv.org/abs/1805.05126	created	2018-05
 https://anyflip.com/anjn/nmbp/basic	N/A
@@ -29426,21 +29426,21 @@ https://citeseerx.ist.psu.edu/document?doi=88fd62ef47141d3f31f38df8dfb9de59bb848
 https://hackage-content.haskell.org/package/base-4.22.0.0/docs/Control-Monad-ST-Lazy.html	N/A
 https://hackage-content.haskell.org/package/ghc-internal-9.1002.0/docs/GHC-Internal-Control-Exception-Base.html	N/A
 https://hackage-content.haskell.org/package/base-4.9.0.0/docs/Debug-Trace.html	N/A
-https://www.stackage.org/lts-10.3	N/A
-https://www.stackage.org/lts-17.7	N/A
-https://www.stackage.org/lts-17.15/package/io-storage-0.3	N/A
-https://www.stackage.org/lts-8.0	N/A
-https://www.stackage.org/lts-19.11	N/A
-https://www.stackage.org/lts-13.11	N/A
-https://www.stackage.org/lts-1.0	N/A
-https://www.stackage.org/lts-6.35/package/io-streams-1.3.6.1	N/A
-https://www.stackage.org/lts-17.0/package/io-streams-1.5.2.0	N/A
-https://www.stackage.org/lts-9.0/package/io-streams-1.4.0.0	N/A
-https://www.stackage.org/lts-19.19/package/io-streams-1.5.2.1	N/A
-https://www.stackage.org/lts-15.0/package/io-streams-1.5.1.0	N/A
-https://www.stackage.org/lts-23.0/package/io-streams-1.5.2.2	N/A
-https://www.stackage.org/lts-18.21/package/io-streams-1.5.2.1	N/A
-https://www.stackage.org/lts-6.1/package/io-memoize-1.1.1.0	N/A
+https://www.stackage.org/lts-10.3	indexed	2018-01-07
+https://www.stackage.org/lts-17.7	indexed	2021-03-20
+https://www.stackage.org/lts-17.15/package/io-storage-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-8.0	indexed	2017-02-12
+https://www.stackage.org/lts-19.11	indexed	2022-06-11
+https://www.stackage.org/lts-13.11	indexed	2019-03-08
+https://www.stackage.org/lts-1.0	indexed	2015-01-01
+https://www.stackage.org/lts-6.35/package/io-streams-1.3.6.1	indexed	2026-07-27
+https://www.stackage.org/lts-17.0/package/io-streams-1.5.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-9.0/package/io-streams-1.4.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-19.19/package/io-streams-1.5.2.1	indexed	2026-07-27
+https://www.stackage.org/lts-15.0/package/io-streams-1.5.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.0/package/io-streams-1.5.2.2	indexed	2026-07-27
+https://www.stackage.org/lts-18.21/package/io-streams-1.5.2.1	indexed	2026-07-27
+https://www.stackage.org/lts-6.1/package/io-memoize-1.1.1.0	indexed	2026-07-27
 https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Monad.html	N/A
 https://hackage.haskell.org/package/base-4.9.0.0/docs/Control-Monad.html	N/A
 https://hackage-content-origin.haskell.org/package/base-4.19.1.0	N/A
@@ -29477,7 +29477,7 @@ https://citeseerx.ist.psu.edu/document?doi=249b6aebf290be142b8e1476c09a9e36b4ba8
 https://www.haskell.org/pipermail/haskell-cafe/2007-May/025120.html	created	2007
 https://shipthatcode.com/courses/haskell-intermediate/lessons/io-monad	N/A
 https://staff.fnwi.uva.nl/d.j.n.vaneijck2/courses/14/fsa/lectures/FSA4.pdf	N/A
-https://www.stackage.org/package/data-effects-core	N/A
+https://www.stackage.org/package/data-effects-core	indexed	2026-07-27
 https://www.stackage.org/nightly-2025-07-01/package/io-manager-0.1.0.4	created	2025
 https://sambuz.com/doc/10-21-08-pdf-document-968231	N/A
 https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=ekeC-qlijAk	N/A
@@ -29490,7 +29490,7 @@ https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=-0NHkV3k
 https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=yoNYulGvMns	N/A
 https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=IYYu54iJY0o	N/A
 https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=e29BRfuiwnk	N/A
-https://www.stackage.org/package/path-io	N/A
+https://www.stackage.org/package/path-io	indexed	2026-07-27
 https://hackage.haskell.org/package/packages/	N/A
 https://packages.debian.org/bookworm/amd64/haskell/	N/A
 https://wiki.nixos.org/wiki/Haskell	N/A
@@ -29511,7 +29511,7 @@ https://hackage.haskell.org/package/monad-parallel/0.8.0.1/monad-parallel-0.8.0.
 https://hackage.haskell.org/package/transformers/0.5.0.1/transformers-0.5.0.1.tar.gz	created	2026-01-12
 https://hackage.haskell.org/package/unliftio-core/0.2.1.0/unliftio-core-0.2.1.0.tar.gz	created	2023-02-06
 https://hackage.haskell.org/package/MonadRandom/docs/src	created	2026-01-20
-https://www.stackage.org/package/template-haskell	N/A
+https://www.stackage.org/package/template-haskell	indexed	2026-07-27
 https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control	N/A
 https://sources.debian.org/src/haskell-monad-loops/	N/A
 https://tracker.debian.org/pkg/haskell-path-io	N/A
@@ -29534,21 +29534,21 @@ https://downloads.haskell.org/~ghc/6.10.2/docs/html/libraries/base/System-IO.htm
 https://downloads.haskell.org/~ghc/latest/docs/	modified	2025-12-18
 https://hackage.haskell.org/package/io-sim/docs	created	2026-04-15
 https://downloads.haskell.org/ghc/9.14.1/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-System-IO.html	modified	2025-12-18
-https://www.stackage.org/package/base	N/A
+https://www.stackage.org/package/base	indexed	2026-07-27
 https://hackage.haskell.org/package/base-4.14.0.0	N/A
 https://www.stackage.org/package/io-sim	N/A
 https://kar.kent.ac.uk/21470/	N/A
 https://doi.org/10.1145/299359.299390	N/A
 https://kar.kent.ac.uk/21470/1/IO_Considered_Harmful.pdf	N/A
 https://bluej.org/doc/publications.html	N/A
-https://www.stackage.org/lts-12.26	N/A
-https://www.stackage.org/lts-13.28	N/A
-https://www.stackage.org/lts-14.20	N/A
-https://www.stackage.org/lts-15.4	N/A
-https://www.stackage.org/lts-18.21	N/A
-https://www.stackage.org/lts-21.25	N/A
-https://www.stackage.org/lts-23.24	N/A
-https://www.stackage.org/lts-24.12	N/A
+https://www.stackage.org/lts-12.26	indexed	2018-12-30
+https://www.stackage.org/lts-13.28	indexed	2019-07-13
+https://www.stackage.org/lts-14.20	indexed	2020-01-04
+https://www.stackage.org/lts-15.4	indexed	2020-03-15
+https://www.stackage.org/lts-18.21	indexed	2022-01-03
+https://www.stackage.org/lts-21.25	indexed	2023-12-16
+https://www.stackage.org/lts-23.24	indexed	2025-05-25
+https://www.stackage.org/lts-24.12	indexed	2025-09-22
 https://www.stackage.org/nightly-2026-06-09/package/monad-peel-0.3	created	2026
 https://mynixos.com/haskellPackages.io-classes	N/A
 https://haskell.org/tutorial/monads.html	N/A
@@ -29573,7 +29573,7 @@ https://igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.22-docs-offline/hacka
 https://downloads.haskell.org/~ghc/9.0.1/docs/html/libraries/template-haskell-2.17.0.0/src/Language-Haskell-TH-Syntax.html	modified	2021-02-04
 https://downloads.haskell.org/ghc/6.8.2/docs/html/libraries/base/src/	N/A
 https://www.youtube.com/watch?v=n5ZtsHrYWq0	N/A
-https://www.stackage.org/lts-10.2/package/monad-skeleton-0.1.5	N/A
+https://www.stackage.org/lts-10.2/package/monad-skeleton-0.1.5	indexed	2022-11-17
 https://hackage.haskell.org/package/monad-skeleton	N/A
 https://hackage.haskell.org/package/monad-skeleton-0.1.5/docs	N/A
 https://hackage.haskell.org/package/monad-skeleton-0.1.5/src/Control/Monad/Skeleton.hs	N/A
@@ -29611,10 +29611,10 @@ https://arxiv.org/abs/0809.1552	created	2008-09
 https://hackage.haskell.org/package/classy-prelude-0.9.3/docs/ClassyPrelude.html	N/A
 https://packages.debian.org/bookworm/amd64/libghc-io-streams-dev	N/A
 https://packages.debian.org/source/sid/misc/haskell-file-io	N/A
-https://www.stackage.org/lts-6.1/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-6.1/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://packages.debian.org/sid/armel/doc/libghc-io-storage-doc	N/A
-https://www.stackage.org/lts-19.17	N/A
-https://www.stackage.org/lts-24.1	N/A
+https://www.stackage.org/lts-19.17	indexed	2022-07-30
+https://www.stackage.org/lts-24.1	indexed	2025-07-20
 https://packages.debian.org/fi/source/sid/haskell-io-storage	N/A
 https://packages.debian.org/libghc-io-storage-prof	N/A
 https://packages.debian.org/stable/doc/libghc-io-storage-doc	N/A
@@ -29706,13 +29706,13 @@ https://hackage-content-origin.haskell.org/package/haddock-use-refs	N/A
 https://www.reddit.com/r/haskell/comments/n1pd7u/free-online-intro-advanced-haskell-courses-youtube/	N/A
 https://www.reddit.com/r/haskell/comments/1dvvkms/	N/A
 https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/monads.pdf	N/A
-https://www.stackage.org/lts-23.13/package/effectful-2.5.1.0	N/A
+https://www.stackage.org/lts-23.13/package/effectful-2.5.1.0	indexed	2026-07-27
 https://codes-isss.org/dl_subdomain/citation_id_1291151_preflayout_flat/	N/A
 https://kennethalambert.com/haskell/index.html	N/A
 https://haskell.org/onlinereport/io.html	N/A
 https://github.com/commercialhaskell/stackage	updated	2026-07-26
 https://igm.univ-mlv.fr/~pivoteau/teaching/HASKELL3/base-4.22-docs-offline/hackage-content.haskell.org/package/base-4.22.0.0/docs/src/Control.Monad.IO.Class.html	N/A
-https://www.stackage.org/lts-11.22/package/base-4.10.1.0	N/A
+https://www.stackage.org/lts-11.22/package/base-4.10.1.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-06-25/package/io-storage	created	2026
 https://hackage.haskell.org/package/monad-classes	N/A
 https://downloads.haskell.org/ghc/8.0.1-rc4/docs/html/libraries/base-4.9.0.0/src/Control-Monad-IO-Class.html	modified	2019-02-15
@@ -29737,10 +29737,10 @@ https://www.youtube.com/playlist?list=PLYItvall0TqLedblNsncIUfk3cHv_FS7O	N/A
 https://riptutorial.com/Download/haskell-language-es.pdf	N/A
 https://hackage.haskell.org/package/data-effects/docs	created	2025-04-24
 https://www.stackage.org/nightly-2026-01-01/package/concurrency-1.11.0.3	created	2026
-https://www.stackage.org/package/data-effects-th	N/A
-https://www.stackage.org/package/encoding-io	N/A
-https://www.stackage.org/lts-10.2/package/transformers-0.5.2.0	N/A
-https://www.stackage.org/lts-21.4/package/io-storage-0.3	N/A
+https://www.stackage.org/package/data-effects-th	indexed	2026-07-27
+https://www.stackage.org/package/encoding-io	indexed	2017-07-25
+https://www.stackage.org/lts-10.2/package/transformers-0.5.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-21.4/package/io-storage-0.3	indexed	2026-07-27
 https://www.stackage.org/nightly-2019-07-31/package/io-manager-0.1.0.2	created	2019
 https://www.stackage.org/nightly-2019-12-22/package/io-manager-0.1.0.2	created	2019
 https://www.stackage.org/nightly-2022-12-17/package/io-manager-0.1.0.3	created	2022
@@ -29800,10 +29800,10 @@ https://hackage.haskell.org/package/IOR	N/A
 https://researchgate.net/publication/262396831_Reasoning_about_IO_in_Functional_Programs	N/A
 https://srfi.schemers.org/srfi-165/	N/A
 https://www.slideserve.com/mccalle/cs-3304-comparative-languages-powerpoint-ppt-presentation	N/A
-https://www.stackage.org/lts-14.26/package/io-choice-0.0.7	N/A
-https://www.stackage.org/lts-18.21/package/io-manager-0.1.0.3	N/A
-https://www.stackage.org/lts-23.24/package/io-machine-0.2.0.0	N/A
-https://www.stackage.org/lts-24.49/package/io-embed-0.1.0.1	N/A
+https://www.stackage.org/lts-14.26/package/io-choice-0.0.7	indexed	2019-09-21
+https://www.stackage.org/lts-18.21/package/io-manager-0.1.0.3	indexed	2026-07-27
+https://www.stackage.org/lts-23.24/package/io-machine-0.2.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-24.49/package/io-embed-0.1.0.1	indexed	2025-07-14
 https://www.stackage.org/nightly-2016-07-09/package/io-choice-0.0.6	created	2016
 https://www.stackage.org/nightly-2016-07-09/package/io-manager-0.1.0.2	created	2016
 https://www.stackage.org/nightly-2019-08-07	created	2019
@@ -29827,17 +29827,17 @@ https://hackage.haskell.org/package/effin	N/A
 https://hackage.haskell.org/package/GHC-IO/docs/GHC-IO.html	N/A
 https://hackage.haskell.org/package/monadic-regions	N/A
 https://www.slideserve.com/joey/functional-programming-powerpoint-ppt-presentation	N/A
-https://www.stackage.org/lts/package/polysemy-1.9.2.0	N/A
-https://www.stackage.org/lts-14.22/package/fused-effects-0.5.0.1	N/A
-https://www.stackage.org/lts-15.3/package/polysemy-1.2.3.0	N/A
-https://www.stackage.org/lts-16.0/package/fused-effects-1.0.2.0	N/A
-https://www.stackage.org/lts-16.0/package/polysemy-1.3.0.0	N/A
-https://www.stackage.org/lts-19.28/package/polysemy-1.6.0.0	N/A
-https://www.stackage.org/lts-20.12/package/polysemy-1.7.1.0	N/A
-https://www.stackage.org/lts-21.22/package/fused-effects-1.1.2.2	N/A
+https://www.stackage.org/lts/package/polysemy-1.9.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-14.22/package/fused-effects-0.5.0.1	indexed	2026-07-27
+https://www.stackage.org/lts-15.3/package/polysemy-1.2.3.0	indexed	2026-07-27
+https://www.stackage.org/lts-16.0/package/fused-effects-1.0.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-16.0/package/polysemy-1.3.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-19.28/package/polysemy-1.6.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-20.12/package/polysemy-1.7.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-21.22/package/fused-effects-1.1.2.2	indexed	2026-07-27
 https://www.stackage.org/nightly-2019-06-21/package/polysemy-0.4.0.0	created	2019
 https://www.stackage.org/nightly-2026-01-17/package/effectful-2.6.1.0	created	2026
-https://www.stackage.org/package/polysemy-webserver	N/A
+https://www.stackage.org/package/polysemy-webserver	indexed	2026-07-27
 https://hackage.haskell.org/package/hashmap-io	N/A
 https://hackage.haskell.org/package/ioctl	N/A
 https://hackage.haskell.org/package/Monatron-IO	N/A
@@ -29848,15 +29848,15 @@ https://ocw.tudelft.nl/courses/introduction-to-functional-programming/subjects/f
 https://ocw.tudelft.nl/courses/introduction-to-functional-programming/subjects/interactive-programs/	N/A
 https://www.educative.io/courses/functional-programming-haskell	N/A
 https://www.scs.stanford.edu/14sp-cs240h/slides/functors-monads.html	N/A
-https://www.stackage.org/package/hashmap	N/A
+https://www.stackage.org/package/hashmap	indexed	2026-07-27
 http://dx.doi.org/10.1145/1160074.1159823	N/A
 https://dl.acm.org/doi/10.1145/1291201.1291206	N/A
 https://hackage.haskell.org/package/errors-ext-0.4.1	N/A
 https://www.eurekamag.com/research/104/856/104856751.php	N/A
-https://www.stackage.org/lts-10.5/package/io-manager-0.1.0.2	N/A
-https://www.stackage.org/lts-19.28/package/monad-par-0.3.5	N/A
-https://www.stackage.org/lts-20.25/package/io-storage-0.3	N/A
-https://www.stackage.org/lts-5.18/package/monad-stm-0.1.0.2	N/A
+https://www.stackage.org/lts-10.5/package/io-manager-0.1.0.2	indexed	2026-07-27
+https://www.stackage.org/lts-19.28/package/monad-par-0.3.5	indexed	2026-07-27
+https://www.stackage.org/lts-20.25/package/io-storage-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-5.18/package/monad-stm-0.1.0.2	indexed	2016-02-29
 https://www.stackage.org/nightly-2026-07-08/package/errors-ext-0.4.2	created	2026
 https://www.stackage.org/nightly-2026-07-08/package/io-streams-1.5.2.2	created	2026
 https://www.stackage.org/nightly-2026-07-08/package/monad-interleave-0.2.0.1	created	2026
@@ -29873,19 +29873,19 @@ https://hackage.haskell.org/package/io-classes/docs	created	2026-04-15
 https://www.reddit.com/r/haskell/comments/nyebuz/	N/A
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/	N/A
 https://www.saxonica.com/papers/xmlprague-2019dcl.pdf	created	2019
-https://www.stackage.org/lts-16.1/package/polysemy-1.3.0.0	N/A
-https://www.stackage.org/lts-16.23/package/io-streams-1.5.2.0	N/A
-https://www.stackage.org/lts-18.6/package/polysemy-1.5.0.0	N/A
-https://www.stackage.org/lts-20.17/package/polysemy-extra-0.2.1.0	N/A
-https://www.stackage.org/lts-20.26/package/polysemy-1.7.1.0	N/A
-https://www.stackage.org/lts-20.26/package/polysemy-plugin-0.4.5.0	N/A
-https://www.stackage.org/lts-20.4/package/effectful-2.2.1.0	N/A
-https://www.stackage.org/lts-21.4/package/effectful-2.2.2.0	N/A
-https://www.stackage.org/lts-23.22/package/data-effects-core-0.2.0.0	N/A
-https://www.stackage.org/lts-24.24/package/effectful-2.6.1.0	N/A
+https://www.stackage.org/lts-16.1/package/polysemy-1.3.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-16.23/package/io-streams-1.5.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-18.6/package/polysemy-1.5.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-20.17/package/polysemy-extra-0.2.1.0	indexed	2023-04-24
+https://www.stackage.org/lts-20.26/package/polysemy-1.7.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-20.26/package/polysemy-plugin-0.4.5.0	indexed	2026-07-27
+https://www.stackage.org/lts-20.4/package/effectful-2.2.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-21.4/package/effectful-2.2.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.22/package/data-effects-core-0.2.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-24.24/package/effectful-2.6.1.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2024-04-01/package/effectful-2.3.0.0	created	2024
 https://www.stackage.org/nightly-2026-07-03/package/data-effects-th-0.4.2.1	created	2026
-https://www.stackage.org/package/http-streams	N/A
+https://www.stackage.org/package/http-streams	indexed	2026-07-27
 https://www.youtube.com/watch?v=e6tWJD5q8uw	N/A
 https://arxiv.org/abs/2508.03640	created	2025-08
 https://cs.princeton.edu/~dpw/cos441-11/notes/slides17-monads2.pdf	N/A
@@ -29912,11 +29912,11 @@ https://hackage.haskell.org/packages/archive/monad-state/0.1.1.2/docs	N/A
 https://hackage.haskell.org/packages/archive/monads-tf/0.1.0.0/doc/html/Control-Monad-State-Strict.html	N/A
 https://www.reddit.com/r/haskell/comments/1dqmvt0/welltyped_announcing_a_free_videobased_haskell/	N/A
 https://www.stackage.org/lts-24.50/package/mpeff	N/A
-https://www.stackage.org/lts-24.50/package/mstate	N/A
+https://www.stackage.org/lts-24.50/package/mstate	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-07-13/package/mstate	created	2026
 https://www.stackage.org/package/monad-state	N/A
 https://www.stackage.org/package/mpeff	N/A
-https://www.stackage.org/package/mstate	N/A
+https://www.stackage.org/package/mstate	indexed	2026-07-27
 https://nzdr.ru/data/media/biblio/kolxoz/Cs/CsPl/Hutton%20A.%20Programming%20in%20Haskell%20%28draft%2C%20CUP%2C%202005%29%28200s%29_CsPl_.pdf	N/A
 https://arxiv.org/abs/2211.08802	created	2022-11
 https://cir.nii.ac.jp/crid/1360855571286351616?lang=en	N/A
@@ -29943,15 +29943,15 @@ https://www.reddit.com/r/haskell/comments/es71yt/	N/A
 https://www.reddit.com/r/haskell/comments/hjratt/	N/A
 https://www.reddit.com/r/haskell/comments/k7r5er/	N/A
 https://www.reddit.com/r/haskell/comments/t8pksp/	N/A
-https://www.stackage.org/lts-20.26/package/monad-skeleton-0.2	N/A
-https://www.stackage.org/lts-21.25/package/monad-journal-0.8.1	N/A
-https://www.stackage.org/lts-6.1/package/mstate-0.2.7	N/A
-https://www.stackage.org/lts-7.19/package/auto-0.4.3.1	N/A
+https://www.stackage.org/lts-20.26/package/monad-skeleton-0.2	indexed	2022-11-17
+https://www.stackage.org/lts-21.25/package/monad-journal-0.8.1	indexed	2023-06-21
+https://www.stackage.org/lts-6.1/package/mstate-0.2.7	indexed	2026-07-27
+https://www.stackage.org/lts-7.19/package/auto-0.4.3.1	indexed	2021-05-10
 https://www.stackage.org/nightly-2026-07-08/package/monad-st-0.2.4.1	created	2026
-https://www.stackage.org/package/control-monad-free	N/A
-https://www.stackage.org/package/rev-state	N/A
+https://www.stackage.org/package/control-monad-free	indexed	2026-07-27
+https://www.stackage.org/package/rev-state	indexed	2026-07-27
 https://www.stackage.org/package/strict-stm	N/A
-https://www.stackage.org/package/tardis	N/A
+https://www.stackage.org/package/tardis	indexed	2026-07-27
 https://arxiv.org/abs/1310.3971	created	2013-10
 https://arxiv.org/abs/1807.01456	created	2018-07
 https://arxiv.org/abs/1810.06037	created	2018-10
@@ -29984,21 +29984,21 @@ https://hackage.haskell.org/package/file-embed-0.0.13.0/docs/Data-FileEmbed.html
 https://mail-archive.com/haskell-cafe%40haskell.org/msg03247.html	N/A
 https://wrap.warwick.ac.uk/id/eprint/47392/	created	1982-04
 https://www.reddit.com/r/ProgrammingLanguages/comments/cwcbsv/Tackling_the_Awkward_Squad_monadic_inputoutput_concurrency_exceptions_and_foreign-language_calls_in_Haskell	N/A
-https://www.stackage.org/lts-10.3/package/app-settings-0.2.0.11	N/A
-https://www.stackage.org/lts-11.22/package/app-settings-0.2.0.11	N/A
-https://www.stackage.org/lts-21.25/package/app-settings-0.2.0.12	N/A
+https://www.stackage.org/lts-10.3/package/app-settings-0.2.0.11	indexed	2023-06-21
+https://www.stackage.org/lts-11.22/package/app-settings-0.2.0.11	indexed	2023-06-21
+https://www.stackage.org/lts-21.25/package/app-settings-0.2.0.12	indexed	2023-06-21
 https://www.stackage.org/lts-22.44/package/app-settings-0.2.0.12	N/A
 https://www.stackage.org/nightly-2016-06-06/package/app-settings-0.2.0.7	created	2016
-https://www.stackage.org/lts-18.0/package/req-3.9.0	N/A
-https://www.stackage.org/lts-19.28/package/silently-1.2.5.3	N/A
-https://www.stackage.org/lts-19.28/package/unliftio-0.2.22.0	N/A
-https://www.stackage.org/lts-23.23/package/silently-1.2.5.4	N/A
+https://www.stackage.org/lts-18.0/package/req-3.9.0	indexed	2026-07-27
+https://www.stackage.org/lts-19.28/package/silently-1.2.5.3	indexed	2026-07-27
+https://www.stackage.org/lts-19.28/package/unliftio-0.2.22.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.23/package/silently-1.2.5.4	indexed	2026-07-27
 https://www.stackage.org/nightly-2022-03-19/package/silently-1.2.5.2	created	2022
 https://www.stackage.org/nightly-2024-06-04/package/monad-par-0.3.6	created	2024
 https://www.stackage.org/nightly-2026-07-09/package/rio-0.1.25.0	created	2026
 https://www.stackage.org/nightly-2026-07-08/package/io-storage-0.3	created	2026
-https://www.stackage.org/lts-23.24/package/monad-parallel-0.8	N/A
-https://www.stackage.org/lts-22.35/package/wai-control-0.2.0.0	N/A
+https://www.stackage.org/lts-23.24/package/monad-parallel-0.8	indexed	2026-07-27
+https://www.stackage.org/lts-22.35/package/wai-control-0.2.0.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-06-28/package/wai-control-0.2.0.1	created	2026
 https://ghc.gitlab.haskell.org/-/ghc/-/jobs/1837125/artifacts/docs/libraries/ghc-internal-9.1001.0-inplace/GHC-Internal-IO.html	N/A
 https://hackage.haskell.org/package/jail/docs/System-IO-Jail.html	created	2009-08-27
@@ -30012,15 +30012,15 @@ https://www.reddit.com/r/haskell/comments/187m9qu/nicolas_wu_-_the_evolution_of_
 https://hackage.haskell.org/package/io-streams-1.5.2.2	N/A
 https://www.reddit.com/r/haskell/comments/1dqmvt0/welltyped_part_5_io_and_explicit_effects/	N/A
 https://www.reddit.com/r/haskell/comments/1dvvkms/drifting_on_the_seas_of_io/	N/A
-https://www.stackage.org/lts-22.10/package/io-streams-1.5.2.2	N/A
+https://www.stackage.org/lts-22.10/package/io-streams-1.5.2.2	indexed	2026-07-27
 https://www.stackage.org/nightly-2019-12-22/package/io-streams-1.5.1.0	created	2019
 https://hackage.haskell.org/package/effect-monad-0.8.1.0	N/A
 https://hackage.haskell.org/package/io-streams-1.5.2.2/docs/System-IO-Streams.html	N/A
 https://hackage.haskell.org/package/potoki-0.10.6	N/A
 https://hackage.haskell.org/package/potoki-2.1.3	N/A
 https://hackage.haskell.org/package/potoki-2.1.4.1	N/A
-https://www.stackage.org/lts-23.17	N/A
-https://www.stackage.org/lts-8	N/A
+https://www.stackage.org/lts-23.17	indexed	2025-03-29
+https://www.stackage.org/lts-8	indexed	2017-07-27
 https://hackage.haskell.org/package/lhs2tex-1.21/src/doc/Guide2.pdf	N/A
 https://hackage.haskell.org/package/strict	N/A
 https://isa-afp.org/browser_info/current/AFP/Hello_World/IO.html	N/A
@@ -30036,9 +30036,9 @@ https://www.reddit.com/r/haskell/comments/1dqmvt0/welltyped_part_5_io_and_explic
 https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_part_6_monads_of_the_free_video_based_haskell_introduction_course/	N/A
 https://www.researchgate.net/publication/220940044_Improving_Persistent_Data_Manipulation_for_Functional_Languages	N/A
 https://www.researchgate.net/publication/351354961_Refinements_of_Futures_Past_Higher-Order_Specification_with_Implicit_Refinement_Types_Extended_Version	N/A
-https://www.stackage.org/lts-16.11/package/fused-effects-1.0.2.2	N/A
-https://www.stackage.org/lts-19.9/package/polysemy-1.6.0.0	N/A
-https://www.stackage.org/lts-23.3/package/data-effects-core-0.2.0.0	N/A
+https://www.stackage.org/lts-16.11/package/fused-effects-1.0.2.2	indexed	2026-07-27
+https://www.stackage.org/lts-19.9/package/polysemy-1.6.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.3/package/data-effects-core-0.2.0.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2019-02-14/package/fused-effects-0.1.2.1	created	2019
 https://www.stackage.org/nightly-2019-03-05/package/fused-effects-0.2.0.1	created	2019
 https://www.stackage.org/nightly-2019-03-29/package/fused-effects-0.3.0.0	created	2019
@@ -30048,7 +30048,7 @@ https://www.stackage.org/nightly-2025-05-10/package/data-effects-core-0.4.2.0	cr
 https://www.stackage.org/nightly-2025-08-03/package/fused-effects-1.1.2.5	created	2025
 https://www.stackage.org/nightly-2026-02-08/package/data-effects-core-0.4.3.0	created	2026
 https://www.stackage.org/package/effet	N/A
-https://www.stackage.org/package/failable	N/A
+https://www.stackage.org/package/failable	indexed	2023-06-21
 https://www.stackage.org/package/monad-exception	N/A
 https://arxiv.org/abs/1803.10195	created	2018-03
 https://doi.org/10.1017/S0960129500001560	publication	1992-12
@@ -30058,18 +30058,18 @@ https://www.reddit.com/r/haskell/comments/15a0z4k	N/A
 https://www.reddit.com/r/haskell/comments/c7zcj7	N/A
 https://www.reddit.com/r/programming/comments/1ts1x2l/practical-uses-of-monads-in-haskell/	N/A
 https://www.researchgate.net/publication/220404087_Monads_for_functional_programming	N/A
-https://www.stackage.org/lts-22.28/package/io-storage-0.3	N/A
-https://www.stackage.org/lts-8.24/package/transformers-0.5.2.0	N/A
-https://www.stackage.org/package/box	N/A
-https://www.stackage.org/package/errors-ext	N/A
-https://www.stackage.org/package/monad-memo	N/A
-https://www.stackage.org/package/monad-recorder	N/A
-https://www.stackage.org/package/monad-resumption	N/A
-https://www.stackage.org/package/monad-schedule	N/A
-https://www.stackage.org/package/monad-stm	N/A
-https://www.stackage.org/package/ref-tf	N/A
-https://www.stackage.org/package/stamina	N/A
-https://www.stackage.org/package/timestats	N/A
+https://www.stackage.org/lts-22.28/package/io-storage-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-8.24/package/transformers-0.5.2.0	indexed	2026-07-27
+https://www.stackage.org/package/box	indexed	2026-07-27
+https://www.stackage.org/package/errors-ext	indexed	2026-07-27
+https://www.stackage.org/package/monad-memo	indexed	2026-07-27
+https://www.stackage.org/package/monad-recorder	indexed	2018-09-28
+https://www.stackage.org/package/monad-resumption	indexed	2026-07-27
+https://www.stackage.org/package/monad-schedule	indexed	2026-06-29
+https://www.stackage.org/package/monad-stm	indexed	2016-02-29
+https://www.stackage.org/package/ref-tf	indexed	2026-07-27
+https://www.stackage.org/package/stamina	indexed	2026-07-27
+https://www.stackage.org/package/timestats	indexed	2026-07-27
 https://www.usenix.org/events/dsl99/full_papers/leijen/leijen_html/	N/A
 https://bilibili.com/video/BV1ihBBBFE2B/	N/A
 https://arxiv.org/abs/2410.07918	created	2024-10
@@ -30080,13 +30080,13 @@ https://www.reddit.com/r/haskell/comments/1dvvkms/welltyped_announcing_a_free_vi
 https://www.reddit.com/r/haskell/comments/um43bz/most_current_materials_for_learning_haskell/	N/A
 https://www.reddit.com/r/haskell/comments/y6og3z/notes_of_a_haskell_beginner/	N/A
 https://www.reddit.com/r/haskellquestions/comments/es71yt/do_i_need_to_know_about_monad/	N/A
-https://www.stackage.org/lts-12.26/package/monad-recorder-0.1.1	N/A
+https://www.stackage.org/lts-12.26/package/monad-recorder-0.1.1	indexed	2018-09-28
 https://www.stackage.org/nightly-2019-09-26/package/io-storage-0.3	created	2019
 https://www.stackage.org/nightly-2021-08-23/package/io-manager-0.1.0.3	created	2021
 https://www.stackage.org/nightly-2024-04-01/package/io-storage-0.3	created	2024
 https://www.stackage.org/nightly-2026-07-08/package/directory-ospath-streaming-0.3	created	2026
-https://www.stackage.org/package/data-reify	N/A
-https://www.stackage.org/package/perf	N/A
+https://www.stackage.org/package/data-reify	indexed	2026-07-27
+https://www.stackage.org/package/perf	indexed	2026-07-27
 https://www.reddit.com/r/haskell/comments/1q4ly5r/functors_applicatives_and_monads/	N/A
 https://www.reddit.com/r/haskell/comments/icu0tg/alternative_to_monads	N/A
 https://www.reddit.com/r/haskell/comments/t8pksp/how_to_use_monads_without_understanding_them	N/A
@@ -30098,11 +30098,11 @@ https://hackage.haskell.org/package/monad-time	N/A
 https://hackage.haskell.org/package/more-extensible-effects	N/A
 https://ksvi.mff.cuni.cz/~dingle/2020-1/npp/haskell_library.html	created	2020
 https://twodee.org/blog/16651	N/A
-https://www.stackage.org/lts-14.16/package/monad-coroutine-0.9.0.4	N/A
-https://www.stackage.org/lts-21.4/package/monad-coroutine-0.9.2	N/A
-https://www.stackage.org/lts-24.33/package/monad-coroutine-0.9.3	N/A
-https://www.stackage.org/lts-6.1/package/monad-coroutine-0.9.0.3	N/A
-https://www.stackage.org/lts-6.30/package/monad-coroutine-0.9.0.3	N/A
+https://www.stackage.org/lts-14.16/package/monad-coroutine-0.9.0.4	indexed	2026-07-27
+https://www.stackage.org/lts-21.4/package/monad-coroutine-0.9.2	indexed	2026-07-27
+https://www.stackage.org/lts-24.33/package/monad-coroutine-0.9.3	indexed	2026-07-27
+https://www.stackage.org/lts-6.1/package/monad-coroutine-0.9.0.3	indexed	2026-07-27
+https://www.stackage.org/lts-6.30/package/monad-coroutine-0.9.0.3	indexed	2026-07-27
 https://www.stackage.org/nightly-2015-11-27/package/monad-coroutine-0.9.0.1	created	2015
 https://www.stackage.org/nightly-2016-02-19/package/monad-coroutine-0.9.0.2	created	2016
 https://www.stackage.org/nightly-2016-04-10/package/monad-coroutine-0.9.0.2	created	2016
@@ -30111,7 +30111,7 @@ https://www.stackage.org/nightly-2026-01-14/package/effectful-2.6.1.0	created	20
 https://doi.acm.org/10.1145/158511.158524	N/A
 https://doi.org/10.1145/234528.234736	publication	1996-06
 https://www.citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf	N/A
-https://www.stackage.org/lts-22.35/package/monad-parallel-0.8	N/A
+https://www.stackage.org/lts-22.35/package/monad-parallel-0.8	indexed	2026-07-27
 https://www.stackage.org/nightly-2018-02-27/package/transformers-0.5.2.0	created	2018
 https://www.stackage.org/nightly-2021-03-19/package/io-manager-0.1.0.3	created	2021
 https://www.stackage.org/nightly-2026-03-20/package/monad-parallel-0.8.0.1	created	2026
@@ -30125,70 +30125,70 @@ https://haskell.pesquisa.ufabc.edu.br/haskell/03.haskell.basico.1/	N/A
 https://monad.cat/	N/A
 https://www.youtube.com/playlist?list=PLMqFm6rr-xOXK8G2O31Kdzllm3aYaaRKG	N/A
 https://www.haskell.org/pipermail/beginners/2009-February/001065.html	created	2009
-https://www.stackage.org/lts-20.11/package/effectful-core-2.2.2.1	N/A
-https://www.stackage.org/lts-21.11/package/effectful-core-2.2.2.2	N/A
-https://www.stackage.org/lts-22.0/package/effectful-core-2.3.0.1	N/A
-https://www.stackage.org/lts-22.32/package/effectful-core-2.3.1.0	N/A
-https://www.stackage.org/lts-23.13/package/effectful-core-2.5.1.0	N/A
+https://www.stackage.org/lts-20.11/package/effectful-core-2.2.2.1	indexed	2026-07-27
+https://www.stackage.org/lts-21.11/package/effectful-core-2.2.2.2	indexed	2026-07-27
+https://www.stackage.org/lts-22.0/package/effectful-core-2.3.0.1	indexed	2026-07-27
+https://www.stackage.org/lts-22.32/package/effectful-core-2.3.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.13/package/effectful-core-2.5.1.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2022-12-17/package/effectful-core-2.2.1.0	created	2022
 https://www.stackage.org/nightly-2024-10-22/package/effectful-core-2.4.0.0	created	2024
 https://www.stackage.org/nightly-2025-07-03/package/effectful-core-2.6.0.0	created	2025
 https://www.stackage.org/nightly-2026-03-27/package/effectful-core-2.6.1.0	created	2026
-https://www.stackage.org/lts/package/data-effects-0.3.0.1	N/A
-https://www.stackage.org/lts/package/heftia-effects-0.5.0.0	N/A
-https://www.stackage.org/lts-23.0/package/data-effects-0.3.0.1	N/A
-https://www.stackage.org/lts-23.13/package/heftia-effects-0.5.0.0	N/A
-https://www.stackage.org/lts-24.18/package/heftia-effects	N/A
-https://www.stackage.org/lts-24.39/package/data-effects-0.4.2.0	N/A
+https://www.stackage.org/lts/package/data-effects-0.3.0.1	indexed	2026-07-27
+https://www.stackage.org/lts/package/heftia-effects-0.5.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.0/package/data-effects-0.3.0.1	indexed	2026-07-27
+https://www.stackage.org/lts-23.13/package/heftia-effects-0.5.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-24.18/package/heftia-effects	indexed	2026-07-27
+https://www.stackage.org/lts-24.39/package/data-effects-0.4.2.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2025-07-25/package/heftia-effects-0.7.0.0	created	2025
 https://www.stackage.org/nightly-2025-08-01/package/heftia-0.7.0.0	created	2025
 https://www.stackage.org/nightly-2026-01-21/package/heftia-0.7.0.0	created	2026
 https://www.stackage.org/nightly-2026-02-20/package/heftia-effects	created	2026
 https://softwarepatternslexicon.com/haskell/principles-of-functional-programming-in-haskell/the-io-monad-and-managing-side-effects/	publication	2024-11-23
-https://www.stackage.org/lts-24.43/package/bluefin-0.0.17.1	N/A
-https://www.stackage.org/lts-8.15/package/effect-handlers-0.1.0.8	N/A
-https://www.stackage.org/lts-8.15/package/freer-effects-0.3.0.1	N/A
-https://www.stackage.org/lts-8.24/package/freer-effects-0.3.0.1	N/A
+https://www.stackage.org/lts-24.43/package/bluefin-0.0.17.1	indexed	2026-07-27
+https://www.stackage.org/lts-8.15/package/effect-handlers-0.1.0.8	indexed	2018-03-10
+https://www.stackage.org/lts-8.15/package/freer-effects-0.3.0.1	indexed	2017-07-25
+https://www.stackage.org/lts-8.24/package/freer-effects-0.3.0.1	indexed	2017-07-25
 https://www.stackage.org/nightly-2016-02-19/package/effect-handlers-0.1.0.7	created	2016
 https://www.stackage.org/nightly-2025-08-03/package/bluefin-0.0.16.0	created	2025
 https://www.stackage.org/nightly-2026-01-17/package/bluefin-0.2.6.0	created	2026
 https://www.stackage.org/nightly-2026-05-06/package/bluefin-0.5.100.0	created	2026
-https://www.stackage.org/lts-10.2/package/freer-simple-1.0.0.0	N/A
-https://www.stackage.org/lts-18.24/package/polysemy-1.5.0.0	N/A
-https://www.stackage.org/lts-23.13/package/freer-simple-1.2.1.2	N/A
+https://www.stackage.org/lts-10.2/package/freer-simple-1.0.0.0	indexed	2024-12-09
+https://www.stackage.org/lts-18.24/package/polysemy-1.5.0.0	indexed	2026-07-27
+https://www.stackage.org/lts-23.13/package/freer-simple-1.2.1.2	indexed	2024-12-09
 https://web.cecs.pdx.edu/~mpj/pubs/composing.html	N/A
 https://www.csse.canterbury.ac.nz/walter.guttmann/publications/0026.pdf	N/A
-https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3	N/A
-https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0	N/A
-https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0	N/A
+https://www.stackage.org/lts-16.0/package/monad-control-1.0.2.3	indexed	2026-07-27
+https://www.stackage.org/lts-3.0/package/transformers-0.4.2.0	indexed	2026-07-27
+https://www.stackage.org/lts-6.30/package/transformers-0.4.2.0	indexed	2026-07-27
 https://www.cambridge.org/core/article/10.1017/S0956796800001611	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf	N/A
 https://www.haskell.org/onlinereport/haskell98-report.pdf	N/A
 https://www.stackage.org/nightly-2015-07-12/package/monad-stm-0.1.0.2	created	2015
 https://www.stackage.org/nightly-2016-02-19/package/monad-stm-0.1.0.2	created	2016
 https://www.stackage.org/nightly-2016-02-29/package/monad-stm	created	2016
-https://www.stackage.org/lts-18.28/package/unliftio-0.2.21.0	N/A
-https://www.stackage.org/lts-7.24/package/monad-unlift-0.2.0	N/A
+https://www.stackage.org/lts-18.28/package/unliftio-0.2.21.0	indexed	2026-07-27
+https://www.stackage.org/lts-7.24/package/monad-unlift-0.2.0	indexed	2026-07-27
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf	N/A
 https://www.mmhaskell.com/courses/summary	N/A
-https://www.stackage.org/lts-18.28/package/lifted-base-0.2.3.12	N/A
-https://www.stackage.org/lts-20.26/package/lifted-base-0.2.3.12	N/A
-https://www.stackage.org/lts-22.35/package/monad-peel-0.3	N/A
-https://www.stackage.org/lts-23.13/package/monad-peel-0.3	N/A
-https://www.stackage.org/lts-24.24/package/monad-peel-0.3	N/A
-https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11	N/A
+https://www.stackage.org/lts-18.28/package/lifted-base-0.2.3.12	indexed	2026-07-27
+https://www.stackage.org/lts-20.26/package/lifted-base-0.2.3.12	indexed	2026-07-27
+https://www.stackage.org/lts-22.35/package/monad-peel-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-23.13/package/monad-peel-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-24.24/package/monad-peel-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-8.24/package/lifted-base-0.2.3.11	indexed	2026-07-27
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/E9F6A3ABEC907BAA7C2F1E8810106BA5	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5F4A86F27A77CAC76080B5F79667E619/S0956796816000071a.pdf/composable-scheduler-activations-for-haskell.pdf	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616ACD5687ABDC86D2B341E83D298/S0956796807006326a.pdf/applicative-programming-with-effects.pdf	N/A
-https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3	N/A
-https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1	N/A
+https://www.stackage.org/lts-17.0/package/monad-control-1.0.2.3	indexed	2026-07-27
+https://www.stackage.org/lts-21.7/package/monad-control-1.0.3.1	indexed	2026-07-27
 https://www.stackage.org/nightly-2025-02-20/package/monad-control-1.0.3.1	created	2025
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157?pageNum=1	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/most-cited	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/0FA3A396DEF84CFADE3FDA0B26D4CEE3	N/A
-https://www.stackage.org/lts-17.0/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-17.0/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://www.semanticscholar.org/paper/Monads-for-functional-programming-Wadler/56f12dee2e97958fb3bb0572b5899069dedc0a7d	N/A
-https://www.stackage.org/lts-7.19/package/io-choice-0.0.6	N/A
+https://www.stackage.org/lts-7.19/package/io-choice-0.0.6	indexed	2019-09-21
 https://www.stackage.org/nightly-2015-11-27/package/io-choice-0.0.5	created	2015
 https://www.stackage.org/nightly-2016-02-19/package/io-choice-0.0.5	created	2016
 https://www.stackage.org/nightly-2019-07-31/package/io-choice-0.0.7	created	2019
@@ -30224,7 +30224,7 @@ https://www.extrema.is/blog/2021/09/24/fused-effects-tagless-final-hmock	created
 https://freecomputerbooks.com/Real-World-Haskell.html	N/A
 https://hackage.haskell.org/package/rio-0.1.5.0/docs	N/A
 https://hackage-content-origin.haskell.org/package/rio-0.1.20.0/docs/doc-index-46.html	N/A
-https://www.stackage.org/lts-17.0/package/rio-0.1.19.0	N/A
+https://www.stackage.org/lts-17.0/package/rio-0.1.19.0	indexed	2026-07-27
 https://flora.pm/packages/%40hackage/rio	N/A
 https://hackage.haskell.org/package/rio-0.1.20.0/changelog	N/A
 https://hackage.haskell.org/package/rio-0.1.22.0/docs	N/A
@@ -30316,7 +30316,7 @@ https://downloads.haskell.org/ghc/9.4.1-rc1/docs/libraries/text-2.0/Data-Text-La
 https://downloads.haskell.org/~ghc/7.0.2/docs/html/libraries/base-4.3.1.0/Control-Exception.html	modified	2019-02-15
 https://en.wikibooks.org/wiki/Haskell/FFI	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/libraries/ghc-compact-0.1.0.0-inplace/GHC-Compact.html	N/A
-https://www.stackage.org/lts-8.22/package/ghc-prim-0.5.0.0	N/A
+https://www.stackage.org/lts-8.22/package/ghc-prim-0.5.0.0	indexed	2026-07-27
 https://archlinux.org/packages/extra/x86_64/haskell-unliftio/	N/A
 https://packagehub.suse.com/packages/ghc-unliftio/	N/A
 https://www.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/ex08.pdf	created	2024
@@ -30326,7 +30326,7 @@ https://flora.pm/packages/%40hackage/resourcet	N/A
 https://hackage-content-origin.haskell.org/package/conduit-1.2.8/docs/doc-index-C.html	N/A
 https://hackage-origin.haskell.org/package/conduit-1.2.13/docs/src/Data-Conduit-List.html	N/A
 https://flora.pm/packages/%40hackage/rio/0.1.24.0/changelog	N/A
-https://www.stackage.org/lts-21.11/package/effectful-2.2.2.0	N/A
+https://www.stackage.org/lts-21.11/package/effectful-2.2.2.0	indexed	2026-07-27
 https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-KVStore.html	N/A
 https://hackage-content.haskell.org/package/polysemy-http-0.13.1.0/docs/doc-index.html	N/A
 https://packages.debian.org/it/sid/doc/libghc-unliftio-doc	N/A
@@ -30376,7 +30376,7 @@ https://subscription.packtpub.com/book/programming/9781786464217/7/ch07lvl1sec49
 https://web.archive.org/web/20151208175102/http://code.haskell.org/~dons/haskell-1990-2000/threads.html	created	1990
 https://hackage.haskell.org/package/fused-effects-1.1.0.0/changelog	N/A
 https://www.reddit.com/r/haskell/comments/1gjbakz/heftia-effects-v05-higherorder-algebraic-effects/	N/A
-https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0	N/A
+https://www.stackage.org/lts-20.25/package/polysemy-1.7.1.0	indexed	2026-07-27
 https://hackage.haskell.org/package/fused-effects-1.0.0.0/changelog	N/A
 https://www.cse.iitb.ac.in/~as/fpcourse/haskell98_report/	N/A
 https://www-users.york.ac.uk/~sf786/Thesis.pdf	N/A
@@ -30395,11 +30395,11 @@ https://deepwiki.com/fused-effects/fused-effects/1-overview	N/A
 https://www.haskell.org/definition/ffi/sec-entry.html	N/A
 https://pepeiborra.github.io/control-monad-exception/	N/A
 https://www.sistedes.es/files/actas-prole-2009.pdf	created	2009
-https://www.stackage.org/lts-7.19/package/explicit-exception-0.1.8	N/A
+https://www.stackage.org/lts-7.19/package/explicit-exception-0.1.8	indexed	2026-07-27
 https://ianen.org/haskell/enumerator/enumerator.pdf	N/A
 https://hackage.haskell.org/package/streamly-0.8.1	N/A
 https://streamly.composewell.com/haddocks/streamly-0.11.0/Streamly-Data-Stream-MkType.html	N/A
-https://www.stackage.org/lts-14.16/package/streamly-0.6.1	N/A
+https://www.stackage.org/lts-14.16/package/streamly-0.6.1	indexed	2026-07-27
 http://www.haskell.org/wikiupload/6/65/Wxhaskell.pdf	N/A
 https://www.haskell.org/haskellwiki/Libraries_and_tools/GUI_libraries	N/A
 https://codeberg.org/wxHaskell	N/A
@@ -30946,7 +30946,7 @@ https://git.jeffas.net/ocaml-tls/files/lwt/tls_lwt.mli.html	N/A
 https://projects.camlcity.org/projects/dl/ocamlnet-4.1.9/doc/html-main/Tls.html	N/A
 https://sources.debian.org/data/main/l/lwt/2.4.3-4/manual/manual.pdf	N/A
 https://hackage.haskell.org/package/uniform-io-1.0.0.0	N/A
-https://www.stackage.org/lts-18.0/package/network-simple-tls-0.4	N/A
+https://www.stackage.org/lts-18.0/package/network-simple-tls-0.4	indexed	2026-07-27
 https://hackage.haskell.org/package/unagi-chan	N/A
 https://hackage.haskell.org/package/unagi-chan-0.2.0.0	N/A
 https://hackage.haskell.org/package/unagi-chan-0.4.1.2	N/A
@@ -31020,7 +31020,7 @@ https://hackage.haskell.org/package/http2-client	N/A
 https://hackage.haskell.org/package/smtp-mail	N/A
 https://hackage.haskell.org/package/HaskellNet	N/A
 https://hackage.haskell.org/package/HaskellNet-0.2.2	N/A
-https://www.stackage.org/package/HaskellNet	N/A
+https://www.stackage.org/package/HaskellNet	indexed	2026-07-27
 https://hackage.haskell.org/package/HaskellNet-SSL-0.3.3.0/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-SSL-0.2.5/docs	N/A
 https://packages.debian.org/source/stable/haskell-mime-mail	N/A
@@ -31089,7 +31089,7 @@ https://hackage-content.haskell.org/package/unix-2.8.7.0/docs/System-Posix-Share
 https://hackage.haskell.org/package/unix-memory/docs/System-Posix-Memory.html	created	2014-09-20
 https://hackage.haskell.org/package/unix-memory-0.1.1	N/A
 https://hackage.haskell.org/package/bindings-mmap/docs	created	2013-02-18
-https://www.stackage.org/lts-24.3/package/mmap	N/A
+https://www.stackage.org/lts-24.3/package/mmap	indexed	2026-07-27
 https://ocaml.org/p/core_unix/latest/doc/core_unix/Core_unix/index.html	N/A
 https://opam.ocaml.org/packages/mmap/	N/A
 https://opam.ocaml.org/doc/api/opam-core/OpamSystem/	N/A
@@ -31166,7 +31166,7 @@ https://docs.haskellstack.org/en/latest/topics/package_location/	N/A
 https://arxiv.org/abs/1407.3561	created	2014-07
 https://arxiv.org/abs/2004.07585	created	2004
 https://sources.debian.org/src/git-annex/8.20210223-2/doc/design/iabackup.mdwn	N/A
-https://www.stackage.org/package/git-annex	N/A
+https://www.stackage.org/package/git-annex	indexed	2025-07-14
 https://docs.haskellstack.org/en/v3.3.1/topics/package_location/	N/A
 https://hackage.haskell.org/package/persistent-sqlite	N/A
 https://hackage.haskell.org/package/sqlite-simple	N/A
@@ -31294,7 +31294,7 @@ https://hackage.haskell.org/package/xml-conduit	N/A
 https://hackage.haskell.org/package/xml-conduit-1.1.0	N/A
 https://hackage.haskell.org/package/xml-conduit-0.5.3.1	N/A
 https://hackage.haskell.org/package/xml-conduit-1.1.0.6	N/A
-https://www.stackage.org/package/html-conduit	N/A
+https://www.stackage.org/package/html-conduit	indexed	2026-07-27
 https://hackage.haskell.org/package/xml-conduit-1.2.3	N/A
 https://sources.debian.org/src/haskell-xml-conduit/1.8.0-4/xml-conduit.cabal/	N/A
 https://sources.debian.org/src/haskell-xml-conduit/1.9.1.3-2/xml-conduit.cabal	N/A
@@ -31436,7 +31436,7 @@ https://hackage-content.haskell.org/package/hslogger-1.3.2.0/docs/System-Log-Log
 https://hackage-content.haskell.org/package/fast-logger-3.2.6/docs/System-Log-FastLogger-Internal.html	N/A
 https://hackage.haskell.org/package/katip-0.3.1.4/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/katip-0.8.8.3/docs/doc-index-All.html	N/A
-https://www.stackage.org/lts-22.44/package/katip-0.8.8.2	N/A
+https://www.stackage.org/lts-22.44/package/katip-0.8.8.2	indexed	2026-07-27
 https://kowainik.github.io/projects/co-log	N/A
 https://hackage.haskell.org/package/fast-logger/docs/System-Log-FastLogger.html	created	2025-06-23
 https://hackage.haskell.org/package/fast-logger-3.2.0/docs	N/A
@@ -31528,7 +31528,7 @@ https://hackage.haskell.org/package/streamly-0.8.3	N/A
 https://docs.min.io/aistor/developers/sdk/haskell/	publication	2025-10-17
 https://docs.min.io/aistor/developers/sdk/haskell/api/	publication	2025-10-17
 https://github.com/brendanhay/amazonka	updated	2026-06-10
-https://www.stackage.org/lts-2.22/package/amazonka-s3-0.3.6	N/A
+https://www.stackage.org/lts-2.22/package/amazonka-s3-0.3.6	indexed	2023-12-26
 https://repology.org/project/haskell%3Aamazonka-s3-streaming/packages	N/A
 https://tech.freckle.com/2023/09/22/using-amazonka-2-0/	publication	2023-09-22
 https://hackage.haskell.org/package/amazonka-s3-1.6.1	N/A
@@ -31548,7 +31548,7 @@ https://hackage.haskell.org/package/amqp	N/A
 https://hackage.haskell.org/package/hedis	N/A
 https://hackage.haskell.org/package/hask-redis-mux-0.1.0.0	N/A
 https://hackage-content.haskell.org/package/amqp-worker-2.0.1/candidate	N/A
-https://www.stackage.org/lts-6.1/package/amqp-0.13.1	N/A
+https://www.stackage.org/lts-6.1/package/amqp-0.13.1	indexed	2026-07-27
 https://hackage.haskell.org/package/amqp-streamly	N/A
 https://hackage.haskell.org/package/redis	N/A
 https://hackage.haskell.org/package/redis-0.14.2	N/A
@@ -31600,14 +31600,14 @@ https://hackage.haskell.org/package/morpheus-graphql-client	N/A
 https://hackage.haskell.org/package/graphql-0.1	N/A
 https://hackage.haskell.org/package/morpheus-graphql-server	N/A
 https://hackage.haskell.org/package/morpheus-graphql-0.6.2	N/A
-https://www.stackage.org/lts-17.4/package/graphql-client-1.1.0	N/A
+https://www.stackage.org/lts-17.4/package/graphql-client-1.1.0	indexed	2026-07-27
 https://hackage.haskell.org/package/proto-lens	N/A
 https://hackage.haskell.org/package/http2-grpc-proto-lens	N/A
 https://hackage.haskell.org/package/protobuf	N/A
 https://hackage.haskell.org/package/proto3-wire	N/A
 https://hackage.haskell.org/package/protocol-buffers	N/A
 https://hackage.haskell.org/package/proto3-suite-0.9.4	N/A
-https://www.stackage.org/lts-10.3/package/proto-lens-0.2.2.0	N/A
+https://www.stackage.org/lts-10.3/package/proto-lens-0.2.2.0	indexed	2026-07-27
 https://hackage.haskell.org/package/grpc-haskell-0.1.0	N/A
 https://hackage-content.haskell.org/package/proto3-wire-1.4.6/docs/Proto3-Wire-Decode.html	N/A
 https://hackage.haskell.org/package/grapesy	N/A
@@ -31679,9 +31679,9 @@ https://hackage.haskell.org/package/fused-effects-0.5.0.0	N/A
 https://hackage.haskell.org/package/fused-effects-1.1.0.0	N/A
 https://downloads.haskell.org/~ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html	modified	2025-12-26
 https://hackage.haskell.org/package/resourcet-1.2.2	N/A
-https://www.stackage.org/lts-18.24/package/resourcet-1.2.4.3	N/A
-https://www.stackage.org/lts-6.35/package/resourcet-1.1.9	N/A
-https://www.stackage.org/lts-10.0/package/resourcet-1.1.10	N/A
+https://www.stackage.org/lts-18.24/package/resourcet-1.2.4.3	indexed	2026-07-27
+https://www.stackage.org/lts-6.35/package/resourcet-1.1.9	indexed	2026-07-27
+https://www.stackage.org/lts-10.0/package/resourcet-1.1.10	indexed	2026-07-27
 https://downloads.haskell.org/~ghc/9.14.1/docs/libraries/exceptions-0.10.11-e9cb/Control-Monad-Catch.html	modified	2025-12-18
 https://downloads.haskell.org/ghc/9.12.3/docs/libraries/exceptions-0.10.10-e6c4/src/Control.Monad.Catch.html	modified	2025-12-26
 https://hackage.haskell.org/package/streaming-bytestring-0.3.0	N/A
@@ -31689,9 +31689,9 @@ https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6/docs	N/A
 https://hackage.haskell.org/package/streaming-bytestring-0.1.0.6/docs	N/A
 https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6	N/A
 https://hackage.haskell.org/package/streaming-bytestring-0.1.1.0	N/A
-https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0	N/A
+https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0	indexed	2026-07-27
 https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html	created	2023-05-13
-https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2	N/A
+https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2	indexed	2026-07-27
 https://github.com/haskell-hvr/http-io-streams	updated	2025-08-26
 https://packages.ubuntu.com/source/jammy/armhf/haskell-io-streams	N/A
 https://hackage.haskell.org/package/io-streams-1.5.2.0/docs/System-IO-Streams.html	N/A
@@ -31715,7 +31715,7 @@ https://hackage.haskell.org/package/http-types-0.7.0	N/A
 https://hackage.haskell.org/package/http-types-0.3.0	N/A
 https://hackage.haskell.org/package/http-types-0.7.3.0.1	N/A
 https://hackage.haskell.org/package/http-types-0.12.1/docs	N/A
-https://www.stackage.org/package/http-types	N/A
+https://www.stackage.org/package/http-types	indexed	2026-07-27
 https://packages.fedoraproject.org/pkgs/ghc-http-types/ghc-http-types-doc	N/A
 https://hackage.haskell.org/package/network-2.2.1.8/docs/Network-URI.html	N/A
 https://hackage.haskell.org/package/network	N/A
@@ -31723,7 +31723,7 @@ https://downloads.haskell.org/~ghc/6.4/docs/html/libraries/network/Network.URI.h
 https://www.haskell.org/hugs/pages/libraries/network/Network-URI.html	N/A
 https://downloads.haskell.org/~ghc/6.8.1/docs/html/libraries/network-2.1.0.0/Network-URI.html	modified	2019-02-15
 https://hackage-content.haskell.org/package/uri-bytestring-0.4.0.1/docs/URI-ByteString.html	N/A
-https://www.stackage.org/lts-7.19/package/network-uri-2.6.1.0	N/A
+https://www.stackage.org/lts-7.19/package/network-uri-2.6.1.0	indexed	2026-07-27
 https://hackage.haskell.org/package/http-client	N/A
 https://hackage.haskell.org/package/HTTP	N/A
 https://hackage.haskell.org/package/http-client-0.4.26.2/docs/Network-HTTP-Client.html	N/A
@@ -31751,8 +31751,8 @@ https://hackage.haskell.org/package/http-client-tls-0.3.4.1	N/A
 https://hackage.haskell.org/package/http-client-tls-0.3.5	N/A
 https://packages.debian.org/trixie/source/haskell-http-client-tls	N/A
 https://hackage-content.haskell.org/package/http-client-tls-0.3.6.4/docs/doc-index.html	N/A
-https://www.stackage.org/package/http-client-tls	N/A
-https://www.stackage.org/lts-24.3/package/http-client-tls	N/A
+https://www.stackage.org/package/http-client-tls	indexed	2026-07-27
+https://www.stackage.org/lts-24.3/package/http-client-tls	indexed	2026-07-27
 https://hackage.haskell.org/package/http-client-tls-0.2.1.2	N/A
 https://hackage-content-origin.haskell.org/package/tls-1.4.1	N/A
 https://hackage.haskell.org/package/tls-1.3.9	N/A
@@ -31761,7 +31761,7 @@ https://hackage.haskell.org/package/tls-1.0.3	N/A
 https://hackage.haskell.org/package/tls-1.7.1	N/A
 https://hackage-content-origin.haskell.org/package/tls-0.8.1	N/A
 https://hackage.haskell.org/package/tls-1.3.10	N/A
-https://www.stackage.org/package/tls	N/A
+https://www.stackage.org/package/tls	indexed	2026-07-27
 https://hackage.haskell.org/package/cryptostore	N/A
 https://hackage-content.haskell.org/package/tls-2.1.10/docs/src/Network.TLS.Parameters.html	N/A
 https://hackage.haskell.org/package/cryptostore-0.3.1.0	N/A
@@ -31790,7 +31790,7 @@ https://hackage.haskell.org/package/HaskellNet-0.6.2/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-0.6.0.2/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-SSL-0.3.4.4/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-SSL-0.3.1.0/docs	N/A
-https://www.stackage.org/lts-22.10/package/HaskellNet-0.6.1.2	N/A
+https://www.stackage.org/lts-22.10/package/HaskellNet-0.6.1.2	indexed	2026-07-27
 https://hackage.haskell.org/package/smtp-mail/docs/Network-Mail-SMTP.html	created	2026-03-09
 https://hackage.haskell.org/package/imap-0.3.0.0	N/A
 https://hackage.haskell.org/package/ismtp	N/A
@@ -31833,7 +31833,7 @@ https://packages.fedoraproject.org/pkgs/ghc-blaze-html/ghc-blaze-html-doc	N/A
 https://hackage.haskell.org/package/ihp-hsx	N/A
 https://packages.fedoraproject.org/pkgs/ghc-blaze-markup/ghc-blaze-markup-doc	N/A
 https://hackage.haskell.org/package/ihp-hsx-1.1.0	N/A
-https://www.stackage.org/package/blaze-html	N/A
+https://www.stackage.org/package/blaze-html	indexed	2026-07-27
 https://hackage.haskell.org/package/tagsoup/docs/Text-HTML-TagSoup.html	created	2019-05-01
 https://hackage.haskell.org/package/tagsoup/docs/doc-index.html	created	2019-05-01
 https://hackage.haskell.org/package/hxt-tagsoup	N/A
@@ -31887,7 +31887,7 @@ https://hackage-content.haskell.org/package/posix-api-0.7.3.0/docs/Linux-Epoll.h
 https://repository.gatech.edu/server/api/core/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/content	N/A
 https://hackage-content.haskell.org/package/unix-compat-0.7.4/docs/System-PosixCompat.html	N/A
 https://hackage.haskell.org/package/unix-compat-0.7	N/A
-https://www.stackage.org/package/unix-compat	N/A
+https://www.stackage.org/package/unix-compat	indexed	2026-07-27
 https://hackage.haskell.org/package/unix-compat-0.4.0.0/docs	N/A
 https://hackage.haskell.org/package/unix-2.8.0.0/changelog	N/A
 https://hackage.haskell.org/package/hpath-io-0.14.2	N/A
@@ -31918,8 +31918,8 @@ https://hackage.haskell.org/package/classy-prelude/docs/ClassyPrelude.html	creat
 https://hackage.haskell.org/package/classy-prelude-0.12.3/docs	N/A
 https://hackage.haskell.org/package/classy-prelude-0.5.4/docs	N/A
 https://packages.debian.org/trixie/doc/libghc-classy-prelude-doc	N/A
-https://www.stackage.org/lts-15.4/package/classy-prelude-1.5.0	N/A
-https://www.stackage.org/lts-10.2/package/classy-prelude-1.3.1	N/A
+https://www.stackage.org/lts-15.4/package/classy-prelude-1.5.0	indexed	2026-07-27
+https://www.stackage.org/lts-10.2/package/classy-prelude-1.3.1	indexed	2026-07-27
 https://hackage.haskell.org/package/brick-0.25	N/A
 https://hackage.haskell.org/package/brick-0.20	N/A
 https://hackage.haskell.org/package/brick-1.8	N/A
@@ -32057,7 +32057,7 @@ https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html	
 https://hackage-content.haskell.org/package/free-5.2/docs/Control-Monad-Free-Class.html	N/A
 https://okmij.org/ftp/tagless-final/nondet/nondet-paper.pdf	N/A
 https://hackage.haskell.org/package/fused-effects/docs	created	2026-05-05
-https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1	N/A
+https://www.stackage.org/lts-14.20/package/fused-effects-0.5.0.1	indexed	2026-07-27
 https://www.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/transformers/standard/readert/	N/A
 https://fpilluminated.org/downloadFromS3/24/2021-10-10-functional-core-imperative-shell-game-of-life-example-haskell-and-scala.pdf	created	2021
 https://hackage.haskell.org/package/HMock-0.3.0.0	N/A
@@ -32116,8 +32116,8 @@ https://hackage-content.haskell.org/package/co-log-core-0.3.2.5/docs/Colog-Core-
 https://hackage-content.haskell.org/package/polysemy-log-co-0.11.1.0/docs/Polysemy-Log-Colog.html	N/A
 https://hackage-content.haskell.org/package/data-effects-0.4.2.0/docs/Data-Effect-Log.html	N/A
 https://hackage.haskell.org/packages/tag/logging	N/A
-https://www.stackage.org/package/co-log	N/A
-https://www.stackage.org/package/co-log-core	N/A
+https://www.stackage.org/package/co-log	indexed	2026-07-27
+https://www.stackage.org/package/co-log-core	indexed	2026-07-27
 https://hackage.haskell.org/package/co-log-simple	N/A
 https://hackage.haskell.org/package/co-log-json	N/A
 https://hackage.haskell.org/package/co-log-effectful	N/A
@@ -32634,7 +32634,7 @@ https://input-output-hk.github.io/typed-protocols/typed-protocols/src/Network.Ty
 https://hackage.haskell.org/package/typed-protocols-1.1.0.1/candidate/src/stateful-cborg	N/A
 https://hackage.haskell.org/package/typed-encoding	N/A
 https://discourse.haskell.org/t/introduction-to-typed-session/10100	publication	2024-08-06
-https://www.stackage.org/package/stm	N/A
+https://www.stackage.org/package/stm	indexed	2026-07-27
 https://chinanet.mirrors.ustc.edu.cn/help/hackage.html	N/A
 https://mirrors.tuna.tsinghua.edu.cn/help/hackage/	publication	2026-07-26
 https://hackage.haskell.org/package/linear-socket	N/A
@@ -32695,8 +32695,8 @@ https://library.iitmandi.ac.in/os/local/Downloaded_ebooks/40.pdf	N/A
 https://www.scitepress.org/Papers/2013/43267/43267.pdf	created	2013
 https://hackage.haskell.org/package/servant-websockets	N/A
 https://hackage-content-origin.haskell.org/package/warp-1.3.7.5	N/A
-https://www.stackage.org/lts-10.10/package/warp-3.2.18	N/A
-https://www.stackage.org/lts-10.3/package/warp-3.2.13	N/A
+https://www.stackage.org/lts-10.10/package/warp-3.2.18	indexed	2026-07-27
+https://www.stackage.org/lts-10.3/package/warp-3.2.13	indexed	2026-07-27
 https://www.servant.dev/	N/A
 http://www.acm.jhu.edu/~nwf/fwh/08_yesod.pdf	N/A
 https://haskell.org/communities/05-2014/html/report.html	created	2014
@@ -32724,10 +32724,10 @@ https://granule-project.github.io/papers/esop22-paper.pdf	N/A
 https://mew.org/~kazu/doc/paper/hask035-voellmy.pdf	N/A
 https://downloads.haskell.org/~ghc/7.2.2/docs/html/libraries/ghc-7.2.2/src/PrimOp.html	modified	2019-02-15
 https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/base-4.11.1.0/GHC-Event.html	modified	2019-02-15
-https://www.stackage.org/package/ghc-prim	N/A
+https://www.stackage.org/package/ghc-prim	indexed	2026-07-27
 https://hackage-content.haskell.org/package/postgresql-migration-persistent-1.0.0/docs/PostgreSQL-Migration-Persistent.html	N/A
 https://hackage-content-origin.haskell.org/package/persistent-1.3.1.1	N/A
-https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1	N/A
+https://www.stackage.org/lts-8.15/package/persistent-postgresql-2.6.1	indexed	2026-07-27
 https://wespiser.com/writings/wyas/07_io.html	N/A
 https://research.chalmers.se/publication/500049/file/500049_Fulltext.pdf	N/A
 https://student.cs.uwaterloo.ca/~cs442/W25/videos/5.3/	N/A
@@ -32757,11 +32757,11 @@ https://prg.is.titech.ac.jp/papers/pdf/ifip21-slides.pdf	N/A
 https://link.springer.com/chapter/10.1007/978-0-307-98239-9_13	N/A
 https://hackage.haskell.org/package/bytestring-0.12.2.0/docs	N/A
 https://hackage.haskell.org/package/process-1.6.26.1/docs	N/A
-https://www.stackage.org/package/bytestring	N/A
-https://www.stackage.org/package/process	N/A
+https://www.stackage.org/package/bytestring	indexed	2026-07-27
+https://www.stackage.org/package/process	indexed	2026-07-27
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397	N/A
 https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html	created	2025
-https://www.stackage.org/lts-17.15/package/resourcet-1.2.4.2	N/A
+https://www.stackage.org/lts-17.15/package/resourcet-1.2.4.2	indexed	2026-07-27
 https://hackage.haskell.org/package/simpleprelude/docs/Prelude.html	created	2011-11-04
 https://hackage-content.haskell.org/package/stm-chans-3.0.0.11/docs/Control-Concurrent-STM-TMQueue.html	N/A
 https://packages.fedoraproject.org/pkgs/ghc-monad-control/ghc-monad-control-devel	N/A
@@ -32833,7 +32833,7 @@ https://icfp26.sigplan.org/home/hope-2026	created	2026
 https://doi.org/10.1145/3808259	N/A
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A33FE759BB81EA94A180798C92E16283/S0956796825100142a.pdf/div-class-title-hefty-algebras-modular-elaboration-of-higher-order-effects-div.pdf	N/A
 https://hackage.haskell.org/package/happstack-monad-peel/docs	created	2013-02-22
-https://www.stackage.org/package/http-conduit	N/A
+https://www.stackage.org/package/http-conduit	indexed	2026-07-27
 https://hackage-content.haskell.org/package/mstate-0.2.11/docs/Control-Concurrent-MState.html	N/A
 https://www.classcentral.com/index.php/course/youtube-haskell-23-haskell-for-choice-based-learning-347653	N/A
 https://www.classcentral.com/course/youtube-building-haskell-programs-with-fused-effects-by-patrick-thomson-166091	N/A
@@ -32866,12 +32866,12 @@ https://hackage.haskell.org/package/transformers-base-0.4.6/docs	N/A
 https://hackage.haskell.org/package/transformers-compat-0.4.0.2/docs	N/A
 https://hackage.haskell.org/package/exceptions-0.10.12/docs	N/A
 https://hackage.haskell.org/package/mtl-tf-0.2.0.0/docs	N/A
-https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3	N/A
+https://www.stackage.org/lts-6.30/package/MonadCatchIO-transformers-0.3.1.3	indexed	2016-05-25
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-transformers-compat/	N/A
 https://hackage.haskell.org/package/monads-tf/docs	created	2023-07-10
 https://hackage.haskell.org/package/monads-tf-0.1.0.3/docs	N/A
 https://packages.fedoraproject.org/pkgs/ghc-monads-tf/ghc-monads-tf-doc	N/A
-https://www.stackage.org/package/monads-tf	N/A
+https://www.stackage.org/package/monads-tf	indexed	2026-07-27
 https://packages.debian.org/source/stable/haskell-monads-tf	N/A
 https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/	created	2025
 https://hackage.haskell.org/package/effect-monad-0.7.0.0	N/A
@@ -32897,7 +32897,7 @@ https://hackage.haskell.org/package/control-monad-exception-0.5	N/A
 https://www.cs.toronto.edu/~trebla/CSCC24-2026-Summer/	created	2026
 https://www.cs.toronto.edu/~trebla/CSCC24-latest/	N/A
 https://is.muni.cz/course/fi/spring2026/IB016?lang=en%3Bzobrazmatob%3D1	created	2026
-https://www.stackage.org/lts-3.0/package/conduit-1.2.5	N/A
+https://www.stackage.org/lts-3.0/package/conduit-1.2.5	indexed	2026-07-27
 https://hackage.haskell.org/package/core-effect-effectful/docs/	created	2023-02-04
 https://hackage.haskell.org/package/extra-1.8/docs/Control-Exception-Extra.html	N/A
 https://hackage-content.haskell.org/package/base-4.22.0.0/docs/GHC-Exception.html	N/A
@@ -32921,7 +32921,7 @@ https://hackage.haskell.org/package/base-4.22.0.0/changelog	N/A
 https://hackage.haskell.org/package/safe-exceptions-0.1.7.4/docs	N/A
 https://igm.univ-mlv.fr/~vialette/teaching/2025-2026/E4/Examen-11-20-25/Lectures/lecture-01-first-steps.pdf	created	2025
 https://hackage-content.haskell.org/package/hspec-2.11.12	N/A
-https://www.stackage.org/lts-17.6/package/safe-exceptions-0.1.7.1	N/A
+https://www.stackage.org/lts-17.6/package/safe-exceptions-0.1.7.1	indexed	2026-07-27
 https://flora.pm/packages/%40hackage/fused-effects	N/A
 https://hackage.haskell.org/package/hspec-core-2.11.17	N/A
 https://discourse.haskell.org/t/rfc-hspec-quickcheck-classes-testing-typeclass-laws-from-hspec/13919	publication	2026-04-11
@@ -32942,7 +32942,7 @@ https://www.stackage.org/nightly-2026-03-23/package/effectful-2.6.1.0	created	20
 https://flora.pm/packages/%40hackage/effectful	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.SoOSiM	N/A
 https://www.haskell.org/ghc/docs/7.0.1/core.pdf	N/A
-https://www.stackage.org/lts-6.1/package/strict-0.3.2	N/A
+https://www.stackage.org/lts-6.1/package/strict-0.3.2	indexed	2026-07-27
 https://flora.pm/packages/%40hackage/monad-classes	N/A
 https://hackage.haskell.org/package/exception-transformers	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.effectful-core	N/A
@@ -32955,7 +32955,7 @@ https://icfp17.sigplan.org/series/icfp	N/A
 https://arxiv.org/abs/2601.02060	created	2026-01
 https://discourse.haskell.org/t/call-for-proposals-reviewing-testing-and-managing-llm-generated-haskell/14041	publication	2026-05-05
 https://www.stackage.org/di-monad	N/A
-https://www.stackage.org/lts-21.14/package/di-monad-1.3.2	N/A
+https://www.stackage.org/lts-21.14/package/di-monad-1.3.2	indexed	2026-07-27
 https://mynixos.com/nixpkgs/package/haskellPackages.io-region	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.io-storage	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.io-streams	N/A
@@ -32985,15 +32985,15 @@ https://mynixos.com/nixpkgs/package/haskellPackages.lifted-base	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.resourcet	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.conduit	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.streaming	N/A
-https://www.stackage.org/lts-24.49/package/monad-control-1.0.3.1	N/A
-https://www.stackage.org/lts-24.48/package/exceptions-0.10.9	N/A
-https://www.stackage.org/lts-7.24/package/monad-control-1.0.1.0	N/A
-https://www.stackage.org/lts-6.35/package/monad-control-1.0.1.0	N/A
+https://www.stackage.org/lts-24.49/package/monad-control-1.0.3.1	indexed	2026-07-27
+https://www.stackage.org/lts-24.48/package/exceptions-0.10.9	indexed	2026-07-27
+https://www.stackage.org/lts-7.24/package/monad-control-1.0.1.0	indexed	2026-07-27
+https://www.stackage.org/lts-6.35/package/monad-control-1.0.1.0	indexed	2026-07-27
 https://www.classcentral.com/course/youtube-effectful-pawel-szulc-lambda-days-2022-347191	created	2022
 https://discourse.haskell.org/t/videos-for-the-2025-haskell-ecosystem-workshop/12632	publication	2025-08-04
 https://hackage.haskell.org/package/effectful-2.6.1.0	N/A
-https://www.stackage.org/lts-23.14/package/fused-effects-1.1.2.4	N/A
-https://www.stackage.org/lts-23.13/package/resourcet-1.3.0	N/A
+https://www.stackage.org/lts-23.14/package/fused-effects-1.1.2.4	indexed	2026-07-27
+https://www.stackage.org/lts-23.13/package/resourcet-1.3.0	indexed	2026-07-27
 https://haskell.org/wikiupload/e/e9/Typeclassopedia.pdf	N/A
 https://www.youtube.com/playlist?list=PLQpeDZt0_xQfpBPdVV3hUZ3_pDxmYhsbr	N/A
 https://www.youtube.com/@HaskellFoundation	N/A
@@ -33001,7 +33001,7 @@ https://www.youtube.com/@HaskellImplementorsWorkshop	N/A
 https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html#video-recordings	created	2025
 https://www.reddit.com/r/haskell/comments/1mvgic6	N/A
 https://www.reddit.com/r/haskell/comments/1mvgj2k	N/A
-https://www.stackage.org/package/effectful-core/snapshots	N/A
+https://www.stackage.org/package/effectful-core/snapshots	indexed	2026-07-27
 https://www.haskell.org/pipermail/haskell-cafe/2007-July/027778.html	created	2007
 https://ir.cwi.nl/pub/22680	publication	2014-09-01
 https://mail.haskell.org/pipermail/haskell-cafe/2025-July/137171.html	created	2025
@@ -33030,9 +33030,9 @@ https://www.reddit.com/r/haskell/comments/1lvd5sv	N/A
 https://packages.debian.org/source/bookworm/haskell/	N/A
 https://packages.debian.org/source/bookworm/haskell-monadlib	N/A
 https://packages.debian.org/bookworm/libghc-monad-logger-prof	N/A
-https://www.stackage.org/lts-6.30/package/effect-handlers-0.1.0.8	N/A
+https://www.stackage.org/lts-6.30/package/effect-handlers-0.1.0.8	indexed	2018-03-10
 https://www.stackage.org/nightly-2021-08-23/package/extensible-effects-5.0.0.1	created	2021
-https://www.stackage.org/lts-22.25/package/silently-1.2.5.3	N/A
+https://www.stackage.org/lts-22.25/package/silently-1.2.5.3	indexed	2026-07-27
 https://archlinux.org/packages/extra/x86_64/haskell-transformers-base/	N/A
 https://is.archive.ubuntu.com/ubuntu/pool/universe/h/haskell-exception-transformers/	N/A
 https://portal.acm.org/citation.cfm?id=363749	N/A
@@ -33067,13 +33067,13 @@ https://entropicthoughts.com/haskell-procedural-programming	N/A
 https://discourse.haskell.org/t/abstracting-storage-details-with-effectful-first-blog-post/12190	publication	2025-05-28
 https://studentprojectcode.com/blog/what-is-the-io-type-in-haskell	publication	2025-09-15
 https://www.openscience.uz/index.php/sciedu/article/download/8060/7411/14770	N/A
-https://www.stackage.org/lts-16.0/package/resourcet-1.2.4.1	N/A
-https://www.stackage.org/lts-6.1/package/resourcet-1.1.7.4	N/A
+https://www.stackage.org/lts-16.0/package/resourcet-1.2.4.1	indexed	2026-07-27
+https://www.stackage.org/lts-6.1/package/resourcet-1.1.7.4	indexed	2026-07-27
 https://www.stackage.org/nightly-2016-10-23/package/resourcet-1.1.8	created	2016
 https://www.stackage.org/nightly-2015-11-27/package/resourcet-1.1.6	created	2015
 https://www.stackage.org/nightly-2015-04-30/package/resourcet-1.1.4.1	created	2015
 https://www.stackage.org/nightly-2026-06-19/package/resourcet-1.3.0	created	2026
-https://www.stackage.org/lts-21.22/package/resourcet-1.2.6	N/A
+https://www.stackage.org/lts-21.22/package/resourcet-1.2.6	indexed	2026-07-27
 https://packages.debian.org/bullseye/all/doc/libghc-io-storage-doc	N/A
 https://packages.debian.org/sid/libghc-iospec-dev	N/A
 https://packages.debian.org/unstable/haskell/libghc-io-storage-dev	N/A
@@ -33093,7 +33093,7 @@ https://www.reddit.com/r/haskell/comments/1mvgic6/haskell-ecosystem-workshop-hew
 https://archlinux.org/packages/extra/x86_64/haskell-io-streams/files/	N/A
 https://qa.debian.org/debcheck.php?dist=unstable&package=haskell-file-io	N/A
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html	N/A
-https://www.stackage.org/lts/package/unliftio-0.2.25.1	N/A
+https://www.stackage.org/lts/package/unliftio-0.2.25.1	indexed	2026-07-27
 https://hackage.haskell.org/package/exceptions-0.10.3	N/A
 https://hackage.haskell.org/package/fused-effects-exceptions	N/A
 https://www.stackage.org/package/fused-effects-exceptions	N/A
@@ -33135,15 +33135,15 @@ https://sources.debian.org/src/haskell-monad-memo	N/A
 https://dspace.library.uu.nl/handle/1874/18968	publication	1999
 https://archive.ubuntu.com/ubuntu/ubuntu/ubuntu/pool/universe/h/haskell-monad-memo/	N/A
 https://www.stackage.org/package/io-machine-0.2.0.0	N/A
-https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0	N/A
+https://www.stackage.org/lts-24.38/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://www.stackage.org/nightly-2026-05-01/package/io-machine-0.2.0.0	created	2026
-https://www.stackage.org/lts-24.29/package/io-storage-0.3	N/A
-https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4	N/A
+https://www.stackage.org/lts-24.29/package/io-storage-0.3	indexed	2026-07-27
+https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4	indexed	2026-07-27
 https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	N/A
 https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md	updated	2020-09-24
 https://gist.github.com/therewillbecode	N/A
 https://gist.github.com/FranklinChen/1448622	N/A
-https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2	N/A
+https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2	indexed	2022-11-17
 https://hackage-content.haskell.org/package/heftia-0.7.0.0/docs/Control-Monad-Hefty.html	N/A
 https://arxiv.org/abs/2406.07216	created	2024-06
 https://gist.github.com/vu3rdd/6409454	N/A
