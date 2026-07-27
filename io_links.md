@@ -4903,7 +4903,7 @@ https://www.nuget.org/packages/FSharp.FIO	published	2026-07-12
 https://cljdoc.org/d/pure-io/pure-io/0.1.0	N/A
 https://www.cl.cam.ac.uk/teaching/2006/FFuncProg/fofp.pdf	created	2006
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999904043363171c8050257c045&repid=rep1&type=pdf	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2@v2.3.58/io	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2@v2.3.58/io	published	2026-06-22
 https://gist.github.com/joergrathlev/f17092d3470dcf732be6	N/A
 https://gist.github.com/relrod/dd748c9ee0b111c3bd47	N/A
 https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html	created	2012
@@ -14303,46 +14303,46 @@ https://index.scala-lang.org/fwbrasil/quill	N/A
 https://docs.rs/higher/latest/higher/io/index.html	published	2023-01-18
 https://docs.scala-lang.org/overviews/scala-book/pure-functions.html	N/A
 https://docs.rs/crate/deep_causality_file/0.1.2	published	2026-07-08
-https://pkg.go.dev/github.com/denisdubochevalier/monad	N/A
+https://pkg.go.dev/github.com/denisdubochevalier/monad	published	2023-09-12
 https://docs.rs/x-pipe-rs/latest/x_pipe_rs/	published	2026-03-30
-https://pkg.go.dev/github.com/fogfish/gurl/v2	N/A
+https://pkg.go.dev/github.com/fogfish/gurl/v2	published	2023-03-19
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioref	N/A
 https://docs.rs/crate/terminal-juice/0.1.1	published	2023-08-15
 https://pkg.go.dev/github.com/IBM/fp-go/v2/idiomatic/ioresult	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/ioref	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/ioref	published	2026-03-30
 https://pkg.go.dev/github.com/IBM/fp-go/v2/iterator/iter	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/stateio	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2	published	2026-03-08
 https://pkg.go.dev/github.com/IBM/fp-go/v2/context/readerio	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readerio	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/io/generic	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readerio/generic	N/A
-https://pkg.go.dev/github.com/IBM/fp-go	N/A
+https://pkg.go.dev/github.com/IBM/fp-go	published	2023-10-10
 https://pkg.go.dev/github.com/IBM/fp-go/v2/io/file	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/io	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/internal/fromio	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/internal/fromio	published	2026-03-30
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readerioresult	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.21/ioeither	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/context/readerioresult	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.72/readeriooption	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.21/ioeither	published	2026-06-07
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/context/readerioresult	published	2026-03-30
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.72/readeriooption	published	2026-04-14
 https://pkg.go.dev/github.com/IBM/fp-go/v2/iooption	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readeriooption	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/idiomatic/readerioresult	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioeither/file	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/ioeither	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.58/context/readerioresult	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.75/idiomatic/readerioresult	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.58/context/readerioresult	published	2026-06-22
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.75/idiomatic/readerioresult	published	2026-06-30
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readerioeither	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/context	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/context	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readerreaderioeither	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.72/context/readerreaderioresult	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.72/context/readerreaderioresult	published	2026-04-14
 https://pkg.go.dev/github.com/IBM/fp-go/v2/context/readerreaderioresult	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/statereaderioeither	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/readerioeither	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/readerioeither/generic	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioeither/http	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.47/context/statereaderioresult	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.47/context/statereaderioresult	published	2026-06-16
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioresult/exec	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioresult/file	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/idiomatic/ioresult/exec	N/A
@@ -14352,15 +14352,15 @@ https://pkg.go.dev/github.com/IBM/fp-go/v2/idiomatic/ioresult/http	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/context/ioresult	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioresult/http/builder	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/context/readerioresult/http	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/context/readerioresult/http	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/context/readerioresult/http	published	2026-03-30
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioeither/http/builder	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.47/context/readerioresult/http/builder	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.47/context/readerioresult/http/builder	published	2026-06-16
 https://pkg.go.dev/github.com/IBM/fp-go/v2/context/statereaderioresult/testing	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/samples/mostly-adequate	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/ioeither/testing	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2/idiomatic/ioresult/testing	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.63/context/readerioresult	N/A
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.47/idiomatic/ioresult	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.63/context/readerioresult	published	2026-03-20
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.3.47/idiomatic/ioresult	published	2026-06-16
 https://pkg.go.dev/github.com/IBM/fp-go/readerioeither/generic	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/iooption/testing	N/A
 https://api.drum.lib.umd.edu/server/api/core/bitstreams/140d7bc8-4da5-4358-bea6-d0d79a87c0cc/content	N/A
@@ -14432,7 +14432,7 @@ https://www.nuget.org/packages/LanguageExt.Streaming/5.0.0-beta-75	published	202
 https://barrelfish.org/publications/TN-024-FiletOFish.pdf	N/A
 https://www.nuget.org/packages/FSharp.FIO/0.1.10-alpha	published	2026-06-24
 https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-24	published	2024-10-11
-https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/statereaderioeither	N/A
+https://pkg.go.dev/github.com/IBM/fp-go/v2%40v2.2.67/statereaderioeither	published	2026-03-30
 https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-57	published	2025-11-14
 https://www.nuget.org/packages/Monad.NET.SourceGenerators/	published	2026-02-23
 https://www.nuget.org/packages/LanguageExt.Core/5.0.0-beta-75	published	2025-12-29
