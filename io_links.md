@@ -31415,8 +31415,8 @@ https://haskell.org/definition/ffi/sec-primitive.html	N/A
 https://hackage.haskell.org/package/process-1.2.0.0/docs/System-Process.html	N/A
 https://pdxscholar.library.pdx.edu/open_access_etds/499/	N/A
 https://hackage.haskell.org/package/serialise	N/A
-https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Tutorial.html	N/A
-https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Encoding.html	N/A
+https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Tutorial.html	created	2023-11-14
+https://hackage.haskell.org/package/serialise/docs/Codec-Serialise-Encoding.html	created	2023-11-14
 https://hackage.haskell.org/package/cborg	N/A
 https://hackage.haskell.org/package/binary-serialise-cbor	N/A
 https://hackage.haskell.org/package/serialise-0.2.2.0	N/A
@@ -31425,7 +31425,7 @@ https://hackage.haskell.org/package/cborg-json	N/A
 https://citeseerx.ist.psu.edu/document?doi=19d9fb03cc0e9747b1208535cbe2751749b39dac&repid=rep1&type=pdf	N/A
 https://hackage.haskell.org/package/aeson	N/A
 https://hackage-content-origin.haskell.org/package/aeson-2.3.0.0	N/A
-https://hackage.haskell.org/package/aeson/docs/Data-Aeson.html	N/A
+https://hackage.haskell.org/package/aeson/docs/Data-Aeson.html	created	2026-07-05
 https://hackage-content-origin.haskell.org/package/aeson-2.2.0.0	N/A
 https://archives.haskell.org/code.haskell.org/binary/	N/A
 https://downloads.haskell.org/~ghc/6.12.2/docs/html/libraries/ghc-binary-0.5.0.2/Data-Binary.html	N/A
@@ -31438,7 +31438,7 @@ https://hackage.haskell.org/package/katip-0.3.1.4/docs/doc-index.html	N/A
 https://hackage-content.haskell.org/package/katip-0.8.8.3/docs/doc-index-All.html	N/A
 https://www.stackage.org/lts-22.44/package/katip-0.8.8.2	N/A
 https://kowainik.github.io/projects/co-log	N/A
-https://hackage.haskell.org/package/fast-logger/docs/System-Log-FastLogger.html	N/A
+https://hackage.haskell.org/package/fast-logger/docs/System-Log-FastLogger.html	created	2025-06-23
 https://hackage.haskell.org/package/fast-logger-3.2.0/docs	N/A
 https://hackage.haskell.org/package/fast-logger-3.0.0/docs	N/A
 https://hackage.haskell.org/package/fast-logger-2.4.17/docs	N/A
@@ -31447,7 +31447,7 @@ https://hackage.haskell.org/package/temporary-1.1/docs/src/System-IO-Temp.html	N
 https://hackage-content.haskell.org/package/extra-1.8/docs/src/System.IO.Extra.html	N/A
 https://hackage.haskell.org/package/fsnotify	N/A
 https://hackage-content.haskell.org/package/fsnotify-0.4.3.0/docs/System-FSNotify-Devel.html	N/A
-https://hackage.haskell.org/package/temporary/docs/src/System.IO.Temp.html	N/A
+https://hackage.haskell.org/package/temporary/docs/src/System.IO.Temp.html	created	2018-04-10
 https://downloads.haskell.org/ghc/latest/docs/libraries/Cabal-3.16.0.0-d85b/Distribution-Simple-Utils.html	N/A
 https://downloads.haskell.org/ghc/8.4-latest/docs/html/libraries/ghc-8.4.4/FileCleanup.html	N/A
 https://downloads.haskell.org/~ghc/8.0.2/docs/html/libraries/Cabal-1.24.2.0/Distribution-Simple-Utils.html	N/A
@@ -31462,13 +31462,13 @@ https://hackage-content.haskell.org/package/bytestring-0.12.1.0/docs/Data-ByteSt
 https://hackage.haskell.org/package/utf8-string/docs/Data-ByteString-UTF8.html	N/A
 https://downloads.haskell.org/ghc/7.8.4/docs/html/libraries/bytestring-0.10.4.0/Data-ByteString.html	N/A
 https://hackage-content.haskell.org/package/bytestring-0.12.2.0/docs/Data-ByteString-Internal.html	N/A
-https://hackage.haskell.org/package/bytestring/docs/Data-ByteString.html	N/A
+https://hackage.haskell.org/package/bytestring/docs/Data-ByteString.html	created	2024-12-06
 https://downloads.haskell.org/~ghc/6.6/docs/html/libraries/base/Data-ByteString.html	N/A
 https://downloads.haskell.org/~ghc/7.0.4/docs/html/libraries/bytestring-0.9.1.10/Data-ByteString.html	N/A
 https://downloads.haskell.org/ghc/6.12.3/docs/html/libraries/base-4.2.0.2/GHC-IO-Encoding.html	N/A
 https://downloads.haskell.org/~ghc/latest/docs/libraries/text-2.1.3-075e/Data-Text-Encoding.html	N/A
 https://downloads.haskell.org/~ghc/7.10.3/docs/html/libraries/base-4.8.2.0/GHC-IO-Encoding-Types.html	N/A
-https://hackage.haskell.org/package/bytestring-encoding/docs/Data-ByteString-Encoding.html	N/A
+https://hackage.haskell.org/package/bytestring-encoding/docs/Data-ByteString-Encoding.html	created	2022-01-28
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Encoding.html	N/A
 https://hackage.haskell.org/package/optparse-applicative	N/A
 https://hackage.haskell.org/package/optparse-applicative-0.14.0.0	N/A
@@ -31484,7 +31484,7 @@ https://hackage.haskell.org/package/terminal	N/A
 https://sources.debian.org/src/haskell-ansi-terminal/1.1.5-1/README.md	N/A
 https://www.cse.sc.edu/~mgv/csce330f22/haskell/Haskell_wiki.pdf	N/A
 https://mail.haskell.org/pipermail/beginners/2010-March/003692.html	created	2010
-https://hackage.haskell.org/package/WAVE/docs/Data-WAVE.html	N/A
+https://hackage.haskell.org/package/WAVE/docs/Data-WAVE.html	created	2020-04-02
 https://hackage-search.serokell.io/viewfile/wahsp-0.2/Web/Audio.hs	N/A
 https://web.cecs.pdx.edu/~mpj/pubs/plos07.html	N/A
 https://hackage.haskell.org/package/usb-1.3.0.6	N/A
@@ -31495,8 +31495,8 @@ https://hackage.haskell.org/package/bindings-libusb	N/A
 https://hackage.haskell.org/package/ls-usb	N/A
 https://hackage.haskell.org/package/usb-enumerator	N/A
 https://hackage.haskell.org/package/serial	N/A
-https://hackage.haskell.org/package/linux-evdev/docs	N/A
-https://hackage.haskell.org/package/linux-evdev/docs/doc-index.html	N/A
+https://hackage.haskell.org/package/linux-evdev/docs	created	2016-04-13
+https://hackage.haskell.org/package/linux-evdev/docs/doc-index.html	created	2016-04-13
 https://hackage.haskell.org/package/hsI2C-0.1.3	N/A
 https://hackage-content.haskell.org/package/evdev-2.3.1.2/docs/Evdev.html	N/A
 https://hackage.haskell.org/package/hpio-0.8.0.1	N/A
@@ -31533,8 +31533,8 @@ https://repology.org/project/haskell%3Aamazonka-s3-streaming/packages	N/A
 https://tech.freckle.com/2023/09/22/using-amazonka-2-0/	publication	2023-09-22
 https://hackage.haskell.org/package/amazonka-s3-1.6.1	N/A
 https://gitlab.ifi.lmu.de/uni2work/haskell/minio-hs/-/blob/v1.5.1/minio-hs.cabal?ref_type=tags	N/A
-https://hackage.haskell.org/package/minio-hs/docs/Network-Minio-S3API.html	N/A
-https://hackage.haskell.org/package/minio-hs/docs/Network-Minio.html	N/A
+https://hackage.haskell.org/package/minio-hs/docs/Network-Minio-S3API.html	created	2023-05-22
+https://hackage.haskell.org/package/minio-hs/docs/Network-Minio.html	created	2023-05-22
 https://hackage.haskell.org/package/minio-hs-1.0.1/docs/Network-Minio.html	N/A
 https://hackage.haskell.org/package/google-cloud-storage-1.1.0.0	N/A
 https://min-io.cn/docs/minio/linux/developers/haskell/minio-haskell.html	N/A
@@ -31553,7 +31553,7 @@ https://hackage.haskell.org/package/amqp-streamly	N/A
 https://hackage.haskell.org/package/redis	N/A
 https://hackage.haskell.org/package/redis-0.14.2	N/A
 https://hackage.haskell.org/package/kafka-client	N/A
-https://hackage.haskell.org/package/zeromq-haskell/docs/System-ZMQ.html	N/A
+https://hackage.haskell.org/package/zeromq-haskell/docs/System-ZMQ.html	created	2012-03-08
 https://hackage.haskell.org/package/zeromq3-haskell	N/A
 https://hackage-content.haskell.org/package/zeromq4-haskell-0.8.0/docs/System-ZMQ4.html	N/A
 https://hackage-content.haskell.org/package/zeromq4-haskell-0.8.0/docs/System-ZMQ4-Monadic.html	N/A
@@ -31566,11 +31566,11 @@ https://api.pageplace.de/preview/DT0400.9781449334451_A24456662/preview-97814493
 https://hackage.haskell.org/package/zeromq4-haskell-0.6.4	N/A
 https://hackage.haskell.org/package/http-conduit-2.2.3	N/A
 https://hackage.haskell.org/package/http-conduit-1.8.2.1/docs	N/A
-https://hackage.haskell.org/package/websockets/docs/Network-WebSockets.html	N/A
+https://hackage.haskell.org/package/websockets/docs/Network-WebSockets.html	created	2023-12-30
 https://hackage.haskell.org/package/websockets-0.9.6.1/docs/Network-WebSockets.html	N/A
 https://hackage.haskell.org/package/websockets-0.3.1.0/docs/Network-WebSockets.html	N/A
 https://hackage.haskell.org/package/websockets-0.8.2.2/docs/Network-WebSockets.html	N/A
-https://hackage.haskell.org/package/wss-client/docs/Network-WebSockets-Client.html	N/A
+https://hackage.haskell.org/package/wss-client/docs/Network-WebSockets-Client.html	created	2019-11-26
 https://hackage-content.haskell.org/package/websockets-0.12.7.3/src/	N/A
 https://archlinux.org/packages/extra/x86_64/haskell-websockets/	N/A
 https://hackage.haskell.org/package/http-conduit-1.2.6/docs/Network-HTTP-Conduit.html	N/A
@@ -31587,7 +31587,7 @@ https://hackage.haskell.org/package/servant-client-0.4.2	N/A
 https://docs.servant.dev/en/latest/index.html	N/A
 https://docs.servant.dev/_/downloads/en/v0.7/pdf/	N/A
 https://docs.servant.dev/_/downloads/en/v0.14.1/pdf/	N/A
-https://hackage.haskell.org/package/wai/docs/Network-Wai-Internal.html	N/A
+https://hackage.haskell.org/package/wai/docs/Network-Wai-Internal.html	created	2023-12-10
 https://hackage.haskell.org/package/wai-3.2.2/docs/Network-Wai.html	N/A
 https://packages.debian.org/source/stable/haskell-wai-middleware-static	N/A
 https://hackage-content.haskell.org/package/wai-extra-3.1.18/docs/Network-Wai-Middleware-Select.html	N/A
@@ -31612,7 +31612,7 @@ https://hackage.haskell.org/package/grpc-haskell-0.1.0	N/A
 https://hackage-content.haskell.org/package/proto3-wire-1.4.6/docs/Proto3-Wire-Decode.html	N/A
 https://hackage.haskell.org/package/grapesy	N/A
 https://hackage.haskell.org/package/capnp	N/A
-https://hackage.haskell.org/package/capnp/docs/Capnp-Tutorial.html	N/A
+https://hackage.haskell.org/package/capnp/docs/Capnp-Tutorial.html	created	2023-06-23
 https://hackage.haskell.org/package/capnp-0.6.0.0	N/A
 https://hackage.haskell.org/package/thrift	N/A
 https://hackage.haskell.org/package/capnp-0.3.0.0	N/A
@@ -31645,7 +31645,7 @@ https://hackage.haskell.org/package/opaleye-0.4.1.0	N/A
 https://hackage.haskell.org/package/esqueleto-2.5.3/docs/Database-Esqueleto.html	N/A
 https://hackage.haskell.org/package/esqueleto-2.4.1/docs/Database-Esqueleto.html	N/A
 https://hackage.haskell.org/package/esqueleto-3.0.0	N/A
-https://hackage.haskell.org/package/persistent-eventsource/docs	N/A
+https://hackage.haskell.org/package/persistent-eventsource/docs	created	2023-01-20
 https://hackage.haskell.org/package/esqueleto-3.5.8.0	N/A
 https://hackage.haskell.org/package/zlib-conduit-0.5.0.3	N/A
 https://hackage.haskell.org/package/zlib-conduit-0.2.0.1	N/A
@@ -31653,7 +31653,7 @@ https://hackage.haskell.org/package/zlib-conduit-0.4.0/docs	N/A
 https://hackage.haskell.org/package/zlib-conduit-0.2.0.1/docs	N/A
 https://hackage.haskell.org/package/tar	N/A
 https://hackage-content.haskell.org/package/tar-0.7.0.0/docs/Codec-Archive-Tar-Index.html	N/A
-https://hackage.haskell.org/package/tar-conduit/docs/Data-Conduit-Tar.html	N/A
+https://hackage.haskell.org/package/tar-conduit/docs/Data-Conduit-Tar.html	created	2024-01-06
 https://hackage.haskell.org/package/io-streams-1.3.6.0	N/A
 https://hackage.haskell.org/package/zlib	N/A
 https://hackage.haskell.org/package/zip-1.7.2	N/A
@@ -31690,15 +31690,15 @@ https://hackage.haskell.org/package/streaming-bytestring-0.1.0.6/docs	N/A
 https://hackage.haskell.org/package/streaming-bytestring-0.1.4.6	N/A
 https://hackage.haskell.org/package/streaming-bytestring-0.1.1.0	N/A
 https://www.stackage.org/lts-17.15/package/streaming-bytestring-0.2.0	N/A
-https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html	N/A
+https://hackage.haskell.org/package/streaming-conduit/docs/Streaming-Conduit.html	created	2023-05-13
 https://www.stackage.org/lts-24.50/package/io-streams-1.5.2.2	N/A
 https://github.com/haskell-hvr/http-io-streams	N/A
 https://packages.ubuntu.com/source/jammy/armhf/haskell-io-streams	N/A
 https://hackage.haskell.org/package/io-streams-1.5.2.0/docs/System-IO-Streams.html	N/A
-https://hackage.haskell.org/package/http-types/docs/Network-HTTP-Types-URI.html	N/A
+https://hackage.haskell.org/package/http-types/docs/Network-HTTP-Types-URI.html	created	2026-05-31
 https://hackage.haskell.org/package/http-types	N/A
-https://hackage.haskell.org/package/http-types/docs	N/A
-https://hackage.haskell.org/package/network-uri/docs/Network-URI.html	N/A
+https://hackage.haskell.org/package/http-types/docs	created	2026-05-31
+https://hackage.haskell.org/package/network-uri/docs/Network-URI.html	created	2022-12-27
 https://hackage.haskell.org/package/http-types-0.12.3	N/A
 https://hackage.haskell.org/package/network-2.5.0.0/docs/Network-URI.html	N/A
 https://hackage-content.haskell.org/package/http-types-0.8.6	N/A
@@ -31730,12 +31730,12 @@ https://hackage.haskell.org/package/http-client-0.4.26.2/docs/Network-HTTP-Clien
 https://hackage.haskell.org/package/http-client-0.3.2/docs/Network-HTTP-Client.html	N/A
 https://hackage.haskell.org/package/http-client-0.4.1/docs/Network-HTTP-Client.html	N/A
 https://hackage.haskell.org/package/http-common	N/A
-https://hackage.haskell.org/package/http-common/docs/Network-Http-Types.html	N/A
+https://hackage.haskell.org/package/http-common/docs/Network-Http-Types.html	created	2021-08-21
 https://hackage.haskell.org/package/http-client-0.7.13.1	N/A
 https://hackage.haskell.org/package/http-client-0.7.7	N/A
-https://hackage.haskell.org/package/io-streams-http/docs/System-IO-Streams-HTTP.html	N/A
+https://hackage.haskell.org/package/io-streams-http/docs/System-IO-Streams-HTTP.html	created	2015-05-01
 https://hackage.haskell.org/package/cookie	N/A
-https://hackage.haskell.org/package/clientsession/docs/Web-ClientSession.html	N/A
+https://hackage.haskell.org/package/clientsession/docs/Web-ClientSession.html	created	2024-07-14
 https://hackage-content.haskell.org/package/clientsession-0.8.0.1	N/A
 https://hackage.haskell.org/package/cookie-0.4.0.1/docs/Web-Cookie.html	N/A
 https://hackage.haskell.org/package/hoauth2	N/A
@@ -31768,8 +31768,8 @@ https://hackage.haskell.org/package/cryptostore-0.3.1.0	N/A
 https://hackage-content.haskell.org/package/crypton-connection-0.4.4/docs/src/Network.Connection.Types.html	N/A
 https://haskell.github.io/security-advisories/by-packages.html	N/A
 https://hackage.haskell.org/package/connection	N/A
-https://hackage.haskell.org/package/connection/docs/Network-Connection.html	N/A
-https://hackage.haskell.org/package/connection/docs	N/A
+https://hackage.haskell.org/package/connection/docs/Network-Connection.html	created	2019-09-02
+https://hackage.haskell.org/package/connection/docs	created	2019-09-02
 https://hackage.haskell.org/package/x509-store	N/A
 https://hackage.haskell.org/package/conduit-connection	N/A
 https://hackage.haskell.org/package/network-connection	N/A
@@ -31791,12 +31791,12 @@ https://hackage.haskell.org/package/HaskellNet-0.6.0.2/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-SSL-0.3.4.4/docs	N/A
 https://hackage.haskell.org/package/HaskellNet-SSL-0.3.1.0/docs	N/A
 https://www.stackage.org/lts-22.10/package/HaskellNet-0.6.1.2	N/A
-https://hackage.haskell.org/package/smtp-mail/docs/Network-Mail-SMTP.html	N/A
+https://hackage.haskell.org/package/smtp-mail/docs/Network-Mail-SMTP.html	created	2026-03-09
 https://hackage.haskell.org/package/imap-0.3.0.0	N/A
 https://hackage.haskell.org/package/ismtp	N/A
 https://hackage.haskell.org/package/imap-0.3.0.8/docs	N/A
-https://hackage.haskell.org/package/smtp-mail-ng/docs	N/A
-https://hackage.haskell.org/package/hsmtpclient/docs	N/A
+https://hackage.haskell.org/package/smtp-mail-ng/docs	created	2015-07-07
+https://hackage.haskell.org/package/hsmtpclient/docs	created	2009-08-26
 https://hackage.haskell.org/package/hxt	N/A
 https://hackage.haskell.org/package/hxt-9.3.1.13	N/A
 https://hackage.haskell.org/package/hxt-9.3.1.0	N/A
@@ -31812,21 +31812,21 @@ https://hackage.haskell.org/package/xml-conduit-1.6.0	N/A
 https://packages.guix.gnu.org/packages/ghc-html-conduit	N/A
 https://packages.debian.org/trixie/doc/libghc-html-conduit-doc	N/A
 https://hackage.haskell.org/package/blaze-html	N/A
-https://hackage.haskell.org/package/hxt/docs/Text-XML-HXT-Core.html	N/A
+https://hackage.haskell.org/package/hxt/docs/Text-XML-HXT-Core.html	created	2021-03-21
 https://hackage.haskell.org/package/blaze-html-0.1/docs	N/A
-https://hackage.haskell.org/package/blaze-html/docs	N/A
-https://hackage.haskell.org/package/hxt/docs	N/A
+https://hackage.haskell.org/package/blaze-html/docs	created	2024-03-06
+https://hackage.haskell.org/package/hxt/docs	created	2021-03-21
 https://hackage.haskell.org/package/blaze-html-0.3.0.1/docs/Text-Blaze.html	N/A
 https://hackage.haskell.org/package/blaze-html-0.4.1.4/docs/Text-Blaze-Internal.html	N/A
 https://hackage.haskell.org/package/tagsoup	N/A
-https://hackage.haskell.org/package/html-conduit/docs	N/A
-https://hackage.haskell.org/package/tagsoup-ht/docs	N/A
+https://hackage.haskell.org/package/html-conduit/docs	created	2021-08-16
+https://hackage.haskell.org/package/tagsoup-ht/docs	created	2009-03-04
 https://hackage-content.haskell.org/package/tagsoup-0.6/src/tagsoup.htm	N/A
 https://hackage.haskell.org/package/html-conduit-1.3.1	N/A
 https://hackage.haskell.org/package/tagsoup-0.1/docs	N/A
 https://hackage.haskell.org/package/tagsoup-0.14.1	N/A
-https://hackage.haskell.org/package/blaze-markup/docs/Text-Blaze.html	N/A
-https://hackage.haskell.org/package/blaze-markup/docs	N/A
+https://hackage.haskell.org/package/blaze-markup/docs/Text-Blaze.html	created	2023-09-25
+https://hackage.haskell.org/package/blaze-markup/docs	created	2023-09-25
 https://packages.debian.org/source/stable/haskell-blaze-html	N/A
 https://hackage.haskell.org/package/blaze-html-0.9.0.0	N/A
 https://packages.fedoraproject.org/pkgs/ghc-blaze-html/ghc-blaze-html-doc	N/A
@@ -31834,19 +31834,19 @@ https://hackage.haskell.org/package/ihp-hsx	N/A
 https://packages.fedoraproject.org/pkgs/ghc-blaze-markup/ghc-blaze-markup-doc	N/A
 https://hackage.haskell.org/package/ihp-hsx-1.1.0	N/A
 https://www.stackage.org/package/blaze-html	N/A
-https://hackage.haskell.org/package/tagsoup/docs/Text-HTML-TagSoup.html	N/A
-https://hackage.haskell.org/package/tagsoup/docs/doc-index.html	N/A
+https://hackage.haskell.org/package/tagsoup/docs/Text-HTML-TagSoup.html	created	2019-05-01
+https://hackage.haskell.org/package/tagsoup/docs/doc-index.html	created	2019-05-01
 https://hackage.haskell.org/package/hxt-tagsoup	N/A
 https://hackage.haskell.org/package/fast-tagsoup	N/A
 https://hackage.haskell.org/package/configurator-0.3.0.0	N/A
 https://hackage.haskell.org/package/config-ini	N/A
-https://hackage.haskell.org/package/ConfigFile/docs/Data-ConfigFile.html	N/A
+https://hackage.haskell.org/package/ConfigFile/docs/Data-ConfigFile.html	created	2014-10-30
 https://hackage.haskell.org/package/tini	N/A
 https://hackage.haskell.org/package/config-ini-0.2.7.0	N/A
-https://hackage.haskell.org/package/config-ini/docs	N/A
+https://hackage.haskell.org/package/config-ini/docs	created	2023-11-05
 https://hackage.haskell.org/package/config-ini-0.2.1.0	N/A
 https://hackage.haskell.org/packages/tag/csv	N/A
-https://hackage.haskell.org/package/cassava/docs	N/A
+https://hackage.haskell.org/package/cassava/docs	created	2025-09-02
 https://hackage.haskell.org/package/cassava-0.5.5.0/docs	N/A
 https://hackage-content.haskell.org/package/cassava-0.4.1.0	N/A
 https://hackage.haskell.org/package/cassava-0.2.1.2/docs	N/A
@@ -31855,7 +31855,7 @@ https://hackage-content.haskell.org/package/cassava-0.5.4.1/docs/Data-Csv.html	N
 https://hackage.haskell.org/package/aeson-yaml	N/A
 https://hackage.haskell.org/package/yaml	N/A
 https://hackage.haskell.org/package/cereal	N/A
-https://hackage.haskell.org/package/cereal/docs	N/A
+https://hackage.haskell.org/package/cereal/docs	created	2022-08-09
 https://hackage.haskell.org/package/cassava-megaparsec	N/A
 https://hackage.haskell.org/package/HsYAML	N/A
 https://hackage.haskell.org/package/random	N/A
@@ -31874,7 +31874,7 @@ https://downloads.haskell.org/~ghc/6.0/docs/html/base/System.Random.html	N/A
 https://hackage.haskell.org/package/mwc-random	N/A
 https://hackage.haskell.org/package/entropy-0.4.1.11	N/A
 https://hackage.haskell.org/package/fused-effects-mwc-random	N/A
-https://hackage.haskell.org/package/crypto-random/docs/src/Crypto-Random-Entropy.html	N/A
+https://hackage.haskell.org/package/crypto-random/docs/src/Crypto-Random-Entropy.html	created	2015-03-18
 https://hackage.haskell.org/package/tf-random	N/A
 https://hackage.haskell.org/package/async-2.2.5/candidate	N/A
 https://hackage.haskell.org/package/async-pool	N/A
@@ -31893,7 +31893,7 @@ https://hackage.haskell.org/package/unix-2.8.0.0/changelog	N/A
 https://hackage.haskell.org/package/hpath-io-0.14.2	N/A
 https://hackage.haskell.org/package/file-io	N/A
 https://hackage.haskell.org/package/hpath-posix-0.13.2	N/A
-https://hackage.haskell.org/package/hpath-io/docs	N/A
+https://hackage.haskell.org/package/hpath-io/docs	created	2021-03-08
 https://hackage.haskell.org/package/Z-IO-0.1.3.0/docs/Z-IO-FileSystem.html	N/A
 https://hackage.haskell.org/package/FileSystem/docs	N/A
 https://hackage.haskell.org/package/posix-paths	N/A
