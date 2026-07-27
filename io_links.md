@@ -20038,5006 +20038,5006 @@ https://www.haskell.org/definition/haskell-library-1.4-html.tar.gz	N/A
 https://hackage.haskell.org/package/dialogue-0.1.0	N/A
 https://hackage.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz	N/A
 https://hackage-content.haskell.org/package/dialogue-0.1.0	N/A
-https://hackage-content.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz
-https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Continuation.html
-https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Dialogue.html
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/doc-index.html
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html
-https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html
-https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/doc-index.html
-https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html
-https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html
-https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Continuation.hs?ref=master
-https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Dialogue.hs?ref=master
-https://api.github.com/repos/noughtmare/free-io/contents/src/System/IO/Free.hs?ref=main
-https://github.com/AliasQli/dialogue/blob/master/dialogue.cabal
-https://github.com/AliasQli/dialogue/blob/master/README.md
-https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Continuation.hs
-https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Dialogue.hs
-https://github.com/AliasQli/dialogue/archive/refs/heads/master.zip
-https://github.com/noughtmare/free-io/blob/main/free-io.cabal
-https://github.com/noughtmare/free-io/blob/main/src/System/IO/Free.hs
-https://github.com/noughtmare/free-io/archive/refs/heads/main.zip
-https://raw.githubusercontent.com/AliasQli/dialogue/master/dialogue.cabal
-https://raw.githubusercontent.com/AliasQli/dialogue/master/README.md
-https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Continuation.hs
-https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Dialogue.hs
-https://raw.githubusercontent.com/noughtmare/free-io/main/free-io.cabal
-https://raw.githubusercontent.com/noughtmare/free-io/main/src/System/IO/Free.hs
-https://codeload.github.com/AliasQli/dialogue/zip/refs/heads/master
-https://codeload.github.com/noughtmare/free-io/zip/refs/heads/main
-https://api.github.com/repos/AliasQli/dialogue/git/trees/master?recursive=1
-https://github.com/AliasQli/dialogue/blob/master/ChangeLog.md
-https://raw.githubusercontent.com/AliasQli/dialogue/master/ChangeLog.md
-https://api.github.com/repos/AliasQli/dialogue/contents/ChangeLog.md?ref=master
-https://github.com/AliasQli/dialogue/blob/master/examples/Main.hs
-https://raw.githubusercontent.com/AliasQli/dialogue/master/examples/Main.hs
-https://api.github.com/repos/AliasQli/dialogue/contents/examples/Main.hs?ref=master
-https://github.com/AliasQli/dialogue/archive/refs/heads/master.tar.gz
-https://codeload.github.com/AliasQli/dialogue/tar.gz/refs/heads/master
-https://api.github.com/repos/noughtmare/free-io/git/trees/main?recursive=1
-https://github.com/noughtmare/free-io/blob/main/CHANGELOG.md
-https://raw.githubusercontent.com/noughtmare/free-io/main/CHANGELOG.md
-https://api.github.com/repos/noughtmare/free-io/contents/CHANGELOG.md?ref=main
-https://github.com/noughtmare/free-io/blob/main/example/Main.hs
-https://raw.githubusercontent.com/noughtmare/free-io/main/example/Main.hs
-https://api.github.com/repos/noughtmare/free-io/contents/example/Main.hs?ref=main
-https://github.com/noughtmare/free-io/archive/refs/heads/main.tar.gz
-https://codeload.github.com/noughtmare/free-io/tar.gz/refs/heads/main
-https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad/
-https://studylib.net/doc/13548648/using-monads-to-structure-computation-monadic-i-o
-https://studylib.net/download/13548648
-https://dblp.org/rec/phd/ethos/Gordon92.nt
-https://dblp.org/rec/phd/ethos/Gordon92.ttl
-https://dblp.org/rec/phd/ethos/Gordon92.rdf
-https://dblp.org/rec/phd/ethos/Gordon92.txt
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.bib
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ris
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.nt
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ttl
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.rdf
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.xml
-https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.txt
-https://studylib.net/doc/25980160/manning.functional.programming.in.scala.2014.8
-https://www.grafiati.com/en/literature-selections/computer-input-output-equipment-eye/
-https://doi.org/10.1017/S0960129598002709
-https://dblp.org/rec/conf/fpca/Gordon93.nt
-https://dblp.org/rec/conf/fpca/Gordon93.ttl
-https://dblp.org/rec/conf/fpca/Gordon93.rdf
-https://dblp.org/rec/conf/fpca/Gordon93.txt
-https://dblp.org/rec/journals/mscs/CroleG99
-https://dblp.org/rec/journals/mscs/CroleG99.html
-https://dblp.org/rec/journals/mscs/CroleG99.bib
-https://dblp.org/rec/journals/mscs/CroleG99.ris
-https://dblp.org/rec/journals/mscs/CroleG99.nt
-https://dblp.org/rec/journals/mscs/CroleG99.ttl
-https://dblp.org/rec/journals/mscs/CroleG99.rdf
-https://dblp.org/rec/journals/mscs/CroleG99.xml
-https://dblp.org/rec/journals/mscs/CroleG99.txt
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.bib
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ris
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.nt
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ttl
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.rdf
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.xml
-https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.txt
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.html
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.bib
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ris
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.nt
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ttl
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.rdf
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.xml
-https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.txt
-https://dblp.org/rec/conf/popl/JonesW93.nt
-https://dblp.org/rec/conf/popl/JonesW93.ttl
-https://dblp.org/rec/conf/popl/JonesW93.rdf
-https://dblp.org/rec/conf/popl/JonesW93.txt
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.html
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.bib
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ris
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.nt
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ttl
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.rdf
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.xml
-https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.txt
-https://dblp.org/rec/journals/csur/Wadler97.nt
-https://dblp.org/rec/journals/csur/Wadler97.ttl
-https://dblp.org/rec/journals/csur/Wadler97.rdf
-https://dblp.org/rec/journals/csur/Wadler97.xml
-https://dblp.org/rec/journals/csur/Wadler97.txt
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.html
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.bib
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ris
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.nt
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ttl
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.rdf
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.xml
-https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.txt
-https://dblp.org/rec/conf/slp/Wadler95
-https://dblp.org/rec/conf/slp/Wadler95.nt
-https://dblp.org/rec/conf/slp/Wadler95.ttl
-https://dblp.org/rec/conf/slp/Wadler95.rdf
-https://dblp.org/rec/conf/slp/Wadler95.xml
-https://dblp.org/rec/conf/slp/Wadler95.txt
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.html
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.bib
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ris
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.nt
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ttl
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.rdf
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.xml
-https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.txt
-https://dblp.org/rec/conf/pldi/LaunchburyJ94
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.bib
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.ris
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.nt
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.ttl
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.rdf
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.xml
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.txt
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.html
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.bib
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ris
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.nt
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ttl
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.rdf
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.xml
-https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.txt
-https://dblp.org/rec/conf/iclp/LaunchburyJ94
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.html
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.bib
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.ris
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.nt
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.ttl
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.rdf
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.xml
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.txt
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.html
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.bib
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ris
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.nt
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ttl
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.rdf
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.xml
-https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.txt
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.html
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.bib
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ris
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.nt
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ttl
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.rdf
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.xml
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.txt
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.html
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.bib
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ris
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.nt
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ttl
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.rdf
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.xml
-https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.txt
-https://webarchive.di.uminho.pt/web.archive.org/web/20090217092139/http%3A/haskell.org/haskellwiki/History_of_Haskell.html
-https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470050118.ecse164
-https://dblp.org/rec/conf/afp/Wadler95.nt
-https://dblp.org/rec/conf/afp/Wadler95.ttl
-https://dblp.org/rec/conf/afp/Wadler95.rdf
-https://dblp.org/rec/conf/afp/Wadler95.xml
-https://dblp.org/rec/conf/afp/Wadler95.txt
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.html
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.bib
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ris
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.nt
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ttl
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.rdf
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.xml
-https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.txt
-https://dblp.org/rec/conf/hopl/HudakHJW07
-https://dblp.org/rec/conf/hopl/HudakHJW07.html
-https://dblp.org/rec/conf/hopl/HudakHJW07.bib
-https://dblp.org/rec/conf/hopl/HudakHJW07.ris
-https://dblp.org/rec/conf/hopl/HudakHJW07.nt
-https://dblp.org/rec/conf/hopl/HudakHJW07.ttl
-https://dblp.org/rec/conf/hopl/HudakHJW07.rdf
-https://dblp.org/rec/conf/hopl/HudakHJW07.xml
-https://dblp.org/rec/conf/hopl/HudakHJW07.txt
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.html
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.bib
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ris
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.nt
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ttl
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.rdf
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.xml
-https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.txt
-https://dblp.org/rec/conf/popl/JonesFG96
-https://dblp.org/rec/conf/popl/JonesFG96.html
-https://dblp.org/rec/conf/popl/JonesFG96.bib
-https://dblp.org/rec/conf/popl/JonesFG96.ris
-https://dblp.org/rec/conf/popl/JonesFG96.nt
-https://dblp.org/rec/conf/popl/JonesFG96.ttl
-https://dblp.org/rec/conf/popl/JonesFG96.rdf
-https://dblp.org/rec/conf/popl/JonesFG96.xml
-https://dblp.org/rec/conf/popl/JonesFG96.txt
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.html
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.bib
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ris
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.nt
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ttl
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.rdf
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.xml
-https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.txt
-https://www.cs.unibo.it/~sangio/DOC_public/logBis.pdf
-https://www.sussex.ac.uk/informatics/cogslib/reports/compsci/cs031996.pdf
-https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_49.html
-https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_106.html
-https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_109.html
-https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_112.html
-https://www.asaj.org/papers/hoots97.pdf
-https://dblp.org/rec/conf/lics/Jeffrey95
-https://dblp.org/rec/conf/lics/Jeffrey95.html
-https://dblp.org/rec/conf/lics/Jeffrey95.bib
-https://dblp.org/rec/conf/lics/Jeffrey95.ris
-https://dblp.org/rec/conf/lics/Jeffrey95.nt
-https://dblp.org/rec/conf/lics/Jeffrey95.ttl
-https://dblp.org/rec/conf/lics/Jeffrey95.rdf
-https://dblp.org/rec/conf/lics/Jeffrey95.xml
-https://dblp.org/rec/conf/lics/Jeffrey95.txt
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.html
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.bib
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ris
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.nt
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ttl
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.rdf
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.xml
-https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.txt
-https://dblp.org/rec/journals/entcs/Jeffrey95
-https://dblp.org/rec/journals/entcs/Jeffrey95.html
-https://dblp.org/rec/journals/entcs/Jeffrey95.bib
-https://dblp.org/rec/journals/entcs/Jeffrey95.ris
-https://dblp.org/rec/journals/entcs/Jeffrey95.nt
-https://dblp.org/rec/journals/entcs/Jeffrey95.ttl
-https://dblp.org/rec/journals/entcs/Jeffrey95.rdf
-https://dblp.org/rec/journals/entcs/Jeffrey95.xml
-https://dblp.org/rec/journals/entcs/Jeffrey95.txt
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.html
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.bib
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ris
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.nt
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ttl
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.rdf
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.xml
-https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.txt
-https://dblp.org/rec/journals/tcs/Jeffrey99
-https://dblp.org/rec/journals/tcs/Jeffrey99.html
-https://dblp.org/rec/journals/tcs/Jeffrey99.bib
-https://dblp.org/rec/journals/tcs/Jeffrey99.ris
-https://dblp.org/rec/journals/tcs/Jeffrey99.nt
-https://dblp.org/rec/journals/tcs/Jeffrey99.ttl
-https://dblp.org/rec/journals/tcs/Jeffrey99.rdf
-https://dblp.org/rec/journals/tcs/Jeffrey99.xml
-https://dblp.org/rec/journals/tcs/Jeffrey99.txt
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.html
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.bib
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ris
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.nt
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ttl
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.rdf
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.xml
-https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.txt
-https://archlinux.org/packages/extra/x86_64/haskell-free/
-https://dblp.org/rec/journals/jfp/WestphalV25.html
-https://dblp.org/rec/journals/jfp/WestphalV25.bib
-https://dblp.org/rec/journals/jfp/WestphalV25.ris
-https://dblp.org/rec/journals/jfp/WestphalV25.nt
-https://dblp.org/rec/journals/jfp/WestphalV25.ttl
-https://dblp.org/rec/journals/jfp/WestphalV25.rdf
-https://dblp.org/rec/journals/jfp/WestphalV25.xml
-https://dblp.org/rec/journals/jfp/WestphalV25.txt
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.html
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.bib
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ris
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.nt
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ttl
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.rdf
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.xml
-https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.txt
-https://dblp.org/rec/journals/corr/abs-2008-09253.nt
-https://dblp.org/rec/journals/corr/abs-2008-09253.ttl
-https://dblp.org/rec/journals/corr/abs-2008-09253.rdf
-https://dblp.org/rec/journals/corr/abs-2008-09253.txt
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.html
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.bib
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.ris
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.nt
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.ttl
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.rdf
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.xml
-https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.txt
-https://dblp.org/rec/journals/corr/abs-1210-0611
-https://dblp.org/rec/journals/corr/abs-1210-0611.html
-https://dblp.org/rec/journals/corr/abs-1210-0611.bib
-https://dblp.org/rec/journals/corr/abs-1210-0611.ris
-https://dblp.org/rec/journals/corr/abs-1210-0611.nt
-https://dblp.org/rec/journals/corr/abs-1210-0611.ttl
-https://dblp.org/rec/journals/corr/abs-1210-0611.rdf
-https://dblp.org/rec/journals/corr/abs-1210-0611.xml
-https://dblp.org/rec/journals/corr/abs-1210-0611.txt
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.html
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.bib
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ris
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.nt
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ttl
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.rdf
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.xml
-https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.txt
-https://repos.ecosyste.ms/hosts/GitHub/owners/expipiplus1?page=1&per_page=100
-https://api.github.com/repos/alexandersgreen/qio-haskell
-https://api.github.com/repos/alexandersgreen/qio-haskell/git/trees/master?recursive=1
-https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.zip
-https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.tar.gz
-https://codeload.github.com/alexandersgreen/qio-haskell/zip/refs/heads/master
-https://codeload.github.com/alexandersgreen/qio-haskell/tar.gz/refs/heads/master
-https://github.com/alexandersgreen/qio-haskell/blob/master/LICENSE
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/LICENSE
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/LICENSE?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO.cabal
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO.cabal
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO.cabal?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Heap.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Heap.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Heap.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QArith.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QArith.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QArith.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QExamples.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QExamples.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QExamples.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QIORandom.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QIORandom.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QIORandom.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qdata.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qdata.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qdata.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qft.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qft.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qft.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qio.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qio.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qio.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioClass.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioClass.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioClass.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSyn.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSyn.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSyn.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSynAlt.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSynAlt.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSynAlt.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Shor.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Shor.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Shor.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Vec.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Vec.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Vec.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/VecEq.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/VecEq.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/VecEq.hs?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/README.md
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/README.md
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/README.md?ref=master
-https://github.com/alexandersgreen/qio-haskell/blob/master/Setup.hs
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/Setup.hs
-https://api.github.com/repos/alexandersgreen/qio-haskell/contents/Setup.hs?ref=master
-https://hackage-content.haskell.org/package/QIO-1.0.tar.gz
-https://hackage.haskell.org/package/QIO-1.0/docs/QIO.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Heap.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QArith.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QExamples.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QIORandom.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qdata.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qft.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qio.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioClass.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioSyn.html
-https://hackage.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Shor.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Vec.html
-https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-VecEq.html
-https://hackage-content.haskell.org/package/QIO-1.1.tar.gz
-https://hackage-content.haskell.org/package/QIO-1.2.tar.gz
-https://hackage.haskell.org/package/QIO-1.2/docs/QIO.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Heap.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QArith.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QExamples.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QIORandom.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qdata.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qft.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qio.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioClass.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioSyn.html
-https://hackage.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Shor.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Vec.html
-https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-VecEq.html
-https://hackage-content.haskell.org/package/QIO-1.3.tar.gz
-https://hackage.haskell.org/package/QIO-1.3/docs/QIO.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Heap.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QArith.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QExamples.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QIORandom.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Qdata.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Qft.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Qio.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QioClass.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QioSyn.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QioSynAlt.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Shor.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Vec.html
-https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-VecEq.html
-https://api.github.com/repos/lambdabot/IOSpec
-https://api.github.com/repos/lambdabot/IOSpec/git/trees/master?recursive=1
-https://github.com/lambdabot/IOSpec/archive/refs/heads/master.zip
-https://github.com/lambdabot/IOSpec/archive/refs/heads/master.tar.gz
-https://codeload.github.com/lambdabot/IOSpec/zip/refs/heads/master
-https://codeload.github.com/lambdabot/IOSpec/tar.gz/refs/heads/master
-https://github.com/lambdabot/IOSpec/blob/master/.gitignore
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/.gitignore
-https://api.github.com/repos/lambdabot/IOSpec/contents/.gitignore?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/IOSpec.cabal
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/IOSpec.cabal
-https://api.github.com/repos/lambdabot/IOSpec/contents/IOSpec.cabal?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/LICENSE
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/LICENSE
-https://api.github.com/repos/lambdabot/IOSpec/contents/LICENSE?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/README
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/README
-https://api.github.com/repos/lambdabot/IOSpec/contents/README?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/Setup.lhs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/Setup.lhs
-https://api.github.com/repos/lambdabot/IOSpec/contents/Setup.lhs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/examples/Channels.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Channels.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Channels.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/examples/Echo.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Echo.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Echo.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/examples/Queues.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Queues.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Queues.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/examples/Refs.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Refs.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Refs.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/examples/Sudoku.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Sudoku.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Sudoku.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/index.html
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/index.html
-https://api.github.com/repos/lambdabot/IOSpec/contents/index.html?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Fork.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Fork.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Fork.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/IORef.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/IORef.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/IORef.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/MVar.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/MVar.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/MVar.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/STM.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/STM.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/STM.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Surrogate.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Surrogate.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Surrogate.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Teletype.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Teletype.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Teletype.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Types.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Types.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Types.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/VirtualMachine.hs
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/VirtualMachine.hs
-https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/VirtualMachine.hs?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/www/cabal.png
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/cabal.png
-https://api.github.com/repos/lambdabot/IOSpec/contents/www/cabal.png?ref=master
-https://github.com/lambdabot/IOSpec/blob/master/www/unsafe.jpg
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/unsafe.jpg
-https://api.github.com/repos/lambdabot/IOSpec/contents/www/unsafe.jpg?ref=master
-https://hackage.haskell.org/package/IOSpec-0.1/IOSpec-0.1.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.1.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.1.1.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.1.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.2.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.3.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.4.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.5.tar.gz
-https://hackage.haskell.org/package/IOSpec-0.2.6/IOSpec-0.2.6.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2.6.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.3.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1.tar.gz
-https://hackage.haskell.org/package/IOSpec-0.3.1.2/IOSpec-0.3.1.2.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2.tar.gz
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-VirtualMachine.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Fork.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-IORef.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-MVar.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-STM.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Surrogate.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Teletype.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Types.html
-https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-VirtualMachine.html
-https://api.github.com/repos/input-output-hk/io-sim
-https://api.github.com/repos/input-output-hk/io-sim/git/trees/main?recursive=1
-https://github.com/input-output-hk/io-sim/archive/refs/heads/main.zip
-https://github.com/input-output-hk/io-sim/archive/refs/heads/main.tar.gz
-https://codeload.github.com/input-output-hk/io-sim/zip/refs/heads/main
-https://codeload.github.com/input-output-hk/io-sim/tar.gz/refs/heads/main
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/README.md
-https://api.github.com/repos/input-output-hk/io-sim/contents/README.md?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadFork.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadST.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSay.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTest.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTime.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/CHANGELOG.md
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/CHANGELOG.md
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/CHANGELOG.md?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/LICENSE
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/LICENSE
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/LICENSE?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/NOTICE
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/NOTICE
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/NOTICE?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/README.md
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/README.md
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/README.md?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/bench/Main.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/bench/Main.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/bench/Main.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/how-to-use-IOSimPOR.md
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/how-to-use-IOSimPOR.md
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/how-to-use-IOSimPOR.md?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/io-sim.cabal
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/io-sim.cabal
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/io-sim.cabal?ref=main
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/CommonTypes.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Internal.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Internal.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/Internal.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/InternalTypes.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/STM.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/STM.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/STM.hs?ref=main
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Types.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/Types.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Internal.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Types.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/Deque/Strict.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/Deque/Strict.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Data/Deque/Strict.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/List/Trace.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/List/Trace.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Data/List/Trace.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Main.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Main.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Main.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSim.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSim.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/IOSim.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/IOSimPOR.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/STM.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/STM.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/STM.hs?ref=main
-https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/Utils.hs
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/Utils.hs
-https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/Utils.hs?ref=main
-https://hackage.haskell.org/package/io-classes-1.0.0.0/io-classes-1.0.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.0.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.0.0.1/io-classes-1.0.0.1.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.0.0.1.tar.gz
-https://hackage.haskell.org/package/io-classes-1.1.0.0/io-classes-1.1.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.1.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.2.0.0/io-classes-1.2.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.2.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.3.0.0/io-classes-1.3.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.3.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.3.1.0/io-classes-1.3.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.3.1.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.4.0.0/io-classes-1.4.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.4.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.4.1.0/io-classes-1.4.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.4.1.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.5.0.0/io-classes-1.5.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.5.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.6.0.0/io-classes-1.6.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.6.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.7.0.0/io-classes-1.7.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.7.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.8.0.0/io-classes-1.8.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.8.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.8.0.1/io-classes-1.8.0.1.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.8.0.1.tar.gz
-https://hackage.haskell.org/package/io-classes-1.9.0.0/io-classes-1.9.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.9.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.10.0.0/io-classes-1.10.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.10.0.0.tar.gz
-https://hackage.haskell.org/package/io-classes-1.10.1.0/io-classes-1.10.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-classes-1.10.1.0.tar.gz
-https://api.github.com/repos/input-output-hk/fs-sim
-https://api.github.com/repos/input-output-hk/fs-sim/git/trees/main?recursive=1
-https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.zip
-https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.tar.gz
-https://codeload.github.com/input-output-hk/fs-sim/zip/refs/heads/main
-https://codeload.github.com/input-output-hk/fs-sim/tar.gz/refs/heads/main
-https://github.com/input-output-hk/fs-sim/blob/main/CONTRIBUTING.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/CONTRIBUTING.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/CONTRIBUTING.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/LICENSE
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/LICENSE
-https://api.github.com/repos/input-output-hk/fs-sim/contents/LICENSE?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/NOTICE
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/NOTICE
-https://api.github.com/repos/input-output-hk/fs-sim/contents/NOTICE?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/README.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/README.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/README.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/SECURITY.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/SECURITY.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/SECURITY.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/CHANGELOG.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/CHANGELOG.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/CHANGELOG.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/LICENSE
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/LICENSE
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/LICENSE?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/NOTICE
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/NOTICE
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/NOTICE?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/README.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/README.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/README.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/fs-api.cabal
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/fs-api.cabal
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/fs-api.cabal?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-unix/System/FS/IO/Unix.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-unix/System/FS/IO/Unix.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src-unix/System/FS/IO/Unix.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-win32/System/FS/IO/Windows.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-win32/System/FS/IO/Windows.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src-win32/System/FS/IO/Windows.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Lazy.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Lazy.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Lazy.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Strict.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Strict.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Strict.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Types.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Types.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Types.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CRC.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CRC.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/CRC.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CallStack.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CallStack.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/CallStack.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/Condense.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/Condense.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/Condense.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/IO.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO/Handle.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO/Handle.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/IO/Handle.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Main.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Main.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Main.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/API/FsPath.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/API/FsPath.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Test/System/FS/API/FsPath.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/IO.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/IO.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Test/System/FS/IO.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/CHANGELOG.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/CHANGELOG.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/CHANGELOG.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/LICENSE
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/LICENSE
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/LICENSE?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/NOTICE
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/NOTICE
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/NOTICE?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/README.md
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/README.md
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/README.md?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/fs-sim.cabal
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/fs-sim.cabal
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/fs-sim.cabal?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Error.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Error.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Error.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/FsTree.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/FsTree.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/FsTree.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/MockFS.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/MockFS.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/MockFS.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Prim.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Prim.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Prim.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/STM.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/STM.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/STM.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Stream.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Stream.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Stream.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Main.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Main.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Main.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Error.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Error.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/Error.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/FsTree.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Stream.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Stream.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/Stream.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/StateMachine.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/StateMachine.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/StateMachine.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/RefEnv.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/RefEnv.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/RefEnv.hs?ref=main
-https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/WithEntryCounter.hs
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/WithEntryCounter.hs
-https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/WithEntryCounter.hs?ref=main
-https://hackage.haskell.org/package/fs-api-0.3.0.0
-https://hackage.haskell.org/package/fs-api-0.3.0.0/fs-api-0.3.0.0.tar.gz
-https://hackage-content.haskell.org/package/fs-api-0.3.0.0.tar.gz
-https://hackage.haskell.org/package/fs-api-0.3.0.1
-https://hackage.haskell.org/package/fs-api-0.3.0.1/fs-api-0.3.0.1.tar.gz
-https://hackage-content.haskell.org/package/fs-api-0.3.0.1.tar.gz
-https://hackage.haskell.org/package/fs-api-0.4.0.0
-https://hackage.haskell.org/package/fs-api-0.4.0.0/fs-api-0.4.0.0.tar.gz
-https://hackage-content.haskell.org/package/fs-api-0.4.0.0.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.3.0.0
-https://hackage.haskell.org/package/fs-sim-0.3.0.0/fs-sim-0.3.0.0.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.3.0.0.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.3.0.1
-https://hackage.haskell.org/package/fs-sim-0.3.0.1/fs-sim-0.3.0.1.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.3.0.1.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.3.1.0
-https://hackage.haskell.org/package/fs-sim-0.3.1.0/fs-sim-0.3.1.0.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.3.1.0.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.4.0.0/fs-sim-0.4.0.0.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.4.0.0.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.4.1.0
-https://hackage.haskell.org/package/fs-sim-0.4.1.0/fs-sim-0.4.1.0.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.4.1.0.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.5.0.0
-https://hackage.haskell.org/package/fs-sim-0.5.0.0/fs-sim-0.5.0.0.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.5.0.0.tar.gz
-https://hackage.haskell.org/package/fs-sim-0.5.0.1
-https://hackage.haskell.org/package/fs-sim-0.5.0.1/fs-sim-0.5.0.1.tar.gz
-https://hackage-content.haskell.org/package/fs-sim-0.5.0.1.tar.gz
-https://api.github.com/repos/IntersectMBO/lsm-tree
-https://api.github.com/repos/IntersectMBO/lsm-tree/git/trees/main?recursive=1
-https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.zip
-https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.tar.gz
-https://codeload.github.com/IntersectMBO/lsm-tree/zip/refs/heads/main
-https://codeload.github.com/IntersectMBO/lsm-tree/tar.gz/refs/heads/main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/CHANGELOG.md
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/CHANGELOG.md
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/CHANGELOG.md?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/LICENSE
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/LICENSE
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/LICENSE?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/NOTICE
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/NOTICE
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/NOTICE?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/README.md
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/README.md
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/README.md?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/blockio.cabal
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/blockio.cabal
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/blockio.cabal?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Async.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Async.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Async.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Internal.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-macos/System/FS/BlockIO/Internal.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-sim/System/FS/BlockIO/Sim.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-sim/System/FS/BlockIO/Sim.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-sim/System/FS/BlockIO/Sim.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-windows/System/FS/BlockIO/Internal.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-windows/System/FS/BlockIO/Internal.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-windows/System/FS/BlockIO/Internal.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/API.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/API.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/API.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/IO.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO/Internal.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO/Internal.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/IO/Internal.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/Serial.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/Serial/Internal.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test-sim/Main.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test-sim/Main.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test-sim/Main.hs?ref=main
-https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test/Main.hs
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test/Main.hs
-https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test/Main.hs?ref=main
-https://hackage.haskell.org/package/blockio-0.1.0.0
-https://hackage.haskell.org/package/blockio-0.1.0.0/blockio-0.1.0.0.tar.gz
-https://hackage-content.haskell.org/package/blockio-0.1.0.0.tar.gz
-https://hackage.haskell.org/package/blockio-0.1.0.1
-https://hackage.haskell.org/package/blockio-0.1.0.1/blockio-0.1.0.1.tar.gz
-https://hackage-content.haskell.org/package/blockio-0.1.0.1.tar.gz
-https://hackage.haskell.org/package/blockio-0.1.1.0
-https://hackage.haskell.org/package/blockio-0.1.1.0/blockio-0.1.1.0.tar.gz
-https://hackage-content.haskell.org/package/blockio-0.1.1.0.tar.gz
-https://hackage.haskell.org/package/blockio-0.1.1.1
-https://hackage.haskell.org/package/blockio-0.1.1.1/blockio-0.1.1.1.tar.gz
-https://hackage-content.haskell.org/package/blockio-0.1.1.1.tar.gz
-https://hackage.haskell.org/package/blockio-0.1.1.2
-https://hackage.haskell.org/package/blockio-0.1.1.2/blockio-0.1.1.2.tar.gz
-https://hackage-content.haskell.org/package/blockio-0.1.1.2.tar.gz
-https://hackage.haskell.org/package/blockio-0.2.0.0
-https://hackage.haskell.org/package/blockio-0.2.0.0/blockio-0.2.0.0.tar.gz
-https://hackage-content.haskell.org/package/blockio-0.2.0.0.tar.gz
-https://hackage.haskell.org/packages/tag/io
-https://repository.tudelft.nl/file/File_6157c7f8-9e15-49c6-aaa4-d0ccc8e06c2d
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem.hs?ref=master
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/Effect.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/Effect.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/Effect.hs?ref=master
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO.hs?ref=master
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString.hs?ref=master
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs?ref=master
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs?ref=master
-https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/File.hs
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/File.hs
-https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/File.hs?ref=master
-https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO.html
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html
-https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-File.html
-https://hackage.haskell.org/package/io-sim-1.0.0.0/io-sim-1.0.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.0.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.0.0.1/io-sim-1.0.0.1.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.0.0.1.tar.gz
-https://hackage.haskell.org/package/io-sim-1.1.0.0/io-sim-1.1.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.1.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.2.0.0/io-sim-1.2.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.2.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.3.0.0/io-sim-1.3.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.3.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.3.1.0/io-sim-1.3.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.3.1.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.4.0.0/io-sim-1.4.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.4.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.4.1.0/io-sim-1.4.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.4.1.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.5.0.0/io-sim-1.5.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.5.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.5.1.0/io-sim-1.5.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.5.1.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.6.0.0/io-sim-1.6.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.6.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.8.0.0/io-sim-1.8.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.8.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.8.0.1/io-sim-1.8.0.1.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.8.0.1.tar.gz
-https://hackage.haskell.org/package/io-sim-1.9.0.0/io-sim-1.9.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.9.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.9.1.0/io-sim-1.9.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.9.1.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.10.0.0/io-sim-1.10.0.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.10.0.0.tar.gz
-https://hackage.haskell.org/package/io-sim-1.10.1.0/io-sim-1.10.1.0.tar.gz
-https://hackage-content.haskell.org/package/io-sim-1.10.1.0.tar.gz
-https://stackoverflow.com/questions/22875449/stdin-and-stdout-handle
-https://www.youtube.com/watch?v=ZSJW4jp8K08
-https://www.youtube.com/watch?v=BFgmrO-c0Ec
-https://www.youtube.com/watch?v=3q8xYFDYLeI
-https://www.youtube.com/watch?v=cHfZEdxtVjU
-https://www.youtube.com/watch?v=Ug9yJnOYR4U
-https://www.youtube.com/watch?v=F3ppFRcTyHE
-https://www.youtube.com/watch?v=PlFgKV0ZXoE
-https://media.ccc.de/v/bob2022-concurrent-programs-in-haskell-kant/oembed
-https://cdn.media.ccc.de/events/bobkonf/2022/h264-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_hd.mp4
-https://cdn.media.ccc.de/events/bobkonf/2022/h264-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_sd.mp4
-https://cdn.media.ccc.de/events/bobkonf/2022/webm-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_webm-hd.webm
-https://cdn.media.ccc.de/events/bobkonf/2022/webm-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_webm-sd.webm
-https://cdn.media.ccc.de/events/bobkonf/2022/mp3/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_mp3.mp3
-https://cdn.media.ccc.de/events/bobkonf/2022/opus/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_opus.opus
-https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/06_ioMonad.pdf
-https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/IOMonad.hs
-http://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation
-http://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_containers
-http://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside
-https://www.sylvain-henry.info/home/data/uploads/talks/shenry-2013-02-05-haskell-intro.pdf
-https://web.archive.org/web/20150222005715/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20150222071213/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20150412164224/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20150423185704/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20150423185705/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20150423212232/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20150601212938/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20150907175013/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20150909064806/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20150909140633/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20150909212047/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20160304025255/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20160320105006/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20160320113152/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20160429025331/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20160430080500/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20160911104809/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20160913232415/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20160914053153/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20170115004719/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20170321162041/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20170407055135/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20170407082614/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20171002220513/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20171214023936/http://wiki.haskell.org:80/Monads_as_computation
-https://web.archive.org/web/20171214235146/http://wiki.haskell.org:80/Monads_as_containers
-https://web.archive.org/web/20181116131730/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20181121204035/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20181208115832/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20181208131913/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20181208140935/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20190528041116/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20190528041124/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20190718085432/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20190721205452/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20190721210231/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20190822154053/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20190822162353/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20190826102230/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20190917192613/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20190922232927/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20190923083339/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20191016004852/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20191031075931/http://wiki.haskell.org:80/Monads_as_computation
-https://web.archive.org/web/20191031093330/http://wiki.haskell.org:80/Monads_as_containers
-https://web.archive.org/web/20191113224110/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20191114230350/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20191122193055/http://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20191124064030/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20191210154510/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20191213092649/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20191216071949/http://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20200126233516/http://wiki.haskell.org:80/Monads_as_containers
-https://web.archive.org/web/20200127055736/http://wiki.haskell.org:80/Monads_as_computation
-https://web.archive.org/web/20200513181136/http://wiki.haskell.org:80/IO_inside
-https://web.archive.org/web/20200713085429/http://wiki.haskell.org:80/IO_inside
-https://web.archive.org/web/20200720161139/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20200806144511/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20200807095101/http://wiki.haskell.org/Monads_as_Computation
-https://web.archive.org/web/20200813005732/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20200814004414/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20200818215238/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20200821103900/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20200821103901/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20200925035051/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20201108032615/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20201109023225/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20201109025507/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20201109032321/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20201111202705/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20201125023506/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20201127183127/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20201129074739/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210115145834/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20210121070028/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210123023841/http://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20210123121441/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210123152532/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210126120932/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210211035115/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210214131044/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210217161736/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210219093417/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20210413221055/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210413224356/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210413225308/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210416214338/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210419035501/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210421231518/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20210422002508/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210423121415/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210513144030/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210513165654/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20210514084756/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210526161702/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210609021703/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210620014952/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20210702155901/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210702155915/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20210728214020/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20210731100034/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20210802133223/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20211008092523/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20211008165114/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20211020033156/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20211022040417/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad
-https://web.archive.org/web/20211024154729/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20211026005153/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20211121172742/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20211128131305/https://wiki.haskell.org/Monads_as_Computation
-https://web.archive.org/web/20220123035237/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20220123035242/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20220125020637/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20220402223511/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20220402223545/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20220421114909/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20220606174323/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20220701050847/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20220707085817/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20220708134955/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20220708233654/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20220726203035/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20220817082122/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad
-https://web.archive.org/web/20220929104808/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20221009143617/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20221011113158/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20221012122934/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20221014064000/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20221020141052/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20221024044043/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20221130162224/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20221130164456/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20221206062823/http://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20221206191412/http://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230118160005/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230130154558/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230131213352/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230131213447/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230206124417/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20230224082237/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230316150511/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230316174935/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230317075443/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230318105851/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230318105853/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230326020011/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230326020020/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230329203852/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230522174122/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230530013243/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230601190912/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230603151849/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20230604083039/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230605040044/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20230619125751/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230704224820/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230815210240/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230926033916/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230926163105/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20230928090935/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20230930170953/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad
-https://web.archive.org/web/20231002180255/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20231104070800/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20231106212509/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20231128010503/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20231202051052/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20231208071412/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20231210135617/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20231225061543/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240103132713/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20240220232110/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20240221082842/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20240403060537/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20240415040512/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20240416114801/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20240525111616/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240529220500/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240530140228/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20240607081530/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20240626164712/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240713090236/http://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240713221331/http://wiki.haskell.org/Monads_as_Computation
-https://web.archive.org/web/20240718113537/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240721045103/http://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20240721203620/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20240722012910/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20240725104749/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20240909213150/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20241007140011/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20241016084510/http://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20241019230835/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20241123014825/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20241127020710/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20241202001404/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20241227050241/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250114210129/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20250120123801/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250122145245/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250123103053/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20250207190011/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20250208030239/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20250307200850/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250307200918/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20250311191503/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250418213048/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250605165649/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250620162909/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250719041219/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20250723091827/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250729043258/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20250808092413/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20250817173537/https://wiki.haskell.org/Monads_as_Computation
-https://web.archive.org/web/20250921125332/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20251002114734/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20251008194817/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20251026204313/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20251026204413/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20251117223434/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20251223223310/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20251224154518/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20260101065727/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20260210232850/https://wiki.haskell.org/Monads_as_containers
-https://web.archive.org/web/20260302080701/https://wiki.haskell.org/Monads_as_Containers
-https://web.archive.org/web/20260303010259/https://wiki.haskell.org/Monads_as_computation
-https://web.archive.org/web/20260422061504/https://wiki.haskell.org/IO_inside
-https://web.archive.org/web/20150910194211/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20191021223213/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20210923021259/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20211206155033/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20230322054729/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20231130044425/http://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20240222065906/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20240415092124/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20240813120557/http://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20241011084506/https://wiki.haskell.org/Lazy_IO
-https://web.archive.org/web/20250527223545/https://wiki.haskell.org/Lazy_IO
-https://wiki.haskell.org/Lazy_IO
-https://wiki.haskell.org/index.php?title=Avoiding_IO
-https://wiki.haskell.org/index.php?title=How_to_get_rid_of_IO
-https://wiki.haskell.org/index.php?title=Introduction_to_Haskell_IO
-https://wiki.haskell.org/index.php?title=Introduction_to_Haskell_IO/Actions
-https://wiki.haskell.org/index.php?title=Introduction_to_IO
-https://wiki.haskell.org/index.php?title=IO_at_work
-https://wiki.haskell.org/index.php?title=IO_in_action
-https://wiki.haskell.org/index.php?title=IO_Semantics
-https://wiki.haskell.org/index.php?title=IO_then_abstraction
-https://wiki.haskell.org/index.php?title=IO_tutorials_timeline
-https://wiki.haskell.org/index.php?title=UnsafePerformIO
-https://wiki.haskell.org/index.php?title=Blog_articles/IO
-https://wiki.haskell.org/index.php?title=Cum_transform_o_lista_de_actiuni_de_IO_in_actiunea-secventa_a_lor_%3F
-https://wiki.haskell.org/index.php?title=De_ce_sunt_mai_bune_actiunile_de_IO_decat_instructiunile_de_I/O_%3F
-https://wiki.haskell.org/index.php?title=Haskell_IO_for_Imperative_Programmers
-https://wiki.haskell.org/index.php?title=Iteratee_IO
-https://wiki.haskell.org/index.php?title=Monada_de_IO
-https://wiki.haskell.org/index.php?title=Namespaced_IO_Layer
-https://wiki.haskell.org/index.php?title=Ru/IO
-https://wiki.haskell.org/index.php?title=Ru/IO_Inside
-https://wiki.haskell.org/index.php?title=Binary_IO
-https://wiki.haskell.org/index.php?title=Introduction_to_Haskell_IO/Introduction_to_IO_actions
-https://wiki.haskell.org/index.php?title=Introduction_to_IO_actions
-https://wiki.haskell.org/index.php?title=IO,_partible-style
-https://wiki.haskell.org/index.php?title=Tutorials/Programming_Haskell/String_IO
-https://wiki.haskell.org/index.php?title=Tutorials/ProgrammingHaskell/String_IO
-https://web.archive.org/web/20150906053054/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20150906120146/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20150907200059/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20150925143519/https://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20150927185129/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20151021023622/http://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20160419051823/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20160527011711/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20160711151741/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20161009163939/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20161009164017/https://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20170416153323/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20170814190633/https://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20180225104405/http://wiki.haskell.org:80/Introduction_to_IO
-https://web.archive.org/web/20181124231624/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20181222231012/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20190112211221/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20190223235557/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20190302230016/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20190309183024/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20190418200704/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20190524053853/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20190625180421/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20190716211818/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20190719153230/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20190726133317/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20190828031105/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20190921202514/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20190922170857/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20190923080800/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20190930232122/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20191002000612/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20191004022838/http://wiki.haskell.org:80/Avoiding_IO
-https://web.archive.org/web/20191004104046/http://wiki.haskell.org:80/Introduction_to_IO
-https://web.archive.org/web/20191004130007/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20191026171203/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20191117191738/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20191120183453/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20191125224935/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20191203191637/http://wiki.haskell.org:80/Introduction_to_IO
-https://web.archive.org/web/20191210053743/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20191210102307/http://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20191213005516/http://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20191226045245/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20200125175450/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20200202001923/http://wiki.haskell.org:80/Introduction_to_IO
-https://web.archive.org/web/20200202144838/http://wiki.haskell.org:80/Avoiding_IO
-https://web.archive.org/web/20200224223541/http://wiki.haskell.org:80/How_to_get_rid_of_IO
-https://web.archive.org/web/20200718183254/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20200806143505/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20201023011716/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20201109015049/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20201109025703/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20201109032722/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20201111212312/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20201118064951/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20201129060959/http://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20210214030712/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20210415192324/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20210514081549/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20210518164324/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20210526094347/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20210621205905/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20210702155900/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20211006222302/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20211026202747/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20211128095221/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20211203204758/http://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20220127140912/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20220129045854/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20220402223440/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20220402223816/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20220501204758/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20220702113106/http://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20220817013206/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20220920022146/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20220923114730/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20220926145837/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20221130161424/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20221204185913/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20221205233447/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20221207212556/http://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20221209001941/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20221210080853/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20221211190137/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20230115055039/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20230116175552/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20230117092009/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20230130161413/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20230131025941/http://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20230316174551/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20230325170304/http://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20230509033521/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20230522174033/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20230522174110/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20230530044418/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20230604003748/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20230608220359/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20230609052530/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20230718005035/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20230719024528/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20231001102050/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20231204185851/http://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20231210205334/http://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20231214021431/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240114190809/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240121085326/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240121085336/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240221161935/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240225021414/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240228160305/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20240228165526/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20240413231813/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20240415013500/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240417063326/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240513180716/http://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240524233811/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20240525231858/http://wiki.haskell.org/Introduction_to_Haskell_IO
-https://web.archive.org/web/20240527102450/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240618152527/http://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20240620080529/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20240621083150/http://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20240621083713/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240815225451/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240909232812/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240913184459/http://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20240930142757/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20240930142800/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20241005151204/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20241014151844/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20241123013239/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20241209001717/https://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20241226003102/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20250118040414/http://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20250118051541/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20250123104931/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20250124075238/http://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20250318012116/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20250320011212/https://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20250324202259/http://wiki.haskell.org/IO_Semantics
-https://web.archive.org/web/20250426222634/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20250426222645/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20250505121425/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20250712042247/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20250815163946/http://wiki.haskell.org/Avoiding_IO
-https://web.archive.org/web/20250820110533/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20250828123842/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20250927112007/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20251106131915/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20251229101724/https://wiki.haskell.org/Introduction_to_IO
-https://web.archive.org/web/20260109162718/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20260123232344/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20260126225721/https://wiki.haskell.org/How_to_get_rid_of_IO
-https://web.archive.org/web/20260219095611/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions
-https://web.archive.org/web/20150909132730/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20160430084314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20170421150610/https://wiki.haskell.org/UnsafePerformIO
-https://web.archive.org/web/20190825162914/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20191016004101/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20201109025028/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20210923032314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20211019223111/https://wiki.haskell.org/UnsafePerformIO
-https://web.archive.org/web/20211130210217/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20220119055359/https://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20220123103638/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20220213201637/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20220705122859/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20220726201534/https://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20220819012142/http://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20220820054408/http://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20220930200528/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20221007182320/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20221205071857/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20221205143628/http://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20230130235346/https://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20230206094404/https://wiki.haskell.org/UnsafePerformIO
-https://web.archive.org/web/20230208114205/https://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20230326015541/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20230531032205/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20230602152233/http://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20230608074515/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20230610043214/http://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20230923001711/http://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20231128185611/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20231206005033/https://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20231210224443/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20240416104734/http://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20240430042947/https://wiki.haskell.org/IO_at_work
-https://web.archive.org/web/20240522043657/https://wiki.haskell.org/IO_in_action
-https://web.archive.org/web/20240526002201/https://wiki.haskell.org/IO_tutorials_timeline
-https://web.archive.org/web/20240614082447/http://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20240617172950/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20240617174248/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20240624055553/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20240914161346/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20250112214730/https://wiki.haskell.org/IO_tutorials_timeline
-https://web.archive.org/web/20250204192957/https://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20250729180344/https://wiki.haskell.org/IO_then_abstraction
-https://web.archive.org/web/20260422055652/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20260508215043/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers
-https://web.archive.org/web/20150930164633/https://wiki.haskell.org/Blog_articles/IO
-https://web.archive.org/web/20190716213305/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20190720210543/https://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20190921201437/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20191119010713/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20200806065327/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20210420221123/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20210517111739/https://wiki.haskell.org/Monada_de_IO
-https://web.archive.org/web/20210923031053/https://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20211128190719/https://wiki.haskell.org/Monada_de_IO
-https://web.archive.org/web/20220124232957/https://wiki.haskell.org/Iteratee_IO
-https://web.archive.org/web/20220630003756/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20220930195116/https://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20221007160332/https://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20230130155741/https://wiki.haskell.org/Monada_de_IO
-https://web.archive.org/web/20230207022034/http://wiki.haskell.org/Namespaced_IO_Layer
-https://web.archive.org/web/20230320122529/https://wiki.haskell.org/Iteratee_IO
-https://web.archive.org/web/20230329122952/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20230926145654/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20231130045113/http://wiki.haskell.org/Iteratee_IO
-https://web.archive.org/web/20240423164724/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20240526001150/http://wiki.haskell.org/Namespaced_IO_Layer
-https://web.archive.org/web/20240901090248/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20240918004026/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20240930030305/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20241116120736/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20241119081713/https://wiki.haskell.org/Ru/IO_Inside
-https://web.archive.org/web/20250114034122/http://wiki.haskell.org/Namespaced_IO_Layer
-https://web.archive.org/web/20250208085106/http://wiki.haskell.org/Ru/IO
-https://web.archive.org/web/20150925151901/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20150925154742/https://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20160430095204/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20160506004753/https://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20170714155745/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20180126080636/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20180215154331/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20190311120912/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20190516145501/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20190722151728/https://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20190919030730/https://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20191017070011/https://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions
-https://web.archive.org/web/20191114021559/https://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20191114124724/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO
-https://web.archive.org/web/20191121224037/https://wiki.haskell.org/Introduction_to_IO_actions
-https://web.archive.org/web/20200804173504/https://wiki.haskell.org/Introduction_to_IO_actions
-https://web.archive.org/web/20210117200455/https://wiki.haskell.org/Introduction_to_IO_actions
-https://web.archive.org/web/20210129131505/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20210413224257/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20210518061049/https://wiki.haskell.org/IO,_partible-style
-https://web.archive.org/web/20210726131530/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO
-https://web.archive.org/web/20210918083424/http://wiki.haskell.org/IO,_partible-style
-https://web.archive.org/web/20211022040926/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20211025151250/https://wiki.haskell.org/Introduction_to_IO_actions
-https://web.archive.org/web/20211128192732/https://wiki.haskell.org/IO,_partible-style
-https://web.archive.org/web/20220129034202/http://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20220419225309/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20221003115054/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20221128180423/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20221209002634/https://wiki.haskell.org/IO,_partible-style
-https://web.archive.org/web/20230130135300/http://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20230131105701/https://wiki.haskell.org/Introduction_to_IO_actions
-https://web.archive.org/web/20230329195342/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20230424000811/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20231128200835/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20231130042656/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions
-https://web.archive.org/web/20231130044750/http://wiki.haskell.org/Introduction_to_IO_actions
-https://web.archive.org/web/20231130045358/http://wiki.haskell.org/IO,_partible-style
-https://web.archive.org/web/20240221071930/http://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20240412201536/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20240617101154/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions
-https://web.archive.org/web/20240810073355/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20240909211454/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20240914124736/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20240918005149/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20250215160317/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20250416035606/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20250426222641/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20250518221617/https://wiki.haskell.org/Binary_IO
-https://web.archive.org/web/20251104220709/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20251228075742/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO
-https://web.archive.org/web/20150204182956/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20150228073124/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20150303104409/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20150324011857/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20150402222642/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20150423221452/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20150730202922/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20150905114947/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20150905130636/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20150918224839/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20150925152908/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20151021023727/http://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20160304215136/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20160309222649/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20160311021301/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20160321222857/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20160429145152/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20160914015455/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20160914043736/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20161115191757/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20170115011804/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20170125125356/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20170407121107/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20170502044842/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20170524151750/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20170601110824/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20170605104948/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20170701190037/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20170905030047/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20170905110118/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20171003003516/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20171012070950/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20171012075041/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20171214235050/http://wiki.haskell.org:80/Monad_tutorials_timeline
-https://web.archive.org/web/20171219021937/http://wiki.haskell.org:80/Monad/ST
-https://web.archive.org/web/20180225102016/http://wiki.haskell.org:80/Monad_tutorials_timeline
-https://web.archive.org/web/20181116053957/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20181202135716/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20190220121612/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20190220123135/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20190220124647/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20190412221913/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20190429083526/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20190518145113/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20190721204959/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20190822152248/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20190826102434/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20190922113909/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20190922232244/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20191014084347/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20191014121537/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20191015194547/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20191016164650/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20191031093447/http://wiki.haskell.org:80/Monad/ST
-https://web.archive.org/web/20191031093741/http://wiki.haskell.org:80/Monad_tutorials_timeline
-https://web.archive.org/web/20191114021316/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20191210070638/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20191213234349/http://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20191230153642/http://wiki.haskell.org:80/Monad_tutorials_timeline
-https://web.archive.org/web/20200105131731/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20200110040658/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20200127143453/http://wiki.haskell.org:80/Monad/ST
-https://web.archive.org/web/20200131184140/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20200312090857/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20200506232514/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20200622113654/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20200810195933/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20200821103839/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20200831202539/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20201022080256/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20201028115412/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201106052541/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201107234832/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20201109041130/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20201112010941/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201112221755/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201122030538/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201122083145/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201122104544/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201122140522/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201122150404/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201123025622/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20201125020857/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20201129070147/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20210209175331/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20210308110739/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20210321102857/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20210411135357/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20210413155017/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20210417181350/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20210423172947/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20210513160330/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20210719214415/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20210719214532/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20210724225719/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20210725200913/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20210801214531/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20210806235649/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20210806235701/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20210807135220/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20211006223611/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20211203192900/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20211210183348/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20211230031902/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220119034830/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20220209195949/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220226075443/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20220402223500/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220402223501/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220427043054/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220705203444/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220706232553/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220808074701/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220813111214/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220816160210/http://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220816223348/http://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20220817045139/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20220817094446/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20220818044801/http://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20220920022142/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220923112004/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20220924135940/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20221014060357/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20221102190113/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20221121155247/http://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20221204204207/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20221205105055/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20221205143851/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20221225031641/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20221229045910/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20230107190101/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230108173150/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230117195630/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230201155933/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230208094217/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230208173317/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230208174951/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230307223252/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230316150511/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230318105854/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230325100548/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230327061824/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20230329101738/http://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20230425110604/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20230529230319/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20230602020941/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230701101220/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230707210430/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230729195220/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20230815131742/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20230927220711/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20230928081452/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20231001111659/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20231119101841/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20231130162114/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20231204011957/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20231207231753/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20231212173023/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20231216235224/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240106222510/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240110104112/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240118015414/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240122145808/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240204162359/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240212205613/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240220232559/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240225220327/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240228160846/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20240229110215/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240405084146/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240409080553/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240415081208/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20240416195936/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240417054255/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240505000826/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240512050616/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240512085831/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240529212829/http://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240612024012/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240612031206/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240621075507/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240624040000/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240627150607/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240628193838/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240718110854/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240813011629/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240825125728/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20240901090247/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240908162843/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20240915102644/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240917134548/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20240930030209/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241004042322/https://wiki.haskell.org/Monad_Transformers_Tutorial
-https://web.archive.org/web/20241015154102/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241016073952/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241107232854/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241116115644/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241118211900/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241119021941/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20241128025856/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241202134605/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20241204061331/http://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241212012335/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20241212122730/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20241214105335/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20241216112655/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20241221131924/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20241227014048/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250111092634/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20250112211031/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250114205122/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250115175019/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250118025440/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20250118042437/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250126180623/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20250214021552/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250222085420/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250222213525/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250223110407/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250320053408/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250320230309/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250323001932/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250327005045/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250327005308/http://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250329180029/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250330165009/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250506235342/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250607040646/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250725154238/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20250801050944/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20250803035732/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250813212242/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20250818235023/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250818235426/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20250902004004/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20250905232409/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20251008192446/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20251008192622/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20251108025117/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20251115183823/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20251116194856/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20251124011851/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20251210055534/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20251226155125/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20260106062956/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20260123032054/https://wiki.haskell.org/State_Monad
-https://web.archive.org/web/20260213204042/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260215220721/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20260425011801/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20260425021012/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260430043539/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260430124759/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260430130821/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260430195713/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260501024111/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260501075831/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260502134112/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260505075111/https://wiki.haskell.org/Monad/ST
-https://web.archive.org/web/20260506052457/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260612003752/https://wiki.haskell.org/Monad_tutorials_timeline
-https://web.archive.org/web/20260706174239/https://wiki.haskell.org/State_Monad
-https://wiki.haskell.org/index.php?title=Monad/ST
-https://wiki.haskell.org/index.php?title=Monad_Transformers_Tutorial
-https://wiki.haskell.org/index.php?title=Monad_tutorials_timeline
-https://wiki.haskell.org/index.php?title=State_Monad
-https://web.archive.org/web/20150915080654/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20150915121550/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://web.archive.org/web/20170924213752/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20171103224045/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20180220054150/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20180310124407/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20180422071532/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20180620175608/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20180822161334/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20181023094126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20190329225126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20190720211526/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20190923083205/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20191115085647/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://web.archive.org/web/20191213092020/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20200806234733/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20200928003006/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://web.archive.org/web/20200928231805/http://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20210411052555/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20210729103151/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20220529032255/http://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20220924173634/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20221005051344/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://web.archive.org/web/20230203144931/http://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20230529162942/http://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20230530175609/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20230601083637/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://web.archive.org/web/20230922225212/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20240224203735/http://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20240520212043/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://web.archive.org/web/20240520220342/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20240614092725/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://web.archive.org/web/20241119195214/https://wiki.haskell.org/Ru/Monad
-https://web.archive.org/web/20241204000308/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs
-https://wiki.haskell.org/index.php?title=Ce_sunt_Monad_respectiv_MonadPlus_%3F
-https://wiki.haskell.org/index.php?title=Ce_sunt_monadele_din_clasa_Monad_%3F
-https://wiki.haskell.org/index.php?title=Ru/Monad
-https://wiki.haskell.org/index.php?title=The_Monad.Reader/Issue3/Join_Hs
-https://wiki.haskell.org/index.php?title=The_Monad.Reader/Issue3/Notes_on_Learning_Haskell
-https://ipsj.ixsq.nii.ac.jp/records/16534
-https://www.youtube.com/watch?v=VgA4wCaxp-Q
-https://www.youtube.com/watch?v=t1e8gqXLbsU
-https://www.youtube.com/watch?v=tYJT1ITE_Dk
-https://www.youtube.com/watch?v=C2w45qRc3aU
-https://www.youtube.com/watch?v=nXLOdusLKyc
-https://www.youtube.com/watch?v=YVcU6y7TxJo
-https://www.listennotes.com/podcasts/lambda-show/fp-with-kotlinarrow-monad-fBcqiRMtolC/
-https://ericnormand.me/podcast/what-a-monoid-is-and-why-monoids-kick-monads-butt
-https://open.spotify.com/episode/0bVVHleHXfZx7UbPfA6x8w
-https://podcasts.apple.com/sg/podcast/75-haskell-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC-io-maybe-%D0%B8-do-%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8E/id1734325321?i=1000750878751
-https://podcasts.apple.com/us/podcast/rock-the-code/id1873342617?l=ar
-https://open.spotify.com/show/318ODUipqJV0jzjS6NTTAv
-https://haskell.foundation/podcast/31/
-https://leanpub.com/podcasts/leanpub/chris-penner-11-08-20
-https://www.slideshare.net/slideshow/sierpinski-triangle-polyglot-fp-for-fun-and-profit-haskell-and-scala/248317955
-https://www.slideshare.net/slideshow/haskell-for-data-science/53101453?nway-content_model=A
-https://www.slideshare.net/slideshow/monads-in-swift/78544621
-https://www.slideshare.net/slideshow/unraveling-the-mystery-of-monads/16391075
-https://www.slideshare.net/slideshow/jamie-pullar-cats-mtl-in-action/98447920
-https://www.slideshare.net/slideshow/comparing-20-programming-languages-by-domain/287325715
-https://pt.slideshare.net/slideshow/haskell-high-performance-programming-samuli-thomasson/279190170
-https://www.slideshare.net/slideshow/the-death-of-final-tagless/134241364
-https://www.slideshare.net/slideshow/tofu-and-its-environment/226745745
-https://www.slideshare.net/slideshow/haskell-for-data-science/53101453
-https://www.slideshare.net/slideshow/scala-left-fold-parallelisation-three-approaches/263625143
-https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/%3Fpg%3D94
-https://d-nb.info/979189675/34
-https://www.abebooks.com/9780521070072/Functional-Programming-InputOutput-Distinguished-Dissertations-0521070074/plp
-https://books.google.com/books?id=B4RxBAAAQBAJ&printsec=copyright
-https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=661681&se=b0&ty=B
-https://ouci.dntb.gov.ua/en/works/7AZQjYJ4/
-https://www2.ki.informatik.uni-frankfurt.de/bachelor/abgeschlossen/2008_Harwath.pdf
-https://ethz.ch/content/dam/ethz/special-interest/infk/inst-infsec/information-security-group-dam/people/andreloc/lochbihler14iw.pdf
-https://www.sambuz.com/doc/free-theorems-about-monadic-code-ppt-presentation-968214
-https://publications.lib.chalmers.se/records/fulltext/203817/local_203817.pdf
-https://guppy.eng.kagawa-u.ac.jp/2008/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/
-https://guppy.eng.kagawa-u.ac.jp/2019/AdvProg/
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/publication/compsoft94-abstract.html
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Text/AdvProg4.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Text/AdvProg4.pdf
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Text/AdvProg4.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Text/AdvProg5.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2008/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Text/AdvProg5.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2010/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2011/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2011/AdvProg/Text/Monad.pdf
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/Head.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/IORefTest.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UpperLower.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyIO.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyStream.hs
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Text/Monad.pdf
-https://www.youtube.com/watch?v=75fWhkM-OsE
-https://www.youtube.com/watch?v=E3yuJZGJa9k
-https://www.youtube.com/watch?v=-NO3GiA4fRQ
-https://www.youtube.com/watch?v=UeyGHhYJqG4
-https://downloads.haskell.org/~ghc/5.00/docs/set/primitives.html
-https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/ghc-prim-0.7.0/GHC-Prim-Ext.html
-https://downloads.haskell.org/ghc/8.0-latest/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html
-https://downloads.haskell.org/ghc/9.2-latest/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html
-https://researchr.org/publication/popl%3A1993
-https://www.sigplan.org/Awards/POPL/
-https://dblp.org/db/conf/popl/popl93
-https://periodicos.unemat.br/index.php/rbedrpp/article/view/14406/10038
-https://downloads.haskell.org/~ghc/latest/docs/libraries/base-4.22.0.0-66f8/src/Control.Monad.IO.Class.html
-https://hackage.haskell.org/package/ghc-prim/docs/src/GHC.Types.html
-https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007702.html
-https://mail.haskell.org/pipermail/haskell/2015-May/024556.html
-https://mail.haskell.org/pipermail/cvs-ghc/2009-April/048402.html
-https://stackoverflow.com/questions/4472260/monad-theory-and-haskell
-https://stackoverflow.com/questions/19093016/why-cant-i-use-io-constructor
-https://stackoverflow.com/questions/28769550/what-is-the-difference-between-iotost-and-unsafeiotost-from-ghc-io
-https://stackoverflow.com/questions/35474169/why-no-seq-in-accursedunutterableperformio
-https://stackoverflow.com/questions/24803557/defining-applicative-io
-https://stackoverflow.com/questions/61798648/how-to-view-higher-order-functions-and-io-actions-from-a-mathematical-perspectiv
-https://stackoverflow.com/questions/75953508/strictness-and-how-to-tell-ghc-ghci-to-just-store-a-value-in-a-variable-once-and
-https://stackoverflow.com/questions/3780750/will-i-develop-good-bad-habits-because-of-lazy-evaluation
-https://stackoverflow.com/questions/9689129/io-inside-the-get-monad
-https://stackoverflow.com/questions/7830743/haskell-how-to-deal-with-io-monad-inside-another-io-monad
-https://dblp1.uni-trier.de/pid/15/1957.html
-https://dblp.org/db/conf/plilp/plilp92
-https://dblp.org/rec/conf/plilp/Rebelsky92
-https://research-information.bris.ac.uk/en/publications/concurrent-monadic-interfacing-2/
-https://dblp.org/rec/conf/ifl/HolyerS98
-https://stackoverflow.com/questions/39556936/what-is-the-meaning-of
-https://www.youtube.com/watch?v=5k3_olHdhjQ
-https://www.youtube.com/watch?v=V9PRiOtT7VM
-https://www.youtube.com/watch?v=3-AthNF4IBw
-https://www.youtube.com/watch?v=JCyAcYZ7We4
-https://www.youtube.com/watch?v=8xkG660D6bI
-https://www.youtube.com/watch?v=9KHj7mi8Lzk
-https://www.youtube.com/watch?v=H-Rv12otC34
-https://www.youtube.com/watch?v=iNWxC8PwXrk
-https://www.youtube.com/watch?v=0AlhlG7n9nc
-https://www.youtube.com/watch?v=T5y8sFmCFnA
-https://www.youtube.com/watch?v=hC7hwEQtdnE
-https://www.youtube.com/watch?v=Rz7O-oR6ujE
-https://www.youtube.com/watch?v=FIdQiavsemI
-https://www.youtube.com/watch?v=PWS0Whf6-wc
-https://www.youtube.com/watch?v=M5l1d2lHH1A
-https://www.youtube.com/watch?v=nrTge_JCib0
-https://www.youtube.com/watch?v=lqG3mURwUxo
-https://www.youtube.com/watch?v=FdUS93RXEwY
-https://www.youtube.com/watch?v=d-NZnR2CTss
-https://www.youtube.com/watch?v=jawbOge4dCg
-https://www.youtube.com/watch?v=uzsqgdMMgtk
-https://www.youtube.com/watch?v=N6sOMGYsvFA
-https://www.youtube.com/watch?v=ijiykwuZvRQ
-https://www.youtube.com/watch?v=73B1uc3xkvo
-https://www.youtube.com/watch?v=hF1enHn54e8
-https://www.youtube.com/watch?v=8OQUH8q4sMM
-https://www.youtube.com/watch?v=uVK3t-5wWew
-https://www.youtube.com/watch?v=uedUGeWN4ZM
-https://www.youtube.com/watch?v=HHVD8SIx6v0
-https://www.youtube.com/watch?v=TP0ApVPLc24
-https://www.youtube.com/watch?v=y95WtkWCmKg
-https://www.youtube.com/watch?v=pm_WFnWqn20
-https://www.youtube.com/watch?v=IMrBTx7aYjs
-https://www.youtube.com/watch?v=1NeULUGWAaI
-https://www.youtube.com/watch?v=fQn_n80dGoA
-https://hackage.haskell.org/package/http-monad-0.1.0.2
-https://hackage.haskell.org/package/http-monad-0.0.1
-https://hackage.haskell.org/package/http-monad-0.1
-https://hackage.haskell.org/package/safe-lazy-io/docs
-https://hackage.haskell.org/package/binary/docs/Data-Binary-Get.html
-https://hackage.haskell.org/package/enumerator-0.4.11
-https://hackage.haskell.org/package/enumerator-0.4.5
-https://hackage.haskell.org/package/http-monad/docs/Network-Monad-Transfer.html
-https://dblp.org/db/journals/jfp/jfp35.html
-https://researchr.org/journal/jfp/home
-https://www.researchgate.net/publication/362277409_Engaging_Large-Scale_Functional_Programming_Education_in_Physical_and_Virtual_Space
-https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/97FA87994DD90E812E2D11A36404D0D5
-https://www.cambridge.org/core/journals/journal-of-functional-programming/listing
-https://www.uni-due.de/fmi/veroeffentlichungen
-https://stackoverflow.com/questions/28690448/what-is-indexed-monad
-https://hackage.haskell.org/package/lio/docs/LIO-Concurrent.html
-https://hackage.haskell.org/package/lio-0.9.1.0/docs/LIO-Concurrent.html
-https://hackage.haskell.org/package/lio-0.9.0.0
-https://hackage.haskell.org/package/lio-0.1.0
-https://hackage.haskell.org/package/lio-0.1.1/lio.cabal/edit
-https://hackage.haskell.org/package/lio-0.0.2
-https://hackage.haskell.org/package/lio-0.1.3
-https://hackage.haskell.org/package/lio-0.9.0.1
-https://hackage.haskell.org/package/lio-0.9.1.0
-https://hackage.haskell.org/package/lio-0.9.1.1
-https://hackage.haskell.org/package/lio-0.9.1.2
-https://hackage.haskell.org/package/lio-0.9.2.0
-https://hackage.haskell.org/package/lio-0.9.2.2
-https://hackage.haskell.org/package/lio-0.10.0.0
-https://hackage.haskell.org/package/lio-0.11.0.0
-https://hackage.haskell.org/package/lio-0.11.0.1
-https://hackage.haskell.org/package/lio-0.11.2.0
-https://hackage.haskell.org/package/lio-0.11.3.0
-https://hackage.haskell.org/package/lio-0.11.4.0
-https://hackage.haskell.org/package/lio-0.11.4.1
-https://hackage.haskell.org/package/lio-0.11.4.2
-https://hackage.haskell.org/package/lio-0.11.5.0
-https://hackage.haskell.org/package/lio-0.11.6.0
-https://hackage.haskell.org/package/lio-0.11.7.0
-https://hackage.haskell.org/package/lio-0.11.7.1
-https://hackage.haskell.org/package/http-monad-0.1.0.1
-https://hackage.haskell.org/package/http-monad-0.1.0.3
-https://hackage.haskell.org/package/http-monad-0.1.1
-https://hackage.haskell.org/package/http-monad-0.1.1.1
-https://hackage.haskell.org/package/http-monad-0.1.1.2
-https://hackage.haskell.org/package/http-monad-0.1.1.3
-https://hackage.haskell.org/package/http-monad-0.1.1.4
-https://hackage.haskell.org/package/lazyio-0.0.1
-https://hackage.haskell.org/package/lazyio-0.0.2
-https://hackage.haskell.org/package/lazyio-0.0.3
-https://hackage.haskell.org/package/lazyio-0.0.3.1
-https://hackage.haskell.org/package/lazyio-0.0.3.2
-https://hackage.haskell.org/package/lazyio-0.0.3.3
-https://hackage.haskell.org/package/lazyio-0.1
-https://hackage.haskell.org/package/lazyio-0.1.0.1
-https://hackage.haskell.org/package/lazyio-0.1.0.2
-https://hackage.haskell.org/package/lazyio-0.1.0.3
-https://hackage.haskell.org/package/lazyio-0.1.0.4
-https://hackage.haskell.org/package/enumerator-0.1
-https://hackage.haskell.org/package/enumerator-0.1.1
-https://hackage.haskell.org/package/enumerator-0.2
-https://hackage.haskell.org/package/enumerator-0.2.1
-https://hackage.haskell.org/package/enumerator-0.3
-https://hackage.haskell.org/package/enumerator-0.3.0.1
-https://hackage.haskell.org/package/enumerator-0.4
-https://hackage.haskell.org/package/enumerator-0.4.0.1
-https://hackage.haskell.org/package/enumerator-0.4.0.2
-https://hackage.haskell.org/package/enumerator-0.4.1
-https://hackage.haskell.org/package/enumerator-0.4.2
-https://hackage.haskell.org/package/enumerator-0.4.3
-https://hackage.haskell.org/package/enumerator-0.4.3.1
-https://hackage.haskell.org/package/enumerator-0.4.4
-https://hackage.haskell.org/package/enumerator-0.4.6
-https://hackage.haskell.org/package/enumerator-0.4.7
-https://hackage.haskell.org/package/enumerator-0.4.8
-https://hackage.haskell.org/package/enumerator-0.4.9
-https://hackage.haskell.org/package/enumerator-0.4.9.1
-https://hackage.haskell.org/package/enumerator-0.4.10
-https://hackage.haskell.org/package/enumerator-0.4.12
-https://hackage.haskell.org/package/enumerator-0.4.13
-https://hackage.haskell.org/package/enumerator-0.4.13.1
-https://hackage.haskell.org/package/enumerator-0.4.14
-https://hackage.haskell.org/package/enumerator-0.4.15
-https://hackage.haskell.org/package/enumerator-0.4.16
-https://hackage.haskell.org/package/enumerator-0.4.18
-https://hackage.haskell.org/package/enumerator-0.4.19
-https://hackage.haskell.org/package/enumerator-0.4.20
-https://hackage.haskell.org/package/iteratee-0.1.0
-https://hackage.haskell.org/package/iteratee-0.2
-https://hackage.haskell.org/package/iteratee-0.2.1
-https://hackage.haskell.org/package/iteratee-0.2.3
-https://hackage.haskell.org/package/iteratee-0.2.4
-https://hackage.haskell.org/package/iteratee-0.3.1
-https://hackage.haskell.org/package/iteratee-0.3.4
-https://hackage.haskell.org/package/iteratee-0.3.5
-https://hackage.haskell.org/package/iteratee-0.3.6
-https://hackage.haskell.org/package/iteratee-0.4.0.1
-https://hackage.haskell.org/package/iteratee-0.5.0.0
-https://hackage.haskell.org/package/iteratee-0.6.0.1
-https://hackage.haskell.org/package/iteratee-0.7.0.0
-https://hackage.haskell.org/package/iteratee-0.7.0.1
-https://hackage.haskell.org/package/iteratee-0.7.0.2
-https://hackage.haskell.org/package/iteratee-0.8.0.0
-https://hackage.haskell.org/package/iteratee-0.8.0.1
-https://hackage.haskell.org/package/iteratee-0.8.0.2
-https://hackage.haskell.org/package/iteratee-0.8.0.3
-https://hackage.haskell.org/package/iteratee-0.8.1.0
-https://hackage.haskell.org/package/iteratee-0.8.1.1
-https://hackage.haskell.org/package/iteratee-0.8.2.0
-https://hackage.haskell.org/package/iteratee-0.8.3.0
-https://hackage.haskell.org/package/iteratee-0.8.4.0
-https://hackage.haskell.org/package/iteratee-0.8.4.1
-https://hackage.haskell.org/package/iteratee-0.8.4.2
-https://hackage.haskell.org/package/iteratee-0.8.4.3
-https://hackage.haskell.org/package/iteratee-0.8.4.4
-https://hackage.haskell.org/package/iteratee-0.8.4.5
-https://hackage.haskell.org/package/iteratee-0.8.4.6
-https://hackage.haskell.org/package/iteratee-0.8.5.0
-https://hackage.haskell.org/package/iteratee-0.8.6.0
-https://hackage.haskell.org/package/iteratee-0.8.6.1
-https://hackage.haskell.org/package/iteratee-0.8.6.2
-https://hackage.haskell.org/package/iteratee-0.8.7
-https://hackage.haskell.org/package/iteratee-0.8.7.3
-https://hackage.haskell.org/package/iteratee-0.8.7.5
-https://hackage.haskell.org/package/iteratee-0.8.7.6
-https://hackage.haskell.org/package/iteratee-0.8.8.0
-https://hackage.haskell.org/package/iteratee-0.8.8.1
-https://hackage.haskell.org/package/iteratee-0.8.9.0
-https://hackage.haskell.org/package/iteratee-0.8.9.3
-https://hackage.haskell.org/package/iteratee-0.8.9.4
-https://hackage.haskell.org/package/iteratee-0.8.9.6
-https://hackage.haskell.org/package/conduit-0.0.0
-https://hackage.haskell.org/package/conduit-0.0.0.1
-https://hackage.haskell.org/package/conduit-0.0.0.2
-https://hackage.haskell.org/package/conduit-0.0.1
-https://hackage.haskell.org/package/conduit-0.0.1.1
-https://hackage.haskell.org/package/conduit-0.0.2
-https://hackage.haskell.org/package/conduit-0.0.3
-https://hackage.haskell.org/package/conduit-0.0.4
-https://hackage.haskell.org/package/conduit-0.1.0
-https://hackage.haskell.org/package/conduit-0.1.1
-https://hackage.haskell.org/package/conduit-0.1.1.1
-https://hackage.haskell.org/package/conduit-0.2.0
-https://hackage.haskell.org/package/conduit-0.2.1
-https://hackage.haskell.org/package/conduit-0.2.2
-https://hackage.haskell.org/package/conduit-0.3.0
-https://hackage.haskell.org/package/conduit-0.4.0
-https://hackage.haskell.org/package/conduit-0.4.0.1
-https://hackage.haskell.org/package/conduit-0.4.1
-https://hackage.haskell.org/package/conduit-0.4.1.1
-https://hackage.haskell.org/package/conduit-0.4.2
-https://hackage.haskell.org/package/conduit-0.5.1
-https://hackage.haskell.org/package/conduit-0.5.2
-https://hackage.haskell.org/package/conduit-0.5.2.1
-https://hackage.haskell.org/package/conduit-0.5.2.2
-https://hackage.haskell.org/package/conduit-0.5.2.3
-https://hackage.haskell.org/package/conduit-0.5.2.4
-https://hackage.haskell.org/package/conduit-0.5.2.5
-https://hackage.haskell.org/package/conduit-0.5.2.6
-https://hackage.haskell.org/package/conduit-0.5.2.7
-https://hackage.haskell.org/package/conduit-0.5.3
-https://hackage.haskell.org/package/conduit-0.5.4
-https://hackage.haskell.org/package/conduit-0.5.4.1
-https://hackage.haskell.org/package/conduit-0.5.4.2
-https://hackage.haskell.org/package/conduit-0.5.5
-https://hackage.haskell.org/package/conduit-0.5.6
-https://hackage.haskell.org/package/conduit-1.0.0.1
-https://hackage.haskell.org/package/conduit-1.0.0.2
-https://hackage.haskell.org/package/conduit-1.0.1
-https://hackage.haskell.org/package/conduit-1.0.2
-https://hackage.haskell.org/package/conduit-1.0.3
-https://hackage.haskell.org/package/conduit-1.0.4
-https://hackage.haskell.org/package/conduit-1.0.4.1
-https://hackage.haskell.org/package/conduit-1.0.4.2
-https://hackage.haskell.org/package/conduit-1.0.5
-https://hackage.haskell.org/package/conduit-1.0.5.1
-https://hackage.haskell.org/package/conduit-1.0.6
-https://hackage.haskell.org/package/conduit-1.0.7
-https://hackage.haskell.org/package/conduit-1.0.7.1
-https://hackage.haskell.org/package/conduit-1.0.7.2
-https://hackage.haskell.org/package/conduit-1.0.7.3
-https://hackage.haskell.org/package/conduit-1.0.7.4
-https://hackage.haskell.org/package/conduit-1.0.9
-https://hackage.haskell.org/package/conduit-1.0.9.1
-https://hackage.haskell.org/package/conduit-1.0.9.2
-https://hackage.haskell.org/package/conduit-1.0.9.3
-https://hackage.haskell.org/package/conduit-1.0.10
-https://hackage.haskell.org/package/conduit-1.0.11
-https://hackage.haskell.org/package/conduit-1.0.11.1
-https://hackage.haskell.org/package/conduit-1.0.12
-https://hackage.haskell.org/package/conduit-1.0.13
-https://hackage.haskell.org/package/conduit-1.0.13.1
-https://hackage.haskell.org/package/conduit-1.0.14
-https://hackage.haskell.org/package/conduit-1.0.15
-https://hackage.haskell.org/package/conduit-1.0.15.1
-https://hackage.haskell.org/package/conduit-1.0.16
-https://hackage.haskell.org/package/conduit-1.0.17
-https://hackage.haskell.org/package/conduit-1.0.17.1
-https://hackage.haskell.org/package/conduit-1.1.0.1
-https://hackage.haskell.org/package/conduit-1.1.0.2
-https://hackage.haskell.org/package/conduit-1.1.1
-https://hackage.haskell.org/package/conduit-1.1.1.1
-https://hackage.haskell.org/package/conduit-1.1.2
-https://hackage.haskell.org/package/conduit-1.1.2.1
-https://hackage.haskell.org/package/conduit-1.1.3
-https://hackage.haskell.org/package/conduit-1.1.4
-https://hackage.haskell.org/package/conduit-1.1.5
-https://hackage.haskell.org/package/conduit-1.1.6
-https://hackage.haskell.org/package/conduit-1.1.7
-https://hackage.haskell.org/package/conduit-1.2.0
-https://hackage.haskell.org/package/conduit-1.2.0.1
-https://hackage.haskell.org/package/conduit-1.2.0.2
-https://hackage.haskell.org/package/conduit-1.2.1
-https://hackage.haskell.org/package/conduit-1.2.2
-https://hackage.haskell.org/package/conduit-1.2.2.1
-https://hackage.haskell.org/package/conduit-1.2.2.2
-https://hackage.haskell.org/package/conduit-1.2.3
-https://hackage.haskell.org/package/conduit-1.2.3.1
-https://hackage.haskell.org/package/conduit-1.2.4
-https://hackage.haskell.org/package/conduit-1.2.4.1
-https://hackage.haskell.org/package/conduit-1.2.4.2
-https://hackage.haskell.org/package/conduit-1.2.4.3
-https://hackage.haskell.org/package/conduit-1.2.5
-https://hackage.haskell.org/package/conduit-1.2.5.1
-https://hackage.haskell.org/package/conduit-1.2.6
-https://hackage.haskell.org/package/conduit-1.2.6.1
-https://hackage.haskell.org/package/conduit-1.2.6.2
-https://hackage.haskell.org/package/conduit-1.2.6.3
-https://hackage.haskell.org/package/conduit-1.2.6.4
-https://hackage.haskell.org/package/conduit-1.2.6.5
-https://hackage.haskell.org/package/conduit-1.2.6.6
-https://hackage.haskell.org/package/conduit-1.2.7
-https://hackage.haskell.org/package/conduit-1.2.8
-https://hackage.haskell.org/package/conduit-1.2.9
-https://hackage.haskell.org/package/conduit-1.2.9.1
-https://hackage.haskell.org/package/conduit-1.2.10
-https://hackage.haskell.org/package/conduit-1.2.11
-https://hackage.haskell.org/package/conduit-1.2.12
-https://hackage.haskell.org/package/conduit-1.2.12.1
-https://hackage.haskell.org/package/conduit-1.2.13
-https://hackage.haskell.org/package/conduit-1.2.13.1
-https://hackage.haskell.org/package/conduit-1.3.0
-https://hackage.haskell.org/package/conduit-1.3.0.1
-https://hackage.haskell.org/package/conduit-1.3.0.2
-https://hackage.haskell.org/package/conduit-1.3.0.3
-https://hackage.haskell.org/package/conduit-1.3.1
-https://hackage.haskell.org/package/conduit-1.3.1.1
-https://hackage.haskell.org/package/conduit-1.3.1.2
-https://hackage.haskell.org/package/conduit-1.3.2
-https://hackage.haskell.org/package/conduit-1.3.2.1
-https://hackage.haskell.org/package/conduit-1.3.3
-https://hackage.haskell.org/package/conduit-1.3.4
-https://hackage.haskell.org/package/conduit-1.3.4.1
-https://hackage.haskell.org/package/conduit-1.3.4.2
-https://hackage.haskell.org/package/conduit-1.3.4.3
-https://hackage.haskell.org/package/conduit-1.3.5
-https://hackage.haskell.org/package/conduit-1.3.6
-https://hackage.haskell.org/package/conduit-1.3.6.1
-https://hackage.haskell.org/package/pipes-1.0
-https://hackage.haskell.org/package/pipes-1.0.1
-https://hackage.haskell.org/package/pipes-1.0.2
-https://hackage.haskell.org/package/pipes-2.0.0
-https://hackage.haskell.org/package/pipes-2.1.0
-https://hackage.haskell.org/package/pipes-2.2.0
-https://hackage.haskell.org/package/pipes-2.4.0
-https://hackage.haskell.org/package/pipes-2.5.0
-https://hackage.haskell.org/package/pipes-3.0.0
-https://hackage.haskell.org/package/pipes-3.1.0
-https://hackage.haskell.org/package/pipes-3.2.0
-https://hackage.haskell.org/package/pipes-3.3.0
-https://hackage.haskell.org/package/pipes-4.0.0
-https://hackage.haskell.org/package/pipes-4.0.1
-https://hackage.haskell.org/package/pipes-4.0.2
-https://hackage.haskell.org/package/pipes-4.1.0
-https://hackage.haskell.org/package/pipes-4.1.1
-https://hackage.haskell.org/package/pipes-4.1.2
-https://hackage.haskell.org/package/pipes-4.1.3
-https://hackage.haskell.org/package/pipes-4.1.4
-https://hackage.haskell.org/package/pipes-4.1.5
-https://hackage.haskell.org/package/pipes-4.1.6
-https://hackage.haskell.org/package/pipes-4.1.7
-https://hackage.haskell.org/package/pipes-4.1.8
-https://hackage.haskell.org/package/pipes-4.1.9
-https://hackage.haskell.org/package/pipes-4.2.0
-https://hackage.haskell.org/package/pipes-4.3.0
-https://hackage.haskell.org/package/pipes-4.3.1
-https://hackage.haskell.org/package/pipes-4.3.2
-https://hackage.haskell.org/package/pipes-4.3.3
-https://hackage.haskell.org/package/pipes-4.3.4
-https://hackage.haskell.org/package/pipes-4.3.5
-https://hackage.haskell.org/package/pipes-4.3.6
-https://hackage.haskell.org/package/pipes-4.3.7
-https://hackage.haskell.org/package/pipes-4.3.8
-https://hackage.haskell.org/package/pipes-4.3.9
-https://hackage.haskell.org/package/pipes-4.3.10
-https://hackage.haskell.org/package/pipes-4.3.11
-https://hackage.haskell.org/package/pipes-4.3.12
-https://hackage.haskell.org/package/pipes-4.3.13
-https://hackage.haskell.org/package/pipes-4.3.14
-https://hackage.haskell.org/package/pipes-4.3.15
-https://hackage.haskell.org/package/pipes-4.3.16
-https://hackage.haskell.org/package/pipes-safe-1.0.0
-https://hackage.haskell.org/package/pipes-safe-1.1.0
-https://hackage.haskell.org/package/pipes-safe-1.2.0
-https://hackage.haskell.org/package/pipes-safe-2.0.0
-https://hackage.haskell.org/package/pipes-safe-2.0.1
-https://hackage.haskell.org/package/pipes-safe-2.0.2
-https://hackage.haskell.org/package/pipes-safe-2.1.0
-https://hackage.haskell.org/package/pipes-safe-2.2.0
-https://hackage.haskell.org/package/pipes-safe-2.2.1
-https://hackage.haskell.org/package/pipes-safe-2.2.2
-https://hackage.haskell.org/package/pipes-safe-2.2.3
-https://hackage.haskell.org/package/pipes-safe-2.2.4
-https://hackage.haskell.org/package/pipes-safe-2.2.5
-https://hackage.haskell.org/package/pipes-safe-2.2.6
-https://hackage.haskell.org/package/pipes-safe-2.2.8
-https://hackage.haskell.org/package/pipes-safe-2.2.9
-https://hackage.haskell.org/package/pipes-safe-2.3.0
-https://hackage.haskell.org/package/pipes-safe-2.3.1
-https://hackage.haskell.org/package/pipes-safe-2.3.2
-https://hackage.haskell.org/package/pipes-safe-2.3.3
-https://hackage.haskell.org/package/pipes-safe-2.3.4
-https://hackage.haskell.org/package/pipes-safe-2.3.5
-https://hackage.haskell.org/package/pipes-io-0.1
-https://hackage.haskell.org/package/pipes-parse-1.0.0
-https://hackage.haskell.org/package/pipes-parse-2.0.0
-https://hackage.haskell.org/package/pipes-parse-2.0.1
-https://hackage.haskell.org/package/pipes-parse-2.0.2
-https://hackage.haskell.org/package/pipes-parse-3.0.0
-https://hackage.haskell.org/package/pipes-parse-3.0.1
-https://hackage.haskell.org/package/pipes-parse-3.0.2
-https://hackage.haskell.org/package/pipes-parse-3.0.3
-https://hackage.haskell.org/package/pipes-parse-3.0.4
-https://hackage.haskell.org/package/pipes-parse-3.0.5
-https://hackage.haskell.org/package/pipes-parse-3.0.6
-https://hackage.haskell.org/package/pipes-parse-3.0.7
-https://hackage.haskell.org/package/pipes-parse-3.0.8
-https://hackage.haskell.org/package/pipes-parse-3.0.9
-https://hackage.haskell.org/package/pipes-network-0.0.1
-https://hackage.haskell.org/package/pipes-network-0.0.2
-https://hackage.haskell.org/package/pipes-network-0.1.0
-https://hackage.haskell.org/package/pipes-network-0.1.0.1
-https://hackage.haskell.org/package/pipes-network-0.1.1.0
-https://hackage.haskell.org/package/pipes-network-0.2.0.0
-https://hackage.haskell.org/package/pipes-network-0.3.0.0
-https://hackage.haskell.org/package/pipes-network-0.4.0.0
-https://hackage.haskell.org/package/pipes-network-0.4.0.1
-https://hackage.haskell.org/package/pipes-network-0.4.0.2
-https://hackage.haskell.org/package/pipes-network-0.5.0.0
-https://hackage.haskell.org/package/pipes-network-0.5.1.0
-https://hackage.haskell.org/package/pipes-network-0.6.0
-https://hackage.haskell.org/package/pipes-network-0.6.1
-https://hackage.haskell.org/package/pipes-network-0.6.2
-https://hackage.haskell.org/package/pipes-network-0.6.3
-https://hackage.haskell.org/package/pipes-network-0.6.4
-https://hackage.haskell.org/package/pipes-network-0.6.4.1
-https://hackage.haskell.org/package/pipes-network-0.6.5
-https://hackage.haskell.org/package/pipes-concurrency-1.0.0
-https://hackage.haskell.org/package/pipes-concurrency-1.1.0
-https://hackage.haskell.org/package/pipes-concurrency-1.2.0
-https://hackage.haskell.org/package/pipes-concurrency-1.2.1
-https://hackage.haskell.org/package/pipes-concurrency-2.0.0
-https://hackage.haskell.org/package/pipes-concurrency-2.0.1
-https://hackage.haskell.org/package/pipes-concurrency-2.0.2
-https://hackage.haskell.org/package/pipes-concurrency-2.0.3
-https://hackage.haskell.org/package/pipes-concurrency-2.0.4
-https://hackage.haskell.org/package/pipes-concurrency-2.0.5
-https://hackage.haskell.org/package/pipes-concurrency-2.0.6
-https://hackage.haskell.org/package/pipes-concurrency-2.0.7
-https://hackage.haskell.org/package/pipes-concurrency-2.0.8
-https://hackage.haskell.org/package/pipes-concurrency-2.0.9
-https://hackage.haskell.org/package/pipes-concurrency-2.0.10
-https://hackage.haskell.org/package/pipes-concurrency-2.0.11
-https://hackage.haskell.org/package/pipes-concurrency-2.0.12
-https://hackage.haskell.org/package/pipes-concurrency-2.0.13
-https://hackage.haskell.org/package/pipes-concurrency-2.0.14
-https://hackage.haskell.org/package/pipes-text-0.0.0.0
-https://hackage.haskell.org/package/pipes-text-0.0.0.1
-https://hackage.haskell.org/package/pipes-text-0.0.0.2
-https://hackage.haskell.org/package/pipes-text-0.0.0.3
-https://hackage.haskell.org/package/pipes-text-0.0.0.4
-https://hackage.haskell.org/package/pipes-text-0.0.0.5
-https://hackage.haskell.org/package/pipes-text-0.0.0.6
-https://hackage.haskell.org/package/pipes-text-0.0.0.7
-https://hackage.haskell.org/package/pipes-text-0.0.0.8
-https://hackage.haskell.org/package/pipes-text-0.0.0.9
-https://hackage.haskell.org/package/pipes-text-0.0.0.10
-https://hackage.haskell.org/package/pipes-text-0.0.0.11
-https://hackage.haskell.org/package/pipes-text-0.0.0.12
-https://hackage.haskell.org/package/pipes-text-0.0.0.13
-https://hackage.haskell.org/package/pipes-text-0.0.0.14
-https://hackage.haskell.org/package/pipes-text-0.0.0.15
-https://hackage.haskell.org/package/pipes-text-0.0.0.16
-https://hackage.haskell.org/package/pipes-text-0.0.0.17
-https://hackage.haskell.org/package/pipes-text-0.0.1.0
-https://hackage.haskell.org/package/pipes-text-0.0.2.0
-https://hackage.haskell.org/package/pipes-text-0.0.2.1
-https://hackage.haskell.org/package/pipes-text-0.0.2.2
-https://hackage.haskell.org/package/pipes-text-0.0.2.3
-https://hackage.haskell.org/package/pipes-text-0.0.2.4
-https://hackage.haskell.org/package/pipes-text-0.0.2.5
-https://hackage.haskell.org/package/pipes-text-1.0.0
-https://hackage.haskell.org/package/pipes-text-1.0.1
-https://hackage.haskell.org/package/pipes-cliff-0.2.0.0
-https://hackage.haskell.org/package/pipes-cliff-0.4.0.0
-https://hackage.haskell.org/package/pipes-cliff-0.6.0.0
-https://hackage.haskell.org/package/pipes-cliff-0.8.0.0
-https://hackage.haskell.org/package/pipes-cliff-0.8.0.2
-https://hackage.haskell.org/package/pipes-cliff-0.10.0.0
-https://hackage.haskell.org/package/pipes-cliff-0.10.0.2
-https://hackage.haskell.org/package/pipes-cliff-0.10.0.4
-https://hackage.haskell.org/package/pipes-cliff-0.12.0.0
-https://hackage.haskell.org/package/streaming-0.1.0.0
-https://hackage.haskell.org/package/streaming-0.1.0.1
-https://hackage.haskell.org/package/streaming-0.1.0.3
-https://hackage.haskell.org/package/streaming-0.1.0.4
-https://hackage.haskell.org/package/streaming-0.1.0.5
-https://hackage.haskell.org/package/streaming-0.1.0.6
-https://hackage.haskell.org/package/streaming-0.1.0.7
-https://hackage.haskell.org/package/streaming-0.1.0.8
-https://hackage.haskell.org/package/streaming-0.1.0.9
-https://hackage.haskell.org/package/streaming-0.1.0.10
-https://hackage.haskell.org/package/streaming-0.1.0.11
-https://hackage.haskell.org/package/streaming-0.1.0.12
-https://hackage.haskell.org/package/streaming-0.1.0.13
-https://hackage.haskell.org/package/streaming-0.1.0.14
-https://hackage.haskell.org/package/streaming-0.1.0.15
-https://hackage.haskell.org/package/streaming-0.1.0.16
-https://hackage.haskell.org/package/streaming-0.1.0.17
-https://hackage.haskell.org/package/streaming-0.1.0.18
-https://hackage.haskell.org/package/streaming-0.1.0.19
-https://hackage.haskell.org/package/streaming-0.1.0.20
-https://hackage.haskell.org/package/streaming-0.1.1.0
-https://hackage.haskell.org/package/streaming-0.1.2.0
-https://hackage.haskell.org/package/streaming-0.1.2.2
-https://hackage.haskell.org/package/streaming-0.1.3.0
-https://hackage.haskell.org/package/streaming-0.1.3.1
-https://hackage.haskell.org/package/streaming-0.1.3.2
-https://hackage.haskell.org/package/streaming-0.1.3.3
-https://hackage.haskell.org/package/streaming-0.1.3.4
-https://hackage.haskell.org/package/streaming-0.1.4.1
-https://hackage.haskell.org/package/streaming-0.1.4.2
-https://hackage.haskell.org/package/streaming-0.1.4.3
-https://hackage.haskell.org/package/streaming-0.1.4.4
-https://hackage.haskell.org/package/streaming-0.1.4.5
-https://hackage.haskell.org/package/streaming-0.2.0.0
-https://hackage.haskell.org/package/streaming-0.2.1.0
-https://hackage.haskell.org/package/streaming-0.2.2.0
-https://hackage.haskell.org/package/streaming-0.2.3.0
-https://hackage.haskell.org/package/streaming-0.2.3.1
-https://hackage.haskell.org/package/streaming-0.2.4.0
-https://hackage.haskell.org/package/streaming-utils-0.1.0.0
-https://hackage.haskell.org/package/streaming-utils-0.1.0.1
-https://hackage.haskell.org/package/streaming-utils-0.1.1.0
-https://hackage.haskell.org/package/streaming-utils-0.1.1.1
-https://hackage.haskell.org/package/streaming-utils-0.1.2.0
-https://hackage.haskell.org/package/streaming-utils-0.1.2.2
-https://hackage.haskell.org/package/streaming-utils-0.1.3.0
-https://hackage.haskell.org/package/streaming-utils-0.1.4.0
-https://hackage.haskell.org/package/streaming-utils-0.1.4.1
-https://hackage.haskell.org/package/streaming-utils-0.1.4.2
-https://hackage.haskell.org/package/streaming-utils-0.1.4.3
-https://hackage.haskell.org/package/streaming-utils-0.1.4.4
-https://hackage.haskell.org/package/streaming-utils-0.1.4.5
-https://hackage.haskell.org/package/streaming-utils-0.1.4.6
-https://hackage.haskell.org/package/streaming-utils-0.1.4.7
-https://hackage.haskell.org/package/streaming-utils-0.2.0.0
-https://hackage.haskell.org/package/streaming-utils-0.2.1.0
-https://hackage.haskell.org/package/streaming-utils-0.2.2.0
-https://hackage.haskell.org/package/streaming-utils-0.2.3.0
-https://hackage.haskell.org/package/streaming-utils-0.2.4.0
-https://hackage.haskell.org/package/streaming-utils-0.2.5.0
-https://hackage.haskell.org/package/streaming-utils-0.2.6.0
-https://hackage.haskell.org/package/pipes-extras-1.0.0
-https://hackage.haskell.org/package/pipes-extras-1.0.1
-https://hackage.haskell.org/package/pipes-extras-1.0.2
-https://hackage.haskell.org/package/pipes-extras-1.0.3
-https://hackage.haskell.org/package/pipes-extras-1.0.4
-https://hackage.haskell.org/package/pipes-extras-1.0.5
-https://hackage.haskell.org/package/pipes-extras-1.0.6
-https://hackage.haskell.org/package/pipes-extras-1.0.7
-https://hackage.haskell.org/package/pipes-extras-1.0.8
-https://hackage.haskell.org/package/pipes-extras-1.0.9
-https://hackage.haskell.org/package/pipes-extras-1.0.10
-https://hackage.haskell.org/package/pipes-extras-1.0.11
-https://hackage.haskell.org/package/pipes-extras-1.0.12
-https://hackage.haskell.org/package/pipes-extras-1.0.13
-https://hackage.haskell.org/package/pipes-extras-1.0.14
-https://hackage.haskell.org/package/pipes-extras-1.0.15
-https://hackage.haskell.org/package/pipes-bytestring-1.0.0
-https://hackage.haskell.org/package/pipes-bytestring-1.0.1
-https://hackage.haskell.org/package/pipes-bytestring-1.0.2
-https://hackage.haskell.org/package/pipes-bytestring-1.0.3
-https://hackage.haskell.org/package/pipes-bytestring-2.0.0
-https://hackage.haskell.org/package/pipes-bytestring-2.0.1
-https://hackage.haskell.org/package/pipes-bytestring-2.1.0
-https://hackage.haskell.org/package/pipes-bytestring-2.1.1
-https://hackage.haskell.org/package/pipes-bytestring-2.1.2
-https://hackage.haskell.org/package/pipes-bytestring-2.1.3
-https://hackage.haskell.org/package/pipes-bytestring-2.1.4
-https://hackage.haskell.org/package/pipes-bytestring-2.1.5
-https://hackage.haskell.org/package/pipes-bytestring-2.1.6
-https://hackage.haskell.org/package/pipes-bytestring-2.1.7
-https://stackoverflow.com/questions/26522053/is-my-concurrency-monad-a-valid-instance-of-monadthrow
-https://www.youtube.com/watch?v=8_TWM2t97r4
-https://www.youtube.com/watch?v=p2h6WHcV8CY
-https://www.youtube.com/watch?v=po3wmq4S15A
-https://www.youtube.com/watch?v=wFpUG2jGxVg
-https://www.youtube.com/watch?v=a6tQkOv1k38
-https://www.youtube.com/watch?v=xDATcERgKgg
-https://www.youtube.com/watch?v=o3Siln85TJ4
-https://www.youtube.com/watch?v=79CXOlIevVU
-https://typelevel.org/cats-effect/api/2.x/cats/effect/index.html
-https://typelevel.org/cats-effect/docs/std/resource
-https://lrodero.github.io/cats-effect/docs/2.x/guides/tutorial
-https://lrodero.github.io/cats-effect/docs/migration-guide
-https://bio.monix.io/docs/error-handling
-https://pursuit.purescript.org/packages/purescript-aff/6.0.0/docs/Effect.Aff
-https://docs.idris-lang.org/en/latest/tutorial/introduction.html
-https://pursuit.purescript.org/packages/purescript-aff/3.0.0
-https://www.cambridge.org/core/journals/journal-of-functional-programming/article/idris-a-generalpurpose-dependently-typed-programming-language-design-and-implementation/418409138B4452969AC0736DB0A2C238
-https://www.reddit.com/r/ProgrammingLanguages/comments/vlgqko
-https://www.youtube.com/watch?v=EArV7Uy-TD0
-https://www.youtube.com/watch?v=dbM72ap30TE
-https://www.youtube.com/watch?v=GlUcCPmH8wI
-https://www.youtube.com/watch?v=L8AEj6IRNEE
-https://www.youtube.com/watch?v=RpqGG-N5p1I
-https://www.youtube.com/watch?v=y2oY4mETysQ
-https://www.youtube.com/watch?v=X36ye-1x_HQ
-https://www.youtube.com/watch?v=UdSDTEdP_tQ
-https://www.youtube.com/watch?v=P1vES9AgfC4
-https://www.youtube.com/watch?v=vnrUIJMxZJ0
-https://www.youtube.com/watch?v=N9EBKp5nTzU
-https://www.youtube.com/watch?v=3WwYkqPctIQ
-https://www.youtube.com/watch?v=yAT0qYlD0UM
-https://www.youtube.com/watch?v=Dle5sNB1M8U
-https://www.youtube.com/watch?v=q9lUT75YU4M
-https://www.youtube.com/watch?v=7SidSvJcPd0
-https://www.youtube.com/watch?v=G8XMRZKOhG0
-https://www.youtube.com/watch?v=252slbrmk8M
-https://www.mendeley.com/catalogue/70f7e8f4-39bc-38fd-b300-28be9aac3226/
-https://www.reddit.com/r/functionalprogramming/comments/xix3v1
-https://citeseerx.ist.psu.edu/document?doi=deb6809f2b9e3208a481913b2b822680ca6b7127&repid=rep1&type=pdf
-https://discourse.haskell.org/t/why-shouldnt-i-make-my-monads-value-strict/8609
-https://zio.dev/reference/error-management/exceptional-and-unexceptional-effects
-https://bio.monix.io/docs/cats-effect
-https://sttp.softwaremill.com/_/downloads/en/v3.0.0/pdf/
-https://www.reddit.com/r/scala/comments/j6l4qx
-https://www.reddit.com/r/scala/comments/zjeab5
-https://www.reddit.com/r/scala/comments/yhajqa
-https://www.youtube.com/watch?v=TXxzMF14pxU
-https://www.youtube.com/watch?v=AOaE0-9MYVM
-https://www.youtube.com/watch?v=oFk8-a1FSP0
-https://www.youtube.com/watch?v=m9cu4xUvrUs
-https://www.youtube.com/watch?v=AEScmarqa80
-https://www.youtube.com/watch?v=J_9DjHMCPKM
-https://www.youtube.com/watch?v=HDlxoItyGZA
-https://www.youtube.com/watch?v=B1wb4fIdtn4
-https://www.youtube.com/watch?v=mkSHhsJXjdc
-https://www.youtube.com/watch?v=Q4OCmKRPUf8
-https://www.youtube.com/watch?v=vRnYCLy7C0o
-https://www.youtube.com/watch?v=38HJM0MdufY
-https://www.youtube.com/watch?v=OFFrw5aJzG4
-https://www.youtube.com/watch?v=ZNB2epqQhc8
-https://www.youtube.com/watch?v=A7CCGMxJyaM
-https://www.youtube.com/watch?v=wi97X8_JQUk
-https://www.youtube.com/watch?v=5PInsnw0puI
-https://www.youtube.com/watch?v=RzV-VWLPGmM
-https://www.youtube.com/watch?v=nEycZ8TMirk
-https://www.youtube.com/watch?v=TqJg4AuxEIQ
-https://www.youtube.com/watch?v=RRFbFC67IiY
-https://www.youtube.com/watch?v=y_QHSDOVJM8
-https://www.youtube.com/watch?v=uyqqoooKpmI
-https://zio.dev/reference/resource/
-https://zio.dev/1.0.18/reference/core/zio/
-https://typelevel.org/cats-effect/api/2.x/cats/effect/IO%24.html
-https://typelevel.org/cats-effect/docs/2.x/datatypes/timer
-https://zio.dev/zio-blocks/reference/resource-management/
-https://zio.dev/1.0.18/reference/resource/managed
-https://typelevel.org/Laika/downloads/laika-0.17-library.pdf
-https://typelevel.org/Laika/downloads/laika-0.18-library.pdf
-https://typelevel.org/cats-effect/docs/2.x/datatypes/ioapp
-https://typelevel.org/cats-effect/api/2.x/cats/effect/SyncIO.html
-https://zio.dev/1.0.18/reference/resource/
-https://typelevel.org/cats-effect/docs/typeclasses/sync
-https://old.arrow-kt.io/docs/apidocs/arrow-core/arrow.core.continuations/-effect/
-https://typelevel.org/Laika/downloads/laika-1.x-sbt.pdf
-https://typelevel.org/cats-effect/docs/2.x/concurrency/deferred
-https://typelevel.org/cats-effect/docs/2.x/concurrency/mvar
-https://typelevel.org/cats-effect/docs/2.x/concurrency/overview
-https://typelevel.org/cats-effect/docs/2.x/concurrency/ref
-https://typelevel.org/cats-effect/docs/2.x/concurrency/semaphore
-https://typelevel.org/cats-effect/docs/2.x/datatypes/clock
-https://typelevel.org/cats-effect/docs/2.x/datatypes/contextshift
-https://typelevel.org/cats-effect/docs/2.x/datatypes/fiber
-https://typelevel.org/cats-effect/docs/2.x/datatypes/
-https://typelevel.org/cats-effect/docs/2.x/datatypes/resource
-https://typelevel.org/cats-effect/docs/2.x/datatypes/syncio
-https://typelevel.org/cats-effect/docs/2.x/getting-started
-https://typelevel.org/cats-effect/docs/2.x/guides/testing
-https://typelevel.org/cats-effect/docs/2.x/guides/tracing
-https://typelevel.org/cats-effect/docs/2.x/guides/tutorial
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/async
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/bracket
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/concurrenteffect
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/concurrent
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/effect
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/liftio
-https://typelevel.org/cats-effect/docs/2.x/typeclasses/sync
-https://typelevel.org/cats-effect/docs/concurrency/basics
-https://typelevel.org/cats-effect/docs/concurrency/deferred
-https://typelevel.org/cats-effect/docs/concurrency/mvar
-https://typelevel.org/cats-effect/docs/concurrency/overview
-https://typelevel.org/cats-effect/docs/concurrency/ref
-https://typelevel.org/cats-effect/docs/concurrency/semaphore
-https://typelevel.org/cats-effect/docs/core/fiber-dumps
-https://typelevel.org/cats-effect/docs/core/io-local
-https://typelevel.org/cats-effect/docs/core/io-runtime-config
-https://typelevel.org/cats-effect/docs/core/starvation-and-tuning
-https://typelevel.org/cats-effect/docs/core/test-runtime
-https://typelevel.org/cats-effect/docs/datatypes/ioapp
-https://typelevel.org/cats-effect/docs/datatypes/resource
-https://typelevel.org/cats-effect/docs/guides/testing
-https://typelevel.org/cats-effect/docs/guides/tracing
-https://typelevel.org/cats-effect/docs/guides/tutorial
-https://typelevel.org/cats-effect/docs/schedulers
-https://typelevel.org/cats-effect/docs/std/console
-https://typelevel.org/cats-effect/docs/std/dispatcher
-https://typelevel.org/cats-effect/docs/std/hotswap
-https://typelevel.org/cats-effect/docs/std/supervisor
-https://typelevel.org/cats-effect/docs/thread-model
-https://typelevel.org/cats-effect/docs/tracing
-https://typelevel.org/cats-effect/docs/typeclasses/async
-https://typelevel.org/cats-effect/docs/typeclasses/bracket
-https://typelevel.org/cats-effect/docs/typeclasses/concurrenteffect
-https://typelevel.org/cats-effect/docs/typeclasses/concurrent
-https://typelevel.org/cats-effect/docs/typeclasses/effect
-https://typelevel.org/cats-effect/docs/typeclasses/liftio
-https://typelevel.org/cats-effect/docs/typeclasses/monadcancel
-https://typelevel.org/cats-effect/docs/typeclasses/spawn
-https://typelevel.org/cats-effect/docs/typeclasses/temporal
-https://typelevel.org/cats-effect/docs/next/concepts
-https://typelevel.org/cats-effect/docs/next/concurrency/basics
-https://typelevel.org/cats-effect/docs/next/concurrency/deferred
-https://typelevel.org/cats-effect/docs/next/concurrency/mvar
-https://typelevel.org/cats-effect/docs/next/concurrency/overview
-https://typelevel.org/cats-effect/docs/next/concurrency/ref
-https://typelevel.org/cats-effect/docs/next/concurrency/semaphore
-https://typelevel.org/cats-effect/docs/next/core/fiber-dumps
-https://typelevel.org/cats-effect/docs/next/core/io-local
-https://typelevel.org/cats-effect/docs/next/core/io-runtime-config
-https://typelevel.org/cats-effect/docs/next/core/starvation-and-tuning
-https://typelevel.org/cats-effect/docs/next/core/test-runtime
-https://typelevel.org/cats-effect/docs/next/datatypes/clock
-https://typelevel.org/cats-effect/docs/next/datatypes/contextshift
-https://typelevel.org/cats-effect/docs/next/datatypes/fiber
-https://typelevel.org/cats-effect/docs/next/datatypes/
-https://typelevel.org/cats-effect/docs/next/datatypes/io
-https://typelevel.org/cats-effect/docs/next/datatypes/ioapp
-https://typelevel.org/cats-effect/docs/next/datatypes/resource
-https://typelevel.org/cats-effect/docs/next/datatypes/syncio
-https://typelevel.org/cats-effect/docs/next/datatypes/timer
-https://typelevel.org/cats-effect/docs/next/getting-started
-https://typelevel.org/cats-effect/docs/next/guides/testing
-https://typelevel.org/cats-effect/docs/next/guides/tracing
-https://typelevel.org/cats-effect/docs/next/guides/tutorial
-https://typelevel.org/cats-effect/docs/next/migration-guide
-https://typelevel.org/cats-effect/docs/next/recipes
-https://typelevel.org/cats-effect/docs/next/schedulers
-https://typelevel.org/cats-effect/docs/next/std/async-await
-https://typelevel.org/cats-effect/docs/next/std/backpressure
-https://typelevel.org/cats-effect/docs/next/std/console
-https://typelevel.org/cats-effect/docs/next/std/dispatcher
-https://typelevel.org/cats-effect/docs/next/std/hotswap
-https://typelevel.org/cats-effect/docs/next/std/resource
-https://typelevel.org/cats-effect/docs/next/std/supervisor
-https://typelevel.org/cats-effect/docs/next/thread-model
-https://typelevel.org/cats-effect/docs/next/tracing
-https://typelevel.org/cats-effect/docs/next/tutorial
-https://typelevel.org/cats-effect/docs/next/typeclasses
-https://typelevel.org/cats-effect/docs/next/typeclasses/async
-https://typelevel.org/cats-effect/docs/next/typeclasses/bracket
-https://typelevel.org/cats-effect/docs/next/typeclasses/concurrenteffect
-https://typelevel.org/cats-effect/docs/next/typeclasses/concurrent
-https://typelevel.org/cats-effect/docs/next/typeclasses/effect
-https://typelevel.org/cats-effect/docs/next/typeclasses/liftio
-https://typelevel.org/cats-effect/docs/next/typeclasses/monadcancel
-https://typelevel.org/cats-effect/docs/next/typeclasses/spawn
-https://typelevel.org/cats-effect/docs/next/typeclasses/sync
-https://typelevel.org/cats-effect/docs/next/typeclasses/temporal
-https://typelevel.org/cats-effect/en/index
-https://typelevel.org/cats-effect/en/resources
-https://typelevel.org/cats-effect/en/users
-https://typelevel.org/cats-effect/en/versions
-https://typelevel.org/cats-effect/docs/third-party-resources
-https://typelevel.org/cats-effect/docs/next/third-party-resources
-https://typelevel.org/cats-effect/docs/faq
-https://typelevel.org/cats-effect/docs/next/faq
-https://typelevel.org/cats-effect/docs/recipes
-https://typelevel.org/cats-effect/docs/std/async-await
-https://typelevel.org/cats-effect/docs/std/atomic-cell
-https://typelevel.org/cats-effect/docs/std/atomic-map
-https://typelevel.org/cats-effect/docs/std/backpressure
-https://typelevel.org/cats-effect/docs/std/countdown-latch
-https://typelevel.org/cats-effect/docs/std/cyclic-barrier
-https://typelevel.org/cats-effect/docs/std/deferred
-https://typelevel.org/cats-effect/docs/std/dequeue
-https://typelevel.org/cats-effect/docs/std/env
-https://typelevel.org/cats-effect/docs/std/keyed-mutex
-https://typelevel.org/cats-effect/docs/std/mapref
-https://typelevel.org/cats-effect/docs/std/mutex
-https://typelevel.org/cats-effect/docs/std/pqueue
-https://typelevel.org/cats-effect/docs/std/queue
-https://typelevel.org/cats-effect/docs/std/random
-https://typelevel.org/cats-effect/docs/std/ref
-https://typelevel.org/cats-effect/docs/std/semaphore
-https://typelevel.org/cats-effect/docs/next/std/atomic-cell
-https://typelevel.org/cats-effect/docs/next/std/atomic-map
-https://typelevel.org/cats-effect/docs/next/std/countdown-latch
-https://typelevel.org/cats-effect/docs/next/std/cyclic-barrier
-https://typelevel.org/cats-effect/docs/next/std/deferred
-https://typelevel.org/cats-effect/docs/next/std/dequeue
-https://typelevel.org/cats-effect/docs/next/std/env
-https://typelevel.org/cats-effect/docs/next/std/keyed-mutex
-https://typelevel.org/cats-effect/docs/next/std/mapref
-https://typelevel.org/cats-effect/docs/next/std/mutex
-https://typelevel.org/cats-effect/docs/next/std/pqueue
-https://typelevel.org/cats-effect/docs/next/std/queue
-https://typelevel.org/cats-effect/docs/next/std/random
-https://typelevel.org/cats-effect/docs/next/std/ref
-https://typelevel.org/cats-effect/docs/next/std/semaphore
-https://zio.dev/1.0.18/overview/
-https://zio.dev/1.0.18/overview/overview_background
-https://zio.dev/1.0.18/overview/overview_basic_concurrency
-https://zio.dev/1.0.18/overview/overview_basic_operations
-https://zio.dev/1.0.18/overview/overview_creating_effects
-https://zio.dev/1.0.18/overview/overview_handling_errors
-https://zio.dev/1.0.18/overview/overview_handling_resources
-https://zio.dev/1.0.18/overview/overview_platforms
-https://zio.dev/1.0.18/overview/overview_running_effects
-https://zio.dev/1.0.18/overview/overview_testing_effects
-https://zio.dev/1.0.18/reference/concurrency/
-https://zio.dev/1.0.18/reference/concurrency/hub
-https://zio.dev/1.0.18/reference/concurrency/promise
-https://zio.dev/1.0.18/reference/concurrency/queue
-https://zio.dev/1.0.18/reference/concurrency/ref
-https://zio.dev/1.0.18/reference/concurrency/refm
-https://zio.dev/1.0.18/reference/concurrency/semaphore
-https://zio.dev/1.0.18/reference/concurrency/zref
-https://zio.dev/1.0.18/reference/concurrency/zrefm
-https://zio.dev/1.0.18/reference/core/
-https://zio.dev/1.0.18/reference/core/cause
-https://zio.dev/1.0.18/reference/core/exit
-https://zio.dev/1.0.18/reference/core/io
-https://zio.dev/1.0.18/reference/core/rio
-https://zio.dev/1.0.18/reference/core/runtime
-https://zio.dev/1.0.18/reference/core/task
-https://zio.dev/1.0.18/reference/core/uio
-https://zio.dev/1.0.18/reference/core/urio
-https://zio.dev/1.0.18/reference/core/zio
-https://zio.dev/1.0.18/reference/fiber/
-https://zio.dev/1.0.18/reference/fiber/fiberid
-https://zio.dev/1.0.18/reference/fiber/fiberref
-https://zio.dev/1.0.18/reference/fiber/fiberstatus
-https://zio.dev/1.0.18/reference/resource/rmanaged
-https://zio.dev/1.0.18/reference/resource/task-managed
-https://zio.dev/1.0.18/reference/resource/umanaged
-https://zio.dev/1.0.18/reference/resource/urmanaged
-https://zio.dev/1.0.18/reference/resource/zmanaged
-https://zio.dev/overview/basic-concurrency
-https://zio.dev/overview/basic-operations
-https://zio.dev/overview/creating-effects
-https://zio.dev/overview/getting-started
-https://zio.dev/overview/handling-errors
-https://zio.dev/overview/handling-resources
-https://zio.dev/overview/performance
-https://zio.dev/overview/platforms
-https://zio.dev/overview/running-effects
-https://zio.dev/overview/summary
-https://zio.dev/reference/concurrency/
-https://zio.dev/reference/concurrency/hub
-https://zio.dev/reference/concurrency/promise
-https://zio.dev/reference/concurrency/queue
-https://zio.dev/reference/concurrency/refsynchronized
-https://zio.dev/reference/concurrency/semaphore
-https://zio.dev/reference/core/
-https://zio.dev/reference/core/cause
-https://zio.dev/reference/core/exit
-https://zio.dev/reference/core/runtime
-https://zio.dev/reference/core/zio/io
-https://zio.dev/reference/core/zio/rio
-https://zio.dev/reference/core/zio/uio
-https://zio.dev/reference/core/zio/urio
-https://zio.dev/reference/core/zioapp
-https://zio.dev/reference/fiber/
-https://zio.dev/reference/fiber/fiber.md
-https://zio.dev/reference/fiber/fiberid
-https://zio.dev/reference/fiber/fiberstatus
-https://zio.dev/reference/interruption/
-https://zio.dev/reference/resource/cached
-https://zio.dev/reference/resource/scope
-https://zio.dev/reference/resource/scopedref
-https://zio.dev/reference/resource/zkeyedpool
-https://zio.dev/reference/resource/zpool
-https://zio.dev/zio-blocks/reference/resource-management/defer-handle
-https://zio.dev/zio-blocks/reference/resource-management/finalization
-https://zio.dev/zio-blocks/reference/resource-management/finalizer
-https://zio.dev/zio-blocks/reference/resource-management/resource
-https://zio.dev/zio-blocks/reference/resource-management/scope
-https://zio.dev/zio-blocks/reference/resource-management/unscoped
-https://zio.dev/zio-blocks/reference/resource-management/wire
-https://zio.dev/reference/error-management/
-https://zio.dev/reference/error-management/best-practices/algebraic-data-types
-https://zio.dev/reference/error-management/best-practices/logging-errors
-https://zio.dev/reference/error-management/best-practices/unexpected-errors
-https://zio.dev/reference/error-management/best-practices/union-types
-https://zio.dev/reference/error-management/error-accumulation
-https://zio.dev/reference/error-management/examples
-https://zio.dev/reference/error-management/expected-and-unexpected-errors
-https://zio.dev/reference/error-management/imperative-vs-declarative
-https://zio.dev/reference/error-management/operations/chaining-effects-based-on-errors
-https://zio.dev/reference/error-management/operations/converting-defects-to-failures
-https://zio.dev/reference/error-management/operations/error-refinement
-https://zio.dev/reference/error-management/operations/exposing-errors-in-the-success-channel
-https://zio.dev/reference/error-management/operations/exposing-the-cause-in-the-success-channel
-https://zio.dev/reference/error-management/operations/filtering-the-success-channel
-https://zio.dev/reference/error-management/operations/flattening-optional-error-types
-https://zio.dev/reference/error-management/operations/flipping-error-and-success-channels
-https://zio.dev/reference/error-management/operations/map-operations
-https://zio.dev/reference/error-management/operations/merging-the-error-channel-into-the-success-channel
-https://zio.dev/reference/error-management/operations/rejecting-some-success-values
-https://zio.dev/reference/error-management/operations/tapping-errors
-https://zio.dev/reference/error-management/operations/zooming-in-on-nested-values
-https://zio.dev/reference/error-management/recovering/catching
-https://zio.dev/reference/error-management/recovering/fallback
-https://zio.dev/reference/error-management/recovering/folding
-https://zio.dev/reference/error-management/recovering/retrying
-https://zio.dev/reference/error-management/recovering/sandboxing
-https://zio.dev/reference/error-management/recovering/timing-out
-https://zio.dev/reference/error-management/sequential-and-parallel-errors
-https://zio.dev/reference/error-management/typed-errors-guarantees
-https://zio.dev/reference/error-management/types/
-https://zio.dev/reference/error-management/types/defects
-https://zio.dev/reference/error-management/types/failures
-https://zio.dev/reference/error-management/types/fatals
-https://zio.dev/1.0.18/reference/stream/
-https://zio.dev/1.0.18/reference/stream/sink
-https://zio.dev/1.0.18/reference/stream/subscription-ref
-https://zio.dev/1.0.18/reference/stream/transducer
-https://zio.dev/1.0.18/reference/stream/ustream
-https://zio.dev/1.0.18/reference/stream/zsink
-https://zio.dev/1.0.18/reference/stream/zstream
-https://zio.dev/1.0.18/reference/stream/ztransducer
-https://zio.dev/reference/stream/
-https://zio.dev/reference/stream/chunk
-https://zio.dev/reference/stream/installation
-https://zio.dev/reference/stream/subscription-ref
-https://zio.dev/reference/stream/zchannel/
-https://zio.dev/reference/stream/zchannel/channel-interruption
-https://zio.dev/reference/stream/zchannel/channel-operations
-https://zio.dev/reference/stream/zchannel/composing-channels
-https://zio.dev/reference/stream/zchannel/creating-channels
-https://zio.dev/reference/stream/zchannel/running-a-channel
-https://zio.dev/reference/stream/zpipeline
-https://zio.dev/reference/stream/zsink/
-https://zio.dev/reference/stream/zsink/creating-sinks
-https://zio.dev/reference/stream/zsink/leftovers
-https://zio.dev/reference/stream/zsink/operations
-https://zio.dev/reference/stream/zsink/parallel-operators
-https://zio.dev/reference/stream/zstream/
-https://zio.dev/reference/stream/zstream/consuming-streams
-https://zio.dev/reference/stream/zstream/creating-zio-streams
-https://zio.dev/reference/stream/zstream/error-handling
-https://zio.dev/reference/stream/zstream/operations
-https://zio.dev/reference/stream/zstream/resourceful-streams
-https://zio.dev/reference/stream/zstream/scheduling
-https://zio.dev/reference/stream/zstream/streams-are-chunked-by-default
-https://zio.dev/reference/stream/zstream/type-aliases
-https://zio.dev/zio-blocks/reference/streams
-https://zio.dev/reference/observability/logging
-https://zio.dev/reference/observability/metrics/
-https://zio.dev/reference/observability/metrics/counter
-https://zio.dev/reference/observability/metrics/frequency
-https://zio.dev/reference/observability/metrics/gauge
-https://zio.dev/reference/observability/metrics/histogram
-https://zio.dev/reference/observability/metrics/jvm
-https://zio.dev/reference/observability/metrics/metriclabel
-https://zio.dev/reference/observability/metrics/summary
-https://zio.dev/reference/observability/supervisor
-https://zio.dev/reference/observability/tracing
-https://effect-ts.github.io/effect/effect/Fiber.ts.html
-https://effect-ts.github.io/effect/effect/Scope.ts.html
-https://app.unpkg.com/effect%403.13.2/files/dist/dts/Runtime.d.ts
-https://effect-ts.github.io/effect/effect/Layer.ts.html
-https://www.npmjs.com/package/effect?activeTab=readme
-https://effect-ts.github.io/effect/effect/FiberHandle.ts.html
-https://www.reddit.com/r/functionalprogramming/comments/19f8s6b
-https://www.reddit.com/r/typescript/comments/1ns6vma
-https://www.reddit.com/r/typescript/comments/1cf0a2n
-https://www.reddit.com/r/functionalprogramming/comments/xlyo5f
-https://www.reddit.com/r/typescript/comments/14ub0ik
-https://effect-ts.github.io/effect/effect/Cause.ts.html
-https://effect-ts.github.io/effect/effect/Channel.ts.html
-https://effect-ts.github.io/effect/effect/Clock.ts.html
-https://effect-ts.github.io/effect/effect/Console.ts.html
-https://effect-ts.github.io/effect/effect/Deferred.ts.html
-https://effect-ts.github.io/effect/effect/Exit.ts.html
-https://effect-ts.github.io/effect/effect/Logger.ts.html
-https://effect-ts.github.io/effect/effect/Metric.ts.html
-https://effect-ts.github.io/effect/effect/Pool.ts.html
-https://effect-ts.github.io/effect/effect/Queue.ts.html
-https://effect-ts.github.io/effect/effect/Ref.ts.html
-https://effect-ts.github.io/effect/effect/RequestResolver.ts.html
-https://effect-ts.github.io/effect/effect/Resource.ts.html
-https://effect-ts.github.io/effect/effect/Runtime.ts.html
-https://effect-ts.github.io/effect/effect/Schedule.ts.html
-https://effect-ts.github.io/effect/effect/Sink.ts.html
-https://effect-ts.github.io/effect/effect/STM.ts.html
-https://effect-ts.github.io/effect/effect/Stream.ts.html
-https://effect-ts.github.io/effect/effect/SubscriptionRef.ts.html
-https://effect-ts.github.io/effect/effect/Supervisor.ts.html
-https://effect-ts.github.io/effect/effect/TArray.ts.html
-https://effect-ts.github.io/effect/effect/TMap.ts.html
-https://effect-ts.github.io/effect/effect/TPubSub.ts.html
-https://effect-ts.github.io/effect/effect/TQueue.ts.html
-https://effect-ts.github.io/effect/effect/Tracer.ts.html
-https://effect-ts.github.io/effect/effect/TRef.ts.html
-https://effect-ts.github.io/effect/effect/TSet.ts.html
-https://effect.website/
-https://effect.website/events/effect-days
-https://webflow.effect.website/events/effect-days
-https://effect.website/events/effect-days/speakers/antoine-coulon
-https://effect.website/play
-https://webflow.effect.website/events/effect-days-2024/effect-days
-https://effect.website/events/effect-days/schedule-2025
-https://www.youtube.com/watch?v=Lz2J1NBnHK4
-https://www.youtube.com/watch?v=VR_MQH3opc8
-https://www.youtube.com/watch?v=7jOD5okJC00
-https://www.youtube.com/watch?v=Oy7fr2_WBFI
-https://www.youtube.com/watch?v=4lEDdMuTDJg
-https://www.youtube.com/watch?v=nyvB6nRe5x0
-https://effect-ts.github.io/effect/effect/Cache.ts.html
-https://effect-ts.github.io/effect/effect/ConfigProvider.ts.html
-https://effect-ts.github.io/effect/effect/DefaultServices.ts.html
-https://effect-ts.github.io/effect/effect/Duration.ts.html
-https://effect-ts.github.io/effect/effect/ExecutionPlan.ts.html
-https://effect-ts.github.io/effect/effect/FiberId.ts.html
-https://effect-ts.github.io/effect/effect/FiberMap.ts.html
-https://effect-ts.github.io/effect/effect/FiberRef.ts.html
-https://effect-ts.github.io/effect/effect/FiberRefs.ts.html
-https://effect-ts.github.io/effect/effect/FiberSet.ts.html
-https://effect-ts.github.io/effect/effect/FiberStatus.ts.html
-https://effect-ts.github.io/effect/effect/GlobalValue.ts.html
-https://effect-ts.github.io/effect/effect/KeyedPool.ts.html
-https://effect-ts.github.io/effect/effect/LayerMap.ts.html
-https://effect-ts.github.io/effect/effect/ManagedRuntime.ts.html
-https://effect-ts.github.io/effect/effect/PartitionedSemaphore.ts.html
-https://effect-ts.github.io/effect/effect/PubSub.ts.html
-https://effect-ts.github.io/effect/effect/Random.ts.html
-https://effect-ts.github.io/effect/effect/RateLimiter.ts.html
-https://effect-ts.github.io/effect/effect/RcRef.ts.html
-https://effect-ts.github.io/effect/effect/Reloadable.ts.html
-https://effect-ts.github.io/effect/effect/Request.ts.html
-https://effect-ts.github.io/effect/effect/RuntimeFlags.ts.html
-https://effect-ts.github.io/effect/effect/RuntimeFlagsPatch.ts.html
-https://effect-ts.github.io/effect/effect/ScheduleDecision.ts.html
-https://effect-ts.github.io/effect/effect/ScheduleInterval.ts.html
-https://effect-ts.github.io/effect/effect/ScheduleIntervals.ts.html
-https://effect-ts.github.io/effect/effect/ScopedCache.ts.html
-https://effect-ts.github.io/effect/effect/ScopedRef.ts.html
-https://effect-ts.github.io/effect/effect/SynchronizedRef.ts.html
-https://effect-ts.github.io/effect/effect/TestAnnotation.ts.html
-https://effect-ts.github.io/effect/effect/TestClock.ts.html
-https://effect-ts.github.io/effect/effect/TestConfig.ts.html
-https://effect-ts.github.io/effect/effect/TestContext.ts.html
-https://effect-ts.github.io/effect/effect/TestServices.ts.html
-https://effect-ts.github.io/effect/effect/Config.ts.html
-https://effect-ts.github.io/effect/effect/ConfigError.ts.html
-https://effect-ts.github.io/effect/effect/ConfigProviderPathPatch.ts.html
-https://effect-ts.github.io/effect/effect/Context.ts.html
-https://effect-ts.github.io/effect/effect/FiberRefsPatch.ts.html
-https://effect-ts.github.io/effect/effect/LogLevel.ts.html
-https://effect-ts.github.io/effect/effect/LogSpan.ts.html
-https://effect-ts.github.io/effect/effect/MetricBoundaries.ts.html
-https://effect-ts.github.io/effect/effect/MetricHook.ts.html
-https://effect-ts.github.io/effect/effect/MetricKey.ts.html
-https://effect-ts.github.io/effect/effect/MetricKeyType.ts.html
-https://effect-ts.github.io/effect/effect/MetricLabel.ts.html
-https://effect-ts.github.io/effect/effect/MetricPair.ts.html
-https://effect-ts.github.io/effect/effect/MetricPolling.ts.html
-https://effect-ts.github.io/effect/effect/MetricRegistry.ts.html
-https://effect-ts.github.io/effect/effect/MetricState.ts.html
-https://effect-ts.github.io/effect/effect/MutableQueue.ts.html
-https://effect-ts.github.io/effect/effect/MutableRef.ts.html
-https://effect-ts.github.io/effect/effect/RequestBlock.ts.html
-https://effect-ts.github.io/effect/effect/Scheduler.ts.html
-https://effect-ts.github.io/effect/effect/Streamable.ts.html
-https://effect-ts.github.io/effect/effect/StreamEmit.ts.html
-https://effect-ts.github.io/effect/effect/StreamHaltStrategy.ts.html
-https://effect-ts.github.io/effect/effect/TDeferred.ts.html
-https://effect-ts.github.io/effect/effect/TPriorityQueue.ts.html
-https://effect-ts.github.io/effect/effect/TRandom.ts.html
-https://effect-ts.github.io/effect/effect/TSemaphore.ts.html
-https://effect-ts.github.io/effect/effect/TSubscriptionRef.ts.html
-https://effect-ts.github.io/effect/effect/UpstreamPullRequest.ts.html
-https://effect-ts.github.io/effect/effect/UpstreamPullStrategy.ts.html
-https://effect-ts.github.io/effect/effect/ChildExecutorDecision.ts.html
-https://effect-ts.github.io/effect/effect/Cron.ts.html
-https://effect-ts.github.io/effect/effect/Effectable.ts.html
-https://effect-ts.github.io/effect/effect/ExecutionStrategy.ts.html
-https://effect-ts.github.io/effect/effect/GroupBy.ts.html
-https://effect-ts.github.io/effect/effect/index.ts.html
-https://effect-ts.github.io/effect/effect/Mailbox.ts.html
-https://effect-ts.github.io/effect/effect/MergeDecision.ts.html
-https://effect-ts.github.io/effect/effect/MergeState.ts.html
-https://effect-ts.github.io/effect/effect/MergeStrategy.ts.html
-https://effect-ts.github.io/effect/effect/Micro.ts.html
-https://effect-ts.github.io/effect/effect/RcMap.ts.html
-https://effect-ts.github.io/effect/effect/Readable.ts.html
-https://effect-ts.github.io/effect/effect/SingleProducerAsyncInput.ts.html
-https://effect-ts.github.io/effect/effect/Subscribable.ts.html
-https://effect-ts.github.io/effect/effect/Take.ts.html
-https://effect-ts.github.io/effect/effect/TestAnnotationMap.ts.html
-https://effect-ts.github.io/effect/effect/TestAnnotations.ts.html
-https://effect-ts.github.io/effect/effect/TestLive.ts.html
-https://effect-ts.github.io/effect/effect/TestSized.ts.html
-https://effect-ts.github.io/effect/effect/TReentrantLock.ts.html
-https://effect-ts.github.io/effect/effect/Chunk.ts.html
-https://effect-ts.github.io/effect/platform/Command.ts.html
-https://effect-ts.github.io/effect/platform/CommandExecutor.ts.html
-https://effect-ts.github.io/effect/platform/Error.ts.html
-https://effect-ts.github.io/effect/platform/Etag.ts.html
-https://effect-ts.github.io/effect/platform/FileSystem.ts.html
-https://effect-ts.github.io/effect/platform/HttpClient.ts.html
-https://effect-ts.github.io/effect/platform/HttpPlatform.ts.html
-https://effect-ts.github.io/effect/platform/HttpServer.ts.html
-https://effect-ts.github.io/effect/platform/KeyValueStore.ts.html
-https://effect-ts.github.io/effect/platform/Multipart.ts.html
-https://effect-ts.github.io/effect/platform/Path.ts.html
-https://effect-ts.github.io/effect/platform/PlatformConfigProvider.ts.html
-https://effect-ts.github.io/effect/platform/Runtime.ts.html
-https://effect-ts.github.io/effect/platform/Socket.ts.html
-https://effect-ts.github.io/effect/platform/Template.ts.html
-https://effect-ts.github.io/effect/platform/Terminal.ts.html
-https://effect-ts.github.io/effect/platform/Worker.ts.html
-https://effect-ts.github.io/effect/platform/WorkerError.ts.html
-https://effect-ts.github.io/effect/platform/Cookies.ts.html
-https://effect-ts.github.io/effect/platform/Effectify.ts.html
-https://effect-ts.github.io/effect/platform/FetchHttpClient.ts.html
-https://effect-ts.github.io/effect/platform/Headers.ts.html
-https://effect-ts.github.io/effect/platform/HttpApi.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiBuilder.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiClient.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiEndpoint.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiError.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiGroup.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiMiddleware.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiScalar.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiSecurity.ts.html
-https://effect-ts.github.io/effect/platform/HttpApiSwagger.ts.html
-https://effect-ts.github.io/effect/platform/HttpApp.ts.html
-https://effect-ts.github.io/effect/platform/HttpBody.ts.html
-https://effect-ts.github.io/effect/platform/HttpClientError.ts.html
-https://effect-ts.github.io/effect/platform/HttpClientRequest.ts.html
-https://effect-ts.github.io/effect/platform/HttpClientResponse.ts.html
-https://effect-ts.github.io/effect/platform/HttpIncomingMessage.ts.html
-https://effect-ts.github.io/effect/platform/HttpLayerRouter.ts.html
-https://effect-ts.github.io/effect/platform/HttpMethod.ts.html
-https://effect-ts.github.io/effect/platform/HttpMiddleware.ts.html
-https://effect-ts.github.io/effect/platform/HttpMultiplex.ts.html
-https://effect-ts.github.io/effect/platform/HttpRouter.ts.html
-https://effect-ts.github.io/effect/platform/HttpServerError.ts.html
-https://effect-ts.github.io/effect/platform/HttpServerRequest.ts.html
-https://effect-ts.github.io/effect/platform/HttpServerRespondable.ts.html
-https://effect-ts.github.io/effect/platform/HttpServerResponse.ts.html
-https://effect-ts.github.io/effect/platform/HttpTraceContext.ts.html
-https://effect-ts.github.io/effect/platform/index.ts.html
-https://effect-ts.github.io/effect/platform/MsgPack.ts.html
-https://effect-ts.github.io/effect/platform/Ndjson.ts.html
-https://effect-ts.github.io/effect/platform/OpenApi.ts.html
-https://effect-ts.github.io/effect/platform/PlatformLogger.ts.html
-https://effect-ts.github.io/effect/platform/SocketServer.ts.html
-https://effect-ts.github.io/effect/platform/Transferable.ts.html
-https://effect-ts.github.io/effect/platform/Url.ts.html
-https://effect-ts.github.io/effect/platform/UrlParams.ts.html
-https://effect-ts.github.io/effect/platform/WorkerRunner.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserHttpClient.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserKeyValueStore.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserRuntime.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserSocket.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserStream.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserWorker.ts.html
-https://effect-ts.github.io/effect/platform-browser/BrowserWorkerRunner.ts.html
-https://effect-ts.github.io/effect/platform-browser/Clipboard.ts.html
-https://effect-ts.github.io/effect/platform-browser/Geolocation.ts.html
-https://effect-ts.github.io/effect/platform-browser/index.ts.html
-https://effect-ts.github.io/effect/platform-browser/Permissions.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunClusterHttp.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunClusterSocket.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunCommandExecutor.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunContext.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunFileSystem.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunFileSystem/ParcelWatcher.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunHttpPlatform.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunHttpServer.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunHttpServerRequest.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunKeyValueStore.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunMultipart.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunPath.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunRuntime.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunSink.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunSocket.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunSocketServer.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunStream.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunTerminal.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunWorker.ts.html
-https://effect-ts.github.io/effect/platform-bun/BunWorkerRunner.ts.html
-https://effect-ts.github.io/effect/platform-bun/index.ts.html
-https://effect-ts.github.io/effect/platform-node/index.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeClusterHttp.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeClusterSocket.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeCommandExecutor.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeContext.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeFileSystem.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeFileSystem/ParcelWatcher.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeHttpClient.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeHttpPlatform.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeHttpServer.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeHttpServerRequest.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeKeyValueStore.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeMultipart.ts.html
-https://effect-ts.github.io/effect/platform-node/NodePath.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeRuntime.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeSink.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeSocket.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeSocketServer.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeStream.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeTerminal.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeWorker.ts.html
-https://effect-ts.github.io/effect/platform-node/NodeWorkerRunner.ts.html
-https://effect-ts.github.io/effect/platform-node/Undici.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeClusterSocket.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeCommandExecutor.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeFileSystem.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeFileSystem/ParcelWatcher.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeKeyValueStore.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeMultipart.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodePath.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeRuntime.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeSink.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeSocket.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeSocketServer.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeStream.ts.html
-https://effect-ts.github.io/effect/platform-node-shared/NodeTerminal.ts.html
-https://discuss.ocaml.org/t/about-lwt-concurrency-library/150
-https://ocaml-multicore.github.io/eio/eio/Eio/Fiber/index.html
-https://opam.ocaml.org/packages/cohttp-lwt/
-https://kcsrk.info/slides/ocaml22_keynote.pdf
-https://www.irif.fr/~vouillon/publi/lwt.pdf
-https://arxiv.org/abs/1803.02796
-https://www.reddit.com/r/ocaml/comments/16d7twc
-https://www.reddit.com/r/ocaml/comments/k0mq0f
-https://www.reddit.com/r/ocaml/comments/1c7obmu
-https://www.youtube.com/watch?v=jr4LsCVQBj4
-https://www.youtube.com/watch?v=zfGlQZ2pkss
-https://www.youtube.com/watch?v=iVpsVqd6eNE
-https://www.youtube.com/watch?v=4Hy5AEg43jc
-https://www.youtube.com/watch?v=OhV5knHKSBw
-https://www.youtube.com/watch?v=YDGJ-E7leJo
-https://www.youtube.com/watch?v=41F1x2lD54w
-https://www.youtube.com/watch?v=bocj6ReCq5w
-https://www.youtube.com/watch?v=abDWZ9D8kEE
-https://www.youtube.com/watch?v=hbnss4U5xps
-https://ocaml.org/p/async/latest
-https://ocaml.org/p/async/v0.13.0
-https://ocaml.org/p/async/v0.14.0
-https://ocaml.org/p/async/v0.15.0
-https://ocaml.org/p/async/v0.16.0
-https://ocaml.org/p/async/v0.17.0
-https://ocaml.org/p/async_unix/latest
-https://ocaml.org/p/async_unix/v0.13.1
-https://ocaml.org/p/async_unix/v0.14.0
-https://ocaml.org/p/async_unix/v0.15.0
-https://ocaml.org/p/async_unix/v0.16.0
-https://ocaml.org/p/async_unix/v0.17.0
-https://ocaml.org/p/eio/0.1
-https://ocaml.org/p/eio/0.10
-https://ocaml.org/p/eio/0.11
-https://ocaml.org/p/eio/0.12
-https://ocaml.org/p/eio/0.14
-https://ocaml.org/p/eio/0.15
-https://ocaml.org/p/eio/0.2
-https://ocaml.org/p/eio/0.3
-https://ocaml.org/p/eio/0.4
-https://ocaml.org/p/eio/0.5
-https://ocaml.org/p/eio/0.6
-https://ocaml.org/p/eio/0.7
-https://ocaml.org/p/eio/0.8.1
-https://ocaml.org/p/eio/0.9
-https://ocaml.org/p/eio/1.0
-https://ocaml.org/p/eio/1.2
-https://ocaml.org/p/eio/1.3
-https://ocaml.org/p/eio/latest
-https://ocaml.org/p/lwt/4.2.0
-https://ocaml.org/p/lwt/4.2.1
-https://ocaml.org/p/lwt/4.2.1-1
-https://ocaml.org/p/lwt/4.3.0
-https://ocaml.org/p/lwt/4.3.1
-https://ocaml.org/p/lwt/4.4.0
-https://ocaml.org/p/lwt/4.5.0
-https://ocaml.org/p/lwt/5.0.0
-https://ocaml.org/p/lwt/5.0.1
-https://ocaml.org/p/lwt/5.1.0
-https://ocaml.org/p/lwt/5.1.1
-https://ocaml.org/p/lwt/5.1.2
-https://ocaml.org/p/lwt/5.10.0
-https://ocaml.org/p/lwt/5.10.1
-https://ocaml.org/p/lwt/5.2.0
-https://ocaml.org/p/lwt/5.3.0
-https://ocaml.org/p/lwt/5.4.0
-https://ocaml.org/p/lwt/5.4.1
-https://ocaml.org/p/lwt/5.4.2
-https://ocaml.org/p/lwt/5.5.0
-https://ocaml.org/p/lwt/5.6.0
-https://ocaml.org/p/lwt/5.6.1
-https://ocaml.org/p/lwt/5.7.0
-https://ocaml.org/p/lwt/5.8.0
-https://ocaml.org/p/lwt/5.8.1
-https://ocaml.org/p/lwt/5.9.0
-https://ocaml.org/p/lwt/5.9.1
-https://ocaml.org/p/lwt/5.9.2
-https://ocaml.org/p/lwt/6.0.0
-https://ocaml.org/p/lwt/6.0.0~alpha00
-https://ocaml.org/p/lwt/6.0.0~beta01
-https://ocaml.org/p/lwt/6.1.0
-https://ocaml.org/p/lwt/6.1.1
-https://ocaml.org/p/lwt/6.1.2
-https://ocaml.org/p/lwt/latest
-https://ocaml.org/p/async_kernel/latest
-https://ocaml.org/p/async_kernel/v0.13.0
-https://ocaml.org/p/async_kernel/v0.14.0
-https://ocaml.org/p/async_kernel/v0.15.0
-https://ocaml.org/p/async_kernel/v0.16.0
-https://ocaml.org/p/async_kernel/v0.17.0
-https://ocaml.org/p/eio_linux/0.1
-https://ocaml.org/p/eio_linux/0.10
-https://ocaml.org/p/eio_linux/0.11
-https://ocaml.org/p/eio_linux/0.12
-https://ocaml.org/p/eio_linux/0.13
-https://ocaml.org/p/eio_linux/0.14
-https://ocaml.org/p/eio_linux/0.15
-https://ocaml.org/p/eio_linux/0.2
-https://ocaml.org/p/eio_linux/0.3
-https://ocaml.org/p/eio_linux/0.4
-https://ocaml.org/p/eio_linux/0.5
-https://ocaml.org/p/eio_linux/0.6
-https://ocaml.org/p/eio_linux/0.7
-https://ocaml.org/p/eio_linux/0.8.1
-https://ocaml.org/p/eio_linux/0.9
-https://ocaml.org/p/eio_linux/1.0
-https://ocaml.org/p/eio_linux/1.1
-https://ocaml.org/p/eio_linux/1.2
-https://ocaml.org/p/eio_linux/1.3
-https://ocaml.org/p/eio_linux/latest
-https://ocaml.org/p/eio_main/0.10
-https://ocaml.org/p/eio_main/0.11
-https://ocaml.org/p/eio_main/0.12
-https://ocaml.org/p/eio_main/0.13
-https://ocaml.org/p/eio_main/0.14
-https://ocaml.org/p/eio_main/0.15
-https://ocaml.org/p/eio_main/0.9
-https://ocaml.org/p/eio_main/1.0
-https://ocaml.org/p/eio_main/1.1
-https://ocaml.org/p/eio_main/1.2
-https://ocaml.org/p/eio_main/1.3
-https://ocaml.org/p/eio_main/latest
-https://ocaml.org/p/eio_posix/0.10
-https://ocaml.org/p/eio_posix/0.11
-https://ocaml.org/p/eio_posix/0.12
-https://ocaml.org/p/eio_posix/0.13
-https://ocaml.org/p/eio_posix/0.14
-https://ocaml.org/p/eio_posix/0.15
-https://ocaml.org/p/eio_posix/0.9
-https://ocaml.org/p/eio_posix/1.0
-https://ocaml.org/p/eio_posix/1.1
-https://ocaml.org/p/eio_posix/1.2
-https://ocaml.org/p/eio_posix/1.3
-https://ocaml.org/p/eio_posix/latest
-https://ocaml.org/p/eio_windows/0.10
-https://ocaml.org/p/eio_windows/0.11
-https://ocaml.org/p/eio_windows/0.12
-https://ocaml.org/p/eio_windows/0.13
-https://ocaml.org/p/eio_windows/0.14
-https://ocaml.org/p/eio_windows/0.15
-https://ocaml.org/p/eio_windows/1.0
-https://ocaml.org/p/eio_windows/1.1
-https://ocaml.org/p/eio_windows/1.2
-https://ocaml.org/p/eio_windows/1.3
-https://ocaml.org/p/eio_windows/latest
-https://ocaml.org/p/lwt_ppx/1.0.0
-https://ocaml.org/p/lwt_ppx/1.0.1
-https://ocaml.org/p/lwt_ppx/1.1.0
-https://ocaml.org/p/lwt_ppx/1.2.0
-https://ocaml.org/p/lwt_ppx/1.2.1
-https://ocaml.org/p/lwt_ppx/1.2.2
-https://ocaml.org/p/lwt_ppx/1.2.3
-https://ocaml.org/p/lwt_ppx/1.2.4
-https://ocaml.org/p/lwt_ppx/2.0.0
-https://ocaml.org/p/lwt_ppx/2.0.1
-https://ocaml.org/p/lwt_ppx/2.0.2
-https://ocaml.org/p/lwt_ppx/2.0.3
-https://ocaml.org/p/lwt_ppx/2.1.0
-https://ocaml.org/p/lwt_ppx/5.8.0
-https://ocaml.org/p/lwt_ppx/5.8.1
-https://ocaml.org/p/lwt_ppx/5.9.1
-https://ocaml.org/p/lwt_ppx/5.9.2
-https://ocaml.org/p/lwt_ppx/5.9.3
-https://ocaml.org/p/lwt_ppx/6.0.0
-https://ocaml.org/p/lwt_ppx/6.0.0~beta01
-https://ocaml.org/p/lwt_ppx/6.1.0
-https://ocaml.org/p/lwt_ppx/latest
-https://ocaml.org/p/lwt_react/1.0.1
-https://ocaml.org/p/lwt_react/1.1.0
-https://ocaml.org/p/lwt_react/1.1.1
-https://ocaml.org/p/lwt_react/1.1.2
-https://ocaml.org/p/lwt_react/1.1.3
-https://ocaml.org/p/lwt_react/1.1.4
-https://ocaml.org/p/lwt_react/1.1.5
-https://ocaml.org/p/lwt_react/1.2.0
-https://ocaml.org/p/lwt_react/latest
-https://ocaml.org/p/cohttp-eio/6.0.0
-https://ocaml.org/p/cohttp-eio/6.0.0~alpha2
-https://ocaml.org/p/cohttp-eio/6.0.0~beta2
-https://ocaml.org/p/cohttp-eio/6.1.0
-https://ocaml.org/p/cohttp-eio/6.1.1
-https://ocaml.org/p/cohttp-eio/6.2.1
-https://ocaml.org/p/cohttp-eio/latest
-https://ocaml.org/p/cohttp-lwt/1.2.0
-https://ocaml.org/p/cohttp-lwt/2.1.3
-https://ocaml.org/p/cohttp-lwt/2.5.8
-https://ocaml.org/p/cohttp-lwt/4.0.0
-https://ocaml.org/p/cohttp-lwt/4.1.2
-https://ocaml.org/p/cohttp-lwt/5.1.0
-https://ocaml.org/p/cohttp-lwt/5.3.0
-https://ocaml.org/p/cohttp-lwt/6.0.0
-https://ocaml.org/p/cohttp-lwt/6.0.0~beta2
-https://ocaml.org/p/cohttp-lwt/6.1.0
-https://ocaml.org/p/cohttp-lwt/6.1.1
-https://ocaml.org/p/cohttp-lwt/6.2.1
-https://ocaml.org/p/cohttp-lwt/latest
-https://ocaml.org/p/cohttp-lwt-unix/1.2.0
-https://ocaml.org/p/cohttp-lwt-unix/2.1.3
-https://ocaml.org/p/cohttp-lwt-unix/2.5.8
-https://ocaml.org/p/cohttp-lwt-unix/4.0.0
-https://ocaml.org/p/cohttp-lwt-unix/4.1.2
-https://ocaml.org/p/cohttp-lwt-unix/5.1.0
-https://ocaml.org/p/cohttp-lwt-unix/5.3.0
-https://ocaml.org/p/cohttp-lwt-unix/6.0.0
-https://ocaml.org/p/cohttp-lwt-unix/6.0.0~beta2
-https://ocaml.org/p/cohttp-lwt-unix/6.1.0
-https://ocaml.org/p/cohttp-lwt-unix/6.1.1
-https://ocaml.org/p/cohttp-lwt-unix/6.2.1
-https://ocaml.org/p/cohttp-lwt-unix/latest
-https://ocaml.org/p/conduit-lwt/1.3.0
-https://ocaml.org/p/conduit-lwt/1.4.0
-https://ocaml.org/p/conduit-lwt/1.5.0
-https://ocaml.org/p/conduit-lwt/2.0.2
-https://ocaml.org/p/conduit-lwt/2.1.0
-https://ocaml.org/p/conduit-lwt/2.3.0
-https://ocaml.org/p/conduit-lwt/4.0.2
-https://ocaml.org/p/conduit-lwt/6.1.0
-https://ocaml.org/p/conduit-lwt/6.2.2
-https://ocaml.org/p/conduit-lwt/6.2.3
-https://ocaml.org/p/conduit-lwt/7.0.0
-https://ocaml.org/p/conduit-lwt/7.1.0
-https://ocaml.org/p/conduit-lwt/8.0.0
-https://ocaml.org/p/conduit-lwt/latest
-https://ocaml.org/p/conduit-lwt-unix/1.3.0
-https://ocaml.org/p/conduit-lwt-unix/1.4.0
-https://ocaml.org/p/conduit-lwt-unix/1.5.0
-https://ocaml.org/p/conduit-lwt-unix/2.0.2
-https://ocaml.org/p/conduit-lwt-unix/2.2.2
-https://ocaml.org/p/conduit-lwt-unix/2.3.0
-https://ocaml.org/p/conduit-lwt-unix/4.0.2
-https://ocaml.org/p/conduit-lwt-unix/6.1.0
-https://ocaml.org/p/conduit-lwt-unix/6.2.3
-https://ocaml.org/p/conduit-lwt-unix/7.0.0
-https://ocaml.org/p/conduit-lwt-unix/8.0.0
-https://ocaml.org/p/conduit-lwt-unix/latest
-https://ocaml.org/p/eio-ssl/0.1.0
-https://ocaml.org/p/eio-ssl/0.1.1
-https://ocaml.org/p/eio-ssl/0.2.0
-https://ocaml.org/p/eio-ssl/0.3.0
-https://ocaml.org/p/eio-ssl/latest
-https://ocaml.org/p/tls-lwt/0.16.0
-https://ocaml.org/p/tls-lwt/0.17.3
-https://ocaml.org/p/tls-lwt/0.17.5
-https://ocaml.org/p/tls-lwt/1.0.4
-https://ocaml.org/p/tls-lwt/2.0.1
-https://ocaml.org/p/tls-lwt/2.0.2
-https://ocaml.org/p/tls-lwt/2.0.3
-https://ocaml.org/p/tls-lwt/2.0.4
-https://ocaml.org/p/tls-lwt/2.1.0
-https://ocaml.org/p/tls-lwt/2.1.1
-https://ocaml.org/p/tls-lwt/latest
-https://ocaml.org/p/lwt_eio/0.1
-https://ocaml.org/p/lwt_eio/0.2
-https://ocaml.org/p/lwt_eio/0.3
-https://ocaml.org/p/lwt_eio/0.4
-https://ocaml.org/p/lwt_eio/0.5
-https://ocaml.org/p/lwt_eio/0.5.1
-https://ocaml.org/p/lwt_eio/0.6
-https://ocaml.org/p/lwt_eio/latest
-https://ocaml.org/p/picos/0.1.0
-https://ocaml.org/p/picos/0.3.0
-https://ocaml.org/p/picos/0.4.0
-https://ocaml.org/p/picos/0.5.0
-https://ocaml.org/p/picos/0.6.0
-https://ocaml.org/p/picos/latest
-https://ocaml.org/p/picos_io/0.5.0
-https://ocaml.org/p/picos_io/0.6.0
-https://ocaml.org/p/picos_io/latest
-https://hopac.github.io/Hopac/Hopac.html
-https://www.oreilly.com/library/view/f-high-performance/9781786468079/ch04s03.html
-https://arxiv.org/abs/1512.01896
-https://uu.diva-portal.org/smash/get/diva2%3A1502080/FULLTEXT01.pdf
-https://mbrace.io/mbrace-plos.pdf
-https://www.reddit.com/r/fsharp/comments/1rkd4y7
-https://arxiv.org/abs/1511.00511
-https://www.reddit.com/r/fsharp/comments/en1rqb
-https://www.reddit.com/r/fsharp/comments/tfj24n
-https://www.reddit.com/r/fsharp/comments/18s4ns5
-https://www.nuget.org/packages/FSharp.FIO/0.0.30-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.31-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.32-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.33-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.34-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.35-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.36-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.37-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.38-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.39-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.0.40-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.1.0-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.1.15-alpha
-https://www.nuget.org/packages/FSharp.FIO/0.2.0-beta
-https://www.nuget.org/packages/FSharp.FIO/0.2.1-beta
-https://www.nuget.org/packages/Hopac/0.0.0
-https://www.nuget.org/packages/Hopac/0.0.0.1
-https://www.nuget.org/packages/Hopac/0.0.0.10
-https://www.nuget.org/packages/Hopac/0.0.0.11
-https://www.nuget.org/packages/Hopac/0.0.0.12
-https://www.nuget.org/packages/Hopac/0.0.0.13
-https://www.nuget.org/packages/Hopac/0.0.0.2
-https://www.nuget.org/packages/Hopac/0.0.0.21
-https://www.nuget.org/packages/Hopac/0.0.0.22
-https://www.nuget.org/packages/Hopac/0.0.0.23
-https://www.nuget.org/packages/Hopac/0.0.0.24
-https://www.nuget.org/packages/Hopac/0.0.0.25
-https://www.nuget.org/packages/Hopac/0.0.0.26
-https://www.nuget.org/packages/Hopac/0.0.0.27
-https://www.nuget.org/packages/Hopac/0.0.0.28
-https://www.nuget.org/packages/Hopac/0.0.0.29
-https://www.nuget.org/packages/Hopac/0.0.0.3
-https://www.nuget.org/packages/Hopac/0.0.0.30
-https://www.nuget.org/packages/Hopac/0.0.0.31
-https://www.nuget.org/packages/Hopac/0.0.0.32
-https://www.nuget.org/packages/Hopac/0.0.0.33
-https://www.nuget.org/packages/Hopac/0.0.0.34
-https://www.nuget.org/packages/Hopac/0.0.0.35
-https://www.nuget.org/packages/Hopac/0.0.0.36
-https://www.nuget.org/packages/Hopac/0.0.0.37
-https://www.nuget.org/packages/Hopac/0.0.0.38
-https://www.nuget.org/packages/Hopac/0.0.0.39
-https://www.nuget.org/packages/Hopac/0.0.0.4
-https://www.nuget.org/packages/Hopac/0.0.0.40
-https://www.nuget.org/packages/Hopac/0.0.0.41
-https://www.nuget.org/packages/Hopac/0.0.0.42
-https://www.nuget.org/packages/Hopac/0.0.0.43
-https://www.nuget.org/packages/Hopac/0.0.0.44
-https://www.nuget.org/packages/Hopac/0.0.0.45
-https://www.nuget.org/packages/Hopac/0.0.0.46
-https://www.nuget.org/packages/Hopac/0.0.0.47
-https://www.nuget.org/packages/Hopac/0.0.0.48
-https://www.nuget.org/packages/Hopac/0.0.0.5
-https://www.nuget.org/packages/Hopac/0.0.0.6
-https://www.nuget.org/packages/Hopac/0.0.0.7
-https://www.nuget.org/packages/Hopac/0.0.0.8
-https://www.nuget.org/packages/Hopac/0.0.0.9
-https://www.nuget.org/packages/Hopac/0.1.0
-https://www.nuget.org/packages/Hopac/0.1.1
-https://www.nuget.org/packages/Hopac/0.1.2
-https://www.nuget.org/packages/Hopac/0.1.3
-https://www.nuget.org/packages/Hopac/0.2.0
-https://www.nuget.org/packages/Hopac/0.2.1
-https://www.nuget.org/packages/Hopac/0.3.0
-https://www.nuget.org/packages/Hopac/0.3.1
-https://www.nuget.org/packages/Hopac/0.3.10
-https://www.nuget.org/packages/Hopac/0.3.11
-https://www.nuget.org/packages/Hopac/0.3.12
-https://www.nuget.org/packages/Hopac/0.3.13
-https://www.nuget.org/packages/Hopac/0.3.14
-https://www.nuget.org/packages/Hopac/0.3.15
-https://www.nuget.org/packages/Hopac/0.3.16
-https://www.nuget.org/packages/Hopac/0.3.17
-https://www.nuget.org/packages/Hopac/0.3.18
-https://www.nuget.org/packages/Hopac/0.3.19
-https://www.nuget.org/packages/Hopac/0.3.2
-https://www.nuget.org/packages/Hopac/0.3.20
-https://www.nuget.org/packages/Hopac/0.3.21
-https://www.nuget.org/packages/Hopac/0.3.22
-https://www.nuget.org/packages/Hopac/0.3.23
-https://www.nuget.org/packages/Hopac/0.3.3
-https://www.nuget.org/packages/Hopac/0.3.4
-https://www.nuget.org/packages/Hopac/0.3.5
-https://www.nuget.org/packages/Hopac/0.3.6
-https://www.nuget.org/packages/Hopac/0.3.7
-https://www.nuget.org/packages/Hopac/0.3.8
-https://www.nuget.org/packages/Hopac/0.3.9
-https://www.nuget.org/packages/Hopac/0.4.0
-https://www.nuget.org/packages/Hopac/0.4.1
-https://www.nuget.org/packages/Hopac/0.5.0
-https://www.nuget.org/packages/Hopac/0.5.1
-https://www.nuget.org/packages/Ply/0.1.0
-https://www.nuget.org/packages/Ply/0.1.1
-https://www.nuget.org/packages/Ply/0.1.2
-https://www.nuget.org/packages/Ply/0.1.3
-https://www.nuget.org/packages/Ply/0.1.4
-https://www.nuget.org/packages/Ply/0.1.5
-https://www.nuget.org/packages/Ply/0.1.6
-https://www.nuget.org/packages/Ply/0.1.7
-https://www.nuget.org/packages/Ply/0.1.8
-https://www.nuget.org/packages/Ply/0.2.0
-https://www.nuget.org/packages/Ply/0.2.1
-https://www.nuget.org/packages/Ply/0.2.2
-https://www.nuget.org/packages/Ply/0.3.0
-https://www.nuget.org/packages/Ply/0.3.1
-https://www.nuget.org/packages/TaskBuilder.fs/1.0.0
-https://www.nuget.org/packages/TaskBuilder.fs/1.0.1
-https://www.nuget.org/packages/TaskBuilder.fs/1.1.0
-https://www.nuget.org/packages/TaskBuilder.fs/1.1.1
-https://www.nuget.org/packages/TaskBuilder.fs/1.2.0-rc
-https://www.nuget.org/packages/TaskBuilder.fs/2.0.0
-https://www.nuget.org/packages/TaskBuilder.fs/2.1.0
-https://www.nuget.org/packages/TaskBuilder.fs/2.2.0-alpha
-https://www.youtube.com/watch?v=bKpRrCssAWM
-https://www.youtube.com/watch?v=AHOU1_nXR40
-https://www.youtube.com/watch?v=bYor0oBgvws
-https://www.youtube.com/watch?v=c8eCE1Yrolc
-https://www.youtube.com/watch?v=xfz7T9eKWmI
-https://www.youtube.com/watch?v=u2SlQ5WdL2k
-https://www.youtube.com/watch?v=6aMVHocZFOY
-https://www.youtube.com/watch?v=AMjcjXIMzmA
-https://www.youtube.com/watch?v=F9bznonKc64
-https://www.kindafunctional.com/lesson-64-handling-side-effects-in-elm.html
-https://guide.elm-lang.org/interop/ports
-https://guide.elm-lang.org/effects/http.html
-https://discourse.elm-lang.org/t/how-does-elm-interop-with-side-effects-in-a-purely-functional-way/7875
-https://discourse.elm-lang.org/t/why-port-functions-are-not-defined/5199
-https://frontendmasters.com/courses/intro-elm/
-https://discourse.elm-lang.org/t/realworld-example-app-architected-with-the-effect-pattern/5753
-https://groups.seas.harvard.edu/courses/cs152/2015sp/lectures/lec24-frp.pdf
-https://www.cs.columbia.edu/~aho/cs6998/Lectures/14-09-29_Townsend_Elm.pdf
-https://www.reddit.com/r/functionalprogramming/comments/k919wl
-https://www.reddit.com/r/elm/comments/evtv35
-https://www.reddit.com/r/elm/comments/gh0wqz
-https://www.youtube.com/watch?v=rdCFDITvW0g
-https://www.youtube.com/watch?v=yFFwfJNTd5E
-https://www.youtube.com/watch?v=IZA9HN9NA2U
-https://www.youtube.com/watch?v=uRyuNPdUjJ4
-https://www.youtube.com/watch?v=_ul8sZ6dDWA
-https://www.youtube.com/watch?v=hdDYQ9dbN9g
-https://www.youtube.com/watch?v=3n17wHe5wEw
-https://package.elm-lang.org/packages/elm/core/latest/Task
-https://package.elm-lang.org/packages/elm/core/latest/Platform-Cmd
-https://package.elm-lang.org/packages/elm/core/latest/Platform-Sub
-https://package.elm-lang.org/packages/elm/http/latest/Http
-https://package.elm-lang.org/packages/elm/file/latest/File
-https://package.elm-lang.org/packages/elm/file/latest/File-Download
-https://package.elm-lang.org/packages/elm/file/latest/File-Select
-https://package.elm-lang.org/packages/elm/browser/latest/Browser
-https://package.elm-lang.org/packages/elm/browser/latest/Browser-Events
-https://package.elm-lang.org/packages/elm/browser/latest/Browser-Navigation
-https://package.elm-lang.org/packages/elm/time/latest/Time
-https://package.elm-lang.org/packages/elm/random/latest/Random
-https://github.com/fluture-js/Fluture
-https://sanctuary.js.org/
-https://folktalegithubio.readthedocs.io/en/latest/api/data/task/
-https://folktale.origamitower.com/api/v2.0.0/en/folktale.concurrency.task.html
-https://kwijibo.github.io/task-monad-in-javascript/
-https://folktalegithubio.readthedocs.io/en/latest/
-https://www.reddit.com/r/functionalprogramming/comments/1496zgr
-https://www.reddit.com/r/functionalprogramming/comments/zmls5v
-https://www.reddit.com/r/functionalprogramming/comments/o881sz
-https://www.reddit.com/r/typescript/comments/r2qqcd
-https://www.npmjs.com/package/data.task/v/3.0.0
-https://www.npmjs.com/package/data.task/v/3.1.0
-https://www.npmjs.com/package/data.task/v/3.1.1
-https://www.npmjs.com/package/data.task/v/3.1.2
-https://www.npmjs.com/package/folktale/v/1.0.0-SNAPSHOT
-https://www.npmjs.com/package/folktale/v/2.0.0
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha1
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha2
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha3
-https://www.npmjs.com/package/folktale/v/2.0.0-alpha4
-https://www.npmjs.com/package/folktale/v/2.0.0-beta1
-https://www.npmjs.com/package/folktale/v/2.0.0-rc1
-https://www.npmjs.com/package/folktale/v/2.0.1
-https://www.npmjs.com/package/folktale/v/2.1.0
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha1
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha2
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha3
-https://www.npmjs.com/package/folktale/v/2.1.0-alpha4
-https://www.npmjs.com/package/folktale/v/2.1.0-rc1
-https://www.npmjs.com/package/folktale/v/2.2.0-alpha1
-https://www.npmjs.com/package/folktale/v/2.3.0
-https://www.npmjs.com/package/folktale/v/2.3.1
-https://www.npmjs.com/package/folktale/v/2.3.2
-https://www.npmjs.com/package/folktale/v/3.0.0-alpha5
-https://www.npmjs.com/package/folktale/v/3.0.1-ts
-https://www.npmjs.com/package/sanctuary/v/0.1.0
-https://www.npmjs.com/package/sanctuary/v/0.10.0
-https://www.npmjs.com/package/sanctuary/v/0.11.0
-https://www.npmjs.com/package/sanctuary/v/0.11.1
-https://www.npmjs.com/package/sanctuary/v/0.12.0
-https://www.npmjs.com/package/sanctuary/v/0.12.1
-https://www.npmjs.com/package/sanctuary/v/0.12.2
-https://www.npmjs.com/package/sanctuary/v/0.13.0
-https://www.npmjs.com/package/sanctuary/v/0.13.1
-https://www.npmjs.com/package/sanctuary/v/0.13.2
-https://www.npmjs.com/package/sanctuary/v/0.14.0
-https://www.npmjs.com/package/sanctuary/v/0.14.1
-https://www.npmjs.com/package/sanctuary/v/0.15.0
-https://www.npmjs.com/package/sanctuary/v/0.15.1
-https://www.npmjs.com/package/sanctuary/v/0.2.0
-https://www.npmjs.com/package/sanctuary/v/0.3.0
-https://www.npmjs.com/package/sanctuary/v/0.4.0
-https://www.npmjs.com/package/sanctuary/v/0.5.0
-https://www.npmjs.com/package/sanctuary/v/0.6.0
-https://www.npmjs.com/package/sanctuary/v/0.7.0
-https://www.npmjs.com/package/sanctuary/v/0.7.1
-https://www.npmjs.com/package/sanctuary/v/0.8.0
-https://www.npmjs.com/package/sanctuary/v/0.9.0
-https://www.npmjs.com/package/sanctuary/v/0.9.1
-https://www.npmjs.com/package/sanctuary/v/1.0.0
-https://www.npmjs.com/package/sanctuary/v/1.1.0
-https://www.npmjs.com/package/sanctuary/v/2.0.0
-https://www.npmjs.com/package/sanctuary/v/2.0.1
-https://www.npmjs.com/package/sanctuary/v/2.0.2
-https://www.npmjs.com/package/sanctuary/v/3.0.0
-https://www.npmjs.com/package/sanctuary/v/3.1.0
-https://www.npmjs.com/package/fp-ts/v/0.0.1
-https://www.npmjs.com/package/fp-ts/v/0.0.2
-https://www.npmjs.com/package/fp-ts/v/0.0.3
-https://www.npmjs.com/package/fp-ts/v/0.0.4
-https://www.npmjs.com/package/fp-ts/v/0.1.0
-https://www.npmjs.com/package/fp-ts/v/0.1.1
-https://www.npmjs.com/package/fp-ts/v/0.2.0
-https://www.npmjs.com/package/fp-ts/v/0.2.1
-https://www.npmjs.com/package/fp-ts/v/0.2.2
-https://www.npmjs.com/package/fp-ts/v/0.2.3
-https://www.npmjs.com/package/fp-ts/v/0.2.4
-https://www.npmjs.com/package/fp-ts/v/0.2.5
-https://www.npmjs.com/package/fp-ts/v/0.2.6
-https://www.npmjs.com/package/fp-ts/v/0.2.7
-https://www.npmjs.com/package/fp-ts/v/0.2.8
-https://www.npmjs.com/package/fp-ts/v/0.2.9
-https://www.npmjs.com/package/fp-ts/v/0.3.0
-https://www.npmjs.com/package/fp-ts/v/0.3.1
-https://www.npmjs.com/package/fp-ts/v/0.3.2
-https://www.npmjs.com/package/fp-ts/v/0.3.3
-https://www.npmjs.com/package/fp-ts/v/0.3.4
-https://www.npmjs.com/package/fp-ts/v/0.3.5
-https://www.npmjs.com/package/fp-ts/v/0.4.0
-https://www.npmjs.com/package/fp-ts/v/0.4.1
-https://www.npmjs.com/package/fp-ts/v/0.4.2
-https://www.npmjs.com/package/fp-ts/v/0.4.3
-https://www.npmjs.com/package/fp-ts/v/0.4.4
-https://www.npmjs.com/package/fp-ts/v/0.4.5
-https://www.npmjs.com/package/fp-ts/v/0.4.6
-https://www.npmjs.com/package/fp-ts/v/0.5.0
-https://www.npmjs.com/package/fp-ts/v/0.5.1
-https://www.npmjs.com/package/fp-ts/v/0.5.2
-https://www.npmjs.com/package/fp-ts/v/0.5.3
-https://www.npmjs.com/package/fp-ts/v/0.5.4
-https://www.npmjs.com/package/fp-ts/v/0.6.0
-https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171013
-https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171016
-https://www.npmjs.com/package/fp-ts/v/0.6.1
-https://www.npmjs.com/package/fp-ts/v/0.6.2
-https://www.npmjs.com/package/fp-ts/v/0.6.3
-https://www.npmjs.com/package/fp-ts/v/0.6.4
-https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171120
-https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171121
-https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171121.2
-https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171122
-https://www.npmjs.com/package/fp-ts/v/0.6.5
-https://www.npmjs.com/package/fp-ts/v/0.6.6
-https://www.npmjs.com/package/fp-ts/v/0.6.7
-https://www.npmjs.com/package/fp-ts/v/0.6.8
-https://www.npmjs.com/package/fp-ts/v/1.0.0
-https://www.npmjs.com/package/fp-ts/v/1.0.0-rc
-https://www.npmjs.com/package/fp-ts/v/1.0.1
-https://www.npmjs.com/package/fp-ts/v/1.1.0
-https://www.npmjs.com/package/fp-ts/v/1.10.0
-https://www.npmjs.com/package/fp-ts/v/1.10.1
-https://www.npmjs.com/package/fp-ts/v/1.11.0
-https://www.npmjs.com/package/fp-ts/v/1.11.1
-https://www.npmjs.com/package/fp-ts/v/1.11.2
-https://www.npmjs.com/package/fp-ts/v/1.11.3
-https://www.npmjs.com/package/fp-ts/v/1.12.0
-https://www.npmjs.com/package/fp-ts/v/1.12.1
-https://www.npmjs.com/package/fp-ts/v/1.12.2
-https://www.npmjs.com/package/fp-ts/v/1.12.3
-https://www.npmjs.com/package/fp-ts/v/1.13.0
-https://www.npmjs.com/package/fp-ts/v/1.14.0
-https://www.npmjs.com/package/fp-ts/v/1.14.1
-https://www.npmjs.com/package/fp-ts/v/1.14.2
-https://www.npmjs.com/package/fp-ts/v/1.14.3
-https://www.npmjs.com/package/fp-ts/v/1.14.4
-https://www.npmjs.com/package/fp-ts/v/1.15.0
-https://www.npmjs.com/package/fp-ts/v/1.15.1
-https://www.npmjs.com/package/fp-ts/v/1.16.0
-https://www.npmjs.com/package/fp-ts/v/1.16.1
-https://www.npmjs.com/package/fp-ts/v/1.17.0
-https://www.npmjs.com/package/fp-ts/v/1.17.1
-https://www.npmjs.com/package/fp-ts/v/1.17.2
-https://www.npmjs.com/package/fp-ts/v/1.17.3
-https://www.npmjs.com/package/fp-ts/v/1.17.4
-https://www.npmjs.com/package/fp-ts/v/1.18.0
-https://www.npmjs.com/package/fp-ts/v/1.18.1
-https://www.npmjs.com/package/fp-ts/v/1.18.2
-https://www.npmjs.com/package/fp-ts/v/1.19.0
-https://www.npmjs.com/package/fp-ts/v/1.19.1
-https://www.npmjs.com/package/fp-ts/v/1.19.2
-https://www.npmjs.com/package/fp-ts/v/1.19.3
-https://www.npmjs.com/package/fp-ts/v/1.19.4
-https://www.npmjs.com/package/fp-ts/v/1.19.5
-https://www.npmjs.com/package/fp-ts/v/1.2.0
-https://www.npmjs.com/package/fp-ts/v/1.3.0
-https://www.npmjs.com/package/fp-ts/v/1.4.0
-https://www.npmjs.com/package/fp-ts/v/1.4.1
-https://www.npmjs.com/package/fp-ts/v/1.5.0
-https://www.npmjs.com/package/fp-ts/v/1.6.0
-https://www.npmjs.com/package/fp-ts/v/1.6.1
-https://www.npmjs.com/package/fp-ts/v/1.6.2
-https://www.npmjs.com/package/fp-ts/v/1.7.0
-https://www.npmjs.com/package/fp-ts/v/1.7.1
-https://www.npmjs.com/package/fp-ts/v/1.8.0
-https://www.npmjs.com/package/fp-ts/v/1.8.1
-https://www.npmjs.com/package/fp-ts/v/1.9.0
-https://www.npmjs.com/package/fp-ts/v/2.0.0
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.1
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.2
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.3
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.4
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.5
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.6
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.7
-https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.8
-https://www.npmjs.com/package/fp-ts/v/2.0.1
-https://www.npmjs.com/package/fp-ts/v/2.0.2
-https://www.npmjs.com/package/fp-ts/v/2.0.3
-https://www.npmjs.com/package/fp-ts/v/2.0.4
-https://www.npmjs.com/package/fp-ts/v/2.0.5
-https://www.npmjs.com/package/fp-ts/v/2.1.0
-https://www.npmjs.com/package/fp-ts/v/2.1.1
-https://www.npmjs.com/package/fp-ts/v/2.1.2
-https://www.npmjs.com/package/fp-ts/v/2.10.0
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.1
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.2
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.3
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.4
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.5
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.6
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.7
-https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.8
-https://www.npmjs.com/package/fp-ts/v/2.10.1
-https://www.npmjs.com/package/fp-ts/v/2.10.2
-https://www.npmjs.com/package/fp-ts/v/2.10.3
-https://www.npmjs.com/package/fp-ts/v/2.10.4
-https://www.npmjs.com/package/fp-ts/v/2.10.5
-https://www.npmjs.com/package/fp-ts/v/2.11.0
-https://www.npmjs.com/package/fp-ts/v/2.11.0-rc.1
-https://www.npmjs.com/package/fp-ts/v/2.11.0-rc.2
-https://www.npmjs.com/package/fp-ts/v/2.11.1
-https://www.npmjs.com/package/fp-ts/v/2.11.10
-https://www.npmjs.com/package/fp-ts/v/2.11.2
-https://www.npmjs.com/package/fp-ts/v/2.11.3
-https://www.npmjs.com/package/fp-ts/v/2.11.4
-https://www.npmjs.com/package/fp-ts/v/2.11.5
-https://www.npmjs.com/package/fp-ts/v/2.11.6
-https://www.npmjs.com/package/fp-ts/v/2.11.7
-https://www.npmjs.com/package/fp-ts/v/2.11.8
-https://www.npmjs.com/package/fp-ts/v/2.11.9
-https://www.npmjs.com/package/fp-ts/v/2.12.0
-https://www.npmjs.com/package/fp-ts/v/2.12.1
-https://www.npmjs.com/package/fp-ts/v/2.12.2
-https://www.npmjs.com/package/fp-ts/v/2.12.3
-https://www.npmjs.com/package/fp-ts/v/2.13.0
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.1
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.2
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.3
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.4
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.5
-https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.6
-https://www.npmjs.com/package/fp-ts/v/2.13.1
-https://www.npmjs.com/package/fp-ts/v/2.13.2
-https://www.npmjs.com/package/fp-ts/v/2.14.0
-https://www.npmjs.com/package/fp-ts/v/2.15.0
-https://www.npmjs.com/package/fp-ts/v/2.16.0
-https://www.npmjs.com/package/fp-ts/v/2.16.1
-https://www.npmjs.com/package/fp-ts/v/2.16.10
-https://www.npmjs.com/package/fp-ts/v/2.16.11
-https://www.npmjs.com/package/fp-ts/v/2.16.2
-https://www.npmjs.com/package/fp-ts/v/2.16.3
-https://www.npmjs.com/package/fp-ts/v/2.16.4
-https://www.npmjs.com/package/fp-ts/v/2.16.5
-https://www.npmjs.com/package/fp-ts/v/2.16.6
-https://www.npmjs.com/package/fp-ts/v/2.16.7
-https://www.npmjs.com/package/fp-ts/v/2.16.8
-https://www.npmjs.com/package/fp-ts/v/2.16.9
-https://www.npmjs.com/package/fp-ts/v/2.2.0
-https://www.npmjs.com/package/fp-ts/v/2.3.0
-https://www.npmjs.com/package/fp-ts/v/2.3.1
-https://www.npmjs.com/package/fp-ts/v/2.4.0
-https://www.npmjs.com/package/fp-ts/v/2.4.1
-https://www.npmjs.com/package/fp-ts/v/2.4.2
-https://www.npmjs.com/package/fp-ts/v/2.4.3
-https://www.npmjs.com/package/fp-ts/v/2.4.4
-https://www.npmjs.com/package/fp-ts/v/2.5.0
-https://www.npmjs.com/package/fp-ts/v/2.5.1
-https://www.npmjs.com/package/fp-ts/v/2.5.2
-https://www.npmjs.com/package/fp-ts/v/2.5.3
-https://www.npmjs.com/package/fp-ts/v/2.5.4
-https://www.npmjs.com/package/fp-ts/v/2.6.0
-https://www.npmjs.com/package/fp-ts/v/2.6.1
-https://www.npmjs.com/package/fp-ts/v/2.6.2
-https://www.npmjs.com/package/fp-ts/v/2.6.3
-https://www.npmjs.com/package/fp-ts/v/2.6.4
-https://www.npmjs.com/package/fp-ts/v/2.6.5
-https://www.npmjs.com/package/fp-ts/v/2.6.6
-https://www.npmjs.com/package/fp-ts/v/2.6.7
-https://www.npmjs.com/package/fp-ts/v/2.7.0
-https://www.npmjs.com/package/fp-ts/v/2.7.1
-https://www.npmjs.com/package/fp-ts/v/2.8.0
-https://www.npmjs.com/package/fp-ts/v/2.8.1
-https://www.npmjs.com/package/fp-ts/v/2.8.2
-https://www.npmjs.com/package/fp-ts/v/2.8.3
-https://www.npmjs.com/package/fp-ts/v/2.8.4
-https://www.npmjs.com/package/fp-ts/v/2.8.5
-https://www.npmjs.com/package/fp-ts/v/2.8.6
-https://www.npmjs.com/package/fp-ts/v/2.9.0
-https://www.npmjs.com/package/fp-ts/v/2.9.1
-https://www.npmjs.com/package/fp-ts/v/2.9.2
-https://www.npmjs.com/package/fp-ts/v/2.9.3
-https://www.npmjs.com/package/fp-ts/v/2.9.4
-https://www.npmjs.com/package/fp-ts/v/2.9.5
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.1
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.10
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.11
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.12
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.13
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.14
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.15
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.16
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.17
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.18
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.19
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.2
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.20
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.21
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.22
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.23
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.24
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.25
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.26
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.3
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.4
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.5
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.6
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.7
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.8
-https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.9
-https://www.npmjs.com/package/fluture/v/0.1.0
-https://www.npmjs.com/package/fluture/v/0.2.0
-https://www.npmjs.com/package/fluture/v/0.2.1
-https://www.npmjs.com/package/fluture/v/0.3.0
-https://www.npmjs.com/package/fluture/v/0.3.1
-https://www.npmjs.com/package/fluture/v/0.4.0
-https://www.npmjs.com/package/fluture/v/0.4.1
-https://www.npmjs.com/package/fluture/v/0.5.0
-https://www.npmjs.com/package/fluture/v/0.5.1
-https://www.npmjs.com/package/fluture/v/0.5.2
-https://www.npmjs.com/package/fluture/v/0.5.3
-https://www.npmjs.com/package/fluture/v/0.5.4
-https://www.npmjs.com/package/fluture/v/0.5.5
-https://www.npmjs.com/package/fluture/v/0.5.6
-https://www.npmjs.com/package/fluture/v/0.5.7
-https://www.npmjs.com/package/fluture/v/0.6.0-beta1
-https://www.npmjs.com/package/fluture/v/0.6.0-beta2
-https://www.npmjs.com/package/fluture/v/0.6.1
-https://www.npmjs.com/package/fluture/v/0.6.2
-https://www.npmjs.com/package/fluture/v/0.6.3
-https://www.npmjs.com/package/fluture/v/0.6.3-beta.1
-https://www.npmjs.com/package/fluture/v/0.6.4
-https://www.npmjs.com/package/fluture/v/0.6.5
-https://www.npmjs.com/package/fluture/v/1.0.0
-https://www.npmjs.com/package/fluture/v/1.0.1
-https://www.npmjs.com/package/fluture/v/1.0.2
-https://www.npmjs.com/package/fluture/v/1.0.3
-https://www.npmjs.com/package/fluture/v/1.1.0
-https://www.npmjs.com/package/fluture/v/1.2.0
-https://www.npmjs.com/package/fluture/v/1.2.1
-https://www.npmjs.com/package/fluture/v/10.0.0
-https://www.npmjs.com/package/fluture/v/10.1.0
-https://www.npmjs.com/package/fluture/v/10.1.1
-https://www.npmjs.com/package/fluture/v/10.2.0
-https://www.npmjs.com/package/fluture/v/10.3.0
-https://www.npmjs.com/package/fluture/v/10.3.1
-https://www.npmjs.com/package/fluture/v/11.0.0
-https://www.npmjs.com/package/fluture/v/11.0.1
-https://www.npmjs.com/package/fluture/v/11.0.2
-https://www.npmjs.com/package/fluture/v/11.0.3
-https://www.npmjs.com/package/fluture/v/12.0.0
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.0
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.1
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.2
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.3
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.4
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.5
-https://www.npmjs.com/package/fluture/v/12.0.0-beta.6
-https://www.npmjs.com/package/fluture/v/12.0.1
-https://www.npmjs.com/package/fluture/v/12.0.2
-https://www.npmjs.com/package/fluture/v/12.1.0
-https://www.npmjs.com/package/fluture/v/12.1.1
-https://www.npmjs.com/package/fluture/v/12.2.0
-https://www.npmjs.com/package/fluture/v/12.2.1
-https://www.npmjs.com/package/fluture/v/12.3.0
-https://www.npmjs.com/package/fluture/v/12.3.1
-https://www.npmjs.com/package/fluture/v/13.0.0
-https://www.npmjs.com/package/fluture/v/13.0.1
-https://www.npmjs.com/package/fluture/v/14.0.0
-https://www.npmjs.com/package/fluture/v/2.0.0
-https://www.npmjs.com/package/fluture/v/2.0.0-beta.1
-https://www.npmjs.com/package/fluture/v/2.0.0-beta.2
-https://www.npmjs.com/package/fluture/v/2.0.1
-https://www.npmjs.com/package/fluture/v/3.0.0
-https://www.npmjs.com/package/fluture/v/3.1.0
-https://www.npmjs.com/package/fluture/v/3.1.1
-https://www.npmjs.com/package/fluture/v/4.0.0
-https://www.npmjs.com/package/fluture/v/4.0.1
-https://www.npmjs.com/package/fluture/v/4.0.2
-https://www.npmjs.com/package/fluture/v/4.0.3
-https://www.npmjs.com/package/fluture/v/4.1.0
-https://www.npmjs.com/package/fluture/v/4.1.1
-https://www.npmjs.com/package/fluture/v/4.2.0
-https://www.npmjs.com/package/fluture/v/4.3.0
-https://www.npmjs.com/package/fluture/v/4.3.1
-https://www.npmjs.com/package/fluture/v/4.3.2
-https://www.npmjs.com/package/fluture/v/4.3.3
-https://www.npmjs.com/package/fluture/v/4.3.4
-https://www.npmjs.com/package/fluture/v/4.3.5
-https://www.npmjs.com/package/fluture/v/5.0.0
-https://www.npmjs.com/package/fluture/v/6.0.0
-https://www.npmjs.com/package/fluture/v/6.0.1
-https://www.npmjs.com/package/fluture/v/6.1.0
-https://www.npmjs.com/package/fluture/v/6.1.1
-https://www.npmjs.com/package/fluture/v/6.2.0
-https://www.npmjs.com/package/fluture/v/6.2.1
-https://www.npmjs.com/package/fluture/v/6.2.2
-https://www.npmjs.com/package/fluture/v/6.2.3
-https://www.npmjs.com/package/fluture/v/6.2.4
-https://www.npmjs.com/package/fluture/v/6.2.5
-https://www.npmjs.com/package/fluture/v/6.2.6
-https://www.npmjs.com/package/fluture/v/6.2.7
-https://www.npmjs.com/package/fluture/v/6.2.8
-https://www.npmjs.com/package/fluture/v/6.3.0
-https://www.npmjs.com/package/fluture/v/7.0.0
-https://www.npmjs.com/package/fluture/v/7.0.1
-https://www.npmjs.com/package/fluture/v/7.1.0
-https://www.npmjs.com/package/fluture/v/7.1.1
-https://www.npmjs.com/package/fluture/v/7.1.2
-https://www.npmjs.com/package/fluture/v/7.1.3
-https://www.npmjs.com/package/fluture/v/7.2.0
-https://www.npmjs.com/package/fluture/v/7.2.1
-https://www.npmjs.com/package/fluture/v/7.2.2
-https://www.npmjs.com/package/fluture/v/8.0.0
-https://www.npmjs.com/package/fluture/v/8.0.1
-https://www.npmjs.com/package/fluture/v/8.0.2
-https://www.npmjs.com/package/fluture/v/9.0.0
-https://www.npmjs.com/package/fluture/v/9.0.1
-https://www.npmjs.com/package/fluture/v/9.0.2
-https://www.npmjs.com/package/monet/v/0.8.10
-https://www.npmjs.com/package/monet/v/0.8.4
-https://www.npmjs.com/package/monet/v/0.8.5
-https://www.npmjs.com/package/monet/v/0.8.6
-https://www.npmjs.com/package/monet/v/0.8.7
-https://www.npmjs.com/package/monet/v/0.8.8
-https://www.npmjs.com/package/monet/v/0.8.9
-https://www.npmjs.com/package/monet/v/0.9.0
-https://www.npmjs.com/package/monet/v/0.9.0-403
-https://www.npmjs.com/package/monet/v/0.9.0-405
-https://www.npmjs.com/package/monet/v/0.9.0-408
-https://www.npmjs.com/package/monet/v/0.9.0-414
-https://www.npmjs.com/package/monet/v/0.9.0-417
-https://www.npmjs.com/package/monet/v/0.9.0-421
-https://www.npmjs.com/package/monet/v/0.9.0-422
-https://www.npmjs.com/package/monet/v/0.9.0-423
-https://www.npmjs.com/package/monet/v/0.9.0-426
-https://www.npmjs.com/package/monet/v/0.9.0-431
-https://www.npmjs.com/package/monet/v/0.9.0-441
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.0
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.1
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.2
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.3
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.4
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-0
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-1
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-2
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-3
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-353
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-356
-https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-4
-https://www.npmjs.com/package/monet/v/0.9.0-rc.0
-https://www.npmjs.com/package/monet/v/0.9.0-rc.0-358
-https://www.npmjs.com/package/monet/v/0.9.0-rc.0-361
-https://www.npmjs.com/package/monet/v/0.9.0-rc.1
-https://www.npmjs.com/package/monet/v/0.9.0-rc.1-379
-https://www.npmjs.com/package/monet/v/0.9.0-rc.1-383
-https://www.npmjs.com/package/monet/v/0.9.0-rc.1-385
-https://www.npmjs.com/package/monet/v/0.9.0-rc.1-391
-https://www.npmjs.com/package/monet/v/0.9.0-rc.2
-https://www.npmjs.com/package/monet/v/0.9.0-rc.2-393
-https://www.npmjs.com/package/monet/v/0.9.0-rc.3
-https://www.npmjs.com/package/monet/v/0.9.0-rc.3-399
-https://www.npmjs.com/package/monet/v/0.9.1
-https://www.npmjs.com/package/monet/v/0.9.1-444
-https://www.npmjs.com/package/monet/v/0.9.1-447
-https://www.npmjs.com/package/monet/v/0.9.1-460
-https://www.npmjs.com/package/monet/v/0.9.1-464
-https://www.npmjs.com/package/monet/v/0.9.1-466
-https://www.npmjs.com/package/monet/v/0.9.1-472
-https://www.npmjs.com/package/monet/v/0.9.2
-https://www.npmjs.com/package/monet/v/0.9.2-474
-https://www.npmjs.com/package/monet/v/0.9.2-479
-https://www.npmjs.com/package/monet/v/0.9.3
-https://www.npmjs.com/package/monet/v/0.9.3-483
-https://www.npmjs.com/package/monet/v/0.9.3-485
-https://www.npmjs.com/package/monio/v/0.0.0
-https://www.npmjs.com/package/monio/v/0.1.0
-https://www.npmjs.com/package/monio/v/0.1.1
-https://www.npmjs.com/package/monio/v/0.1.2
-https://www.npmjs.com/package/monio/v/0.1.3
-https://www.npmjs.com/package/monio/v/0.1.4
-https://www.npmjs.com/package/monio/v/0.1.5
-https://www.npmjs.com/package/monio/v/0.1.6
-https://www.npmjs.com/package/monio/v/0.1.7
-https://www.npmjs.com/package/monio/v/0.1.8
-https://www.npmjs.com/package/monio/v/0.10.0
-https://www.npmjs.com/package/monio/v/0.11.0
-https://www.npmjs.com/package/monio/v/0.12.0
-https://www.npmjs.com/package/monio/v/0.13.1
-https://www.npmjs.com/package/monio/v/0.14.0
-https://www.npmjs.com/package/monio/v/0.14.1
-https://www.npmjs.com/package/monio/v/0.14.2
-https://www.npmjs.com/package/monio/v/0.14.3
-https://www.npmjs.com/package/monio/v/0.14.4
-https://www.npmjs.com/package/monio/v/0.14.5
-https://www.npmjs.com/package/monio/v/0.14.6
-https://www.npmjs.com/package/monio/v/0.15.0
-https://www.npmjs.com/package/monio/v/0.16.0
-https://www.npmjs.com/package/monio/v/0.16.1
-https://www.npmjs.com/package/monio/v/0.17.0
-https://www.npmjs.com/package/monio/v/0.18.0
-https://www.npmjs.com/package/monio/v/0.18.1
-https://www.npmjs.com/package/monio/v/0.19.0
-https://www.npmjs.com/package/monio/v/0.19.1
-https://www.npmjs.com/package/monio/v/0.2.0
-https://www.npmjs.com/package/monio/v/0.2.1
-https://www.npmjs.com/package/monio/v/0.2.2
-https://www.npmjs.com/package/monio/v/0.2.3
-https://www.npmjs.com/package/monio/v/0.20.0
-https://www.npmjs.com/package/monio/v/0.20.1
-https://www.npmjs.com/package/monio/v/0.21.0
-https://www.npmjs.com/package/monio/v/0.22.0
-https://www.npmjs.com/package/monio/v/0.23.0
-https://www.npmjs.com/package/monio/v/0.23.1
-https://www.npmjs.com/package/monio/v/0.23.2
-https://www.npmjs.com/package/monio/v/0.24.0
-https://www.npmjs.com/package/monio/v/0.24.1
-https://www.npmjs.com/package/monio/v/0.24.2
-https://www.npmjs.com/package/monio/v/0.25.0
-https://www.npmjs.com/package/monio/v/0.26.0
-https://www.npmjs.com/package/monio/v/0.27.0
-https://www.npmjs.com/package/monio/v/0.27.1
-https://www.npmjs.com/package/monio/v/0.3.0
-https://www.npmjs.com/package/monio/v/0.3.1
-https://www.npmjs.com/package/monio/v/0.30.0
-https://www.npmjs.com/package/monio/v/0.30.1
-https://www.npmjs.com/package/monio/v/0.31.0
-https://www.npmjs.com/package/monio/v/0.32.0
-https://www.npmjs.com/package/monio/v/0.32.1
-https://www.npmjs.com/package/monio/v/0.33.0
-https://www.npmjs.com/package/monio/v/0.4.0
-https://www.npmjs.com/package/monio/v/0.4.1
-https://www.npmjs.com/package/monio/v/0.4.2
-https://www.npmjs.com/package/monio/v/0.40.0
-https://www.npmjs.com/package/monio/v/0.40.1
-https://www.npmjs.com/package/monio/v/0.40.2
-https://www.npmjs.com/package/monio/v/0.5.0
-https://www.npmjs.com/package/monio/v/0.5.1
-https://www.npmjs.com/package/monio/v/0.50.0
-https://www.npmjs.com/package/monio/v/0.50.1
-https://www.npmjs.com/package/monio/v/0.51.0
-https://www.npmjs.com/package/monio/v/0.51.1
-https://www.npmjs.com/package/monio/v/0.51.4
-https://www.npmjs.com/package/monio/v/0.52.0
-https://www.npmjs.com/package/monio/v/0.52.1
-https://www.npmjs.com/package/monio/v/0.52.2
-https://www.npmjs.com/package/monio/v/0.53.0
-https://www.npmjs.com/package/monio/v/0.54.0
-https://www.npmjs.com/package/monio/v/0.54.1
-https://www.npmjs.com/package/monio/v/0.55.0
-https://www.npmjs.com/package/monio/v/0.6.0
-https://www.npmjs.com/package/monio/v/0.60.0
-https://www.npmjs.com/package/monio/v/0.61.0
-https://www.npmjs.com/package/monio/v/0.7.0
-https://www.npmjs.com/package/monio/v/0.70.0
-https://www.npmjs.com/package/monio/v/0.71.0
-https://www.npmjs.com/package/monio/v/0.8.0
-https://www.npmjs.com/package/monio/v/0.8.1
-https://www.npmjs.com/package/monio/v/0.9.0
-https://effect.readthedocs.io/en/latest/apidocs.html
-https://returns.readthedocs.io/en/latest/pages/io.html
-https://danigb.github.io/codes/2020-01-09-functional-core-imperative-shell/
-https://kindafunctional.com/lesson-33-functional-core-imperative-shell.html
-https://principledcraft.dev/principles/testing/writing-testable-code/functional-core-imperative-shell/
-https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html
-https://www.reddit.com/r/Python/comments/1oolq4o
-https://www.reddit.com/r/Python/comments/lprsb0
-https://pypi.org/project/returns/0.10.0/
-https://pypi.org/project/returns/0.11.0/
-https://pypi.org/project/returns/0.12.0/
-https://pypi.org/project/returns/0.13.0/
-https://pypi.org/project/returns/0.14.0/
-https://pypi.org/project/returns/0.15.0/
-https://pypi.org/project/returns/0.16.0/
-https://pypi.org/project/returns/0.17.0/
-https://pypi.org/project/returns/0.18.0/
-https://pypi.org/project/returns/0.19.0/
-https://pypi.org/project/returns/0.2.0/
-https://pypi.org/project/returns/0.20.0/
-https://pypi.org/project/returns/0.20.1/
-https://pypi.org/project/returns/0.21.0/
-https://pypi.org/project/returns/0.22.0/
-https://pypi.org/project/returns/0.23.0/
-https://pypi.org/project/returns/0.24.0/
-https://pypi.org/project/returns/0.25.0/
-https://pypi.org/project/returns/0.26.0/
-https://pypi.org/project/returns/0.27.0/
-https://pypi.org/project/returns/0.28.0/
-https://pypi.org/project/returns/0.3.0/
-https://pypi.org/project/returns/0.3.1/
-https://pypi.org/project/returns/0.4.0/
-https://pypi.org/project/returns/0.5.0/
-https://pypi.org/project/returns/0.6.0/
-https://pypi.org/project/returns/0.7.0/
-https://pypi.org/project/returns/0.8.0/
-https://pypi.org/project/returns/0.9.0/
-https://pypi.org/project/effect/0.10.1/
-https://pypi.org/project/effect/0.10/
-https://pypi.org/project/effect/0.11.0/
-https://pypi.org/project/effect/0.12.0/
-https://pypi.org/project/effect/0.1a1/
-https://pypi.org/project/effect/0.1a10/
-https://pypi.org/project/effect/0.1a12/
-https://pypi.org/project/effect/0.1a13/
-https://pypi.org/project/effect/0.1a14/
-https://pypi.org/project/effect/0.1a15/
-https://pypi.org/project/effect/0.1a16/
-https://pypi.org/project/effect/0.1a17/
-https://pypi.org/project/effect/0.1a18/
-https://pypi.org/project/effect/0.1a2/
-https://pypi.org/project/effect/0.1a3/
-https://pypi.org/project/effect/0.1a4/
-https://pypi.org/project/effect/0.1a5/
-https://pypi.org/project/effect/0.1a6/
-https://pypi.org/project/effect/0.1a7/
-https://pypi.org/project/effect/0.1a8/
-https://pypi.org/project/effect/0.1a9/
-https://pypi.org/project/effect/0.9/
-https://pypi.org/project/effect/1.0.0/
-https://pypi.org/project/effect/1.1.0/
-https://pypi.org/project/pymonad/1.0/
-https://pypi.org/project/pymonad/1.1/
-https://pypi.org/project/pymonad/1.2/
-https://pypi.org/project/pymonad/1.3/
-https://pypi.org/project/pymonad/2.0.4/
-https://pypi.org/project/pymonad/2.1.0/
-https://pypi.org/project/pymonad/2.2.0/
-https://pypi.org/project/pymonad/2.3.0/
-https://pypi.org/project/pymonad/2.3.1/
-https://pypi.org/project/pymonad/2.3.2/
-https://pypi.org/project/pymonad/2.3.3/
-https://pypi.org/project/pymonad/2.3.4/
-https://pypi.org/project/pymonad/2.3.5/
-https://pypi.org/project/pymonad/2.4.0/
-https://pypi.org/project/pyeffects/1.0.0/
-https://pypi.org/project/pyeffects/1.0.1/
-https://pypi.org/project/pyeffects/1.0.2/
-https://pypi.org/project/pyeffects/1.0.3/
-https://pypi.org/project/pyeffects/1.0.4/
-https://pypi.org/project/pyeffects/1.0.5/
-https://pypi.org/project/pyio-effect/0.1.0/
-https://pypi.org/project/pyio-effect/0.1.1/
-https://pypi.org/project/pyio-effect/0.1.2/
-https://pypi.org/project/pyio-effect/0.1.3/
-https://pypi.org/project/pyio-effect/0.1.4/
-https://pypi.org/project/raffiot/0.0.2/
-https://pypi.org/project/raffiot/0.0.3/
-https://pypi.org/project/raffiot/0.0.4.1/
-https://pypi.org/project/raffiot/0.0.4.2/
-https://pypi.org/project/raffiot/0.0.4/
-https://pypi.org/project/raffiot/0.0.5/
-https://pypi.org/project/raffiot/0.0.6.1/
-https://pypi.org/project/raffiot/0.0.6.2/
-https://pypi.org/project/raffiot/0.0.6.3/
-https://pypi.org/project/raffiot/0.0.6.4/
-https://pypi.org/project/raffiot/0.0.6.5/
-https://pypi.org/project/raffiot/0.0.6.6/
-https://pypi.org/project/raffiot/0.0.6/
-https://pypi.org/project/raffiot/0.0.7/
-https://pypi.org/project/raffiot/0.1.0/
-https://pypi.org/project/raffiot/0.2.0/
-https://pypi.org/project/raffiot/0.3.0/
-https://pypi.org/project/raffiot/0.4.0/
-https://pypi.org/project/raffiot/0.5.0/
-https://pypi.org/project/raffiot/0.5.1/
-https://pypi.org/project/raffiot/0.5.2/
-https://pypi.org/project/raffiot/0.6.0/
-https://pypi.org/project/raffiot/0.6.1/
-https://pypi.org/project/raffiot/0.6.2/
-https://pypi.org/project/raffiot/0.6.3/
-https://www.youtube.com/watch?v=fM5d_2BS6FY
-https://www.youtube.com/watch?v=Ja6yP4ufSko
-https://www.youtube.com/watch?v=NMEnvmGjNLc
-https://libraries.io/racket/effects
-https://docs.racket-lang.org/functional/interfaces.html
-https://download.racket-lang.org/docs/5.1/html/guide/Continuations.html
-https://docs.racket-lang.org/effect-racket/index.html
-https://docs.racket-lang.org/heresy/monad-do.html
-https://download.racket-lang.org/docs/5.3.1/pdf/reference.pdf
-https://download.racket-lang.org/docs/5.1/pdf/guide.pdf
-https://www.reddit.com/r/Racket/comments/kkayf1
-https://www.reddit.com/r/scheme/comments/z7mcri
-https://www.reddit.com/r/Racket/comments/m3iubq
-https://www.youtube.com/watch?v=TE48LsgVlIU
-https://www.youtube.com/watch?v=DRFsodbxHQo
-https://www.youtube.com/watch?v=QNM-njddhIw
-https://www.youtube.com/watch?v=bOUgXd9XlJ4
-https://www.youtube.com/watch?v=BAMtstt3Jp8
-https://www.youtube.com/watch?v=DW3TEyAScsY
-https://www.youtube.com/watch?v=DjPlfeejR0c
-https://www.youtube.com/watch?v=IKddmXjYa5U
-https://www.youtube.com/watch?v=sosOu989jXs
-https://www.youtube.com/watch?v=cnhb4M8-J5M
-https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/-resource/index.html
-https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/bracket.html
-https://old.arrow-kt.io/docs/0.12/fx/
-https://old.arrow-kt.io/docs/apidocs/arrow-fx-coroutines/arrow.fx.coroutines/
-https://apidocs.arrow-kt.io/arrow-core/arrow.core.raise/-effect/index.html
-https://www.pacoworks.com/2019/12/15/kotlin-coroutines-with-arrow-fx/
-https://apidocs.arrow-kt.io/arrow-fx-stm/arrow.fx.stm/-s-t-m/index.html
-https://arrow-kt.io/
-https://arrow-kt.io/learn/design/receivers-flatmap/
-https://www.reddit.com/r/Kotlin/comments/ebdrw9
-https://www.reddit.com/r/Kotlin/comments/15h2oi4
-https://www.reddit.com/r/scala/comments/bpa0j8
-https://www.reddit.com/r/Kotlin/comments/1h7pjo2
-https://bobkonf.de/2023/slides/fink.pdf
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.11.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.12.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.12.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.0-RC
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-rc.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0-RC
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-rc.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.11.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.12.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.12.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.11.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.11.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.12.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.12.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.25
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.42
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.43
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.25
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.32
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.33
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.34
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.35
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.36
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.37
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.38
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.39
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.40
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.6-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.10
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.25
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.3.0+2022-05-16T16-21-58-758705Z
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.32
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.33
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.34
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.35
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.36
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.37
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.38
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.39
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.4.0+2022-05-17T09-11-10-723810Z
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.40
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.41
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.42
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.43
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.44
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.45
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.46
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.47
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.48
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.49
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.5.0+2022-05-17T11-44-11-714740Z
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.50
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.51
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.52
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.7
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.8
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.9
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-rc.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.10
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.7
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.8
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.9
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-rc.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.33
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.34
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.35
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.36
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.37
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.38
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.39
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.40
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.41
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.42
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.43
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.44
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.45
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.46
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.47
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.48
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.49
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.50
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.51
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.52
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.53
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.54
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.55
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.56
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.57
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.58
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.59
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.60
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.61
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.62
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.63
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.64
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.65
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.66
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.67
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.68
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.69
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.7
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.70
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.71
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.72
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.73
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.74
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.75
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.76
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.77
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.78
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.79
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.80
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.81
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.82
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.83
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.84
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.85
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.86
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.87
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.88
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.89
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.90
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.91
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.25
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.42
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.43
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.25
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.32
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.33
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.34
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.35
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.36
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.37
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.38
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.39
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.40
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.4-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.4-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.6-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.0
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.10
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.21
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.22
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.23
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.24
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.25
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.26
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.27
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.28
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.29
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.3.0+2022-05-16T16-21-58-758705Z
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.30
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.31
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.32
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.33
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.34
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.35
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.36
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.37
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.38
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.39
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.4.0+2022-05-17T09-11-10-723810Z
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.40
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.41
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.42
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.43
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.44
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.45
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.46
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.47
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.48
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.49
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.5.0+2022-05-17T11-44-11-714740Z
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.50
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.51
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.52
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.7
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.8
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.9
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-rc.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.10
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.13
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.14
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.15
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.16
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.17
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.18
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.19
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.20
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.6
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.7
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.8
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.9
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.2
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.3
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.4
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.5
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-rc.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.1
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.11
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.12
-https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.13
+https://hackage-content.haskell.org/package/dialogue-0.1.0/dialogue-0.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Continuation.html	N/A
+https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/System-IO-Dialogue.html	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/doc-index.html	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html	N/A
+https://hackage.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html	N/A
+https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/doc-index.html	N/A
+https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Continuation.html	N/A
+https://hackage-content.haskell.org/package/dialogue-0.1.0/docs/src/System.IO.Dialogue.html	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Continuation.hs?ref=master	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/src/System/IO/Dialogue.hs?ref=master	N/A
+https://api.github.com/repos/noughtmare/free-io/contents/src/System/IO/Free.hs?ref=main	N/A
+https://github.com/AliasQli/dialogue/blob/master/dialogue.cabal	N/A
+https://github.com/AliasQli/dialogue/blob/master/README.md	N/A
+https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Continuation.hs	N/A
+https://github.com/AliasQli/dialogue/blob/master/src/System/IO/Dialogue.hs	N/A
+https://github.com/AliasQli/dialogue/archive/refs/heads/master.zip	N/A
+https://github.com/noughtmare/free-io/blob/main/free-io.cabal	N/A
+https://github.com/noughtmare/free-io/blob/main/src/System/IO/Free.hs	N/A
+https://github.com/noughtmare/free-io/archive/refs/heads/main.zip	N/A
+https://raw.githubusercontent.com/AliasQli/dialogue/master/dialogue.cabal	N/A
+https://raw.githubusercontent.com/AliasQli/dialogue/master/README.md	N/A
+https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Continuation.hs	N/A
+https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Dialogue.hs	N/A
+https://raw.githubusercontent.com/noughtmare/free-io/main/free-io.cabal	N/A
+https://raw.githubusercontent.com/noughtmare/free-io/main/src/System/IO/Free.hs	N/A
+https://codeload.github.com/AliasQli/dialogue/zip/refs/heads/master	N/A
+https://codeload.github.com/noughtmare/free-io/zip/refs/heads/main	N/A
+https://api.github.com/repos/AliasQli/dialogue/git/trees/master?recursive=1	N/A
+https://github.com/AliasQli/dialogue/blob/master/ChangeLog.md	N/A
+https://raw.githubusercontent.com/AliasQli/dialogue/master/ChangeLog.md	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/ChangeLog.md?ref=master	N/A
+https://github.com/AliasQli/dialogue/blob/master/examples/Main.hs	N/A
+https://raw.githubusercontent.com/AliasQli/dialogue/master/examples/Main.hs	N/A
+https://api.github.com/repos/AliasQli/dialogue/contents/examples/Main.hs?ref=master	N/A
+https://github.com/AliasQli/dialogue/archive/refs/heads/master.tar.gz	N/A
+https://codeload.github.com/AliasQli/dialogue/tar.gz/refs/heads/master	N/A
+https://api.github.com/repos/noughtmare/free-io/git/trees/main?recursive=1	N/A
+https://github.com/noughtmare/free-io/blob/main/CHANGELOG.md	N/A
+https://raw.githubusercontent.com/noughtmare/free-io/main/CHANGELOG.md	N/A
+https://api.github.com/repos/noughtmare/free-io/contents/CHANGELOG.md?ref=main	N/A
+https://github.com/noughtmare/free-io/blob/main/example/Main.hs	N/A
+https://raw.githubusercontent.com/noughtmare/free-io/main/example/Main.hs	N/A
+https://api.github.com/repos/noughtmare/free-io/contents/example/Main.hs?ref=main	N/A
+https://github.com/noughtmare/free-io/archive/refs/heads/main.tar.gz	N/A
+https://codeload.github.com/noughtmare/free-io/tar.gz/refs/heads/main	N/A
+https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad/	publication	2012
+https://studylib.net/doc/13548648/using-monads-to-structure-computation-monadic-i-o	N/A
+https://studylib.net/download/13548648	N/A
+https://dblp.org/rec/phd/ethos/Gordon92.nt	N/A
+https://dblp.org/rec/phd/ethos/Gordon92.ttl	N/A
+https://dblp.org/rec/phd/ethos/Gordon92.rdf	N/A
+https://dblp.org/rec/phd/ethos/Gordon92.txt	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.bib	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ris	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.nt	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.ttl	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.rdf	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.xml	N/A
+https://dblp.dagstuhl.de/rec/phd/ethos/Gordon92.txt	N/A
+https://studylib.net/doc/25980160/manning.functional.programming.in.scala.2014.8	N/A
+https://www.grafiati.com/en/literature-selections/computer-input-output-equipment-eye/	N/A
+https://doi.org/10.1017/S0960129598002709	publication	1999-04
+https://dblp.org/rec/conf/fpca/Gordon93.nt	N/A
+https://dblp.org/rec/conf/fpca/Gordon93.ttl	N/A
+https://dblp.org/rec/conf/fpca/Gordon93.rdf	N/A
+https://dblp.org/rec/conf/fpca/Gordon93.txt	N/A
+https://dblp.org/rec/journals/mscs/CroleG99	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.html	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.bib	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.ris	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.nt	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.ttl	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.rdf	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.xml	N/A
+https://dblp.org/rec/journals/mscs/CroleG99.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/fpca/Gordon93.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.html	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/mscs/CroleG99.txt	N/A
+https://dblp.org/rec/conf/popl/JonesW93.nt	N/A
+https://dblp.org/rec/conf/popl/JonesW93.ttl	N/A
+https://dblp.org/rec/conf/popl/JonesW93.rdf	N/A
+https://dblp.org/rec/conf/popl/JonesW93.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.html	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesW93.txt	N/A
+https://dblp.org/rec/journals/csur/Wadler97.nt	N/A
+https://dblp.org/rec/journals/csur/Wadler97.ttl	N/A
+https://dblp.org/rec/journals/csur/Wadler97.rdf	N/A
+https://dblp.org/rec/journals/csur/Wadler97.xml	N/A
+https://dblp.org/rec/journals/csur/Wadler97.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.html	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/csur/Wadler97.txt	N/A
+https://dblp.org/rec/conf/slp/Wadler95	N/A
+https://dblp.org/rec/conf/slp/Wadler95.nt	N/A
+https://dblp.org/rec/conf/slp/Wadler95.ttl	N/A
+https://dblp.org/rec/conf/slp/Wadler95.rdf	N/A
+https://dblp.org/rec/conf/slp/Wadler95.xml	N/A
+https://dblp.org/rec/conf/slp/Wadler95.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.html	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/slp/Wadler95.txt	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.bib	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.ris	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.nt	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.ttl	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.rdf	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.xml	N/A
+https://dblp.org/rec/conf/pldi/LaunchburyJ94.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.html	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/pldi/LaunchburyJ94.txt	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.html	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.bib	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.ris	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.nt	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.ttl	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.rdf	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.xml	N/A
+https://dblp.org/rec/conf/iclp/LaunchburyJ94.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.html	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/iclp/LaunchburyJ94.txt	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.html	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.bib	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ris	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.nt	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.ttl	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.rdf	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.xml	N/A
+https://dblp.org/rec/conf/tphol/BulwahnKHEM08.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.html	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/tphol/BulwahnKHEM08.txt	N/A
+https://webarchive.di.uminho.pt/web.archive.org/web/20090217092139/http%3A/haskell.org/haskellwiki/History_of_Haskell.html	N/A
+https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470050118.ecse164	N/A
+https://dblp.org/rec/conf/afp/Wadler95.nt	N/A
+https://dblp.org/rec/conf/afp/Wadler95.ttl	N/A
+https://dblp.org/rec/conf/afp/Wadler95.rdf	N/A
+https://dblp.org/rec/conf/afp/Wadler95.xml	N/A
+https://dblp.org/rec/conf/afp/Wadler95.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.html	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/afp/Wadler95.txt	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.html	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.bib	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.ris	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.nt	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.ttl	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.rdf	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.xml	N/A
+https://dblp.org/rec/conf/hopl/HudakHJW07.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.html	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/hopl/HudakHJW07.txt	N/A
+https://dblp.org/rec/conf/popl/JonesFG96	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.html	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.bib	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.ris	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.nt	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.ttl	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.rdf	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.xml	N/A
+https://dblp.org/rec/conf/popl/JonesFG96.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.html	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/popl/JonesFG96.txt	N/A
+https://www.cs.unibo.it/~sangio/DOC_public/logBis.pdf	N/A
+https://www.sussex.ac.uk/informatics/cogslib/reports/compsci/cs031996.pdf	N/A
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_49.html	N/A
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_106.html	N/A
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_109.html	N/A
+https://downloads.haskell.org/~ghc/0.29/docs/users_guide/user_112.html	N/A
+https://www.asaj.org/papers/hoots97.pdf	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.html	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.bib	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.ris	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.nt	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.ttl	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.rdf	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.xml	N/A
+https://dblp.org/rec/conf/lics/Jeffrey95.txt	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.html	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.bib	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ris	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.nt	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.ttl	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.rdf	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.xml	N/A
+https://dblp.dagstuhl.de/rec/conf/lics/Jeffrey95.txt	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.html	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.bib	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.ris	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.nt	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.ttl	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.rdf	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.xml	N/A
+https://dblp.org/rec/journals/entcs/Jeffrey95.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.html	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/entcs/Jeffrey95.txt	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.html	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.bib	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.ris	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.nt	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.ttl	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.rdf	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.xml	N/A
+https://dblp.org/rec/journals/tcs/Jeffrey99.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.html	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/tcs/Jeffrey99.txt	N/A
+https://archlinux.org/packages/extra/x86_64/haskell-free/	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.html	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.bib	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.ris	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.nt	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.ttl	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.rdf	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.xml	N/A
+https://dblp.org/rec/journals/jfp/WestphalV25.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.html	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/jfp/WestphalV25.txt	N/A
+https://dblp.org/rec/journals/corr/abs-2008-09253.nt	N/A
+https://dblp.org/rec/journals/corr/abs-2008-09253.ttl	N/A
+https://dblp.org/rec/journals/corr/abs-2008-09253.rdf	N/A
+https://dblp.org/rec/journals/corr/abs-2008-09253.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.html	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-2008-09253.txt	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.html	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.bib	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.ris	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.nt	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.ttl	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.rdf	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.xml	N/A
+https://dblp.org/rec/journals/corr/abs-1210-0611.txt	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.html	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.bib	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ris	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.nt	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.ttl	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.rdf	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.xml	N/A
+https://dblp.dagstuhl.de/rec/journals/corr/abs-1210-0611.txt	N/A
+https://repos.ecosyste.ms/hosts/GitHub/owners/expipiplus1?page=1&per_page=100	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/git/trees/master?recursive=1	N/A
+https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.zip	N/A
+https://github.com/alexandersgreen/qio-haskell/archive/refs/heads/master.tar.gz	N/A
+https://codeload.github.com/alexandersgreen/qio-haskell/zip/refs/heads/master	N/A
+https://codeload.github.com/alexandersgreen/qio-haskell/tar.gz/refs/heads/master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/LICENSE	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/LICENSE	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/LICENSE?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO.cabal	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO.cabal	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO.cabal?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Heap.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Heap.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Heap.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QArith.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QArith.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QArith.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QExamples.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QExamples.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QExamples.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QIORandom.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QIORandom.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QIORandom.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qdata.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qdata.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qdata.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qft.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qft.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qft.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Qio.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qio.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Qio.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioClass.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioClass.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioClass.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSyn.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSyn.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSyn.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/QioSynAlt.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSynAlt.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/QioSynAlt.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Shor.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Shor.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Shor.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/Vec.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Vec.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/Vec.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/QIO/VecEq.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/VecEq.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/QIO/VecEq.hs?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/README.md	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/README.md	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/README.md?ref=master	N/A
+https://github.com/alexandersgreen/qio-haskell/blob/master/Setup.hs	N/A
+https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/Setup.hs	N/A
+https://api.github.com/repos/alexandersgreen/qio-haskell/contents/Setup.hs?ref=master	N/A
+https://hackage-content.haskell.org/package/QIO-1.0.tar.gz	N/A
+https://hackage.haskell.org/package/QIO-1.0/docs/QIO.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Heap.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QArith.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QExamples.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QIORandom.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qdata.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qft.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Qio.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioClass.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioSyn.html	N/A
+https://hackage.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-QioSynAlt.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Shor.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-Vec.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.0/docs/QIO-VecEq.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/QIO-1.2.tar.gz	N/A
+https://hackage.haskell.org/package/QIO-1.2/docs/QIO.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Heap.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QArith.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QExamples.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QIORandom.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qdata.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qft.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Qio.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioClass.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioSyn.html	N/A
+https://hackage.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-QioSynAlt.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Shor.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-Vec.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.2/docs/QIO-VecEq.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3.tar.gz	N/A
+https://hackage.haskell.org/package/QIO-1.3/docs/QIO.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Heap.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QArith.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QExamples.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QIORandom.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Qdata.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Qft.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Qio.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QioClass.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QioSyn.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-QioSynAlt.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Shor.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-Vec.html	N/A
+https://hackage-content.haskell.org/package/QIO-1.3/docs/QIO-VecEq.html	N/A
+https://api.github.com/repos/lambdabot/IOSpec	N/A
+https://api.github.com/repos/lambdabot/IOSpec/git/trees/master?recursive=1	N/A
+https://github.com/lambdabot/IOSpec/archive/refs/heads/master.zip	N/A
+https://github.com/lambdabot/IOSpec/archive/refs/heads/master.tar.gz	N/A
+https://codeload.github.com/lambdabot/IOSpec/zip/refs/heads/master	N/A
+https://codeload.github.com/lambdabot/IOSpec/tar.gz/refs/heads/master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/.gitignore	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/.gitignore	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/.gitignore?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/IOSpec.cabal	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/IOSpec.cabal	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/IOSpec.cabal?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/LICENSE	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/LICENSE	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/LICENSE?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/README	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/README	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/README?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/Setup.lhs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/Setup.lhs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/Setup.lhs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Channels.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Channels.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Channels.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Echo.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Echo.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Echo.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Queues.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Queues.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Queues.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Refs.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Refs.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Refs.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/examples/Sudoku.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Sudoku.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/examples/Sudoku.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/index.html	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/index.html	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/index.html?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Fork.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Fork.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Fork.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/IORef.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/IORef.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/IORef.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/MVar.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/MVar.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/MVar.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/STM.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/STM.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/STM.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Surrogate.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Surrogate.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Surrogate.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Teletype.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Teletype.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Teletype.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/Types.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Types.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/Types.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/src/Test/IOSpec/VirtualMachine.hs	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/VirtualMachine.hs	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/src/Test/IOSpec/VirtualMachine.hs?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/www/cabal.png	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/cabal.png	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/www/cabal.png?ref=master	N/A
+https://github.com/lambdabot/IOSpec/blob/master/www/unsafe.jpg	N/A
+https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/unsafe.jpg	N/A
+https://api.github.com/repos/lambdabot/IOSpec/contents/www/unsafe.jpg?ref=master	N/A
+https://hackage.haskell.org/package/IOSpec-0.1/IOSpec-0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.1.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.4.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5.tar.gz	N/A
+https://hackage.haskell.org/package/IOSpec-0.2.6/IOSpec-0.2.6.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1.tar.gz	N/A
+https://hackage.haskell.org/package/IOSpec-0.3.1.2/IOSpec-0.3.1.2.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2.tar.gz	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.1/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.2/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.3/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.5/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.2.6/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.1/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Fork.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-IORef.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-MVar.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-STM.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Surrogate.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Teletype.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-Types.html	N/A
+https://hackage-content.haskell.org/package/IOSpec-0.3.1.2/docs/Test-IOSpec-VirtualMachine.html	N/A
+https://api.github.com/repos/input-output-hk/io-sim	N/A
+https://api.github.com/repos/input-output-hk/io-sim/git/trees/main?recursive=1	N/A
+https://github.com/input-output-hk/io-sim/archive/refs/heads/main.zip	N/A
+https://github.com/input-output-hk/io-sim/archive/refs/heads/main.tar.gz	N/A
+https://codeload.github.com/input-output-hk/io-sim/zip/refs/heads/main	N/A
+https://codeload.github.com/input-output-hk/io-sim/tar.gz/refs/heads/main	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/README.md	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/README.md?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadFork.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadST.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadSay.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTest.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTime.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/CHANGELOG.md	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/CHANGELOG.md	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/CHANGELOG.md?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/LICENSE	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/LICENSE	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/LICENSE?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/NOTICE	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/NOTICE	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/NOTICE?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/README.md	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/README.md	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/README.md?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/bench/Main.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/bench/Main.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/bench/Main.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/how-to-use-IOSimPOR.md	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/how-to-use-IOSimPOR.md	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/how-to-use-IOSimPOR.md?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/io-sim.cabal	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/io-sim.cabal	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/io-sim.cabal?ref=main	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/CommonTypes.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/Internal.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Internal.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/Internal.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/InternalTypes.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSim/STM.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/STM.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/STM.hs?ref=main	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Types.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSim/Types.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Internal.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Control/Monad/IOSimPOR/Types.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/Deque/Strict.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/Deque/Strict.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Data/Deque/Strict.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/src/Data/List/Trace.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/List/Trace.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/src/Data/List/Trace.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Main.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Main.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Main.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSim.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSim.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/IOSim.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/IOSimPOR.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/STM.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/STM.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/STM.hs?ref=main	N/A
+https://github.com/input-output-hk/io-sim/blob/main/io-sim/test/Test/Control/Monad/Utils.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/Utils.hs	N/A
+https://api.github.com/repos/input-output-hk/io-sim/contents/io-sim/test/Test/Control/Monad/Utils.hs?ref=main	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.0/io-classes-1.0.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.0.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.0.0.1/io-classes-1.0.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.0.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.1.0.0/io-classes-1.1.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.2.0.0/io-classes-1.2.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.3.0.0/io-classes-1.3.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.3.1.0/io-classes-1.3.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.3.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.4.0.0/io-classes-1.4.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.4.1.0/io-classes-1.4.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.5.0.0/io-classes-1.5.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.6.0.0/io-classes-1.6.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.6.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.7.0.0/io-classes-1.7.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.7.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.8.0.0/io-classes-1.8.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.8.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.8.0.1/io-classes-1.8.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.8.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.9.0.0/io-classes-1.9.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.9.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.10.0.0/io-classes-1.10.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.10.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-classes-1.10.1.0/io-classes-1.10.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-classes-1.10.1.0.tar.gz	N/A
+https://api.github.com/repos/input-output-hk/fs-sim	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/git/trees/main?recursive=1	N/A
+https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.zip	N/A
+https://github.com/input-output-hk/fs-sim/archive/refs/heads/main.tar.gz	N/A
+https://codeload.github.com/input-output-hk/fs-sim/zip/refs/heads/main	N/A
+https://codeload.github.com/input-output-hk/fs-sim/tar.gz/refs/heads/main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/CONTRIBUTING.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/CONTRIBUTING.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/CONTRIBUTING.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/LICENSE	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/LICENSE	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/LICENSE?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/NOTICE	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/NOTICE	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/NOTICE?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/README.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/README.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/README.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/SECURITY.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/SECURITY.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/SECURITY.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/CHANGELOG.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/CHANGELOG.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/CHANGELOG.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/LICENSE	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/LICENSE	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/LICENSE?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/NOTICE	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/NOTICE	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/NOTICE?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/README.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/README.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/README.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/fs-api.cabal	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/fs-api.cabal	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/fs-api.cabal?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-unix/System/FS/IO/Unix.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-unix/System/FS/IO/Unix.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src-unix/System/FS/IO/Unix.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src-win32/System/FS/IO/Windows.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-win32/System/FS/IO/Windows.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src-win32/System/FS/IO/Windows.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Lazy.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Lazy.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Lazy.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Strict.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Strict.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Strict.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/API/Types.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Types.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/API/Types.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CRC.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CRC.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/CRC.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/CallStack.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CallStack.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/CallStack.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/Condense.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/Condense.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/Condense.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/IO.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/src/System/FS/IO/Handle.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO/Handle.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/src/System/FS/IO/Handle.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Main.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Main.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Main.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/API/FsPath.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/API/FsPath.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Test/System/FS/API/FsPath.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-api/test/Test/System/FS/IO.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/IO.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-api/test/Test/System/FS/IO.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/CHANGELOG.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/CHANGELOG.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/CHANGELOG.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/LICENSE	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/LICENSE	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/LICENSE?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/NOTICE	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/NOTICE	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/NOTICE?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/README.md	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/README.md	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/README.md?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/fs-sim.cabal	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/fs-sim.cabal	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/fs-sim.cabal?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Error.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Error.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Error.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/FsTree.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/FsTree.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/FsTree.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/MockFS.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/MockFS.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/MockFS.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Prim.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Prim.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Prim.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/STM.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/STM.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/STM.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/src/System/FS/Sim/Stream.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Stream.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/src/System/FS/Sim/Stream.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Main.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Main.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Main.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Error.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Error.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/Error.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/FsTree.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/Sim/Stream.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Stream.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/Sim/Stream.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/System/FS/StateMachine.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/StateMachine.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/System/FS/StateMachine.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/RefEnv.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/RefEnv.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/RefEnv.hs?ref=main	N/A
+https://github.com/input-output-hk/fs-sim/blob/main/fs-sim/test/Test/Util/WithEntryCounter.hs	N/A
+https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/WithEntryCounter.hs	N/A
+https://api.github.com/repos/input-output-hk/fs-sim/contents/fs-sim/test/Test/Util/WithEntryCounter.hs?ref=main	N/A
+https://hackage.haskell.org/package/fs-api-0.3.0.0	N/A
+https://hackage.haskell.org/package/fs-api-0.3.0.0/fs-api-0.3.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-api-0.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-api-0.3.0.1	N/A
+https://hackage.haskell.org/package/fs-api-0.3.0.1/fs-api-0.3.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-api-0.3.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/fs-api-0.4.0.0	N/A
+https://hackage.haskell.org/package/fs-api-0.4.0.0/fs-api-0.4.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-api-0.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.0.0	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.0.0/fs-sim-0.3.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.0.1	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.0.1/fs-sim-0.3.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.3.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.1.0	N/A
+https://hackage.haskell.org/package/fs-sim-0.3.1.0/fs-sim-0.3.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.3.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.4.0.0/fs-sim-0.4.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.4.1.0	N/A
+https://hackage.haskell.org/package/fs-sim-0.4.1.0/fs-sim-0.4.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.5.0.0	N/A
+https://hackage.haskell.org/package/fs-sim-0.5.0.0/fs-sim-0.5.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/fs-sim-0.5.0.1	N/A
+https://hackage.haskell.org/package/fs-sim-0.5.0.1/fs-sim-0.5.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/fs-sim-0.5.0.1.tar.gz	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/git/trees/main?recursive=1	N/A
+https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.zip	N/A
+https://github.com/IntersectMBO/lsm-tree/archive/refs/heads/main.tar.gz	N/A
+https://codeload.github.com/IntersectMBO/lsm-tree/zip/refs/heads/main	N/A
+https://codeload.github.com/IntersectMBO/lsm-tree/tar.gz/refs/heads/main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/CHANGELOG.md	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/CHANGELOG.md	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/CHANGELOG.md?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/LICENSE	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/LICENSE	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/LICENSE?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/NOTICE	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/NOTICE	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/NOTICE?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/README.md	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/README.md	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/README.md?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/blockio.cabal	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/blockio.cabal	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/blockio.cabal?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Async.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Async.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Async.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Internal.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-macos/System/FS/BlockIO/Internal.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-sim/System/FS/BlockIO/Sim.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-sim/System/FS/BlockIO/Sim.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-sim/System/FS/BlockIO/Sim.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src-windows/System/FS/BlockIO/Internal.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-windows/System/FS/BlockIO/Internal.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src-windows/System/FS/BlockIO/Internal.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/API.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/API.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/API.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/IO.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/IO/Internal.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO/Internal.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/IO/Internal.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/Serial.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/src/System/FS/BlockIO/Serial/Internal.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test-sim/Main.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test-sim/Main.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test-sim/Main.hs?ref=main	N/A
+https://github.com/IntersectMBO/lsm-tree/blob/main/blockio/test/Main.hs	N/A
+https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test/Main.hs	N/A
+https://api.github.com/repos/IntersectMBO/lsm-tree/contents/blockio/test/Main.hs?ref=main	N/A
+https://hackage.haskell.org/package/blockio-0.1.0.0	N/A
+https://hackage.haskell.org/package/blockio-0.1.0.0/blockio-0.1.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/blockio-0.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.0.1	N/A
+https://hackage.haskell.org/package/blockio-0.1.0.1/blockio-0.1.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/blockio-0.1.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.0	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.0/blockio-0.1.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/blockio-0.1.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.1	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.1/blockio-0.1.1.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/blockio-0.1.1.1.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.2	N/A
+https://hackage.haskell.org/package/blockio-0.1.1.2/blockio-0.1.1.2.tar.gz	N/A
+https://hackage-content.haskell.org/package/blockio-0.1.1.2.tar.gz	N/A
+https://hackage.haskell.org/package/blockio-0.2.0.0	N/A
+https://hackage.haskell.org/package/blockio-0.2.0.0/blockio-0.2.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/blockio-0.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/packages/tag/io	N/A
+https://repository.tudelft.nl/file/File_6157c7f8-9e15-49c6-aaa4-d0ccc8e06c2d	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem.hs?ref=master	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/Effect.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/Effect.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/Effect.hs?ref=master	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO.hs?ref=master	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString.hs?ref=master	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs?ref=master	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs?ref=master	N/A
+https://github.com/haskell-effectful/effectful/blob/master/effectful/src/Effectful/FileSystem/IO/File.hs	N/A
+https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/File.hs	N/A
+https://api.github.com/repos/haskell-effectful/effectful/contents/effectful/src/Effectful/FileSystem/IO/File.hs?ref=master	N/A
+https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-1.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-1.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-1.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.0.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.1.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.2.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.2.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.2.2.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.3.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.4.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.5.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.0.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Builder.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage-content.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-ByteString-Lazy.html	N/A
+https://hackage.haskell.org/package/effectful-2.6.1.0/docs/Effectful-FileSystem-IO-File.html	N/A
+https://hackage.haskell.org/package/io-sim-1.0.0.0/io-sim-1.0.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.0.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.0.0.1/io-sim-1.0.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.0.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.1.0.0/io-sim-1.1.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.1.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.2.0.0/io-sim-1.2.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.2.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.3.0.0/io-sim-1.3.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.3.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.3.1.0/io-sim-1.3.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.3.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.4.0.0/io-sim-1.4.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.4.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.4.1.0/io-sim-1.4.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.4.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.5.0.0/io-sim-1.5.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.5.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.5.1.0/io-sim-1.5.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.5.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.6.0.0/io-sim-1.6.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.6.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.0/io-sim-1.8.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.8.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.8.0.1/io-sim-1.8.0.1.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.8.0.1.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.9.0.0/io-sim-1.9.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.9.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.9.1.0/io-sim-1.9.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.9.1.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.10.0.0/io-sim-1.10.0.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.10.0.0.tar.gz	N/A
+https://hackage.haskell.org/package/io-sim-1.10.1.0/io-sim-1.10.1.0.tar.gz	N/A
+https://hackage-content.haskell.org/package/io-sim-1.10.1.0.tar.gz	N/A
+https://stackoverflow.com/questions/22875449/stdin-and-stdout-handle	N/A
+https://www.youtube.com/watch?v=ZSJW4jp8K08	N/A
+https://www.youtube.com/watch?v=BFgmrO-c0Ec	N/A
+https://www.youtube.com/watch?v=3q8xYFDYLeI	N/A
+https://www.youtube.com/watch?v=cHfZEdxtVjU	N/A
+https://www.youtube.com/watch?v=Ug9yJnOYR4U	N/A
+https://www.youtube.com/watch?v=F3ppFRcTyHE	N/A
+https://www.youtube.com/watch?v=PlFgKV0ZXoE	N/A
+https://media.ccc.de/v/bob2022-concurrent-programs-in-haskell-kant/oembed	N/A
+https://cdn.media.ccc.de/events/bobkonf/2022/h264-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_hd.mp4	N/A
+https://cdn.media.ccc.de/events/bobkonf/2022/h264-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_sd.mp4	N/A
+https://cdn.media.ccc.de/events/bobkonf/2022/webm-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_webm-hd.webm	N/A
+https://cdn.media.ccc.de/events/bobkonf/2022/webm-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_webm-sd.webm	N/A
+https://cdn.media.ccc.de/events/bobkonf/2022/mp3/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_mp3.mp3	N/A
+https://cdn.media.ccc.de/events/bobkonf/2022/opus/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_opus.opus	N/A
+https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/06_ioMonad.pdf	N/A
+https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/IOMonad.hs	N/A
+http://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation	N/A
+http://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_containers	N/A
+http://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside	N/A
+https://www.sylvain-henry.info/home/data/uploads/talks/shenry-2013-02-05-haskell-intro.pdf	N/A
+https://web.archive.org/web/20150222005715/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20150222071213/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20150412164224/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20150423185704/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20150423185705/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20150423212232/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20150601212938/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20150907175013/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20150909064806/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20150909140633/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20150909212047/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20160304025255/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20160320105006/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20160320113152/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20160429025331/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20160430080500/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20160911104809/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20160913232415/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20160914053153/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20170115004719/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20170321162041/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20170407055135/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20170407082614/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20171002220513/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20171214023936/http://wiki.haskell.org:80/Monads_as_computation	N/A
+https://web.archive.org/web/20171214235146/http://wiki.haskell.org:80/Monads_as_containers	N/A
+https://web.archive.org/web/20181116131730/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20181121204035/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20181208115832/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20181208131913/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20181208140935/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20190528041116/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20190528041124/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20190718085432/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20190721205452/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20190721210231/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20190822154053/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20190822162353/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20190826102230/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20190917192613/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20190922232927/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20190923083339/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20191016004852/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20191031075931/http://wiki.haskell.org:80/Monads_as_computation	N/A
+https://web.archive.org/web/20191031093330/http://wiki.haskell.org:80/Monads_as_containers	N/A
+https://web.archive.org/web/20191113224110/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20191114230350/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20191122193055/http://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20191124064030/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20191210154510/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20191213092649/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20191216071949/http://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20200126233516/http://wiki.haskell.org:80/Monads_as_containers	N/A
+https://web.archive.org/web/20200127055736/http://wiki.haskell.org:80/Monads_as_computation	N/A
+https://web.archive.org/web/20200513181136/http://wiki.haskell.org:80/IO_inside	N/A
+https://web.archive.org/web/20200713085429/http://wiki.haskell.org:80/IO_inside	N/A
+https://web.archive.org/web/20200720161139/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20200806144511/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20200807095101/http://wiki.haskell.org/Monads_as_Computation	N/A
+https://web.archive.org/web/20200813005732/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20200814004414/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20200818215238/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20200821103900/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20200821103901/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20200925035051/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20201108032615/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20201109023225/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20201109025507/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20201109032321/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20201111202705/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20201125023506/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20201127183127/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20201129074739/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210115145834/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20210121070028/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210123023841/http://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20210123121441/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210123152532/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210126120932/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210211035115/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210214131044/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210217161736/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210219093417/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20210413221055/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210413224356/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210413225308/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210416214338/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210419035501/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210421231518/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20210422002508/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210423121415/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210513144030/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210513165654/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20210514084756/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210526161702/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210609021703/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210620014952/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20210702155901/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210702155915/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20210728214020/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20210731100034/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20210802133223/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20211008092523/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20211008165114/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20211020033156/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20211022040417/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	N/A
+https://web.archive.org/web/20211024154729/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20211026005153/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20211121172742/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20211128131305/https://wiki.haskell.org/Monads_as_Computation	N/A
+https://web.archive.org/web/20220123035237/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20220123035242/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20220125020637/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20220402223511/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20220402223545/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20220421114909/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20220606174323/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20220701050847/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20220707085817/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20220708134955/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20220708233654/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20220726203035/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20220817082122/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	N/A
+https://web.archive.org/web/20220929104808/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20221009143617/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20221011113158/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20221012122934/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20221014064000/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20221020141052/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20221024044043/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20221130162224/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20221130164456/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20221206062823/http://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20221206191412/http://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230118160005/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230130154558/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230131213352/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230131213447/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230206124417/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20230224082237/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230316150511/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230316174935/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230317075443/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230318105851/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230318105853/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230326020011/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230326020020/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230329203852/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230522174122/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230522174124/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230530013243/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230601190912/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230603151849/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20230604083039/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230605040044/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20230619125751/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230704224820/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230815210240/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230926033916/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230926163105/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20230928090935/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20230930170953/https://wiki.haskell.org/IO_inside#Dark_side_of_IO_monad	N/A
+https://web.archive.org/web/20231002180255/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20231104070800/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20231106212509/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20231128010503/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20231202051052/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20231208071412/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20231210135617/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20231225061543/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240103132713/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20240220232110/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20240221082842/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20240403060537/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20240415040512/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20240416114801/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20240525111616/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240529220500/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240530140228/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20240607081530/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20240626164712/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240713090236/http://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240713221331/http://wiki.haskell.org/Monads_as_Computation	N/A
+https://web.archive.org/web/20240718113537/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240721045103/http://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20240721203620/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20240722012910/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20240725104749/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20240909213150/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20240910030009/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20241002162224/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20241007140011/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20241008040642/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20241016084510/http://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20241019230835/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20241123014825/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20241127020710/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20241202001404/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20241227050241/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250114210129/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250117023829/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20250120123801/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250122145245/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250123103053/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20250207190011/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20250208030239/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20250307200850/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250307200918/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20250311191503/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250418213048/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250605165649/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250620162909/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250719041219/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20250723091827/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250729043258/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20250804052018/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20250808092413/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20250817173537/https://wiki.haskell.org/Monads_as_Computation	N/A
+https://web.archive.org/web/20250921125332/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20251002114734/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20251008194817/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20251026204313/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20251026204413/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20251117223434/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20251223223310/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20251224154518/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20260101065727/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20260210232850/https://wiki.haskell.org/Monads_as_containers	N/A
+https://web.archive.org/web/20260302080701/https://wiki.haskell.org/Monads_as_Containers	N/A
+https://web.archive.org/web/20260303010259/https://wiki.haskell.org/Monads_as_computation	N/A
+https://web.archive.org/web/20260422061504/https://wiki.haskell.org/IO_inside	N/A
+https://web.archive.org/web/20150910194211/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20191021223213/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20210923021259/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20211206155033/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20230322054729/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20231130044425/http://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20240222065906/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20240415092124/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20240813120557/http://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20241011084506/https://wiki.haskell.org/Lazy_IO	N/A
+https://web.archive.org/web/20250527223545/https://wiki.haskell.org/Lazy_IO	N/A
+https://wiki.haskell.org/Lazy_IO	N/A
+https://wiki.haskell.org/index.php?title=Avoiding_IO	N/A
+https://wiki.haskell.org/index.php?title=How_to_get_rid_of_IO	N/A
+https://wiki.haskell.org/index.php?title=Introduction_to_Haskell_IO	N/A
+https://wiki.haskell.org/index.php?title=Introduction_to_Haskell_IO/Actions	N/A
+https://wiki.haskell.org/index.php?title=Introduction_to_IO	N/A
+https://wiki.haskell.org/index.php?title=IO_at_work	N/A
+https://wiki.haskell.org/index.php?title=IO_in_action	N/A
+https://wiki.haskell.org/index.php?title=IO_Semantics	N/A
+https://wiki.haskell.org/index.php?title=IO_then_abstraction	N/A
+https://wiki.haskell.org/index.php?title=IO_tutorials_timeline	N/A
+https://wiki.haskell.org/index.php?title=UnsafePerformIO	N/A
+https://wiki.haskell.org/index.php?title=Blog_articles/IO	N/A
+https://wiki.haskell.org/index.php?title=Cum_transform_o_lista_de_actiuni_de_IO_in_actiunea-secventa_a_lor_%3F	N/A
+https://wiki.haskell.org/index.php?title=De_ce_sunt_mai_bune_actiunile_de_IO_decat_instructiunile_de_I/O_%3F	N/A
+https://wiki.haskell.org/index.php?title=Haskell_IO_for_Imperative_Programmers	N/A
+https://wiki.haskell.org/index.php?title=Iteratee_IO	N/A
+https://wiki.haskell.org/index.php?title=Monada_de_IO	N/A
+https://wiki.haskell.org/index.php?title=Namespaced_IO_Layer	N/A
+https://wiki.haskell.org/index.php?title=Ru/IO	N/A
+https://wiki.haskell.org/index.php?title=Ru/IO_Inside	N/A
+https://wiki.haskell.org/index.php?title=Binary_IO	N/A
+https://wiki.haskell.org/index.php?title=Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
+https://wiki.haskell.org/index.php?title=Introduction_to_IO_actions	N/A
+https://wiki.haskell.org/index.php?title=IO,_partible-style	N/A
+https://wiki.haskell.org/index.php?title=Tutorials/Programming_Haskell/String_IO	N/A
+https://wiki.haskell.org/index.php?title=Tutorials/ProgrammingHaskell/String_IO	N/A
+https://web.archive.org/web/20150906053054/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20150906120146/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20150907200059/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20150925143519/https://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20150927185129/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20151021023622/http://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20160419051823/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20160527011711/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20160711151741/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20161009163939/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20161009164017/https://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20170416153323/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20170814190633/https://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20180225104405/http://wiki.haskell.org:80/Introduction_to_IO	N/A
+https://web.archive.org/web/20181124231624/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20181222231012/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20190112211221/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20190223235557/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20190302230016/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20190309183024/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20190418200704/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20190524053853/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20190625180421/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20190716211818/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20190719153230/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20190726133317/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20190828031105/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20190921202514/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20190922170857/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20190923080800/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20190930232122/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20191002000612/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20191004022838/http://wiki.haskell.org:80/Avoiding_IO	N/A
+https://web.archive.org/web/20191004104046/http://wiki.haskell.org:80/Introduction_to_IO	N/A
+https://web.archive.org/web/20191004130007/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20191026171203/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20191117191738/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20191120183453/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20191125224935/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20191203191637/http://wiki.haskell.org:80/Introduction_to_IO	N/A
+https://web.archive.org/web/20191210053743/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20191210102307/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20191213005516/http://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20191226045245/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20200125175450/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20200202001923/http://wiki.haskell.org:80/Introduction_to_IO	N/A
+https://web.archive.org/web/20200202144838/http://wiki.haskell.org:80/Avoiding_IO	N/A
+https://web.archive.org/web/20200224223541/http://wiki.haskell.org:80/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20200718183254/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20200806143505/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20201023011716/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20201109015049/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20201109025703/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20201109032722/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20201111212312/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20201118064951/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20201129060959/http://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20210214030712/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20210415192324/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20210514081549/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20210518164324/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20210526094347/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20210621205905/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20210702155900/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20211006222302/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20211026202747/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20211128095221/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20211203204758/http://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20220127140912/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20220129045854/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20220402223440/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20220402223816/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20220501204758/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20220702113106/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20220726201533/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20220817013206/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20220920022146/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20220923114730/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20220926145837/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20221130161424/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20221204185913/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20221205233447/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20221207212556/http://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20221209001941/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20221210080853/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20221211190137/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20230115055039/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20230116175552/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20230117092009/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20230130161413/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20230131025941/http://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20230316174551/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20230325170304/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20230509033521/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20230522174033/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20230522174110/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20230530044418/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20230604003748/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20230608220359/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20230609052530/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20230718005035/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20230719024528/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20231001102050/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20231204185851/http://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20231210205334/http://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20231214021431/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240114190809/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240121085326/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240121085336/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240221161935/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240225021414/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240228160305/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20240228165526/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20240413231813/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20240415013500/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240417063326/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240513180716/http://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240524233811/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20240525231858/http://wiki.haskell.org/Introduction_to_Haskell_IO	N/A
+https://web.archive.org/web/20240527102450/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240618152527/http://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20240620080529/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20240621083150/http://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20240621083713/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240815225451/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240909232812/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240913184459/http://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20240930142757/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20240930142800/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20241005151204/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20241014151844/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20241123013239/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20241209001717/https://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20241226003102/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20250118040414/http://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20250118051541/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20250123104931/http://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20250124075238/http://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20250318012116/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20250320011212/https://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20250324202259/http://wiki.haskell.org/IO_Semantics	N/A
+https://web.archive.org/web/20250426222634/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20250426222645/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20250505121425/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20250712042247/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20250815163946/http://wiki.haskell.org/Avoiding_IO	N/A
+https://web.archive.org/web/20250820110533/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20250828123842/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20250927112007/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20251106131915/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20251229101724/https://wiki.haskell.org/Introduction_to_IO	N/A
+https://web.archive.org/web/20260109162718/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20260123232344/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20260126225721/https://wiki.haskell.org/How_to_get_rid_of_IO	N/A
+https://web.archive.org/web/20260219095611/https://wiki.haskell.org/Introduction_to_Haskell_IO/Actions	N/A
+https://web.archive.org/web/20150909132730/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20160430084314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20170421150610/https://wiki.haskell.org/UnsafePerformIO	N/A
+https://web.archive.org/web/20190825162914/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20191016004101/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20201109025028/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20210923032314/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20211019223111/https://wiki.haskell.org/UnsafePerformIO	N/A
+https://web.archive.org/web/20211130210217/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20220119055359/https://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20220123103638/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20220213201637/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20220705122859/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20220726201534/https://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20220726201535/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20220819012142/http://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20220820054408/http://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20220930200528/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20221007182320/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20221205071857/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20221205143628/http://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20230130235346/https://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20230206094404/https://wiki.haskell.org/UnsafePerformIO	N/A
+https://web.archive.org/web/20230208114205/https://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20230316174551/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20230326015541/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20230531032205/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20230602152233/http://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20230608074515/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20230610043214/http://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20230923001711/http://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20231128185611/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20231206005033/https://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20231210224443/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20240409061910/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20240409061912/https://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20240416104734/http://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20240430042947/https://wiki.haskell.org/IO_at_work	N/A
+https://web.archive.org/web/20240522043657/https://wiki.haskell.org/IO_in_action	N/A
+https://web.archive.org/web/20240526002201/https://wiki.haskell.org/IO_tutorials_timeline	N/A
+https://web.archive.org/web/20240614082447/http://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20240617172950/http://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20240617174248/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20240624055553/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20240914161346/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20250112214730/https://wiki.haskell.org/IO_tutorials_timeline	N/A
+https://web.archive.org/web/20250204192957/https://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20250729180344/https://wiki.haskell.org/IO_then_abstraction	N/A
+https://web.archive.org/web/20260422055652/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20260508215043/https://wiki.haskell.org/Haskell_IO_for_Imperative_Programmers	N/A
+https://web.archive.org/web/20150930164633/https://wiki.haskell.org/Blog_articles/IO	N/A
+https://web.archive.org/web/20190716213305/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20190720210543/https://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20190921201437/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20191119010713/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20200806065327/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20210420221123/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20210517111739/https://wiki.haskell.org/Monada_de_IO	N/A
+https://web.archive.org/web/20210923031053/https://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20211128190719/https://wiki.haskell.org/Monada_de_IO	N/A
+https://web.archive.org/web/20220124232957/https://wiki.haskell.org/Iteratee_IO	N/A
+https://web.archive.org/web/20220630003756/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20220930195116/https://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20221007160332/https://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20230130155741/https://wiki.haskell.org/Monada_de_IO	N/A
+https://web.archive.org/web/20230207022034/http://wiki.haskell.org/Namespaced_IO_Layer	N/A
+https://web.archive.org/web/20230320122529/https://wiki.haskell.org/Iteratee_IO	N/A
+https://web.archive.org/web/20230329122952/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20230926145654/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20231130045113/http://wiki.haskell.org/Iteratee_IO	N/A
+https://web.archive.org/web/20240423164724/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20240526001150/http://wiki.haskell.org/Namespaced_IO_Layer	N/A
+https://web.archive.org/web/20240901090248/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20240918004026/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20240930030305/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20241116120736/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20241119081713/https://wiki.haskell.org/Ru/IO_Inside	N/A
+https://web.archive.org/web/20250114034122/http://wiki.haskell.org/Namespaced_IO_Layer	N/A
+https://web.archive.org/web/20250208085106/http://wiki.haskell.org/Ru/IO	N/A
+https://web.archive.org/web/20150925151901/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20150925154742/https://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20160430095204/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20160506004753/https://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20170714155745/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20180126080636/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20180215154331/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20190311120912/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20190516145501/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20190722151728/https://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20190919030730/https://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20191017070011/https://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20191114021559/https://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20191114124724/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO	N/A
+https://web.archive.org/web/20191121224037/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20200804173504/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20210117200455/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20210129131505/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20210413224257/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20210518061049/https://wiki.haskell.org/IO,_partible-style	N/A
+https://web.archive.org/web/20210726131530/https://wiki.haskell.org/Tutorials/ProgrammingHaskell/String_IO	N/A
+https://web.archive.org/web/20210918083424/http://wiki.haskell.org/IO,_partible-style	N/A
+https://web.archive.org/web/20211022040926/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20211025151250/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20211128192732/https://wiki.haskell.org/IO,_partible-style	N/A
+https://web.archive.org/web/20220129034202/http://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20220419225309/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20221003115054/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20221128180423/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20221209002634/https://wiki.haskell.org/IO,_partible-style	N/A
+https://web.archive.org/web/20230130135300/http://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20230131105701/https://wiki.haskell.org/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20230329195342/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20230424000811/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20231128200835/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20231130042656/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20231130044750/http://wiki.haskell.org/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20231130045358/http://wiki.haskell.org/IO,_partible-style	N/A
+https://web.archive.org/web/20240221071930/http://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20240412201536/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20240617101154/http://wiki.haskell.org/Introduction_to_Haskell_IO/Introduction_to_IO_actions	N/A
+https://web.archive.org/web/20240810073355/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20240909211454/http://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20240914124736/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20240918005149/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20250215160317/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20250416035606/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20250426222641/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20250518221617/https://wiki.haskell.org/Binary_IO	N/A
+https://web.archive.org/web/20251104220709/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20251228075742/https://wiki.haskell.org/Tutorials/Programming_Haskell/String_IO	N/A
+https://web.archive.org/web/20150204182956/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20150228073124/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20150303104409/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20150324011857/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20150402222642/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20150423221452/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20150730202922/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20150905114947/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20150905130636/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20150918224839/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20150925152908/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20151021023727/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20160304215136/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20160309222649/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20160311021301/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20160321222857/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20160429145152/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20160914015455/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20160914043736/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20161115191757/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20170115011804/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20170125125356/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20170407121107/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20170502044842/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20170524151750/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20170601110824/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20170605104948/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20170701190037/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20170905030047/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20170905110118/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20171003003516/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20171012070950/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20171012075041/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20171214235050/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20171219021937/http://wiki.haskell.org:80/Monad/ST	N/A
+https://web.archive.org/web/20180225102016/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20181116053957/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20181202135716/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20190220121612/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20190220123135/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20190220124647/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20190412221913/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20190429083526/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20190518145113/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20190721204959/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20190822152248/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20190826102434/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20190922113909/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20190922232244/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20191014084347/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20191014121537/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20191015194547/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20191016164650/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20191031093447/http://wiki.haskell.org:80/Monad/ST	N/A
+https://web.archive.org/web/20191031093741/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20191114021316/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20191210070638/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20191213234349/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20191230153642/http://wiki.haskell.org:80/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20200105131731/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20200110040658/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20200127143453/http://wiki.haskell.org:80/Monad/ST	N/A
+https://web.archive.org/web/20200131184140/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20200312090857/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20200506232514/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20200622113654/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20200810195933/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20200821103839/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20200831202539/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20201022080256/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20201028115412/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201106052541/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201107234832/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20201109041130/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20201112010941/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201112221755/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201122030538/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201122083145/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201122104544/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201122140522/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201122150404/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201123025622/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20201125020857/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20201129070147/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20210209175331/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20210308110739/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20210321102857/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20210411135357/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20210413155017/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20210417181350/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20210423172947/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20210513160330/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20210719214415/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20210719214532/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20210724225719/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20210725200913/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20210801214531/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20210806235649/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20210806235701/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20210807135220/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20211006223611/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20211203192900/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20211210183348/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20211230031902/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220119034830/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20220209195949/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220226075443/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20220402223500/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220402223501/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220427043054/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220705203444/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220706232553/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220808074701/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220813111214/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220816160210/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220816223348/http://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20220817045139/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20220817094446/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20220818044801/http://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20220920022142/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220923112004/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20220924135940/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20221014060357/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20221102190113/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20221121155247/http://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20221204204207/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20221205105055/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20221205143851/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20221225031641/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20221229045910/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20230107190101/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230108173150/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230117195630/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230201155933/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230208094217/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230208173317/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230208174951/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230307223252/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230316150511/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230318105854/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20230320072042/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230325100548/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230327061824/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20230329101738/http://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20230425110604/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20230529230319/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20230602020941/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20230617155559/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230701101220/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230707210430/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230729195220/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20230815131742/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20230927220711/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20230928081452/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20231001111659/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20231119101841/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20231130162114/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20231204011957/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20231207231753/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20231212173023/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20231216235224/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240106222510/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240110104112/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240118015414/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240122145808/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240204162359/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240212205613/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240220232559/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240225220327/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240228160846/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20240229110215/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240405084146/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240409080553/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240415081208/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20240416195936/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240417054255/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240505000826/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240512050616/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240512085831/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240529212829/http://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240612024012/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240612031206/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240621075507/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240624040000/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240627150607/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240628193838/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240718110854/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240813011629/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240825125728/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20240901090247/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240908162843/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20240915102644/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240917134548/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20240930030209/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241004042322/https://wiki.haskell.org/Monad_Transformers_Tutorial	N/A
+https://web.archive.org/web/20241015154102/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241016073952/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241107232854/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241116115644/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241118211900/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241119021941/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20241128025856/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241202134605/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20241204061331/http://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241212012335/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20241212122730/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20241214105335/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20241216112655/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20241221131924/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20241227014048/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250111092634/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20250112211031/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250114205122/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250115175019/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250118025440/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20250118042437/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250126180623/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20250214021552/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250222085420/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250222213525/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250223110407/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250320053408/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250320230309/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250323001932/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250327005045/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250327005308/http://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250329180029/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250330165009/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250506235342/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250607040646/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250725154238/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20250801050944/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20250803035732/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250813212242/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20250818235023/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250818235426/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20250902004004/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20250905232409/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20251008192446/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20251008192622/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20251108025117/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20251115183823/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20251116194856/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20251124011851/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20251210055534/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20251226155125/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20260106062956/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20260123032054/https://wiki.haskell.org/State_Monad	N/A
+https://web.archive.org/web/20260213204042/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260215220721/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20260425011801/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20260425021012/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260430043539/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260430124759/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260430130821/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260430195713/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260501024111/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260501075831/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260502134112/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260505075111/https://wiki.haskell.org/Monad/ST	N/A
+https://web.archive.org/web/20260506052457/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260612003752/https://wiki.haskell.org/Monad_tutorials_timeline	N/A
+https://web.archive.org/web/20260706174239/https://wiki.haskell.org/State_Monad	N/A
+https://wiki.haskell.org/index.php?title=Monad/ST	N/A
+https://wiki.haskell.org/index.php?title=Monad_Transformers_Tutorial	N/A
+https://wiki.haskell.org/index.php?title=Monad_tutorials_timeline	N/A
+https://wiki.haskell.org/index.php?title=State_Monad	N/A
+https://web.archive.org/web/20150915080654/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20150915121550/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://web.archive.org/web/20170924213752/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20171103224045/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20180220054150/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20180310124407/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20180422071532/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20180620175608/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20180822161334/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20181023094126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20190329225126/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20190720211526/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20190923083205/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20191115085647/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://web.archive.org/web/20191213092020/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20200806234733/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20200928003006/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://web.archive.org/web/20200928231805/http://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20210411052555/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20210729103151/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20220529032255/http://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20220924173634/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20221005051344/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://web.archive.org/web/20230203144931/http://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20230529162942/http://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20230530175609/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20230601083637/http://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://web.archive.org/web/20230922225212/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20240224203735/http://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20240520212043/https://wiki.haskell.org/The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://web.archive.org/web/20240520220342/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20240614092725/http://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://web.archive.org/web/20241119195214/https://wiki.haskell.org/Ru/Monad	N/A
+https://web.archive.org/web/20241204000308/https://wiki.haskell.org/The_Monad.Reader/Issue3/Join_Hs	N/A
+https://wiki.haskell.org/index.php?title=Ce_sunt_Monad_respectiv_MonadPlus_%3F	N/A
+https://wiki.haskell.org/index.php?title=Ce_sunt_monadele_din_clasa_Monad_%3F	N/A
+https://wiki.haskell.org/index.php?title=Ru/Monad	N/A
+https://wiki.haskell.org/index.php?title=The_Monad.Reader/Issue3/Join_Hs	N/A
+https://wiki.haskell.org/index.php?title=The_Monad.Reader/Issue3/Notes_on_Learning_Haskell	N/A
+https://ipsj.ixsq.nii.ac.jp/records/16534	N/A
+https://www.youtube.com/watch?v=VgA4wCaxp-Q	N/A
+https://www.youtube.com/watch?v=t1e8gqXLbsU	N/A
+https://www.youtube.com/watch?v=tYJT1ITE_Dk	N/A
+https://www.youtube.com/watch?v=C2w45qRc3aU	N/A
+https://www.youtube.com/watch?v=nXLOdusLKyc	N/A
+https://www.youtube.com/watch?v=YVcU6y7TxJo	N/A
+https://www.listennotes.com/podcasts/lambda-show/fp-with-kotlinarrow-monad-fBcqiRMtolC/	publication	2020-02-26
+https://ericnormand.me/podcast/what-a-monoid-is-and-why-monoids-kick-monads-butt	N/A
+https://open.spotify.com/episode/0bVVHleHXfZx7UbPfA6x8w	N/A
+https://podcasts.apple.com/sg/podcast/75-haskell-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC-io-maybe-%D0%B8-do-%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8E/id1734325321?i=1000750878751	N/A
+https://podcasts.apple.com/us/podcast/rock-the-code/id1873342617?l=ar	N/A
+https://open.spotify.com/show/318ODUipqJV0jzjS6NTTAv	N/A
+https://haskell.foundation/podcast/31/	N/A
+https://leanpub.com/podcasts/leanpub/chris-penner-11-08-20	N/A
+https://www.slideshare.net/slideshow/sierpinski-triangle-polyglot-fp-for-fun-and-profit-haskell-and-scala/248317955	N/A
+https://www.slideshare.net/slideshow/haskell-for-data-science/53101453?nway-content_model=A	N/A
+https://www.slideshare.net/slideshow/monads-in-swift/78544621	N/A
+https://www.slideshare.net/slideshow/unraveling-the-mystery-of-monads/16391075	N/A
+https://www.slideshare.net/slideshow/jamie-pullar-cats-mtl-in-action/98447920	N/A
+https://www.slideshare.net/slideshow/comparing-20-programming-languages-by-domain/287325715	N/A
+https://pt.slideshare.net/slideshow/haskell-high-performance-programming-samuli-thomasson/279190170	N/A
+https://www.slideshare.net/slideshow/the-death-of-final-tagless/134241364	N/A
+https://www.slideshare.net/slideshow/tofu-and-its-environment/226745745	N/A
+https://www.slideshare.net/slideshow/haskell-for-data-science/53101453	N/A
+https://www.slideshare.net/slideshow/scala-left-fold-parallelisation-three-approaches/263625143	N/A
+https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/%3Fpg%3D94	N/A
+https://d-nb.info/979189675/34	N/A
+https://www.abebooks.com/9780521070072/Functional-Programming-InputOutput-Distinguished-Dissertations-0521070074/plp	N/A
+https://books.google.com/books?id=B4RxBAAAQBAJ&printsec=copyright	N/A
+https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=661681&se=b0&ty=B	N/A
+https://ouci.dntb.gov.ua/en/works/7AZQjYJ4/	N/A
+https://www2.ki.informatik.uni-frankfurt.de/bachelor/abgeschlossen/2008_Harwath.pdf	N/A
+https://ethz.ch/content/dam/ethz/special-interest/infk/inst-infsec/information-security-group-dam/people/andreloc/lochbihler14iw.pdf	N/A
+https://www.sambuz.com/doc/free-theorems-about-monadic-code-ppt-presentation-968214	N/A
+https://publications.lib.chalmers.se/records/fulltext/203817/local_203817.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/2008/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/	N/A
+https://guppy.eng.kagawa-u.ac.jp/2019/AdvProg/	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/publication/compsoft94-abstract.html	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Text/AdvProg4.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Text/AdvProg4.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Text/AdvProg4.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Text/AdvProg5.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2008/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Text/AdvProg5.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2010/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2011/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2011/AdvProg/Text/Monad.pdf	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/Head.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/IORefTest.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UpperLower.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyIO.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyStream.hs	N/A
+https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Text/Monad.pdf	N/A
+https://www.youtube.com/watch?v=75fWhkM-OsE	N/A
+https://www.youtube.com/watch?v=E3yuJZGJa9k	N/A
+https://www.youtube.com/watch?v=-NO3GiA4fRQ	N/A
+https://www.youtube.com/watch?v=UeyGHhYJqG4	N/A
+https://downloads.haskell.org/~ghc/5.00/docs/set/primitives.html	N/A
+https://downloads.haskell.org/ghc/9.0-latest/docs/libraries/ghc-prim-0.7.0/GHC-Prim-Ext.html	N/A
+https://downloads.haskell.org/ghc/8.0-latest/docs/html/libraries/ghc-prim-0.5.0.0/GHC-Magic.html	N/A
+https://downloads.haskell.org/ghc/9.2-latest/docs/html/libraries/ghc-prim-0.8.0/src/GHC-Magic.html	N/A
+https://researchr.org/publication/popl%3A1993	N/A
+https://www.sigplan.org/Awards/POPL/	N/A
+https://dblp.org/db/conf/popl/popl93	N/A
+https://periodicos.unemat.br/index.php/rbedrpp/article/view/14406/10038	N/A
+https://downloads.haskell.org/~ghc/latest/docs/libraries/base-4.22.0.0-66f8/src/Control.Monad.IO.Class.html	N/A
+https://hackage.haskell.org/package/ghc-prim/docs/src/GHC.Types.html	N/A
+https://mail.haskell.org/pipermail/haskell-cafe/2004-November/007702.html	N/A
+https://mail.haskell.org/pipermail/haskell/2015-May/024556.html	N/A
+https://mail.haskell.org/pipermail/cvs-ghc/2009-April/048402.html	N/A
+https://stackoverflow.com/questions/4472260/monad-theory-and-haskell	N/A
+https://stackoverflow.com/questions/19093016/why-cant-i-use-io-constructor	N/A
+https://stackoverflow.com/questions/28769550/what-is-the-difference-between-iotost-and-unsafeiotost-from-ghc-io	N/A
+https://stackoverflow.com/questions/35474169/why-no-seq-in-accursedunutterableperformio	N/A
+https://stackoverflow.com/questions/24803557/defining-applicative-io	N/A
+https://stackoverflow.com/questions/61798648/how-to-view-higher-order-functions-and-io-actions-from-a-mathematical-perspectiv	N/A
+https://stackoverflow.com/questions/75953508/strictness-and-how-to-tell-ghc-ghci-to-just-store-a-value-in-a-variable-once-and	N/A
+https://stackoverflow.com/questions/3780750/will-i-develop-good-bad-habits-because-of-lazy-evaluation	N/A
+https://stackoverflow.com/questions/9689129/io-inside-the-get-monad	N/A
+https://stackoverflow.com/questions/7830743/haskell-how-to-deal-with-io-monad-inside-another-io-monad	N/A
+https://dblp1.uni-trier.de/pid/15/1957.html	N/A
+https://dblp.org/db/conf/plilp/plilp92	N/A
+https://dblp.org/rec/conf/plilp/Rebelsky92	N/A
+https://research-information.bris.ac.uk/en/publications/concurrent-monadic-interfacing-2/	publication	1999
+https://dblp.org/rec/conf/ifl/HolyerS98	N/A
+https://stackoverflow.com/questions/39556936/what-is-the-meaning-of	N/A
+https://www.youtube.com/watch?v=5k3_olHdhjQ	N/A
+https://www.youtube.com/watch?v=V9PRiOtT7VM	N/A
+https://www.youtube.com/watch?v=3-AthNF4IBw	N/A
+https://www.youtube.com/watch?v=JCyAcYZ7We4	N/A
+https://www.youtube.com/watch?v=8xkG660D6bI	N/A
+https://www.youtube.com/watch?v=9KHj7mi8Lzk	N/A
+https://www.youtube.com/watch?v=H-Rv12otC34	N/A
+https://www.youtube.com/watch?v=iNWxC8PwXrk	N/A
+https://www.youtube.com/watch?v=0AlhlG7n9nc	N/A
+https://www.youtube.com/watch?v=T5y8sFmCFnA	N/A
+https://www.youtube.com/watch?v=hC7hwEQtdnE	N/A
+https://www.youtube.com/watch?v=Rz7O-oR6ujE	N/A
+https://www.youtube.com/watch?v=FIdQiavsemI	N/A
+https://www.youtube.com/watch?v=PWS0Whf6-wc	N/A
+https://www.youtube.com/watch?v=M5l1d2lHH1A	N/A
+https://www.youtube.com/watch?v=nrTge_JCib0	N/A
+https://www.youtube.com/watch?v=lqG3mURwUxo	N/A
+https://www.youtube.com/watch?v=FdUS93RXEwY	N/A
+https://www.youtube.com/watch?v=d-NZnR2CTss	N/A
+https://www.youtube.com/watch?v=jawbOge4dCg	N/A
+https://www.youtube.com/watch?v=uzsqgdMMgtk	N/A
+https://www.youtube.com/watch?v=N6sOMGYsvFA	N/A
+https://www.youtube.com/watch?v=ijiykwuZvRQ	N/A
+https://www.youtube.com/watch?v=73B1uc3xkvo	N/A
+https://www.youtube.com/watch?v=hF1enHn54e8	N/A
+https://www.youtube.com/watch?v=8OQUH8q4sMM	N/A
+https://www.youtube.com/watch?v=uVK3t-5wWew	N/A
+https://www.youtube.com/watch?v=uedUGeWN4ZM	N/A
+https://www.youtube.com/watch?v=HHVD8SIx6v0	N/A
+https://www.youtube.com/watch?v=TP0ApVPLc24	N/A
+https://www.youtube.com/watch?v=y95WtkWCmKg	N/A
+https://www.youtube.com/watch?v=pm_WFnWqn20	N/A
+https://www.youtube.com/watch?v=IMrBTx7aYjs	N/A
+https://www.youtube.com/watch?v=1NeULUGWAaI	N/A
+https://www.youtube.com/watch?v=fQn_n80dGoA	N/A
+https://hackage.haskell.org/package/http-monad-0.1.0.2	N/A
+https://hackage.haskell.org/package/http-monad-0.0.1	N/A
+https://hackage.haskell.org/package/http-monad-0.1	N/A
+https://hackage.haskell.org/package/safe-lazy-io/docs	N/A
+https://hackage.haskell.org/package/binary/docs/Data-Binary-Get.html	N/A
+https://hackage.haskell.org/package/enumerator-0.4.11	N/A
+https://hackage.haskell.org/package/enumerator-0.4.5	N/A
+https://hackage.haskell.org/package/http-monad/docs/Network-Monad-Transfer.html	N/A
+https://dblp.org/db/journals/jfp/jfp35.html	N/A
+https://researchr.org/journal/jfp/home	N/A
+https://www.researchgate.net/publication/362277409_Engaging_Large-Scale_Functional_Programming_Education_in_Physical_and_Virtual_Space	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/volume/97FA87994DD90E812E2D11A36404D0D5	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/listing	N/A
+https://www.uni-due.de/fmi/veroeffentlichungen	N/A
+https://stackoverflow.com/questions/28690448/what-is-indexed-monad	N/A
+https://hackage.haskell.org/package/lio/docs/LIO-Concurrent.html	N/A
+https://hackage.haskell.org/package/lio-0.9.1.0/docs/LIO-Concurrent.html	N/A
+https://hackage.haskell.org/package/lio-0.9.0.0	N/A
+https://hackage.haskell.org/package/lio-0.1.0	N/A
+https://hackage.haskell.org/package/lio-0.1.1/lio.cabal/edit	N/A
+https://hackage.haskell.org/package/lio-0.0.2	N/A
+https://hackage.haskell.org/package/lio-0.1.3	N/A
+https://hackage.haskell.org/package/lio-0.9.0.1	N/A
+https://hackage.haskell.org/package/lio-0.9.1.0	N/A
+https://hackage.haskell.org/package/lio-0.9.1.1	N/A
+https://hackage.haskell.org/package/lio-0.9.1.2	N/A
+https://hackage.haskell.org/package/lio-0.9.2.0	N/A
+https://hackage.haskell.org/package/lio-0.9.2.2	N/A
+https://hackage.haskell.org/package/lio-0.10.0.0	N/A
+https://hackage.haskell.org/package/lio-0.11.0.0	N/A
+https://hackage.haskell.org/package/lio-0.11.0.1	N/A
+https://hackage.haskell.org/package/lio-0.11.2.0	N/A
+https://hackage.haskell.org/package/lio-0.11.3.0	N/A
+https://hackage.haskell.org/package/lio-0.11.4.0	N/A
+https://hackage.haskell.org/package/lio-0.11.4.1	N/A
+https://hackage.haskell.org/package/lio-0.11.4.2	N/A
+https://hackage.haskell.org/package/lio-0.11.5.0	N/A
+https://hackage.haskell.org/package/lio-0.11.6.0	N/A
+https://hackage.haskell.org/package/lio-0.11.7.0	N/A
+https://hackage.haskell.org/package/lio-0.11.7.1	N/A
+https://hackage.haskell.org/package/http-monad-0.1.0.1	N/A
+https://hackage.haskell.org/package/http-monad-0.1.0.3	N/A
+https://hackage.haskell.org/package/http-monad-0.1.1	N/A
+https://hackage.haskell.org/package/http-monad-0.1.1.1	N/A
+https://hackage.haskell.org/package/http-monad-0.1.1.2	N/A
+https://hackage.haskell.org/package/http-monad-0.1.1.3	N/A
+https://hackage.haskell.org/package/http-monad-0.1.1.4	N/A
+https://hackage.haskell.org/package/lazyio-0.0.1	N/A
+https://hackage.haskell.org/package/lazyio-0.0.2	N/A
+https://hackage.haskell.org/package/lazyio-0.0.3	N/A
+https://hackage.haskell.org/package/lazyio-0.0.3.1	N/A
+https://hackage.haskell.org/package/lazyio-0.0.3.2	N/A
+https://hackage.haskell.org/package/lazyio-0.0.3.3	N/A
+https://hackage.haskell.org/package/lazyio-0.1	N/A
+https://hackage.haskell.org/package/lazyio-0.1.0.1	N/A
+https://hackage.haskell.org/package/lazyio-0.1.0.2	N/A
+https://hackage.haskell.org/package/lazyio-0.1.0.3	N/A
+https://hackage.haskell.org/package/lazyio-0.1.0.4	N/A
+https://hackage.haskell.org/package/enumerator-0.1	N/A
+https://hackage.haskell.org/package/enumerator-0.1.1	N/A
+https://hackage.haskell.org/package/enumerator-0.2	N/A
+https://hackage.haskell.org/package/enumerator-0.2.1	N/A
+https://hackage.haskell.org/package/enumerator-0.3	N/A
+https://hackage.haskell.org/package/enumerator-0.3.0.1	N/A
+https://hackage.haskell.org/package/enumerator-0.4	N/A
+https://hackage.haskell.org/package/enumerator-0.4.0.1	N/A
+https://hackage.haskell.org/package/enumerator-0.4.0.2	N/A
+https://hackage.haskell.org/package/enumerator-0.4.1	N/A
+https://hackage.haskell.org/package/enumerator-0.4.2	N/A
+https://hackage.haskell.org/package/enumerator-0.4.3	N/A
+https://hackage.haskell.org/package/enumerator-0.4.3.1	N/A
+https://hackage.haskell.org/package/enumerator-0.4.4	N/A
+https://hackage.haskell.org/package/enumerator-0.4.6	N/A
+https://hackage.haskell.org/package/enumerator-0.4.7	N/A
+https://hackage.haskell.org/package/enumerator-0.4.8	N/A
+https://hackage.haskell.org/package/enumerator-0.4.9	N/A
+https://hackage.haskell.org/package/enumerator-0.4.9.1	N/A
+https://hackage.haskell.org/package/enumerator-0.4.10	N/A
+https://hackage.haskell.org/package/enumerator-0.4.12	N/A
+https://hackage.haskell.org/package/enumerator-0.4.13	N/A
+https://hackage.haskell.org/package/enumerator-0.4.13.1	N/A
+https://hackage.haskell.org/package/enumerator-0.4.14	N/A
+https://hackage.haskell.org/package/enumerator-0.4.15	N/A
+https://hackage.haskell.org/package/enumerator-0.4.16	N/A
+https://hackage.haskell.org/package/enumerator-0.4.18	N/A
+https://hackage.haskell.org/package/enumerator-0.4.19	N/A
+https://hackage.haskell.org/package/enumerator-0.4.20	N/A
+https://hackage.haskell.org/package/iteratee-0.1.0	N/A
+https://hackage.haskell.org/package/iteratee-0.2	N/A
+https://hackage.haskell.org/package/iteratee-0.2.1	N/A
+https://hackage.haskell.org/package/iteratee-0.2.3	N/A
+https://hackage.haskell.org/package/iteratee-0.2.4	N/A
+https://hackage.haskell.org/package/iteratee-0.3.1	N/A
+https://hackage.haskell.org/package/iteratee-0.3.4	N/A
+https://hackage.haskell.org/package/iteratee-0.3.5	N/A
+https://hackage.haskell.org/package/iteratee-0.3.6	N/A
+https://hackage.haskell.org/package/iteratee-0.4.0.1	N/A
+https://hackage.haskell.org/package/iteratee-0.5.0.0	N/A
+https://hackage.haskell.org/package/iteratee-0.6.0.1	N/A
+https://hackage.haskell.org/package/iteratee-0.7.0.0	N/A
+https://hackage.haskell.org/package/iteratee-0.7.0.1	N/A
+https://hackage.haskell.org/package/iteratee-0.7.0.2	N/A
+https://hackage.haskell.org/package/iteratee-0.8.0.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.0.1	N/A
+https://hackage.haskell.org/package/iteratee-0.8.0.2	N/A
+https://hackage.haskell.org/package/iteratee-0.8.0.3	N/A
+https://hackage.haskell.org/package/iteratee-0.8.1.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.1.1	N/A
+https://hackage.haskell.org/package/iteratee-0.8.2.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.3.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.1	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.2	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.3	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.4	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.5	N/A
+https://hackage.haskell.org/package/iteratee-0.8.4.6	N/A
+https://hackage.haskell.org/package/iteratee-0.8.5.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.6.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.6.1	N/A
+https://hackage.haskell.org/package/iteratee-0.8.6.2	N/A
+https://hackage.haskell.org/package/iteratee-0.8.7	N/A
+https://hackage.haskell.org/package/iteratee-0.8.7.3	N/A
+https://hackage.haskell.org/package/iteratee-0.8.7.5	N/A
+https://hackage.haskell.org/package/iteratee-0.8.7.6	N/A
+https://hackage.haskell.org/package/iteratee-0.8.8.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.8.1	N/A
+https://hackage.haskell.org/package/iteratee-0.8.9.0	N/A
+https://hackage.haskell.org/package/iteratee-0.8.9.3	N/A
+https://hackage.haskell.org/package/iteratee-0.8.9.4	N/A
+https://hackage.haskell.org/package/iteratee-0.8.9.6	N/A
+https://hackage.haskell.org/package/conduit-0.0.0	N/A
+https://hackage.haskell.org/package/conduit-0.0.0.1	N/A
+https://hackage.haskell.org/package/conduit-0.0.0.2	N/A
+https://hackage.haskell.org/package/conduit-0.0.1	N/A
+https://hackage.haskell.org/package/conduit-0.0.1.1	N/A
+https://hackage.haskell.org/package/conduit-0.0.2	N/A
+https://hackage.haskell.org/package/conduit-0.0.3	N/A
+https://hackage.haskell.org/package/conduit-0.0.4	N/A
+https://hackage.haskell.org/package/conduit-0.1.0	N/A
+https://hackage.haskell.org/package/conduit-0.1.1	N/A
+https://hackage.haskell.org/package/conduit-0.1.1.1	N/A
+https://hackage.haskell.org/package/conduit-0.2.0	N/A
+https://hackage.haskell.org/package/conduit-0.2.1	N/A
+https://hackage.haskell.org/package/conduit-0.2.2	N/A
+https://hackage.haskell.org/package/conduit-0.3.0	N/A
+https://hackage.haskell.org/package/conduit-0.4.0	N/A
+https://hackage.haskell.org/package/conduit-0.4.0.1	N/A
+https://hackage.haskell.org/package/conduit-0.4.1	N/A
+https://hackage.haskell.org/package/conduit-0.4.1.1	N/A
+https://hackage.haskell.org/package/conduit-0.4.2	N/A
+https://hackage.haskell.org/package/conduit-0.5.1	N/A
+https://hackage.haskell.org/package/conduit-0.5.2	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.1	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.2	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.3	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.4	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.5	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.6	N/A
+https://hackage.haskell.org/package/conduit-0.5.2.7	N/A
+https://hackage.haskell.org/package/conduit-0.5.3	N/A
+https://hackage.haskell.org/package/conduit-0.5.4	N/A
+https://hackage.haskell.org/package/conduit-0.5.4.1	N/A
+https://hackage.haskell.org/package/conduit-0.5.4.2	N/A
+https://hackage.haskell.org/package/conduit-0.5.5	N/A
+https://hackage.haskell.org/package/conduit-0.5.6	N/A
+https://hackage.haskell.org/package/conduit-1.0.0.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.0.2	N/A
+https://hackage.haskell.org/package/conduit-1.0.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.2	N/A
+https://hackage.haskell.org/package/conduit-1.0.3	N/A
+https://hackage.haskell.org/package/conduit-1.0.4	N/A
+https://hackage.haskell.org/package/conduit-1.0.4.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.4.2	N/A
+https://hackage.haskell.org/package/conduit-1.0.5	N/A
+https://hackage.haskell.org/package/conduit-1.0.5.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.6	N/A
+https://hackage.haskell.org/package/conduit-1.0.7	N/A
+https://hackage.haskell.org/package/conduit-1.0.7.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.7.2	N/A
+https://hackage.haskell.org/package/conduit-1.0.7.3	N/A
+https://hackage.haskell.org/package/conduit-1.0.7.4	N/A
+https://hackage.haskell.org/package/conduit-1.0.9	N/A
+https://hackage.haskell.org/package/conduit-1.0.9.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.9.2	N/A
+https://hackage.haskell.org/package/conduit-1.0.9.3	N/A
+https://hackage.haskell.org/package/conduit-1.0.10	N/A
+https://hackage.haskell.org/package/conduit-1.0.11	N/A
+https://hackage.haskell.org/package/conduit-1.0.11.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.12	N/A
+https://hackage.haskell.org/package/conduit-1.0.13	N/A
+https://hackage.haskell.org/package/conduit-1.0.13.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.14	N/A
+https://hackage.haskell.org/package/conduit-1.0.15	N/A
+https://hackage.haskell.org/package/conduit-1.0.15.1	N/A
+https://hackage.haskell.org/package/conduit-1.0.16	N/A
+https://hackage.haskell.org/package/conduit-1.0.17	N/A
+https://hackage.haskell.org/package/conduit-1.0.17.1	N/A
+https://hackage.haskell.org/package/conduit-1.1.0.1	N/A
+https://hackage.haskell.org/package/conduit-1.1.0.2	N/A
+https://hackage.haskell.org/package/conduit-1.1.1	N/A
+https://hackage.haskell.org/package/conduit-1.1.1.1	N/A
+https://hackage.haskell.org/package/conduit-1.1.2	N/A
+https://hackage.haskell.org/package/conduit-1.1.2.1	N/A
+https://hackage.haskell.org/package/conduit-1.1.3	N/A
+https://hackage.haskell.org/package/conduit-1.1.4	N/A
+https://hackage.haskell.org/package/conduit-1.1.5	N/A
+https://hackage.haskell.org/package/conduit-1.1.6	N/A
+https://hackage.haskell.org/package/conduit-1.1.7	N/A
+https://hackage.haskell.org/package/conduit-1.2.0	N/A
+https://hackage.haskell.org/package/conduit-1.2.0.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.0.2	N/A
+https://hackage.haskell.org/package/conduit-1.2.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.2	N/A
+https://hackage.haskell.org/package/conduit-1.2.2.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.2.2	N/A
+https://hackage.haskell.org/package/conduit-1.2.3	N/A
+https://hackage.haskell.org/package/conduit-1.2.3.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.4	N/A
+https://hackage.haskell.org/package/conduit-1.2.4.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.4.2	N/A
+https://hackage.haskell.org/package/conduit-1.2.4.3	N/A
+https://hackage.haskell.org/package/conduit-1.2.5	N/A
+https://hackage.haskell.org/package/conduit-1.2.5.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.6	N/A
+https://hackage.haskell.org/package/conduit-1.2.6.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.6.2	N/A
+https://hackage.haskell.org/package/conduit-1.2.6.3	N/A
+https://hackage.haskell.org/package/conduit-1.2.6.4	N/A
+https://hackage.haskell.org/package/conduit-1.2.6.5	N/A
+https://hackage.haskell.org/package/conduit-1.2.6.6	N/A
+https://hackage.haskell.org/package/conduit-1.2.7	N/A
+https://hackage.haskell.org/package/conduit-1.2.8	N/A
+https://hackage.haskell.org/package/conduit-1.2.9	N/A
+https://hackage.haskell.org/package/conduit-1.2.9.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.10	N/A
+https://hackage.haskell.org/package/conduit-1.2.11	N/A
+https://hackage.haskell.org/package/conduit-1.2.12	N/A
+https://hackage.haskell.org/package/conduit-1.2.12.1	N/A
+https://hackage.haskell.org/package/conduit-1.2.13	N/A
+https://hackage.haskell.org/package/conduit-1.2.13.1	N/A
+https://hackage.haskell.org/package/conduit-1.3.0	N/A
+https://hackage.haskell.org/package/conduit-1.3.0.1	N/A
+https://hackage.haskell.org/package/conduit-1.3.0.2	N/A
+https://hackage.haskell.org/package/conduit-1.3.0.3	N/A
+https://hackage.haskell.org/package/conduit-1.3.1	N/A
+https://hackage.haskell.org/package/conduit-1.3.1.1	N/A
+https://hackage.haskell.org/package/conduit-1.3.1.2	N/A
+https://hackage.haskell.org/package/conduit-1.3.2	N/A
+https://hackage.haskell.org/package/conduit-1.3.2.1	N/A
+https://hackage.haskell.org/package/conduit-1.3.3	N/A
+https://hackage.haskell.org/package/conduit-1.3.4	N/A
+https://hackage.haskell.org/package/conduit-1.3.4.1	N/A
+https://hackage.haskell.org/package/conduit-1.3.4.2	N/A
+https://hackage.haskell.org/package/conduit-1.3.4.3	N/A
+https://hackage.haskell.org/package/conduit-1.3.5	N/A
+https://hackage.haskell.org/package/conduit-1.3.6	N/A
+https://hackage.haskell.org/package/conduit-1.3.6.1	N/A
+https://hackage.haskell.org/package/pipes-1.0	N/A
+https://hackage.haskell.org/package/pipes-1.0.1	N/A
+https://hackage.haskell.org/package/pipes-1.0.2	N/A
+https://hackage.haskell.org/package/pipes-2.0.0	N/A
+https://hackage.haskell.org/package/pipes-2.1.0	N/A
+https://hackage.haskell.org/package/pipes-2.2.0	N/A
+https://hackage.haskell.org/package/pipes-2.4.0	N/A
+https://hackage.haskell.org/package/pipes-2.5.0	N/A
+https://hackage.haskell.org/package/pipes-3.0.0	N/A
+https://hackage.haskell.org/package/pipes-3.1.0	N/A
+https://hackage.haskell.org/package/pipes-3.2.0	N/A
+https://hackage.haskell.org/package/pipes-3.3.0	N/A
+https://hackage.haskell.org/package/pipes-4.0.0	N/A
+https://hackage.haskell.org/package/pipes-4.0.1	N/A
+https://hackage.haskell.org/package/pipes-4.0.2	N/A
+https://hackage.haskell.org/package/pipes-4.1.0	N/A
+https://hackage.haskell.org/package/pipes-4.1.1	N/A
+https://hackage.haskell.org/package/pipes-4.1.2	N/A
+https://hackage.haskell.org/package/pipes-4.1.3	N/A
+https://hackage.haskell.org/package/pipes-4.1.4	N/A
+https://hackage.haskell.org/package/pipes-4.1.5	N/A
+https://hackage.haskell.org/package/pipes-4.1.6	N/A
+https://hackage.haskell.org/package/pipes-4.1.7	N/A
+https://hackage.haskell.org/package/pipes-4.1.8	N/A
+https://hackage.haskell.org/package/pipes-4.1.9	N/A
+https://hackage.haskell.org/package/pipes-4.2.0	N/A
+https://hackage.haskell.org/package/pipes-4.3.0	N/A
+https://hackage.haskell.org/package/pipes-4.3.1	N/A
+https://hackage.haskell.org/package/pipes-4.3.2	N/A
+https://hackage.haskell.org/package/pipes-4.3.3	N/A
+https://hackage.haskell.org/package/pipes-4.3.4	N/A
+https://hackage.haskell.org/package/pipes-4.3.5	N/A
+https://hackage.haskell.org/package/pipes-4.3.6	N/A
+https://hackage.haskell.org/package/pipes-4.3.7	N/A
+https://hackage.haskell.org/package/pipes-4.3.8	N/A
+https://hackage.haskell.org/package/pipes-4.3.9	N/A
+https://hackage.haskell.org/package/pipes-4.3.10	N/A
+https://hackage.haskell.org/package/pipes-4.3.11	N/A
+https://hackage.haskell.org/package/pipes-4.3.12	N/A
+https://hackage.haskell.org/package/pipes-4.3.13	N/A
+https://hackage.haskell.org/package/pipes-4.3.14	N/A
+https://hackage.haskell.org/package/pipes-4.3.15	N/A
+https://hackage.haskell.org/package/pipes-4.3.16	N/A
+https://hackage.haskell.org/package/pipes-safe-1.0.0	N/A
+https://hackage.haskell.org/package/pipes-safe-1.1.0	N/A
+https://hackage.haskell.org/package/pipes-safe-1.2.0	N/A
+https://hackage.haskell.org/package/pipes-safe-2.0.0	N/A
+https://hackage.haskell.org/package/pipes-safe-2.0.1	N/A
+https://hackage.haskell.org/package/pipes-safe-2.0.2	N/A
+https://hackage.haskell.org/package/pipes-safe-2.1.0	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.0	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.1	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.2	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.3	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.4	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.5	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.6	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.8	N/A
+https://hackage.haskell.org/package/pipes-safe-2.2.9	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.0	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.1	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.2	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.3	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.4	N/A
+https://hackage.haskell.org/package/pipes-safe-2.3.5	N/A
+https://hackage.haskell.org/package/pipes-io-0.1	N/A
+https://hackage.haskell.org/package/pipes-parse-1.0.0	N/A
+https://hackage.haskell.org/package/pipes-parse-2.0.0	N/A
+https://hackage.haskell.org/package/pipes-parse-2.0.1	N/A
+https://hackage.haskell.org/package/pipes-parse-2.0.2	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.0	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.1	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.2	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.3	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.4	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.5	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.6	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.7	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.8	N/A
+https://hackage.haskell.org/package/pipes-parse-3.0.9	N/A
+https://hackage.haskell.org/package/pipes-network-0.0.1	N/A
+https://hackage.haskell.org/package/pipes-network-0.0.2	N/A
+https://hackage.haskell.org/package/pipes-network-0.1.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.1.0.1	N/A
+https://hackage.haskell.org/package/pipes-network-0.1.1.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.2.0.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.3.0.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.4.0.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.4.0.1	N/A
+https://hackage.haskell.org/package/pipes-network-0.4.0.2	N/A
+https://hackage.haskell.org/package/pipes-network-0.5.0.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.5.1.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.0	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.1	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.2	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.3	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.4	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.4.1	N/A
+https://hackage.haskell.org/package/pipes-network-0.6.5	N/A
+https://hackage.haskell.org/package/pipes-concurrency-1.0.0	N/A
+https://hackage.haskell.org/package/pipes-concurrency-1.1.0	N/A
+https://hackage.haskell.org/package/pipes-concurrency-1.2.0	N/A
+https://hackage.haskell.org/package/pipes-concurrency-1.2.1	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.0	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.1	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.2	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.3	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.4	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.5	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.6	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.7	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.8	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.9	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.10	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.11	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.12	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.13	N/A
+https://hackage.haskell.org/package/pipes-concurrency-2.0.14	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.0	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.1	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.2	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.3	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.4	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.5	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.6	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.7	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.8	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.9	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.10	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.11	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.12	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.13	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.14	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.15	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.16	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.0.17	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.1.0	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.2.0	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.2.1	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.2.2	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.2.3	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.2.4	N/A
+https://hackage.haskell.org/package/pipes-text-0.0.2.5	N/A
+https://hackage.haskell.org/package/pipes-text-1.0.0	N/A
+https://hackage.haskell.org/package/pipes-text-1.0.1	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.2.0.0	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.4.0.0	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.6.0.0	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.8.0.0	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.8.0.2	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.10.0.0	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.10.0.2	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.10.0.4	N/A
+https://hackage.haskell.org/package/pipes-cliff-0.12.0.0	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.0	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.1	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.3	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.4	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.5	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.6	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.7	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.8	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.9	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.10	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.11	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.12	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.13	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.14	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.15	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.16	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.17	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.18	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.19	N/A
+https://hackage.haskell.org/package/streaming-0.1.0.20	N/A
+https://hackage.haskell.org/package/streaming-0.1.1.0	N/A
+https://hackage.haskell.org/package/streaming-0.1.2.0	N/A
+https://hackage.haskell.org/package/streaming-0.1.2.2	N/A
+https://hackage.haskell.org/package/streaming-0.1.3.0	N/A
+https://hackage.haskell.org/package/streaming-0.1.3.1	N/A
+https://hackage.haskell.org/package/streaming-0.1.3.2	N/A
+https://hackage.haskell.org/package/streaming-0.1.3.3	N/A
+https://hackage.haskell.org/package/streaming-0.1.3.4	N/A
+https://hackage.haskell.org/package/streaming-0.1.4.1	N/A
+https://hackage.haskell.org/package/streaming-0.1.4.2	N/A
+https://hackage.haskell.org/package/streaming-0.1.4.3	N/A
+https://hackage.haskell.org/package/streaming-0.1.4.4	N/A
+https://hackage.haskell.org/package/streaming-0.1.4.5	N/A
+https://hackage.haskell.org/package/streaming-0.2.0.0	N/A
+https://hackage.haskell.org/package/streaming-0.2.1.0	N/A
+https://hackage.haskell.org/package/streaming-0.2.2.0	N/A
+https://hackage.haskell.org/package/streaming-0.2.3.0	N/A
+https://hackage.haskell.org/package/streaming-0.2.3.1	N/A
+https://hackage.haskell.org/package/streaming-0.2.4.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.0.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.0.1	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.1.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.1.1	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.2.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.2.2	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.3.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.1	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.2	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.3	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.4	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.5	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.6	N/A
+https://hackage.haskell.org/package/streaming-utils-0.1.4.7	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.0.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.1.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.2.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.3.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.4.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.5.0	N/A
+https://hackage.haskell.org/package/streaming-utils-0.2.6.0	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.0	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.1	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.2	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.3	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.4	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.5	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.6	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.7	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.8	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.9	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.10	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.11	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.12	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.13	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.14	N/A
+https://hackage.haskell.org/package/pipes-extras-1.0.15	N/A
+https://hackage.haskell.org/package/pipes-bytestring-1.0.0	N/A
+https://hackage.haskell.org/package/pipes-bytestring-1.0.1	N/A
+https://hackage.haskell.org/package/pipes-bytestring-1.0.2	N/A
+https://hackage.haskell.org/package/pipes-bytestring-1.0.3	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.0.0	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.0.1	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.0	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.1	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.2	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.3	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.4	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.5	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.6	N/A
+https://hackage.haskell.org/package/pipes-bytestring-2.1.7	N/A
+https://stackoverflow.com/questions/26522053/is-my-concurrency-monad-a-valid-instance-of-monadthrow	N/A
+https://www.youtube.com/watch?v=8_TWM2t97r4	N/A
+https://www.youtube.com/watch?v=p2h6WHcV8CY	N/A
+https://www.youtube.com/watch?v=po3wmq4S15A	N/A
+https://www.youtube.com/watch?v=wFpUG2jGxVg	N/A
+https://www.youtube.com/watch?v=a6tQkOv1k38	N/A
+https://www.youtube.com/watch?v=xDATcERgKgg	N/A
+https://www.youtube.com/watch?v=o3Siln85TJ4	N/A
+https://www.youtube.com/watch?v=79CXOlIevVU	N/A
+https://typelevel.org/cats-effect/api/2.x/cats/effect/index.html	N/A
+https://typelevel.org/cats-effect/docs/std/resource	N/A
+https://lrodero.github.io/cats-effect/docs/2.x/guides/tutorial	N/A
+https://lrodero.github.io/cats-effect/docs/migration-guide	N/A
+https://bio.monix.io/docs/error-handling	N/A
+https://pursuit.purescript.org/packages/purescript-aff/6.0.0/docs/Effect.Aff	N/A
+https://docs.idris-lang.org/en/latest/tutorial/introduction.html	N/A
+https://pursuit.purescript.org/packages/purescript-aff/3.0.0	N/A
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/idris-a-generalpurpose-dependently-typed-programming-language-design-and-implementation/418409138B4452969AC0736DB0A2C238	publication	2013-09
+https://www.reddit.com/r/ProgrammingLanguages/comments/vlgqko	N/A
+https://www.youtube.com/watch?v=EArV7Uy-TD0	N/A
+https://www.youtube.com/watch?v=dbM72ap30TE	N/A
+https://www.youtube.com/watch?v=GlUcCPmH8wI	N/A
+https://www.youtube.com/watch?v=L8AEj6IRNEE	N/A
+https://www.youtube.com/watch?v=RpqGG-N5p1I	N/A
+https://www.youtube.com/watch?v=y2oY4mETysQ	N/A
+https://www.youtube.com/watch?v=X36ye-1x_HQ	N/A
+https://www.youtube.com/watch?v=UdSDTEdP_tQ	N/A
+https://www.youtube.com/watch?v=P1vES9AgfC4	N/A
+https://www.youtube.com/watch?v=vnrUIJMxZJ0	N/A
+https://www.youtube.com/watch?v=N9EBKp5nTzU	N/A
+https://www.youtube.com/watch?v=3WwYkqPctIQ	N/A
+https://www.youtube.com/watch?v=yAT0qYlD0UM	N/A
+https://www.youtube.com/watch?v=Dle5sNB1M8U	N/A
+https://www.youtube.com/watch?v=q9lUT75YU4M	N/A
+https://www.youtube.com/watch?v=7SidSvJcPd0	N/A
+https://www.youtube.com/watch?v=G8XMRZKOhG0	N/A
+https://www.youtube.com/watch?v=252slbrmk8M	N/A
+https://www.mendeley.com/catalogue/70f7e8f4-39bc-38fd-b300-28be9aac3226/	publication	2006
+https://www.reddit.com/r/functionalprogramming/comments/xix3v1	N/A
+https://citeseerx.ist.psu.edu/document?doi=deb6809f2b9e3208a481913b2b822680ca6b7127&repid=rep1&type=pdf	N/A
+https://discourse.haskell.org/t/why-shouldnt-i-make-my-monads-value-strict/8609	publication	2024-01-21
+https://zio.dev/reference/error-management/exceptional-and-unexceptional-effects	N/A
+https://bio.monix.io/docs/cats-effect	N/A
+https://sttp.softwaremill.com/_/downloads/en/v3.0.0/pdf/	N/A
+https://www.reddit.com/r/scala/comments/j6l4qx	N/A
+https://www.reddit.com/r/scala/comments/zjeab5	N/A
+https://www.reddit.com/r/scala/comments/yhajqa	N/A
+https://www.youtube.com/watch?v=TXxzMF14pxU	N/A
+https://www.youtube.com/watch?v=AOaE0-9MYVM	N/A
+https://www.youtube.com/watch?v=oFk8-a1FSP0	N/A
+https://www.youtube.com/watch?v=m9cu4xUvrUs	N/A
+https://www.youtube.com/watch?v=AEScmarqa80	N/A
+https://www.youtube.com/watch?v=J_9DjHMCPKM	N/A
+https://www.youtube.com/watch?v=HDlxoItyGZA	N/A
+https://www.youtube.com/watch?v=B1wb4fIdtn4	N/A
+https://www.youtube.com/watch?v=mkSHhsJXjdc	N/A
+https://www.youtube.com/watch?v=Q4OCmKRPUf8	N/A
+https://www.youtube.com/watch?v=vRnYCLy7C0o	N/A
+https://www.youtube.com/watch?v=38HJM0MdufY	N/A
+https://www.youtube.com/watch?v=OFFrw5aJzG4	N/A
+https://www.youtube.com/watch?v=ZNB2epqQhc8	N/A
+https://www.youtube.com/watch?v=A7CCGMxJyaM	N/A
+https://www.youtube.com/watch?v=wi97X8_JQUk	N/A
+https://www.youtube.com/watch?v=5PInsnw0puI	N/A
+https://www.youtube.com/watch?v=RzV-VWLPGmM	N/A
+https://www.youtube.com/watch?v=nEycZ8TMirk	N/A
+https://www.youtube.com/watch?v=TqJg4AuxEIQ	N/A
+https://www.youtube.com/watch?v=RRFbFC67IiY	N/A
+https://www.youtube.com/watch?v=y_QHSDOVJM8	N/A
+https://www.youtube.com/watch?v=uyqqoooKpmI	N/A
+https://zio.dev/reference/resource/	N/A
+https://zio.dev/1.0.18/reference/core/zio/	N/A
+https://typelevel.org/cats-effect/api/2.x/cats/effect/IO%24.html	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/timer	N/A
+https://zio.dev/zio-blocks/reference/resource-management/	N/A
+https://zio.dev/1.0.18/reference/resource/managed	N/A
+https://typelevel.org/Laika/downloads/laika-0.17-library.pdf	N/A
+https://typelevel.org/Laika/downloads/laika-0.18-library.pdf	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/ioapp	N/A
+https://typelevel.org/cats-effect/api/2.x/cats/effect/SyncIO.html	N/A
+https://zio.dev/1.0.18/reference/resource/	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/sync	N/A
+https://old.arrow-kt.io/docs/apidocs/arrow-core/arrow.core.continuations/-effect/	N/A
+https://typelevel.org/Laika/downloads/laika-1.x-sbt.pdf	N/A
+https://typelevel.org/cats-effect/docs/2.x/concurrency/deferred	N/A
+https://typelevel.org/cats-effect/docs/2.x/concurrency/mvar	N/A
+https://typelevel.org/cats-effect/docs/2.x/concurrency/overview	N/A
+https://typelevel.org/cats-effect/docs/2.x/concurrency/ref	N/A
+https://typelevel.org/cats-effect/docs/2.x/concurrency/semaphore	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/clock	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/contextshift	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/fiber	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/resource	N/A
+https://typelevel.org/cats-effect/docs/2.x/datatypes/syncio	N/A
+https://typelevel.org/cats-effect/docs/2.x/getting-started	N/A
+https://typelevel.org/cats-effect/docs/2.x/guides/testing	N/A
+https://typelevel.org/cats-effect/docs/2.x/guides/tracing	N/A
+https://typelevel.org/cats-effect/docs/2.x/guides/tutorial	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/async	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/bracket	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/concurrenteffect	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/concurrent	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/effect	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/liftio	N/A
+https://typelevel.org/cats-effect/docs/2.x/typeclasses/sync	N/A
+https://typelevel.org/cats-effect/docs/concurrency/basics	N/A
+https://typelevel.org/cats-effect/docs/concurrency/deferred	N/A
+https://typelevel.org/cats-effect/docs/concurrency/mvar	N/A
+https://typelevel.org/cats-effect/docs/concurrency/overview	N/A
+https://typelevel.org/cats-effect/docs/concurrency/ref	N/A
+https://typelevel.org/cats-effect/docs/concurrency/semaphore	N/A
+https://typelevel.org/cats-effect/docs/core/fiber-dumps	N/A
+https://typelevel.org/cats-effect/docs/core/io-local	N/A
+https://typelevel.org/cats-effect/docs/core/io-runtime-config	N/A
+https://typelevel.org/cats-effect/docs/core/starvation-and-tuning	N/A
+https://typelevel.org/cats-effect/docs/core/test-runtime	N/A
+https://typelevel.org/cats-effect/docs/datatypes/ioapp	N/A
+https://typelevel.org/cats-effect/docs/datatypes/resource	N/A
+https://typelevel.org/cats-effect/docs/guides/testing	N/A
+https://typelevel.org/cats-effect/docs/guides/tracing	N/A
+https://typelevel.org/cats-effect/docs/guides/tutorial	N/A
+https://typelevel.org/cats-effect/docs/schedulers	N/A
+https://typelevel.org/cats-effect/docs/std/console	N/A
+https://typelevel.org/cats-effect/docs/std/dispatcher	N/A
+https://typelevel.org/cats-effect/docs/std/hotswap	N/A
+https://typelevel.org/cats-effect/docs/std/supervisor	N/A
+https://typelevel.org/cats-effect/docs/thread-model	N/A
+https://typelevel.org/cats-effect/docs/tracing	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/async	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/bracket	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/concurrenteffect	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/concurrent	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/effect	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/liftio	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/monadcancel	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/spawn	N/A
+https://typelevel.org/cats-effect/docs/typeclasses/temporal	N/A
+https://typelevel.org/cats-effect/docs/next/concepts	N/A
+https://typelevel.org/cats-effect/docs/next/concurrency/basics	N/A
+https://typelevel.org/cats-effect/docs/next/concurrency/deferred	N/A
+https://typelevel.org/cats-effect/docs/next/concurrency/mvar	N/A
+https://typelevel.org/cats-effect/docs/next/concurrency/overview	N/A
+https://typelevel.org/cats-effect/docs/next/concurrency/ref	N/A
+https://typelevel.org/cats-effect/docs/next/concurrency/semaphore	N/A
+https://typelevel.org/cats-effect/docs/next/core/fiber-dumps	N/A
+https://typelevel.org/cats-effect/docs/next/core/io-local	N/A
+https://typelevel.org/cats-effect/docs/next/core/io-runtime-config	N/A
+https://typelevel.org/cats-effect/docs/next/core/starvation-and-tuning	N/A
+https://typelevel.org/cats-effect/docs/next/core/test-runtime	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/clock	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/contextshift	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/fiber	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/io	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/ioapp	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/resource	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/syncio	N/A
+https://typelevel.org/cats-effect/docs/next/datatypes/timer	N/A
+https://typelevel.org/cats-effect/docs/next/getting-started	N/A
+https://typelevel.org/cats-effect/docs/next/guides/testing	N/A
+https://typelevel.org/cats-effect/docs/next/guides/tracing	N/A
+https://typelevel.org/cats-effect/docs/next/guides/tutorial	N/A
+https://typelevel.org/cats-effect/docs/next/migration-guide	N/A
+https://typelevel.org/cats-effect/docs/next/recipes	N/A
+https://typelevel.org/cats-effect/docs/next/schedulers	N/A
+https://typelevel.org/cats-effect/docs/next/std/async-await	N/A
+https://typelevel.org/cats-effect/docs/next/std/backpressure	N/A
+https://typelevel.org/cats-effect/docs/next/std/console	N/A
+https://typelevel.org/cats-effect/docs/next/std/dispatcher	N/A
+https://typelevel.org/cats-effect/docs/next/std/hotswap	N/A
+https://typelevel.org/cats-effect/docs/next/std/resource	N/A
+https://typelevel.org/cats-effect/docs/next/std/supervisor	N/A
+https://typelevel.org/cats-effect/docs/next/thread-model	N/A
+https://typelevel.org/cats-effect/docs/next/tracing	N/A
+https://typelevel.org/cats-effect/docs/next/tutorial	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/async	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/bracket	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/concurrenteffect	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/concurrent	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/effect	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/liftio	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/monadcancel	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/spawn	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/sync	N/A
+https://typelevel.org/cats-effect/docs/next/typeclasses/temporal	N/A
+https://typelevel.org/cats-effect/en/index	N/A
+https://typelevel.org/cats-effect/en/resources	N/A
+https://typelevel.org/cats-effect/en/users	N/A
+https://typelevel.org/cats-effect/en/versions	N/A
+https://typelevel.org/cats-effect/docs/third-party-resources	N/A
+https://typelevel.org/cats-effect/docs/next/third-party-resources	N/A
+https://typelevel.org/cats-effect/docs/faq	N/A
+https://typelevel.org/cats-effect/docs/next/faq	N/A
+https://typelevel.org/cats-effect/docs/recipes	N/A
+https://typelevel.org/cats-effect/docs/std/async-await	N/A
+https://typelevel.org/cats-effect/docs/std/atomic-cell	N/A
+https://typelevel.org/cats-effect/docs/std/atomic-map	N/A
+https://typelevel.org/cats-effect/docs/std/backpressure	N/A
+https://typelevel.org/cats-effect/docs/std/countdown-latch	N/A
+https://typelevel.org/cats-effect/docs/std/cyclic-barrier	N/A
+https://typelevel.org/cats-effect/docs/std/deferred	N/A
+https://typelevel.org/cats-effect/docs/std/dequeue	N/A
+https://typelevel.org/cats-effect/docs/std/env	N/A
+https://typelevel.org/cats-effect/docs/std/keyed-mutex	N/A
+https://typelevel.org/cats-effect/docs/std/mapref	N/A
+https://typelevel.org/cats-effect/docs/std/mutex	N/A
+https://typelevel.org/cats-effect/docs/std/pqueue	N/A
+https://typelevel.org/cats-effect/docs/std/queue	N/A
+https://typelevel.org/cats-effect/docs/std/random	N/A
+https://typelevel.org/cats-effect/docs/std/ref	N/A
+https://typelevel.org/cats-effect/docs/std/semaphore	N/A
+https://typelevel.org/cats-effect/docs/next/std/atomic-cell	N/A
+https://typelevel.org/cats-effect/docs/next/std/atomic-map	N/A
+https://typelevel.org/cats-effect/docs/next/std/countdown-latch	N/A
+https://typelevel.org/cats-effect/docs/next/std/cyclic-barrier	N/A
+https://typelevel.org/cats-effect/docs/next/std/deferred	N/A
+https://typelevel.org/cats-effect/docs/next/std/dequeue	N/A
+https://typelevel.org/cats-effect/docs/next/std/env	N/A
+https://typelevel.org/cats-effect/docs/next/std/keyed-mutex	N/A
+https://typelevel.org/cats-effect/docs/next/std/mapref	N/A
+https://typelevel.org/cats-effect/docs/next/std/mutex	N/A
+https://typelevel.org/cats-effect/docs/next/std/pqueue	N/A
+https://typelevel.org/cats-effect/docs/next/std/queue	N/A
+https://typelevel.org/cats-effect/docs/next/std/random	N/A
+https://typelevel.org/cats-effect/docs/next/std/ref	N/A
+https://typelevel.org/cats-effect/docs/next/std/semaphore	N/A
+https://zio.dev/1.0.18/overview/	N/A
+https://zio.dev/1.0.18/overview/overview_background	N/A
+https://zio.dev/1.0.18/overview/overview_basic_concurrency	N/A
+https://zio.dev/1.0.18/overview/overview_basic_operations	N/A
+https://zio.dev/1.0.18/overview/overview_creating_effects	N/A
+https://zio.dev/1.0.18/overview/overview_handling_errors	N/A
+https://zio.dev/1.0.18/overview/overview_handling_resources	N/A
+https://zio.dev/1.0.18/overview/overview_platforms	N/A
+https://zio.dev/1.0.18/overview/overview_running_effects	N/A
+https://zio.dev/1.0.18/overview/overview_testing_effects	N/A
+https://zio.dev/1.0.18/reference/concurrency/	N/A
+https://zio.dev/1.0.18/reference/concurrency/hub	N/A
+https://zio.dev/1.0.18/reference/concurrency/promise	N/A
+https://zio.dev/1.0.18/reference/concurrency/queue	N/A
+https://zio.dev/1.0.18/reference/concurrency/ref	N/A
+https://zio.dev/1.0.18/reference/concurrency/refm	N/A
+https://zio.dev/1.0.18/reference/concurrency/semaphore	N/A
+https://zio.dev/1.0.18/reference/concurrency/zref	N/A
+https://zio.dev/1.0.18/reference/concurrency/zrefm	N/A
+https://zio.dev/1.0.18/reference/core/	N/A
+https://zio.dev/1.0.18/reference/core/cause	N/A
+https://zio.dev/1.0.18/reference/core/exit	N/A
+https://zio.dev/1.0.18/reference/core/io	N/A
+https://zio.dev/1.0.18/reference/core/rio	N/A
+https://zio.dev/1.0.18/reference/core/runtime	N/A
+https://zio.dev/1.0.18/reference/core/task	N/A
+https://zio.dev/1.0.18/reference/core/uio	N/A
+https://zio.dev/1.0.18/reference/core/urio	N/A
+https://zio.dev/1.0.18/reference/core/zio	N/A
+https://zio.dev/1.0.18/reference/fiber/	N/A
+https://zio.dev/1.0.18/reference/fiber/fiberid	N/A
+https://zio.dev/1.0.18/reference/fiber/fiberref	N/A
+https://zio.dev/1.0.18/reference/fiber/fiberstatus	N/A
+https://zio.dev/1.0.18/reference/resource/rmanaged	N/A
+https://zio.dev/1.0.18/reference/resource/task-managed	N/A
+https://zio.dev/1.0.18/reference/resource/umanaged	N/A
+https://zio.dev/1.0.18/reference/resource/urmanaged	N/A
+https://zio.dev/1.0.18/reference/resource/zmanaged	N/A
+https://zio.dev/overview/basic-concurrency	N/A
+https://zio.dev/overview/basic-operations	N/A
+https://zio.dev/overview/creating-effects	N/A
+https://zio.dev/overview/getting-started	N/A
+https://zio.dev/overview/handling-errors	N/A
+https://zio.dev/overview/handling-resources	N/A
+https://zio.dev/overview/performance	N/A
+https://zio.dev/overview/platforms	N/A
+https://zio.dev/overview/running-effects	N/A
+https://zio.dev/overview/summary	N/A
+https://zio.dev/reference/concurrency/	N/A
+https://zio.dev/reference/concurrency/hub	N/A
+https://zio.dev/reference/concurrency/promise	N/A
+https://zio.dev/reference/concurrency/queue	N/A
+https://zio.dev/reference/concurrency/refsynchronized	N/A
+https://zio.dev/reference/concurrency/semaphore	N/A
+https://zio.dev/reference/core/	N/A
+https://zio.dev/reference/core/cause	N/A
+https://zio.dev/reference/core/exit	N/A
+https://zio.dev/reference/core/runtime	N/A
+https://zio.dev/reference/core/zio/io	N/A
+https://zio.dev/reference/core/zio/rio	N/A
+https://zio.dev/reference/core/zio/uio	N/A
+https://zio.dev/reference/core/zio/urio	N/A
+https://zio.dev/reference/core/zioapp	N/A
+https://zio.dev/reference/fiber/	N/A
+https://zio.dev/reference/fiber/fiber.md	N/A
+https://zio.dev/reference/fiber/fiberid	N/A
+https://zio.dev/reference/fiber/fiberstatus	N/A
+https://zio.dev/reference/interruption/	N/A
+https://zio.dev/reference/resource/cached	N/A
+https://zio.dev/reference/resource/scope	N/A
+https://zio.dev/reference/resource/scopedref	N/A
+https://zio.dev/reference/resource/zkeyedpool	N/A
+https://zio.dev/reference/resource/zpool	N/A
+https://zio.dev/zio-blocks/reference/resource-management/defer-handle	N/A
+https://zio.dev/zio-blocks/reference/resource-management/finalization	N/A
+https://zio.dev/zio-blocks/reference/resource-management/finalizer	N/A
+https://zio.dev/zio-blocks/reference/resource-management/resource	N/A
+https://zio.dev/zio-blocks/reference/resource-management/scope	N/A
+https://zio.dev/zio-blocks/reference/resource-management/unscoped	N/A
+https://zio.dev/zio-blocks/reference/resource-management/wire	N/A
+https://zio.dev/reference/error-management/	N/A
+https://zio.dev/reference/error-management/best-practices/algebraic-data-types	N/A
+https://zio.dev/reference/error-management/best-practices/logging-errors	N/A
+https://zio.dev/reference/error-management/best-practices/unexpected-errors	N/A
+https://zio.dev/reference/error-management/best-practices/union-types	N/A
+https://zio.dev/reference/error-management/error-accumulation	N/A
+https://zio.dev/reference/error-management/examples	N/A
+https://zio.dev/reference/error-management/expected-and-unexpected-errors	N/A
+https://zio.dev/reference/error-management/imperative-vs-declarative	N/A
+https://zio.dev/reference/error-management/operations/chaining-effects-based-on-errors	N/A
+https://zio.dev/reference/error-management/operations/converting-defects-to-failures	N/A
+https://zio.dev/reference/error-management/operations/error-refinement	N/A
+https://zio.dev/reference/error-management/operations/exposing-errors-in-the-success-channel	N/A
+https://zio.dev/reference/error-management/operations/exposing-the-cause-in-the-success-channel	N/A
+https://zio.dev/reference/error-management/operations/filtering-the-success-channel	N/A
+https://zio.dev/reference/error-management/operations/flattening-optional-error-types	N/A
+https://zio.dev/reference/error-management/operations/flipping-error-and-success-channels	N/A
+https://zio.dev/reference/error-management/operations/map-operations	N/A
+https://zio.dev/reference/error-management/operations/merging-the-error-channel-into-the-success-channel	N/A
+https://zio.dev/reference/error-management/operations/rejecting-some-success-values	N/A
+https://zio.dev/reference/error-management/operations/tapping-errors	N/A
+https://zio.dev/reference/error-management/operations/zooming-in-on-nested-values	N/A
+https://zio.dev/reference/error-management/recovering/catching	N/A
+https://zio.dev/reference/error-management/recovering/fallback	N/A
+https://zio.dev/reference/error-management/recovering/folding	N/A
+https://zio.dev/reference/error-management/recovering/retrying	N/A
+https://zio.dev/reference/error-management/recovering/sandboxing	N/A
+https://zio.dev/reference/error-management/recovering/timing-out	N/A
+https://zio.dev/reference/error-management/sequential-and-parallel-errors	N/A
+https://zio.dev/reference/error-management/typed-errors-guarantees	N/A
+https://zio.dev/reference/error-management/types/	N/A
+https://zio.dev/reference/error-management/types/defects	N/A
+https://zio.dev/reference/error-management/types/failures	N/A
+https://zio.dev/reference/error-management/types/fatals	N/A
+https://zio.dev/1.0.18/reference/stream/	N/A
+https://zio.dev/1.0.18/reference/stream/sink	N/A
+https://zio.dev/1.0.18/reference/stream/subscription-ref	N/A
+https://zio.dev/1.0.18/reference/stream/transducer	N/A
+https://zio.dev/1.0.18/reference/stream/ustream	N/A
+https://zio.dev/1.0.18/reference/stream/zsink	N/A
+https://zio.dev/1.0.18/reference/stream/zstream	N/A
+https://zio.dev/1.0.18/reference/stream/ztransducer	N/A
+https://zio.dev/reference/stream/	N/A
+https://zio.dev/reference/stream/chunk	N/A
+https://zio.dev/reference/stream/installation	N/A
+https://zio.dev/reference/stream/subscription-ref	N/A
+https://zio.dev/reference/stream/zchannel/	N/A
+https://zio.dev/reference/stream/zchannel/channel-interruption	N/A
+https://zio.dev/reference/stream/zchannel/channel-operations	N/A
+https://zio.dev/reference/stream/zchannel/composing-channels	N/A
+https://zio.dev/reference/stream/zchannel/creating-channels	N/A
+https://zio.dev/reference/stream/zchannel/running-a-channel	N/A
+https://zio.dev/reference/stream/zpipeline	N/A
+https://zio.dev/reference/stream/zsink/	N/A
+https://zio.dev/reference/stream/zsink/creating-sinks	N/A
+https://zio.dev/reference/stream/zsink/leftovers	N/A
+https://zio.dev/reference/stream/zsink/operations	N/A
+https://zio.dev/reference/stream/zsink/parallel-operators	N/A
+https://zio.dev/reference/stream/zstream/	N/A
+https://zio.dev/reference/stream/zstream/consuming-streams	N/A
+https://zio.dev/reference/stream/zstream/creating-zio-streams	N/A
+https://zio.dev/reference/stream/zstream/error-handling	N/A
+https://zio.dev/reference/stream/zstream/operations	N/A
+https://zio.dev/reference/stream/zstream/resourceful-streams	N/A
+https://zio.dev/reference/stream/zstream/scheduling	N/A
+https://zio.dev/reference/stream/zstream/streams-are-chunked-by-default	N/A
+https://zio.dev/reference/stream/zstream/type-aliases	N/A
+https://zio.dev/zio-blocks/reference/streams	N/A
+https://zio.dev/reference/observability/logging	N/A
+https://zio.dev/reference/observability/metrics/	N/A
+https://zio.dev/reference/observability/metrics/counter	N/A
+https://zio.dev/reference/observability/metrics/frequency	N/A
+https://zio.dev/reference/observability/metrics/gauge	N/A
+https://zio.dev/reference/observability/metrics/histogram	N/A
+https://zio.dev/reference/observability/metrics/jvm	N/A
+https://zio.dev/reference/observability/metrics/metriclabel	N/A
+https://zio.dev/reference/observability/metrics/summary	N/A
+https://zio.dev/reference/observability/supervisor	N/A
+https://zio.dev/reference/observability/tracing	N/A
+https://effect-ts.github.io/effect/effect/Fiber.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Scope.ts.html	N/A
+https://app.unpkg.com/effect%403.13.2/files/dist/dts/Runtime.d.ts	N/A
+https://effect-ts.github.io/effect/effect/Layer.ts.html	N/A
+https://www.npmjs.com/package/effect?activeTab=readme	N/A
+https://effect-ts.github.io/effect/effect/FiberHandle.ts.html	N/A
+https://www.reddit.com/r/functionalprogramming/comments/19f8s6b	N/A
+https://www.reddit.com/r/typescript/comments/1ns6vma	N/A
+https://www.reddit.com/r/typescript/comments/1cf0a2n	N/A
+https://www.reddit.com/r/functionalprogramming/comments/xlyo5f	N/A
+https://www.reddit.com/r/typescript/comments/14ub0ik	N/A
+https://effect-ts.github.io/effect/effect/Cause.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Channel.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Clock.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Console.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Deferred.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Exit.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Logger.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Metric.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Pool.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Queue.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Ref.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RequestResolver.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Resource.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Runtime.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Schedule.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Sink.ts.html	N/A
+https://effect-ts.github.io/effect/effect/STM.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Stream.ts.html	N/A
+https://effect-ts.github.io/effect/effect/SubscriptionRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Supervisor.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TArray.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TMap.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TPubSub.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TQueue.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Tracer.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TSet.ts.html	N/A
+https://effect.website/	N/A
+https://effect.website/events/effect-days	N/A
+https://webflow.effect.website/events/effect-days	N/A
+https://effect.website/events/effect-days/speakers/antoine-coulon	N/A
+https://effect.website/play	N/A
+https://webflow.effect.website/events/effect-days-2024/effect-days	N/A
+https://effect.website/events/effect-days/schedule-2025	N/A
+https://www.youtube.com/watch?v=Lz2J1NBnHK4	N/A
+https://www.youtube.com/watch?v=VR_MQH3opc8	N/A
+https://www.youtube.com/watch?v=7jOD5okJC00	N/A
+https://www.youtube.com/watch?v=Oy7fr2_WBFI	N/A
+https://www.youtube.com/watch?v=4lEDdMuTDJg	N/A
+https://www.youtube.com/watch?v=nyvB6nRe5x0	N/A
+https://effect-ts.github.io/effect/effect/Cache.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ConfigProvider.ts.html	N/A
+https://effect-ts.github.io/effect/effect/DefaultServices.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Duration.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ExecutionPlan.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberId.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberMap.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberRefs.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberSet.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberStatus.ts.html	N/A
+https://effect-ts.github.io/effect/effect/GlobalValue.ts.html	N/A
+https://effect-ts.github.io/effect/effect/KeyedPool.ts.html	N/A
+https://effect-ts.github.io/effect/effect/LayerMap.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ManagedRuntime.ts.html	N/A
+https://effect-ts.github.io/effect/effect/PartitionedSemaphore.ts.html	N/A
+https://effect-ts.github.io/effect/effect/PubSub.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Random.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RateLimiter.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RcRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Reloadable.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Request.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RuntimeFlags.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RuntimeFlagsPatch.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ScheduleDecision.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ScheduleInterval.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ScheduleIntervals.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ScopedCache.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ScopedRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/SynchronizedRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestAnnotation.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestClock.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestConfig.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestContext.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestServices.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Config.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ConfigError.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ConfigProviderPathPatch.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Context.ts.html	N/A
+https://effect-ts.github.io/effect/effect/FiberRefsPatch.ts.html	N/A
+https://effect-ts.github.io/effect/effect/LogLevel.ts.html	N/A
+https://effect-ts.github.io/effect/effect/LogSpan.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricBoundaries.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricHook.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricKey.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricKeyType.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricLabel.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricPair.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricPolling.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricRegistry.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MetricState.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MutableQueue.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MutableRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RequestBlock.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Scheduler.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Streamable.ts.html	N/A
+https://effect-ts.github.io/effect/effect/StreamEmit.ts.html	N/A
+https://effect-ts.github.io/effect/effect/StreamHaltStrategy.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TDeferred.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TPriorityQueue.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TRandom.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TSemaphore.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TSubscriptionRef.ts.html	N/A
+https://effect-ts.github.io/effect/effect/UpstreamPullRequest.ts.html	N/A
+https://effect-ts.github.io/effect/effect/UpstreamPullStrategy.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ChildExecutorDecision.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Cron.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Effectable.ts.html	N/A
+https://effect-ts.github.io/effect/effect/ExecutionStrategy.ts.html	N/A
+https://effect-ts.github.io/effect/effect/GroupBy.ts.html	N/A
+https://effect-ts.github.io/effect/effect/index.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Mailbox.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MergeDecision.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MergeState.ts.html	N/A
+https://effect-ts.github.io/effect/effect/MergeStrategy.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Micro.ts.html	N/A
+https://effect-ts.github.io/effect/effect/RcMap.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Readable.ts.html	N/A
+https://effect-ts.github.io/effect/effect/SingleProducerAsyncInput.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Subscribable.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Take.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestAnnotationMap.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestAnnotations.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestLive.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TestSized.ts.html	N/A
+https://effect-ts.github.io/effect/effect/TReentrantLock.ts.html	N/A
+https://effect-ts.github.io/effect/effect/Chunk.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Command.ts.html	N/A
+https://effect-ts.github.io/effect/platform/CommandExecutor.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Error.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Etag.ts.html	N/A
+https://effect-ts.github.io/effect/platform/FileSystem.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpClient.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpPlatform.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform/KeyValueStore.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Multipart.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Path.ts.html	N/A
+https://effect-ts.github.io/effect/platform/PlatformConfigProvider.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Runtime.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Socket.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Template.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Terminal.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Worker.ts.html	N/A
+https://effect-ts.github.io/effect/platform/WorkerError.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Cookies.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Effectify.ts.html	N/A
+https://effect-ts.github.io/effect/platform/FetchHttpClient.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Headers.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApi.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiBuilder.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiClient.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiEndpoint.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiError.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiGroup.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiMiddleware.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiScalar.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiSecurity.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApiSwagger.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpApp.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpBody.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpClientError.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpClientRequest.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpClientResponse.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpIncomingMessage.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpLayerRouter.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpMethod.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpMiddleware.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpMultiplex.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpRouter.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpServerError.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpServerRequest.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpServerRespondable.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpServerResponse.ts.html	N/A
+https://effect-ts.github.io/effect/platform/HttpTraceContext.ts.html	N/A
+https://effect-ts.github.io/effect/platform/index.ts.html	N/A
+https://effect-ts.github.io/effect/platform/MsgPack.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Ndjson.ts.html	N/A
+https://effect-ts.github.io/effect/platform/OpenApi.ts.html	N/A
+https://effect-ts.github.io/effect/platform/PlatformLogger.ts.html	N/A
+https://effect-ts.github.io/effect/platform/SocketServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Transferable.ts.html	N/A
+https://effect-ts.github.io/effect/platform/Url.ts.html	N/A
+https://effect-ts.github.io/effect/platform/UrlParams.ts.html	N/A
+https://effect-ts.github.io/effect/platform/WorkerRunner.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserHttpClient.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserKeyValueStore.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserRuntime.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserStream.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserWorker.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/BrowserWorkerRunner.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/Clipboard.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/Geolocation.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/index.ts.html	N/A
+https://effect-ts.github.io/effect/platform-browser/Permissions.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunClusterHttp.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunClusterSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunCommandExecutor.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunContext.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunFileSystem.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunFileSystem/ParcelWatcher.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunHttpPlatform.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunHttpServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunHttpServerRequest.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunKeyValueStore.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunMultipart.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunPath.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunRuntime.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunSink.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunSocketServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunStream.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunTerminal.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunWorker.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/BunWorkerRunner.ts.html	N/A
+https://effect-ts.github.io/effect/platform-bun/index.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/index.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeClusterHttp.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeClusterSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeCommandExecutor.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeContext.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeFileSystem.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeFileSystem/ParcelWatcher.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeHttpClient.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeHttpPlatform.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeHttpServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeHttpServerRequest.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeKeyValueStore.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeMultipart.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodePath.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeRuntime.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeSink.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeSocketServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeStream.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeTerminal.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeWorker.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/NodeWorkerRunner.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node/Undici.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeClusterSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeCommandExecutor.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeFileSystem.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeFileSystem/ParcelWatcher.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeKeyValueStore.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeMultipart.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodePath.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeRuntime.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeSink.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeSocket.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeSocketServer.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeStream.ts.html	N/A
+https://effect-ts.github.io/effect/platform-node-shared/NodeTerminal.ts.html	N/A
+https://discuss.ocaml.org/t/about-lwt-concurrency-library/150	publication	2017-05-15
+https://ocaml-multicore.github.io/eio/eio/Eio/Fiber/index.html	N/A
+https://opam.ocaml.org/packages/cohttp-lwt/	N/A
+https://kcsrk.info/slides/ocaml22_keynote.pdf	N/A
+https://www.irif.fr/~vouillon/publi/lwt.pdf	N/A
+https://arxiv.org/abs/1803.02796	N/A
+https://www.reddit.com/r/ocaml/comments/16d7twc	N/A
+https://www.reddit.com/r/ocaml/comments/k0mq0f	N/A
+https://www.reddit.com/r/ocaml/comments/1c7obmu	N/A
+https://www.youtube.com/watch?v=jr4LsCVQBj4	N/A
+https://www.youtube.com/watch?v=zfGlQZ2pkss	N/A
+https://www.youtube.com/watch?v=iVpsVqd6eNE	N/A
+https://www.youtube.com/watch?v=4Hy5AEg43jc	N/A
+https://www.youtube.com/watch?v=OhV5knHKSBw	N/A
+https://www.youtube.com/watch?v=YDGJ-E7leJo	N/A
+https://www.youtube.com/watch?v=41F1x2lD54w	N/A
+https://www.youtube.com/watch?v=bocj6ReCq5w	N/A
+https://www.youtube.com/watch?v=abDWZ9D8kEE	N/A
+https://www.youtube.com/watch?v=hbnss4U5xps	N/A
+https://ocaml.org/p/async/latest	N/A
+https://ocaml.org/p/async/v0.13.0	N/A
+https://ocaml.org/p/async/v0.14.0	N/A
+https://ocaml.org/p/async/v0.15.0	N/A
+https://ocaml.org/p/async/v0.16.0	N/A
+https://ocaml.org/p/async/v0.17.0	N/A
+https://ocaml.org/p/async_unix/latest	N/A
+https://ocaml.org/p/async_unix/v0.13.1	N/A
+https://ocaml.org/p/async_unix/v0.14.0	N/A
+https://ocaml.org/p/async_unix/v0.15.0	N/A
+https://ocaml.org/p/async_unix/v0.16.0	N/A
+https://ocaml.org/p/async_unix/v0.17.0	N/A
+https://ocaml.org/p/eio/0.1	N/A
+https://ocaml.org/p/eio/0.10	N/A
+https://ocaml.org/p/eio/0.11	N/A
+https://ocaml.org/p/eio/0.12	N/A
+https://ocaml.org/p/eio/0.14	N/A
+https://ocaml.org/p/eio/0.15	N/A
+https://ocaml.org/p/eio/0.2	N/A
+https://ocaml.org/p/eio/0.3	N/A
+https://ocaml.org/p/eio/0.4	N/A
+https://ocaml.org/p/eio/0.5	N/A
+https://ocaml.org/p/eio/0.6	N/A
+https://ocaml.org/p/eio/0.7	N/A
+https://ocaml.org/p/eio/0.8.1	N/A
+https://ocaml.org/p/eio/0.9	N/A
+https://ocaml.org/p/eio/1.0	N/A
+https://ocaml.org/p/eio/1.2	N/A
+https://ocaml.org/p/eio/1.3	N/A
+https://ocaml.org/p/eio/latest	N/A
+https://ocaml.org/p/lwt/4.2.0	N/A
+https://ocaml.org/p/lwt/4.2.1	N/A
+https://ocaml.org/p/lwt/4.2.1-1	N/A
+https://ocaml.org/p/lwt/4.3.0	N/A
+https://ocaml.org/p/lwt/4.3.1	N/A
+https://ocaml.org/p/lwt/4.4.0	N/A
+https://ocaml.org/p/lwt/4.5.0	N/A
+https://ocaml.org/p/lwt/5.0.0	N/A
+https://ocaml.org/p/lwt/5.0.1	N/A
+https://ocaml.org/p/lwt/5.1.0	N/A
+https://ocaml.org/p/lwt/5.1.1	N/A
+https://ocaml.org/p/lwt/5.1.2	N/A
+https://ocaml.org/p/lwt/5.10.0	N/A
+https://ocaml.org/p/lwt/5.10.1	N/A
+https://ocaml.org/p/lwt/5.2.0	N/A
+https://ocaml.org/p/lwt/5.3.0	N/A
+https://ocaml.org/p/lwt/5.4.0	N/A
+https://ocaml.org/p/lwt/5.4.1	N/A
+https://ocaml.org/p/lwt/5.4.2	N/A
+https://ocaml.org/p/lwt/5.5.0	N/A
+https://ocaml.org/p/lwt/5.6.0	N/A
+https://ocaml.org/p/lwt/5.6.1	N/A
+https://ocaml.org/p/lwt/5.7.0	N/A
+https://ocaml.org/p/lwt/5.8.0	N/A
+https://ocaml.org/p/lwt/5.8.1	N/A
+https://ocaml.org/p/lwt/5.9.0	N/A
+https://ocaml.org/p/lwt/5.9.1	N/A
+https://ocaml.org/p/lwt/5.9.2	N/A
+https://ocaml.org/p/lwt/6.0.0	N/A
+https://ocaml.org/p/lwt/6.0.0~alpha00	N/A
+https://ocaml.org/p/lwt/6.0.0~beta01	N/A
+https://ocaml.org/p/lwt/6.1.0	N/A
+https://ocaml.org/p/lwt/6.1.1	N/A
+https://ocaml.org/p/lwt/6.1.2	N/A
+https://ocaml.org/p/lwt/latest	N/A
+https://ocaml.org/p/async_kernel/latest	N/A
+https://ocaml.org/p/async_kernel/v0.13.0	N/A
+https://ocaml.org/p/async_kernel/v0.14.0	N/A
+https://ocaml.org/p/async_kernel/v0.15.0	N/A
+https://ocaml.org/p/async_kernel/v0.16.0	N/A
+https://ocaml.org/p/async_kernel/v0.17.0	N/A
+https://ocaml.org/p/eio_linux/0.1	N/A
+https://ocaml.org/p/eio_linux/0.10	N/A
+https://ocaml.org/p/eio_linux/0.11	N/A
+https://ocaml.org/p/eio_linux/0.12	N/A
+https://ocaml.org/p/eio_linux/0.13	N/A
+https://ocaml.org/p/eio_linux/0.14	N/A
+https://ocaml.org/p/eio_linux/0.15	N/A
+https://ocaml.org/p/eio_linux/0.2	N/A
+https://ocaml.org/p/eio_linux/0.3	N/A
+https://ocaml.org/p/eio_linux/0.4	N/A
+https://ocaml.org/p/eio_linux/0.5	N/A
+https://ocaml.org/p/eio_linux/0.6	N/A
+https://ocaml.org/p/eio_linux/0.7	N/A
+https://ocaml.org/p/eio_linux/0.8.1	N/A
+https://ocaml.org/p/eio_linux/0.9	N/A
+https://ocaml.org/p/eio_linux/1.0	N/A
+https://ocaml.org/p/eio_linux/1.1	N/A
+https://ocaml.org/p/eio_linux/1.2	N/A
+https://ocaml.org/p/eio_linux/1.3	N/A
+https://ocaml.org/p/eio_linux/latest	N/A
+https://ocaml.org/p/eio_main/0.10	N/A
+https://ocaml.org/p/eio_main/0.11	N/A
+https://ocaml.org/p/eio_main/0.12	N/A
+https://ocaml.org/p/eio_main/0.13	N/A
+https://ocaml.org/p/eio_main/0.14	N/A
+https://ocaml.org/p/eio_main/0.15	N/A
+https://ocaml.org/p/eio_main/0.9	N/A
+https://ocaml.org/p/eio_main/1.0	N/A
+https://ocaml.org/p/eio_main/1.1	N/A
+https://ocaml.org/p/eio_main/1.2	N/A
+https://ocaml.org/p/eio_main/1.3	N/A
+https://ocaml.org/p/eio_main/latest	N/A
+https://ocaml.org/p/eio_posix/0.10	N/A
+https://ocaml.org/p/eio_posix/0.11	N/A
+https://ocaml.org/p/eio_posix/0.12	N/A
+https://ocaml.org/p/eio_posix/0.13	N/A
+https://ocaml.org/p/eio_posix/0.14	N/A
+https://ocaml.org/p/eio_posix/0.15	N/A
+https://ocaml.org/p/eio_posix/0.9	N/A
+https://ocaml.org/p/eio_posix/1.0	N/A
+https://ocaml.org/p/eio_posix/1.1	N/A
+https://ocaml.org/p/eio_posix/1.2	N/A
+https://ocaml.org/p/eio_posix/1.3	N/A
+https://ocaml.org/p/eio_posix/latest	N/A
+https://ocaml.org/p/eio_windows/0.10	N/A
+https://ocaml.org/p/eio_windows/0.11	N/A
+https://ocaml.org/p/eio_windows/0.12	N/A
+https://ocaml.org/p/eio_windows/0.13	N/A
+https://ocaml.org/p/eio_windows/0.14	N/A
+https://ocaml.org/p/eio_windows/0.15	N/A
+https://ocaml.org/p/eio_windows/1.0	N/A
+https://ocaml.org/p/eio_windows/1.1	N/A
+https://ocaml.org/p/eio_windows/1.2	N/A
+https://ocaml.org/p/eio_windows/1.3	N/A
+https://ocaml.org/p/eio_windows/latest	N/A
+https://ocaml.org/p/lwt_ppx/1.0.0	N/A
+https://ocaml.org/p/lwt_ppx/1.0.1	N/A
+https://ocaml.org/p/lwt_ppx/1.1.0	N/A
+https://ocaml.org/p/lwt_ppx/1.2.0	N/A
+https://ocaml.org/p/lwt_ppx/1.2.1	N/A
+https://ocaml.org/p/lwt_ppx/1.2.2	N/A
+https://ocaml.org/p/lwt_ppx/1.2.3	N/A
+https://ocaml.org/p/lwt_ppx/1.2.4	N/A
+https://ocaml.org/p/lwt_ppx/2.0.0	N/A
+https://ocaml.org/p/lwt_ppx/2.0.1	N/A
+https://ocaml.org/p/lwt_ppx/2.0.2	N/A
+https://ocaml.org/p/lwt_ppx/2.0.3	N/A
+https://ocaml.org/p/lwt_ppx/2.1.0	N/A
+https://ocaml.org/p/lwt_ppx/5.8.0	N/A
+https://ocaml.org/p/lwt_ppx/5.8.1	N/A
+https://ocaml.org/p/lwt_ppx/5.9.1	N/A
+https://ocaml.org/p/lwt_ppx/5.9.2	N/A
+https://ocaml.org/p/lwt_ppx/5.9.3	N/A
+https://ocaml.org/p/lwt_ppx/6.0.0	N/A
+https://ocaml.org/p/lwt_ppx/6.0.0~beta01	N/A
+https://ocaml.org/p/lwt_ppx/6.1.0	N/A
+https://ocaml.org/p/lwt_ppx/latest	N/A
+https://ocaml.org/p/lwt_react/1.0.1	N/A
+https://ocaml.org/p/lwt_react/1.1.0	N/A
+https://ocaml.org/p/lwt_react/1.1.1	N/A
+https://ocaml.org/p/lwt_react/1.1.2	N/A
+https://ocaml.org/p/lwt_react/1.1.3	N/A
+https://ocaml.org/p/lwt_react/1.1.4	N/A
+https://ocaml.org/p/lwt_react/1.1.5	N/A
+https://ocaml.org/p/lwt_react/1.2.0	N/A
+https://ocaml.org/p/lwt_react/latest	N/A
+https://ocaml.org/p/cohttp-eio/6.0.0	N/A
+https://ocaml.org/p/cohttp-eio/6.0.0~alpha2	N/A
+https://ocaml.org/p/cohttp-eio/6.0.0~beta2	N/A
+https://ocaml.org/p/cohttp-eio/6.1.0	N/A
+https://ocaml.org/p/cohttp-eio/6.1.1	N/A
+https://ocaml.org/p/cohttp-eio/6.2.1	N/A
+https://ocaml.org/p/cohttp-eio/latest	N/A
+https://ocaml.org/p/cohttp-lwt/1.2.0	N/A
+https://ocaml.org/p/cohttp-lwt/2.1.3	N/A
+https://ocaml.org/p/cohttp-lwt/2.5.8	N/A
+https://ocaml.org/p/cohttp-lwt/4.0.0	N/A
+https://ocaml.org/p/cohttp-lwt/4.1.2	N/A
+https://ocaml.org/p/cohttp-lwt/5.1.0	N/A
+https://ocaml.org/p/cohttp-lwt/5.3.0	N/A
+https://ocaml.org/p/cohttp-lwt/6.0.0	N/A
+https://ocaml.org/p/cohttp-lwt/6.0.0~beta2	N/A
+https://ocaml.org/p/cohttp-lwt/6.1.0	N/A
+https://ocaml.org/p/cohttp-lwt/6.1.1	N/A
+https://ocaml.org/p/cohttp-lwt/6.2.1	N/A
+https://ocaml.org/p/cohttp-lwt/latest	N/A
+https://ocaml.org/p/cohttp-lwt-unix/1.2.0	N/A
+https://ocaml.org/p/cohttp-lwt-unix/2.1.3	N/A
+https://ocaml.org/p/cohttp-lwt-unix/2.5.8	N/A
+https://ocaml.org/p/cohttp-lwt-unix/4.0.0	N/A
+https://ocaml.org/p/cohttp-lwt-unix/4.1.2	N/A
+https://ocaml.org/p/cohttp-lwt-unix/5.1.0	N/A
+https://ocaml.org/p/cohttp-lwt-unix/5.3.0	N/A
+https://ocaml.org/p/cohttp-lwt-unix/6.0.0	N/A
+https://ocaml.org/p/cohttp-lwt-unix/6.0.0~beta2	N/A
+https://ocaml.org/p/cohttp-lwt-unix/6.1.0	N/A
+https://ocaml.org/p/cohttp-lwt-unix/6.1.1	N/A
+https://ocaml.org/p/cohttp-lwt-unix/6.2.1	N/A
+https://ocaml.org/p/cohttp-lwt-unix/latest	N/A
+https://ocaml.org/p/conduit-lwt/1.3.0	N/A
+https://ocaml.org/p/conduit-lwt/1.4.0	N/A
+https://ocaml.org/p/conduit-lwt/1.5.0	N/A
+https://ocaml.org/p/conduit-lwt/2.0.2	N/A
+https://ocaml.org/p/conduit-lwt/2.1.0	N/A
+https://ocaml.org/p/conduit-lwt/2.3.0	N/A
+https://ocaml.org/p/conduit-lwt/4.0.2	N/A
+https://ocaml.org/p/conduit-lwt/6.1.0	N/A
+https://ocaml.org/p/conduit-lwt/6.2.2	N/A
+https://ocaml.org/p/conduit-lwt/6.2.3	N/A
+https://ocaml.org/p/conduit-lwt/7.0.0	N/A
+https://ocaml.org/p/conduit-lwt/7.1.0	N/A
+https://ocaml.org/p/conduit-lwt/8.0.0	N/A
+https://ocaml.org/p/conduit-lwt/latest	N/A
+https://ocaml.org/p/conduit-lwt-unix/1.3.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/1.4.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/1.5.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/2.0.2	N/A
+https://ocaml.org/p/conduit-lwt-unix/2.2.2	N/A
+https://ocaml.org/p/conduit-lwt-unix/2.3.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/4.0.2	N/A
+https://ocaml.org/p/conduit-lwt-unix/6.1.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/6.2.3	N/A
+https://ocaml.org/p/conduit-lwt-unix/7.0.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/8.0.0	N/A
+https://ocaml.org/p/conduit-lwt-unix/latest	N/A
+https://ocaml.org/p/eio-ssl/0.1.0	N/A
+https://ocaml.org/p/eio-ssl/0.1.1	N/A
+https://ocaml.org/p/eio-ssl/0.2.0	N/A
+https://ocaml.org/p/eio-ssl/0.3.0	N/A
+https://ocaml.org/p/eio-ssl/latest	N/A
+https://ocaml.org/p/tls-lwt/0.16.0	N/A
+https://ocaml.org/p/tls-lwt/0.17.3	N/A
+https://ocaml.org/p/tls-lwt/0.17.5	N/A
+https://ocaml.org/p/tls-lwt/1.0.4	N/A
+https://ocaml.org/p/tls-lwt/2.0.1	N/A
+https://ocaml.org/p/tls-lwt/2.0.2	N/A
+https://ocaml.org/p/tls-lwt/2.0.3	N/A
+https://ocaml.org/p/tls-lwt/2.0.4	N/A
+https://ocaml.org/p/tls-lwt/2.1.0	N/A
+https://ocaml.org/p/tls-lwt/2.1.1	N/A
+https://ocaml.org/p/tls-lwt/latest	N/A
+https://ocaml.org/p/lwt_eio/0.1	N/A
+https://ocaml.org/p/lwt_eio/0.2	N/A
+https://ocaml.org/p/lwt_eio/0.3	N/A
+https://ocaml.org/p/lwt_eio/0.4	N/A
+https://ocaml.org/p/lwt_eio/0.5	N/A
+https://ocaml.org/p/lwt_eio/0.5.1	N/A
+https://ocaml.org/p/lwt_eio/0.6	N/A
+https://ocaml.org/p/lwt_eio/latest	N/A
+https://ocaml.org/p/picos/0.1.0	N/A
+https://ocaml.org/p/picos/0.3.0	N/A
+https://ocaml.org/p/picos/0.4.0	N/A
+https://ocaml.org/p/picos/0.5.0	N/A
+https://ocaml.org/p/picos/0.6.0	N/A
+https://ocaml.org/p/picos/latest	N/A
+https://ocaml.org/p/picos_io/0.5.0	N/A
+https://ocaml.org/p/picos_io/0.6.0	N/A
+https://ocaml.org/p/picos_io/latest	N/A
+https://hopac.github.io/Hopac/Hopac.html	N/A
+https://www.oreilly.com/library/view/f-high-performance/9781786468079/ch04s03.html	N/A
+https://arxiv.org/abs/1512.01896	N/A
+https://uu.diva-portal.org/smash/get/diva2%3A1502080/FULLTEXT01.pdf	N/A
+https://mbrace.io/mbrace-plos.pdf	N/A
+https://www.reddit.com/r/fsharp/comments/1rkd4y7	N/A
+https://arxiv.org/abs/1511.00511	N/A
+https://www.reddit.com/r/fsharp/comments/en1rqb	N/A
+https://www.reddit.com/r/fsharp/comments/tfj24n	N/A
+https://www.reddit.com/r/fsharp/comments/18s4ns5	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.30-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.31-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.32-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.33-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.34-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.35-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.36-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.37-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.38-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.39-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.0.40-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.1.0-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.1.15-alpha	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.2.0-beta	N/A
+https://www.nuget.org/packages/FSharp.FIO/0.2.1-beta	N/A
+https://www.nuget.org/packages/Hopac/0.0.0	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.1	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.10	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.11	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.12	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.13	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.2	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.21	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.22	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.23	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.24	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.25	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.26	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.27	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.28	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.29	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.3	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.30	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.31	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.32	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.33	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.34	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.35	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.36	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.37	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.38	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.39	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.4	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.40	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.41	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.42	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.43	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.44	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.45	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.46	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.47	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.48	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.5	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.6	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.7	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.8	N/A
+https://www.nuget.org/packages/Hopac/0.0.0.9	N/A
+https://www.nuget.org/packages/Hopac/0.1.0	N/A
+https://www.nuget.org/packages/Hopac/0.1.1	N/A
+https://www.nuget.org/packages/Hopac/0.1.2	N/A
+https://www.nuget.org/packages/Hopac/0.1.3	N/A
+https://www.nuget.org/packages/Hopac/0.2.0	N/A
+https://www.nuget.org/packages/Hopac/0.2.1	N/A
+https://www.nuget.org/packages/Hopac/0.3.0	N/A
+https://www.nuget.org/packages/Hopac/0.3.1	N/A
+https://www.nuget.org/packages/Hopac/0.3.10	N/A
+https://www.nuget.org/packages/Hopac/0.3.11	N/A
+https://www.nuget.org/packages/Hopac/0.3.12	N/A
+https://www.nuget.org/packages/Hopac/0.3.13	N/A
+https://www.nuget.org/packages/Hopac/0.3.14	N/A
+https://www.nuget.org/packages/Hopac/0.3.15	N/A
+https://www.nuget.org/packages/Hopac/0.3.16	N/A
+https://www.nuget.org/packages/Hopac/0.3.17	N/A
+https://www.nuget.org/packages/Hopac/0.3.18	N/A
+https://www.nuget.org/packages/Hopac/0.3.19	N/A
+https://www.nuget.org/packages/Hopac/0.3.2	N/A
+https://www.nuget.org/packages/Hopac/0.3.20	N/A
+https://www.nuget.org/packages/Hopac/0.3.21	N/A
+https://www.nuget.org/packages/Hopac/0.3.22	N/A
+https://www.nuget.org/packages/Hopac/0.3.23	N/A
+https://www.nuget.org/packages/Hopac/0.3.3	N/A
+https://www.nuget.org/packages/Hopac/0.3.4	N/A
+https://www.nuget.org/packages/Hopac/0.3.5	N/A
+https://www.nuget.org/packages/Hopac/0.3.6	N/A
+https://www.nuget.org/packages/Hopac/0.3.7	N/A
+https://www.nuget.org/packages/Hopac/0.3.8	N/A
+https://www.nuget.org/packages/Hopac/0.3.9	N/A
+https://www.nuget.org/packages/Hopac/0.4.0	N/A
+https://www.nuget.org/packages/Hopac/0.4.1	N/A
+https://www.nuget.org/packages/Hopac/0.5.0	N/A
+https://www.nuget.org/packages/Hopac/0.5.1	N/A
+https://www.nuget.org/packages/Ply/0.1.0	N/A
+https://www.nuget.org/packages/Ply/0.1.1	N/A
+https://www.nuget.org/packages/Ply/0.1.2	N/A
+https://www.nuget.org/packages/Ply/0.1.3	N/A
+https://www.nuget.org/packages/Ply/0.1.4	N/A
+https://www.nuget.org/packages/Ply/0.1.5	N/A
+https://www.nuget.org/packages/Ply/0.1.6	N/A
+https://www.nuget.org/packages/Ply/0.1.7	N/A
+https://www.nuget.org/packages/Ply/0.1.8	N/A
+https://www.nuget.org/packages/Ply/0.2.0	N/A
+https://www.nuget.org/packages/Ply/0.2.1	N/A
+https://www.nuget.org/packages/Ply/0.2.2	N/A
+https://www.nuget.org/packages/Ply/0.3.0	N/A
+https://www.nuget.org/packages/Ply/0.3.1	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/1.0.0	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/1.0.1	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/1.1.0	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/1.1.1	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/1.2.0-rc	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/2.0.0	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/2.1.0	N/A
+https://www.nuget.org/packages/TaskBuilder.fs/2.2.0-alpha	N/A
+https://www.youtube.com/watch?v=bKpRrCssAWM	N/A
+https://www.youtube.com/watch?v=AHOU1_nXR40	N/A
+https://www.youtube.com/watch?v=bYor0oBgvws	N/A
+https://www.youtube.com/watch?v=c8eCE1Yrolc	N/A
+https://www.youtube.com/watch?v=xfz7T9eKWmI	N/A
+https://www.youtube.com/watch?v=u2SlQ5WdL2k	N/A
+https://www.youtube.com/watch?v=6aMVHocZFOY	N/A
+https://www.youtube.com/watch?v=AMjcjXIMzmA	N/A
+https://www.youtube.com/watch?v=F9bznonKc64	N/A
+https://www.kindafunctional.com/lesson-64-handling-side-effects-in-elm.html	N/A
+https://guide.elm-lang.org/interop/ports	N/A
+https://guide.elm-lang.org/effects/http.html	N/A
+https://discourse.elm-lang.org/t/how-does-elm-interop-with-side-effects-in-a-purely-functional-way/7875	publication	2021-11-03
+https://discourse.elm-lang.org/t/why-port-functions-are-not-defined/5199	publication	2020-02-18
+https://frontendmasters.com/courses/intro-elm/	N/A
+https://discourse.elm-lang.org/t/realworld-example-app-architected-with-the-effect-pattern/5753	publication	2020-05-10
+https://groups.seas.harvard.edu/courses/cs152/2015sp/lectures/lec24-frp.pdf	N/A
+https://www.cs.columbia.edu/~aho/cs6998/Lectures/14-09-29_Townsend_Elm.pdf	N/A
+https://www.reddit.com/r/functionalprogramming/comments/k919wl	N/A
+https://www.reddit.com/r/elm/comments/evtv35	N/A
+https://www.reddit.com/r/elm/comments/gh0wqz	N/A
+https://www.youtube.com/watch?v=rdCFDITvW0g	N/A
+https://www.youtube.com/watch?v=yFFwfJNTd5E	N/A
+https://www.youtube.com/watch?v=IZA9HN9NA2U	N/A
+https://www.youtube.com/watch?v=uRyuNPdUjJ4	N/A
+https://www.youtube.com/watch?v=_ul8sZ6dDWA	N/A
+https://www.youtube.com/watch?v=hdDYQ9dbN9g	N/A
+https://www.youtube.com/watch?v=3n17wHe5wEw	N/A
+https://package.elm-lang.org/packages/elm/core/latest/Task	N/A
+https://package.elm-lang.org/packages/elm/core/latest/Platform-Cmd	N/A
+https://package.elm-lang.org/packages/elm/core/latest/Platform-Sub	N/A
+https://package.elm-lang.org/packages/elm/http/latest/Http	N/A
+https://package.elm-lang.org/packages/elm/file/latest/File	N/A
+https://package.elm-lang.org/packages/elm/file/latest/File-Download	N/A
+https://package.elm-lang.org/packages/elm/file/latest/File-Select	N/A
+https://package.elm-lang.org/packages/elm/browser/latest/Browser	N/A
+https://package.elm-lang.org/packages/elm/browser/latest/Browser-Events	N/A
+https://package.elm-lang.org/packages/elm/browser/latest/Browser-Navigation	N/A
+https://package.elm-lang.org/packages/elm/time/latest/Time	N/A
+https://package.elm-lang.org/packages/elm/random/latest/Random	N/A
+https://github.com/fluture-js/Fluture	N/A
+https://sanctuary.js.org/	N/A
+https://folktalegithubio.readthedocs.io/en/latest/api/data/task/	N/A
+https://folktale.origamitower.com/api/v2.0.0/en/folktale.concurrency.task.html	N/A
+https://kwijibo.github.io/task-monad-in-javascript/	N/A
+https://folktalegithubio.readthedocs.io/en/latest/	N/A
+https://www.reddit.com/r/functionalprogramming/comments/1496zgr	N/A
+https://www.reddit.com/r/functionalprogramming/comments/zmls5v	N/A
+https://www.reddit.com/r/functionalprogramming/comments/o881sz	N/A
+https://www.reddit.com/r/typescript/comments/r2qqcd	N/A
+https://www.npmjs.com/package/data.task/v/3.0.0	N/A
+https://www.npmjs.com/package/data.task/v/3.1.0	N/A
+https://www.npmjs.com/package/data.task/v/3.1.1	N/A
+https://www.npmjs.com/package/data.task/v/3.1.2	N/A
+https://www.npmjs.com/package/folktale/v/1.0.0-SNAPSHOT	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha1	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha2	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha3	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0-alpha4	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0-beta1	N/A
+https://www.npmjs.com/package/folktale/v/2.0.0-rc1	N/A
+https://www.npmjs.com/package/folktale/v/2.0.1	N/A
+https://www.npmjs.com/package/folktale/v/2.1.0	N/A
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha1	N/A
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha2	N/A
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha3	N/A
+https://www.npmjs.com/package/folktale/v/2.1.0-alpha4	N/A
+https://www.npmjs.com/package/folktale/v/2.1.0-rc1	N/A
+https://www.npmjs.com/package/folktale/v/2.2.0-alpha1	N/A
+https://www.npmjs.com/package/folktale/v/2.3.0	N/A
+https://www.npmjs.com/package/folktale/v/2.3.1	N/A
+https://www.npmjs.com/package/folktale/v/2.3.2	N/A
+https://www.npmjs.com/package/folktale/v/3.0.0-alpha5	N/A
+https://www.npmjs.com/package/folktale/v/3.0.1-ts	N/A
+https://www.npmjs.com/package/sanctuary/v/0.1.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.10.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.11.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.11.1	N/A
+https://www.npmjs.com/package/sanctuary/v/0.12.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.12.1	N/A
+https://www.npmjs.com/package/sanctuary/v/0.12.2	N/A
+https://www.npmjs.com/package/sanctuary/v/0.13.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.13.1	N/A
+https://www.npmjs.com/package/sanctuary/v/0.13.2	N/A
+https://www.npmjs.com/package/sanctuary/v/0.14.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.14.1	N/A
+https://www.npmjs.com/package/sanctuary/v/0.15.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.15.1	N/A
+https://www.npmjs.com/package/sanctuary/v/0.2.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.3.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.4.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.5.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.6.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.7.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.7.1	N/A
+https://www.npmjs.com/package/sanctuary/v/0.8.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.9.0	N/A
+https://www.npmjs.com/package/sanctuary/v/0.9.1	N/A
+https://www.npmjs.com/package/sanctuary/v/1.0.0	N/A
+https://www.npmjs.com/package/sanctuary/v/1.1.0	N/A
+https://www.npmjs.com/package/sanctuary/v/2.0.0	N/A
+https://www.npmjs.com/package/sanctuary/v/2.0.1	N/A
+https://www.npmjs.com/package/sanctuary/v/2.0.2	N/A
+https://www.npmjs.com/package/sanctuary/v/3.0.0	N/A
+https://www.npmjs.com/package/sanctuary/v/3.1.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.0.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.0.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.0.3	N/A
+https://www.npmjs.com/package/fp-ts/v/0.0.4	N/A
+https://www.npmjs.com/package/fp-ts/v/0.1.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.1.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.3	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.4	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.5	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.6	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.7	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.8	N/A
+https://www.npmjs.com/package/fp-ts/v/0.2.9	N/A
+https://www.npmjs.com/package/fp-ts/v/0.3.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.3.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.3.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.3.3	N/A
+https://www.npmjs.com/package/fp-ts/v/0.3.4	N/A
+https://www.npmjs.com/package/fp-ts/v/0.3.5	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.3	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.4	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.5	N/A
+https://www.npmjs.com/package/fp-ts/v/0.4.6	N/A
+https://www.npmjs.com/package/fp-ts/v/0.5.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.5.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.5.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.5.3	N/A
+https://www.npmjs.com/package/fp-ts/v/0.5.4	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.0	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171013	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.0-dev.20171016	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.1	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.3	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.4	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171120	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171121	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171121.2	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.4-dev.20171122	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.5	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.6	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.7	N/A
+https://www.npmjs.com/package/fp-ts/v/0.6.8	N/A
+https://www.npmjs.com/package/fp-ts/v/1.0.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.0.0-rc	N/A
+https://www.npmjs.com/package/fp-ts/v/1.0.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.1.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.10.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.10.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.11.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.11.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.11.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.11.3	N/A
+https://www.npmjs.com/package/fp-ts/v/1.12.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.12.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.12.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.12.3	N/A
+https://www.npmjs.com/package/fp-ts/v/1.13.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.14.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.14.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.14.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.14.3	N/A
+https://www.npmjs.com/package/fp-ts/v/1.14.4	N/A
+https://www.npmjs.com/package/fp-ts/v/1.15.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.15.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.16.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.16.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.17.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.17.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.17.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.17.3	N/A
+https://www.npmjs.com/package/fp-ts/v/1.17.4	N/A
+https://www.npmjs.com/package/fp-ts/v/1.18.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.18.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.18.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.19.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.19.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.19.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.19.3	N/A
+https://www.npmjs.com/package/fp-ts/v/1.19.4	N/A
+https://www.npmjs.com/package/fp-ts/v/1.19.5	N/A
+https://www.npmjs.com/package/fp-ts/v/1.2.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.3.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.4.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.4.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.5.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.6.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.6.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.6.2	N/A
+https://www.npmjs.com/package/fp-ts/v/1.7.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.7.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.8.0	N/A
+https://www.npmjs.com/package/fp-ts/v/1.8.1	N/A
+https://www.npmjs.com/package/fp-ts/v/1.9.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.7	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.0-rc.8	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.0.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.1.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.1.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.1.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.7	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.0-rc.8	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.10.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.0-rc.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.0-rc.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.10	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.7	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.8	N/A
+https://www.npmjs.com/package/fp-ts/v/2.11.9	N/A
+https://www.npmjs.com/package/fp-ts/v/2.12.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.12.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.12.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.12.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.0-rc.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.13.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.14.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.15.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.10	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.11	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.7	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.8	N/A
+https://www.npmjs.com/package/fp-ts/v/2.16.9	N/A
+https://www.npmjs.com/package/fp-ts/v/2.2.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.3.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.3.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.4.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.4.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.4.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.4.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.4.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.5.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.5.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.5.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.5.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.5.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.6.7	N/A
+https://www.npmjs.com/package/fp-ts/v/2.7.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.7.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.5	N/A
+https://www.npmjs.com/package/fp-ts/v/2.8.6	N/A
+https://www.npmjs.com/package/fp-ts/v/2.9.0	N/A
+https://www.npmjs.com/package/fp-ts/v/2.9.1	N/A
+https://www.npmjs.com/package/fp-ts/v/2.9.2	N/A
+https://www.npmjs.com/package/fp-ts/v/2.9.3	N/A
+https://www.npmjs.com/package/fp-ts/v/2.9.4	N/A
+https://www.npmjs.com/package/fp-ts/v/2.9.5	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.1	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.10	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.11	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.12	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.13	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.14	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.15	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.16	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.17	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.18	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.19	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.2	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.20	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.21	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.22	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.23	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.24	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.25	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.26	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.3	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.4	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.5	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.6	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.7	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.8	N/A
+https://www.npmjs.com/package/fp-ts/v/3.0.0-alpha.9	N/A
+https://www.npmjs.com/package/fluture/v/0.1.0	N/A
+https://www.npmjs.com/package/fluture/v/0.2.0	N/A
+https://www.npmjs.com/package/fluture/v/0.2.1	N/A
+https://www.npmjs.com/package/fluture/v/0.3.0	N/A
+https://www.npmjs.com/package/fluture/v/0.3.1	N/A
+https://www.npmjs.com/package/fluture/v/0.4.0	N/A
+https://www.npmjs.com/package/fluture/v/0.4.1	N/A
+https://www.npmjs.com/package/fluture/v/0.5.0	N/A
+https://www.npmjs.com/package/fluture/v/0.5.1	N/A
+https://www.npmjs.com/package/fluture/v/0.5.2	N/A
+https://www.npmjs.com/package/fluture/v/0.5.3	N/A
+https://www.npmjs.com/package/fluture/v/0.5.4	N/A
+https://www.npmjs.com/package/fluture/v/0.5.5	N/A
+https://www.npmjs.com/package/fluture/v/0.5.6	N/A
+https://www.npmjs.com/package/fluture/v/0.5.7	N/A
+https://www.npmjs.com/package/fluture/v/0.6.0-beta1	N/A
+https://www.npmjs.com/package/fluture/v/0.6.0-beta2	N/A
+https://www.npmjs.com/package/fluture/v/0.6.1	N/A
+https://www.npmjs.com/package/fluture/v/0.6.2	N/A
+https://www.npmjs.com/package/fluture/v/0.6.3	N/A
+https://www.npmjs.com/package/fluture/v/0.6.3-beta.1	N/A
+https://www.npmjs.com/package/fluture/v/0.6.4	N/A
+https://www.npmjs.com/package/fluture/v/0.6.5	N/A
+https://www.npmjs.com/package/fluture/v/1.0.0	N/A
+https://www.npmjs.com/package/fluture/v/1.0.1	N/A
+https://www.npmjs.com/package/fluture/v/1.0.2	N/A
+https://www.npmjs.com/package/fluture/v/1.0.3	N/A
+https://www.npmjs.com/package/fluture/v/1.1.0	N/A
+https://www.npmjs.com/package/fluture/v/1.2.0	N/A
+https://www.npmjs.com/package/fluture/v/1.2.1	N/A
+https://www.npmjs.com/package/fluture/v/10.0.0	N/A
+https://www.npmjs.com/package/fluture/v/10.1.0	N/A
+https://www.npmjs.com/package/fluture/v/10.1.1	N/A
+https://www.npmjs.com/package/fluture/v/10.2.0	N/A
+https://www.npmjs.com/package/fluture/v/10.3.0	N/A
+https://www.npmjs.com/package/fluture/v/10.3.1	N/A
+https://www.npmjs.com/package/fluture/v/11.0.0	N/A
+https://www.npmjs.com/package/fluture/v/11.0.1	N/A
+https://www.npmjs.com/package/fluture/v/11.0.2	N/A
+https://www.npmjs.com/package/fluture/v/11.0.3	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.0	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.1	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.2	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.3	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.4	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.5	N/A
+https://www.npmjs.com/package/fluture/v/12.0.0-beta.6	N/A
+https://www.npmjs.com/package/fluture/v/12.0.1	N/A
+https://www.npmjs.com/package/fluture/v/12.0.2	N/A
+https://www.npmjs.com/package/fluture/v/12.1.0	N/A
+https://www.npmjs.com/package/fluture/v/12.1.1	N/A
+https://www.npmjs.com/package/fluture/v/12.2.0	N/A
+https://www.npmjs.com/package/fluture/v/12.2.1	N/A
+https://www.npmjs.com/package/fluture/v/12.3.0	N/A
+https://www.npmjs.com/package/fluture/v/12.3.1	N/A
+https://www.npmjs.com/package/fluture/v/13.0.0	N/A
+https://www.npmjs.com/package/fluture/v/13.0.1	N/A
+https://www.npmjs.com/package/fluture/v/14.0.0	N/A
+https://www.npmjs.com/package/fluture/v/2.0.0	N/A
+https://www.npmjs.com/package/fluture/v/2.0.0-beta.1	N/A
+https://www.npmjs.com/package/fluture/v/2.0.0-beta.2	N/A
+https://www.npmjs.com/package/fluture/v/2.0.1	N/A
+https://www.npmjs.com/package/fluture/v/3.0.0	N/A
+https://www.npmjs.com/package/fluture/v/3.1.0	N/A
+https://www.npmjs.com/package/fluture/v/3.1.1	N/A
+https://www.npmjs.com/package/fluture/v/4.0.0	N/A
+https://www.npmjs.com/package/fluture/v/4.0.1	N/A
+https://www.npmjs.com/package/fluture/v/4.0.2	N/A
+https://www.npmjs.com/package/fluture/v/4.0.3	N/A
+https://www.npmjs.com/package/fluture/v/4.1.0	N/A
+https://www.npmjs.com/package/fluture/v/4.1.1	N/A
+https://www.npmjs.com/package/fluture/v/4.2.0	N/A
+https://www.npmjs.com/package/fluture/v/4.3.0	N/A
+https://www.npmjs.com/package/fluture/v/4.3.1	N/A
+https://www.npmjs.com/package/fluture/v/4.3.2	N/A
+https://www.npmjs.com/package/fluture/v/4.3.3	N/A
+https://www.npmjs.com/package/fluture/v/4.3.4	N/A
+https://www.npmjs.com/package/fluture/v/4.3.5	N/A
+https://www.npmjs.com/package/fluture/v/5.0.0	N/A
+https://www.npmjs.com/package/fluture/v/6.0.0	N/A
+https://www.npmjs.com/package/fluture/v/6.0.1	N/A
+https://www.npmjs.com/package/fluture/v/6.1.0	N/A
+https://www.npmjs.com/package/fluture/v/6.1.1	N/A
+https://www.npmjs.com/package/fluture/v/6.2.0	N/A
+https://www.npmjs.com/package/fluture/v/6.2.1	N/A
+https://www.npmjs.com/package/fluture/v/6.2.2	N/A
+https://www.npmjs.com/package/fluture/v/6.2.3	N/A
+https://www.npmjs.com/package/fluture/v/6.2.4	N/A
+https://www.npmjs.com/package/fluture/v/6.2.5	N/A
+https://www.npmjs.com/package/fluture/v/6.2.6	N/A
+https://www.npmjs.com/package/fluture/v/6.2.7	N/A
+https://www.npmjs.com/package/fluture/v/6.2.8	N/A
+https://www.npmjs.com/package/fluture/v/6.3.0	N/A
+https://www.npmjs.com/package/fluture/v/7.0.0	N/A
+https://www.npmjs.com/package/fluture/v/7.0.1	N/A
+https://www.npmjs.com/package/fluture/v/7.1.0	N/A
+https://www.npmjs.com/package/fluture/v/7.1.1	N/A
+https://www.npmjs.com/package/fluture/v/7.1.2	N/A
+https://www.npmjs.com/package/fluture/v/7.1.3	N/A
+https://www.npmjs.com/package/fluture/v/7.2.0	N/A
+https://www.npmjs.com/package/fluture/v/7.2.1	N/A
+https://www.npmjs.com/package/fluture/v/7.2.2	N/A
+https://www.npmjs.com/package/fluture/v/8.0.0	N/A
+https://www.npmjs.com/package/fluture/v/8.0.1	N/A
+https://www.npmjs.com/package/fluture/v/8.0.2	N/A
+https://www.npmjs.com/package/fluture/v/9.0.0	N/A
+https://www.npmjs.com/package/fluture/v/9.0.1	N/A
+https://www.npmjs.com/package/fluture/v/9.0.2	N/A
+https://www.npmjs.com/package/monet/v/0.8.10	N/A
+https://www.npmjs.com/package/monet/v/0.8.4	N/A
+https://www.npmjs.com/package/monet/v/0.8.5	N/A
+https://www.npmjs.com/package/monet/v/0.8.6	N/A
+https://www.npmjs.com/package/monet/v/0.8.7	N/A
+https://www.npmjs.com/package/monet/v/0.8.8	N/A
+https://www.npmjs.com/package/monet/v/0.8.9	N/A
+https://www.npmjs.com/package/monet/v/0.9.0	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-403	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-405	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-408	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-414	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-417	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-421	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-422	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-423	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-426	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-431	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-441	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.0	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.1	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.2	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.3	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.4	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-0	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-1	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-2	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-3	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-353	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-356	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-alpha.5-4	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.0	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.0-358	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.0-361	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.1	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.1-379	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.1-383	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.1-385	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.1-391	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.2	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.2-393	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.3	N/A
+https://www.npmjs.com/package/monet/v/0.9.0-rc.3-399	N/A
+https://www.npmjs.com/package/monet/v/0.9.1	N/A
+https://www.npmjs.com/package/monet/v/0.9.1-444	N/A
+https://www.npmjs.com/package/monet/v/0.9.1-447	N/A
+https://www.npmjs.com/package/monet/v/0.9.1-460	N/A
+https://www.npmjs.com/package/monet/v/0.9.1-464	N/A
+https://www.npmjs.com/package/monet/v/0.9.1-466	N/A
+https://www.npmjs.com/package/monet/v/0.9.1-472	N/A
+https://www.npmjs.com/package/monet/v/0.9.2	N/A
+https://www.npmjs.com/package/monet/v/0.9.2-474	N/A
+https://www.npmjs.com/package/monet/v/0.9.2-479	N/A
+https://www.npmjs.com/package/monet/v/0.9.3	N/A
+https://www.npmjs.com/package/monet/v/0.9.3-483	N/A
+https://www.npmjs.com/package/monet/v/0.9.3-485	N/A
+https://www.npmjs.com/package/monio/v/0.0.0	N/A
+https://www.npmjs.com/package/monio/v/0.1.0	N/A
+https://www.npmjs.com/package/monio/v/0.1.1	N/A
+https://www.npmjs.com/package/monio/v/0.1.2	N/A
+https://www.npmjs.com/package/monio/v/0.1.3	N/A
+https://www.npmjs.com/package/monio/v/0.1.4	N/A
+https://www.npmjs.com/package/monio/v/0.1.5	N/A
+https://www.npmjs.com/package/monio/v/0.1.6	N/A
+https://www.npmjs.com/package/monio/v/0.1.7	N/A
+https://www.npmjs.com/package/monio/v/0.1.8	N/A
+https://www.npmjs.com/package/monio/v/0.10.0	N/A
+https://www.npmjs.com/package/monio/v/0.11.0	N/A
+https://www.npmjs.com/package/monio/v/0.12.0	N/A
+https://www.npmjs.com/package/monio/v/0.13.1	N/A
+https://www.npmjs.com/package/monio/v/0.14.0	N/A
+https://www.npmjs.com/package/monio/v/0.14.1	N/A
+https://www.npmjs.com/package/monio/v/0.14.2	N/A
+https://www.npmjs.com/package/monio/v/0.14.3	N/A
+https://www.npmjs.com/package/monio/v/0.14.4	N/A
+https://www.npmjs.com/package/monio/v/0.14.5	N/A
+https://www.npmjs.com/package/monio/v/0.14.6	N/A
+https://www.npmjs.com/package/monio/v/0.15.0	N/A
+https://www.npmjs.com/package/monio/v/0.16.0	N/A
+https://www.npmjs.com/package/monio/v/0.16.1	N/A
+https://www.npmjs.com/package/monio/v/0.17.0	N/A
+https://www.npmjs.com/package/monio/v/0.18.0	N/A
+https://www.npmjs.com/package/monio/v/0.18.1	N/A
+https://www.npmjs.com/package/monio/v/0.19.0	N/A
+https://www.npmjs.com/package/monio/v/0.19.1	N/A
+https://www.npmjs.com/package/monio/v/0.2.0	N/A
+https://www.npmjs.com/package/monio/v/0.2.1	N/A
+https://www.npmjs.com/package/monio/v/0.2.2	N/A
+https://www.npmjs.com/package/monio/v/0.2.3	N/A
+https://www.npmjs.com/package/monio/v/0.20.0	N/A
+https://www.npmjs.com/package/monio/v/0.20.1	N/A
+https://www.npmjs.com/package/monio/v/0.21.0	N/A
+https://www.npmjs.com/package/monio/v/0.22.0	N/A
+https://www.npmjs.com/package/monio/v/0.23.0	N/A
+https://www.npmjs.com/package/monio/v/0.23.1	N/A
+https://www.npmjs.com/package/monio/v/0.23.2	N/A
+https://www.npmjs.com/package/monio/v/0.24.0	N/A
+https://www.npmjs.com/package/monio/v/0.24.1	N/A
+https://www.npmjs.com/package/monio/v/0.24.2	N/A
+https://www.npmjs.com/package/monio/v/0.25.0	N/A
+https://www.npmjs.com/package/monio/v/0.26.0	N/A
+https://www.npmjs.com/package/monio/v/0.27.0	N/A
+https://www.npmjs.com/package/monio/v/0.27.1	N/A
+https://www.npmjs.com/package/monio/v/0.3.0	N/A
+https://www.npmjs.com/package/monio/v/0.3.1	N/A
+https://www.npmjs.com/package/monio/v/0.30.0	N/A
+https://www.npmjs.com/package/monio/v/0.30.1	N/A
+https://www.npmjs.com/package/monio/v/0.31.0	N/A
+https://www.npmjs.com/package/monio/v/0.32.0	N/A
+https://www.npmjs.com/package/monio/v/0.32.1	N/A
+https://www.npmjs.com/package/monio/v/0.33.0	N/A
+https://www.npmjs.com/package/monio/v/0.4.0	N/A
+https://www.npmjs.com/package/monio/v/0.4.1	N/A
+https://www.npmjs.com/package/monio/v/0.4.2	N/A
+https://www.npmjs.com/package/monio/v/0.40.0	N/A
+https://www.npmjs.com/package/monio/v/0.40.1	N/A
+https://www.npmjs.com/package/monio/v/0.40.2	N/A
+https://www.npmjs.com/package/monio/v/0.5.0	N/A
+https://www.npmjs.com/package/monio/v/0.5.1	N/A
+https://www.npmjs.com/package/monio/v/0.50.0	N/A
+https://www.npmjs.com/package/monio/v/0.50.1	N/A
+https://www.npmjs.com/package/monio/v/0.51.0	N/A
+https://www.npmjs.com/package/monio/v/0.51.1	N/A
+https://www.npmjs.com/package/monio/v/0.51.4	N/A
+https://www.npmjs.com/package/monio/v/0.52.0	N/A
+https://www.npmjs.com/package/monio/v/0.52.1	N/A
+https://www.npmjs.com/package/monio/v/0.52.2	N/A
+https://www.npmjs.com/package/monio/v/0.53.0	N/A
+https://www.npmjs.com/package/monio/v/0.54.0	N/A
+https://www.npmjs.com/package/monio/v/0.54.1	N/A
+https://www.npmjs.com/package/monio/v/0.55.0	N/A
+https://www.npmjs.com/package/monio/v/0.6.0	N/A
+https://www.npmjs.com/package/monio/v/0.60.0	N/A
+https://www.npmjs.com/package/monio/v/0.61.0	N/A
+https://www.npmjs.com/package/monio/v/0.7.0	N/A
+https://www.npmjs.com/package/monio/v/0.70.0	N/A
+https://www.npmjs.com/package/monio/v/0.71.0	N/A
+https://www.npmjs.com/package/monio/v/0.8.0	N/A
+https://www.npmjs.com/package/monio/v/0.8.1	N/A
+https://www.npmjs.com/package/monio/v/0.9.0	N/A
+https://effect.readthedocs.io/en/latest/apidocs.html	N/A
+https://returns.readthedocs.io/en/latest/pages/io.html	N/A
+https://danigb.github.io/codes/2020-01-09-functional-core-imperative-shell/	N/A
+https://kindafunctional.com/lesson-33-functional-core-imperative-shell.html	N/A
+https://principledcraft.dev/principles/testing/writing-testable-code/functional-core-imperative-shell/	N/A
+https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html	N/A
+https://www.reddit.com/r/Python/comments/1oolq4o	N/A
+https://www.reddit.com/r/Python/comments/lprsb0	N/A
+https://pypi.org/project/returns/0.10.0/	N/A
+https://pypi.org/project/returns/0.11.0/	N/A
+https://pypi.org/project/returns/0.12.0/	N/A
+https://pypi.org/project/returns/0.13.0/	N/A
+https://pypi.org/project/returns/0.14.0/	N/A
+https://pypi.org/project/returns/0.15.0/	N/A
+https://pypi.org/project/returns/0.16.0/	N/A
+https://pypi.org/project/returns/0.17.0/	N/A
+https://pypi.org/project/returns/0.18.0/	N/A
+https://pypi.org/project/returns/0.19.0/	N/A
+https://pypi.org/project/returns/0.2.0/	N/A
+https://pypi.org/project/returns/0.20.0/	N/A
+https://pypi.org/project/returns/0.20.1/	N/A
+https://pypi.org/project/returns/0.21.0/	N/A
+https://pypi.org/project/returns/0.22.0/	N/A
+https://pypi.org/project/returns/0.23.0/	N/A
+https://pypi.org/project/returns/0.24.0/	N/A
+https://pypi.org/project/returns/0.25.0/	N/A
+https://pypi.org/project/returns/0.26.0/	N/A
+https://pypi.org/project/returns/0.27.0/	N/A
+https://pypi.org/project/returns/0.28.0/	N/A
+https://pypi.org/project/returns/0.3.0/	N/A
+https://pypi.org/project/returns/0.3.1/	N/A
+https://pypi.org/project/returns/0.4.0/	N/A
+https://pypi.org/project/returns/0.5.0/	N/A
+https://pypi.org/project/returns/0.6.0/	N/A
+https://pypi.org/project/returns/0.7.0/	N/A
+https://pypi.org/project/returns/0.8.0/	N/A
+https://pypi.org/project/returns/0.9.0/	N/A
+https://pypi.org/project/effect/0.10.1/	N/A
+https://pypi.org/project/effect/0.10/	N/A
+https://pypi.org/project/effect/0.11.0/	N/A
+https://pypi.org/project/effect/0.12.0/	N/A
+https://pypi.org/project/effect/0.1a1/	N/A
+https://pypi.org/project/effect/0.1a10/	N/A
+https://pypi.org/project/effect/0.1a12/	N/A
+https://pypi.org/project/effect/0.1a13/	N/A
+https://pypi.org/project/effect/0.1a14/	N/A
+https://pypi.org/project/effect/0.1a15/	N/A
+https://pypi.org/project/effect/0.1a16/	N/A
+https://pypi.org/project/effect/0.1a17/	N/A
+https://pypi.org/project/effect/0.1a18/	N/A
+https://pypi.org/project/effect/0.1a2/	N/A
+https://pypi.org/project/effect/0.1a3/	N/A
+https://pypi.org/project/effect/0.1a4/	N/A
+https://pypi.org/project/effect/0.1a5/	N/A
+https://pypi.org/project/effect/0.1a6/	N/A
+https://pypi.org/project/effect/0.1a7/	N/A
+https://pypi.org/project/effect/0.1a8/	N/A
+https://pypi.org/project/effect/0.1a9/	N/A
+https://pypi.org/project/effect/0.9/	N/A
+https://pypi.org/project/effect/1.0.0/	N/A
+https://pypi.org/project/effect/1.1.0/	N/A
+https://pypi.org/project/pymonad/1.0/	N/A
+https://pypi.org/project/pymonad/1.1/	N/A
+https://pypi.org/project/pymonad/1.2/	N/A
+https://pypi.org/project/pymonad/1.3/	N/A
+https://pypi.org/project/pymonad/2.0.4/	N/A
+https://pypi.org/project/pymonad/2.1.0/	N/A
+https://pypi.org/project/pymonad/2.2.0/	N/A
+https://pypi.org/project/pymonad/2.3.0/	N/A
+https://pypi.org/project/pymonad/2.3.1/	N/A
+https://pypi.org/project/pymonad/2.3.2/	N/A
+https://pypi.org/project/pymonad/2.3.3/	N/A
+https://pypi.org/project/pymonad/2.3.4/	N/A
+https://pypi.org/project/pymonad/2.3.5/	N/A
+https://pypi.org/project/pymonad/2.4.0/	N/A
+https://pypi.org/project/pyeffects/1.0.0/	N/A
+https://pypi.org/project/pyeffects/1.0.1/	N/A
+https://pypi.org/project/pyeffects/1.0.2/	N/A
+https://pypi.org/project/pyeffects/1.0.3/	N/A
+https://pypi.org/project/pyeffects/1.0.4/	N/A
+https://pypi.org/project/pyeffects/1.0.5/	N/A
+https://pypi.org/project/pyio-effect/0.1.0/	N/A
+https://pypi.org/project/pyio-effect/0.1.1/	N/A
+https://pypi.org/project/pyio-effect/0.1.2/	N/A
+https://pypi.org/project/pyio-effect/0.1.3/	N/A
+https://pypi.org/project/pyio-effect/0.1.4/	N/A
+https://pypi.org/project/raffiot/0.0.2/	N/A
+https://pypi.org/project/raffiot/0.0.3/	N/A
+https://pypi.org/project/raffiot/0.0.4.1/	N/A
+https://pypi.org/project/raffiot/0.0.4.2/	N/A
+https://pypi.org/project/raffiot/0.0.4/	N/A
+https://pypi.org/project/raffiot/0.0.5/	N/A
+https://pypi.org/project/raffiot/0.0.6.1/	N/A
+https://pypi.org/project/raffiot/0.0.6.2/	N/A
+https://pypi.org/project/raffiot/0.0.6.3/	N/A
+https://pypi.org/project/raffiot/0.0.6.4/	N/A
+https://pypi.org/project/raffiot/0.0.6.5/	N/A
+https://pypi.org/project/raffiot/0.0.6.6/	N/A
+https://pypi.org/project/raffiot/0.0.6/	N/A
+https://pypi.org/project/raffiot/0.0.7/	N/A
+https://pypi.org/project/raffiot/0.1.0/	N/A
+https://pypi.org/project/raffiot/0.2.0/	N/A
+https://pypi.org/project/raffiot/0.3.0/	N/A
+https://pypi.org/project/raffiot/0.4.0/	N/A
+https://pypi.org/project/raffiot/0.5.0/	N/A
+https://pypi.org/project/raffiot/0.5.1/	N/A
+https://pypi.org/project/raffiot/0.5.2/	N/A
+https://pypi.org/project/raffiot/0.6.0/	N/A
+https://pypi.org/project/raffiot/0.6.1/	N/A
+https://pypi.org/project/raffiot/0.6.2/	N/A
+https://pypi.org/project/raffiot/0.6.3/	N/A
+https://www.youtube.com/watch?v=fM5d_2BS6FY	N/A
+https://www.youtube.com/watch?v=Ja6yP4ufSko	N/A
+https://www.youtube.com/watch?v=NMEnvmGjNLc	N/A
+https://libraries.io/racket/effects	N/A
+https://docs.racket-lang.org/functional/interfaces.html	N/A
+https://download.racket-lang.org/docs/5.1/html/guide/Continuations.html	N/A
+https://docs.racket-lang.org/effect-racket/index.html	N/A
+https://docs.racket-lang.org/heresy/monad-do.html	N/A
+https://download.racket-lang.org/docs/5.3.1/pdf/reference.pdf	N/A
+https://download.racket-lang.org/docs/5.1/pdf/guide.pdf	N/A
+https://www.reddit.com/r/Racket/comments/kkayf1	N/A
+https://www.reddit.com/r/scheme/comments/z7mcri	N/A
+https://www.reddit.com/r/Racket/comments/m3iubq	N/A
+https://www.youtube.com/watch?v=TE48LsgVlIU	N/A
+https://www.youtube.com/watch?v=DRFsodbxHQo	N/A
+https://www.youtube.com/watch?v=QNM-njddhIw	N/A
+https://www.youtube.com/watch?v=bOUgXd9XlJ4	N/A
+https://www.youtube.com/watch?v=BAMtstt3Jp8	N/A
+https://www.youtube.com/watch?v=DW3TEyAScsY	N/A
+https://www.youtube.com/watch?v=DjPlfeejR0c	N/A
+https://www.youtube.com/watch?v=IKddmXjYa5U	N/A
+https://www.youtube.com/watch?v=sosOu989jXs	N/A
+https://www.youtube.com/watch?v=cnhb4M8-J5M	N/A
+https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/-resource/index.html	N/A
+https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/bracket.html	N/A
+https://old.arrow-kt.io/docs/0.12/fx/	N/A
+https://old.arrow-kt.io/docs/apidocs/arrow-fx-coroutines/arrow.fx.coroutines/	N/A
+https://apidocs.arrow-kt.io/arrow-core/arrow.core.raise/-effect/index.html	N/A
+https://www.pacoworks.com/2019/12/15/kotlin-coroutines-with-arrow-fx/	publication	2019-12-15
+https://apidocs.arrow-kt.io/arrow-fx-stm/arrow.fx.stm/-s-t-m/index.html	N/A
+https://arrow-kt.io/	N/A
+https://arrow-kt.io/learn/design/receivers-flatmap/	N/A
+https://www.reddit.com/r/Kotlin/comments/ebdrw9	N/A
+https://www.reddit.com/r/Kotlin/comments/15h2oi4	N/A
+https://www.reddit.com/r/scala/comments/bpa0j8	N/A
+https://www.reddit.com/r/Kotlin/comments/1h7pjo2	N/A
+https://bobkonf.de/2023/slides/fink.pdf	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.10.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.11.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.12.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.0-RC	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.2.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-beta.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.0-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.0.1-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/2.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.0-RC	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.2.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-beta.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.0-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.0.1-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/2.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.10.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.11.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.12.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-rx2/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.10.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.11.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-reactor/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.11.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.12.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/0.13.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.22	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.25	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.27	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.2-alpha.43	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.23	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.24	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.25	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.29	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.30	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.31	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.32	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.35	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.36	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.37	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.39	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.40	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.3-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.4-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.0.6-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.10	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.22	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.23	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.24	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.25	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.27	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.29	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.3.0+2022-05-16T16-21-58-758705Z	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.30	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.31	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.32	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.35	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.36	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.37	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.39	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.4.0+2022-05-17T09-11-10-723810Z	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.40	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.41	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.43	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.44	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.45	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.46	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.47	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.48	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.49	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.5.0+2022-05-17T11-44-11-714740Z	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.50	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.51	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.52	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.7	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.8	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-alpha.9	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.3-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.10	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.7	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.8	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-alpha.9	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.4-rc.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.5-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.22	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.23	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.24	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.27	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.35	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.36	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.37	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.39	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.40	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.41	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.43	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.44	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.45	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.46	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.47	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.48	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.49	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.50	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.51	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.52	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.53	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.54	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.55	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.56	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.57	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.58	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.59	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.60	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.61	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.62	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.63	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.64	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.65	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.66	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.67	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.68	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.69	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.7	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.70	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.71	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.72	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.73	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.74	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.75	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.76	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.77	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.78	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.79	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.80	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.81	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.82	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.83	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.84	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.85	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.86	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.87	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.88	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.89	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.90	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-coroutines/1.1.6-alpha.91	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.12.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/0.13.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.22	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.25	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.27	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.2-alpha.43	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.23	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.24	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.25	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.29	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.30	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.31	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.32	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.35	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.36	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.37	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.39	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.40	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.3-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.4-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.4-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.0.6-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.0	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.10	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.21	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.22	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.23	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.24	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.25	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.26	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.27	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.28	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.29	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.3.0+2022-05-16T16-21-58-758705Z	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.30	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.31	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.32	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.33	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.34	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.35	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.36	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.37	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.38	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.39	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.4.0+2022-05-17T09-11-10-723810Z	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.40	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.41	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.42	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.43	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.44	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.45	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.46	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.47	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.48	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.49	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.5.0+2022-05-17T11-44-11-714740Z	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.50	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.51	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.52	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.7	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.8	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-alpha.9	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.3-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.10	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.13	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.14	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.15	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.16	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.17	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.18	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.19	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.20	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.6	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.7	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.8	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-alpha.9	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.4-rc.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.2	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.3	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.4	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-alpha.5	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.5-rc.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.1	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.11	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.12	N/A
+https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.13	N/A
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.14
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.15
 https://central.sonatype.com/artifact/io.arrow-kt/arrow-fx-stm/1.1.6-alpha.16
