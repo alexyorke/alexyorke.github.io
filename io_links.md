@@ -171,7 +171,7 @@ https://users.cs.northwestern.edu/~chrdimo/teaching/eecs396-w19/8.pdf	N/A
 https://github.com/tweag/kernmantle	created	2025-12-23
 https://github.com/lierdakil/free-monad-examples	created	2025-07-24
 https://github.com/daanx/effect-bench	created	2025-07-04
-https://gist.github.com/3693348	N/A
+https://gist.github.com/3693348	created	2012-09-10
 https://www.youtube.com/watch?v=9Y-ZTTRDcp0	created	2024-09-17
 https://haskell.foundation/podcast/80/	created	2026-05-17
 https://haskell.foundation/podcast/77/	created	2026-03-07
@@ -223,7 +223,7 @@ https://dl.acm.org/doi/10.1145/3527326	publication	2022-04-29
 https://arxiv.org/pdf/1905.06544	created	1905
 https://downloads.haskell.org/~ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/System-IO.html	modified	2024-05-10
 https://serokell.io/blog/introduction-to-free-monads	N/A
-https://gist.github.com/CMCDragonkai/165d9a598b8fb333ea65	N/A
+https://gist.github.com/CMCDragonkai/165d9a598b8fb333ea65	created	2026-01-07
 https://discourse.haskell.org/t/have-effect-systems-completely-replaced-transformers-mtl-on-your-code/7273	publication	2023-08-11
 https://github.com/polysemy-research/polysemy	updated	2025-03-15
 https://haskellforall.com/2012/08/the-category-design-pattern	created	2012
@@ -268,7 +268,7 @@ https://haskell.foundation/podcast/65/	N/A
 https://haskell.foundation/podcast/68/	N/A
 https://haskell.foundation/podcast/74/	N/A
 https://arxiv.org/pdf/2512.22431	created	2025-12
-https://gist.github.com/vic/e33fea2e46810faf1848cc8d0b3ceba3	N/A
+https://gist.github.com/vic/e33fea2e46810faf1848cc8d0b3ceba3	created	2025-07-01
 https://arxiv.org/html/2508.12572v1	created	2025-08
 https://github.com/hasura/eff/issues/12	updated	2020-11-10
 https://doi.org/10.1017/S0956796808006758	publication	2008-07
@@ -1327,7 +1327,7 @@ https://www.parsonsmatt.org/2015/05/02/scotty_and_persistent.html	created	2015
 https://thepowerof.io/the-power-of-io-in-haskell/	N/A
 https://discourse.haskell.org/t/local-capabilities-with-mtl/231	publication	2019-02-23
 https://hexagoxel.de/postsforpublish/posts/2018-09-09-cont-part-one.html	created	2018
-https://gist.github.com/adamwespiser/25b0af28529a6de1272af6af6275f2a4	N/A
+https://gist.github.com/adamwespiser/25b0af28529a6de1272af6af6275f2a4	created	2019-12-18
 https://news.ycombinator.com/item?id=21282647	created	2019-10-17
 https://news.ycombinator.com/item?id=8933528	created	2015-01-23
 https://lexi-lambda.github.io/blog/2016/06/12/four-months-with-haskell/	created	2016
@@ -1454,7 +1454,7 @@ https://github.com/fpco/unliftio/issues/17	updated	2025-09-10
 https://github.com/haskell-effectful/effectful/issues/219	updated	2026-07-23
 https://github.com/Gabriella439/Haskell-Pipes-Safe-Library/issues/34	updated	2025-06-26
 https://github.com/fpco/unliftio/issues/55	updated	2025-09-10
-https://gist.github.com/pedrominicz/2a949417660534d99c2f556c39242957	N/A
+https://gist.github.com/pedrominicz/2a949417660534d99c2f556c39242957	created	2021-03-12
 https://www.stackage.org/lts-24.49	indexed	2026-07-04
 https://www.stackage.org/package/effectful	indexed	2026-07-27
 https://www.stackage.org/package/effectful-core	indexed	2026-07-27
@@ -1782,7 +1782,7 @@ https://blog.ploeh.dk/2020/06/29/syntactic-sugar-for-io/	created	2020
 https://anurudhp.github.io/blogs/2021/06/23/io-monad-in-cpp.html	publication	2021-06-23
 https://drbearhands.com/haskell-tutorial/2.hello-monad/	N/A
 https://dev.to/eureka84/io-to-be-a-monad-or-not-to-be-that-s-the-question-ebo	N/A
-https://gist.github.com/therewillbecode/cb342d28d79e0c24b3f950703d0da66f	N/A
+https://gist.github.com/therewillbecode/cb342d28d79e0c24b3f950703d0da66f	created	2023-08-29
 https://www.haskell.org/pipermail/haskell/2003-May/011851.html	created	2003
 https://simon.peytonjones.org/assets/pdfs/haskell-being-lazy-with-class.pdf	N/A
 https://haskellforall.com/2015/06/break-100-small-library-for-breaking	created	2015
@@ -1970,7 +1970,7 @@ https://www.reddit.com/r/haskell/comments/n196ic/why_is_bind_not_defined_with_it
 https://www.reddit.com/r/rust/comments/b6bu2c/idiomatic_monads_in_rust_a_pragmatic_new_design/	N/A
 https://courses.grainger.illinois.edu/cs421/su2016/lectures/monads/	created	2016
 https://www.johndcook.com/blog/2014/03/03/monads-are-hard-because/	created	2014
-https://gist.github.com/cscalfani/b63552922a8deb2656ecd5ec8a1a77a8	N/A
+https://gist.github.com/cscalfani/b63552922a8deb2656ecd5ec8a1a77a8	created	2022-12-04
 https://www.reddit.com/r/scala/comments/8ygjcq/can_someone_explain_the_benefits_of_io/	N/A
 https://news.ycombinator.com/item?id=16419440	created	2018-02-20
 https://www.reddit.com/r/haskell/comments/6xkktl/why_do_haskell_needs_monad_for_io/	N/A
@@ -2048,7 +2048,7 @@ https://blog.sigfpe.com/2007/03/monads-vector-spaces-and-quantum.html	created	20
 https://blog.sigfpe.com/2006/06/monads-kleisli-arrows-comonads-and.html	created	2006
 https://news.ycombinator.com/item?id=1997341	created	2010-12-12
 https://stackoverflow.com/questions/44965/what-is-a-monad	created	2008-09-04
-https://gist.github.com/2ea422007a0f18b7877326cf3f8def86	N/A
+https://gist.github.com/2ea422007a0f18b7877326cf3f8def86	created	2024-09-22
 https://www.youtube.com/watch?v=-fKAh4PVKbU	uploaded	2022-07-03
 https://www.reddit.com/r/programming/comments/4351we/the_monad_challenges_monads_cannot_be_taught_they/	N/A
 https://www.reddit.com/r/haskell/comments/ujjo/haskell_donotation_considered_harmful/	N/A
@@ -2697,7 +2697,7 @@ https://github.com/rexim/io	updated	2018-10-03
 https://www.youtube.com/watch?v=7uPOjO13nCY	uploaded	2025-05-21
 https://www.youtube.com/watch?v=fP0srOQVGB8	uploaded	2020-01-19
 https://deque.blog/2017/11/13/free-monads-from-basics-up-to-implementing-composable-and-effectful-stream-processing/	created	2017
-https://gist.github.com/nrinaudo/b02d0d17f62b6babea60cb0b52ded287	N/A
+https://gist.github.com/nrinaudo/b02d0d17f62b6babea60cb0b52ded287	created	2025-10-09
 https://www.youtube.com/watch?v=seyhAYIz1mk	uploaded	2021-10-25
 https://www.youtube.com/watch?v=JPs0NRRIqUU	uploaded	2024-02-09
 https://www.youtube.com/watch?v=GZPup5Iuaqw	uploaded	2015-06-15
@@ -2709,7 +2709,7 @@ https://www.youtube.com/watch?v=zPtP-vvqagE	uploaded	2024-04-21
 https://github.com/raimohanska/Monads	updated	2017-08-11
 https://github.com/jagajaga/FP-Course-ITMO	updated	2022-01-17
 https://github.com/graninas/software-design-in-haskell/blob/master/README.md	updated	2024-12-18
-https://gist.github.com/b473c3c9aa921d14563b	N/A
+https://gist.github.com/b473c3c9aa921d14563b	created	2014-12-20
 https://www.youtube.com/watch?v=7vxhNfNWP3k	uploaded	2024-05-06
 https://www.youtube.com/watch?v=w9ExsWcoXPs	uploaded	2023-06-27
 https://www.youtube.com/watch?v=BN3JAuGlOgM	uploaded	2021-01-27
@@ -2727,7 +2727,7 @@ https://www.youtube.com/watch?v=lLZKM7efBYw	uploaded	2024-11-24
 https://github.com/fused-effects/fused-effects	updated	2026-05-05
 https://github.com/lexi-lambda/freer-simple	updated	2022-01-07
 https://github.com/fizruk/free-agent	N/A
-https://gist.github.com/graninas/49be74a21fbd58236bad28e1ce1eed94	N/A
+https://gist.github.com/graninas/49be74a21fbd58236bad28e1ce1eed94	created	2024-06-02
 https://github.com/Cambridge-Vision-Technology/purescript-parallel-effects	updated	2025-12-07
 https://www.youtube.com/watch?v=qgfCmQ-2tW0	uploaded	2022-03-18
 https://www.youtube.com/watch?v=sDnNjtkoUVs	uploaded	2023-01-31
@@ -2896,7 +2896,7 @@ https://iris-project.org/pdfs/2024-popl-gitrees.pdf	created	2024
 https://github.com/edofic/effect-handlers	updated	2016-04-28
 https://github.com/ocaml-multicore/effects-examples	updated	2026-03-20
 https://github.com/juliangrove/algebraic-effects-montague	updated	2020-10-14
-https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99	N/A
+https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99	created	2025-11-18
 https://github.com/uhub/awesome-haskell/blob/master/README.md	updated	2026-07-17
 https://github.com/effect-handlers/effect-handlers-bench	updated	2025-08-21
 https://github.com/withoutboats/burrito	updated	2016-02-21
@@ -2954,10 +2954,10 @@ https://dl.acm.org/doi/abs/10.1145/237721.237794	publication	1996
 https://www.cs.ru.nl/~marko/research/pubs/2005/LNCS3474.pdf	created	2005
 https://github.com/sebastiaanvisser/jail	updated	2009-11-10
 https://github.com/dorchard/effect-monad	updated	2025-10-21
-https://gist.github.com/1a241955b041283a9009	N/A
+https://gist.github.com/1a241955b041283a9009	created	2015-06-01
 https://github.com/texitoi/rust-mdo	updated	2019-05-30
 https://github.com/ghc-proposals/ghc-proposals/issues/527	updated	2026-07-23
-https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e	N/A
+https://gist.github.com/kbilsted/abdc017858cad68c3e7926b03646554e	created	2026-03-28
 https://people.csail.mit.edu/jeanyang/courses/haskell/	N/A
 https://www.rose-hulman.edu/class/cs/csse403/201110/SlidePDFs/HaskellMonads.pdf	N/A
 https://klasses.cs.uchicago.edu/archive/2008/winter/22300-1/monads-and-IO.pdf	created	2008
@@ -3008,7 +3008,7 @@ https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Syste
 https://downloads.haskell.org/ghc/9.10.1/docs/libraries/base-4.20.0.0-1f57/Control-Monad-ST.html	modified	2024-05-10
 https://github.com/simonmar/monad-par/issues/18	updated	2023-11-29
 https://github.com/haskell/cabal/issues/5303	updated	2026-07-26
-https://gist.github.com/ymdfield/b681b81c4ce24038ed8be6f7b6cc4f01?permalink_comment_id=5597179	N/A
+https://gist.github.com/ymdfield/b681b81c4ce24038ed8be6f7b6cc4f01?permalink_comment_id=5597179	created	2025-05-29
 https://github.com/tomjaguarpaw/bluefin/blob/master/bluefin-internal/src/Bluefin/Internal.hs	updated	2026-07-19
 https://github.com/ianmbloom/futhask	updated	2023-03-06
 https://github.com/sergv/emacs-module/blob/master/Tutorial.md	updated	2025-10-08
@@ -3281,7 +3281,7 @@ https://github.com/tweag/linear-types/blob/master/Proposals/linear-haskell-propo
 https://github.com/bobatkey/CS316-19/blob/master/lectures/Lec13.hs	updated	2020-07-09
 https://github.com/louthy/language-ext/wiki/IO	N/A
 https://github.com/louthy/language-ext/wiki/Thinking-Functionally%3A-Application-Architecture	N/A
-https://gist.github.com/ion1/7154691	N/A
+https://gist.github.com/ion1/7154691	created	2020-08-30
 https://github.com/unclechu/purescript-for-haskellers	updated	2018-08-22
 https://github.com/alexandru/alexn.org/blob/main/_posts/2017-01-30-asynchronous-programming-scala.md	created	2017
 https://github.com/HeinrichApfelmus/optimize-monad-trans	updated	2014-02-12
@@ -3303,7 +3303,7 @@ https://github.com/etorreborre/registry/blob/main/doc/applications.md	updated	20
 https://github.com/anton-k/processing-for-haskell/blob/master/tutorial/FirstSteps.md	updated	2022-07-15
 https://github.com/giocosmiano/haskell-programming/blob/master/readme.md	N/A
 https://github.com/plrg-bristol/advanced-haskell-2026	created	2026
-https://gist.github.com/binarin/f396729e0892536415a0a1b75a0f89d7	N/A
+https://gist.github.com/binarin/f396729e0892536415a0a1b75a0f89d7	created	2017-11-17
 https://github.com/anton-k/reader-pattern-servant-app	updated	2023-11-01
 https://github.com/caiorss/Functional-Programming/blob/master/haskell/GUI_Graphical_User_Interface_GTK.org	N/A
 https://github.com/rust-unofficial/awesome-rust	N/A
@@ -3667,7 +3667,7 @@ https://confengine.com/conferences/functional-conf-2019/proposal/11256/hierarchi
 https://confengine.com/conferences/functional-conf-2014/proposal/410/you-could-have-invented-monads	created	2014
 https://www.youtube.com/watch?v=ouaR1A4ATdM	uploaded	2024-11-29
 https://www.youtube.com/watch?v=GyhDQ7BAQJw	uploaded	2022-06-28
-https://gist.github.com/fatcerberus/beae4d15842071eab24fca2f0740c2ef	N/A
+https://gist.github.com/fatcerberus/beae4d15842071eab24fca2f0740c2ef	created	2025-06-11
 https://www.slideshare.net/slideshow/monads-are-no-nomads-unlocking-the-basics/272673689	N/A
 https://www.slideshare.net/slideshow/free-monads-getting-started/76367619	N/A
 https://www.slideshare.net/slideshow/functors-applicatives-and-monads-in-scala/65414376	N/A
@@ -4868,7 +4868,7 @@ https://ocaml.org/p/coq/8.16.0/doc/Logic_monad/index.html	N/A
 https://ocaml.org/p/io/latest/doc/src/io/IO.ml.html	N/A
 https://www.di.uminho.pt/~jno/ps/pdbc04.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=735ac4990846061c31050a05708d12aeef332c5c&repid=rep1&type=pdf	N/A
-https://gist.github.com/nvanderw/7029997	N/A
+https://gist.github.com/nvanderw/7029997	created	2019-10-08
 https://www.numdam.org/item/ITA_2002__36_2_155_0/	publication	2002
 https://ghc-proposals.readthedocs.io/en/latest/proposals/0111-linear-types.html	N/A
 https://cgi.cse.unsw.edu.au/~eptcs/Published/QPL2022/Proceedings.pdf	created	2022
@@ -4904,8 +4904,8 @@ https://cljdoc.org/d/pure-io/pure-io/0.1.0	N/A
 https://www.cl.cam.ac.uk/teaching/2006/FFuncProg/fofp.pdf	created	2006
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999904043363171c8050257c045&repid=rep1&type=pdf	N/A
 https://pkg.go.dev/github.com/IBM/fp-go/v2@v2.3.58/io	published	2026-06-22
-https://gist.github.com/joergrathlev/f17092d3470dcf732be6	N/A
-https://gist.github.com/relrod/dd748c9ee0b111c3bd47	N/A
+https://gist.github.com/joergrathlev/f17092d3470dcf732be6	created	2015-06-23
+https://gist.github.com/relrod/dd748c9ee0b111c3bd47	created	2020-07-10
 https://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html	created	2012
 https://hackage.haskell.org/package/fused-effects	published	2026-05-05
 https://hackage.haskell.org/package/heftia-0.4.0.0/docs/Control-Monad-Hefty.html	created	2024-10-10
@@ -5781,7 +5781,7 @@ https://www.reddit.com/r/haskell/comments/1jyx77f	N/A
 https://www.reddit.com/r/haskell/comments/gdsqlz	N/A
 https://www.reddit.com/r/haskell/comments/re0br9	N/A
 https://www.reddit.com/r/scala/comments/uy994x	N/A
-https://gist.github.com/mmenestret/0b746cfd650796a639723ee74a3de302	N/A
+https://gist.github.com/mmenestret/0b746cfd650796a639723ee74a3de302	created	2025-02-07
 https://infoscience.epfl.ch/bitstreams/05b7210d-59f5-424f-a5fe-779744ba6469/download	N/A
 https://jproyo.github.io/posts/2019-03-17-tagless-final-haskell/	created	2019
 https://koff.io/posts/tf-gathering-effects/	N/A
@@ -7379,13 +7379,13 @@ https://hackage.haskell.org/package/lio/candidate/docs/LIO-Monad.html	created	20
 https://stackoverflow.com/questions/39424961/escaping-monad-io	created	2016-09-10
 https://hackage.haskell.org/package/lio-0.9.2.0/docs/LIO-Label.html	created	2012-11-29
 https://andersk.mit.edu/haskell/monad-peel/	N/A
-https://gist.github.com/jeyj0/a2fcd8a94931a7f3e9febccd1e6d8dec	N/A
+https://gist.github.com/jeyj0/a2fcd8a94931a7f3e9febccd1e6d8dec	created	2020-09-07
 https://seanhess.github.io/2015/08/18/practical-haskell-using-monads.html	created	2015
 https://citeseerx.ist.psu.edu/document?doi=c3ef9a62aa449230a439a9a81de76bb436b68fe3&repid=rep1&type=pdf	N/A
-https://gist.github.com/kazu-yamamoto/4711284	N/A
-https://gist.github.com/SergeyStretovich/43e7dfd93a125131bb2b62216cb19691	N/A
-https://gist.github.com/967505	N/A
-https://gist.github.com/radix/a47b91370e369b047387	N/A
+https://gist.github.com/kazu-yamamoto/4711284	created	2015-12-12
+https://gist.github.com/SergeyStretovich/43e7dfd93a125131bb2b62216cb19691	created	2020-07-09
+https://gist.github.com/967505	created	2011-05-11
+https://gist.github.com/radix/a47b91370e369b047387	created	2019-05-14
 https://repository.upenn.edu/bitstreams/69072158-fade-4334-be54-182522b57de5/download	N/A
 https://www.reddit.com/r/haskell/comments/j7ci9e	N/A
 https://www.reddit.com/r/haskell/comments/v80v6f	N/A
@@ -10773,7 +10773,7 @@ https://academia-lab.com/enciclopedia/comprobacion-rapida/	N/A
 https://handwiki.org/wiki/Software%3AQuickCheck	publication	2026-02-15
 https://www.stackage.org/lts-10.10	indexed	2018-03-17
 https://ouroboros-network.cardano.intersectmbo.org/pdfs/network-design/network-design.pdf	N/A
-https://gist.github.com/TerrorJack/ef1f8b231660ea3523bb	N/A
+https://gist.github.com/TerrorJack/ef1f8b231660ea3523bb	created	2015-03-25
 https://dokumen.pub/functional-and-logic-programming-15th-international-symposium-flops-2020-akita-japan-september-1416-2020-proceedings-1st-ed-9783030590246-9783030590253.html	created	2020
 https://www.stackage.org/nightly-2023-04-05	created	2023
 https://studylib.net/doc/28090444/haskel-1	N/A
@@ -10895,8 +10895,8 @@ https://dblp.org/db/series/eptcs/eptcs321	N/A
 https://tst.stu.cn.ua/article/view/345263	N/A
 https://hackage.haskell.org/package/HUnit	published	2021-01-19
 https://www.haskell.org/wikiupload/c/c6/ICMI45-paper-en.pdf	modified	2010-12-01
-https://gist.github.com/kazu-yamamoto/4064634	N/A
-https://gist.github.com/afifmohammed/96fb2ebc596da4198330f31b39e8662d	N/A
+https://gist.github.com/kazu-yamamoto/4064634	created	2012-11-13
+https://gist.github.com/afifmohammed/96fb2ebc596da4198330f31b39e8662d	created	2018-06-14
 https://niekm.github.io/papers/master_thesis.pdf	N/A
 https://icfp20.sigplan.org/details/haskellsymp-2020-papers/10/Effect-Handlers-in-Haskell-Evidently	created	2020
 https://research-information.bris.ac.uk/en/publications/effect-handlers-for-programmable-inference	publication	2023-08-31
@@ -10977,14 +10977,14 @@ https://hackage.haskell.org/package/effectful-0.0.0.0/docs/Effectful.html	create
 https://effect.readthedocs.io/_/downloads/en/0.10/pdf/	N/A
 https://returns.readthedocs.io/en/latest/_modules/returns/interfaces/specific/ioresult.html	N/A
 https://returns.readthedocs.io/en/0.20.0/pages/io.html	N/A
-https://gist.github.com/luther9	N/A
+https://gist.github.com/luther9	created	2021-11-18
 https://returns.readthedocs.io/en/0.18.0/pages/io.html	N/A
-https://gist.github.com/cb372/b54c974d2aa29bfdf4ef19f3535c719e	N/A
-https://gist.github.com/arturaz/2af8261fd2efeb56c8ba2fbaf71ac383	N/A
-https://gist.github.com/91a7106f656b0432288811c6866c02d4	N/A
+https://gist.github.com/cb372/b54c974d2aa29bfdf4ef19f3535c719e	created	2023-06-05
+https://gist.github.com/arturaz/2af8261fd2efeb56c8ba2fbaf71ac383	created	2023-04-19
+https://gist.github.com/91a7106f656b0432288811c6866c02d4	created	2019-03-28
 https://github.com/topics/monad	N/A
-https://gist.github.com/62f47cff49a9a39a9854	N/A
-https://gist.github.com/4acba9dc90364034afbeeb9149d997b4	N/A
+https://gist.github.com/62f47cff49a9a39a9854	created	2015-01-20
+https://gist.github.com/4acba9dc90364034afbeeb9149d997b4	created	2019-09-19
 https://raskell.io/articles/all-beginning-is-haskell/	N/A
 https://serokell.io/blog/rust-vs-haskell	N/A
 https://mmhaskell.com/blog/2019/12/2/ownership-managing-memory-in-rust	created	2019
@@ -11150,7 +11150,7 @@ https://www.unison-lang.org/learn/fundamentals/abilities/using-abilities-pt1/	N/
 https://www.unison-lang.org/docs/fundamentals/abilities/using-abilities-pt2	N/A
 https://www.unison-lang.org/docs/language-reference/the-typechecking-rule-for-abilities/	N/A
 https://www.unison-lang.org/docs/fundamentals/abilities/using-abilities-pt1/	N/A
-https://gist.github.com/atacratic/7a91901d5535391910a2d34a2636a93c	N/A
+https://gist.github.com/atacratic/7a91901d5535391910a2d34a2636a93c	created	2024-10-22
 https://univalence.io/blog/articles/unison-langage/	N/A
 https://www.research.ed.ac.uk/en/publications/do-be-do-be-do/	publication	2017-01-01
 https://www.research.ed.ac.uk/en/publications/do-be-do-be-do	publication	2017-01-01
@@ -11205,7 +11205,7 @@ https://www.cambridge.org/core/journals/mathematical-structures-in-computer-scie
 https://www.researchgate.net/publication/2273169_Imperative_functional_programming_Brief_summary	N/A
 https://www.scribd.com/document/303593475/Haskell-Design-Patterns-Sample-Chapter	modified	2016-03-10
 https://www.packtpub.com/en-UA/product/haskell-design-patterns-9781783988723	N/A
-https://gist.github.com/omnibs/a4aba847f76fb778c23766e00a85ccae	N/A
+https://gist.github.com/omnibs/a4aba847f76fb778c23766e00a85ccae	created	2021-09-18
 https://nokomprendo.gitlab.io/posts/tuto_fonctionnel_61/2021-04-02-fr-README.html	created	2021
 https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html	created	2018
 https://www.packtpub.com/en-pl/product/haskell-design-patterns-9781783988730	N/A
@@ -11844,10 +11844,10 @@ https://users.eecs.northwestern.edu/~clk800/rand-test-study/_epfffk/epfffk-2009-
 https://dblp.org/pid/01/5985	N/A
 https://upload.wikimedia.org/wikiversity/en/6/6e/Monad.P1.1A.SideEffect.20190316.pdf	N/A
 https://fmaste.github.io/Haskell/	N/A
-https://gist.github.com/fkurz/cf00cf22acb6f40879c47e34074f991a	N/A
+https://gist.github.com/fkurz/cf00cf22acb6f40879c47e34074f991a	created	2021-02-17
 https://madjestic.github.io/posts/2018-11-02-on-purity-vs-impurity.html	created	2018
-https://gist.github.com/paf31/9c4d402d400d61a49656?permalink_comment_id=1318377	N/A
-https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99?permalink_comment_id=3412871	N/A
+https://gist.github.com/paf31/9c4d402d400d61a49656?permalink_comment_id=1318377	created	2026-02-24
+https://gist.github.com/graninas/1b7961ccaedf7b5cb92417a1599fdc99?permalink_comment_id=3412871	created	2025-11-18
 https://link.springer.com/article/10.1007/s10817-020-09559-8	N/A
 https://link.springer.com/book/10.1007/978-3-030-39197-3	N/A
 https://hal.science/hal-02389321v1/document	N/A
@@ -13501,12 +13501,12 @@ https://mailman.haskell.org/archives/list/haskell-cafe%40haskell.org/2021/9/	cre
 https://www.barnesandnoble.com/w/real-world-haskell-bryan-osullivan/1101818642?ean=9780596554309	N/A
 https://www.microsoft.com/en-us/research/publication/an-operational-semantics-for-io-in-a-lazy-functional-language/?lang=ko-kr	N/A
 https://web.cs.dal.ca/~nzeh/Teaching/3137/haskell/monads/monads/	N/A
-https://gist.github.com/Alykoff/7830415	N/A
-https://gist.github.com/fatcerberus/1349df5eb27f823a2fc10921a8f14f77	N/A
-https://gist.github.com/tromp/86b3184f852f65bfb814e3ab0987d861	N/A
-https://gist.github.com/IGI-111/d80a8a9356ec10e5027d1efe28190352?short_path=76fe1bf	N/A
-https://gist.github.com/gabrielelana/2e93d75d7872020e09b16cbff6b5da5d	N/A
-https://gist.github.com/haskie-lambda/55f74dba1f3c1a2408ce545d4984159b	N/A
+https://gist.github.com/Alykoff/7830415	created	2015-12-30
+https://gist.github.com/fatcerberus/1349df5eb27f823a2fc10921a8f14f77	created	2019-05-01
+https://gist.github.com/tromp/86b3184f852f65bfb814e3ab0987d861	created	2026-05-12
+https://gist.github.com/IGI-111/d80a8a9356ec10e5027d1efe28190352?short_path=76fe1bf	created	2023-09-12
+https://gist.github.com/gabrielelana/2e93d75d7872020e09b16cbff6b5da5d	created	2019-10-10
+https://gist.github.com/haskie-lambda/55f74dba1f3c1a2408ce545d4984159b	created	2021-08-11
 https://dev.to/gege251/haskell-do-notation-explained-through-javascript-async-await-part-1-3ha1	N/A
 https://dev.to/chenge/a-good-video-for-haskell-monad-5no	N/A
 https://dev.to/deciduously/some-haskell-englishd-cd9	N/A
@@ -13566,9 +13566,9 @@ http://www.haskell.org/ghc/docs/7.0.3/html/libraries/ghc-prim-0.2.0.0/src/GHC-Pr
 https://guppy.eng.kagawa-u.ac.jp/2011/AdvProg/Text/Monad.pdf	created	2011
 https://www.mew.org/~kazu/material/2008-haskell.pdf	created	2008
 https://jhc.sjtu.edu.cn/public/courses/CS2205/Projects.pdf	N/A
-https://gist.github.com/rahulmutt/355505bce57c7c2cffd7d4cf5edddad4	N/A
-https://gist.github.com/zudov/a13f58671e9f5231e0ad03d52161a333	N/A
-https://gist.github.com/6e42ed2e43014ef55382	N/A
+https://gist.github.com/rahulmutt/355505bce57c7c2cffd7d4cf5edddad4	created	2017-11-22
+https://gist.github.com/zudov/a13f58671e9f5231e0ad03d52161a333	created	2017-10-13
+https://gist.github.com/6e42ed2e43014ef55382	created	2026-02-03
 https://www.haskell.org/haskellwiki/video_presentations	modified	2016-08-07
 https://haskellweekly.news/episode/56.html	N/A
 https://podcasts.apple.com/us/podcast/why-haskell-is-the-language-for-correctness-in-2026/id1896800761?i=1000773022044&l=pt-BR	created	2026
@@ -13825,10 +13825,10 @@ https://www.sambuz.com/doc/301aa-advanced-programming-ppt-presentation-1017806	N
 https://www.sambuz.com/doc/chapter-4-type-checking-ppt-presentation-993690	N/A
 https://www.sambuz.com/doc/hgamer-3d-ppt-presentation-775711	N/A
 https://www.sambuz.com/doc/well-typed-ppt-presentation-718631	N/A
-https://gist.github.com/chrisdone/d22f41b683e333380c76dbc9c60ed72d	N/A
-https://gist.github.com/3163428	N/A
-https://gist.github.com/dtchepak/3163428	N/A
-https://gist.github.com/ardbytes/10446574	N/A
+https://gist.github.com/chrisdone/d22f41b683e333380c76dbc9c60ed72d	created	2022-07-24
+https://gist.github.com/3163428	created	2012-07-23
+https://gist.github.com/dtchepak/3163428	created	2012-07-23
+https://gist.github.com/ardbytes/10446574	created	2014-04-11
 https://www.stackage.org/nightly-2015-12-08/package/pure-io-0.2.1	created	2015
 https://www.stackage.org/lts-17.6/package/io-machine-0.2.0.0	indexed	2026-07-27
 https://www.stackage.org/lts-20.4/package/io-manager-0.1.0.3	indexed	2026-07-27
@@ -13945,7 +13945,7 @@ https://www.abp-workshop.de/assets/slides/ABP2019_slides_03.pdf	created	2019
 https://janis-voigtlaender.eu/papers.html	N/A
 https://gitlab.haskell.org/ghc/ghc-wiki-mirror/-/blob/original/reading-list.md	N/A
 https://citeseerx.ist.psu.edu/document?doi=f09be46c9638feecf15a7cdf12f463a1f58d04e6&repid=rep1&type=pdf	N/A
-https://gist.github.com/YBogomolov/d467dd7a3ae2b075c9bc9a1e14572309	N/A
+https://gist.github.com/YBogomolov/d467dd7a3ae2b075c9bc9a1e14572309	created	2025-01-13
 https://stackoverflow.com/questions/33596471/does-folktale-have-an-io-monad	N/A
 https://stackoverflow.com/questions/33087966/use-only-the-value-from-io-monad-without-precedent-io-actions	N/A
 https://hackage.haskell.org/package/javascript-bridge	published	2019-09-12
@@ -13967,9 +13967,9 @@ https://groups.google.com/g/comp.lang.functional/c/gi9QEeCi-iM/m/oA6B7X2xHEwJ	N/
 https://groups.google.com/g/comp.compilers/c/HGZZuTLQbrg	N/A
 https://mail.haskell.org/pipermail/haskell-cafe/2006-September/018310.html	created	2006
 https://mail.haskell.org/pipermail/glasgow-haskell-users/2002-November/004271.html	created	2002
-https://gist.github.com/IGI-111/d80a8a9356ec10e5027d1efe28190352	N/A
-https://gist.github.com/JoshCheek/e0adb84b3392440c3125c05f7a0fa3d6	N/A
-https://gist.github.com/mmhelloworld/8d061753ef57ab6ab984	N/A
+https://gist.github.com/IGI-111/d80a8a9356ec10e5027d1efe28190352	created	2023-09-12
+https://gist.github.com/JoshCheek/e0adb84b3392440c3125c05f7a0fa3d6	created	2017-01-27
+https://gist.github.com/mmhelloworld/8d061753ef57ab6ab984	created	2016-01-18
 https://stackoverflow.com/questions/44128288/io-vs-referential-transparency	N/A
 https://stackoverflow.com/questions/7088085/trying-to-understand-the-types-produced-by-monad-transformers	N/A
 https://stackoverflow.com/questions/23185394/haskell-convert-type-to-data-statement	N/A
@@ -14107,8 +14107,8 @@ https://www.reddit.com/r/haskell/comments/ydeb41	N/A
 https://www.reddit.com/r/haskellquestions/comments/1tscedu	N/A
 https://sigarra.up.pt/fcup/en/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=508294	N/A
 https://nick.geek.nz/research/downloads/489_Report.pdf	N/A
-https://gist.github.com/f5d2ac617298bde828a5	N/A
-https://gist.github.com/friedbrice/e1adbadd85cbd8f9f3040dd9b4a81ffa	N/A
+https://gist.github.com/f5d2ac617298bde828a5	created	2016-03-25
+https://gist.github.com/friedbrice/e1adbadd85cbd8f9f3040dd9b4a81ffa	created	2018-05-18
 https://cnlelema.github.io/memo/en/logics/fm/basic-concepts/monads/	N/A
 https://www.reddit.com/r/haskell/comments/1fs8lrz	N/A
 https://www.reddit.com/r/haskell/comments/1n67mz3	N/A
@@ -14214,7 +14214,7 @@ https://stackoverflow.com/questions/28137838/creating-monadbasecontrol-instance-
 https://www.researchgate.net/publication/237842202_Korrektheit_von_Programmen_und_Programmiersprachen_--_Methoden_Analysen_und_Anwendungen	N/A
 https://packages.debian.org/sid/haskell/libghc-iospec-dev	modified	2026-07-27
 https://packages.ubuntu.com/jammy/arm64/haskell/libghc-iospec-dev	N/A
-https://gist.github.com/jasim/cccb56875769ddffeecdf01dcbbc3254	N/A
+https://gist.github.com/jasim/cccb56875769ddffeecdf01dcbbc3254	created	2018-10-15
 https://gist.githubusercontent.com/jasim/cccb56875769ddffeecdf01dcbbc3254/raw/8e0488ed57d6f7b8579eb0a5ca61f1f75156ea36/fp_papers.md	N/A
 https://www.researchgate.net/publication/371758827_Tackling_the_Awkward_Squad_for_Reactive_Programming_The_Actor-Reactor_Model	N/A
 https://guppy.eng.kagawa-u.ac.jp/2022/AdvProg/Text/%E3%83%90%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC2.pdf	created	2022
@@ -14251,11 +14251,11 @@ https://faculty.knox.edu/dbunde/pubs/haskell.pdf	N/A
 https://www.michaelhanus.de/slides/ETAPS00.pdf	N/A
 https://discourse.haskell.org/t/mutability-side-effects/4899	publication	2022-08-07
 https://www.reddit.com/r/ProgrammingLanguages/comments/13nht65	N/A
-https://gist.github.com/AyeGill/9498b41fc956f1aeda5d	N/A
+https://gist.github.com/AyeGill/9498b41fc956f1aeda5d	created	2015-08-29
 https://gist.githubusercontent.com/AyeGill/9498b41fc956f1aeda5d/raw/HaskellIOIntro.md	N/A
 https://gist.githubusercontent.com/ion1/7154691/raw/0README.md	N/A
-https://gist.github.com/26917d2abded3e82f427	N/A
-https://gist.github.com/e2a26007537c6227a95d	N/A
+https://gist.github.com/26917d2abded3e82f427	created	2022-09-18
+https://gist.github.com/e2a26007537c6227a95d	created	2015-08-29
 https://igm.univ-mlv.fr/~vialette/teaching/2021-2022/haskell/lectures/	created	2021
 https://labra.weso.es/pdf/1998_Introduccion_al_lenguaje_Haskell.pdf	created	1998
 https://rockthejvm.com/podcast/b588fa07-2087-401d-9d1e-fb53e51d8ba1	N/A
@@ -14422,7 +14422,7 @@ https://www.reddit.com/r/Kotlin/comments/ek5030	N/A
 https://www.jsdelivr.com/package/npm/%40io-monad/chrome-util	N/A
 https://app.unpkg.com/monio%400.71.0/files/MONIO.md	N/A
 https://github.com/leonoel/missionary	updated	2026-06-26
-https://gist.github.com/jdegoes/7cc7e7aacd032773f3c24123d0d486d4	N/A
+https://gist.github.com/jdegoes/7cc7e7aacd032773f3c24123d0d486d4	created	2016-08-09
 https://www.rubydoc.info/gems/ruby-maybe/0.2.0/file/README.md	N/A
 https://aicenter.github.io/FUP/slides/lecture10.pdf	N/A
 https://www.reddit.com/r/functionalprogramming/comments/yqzxwl	N/A
@@ -25137,7 +25137,7 @@ https://softwarepatternslexicon.com/scala/functional-design-patterns/free-monads
 https://users.scala-lang.org/t/tagless-final-questions/10857	publication	2025-07-02
 https://tinkoff-scala.github.io/slides/lectures/13-tagless-final/index.html	N/A
 https://degoes.net/articles/zio-environment	N/A
-https://gist.github.com/igor-ramazanov/3bf9e0ca2363973b6cbaffa86f78005d	N/A
+https://gist.github.com/igor-ramazanov/3bf9e0ca2363973b6cbaffa86f78005d	created	2022-03-29
 https://typelevel.org/cats-tagless/	modified	2023-06-08
 https://www.basementcrowd.com/2019/01/17/an-introduction-to-tagless-final-in-scala/index.html	publication	2019-01-17
 https://scalawithcats.com/dist/scala-with-cats.html	N/A
@@ -26468,7 +26468,7 @@ https://agda.github.io/agda-stdlib/v2.1/System.Random.html	modified	2026-07-16
 https://agda.github.io/agda-stdlib/v2.1/System.Random.Primitive.html	modified	2026-07-16
 https://agda.github.io/agda-stdlib/v2.1/System.Clock.html	modified	2026-07-16
 https://agda.github.io/agda-stdlib/v2.1/System.Clock.Primitive.html	modified	2026-07-16
-https://gist.github.com/UlfNorell/bb7b807e7de013a7daca310da123c834	N/A
+https://gist.github.com/UlfNorell/bb7b807e7de013a7daca310da123c834	created	2020-10-06
 https://github.com/agda/agda/issues/5843	updated	2026-07-21
 https://hackage.haskell.org/package/Agda-2.6.1/src/doc/user-manual.pdf	created	2020-03-16
 https://sources.debian.org/src/agda-stdlib/	N/A
@@ -27244,7 +27244,7 @@ https://github.com/snapframework/io-streams/tags	updated	2025-03-24
 https://www.kosmikus.org/HaskellForDSLs.pdf	N/A
 https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg987863.html	created	2026-03-26
 https://archlinux.org/packages/extra/x86_64/haskell-resourcet/	N/A
-https://gist.github.com/el-hult/486b9208edff473e1da91260a6d361bc	N/A
+https://gist.github.com/el-hult/486b9208edff473e1da91260a6d361bc	created	2022-03-10
 https://sources.debian.org/src/haskell-conduit/1.3.6-1/ChangeLog.md	N/A
 https://github.com/ekmett/exceptions	updated	2026-03-02
 https://github.com/ekmett/exceptions/releases	updated	2026-03-02
@@ -28249,9 +28249,9 @@ https://repositum.tuwien.at/bitstream/20.500.12708/12442/2/Schmied%20Fabian%20-%
 https://www.cs.princeton.edu/courses/archive/fall16/cos326/lec/23-Haskell.pdf	N/A
 https://www.danielgratzer.com/papers/denotational-semantics-of-general-store-and-polymorphism.pdf	N/A
 https://yceffort.kr/en/2026/02/effect-ts-deep-dive	created	2026
-https://gist.github.com/andrevdm/4d1625e6504e3f1fef9ee9fbc1298b34	N/A
-https://gist.github.com/filippovitale/5c107b3e44bbbc616851	N/A
-https://gist.github.com/Rydgel/aa665041ee0b11d40848e21b009de24a	N/A
+https://gist.github.com/andrevdm/4d1625e6504e3f1fef9ee9fbc1298b34	created	2017-12-30
+https://gist.github.com/filippovitale/5c107b3e44bbbc616851	created	2021-06-04
+https://gist.github.com/Rydgel/aa665041ee0b11d40848e21b009de24a	created	2017-01-04
 https://stackoverflow.com/questions/56092971/free-monad-vs-explicitly-passing-functions	N/A
 https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/Control-Monad-ST-Unsafe.html	N/A
 https://www.haskell.org/hugs/pages/libraries/base/Control-Monad-ST.html	modified	2019-02-17
@@ -28345,7 +28345,7 @@ https://themonadreader.wordpress.com/previous-issues/	publication	2009-05-12
 https://themonadreader.wordpress.com/wp-content/uploads/2010/02/author.pdf	created	2010
 https://themonadreader.wordpress.com/wp-content/uploads/2015/08/issue24.pdf	created	2015
 https://www.haskell.org/communities/11-2009/html/report.html	created	2009
-https://gist.github.com/troyp/a81eddb225d7e6b8df29377ed5f99f0c	N/A
+https://gist.github.com/troyp/a81eddb225d7e6b8df29377ed5f99f0c	created	2020-07-25
 https://lwn.net/Articles/134842/	N/A
 https://www.ireneyoon.com/paper/fralmi.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/a-poor-mans-concurrency-monad/A369E310ADAE4455020C918FC1D47958	publication	1999-05
@@ -28393,7 +28393,7 @@ https://www.microsoft.com/en-us/research/publication/the-%CE%BB-abroad-a-functio
 https://graninas.com/functional-design-and-architecture-book/	N/A
 https://mmhaskell.com/purescript-2	N/A
 https://engineering.yale.edu/application/files/8317/3686/0211/TR1446.pdf	N/A
-https://gist.github.com/alvelcom/eec7fbacf80212ab9135c9d5213028c2	N/A
+https://gist.github.com/alvelcom/eec7fbacf80212ab9135c9d5213028c2	created	2018-10-30
 https://ora.ox.ac.uk/objects/uuid%3A66106628-0a71-4564-bc34-c398db766818	publication	2017
 https://research.ed.ac.uk/en/publications/the-glasgow-haskell-compiler-a-retrospective	N/A
 https://www.speicherleck.de/iblech/klasse11/index.pdf	N/A
@@ -28543,7 +28543,7 @@ https://github.com/cjdev/monad-mock	N/A
 https://hackage.haskell.org/package/monad-io-adapter	published	2017-11-21
 https://hackage.haskell.org/package/monad-stm	published	2013-04-07
 https://books.thoughtbot.com/assets/maybe-haskell.pdf	N/A
-https://gist.github.com/jameshfisher/1d735b5267e8f848b280	N/A
+https://gist.github.com/jameshfisher/1d735b5267e8f848b280	created	2015-01-06
 https://github.com/xgrommx/awesome-functional-programming/blob/master/README.md	N/A
 https://packages.ubuntu.com/ca/source/noble/s390x/haskell-io-storage	N/A
 https://scispace.com/pdf/monadic-i-o-in-haskell-1-3-2eo9vk3xbc.pdf	N/A
@@ -28585,9 +28585,9 @@ https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/m
 https://upload.wikimedia.org/wikiversity/en/6/65/MP3.3A.ST.Basic.20190810.pdf	N/A
 https://www.ps.uni-saarland.de/theses/brunotte/Thesis.htm	N/A
 https://citeseerx.ist.psu.edu/document?doi=dd70a5af31c2f6196803ed69dbc1f9e877047e7a&repid=rep1&type=pdf	N/A
-https://gist.github.com/7b114cc2df6ab4da4da591651f82e9a8	N/A
-https://gist.github.com/dseeni/ae8d2f8319036f84071c9517c468a5a3	N/A
-https://gist.github.com/fatcerberus	N/A
+https://gist.github.com/7b114cc2df6ab4da4da591651f82e9a8	created	2021-05-07
+https://gist.github.com/dseeni/ae8d2f8319036f84071c9517c468a5a3	created	2023-09-29
+https://gist.github.com/fatcerberus	created	2022-04-23
 https://gist.github.com/fatcerberus/io.md	N/A
 https://hackage.haskell.org/package/effect-monad/docs	created	2018-01-24
 https://hackage.haskell.org/package/event-monad	published	2010-01-11
@@ -28596,7 +28596,7 @@ https://hackage.haskell.org/package/simple-effects	published	2018-11-19
 https://hackage.haskell.org/package/Test-SmallCheck/docs/Test-SmallCheck.html	N/A
 https://stackoverflow.com/questions/5032475/why-does-haskell-not-have-an-i-monad-for-input-only-unlike-the-io-monad?noredirect=1	N/A
 https://studylib.net/doc/25910942/haskell2010	created	2010
-https://gist.github.com/captainalan/88b2258623d321938d3daa3f0f3a12dc	N/A
+https://gist.github.com/captainalan/88b2258623d321938d3daa3f0f3a12dc	created	2019-04-01
 https://github.com/juspay/euler-hs	updated	2023-08-31
 https://repositorio.ufpe.br/bitstream/123456789/11435/1/DISSERTA%C3%87%C3%83O%20Francisco%20Miranda%20Soares%20da%20Silva%20Neto.pdf	N/A
 https://studyres.com/doc/2841226/database-programming-languages--dbpl-5-	N/A
@@ -28667,7 +28667,7 @@ https://hackage.haskell.org/package/schedule	published	2020-04-03
 https://hackage.haskell.org/package/stateful-mtl/docs/Control-Monad-ST-Class.html	created	2009-03-13
 https://hackage.haskell.org/package/stm-io-hooks	published	2019-10-27
 https://hackage.haskell.org/package/stm-lifted	published	2019-04-30
-https://gist.github.com/CMCDragonkai/196227d39ad893e972c1	N/A
+https://gist.github.com/CMCDragonkai/196227d39ad893e972c1	created	2015-02-20
 https://hackage.haskell.org/package/explicit-exception-0.2/src/src/System/IO/Straight.hs	created	2023-01-14
 https://hackage.haskell.org/package/io-sim/issues	created	2026-04-15
 https://hackage.haskell.org/package/monadio-unwrappable-0.3/docs	created	2012-06-18
@@ -28703,8 +28703,8 @@ https://hackage.haskell.org/package/ixmonad	published	2014-05-15
 https://hackage.haskell.org/package/remote-monad	published	2016-02-08
 https://hackage.haskell.org/package/resource-effectful	published	2026-05-16
 https://hackage.haskell.org/package/retry-io-classes	published	2026-06-06
-https://gist.github.com/CMCDragonkai/1a241955b041283a9009	N/A
-https://gist.github.com/paf31/9c4d402d400d61a49656	N/A
+https://gist.github.com/CMCDragonkai/1a241955b041283a9009	created	2015-06-01
+https://gist.github.com/paf31/9c4d402d400d61a49656	created	2026-02-24
 https://github.com/singpolyma/unexceptionalio-trans	updated	2024-01-02
 https://github.com/transient-haskell/transient-universe	updated	2021-03-06
 https://hackage.haskell.org/package/unexceptionalio-0.2.0/docs	created	2014-09-13
@@ -28909,9 +28909,9 @@ https://link.springer.com/book/10.1007/3-540-59451-5	publication	1995
 https://arxiv.org/abs/2207.00852	created	2022-07
 https://github.com/awkward-squad/ki	N/A
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	N/A
-https://gist.github.com/3994038	N/A
-https://gist.github.com/ijt/967505	N/A
-https://gist.github.com/piq9117/68b96887f75b3dc6e3cce5d3a83b289a	N/A
+https://gist.github.com/3994038	created	2012-11-01
+https://gist.github.com/ijt/967505	created	2011-05-11
+https://gist.github.com/piq9117/68b96887f75b3dc6e3cce5d3a83b289a	created	2021-03-28
 https://github.com/Bodigrim/logict	N/A
 https://hackage.haskell.org/package/functor-monadic-0.1.0.3/candidate/docs/Data-Functor-Monadic.html	N/A
 https://mynixos.com/nixpkgs/package/haskellPackages.hashmap-io	modified	2026-06-12
@@ -30295,8 +30295,8 @@ https://rubenpieters.github.io/assets/papers/JFP20-handlers.pdf	N/A
 https://corophage.rs/	N/A
 https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf	N/A
 https://www.baeldung.com/scala/cats-effect	N/A
-https://gist.github.com/dino-/347b0f02c4acf9053ae4ff05ca891a55	N/A
-https://gist.github.com/friedbrice/520f627d927cb658c587bd3cdb6cf4dc	N/A
+https://gist.github.com/dino-/347b0f02c4acf9053ae4ff05ca891a55	created	2018-12-24
+https://gist.github.com/friedbrice/520f627d927cb658c587bd3cdb6cf4dc	created	2024-04-04
 https://www.etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf	N/A
 https://markwatson.com/books/haskell-cookbook-site/	N/A
 https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg9e5W8ZQyXmYqg5PpkEjxovze6DB84dpj6	N/A
@@ -33141,15 +33141,15 @@ https://www.stackage.org/lts-24.29/package/io-storage-0.3	indexed	2026-07-27
 https://www.stackage.org/lts-24.29/package/io-manager-0.1.0.4	indexed	2026-07-27
 https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	N/A
 https://github.com/kbilsted/Functional-core-imperative-shell/blob/master/README.md	updated	2020-09-24
-https://gist.github.com/therewillbecode	N/A
-https://gist.github.com/FranklinChen/1448622	N/A
+https://gist.github.com/therewillbecode	created	2023-08-29
+https://gist.github.com/FranklinChen/1448622	created	2011-12-08
 https://www.stackage.org/lts-20.17/package/monad-skeleton-0.2	indexed	2022-11-17
 https://hackage-content.haskell.org/package/heftia-0.7.0.0/docs/Control-Monad-Hefty.html	N/A
 https://arxiv.org/abs/2406.07216	created	2024-06
-https://gist.github.com/vu3rdd/6409454	N/A
-https://gist.github.com/ymdfield/e17cb32aa24eb1418377d9fecc021101	N/A
-https://gist.github.com/newswim/4668aef8a1f1bc0dabe8	N/A
-https://gist.github.com/837f820d38c8ac6c46e2a02a4d3c0fbd	N/A
+https://gist.github.com/vu3rdd/6409454	created	2019-02-13
+https://gist.github.com/ymdfield/e17cb32aa24eb1418377d9fecc021101	created	2025-05-02
+https://gist.github.com/newswim/4668aef8a1f1bc0dabe8	created	2026-05-23
+https://gist.github.com/837f820d38c8ac6c46e2a02a4d3c0fbd	created	2016-06-30
 https://packages.debian.org/source/stable/haskell-monadlist	modified	2026-07-27
 https://arxiv.org/abs/1707.04724	created	2017-07
 https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html	N/A
