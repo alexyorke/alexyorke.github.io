@@ -6711,10 +6711,10 @@ https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-IORef.html	created	2
 https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-MVar.html	created	2023-07-25
 https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-STM.html	created	2023-07-25
 https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Surrogate.html	created	2023-07-25
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Teletype.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Types.html	N/A
-https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-VirtualMachine.html	N/A
-https://hackage.haskell.org/package/IOSpec-0.2.2/docs	N/A
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Teletype.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-Types.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec/docs/Test-IOSpec-VirtualMachine.html	created	2023-07-25
+https://hackage.haskell.org/package/IOSpec-0.2.2/docs	created	2011-01-20
 https://input-output-hk.github.io/io-sim/io-sim/Control-Monad-IOSim.html	N/A
 https://packages.debian.org/sid/armel/doc/libghc-iospec-doc	N/A
 https://packages.debian.org/trixie/doc/libghc-iospec-doc	N/A
@@ -6744,7 +6744,7 @@ https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-Event
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/9.16.1-notes.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/runtime_control.html	N/A
 https://gitlab.haskell.org/ghc/ghc/-/blob/290f83572571be6d51f1e2f8e6701cad68020ddd/docs/users_guide/runtime_control.rst	N/A
-https://hackage.haskell.org/package/base-4.6.0.1/docs/src/GHC-Event-Manager.html	N/A
+https://hackage.haskell.org/package/base-4.6.0.1/docs/src/GHC-Event-Manager.html	created	2013-01-31
 https://repository.gatech.edu/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/download	N/A
 https://www.reddit.com/r/haskell/comments/1fbwp8p	N/A
 https://www.reddit.com/r/haskell/comments/ht4ehe	N/A
@@ -6754,7 +6754,7 @@ https://downloads.haskell.org/~ghc/8.10.1-alpha1/docs/users_guide.pdf	N/A
 https://downloads.haskell.org/~ghc/latest/docs/libraries/ghc-internal-9.1401.0-555c/GHC-Internal-Control-Exception.html	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/	N/A
 https://ghcguide.haskell.jp/8.4.3/users_guide/index.html	N/A
-https://hackage.haskell.org/package/asynchronous-exceptions/docs/Control-Exception-Async.html	N/A
+https://hackage.haskell.org/package/asynchronous-exceptions/docs/Control-Exception-Async.html	created	2014-02-05
 https://www.haskell.org/communities/11-2010/report.pdf	created	2010
 https://www.reddit.com/r/haskell/comments/xlm4qv	N/A
 https://downloads.haskell.org/~ghc/7.8.2/docs/users_guide.pdf	N/A
@@ -6799,7 +6799,7 @@ https://ceur-ws.org/Vol-1129/paper48.pdf	N/A
 https://citeseerx.ist.psu.edu/document?doi=f633bc66d270bae980dfe80c4bb18242164c07a7&repid=rep1&type=pdf	N/A
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/stm.html	N/A
 https://gitlab.haskell.org/ghc/ghc/-/merge_requests/14354	N/A
-https://hackage.haskell.org/package/stm-orelse-io/docs	N/A
+https://hackage.haskell.org/package/stm-orelse-io/docs	created	2012-09-15
 https://mail.haskell.org/pipermail/haskell-cafe/2006-November/019771.html	created	2006
 https://researchr.org/publication/haskell-2011	created	2011
 https://stackoverflow.com/questions/37162112/stm-and-outgoing-io	N/A
@@ -6851,7 +6851,7 @@ https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/ch08.
 https://www.scribd.com/document/751261678/Parallel-and-Concurrent-Programming-in-Haskell-PDF	N/A
 https://www.slideserve.com/neveah/parallel-and-concurrent-haskell-part-ii-powerpoint-ppt-presentation	N/A
 https://arxiv.org/abs/0805.4029	N/A
-https://hackage.haskell.org/package/base-4.14.1.0/docs/Control-Concurrent.html	N/A
+https://hackage.haskell.org/package/base-4.14.1.0/docs/Control-Concurrent.html	created	2020-12-15
 https://hackage.haskell.org/package/base-4.3.1.0/docs/Control-Concurrent-MVar.html	N/A
 https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Concurrent.html	N/A
 https://hackage.haskell.org/package/base-4.6.0.1/docs/Control-Concurrent-MVar.html	N/A
