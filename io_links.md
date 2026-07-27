@@ -1337,7 +1337,7 @@ https://www.stackage.org/nightly-2016-12-13/package/transformers-0.5.2.0	created
 https://stackoverflow.com/questions/3921237/haskell-lift-vs-liftio	created	2010-10-13
 https://stackoverflow.com/questions/46227562/understanding-the-monadio-laws	created	2017-09-14
 https://github.com/tfausak/tfausak.github.io/blob/master/_posts/2014-10-21-building-a-json-rest-api-in-haskell.md	created	2014
-https://www.reddit.com/r/haskell/comments/10nsn9t/about_monad_transformers/	N/A
+https://www.reddit.com/r/haskell/comments/10nsn9t/about_monad_transformers/	created	2023-01-28
 https://www.reddit.com/r/haskell/comments/s35hms/mtl_monad_transformer_deriving_monadio_still_needing_to_lift/	N/A
 https://www.scs.stanford.edu/14sp-cs240h/slides/extensions.html	N/A
 https://stackoverflow.com/questions/71223344/how-do-i-deal-with-the-error-no-instance-for-control-monad-io-class-monadio	created	2022-02-22
@@ -1391,7 +1391,7 @@ https://stackoverflow.com/questions/54779029/how-to-understand-monadunliftios-re
 https://www.fpcomplete.com/blog/2017/06/tale-of-two-brackets?ref=dzone	created	2017
 https://www.fpcomplete.com/haskell/library/unliftio/	N/A
 https://www.reddit.com/r/haskell/comments/u9bcc3/error_handling_in_the_rio_and_unliftio_world/	N/A
-https://www.reddit.com/r/haskell/comments/115bp3c/unliftio_exceptt_and_coercible/	N/A
+https://www.reddit.com/r/haskell/comments/115bp3c/unliftio_exceptt_and_coercible/	created	2023-02-18
 https://www.reddit.com/r/haskell/comments/1s33dmc/the_hidden_perils_of_monadbasecontrol/	N/A
 https://www.stackage.org/package/unliftio-core	N/A
 https://stackoverflow.com/questions/57198777/how-to-define-monadunliftio-instance-for-a-newtype-with-a-phantom-type-variable	created	2019-07-25
