@@ -187,7 +187,7 @@ https://se.cs.uni-tuebingen.de/publications/gaissert2025tracing.pdf	created	2025
 https://xnning.github.io/papers/icfp24parallel.pdf	created	2026-02-15
 https://dl.acm.org/doi/10.1145/3689798	publication	2024-10-08
 https://dl.acm.org/doi/10.1145/3677999.3678279	publication	2024-08-29
-https://arxiv.org/pdf/2402.03103	N/A
+https://arxiv.org/pdf/2402.03103	publication	2024
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796824000066	N/A
 https://dl.acm.org/doi/pdf/10.1145/3471874.3472988	publication	2021-08-18
 https://tomasp.net/academic/papers/malias/malias.pdf	created	2024-03-02
@@ -234,7 +234,7 @@ https://haskellforall.com/2012/07/pipes-2.1-and-index-core-1.0-indexed	created	2
 https://en.wikibooks.org/wiki/Haskell/Comonads	N/A
 https://haskellforall.com/	N/A
 https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Io	N/A
-https://arxiv.org/abs/2401.08901	N/A
+https://arxiv.org/abs/2401.08901	publication	2024
 https://arxiv.org/abs/2506.15424	N/A
 https://arxiv.org/abs/2502.15031	publication	2025
 https://arxiv.org/abs/2604.15290	N/A
@@ -314,7 +314,7 @@ https://paperswelove.org/papers/the-essence-of-functional-programming-2fac941d/	
 https://www.md.chalmers.se/Cs/Research/Semantics/APPSEM/dtp99/proceedings.html	N/A
 https://arxiv.org/pdf/2411.00037	N/A
 https://dl.acm.org/doi/10.1145/3156695.3122965	publication	2017-10-31
-https://arxiv.org/html/2401.08901v1	N/A
+https://arxiv.org/html/2401.08901v1	publication	2024
 https://arxiv.org/pdf/1309.5132	N/A
 https://arxiv.org/pdf/1202.2921	N/A
 https://link.springer.com/content/pdf/10.1007/10722298_3.pdf	N/A
@@ -32782,7 +32782,7 @@ https://hackage.haskell.org/package/stm-2.4.4.1/docs	N/A
 https://pure-oai.bham.ac.uk/ws/portalfiles/portal/223684242/978-3-031-57262-3_1.pdf	N/A
 https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations	created	2025
 https://eric.walkingshaw.net/files/pubs/students/alkubaish-20-ms-thesis.pdf	N/A
-https://arxiv.org/abs/2402.03103	N/A
+https://arxiv.org/abs/2402.03103	publication	2024
 https://arxiv.org/abs/2203.03288	N/A
 https://hackage.haskell.org/package/control-monad-exception-0.8.0	N/A
 https://hackage.haskell.org/package/streaming-utils-0.2.1.0/docs	N/A
