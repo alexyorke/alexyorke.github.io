@@ -2349,7 +2349,7 @@ https://doi.org/10.1017/S0956796824000157	publication	2025-01
 https://dl.acm.org/doi/10.1145/261964.2619688	N/A
 https://www.microsoft.com/en-us/research/publication/monadic-parsing-in-haskell/	N/A
 https://dl.acm.org/doi/fullHtml/10.1145/3678232.3678249	publication	2024-09-09
-https://doi.org/10.1145/3678232.3678249	N/A
+https://doi.org/10.1145/3678232.3678249	publication	2024-09-09
 https://doi.org/10.1017/S0956796823000139	N/A
 https://doi.org/10.1017/S0956796824000108	publication	2024-01
 https://doi.org/10.1017/9781108241861.015	publication	2018-10
@@ -3502,7 +3502,7 @@ https://tel.archives-ouvertes.fr/tel-02416788	N/A
 https://repositum.tuwien.at/bitstream/20.500.12708/192966/1/Siebenhandl%20Hannes%20-%202023%20-%20Opt-in%20protocol%20types%20for%20effect%20systems%20in%20Haskell.pdf	N/A
 https://radar.inria.fr/rapportsactivite/RA2019/prosecco/uid65.html	created	8601
 https://arxiv.org/pdf/2110.07493	N/A
-https://doi.org/10.1145/3428194	N/A
+https://doi.org/10.1145/3428194	publication	2020-11-13
 https://doi.org/10.1145/3779209.3779536	publication	2026-01-08
 https://doi.org/10.1016/j.scico.2024.103086	created	2024
 https://arxiv.org/html/2504.10159v1	N/A
@@ -3516,28 +3516,28 @@ https://arxiv.org/abs/2203.15426	N/A
 https://arxiv.org/abs/1312.2334	N/A
 https://dl.acm.org/doi/10.1145/3122975.3122977	publication	2017-09-03
 https://dl.acm.org/doi/10.1145/3428194	N/A
-https://dl.acm.org/doi/10.1145/3563289	N/A
-https://dl.acm.org/doi/10.1145/3240719.3241789	N/A
-https://dl.acm.org/doi/10.1145/3674641	N/A
-https://dl.acm.org/doi/10.1145/3689491.3689967	N/A
-https://dl.acm.org/doi/10.1145/3622814	N/A
+https://dl.acm.org/doi/10.1145/3563289	publication	2022-10-31
+https://dl.acm.org/doi/10.1145/3240719.3241789	publication	2018-09-27
+https://dl.acm.org/doi/10.1145/3674641	publication	2024-08-15
+https://dl.acm.org/doi/10.1145/3689491.3689967	publication	2024-10-20
+https://dl.acm.org/doi/10.1145/3622814	publication	2023-10-16
 https://arxiv.org/pdf/2005.13654	created	2005
-https://dl.acm.org/doi/10.1145/3408981	N/A
-https://dl.acm.org/doi/10.1145/3563445	N/A
-https://dl.acm.org/doi/10.1145/3776676	N/A
-https://dl.acm.org/doi/10.1145/3689770	N/A
+https://dl.acm.org/doi/10.1145/3408981	publication	2020-08-02
+https://dl.acm.org/doi/10.1145/3563445	publication	2022-10-31
+https://dl.acm.org/doi/10.1145/3776676	publication	2026-01-08
+https://dl.acm.org/doi/10.1145/3689770	publication	2024-10-08
 https://arxiv.org/abs/2304.09697	N/A
 https://arxiv.org/abs/1611.09259	N/A
-https://dl.acm.org/doi/10.1145/3406088.3409022	N/A
-https://dl.acm.org/doi/10.1145/3758316.3762822	N/A
-https://dl.acm.org/doi/abs/10.1145/3763155	N/A
-https://dl.acm.org/doi/10.1145/3763177	N/A
-https://dl.acm.org/doi/10.1145/3519939.3523710	N/A
-https://dl.acm.org/doi/10.1007/978-3-031-30044-8_9	N/A
-https://dl.acm.org/doi/10.1145/3674651	N/A
-https://dl.acm.org/doi/10.1145/2633628.2633636	N/A
-https://dl.acm.org/doi/10.1145/3473576	N/A
-https://dl.acm.org/doi/10.1145/3763085	N/A
+https://dl.acm.org/doi/10.1145/3406088.3409022	publication	2020-08-27
+https://dl.acm.org/doi/10.1145/3758316.3762822	publication	2025-10-12
+https://dl.acm.org/doi/abs/10.1145/3763155	publication	2025-10-09
+https://dl.acm.org/doi/10.1145/3763177	publication	2025-10-09
+https://dl.acm.org/doi/10.1145/3519939.3523710	publication	2022-06-09
+https://dl.acm.org/doi/10.1007/978-3-031-30044-8_9	publication	2023
+https://dl.acm.org/doi/10.1145/3674651	publication	2024-08-15
+https://dl.acm.org/doi/10.1145/2633628.2633636	publication	2014-08-26
+https://dl.acm.org/doi/10.1145/3473576	publication	2021-08-22
+https://dl.acm.org/doi/10.1145/3763085	publication	2025-10-09
 https://arxiv.org/abs/1811.06150	N/A
 https://arxiv.org/abs/2606.09526	N/A
 https://arxiv.org/abs/2410.12569	N/A
@@ -3549,14 +3549,14 @@ https://arxiv.org/pdf/2003.02110	created	2003
 https://arxiv.org/pdf/1605.06938	N/A
 https://arxiv.org/abs/2010.09073	created	2010
 https://arxiv.org/abs/2407.11816	N/A
-https://dl.acm.org/doi/10.1145/3093333.3009872	N/A
-https://dl.acm.org/doi/abs/10.1145/3689798	N/A
-https://dl.acm.org/doi/10.1145/3290318	N/A
-https://dl.acm.org/doi/10.1145/3756907.3756924	N/A
-https://dl.acm.org/doi/10.1145/3473578	N/A
-https://dl.acm.org/doi/10.1145/3674656	N/A
-https://dl.acm.org/doi/10.1145/3110259	N/A
-https://dl.acm.org/doi/10.1145/3635800.3636968	N/A
+https://dl.acm.org/doi/10.1145/3093333.3009872	publication	2017-05-11
+https://dl.acm.org/doi/abs/10.1145/3689798	publication	2024-10-08
+https://dl.acm.org/doi/10.1145/3290318	publication	2019-01-02
+https://dl.acm.org/doi/10.1145/3756907.3756924	publication	2025-09-10
+https://dl.acm.org/doi/10.1145/3473578	publication	2021-08-22
+https://dl.acm.org/doi/10.1145/3674656	publication	2024-08-15
+https://dl.acm.org/doi/10.1145/3110259	publication	2017-08-29
+https://dl.acm.org/doi/10.1145/3635800.3636968	publication	2024-01-11
 https://arxiv.org/abs/2307.09383	N/A
 https://dl.acm.org/doi/abs/10.1145/3563445	N/A
 https://arxiv.org/abs/2605.01032	N/A
@@ -3584,13 +3584,13 @@ https://arxiv.org/pdf/2412.19826	N/A
 https://doi.org/10.7488/era/5485	publication	2019-11-23
 https://arxiv.org/abs/2203.04608	N/A
 https://arxiv.org/pdf/2203.04608	N/A
-https://doi.org/10.1145/3547635	N/A
+https://doi.org/10.1145/3547635	publication	2022-08-29
 https://dl.acm.org/doi/pdf/10.1145/3473576	N/A
 https://dl.acm.org/doi/pdf/10.1145/3763177	N/A
-https://dl.acm.org/doi/10.1145/3110257	N/A
+https://dl.acm.org/doi/10.1145/3110257	publication	2017-08-29
 https://arxiv.org/pdf/2511.22419	N/A
 https://arxiv.org/abs/2511.22419	N/A
-https://dl.acm.org/doi/abs/10.1145/1596550.1596561	N/A
+https://dl.acm.org/doi/abs/10.1145/1596550.1596561	publication	2009-08-31
 https://arxiv.org/abs/2506.12212	N/A
 https://www.semanticscholar.org/paper/529e81e31596461639ed94bd7ad0732065cbb4a5	N/A
 https://www.semanticscholar.org/paper/Tackling-the-Awkward-Squad%3A-monadic-input-output%2C-Peyton-jones/e119d259fe943e183929e24080f2d737624f5b83	N/A
@@ -3600,7 +3600,7 @@ https://www.cs.yale.edu/homes/external/nilsson/Publications/hw2003.pdf	created	2
 https://www.cs.yale.edu/homes/external/nilsson/Publications/ppdp2002.pdf	created	2002
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/wxhaskell.pdf	created	2016
 https://www.cs.yale.edu/publications/techreports/tr1229.pdf	N/A
-https://dl.acm.org/doi/pdf/10.1145/871895.871897	N/A
+https://dl.acm.org/doi/pdf/10.1145/871895.871897	publication	2003-08-28
 https://www.cs.yale.edu/homes/external/nilsson/papers.html	N/A
 https://www.researchgate.net/publication/228785589_The_Yampa_Arcade	N/A
 https://www.academia.edu/16322156/Functional_reactive_programming_continued	N/A
@@ -3618,8 +3618,8 @@ https://raw.githubusercontent.com/joyofhaskell/haskell-report-archive/master/199
 https://github.com/joyofhaskell/haskell-report-archive	N/A
 https://direct.mit.edu/books/edited-volume/chapter-pdf/2303005/9780262257145_caa.pdf	N/A
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/monadic-encapsulation-of-effects-a-revised-approach-extended-version/D31AEC33C1E8291B309578FA84B4664D	publication	2001-11
-https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7	N/A
-https://dl.acm.org/doi/10.1145/773473.178246	N/A
+https://link.springer.com/chapter/10.1007/978-3-319-11863-5_7	publication	2014
+https://dl.acm.org/doi/10.1145/773473.178246	publication	1994-06
 https://person.dibris.unige.it/moggi-eugenio/ftp/jfp01.pdf	N/A
 https://www.researchgate.net/publication/220367662_Monadic_Encapsulation_of_Effects_a_Revised_Approach	N/A
 https://www.oreilly.com/library/view/haskell-high-performance/9781786464217/ch07s05.html	N/A
@@ -3637,20 +3637,20 @@ https://xnning.github.io/slides/haskell-evidently.pdf	N/A
 https://se.cs.uni-tuebingen.de/publications/brachthaeuser21representing.pdf	N/A
 https://www.researchgate.net/publication/309551183_On_the_Expressive_Power_of_User-Defined_Effects_Effect_Handlers_Monadic_Reflection_Delimited_Control	N/A
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.1	created	2006
-https://dl.acm.org/doi/10.1145/2633357.2633360	N/A
+https://dl.acm.org/doi/10.1145/2633357.2633360	publication	2014-09-03
 https://okmij.org/ftp/Haskell/zseq.pdf	N/A
-https://dl.acm.org/doi/10.1145/2804302.2804317	N/A
+https://dl.acm.org/doi/10.1145/2804302.2804317	publication	2015-08-30
 https://okmij.org/ftp/kakuritu/dsl-paper.pdf	N/A
 https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/quantitative-information-flow-with-monads-in-haskell/5FF49759807A74E7C42B8C8E0195F654	publication	2020-12
 https://www.repository.cam.ac.uk/items/4c4699e6-cc21-4725-8ff7-b24956dc9511	N/A
-https://dl.acm.org/doi/10.1145/2887747.2804317	N/A
+https://dl.acm.org/doi/10.1145/2887747.2804317	publication	2016-01-28
 https://pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf	N/A
 https://www.cs.tufts.edu/comp/150PP/handouts/0928pmonad2c.pdf	N/A
 https://web.engr.oregonstate.edu/~erwig/papers/PFP_JFP06.pdf	N/A
 https://www.randomhacks.net/files/build-your-own-probability-monads.pdf	N/A
 https://gatowololo.github.io/resources/publications/detflow.pdf	N/A
 https://people.cs.kuleuven.be/~tom.schrijvers/Research/talks/probability_monad.pdf	N/A
-https://dl.acm.org/doi/10.1145/174675.178047	N/A
+https://dl.acm.org/doi/10.1145/174675.178047	publication	1994
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/notions-of-computation-as-monoids/70019FC0F2384270E9F41B9719042528	publication	2017-01
 https://books.google.com/books/about/Programming_in_Haskell.html?hl=es&id=75C5DAAAQBAJ	N/A
 https://books.google.com/books/about/Learn_You_a_Haskell_for_Great_Good.html?id=2D6QEAAAQBAJ	N/A
@@ -3676,10 +3676,10 @@ https://books.google.com/books?cad=3&hl=es&id=Xy7ktAEACAAJ&source=gbs_book_other
 https://books.google.com/books?id=nh0okI1a1sQC&printsec=frontcover	N/A
 https://archive.org/details/learnyouhaskellf00lipo_0	N/A
 https://archive.org/details/pdfy-2af6sIo0-9yPtvRo	N/A
-https://dl.acm.org/doi/pdf/10.1145/268946.268952	N/A
+https://dl.acm.org/doi/pdf/10.1145/268946.268952	publication	1998
 https://dl.acm.org/doi/10.5555/1756972.1756977	N/A
 https://homes.luddy.indiana.edu/sabry/files/sideeffects.pdf	N/A
-https://dl.acm.org/doi/abs/10.1145/1353445.1353449	N/A
+https://dl.acm.org/doi/abs/10.1145/1353445.1353449	publication	2008-05
 https://dl.acm.org/doi/10.1145/2578855.2535846	N/A
 https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/6471.html	created	2005
 https://dl.acm.org/doi/10.1145/1086365.1086379	N/A
