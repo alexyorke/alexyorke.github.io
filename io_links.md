@@ -28851,7 +28851,7 @@ https://www.stackage.org/lts-20.7/package/quickcheck-state-machine-0.7.1	N/A
 https://www.stackage.org/nightly-2018-09-18/package/quickcheck-state-machine-0.4.2	created	2018
 https://www.stackage.org/nightly-2023-02-13/package/quickcheck-state-machine-0.7.1	created	2023
 https://www.stackage.org/nightly-2023-10-19/package/quickcheck-state-machine-0.7.3	created	2023
-https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-IORef.html	N/A
+https://hackage.haskell.org/package/base-4.17.0.0/docs/Data-IORef.html	created	2022-08-07
 https://cse.ucsd.edu/classes/wi12/cse230-a/lectures/monads.html	N/A
 https://hackage.haskell.org/package/array/docs/Data-Array-IO.html	created	2024-09-08
 https://hackage.haskell.org/package/criterion	N/A
@@ -28868,7 +28868,7 @@ https://haskell.org/communities/05-2008/report.pdf	created	2008
 https://archiv.ub.uni-marburg.de/diss/z2008/0547/pdf/djb.pdf	created	2008
 https://arxiv.org/abs/2404.16062	N/A
 https://cambridge.org/core/books/haskell-school-of-music/bibliography/1F7596A68D0EA0C87624901EA0E144B8	publication	2018-10
-https://hackage.haskell.org/package/hspec-1.1.0/docs/Test-Hspec-QuickCheck.html	N/A
+https://hackage.haskell.org/package/hspec-1.1.0/docs/Test-Hspec-QuickCheck.html	created	2012-05-07
 https://hackage.haskell.org/package/http-io-streams	N/A
 https://packages.debian.org/source/trixie/misc/haskell-quickcheck-io	N/A
 https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck-io	N/A
