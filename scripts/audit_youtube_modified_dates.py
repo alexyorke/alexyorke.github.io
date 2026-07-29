@@ -59,7 +59,11 @@ def main() -> None:
     targets = []
     for line in INPUT.read_text(encoding="utf-8").splitlines():
         fields = line.split("\t")
-        if len(fields) != 3 or fields[1] != "indexed":
+        if (
+            len(fields) != 3
+            or fields[1] not in {"indexed", "accessed"}
+            or fields[2] < "2026-07-21"
+        ):
             continue
         if urlparse(fields[0]).hostname in {"youtube.com", "www.youtube.com"}:
             targets.append(fields[0])

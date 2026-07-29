@@ -123,9 +123,9 @@ def cache_paths(url: str) -> tuple[Path, Path]:
     return CACHE / f"{stem}.body", CACHE / f"{stem}.json"
 
 
-def fetch(url: str) -> tuple[bytes, dict]:
+def fetch(url: str, refresh: bool = False) -> tuple[bytes, dict]:
     body_path, meta_path = cache_paths(url)
-    if body_path.exists() and meta_path.exists():
+    if not refresh and body_path.exists() and meta_path.exists():
         return body_path.read_bytes(), json.loads(meta_path.read_text(encoding="utf-8"))
     response = requests.get(
         url,
@@ -162,7 +162,9 @@ def fetch(url: str) -> tuple[bytes, dict]:
     return body, meta
 
 
-def inspect(url: str, allow_http_last_modified: bool = True) -> dict:
+def inspect(
+    url: str, allow_http_last_modified: bool = True, refresh: bool = False
+) -> dict:
     item = {"url": url, "status": None, "date": None}
     parsed = urlparse(url)
     url_match = URL_DATE_RE.search(unquote(parsed.path))
@@ -183,7 +185,7 @@ def inspect(url: str, allow_http_last_modified: bool = True) -> dict:
             )
             return item
     try:
-        body, meta = fetch(url)
+        body, meta = fetch(url, refresh=refresh)
         item.update(
             http_status=meta["status_code"],
             final_url=meta["url"],
@@ -243,6 +245,11 @@ def main() -> None:
         action="store_true",
         help="Use embedded content dates only; ignore HTTP Last-Modified headers.",
     )
+    parser.add_argument(
+        "--refresh",
+        action="store_true",
+        help="Refetch pages instead of using the existing HTTP cache.",
+    )
     args = parser.parse_args()
     if not args.current_status:
         args.current_status = ["indexed"]
@@ -265,7 +272,9 @@ def main() -> None:
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
         futures = {
-            pool.submit(inspect, url, not args.no_http_last_modified): url
+            pool.submit(
+                inspect, url, not args.no_http_last_modified, args.refresh
+            ): url
             for url in targets
         }
         for count, future in enumerate(concurrent.futures.as_completed(futures), 1):

@@ -70,7 +70,11 @@ def main() -> None:
     targets = []
     for line in INPUT.read_text(encoding="utf-8").splitlines():
         fields = line.split("\t")
-        if len(fields) == 3 and fields[1] == "indexed":
+        if (
+            len(fields) == 3
+            and fields[1] in {"indexed", "accessed"}
+            and fields[2].startswith("2026-07-2")
+        ):
             title = wiki_title(fields[0])
             if title:
                 targets.append((fields[0], title))
