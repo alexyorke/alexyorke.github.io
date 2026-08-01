@@ -27,11 +27,11 @@ def similar_name(left: str, right: str) -> bool:
 
     length_ratio = min(len(left), len(right)) / max(len(left), len(right))
     return (
-        len(left) >= 8
-        and len(right) >= 8
-        and length_ratio >= 0.7
-        and (left[:3] == right[:3] or left[-3:] == right[-3:])
-        and SequenceMatcher(None, left, right).ratio() >= 0.82
+        len(left) >= 7
+        and len(right) >= 7
+        and length_ratio >= 0.6
+        and (left[:2] == right[:2] or left[-2:] == right[-2:])
+        and SequenceMatcher(None, left, right).ratio() >= 0.72
     )
 
 
@@ -150,7 +150,7 @@ def main() -> int:
     for left, right in sorted(pairs):
         a = set(cache.get(left, {}).get("sample", []))
         b = set(cache.get(right, {}).get("sample", []))
-        if not a or not b:
+        if len(a) < 20 or len(b) < 20:
             continue
         overlap = len(a & b)
         containment = overlap / min(len(a), len(b))
