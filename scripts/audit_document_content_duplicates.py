@@ -9,6 +9,7 @@ import json
 import re
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from difflib import SequenceMatcher
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -30,6 +31,32 @@ def basename(url: str) -> str | None:
     stem = COPY_SUFFIX.sub("", stem)
     stem = re.sub(r"[^a-z0-9]+", "", stem)
     return stem if len(stem) >= 6 else None
+
+
+def fuzzy_candidate_names(names: set[str]) -> set[str]:
+    """Return names in conservative high-similarity pairs.
+
+    Prefix/suffix buckets keep this bounded while allowing small filename
+    revisions that exact normalization cannot collapse.
+    """
+    buckets: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for name in names:
+        if len(name) >= 10:
+            buckets[(name[:5], "prefix")].append(name)
+            buckets[(name[-5:], "suffix")].append(name)
+    matched: set[str] = set()
+    compared: set[tuple[str, str]] = set()
+    for group in buckets.values():
+        for index, left in enumerate(group):
+            for right in group[index + 1 :]:
+                pair = tuple(sorted((left, right)))
+                if pair in compared:
+                    continue
+                compared.add(pair)
+                length_ratio = min(len(left), len(right)) / max(len(left), len(right))
+                if length_ratio >= 0.82 and SequenceMatcher(None, left, right).ratio() >= 0.9:
+                    matched.update(pair)
+    return matched
 
 
 def fetch_digest(url: str) -> dict[str, object]:
@@ -121,12 +148,16 @@ def main() -> int:
         key = basename(row[0])
         if key:
             by_name[key].append(row)
+    fuzzy_names = fuzzy_candidate_names(set(by_name))
     candidates = {
         row[0]
         for group in by_name.values()
         if len(group) > 1
         for row in group
     }
+    candidates.update(
+        row[0] for name in fuzzy_names for row in by_name[name]
+    )
 
     cache = json.loads(args.cache.read_text(encoding="utf-8")) if args.cache.exists() else {}
     pending = sorted(candidates - cache.keys())
@@ -175,6 +206,7 @@ def main() -> int:
 
     report = {
         "candidate_urls": len(candidates),
+        "fuzzy_candidate_names": len(fuzzy_names),
         "fetched_now": len(pending),
         "hashed_documents": sum(
             bool(cache.get(url, {}).get("sha256")) for url in candidates
