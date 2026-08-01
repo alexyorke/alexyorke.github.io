@@ -29,6 +29,68 @@ HACKAGE_HOSTS = {
     "hackage-content.haskell.org",
     "hackage-content-origin.haskell.org",
 }
+PACKAGE_INDEX_HOSTS = {
+    "app.unpkg.com",
+    "build.opensuse.org",
+    "central.sonatype.com",
+    "clojars.org",
+    "cpm.curry-lang.org",
+    "crates.io",
+    "docs.rs",
+    "elixir.hexdocs.pm",
+    "dev.flora.pm",
+    "flora.pm",
+    "hackage-content-origin.haskell.org",
+    "hackage-content.haskell.org",
+    "hackage-origin.haskell.org",
+    "hackage-search.serokell.io",
+    "hackage.haskell.org",
+    "haskell.libhunt.com",
+    "hex.pm",
+    "hexdocs.pm",
+    "index.scala-lang.org",
+    "iteratee.hackage.haskell.org",
+    "javadoc.io",
+    "libraries.io",
+    "mvnrepository.com",
+    "mynixos.com",
+    "npm.io",
+    "npmjs.com",
+    "nuget.org",
+    "opam-5.ocaml.org",
+    "opam.ocaml.org",
+    "opam.ocamllabs.io",
+    "package.elm-lang.org",
+    "packagehub.suse.com",
+    "packages.cachyos.org",
+    "packages.debian.org",
+    "packages.ecosyste.ms",
+    "packages.fedoraproject.org",
+    "packages.gentoo.org",
+    "packages.guix.gnu.org",
+    "packages.ubuntu.com",
+    "packagist.org",
+    "packagist.uihtm.com",
+    "pkg.go.dev",
+    "pkgs.racket-lang.org",
+    "pub.dev",
+    "pursuit.purescript.org",
+    "pursuit.purerl.fun",
+    "pypi.org",
+    "repos.ecosyste.ms",
+    "rpmfind.net",
+    "sources.debian.org",
+    "stackage.org",
+    "swift.libhunt.com",
+    "swiftpackageregistry.com",
+    "www.javadoc.io",
+    "www.jsdelivr.com",
+    "www.libhunt.com",
+    "www.npmjs.com",
+    "www.nuget.org",
+    "www.rpmfind.net",
+    "www.stackage.org",
+}
 PACKAGE_VERSION = re.compile(
     r"^(?P<name>.+)-(?P<version>\d+(?:\.\d+)+(?:[-+][A-Za-z0-9.-]+)?)$"
 )
@@ -154,6 +216,30 @@ def hackage_metadata_rank(row: list[str]) -> tuple[int, str, int]:
     return int(status != "accessed"), row[2], status_rank
 
 
+def is_package_index(url: str) -> bool:
+    parsed = urlsplit(url)
+    host = (parsed.hostname or "").casefold()
+    path = parsed.path.casefold()
+    return (
+        host in PACKAGE_INDEX_HOSTS
+        or host == "github.com"
+        or host.endswith(".github.com")
+        or host.endswith(".pypi.org")
+        or host.endswith(".nuget.org")
+        or (host == "archlinux.org" and path.startswith("/packages/"))
+        or (host == "www.archlinux.de" and path.startswith("/packages/"))
+        or (host == "ocaml.org" and path.startswith("/p/"))
+        or (host == "rocq-prover.org" and path.startswith(("/p/", "/packages/")))
+        or (host == "www.haskell.org" and path.startswith("/hackage/package/"))
+        or (host == "foundation.haskell.org" and path.startswith("/package/"))
+        or (host == "haskell-docs.netlify.app" and path.startswith("/packages/"))
+        or (host == "ocaml.github.io" and "/packages/" in path)
+        or (host == "input-output-hk.github.io" and "/packages/package/" in path)
+        or "hackage-content.haskell.org/package/" in path
+        or "/pool/" in path
+    )
+
+
 def precision(date: str) -> tuple[int, str]:
     return date.count("-"), date
 
@@ -193,6 +279,17 @@ def main() -> int:
     lines = args.file.read_text(encoding="utf-8").splitlines()
     title = next((line for line in lines if line.startswith("# ")), "# IO Monad Links")
     rows = [line.split("\t") for line in lines if len(line.split("\t")) == 3]
+    input_records = len(rows)
+    removed: list[dict[str, str]] = []
+    retained_rows: list[list[str]] = []
+    for row in rows:
+        if is_package_index(row[0]):
+            removed.append(
+                {"url": row[0], "kept": "", "reason": "package index domain"}
+            )
+        else:
+            retained_rows.append(row)
+    rows = retained_rows
 
     dblp_groups: dict[str, list[list[str]]] = defaultdict(list)
     acm_groups: dict[str, list[list[str]]] = defaultdict(list)
@@ -214,7 +311,6 @@ def main() -> int:
         ordinary.append(row)
 
     kept: list[list[str]] = []
-    removed: list[dict[str, str]] = []
     for key, group in sorted(dblp_groups.items()):
         winner = max(group, key=row_rank)
         canonical = [f"https://dblp.org/rec/{key}.html", winner[1], winner[2]]
@@ -326,9 +422,9 @@ def main() -> int:
 
     kept.sort(key=lambda row: row[2])
     report = {
-        "input_records": len(rows),
+        "input_records": input_records,
         "output_records": len(kept),
-        "removed_records": len(rows) - len(kept),
+        "removed_records": input_records - len(kept),
         "dblp_works": len(dblp_groups),
         "acm_works": len(acm_groups),
         "arxiv_works": len(arxiv_groups),
