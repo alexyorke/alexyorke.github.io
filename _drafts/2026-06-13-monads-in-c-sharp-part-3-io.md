@@ -1,38 +1,63 @@
 ---
 title: "Monads in C# (Part 3): Composing Deferred Effects with a Tiny IO"
 date: 2026-06-13
-description: "A tiny synchronous IO<T> represents a computation with effects as a cold value. FlatMap composes those computations, while Run() marks the execution boundary."
+description: "A tiny synchronous IO<T> turns effectful work into a cold value. FlatMap composes those values, while UnsafeRun() marks the execution boundary."
 permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 ---
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-So far, this series has composed functions that mostly behave like calculations: they take values, produce a value, and that returned value is the whole observable behavior.
+The first two parts introduced the same small pattern in different contexts:
 
-At first, I/O looks like just another function call. Why not call a function that reads a file, asks the user for input, or calls an API?
+| Context | Lift a value | Compose a dependent step | What the context decides |
+|---|---|---|---|
+| `List<T>` | a one-element list | `FlatMap` / `SelectMany` | how many values flow onward |
+| `Maybe<T>` | `Some` | `FlatMap` / `Bind` | `None` skips the next function |
+| `Result<TSuccess, TError>` | `Ok` | `FlatMap` / `Bind` | `Error` skips the next function |
 
-The problem is that those calls do more than return a value. They interact with the outside world, and that interaction has to happen at the right time, in the right order, and the right number of times.
+I/O adds a different concern. Reading a file, asking for input, or calling an API does more than return a value: it interacts with the world. The order, timing, and number of those interactions are part of the program's meaning.
 
-These outside-world interactions are effects. A side effect is observable behavior beyond returning a value; I/O is the outside-world subset this article focuses on.
+A pure expression depends only on its explicit arguments and evaluating it produces no observable interaction. It may still throw or fail to terminate, so purity is not merely "producing a value." An effectful expression can read or change something outside that returned value.
 
-* Pure computation = producing a value.
-* Effectful computation = producing a value + an observable effect.
+For this article, I will use **side effect** for an interaction that happens as a consequence of evaluating an ordinary expression, and **effect** for an interaction represented as a value whose performance is a separate step. `IO<T>` converts a side effect into an effect: the same operation, but held as a value instead of already performed. Despite the name, this tiny type can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
 
-Pure computations are deterministic in the functional sense: the same inputs produce the same value, and evaluating them does not interact with anything else. Functional programming leans on equational reasoning: the ability to substitute and rearrange expressions while preserving meaning.
+Here is the thesis of this article: **`IO<T>` allows functions that would perform side effects to be composed without performing those effects during composition.**
 
-I/O is non-deterministic from the program's point of view because the value may come from outside the program. If a function asks the user for input, the value it returns is not knowable until the user types something, and the user can type anything. So the final returned value is no longer the whole meaning of the program. The interaction history matters.
+What does "composed" mean here? For ordinary functions, composition connects the output of one function to the input of another:
 
-Raw I/O breaks that style because moving a call can change when the world is read or written, how often it happens, and what value is observed.
+```text
+f : A -> B
+g : B -> C
 
-`IO<T>` is one way to preserve some of that algebraic style around effectful code. It changes what gets composed: instead of handing `Map` or `FlatMap` a function that performs the effect immediately, it represents the effectful work as a cold value first. You can think of that value as a recipe or set of instructions for work that may happen later.
+g after f : A -> C
+```
 
-Building and transforming the recipe does not perform the effect, so that part can still be reasoned about like ordinary value manipulation. Running the recipe is different: that is when the program actually reads, writes, mutates, sends, retries, or observes whatever the recipe describes. Evaluating the `IO<T>` value does not run the work, so the program can compose it safely before choosing the order, timing, retry strategy, or number of executions.
+For the total pure calculations in this article, that composition comes with a useful reasoning contract. The same explicit inputs determine the same result, and evaluation does not change the world. Repeating a call, memoizing its result, substituting the result for the call, or reordering independent calls may change cost, but not the program's meaning.
 
-> Note: This is a teaching model, not idiomatic C# advice. The goal is to make construction vs execution visible.
+An effectful function can be connected in exactly the same mechanical way, and its delegate can still be stored or passed around. What changes is the reasoning contract. The same explicit input may observe a different price, file, clock, or database state. Calling the function may also change that state, consume quota, send an email, or affect whether the next call is throttled. Repeating, memoizing, retrying, moving, or reordering the call can therefore change both its result and the world.
 
-## When Composition Controls Execution
+That also creates dependencies that ordinary value flow does not show. Two calls may have unrelated parameters and return types yet still depend on their order because both interact with the same file, service, account, or other external state. For effectful code, timing, sequence, repetition, and failure policy are part of composition.
 
-Consider a pure price calculation:
+Monadic composition does not merely concatenate two wrapped values. It sequences a value in a monadic context with a function that uses its result to construct the next value in that same context:
+
+```text
+current : IO<A>
+next    : A -> IO<B>
+
+current.FlatMap(next) : IO<B>
+```
+
+`FlatMap` produces one `IO<B>` that describes "run `current`, pass its result to `next`, then run the returned action." It preserves the data dependency and the order of effects without performing either effect during composition. The monad laws make regrouping those composition steps predictable; later sections make those laws and their C# limitations explicit.
+
+`IO<T>` does not decide whether an operation should be retried, memoized, rate-limited, or run concurrently. It keeps the operation unperformed long enough for explicit combinators to describe such policies around the larger program.
+
+That raises the practical question: why can the effectful code not remain an ordinary function? Why not call it inside `Map` or `Select`, just as we do with pure functions? C# will accept that code. `Enumerable.Select` makes clear what reasoning power is lost.
+
+> **Scope:** This is a teaching model, not a recommendation to replace normal C# application structure or the Task-based Asynchronous Pattern (TAP). The examples target C# 10 and .NET 6 or later.
+
+## Why not compose the function directly?
+
+First consider a pure price calculation:
 
 ```csharp
 public static decimal CalculateLineTotal(
@@ -46,37 +71,41 @@ public static decimal CalculateLineTotal(
 
 var quantities = new List<int> { 1, 2, 3 };
 
-var totals =
-    quantities.Map(quantity =>
-        CalculateLineTotal(quantity, 19.99m, 0.13m));
-// `Map` is pseudocode here, following Part 1.
+IEnumerable<decimal> totals =
+    quantities.Select(quantity =>
+        CalculateLineTotal(
+            quantity,
+            unitPrice: 19.99m,
+            taxRate: 0.13m));
 ```
 
-`List.Map` visits each element now and builds a new list. Because `CalculateLineTotal` is pure, that policy affects only when the calculation happens. The same inputs still determine the same result, and nothing outside the calculation changes.
+`Select` controls when and how often it invokes the function. With this pure calculation, that changes when work occurs, but not what the work means. Each quantity still determines the same total, and enumeration does not change anything outside the calculation.
 
-Now consider an effectful price lookup:
+Now try the same shape with an effectful function. Part 1 used `Map` as pseudocode and did not define whether that operation was eager, so this example uses C#'s concrete `Enumerable.Select`:
 
 ```csharp
-public static decimal FetchCurrentPrice(
-    IRemotePriceApi remotePriceApi,
-    string productId)
-{
-    return remotePriceApi.GetCurrentPrice(productId);
-}
+var productIds =
+    new List<string> { "A-100", "B-200", "C-300" };
 
-var productIds = new List<string> { "A-100", "B-200", "C-300" };
+IEnumerable<decimal> prices =
+    productIds.Select(productId =>
+        remotePriceApi.GetCurrentPrice(productId));
 
-var prices =
-    productIds.Map(productId =>
-        FetchCurrentPrice(remotePriceApi, productId));
-// `Map` is pseudocode here, following Part 1.
-// Map owns the traversal policy here: requests are
-// sent now, as fast as this Map traverses.
+// Select has not enumerated productIds, so it has sent no requests.
 ```
 
-`List.Map` is still applying the supplied function according to the list's traversal policy. With `FetchCurrentPrice`, that policy now controls real requests, not just calculation. Re-running it may consume quota, trigger rate limits, observe changed remote state, or duplicate a command such as an email. Other map-shaped contexts can choose different policies: `Maybe.Map` may skip the function, `Result.Map` may invoke it only on success, and another monad could do something else. Handing the effectful function directly to `Map` gives that context control over the effect.
+The requests occur when someone enumerates `prices`. With this synchronous API, enumeration sends one request, waits for it, then moves to the next item. There is no concurrency here.
 
-If you wrote the same thing procedurally, that policy would be explicit in the loop:
+```csharp
+List<decimal> firstRead = prices.ToList();  // Three requests.
+List<decimal> secondRead = prices.ToList(); // The same three calls run again.
+```
+
+If nobody enumerates the sequence, no request is sent. If code enumerates it twice, the calls happen twice. If the source itself is lazy or mutable, each enumeration may even see different inputs. `IEnumerable<T>` provides deferral, but it does so as part of a many-value traversal protocol. It does not mark one explicit effect boundary or promise exactly one result.
+
+Both functions compose with `Select` in the mechanical sense. For the pure selector, enumeration policy affects when calculation happens. For the effectful selector, that policy becomes part of the program's meaning: enumeration decides whether the requests happen, when they happen, and how many times they happen. We have built a deferred sequence, but not a value whose explicit contract is "this is one effectful action."
+
+A `foreach` loop makes the traversal policy visible:
 
 ```csharp
 var pricesProcedural = new List<decimal>();
@@ -84,108 +113,143 @@ var pricesProcedural = new List<decimal>();
 foreach (string productId in productIds)
 {
     decimal price =
-        FetchCurrentPrice(remotePriceApi, productId);
+        remotePriceApi.GetCurrentPrice(productId);
 
     pricesProcedural.Add(price);
 
-    // This is where you would add delays,
-    // retries, or error handling.
+    // Delays, retries, or stop-on-error policy would live here.
 }
 ```
 
-This loop owns the policy explicitly: order, delay, retry, and stop-on-error behavior all live here. That direct control is useful, but less composable because the traversal policy is fused into the loop instead of returned as a value. A different caller with a different policy needs a different loop or helper.
+The loop is not inherently non-composable; it can be packaged in a helper or strategy object. The useful change in this article is that the helper postpones the loop, returns the whole batch as a value, and gives its policy a reusable name.
 
-With a plain return value, composition inherits either the manual loop policy or the caller's `Map` policy. `IO<T>` gives composition a suspended computation instead, so the policy can be chosen around a value that has not run yet.
+When an effectful function returns `decimal`, whoever calls it decides when the effect happens: a loop, `Select`, or some other caller. When it returns `IO<decimal>`, that decision moves to whoever calls `UnsafeRun()`.
 
 ## From an immediate result to a suspended computation
 
-The solution is a signature change:
+The signature change is small:
 
 ```text
 (IRemotePriceApi, string) -> decimal
 (IRemotePriceApi, string) -> IO<decimal>
 ```
 
-The first form can produce a `decimal` only by running the request. The second returns a cold `IO<decimal>`: a value representing the request before it has run. Returning `IO<decimal>` keeps construction separate from execution with `Run()`.
+The first form must perform the request to produce its `decimal`. The second form constructs a value that can produce a `decimal` later:
 
 ```csharp
 public static IO<decimal> FetchCurrentPriceIO(
     IRemotePriceApi remotePriceApi,
     string productId)
 {
-    return IO<decimal>.Delay(
-        () => FetchCurrentPrice(remotePriceApi, productId));
+    ArgumentNullException.ThrowIfNull(remotePriceApi);
+    ArgumentNullException.ThrowIfNull(productId);
+
+    return IO.Delay(
+        () => remotePriceApi.GetCurrentPrice(productId));
 }
 ```
 
-Calling `FetchCurrentPriceIO` sends no request. It returns an `IO<decimal>` value that larger compositions can build on before execution begins. That is the point of the wrapper: creating the value is separate from executing the wrapped work with `Run()`.
+This implementation sends no request while it constructs the returned value. The return type alone cannot guarantee that every method returning `IO<T>` is equally disciplined; C# still permits effects before `IO.Delay` is called.
 
-Here, `Delay` means **defer evaluation**. It does not pause a thread, wait for a duration, or behave like `Task.Delay`.
+The returned value is **cold**: constructing and composing it does not invoke the delegate stored by `IO<T>`. Calling `UnsafeRun()` invokes that delegate. The word "unsafe" marks the point where described work becomes observable.
+
+```text
+effectful function   IO.Delay       Map / FlatMap        UnsafeRun
+   () -> T        ->   IO<T>     ->    IO<TResult>    ->  result + effects
+                         construction      composition          execution
+```
+
+> **Historical context:** Non-strict languages such as Haskell cannot rely on evaluation order to determine when, or whether, an effectful expression is forced. Monadic I/O encodes the order in which actions are performed while keeping those actions referentially transparent values. Simon Peyton Jones and Philip Wadler describe that design in [*Imperative functional programming*](https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/). C# is already strict and specifies expression evaluation order. In C#, this wrapper is not buying basic ordering or language-enforced purity; it is buying **reification**: the ability to name, store, pass, duplicate, compose, or decline an effect before running it.
 
 ```csharp
 IO<decimal> request =
     FetchCurrentPriceIO(remotePriceApi, productId);
-// No request yet.
+// This implementation has not sent the request.
 
-decimal price = request.Run();
-// The request is sent here.
+decimal price = request.UnsafeRun();
+// UnsafeRun invokes the stored delegate synchronously here.
 ```
 
-Constructing the `IO<decimal>` value is not the same thing as running it. The first creates a value; the second executes the wrapped computation and performs its effects. In this teaching model, each call to `Run()` performs the computation again.
+Here, `Delay` means **defer evaluation**. It neither pauses a thread nor behaves like `Task.Delay`. The names `Pure` and `Delay` follow precedents such as [Cats Effect's `IO.pure` and delayed effect construction](https://typelevel.org/cats-effect/docs/datatypes/io). F# readers should note that a [computation-expression builder's `Delay`](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions) has a different shape: it commonly receives `unit -> M<'T>`, a delayed whole computation, rather than this article's `Func<T>` value producer.
 
-`Run()` makes the execution boundary explicit. Returning `IO<T>` lets the larger program transform, combine, traverse, store, and pass around the work before crossing that boundary. In a fuller effect system, application code would usually return the final `IO` and let a runtime or interpreter execute it instead of calling `Run()` manually. In this small teaching model, `Run()` stands in for that boundary.
-
-This is where the usual functional programming phrase **referential transparency** fits. The expression that builds an `IO<T>` can be treated like a value and moved around or substituted without performing the effect; only `Run()` crosses into observable execution. C# does not enforce that discipline, but the wrapper makes the intended boundary visible.
-
-```csharp
-IO<decimal> totalProgram =
-    FetchCurrentPriceIO(remotePriceApi, productId)
-        .Map(unitPrice =>
-            CalculateLineTotal(
-                quantity,
-                unitPrice,
-                taxRate));
-// Still no request.
-```
-
-Constructing `totalProgram` sends no request. Running it fetches the price and then calculates the total:
-
-```csharp
-decimal total = totalProgram.Run();
-```
-
-Suspension does not itself choose an execution policy. It keeps the effect unperformed while the program is assembled. Here, `Map` keeps the pure calculation inside the suspended program; `FlatMap` establishes sequential order when the next step returns another `IO`. Other combinators can later express policies such as retries, pacing, or collection traversal.
-
-> **`IO<T>` does not remove the effect or decide how it should run. The indirection is the point: it makes the effectful computation explicit and keeps it suspended while those decisions are composed.**
-
-Once effects are represented as values, these operations become the small vocabulary that says how the larger computation proceeds.
-
-The teaching model has five central operations:
-
-```text
-Pure    : T -> IO<T>
-Delay   : (() -> T) -> IO<T>
-Map     : IO<T> -> (T -> TResult) -> IO<TResult>
-FlatMap : IO<T> -> (T -> IO<TResult>) -> IO<TResult>
-Run     : IO<T> -> T
-```
-
-`Pure` wraps an already available value; `Delay` suspends a computation; `Map` transforms an eventual result; `FlatMap` sequences the next effectful step based on the previous result; and `Run` performs the computation. Together they give a small vocabulary for describing how a larger effectful computation proceeds while the work is still suspended.
-
-Passing an effectful call to `Pure` would be too late:
+Passing an effectful call to `Pure` is already too late because C# evaluates method arguments before making the call:
 
 ```csharp
 IO<decimal> notSuspended =
-    IO<decimal>.Pure(
-        FetchCurrentPrice(remotePriceApi, productId));
-// FetchCurrentPrice runs before Pure is called.
+    IO.Pure(
+        remotePriceApi.GetCurrentPrice(productId));
+// GetCurrentPrice ran before Pure received the decimal.
 ```
 
-A `Func<T>` can also postpone work. The difference is the contract: a bare `Func<T>` only says some code can be invoked later, while `IO<T>` gives that deferred work a specific semantic type and an explicit `Run()` boundary.
+`Pure` lifts an already available value. `Delay` is the effect-introduction boundary:
+
+| Role | Operation |
+|---|---|
+| Monadic core | `Pure`, `FlatMap` |
+| Derived from the core | `Map`, `Flatten`, `Then`, `Zip` |
+| Effect introduction, on the honor system | `Delay` |
+| Effect execution | `UnsafeRun` |
+
+In actual C# signatures, the central operations are:
+
+```text
+IO<T>.Pure(T)                                  -> IO<T>
+IO<T>.Delay(Func<T>)                           -> IO<T>
+io.Map(Func<T, TResult>)                       -> IO<TResult>
+io.FlatMap(Func<T, IO<TResult>>)               -> IO<TResult>
+io.UnsafeRun()                                 -> T
+IO.Flatten(IO<IO<T>>)                          -> IO<T>
+```
+
+`Map` can be defined as `FlatMap` followed by `Pure`, and `Flatten` can be defined as `FlatMap` with the identity function. `Delay` and `UnsafeRun` are specific to this effect type; they are not operations every monad must provide.
 
 ## A small `IO<T>`
 
+The following is a complete synchronous implementation. `Unit` represents successful completion when an operation has no meaningful result. `Unit.Value` is the same value as `default(Unit)`; similar unit types appear in F#, `System.ValueTuple`, and Reactive Extensions.
+
 ```csharp
+using System;
+
+public readonly record struct Unit
+{
+    public static Unit Value { get; } = new();
+}
+
+// This is the Result type from Part 2, shortened to the operations
+// that Attempt uses below.
+public sealed class Result<TSuccess, TError>
+{
+    private readonly TSuccess value;
+    private readonly TError error;
+    private readonly bool isSuccess;
+
+    private Result(
+        TSuccess value,
+        TError error,
+        bool isSuccess)
+    {
+        this.value = value;
+        this.error = error;
+        this.isSuccess = isSuccess;
+    }
+
+    public static Result<TSuccess, TError> Ok(TSuccess value) =>
+        new(value, default!, true);
+
+    public static Result<TSuccess, TError> Fail(TError error) =>
+        new(default!, error, false);
+
+    public TResult Match<TResult>(
+        Func<TSuccess, TResult> ok,
+        Func<TError, TResult> fail)
+    {
+        ArgumentNullException.ThrowIfNull(ok);
+        ArgumentNullException.ThrowIfNull(fail);
+
+        return isSuccess ? ok(value) : fail(error);
+    }
+}
+
 public sealed class IO<T>
 {
     private readonly Func<T> operation;
@@ -195,87 +259,270 @@ public sealed class IO<T>
         this.operation = operation;
     }
 
-    public static IO<T> Pure(T value)
-    {
-        // `Pure` lifts an existing value into `IO<T>`.
-        return new IO<T>(() => value);
-    }
+    public static IO<T> Pure(T value) =>
+        new(() => value);
 
     public static IO<T> Delay(Func<T> operation)
     {
+        ArgumentNullException.ThrowIfNull(operation);
         return new IO<T>(operation);
     }
 
     public IO<TResult> Map<TResult>(
         Func<T, TResult> transform)
     {
-        return new IO<TResult>(() =>
-        {
-            T value = Run();
-            return transform(value);
-        });
+        ArgumentNullException.ThrowIfNull(transform);
+
+        return new IO<TResult>(
+            () => transform(UnsafeRun()));
     }
 
     public IO<TResult> FlatMap<TResult>(
         Func<T, IO<TResult>> next)
     {
+        ArgumentNullException.ThrowIfNull(next);
+
         return new IO<TResult>(() =>
         {
-            T value = Run();
-            IO<TResult> nextComputation = next(value);
+            T value = UnsafeRun();
+            IO<TResult>? nextComputation = next(value);
 
-            return nextComputation.Run();
+            if (nextComputation is null)
+            {
+                throw new InvalidOperationException(
+                    "FlatMap continuation returned null.");
+            }
+
+            return nextComputation.UnsafeRun();
         });
     }
 
-    public T Run()
+    public IO<TResult> Select<TResult>(
+        Func<T, TResult> selector) =>
+        Map(selector);
+
+    public IO<TResult> SelectMany<TNext, TResult>(
+        Func<T, IO<TNext>> next,
+        Func<T, TNext, TResult> project)
     {
-        return operation();
+        ArgumentNullException.ThrowIfNull(next);
+        ArgumentNullException.ThrowIfNull(project);
+
+        return FlatMap(value =>
+        {
+            IO<TNext>? nextComputation = next(value);
+
+            if (nextComputation is null)
+            {
+                throw new InvalidOperationException(
+                    "SelectMany selector returned null.");
+            }
+
+            return nextComputation.Map(
+                nextValue => project(value, nextValue));
+        });
+    }
+
+    public IO<TResult> Then<TResult>(
+        IO<TResult> next)
+    {
+        ArgumentNullException.ThrowIfNull(next);
+        return FlatMap(_ => next);
+    }
+
+    public IO<(T First, TNext Second)> Zip<TNext>(
+        IO<TNext> other)
+    {
+        ArgumentNullException.ThrowIfNull(other);
+
+        return FlatMap(first =>
+            other.Map(second => (first, second)));
+    }
+
+    public IO<Result<T, TException>> Attempt<TException>()
+        where TException : Exception
+    {
+        return IO.Delay(() =>
+        {
+            try
+            {
+                return Result<T, TException>.Ok(UnsafeRun());
+            }
+            catch (TException exception)
+                when (exception is not OperationCanceledException)
+            {
+                return Result<T, TException>.Fail(exception);
+            }
+        });
+    }
+
+    public T UnsafeRun() =>
+        operation();
+}
+
+// C# permits generic and non-generic types to share a name.
+// This companion lets type inference remove IO<T>.Delay noise.
+public static class IO
+{
+    public static IO<T> Pure<T>(T value) =>
+        IO<T>.Pure(value);
+
+    public static IO<T> Delay<T>(Func<T> operation) =>
+        IO<T>.Delay(operation);
+
+    public static IO<Unit> Delay(Action action)
+    {
+        ArgumentNullException.ThrowIfNull(action);
+
+        return IO<Unit>.Delay(() =>
+        {
+            action();
+            return Unit.Value;
+        });
+    }
+
+    public static IO<T> Flatten<T>(IO<IO<T>> nested)
+    {
+        ArgumentNullException.ThrowIfNull(nested);
+        return nested.FlatMap(inner => inner);
+    }
+
+    public static IO<TResult> Bracket<TResource, TResult>(
+        IO<TResource> acquire,
+        Func<TResource, IO<TResult>> use,
+        Func<TResource, IO<Unit>> release)
+    {
+        ArgumentNullException.ThrowIfNull(acquire);
+        ArgumentNullException.ThrowIfNull(use);
+        ArgumentNullException.ThrowIfNull(release);
+
+        return Delay(() =>
+        {
+            TResource resource = acquire.UnsafeRun();
+
+            try
+            {
+                IO<TResult>? useComputation = use(resource);
+
+                if (useComputation is null)
+                {
+                    throw new InvalidOperationException(
+                        "Bracket use function returned null.");
+                }
+
+                return useComputation.UnsafeRun();
+            }
+            finally
+            {
+                IO<Unit>? releaseComputation = release(resource);
+
+                if (releaseComputation is null)
+                {
+                    throw new InvalidOperationException(
+                        "Bracket release function returned null.");
+                }
+
+                releaseComputation.UnsafeRun();
+            }
+        });
     }
 }
 ```
 
-`IO<T>` stores a parameterless operation and provides ways to suspend, compose, and run it. `Pure` is the value-lifting operation; `Delay` receives a computation and stores it without invoking it.
+`Map` and `FlatMap` call `UnsafeRun()` only inside the delegate stored by the returned `IO`, so invoking either combinator constructs another cold value. A `FlatMap` continuation is also deferred until execution.
 
-`Map` and `FlatMap` call `Run()` only inside the delegate stored by the returned `IO`, so calling either method builds another suspended computation. The inner calls occur only when that returned `IO` runs.
+The `new IO<TResult>(...)` call inside `IO<T>` is legal even though the constructor is private. Accessibility is determined by the generic type declaration, not by each closed construction; `IO<T>` and `IO<TResult>` are not different declaring types for private access.
 
-In this model, use `Map` for a pure transformation that returns a plain value. Use `FlatMap` when the next step returns another `IO`; mapping such a function directly would produce `IO<IO<TResult>>`. `FlatMap` combines those nested computations into one `IO<TResult>` while preserving suspension, but C# cannot enforce those conventions.
+Immediate argument validation treats a null delegate as API misuse at composition time. A `FlatMap` continuation cannot be checked until it is invoked, so returning null from it fails during `UnsafeRun()`. `Pure(null)` remains valid when the chosen `T` permits null.
+
+The wrapper proves its central behavior with a call counter:
+
+```csharp
+int calls = 0;
+
+IO<int> program =
+    IO.Delay(() => ++calls)
+        .Map(value => value * 10);
+
+System.Diagnostics.Debug.Assert(calls == 0);
+
+int first = program.UnsafeRun();
+System.Diagnostics.Debug.Assert(first == 10 && calls == 1);
+
+int second = program.UnsafeRun();
+System.Diagnostics.Debug.Assert(second == 20 && calls == 2);
+```
+
+The wrapper does not memoize. Each `UnsafeRun()` invokes its stored delegate again, but that does not promise identical effects or results: the delegate may observe mutable state, perform its own memoization, or call code that behaves differently each time.
+
+## The monad laws for effects
+
+`Pure` and `FlatMap` form the monadic core:
+
+```text
+Left identity:   IO.Pure(a).FlatMap(f)              ≡ f(a)
+Right identity:  m.FlatMap(IO.Pure)                 ≡ m
+Associativity:   m.FlatMap(f).FlatMap(g)             ≡
+                 m.FlatMap(x => f(x).FlatMap(g))
+
+Coherence:       m.Map(f)                           ≡
+                 m.FlatMap(x => IO.Pure(f(x)))
+```
+
+Here, `≡` cannot mean `Equals` or reference equality. The two sides wrap different closure objects. It means **observational equivalence under `UnsafeRun()`**: executing either side produces equal results and the same effects in the same order.
+
+The laws hold for this model when continuations are pure constructors of non-null `IO` values, and when observation ignores allocation, object identity, precise timing, stack traces, and other implementation details. `FlatMap` then only nests delegates and invokes each step once in a fixed order. Associativity says that changing the grouping does not change that sequence.
+
+C# cannot enforce the precondition. A continuation that performs an effect while constructing its returned `IO` makes left identity observably false:
+
+```csharp
+int constructions = 0;
+
+IO<int> F(int value)
+{
+    constructions++;
+    return IO.Pure(value);
+}
+
+IO<int> left = IO.Pure(1).FlatMap(F);
+// F has not run because the continuation is suspended.
+
+IO<int> right = F(1);
+// constructions is already 1.
+```
+
+Likewise, nothing stops a transform passed to `Map` from performing an effect, or arbitrary code from calling `UnsafeRun()` inside `Delay`. That is this model's `unsafePerformIO`-style escape hatch. Library combinators such as `FlatMap`, `Bracket`, and traversal call `UnsafeRun()` internally to implement one larger boundary; application code should not use nested forcing as a substitute for structured composition.
+
+The laws do not specify every useful runtime property. A memoized implementation could still satisfy the monad laws while no longer repeating its stored operation on each run. Coldness, non-memoization, and stack behavior therefore need their own documented contracts.
+
+The laws also explain why LINQ syntax is more than mechanical sugar. Associativity permits nested `from` clauses to be regrouped without changing the sequence, while `Select`/`SelectMany` coherence keeps `let` steps consistent with `Map` and `FlatMap`.
 
 ## Compose first, run later
 
-Suppose `ParseOrder` returns an order with `ProductId`, `Quantity`, and `TaxRate`. We want to read an order, fetch its current price, calculate the total, render a report, and write it to disk. Writing a file has no meaningful result beyond successful completion, so the wrapper returns `IO<Unit>`:
-
-```csharp
-public readonly record struct Unit
-{
-    public static Unit Value { get; } = new();
-}
-```
-
-`Unit` is roughly `void` represented as a value. It is useful when an effect has no meaningful success value, but `IO<T>` is not limited to `Unit`: reading a file can return `IO<string>`, fetching a price can return `IO<decimal>`, and a larger program can return whatever value its caller needs.
-
-Errors are still part of execution. In this tiny model, exceptions propagate when `Run()` is called. If a program wants failures as ordinary values instead, it can return something like `IO<Result<T>>` and compose that value while the I/O remains suspended. A fuller API could also add recovery or retry combinators, but those policies would still be composed before execution.
+Suppose `ParseOrder` returns an order with `ProductId`, `Quantity`, and `TaxRate`. We want to read the order, fetch its current price, calculate the total, render a report, and write it to disk:
 
 ```csharp
 public static IO<string> ReadAllTextIO(string path)
 {
-    return IO<string>.Delay(
-        () => File.ReadAllText(path));
+    ArgumentNullException.ThrowIfNull(path);
+    return IO.Delay(() => File.ReadAllText(path));
 }
 
 public static IO<Unit> WriteAllTextIO(
     string path,
     string contents)
 {
-    return IO<Unit>.Delay(() =>
-    {
-        File.WriteAllText(path, contents);
-        return Unit.Value;
-    });
+    ArgumentNullException.ThrowIfNull(path);
+    ArgumentNullException.ThrowIfNull(contents);
+
+    return IO.Delay(
+        () => File.WriteAllText(path, contents));
 }
 ```
 
-The following uses C# query syntax over `IO<T>` as sugar for `Select` and `SelectMany`, which delegate to `Map` and `FlatMap`. The appendix shows those adapter methods.
+The `Action` overload of `IO.Delay` supplies `Unit.Value` for write-shaped operations. `Unit` is roughly `void` represented as a value, but `IO<T>` can return any result its caller needs.
+
+The following query expression uses the `Select` and `SelectMany` methods already included in `IO<T>`:
 
 ```csharp
 public static IO<Unit> LoadOrderAndWriteReport(
@@ -304,84 +551,220 @@ public static IO<Unit> LoadOrderAndWriteReport(
 }
 ```
 
-The result remains a suspended `IO<Unit>`. Constructing it performs none of the wrapped effects; when it runs, the file is read before parsing, the price is fetched after the product ID is known, and the report is written last. The `let` clauses correspond to pure `Map` steps, and the effectful dependencies use `FlatMap`.
+Constructing the returned `IO<Unit>` does not invoke the delegates stored by the read, fetch, or write actions. During `UnsafeRun()`, the file is read before parsing, the price is fetched after the product ID is available, and the report is written last. The expressions in the `let` clauses are intended to be pure in this example; the compiler does not verify that convention.
+
+Binding `completion` only to return it is ceremony. Haskell would commonly use its sequence-and-discard operator, `>>`. The `Then` method above provides that operation when the second computation does not depend on the first result, but C# query syntax still requires a final `select` or `group`.
+
+### What the query becomes
+
+The [C# specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#12233-query-expression-translation) defines query translation as a syntactic rewrite performed before method binding. It requires no interface, `IEnumerable<T>`, or attribute; matching instance or extension methods are enough.
+
+Ignoring compiler-generated names, the query above lowers to this shape:
+
+```csharp
+ReadAllTextIO(orderPath)
+    .Select(contents =>
+        new { contents, order = ParseOrder(contents) })
+    .SelectMany(
+        first => FetchCurrentPriceIO(
+            remotePriceApi,
+            first.order.ProductId),
+        (first, unitPrice) =>
+            new { first, unitPrice })
+    .Select(second =>
+        new
+        {
+            second,
+            total = CalculateLineTotal(
+                second.first.order.Quantity,
+                second.unitPrice,
+                second.first.order.TaxRate)
+        })
+    .Select(third =>
+        new
+        {
+            third,
+            report = RenderReport(
+                third.second.first.order,
+                third.second.unitPrice,
+                third.total)
+        })
+    .SelectMany(
+        fourth => WriteAllTextIO(
+            reportPath,
+            fourth.report),
+        (fourth, completion) => completion);
+```
+
+The final `select completion` folds into the last `SelectMany` result selector; it does not add another `Select`. The three `let` clauses do require three `Select` calls. A complete execution creates seven query-generated wrapper objects: three `Map` wrappers from `Select`, two `FlatMap` wrappers from `SelectMany`, and two inner `Map` wrappers created by those `SelectMany` calls. The inner wrappers and their selected actions are built during execution, so not all seven exist when the outer program is constructed.
+
+Query syntax is cold here only because these particular methods return delayed wrappers. The syntax itself does not imply laziness.
+
+This `IO<T>` supports the query clauses that lower to its small algebra: `from`, `let`, and `select`. There is no natural `Where` for an exactly-one-result type because a false predicate needs a no-value or error case. `Maybe` and `Result` have such cases; this `IO<T>` does not. `join`, grouping, and ordering would likewise require additional methods and semantics. Which clauses a type supports is determined by its algebra, not by query syntax alone.
+
+## Expected failures and resource lifetime
+
+Exceptions normally propagate from `UnsafeRun()`. `Attempt<TException>` turns one selected, expected exception type into the `Result` value from Part 2 while keeping execution deferred:
+
+```csharp
+IO<Result<string, IOException>> attemptedRead =
+    ReadAllTextIO(path)
+        .Attempt<IOException>();
+```
+
+Do not routinely use `Attempt<Exception>`. Programming errors, fatal failures, and cancellation should normally retain their semantics. Converting an exception into `Result` also does not make an operation transactional: an external operation may partially succeed before throwing.
+
+Resources need an explicit lifetime that spans the deferred use. Returning an unscoped `IO<Stream>` can leave the caller with an open handle and no structured release. `Bracket` keeps acquire, use, and release in one larger computation:
+
+```csharp
+IO<string> firstLine =
+    IO.Bracket(
+        acquire: IO.Delay(
+            () => File.OpenText(path)),
+        use: reader => IO.Delay(
+            () => reader.ReadLine() ?? string.Empty),
+        release: reader => IO.Delay(
+            reader.Dispose));
+```
+
+`release` runs if resource acquisition succeeded, even when `use` fails. This tiny `Bracket` has deliberately simple failure semantics: if both `use` and `release` fail, the release exception replaces the earlier exception. Production effect libraries preserve richer error information.
+
+No generic `IO<T>` can roll back an arbitrary email, file write, or remote command. Rollback requires an operation-specific transaction or compensating action.
 
 ## Traversal makes the batch policy explicit
 
-`FlatMap` orders one dependent step after another. A collection raises a different question: how should the same effectful action be applied to many inputs?
+`FlatMap` sequences one dependent effect after another. Applying an effectful action to many inputs requires a separate batch policy.
 
-`IO<T>` cannot choose the correct policy. It makes effectful computations available as values so a combinator can encode that policy before execution.
-
-A sequential traversal answers that explicitly:
+This traversal snapshots the inputs during construction, then defers action creation and execution:
 
 ```csharp
-IO<List<decimal>> program =
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public static class IOTraversalExtensions
+{
+    public static IO<IReadOnlyList<TResult>>
+        TraverseSequential<TSource, TResult>(
+            this IEnumerable<TSource> source,
+            Func<TSource, IO<TResult>> action)
+    {
+        ArgumentNullException.ThrowIfNull(source);
+        ArgumentNullException.ThrowIfNull(action);
+
+        List<TSource> items = source.ToList();
+
+        return IO.Delay<IReadOnlyList<TResult>>(() =>
+        {
+            var results =
+                new List<TResult>(items.Count);
+
+            foreach (TSource item in items)
+            {
+                IO<TResult>? computation = action(item);
+
+                if (computation is null)
+                {
+                    throw new InvalidOperationException(
+                        "Traversal action returned null.");
+                }
+
+                results.Add(computation.UnsafeRun());
+            }
+
+            return results;
+        });
+    }
+
+    public static IO<IReadOnlyList<T>>
+        SequenceSequential<T>(
+            this IEnumerable<IO<T>> source)
+    {
+        return source.TraverseSequential(
+            computation => computation);
+    }
+}
+```
+
+`TraverseSequential` and `SequenceSequential` are the conventional `Traverse` and `Sequence` operations with the execution policy made explicit in their names.
+
+The expression producing `source` is evaluated before the extension method is called, and `ToList()` enumerates it immediately. That policy has a useful split:
+
+* Input enumeration and any enumeration failure happen during construction.
+* The input set and order are fixed by one snapshot.
+* `action` is invoked only during the outer `UnsafeRun()`.
+* Items run one at a time in snapshot order, and results preserve that order.
+* If an action throws, later actions do not run and completed effects are not undone.
+* Each outer `UnsafeRun()` invokes every action again against the same input snapshot.
+
+For `SequenceSequential`, a lazy source of `IO` values is also materialized during construction. The wrappers may have been built earlier or produced by that enumeration, but the resulting set is fixed before execution.
+
+```csharp
+IO<IReadOnlyList<decimal>> batch =
     productIds.TraverseSequential(productId =>
         FetchCurrentPriceIO(
             remotePriceApi,
             productId));
-// No requests yet.
+// productIds has been snapshotted; no price action was created or run.
+
+IReadOnlyList<decimal> prices =
+    batch.UnsafeRun();
 ```
 
-`TraverseSequential` returns one suspended program that visits the product IDs in order, runs one request at a time, and collects the results. If the `IO` values already exist, the same idea is often called sequence. Both produce one suspended computation for the entire batch:
+The imperative loop inside the combinator is intentional. Building the traversal as an `n`-element `FlatMap` fold would add `O(n)` synchronous call depth. The loop gives the policy a reusable value without adding one stack frame per item.
 
-```text
-List<IO<T>> -> IO<List<T>>
-```
+A different combinator could add pacing, selective retry, failure collection, or concurrency. With this synchronous type, bounded concurrency would occupy threads through an external scheduler; it is not the same as native asynchronous I/O. Retrying a read may be acceptable, while retrying a non-idempotent command may duplicate it.
 
-Work begins only when the outer program runs:
+## `IO<T>` compared with other deferred types
 
-```csharp
-List<decimal> prices = program.Run();
-```
+Coldness is only one axis. Memoization and result arity often matter more:
 
-This traversal defines a concrete policy:
+| Type | Work starts | Memoized by the wrapper? | Result arity |
+|---|---|---:|---|
+| `Func<T>` / this `IO<T>` | each invocation / `UnsafeRun()` | no | one per call |
+| `Lazy<T>` | first `.Value` | yes | one for that instance |
+| `Task<T>` returned by a TAP method | active when returned | yes | one completion per task |
+| `Func<Task<T>>` | each function invocation | not across invocations | one task result per invocation |
+| cold `IEnumerable<T>` / `IObservable<T>` | each enumeration / subscription | no | many |
 
-* Traversal and `action` invocation wait until `Run()`.
-* Items are processed in list order, one at a time.
-* Results preserve the same order.
-* An exception prevents later items from running but does not undo completed effects.
-* Each outer `Run()` repeats the traversal and its effects.
+Awaiting the same `Task<T>` twice observes the same task completion; it does not call the producer twice. That is why a task instance cannot directly express "run this operation again." An async analogue of this article's cold factory starts closer to `Func<CancellationToken, Task<T>>`, although a real async effect type also needs cancellation, scheduling, and resource semantics.
 
-The nested `Run()` calls are part of the suspended traversal and occur only after the outer program begins.
+The TAP qualifier matters. [.NET's TAP guidance](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) says tasks returned by TAP methods are active, while a `Task` created with its public constructor can begin cold in `TaskStatus.Created`. Active also does not mean "running on another thread": an `async` method executes synchronously until its first incomplete `await`.
 
-Other traversals could add pacing, selective retries, failure collection, or bounded concurrency. Such policies are not automatically safe: retrying a read may be acceptable, while retrying a non-idempotent command may duplicate it.
+An arbitrary `ValueTask<T>` has different consumption rules. [.NET analyzer rule CA2012](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2012) says callers generally must assume a `ValueTask` returned by a member can be consumed only once.
+
+`IO<Task<T>>` is not a complete async design. `IO.Pure(FetchAsync())` calls `FetchAsync` before `Pure`, and even `IO.Delay(() => FetchAsync())` only defers creation of a task. This `Map` and `FlatMap` do not await it. Blocking with `.Result` or `.GetAwaiter().GetResult()` is not a substitute for asynchronous composition.
+
+Finally, `UnsafeRun()` is the opposite of `Task.Run`: `Task.Run` schedules work and returns a task, while `UnsafeRun()` directly invokes a delegate and returns its result. This `IO<T>` performs no scheduling.
 
 ## Runtime semantics and limitations
 
-This `IO<T>` is a tiny teaching model, not a recommendation for idiomatic C# application structure. It is synchronous, cold, opaque, and non-memoized: nothing happens until `Run()`, and each call to `Run()` starts the computation again on the current thread. Exceptions propagate normally, captured mutable state is observed at run time, and C# does not enforce purity. It is also not stack-safe for very deep chains and provides no built-in cancellation, resource safety, retry, rollback, or async execution; normal .NET async I/O uses `Task` or `Task<T>`, and TAP methods generally return already-started work unlike this cold teaching type.
+### What this model defines
+
+* `UnsafeRun()` invokes the stored delegate synchronously on the caller's thread.
+* The wrapper performs no scheduling and does not memoize the delegate's result.
+* `Map` and `FlatMap` preserve suspension when their callbacks construct values without performing effects.
+* `FlatMap`, `Then`, `Zip`, `Bracket`, and traversal define left-to-right sequencing.
+* Exceptions propagate unless a combinator such as a selective `Attempt` converts them.
+* Captured mutable state is read when the delegate runs, not necessarily when the `IO<T>` is constructed.
+
+### What this model does not guarantee
+
+* **Purity or honesty.** C# permits effects during argument evaluation, factory methods, `Map` transforms, and `FlatMap` continuations.
+* **Introspection.** The stored `Func<T>` is opaque. The value gives positional control over when, whether, and how often work runs, but it cannot be inspected, logged as instructions, optimized, or interpreted against a test runtime.
+* **Stack safety.** Composition recursively calls `UnsafeRun()` through closure layers. A sufficiently deep chain can cause a [`StackOverflowException` that application code cannot catch](https://learn.microsoft.com/en-us/dotnet/api/system.stackoverflowexception?view=net-10.0), terminating the process by default. A stack-safe design reifies `Pure`, `Delay`, and `FlatMap` as instruction data and interprets it with an explicit stack or trampoline. That instruction-ADT, free-monad-style design would also make programs inspectable.
+* **Async execution, cancellation, backpressure, or native concurrency.** These require a different runtime and API.
+* **Thread safety.** The wrapper is immutable, but its delegate and captured state may not be. Concurrent `UnsafeRun()` calls can race and duplicate effects.
+* **Automatic resource safety, retry, transactions, or rollback.** Those require explicit combinators and operation-specific semantics.
+* **Cheap allocation.** Every combinator allocates an `IO` object and usually a closure. A suspended value also keeps captured services, APIs, and buffers alive until the value becomes unreachable.
+* **Variance.** `IO<T>` is a sealed class and remains invariant in `T`, even though its stored `Func<T>` has a covariant result type.
+
+Opacity also limits the testing benefit. You still need an `IRemotePriceApi` fake to verify returned prices, failures, and request order. The narrower improvement is testable: a fake with a call counter can prove that constructing and composing the program did not invoke the stored request, and that each `UnsafeRun()` invokes it again.
 
 ## Conclusion
 
-Returning `IO<T>` changes the function from "perform an effect and return `T`" to "construct a suspended computation that can later produce `T`." `FlatMap` composes dependent suspended operations, `TraverseSequential` or `SequenceSequential` chooses how a batch is executed, and `Run()` marks the boundary where execution begins.
+Returning `IO<T>` changes a helper from "perform an effect and return `T`" to "construct a cold value whose stored delegate can later produce `T`." `Pure` and `FlatMap` supply the monadic structure, `Delay` introduces suspended work, derived combinators give policies names, and `UnsafeRun()` marks the synchronous execution boundary.
 
-Keep pure transformations as ordinary functions, return `IO<T>` from effectful helpers, compose those values without forcing them, and call `Run()` near the application boundary.
+Keep pure transformations as ordinary functions, construct effects through `Delay`, compose without forcing them, and call `UnsafeRun()` at the application boundary. Calls inside `FlatMap`, `Bracket`, and traversal are the implementation of one larger boundary, not separate application-level escapes.
 
-## Appendix
-
-<details markdown="1">
-<summary markdown="span">Open the appendix for query syntax support</summary>
-
-### C# query syntax support
-
-The C# compiler translates query expressions into method calls such as `Select` and `SelectMany`. To use query syntax with `IO<T>`, add these methods:
-
-```csharp
-public IO<TResult> Select<TResult>(Func<T, TResult> selector)
-{
-    return Map(selector);
-}
-
-public IO<TResult> SelectMany<TNext, TResult>(
-    Func<T, IO<TNext>> next,
-    Func<T, TNext, TResult> project)
-{
-    return FlatMap(value =>
-        next(value).Map(nextValue =>
-            project(value, nextValue)));
-}
-```
-
-With those methods in place, the main-body query-syntax example works as written.
-
-</details>
+A next step could replace `Func<T>` with an instruction data type and iterative interpreter for inspection and stack safety, or design an async effect around task factories, cancellation tokens, and structured resource handling. Production ecosystems explore those tradeoffs in libraries such as [LanguageExt](https://github.com/louthy/language-ext) for .NET, [Cats Effect](https://typelevel.org/cats-effect/) for Scala, and [ZIO](https://zio.dev/) for Scala.
