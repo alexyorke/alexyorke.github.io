@@ -9,6 +9,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import parse_qsl, urlsplit
+from urllib.parse import unquote
 
 
 DBLP_HOSTS = {"dblp.org", "dblp.dagstuhl.de"}
@@ -23,6 +24,11 @@ DOCUMENT_SUFFIX = re.compile(
 )
 ACM_DOI = re.compile(
     r"^https?://(?:www\.)?dl\.acm\.org/doi/(?:abs/|pdf/)?(10\.[^?#]+)", re.I
+)
+DOI = re.compile(r"(10\.\d{4,9}/[^?&#\s]+)", re.I)
+WAYBACK = re.compile(
+    r"^https?://web\.archive\.org/web/(\d{4,14})(?:[a-z_]+)?/(https?://.+)$",
+    re.I,
 )
 HACKAGE_HOSTS = {
     "hackage.haskell.org",
@@ -166,6 +172,27 @@ def arxiv_key(url: str) -> str | None:
 def acm_key(url: str) -> str | None:
     match = ACM_DOI.match(url)
     return match.group(1) if match else None
+
+
+def doi_key(url: str) -> str | None:
+    match = DOI.search(unquote(url))
+    if not match:
+        return None
+    return match.group(1).rstrip("/").removesuffix(".pdf").casefold()
+
+
+def wayback_key(url: str) -> tuple[str, str, str] | None:
+    match = WAYBACK.match(url)
+    if not match:
+        return None
+    original = urlsplit(match.group(2))
+    host = (original.hostname or "").casefold().removeprefix("www.")
+    return host, original.path.rstrip("/") or "/", original.query
+
+
+def wayback_timestamp(url: str) -> str:
+    match = WAYBACK.match(url)
+    return match.group(1) if match else ""
 
 
 def document_key(url: str) -> tuple[str, str, str] | None:
@@ -324,11 +351,17 @@ def main() -> int:
             retained_rows.append(row)
     rows = retained_rows
 
+    doi_groups: dict[str, list[list[str]]] = defaultdict(list)
     dblp_groups: dict[str, list[list[str]]] = defaultdict(list)
     acm_groups: dict[str, list[list[str]]] = defaultdict(list)
     arxiv_groups: dict[str, list[list[str]]] = defaultdict(list)
+    wayback_groups: dict[tuple[str, str, str], list[list[str]]] = defaultdict(list)
     ordinary: list[list[str]] = []
     for row in rows:
+        key = doi_key(row[0])
+        if key is not None:
+            doi_groups[key].append(row)
+            continue
         key = dblp_key(row[0])
         if key is not None:
             dblp_groups[key].append(row)
@@ -341,9 +374,26 @@ def main() -> int:
         if key is not None:
             arxiv_groups[key].append(row)
             continue
+        archive_key = wayback_key(row[0])
+        if archive_key is not None:
+            wayback_groups[archive_key].append(row)
+            continue
         ordinary.append(row)
 
     kept: list[list[str]] = []
+    for key, group in sorted(doi_groups.items()):
+        if len(group) == 1:
+            ordinary.extend(group)
+            continue
+        winner = max(group, key=row_rank)
+        canonical = [f"https://doi.org/{key}", winner[1], winner[2]]
+        kept.append(canonical)
+        for row in group:
+            if row != canonical:
+                removed.append(
+                    {"url": row[0], "kept": canonical[0], "reason": "DOI sibling"}
+                )
+
     for key, group in sorted(dblp_groups.items()):
         winner = max(group, key=row_rank)
         canonical = [f"https://dblp.org/rec/{key}.html", winner[1], winner[2]]
@@ -372,6 +422,22 @@ def main() -> int:
             if row != canonical:
                 removed.append(
                     {"url": row[0], "kept": canonical[0], "reason": "ACM DOI sibling"}
+                )
+
+    for group in wayback_groups.values():
+        if len(group) == 1:
+            ordinary.extend(group)
+            continue
+        winner = max(group, key=lambda row: wayback_timestamp(row[0]))
+        kept.append(winner)
+        for row in group:
+            if row is not winner:
+                removed.append(
+                    {
+                        "url": row[0],
+                        "kept": winner[0],
+                        "reason": "older Wayback snapshot",
+                    }
                 )
 
     hackage_groups: dict[str, list[list[str]]] = defaultdict(list)
@@ -459,8 +525,10 @@ def main() -> int:
         "output_records": len(kept),
         "removed_records": input_records - len(kept),
         "dblp_works": len(dblp_groups),
+        "doi_works": len(doi_groups),
         "acm_works": len(acm_groups),
         "arxiv_works": len(arxiv_groups),
+        "wayback_targets": len(wayback_groups),
         "hackage_targets": len(hackage_groups),
         "document_stems": len(document_groups),
         "removed": removed,
