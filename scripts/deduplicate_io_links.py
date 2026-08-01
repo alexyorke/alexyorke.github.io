@@ -91,6 +91,37 @@ PACKAGE_INDEX_HOSTS = {
     "www.rpmfind.net",
     "www.stackage.org",
 }
+LOW_VALUE_HOSTS = {
+    "academia.edu",
+    "dblp.uni-trier.de",
+    "dokumen.pub",
+    "exchangetuts.com",
+    "export.arxiv.org",
+    "news.ycombinator.com",
+    "paperzz.com",
+    "reddit.com",
+    "researchgate.net",
+    "riptutorial.com",
+    "sambuz.com",
+    "scispace.com",
+    "scribd.com",
+    "slideplayer.com",
+    "slideserve.com",
+    "slideshare.net",
+    "softwarepatternslexicon.com",
+    "stackoverflow.com",
+    "studylib.net",
+    "www.academia.edu",
+    "www.reddit.com",
+    "www.researchgate.net",
+    "www.sambuz.com",
+    "www.scribd.com",
+    "www.slideplayer.com",
+    "www.slideserve.com",
+    "www.slideshare.net",
+    "www.stackoverflow.com",
+    "www.stackprinter.com",
+}
 PACKAGE_VERSION = re.compile(
     r"^(?P<name>.+)-(?P<version>\d+(?:\.\d+)+(?:[-+][A-Za-z0-9.-]+)?)$"
 )
@@ -216,12 +247,14 @@ def hackage_metadata_rank(row: list[str]) -> tuple[int, str, int]:
     return int(status != "accessed"), row[2], status_rank
 
 
-def is_package_index(url: str) -> bool:
+def is_excluded_domain(url: str) -> bool:
     parsed = urlsplit(url)
     host = (parsed.hostname or "").casefold()
     path = parsed.path.casefold()
     return (
         host in PACKAGE_INDEX_HOSTS
+        or host in LOW_VALUE_HOSTS
+        or any(host.endswith(f".{root}") for root in LOW_VALUE_HOSTS)
         or host == "github.com"
         or host.endswith(".github.com")
         or host.endswith(".pypi.org")
@@ -283,9 +316,9 @@ def main() -> int:
     removed: list[dict[str, str]] = []
     retained_rows: list[list[str]] = []
     for row in rows:
-        if is_package_index(row[0]):
+        if is_excluded_domain(row[0]):
             removed.append(
-                {"url": row[0], "kept": "", "reason": "package index domain"}
+                {"url": row[0], "kept": "", "reason": "excluded domain"}
             )
         else:
             retained_rows.append(row)
