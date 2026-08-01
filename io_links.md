@@ -2713,8 +2713,7 @@ https://ci.nii.ac.jp/ncid/BB09244173.amp	published	2012-05
 https://play.google.com/store/books/details/Miran_Lipovaca_%E3%81%99%E3%81%94%E3%81%84Haskell%E3%81%9F%E3%81%AE%E3%81%97%E3%81%8F%E5%AD%A6%E3%81%BC%E3%81%86?id=qU7A2leacv4C	published	2012-05
 https://citeseerx.ist.psu.edu/document?doi=34053db6bbcdca48fa3e85b51aaf0a4fd97d42e2&repid=rep1&type=pdf	publication	2012-05
 https://citeseerx.ist.psu.edu/document?doi=5329c7295901b503e73eafd1c7fd664f48caa227&repid=rep1&type=pdf	publication	2012-05
-https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120520054209%21Haskell.pdf	modified	2012-05-19
-https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120522095609%21Haskell.pdf	modified	2012-05-20
+https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120520054209%21Haskell.pdf	modified	2012-05-20
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120527201949%21Haskell.pdf	modified	2012-05-22
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120528070847%21Haskell.pdf	modified	2012-05-27
 https://eprints.nottingham.ac.uk/13348/	publication	2012-06
@@ -3627,7 +3626,6 @@ https://academic.oup.com/edited-volume/34667/chapter-abstract/295394234	publicat
 https://lyah.haskell.fr/	modified	2015-07-12
 https://lyah.haskell.fr/entrees-et-sorties	modified	2015-07-12
 https://lyah.haskell.fr/pour-une-poignee-de-monades	modified	2015-07-12
-https://lyah.haskell.fr/apprendre-haskell-vous-fera-le-plus-grand-bien_printer-friendly.pdf	modified	2015-07-12
 https://lyah.haskell.fr/apprendre-haskell-vous-fera-le-plus-grand-bien.pdf	modified	2015-07-12
 https://academic.oup.com/nsr/article/2/3/349/1427872?login=false	publication	2015-07-13
 https://academic.oup.com/nsr/article/2/3/349/1427872	publication	2015-07-13
@@ -7318,7 +7316,6 @@ https://doi.org/10.22024/UniKent/01.02.94289	published	2023
 https://doi.org/10.34726/hss.2023.110085	created	2023
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.29	created	2023
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.30	created	2023
-https://pages.di.unipi.it/corradini/Didattica/AP-21/SLIDES/AP-2021-17-Monads.pdf	created	2023
 https://research.google.com/pubs/archive/36841.pdf	created	2023
 https://iris-project.org/pdfs/2023-esop-tes.pdf	created	2023
 https://www.classes.cs.uchicago.edu/archive/2023/winter/22300-1/notes/monads/the-essence-of-functional-programming.pdf	created	2023
@@ -7958,6 +7955,7 @@ https://repository.tudelft.nl/file/File_9d5e9685-a9e3-47df-9cdd-03cecb4b44c7	pub
 https://ws.lib.ttu.ee/publikatsioonid/et/publ/item/08708474-6b91-47f9-ad7c-b95561e194c6	publication	2024
 https://link.springer.com/chapter/10.1007/978-3-031-57267-8_11	published	2024
 https://doi.org/10.1016/j.scico.2024.103086	created	2024
+https://pages.di.unipi.it/corradini/Didattica/AP-21/SLIDES/AP-2021-17-Monads.pdf	created	2024
 https://groups.seas.harvard.edu/courses/cs152/2023sp/lectures/lec18-monads.pdf	created	2024
 https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-IO-4sw.pdf	created	2024
 https://research.chalmers.se/publication/540080/file/540080_Fulltext.pdf	created	2024
@@ -7965,7 +7963,6 @@ https://www.cs.columbia.edu/~sedwards/classes/2024/4995-fall/monads.pdf	created	
 https://web.cs.ucdavis.edu/~cdstanford/doc/2024/POPLSRC24.pdf	created	2024
 https://www.cs.purdue.edu/homes/suresh/456-Fall2024/lectures/Week8.pdf	created	2024
 https://www.cs.unm.edu/~darko/classes/2024f-456/syllabus.pdf	created	2024
-https://pages.di.unipi.it/corradini/Didattica/AP-24/SLIDES/AP-2024-19-Monads.pdf	created	2024
 https://chrishenson.net/posts/2024-04-28-synacor.html	created	2024
 https://www.cs.ru.nl/bachelors-theses/2024/Sofie_Vos___1068747___Running_iTasks_tasks_in_the_browser.pdf	created	2024
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FCD90F7590C031791DBE08DCD65CED5/S0956796824000054a.pdf/signature-restriction-for-polymorphic-algebraic-effects.pdf	published	2024

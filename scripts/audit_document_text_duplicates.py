@@ -27,11 +27,11 @@ def similar_name(left: str, right: str) -> bool:
 
     length_ratio = min(len(left), len(right)) / max(len(left), len(right))
     return (
-        len(left) >= 10
-        and len(right) >= 10
-        and length_ratio >= 0.82
-        and (left[:5] == right[:5] or left[-5:] == right[-5:])
-        and SequenceMatcher(None, left, right).ratio() >= 0.9
+        len(left) >= 8
+        and len(right) >= 8
+        and length_ratio >= 0.7
+        and (left[:3] == right[:3] or left[-3:] == right[-3:])
+        and SequenceMatcher(None, left, right).ratio() >= 0.82
     )
 
 
