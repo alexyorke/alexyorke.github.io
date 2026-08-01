@@ -25,13 +25,32 @@ Why do we need this special IO monad for side effects, what specifically about s
 
 Why do we care about referential transparency, though? Functional programming, in some ways, allows you to manulipate your program algebraically. When you have this affordance, you have to follow a set of rules, much like algebra. What this provides you is the ability to locally reason about your program.
 
-Say in algebra, you say `x = y + 1`, then, well, you know how to solve for x, it's just a variable. If we didn't have these rules, then well you might say well you don't know if x is special or maybe there is something that changes x in a special way, you have to read all of the equations beforehand and know about the state of the universe. You sort of take it for granted that, if you see say `x + 2 = 4` then well there is a set of algebraic rules you can do to solve this so that x = 2. They are the same algebraic rules, if someone gives you `x + 4 = 9` you can use those same rules.
+Let's go back to high school algebra, say we say `a = b`, then it would make sense that `a + c = b + c`, c is on both sides and we know that a = b. Now, if this ordinary algebra was not referentailly transparent, we cannot say that `a + c = b + c` because we do not know if substituting an expression with its result would be the same thing. Sounds weird, let me clarify a bit more.
 
-With functional programming it's sort of the same thing, there is an expectation that these rules are followed as well, which gives you the ability to reason about your program in a more straightforward manner, sort of algebraically or using equational reasoning. If you can substitute the result of an expression with its output (referential transparency) it makes it much more clear on what the code is doing.
+Imagine a stateful algebra, where say `r` is equal to a counter, starting at zero but each time its evaluated it increments by one. So if I say `r + r`, this equals 1. Do it again, i.e., r + r, now it equals 5 even though these expressions are totally distinct. We can't say that `r + r = 2r`, nor can we say that `r = r` because everytime it's evaluated, its result changes, it's a counter.
 
-In algebra sure I mean referential transparency, it's so obvious this special sounding name seems unnecessary. If I have a function f(x) = x + 5, then I say f(x) + f(x) = (x + 5) + (x + 5) and so 2f(x) = 2x + 10, well yeah of course. It's algebra. Now imagine if you couldn't do that, algebra would not be nearly as straightforward, it would not be possible to do these arrangements.
+This function can be modeled in an imperative programming language, for example in C sharp:
+
+public int r;
+
+public int Counter() {
+    this.r++;
+    return r;
+}
+
+If I call Counter() + Counter() I will get 1. I cannot substitute Counter() with its result, because everytime I run it I get a different answer, e.g., 0 + 1 = 2, 2 + 3 = 5, so if I set Counter() to zero, that doesn't work, the operation would be invalid.
+
+What this means is that we don't have the freedom to substitute each expression with its value. This can make it more difficult to reason about programs, and subsequentally algebra if we were unable to do that. It would be very inflexible. Similar to the algebra example, now we need to know about hidden state, how often an expression has been evaluated before, and simplifications/rearranging of equations, would be not possible or difficult.
+
+And, well, it's sort of the same thing for functions that are not referentially transparent. We can't reason about them the same way, much like that weird algebra that wasn't referentially transparent, where a = b but a + b is not equal to a + b. What?! you might say, that doesn't make sense, of course a + b = a + b, it's the same thing. You can reason about it in algebra, but for procedural programming with non-referentially transparent functions it is unclear.
+
+Side effects are not referentially transparent, and so say if I call ReadNumberFromFile(...) twice, I mean, sure, I might get the same result, but it depends on the file. The file could have changed in between reads. The thing is, is that we have to treat all functions as non-referentially transparent, otherwise if we assume a transformation is valid then we might unintentionally introduce a bug in our program. Similar to the non-referentially transparent algebra, this makes it difficult to reason about our program locally.
+
+The IO monad is _one_ way of dealing with making side effectful functions, well, at least temporarily referentially transparent by turning them into some sort of receipe that hasn't yet been executed until you say so. If you have a recipe then well I mean you can combine two recipes together, nothing happens, it's just a recipe until you actually make it.
 
 Since algebra behaves under these specific rules, it makes it straightforward to evaluate this equation. Same goes for functional programming, in some aspects: because functional programming provides referential transparency, then we have the ability to locally reason about our programs. The IO monad is simply a recipe for a computation to be performed, it is not the computation. This preserves referential transparency, the act of reading a file never changes, but the file contents might.
+
+Since, well, all of the other non-sideeffectful functions are referentially transparent, then it sort of throws a wrench into things once you need to do side effectful things. Sure, IO doesn't magically make it referentially transparent but it helps create the algebra to manulipate it as if it were, until it's time to execute it.
 
 Here is the thesis of this article: **`IO<T>` allows functions that would perform side effects to be composed without performing those effects during composition.**
 
