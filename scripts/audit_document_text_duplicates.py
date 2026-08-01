@@ -29,9 +29,9 @@ def similar_name(left: str, right: str) -> bool:
     return (
         len(left) >= 7
         and len(right) >= 7
-        and length_ratio >= 0.6
-        and (left[:2] == right[:2] or left[-2:] == right[-2:])
-        and SequenceMatcher(None, left, right).ratio() >= 0.72
+        and length_ratio >= 0.5
+        and (left[:1] == right[:1] or left[-1:] == right[-1:])
+        and SequenceMatcher(None, left, right).ratio() >= 0.65
     )
 
 

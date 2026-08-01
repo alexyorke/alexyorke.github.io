@@ -2215,7 +2215,6 @@ https://citeseerx.ist.psu.edu/document?doi=6a77e58bdddc2752120b022d55a971931d379
 https://pleiad.cl/people/etanter	archived	2010-07-14
 https://researchr.org/alias/%C3%A9ric-tanter	archived	2010-07-15
 https://www.cs.cmu.edu/~rwh/papers/mml5/paper.pdf	modified	2010-07-16
-https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120414092148%21Haskell.pdf	modified	2010-07-18
 https://zvon.org/other/haskell/Outputdirectory/renameFile_f.html	modified	2010-07-18
 https://repository.nottingham.ac.uk/entities/publication/615ec641-cbee-4c82-a121-3789b1b11cfa	publication	2010-07-20
 https://mvanier.livejournal.com/4586.html	published	2010-07-25
@@ -3515,7 +3514,6 @@ https://www.cambridge.org/core/journals/journal-of-functional-programming/articl
 https://cronfa.swan.ac.uk/Record/cronfa22988	publication	2015-01-01
 https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/OWA/TC-OWA-5177.pdf	modified	2015-01-08
 https://sm-haskell-users-group.github.io/	modified	2015-01-13
-https://cs.ubishops.ca/home/cs403/cunningham-haskell.pdf	modified	2015-01-13
 https://ethz.ch/content/dam/ethz/special-interest/infk/inst-infsec/information-security-group-dam/people/andreloc/lochbihler14iw.pdf	modified	2015-01-13
 https://arxiv.org/abs/1410.5370	updated	2015-01-16
 https://arxiv.org/abs/1501.04132	created	2015-01-16
@@ -4295,7 +4293,6 @@ https://www.cs.ru.nl/masters-theses/2017/D_vd_Vooren___Improving_the_efficiency_
 https://www.csse.canterbury.ac.nz/research/reports/HonsReps/2017/hons_1701.pdf	created	2017
 https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/algeff-in-c-tr-v2.pdf	created	2017
 https://www.parsonsmatt.org/2017/11/21/monadbasecontrol_in_five_minutes.html	created	2017
-https://anil.recoil.org/papers/2017-tfp-effecthandlers.pdf	created	2017
 https://typelevel.org/blog/2017/05/02/io-monad-for-cats.html	created	2017
 https://monix.io/public/pdfs/ScalaWorld2017-Tale-TwoStreams.pdf	created	2017
 https://jeremymikkola.com/posts/2017_07_11_free_monad_cheatsheet.html	created	2017
@@ -4343,6 +4340,7 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/fstar.pdf	cr
 https://www.cs.cmu.edu/~popl-interviews/peytonjones.html	authored	2017
 https://project-archive.inf.ed.ac.uk/msc/20172453/msc_proj.pdf	authored	2017
 https://www.pure.ed.ac.uk/ws/files/29107880/frankly.pdf	publication	2017
+https://kcsrk.info/papers/system_effects_feb_18.pdf	created	2017
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/no-value-restriction-is-needed-for-algebraic-effects-andhandlers/19DD87AEDAEABBB45A06D5EA21F03428	publication	2017-01
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/interactive-programming-in-agda-objects-and-graphical-user-interfaces/56ECE95C3A0C208D5ABCD072643BC8FB	publication	2017-01
 https://www.cambridge.org/core/journals/journal-of-functional-programming/article/flexible-dynamic-information-flow-control-in-the-presence-of-exceptions/DA92A6BA5FBBDC534F1B498217D160A8	publication	2017-01
@@ -4945,7 +4943,7 @@ https://doi.org/10.1017/9781108241861.015	publication	2018-10
 https://doi.org/10.1017/9781108241861.016	publication	2018-10
 https://doi.org/10.1017/9781108241861.017	publication	2018-10
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1F7596A68D0EA0C87624901EA0E144B8/9781108416757bib_379-380.pdf/bibliography.pdf	publication	2018-10
-https://john.cs.olemiss.edu/~hcc/csci450/notes/haskell_notes.pdf	modified	2018-10-01
+https://cs.ubishops.ca/home/cs403/cunningham-haskell.pdf	modified	2018-10-01
 https://www.cs.ox.ac.uk/people/bob.coecke/WSimmons.pdf	modified	2018-10-03
 https://web.cecs.pdx.edu/~mpj/pubs/language.pdf	modified	2018-10-05
 https://typelevel.org/blog/intro-to-mtl.html	published	2018-10-06
@@ -5373,7 +5371,6 @@ https://www.sigplan.org/OpenTOC/farm19.html	modified	2019-08-26
 https://www.sigplan-www.sigplan.hosting.acm.org/OpenTOC/haskell19.html	modified	2019-08-26
 https://paperswelove.org/papers/tackling-the-awkward-squad-monadic-inputoutput-concurrency-exceptions-and-foreign-language-calls-in-haskell	created	2019-08-27
 https://dev.to/szg251/haskell-do-notation-explained-through-javascript-async-await-part-2-hn	published	2019-08-28
-https://www.cs.tufts.edu/comp/150PLD/Papers/awkward.pdf	modified	2019-08-29
 https://www.cs.tufts.edu/comp/150PLD/Papers/MonadsForFunctionalProgramming.pdf	modified	2019-08-29
 https://www.informatik.uni-kiel.de/~mh/lehre/abschlussarbeiten/bsc/Andresen_Justin.pdf	authored	2019-09
 https://haskell-for-readers.nomeata.de/	modified	2019-09-02
@@ -7754,14 +7751,12 @@ https://dl.acm.org/doi/10.1145/3609026.3609731	publication	2023-08-30
 https://research-information.bris.ac.uk/en/publications/effect-handlers-for-programmable-inference	publication	2023-08-31
 https://arxiv.org/abs/2309.04179	created	2023-09
 https://www.youtube.com/watch?v=wC9cpQk7WWA	uploaded	2023-09-01
-https://mabboux.net/informatique/haskell/en/Tutoriel/HDaume-Tutoriel.pdf	modified	2023-09-02
 https://mabboux.net/informatique/haskell/fr/Tutoriel/Haskell_pour_C_Programmeurs.pdf	modified	2023-09-02
 https://mabboux.net/informatique/haskell/en/Tutoriel/Wikibooks-Haskell.pdf	modified	2023-09-02
 https://mabboux.net/informatique/haskell/haskell0.html	modified	2023-09-02
 https://mabboux.net/informatique/haskell/fr/Presentation/ebeffara.pdf	modified	2023-09-02
 https://mabboux.net/informatique/haskell/fr/Monades.pdf	modified	2023-09-02
 https://mabboux.net/informatique/haskell/en/ffi%202003.pdf	modified	2023-09-02
-https://mabboux.net/informatique/haskell/en/Tutoriel/Haskell-M.Lipovaca.pdf	modified	2023-09-02
 https://mabboux.net/informatique/haskell/en/Tutoriel/Haskell%20beginning.pdf	modified	2023-09-02
 https://www.sigplan.org/OpenTOC/haskell23.html	modified	2023-09-07
 https://www.youtube.com/watch?v=CnPT5LOIVZw	uploaded	2023-09-08
@@ -11173,7 +11168,6 @@ https://en.wikipedia.org/wiki/F%2A_%28programming_language%29	modified	2026-07-1
 https://inria.hal.science/hal-03200474v1/document	modified	2026-07-18
 https://fs2-data.gnieh.org/documentation/xml/	modified	2026-07-18
 https://kcsrk.info/papers/effects_ocaml15.pdf	modified	2026-07-18
-https://kcsrk.info/papers/system_effects_feb_18.pdf	modified	2026-07-18
 https://kcsrk.info/papers/schedact_jfp16.pdf	modified	2026-07-18
 https://kcsrk.info/papers/drafts/retro-concurrency.pdf	modified	2026-07-18
 https://kcsrk.info/papers/effects_dagstuhl18.pdf	modified	2026-07-18
