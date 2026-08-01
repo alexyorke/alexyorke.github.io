@@ -16,12 +16,20 @@ import requests
 
 
 DOCUMENT = re.compile(r"\.(?:pdf|ps|dvi|docx?|pptx?)(?:\.gz)?$", re.I)
+COPY_SUFFIX = re.compile(
+    r"(?:[-_.](?:copy|final|revised|revision|rev|v\d+|version\d+|\d+))+$", re.I
+)
 MAX_BYTES = 50 * 1024 * 1024
 
 
 def basename(url: str) -> str | None:
     value = unquote(urlsplit(url).path.rstrip("/").rsplit("/", 1)[-1]).casefold()
-    return value if DOCUMENT.search(value) else None
+    if not DOCUMENT.search(value):
+        return None
+    stem = DOCUMENT.sub("", value)
+    stem = COPY_SUFFIX.sub("", stem)
+    stem = re.sub(r"[^a-z0-9]+", "", stem)
+    return stem if len(stem) >= 6 else None
 
 
 def fetch_digest(url: str) -> dict[str, object]:

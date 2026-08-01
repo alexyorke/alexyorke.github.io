@@ -1715,7 +1715,6 @@ https://cgi.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Exercise.html	created	2008
 https://cgi.cse.unsw.edu.au/~cs3141/22T2/Week%2008/Quiz.html	created	2008
 https://kwarc.info/people/archive/pubs/phd-2008/normann.pdf	created	2008
 https://cronfa.swan.ac.uk/Record/cronfa42715/Download/0042715-02082018162516.pdf	created	2008
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14416CB20C4637164EA9F77097909409/S0956796808006758a.pdf/data_types_a_la_carte.pdf	published	2008
 https://os.inf.tu-dresden.de/Studium/ReadingGroupArchive/slides/2008/20080326-kalkowski-haskellos.pdf	created	2008
 https://www3.dcc.fc.up.pt/~pribeiro/pubs/pdf/ribeiro-ioi2008.pdf	created	2008
 https://kar.kent.ac.uk/47997/1/Micallef2008_BScThesis.pdf	created	2008
@@ -2479,7 +2478,6 @@ https://arxiv.org/abs/1110.4163	created	2011-10
 https://citeseerx.ist.psu.edu/document?doi=b8417eed902452a1590874d4b9ba957d5e0205a5&repid=rep1&type=pdf	publication	2011-10
 https://www.scs.stanford.edu/11au-cs240h/notes/basics.html	modified	2011-10-04
 https://www.scs.stanford.edu/11au-cs240h/notes/concurrency-slides.html	modified	2011-10-10
-https://strathprints.strath.ac.uk/34572/1/paramnotions_jfp.pdf	modified	2011-10-14
 https://www.frege-lang.org/doc/frege/data/Monoid.html	created	2011-10-16
 https://www.youtube.com/watch?v=b9FagOVqxmI	uploaded	2011-10-19
 https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html	modified	2011-10-19
@@ -2724,7 +2722,6 @@ https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/2
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120522095609%21Haskell.pdf	modified	2012-05-20
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120527201949%21Haskell.pdf	modified	2012-05-22
 https://ftpmirror.your.org/pub/wikimedia/images/wikipedia/commons/archive/2/26/20120528070847%21Haskell.pdf	modified	2012-05-27
-https://www.cs.tufts.edu/~nr/cs257/archive/gordon-plotkin/comp-eff-monads.pdf	modified	2012-05-28
 https://eprints.nottingham.ac.uk/13348/	publication	2012-06
 https://eprints.nottingham.ac.uk/13348/1/hu-thesis.pdf	publication	2012-06
 https://www.monoidal.net/papers/qhaskell.pdf	created	2012-06-01
@@ -3915,10 +3912,10 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/monadic-io.p
 https://cseweb.ucsd.edu/~dstefan/talks/strangeloop2016.pdf	created	2016
 https://www.curry-lang.org/docs/report/versions/report_2016_01_13.pdf	created	2016
 https://khibino.github.io/haskell-relational-record/pdf/hrr-haskell-sympo2016-rejected.pdf	created	2016
-https://mabboux.net/informatique/haskell/en/haskell-history.pdf	created	2016
 https://tomasp.net/academic/papers/computation-zoo/computation-zoo.pdf	created	2016
 https://andrewdgordon.github.io/papers/fpio.pdf	created	2016
 https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	created	2016
+https://fldit-www.cs.tu-dortmund.de/~peter/HaskellHistory.pdf	created	2016
 https://www.oreilly.com/library/view/haskell-programming-from/9781942991973/	publication	2016-01
 https://www.haskellbook.ir/reader/haskell-programming-from-first-principles/28-10-follow-up-resources	published	2016-01
 https://cronfa.swan.ac.uk/Record/cronfa29413/Description	publication	2016-01-01
@@ -6146,7 +6143,6 @@ https://sec.cs.univie.ac.at/fileadmin/user_upload/i_sec/docs/teaching/thesis/202
 https://www2.ki.informatik.uni-frankfurt.de/lehre/WS2021/EFP/folien/08-io.pdf	created	2021
 https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/OEBPS/Text/toc.htm	published	2021
 https://www.cs.columbia.edu/~sedwards/classes/2021/4995-fall/index.html	created	2021
-https://drops.dagstuhl.de/storage/00lipics/lipics-vol194-ecoop2021/LIPIcs.ECOOP.2021.9/LIPIcs.ECOOP.2021.9.pdf	created	2021
 https://www2.ki.cs.uni-frankfurt.de/lehre/WS2021/EFP/aufgaben/blatt7.pdf	created	2021
 https://okmij.org/ftp/Computation/streams-hapoc2021.pdf	created	2021
 https://courses.cs.cornell.edu/cs3110/2021sp/textbook/adv/callbacks.html	created	2021
@@ -6685,7 +6681,6 @@ https://agda.readthedocs.io/_/downloads/en/v2.6.2.1/pdf/	modified	2021-12-08
 https://codedocs.org/what-is/clean-programming-language	archived	2021-12-09
 https://ocaml.org/papers	created	2021-12-10
 https://ocaml.org/books	created	2021-12-10
-https://fldit-www.cs.tu-dortmund.de/~peter/HaskellHistory.pdf	modified	2021-12-15
 https://www.youtube.com/watch?v=7aEjpyRWIzk	uploaded	2021-12-16
 https://www.youtube.com/watch?v=mZxDtE9ONAQ	uploaded	2021-12-17
 https://felixspringer.xyz/homepage/blog/composingTransformers	archived	2021-12-18
@@ -8665,7 +8660,6 @@ https://www.ioc.ee/~matt/iti0212-2025/lab_sheets/lab07.pdf	created	2025
 https://theses.univ-orleans.fr/public/2025ORLE1052_va.pdf	created	2025
 https://gallais.github.io/pdf/2025_TYPES_abstract.pdf	created	2025
 https://www.cs.hs-rm.de/~sabel/teaching/archive/2025_SoSe_FP/index.html	created	2025
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/automatically-testing-console-io-behavior-of-student-submissions-in-haskell.pdf	published	2025
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/div-class-title-automatically-testing-console-i-o-behavior-of-student-submissions-in-haskell-div.pdf	published	2025
 https://coq-workshop.gitlab.io/2025/files/EA5.pdf	created	2025
 https://www.cs.ru.nl/bachelors-theses/2025/Matej_Hora___1100089___Grafting_Dynamic_Editor_Trees_-_Recycling_children_and_modular_selector_adding_for_Dynamic_Editors_in_iTasks.pdf	created	2025
