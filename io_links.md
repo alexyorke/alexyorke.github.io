@@ -1111,7 +1111,6 @@ https://flint.cs.yale.edu/trifonov/cs629/WadlerMonadsForFP.pdf	modified	2004-04-
 https://flint.cs.yale.edu/trifonov/cs629/modular-monadic-semantics.pdf	modified	2004-04-15
 https://ecommons.cornell.edu/entities/publication/b24b0551-2689-437a-8662-4665d2d3d847	publication	2004-04-22
 https://ecommons.cornell.edu/items/b24b0551-2689-437a-8662-4665d2d3d847/full	publication	2004-04-22
-https://imae.udg.edu/~villaret/monads.pdf	modified	2004-04-24
 https://www.antonycourtney.com/pubs/ac-thesis.pdf	created	2004-05
 https://web.cecs.pdx.edu/~apt/wflp03.pdf	modified	2004-05-05
 https://www.michaelhanus.de/lehre/seminare/ss04-sem-arbeiten/sadeghi.pdf	modified	2004-05-18
@@ -4838,7 +4837,6 @@ https://arxiv.org/abs/1806.02024	created	2018-06-06
 https://arxiv.org/abs/1806.03541	created	2018-06-09
 https://www.youtube.com/watch?v=GlUcCPmH8wI	uploaded	2018-06-09
 https://www.casadocodigo.com.br/products/livro-haskell	archived	2018-06-10
-https://fulmanski.pl/zajecia/jpsi/daume02yaht.pdf	modified	2018-06-11
 https://ieeexplore.ieee.org/document/39155/	archived	2018-06-12
 https://ieeexplore.ieee.org/document/316054/	archived	2018-06-12
 https://www.youtube.com/watch?v=pZxB4d-ouFo	uploaded	2018-06-12
@@ -5650,7 +5648,6 @@ https://snu.elsevierpure.com/en/publications/interaction-trees-representing-recu
 https://doi.org/10.1017/S0956796820000027	publication	2020-01
 https://doi.org/10.1017/S0956796820000106	publication	2020-01
 https://doi.org/10.1145/3371119	publication	2020-01
-https://www.pure.ed.ac.uk/ws/portalfiles/portal/286180994/Interaction_Trees_XIA_DOA14102019_VOR_CC_BY.pdf	publication	2020-01
 https://paulhe.com/assets/itrees.pdf	publication	2020-01
 https://files01.core.ac.uk/download/347173647.pdf	publication	2020-01-01
 https://medium.com/%40magnusjt/the-io-monad-in-javascript-how-does-it-compare-to-other-techniques-124ef8a35b63	published	2020-01-02
@@ -7380,7 +7377,6 @@ https://research-information.bris.ac.uk/ws/portalfiles/portal/352299704/3571262.
 https://www.youtube.com/watch?v=ZNB2epqQhc8	uploaded	2023-01-03
 https://www.channable.com/tech/parallel-streaming-in-haskell-part-1-fast-efficient-fun	archived	2023-01-04
 https://cw.fel.cvut.cz/b212/_media/courses/fup/lectures/lecture12.pdf	modified	2023-01-04
-https://www-users.york.ac.uk/~sf786/simon-foster/assets/pdf/SDF-Thesis.pdf	modified	2023-01-04
 https://www-users.york.ac.uk/~sf786/Thesis.pdf	modified	2023-01-04
 https://cgi.cse.unsw.edu.au/~eptcs/all.cgi	archived	2023-01-05
 https://scalac.io/blog/how-to-learn-zio-and-functional-programming/	publication	2023-01-09
@@ -8101,7 +8097,7 @@ https://tomasp.net/academic/papers/malias/malias.pdf	created	2024-03-02
 https://agda.readthedocs.io/en/v2.6.4.3/getting-started/a-taste-of-agda.html	modified	2024-03-06
 https://youtu.be/oDqHNkQK97k	published	2024-03-07
 https://api.pageplace.de/preview/DT0400.9785898186227_A48649535/preview-9785898186227_A48649535.pdf	modified	2024-03-07
-https://maxsnew.com/docs/wadler-monads.pdf	created	2024-03-08
+https://imae.udg.edu/~villaret/monads.pdf	created	2024-03-08
 https://webspace.science.uu.nl/~4110161/pubs/asynch-mac.pdf	archived	2024-03-08
 https://webspace.science.uu.nl/~4110161/thesis/phd-thesis.pdf	archived	2024-03-08
 https://idus.us.es/server/api/core/bitstreams/945bca35-2d81-40a2-8526-20fbd88a6236/content	modified	2024-03-11
@@ -10154,7 +10150,6 @@ https://paullouth.com/higher-kinds-in-csharp-with-language-ext-part-10-readert-m
 https://www.cs.cornell.edu/people/fluet/research/rgn-monad/JFP06/jfp06.pdf	created	2026-06-05
 https://rtoal.github.io/ple/resources/book-replacement-pages/new-elm-chapter.pdf	modified	2026-06-05
 https://austral-lang.org/tutorial/linear-types	modified	2026-06-06
-https://ucsc-cse-114a.github.io/spring26/static_files/slides/monads-handout.pdf	updated	2026-06-06
 https://ucsc-cse-114a.github.io/spring26/static_files/slides/monads.pdf	updated	2026-06-06
 https://leanprover-community.github.io/mathlib_docs/system/io.html	modified	2026-06-07
 https://simon.peytonjones.org/publications/	modified	2026-06-08

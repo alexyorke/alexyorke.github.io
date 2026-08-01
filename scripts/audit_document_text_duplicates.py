@@ -108,8 +108,22 @@ def main() -> int:
                     for second in right_rows:
                         pairs.add(tuple(sorted((first[0], second[0]))))
 
-    urls = {url for pair in pairs for url in pair}
     cache = json.loads(args.cache.read_text(encoding="utf-8")) if args.cache.exists() else {}
+    current_urls = {row[0] for row in rows}
+    postings: dict[str, list[str]] = defaultdict(list)
+    for url, item in cache.items():
+        if url in current_urls:
+            for shingle in item.get("sample", []):
+                postings[shingle].append(url)
+    shared_counts: dict[tuple[str, str], int] = defaultdict(int)
+    for posting in postings.values():
+        if 1 < len(posting) <= 30:
+            for index, left in enumerate(posting):
+                for right in posting[index + 1 :]:
+                    shared_counts[tuple(sorted((left, right)))] += 1
+    pairs.update(pair for pair, count in shared_counts.items() if count >= 8)
+
+    urls = {url for pair in pairs for url in pair}
     pending = sorted(urls - cache.keys())
     completed = 0
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
