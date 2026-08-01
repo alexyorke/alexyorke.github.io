@@ -21,6 +21,18 @@ A pure expression depends only on its explicit arguments and evaluating it produ
 
 For this article, I will use **side effect** for an interaction that happens as a consequence of evaluating an ordinary expression, and **effect** for an interaction represented as a value whose performance is a separate step. `IO<T>` converts a side effect into an effect: the same operation, but held as a value instead of already performed. Despite the name, this tiny type can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
 
+Why do we need this special IO monad for side effects, what specifically about side effects make them "special" so to speak? Why doesn't say, addition need special treatment? It's about preserving referential transparency, the ability to substitute a result of an expression and the program still behaves the same.
+
+Why do we care about referential transparency, though? Functional programming, in some ways, allows you to manulipate your program algebraically. When you have this affordance, you have to follow a set of rules, much like algebra. What this provides you is the ability to locally reason about your program.
+
+Say in algebra, you say `x = y + 1`, then, well, you know how to solve for x, it's just a variable. If we didn't have these rules, then well you might say well you don't know if x is special or maybe there is something that changes x in a special way, you have to read all of the equations beforehand and know about the state of the universe. You sort of take it for granted that, if you see say `x + 2 = 4` then well there is a set of algebraic rules you can do to solve this so that x = 2. They are the same algebraic rules, if someone gives you `x + 4 = 9` you can use those same rules.
+
+With functional programming it's sort of the same thing, there is an expectation that these rules are followed as well, which gives you the ability to reason about your program in a more straightforward manner, sort of algebraically or using equational reasoning. If you can substitute the result of an expression with its output (referential transparency) it makes it much more clear on what the code is doing.
+
+In algebra sure I mean referential transparency, it's so obvious this special sounding name seems unnecessary. If I have a function f(x) = x + 5, then I say f(x) + f(x) = (x + 5) + (x + 5) and so 2f(x) = 2x + 10, well yeah of course. It's algebra. Now imagine if you couldn't do that, algebra would not be nearly as straightforward, it would not be possible to do these arrangements.
+
+Since algebra behaves under these specific rules, it makes it straightforward to evaluate this equation. Same goes for functional programming, in some aspects: because functional programming provides referential transparency, then we have the ability to locally reason about our programs. The IO monad is simply a recipe for a computation to be performed, it is not the computation. This preserves referential transparency, the act of reading a file never changes, but the file contents might.
+
 Here is the thesis of this article: **`IO<T>` allows functions that would perform side effects to be composed without performing those effects during composition.**
 
 What does "composed" mean here? For ordinary functions, composition connects the output of one function to the input of another:
