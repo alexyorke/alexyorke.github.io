@@ -1491,9 +1491,7 @@ https://citeseerx.ist.psu.edu/document?doi=fbd7ca1d3382794400665fd0b00da7142b9e1
 https://citeseerx.ist.psu.edu/document?doi=fbecd1143524cabd56d8d748eec2ecbacb42b95e&repid=rep1&type=pdf	publication	2008	
 https://www.snell-pym.org.uk/archives/2008/05/02/uniqueness-typing/	created	2008	
 https://www.cs.tufts.edu/~kfisher/cs242/2008/Slides/IO.pptx	created	2008	
-https://www.cs.tufts.edu/~kfisher/cs242/2008/Code/IOMonad.hs	created	2008	
 https://www.cs.tufts.edu/~kfisher/cs242/2008/Slides/Monads.pptx	created	2008	
-https://www.cs.tufts.edu/~kfisher/cs242/2008/Code/Monads.hs	created	2008	
 https://archive.org/details/realworldhaskell0000osul	publication	2008	
 https://archive.org/metadata/realworldhaskell0000osul	publication	2008	
 https://www.lehmanns.ch/shop/mathematik-informatik/9157073-9780521070072-functional-programming-and-input-output	publication	2008	
@@ -1505,7 +1503,6 @@ https://www.abebooks.com/9780521070072/Functional-Programming-InputOutput-Distin
 https://imusic.co/books/9780521070072/gordon-andrew-d-university-of-cambridge-2008-functional-programming-and-input-output-distinguished-dissertations-in-computer-science-paperback-book	created	2008	
 https://imusic.se/books/9780521070072/gordon-andrew-d-university-of-cambridge-2008-functional-programming-and-input-output-distinguished-dissertations-in-computer-science-pocketbok	created	2008	
 https://se-radio.net/2008/08/episode-108-simon-peyton-jones-on-functional-programming-and-haskell/	created	2008	
-https://www.cs.tufts.edu/~kfisher/cs242/2008/Code/IO.hs	created	2008	
 https://classes.cs.uchicago.edu/archive/2008/winter/22300-1/	created	2008	
 https://www.oreilly.com/library/view/real-world-haskell/9780596154646/	published	2008	
 https://citeseerx.ist.psu.edu/document?doi=16719e5adb19fa5d15ccb6186c3108287e8add2d&repid=rep1&type=pdf	publication	2008	
@@ -1710,7 +1707,6 @@ https://bibbase.org/network/publication/altenkirch-green-thequantumiomonad-2009	
 https://www.research.ed.ac.uk/en/publications/a-compositional-theory-for-stm-haskell	publication	2009	10.1145/1596638.1596648
 https://citeseerx.ist.psu.edu/document?doi=e800053a2a7378b7724cce56ad64594073dfe024&repid=rep1&type=pdf	authored	2009	
 https://www.cs.tufts.edu/~kfisher/cs242/2009/Slides/IO.pptx	created	2009	
-https://www.cs.tufts.edu/~kfisher/cs242/2009/Code/IOMonad.hs	created	2009	
 https://odr.chalmers.se/items/a814199b-d06e-419d-b7e0-c89bc8e1122c	publication	2009	
 https://www.inf.ed.ac.uk/teaching/courses/inf1/fp/2009/	created	2009	
 https://www.inf.ed.ac.uk/teaching/courses/inf1/fp/2009/lectures/lect17-code.zip	created	2009	
@@ -1718,7 +1714,6 @@ https://fprog.ru/2009/issue3/eugene-kirpichov-elements-of-functional-languages/	
 https://keigoi.hatenadiary.org/archive/2009	created	2009	
 https://hdl.handle.net/20.500.12380/117330	publication	2009	
 https://research.chalmers.se/publication/253478	publication	2009	10.1007/978-3-642-03359-9_30
-https://www.cs.tufts.edu/~kfisher/cs242/2009/Code/IO.hs	created	2009	
 https://research.google/pubs/an-implementation-and-semantics-for-transactional-memory-introspection-in-haskell/	publication	2009	
 https://citeseerx.ist.psu.edu/document?doi=f837782f2a7afc31a185c0b5b9013b5bd4a8b6bc&repid=rep1&type=pdf	publication	2009	
 https://citeseerx.ist.psu.edu/document?doi=1de67f7991ae9c97e08a1acf2bc354b64f932433&repid=rep1&type=pdf	publication	2009	
@@ -1906,7 +1901,6 @@ https://math.andrej.com/2010/09/27/programming-with-effects-ii-introducing-eff/	
 https://neilmitchell.blogspot.com/2010/01/	created	2010	
 https://www.ou.nl/documents/40554/111661/Marko_van_Eekelen_LevenLangComputerenofFoeteren_2010.pdf/3f0710d9-4389-4da8-9173-eaad134c04e0	created	2010	
 https://ijosblog.blogspot.com/2010/	created	2010	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2010/AdvProg/Programs/Head.hs	created	2010	
 https://era.ed.ac.uk/handle/1842/4611	publication	2010	
 https://tomasp.net/blog/archive/october_2010/	created	2010	
 https://citeseerx.ist.psu.edu/document?doi=94e5e64d9ca36e00e3ff6f7d4d40df7e439243a6&repid=rep1&type=pdf	publication	2010	
@@ -2088,15 +2082,11 @@ https://wiki.cs.famaf.unc.edu.ar/lib/exe/fetch.php?media=algo1%3A2011-2%3Ahaskel
 https://researchr.org/publication/haskell-2011	created	2011	
 https://swepub.kb.se/bib/swepub%3Aoai%3Aresearch.chalmers.se%3Af6abc3e1-9813-43e6-a50a-0c510b28e0d1?language=en&tab2=abs	publication	2011	
 https://katalog.bibliothek.kit.edu/bib/356404	publication	2011	
-https://groups.seas.harvard.edu/courses/cs152/2011sp/IOMonad.hs	created	2011	
 https://d3s.mff.cuni.cz/publications/syme_f_2011/	created	2011	10.1007/978-3-642-18378-2_15
 https://www.cs.kent.ac.uk/pubs/2011/3185/	created	2011	
 https://researchr.org/publication/McBride2011kleisliarrows	created	2011	
 https://blog.ezyang.com/2011/06/a-year-of-notebooking-part-2/	created	2011	
 https://homes.cs.washington.edu/~djg/2011sp/	created	2011	
-https://homes.cs.washington.edu/~djg/2011sp/IntroToHaskell.hs	created	2011	
-https://homes.cs.washington.edu/~djg/2011sp/IOMonad.hs	created	2011	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2011/AdvProg/Programs/Head.hs	created	2011	
 https://tomasp.net/blog/archive/june_2011/	created	2011	
 https://bartoszmilewski.com/2011/03/	created	2011	
 https://biblio.ugent.be/publication/1246782	publication	2011	10.1145/2034574.2034781
@@ -2324,7 +2314,6 @@ https://archive.org/details/learnyouhaskellf00lipo_0	publication	2012
 https://citeseerx.ist.psu.edu/document?doi=6db2667e52ce08d8c27aa74e57cfc883a0acb8d9&repid=rep1&type=pdf	publication	2012	
 https://citeseerx.ist.psu.edu/document?doi=bd127ea1952996864c1542e1453973a78973ad5c&repid=rep1&type=pdf	publication	2012	
 https://citeseerx.ist.psu.edu/document?doi=7c4c4140d13780cee3fd8e76a8f1a0d9f61b4bc1&repid=rep1&type=pdf	authored	2012	
-https://www.classes.cs.uchicago.edu/archive/2012/spring/22300-1/lectures/io.hs	created	2012	
 https://cgi.cse.unsw.edu.au/~eptcs/references.cgi?MSFP2012.8.html=	created	2012	
 https://archive.org/metadata/learnyouhaskellf00lipo_0	publication	2012	
 https://www.eyrie.org/~zednenem/2012/07/29/paramonads	created	2012	
@@ -2333,11 +2322,6 @@ https://blog.ezyang.com/2012/10/generalizing-the-programmable-semicolon/	created
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?MSFP2012.8.pdf=	created	2012	
 https://en.itu.dk/Research/PhD-Programme/PhD-Courses/Archive/PhD-courses-2012/PhD-Reading-group-on-Developments-in-Session-Types/	created	2012	
 https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad	publication	2012	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/Head.hs	created	2012	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/IORefTest.hs	created	2012	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UpperLower.hs	created	2012	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2012	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2012/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2012	
 https://www.cs.cornell.edu/courses/cs3110/2012fa/	created	2012	
 https://www.yesodweb.com/blog/2012/02/simplifying-resourcet	created	2012	
 https://citeseerx.ist.psu.edu/document?doi=d3e7c484eb67e251df6e900af9d39bb5882ed77c&repid=rep1&type=pdf	publication	2012	
@@ -2584,11 +2568,6 @@ https://www.haskellforall.com/2013/	created	2013
 https://citeseerx.ist.psu.edu/document?doi=a22269a5d2be19ec2b7ead3a6615ca43525d92c5&repid=rep1&type=pdf	publication	2013	
 https://research.chalmers.se/en/publication/187462	publication	2013	10.1145/2429069.2429121
 https://research-portal.st-andrews.ac.uk/en/publications/programming-and-reasoning-with-algebraic-effects-and-dependent-ty/	publication	2013	10.1145/2500365.2500581
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/Head.hs	created	2013	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/IORefTest.hs	created	2013	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UpperLower.hs	created	2013	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2013	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2013/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2013	
 https://www.abebooks.com/9789351103844/Real-World-OCaml-Functional-Programming-9351103846/plp	published	2013	
 https://www.cs.cornell.edu/courses/cs3110/2013fa/course_info.php	created	2013	
 https://www.cs.cornell.edu/courses/cs3110/2013fa/lecture_notes.php	created	2013	
@@ -2833,11 +2812,6 @@ https://research.chalmers.se/publication/202162	publication	2014	10.1145/2637647
 https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001849829	publication	2014	
 https://www.well-typed.com/blog/2014/06/understanding-the-realworld/	created	2014	
 https://confengine.com/conferences/functional-conf-2014/proposal/437/monads-you-already-use-without-knowing-it	created	2014	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/Head.hs	created	2014	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/IORefTest.hs	created	2014	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UpperLower.hs	created	2014	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2014	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2014/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2014	
 https://www.oreilly.com/library/view/beginning-haskell-a/9781430262503/9781430262503_Ch12.xhtml	published	2014	
 https://www.cs.cornell.edu/courses/cs3110/2014fa/course_info.php	created	2014	
 https://www.cs.cornell.edu/courses/cs3110/2014fa/lecture_notes.php	created	2014	
@@ -3140,11 +3114,6 @@ https://eptcs.org/paper.cgi?PLACES2015.1	created	2015	10.4204/eptcs.203.1
 https://eptcs.org/content.cgi?PLACES2015	created	2015	
 https://eptcs.org/content.cgi?PLACES2015.1	created	2015	
 https://lobste.rs/s/ffx0rv/haskell_io_without_m_word_2015	created	2015	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/Head.hs	created	2015	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/IORefTest.hs	created	2015	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UpperLower.hs	created	2015	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2015	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2015/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2015	
 https://fstar-lang.org/papers/icfp2015/	created	2015	
 https://www.cs.cornell.edu/courses/cs3110/2015sp/lectures/18/lec18.php	created	2015	
 https://www.cs.cornell.edu/courses/cs3110/2015sp/recitations/18/rec18.php	created	2015	
@@ -3494,11 +3463,6 @@ https://research.chalmers.se/en/publication/233668	publication	2016
 https://popl16.sigplan.org/track/POPL-2016-ae	created	2016	
 https://popl16.sigplan.org/track/POPL-2016-papers	created	2016	
 https://popl16.sigplan.org/program/program-POPL-2016	created	2016	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/Head.hs	created	2016	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/IORefTest.hs	created	2016	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UpperLower.hs	created	2016	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2016	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2016/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2016	
 https://www.cs.cornell.edu/courses/cs3110/2016fa/syllabus.php	created	2016	
 https://www.oreilly.com/videos/functional-programming-in/9781617292828VE/9781617292828VE-Atencio_c08s05/	published	2016	
 https://publikationen.bibliothek.kit.edu/1000056002	publication	2016	10.5445/KSP/1000056002
@@ -3802,21 +3766,7 @@ https://ds12.github.io/scala-class/slides/lecture2.html	modified	2016-11-09
 https://icfp17.sigplan.org/series/icfp	archived	2016-11-10	
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/LICENSE	updated	2016-11-13	
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO.cabal	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Heap.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QArith.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QExamples.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QIORandom.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qdata.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qft.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Qio.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioClass.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSyn.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/QioSynAlt.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Shor.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/Vec.hs	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO/VecEq.hs	updated	2016-11-13	
 https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/README.md	updated	2016-11-13	
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/Setup.hs	updated	2016-11-13	
 https://harporoeder.com/posts/servant-13-reader-io/	publication	2016-11-14	
 https://archive.alvb.in/msc/08_infodtp/papers/Idris_dk.pdf	modified	2016-11-14	
 https://www.youtube.com/watch?v=oFk8-a1FSP0	uploaded	2016-11-26	
@@ -3904,11 +3854,6 @@ https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/675728fe-02d
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/fa94de42-373f-44ed-ba29-546d17f96d1b.xhtml	published	2017	
 https://gvolpe.com/talks/dublin-2017/	created	2017	
 https://www.codemesh.io/codemesh2017/daniel-spiewak	created	2017	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/Head.hs	created	2017	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/IORefTest.hs	created	2017	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UpperLower.hs	created	2017	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2017	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2017/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2017	
 https://www.oreilly.com/library/view/haskell-cookbook/9781786461353/732f5b32-be8b-40f2-92c8-b75df2747ef1.xhtml	published	2017	
 https://www.oreilly.com/library/view/type-driven-development-with/9781617293023/	published	2017	
 https://mmhelloworld.github.io/blog/2017/01/06/introducing-idris-on-the-jvm-and-an-idris-android-example/	created	2017	
@@ -3979,7 +3924,6 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/fstar.pdf	cr
 https://www.cs.cmu.edu/~popl-interviews/peytonjones.html	authored	2017	
 https://project-archive.inf.ed.ac.uk/msc/20172453/msc_proj.pdf	authored	2017	
 https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/hs-nutshell.pdf	created	2017	
-https://cseweb.ucsd.edu/~dstefan/cse130-winter17/code/intro.hs	created	2017	
 https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/io-monad.pdf	created	2017	
 https://cseweb.ucsd.edu/~dstefan/cse130-winter17/slides/control-cont.pdf	created	2017	
 https://www.cs.princeton.edu/courses/archive/fall17/cos326/lec/22-fsharp.pdf	created	2017	
@@ -4030,7 +3974,6 @@ https://www.vitalsource.com/products/the-awkward-squad-sophie-henaff-v9780857055
 https://habr.com/ru/articles/315022/	published	2017-03-04	
 https://sordina.net/alt_dot_net_haskell_workshop/	modified	2017-03-04	
 https://softwareengineering.stackexchange.com/questions/343927	created	2017-03-10	
-https://cs.nju.edu.cn/xyfeng/teaching/FOPL/lectureNotes/IOMonad.hs	published	2017-03-13	
 https://www.frege-lang.org/doc/frege/prelude/PreludeMonad.html	archived	2017-03-13	
 https://manning-content.s3.amazonaws.com/download/a/580d6ba-451f-43c2-98aa-304705c5dab5/SampleCh01.pdf	modified	2017-03-14	
 https://homepages.inf.ed.ac.uk/wadler/vita.pdf	modified	2017-03-15	
@@ -4268,11 +4211,6 @@ https://www.epiqc.cs.uchicago.edu/bibtex-of-epiqc-publications-2018present	creat
 https://profs.info.uaic.ro/stefan.ciobaca/pf-2018-2019/	created	2018	
 https://1ambda.blog/2018/06/30/haskell-fp101-x-chapter-4/	created	2018	
 https://abhsrivastava.github.io/2018/11/03/Hangman-Game-Using-ZIO/	created	2018	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/Head.hs	created	2018	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/IORefTest.hs	created	2018	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UpperLower.hs	created	2018	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2018	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2018/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2018	
 https://kowainik.github.io/posts/2018-09-25-co-log	created	2018	
 https://www.tweag.io/blog/2018-05-29-hello-asterius/	created	2018	
 https://www.tweag.io/blog/2018-09-12-asterius-ffi/	created	2018	
@@ -4642,11 +4580,6 @@ https://archive.org/details/github.com-graninas-software-design-in-haskell_-_201
 https://vimeo.com/channels/scalaitaly2019	created	2019	
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/	created	2019	
 https://guppy.eng.kagawa-u.ac.jp/2019/AdvProg/	created	2019	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/Head.hs	created	2019	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/IORefTest.hs	created	2019	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UpperLower.hs	created	2019	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2019	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2019/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2019	
 https://repository.tudelft.nl/islandora/object/uuid:36d382d8-3ba4-4825-b718-a080b01b0649/datastream/OBJ/download	publication	2019	
 https://hal.archives-ouvertes.fr/hal-02368138	publication	2019	10.1145/3331543.3342585
 https://pure.au.dk/portal/en/publications/509b4f64-791c-453c-81ee-a05ab73f2c4b/	publication	2019	10.1007/978-3-030-17138-4_3
@@ -4869,17 +4802,9 @@ https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/.
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/ChangeLog.md	updated	2019-06-12	
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/LICENSE	updated	2019-06-12	
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/README.md	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/Setup.hs	updated	2019-06-12	
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/dist/cabal-config-flags	updated	2019-06-12	
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/package.yaml	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS.hs	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Disk.hs	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Import.hs	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/InMemory.hs	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Pure.hs	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/src/Data/Conduit/VFS/Types.hs	updated	2019-06-12	
 https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/stack.yaml	updated	2019-06-12	
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/test/Spec.hs	updated	2019-06-12	
 https://blogs.intevation.de/wilde/haskell/monads/	modified	2019-06-12	
 https://ww2.mini.pw.edu.pl/wp-content/uploads/Obieralne-IAD-ksi%C4%85%C5%BCka.pdf	modified	2019-06-19	
 https://haskellweekly.news/issue/164.html	published	2019-06-20	
@@ -5604,11 +5529,6 @@ https://devel.isa-afp.org/release/afp-Hello_World-2021-12-14.tar.gz	created	2021
 https://devel.isa-afp.org/release/afp-Hello_World-2021-02-23.tar.gz	created	2021	
 https://2021.jokerconf.com/en/talks/3nvvZcyTNCHsQq2zVOFYOF/	created	2021	
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/	created	2021	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/Head.hs	created	2021	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/IORefTest.hs	created	2021	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UpperLower.hs	created	2021	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2021	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2021/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2021	
 https://se.cs.uni-tuebingen.de/teaching/thesis/2021/11/15/lsp-effects/	created	2021	
 https://icfp21.sigplan.org/details/ocaml-2021-papers/16/Experiences-with-Effects	created	2021	
 https://tweag.io/blog/2021-02-25-tezos-ocaml-monad/	created	2021	
@@ -6168,13 +6088,6 @@ https://cs.pwr.edu.pl/cichon/2022_23_a/FuncP.php	created	2022
 http://slides.com/fp-ctd/lecture-6#/	created	2022	
 https://slides.com/fp-ctd/lecture-06-io	created	2022	
 https://mmhaskell.com/blog/2022/6/23/resources-and-bracket	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/SimpleIO_00.hs	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/SimpleIO_01.hs	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/SimpleIO_02.hs	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/guessANumber.hs	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/zapalki.hs	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/zapalki1.hs	created	2022	
-https://cs.pwr.edu.pl/cichon/2022_23_a/Functional/Pliki/zapalkiW.hs	created	2022	
 https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2022/	created	2022	
 https://mmhaskell.com/blog/2022/6/6/catching-what-weve-thrown	created	2022	
 https://icfp22.sigplan.org/home/hope-2022	created	2022	
@@ -6195,11 +6108,6 @@ https://cdn.media.ccc.de/events/bobkonf/2022/webm-sd/bob2022-110-eng-io-sim_test
 https://cdn.media.ccc.de/events/bobkonf/2022/mp3/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_mp3.mp3	created	2022	
 https://cdn.media.ccc.de/events/bobkonf/2022/opus/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_opus.opus	created	2022	
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/	created	2022	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/Head.hs	created	2022	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/IORefTest.hs	created	2022	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UpperLower.hs	created	2022	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2022	
-https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2022	
 https://se.cs.uni-tuebingen.de/teaching/thesis/2022/01/12/finalization/	created	2022	
 https://mmhaskell.com/blog/2022/5/19/interactive-io	created	2022	
 https://cris.maastrichtuniversity.nl/en/publications/monadic-systems/	publication	2022	10.1016/j.ifacol.2022.11.100
@@ -6320,10 +6228,7 @@ https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/92
 https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298?page=2	publication	2022-02-12	
 https://raw.githubusercontent.com/AliasQli/dialogue/master/dialogue.cabal	updated	2022-02-13	
 https://raw.githubusercontent.com/AliasQli/dialogue/master/README.md	updated	2022-02-13	
-https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Continuation.hs	updated	2022-02-13	
-https://raw.githubusercontent.com/AliasQli/dialogue/master/src/System/IO/Dialogue.hs	updated	2022-02-13	
 https://raw.githubusercontent.com/AliasQli/dialogue/master/ChangeLog.md	updated	2022-02-13	
-https://raw.githubusercontent.com/AliasQli/dialogue/master/examples/Main.hs	updated	2022-02-13	
 https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298/28	publication	2022-02-14	
 https://www.fress.io/bib	modified	2022-02-15	
 https://lobste.rs/s/iiqlwa/unreasonable_effectiveness_haskell	created	2022-02-17	
@@ -6705,11 +6610,6 @@ https://media.ccc.de/v/bob2023-getting-recursive-definitions-off-their-bottoms-b
 https://isa-afp.org/release/afp-Hello_World-2023-09-13.tar.gz	created	2023	
 https://devel.isa-afp.org/release/afp-Hello_World-2023-09-13.tar.gz	created	2023	
 https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/	created	2023	
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/Head.hs	created	2023	
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/IORefTest.hs	created	2023	
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UpperLower.hs	created	2023	
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2023	
-https://guppy.eng.kagawa-u.ac.jp/2023/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2023	
 https://eprints.ost.ch/id/eprint/1127/	created	2023	
 https://icfp23.sigplan.org/details/icfp-2023-artifact-evaluation/2/Trustworthy-Runtime-Verification-via-Bisimulation-Experience-Report-	created	2023	10.1145/3607841
 https://ocw.cs.pub.ro/ppcarte/doku.php?id=pp%3A2023%3Ahaskell%3Al10	created	2023	
@@ -7103,20 +7003,6 @@ https://raw.githubusercontent.com/lambdabot/IOSpec/master/IOSpec.cabal	updated	2
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/LICENSE	updated	2023-07-25	
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/README	updated	2023-07-25	
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/Setup.lhs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Channels.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Echo.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Queues.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Refs.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/examples/Sudoku.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Fork.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/IORef.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/MVar.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/STM.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Surrogate.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Teletype.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/Types.hs	updated	2023-07-25	
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/src/Test/IOSpec/VirtualMachine.hs	updated	2023-07-25	
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/cabal.png	updated	2023-07-25	
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/unsafe.jpg	updated	2023-07-25	
 https://raw.githubusercontent.com/lambdabot/IOSpec/master/index.html	updated	2023-07-25	
@@ -7315,14 +7201,8 @@ https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/	created	2024
 https://popl24.sigplan.org/details/POPL-2024-popl-research-papers/14/Modular-Denotational-Semantics-for-Effects-with-Guarded-Interaction-Trees	created	2024	10.1145/3632854
 https://www.ost.ch/de/die-ost/departemente/departement-informatik/aktuelles-aus-dem-departement-informatik/detail/der-haskell-ecosystem-workshop-2024	created	2024	
 https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/2024-11-12-lecture-1.mp4	created	2024	
-https://archive.informatik.uni-freiburg.de/courses/proglang/2024-WS-FP/Ex04Solution.hs	created	2024	
 https://isa-afp.org/release/afp-Hello_World-2024-05-26.tar.gz	created	2024	
 https://devel.isa-afp.org/release/afp-Hello_World-2024-05-26.tar.gz	created	2024	
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/Head.hs	created	2024	
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/IORefTest.hs	created	2024	
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UpperLower.hs	created	2024	
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UtilCompiler/MyIO.hs	created	2024	
-https://guppy.eng.kagawa-u.ac.jp/2024/AdvProg/Programs/UtilCompiler/MyStream.hs	created	2024	
 https://webflow.effect.website/events/effect-days-2024/effect-days	created	2024	
 https://wp2024.cs.hku.hk/fyp24006/	created	2024	
 https://well-typed.com/blog/2024/10/haskell-unfolder-episode-34-you-already-understand-monads/	created	2024	
@@ -7412,9 +7292,6 @@ https://arxiv.org/abs/2401.08901	published	2024-01-17	10.48550/arXiv.2401.08901
 https://scalac.io/blog/getting-started-with-zio-http/	publication	2024-01-17	
 https://uni-notes.thomasboxall.net/01-L5/M21274-DMAFP/M21274-DMAFP.pdf	published	2024-01-23	
 https://www.kurims.kyoto-u.ac.jp/~tsanada/papers/phdthesis.pdf	modified	2024-01-24	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem.hs	updated	2024-01-25	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO.hs	updated	2024-01-25	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/File.hs	updated	2024-01-25	
 https://shinyu.org/ru/haskell/files-and-io/creating-a-temporary-file/	publication	2024-01-28	
 https://ziohttp.com/examples/http-client-server	created	2024-01-29	
 https://m.youtube.com/watch?v=RS3X-KpefdE	uploaded	2024-01-30	
@@ -7422,13 +7299,10 @@ https://dzone.com/refcardz/functional-programming-with-javascript	archived	2024-
 https://www.youtube.com/watch?v=UBgam9XUHs0	uploaded	2024-01-31	
 https://www.packtpub.com/en-us/product/asynchronous-programming-in-rust-9781805128137?type=print	published	2024-02	
 https://raw.githubusercontent.com/ncfavier/knob/main/.gitignore	updated	2024-02-01	
-https://raw.githubusercontent.com/ncfavier/knob/main/Setup.hs	updated	2024-02-01	
 https://raw.githubusercontent.com/ncfavier/knob/main/knob.cabal	updated	2024-02-01	
-https://raw.githubusercontent.com/ncfavier/knob/main/lib/Data/Knob.hs	updated	2024-02-01	
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/common.bash	updated	2024-02-01	
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-coverage	updated	2024-02-01	
 https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-tests	updated	2024-02-01	
-https://raw.githubusercontent.com/ncfavier/knob/main/tests/KnobTests.hs	updated	2024-02-01	
 https://raw.githubusercontent.com/ncfavier/knob/main/tests/knob-tests.cabal	updated	2024-02-01	
 https://raw.githubusercontent.com/ncfavier/knob/main/license.txt	updated	2024-02-01	
 https://ics-websites.science.uu.nl/docs/vakken/mcpd/website/slides/LinearTypes.pdf	modified	2024-02-02	
@@ -7720,7 +7594,6 @@ https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/IO_inside	
 https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_computation	archived	2024-09-10	
 https://web.archive.org/web/20240910030009/https%3A//wiki.haskell.org/Monads_as_containers	archived	2024-09-10	
 https://www.gtf.io/musings/why-haskell	archived	2024-09-11	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/Effect.hs	updated	2024-09-11	
 https://agda.readthedocs.io/en/v2.7.0.1/language/foreign-function-interface.html	modified	2024-09-12	
 https://umu.diva-portal.org/smash/get/diva2%3A1209426/FULLTEXT01.pdf	archived	2024-09-14	
 https://pages.di.unipi.it/corradini/Didattica/AP-21/	modified	2024-09-16	
@@ -7748,8 +7621,6 @@ https://www.manning.com/books/learn-haskell-by-example	publication	2024-10
 https://www.cs.swarthmore.edu/~zpalmer/publications/intensional-functions_extended.pdf	published	2024-10	10.1145/3689714
 https://gpt5.blog/haskell/	publication	2024-10-01	
 https://web.archive.org/web/20241004042322/https://wiki.haskell.org/Monad_Transformers_Tutorial	archived	2024-10-04	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Builder.hs	updated	2024-10-05	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString/Lazy.hs	updated	2024-10-05	
 https://arxiv.org/abs/2410.07918	published	2024-10-10	10.48550/arXiv.2410.07918
 https://lars.hupel.info/research/	modified	2024-10-10	
 https://www.youtube.com/watch?v=-I4yVPlvFvA	uploaded	2024-10-11	
@@ -7840,9 +7711,7 @@ https://prg.is.titech.ac.jp/papers/pdf/ifip21-slides.pdf	modified	2024-11-26
 https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/9	publication	2024-11-28	
 https://www.youtube.com/watch?v=ouaR1A4ATdM	uploaded	2024-11-29	
 https://raw.githubusercontent.com/noughtmare/free-io/main/free-io.cabal	updated	2024-11-30	
-https://raw.githubusercontent.com/noughtmare/free-io/main/src/System/IO/Free.hs	updated	2024-11-30	
 https://raw.githubusercontent.com/noughtmare/free-io/main/CHANGELOG.md	updated	2024-11-30	
-https://raw.githubusercontent.com/noughtmare/free-io/main/example/Main.hs	updated	2024-11-30	
 https://escholarship.org/content/qt696676k6/qt696676k6_noSplash_a63129cab7ef45753f4b9797e7745225.pdf?t=sqyb60	published	2024-12	
 https://zio.dev/resources/videos	updated	2024-12-02	
 https://steshaw.org/plt/	modified	2024-12-02	
@@ -8065,7 +7934,6 @@ https://ghc-proposals.readthedocs.io/en/latest/proposals/0313-delimited-continua
 https://arxiv.org/abs/2503.06162	published	2025-03-08	10.48550/arXiv.2503.06162
 https://citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf	archived	2025-03-08	
 https://citeseerx.ist.psu.edu/document?doi=85556763670ec4c6dbb039010ff4d149a6322439&repid=rep1&type=pdf	archived	2025-03-08	
-https://raw.githubusercontent.com/haskell-effectful/effectful/master/effectful/src/Effectful/FileSystem/IO/ByteString.hs	updated	2025-03-08	
 https://okmij.org/ftp/tagless-final/	modified	2025-03-09	
 https://marcosh.github.io/post/2025/03/10/combining-monads.html	published	2025-03-10	
 https://jelv.is/blog/Haskell-Monads-and-Purity	modified	2025-03-10	
@@ -8171,7 +8039,6 @@ https://www.cs.cornell.edu/courses/cs6110/2025sp/lectures/powerdomains.pdf	publi
 https://academy.fpblock.com/haskell/tutorial/exceptions/	archived	2025-04-28	
 https://www.clicours.com/tutorial-haskell-pour-le-developpeur-c/	archived	2025-04-28	
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/LICENSE	updated	2025-04-30	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test-sim/Main.hs	updated	2025-04-30	
 https://scholarworks.sjsu.edu/context/etd_theses/article/9214/viewcontent/1176506.pdf	authored	2025-05	
 https://www.cs.princeton.edu/~jmc16/docs/thesis.pdf	authored	2025-05	
 https://joscoh.github.io/docs/thesis.pdf	published	2025-05	
@@ -8284,19 +8151,13 @@ https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-notes-1.
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025/LIPIcs.ECOOP.2025.pdf	published	2025-07-02	
 https://users.scala-lang.org/t/tagless-final-questions/10857	publication	2025-07-02	
 https://www.thecodechameleon.io/articles/functional_programming/monads/	publication	2025-07-02	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial/Internal.hs	updated	2025-07-04	
 https://www.bookey.app/book/haskell-programming-from-first-principles	updated	2025-07-05	
 https://www.bookey.app/book/haskell-programming-from-first-principles/quiz	updated	2025-07-05	
 https://pages.di.unipi.it/corradini/Didattica/AP-24/	modified	2025-07-07	
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/README.md	updated	2025-07-07	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-windows/System/FS/BlockIO/Internal.hs	updated	2025-07-07	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO.hs	updated	2025-07-07	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO.hs	updated	2025-07-07	
 https://pages.di.unipi.it/corradini/Didattica/AP-24/DOCS/Scott-ch10.pdf	modified	2025-07-07	10.1016/B978-0-12-374514-9.00021-5
 https://pages.di.unipi.it/corradini/Didattica/AP-24/ESER/04/exercises_4.html	modified	2025-07-07	
 https://www.youtube.com/watch?v=RsTuy1jXQ6Y	uploaded	2025-07-09	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/Serial.hs	updated	2025-07-09	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/test/Main.hs	updated	2025-07-09	
 https://objectclub.jp/ml-arch/magazine/243.html	modified	2025-07-09	
 https://lilymonade.fr/blog/learn-haskell-7/	published	2025-07-11	
 https://reference-global.com/download/book/9789365896534.pdf	published	2025-07-11	
@@ -8541,9 +8402,7 @@ https://monix.io/api/3.0/monix/eval/Task%24.html	modified	2025-11-25
 https://monix.io/api/2.2/monix/types/Monad.html	modified	2025-11-25	
 https://monix.io/api/3.0/monix/eval/TaskApp.html	modified	2025-11-25	
 https://www.youtube.com/watch?v=WcJ_Rw97H-o	uploaded	2025-11-26	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal.hs	updated	2025-11-26	
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	updated	2025-11-26	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal.hs	updated	2025-11-26	
 https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	updated	2025-11-26	
 https://homepages.cs.ncl.ac.uk/cliff.jones/publications/LH-pdfs/refs.pdf	modified	2025-11-26	
 https://arxiv.org/abs/2511.22419	published	2025-11-27	10.48550/arXiv.2511.22419
@@ -8713,13 +8572,6 @@ https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/m
 https://lean-lang.org/doc/reference/latest/Functors___-Monads-and--do--Notation/Varieties-of-Monads/	updated	2026-01-06	
 https://blog.janestreet.com/fun-with-algebraic-effects-hardcaml/	published	2026-01-06	
 https://arxiv.org/abs/2601.03836	published	2026-01-07	10.4204/EPTCS.439.18; 10.48550/arXiv.2601.03836
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS.hs	updated	2026-01-07	
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/Combinators.hs	updated	2026-01-07	
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/InstanceHelpers.hs	updated	2026-01-07	
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVFS/Utils.hs	updated	2026-01-07	
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/src/System/IO/HVIO.hs	updated	2026-01-07	
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/testsrc/HVFStest.hs	updated	2026-01-07	
-https://raw.githubusercontent.com/haskell-hvr/missingh/master/testsrc/HVIOtest.hs	updated	2026-01-07	
 https://www.bookey.app/book/learn-you-a-haskell-for-great-good%21	updated	2026-01-07	
 https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg39479.html	created	2026-01-07	
 https://www.youtube.com/watch?v=wgfYkQVpC-M	uploaded	2026-01-08	
@@ -9124,13 +8976,9 @@ https://www.mail-archive.com/haskell%40haskell.org/msg27444.html	created	2026-04
 https://gitextract.com/yallop/effects-bibliography	updated	2026-04-30	
 https://www.salahadawi.com/hacker-news-ai-detector/monad-tutorials-timeline	created	2026-04-30	
 https://www.litres.ru/podcast/kirill-mokevnin/75-haskell-dlya-nachinauschih-razbiraem-io-maybe-i-do-nota-73877584/	modified	2026-04-30	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Async.hs	updated	2026-04-30	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-sim/System/FS/BlockIO/Sim.hs	updated	2026-04-30	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/IO/Internal.hs	updated	2026-04-30	
 https://arxiv.org/abs/2604.27292v3	published	2026-04-30	10.48550/arXiv.2604.27292
 https://arxiv.org/abs/2605.01032	published	2026-05-01	10.48550/arXiv.2605.01032
 https://zio.dev/zio-blocks/reference/resource-management/defer-handle	updated	2026-05-04	
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src/System/FS/BlockIO/API.hs	updated	2026-05-04	
 https://virtuslab.com/blog/scala/comparing-effect-systems-in-scala-cats-effect-and-zio/	published	2026-05-04	
 https://homepages.inf.ed.ac.uk/wadler/topics/links.html	created	2026-05-04	
 https://magnus.therning.org/archive.html	modified	2026-05-04	
@@ -9175,38 +9023,10 @@ https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/CHANGELOG.m
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/NOTICE	updated	2026-05-18	
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/README.md	updated	2026-05-18	
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/fs-api.cabal	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-unix/System/FS/IO/Unix.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src-win32/System/FS/IO/Windows.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Lazy.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Strict.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/API/Types.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CRC.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/CallStack.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/Condense.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/src/System/FS/IO/Handle.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Main.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/API/FsPath.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/test/Test/System/FS/IO.hs	updated	2026-05-18	
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/CHANGELOG.md	updated	2026-05-18	
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/NOTICE	updated	2026-05-18	
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/README.md	updated	2026-05-18	
 https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/fs-sim.cabal	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Error.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/FsTree.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/MockFS.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Prim.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/STM.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/src/System/FS/Sim/Stream.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Main.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Error.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/FsTree.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/Sim/Stream.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/System/FS/StateMachine.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/RefEnv.hs	updated	2026-05-18	
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/test/Test/Util/WithEntryCounter.hs	updated	2026-05-18	
 https://wlv.openrepository.com/bitstream/2436/624322/1/Viet_Ha_Bui_PhD.pdf	modified	2026-05-19	
 https://leanprover-community.github.io/mathlib4_docs/Init/System/FilePath.html	updated	2026-05-20	
 https://arxiv.org/abs/2605.24036	published	2026-05-21	10.48550/arXiv.2605.24036
@@ -9415,53 +9235,12 @@ https://zio.dev/overview/platforms	updated	2026-06-29
 https://www.bookey.app/book/real-world-haskell	updated	2026-06-29	
 https://api.flix.dev/Monad.html	modified	2026-06-29	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/README.md	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadMVar.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TArray.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TBQueue.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TChan.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TMVar.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TQueue.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TSem.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Concurrent/Class/MonadSTM/TVar.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadAsync.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadEventlog.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadFork.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadST.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSTM/Internal.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadSay.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTest.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadThrow.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTime.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadTimer.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-classes/io-classes/Control/Monad/Class/MonadUnique.hs	updated	2026-06-30	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/CHANGELOG.md	updated	2026-06-30	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/LICENSE	updated	2026-06-30	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/NOTICE	updated	2026-06-30	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/README.md	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/bench/Main.hs	updated	2026-06-30	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/how-to-use-IOSimPOR.md	updated	2026-06-30	
 https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/io-sim.cabal	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/CommonTypes.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Internal.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/InternalTypes.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/STM.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSim/Types.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Internal.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/QuickCheckUtils.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Timeout.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Control/Monad/IOSimPOR/Types.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/Deque/Strict.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/src/Data/List/Trace.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Main.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Concurrent/Class/MonadMVar/Strict.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSim.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/IOSimPOR.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/STM.hs	updated	2026-06-30	
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/test/Test/Control/Monad/Utils.hs	updated	2026-06-30	
 https://intersectmbo.github.io/io-sim/	modified	2026-06-30	
 https://programminglanguages.info/language/haskell/	modified	2026-06-30	
 https://studenttheses.uu.nl/bitstream/handle/20.500.12932/27902/sessiontypes-thesis.pdf?sequence=2	modified	2026-06-30	
@@ -9475,9 +9254,6 @@ https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1?view=
 https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltextasync?view=net-10.0	modified	2026-07-01	
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/	modified	2026-07-01	
 https://getkyo.io/	modified	2026-07-01	
-https://ps-tuebingen-courses.github.io/pl1-lecture-notes/20-monads-intro/monads-intro.scala	modified	2026-07-01	
-https://ps-tuebingen-courses.github.io/pl1-lecture-notes/21-io-monad/io-monad.scala	modified	2026-07-01	
-https://ps-tuebingen-courses.github.io/pl1-lecture-notes/22-modular-interpreters/modular-interpreters.scala	modified	2026-07-01	
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/monadic-reflection.rkt	modified	2026-07-01	
 https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1	modified	2026-07-01	
 https://blog.plover.com/prog/haskell/sml-defects.html	modified	2026-07-01	
