@@ -15,42 +15,72 @@ The first two parts introduced the same small pattern in different contexts:
 | `Maybe<T>` | `Some` | `FlatMap` / `Bind` | `None` skips the next function |
 | `Result<TSuccess, TError>` | `Ok` | `FlatMap` / `Bind` | `Error` skips the next function |
 
-I/O adds a different concern. Reading a file, asking for input, or calling an API does more than return a value: it interacts with the world. The order, timing, and number of those interactions are part of the program's meaning.
+I/O adds a different concern. Reading a file, asking for input, or calling an API does more than return a value: it interacts with the world. The timing, order, and number of those interactions are part of the program's meaning.
 
-A pure expression depends only on its explicit arguments and evaluating it produces no observable interaction. It may still throw or fail to terminate, so purity is not merely "producing a value." An effectful expression can read or change something outside that returned value.
+Why is I/O (side effects) treated differently? Why specifically IO and not say, addition? What specifically about side effects have this special treatment?
 
-For this article, I will use **side effect** for an interaction that happens as a consequence of evaluating an ordinary expression, and **effect** for an interaction represented as a value whose performance is a separate step. `IO<T>` converts a side effect into an effect: the same operation, but held as a value instead of already performed. Despite the name, this tiny type can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
+It has to do, in part, with retaining referential transparency, and more importantly, equational reasoning.
 
-Why do we need this special IO monad for side effects, what specifically about side effects make them "special" so to speak? Why doesn't say, addition need special treatment? It's about preserving referential transparency, the ability to substitute a result of an expression and the program still behaves the same.
+This matters because functional programming relies heavily on **referential transparency**: an expression can be replaced by its value without changing the program's behavior. That property lets us reason locally and manipulate programs much as we manipulate algebra. If `a = b`, then substituting `b` for `a` should remain valid wherever `a` appears. It's sort of like your program is a series of equations, or algebra, rather than procedural steps.
 
-Why do we care about referential transparency, though? Functional programming, in some ways, allows you to manulipate your program algebraically. When you have this affordance, you have to follow a set of rules, much like algebra. What this provides you is the ability to locally reason about your program.
+Why do we care if we have referential transparency? I have never heard of it in my 100 years of programming expertise and I just got along just fine.
 
-Let's go back to high school algebra, say we say `a = b`, then it would make sense that `a + c = b + c`, c is on both sides and we know that a = b. Now, if this ordinary algebra was not referentailly transparent, we cannot say that `a + c = b + c` because we do not know if substituting an expression with its result would be the same thing. Sounds weird, let me clarify a bit more.
+Referential transparency is one way that allows more straightforward ways to reason about your program locally, sort of like an equation. Recall from high school algebra, an equation like:
 
-Imagine a stateful algebra, where say `r` is equal to a counter, starting at zero but each time its evaluated it increments by one. So if I say `r + r`, this equals 1. Do it again, i.e., r + r, now it equals 5 even though these expressions are totally distinct. We can't say that `r + r = 2r`, nor can we say that `r = r` because everytime it's evaluated, its result changes, it's a counter.
+x + 5 = 7
+x + 8 = 11
 
-This function can be modeled in an imperative programming language, for example in C sharp:
+So, in this case x = 3 and so both equations are true. If, well, ordinary algebra was not referentially transparent, we don't know if the value of x changes when we use it, because we are not allowed to subsitute it. This means that:
 
-public int r;
+x = x
 
-public int Counter() {
-    this.r++;
-    return r;
+Is false. What?! you may ask. That doesn't make any sense. How am I supposed to know what x is if it keeps changing? You don't, until its evaluated. That's the tricky part.
+
+This also makes simplifications no longer mechanical:
+
+2(x + y) - x is not always equal to x + 2y because we are not allowed to substitute the value of x with 3, it might be different the next time we use it.
+
+I mean there are likely other algebras that sure you can't do this, I'm not a mathematician, but, I mean high school algebra yeah seems weird that you would not be able to do that.
+
+For functional programming, the lack of referential transparency is, well, sort of like equational reasoning: you cannot subsitute the IO side effectful call with its value and have the same output.
+
+For example, ReadNumberFromFile(...) might return a different value each time you run it. So, ReadNumberFromFile(...) + ReadNumberFromFile(...) is a different result than 2 * ReadNumberFromFile(...);
+
+What we can do, instead, is instead of executing it immediately, we create a recipe that says what to do, or instructions to read a file. That in and of itself is referentially transparent, the recipe never changes. This does _not_ make IO referentially transparent, it just turns it into a recipe so that once it's executed, then, well, then you have the weird stuff. But in between, you can locally reason about it.
+
+Think about baking a cake. You have a recipe. If you want to double the ingredients, you can just write on the card to double the portions. Or you can make 100 cakes. No cakes have been made yet, its just the recipes.
+
+Similar to IO, since we have it in this deferred execution/recipe state, this means that, well, the instructions are easy to reason about. Read this file, then do this. This ties into lazy evaluation, wherein its not straightforward when a particular expression will get evaluated, therefore IO sort of helps you to "manually" run it so to speak to make it more clear when it's running, since IO can't just be re-run whenever, it has a different result each time and you can't easily reason about it if you don't have control on how often or when it is called.
+
+In procedural programming, well, stuff is executed interactively:
+
+Read a file
+Bam! You have your file read.
+
+With functional programming, esp. Haskell, these might be lazily evaluated. Or they could be memoized. The thing is that we assume that the program behaves using these referential transparency laws, these rules, and so if we break the rules it becomes more difficult to compose programs.
+
+
+Ordinary addition needs no special treatment because evaluating `2 + 3` always produces `5` and changes nothing else. A stateful counter behaves differently:
+
+```csharp
+private static int count = 0;
+
+public static int Next()
+{
+    count++;
+    return count;
 }
+```
 
-If I call Counter() + Counter() I will get 1. I cannot substitute Counter() with its result, because everytime I run it I get a different answer, e.g., 0 + 1 = 2, 2 + 3 = 5, so if I set Counter() to zero, that doesn't work, the operation would be invalid.
+Starting from zero, `Next() + Next()` evaluates to `1 + 2`, or `3`. Replacing the two calls with a single result, or rewriting the expression as `2 * Next()`, changes both the value and the number of state changes. To understand the expression, we must know about hidden state and how often `Next()` has already run.
 
-What this means is that we don't have the freedom to substitute each expression with its value. This can make it more difficult to reason about programs, and subsequentally algebra if we were unable to do that. It would be very inflexible. Similar to the algebra example, now we need to know about hidden state, how often an expression has been evaluated before, and simplifications/rearranging of equations, would be not possible or difficult.
+External I/O has the same problem. Two calls to `ReadNumberFromFile(...)` may return different values because the file can change between reads. Repeating, moving, or removing a call may also change observable behavior. We therefore cannot apply the same substitutions and rearrangements that are safe for pure expressions.
 
-And, well, it's sort of the same thing for functions that are not referentially transparent. We can't reason about them the same way, much like that weird algebra that wasn't referentially transparent, where a = b but a + b is not equal to a + b. What?! you might say, that doesn't make sense, of course a + b = a + b, it's the same thing. You can reason about it in algebra, but for procedural programming with non-referentially transparent functions it is unclear.
+`IO<T>` addresses this by separating **describing** an operation from **performing** it. Instead of reading the file immediately, a function returns a value that describes how to read it later. These descriptions can be combined without performing their operations, much like combining two recipes without cooking either one.
 
-Side effects are not referentially transparent, and so say if I call ReadNumberFromFile(...) twice, I mean, sure, I might get the same result, but it depends on the file. The file could have changed in between reads. The thing is, is that we have to treat all functions as non-referentially transparent, otherwise if we assume a transformation is valid then we might unintentionally introduce a bug in our program. Similar to the non-referentially transparent algebra, this makes it difficult to reason about our program locally.
+The underlying operation is still effectful when it eventually runs; `IO<T>` does not make file access or mutation pure. It gives the effectful part of the program a composable representation and makes the execution boundary explicit.
 
-The IO monad is _one_ way of dealing with making side effectful functions, well, at least temporarily referentially transparent by turning them into some sort of receipe that hasn't yet been executed until you say so. If you have a recipe then well I mean you can combine two recipes together, nothing happens, it's just a recipe until you actually make it.
-
-Since algebra behaves under these specific rules, it makes it straightforward to evaluate this equation. Same goes for functional programming, in some aspects: because functional programming provides referential transparency, then we have the ability to locally reason about our programs. The IO monad is simply a recipe for a computation to be performed, it is not the computation. This preserves referential transparency, the act of reading a file never changes, but the file contents might.
-
-Since, well, all of the other non-sideeffectful functions are referentially transparent, then it sort of throws a wrench into things once you need to do side effectful things. Sure, IO doesn't magically make it referentially transparent but it helps create the algebra to manulipate it as if it were, until it's time to execute it.
+For this article, I will use **side effect** for an interaction that occurs while evaluating an ordinary expression, and **effect** for an interaction represented as a value whose execution is a separate step. Despite its name, this tiny `IO<T>` can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
 
 Here is the thesis of this article: **`IO<T>` allows functions that would perform side effects to be composed without performing those effects during composition.**
 
