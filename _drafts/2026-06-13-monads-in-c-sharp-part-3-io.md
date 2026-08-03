@@ -17,66 +17,11 @@ The first two parts introduced the same small pattern in different contexts:
 
 I/O adds a different concern. Reading a file, asking for input, or calling an API does more than return a value: it interacts with the world. The timing, order, and number of those interactions are part of the program's meaning.
 
-Programs are not very useful without side effects, e.g., writing to the console, to a database, making an HTTP request, etc. interacting with the world. We need to have side effects in our programs for them to be useful.
+Programs need such interactions to be useful. The goal is not to eliminate them, but to represent them in a form that can be composed before anything happens.
 
-However, side effects are, well, awkward because they are difficult to compose in functional programming as-is. In languages such as Haskell, things are lazily evaluated and so let's say you had two getLine functions, well, they're not needed per-se in any equation, or expression, so they are never evaluated. Since evaluation order depends on dependencies, sure, you can evaluate them immediately, but they might be evaluated out of order, or some weird time when you don't want them to.
+Why does I/O need special treatment while addition does not? Evaluating `2 + 3` always produces `5` and changes nothing else. The expression is **referentially transparent**: replacing it with its value cannot change the program's behavior. This substitution rule supports **equational reasoning**: we can understand and transform a small part of the program without first knowing the state of the world.
 
-This doesn't matter as much with equations, e.g., I need the result to be correct, if two equations don't have dependencies on each other I don't really care which one is evaluated first.
-
-This is sort of the main paradigm shift from procedural programming to functional programming.
-
-Additionally, it breaks referential transparency. The thing is, that with procedural languages it is a bit difficult to grok lazy evaluation, as statements are executed immediately. So, a better thing here is to think of referential transparency.
-
-Referential transparency is when you can replace the content of an expression with its value, and it holds true. For example, 2 + 2 = 4, so 2 + 2 can be substituted for 4 and so 4 = 4. Easy enough, isn't that the same in procedural programming languages as well?
-
-Not exactly, it does not hold for all functions. E.g., ReadUserInputFromConsole(...) all invocations cannot be safely replaced with the same user input that the user entered, e.g., "abc", because they are prompted again and they might provide a different value. It does hold for some functions, e.g., Square(x) = x ** 2 for example, sure, that is referentially transparent. For pure functional programming languages, everything is typically referentially transparent. So, what do we do about this non-referentially transparent GetUserInput() function, given that we need to handle side effects as well?
-
-We instead keep it as a recipe, or instructions to read user input. Two instructions that say "read user input" can be substituted in the expression and is still referentially transparent to do so. Note that this does _not_ make IO referentially transparent, it just makes it an action that reads it. Two actions are identical, i.e., receipes. You can substitute the function GetUserInput() with "step one, retrieve the input from the user, read from the console" and it doesn't change the meaning of the program.
-
-Why is I/O (side effects) treated differently? Why specifically IO and not say, addition? What specifically about side effects have this special treatment?
-
-It has to do, in part, with retaining referential transparency, and more importantly, equational reasoning.
-
-This matters because functional programming relies heavily on **referential transparency**: an expression can be replaced by its value without changing the program's behavior. That property lets us reason locally and manipulate programs much as we manipulate algebra. If `a = b`, then substituting `b` for `a` should remain valid wherever `a` appears. It's sort of like your program is a series of equations, or algebra, rather than procedural steps.
-
-Why do we care if we have referential transparency? I have never heard of it in my 100 years of programming expertise and I just got along just fine.
-
-Referential transparency is one way that allows more straightforward ways to reason about your program locally, sort of like an equation. Recall from high school algebra, an equation like:
-
-x + 5 = 7
-x + 8 = 11
-
-So, in this case x = 3 and so both equations are true. If, well, ordinary algebra was not referentially transparent, we don't know if the value of x changes when we use it, because we are not allowed to subsitute it. This means that:
-
-x = x
-
-Is false. What?! you may ask. That doesn't make any sense. How am I supposed to know what x is if it keeps changing? You don't, until its evaluated. That's the tricky part.
-
-This also makes simplifications no longer mechanical:
-
-2(x + y) - x is not always equal to x + 2y because we are not allowed to substitute the value of x with 3, it might be different the next time we use it.
-
-I mean there are likely other algebras that sure you can't do this, I'm not a mathematician, but, I mean high school algebra yeah seems weird that you would not be able to do that.
-
-For functional programming, the lack of referential transparency is, well, sort of like equational reasoning: you cannot subsitute the IO side effectful call with its value and have the same output.
-
-For example, ReadNumberFromFile(...) might return a different value each time you run it. So, ReadNumberFromFile(...) + ReadNumberFromFile(...) is a different result than 2 * ReadNumberFromFile(...);
-
-What we can do, instead, is instead of executing it immediately, we create a recipe that says what to do, or instructions to read a file. That in and of itself is referentially transparent, the recipe never changes. This does _not_ make IO referentially transparent, it just turns it into a recipe so that once it's executed, then, well, then you have the weird stuff. But in between, you can locally reason about it.
-
-Think about baking a cake. You have a recipe. If you want to double the ingredients, you can just write on the card to double the portions. Or you can make 100 cakes. No cakes have been made yet, its just the recipes.
-
-Similar to IO, since we have it in this deferred execution/recipe state, this means that, well, the instructions are easy to reason about. Read this file, then do this. This ties into lazy evaluation, wherein its not straightforward when a particular expression will get evaluated, therefore IO sort of helps you to "manually" run it so to speak to make it more clear when it's running, since IO can't just be re-run whenever, it has a different result each time and you can't easily reason about it if you don't have control on how often or when it is called.
-
-In procedural programming, well, stuff is executed interactively:
-
-Read a file
-Bam! You have your file read.
-
-With functional programming, esp. Haskell, these might be lazily evaluated. Or they could be memoized. The thing is that we assume that the program behaves using these referential transparency laws, these rules, and so if we break the rules it becomes more difficult to compose programs.
-
-
-Ordinary addition needs no special treatment because evaluating `2 + 3` always produces `5` and changes nothing else. A stateful counter behaves differently:
+A stateful counter behaves differently:
 
 ```csharp
 private static int count = 0;
@@ -88,13 +33,13 @@ public static int Next()
 }
 ```
 
-Starting from zero, `Next() + Next()` evaluates to `1 + 2`, or `3`. Replacing the two calls with a single result, or rewriting the expression as `2 * Next()`, changes both the value and the number of state changes. To understand the expression, we must know about hidden state and how often `Next()` has already run.
+Starting from zero, `Next() + Next()` evaluates to `1 + 2`, or `3`. Rewriting it as `2 * Next()` evaluates the counter only once and produces `2`. A familiar algebraic simplification changed both the result and the number of state changes. To understand the original expression, we must know about hidden state and how often `Next()` has already run.
 
 External I/O has the same problem. Two calls to `ReadNumberFromFile(...)` may return different values because the file can change between reads. Repeating, moving, or removing a call may also change observable behavior. We therefore cannot apply the same substitutions and rearrangements that are safe for pure expressions.
 
-`IO<T>` addresses this by separating **describing** an operation from **performing** it. Instead of reading the file immediately, a function returns a value that describes how to read it later. These descriptions can be combined without performing their operations, much like combining two recipes without cooking either one.
+`IO<T>` addresses this by separating **describing** an operation from **performing** it. Instead of reading the file immediately, a function returns a value that describes how to read it later. These descriptions can be combined without performing their operations, much like combining recipes without cooking anything yet.
 
-The underlying operation is still effectful when it eventually runs; `IO<T>` does not make file access or mutation pure. It gives the effectful part of the program a composable representation and makes the execution boundary explicit.
+The underlying operation is still effectful when it eventually runs. `IO<T>` does not make file access or mutation pure, nor does it guarantee that repeated executions produce the same result. It gives the operation a composable representation and makes the execution boundary explicit.
 
 For this article, I will use **side effect** for an interaction that occurs while evaluating an ordinary expression, and **effect** for an interaction represented as a value whose execution is a separate step. Despite its name, this tiny `IO<T>` can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
 
@@ -109,11 +54,11 @@ g : B -> C
 g after f : A -> C
 ```
 
-For the total pure calculations in this article, that composition comes with a useful reasoning contract. The same explicit inputs determine the same result, and evaluation does not change the world. Repeating a call, memoizing its result, substituting the result for the call, or reordering independent calls may change cost, but not the program's meaning.
+For the total pure calculations in this article, that composition comes with a useful reasoning contract: the same explicit inputs determine the same result, and evaluation does not change the world. Repeating a call, memoizing its result, substituting its result for the call, or reordering independent calls may change cost, but not meaning.
 
-An effectful function can be connected in exactly the same mechanical way, and its delegate can still be stored or passed around. What changes is the reasoning contract. The same explicit input may observe a different price, file, clock, or database state. Calling the function may also change that state, consume quota, send an email, or affect whether the next call is throttled. Repeating, memoizing, retrying, moving, or reordering the call can therefore change both its result and the world.
+An effectful function can be connected in the same mechanical way, but the reasoning contract changes. The same explicit input may observe a different file, clock, price, or database state. Calling the function may also change that state, consume quota, send an email, or affect whether the next call is throttled. Repeating, memoizing, retrying, moving, or reordering the call can therefore change both its result and the world.
 
-That also creates dependencies that ordinary value flow does not show. Two calls may have unrelated parameters and return types yet still depend on their order because both interact with the same file, service, account, or other external state. For effectful code, timing, sequence, repetition, and failure policy are part of composition.
+Effects also create dependencies that ordinary value flow does not show. Two calls may have unrelated parameters and return types yet still depend on their order because both interact with the same file, service, account, or other external state. Timing, sequence, repetition, and failure policy become part of composition.
 
 Monadic composition does not merely concatenate two wrapped values. It sequences a value in a monadic context with a function that uses its result to construct the next value in that same context:
 
@@ -124,11 +69,11 @@ next    : A -> IO<B>
 current.FlatMap(next) : IO<B>
 ```
 
-`FlatMap` produces one `IO<B>` that describes "run `current`, pass its result to `next`, then run the returned action." It preserves the data dependency and the order of effects without performing either effect during composition. The monad laws make regrouping those composition steps predictable; later sections make those laws and their C# limitations explicit.
+`FlatMap` produces one `IO<B>` that describes: run `current`, pass its result to `next`, then run the returned action. It preserves the data dependency and the order of effects without performing either effect during composition. The monad laws make regrouping those steps predictable; later sections make those laws and their C# limitations explicit.
 
 `IO<T>` does not decide whether an operation should be retried, memoized, rate-limited, or run concurrently. It keeps the operation unperformed long enough for explicit combinators to describe such policies around the larger program.
 
-That raises the practical question: why can the effectful code not remain an ordinary function? Why not call it inside `Map` or `Select`, just as we do with pure functions? C# will accept that code. `Enumerable.Select` makes clear what reasoning power is lost.
+That raises the practical question: why can the effectful code not remain an ordinary function? Why not call it inside `Map` or `Select`, just as we do with pure functions? C# accepts that code. `Enumerable.Select` makes clear what reasoning power is lost.
 
 > **Scope:** This is a teaching model, not a recommendation to replace normal C# application structure or the Task-based Asynchronous Pattern (TAP). The examples target C# 10 and .NET 6 or later.
 
