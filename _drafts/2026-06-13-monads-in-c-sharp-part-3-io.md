@@ -17,6 +17,22 @@ The first two parts introduced the same small pattern in different contexts:
 
 I/O adds a different concern. Reading a file, asking for input, or calling an API does more than return a value: it interacts with the world. The timing, order, and number of those interactions are part of the program's meaning.
 
+Programs are not very useful without side effects, e.g., writing to the console, to a database, making an HTTP request, etc. interacting with the world. We need to have side effects in our programs for them to be useful.
+
+However, side effects are, well, awkward because they are difficult to compose in functional programming as-is. In languages such as Haskell, things are lazily evaluated and so let's say you had two getLine functions, well, they're not needed per-se in any equation, or expression, so they are never evaluated. Since evaluation order depends on dependencies, sure, you can evaluate them immediately, but they might be evaluated out of order, or some weird time when you don't want them to.
+
+This doesn't matter as much with equations, e.g., I need the result to be correct, if two equations don't have dependencies on each other I don't really care which one is evaluated first.
+
+This is sort of the main paradigm shift from procedural programming to functional programming.
+
+Additionally, it breaks referential transparency. The thing is, that with procedural languages it is a bit difficult to grok lazy evaluation, as statements are executed immediately. So, a better thing here is to think of referential transparency.
+
+Referential transparency is when you can replace the content of an expression with its value, and it holds true. For example, 2 + 2 = 4, so 2 + 2 can be substituted for 4 and so 4 = 4. Easy enough, isn't that the same in procedural programming languages as well?
+
+Not exactly, it does not hold for all functions. E.g., ReadUserInputFromConsole(...) all invocations cannot be safely replaced with the same user input that the user entered, e.g., "abc", because they are prompted again and they might provide a different value. It does hold for some functions, e.g., Square(x) = x ** 2 for example, sure, that is referentially transparent. For pure functional programming languages, everything is typically referentially transparent. So, what do we do about this non-referentially transparent GetUserInput() function, given that we need to handle side effects as well?
+
+We instead keep it as a recipe, or instructions to read user input. Two instructions that say "read user input" can be substituted in the expression and is still referentially transparent to do so. Note that this does _not_ make IO referentially transparent, it just makes it an action that reads it. Two actions are identical, i.e., receipes. You can substitute the function GetUserInput() with "step one, retrieve the input from the user, read from the console" and it doesn't change the meaning of the program.
+
 Why is I/O (side effects) treated differently? Why specifically IO and not say, addition? What specifically about side effects have this special treatment?
 
 It has to do, in part, with retaining referential transparency, and more importantly, equational reasoning.
