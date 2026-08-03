@@ -145,7 +145,6 @@ https://research.google/pubs/database-transactions-in-a-purely-declarative-logic
 https://digicoll.lib.berkeley.edu/record/139011	publication	1997		Academic papers / proceedings
 https://williamwoods.ecampus.com/functional-logic-programming-proceedings/bk/9789810229238	publication	1997		Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/1997/pilm97-FstClassIOIFL96.pdf	created	1997		Academic papers / proceedings
-https://www.diva-portal.org/smash/get/diva2%3A1004952/FULLTEXT01.pdf	publication	1997		Academic papers / proceedings
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1997.html	created	1997		Academic papers / proceedings
 https://conal.net/papers/frp.html	published	1997		Academic papers / proceedings
 https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf	publication	1997		Academic papers / proceedings
@@ -214,7 +213,6 @@ https://kto.web.elte.hu/papers/papers/fusst99temp.pdf	authored	1999		Academic pa
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl1999.html	created	1999		Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/1999/horv99-TempPropUniqueWorld.ps.gz	created	1999		Academic papers / proceedings
 https://scholar.lib.vt.edu/ejournals/JFLP/jflp-mirror/articles/1999/A99-03/A99-03.html	created	1999		Academic papers / proceedings
-https://www.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf	publication	1999		Academic papers / proceedings
 https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf	publication	1999		Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/10704567.pdf	published	1999	10.1007/10704567	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/10704973.pdf	published	1999	10.1007/10704973	Academic papers / proceedings
@@ -403,7 +401,6 @@ https://www.mbsd.cs.ru.nl/publications/papers/2004/GECAPLAS.pdf	created	2004		Ac
 https://www.sigmod.org/publications/dblp//db/conf/ifl/ifl2004.html	created	2004		Academic papers / proceedings
 https://www.dafx.de/paper-archive/2004/P_201.PDF	created	2004		Academic papers / proceedings
 https://www.cs.ru.nl/~marko/research/pubs/2004/GECAPLAS.pdf	created	2004		Academic papers / proceedings
-https://www.diva-portal.org/smash/get/diva2%3A142802/FULLTEXT01.pdf	publication	2004		Academic papers / proceedings
 https://www.diva-portal.org/smash/get/diva2:142802/FULLTEXT01.pdf	publication	2004		Academic papers / proceedings
 https://pdfcoffee.com/programming-language-design-concepts-pdf-free.html	publication	2004		Academic papers / proceedings
 https://www.cs.nott.ac.uk/~pszgmh/FP04/IO.pdf	authored	2004		Academic papers / proceedings
@@ -791,7 +788,6 @@ https://eprints.nottingham.ac.uk/11457/	publication	2010-07		Academic papers / p
 https://eprints.nottingham.ac.uk/id/eprint/11457	publication	2010-07		Academic papers / proceedings
 https://eprints.nottingham.ac.uk/11457/files/	publication	2010-07		Academic papers / proceedings
 https://eprints.nottingham.ac.uk/11457/files/10391401.pdf	publication	2010-07		Academic papers / proceedings
-https://eprints.nottingham.ac.uk/11457/files/10391401.pdf?download=1	publication	2010-07		Academic papers / proceedings
 https://eprints.nottingham.ac.uk/11457/1/11457.pdf	publication	2010-07		Academic papers / proceedings
 https://www.cs.cmu.edu/~rwh/papers/mml5/paper.pdf	modified	2010-07-16	10.4204/EPTCS.34.7	Academic papers / proceedings
 https://arxiv.org/abs/1007.3023	published	2010-07-18	10.48550/arXiv.1007.3023	Academic papers / proceedings
@@ -1802,7 +1798,6 @@ https://www.cis.upenn.edu/~cis120/archive/19fa/notes/120notes.pdf	published	2019
 https://xiaochai.github.io/2019/10/11/haskell/	publication	2019-10-11		Academic papers / proceedings
 https://reasonablypolymorphic.com/blog/design-and-interpretation/	published	2019-10-13		Academic papers / proceedings
 https://dev.to/drbearhands/haskell-for-madmen-hello-monad-3926	published	2019-10-16		Academic papers / proceedings
-https://medium.com/%40RaymondTayBL/journey-to-the-io-monad-part-3-1-35813c7f48ac	published	2019-10-18		Academic papers / proceedings
 https://medium.com/@RaymondTayBL/journey-to-the-io-monad-part-3-1-35813c7f48ac	published	2019-10-18		Academic papers / proceedings
 https://medium.com/free-code-camp/demystifying-the-monad-in-scala-cc716bb6f534	published	2019-10-22		Academic papers / proceedings
 https://arxiv.org/abs/1910.11108	published	2019-10-24	10.48550/arXiv.1910.11108	Academic papers / proceedings
@@ -1902,7 +1897,6 @@ https://reasonablypolymorphic.com/blog/polysemy-mea-culpa/	published	2020-06-14	
 https://dev.to/louy2/look-for-nuke-launchers-in-haskell-4gd	published	2020-06-17		Academic papers / proceedings
 https://uu.diva-portal.org/smash/record.jsf?pid=diva2:1369286	archived	2020-06-18		Academic papers / proceedings
 https://uu.diva-portal.org/smash/get/diva2%3A1369286/FULLTEXT01.pdf%3E	archived	2020-06-18		Academic papers / proceedings
-https://uu.diva-portal.org/smash/get/diva2%3A1369286/FULLTEXT01.pdf	archived	2020-06-18		Academic papers / proceedings
 https://haskellweekly.news/issue/216.html	published	2020-06-18		Academic papers / proceedings
 https://uu.diva-portal.org/smash/get/diva2:1369286/FULLTEXT01.pdf	archived	2020-06-18		Academic papers / proceedings
 https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf	publication	2020-06-28		Academic papers / proceedings
@@ -2418,7 +2412,6 @@ https://pdxscholar.library.pdx.edu/open_access_etds/1/	created	2024-03-30	10.157
 https://pure.tue.nl/ws/portalfiles/portal/333714970/Gils_N.pdf	published	2024-04		Academic papers / proceedings
 https://www.diva-portal.org/smash/get/diva2%3A757286/FULLTEXT01.pdf	archived	2024-04-12		Academic papers / proceedings
 https://icfp24.sigplan.org/series/haskellsymp	archived	2024-04-15		Academic papers / proceedings
-https://ltu.diva-portal.org/smash/get/diva2%3A991724/FULLTEXT01.pdf	created	2024-04-15		Academic papers / proceedings
 https://ltu.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf	created	2024-04-15		Academic papers / proceedings
 https://core.ac.uk/download/pdf/76382625.pdf	archived	2024-04-15		Academic papers / proceedings
 https://arxiv.org/abs/2404.16062	published	2024-04-17	10.48550/arXiv.2404.16062	Academic papers / proceedings
@@ -3103,7 +3096,6 @@ https://doi.org/10.1007/978-1-4471-3236-3	publication	1994	10.1007/978-1-4471-32
 https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_18	publication	1994	10.1007/978-1-4471-3236-3_18	Books / chapters
 https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_22	publication	1994	10.1007/978-1-4471-3236-3_22	Books / chapters
 https://direct.mit.edu/books/edited-volume/chapter-pdf/2303005/9780262257145_caa.pdf	published	1994		Books / chapters
-https://www.cambridge.org/core/books/functional-programming-and-inputoutput?format=PB	publication	1994-09		Books / chapters
 https://www.cambridge.org/core/books/functional-programming-and-inputoutput/	publication	1994-09		Books / chapters
 https://books.google.com.vc/books?id=Z0QA2S6fceQC&printsec=copyright	published	1994-10-13		Books / chapters
 https://www.bol.com/nl/nl/p/functional-programming-and-input-output/1001004000972997/	published	1994-10-13		Books / chapters
@@ -3638,7 +3630,6 @@ https://books.google.com/books/about/Haskell_Step_By_Step_Solution_with_Progr.ht
 https://books.google.com/books/about/Soar_with_Haskell.html?id=xjli0AEACAAJ	published	2023		Books / chapters
 https://books.google.com/books/about/Effective_Haskell.html?id=4cUIzwEACAAJ	published	2023		Books / chapters
 https://books.google.com/books/about/Functional_Programming_in_Scala_Second_E.html?id=D-29EAAAQBAJ	published	2023		Books / chapters
-https://books.google.com/books?id=nh0okI1a1sQC&printsec=frontcover	archived	2023-02-25		Books / chapters
 https://up.4read.net/zahef/books/1653713845.pdf	modified	2023-03-05		Books / chapters
 https://up.4read.net/zahef/books/1654282510.pdf	modified	2023-03-07		Books / chapters
 https://api.pageplace.de/preview/DT0400.9781108271493_A37454656/preview-9781108271493_A37454656.pdf	modified	2023-05-16		Books / chapters
@@ -4659,265 +4650,52 @@ https://ncatlab.org/schreiber/files/QuantumMonadology-250718.pdf	published	2025-
 https://commons.wikimedia.org/wiki/File%3AHaskell.pdf	modified	2026-07-15		Reference / encyclopedia
 https://portal.mardi4nfdi.de/wiki/Publication%3A2986833	accessed	2026-07-27	10.1109/LICS.2012.66	Reference / encyclopedia
 https://openalex.org/W1989524304	published	1981-04-01	10.1145/988131.988141	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e1982fd32ea61a8271cfa056da7bdab7d7f0954e&repid=rep1&type=pdf	created	1982		Indexes / metadata
 https://dblp.org/rec/journals/ipl/Dwelly88.html	published	1988	10.1016/0020-0190(88)90142-1	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=89b76e3719971789a412963d2145ad804c3670ac&repid=rep1&type=pdf	publication	1989		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=dd70a5af31c2f6196803ed69dbc1f9e877047e7a&repid=rep1&type=pdf	publication	1990		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e21be3213fc22284e7f8f72f9ff867070f8816c0&repid=rep1&type=pdf	publication	1990		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8242b566d8bd1ce0ebbcb7cfdea0aa5b70501da1&repid=rep1&type=pdf	publication	1991		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a868f422a3cb39bb7b265ce5a24bfe92acfc9d7d&repid=rep1&type=pdf	publication	1992		Indexes / metadata
 https://www.mendeley.com/catalogue/0e003907-0294-36cb-ad4a-c377c80bbad2/	publication	1992	10.1017/S0956796800000241	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ac59f8adb5fa820bd5b407257a5f387231864c87&repid=rep1&type=pdf	publication	1992		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f10bd45692321be8a4cd29976d9cbd45fa747e60&repid=rep1&type=pdf	publication	1992		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f8d3db80eca49e92f7919b41641a978370262a3c&repid=rep1&type=pdf	publication	1992		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fa0c613567cacf0bc1f38c946632f6b4004d213e&repid=rep1&type=pdf	authored	1992		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=89125be7f9c222793c18b99d0644c16ff19d9f06&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ca15a20f1d89b8059903a3ee421ed8fdb4dcd40f&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ac33808af2e5ca9a597f631f0116e8383b9a64a0&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6478c1cd00444e731d6332ef3a26121eee054f11&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=dc68a7d83bd24c8c9cef60576c688bafadc71d8d&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7050898488bfa64de120349131f4331059308632&repid=rep1&type=pdf	publication	1993		Indexes / metadata
 https://content.openalex.org/works/W2078944436.pdf	publication	1993-01-01		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c710d3f726a1c8c95a27b182abccf5889e277a07&repid=rep1&type=pdf	publication	1994		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=821caec03e9663c17256f797967b67c1ceb15e6e&repid=rep1&type=pdf	publication	1994		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9a61366bb982b0aea844c60554874623b9fd96c4&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=91f1d593e4b354ce69bb23906204821b1b07b9f1&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ae35941e9cc1ea268a589c3e001742996a48ab59&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8183bfbcd2ce3a03d83bb3ec73e72cd7b39b68df&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a974b56a52d4dedc4db5a3dcb524b47b8e8ceb68&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=14919a3db4428fdabb4ad7446c1783ecfd83b099&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7f7238020b7e88d1b91df3a9ed6886d7750681a8&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3a5299228a953f17368e88faccf177d4e2154513&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fe187dc29eba30690982c5c25a41dd9fa99e740e&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.0	created	1995	10.14236/ewic/FP1995.0	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.16	created	1995	10.14236/ewic/FP1995.16	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.6	created	1995	10.14236/ewic/FP1995.6	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.9	created	1995	10.14236/ewic/FP1995.9	Indexes / metadata
 https://content.openalex.org/works/W2076004629.pdf	publication	1995-01-01		Indexes / metadata
 https://www.semanticscholar.org/paper/State-in-Haskell-Launchbury-Jones/5768f243d9d91cf3225ae6ca1a89193f5b5ee423	publication	1995-12	10.1007/BF01018827	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=32fdb1577de8b130384668fe3e883f7180489c4b&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=587698b583fc14df78df250a10064f0e8616f498&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b703a189644bbb2fc9a3aabf0972f1b872379ec9&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=dd3ee3f36f988936ffd67e08570a0ce085749edc&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a61a8264b7c8cdfaec1ee6ea056a4fb6425f8a89&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7c2aa605ba792e1ad933ea6a801089087c96e7db&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c0c1e40a9e4c35c7dea90c543d949748339ccbb1&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c453e924645f2dff471020a087e04e4de8b0ac3d&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=2dff9b6cdee98bca82113a0aa22f469c3b96d19d&repid=rep1&type=pdf	publication	1996		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs1996b.pdf	created	1996		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c2cc1c09415d96d56647368b2d569450b4c500a8&repid=rep1&type=pdf	publication	1997		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8c04f97a8dfe35c099d8ba5b304a149c5649c407&repid=rep1&type=pdf	publication	1997		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=33699a682cb6ff3e356ad98335755dbc43a48a64&repid=rep1&type=pdf	publication	1997		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8766d8c68cf63e43c3d65955feab91dcb8e934f5&repid=rep1&type=pdf	publication	1997		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5740bd423ec97e8371d0589a7cdca738f12a12c6&repid=rep1&type=pdf	publication	1997		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d205d244ad270b967e29898e5d0ddbc94951fb61&repid=rep1&type=pdf	publication	1998		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=345bebfe943d588cb89cf8cdd35238f1f56c81e8&repid=rep1&type=pdf	publication	1998		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=45c9fa669bc09eae213f42e93fababb3b59f9584&repid=rep1&type=pdf	publication	1998-04		Indexes / metadata
 https://dblp.org/rec/journals/tcs/Jeffrey99.html	published	1999	10.1016/S0304-3975(98)00356-9	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c572997a850a29058bd8d83e253dbfdfade8da4b&repid=rep1&type=pdf	publication	1999		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ee9dc665aa11d9da8e2f764bd73a1a63be8ffb0f&repid=rep1&type=pdf	publication	1999		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=95ab87c0459669fa811be6f87f8a308a8dac219e&repid=rep1&type=pdf	publication	1999		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fb86a8e1bb57102056fd97eea39391e83fc90494&repid=rep1&type=pdf	publication	1999		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=4a5c8b5fb558469868148446c45885b610a53874&repid=rep1&type=pdf	publication	1999		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=392c21206ea2a5ced3396499f5b9c1f2278842e1&repid=rep1&type=pdf	publication	1999		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a59a61a1d2aaf456af76d81094b66f3c0802ec7b&repid=rep1&type=pdf	authored	1999		Indexes / metadata
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/6957E6B6F22586D088813B0748BCCD8E/9780511574962bib_p293-300_CBO.pdf/bibliography.pdf	published	1999-08-01	10.1017/CBO9780511574962.015	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=933aa774c4fd242f6deb0fa6a20daab32481bec5&repid=rep1&type=pdf	publication	1999-09		Indexes / metadata
 https://dblp.org/rec/conf/csl/HancockS00.html	published	2000	10.1007/3-540-44622-2_21	Indexes / metadata
 https://dblp.org/rec/conf/icfp/ErkokL00.html	published	2000	10.1145/357766.351257	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=851548953ef6b3b4b1b3f859e2713287d2d63ed6&repid=rep1&type=pdf	publication	2000		Indexes / metadata
 https://www.mendeley.com/catalogue/e196e77b-fb78-34e8-98e0-484fe9c1f433/	publication	2000	10.1017/S0956796899003561	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8ab0fcbee98eb410e141d93cbcbacd804b09eff5&repid=rep1&type=pdf	publication	2000		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=18a2233de3ce4e260aac55e7d543e2aa5d4c54d5&repid=rep1&type=pdf	publication	2000		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f09be46c9638feecf15a7cdf12f463a1f58d04e6&repid=rep1&type=pdf	publication	2000		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/sigplan2000.pdf	created	2000		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=eb55981ff53f6dc971bff73cc172beb2d6e8838a&repid=rep1&type=pdf	publication	2000-01-01		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0ab98933c3975dbd02b2997e29b5b230619516a5&repid=rep1&type=pdf	authored	2000-10-27		Indexes / metadata
 https://dblp.org/rec/conf/ifl/ButterfieldS01.html	published	2001	10.1007/3-540-46028-4_5	Indexes / metadata
 https://dblp.org/rec/conf/pldi/MarlowJMR01.html	published	2001	10.1145/378795.378858	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e119d259fe943e183929e24080f2d737624f5b83&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=99550e6598bf3a7fc51b09078643586ba8f8d73d&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0bac2b7547b4e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=50416ed8f348b8ad27b91d7532ed024826636378&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e2e4e42e00d99c8bf41b36caf742d52f3e1cc9e7&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e2fb0212bc893052d6ef09855cb9cd4102ff8d77&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=36df1539df9f5e72f864b5095826ee72665d5740&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b8a1af0a848270b1c69d945c7d629a7761805f81&repid=rep1&type=pdf	publication	2001-01-01		Indexes / metadata
 https://dblp.org/rec/conf/haskell/ErkokL02.html	published	2002	10.1145/581690.581693	Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseSB02.html	published	2002	10.1007/3-540-44854-3_5	Indexes / metadata
 https://dblp.org/rec/journals/ita/ErkokLM02.html	published	2002	10.1051/ita:2002008	Indexes / metadata
 https://dblp.org/rec/journals/sigplan/ClaessenH02.html	published	2002	10.1145/636517.636527	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a137f2e4b26e86fa3130556c95f94f13a63f2223&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f633bc66d270bae980dfe80c4bb18242164c07a7&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=167c289731984722bf06fb2332d86d0c14d14b56&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=1559a9a26ca1baac9f465b72a1e97a9d6923696d&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=20ab57bf6d14d6a08a950b015d17af5f41b1b22b&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=cc63870c3633af71d16899b40c71debdf3787da8&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=96c799d7051f0ea15b580457efb10db7ba486f8e&repid=rep1&type=pdf	publication	2002		Indexes / metadata
 https://openalex.org/W2264687	published	2002-01-01	10.1051/parasite/1990651073	Indexes / metadata
 https://content.openalex.org/works/W1980408208.pdf	publication	2002-04-01		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8b403a9ae7edce9c1453d14f2c47c318f2199f62&repid=rep1&type=pdf	publication	2002-10-04		Indexes / metadata
 https://dblp.org/rec/journals/jfp/Jones03f.html	published	2003	10.1017/S0956796803000819	Indexes / metadata
 https://dblp.org/rec/journals/jfp/Jones03g.html	published	2003	10.1017/S0956796803000911	Indexes / metadata
 https://dblp.org/rec/journals/jfp/Jones03s.html	published	2003	10.1017/S0956796803002119	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b48fac8823f062b367d8b931ed71fd39f487773e&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=285d06d78bd44ca89cd05fd3956ee78aa371b2b2&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
 https://www.numdam.org/item/ITA_2003__37_4_273_0/	publication	2003	10.1051/ita:2003020	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d607936813ae919ac0e412fbb84fbfc4675be1fa&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e6fb8e934a05f5ba6e9b8868113c1557df11443d&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67f1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda3e4a2d35861293448d&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda4e3a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1da3e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
 https://grosskurth.ca/bib/2003/dowse-tr.pdf	published	2003-01-29		Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseBE04.html	published	2004	10.1007/11431664_11	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=036b10eb0c59c0e5b410ec0e5267c848897dd360&repid=rep1&type=pdf	publication	2004		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=00eac28d29540f6932d64bc1be12deaf311ea0dd&repid=rep1&type=pdf	publication	2004		Indexes / metadata
 https://www.numdam.org/item/ITA_2004__38_4_375_0	publication	2004	10.1051/ita:2004018	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=2a870e0033817342a4a660cae768d361671eb6d3&repid=rep1&type=pdf	publication	2004		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=bf97bcdb8aa93567a3c573a8cc7d1195d66efcdb&repid=rep1&type=pdf	publication	2004		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3a1105763a9e629cc6fb59a39898134d147dc3b7&repid=rep1&type=pdf	publication	2004		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5c19f0ee0173cb847b36642e2b3ee7472e03b1f2&repid=rep1&type=pdf	publication	2004		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f19c4627e3dcaac6f9e5f670251d88439ef31bcc&repid=rep1&type=pdf	publication	2004		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=2b79cb9635dbfeb41ed23668b9526d4b70112c0c&repid=rep1&type=pdf	uploaded	2004-02-08		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=016daf3ab6e96eb60ae8c26667c7e5f8215ea419&repid=rep1&type=pdf	publication	2004-08		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fd01713b4d2f66e63a4cdd3bade53e618349d2d1&repid=rep1&type=pdf	publication	2004-08		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=41cd6ddd9dc6f1264519402c3ca29fba7733c7ef&repid=rep1&type=pdf	publication	2004-09-19		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3bf9b30fd286618b8d7044bec752d51a6cf4f5ce&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0c3d1086ad24ce3f677f4b7390d05887c4a0bffc&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0ba548cd8db119873d07ff2605214675a2127a5e&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b0259710da1e0c0268d452233b87033b7c9b3041&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=85ef46f5a5b28afbe14eed059937a8c97c2c49ab&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d361c075e970ef212328d6a20a5018d2f6416ee4&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=78db511c84020e70c29750551902780d8ad6edf1&repid=rep1&type=pdf	publication	2005		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=56b44cc407e22a0ab538bd05e6e560f77e47f36a&repid=rep1&type=pdf	authored	2005		Indexes / metadata
 https://pdfs.semanticscholar.org/dd9a/8d3986630da6dea10c504c907681fdb3c322.pdf	publication	2005-03-01		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=00472e8c2b66a1bf2cded592e3d74ad94b000c7d&repid=rep1&type=pdf	publication	2005-05-20		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9d557f4c6badddf9e2504d874803cdd1f3beb6d2&repid=rep1&type=pdf	publication	2005-07		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=942ad64014dcf2a055b410e8dd1c2efd1f77d94b&repid=rep1&type=pdf	created	2005-12-15		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3f0ef9294503f870e38966f9d3c63f0a28c03e19&repid=rep1&type=pdf	publication	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=4ee3514f07ea6550b503d447741bbe67d4d19271&repid=rep1&type=pdf	authored	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d79df714953779a1b27c52ad5854b333e53020ec&repid=rep1&type=pdf	publication	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5776a1a85c217e2ec24527767946a9ab1bc79dda&repid=rep1&type=pdf	publication	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ad43ccbee49d790fdc1c8c625a24cf7d00c8326d&repid=rep1&type=pdf	publication	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=1ef1e228ef8bc029d50c4f8cc1d27e386cd53dc3&repid=rep1&type=pdf	publication	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e75a155fd802010d677e15345a51fdb0f495c8c3&repid=rep1&type=pdf	publication	2006		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c0a3eb80020e2e162116901b5ae83dd4b060cbcd&repid=rep1&type=pdf	publication	2006		Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.1	created	2006	10.14236/ewic/MSFP2006.1	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2	created	2006	10.14236/ewic/MSFP2006.2	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=deb6809f2b9e3208a481913b2b822680ca6b7127&repid=rep1&type=pdf	publication	2006-07-02		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=27b51ea77b79d4c8775c242b0f0562aa95c658fa&repid=rep1&type=pdf	publication	2006-07-05		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e068987d20f5197bcece9a2ee01b7958a79b9902&repid=rep1&type=pdf	publication	2006-09		Indexes / metadata
 https://openalex.org/W2094248892	published	2006-09-16	10.1145/1159803.1159823	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=40ce086d4d8b03b5537c2f51c0c2f4a1c0cadd76&repid=rep1&type=pdf	publication	2007		Indexes / metadata
 https://katalog.bibliothek.kit.edu/bib/407752	publication	2007	10.1145/1291201	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=dcc6da5d955b02f9419cbe58ef6fca9884d3d405&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=20c745599f368dfdc084fa84509806c18555839c&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5598f4f2de47daf321d7056083750bc39b6b8982&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9995cdf9ea0ce604e65a6c09b45f83ea714b788e&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b018a74a8766ef2063b979e631c9ffa1d9adaccc&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c9ecfae36d72311ad14084c48adb298ed4881bc8&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6dacb11101ef07fa5d11874b89297a820551747e&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3f917b2dd8e58b00b4011250d7d3164373f87a86&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c31ee2e21fe7ab999c2093f2ca6487dde64353c3&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=01249e95e1fe350dc3569aec1d46a6613219698c&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f0a3a86e9a05bb694be99d9d2db863fad6ff34ba&repid=rep1&type=pdf	publication	2007		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9732e82a22d4350f26ffff47d3f2578d59686d8c&repid=rep1&type=pdf	authored	2007-02-01		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9abc720d55493cf7e01988fdd24f910219f02417&repid=rep1&type=pdf	authored	2007-08-10		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6ed42bf68296b742649a4c85242c93035260ef7d&repid=rep1&type=pdf	publication	2007-09		Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-2008-09253.html	created	2008	10.4204/EPTCS.321.2	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5c593cd5f5897fea4b0df4277645354199f88979&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d20f03e1fe179e2304bbd16e019c1258d9e5533d&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9393e5ba6fa5cdcd981fee71c3bdfee8841c047d&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fbd7ca1d3382794400665fd0b00da7142b9e1c45&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fbecd1143524cabd56d8d748eec2ecbacb42b95e&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=bc3e8fbd8686d793583b75cd777345aef7143771&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=16719e5adb19fa5d15ccb6186c3108287e8add2d&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c9992d62e3cc59ecf5d9bec420f3558c77419d3e&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5f999fec4e7b5f828e96dbc873ff17c4cab9a89d&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a62c15f2bfd64db0a4885da65fadb40b2b217b08&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7fd3096889fe03467539da3a50645110a57e24df&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f1b80c7591e2b28c27c23235116038573369cfcc&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=4cff498d7f1392e600b598600c93bb95a2e9a6e9&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f25608a741652a4448afc6164856231f3565d517&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8bfd763b1824d4307b8b8ac7dad6673a930fa88a&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=cb06971fec8367a7d30501dca6c83ad5d373b6c8&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=249b6aebf290be142b8e1476c09a9e36b4ba8caa&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=022e34205827a603fdd153a678325ca9d7df2a55&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=693b6d5bb93d1ea270d57c0e39ac6d17be6139af&repid=rep1&type=pdf	publication	2008-05		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9653810f947b594e91fdbc906635e0872df4da3d&repid=rep1&type=pdf	publication	2008-10-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=dd3e0f2e6e23b1050c206838536e4a81c8a3fd7b&repid=rep1&type=pdf	authored	2008-11		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e800053a2a7378b7724cce56ad64594073dfe024&repid=rep1&type=pdf	authored	2009		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f837782f2a7afc31a185c0b5b9013b5bd4a8b6bc&repid=rep1&type=pdf	publication	2009		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=1de67f7991ae9c97e08a1acf2bc354b64f932433&repid=rep1&type=pdf	publication	2009		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b82a2bba57ac617753e17f15833ccd40079f7c&repid=rep1&type=pdf	publication	2009		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ce0dd56703f16ec030e46a8e0df0a0659157d1ee&repid=rep1&type=pdf	publication	2009		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=24fd36e132569bb3a5f39fe9eafa51b306423c36&repid=rep1&type=pdf	publication	2009-02		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=342630039e980ecfa87ef0aecd9eac105b4b37a7&repid=rep1&type=pdf	publication	2009-02		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c16e86498447b046e6ea1444baed9be7eef7ec9c&repid=rep1&type=pdf	created	2009-02-24		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=38f958297f9d096bfe86850a335c5b9545b0e76e&repid=rep1&type=pdf	authored	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=94cbb996e2b9b52f71038d8dd7445d8f65336055&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=94e5e64d9ca36e00e3ff6f7d4d40df7e439243a6&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ee6f3f3e637ba55a68f7871cf44e12074bcd093c&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=4c7561dd21e050654099b79181ea2cefa9037898&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=4fe470cefeea7df69af4b72bc80b6cfbe06fed0c&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3a84dc46d1a0918c3c47d92bebc62d856137e065&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d7ed84aea89396e5361f699feb6b9e9506c92529&repid=rep1&type=pdf	publication	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6908d2a8588a5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf	authored	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf	authored	2010		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8b448b78e3640352658fcbabd87abf184b6e5202&repid=rep1&type=pdf	publication	2010-07-06		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6a77e58bdddc2752120b022d55a971931d379a57&repid=rep1&type=pdf	publication	2010-07-06		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=19d9fb03cc0e9747b1208535cbe2751749b39dac&repid=rep1&type=pdf	publication	2010-09		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a4382318df903cbb166d51021e7ed7d9005638ee&repid=rep1&type=pdf	publication	2010-09-30		Indexes / metadata
 https://dblp.org/rec/conf/cefp/Butterfield11.html	published	2011	10.1007/978-3-642-32096-5_3	Indexes / metadata
 https://dblp.org/rec/conf/haskell/StefanRMM11.html	published	2011	10.1145/2034675.2034688	Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-1210-0611.html	published	2011	10.4204/EPTCS.95.2	Indexes / metadata
 https://dblp.org/rec/phd/ethos/Brown11.html	published	2011	10.22024/UniKent/01.02.86452	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c55006a79e5c27698f22554c5814ebeb9dc2097c&repid=rep1&type=pdf	publication	2011		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c314ea0763ad247eccffc3edcea9128e3bded554&repid=rep1&type=pdf	publication	2011		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=8c0fadc91f0af6ea1ec8c824ec502b104fdc6132&repid=rep1&type=pdf	publication	2011		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=08c0eaa33b7692ddbd65e509db1356f3c6126d75&repid=rep1&type=pdf	publication	2011		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=24c7c204ad680f24af69185a298c5997f7748f19&repid=rep1&type=pdf	publication	2011		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=bacd5f1d6c300fa02ce0f783a3ca018a3b27e7a6&repid=rep1&type=pdf	publication	2011-06-27	10.1145/2034773.2034777	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7e15c2a6ed3ffa157e0cbef5919b00636970039d&repid=rep1&type=pdf	publication	2011-08-31		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b8417eed902452a1590874d4b9ba957d5e0205a5&repid=rep1&type=pdf	publication	2011-10		Indexes / metadata
 https://dblp.org/rec/conf/flops/Kiselyov12.html	published	2012	10.1007/978-3-642-29822-6_15	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6db2667e52ce08d8c27aa74e57cfc883a0acb8d9&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=bd127ea1952996864c1542e1453973a78973ad5c&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7c4c4140d13780cee3fd8e76a8f1a0d9f61b4bc1&repid=rep1&type=pdf	authored	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d3e7c484eb67e251df6e900af9d39bb5882ed77c&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b45728615b6773bd520d5d455f2bf2e0fa102f52&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6469be83f95a6a67e50bbb742fa2e9cc4ef62c20&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=67fddc5737ad0480cc309c65a3fc674c7bc1e94f&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=f6ce17217fbb0097d38e7d1b9ee134423895babd&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=30a6a90f9524249cdd503419a5208ad06c8fe9ce&repid=rep1&type=pdf	publication	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=872a949b9a66c3d6c657942e2e27f00f867dde40&repid=rep1&type=pdf	publication	2012		Indexes / metadata
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf	created	2012		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=34053db6bbcdca48fa3e85b51aaf0a4fd97d42e2&repid=rep1&type=pdf	publication	2012-05		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=5329c7295901b503e73eafd1c7fd664f48caa227&repid=rep1&type=pdf	publication	2012-05		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=4ade042eb26557c55c5976a995ff36b19a679f3b&repid=rep1&type=pdf	publication	2012-07-05		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ad37aceaf24421d045dc8ede81f2a877b638a8a7&repid=rep1&type=pdf	publication	2013		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a22269a5d2be19ec2b7ead3a6615ca43525d92c5&repid=rep1&type=pdf	publication	2013		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e60f1c2236c4c4d5decbbdae6acb0fbdae9c7860&repid=rep1&type=pdf	publication	2013		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=6c87a1b817065f02f6e30f7b886768c6105ffee0&repid=rep1&type=pdf	publication	2013		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=83c485e220deb2d16e074decc212385ddb21632a&repid=rep1&type=pdf	publication	2013-06-23		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=261f29d41b17fb6b8b90454de4e8e57fe0e6d1da&repid=rep1&type=pdf	publication	2013-09		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=12c79a2c28194c6585ed51691f015d3a9c26dc1f&repid=rep1&type=pdf	publication	2013-10-15		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=29a398cdcc89f883308ca18896d388fdf70b958b&repid=rep1&type=pdf	publication	2014		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=220e92adeb06a3bacec9fdd2a1f1c023dcbf3187&repid=rep1&type=pdf	publication	2014		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=752ec5ad72bf240bf3ff3be56318f452190f4287&repid=rep1&type=pdf	publication	2014		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0d5852de69d2691903a7480e3ccb6b028c8e3fcc&repid=rep1&type=pdf	publication	2014		Indexes / metadata
 https://dblp.org/rec/conf/haskell/KiselyovI15.html	published	2015	10.1145/2804302.2804319	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7e72d131e227ee6e0797153a32ed783d75734e6b&repid=rep1&type=pdf	publication	2015		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=d79d90bb3659cfc9592f1685edf94636a7e81dd0&repid=rep1&type=pdf	publication	2015		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=7b59a561216fcbb2b9194db7ecaa44fb6a651860&repid=rep1&type=pdf	publication	2015		Indexes / metadata
 https://pdfs.semanticscholar.org/fc8e/2f5446dcd097e9f443bda471646b889fbb69.pdf	modified	2015-07-29		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ec8633c6baac734e9f86a2eb92f827fe15af33a0&repid=rep1&type=pdf	publication	2015-09-08		Indexes / metadata
 https://dblp.org/rec/conf/haskell/LeYF16.html	published	2016	10.1145/2976002.2976020	Indexes / metadata
 https://dblp.org/rec/conf/popl/2016.html	created	2016	10.1145/2837614	Indexes / metadata
 https://conf.researchr.org/details/PADL-2016/PADL-2016-papers/3/Haskino-A-Remote-Monad-for-Programming-the-Arduino	created	2016	10.1007/978-3-319-28228-2_10	Indexes / metadata
@@ -4938,65 +4716,12 @@ https://dblp.org/rec/journals/corr/abs-2211-06863.html	published	2022-11	10.4855
 https://ntrs.nasa.gov/api/citations/20230006308/downloads/papers-2023-haskellsym-reactivity-v2.pdf?attachment=true	created	2023	10.1145/3609026.3609727	Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-2303-01350.html	published	2023-03	10.1145/3632916	Indexes / metadata
 https://www.scienceopen.com/document_file/9a8a943f-2de9-44c1-ae3b-993bfa21dfb9/ScienceOpen/001_Holyer.pdf	archived	2023-11-18	10.14236/ewic/FP1995.10	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fd3174600e8f448b32216ceb0dfedc243225788f&repid=rep1&type=pdf	archived	2024-04-13		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=0c8b5a7d5b0099605168d594890ad3e19ccd5f5d&repid=rep1&type=pdf	archived	2024-04-13		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=61bf6b9882b4a5f0f381d97fe670e4c713c0e042&repid=rep1&type=pdf	archived	2024-04-16		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=120a2b7a955f76290e4e47aef7b2f49ea300fcd1&repid=rep1&type=pdf	archived	2024-04-16		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e042ae7b7285df7c759abd2654428a799883779f&repid=rep1&type=pdf	archived	2024-04-16		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=601d9f013f1d980b5b368a34250dc0b4548e0960&repid=rep1&type=pdf	archived	2024-04-21		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c79c90f4dd2a232ffcbc966a33eee0b29ccf9d9a&repid=rep1&type=pdf	archived	2024-04-24		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=67946dad3e8c73ab05567ed616e00929ea496e6b&repid=rep1&type=pdf	archived	2024-07-07		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9205dcc288b4606aca2ec63ed32800d528801869&repid=rep1&type=pdf	archived	2024-07-10		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=1997710cea4b67b9e53df96d6dee7f2c3e5c5556&type=pdf	archived	2024-07-24		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e6bc44fbba2a6ebc8a3af0069bde561e5b6b0653&repid=rep1&type=pdf	archived	2024-08-16		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3b889bb5e6250b2b381522d0a0b91ba1a33f3159&repid=rep1&type=pdf	archived	2024-08-19		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=42e82500502694323b9410cc4a1ae95b6ecfeec9&repid=rep1&type=pdf	archived	2024-09-23		Indexes / metadata
 https://dblp.org/rec/journals/jfp/WestphalV25.html	published	2025	10.1017/S0956796825100075	Indexes / metadata
 https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations	created	2025	10.1145/3759427.3760364	Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf	archived	2025-03-08		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=85556763670ec4c6dbb039010ff4d149a6322439&repid=rep1&type=pdf	archived	2025-03-08		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=2e6c9d76f9cb690dc18019fc894ba9572a8c2812&repid=rep1&type=pdf	archived	2025-03-30		Indexes / metadata
 https://simonmar.github.io/bib/papers/web-server-jfp.pdf	modified	2025-06-12	10.1017/S095679680200432X	Indexes / metadata
 https://simonmar.github.io/bib/papers/aos.pdf	modified	2025-06-12		Indexes / metadata
 https://simonmar.github.io/bib/papers/conc-ffi.pdf	created	2025-08-15		Indexes / metadata
-http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.2186&rep=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3904dbf767882ed7084246fc96c168120bbdf73c&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=401137c07d49c1d807ab65bcc0d6bf019c4307f8&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=9a7c815a3c84ceedf2e9bf2cff66205c71563ede&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd3528767935317507965d&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=96a30690f35b5258a785423e10b8a0b012396463&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=63a7a6c91df931904354fcc1768135ecc3f603de&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=e0abbe5826666753560fe6d0a021b8ec04d50e9b&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=735ac4990846061c31050a05708d12aeef332c5c&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999904043363171c8050257c045&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=842d83f195d7c5e9d2923b1170457f7e228b6974&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=1d81d40211412a9b587eebf04ea2edfde902d4a4&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=88fd62fc47141d3f31f38df8dfb9de59bb848acf&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0270&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=3bd88eaec922fc07fba3ffa7da84c3cd429ed47e&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=edd2a95d760c41172766b0f5e8d2b4ef0c074f6a&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.2237&rep=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=88fd6bf47141d3f31f38df8dfb9de59bb848acf&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=88fd62fc47141d3f38df8dfb9de59bb848acf&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=88fd62ef47141d3f31f38df8dfb9de59bb848acf&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0276&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd3528767935317507965&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dee1dd3528767935317507965d&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c045&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
 https://www.netlib.org/tex/bib/jfunctprogram.pdf	published	2026-04-28		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=94030f2d0b1fb28f8b1909ee748892573de294bb&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ba25513d8d7a1364bc651cee0708f684f6b0b34f&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=18a5f56fe79cabd85375428c8c09adbe6d30b125&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=c69b4e4c3d2c5399ca2c880462ef2e504d7c40a1&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=a822291af586d9a0d45a39926147b27d971b6e01&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=19ec20f318919ca399be8d40017f4a205907aed6&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b471484ad1bdec21965738d8e342c022cd0ec841&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=ca36e2ee750a7cf7e29919fac7b7f63e43365100&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=063e4644d68c3e458cddc5a08125aa539428cdc2&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=1dcf5be26272cf8f1781c3084b937221c853d40d&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=b9a2e1fc9a064dcc6de8b457e8c4e724716971ed&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://citeseerx.ist.psu.edu/document?doi=88fd72fc47141b9de59bb848acf&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://pdfs.semanticscholar.org/d6a6/7260152a8c3552829db1a06710494c114ff3.pdf	accessed	2026-07-27		Indexes / metadata
 https://hunit.sourceforge.net/HUnit-1.0/Guide.html	modified	2002-02-21		Blogs / tutorials
 https://conal.net/fran/tutorial.htm	archived	2003-02-08		Blogs / tutorials
@@ -5860,7 +5585,6 @@ https://www.youtube.com/watch?v=rNoRxXdcv2o	uploaded	2021-09-11		Talks / videos
 https://www.youtube.com/watch?v=HDlxoItyGZA	uploaded	2021-09-21		Talks / videos
 https://videos.insa-lyon.fr/video/0049-haskell-un-langage-fonctionnel-pur-et-paresseux/?is_iframe=true	modified	2021-09-29		Talks / videos
 https://videos.insa-lyon.fr/video/0070-monades-et-entrees-sorties/	uploaded	2021-09-30		Talks / videos
-https://videos.insa-lyon.fr/video/0070-monades-et-entrees-sorties/?is_iframe=true	uploaded	2021-09-30		Talks / videos
 https://vimeo.com/370819261	archived	2021-10-10		Talks / videos
 https://www.youtube.com/watch?v=mjeGHqSgqP4	uploaded	2021-10-18		Talks / videos
 https://www.youtube.com/watch?v=seyhAYIz1mk	uploaded	2021-10-25		Talks / videos
@@ -5875,17 +5599,10 @@ https://www.youtube.com/watch?v=7aEjpyRWIzk	uploaded	2021-12-16		Talks / videos
 https://www.youtube.com/watch?v=mZxDtE9ONAQ	uploaded	2021-12-17		Talks / videos
 https://www.youtube.com/watch?v=C2w45qRc3aU	uploaded	2021-12-28		Talks / videos
 https://cdn.media.ccc.de/events/bobkonf/2022/h264-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_hd.mp4	created	2022		Talks / videos
-https://cdn.media.ccc.de/events/bobkonf/2022/h264-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_sd.mp4	created	2022		Talks / videos
-https://cdn.media.ccc.de/events/bobkonf/2022/webm-hd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_webm-hd.webm	created	2022		Talks / videos
-https://cdn.media.ccc.de/events/bobkonf/2022/webm-sd/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_webm-sd.webm	created	2022		Talks / videos
-https://cdn.media.ccc.de/events/bobkonf/2022/mp3/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_mp3.mp3	created	2022		Talks / videos
-https://cdn.media.ccc.de/events/bobkonf/2022/opus/bob2022-110-eng-io-sim_testing_simulating_and_prototyping_concurrent_programs_in_Haskell_opus.opus	created	2022		Talks / videos
 https://www.usenix.org/conference/osdi22/presentation/stamler	publication	2022		Talks / videos
 https://jokerconf.com/en/archive/2022/talks/20000856-monads-in-java-in-20-minutes/	created	2022		Talks / videos
 https://ucsc-cse-114a.github.io/winter22/static_files/presentations/monads.pdf	authored	2022		Talks / videos
 https://www.youtube.com/watch?v=e6tWJD5q8uw	uploaded	2022-01-06		Talks / videos
-https://www.youtube.com/watch?v=6MsQcUprO9o&list=PLOJjn67NeYg9cWA4hyIWcxfaeX64pwo1c&ab_channel=chshersh	uploaded	2022-01-11		Talks / videos
-https://www.youtube.com/watch?list=PLOJjn67NeYg9cWA4hyIWcxfaeX64pwo1c&v=6MsQcUprO9o	published	2022-01-11		Talks / videos
 https://www.youtube.com/watch?v=6MsQcUprO9o	uploaded	2022-01-11		Talks / videos
 https://www.youtube.com/watch?v=3n17wHe5wEw	uploaded	2022-01-12		Talks / videos
 https://www.youtube.com/watch?v=rf-lie7U04Q	uploaded	2022-01-18		Talks / videos
@@ -6055,16 +5772,6 @@ https://www.youtube.com/watch?v=IYYu54iJY0o	uploaded	2024-06-28		Talks / videos
 https://www.youtube.com/watch?v=nwbB8xHJ4tU	uploaded	2024-06-28		Talks / videos
 https://www.youtube.com/watch?v=VhAUAR1lOOc	uploaded	2024-06-28		Talks / videos
 https://www.youtube.com/watch?v=yoNYulGvMns	uploaded	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=ekeC-qlijAk	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=k2voWa4D2ak	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=AflGgv8yaGA	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=VhAUAR1lOOc	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=BHMxhWXHd_I	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=nwbB8xHJ4tU	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=-0NHkV3kQzA	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=yoNYulGvMns	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=IYYu54iJY0o	published	2024-06-28		Talks / videos
-https://www.youtube.com/watch?list=PLD8gywOEY4HauPWPfH0pJPIYUWqi0Gg10&v=e29BRfuiwnk	published	2024-06-28		Talks / videos
 https://www.youtube.com/watch?v=TklkNLihQ_A	uploaded	2024-06-30		Talks / videos
 https://www.youtube.com/watch?v=UseIDeSCsf0	uploaded	2024-07-03		Talks / videos
 https://www.youtube.com/playlist?list=PLYItvall0TqJ25sVTLcMhxsE0Hci58mpQ	modified	2024-07-03		Talks / videos
@@ -6078,7 +5785,6 @@ https://ics-websites.science.uu.nl/docs/vakken/afp/slides/10-generics.pdf	archiv
 https://effect-handlers.org/talks/hope-2024-talk.pdf	published	2024-09-02		Talks / videos
 https://louisjenkinscs.github.io/presentations/OPL_Final_Project_Presentation.pdf	modified	2024-09-19		Talks / videos
 https://www.youtube.com/watch?v=-I4yVPlvFvA	uploaded	2024-10-11		Talks / videos
-https://www.youtube.com/watch?index=34&list=PLD8gywOEY4HaG5VSrKVnHxCptlJv2GAn7&v=n5ZtsHrYWq0	published	2024-10-17		Talks / videos
 https://www.youtube.com/watch?v=n5ZtsHrYWq0	uploaded	2024-10-17		Talks / videos
 https://effect-handlers.org/talks/ehop-ntu2024.pdf	published	2024-11		Talks / videos
 https://haskell.foundation/podcast/57/	published	2024-11-03		Talks / videos
@@ -7001,7 +6707,6 @@ https://userweb.mnet.ne.jp/tnomura/haskell/statemonad.html	modified	2020-03-14		
 https://userweb.mnet.ne.jp/tnomura/haskell/monadtransformer.html	modified	2020-03-14		Other / uncategorized
 https://userweb.mnet.ne.jp/tnomura/haskell/monado.html	modified	2020-03-14		Other / uncategorized
 https://sedici.unlp.edu.ar/bitstream/handle/10915/2173/Documento_completo.pdf?isAllowed=y&sequence=1	modified	2020-04-09		Other / uncategorized
-https://sedici.unlp.edu.ar/bitstream/handle/10915/2173/Documento_completo.pdf?isAllowed=true&sequence=1	modified	2020-04-09		Other / uncategorized
 https://www.dcc.fc.up.pt/~pbv/aulas/tapf/handouts/stmonad.html	modified	2020-05-04		Other / uncategorized
 https://www.haskellmooc.cses.fi/part1	created	2020-05-05		Other / uncategorized
 https://haskell.mooc.fi/part1/monads/	created	2020-05-05		Other / uncategorized
@@ -7680,7 +7385,6 @@ https://aurora-dtu.github.io/theory/Init/System/IO.html	modified	2026-05-22		Oth
 https://idris-lang.org/pages/example.html	modified	2026-05-22		Other / uncategorized
 https://rust-lang.github.io/async-book/07_workarounds/05_async_in_traits.html	modified	2026-05-24		Other / uncategorized
 https://rust-lang.github.io/async-book/part-guide/async-await.html	modified	2026-05-24		Other / uncategorized
-https://riuma.uma.es/xmlui/bitstream/handle/10630/20477/S%C3%A1nchez%20Fern%C3%A1ndez%2C%20Santiago%20Guillermo%20Memoriapdf.pdf?isAllowed=true&sequence=1	modified	2026-05-27		Other / uncategorized
 https://riuma.uma.es/xmlui/bitstream/handle/10630/20477/S%C3%A1nchez%20Fern%C3%A1ndez%2C%20Santiago%20Guillermo%20Memoriapdf.pdf?isAllowed=y&sequence=1	modified	2026-05-27		Other / uncategorized
 https://vavr.io/?lang=en	modified	2026-05-30		Other / uncategorized
 https://dsp.ls.fi.upm.es/bibliografia	modified	2026-06-01		Other / uncategorized
