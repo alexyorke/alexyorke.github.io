@@ -62,7 +62,6 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/1993/06/processing_t
 https://dl.acm.org/doi/10.1145/165180.165190	publication	1993-07	10.1145/165180.165190	Academic papers / proceedings
 https://dl.acm.org/doi/10.1145/165180.165195	publication	1993-07	10.1145/165180.165195	Academic papers / proceedings
 https://www.research.ed.ac.uk/en/publications/monads-and-composable-continuations/	publication	1994	10.1007/BF01019944	Academic papers / proceedings
-https://www.research.ed.ac.uk/en/publications/a-general-semantics-for-evaluation-logic/	publication	1994	10.1109/LICS.1994.316054	Academic papers / proceedings
 https://archive.org/details/functionalprogra0000glas_l2r5	publication	1994		Academic papers / proceedings
 https://library.nu.edu.eg/cgi-bin/koha/opac-detail.pl?biblionumber=4706	published	1994		Academic papers / proceedings
 https://doi.org/10.1007/3-540-57787-4_23	publication	1994	10.1007/3-540-57787-4_23	Academic papers / proceedings
@@ -78,7 +77,6 @@ https://www.cambridge.org/as/universitypress/subjects/computer-science/programmi
 https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput	publication	1994-09		Academic papers / proceedings
 https://research.utwente.nl/en/publications/static-analysis-of-functional-programs-2/	published	1994-10-01	10.1016/0950-5849(95)90813-a	Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/1995/achp95-ConcurrIO.abs	created	1995		Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/using-catamorphisms-subtypes-and-monad-transformers-for-writing-modular-functional-interpreters/	publication	1995	10.1145/199448.199528	Academic papers / proceedings
 https://research-portal.st-andrews.ac.uk/en/publications/monadic-io-in-haskell-13/	publication	1995		Academic papers / proceedings
 https://archive.org/details/functionalprogra0000glas_x5m6	publication	1995		Academic papers / proceedings
 https://www.research.ed.ac.uk/en/publications/how-to-declare-an-imperative-2	publication	1995	10.1145/262009.262011	Academic papers / proceedings
@@ -104,7 +102,6 @@ https://www.sciencedirect.com/science/article/pii/S1571066104800161	published	19
 https://research-portal.uu.nl/en/publications/monadic-parser-combinators/	publication	1996		Academic papers / proceedings
 https://dl.acm.org/doi/10.1007/3-540-61628-4_1	publication	1996	10.1007/3-540-61628-4_1	Academic papers / proceedings
 https://doi.org/10.1007/3-540-62064-8_33	publication	1996	10.1007/3-540-62064-8_33	Academic papers / proceedings
-https://www.cambridge.org/core/article/10.1017/S0956796800001611	published	1996	10.1017/S0956796800001611	Academic papers / proceedings
 https://dl.acm.org/doi/10.1145/237721.237794	publication	1996	10.1145/237721.237794	Academic papers / proceedings
 https://doi.org/10.1145/299359.299390	published	1996	10.1145/299359.299390	Academic papers / proceedings
 https://dl.acm.org/doi/10.1145/227699.227700	publication	1996-03	10.1145/227699.227700	Academic papers / proceedings
@@ -394,7 +391,6 @@ https://kar.kent.ac.uk/14056/1/Lazy_Assertions.pdf	publication	2004-11		Academic
 https://homepages.inf.ed.ac.uk/gdp/publications/alg_ops_gen_effects.pdf	modified	2004-11-05		Academic papers / proceedings
 https://www.osnews.com/story/8862/hop-a-haskell-os/	published	2004-11-13		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/	archived	2004-11-19		Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/2005-ppopp-composable/	created	2005	10.1145/1065944.1065952	Academic papers / proceedings
 https://doi.org/10.1109/CSFW.2005.6	created	2005	10.1109/CSFW.2005.6	Academic papers / proceedings
 https://doi.org/10.4230/dagsemproc.04381.2	published	2005	10.4230/dagsemproc.04381.2	Academic papers / proceedings
 https://homes.luddy.indiana.edu/ccshan/logicprog/LogicT-icfp2005.pdf	created	2005	10.1145/1086365.1086390	Academic papers / proceedings
@@ -818,7 +814,6 @@ https://arxiv.org/pdf/1109.0785	published	2011-09-05	10.4204/EPTCS.66.12	Academi
 https://webspace.science.uu.nl/~swier004/publications/2011-wgp.pdf	published	2011-09-18	10.1145/2036918.2036923	Academic papers / proceedings
 https://dl.acm.org/doi/10.1145/2034773.2034776	publication	2011-09-19	10.1145/2034773.2034776	Academic papers / proceedings
 https://db.cs.uni-tuebingen.de/staticfiles/publications/haskell2011.pdf	published	2011-09-22	10.1145/2034675.2034678	Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/monad-comprehensions/	publication	2011-09-22	10.1145/2096148.2034678	Academic papers / proceedings
 https://www.sciencedirect.com/science/article/abs/pii/S0167819111000524	published	2011-09-30	10.1016/j.parco.2011.05.005	Academic papers / proceedings
 https://blog.janestreet.com/announcing-async/	published	2011-10-25		Academic papers / proceedings
 https://themonadreader.files.wordpress.com/2011/10/issue19.pdf	published	2011-10-26		Academic papers / proceedings
@@ -915,7 +910,6 @@ https://www.cis.upenn.edu/~cjtaylor/PUBLICATIONS/pdfs/CowleyTaylorIROS11b.pdf	mo
 https://well-typed.com/blog/aux/files/multicore-less-pain-slides.pdf	published	2012-12		Academic papers / proceedings
 https://irkenkitties.com/blog/2012/12/03/recreating-the-haskell-list-part-6-the-io-monad	published	2012-12-03		Academic papers / proceedings
 https://tomasp.net/blog/manning-deep-dives.aspx/	published	2012-12-18		Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/extensible-effects-an-alternative-to-monad-transformers/	publication	2013	10.1145/2503778.2503791	Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?DSS2013.6.pdf=	created	2013		Academic papers / proceedings
 https://research.chalmers.se/en/publication/187462	publication	2013	10.1145/2429069.2429121	Academic papers / proceedings
 https://research-portal.st-andrews.ac.uk/en/publications/programming-and-reasoning-with-algebraic-effects-and-dependent-ty/	publication	2013	10.1145/2500365.2500581	Academic papers / proceedings
@@ -2124,7 +2118,6 @@ https://repository.tudelft.nl/file/File_6638f20f-b46e-436a-9a15-202e6d949431	pub
 https://repository.upenn.edu/bitstreams/f9a54fe3-0396-4d56-9800-15e26d2e1db1/download	publication	2023		Academic papers / proceedings
 https://jyu.finna.fi/Record/nelli09.28276419100041	published	2023		Academic papers / proceedings
 https://hamk.finna.fi/Record/nelli19.5500000000344222	published	2023		Academic papers / proceedings
-https://doi.org/10.1017/S0956796823000139	publication	2023	10.1017/S0956796823000139	Academic papers / proceedings
 https://doi.org/10.22024/UniKent/01.02.94289	published	2023	10.22024/UniKent/01.02.94289	Academic papers / proceedings
 https://doi.org/10.34726/hss.2023.110085	published	2023	10.34726/hss.2023.110085	Academic papers / proceedings
 https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2023.29	created	2023	10.4230/LIPIcs.ECOOP.2023.29	Academic papers / proceedings
@@ -2318,7 +2311,6 @@ https://arxiv.org/pdf/2406.07216	published	2024-06-05	10.48550/arXiv.2406.07216	
 https://www.janestreet.com/culture/street-view/release-v017-of-jane-street-packages/	published	2024-06-10		Academic papers / proceedings
 https://hobson.space/posts/algebraic-effects/	publication	2024-06-14		Academic papers / proceedings
 https://leventerkok.github.io/papers/mfix.pdf	created	2024-06-14	10.1145/351240.351257	Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/associated-effects-flexible-abstractions-for-effectful-programming/	published	2024-06-20	10.1145/3656393	Academic papers / proceedings
 https://repository.tudelft.nl/file/File_428862cc-f5e8-478b-bedb-61a45e06130d	published	2024-06-23		Academic papers / proceedings
 https://dspace.cuni.cz/bitstream/handle/20.500.11956/192041/130389357.pdf?sequence=1&isAllowed=y	publication	2024-06-28		Academic papers / proceedings
 https://etd.adm.unipi.it/theses/available/etd-06252024-164535/unrestricted/Runtime_Verification_Algebraic_Effect_Handlers.pdf	modified	2024-07-06		Academic papers / proceedings
@@ -2330,8 +2322,6 @@ https://vmchale.com/static/serve/lazy-c-api-streaming.pdf	published	2024-07-18		
 https://techblog.asahi-net.co.jp/entry/2024/07/29/110101	publication	2024-07-29		Academic papers / proceedings
 https://www.cs.umd.edu/~avik/papers/cmllch.pdf	created	2024-07-30		Academic papers / proceedings
 https://arxiv.org/pdf/2408.03170	published	2024-08-06	10.48550/arXiv.2408.03170	Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/abstract-interpreters-a-monadic-approach-to-modular-verification/	published	2024-08-15	10.1145/3674646	Academic papers / proceedings
-https://www.microsoft.com/en-us/research/publication/closure-free-functional-programming-in-a-two-level-type-theory/	published	2024-08-15	10.1145/3674648	Academic papers / proceedings
 https://dusty.phillips.codes/2024/08/15/build-a-wasm-compiler-in-roc-part-2/	publication	2024-08-15		Academic papers / proceedings
 https://dl.acm.org/doi/10.1145/3674641	publication	2024-08-15	10.1145/3674641	Academic papers / proceedings
 https://dl.acm.org/doi/10.1145/3674656	publication	2024-08-15	10.1145/3674656	Academic papers / proceedings
@@ -2936,7 +2926,6 @@ https://openlibrary.org/books/OL7444281M	publication	1993-04		Books / chapters
 https://openlibrary.org/books/OL9701343M	publication	1993-05		Books / chapters
 https://books.google.com/books?cad=3&id=D9KE8M-j90sC&source=gbs_book_other_versions_r	published	1994		Books / chapters
 https://www.amazon.com/Functional-Programming-Glasgow-1994-Proceedings/dp/3540199144	created	1994		Books / chapters
-https://link.springer.com/chapter/10.1007/978-0-307-98239-9_13	publication	1994	10.1007/978-0-307-98239-9_13	Books / chapters
 https://doi.org/10.1007/978-1-4471-3236-3	publication	1994	10.1007/978-1-4471-3236-3	Books / chapters
 https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_18	publication	1994	10.1007/978-1-4471-3236-3_18	Books / chapters
 https://link.springer.com/chapter/10.1007/978-1-4471-3236-3_22	publication	1994	10.1007/978-1-4471-3236-3_22	Books / chapters
@@ -3094,7 +3083,6 @@ https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/810AD13D88C863565F604132FF4A5FDE	published	2009-11-01	10.1017/CBO9781139193313	Books / chapters
 https://livebook.manning.com/book/real-world-functional-programming/table-of-contents	published	2009-11-30		Books / chapters
 https://web.engr.oregonstate.edu/~erwig/papers/DeclScripting_SLE09.pdf	modified	2009-12-04	10.1007/978-3-642-12107-4_21	Books / chapters
-https://www.microsoft.com/en-us/research/publication/type-indexed-monads/	publication	2010	10.1007/978-3-642-22941-1_13	Books / chapters
 https://link.springer.com/content/pdf/10.1007/978-3-642-11503-5_14	publication	2010	10.1007/978-3-642-11503-5_14	Books / chapters
 https://link.springer.com/chapter/10.1007/978-3-642-17685-2_5	publication	2010	10.1007/978-3-642-17685-2_5	Books / chapters
 https://books.google.com/books/about/Seven_Languages_in_Seven_Weeks.html?id=JspYEQAAQBAJ	published	2010		Books / chapters
