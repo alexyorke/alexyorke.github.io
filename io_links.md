@@ -8015,10 +8015,7 @@ https://www.youtube.com/watch?v=Vs-vvlYLtRI	uploaded	2022-01-25		Talks / videos
 https://www.idt.mdh.se/kurser/DVA229/slides/io.pdf	published	2022-01-31		Talks / videos
 https://www.youtube.com/watch?v=12D4Y2Hdnhg	uploaded	2022-02-01		Talks / videos
 https://www.youtube.com/watch?v=LLkbzt4ms6M	uploaded	2022-02-24		Talks / videos
-https://www.youtube.com/watch?v=tevaOaYUF5o	uploaded	2022-02-26		Talks / videos
 https://www.youtube.com/watch?v=mxVAuLNClS0	uploaded	2022-03-04		Talks / videos
-https://www.youtube.com/watch?v=o8_Ne5ueYAc	uploaded	2022-03-16		Talks / videos
-https://www.youtube.com/watch?v=CjNFZjtwHfY	uploaded	2022-03-16		Talks / videos
 https://www.youtube.com/watch?v=qgfCmQ-2tW0	uploaded	2022-03-18		Talks / videos
 https://speakerdeck.com/tototoshi/purely-functional-programming-with-cats-effect-3-and-scala-3-scalamatsuri2022	published	2022-03-19		Talks / videos
 https://www.youtube.com/watch?v=2-OImnbOloQ	uploaded	2022-03-19		Talks / videos
@@ -8053,7 +8050,6 @@ https://web.ecs.syr.edu/courses/cis352/slides/13io.pdf	archived	2022-07-03		Talk
 https://www.youtube.com/watch?v=G8XMRZKOhG0	uploaded	2022-07-15		Talks / videos
 https://www.youtube.com/watch?v=71fV7zYyD-Q	uploaded	2022-07-18		Talks / videos
 https://www.youtube.com/watch?v=mT0QUGRj1eQ	uploaded	2022-07-18		Talks / videos
-https://www.youtube.com/watch?v=nlhM-ZWgOl0	uploaded	2022-09-03		Talks / videos
 https://www.youtube.com/watch?v=JCyAcYZ7We4	uploaded	2022-09-16		Talks / videos
 https://www.youtube.com/watch?v=NMEnvmGjNLc	uploaded	2022-09-20		Talks / videos
 https://www.youtube.com/watch?v=YJQgvgornAs	uploaded	2022-09-24		Talks / videos
@@ -8100,7 +8096,6 @@ https://justinhsu.net/teaching/s20/cs538/resources/slides/lecture12.pdf	modified
 https://www.youtube.com/watch?v=8tWzG0ML6Z4	uploaded	2023-04-06		Talks / videos
 https://www.youtube.com/watch?v=9Y-ZTTRDcp0	published	2023-04-14		Talks / videos
 https://www.youtube.com/watch?v=AHOU1_nXR40	uploaded	2023-04-29		Talks / videos
-https://www.youtube.com/watch?v=pZmL-unYvbA	uploaded	2023-05-01		Talks / videos
 https://www.youtube.com/watch?v=DTni0RHV_Ds	uploaded	2023-05-04		Talks / videos
 https://www.youtube.com/watch?v=YDGJ-E7leJo	uploaded	2023-05-13		Talks / videos
 https://www.youtube.com/watch?v=41F1x2lD54w	uploaded	2023-05-13		Talks / videos
@@ -8108,7 +8103,6 @@ https://www.youtube.com/watch?v=7SidSvJcPd0	uploaded	2023-05-14		Talks / videos
 https://data.tmorris.net/talks/haskell-parsers/haskell-parsers/pdf/index.pdf	archived	2023-05-19		Talks / videos
 https://www.youtube.com/@HaskellFoundation	created	2023-05-24		Talks / videos
 https://www.youtube.com/watch?v=WykPGVOOdbo	uploaded	2023-05-26		Talks / videos
-https://www.youtube.com/watch?v=3mqhzZqj42Q	uploaded	2023-06-09		Talks / videos
 https://www.youtube.com/watch?v=ysqQ818wTYE	uploaded	2023-06-23		Talks / videos
 https://www.youtube.com/watch?v=w9ExsWcoXPs	uploaded	2023-06-27		Talks / videos
 https://www.youtube.com/watch?v=DRFsodbxHQo	uploaded	2023-06-27		Talks / videos
@@ -8123,7 +8117,6 @@ https://haskell.foundation/podcast/31/	published	2023-07-31		Talks / videos
 https://www.youtube.com/watch?v=2LSOqikNqxM	uploaded	2023-08-01		Talks / videos
 https://speakerdeck.com/ajnsit/concurrency-in-haskell	published	2023-08-06		Talks / videos
 https://files.speakerdeck.com/presentations/a1977097c6974acbaba7c81350cfe58f/Concurrency-Haskell.pdf	modified	2023-08-06		Talks / videos
-https://www.youtube.com/watch?v=A9tcL8AJBwA	uploaded	2023-08-12		Talks / videos
 https://www.youtube.com/watch?v=fSqE-HSh_NU	uploaded	2023-08-13		Talks / videos
 https://www.youtube.com/watch?v=NCM8pRiLtAc	uploaded	2023-08-18		Talks / videos
 https://www.youtube.com/watch?v=gKpWF6J9hMM	uploaded	2023-08-21		Talks / videos
@@ -8132,7 +8125,6 @@ https://www.youtube.com/watch?v=Xceng7i98Y0	uploaded	2023-08-24		Talks / videos
 https://www.youtube.com/watch?v=wC9cpQk7WWA	uploaded	2023-09-01		Talks / videos
 https://mabboux.net/informatique/haskell/fr/Presentation/ebeffara.pdf	modified	2023-09-02		Talks / videos
 https://www.youtube.com/watch?v=CnPT5LOIVZw	uploaded	2023-09-08		Talks / videos
-https://www.youtube.com/watch?v=jtYylUdBGBY	uploaded	2023-10-05		Talks / videos
 https://www.youtube.com/watch?v=GTYgsXTh10Q	uploaded	2023-10-27		Talks / videos
 https://www.youtube.com/watch?v=V9t_inPRKMU	uploaded	2023-10-30		Talks / videos
 https://speakerdeck.com/philipschwarz/scala-left-fold-parallelisation-three-approaches	published	2023-11-19		Talks / videos
@@ -8251,10 +8243,8 @@ https://www.bilibili.com/video/BV1pwdgYmE9L/	published	2025-04-10		Talks / video
 https://www.youtube.com/watch?v=4Mmn2NWzkjU	uploaded	2025-04-13		Talks / videos
 https://haskell.foundation/podcast/64/	published	2025-04-24		Talks / videos
 https://www.youtube.com/watch?v=_nG09Z_tdUU	uploaded	2025-05-04		Talks / videos
-https://www.youtube.com/watch?v=PX062vBGlxM	uploaded	2025-05-11		Talks / videos
 https://www.youtube.com/watch?v=4lEDdMuTDJg	uploaded	2025-05-13		Talks / videos
 https://uu-afp.github.io/slides/02-monads.pdf	modified	2025-05-20		Talks / videos
-https://www.youtube.com/watch?v=7uPOjO13nCY	uploaded	2025-05-21		Talks / videos
 https://coot.me/presentations/iosimpor.pdf	modified	2025-05-24		Talks / videos
 https://haskell.foundation/podcast/65/	published	2025-05-30		Talks / videos
 https://www.youtube.com/watch?v=L6WeHeo3C8M	uploaded	2025-06-07		Talks / videos
@@ -8267,7 +8257,6 @@ https://files.speakerdeck.com/presentations/78943dd8ff6d4bbe8fde5e92d0fe351e/app
 https://haskell.foundation/podcast/68/	published	2025-08-12		Talks / videos
 https://www.youtube.com/watch?v=hC7hwEQtdnE	uploaded	2025-08-18		Talks / videos
 https://www.youtube.com/watch?v=BFgmrO-c0Ec	uploaded	2025-08-20		Talks / videos
-https://www.youtube.com/watch?v=QnsAxYTgq3A	uploaded	2025-08-22		Talks / videos
 https://haskell.foundation/podcast/70/	published	2025-09-14		Talks / videos
 https://vimeo.com/125038982	updated	2025-09-18		Talks / videos
 https://www.youtube.com/watch?v=ZSJW4jp8K08	uploaded	2025-10-17		Talks / videos
