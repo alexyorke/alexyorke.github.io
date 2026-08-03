@@ -1886,10 +1886,6 @@ https://arxiv.org/abs/2002.06047	published	2020-02-14	10.48550/arXiv.2002.06047	
 https://glitchbra.in/post/write-a-forth-in-haskell-part-03/	publication	2020-02-15		Academic papers / proceedings
 https://research.google.com/pubs/archive/37267.pdf	modified	2020-03-03		Academic papers / proceedings
 https://arxiv.org/abs/2003.02110	published	2020-03-04	10.1145/3434305	Academic papers / proceedings
-https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FIO.thy	publication	2020-03-07		Academic papers / proceedings
-https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FHelloWorld.thy	publication	2020-03-07		Academic papers / proceedings
-https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FHelloWorld_Proof.thy	publication	2020-03-07		Academic papers / proceedings
-https://www.formatika.de/index.jsp?content=source&detail=products%2Fsources%2Fformale+Sprachen%2FIsabelle%2FArchive-of-Formal-Proofs%2Fthys%2FHello_World%2FRunningCodeFromIsabelle.thy	publication	2020-03-07		Academic papers / proceedings
 https://arxiv.org/abs/2003.09993	published	2020-03-22	10.1017/S0956796821000137	Academic papers / proceedings
 https://www.jstage.jst.go.jp/article/jssst/26/4/26_4_4_107/_pdf	archived	2020-03-23		Academic papers / proceedings
 https://cse.sc.edu/~mgv/csce330f23/haskell/GHC8p10p1_users_guide.pdf	published	2020-03-23		Academic papers / proceedings
@@ -3898,1541 +3894,6 @@ https://isa-afp.org/release/afp-Hello_World-current.tar.gz	modified	2026-02-06		
 https://isa-afp.org/browser_info/current/AFP/Hello_World/IO.html	modified	2026-02-06		Research artifacts / datasets
 https://isa-afp.org/browser_info/current/AFP/Hello_World/session_graph.pdf	modified	2026-02-06		Research artifacts / datasets
 https://www.isa-afp.org/browser_info/current/AFP/Clean/document.pdf	published	2026-02-06		Research artifacts / datasets
-https://raw.githubusercontent.com/joyofhaskell/haskell-report-archive/master/1992-03-haskell-1.2/haskell-report-1.2.pdf	created	1992		Official documentation
-https://www.cs.man.ac.uk/~pjj/cs211/langdes/indent.html	modified	1995-06-02		Official documentation
-https://www.altocumulus.org/haskell-report/intro.html	modified	1996-05-15		Official documentation
-https://www.altocumulus.org/haskell-report/basic.html	modified	1996-05-15		Official documentation
-https://www.altocumulus.org/haskell-report/decls.html	modified	1996-05-15		Official documentation
-https://www.altocumulus.org/haskell-report/io-13.html	modified	1996-05-15		Official documentation
-https://altocumulus.org/haskell-report/printing-13.html	modified	1996-05-17		Official documentation
-https://manualzz.com/doc/6549643/hugs-user-manual	published	1996-08		Official documentation
-https://manualzilla.com/doc/5801721/hugs-1.4-user-manual	published	1997		Official documentation
-https://www.cs.princeton.edu/~appel/smlnj/basis/imperative-io-fn.html	modified	1997-02-03		Official documentation
-http://haskell.cs.yale.edu/haskell-report/haskell-report.html	archived	1997-02-06		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/	publication	1997-04		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/intro.html	publication	1997-04		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/preface-13.html	publication	1997-04		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/index14.html	publication	1997-04		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/standard-prelude.html	publication	1997-04		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-library-1.4-html/system.html	publication	1997-04		Official documentation
-http://www.cs.mu.oz.au/~bjpop/fpu/haskell-report-1.4-html/index.html	publication	1997-04-07		Official documentation
-https://www.cs.kent.ac.uk/people/staff/sjt/craft2e/contents.html	created	1998-10-15		Official documentation
-https://www.cs.kent.ac.uk/people/staff/sjt/craft2e/	created	1999		Official documentation
-ftp://ftp.cs.kun.nl/pub/Clean/supported/ObjectIO/doc/tutorial.11.ps.gz	published	1999		Official documentation
-https://www.cs.kent.ac.uk/people/staff/sjt/craft2e/monads.html	created	1999		Official documentation
-https://blogs.asarkar.com/assets/docs/haskell/Generalising%20monads%20to%20arrows%20-%20Hughes.pdf	created	2000-04-11		Official documentation
-https://www.curry-lang.org/docs/report/versions/report060600.pdf	published	2000-06-06		Official documentation
-https://www.macs.hw.ac.uk/~dsg/gph/docs/4.06/users_guide/ghc-language-features.html	modified	2000-12-04		Official documentation
-https://clean.cs.ru.nl/download/Clean20/doc/CleanRep2.0.pdf	published	2001-12		Official documentation
-https://www.mat.uc.pt/~pedro/lectivos/docs/haskell98-report.pdf	modified	2002-10-03		Official documentation
-https://clean.cs.ru.nl/download/Clean20/doc/CleanLangRep.2.1.pdf	published	2002-11		Official documentation
-https://www.mat.uc.pt/~pedro/lectivos/docs/ghc-manual.pdf	modified	2002-12-20		Official documentation
-https://lists.mercurylang.org/archives/users/2003-April/002548.html	created	2003		Official documentation
-https://clean.cs.ru.nl/download/supported/ObjectIO.1.2/doc/tutorial.pdf	published	2004-08-31		Official documentation
-https://manualzilla.com/doc/5769937/a-functional-shell-that-operates-on-typed-and-compiled-ap...	published	2005		Official documentation
-https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/wadler-essence-fp.pdf	created	2005		Official documentation
-https://blogs.asarkar.com/assets/docs/haskell/Programming%20with%20Arrows%20-%20Hughes.pdf	created	2005-04-03		Official documentation
-https://ocaml-lib.sourceforge.net/doc/IO.html	modified	2006-02-20		Official documentation
-https://www.curry-lang.org/docs/report/versions/report280306.pdf	published	2006-03-28		Official documentation
-https://3e8.org/pub/scheme/doc/haskell-tutorial-writing-scheme-in-48-hours.pdf	modified	2006-04-02		Official documentation
-https://manualzilla.com/doc/5798614/t-oy---gpd---universidad-complutense-de-madrid	authored	2006-12		Official documentation
-https://blogs.asarkar.com/assets/docs/haskell/Beautiful%20concurrency%20-%20Jones.pdf	published	2007-05-01		Official documentation
-https://web.mit.edu/cfox/share/ghc-6.6.1/html/users_guide/index.html	modified	2007-10-31		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-intro-html/io.html	archived	2008-10-15		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/io-13.html	archived	2008-10-15		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-library-1.4-html/libindex.html	archived	2008-10-15		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-report-1.4-html/basic.html	archived	2008-10-15		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-library-1.4-html/monad.html	archived	2008-10-15		Official documentation
-https://www.cs.auckland.ac.nz/references/haskell/haskell-library-1.4-html/maybe.html	archived	2008-10-15		Official documentation
-https://www.inf.fu-berlin.de/lehre/SS09/PI02/docs/monaden.pdf	published	2009-08		Official documentation
-https://docs.huihoo.com/haskell/haskell-tutorial-for-c-programmers/section3.html	modified	2009-08-14		Official documentation
-https://lists.mercurylang.org/archives/users/2010-May/005099.html	created	2010		Official documentation
-https://haskell.cs.yale.edu/wp-content/uploads/2011/01/haskell-report-1.3.pdf	created	2011		Official documentation
-https://digital.library.adelaide.edu.au/server/api/core/bitstreams/f7c18690-33f5-4b61-a018-813fc178c2d3/content	authored	2011-01		Official documentation
-https://www.frege-lang.org/doc/frege/data/Monoid.html	created	2011-10-16		Official documentation
-https://www.scs.stanford.edu/~dm/iterIO/doc/Data-IterIO.html	modified	2011-11-21		Official documentation
-https://www.scs.stanford.edu/~dm/iterIO/doc/Data-IterIO-Trans.html	modified	2011-11-21		Official documentation
-https://www.scs.stanford.edu/~dm/iterIO/doc/Data-IterIO-ListLike.html	modified	2011-11-21		Official documentation
-https://www.scs.stanford.edu/~dm/iterIO/doc/Data-IterIO-SSL.html	modified	2011-11-21		Official documentation
-https://caml.inria.fr/pub/docs/fpcl/index.html	modified	2011-11-23		Official documentation
-https://cgi.cse.unsw.edu.au/~eptcs/references.cgi?MSFP2012.8.html=	created	2012		Official documentation
-https://ww.curry-language.org/docs/report/versions/report_2012_09_11.pdf	created	2012		Official documentation
-https://ocaml.org/manual/4.00/ocaml-4.00-refman.pdf	publication	2012		Official documentation
-https://clean.cs.ru.nl/download/doc/CleanLangRep.2.2.pdf	modified	2012-01-02		Official documentation
-https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_2.htm	modified	2012-01-02		Official documentation
-https://clean.cs.ru.nl/download/html_report/CleanRep.2.2_11.htm	modified	2012-01-02		Official documentation
-https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_1.htm	modified	2012-01-02		Official documentation
-https://wiki.clean.cs.ru.nl/download/html_report/CleanRep.2.2_6.htm	modified	2012-01-02		Official documentation
-https://www.ee.ucl.ac.uk/~uceescl/docs/phd_stu.pdf	modified	2012-02-08		Official documentation
-https://wiki.clean.cs.ru.nl/images/archive/3/3c/20120401113258%21Sharing_Data_Sources.pdf	modified	2012-03-12		Official documentation
-https://www.altocumulus.org/Fudgets/Manual/	archived	2012-03-16		Official documentation
-https://www.frege-lang.org/doc/frege/control/monad/trans/MaybeT.html	created	2012-03-21		Official documentation
-https://repository.nottingham.ac.uk/server/api/core/bitstreams/6bd198d5-921c-4354-b6e8-2c00e57d100f/content	published	2012-06		Official documentation
-https://projects.camlcity.org/projects/dl/ocamlnet-3.6/doc/html-main/Netshm.html	released	2012-07-24		Official documentation
-https://www.frege-lang.org/doc/frege/control/Concurrent.html	created	2013-03-08		Official documentation
-https://uu-computerscience.github.io/uhc-js/documentation.html	modified	2013-04-10		Official documentation
-https://tryjoinads.org/docs/home.html	archived	2013-04-16		Official documentation
-https://mediatum.ub.tum.de/doc/1115479/1115479.pdf	modified	2013-05-06		Official documentation
-https://tryjoinads.org/docs/pubs.html	archived	2013-06-09		Official documentation
-https://tryjoinads.org/docs/intro.html	archived	2013-06-09		Official documentation
-https://tryjoinads.org/docs/implement/async.html	archived	2013-06-09		Official documentation
-https://tryjoinads.org/docs/implement/parsers.html	archived	2013-06-09		Official documentation
-https://docslib.org/doc/754481/notes-on-functional-programming-with-haskell	authored	2014		Official documentation
-https://ocaml.org/manual/4.02/ocaml-4.02-refman.pdf	publication	2014		Official documentation
-https://abcdocz.com/doc/1268625/the-haskell-school-of-music	authored	2014-01		Official documentation
-https://www.mat.uc.pt/~pedro/lectivos/ProgramacaoFuncional/manualHaskel.pdf	modified	2014-01-20		Official documentation
-https://mediatum.ub.tum.de/doc/1191974/1191974.pdf	modified	2014-02-12		Official documentation
-https://www.curry-lang.org/docs/report/versions/report_2014_02_27.pdf	published	2014-02-27		Official documentation
-https://download.racket-lang.org/docs/5.1/pdf/guide.pdf	modified	2014-03-03		Official documentation
-https://download.racket-lang.org/docs/5.3.1/pdf/reference.pdf	modified	2014-03-04		Official documentation
-https://download.racket-lang.org/docs/5.1/html/guide/Continuations.html	modified	2014-03-28		Official documentation
-https://www.frege-lang.org/doc/Language.pdf	modified	2014-05-14		Official documentation
-https://devdocs.io/haskell~7/	created	2014-05-21		Official documentation
-https://abcdocz.com/doc/296907/the-mercury-language-reference-manual	published	2014-10-10		Official documentation
-https://clojuredocs.org/clojure.core/io%21	archived	2014-10-15		Official documentation
-https://ocaml.github.io/ocamlunix/	modified	2014-12-01		Official documentation
-https://ocaml.github.io/ocamlunix/ocamlunix.html	modified	2014-12-01		Official documentation
-https://ocaml.github.io/ocamlunix/signals.html	modified	2014-12-01		Official documentation
-https://ocaml.github.io/ocamlunix/pipes.html	modified	2014-12-01		Official documentation
-https://ocaml.github.io/ocamlunix/toc.html	modified	2014-12-01		Official documentation
-https://ocaml.github.io/ocamlunix/files.html	modified	2014-12-01		Official documentation
-https://gupea.ub.gu.se/server/api/core/bitstreams/a4276b5e-b1da-4b64-a701-9c78c07d3f52/content	published	2015-02		Official documentation
-https://docslib.org/doc/590952/idris-a-functional-programming-language-with-dependent-types	authored	2015-02-20		Official documentation
-https://projects.camlcity.org/projects/dl/ocamlnet-4.0.2/doc/html-main/Netsys_posix.html	released	2015-02-26		Official documentation
-https://abcdocz.com/doc/1477696/the-mercury-programming-language	authored	2015-04		Official documentation
-https://tryjoinads.org/docs/computations/layered.html	archived	2015-04-03		Official documentation
-https://jtdaugherty.github.io/vty-ui/manuals/vty-ui-users-manual-1.8.pdf	modified	2015-04-11		Official documentation
-https://www.jeffvaughan.net/docs/quickcheck.pdf	modified	2015-04-17		Official documentation
-https://cljdoc.org/d/pure-io/pure-io/0.1.0/doc/readme	uploaded	2015-04-19		Official documentation
-https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=2774&context=cstech	archived	2015-09-26		Official documentation
-https://www.doc.ic.ac.uk/~dorchard/popl16/sessions/doc/html/effect-sessions/Control-Effect-Sessions.html	modified	2015-10-13		Official documentation
-https://www.frege-lang.org/doc/frege/Prelude.html	archived	2015-11-04		Official documentation
-https://www.mclibre.org/descargar/docs/revistas/linux-voice/linux-voice-22-en-201601.pdf	published	2016-01		Official documentation
-https://repository.upenn.edu/server/api/core/bitstreams/b705fba2-a929-4f57-924e-ce0b57108d35/content	publication	2016-01-01		Official documentation
-https://www.curry-lang.org/docs/report/versions/report_2016_01_13.pdf	published	2016-01-13		Official documentation
-https://ww.curry-language.org/docs/report/versions/report160902.pdf	published	2016-01-13		Official documentation
-https://tryjoinads.org/docs/computations/monads.html	archived	2016-04-16		Official documentation
-https://www.frege-lang.org/doc/frege/prelude/PreludeBase	archived	2016-04-18		Official documentation
-https://www.mercurylang.org/information/doc-latest/reference_manual.pdf	archived	2016-04-20		Official documentation
-https://www.altocumulus.org/haskell-report-1.0.pdf	modified	2016-09-21		Official documentation
-https://clean.cs.ru.nl/NL-FP_dag_2017	created	2017		Official documentation
-https://typelevel.org/blog/2017/05/02/io-monad-for-cats.html	created	2017		Official documentation
-https://clean.cs.ru.nl/images/e/e7/2017-FP-Dag-TDD-Sessions.pdf	published	2017-01-06		Official documentation
-https://doczz.net/doc/5717351/praktische-informatik-iii--deklarative-programmierung	published	2017-01-13		Official documentation
-https://studylibde.com/doc/3238314/pdf--fortlaufend---imn-htwk	published	2017-02-13		Official documentation
-https://www.frege-lang.org/doc/frege/prelude/PreludeMonad.html	archived	2017-03-13		Official documentation
-https://studyres.com/doc/235818/multi-purpose-shared-data-sources-in-a-functional-language	published	2017-04-28		Official documentation
-https://studyres.com/doc/3279805/implementing-functional-languages-on-object	published	2017-05-02		Official documentation
-https://studyres.com/doc/2841226/database-programming-languages--dbpl-5-	published	2017-05-02		Official documentation
-https://typelevel.org/blog/io-monad-for-cats.html	published	2017-05-02		Official documentation
-https://dspace.cvut.cz/server/api/core/bitstreams/0d0649f2-9024-4845-b526-cf126477e06f/content	modified	2017-06-13		Official documentation
-https://ocaml.org/manual/4.05/libref/Graphics.html	published	2017-07-12		Official documentation
-https://studylibde.com/doc/16497284/pdf--einzeln---imn-htwk	published	2017-10-20		Official documentation
-https://ocaml.org/manual/4.06/libref/Unix.html	published	2017-11-03		Official documentation
-https://www.cs.cmu.edu/~crary/cmtool/manual.pdf	published	2017-12-21		Official documentation
-https://maxsnew.com/docs/zydeco-relmonad.pdf	published	2018-01		Official documentation
-https://raw.githubusercontent.com/jwbuurlage/category-theory-programmers/master/doc/categories_for_programmers.pdf	updated	2018-02-26		Official documentation
-https://www.scala-lang.org/api/2.12.8/scala-xml/scala/xml/parsing/index.html	modified	2018-03-08		Official documentation
-https://aaltodoc.aalto.fi/server/api/core/bitstreams/e0f5aefc-556f-4254-bf9d-03c22f930357/content	published	2018-03-10		Official documentation
-https://cloogle.org/doc/	archived	2018-04-25		Official documentation
-https://caiorss.github.io/Functional-Programming/haskell/Documentation_and_Learning_Materials.html	modified	2018-06-17		Official documentation
-https://funfix.org/api/effect/	modified	2018-06-22		Official documentation
-https://ghcguide.haskell.jp/8.2.2/libraries/base-4.10.1.0/System-IO.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/ghc-8.4.3/GhcMonad.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/array-0.5.2.0/Data-Array-IO-Safe.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/users_guide/index.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.2.2/users_guide/ghci.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/Control-Monad-ST.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.2.2/users_guide/lang.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/users_guide/safe_haskell.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/stm-2.4.5.0/Control-Monad-STM.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/text-1.2.3.0/Data-Text-Lazy-IO.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Exception.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/ghc-prim-0.5.2.0/GHC-Prim.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/ghc-8.4.3/Exception.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Handle.Types.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/Control-Monad-ST-Unsafe.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.2.2/users_guide/parallel.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Handle.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.2.2/users_guide/ffi-chap.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/mtl-2.2.2/Control-Monad-Except.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.0.2/libraries/process-1.4.3.0/System-Process.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/process-1.6.3.0/System-Process.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/System.IO.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/GHC-IO-Encoding.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/src/GHC.IO.Unsafe.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO-Unsafe.html	modified	2018-07-17		Official documentation
-https://ghcguide.haskell.jp/8.4.3/libraries/base-4.11.1.0/System-IO.html	modified	2018-07-17		Official documentation
-https://typelevel.org/blog/refactoring-monads.html	published	2018-08-07		Official documentation
-https://cs.stanford.edu/~sumith/docs/report-spaceleaks.pdf	modified	2018-09-29		Official documentation
-https://typelevel.org/blog/intro-to-mtl.html	published	2018-10-06		Official documentation
-https://leanprover.github.io/reference/lean_reference.pdf	archived	2018-10-13		Official documentation
-https://tylos.github.io/arrow/docs/	modified	2018-11-15		Official documentation
-https://typelevel.org/cats-effect/datatypes/io.html	archived	2018-11-20		Official documentation
-https://zio.dev/api/zio/zio	created	2019-06-02		Official documentation
-https://www.chiark.greenend.org.uk/doc/hugs/users_guide/observe.html	modified	2019-07-14		Official documentation
-https://www.chiark.greenend.org.uk/doc/hugs/users_guide/introduction.html	modified	2019-07-14		Official documentation
-https://www.chiark.greenend.org.uk/doc/hugs/users_guide/faq.html	modified	2019-07-14		Official documentation
-https://www.chiark.greenend.org.uk/doc/hugs/users_guide/options.html	modified	2019-07-14		Official documentation
-https://www.chiark.greenend.org.uk/doc/hugs/users_guide/index.html	modified	2019-07-14		Official documentation
-https://www.chiark.greenend.org.uk/doc/hugs/users_guide/addenda.html	modified	2019-07-14		Official documentation
-https://docs.servant.dev/en/stable/tutorial/Server.html	archived	2019-07-20		Official documentation
-https://www.unison-lang.org/docs/	authored	2019-08-02		Official documentation
-https://www.altocumulus.org/Fudgets/Manual/current/XEvent.html	archived	2019-08-18		Official documentation
-https://www.unison-lang.org/docs/at-a-glance/	authored	2019-09-09		Official documentation
-https://rocq-prover.org/doc/V8.10.1/api/coq/Logic_monad/index.html	published	2019-10-25		Official documentation
-https://allstar.jhuapl.edu/repo/p1/i386/haskell98-report/doc/haskell98-report.ps.gz	modified	2019-11-15		Official documentation
-https://ocaml.janestreet.com/ocaml-core/v0.13/doc/index.html	modified	2019-11-20		Official documentation
-https://ocaml.github.io/graphics/graphics/Graphics/	modified	2019-12-05		Official documentation
-https://www.unison-lang.org/docs/usage-topics/general-faqs/	authored	2019-12-13		Official documentation
-https://www.unison-lang.org/docs/fundamentals/abilities/for-monadically-inclined/	authored	2020-01-29		Official documentation
-https://www.unison-lang.org/docs/fundamentals/abilities/	authored	2020-01-29		Official documentation
-https://www.unison-lang.org/docs/language-reference/the-typechecking-rule-for-abilities/	authored	2020-01-29		Official documentation
-https://www.unison-lang.org/docs/fundamentals/abilities/error-handling/	authored	2020-01-29		Official documentation
-https://gcanti.github.io/fp-ts-fluture/modules/Future.ts.html	modified	2020-03-10		Official documentation
-https://sanette.github.io/ocaml2.org/learn/tutorials/if_statements_loops_and_recursion.html	modified	2020-05-02		Official documentation
-https://arch.bow-swift.io/docs/background/monads-and-comonads/	created	2020-05-03		Official documentation
-https://gallais.github.io/idris-tparsec/docs/%5Bbuiltins%5D.html	modified	2020-05-17		Official documentation
-https://www.cl.cam.ac.uk/~jjl25/docs/ocaml/Unix/index.html	modified	2020-06-15		Official documentation
-https://www.scala-lang.org/api/2.13.3/scala/io/index.html	modified	2020-06-25		Official documentation
-https://haskell.fi.muni.cz/doc/ghc-prim-0.5.3/GHC-Prim.html	modified	2020-07-15		Official documentation
-https://www.cl.cam.ac.uk/~jjl25/docs.mirage.io/html/markup/Markup/index.html	modified	2020-07-23		Official documentation
-https://ocaml.org/manual/4.11/libref/Unix.html	published	2020-08-18		Official documentation
-http://amas.web.psi.ch/opal/Documentation/2.4/Manual.pdf	archived	2020-10-18		Official documentation
-https://www.typeerror.org/docs/haskell~8/libraries/base-4.14.1.0/ghc-io-unsafe	modified	2020-11-21		Official documentation
-https://agda.readthedocs.io/en/v2.6.1/tools/package-system.html	modified	2021-01-28		Official documentation
-https://agda.readthedocs.io/en/v2.6.0/getting-started/what-is-agda.html	modified	2021-01-28		Official documentation
-https://agda.readthedocs.io/en/v2.6.0.1/getting-started/hello-world.html	modified	2021-01-28		Official documentation
-https://agda.readthedocs.io/en/v2.5.2/language/foreign-function-interface.html	modified	2021-01-28		Official documentation
-https://agda.readthedocs.io/en/v2.6.1.1/tools/compilers.html	modified	2021-01-28		Official documentation
-https://agda.readthedocs.io/en/v2.6.0/getting-started/hello-world.html	modified	2021-01-28		Official documentation
-https://monad.readthedocs.io/en/latest/	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.12/effects/	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18.1/tutorial/	modified	2021-01-29		Official documentation
-https://folktalegithubio.readthedocs.io/en/latest/api/data/task/	modified	2021-01-29		Official documentation
-https://folktalegithubio.readthedocs.io/en/latest/	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.12.3/effects/	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18/	modified	2021-01-29		Official documentation
-https://haskelliseasy.readthedocs.io/en/latest/	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.10.3/effects/	modified	2021-01-29		Official documentation
-https://docs.haskellstack.org/en/v1.5.0/ghcjs/	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/	modified	2021-01-29		Official documentation
-https://idris.readthedocs.io/en/v0.9.18.1/effects/index.html	modified	2021-01-29		Official documentation
-https://languageext.readthedocs.io/en/latest/README.html	modified	2021-01-29		Official documentation
-https://monad.readthedocs.io/en/latest/intro.html	modified	2021-01-29		Official documentation
-https://haskell-webapps.readthedocs.io/en/latest/docs/opaleye/opaleye.html	modified	2021-01-29		Official documentation
-https://rwhcn.readthedocs.io/zh/latest/chp/15.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18/tutorial/typesfuns.html	modified	2021-01-29		Official documentation
-https://purescript-resources.readthedocs.io/en/latest/eff-to-effect.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18.1/effects/depeff.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.2.0/reference/internals.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18/tutorial/starting.html	modified	2021-01-29		Official documentation
-https://idris.readthedocs.io/en/v1.0/st/machines.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.19/guides/type-providers-ffi.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.19/effects/introduction.html	modified	2021-01-29		Official documentation
-https://rwh.readthedocs.io/en/latest/chp/7.html	modified	2021-01-29		Official documentation
-https://fp.readthedocs.io/en/0.2/monads.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/apidocs.html	modified	2021-01-29		Official documentation
-https://docs.reflex-frp.org/en/latest/reflex_docs.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.19/effects/conclusions.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18.1/effects/hangman.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18.1/effects/state.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.19/effects/impleff.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.19/effects/summary.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18.1/effects/impleff.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18.1/effects/simpleeff.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.2.0/effects/conclusions.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.2.0/effects/index.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.2.0/effects/introduction.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.2.0/effects/summary.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.3.0/effects/index.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v1.3.1/effects/index.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.10.2/reference/uniqueness-types.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/0.10/index.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/api/effect.do.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/api/effect.fold.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/api/effect.io.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/api/effect.ref.html	modified	2021-01-29		Official documentation
-https://effect.readthedocs.io/en/latest/intro.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.19/effects/depeff.html	modified	2021-01-29		Official documentation
-https://docs.reflex-frp.org/en/latest/installation.html	modified	2021-01-29		Official documentation
-https://docs.reflex-frp.org/en/latest/overview.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/en/v0.9.18/effects/introduction.html	modified	2021-01-29		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v1.0/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.10/pdf/	modified	2021-01-30		Official documentation
-https://purescript-resources.readthedocs.io/_/downloads/en/latest/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v1.3.3/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.9.18.1/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.99/pdf/	modified	2021-01-30		Official documentation
-https://languageext.readthedocs.io/_/downloads/en/latest/pdf/	modified	2021-01-30		Official documentation
-https://monad.readthedocs.io/_/downloads/en/stable/pdf/	modified	2021-01-30		Official documentation
-https://effect.readthedocs.io/_/downloads/en/0.10/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.9.18/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.11/pdf/	modified	2021-01-30		Official documentation
-https://apple-swift.readthedocs.io/_/downloads/en/latest/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.9.20/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.99.2/pdf/	modified	2021-01-30		Official documentation
-https://my-agda.readthedocs.io/_/downloads/en/latest/pdf/	modified	2021-01-30		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.6.0/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v1.3.1/pdf/	modified	2021-01-30		Official documentation
-https://docs.reflex-frp.org/_/downloads/en/latest/pdf/	modified	2021-01-30		Official documentation
-https://app.readthedocs.org/projects/haskell-servant/downloads/pdf/v0.12/	modified	2021-01-30		Official documentation
-https://app.readthedocs.org/projects/haskell-webapps/downloads/pdf/latest/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.9.20.2/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v1.2.0/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v1.3.0/pdf/	modified	2021-01-30		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.5.2/pdf/	modified	2021-01-30		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.5.3/pdf/	modified	2021-01-30		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.5.4/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris-lang.org/_/downloads/en/v0.12.2/pdf/	modified	2021-01-30		Official documentation
-https://docs.servant.dev/_/downloads/en/v0.16/pdf/	modified	2021-01-30		Official documentation
-https://tapir-scala.readthedocs.io/_/downloads/en/v0.12.17/pdf/	modified	2021-01-30		Official documentation
-https://docs.servant.dev/_/downloads/en/v0.7/pdf/	modified	2021-01-30		Official documentation
-https://docs.servant.dev/_/downloads/en/v0.14.1/pdf/	modified	2021-01-30		Official documentation
-https://app.readthedocs.org/projects/monad/downloads/pdf/latest/	modified	2021-01-30		Official documentation
-https://elixir-lang.readthedocs.io/_/downloads/en/latest/pdf/	modified	2021-01-30		Official documentation
-https://docs.servant.dev/_/downloads/en/v0.8.1/pdf/	modified	2021-01-30		Official documentation
-https://docs.idris.org/_/downloads/en/v0.9.20/pdf/	modified	2021-01-30		Official documentation
-https://docs.huihoo.com/haskell/ghc/9.0/users_guide.pdf	published	2021-02-03		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.6.1.3/pdf/	published	2021-02-07		Official documentation
-https://returns.readthedocs.io/_/downloads/en/0.16.0/pdf/	published	2021-03-26		Official documentation
-https://wiki.portal.chalmers.se/agda/ReferenceManual/StructureOfAnAgdaProgram	archived	2021-05-09		Official documentation
-https://docs.w3cub.com/haskell~8/libraries/base-4.13.0.0/ghc-io	archived	2021-05-15		Official documentation
-https://docs.w3cub.com/haskell~8/libraries/base-4.13.0.0/ghc-ghci	archived	2021-05-15		Official documentation
-https://wiki.portal.chalmers.se/agda/ReferenceManual2/Compilation	archived	2021-05-18		Official documentation
-https://projects.camlcity.org/projects/dl/ocamlnet-4.1.9/doc/html-main/Tls.html	archived	2021-06-14		Official documentation
-https://bio.monix.io/docs/introduction	modified	2021-09-04		Official documentation
-https://bio.monix.io/docs/creating	modified	2021-09-04		Official documentation
-https://bio.monix.io/docs/execution	modified	2021-09-04		Official documentation
-https://bio.monix.io/docs/getting-started	modified	2021-09-04		Official documentation
-https://bio.monix.io/docs/error-handling	modified	2021-09-04		Official documentation
-https://bio.monix.io/docs/cats-effect	modified	2021-09-04		Official documentation
-https://bio.monix.io/docs/resource-safety	modified	2021-09-04		Official documentation
-https://bio.monix.io/api/monix/bio/IO.html	modified	2021-09-04		Official documentation
-https://plutus-pioneer-program.readthedocs.io/en/latest/pioneer/week4.html	modified	2021-09-12		Official documentation
-https://zio.github.io/zio-s3/docs/quickstart/quickstart_index	modified	2021-09-13		Official documentation
-https://folktale.origamitower.com/api/v2.0.0/en/folktale.concurrency.task.html	modified	2021-09-18		Official documentation
-https://ocaml.org/manual/4.13/api/Unix.html	published	2021-09-24		Official documentation
-https://www.typeerror.org/docs/ocaml/libref/unixlabels	modified	2021-10-22		Official documentation
-https://wikidocs.net/1566	modified	2021-10-30		Official documentation
-https://wikidocs.net/1471	modified	2021-10-30		Official documentation
-https://wikidocs.net/1452	modified	2021-10-30		Official documentation
-https://squidex.jugru.team/api/assets/srm/3Dqvc4A1rka7WWOeoyETiW/scala-ios-2-.pdf	created	2021-11-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/resource-management/the-use-keyword	updated	2021-11-04		Official documentation
-https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/functional-programming-concepts	modified	2021-11-05		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.6.2.1/pdf/	published	2021-12-08		Official documentation
-https://codedocs.org/what-is/clean-programming-language	archived	2021-12-09		Official documentation
-https://returns.readthedocs.io/en/0.18.0/pages/io.html	modified	2021-12-31		Official documentation
-https://old.arrow-kt.io/docs/0.12/fx/	modified	2022-01-13		Official documentation
-https://old.arrow-kt.io/docs/0.12/core/	modified	2022-01-13		Official documentation
-https://old.arrow-kt.io/docs/0.12/apidocs/arrow-fx/arrow.fx.extensions/index.html	modified	2022-01-13		Official documentation
-https://zio.dev/api/zio/scope	created	2022-03-17		Official documentation
-https://http4s.org/v0.22/docs/dsl.html	updated	2022-03-27		Official documentation
-https://john.cs.olemiss.edu/~hcc/docs/ELIFP/Ch12/12_Testing_Haskell.pdf	published	2022-04-02		Official documentation
-https://john.cs.olemiss.edu/~hcc/docs/ELIFP/Ch06/06_Procedural_Abstraction.html	modified	2022-04-13		Official documentation
-https://john.cs.olemiss.edu/~hcc/docs/ELIFP/ELIFP.pdf	published	2022-04-27		Official documentation
-https://expression.readthedocs.io/	modified	2022-05-01		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/timer	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/concurrency/deferred	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/concurrency/mvar	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/concurrency/overview	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/concurrency/ref	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/concurrency/semaphore	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/clock	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/contextshift	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/fiber	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/resource	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/datatypes/syncio	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/getting-started	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/docs/2.x/guides/testing	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/en/resources	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/en/users	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/en/versions	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/api/2.x/cats/effect/IO.html	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/api/2.x/cats/effect/index.html	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/api/2.x/cats/effect/IO%24.html	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/api/2.x/cats/effect/SyncIO.html	published	2022-05-19		Official documentation
-https://typelevel.org/cats-effect/api/2.x/cats/effect/Resource.html	published	2022-05-19		Official documentation
-https://zio.github.io/zio-ftp/docs/quickstart/quickstart_index	modified	2022-05-23		Official documentation
-https://www.unison-lang.org/learn/fundamentals/abilities/using-abilities-pt1/	archived	2022-05-25		Official documentation
-https://mirage.io/docs/tutorial-lwt	archived	2022-05-27		Official documentation
-https://docs.scala-lang.org/overviews/scala-book/pure-functions.html	updated	2022-06-09		Official documentation
-https://docs.scala-lang.org/overviews/scala-book/functional-programming.html	updated	2022-06-09		Official documentation
-https://csharp-functional.readthedocs.io/	modified	2022-07-12		Official documentation
-https://csharp-functional.readthedocs.io/_/downloads/en/latest/pdf/	modified	2022-07-12		Official documentation
-https://csharp-functional.readthedocs.io/en/latest/	modified	2022-07-12		Official documentation
-https://niqdev.github.io/scala-fp/docs/fp-advanced	modified	2022-07-17		Official documentation
-https://zio.dev/guides/migrate/from-cats-effect	updated	2022-07-23		Official documentation
-https://idris-dev.readthedocs.io/effects/conclusions.html	modified	2022-07-29		Official documentation
-https://deepspec.github.io/InteractionTrees/	modified	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/best-practices/algebraic-data-types	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/best-practices/union-types	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/error-accumulation	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/examples	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/imperative-vs-declarative	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/chaining-effects-based-on-errors	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/error-refinement	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/exposing-errors-in-the-success-channel	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/filtering-the-success-channel	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/flattening-optional-error-types	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/flipping-error-and-success-channels	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/map-operations	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/merging-the-error-channel-into-the-success-channel	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/rejecting-some-success-values	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/tapping-errors	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/operations/zooming-in-on-nested-values	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/recovering/fallback	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/recovering/folding	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/recovering/sandboxing	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/sequential-and-parallel-errors	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/typed-errors-guarantees	updated	2022-08-03		Official documentation
-https://zio.dev/reference/error-management/types/fatals	updated	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/5.0.0/toc.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Basics.Monad.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Core.ITreeDefinition.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Events.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Extra.Dijkstra.DijkstraMonad.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Extra.Dijkstra.StateIOTrace.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Interp.Handler.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Interp.Interp.html	modified	2022-08-03		Official documentation
-https://deepspec.github.io/InteractionTrees/master/ITree.Simple.html	modified	2022-08-03		Official documentation
-https://zio.dev/reference/stream/zchannel/channel-interruption	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zchannel/channel-operations	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zchannel/composing-channels	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zchannel/creating-channels	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zchannel/running-a-channel	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zsink/leftovers	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zsink/operations	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zsink/parallel-operators	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zstream/	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zstream/consuming-streams	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zstream/resourceful-streams	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zstream/type-aliases	updated	2022-08-26		Official documentation
-https://zio.dev/reference/stream/zstream/streams-are-chunked-by-default	updated	2022-10-12		Official documentation
-https://zio.dev/reference/observability/supervisor	updated	2022-10-12		Official documentation
-https://zio.dev/reference/architecture/functional-design-patterns	updated	2022-10-14		Official documentation
-https://twdev.blog/docs/monparsing.pdf	archived	2022-10-18		Official documentation
-https://haddocks.haskell-miso.org/mtl/Control-Monad-Trans.html	uploaded	2022-10-31		Official documentation
-https://zio.dev/zio-aws/getting-started	updated	2022-11-10		Official documentation
-https://zio.dev/reference/stream/zstream/creating-zio-streams	updated	2022-11-16		Official documentation
-https://zio.dev/reference/stream/zchannel/	updated	2022-11-22		Official documentation
-https://zio.dev/reference/error-management/operations/exposing-the-cause-in-the-success-channel	updated	2022-11-23		Official documentation
-https://zio.dev/reference/stream/	updated	2022-11-23		Official documentation
-https://zio.dev/overview/summary	updated	2022-12-02		Official documentation
-https://ocaml.org/manual/5.0/api/Unix.html	published	2022-12-15		Official documentation
-https://math.iisc.ac.in/~gadgil/proofs-and-programs-2023/doc/PnP2023/Lec_03_01/RandomIO.html	created	2023		Official documentation
-https://lists.mercurylang.org/archives/developers/2023-March/017322.html	created	2023		Official documentation
-https://haskell.foundation/assets/other/Duncan%20Coutts%20-%20GHC%20Tool%20Ecosystem.pdf	publication	2023		Official documentation
-https://old.arrow-kt.io/docs/fx/	modified	2023-01-17		Official documentation
-https://old.arrow-kt.io/docs/effects/io/	modified	2023-01-17		Official documentation
-https://old.arrow-kt.io/docs/core/	modified	2023-01-17		Official documentation
-https://old.arrow-kt.io/docs/patterns/monad_comprehensions/	modified	2023-01-17		Official documentation
-https://old.arrow-kt.io/docs/patterns/monads	modified	2023-01-17		Official documentation
-https://old.arrow-kt.io/docs/quickstart/	modified	2023-01-17		Official documentation
-https://fmaste.github.io/Haskell/doc/Monad.html	modified	2023-01-26		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.6.3/pdf/	published	2023-01-30		Official documentation
-https://dl.mercurylang.org/release/	archived	2023-01-30		Official documentation
-https://zio.dev/reference/error-management/exceptional-and-unexceptional-effects	updated	2023-02-02		Official documentation
-https://gallium.inria.fr/~scherer/doc/effect-handlers-talk.html	modified	2023-02-05		Official documentation
-https://zio.dev/1.0.18/overview/overview_performance	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/io	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_background	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/zio	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/managed	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_basic_concurrency	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_basic_operations	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_creating_effects	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_handling_errors	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_handling_resources	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_platforms	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_running_effects	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/overview/overview_testing_effects	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/hub	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/promise	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/queue	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/ref	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/refm	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/semaphore	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/zref	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/concurrency/zrefm	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/cause	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/exit	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/rio	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/runtime	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/task	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/uio	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/core/urio	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/fiber/	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/fiber/fiberid	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/fiber/fiberref	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/fiber/fiberstatus	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/rmanaged	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/task-managed	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/umanaged	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/urmanaged	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/resource/zmanaged	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/sink	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/subscription-ref	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/transducer	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/ustream	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/zsink	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/zstream	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/reference/stream/ztransducer	published	2023-02-06		Official documentation
-https://zio.dev/1.0.18/guides/interop/with-monix/	published	2023-02-06		Official documentation
-https://old.arrow-kt.io/docs/apidocs/arrow-core/arrow.core.continuations/-effect/	modified	2023-02-23		Official documentation
-https://old.arrow-kt.io/docs/apidocs/arrow-fx-coroutines/arrow.fx.coroutines/	modified	2023-02-23		Official documentation
-https://lists.mercurylang.org/archives/developers/attachments/20230320/cc08241f/attachment-0001.pdf	published	2023-03		Official documentation
-https://gupea.ub.gu.se/server/api/core/bitstreams/ef14c4af-102d-41fb-bffe-bcf843275344/content	modified	2023-03-03		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/_/downloads/en/latest/pdf/	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/reference/ffi.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/interfaces.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/st/state.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/typesfuns.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/miscellany.html	modified	2023-03-04		Official documentation
-https://idris.readthedocs.io/en/latest/reference/language-extensions.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/impleff.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/packages.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/reference/syntax-guide.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/st/examples.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/reference/repl.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/introduction.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/introduction.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/depeff.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/hangman.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/simpleeff.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/state.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/summary.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/tutorial/starting.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/effects/index.html	modified	2023-03-04		Official documentation
-https://docs.idris-lang.org/en/latest/reference/language-extensions.html	modified	2023-03-04		Official documentation
-https://idris.readthedocs.io/en/latest/effects/index.html	modified	2023-03-04		Official documentation
-https://yampa-book.readthedocs.io/en/latest/intro.html	modified	2023-03-25		Official documentation
-https://yampa-book.readthedocs.io/en/latest/links.html	modified	2023-03-25		Official documentation
-https://lambda.inf.elte.hu/haskell/doc/libraries/base-4.11.1.0/Debug-Trace.html	archived	2023-03-27		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_ref/Clauses.html	archived	2023-04-01		Official documentation
-https://zio.dev/reference/observability/metrics/counter	updated	2023-04-02		Official documentation
-https://zio.dev/reference/observability/metrics/gauge	updated	2023-04-02		Official documentation
-https://zio.dev/reference/observability/metrics/metriclabel	updated	2023-04-02		Official documentation
-https://zio.dev/reference/observability/metrics/summary	updated	2023-04-02		Official documentation
-https://returns.readthedocs.io/en/0.20.0/pages/io.html	modified	2023-04-21		Official documentation
-https://www.utupub.fi/server/api/core/bitstreams/af1b5139-b1a4-4197-83e7-80e4c8b03bef/content	published	2023-05		Official documentation
-https://docs.haskellstack.org/en/v2.11.1/yaml_configuration/	modified	2023-05-18		Official documentation
-https://zio.dev/reference/architecture/non-functional-requirements/	updated	2023-06-05		Official documentation
-https://typelevel.org/cats-tagless/	modified	2023-06-08		Official documentation
-https://zio.dev/reference/stream/zstream/error-handling	updated	2023-06-14		Official documentation
-https://haskell-brick.readthedocs.io/_/downloads/en/latest/pdf/	published	2023-06-15		Official documentation
-https://www.altocumulus.org/Fudgets/Manual/0.18.4/stdinF.html	publication	2023-06-27		Official documentation
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-observablemodule.html	updated	2023-06-27		Official documentation
-https://haskell4nix.readthedocs.io/_/downloads/en/latest/pdf/	published	2023-07-10		Official documentation
-https://zio.dev/reference/core/zio/io	updated	2023-07-28		Official documentation
-https://zio.dev/reference/core/zio/task	updated	2023-07-28		Official documentation
-https://zio.dev/reference/core/cause	updated	2023-07-28		Official documentation
-https://zio.dev/reference/core/zio/rio	updated	2023-07-28		Official documentation
-https://pyeffects.readthedocs.io/	modified	2023-08-21		Official documentation
-https://pyeffects.readthedocs.io/en/latest/monads.html	modified	2023-08-21		Official documentation
-https://mercurylang.org/information/doc-release/mercury_ref/The-_0060_0060state_002dof_002dthe_002dworld_0027_0027-type.html	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/mercury_library/io.html	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/reference_manual.pdf	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/transition_guide.pdf	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/mercury_trans_guide/IO.html	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/mercury_ref/index.html	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/mercury_ref/State-variables.html	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/mercury_trans_guide/AssertRetract.html	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/library.pdf	modified	2023-09-17		Official documentation
-https://mercurylang.org/information/doc-release/mercury_ref/Unique-modes.html	modified	2023-09-17		Official documentation
-https://elhacker.info/manuales/Lenguajes%20de%20Programacion/Haskell/Thinking%20Functionally%20With%20Haskell.pdf	modified	2023-10-17		Official documentation
-https://zio.dev/reference/stream/installation	updated	2023-10-22		Official documentation
-https://webflow.effect.website/events/effect-days-2024/effect-days	created	2024		Official documentation
-https://web.cs.ucdavis.edu/~cdstanford/doc/2024/POPLSRC24.pdf	created	2024		Official documentation
-https://haskell.foundation/events/2024-haskell-ecosystem-workshop.html	created	2024		Official documentation
-https://blogs.asarkar.com/assets/docs/haskell/Monad%20Transformers%20Step%20by%20Step%20-%20Grabmuller.pdf	created	2024-01-02		Official documentation
-https://ocaml.org/docs/monads	archived	2024-01-04		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monads/io.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monads/summary.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monads.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monads/do.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/hello-world/summary.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers/do.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers/reader-io.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers/transformers.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers.html	modified	2024-02-06		Official documentation
-https://leanprover.github.io/functional_programming_in_lean/monad-transformers/summary.html	modified	2024-02-06		Official documentation
-https://www.unison-lang.org/docs/language-reference/abilities-and-ability-handlers/	archived	2024-02-23		Official documentation
-https://www.unison-lang.org/docs/fundamentals/abilities/using-abilities-pt1/	archived	2024-02-23		Official documentation
-https://www.unison-lang.org/docs/language-reference/ability-handlers/	archived	2024-02-23		Official documentation
-https://www.unison-lang.org/docs/fundamentals/abilities/writing-abilities/	archived	2024-02-23		Official documentation
-https://www.unison-lang.org/docs/fundamentals/abilities/using-abilities-pt2	archived	2024-02-23		Official documentation
-https://effect.website/docs/other/fp-ts	archived	2024-02-26		Official documentation
-https://agda.readthedocs.io/en/v2.6.4.3/getting-started/a-taste-of-agda.html	modified	2024-03-06		Official documentation
-https://idus.us.es/server/api/core/bitstreams/945bca35-2d81-40a2-8526-20fbd88a6236/content	modified	2024-03-11		Official documentation
-https://verify.rwth-aachen.de/fp16/FP16.pdf	modified	2024-04-02		Official documentation
-https://users.csc.calpoly.edu/~gfisher/work/specl/documentation/related-work/mid-march-downloads/ExploringGH.pdf	archived	2024-04-21		Official documentation
-https://zio.dev/zio-http/reference/server/	created	2024-04-23		Official documentation
-https://zio.dev/zio-http/reference/client/	created	2024-04-23		Official documentation
-https://zio.dev/zio-s3/	updated	2024-04-26		Official documentation
-https://ocaml.org/manual/5.2/effects.html	published	2024-05-13		Official documentation
-https://ocaml.org/manual/5.2/api/Unix.html	published	2024-05-13		Official documentation
-https://zio.dev/reference/resource/zkeyedpool	updated	2024-05-14		Official documentation
-https://effect.website/play	archived	2024-05-25		Official documentation
-https://learn.microsoft.com/en-us/shows/dotnetconf-focus-on-fsharp/starting-your-fsharp-journey	modified	2024-06-03		Official documentation
-https://docs.replay.io/basics/time-travel/how-does-time-travel-work	archived	2024-06-14		Official documentation
-https://dejafu.docs.barrucadu.co.uk/migration-guides/0x-1x.html	archived	2024-06-23		Official documentation
-https://anggtwu.net/snarf/https/lean-lang.org/lean4/doc/print.pdf	modified	2024-07-31		Official documentation
-https://zio.dev/reference/stream/zstream/operations	updated	2024-08-06		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.7.0/pdf/	published	2024-08-16		Official documentation
-https://agda.readthedocs.io/en/v2.7.0/overview.html	modified	2024-08-16		Official documentation
-https://agda.readthedocs.io/en/v2.7.0.1/language/foreign-function-interface.html	modified	2024-09-12		Official documentation
-https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/io/IO.html	published	2024-09-16		Official documentation
-https://doc.flix.dev/mutable-data.html	updated	2024-09-18		Official documentation
-https://funprogram.readthedocs.io/en/latest/manual/monads.html	modified	2024-10-20		Official documentation
-https://effect.website/events/effect-days/speakers/antoine-coulon	archived	2024-11-09		Official documentation
-https://effect.website/events/effect-days/speakers	archived	2024-11-09		Official documentation
-https://kobra.uni-kassel.de/server/api/core/bitstreams/d005e293-6264-4bad-a073-e7c5c92ec5b6/content	modified	2024-11-11		Official documentation
-https://www.curry-lang.org/docs/report/reports.html	modified	2024-11-15		Official documentation
-https://ir.canterbury.ac.nz/server/api/core/bitstreams/5545fb17-ef38-4f0a-bf8e-5c7e5a4b6994/content	archived	2024-11-20		Official documentation
-https://zio.dev/reference/observability/metrics/jvm	updated	2024-11-21		Official documentation
-https://zio.dev/reference/observability/metrics/frequency	updated	2024-12-02		Official documentation
-https://zio.dev/reference/observability/metrics/histogram	updated	2024-12-02		Official documentation
-https://haskell-effectful.github.io/ecosystem/observability/	created	2024-12-03		Official documentation
-https://haskell-effectful.github.io/ecosystem/metrics-logs-traces-profiles/	created	2024-12-03		Official documentation
-https://reactiveml.github.io/documentation.html	modified	2024-12-09		Official documentation
-https://stefanschramm.net/dev/opal-archive/doc/pdf/tutorial.pdf	modified	2024-12-14		Official documentation
-https://haddocks.haskell-miso.org/base/Data-Traversable.html	uploaded	2024-12-16		Official documentation
-https://haddocks.haskell-miso.org/base/Control-Monad.html	uploaded	2024-12-16		Official documentation
-https://haddocks.haskell-miso.org/base/index.html	uploaded	2024-12-16		Official documentation
-https://haddocks.haskell-miso.org/base/doc-index-I.html	uploaded	2024-12-16		Official documentation
-https://effect.website/events/effect-days/schedule-2025	created	2025		Official documentation
-https://haskell.foundation/events/2025-haskell-implementors-workshop.html	created	2025		Official documentation
-https://haskell.foundation/events/2025-haskell-ecosystem-workshop.html	created	2025		Official documentation
-https://ocaml.org/manual/5.3/effects.html	published	2025-01-06		Official documentation
-https://ocaml.org/manual/5.3/api/UnixLabels.html	published	2025-01-06		Official documentation
-https://docs.servant.dev/en/latest/links.html	modified	2025-01-21		Official documentation
-https://ocaml.github.io/odoc/eio/eio/Eio/index.html	modified	2025-01-23		Official documentation
-https://zio.dev/zio-quill/writing-queries	updated	2025-01-28		Official documentation
-https://zio.dev/guides/migrate/zio-2.x-migration-guide/	updated	2025-01-30		Official documentation
-https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/	modified	2025-02-11		Official documentation
-https://ghc-proposals.readthedocs.io/en/latest/proposals/0313-delimited-continuation-primops.html	modified	2025-03-07		Official documentation
-https://odr.chalmers.se/server/api/core/bitstreams/3d20b1cc-091c-46fa-a706-bb826c4415c6/content	modified	2025-03-12		Official documentation
-https://odr.chalmers.se/server/api/core/bitstreams/b5438b2f-a2a5-43ce-bd0e-86644f6f0e80/content	modified	2025-03-12		Official documentation
-https://odr.chalmers.se/server/api/core/bitstreams/7c8128ee-cd76-4c15-8635-8cfee1c5df9a/content	modified	2025-03-12		Official documentation
-https://mediatum.ub.tum.de/doc/1774607/document.pdf	modified	2025-03-18		Official documentation
-https://lean-lang.org/doc/reference/4.19.0-rc2/Functors___-Monads-and--do--Notation/	updated	2025-03-26		Official documentation
-https://api.drum.lib.umd.edu/server/api/core/bitstreams/ee587230-cd94-4e52-84b4-5f5ca8803d07/content	modified	2025-04-01		Official documentation
-https://api.drum.lib.umd.edu/server/api/core/bitstreams/140d7bc8-4da5-4358-bea6-d0d79a87c0cc/content	modified	2025-04-01		Official documentation
-https://api.drum.lib.umd.edu/server/api/core/bitstreams/1ecd831a-f937-4b3a-975f-9d2eee733772/content	modified	2025-04-01		Official documentation
-https://typelevel.org/Laika/downloads/laika-1.x-library.pdf	modified	2025-04-01		Official documentation
-https://typelevel.org/Laika/downloads/laika-0.17-library.pdf	modified	2025-04-01		Official documentation
-https://typelevel.org/Laika/downloads/laika-0.18-library.pdf	modified	2025-04-01		Official documentation
-https://typelevel.org/Laika/downloads/laika-1.x-sbt.pdf	modified	2025-04-01		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Console-Output/	updated	2025-04-07		Official documentation
-https://haskell-distributed.github.io/documentation.html	modified	2025-04-16		Official documentation
-https://www.curry-language.org/docs/tutorial/html/	modified	2025-04-17		Official documentation
-https://zio.dev/reference/stream/chunk	updated	2025-04-17		Official documentation
-https://www.curry-language.org/docs/tutorial/html/curry-tutorial.Ch3.S15.html	modified	2025-04-17		Official documentation
-https://zio.dev/reference/stream/subscription-ref	updated	2025-05-14		Official documentation
-https://idris2.doc.grass.show/reference/pragmas.html	modified	2025-05-19		Official documentation
-https://input-output-hk.github.io/typed-protocols/typed-protocols/Network-TypedProtocol.html	updated	2025-05-21		Official documentation
-https://input-output-hk.github.io/typed-protocols/typed-protocols/src/Network.TypedProtocol.html	updated	2025-05-21		Official documentation
-https://www.curry-language.org/documentation/features/	modified	2025-05-23		Official documentation
-https://www.curry-language.org/documentation/tutorial/	modified	2025-05-23		Official documentation
-https://clean.cs.ru.nl/Workflow_examples	modified	2025-06-13		Official documentation
-https://wiki.clean.cs.ru.nl/Object_I/O_Tutorial	modified	2025-06-13		Official documentation
-https://clean.cs.ru.nl/Documentation	modified	2025-06-13		Official documentation
-https://wiki.clean.cs.ru.nl/Object_I_O_Tutorial	modified	2025-06-13		Official documentation
-https://clean.cs.ru.nl/TCP	modified	2025-06-13		Official documentation
-https://clean.cs.ru.nl/Functional_Programming_in_Clean	modified	2025-06-13		Official documentation
-https://clean.cs.ru.nl/Clean_System	modified	2025-06-13		Official documentation
-https://clean.cs.ru.nl/FAQ	modified	2025-06-13		Official documentation
-https://wiki.clean.cs.ru.nl/Clean_IDE	modified	2025-06-13		Official documentation
-https://clean.cs.ru.nl/Language_features	modified	2025-06-13		Official documentation
-https://wiki.clean.cs.ru.nl/Object_I/O	modified	2025-06-13		Official documentation
-https://docs.servant.dev/en/latest/index.html	modified	2025-06-18		Official documentation
-https://ziohttp.com/reference/overview/	archived	2025-06-21		Official documentation
-https://curry-lang.org/docs/tutorial/tutorial.pdf	published	2025-06-24		Official documentation
-https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/io/IO.html	published	2025-07-15		Official documentation
-https://repository.gatech.edu/server/api/core/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/content	modified	2025-07-23		Official documentation
-https://ocaml.org/u/dd4fdb0c026377497e91e41115e3044c/lwt/6.0.0~alpha00/manual.html	published	2025-07-24		Official documentation
-https://ocaml.org/u/9a8383bd67a996e84bf1f19865223e33/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_process/index.html	published	2025-07-24		Official documentation
-https://zio.dev/reference/error-management/recovering/catching	updated	2025-07-29		Official documentation
-https://mercurylang.org/about/comparison_with_haskell.html	modified	2025-08-11		Official documentation
-https://mercurylang.org/download/release-0.8.html	modified	2025-08-11		Official documentation
-https://mercurylang.org/download/release-0.3.html	modified	2025-08-11		Official documentation
-https://mercurylang.org/about.html	modified	2025-08-11		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Mutable-References/	updated	2025-08-18		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Lake/Util/Error.html	updated	2025-08-22		Official documentation
-https://doc.flix.dev/control-structures.html	updated	2025-08-25		Official documentation
-https://ics-websites.science.uu.nl/docs/vakken/fp/	modified	2025-08-27		Official documentation
-https://zio.dev/guides/tutorials/build-a-restful-webservice/	updated	2025-08-27		Official documentation
-https://codedownio.github.io/sandwich/docs/	modified	2025-09-11		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Init/System/Promise.html	updated	2025-09-22		Official documentation
-https://ocaml.org/manual/5.4/api/Stdlib.Effect.html	published	2025-10-09		Official documentation
-https://docs.min.io/aistor/developers/sdk/haskell/	publication	2025-10-17		Official documentation
-https://docs.min.io/aistor/developers/sdk/haskell/api/	publication	2025-10-17		Official documentation
-https://dspace.mit.edu/server/api/core/bitstreams/5154af6b-4a9a-4915-a744-6fcc13756898/content	modified	2025-10-20		Official documentation
-https://lean-lang.org/doc/reference/latest/Functors___-Monads-and--do--Notation/	updated	2025-10-20		Official documentation
-https://lean-lang.org/functional_programming_in_lean/Monads/Summary/	updated	2025-10-20		Official documentation
-https://lean-lang.org/functional_programming_in_lean/Monads/One-API___-Many-Applications/	updated	2025-10-20		Official documentation
-https://lean-lang.org/functional_programming_in_lean/Monads/do--Notation-for-Monads/	updated	2025-10-20		Official documentation
-https://lean-lang.org/functional_programming_in_lean/Introduction/	updated	2025-10-20		Official documentation
-https://lean-lang.org/doc/reference/latest/Functors___-Monads_and--do--Notation/	updated	2025-10-20		Official documentation
-https://lean-lang.org/functional_programming_in_lean/monads.html	updated	2025-10-20		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Init/System/IOError.html	updated	2025-10-23		Official documentation
-https://idris2.readthedocs.io/en/stable/	modified	2025-10-31		Official documentation
-https://idris2.readthedocs.io/en/stable/tutorial/	modified	2025-10-31		Official documentation
-https://idris2.readthedocs.io/en/stable/app/	modified	2025-10-31		Official documentation
-https://idris2.readthedocs.io/en/stable/tutorial/introduction.html	modified	2025-10-31		Official documentation
-https://idris2.readthedocs.io/en/stable/tutorial/interfaces.html	modified	2025-10-31		Official documentation
-https://idris2.readthedocs.io/en/stable/typedd/typedd.html	modified	2025-10-31		Official documentation
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasync.html	updated	2025-11-06		Official documentation
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-fsharpasyncbuilder.html	updated	2025-11-06		Official documentation
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control-asyncprimitives.html	updated	2025-11-06		Official documentation
-https://fsharp.github.io/fsharp-core-docs/reference/fsharp-control.html	updated	2025-11-06		Official documentation
-https://fsharp.org/docs/	modified	2025-11-12		Official documentation
-https://zio.dev/zio2-interop-cats2/	updated	2025-11-19		Official documentation
-https://monix.io/docs/current/	modified	2025-11-25		Official documentation
-https://monix.io/api/2.2/monix/types/	modified	2025-11-25		Official documentation
-https://monix.io/docs/current/reactive/observable-comparisons.html	modified	2025-11-25		Official documentation
-https://monix.io/docs/current/eval/task.html	modified	2025-11-25		Official documentation
-https://monix.io/api/3.0/monix/eval/Task.html	modified	2025-11-25		Official documentation
-https://monix.io/api/3.3/monix/eval/Task%24.html	modified	2025-11-25		Official documentation
-https://monix.io/api/3.2/monix/eval/Task.html	modified	2025-11-25		Official documentation
-https://monix.io/api/3.0/monix/eval/Task%24.html	modified	2025-11-25		Official documentation
-https://monix.io/api/2.2/monix/types/Monad.html	modified	2025-11-25		Official documentation
-https://monix.io/api/3.0/monix/eval/TaskApp.html	modified	2025-11-25		Official documentation
-https://doc.flix.dev/effects-and-handlers.html	updated	2025-11-30		Official documentation
-https://doc.flix.dev/effect-system.html	updated	2025-11-30		Official documentation
-https://doc.flix.dev/effect-oriented-programming.html	updated	2025-11-30		Official documentation
-https://doc.flix.dev/primitive-effects.html	updated	2025-11-30		Official documentation
-https://doc.flix.dev/boxing-and-unboxing.html	updated	2025-11-30		Official documentation
-https://ghc-proposals.readthedocs.io/en/latest/proposals/0111-linear-types.html	modified	2025-12-02		Official documentation
-https://idris2.readthedocs.io/en/latest/	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/app/index.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/implementation/overview.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/app/interfaces.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/app/linear.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/tutorial/interp.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/tutorial/typesfuns.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/ffi/ffi.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/updates/updates.html	modified	2025-12-03		Official documentation
-https://idris2.readthedocs.io/en/latest/app/introapp.html	modified	2025-12-03		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Files___-File-Handles___-and-Streams/	updated	2025-12-14		Official documentation
-https://verify.rwth-aachen.de/fp21/	modified	2025-12-15		Official documentation
-https://verify.rwth-aachen.de/fp14/	modified	2025-12-15		Official documentation
-https://verify.rwth-aachen.de/fp05/	modified	2025-12-15		Official documentation
-https://verify.rwth-aachen.de/fp09/	modified	2025-12-15		Official documentation
-https://verify.rwth-aachen.de/fp12/	modified	2025-12-15		Official documentation
-https://verify.rwth-aachen.de/fp02/index_e.html	modified	2025-12-15		Official documentation
-https://docs.vavr.io/	modified	2025-12-16		Official documentation
-https://docs.vavr.io/es/	modified	2025-12-16		Official documentation
-https://lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/	updated	2025-12-19		Official documentation
-https://docs.lean-lang.org/functional_programming_in_lean/Monads/The-IO-Monad/	updated	2025-12-19		Official documentation
-https://era.ed.ac.uk/server/api/core/bitstreams/c0c45963-5c0a-4e3f-ba38-e9216b69337d/content	modified	2025-12-19		Official documentation
-https://era.ed.ac.uk/server/api/core/bitstreams/f7514eb8-0459-41ad-a8fc-4fa91b3567f1/content	modified	2025-12-19		Official documentation
-https://era.ed.ac.uk/server/api/core/bitstreams/c09cadbe-764a-4803-b13f-99de386ad137/content	modified	2025-12-19		Official documentation
-https://curry-lang.org/documentation/features/	modified	2025-12-19		Official documentation
-https://curry-lang.org/documentation/learn_more/	modified	2025-12-19		Official documentation
-https://effekt-lang.org/docs/concepts/effect-handlers	updated	2025-12-19		Official documentation
-https://era.ed.ac.uk/server/api/core/bitstreams/574ab588-d1b6-44fd-b64f-f9c998e8d22e/content	modified	2025-12-22		Official documentation
-https://lean-lang.org/doc/reference/latest/Functors___-Monads-and--do--Notation/Lifting-Monads/	updated	2025-12-29		Official documentation
-https://haskell.foundation/events/2026-haskell-ecosystem-workshop.html	created	2026		Official documentation
-https://haskell.foundation/events/2026-haskell-implementors-workshop.html	created	2026		Official documentation
-https://www.mercurylang.org/	modified	2026-01-01		Official documentation
-https://lean-lang.org/doc/reference/latest/Functors___-Monads-and--do--Notation/Varieties-of-Monads/	updated	2026-01-06		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Tasks-and-Threads/	updated	2026-01-16		Official documentation
-https://haskell.foundation/hs-opt-handbook.github.io/src/Case_Studies/klister.html	modified	2026-01-16		Official documentation
-https://haskell.foundation/hs-opt-handbook.github.io/src/Measurement_Observation/Haskell_Profiling/eventlog.html	modified	2026-01-16		Official documentation
-https://next.fpcomplete.com/haskell/learn/	archived	2026-01-25		Official documentation
-https://tessl.io/registry/tessl/maven-org-typelevel--cats-effect_2-12/3.6.0/files/docs/core-io.md	modified	2026-01-26		Official documentation
-https://agda.readthedocs.io/_/downloads/en/v2.6.3.1/pdf/	modified	2026-01-30		Official documentation
-https://idris2.readthedocs.io/en/latest/tutorial/multiplicities.html	modified	2026-02-03		Official documentation
-https://idris2.readthedocs.io/en/latest/reference/pragmas.html	modified	2026-02-03		Official documentation
-https://idris2.readthedocs.io/en/latest/backends/javascript.html	modified	2026-02-03		Official documentation
-https://idris2.readthedocs.io/en/latest/backends/backend-cookbook.html	modified	2026-02-03		Official documentation
-https://run.unl.pt/server/api/core/bitstreams/60b9061c-ba50-43a7-89b9-2633e0e758d6/content	modified	2026-02-05		Official documentation
-https://ocaml.org/u/73f55b5cad7ec65737d7a5e544eced32/lwt/6.0.0~alpha00/doc/lwt.unix/Lwt_unix/index.html	archived	2026-02-11		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Logical-Model/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Control-Structures/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/System-and-Platform-Information/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Environment-Variables/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Timing/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Processes/	updated	2026-02-17		Official documentation
-https://lean-lang.org/doc/reference/latest/IO/Random-Numbers/	updated	2026-02-17		Official documentation
-https://leanprover-community.github.io/archive/stream/270676-lean4/topic/Using.20FFI.20to.20communicate.20with.20a.20stateful.20C.2B.2B.20library.html	modified	2026-02-28		Official documentation
-https://lojban.io/documentation/ghc-prim-0.9.1/src/GHC-Prim-Ext.html	modified	2026-02-28		Official documentation
-https://min-io.cn/docs/minio/linux/developers/haskell/minio-haskell.html	modified	2026-03-01		Official documentation
-https://min-io.cn/docs/minio/linux/developers/haskell/API.html	modified	2026-03-01		Official documentation
-https://typelevel.org/cats-effect/docs/datatypes/io	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/tutorial	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/getting-started	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concepts	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/migration-guide	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/resource	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concurrency/basics	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concurrency/deferred	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concurrency/mvar	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concurrency/overview	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concurrency/ref	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/concurrency/semaphore	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/core/fiber-dumps	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/core/io-local	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/core/io-runtime-config	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/core/starvation-and-tuning	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/core/test-runtime	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/datatypes/ioapp	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/datatypes/resource	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/guides/testing	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/guides/tracing	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/guides/tutorial	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/schedulers	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/console	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/dispatcher	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/hotswap	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/supervisor	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/thread-model	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/tracing	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/concurrency/overview	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/concurrency/ref	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/datatypes/clock	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/datatypes/contextshift	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/datatypes/fiber	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/datatypes/	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/datatypes/syncio	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/backpressure	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/hotswap	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/third-party-resources	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/faq	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/recipes	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/async-await	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/atomic-cell	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/atomic-map	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/backpressure	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/countdown-latch	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/cyclic-barrier	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/deferred	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/dequeue	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/env	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/keyed-mutex	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/mapref	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/mutex	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/pqueue	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/queue	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/random	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/ref	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/std/semaphore	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/atomic-cell	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/atomic-map	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/countdown-latch	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/keyed-mutex	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/mapref	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/mutex	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/next/std/queue	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/versions	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/datatypes/clock	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/docs/datatypes/timer	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/api/3.x/cats/effect/index.html	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/api/3.x/cats/effect/IO.html	published	2026-03-08		Official documentation
-https://typelevel.org/cats-effect/api/3.x/cats/effect/kernel/index.html	published	2026-03-08		Official documentation
-https://doc.flix.dev/glossary.html	updated	2026-03-08		Official documentation
-https://doc.flix.dev/default-handlers.html	updated	2026-03-10		Official documentation
-https://doc.flix.dev/effect-polymorphism.html	updated	2026-03-10		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/	updated	2026-03-16		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/finalization	updated	2026-03-16		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/finalizer	updated	2026-03-16		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/unscoped	updated	2026-03-16		Official documentation
-https://www.ayokoding.com/en/c/learn/software-engineering/platforms/web/tools/ts-effect/by-example/overview	modified	2026-03-18		Official documentation
-https://doc.flix.dev/	updated	2026-03-22		Official documentation
-https://doc.flix.dev/library-effects.html	updated	2026-03-22		Official documentation
-https://verify.rwth-aachen.de/fp24/	modified	2026-03-28		Official documentation
-https://learn.microsoft.com/zh-cn/dotnet/fsharp/language-reference/computation-expressions	updated	2026-03-29		Official documentation
-https://learn.microsoft.com/fr-fr/dotnet/fsharp/language-reference/computation-expressions	updated	2026-03-29		Official documentation
-https://learn.microsoft.com/id-id/dotnet/fsharp/language-reference/computation-expressions	updated	2026-03-29		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/await	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/projection-operations	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/computation-expressions	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/async-expressions	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/fsharp/tutorials/async	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/ka-ge/dotnet/fsharp/language-reference/async-expressions	modified	2026-03-30		Official documentation
-https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/task-expressions	modified	2026-03-30		Official documentation
-https://docs.websharper.com/core/async	modified	2026-03-31		Official documentation
-https://www.eff-lang.org/learn/	modified	2026-04-02		Official documentation
-https://koka-lang.github.io/koka/doc/std_core_hnd.html	modified	2026-04-02		Official documentation
-https://koka-lang.github.io/koka/doc/std_core-source.html	modified	2026-04-02		Official documentation
-https://koka-lang.github.io/koka/doc/std_core.html	modified	2026-04-02		Official documentation
-https://koka-lang.github.io/koka/doc/toc.html	modified	2026-04-02		Official documentation
-https://bow-swift.io/docs/effects/effects-overview/	modified	2026-04-06		Official documentation
-https://bow-swift.io/docs/effects/suspending-side-effects/	modified	2026-04-06		Official documentation
-https://bow-swift.io/docs/quick-start/resources/	modified	2026-04-06		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios	modified	2026-04-08		Official documentation
-https://input-output-hk.github.io/haskell.nix/architecture.html	modified	2026-04-09		Official documentation
-https://sage.ci.dev/live/p/eio/0.9/doc/README.html	modified	2026-04-11		Official documentation
-https://haskell-effectful.github.io/ecosystem/messaging-systems/	created	2026-04-17		Official documentation
-https://agda.readthedocs.io/_/downloads/en/stable/pdf/	published	2026-04-17		Official documentation
-https://agda.readthedocs.io/en/stable/getting-started/tutorial-list.html	modified	2026-04-17		Official documentation
-https://agda.readthedocs.io/en/stable/language/index.html	modified	2026-04-17		Official documentation
-https://agda.readthedocs.io/en/stable/language/coinduction.html	modified	2026-04-17		Official documentation
-https://gcanti.github.io/fp-ts/learning-resources/	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/MonadIO.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/guides/do-notation.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/IO.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/IOEither.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/guides/code-conventions.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/ReaderTaskEither.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/TaskEither.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/Task.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/modules/StateReaderTaskEither.ts.html	modified	2026-04-20		Official documentation
-https://gcanti.github.io/fp-ts/ReaderTaskEither.ts.html	modified	2026-04-20		Official documentation
-https://docs.kleisli.io/nix-effects/guide/theory	archived	2026-04-22		Official documentation
-https://verify.rwth-aachen.de/fp26/	modified	2026-04-22		Official documentation
-https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/using-async-for-file-access	modified	2026-04-23		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Std/Sync/Channel.html	updated	2026-04-23		Official documentation
-https://zio.dev/zio-blocks/reference/streams	updated	2026-04-24		Official documentation
-https://learn.microsoft.com/pt-pt/dotnet/fsharp/language-reference/async-expressions	modified	2026-04-28		Official documentation
-https://agda.readthedocs.io/en/latest/language/coinduction.html	modified	2026-04-28		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/defer-handle	updated	2026-05-04		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Lean/LoadDynlib.html	updated	2026-05-05		Official documentation
-https://idris2.readthedocs.io/en/latest/tutorial/interfaces.html	modified	2026-05-06		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Init/System/IO.html	updated	2026-05-07		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Lean/Util/Path.html	updated	2026-05-07		Official documentation
-https://zio.dev/zio-kafka/tutorial/	updated	2026-05-10		Official documentation
-https://input-output-hk.github.io/io-sim/	updated	2026-05-14		Official documentation
-https://input-output-hk.github.io/io-sim/io-sim	updated	2026-05-14		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Init/System/FilePath.html	updated	2026-05-20		Official documentation
-https://idris-lang.org/pages/documentation.html	modified	2026-05-22		Official documentation
-https://devsisters.github.io/shardcake/docs/	modified	2026-05-26		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.func-2?view=net-10.0	modified	2026-05-27		Official documentation
-https://docs.racket-lang.org/functional/interfaces.html	modified	2026-05-27		Official documentation
-https://docs.racket-lang.org/effect-racket/index.html	modified	2026-05-27		Official documentation
-https://docs.racket-lang.org/heresy/monad-do.html	modified	2026-05-27		Official documentation
-https://docs.racket-lang.org/functional/index.html	modified	2026-05-27		Official documentation
-https://mercurylang.org/documentation/documentation.html	modified	2026-06-02		Official documentation
-https://mercurylang.org/development/developers/coding_standards.html	modified	2026-06-02		Official documentation
-https://arrow-kt.io/learn/design/suspend-io/	modified	2026-06-04		Official documentation
-https://arrow-kt.io/learn/quickstart/from-fp/	modified	2026-06-04		Official documentation
-https://tessl.io/registry/tessl/maven-org-typelevel--cats-effect-2-12/2.5.0/files/docs/io.md	modified	2026-06-04		Official documentation
-https://arrow-kt.io/learn/design/receivers-flatmap/	modified	2026-06-04		Official documentation
-https://returns.readthedocs.io/en/0.28.0/pages/io.html	modified	2026-06-04		Official documentation
-https://returns.readthedocs.io/en/latest/_modules/returns/interfaces/specific/ioresult.html	modified	2026-06-04		Official documentation
-https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/-resource/index.html	modified	2026-06-04		Official documentation
-https://apidocs.arrow-kt.io/arrow-fx-coroutines/arrow.fx.coroutines/bracket.html	modified	2026-06-04		Official documentation
-https://apidocs.arrow-kt.io/arrow-core/arrow.core.raise/-effect/index.html	modified	2026-06-04		Official documentation
-https://apidocs.arrow-kt.io/arrow-fx-stm/arrow.fx.stm/-s-t-m/index.html	modified	2026-06-04		Official documentation
-https://leanprover-community.github.io/mathlib_docs/system/io.html	modified	2026-06-07		Official documentation
-https://zio.dev/reference/core/zio/	updated	2026-06-09		Official documentation
-https://zio.dev/faq	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/ref	updated	2026-06-09		Official documentation
-https://zio.dev/reference/stm	updated	2026-06-09		Official documentation
-https://zio.dev/reference/resource/	updated	2026-06-09		Official documentation
-https://zio.dev/overview/basic-concurrency	updated	2026-06-09		Official documentation
-https://zio.dev/overview/basic-operations	updated	2026-06-09		Official documentation
-https://zio.dev/overview/creating-effects	updated	2026-06-09		Official documentation
-https://zio.dev/overview/handling-errors	updated	2026-06-09		Official documentation
-https://zio.dev/overview/running-effects	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/hub	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/promise	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/queue	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/refsynchronized	updated	2026-06-09		Official documentation
-https://zio.dev/reference/concurrency/semaphore	updated	2026-06-09		Official documentation
-https://zio.dev/reference/core/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/core/exit	updated	2026-06-09		Official documentation
-https://zio.dev/reference/core/runtime	updated	2026-06-09		Official documentation
-https://zio.dev/reference/core/zio/uio	updated	2026-06-09		Official documentation
-https://zio.dev/reference/core/zio/urio	updated	2026-06-09		Official documentation
-https://zio.dev/reference/core/zioapp	updated	2026-06-09		Official documentation
-https://zio.dev/reference/fiber/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/fiber/fiberid	updated	2026-06-09		Official documentation
-https://zio.dev/reference/fiber/fiberstatus	updated	2026-06-09		Official documentation
-https://zio.dev/reference/interruption/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/resource/scope	updated	2026-06-09		Official documentation
-https://zio.dev/reference/resource/scopedref	updated	2026-06-09		Official documentation
-https://zio.dev/reference/resource/zpool	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/best-practices/logging-errors	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/best-practices/unexpected-errors	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/expected-and-unexpected-errors	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/operations/converting-defects-to-failures	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/recovering/retrying	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/recovering/timing-out	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/types/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/types/defects	updated	2026-06-09		Official documentation
-https://zio.dev/reference/error-management/types/failures	updated	2026-06-09		Official documentation
-https://zio.dev/reference/stream/zpipeline	updated	2026-06-09		Official documentation
-https://zio.dev/reference/stream/zsink/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/stream/zsink/creating-sinks	updated	2026-06-09		Official documentation
-https://zio.dev/reference/stream/zstream/scheduling	updated	2026-06-09		Official documentation
-https://zio.dev/reference/observability/metrics/	updated	2026-06-09		Official documentation
-https://zio.dev/reference/observability/tracing	updated	2026-06-09		Official documentation
-https://zio.dev/reference/di/	updated	2026-06-09		Official documentation
-https://lean-lang.org/doc/tutorials/latest/	updated	2026-06-10		Official documentation
-https://clean.cs.ru.nl/Release_history	modified	2026-06-11		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iasyncenumerable-1?view=net-10.0	modified	2026-06-12		Official documentation
-https://clojure.github.io/core.async/reference.html	modified	2026-06-12		Official documentation
-https://scalaz.github.io/scalaz/scalaz-2.10-7.0.3/doc/index.html	modified	2026-06-14		Official documentation
-https://haskell-effectful.github.io/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/system/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/mltp/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/data-storage/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/concurrency/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/cryptography/	modified	2026-06-16		Official documentation
-https://haskell-effectful.github.io/ecosystem/web-development/	modified	2026-06-16		Official documentation
-https://opendal.apache.org/docs/bindings/haskell/	modified	2026-06-17		Official documentation
-https://ocaml.org/manual/5.5/effects.html	published	2026-06-19		Official documentation
-https://lean-lang.org/doc/reference/latest/Iterators/	updated	2026-06-21		Official documentation
-https://lean-lang.org/doc/reference/latest/The--mvcgen--tactic/Enabling-mvcgen--For-Monads/	updated	2026-06-21		Official documentation
-https://typelevel.org/otel4s-sdk/instrumentation/metrics-cats-effect-io-runtime.html	modified	2026-06-21		Official documentation
-https://zio.dev/reference/resource/cached	updated	2026-06-22		Official documentation
-https://returns.readthedocs.io/_/downloads/en/latest/pdf/	published	2026-06-24		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/resource	updated	2026-06-24		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/scope	updated	2026-06-24		Official documentation
-https://zio.dev/zio-blocks/reference/resource-management/wire	updated	2026-06-24		Official documentation
-https://zio.dev/zio-blocks/guides/compile-time-resource-safety-with-scope/	updated	2026-06-24		Official documentation
-https://haddocks.haskell-miso.org/miso-tests/Miso-Test.html	updated	2026-06-24		Official documentation
-https://typelevel.org/doobie/	modified	2026-06-25		Official documentation
-https://typelevel.org/doobie/docs/01-Introduction.html	modified	2026-06-25		Official documentation
-https://typelevel.org/doobie/docs/07-Updating.html	modified	2026-06-25		Official documentation
-https://typelevel.org/doobie/docs/02-Toolkit.html	modified	2026-06-25		Official documentation
-https://doc.flix.dev/for-llms.html	updated	2026-06-25		Official documentation
-https://input-output-hk.github.io/io-sim/io-sim/Control-Monad-IOSim.html	updated	2026-06-26		Official documentation
-https://input-output-hk.github.io/io-sim/io-sim/src/Control.Monad.IOSim.Internal.html	updated	2026-06-26		Official documentation
-https://haddocks.haskell-miso.org/miso/Miso-Effect.html	uploaded	2026-06-27		Official documentation
-https://docs.haskellstack.org/en/latest/topics/package_location/	modified	2026-06-28		Official documentation
-https://zio.dev/overview/handling-resources	updated	2026-06-29		Official documentation
-https://zio.dev/overview/performance	updated	2026-06-29		Official documentation
-https://zio.dev/overview/platforms	updated	2026-06-29		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.whenall?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.selectmany?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltext?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.io.file.writealltext?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.threading.tasks.task-1?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.io.file.readalltextasync?view=net-10.0	modified	2026-07-01		Official documentation
-https://learn.microsoft.com/en-us/dotnet/api/system.security.permissions.fileiopermission?view=netframework-4.8.1	modified	2026-07-01		Official documentation
-https://agda.github.io/agda/	modified	2026-07-09		Official documentation
-https://www.idris-lang.org/Idris2/linear/docs/Control.Linear.LIO.html	modified	2026-07-09		Official documentation
-https://www.idris-lang.org/Idris2/base/docs/Control.Monad.State.State.html	modified	2026-07-09		Official documentation
-https://www.idris-lang.org/Idris2/prelude/docs/PrimIO.html	modified	2026-07-09		Official documentation
-https://www.idris-lang.org/Idris2/base/docs/Data.IOArray.Prims.html	modified	2026-07-09		Official documentation
-https://idris-lang.org/Idris2/prelude/docs/Prelude.IO.html	modified	2026-07-09		Official documentation
-https://idris-lang.org/Idris2/base/docs/System.File.Handle.html	modified	2026-07-09		Official documentation
-https://idris-lang.org/Idris2/base/docs/System.File.html	modified	2026-07-09		Official documentation
-https://idris-lang.org/Idris2/base/docs/System.File.Process.html	modified	2026-07-09		Official documentation
-https://idris-lang.org/Idris2/base/docs/System.FFI.html	modified	2026-07-09		Official documentation
-https://agda.github.io/agda/Agda-Utils-Monad.html	modified	2026-07-09		Official documentation
-https://agda.github.io/agda/Agda-TypeChecking-Monad-Base.html	modified	2026-07-09		Official documentation
-https://idris-lang.org/Idris2/base/docs/Data.IORef.html	modified	2026-07-09		Official documentation
-https://ocsigen.org/lwt/5.4.2/api/Lwt	modified	2026-07-11		Official documentation
-https://zio.dev/reference/fiber/fiber.md	updated	2026-07-13		Official documentation
-https://zio.dev/guides/	updated	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/docs/cli	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Effect.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Fiber.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Scope.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Layer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberHandle.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Cause.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Channel.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Clock.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Console.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Deferred.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Exit.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Logger.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Metric.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Pool.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Queue.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Ref.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RequestResolver.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Resource.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Runtime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Schedule.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Sink.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/STM.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Stream.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/SubscriptionRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Supervisor.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TArray.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TMap.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TPubSub.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TQueue.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Tracer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TSet.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Cache.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ConfigProvider.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/DefaultServices.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Duration.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ExecutionPlan.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberId.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberMap.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberRefs.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberSet.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberStatus.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/GlobalValue.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/KeyedPool.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/LayerMap.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ManagedRuntime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/PartitionedSemaphore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/PubSub.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Random.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RateLimiter.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RcRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Reloadable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Request.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RuntimeFlags.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RuntimeFlagsPatch.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ScheduleDecision.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ScheduleInterval.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ScheduleIntervals.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ScopedCache.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ScopedRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/SynchronizedRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestAnnotation.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestClock.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestConfig.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestContext.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestServices.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Config.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ConfigError.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ConfigProviderPathPatch.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Context.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/FiberRefsPatch.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/LogLevel.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/LogSpan.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricBoundaries.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricHook.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricKey.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricKeyType.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricLabel.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricPair.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricPolling.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricRegistry.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MetricState.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MutableQueue.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MutableRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RequestBlock.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Scheduler.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Streamable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/StreamEmit.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/StreamHaltStrategy.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TDeferred.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TPriorityQueue.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TRandom.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TSemaphore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TSubscriptionRef.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/UpstreamPullRequest.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/UpstreamPullStrategy.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ChildExecutorDecision.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Cron.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Effectable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/ExecutionStrategy.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/GroupBy.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/index.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Mailbox.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MergeDecision.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MergeState.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/MergeStrategy.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Micro.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/RcMap.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Readable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/SingleProducerAsyncInput.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Subscribable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Take.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestAnnotationMap.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestAnnotations.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestLive.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TestSized.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/TReentrantLock.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/effect/Chunk.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Command.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/CommandExecutor.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Error.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Etag.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/FileSystem.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpClient.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpPlatform.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/KeyValueStore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Multipart.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Path.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/PlatformConfigProvider.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Runtime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Socket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Template.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Terminal.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Worker.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/WorkerError.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Cookies.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Effectify.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/FetchHttpClient.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Headers.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApi.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiBuilder.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiClient.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiEndpoint.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiError.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiGroup.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiMiddleware.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiScalar.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiSecurity.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApiSwagger.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpApp.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpBody.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpClientError.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpClientRequest.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpClientResponse.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpIncomingMessage.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpLayerRouter.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpMethod.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpMiddleware.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpMultiplex.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpRouter.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpServerError.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpServerRequest.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpServerRespondable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpServerResponse.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/HttpTraceContext.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/index.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/MsgPack.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Ndjson.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/OpenApi.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/PlatformLogger.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/SocketServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Transferable.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/Url.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/UrlParams.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform/WorkerRunner.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserHttpClient.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserKeyValueStore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserRuntime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserStream.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserWorker.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/BrowserWorkerRunner.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/Clipboard.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/Geolocation.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/index.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-browser/Permissions.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunClusterHttp.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunClusterSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunCommandExecutor.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunContext.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunFileSystem.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunFileSystem/ParcelWatcher.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunHttpPlatform.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunHttpServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunHttpServerRequest.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunKeyValueStore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunMultipart.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunPath.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunRuntime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunSink.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunSocketServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunStream.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunTerminal.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunWorker.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/BunWorkerRunner.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-bun/index.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/index.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeClusterHttp.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeClusterSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeCommandExecutor.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeContext.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeFileSystem.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeFileSystem/ParcelWatcher.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeHttpClient.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeHttpPlatform.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeHttpServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeHttpServerRequest.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeKeyValueStore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeMultipart.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodePath.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeRuntime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeSink.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeSocketServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeStream.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeTerminal.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeWorker.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/NodeWorkerRunner.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node/Undici.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeClusterSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeCommandExecutor.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeFileSystem.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeFileSystem/ParcelWatcher.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeKeyValueStore.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeMultipart.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodePath.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeRuntime.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeSink.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeSocket.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeSocketServer.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeStream.ts.html	published	2026-07-13		Official documentation
-https://effect-ts.github.io/effect/platform-node-shared/NodeTerminal.ts.html	published	2026-07-13		Official documentation
-https://formal.land/docs/tools/rocq-of-ocaml/introduction	modified	2026-07-14		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Lean/Server/Utils.html	updated	2026-07-14		Official documentation
-https://zio.dev/reference/observability/logging	updated	2026-07-15		Official documentation
-https://zio.dev/reference/	updated	2026-07-15		Official documentation
-https://agda.github.io/agda-stdlib/	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://www.curry-lang.org/pakcs/Manual.pdf	published	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/Everything.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Core.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/IO.Primitive.Handle.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/README.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.Effectful.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.0/Effect.Monad.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.3/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.3/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.2/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.2/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.1/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7.1/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7/IO.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.7/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.Base.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.Finite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/IO.Primitive.Infinite.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.6/README.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.5/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.0/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.0/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v0.16/IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v0.16/IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/experimental/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Random.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.4/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.3/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.2/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1.1/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/Effect.Monad.IO.Instances.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/Data.Bytestring.IO.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/Data.Bytestring.IO.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Directory.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Directory.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Environment.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Environment.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Exit.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Exit.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Process.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Process.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Random.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Random.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Clock.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v2.1/System.Clock.Primitive.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/master/Effect.Monad.Random.html	modified	2026-07-16		Official documentation
-https://agda.github.io/agda-stdlib/v1.1/Category.Monad.html	modified	2026-07-16		Official documentation
-https://doc.rust-lang.org/stable/reference/expressions/await-expr.html	modified	2026-07-16		Official documentation
-https://typelevel.org/cats/	modified	2026-07-17		Official documentation
-https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/	modified	2026-07-17		Official documentation
-https://zio.dev/overview/getting-started	updated	2026-07-17		Official documentation
-https://typelevel.org/cats/faq.html	modified	2026-07-17		Official documentation
-https://typelevel.org/cats/datatypes/freemonad.html	modified	2026-07-17		Official documentation
-https://fs2-data.gnieh.org/documentation/xml/	modified	2026-07-18		Official documentation
-https://input-output-hk.github.io/cardano-haskell-packages/package/network-mux-0.4.5.3/	modified	2026-07-20		Official documentation
-https://input-output-hk.github.io/cardano-haskell-packages/all-package-versions/index.html	modified	2026-07-20		Official documentation
-https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IO.html	published	2026-07-21		Official documentation
-https://agda.readthedocs.io/_/downloads/en/latest/pdf/	accessed	2026-07-21		Official documentation
-https://scala-slick.org/doc/prerelease/dbio.html	accessed	2026-07-24		Official documentation
-https://leanprover-community.github.io/mathlib4_docs/Init/System/Platform.html	updated	2026-07-25		Official documentation
-https://lean-lang.org/functional_programming_in_lean/	updated	2026-07-27		Official documentation
-https://effect.website/	accessed	2026-07-27		Official documentation
-https://effect.website/events/effect-days	accessed	2026-07-27		Official documentation
-https://webflow.effect.website/events/effect-days	accessed	2026-07-27		Official documentation
-https://www.mintlify.com/Effect-TS/effect-smol/reference/api-reference	accessed	2026-07-27		Official documentation
-https://haskell.foundation/events/	accessed	2026-07-27		Official documentation
-ftp://haskell.cs.yale.edu/pub/haskell/report/haskell-report.ps.gz	accessed	2026-07-27		Official documentation
-https://mizunashi-mana.gitbooks.io/wiwinwlh-jp/content/docs/monads.html	accessed	2026-07-27		Official documentation
-https://eliasmacielr.org/docs/programacion_funcional_en_haskell_programa.pdf	accessed	2026-07-27		Official documentation
-https://www.informatik.uni-bremen.de/cofi/CASL-CD/Tools/Hets/src/docs/System.IO.html	accessed	2026-07-27		Official documentation
-https://docs.python.org/3/library/io.html?highlight=bytesio	accessed	2026-07-27		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_reference_manual/Unique-modes.html	updated	2026-07-28		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_reference_manual/index.html	updated	2026-07-28		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_user_guide/index.html	updated	2026-07-28		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_user_guide/I_002fO-tabling.html	updated	2026-07-28		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_transition_guide/index.html	updated	2026-07-28		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_library_manual/index.html	updated	2026-07-28		Official documentation
-https://mercurylang.org/information/doc-latest/mercury_reference_manual/Clauses.html	updated	2026-07-28		Official documentation
 https://raw.githubusercontent.com/typeclasses/haskell-report-archive/master/1996-05-haskell-1.3/haskell-report.pdf	created	1996		Courses / teaching
 https://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/all.pdf	created	1996		Courses / teaching
 https://people.eecs.berkeley.edu/~yelick/courses/cs263sp96/tentative.html	modified	1996-04-11		Courses / teaching
@@ -5551,8 +4012,6 @@ https://www.cs.tufts.edu/~kfisher/teaching.html	modified	2011-02-22		Courses / t
 https://www.tufts.edu/~kfisher/teaching.html	modified	2011-02-22		Courses / teaching
 https://www.cse.chalmers.se/~russo/eci11/lectures/material_full.pdf	modified	2011-07-21		Courses / teaching
 https://cspages.ucalgary.ca/~robin/class/521/class-handout.pdf	published	2011-09-12		Courses / teaching
-https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/Monads-and-IO.lhs	modified	2011-10-24		Courses / teaching
-https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/State-monad.lhs	modified	2011-10-24		Courses / teaching
 https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/Monads-and-IO.lhs.html	modified	2011-10-24		Courses / teaching
 https://cse.iitk.ac.in/users/ppk/teaching/cs653/notes/lectures/State-monad.lhs.html	modified	2011-10-24		Courses / teaching
 https://www.cs.cornell.edu/courses/cs6112/2011fa/notes/oct15.pdf	published	2011-10-25		Courses / teaching
@@ -5883,7 +4342,6 @@ https://slides.com/haskellbeginners2022/lecture-4	created	2022		Courses / teachi
 http://slides.com/fp-ctd/lecture-6#/	created	2022		Courses / teaching
 https://slides.com/fp-ctd/lecture-06-io	created	2022		Courses / teaching
 https://proglang.informatik.uni-freiburg.de/teaching/functional-programming/2022/	created	2022		Courses / teaching
-https://raw.githubusercontent.com/haskell-beginners-2022/course-plan/main/README.md	created	2022		Courses / teaching
 https://confengine.com/conferences/functional-conf-2022/proposal/16377/interpret-your-monads-concrete-monads-vs-monad-classes	created	2022		Courses / teaching
 https://guppy.eng.kagawa-u.ac.jp/~kagawa/2022/AdvProg/	created	2022		Courses / teaching
 https://slides.com/haskellbeginners2022/lecture-1	created	2022		Courses / teaching
@@ -6128,7 +4586,6 @@ https://docs.racket-lang.org/algebraic/class_base.html	modified	2026-05-27		Cour
 https://haskell.pesquisa.ufabc.edu.br/19.q3.haskell/files/dia03.pdf	modified	2026-06-19		Courses / teaching
 https://haskell.pesquisa.ufabc.edu.br/20.q1.haskell/files/dia02_sol.pdf	modified	2026-06-19		Courses / teaching
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/	modified	2026-07-01		Courses / teaching
-https://ps-tuebingen-courses.github.io/pl1-lecture-notes/23-monadic-reflection/monadic-reflection.rkt	modified	2026-07-01		Courses / teaching
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/20-monads-intro/monads-intro.html	modified	2026-07-01		Courses / teaching
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/21-io-monad/io-monad.html	modified	2026-07-01		Courses / teaching
 https://ps-tuebingen-courses.github.io/pl1-lecture-notes/22-modular-interpreters/modular-interpreters.html	modified	2026-07-01		Courses / teaching
@@ -6159,51 +4616,17 @@ https://www.cs.usfca.edu/~galles/cs360/lecture4.pdf	accessed	2026-07-27		Courses
 https://proglang.github.io/teaching/24ws/fp.html	accessed	2026-07-27		Courses / teaching
 https://martinescardo.github.io/events/MGS12/lectures/NilssonSlides/lecture04.pdf	accessed	2026-07-27		Courses / teaching
 https://www.michaelcurry.org/haskell/monads/lecture1.pdf	accessed	2026-07-27		Courses / teaching
-https://www.curry-lang.org/pakcs/examples/	modified	2007-12-05		Code / repositories
 https://www.fer.unizg.hr/_download/repository/PPIJ_Funkcijsko_programiranje_i_Haskell%5B3%5D.pdf	modified	2014-01-18		Code / repositories
-https://gitlab.com/LukaHorvat/simple-effects	created	2016-07-28		Code / repositories
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/LICENSE	updated	2016-11-13		Code / repositories
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/QIO.cabal	updated	2016-11-13		Code / repositories
-https://raw.githubusercontent.com/alexandersgreen/qio-haskell/master/README.md	updated	2016-11-13		Code / repositories
-https://gitlab.com/haskell-hr/basic	created	2017-06-11		Code / repositories
 https://xion.io/post/code/haskell-printer-monad.html	archived	2017-08-08		Code / repositories
 https://ki.pwr.edu.pl/programs/2a-2019/m-E2-W37-pwr.pdf	created	2019		Code / repositories
-https://gitlab.com/bgamari/ghc-wiki	created	2019-01-30		Code / repositories
-https://gitlab.com/igrep/haskell-fakefs	created	2019-03-29		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/README.md	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/.gitignore	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/ChangeLog.md	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/LICENSE	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/README.md	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/dist/cabal-config-flags	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/package.yaml	updated	2019-06-12		Code / repositories
-https://raw.githubusercontent.com/RobertFischer/vfs-conduit/master/conduit-vfs/stack.yaml	updated	2019-06-12		Code / repositories
 https://raw.githubusercontent.com/nbenton/nbenton.github.io/master/monadsandeffectsfinal.pdf	updated	2019-07-23		Code / repositories
-https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/HelloWorld_Proof.thy	updated	2020-03-23		Code / repositories
-https://gitlab.com/Lipovsky/awesome-concurrency	created	2020-04-08		Code / repositories
 https://hasura.github.io/eff/src/Control.Effect.html	modified	2020-06-19		Code / repositories
-https://git.joshthomas.dev/language-servers/roc/src/commit/a231950c3a6eeede505f7ef947b9a48505121eac	modified	2020-08-14		Code / repositories
 https://src.acm.org/binaries/content/assets/src/2021/cezar-constantin-andrici.pdf	created	2021		Code / repositories
-https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/document/root.tex	updated	2021-03-10		Code / repositories
-https://raw.githubusercontent.com/NixOS/nixpkgs/c92ca95afb5043bc6faa0d526460584eccff2277/pkgs/development/haskell-modules/hackage-packages.nix	updated	2021-04-16		Code / repositories
 https://xmonad.github.io/xmonad-docs/ghc-prim-0.8.0/src/GHC-Magic.html	uploaded	2021-10-29		Code / repositories
 https://xmonad.github.io/xmonad-docs/base-4.15.1.0/src/System-IO.html	uploaded	2021-12-28		Code / repositories
-https://raw.githubusercontent.com/AliasQli/dialogue/master/dialogue.cabal	updated	2022-02-13		Code / repositories
-https://raw.githubusercontent.com/AliasQli/dialogue/master/README.md	updated	2022-02-13		Code / repositories
-https://raw.githubusercontent.com/AliasQli/dialogue/master/ChangeLog.md	updated	2022-02-13		Code / repositories
 https://hood.com.br/new/filegator/repository/Paradigmas%20de%20Linguagens%20de%20Programa%C3%A7%C3%A3o/Notas%20de%20Aula.pdf	archived	2022-10-07		Code / repositories
 https://xmonad.github.io/xmonad-docs/base-4.16.4.0/src/Data.IORef.html	uploaded	2022-11-09		Code / repositories
 https://raw.githubusercontent.com/Garbaz/OCamlProseminar/master/ausarbeitung/Tobias-Hoffmann-Ausarbeitung.pdf	updated	2022-11-24		Code / repositories
-https://gitlab.com/lysxia/blog.poisson.chat/-/blob/1ad376570de24798cca8171cf96f52b7231d58b5/posts/2023-01-02-del-cont-examples.lhs	created	2023		Code / repositories
-https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/ROOT	updated	2023-07-14		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/.gitignore	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/IOSpec.cabal	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/LICENSE	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/README	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/Setup.lhs	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/cabal.png	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/www/unsafe.jpg	updated	2023-07-25		Code / repositories
-https://raw.githubusercontent.com/lambdabot/IOSpec/master/index.html	updated	2023-07-25		Code / repositories
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/02-Effect-and-Aff/src/03-Aff/03-Node-ReadLine/03-Converting-Effects-with-Callbacks-into-Aff.html	modified	2023-12-12		Code / repositories
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/05-Application-Structure/src/01-Monads-and-Effects.html	modified	2023-12-12		Code / repositories
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/02-Effect-and-Aff/src/03-Aff/02-Lifting-Monads/01-MonadEffect.html	modified	2023-12-12		Code / repositories
@@ -6213,49 +4636,7 @@ https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-He
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/05-Application-Structure/src/03-Free/02-Why-Use-the-Free-Monad/07-Defining-Modular-Monads.html	modified	2023-12-12		Code / repositories
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/02-Effect-and-Aff/src/03-Aff/index.html	modified	2023-12-12		Code / repositories
 https://jordanmartinez.github.io/purescript-jordans-reference-site/content/21-Hello-World/05-Application-Structure/src/02-MTL/32-The-ReaderT-Capability-Design-Pattern.html	modified	2023-12-12		Code / repositories
-https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/HelloWorld.thy	updated	2023-12-29		Code / repositories
-https://ziohttp.com/examples/http-client-server	created	2024-01-29		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/.gitignore	updated	2024-02-01		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/knob.cabal	updated	2024-02-01		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/scripts/common.bash	updated	2024-02-01		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-coverage	updated	2024-02-01		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/scripts/run-tests	updated	2024-02-01		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/tests/knob-tests.cabal	updated	2024-02-01		Code / repositories
-https://raw.githubusercontent.com/ncfavier/knob/main/license.txt	updated	2024-02-01		Code / repositories
-https://codeberg.org/wxHaskell	created	2024-05-16		Code / repositories
-https://raw.githubusercontent.com/noughtmare/free-io/main/free-io.cabal	updated	2024-11-30		Code / repositories
-https://raw.githubusercontent.com/noughtmare/free-io/main/CHANGELOG.md	updated	2024-11-30		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/LICENSE	updated	2025-04-30		Code / repositories
-https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/RunningCodeFromIsabelle.thy	updated	2025-06-16		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/README.md	updated	2025-07-07		Code / repositories
-https://ziohttp.com/examples/streaming/	archived	2025-07-12		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/NOTICE	updated	2025-07-14		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-linux/System/FS/BlockIO/Internal/Fcntl.hsc	updated	2025-11-26		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/src-macos/System/FS/BlockIO/Internal/Fcntl.hsc	updated	2025-11-26		Code / repositories
 https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2026-2027/FMFI/EN/mINF.pdf	created	2026		Code / repositories
-https://raw.githubusercontent.com/isabelle-prover/mirror-afp-devel/master/thys/Hello_World/IO.thy	updated	2026-01-03		Code / repositories
-https://brandon.si/code/synchronized-concurrent-io-actions/	modified	2026-01-10		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/CHANGELOG.md	updated	2026-05-13		Code / repositories
-https://raw.githubusercontent.com/IntersectMBO/lsm-tree/main/blockio/blockio.cabal	updated	2026-05-13		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/CONTRIBUTING.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/NOTICE	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/README.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/SECURITY.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/CHANGELOG.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/NOTICE	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/README.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-api/fs-api.cabal	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/CHANGELOG.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/NOTICE	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/README.md	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/fs-sim/main/fs-sim/fs-sim.cabal	updated	2026-05-18		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/README.md	updated	2026-06-30		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/CHANGELOG.md	updated	2026-06-30		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/LICENSE	updated	2026-06-30		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/NOTICE	updated	2026-06-30		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/README.md	updated	2026-06-30		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/how-to-use-IOSimPOR.md	updated	2026-06-30		Code / repositories
-https://raw.githubusercontent.com/input-output-hk/io-sim/main/io-sim/io-sim.cabal	updated	2026-06-30		Code / repositories
 https://www.idris-lang.org/Idris2/prelude/source/Prelude.IO.html	modified	2026-07-09		Code / repositories
 https://www.idris-lang.org/Idris2/linear/source/Control.Linear.LIO.html	modified	2026-07-09		Code / repositories
 https://idris-lang.org/Idris2/network/source/Control.Linear.Network.html	modified	2026-07-09		Code / repositories
@@ -6265,84 +4646,22 @@ https://www.idris-lang.org/Idris2/base/source/Data.IORef.html	modified	2026-07-0
 https://www.idris-lang.org/Idris2/base/source/Data.Buffer.html	modified	2026-07-09		Code / repositories
 https://www.idris-lang.org/Idris2/base/source/System.Concurrency.html	modified	2026-07-09		Code / repositories
 https://www.idris-lang.org/Idris2/network/source/Network.FFI.html	modified	2026-07-09		Code / repositories
-https://foldoc.org/Yale%2BHaskell	updated	1993-07-14		Reference / encyclopedia
-https://foldoc.org/Opal	updated	1995-02-16		Reference / encyclopedia
-https://foldoc.org/Clean	updated	1995-11-08		Reference / encyclopedia
-https://foldoc.org/Fudgets	updated	1996-03-17		Reference / encyclopedia
-https://foldoc.org/Haskell	updated	1997-06-06		Reference / encyclopedia
-https://foldoc.org/Hope%2B	updated	1999-08-24		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Haskell	published	2001-07-27		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Andrew_D._Gordon	created	2002-11-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Uniqueness_type	created	2002-12-27		Reference / encyclopedia
-https://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29	created	2003-06-04		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Monad_%28category_theory%29	created	2003-11-02		Reference / encyclopedia
 https://ncatlab.org/nlab/files/WadlerMonads.pdf	created	2004-02-24		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Effect_system	created	2004-05-24		Reference / encyclopedia
-https://it.wikipedia.org/wiki/Haskell_%28linguaggio_di_programmazione%29	published	2004-06-30		Reference / encyclopedia
-https://zh.wikipedia.org/wiki/Haskell	published	2004-09-21		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Grattage-CompilingFunctionalQPL.pdf	created	2005-03-30		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Epigram_%28programming_language%29	published	2005-05-24		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Opal_%28programming_language%29	published	2005-05-24		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Futures_and_promises	created	2005-07-10		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Philip_Wadler	created	2005-10-04		Reference / encyclopedia
-https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D1%82%D0%BE%D1%82%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F	created	2006-03-28		Reference / encyclopedia
-https://it.wikipedia.org/wiki/Monade_%28informatica%29	published	2006-08-04		Reference / encyclopedia
-https://it.wikipedia.org/wiki/Monade_(informatica)	published	2006-08-04		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Print_version	created	2006-09-04		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Altenkirch-QIOMonad.pdf	published	2006-12-18		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Green-QIOMonad.pdf	created	2007-04-17		Reference / encyclopedia
-https://zh.wikipedia.org/wiki/%E5%8D%95%E5%AD%90_%28%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%29	published	2009-02-11		Reference / encyclopedia
-https://ncatlab.org/nlab/show/idempotent%2Bmonad	created	2009-03-27		Reference / encyclopedia
-https://ncatlab.org/nlab/show/strong%2Bmonad	created	2009-07-22		Reference / encyclopedia
-https://ncatlab.org/nlab/show/tensorial%2Bstrength	created	2009-07-22		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Kleisli%2Bcategory	created	2009-08-03		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Monade_%28Informatik%29	created	2009-10-28		Reference / encyclopedia
-https://ncatlab.org/nlab/show/additive%2Bmonad	created	2009-11-18		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Haskell_features_%28programming_language%29	created	2010-02-09		Reference / encyclopedia
-https://ncatlab.org/nlab/show/free%2Bmonad	created	2010-05-13		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Eugenio%20Moggi	created	2011-11-21		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Eugenio%2BMoggi	created	2011-11-21		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Eugenio_Moggi	created	2011-11-21		Reference / encyclopedia
-https://ncatlab.org/nlab/show/monad%2Bwith%2Barities	created	2012-01-16		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Thorsten%20Altenkirch	created	2012-02-15		Reference / encyclopedia
-https://ncatlab.org/nlab/show/monoidal%2Bmonad	created	2012-03-02		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Voutas-Monads.pdf	published	2012-05		Reference / encyclopedia
-https://ncatlab.org/nlab/show/monad%2B(in%2Bcomputer%2Bscience)	created	2012-09-06		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Yesod_%28web_framework%29	published	2012-10-12		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Real_World_Haskell	created	2012-11-15		Reference / encyclopedia
-https://ncatlab.org/nlab/show/effect%2Balgebra	created	2013-01-07		Reference / encyclopedia
-https://ncatlab.org/nlab/show/polynomial%2Bmonad	created	2013-02-17		Reference / encyclopedia
-https://zh.wikipedia.org/wiki/Agda	published	2013-12-24		Reference / encyclopedia
-https://ncatlab.org/nlab/show/relative%2Bmonad	created	2014-01-12		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Philip%2BWadler	created	2014-01-13		Reference / encyclopedia
-https://ncatlab.org/nlab/show/state%2Bmonad	created	2014-02-11		Reference / encyclopedia
-https://ncatlab.org/nlab/show/enriched%2Bmonad	created	2014-03-11		Reference / encyclopedia
-https://ncatlab.org/nlab/show/domain%2Bspecific%2Bembedded%2Bprogramming%2Blanguage	created	2014-05-11		Reference / encyclopedia
-https://ncatlab.org/nlab/show/function%2Bmonad	created	2015-04-17		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Benton-CategoricalMonads.pdf	published	2015-05-20	10.1112/i150lms/t.0002	Reference / encyclopedia
-https://en.wikiversity.org/wiki/Haskell_programming_in_plain_view	created	2015-11-23		Reference / encyclopedia
-https://ru.wikipedia.org/wiki/Idris_%28%D1%8F%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%29	created	2016-04-03		Reference / encyclopedia
-https://ncatlab.org/nlab/show/monad%2Btransformer	created	2016-09-29		Reference / encyclopedia
-https://ncatlab.org/nlab/show/imperative%2Bprogramming	created	2016-09-30		Reference / encyclopedia
-https://ncatlab.org/nlab/show/side%2Beffect	created	2016-10-10		Reference / encyclopedia
-https://smunix.github.io/ghc.haskell.org/trac/ghc/wiki/Commentary.html	modified	2017-01-16		Reference / encyclopedia
-https://en.wikipedia.org/wiki/John_Launchbury	created	2017-01-19		Reference / encyclopedia
-https://ncatlab.org/nlab/show/relative%2Bpseudomonad	created	2017-03-24		Reference / encyclopedia
 https://upload.wikimedia.org/wikipedia/commons/f/f5/Imperative_to_Functional_Programming.pdf	modified	2018-01-11		Reference / encyclopedia
 https://upload.wikimedia.org/wikipedia/commons/a/aa/Write_Yourself_a_Scheme_in_48_Hours.pdf	modified	2018-01-17		Reference / encyclopedia
-https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B0%E5%BC%8F%E5%8F%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B	published	2018-04-13		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/1/16/Functor.2.B.Lifting.20180721.pdf	modified	2018-07-21		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/a/ad/Monad.3.I.Transformer.20180727.pdf	modified	2018-07-27		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/1/1d/Monad.11.A.Reader.20180821.pdf	modified	2018-08-21		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/3/3a/Monad.4.A.IO.20181025.pdf	modified	2018-10-27		Reference / encyclopedia
-https://static.hlt.bme.hu/semantics/external/pages/bizony%C3%ADt%C3%A1sok_programokk%C3%A9nt_t%C3%B6rt%C3%A9n%C5%91_%C3%A9rtelmez%C3%A9se/en.wikipedia.org/wiki/Philip_Wadler.html	modified	2019-02-12		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/5/5f/Monad.P1.3A.Operations.20190308.pdf	modified	2019-03-09		Reference / encyclopedia
-https://en.wikipedia.org/wiki/PureScript	created	2019-03-14		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/6/6e/Monad.P1.1A.SideEffect.20190316.pdf	modified	2019-03-26		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/f/fc/Monad.P2.2A.IO.Basic.20190325.pdf	modified	2019-03-28		Reference / encyclopedia
-https://github-wiki-see.page/m/Mercury-Language/mercury/wiki/Builtin-types	modified	2019-05-04		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/f/f7/Monad.P1.5A.IOAction.20190606.pdf	modified	2019-06-06		Reference / encyclopedia
-https://ncatlab.org/nlab/show/graded%2Bmonad	created	2019-06-24		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/7/77/MP2.1C.STrans.Monad.20190706.pdf	modified	2019-07-06		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/f/fc/MP3.3A.ST.Basic.20190731.pdf	modified	2019-07-31		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/6/65/MP3.3A.ST.Basic.20190810.pdf	modified	2019-08-10		Reference / encyclopedia
@@ -6357,243 +4676,50 @@ https://upload.wikimedia.org/wikiversity/en/7/76/MP3.3B.ST.Method.20191023.pdf	m
 https://upload.wikimedia.org/wikiversity/en/d/da/MP3.3C.ST.STRef.20191023.pdf	modified	2019-10-23		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/c/c3/MP3.3A.ST.Basic.20191031.pdf	modified	2019-10-31		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/f/f3/MP3.1D.Mut.DataStruct.20191226.pdf	modified	2019-12-26		Reference / encyclopedia
-https://ncatlab.org/nlab/show/commutative%2Bmonad	created	2020-01-14		Reference / encyclopedia
-https://ncatlab.org/nlab/show/algebra%2Bover%2Ba%2Bmonad	created	2020-01-19		Reference / encyclopedia
-https://ncatlab.org/nlab/show/action%2Bmonad	created	2020-01-21		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/9/92/MP3.1B.Mut.Variable.20200224.pdf	modified	2020-03-03		Reference / encyclopedia
 https://upload.wikimedia.org/wikiversity/en/c/cd/MP3.1B.Mut.PrimType.20200313.pdf	modified	2020-03-21		Reference / encyclopedia
-https://en.wikipedia.org/wiki/John_Darlington	published	2020-07-08		Reference / encyclopedia
-https://github-wiki-see.page/m/cardano-scaling/hydra/wiki/Logbook-2021-H1	created	2021		Reference / encyclopedia
-https://zh.wikipedia.org/wiki/PureScript	published	2021-02-07		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Alexander%2BGreen	created	2021-02-16		Reference / encyclopedia
-https://ncatlab.org/nlab/show/quantum%2Bprogramming%2Blanguages%2B--%2Breferences	created	2021-02-17		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Uustalu-Monads1.pdf	published	2021-04-16		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Uustalu-Monads2.pdf	published	2021-04-16		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Uustalu-Monads3.pdf	published	2021-04-16		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Uustalu-Monads4.pdf	published	2021-04-16		Reference / encyclopedia
-https://ncatlab.org/nlab/show/analytic%2Bmonad	created	2021-06-22		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Session_type	published	2021-09-04		Reference / encyclopedia
 https://ncatlab.org/nlab/files/KohlSchwaiger-Monads.pdf	created	2022-01-26		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Arkor-MonadicAndHigherStructure.pdf	published	2022-03	10.17863/CAM.86347	Reference / encyclopedia
-https://ncatlab.org/nlab/show/affine%2Bmonad	created	2022-08-20		Reference / encyclopedia
-https://ncatlab.org/nlab/show/QML	created	2022-10-02		Reference / encyclopedia
-https://ncatlab.org/nlab/show/IO-monad	created	2022-11-02		Reference / encyclopedia
-https://ncatlab.org/nlab/show/quantum%2BIO%2Bmonad	created	2022-11-08		Reference / encyclopedia
-https://ncatlab.org/nlab/show/quantum%2Breader%2Bmonad	created	2022-11-13		Reference / encyclopedia
-https://nforum.ncatlab.org/discussion/15359/	archived	2023-01-28		Reference / encyclopedia
-https://handwiki.org/wiki/Iteratee	publication	2023-06-27		Reference / encyclopedia
-https://ncatlab.org/nlab/show/reader-writer%2B%28co%29monads%2B--%2Btable	created	2023-08-11		Reference / encyclopedia
-https://ncatlab.org/nlab/show/list%2Bmonad	created	2023-08-27		Reference / encyclopedia
 https://ncatlab.org/nlab/files/Launchbury-LazyImperative.pdf	modified	2023-08-28		Reference / encyclopedia
-https://ncatlab.org/nlab/show/quantum%20state%20monad	created	2023-09-10		Reference / encyclopedia
 https://metalab.at/wiki/images/1/11/MonadTalk.pdf	modified	2023-10-21		Reference / encyclopedia
-https://github-wiki-see.page/m/scotty-web/scotty/wiki/Scotty-Tutorials-%26-Examples	modified	2023-12-03		Reference / encyclopedia
-https://ncatlab.org/nlab/show/polymonad	created	2023-12-12		Reference / encyclopedia
-https://ncatlab.org/nlab/show/Wouter%2BSwierstra	created	2024-01-03		Reference / encyclopedia
-https://handwiki.org/wiki/Monad_%28functional_programming%29	publication	2024-02-07		Reference / encyclopedia
 https://ncatlab.org/schreiber/files/QuantumMonadology-240424.pdf	published	2024-04-24		Reference / encyclopedia
-https://ncatlab.org/nlab/show/separable%2Bmonad	created	2024-09-05		Reference / encyclopedia
 https://ifipwg21wiki.cs.kuleuven.be/wiki/images/9/90/78_janis.pdf	modified	2024-11-26		Reference / encyclopedia
-https://ncatlab.org/nlab/show/promonad	created	2025-01-09		Reference / encyclopedia
-https://github-wiki-see.page/m/Mercury-Language/mercury/wiki/Hello%2C-world%21	modified	2025-03-10		Reference / encyclopedia
-https://ncatlab.org/nlab/show/parameterized%2Bmonad	created	2025-03-26		Reference / encyclopedia
-https://haskell-distributed.github.io/wiki/networktransport.html	modified	2025-04-16		Reference / encyclopedia
 https://upload.wikimedia.org/wikipedia/commons/2/26/Haskell.pdf	published	2025-06-17		Reference / encyclopedia
 https://upload.wikimedia.org/wikipedia/commons/6/62/Haskell_eBook_Reader.pdf	published	2025-06-17		Reference / encyclopedia
 https://ncatlab.org/schreiber/files/QuantumMonadology-250718.pdf	published	2025-07-18		Reference / encyclopedia
-https://handwiki.org/wiki/Pure_function	publication	2025-12-18		Reference / encyclopedia
-https://handwiki.org/wiki/Haskell	publication	2026-02-12		Reference / encyclopedia
-https://handwiki.org/wiki/Uniqueness_type	publication	2026-02-14		Reference / encyclopedia
-https://handwiki.org/wiki/Software%3AQuickCheck	publication	2026-02-15		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Understanding_monads/IO	modified	2026-07-12		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Advanced_monads	modified	2026-07-12		Reference / encyclopedia
-https://de.wikipedia.org/wiki/Monade_%28Informatik%29	modified	2026-07-12		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Substructural_type_system	modified	2026-07-12		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/GUI	modified	2026-07-12		Reference / encyclopedia
-https://de.wikipedia.org/wiki/Monade_(Informatik)	modified	2026-07-12		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/FFI	modified	2026-07-12		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Solutions/IO	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Prologue%3A_IO%2C_an_applicative_functor	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Comonads	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Io	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Monads	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Monad_transformers	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Understanding_monads/State	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Understanding_monads	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Simple_input_and_output	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Practical_monads	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Monadic_parser_combinators	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Alternative_and_MonadPlus	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Libraries/IO	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Yet_Another_Haskell_Tutorial/Preamble	modified	2026-07-13		Reference / encyclopedia
-https://de.wikipedia.org/wiki/Haskell_%28Programmiersprache%29	modified	2026-07-13		Reference / encyclopedia
-https://es.wikipedia.org/wiki/M%C3%B3nada_%28programaci%C3%B3n_funcional%29	modified	2026-07-13		Reference / encyclopedia
-https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B0%D0%B4%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29	modified	2026-07-13		Reference / encyclopedia
-https://pt.wikipedia.org/wiki/M%C3%B4nada_%28programa%C3%A7%C3%A3o_funcional%29	modified	2026-07-13		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Arrow_%28computer_science%29	modified	2026-07-13		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Awkward_squad	modified	2026-07-13		Reference / encyclopedia
-https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D1%82%D0%BE%D1%82%D0%B0_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Understanding_monads/IO&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Understanding_monads/IO&oldid=4037255	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Practical_monads&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Practical_monads&oldid=3292288	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Prologue:_IO,_an_applicative_functor	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Prologue:_IO,_an_applicative_functor&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Prologue:_IO,_an_applicative_functor&oldid=4218416	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Simple_input_and_output&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Simple_input_and_output&oldid=4628105	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Understanding_monads/Solutions/IO&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Understanding_monads/Solutions/IO&oldid=4037256	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Libraries/IO&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Libraries/IO&oldid=3676039	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Standalone_programs	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Standalone_programs&printable=yes	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/Standalone_programs&oldid=4445257	modified	2026-07-13		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Escher_%28programming_language%29	modified	2026-07-13		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Mercury_%28programming_language%29	modified	2026-07-13		Reference / encyclopedia
-https://de.wikipedia.org/wiki/Socket	modified	2026-07-13		Reference / encyclopedia
-https://de.wikipedia.org/wiki/Agda	modified	2026-07-13		Reference / encyclopedia
-https://de.wikipedia.org/wiki/Curry_%28Programmiersprache%29	modified	2026-07-13		Reference / encyclopedia
-https://zh.wikipedia.org/wiki/House_%28%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%29	modified	2026-07-13		Reference / encyclopedia
-https://ru.wikibooks.org/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F/Haskell/%D0%92%D0%B2%D0%BE%D0%B4-%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Control_structures	modified	2026-07-13		Reference / encyclopedia
-https://es.wikipedia.org/wiki/M%C3%B3nada_(programaci%C3%B3n_funcional)	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Denotational_semantics	modified	2026-07-13		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Category%3ABook%3AHaskell	modified	2026-07-13		Reference / encyclopedia
-https://fr.wikipedia.org/wiki/Monade_%28informatique%29	modified	2026-07-14		Reference / encyclopedia
-https://fr.wikipedia.org/wiki/PureScript	modified	2026-07-14		Reference / encyclopedia
-https://fr.wikipedia.org/wiki/Monade_(informatique)	modified	2026-07-14		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Concurrent_Haskell	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Monad_transformer	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Clean_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Snap_%28web_framework%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Fudgets	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Functional_reactive_programming	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Haskell_features	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Comparison_of_functional_programming_languages	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Idris_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Agda_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Eff_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Quantum_programming	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Curry_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Gofer_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Hope_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Servant_%28web_framework%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/MBrace	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Ur_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Flix_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Elm_%28programming_language%29	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Input/output	modified	2026-07-15		Reference / encyclopedia
 https://commons.wikimedia.org/wiki/File%3AHaskell.pdf	modified	2026-07-15		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Iteratee	modified	2026-07-16		Reference / encyclopedia
-https://en.wikipedia.org/wiki/WxHaskell	modified	2026-07-16		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Hugs_%28interpreter%29	modified	2026-07-16		Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/do_notation	modified	2026-07-18		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/do_notation&printable=yes	modified	2026-07-18		Reference / encyclopedia
-https://en.wikibooks.org/w/index.php?title=Haskell/do_notation&oldid=3796677	modified	2026-07-18		Reference / encyclopedia
-https://en.wikipedia.org/wiki/F%2A_%28programming_language%29	modified	2026-07-18		Reference / encyclopedia
-https://en.wikipedia.org/wiki/ATS_%28programming_language%29	modified	2026-07-19		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Monad_%28functional_programming%29	modified	2026-07-19		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Monad_(functional_programming)	modified	2026-07-19		Reference / encyclopedia
-https://en.wikipedia.org/wiki/QuickCheck	modified	2026-07-20		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Isabelle_%28proof_assistant%29	modified	2026-07-20		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Dependent_type	modified	2026-07-20		Reference / encyclopedia
-https://en.wikipedia.org/wiki/Xmonad	modified	2026-07-20		Reference / encyclopedia
 https://portal.mardi4nfdi.de/wiki/Publication%3A2986833	accessed	2026-07-27	10.1109/LICS.2012.66	Reference / encyclopedia
-https://en.wikibooks.org/wiki/Haskell/Category:Input_and_output	accessed	2026-07-27		Reference / encyclopedia
-https://wiki.nixos.org/wiki/Haskell	accessed	2026-07-27		Reference / encyclopedia
-https://portal.acm.org/citation.cfm?id=363749	published	1965-02		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA57122249	publication	1970		Indexes / metadata
-https://dblp.org/rec/journals/corr/abs-2104-00480.html	published	1980		Indexes / metadata
-https://ftp.math.utah.edu/pub/tex/bib/sigplan1980.html	created	1980		Indexes / metadata
 https://openalex.org/W1989524304	published	1981-04-01	10.1145/988131.988141	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e1982fd32ea61a8271cfa056da7bdab7d7f0954e&repid=rep1&type=pdf	created	1982		Indexes / metadata
-https://hdl.handle.net/1983/bf18fe1a-0776-4769-afaf-578c248488ca	created	1983		Indexes / metadata
-https://dblp.org/rec/conf/slipe/1985.html	created	1985		Indexes / metadata
-https://dblp.org/rec/journals/sigplan/ODonnell85.html	published	1985		Indexes / metadata
-https://dblp.org/db/conf/slipe/slipe1985	created	1985		Indexes / metadata
-https://researchr.org/journal/sigplan/volume/20	publication	1985		Indexes / metadata
 https://dblp.org/rec/journals/ipl/Dwelly88.html	published	1988	10.1016/0020-0190(88)90142-1	Indexes / metadata
-https://dblp.org/rec/conf/fp/McLoughlinH89.html	published	1989		Indexes / metadata
-https://dblp.org/rec/conf/fpca/Wadler89.html	published	1989		Indexes / metadata
-https://dblp.org/rec/conf/lics/Moggi89.html	published	1989		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=89b76e3719971789a412963d2145ad804c3670ac&repid=rep1&type=pdf	publication	1989		Indexes / metadata
-https://obnb.uk/p11013103-functional-programming-proceedings-of-the-1989-glasgow-workshop-21-23-august-1989-fraserburgh-scotland	created	1989		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA52242833	created	1989		Indexes / metadata
-https://dblp1.uni-trier.de/pid/15/1957.html	published	1990		Indexes / metadata
-https://dblp.org/rec/conf/lfp/Wadler90.html	published	1990		Indexes / metadata
-https://dblp.org/rec/journals/scp/Spivey90.html	published	1990		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA12188969	created	1990		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=dd70a5af31c2f6196803ed69dbc1f9e877047e7a&repid=rep1&type=pdf	publication	1990		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e21be3213fc22284e7f8f72f9ff867070f8816c0&repid=rep1&type=pdf	publication	1990		Indexes / metadata
-https://dblp.org/rec/journals/iandc/Moggi91.html	published	1991		Indexes / metadata
-https://dblp.org/rec/journals/jfp/Burton91.html	published	1991		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8242b566d8bd1ce0ebbcb7cfdea0aa5b70501da1&repid=rep1&type=pdf	publication	1991		Indexes / metadata
-https://researchr.org/publication/Moggi91	publication	1991-07		Indexes / metadata
-https://dblp.org/rec/conf/fp/AchtenGP92.html	published	1992		Indexes / metadata
-https://dblp.org/rec/conf/nato/Wadler92.html	published	1992		Indexes / metadata
-https://dblp.org/rec/conf/plilp/Rebelsky92.html	published	1992		Indexes / metadata
-https://dblp.org/rec/conf/popl/Wadler92.html	published	1992		Indexes / metadata
-https://dblp.org/rec/journals/jfp/BroyD92.html	published	1992		Indexes / metadata
-https://dblp.org/rec/phd/ethos/Gordon92.html	published	1992		Indexes / metadata
-https://dblp.org/db/conf/fp/fp1992	created	1992		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=a868f422a3cb39bb7b265ce5a24bfe92acfc9d7d&repid=rep1&type=pdf	publication	1992		Indexes / metadata
 https://www.mendeley.com/catalogue/0e003907-0294-36cb-ad4a-c377c80bbad2/	publication	1992	10.1017/S0956796800000241	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ac59f8adb5fa820bd5b407257a5f387231864c87&repid=rep1&type=pdf	publication	1992		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=f10bd45692321be8a4cd29976d9cbd45fa747e60&repid=rep1&type=pdf	publication	1992		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=f8d3db80eca49e92f7919b41641a978370262a3c&repid=rep1&type=pdf	publication	1992		Indexes / metadata
-https://dblp.org/db/conf/plilp/plilp92	publication	1992		Indexes / metadata
-https://dblp.org/db/journals/jfp/jfp2	publication	1992		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=fa0c613567cacf0bc1f38c946632f6b4004d213e&repid=rep1&type=pdf	authored	1992		Indexes / metadata
-https://dblp.org/rec/conf/fp/JonesT93.html	published	1993		Indexes / metadata
-https://dblp.org/rec/conf/fpca/Gordon93.html	published	1993		Indexes / metadata
-https://dblp.org/rec/conf/popl/JonesW93.html	published	1993		Indexes / metadata
-https://dblp.org/pid/g/AndrewDGordon	published	1993		Indexes / metadata
-https://dblp.org/pid/35/4224	published	1993		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=89125be7f9c222793c18b99d0644c16ff19d9f06&repid=rep1&type=pdf	publication	1993		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ca15a20f1d89b8059903a3ee421ed8fdb4dcd40f&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://researchr.org/publication/Wadler92-0	publication	1993		Indexes / metadata
-https://dblp.org/db/conf/flops/index	published	1993		Indexes / metadata
-https://researchr.org/publication/popl%3A1993	created	1993		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ac33808af2e5ca9a597f631f0116e8383b9a64a0&repid=rep1&type=pdf	publication	1993		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=6478c1cd00444e731d6332ef3a26121eee054f11&repid=rep1&type=pdf	publication	1993		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=dc68a7d83bd24c8c9cef60576c688bafadc71d8d&repid=rep1&type=pdf	publication	1993		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=7050898488bfa64de120349131f4331059308632&repid=rep1&type=pdf	publication	1993		Indexes / metadata
-https://dblp.org/db/conf/popl/popl93	publication	1993		Indexes / metadata
-https://dblp.org/pid/g/AndrewDGordon.html	published	1993		Indexes / metadata
-https://dblp1.uni-trier.de/pid/69/6989.html	published	1993		Indexes / metadata
-https://dblp1.uni-trier.de/pid/96/3469.html	published	1993		Indexes / metadata
-https://dblp1.uni-trier.de/pid/73/8396.html	published	1993		Indexes / metadata
-https://dblp.dagstuhl.de/pid/g/AndrewDGordon.html?view=by-type	published	1993		Indexes / metadata
-https://content.openalex.org/works/W2078944436.grobid-xml	publication	1993-01-01		Indexes / metadata
 https://content.openalex.org/works/W2078944436.pdf	publication	1993-01-01		Indexes / metadata
-https://dblp.org/rec/conf/csl/CroleG94.html	published	1994		Indexes / metadata
-https://dblp.org/rec/conf/iclp/LaunchburyJ94.html	published	1994		Indexes / metadata
-https://dblp.org/rec/conf/pldi/LaunchburyJ94.html	published	1994		Indexes / metadata
-https://opac.library.strathmore.edu/bib/2091	published	1994		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA23765645	created	1994		Indexes / metadata
-https://libris.kb.se/bib/5022151	publication	1994		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c710d3f726a1c8c95a27b182abccf5889e277a07&repid=rep1&type=pdf	publication	1994		Indexes / metadata
-https://obnb.uk/a00497587-andrew-d-gordon	publication	1994		Indexes / metadata
-https://opac.bue.edu.eg/cgi-bin/koha/opac-ISBDdetail.pl?biblionumber=11417	published	1994		Indexes / metadata
-https://obnb.uk/p11013221-functional-programming-glasgow-1994-proceedings-of-the-1994-glasgow-workshop-on-functional-programming-ayr-scotland-12-14-september-1994	created	1994		Indexes / metadata
-https://dblp.org/db/conf/csl/csl94	publication	1994		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=821caec03e9663c17256f797967b67c1ceb15e6e&repid=rep1&type=pdf	publication	1994		Indexes / metadata
-https://search.worldcat.org/title/Functional-programming-and-inputoutput/oclc/123256659	publication	1994-09		Indexes / metadata
-https://dblp.org/rec/conf/afp/Wadler95.html	published	1995		Indexes / metadata
-https://dblp.org/rec/conf/lics/Jeffrey95.html	published	1995		Indexes / metadata
-https://dblp.org/rec/conf/plilp/Achten95.html	published	1995		Indexes / metadata
-https://dblp.org/rec/conf/slp/Wadler95.html	published	1995		Indexes / metadata
-https://dblp.org/rec/journals/entcs/Jeffrey95.html	published	1995		Indexes / metadata
-https://dblp.org/rec/journals/lisp/LaunchburyJ95.html	published	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=9a61366bb982b0aea844c60554874623b9fd96c4&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=91f1d593e4b354ce69bb23906204821b1b07b9f1&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ae35941e9cc1ea268a589c3e001742996a48ab59&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8183bfbcd2ce3a03d83bb3ec73e72cd7b39b68df&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=a974b56a52d4dedc4db5a3dcb524b47b8e8ceb68&repid=rep1&type=pdf	publication	1995		Indexes / metadata
-https://www.semanticscholar.org/paper/529e81e31596461639ed94bd7ad0732065cbb4a5	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=14919a3db4428fdabb4ad7446c1783ecfd83b099&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=7f7238020b7e88d1b91df3a9ed6886d7750681a8&repid=rep1&type=pdf	publication	1995		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=3a5299228a953f17368e88faccf177d4e2154513&repid=rep1&type=pdf	publication	1995		Indexes / metadata
@@ -6602,18 +4728,9 @@ https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.0	creat
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.16	created	1995	10.14236/ewic/FP1995.16	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.6	created	1995	10.14236/ewic/FP1995.6	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.9	created	1995	10.14236/ewic/FP1995.9	Indexes / metadata
-https://dblp.org/db/conf/fp/fp1995.html	created	1995		Indexes / metadata
-https://openalex.org/W154014553	published	1995-01-01		Indexes / metadata
-https://openalex.org/W2582282370	published	1995-01-01		Indexes / metadata
-https://content.openalex.org/works/W2076004629.grobid-xml	publication	1995-01-01		Indexes / metadata
 https://content.openalex.org/works/W2076004629.pdf	publication	1995-01-01		Indexes / metadata
 https://www.semanticscholar.org/paper/State-in-Haskell-Launchbury-Jones/5768f243d9d91cf3225ae6ca1a89193f5b5ee423	publication	1995-12	10.1007/BF01018827	Indexes / metadata
-https://dblp.org/rec/conf/popl/JonesFG96.html	published	1996		Indexes / metadata
-https://dblp.org/rec/conf/popl/JonesGF96.html	published	1996		Indexes / metadata
-https://dblp.org/rec/phd/basesearch/Achten96.html	published	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=32fdb1577de8b130384668fe3e883f7180489c4b&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA29533868	created	1996		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA29018147	created	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=587698b583fc14df78df250a10064f0e8616f498&repid=rep1&type=pdf	publication	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=b703a189644bbb2fc9a3aabf0972f1b872379ec9&repid=rep1&type=pdf	publication	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=dd3ee3f36f988936ffd67e08570a0ce085749edc&repid=rep1&type=pdf	publication	1996		Indexes / metadata
@@ -6621,23 +4738,15 @@ https://citeseerx.ist.psu.edu/document?doi=a61a8264b7c8cdfaec1ee6ea056a4fb6425f8
 https://citeseerx.ist.psu.edu/document?doi=7c2aa605ba792e1ad933ea6a801089087c96e7db&repid=rep1&type=pdf	publication	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c0c1e40a9e4c35c7dea90c543d949748339ccbb1&repid=rep1&type=pdf	publication	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c453e924645f2dff471020a087e04e4de8b0ac3d&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://www.semanticscholar.org/paper/Monadic-parser-combinators-Hutton-Meijer/3c76cf8397917ef4814fffb60e7c922b711edc45	publication	1996		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=2dff9b6cdee98bca82113a0aa22f469c3b96d19d&repid=rep1&type=pdf	publication	1996		Indexes / metadata
-https://dblp.org/db/conf/popl/popl96.html	published	1996		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs1996b.pdf	created	1996		Indexes / metadata
-https://dblp.org/rec/journals/csur/Wadler97.html	published	1997		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c2cc1c09415d96d56647368b2d569450b4c500a8&repid=rep1&type=pdf	publication	1997		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8c04f97a8dfe35c099d8ba5b304a149c5649c407&repid=rep1&type=pdf	publication	1997		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=33699a682cb6ff3e356ad98335755dbc43a48a64&repid=rep1&type=pdf	publication	1997		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8766d8c68cf63e43c3d65955feab91dcb8e934f5&repid=rep1&type=pdf	publication	1997		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=5740bd423ec97e8371d0589a7cdca738f12a12c6&repid=rep1&type=pdf	publication	1997		Indexes / metadata
-https://dblp1.uni-trier.de/rec/conf/icfp/ElliottH97.html	published	1997		Indexes / metadata
-https://dblp.org/rec/conf/ifl/HolyerS98.html	published	1998		Indexes / metadata
-https://dblp.org/rec/journals/corr/abs-2109-02198.html	published	1998		Indexes / metadata
-https://dblp.org/rec/journals/jfp/HuttonM98.html	published	1998		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=d205d244ad270b967e29898e5d0ddbc94951fb61&repid=rep1&type=pdf	publication	1998		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=345bebfe943d588cb89cf8cdd35238f1f56c81e8&repid=rep1&type=pdf	publication	1998		Indexes / metadata
-https://search.worldcat.org/title/Introduction-to-functional-programming-using-Haskell/oclc/38430804	publication	1998-02-10		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=45c9fa669bc09eae213f42e93fababb3b59f9584&repid=rep1&type=pdf	publication	1998-04		Indexes / metadata
 https://dblp.org/rec/journals/mscs/CroleG99.html	published	1999	10.1017/S0960129598002709	Indexes / metadata
 https://dblp.org/rec/journals/tcs/Jeffrey99.html	published	1999	10.1016/S0304-3975(98)00356-9	Indexes / metadata
@@ -6654,27 +4763,17 @@ https://dblp.org/rec/conf/csl/HancockS00.html	published	2000	10.1007/3-540-44622
 https://dblp.org/rec/conf/icfp/ErkokL00.html	published	2000	10.1145/357766.351257	Indexes / metadata
 https://dblp.org/rec/conf/ifl/AchtenJ00.html	published	2000	10.1007/3-540-45361-X_12	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=851548953ef6b3b4b1b3f859e2713287d2d63ed6&repid=rep1&type=pdf	publication	2000		Indexes / metadata
-https://dblp.org/db/conf/csl/csl2000	created	2000		Indexes / metadata
 https://www.mendeley.com/catalogue/e196e77b-fb78-34e8-98e0-484fe9c1f433/	publication	2000	10.1017/S0956796899003561	Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA46350820	created	2000		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8ab0fcbee98eb410e141d93cbcbacd804b09eff5&repid=rep1&type=pdf	publication	2000		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=18a2233de3ce4e260aac55e7d543e2aa5d4c54d5&repid=rep1&type=pdf	publication	2000		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=f09be46c9638feecf15a7cdf12f463a1f58d04e6&repid=rep1&type=pdf	publication	2000		Indexes / metadata
-https://libris.kb.se/bib/8291110	publication	2000		Indexes / metadata
-https://libris.kb.se/bib/19658654	publication	2000		Indexes / metadata
-https://libris.kb.se/bib/16868472	publication	2000		Indexes / metadata
-https://katalog.bibliothek.kit.edu/bib/188601	publication	2000		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/sigplan2000.pdf	created	2000		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=eb55981ff53f6dc971bff73cc172beb2d6e8838a&repid=rep1&type=pdf	publication	2000-01-01		Indexes / metadata
-https://www.semanticscholar.org/paper/Functional-reactive-programming-from-first-Wan-Hudak/1a7de56cb569e5efad77640cc566bf6007b6f03b	publication	2000-05		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0ab98933c3975dbd02b2997e29b5b230619516a5&repid=rep1&type=pdf	authored	2000-10-27		Indexes / metadata
 https://dblp.org/rec/conf/ifl/ButterfieldS01.html	published	2001	10.1007/3-540-46028-4_5	Indexes / metadata
 https://dblp.org/rec/conf/pldi/MarlowJMR01.html	published	2001	10.1145/378795.378858	Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA52348299	created	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e119d259fe943e183929e24080f2d737624f5b83&repid=rep1&type=pdf	publication	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=99550e6598bf3a7fc51b09078643586ba8f8d73d&repid=rep1&type=pdf	publication	2001		Indexes / metadata
-https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.118.8664	publication	2001		Indexes / metadata
-https://bibliografia.icm.edu.pl/g2/main.pl?id=10137&lim=100000&mod=p&ord=1&rok=2001	created	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0bac2b7547b4e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf	publication	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=50416ed8f348b8ad27b91d7532ed024826636378&repid=rep1&type=pdf	publication	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e2e4e42e00d99c8bf41b36caf742d52f3e1cc9e7&repid=rep1&type=pdf	publication	2001		Indexes / metadata
@@ -6682,25 +4781,18 @@ https://citeseerx.ist.psu.edu/document?doi=e2fb0212bc893052d6ef09855cb9cd4102ff8
 https://citeseerx.ist.psu.edu/document?doi=36df1539df9f5e72f864b5095826ee72665d5740&repid=rep1&type=pdf	publication	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0bac2b7547e1ea5d8d378f5100802cf237316b&repid=rep1&type=pdf	publication	2001		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=b8a1af0a848270b1c69d945c7d629a7761805f81&repid=rep1&type=pdf	publication	2001-01-01		Indexes / metadata
-https://www.semanticscholar.org/paper/Tackling-the-Awkward-Squad%3A-monadic-input-output%2C-Peyton-jones/e119d259fe943e183929e24080f2d737624f5b83	publication	2001-01-01		Indexes / metadata
 https://dblp.org/rec/conf/haskell/ErkokL02.html	published	2002	10.1145/581690.581693	Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseSB02.html	published	2002	10.1007/3-540-44854-3_5	Indexes / metadata
 https://dblp.org/rec/journals/ita/ErkokLM02.html	published	2002	10.1051/ita:2002008	Indexes / metadata
 https://dblp.org/rec/journals/sigplan/ClaessenH02.html	published	2002	10.1145/636517.636527	Indexes / metadata
-https://dblp.org/db/conf/haskell/haskell2002	created	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=a137f2e4b26e86fa3130556c95f94f13a63f2223&repid=rep1&type=pdf	publication	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=f633bc66d270bae980dfe80c4bb18242164c07a7&repid=rep1&type=pdf	publication	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=167c289731984722bf06fb2332d86d0c14d14b56&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://www.numdam.org/volume/ITA_2002__36_1/	created	2002		Indexes / metadata
-https://numdam.org/item/ITA_2002__36_2/	created	2002		Indexes / metadata
-https://researchr.org/publication/ifl%3A2002	created	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=1559a9a26ca1baac9f465b72a1e97a9d6923696d&repid=rep1&type=pdf	publication	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=20ab57bf6d14d6a08a950b015d17af5f41b1b22b&repid=rep1&type=pdf	publication	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=cc63870c3633af71d16899b40c71debdf3787da8&repid=rep1&type=pdf	publication	2002		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=96c799d7051f0ea15b580457efb10db7ba486f8e&repid=rep1&type=pdf	publication	2002		Indexes / metadata
-https://dblp.org/db/journals/ita/ita36.html	published	2002		Indexes / metadata
 https://openalex.org/W2264687	published	2002-01-01	10.1051/parasite/1990651073	Indexes / metadata
-https://content.openalex.org/works/W1980408208.grobid-xml	publication	2002-04-01		Indexes / metadata
 https://content.openalex.org/works/W1980408208.pdf	publication	2002-04-01		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8b403a9ae7edce9c1453d14f2c47c318f2199f62&repid=rep1&type=pdf	publication	2002-10-04		Indexes / metadata
 https://dblp.org/rec/journals/jfp/Jones03f.html	published	2003	10.1017/S0956796803000819	Indexes / metadata
@@ -6709,7 +4801,6 @@ https://dblp.org/rec/journals/jfp/Jones03s.html	published	2003	10.1017/S09567968
 https://dblp.org/rec/journals/jfp/Jones03t.html	published	2003	10.1017/S0956796803002211	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=b48fac8823f062b367d8b931ed71fd39f487773e&repid=rep1&type=pdf	publication	2003		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=285d06d78bd44ca89cd05fd3956ee78aa371b2b2&repid=rep1&type=pdf	publication	2003		Indexes / metadata
-https://search.worldcat.org/es/title/haskell-98-language-and-libraries-the-revised-report/oclc/255587471	publication	2003		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda3e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
 https://www.numdam.org/item/ITA_2003__37_4_273_0/	publication	2003	10.1051/ita:2003020	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=d607936813ae919ac0e412fbb84fbfc4675be1fa&repid=rep1&type=pdf	publication	2003		Indexes / metadata
@@ -6721,7 +4812,6 @@ https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda3e4a2d35861293448
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67cf1cda4e3a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c6a456c253dc67c1da3e4a2d35861293448dcb&repid=rep1&type=pdf	publication	2003		Indexes / metadata
 https://grosskurth.ca/bib/2003/dowse-tr.pdf	published	2003-01-29		Indexes / metadata
-https://titles.cambridge.org/catalogue.asp?isbn=0521826144	archived	2003-06-11		Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseBE04.html	published	2004	10.1007/11431664_11	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=036b10eb0c59c0e5b410ec0e5267c848897dd360&repid=rep1&type=pdf	publication	2004		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=00eac28d29540f6932d64bc1be12deaf311ea0dd&repid=rep1&type=pdf	publication	2004		Indexes / metadata
@@ -6735,9 +4825,6 @@ https://citeseerx.ist.psu.edu/document?doi=2b79cb9635dbfeb41ed23668b9526d4b70112
 https://citeseerx.ist.psu.edu/document?doi=016daf3ab6e96eb60ae8c26667c7e5f8215ea419&repid=rep1&type=pdf	publication	2004-08		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=fd01713b4d2f66e63a4cdd3bade53e618349d2d1&repid=rep1&type=pdf	publication	2004-08		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=41cd6ddd9dc6f1264519402c3ca29fba7733c7ef&repid=rep1&type=pdf	publication	2004-09-19		Indexes / metadata
-https://dblp.org/rec/journals/entcs/MichelbrinkS05.html	published	2005		Indexes / metadata
-https://dblp.org/rec/journals/ita/ErkokLA05.html	published	2005		Indexes / metadata
-https://dblp.org/db/journals/entcs/entcs122	publication	2005		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=3bf9b30fd286618b8d7044bec752d51a6cf4f5ce&repid=rep1&type=pdf	publication	2005		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0c3d1086ad24ce3f677f4b7390d05887c4a0bffc&repid=rep1&type=pdf	publication	2005		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0ba548cd8db119873d07ff2605214675a2127a5e&repid=rep1&type=pdf	publication	2005		Indexes / metadata
@@ -6746,15 +4833,12 @@ https://citeseerx.ist.psu.edu/document?doi=85ef46f5a5b28afbe14eed059937a8c97c2c4
 https://citeseerx.ist.psu.edu/document?doi=d361c075e970ef212328d6a20a5018d2f6416ee4&repid=rep1&type=pdf	publication	2005		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=78db511c84020e70c29750551902780d8ad6edf1&repid=rep1&type=pdf	publication	2005		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=56b44cc407e22a0ab538bd05e6e560f77e47f36a&repid=rep1&type=pdf	authored	2005		Indexes / metadata
-https://openalex.org/W2188944230	published	2005-01-01		Indexes / metadata
 https://pdfs.semanticscholar.org/dd9a/8d3986630da6dea10c504c907681fdb3c322.pdf	publication	2005-03-01		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=00472e8c2b66a1bf2cded592e3d74ad94b000c7d&repid=rep1&type=pdf	publication	2005-05-20		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=9d557f4c6badddf9e2504d874803cdd1f3beb6d2&repid=rep1&type=pdf	publication	2005-07		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=942ad64014dcf2a055b410e8dd1c2efd1f77d94b&repid=rep1&type=pdf	created	2005-12-15		Indexes / metadata
-https://dblp.org/rec/conf/icfp/DowseB06.html	published	2006		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=3f0ef9294503f870e38966f9d3c63f0a28c03e19&repid=rep1&type=pdf	publication	2006		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=4ee3514f07ea6550b503d447741bbe67d4d19271&repid=rep1&type=pdf	authored	2006		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BA76277457	created	2006		Indexes / metadata
 https://www.mendeley.com/catalogue/70f7e8f4-39bc-38fd-b300-28be9aac3226/	publication	2006	10.1017/S095679680600596X	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=d79df714953779a1b27c52ad5854b333e53020ec&repid=rep1&type=pdf	publication	2006		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=5776a1a85c217e2ec24527767946a9ab1bc79dda&repid=rep1&type=pdf	publication	2006		Indexes / metadata
@@ -6764,17 +4848,10 @@ https://citeseerx.ist.psu.edu/document?doi=e75a155fd802010d677e15345a51fdb0f495c
 https://citeseerx.ist.psu.edu/document?doi=c0a3eb80020e2e162116901b5ae83dd4b060cbcd&repid=rep1&type=pdf	publication	2006		Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.1	created	2006	10.14236/ewic/MSFP2006.1	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2	created	2006	10.14236/ewic/MSFP2006.2	Indexes / metadata
-https://dblp.dagstuhl.de/db/conf/icfp/icfp2006.html	created	2006		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=deb6809f2b9e3208a481913b2b822680ca6b7127&repid=rep1&type=pdf	publication	2006-07-02		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=27b51ea77b79d4c8775c242b0f0562aa95c658fa&repid=rep1&type=pdf	publication	2006-07-05		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e068987d20f5197bcece9a2ee01b7958a79b9902&repid=rep1&type=pdf	publication	2006-09		Indexes / metadata
 https://openalex.org/W2094248892	published	2006-09-16	10.1145/1159803.1159823	Indexes / metadata
-https://dblp.org/rec/conf/haskell/2007.html	created	2007		Indexes / metadata
-https://dblp.org/rec/conf/haskell/JonesW07.html	published	2007		Indexes / metadata
-https://dblp.org/rec/conf/haskell/LiMJT07.html	published	2007		Indexes / metadata
-https://dblp.org/rec/conf/haskell/SwierstraA07.html	published	2007		Indexes / metadata
-https://dblp.org/rec/conf/hopl/HudakHJW07.html	published	2007		Indexes / metadata
-https://dblp.org/db/conf/haskell/haskell2007	created	2007		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=40ce086d4d8b03b5537c2f51c0c2f4a1c0cadd76&repid=rep1&type=pdf	publication	2007		Indexes / metadata
 https://katalog.bibliothek.kit.edu/bib/407752	publication	2007	10.1145/1291201	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=dcc6da5d955b02f9419cbe58ef6fca9884d3d405&repid=rep1&type=pdf	publication	2007		Indexes / metadata
@@ -6789,13 +4866,8 @@ https://citeseerx.ist.psu.edu/document?doi=c31ee2e21fe7ab999c2093f2ca6487dde6435
 https://citeseerx.ist.psu.edu/document?doi=01249e95e1fe350dc3569aec1d46a6613219698c&repid=rep1&type=pdf	publication	2007		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=f0a3a86e9a05bb694be99d9d2db863fad6ff34ba&repid=rep1&type=pdf	publication	2007		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=9732e82a22d4350f26ffff47d3f2578d59686d8c&repid=rep1&type=pdf	authored	2007-02-01		Indexes / metadata
-https://www.semanticscholar.org/paper/Conception%2C-evolution%2C-and-application-of-languages-Hudak/e69449921581f1e00b801994236f840f5b459e00	publication	2007-06-09		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=9abc720d55493cf7e01988fdd24f910219f02417&repid=rep1&type=pdf	authored	2007-08-10		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=6ed42bf68296b742649a4c85242c93035260ef7d&repid=rep1&type=pdf	publication	2007-09		Indexes / metadata
-https://dblp.org/rec/conf/afp/JonesS08.html	published	2008		Indexes / metadata
-https://dblp.org/rec/conf/haskell/KiselyovS08.html	published	2008		Indexes / metadata
-https://dblp.org/rec/conf/haskell/RussoCH08.html	published	2008		Indexes / metadata
-https://dblp.org/rec/conf/tphol/BulwahnKHEM08.html	published	2008		Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-2008-09253.html	created	2008	10.4204/EPTCS.321.2	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=5c593cd5f5897fea4b0df4277645354199f88979&repid=rep1&type=pdf	publication	2008		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=d20f03e1fe179e2304bbd16e019c1258d9e5533d&repid=rep1&type=pdf	publication	2008		Indexes / metadata
@@ -6815,47 +4887,17 @@ https://citeseerx.ist.psu.edu/document?doi=8bfd763b1824d4307b8b8ac7dad6673a930fa
 https://citeseerx.ist.psu.edu/document?doi=cb06971fec8367a7d30501dca6c83ad5d373b6c8&repid=rep1&type=pdf	publication	2008		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=249b6aebf290be142b8e1476c09a9e36b4ba8caa&repid=rep1&type=pdf	publication	2008		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=022e34205827a603fdd153a678325ca9d7df2a55&repid=rep1&type=pdf	publication	2008		Indexes / metadata
-https://www.semanticscholar.org/paper/Chapter-1-Shor-in-Haskell-The-Quantum-IO-Monad-Green-Altenkirch/56933933ed32f816caa28329363f6a92d2649318	publication	2008-01		Indexes / metadata
-https://ftp.math.utah.edu/public_html/pub/mirrors/ftp.ira.uka.de/bibliography/Compiler/state.functional.programming.html	modified	2008-04-17		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=693b6d5bb93d1ea270d57c0e39ac6d17be6139af&repid=rep1&type=pdf	publication	2008-05		Indexes / metadata
-https://researchr.org/publication/KiselyovS08/references	publication	2008-09-25		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=9653810f947b594e91fdbc906635e0872df4da3d&repid=rep1&type=pdf	publication	2008-10-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=dd3e0f2e6e23b1050c206838536e4a81c8a3fd7b&repid=rep1&type=pdf	authored	2008-11		Indexes / metadata
-https://dblp.org/rec/conf/icfp/FelleisenFFK09.html	published	2009		Indexes / metadata
-https://dblp.org/db/conf/icfp/icfp2009	created	2009		Indexes / metadata
-https://researchr.org/publication/icfp-2009	created	2009		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e800053a2a7378b7724cce56ad64594073dfe024&repid=rep1&type=pdf	authored	2009		Indexes / metadata
-https://hdl.handle.net/20.500.12380/117330	publication	2009		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=f837782f2a7afc31a185c0b5b9013b5bd4a8b6bc&repid=rep1&type=pdf	publication	2009		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=1de67f7991ae9c97e08a1acf2bc354b64f932433&repid=rep1&type=pdf	publication	2009		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=b82a2bba57ac617753e17f15833ccd40079f7c&repid=rep1&type=pdf	publication	2009		Indexes / metadata
-https://libris.kb.se/bib/11949296	publication	2009		Indexes / metadata
-https://katalog.bibliothek.kit.edu/bib/319287	publication	2009		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ce0dd56703f16ec030e46a8e0df0a0659157d1ee&repid=rep1&type=pdf	publication	2009		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=24fd36e132569bb3a5f39fe9eafa51b306423c36&repid=rep1&type=pdf	publication	2009-02		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=342630039e980ecfa87ef0aecd9eac105b4b37a7&repid=rep1&type=pdf	publication	2009-02		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c16e86498447b046e6ea1444baed9be7eef7ec9c&repid=rep1&type=pdf	created	2009-02-24		Indexes / metadata
-https://dblp.org/pid/41/3260	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/37/1432	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/49/854	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/78/3192	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/47/2439.html	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/01/2499.html	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/22/741.html	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/37/1432.html	modified	2009-06-09		Indexes / metadata
-https://dblp.org/pid/66/3831	modified	2009-06-10		Indexes / metadata
-https://dblp.org/pid/01/5985	modified	2009-06-10		Indexes / metadata
-https://dblp.org/pid/00/5157	modified	2009-06-10		Indexes / metadata
-https://dblp.org/pid/35/6105	modified	2009-06-10		Indexes / metadata
-https://dblp.org/pid/00/5157.html	modified	2009-06-10		Indexes / metadata
-https://dblp.org/pid/14/3903.html	modified	2009-06-10		Indexes / metadata
-https://dblp.org/pid/35/6105.html	modified	2009-06-10		Indexes / metadata
-https://www.codes-isss.org/dl_subdomain/citation_id_1596638_preflayout_flat/	publication	2009-09-03		Indexes / metadata
-https://researchr.org/profile/philipwadler/publications	archived	2009-12-08		Indexes / metadata
-https://researchr.org/journal/jfp/home	archived	2009-12-08		Indexes / metadata
-https://dblp.org/rec/conf/haskell/OSullivanT10.html	published	2010		Indexes / metadata
-https://dblp.org/db/conf/haskell/haskell2010	created	2010		Indexes / metadata
-https://obnb.uk/p15397308-semantic-techniques-in-quantum-computation	publication	2010		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=38f958297f9d096bfe86850a335c5b9545b0e76e&repid=rep1&type=pdf	authored	2010		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=94cbb996e2b9b52f71038d8dd7445d8f65336055&repid=rep1&type=pdf	publication	2010		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=94e5e64d9ca36e00e3ff6f7d4d40df7e439243a6&repid=rep1&type=pdf	publication	2010		Indexes / metadata
@@ -6866,30 +4908,18 @@ https://citeseerx.ist.psu.edu/document?doi=3a84dc46d1a0918c3c47d92bebc62d856137e
 https://citeseerx.ist.psu.edu/document?doi=d7ed84aea89396e5361f699feb6b9e9506c92529&repid=rep1&type=pdf	publication	2010		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=6908d2a8588a5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf	authored	2010		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=6908d2a8588c5cbbda586d8a790e7e80f87689e7&repid=rep1&type=pdf	authored	2010		Indexes / metadata
-https://ftp.math.utah.edu/pub/tex/bib/toc/sigplan2010.html	created	2010		Indexes / metadata
-http://hdl.handle.net/20.500.12708/11216	published	2010		Indexes / metadata
-https://ftp.math.utah.edu/pub/tex/bib/toc/lispsymbcomput.html	archived	2010-06-03		Indexes / metadata
-https://cth.altocumulus.org/~hallgren/Thesis/bibliography.html	modified	2010-06-07		Indexes / metadata
-https://ftp.math.utah.edu/pub/tex/bib/toplas.html	archived	2010-06-12		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8b448b78e3640352658fcbabd87abf184b6e5202&repid=rep1&type=pdf	publication	2010-07-06		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=6a77e58bdddc2752120b022d55a971931d379a57&repid=rep1&type=pdf	publication	2010-07-06		Indexes / metadata
-https://researchr.org/alias/%C3%A9ric-tanter	archived	2010-07-15		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=19d9fb03cc0e9747b1208535cbe2751749b39dac&repid=rep1&type=pdf	publication	2010-09		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=a4382318df903cbb166d51021e7ed7d9005638ee&repid=rep1&type=pdf	publication	2010-09-30		Indexes / metadata
 https://dblp.org/rec/conf/cefp/Butterfield11.html	published	2011	10.1007/978-3-642-32096-5_3	Indexes / metadata
 https://dblp.org/rec/conf/haskell/StefanRMM11.html	published	2011	10.1145/2034675.2034688	Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-1210-0611.html	published	2011	10.4204/EPTCS.95.2	Indexes / metadata
 https://dblp.org/rec/phd/ethos/Brown11.html	published	2011	10.22024/UniKent/01.02.86452	Indexes / metadata
-https://researchr.org/publication/haskell-2011	created	2011		Indexes / metadata
-https://swepub.kb.se/bib/swepub%3Aoai%3Aresearch.chalmers.se%3Af6abc3e1-9813-43e6-a50a-0c510b28e0d1?language=en&tab2=abs	publication	2011		Indexes / metadata
-https://katalog.bibliothek.kit.edu/bib/356404	publication	2011		Indexes / metadata
-https://researchr.org/publication/McBride2011kleisliarrows	created	2011		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c55006a79e5c27698f22554c5814ebeb9dc2097c&repid=rep1&type=pdf	publication	2011		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c314ea0763ad247eccffc3edcea9128e3bded554&repid=rep1&type=pdf	publication	2011		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=8c0fadc91f0af6ea1ec8c824ec502b104fdc6132&repid=rep1&type=pdf	publication	2011		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=08c0eaa33b7692ddbd65e509db1356f3c6126d75&repid=rep1&type=pdf	publication	2011		Indexes / metadata
-https://search.worldcat.org/ja/title/Haskell-%3A-the-craft-of-functional-programming/oclc/711861961	publication	2011		Indexes / metadata
-https://obnb.uk/p15635311-learn-you-a-haskell-for-great-good-a-beginners-guide	publication	2011		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=24c7c204ad680f24af69185a298c5997f7748f19&repid=rep1&type=pdf	publication	2011		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=bacd5f1d6c300fa02ce0f783a3ca018a3b27e7a6&repid=rep1&type=pdf	publication	2011-06-27	10.1145/2034773.2034777	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=7e15c2a6ed3ffa157e0cbef5919b00636970039d&repid=rep1&type=pdf	publication	2011-08-31		Indexes / metadata
@@ -6907,34 +4937,20 @@ https://citeseerx.ist.psu.edu/document?doi=30a6a90f9524249cdd503419a5208ad06c8fe
 https://citeseerx.ist.psu.edu/document?doi=872a949b9a66c3d6c657942e2e27f00f867dde40&repid=rep1&type=pdf	publication	2012		Indexes / metadata
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf	created	2012		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012		Indexes / metadata
-https://dblp1.uni-trier.de/rec/journals/corr/abs-2012-02154.html	created	2012		Indexes / metadata
-https://dblp.org/pid/58/10736.html	modified	2012-01-13		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BB09244173.amp	published	2012-05		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=34053db6bbcdca48fa3e85b51aaf0a4fd97d42e2&repid=rep1&type=pdf	publication	2012-05		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=5329c7295901b503e73eafd1c7fd664f48caa227&repid=rep1&type=pdf	publication	2012-05		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=4ade042eb26557c55c5976a995ff36b19a679f3b&repid=rep1&type=pdf	publication	2012-07-05		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ad37aceaf24421d045dc8ede81f2a877b638a8a7&repid=rep1&type=pdf	publication	2013		Indexes / metadata
-https://search.worldcat.org/title/Parallel-and-concurrent-programming-in-Haskell/oclc/858949384	publication	2013		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=a22269a5d2be19ec2b7ead3a6615ca43525d92c5&repid=rep1&type=pdf	publication	2013		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e60f1c2236c4c4d5decbbdae6acb0fbdae9c7860&repid=rep1&type=pdf	publication	2013		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=6c87a1b817065f02f6e30f7b886768c6105ffee0&repid=rep1&type=pdf	publication	2013		Indexes / metadata
-https://search.worldcat.org/cs/title/858949384	publication	2013		Indexes / metadata
-https://search.worldcat.org/zh-tw/title/Parallel-and-concurrent-programming-in-Haskell/oclc/858949384	publication	2013		Indexes / metadata
-https://researchr.org/profile/robbyfindler/publications	archived	2013-05-25		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=83c485e220deb2d16e074decc212385ddb21632a&repid=rep1&type=pdf	publication	2013-06-23		Indexes / metadata
-https://researchr.org/profile/matthiasfelleisen/publications	archived	2013-08-06		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=261f29d41b17fb6b8b90454de4e8e57fe0e6d1da&repid=rep1&type=pdf	publication	2013-09		Indexes / metadata
-https://researchr.org/alias/david-turner	archived	2013-09-26		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=12c79a2c28194c6585ed51691f015d3a9c26dc1f&repid=rep1&type=pdf	publication	2013-10-15		Indexes / metadata
-https://dblp.org/rec/conf/sfp/Brady14.html	published	2014		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=29a398cdcc89f883308ca18896d388fdf70b958b&repid=rep1&type=pdf	publication	2014		Indexes / metadata
-https://hdl.handle.net/1903/16239	publication	2014		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=220e92adeb06a3bacec9fdd2a1f1c023dcbf3187&repid=rep1&type=pdf	publication	2014		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=752ec5ad72bf240bf3ff3be56318f452190f4287&repid=rep1&type=pdf	publication	2014		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0d5852de69d2691903a7480e3ccb6b028c8e3fcc&repid=rep1&type=pdf	publication	2014		Indexes / metadata
-https://search.worldcat.org/title/862346456	publication	2014		Indexes / metadata
-https://ftp.math.utah.edu/pub/tex/bib/sigact.html	archived	2014-07-04		Indexes / metadata
-https://dmkpress.com/catalog/computer/programming/functional/978-5-94074-984-4/	archived	2014-08-23		Indexes / metadata
 https://dblp.org/rec/conf/haskell/KiselyovI15.html	published	2015	10.1145/2804302.2804319	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=7e72d131e227ee6e0797153a32ed783d75734e6b&repid=rep1&type=pdf	publication	2015		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=d79d90bb3659cfc9592f1685edf94636a7e81dd0&repid=rep1&type=pdf	publication	2015		Indexes / metadata
@@ -6943,134 +4959,45 @@ https://pdfs.semanticscholar.org/fc8e/2f5446dcd097e9f443bda471646b889fbb69.pdf	m
 https://citeseerx.ist.psu.edu/document?doi=ec8633c6baac734e9f86a2eb92f827fe15af33a0&repid=rep1&type=pdf	publication	2015-09-08		Indexes / metadata
 https://dblp.org/rec/conf/haskell/LeYF16.html	published	2016	10.1145/2976002.2976020	Indexes / metadata
 https://dblp.org/rec/conf/popl/2016.html	created	2016	10.1145/2837614	Indexes / metadata
-https://dblp.org/rec/journals/corr/0001MR16.html	published	2016		Indexes / metadata
-https://dblp.org/rec/journals/corr/OrchardY16.html	published	2016		Indexes / metadata
-https://dblp.org/db/conf/haskell/haskell2016	created	2016		Indexes / metadata
-https://conf.researchr.org/track/icfp-2016/hope-2016-papers	created	2016		Indexes / metadata
 https://conf.researchr.org/details/PADL-2016/PADL-2016-papers/3/Haskino-A-Remote-Monad-for-Programming-the-Arduino	created	2016	10.1007/978-3-319-28228-2_10	Indexes / metadata
-https://dblp.org/db/conf/popl/popl2016.html	created	2016		Indexes / metadata
-https://dblp.dagstuhl.de/db/conf/popl/popl2016.html	created	2016		Indexes / metadata
-https://dblp.org/pid/p/RPucella	modified	2016-02-09		Indexes / metadata
 https://fm.csl.sri.com/SSFT15/Bibliography.pdf	archived	2016-03-12		Indexes / metadata
-https://dblp.org/db/journals/scp/scp119	publication	2016-04		Indexes / metadata
-https://dblp.org/db/journals/scp/scp119.html	publication	2016-04		Indexes / metadata
 https://scholar.archive.org/work/ae356s3oifhsnazqn2e5ahstci/access/wayback/http%3A//simonmar.github.io/bib/papers/shake.pdf	created	2016-08-06		Indexes / metadata
-https://researchr.org/publication/PerezBN16	publication	2016-09-08		Indexes / metadata
-https://dblp.org/rec/conf/oopsla/VonderKMM17.html	published	2017		Indexes / metadata
-https://dblp.org/rec/journals/jfp/StefanMMR17.html	published	2017		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BB23200575	created	2017		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BB24570434	created	2017		Indexes / metadata
-https://dblp1.uni-trier.de/rec/journals/jfp/StefanMMR17.html	published	2017		Indexes / metadata
-https://search.worldcat.org/title/Haskell-cookbook-%3A-build-functional-applications-using-Monads-Applicatives-and-Functors/oclc/1007536519	publication	2017-09-25		Indexes / metadata
-https://search.worldcat.org/zh-tw/title/haskell-cookbook-build-functional-applications-using-monads-applicatives-and-functors/oclc/1007536519	publication	2017-09-25		Indexes / metadata
-https://search.worldcat.org/de/title/haskell-cookbook-build-functional-applications-using-monads-applicatives-and-functors/oclc/1007536519	publication	2017-09-25		Indexes / metadata
-https://dblp.org/rec/conf/cade/HoAKMTN18.html	published	2018		Indexes / metadata
-https://dblp.org/rec/conf/haskell/HanH18.html	published	2018		Indexes / metadata
-https://ci.nii.ac.jp/ncid/BC02774380	created	2018		Indexes / metadata
-https://dblp.org/pid/56/4149	modified	2018-01-05		Indexes / metadata
 https://pdfs.semanticscholar.org/6a39/07b3e051470a14b03289008ca077090944cc.pdf	modified	2018-01-28		Indexes / metadata
-https://hopac.github.io/Hopac/Hopac.html	modified	2018-09-21		Indexes / metadata
 https://cambridge.org/core/books/haskell-school-of-music/bibliography/1F7596A68D0EA0C87624901EA0E144B8	published	2018-10-01	10.1017/9781108241861.032	Indexes / metadata
-https://dblp.org/rec/conf/ecoop/VonderROKM19.html	published	2019		Indexes / metadata
-https://dblp.org/rec/conf/icfp/Janin19.html	published	2019		Indexes / metadata
-https://dblp.org/rec/conf/padl/PietersS19.html	published	2019		Indexes / metadata
-https://dblp.org/db/conf/padl/padl2019	created	2019		Indexes / metadata
 https://pdfs.semanticscholar.org/32ff/28cb5b5c990fe7bdca510040ea22f5c13316.pdf	archived	2019-02-22		Indexes / metadata
-https://search.worldcat.org/title/Practical-Haskell-%3A-a-real-world-guide-to-programming/oclc/1099434629	publication	2019-04		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/jfunctprogram.pdf	archived	2019-04-04		Indexes / metadata
 https://pdfs.semanticscholar.org/a30f/d0736b3763a049e71702e52c500cd96f000d.pdf	modified	2019-04-30		Indexes / metadata
-https://dblp.org/pid/58/172.html	modified	2019-06-25		Indexes / metadata
-https://dblp.org/pid/t/AndrewPTolmach	modified	2019-09-05		Indexes / metadata
-https://conf.researchr.org/profile/wouterswierstra	archived	2019-09-16		Indexes / metadata
-https://conf.researchr.org/profile/conf/stevezdancewic	archived	2019-09-21		Indexes / metadata
-https://conf.researchr.org/profile/conf/davidjanin	archived	2019-10-16		Indexes / metadata
 https://dblp.org/rec/data/11/VonderROKM20.html	published	2020	10.4230/DARTS.6.2.7	Indexes / metadata
 https://dblp.org/rec/journals/jfp/PietersS20.html	published	2020	10.1017/S0956796820000192	Indexes / metadata
-https://dblp.org/db/journals/jfp/jfp30	published	2020		Indexes / metadata
-https://conf.researchr.org/room/pepm-2020/POPL-2020-venue-bacchus	created	2020		Indexes / metadata
-https://dblp.org/db/conf/haskell/haskell2020.html	created	2020		Indexes / metadata
-https://dblp.org/db/conf/padl/padl2020.html	created	2020		Indexes / metadata
 https://pdfs.semanticscholar.org/c85a/eee4353dfe9ff60095265b35017989808c81.pdf	archived	2020-02-26		Indexes / metadata
-https://dblp.org/pid/83/2290	modified	2020-03-02		Indexes / metadata
 https://opac.admin.ch/toc/toc1902057067.pdf	modified	2020-03-10		Indexes / metadata
 https://ntrs.nasa.gov/api/citations/20200003164/downloads/20200003164.pdf	published	2020-04		Indexes / metadata
-https://dblp.org/db/series/eptcs/eptcs321	publication	2020-08-24		Indexes / metadata
-https://dblp.org/db/series/eptcs/eptcs321.html	publication	2020-08-24		Indexes / metadata
-https://dblp.org/pid/08/649.html	archived	2020-10-20		Indexes / metadata
-https://dblp.org/pid/j/SimonLPeytonJones.html	archived	2020-10-26		Indexes / metadata
-https://dblp.org/pid/232/9760	modified	2020-11-06		Indexes / metadata
-https://dblp.org/pid/232/9760.html	modified	2020-11-06		Indexes / metadata
-https://dblp.org/pid/s/TomSchrijvers.html	archived	2020-12-05		Indexes / metadata
-https://dblp.org/pid/s/ZoltanSomogyi	modified	2021-01-05		Indexes / metadata
-https://dblp.org/pid/78/3192.html	archived	2021-01-28		Indexes / metadata
-https://dblp.org/pid/l/JLaunchbury.html	archived	2021-04-23		Indexes / metadata
-https://dblp.org/pid/s/ChungchiehShan	modified	2021-04-28		Indexes / metadata
-https://www.oreilly.com/library/view/programming-scala-3rd/9781492077886/bibliography01.html	publication	2021-05		Indexes / metadata
-https://conf.researchr.org/profile/conf/theowinterhalter	archived	2021-05-07		Indexes / metadata
-https://dblp.org/pid/w/PhilipWadler.html	archived	2021-05-15		Indexes / metadata
-https://dblp.org/pid/96/3469.html	archived	2021-08-03		Indexes / metadata
-https://dblp.org/db/series/eptcs/eptcs340	publication	2021-09-06		Indexes / metadata
-https://dblp.org/pid/t/EricTanter.html	archived	2022-03-31		Indexes / metadata
-https://eudml.org/doc/92695	archived	2022-05-22		Indexes / metadata
-https://eudml.org/doc/92748	archived	2022-06-20		Indexes / metadata
 https://researchr.org/publication/ConceicaoBFCR22	publication	2022-09-06	10.1145/3546189.3549924	Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-2211-06863.html	published	2022-11	10.48550/arXiv.2211.06863	Indexes / metadata
-https://conf.researchr.org/profile/conf/cezarconstantinandrici1	archived	2022-12-03		Indexes / metadata
-https://katalog.bibliothek.kit.edu/bib/1418004	publication	2023		Indexes / metadata
 https://ntrs.nasa.gov/api/citations/20230006308/downloads/papers-2023-haskellsym-reactivity-v2.pdf?attachment=true	created	2023	10.1145/3609026.3609727	Indexes / metadata
-https://dblp.org/db/conf/haskell/haskell2023.html	created	2023		Indexes / metadata
 https://dblp.org/rec/journals/corr/abs-2303-01350.html	published	2023-03	10.1145/3632916	Indexes / metadata
-https://dblp.org/pid/s/JMichaelSpivey	modified	2023-07-02		Indexes / metadata
-https://search.worldcat.org/title/851826580	archived	2023-11-18		Indexes / metadata
 https://www.scienceopen.com/document_file/9a8a943f-2de9-44c1-ae3b-993bfa21dfb9/ScienceOpen/001_Holyer.pdf	archived	2023-11-18	10.14236/ewic/FP1995.10	Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=fd3174600e8f448b32216ceb0dfedc243225788f&repid=rep1&type=pdf	archived	2024-04-13		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=0c8b5a7d5b0099605168d594890ad3e19ccd5f5d&repid=rep1&type=pdf	archived	2024-04-13		Indexes / metadata
-https://ftp.math.utah.edu/pub/tex/bib/toc/jfunctprogram.html	archived	2024-04-15		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=61bf6b9882b4a5f0f381d97fe670e4c713c0e042&repid=rep1&type=pdf	archived	2024-04-16		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=120a2b7a955f76290e4e47aef7b2f49ea300fcd1&repid=rep1&type=pdf	archived	2024-04-16		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e042ae7b7285df7c759abd2654428a799883779f&repid=rep1&type=pdf	archived	2024-04-16		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=601d9f013f1d980b5b368a34250dc0b4548e0960&repid=rep1&type=pdf	archived	2024-04-21		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c79c90f4dd2a232ffcbc966a33eee0b29ccf9d9a&repid=rep1&type=pdf	archived	2024-04-24		Indexes / metadata
-https://dblp.org/pid/09/5433	modified	2024-05-01		Indexes / metadata
-https://dblp.org/pid/m/EugenioMoggi.html	modified	2024-05-01		Indexes / metadata
-https://dblp.org/pid/50/8166.html	archived	2024-05-02		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=67946dad3e8c73ab05567ed616e00929ea496e6b&repid=rep1&type=pdf	archived	2024-07-07		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=9205dcc288b4606aca2ec63ed32800d528801869&repid=rep1&type=pdf	archived	2024-07-10		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=1997710cea4b67b9e53df96d6dee7f2c3e5c5556&type=pdf	archived	2024-07-24		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=e6bc44fbba2a6ebc8a3af0069bde561e5b6b0653&repid=rep1&type=pdf	archived	2024-08-16		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=3b889bb5e6250b2b381522d0a0b91ba1a33f3159&repid=rep1&type=pdf	archived	2024-08-19		Indexes / metadata
-https://dblp.org/pid/s/MSchmidtSchauss	modified	2024-09-04		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=42e82500502694323b9410cc4a1ae95b6ecfeec9&repid=rep1&type=pdf	archived	2024-09-23		Indexes / metadata
 https://dblp.org/rec/journals/jfp/WestphalV25.html	published	2025	10.1017/S0956796825100075	Indexes / metadata
-https://conf.researchr.org/profile/vlhcc-2025/andrewdgordon	created	2025		Indexes / metadata
-https://conf.researchr.org/details/icfp-splash-2025/hatra-2025-papers/7/Imperative-Syntax-for-Dependent-Types	created	2025		Indexes / metadata
-https://conf.researchr.org/home/icfp-splash-2025/haskellsymp-2025	created	2025		Indexes / metadata
-https://conf.researchr.org/details/icfp-splash-2025/haskellsymp-2025-papers/20/Machine-Learning-Primitives-as-Algebraic-Effects	created	2025		Indexes / metadata
 https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations	created	2025	10.1145/3759427.3760364	Indexes / metadata
-https://conf.researchr.org/program/icfp-splash-2025/program-haskellsymp-2025/	created	2025		Indexes / metadata
-https://dblp.org/db/journals/jfp/jfp35.html	publication	2025		Indexes / metadata
-https://dblp.org/pid/w/PhilipWadler	modified	2025-01-10		Indexes / metadata
-https://dblp.org/pid/96/3469	modified	2025-01-10		Indexes / metadata
-https://dblp.org/pid/f/MatthewFlatt	modified	2025-01-10		Indexes / metadata
-https://dblp.org/pid/p/MarinusJPlasmeijer	modified	2025-01-10		Indexes / metadata
-https://dblp.org/pid/p/MarinusJPlasmeijer.html	modified	2025-01-10		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=85556763670be6c4dbb039010ff4d149a6322439&repid=rep1&type=pdf	archived	2025-03-08		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=85556763670ec4c6dbb039010ff4d149a6322439&repid=rep1&type=pdf	archived	2025-03-08		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=2e6c9d76f9cb690dc18019fc894ba9572a8c2812&repid=rep1&type=pdf	archived	2025-03-30		Indexes / metadata
-https://dblp.org/pid/j/SimonLPeytonJones	modified	2025-05-13		Indexes / metadata
-https://dblp.org/pid/h/JohnHughes	modified	2025-05-13		Indexes / metadata
-https://dblp.org/pid/v/JanisVoigtlander	modified	2025-05-13		Indexes / metadata
-https://dblp.org/pid/f/MFelleisen	modified	2025-05-13		Indexes / metadata
-https://dblp.org/pid/v/JanisVoigtlander.html	modified	2025-05-13		Indexes / metadata
-https://dblp.org/pid/12/7603.html	modified	2025-05-29		Indexes / metadata
-https://dblp.org/pid/29/3650	modified	2025-06-02		Indexes / metadata
 https://simonmar.github.io/bib/papers/web-server-jfp.pdf	modified	2025-06-12	10.1017/S095679680200432X	Indexes / metadata
 https://simonmar.github.io/bib/papers/aos.pdf	modified	2025-06-12		Indexes / metadata
-https://hdl.handle.net/1853/78108	publication	2025-07-23		Indexes / metadata
-https://ci.nii.ac.jp/author/DA0978867X	archived	2025-08-12		Indexes / metadata
 https://simonmar.github.io/bib/papers/conc-ffi.pdf	created	2025-08-15		Indexes / metadata
-https://dblp.org/pid/t/SimonJThompson	modified	2025-08-18		Indexes / metadata
-https://quantumpl.github.io/bib/publication/	modified	2025-08-21		Indexes / metadata
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.112.2186&rep=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=3904dbf767882ed7084246fc96c168120bbdf73c&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=401137c07d49c1d807ab65bcc0d6bf019c4307f8&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
@@ -7096,28 +5023,19 @@ https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dfee1dd35287679353175079
 https://citeseerx.ist.psu.edu/document?doi=59d86f97d5882dfd12b8030e8679f78149fd0274&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=686d5f84779f3dee1dd3528767935317507965d&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=fcd0014cab027999044043363171c8050257c045&repid=rep1&type=pdf	archived	2025-12-30		Indexes / metadata
-https://katalog.bibliothek.kit.edu/bib/357081	archived	2026-03-14		Indexes / metadata
-https://raw.githubusercontent.com/QuantumPL/bib/main/bbt.bib	updated	2026-04-03		Indexes / metadata
-https://ftp.math.utah.edu/public_html/pub/tex/bib/toc/scicomputprogram.html	modified	2026-04-22		Indexes / metadata
 https://www.netlib.org/tex/bib/jfunctprogram.pdf	published	2026-04-28		Indexes / metadata
-https://dblp.org/pid/l/JLaunchbury	modified	2026-05-05		Indexes / metadata
-https://orcmid.github.io/bib/progsys.htm	modified	2026-06-21		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=94030f2d0b1fb28f8b1909ee748892573de294bb&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ba25513d8d7a1364bc651cee0708f684f6b0b34f&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://researchr.org/profile/peterachten/publications/identify	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=18a5f56fe79cabd85375428c8c09adbe6d30b125&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=c69b4e4c3d2c5399ca2c880462ef2e504d7c40a1&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://dblp.org/db/conf/haskell/index	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=a822291af586d9a0d45a39926147b27d971b6e01&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=19ec20f318919ca399be8d40017f4a205907aed6&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://catalog.faylib.org/Record/214856	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=b471484ad1bdec21965738d8e342c022cd0ec841&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=ca36e2ee750a7cf7e29919fac7b7f63e43365100&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=063e4644d68c3e458cddc5a08125aa539428cdc2&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=1dcf5be26272cf8f1781c3084b937221c853d40d&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=b9a2e1fc9a064dcc6de8b457e8c4e724716971ed&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
 https://citeseerx.ist.psu.edu/document?doi=88fd72fc47141b9de59bb848acf&repid=rep1&type=pdf	accessed	2026-07-27		Indexes / metadata
-https://codes-isss.org/dl_subdomain/citation_id_1291151_preflayout_flat/	accessed	2026-07-27		Indexes / metadata
 https://pdfs.semanticscholar.org/d6a6/7260152a8c3552829db1a06710494c114ff3.pdf	accessed	2026-07-27		Indexes / metadata
 https://hunit.sourceforge.net/HUnit-1.0/Guide.html	modified	2002-02-21		Blogs / tutorials
 https://conal.net/fran/tutorial.htm	archived	2003-02-08		Blogs / tutorials
@@ -8335,234 +6253,6 @@ https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil	accessed	2026-07-27
 https://www.youtube.com/playlist?list=PLD0EBF7F6C1A5A4D6	accessed	2026-07-27		Talks / videos
 https://www.scalar-conf.com/talk/beyond-flatmap-is-kyo-the-future-of-scala-effects	accessed	2026-07-27		Talks / videos
 https://www.infoq.com/fp/presentations/175/	accessed	2026-07-27		Talks / videos
-https://groups.google.com/g/comp.lang.scheme/c/__8FzY7i_10	published	1990-04-02		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/KxBuxPpYQvs	published	1991-01-14		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/IYNP_dGrOPg	published	1992-03-16		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg01070.html	created	1992-06-02		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg01238.html	created	1993-04-14		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/vxD26Z9077c	published	1993-04-30		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/EQb7zV8JlLk	published	1993-05-02		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/fZsMB3lOux0	published	1993-09-16		Community / discussion
-https://groups.google.com/g/comp.compilers/c/HGZZuTLQbrg	published	1994-03-01		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/BvFJUX4dE0E	published	1994-06-20		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/yyXtaWmUrd4	published	1994-11-28		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/0-Mw4u8JaCY	published	1994-11-28		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/GLD4OgiyMPU	published	1994-12-23		Community / discussion
-https://groups.google.com/g/comp.lang.sigplan/c/rVa28HWgODQ	published	1995-03-13		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/Sku_QA6ALBU	published	1995-06-13		Community / discussion
-https://www.mail-archive.com/haskell@haskell.org/msg00341.html	created	1995-09-08		Community / discussion
-https://mailman.science.ru.nl/pipermail/clean-list/1996/000060.html	created	1996		Community / discussion
-https://www.mail-archive.com/hugs-bugs%40haskell.org/msg00865.html	created	1997-06-30		Community / discussion
-https://groups.google.com/g/comp.lang.lisp/c/uu4nxH28z-c	published	1999-11-05		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/I5A20I2T2yU	published	2001-01-19		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg07960.html	created	2001-01-29		Community / discussion
-https://mailman.science.ru.nl/pipermail/clean-list/2002/002153.html	created	2002		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/5k-e7fwykn4	published	2002-04-04		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg01882.html	created	2002-08-11		Community / discussion
-https://www.mail-archive.com/cvs-all%40haskell.org/msg03805.html	created	2003-01-25		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/uAYJTQYGS58/m/Mrw1NLa7Vg4J	published	2003-04-15		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/UFLNf1eI95A/m/WXA78_sk31EJ	published	2003-07-11		Community / discussion
-https://mail-archive.com/haskell-cafe%40haskell.org/msg03247.html	created	2003-08-14		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/IRSBGxYpRrw/m/YUYkeV-e-CEJ	published	2003-12-27		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/BH6gxLnjoHQ/m/gXxlxkVV3i8J	published	2004-02-18		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/gi9QEeCi-iM/m/oA6B7X2xHEwJ	published	2004-08-03		Community / discussion
-https://lambda-the-ultimate.org/node/view/92	archived	2004-08-30		Community / discussion
-https://mail-archive.com/haskell-cafe%40haskell.org/msg05828.html	created	2004-11-09		Community / discussion
-https://www.mail-archive.com/cvs-all%40haskell.org/msg13865.html	created	2004-11-14		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg05985.html	created	2004-11-25		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg07296.html	created	2005-01-31		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg16453.html	created	2005-04-18		Community / discussion
-https://groups.google.com/g/fa.haskell/c/7LWEajFpYck	published	2005-07-07		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg09256.html	created	2005-07-30		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/CFZ6KZzq3dk	published	2005-08-16		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg17122.html	created	2005-09-07		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg09898.html	created	2005-10-06		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg11615.html	created	2005-12-22		Community / discussion
-https://lambda-the-ultimate.org/node/1276	archived	2006-02-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg12574.html	created	2006-02-05		Community / discussion
-https://lambda-the-ultimate.org/node/1183	archived	2006-02-06		Community / discussion
-https://lambda-the-ultimate.org/node/724	archived	2006-02-13		Community / discussion
-https://lambda-the-ultimate.org/node/890	archived	2006-02-16		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg13838.html	created	2006-04-29		Community / discussion
-https://groups.google.com/g/fa.haskell/c/YgZcqtRlWps	published	2006-05-25		Community / discussion
-https://groups.google.com/g/fa.haskell/c/1sdXl-pMvUc	published	2006-07-04		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg15198.html	created	2006-07-26		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg15449.html	created	2006-08-03		Community / discussion
-https://groups.google.com/g/comp.lang.functional/c/893DaEEcYGA	published	2006-09-17		Community / discussion
-https://groups.google.com/g/fa.haskell/c/3XoFFzMxEjs	published	2006-10-03		Community / discussion
-https://groups.google.com/g/haskellcn	published	2006-10-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg18492.html	created	2006-12-11		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg19868.html	created	2007-02-20		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg21739.html	created	2007-03-14		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg21823.html	created	2007-03-18		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg22248.html	created	2007-03-30		Community / discussion
-https://www.mail-archive.com/haskell-cafe@haskell.org/msg22248.html	created	2007-03-30		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg24121.html	created	2007-05-24		Community / discussion
-https://www.developpez.net/forums/d355579/autres-langages/langages-fonctionnels/haskell/haskell-raison-d-etre-monade-io/	published	2007-06-10		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg27320.html	created	2007-07-16		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg28061.html	created	2007-08-01		Community / discussion
-https://groups.google.com/g/fa.haskell/c/qROwOslOHxw	published	2007-08-08		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg28379.html	created	2007-08-08		Community / discussion
-https://lambda-the-ultimate.org/node/2510	created	2007-10-24		Community / discussion
-https://groups.google.com/g/fa.haskell/c/SXWLcHnNOyI	published	2007-10-25		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg33040.html	created	2007-11-18		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg34311.html	created	2007-12-09		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg35952.html	created	2008-01-09		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg36256.html	created	2008-01-13		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg37474.html	created	2008-02-06		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg37546.html	created	2008-02-07		Community / discussion
-https://lambda-the-ultimate.org/node/2700	created	2008-02-28		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg40575.html	created	2008-05-03		Community / discussion
-https://groups.google.com/g/comp.lang.haskell/c/FEfURF253ME	published	2008-05-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg47423.html	created	2008-10-14		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg50592.html	created	2008-12-24		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg50873.html	created	2009-01-01		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg53261.html	created	2009-02-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg53256.html	created	2009-02-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg53226.html	created	2009-02-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg53461.html	created	2009-02-09		Community / discussion
-https://groups.google.com/g/haskell-cafe/c/K2KGzy3TY80	published	2009-04-09		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg61594.html	created	2009-06-25		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg63652.html	created	2009-08-21		Community / discussion
-https://groups.google.com/g/fa.haskell/c/3PDC3LgQeao	published	2009-09-05		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg72522.html	created	2010-03-13		Community / discussion
-https://groups.google.com/g/haskell-cafe/c/I-hZLtns5_A	published	2010-10-08		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg82859.html	created	2010-10-14		Community / discussion
-https://lambda-the-ultimate.org/node/4129	created	2010-11-08		Community / discussion
-https://lambda-the-ultimate.org/node/4169	created	2010-12-29		Community / discussion
-https://groups.google.com/g/haskell-cafe/c/9ScAb-G_H_E	published	2011-04-01		Community / discussion
-https://lambda-the-ultimate.org/node/4306	created	2011-07-03		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg91853.html	created	2011-07-12		Community / discussion
-https://softwareengineering.stackexchange.com/questions/95966	created	2011-07-26		Community / discussion
-https://softwareengineering.stackexchange.com/questions/95966/how-important-are-haskells-advanced-concepts-like-monads-and-applicative-functo	created	2011-07-26		Community / discussion
-https://softwareengineering.stackexchange.com/questions/108531/stdout-and-its-impurity	created	2011-09-15		Community / discussion
-https://softwareengineering.stackexchange.com/questions/121025/a-programming-language-that-does-not-allow-io-haskell-is-not-a-pure-language	created	2011-11-22		Community / discussion
-https://softwareengineering.stackexchange.com/questions/161568/critique-of-the-io-monad-being-viewed-as-a-state-monad-operating-on-the-world	created	2012-08-20		Community / discussion
-https://softwareengineering.stackexchange.com/questions/161568	created	2012-08-20		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg101695.html	created	2012-10-14		Community / discussion
-https://cstheory.stackexchange.com/questions/14482/resumption-based-io-systems	created	2012-11-26		Community / discussion
-https://softwareengineering.stackexchange.com/questions/179982	created	2012-12-19		Community / discussion
-https://softwareengineering.stackexchange.com/questions/179982/misconceptions-about-purely-functional-languages	created	2012-12-19		Community / discussion
-https://www.mail-archive.com/haskell-cafe%40haskell.org/msg105322.html	created	2013-04-12		Community / discussion
-https://lobste.rs/s/jnfrnj/three_useful_monads	created	2013-06-11		Community / discussion
-https://groups.google.com/g/haskell-cafe/c/RDIPvWJUKnc	published	2013-11-01		Community / discussion
-https://lobste.rs/s/hylhyr/don_t_fear_monad	created	2014-01-24		Community / discussion
-https://groups.google.com/g/haskell-core-libraries/c/MIRPTkYj7s0	published	2014-04-29		Community / discussion
-https://groups.google.com/g/elm-discuss/c/1acyOfxvasA/m/oN7uBjdSDZcJ	published	2014-05-02		Community / discussion
-https://softwareengineering.stackexchange.com/questions/242795/what-is-the-free-monad-interpreter-pattern	created	2014-06-02		Community / discussion
-https://cs.stackexchange.com/questions/30757/how-is-io-a-monad	created	2014-10-07		Community / discussion
-https://cs.stackexchange.com/questions/30757	created	2014-10-07		Community / discussion
-https://softwareengineering.stackexchange.com/questions/258663/how-can-io-cause-side-effects-in-functional-programming	created	2014-10-10		Community / discussion
-https://lobste.rs/s/ffx0rv/haskell_io_without_m_word_2015	created	2015		Community / discussion
-https://philosophy.stackexchange.com/questions/21257/input-output-in-mathematical-programming-languages	created	2015-01-16		Community / discussion
-https://groups.google.com/g/haskell-cafe/c/qTaKMnpiw5E	published	2015-03-16		Community / discussion
-https://lobste.rs/s/hkmxqc/effects	created	2015-04-21		Community / discussion
-https://softwareengineering.stackexchange.com/questions/288100/how-to-manage-the-state-in-a-gui-app-with-haskell	created	2015-06-28		Community / discussion
-https://softwareengineering.stackexchange.com/questions/291971	created	2015-08-05		Community / discussion
-https://lobste.rs/s/zscnvj/freer_monads_more_extensible_effects	created	2015-09-04		Community / discussion
-https://lobste.rs/s/djmxxg/freer_monad_more_extensible_effects	created	2015-09-07		Community / discussion
-https://lobste.rs/s/oh2r0a/unix_pipes_as_io_monads	created	2015-09-10		Community / discussion
-https://softwareengineering.stackexchange.com/questions/303472/what-is-the-purpose-of-wrapped-values-in-haskell	created	2015-11-24		Community / discussion
-https://groups.google.com/g/haskell-cafe/c/-ubgIxnf1Vk	published	2016-01-10		Community / discussion
-https://softwareengineering.stackexchange.com/questions/311316	created	2016-02-28		Community / discussion
-https://lobste.rs/s/lmaja2/newcomer_s_run_with_lazy_i_o	created	2016-03-11		Community / discussion
-https://softwareengineering.stackexchange.com/questions/315232/history-of-the-maybe-monad	created	2016-04-09		Community / discussion
-https://codereview.stackexchange.com/questions/129613/composing-io-and-async-in-haskell	created	2016-05-29		Community / discussion
-https://cstheory.stackexchange.com/questions/36369/how-to-prove-relations-between-classes-of-types	created	2016-08-08		Community / discussion
-https://codereview.stackexchange.com/questions/141448/using-monads-and-monad-transformers-simple-matching-engine	created	2016-09-15		Community / discussion
-https://lobste.rs/s/0qvx5w/monad_fear	created	2017-01-25		Community / discussion
-https://softwareengineering.stackexchange.com/questions/343927	created	2017-03-10		Community / discussion
-https://lobste.rs/s/k4bprb/mio_high_performance_multicore_io	created	2017-04-19		Community / discussion
-https://discuss.ocaml.org/t/about-lwt-concurrency-library/150	publication	2017-05-15		Community / discussion
-https://lobste.rs/s/xl0jik/escaping_hell_with_monads	created	2017-05-20		Community / discussion
-https://lobste.rs/s/oak5qd/readert_design_pattern	created	2017-06-13		Community / discussion
-https://lobste.rs/s/m8z2up/providing_api_for_extensible_effects	created	2017-08-24		Community / discussion
-https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830	publication	2017-09-09		Community / discussion
-https://discuss.ocaml.org/t/ann-monads-the-missing-monad-transformers-library/830/8?u=kantian	publication	2017-09-14		Community / discussion
-https://lobste.rs/s/drv9qs/why_do_our_programs_need_read_input_write	created	2017-10-08		Community / discussion
-https://lobste.rs/s/9soxha/what_is_monad	created	2017-11-29		Community / discussion
-https://discourse.elm-lang.org/t/producing-side-effects-directly-from-view-functions/323	publication	2017-12-24		Community / discussion
-https://lobste.rs/s/4czvej/how_i_finally_learned_what_monad_is	created	2018-06-25		Community / discussion
-https://lobste.rs/s/1hnbx5/monads_made_simple	created	2018-07-08		Community / discussion
-https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470	publication	2018-07-10		Community / discussion
-https://discourse.elm-lang.org/t/looking-for-simple-yet-practical-examples-of-using-monads-in-elm/1470/6	publication	2018-07-10		Community / discussion
-https://softwareengineering.stackexchange.com/questions/390315	created	2019-04-13		Community / discussion
-https://lobste.rs/s/auk3ds/monads_haskell	created	2019-04-23		Community / discussion
-https://cs.stackexchange.com/questions/109421/is-the-io-monad-technically-incorrect	created	2019-05-16		Community / discussion
-https://cs.stackexchange.com/questions/109421	created	2019-05-16		Community / discussion
-https://lobste.rs/s/5mygc3/not_made_for_this_world	created	2019-07-30		Community / discussion
-https://discuss.ocaml.org/t/io-monad-for-ocaml/4618	publication	2019-11-01		Community / discussion
-https://lobste.rs/s/ovebeq/pythonista_s_review_haskell	created	2020-01-30		Community / discussion
-https://discourse.elm-lang.org/t/why-port-functions-are-not-defined/5199	publication	2020-02-18		Community / discussion
-https://discourse.elm-lang.org/t/use-cases-for-effect-manager/5238	publication	2020-02-28		Community / discussion
-https://discourse.elm-lang.org/t/realworld-example-app-architected-with-the-effect-pattern/5753	publication	2020-05-10		Community / discussion
-https://softwareengineering.stackexchange.com/questions/412100/whats-the-value-of-io-monad	created	2020-06-28		Community / discussion
-https://softwareengineering.stackexchange.com/questions/412100	created	2020-06-28		Community / discussion
-https://discourse.rocq-prover.org/t/good-library-or-framework-for-handling-extraction-io-etc/936	publication	2020-07-09		Community / discussion
-https://softwareengineering.stackexchange.com/questions/416073/functional-architecture-with-lots-of-i-o	created	2020-09-20		Community / discussion
-https://trio.discourse.group/t/structured-concurrency-in-haskell/344	publication	2020-11-13		Community / discussion
-https://www.mail-archive.com/debian-bugs-dist%40lists.debian.org/msg1775394.html	created	2020-11-22		Community / discussion
-https://discuss.ocaml.org/t/threading-io-monad-vs-threads-the-case-of-web-app-servers/6935	publication	2020-12-07		Community / discussion
-https://lobste.rs/s/pxreiu/monad_transformers_effects_with	created	2020-12-24		Community / discussion
-https://discuss.ocaml.org/t/ann-lwt-canceler-0-3/7092	publication	2021-01-14		Community / discussion
-https://lobste.rs/s/mcsk6m/how_free_monads_yield_extensible_effects	created	2021-08-16		Community / discussion
-https://discuss.ocaml.org/t/with-domains-is-anyone-actively-creating-or-updating-their-fault-tolerant-let-it-crash-like-framework-in-ocaml/8534	publication	2021-09-26		Community / discussion
-https://discuss.ocaml.org/tag/effects	archived	2021-09-28		Community / discussion
-https://discourse.purescript.org/t/how-does-an-aff-monad-work/2637	publication	2021-10-13		Community / discussion
-https://discourse.elm-lang.org/t/how-does-elm-interop-with-side-effects-in-a-purely-functional-way/7875	publication	2021-11-03		Community / discussion
-https://cs.stackexchange.com/questions/145482/semantics-and-implementation-of-side-effects	created	2021-11-06		Community / discussion
-https://cs.stackexchange.com/questions/145482	created	2021-11-06		Community / discussion
-https://lobste.rs/s/if8hle/have_you_found_side_effects_problem_by	created	2022-02-05		Community / discussion
-https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298	publication	2022-02-10		Community / discussion
-https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298?page=2	publication	2022-02-12		Community / discussion
-https://discuss.ocaml.org/t/eio-0-1-effects-based-direct-style-io-for-ocaml-5/9298/28	publication	2022-02-14		Community / discussion
-https://lobste.rs/s/iiqlwa/unreasonable_effectiveness_haskell	created	2022-02-17		Community / discussion
-https://discuss.ocaml.org/t/update-on-eio-effects-based-direct-style-io-for-ocaml-5/10395	publication	2022-08-29		Community / discussion
-https://groups.google.com/g/haskell-exercises	archived	2022-09-14		Community / discussion
-https://lobste.rs/s/h8uevl/monads_are_everywhere_maybe_s_bad	created	2022-10-12		Community / discussion
-https://lobste.rs/s/t0xrew/	archived	2022-12-05		Community / discussion
-https://discuss.ocaml.org/t/we-need-to-stop-recommending-real-world-ocaml-as-introduction-text/11073	publication	2022-12-29		Community / discussion
-https://discourse.elm-lang.org/t/haskell-for-elm-developers-giving-names-to-stuff-part-3-monads/8977	publication	2023-03-02		Community / discussion
-https://discuss.ocaml.org/t/introduction-to-eio-video/11571	publication	2023-03-03		Community / discussion
-https://langdev.stackexchange.com/questions/2247/what-are-the-disadvantages-of-introducing-the-io-monad	created	2023-07-09		Community / discussion
-https://softwareengineering.stackexchange.com/questions/tagged/monad	modified	2023-07-11		Community / discussion
-https://langdev.stackexchange.com/questions/2492/possible-ways-for-a-system-interface-in-a-lazy-lc-language/2518	created	2023-07-21		Community / discussion
-https://langdev.stackexchange.com/questions/2492/possible-ways-for-a-system-interface-in-a-lazy-lc-language	created	2023-07-21		Community / discussion
-https://langdev.stackexchange.com/questions/2675/why-does-haskell-use-the-bind-operation-instead-of-kleisli-composition	created	2023-08-07		Community / discussion
-https://mail-archive.com/arch-commits%40archlinux.org/msg820840.html	created	2023-08-21		Community / discussion
-https://discourse.purescript.org/t/how-to-read-liftaff-signature/3782	published	2023-11-07		Community / discussion
-https://langdev.stackexchange.com/questions/3576/whats-the-state-of-the-art-for-implementing-effect-handler-systems	created	2024-02-20		Community / discussion
-https://discuss.ocaml.org/t/ann-eio-1-0-first-major-release/14334	publication	2024-03-20		Community / discussion
-https://lobste.rs/s/rvsci8/bluefin	created	2024-04-25		Community / discussion
-https://discourse.elm-lang.org/t/historical-origins-of-representing-side-effects-with-commands/9785	publication	2024-05-11		Community / discussion
-https://lobste.rs/s/eslpei/references_are_like_jumps	created	2024-05-13		Community / discussion
-https://discuss.ocaml.org/t/best-practices-and-design-patterns-for-supporting-concurrent-io-in-libraries/15001	publication	2024-07-20		Community / discussion
-https://lobste.rs/s/nsdpki/implementation_functional_languages	created	2024-09-03		Community / discussion
-https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053	publication	2024-11-23		Community / discussion
-https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/9	publication	2024-11-28		Community / discussion
-https://discourse.elm-lang.org/t/understanding-side-effects-in-elm-vs-other-languages/10053/18	publication	2024-12-10		Community / discussion
-https://discuss.ocaml.org/t/are-there-any-imap-server-libraries/16175	publication	2025-02-24		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg27378.html	created	2025-06-03		Community / discussion
-https://discourse.elm-lang.org/t/best-way-to-write-intensely-monadic-code-in-elm/10434	publication	2025-09-16		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg874570.html	created	2025-09-18		Community / discussion
-https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg38879.html	created	2026-01-05		Community / discussion
-https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg39479.html	created	2026-01-07		Community / discussion
-https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944198.html	created	2026-01-13		Community / discussion
-https://discuss.ocaml.org/t/book-curious-ocaml-functional-programming-in-ocaml/17705	publication	2026-01-18		Community / discussion
-https://www.mail-archive.com/pkg-haskell-maintainers%40alioth-lists.debian.net/msg40005.html	created	2026-01-19		Community / discussion
-https://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg944874.html	created	2026-01-19		Community / discussion
-https://www.mail-archive.com/ghc-devs%40haskell.org/msg21725.html	created	2026-01-22		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg987863.html	created	2026-03-26		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1003494.html	created	2026-03-31		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1023414.html	created	2026-04-07		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1031858.html	created	2026-04-17		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1034197.html	created	2026-04-20		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1044499.html	created	2026-04-29		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg27444.html	created	2026-04-29		Community / discussion
-https://www.mail-archive.com/haskell%40haskell.org/msg27448.html	created	2026-05-06		Community / discussion
-https://www.mail-archive.com/arch-commits%40lists.archlinux.org/msg1052154.html	created	2026-05-07		Community / discussion
-https://discourse.elm-lang.org/t/haskell-for-elm-developers-part-8-io/10783	publication	2026-06-12		Community / discussion
-https://lobste.rs/s/bgnc5q	created	2026-06-27		Community / discussion
 https://web.archive.org/web/20151208175102/http://code.haskell.org/~dons/haskell-1990-2000/threads.html	created	1990		Archives / mirrors
 https://www.seas.upenn.edu/~sweirich/types/archive/1993/msg00111.html	created	1993		Archives / mirrors
 ftp://ftp.cs.chalmers.se/pub/haskell/chalmers/	updated	1993-08-02		Archives / mirrors
@@ -9308,7 +6998,6 @@ https://staff.aist.go.jp/reynald.affeldt/documents/monae.pdf	modified	2019-10-09
 https://easychair.org/smart-slide/slide/K3SD	archived	2019-10-17		Other / uncategorized
 https://cs.famaf.unc.edu.ar/~hoffmann/pd19/tipos02.html	modified	2019-10-23		Other / uncategorized
 https://attena.ufpe.br/bitstream/123456789/11435/1/DISSERTA%C3%87%C3%83O%20Francisco%20Miranda%20Soares%20da%20Silva%20Neto.pdf	modified	2019-10-25		Other / uncategorized
-https://gitlab.ifi.lmu.de/uni2work/haskell/minio-hs/-/blob/v1.5.1/minio-hs.cabal?ref_type=tags	updated	2019-10-29		Other / uncategorized
 https://zanza00.gitbook.io/learn-fp-ts/taskeither/taskeither-and-io-ts	created	2019-11-08		Other / uncategorized
 https://minoki.github.io/ks-material/haskell/monad.html	modified	2019-11-14		Other / uncategorized
 https://www.usenix.org/legacy/events/dsl99/full_papers/peterson/peterson_html/	modified	2019-11-18		Other / uncategorized
