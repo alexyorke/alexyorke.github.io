@@ -2523,7 +2523,7 @@ https://old.agniv.me/blog/haskell-os/	publication	2026-03-25		Academic papers / 
 https://www.sota.io/blog/deploy-clean-europe-eu-hosting	published	2026-03-31		Academic papers / proceedings
 https://andrewdgordon.github.io/cv.pdf	published	2026-04		Academic papers / proceedings
 https://andrewdgordon.github.io/short-cv.pdf	published	2026-04		Academic papers / proceedings
-https://sgeos.github.io/programming-languages/theory/history/2026/04/02/the_1990s.html	publication	2026-04-02		Academic papers / proceedings
+https://sgeos.github.io/programming-languages/theory/history/2026/04/02/the_1990s.pdf	publication	2026-04-02		Academic papers / proceedings
 https://helabs.com.br/haskell-para-programacao-funcional-pura/	publication	2026-04-12		Academic papers / proceedings
 https://www.cst.cam.ac.uk/seminars/list/28507	publication	2026-04-16		Academic papers / proceedings
 https://www.cst.cam.ac.uk/seminars/list/53899	publication	2026-04-16		Academic papers / proceedings
