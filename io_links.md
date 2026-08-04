@@ -2251,7 +2251,7 @@ https://alastairreid.github.io/papers/ffi.pdf	modified	2024-05-01		Academic pape
 https://alastairreid.github.io/papers/	modified	2024-05-01		Academic papers / proceedings
 https://alastairreid.github.io/papers/green-card.pdf	modified	2024-05-01		Academic papers / proceedings
 https://vived.io/on-modern-error-handling-not-just-in-java-monads-effects-and-project-amber-jvm-weekly-vol-172/	publication	2024-05-02		Academic papers / proceedings
-https://repository.rice.edu/items/3baa9ea4-af1f-44aa-b20e-625bdedafb69	archived	2024-05-04		Academic papers / proceedings
+https://repository.rice.edu/server/api/core/bitstreams/1d8fa142-8ccd-4e97-9c4b-b750a20f7ac7/content	archived	2024-05-04		Academic papers / proceedings
 https://habr.com/ru/articles/812395/	published	2024-05-05		Academic papers / proceedings
 https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemFileId=188644&itemId=35936	archived	2024-05-10		Academic papers / proceedings
 https://www.baeldung.com/java-monads	published	2024-05-14		Academic papers / proceedings
