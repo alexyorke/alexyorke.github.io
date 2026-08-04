@@ -443,7 +443,6 @@ https://www.mbsd.cs.ru.nl/publications/papers/2006/plar2006-ImplementingiDataIFL
 https://www.cs.kent.ac.uk/pubs/2006/2479/content.pdf	created	2006		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/gdp/publications/Comb_Effects_Jour.pdf	publication	2006	10.1016/j.tcs.2006.03.013	Academic papers / proceedings
 https://www.informatik.uni-kiel.de/~fhu/projects/stm.pdf	published	2006		Academic papers / proceedings
-https://harrisonwl.github.io/assets/papers/hosc-cheapthreads.pdf	published	2006		Academic papers / proceedings
 https://www.cs.cornell.edu/people/fluet/research/tx-events/CS257/cs257.pdf	published	2006-01-20		Academic papers / proceedings
 https://www.dcs.gla.ac.uk/~jtod/publications/	modified	2006-02-27		Academic papers / proceedings
 https://publications.scss.tcd.ie/tech-reports/reports.06/TCD-CS-2006-19.pdf	published	2006-03		Academic papers / proceedings
@@ -639,7 +638,7 @@ https://www.sigmod.org/publications/dblp/db/conf/lics/lics89.html	modified	2009-
 https://tomasp.net/blog/fsharp-webcast-async.aspx/	published	2009-06-05		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/82CE5F0583C3390BBBD305830255FAA0/S095679680900728Xa.pdf/parameterised_notions_of_computation.pdf	created	2009-06-08	10.1017/S095679680900728X	Academic papers / proceedings
 https://www.risc.jku.at/publications/download/risc_3852/WWV-2009-Proceedings.pdf	published	2009-07-17		Academic papers / proceedings
-https://repository.nottingham.ac.uk/entities/publication/afa95713-a742-4fc8-9092-8c53cb74c935	publication	2009-07-23		Academic papers / proceedings
+https://repository.nottingham.ac.uk/server/api/core/bitstreams/f140ecd1-26ac-48d0-96bd-45a13baec383/content	publication	2009-07-23		Academic papers / proceedings
 https://repository.nottingham.ac.uk/server/api/core/bitstreams/a8f9f299-b6c3-4fa4-8eb0-f875ece93aaf/content	publication	2009-08		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2009/01/stm-haskell09.pdf	published	2009-08-30		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1596550.1596561	publication	2009-08-31	10.1145/1596550.1596561	Academic papers / proceedings
@@ -1078,7 +1077,7 @@ https://arxiv.org/pdf/1412.4879	published	2014-12-16	10.4204/EPTCS.170.4	Academi
 https://arxiv.org/pdf/1412.4880	published	2014-12-16	10.4204/EPTCS.170.5	Academic papers / proceedings
 https://qiita.com/7shi/items/deb19c4cba933590ffbf	published	2014-12-19		Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?PLACES2015.1.pdf	created	2015	10.4204/eptcs.203.1	Academic papers / proceedings
-https://inl.elsevierpure.com/en/publications/cheap-but-functional-threads/	publication	2015		Academic papers / proceedings
+https://harrisonwl.github.io/assets/papers/hosc-cheapthreads.pdf	publication	2015		Academic papers / proceedings
 https://fstar-lang.org/papers/icfp2015/full.pdf	created	2015		Academic papers / proceedings
 https://eprints.whiterose.ac.uk/id/eprint/118198/1/DejaFu.pdf	modified	2026-05-07	10.1145/2804302.2804306	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2784731.2784752	publication	2015	10.1145/2784731.2784752	Academic papers / proceedings
@@ -1096,7 +1095,7 @@ https://people.kth.se/~buiras/publications/icfp2015.pdf	created	2015		Academic p
 https://cs.nott.ac.uk/~psxip1/papers/2015-HaskellSymposium-Perez-Nilsson-BridgingGUIGapReactiveValues.pdf	created	2015		Academic papers / proceedings
 https://www.kriso.lv/functional-programming-scala-db-9781617290657.html	publication	2015		Academic papers / proceedings
 https://www-ps.informatik.uni-kiel.de/~fhu/FP15/MonadState.pdf	authored	2015		Academic papers / proceedings
-https://cronfa.swan.ac.uk/Record/cronfa22988	publication	2015-01-01		Academic papers / proceedings
+https://ku-fpg.github.io/files/Gill-15-RemoteMonad.pdf	publication	2015-01-01		Academic papers / proceedings
 https://arxiv.org/pdf/1501.04132	published	2015-01-16	10.1007/978-3-662-46666-7_2	Academic papers / proceedings
 https://blog.jle.im/entry/io-monad-considered-harmful.html	published	2015-01-22		Academic papers / proceedings
 https://bitterharvest.hatenablog.com/entry/2015/01/24/100102	publication	2015-01-24		Academic papers / proceedings
@@ -1392,7 +1391,6 @@ https://anil.recoil.org/notes/2017-ml-effects-1	published	2017-09-01		Academic p
 https://anil.recoil.org/papers/2017-ml-effects.pdf	publication	2017-09-01		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3122975.3122977	publication	2017-09-03	10.1145/3122975.3122977	Academic papers / proceedings
 https://okmij.org/ftp/Computation/HOPE-talk.pdf	published	2017-09-03		Academic papers / proceedings
-https://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1038657	archived	2017-09-07		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3122955.3122968	publication	2017-09-07	10.1145/3122955.3122968	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3122955.3122970	publication	2017-09-07	10.1145/3122955.3122970	Academic papers / proceedings
 https://notebook.community/LambdaFanatics/scala-notebooks/notebooks/%5BScala%20a%20FP%20approach%201%5D%20Pure%20Functions	authored	2017-09-11		Academic papers / proceedings
@@ -1451,8 +1449,6 @@ https://files01.core.ac.uk/download/pdf/157860382.pdf	publication	2018		Academic
 https://www.cs.uoregon.edu/research/summerschool/summer18/topics.php	created	2018		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3158095	publication	2018-01	10.1145/3158095	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3158096	publication	2018-01	10.1145/3158096	Academic papers / proceedings
-https://cronfa.swansea.ac.uk/Record/cronfa54270	publication	2018-01-01		Academic papers / proceedings
-https://cronfa.swan.ac.uk/Record/cronfa54270	publication	2018-01-01		Academic papers / proceedings
 https://www.baeldung.com/vavr-future	published	2018-01-09		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/?p=452935	published	2018-01-10		Academic papers / proceedings
 https://www.infoq.com/jp/articles/Understanding-Monads-guide-for-perplexed/	published	2018-01-11		Academic papers / proceedings
@@ -1554,7 +1550,6 @@ https://dl.acm.org/doi/pdf/10.1145/3331545.3342598	publication	2019	10.1145/3331
 https://s.octalsrc.org/ipfs/QmSKuejPz6uanJ7gBFzVaHrPDuDj1jnWuqus3PxukqP7ep/item/carol_icfp2019_pub.pdf	created	2019	10.1145/3341710	Academic papers / proceedings
 https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_pdf/-char/en	publication	2019	10.2197/ipsjjip.27.87	Academic papers / proceedings
 https://eprints.gla.ac.uk/195429/1/195429.pdf	publication	2019	10.25304/rlt.v27.2248	Academic papers / proceedings
-https://escholarship.org/uc/item/4hs1t9nc	publication	2019		Academic papers / proceedings
 https://www.mdpi.com/2076-3417/9/24/5472/pdf	publication	2019	10.3390/app9245472	Academic papers / proceedings
 https://dlib.si/details/URN%3ANBN%3ASI%3Adoc-SL2671A9?language=eng	publication	2019		Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol139-calco2019/LIPIcs.CALCO.2019.13/LIPIcs.CALCO.2019.13.pdf	created	2019	10.4230/LIPIcs.CALCO.2019.13	Academic papers / proceedings
@@ -1750,8 +1745,6 @@ https://arxiv.org/pdf/2006.01531	published	2020-06-02	10.48550/arXiv.2006.01531	
 https://arrow-kt.io/community/blog/2020/06/05/functional-domain-modeling-kotlin/	published	2020-06-05		Academic papers / proceedings
 https://umu.diva-portal.org/smash/get/diva2%3A1038657/FULLTEXT01.pdf	archived	2020-06-10		Academic papers / proceedings
 https://dev.to/louy2/look-for-nuke-launchers-in-haskell-4gd	published	2020-06-17		Academic papers / proceedings
-https://uu.diva-portal.org/smash/record.jsf?pid=diva2:1369286	archived	2020-06-18		Academic papers / proceedings
-https://uu.diva-portal.org/smash/get/diva2%3A1369286/FULLTEXT01.pdf%3E	archived	2020-06-18		Academic papers / proceedings
 https://haskellweekly.news/issue/216.html	published	2020-06-18		Academic papers / proceedings
 https://uu.diva-portal.org/smash/get/diva2:1369286/FULLTEXT01.pdf	archived	2020-06-18		Academic papers / proceedings
 https://kar.kent.ac.uk/81880/1/dataflow-effect-monads.pdf	publication	2020-06-28		Academic papers / proceedings
