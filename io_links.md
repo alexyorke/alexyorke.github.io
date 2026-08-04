@@ -583,7 +583,7 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2009/09/ghc-parallel
 https://www.ioc.ee/~wolfgang/research/tfp-2009-paper.pdf	created	2009		Academic papers / proceedings
 https://itat.ics.upjs.sk/proceedings/itat2009-ceur-proceedings.pdf	created	2009		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A2E94CADF97E06E6EE1591311D4EFF6D/S0956796809007151a.pdf	published	2009	10.1017/S0956796809007151	Academic papers / proceedings
-https://kar.kent.ac.uk/24064/1/FuncOlaf.pdf	publication	2009-01		Academic papers / proceedings
+https://kar.kent.ac.uk/24064/1/FuncOlaf.pdf	publication	2009-01	10.1002/9780470050118.ecse164	Academic papers / proceedings
 https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/	publication	2009-01-13		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1543134.1411288	publication	2009-01-28	10.1145/1543134.1411288	Academic papers / proceedings
 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200902222199463289	published	2009-02		Academic papers / proceedings
@@ -2699,7 +2699,7 @@ https://theses.gla.ac.uk/75809/1/13818545.pdf	modified	2019-11-19		Theses / diss
 https://theses.hal.science/tel-03278311v1/file/ARCHIPOFF_SIMON_2020.pdf	created	2020		Theses / dissertations
 https://etheses.bham.ac.uk//id/eprint/10520/1/Geron2020PhD.pdf	created	2020		Theses / dissertations
 https://eprints.nottingham.ac.uk/60350/1/thaler_thesis_minorcorrections.pdf	publication	2020-04-13		Theses / dissertations
-https://publications.scss.tcd.ie/theses/diss/2020/TCD-SCSS-DISSERTATION-2020-048-ABSTRACT.pdf	published	2020-04-29		Theses / dissertations
+https://www.scss.tcd.ie/publications/theses/diss/2020/TCD-SCSS-DISSERTATION-2020-048.pdf	published	2020-04-29		Theses / dissertations
 https://niekm.github.io/papers/master_thesis.pdf	published	2020-07		Theses / dissertations
 https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/102021/thesis-v1.1.pdf?isAllowed=y&sequence=1	modified	2020-07-02		Theses / dissertations
 https://www.cs.vu.nl/~wanf/theses/blankers-bscthesis.pdf	modified	2020-07-12		Theses / dissertations
@@ -2912,7 +2912,6 @@ https://doi.org/10.1007/978-3-642-04027-6_21	publication	2009	10.1007/978-3-642-
 https://doi.org/10.1007/978-3-642-10672-9_9	published	2009	10.1007/978-3-642-10672-9_9	Books / chapters
 https://books.google.com/books/about/Programming_Language_Pragmatics.html?id=gkV9lAEACAAJ	published	2009		Books / chapters
 https://books.google.com/books/about/Programming_F.html?id=gzVdyw2WoXMC	published	2009		Books / chapters
-https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470050118.ecse164	publication	2009-03-16	10.1002/9780470050118.ecse164	Books / chapters
 https://www.cambridge.org/core/books/semantic-techniques-in-quantum-computation/810AD13D88C863565F604132FF4A5FDE	published	2009-11-01	10.1017/CBO9781139193313	Books / chapters
 https://livebook.manning.com/book/real-world-functional-programming/table-of-contents	published	2009-11-30		Books / chapters
 https://web.engr.oregonstate.edu/~erwig/papers/DeclScripting_SLE09.pdf	modified	2009-12-04	10.1007/978-3-642-12107-4_21	Books / chapters
