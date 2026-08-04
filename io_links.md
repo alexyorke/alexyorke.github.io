@@ -273,7 +273,6 @@ https://web.archive.org/web/20020818142445/http://research.microsoft.com:80/~sim
 https://dl.acm.org/doi/pdf/10.1145/568173.568183	publication	2002-09-12	10.1145/568173.568183	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581478.581482	publication	2002-09-17	10.1145/581478.581482	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581478.581492	publication	2002-09-17	10.1145/581478.581492	Academic papers / proceedings
-https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf%3B	created	2002-10		Academic papers / proceedings
 https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf	created	2002-10		Academic papers / proceedings
 https://www.antonycourtney.com/pubs/frpcont.pdf	published	2002-10-03		Academic papers / proceedings
 https://dl.acm.org/doi/proceedings/10.1145/581690	publication	2002-10-03	10.1145/581690	Academic papers / proceedings
