@@ -113,7 +113,6 @@ https://www.comp.nus.edu.sg/~lingtw/dasfaa_proceedings/DASFAA97/P283.pdf	publica
 https://digicoll.lib.berkeley.edu/record/139011/files/CSD-97-975.pdf	publication	1997		Academic papers / proceedings
 https://williamwoods.ecampus.com/functional-logic-programming-proceedings/bk/9789810229238	publication	1997		Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/1997/pilm97-FstClassIOIFL96.pdf	created	1997		Academic papers / proceedings
-https://conal.net/papers/frp.html	published	1997		Academic papers / proceedings
 https://www.diva-portal.org/smash/get/diva2:1004952/FULLTEXT01.pdf	publication	1997		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/green-card-1.pdf	created	2016		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/publications/%3Fpg%3D94	published	1997-02-22		Academic papers / proceedings
@@ -190,7 +189,7 @@ https://www.berniepope.id.au/assets/files/mira2hask.pdf	published	1999-06-22		Ac
 https://dl.acm.org/doi/pdf/10.1145/317765.317777	publication	1999-09	10.1145/317765.317777	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf	created	2016	10.1145/317636.317790	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/1999/09/stretching.pdf	publication	1999-09-01	10.1007/10722298_3	Academic papers / proceedings
-https://www.sciencedirect.com/science/article/pii/S0304397598003569/pdf?md5=4ccbb498e59484a61ae5e9bb3e50ec07&pid=1-s2.0-S0304397598003569-main.pdf	published	1999-10-28		Academic papers / proceedings
+https://www.sciencedirect.com/science/article/pii/S0304397598003569/pdf?md5=4ccbb498e59484a61ae5e9bb3e50ec07&pid=1-s2.0-S0304397598003569-main.pdf	published	1999-10-28	10.1016/S0304-3975(98)00356-9	Academic papers / proceedings
 https://kar.kent.ac.uk/21730/1/a_semantics_for_functions_and_behaviours_daniels.pdf	publication	1999-12		Academic papers / proceedings
 https://research.google/pubs/using-impurity-to-create-declarative-interfaces-in-mercury/	publication	2000		Academic papers / proceedings
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl2000.html	created	2000		Academic papers / proceedings
@@ -217,7 +216,6 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/haskellobjec
 https://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf	modified	2000-10-24		Academic papers / proceedings
 https://scholarworks.iu.edu/bitstreams/454fc9eb-6829-4972-8734-dc45be1e8c7e/download	publication	2000-12		Academic papers / proceedings
 https://scholarworks.iu.edu/dspace/bitstreams/454fc9eb-6829-4972-8734-dc45be1e8c7e/download	published	2000-12-01		Academic papers / proceedings
-https://pure.york.ac.uk/portal/en/publications/a-space-semantics-for-core-haskell/	publication	2001		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/381694.378858	publication	2001	10.1145/381694.378858	Academic papers / proceedings
 https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	published	2001		Academic papers / proceedings
 https://research.chalmers.se/en/publication/636	publication	2001		Academic papers / proceedings
@@ -228,15 +226,13 @@ https://www.cs.yale.edu/homes/external/nilsson/Publications/jfp2001.pdf	created	
 https://kar.kent.ac.uk/84635/1/2001.10274v2.pdf	created	2001		Academic papers / proceedings
 https://dspace.library.uu.nl/bitstream/handle/1874/2576/2001-62.pdf?isAllowed=y&sequence=1	created	2001		Academic papers / proceedings
 https://www.kestrel.edu/research/specware/documentation/4.2/user-manual/SpecwareUserManual.pdf	published	2001		Academic papers / proceedings
-https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	created	2016		Other / uncategorized
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/mark.pdf	publication	2001-01-01		Academic papers / proceedings
 https://www.simonpj.org/assets/papers/monadicIO13.pdf	published	2001-01-01		Academic papers / proceedings
 https://digitalcollections.ohsu.edu/record/2532/files/3273_etd.pdf	created	2001-02		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66F1ACF22742EA28DD52608A5122E70F/S0956796800003828a.pdf/forms3-a-first-order-visual-language-to-explore-the-boundaries-of-the-spreadsheet-paradigm.pdf	published	2001-03	10.1017/S0956796800003828	Academic papers / proceedings
 https://web.engr.oregonstate.edu/~erwig/papers/CategoricalImperative_IFL98.pdf	modified	2001-03-16		Academic papers / proceedings
 https://web.engr.oregonstate.edu/~erwig/papers/CategoricalADT_AMAST98.pdf	modified	2001-03-16		Academic papers / proceedings
-https://docplayer.net/11525326-Lps-a-language-prototyping-system-using-modular-monadic-semantics.html	publication	2001-06	10.1016/S1571-0661(04)80923-X	Academic papers / proceedings
-https://hjemmesider.diku.dk/~andrzej/papers/CE-abstract.html	modified	2001-06-18		Academic papers / proceedings
+https://www.sciencedirect.com/science/article/pii/S157106610480923X/pdf	publication	2001-06	10.1016/S1571-0661(04)80923-X	Academic papers / proceedings
 https://scholar.lib.vt.edu/ejournals/JFLP/jflp-mirror/articles/2001/S01-01/JFLP-A01-03.pdf	published	2001-07-13		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	published	2001-08-31		Academic papers / proceedings
 https://ics-archive.science.uu.nl/research/techreps/repo/CS-2001/2001-62.pdf	published	2001-09		Academic papers / proceedings
@@ -264,18 +260,18 @@ https://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf	created	2002
 https://arxiv.org/pdf/cs/0205026	published	2002-05-17	10.48550/arXiv.cs/0205026	Academic papers / proceedings
 https://blogs.asarkar.com/assets/docs/haskell/Monadic%20QuickCheck%20-%20Claessen%2BHughes.pdf	modified	2002-05-28	10.1145/636517.636527	Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9D90E0C7DE8DA7D6BAEAC5143E658E1D/S0956796802004380a.pdf/div-class-title-a-static-semantics-for-haskell-div.pdf	publication	2002-07	10.1017/s0956796802004380	Academic papers / proceedings
-https://web.archive.org/web/20020818142445/http://research.microsoft.com:80/~simonpj/papers/marktoberdorf/	archived	2002-08-18		Academic papers / proceedings
+https://web.archive.org/web/20051022000416id_/http://research.microsoft.com/~simonpj/papers/marktoberdorf/mark.pdf	archived	2002-08-18		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/568173.568183	publication	2002-09-12	10.1145/568173.568183	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581478.581482	publication	2002-09-17	10.1145/581478.581482	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581478.581492	publication	2002-09-17	10.1145/581478.581492	Academic papers / proceedings
 https://digitalcollections.ohsu.edu/record/164/files/164_etd.pdf	created	2002-10		Academic papers / proceedings
 https://www.antonycourtney.com/pubs/frpcont.pdf	published	2002-10-03		Academic papers / proceedings
-https://dl.acm.org/doi/proceedings/10.1145/581690	publication	2002-10-03	10.1145/581690	Academic papers / proceedings
+https://dl.acm.org/doi/pdf/10.1145/581690	publication	2002-10-03	10.1145/581690	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581690.581694	publication	2002-10-03	10.1145/581690.581694	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581690.581695	publication	2002-10-03	10.1145/581690.581695	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/581690.581696	published	2002-10-03	10.1145/581690.581696	Academic papers / proceedings
 https://ui.adsabs.harvard.edu/abs/2003robo....1..118P/abstract	created	2003		Academic papers / proceedings
-https://www8.cs.fau.de/ext/bibtexbrowser/bibtexbrowser.php?bib=lutz.bib&key=SchroderMossakowski03a	published	2003		Academic papers / proceedings
+https://link.springer.com/content/pdf/10.1007/3-540-36578-8_19.pdf	published	2003	10.1007/3-540-36578-8_19	Academic papers / proceedings
 https://www.jstage.jst.go.jp/article/jssstconference/2003/0/2003_0_3/_pdf	created	2003		Academic papers / proceedings
 https://lourdes.ecampus.com/implementation-functional-languages-14th/bk/9783540401902	publication	2003		Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-44854-3.pdf	published	2003	10.1007/3-540-44854-3	Academic papers / proceedings
@@ -287,7 +283,6 @@ https://wiki.clean.cs.ru.nl/download/papers/2003/achp2003-GenericGUI.pdf	created
 https://www.cs.kent.ac.uk/pubs/2003/1770/content.pdf	created	2003		Academic papers / proceedings
 https://db.cs.uni-tuebingen.de/publications/2003/monad-comprehensions.-a-versatile-representation-for-queries/monad-comprehensions.pdf	created	2003		Academic papers / proceedings
 https://cs.ioc.ee/fics-archive/fics03-proceedings.pdf	publication	2003		Academic papers / proceedings
-ftp://ftp.cs.kun.nl/pub/Clean/papers/2003/verm2003-LazyDynamicIO.ps.gz	publication	2003		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/032C8D62ACDD94C0D3EA86900DC9843B/S0956796803002314a.pdf/div-class-title-21-input-output-div.pdf	publication	2003-01	10.1017/s0956796803002314	Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D74BCFCB041AFF5AF5A799451999A8EB/S0956796803002211a.pdf/div-class-title-20-monad-utilities-div.pdf	publication	2003-01	10.1017/s0956796803002211	Academic papers / proceedings
 https://kar.kent.ac.uk/14020/	publication	2003-01		Academic papers / proceedings
@@ -300,14 +295,12 @@ https://www.barnesandnoble.com/w/implementation-of-functional-languages-ricardo-
 https://kar.kent.ac.uk/58270/1/transformingFinal.pdf	publication	2003-05-20		Academic papers / proceedings
 https://www.cs.uoregon.edu/research/summerschool/summer03/lectures/cbslides.pdf	published	2003-06		Academic papers / proceedings
 https://kar.kent.ac.uk/13937/1/content.pdf	publication	2003-08		Academic papers / proceedings
-https://web.archive.org/web/20030802235019/http://www.research.microsoft.com:80/~simonpj/Papers/marktoberdorf/	archived	2003-08-02		Academic papers / proceedings
 http://www.abercrombiegroup.co.uk/~noel/research/monads.html	archived	2003-08-16		Academic papers / proceedings
 https://www.cs.yale.edu/homes/external/nilsson/Publications/hw2003.pdf	published	2003-08-25		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871897	publication	2003-08-28	10.1145/871895.871897	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871898	publication	2003-08-28	10.1145/871895.871898	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871900	publication	2003-08-28	10.1145/871895.871900	Academic papers / proceedings
 https://www.usenix.org/legacy/publications/library/proceedings/dsl97/full_papers/elliott/elliott.pdf	archived	2003-09-01		Academic papers / proceedings
-https://homepages.inf.ed.ac.uk/wadler/papers/monadscomb/monadscomb.ps	modified	2003-10-17		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/phd-thesis-1.pdf	publication	2003-11-01		Academic papers / proceedings
 https://www.cs.yale.edu/homes/external/nilsson/papers.html	modified	2003-11-19		Academic papers / proceedings
 https://arxiv.org/pdf/cs/0311040	published	2003-11-26	10.48550/arXiv.cs/0311040	Academic papers / proceedings
@@ -327,8 +320,7 @@ https://www.diva-portal.org/smash/get/diva2:142802/FULLTEXT01.pdf	publication	20
 https://pdfcoffee.com/programming-language-design-concepts-pdf-free.html	publication	2004		Academic papers / proceedings
 https://www.um.edu.mt/library/oar/bitstream/123456789/22406/1/Proceedings%20of%20CSAW%e2%80%9904%20-%20A8.pdf	published	2004		Academic papers / proceedings
 https://www.yumpu.com/de/document/view/7411259/kapitel-5-nichtdeterminismus-und-sharing-goethe-universitat	authored	2004-01-13		Academic papers / proceedings
-https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/marktoberdorf.pdf	archived	2004-02-20		Academic papers / proceedings
-https://web.engr.oregonstate.edu/~erwig/papers/Monadify_SCP04.pdf	published	2004-02-27		Academic papers / proceedings
+https://web.engr.oregonstate.edu/~erwig/papers/Monadify_SCP04.pdf	published	2004-02-27	10.1016/j.scico.2004.03.004	Academic papers / proceedings
 https://assets.cambridge.org/0521944813/full_version/0521944813_pub.pdf	published	2004-03		Academic papers / proceedings
 https://ris.utwente.nl/ws/files/26329366/scriptieSE.pdf	published	2004-03		Academic papers / proceedings
 https://ecommons.cornell.edu/bitstream/handle/1813/5647/TR2004-1936.pdf?sequence=1	published	2004-04-22		Academic papers / proceedings
@@ -452,7 +444,7 @@ https://www.cse.chalmers.se/alumni/bringert/darcs/hwn/archives/20061003.html	pub
 https://ipsj.ixsq.nii.ac.jp/record/16534/files/IPSJ-TPRO4716003.pdf	publication	2006-10-15		Academic papers / proceedings
 https://blog.moertel.com/posts/2006-10-18-a-type-based-solution-to-the-strings-problem.html	published	2006-10-18		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1173706.1173714	publication	2006-10-22	10.1145/1173706.1173714	Academic papers / proceedings
-https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001035329	published	2006-12-01		Academic papers / proceedings
+https://www.kci.go.kr/kciportal/co/download/popup/poDownload.kci?storFileBean.orteFileId=KCI_FI001035329	published	2006-12-01		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/asynch-exns.pdf	created	2016		Academic papers / proceedings
 https://publications.scss.tcd.ie/tech-reports/.tr-index.06.html	updated	2006-12-30		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1238844.1238856	publication	2007	10.1145/1238844.1238856	Academic papers / proceedings
@@ -670,7 +662,6 @@ https://arxiv.org/pdf/1004.4796	published	2010-04-27	10.48550/arXiv.1004.4796	Ac
 https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/3a94a870-feed-4e92-a4e1-17e90fd978a3/content	authored	2010-05		Academic papers / proceedings
 https://fprog.ru/2010/issue4/practice-fp-4-ebook.pdf	published	2010-05-09		Academic papers / proceedings
 https://themonadreader.files.wordpress.com/2010/05/issue16.pdf	published	2010-05-12		Academic papers / proceedings
-https://web.cecs.pdx.edu/~mpj/pubs/modinterp.html	modified	2010-05-16		Academic papers / proceedings
 https://web.cecs.pdx.edu/~mpj/pubs/fpca93.pdf	modified	2010-05-16	10.1017/s0956796800001210	Academic papers / proceedings
 https://nostarch.com/lyah.htm	publication	2010-06-14		Academic papers / proceedings
 https://orc.csres.utexas.edu/papers/OrcJSSM.pdf	archived	2010-06-27		Academic papers / proceedings
@@ -781,7 +772,6 @@ https://archive.org/details/learnyouhaskellf00lipo_0	publication	2012		Academic 
 https://archive.org/metadata/learnyouhaskellf00lipo_0	publication	2012		Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?MSFP2012.8.pdf	created	2012		Academic papers / proceedings
 https://en.itu.dk/Research/PhD-Programme/PhD-Courses/Archive/PhD-courses-2012/PhD-Reading-group-on-Developments-in-Session-Types/	created	2012		Academic papers / proceedings
-https://researchportal.northumbria.ac.uk/en/publications/the-awkward-squad	publication	2012		Academic papers / proceedings
 https://www.scs.stanford.edu/~deian/pubs/stefan%3A2012%3Aflexible.pdf	created	2012		Academic papers / proceedings
 https://archive.alvb.in/msc/03_infoafp/papers/2012-11-20_HoorCollege_Monads_dk.pdf	created	2012		Academic papers / proceedings
 https://fsl.cs.illinois.edu/publications/arusoaie-serbanuta-ellison-rosu-2012-wrla.pdf	created	2012		Academic papers / proceedings
@@ -957,7 +947,7 @@ https://dl.acm.org/doi/pdf/10.1145/2643135.2643145	publication	2014	10.1145/2643
 https://research.chalmers.se/publication/528822/file/528822_Fulltext.pdf	publication	2014	10.1145/2633357.2633371	Academic papers / proceedings
 https://upapers.dcc.uchile.cl/index/publications/view_pdf/306805	publication	2014		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2637647.2637648	publication	2014	10.1145/2637647.2637648	Academic papers / proceedings
-https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001849829	publication	2014		Academic papers / proceedings
+https://www.kci.go.kr/kciportal/ci/sereArticleSearch/artiPreView.kci?sereArticleSearchBean.artiId=ART001849829&v=2019	publication	2014		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2633357.2633358	publication	2014	10.1145/2633357.2633358	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2617548.2617551	publication	2014	10.1145/2617548.2617551	Academic papers / proceedings
 https://ora.ox.ac.uk/objects/uuid%3A9957b2f8-b08c-40fd-9bf1-b815b9abd25a/files/mbea9e0a8d8e0384f67e05321a0bd3754	publication	2014		Academic papers / proceedings
@@ -1204,7 +1194,7 @@ https://mercurylang.org/documentation/papers/lmika_hons.pdf	modified	2016-03-18	
 https://mercurylang.org/documentation/papers/mfug_talk.pdf	modified	2016-03-18		Academic papers / proceedings
 https://www.scs.stanford.edu/16wi-cs240h/projects/campagna_dodhia_jain.pdf	published	2016-03-18		Academic papers / proceedings
 https://www.scs.stanford.edu/16wi-cs240h/projects/wang_ruan.pdf	published	2016-03-18		Academic papers / proceedings
-https://arxiv.org/abs/1603.08865/	published	2016-03-29	10.48550/arXiv.1603.08865	Academic papers / proceedings
+https://arxiv.org/abs/1603.08865	published	2016-03-29	10.48550/arXiv.1603.08865	Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/Published/MSFP2016/Proceedings.pdf	published	2016-04-01	10.4204/EPTCS.207	Academic papers / proceedings
 https://arxiv.org/pdf/1604.01184	published	2016-04-05	10.4204/EPTCS.207.2	Academic papers / proceedings
 https://www.fceia.unr.edu.ar/~mauro/pubs/sme/sme.pdf	modified	2016-04-06		Academic papers / proceedings
@@ -1334,7 +1324,6 @@ https://homepages.inf.ed.ac.uk/slindley/papers/handlers-cps.pdf	modified	2017-07
 https://arxiv.org/pdf/1707.04724	published	2017-07-15	10.48550/arXiv.1707.04724	Academic papers / proceedings
 https://arxiv.org/pdf/1707.04755	published	2017-07-15	10.1145/3110256	Academic papers / proceedings
 https://medium.com/hackernoon/how-to-read-and-write-with-monads-7b24495754bc	published	2017-07-17		Academic papers / proceedings
-https://ir.library.oregonstate.edu/downloads/rj430581x	modified	2017-07-18	10.1016/j.scico.2004.03.004	Academic papers / proceedings
 https://www.schoolofhaskell.com/user/fumieval/extensible/the-world-s-fastest-extensible-effects-framework	published	2017-07-19		Academic papers / proceedings
 https://arxiv.org/pdf/1707.06685	published	2017-07-20	10.48550/arXiv.1707.06685	Academic papers / proceedings
 https://www.math.sci.hokudai.ac.jp/hmj/page/34-1/pdf/288.pdf	modified	2017-07-21	10.14492/hokmj/1285766200	Academic papers / proceedings
@@ -1657,7 +1646,6 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B1
 https://jiangxi.cs.uwm.edu/publication/rebls2020.pdf	created	2020		Academic papers / proceedings
 https://www.cse.chalmers.se/~rjmh/tfp/proceedings/TFP_2020_paper_2.pdf	created	2020		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E11A8F2693A1762295769026C91E2D1D/S0956796820000106a.pdf/generalized-monoidal-effects-and-handlers.pdf	published	2020	10.1017/S0956796820000106	Academic papers / proceedings
-https://www.eserviceinfo.com/downloadsm/93442/xerox_CSL-83-9%20The%20Semantics%20of%20Lazy%20And%20Industrious%20Evaluation.html	published	2020		Academic papers / proceedings
 https://era.ed.ac.uk/bitstream/handle/1842/37236/McLaughlin2020.pdf?isAllowed=y&sequence=1	created	2020		Academic papers / proceedings
 https://megalodon.jp/ref/2020-1114-0122-22/conal.net/papers/genuinely-functional-guis.pdf	created	2020		Academic papers / proceedings
 https://era.ed.ac.uk/bitstream/handle/1842/36815/Waites2020.pdf?isAllowed=y&sequence=1	created	2020		Academic papers / proceedings
@@ -1733,7 +1721,7 @@ https://dl.acm.org/doi/pdf/10.1145/3408981	publication	2020-08-02	10.1145/340898
 https://www.sigplan.org/OpenTOC/haskell20.html	modified	2020-08-03		Academic papers / proceedings
 https://degoes.net/articles/zio-1.0	published	2020-08-03		Academic papers / proceedings
 https://dev.to/eureka84/io-to-be-a-monad-or-not-to-be-that-s-the-question-ebo	published	2020-08-06		Academic papers / proceedings
-https://dl.acm.org/doi/proceedings/10.1145/3406088	publication	2020-08-09	10.1145/3406088	Academic papers / proceedings
+https://dl.acm.org/doi/pdf/10.1145/3406088	publication	2020-08-09	10.1145/3406088	Academic papers / proceedings
 https://mbsd.cs.ru.nl/Publications?from=Main.PublicationsPerYear	archived	2020-08-15		Academic papers / proceedings
 https://john.cs.olemiss.edu/~hcc/reports/gofer_notes.pdf	modified	2020-08-16		Academic papers / proceedings
 https://nottingham-repository.worktribe.com/preview/771150/paper.pdf	archived	2020-08-23		Academic papers / proceedings
@@ -1988,7 +1976,7 @@ https://arxiv.org/pdf/2208.14724	published	2022-08-31	10.4204/EPTCS.367.4	Academ
 https://www.hjdskes.nl/blog/haskell-streaming-s3-to-sftp/	published	2022-09-02		Academic papers / proceedings
 https://research.chalmers.se/publication/532471/file/532471_Fulltext.pdf	created	2022-09-05		Academic papers / proceedings
 https://research.chalmers.se/publication/540279/file/540279_Fulltext.pdf	created	2022-09-05		Academic papers / proceedings
-https://www.sigplan.org/OpenTOC/haskell22.html	modified	2022-09-07	10.1145/3546189	Academic papers / proceedings
+https://dl.acm.org/doi/pdf/10.1145/3546189	modified	2022-09-07	10.1145/3546189	Academic papers / proceedings
 https://ppig.org/files/2022-PPIG-33rd--proceedings.pdf	published	2022-09-09		Academic papers / proceedings
 https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf	published	2022-09-11		Academic papers / proceedings
 https://www.cse.iitk.ac.in/users/satyadev/au24/monad.pdf	published	2022-09-13		Academic papers / proceedings
@@ -2089,7 +2077,6 @@ https://arxiv.org/pdf/2305.07901	published	2023-05-13	10.48550/arXiv.2305.07901	
 https://www.utupub.fi/bitstreams/af1b5139-b1a4-4197-83e7-80e4c8b03bef/download	publication	2023-05-15		Academic papers / proceedings
 https://formal.land/blog/2023/05/28/monad-for-side-effects-in-rust	publication	2023-05-28		Academic papers / proceedings
 https://www.lenovo.com/ca/fr/glossary/haskell/	published	2023-05-28		Academic papers / proceedings
-https://anil.recoil.org/papers/2023-ocaml-eio.pdf	published	2023-05-31		Academic papers / proceedings
 https://research.chalmers.se/publication/536364/file/536364_Fulltext.pdf	published	2023-06	10.1145/3591259	Academic papers / proceedings
 https://www.baeldung.com/scala/zio-effects	published	2023-06-24		Academic papers / proceedings
 https://scalac.io/blog/streaming-microservices-with-zio-and-kafka/	publication	2023-06-29		Academic papers / proceedings
@@ -2373,7 +2360,7 @@ https://www.clicours.com/les-principes-de-base-de-la-programmation-haskell/	publ
 https://mydumbsite.net/blog/monad_tutorial.html	published	2025-06-27		Academic papers / proceedings
 https://alexyorke.github.io/2025/06/29/list-is-a-monad/	publication	2025-06-29		Academic papers / proceedings
 https://arxiv.org/pdf/2109.02198	modified	2025-06-29		Academic papers / proceedings
-https://arxiv.org/pdf/2303.01350	modified	2025-06-29		Academic papers / proceedings
+https://arxiv.org/pdf/2303.01350	modified	2025-06-29	10.1145/3632916	Academic papers / proceedings
 https://www.cs.uoregon.edu/research/summerschool/summer25/_lectures/Xie-notes-1.pdf	published	2025-06-30		Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol333-ecoop2025/LIPIcs.ECOOP.2025/LIPIcs.ECOOP.2025.pdf	published	2025-07-02		Academic papers / proceedings
 https://users.scala-lang.org/t/tagless-final-questions/10857	publication	2025-07-02		Academic papers / proceedings
@@ -2579,7 +2566,7 @@ https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.html	published	2026-07-
 https://ocaml-multicore.github.io/eio/eio/Eio/Time/index.html	published	2026-07-24		Academic papers / proceedings
 https://ocaml-multicore.github.io/eio/eio/Eio/index.html	published	2026-07-24		Academic papers / proceedings
 https://pure.itu.dk/en/projects/algebraic-effects-and-guarded-recursion/publications/	accessed	2026-07-26		Academic papers / proceedings
-https://www.sciweavers.org/publications/space-semantics-core-haskell	accessed	2026-07-27	10.1016/S1571-0661(05)80543-2	Academic papers / proceedings
+https://www.sciencedirect.com/science/article/pii/S1571066105805432/pdf	accessed	2026-07-27	10.1016/S1571-0661(05)80543-2	Academic papers / proceedings
 https://kjt.stir.ac.uk/research/techreps/	accessed	2026-07-27		Academic papers / proceedings
 https://arxiv.org/pdf/2107.12144	accessed	2026-07-27	10.1145/3498663	Academic papers / proceedings
 https://findresearcher.sdu.dk/ws/files/270541695/3674625.pdf	accessed	2026-07-27	10.1145/3674625	Academic papers / proceedings
@@ -2656,7 +2643,7 @@ https://www.codesuji.com/images/prop1/propagation_networks_thesis.pdf	published	
 https://etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf	created	2010-01		Theses / dissertations
 https://eprints.nottingham.ac.uk/11457/1/thesis.pdf	publication	2010-07		Theses / dissertations
 https://theses.gla.ac.uk/2353/1/2008andersonphd.pdf	publication	2011		Theses / dissertations
-https://kar.kent.ac.uk/86452/1/thesis.pdf	publication	2011		Theses / dissertations
+https://kar.kent.ac.uk/86452/1/thesis.pdf	publication	2011	10.22024/UniKent/01.02.86452	Theses / dissertations
 https://www.cs.ox.ac.uk/people/daniel.james/mastersthesis/mastersthesis.pdf	modified	2011-03-28		Theses / dissertations
 https://kar.kent.ac.uk/33880/1/thesis.pdf	publication	2011-05		Theses / dissertations
 https://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00003787/diss_kupke.pdf	modified	2011-05-31		Theses / dissertations
@@ -4082,33 +4069,30 @@ https://upload.wikimedia.org/wikipedia/commons/6/62/Haskell_eBook_Reader.pdf	pub
 https://ncatlab.org/schreiber/files/QuantumMonadology-250718.pdf	published	2025-07-18		Reference / encyclopedia
 https://commons.wikimedia.org/wiki/File%3AHaskell.pdf	modified	2026-07-15		Reference / encyclopedia
 https://portal.mardi4nfdi.de/wiki/Publication%3A2986833	accessed	2026-07-27	10.1109/LICS.2012.66	Reference / encyclopedia
-https://openalex.org/W1989524304	published	1981-04-01	10.1145/988131.988141	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/988131.988141	published	1981-04-01	10.1145/988131.988141	Indexes / metadata
 https://dblp.org/rec/journals/ipl/Dwelly88.html	published	1988	10.1016/0020-0190(88)90142-1	Indexes / metadata
-https://www.mendeley.com/catalogue/0e003907-0294-36cb-ad4a-c377c80bbad2/	publication	1992	10.1017/S0956796800000241	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A13783378428EA08B1AE8A4BCC8021E/S0956796800000241a.pdf/div-class-title-modelling-operating-system-structures-by-timed-stream-processing-functions-div.pdf	publication	1992	10.1017/S0956796800000241	Indexes / metadata
 https://content.openalex.org/works/W2078944436.pdf	publication	1993-01-01		Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.0	created	1995	10.14236/ewic/FP1995.0	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.16	created	1995	10.14236/ewic/FP1995.16	Indexes / metadata
-https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.6	created	1995	10.14236/ewic/FP1995.6	Indexes / metadata
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/01/picture.pdf	created	1995	10.14236/ewic/FP1995.6	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FFP1995.9	created	1995	10.14236/ewic/FP1995.9	Indexes / metadata
 https://content.openalex.org/works/W2076004629.pdf	publication	1995-01-01		Indexes / metadata
 https://www.semanticscholar.org/paper/State-in-Haskell-Launchbury-Jones/5768f243d9d91cf3225ae6ca1a89193f5b5ee423	publication	1995-12	10.1007/BF01018827	Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs1996b.pdf	created	1996		Indexes / metadata
-https://dblp.org/rec/journals/tcs/Jeffrey99.html	published	1999	10.1016/S0304-3975(98)00356-9	Indexes / metadata
 https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/6957E6B6F22586D088813B0748BCCD8E/9780511574962bib_p293-300_CBO.pdf/bibliography.pdf	published	1999-08-01	10.1017/CBO9780511574962.015	Indexes / metadata
 https://dblp.org/rec/conf/csl/HancockS00.html	published	2000	10.1007/3-540-44622-2_21	Indexes / metadata
-https://dblp.org/rec/conf/icfp/ErkokL00.html	published	2000	10.1145/357766.351257	Indexes / metadata
-https://www.mendeley.com/catalogue/e196e77b-fb78-34e8-98e0-484fe9c1f433/	publication	2000	10.1017/S0956796899003561	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/357766.351257	published	2000	10.1145/357766.351257	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F34DEFF8D123F59DB19AAF76DA5241F0/S0956796899003561a.pdf/div-class-title-server-side-web-scripting-in-haskell-div.pdf	publication	2000	10.1017/S0956796899003561	Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/sigplan2000.pdf	created	2000		Indexes / metadata
-https://dblp.org/rec/conf/ifl/ButterfieldS01.html	published	2001	10.1007/3-540-46028-4_5	Indexes / metadata
-https://dblp.org/rec/conf/pldi/MarlowJMR01.html	published	2001	10.1145/378795.378858	Indexes / metadata
-https://dblp.org/rec/conf/haskell/ErkokL02.html	published	2002	10.1145/581690.581693	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/378795.378858	published	2001	10.1145/378795.378858	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/581690.581693	published	2002	10.1145/581690.581693	Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseSB02.html	published	2002	10.1007/3-540-44854-3_5	Indexes / metadata
-https://dblp.org/rec/journals/ita/ErkokLM02.html	published	2002	10.1051/ita:2002008	Indexes / metadata
-https://openalex.org/W2264687	published	2002-01-01	10.1051/parasite/1990651073	Indexes / metadata
+https://www.numdam.org/item/10.1051/ita:2002008.pdf	published	2002	10.1051/ita:2002008	Indexes / metadata
 https://content.openalex.org/works/W1980408208.pdf	publication	2002-04-01		Indexes / metadata
-https://dblp.org/rec/journals/jfp/Jones03f.html	published	2003	10.1017/S0956796803000819	Indexes / metadata
-https://dblp.org/rec/journals/jfp/Jones03g.html	published	2003	10.1017/S0956796803000911	Indexes / metadata
-https://dblp.org/rec/journals/jfp/Jones03s.html	published	2003	10.1017/S0956796803002119	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A512C0BB77D425E55066CBF97E68C153/S0956796803000819a.pdf/div-class-title-6-predefined-types-and-classes-div.pdf	published	2003	10.1017/S0956796803000819	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43840B587166A4609773DA629DD318CD/S0956796803000911a.pdf/div-class-title-7-basic-input-output-div.pdf	published	2003	10.1017/S0956796803000911	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/28AB9D1C5DB1C431114A9BACCBC886/S0956796803002119a.pdf/div-class-title-19-character-utilities-div.pdf	published	2003	10.1017/S0956796803002119	Indexes / metadata
 https://www.numdam.org/item/10.1051/ita:2003020.pdf	publication	2003	10.1051/ita:2003020	Indexes / metadata
 https://grosskurth.ca/bib/2003/dowse-tr.pdf	published	2003-01-29		Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseBE04.html	published	2004	10.1007/11431664_11	Indexes / metadata
@@ -4116,18 +4100,14 @@ https://www.numdam.org/item/10.1051/ita:2004018.pdf	publication	2004	10.1051/ita
 https://pdfs.semanticscholar.org/dd9a/8d3986630da6dea10c504c907681fdb3c322.pdf	publication	2005-03-01		Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.1	created	2006	10.14236/ewic/MSFP2006.1	Indexes / metadata
 https://www.scienceopen.com/hosted-document?doi=10.14236%2Fewic%2FMSFP2006.2	created	2006	10.14236/ewic/MSFP2006.2	Indexes / metadata
-https://openalex.org/W2094248892	published	2006-09-16	10.1145/1159803.1159823	Indexes / metadata
-https://katalog.bibliothek.kit.edu/bib/407752	publication	2007	10.1145/1291201	Indexes / metadata
-https://dblp.org/rec/journals/corr/abs-2008-09253.html	created	2008	10.4204/EPTCS.321.2	Indexes / metadata
-https://dblp.org/rec/conf/cefp/Butterfield11.html	published	2011	10.1007/978-3-642-32096-5_3	Indexes / metadata
-https://dblp.org/rec/conf/haskell/StefanRMM11.html	published	2011	10.1145/2034675.2034688	Indexes / metadata
-https://dblp.org/rec/journals/corr/abs-1210-0611.html	published	2011	10.4204/EPTCS.95.2	Indexes / metadata
-https://dblp.org/rec/phd/ethos/Brown11.html	published	2011	10.22024/UniKent/01.02.86452	Indexes / metadata
-https://dblp.org/rec/conf/flops/Kiselyov12.html	published	2012	10.1007/978-3-642-29822-6_15	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/1159803.1159823	published	2006-09-16	10.1145/1159803.1159823	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/1291201	publication	2007	10.1145/1291201	Indexes / metadata
+https://arxiv.org/pdf/2008.09253	created	2008	10.4204/EPTCS.321.2	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/2034675.2034688	published	2011	10.1145/2034675.2034688	Indexes / metadata
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf	created	2012		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012		Indexes / metadata
 https://pdfs.semanticscholar.org/fc8e/2f5446dcd097e9f443bda471646b889fbb69.pdf	modified	2015-07-29		Indexes / metadata
-https://dblp.org/rec/conf/popl/2016.html	created	2016	10.1145/2837614	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/2837614	created	2016	10.1145/2837614	Indexes / metadata
 https://conf.researchr.org/details/PADL-2016/PADL-2016-papers/3/Haskino-A-Remote-Monad-for-Programming-the-Arduino	created	2016	10.1007/978-3-319-28228-2_10	Indexes / metadata
 https://fm.csl.sri.com/SSFT15/Bibliography.pdf	archived	2016-03-12		Indexes / metadata
 https://scholar.archive.org/work/ae356s3oifhsnazqn2e5ahstci/access/wayback/http%3A//simonmar.github.io/bib/papers/shake.pdf	created	2016-08-06		Indexes / metadata
@@ -4136,17 +4116,15 @@ https://cambridge.org/core/books/haskell-school-of-music/bibliography/1F7596A68D
 https://pdfs.semanticscholar.org/32ff/28cb5b5c990fe7bdca510040ea22f5c13316.pdf	archived	2019-02-22		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/jfunctprogram.pdf	archived	2019-04-04		Indexes / metadata
 https://pdfs.semanticscholar.org/a30f/d0736b3763a049e71702e52c500cd96f000d.pdf	modified	2019-04-30		Indexes / metadata
-https://dblp.org/rec/data/11/VonderROKM20.html	published	2020	10.4230/DARTS.6.2.7	Indexes / metadata
-https://dblp.org/rec/journals/jfp/PietersS20.html	published	2020	10.1017/S0956796820000192	Indexes / metadata
+https://drops.dagstuhl.de/storage/05darts/darts-vol006/darts-vol006-issue002_ecoop2020/DARTS.6.2.7/DARTS.6.2.7.pdf	published	2020	10.4230/DARTS.6.2.7	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0956796820000192	published	2020	10.1017/S0956796820000192	Indexes / metadata
 https://pdfs.semanticscholar.org/c85a/eee4353dfe9ff60095265b35017989808c81.pdf	archived	2020-02-26		Indexes / metadata
 https://opac.admin.ch/toc/toc1902057067.pdf	modified	2020-03-10		Indexes / metadata
 https://ntrs.nasa.gov/api/citations/20200003164/downloads/20200003164.pdf	published	2020-04		Indexes / metadata
-https://researchr.org/publication/ConceicaoBFCR22	publication	2022-09-06	10.1145/3546189.3549924	Indexes / metadata
-https://dblp.org/rec/journals/corr/abs-2211-06863.html	published	2022-11	10.48550/arXiv.2211.06863	Indexes / metadata
+https://dl.acm.org/doi/pdf/10.1145/3546189.3549924	publication	2022-09-06	10.1145/3546189.3549924	Indexes / metadata
 https://ntrs.nasa.gov/api/citations/20230006308/downloads/papers-2023-haskellsym-reactivity-v2.pdf?attachment=true	created	2023	10.1145/3609026.3609727	Indexes / metadata
-https://dblp.org/rec/journals/corr/abs-2303-01350.html	published	2023-03	10.1145/3632916	Indexes / metadata
 https://www.scienceopen.com/document_file/9a8a943f-2de9-44c1-ae3b-993bfa21dfb9/ScienceOpen/001_Holyer.pdf	archived	2023-11-18	10.14236/ewic/FP1995.10	Indexes / metadata
-https://dblp.org/rec/journals/jfp/WestphalV25.html	published	2025	10.1017/S0956796825100075	Indexes / metadata
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/20BF7DCA6330A2115C2C2B9BA47AB2E0/S0956796825100075a.pdf/div-class-title-automatically-testing-console-i-o-behavior-of-student-submissions-in-haskell-div.pdf	published	2025	10.1017/S0956796825100075	Indexes / metadata
 https://conf.researchr.org/details/icfp-splash-2025/olivierfest-2025-papers/3/Defining-Algebraic-Effects-and-Handlers-via-Trails-and-Metacontinuations	created	2025	10.1145/3759427.3760364	Indexes / metadata
 https://simonmar.github.io/bib/papers/web-server-jfp.pdf	modified	2025-06-12	10.1017/S095679680200432X	Indexes / metadata
 https://simonmar.github.io/bib/papers/aos.pdf	modified	2025-06-12		Indexes / metadata
