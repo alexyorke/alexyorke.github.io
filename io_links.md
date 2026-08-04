@@ -235,7 +235,7 @@ https://digitalcollections.ohsu.edu/record/2532/files/3273_etd.pdf	created	2001-
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/66F1ACF22742EA28DD52608A5122E70F/S0956796800003828a.pdf/forms3-a-first-order-visual-language-to-explore-the-boundaries-of-the-spreadsheet-paradigm.pdf	published	2001-03	10.1017/S0956796800003828	Academic papers / proceedings
 https://web.engr.oregonstate.edu/~erwig/papers/CategoricalImperative_IFL98.pdf	modified	2001-03-16		Academic papers / proceedings
 https://web.engr.oregonstate.edu/~erwig/papers/CategoricalADT_AMAST98.pdf	modified	2001-03-16		Academic papers / proceedings
-https://docplayer.net/11525326-Lps-a-language-prototyping-system-using-modular-monadic-semantics.html	publication	2001-06		Academic papers / proceedings
+https://docplayer.net/11525326-Lps-a-language-prototyping-system-using-modular-monadic-semantics.html	publication	2001-06	10.1016/S1571-0661(04)80923-X	Academic papers / proceedings
 https://hjemmesider.diku.dk/~andrzej/papers/CE-abstract.html	modified	2001-06-18		Academic papers / proceedings
 https://scholar.lib.vt.edu/ejournals/JFLP/jflp-mirror/articles/2001/S01-01/JFLP-A01-03.pdf	published	2001-07-13		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	published	2001-08-31		Academic papers / proceedings
@@ -2024,7 +2024,7 @@ https://dl.acm.org/doi/pdf/10.1145/3609026.3615581	created	2023	10.1145/3609026.
 https://odr.chalmers.se/bitstreams/3d20b1cc-091c-46fa-a706-bb826c4415c6/download	modified	2025-03-12		Other / uncategorized
 https://research.chalmers.se/publication/542970/file/542970_Fulltext.pdf	publication	2023	10.1145/3652561.3652562	Academic papers / proceedings
 https://eprints.ost.ch/id/eprint/1128/1/3_ElianeSchmidli_Robotic_Artwork_v2.pdf	created	2023		Academic papers / proceedings
-https://icfp23.sigplan.org/details?action-call-with-get-request-type=1&c38988b7fe8a4f309c73621f9c77714eaction_17426506610e5523f8452351c979172778207459fe0=1&__ajax_runtime_request__=1&context=icfp-2023&track=ocaml-2023-papers&urlKey=5&decoTitle=Eio-1-0-Effects-based-IO-for-OCaml-5	created	2023		Academic papers / proceedings
+https://anil.recoil.org/papers/2023-ocaml-eio.pdf	created	2023		Academic papers / proceedings
 https://eprints.ost.ch/id/eprint/1127/1/2_ElianeSchmidli_Haskino_v2.pdf	created	2023		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3607841	created	2023	10.1145/3607841	Academic papers / proceedings
 https://research.chalmers.se/publication/535846/file/535846_Fulltext.pdf	publication	2023		Academic papers / proceedings
@@ -2155,7 +2155,7 @@ https://dl.acm.org/doi/pdf/10.1145/3678000.3678202	publication	2024	10.1145/3678
 https://repository.tudelft.nl/file/File_60da1dca-11ba-48b7-b0a0-9fbbf35fd924	publication	2024		Academic papers / proceedings
 https://waseda.repo.nii.ac.jp/record/2001323/files/t5122F033.pdf	publication	2024	10.1145/3633280	Academic papers / proceedings
 https://prg.is.titech.ac.jp/papers/pdf/pepm2024-paper.pdf	created	2024	10.1145/3635800.3636968	Academic papers / proceedings
-https://popl24.sigplan.org/details?action-call-with-get-request-type=1&d90dee9b82d644e98deb14208c4b5411action_174265066106e201c9b3e2e709986d5ea1ad6191a59=1&__ajax_runtime_request__=1&context=POPL-2024&track=lafi-2024-papers&urlKey=4&decoTitle=Effect-Handlers-for-Choice-Based-Learning	created	2024		Academic papers / proceedings
+https://xnning.github.io/papers/lafi24.pdf	created	2024		Academic papers / proceedings
 https://icfp24.sigplan.org/home/hiw-2024	created	2024		Academic papers / proceedings
 https://eprints.ost.ch/id/eprint/1334/1/Review%20of%20Current%20Principalled%20Approaches%20to%20System%20Programming.pdf	publication	2024		Academic papers / proceedings
 https://lirias.kuleuven.be/retrieve/bf374586-7cc6-4958-aaf2-5c67d35ca1ef	created	2024	10.1016/j.scico.2024.103086	Academic papers / proceedings
