@@ -547,7 +547,7 @@ https://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf	modified	2008-0
 https://webspace.science.uu.nl/~swier004//publications/2008-jfp.pdf	published	2008-03-18	10.1017/S0956796808006758	Academic papers / proceedings
 https://kar.kent.ac.uk/23975/1/HOLNik.pdf	publication	2008-04		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/ipdps_haskell_multiway.pdf	publication	2008-04-01	10.1109/MEMCOD.2008.4547686	Academic papers / proceedings
-https://conal.net/papers/simply-reactive/	archived	2008-04-07		Academic papers / proceedings
+http://conal.net/papers/simply-reactive/old-tech-report-superceded.pdf	archived	2008-04-07		Academic papers / proceedings
 https://well-typed.com/blog/aux/files/strong-types-pure-functions.pdf	published	2008-04-22		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1353445.1353449	publication	2008-05	10.1145/1353445.1353449	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1366230.1366241	publication	2008-05-05	10.1145/1366230.1366241	Academic papers / proceedings
@@ -1517,7 +1517,7 @@ https://s.octalsrc.org/ipfs/QmSKuejPz6uanJ7gBFzVaHrPDuDj1jnWuqus3PxukqP7ep/item/
 https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_pdf	publication	2019	10.2197/ipsjjip.27.87	Academic papers / proceedings
 https://eprints.gla.ac.uk/195429/1/195429.pdf	publication	2019	10.25304/rlt.v27.2248	Academic papers / proceedings
 https://www.mdpi.com/2076-3417/9/24/5472/pdf	publication	2019	10.3390/app9245472	Academic papers / proceedings
-https://dlib.si/details/URN%3ANBN%3ASI%3Adoc-SL2671A9?language=eng	publication	2019		Academic papers / proceedings
+https://repozitorij.uni-lj.si/Dokument.php?id=125852&lang=eng	publication	2019		Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol139-calco2019/LIPIcs.CALCO.2019.13/LIPIcs.CALCO.2019.13.pdf	created	2019	10.4230/LIPIcs.CALCO.2019.13	Academic papers / proceedings
 https://www.fceia.unr.edu.ar/~mauro/pubs/haskell2019.pdf	created	2019	10.1145/3331545.3342595	Academic papers / proceedings
 https://www.cs.ox.ac.uk/people/samuel.staton/papers/fossacs-2019.pdf	created	2019		Academic papers / proceedings
