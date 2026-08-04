@@ -44,7 +44,6 @@ https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1992/DagSemRep.36/D
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FFCC72D11DECDEC984C88AA62DC10BA5/S0956796800002021a.pdf/author_index_to_volume_2.pdf	published	1992	10.1017/S0956796800002021	Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/354FFB29102309CCD2A3824F894A2799/S0956796800000319a.pdf/implementing_lazy_functional_languages_on_stock_hardware_the_spineless_tagless_gmachine.pdf	published	1992-04	10.1017/S0956796800000319	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/130697.130699	publication	1992-05	10.1145/130697.130699	Academic papers / proceedings
-https://www.cl.cam.ac.uk/ftp/papers/adg/fpio.html	authored	1992-08		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/fpio.pdf	publication	1992-08-01	10.48456/tr-285	Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf	published	1992-08-08		Academic papers / proceedings
 https://kar.kent.ac.uk/id/document/3378	publication	1992-11		Academic papers / proceedings
@@ -1199,7 +1198,6 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/remote.pdf	c
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/deop-tr.pdf	created	2016		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dst-tr.pdf	created	2016		Academic papers / proceedings
 https://kar.kent.ac.uk/view/journal_volume/Proceedings_of_the_43rd_Annual_ACM_SIGPLAN-SIGACT_Symposium_on_Principles_of_Programming_Languages_2016.default.html	created	2016		Academic papers / proceedings
-https://fstar-lang.org/papers/mumon/popl2016.html?transition=none	created	2016		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/fap.pdf	created	2016		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf	created	2016	10.1145/3009837.3009872	Academic papers / proceedings
 https://www.mew.org/~kazu/doc/paper/http2-haskell-2016.pdf	created	2016	10.1145/2976002.2976006	Academic papers / proceedings
@@ -2782,7 +2780,6 @@ https://www-users.york.ac.uk/~sf786/Thesis.pdf	modified	2023-01-04		Theses / dis
 https://amslaurea.unibo.it/28169/1/master-thesis.pdf	modified	2023-03-20		Theses / dissertations
 https://kcsrk.info/papers/deepali_ms_thesis.pdf	published	2023-05		Theses / dissertations
 https://lean-lang.org/papers/thesis-sebastian.pdf	publication	2023-05-26		Theses / dissertations
-https://cth.altocumulus.org/~hallgren/Thesis/main.html	modified	2023-06-11		Theses / dissertations
 https://theses.ncl.ac.uk/jspui/bitstream/10443/5761/1/Cattermole%20A%20D%20D%202022.pdf	modified	2023-08-16		Theses / dissertations
 https://effect-handlers.org/static/theses/carslaw-dissertation-2024.pdf	created	2024		Theses / dissertations
 https://abhiroop.github.io/pubs/Abhiroop_PHD_Thesis.pdf	published	2024		Theses / dissertations
