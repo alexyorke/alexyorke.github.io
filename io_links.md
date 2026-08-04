@@ -545,7 +545,7 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C80616AC
 https://era.ed.ac.uk/bitstream/handle/1842/24458/ClarkA_2008redux.pdf?isAllowed=y&sequence=1	created	2008		Academic papers / proceedings
 https://maxapress.com/data/article/ker/preview/pdf/S0269888900005816.pdf	created	2008		Academic papers / proceedings
 https://www.kriso.ee/real-world-haskell-code-you-can-db-97805968033222e.html	publication	2008		Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~kleing/papers/Cock_KS_08.html	published	2008		Academic papers / proceedings
+https://www21.in.tum.de/~kleing/papers/Cock_KS_08.pdf	published	2008		Academic papers / proceedings
 https://www2.uesb.br/editora/wp-content/uploads/Introducao-ao-Haskel.pdf	publication	2008		Academic papers / proceedings
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-737.pdf	published	2008	10.48456/tr-737	Academic papers / proceedings
 https://files01.core.ac.uk/download/pdf/36694272.pdf	publication	2008-01-01		Academic papers / proceedings
