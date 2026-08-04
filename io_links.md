@@ -715,7 +715,7 @@ https://mbsd.cs.ru.nl/publications/papers/2010/groj10-Haskell_front_end_Clean.pd
 https://dl.acm.org/doi/pdf/10.1145/1863523.1863536	publication	2010-09-30	10.1145/1863523.1863536	Academic papers / proceedings
 https://blog.higher-order.com/blog/2010/10/14/scalaz-tutorial-enumeration-based-io-with-iteratees/	published	2010-10-14		Academic papers / proceedings
 https://apocalisp.wordpress.com/2010/10/17/scalaz-tutorial-enumeration-based-io-with-iteratees/	publication	2010-10-17		Academic papers / proceedings
-https://tomasp.net/blog/match-bang-paper.aspx/	published	2010-10-25		Academic papers / proceedings
+https://tomasp.net/academic/papers/joinads/joinads.pdf	published	2010-10-25		Academic papers / proceedings
 https://tomasp.net/blog/parallel-extra-adash-cancellation.aspx/	published	2010-10-27		Academic papers / proceedings
 https://tomasp.net/blog/csharp-fsharp-async-intro.aspx/	published	2010-10-29		Academic papers / proceedings
 https://reactiveml.github.io/papers/MandelPlateau-draft-2010-rmltop.pdf	published	2010-11		Academic papers / proceedings
@@ -1018,7 +1018,7 @@ https://iot.stanford.edu/workshop14/SITP-8-11-14-Mazieres.pdf	published	2014-04-
 https://www.sciencedirect.com/science/article/pii/S0890540114000042/pdf	published	2014-04-30		Academic papers / proceedings
 https://arxiv.org/pdf/1405.0854	published	2014-05-05	10.23638/LMCS-14(3:10)2018	Academic papers / proceedings
 https://traytel.bitbucket.io/papers/haskell14-teaching/teaching.pdf	published	2014-05-06		Academic papers / proceedings
-https://tomasp.net/blog/2014/update-monads/	published	2014-05-13		Academic papers / proceedings
+https://cs.ioc.ee/~tarmo/papers/types13.pdf	published	2014-05-13		Academic papers / proceedings
 https://www.codefugue.com/magic-not-in-the-monad/	publication	2014-05-13		Academic papers / proceedings
 https://arxiv.org/pdf/1405.3072	published	2014-05-13	10.48550/arxiv.1405.3072	Academic papers / proceedings
 https://blog.jle.im/entry/inside-my-world-ode-to-functor-and-monad.html	published	2014-05-19		Academic papers / proceedings
