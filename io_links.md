@@ -75,7 +75,6 @@ https://www.cambridge.org/as/universitypress/subjects/computer-science/programmi
 https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput	publication	1994-09		Academic papers / proceedings
 https://research.utwente.nl/files/511129721/Berg_Broek_1995.pdf	published	1994-10-01	10.1016/0950-5849(95)90813-a	Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/1995/achp95-ConcurrIO.abs	created	1995		Academic papers / proceedings
-https://research-portal.st-andrews.ac.uk/en/publications/monadic-io-in-haskell-13/	publication	1995		Academic papers / proceedings
 https://archive.org/details/functionalprogra0000glas_x5m6	publication	1995		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/262009.262011	publication	1995	10.1145/262009.262011	Academic papers / proceedings
 https://dspace.library.uu.nl/bitstreams/ccda555d-4906-4e52-b6f8-bb664363a338/download	publication	1995		Academic papers / proceedings
@@ -97,7 +96,6 @@ https://link.springer.com/content/pdf/10.1007/BF01018828.pdf	published	1995-12-0
 https://mitpress.mit.edu/9780262620994/logic-programming/	publication	1995-12-11		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S1571066105801999/pdf?md5=5cc5b7f654fbbec3a904f5a63efd72f4&pid=1-s2.0-S1571066105801999-main.pdf	published	1995-12-31	10.1016/S1571-0661(05)80199-9	Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S1571066104800161/pdf	published	1995-12-31	10.1016/S1571-0661(04)80016-1	Academic papers / proceedings
-https://research-portal.uu.nl/en/publications/monadic-parser-combinators/	publication	1996		Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-61628-4_1.pdf	publication	1996	10.1007/3-540-61628-4_1	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-62064-8_33.pdf	publication	1996	10.1007/3-540-62064-8_33	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/237721.237794	publication	1996	10.1145/237721.237794	Academic papers / proceedings
@@ -138,7 +136,6 @@ https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/cleanbook/II.01.SimpleDatabas
 https://kar.kent.ac.uk/21455/1/Common_Subexpression_Elimination_in_a_Lazy.pdf	publication	1997-09		Academic papers / proceedings
 https://www.cl.cam.ac.uk/ftp/papers/adg/index.html	modified	1997-09-02		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/267959.269968	publication	1997-11-01	10.1145/267959.269968	Academic papers / proceedings
-https://research.chalmers.se/en/publication/1015	publication	1998		Academic papers / proceedings
 https://sedici.unlp.edu.ar/bitstream/handle/10915/2173/Documento_completo.pdf?sequence=1&isAllowed=y	published	1998		Academic papers / proceedings
 https://www.books-express.ro/introduction-functional-programming/p/umj%2C9780134843469	publication	1998		Academic papers / proceedings
 https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=156540&se=b0&ty=B	published	1998		Academic papers / proceedings
@@ -168,12 +165,10 @@ https://dl.acm.org/doi/pdf/10.1145/289423.289429	publication	1998-09-29	10.1145/
 https://dl.acm.org/doi/pdf/10.1145/289423.289454	publication	1998-09-29	10.1145/289423.289454	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-98-56.pdf	publication	1998-10-01		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/31DDA65AA3AF51BBEEA5B3C4FC66F32A/stamped-S095679689800322Xa.pdf/haskell-the-craft-of-functional-programming-by-simon-thompson-addison-wesley-1996-miranda-81-the-craft-of-functional-programming-by-simon-thompson-addison-wesley-1995.pdf	published	1998-11-01	10.1017/S0956796898213220	Academic papers / proceedings
-https://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A991724	publication	1999		Academic papers / proceedings
 https://archive.org/details/haskellcraftoffu0000thom_z1z2	publication	1999		Academic papers / proceedings
 https://archive.org/metadata/haskellcraftoffu0000thom_z1z2	publication	1999		Academic papers / proceedings
-https://research.chalmers.se/en/publication/867	publication	1999		Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-48515-5_5.pdf	publication	1999	10.1007/3-540-48515-5_5	Academic papers / proceedings
-https://research-portal.uu.nl/en/publications/proceedings-of-the-1999-haskell-workshop	publication	1999		Academic papers / proceedings
+https://research-portal.uu.nl/files/1763480/meijer_99_proceedings.pdf	publication	1999		Academic papers / proceedings
 https://dspace.library.uu.nl/bitstreams/536da615-e536-4074-87a1-c90c042a847f/download	publication	1999		Academic papers / proceedings
 https://kto.web.elte.hu/papers/papers/ifl99.pdf	authored	1999		Academic papers / proceedings
 https://kto.web.elte.hu/papers/papers/fusst99temp.pdf	authored	1999		Academic papers / proceedings
@@ -1156,7 +1151,7 @@ https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1498&context=open
 https://www.schoolofhaskell.com/user/XookDo/introduccion-a-la-programacion-funcional/parte-7/tutorial	published	2015-09-29		Academic papers / proceedings
 https://www.cs.ox.ac.uk/files/4455/paper.pdf	modified	2015-10-05		Academic papers / proceedings
 https://www.schoolofhaskell.com/user/commercial/content/covariance-contravariance	published	2015-10-23		Academic papers / proceedings
-https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/6552	publication	2015-10-30		Academic papers / proceedings
+https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/6552/4178.pdf?sequence=1&isAllowed=y	publication	2015-10-30		Academic papers / proceedings
 https://www2.ki.cs.uni-frankfurt.de/bachelor/abgeschlossen/2015_Kreuzig.pdf	published	2015-11		Academic papers / proceedings
 https://arxiv.org/pdf/1511.00511	published	2015-11-02	10.48550/arXiv.1511.00511	Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S0304397515002364/pdfft?md5=1028eb86dfe5846dc55e2cacaa3a8487&pid=1-s2.0-S0304397515002364-main.pdf	published	2015-11-02	10.1016/j.tcs.2015.03.020	Academic papers / proceedings
@@ -1817,7 +1812,7 @@ https://ichi.pro/pl/czas-dowiedziec-sie-wiecej-o-monadach-86579703856839	publish
 https://arxiv.org/pdf/2010.12338	published	2020-10-23	10.48550/arXiv.2010.12338	Academic papers / proceedings
 https://dev.to/anthonyjoeseph/taskeither-vs-fluture-4e0n	published	2020-10-25		Academic papers / proceedings
 https://arxiv.org/pdf/2010.13432	published	2020-10-26	10.48550/arXiv.2010.13432	Academic papers / proceedings
-https://discovery.ucl.ac.uk/id/eprint/10112228/	publication	2020-10-28		Academic papers / proceedings
+https://discovery.ucl.ac.uk/id/eprint/10112228/1/Thesis_Louis_Parlant_UCL_upload.pdf	publication	2020-10-28		Academic papers / proceedings
 https://jgbm.github.io/eecs762f19/papers/wadler-monads.pdf	archived	2020-11-04		Academic papers / proceedings
 https://arxiv.org/pdf/2011.03536	published	2020-11-05	10.5281/zenodo.3929549	Academic papers / proceedings
 https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-166	published	2020-11-06	10.4230/lipics.ecoop.2020	Academic papers / proceedings
@@ -2686,7 +2681,6 @@ https://www.thriftbooks.com/w/functional-programming-and-inputoutput-distinguish
 https://www.thriftbooks.com/w/functional-programming-and-inputoutput-distinguished-dissertations-in-computer-science_andrew-d-gordon/2364316/item/	published	1994		Theses / dissertations
 https://etheses.whiterose.ac.uk/id/eprint/10807/1/261105.pdf	modified	2015-11-12		Theses / dissertations
 https://equis.cs.queensu.ca/~equis/pubs/1995/graham-dissertation-95.pdf	created	1995		Theses / dissertations
-https://theses.gla.ac.uk/71760/	publication	1997	10.5525/gla.thesis.71760	Theses / dissertations
 https://theses.gla.ac.uk/1597/1/1998finniephd.pdf	created	1998		Theses / dissertations
 https://www2.dmst.aueb.gr/dds/pubs/thesis/MEng/html/haskell.pdf	modified	1998-02-22		Theses / dissertations
 https://www.cs.ru.nl/~peter88/PeterThesis.html	modified	2000-09-19		Theses / dissertations
@@ -2845,7 +2839,7 @@ https://bracevac.org/assets/pdf/DissertationBracevac05112019.pdf	modified	2026-0
 https://kcsrk.info/papers/sumit_ms_thesis.pdf	modified	2026-07-18		Theses / dissertations
 https://www.danwc.com/data/dwc-yale-formatted-dissertation.pdf	modified	2026-07-19		Theses / dissertations
 https://denotational.co.uk/publications/kammar-ohad-thesis.pdf	accessed	2026-07-23		Theses / dissertations
-https://research-information.bris.ac.uk/en/studentTheses/effects-and-effect-handlers-for-probabilistic-programming	accessed	2026-07-26		Theses / dissertations
+https://research-information.bris.ac.uk/files/383383519/PGR_submission_nguyen_minh_1418084_minorcorrections.pdf	accessed	2026-07-26		Theses / dissertations
 https://theses.hal.science/tel-00665104v1/document	accessed	2026-07-27	10.70675/d04942adzf56dz459az92a8zdccb7e044af2	Theses / dissertations
 https://usermanual.wiki/Document/Thesis.1600500564.pdf	accessed	2026-07-27		Theses / dissertations
 https://openlibrary.org/works/OL5562645W	publication	1981		Books / chapters
@@ -2931,7 +2925,7 @@ https://link.springer.com/book/10.1007/3-540-46028-4	published	2002	10.1007/3-54
 https://link.springer.com/chapter/10.1007/3-540-45587-6_13	published	2002	10.1007/3-540-45587-6_13	Books / chapters
 https://link.springer.com/chapter/10.1007/3-540-44854-3_14	publication	2003	10.1007/3-540-44854-3_14	Books / chapters
 https://link.springer.com/chapter/10.1007/3-540-44854-3_7	publication	2003	10.1007/3-540-44854-3_7	Books / chapters
-https://link.springer.com/chapter/10.1007/978-3-540-40018-9_22	publication	2003	10.1007/978-3-540-40018-9_22	Books / chapters
+https://www.diva-portal.org/smash/get/diva2%3A1004371/FULLTEXT01.pdf	publication	2003	10.1007/978-3-540-40018-9_22	Books / chapters
 https://link.springer.com/chapter/10.1007/978-3-540-44833-4_6	publication	2003	10.1007/978-3-540-44833-4_6	Books / chapters
 https://link.springer.com/book/10.1007/978-3-642-55818-4	publication	2003	10.1007/978-3-642-55818-4	Books / chapters
 https://webdoc.sub.gwdg.de/ebook/serien/ah/UU-CS/2003-015.pdf	created	2003		Books / chapters
@@ -3020,7 +3014,7 @@ https://books.google.com/books?id=wSkRAAAAQBAJ	published	2013		Books / chapters
 https://openlibrary.org/books/OL36714046M/Parallel_and_Concurrent_Programming_in_Haskell	publication	2013		Books / chapters
 https://researchportal.ulisboa.pt/en/publications/higher-order-processes-functions-and-sessions-a-monadic-integrati/	publication	2013	10.1007/978-3-642-37036-6_20	Books / chapters
 https://openlibrary.org/works/OL17581286W/Parallel_And_Concurrent_Programming_In_Haskell	publication	2013		Books / chapters
-https://link.springer.com/chapter/10.1007/978-3-642-38986-3_10	publication	2013	10.1007/978-3-642-38986-3_10	Books / chapters
+https://arxiv.org/pdf/1304.5485	publication	2013	10.1007/978-3-642-38986-3_10	Books / chapters
 https://doi.org/10.1007/978-3-642-40355-2_3	publication	2013	10.1007/978-3-642-40355-2_3	Books / chapters
 https://cseweb.ucsd.edu/~dstefan/pubs/buiras%3A2013%3Aa-library-extended.pdf	created	2013	10.1007/978-3-319-05119-2_12	Books / chapters
 https://books.google.com/books/about/Parallel_and_Concurrent_Programming_in_H.html?id=iSoRAAAAQBAJ	published	2013		Books / chapters
@@ -3155,7 +3149,7 @@ https://doi.org/10.1017/9781108241861.015	published	2018-10-01	10.1017/978110824
 https://books.kabisa.nl/books/79	published	2018-10-23		Books / chapters
 https://arxiv.org/pdf/1811.07332	published	2018-11-18	10.1007/978-3-030-17184-1_13	Books / chapters
 https://nestedsoftware.com/2018/12/04/book-notes-learn-you-a-haskell-for-great-good-2cnp.64983.html	publication	2018-12-04		Books / chapters
-https://pure.au.dk/portal/en/publications/509b4f64-791c-453c-81ee-a05ab73f2c4b/	publication	2019	10.1007/978-3-030-17138-4_3	Books / chapters
+https://arxiv.org/pdf/1902.06590	publication	2019	10.1007/978-3-030-17138-4_3	Books / chapters
 https://www.oreilly.com/library/view/functional-programming-for/9781119527503/c11.xhtml	published	2019		Books / chapters
 https://www.oreilly.com/library/view/functional-programming-in/9781617293818/	published	2019		Books / chapters
 https://link.springer.com/book/10.1007/978-1-4842-4278-0	published	2019	10.1007/978-1-4842-4278-0	Books / chapters
@@ -3187,7 +3181,7 @@ https://samples.leanpub.com/purescript-sample.pdf	archived	2020-08-22		Books / c
 https://arxiv.org/pdf/2011.03070	published	2020-11-05	10.1007/978-3-031-10461-9_11	Books / chapters
 https://www.oreilly.com/library/view/haskell-in-depth/9781617295409/	published	2021		Books / chapters
 https://www.oreilly.com/library/view/functional-programming-in/9781617297168/	published	2021		Books / chapters
-https://doi.org/10.1007/978-3-030-75333-7_6	published	2021	10.1007/978-3-030-75333-7_6	Books / chapters
+https://arxiv.org/pdf/2008.12751	published	2021	10.1007/978-3-030-75333-7_6	Books / chapters
 https://doi.org/10.1007/978-3-030-76908-6_30	publication	2021	10.1007/978-3-030-76908-6_30	Books / chapters
 https://books.google.com/books/about/Haskell_in_Depth.html?id=A_Q1EAAAQBAJ	published	2021		Books / chapters
 https://www.oreilly.com/library/view/functional-programming-in/9781617299827/OEBPS/Text/title.htm	published	2021		Books / chapters
