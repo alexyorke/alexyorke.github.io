@@ -2591,7 +2591,6 @@ https://www.sciweavers.org/publications/space-semantics-core-haskell	accessed	20
 https://kjt.stir.ac.uk/research/techreps/	accessed	2026-07-27		Academic papers / proceedings
 https://arxiv.org/pdf/2107.12144	accessed	2026-07-27	10.1145/3498663	Academic papers / proceedings
 https://findresearcher.sdu.dk/ws/files/270541695/3674625.pdf	accessed	2026-07-27	10.1145/3674625	Academic papers / proceedings
-https://cs.paperswithcode.com/paper/engaging-large-scale-functional-programming	accessed	2026-07-27		Academic papers / proceedings
 https://www.nottingham.ac.uk/research/groups/fp-lab/completed-theses/phd-theses.aspx	accessed	2026-07-27		Academic papers / proceedings
 https://www.tcd.ie/research/profiles/?profile=butrfeld	accessed	2026-07-27		Academic papers / proceedings
 https://d3s.mff.cuni.cz/publications/tomaspetricek/	accessed	2026-07-27		Academic papers / proceedings
