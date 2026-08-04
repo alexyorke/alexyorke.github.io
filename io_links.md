@@ -1157,7 +1157,6 @@ https://popl16.sigplan.org/track/POPL-2016-ae	created	2016		Academic papers / pr
 https://popl16.sigplan.org/track/POPL-2016-papers	created	2016		Academic papers / proceedings
 https://popl16.sigplan.org/program/program-POPL-2016	created	2016		Academic papers / proceedings
 https://publikationen.bibliothek.kit.edu/1000056002/3891172	publication	2016	10.5445/KSP/1000056002	Academic papers / proceedings
-https://icfp16.sigplan.org/details/haskellsymp-2016-papers/8/Revisiting-Software-Transactional-Memory-in-Haskell	created	2016		Academic papers / proceedings
 https://eurekamag.com/research/104/856/104856751.php	published	2016		Academic papers / proceedings
 https://arxiv.org/pdf/1603.02148	created	2016	10.1016/j.entcs.2016.09.036	Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol097-types2016/LIPIcs.TYPES.2016.12/LIPIcs.TYPES.2016.12.pdf	created	2016	10.4230/LIPIcs.TYPES.2016.12	Academic papers / proceedings
@@ -1656,7 +1655,7 @@ https://dl.acm.org/doi/pdf/10.1145/3406088.3409027	publication	2020	10.1145/3406
 https://dl.acm.org/doi/pdf/10.1145/3406088.3409022	created	2020	10.1145/3406088.3409022	Academic papers / proceedings
 https://strathprints.strath.ac.uk/73505/1/Convent_etal_JFP_Doo_bee_doo_bee_doo.pdf	publication	2020	10.1017/S0956796820000039	Academic papers / proceedings
 https://research.chalmers.se/publication/519894/file/519894_Fulltext.pdf	publication	2020	10.1145/3414080.3414092	Academic papers / proceedings
-https://popl20.sigplan.org/details/POPL-2020-Student-Research-Competition/18/Through-the-Interaction-Forest-Modeling-Concurrency-in-Coq-with-Interaction-Trees	created	2020		Academic papers / proceedings
+https://www.ireneyoon.com/poster/popl20-src.pdf	created	2020		Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.20/LIPIcs.ECOOP.2020.20.pdf	publication	2020	10.4230/LIPIcs.ECOOP.2020.20	Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?QPL2020.15.pdf	created	2020		Academic papers / proceedings
 https://arxiv.org/pdf/2306.12313	created	2020	10.4230/LIPIcs.ECOOP.2020.19	Academic papers / proceedings
