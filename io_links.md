@@ -559,7 +559,7 @@ https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-737.pdf	published	2008	10.48456/
 https://files01.core.ac.uk/download/pdf/36694272.pdf	publication	2008-01-01		Academic papers / proceedings
 https://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf	modified	2008-03-11		Academic papers / proceedings
 https://webspace.science.uu.nl/~swier004//publications/2008-jfp.pdf	published	2008-03-18	10.1017/S0956796808006758	Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/3404	publication	2008-04		Academic papers / proceedings
+https://kar.kent.ac.uk/23975/1/HOLNik.pdf	publication	2008-04		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2008/04/ipdps_haskell_multiway.pdf	publication	2008-04-01	10.1109/MEMCOD.2008.4547686	Academic papers / proceedings
 https://conal.net/papers/simply-reactive/	archived	2008-04-07		Academic papers / proceedings
 https://well-typed.com/blog/aux/files/strong-types-pure-functions.pdf	published	2008-04-22		Academic papers / proceedings
