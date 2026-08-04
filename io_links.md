@@ -328,7 +328,7 @@ https://arxiv.org/pdf/cs/0311040	published	2003-11-26	10.48550/arXiv.cs/0311040	
 https://research.microsoft.com/~emeijer/Papers/Lambada.pdf	archived	2003-12-02		Academic papers / proceedings
 https://proofcafe.org/ocaml-nagoya/index.php?openfile=dontpanic04.pdf&plugin=attach&refer=%EF%BF%BD%CD%A5%EF%BF%BD%EF%BF%BD%EF%BF%BD%CF%BF%EF%BF%BD%EF%BF%BD%2Fcategory	authored	2004		Academic papers / proceedings
 https://www.research.ed.ac.uk/files/13255047/1_s2.0_S1571066104050893_main.pdf	publication	2004	10.1016/j.entcs.2004.08.008	Academic papers / proceedings
-https://research.chalmers.se/en/publication/12481	publication	2004		Academic papers / proceedings
+https://archives.haskell.org/code.haskell.org/haskelldb/haskelldb.pdf	publication	2004		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S1571066105000368/pdf	created	2004	10.1016/j.entcs.2004.06.055	Academic papers / proceedings
 https://mbsd.cs.ru.nl/publications/papers/2004/achp2004-ProbingGUIs.pdf	created	2004		Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/2004/achp2004-CompModelViewGUI.pdf	created	2004		Academic papers / proceedings
@@ -478,7 +478,7 @@ https://digitalcollections.ohsu.edu/record/122/	publication	2007		Academic paper
 https://www21.in.tum.de/~krauss/publication/2007-lexicographic-orders/	created	2007		Academic papers / proceedings
 https://archive.org/details/programminginhas0000hutt	publication	2007		Academic papers / proceedings
 https://archive.org/metadata/programminginhas0000hutt	publication	2007		Academic papers / proceedings
-https://research.chalmers.se/en/publication/46311	publication	2007		Academic papers / proceedings
+https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf	publication	2007		Academic papers / proceedings
 https://www.research.ed.ac.uk/files/18385082/Jones_Wadler_2007_Conprehensive_Comprehensions.pdf	publication	2007	10.1145/1291201.1291209	Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/2007/plar2007-ICFP07-iTasks.pdf	created	2007		Academic papers / proceedings
 https://klasses.cs.uchicago.edu/archive/2007/spring/32102-1/papers/p274-marlow.pdf	created	2007		Academic papers / proceedings
@@ -1237,7 +1237,7 @@ https://mercurylang.org/documentation/papers/mfug_talk.pdf	modified	2016-03-18		
 https://www.scs.stanford.edu/16wi-cs240h/projects/campagna_dodhia_jain.pdf	published	2016-03-18		Academic papers / proceedings
 https://www.scs.stanford.edu/16wi-cs240h/projects/wang_ruan.pdf	published	2016-03-18		Academic papers / proceedings
 https://arxiv.org/abs/1603.08865/	published	2016-03-29	10.48550/arXiv.1603.08865	Academic papers / proceedings
-https://arxiv.org/abs/1604.00384	published	2016-04-01	10.4204/EPTCS.207	Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/Published/MSFP2016/Proceedings.pdf	published	2016-04-01	10.4204/EPTCS.207	Academic papers / proceedings
 https://arxiv.org/pdf/1604.01184	published	2016-04-05	10.4204/EPTCS.207.2	Academic papers / proceedings
 https://www.fceia.unr.edu.ar/~mauro/pubs/sme/sme.pdf	modified	2016-04-06		Academic papers / proceedings
 https://www.fceia.unr.edu.ar/~mauro/pubs/monatron.pdf	modified	2016-04-06		Academic papers / proceedings
