@@ -1701,7 +1701,7 @@ https://dl.acm.org/doi/pdf/10.5555/77350.77353	archived	2020-05-09	10.5555/77350
 https://dev59.com/Q1IH5IYBdhLWcg3wAHcv	published	2020-05-15		Academic papers / proceedings
 https://arxiv.org/pdf/2005.09452	published	2020-05-18	10.48550/arXiv.2005.09452	Academic papers / proceedings
 https://guillaumebogard.dev/posts/functional-error-handling/	publication	2020-05-18		Academic papers / proceedings
-https://ks.cs.uchicago.edu/publication/qhtt/qhtt.pdf	archived	2020-05-18		Academic papers / proceedings
+https://ks.cs.uchicago.edu/publication/qhtt/qhtt.pdf	published	2021-09-06	10.4204/EPTCS.340.15	Academic papers / proceedings
 https://ks.cs.uchicago.edu/publication/quantum-hoare-types-src/qht-poster.pdf	archived	2020-05-18		Academic papers / proceedings
 https://qiita.com/rinse_/items/596cc07242aef880cf81	published	2020-05-19		Academic papers / proceedings
 https://pleger.github.io/papers/figueroaAl-SCP2020.pdf	published	2020-05-29		Academic papers / proceedings
@@ -1776,8 +1776,7 @@ https://www.baeldung.com/java-functional-programming	published	2020-11-08		Acade
 https://devblogs.microsoft.com/dotnet/announcing-f-5/	publication	2020-11-10		Academic papers / proceedings
 https://www.cambridge.org/core/journals/journal-of-functional-programming/listing	archived	2020-11-12		Academic papers / proceedings
 https://web.archive.org/web/20250320062544/https://legacy.cs.indiana.edu/~sabry/papers/exteff.pdf	archived	2020-11-12		Academic papers / proceedings
-https://probabilistic-effects.github.io/papers/freer-monads/	publication	2020-11-13		Academic papers / proceedings
-https://probabilistic-effects.github.io/papers/fusion-for-free/	publication	2020-11-13		Academic papers / proceedings
+https://people.cs.kuleuven.be/~tom.schrijvers/Research/papers/mpc2015.pdf	publication	2020-11-13	10.1007/978-3-319-19797-5_15	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3428194	publication	2020-11-13	10.1145/3428194	Academic papers / proceedings
 https://homepage.iis.sinica.edu.tw/papers/scm/23598-F.pdf	published	2020-11-13	10.1017/S0956796820000271	Academic papers / proceedings
 https://boyang.cs.uwm.edu/publication/rebls2020.pdf	published	2020-11-16	10.1145/3427763.3428314	Academic papers / proceedings
@@ -1835,7 +1834,7 @@ https://arxiv.org/pdf/2103.14481	published	2021-03-26	10.48550/arXiv.2103.14481	
 https://webhomes.maths.ed.ac.uk/~emilyroff/CLL/CLL12_NuiokDicaire.pdf	published	2021-03-31		Academic papers / proceedings
 https://prg.is.titech.ac.jp/wp-content/uploads/2021/04/2021-03M-niimi.pdf	published	2021-04-01		Academic papers / proceedings
 https://arxiv.org/pdf/2104.00480	published	2021-04-01	10.48550/arXiv.2104.00480	Academic papers / proceedings
-https://www.readkong.com/page/idris-2-quantitative-type-theory-in-practice-arxiv-6884775	publication	2021-04-01		Academic papers / proceedings
+https://drops.dagstuhl.de/storage/00lipics/lipics-vol194-ecoop2021/LIPIcs.ECOOP.2021.9/LIPIcs.ECOOP.2021.9.pdf	publication	2021-04-01	10.4230/LIPIcs.ECOOP.2021.9	Academic papers / proceedings
 https://arxiv.org/pdf/2104.01358	published	2021-04-03	10.46298/fi.10010	Academic papers / proceedings
 https://www.cs.ru.nl/~marko/research/sparkle/	modified	2021-04-06		Academic papers / proceedings
 https://www.cs.ru.nl/~marko/research/sparkle/NIIIR0415.pdf	modified	2021-04-06		Academic papers / proceedings
@@ -1885,7 +1884,6 @@ https://dl.acm.org/doi/pdf/10.1145/3473578	publication	2021-08-22	10.1145/347357
 https://www.sussex.ac.uk/informatics/cogslib/reports/compsci/cs031996.pdf	modified	2021-08-22		Academic papers / proceedings
 https://wrap.warwick.ac.uk/id/eprint/155565/1/WRAP-Graded-monads-type-level-programming-dependence-analysis-2021.pdf	publication	2021-08-27	10.1145/3471874.3472981	Academic papers / proceedings
 https://www.michaelhanus.de/lehre/abschlussarbeiten/bsc/Wieczerkowski.pdf	published	2021-09		Academic papers / proceedings
-https://shamra-academia.com/show/3a445e42f2b640	published	2021-09-06		Academic papers / proceedings
 https://pdfarchive.kunaldawn.com/archive/computer_engineering/Practical_FP_in_Scala_-_Gabriel_Volpe.pdf	published	2021-09-13		Academic papers / proceedings
 https://s3.amazonaws.com/samples.leanpub.com/pfp-scala-sample.pdf	published	2021-09-13		Academic papers / proceedings
 https://www.jucs.org/jucs_11_7/jucs_11_7_1234_1254_dubois.pdf	modified	2021-09-19	10.3217/jucs-011-07-1234	Academic papers / proceedings
@@ -5350,7 +5348,7 @@ https://okmij.org/ftp/packages/sys_open.c	modified	2013-07-05		Archives / mirror
 https://www.cs.tufts.edu/~nr/cs257/archive/brent-yorgey/tc.pdf	modified	2013-09-13		Archives / mirrors
 https://scholar.archive.org/work/nd5hynxmdfemvclqddqtn555oe/access/wayback/http%3A//yadda.icm.edu.pl/yadda/element/bwmeta1.element.baztech-0622a6c7-c2d7-4914-952a-465e78d3d959/c/Grzanek_Monadic_JACSM_2014.pdf	created	2014		Archives / mirrors
 https://scholar.archive.org/work/72w7wzbv5ffdjkipbjdeydubue/access/wayback/http%3A//drops.dagstuhl.de/opus/volltexte/2015/5540/pdf/20.pdf	created	2015		Archives / mirrors
-https://okmij.org/ftp/Haskell/extensible/more.pdf	modified	2015-09-09		Archives / mirrors
+https://okmij.org/ftp/Haskell/extensible/more.pdf	publication	2020-11-13	10.1145/2804302.2804319	Academic papers / proceedings
 https://okmij.org/ftp/Computation/free-monad.html	modified	2016-04-13		Archives / mirrors
 https://okmij.org/ftp/Computation/monadic-shell.html	modified	2016-12-05		Archives / mirrors
 https://okmij.org/ftp/Scheme/monad-in-Scheme.html	modified	2016-12-05		Archives / mirrors
