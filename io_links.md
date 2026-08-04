@@ -46,7 +46,7 @@ https://www.cambridge.org/core/services/aop-cambridge-core/content/view/354FFB29
 https://dl.acm.org/doi/pdf/10.1145/130697.130699	publication	1992-05	10.1145/130697.130699	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/fpio.pdf	publication	1992-08-01	10.48456/tr-285	Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf	published	1992-08-08		Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/3378	publication	1992-11		Academic papers / proceedings
+https://kar.kent.ac.uk/21020/1/HaskellThompson.pdf	publication	1992-11		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/158511.158524	publication	1993	10.1145/158511.158524	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/978-1-4471-3215-8_6.pdf	publication	1993	10.1007/978-1-4471-3215-8_6	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/165180.165228	publication	1993	10.1145/165180.165228	Academic papers / proceedings
@@ -154,7 +154,6 @@ https://link.springer.com/content/pdf/10.1007/3-540-49201-1.pdf	published	1998	1
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3A39D50DA48F628D17D9A768A1FA39C3/S0956796897002943a.pdf/what_is_a_purely_functional_language.pdf	published	1998-01	10.1017/S0956796897002943	Academic papers / proceedings
 https://www.eyrolles.com/Informatique/Livre/introduction-to-functional-programming-using-haskell-9780134843469/	published	1998-02-10		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37B1EAE149C3EE88BE5A90EF9B56FD4F/S0956796898002998a.pdf/div-class-title-computational-types-from-a-logical-perspective-div.pdf	published	1998-03	10.1017/S0956796898002998	Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/2510	publication	1998-05		Academic papers / proceedings
 https://kar.kent.ac.uk/21663/1/A_Functional_Reactive_Animation_of_a_Lift_using_Fran.pdf	publication	1998-05		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2853872041BCA4DD4C58A672369FBAFE/S0956796898003062a.pdf/efficient-graph-algorithms-using-lazy-monolithic-arrays.pdf	published	1998-07	10.1017/S0956796898003062	Academic papers / proceedings
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/DB5F4F2BDED65C6F89D84CF5213FA834	publication	1998-07		Academic papers / proceedings
@@ -308,7 +307,6 @@ https://www.sciencedirect.com/science/article/pii/S0167642302000886/pdf	publishe
 https://www.barnesandnoble.com/w/implementation-of-functional-languages-ricardo-pena/1113712292	published	2003-05-20		Academic papers / proceedings
 https://kar.kent.ac.uk/58270/1/transformingFinal.pdf	publication	2003-05-20		Academic papers / proceedings
 https://www.cs.uoregon.edu/research/summerschool/summer03/lectures/cbslides.pdf	published	2003-06		Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/53983	publication	2003-08		Academic papers / proceedings
 https://kar.kent.ac.uk/13937/1/content.pdf	publication	2003-08		Academic papers / proceedings
 https://web.archive.org/web/20030802235019/http://www.research.microsoft.com:80/~simonpj/Papers/marktoberdorf/	archived	2003-08-02		Academic papers / proceedings
 http://www.abercrombiegroup.co.uk/~noel/research/monads.html	archived	2003-08-16		Academic papers / proceedings
@@ -369,7 +367,6 @@ https://dl.acm.org/doi/pdf/10.1145/1017472.1017478	publication	2004-09-22	10.114
 https://www.sciencedirect.com/science/article/pii/S1742287604000544/pdf	published	2004-09-30	10.1016/j.diin.2004.07.001	Academic papers / proceedings
 https://scholar.lib.vt.edu/ejournals/JFLP/jflp-mirror/articles/2004/S04-01/A2004-05/JFLP-A2004-05.pdf	published	2004-10-15		Academic papers / proceedings
 https://www.cin.ufpe.br/~alms/pdf/AOPHaskell_camera_ready.pdf	modified	2004-10-15	10.22456/2175-2745.5980	Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/1858	publication	2004-11		Academic papers / proceedings
 https://kar.kent.ac.uk/14056/1/Lazy_Assertions.pdf	publication	2004-11		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/gdp/publications/alg_ops_gen_effects.pdf	modified	2004-11-05		Academic papers / proceedings
 https://www.osnews.com/story/8862/hop-a-haskell-os/	published	2004-11-13		Academic papers / proceedings
@@ -403,7 +400,6 @@ https://www.sciencedirect.com/science/article/pii/S1571066105050826/pdf?md5=0180
 https://publications.scss.tcd.ie/tech-reports/reports.05/TCD-CS-2005-56.pdf	published	2005-07-24		Academic papers / proceedings
 https://theory.stanford.edu/~aiken/publications/papers/icfp05.pdf	modified	2005-08-11		Academic papers / proceedings
 https://www.cl.cam.ac.uk/~amp12/papers/monsf/monsf-jv.pdf	modified	2005-08-30	10.1016/j.tcs.2005.06.003	Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/23904	publication	2005-09		Academic papers / proceedings
 https://kar.kent.ac.uk/42672/1/paperMAY2002.pdf	publication	2005-09		Academic papers / proceedings
 https://arxiv.org/pdf/cs/0509027	published	2005-09-10	10.48550/arXiv.cs/0509027	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1086365.1086379	publication	2005-09-12	10.1145/1086365.1086379	Academic papers / proceedings
@@ -529,7 +525,6 @@ https://dl.acm.org/doi/pdf/10.1145/1291151.1291189	publication	2007-10-01	10.114
 https://dl.acm.org/doi/pdf/10.1145/1297105.1297078	publication	2007-10-21	10.1145/1297105.1297078	Academic papers / proceedings
 https://www.macs.hw.ac.uk/~hwloidl/publications/PADL08.pdf	created	2007-10-25		Academic papers / proceedings
 https://kar.kent.ac.uk/14528/1/monadicAssertions.pdf	publication	2007-11		Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/55703	publication	2007-11		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S1571066107005919/pdf	published	2007-11-01	10.1016/j.entcs.2007.10.006	Academic papers / proceedings
 https://scholar.archive.org/work/jpldjdy3yfgb7nd33drpbnbiya/access/wayback/http%3A//semarch.linguistics.fas.nyu.edu/barker/dybvig-et-al-monadic-delimited.pdf	published	2007-11-01		Academic papers / proceedings
 https://tomasp.net/blog/fsharp-iv-lang.aspx	published	2007-11-03		Academic papers / proceedings
@@ -730,7 +725,6 @@ https://journals.sagepub.com/doi/pdf/10.3233/FI-2010-303	publication	2010-12-30	
 https://dl.acm.org/doi/pdf/10.1145/2096148.2034688	publication	2011	10.1145/2096148.2034688	Academic papers / proceedings
 https://www.research.ed.ac.uk/files/18384001/Lindley_Wadler_ET_AL_2011_Idioms_are_Oblivious_Arrows_are_Meticulous_Monads_are_Promiscuous.pdf	publication	2011	10.1016/j.entcs.2011.02.018	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2034574.2034781	publication	2011	10.1145/2034574.2034781	Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/3229559	publication	2011		Academic papers / proceedings
 https://ora.ox.ac.uk/objects/uuid%3Ab4971f57-2b94-4fdf-a5c0-98d6935a44da/files/md50e6a8b2027ac4f99994936c2a32c3b	publication	2011		Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol012-csl2011/LIPIcs.CSL.2011.292/LIPIcs.CSL.2011.292.pdf	created	2011	10.4230/LIPIcs.CSL.2011.292	Academic papers / proceedings
 https://cseweb.ucsd.edu/~dstefan/pubs/stefan%3A2011%3Aflexible-slides.pdf	created	2011		Academic papers / proceedings
@@ -996,7 +990,6 @@ https://dl.acm.org/doi/pdf/10.1145/2578855.2535846	publication	2014-01-13	10.114
 https://www.codefugue.com/polyglot-survival-guide-erlang-and-haskell/	publication	2014-01-20		Academic papers / proceedings
 https://arxiv.org/pdf/1401.5391	published	2014-01-21	10.48550/arXiv.1401.5391	Academic papers / proceedings
 https://uehaj.hatenablog.com/entry/2014/01/29/110222	publication	2014-01-29		Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/3139896	publication	2014-01-31		Academic papers / proceedings
 https://kar.kent.ac.uk/69692/1/computation-zoo.pdf	publication	2014-01-31		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2578854.2503791	publication	2014-01-31	10.1145/2578854.2503791	Academic papers / proceedings
 https://www.readkong.com/page/the-f-computation-expression-zoo-7270706	published	2014-02-03		Academic papers / proceedings
@@ -1365,7 +1358,6 @@ https://arxiv.org/pdf/1707.06685	published	2017-07-20	10.48550/arXiv.1707.06685	
 https://www.math.sci.hokudai.ac.jp/hmj/page/34-1/pdf/288.pdf	modified	2017-07-21	10.14492/hokmj/1285766200	Academic papers / proceedings
 https://medium.com/%40bobbypriam/monads-in-functional-programming-a-practical-note-53488f94b20c	published	2017-07-24		Academic papers / proceedings
 https://tyde.systems/post/2017-07-25-imperial/	published	2017-07-25		Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/3132870	publication	2017-08		Academic papers / proceedings
 https://arxiv.org/pdf/1708.01688	published	2017-08-04	10.23638/LMCS-15(1:36)2019	Academic papers / proceedings
 https://scalac.io/blog/tagless-final-pattern-for-scala-code/	publication	2017-08-10		Academic papers / proceedings
 https://arxiv.org/pdf/1708.03882	published	2017-08-13	10.48550/arXiv.1708.03882	Academic papers / proceedings
@@ -2313,7 +2305,6 @@ https://habr.com/ru/articles/867158/	published	2024-12-17		Academic papers / pro
 https://amslaurea.unibo.it/id/eprint/34177/	authored	2024-12-18		Academic papers / proceedings
 https://programming.muthu.co/posts/beginners-guide-to-agda/	publication	2024-12-19		Academic papers / proceedings
 https://zenn.dev/1256/articles/55c6c271ccc95b	published	2024-12-25		Academic papers / proceedings
-https://kar.kent.ac.uk/id/document/2025	created	2025		Academic papers / proceedings
 https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_368/_pdf/-char/en	publication	2025	10.2197/ipsjjip.33.368	Academic papers / proceedings
 https://arxiv.org/pdf/2508.03640	created	2025	10.4204/EPTCS.424.3	Academic papers / proceedings
 https://arxiv.org/pdf/2508.03642	created	2025	10.4204/EPTCS.424.6	Academic papers / proceedings
