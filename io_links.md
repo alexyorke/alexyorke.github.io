@@ -1723,7 +1723,6 @@ https://www.ppl-lang.dev/blog/introduction-to-monads-with-java/index.html	publis
 https://alhassy.com/HaskellCheatSheet/CheatSheet_Portrait.pdf	published	2020-04-04		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.5555/119830.119838	archived	2020-04-06	10.5555/119830.119838	Academic papers / proceedings
 https://www.michaelhanus.de/papers/FundInf20.pdf	modified	2020-04-07		Academic papers / proceedings
-https://ks.cs.uchicago.edu/publication/qhtt/	publication	2020-04-12		Academic papers / proceedings
 https://degoes.net/articles/zio-history	published	2020-04-15		Academic papers / proceedings
 https://arxiv.org/pdf/2004.07585	published	2020-04-16	10.48550/arXiv.2004.07585	Academic papers / proceedings
 https://arxiv.org/pdf/2004.12885	published	2020-04-27	10.48550/arXiv.2004.12885	Academic papers / proceedings
@@ -2351,7 +2350,7 @@ https://zenn.dev/1256/articles/e265d1499fff10	published	2025-01-04		Academic pap
 https://dl.acm.org/doi/pdf/10.1145/3704860	published	2025-01-07	10.1145/3704860	Academic papers / proceedings
 https://skvirski.com/articles/result-oriented-programming-fsharp/	published	2025-01-08		Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/Published/TFPiE2025/Proceedings.pdf	published	2025-01-13	10.4204/EPTCS.424	Academic papers / proceedings
-https://www.cs.drexel.edu/~csg63/publications/oopsla12/	archived	2025-01-26		Academic papers / proceedings
+https://www.cs.drexel.edu/~csg63//publications/oopsla12/oopsla12.pdf	archived	2025-01-26		Academic papers / proceedings
 https://zenn.dev/mod_poppo/articles/haskell-primmonad/	published	2025-01-31		Academic papers / proceedings
 https://h2.jaguarpaw.co.uk/posts/bluefin-versus-oop/	published	2025-02		Academic papers / proceedings
 https://owenstephens.co.uk/assets/static/research/masters_report.pdf	modified	2025-02-02		Academic papers / proceedings
