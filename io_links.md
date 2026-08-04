@@ -24,7 +24,7 @@ https://dl.acm.org/doi/pdf/10.1145/99370.99407	publication	1989	10.1145/99370.99
 https://dl.acm.org/doi/pdf/10.1145/99370.99409	publication	1989	10.1145/99370.99409	Academic papers / proceedings
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-160.pdf	published	1989	10.48456/tr-160	Academic papers / proceedings
 https://academic.oup.com/comjnl/article-pdf/32/2/162/1445725/320162.pdf	publication	1989-01-01	10.1093/comjnl/32.2.162	Academic papers / proceedings
-https://voljournals.utk.edu/utk_gradthes/13071/	authored	1989-05		Academic papers / proceedings
+https://voljournals.utk.edu/cgi/viewcontent.cgi?article=14673&context=utk_gradthes	authored	1989-05		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/72551.72554	publication	1989-09	10.1145/72551.72554	Academic papers / proceedings
 https://archive.org/details/functionalprogra0000unse_q5s6	publication	1990		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/016764239090056J/pdf	published	1990	10.1016/0167-6423(90)90056-J	Academic papers / proceedings
@@ -2215,8 +2215,8 @@ https://shinyu.org/ru/haskell/files-and-io/creating-a-temporary-file/	publicatio
 https://www.andrew.cmu.edu/user/kpruiksm/papers/jfp22.pdf	archived	2024-02-05		Academic papers / proceedings
 https://repository.rit.edu/cgi/viewcontent.cgi?article=6516&context=theses	archived	2024-02-16		Academic papers / proceedings
 https://wasp.cs.washington.edu/tecaml/teml.pdf	created	2024-02-21	10.1145/1411203.1411222	Academic papers / proceedings
-https://repository.rit.edu/article/481/	archived	2024-02-28		Academic papers / proceedings
-https://repository.rit.edu/other/81/	archived	2024-03-02		Academic papers / proceedings
+https://repository.rit.edu/cgi/viewcontent.cgi?article=1483&context=article	archived	2024-02-28		Academic papers / proceedings
+https://repository.rit.edu/cgi/viewcontent.cgi?article=1082&context=other	archived	2024-03-02		Academic papers / proceedings
 https://webspace.science.uu.nl/~4110161/pubs/asynch-mac.pdf	archived	2024-03-08		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/yow/monads-haskell.pdf	created	2024-03-13		Academic papers / proceedings
 https://koff.io/posts/tf-gathering-effects/	published	2024-03-18		Academic papers / proceedings
