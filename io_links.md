@@ -1171,7 +1171,6 @@ https://research.amanote.com/publication/463LAnQBKQvf0Bhi-Pln/revisiting-softwar
 https://library.iitgoa.ac.in/cgi-bin/koha/opac-detail.pl?biblionumber=1097&shelfbrowse_itemnumber=3445	published	2016		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/Marktoberdorf.ppt	created	2016		Academic papers / proceedings
 https://pure.itu.dk/portal/files/109064591/PhD_thesis_final_version_David_Raymond_Christiansen.pdf	publication	2016		Academic papers / proceedings
-https://icfp16.sigplan.org/details/haskellsymp-2016-papers/3/Functional-Reactive-Programming-Refactored	created	2016		Academic papers / proceedings
 http://publications.lib.chalmers.se/records/fulltext/183098/local_183098.pdf	publication	2016		Academic papers / proceedings
 https://popl16.sigplan.org/track/POPL-2016-ae	created	2016		Academic papers / proceedings
 https://popl16.sigplan.org/track/POPL-2016-papers	created	2016		Academic papers / proceedings
@@ -1293,7 +1292,7 @@ https://arxiv.org/pdf/1612.04610	published	2016-12-14	10.48550/arXiv.1612.04610	
 https://arxiv.org/pdf/1612.06668	published	2016-12-20	10.1145/3009837.3009880	Academic papers / proceedings
 https://arxiv.org/pdf/1612.06633	published	2016-12-20	10.1145/2951913.2951925	Academic papers / proceedings
 https://www.baeldung.com/vavr	published	2016-12-29		Academic papers / proceedings
-https://icfp17.sigplan.org/details/mlfamilyworkshop-2017-papers/2/Effectively-tackling-the-awkward-squad	created	2017		Academic papers / proceedings
+https://dhil.net/research/papers/awkward_effects-ml17.pdf	created	2017		Academic papers / proceedings
 https://anil.recoil.org/papers/2017-ml-effects.bib	created	2017		Academic papers / proceedings
 https://www.snoyman.com/reveal/monad-transformer-state/	authored	2017		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3110249	created	2017	10.1145/3110249	Academic papers / proceedings
@@ -1824,7 +1823,6 @@ https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2021.6.pdf=	created	2021		Acad
 https://dl.acm.org/doi/pdf/10.1145/3434331	created	2021	10.1145/3434331	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3434307	created	2021	10.1145/3434307	Academic papers / proceedings
 https://seattle.bibliocommons.com/v2/record/S30C3847261	published	2021		Academic papers / proceedings
-https://icfp21.sigplan.org/details/ocaml-2021-papers/16/Experiences-with-Effects	created	2021		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3473576	created	2021	10.1145/3473576	Academic papers / proceedings
 https://pure.au.dk/ws/files/285414161/3473567.pdf	created	2021	10.1145/3473567	Academic papers / proceedings
 https://icfp21.sigplan.org/details/icfp-2021-tutorials/5/Programming-with-Effect-Handlers-and-FBIP-in-Koka	created	2021		Academic papers / proceedings
