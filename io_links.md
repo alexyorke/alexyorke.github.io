@@ -463,7 +463,7 @@ https://dl.acm.org/doi/pdf/10.1145/1160074.1159821	publication	2006-09-16	10.114
 https://dl.acm.org/doi/pdf/10.1145/1160074.1159823	publication	2006-09-16	10.1145/1160074.1159823	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1159842.1159854	publication	2006-09-17	10.1145/1159842.1159854	Academic papers / proceedings
 https://www.cs.cornell.edu/people/fluet/research/tx-events/ICFP06/icfp06.pdf	modified	2006-09-27		Academic papers / proceedings
-http://user.cs.tu-berlin.de/~magr/pub/Transformers.en.html	authored	2006-10		Academic papers / proceedings
+https://blogs.asarkar.com/assets/docs/haskell/Monad%20Transformers%20Step%20by%20Step%20-%20Grabmuller.pdf	authored	2006-10		Academic papers / proceedings
 https://www.cse.chalmers.se/alumni/bringert/darcs/hwn/archives/20061003.html	publication	2006-10-03		Academic papers / proceedings
 https://ipsj.ixsq.nii.ac.jp/record/16534/files/IPSJ-TPRO4716003.pdf	publication	2006-10-15		Academic papers / proceedings
 https://blog.moertel.com/posts/2006-10-18-a-type-based-solution-to-the-strings-problem.html	published	2006-10-18		Academic papers / proceedings
