@@ -2286,7 +2286,7 @@ https://zenn.dev/hand_accident/articles/7c681979acf9dc	published	2024-12-04		Aca
 https://reactiveml.github.io/reactive_asco/resources/farm13.pdf	modified	2024-12-09	10.1145/2505341.2505344	Academic papers / proceedings
 https://leo88.medium.com/bridging-the-gap-comparing-react-typescript-with-haskell-and-functional-programming-principles-46a9e746823c	publication	2024-12-10		Academic papers / proceedings
 https://habr.com/ru/articles/867158/	published	2024-12-17		Academic papers / proceedings
-https://amslaurea.unibo.it/id/eprint/34177/	authored	2024-12-18		Academic papers / proceedings
+https://amslaurea.unibo.it/id/eprint/34177/1/thesis.pdf	authored	2024-12-18		Academic papers / proceedings
 https://programming.muthu.co/posts/beginners-guide-to-agda/	publication	2024-12-19		Academic papers / proceedings
 https://zenn.dev/1256/articles/55c6c271ccc95b	published	2024-12-25		Academic papers / proceedings
 https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_368/_pdf	publication	2025	10.2197/ipsjjip.33.368	Academic papers / proceedings
