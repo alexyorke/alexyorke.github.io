@@ -1414,7 +1414,7 @@ https://icfp18.sigplan.org/track/haskellsymp-2018-papers	created	2018		Academic 
 https://www.snoyman.com/reveal/whirlwind-tour-core-haskell-libraries/	authored	2018		Academic papers / proceedings
 https://repository.upenn.edu/bitstreams/69072158-fade-4334-be54-182522b57de5/download	publication	2018		Academic papers / proceedings
 https://odr.chalmers.se/bitstreams/5678d796-a5ab-4b0f-9533-3fdb31699801/download	publication	2018		Academic papers / proceedings
-https://www.jstage.jst.go.jp/article/ipsjjip/26/0/26_54/_pdf/-char/en	publication	2018	10.2197/ipsjjip.26.54	Academic papers / proceedings
+https://www.jstage.jst.go.jp/article/ipsjjip/26/0/26_54/_pdf	publication	2018	10.2197/ipsjjip.26.54	Academic papers / proceedings
 https://icfp18.sigplan.org/details/hiw-2018-papers/13/Lightning-talk-The-trick-which-makes-exceptions-0-10-0-possible	created	2018		Academic papers / proceedings
 https://icfp18.sigplan.org/details/hiw-2018-papers/6/Lightning-talk-Asterius-Bringing-Haskell-to-WebAssembly	created	2018		Academic papers / proceedings
 https://www.publishersweekly.com/9781681440033	publication	2018		Academic papers / proceedings
@@ -1528,11 +1528,11 @@ https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2019.2.pdf=	created	2019		Acad
 https://icfp19.sigplan.org/home/farm-2019	created	2019		Academic papers / proceedings
 https://research.chalmers.se/publication/508494/file/508494_Fulltext.pdf	created	2019	10.1007/978-3-319-71237-6_17	Books / chapters
 https://repository.tudelft.nl/file/File_b2435f1a-04dd-48ee-b7e6-8d2f77df46ad	publication	2019		Academic papers / proceedings
-https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_pdf/-char/en	publication	2019	10.2197/ipsjjip.27.431	Academic papers / proceedings
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_431/_pdf	publication	2019	10.2197/ipsjjip.27.431	Academic papers / proceedings
 https://arxiv.org/pdf/1905.09825	created	2019	10.1145/3331545.3342601	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3331545.3342598	publication	2019	10.1145/3331545.3342598	Academic papers / proceedings
 https://s.octalsrc.org/ipfs/QmSKuejPz6uanJ7gBFzVaHrPDuDj1jnWuqus3PxukqP7ep/item/carol_icfp2019_pub.pdf	created	2019	10.1145/3341710	Academic papers / proceedings
-https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_pdf/-char/en	publication	2019	10.2197/ipsjjip.27.87	Academic papers / proceedings
+https://www.jstage.jst.go.jp/article/ipsjjip/27/0/27_87/_pdf	publication	2019	10.2197/ipsjjip.27.87	Academic papers / proceedings
 https://eprints.gla.ac.uk/195429/1/195429.pdf	publication	2019	10.25304/rlt.v27.2248	Academic papers / proceedings
 https://www.mdpi.com/2076-3417/9/24/5472/pdf	publication	2019	10.3390/app9245472	Academic papers / proceedings
 https://dlib.si/details/URN%3ANBN%3ASI%3Adoc-SL2671A9?language=eng	publication	2019		Academic papers / proceedings
@@ -2305,7 +2305,7 @@ https://habr.com/ru/articles/867158/	published	2024-12-17		Academic papers / pro
 https://amslaurea.unibo.it/id/eprint/34177/	authored	2024-12-18		Academic papers / proceedings
 https://programming.muthu.co/posts/beginners-guide-to-agda/	publication	2024-12-19		Academic papers / proceedings
 https://zenn.dev/1256/articles/55c6c271ccc95b	published	2024-12-25		Academic papers / proceedings
-https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_368/_pdf/-char/en	publication	2025	10.2197/ipsjjip.33.368	Academic papers / proceedings
+https://www.jstage.jst.go.jp/article/ipsjjip/33/0/33_368/_pdf	publication	2025	10.2197/ipsjjip.33.368	Academic papers / proceedings
 https://arxiv.org/pdf/2508.03640	created	2025	10.4204/EPTCS.424.3	Academic papers / proceedings
 https://arxiv.org/pdf/2508.03642	created	2025	10.4204/EPTCS.424.6	Academic papers / proceedings
 https://repository.tudelft.nl/file/File_bb0ebf7e-0136-452f-8c38-555f403c89ed	publication	2025		Academic papers / proceedings
