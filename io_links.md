@@ -2424,7 +2424,6 @@ https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=31286397	publication	2025-07-21		Academic papers / proceedings
 https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=1243163585	publication	2025-07-21		Academic papers / proceedings
 https://fedknu.com/blog/mental-model-elm-architecture/	published	2025-07-22		Academic papers / proceedings
-https://repository.gatech.edu/entities/publication/be6d9e50-59ba-4772-819e-06b5c24e4aa9	publication	2025-07-23		Academic papers / proceedings
 https://repository.gatech.edu/bitstreams/d8734fc2-6939-4c66-bda0-4cffae7e73e6/download	modified	2025-07-23		Academic papers / proceedings
 https://hjaafar.xyz/files/algeff_notes.pdf	published	2025-07-25		Academic papers / proceedings
 https://arxiv.org/pdf/2507.22048	published	2025-07-29	10.48550/arXiv.2507.22048	Academic papers / proceedings
