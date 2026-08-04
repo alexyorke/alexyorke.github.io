@@ -349,7 +349,7 @@ https://www.cs.cmu.edu/~rwh/papers/modaleff/short.pdf	modified	2004-07-29		Acade
 https://kar.kent.ac.uk/14117/1/SOFTWARE_MEASUREMENT_FOR.pdf	publication	2004-08		Academic papers / proceedings
 https://academic.oup.com/logcom/article-pdf/14/4/571/2758282/140571.pdf	publication	2004-08-01		Academic papers / proceedings
 https://web.cecs.pdx.edu/~antoy/homepage/publications/jsc/paper.pdf	modified	2004-08-04		Academic papers / proceedings
-https://scholar.archive.org/work/uqqw2rhiu5amtpklygif4aldhi/access/wayback/http%3A//research.microsoft.com/pubs/66810/wxhaskell.pdf	created	2004-08-06	10.1145/1017472.1017483	Academic papers / proceedings
+https://web.archive.org/web/20120121050135id_/http://research.microsoft.com/pubs/66810/wxhaskell.pdf	created	2004-08-06	10.1145/1017472.1017483	Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S0167642304000486/pdf	published	2004-08-31		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37A6F7551C3A84120D658CE2D2C55E6E/S0956796802004471a.pdf/global-variables-in-haskell.pdf	published	2004-09	10.1017/S0956796802004471	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2004/09/conc-ffi.pdf	published	2004-09-22	10.1145/1017472.1017479	Academic papers / proceedings
@@ -479,7 +479,7 @@ https://research.utwente.nl/files/5367181/111_Final_paper.pdf	publication	2007		
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/beautiful.pdf	publication	2007-01-01		Academic papers / proceedings
 https://syntaxfree.wordpress.com/2007/01/08/haskell-bondage-and-discipline-and-separation-of-concerns-programming/	publication	2007-01-08		Academic papers / proceedings
 https://blog.moertel.com/posts/2007-02-22-a-simple-directory-tree-printer-in-haskell.html	published	2007-02-22		Academic papers / proceedings
-https://scholar.archive.org/work/vgtnmf2jbngwdpvzukot77aopm/access/wayback/http%3A//www.informatik.uni-marburg.de/~kos/papers/aspects_and_monads.pdf	created	2007-03-01		Academic papers / proceedings
+https://web.archive.org/web/20170808114517id_/http://www.informatik.uni-marburg.de/~kos/papers/aspects_and_monads.pdf	created	2007-03-01		Academic papers / proceedings
 https://blog.moertel.com/posts/2007-03-07-directory-tree-printing-in-haskell-part-two-refactoring.html	published	2007-03-07		Academic papers / proceedings
 https://donsbot.com/2007/03/10/practical-haskell-shell-scripting-with-error-handling-and-privilege-separation/	publication	2007-03-10		Academic papers / proceedings
 https://www.cs.ucf.edu/~leavens/FOAL/papers-2007/Hofer-Ostermann.pdf	published	2007-03-13		Academic papers / proceedings
@@ -495,8 +495,6 @@ https://www.sciencedirect.com/science/article/pii/S1571066107002228/pdf?md5=3672
 https://simon.peytonjones.org/assets/pdfs/haskell-being-lazy-with-class.pdf	publication	2007-06-01		Academic papers / proceedings
 https://repository.upenn.edu/bitstreams/7a98446a-9f99-4ee8-b121-3cbef1ee780f/download	publication	2007-06-01		Academic papers / proceedings
 https://theory.stanford.edu/~aiken/publications/trs/FLProject.pdf	modified	2007-06-09		Academic papers / proceedings
-https://scholar.archive.org/work/jywpr2p64zdbfp4fsgoehs3y3q/access/wayback/http%3A//web.cecs.pdx.edu/~mpj/pubs/plos07.pdf	created	2007-06-27		Academic papers / proceedings
-https://scholar.archive.org/work/jywpr2p64zdbfp4fsgoehs3y3c/access/wayback/http%3A//web.cecs.pdx.edu/~mpj/pubs/plos07.pdf	created	2007-06-27		Academic papers / proceedings
 https://simon.peytonjones.org/assets/pdfs/taste-of-haskell-pt1.pdf	published	2007-07		Academic papers / proceedings
 https://hot-heart-cool-mind.hatenablog.com/entry/393131366.html	publication	2007-07-08		Academic papers / proceedings
 https://www.mbsd.cs.ru.nl/publications/papers/2007/achp2007-CleanHaskellQuickGuide.pdf	published	2007-07-13		Academic papers / proceedings
@@ -520,7 +518,7 @@ https://dl.acm.org/doi/pdf/10.1145/1297105.1297078	publication	2007-10-21	10.114
 https://www.macs.hw.ac.uk/~hwloidl/publications/PADL08.pdf	created	2007-10-25		Academic papers / proceedings
 https://kar.kent.ac.uk/14528/1/monadicAssertions.pdf	publication	2007-11		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S1571066107005919/pdf	published	2007-11-01	10.1016/j.entcs.2007.10.006	Academic papers / proceedings
-https://scholar.archive.org/work/jpldjdy3yfgb7nd33drpbnbiya/access/wayback/http%3A//semarch.linguistics.fas.nyu.edu/barker/dybvig-et-al-monadic-delimited.pdf	published	2007-11-01		Academic papers / proceedings
+https://web.archive.org/web/20130524151340id_/http://semarch.linguistics.fas.nyu.edu/barker/dybvig-et-al-monadic-delimited.pdf	published	2007-11-01		Academic papers / proceedings
 https://tomasp.net/blog/fsharp-iv-lang.aspx	published	2007-11-03		Academic papers / proceedings
 https://tomasp.net/articles/fsharp-i-introduction/article.pdf	modified	2026-02-12		Blogs / tutorials
 https://users.csc.calpoly.edu/~akeen/languages/papers.html	archived	2007-12-18		Academic papers / proceedings
@@ -1009,7 +1007,7 @@ https://cs.ioc.ee/~tarmo/papers/types13.pdf	published	2014-05-13		Academic paper
 https://www.codefugue.com/magic-not-in-the-monad/	publication	2014-05-13		Academic papers / proceedings
 https://arxiv.org/pdf/1405.3072	published	2014-05-13	10.48550/arxiv.1405.3072	Academic papers / proceedings
 https://blog.jle.im/entry/inside-my-world-ode-to-functor-and-monad.html	published	2014-05-19		Academic papers / proceedings
-https://scholar.archive.org/work/kcajomdebndlfpn7auvwfp67ea/access/wayback/http%3A//www.lifl.fr/dyla14/papers/dyla14-6-list-based-monadic-computations.pdf	created	2014-05-19		Academic papers / proceedings
+https://web.archive.org/web/20161013155736id_/http://www.lifl.fr/dyla14/papers/dyla14-6-list-based-monadic-computations.pdf	created	2014-05-19		Academic papers / proceedings
 https://elm-lang.org/assets/papers/concurrent-frp.pdf	created	2014-05-20		Academic papers / proceedings
 https://keera.co.uk/posts/2014/05/23/state-gui-programming-haskell/	publication	2014-05-23		Academic papers / proceedings
 https://keera.co.uk/posts/2014/05/24/gui-programming-haskell-old-way/	publication	2014-05-24		Academic papers / proceedings
@@ -1416,7 +1414,7 @@ https://books.rakuten.co.jp/rb/15436556/	publication	2018		Academic papers / pro
 https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume08/issue04/18172/DagRep.8.4.104/DagRep.8.4.104.pdf	publication	2018	10.4230/DagRep.8.4.104	Academic papers / proceedings
 https://eric.walkingshaw.net/files/pubs/2018/ppdp18-declarative-guis.pdf	created	2018	10.1145/3236950.3236962	Academic papers / proceedings
 https://old.matf.bg.ac.rs/files/ivan-cukic-phd.pdf	authored	2018		Academic papers / proceedings
-https://scholar.archive.org/work/o4ytiidsxvcwpe6r2gez5gcuha/access/wayback/https%3A//www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems-final.pdf	created	2018	10.1145/3236774	Academic papers / proceedings
+https://web.archive.org/web/20191105154353id_/https://www.microsoft.com/en-us/research/uploads/prod/2018/03/build-systems-final.pdf	created	2018	10.1145/3236774	Academic papers / proceedings
 https://kcsrk.info/papers/handlers_js-proweb2018.pdf	created	2018		Academic papers / proceedings
 https://users.cs.northwestern.edu/~robby/icfp2018/icfpws18haskell/icfpws18haskellmain-id9-p.pdf	created	2018	10.1145/3242744.3242759	Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol109-ecoop2018/LIPIcs.ECOOP.2018.2/LIPIcs.ECOOP.2018.2.pdf	created	2018	10.4230/LIPIcs.ECOOP.2018.2	Academic papers / proceedings
