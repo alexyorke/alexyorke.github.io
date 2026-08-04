@@ -268,7 +268,7 @@ https://sigmod.org/publications/dblp////db/conf/ifl/ifl2002.html	created	2002		A
 https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/2002/vWeA2002-FamkeFunctionalOS.pdf	created	2002		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/gdp/publications/Comp_Eff_Monads.pdf	created	2002-01-16		Academic papers / proceedings
 https://arxiv.org/pdf/cs/0205026	published	2002-05-17	10.48550/arXiv.cs/0205026	Academic papers / proceedings
-https://www.cse.chalmers.se/~rjmh/Papers/QuickCheckST.ps	modified	2002-05-28		Academic papers / proceedings
+https://blogs.asarkar.com/assets/docs/haskell/Monadic%20QuickCheck%20-%20Claessen%2BHughes.pdf	modified	2002-05-28	10.1145/636517.636527	Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9D90E0C7DE8DA7D6BAEAC5143E658E1D/S0956796802004380a.pdf/div-class-title-a-static-semantics-for-haskell-div.pdf	publication	2002-07	10.1017/s0956796802004380	Academic papers / proceedings
 https://web.archive.org/web/20020818142445/http://research.microsoft.com:80/~simonpj/papers/marktoberdorf/	archived	2002-08-18		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/568173.568183	publication	2002-09-12	10.1145/568173.568183	Academic papers / proceedings
@@ -314,7 +314,6 @@ https://dl.acm.org/doi/pdf/10.1145/871895.871897	publication	2003-08-28	10.1145/
 https://dl.acm.org/doi/pdf/10.1145/871895.871898	publication	2003-08-28	10.1145/871895.871898	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871900	publication	2003-08-28	10.1145/871895.871900	Academic papers / proceedings
 https://conal.net/papers/dsl97/dsl97.html	archived	2003-09-01		Academic papers / proceedings
-https://homepages.inf.ed.ac.uk/wadler/papers/essence/essence.ps	modified	2003-10-17		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/monadsdeclare/monadsdeclare.ps	modified	2003-10-17		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/effects/effects.ps	modified	2003-10-17		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/monadscomb/monadscomb.ps	modified	2003-10-17		Academic papers / proceedings
@@ -4125,7 +4124,6 @@ https://dblp.org/rec/conf/pldi/MarlowJMR01.html	published	2001	10.1145/378795.37
 https://dblp.org/rec/conf/haskell/ErkokL02.html	published	2002	10.1145/581690.581693	Indexes / metadata
 https://dblp.org/rec/conf/ifl/DowseSB02.html	published	2002	10.1007/3-540-44854-3_5	Indexes / metadata
 https://dblp.org/rec/journals/ita/ErkokLM02.html	published	2002	10.1051/ita:2002008	Indexes / metadata
-https://dblp.org/rec/journals/sigplan/ClaessenH02.html	published	2002	10.1145/636517.636527	Indexes / metadata
 https://openalex.org/W2264687	published	2002-01-01	10.1051/parasite/1990651073	Indexes / metadata
 https://content.openalex.org/works/W1980408208.pdf	publication	2002-04-01		Indexes / metadata
 https://dblp.org/rec/journals/jfp/Jones03f.html	published	2003	10.1017/S0956796803000819	Indexes / metadata
