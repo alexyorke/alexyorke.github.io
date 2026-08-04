@@ -472,7 +472,6 @@ https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001035329	publish
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/asynch-exns.pdf	created	2016		Academic papers / proceedings
 https://publications.scss.tcd.ie/tech-reports/.tr-index.06.html	updated	2006-12-30		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1238844.1238856	publication	2007	10.1145/1238844.1238856	Academic papers / proceedings
-https://digitalcollections.ohsu.edu/record/122/	publication	2007		Academic papers / proceedings
 https://www21.in.tum.de/~krauss/publication/2007-lexicographic-orders/	created	2007		Academic papers / proceedings
 https://archive.org/details/programminginhas0000hutt	publication	2007		Academic papers / proceedings
 https://archive.org/metadata/programminginhas0000hutt	publication	2007		Academic papers / proceedings
