@@ -3006,7 +3006,6 @@ https://www.oreilly.com/library/view/developing-web-apps/9781491915585/ch10.html
 https://www.oreilly.com/library/view/developing-web-apps/9781491915585/app01.html	published	2015-02		Books / chapters
 https://leanpub.com/purescript/read	archived	2015-03-28		Books / chapters
 https://arxiv.org/pdf/1503.09097	published	2015-03-31	10.1007/978-3-319-19282-6_14	Books / chapters
-https://lirias.kuleuven.be/retrieve/6d2bfbd4-f783-49d6-9e19-9f95d1324906	publication	2015-06-29	10.1007/978-3-319-19797-5_15	Books / chapters
 https://www.packtpub.com/en-NO/product/learning-java-functional-programming-9781783558483	published	2015-10-14		Books / chapters
 https://alvinalexander.com/bookmarks/scala/why-current-enthusiasm-functional-programming/	modified	2015-11-29		Books / chapters
 https://subscription.packtpub.com/book/programming/9781786464217/6	published	2016		Books / chapters
@@ -4127,7 +4126,6 @@ https://dblp.org/rec/phd/ethos/Brown11.html	published	2011	10.22024/UniKent/01.0
 https://dblp.org/rec/conf/flops/Kiselyov12.html	published	2012	10.1007/978-3-642-29822-6_15	Indexes / metadata
 https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf	created	2012		Indexes / metadata
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012		Indexes / metadata
-https://dblp.org/rec/conf/haskell/KiselyovI15.html	published	2015	10.1145/2804302.2804319	Indexes / metadata
 https://pdfs.semanticscholar.org/fc8e/2f5446dcd097e9f443bda471646b889fbb69.pdf	modified	2015-07-29		Indexes / metadata
 https://dblp.org/rec/conf/popl/2016.html	created	2016	10.1145/2837614	Indexes / metadata
 https://conf.researchr.org/details/PADL-2016/PADL-2016-papers/3/Haskino-A-Remote-Monad-for-Programming-the-Arduino	created	2016	10.1007/978-3-319-28228-2_10	Indexes / metadata
@@ -4857,7 +4855,6 @@ https://www.youtube.com/watch?v=3GKQ4ni2pS0	uploaded	2019-11-23		Talks / videos
 https://files.speakerdeck.com/presentations/0ed3862fa69a426a9fbcbccc2a6c62f9/SuperchargedImperativeHaskellFP.pdf	modified	2019-11-25		Talks / videos
 https://www.youtube.com/watch?v=vRnYCLy7C0o	uploaded	2019-11-26		Talks / videos
 https://www.youtube.com/watch?v=bNJ_yixZUeg	uploaded	2019-12-06		Talks / videos
-https://www.youtube.com/watch?v=X30xmcOow2U	uploaded	2019-12-10	10.4204/EPTCS.340.15	Talks / videos
 https://www.bilibili.com/video/BV1CJ411k7gw/	published	2019-12-11		Talks / videos
 https://www.youtube.com/watch?v=Dwf8LbH_gFE	uploaded	2019-12-28		Talks / videos
 https://www.youtube.com/watch?v=PjGD35CTVTw	uploaded	2019-12-28		Talks / videos
