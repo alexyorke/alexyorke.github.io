@@ -401,7 +401,6 @@ https://dl.acm.org/doi/pdf/10.1145/1086365.1086379	publication	2005-09-12	10.114
 https://dl.acm.org/doi/pdf/10.1145/1086365.1086380	publication	2005-09-12	10.1145/1086365.1086380	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1090189.1086380	publication	2005-09-12	10.1145/1090189.1086380	Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/how-and-why/how-and-why.pdf	modified	2005-09-16		Academic papers / proceedings
-https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/	published	2005-09-23		Academic papers / proceedings
 https://cs.ioc.ee/tfp-icfp-gpce05/page.php?page=prog	published	2005-09-23		Academic papers / proceedings
 https://www.schemeworkshop.org/2005/03-sobel/03-sobel.pdf	published	2005-09-24		Academic papers / proceedings
 https://timharris.uk/papers/2005-haskell.pdf	published	2005-09-30		Academic papers / proceedings
@@ -1152,7 +1151,7 @@ https://www.sciencedirect.com/science/article/pii/S1571066115000705/pdf?md5=3b9f
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/HaskellRetrospective.ppt	created	2016		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2914770.2837655	publication	2016	10.1145/2914770.2837655	Academic papers / proceedings
 https://ora.ox.ac.uk/objects/uuid:87f73a35-a0c2-49b2-a8a8-e50e35421dcd/files/m50c04059c8ce5338fc020deee3089895	publication	2016	10.1145/2976002.2976005	Academic papers / proceedings
-https://research.amanote.com/publication/463LAnQBKQvf0Bhi-Pln/revisiting-software-transactional-memory-in-haskell	created	2016		Academic papers / proceedings
+https://dl.acm.org/doi/pdf/10.1145/2976002.2976020	created	2016	10.1145/2976002.2976020	Academic papers / proceedings
 https://library.iitgoa.ac.in/cgi-bin/koha/opac-detail.pl?biblionumber=1097&shelfbrowse_itemnumber=3445	published	2016		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/Marktoberdorf.ppt	created	2016		Academic papers / proceedings
 https://pure.itu.dk/portal/files/109064591/PhD_thesis_final_version_David_Raymond_Christiansen.pdf	publication	2016		Academic papers / proceedings
@@ -4144,7 +4143,6 @@ https://simonmar.github.io/bib/papers/par-tutorial-cefp-2012.pdf	created	2012		I
 https://ftp.math.utah.edu/pub/tex/bib/lncs2012d.pdf	created	2012		Indexes / metadata
 https://dblp.org/rec/conf/haskell/KiselyovI15.html	published	2015	10.1145/2804302.2804319	Indexes / metadata
 https://pdfs.semanticscholar.org/fc8e/2f5446dcd097e9f443bda471646b889fbb69.pdf	modified	2015-07-29		Indexes / metadata
-https://dblp.org/rec/conf/haskell/LeYF16.html	published	2016	10.1145/2976002.2976020	Indexes / metadata
 https://dblp.org/rec/conf/popl/2016.html	created	2016	10.1145/2837614	Indexes / metadata
 https://conf.researchr.org/details/PADL-2016/PADL-2016-papers/3/Haskino-A-Remote-Monad-for-Programming-the-Arduino	created	2016	10.1007/978-3-319-28228-2_10	Indexes / metadata
 https://fm.csl.sri.com/SSFT15/Bibliography.pdf	archived	2016-03-12		Indexes / metadata
