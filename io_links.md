@@ -1309,7 +1309,6 @@ https://jpaykin.github.io/papers/pz_linearity_monad_2017.pdf	created	2017	10.114
 https://www.csse.canterbury.ac.nz/research/reports/HonsReps/2017/hons_1701.pdf	created	2017		Academic papers / proceedings
 https://nottingham-repository.worktribe.com/preview/878133/monadic_continuity_LICS2017.pdf	created	2017		Academic papers / proceedings
 https://www.cs.rochester.edu/u/scott/papers/2017_Haskell_TStruct.pdf	created	2017	10.1145/3122955.3122972	Academic papers / proceedings
-https://1library.net/document/q0jp32xz-session-types-with-linearity-in-haskell.html	publication	2017	10.13052/rp-9788793519817	Academic papers / proceedings
 https://www.pure.ed.ac.uk/ws/portalfiles/portal/38053593/main_23.pdf	published	2017	10.1145/3110258	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/asynceffects-msr-tr-2017-21.pdf	created	2017		Academic papers / proceedings
 https://theaxec.github.io/publications/posters/icfp-2017-src.pdf	created	2017		Academic papers / proceedings
