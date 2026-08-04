@@ -222,7 +222,7 @@ https://scholarworks.iu.edu/bitstreams/454fc9eb-6829-4972-8734-dc45be1e8c7e/down
 https://scholarworks.iu.edu/dspace/bitstreams/454fc9eb-6829-4972-8734-dc45be1e8c7e/download	published	2000-12-01		Academic papers / proceedings
 https://pure.york.ac.uk/portal/en/publications/a-space-semantics-for-core-haskell/	publication	2001		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/381694.378858	publication	2001	10.1145/381694.378858	Academic papers / proceedings
-https://123dok.net/article/interfacing-programs-tackling-awkward-squad-monadic-output-concurrency.yj794126	published	2001		Academic papers / proceedings
+https://simon.peytonjones.org/assets/pdfs/tackling-awkward-squad.pdf	published	2001		Academic papers / proceedings
 https://research.chalmers.se/en/publication/636	publication	2001		Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-45361-x_7.pdf	publication	2001	10.1007/3-540-45361-x_7	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/507663.507664	publication	2001	10.1145/507663.507664	Academic papers / proceedings
@@ -1187,7 +1187,6 @@ https://cseweb.ucsd.edu/~dstefan/cse291-fall16/papers/lio-annotated.pdf	created	
 https://ranjitjhala.github.io/static/vazou.pdf	published	2016		Academic papers / proceedings
 https://www.haskellbook.ir/reader/haskell-programming-from-first-principles/28-10-follow-up-resources	published	2016-01		Academic papers / proceedings
 https://cronfa.swan.ac.uk/Record/cronfa29413/Download/0029413-02122016130722.pdf	publication	2016-01-01		Academic papers / proceedings
-https://cronfa.swansea.ac.uk/Record/cronfa29413	publication	2016-01-01		Academic papers / proceedings
 https://www.schoolofhaskell.com/user/commercial/content/monad-transformers	published	2016-01-03		Academic papers / proceedings
 https://fliphtml5.com/lchw/rhrw/Mostly_Adequate_Guide/	published	2016-01-11		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1708046.1708053	modified	2016-01-11	10.1145/1708046.1708053	Academic papers / proceedings
