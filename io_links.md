@@ -241,7 +241,6 @@ https://web.engr.oregonstate.edu/~erwig/papers/CategoricalADT_AMAST98.pdf	modifi
 https://docplayer.net/11525326-Lps-a-language-prototyping-system-using-modular-monadic-semantics.html	publication	2001-06		Academic papers / proceedings
 https://hjemmesider.diku.dk/~andrzej/papers/CE-abstract.html	modified	2001-06-18		Academic papers / proceedings
 https://scholar.lib.vt.edu/ejournals/JFLP/jflp-mirror/articles/2001/S01-01/JFLP-A01-03.pdf	published	2001-07-13		Academic papers / proceedings
-https://web.archive.org/web/20010828144209/http://research.microsoft.com:80/Users/simonpj/Papers/imperative.ps.Z	archived	2001-08-28		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S157106610580547X/pdf?md5=4b861e41559388efb635440b4b84e058&pid=1-s2.0-S157106610580547X-main.pdf	published	2001-08-31		Academic papers / proceedings
 https://ics-archive.science.uu.nl/research/techreps/repo/CS-2001/2001-62.pdf	published	2001-09		Academic papers / proceedings
 https://kar.kent.ac.uk/13558/1/ghood_graphical_visualisation_reinke.pdf	publication	2001-09		Academic papers / proceedings
@@ -1075,7 +1074,6 @@ https://www.sciencedirect.com/science/article/pii/S1571066115000791/pdf?md5=d5c1
 https://www.sciencedirect.com/science/article/pii/S0167642315004062/pdf	created	2015	10.1016/j.scico.2015.11.010	Academic papers / proceedings
 https://web.cecs.pdx.edu/~theod/papers/haskell2015.pdf	created	2015		Academic papers / proceedings
 https://www.engr.mun.ca/~theo/Publications/TBC-NECEC-2015-slides.pdf	created	2015		Academic papers / proceedings
-https://www.cse.chalmers.se/edu/year/2015/course/TDA342_Advanced_Functional_Programming/Papers/iomonad-wadler.ps	created	2015		Academic papers / proceedings
 https://www.danwc.com/data/realtimemusicFARM2015.pdf	created	2015	10.1145/2808083.2808087	Academic papers / proceedings
 https://people.kth.se/~buiras/publications/plas2015.pdf	created	2015	10.1145/2786558.2786563	Academic papers / proceedings
 https://people.kth.se/~buiras/publications/icfp2015.pdf	created	2015		Academic papers / proceedings
