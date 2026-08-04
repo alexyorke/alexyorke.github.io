@@ -686,7 +686,7 @@ https://arxiv.org/pdf/1003.5513	published	2010-03-29	10.4204/EPTCS.22.3	Academic
 https://tomasp.net/academic/theses/events/events.pdf	published	2010-04-15		Academic papers / proceedings
 https://www.research-collection.ethz.ch/bitstreams/07a03edd-6ea9-4663-9a65-ed78416c2e44/download	published	2010-04-25		Academic papers / proceedings
 https://arxiv.org/pdf/1004.4796	published	2010-04-27	10.48550/arXiv.1004.4796	Academic papers / proceedings
-https://docplayer.net/266704-Type-inference-and-optimisation-for-an-impure-world.html	authored	2010-05		Academic papers / proceedings
+https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/3a94a870-feed-4e92-a4e1-17e90fd978a3/content	authored	2010-05		Academic papers / proceedings
 https://fprog.ru/2010/issue4/practice-fp-4-ebook.pdf	published	2010-05-09		Academic papers / proceedings
 https://themonadreader.files.wordpress.com/2010/05/issue16.pdf	published	2010-05-12		Academic papers / proceedings
 https://web.cecs.pdx.edu/~mpj/pubs/modinterp.html	modified	2010-05-16		Academic papers / proceedings
@@ -1211,7 +1211,7 @@ https://fliphtml5.com/lchw/rhrw/Mostly_Adequate_Guide/	published	2016-01-11		Aca
 https://dl.acm.org/doi/pdf/10.1145/1708046.1708053	modified	2016-01-11	10.1145/1708046.1708053	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2887747.2804317	publication	2016-01-28	10.1145/2887747.2804317	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2887747.2804319	publication	2016-01-28	10.1145/2887747.2804319	Academic papers / proceedings
-https://doaj.org/article/ff0c85191cd74312899f8ddb1673bab8	published	2016-02		Academic papers / proceedings
+https://arxiv.org/pdf/1602.03591v1	published	2016-02		Academic papers / proceedings
 https://ocw.tudelft.nl/?p=6166	published	2016-02-08		Academic papers / proceedings
 https://arxiv.org/pdf/1602.03598	published	2016-02-11	10.4204/EPTCS.203.8	Academic papers / proceedings
 https://arxiv.org/pdf/1602.05365	published	2016-02-17	10.48550/arXiv.1602.05365	Academic papers / proceedings
@@ -2429,7 +2429,7 @@ https://users.soe.ucsc.edu/~cormac/papers/UCSC-SOE-14-07.pdf	modified	2025-08-09
 https://www.cis.upenn.edu/~stevez/papers/LZ06a.pdf	modified	2025-08-12		Academic papers / proceedings
 https://deepwiki.com/louthy/language-ext/3.2-eff-monad	published	2025-08-17		Academic papers / proceedings
 https://arxiv.org/pdf/2508.12572v1	published	2025-08-18	10.48550/arXiv.2508.12572	Academic papers / proceedings
-https://nottingham-repository.worktribe.com/output/1024440/monadic-parser-combinators	archived	2025-08-28		Academic papers / proceedings
+https://www.cs.nott.ac.uk/~gmh/monparsing.pdf	archived	2025-08-28		Academic papers / proceedings
 https://alexn.org/blog/2025/08/29/scala-gamble-with-direct-style/	publication	2025-08-29		Academic papers / proceedings
 https://forums.fsharp.org/t/series-of-6-articles-on-computation-expressions/4893	publication	2025-09-02		Academic papers / proceedings
 https://nick.geek.nz/research/downloads/489_Report.pdf	modified	2025-09-06		Academic papers / proceedings
