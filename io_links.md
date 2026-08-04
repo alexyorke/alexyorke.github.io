@@ -107,7 +107,6 @@ http://xplorestaging.ieee.org/ielx3/4265/12231/00561458.pdf?arnumber=561458	publ
 https://pure.tue.nl/ws/portalfiles/portal/2198269/9710178.pdf	published	1996-10		Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0BF63E550377419604F633CB61A78496/S0960129500070109a.pdf/div-class-title-uniqueness-typing-for-functional-languages-with-graph-rewriting-semantics-div.pdf	published	1996-12-01	10.1017/S0960129500070109	Academic papers / proceedings
 http://usenix.org/publications/library/proceedings/dsl97/full_papers/wansbrough/wansbrough.pdf	publication	1997		Academic papers / proceedings
-https://www.mbsd.cs.ru.nl/publications/papers/1997/pilm97-FstClassIOIFL96.abs	created	1997		Academic papers / proceedings
 https://archive.org/details/haskellcraftoffu0000thom_z2w2	publication	1997		Academic papers / proceedings
 https://archive.org/metadata/haskellcraftoffu0000thom_z2w2	publication	1997		Academic papers / proceedings
 https://academic.oup.com/comjnl/article-pdf/40/9/572/981070/400572.pdf	publication	1997	10.1093/comjnl/40.9.572	Academic papers / proceedings
