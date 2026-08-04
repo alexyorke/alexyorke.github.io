@@ -472,7 +472,7 @@ https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001035329	publish
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/asynch-exns.pdf	created	2016		Academic papers / proceedings
 https://publications.scss.tcd.ie/tech-reports/.tr-index.06.html	updated	2006-12-30		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/1238844.1238856	publication	2007	10.1145/1238844.1238856	Academic papers / proceedings
-https://www21.in.tum.de/~krauss/publication/2007-lexicographic-orders/	created	2007		Academic papers / proceedings
+https://www21.in.tum.de/~krauss/papers/lexicographic-orders.pdf	created	2007		Academic papers / proceedings
 https://archive.org/details/programminginhas0000hutt	publication	2007		Academic papers / proceedings
 https://archive.org/metadata/programminginhas0000hutt	publication	2007		Academic papers / proceedings
 https://www.cse.chalmers.se/~ulfn/papers/thesis.pdf	publication	2007		Academic papers / proceedings
@@ -1203,8 +1203,7 @@ https://andrewdgordon.github.io/papers/fpio.pdf	created	2016		Academic papers / 
 https://cseweb.ucsd.edu/~dstefan/cse291-fall16/papers/lio-annotated.pdf	created	2016	10.1145/2398856.2364557	Academic papers / proceedings
 https://ranjitjhala.github.io/static/vazou.pdf	published	2016		Academic papers / proceedings
 https://www.haskellbook.ir/reader/haskell-programming-from-first-principles/28-10-follow-up-resources	published	2016-01		Academic papers / proceedings
-https://cronfa.swan.ac.uk/Record/cronfa29413/Description	publication	2016-01-01		Academic papers / proceedings
-https://cronfa.swan.ac.uk/Record/cronfa29413	publication	2016-01-01		Academic papers / proceedings
+https://cronfa.swan.ac.uk/Record/cronfa29413/Download/0029413-02122016130722.pdf	publication	2016-01-01		Academic papers / proceedings
 https://cronfa.swansea.ac.uk/Record/cronfa29413	publication	2016-01-01		Academic papers / proceedings
 https://www.schoolofhaskell.com/user/commercial/content/monad-transformers	published	2016-01-03		Academic papers / proceedings
 https://fliphtml5.com/lchw/rhrw/Mostly_Adequate_Guide/	published	2016-01-11		Academic papers / proceedings
