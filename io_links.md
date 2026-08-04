@@ -175,7 +175,7 @@ https://www.diva-portal.org/smash/get/diva2:991724/FULLTEXT01.pdf	publication	19
 https://link.springer.com/content/pdf/10.1007/10704567.pdf	published	1999	10.1007/10704567	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/10704973.pdf	published	1999	10.1007/10704973	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/10705424.pdf	published	1999	10.1007/10705424	Academic papers / proceedings
-https://link.springer.com/content/pdf/10.1007/3-540-48311-X_121.pdf?pdf=inline+link	published	1999	10.1007/3-540-48311-X_121	Academic papers / proceedings
+https://link.springer.com/content/pdf/10.1007/3-540-48311-X_121.pdf	published	1999	10.1007/3-540-48311-X_121	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-48515-5.pdf	published	1999	10.1007/3-540-48515-5	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/289251.289437	publication	1999-01	10.1145/289251.289437	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/291251.289430	publication	1999-01	10.1145/291251.289430	Academic papers / proceedings
