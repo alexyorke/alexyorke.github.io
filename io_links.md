@@ -313,7 +313,6 @@ https://dl.acm.org/doi/pdf/10.1145/871895.871897	publication	2003-08-28	10.1145/
 https://dl.acm.org/doi/pdf/10.1145/871895.871898	publication	2003-08-28	10.1145/871895.871898	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871900	publication	2003-08-28	10.1145/871895.871900	Academic papers / proceedings
 https://conal.net/papers/dsl97/dsl97.html	archived	2003-09-01		Academic papers / proceedings
-https://homepages.inf.ed.ac.uk/wadler/papers/effects/effects.ps	modified	2003-10-17		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/monadscomb/monadscomb.ps	modified	2003-10-17		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/phd-thesis-1.pdf	publication	2003-11-01		Academic papers / proceedings
 https://www.cs.yale.edu/homes/external/nilsson/papers.html	modified	2003-11-19		Academic papers / proceedings
