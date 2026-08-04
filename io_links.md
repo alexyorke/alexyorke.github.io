@@ -1275,7 +1275,6 @@ https://icfp17.sigplan.org/track/mlfamilyworkshop-2017-papers	created	2017		Acad
 https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818/files/mcf4fb62edfeff29e7af9e09a62ae6299	publication	2017	10.5287/ora-2avgoeeq0	Academic papers / proceedings
 https://publications.lib.chalmers.se/records/fulltext/249247/249247.pdf	publication	2017		Academic papers / proceedings
 https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf	created	2017		Academic papers / proceedings
-https://icfp17.sigplan.org/details/haskellsymp-2017-papers/1/Composable-Network-Stacks-and-Remote-Monads	created	2017		Academic papers / proceedings
 https://icfp17.sigplan.org/details/hope-2017-talks/1/Invited-Talk-Semantics-of-Effect-Systems-by-Graded-Monads	created	2017		Academic papers / proceedings
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157	publication	2017		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S235222081730069X/pdf	created	2017	10.1016/j.jlamp.2017.12.003	Academic papers / proceedings
