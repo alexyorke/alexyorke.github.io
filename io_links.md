@@ -73,7 +73,6 @@ https://ipsj.ixsq.nii.ac.jp/record/20310/files/IPSJ-DBS94099027.pdf	publication	
 https://www.cambridge.org/as/universitypress/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput?format=PB	publication	1994-09		Academic papers / proceedings
 https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput	publication	1994-09		Academic papers / proceedings
 https://research.utwente.nl/files/511129721/Berg_Broek_1995.pdf	published	1994-10-01	10.1016/0950-5849(95)90813-a	Academic papers / proceedings
-https://www.mbsd.cs.ru.nl/publications/papers/1995/achp95-ConcurrIO.abs	created	1995		Academic papers / proceedings
 https://archive.org/details/functionalprogra0000glas_x5m6	publication	1995		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/262009.262011	publication	1995	10.1145/262009.262011	Academic papers / proceedings
 https://dspace.library.uu.nl/bitstreams/ccda555d-4906-4e52-b6f8-bb664363a338/download	publication	1995		Academic papers / proceedings
