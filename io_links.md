@@ -32,7 +32,7 @@ https://simon.peytonjones.org/publications-1999/	publication	1990-01-01		Academi
 https://dl.acm.org/doi/pdf/10.1145/91556.91592	publication	1990-05	10.1145/91556.91592	Academic papers / proceedings
 https://academic.oup.com/comjnl/article-pdf/33/5/460/1299545/330460.pdf	publication	1990-05-01	10.1093/comjnl/33.5.460	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/101620.101630	publication	1990-11	10.1145/101620.101630	Academic papers / proceedings
-https://link.springer.com/content/pdf/10.1007/3540543961_11	publication	1991	10.1007/3540543961_11	Academic papers / proceedings
+https://maxsnew.com/docs/wadler-monads.pdf	publication	1991	10.1007/3540543961_11	Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/0890540191900524/pdf	published	1991	10.1016/0890-5401(91)90052-4	Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8BD25B42D3F44CCF914405A3929CFEA4/S0269888900005816a.pdf/div-class-title-functional-programming-languages-for-ai-problem-solving-div.pdf	published	1991-09-01	10.1017/S0269888900005816	Academic papers / proceedings
 https://repository.ubn.ru.nl/bitstream/handle/2066/111106/111106.pdf?sequence=1&isAllowed=y	publication	1992		Academic papers / proceedings
@@ -2577,7 +2577,7 @@ https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-table.html	modified	2026-07-16		
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-RFC1807.txt	modified	2026-07-16		Academic papers / proceedings
 https://webspace.science.uu.nl/~swier004/publications.html	modified	2026-07-16		Academic papers / proceedings
 https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-index.html	modified	2026-07-16		Academic papers / proceedings
-https://inria.hal.science/hal-03200474v1/document	modified	2026-07-18	10.1016/j.tcs.2021.02.038	Academic papers / proceedings
+https://members.loria.fr/PdeGroote/papers/tcs2021.pdf	modified	2026-07-18	10.1016/j.tcs.2021.02.038	Academic papers / proceedings
 https://kcsrk.info/papers/effects_ocaml15.pdf	modified	2026-07-18		Academic papers / proceedings
 https://iris.unito.it/bitstream/2318/1610205/1/2500000031-Ancona-Vol3-PGL-031.pdf	modified	2026-07-20	10.1561/2500000031	Academic papers / proceedings
 https://crypto.stanford.edu/~blynn/haskell/papers.html	accessed	2026-07-22		Academic papers / proceedings
