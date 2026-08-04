@@ -1924,7 +1924,7 @@ https://davidtimms.github.io/typescript/effective.ts/2021/12/23/effective-ts-tut
 https://www.cs.umd.edu/~mwh/papers/monadic.pdf	modified	2021-12-23		Academic papers / proceedings
 https://arxiv.org/pdf/2112.14057	published	2021-12-28	10.4204/EPTCS.351.16	Academic papers / proceedings
 https://research.chalmers.se/publication/529325/file/529325_Fulltext.pdf	publication	2022		Academic papers / proceedings
-https://hal.science/hal-03857122	publication	2022	10.1021/acs.jpcc.2c05911	Academic papers / proceedings
+https://hal.science/hal-03857122/document	publication	2022	10.1021/acs.jpcc.2c05911	Academic papers / proceedings
 https://icfp22.sigplan.org/home/hope-2022	created	2022		Academic papers / proceedings
 https://repository.tudelft.nl/file/File_6157c7f8-9e15-49c6-aaa4-d0ccc8e06c2d	created	2022-06-19		Academic papers / proceedings
 https://theowinterhalter.github.io/res/iodiv-hope.pdf	modified	2026-07-10		Other / uncategorized
