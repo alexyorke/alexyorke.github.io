@@ -1148,7 +1148,7 @@ https://www.schoolofhaskell.com/user/commercial/content/exceptions-best-practice
 https://conscientiousprogrammer.com/blog/2015/12/15/24-days-of-hackage-2015-day-15-iospec-testing-io-and-some-quickcheck-tricks/	published	2015-12-15		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2858949.2784745	publication	2015-12-18	10.1145/2858949.2784745	Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S1571066115000705/pdf?md5=3b9f68cbe5525034208dfacfb8b0e099&pid=1-s2.0-S1571066115000705-main.pdf	published	2015-12-21	10.1016/j.entcs.2015.12.003	Academic papers / proceedings
-https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/HaskellRetrospective.ppt	created	2016		Academic papers / proceedings
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/HaskellRetrospective.pdf	created	2016		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2914770.2837655	publication	2016	10.1145/2914770.2837655	Academic papers / proceedings
 https://ora.ox.ac.uk/objects/uuid:87f73a35-a0c2-49b2-a8a8-e50e35421dcd/files/m50c04059c8ce5338fc020deee3089895	publication	2016	10.1145/2976002.2976005	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2976002.2976020	created	2016	10.1145/2976002.2976020	Academic papers / proceedings
