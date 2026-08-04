@@ -1937,7 +1937,7 @@ https://sigarra.up.pt/fcup/en/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=508294	
 https://homepages.inf.ed.ac.uk/slindley/papers/cppeff-draft-august2022.pdf	created	2022	10.1145/3563445	Academic papers / proceedings
 https://era.ed.ac.uk/bitstream/handle/1842/39747/PerivolaropoulosC_2022.pdf?isAllowed=y&sequence=3	created	2022		Academic papers / proceedings
 https://cs.emis.de/LIPIcs/volltexte/2022/16227/pdf/lipics-vol222-ecoop2022-complete_.pdf	created	2022	10.4230/LIPIcs.ECOOP.2022	Academic papers / proceedings
-https://scholar.archive.org/work/qtr5cmxyfvg2blvpf34db3km6a/access/wayback/https%3A//www.cambridge.org/core/services/aop-cambridge-core/content/view/9BE20E8D61E9B74811CF3CF97B5D10C7/S0956796822000132a.pdf/div-class-title-modal-frp-for-all-functional-reactive-programming-without-space-leaks-in-haskell-div.pdf	publication	2022	10.1017/S0956796822000132	Academic papers / proceedings
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9BE20E8D61E9B74811CF3CF97B5D10C7/S0956796822000132a.pdf/div-class-title-modal-frp-for-all-functional-reactive-programming-without-space-leaks-in-haskell-div.pdf	publication	2022	10.1017/S0956796822000132	Academic papers / proceedings
 https://starsandspira.ls/docs/ecoop22-draft.pdf	created	2022	10.4230/LIPIcs.ECOOP.2022.5	Academic papers / proceedings
 https://era.ed.ac.uk/bitstream/1842/39676/1/HornR_2022.pdf	created	2022		Academic papers / proceedings
 https://pleger.github.io/papers/legerAl-SAC2022.pdf	created	2022	10.1145/3477314.3506982	Academic papers / proceedings
