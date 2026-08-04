@@ -1214,7 +1214,6 @@ https://dl.acm.org/doi/pdf/10.1145/2887747.2804317	publication	2016-01-28	10.114
 https://dl.acm.org/doi/pdf/10.1145/2887747.2804319	publication	2016-01-28	10.1145/2887747.2804319	Academic papers / proceedings
 https://doaj.org/article/ff0c85191cd74312899f8ddb1673bab8	published	2016-02		Academic papers / proceedings
 https://ocw.tudelft.nl/?p=6166	published	2016-02-08		Academic papers / proceedings
-https://gtr.ukri.org/publication/overview?outcomeid=65e26ae14ae4c6.92680028&projectref=EP%2FL00058X%2F1	publication	2016-02-10		Academic papers / proceedings
 https://arxiv.org/pdf/1602.03598	published	2016-02-11	10.4204/EPTCS.203.8	Academic papers / proceedings
 https://arxiv.org/pdf/1602.05365	published	2016-02-17	10.48550/arXiv.1602.05365	Academic papers / proceedings
 https://www.scs.stanford.edu/16wi-cs240h/projects/nguyen.pdf	published	2016-03		Academic papers / proceedings
