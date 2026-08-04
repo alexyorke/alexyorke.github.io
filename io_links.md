@@ -871,7 +871,7 @@ https://www.cis.upenn.edu/~cjtaylor/PUBLICATIONS/pdfs/CowleyTaylorIROS11b.pdf	mo
 https://well-typed.com/blog/aux/files/multicore-less-pain-slides.pdf	published	2012-12		Academic papers / proceedings
 https://irkenkitties.com/blog/2012/12/03/recreating-the-haskell-list-part-6-the-io-monad	published	2012-12-03		Academic papers / proceedings
 https://tomasp.net/blog/manning-deep-dives.aspx/	published	2012-12-18		Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?DSS2013.6.pdf=	created	2013		Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?DSS2013.6.pdf	created	2013		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2429069.2429121	publication	2013	10.1145/2429069.2429121	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2500365.2500581	publication	2013	10.1145/2500365.2500581	Academic papers / proceedings
 https://www.abebooks.com/9789351103844/Real-World-OCaml-Functional-Programming-9351103846/plp	published	2013		Academic papers / proceedings
@@ -959,7 +959,7 @@ https://nikolaygrozev.wordpress.com/2013/12/10/monads-in-15-minutes/	publication
 https://homepages.inf.ed.ac.uk/wadler/papers/yow/atlassian.pdf	modified	2013-12-11		Academic papers / proceedings
 https://blog.jle.im/entry/the-list-monadplus-practical-fun-with-monads-part.html	published	2013-12-18		Academic papers / proceedings
 https://blog.jle.im/entry/wolf-goat-cabbage-the-list-monadplus-logic-problems.html	published	2013-12-26		Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?MSFP2014.7.pdf=	created	2014		Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?MSFP2014.7.pdf	created	2014		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2633357.2633368	created	2014	10.1145/2633357.2633368	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2643135.2643145	publication	2014	10.1145/2643135.2643145	Academic papers / proceedings
 https://research.chalmers.se/publication/528822/file/528822_Fulltext.pdf	publication	2014	10.1145/2633357.2633371	Academic papers / proceedings
@@ -1284,7 +1284,7 @@ https://ora.ox.ac.uk/objects/uuid:e91e19b3-7e10-4fda-9433-f23b469e4049/files/m58
 https://icfp17.sigplan.org/track/mlfamilyworkshop-2017-papers	created	2017		Academic papers / proceedings
 https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818/files/mcf4fb62edfeff29e7af9e09a62ae6299	publication	2017	10.5287/ora-2avgoeeq0	Academic papers / proceedings
 https://publications.lib.chalmers.se/records/fulltext/249247/249247.pdf	publication	2017		Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf=	created	2017		Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ML2017.2.pdf	created	2017		Academic papers / proceedings
 https://icfp17.sigplan.org/details/haskellsymp-2017-papers/1/Composable-Network-Stacks-and-Remote-Monads	created	2017		Academic papers / proceedings
 https://icfp17.sigplan.org/details/hope-2017-talks/1/Invited-Talk-Semantics-of-Effect-Systems-by-Graded-Monads	created	2017		Academic papers / proceedings
 https://www.cambridge.org/core/journals/journal-of-functional-programming/issue/15F1C51D832FD7F084AE2602FBDB0157	publication	2017		Academic papers / proceedings
@@ -1517,7 +1517,7 @@ https://xavierleroy.org/CdF/2018-2019/5.pdf	published	2018-12-12		Academic paper
 https://forum.snap.berkeley.edu/t/lazy-evaluation-in-snap/187	publication	2018-12-29		Academic papers / proceedings
 https://arxiv.org/pdf/1812.11664	published	2018-12-31	10.4204/EPTCS.285.2	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3331543.3342585	publication	2019	10.1145/3331543.3342585	Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2019.2.pdf=	created	2019		Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2019.2.pdf	created	2019		Academic papers / proceedings
 https://icfp19.sigplan.org/home/farm-2019	created	2019		Academic papers / proceedings
 https://research.chalmers.se/publication/508494/file/508494_Fulltext.pdf	created	2019	10.1007/978-3-319-71237-6_17	Books / chapters
 https://repository.tudelft.nl/file/File_b2435f1a-04dd-48ee-b7e6-8d2f77df46ad	publication	2019		Academic papers / proceedings
@@ -1662,7 +1662,7 @@ https://strathprints.strath.ac.uk/73505/1/Convent_etal_JFP_Doo_bee_doo_bee_doo.p
 https://research.chalmers.se/publication/519894/file/519894_Fulltext.pdf	publication	2020	10.1145/3414080.3414092	Academic papers / proceedings
 https://popl20.sigplan.org/details/POPL-2020-Student-Research-Competition/18/Through-the-Interaction-Forest-Modeling-Concurrency-in-Coq-with-Interaction-Trees	created	2020		Academic papers / proceedings
 https://drops.dagstuhl.de/storage/00lipics/lipics-vol166-ecoop2020/LIPIcs.ECOOP.2020.20/LIPIcs.ECOOP.2020.20.pdf	publication	2020	10.4230/LIPIcs.ECOOP.2020.20	Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?QPL2020.15.pdf=	created	2020		Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?QPL2020.15.pdf	created	2020		Academic papers / proceedings
 https://arxiv.org/pdf/2306.12313	created	2020	10.4230/LIPIcs.ECOOP.2020.19	Academic papers / proceedings
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A19680B18FB74AD95F8D83BC4B097D4F/S0956796820000027a.pdf/effekt_capabilitypassing_style_for_type_and_effectsafe_extensible_effect_handlers_in_scala.pdf	published	2020	10.1017/S0956796820000027	Academic papers / proceedings
 https://jiangxi.cs.uwm.edu/publication/rebls2020.pdf	created	2020		Academic papers / proceedings
@@ -1799,7 +1799,7 @@ https://arxiv.org/pdf/2012.06530	published	2020-12-11	10.46298/lmcs-18(3:3)2022	
 https://blog.jle.im/entry/holly-jolly-streaming-combinators.html	published	2020-12-12		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S0304397520305259/pdfft?md5=6b37e478dea7cd83eeb4d14a51bdd2fa&pid=1-s2.0-S0304397520305259-main.pdf	published	2020-12-18		Academic papers / proceedings
 https://arxiv.org/pdf/2012.10641	published	2020-12-19	10.48550/arXiv.2012.10641	Academic papers / proceedings
-https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2021.6.pdf=	created	2021		Academic papers / proceedings
+https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?TFPIE2021.6.pdf	created	2021		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3434331	created	2021	10.1145/3434331	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/3434307	created	2021	10.1145/3434307	Academic papers / proceedings
 https://seattle.bibliocommons.com/v2/record/S30C3847261	published	2021		Academic papers / proceedings
