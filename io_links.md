@@ -51,7 +51,7 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/fpio.pdf	pub
 https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf	published	1992-08-08		Academic papers / proceedings
 https://kar.kent.ac.uk/id/document/3378	publication	1992-11		Academic papers / proceedings
 https://www.research.ed.ac.uk/en/publications/imperative-functional-programming	publication	1993	10.1145/158511.158524	Academic papers / proceedings
-https://research.ed.ac.uk/en/publications/the-glasgow-haskell-compiler-a-retrospective	publication	1993	10.1007/978-1-4471-3215-8_6	Academic papers / proceedings
+https://web.archive.org/web/20260607223829/https://www.research.ed.ac.uk/en/publications/the-glasgow-haskell-compiler-a-retrospective/	publication	1993	10.1007/978-1-4471-3215-8_6	Academic papers / proceedings
 https://www.altocumulus.org/Fudgets/fudgets-fpca93.html	publication	1993	10.1145/165180.165228	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/1993/01/fpca93.pdf	created	1993	10.1145/165180.165199	Academic papers / proceedings
 https://www2.dmst.aueb.gr/dds/pubs/jrnl/1993-StrProg-Haskell/html/exp.html	created	1993		Academic papers / proceedings
@@ -206,7 +206,7 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf
 https://www.microsoft.com/en-us/research/wp-content/uploads/1999/09/stretching.pdf	publication	1999-09-01	10.1007/10722298_3	Academic papers / proceedings
 http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/subsubsectionstar3_3_2_2.html	archived	1999-10-14		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S0304397598003569/pdf?md5=4ccbb498e59484a61ae5e9bb3e50ec07&pid=1-s2.0-S0304397598003569-main.pdf	published	1999-10-28		Academic papers / proceedings
-http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/section3_5.html	archived	1999-11-15		Academic papers / proceedings
+https://web.archive.org/web/20080229054047/http://www-fp.dcs.st-and.ac.uk:80/~kh/papers/io-tutorial/section3_5.html	archived	1999-11-15		Academic papers / proceedings
 https://kar.kent.ac.uk/21730/1/a_semantics_for_functions_and_behaviours_daniels.pdf	publication	1999-12		Academic papers / proceedings
 https://digitalcollections.ohsu.edu/record/3744	publication	2000		Academic papers / proceedings
 https://research.google/pubs/using-impurity-to-create-declarative-interfaces-in-mercury/	publication	2000		Academic papers / proceedings
@@ -397,7 +397,7 @@ https://www.cs.ru.nl/~marko/research/pubs/2005/LNCS3474.pdf	created	2005		Academ
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/tfp-proc.pdf	publication	2005		Academic papers / proceedings
 https://ftp.cs.ru.nl/CSI/SoftwEng.FunctLang/papers/2005/eves2005-FFormsIFL04.pdf	created	2005		Academic papers / proceedings
 http://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/Archive/CSD-05-1402.pdf	created	2005		Academic papers / proceedings
-https://repository.readscheme.org/ftp/papers/sw2005/sobel.pdf	created	2005		Academic papers / proceedings
+https://web.archive.org/web/20170515044820/http://repository.readscheme.org/ftp/papers/sw2005/sobel.pdf	created	2005		Academic papers / proceedings
 https://www.research.ed.ac.uk/files/12644250/haskml.pdf	publication	2005		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/2005-ppopp-composable.pdf	created	2005		Academic papers / proceedings
 https://cs.ioc.ee/tfp-icfp-gpce05/tfp-proc/24num.pdf	publication	2005		Academic papers / proceedings
@@ -446,7 +446,7 @@ https://research.utwente.nl/en/publications/the-haskell-programmers-guide-to-the
 https://arxiv.org/pdf/cs/0511006	published	2005-11-02	10.1017/S0960129508007172	Academic papers / proceedings
 https://cs.indiana.edu/~rrnewton/papers/ppopp17-sc-haskell.pdf	archived	2005-11-08		Academic papers / proceedings
 https://cs.indiana.edu/~sabry/papers/monadicDC.pdf	archived	2005-11-08		Academic papers / proceedings
-https://legacy.cs.indiana.edu/~dyb/pubs/monadicDC.pdf	archived	2005-11-08		Academic papers / proceedings
+https://web.archive.org/web/20250521164240/https://legacy.cs.indiana.edu/~dyb/pubs/monadicDC.pdf	archived	2005-11-08		Academic papers / proceedings
 https://www.cs.cornell.edu/people/fluet/research/rgn-monad/ICFP04/icfp04.pdf	modified	2005-12-21		Academic papers / proceedings
 https://www.research.ed.ac.uk/files/22099462/1_s2.0_S1571066106001666_main.pdf	publication	2006	10.1016/j.entcs.2006.04.012	Academic papers / proceedings
 https://www.cai.sk/ojs/index.php/cai/article/view/333	publication	2006		Academic papers / proceedings
@@ -538,7 +538,7 @@ https://hot-heart-cool-mind.hatenablog.com/entry/393131368.html	publication	2007
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/105EF62E27A41601CFDF851224DF4409/S095679680000023Xa.pdf/jfp_volume_2_issue_1_cover_and_back_matter.pdf	created	2007-08-01	10.1017/S095679680000023X	Academic papers / proceedings
 https://assets.cambridge.org/97805216/92694/excerpt/9780521692694_excerpt.pdf	modified	2007-08-31		Academic papers / proceedings
 https://www.michaelhanus.de/papers/ICLP07.pdf	modified	2007-09-11		Academic papers / proceedings
-https://www.edsko.net/pubs/ifl07-paper.pdf	publication	2007-09-27		Academic papers / proceedings
+https://web.archive.org/web/20240119000544/http://www.edsko.net/pubs/ifl07-paper.pdf	publication	2007-09-27		Academic papers / proceedings
 https://webspace.science.uu.nl/~swier004/publications/2007-haskell.pdf	published	2007-09-30		Academic papers / proceedings
 https://doi.org/10.1145/1291201.1291206	publication	2007-09-30	10.1145/1291201.1291206	Academic papers / proceedings
 https://web.cecs.pdx.edu/~mpj/pubs/plos07.pdf	modified	2007-09-30		Academic papers / proceedings
@@ -1845,7 +1845,7 @@ https://arxiv.org/pdf/2011.03463	published	2020-11-06	10.4230/LIPIcs.TYPES.2020.
 https://www.baeldung.com/java-functional-programming	published	2020-11-08		Academic papers / proceedings
 https://devblogs.microsoft.com/dotnet/announcing-f-5/	publication	2020-11-10		Academic papers / proceedings
 https://www.cambridge.org/core/journals/journal-of-functional-programming/listing	archived	2020-11-12		Academic papers / proceedings
-https://legacy.cs.indiana.edu/~sabry/papers/exteff.pdf	archived	2020-11-12		Academic papers / proceedings
+https://web.archive.org/web/20250320062544/https://legacy.cs.indiana.edu/~sabry/papers/exteff.pdf	archived	2020-11-12		Academic papers / proceedings
 https://probabilistic-effects.github.io/papers/freer-monads/	publication	2020-11-13		Academic papers / proceedings
 https://probabilistic-effects.github.io/papers/fusion-for-free/	publication	2020-11-13		Academic papers / proceedings
 https://doi.org/10.1145/3428194	publication	2020-11-13	10.1145/3428194	Academic papers / proceedings
@@ -2696,7 +2696,7 @@ https://dl.acm.org/doi/10.5555/647978.743370	accessed	2026-07-27	10.5555/647978.
 https://dl.acm.org/doi/10.5555/647979.743383	accessed	2026-07-27	10.5555/647979.743383	Academic papers / proceedings
 https://dl.acm.org/doi/10.5555/647980.743391	accessed	2026-07-27	10.5555/647980.743391	Academic papers / proceedings
 https://dl.acm.org/doi/10.5555/895692	accessed	2026-07-27	10.5555/895692	Academic papers / proceedings
-https://pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf	accessed	2026-07-27		Academic papers / proceedings
+https://web.archive.org/web/20240811202602/https://www.pure.ed.ac.uk/ws/files/24354309/haskell15_2.pdf	accessed	2026-07-27		Academic papers / proceedings
 https://mdu.diva-portal.org/smash/get/diva2%3A223698/FULLTEXT01.pdf	accessed	2026-07-27		Academic papers / proceedings
 https://horizon-lab.org/pubs/rfp16.pdf	accessed	2026-07-27		Academic papers / proceedings
 https://kar.kent.ac.uk/view/journal_volume/Electronic_Proceedings_in_Theoretical_Computer_Science.date.html	accessed	2026-07-27		Academic papers / proceedings
@@ -2749,7 +2749,7 @@ https://kar.kent.ac.uk/86452/1/thesis.pdf	publication	2011		Theses / dissertatio
 https://www.cs.ox.ac.uk/people/daniel.james/mastersthesis/mastersthesis.pdf	modified	2011-03-28		Theses / dissertations
 https://kar.kent.ac.uk/33880/1/thesis.pdf	publication	2011-05		Theses / dissertations
 https://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00003787/diss_kupke.pdf	modified	2011-05-31		Theses / dissertations
-https://www2.tcs.ifi.lmu.de/~abel/kettelhoitThesis.pdf	authored	2012		Theses / dissertations
+https://web.archive.org/web/20180712231030/http://www2.tcs.ifi.lmu.de:80/~abel/kettelhoitThesis.pdf	authored	2012		Theses / dissertations
 https://eprints.nottingham.ac.uk/13348/1/hu-thesis.pdf	publication	2012-06		Theses / dissertations
 https://www.cs.tufts.edu/comp/150FP/archive/jason-dagit/ms-thesis.pdf	modified	2012-08-30		Theses / dissertations
 https://adam.gundry.co.uk/pub/thesis/thesis-2013-12-03.pdf	created	2013		Theses / dissertations
@@ -3029,7 +3029,7 @@ https://homepages.inf.ed.ac.uk/gdp/publications/Effect_Handlers.pdf	modified	200
 https://book.realworldhaskell.org	published	2008-11		Books / chapters
 https://book.realworldhaskell.org/read/	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/io.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260227000324/https://book.realworldhaskell.org/read/io.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch14.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch18.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch7.html	published	2008-11		Books / chapters
@@ -3037,26 +3037,26 @@ https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch01.html	
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch20.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch04.html	published	2008-11		Books / chapters
 https://book.realworldhaskell.org/read/efficient-file-processing-regular-expressions-and-file-name-matching.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the-filesystem.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260314084420/https://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the-filesystem.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch08.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch09.html	published	2008-11		Books / chapters
 http://book.realworldhaskell.org/read/why-functional-programming-why-haskell.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/monad-transformers.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260314083940/https://book.realworldhaskell.org/read/monad-transformers.html	published	2008-11		Books / chapters
 http://book.realworldhaskell.org/read/functional-programming.html	published	2008-11		Books / chapters
 http://book.realworldhaskell.org/read/using-typeclasses.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch07.html	published	2008-11		Books / chapters
 https://book.realworldhaskell.org/read/monads.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260207181052/https://book.realworldhaskell.org/read/interfacing-with-c-the-ffi.html	published	2008-11		Books / chapters
 https://book.realworldhaskell.org/read/software-transactional-memory.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ix01.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch15.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/programming-with-monads.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260319201408/https://book.realworldhaskell.org/read/programming-with-monads.html	published	2008-11		Books / chapters
 https://book.realworldhaskell.org/read/error-handling.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20250812194157/https://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/ch19.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/systems-programming-in-haskell.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260310124755/https://book.realworldhaskell.org/read/systems-programming-in-haskell.html	published	2008-11		Books / chapters
 https://www.oreilly.com/library/view/real-world-haskell/9780596155339/copyright.html	published	2008-11		Books / chapters
-https://book.realworldhaskell.org/read/sockets-and-syslog.html	published	2008-11		Books / chapters
+https://web.archive.org/web/20260310094349/https://book.realworldhaskell.org/read/sockets-and-syslog.html	published	2008-11		Books / chapters
 https://book.realworldhaskell.org/read/gui-programming-with-gtk-hs.html	published	2008-11		Books / chapters
 https://books.google.fr/books?hl=fr&id=nh0okI1a1sQC&num=20	publication	2008-11-15		Books / chapters
 https://books.google.es/books?id=nh0okI1a1sQC	publication	2008-11-15		Books / chapters
@@ -4596,7 +4596,7 @@ https://www.well-typed.com/blog/2014/08/debugging-haskell-at-assembly-level/	cre
 https://www.johndcook.com/blog/2014/03/03/monads-are-hard-because/	created	2014		Blogs / tutorials
 https://haskellforall.com/2014/04/how-continuation-monad-works	created	2014		Blogs / tutorials
 https://www.well-typed.com/blog/2014/06/understanding-the-realworld/	created	2014		Blogs / tutorials
-https://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/	created	2014		Blogs / tutorials
+https://web.archive.org/web/20230601032241/http://www.idryman.org/blog/2014/01/23/yet-another-monad-tutorial/	created	2014		Blogs / tutorials
 https://blog.banachewicz.pl/haskell/2014/05/30/short-tutorial-about-monads.html	created	2014		Blogs / tutorials
 https://haskellforall.com/2015/01/use-haskell-for-shell-scripting	created	2015		Blogs / tutorials
 https://haskellforall.com/2015/06/break-100-small-library-for-breaking	created	2015		Blogs / tutorials
@@ -5818,7 +5818,7 @@ https://lambda-theultimate.org/node/1276	archived	2006-02-05		Other / uncategori
 https://lambda-theultimate.org/node/1183	archived	2006-02-06		Other / uncategorized
 https://www.cse.chalmers.se/~rjmh/Wash/Survey/ByUniversity.cgi.html	modified	2006-02-06		Other / uncategorized
 https://www.di.uminho.pt/~jno/html/mpi-0506.html	archived	2006-02-22		Other / uncategorized
-http://members.chello.nl/hjgtuyl/tourdemonad.html	archived	2006-03-02		Other / uncategorized
+https://web.archive.org/web/20201109033750/http://members.chello.nl/hjgtuyl/tourdemonad.html	archived	2006-03-02		Other / uncategorized
 https://alumni.media.mit.edu/~tpminka/PLE/haskell/haskell.html	modified	2006-04-26		Other / uncategorized
 https://people.cs.nott.ac.uk/psztxa/publ/qml.pdf	modified	2006-05-01		Other / uncategorized
 https://www.cs.kent.ac.uk/people/staff/oc/TraceTheory/TFPpaper.pdf	modified	2006-05-04		Other / uncategorized
@@ -5908,7 +5908,7 @@ https://people.cs.nott.ac.uk/pszgmh/icfp09.html	modified	2009-10-07		Other / unc
 https://chplib.wordpress.com/	archived	2009-10-12		Other / uncategorized
 https://www.cs.cmu.edu/~crary/819-f09/Moggi89.pdf	modified	2009-10-12		Other / uncategorized
 https://chplib.wordpress.com/page/2/	archived	2009-11-23		Other / uncategorized
-https://learnyouahaskell.com/learnyouahaskell.pdf	archived	2009-12-29		Other / uncategorized
+https://web.archive.org/web/20250209233957/https://learnyouahaskell.com/learnyouahaskell.pdf	archived	2009-12-29		Other / uncategorized
 https://math.andrej.com/2010/09/27/programming-with-effects-ii-introducing-eff/	created	2010		Other / uncategorized
 https://neilmitchell.blogspot.com/2010/01/	created	2010		Other / uncategorized
 https://www.ou.nl/documents/40554/111661/Marko_van_Eekelen_LevenLangComputerenofFoeteren_2010.pdf/3f0710d9-4389-4da8-9173-eaad134c04e0	created	2010		Other / uncategorized
@@ -6027,7 +6027,7 @@ https://www.open-open.com/news/view/565e9c	archived	2013-03-20		Other / uncatego
 https://accu.org/journals/overload/21/114/deigh_1869/	updated	2013-04-01		Other / uncategorized
 https://www.cantab.net/users/antoni.diller/haskell/handouts/unit08.pdf	modified	2013-04-05		Other / uncategorized
 http://dev.stephendiehl.com/hask/	archived	2013-04-17		Other / uncategorized
-http://www.acm.jhu.edu/~nwf/fwh/08_yesod.pdf	archived	2013-05-05		Other / uncategorized
+https://web.archive.org/web/20160309114211/https://www.acm.jhu.edu//~nwf/fwh/08_yesod.pdf	archived	2013-05-05		Other / uncategorized
 https://ksvi.mff.cuni.cz/~kryl/Avyuka/2001213/PRG005.htm	modified	2013-05-14		Other / uncategorized
 https://external.dandelon.com/download/attachments/dandelon/ids/DE001287AB5FD483B5F1EC1257B6C00554344.pdf	created	2013-05-16		Other / uncategorized
 https://www.rubydoc.info/gems/ruby-maybe/0.2.0/file/README.md	uploaded	2013-05-31		Other / uncategorized
@@ -6224,7 +6224,7 @@ https://www.fpcomplete.com/haskell/library/unliftio/	released	2017-07-14		Other 
 https://mirror1.sox.rs/parrot/misc/openbooks/programming/Haskell.pdf	modified	2017-07-19		Other / uncategorized
 https://mirror.ourhost.az/parrot/misc/openbooks/programming/FSharpProgramming.pdf	modified	2017-07-19		Other / uncategorized
 https://fsr.github.io/haskell-lessons/script/io.html	modified	2017-07-30		Other / uncategorized
-https://www.ub.utwente.nl/webdocs/ctit/1/00000154.pdf	archived	2017-08-08		Other / uncategorized
+https://web.archive.org/web/20170808202731/http://www.ub.utwente.nl/webdocs/ctit/1/00000154.pdf	archived	2017-08-08		Other / uncategorized
 https://lia.deis.unibo.it/confs/sac02/pdf/33.pdf	archived	2017-09-21		Other / uncategorized
 https://www.altocumulus.org/Fudgets/NUTEK/slutredovisning/fudgets-fpca93.pdf	archived	2017-09-29		Other / uncategorized
 https://cs.famaf.unc.edu.ar/~hoffmann/pd16/teorico20161101.pdf	modified	2017-10-04		Other / uncategorized
@@ -6372,7 +6372,7 @@ https://www.usenix.org/events/dsl99/full_papers/leijen/leijen_html/	modified	201
 https://tracker.debian.org/pkg/haskell-path-io	archived	2019-11-19		Other / uncategorized
 https://darcs.realworldhaskell.org/static/00book.pdf	archived	2019-11-21		Other / uncategorized
 https://esl-conf-static.s3.eu-central-1.amazonaws.com/media/files/000/000/836/original/Daniel_Spiewak_-_The_Making_of_an_IO.pdf?1511448594=	modified	2019-11-27		Other / uncategorized
-https://docplayer.net/13447212-Implementing-programming-languages-aarne-ranta.html	archived	2019-12-02		Other / uncategorized
+https://web.archive.org/web/20200201120149/http://docplayer.net:80/13447212-Implementing-programming-languages-aarne-ranta.html	archived	2019-12-02		Other / uncategorized
 https://free.cofree.io/2020/07/20/perform-io/	created	2020		Other / uncategorized
 https://media.ed.ac.uk/channel/INF1A%3A%2BIntroduction%2Bto%2BComputation%2B%5B2020_2021%5D/179956591	created	2020		Other / uncategorized
 https://danigb.github.io/codes/2020-01-09-functional-core-imperative-shell/	created	2020		Other / uncategorized
@@ -6845,7 +6845,7 @@ https://noelwelsh.com/posts/codata-interpreter-terminal/	archived	2025-01-20		Ot
 https://kennethalambert.com/haskell/index.html	modified	2025-01-22		Other / uncategorized
 https://google.github.io/mlir-hs/base-4.14.1.0/GHC-IO.html	modified	2025-02-06		Other / uncategorized
 https://clojurepatterns.com/1/12/	archived	2025-02-08		Other / uncategorized
-https://clojurepatterns.com/1/12/20/	archived	2025-02-08		Other / uncategorized
+https://web.archive.org/web/20251107065932/https://clojurepatterns.com/1/12/20/	archived	2025-02-08		Other / uncategorized
 https://jazimmer.net/html/ZimmerPublications.html	archived	2025-02-10		Other / uncategorized
 https://www.ninebynine.org/Links.html	modified	2025-02-12		Other / uncategorized
 https://www.ninebynine.org/Software/Learning-Haskell-Notes.html	modified	2025-02-12		Other / uncategorized
@@ -6856,7 +6856,7 @@ https://odr.chalmers.se/bitstreams/84df6716-04b1-4276-be49-653a0214aefe/download
 https://odr.chalmers.se/bitstreams/b5438b2f-a2a5-43ce-bd0e-86644f6f0e80/download	modified	2025-03-12		Other / uncategorized
 https://escholarship.org/content/qt2fd990zr/qt2fd990zr_noSplash_d2f4398d9a69ddf55c1b1d16202f3436.pdf	archived	2025-03-22		Other / uncategorized
 https://archives.lib.ku.edu/repositories/3/archival_objects/16032	archived	2025-03-24		Other / uncategorized
-https://clojurepatterns.com/1/12/16/	archived	2025-03-26		Other / uncategorized
+https://web.archive.org/web/20250326090909/https://clojurepatterns.com/1/12/16/	archived	2025-03-26		Other / uncategorized
 https://haskell25.hotcrp.com/	archived	2025-03-28		Other / uncategorized
 https://www.sos-vo.org/system/files/sos_files/AURA_A_Programming_Language_with_Authorization_and_Audit.pdf	modified	2025-03-28		Other / uncategorized
 https://oathompsonjones.github.io/A-Graphical-Playground-for-Haskell/main.pdf	modified	2025-04-02		Other / uncategorized
@@ -6869,7 +6869,7 @@ https://haskell-distributed.github.io/static/semantics.pdf	modified	2025-04-16		
 https://clojurepatterns.com/1/12/9/	archived	2025-04-19		Other / uncategorized
 https://digikogu.taltech.ee/en/Download/263b2b89-218f-4bbf-bf2a-2a7fa600111b	archived	2025-04-19		Other / uncategorized
 https://academy.fpblock.com/haskell/library/rio/	archived	2025-04-23		Other / uncategorized
-https://darcs.realworldhaskell.org/static/html/complete/index.html	archived	2025-04-26		Other / uncategorized
+https://web.archive.org/web/20250426233857/https://darcs.realworldhaskell.org/static/html/complete/index.html	archived	2025-04-26		Other / uncategorized
 https://atnos-org.github.io/eff/index.html	modified	2025-04-27		Other / uncategorized
 https://atnos-org.github.io/eff/org.atnos.site.Installation.html	modified	2025-04-27		Other / uncategorized
 https://atnos-org.github.io/eff/org.atnos.site.Introduction.html	modified	2025-04-27		Other / uncategorized
