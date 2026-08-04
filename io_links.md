@@ -2688,7 +2688,6 @@ https://www.cl.cam.ac.uk/~amp12/fresh-ocaml/publications/shinwell-thesis.pdf	mod
 https://fresh-ocaml.org/shinwell-thesis.pdf	modified	2009-06-23		Theses / dissertations
 https://www.codesuji.com/images/prop1/propagation_networks_thesis.pdf	published	2009-09-04		Theses / dissertations
 https://etheses.whiterose.ac.uk/id/eprint/1723/2/Foster%2C_Simon.pdf	created	2010-01		Theses / dissertations
-https://cth.altocumulus.org/~hallgren/Thesis/homepage.html	modified	2010-06-07		Theses / dissertations
 https://eprints.nottingham.ac.uk/11457/1/thesis.pdf	publication	2010-07		Theses / dissertations
 https://theses.gla.ac.uk/2353/1/2008andersonphd.pdf	publication	2011		Theses / dissertations
 https://kar.kent.ac.uk/86452/1/thesis.pdf	publication	2011		Theses / dissertations
