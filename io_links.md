@@ -67,7 +67,7 @@ https://www.microsoft.com/en-us/research/wp-content/uploads/1994/01/fp94.pdf	cre
 https://drops.dagstuhl.de/storage/15dagstuhl-seminar-reports/1994/DagSemRep.89/DagSemRep.89.pdf	created	1994		Academic papers / proceedings
 https://files01.core.ac.uk/download/pdf/16195531.pdf	publication	1994-01-01		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/1994/06/lazy-functional-state-threads.pdf	published	1994-03-10	10.1145/178243.178246	Academic papers / proceedings
-https://www.readkong.com/page/the-opal-tutorial-8714252	authored	1994-05		Academic papers / proceedings
+https://stefanschramm.net/dev/opal-archive/doc/pdf/tutorial.pdf	authored	1994-05		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/773473.178246	publication	1994-06	10.1145/773473.178246	Academic papers / proceedings
 https://ipsj.ixsq.nii.ac.jp/record/20310/files/IPSJ-DBS94099027.pdf	publication	1994-07-20		Academic papers / proceedings
 https://www.cambridge.org/as/universitypress/subjects/computer-science/programming-languages-and-applied-logic/functional-programming-and-inputoutput?format=PB	publication	1994-09		Academic papers / proceedings
@@ -191,9 +191,7 @@ https://www.berniepope.id.au/assets/files/mira2hask.pdf	published	1999-06-22		Ac
 https://dl.acm.org/doi/pdf/10.1145/317765.317777	publication	1999-09	10.1145/317765.317777	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/comserve.pdf	created	2016	10.1145/317636.317790	Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/1999/09/stretching.pdf	publication	1999-09-01	10.1007/10722298_3	Academic papers / proceedings
-http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/subsubsectionstar3_3_2_2.html	archived	1999-10-14		Academic papers / proceedings
 https://www.sciencedirect.com/science/article/pii/S0304397598003569/pdf?md5=4ccbb498e59484a61ae5e9bb3e50ec07&pid=1-s2.0-S0304397598003569-main.pdf	published	1999-10-28		Academic papers / proceedings
-https://web.archive.org/web/20080229054047/http://www-fp.dcs.st-and.ac.uk:80/~kh/papers/io-tutorial/section3_5.html	archived	1999-11-15		Academic papers / proceedings
 https://kar.kent.ac.uk/21730/1/a_semantics_for_functions_and_behaviours_daniels.pdf	publication	1999-12		Academic papers / proceedings
 https://research.google/pubs/using-impurity-to-create-declarative-interfaces-in-mercury/	publication	2000		Academic papers / proceedings
 https://www.sigmod.org/publications/dblp/db/conf/ifl/ifl2000.html	created	2000		Academic papers / proceedings
@@ -252,8 +250,6 @@ https://dl.acm.org/doi/pdf/10.1145/507635.507655	publication	2001-10	10.1145/507
 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D31AEC33C1E8291B309578FA84B4664D/S0956796801004154a.pdf/monadic-encapsulation-of-effects-a-revised-approach-extended-version.pdf	published	2001-11-01	10.1017/S0956796801004154	Academic papers / proceedings
 https://arxiv.org/pdf/cs/0111039	published	2001-11-14	10.48550/arXiv.cs/0111039	Academic papers / proceedings
 https://publications.scss.tcd.ie/tech-reports/reports.01/TCD-CS-2001-31.pdf	published	2001-11-19		Academic papers / proceedings
-http://www-fp.dcs.st-and.ac.uk/~kh/papers/io-tutorial/io-tutorial.html	archived	2001-11-23		Academic papers / proceedings
-https://web.archive.org/web/20011123041758/http://www-fp.dcs.st-and.ac.uk:80/~kh/papers/io-tutorial/io-tutorial.ps.gz	archived	2001-11-23		Academic papers / proceedings
 https://dspace.mit.edu/bitstreams/0724cedc-ed5e-4cd2-9d94-a3e91a7950a6/download	publication	2002		Academic papers / proceedings
 https://era.ed.ac.uk/bitstreams/1308e672-4651-4df2-ab48-426328db59b8/download	publication	2002		Academic papers / proceedings
 https://era.ed.ac.uk/bitstream/1842/196/1/Comp_Eff_Monads.pdf	publication	2002	10.1007/3-540-45931-6_24	Academic papers / proceedings
@@ -311,7 +307,7 @@ https://www.cs.yale.edu/homes/external/nilsson/Publications/hw2003.pdf	published
 https://dl.acm.org/doi/pdf/10.1145/871895.871897	publication	2003-08-28	10.1145/871895.871897	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871898	publication	2003-08-28	10.1145/871895.871898	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/871895.871900	publication	2003-08-28	10.1145/871895.871900	Academic papers / proceedings
-https://conal.net/papers/dsl97/dsl97.html	archived	2003-09-01		Academic papers / proceedings
+https://www.usenix.org/legacy/publications/library/proceedings/dsl97/full_papers/elliott/elliott.pdf	archived	2003-09-01		Academic papers / proceedings
 https://homepages.inf.ed.ac.uk/wadler/papers/monadscomb/monadscomb.ps	modified	2003-10-17		Academic papers / proceedings
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/phd-thesis-1.pdf	publication	2003-11-01		Academic papers / proceedings
 https://www.cs.yale.edu/homes/external/nilsson/papers.html	modified	2003-11-19		Academic papers / proceedings
