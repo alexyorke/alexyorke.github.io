@@ -77,7 +77,7 @@ https://www.mbsd.cs.ru.nl/publications/papers/1995/achp95-ConcurrIO.abs	created	
 https://archive.org/details/functionalprogra0000glas_x5m6	publication	1995		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/262009.262011	publication	1995	10.1145/262009.262011	Academic papers / proceedings
 https://dspace.library.uu.nl/bitstreams/ccda555d-4906-4e52-b6f8-bb664363a338/download	publication	1995		Academic papers / proceedings
-https://www.cs.kent.ac.uk/pubs/1995/209/	created	1995		Academic papers / proceedings
+https://kar.kent.ac.uk/21247/1/miraIsab.pdf	created	1995		Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/3-540-59451-5_2.pdf	publication	1995	10.1007/3-540-59451-5_2	Academic papers / proceedings
 https://refubium.fu-berlin.de/bitstream/handle/fub188/18938/tr-b-95-01.pdf?sequence=1&isAllowed=y	publication	1995	10.17169/refubium-22616	Academic papers / proceedings
 https://link.springer.com/content/pdf/10.1007/bfb0022267.pdf	publication	1995	10.1007/bfb0022267	Academic papers / proceedings
@@ -730,7 +730,6 @@ https://arxiv.org/pdf/1012.4895	published	2010-12-22	10.4204/EPTCS.43.1	Academic
 https://journals.sagepub.com/doi/pdf/10.3233/FI-2010-303	publication	2010-12-30	10.3233/fi-2010-303	Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2096148.2034688	publication	2011	10.1145/2096148.2034688	Academic papers / proceedings
 https://www.research.ed.ac.uk/files/18384001/Lindley_Wadler_ET_AL_2011_Idioms_are_Oblivious_Arrows_are_Meticulous_Monads_are_Promiscuous.pdf	publication	2011	10.1016/j.entcs.2011.02.018	Academic papers / proceedings
-https://www.cs.kent.ac.uk/pubs/2011/3185/	created	2011		Academic papers / proceedings
 https://dl.acm.org/doi/pdf/10.1145/2034574.2034781	publication	2011	10.1145/2034574.2034781	Academic papers / proceedings
 https://kar.kent.ac.uk/id/document/3229559	publication	2011		Academic papers / proceedings
 https://ora.ox.ac.uk/objects/uuid%3Ab4971f57-2b94-4fdf-a5c0-98d6935a44da/files/md50e6a8b2027ac4f99994936c2a32c3b	publication	2011		Academic papers / proceedings
