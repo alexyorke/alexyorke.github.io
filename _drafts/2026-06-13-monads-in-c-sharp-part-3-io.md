@@ -15,13 +15,103 @@ The first two parts introduced the same small pattern in different contexts:
 | `Maybe<T>` | `Some` | `FlatMap` / `Bind` | `None` skips the next function |
 | `Result<TSuccess, TError>` | `Ok` | `FlatMap` / `Bind` | `Error` skips the next function |
 
-I/O adds a different concern. Reading a file, asking for input, or calling an API does more than return a value: it interacts with the world. The timing, order, and number of those interactions are part of the program's meaning.
+**`IO` is one way to sequence effects in functional programming.**
 
-Programs need such interactions to be useful. The goal is not to eliminate them, but to represent them in a form that can be composed before anything happens.
+That sentence needs some unpacking. An effect is an interaction with the world: reading or writing a file, asking for input, calling an API, changing shared state, and so on. Programs need effects to be useful. The challenge is to control whether they happen, how often they happen, and in what order.
 
-Why does I/O need special treatment while addition does not? Evaluating `2 + 3` always produces `5` and changes nothing else. The expression is **referentially transparent**: replacing it with its value cannot change the program's behavior. This substitution rule supports **equational reasoning**: we can understand and transform a small part of the program without first knowing the state of the world.
+The thing is, is that you can write pure functions in procedural programming, this is just about side-effectful functions.
 
-A stateful counter behaves differently:
+In procedural C#, statement order provides an obvious sequence:
+
+```csharp
+File.WriteAllText(path, "first");
+File.AppendAllText(path, "second");
+```
+
+The first statement runs before the second. Their return values are not the point--both methods return `void`--but evaluating them changes the file. Reversing the statements, running one twice, or skipping one changes the program's observable behavior. Well, this applies to procedural programs, they are executed, typically, line by line in order.
+
+Pure functional code has a different reasoning model. A pure expression can be replaced by its result, and independent pure expressions can be evaluated in another order without changing the answer. In a non-strict language such as Haskell, an expression may not be evaluated at all when its value is not needed. These freedoms are harmless for pure calculations: skipping `2 + 3` when nobody needs the result saves work but does not change the world.
+
+This property is called **referential transparency**, and it supports **equational reasoning**. A program can be understood and transformed much like algebra because replacing equals with equals preserves meaning.
+
+Going back to high school algebra, say you had:
+
+x = 5 + 1
+y = 4 + 9 - 2
+w = y + x
+z = y + y + x
+
+In this case it doesn't matter that you evaluated x or y first, they are independent. It doesn't change the calculation. It's fairly obvious, i.e., if I say y = 11 and x = 6, or x = 6 and y = 11, sure, I mean the values of x and y are going to be the same here. In this case, why bother evaluating w? It is not used to get the value of z. Similarly, since we evaluated y to be 11, whenever we see y we can replace it with its value.
+
+It would be "weird" to say, well, you have to set x = 6 first and then y = 11, or whenever you calculate x you get a different value. It would break the algebraic reasoning and you can't rewrite z = 2y + x because the value of "y" could change when you evaluate it again.
+
+In Haskell,
+
+main :: IO ()
+main = do
+    let input = getLine
+    print (2 + 3)
+
+In this case, it just prints 5 and that's it. It never asks for user input. Consequently, in C#, even if the value is discarded, the method is run _because_ of its side effects.
+
+var _ = Console.ReadLine();
+Console.WriteLine(5);
+
+Even though the console read line is discarded, it still prompts for user input, because programs are evaluated line by line. With functional programming languages like Haskell, it's more of an expression evaluation, or sort of like solving an equation/manulipating algebra.
+
+Or even:
+
+static int Undefined()
+{
+    throw new Exception("Evaluated!");
+}
+
+var a = 10;
+var unused = Undefined();
+var b = 20;
+
+var result = a + b;
+Console.WriteLine(result);
+
+In this case the program would crash.
+
+In Haskell,
+
+main = print result
+  where
+    a = 10
+    unused = undefined
+    b = 20
+
+    result = a + b
+
+Here, evaluating unused = undefined would crash, but, well, it's not used so it is never evaluted, so it prints 30.
+
+This is a different paradigm, and sort of unravels the thread so to speak about why we need the IO monad to sequence effects. In this case, we could have evaluated getLine first, or last, it doesn't matter as, well, it's an expression, right? But that's not the case for side effectful functions.
+
+For example:
+
+var a = 10;
+
+var unused = Console.ReadLine();
+
+var b = 20;
+
+Console.WriteLine(a + b);
+
+
+This asks the user for input, even though the compiler optimizes away the "unused" variable. Consequently in Haskell:
+
+main = print result
+  where
+    a = 10
+    unused = undefined
+    b = 20
+    result = a + b
+
+Never asks for user input, it was never demanded. Additonally, evaluations can occur out of order, i.e., b = 20 might come before a = 10, it doesn't really matter, they are not dependent on each other and the result would be the same.
+
+Side-effectful expressions break that model. Consider a stateful counter:
 
 ```csharp
 private static int count = 0;
@@ -33,34 +123,19 @@ public static int Next()
 }
 ```
 
-Starting from zero, `Next() + Next()` evaluates to `1 + 2`, or `3`. Rewriting it as `2 * Next()` evaluates the counter only once and produces `2`. A familiar algebraic simplification changed both the result and the number of state changes. To understand the original expression, we must know about hidden state and how often `Next()` has already run.
+Starting from zero, `Next() + Next()` evaluates to `1 + 2`, or `3`. The algebraically familiar rewrite `2 * Next()` invokes the counter once and produces `2`. Reordering, duplicating, or eliminating an effectful expression can change both its returned value and the world around it. The same problem appears with `ReadNumberFromFile(...)`: the file may change between two calls, and the act of reading may itself be important even if no later calculation uses the number.
 
-External I/O has the same problem. Two calls to `ReadNumberFromFile(...)` may return different values because the file can change between reads. Repeating, moving, or removing a call may also change observable behavior. We therefore cannot apply the same substitutions and rearrangements that are safe for pure expressions.
+Lazy evaluation makes the mismatch especially visible. If an unused pure expression is never evaluated, only unnecessary work disappears. If an unused file write is never evaluated, the file is never written. Effect order and execution therefore cannot safely depend on when an ordinary expression happens to be forced.
 
-`IO<T>` addresses this by separating **describing** an operation from **performing** it. Instead of reading the file immediately, a function returns a value that describes how to read it later. These descriptions can be combined without performing their operations, much like combining recipes without cooking anything yet.
+What this means, is that in a purely functional programming language, if we were to call the equivalent of:
+- Write to this file
+- Read this file
 
-The underlying operation is still effectful when it eventually runs. `IO<T>` does not make file access or mutation pure, nor does it guarantee that repeated executions produce the same result. It gives the operation a composable representation and makes the execution boundary explicit.
+Then they would never be executed. They are not part of the final expression. Even if they were, you did some unsafe trickery, they could be evaluated in any order, recall it doesn't matter. This is an issue, and so we need to sequence them as side effects interact and change with the world, so the order they are executed matters.
 
-For this article, I will use **side effect** for an interaction that occurs while evaluating an ordinary expression, and **effect** for an interaction represented as a value whose execution is a separate step. Despite its name, this tiny `IO<T>` can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
+`IO<T>` separates **describing** an operation from **performing** it. Instead of writing the file immediately, a function returns an `IO<Unit>` value that describes the write. `Unit` plays the role of `void`: there is no interesting result to carry forward, but the described action still matters. An operation that produces a useful result, such as reading a number, can return `IO<int>`.
 
-Here is the thesis of this article: **`IO<T>` allows functions that would perform side effects to be composed without performing those effects during composition.**
-
-What does "composed" mean here? For ordinary functions, composition connects the output of one function to the input of another:
-
-```text
-f : A -> B
-g : B -> C
-
-g after f : A -> C
-```
-
-For the total pure calculations in this article, that composition comes with a useful reasoning contract: the same explicit inputs determine the same result, and evaluation does not change the world. Repeating a call, memoizing its result, substituting its result for the call, or reordering independent calls may change cost, but not meaning.
-
-An effectful function can be connected in the same mechanical way, but the reasoning contract changes. The same explicit input may observe a different file, clock, price, or database state. Calling the function may also change that state, consume quota, send an email, or affect whether the next call is throttled. Repeating, memoizing, retrying, moving, or reordering the call can therefore change both its result and the world.
-
-Effects also create dependencies that ordinary value flow does not show. Two calls may have unrelated parameters and return types yet still depend on their order because both interact with the same file, service, account, or other external state. Timing, sequence, repetition, and failure policy become part of composition.
-
-Monadic composition does not merely concatenate two wrapped values. It sequences a value in a monadic context with a function that uses its result to construct the next value in that same context:
+Because these descriptions are values, they can be composed before anything happens:
 
 ```text
 current : IO<A>
@@ -69,9 +144,15 @@ next    : A -> IO<B>
 current.FlatMap(next) : IO<B>
 ```
 
-`FlatMap` produces one `IO<B>` that describes: run `current`, pass its result to `next`, then run the returned action. It preserves the data dependency and the order of effects without performing either effect during composition. The monad laws make regrouping those steps predictable; later sections make those laws and their C# limitations explicit.
+`FlatMap` creates one larger `IO<B>` that describes a sequence: perform `current`, give its result to `next`, then perform the `IO<B>` returned by `next`. Constructing that larger value performs neither effect. Running it performs both effects in the encoded order.
 
-`IO<T>` does not decide whether an operation should be retried, memoized, rate-limited, or run concurrently. It keeps the operation unperformed long enough for explicit combinators to describe such policies around the larger program.
+The final program is therefore one composed `IO` value. In Haskell, that value is ultimately exposed as `main`, and the runtime performs the actions it describes. Simon Peyton Jones and Philip Wadler describe this design in [*Imperative functional programming*](https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/). In this article's small C# model, the application passes the value to an explicit `UnsafeRun()` boundary. C# already evaluates eagerly and specifies expression order, so this wrapper is not repairing C#'s evaluation semantics. It is making effectful operations explicit, deferring them, and preserving their order through composition.
+
+This same structure can support policies around the composed program, such as guaranteed resource cleanup, retries, or error handling. Those policies are not automatic properties of any monad; they require additional combinators. Later, a small `Bracket` combinator will ensure that an acquired resource is released after use.
+
+For this article, I will use **side effect** for an interaction that occurs while evaluating an ordinary expression, and **effect** for an interaction represented as a value whose execution is a separate step. Despite its name, this tiny `IO<T>` can suspend any synchronous operation, including in-memory mutation; it does not statically distinguish I/O from other effects.
+
+Here is the thesis of this article: **`IO<T>` lets us compose effectful operations without performing them during composition, then performs them in the encoded sequence at an explicit boundary.**
 
 That raises the practical question: why can the effectful code not remain an ordinary function? Why not call it inside `Map` or `Select`, just as we do with pure functions? C# accepts that code. `Enumerable.Select` makes clear what reasoning power is lost.
 
@@ -180,8 +261,6 @@ effectful function   IO.Delay       Map / FlatMap        UnsafeRun
    () -> T        ->   IO<T>     ->    IO<TResult>    ->  result + effects
                          construction      composition          execution
 ```
-
-> **Historical context:** Non-strict languages such as Haskell cannot rely on evaluation order to determine when, or whether, an effectful expression is forced. Monadic I/O encodes the order in which actions are performed while keeping those actions referentially transparent values. Simon Peyton Jones and Philip Wadler describe that design in [*Imperative functional programming*](https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/). C# is already strict and specifies expression evaluation order. In C#, this wrapper is not buying basic ordering or language-enforced purity; it is buying **reification**: the ability to name, store, pass, duplicate, compose, or decline an effect before running it.
 
 ```csharp
 IO<decimal> request =
