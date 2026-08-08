@@ -81,7 +81,7 @@ C# already evaluates eagerly and specifies expression order, so this wrapper is 
 
 That raises the practical question: why can the effectful code not remain an ordinary function? Why not call it inside `Map` or `Select`, just as we do with pure functions? C# accepts that code. `Enumerable.Select` makes clear what reasoning power is lost.
 
-> **Scope:** This is a teaching model, not a recommendation to replace normal C# application structure or the Task-based Asynchronous Pattern (TAP). The examples target C# 10 and .NET 6 or later.
+> **Scope:** This is a teaching model, not a recommendation to replace normal C# application structure or the Task-based Asynchronous Pattern (TAP). It does not enforce purity or provide stack safety, async execution, cancellation, concurrency, or thread safety. The examples target C# 10 and .NET 6 or later.
 
 ## Why not compose the function directly?
 
@@ -518,18 +518,6 @@ IO<string> firstLine =
 `release` runs if resource acquisition succeeded, even when `use` fails. This tiny `Bracket` has deliberately simple failure semantics: if both `use` and `release` fail, the release exception replaces the earlier exception. Production effect libraries preserve richer error information.
 
 No generic `IO<T>` can roll back an arbitrary email, file write, or remote command. Rollback requires an operation-specific transaction or compensating action.
-
-## Runtime semantics and limitations
-
-This model is deliberately small:
-
-* **Execution.** Delegates run synchronously on the caller's thread without scheduling or memoization; combinators sequence left to right, and exceptions propagate unless `Attempt` converts them.
-* **Purity and inspection.** C# cannot enforce pure construction, and the stored `Func<T>` is opaque.
-* **Stack safety.** Deep chains can cause an uncatchable `StackOverflowException`; a stack-safe design needs an explicit instruction interpreter.
-* **Async and threads.** There is no async, cancellation, concurrency, or thread-safety guarantee; captured state can race.
-* **Policies and cost.** Resource safety, retry, and transactions require explicit combinators, while every wrapper allocates and retains its captures.
-
-The testing benefit is correspondingly narrow: a fake can verify that composition performs no request and that each `UnsafeRun()` performs it again.
 
 ## Conclusion
 
