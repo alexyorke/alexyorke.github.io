@@ -89,7 +89,31 @@ The list is not doing anything wrong. It owns the rule for invoking its function
 
 Pure functions are easy to move between those contexts because invoking them has no outside consequence. With an effectful function, the context's invocation rule becomes observable.
 
-## From an immediate result to a suspended computation
+Why does that matter beyond avoiding a surprise API bill? A pure expression is **referentially transparent**: you can replace it with its result without changing what the program means. If `CalculateLineTotal(2, 19.99m, 0.13m)` returns the same value every time, a caller may evaluate it early, evaluate it later, or reuse the value. Those choices do not change the outside world.
+
+Now consider a tiny stateful function:
+
+```csharp
+private static int count = 0;
+
+public static int Next()
+{
+    count++;
+    return count;
+}
+```
+
+Starting from zero, `Next() + Next()` produces `1 + 2`, or `3`. If we make what looks like an ordinary algebraic simplification and write `2 * Next()`, the result is `2` and the counter changes only once. Repeating or rearranging the call changed both the returned value and the state of the program.
+
+A remote request has the same problem, even when it is less obvious. Calling it twice may consume twice the quota; moving it may send the request before validation; skipping it may mean an audit record is never written. Effectful functions are not defective functions, but you cannot reason about their calls as though they were ordinary substitutions. Their timing and order matter.
+
+`IO<T>` does not make `Next`, file access, or network access pure. Instead, it moves the actual call behind a value. Constructing an `IO<T>` says, "Here is how to perform this operation later." If construction itself remains free of effects, that description can be passed around and combined without changing the world. `FlatMap` then records which description depends on the result of another. Nothing runs merely because you connected the pieces.
+
+This distinction is especially useful in non-strict functional languages such as Haskell, where an unused expression may never be evaluated and independent pure expressions may be evaluated when convenient. Haskell represents `IO` actions as values and gives the final action to `main`, where the runtime performs it. C# is eager and already defines evaluation order, so our small `IO<T>` is not fixing C#'s execution rules. We are borrowing the useful separation between describing work and performing it.
+
+The practical shift is small: instead of asking a helper to perform an effect and return its result, ask it to return a value describing that effect. We can then build the whole workflow one operation at a time.
+
+## Return the work instead of doing it
 
 `FetchCurrentPrice` has to send its request before it can return a `decimal`. To separate constructing the request from performing it, change the return type:
 
@@ -123,7 +147,7 @@ List<IO<decimal>> requests =
 
 The list still maps immediately. It calls `FetchCurrentPriceIO` three times and creates three `IO<decimal>` values, but none of the stored API calls has run. We changed what the function returns, not how the list works.
 
-Do not overcomplicate `IO<T>` yet. At this point it is a deliberately named wrapper around a `Func<T>`:
+Nothing mystical is happening here. At this point, `IO<T>` is a deliberately named wrapper around a `Func<T>`:
 
 * `Pure` lifts a value that is already available.
 * `Delay` stores work that should happen later.
@@ -146,7 +170,7 @@ C# evaluates method arguments before calling the method. `Pure` can wrap the res
 
 ## A small `IO<T>`
 
-Here is the complete core used in the main article:
+Here is the complete implementation used in this article:
 
 ```csharp
 using System;
@@ -370,286 +394,6 @@ This does not make the underlying file access or API request pure, and it does n
 
 Keep pure calculations as ordinary functions, return `IO<T>` from the effectful helpers you want to defer, compose without forcing those values, and call `UnsafeRun()` near the application boundary.
 
-This implementation is a synchronous teaching model, not a replacement for the Task-based Asynchronous Pattern or normal C# application structure. The appendix collects the theory, conveniences, and limitations that are useful after the core idea makes sense.
+This is a synchronous teaching model: C# does not enforce pure construction, and the type is not a replacement for the Task-based Asynchronous Pattern or normal C# application structure.
 
 Exercise for the reader: open your IDE and implement `IO<T>` from scratch without AI assistance. Use a counter to prove that construction, `Map`, and `FlatMap` do nothing immediately, then prove that every call to `UnsafeRun()` increments the counter again.
-
-## Appendix
-
-<details markdown="1">
-<summary markdown="span">Why functional programming talks about IO</summary>
-
-### Referential transparency and evaluation order
-
-Pure functional programming starts from a reasoning model that resembles algebra:
-
-```text
-x = 5 + 1
-y = 4 + 9 - 2
-w = y + x
-z = y + y + x
-```
-
-It does not matter whether `x` or `y` is evaluated first. Because `w` does not contribute to `z`, it need not be evaluated at all. Once we know `y` is `11`, we can replace either occurrence of `y` with `11` or rewrite `z` as `2y + x` without changing the answer.
-
-This is **referential transparency**: replacing an expression with its value preserves the program's meaning. It supports **equational reasoning**, where ordinary algebraic transformations remain safe.
-
-A stateful counter breaks that rule:
-
-```csharp
-private static int count = 0;
-
-public static int Next()
-{
-    count++;
-    return count;
-}
-```
-
-Starting from zero, `Next() + Next()` produces `1 + 2`, or `3`. Rewriting it as `2 * Next()` invokes the counter once and produces `2`. A harmless algebraic rewrite changed both the answer and the number of state changes.
-
-Lazy evaluation makes the issue especially visible. In a non-strict language such as Haskell, an expression is evaluated only when its value is needed:
-
-```haskell
-main = print result
-  where
-    a = 10
-    unused = undefined
-    b = 20
-    result = a + b
-```
-
-Evaluating `undefined` would fail, but `unused` is never demanded, so this program prints `30`. Skipping an unused pure expression only saves work. If an unused expression silently contained a file write, skipping it would change the world.
-
-Haskell's `IO` represents actions as values and exposes the final action as `main`, which the runtime performs. `FlatMap`-style composition adds the required data dependency and effect order without performing the actions during construction. Simon Peyton Jones and Philip Wadler describe this approach in [*Imperative functional programming*](https://www.microsoft.com/en-us/research/publication/imperative-functional-programming/).
-
-C# is already eager and specifies expression-evaluation order. The tiny `IO<T>` in this article is therefore not repairing C#'s evaluation semantics. It borrows the separation between describing and performing work so effectful operations can be named, stored, returned, and composed before execution.
-
-</details>
-
-<details markdown="1">
-<summary markdown="span">A related example with deferred LINQ</summary>
-
-### `IEnumerable.Select` has its own execution policy
-
-The main article uses the eager `List.Map` model from Part 1. Real LINQ-to-Objects `Enumerable.Select` is deferred:
-
-```csharp
-IEnumerable<decimal> prices =
-    productIds.Select(productId =>
-        remotePriceApi.GetCurrentPrice(productId));
-
-// Select has sent no requests yet.
-
-List<decimal> firstRead = prices.ToList();
-// Three requests.
-
-List<decimal> secondRead = prices.ToList();
-// The same three calls run again.
-```
-
-If nobody enumerates the sequence, no request is sent. Enumerating it twice sends the requests twice. A lazy or mutable source may even provide different product IDs on the second enumeration.
-
-`IEnumerable<T>` defers a many-value traversal. It does not mark one explicit effect boundary or promise exactly one result. This is another example of the host abstraction deciding whether, when, and how often it invokes the supplied function.
-
-</details>
-
-<details markdown="1">
-<summary markdown="span">Optional C# query syntax</summary>
-
-### Adding `Select` and `SelectMany`
-
-C# query syntax works through methods rather than a required interface. Add these methods to `IO<T>`:
-
-```csharp
-public IO<TResult> Select<TResult>(
-    Func<T, TResult> selector) =>
-    Map(selector);
-
-public IO<TResult> SelectMany<TNext, TResult>(
-    Func<T, IO<TNext>> next,
-    Func<T, TNext, TResult> project)
-{
-    ArgumentNullException.ThrowIfNull(next);
-    ArgumentNullException.ThrowIfNull(project);
-
-    return FlatMap(value =>
-    {
-        IO<TNext> nextComputation = next(value);
-
-        if (nextComputation is null)
-        {
-            throw new InvalidOperationException(
-                "SelectMany selector returned null.");
-        }
-
-        return nextComputation.Map(
-            nextValue => project(value, nextValue));
-    });
-}
-```
-
-The order-report workflow can then be written as a query expression:
-
-```csharp
-public static IO<Unit> LoadOrderAndWriteReportQuery(
-    IRemotePriceApi remotePriceApi,
-    string orderPath,
-    string reportPath)
-{
-    return
-        from contents in ReadAllTextIO(orderPath)
-        let order = ParseOrder(contents)
-        from unitPrice in FetchCurrentPriceIO(
-            remotePriceApi,
-            order.ProductId)
-        let total = CalculateLineTotal(
-            order.Quantity,
-            unitPrice,
-            order.TaxRate)
-        let report = RenderReport(
-            order,
-            unitPrice,
-            total)
-        from completion in WriteAllTextIO(
-            reportPath,
-            report)
-        select completion;
-}
-```
-
-The [C# specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#12233-query-expression-translation) translates `from` to `SelectMany` and `let` to `Select`. Query syntax does not make a computation cold by itself; the behavior comes from these particular methods returning delayed `IO` values.
-
-</details>
-
-<details markdown="1">
-<summary markdown="span">Additional combinators, expected failures, and resources</summary>
-
-### Building beyond the monadic core
-
-The following optional methods give a few common policies names. `Then` sequences an independent next computation, `Zip` retains both results, and `Flatten` removes one nested `IO` layer:
-
-```csharp
-// Add these instance methods to IO<T>.
-
-public IO<TResult> Then<TResult>(
-    IO<TResult> next)
-{
-    ArgumentNullException.ThrowIfNull(next);
-    return FlatMap(_ => next);
-}
-
-public IO<(T First, TNext Second)> Zip<TNext>(
-    IO<TNext> other)
-{
-    ArgumentNullException.ThrowIfNull(other);
-
-    return FlatMap(first =>
-        other.Map(second => (first, second)));
-}
-
-// C# permits generic and non-generic types to share a name.
-public static class IO
-{
-    public static IO<T> Flatten<T>(IO<IO<T>> nested)
-    {
-        ArgumentNullException.ThrowIfNull(nested);
-        return nested.FlatMap(inner => inner);
-    }
-}
-```
-
-Exceptions normally propagate from `UnsafeRun()`. Using the `Result<TSuccess, TError>` type from [Part 2](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/), `Attempt` can turn one selected, expected exception type into a value while keeping execution deferred:
-
-```csharp
-// Add this instance method to IO<T>.
-
-public IO<Result<T, TException>> Attempt<TException>()
-    where TException : Exception
-{
-    return IO<Result<T, TException>>.Delay(() =>
-    {
-        try
-        {
-            return Result<T, TException>.Ok(
-                UnsafeRun());
-        }
-        catch (TException exception)
-            when (exception is not OperationCanceledException)
-        {
-            return Result<T, TException>.Fail(
-                exception);
-        }
-    });
-}
-```
-
-Do not routinely catch `Exception` this way. Programming errors and cancellation should normally retain their usual semantics. Turning an exception into `Result` also cannot undo an external operation that partially succeeded before throwing.
-
-Resource acquisition, use, and release must all remain inside the deferred lifetime. A small `Bracket` helper can keep them in one computation:
-
-```csharp
-// Add this method to the non-generic IO companion above.
-
-public static IO<TResult> Bracket<TResource, TResult>(
-    IO<TResource> acquire,
-    Func<TResource, IO<TResult>> use,
-    Func<TResource, IO<Unit>> release)
-{
-    ArgumentNullException.ThrowIfNull(acquire);
-    ArgumentNullException.ThrowIfNull(use);
-    ArgumentNullException.ThrowIfNull(release);
-
-    return IO<TResult>.Delay(() =>
-    {
-        TResource resource = acquire.UnsafeRun();
-
-        try
-        {
-            return use(resource).UnsafeRun();
-        }
-        finally
-        {
-            release(resource).UnsafeRun();
-        }
-    });
-}
-```
-
-For example:
-
-```csharp
-IO<string> firstLine =
-    IO.Bracket(
-        acquire: IO<StreamReader>.Delay(
-            () => File.OpenText(path)),
-        use: reader => IO<string>.Delay(
-            () => reader.ReadLine() ?? string.Empty),
-        release: reader => IO<Unit>.Delay(() =>
-        {
-            reader.Dispose();
-            return Unit.Value;
-        }));
-```
-
-`release` runs if acquisition succeeded, even when `use` throws. This tiny version has simple failure behavior: if both `use` and `release` fail, the release exception replaces the earlier one. Production effect libraries preserve richer error information.
-
-</details>
-
-<details markdown="1">
-<summary markdown="span">Runtime semantics and limitations</summary>
-
-### What this teaching model does and does not provide
-
-* It is **synchronous**. `UnsafeRun()` invokes the delegate on the caller's thread and performs no scheduling.
-* It is **cold and non-memoized**. Each `UnsafeRun()` invokes the stored delegate again.
-* C# does not enforce purity. A dishonest factory, `Map` transform, or `FlatMap` continuation can perform effects before the intended boundary.
-* Deep chains are not stack-safe because nested delegates call through nested `UnsafeRun()` frames.
-* The stored `Func<T>` is opaque. The wrapper cannot inspect, optimize, log, or reinterpret individual instructions.
-* It provides no built-in asynchronous execution, cancellation, concurrency, backpressure, or thread safety. It is not a replacement for [.NET's Task-based Asynchronous Pattern](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap).
-* It provides no automatic retry, transaction, rollback, or general resource safety. Those require explicit policies with operation-specific semantics.
-* Every combinator allocates an `IO` object and usually a closure. Captured services and data remain reachable as long as the suspended computation does.
-
-A cold asynchronous analogue starts closer to `Func<CancellationToken, Task<T>>` than to an already-created `Task<T>`, but a useful async effect type also needs deliberate cancellation, scheduling, concurrency, and resource semantics.
-
-</details>
