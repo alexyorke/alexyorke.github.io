@@ -11,6 +11,8 @@ The first two parts used the same small pattern in different contexts. We lifted
 
 Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. Calling one of these functions interacts with the world. We will call that interaction an **effect** and the function an **effectful function**.
 
+You might hear a lot that this IO monad sequences and composes effects. I can leave it there, but it's not really the full story per-se, there's a bit of unraveling. I like to know why and how it sequences effects. Part if it has to do with evaluation order in pure functional programming languages compared to procedural languages. The IO monad gives you some other niceties but we'll save that for later, it's more of an aside.
+
 In ordinary procedural C#, statement order already gives effects an obvious sequence:
 
 ```csharp
@@ -20,11 +22,78 @@ File.AppendAllText(path, "second");
 
 The first write runs before the second. Reversing, repeating, or skipping either statement changes the file. C# does not need a monad to tell it which statement comes first.
 
-But C# already sequences those writes. So what is `IO` buying us?
+If I did this for example:
+
+File.AppendAllText(path, "second")
+File.WriteAllText(path, "first")
+
+Obviously we can't do this and expect the same output, the file would have different contents.
+
+But C# already sequences those writes (well, via the semicolon) based on the order the statements are written.
+
+With pure functional programming, the evalution order is more like evaluating a math equation, or sort of like algebra. Notice that in the C# example here, we called the function and it did its thing, even though there is no "output" per se, there is no value. It's just a void method. The method was run _because_ of its effects. So, compiler optimizations are irrevalent here, even though the result is not used (well, there is no result, unless there's an exception) it still has to run.
+
+A couple asides, is that pure functional programming gives us referential transparency (the ability to substitute an expression with its result, the computation result remains the same) and equational reasoning.
+
+## Don't we have referential transparency at home (in C#?)
+
+Well, sometimes. Say you said:
+
+var x = 2 + 5
+var y = x + 3
+
+Then of course, you can say y = (2 + 5) + 3 (here we are substituting x with its content, 2 + 5). The result remains the same.
+
+Isn't it just a variable? What's so special about referential transparency, then? Whenever I have a variable of course I can make it a constant and just shove it anywhere it's the same result.
+
+It has to do with effects. Consider:
+
+var x = ConvertToNumber(ReadFile(...))
+var y = x + x + 1
+
+We cannot substitute x with ConvertToNumber(ReadFile(...)) everywhere and expect the same result. I.e.,
+
+y = ConvertToNumber(ReadFile(...)) + ConvertToNumber(ReadFile(...))
+
+Reads the file (executes the effect) twice, and there is no guarantee that it will be the same value. This is not referentially transparent. This is not a safe substitution, because if we instead stored the value in "x" first then it would be a different result to the computation. For example,
+
+var x = ConvertToNumber(ReadFile(...)) // let's say this returns 4
+
+Once evaluation is observable, three things matter that ordinarily do not matter algebraically:
+
+Whether an expression is evaluated.
+How many times it is evaluated.
+When / in what order it is evaluated.
+
+These make side effects awkward. In procedural programming, the evaluation order, how many times, and when/in what order it is evaluated is the order the statements are written as-is.
+
+If we say y = 4 + 4 + 1, this is nine, but if we evaluate ConvertToNumber(ReadFile(...)) again, there is no guarantee that that file will always be four. It's whatever the file's contents is at that time. This goes the same with other effects, calling an HTTP API, reading from a database, etc. It's interacting with the outside world.
+
+We cannot simply substitute the expression as we did in (2 + 5) and expect the computatoin to be the same everywhere.
+
+It's not a race condition per-se, imagine for example calling Console.ReadLine() to get input from the user twice. The user doens't have to enter the same thing twice. This substitution is not safe, because saving it as "x" (one copy) is a different result to that computation. The user may have entered in "5" once, if we use this everywhere, then it is different from the user entering in two different numbers on both Console.ReadLine() invocations.
+
+With effectful functions, we typically don't get equational reasoning as well. In this case, we can't simply y = ConvertToNumber(ReadFile(...)) * 2 + 1, this is not safe, because the effect runs twice before, now it runs once. The effect changes and interacts with the world, and this can change downstream execution results, giving a different result to the computation.
+
+This is why effects are "awkward", they break referential transparency, equational reasoning, etc. But, we still need effects. Otherwise our program would not be very useful.
+
+Also on equational reasoning, if we had:
+
+x = 2
+y = 6
+z = 3 + 2
+a = x + y
+
+Then we need not evaluate z, there is no point, we just want the value of "a". This becomes particularly complex with effectful functions, whereas in procedural programming statements were written in order, and executed _because_ of their effects, with pure functional programming, if the result isn't needed (i.e., lazy evaluation), it doesn't make sense to execute it because of its effects. Even if it did, it would be super confusing when those effects executed, which would be problematic (i.e., calling an HTTP api at weird times, asking for user input, etc.) That's why they need to be sequenced. We established earlier that effect invocation has a specific ordering in order for the computation to be correct.
 
 The useful change is not that `IO<T>` teaches C# how to execute statements. It turns **work that could happen later into a value we can return, store, and compose now**. `FlatMap` combines those values in dependency order, and one explicit call performs the resulting program.
 
-That is the idea for this article: construct the effectful computation first, run it later.
+IO is like a recipe for an effect, it just says "run this computation in the future". Some people refer to it as a spring-loaded computation, a recipe, instructions, or something like that.
+
+When you have this "run this computation in the future" thing, i.e., the IO monad, what it allows you to do is to sequence those effects, and compose them. It also provides ordering.
+
+When you compose your program, you compose effectful functions in the IO monad with other monads. By doing so, you are explicitly ordering them and setting their execution policy/timing. Then you return this whole thing, and the main program is responsible for executing it.
+
 
 ## When calling a function does something
 
