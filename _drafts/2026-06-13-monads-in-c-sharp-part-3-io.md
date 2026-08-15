@@ -80,7 +80,7 @@ We cannot substitute `x` with `ConvertToNumber(ReadFile(...))` everywhere and ex
 
 ```csharp
 y = ConvertToNumber(ReadFile(...))
-    + ConvertToNumber(ReadFile(...));
+    + ConvertToNumber(ReadFile(...)) + 1;
 ```
 
 This reads the file—and executes the effect—twice, and there is no guarantee that both reads will produce the same value. The substitution is not referentially transparent. Storing the value in `x` first would produce a different computation. For example:
@@ -89,8 +89,13 @@ This reads the file—and executes the effect—twice, and there is no guarantee
 var x = ConvertToNumber(ReadFile(...)); // 4
 var y = ConvertToNumber(ReadFile(...)); // 2
 // Each call may return a different number because it depends on
-// the state of the world.
+// the state of the world, i.e., the content of the file.
+// it doesn't have to be a file per-se, it could be an http request, database, etc.
 ```
+
+In this case, evaluation is observable because when we terminate the program, there is evidence that the program ran due to changes to the world. If we add 1 + 1 and throw out the result, well, there is no changes to the world, the result was discarded. However, an effectful function does change the world, and its changes persist even after the program terminates. A file is still written to even after the program terminates.
+
+Since this interacts with the world, this means that function evaluation is not guaranteed to produce the same result given the same input. This complicates things, and makes equational reasoning, referential transparency very difficult. Notice that these are foundational principals to functional programming. We have a bit of an issue here, we need effectful functions, otherwise our programs are not very useful, yet they are awkard and break a lot of the machinery that we have.
 
 Once evaluation is observable, three things matter that ordinarily do not matter algebraically:
 
