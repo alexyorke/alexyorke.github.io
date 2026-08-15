@@ -9,11 +9,11 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 The first two parts used the same small pattern in different contexts. We lifted a value, then used `FlatMap` to compose a dependent step while `List`, `Maybe`, or `Result` decided what flowed onward.
 
-Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. Calling one of these functions interacts with the world. We will call that interaction an **effect** and the function an **effectful function**. The interacting with the world is the important part.
+Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. Calling one of these functions interacts with the world. We will call that interaction an **effect** and the function an **effectful function**. Interacting with the world is the important part.
 
-On the contrary, pure functions don't interact with the world in the same way. If I add 1 + 1 and throw out the result, nothing in the world changes. If I send out an HTTP API request, then if I throw out the result, well, it's still clear that the request occurred, it changed the world (updated a database, etc.) Its effects are visible and durable even after the program terminates.
+By contrast, pure functions don't interact with the world in the same way. If I add `1 + 1` and throw out the result, nothing in the world changes. If I send an HTTP API request and throw out the result, it is still clear that the request occurred: it may have changed the world by updating a database, for example. Its effects are visible and durable even after the program terminates.
 
-Sure, that's great, of course there are functions that can read and write to files, and can change the world so to speak, heck, they can even write to databases. Why am I making this differentiation explicit? Why do effectful functions have this differentiation from non-effectful functions? And why do I need this "IO" monad to use these functions? Well, it's because effects are awkward in functional programming.
+Sure, that's great: of course there are functions that can read and write files and change the world, so to speak. They can even write to databases. Why am I making this distinction explicit? Why are effectful functions different from non-effectful functions? And why do I need this `IO` monad to use them? It is because effects are awkward in functional programming.
 
 Part of the difficulty comes from the difference between evaluation in pure functional programming and execution in procedural programming. Pure functional programming is closer to evaluating an equation than following a fixed sequence of instructions. The implementation may evaluate expressions in a different order—or not evaluate some of them at all—as long as the final result is unchanged.
 
@@ -30,53 +30,67 @@ File.AppendAllText(path, "first");
 File.AppendAllText(path, "second");
 ```
 
-The first write runs before the second. Reversing, repeating, or skipping either statement changes the file. C# does not need a monad to tell it which statement comes first, the order of statements gives the sequence (well, except for async, threading but we will ignore this for now, assuming a synchronous model.)
+The first write runs before the second. Reversing, repeating, or skipping either statement changes the file. C# does not need a monad to tell it which statement comes first; the order of statements gives the sequence. We will ignore asynchronous and multithreaded execution for now and assume a synchronous model.
 
-If I did this for example:
+If I reversed them, for example:
 
-File.AppendAllText(path, "second")
-File.AppendAllText(path, "first")
+```csharp
+File.AppendAllText(path, "second");
+File.AppendAllText(path, "first");
+```
 
-Obviously we can't do this and expect the same result, the file would have different contents, i.e., the "second" text would appear first and vice versa in the resulting file.
+We cannot expect the same result. The file would have different contents: `"second"` would appear before `"first"`.
 
-C# already sequences those writes (via the semicolon) based on the order the statements are written.
+C# already sequences those writes based on the order in which the statements are written.
 
-With pure functional programming, the evalution order is more like evaluating a math equation, or sort of like algebra. Notice that in the C# example here, we called the function and it did its thing, even though there is no "output" per se, there is no value. It's just a void method. The method was run _because_ of its effects. So, compiler optimizations are irrevalent here, even though the result is not used (well, there is no result, unless there's an exception) it still has to run. The "result" was the impact to the world, i.e., the file was appended to.
+With pure functional programming, the evaluation order is more like evaluating a mathematical equation, or doing algebra. Notice that in the C# example, we called the function and it did its thing even though there is no output value. It is a `void` method. The method ran _because_ of its effects. Even though its result is not used—because there is no result unless it throws an exception—it still has to run. The "result" was its impact on the world: the file was appended to.
 
-A couple asides, is that pure functional programming gives us referential transparency (the ability to substitute an expression with its result, the computation result remains the same) and equational reasoning.
+Two useful ideas from pure functional programming are referential transparency—the ability to substitute an expression with its result without changing the computation—and equational reasoning.
 
 ## Don't we have referential transparency at home (in C#?)
 
-Well, sometimes. Not everything is effectful in C#, obviously you can run pure functions as well, and math equations. Say you said, in C#:
+Well, sometimes. Not everything is effectful in C#; you can write pure functions and mathematical expressions too. Consider:
 
-var x = 2 + 5
-var y = x + 3
+```csharp
+var x = 2 + 5;
+var y = x + 3;
 // y = 10
+```
 
-Then of course, you can say y = (2 + 5) + 3 (here we are substituting x with its content, 2 + 5). The result remains the same.
+Then, of course, you can say `y = (2 + 5) + 3`. Here we are substituting `x` with its expression, `2 + 5`, and the result remains the same.
 
-Isn't it just a variable? What's so special about referential transparency, then? Whenever I have a variable of course I can make it a constant and just shove it anywhere it's the same result. I.e.,
+Isn't it just a variable? What's so special about referential transparency, then? Whenever I have a variable, surely I can make it a constant and put its value anywhere with the same result. For example:
 
+```csharp
 const x = 2;
-var y = x + 2
+var y = x + 2;
 // I substituted x with 2, yay for referential transparency?
+```
 
 No, C# isn't referentially transparent everywhere.
 
 It has to do with effects. Consider:
 
-var x = ConvertToNumber(ReadFile(...))
-var y = x + x + 1
+```csharp
+var x = ConvertToNumber(ReadFile(...));
+var y = x + x + 1;
+```
 
-We cannot substitute x with ConvertToNumber(ReadFile(...)) everywhere and expect the same result. I.e.,
+We cannot substitute `x` with `ConvertToNumber(ReadFile(...))` everywhere and expect the same result. That would produce:
 
-y = ConvertToNumber(ReadFile(...)) + ConvertToNumber(ReadFile(...))
+```csharp
+y = ConvertToNumber(ReadFile(...))
+    + ConvertToNumber(ReadFile(...));
+```
 
-Reads the file (executes the effect) twice, and there is no guarantee that it will be the same value. This is not referentially transparent. This is not a safe substitution, because if we instead stored the value in "x" first then it would be a different result to the computation. For example,
+This reads the file—and executes the effect—twice, and there is no guarantee that both reads will produce the same value. The substitution is not referentially transparent. Storing the value in `x` first would produce a different computation. For example:
 
-var x = ConvertToNumber(ReadFile(...)) // 4
-var y = ConvertToNumber(Readfile(...)) // 2
-// everytime this is called, there is no guarantee it will be the same number, it depends on the state of the world
+```csharp
+var x = ConvertToNumber(ReadFile(...)); // 4
+var y = ConvertToNumber(ReadFile(...)); // 2
+// Each call may return a different number because it depends on
+// the state of the world.
+```
 
 Once evaluation is observable, three things matter that ordinarily do not matter algebraically:
 
@@ -84,34 +98,36 @@ Once evaluation is observable, three things matter that ordinarily do not matter
 - How many times it is evaluated.
 - When / in what order it is evaluated.
 
-These make side effects awkward. In procedural programming, the evaluation order, how many times, and when/in what order it is evaluated is the order the statements are written as-is.
+These concerns make side effects awkward. In procedural programming, the written statements determine which effects run, how many times they run, and in what order.
 
-If we say y = 4 + 4 + 1, this is nine, but if we evaluate ConvertToNumber(ReadFile(...)) again, there is no guarantee that that file will always be four. It's whatever the file's contents is at that time. This goes the same with other effects, calling an HTTP API, reading from a database, etc. It's interacting with the outside world.
+If we say `y = 4 + 4 + 1`, the result is nine. But if we evaluate `ConvertToNumber(ReadFile(...))` again, there is no guarantee that the file will still contain four. The result depends on the file's contents at that time. The same applies to other effects, such as calling an HTTP API or reading from a database: the program is interacting with the outside world.
 
-We cannot simply substitute the expression as we did in (2 + 5) and expect the computatoin to be the same everywhere.
+We cannot simply substitute the expression as we did with `2 + 5` and expect the computation to be the same everywhere.
 
-It's not a race condition per-se, imagine for example calling Console.ReadLine() to get input from the user twice. The user doens't have to enter the same thing twice. This substitution is not safe, because saving it as "x" (one copy) is a different result to that computation. The user may have entered in "5" once, if we use this everywhere, then it is different from the user entering in two different numbers on both Console.ReadLine() invocations.
+It is not necessarily a race condition. Imagine calling `Console.ReadLine()` to get input from the user twice. The user does not have to enter the same thing twice. This substitution is unsafe because saving one result as `x` describes a different computation. Reusing a single `"5"` is not the same as asking the user for input twice and potentially receiving two different values.
 
-With effectful functions, we typically don't get equational reasoning as well. In this case, we can't simply y = ConvertToNumber(ReadFile(...)) * 2 + 1, this is not safe, because the effect runs twice before, now it runs once. The effect changes and interacts with the world, and this can change downstream execution results, giving a different result to the computation.
+With effectful functions, we typically lose equational reasoning as well. In this case, we cannot simply rewrite the expression as `y = ConvertToNumber(ReadFile(...)) * 2 + 1`. The effect ran twice before; now it runs once. Because the effect interacts with the world, that change can alter downstream execution and produce a different result.
 
-This is why effects are "awkward", they break referential transparency, equational reasoning, etc. But, we still need effects. Otherwise our program would not be very useful.
+This is why effects are "awkward": they break referential transparency and equational reasoning. But we still need effects; otherwise, our programs would not be very useful.
 
-Also on equational reasoning, if we had:
+For another example of equational reasoning, suppose we had:
 
-x = 2
-y = 6
-z = 3 + 2
-a = x + y
+```csharp
+var x = 2;
+var y = 6;
+var z = 3 + 2;
+var a = x + y;
+```
 
-Then we need not evaluate z, there is no point, we just want the value of "a". This becomes particularly complex with effectful functions, whereas in procedural programming statements were written in order, and executed _because_ of their effects, with pure functional programming, if the result isn't needed (i.e., lazy evaluation), it doesn't make sense to execute it because of its effects. Even if it did, it would be super confusing when those effects executed, which would be problematic (i.e., calling an HTTP api at weird times, asking for user input, etc.) That's why they need to be sequenced. We established earlier that effect invocation has a specific ordering in order for the computation to be correct.
+Then we need not evaluate `z`; there is no point if we only want the value of `a`. This becomes particularly complex with effectful functions. In procedural programming, statements are written in order and may be executed _because_ of their effects. With lazy evaluation in pure functional programming, if a result is not needed, there is no reason to evaluate its expression. Effects therefore need an explicit sequence: we established earlier that their invocation order can be essential to the computation's correctness.
 
 The useful change is not that `IO<T>` teaches C# how to execute statements. It turns **work that could happen later into a value we can return, store, and compose now**. `FlatMap` combines those values in dependency order, and one explicit call performs the resulting program.
 
-IO is like a recipe for an effect, it just says "run this computation in the future". Some people refer to it as a spring-loaded computation, a recipe, instructions, or something like that.
+`IO` is like a recipe for an effect: it says, "Run this computation in the future." Some people refer to it as a spring-loaded computation, a recipe, or a set of instructions.
 
-When you have this "run this computation in the future" thing, i.e., the IO monad, what it allows you to do is to sequence those effects, and compose them. It also provides ordering.
+When you have this "run this computation in the future" value—the `IO` monad—you can compose effects and specify their order.
 
-When you compose your program, you compose effectful functions in the IO monad with other monads. By doing so, you are explicitly ordering them and setting their execution policy/timing. Then you return this whole thing, and the main program is responsible for executing it.
+When you compose your program, you compose effectful functions in the `IO` monad with other monads. By doing so, you explicitly order them and set their execution policy and timing. Then you return the whole thing, and the main program is responsible for executing it.
 
 
 ## When calling a function does something
@@ -170,10 +186,10 @@ The same product ID can also produce a different price on a later call. The remo
 
 The list is not doing anything wrong. It owns the rule for invoking its function:
 
-* The eager list from Part 1 invokes it once per element.
-* `Maybe<T>` invokes it zero or one times.
-* `Result<TSuccess, TError>` invokes it only on the success path.
-* The `IO<T>` in this article invokes it only when the resulting `IO` is run.
+- The eager list from Part 1 invokes it once per element.
+- `Maybe<T>` invokes it zero or one times.
+- `Result<TSuccess, TError>` invokes it only on the success path.
+- The `IO<T>` in this article invokes it only when the resulting `IO` is run.
 
 Pure functions are easy to move between those contexts because invoking them has no outside consequence. With an effectful function, the context's invocation rule becomes observable.
 
@@ -237,11 +253,11 @@ The list still maps immediately. It calls `FetchCurrentPriceIO` three times and 
 
 Nothing mystical is happening here. At this point, `IO<T>` is a deliberately named wrapper around a `Func<T>`:
 
-* `Pure` lifts a value that is already available.
-* `Delay` stores work that should happen later.
-* `Map` transforms the eventual result.
-* `FlatMap` uses one eventual result to choose the next `IO`.
-* `UnsafeRun` performs the stored and composed work.
+- `Pure` lifts a value that is already available.
+- `Delay` stores work that should happen later.
+- `Map` transforms the eventual result.
+- `FlatMap` uses one eventual result to choose the next `IO`.
+- `UnsafeRun()` performs the stored and composed work.
 
 `Delay` means "defer evaluation." It is unrelated to `Task.Delay` and does not put anything on another thread.
 
@@ -326,7 +342,7 @@ The `Unit` *type* above is a different idea. It is a one-value stand-in for `voi
 
 Notice that `Map` is defined using `FlatMap` and `Pure`. The transform produces an ordinary value, `Pure` lifts it back into `IO`, and `FlatMap` handles the sequencing.
 
-There are calls to `UnsafeRun` inside `FlatMap`, but both sit inside the delegate stored by the newly returned `IO<TResult>`. Calling `Map` or `FlatMap` only constructs another cold value. The inner calls happen later, when somebody runs the outer computation.
+There are calls to `UnsafeRun()` inside `FlatMap`, but both sit inside the delegate stored by the newly returned `IO<TResult>`. Calling `Map` or `FlatMap` only constructs another cold value. The inner calls happen later, when somebody runs the outer computation.
 
 This wrapper does not memoize. Each `UnsafeRun()` invokes the stored delegate again, so both its effects and its result may differ on every run.
 
@@ -447,7 +463,7 @@ That one call reads the order, fetches the price, calculates and renders the rep
 
 Call `UnsafeRun()` a second time and the whole workflow runs a second time. It re-reads the file, re-fetches the price, and rewrites the report. An `IO<T>` is not a cached result; it is repeatable work.
 
-The name `UnsafeRun` does not mean memory-unsafe. It is a warning label: this is the point where the program stops merely describing effects and starts making them observable. If an operation throws, the exception propagates, later steps do not run, and effects that already happened are not automatically undone.
+The name `UnsafeRun()` does not mean memory-unsafe. It is a warning label: this is the point where the program stops merely describing effects and starts making them observable. If an operation throws, the exception propagates, later steps do not run, and effects that already happened are not automatically undone.
 
 If a helper calls `UnsafeRun()` in the middle of your call graph, it has already performed that part of the program before its caller can compose anything around it. Returning `IO<T>` keeps that choice with the outer caller.
 
@@ -482,6 +498,6 @@ This does not make the underlying file access or API request pure, and it does n
 
 Keep pure calculations as ordinary functions, return `IO<T>` from the effectful helpers you want to defer, compose without forcing those values, and call `UnsafeRun()` near the application boundary.
 
-This is a synchronous teaching model: C# does not enforce pure construction, and the type is not a replacement for the Task-based Asynchronous Pattern or normal C# application structure.
+This is a synchronous teaching model: C# does not enforce pure construction, and the type is not a replacement for the `Task`-based Asynchronous Pattern or normal C# application structure.
 
 Exercise for the reader: open your IDE and implement `IO<T>` from scratch without AI assistance. Use a counter to prove that construction, `Map`, and `FlatMap` do nothing immediately, then prove that every call to `UnsafeRun()` increments the counter again.
