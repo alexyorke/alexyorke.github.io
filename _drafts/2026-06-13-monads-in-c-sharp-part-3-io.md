@@ -9,42 +9,59 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 The first two parts used the same small pattern in different contexts. We lifted a value, then used `FlatMap` to compose a dependent step while `List`, `Maybe`, or `Result` decided what flowed onward.
 
-Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. Calling one of these functions interacts with the world. We will call that interaction an **effect** and the function an **effectful function**.
+Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. Calling one of these functions interacts with the world. We will call that interaction an **effect** and the function an **effectful function**. The interacting with the world is the important part.
 
-You might hear a lot that this IO monad sequences and composes effects. I can leave it there, but it's not really the full story per-se, there's a bit of unraveling. I like to know why and how it sequences effects. Part if it has to do with evaluation order in pure functional programming languages compared to procedural languages. The IO monad gives you some other niceties but we'll save that for later, it's more of an aside.
+On the contrary, pure functions don't interact with the world in the same way. If I add 1 + 1 and throw out the result, nothing in the world changes. If I send out an HTTP API request, then if I throw out the result, well, it's still clear that the request occurred, it changed the world (updated a database, etc.) Its effects are visible and durable even after the program terminates.
+
+Sure, that's great, of course there are functions that can read and write to files, and can change the world so to speak, heck, they can even write to databases. Why am I making this differentiation explicit? Why do effectful functions have this differentiation from non-effectful functions? And why do I need this "IO" monad to use these functions? Well, it's because effects are awkward in functional programming.
+
+Part of the difficulty comes from the difference between evaluation in pure functional programming and execution in procedural programming. Pure functional programming is closer to evaluating an equation than following a fixed sequence of instructions. The implementation may evaluate expressions in a different order—or not evaluate some of them at all—as long as the final result is unchanged.
+
+Effects make this more complicated because their behavior can depend on **when, how often, and in what order** they are performed. Writing to a file twice is observably different from writing to it once. By contrast, evaluating `1 + 1` twice instead of once makes no difference if the result is the same.
+
+There is an even more fundamental problem: sometimes we perform an effect **only for the effect itself**. Writing to the console, for example, may produce no useful value for the rest of the program. From the perspective of ordinary equational reasoning, an expression whose result is never used can simply be discarded. If you compute `1 + 1` and immediately throw away the result, there is no reason to evaluate it at all. But if the discarded expression writes to the console, skipping its evaluation also skips the very thing we wanted it to do.
+
+This tension—between treating expressions like mathematical values and needing effects to occur in a particular way—is one of the problems that `IO` is designed to solve. We will start to unravel how it does that going forward.
 
 In ordinary procedural C#, statement order already gives effects an obvious sequence:
 
 ```csharp
-File.WriteAllText(path, "first");
+File.AppendAllText(path, "first");
 File.AppendAllText(path, "second");
 ```
 
-The first write runs before the second. Reversing, repeating, or skipping either statement changes the file. C# does not need a monad to tell it which statement comes first.
+The first write runs before the second. Reversing, repeating, or skipping either statement changes the file. C# does not need a monad to tell it which statement comes first, the order of statements gives the sequence (well, except for async, threading but we will ignore this for now, assuming a synchronous model.)
 
 If I did this for example:
 
 File.AppendAllText(path, "second")
-File.WriteAllText(path, "first")
+File.AppendAllText(path, "first")
 
-Obviously we can't do this and expect the same output, the file would have different contents.
+Obviously we can't do this and expect the same result, the file would have different contents, i.e., the "second" text would appear first and vice versa in the resulting file.
 
-But C# already sequences those writes (well, via the semicolon) based on the order the statements are written.
+C# already sequences those writes (via the semicolon) based on the order the statements are written.
 
-With pure functional programming, the evalution order is more like evaluating a math equation, or sort of like algebra. Notice that in the C# example here, we called the function and it did its thing, even though there is no "output" per se, there is no value. It's just a void method. The method was run _because_ of its effects. So, compiler optimizations are irrevalent here, even though the result is not used (well, there is no result, unless there's an exception) it still has to run.
+With pure functional programming, the evalution order is more like evaluating a math equation, or sort of like algebra. Notice that in the C# example here, we called the function and it did its thing, even though there is no "output" per se, there is no value. It's just a void method. The method was run _because_ of its effects. So, compiler optimizations are irrevalent here, even though the result is not used (well, there is no result, unless there's an exception) it still has to run. The "result" was the impact to the world, i.e., the file was appended to.
 
 A couple asides, is that pure functional programming gives us referential transparency (the ability to substitute an expression with its result, the computation result remains the same) and equational reasoning.
 
 ## Don't we have referential transparency at home (in C#?)
 
-Well, sometimes. Say you said:
+Well, sometimes. Not everything is effectful in C#, obviously you can run pure functions as well, and math equations. Say you said, in C#:
 
 var x = 2 + 5
 var y = x + 3
+// y = 10
 
 Then of course, you can say y = (2 + 5) + 3 (here we are substituting x with its content, 2 + 5). The result remains the same.
 
-Isn't it just a variable? What's so special about referential transparency, then? Whenever I have a variable of course I can make it a constant and just shove it anywhere it's the same result.
+Isn't it just a variable? What's so special about referential transparency, then? Whenever I have a variable of course I can make it a constant and just shove it anywhere it's the same result. I.e.,
+
+const x = 2;
+var y = x + 2
+// I substituted x with 2, yay for referential transparency?
+
+No, C# isn't referentially transparent everywhere.
 
 It has to do with effects. Consider:
 
@@ -57,13 +74,15 @@ y = ConvertToNumber(ReadFile(...)) + ConvertToNumber(ReadFile(...))
 
 Reads the file (executes the effect) twice, and there is no guarantee that it will be the same value. This is not referentially transparent. This is not a safe substitution, because if we instead stored the value in "x" first then it would be a different result to the computation. For example,
 
-var x = ConvertToNumber(ReadFile(...)) // let's say this returns 4
+var x = ConvertToNumber(ReadFile(...)) // 4
+var y = ConvertToNumber(Readfile(...)) // 2
+// everytime this is called, there is no guarantee it will be the same number, it depends on the state of the world
 
 Once evaluation is observable, three things matter that ordinarily do not matter algebraically:
 
-Whether an expression is evaluated.
-How many times it is evaluated.
-When / in what order it is evaluated.
+- Whether an expression is evaluated.
+- How many times it is evaluated.
+- When / in what order it is evaluated.
 
 These make side effects awkward. In procedural programming, the evaluation order, how many times, and when/in what order it is evaluated is the order the statements are written as-is.
 
