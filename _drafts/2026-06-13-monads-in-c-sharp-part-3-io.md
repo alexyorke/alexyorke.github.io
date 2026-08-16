@@ -11,11 +11,13 @@ The first two parts used the same small pattern in different contexts. We lifted
 
 Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. We will call that interaction with the world an **effect**, and a function that performs one an **effectful function**.
 
-Performing an effect can matter even if its return value is discarded. An HTTP request may update a database; a successful file write can remain after the program exits. Effectful behavior can depend on **whether, how often, and in what order** operations run. Appending to a file twice is different from appending once, while evaluating the same pure arithmetic twice changes no external state.
+An effect can matter even when its return value is discarded. `Console.WriteLine(...)` returns no useful value for the next calculation, but displaying the text is still part of the program. An HTTP request may update a database, and a successful file write remains after the program exits. Throwing away a return value does not undo any of that work.
 
-Sometimes the effect is the whole reason for the call. `Console.WriteLine(...)` produces no useful value for the next calculation, but displaying the text is still part of the program. Optimizing away an unused calculation such as `1 + 1` changes no external state; omitting that console write skips the behavior we asked for.
+A pure calculation is different. If we evaluate `1 + 1` and discard `2`, nothing outside the calculation records that it happened. Repeating or skipping it changes no external state. With an effect, **whether, how often, and in what order** the operation runs can change the program's meaning.
 
-That is especially awkward in a non-strict, purely functional language such as Haskell, where evaluation is closer to solving an equation than following a fixed script. Haskell constrains expression evaluation primarily through data dependencies, so independent expressions may be evaluated in a different order or never evaluated if their values are unnecessary. Those choices are unobservable when they preserve the program's denotation. Once an operation performs an effect, however, whether and when it runs can become visible program behavior.
+`IO` is one way to compose and sequence those effects. At first, that can look like unnecessary bureaucracy: ordinary C# already executes statements in order. So what problem is `IO<T>` solving?
+
+## Why do we need this IO monad?
 
 In ordinary procedural C#, statement order already gives effects an obvious sequence:
 
@@ -24,21 +26,41 @@ File.AppendAllText(path, "first");
 File.AppendAllText(path, "second");
 ```
 
-Assuming both calls succeed, the first append runs before the second. Reversing, repeating, or skipping either statement changes the resulting file contents. The calls run _because_ of their effects, even though they return `void`. C# already supplies this sequence; our synchronous `IO<T>` will not teach C# how to order statements. We will ignore asynchronous and multithreaded execution here.
+Assuming both calls succeed, the first append runs before the second. Reversing, repeating, or skipping either statement changes the resulting file. The calls run because of their effects even though they return `void`. Procedural code therefore gives us an easy answer to "what happens next?": look at the next statement.
 
-Procedural code therefore gives us an easy answer to "what happens next?": look at the next statement. But that answer ties describing this workflow to executing it. A successful `File.AppendAllText` call performs the append before returning; in this direct form, the caller does not first receive the whole workflow as a value.
+Functional programming often reasons about expressions more like algebra. Consider:
 
-The difficulty comes when we want to reason about effectful calls like values. Pure functional programming relies on **referential transparency**: replacing an expression with another expression having the same denotation does not change the program's meaning. In a non-strict language, an unused pure expression may also remain unevaluated. Neither substitution nor omission is generally safe for an effectful expression, because running it again—or not at all—can change both its result and the outside world.
+```text
+x = 2
+y = x + 4
+z = x + y + 1
+```
 
-Referential transparency supports **equational reasoning**: we can replace equal pure expressions while preserving program meaning. A terminating pure expression's outcome does not depend on mutable external state, so evaluating it now, later, or more than once does not change externally observable behavior. An effectful call may depend on the state of the world, change that state, or both. Its invocation becomes part of the meaning, not merely an implementation detail.
+We can replace `x` with `2`, or `y` with `x + 4`, without changing the answer. This is **referential transparency**: replacing an expression with its value preserves the program's meaning. It supports **equational reasoning**, where equal expressions can be substituted just as they are in algebra.
 
-This is not an argument that effects are bad. A program that never reads input, stores data, or displays output is rarely useful. The problem is that we need effects while also wanting a predictable way to compose them. We need to say which work depends on earlier results without accidentally performing that work while assembling the program.
+An effectful expression makes those transformations observable. Consider a stateful function:
 
-`IO<T>` addresses that tension by turning **work that could happen later into a value we can return, store, and compose now**. Think of it as a recipe for an effect. `FlatMap` combines those recipes in dependency order, and one explicit call performs the resulting program.
+```csharp
+private static int count = 0;
 
-This only works if creating the recipe does not perform the operation being deferred. Constructing an `IO<T>` may validate its arguments, but running it is when the stored operation may interact with the world. That separation gives the outermost caller control over when the composed program starts.
+public static int Next()
+{
+    count++;
+    return count;
+}
+```
 
-The underlying operation is still effectful. `IO<T>` does not turn a network request into mathematics or make a file write automatically reversible. It gives the effect a value-shaped description and makes the transition from description to execution explicit.
+Starting from zero, `var next = Next(); next + next` returns `2` and leaves the counter at `1`. Replacing the variable with its expression gives `Next() + Next()`, which returns `3` and leaves the counter at `2`. The substitution changed both the answer and the outside world.
+
+This matters especially in a non-strict, purely functional language such as Haskell, where evaluation follows demand and data dependencies rather than a fixed sequence of statements. Independent pure expressions may be evaluated in another order or not at all when their values are unnecessary. Those choices are unobservable when they preserve the expression's meaning; they are not unobservable when an expression reads a file, sends a request, or changes shared state.
+
+C# is already eager and specifies evaluation order, so this tiny `IO<T>` is not repairing C#'s execution rules. It borrows the separation between describing and performing work so we can compose an effectful workflow before starting it.
+
+Effects are not bad, and we cannot eliminate them from useful programs. The problem is that we need effects while also wanting to preserve ordinary reasoning about pure expressions. We need a way to state which effectful work depends on earlier results without performing that work while we assemble the program.
+
+`IO<T>` addresses that tension by turning **work that could happen later into a value we can return, store, and compose now**. Think of it as a recipe for an effect. Constructing the recipe may validate arguments, but it does not perform the deferred operation. `FlatMap` combines recipes in dependency order, and one explicit call runs the resulting program.
+
+The underlying operation is still effectful. `IO<T>` does not turn a network request into mathematics or make a file write reversible. It gives the operation a value-shaped description and lets the outermost caller decide when execution begins.
 
 ## When calling a function does something
 
@@ -68,9 +90,7 @@ List<decimal> totals =
             taxRate: 0.13m));
 ```
 
-This eager mapping invokes the function once for each quantity and collects the results. For the inputs shown, performing this pure calculation immediately introduces no external effect.
-
-The important property is not that the calculation is simple. It is that its explicit arguments determine its outcome and calling it changes no external state. Reusing a successfully computed value does not send a request or mutate shared state.
+This eager mapping invokes the function once for each quantity and collects the results. The important property is not that the calculation is simple: its explicit arguments determine its outcome, and calling it changes no external state.
 
 Now give `Map` a function that calls a remote price service:
 
@@ -98,35 +118,9 @@ Both mappings accept a function and return a list, but the second function hides
 
 The list mapping is not doing anything wrong; it owns the rule for invoking its function. That rule was invisible with the pure calculation but is observable with the request. An eager list mapping invokes once per element, the earlier `Maybe<T>` zero or one times, the earlier `Result<TSuccess, TError>` only on success, and our `IO<T>` invokes its stored operation only when run.
 
-Pure functions move comfortably among these contexts because calling them introduces no external effect. With effectful functions, the context becomes an execution policy. It decides whether the function runs and may also determine how many effects occur before a failure stops the computation.
+Pure functions move comfortably among these contexts because invoking them has no outside consequence. With an effectful function, the context becomes an execution policy: it decides whether the function runs, how often it runs, and where a failure stops the computation.
 
-This also breaks ordinary algebraic reasoning. Consider a tiny stateful function:
-
-```csharp
-private static int count = 0;
-
-public static int Next()
-{
-    count++;
-    return count;
-}
-```
-
-Starting from zero, `Next() + Next()` produces `1 + 2`, or `3`. The apparently equivalent `2 * Next()` produces `2` and changes the counter only once. Replacing, repeating, or rearranging the call changed both the returned value and the program's state, so the usual algebraic substitution was not safe.
-
-The difference is even clearer if we evaluate once and reuse the result. `var next = Next(); next + next` returns `2` and leaves the counter at `1`. Substituting the expression for the variable gives `Next() + Next()`, which returns `3` and leaves the counter at `2`. With a pure expression those forms would be equivalent; with an effectful call they describe different programs.
-
-A remote request has the same problem, even when the mutation is less obvious. Repeating it may consume more quota, moving it may send data before validation, and skipping it may omit an audit record. Effectful functions are not defective functions; we just cannot reason about their calls as though they were ordinary values.
-
-`IO<T>` does not make those eventual operations pure. It can move each call behind a value that says, "Here is how to perform this later." If constructing that value does not perform the deferred operation, we can pass it around and use `FlatMap` to record dependencies without triggering that operation.
-
-`FlatMap` matters because later work often needs an earlier result. We cannot fetch a product's price until we know its ID, and we cannot render a report until we have the price. Composing those steps records their dependency order without performing any of them yet.
-
-This `IO<T>` is **cold**: its stored operation does not run merely because the value exists. The value can be returned from a helper, stored in a variable, or combined into a larger value. Invoking the stored operation remains a separate decision made by the code that eventually runs it.
-
-This separation is especially useful in non-strict languages such as Haskell, where unused expressions may never be evaluated. Haskell represents `IO` actions as values, and a program's `main` binding has an `IO` type. Ordinary C# method calls are eager, and C# specifies left-to-right operand and argument evaluation, so this tiny `IO<T>` borrows the separation between describing and performing work rather than fixing C#'s execution rules.
-
-The practical shift is small but important: instead of asking a helper to perform an effect and return its result, ask it to return a value describing how to produce that result. We can then build the workflow one dependent operation at a time and run the whole thing at the application boundary.
+The return type is now the problem. `FetchCurrentPrice` cannot produce a `decimal` until it sends the request, and `decimal` cannot represent a request that has not happened yet. To compose that work before performing it, the helper must return a description of the request instead.
 
 ## Return the work instead of doing it
 
@@ -234,11 +228,10 @@ public sealed class IO<T>
 }
 ```
 
-Three details are worth calling out:
+Two details are worth calling out:
 
 - Part 1 used `Unit` for the operation that lifts a value. Here that operation follows another convention and is named `Pure`. The `Unit` *type* is a separate idea: a one-value stand-in for `void`, used when an effect has no interesting result beyond completion.
 - `FlatMap` is deferred. Its calls to `UnsafeRun()` remain inside the delegate stored by the new `IO<TResult>`, so composing values performs none of the stored work. When run, it obtains the first result, constructs the dependent `IO`, and runs that next.
-- The wrapper does not memoize. Every `UnsafeRun()` invokes the stored delegate again, so its effects and result may differ on each run.
 
 ## Compose first, run later
 
