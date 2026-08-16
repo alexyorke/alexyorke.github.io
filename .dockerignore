@@ -1,0 +1,14 @@
+.git/
+.agents/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+_site/
+vendor/bundle/
+
+# Local research and generated Python data are not part of the site build.
+scratch/
+tmp/
+scripts/__pycache__/
+*.pyc

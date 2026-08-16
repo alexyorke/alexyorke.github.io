@@ -1,0 +1,14 @@
+# Keep local research and container tooling out of Jekyll's source scan.
+# Posts, drafts, pages, includes, and assets still use the main configuration.
+remote_theme: jekyll/minima@v2.5.2
+paginate: false
+
+exclude:
+  - .agents
+  - .dockerignore
+  - Dockerfile
+  - README.md
+  - compose.yaml
+  - scratch
+  - scripts
+  - tmp
