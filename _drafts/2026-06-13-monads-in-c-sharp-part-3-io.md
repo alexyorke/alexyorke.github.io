@@ -9,17 +9,19 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 The first two parts used the same small pattern in different contexts. We lifted values, then used `Map` and `FlatMap`—called `Bind` in Part 2—to compose dependent steps while `List`, `Maybe`, or `Result` decided what flowed onward.
 
+The IO monad is one approach to sequence and compose effectful computations in functional programs. the IO monad is sort of like a recipe, or deferred computation that allows you to run the effect later. But, _why_ do we need to sequence and compose effects, why are effects special? Why do we need to run it later?
+
 Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. We will call that interaction with the world an **effect**, and a function that performs one an **effectful function**.
 
 An effect can matter even when its return value is discarded. `Console.WriteLine(...)` returns no useful value for the next calculation, but displaying the text is still part of the program. An HTTP request may update a database, and a successful file write remains after the program exits. Throwing away a return value does not undo any of that work.
 
 A pure calculation is different. If we evaluate `1 + 1` and discard `2`, nothing outside the calculation records that it happened. Repeating or skipping it changes no external state. With an effect, **whether, how often, and in what order** the operation runs can change the program's meaning.
 
-`IO` is one way to compose and sequence those effects. At first, that can look like unnecessary bureaucracy: ordinary C# already executes statements in order. So what problem is `IO<T>` solving?
+`IO` is one way to compose and sequence those effects. At first, that can look like unnecessary bureaucracy: ordinary C#, or other procedural programming languages already executes statements in order. So what problem is `IO<T>` solving?
 
 ## Why do we need this IO monad?
 
-In ordinary procedural C#, statement order already gives effects an obvious sequence:
+In ordinary procedural C#, statement order already gives effects an obvious sequence, they are, well, executed procedurally:
 
 ```csharp
 File.AppendAllText(path, "first");
@@ -36,7 +38,7 @@ y = x + 4
 z = x + y + 1
 ```
 
-We can replace `x` with `2`, or `y` with `x + 4`, without changing the answer. This is **referential transparency**: replacing an expression with its value preserves the program's meaning. It supports **equational reasoning**, where equal expressions can be substituted just as they are in algebra.
+We can replace `x` with `2`, or `y` with `x + 4`, without changing the answer for z. This is **referential transparency**: replacing an expression with its value preserves the program's meaning. It supports **equational reasoning**, where equal expressions can be substituted just as they are in algebra.
 
 An effectful expression makes those transformations observable. Consider a stateful function:
 
@@ -50,7 +52,9 @@ public static int Next()
 }
 ```
 
-Starting from zero, `var next = Next(); next + next` returns `2` and leaves the counter at `1`. Replacing the variable with its expression gives `Next() + Next()`, which returns `3` and leaves the counter at `2`. The substitution changed both the answer and the outside world.
+Starting from zero, `var next = Next(); next + next` returns `2` and leaves the counter at `1`. Replacing the variable with its expression gives `Next() + Next()`, which returns `3` and leaves the counter at `2`. The substitution changed both the answer and the outside world. Therefore, this is not referentially transparent. It has an effect, something that changes in the outside world.
+
+The issue is that, effects can be a bit awkward. We need to have them, otherwise the programs won't be that useful. But they break referential transparency, equational reasoning, which isn't that great.
 
 This matters especially in a non-strict, purely functional language such as Haskell, where evaluation follows demand and data dependencies rather than a fixed sequence of statements. Independent pure expressions may be evaluated in another order or not at all when their values are unnecessary. Those choices are unobservable when they preserve the expression's meaning; they are not unobservable when an expression reads a file, sends a request, or changes shared state.
 
