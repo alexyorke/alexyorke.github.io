@@ -7,15 +7,17 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 **Previously in the series**: [List is a monad (Part 1)](https://alexyorke.github.io/2025/06/29/list-is-a-monad/) and [Monads in C# (Part 2): Result](https://alexyorke.github.io/2025/09/13/monads-in-c-sharp-part-2-result/)
 
-The first two parts used the same small pattern in different contexts. We lifted values, then used `Map` and `FlatMap`—called `Bind` in Part 2—to compose dependent steps while `List`, `Maybe`, or `Result` decided what flowed onward.
+The first two parts lifted values, then used `Map` and `FlatMap`—called `Bind` in Part 2—to compose dependent steps while `List`, `Maybe`, or `Result` decided what flowed onward.
 
-Some functions do more than calculate a value. They read or write files, ask for input, call APIs, draw to the screen, or change shared state. We will call that interaction with the world an **effect**, and a function that performs one an **effectful function**.
+Some functions also read files, ask for input, call APIs, draw to the screen, or change shared state. We call that interaction with the world an **effect**, and a function that performs one an **effectful function**.
 
-An effect can matter even when its return value is discarded. `Console.WriteLine(...)` returns no useful value for the next calculation, but displaying the text is still part of the program. An HTTP request may update a database, and a successful file write remains after the program exits. Throwing away a return value does not undo any of that work.
+An effect matters even when its return value is discarded. `Console.WriteLine(...)` returns no useful value, but displaying the text is still part of the program. A successful file write likewise remains after the program exits. An HTTP request may update a database; discarding its result does not undo that work.
 
-A pure calculation is different. If we evaluate `1 + 1` and discard `2`, nothing outside the calculation records that it happened. Repeating or skipping it changes no external state. With an effect, **whether, how often, and in what order** the operation runs can change the program's meaning.
+Useful programs need effects; without output, storage, or communication, they are just black boxes that get warm while computing.
 
-The IO monad is one way to sequence and compose effectful computations. It represents them as recipes we can compose now and run later. Why do effects need to be composed and sequenced? What problem is IO<T> solving here?
+A pure calculation is different. Evaluating and discarding `1 + 1` changes no external state. Repeating or skipping it likewise changes nothing outside the calculation. With an effect, **whether, how often, and in what order** it runs can change the program's meaning.
+
+The IO monad is one way to sequence and compose effectful computations. It represents them as recipes we can compose now and run later. What problem does that solve in C#?
 
 ## Why do we need this IO monad?
 
@@ -26,7 +28,7 @@ File.AppendAllText(path, "first");
 File.AppendAllText(path, "second");
 ```
 
-Assuming both calls succeed, the first append runs before the second. Reversing, repeating, or skipping either statement changes the file. The calls run for their effects even though they return `void`. Procedural code answers "what happens next?" with the next statement.
+Assuming both calls succeed, the first append runs before the second. Reversing or skipping either call changes the file. Although they return `void`, the calls run for their effects; the next statement answers "what happens next?"
 
 Functional programming often reasons about expressions more like algebra. Consider:
 
@@ -36,9 +38,9 @@ y = x + 4
 z = x + y + 1
 ```
 
-We can replace `x` with `2`, or `y` with `x + 4`, without changing `z`. This is **referential transparency**: replacing an expression with its value preserves the program's meaning. It supports **equational reasoning**, where equal expressions can be substituted as in algebra.
+Replacing `x` with `2`, or `y` with `x + 4`, leaves `z` unchanged. This is **referential transparency**: replacing an expression with its value preserves meaning. It supports **equational reasoning**, where equal expressions can be substituted as in algebra.
 
-So, if you were to calculate the value of y, then you need not calculate the value of z, that's a waste of time.
+If we only need `y`, calculating `z` would be wasted work.
 
 In Haskell,
 
@@ -53,7 +55,7 @@ main = do
 
     print y
 ```
-Output is:
+It prints:
 
 ```
 calculating y
@@ -61,9 +63,9 @@ calculating x
 6
 ```
 
-Z is never calculated. This is an issue with effectful functions, because, well, the act of running them _is_ its result.
+`z` is never evaluated. With an effectful expression, however, evaluation itself changes the world.
 
-In procedural programs, or, well, C#:
+Eager C# behaves differently:
 
 ```
 using System;
@@ -81,7 +83,7 @@ int z = Calculate("z", x + y + 1);
 Console.WriteLine(y);
 ```
 
-This returns:
+It prints:
 
 ```
 calculating x
@@ -90,9 +92,9 @@ calculating z
 6
 ```
 
-This doesn't really have anything to do with compiler optimizations, the method was run _because_ of its effects. "z" was never used, in fact maybe was calculated and its result discarded, yet the method still ran.
+Although `z` is unused, its initializer still runs—and prints—because C# evaluates the statement eagerly. The result is discarded, but the effect remains.
 
-We also can't say, for effectful functions in general:
+Effectful functions also resist substitution:
 
 ```
 x = ReadFile(...)
@@ -134,6 +136,8 @@ List<decimal> totals =
 
 This eager mapping invokes the function once for each quantity and collects the results.
 
+Because the calculation is pure, that invocation policy has no outside consequence.
+
 Now give `Map` a function that calls a remote price service:
 
 ```csharp
@@ -154,11 +158,11 @@ List<decimal> prices =
         FetchCurrentPrice(remotePriceApi, productId));
 ```
 
-The sequential `Map` used here calls `FetchCurrentPrice` three times immediately, in list order. If the second call throws, the third is never reached. The same product ID may produce a different price later, and each request may consume quota or affect throttling.
+This sequential `Map` calls `FetchCurrentPrice` three times immediately, in order. If the second call throws, the third is never reached.
 
 Both mappings accept a function and return a list, but the second function hides an interaction with the world behind its `decimal` result. Its return type says nothing about when the request occurs. Changing invocation frequency does not add external effects to the first mapping, but it can materially change the second.
 
-The list mapping owns the rule for invoking its function. That rule is unobservable with the pure calculation but observable with the request: an eager list mapping invokes once per element, the earlier `Maybe<T>` zero or one times, the earlier `Result<TSuccess, TError>` only on success, and our `IO<T>` only when run. With an effectful function, the context decides whether it runs, how often, and where a failure stops the computation.
+The context owns the invocation rule: `List` invokes once per element, the earlier `Maybe<T>` zero or one times, the earlier `Result<TSuccess, TError>` only on success, and `IO<T>` only when run. With an effectful function, that rule determines whether it runs, how often, and where failure stops the computation.
 
 The return type is now the problem. `FetchCurrentPrice` cannot produce a `decimal` until it sends the request, and `decimal` cannot represent a request that has not happened yet. To compose that work before performing it, the helper must return a description of the request instead.
 
@@ -179,7 +183,7 @@ public static IO<decimal> FetchCurrentPriceIO(
 }
 ```
 
-Calling `FetchCurrentPriceIO` performs argument validation, but it does not send a request. It stores the request-producing function inside an `IO<decimal>`. The return type now tells callers that they received deferred work rather than an already available price.
+Calling `FetchCurrentPriceIO` validates its arguments but sends no request. It stores the request-producing function inside an `IO<decimal>`, so the return type signals deferred work rather than an available price.
 
 Now the eager list can map over the same product IDs:
 
@@ -189,7 +193,7 @@ List<IO<decimal>> requests =
         FetchCurrentPriceIO(remotePriceApi, productId));
 ```
 
-The eager list still creates three `IO<decimal>` values immediately, but none of their stored API calls runs. We changed what the function returns, not how the list works. `IO<T>` is a deliberately named wrapper around a `Func<T>`; `Delay` stores that delegate without scheduling it or moving it to another thread.
+The eager list still creates three `IO<decimal>` values, but their stored API calls do not run. We changed the function's return type, not the list. `IO<T>` wraps a `Func<T>`; `Delay` stores it without scheduling or changing threads.
 
 There is one easy mistake to make here. Passing an effectful call to `Pure` is already too late:
 
@@ -200,7 +204,7 @@ IO<decimal> notSuspended =
 // GetCurrentPrice is invoked before Pure can receive a decimal.
 ```
 
-C# evaluates method arguments before calling the method. `Pure` can wrap the resulting price, but it cannot undo the request that produced it. Use `Delay` when producing the value is itself the work you want to postpone.
+C# evaluates arguments first, so `Pure` can only wrap the price after the request; it cannot undo the work. Use `Delay` when producing the value is the work to postpone.
 
 ## A small `IO<T>`
 
@@ -266,10 +270,10 @@ public sealed class IO<T>
 }
 ```
 
-Two details are worth calling out:
+Two details matter:
 
-- Part 1 used `Unit` for the operation that lifts a value. Here that operation follows another convention and is named `Pure`. The `Unit` *type* is a separate idea: a one-value stand-in for `void`, used when an effect has no interesting result beyond completion.
-- `FlatMap` is deferred. Its calls to `UnsafeRun()` remain inside the delegate stored by the new `IO<TResult>`, so composing values performs none of the stored work. When run, it obtains the first result, constructs the dependent `IO`, and runs that next.
+- Part 1 named the lifting operation `Unit`; here it follows another convention and is named `Pure`. These are separate ideas: the `Unit` *type* stands in for `void` when an effect's only result is completion.
+- `FlatMap` is deferred because its `UnsafeRun()` calls remain inside the stored delegate, so composition performs none of the stored work. When run, it obtains the first result, constructs the dependent `IO`, and runs it.
 
 ## Compose first, run later
 
@@ -293,7 +297,7 @@ public static void LoadOrderAndWriteReportNow(
 }
 ```
 
-There is nothing inherently wrong with this version. For many C# programs it is the clearest code. It starts performing the workflow as soon as the method is called.
+There is nothing inherently wrong with this version. It may be the clearest for many C# programs, but it starts the workflow as soon as the method is called.
 
 To make construction separate from execution, first give the file operations the same delayed shape as the price request:
 
@@ -351,19 +355,19 @@ public static IO<Unit> LoadOrderAndWriteReport(
 }
 ```
 
-`Map(ParseOrder)` is appropriate because parsing is intended to be a pure transformation from text to an order. The inner `Map` likewise treats calculation and rendering as pure transformations. The two `FlatMap` calls are where a result determines the next effectful computation.
+The two `Map` calls treat parsing, calculation, and rendering as pure transformations. The two `FlatMap` calls handle points where a result determines the next effectful computation.
 
-Constructing this pipeline performs no effects. It creates one value that describes the dependency order:
+Constructing this pipeline performs no effects; it describes the dependency order:
 
 ```text
 read -> parse -> fetch price -> calculate -> render -> write
 ```
 
-When run, `FlatMap` performs those dependent steps from left to right. The read must produce text before parsing can happen, and the price request must produce a price before the total can be calculated.
+When run, `FlatMap` follows those dependencies from left to right. The read must produce text before parsing, and the request must produce a price before calculation.
 
 ## How do you run the damn thing?
 
-Part 1 asked how to get values out of monads. With this tiny `IO<T>`, `UnsafeRun()` is the answer, but you normally want to postpone that answer until the edge of the application.
+Part 1 asked how to get values out of monads. For this tiny `IO<T>`, `UnsafeRun()` is the answer, but normally only at the application's edge.
 
 Construct the program, then run it at the application boundary:
 
@@ -381,9 +385,9 @@ On a successful run, that one call reads the order, fetches the price, calculate
 
 Calling `UnsafeRun()` again repeats the workflow: it re-reads the file, re-fetches the price, and rewrites the report. An `IO<T>` is repeatable work, not a cached result.
 
-`UnsafeRun()` is a warning label, not memory-unsafe: this is where effects become observable. If an operation throws, the exception propagates, later steps do not run, and completed effects are not undone.
+`UnsafeRun()` is a warning label, not memory-unsafe: effects become observable here. Exceptions propagate, later steps do not run, and completed effects are not undone.
 
-If a helper calls `UnsafeRun()` in the middle of your call graph, it has already performed that part of the program before its caller can compose anything around it. Returning `IO<T>` keeps that choice with the outer caller.
+Calling `UnsafeRun()` inside a helper performs work before its caller can compose around it. Returning `IO<T>` keeps that choice with the outer caller.
 
 ## Monad Laws
 
@@ -393,14 +397,14 @@ If a helper calls `UnsafeRun()` in the middle of your call graph, it has already
 2. **Right identity:** `m.FlatMap(x => IO<T>.Pure(x))` behaves the same as `m`. Passing a result through `Pure` should not change the computation.
 3. **Associativity:** `m.FlatMap(f).FlatMap(g)` behaves the same as `m.FlatMap(x => f(x).FlatMap(g))`. Regrouping dependent steps should not change their result or effect order.
 
-"Behaves the same" does not mean wrapper reference equality. Here, successful runs return equal results and perform the same effects in the same order. Object allocation, exception stack traces, and other runtime diagnostics are outside that notion of observation.
+"Behaves the same" is not wrapper reference equality: successful runs return equal results and perform the same effects in the same order. Runtime diagnostics, such as allocations and exception stack traces, are outside that observation.
 
-There is an important C# caveat. These comparisons assume each side starts from equivalent state and that `f` and `g` only *construct* non-null `IO` values without throwing, calling `UnsafeRun()`, or performing other observable work. C# does not enforce those restrictions. If a continuation violates them, the stated equivalences need not hold.
+These comparisons assume equivalent starting state and that `f` and `g` only construct non-null `IO` values without throwing, calling `UnsafeRun()`, or performing other observable work. C# does not enforce those restrictions, so violating them can break the equivalences.
 
 ## Conclusion
 
-A synchronous function that directly returns the `T` produced by an effect must perform that effect before returning. A function that returns `IO<T>` can instead construct a cold value describing how to produce it later.
+A function returning the `T` produced by an effect must perform it first; returning `IO<T>` can instead describe how to produce it later.
 
-`Delay` suspends effectful work, `Map` transforms its eventual result, `FlatMap` composes dependent steps, and `UnsafeRun()` makes the effects observable. This does not make file access or API requests pure. Keep pure calculations as ordinary functions, return `IO<T>` from effectful helpers you want to defer, and run the composed program near the application boundary.
+`Delay` suspends work, `Map` transforms its result, `FlatMap` composes dependent steps, and `UnsafeRun()` makes effects observable. This does not make file access or API requests pure. Keep pure calculations as ordinary functions, return `IO<T>` from effectful helpers you want to defer, and run the composed program near the application boundary.
 
-This is a synchronous teaching model, not a replacement for the `Task`-based Asynchronous Pattern or normal C# application structure. As an exercise, implement `IO<T>` without AI assistance and use a counter to prove that construction, `Map`, and `FlatMap` do not invoke the stored operation while every `UnsafeRun()` invokes it again.
+This synchronous teaching model is not a replacement for the `Task`-based Asynchronous Pattern or normal C# application structure. As an exercise, implement it without AI assistance and use a counter to show that construction, `Map`, and `FlatMap` remain cold while every `UnsafeRun()` invokes the operation again.
