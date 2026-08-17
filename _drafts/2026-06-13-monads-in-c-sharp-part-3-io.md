@@ -100,19 +100,9 @@ y = ReadFile(...)
 z = x + y
 ```
 
-We cannot substitute z with 2 * x, even though they are reading the same file, because each execution can return a different result. It would change program behavior, and no referential transparency here. This makes it a bit awkward to program with effects, even though we need them, it violates a lot of pure functional programming's principals.
+Effects make substitution observable: two file reads may return different values, so replacing `x + y` with `2 * x` can change the program. In non-strict Haskell, demand determines whether and when expressions run; C# is eager, so this tiny `IO<T>` is not fixing its evaluation order.
 
-The problem is not that effects exist—we need them for useful programs—but that they make ordinary substitutions observable. We still want to reason about pure expressions while stating which effectful work depends on earlier results.
-
-This matters especially in a non-strict, purely functional language such as Haskell, where evaluation follows demand and data dependencies rather than a fixed sequence of statements. Independent pure expressions may be evaluated in another order or not at all when their values are unnecessary. Those choices are unobservable when they preserve the expression's meaning; they are not unobservable when an expression reads a file, sends a request, or changes shared state.
-
-C# is already eager and specifies evaluation order, so this tiny `IO<T>` is not repairing C#'s execution rules. It borrows the separation between describing and performing work so we can compose an effectful workflow before starting it.
-
-The useful change is not evaluation order itself; it is making the plan of work available before execution begins.
-
-`IO<T>` addresses that tension by turning **work that could happen later into a value we can return, store, and compose now**. Think of it as a recipe for an effect. Constructing the recipe may validate arguments, but it does not perform the deferred operation. `FlatMap` combines recipes in dependency order, and one explicit call runs the result.
-
-The underlying operation is still effectful. `IO<T>` does not turn a network request into mathematics or make a file write reversible. It gives the operation a value-shaped description and lets the outermost caller decide when execution begins.
+Instead, `IO<T>` represents effectful work as a deferred recipe. `FlatMap` composes recipes in dependency order, and the outer caller starts it. The operations remain effectful; only their execution is postponed.
 
 ## When calling a function does something
 
