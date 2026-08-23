@@ -13,24 +13,24 @@ Some functions also read files, ask for input, call APIs, draw to the screen, or
 
 An effect matters even when its return value is discarded. `Console.WriteLine(...)` returns no useful value, but displaying the text is still part of the program. A successful file write likewise remains after the program exits. An HTTP request may update a database; discarding its result does not undo that work.
 
-Useful programs need effects; without output, storage, or communication, they are just black boxes that get warm while computing.
+Useful programs need effects; without output, storage, or communication, they are just black boxes that get warm while computing with no output or indication that a computation occured.
 
 A pure calculation is different. Evaluating and discarding `1 + 1` changes no external state. Repeating or skipping it likewise changes nothing outside the calculation. With an effect, **whether, how often, and in what order** it runs can change the program's meaning.
 
-The IO monad is one way to sequence and compose effectful computations. It represents them as recipes we can compose now and run later. What problem does that solve in C#?
+The IO monad is one way to sequence and compose effectful computations, sort of like recipes or deferred computations in functional programming. Sure that's great and all, but what are effectful computations, why do we need to sequence them, and _why_ do we need an IO monad for this? Why are effects so special?
 
 ## Why do we need this IO monad?
 
-In ordinary procedural C#, statement order already gives effects an obvious sequence:
+In ordinary procedural programming, using the familar C# language as a stand-in, statement order already gives effects an obvious sequence:
 
 ```csharp
 File.AppendAllText(path, "first");
 File.AppendAllText(path, "second");
 ```
 
-Assuming both calls succeed, the first append runs before the second. Reversing or skipping either call changes the file. Although they return `void`, the calls run for their effects; the next statement answers "what happens next?"
+Assuming both calls succeed, the first append runs before the second. Reversing or skipping either call changes the file. Although they return `void`, the calls run for their effects; the next statement answers "what happens next?" Pretty standard.
 
-Functional programming often reasons about expressions more like algebra. Consider:
+Functional programming often reasons about expressions more like algebra. This changes the execution model a lot from next-next-next to something a lot different. Consider:
 
 ```text
 x = 2
@@ -38,7 +38,7 @@ y = x + 4
 z = x + y + 1
 ```
 
-Replacing `x` with `2`, or `y` with `x + 4`, leaves `z` unchanged. This is **referential transparency**: replacing an expression with its value preserves meaning. It supports **equational reasoning**, where equal expressions can be substituted as in algebra.
+Replacing `x` with `2`, or `y` with `x + 4`, leaves `z` with the same resultant value if it were to be evaluated. This is **referential transparency**: replacing an expression with its value preserves meaning. It supports **equational reasoning**, where equal expressions can be substituted as in algebra. I mean, it's algebra.
 
 If we only need `y`, calculating `z` would be wasted work.
 
@@ -63,13 +63,11 @@ calculating x
 6
 ```
 
-`z` is never evaluated. With an effectful expression, however, evaluation itself changes the world.
+`z` is never evaluated. Why would it need to be? It's not used. With an effectful expression, however, evaluation itself changes the world. Recall that evaluating the file append text function earlier, even though it didn't have a result that was used, well, it was still evaluated.
 
-Eager C# behaves differently:
+Procedural programming behaves differently:
 
 ```
-using System;
-
 static int Calculate(string name, int value)
 {
     Console.WriteLine($"calculating {name}");
@@ -92,79 +90,38 @@ calculating z
 6
 ```
 
-Although `z` is unused, its initializer still runs—and prints—because C# evaluates the statement eagerly. The result is discarded, but the effect remains.
+Although `z` is unused, its initializer still runs—and prints—because C# evaluates the statement eagerly. The result is discarded, but the effect remains, the effect here is the writing-to-screen part.
 
 Effectful functions also resist substitution:
 
 ```
-x = ReadFile(...)
-y = ReadFile(...)
+x = ReadFile(...) // let's say this returns "2" this time
+y = ReadFile(...) // could return "2" or "3" or anything else, depends on the file
 z = x + y
 ```
 
-Effects make substitution observable: two file reads may return different values, so replacing `x + y` with `2 * x` can change the program. In non-strict Haskell, demand determines whether and when expressions run; C# is eager, so this tiny `IO<T>` is not fixing its evaluation order.
+Doesn't have to be a file, could be an HTTP API, database, etc.
+
+Effects make substitution observable: two file reads may return different values, so replacing `x + y` with `2 * x`, even though x and y refer to the same function, can change the program. Wouldn't that be disasterous for algebra, not even sure if you could call it algebra anymore.
+
+It would be pretty brutal for algebra, where you cannot say that:
+
+x = 2
+y = x + 4
+z = x + x
+a = x + x
+
+a != z
+
+We can't say a == z because evaluating x could, theoretically, be different each time. Eeeeeeeah.
+
+Yikes. This can make reasoning about programs more difficult. Or what if you needed to know how many times "x" was used in previous calculations? Yikes is right.
+
+So, we need effects, but effects are a bit awkward. When they run, how often, in what sequence, etc. _is_ their output so to speak. This makes it complicated when referential transparency, equational reasoning, etc. is to be preserved.
 
 Instead, `IO<T>` represents effectful work as a deferred recipe. `FlatMap` composes recipes in dependency order, and the outer caller starts it. The operations remain effectful; only their execution is postponed.
 
-## When calling a function does something
-
-Let us start with the kind of function we passed to `Map` in Part 1. This price calculation is intended to be pure: its explicit inputs determine its outcome, and calling it changes no state outside the function.
-
-```csharp
-public static decimal CalculateLineTotal(
-    int quantity,
-    decimal unitPrice,
-    decimal taxRate)
-{
-    decimal subtotal = quantity * unitPrice;
-    return subtotal + subtotal * taxRate;
-}
-```
-
-As in Part 1, I will use `Map` as C#-ish shorthand for an eager list transformation; one familiar built-in spelling is `Select(...).ToList()`:
-
-```csharp
-var quantities = new List<int> { 1, 2, 3 };
-
-List<decimal> totals =
-    quantities.Map(quantity =>
-        CalculateLineTotal(
-            quantity,
-            unitPrice: 19.99m,
-            taxRate: 0.13m));
-```
-
-This eager mapping invokes the function once for each quantity and collects the results.
-
-Because the calculation is pure, that invocation policy has no outside consequence.
-
-Now give `Map` a function that calls a remote price service:
-
-```csharp
-public static decimal FetchCurrentPrice(
-    IRemotePriceApi remotePriceApi,
-    string productId)
-{
-    return remotePriceApi.GetCurrentPrice(productId);
-}
-```
-
-```csharp
-var productIds =
-    new List<string> { "A-100", "B-200", "C-300" };
-
-List<decimal> prices =
-    productIds.Map(productId =>
-        FetchCurrentPrice(remotePriceApi, productId));
-```
-
-This sequential `Map` calls `FetchCurrentPrice` three times immediately, in order. If the second call throws, the third is never reached.
-
-Both mappings accept a function and return a list, but the second function hides an interaction with the world behind its `decimal` result. Its return type says nothing about when the request occurs. Changing invocation frequency does not add external effects to the first mapping, but it can materially change the second.
-
-The context owns the invocation rule: `List` invokes once per element, the earlier `Maybe<T>` zero or one times, the earlier `Result<TSuccess, TError>` only on success, and `IO<T>` only when run. With an effectful function, that rule determines whether it runs, how often, and where failure stops the computation.
-
-The return type is now the problem. `FetchCurrentPrice` cannot produce a `decimal` until it sends the request, and `decimal` cannot represent a request that has not happened yet. To compose that work before performing it, the helper must return a description of the request instead.
+When we defer execution of IO, this allows us to sequence and compose it, i.e., the primary things that made it awkward and difficult to do in functional programming. Sequencing is the act of making it run in a specific sequence. In procedural programming, the sequence was defined by statement order, in functional programming it may not be so.
 
 ## Return the work instead of doing it
 
@@ -175,9 +132,6 @@ public static IO<decimal> FetchCurrentPriceIO(
     IRemotePriceApi remotePriceApi,
     string productId)
 {
-    ArgumentNullException.ThrowIfNull(remotePriceApi);
-    ArgumentNullException.ThrowIfNull(productId);
-
     return IO<decimal>.Delay(
         () => remotePriceApi.GetCurrentPrice(productId));
 }
@@ -185,26 +139,15 @@ public static IO<decimal> FetchCurrentPriceIO(
 
 Calling `FetchCurrentPriceIO` validates its arguments but sends no request. It stores the request-producing function inside an `IO<decimal>`, so the return type signals deferred work rather than an available price.
 
-Now the eager list can map over the same product IDs:
+## Why does deferring IO make it composable and sequencable?
 
-```csharp
-List<IO<decimal>> requests =
-    productIds.Map(productId =>
-        FetchCurrentPriceIO(remotePriceApi, productId));
-```
+When we defer IO, it allows it to be composed with other monads. The order of which it is composed allows it to run at the right time, and at the right frequency.
 
-The eager list still creates three `IO<decimal>` values, but their stored API calls do not run. We changed the function's return type, not the list. `IO<T>` wraps a `Func<T>`; `Delay` stores it without scheduling or changing threads.
+For example:
 
-There is one easy mistake to make here. Passing an effectful call to `Pure` is already too late:
+list.Map(...).FlatMap(...)
 
-```csharp
-IO<decimal> notSuspended =
-    IO<decimal>.Pure(
-        remotePriceApi.GetCurrentPrice(productId));
-// GetCurrentPrice is invoked before Pure can receive a decimal.
-```
-
-C# evaluates arguments first, so `Pure` can only wrap the price after the request; it cannot undo the work. Use `Delay` when producing the value is the work to postpone.
+The map is responsible for calling f, that's all it knows. This recipe is in effect being applied to the functions that are called, thereby sequencing the IO. After this, then do that. Nothing happens until its executed, typically you don't execute it yourself, you just return the whole composition/monad thing to the main program which executes it for you. It's like writing a list of instructions, executed one-by-one in the order you desire.
 
 ## A small `IO<T>`
 
