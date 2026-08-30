@@ -1,274 +1,276 @@
 # MONAD IO Issues
 
-This is the consolidated working brief for revising Part 3. It answers two questions only: what readers in the sampled material report finding confusing, frustrating, or misleading about IO/Monad tutorials, and what should change in the current C# article as a result.
+This is the working brief for revising Part 3. It answers two questions: what readers in the sampled material find confusing, frustrating, or misleading about IO and Monad tutorials, and which of those problems actually occur in the current C# article.
 
-The findings combine ten focused tutorial audits, official Haskell and library documentation, title-matching Hacker News submissions and related threads found in searches run August 23, 2026, sampled discussions on Reddit, Lobsters, Stack Overflow, and language forums, and a YouTube comment corpus. An independent ten-agent web/source verification pass followed on August 29, 2026. This remains a bounded exploratory review. Community reactions are anecdotal evidence of reported friction and useful counterexamples; they do not establish prevalence, causation, consensus, or technical truth. Primary documentation remains the authority for semantics.
+The latest review changes the earlier diagnosis in one important way: **Part 3 does not need a structural rewrite.** Its main teaching path is already strong. The serious problems are concentrated in a few passages about evaluation order, referential transparency, deferral, and composition. Those passages should be replaced, while the implementation, workflow, execution boundary, laws, and conclusion structure should remain in place.
 
-The supplied workbook is a convenience sample, not a representative inventory. Its 699 data rows contained 651 YouTube URL rows, representing 371 unique video IDs and 280 duplicate URL rows. Unauthenticated `yt-dlp` collection recovered metadata for 365 videos; 175 metadata files contained comments, totaling 10,715 unique comments and replies (6,515 top-level comments and 4,200 replies). Six IDs lacked metadata, and inaccessible, deleted, hidden, or incompletely retrieved comments are absent.
+The evidence combines ten tutorial audits; official Haskell, C#, and library documentation; Hacker News submissions and related threads found in searches run August 23, 2026; selected discussions on Reddit, Lobsters, Stack Overflow, and language forums; and a YouTube comment corpus. A separate ten-agent source-verification pass followed on August 29. The final adversarial review used two mirrored teams of ten: nine isolated specialists argued for revision, nine isolated specialists argued for preservation, and one liaison on each side exchanged the teams' challenges. Neither team edited the article or this report. Both liaisons reached the same conclusion: preserve the architecture and make localized correctness repairs.
 
-Rule-based screening labeled 198 videos programming- or effect-related, not necessarily IO-specific. Seventy-two had retrieved comments, yielding 7,274 comments; English-keyword regexes and a question-mark rule flagged 2,075 candidates for manual inspection. These overlapping, lexically broad labels can misclassify text and cannot rank actual learner confusion: 93 of 344 Haskell-tagged candidates used only generic markers, while 124 of 325 Map-tagged candidates used only ambiguous markers. A question mark alone can trigger the question label, and praise can trigger the aha label. A few popular videos dominate the sample: the top five supplied 4,954 of 7,274 analysis comments (68.1%) and 1,467 of 2,075 candidates (70.7%). The eight linked examples were manually matched to their cached video IDs, text, and collection-time likes.
+This is a bounded exploratory review, not a prevalence study. Community reactions show real examples of reported friction, but they do not establish how common a problem is or settle technical questions. Primary documentation remains the authority for semantics.
 
-## What readers find confusing, frustrating, or misleading
+The supplied YouTube workbook is also a convenience sample. Its 699 data rows contained 651 YouTube URLs and 371 unique video IDs, including 280 duplicate URL rows. Unauthenticated `yt-dlp` collection recovered metadata for 365 videos; 175 files contained comments, totaling 10,715 unique comments and replies. Six IDs lacked metadata, and inaccessible, deleted, hidden, or incompletely retrieved comments are absent. A rule-based screen labeled 198 videos programming- or effect-related, not necessarily IO-specific. Seventy-two had retrieved comments, yielding 7,274 comments; broad English-keyword and question-mark rules flagged 2,075 candidates for manual inspection. The labels overlap and cannot rank actual learner confusion. Five popular videos supplied 68.1% of the analysis comments and 70.7% of the candidates. The linked examples below were manually matched to their cached IDs, text, and collection-time likes.
 
-### 1. The payoff arrives after the abstraction
+## What readers find confusing, and how Part 3 currently fares
 
-- Readers are asked to learn Monad, type constructors, laws, Haskell syntax, or category theory before seeing the problem being solved.
-- They may follow a `Maybe` or identity example without learning why an IO program should be represented as a value, when it runs, or how this helps an application.
-- A toy example can be understandable yet non-transferable. Readers finish knowing what happened in the sample but not how to use the idea elsewhere.
-- A recurring question is: "What does this buy me over ordinary code?"
+The research produced twelve recurring concerns. The adversarial review found that only a subset applies strongly to Part 3:
 
-One detailed teaching critique, a [response to "Don't fear the Monad"](https://www.youtube.com/watch?v=ZhuHCtR3xq8&lc=UghZWwN6QT8ZxXgCoAEC), proposed this sequence: show a concrete problem in a familiar language, show the ordinary solution, expose the limitation, and then refactor toward the abstraction. A [Computerphile response](https://www.youtube.com/watch?v=t1e8gqXLbsU&lc=UgyUC32QOVtZXao6_Uh4AaABAg) makes the complementary complaint: understanding one example is not enough if the reader cannot apply the mechanism to another problem.
+| # | Tutorial problem | Part 3 verdict | Decision |
+| --- | --- | --- | --- |
+| 1 | The practical payoff arrives after the abstraction | Applies partly | Preview the C# payoff earlier, but keep the full workflow after the implementation. |
+| 2 | Too many prerequisites are introduced together | Applies partly | State the Parts 1 and 2 prerequisite and reduce Haskell to one short bridge. |
+| 3 | Monad, IO, and effects are treated as synonyms | Local but severe | Replace the current composition subsection. |
+| 4 | Deferral is confused with sequencing and execution | Local but severe | Give `Delay`, `FlatMap`, and `UnsafeRun()` separate jobs. |
+| 5 | `Map` and `FlatMap` are not motivated by their types | Applies partly | Add one compact `IO<IO<T>>` versus `IO<T>` contrast. |
+| 6 | Metaphors become false definitions | One local defect | Keep "recipe" once; delete "list of instructions." |
+| 7 | Pure evaluation, IO action order, and statement order are conflated | Local but severe | Scope the comparison to Haskell and C# and delete the `Debug.Trace` example. |
+| 8 | Referential transparency is taught with invalid substitutions | Applies strongly | Delete the file/string and algebra examples; use one stored result versus two calls. |
+| 9 | Construction, execution, and reruns remain blurry | Several local defects | Correct validation, coldness, continuation, and repeatability wording. |
+| 10 | The C# value proposition is exaggerated or dismissed | Early framing needs balance | Describe a voluntary visible boundary, not repaired language semantics. |
+| 11 | IO is equated with `Task`, async, or scheduling | Does not currently apply | Add one synchronous caller-thread sentence; do not add an async section. |
+| 12 | Failure, resources, and toy-runtime limits are omitted | Partly covered | Preserve the exception discussion and add one compact limitations paragraph. |
 
-### 2. Several prerequisite lessons are mixed together
+### Motivation, payoff, and prerequisites
 
-- Beginners are often learning functional programming, Haskell notation, types, `Map`/bind, category theory, laziness, and IO behavior simultaneously.
-- A presenter may say that Haskell knowledge is unnecessary, then make `>>=`, `<-`, `do`, `return`, type classes, and type signatures carry the explanation.
-- Experts see each piece as small; beginners experience an unexplained stack of concepts.
-- Renaming Monad or adding another metaphor does not remove this prerequisite load.
+Readers repeatedly ask what IO buys them over ordinary code. A detailed [response to "Don't fear the Monad"](https://www.youtube.com/watch?v=ZhuHCtR3xq8&lc=UghZWwN6QT8ZxXgCoAEC) recommends beginning with a familiar problem and ordinary solution before introducing the abstraction. A [Computerphile response](https://www.youtube.com/watch?v=t1e8gqXLbsU&lc=UgyUC32QOVtZXao6_Uh4AaABAg) makes the related point that following one example is not enough if the mechanism does not transfer to another problem. These are individual comments, not survey results, but they identify a useful teaching test.
 
-The broad, overlapping Haskell-notation regex tagged 344 candidates across 27 videos; 93 used only generic markers, so this raw count is not a ranking of learner confusion. One viewer described the final steps as [unexplained syntax magic](https://www.youtube.com/watch?v=t1e8gqXLbsU&lc=UgzeNH_mwFpNQgeicUF4AaABAg.8bkGaUxFpWo9-CXkASrE6k). Part 3 has an advantage over those tutorials: Parts 1 and 2 already introduced mapping and binding (`FlatMap`/`Bind`), so it can remain in concrete C# types and name its prerequisite explicitly.
+Part 3 already performs better than many tutorials on this dimension. It starts with familiar C# effects, shows direct procedural code, supplies a complete workflow, and places the laws late. Parts 1 and 2 have already introduced `Map` and `FlatMap`. The article therefore does not need a new opening example or an earlier copy of the full workflow.
 
-Anecdotally, [one commenter in a generally positive Reddit thread](https://www.reddit.com/r/haskell/comments/gfqzjb/comment/fpvy34y/) said that special "action" and "box" language added mystique, while [one commenter in a Lobsters discussion](https://lobste.rs/s/0l1bcm/understanding_monads) argued that a definition alone can still leave operational questions unanswered.
+The remaining problem is pacing. A long Haskell and referential-transparency detour separates the procedural baseline from the concrete C# payoff. The fix is a short prerequisite sentence and an early preview of the payoff: ordinary C# already orders direct calls, while `IO<T>` makes an intended deferred boundary visible in a return type and lets application code choose where to run the composed workflow.
 
-### 3. Monad, IO, and effects are treated as synonyms
+This conclusion is narrower than the earlier recommendation to rebuild the teaching sequence. Both adversarial teams rejected moving the complete workflow ahead of the class. That move would require unexplained APIs or duplicate the article's strongest example.
 
-- At the programming level used in this series, a monad is a type constructor equipped with lifting and binding operations that are expected to satisfy the monad laws; the Haskell type class does not enforce those laws, and a monad is not a synonym for side effects.
-- `List`, `Maybe`, `Result`, parsers, and state can be monadic without performing external IO.
-- The article's `IO<T>` is one concrete effect type whose `FlatMap` gives composition the meaning of deferred, data-dependent effect sequencing.
-- Saying that IO composes "with other monads" suggests that `IO`, `Result`, `Task`, and `List` combine automatically. They do not; that requires additional types or lifting machinery outside this article.
-- Saying "monads sequence effects" is too broad. The Monad interface and laws do not by themselves imply external effects or one universal operational evaluation order; each concrete instance defines what its abstract action composition means. This IO implementation and its runner determine the behavior discussed in Part 3.
+### Monad, IO, deferral, and dependent composition
 
-The [Haskell 2010 `Monad` class](https://www.haskell.org/onlinereport/haskell2010/haskellch13.html) has `(>>=)` together with `return` as its minimal complete definition, states expected laws, and provides abstract action composition; IO gives that composition effects-specific behavior. Anecdotal Hacker News discussions include [a comment and debate over whether monads force sequencing](https://news.ycombinator.com/item?id=16419877) and [a broader question about what problem monads solve](https://news.ycombinator.com/item?id=17645277), not a documented consensus. The article should describe this `IO<T>` first and identify its monadic shape only after the behavior is visible.
+A monad is not a synonym for IO or side effects. At the level used in this series, it is a type constructor with lifting and binding operations expected to satisfy the monad laws. `List`, `Maybe`, `Result`, parsers, and state can have that shape without performing external IO. The [Haskell 2010 `Monad` class](https://www.haskell.org/onlinereport/haskell2010/haskellch13.html) defines `return` and `(>>=)` and states the expected laws; each concrete instance supplies its own operational meaning.
 
-### 4. Deferral is confused with sequencing
+Part 3 mostly respects this distinction, but its current central composition subsection does not. It says that deferred IO composes "with other monads," describes `Map` as responsible for sequencing IO, suggests that a main runtime automatically executes a returned value, and calls the result a list of instructions. None of those claims matches the delegate-backed type in the article:
 
-- A stored `Func<T>` already postpones its body. Deferral makes the work first-class, but it does not decide whether the delegate is invoked zero, one, or many times or in which order several delegates run.
-- `FlatMap` supplies the dependency rule: run the first IO, pass its result to a continuation that returns or selects the next IO (which may already exist), then run that IO.
-- The runner supplies the execution boundary. Merely constructing or returning an `IO<T>` does not cause a runtime to discover it.
-- The useful conditional guarantee is: when this composed value is run, this `FlatMap` chain performs its encoded actions in dependency order.
+- `Delay` stores a delegate without invoking its body. That is deferral.
+- `FlatMap` runs the source during execution, supplies its result to a continuation, and then runs the IO returned or selected by that continuation. That is dependent sequencing for this IO type.
+- `UnsafeRun()` invokes the stored computation. That is the execution boundary.
 
-Some sampled tutorials and discussions compress these separate ideas into "IO defers and sequences effects." That shortcut can contribute to later misunderstandings about timing, frequency, and automatic execution.
+Deferral is necessary for this style of composition, but it does not itself decide whether work runs zero, one, or many times. A stored `Func<T>` already postpones its body; the program's calls to `UnsafeRun()` determine whether attempts begin, and the nested delegates created by `FlatMap` determine the dependency order within an attempt.
 
-### 5. `Map`, `FlatMap`, and bind are not explained operationally
+The missing type-level motivation is small but important. If a function `Order -> IO<decimal>` is mapped over an `IO<Order>`, ordinary `Map` produces `IO<IO<decimal>>`. `FlatMap` produces `IO<decimal>` by composing the result-dependent next IO without running either operation at composition time. This is why bind is needed; "unwrapping a box" does not explain it.
 
-- Readers understand that `Map` applies a function but do not see why a callback returning `IO<B>` produces the wrong nested shape.
-- Bind is described as "shoving," "unwrapping," or extracting the value. Those words hide the critical type `A -> IO<B>`.
-- `FlatMap` does not give the caller a `T` at composition time. At execution time, it passes the result to a continuation that returns or selects the next IO computation.
-- In this article, `Map` should be used for a pure transformation of the eventual result and `FlatMap` when the next step returns another `IO`.
-- The `Func` types in this API do not encode callback purity, so this is a design rule rather than a guarantee of the ordinary C# type system.
+The broad YouTube regex tagged 325 candidates with words related to `Map`, `FlatMap`, bind, or `Pure`, but 124 matched only ambiguous words such as "map," "return," "join," or "lift." The count cannot measure prevalence. It does, however, contain concrete examples: one [viewer lost the talk at bind](https://www.youtube.com/watch?v=ZhuHCtR3xq8&lc=UgiPO-zI498wd3gCoAEC), while another said the signature made sense but the [examples needed to come first](https://www.youtube.com/watch?v=ZhuHCtR3xq8&lc=UghmoJ-D6AWD0HgCoAEC).
 
-The broad, overlapping `Map`/`FlatMap`/bind regex tagged 325 candidates across 31 videos; 124 used only ambiguous markers, so the count does not measure the theme's prevalence. One [viewer lost the talk at bind](https://www.youtube.com/watch?v=ZhuHCtR3xq8&lc=UgiPO-zI498wd3gCoAEC); another said the signature made sense but the [examples needed to come first](https://www.youtube.com/watch?v=ZhuHCtR3xq8&lc=UghmoJ-D6AWD0HgCoAEC).
+Related Hacker News threads contain both [a debate over whether monads force sequencing](https://news.ycombinator.com/item?id=16419877) and [disagreement about what problem monads solve](https://news.ycombinator.com/item?id=17645277). They are useful examples of the distinction readers dispute, not semantic authorities or evidence of a community consensus.
 
-### 6. The box, wrapper, recipe, and world-state metaphors become false definitions
+### Metaphors
 
-- "Box" or "wrapper containing a `T`" implies that a completed result already exists inside and can be extracted. `IO<T>` is a value representing deferred work that may produce a `T` when run.
-- "Taint" implies that a pure function returning an IO value is itself performing the effect.
-- "Recipe" is useful for construction versus execution but weak for dynamic dependencies, branching, failure, and repeated runs.
-- "List of instructions" implies an inspectable syntax tree. This implementation stores an opaque `Func<T>` and `FlatMap` can choose the next delegate from an earlier result.
-- Literal world-passing language makes readers imagine a snapshot of the universe. [GHC currently represents `IO`](https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/GHC-IO.html) using `State# RealWorld`, but that module is explicitly internal and non-portable: `RealWorld` is a zero-bit dependency token, not a world snapshot or the language-level definition of IO.
+"Recipe" is useful once for distinguishing construction from execution. It should not become the definition. A recipe can obscure dynamic dependencies, failure, and repeated execution, while "box containing a `T`" implies that a completed result is already available.
 
-For this delegate implementation, use "deferred computation" as the primary term. "Action," "recipe," and "opaque executable plan" can provide brief intuition, but define them and ground later statements in the stored delegate and its runner.
+The article does not have an article-wide metaphor problem. It does not rely on a literal world snapshot, taint model, or box definition. The only definite error is "list of instructions": this implementation stores opaque nested delegates, not an inspectable syntax tree. Keep the brief recipe intuition, then use "deferred computation" and describe the stored delegate directly.
 
-### 7. Action order, expression evaluation, and procedural statement order are conflated
+This is consistent with the community evidence. [One commenter in a generally positive Reddit discussion](https://www.reddit.com/r/haskell/comments/gfqzjb/comment/fpvy34y/) said that special "action" and "box" language was a major source of confusion. [One Lobsters commenter](https://lobste.rs/s/0l1bcm/understanding_monads) argued that definitions alone can leave operational questions unanswered. Neither comment supports purging every metaphor; both support grounding the metaphor in behavior and types.
 
-- [Haskell 2010 is non-strict](https://www.haskell.org/onlinereport/haskell2010/haskellch1.html): pure expressions need not be evaluated in source order, and unused expressions need not be evaluated. IO actions composed with `>>`/`>>=` have an encoded action order. These are related but not identical claims.
-- `do` is generic monadic syntax. For IO, bind encodes action order; it does not make every pure expression evaluate left-to-right, and a `let` inside `do` remains an ordinary lazy `let`.
-- It is misleading to say that "functional programming" generally replaces statement order with a different execution model. The relevant contrast here is Haskell's non-strict semantics, not functional programming as a whole.
-- It is also misleading to tell a two-phase story in which Haskell evaluates an entire recipe and then performs it. Pure support expressions may be evaluated on demand while the main action is performed.
-- [`Debug.Trace.trace`](https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/Debug-Trace.html) is a pure-typed debugging escape hatch implemented with `unsafePerformIO`, not an `IO` action. It can reveal when a value is demanded, but it is not referentially transparent, does not establish a language-defined evaluation order, and cannot guarantee one combined output order with `print` because trace output uses stderr while `print` uses stdout.
+### Evaluation order and referential transparency
 
-The authoritative distinction is in the [Haskell Report's IO chapter](https://www.haskell.org/onlinereport/haskell2010/haskellch7.html) and [`do` translation](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html#x8-470003.14). Part 3 needs only one short paragraph of this context.
+This is the article's most serious correctness cluster.
 
-### 8. Referential transparency is explained with invalid value/action substitutions
+[Haskell 2010 is non-strict](https://www.haskell.org/onlinereport/haskell2010/haskellch1.html): a pure expression need not be evaluated in source order, and an unused expression need not be evaluated. IO actions composed with bind have an encoded action order. These facts are related, but they are not the same claim. The [Haskell IO chapter](https://www.haskell.org/onlinereport/haskell2010/haskellch7.html) and [translation of `do` notation](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html#x8-470003.14) provide the relevant language-level account.
 
-- Given the article's premise that `ReadFile(...)` immediately returns a string, once C# evaluates `var x = ReadFile(...)`, `x` is that returned value. Reading `x` twice does not call `ReadFile` again. A genuinely deferred return type would be a different example.
-- Likewise, a Haskell binding of an IO action shares the action value, not its completed result. Sequencing that value twice performs the action twice; reusing a result bound with `<-` does not rerun the action.
-- Writing algebra such as `z = x + x` and then claiming each occurrence of `x` may produce a different value confuses a value with a repeatedly executed action.
-- The correct contrast is one stored result versus two explicit effectful calls, for example `var x = Next(); x + x` versus `Next() + Next()`.
-- Direct effect-performing calls make substitution, repetition, and reordering observable. In ordinary safe Haskell, a pure expression that denotes an IO action remains referentially transparent; explicit escape hatches such as `unsafePerformIO` and `trace` are exceptions to that reasoning. For this C# class, construction and continuations must by convention be deterministic from their inputs, pure, total, and nonthrowing; they must avoid mutable or external reads during construction and place effects only in delayed delegates. The `Func` type cannot enforce this discipline, and observational equality must ignore wrapper reference identity.
+C# is different. For the direct code in Part 3, local initializer statements are reached in order, and C# evaluates a call's receiver and then its argument expressions in textual left-to-right order. Short-circuiting constructs can skip an operand, and an implementation can optimize only within the specification's observable-behavior constraints. See the C# specifications for [expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions) and [execution order](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/basic-concepts#710-execution-order). The toy IO type is not repairing C# evaluation rules; it borrows the separation between describing and running work.
 
-This is a correctness issue, not merely a preference about presentation. An invalid algebra example undermines the exact equational reasoning it is intended to teach.
+The current `Debug.Trace.trace` demonstration should be removed. [`trace`](https://ghc.gitlab.haskell.org/ghc/doc/libraries/base-4.22.0.0-inplace/Debug-Trace.html) is a pure-typed debugging escape hatch implemented through unsafe machinery, not an IO action or a referentially transparent observation. It writes to stderr while `print` writes to stdout, so one displayed merged output is not a portable guarantee. A short accurate paragraph is clearer than the example.
 
-### 9. Construction, execution, repetition, and the application boundary remain blurry
+The current referential-transparency examples are also invalid:
 
-- Readers need separate predictions for construction, composition, first execution, and repeated execution.
-- `Pure(EffectfulCall())` is eager because C# evaluates the argument before `Pure` receives it. `Delay(() => EffectfulCall())` suspends the call.
-- Here, "cold" means that stored delegate bodies are not invoked during construction or composition. Receivers and arguments still evaluate immediately; null checks and allocations occur; and caller code or constructors can throw or perform effects. Describe construction and composition as happening without running the deferred operations, not as happening "without effects."
-- Every `UnsafeRun()` attempts the workflow again; an early exception may stop that attempt. The wrapper adds no memoization, so it is rerunnable or re-invocable, but repeated behavior is not guaranteed: a delegate may cache internally, be one-shot, return different results, or fail. This differs from the usual factory-backed [`Lazy<T>`](https://learn.microsoft.com/en-us/dotnet/framework/performance/lazy-initialization), which returns the same initialized value after success.
-- The program may be run zero, one, or many times. Composition does not promise exactly-once execution.
-- In Haskell, IO actions are values denoted by pure expressions, and the type distinguishes an action from its eventual result. The implementation performs the action denoted by `Main.main :: IO tau`; it does not discover arbitrary IO values elsewhere in the program.
-- Cats Effect has [`IOApp`](https://typelevel.org/cats-effect/api/3.x/cats/effect/IOApp.html), and ZIO has [`ZIOAppDefault.run`](https://zio.dev/reference/core/zioapp/) backed by a [`Runtime`](https://zio.dev/reference/core/runtime/). This tiny C# type has no host runtime; application code must explicitly call `UnsafeRun()` at an application boundary, such as `Main`, a request handler, or a background-worker entry point.
+- Once C# evaluates `var x = ReadFile(...)`, `x` is the returned value. Reading `x` again does not rerun `ReadFile`.
+- The sample says the file calls return strings, so `x + y` concatenates and `2 * x` does not compile.
+- Even for numbers, replacing `x + y` with `2 * x` is valid only if `x == y`.
+- In algebra, a variable denotes a value. Claiming that two occurrences of `x` can independently change teaches the opposite of referential transparency.
 
-The [C# IO implementation by Mark Seemann](https://blog.ploeh.dk/2020/07/13/implementation-of-the-c-io-container/) is particularly useful here because it distinguishes a re-invocable `Func<T>` from memoizing `Lazy<T>`.
+The correct C# contrast is a stored result versus repeated effectful calls:
 
-### 10. The C# value proposition is either exaggerated or dismissed
+```csharp
+int counter = 0;
+int Next() => ++counter;
 
-- At the language-semantics level, a C# invocation evaluates its receiver and then its argument expressions in textual left-to-right order; operand expressions are also evaluated left-to-right, although [short-circuiting operators can skip operands](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions). An implementation may reorder or elide work only within the [specification's observable-behavior constraints](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/basic-concepts#710-execution-order). This type is not repairing C#'s execution semantics.
-- C# permits callers to perform effects before or during IO construction and to put effects in callbacks supplied to `Map` or `FlatMap`. `IO<T>` establishes a voluntary convention and makes the intended deferred boundary visible in a return type; `Func` cannot encode or enforce purity, totality, nonthrowing construction, or where effects occur.
-- Simply wrapping every side effect adds ceremony without necessarily improving a design. The benefit appears when most logic remains ordinary pure code, effectful helpers return deferred work, and one outer boundary controls execution.
-- Claims that effect programs become inspectable, independently testable as data, or interpretable in multiple ways depend on an AST, instruction tree, or similar explicit design. This opaque `Func<T>` implementation cannot claim those benefits merely from using an IO wrapper.
-- Effect coloring is a real tradeoff: callers participating in the workflow must also return `IO<T>` or execute it. The visibility is useful only if the team values and follows the boundary.
+int x = Next();
+int reused = x + x;                // 2: one call
 
-The disagreement is laid out directly in [Does an IO monad make sense in C#?](https://stackoverflow.com/questions/21364837/does-an-io-monad-make-sense-in-a-language-like-c-sharp) and [the OCaml IO discussion](https://discuss.ocaml.org/t/io-monad-for-ocaml/4618). The balanced claim is organizational, not magical.
+counter = 0;
+int repeated = Next() + Next();    // 3: two calls
+```
 
-### 11. IO is equated with `Task`, promises, async, or scheduling
+`x + x` reuses one value. `Next() + Next()` performs two observable calls. That establishes why direct effectful calls cannot be freely duplicated or rearranged without confusing values with actions.
 
-- A `Task<T>` returned by a TAP method is active and has one terminal completion; awaiting that same task again observes the same completion. Manually constructed cold tasks exist, but [TAP consumers are told to assume returned tasks are active](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap). This `IO<T>` is cold and invokes its delegate afresh on each run.
-- Calling a C# async method executes it synchronously until it reaches an incomplete `await`; `await` observes completion rather than generally launching the operation. See Microsoft's [TAP consumption guidance](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern).
-- Promise and Future APIs can expose bind-like chaining, but their evaluation, memoization, scheduling, exception, and cancellation semantics vary by API.
-- `UnsafeRun()` synchronously invokes the stored delegate on the caller's thread. The delegate itself may block, dispatch work, or return a task; the wrapper adds no scheduler, thread pool, cancellation, concurrency, or asynchronous finalization.
-- For `IO<Task<T>>`, outer execution returns a task, which may be the same task or a new one on each run. The outer IO neither awaits it nor sequences its completion, failure, or cancellation, so this is not automatically a coherent asynchronous effect runtime.
+In ordinary safe Haskell, a pure expression denoting an IO action remains referentially transparent. Reusing the action value is not the same as reusing its eventual result: sequencing the action twice performs it twice, whereas reusing a result bound with `<-` does not rerun the action. Part 3 does not need this full distinction in the main text, but it must not imply the opposite.
 
-The article does not need an async detour. It needs one precise limitation sentence so readers do not transfer the semantics or capabilities of `Task`, Cats Effect, ZIO, or LanguageExt to this tiny type.
+### Lifecycle and the value of the C# type
 
-### 12. Failure, resources, and toy-runtime limits are omitted or overpromised
+Readers need distinct answers for construction, composition, first execution, and repeated execution:
 
-- No typed error channel does not mean the action cannot fail. Stored operations and continuations may throw ordinary synchronous C# exceptions. If `T` is `Task<U>`, faults and cancellation live in the returned task rather than in the outer IO's synchronous result.
-- If a step throws, later `FlatMap` steps do not run. Effects that already happened are not rolled back.
-- The wrapper supplies no retry, idempotency, transaction, rollback, or atomicity guarantee.
-- For resources owned by the deferred workflow, acquisition, use, and disposal should share one delayed scope using [`using`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/using), `try/finally`, or an explicit resource combinator. For externally owned resources, the caller must ensure that the lifetime covers every run; capturing an already-open disposable is unsafe if a run may outlive that lifetime.
-- This delegate interpreter is not stack-safe for arbitrarily deep `Map`/`FlatMap` programs. Left-associated chains recurse through the source's `UnsafeRun()`; continuation-produced chains recurse through `nextComputation.UnsafeRun()`; there is no trampoline or iterative run loop.
-- An immutable wrapper does not make captured state or operations thread-safe.
-- Broad `IO<T>` indicates that some IO may occur; it does not distinguish file, network, process, or other capabilities.
+- `Pure(EffectfulCall())` is eager because C# evaluates the argument before calling `Pure`.
+- `Delay(() => EffectfulCall())` stores a delegate whose body has not run.
+- `Map` and `FlatMap` build new delegates; their callbacks run when the composed computation runs.
+- Each `UnsafeRun()` invokes the wrapper's stored delegate again. The wrapper adds no memoization.
 
-Production libraries address larger, library-specific scopes. Cats Effect 3 [`IO`](https://typelevel.org/cats-effect/api/3.x/cats/effect/IO.html) is lazy and repeatable but nonmemoized by default, uses an `IORuntime`, models `Throwable` failures, supports fibers and cooperative cancellation, and trampolines `flatMap`; [`Resource`](https://typelevel.org/cats-effect/docs/std/resource) releases after a successful acquisition on success, failure, or cancellation, while [`IOApp`](https://typelevel.org/cats-effect/api/3.x/cats/effect/IOApp.html) establishes the runtime and runs the returned IO. ZIO's [`ZIO<R, E, A>`](https://zio.dev/reference/core/zio/) has a typed channel for expected errors, while defects and interruption remain separate; [`ZIOAppDefault.run`](https://zio.dev/reference/core/zioapp/) is its application boundary and is backed by a runtime. [LanguageExt `IO<A>`](https://louthy.github.io/language-ext/LanguageExt.Core/Effects/IO/index.html) has no error type parameter, and unhandled failures can be thrown by `Run` or `RunAsync`. These comparisons do not transfer semantics or capabilities to the toy wrapper, and Part 3 should state its limits once rather than grow it into a partial production runtime.
+"Cold" should mean only that construction and composition do not invoke the stored delegate bodies. C# still evaluates receivers and arguments immediately. Null checks, allocations, exceptions, and effects performed by surrounding caller code can occur during construction. The `Func` types cannot enforce purity.
 
-### Combined diagnosis
+Several current phrases need that precision. `FetchCurrentPriceIO` does not validate `remotePriceApi` or `productId`; the prose should drop the claim rather than change the teaching API's behavior. A continuation returns or selects the next IO; it need not construct a fresh one. A second `UnsafeRun()` attempts the workflow again, but an earlier failure can prevent later steps, and a captured operation can cache internally, be one-shot, or return a different result.
 
-Across the sampled sources, one recurring teaching-failure pattern is:
+This also gives the balanced C# value proposition. Ordinary C# already orders direct calls. `IO<T>` supplies a voluntary convention: it makes an intended deferred boundary visible, lets mostly pure application logic compose dependent work, and gives the outer caller an explicit place to start it. It does not prove purity, prevent eager effects, make the opaque delegates inspectable as data, add rollback, or turn a network request into mathematics.
 
-1. The tutorial delays the practical problem.
-2. The reader receives several abstractions and a metaphor at once.
-3. The metaphor becomes a false container or world-state model.
-4. Bind and execution timing remain unexplained, so the reader cannot transfer the example.
-5. Broad claims about purity, sequencing, errors, or async behavior create technical objections and distrust.
+Forum discussions about IO in [C#](https://stackoverflow.com/questions/21364837/does-an-io-monad-make-sense-in-a-language-like-c-sharp) and [OCaml](https://discuss.ocaml.org/t/io-monad-for-ocaml/4618) show the same tradeoff between an explicit effect boundary and voluntary discipline or ceremony. The strongest positive C# design in the linked discussion uses an inspectable operation tree and multiple interpreters. Those benefits do not transfer to Part 3's opaque `Func<T>` wrapper.
 
-The positive pattern is the reverse: familiar behavior, visible types, one concrete failure of `Map`, `FlatMap` as the repair, a complete composed program, an explicit run, and only then the Monad name and laws. Viewers praised a [part-to-whole progression](https://www.youtube.com/watch?v=C2w45qRc3aU&lc=UgxVX3z9IZyyMg4hCwd4AaABAg) and a [concise developer-oriented explanation](https://www.youtube.com/watch?v=VgA4wCaxp-Q&lc=UgzuHIU2VIAALcoytep4AaABAg); another called an [IO-specific video the best explanation they had seen](https://www.youtube.com/watch?v=fCoQb-zqYDI&lc=UgztPYFbrjqW7VrKEiN4AaABAg).
+The current article already contains the right boundary and exception model: application code calls `UnsafeRun()`, a thrown exception prevents later steps, and earlier effects are not rolled back. The final version only needs one compact limitation: `UnsafeRun()` synchronously invokes the stored delegate on the caller's thread and adds no asynchronous behavior. Owned resource acquisition, use, and disposal should stay in one delayed scope, using [`using`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/using) or `try/finally`. The wrapper provides no scheduler, cancellation, memoization, or thread-safety guarantee and no trampoline for arbitrarily deep `Map` or `FlatMap` chains.
+
+There is no reason to add an `IO<Task<T>>` discussion. Part 3 does not introduce that type, and the existing conclusion already says the example is not a replacement for the Task-based Asynchronous Pattern. Microsoft's [TAP guidance](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) is useful verification, not material the tutorial must teach.
+
+### Overall diagnosis
+
+The sampled sources suggest a common failure pattern: delay the practical problem, introduce several abstractions at once, let a metaphor replace operational behavior, leave bind and execution timing unexplained, and then overstate claims about purity or sequencing. The positive pattern reverses that order: familiar behavior, visible types, a concrete nesting problem, `FlatMap` as its repair, a composed program, an explicit run, and only then the Monad name and laws. Viewers praised a [part-to-whole progression](https://www.youtube.com/watch?v=C2w45qRc3aU&lc=UgxVX3z9IZyyMg4hCwd4AaABAg), a [concise developer-oriented explanation](https://www.youtube.com/watch?v=VgA4wCaxp-Q&lc=UgzuHIU2VIAALcoytep4AaABAg), and an [IO-specific explanation](https://www.youtube.com/watch?v=fCoQb-zqYDI&lc=UgztPYFbrjqW7VrKEiN4AaABAg).
+
+Part 3 already has most of the positive pattern. Its procedural baseline, minimal implementation, adjacent before-and-after workflows, dependency diagram, explicit run boundary, and late law section are strengths. The report should therefore guide a concentrated repair, not encourage expanding the article into a survey of functional effects.
 
 ## How to fix Part 3
 
-### Fix the current correctness problems first
+### Decision boundary
 
-These are concrete edits to the current working draft, in priority order.
+Preserve the article's current architecture:
 
-| Current passage or idea | Required change |
+- title and description;
+- familiar effect definition and procedural append example;
+- minimal `Unit` and `IO<T>` implementation;
+- procedural and composed workflows beside each other;
+- dependency-order diagram;
+- explicit `UnsafeRun()` application boundary;
+- laws after the behavior is visible;
+- concrete conclusion and exercise.
+
+Do not move the complete workflow before the class. Do not add new combinators, category theory, higher-kinded abstractions, an AST or alternate interpreter, an async detour, or a production-library comparison. These additions would answer questions the article does not ask and recreate the prerequisite overload identified in the research.
+
+### Must change
+
+#### 1. Preview the payoff and state the prerequisite
+
+Add a compact gate near the opening:
+
+> This part assumes the `Map` and `FlatMap` distinction from Parts 1 and 2; no Haskell syntax or category theory is required.
+
+Then state the C# payoff without implying that the language's execution order is defective:
+
+> Ordinary C# already orders these direct calls. The benefit here is organizational: `IO<T>` makes an intended deferred boundary visible in the return type, `FlatMap` composes a result-dependent next IO, and application code chooses where to run the completed workflow.
+
+This is a preview, not a second explanation of the complete workflow.
+
+#### 2. Replace the evaluation detour
+
+Keep the procedural example. Replace the broad "functional programming changes the execution model" claim, the "procedural programming behaves differently" claim, and the `Debug.Trace` block with one short bridge:
+
+> Pure expressions support substitution without changing observable behavior. Evaluation strategy is a separate question. Haskell is non-strict, so an unused pure binding may never be demanded; IO actions composed with bind nevertheless have an encoded action order. C# eagerly evaluates these local initializers as control reaches them. This tiny type borrows the description-versus-execution boundary rather than repairing C# evaluation order.
+
+Delete the file-read substitution and `a != z` algebra blocks. If a concrete referential-transparency example remains, use the counter example above and explain only that a stored result is not the same as two calls.
+
+#### 3. Replace the defective composition subsection
+
+Replace the current subsection beginning with "Why does deferring IO make it composable and sequencable?" with this progression:
+
+> `Delay` stores an operation without invoking it. That makes the work a value, but it does not decide its order or how many times it runs.
+>
+> If a function returning `IO<decimal>` is mapped over an `IO<Order>`, ordinary `Map` produces `IO<IO<decimal>>`. `FlatMap` avoids that nesting: when the composed computation is run, it runs the source, passes the result to the continuation, and then runs the IO returned or selected by that continuation.
+>
+> This composes IO with IO, not IO automatically with `List`, `Result`, or `Task`. Nothing executes merely because the value is returned. Application code starts the completed computation with `UnsafeRun()`.
+
+Use this distinction consistently:
+
+| Operation | Job |
 | --- | --- |
-| "Procedural programming behaves differently" or "Functional programming... changes the execution model" | Replace the paradigm-wide contrast with the scoped fact: in this C# example, those local initializers evaluate eagerly in statement order. If Haskell is mentioned, name its non-strict semantics explicitly; do not generalize them to functional programming as a whole. |
-| The `Debug.Trace.trace` example | Either remove it or label `trace` as a pure-typed debugging escape hatch implemented with `unsafePerformIO`, not an IO action. It can illustrate a demand relationship, but it is not referentially transparent or proof of a language-defined evaluation order. Do not promise one combined output order for trace's stderr and `print`'s stdout. |
-| `x = ReadFile(...)`, `y = ReadFile(...)`, and the claim that `x + y` cannot become `2 * x` | Delete or replace this example. The comments say `ReadFile` returns strings such as `"2"` and `"3"`, so `x + y` concatenates and `2 * x` does not compile. Even for numeric values, `x + y = 2 * x` only when `x = y`. If the observable difference matters, compare one stored result with two explicit calls. |
-| The `z = x + x`, `a = x + x`, `a != z` algebra block | Delete it. Ordinary algebraic variables denote values; this block teaches the opposite of referential transparency. If an observable comparison is still needed, use one stored counter result versus two explicit `Next()` calls. |
-| Repeated "effects are awkward" and sequencing paragraphs after the broken algebra | Collapse them to one transition: direct effects make repetition and order observable, so the article will construct a deferred workflow and run it explicitly later. |
-| "Calling `FetchCurrentPriceIO` validates its arguments" | The sample does not validate `remotePriceApi` or `productId`. Add the checks before `Delay`, or remove the claim. Construction-time prose and code must agree. |
-| The entire "Why does deferring IO make it composable and sequencable?" subsection | Replace it. It conflates deferral with composition, and its claims about arbitrary-monad composition, `list.Map`, `Map` sequencing IO, automatic execution by the main program, and a list of instructions do not match this type. |
-| "When we defer IO, it allows it to be composed with other monads" | Say that `IO<A>.FlatMap(A -> IO<B>)` composes IO computations with other IO computations. Do not imply automatic composition with `List`, `Result`, or `Task`. |
-| The claim that both `Map` and `FlatMap` express dependencies, or that "the map is responsible for calling f... thereby sequencing the IO" | `Map` transforms a value already in a context; `FlatMap`/bind composes a dependent computation that returns that context. In this implementation, their callbacks run only inside the stored delegate when the composed program is run. |
-| A continuation "constructs the next IO" | Say it returns or selects the next IO; it may return an existing value rather than construct a new one. |
-| "Typically you don't execute it yourself... the main program executes it for you" | Say that this tiny C# type has no host runtime. Application code explicitly calls `UnsafeRun()` at an application boundary, such as `Main`, a request handler, or a background-worker entry point. |
-| "A list of instructions" | Replace with "an opaque deferred computation." The implementation stores nested delegates, not an inspectable instruction list. |
-| `sequencable`, `familar`, `occured`, and `disasterous` | Correct to `sequenceable` or preferably avoid the adjective, `familiar`, `occurred`, and `disastrous`. |
+| `Delay` | Defer a delegate body. |
+| `Map` | Transform the eventual result with an ordinary function. |
+| `FlatMap` | Compose a result-dependent function returning another IO. |
+| `UnsafeRun()` | Invoke the stored computation. |
 
-The current implementation, procedural workflow, composed workflow, `UnsafeRun()` explanation, and law placement are broadly useful. The introduction and the deferral subsection are where most of the repair is needed.
+Delete the current `list.Map(...).FlatMap(...)` fragment, arbitrary-monad claim, claim that `Map` performs dependent sequencing, automatic-main-runtime story, and "list of instructions" description.
 
-### Rebuild the teaching path in this order
+Also correct the series recap. `Map` transformed contextual values in the earlier articles; `FlatMap` or `Bind` composed steps whose next computation depended on an earlier result. They should not both be described as dependent composition.
 
-1. **Reconnect to Parts 1 and 2 in one paragraph.** `List`, `Maybe`, and `Result` already showed the same lifting-and-binding shape under names such as `Unit`, `Ok`, `FlatMap`, and `Bind`. This article studies one new meaning: deferred effectful work.
+#### 4. Correct lifecycle wording
 
-2. **Define effects in familiar C#.** Keep one observable effect such as `Console.WriteLine` or file writing and contrast it with one pure calculation. State why return values are not the whole behavior of effectful calls.
+Make the following surgical replacements:
 
-3. **State the C# payoff immediately.** Use one direct thesis: `IO<T>` turns work that may perform effects and produce a `T` into a value whose intended deferred boundary is visible and that can be composed before an explicit run. "Cold" means only that the stored delegate bodies are not invoked; this `Func`-based API cannot enforce purity or prevent effects and exceptions in surrounding construction code.
+| Current idea | Replacement |
+| --- | --- |
+| `FetchCurrentPriceIO` validates its arguments | Remove the claim. The shown helper only stores the request-producing lambda. |
+| `Pure` can defer an effectful call | Show or state that `Pure(EffectfulCall())` is eager; use `Delay(() => EffectfulCall())` for deferral. |
+| Construction performs no effects | Construction and composition do not invoke the stored file or network operations. Surrounding C# evaluation can still run, throw, allocate, or perform effects. |
+| A continuation constructs the next IO | A continuation returns or selects the next IO. |
+| Every run repeats the workflow | Every run attempts the workflow by invoking the stored delegate again; the wrapper adds no memoization. |
+| The result is replayable | The wrapper is rerunnable or re-invocable; identical outcomes are not guaranteed. |
+| The main program runs returned IO automatically | Application code explicitly calls `UnsafeRun()` at a boundary such as `Main`, a request handler, or a background-worker entry point. |
 
-4. **Keep the procedural file example.** It gives the reader a known baseline: C# eagerly evaluates those local initializers in statement order. Do not imply that ordinary C# sequencing is defective or mysterious or make a paradigm-wide claim about procedural programming.
+Correct the nearby spelling errors `familar`, `occured`, `disasterous`, and `sequencable` while editing those passages.
 
-5. **Use only a short Haskell bridge.** Haskell is non-strict, so pure expressions need not be evaluated in source order and unused expressions need not be evaluated. `do` is generic monadic syntax; for IO, bind encodes action order while `let` remains lazy. An IO action is a value denoted by a pure expression and is distinct from its eventual result. The implementation performs `Main.main :: IO tau`; it does not discover arbitrary IO values. The C# type borrows this construction/execution distinction rather than repairing C# evaluation.
+#### 5. State the runtime boundary once
 
-6. **Motivate `Delay` with an eager mistake.** Show that `Pure(remotePriceApi.GetCurrentPrice(id))` performs the request before `Pure` is called, whereas `Delay(() => ...)` stores the call. This establishes construction-time coldness without another metaphor.
+Keep the current exception paragraph. Add one compact limitation near it or in the conclusion:
 
-7. **Make the `Map` failure visible.** Start with `IO<Order>`. Mapping a function `Order -> IO<decimal>` yields `IO<IO<decimal>>`. Explain that `Map` transforms a contextual value, whereas `FlatMap`/bind composes a dependent computation returning that context. Then introduce `FlatMap` as the operation that removes the nesting while preserving the deferred dependency. Read the signature in plain English before showing the implementation.
+> `UnsafeRun()` synchronously invokes the stored delegate on the caller's thread and adds no asynchronous behavior. Keep acquisition, use, and disposal of resources owned by the workflow inside the same delayed scope. This wrapper supplies no scheduler, cancellation, memoization, or thread-safety guarantees, and deeply nested `Map` or `FlatMap` chains may overflow the stack because it has no trampoline.
 
-8. **Present the complete `IO<T>` implementation.** Keep `Unit`, `Pure`, `Delay`, `Map`, `FlatMap`, and `UnsafeRun()`. Explain that `UnsafeRun()` invokes the stored computation, while callers can still violate the convention by performing effects earlier. Construction and composition avoid running deferred operations, but C# still evaluates receivers and arguments, performs checks and allocations, and may throw. Avoid expanding into extra combinators.
+Do not add `IO<Task<T>>`, Cats Effect, ZIO, or LanguageExt to the article. Those systems have different semantics and much larger scopes; naming them would not clarify this implementation.
 
-9. **Keep the before-and-after workflow adjacent.** The current read -> parse -> fetch -> calculate -> render -> write example is the article's strongest material. Mark parsing, calculation, and rendering as ordinary pure functions; mark file and network operations as delayed IO.
+### Should change
 
-10. **Run at the boundary.** Show construction without running the deferred operations, one successful `UnsafeRun()`, and a second run that attempts the workflow again. The wrapper adds no memoization, but a delegate may cache internally, be one-shot, return a different result, or fail; an early exception skips later steps without undoing earlier effects.
+#### Make the laws precise without expanding them
 
-11. **Name Monad and state the laws last.** Say that the operations are expected to obey the laws; neither the ordinary C# types nor the Haskell type class enforce them. Interpret equality observationally for fresh, equivalent starting programs: both sides have the same termination behavior and relevant effects in the same order and, when they terminate, the same result or failure under the chosen observation. Assume `f` and `g` are total, nonthrowing, side-effect-free constructors, deterministic from their inputs, free of mutable or external reads during construction, and return non-null IO values without forcing them. If the comparison includes reruns, repeated continuation construction must produce rerun-equivalent IO and must not introduce fresh hidden mutable state. Ignore wrapper identity and retain this delegate interpreter's stack and other operational bounds.
+Keep all three laws and their current late placement. Tighten the caveat to say what equality means for this executable type:
 
-12. **End with one application rule.** Construct effectful helpers with `Delay`, transform contextual results with `Map`, compose dependent IO with `FlatMap`, and call `UnsafeRun()` at an application boundary, such as `Main`, a request handler, or a background-worker entry point. Then give the synchronous teaching-model limitation in one compact paragraph.
+> Interpret equality observationally for freshly constructed programs: from equivalent starting state, both sides should have the same termination behavior and relevant effects in the same order and, when they terminate, the same result or equivalent failure. `f` and `g` must be deterministic, total, nonthrowing constructors of non-null IO values. They must not read mutable or external state, perform effects, call `UnsafeRun()`, or force returned IO values while constructing them. If the comparison includes rerunning the same wrapper, repeated continuation construction must also produce rerun-equivalent computations without fresh hidden mutable state. Ignore wrapper reference identity and limit the claim to this interpreter's operational bounds.
 
-### Use these exact distinctions consistently
+An exception thrown by a stored IO operation is an outcome to compare, not automatically a law violation.
+
+#### Make the counter exercise test transfer
+
+Keep the current counter exercise, but ask the reader to predict the counter after construction, after adding `Map`, after adding `FlatMap`, after the first `UnsafeRun()`, and after a second run. Also ask why `Pure(Next())` is eager while `Delay(() => Next())` is deferred, and what happens to later steps if one delayed operation throws. This checks the lifecycle model instead of merely asking the reader to reproduce the class.
+
+### Preserve
+
+- The familiar definition of an effect and pure/effectful contrast.
+- The procedural append example.
+- The remote-price helper returning `IO<decimal>`.
+- The complete `Unit`, `Pure`, `Delay`, `Map`, `FlatMap`, and `UnsafeRun()` implementation.
+- The adjacent direct and composed workflows.
+- The dependency diagram.
+- The explicit execution boundary, normal exception propagation, laws, conclusion structure, and exercise.
+- "Recipe" once as bounded intuition, followed by "deferred computation."
+
+### Omit
+
+- Relocating or duplicating the full workflow.
+- New combinators or API behavior.
+- A wholesale metaphor purge.
+- `IO<Task<T>>` and an async tutorial.
+- ASTs, alternate interpreters, or effect-coloring theory.
+- Category theory, generic higher-kinded abstractions, or transformers.
+- A Cats Effect, ZIO, or LanguageExt feature survey.
+- Claims that this opaque delegate wrapper is inspectable program data or a production effect runtime.
+
+### Exact terminology
 
 | Avoid | Use instead |
 | --- | --- |
 | "`IO<T>` contains a `T`." | "`IO<T>` is a deferred computation that may perform effects and produce a `T` when run." |
-| "IO makes an impure function pure." | "Pure code can construct and combine descriptions of effectful work; running them still performs effects." |
-| "Deferral sequences effects." | "Deferral makes work first-class; this `FlatMap` implementation encodes dependent sequencing." |
-| "IO or Monad forces evaluation order." | "When this IO program is run, its actions execute in the dependency order encoded by this `FlatMap` chain." |
-| "Bind unwraps IO." | "`FlatMap` supplies the result to a continuation that returns or selects the next deferred IO." |
-| "The IO runs exactly once." | "It may run zero, one, or many times; every `UnsafeRun()` attempts the stored workflow again, and an early failure may stop that attempt." |
-| "The main program runs it for you." | "Application code explicitly calls `UnsafeRun()` at an application boundary, such as `Main`, a request handler, or a background-worker entry point." |
-| "Cold construction has no effects." | "Cold means the stored delegate bodies are not invoked; ordinary C# evaluation, checks, allocations, and exceptions can still occur during construction." |
-| "Recipe" as the continuing definition | Use recipe once, then use "deferred computation" and refer to the stored delegate. |
-| "List of instructions" | "Opaque executable plan" or simply "composed deferred computation." |
-| "A `Task<T>` is asynchronous IO." | "A task returned by a TAP method is active and has one terminal completion; this IO synchronously invokes its delegate on each run. An outer `IO<Task<T>>` returns but does not await or sequence the task." |
-| "No typed error means it cannot fail." | "Synchronous failure is not represented in the type, but the stored operation may throw; task faults and cancellation remain in a returned task." |
+| "IO makes an impure function pure." | "Pure code can construct and combine deferred effectful work; running it still performs effects." |
+| "Deferral sequences effects." | "Deferral stores work; this `FlatMap` implementation encodes a result-dependent next IO." |
+| "Monad forces evaluation order." | "When this IO is run, its delegates are invoked in the dependency order encoded by its `FlatMap` chain." |
+| "Bind unwraps IO." | "`FlatMap` passes the result to a continuation that returns or selects the next IO." |
+| "The IO runs exactly once." | "It may be run zero, one, or many times; each `UnsafeRun()` invokes the wrapper's stored delegate." |
+| "Cold construction has no effects." | "Cold means construction and composition do not invoke the stored delegate bodies." |
+| "The main program runs it for you." | "Application code explicitly calls `UnsafeRun()` at an application boundary." |
+| "List of instructions." | "Opaque deferred computation." |
 | "The immutable IO is thread-safe." | "The wrapper is immutable; captured operations and state may not be thread-safe." |
-
-### Preserve, shorten, and remove
-
-**Preserve:**
-
-- The familiar definition of an effect and the pure/effectful contrast.
-- The procedural append example.
-- The remote-price helper returning `IO<decimal>`.
-- The complete minimal `IO<T>` implementation.
-- The procedural and composed end-to-end workflows.
-- The dependency-order diagram.
-- The explicit `UnsafeRun()` boundary, repeated-run behavior, laws, and exercise.
-
-**Shorten:**
-
-- The series recap to one paragraph.
-- Haskell evaluation history to one accurate paragraph.
-- The explanation after the workflow to one construction statement and one execution statement.
-- The law caveat to the assumptions that matter: fresh programs from equivalent starting state; deterministic, pure, total, nonthrowing construction and continuations; no external or mutable reads during construction; no observed wrapper identity; rerun-equivalent continuations without fresh hidden mutable state when comparing reruns; and executions within the toy runtime's operational bounds. A failure raised by a stored IO operation is an outcome to compare, not automatically a law violation.
-- The conclusion to one application rule and one limitations paragraph.
-
-**Remove:**
-
-- The file-read substitution pseudocode and invalid algebra block.
-- Repeated statements that effects are necessary or awkward.
-- The current `list.Map(...).FlatMap(...)` fragment.
-- Claims that deferral itself sequences, that `Map` performs the sequencing, or that arbitrary monads compose automatically.
-- Automatic-runtime and instruction-list descriptions that do not match this implementation.
-- Category theory, generic higher-kinded abstractions, transformers, alternate interpreters, and production-runtime APIs from the main path.
-
-### Add only the minimum practical caveats
-
-These four points cover recurring question clusters in the sampled material without creating an appendix:
-
-- "Cold" means only that construction and composition do not invoke the stored delegate bodies; ordinary receiver and argument evaluation, checks, allocations, caller effects, and exceptions can still occur. Every `UnsafeRun()` attempts the workflow again, but the wrapper cannot prevent internal caching, one-shot behavior, changed results, or early failure.
-- Exceptions from synchronous execution remain ordinary C# exceptions. If one is thrown, later steps do not run and completed effects are not rolled back. For `IO<Task<T>>`, the outer run returns a task but neither awaits nor sequences its faults or cancellation.
-- Keep acquisition, use, and disposal in the same delayed scope for resources the workflow owns; externally owned resources require an explicit lifetime contract.
-- This wrapper synchronously invokes its delegate on the caller's thread; the delegate may block, dispatch work, or return a task. It supplies no scheduler, cancellation, concurrency, memoization, or thread-safety guarantees and is not stack-safe for arbitrarily deep `Map`/`FlatMap` programs: source chains and continuation-produced chains both recurse, with no trampoline or iterative run loop.
-
-### Make the exercise prove transfer, not memorization
-
-Ask the reader to refactor a small direct workflow rather than reproduce the class from memory:
-
-1. Start with read -> parse -> dependent request -> render -> write.
-2. Predict what happens during construction, after `Map`, after `FlatMap`, and after two executions.
-3. Explain why `Pure(EffectfulCall())` is eager and `Delay(() => EffectfulCall())` is deferred.
-4. Make one step throw and predict which later effects are skipped and which earlier effects remain.
-5. Identify the pure middle and the single application execution boundary.
 
 ### Definition of done
 
-- The article answers "why use this in C#?" before introducing implementation details.
-- Every claim is local to the delegate-backed synchronous `IO<T>` unless Haskell or a production library is named explicitly.
+- The article answers "why use this in C#?" before implementation details without duplicating the full workflow.
+- Every behavioral claim is local to the delegate-backed synchronous `IO<T>` unless Haskell is named explicitly.
 - No variable is described as rerunning the operation that initialized it.
-- Construction, composition, first run, and repeated run are observably distinct.
-- `Map` and `FlatMap` are motivated by their types and used consistently.
+- Construction, composition, first execution, and repeated execution are observably distinct.
+- `Delay`, `Map`, `FlatMap`, and `UnsafeRun()` each have one consistent role.
 - Haskell syntax and category theory are not prerequisites for the C# explanation.
-- The end-to-end workflow is the center of the article, not an afterthought.
+- The end-to-end workflow remains the center of the article.
 - Failure, resource lifetime, and runtime limitations are stated once.
-- The conclusion tells the reader exactly where to use `Delay`, `Map`, `FlatMap`, and `UnsafeRun()` at the application boundary.
+- The conclusion gives one application rule: construct effects with `Delay`, transform eventual values with `Map`, compose dependent IO with `FlatMap`, and call `UnsafeRun()` at the application boundary.
