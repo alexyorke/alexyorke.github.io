@@ -9,17 +9,25 @@ permalink: 2026/06/13/monads-in-c-sharp-part-3-io/
 
 The first two parts used `Map` to transform contextual values and `FlatMap`—called `Bind` in Part 2—to compose steps whose next computation depended on an earlier result. `List`, `Maybe`, and `Result` decided what flowed onward.
 
-This part assumes the distinction between `Map` and `FlatMap`. No Haskell syntax or category theory is required.
+The functions that we've discussed previously are called pure functions: they return the same output given the same input, and don't change the world. Here, the "world" means things outside the program, e.g., making an HTTP call, writing to a file or a database, or printing to the screen. Useful programs have to interact with the world in some way. Some functions also read files, ask for input, call APIs, draw to the screen, or change shared state. We call that interaction with the world an **effect**, and a function that performs one an **effectful function**.
 
-Some functions also read files, ask for input, call APIs, draw to the screen, or change shared state. We call that interaction with the world an **effect**, and a function that performs one an **effectful function**.
+So the I-O monad, M-O-N-I-D, is It is one approach to sequence and compose effectful computations in functional programs. The reason why it's one approach is because There are different functional programming languages, for example, non-pure ones that have different ways to compose these sequences. Effects and don't necessarily always need the IO monad and For example, OCaml, which is another programming language, what it does is it uses a semicolor to sequence and cause effects. And for procedural languages like C sharp, for example, it I guess the statement order, except if you're excluding like tasks and threading and such, statement order is what defines when effects run because they run sequence. For OCaml, it's similar. You could use IO monad if you wanted to, but it's not necessary to do them. For Haskell, it's a bit different because the way that it works is it is a pure functional process. Programming language, and the evaluation order is not necessarily specified. It's a lazily evaluated programming language. Because it's pure than, well, by definition, you can't just have effects anywhere. But this shows that the reason why the IO monad is required in that case to sequence and compose effects is because, well, there really isn't an evaluation order. And IO kind of by definition allows creating an I.O. action for the function you want to run. And then next, using map or flat map, for example, compose it with the other operations temporarily afterwards, where the program itself, the main, is the interpreter which runs the IO itself. Is one way of sequencing the effects because the language itself does not have the capability to do that. The reason why you have to, well, the reason why it's useful to have the capability to compose and sequence effects is because effects Typically, but not always, need to be need to run in a specific sequence and may not necessarily have explicit data dependencies between each other. Because they modify the world, which is a bit ambiguous, and Typically you have to run them in a specific order. And it has to be run at a specific time. For example, if you're asking users for an input, you want to have it at a specific time. If you want a con HTTP API, it has to be done after the next one, for instance. And Haskell, for example, evaluation order, it depends on the interpreter, doesn't really matter as long as the output is the same. Is a bit different, the order does matter. Now, you don't necessarily to have a purely functional programming language, you would have to have the IO mona, is my understanding. But for a functional programming language. You don't necessarily need to have one if you want to compose in sequence effects. Depends on what the language is capable of and what it's designed to do in this case and what machinery you have available to do this.
 
-An effect matters even when its return value is discarded. `Console.WriteLine(...)` returns no useful value, but displaying the text is still part of the program. A file write or HTTP request can likewise change the world even if its result is ignored.
+An effect matters even when its return value is discarded. `Console.WriteLine(...)` returns no useful value, but displaying the text is still part of the program. A file write or HTTP request can likewise change the world even if its result is ignored, for example, the data written to a file persists even after the program has closed.
 
 A pure calculation is different. Evaluating and discarding `1 + 1` changes no external state. Repeating or skipping it likewise changes nothing outside the calculation. With an effect, **whether, how often, and in what order** it runs can change the program's meaning.
 
-`IO<T>` is one way to represent effectful work as a value. Think of it as a recipe: construction describes work for later, `FlatMap` composes a result-dependent next IO, and application code chooses where to run the completed workflow. Ordinary C# already orders direct calls; the benefit here is making that intended deferred boundary visible and composable.
+`IO<T>` is one way to represent effectful work as a value. Think of it as a recipe: construction describes work for later, `FlatMap` composes a result-dependent next IO, and application code chooses where to run the completed workflow.
+
+When you wrap an effectful computation in IO, well, any computation for that matter:
+
+IO.From(() => File.AppendAllText(...))
+
+Nothing happens. It is just a recipe to append all text to that file, and is only executed when explicitly requested.
 
 ## Why do we need this IO monad?
+
+Effects are sort of awkward in functional programming, but, we need to have effects, otherwise our programs are not very useful. Let me explain.
 
 In ordinary C#, statement order already gives effects an obvious sequence:
 
@@ -28,21 +36,27 @@ File.AppendAllText(path, "first");
 File.AppendAllText(path, "second");
 ```
 
-Assuming both calls succeed, the first append runs before the second. Reversing or skipping either call changes the file. Although they return `void`, the calls run for their effects. Pretty standard.
+Assuming both calls succeed, the first append text to the file runs, then the second. Reversing or skipping either call changes the resulting file, if you write "second" first, then, well, your file will have the text "second" appended first. Although the functions return `void`, the calls run for their effects. The act of writing to the file is the effect. Fairly straightforward.
 
-Pure expressions can be reasoned about more like algebra. Consider:
+In functional programming, we have a couple useful things: referential transparency, the ability to replace an expression with its value and it returns the same result, and equational reasoning. The issue is that effects, as they are right now, break that model.
 
-```text
-x = 2
-y = x + 4
-z = x + y + 1
-```
 
-Replacing `x` with `2`, or `y` with `x + 4`, leaves `z` with the same value. This is **referential transparency**: replacing an expression with its value preserves meaning. It supports **equational reasoning**, where equal expressions can be substituted as in algebra.
 
-Evaluation strategy is a separate question. [Haskell is non-strict](https://www.haskell.org/onlinereport/haskell2010/haskellch1.html), so an unused pure binding may never be demanded; [IO actions composed with bind](https://www.haskell.org/onlinereport/haskell2010/haskellch7.html) nevertheless have an encoded action order. [C# eagerly evaluates local initializers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/basic-concepts#710-execution-order) as control reaches their statements. This tiny type borrows the description-versus-execution boundary rather than repairing C# evaluation order.
+If I said:
 
-The distinction that matters is one stored result versus two explicit calls:
+x = 2 + 9
+y = 4
+z = y + 4
+
+I want to get the value of z. Do I need to compute x? No, z doesn't depend on x. The issue is, that, if x is an effectful function, say:
+
+x = DoStuff()
+
+Then, well, x doesn't get executed if you only want z. That's an issue, because effectful functions make observable changes to the world; when they run and how often is important and observable. This means its difficult to sequence effects, because it has to run at a certain time, in a certain sequence.
+
+If we enforce statement order, where each function runs one after the other, we'd lose the equational reasoning and referential transparency properties of functional programming, that is, the ability to substitute a value for its expression. We can no longer guarantee it.
+
+Here is a case where the functions are not referentially transparent:
 
 ```csharp
 int counter = 0;
